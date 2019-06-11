@@ -1,43 +1,95 @@
-﻿---
-title: Présentation de l’ID de la personne appelée dans Lync Server 2013
-TOCTitle: Présentation de l’ID de la personne appelée dans Lync Server 2013
-ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721892(v=OCS.15)
-ms:contentKeyID: 49891548
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: appelé présentation ID'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Called ID presentation
+ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721892(v=OCS.15)
+ms:contentKeyID: 49733826
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 30bd84e60118697c94aba6c6088de68fc37d34c1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838687"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Présentation de l’ID de la personne appelée dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="called-id-presentation-in-lync-server-2013"></a>Appelée présentation ID dans Lync Server 2013
 
-Avec Lync Server 2010, le numéro de téléphone du destinataire (numéro de téléphone appelé) peut être traduit du format E.164 au format de numérotation local requis par l’*homologue de jonction* (passerelle associée, système PBX ou jonction SIP). Pour ce faire, vous devez définir une ou plusieurs règles de traduction pour traduire l’URI de demande avant de l’acheminer vers l’homologue de jonction.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-21_
+
+Avec Lync Server 2010, le numéro de téléphone de la personne appelé (c’est-à-dire, le numéro de téléphone appelé) peut être converti à partir du format E. 164 vers le format de numérotation local requis par le Trunk pair (c’est-à-dire, la passerelle associée, le PBX (PBX) ou le Trunk SIP). À cet effet, vous devez définir une ou plusieurs règles de traduction pour convertir l’URI de demande avant de l’acheminer vers l’homologue de jonction.
+
+<div>
+
 
 > [!IMPORTANT]  
-> La possibilité d’associer une ou plusieurs règles de traduction à une configuration de jonction Voix Entreprise peut servir d’<em>alternative</em> à la définition de règles de traduction sur l’homologue de jonction. N’associez pas de règles de traduction avec une configuration de jonction Voix Entreprise si vous avez configuré les règles de traduction sur l’homologue de jonction, car les deux règles risqueraient de provoquer un conflit.
+> La possibilité d’associer une ou plusieurs règles de traduction à une configuration de Trunk vocale d’entreprise est conçue pour être utilisée comme <EM>alternative</EM> à la configuration de règles de traduction sur l’homologue de Trunk. N’associez pas de règles de traduction à une configuration de Trunk vocale d’entreprise si vous avez configuré des règles de traduction sur le Trunk homologue, car les deux règles peuvent entrer en conflit.
 
-Vous pouvez employer l’une des méthodes suivantes pour créer ou modifier une règle de traduction :
 
-  - Utilisez l’outil **Créer une règle de traduction** pour spécifier les valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et ceux à ajouter, puis laissez Panneau de configuration Lync Server générer pour vous le modèle correspondant et la règle de traduction.
 
-  - Écrivez les expressions régulières manuellement pour définir le modèle correspondant et la règle de traduction.
+</div>
+
+Pour créer ou modifier une règle de traduction, vous pouvez utiliser l’une des méthodes suivantes:
+
+  - Utilisez l’outil **créer une règle de traduction** pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis laissez le panneau de configuration de Lync Server générer le modèle correspondant et la règle de traduction correspondants.
+
+  - Rédigez manuellement des expressions régulières pour définir les modèles correspondants et les règles de traduction.
+
+<div>
+
 
 > [!NOTE]  
-> Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « Expressions régulières .NET Framework » à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0x40C</a>.
+> Pour plus d’informations sur la façon d’écrire des expressions régulières, voir «expressions <A href="http://go.microsoft.com/fwlink/p/?linkid=140927">http://go.microsoft.com/fwlink/p/?linkId=140927</A>régulières .NET Framework» à l’adresse.
 
-## Dans cette section
 
-  - [Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)
 
-  - [Créer ou modifier manuellement une règle de traduction](lync-server-2013-create-or-modify-a-translation-rule-manually.md)
+</div>
 
-## Voir aussi
+<div>
 
-#### Concepts
+## <a name="in-this-section"></a>Dans cette section
 
-[Présentation de l’ID d’appelant dans Lync Server 2013](lync-server-2013-caller-id-presentation.md)
+  - [Créer ou modifier une règle de traduction à l’aide de l’outil créer une règle de traduction dans Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)
+
+  - [Créer ou modifier une règle de traduction manuellement dans Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Présentation de l’identification de l’appelant dans Lync Server 2013](lync-server-2013-caller-id-presentation.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

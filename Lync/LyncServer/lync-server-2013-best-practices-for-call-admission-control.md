@@ -1,32 +1,75 @@
-﻿---
-title: "Lync Server 2013 : Meill. pratiques liées au contrôle d’admission des appels"
-TOCTitle: Meilleures pratiques liées au contrôle d’admission des appels
-ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398770(v=OCS.15)
-ms:contentKeyID: 49298162
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Meilleures pratiques liées au contrôle d’admission des appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for call admission control
+ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398770(v=OCS.15)
+ms:contentKeyID: 48184913
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b89be654a01615c750ce4f49f866e9339bc7e261
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838724"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Meilleures pratiques liées au contrôle d’admission des appels dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-22_
+# <a name="best-practices-for-call-admission-control-in-lync-server-2013"></a>Meilleures pratiques liées au contrôle d’admission des appels dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-22_
 
 Pour améliorer les performances et faciliter le déploiement, appliquez les recommandations suivantes lors du déploiement du contrôle d’admission des appels :
 
   - Vérifiez que les réseaux étendus (WAN) sont configurés en conséquence pour le trafic multimédia actuel et envisagé.
     
+    <div>
+    
+
     > [!NOTE]  
     > Nous vous conseillons de définir un facteur en mémoire tampon quant aux limites de votre bande passante. Il existe des scénarios de condition de concurrence qui agissent sur la bande passante totale utilisée et qui peuvent entraîner des situations de dépassement de la limite de la bande. Prenons l’exemple de deux appels amorcés alors que le trafic multimédia approche de la limite de la bande passante : l’un des appels pourra être refusé, car l’autre a été configuré pour démarrer en premier.
+
+    
+    </div>
 
   - Contrôlez l’utilisation du réseau et les enregistrements des détails des appels pour pouvoir choisir les meilleurs paramètres de contrôle d’admission des appels (CAC) et les mettre à jour en fonction de l’évolution de l’utilisation du réseau.
 
   - Utilisez les stratégies de bande passante CAC pour compléter les paramètres QoS.
 
-  - Si vous souhaitez réacheminer des appels bloqués sur le réseau RTC, vérifiez les fonctionnalités et capacités correspondantes. Pour plus d’informations, reportez-vous à [Planification du routage des communications vocales sortantes dans Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
+  - Si vous souhaitez réacheminer des appels bloqués sur le réseau RTC, vérifiez les fonctionnalités et capacités correspondantes. Pour plus d’informations, reportez-vous à la [planification du routage de la voix sortante dans Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md).
     
+    <div>
+    
+
     > [!NOTE]  
     > La capacité fait référence au nombre de ports à ouvrir pour prendre en charge un éventuel réacheminement vers le réseau RTC.
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

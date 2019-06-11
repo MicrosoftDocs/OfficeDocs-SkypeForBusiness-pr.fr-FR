@@ -1,35 +1,79 @@
-﻿---
-title: "Lync Server 2013 : prise en ch. du log. et de l’infra. des clients et disp."
-TOCTitle: Prise en charge du logiciel et de l’infrastructure des clients et des dispositifs
-ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398412(v=OCS.15)
-ms:contentKeyID: 49297350
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : prise en charge du logiciel et de l’infrastructure des clients et des dispositifs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Client and device software and infrastructure support
+ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398412(v=OCS.15)
+ms:contentKeyID: 48184265
+ms.date: 08/27/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eed2bfdaa01ef1aa4b688e62932d4e97a0fb4052
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838558"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge du logiciel et de l’infrastructure des clients et des dispositifs dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Prise en charge du logiciel et de l’infrastructure des clients et des dispositifs dans Lync Server 2013
 
-La prise en charge logicielle des clients et périphériques d’un déploiement Lync Server 2013 inclut les systèmes d’exploitation pris en charge, le logiciel d’infrastructure et les autres logiciels supplémentaires requis pour la prise en charge des fonctionnalités de client et de périphérique.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  -   
-    [Prise en charge du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+<div id="mainBody">
 
-  -   
-    [Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+<span> </span>
 
-  -   
+_**Dernière modification de la rubrique:** 2014-08-27_
+
+La prise en charge logicielle des clients et des appareils d’un déploiement de Lync Server 2013 inclut les systèmes d’exploitation pris en charge, le logiciel d’infrastructure ainsi que d’autres logiciels supplémentaires nécessaires à la prise en charge des fonctionnalités du client et de l’appareil.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - <span></span>  
+    [Support du logiciel client Lync dans Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+
+  - <span></span>  
+    [Prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+
+  - <span></span>  
     [Comment les photos d’utilisateur sont affichées dans Lync](how-user-photos-are-displayed-in-lync.md)
 
+<div>
+
+
 > [!NOTE]  
-> Lync Phone Edition fonctionne de la même manière avec Lync Server 2013 qu’avec Lync Server 2010. Pour plus d’informations sur la prise en charge logicielle pour les périphériques, reportez-vous aux rubriques suivantes dans la bibliothèque TechNet Lync Server 2010 :<ul>
-> <li><p>Composants Lync Server 2010 requis pour les périphériques, à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=256488%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=256488&amp;clcid=0x40C</a></p></li>
-> <li><p>Prise en charge du système de périphériques et de l’infrastructure, à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=256489%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=256489&amp;clcid=0x40C</a></p></li></ul>
+> Le fonctionnement de Lync Phone Edition fonctionne de la même façon que pour Lync Server 2013 comme pour Lync Server 2010. Pour plus d’informations sur la prise en charge logicielle des appareils, voir les rubriques suivantes dans la bibliothèque TechNet de Lync Server 2010: 
+> <UL>
+> <LI>
+> <P>Composants Lync Server 2010 requis pour les appareils sur<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <LI>
+> <P>Prise en charge de l’infrastructure et du système de périphériques à<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

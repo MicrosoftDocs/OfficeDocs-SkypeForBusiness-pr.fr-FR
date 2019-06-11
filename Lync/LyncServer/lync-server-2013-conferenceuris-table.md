@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table ConferenceUris'
-TOCTitle: Table ConferenceUris
-ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412854(v=OCS.15)
-ms:contentKeyID: 49298548
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table ConferenceUris'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceUris table
+ms:assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412854(v=OCS.15)
+ms:contentKeyID: 48185160
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e2b1ab44b564d649b6c8fb812077645c6dc13093
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838482"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table ConferenceUris dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="conferenceuris-table-in-lync-server-2013"></a>Table ConferenceUris dans Lync Server 2013
 
-La table ConferenceUris est une table de prise en charge qui stocke une liste des différentes URI de conférence qui ont participé aux sessions de conférence enregistrées dans la base de données. Chaque enregistrement dans le tableau représente une URI de conférence.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-05-25_
+
+La table ConfereneUris est une table qui contient une liste des différents URI de conférence ayant participé à des sessions de conférence enregistrées dans la base de données. Chaque enregistrement de la table représente un URI de conférence.
 
 
 <table>
@@ -38,32 +58,43 @@ La table ConferenceUris est une table de prise en charge qui stocke une liste de
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>DateHeure</p></td>
 <td><p>Principal</p></td>
-<td><p>Horodatage pour utilisation interne.</p></td>
+<td><p>Date et heure d’utilisation internes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
-<td><p>Numéro unique identifiant cette URI de conférence.</p></td>
+<td><p>Numéro unique identifiant cet URI de conférence.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p></p></td>
-<td><p>URI de la conférence.</p></td>
+<td><p>nvarchar (450)</p></td>
+<td></td>
+<td><p>URI de conférence.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Checksum</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Checksum de ConferenceUri. Sert à augmenter la vitesse des recherches dans les bases de données.</p></td>
+<td><p><strong>1018</strong></p></td>
+<td><p>int</p></td>
+<td></td>
+<td><p>Checksum de ConferenceUri. Permet d’augmenter la vitesse de recherche de la base de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Type d’URI, tel que conf:chat pour une conférence de messagerie instantanée ou conf:audio-video pour une conférence audio/vidéo. Pour plus d’informations, reportez-vous à la <a href="lync-server-2013-uritypes-table.md">Table UriTypes dans Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Externes</p></td>
+<td><p>Type d’URI (par exemple, conf: chat pour une conférence par messagerie instantanée, ou conf: audio-vidéo pour les conférences audio/vidéo). Pour plus d’informations, voir la <a href="lync-server-2013-uritypes-table.md">table UriTypes dans la table Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

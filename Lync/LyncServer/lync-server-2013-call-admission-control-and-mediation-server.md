@@ -1,23 +1,53 @@
-﻿---
-title: 'Lync Server 2013 : Contrôle d’admission des appels et serveur de médiation'
-TOCTitle: Contrôle d’admission des appels et serveur de médiation
-ms:assetid: 76faccdc-67d0-4c8b-8e47-1e23c93b02c6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398585(v=OCS.15)
-ms:contentKeyID: 49297781
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Contrôle d’admission des appels et serveur de médiation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call admission control and Mediation Server
+ms:assetid: 76faccdc-67d0-4c8b-8e47-1e23c93b02c6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398585(v=OCS.15)
+ms:contentKeyID: 48184546
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 787e312bcdee289050f2147912e87ef542433db4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838717"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Contrôle d’admission des appels et serveur de médiation dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-21_
+# <a name="call-admission-control-and-mediation-server-in-lync-server-2013"></a>Contrôle d’admission des appels et serveur de médiation dans Lync Server 2013
 
-Le contrôle d’admission des appels (CAC), nouveauté dans Lync Server 2010, gère l’établissement de session en temps réel en tenant compte de la bande passante disponible pour éviter toute dégradation de la qualité de l’expérience (QoE) pour les utilisateurs sur des réseaux saturés. Pour prendre en charge cette fonctionnalité, le serveur de médiation, qui fournit la signalisation et la conversion des médias entre l’infrastructure Voix Entreprise et une passerelle ou un fournisseur de jonction SIP, est responsable de la gestion de la bande passante pour ses deux interactions du côté Lync Server et du côté passerelle. Dans le cadre du contrôle d’admission des appels, l’entité qui met fin à l’appel gère la réservation de la bande passante. Les homologues de passerelle (passerelle RTC, IP-PBX, SBC) avec lesquels interagit le serveur de médiation du côté passerelle ne prennent pas en charge le contrôle d’admission des appels Lync Server 2013. Par conséquent, le serveur de médiation doit gérer les interactions de bande passante de la part de son homologue de passerelle. À chaque fois que cela est possible, le serveur de médiation réserve la bande passante à l’avance. Si c’est impossible (par exemple, si la localité du point de terminaison final du média du côté passerelle est inconnue pour un appel sortant vers l’homologue de passerelle), la bande passante est réservée quand l’appel est passé. Ce comportement peut entraîner une sur-souscription de bande passante, mais c’est le seul moyen d’empêcher les sonneries factices.
+</div>
 
-La déviation du trafic multimédia et la réservation de bande passante s’excluent mutuellement. Si la déviation du trafic multimédia est utilisée pour un appel, le contrôle d’admission des appels n’est pas effectué pour cet appel. L’hypothèse repose sur le fait qu’aucun lien avec bande passante restreinte n’est impliqué dans l’appel. Si le contrôle d’admission des appels est utilisé pour un appel en particulier qui implique le serveur de médiation, cet appel ne peut pas se servir de la déviation du trafic multimédia.
+<div id="mainSection">
 
-Pour plus d’informations sur la déviation du trafic multimédia ou le contrôle d’admission des appels, reportez-vous à [Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) ou à [Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) dans la documentation de planification.
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-21_
+
+Le contrôle d’admission des appels (CAC), présenté par le biais de Lync Server 2010, gère l’établissement d’une session en temps réel, en fonction de la bande passante disponible, pour vous aider à éviter des problèmes de qualité d’utilisation médiocre pour les utilisateurs sur des réseaux encombrés. Pour prendre en charge cette fonctionnalité, le serveur de médiation, qui fournit la conversion de signalisation et de contenu multimédia entre l’infrastructure voix entreprise et une passerelle ou un fournisseur de trunking SIP, est responsable de la gestion de la bande passante pour ses deux interactions sur le Lync Côté serveur et sur le côté passerelle. Dans le cadre du contrôle d’admission des appels, l’entité qui met fin à l’appel gère la réservation de la bande passante. Les homologues de passerelle (passerelle RTC, PBX IP, SBC) pour lesquels le serveur de médiation interagit sur le côté de la passerelle ne prennent pas en charge le contrôle d’admission des appels Lync Server 2013. C’est pourquoi le serveur de médiation doit gérer les interactions de bande passante pour le compte de son homologue de passerelle. Dans la mesure du possible, le serveur de médiation réserve de la bande passante à l’avance. Si c’est impossible (par exemple, si la localité du point de terminaison multimédia final du côté passerelle est inconnue pour un appel sortant vers l’homologue de passerelle), la bande passante est réservée quand l’appel est passé. Ce comportement peut entraîner une sur-souscription de bande passante, mais c’est le seul moyen d’empêcher les sonneries factices.
+
+La déviation du trafic multimédia et la réservation de bande passante s’excluent mutuellement. Si une dérivation de média est utilisée pour un appel, le contrôle d’admission des appels n’est pas effectué pour cet appel. L’hypothèse repose sur le fait qu’aucun lien avec bande passante restreinte n’est impliqué dans l’appel. Si le contrôle d’admission des appels est utilisé pour un appel particulier qui implique le serveur de médiation, cet appel ne peut pas recourir à une dérivation multimédia.
+
+Pour plus d’informations sur le contrôle de contournement multimédia ou le contrôle d’admission des appels, voir [planification de la dérivation multimédia dans Lync server 2013](lync-server-2013-planning-for-media-bypass.md) ou [planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) dans la documentation de planification.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

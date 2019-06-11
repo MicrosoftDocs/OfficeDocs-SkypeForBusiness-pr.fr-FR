@@ -1,31 +1,61 @@
-﻿---
-title: 'Lync Server 2013 : Composants utilisés par le parcage d’appel'
-TOCTitle: Composants utilisés par le parcage d’appel
-ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398824(v=OCS.15)
-ms:contentKeyID: 49298801
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Composants utilisés par le parcage d’appel'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components used by Call Park
+ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398824(v=OCS.15)
+ms:contentKeyID: 48185374
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64f74161230504ee3f24ed19780e0a62ad4e7d08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838507"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Composants utilisés par le parcage d’appel dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-13_
+# <a name="components-used-by-call-park-in-lync-server-2013"></a>Composants utilisés par le parcage d’appel dans Lync Server 2013
 
-L’ application de parcage d’appel est automatiquement installée quand vous déployez Voix Entreprise. Pour activer le parcage d’appel, configurez la stratégie de voix. Les composants Lync Server 2013 suivants prennent en charge l’application de parcage d’appel :
+</div>
 
-  - **service d’application**   Le service d’application fournit une plateforme pour le déploiement, l’hébergement et la gestion des applications de communications unifiées, telles que l’application de parcage d’appel. Le service d’application est installé automatiquement sur chaque serveur frontal dans un pool de serveurs frontaux et sur chaque serveur Standard Edition.
+<div id="mainSection">
 
-  - **application de parcage d’appel**   L’application de parcage d’appel est l’une des applications de communication unifiées hébergées par le service d’application. Il est inclus automatiquement lorsque vous déployez Voix Entreprise. Le parcage d’appel parque et récupère les appels, et gère les orbites de parcage d’appel.
+<div id="mainBody">
 
-  - **Fichier d’attente musicale**   Si la musique est activée, le fichier de musique est lu pendant le parcage d’un appel. Un fichier de musique par défaut est inclus quand l’application de parcage d’appel est installée.
+<span> </span>
 
-  - **Magasin de fichiers**   L’application de parcage d’appel utilise un magasin de fichiers pour conserver les fichiers audio personnalisés.
+_**Dernière modification de la rubrique:** 2012-09-13_
 
-  - **Panneau de configuration Lync Server**   Vous pouvez utiliser le Panneau de configuration Lync Server pour configurer la table d’orbites de parcage d’appel et activer le parcage d’appel pour les utilisateurs.
+L’application de parc d’appels est automatiquement installée lorsque vous déployez Enterprise Voice. Vous pouvez activer le parc d’appels en configurant une politique vocale. Les composants Lync Server 2013 suivants prennent en charge l’application de stationnement d’appel:
 
-  - **Lync Server Management Shell**   Les applets de commande Lync Server Management Shell permettent de configurer l’application de parcage d’appel.
+  - ****   Le service d’application de service d’application fournit une plateforme de déploiement, d’hébergement et de gestion d’applications de communications unifiées, telles que l’application de parc d’appels. Le service d’application est automatiquement installé sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server.
+
+  - **Application de parc d’appels**   l’application de parc d’appels est l’une des applications de communications unifiées hébergées par le service d’application. Elle est incluse automatiquement lorsque vous déployez Enterprise Voice. Le parc d’appels de parc et de parking et de stationnement d’appels.
+
+  - **Musique en conservation-fichier**   si la musique est activée, le fichier de musique est lu lors du stationnement d’un appel. Un fichier de musique par défaut est inclus lors de l’installation de l’application de parc d’appels.
+
+  - **Stockage de fichiers**   l’application de parc d’appels utilise le magasin de fichiers pour contenir des fichiers audio personnalisés.
+
+  - **Panneau**   de configuration de Lync Server vous pouvez utiliser le panneau de configuration de Lync Server pour configurer la table d’orbite du parc d’appels et activer le parc d’appels pour les utilisateurs.
+
+  - **Lync Server Management Shell**   toutes les configurations d’application de parc d’appels peuvent être effectuées à l’aide des applets de applet Lync Server Management Shell.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

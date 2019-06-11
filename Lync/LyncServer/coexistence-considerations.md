@@ -1,33 +1,63 @@
-﻿---
-title: Remarques liées à la coexistence
-TOCTitle: Remarques liées à la coexistence
-ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205131(v=OCS.15)
-ms:contentKeyID: 49298361
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Remarques liées à la coexistence
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Coexistence considerations
+ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205131(v=OCS.15)
+ms:contentKeyID: 48184990
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c0e06e5620b3b9ce81826bf623a42ec8d89c5d3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838085"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Remarques liées à la coexistence
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-06_
+# <a name="coexistence-considerations"></a>Remarques liées à la coexistence
 
-À l’issue de la migration, seul un pool de serveurs de conversations permanentesLync Server 2013 existera et vous pourrez mettre hors service votre déploiement hérité.
+</div>
 
-Avant la fin de la migration et avant la mise hors service complète de votre déploiement de serveur Group Chat, il se peut que vous ayez l’un des déploiements suivants :
+<div id="mainSection">
 
-  - pool de serveurs de conversations permanentesLync Server 2013, qui doit être hébergé sur un pool Lync Server 2013 ;
+<div id="mainBody">
 
-  - pool Lync Server 2010, conversation de groupe, qui doit être hébergé sur un pool Lync Server 2010 ;
+<span> </span>
 
-  - pool Group ChatOffice Communications Server 2007 R2, qui doit être hébergé sur un pool Office Communications Server 2007 R2.
+_**Dernière modification de la rubrique:** 2012-10-06_
 
-Ces déploiements peuvent exister côte à côte. Cependant, les catégories, salles et compléments d’un déploiement n’interagissent pas avec ceux du déploiement associé.
+Après la migration, vous n’aurez qu’un seul Lync Server 2013, le pool de serveurs de conversation permanent et vous pourrez désactiver votre déploiement hérité.
 
-À l’aide d’une configuration manuelle, un client hérité (client Group Chat) peut se connecter à un pool à la fois pour Office Communications Server 2007 R2, Lync Server 2010, conversation de groupe ou Lync Server 2013.
+Avant la fin de la migration et avant d’avoir désactivé entièrement le déploiement de votre serveur de discussion de groupe actuel, il est possible que vous disposiez de l’un des déploiements suivants:
 
-Le client Lync 2013 peut interagir uniquement avec le Lync Server 2013, pool de serveurs de conversations permanentes, et non avec les pools serveur Group Chat hérités. Pour utiliser conversation permanente sur un client Lync 2013, l’utilisateur doit être hébergé sur Lync 2013 et être activé par stratégie.
+  - Lync Server 2013, pool de serveurs de chat permanent, qui doit être hébergé sur un pool 2013 serveur Lync.
+
+  - Lync Server 2010, pool de discussion de groupe, qui doit être hébergé sur un pool 2010 serveur Lync.
+
+  - Pool de discussion de groupe Office Communications Server 2007 R2, qui doit être hébergé sur un pool Office Communications Server 2007 R2.
+
+Ces déploiements peuvent exister côte à côte. Toutefois, les catégories, les salles et les compléments dans un seul déploiement n’interagissent pas avec celles du déploiement associé.
+
+À l’aide de la configuration manuelle, un client hérité (client de discussion de groupe) peut se connecter à un pool à la fois pour Office Communications Server 2007 R2, Lync Server 2010, discussion de groupe ou Lync Server 2013.
+
+Le client Lync 2013 (client) peut interagir uniquement avec Lync Server 2013, le pool de serveurs de chat permanent, et non avec les pools de serveurs de chat de groupe hérités. Pour utiliser la conversation permanente dans une 2013 Lync (client), l’utilisateur doit être hébergé sur Lync 2013 et activé par la stratégie.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

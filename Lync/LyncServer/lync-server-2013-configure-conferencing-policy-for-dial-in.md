@@ -1,48 +1,88 @@
-﻿---
-title: 'Lync Server 2013 : Configuration de la stratégie de conférence rendez-vous'
-TOCTitle: Configuration de la stratégie de conférence rendez-vous
-ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398810(v=OCS.15)
-ms:contentKeyID: 49298343
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration de la stratégie de conférence rendez-vous'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure conferencing policy for dial-in
+ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398810(v=OCS.15)
+ms:contentKeyID: 48184979
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 74621fee97a1e6721f8772b265761b62b1b9f266
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838406"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration de la stratégie de conférence rendez-vous dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-03-21_
+# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>Configuration de la stratégie de conférence rendez-vous dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-03-21_
 
 Une stratégie de conférence est un paramètre de compte d’utilisateur qui spécifie les modalités de la conférence pour les participants. Vous pouvez créer des stratégies de conférence avec une étendue de site ou d’utilisateur. Les paramètres de stratégie de conférence englobent de nombreux aspects de la planification de la conférence et de la participation. Plusieurs paramètres de stratégies de conférence prennent en charge la conférence rendez-vous pour les participants. Lorsque vous configurez une conférence rendez-vous, vous devez vérifier que ces champs sont correctement définis pour votre organisation, et vous devez les modifier uniquement en cas de nécessité.
 
-Vérifiez les champs suivants dans votre stratégie de conférence :
+Vérifiez les champs suivants dans votre stratégie de conférence:
 
-  - **Autoriser les participants à inviter des utilisateurs anonymes**    Ce paramètre autorise les organisateurs de réunion à inviter des participants anonymes (c’est-à-dire non authentifiés) aux réunions. Ce paramètre est facultatif pour la conférence rendez-vous. Il est sélectionné par défaut dans la stratégie de conférence globale par défaut.
+  - **Permettre aux participants d’inviter des utilisateurs**   anonymes ce paramètre permet aux organisateurs de la réunion d’inviter des participants anonymes (non authentifiés) aux réunions. Ce paramètre est facultatif pour les conférences rendez-vous. Ce paramètre est sélectionné par défaut dans la stratégie de conférence globale par défaut.
 
-  - **Activer la conférence rendez-vous RTC**    Ce paramètre autorise des utilisateurs à participer à la partie audio d’une conférence en composant un numéro à partir du réseau téléphonique commuté. Ce paramètre est obligatoire pour la conférence rendez-vous. Il est sélectionné par défaut dans la stratégie de conférence globale par défaut.
+  - **Activer les conférences**   rendez-vous RTC ce paramètre permet aux utilisateurs d’accéder à la partie audio d’une conférence en composant un numéro de téléphone PSTN. Ce paramètre est requis pour les conférences rendez-vous. Ce paramètre est sélectionné par défaut dans la stratégie de conférence globale par défaut.
 
-  - **Autoriser l’accès sortant des participants anonymes**    Ce paramètre autorise les utilisateurs anonymes qui participent déjà à la réunion à participer à la partie audio de la conférence en utilisant un appel sortant. Ce paramètre est facultatif pour la conférence rendez-vous. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut.
+  - **Permettre aux participants anonymes d’appeler**   ce paramètre permet aux utilisateurs anonymes déjà joints à la réunion d’appeler un numéro de téléphone pour se connecter à la partie audio de la Conférence. Ce paramètre est facultatif pour les conférences rendez-vous. Ce paramètre n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut.
 
-  - **Autoriser l’accès sortant des participants non-Voix Entreprise**   Ce paramètre autorise les organisateurs et les participants aux réunions non activés pour Voix Entreprise à participer au volet audio de la conférence en utilisant un appel sortant. Celui-ci est autorisé en fonction de la stratégie de voix affectée à l’organisateur. Il n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut. Sa valeur par défaut est désactivée.
+  - **Permettre aux participants non activés pour les appels vocaux d’entreprise de composer**   ce paramètre permet aux participants et aux organisateurs d’une réunion qui ne sont pas activés pour les appels sortants dans un numéro de téléphone pour accéder à la partie audio de la Conférence. Le numéro de téléphone est autorisé en fonction de la politique vocale affectée à l’organisateur. Ce paramètre n’est pas sélectionné par défaut dans la stratégie de conférence globale par défaut. La valeur par défaut du paramètre est Disabled.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Pour activer cette fonctionnalité, une stratégie de voix appropriée doit être affectée à un organisateur de réunion non activé pour Voix Entreprise afin d’autoriser les appels sortants depuis une conférence qu’il aura organisée. Il est possible d’affecterr une stratégie de voix à un utilisateur non activé pour Voix Entreprise depuis Lync Server Management Shell. Si aucune stratégie de voix n’est explicitement affectée à l’utilisateur, la stratégie de voix globale est employée pour autoriser la demande d’appel sortant. Cette stratégie est également appliquée en l’absence de stratégie de voix de site. 
+    > Pour activer cette fonctionnalité, un organisateur de la réunion qui n’est pas activé pour voix entreprise doit avoir reçu une stratégie vocale appropriée pour autoriser les appels sortants d’une conférence organisée par cet utilisateur. Une stratégie vocale peut être affectée à un utilisateur qui n’est pas activé pour voix entreprise via Lync Server Management Shell. Si une stratégie vocale n’est pas explicitement attribuée à l’utilisateur, la stratégie de voix du site est utilisée pour autoriser la demande de numérotation. S’il n’y a aucune stratégie de voix du site, la stratégie vocale globale est utilisée.&nbsp;
 
-La procédure de cette section explique comment modifier la stratégie de conférence. Pour plus d’informations sur la façon de configurer tous les paramètres qui définissent l’expérience des participants dans la stratégie de conférence par défaut, reportez-vous à [Création ou modification d’une collection de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md). Pour plus d’informations sur la façon de créer une stratégie de conférence pour un utilisateur ou un groupe d’utilisateurs spécifique, reportez-vous à [Création ou modification d’une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md). Pour obtenir une liste de tous les paramètres de stratégie de conférence disponibles, reportez-vous à [Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+    
+    </div>
 
-## Pour modifier la stratégie de conférence rendez-vous
+La procédure décrite dans cette section explique comment modifier une stratégie de conférence. Pour plus d’informations sur la configuration de tous les paramètres définissant l’utilisation des participants dans la stratégie de conférence par défaut, voir [créer ou modifier un ensemble de paramètres de configuration de réunion dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md). Pour plus d’informations sur la création d’une stratégie de conférence pour un utilisateur ou un groupe d’utilisateurs spécifiques, voir [créer ou modifier une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md). Pour obtenir la liste de tous les paramètres de stratégie de conférence disponibles, voir [référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle **Cs-ServerAdministratorr** ou **CsAdministrator** .
+<div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-modify-the-conferencing-policy-for-dial-in"></a>Pour modifier la stratégie de conférence pour les appels entrants
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**.
+1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **CS-ServerAdministrator** ou **CsAdministrator** .
 
-4.  Sous l’onglet **Stratégie de conférence** , double-cliquez sur un nom de stratégie de conférence pour ouvrir la boîte de dialogue **Modifier la stratégie de conférence** .
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-5.  Vérifiez que les champs de la conférence rendez-vous correspondent à votre organisation et modifiez les paramètres, le cas échéant.
+3.  Dans la barre de navigation de gauche, cliquez sur **Conférences**.
 
-6.  Cliquez sur **Valider** .
+4.  Dans l’onglet **stratégie de conférence** , double-cliquez sur un nom de stratégie de conférence pour ouvrir la boîte de dialogue Modifier la stratégie de **Conférence** .
+
+5.  Vérifiez que les champs de la Conférence rendez-vous sont appropriés pour votre organisation, puis modifiez les paramètres le cas échéant.
+
+6.  Cliquez sur **Valider**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

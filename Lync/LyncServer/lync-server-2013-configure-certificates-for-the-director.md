@@ -1,72 +1,125 @@
-﻿---
-title: 'Lync Server 2013 : Configuration des certificats pour le directeur'
-TOCTitle: Configuration des certificats pour le directeurr
-ms:assetid: 22988186-15ae-43b1-92f4-0adb3b75a7fd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398296(v=OCS.15)
-ms:contentKeyID: 49296495
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration des certificats pour le directeur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure certificates for the Director
+ms:assetid: 22988186-15ae-43b1-92f4-0adb3b75a7fd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398296(v=OCS.15)
+ms:contentKeyID: 48183612
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d2da30923231087e706e2a969fdba2884361f6e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838415"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des certificats pour le directeur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-08_
+# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>Configuration des certificats pour le directeur dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-08_
+
+<div>
+
 
 > [!IMPORTANT]  
-> Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server 2013 utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.
+> Lorsque vous exécutez l’Assistant certificat, assurez-vous que vous êtes connecté à l’aide d’un compte associé à un compte qui dispose des autorisations appropriées pour le type de modèle de certificat que vous utilisez. Par défaut, une demande de certificat 2013 Lync Server utilise le modèle de certificat de serveur Web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat à l’aide de ce modèle, vérifiez que le groupe a été affecté aux autorisations d’inscription requises pour utiliser ce modèle.
 
-Chaque directeur requiert un certificat par défaut, un certificat web interne et un certificat web externe. Pour plus d’informations sur les exigences en matière de certificat des directeurs, reportez-vous à [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) dans la documentation de planification.
 
-Configurez les certificats de directeur en suivant la procédure ci-dessous. Répétez la procédure pour chaque directeur. Les étapes de cette procédure expliquent comment configurer un certificat à partir d’une autorité interne de certification racine d’entreprise déployée par votre organisation et avec le traitement des requêtes hors connexion. Pour plus d’informations sur l’obtention de certificats issus d’une autorité de certification externe, contactez votre équipe de support.
 
-## Pour configurer les certificats du directeur ou du pool directeur
+</div>
 
-1.  Dans l’Assistant Déploiement de Lync Server, en regard de l’**Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Exécuter** .
+Chaque directeur nécessite un certificat par défaut, un certificat interne Web et un certificat externe Web. Pour plus d’informations sur les exigences en matière de certificats pour les directeurs, voir exigences relatives aux [certificats pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) dans la documentation de planification.
 
-2.  Dans la page **Assistant Certificat** , cliquez sur **Demander** .
+Suivez la procédure ci-dessous pour configurer des certificats de réalisateur. Répétez cette procédure pour chaque réalisateur. Les étapes de cette procédure décrivent comment configurer un certificat à partir d’une autorité de certification racine d’entreprise, déployée par votre organisation et avec le traitement de requête hors connexion. Pour plus d’informations sur l’obtention de certificats auprès d’une autorité de certification externe, contactez votre équipe de support technique.
 
-3.  Dans la page **Demande de certificat** , cliquez sur **Suivant** .
+<div>
 
-4.  Dans la page **Demandes différées ou immédiates** , acceptez l’option par défaut, **Envoyer la demande immédiatement à une autorité de certification en ligne** , puis cliquez sur **Suivant** .
+## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>Pour configurer des certificats pour le directeur ou le pool de réalisateurs
 
-5.  Dans la page **Choisir une autorité de certification** , cliquez sur l’autorité de certification Windows interne voulue, puis cliquez sur **Suivant** .
+1.  Dans l’Assistant Déploiement de Lync Server, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez sur **exécuter**.
 
-6.  Dans la page **Compte d’autorité de certification** , indiquez d’autres informations d’identification à utiliser au cas où le compte auquel vous êtes connecté ne dispose pas de l’autorité nécessaire pour demander le certificat, puis cliquez sur **Suivant** .
+2.  Dans la page **Assistant Certificat**, cliquez sur **Demander**.
 
-7.  Dans la page **Spécifier un autre modèle de certificat** , cliquez sur **Suivant** .
+3.  Dans la page **demande de certificat** , cliquez sur **suivant**.
 
-8.  Dans la page **Nom et paramètres de sécurité** , vous pouvez indiquer un **nom convivial** et accepter la longueur de clé de 2048 bits, puis cliquez sur **Suivant** .
+4.  Dans la page **demandes ultérieures ou immédiates** , acceptez l’option **Envoyer la demande immédiatement à une autorité de certification en ligne** , puis cliquez sur **suivant**.
 
-9.  Dans la page **Informations relatives à l’organisation** , indiquez, si vous le souhaitez, des informations sur l’organisation, puis cliquez sur **Suivant** .
+5.  Dans la page **choisir une autorité de certification** , cliquez sur l’autorité de certification Windows interne que vous voulez utiliser, puis cliquez sur **suivant**.
 
-10. Dans la page **Informations géographiques** , indiquez, si vous le souhaitez, des informations géographiques, puis cliquez sur **Suivant** .
+6.  Sur la page compte de l' **autorité de certification** , spécifiez d’autres informations d’identification à utiliser si le compte avec lequel vous vous êtes connecté ne dispose pas de l’autorisation suffisant pour demander le certificat, puis cliquez sur **suivant**.
 
-11. Dans la page **Nom de sujet / Autres noms de sujet** , cliquez sur **Suivant** .
+7.  Dans la page **spécifier un modèle de certificat secondaire** , cliquez sur **suivant**.
+
+8.  Dans la page **paramètres de nom et de sécurité** , vous pouvez spécifier un **nom convivial**, accepter la longueur de la clé 2048 bits, puis cliquez sur **suivant**.
+
+9.  Dans la page informations sur l' **organisation** , spécifiez éventuellement les informations sur l’organisation, puis cliquez sur **suivant**.
+
+10. Dans la page **informations géographiques** , spécifiez éventuellement des informations géographiques, puis cliquez sur **suivant**.
+
+11. Dans la page **nom du sujet/nom** de l’objet, cliquez sur **suivant**.
     
-    > [!NOTE]  
-    > La liste des autres noms de sujet devrait contenir le nom de l’ordinateur sur lequel vous installez le directeur (s’il n’y en a qu’un) ou le nom du pool directeur ainsi que le nom des URL simples configurés pour l’organisation.
-
-12. Dans la page **Paramètre du domaine SIP sur les autres noms du sujet** , sélectionnez **Domaines SIP configurés** pour tous les domaines devant être gérés par le directeur, puis cliquez sur **Suivant** .
-
-13. Dans la page **Configurer d’autres noms du sujet supplémentaires** , ajoutez des noms de sujet supplémentaires, puis cliquez sur **Suivant** .
-
-14. Dans la page **Résumé de la demande de certificat** , cliquez sur **Suivant** .
-
-15. Dans la page **Exécution de commandes** , cliquez sur **Suivant** une fois les commandes exécutées.
-
-16. Dans la page **État de la demande de certificat en ligne** , cliquez sur **Suivant** .
-
-17. Dans la page **Affectation de certificat** , cliquez sur **Suivant** .
+    <div>
     
+
     > [!NOTE]  
-    > Si vous souhaitez afficher le certificat, double-cliquez sur celui-ci dans la liste.
+    > La liste autre nom de l’objet doit contenir le nom de l’ordinateur sur lequel vous installez le directeur (s’il s’agit d’un seul directeur) ou le nom du pool de réalisateurs, ainsi que les noms d’URL simples configurés pour l’organisation.
 
-18. Dans la page **Résumé de l’affectation du certificat** , cliquez sur **Suivant** .
+    
+    </div>
 
-19. Dans la page **Exécution de commandes** , cliquez sur **Terminer** une fois les commandes exécutées.
+12. Dans la page Configuration du protocole **SIP sur le nom de l’objet** , sélectionnez les **domaines SIP configurés** pour tous les domaines que le directeur doit gérer, puis cliquez sur **suivant**.
 
-20. Dans la page **Assistant Certificat** , cliquez sur **Fermer** .
+13. Dans la page configurez d’autres **noms d’objet** , ajoutez d’autres noms d’objet requis, puis cliquez sur **suivant**.
+
+14. Dans la page Résumé de la **demande de certificat** , cliquez sur **suivant**.
+
+15. Dans la page **exécution des commandes** , cliquez sur **suivant** à la fin de l’exécution de la commande.
+
+16. Dans la page État de la **demande de certificat en ligne** , cliquez sur **Terminer**.
+
+17. Dans la page **affectation de certificat** , cliquez sur **suivant**.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > pour afficher le certificat, double-cliquez sur le certificat dans la liste.
+
+    
+    </div>
+
+18. Dans la page Résumé des affectations de **certificat** , cliquez sur **suivant**.
+
+19. Dans la page **exécution des commandes** , cliquez sur **Terminer** une fois l’exécution de la commande terminée.
+
+20. Dans la page **Assistant Certificat** , cliquez sur **Fermer**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

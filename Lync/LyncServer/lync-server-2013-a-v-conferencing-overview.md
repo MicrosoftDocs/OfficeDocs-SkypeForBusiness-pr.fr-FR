@@ -1,51 +1,89 @@
-﻿---
-title: Présentation de la conférence A/V dans Lync Server 2013
-TOCTitle: Présentation de la conférence A/V dans Lync Server 2013
-ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ619186(v=OCS.15)
-ms:contentKeyID: 49298121
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Vue d’ensemble de la fonctionnalité de conférence A/V de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: A/V conferencing overview
+ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619186(v=OCS.15)
+ms:contentKeyID: 49733747
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d477a8423e7e5ee57e54d0bde584edeb02db4608
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838981"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Présentation de la conférence A/V dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Présentation de la fonctionnalité de conférence A/V dans Lync Server 2013
 
-La conférence A/V permet d’établir des communications audio et vidéo en temps réel entre vos utilisateurs. Lorsque vous déployez la conférence, vous pouvez choisir d’activer et d’utiliser la conférence web et la conférence A/V, ou uniquement la conférence web.
+</div>
 
-Pour planifier votre conférence A/V, vous devez connaître la bande passante réseau nécessaire au type de média de conférence que requiert votre organisation. Cela peut inclure l’audio, la vidéo et la vidéo panoramique.
+<div id="mainSection">
 
-Avant d’activer les utilisateurs pour la conférence A/V, assurez-vous que votre réseau est en mesure de gérer la charge qui en résulte. Si la bande passante réseau est insuffisante, les performances du système seront largement diminuées pour l’utilisateur. Vous pouvez utiliser le contrôle d’admission des appels (CAC) pour gérer la bande passante réseau utilisée par la conférence A/V. Ceci est important pour les réseaux restreints, tels que les liaisons à bande passante limitée entre les sites centraux et les sites de succursale. Pour plus d’informations, voir [Vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Pour plus d’informations sur les exigences de bande passante multimédia, voir [Configuration requise de la bande passante pour le trafic multimédia dans Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
+<div id="mainBody">
 
-Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auront besoin de périphériques audio tels que des casques pour y prendre part. Si vous déployez la conférence vidéo, vous devez déployer des périphériques vidéo tels que des webcams pour les utilisateurs. Nous vous recommandons d’utiliser des périphériques de communications unifiées (UC) certifiés par Microsoft pour tous les types de périphériques, afin de garantir des performances optimales à l’utilisateur. Pour plus d’informations sur les périphériques certifiés UC, voir « Téléphones et périphériques pour Lync » à l’adresse [http://go.microsoft.com/fwlink/?linkid=263861\&clcid=0x40C](http://go.microsoft.com/fwlink/?linkid=263861%26clcid=0x40c). Pour les périphériques audio ou vidéo, le déploiement des périphériques et la formation des utilisateurs sont des étapes importantes qu’il convient de planifier soigneusement.
+<span> </span>
 
-Les sections suivantes décrivent les fonctionnalités de conférence audio et vidéo et fournissent des informations sur la gestion de la bande passante et la sélection de clients appropriés.
+_**Dernière modification de la rubrique:** 2012-10-13_
 
-## Fonctionnalités d’audioconférence
+La fonction de conférence A/V permet des communications audio et vidéo en temps réel entre vos utilisateurs. Lorsque vous déployez des conférences, vous pouvez choisir d’activer et d’utiliser des conférences Web et des conférences A/V, ou uniquement des conférences Web.
 
-Lync Server 2013 fournit plusieurs fonctionnalités que vous pouvez utiliser pour configurer l’expérience d’audioconférence de l’utilisateur, parmi lesquelles :
+Pour planifier votre conférence A/V, vous devez connaître la bande passante réseau nécessaire au type de trafic multimédia de conférence que requiert votre organisation. Cela peut inclure l’audio, la vidéo et la vidéo panoramique.
 
-  - **Désactivation du micro des participants**   Le présentateur peut utiliser ce paramètre pour désactiver le micro de tous les participants audio de la conférence et placer celle-ci dans un état où les personnes qui ne sont pas des présentateurs ne peuvent pas réactiver leur micro.
+Avant d’activer les utilisateurs pour les conférences A/V, assurez-vous que votre réseau peut gérer le chargement obtenu. Si la bande passante réseau est insuffisante, les performances du système seront largement diminuées pour l’utilisateur. Vous pouvez utiliser le contrôle d’admission des appels pour gérer la bande passante réseau utilisée par les conférences A/V. Cela est important pour les réseaux restreints, comme les liaisons à bande passante limitée entre les sites centraux et les sites de succursale. Pour plus d’informations, voir [vue d’ensemble du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Pour plus d’informations sur les contraintes de bande passante pour les médias, voir [besoins en bande passante réseau pour le trafic multimédia dans Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-  - **Annonces d’entrée/sortie de conférence**   Si vous avez activé la conférence rendez-vous, les présentateurs peuvent utiliser ce paramètre pour activer ou désactiver les annonces d’entrée et de sortie afin de limiter les distractions durant une conférence.
+Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auront besoin de périphériques audio, comme des casques pour y participer. Si vous déployez la conférence vidéo, vous devez déployer des périphériques vidéo, comme des webcams pour les utilisateurs. Nous vous recommandons d’utiliser des appareils de communications unifiées (UC) certifiés par Microsoft pour tous les types d’appareils, afin de garantir une utilisation optimale des utilisateurs. Pour plus d’informations sur les appareils validés par UC, voir «téléphones et appareils [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)pour Lync» à l’adresse. Pour les périphériques audio ou vidéo, le déploiement de périphériques et la formation des utilisateurs, vous devez prendre en compte les étapes à suivre.
 
-  - **Ajout d’un utilisateur à l’aide d’un appel sortant**   Les présentateurs et participants qui disposent de cette autorisation peuvent ajouter des numéros PSTN aux conférences et faire en sorte qu’une conférence compose ces numéros.
+Les sections suivantes décrivent les fonctionnalités des conférences audio et vidéo, ainsi que des informations sur la gestion de la bande passante et la sélection des clients appropriés.
 
-## Fonctionnalités de visioconférence
+<div>
 
-Lync Server 2013 fournit plusieurs fonctionnalités que vous pouvez utiliser pour configurer l’expérience de visioconférence de l’utilisateur, parmi lesquelles :
+## <a name="audio-conferencing-features"></a>Fonctionnalités de l’audioconférence
 
-  - **Vue Galerie**   Dans les visioconférences qui comportent plus de deux personnes, les utilisateurs voient automatiquement tous les participants à la conférence. Si celle-ci comporte plus de cinq participants, la vidéo des participants les plus actifs apparaît sur la ligne supérieure et seule la photo apparaît pour les autres participants. La vidéo à plusieurs est activée par défaut. Pour plus d’informations sur la configuration ou la désactivation de la vidéo à plusieurs, voir [Configuration de la bande passante vidéo dans Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+Lync Server 2013 fournit plusieurs fonctionnalités que vous pouvez utiliser pour configurer l’interface de visioconférence pour l’utilisateur, notamment les suivantes:
 
-  - **Vidéo panoramique**   Si un périphérique de visioconférence RoundTable est installé dans la salle de conférence, cette fonctionnalité offre une vue à 360 degrés de la salle de conférence. Le clip vidéo panoramique est disponible uniquement avec les périphériques RoundTable.
+  - **Désactiver**   le son du public le présentateur peut utiliser ce paramètre pour désactiver le son de tous les participants audio de la Conférence et mettre la Conférence dans un État où les non-présentateurs ne peuvent pas désactiver le son.
 
-  - **Mode vidéo Présentateur uniquement**   Les présentateurs peuvent configurer la réunion de sorte que seule la vidéo du présentateur soit affichée. Ceci empêche toute distraction lors des réunions à grande échelle, lorsque plusieurs flux vidéo sont disponibles et verrouillés à différentes sources. Ce mode s’applique également à la vidéo capturée et fournie par les périphériques RoundTable.
+  - **Annonce d’entrée/sortie**   d’une conférence rendez-vous, les présentateurs peuvent utiliser ce paramètre pour activer ou désactiver les annonces d’entrée et de sortie afin de réduire les distractions lors de l’exécution d’une conférence.
 
-  - **Vidéo HD** Les utilisateurs peuvent avoir des résolutions pouvant aller jusqu’à 1080 p HD dans les appels à deux et les conférences à plusieurs.
+  - **L’ajout d’un utilisateur à l’aide**   des présentateurs et des participants disposant d’une autorisation, peut ajouter des numéros RTC aux conférences et faire en sorte que la Conférence rendez-vous sur ces numéros.
 
-  - **Vidéo à la une**   Les présentateurs peuvent configurer la réunion de sorte que seule la vidéo d’un participant sélectionné qui est une source vidéo soit visible par les autres participants à la conférence. Ce mode s’applique également à la vidéo capturée et fournie par les périphériques RoundTable pour la vidéo panoramique.
+</div>
+
+<div>
+
+## <a name="video-conferencing-features"></a>Fonctionnalités de conférence vidéo
+
+Lync Server 2013 fournit plusieurs fonctionnalités que vous pouvez utiliser pour configurer l’interface de conférence vidéo pour l’utilisateur, notamment les suivantes:
+
+  - **Vue Galerie dans**   les conférences vidéo ayant plus de deux personnes, les utilisateurs voient automatiquement tous les participants à la Conférence. Si la conférence rassemble plus de cinq participants, la vidéo des participants les plus actifs s’affiche sur la ligne supérieure et seule la photo s’affiche pour les autres participants. La vidéo à plusieurs est activée par défaut. Pour plus d’informations sur la configuration ou la désactivation de la vidéo à plusieurs parties, voir [configuration de la bande passante vidéo dans Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+
+  - **Vidéo panoramique s'**   il s’agit d’un appareil de visioconférence dans la salle de conférence, cette fonctionnalité fournit une vue de 360 degré complète de la salle de conférence. Le clip vidéo panoramique n’est disponible qu’avec les appareils RoundTable.
+
+  - **Présentateur seuls**   les présentateurs du mode vidéo peuvent configurer la réunion de telle sorte que seule la vidéo du présentateur soit affichée. Cela empêche toute distraction lors de grandes réunions, lorsque plusieurs flux vidéo sont disponibles et verrouillés à différentes sources. Ce mode s’applique également à la vidéo capturée et fournie par les appareils RoundTable.
+
+  - ****   Les utilisateurs de la vidéo HD peuvent bénéficier de résolutions de HD 1080p dans les appels et conférences multiparties.
+
+  - ****   Les présentateurs de Spotlight vidéo peuvent configurer la réunion de telle sorte que seule la vidéo d’un participant sélectionné qui est une source vidéo soit affichée par les autres participants à la Conférence. Ce mode s’applique également à la vidéo capturée et fournie par les appareils RoundTable pour la vidéo panoramique.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

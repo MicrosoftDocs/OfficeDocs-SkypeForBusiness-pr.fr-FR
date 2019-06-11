@@ -1,27 +1,47 @@
-﻿---
-title: "Lync Server 2013 : Exp. de parcage d’appel en cas de défaillance d’un pool"
-TOCTitle: Expérience de parcage d’appel en cas de défaillance d’un pool
-ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205383(v=OCS.15)
-ms:contentKeyID: 49299344
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Expérience de parcage d’appel en cas de défaillance d’un pool'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Park experience during pool failure
+ms:assetid: f6303e69-8771-492a-9e8b-c3d7ba231309
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205383(v=OCS.15)
+ms:contentKeyID: 48185831
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7b175e5029749ea4e3a344aaf9f3bcc7a403c1b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838695"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Expérience de parcage d’appel dans Lync Server 2013 en cas de défaillance d’un pool
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Expérience de parcage d’appel dans Lync Server 2013 en cas de défaillance d’un pool
 
-Lorsqu’un pool de serveurs frontaux devient indisponible à cause d’un incident imprévu, les appels parqués mais non récupérés sont déconnectés. Durant le basculement vers un pool de sauvegarde, les utilisateurs sont redirigés vers le pool de sauvegarde et placés en mode Résilience. Dans ce mode, les utilisateurs ne peuvent pas parquer les appels, mais ils peuvent les placer en attente et les transférer. Lorsque le basculement est terminé, les appels peuvent de nouveau être parqués et récupérés, comme d’habitude. Durant la restauration automatique, les utilisateurs ne peuvent pas parquer les appels jusqu’à ce qu’ils quittent le mode Résilience.
+</div>
 
-Durant la récupération d’urgence, les utilisateurs redirigés vers le pool de sauvegarde dans le cadre du processus de basculement utilisent l’application de parcage d’appel déployée dans le pool de sauvegarde. Par conséquent, les utilisateurs redirigés vers le pool de sauvegarde utilisent les paramètres de parcage d’appel configurés pour l’application de parcage d’appel dans le pool de sauvegarde.
+<div id="mainSection">
 
-Le tableau ci-dessous synthétise les informations relatives à l’utilisation du parcage d’appel via les phases de la récupération d’urgence.
+<div id="mainBody">
 
-### Expérience utilisateur durant la récupération d’urgence
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-10_
+
+Lorsqu’un pool frontal devient indisponible en raison d’un incident imprévu, les appels qui ont été emportés mais qui ne sont pas encore récupérés sont déconnectés. Pendant le basculement vers un pool de sauvegarde, les utilisateurs sont redirigés vers le pool de sauvegarde et sont en mode de résilience. Lorsque le mode de résilience est activé, les utilisateurs ne peuvent pas parcr les appels, mais ils peuvent placer des appels en attente et les transférer. Lorsque le basculement est terminé, les appels peuvent être de nouveau au parking et extraits comme d’habitude. Pendant la restauration automatique, les utilisateurs ne peuvent pas parcr les appels tant qu’ils ne sont pas en mode de résilience.
+
+Lors de la récupération d’urgence, les utilisateurs qui ont été redirigés vers le pool de sauvegarde dans le cadre du processus de basculement utilisent l’application de parc d’appels qui est déployée dans le pool de sauvegarde. C’est pourquoi les utilisateurs qui sont redirigés vers le pool de sauvegarde utilisent les paramètres de parc d’appels configurés pour l’application de parc d’appels dans le pool de sauvegarde.
+
+Le tableau suivant récapitule le parc d’appels lors de la phase de reprise après sinistre.
+
+### <a name="user-experience-during-disaster-recovery"></a>Utilisation de l’utilisateur pendant une reprise après sinistre
 
 <table>
 <colgroup>
@@ -33,36 +53,47 @@ Le tableau ci-dessous synthétise les informations relatives à l’utilisation 
 <thead>
 <tr class="header">
 <th>État de l’appel</th>
-<th>Lorsqu’une panne se produit</th>
-<th>Durant le basculement</th>
+<th>Lorsque la panne se produit</th>
+<th>Lors du basculement</th>
 <th>Durant la restauration automatique</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Pour les appels non parqués</p></td>
-<td><p>Les appels restent connectés, mais ne peuvent pas être parqués.</p></td>
+<td><p>Appel n’a pas encore été immobilisé</p></td>
+<td><p>L’appel reste connecté, mais ne peut pas être parqué.</p></td>
 <td><ul>
-<li><p>Durant le basculement, les appels ne peuvent pas être parqués pendant que les utilisateurs sont en mode Résilience, mais ils peuvent être mis en attente et transférés.</p></li>
-<li><p>Lorsque le basculement est terminé, les appels peuvent être parqués et récupérés.</p></li>
+<li><p>Pendant le basculement, l’appel ne peut pas être parqué lorsque les utilisateurs sont en mode de résilience, mais qui peuvent être mis en attente et transférés.</p></li>
+<li><p>Lorsque le basculement est terminé, l’appel peut être parqué et récupéré.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Durant la restauration automatique, les appels ne peuvent pas être parqués pendant que les utilisateurs sont en mode Résilience, mais ils peuvent être mis en attente et transférés.</p></li>
-<li><p>Lorsque la restauration automatique est terminée, les appels peuvent être parqués et récupérés.</p></li>
+<li><p>Pendant la restauration, l’appel ne peut pas être parqué tant que les utilisateurs sont en mode de résilience, mais ils peuvent être mis en attente et transférés.</p></li>
+<li><p>Lorsque la restauration automatique se termine, l’appel peut être parqué et récupéré.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Pour les appels parqués, mais non récupérés</p></td>
-<td><p>Ces appels sont déconnectés.</p></td>
-<td><p>Aucun appel ne reste dans cet état.</p></td>
-<td><p>Les appels restent parqués.</p></td>
+<td><p>Appel en stationnement, mais pas encore récupéré</p></td>
+<td><p>L’appel est déconnecté.</p></td>
+<td><p>Aucun appel dans cet État.</p></td>
+<td><p>L’appel reste en stationnement.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Pour les appels parqués déjà récupérés</p></td>
-<td><p>Ces appels restent connectés.</p></td>
-<td><p>Ces appels restent connectés.</p></td>
-<td><p>Ces appels restent connectés.</p></td>
+<td><p>Appel parqué déjà récupéré</p></td>
+<td><p>L’appel reste connecté.</p></td>
+<td><p>L’appel reste connecté.</p></td>
+<td><p>L’appel reste connecté.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

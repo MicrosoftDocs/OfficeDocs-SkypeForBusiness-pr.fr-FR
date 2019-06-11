@@ -1,76 +1,82 @@
-﻿---
-title: Applets de commande utilisant l’identité d’un utilisateur
-TOCTitle: Applets de commande utilisant l’identité d’un utilisateur
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56269648
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Applets de commande utilisant l’identité d’un utilisateur
+title: Cmdlets dans Skype entreprise Online utilisant une identité d’utilisateur
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Cmdlets dans Skype entreprise Online utilisant une identité d’utilisateur
 
  
 
-_**Dernière rubrique modifiée :** 2015-06-22_
 
-Dans Skype Entreprise Online, vous pouvez référencer l’identité d’un utilisateur individuel de différentes façons :
+Dans Skype entreprise Online, il existe plusieurs façons de faire référence à une identité d’utilisateur individuelle:
 
-  - Vous pouvez utiliser le nom complet des services de domaine Active Directory de l’utilisateur. Par exemple :
+  - Utilisez le nom complet des services de domaine Active Directory de l’utilisateur. Par exemple :
     
         -Identity "Ken Myer"
 
-  - Vous pouvez utiliser l’adresse SIP de l’utilisateur. Par exemple :
+  - Utilisez l’adresse SIP de l’utilisateur. Par exemple :
     
         -Identity "sip:kenmyer@litwareinc.com"
 
-  - Vous pouvez utiliser le nom d’utilisateur principal de l’utilisateur. Par exemple :
+  - Utilisez le nom d’utilisateur principal de l’utilisateur. Par exemple :
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Vous pouvez utiliser le nom unique des services de domaine Active Directory de l’utilisateur. Par exemple :
+  - Utilisez le nom unique des services de domaine Active Directory de l’utilisateur. Par exemple :
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Les applets de commande suivantes acceptent l’identité d’un utilisateur :
+Les applets de commande suivantes acceptent l’identité d’un utilisateur:
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
-Vous n’avez pas besoin de spécifier l’identité d’un utilisateur lorsque vous appelez une des applets de commande **Get-Cs**. Dans ce cas, les applets de commande retournent toutes les instances de l’élément spécifié. Par exemple, la commande suivante retourne des informations sur tous les utilisateurs activés pour Skype Entreprise Online :
+Notez que vous n’avez pas besoin de spécifier d’identité d’utilisateur lors de l’appel d’une des cmdlets **Get-CS** . Dans ce cas, les applets de passe retournent toutes les instances de l’élément spécifié. Par exemple, la commande suivante renvoie des informations sur tous les utilisateurs qui ont été activés pour Skype entreprise Online:
 
     Get-CsOnlineUser
 
-Le paramètre Identity est requis uniquement si vous voulez retourner des informations pour un utilisateur spécifique :
+Le paramètre Identity est requis uniquement si vous souhaitez renvoyer des informations pour un utilisateur spécifique:
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
-#### Concepts
 
-[Identités, étendues et clients](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Applets de commande de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identités, étendues et clients dans Skype entreprise Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Applets de commande de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

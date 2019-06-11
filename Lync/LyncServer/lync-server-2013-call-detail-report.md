@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Rapport détaillé des appels'
-TOCTitle: Rapport détaillé des appels
-ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558637(v=OCS.15)
-ms:contentKeyID: 49296884
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport Détails des appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Detail Report
+ms:assetid: 38862e35-3fec-41b9-a035-0b301942d446
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558637(v=OCS.15)
+ms:contentKeyID: 48183843
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a258a5c228cfe96218c9c694b05055cc5ebd7eb6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838712"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport détaillé des appels dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="call-detail-report-in-lync-server-2013"></a>Rapport Détails des appels dans Lync Server 2013
 
-Le rapport sur le détail de l’appel fournit des informations détaillées sur un appel individuel. Ce rapport contient pratiquement toutes les mesures et les statistiques de qualité de l’expérience (QoE) recueillies par Lync Server et sont réparties dans les différentes sections du rapport, à savoir :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-02-05_
+
+Le rapport Détails de l’appel fournit un examen détaillé d’un appel individuel. ce rapport inclut presque toutes les mesures et les statistiques de qualité de performance collectées par Lync Server, divisées en sections de rapport, telles que:
 
   - Informations d’appel
 
@@ -39,21 +59,23 @@ Gardez à l’esprit que les catégories et les mesures qui figurent dans un rap
 
 Le rapport sur le détail de l’appel s’avère particulièrement utile pour identifier les causes exactes des problèmes de qualité des médias rencontrés lors d’un appel donné.
 
-## Accès au rapport sur le détail de l’appel
+<div>
+
+## <a name="accessing-the-call-detail-report"></a>Accès au rapport sur le détail de l’appel
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
 
-  - [Rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+  - Le [rapport d’emplacement dans Lync Server 2013](lync-server-2013-location-report.md) (en cliquant sur le volume des appels ou la métrique de faible pourcentage d’appels)
 
-  - [Rapport de synthèse de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+  - [Rapport synthèse qualité multimédia dans Lync Server 2013](lync-server-2013-media-quality-summary-report.md) (en cliquant sur le volume des appels ou sur le pourcentage d’appels médiocre)
 
-  - [Rapport de comparaison de la qualité des médias dans Lync Server 2013](lync-server-2013-media-quality-comparison-report.md) (en cliquant sur [Rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md), puis sur la mesure Détail)
+  - Pour plus d’informations sur le [rapport qualité multimédia dans Lync server 2013](lync-server-2013-media-quality-comparison-report.md) (en cliquant sur le [rapport liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) , puis sur la métrique de détail).
 
-  - [Rapport de performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+  - [Rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur le volume des appels ou en utilisant une métrique de pourcentage médiocre)
 
-  - [Rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) (en cliquant sur la mesure Détail)
+  - [Rapport de liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) (en cliquant sur la métrique de détail)
 
-Depuis le rapport sur le détail de l’appel, vous pouvez accéder au [Rapport de périphérique dans Lync Server 2013](lync-server-2013-device-report.md) en cliquant sur l’une des mesures suivantes :
+Dans le rapport Détails de l’appel, vous pouvez accéder au [rapport sur les appareils dans Lync Server 2013](lync-server-2013-device-report.md) en cliquant sur l’une des mesures suivantes:
 
   - Périphérique de capture
 
@@ -61,23 +83,35 @@ Depuis le rapport sur le détail de l’appel, vous pouvez accéder au [Rapport 
 
 Vous pouvez aussi accéder au Rapport de tendance générale de la qualité des médias serveur en cliquant sur la mesure Serveur Edge A/V.
 
-## Utilisation optimale du rapport sur le détail de l’appel
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-call-detail-report"></a>Utilisation optimale du rapport sur le détail de l’appel
 
 En règle générale, le rapport sur le détail de l’appel comprend plus de 250 mesures différentes, avec notamment les éléments Dérive d’horodatage du microphone, Durée du SNR faible et Durée de l’écho au point de terminaison. Si vous ne vous rappelez pas de la fonction de l’une de ces nombreuses mesures, placez le curseur de la souris sur l’étiquette de la mesure ; vous devriez obtenir une info-bulle décrivant cette mesure.
 
-Si vous avez des difficultés à retrouver une mesure, tapez une partie de son nom dans la zone de recherche et cliquez sur Rechercher. Par exemple, si vous ne trouvez pas la mesure Durée du SNR faible, tapez SNR dans la zone de recherche, puis cliquez sur Rechercher.
+Si vous rencontrez des problèmes en localisant une métrique, tapez une partie de l’étiquette métrique dans la zone de recherche, puis cliquez sur Rechercher. Par exemple, si vous ne trouvez pas la métrique de l’inversion basse, tapez SNR dans la zone de recherche, puis cliquez sur Rechercher.
 
 Notez que le rapport effectue uniquement le suivi des informations concernant un appel. L’appel proprement dit n’est pas enregistré.
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Aucun. Vous ne pouvez pas filtrer le rapport sur le détail de l’appel.
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau ci-dessous liste les informations fournies dans le rapport sur le détail de l’appel pour chaque appel.
 
-### Mesures du rapport sur le détail de l’appel
+### <a name="call-detail-report-metrics"></a>Mesures du rapport sur le détail de l’appel
 
 <table>
 <colgroup>
@@ -205,4 +239,17 @@ Le tableau ci-dessous liste les informations fournies dans le rapport sur le dé
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

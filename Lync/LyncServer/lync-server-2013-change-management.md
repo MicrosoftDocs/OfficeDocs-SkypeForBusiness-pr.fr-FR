@@ -1,57 +1,91 @@
-﻿---
-title: 'Lync Server 2013: Change management'
+---
+title: 'Lync Server 2013: gestion des modifications'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn720336(v=OCS.15)
-ms:contentKeyID: 62221588
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
+ms:contentKeyID: 63969618
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 13eb521ea6b4be5f8d701885df65a3e1672b2eaa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838621"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Change management in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-08-18_
+# <a name="change-management-in-lync-server-2013"></a>Gestion des modifications dans Lync Server 2013
 
-Changes to the IT environment are unavoidable. Changes include new technologies, systems, applications, hardware, tools, processes, and changes in roles and responsibilities. An effective change management system lets you introduce changes to the IT environment quickly and with minimal service disruption. A change management system brings together the teams involved in changing a system. For example, deciding to take advantage of the Office Web Apps. This is an integrated Lync Service application that enables users to read and edit documents in a browser. The implementation of this service, after you have gone into production, requires the involvement of several teams:
+</div>
 
-  - **Test Team**   This team load-tests the Office Web Apps on a test server, in the process providing information about the expected usage patterns and expected performance of the production servers.
+<div id="mainSection">
 
-  - **Lync Administrators**   This team determines the deployment strategy and scripts the installation where it was possible. The team is responsible for making sure that the change is deployed on the production environment, and it is responsible for administration afterward. The team must understand the effect of the changes and incorporate them in procedures before the changes are put into production
+<div id="mainBody">
 
-  - **Network Team**   This team is responsible for changes to firewall rules that allow access from the Internet to the internal Lync pool servers. The team is also responsible in working with the Lync administrators for making sure that the available bandwidth can support the additional load.
+<span> </span>
 
-  - **Security Team**   This team assesses security and minimizes risks. The security team must review known vulnerabilities and help ensure that security risks are minimized.
+_**Dernière modification de la rubrique:** 2014-08-18_
 
-  - **User Acceptance Team**   This team is composed of users who are willing to test the system and offer feedback for improvements.
+La modification de l’environnement informatique est inévitable. Les modifications incluent de nouvelles technologies, systèmes, applications, matériel, outils, processus et modifications dans les rôles et les responsabilités. Un système de gestion des modifications efficace vous permet d’apporter des modifications à l’environnement informatique en toute simplicité et en minimisant les interruptions de service. Un système de gestion des modifications réunit les équipes impliquées dans le changement de système. Par exemple, en choisissant de tirer parti d’Office Web Apps. Il s’agit d’une application de service Lync intégrée qui permet aux utilisateurs de lire et de modifier des documents dans un navigateur. La mise en place de ce service, une fois que vous êtes passé en production, nécessite la participation de plusieurs équipes:
 
-The change management process defines the responsibilities of each team and schedules the work to be performed, incorporating checks and tests where they are required. Change controls will vary depending on the complexity and expected effect of a change. They can vary from automatic approval of minor changes, to change review meetings, to full project-level reviews. To explain this better, the groups of changes are discussed in this section.
+  - **Test**   de l’équipe cette équipe charge les tests sur Office Web Apps sur un serveur de test, dans le processus fournissant des informations sur les modèles d’utilisation prévus et les performances attendues des serveurs de production.
 
-  - **Major Changes**   Major changes have a global effect on the system and may require input from various teams. An example of this is upgrading to Lync Server 2013. Major changes affect many teams and perhaps different systems. The change management process will probably include one or more change review meetings to inform the teams that will be involved in the change or be affected by the change.
+  - **Administrateurs Lync cette**   équipe détermine la stratégie de déploiement et l’installation à l’endroit où il était possible. L’équipe doit s’assurer que le changement est déployé dans l’environnement de production et qu’il est responsable de l’administration par la suite. L’équipe doit comprendre l’impact des modifications et les inclure dans les procédures avant que les modifications soient apportées à la production.
 
-  - **Significant Changes**   Significant changes require significant resources to plan, build, and implement. Appropriate change controls should be introduced to help make ensure that the effect of the change is understood, deployment procedures are tested, and the rollback and contingency plans are ready. An example of a significant change is deploying a new cumulative update.
+  - **Équipe réseau cette**   équipe est responsable des modifications apportées aux règles de pare-feu qui autorisent l’accès à partir d’Internet aux serveurs de pools Lync internes. L’équipe est également responsable de l’utilisation des administrateurs Lync pour s’assurer que la bande passante disponible peut prendre en charge la charge supplémentaire.
 
-  - **Minor Changes**   Minor changes do not significantly affect the IT environment, for example, changing certain Lync policies via the Panneau de configuration Microsoft Lync Server 2013.
+  - **Équipe de sécurité**   cette équipe évalue la sécurité et réduit les risques. L’équipe de sécurité doit revoir les vulnérabilités connues et garantir le minimum de risques en matière de sécurité.
 
-  - **Standard Changes**   Standard changes are performed regularly and are well understood and documented. The change management process should review all changes to the procedures. It should not be needed for routine changes like creating a content database or adding a user.
+  - **Équipe d’approbation des utilisateurs**   cette équipe est composée d’utilisateurs qui souhaitent tester le système et formuler des commentaires sur les améliorations apportées.
 
-The following example of change management examines how different teams interact and the actions that are performed when a new service pack is deployed. These actions are organized and managed by the change management process.
+Le processus de gestion des modifications définit les responsabilités de chaque équipe et planifie le travail à effectuer, en incluant des contrôles et des tests là où ils sont nécessaires. Les contrôles de modification varient en fonction de la complexité et de l’effet attendu d’une modification. Ils peuvent varier en fonction de l’approbation automatique des modifications mineures, de la modification des réunions de révision et des avis complets au niveau du projet. Pour en expliquer davantage, les groupes de modifications sont décrits dans cette section.
 
-  - **Raise a change request**   The security team has assessed the latest service pack and confirmed that it resolves a possible vulnerability in the production system. The team raises a change request to have the new cumulative update applied to all servers that are running Lync Server.
+  - **Modifications**   majeures les modifications majeures ont un effet global sur le système et peuvent nécessiter une entrée de diverses équipes. Voici un exemple de mise à niveau vers Lync Server 2013. Les modifications majeures affectent de nombreuses équipes et peut-être des systèmes différents. Le processus de gestion des modifications inclura probablement une ou plusieurs réunions d’avis de modification pour informer les équipes participant au changement ou affectées par le changement.
 
-  - **Service pack release notes review**   The Lync administrator team reviews the service pack release notes to identify the effect on the system.
+  - **Modifications importantes les**   changements importants nécessitent des ressources significatives pour la planification, la création et l’implémentation. Des contrôles de modification appropriés doivent être introduits pour s’assurer que l’effet du changement est compris, que les procédures de déploiement sont testées et que les plans de restauration et de contingence sont prêts. Le déploiement d’une nouvelle mise à jour cumulative est un exemple de modification notable.
 
-  - **A series of lab tests is performed**   The Lync administrator team must perform test updates on a server in a test environment to decide whether the service pack can be applied successfully without affecting any of the installed applications and server systems. If there are third-party or internally created applications that interface with Lync Server in a production environment, these should be also tested. These tests can also be used to estimate the time that is required to perform the upgrades.
+  - **Changements**   mineurs les changements mineurs n’affectent pas de façon significative l’environnement informatique, par exemple, en modifiant certaines stratégies Lync via le panneau de configuration Microsoft Lync Server 2013.
 
-  - **Users are informed of the outage**   The Lync administrator team, communications team, or user help desk informs all affected users about the planned maintenance cycle and how long the service will be unavailable.
+  - **Les**   modifications standard apportées aux modifications standard sont effectuées régulièrement et sont bien entendues et documentées. Le processus de gestion des modifications doit examiner toutes les modifications apportées aux procédures. Il n’est pas nécessaire de procéder à des modifications de routine comme la création d’une base de données de contenu ou l’ajout d’un utilisateur.
 
-  - **A full backup of Lync is performed before the upgrade**   The Lync administrator team must verify that there is a valid backup that can be used to revert to the original system state if the service pack installation fails. We recommend that the backup be restored to a standby server to have this system readily available if there are issues.
+Dans l’exemple suivant, la gestion des modifications examine le mode d’interaction des différentes équipes et les actions effectuées lors du déploiement d’un nouveau Service Pack. Ces actions sont organisées et gérées par le processus de gestion des modifications.
 
-  - **The cumulative update is deployed**   The Lync administrator team does the installation during the planned maintenance cycle.
+  - **Déclenchement d’une demande**   de modification l’équipe de sécurité a évalué le dernier Service Pack et confirme qu’il résout une vulnérabilité dans le système de production. L’équipe déclenche une demande de modification pour que la nouvelle mise à jour cumulative s’applique à tous les serveurs exécutant Lync Server.
 
-## Managing the timing of changes
+  - **Notes de publication du Service Pack examinez**   l’équipe de l’administrateur Lync qui examine les notes de publication du Service Pack pour identifier l’effet sur le système.
 
-We recommend that you implement a procedure for scheduling changes to avoid disruptions in overlapping sections of your work. For example, two teams may both be planning a minor change to a system. One team may be applying a cumulative update on a pool while another team is migrating legacy users into that pool. Neither team is affected by the changes that the other team is planning, and each team may not necessarily know about changes that the other team is planning. If both changes occurred at the same time, there might be issues implementing the changes. Also, if there are issues after the changes were applied, for example, if the user migration fails, it may be difficult to decide which change should be rolled back. There should be regular maintenance periods set up between IT and management to test the changes and accept them.
+  - **Une série de tests en laboratoire est effectuée**   l’équipe de l’administrateur de Lync doit effectuer des mises à jour de test sur un serveur dans un environnement de test pour déterminer si le Service Pack peut être appliqué correctement sans affecter les applications et serveurs installés. dispositifs. S’il existe des applications tierces ou créées en interne qui interservent le serveur Lync dans un environnement de production, celles-ci doivent également être testées. Ces tests peuvent également être utilisés pour estimer le temps nécessaire pour effectuer les mises à jour.
+
+  - **Les utilisateurs sont informés de la**   mise en place de l’équipe d’administration de Lync, de l’équipe de communication ou du Bureau d’aide de l’utilisateur, qui informe tous les utilisateurs concernés du cycle de maintenance planifié et de la durée d’indisponibilité du service.
+
+  - **Une sauvegarde complète de Lync est effectuée avant**   de procéder à la mise à niveau de l’équipe de l’administrateur Lync pour vérifier qu’il existe une sauvegarde valide qui peut être utilisée pour rétablir l’état du système d’origine en cas d’échec de l’installation du Service Pack. Nous vous recommandons de restaurer la sauvegarde sur un serveur de secours pour que ce système soit facilement disponible en cas de problème.
+
+  - **La mise à jour cumulative est déployée**   l’équipe de l’administrateur de Lync effectue l’installation pendant le cycle de maintenance planifiée.
+
+<div>
+
+## <a name="managing-the-timing-of-changes"></a>Gestion de la durée des modifications
+
+Nous vous recommandons d’implémenter une procédure pour la planification des modifications afin d’éviter toute interruption dans les sections qui se chevauchent. Par exemple, il est possible que deux équipes envisagent une modification mineure d’un système. Une équipe peut appliquer une mise à jour cumulative sur un pool alors qu’une autre équipe migre des utilisateurs hérités vers ce pool. Aucune équipe n’est concernée par les modifications que l’autre équipe planifie, et chaque équipe ne connaît peut-être pas nécessairement les modifications que l’autre équipe planifie. Si les deux modifications ont été apportées en même temps, il est possible que les modifications soient implémentées. Par ailleurs, s’il y a des problèmes une fois les modifications appliquées (par exemple, en cas d’échec de la migration des utilisateurs), il peut être difficile de déterminer quelles modifications doivent être répercutées. Des périodes de maintenance normales doivent être définies entre le service informatique et la gestion pour tester les modifications et les accepter.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

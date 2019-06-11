@@ -1,64 +1,112 @@
-﻿---
-title: 'Lync Server 2013 : Conditions prérequises et rôles de configuration d’annonce'
-TOCTitle: Conditions prérequises et rôles de configuration d’annonce
-ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398658(v=OCS.15)
-ms:contentKeyID: 49297921
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Conditions prérequises et rôles de configuration d’annonce'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Announcement configuration prerequisites and roles
+ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)
+ms:contentKeyID: 48184674
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fb5f909170e1de2566e21e9305175211c306fee6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839039"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conditions prérequises et rôles de configuration d’annonce dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-25_
+# <a name="announcement-configuration-prerequisites-and-roles-in-lync-server-2013"></a>Conditions prérequises et rôles de configuration d’annonce dans Lync Server 2013
 
-L’application d’annonce est une fonctionnalité de gestion des appels Voix Entreprise. Cette rubrique décrit les composants à installer pour pouvoir la configurer et les rôles à attribuer pour réaliser des tâches de configuration.
+</div>
 
-Cette section présuppose que vous avez lu la documentation de planification relative à l’application d’annonce (reportez-vous à [Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
+<div id="mainSection">
 
-## Conditions préalables de configuration d’annonce
+<div id="mainBody">
 
-L’application d’annonce requiert les composants suivants :
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-25_
+
+Annonce est une fonction de gestion des appels voix entreprise. Cette rubrique décrit ce que vous devez mettre en place avant de pouvoir configurer l’annonce et les affectations de rôles nécessaires à l’exécution de tâches de configuration.
+
+Cette section suppose que vous avez lu la documentation de planification liée à l’annonce (voir [planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
+
+<div>
+
+## <a name="announcement-configuration-prerequisites"></a>Conditions préalables à la configuration de l’annonce
+
+L’application d’annonce nécessite les composants suivants:
 
   - service d’application
 
   - application Response Group
 
-  - Magasin de fichiers, pour conserver les fichiers audio
+  - Magasin de fichiers, pour contenir des fichiers audio
 
-Tous ces composants sont installés par défaut lorsque vous déployez Voix Entreprise.
+Tous ces composants sont installés par défaut lorsque vous déployez Enterprise Voice.
 
-## Rôles de configuration d’annonce
+</div>
 
-Vous pouvez utiliser les outils administratifs suivants pour configurer les annonces :
+<div>
 
-  - Panneau de configuration Lync Server
+## <a name="announcement-configuration-roles"></a>Rôles de configuration d’annonce
 
-  - Lync Server Management Shell
+Pour configurer des annonces, vous pouvez utiliser les outils d’administration suivants:
 
-La configuration de l’application d’annonce nécessite l’un des rôles d’administrateur suivants :
+  - Panneau de configuration Lync Server
 
-  - **CsVoiceAdministrator**   Ce rôle permet à l’administrateur de créer, configurer et gérer les paramètres et stratégies de voix, notamment les paramètres d’annonce.
+  - Lync Server Management Shell
 
-  - **CsServerAdministrator**   Ce rôle permet à l’administrateur de créer et de surveiller les serveurs et les services, d’identifier et de résoudre leurs problèmes, et de configurer tous les paramètres d’annonce.
+La configuration de l’application d’annonce nécessite l’un des rôles d’administration suivants:
 
-  - **CsAdministrator**   Ce rôle d’administrateur permet d’exécuter toutes les tâches administratives et de modifier tous les paramètres.
+  - **CsVoiceAdministrator**   ce rôle d’administrateur peut créer, configurer et gérer toutes les stratégies et paramètres relatifs à la voix, y compris les paramètres d’annonce.
 
-  - **CsViewOnlyAdministrator**   Ce rôle d’administrateur permet de visualiser le déploiement pour surveiller son état.
+  - **CsServerAdministrator**   ce rôle d’administrateur peut gérer, surveiller et résoudre les problèmes liés aux serveurs et aux services, et configurer tous les paramètres d’annonce.
+
+  - **CsAdministrator**   ce rôle d’administrateur peut effectuer toutes les tâches administratives et modifier tous les paramètres.
+
+  - **CsViewOnlyAdministrator**   ce rôle d’administrateur peut voir le déploiement pour contrôler l’intégrité du déploiement.
+
+<div>
+
 
 > [!NOTE]  
-> Pour plus d’informations sur les droits utilisateur d’administration, reportez-vous à <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
+> Pour plus d’informations sur les privilèges des utilisateurs d’administration, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planification du contrôle d’accès basé sur les rôles dans Lync Server 2013</A> dans la documentation de planification.
 
-## Voir aussi
 
-#### Concepts
 
-[Déploiement de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+</div>
 
-#### Autres ressources
+</div>
 
-[Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Déploiement d’Enterprise Voice dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[Planifier les fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

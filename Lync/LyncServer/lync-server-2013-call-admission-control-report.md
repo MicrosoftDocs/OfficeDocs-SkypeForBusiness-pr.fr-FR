@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de contrôle d’admission des appels'
-TOCTitle: Rapport de contrôle d’admission des appels
-ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615043(v=OCS.15)
-ms:contentKeyID: 49299207
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport de contrôle d’admission des appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Admission Control Report
+ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)
+ms:contentKeyID: 48185933
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4f31159742757b7ef8b6889b7961bad747b1f6d2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838718"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de contrôle d’admission des appels dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Rapport de contrôle d’admission des appels dans Lync Server 2013
 
-Le rapport du contrôle d’admission des appels fournit des informations sur les sessions P2P et de conférence menées avec des restrictions mises en place par le contrôle d’admission des appels. Introduit dans Microsoft Lync Server 2010, celui-ci offre la possibilité aux administrateurs d’autoriser (ou non) les sessions de communication en fonction des restrictions de bande passante. Par exemple, les administrateurs peuvent créer des stratégies qui imposent une quantité limite de bande passante disponible pour les appels vocaux et vidéo. Si cette limite est atteinte, aucun nouvel appel vocal ou vidéo ne peut être effectué tant que l’un des appels en cours n’est pas terminé et que les ressources réseau requises ne sont pas libérées.
+</div>
 
-## Accès au rapport du contrôle d’admission des appels
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-29_
+
+Le rapport du contrôle d’admission des appels fournit des informations sur les sessions P2P et de conférence menées avec des restrictions mises en place par le contrôle d’admission des appels. Le contrôle d’admission des appels, présenté dans Microsoft Lync Server 2010, permet aux administrateurs d’autoriser (ou non) les sessions de communication en fonction de contraintes de bande passante. Par exemple, les administrateurs peuvent créer des stratégies qui imposent une quantité limite de bande passante disponible pour les appels vocaux et vidéo. Si cette limite est atteinte, aucun nouvel appel vocal ou vidéo ne peut être effectué tant que l’un des appels en cours n’est pas terminé et que les ressources réseau requises ne sont pas libérées.
+
+<div>
+
+## <a name="accessing-the-call-admission-control-report"></a>Accès au rapport du contrôle d’admission des appels
 
 Le rapport du contrôle d’admission des appels est accessible à partir de la page d’accueil des Rapports de suivi. De ce rapport, vous pouvez atteindre l’un des rapports suivants :
 
@@ -25,7 +47,11 @@ Le rapport du contrôle d’admission des appels est accessible à partir de la 
 
   - Rapport détaillé de session P2P – Pour accéder à ce rapport, cliquez sur la mesure Détails d’une session P2P.
 
-## Utilisation optimale du rapport du contrôle d’admission des appels
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Utilisation optimale du rapport du contrôle d’admission des appels
 
 Pour obtenir une liste des appels ayant échoué en raison d’une bande passante insuffisante, sélectionnez Appels rejetés en raison du contrôle d’admission des appels dans la liste déroulante Catégorie d’appel. La plupart des appels renvoyés auront probablement un ID de diagnostic de 5 :
 
@@ -33,13 +59,17 @@ Bande passante insuffisante pour établir une session. Essayez le réacheminemen
 
 Cela indique que les limitations du contrôle d’admission des appels empêchaient l’appel d’être effectué sur le réseau VoIP.
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, le rapport de contrôle d’admission des appels vous permet de filtrer des appels en fonction de l’utilisateur qui les a émis ou qui a été appelé. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de contrôle d’admission des appels.
 
-### Filtres du rapport de contrôle d’admission des appels
+### <a name="call-admission-control-report-filters"></a>Filtres du rapport de contrôle d’admission des appels
 
 <table>
 <colgroup>
@@ -56,21 +86,21 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
 <td><p>Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :</p>
-<p>17/07/2012 13:00</p>
+<p>7/17/12012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
-<p>17/07/2012</p>
+<p>7/17/12012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
-<p>13.07.12</p>
+<p>7/13/2012</p>
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>À</strong></p></td>
 <td><p>Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :</p>
-<p>17/07/2012 13:00</p>
+<p>7/17/12012 1:00 PM</p>
 <p>Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :</p>
-<p>17/07/2012</p>
+<p>7/17/12012</p>
 <p>Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :</p>
-<p>13.07.12</p>
+<p>7/13/2012</p>
 <p>Les semaines s’étalent toujours du dimanche au samedi.</p></td>
 </tr>
 <tr class="odd">
@@ -99,11 +129,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </table>
 
 
-## Mesures pour les sessions P2P
+</div>
+
+<div>
+
+## <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions P2P
 
 Le tableau ci-dessous répertorie les informations fournies par le rapport de contrôle d’admission des appels pour les sessions P2P (c’est-à-dire, les sessions qui n’impliquent que deux participants).
 
-### Mesures pour les sessions P2P
+### <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions P2P
 
 <table>
 <colgroup>
@@ -120,7 +154,7 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Detail</strong></p></td>
+<td><p><strong>Détails</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport présente un rapport détaillé de session P2P pour la session spécifiée.</p></td>
 </tr>
@@ -163,11 +197,15 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 </table>
 
 
-## Mesures pour les sessions de conférence
+</div>
+
+<div>
+
+## <a name="metrics-for-conferencing-sessions"></a>Mesures pour les sessions de conférence
 
 Le tableau ci-dessous répertorie les informations fournies par le rapport de contrôle d’admission des appels pour les sessions de conférence (c’est-à-dire, les sessions qui impliquent trois participants ou plus).
 
-### Mesures pour les sessions de conférence
+### <a name="metrics-for-conferencing-sessions"></a>Mesures pour les sessions de conférence
 
 <table>
 <colgroup>
@@ -212,11 +250,15 @@ Le tableau ci-dessous répertorie les informations fournies par le rapport de co
 </table>
 
 
-## Mesures pour les participants individuels de la conférence
+</div>
+
+<div>
+
+## <a name="metrics-for-individual-conference-participants"></a>Mesures pour les participants individuels de la conférence
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de contrôle d’admission des appels pour chaque participant d’une conférence.
 
-### Mesures pour les participants individuels de la conférence
+### <a name="metrics-for-individual-conference-participants"></a>Mesures pour les participants individuels de la conférence
 
 <table>
 <colgroup>
@@ -269,4 +311,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de con
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

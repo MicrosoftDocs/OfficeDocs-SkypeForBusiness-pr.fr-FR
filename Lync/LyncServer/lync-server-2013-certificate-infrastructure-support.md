@@ -1,41 +1,71 @@
-﻿---
-title: Prise en charge des infrastructures de certificat dans Lync Server 2013
-TOCTitle: Prise en charge des infrastructures de certificat
-ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425950(v=OCS.15)
-ms:contentKeyID: 49297087
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Prise en charge des infrastructures de certificat dans Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate infrastructure support
+ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425950(v=OCS.15)
+ms:contentKeyID: 48184047
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 13e04e2e6746dac9c40eaa6df0c3b33d52c6a547
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838659"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge des infrastructures de certificat dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-11-07_
+# <a name="certificate-infrastructure-support-in-lync-server-2013"></a>Prise en charge des infrastructures de certificat dans Lync Server 2013
 
-Lync Server 2013 nécessite une infrastructure à clé publique (PKI, Public Key Infrastructure) pour la prise en charge des connexions TLS (Transport Layer Security) et MTLS (Mutual TLS). Par défaut, Lync Server 2013 est configuré pour utiliser TLS pour les connexions client à serveur. MTLS est utilisé pour les connexions entre serveurs.
+</div>
 
-Les certificats MTLS doivent être émis par des autorités de certification approuvées pour Lync Server 2013. Lync Server prend en charge les certificats émis à partir des autorités de certification suivantes :
+<div id="mainSection">
 
-  - Certificats émis par une autorité de certification interne :
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-11-07_
+
+Lync Server 2013 nécessite une infrastructure à clé publique (PKI) pour prendre en charge les connexions TLS (Transport Layer Security) et Mutual TLS (MTLS). Par défaut, Lync Server 2013 est configuré de manière à utiliser TLS pour les connexions client-serveur. MTLS est utilisé pour les connexions entre les serveurs.
+
+Les certificats MTLS doivent être émis par les autorités de certification de confiance pour Lync Server 2013. Lync Server prend en charge les certificats émis par les autorités de certification suivantes:
+
+  - Certificats émis par une autorité de certification interne:
     
-      - Autorité de certification système d’exploitation Windows Server 2003
+      - L’autorité de certification du système d’exploitation Windows Server 2003
     
-      - Autorité de certification du système d’exploitation Windows Server 2008
+      - L’autorité de certification du système d’exploitation Windows Server 2008
     
-      - Autorité de certification du système d’exploitation Windows Server 2008 R2
+      - Autorité de certification du système d’exploitation Windows Server 2008 R2
     
-      - Autorité de certification du système d’exploitation Windows Server 2012
+      - L’autorité de certification du système d’exploitation Windows Server 2012
     
       - Autorité de certification du système d’exploitation Windows Server 2012 R2
 
   - Certificats émis par une autorité de certification publique
 
-Les communications avec d’autres applications et serveurs, comme Exchange 2013, nécessitent un certificat qui soit pris en charge par les autres applications et produits. Pour la version 2013, Lync Server 2013 et les autres produits serveur Microsoft, dont Exchange 2013 et SharePoint Server, prennent en charge le protocole OAuth (Open Authorization) pour l’authentification et l’autorisation de serveur à serveur. Pour plus d’informations, reportez-vous à [Gestion de l’authentification serveur à serveur (Oauth) et des applications partenaires dans Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) dans la documentation de déploiement ou des opérations.
+La communication avec d’autres applications et serveurs, comme Exchange 2013, nécessite un certificat pris en charge par les autres applications et produits. Pour la version 2013, Lync Server 2013 et d’autres produits Microsoft Server, dont Exchange 2013 et SharePoint Server, prennent en charge le protocole d’autorisation Open (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Pour plus d’informations, reportez-vous à la section [gestion des applications d’authentification de serveur à serveur (OAuth) et de partenariat dans Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) dans la documentation de déploiement ou la documentation des opérations.
 
-Pour les connexions établies à partir de clients exécutant système d’exploitation Windows 7, système d’exploitation Windows Server 2008 R2 et Microsoft Office Communicator 2007 Phone Edition, Lync Server 2013 inclut la prise en charge (mais ne nécessite pas) de certificats signés à l’aide de la fonction de hachage de chiffrement SHA-256. Pour permettre la prise en charge de l’accès externe via SHA-256, le certificat externe est émis par une autorité de certification publique utilisant SHA-256.
+Pour les connexions à partir de clients exécutant le système d’exploitation Windows 7, le système d’exploitation Windows Server 2008 R2 et Microsoft Office Communicator 2007 Phone Edition, Lync Server 2013 inclut la prise en charge des certificats de l’SHA-256 fonction de hachage cryptographique. Pour prendre en charge l’accès externe à l’aide de l’algorithme SHA-256, le certificat externe est émis par une autorité de certification publique utilisant SHA-256.
 
-Pour plus d’informations sur les exigences relatives aux certificats, reportez-vous à [Configuration requise pour les infrastructures de certificat pour Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation de caractères génériques avec les certificats, reportez-vous à [Prise en charge des certificats comportant des caractères génériques dans Lync Server 2013](lync-server-2013-wildcard-certificate-support.md) dans la documentation de prise en charge.
+Pour plus d’informations sur les exigences relatives aux certificats, voir [configurations requises en matière d’infrastructure de certificats pour Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md) dans la documentation de planification. Pour plus d’informations sur l’utilisation de caractères génériques avec des certificats, voir [prise en charge de certificat générique dans Lync Server 2013](lync-server-2013-wildcard-certificate-support.md) dans la documentation relative à la prise en charge.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

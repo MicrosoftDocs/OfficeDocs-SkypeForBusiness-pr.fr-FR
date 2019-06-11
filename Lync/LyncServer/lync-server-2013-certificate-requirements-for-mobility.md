@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013 : Exigences relatives aux certificats pour la mobilité'
-TOCTitle: Exigences relatives aux certificats pour la mobilité
-ms:assetid: bb0e97af-cf60-4271-a0ab-654429d884ea
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh690044(v=OCS.15)
-ms:contentKeyID: 49298654
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Exigences relatives aux certificats pour la mobilité'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate requirements for mobility
+ms:assetid: bb0e97af-cf60-4271-a0ab-654429d884ea
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690044(v=OCS.15)
+ms:contentKeyID: 48185251
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8f62b05fd77151250e352c62cad7084d1bb90926
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838651"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exigences relatives aux certificats pour la mobilité dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="certificate-requirements-for-mobility-in-lync-server-2013"></a>Exigences relatives aux certificats pour la mobilité dans Lync Server 2013
 
-Si vous déployez la fonctionnalité de mobilité et prenez en charge la découverte automatique pour les clients mobiles, vous devez inclure certaines entrée d’autres noms de sujet sur les certificats de manière prendre en charge les connexions sécurisées établies à partir de clients mobiles.
+</div>
 
-Vous devez inclure des entrées d’autres noms de sujet pour la découverte automatique sur les certificats suivants :
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-24_
+
+Si vous déployez la fonctionnalité de mobilité et que vous prenez en charge la découverte automatique pour les clients mobiles, vous devez inclure certaines entrées de nom alternatif de sujet sur les certificats pour la prise en charge de connexions sécurisées à partir des clients mobiles.
+
+Vous devez inclure les autres entrées de nom de l’objet pour la découverte automatique sur les certificats suivants:
 
   - pool de directeurs
 
@@ -25,12 +45,19 @@ Vous devez inclure des entrées d’autres noms de sujet pour la découverte aut
 
   - Proxy inverse
 
-Cette section décrit les entrées d’autres noms de sujet requises sur vos certificats pour la découverte automatique.
+Cette section décrit les entrées de nom alternatif requises sur vos certificats pour une découverte automatique.
+
+<div>
+
 
 > [!NOTE]  
-> La réémission de certificats à l’aide d’une autorité de certification interne est généralement un processus simple, mais l’ajout de plusieurs entrées d’autres noms de sujet à des certificats publics utilisés par le proxy inverse peut être une opération coûteuse. Si vous avez de nombreux domaines SIP, ce qui rend l’ajout d’autres noms de sujet très coûteux, vous pouvez configurer le proxy inverse de façon à utiliser le protocole HTTP pour la demande initiale du service de découverte automatique, plutôt que le protocole HTTPS (configuration par défaut). Pour plus d’informations, reportez-vous à <a href="lync-server-2013-technical-requirements-for-mobility.md">Exigences techniques pour la mobilité dans Lync Server 2013</a>.
+> La réémission de certificats à l’aide d’une autorité de certification interne correspond généralement à un processus simple, mais l’ajout de plusieurs entrées de nom de remplacement de sujet à des certificats publics utilisés par le proxy inverse peut être coûteux. Si vous avez de nombreux domaines SIP, le fait d’ajouter des noms de substitution d’objet très coûteux, vous pouvez configurer le proxy inverse pour qu’il utilise HTTP pour la demande de service de découverte automatique initiale au lieu d’utiliser HTTPs (configuration par défaut). Pour plus d’informations, voir <A href="lync-server-2013-technical-requirements-for-mobility.md">Configuration requise pour la mobilité dans Lync Server 2013</A>.
 
-### Exigences relatives au certificat du pool directeur
+
+
+</div>
+
+### <a name="director-pool-certificate-requirements"></a>Conditions requises pour le certificat de pool de réalisateur
 
 <table>
 <colgroup>
@@ -40,26 +67,33 @@ Cette section décrit les entrées d’autres noms de sujet requises sur vos cer
 <thead>
 <tr class="header">
 <th>Description</th>
-<th>Entrée d’autre nom de sujet</th>
+<th>Entrée de l’autre nom de l’objet</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>URL du service de découverte automatique interne</p></td>
-<td><p>SAN=lyncdiscoverinternal.&lt;domaineSIP&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL du service de découverte automatique externe</p></td>
-<td><p>SAN=lyncdiscover.&lt;domaineSIP&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> Vous pouvez également utiliser SAN=*.&lt;domaineSIP&gt;
+<div>
 
-### Exigences relatives au certificat du pool frontal
+
+> [!NOTE]  
+> Vous pouvez également utiliser le SAN = *. &lt;sipdomain&gt;
+
+
+
+</div>
+
+### <a name="front-end-pool-certificate-requirements"></a>Conditions requises pour le certificat de pool frontal
 
 <table>
 <colgroup>
@@ -69,26 +103,33 @@ Cette section décrit les entrées d’autres noms de sujet requises sur vos cer
 <thead>
 <tr class="header">
 <th>Description</th>
-<th>Entrée d’autre nom de sujet</th>
+<th>Entrée de l’autre nom de l’objet</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>URL du service de découverte automatique interne</p></td>
-<td><p>SAN=lyncdiscoverinternal.&lt;domaineSIP&gt;</p></td>
+<td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>URL du service de découverte automatique externe</p></td>
-<td><p>SAN=lyncdiscover.&lt;domaineSIP&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> Vous pouvez également utiliser SAN=*.&lt;domaineSIP&gt;
+<div>
 
-### Exigences relatives au certificat de proxy inverse (autorité de certification publique)
+
+> [!NOTE]  
+> Vous pouvez également utiliser le SAN = *. &lt;sipdomain&gt;
+
+
+
+</div>
+
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Conditions requises pour les certificats de proxy inverse (AC publique)
 
 <table>
 <colgroup>
@@ -98,20 +139,45 @@ Cette section décrit les entrées d’autres noms de sujet requises sur vos cer
 <thead>
 <tr class="header">
 <th>Description</th>
-<th>Entrée d’autre nom de sujet</th>
+<th>Entrée de l’autre nom de l’objet</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>URL du service de découverte automatique externe</p></td>
-<td><p>SAN=lyncdiscover.&lt;domaineSIP&gt;</p></td>
+<td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-> [!NOTE]  
-> Vous affecté cet autre nom d’objet (SAN) au certificat affecté à l’écouteur SSL sur le proxy inverse.
+<div>
+
 
 > [!NOTE]  
-> Votre écouteur de proxy inverse aura d’autres noms d’objets pour vos URL des services web externes (par exemple, SAN=lyncwebextpool01.contoso.com), et dirwebexternal.contoso.com si vous avez déployé le directeur facultatif).
+> Vous attribuez ce SAN au certificat attribué à l’écouteur SSL sur le proxy inverse.
+
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Votre écouteur de proxy inverse aura des noms de remplacement pour vos URL de services Web externes (par exemple, SAN = lyncwebextpool01. contoso. com et dirwebexternal.contoso.com si vous avez déployé le réalisateur facultatif).
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

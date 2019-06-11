@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table CallType'
-TOCTitle: Table CallType
-ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412752(v=OCS.15)
-ms:contentKeyID: 49298406
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table CallType'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CallType table
+ms:assetid: a1d7187c-f851-4967-88ea-73922911ee7a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412752(v=OCS.15)
+ms:contentKeyID: 48185019
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af1fa6f96d215de9ed39311e5afc84def7d71725
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838683"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table CallType dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="calltype-table-in-lync-server-2013"></a>Table CallType dans Lync Server 2013
 
-La table CallType est une table statique qui contient la liste de types d’appels possibles.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-28_
+
+La table CallType est une table statique qui contient la liste des types d’appels possibles.
 
 
 <table>
@@ -36,24 +56,35 @@ La table CallType est une table statique qui contient la liste de types d’appe
 <tbody>
 <tr class="odd">
 <td><p><strong>CallTypeId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallType</strong></p></td>
 <td><p>nvarchar</p></td>
-<td><p></p></td>
-<td><p>Valeurs autorisées :</p>
+<td></td>
+<td><p>Valeurs autorisées:</p>
 <ul>
-<li><p>0 - Inconnu</p></li>
-<li><p>1 - Messagerie instantanée</p></li>
-<li><p>2 - Partage d’application</p></li>
-<li><p>3 – Audio</p></li>
-<li><p>4 - Audio et vidéo</p></li>
-<li><p>5 - Transfert de fichiers</p></li>
+<li><p>0--Inconnu</p></li>
+<li><p>1-messagerie instantanée</p></li>
+<li><p>2-partage d’application</p></li>
+<li><p>3-audio</p></li>
+<li><p>4-audio et vidéo</p></li>
+<li><p>5-transfert de fichiers</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

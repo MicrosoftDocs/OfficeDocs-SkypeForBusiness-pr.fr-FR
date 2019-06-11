@@ -1,37 +1,75 @@
-﻿---
-title: Enregistrement des détails des appels (CDR) dans Lync Server 2013
-TOCTitle: Enregistrement des détails des appels (CDR) dans Lync Server 2013
-ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688079(v=OCS.15)
-ms:contentKeyID: 49891379
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: enregistrement des détails des appels (CDR)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call detail recording (CDR)
+ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688079(v=OCS.15)
+ms:contentKeyID: 49733675
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26a15053ee79a246889f1802e5b7801e548574c2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838700"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Enregistrement des détails des appels (CDR) dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Enregistrement des détails des appels (CDR) dans Lync Server 2013
 
-L’enregistrement des détails des appels permet d’enregistrer les informations de diagnostic et d’utilisation relatives aux activités P2P, notamment la messagerie d’instance, les appels VoIP (protocole voix sur IP), le partage d’application, le transfert de fichiers et les réunions. Les données d’utilisation permettent de calculer le retour sur investissement alors que les données de diagnostic permettent de résoudre les problèmes spécifiques aux activités et réunions P2P. Lorsque vous installez Lync Server 2013, vous installez également une collection prédéfinie de paramètres de configuration globaux pour l’enregistrement des détails des appels. Utilisez les rubriques de cette section pour configurer l’enregistrement des détails des appels.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Affichage des informations de configuration de l’enregistrement des détails des appels](lync-server-2013-view-cdr-configuration-information.md)
+<div id="mainBody">
 
-  - [Actvier l’enregistrement des détails des appels](lync-server-2013-enable-call-detail-recording.md)
+<span> </span>
 
-  - [Création ou modification d’une collection de paramètres de configuration de l’enregistrement des détails des appels](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
+_**Dernière modification de la rubrique:** 2012-10-22_
 
-  - [Suppression d’une collection existante de paramètres de configuration de l’enregistrement des détails des appels](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
+L’enregistrement des détails des appels permet d’enregistrer les informations de diagnostic et d’utilisation relatives aux activités P2P, notamment la messagerie d’instance, les appels VoIP (protocole voix sur IP), le partage d’application, le transfert de fichiers et les réunions. Les données d’utilisation permettent de calculer le retour sur investissement alors que les données de diagnostic permettent de résoudre les problèmes spécifiques aux activités et réunions P2P. Lorsque vous installez Lync Server 2013, vous devez également installer une collection prédéfinie de paramètres de configuration globale pour CDR. Utilisez les rubriques de cette section pour configurer l’enregistrement des détails des appels.
 
-  - [Purge manuelle des bases de données de l’enregistrement des détails des appels et de la qualité de l’expérience](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+<div>
 
-## Voir aussi
+## <a name="in-this-section"></a>Dans cette section
 
-#### Concepts
+  - [Afficher les informations de configuration de CDR dans Lync Server 2013](lync-server-2013-view-cdr-configuration-information.md)
 
-[Configuration des paramètres de l’enregistrement des détails des appels et de la qualité de l’expérience dans Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)
+  - [Activer l’enregistrement des détails des appels dans Lync Server 2013](lync-server-2013-enable-call-detail-recording.md)
+
+  - [Créer ou modifier un ensemble de paramètres de configuration de CDR dans Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
+
+  - [Supprimer une collection existante de paramètres de configuration de CDR dans Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
+
+  - [Effacement manuel des bases de données de l’enregistrement des détails des appels et de la qualité de l’interface dans Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Configuration des paramètres d’enregistrement des détails des appels et de la qualité de l’expérimentation dans Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

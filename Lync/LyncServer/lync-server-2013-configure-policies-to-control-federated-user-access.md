@@ -1,122 +1,184 @@
-﻿---
-title: "Lync Server 2013 : Conf. des stratégies de contrôle d’accès des ut. fédérés"
-TOCTitle: Configuration des stratégies de contrôler d’accès des utilisateurs fédérés
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 49297221
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès des utilisateurs fédérés'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure policies to control federated user access
+ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
+ms:contentKeyID: 48184180
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fb009561c36395ee31a49986f2db0103cbe096b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838347"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-02-05_
+# <a name="configure-policies-to-control-federated-user-access-in-lync-server-2013"></a>Configuration des stratégies de contrôle d’accès des utilisateurs fédérés dans Lync Server 2013
 
-Quand vous configurez des stratégies de prise en charge des communications avec les partenaires fédérés, ces stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes afin de vérifier si les utilisateurs des domaines fédérés peuvent collaborer avec vos utilisateurs Lync Server 2013. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies au niveau global, du site et de l’utilisateur. Les paramètres de stratégie Lync Server qui sont appliqués au niveau d’une stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. La politique de priorité de Lync Server est la suivante : la stratégie utilisateur (la plus influente) remplace une stratégie site, et une stratégie site remplace une stratégie globale (la moins influente). Cela signifie que plus le paramètre de stratégie est proche de l’objet que la stratégie affecte, plus elle a d’influence sur l’objet.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-02-05_
+
+Lorsque vous configurez des stratégies pour prendre en charge les communications avec les partenaires fédérés, les stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs de domaines fédérés peuvent collaborer avec vos utilisateurs de Lync Server 2013. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies aux niveaux global, site et utilisateur. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit: la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
+
+<div>
+
 
 > [!NOTE]  
-> Vous pouvez configurer des stratégies de contrôle d’accès des utilisateurs fédérés, même si vous n’avez pas activé la fédération pour votre organisation. Cependant, les stratégies que vous configurez s’appliquent uniquement si la fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la fédération, reportez-vous à <a href="lync-server-2013-enable-or-disable-remote-user-access.md">Activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</a> dans la documentation de déploiement ou des opérations. En outre, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs fédérés, la stratégie s’applique uniquement aux utilisateurs activés pour Lync Server 2013 et configurés pour utiliser la stratégie.
+> Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs fédérés, même si vous n’avez pas activé la Fédération pour votre organisation. Toutefois, les stratégies que vous configurez ne s’appliquent que lorsque la Fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la Fédération, voir <A href="lync-server-2013-enable-or-disable-remote-user-access.md">activation ou désactivation de l’accès des utilisateurs distants dans Lync Server 2013</A> dans la documentation de déploiement ou la documentation des opérations. Par ailleurs, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs fédérés, la stratégie s’applique uniquement aux utilisateurs qui sont activés pour Lync Server 2013 et qui sont configurés pour utiliser cette stratégie.
 
-## Pour configurer une stratégie permettant la prise en charge de l’accès des utilisateurs des domaines fédérés
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes** , puis sur **Stratégie d’accès externe** .
+<div>
 
-4.  Dans la page **Stratégie d’accès externe** , effectuez l’une des opérations suivantes :
+## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Pour configurer une stratégie afin de prendre en charge l’accès par des utilisateurs de domaines fédérés
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
+
+4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes:
     
-      - Pour configurer la stratégie globale permettant la prise en charge de l’accès des utilisateurs fédérés, cliquez sur la stratégie globale, sur **Modifier** , puis sur **Afficher les détails** .
+      - Pour configurer la stratégie globale de manière à prendre en charge l’accès des utilisateurs fédérés, cliquez sur la stratégie globale, cliquez sur **modifier**, puis sur **afficher les détails**.
     
-      - Pour créer une nouvelle stratégie de site, cliquez sur **Nouveau** , puis sur **Stratégie du site** . Dans **Sélectionner un site** , cliquez sur le site approprié dans la liste, puis cliquez sur **OK** .
+      - Pour créer une stratégie de site, cliquez sur **nouveau**, puis cliquez sur **stratégie de site**. Dans **Sélectionner un site**, cliquez sur le site approprié dans la liste, puis cliquez sur **OK**.
     
-      - Pour créer une nouvelle stratégie utilisateur, cliquez sur **Nouveau** , puis sur **Stratégie de l’utilisateur** . Dans **Nouvelle stratégie d’accès externe** , créez dans le champ **Nom** un nom unique qui indique ce que couvre la stratégie utilisateur (par exemple, **EnableFederatedUsers** pour une stratégie utilisateur qui autorise les communications des utilisateurs de domaines fédérés).
+      - Pour créer une nouvelle stratégie d’utilisateur, cliquez sur **nouveau**, puis cliquez sur stratégie de l' **utilisateur**. Dans **nouvelle stratégie d’accès externe**, créez un nom unique dans le champ **nom** qui indique le texte de la stratégie de l’utilisateur (par exemple, **EnableFederatedUsers** pour une stratégie de l’utilisateur qui autorise les communications pour les utilisateurs fédérés du domaine).
     
-      - Pour modifier une stratégie existante, cliquez sur la stratégie appropriée dans le tableau, cliquez sur **Modifier** , puis cliquez sur **Afficher les détails** .
+      - Pour modifier une stratégie existante, cliquez sur la stratégie appropriée répertoriée dans le tableau, cliquez sur **modifier**, puis sur **afficher les détails**.
 
-5.  (Facultatif) Si vous souhaitez ajouter ou modifier une description, spécifiez les informations relatives à la stratégie dans **Description** .
+5.  Facultatif Si vous souhaitez ajouter ou modifier une description, spécifiez les informations relatives à la stratégie dans **Description**.
 
 6.  Effectuez l’une des actions suivantes :
     
-      - Pour activer l’accès des utilisateurs fédérés pour la stratégie, activez la case à cocher **Autoriser les communications avec des utilisateurs fédérés** .
+      - Pour autoriser l’accès des utilisateurs fédérés pour la stratégie, activez la case à cocher **activer les communications avec les utilisateurs fédérés** .
     
-      - Pour désactiver l’accès des utilisateurs fédérés pour la stratégie, désactivez la case à cocher **Autoriser les communications avec des utilisateurs fédérés** .
+      - Pour désactiver l’accès des utilisateurs fédérés pour la stratégie, décochez la case **activer les communications avec les utilisateurs fédérés** .
 
-7.  Cliquez sur **Valider** .
+7.  Cliquez sur **Valider**.
 
-Pour activer l’accès des utilisateurs fédérés, vous devez aussi activer la prise en charge de la fédération dans votre organisation. Pour plus d’informations, reportez-vous à [Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md).
+Pour autoriser l’accès des utilisateurs fédérés, vous devez également activer la prise en charge de la Fédération au sein de votre organisation. Pour plus d’informations, reportez-vous à [activation ou désactivation de la connectivité de Fédération et de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md).
 
-S’il s’agit d’une stratégie utilisateur, vous devez aussi appliquer la stratégie aux utilisateurs que vous souhaitez autoriser à collaborer avec les utilisateurs fédérés. Pour plus d’informations, reportez-vous à [Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md).
+S’il s’agit d’une stratégie de l’utilisateur, vous devez également appliquer la stratégie aux utilisateurs que vous souhaitez pouvoir collaborer avec des utilisateurs fédérés. Pour plus d’informations, voir [affecter une stratégie d’accès d’utilisateur externe à un utilisateur compatible Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md).
 
-## Pour configurer une stratégie existante via Windows PowerShell afin de prendre en charge l’accès des utilisateurs des domaines fédérés
+</div>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div>
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour configurer une stratégie existante à l’aide de Windows PowerShell pour prendre en charge l’accès par les utilisateurs de domaines fédérés
 
-3.  Tapez ce qui suit dans Lync Server Management Shell :
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+
+3.  Dans Lync Server Management Shell, tapez ce qui suit:
     
-        Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
+        Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    Exemple de commande qui définit la stratégie globale permettant d’activer l’accès des utilisateurs fédérés, d’activer l’accès au domaine XMPP, d’activer l’accès des utilisateurs distants, d’activer l’accès des fournisseurs publics et d’autoriser l’utilisation des fonctionnalités audio et vidéo aux fournisseurs publics qui les prennent en charge :
+    Un exemple de commande qui définit la stratégie globale pour l’accès utilisateur fédéré à activé, l’accès au domaine de XMPP à activé, l’accès des utilisateurs distants à activé, l’accès du fournisseur public à activé, et autorise l’utilisation de l’audio et de la vidéo pour les fournisseurs publics qui le prennent en charge:
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
+    <div>
+    
+
     > [!TIP]  
-    > Le paramètre « EnablePublicCloudAudioVideoAccess » n’a pas de sélection correspondante dans le Panneau de configuration Lync Server
+    > Le paramètre «EnablePublicCloudAudioVideoAccess» ne possède pas de sélection correspondante dans le panneau de configuration de Lync Server
 
-## Pour créer une stratégie via Windows PowerShell afin de prendre en charge l’accès des utilisateurs des domaines fédérés
+    
+    </div>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+</div>
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+<div>
 
-3.  Tapez ce qui suit dans Lync Server Management Shell :
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour créer une stratégie à l’aide de Windows PowerShell afin de prendre en charge l’accès par les utilisateurs de domaines fédérés
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+
+3.  Dans Lync Server Management Shell, tapez ce qui suit:
     
         New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    Exemple de création d’une stratégie de site :
+    Exemple de création d’une nouvelle stratégie de site:
     
         New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
 
-## Pour supprimer ou réinitialiser une stratégie via Windows PowerShell afin de prendre en charge l’accès des utilisateurs des domaines fédérés
+</div>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div>
 
-2.  Tapez ce qui suit dans Lync Server Management Shell :
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour supprimer ou réinitialiser une stratégie à l’aide de Windows PowerShell afin de prendre en charge l’accès par les utilisateurs de domaines fédérés
+
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
+
+2.  Tapez les informations suivantes dans Lync Server Management Shell
     
         Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy> 
     
-    Exemple de réinitialisation de la stratégie globale (seuls les paramètres de la stratégie globale peuvent être supprimés. La stratégie ne peut pas être supprimée) :
+    Voici un exemple de réinitialisation de la stratégie globale (la stratégie globale peut uniquement avoir supprimé son paramètre. La stratégie ne peut pas être supprimée):
     
         Remove-CsExternalAccessPolicy -Identity global 
     
-    Pour supprimer une stratégie de site, tapez :
+    Pour supprimer une stratégie de site, tapez:
     
         Remove-CsExternalAccessPolicy -Identity site:Redmond 
     
-    Supprime la stratégie de site Redmond. Pour supprimer une stratégie utilisateur nommée UserEAPPolicy, tapez :
+    Supprime la stratégie de site Redmond. Pour supprimer une stratégie d’utilisateur nommée UserEAPPolicy, tapez:
     
         Remove-CsExternalAccessPolicy -Identity UserEAPPolicy
 
-## Voir aussi
+</div>
 
-#### Tâches
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Activation ou désactivation de la fédération et de la connectivité PIC dans Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
 [Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)  
 
-#### Autres ressources
 
 [Gestion des domaines fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)  
 [Gestion des fournisseurs fédérés SIP pour l’organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md)  
-[Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[New-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
-[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)
+[Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[Nouveau-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
+[Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

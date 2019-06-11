@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Transferts et renvois d’appels'
-TOCTitle: Transferts et renvois d’appels
-ms:assetid: 978610ec-63c7-4cf6-ad7a-9ef91559bf12
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994051(v=OCS.15)
-ms:contentKeyID: 53095478
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Transferts et renvois d’appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call transfers and call forwarding
+ms:assetid: 978610ec-63c7-4cf6-ad7a-9ef91559bf12
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994051(v=OCS.15)
+ms:contentKeyID: 51803962
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6d5b0661cfaaef2e514f070260f44abc4ea00572
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838685"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Transferts et renvois d’appels dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Transferts et renvois d’appels dans Lync Server 2013
 
-Si un point de terminaison RTC est impliqué, le routage géodépendant analyse l’emplacement du point de terminaison de l’appelé et le point de terminaison vers lequel l’appel sera transféré ou renvoyé (cible de transfert/renvoi). Il détermine si l’appel doit être transféré ou renvoyé selon l’emplacement des deux points de terminaison.
+</div>
 
-Le tableau ci-dessous illustre un scénario dans lequel l’utilisateur de Lync est en communication avec un point de terminaison RTC et transfère l’appel vers un autre utilisateur de Lync. Selon l’emplacement de site réseau du point de terminaison du cessionnaire, le routage géodépendant affecte le routage du transfert ou du renvoi d’appel.
+<div id="mainSection">
 
-### Lancement du transfert ou du renvoi d’appel
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-03-09_
+
+Lorsqu’un point de terminaison RTC est impliqué, le routage géolocalisation analyse l’emplacement du point de terminaison de 134 et le point de terminaison de transfert ou de transfert de l’appel (c.-à-d. transférer/transférer la cible). Le routage basé sur l’emplacement détermine si l’appel doit être transféré ou transféré en fonction de l’emplacement des deux points de terminaison.
+
+Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel avec un point de terminaison PSTN et l’utilisateur de Lync transfère l’appel vers un autre utilisateur Lync. En fonction de l’emplacement du site du réseau du point de terminaison du destinataire, le routage de l’emplacement affecte le routage du transfert ou du transfert d’appel.
+
+### <a name="initiating-call-transfer-or-forward"></a>Lancement du transfert ou du renvoi d’appel
 
 <table>
 <colgroup>
@@ -33,12 +53,12 @@ Le tableau ci-dessous illustre un scénario dans lequel l’utilisateur de Lync 
 <th>Utilisateur à l’origine du transfert/renvoi d’appel</th>
 <th>Point de terminaison cible dans le même site réseau que l’utilisateur à l’origine du transfert ou du renvoi d’appel</th>
 <th>Point de terminaison cible dans un autre site réseau que l’utilisateur à l’origine du transfert ou du renvoi d’appel</th>
-<th>Point de terminaison cible dans un site réseau inconnu ou routage géodépendant non activé sur le site réseau</th>
+<th>Le point de terminaison cible est dans un site réseau inconnu ou un site réseau non activé pour le routage par emplacement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Utilisateur de Lync</p></td>
+<td><p>Utilisateur Lync</p></td>
 <td><p>Le transfert ou renvoi de l’appel est autorisé</p></td>
 <td><p>Le transfert ou renvoi de l’appel n’est pas autorisé</p></td>
 <td><p>Le transfert ou renvoi de l’appel n’est pas autorisé</p></td>
@@ -48,11 +68,11 @@ Le tableau ci-dessous illustre un scénario dans lequel l’utilisateur de Lync 
 
   
 
-Par exemple, un utilisateur de Lync en communication avec un point de terminaison RTC transfère l’appel à un autre utilisateur de Lync dans le même site réseau. Dans ce cas, le transfert de l’appel est autorisé.
+Par exemple, un utilisateur Lync dans un appel avec un point de terminaison PSTN transfère l’appel vers un autre utilisateur Lync qui se trouve sur le même site réseau. Dans ce cas, le transfert de l’appel est autorisé.
 
-Le tableau ci-dessous illustre un scénario dans lequel l’utilisateur de Lync est en communication avec un autre utilisateur de Lync. Un des utilisateurs transfère l’appel à un point de terminaison RTC. Selon l’emplacement de l’utilisateur auquel l’appel est transféré, le tableau indique comment le routage géodépendant affecte l’appel.
+Le tableau suivant illustre le scénario d’un utilisateur Lync dans un appel d’un autre utilisateur Lync et l’un d’entre eux transfère l’appel à un point de terminaison PSTN. En fonction de l’emplacement de l’utilisateur sur lequel l’appel est transféré, le tableau décrit les détails relatifs à l’appel par le routage selon l’emplacement.
 
-### Transfert ou renvoi de l’appel vers le point de terminaison RTC
+### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Transfert ou renvoi de l’appel vers le point de terminaison RTC
 
 <table>
 <colgroup>
@@ -64,9 +84,9 @@ Le tableau ci-dessous illustre un scénario dans lequel l’utilisateur de Lync 
 <thead>
 <tr class="header">
 <th>Point de terminaison cible du transfert/renvoi de l’appel</th>
-<th>Utilisateurs de Lync dans le même site réseau</th>
+<th>Utilisateurs de Lync sur le même site réseau</th>
 <th>Utilisateurs de Lync dans différents sites réseau</th>
-<th>Un des utilisateurs ou les deux dans un site réseau inconnu ou routage géodépendant non activé sur le site réseau</th>
+<th>L’un ou les deux utilisateurs de Lync sur un site réseau ou un site réseau inconnu non activé pour le routage par emplacement</th>
 </tr>
 </thead>
 <tbody>
@@ -80,11 +100,25 @@ Le tableau ci-dessous illustre un scénario dans lequel l’utilisateur de Lync 
 </table>
 
   
-Par exemple, un utilisateur de Lync en communication avec un autre utilisateur de Lync dans le même site réseau transfère l’appel à un point de terminaison RTC et le transfert de l’appel est autorisé.
+Par exemple, un utilisateur Lync dans un appel avec un autre utilisateur Lync figurant dans le même site réseau transfère l’appel vers un point de terminaison PSTN et le transfert d’appel est autorisé.
 
-## Voir aussi
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
+
+[Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

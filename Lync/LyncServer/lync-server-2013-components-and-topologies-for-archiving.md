@@ -1,66 +1,115 @@
-﻿---
-title: 'Lync Server 2013 : Composants et topologies utilisés pour l’archivage'
-TOCTitle: Composants et topologies utilisés pour l’archivage
-ms:assetid: 5893063d-a44a-4034-aba9-cbe883ecf710
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204916(v=OCS.15)
-ms:contentKeyID: 49297307
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Composants et topologies utilisés pour l’archivage'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for Archiving
+ms:assetid: 5893063d-a44a-4034-aba9-cbe883ecf710
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204916(v=OCS.15)
+ms:contentKeyID: 48184213
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c434fd8216689b42e664b5b421101470ad984bf2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838529"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Composants et topologies utilisés pour l’archivage dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-09_
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Composants et topologies utilisés pour l’archivage dans Lync Server 2013
 
-Si vous souhaitez archiver le contenu des sessions de messagerie instantanée et de conférence de Lync Server 2013, vous pouvez implémenter l’archivage dans Lync Server.
+</div>
 
-## Composants d’archivage
+<div id="mainSection">
 
-La fonctionnalité Archivage inclut les composants suivants :
+<div id="mainBody">
 
-  - **Argents d’archivage**. Les agents d’archivage (également connus sous le nom d’agents de collecte de données unifiée) sont installés et activés automatiquement sur chaque pool frontal et serveur Standard Edition. Même si les agents d’archivage sont activés automatiquement, aucun message n’est réellement capturé tant que l’archivage n’est pas activé et correctement configuré.
+<span> </span>
 
-  - **Stockage des données d’archivage**. Les données d’archivage de Lync Server 2013 sont les suivantes :
+_**Dernière modification de la rubrique:** 2012-10-09_
+
+Si vous souhaitez archiver du contenu de messagerie instantanée et de conférences Lync Server 2013, vous pouvez implémenter l’archivage dans Lync Server.
+
+<div>
+
+## <a name="archiving-components"></a>Archivage des composants
+
+La fonctionnalité d’archivage inclut les composants suivants:
+
+  - **Argents d’archivage**. Les agents d’archivage (également appelés agents de collection de données unifiées) sont installés et activés automatiquement sur chaque pool frontal et serveur Standard Edition. Bien que les agents d’archivage soient activés automatiquement, aucun message n’est réellement capturé tant qu’il n’est pas activé et configuré de manière appropriée.
+
+  - **Archivage du stockage des données**. Le stockage de données pour Lync Server 2013 peut être l’un des éléments suivants:
     
-      - Stockage Exchange 2013. Si vous activez l’option d’intégration de Microsoft Exchange, les boîtes aux lettres utilisateurs hébergées sur le serveur Exchange 2013 utilisent le stockage Exchange 2013 pour les données archivées, mais uniquement si ces boîtes aux lettres sont placées en archive permanente.
+      - Stockage 2013 Exchange. Si vous activez l’option d’intégration de Microsoft Exchange, les boîtes aux lettres d’utilisateur hébergées sur le serveur Exchange 2013 utilisent le stockage Exchange 2013 pour les données archivées, mais uniquement si celles-ci sont placées sur le blocage sur place.
     
-      - Stockage SQL Server. Si des utilisateurs de votre déploiement sont hébergés sur Lync Server 2013, vous pouvez configurer l’archivage des bases de données qui exécutent une version prise en charge de SQL Server afin d’activer l’archivage pour ces utilisateurs.
+      - Stockage SQL Server. Si votre déploiement comporte des utilisateurs qui sont hébergés sur Lync Server 2013, vous pouvez configurer des bases de données d’archivage qui exécutent une version prise en charge de SQL Server pour permettre l’archivage de ces utilisateurs.
 
-L’archivage nécessite également le stockage de fichiers. Cependant, l’archivage utilise le même type de stockage de fichiers que les serveurs frontaux ou le serveur Standard Edition.
+L’archivage nécessite également le stockage de fichiers, mais l’archivage utilise le même stockage de fichiers que le serveur frontal ou les serveurs Standard Edition.
 
-Pour obtenir une liste des configurations matérielles et logicielles nécessaires à l’archivage, reportez-vous à [Matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md) et [Prise en charge des infrastructures et des logiciels de serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) dans la documentation de prise en charge.
+Pour obtenir la liste des configurations matérielles et logicielles requises pour l’archivage, voir [matériel compatible pour Lync server 2013](lync-server-2013-supported-hardware.md) et les [logiciels et l’infrastructure pris en charge dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) dans la documentation sur la prise en charge.
 
-## Topologies prises en charge
+</div>
 
-Vous déployez l’archivage dans chaque pool où des utilisateurs ont besoin d’une prise en charge de d’archivage. L’archivage fonctionne sur les serveurs frontaux dans les pools Enterprise Edition et sur n’importe quel serveurs Standard Edition. Le stockage des données d’archivage peut se présenter comme suit :
+<div>
 
-  - intégré au stockage Exchange 2013 ;
+## <a name="supported-topologies"></a>Topologies prises en charge
 
-  - déployé à l’aide de bases de données SQL Server distinctes.
+Le déploiement de l’archivage dans chaque liste incluant des utilisateurs nécessitent une prise en charge de l’archivage. L’archivage s’exécute sur les serveurs frontaux dans les groupes Enterprise Edition et sur les serveurs Standard Edition Server. Le stockage des données d’archivage peut être ce qui suit:
 
-Si votre déploiement d’Exchange 2013 n’inclut pas tous les utilisateurs de votre déploiement de Lync Server, vous devez utiliser l’intégration de Microsoft Exchange pour les utilisateurs dont les boîtes aux lettres sont hébergées sur des serveurs Exchange 2013. Par ailleurs, vous devez déployer des bases de données SQL Server distinctes utilisables par les autres utilisateurs Lync pour l’archivage.
+  - Intégration avec le stockage 2013 Exchange
 
-## Colocalisation prise en charge
+  - Déploiement à l’aide de bases de données SQL Server distinctes
 
-Lync Server 2013 prend en charge divers scénarios de colocalisation, ce qui vous permet d’économiser des coûts de matériel en exécutant plusieurs composants sur un serveur (si votre entreprise est de petite taille) ou d’exécuter des composants individuels sur différents serveurs (si votre entreprise de taille plus grande a des besoins plus importants en termes d’extensibilité et de performances). Vous devez considérer les facteurs d’extensibilité avant de décider si vous allez colocaliser des composants.
+Si votre déploiement d’Exchange 2013 n’inclut pas tous les utilisateurs dans le déploiement de Lync Server, vous devez utiliser l’intégration de Microsoft Exchange pour les utilisateurs dont la boîte aux lettres est située sur les serveurs Exchange 2013 et vous devez déployer des bases de données SQL Server distinctes pour toutes les autres. Utilisateurs de Lync à utiliser pour l’archivage.
 
-L’archivage est déployé sur les serveurs frontaux d’un pool ou sur des serveurs Standard Edition. Pour plus d’informations sur les composants qui peuvent être colocalisés, reportez-vous à [Colocalisation de serveur prise en charge dans Lync Server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de prise en charge.
+</div>
 
-Si vous utilisez des bases de données SQL Server distinctes pour l’archivage, à la place ou en plus de l’intégration du stockage au stockage Exchange 2013, vous pouvez colocaliser la base de données d’archivage avec l’un des éléments suivants :
+<div>
 
-  - base de données de surveillance
+## <a name="supported-collocation"></a>Colocalisation prises en charge
+
+Lync Server 2013 prend en charge un large éventail de scénarios de colocalisation, qui vous permettent de gagner en souplesse en exécutant plusieurs composants sur un serveur (si vous disposez d’une petite organisation) ou pour exécuter des composants individuels sur différents serveurs (si vous avez une plus grande Organisation nécessitant une évolutivité et des performances optimales. Prenez en compte les facteurs d’évolutivité avant de décider de collocater ou non les composants.
+
+L’archivage est déployé sur les serveurs front-end d’une réserve ou d’un serveur Standard Edition Server. Pour plus d’informations sur les composants qui peuvent être colocalisés à partir de cet emplacement, voir [prise en charge de la coexistence du serveur dans Lync server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de support.
+
+Si vous utilisez des bases de données SQL Server distinctes pour l’archivage, au lieu de ou en plus de l’intégration de stockage avec le stockage 2013 Exchange, vous pouvez collocate la base de données d’archivage de l’une des façons suivantes:
+
+  - Base de données de surveillance
 
   - Base de données principale d’un pool frontal Enterprise Edition
+
+<div>
+
 
 > [!NOTE]  
 > Le serveur qui héberge la base de données d’archivage peut également héberger d’autres bases de données. Cependant, quand vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données d’archivage peuvent devenir très importants. C’est la raison pour laquelle nous vous déconseillons de colocaliser la base de données d’archivage avec la base de données principale.
 
-Si vous colocalisez la base de données d’archivage avec la base de données de surveillance, la base de données principale ou les deux à la fois, vous avez le choix entre utiliser une instance SQL unique pour la ou les bases de données ou utiliser une instance SQL distincte pour chaque base de données, tout en sachant qu’il existe les limitations suivantes :
 
-  - Chaque instance SQL ne peut contenir qu’une seule base de données principale, une base de données de surveillance unique et une base de données d’archivage unique.
 
-Pour plus d’informations sur la colocalisation de tous les rôles serveur et de toutes les bases de données, reportez-vous à [Colocalisation de serveur prise en charge dans Lync Server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de prise en charge.
+</div>
+
+Si vous collocate la base de données d’archivage avec la base de données de surveillance, la base de données principale, ou les deux, vous pouvez utiliser une instance SQL unique pour tout ou partie des bases de données, ou vous pouvez utiliser une instance SQL distincte pour chaque base de données, comme suit: modér
+
+  - Chaque instance SQL ne peut contenir qu’une seule base de données principale, une base de données de surveillance unique et une seule base de données d’archivage.
+
+Pour plus d’informations sur la colocalisation de tous les rôles de serveur et bases de données, voir prise en charge de la colocalisation du [serveur dans Lync server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de prise en charge.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

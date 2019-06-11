@@ -1,59 +1,122 @@
-﻿---
-title: Configurer le clustering SQL Server pour Lync Server 2013
-TOCTitle: Configurer le clustering SQL Server pour Lync Server 2013
-ms:assetid: d7b52ef1-573c-48ed-bb94-34e37b49645c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn383982(v=OCS.15)
-ms:contentKeyID: 56559396
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurer le regroupement SQL Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure SQL Server clustering
+ms:assetid: d7b52ef1-573c-48ed-bb94-34e37b49645c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383982(v=OCS.15)
+ms:contentKeyID: 56472032
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 279c6581d0a56193c094c3dd7b9638fd74e2e60c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838336"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurer le clustering SQL Server pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Configurer le regroupement SQL Server pour Lync Server 2013
 
-Microsoft Lync Server 2013 prend en charge le clustering pour SQL Server 2012 et SQL Server 2008 R2. Pour plus d’informations sur les éléments pris en charge, voir [Prise en charge du logiciel de base de données dans Lync Server 2013](lync-server-2013-database-software-support.md).
+</div>
 
-Vous devez définir et configurer le cluster SQL Server avant d’installer et de déployer le serveur frontal Enterprise Edition et la base de données principale. Pour consulter les pratiques recommandées et les instructions d’installation relatives au clustering de basculement dans SQL Server 2012, voir <http://technet.microsoft.com/fr-fr/library/hh231721.aspx>. Pour le clustering de basculement dans SQL Server 2008, voir <http://technet.microsoft.com/fr-fr/library/ms189134(v=sql.105).aspx>.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-01-10_
+
+Microsoft Lync Server 2013 prend en charge la mise en cluster pour SQL Server 2012 et SQL Server 2008 R2. Pour plus d’informations sur les fonctionnalités prises en charge, voir [prise en charge de logiciels de base de données dans Lync Server 2013](lync-server-2013-database-software-support.md).
+
+Vous devez configurer et configurer le cluster SQL Server avant d’installer et de déployer le serveur frontal et la base de données principale d’Enterprise Edition. Pour obtenir des recommandations et des instructions de configuration pour la mise en cluster de basculement dans SQL Server 2012, voir <http://technet.microsoft.com/en-us/library/hh231721.aspx>. Pour la mise en cluster de basculement dans SQL <http://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx>Server 2008, voir.
 
 Lorsque vous installez SQL Server, vous devez installer SQL Server Management Studio pour gérer les emplacements des bases de données et des fichiers journaux. SQL Server Management Studio est installé en tant que composant facultatif lorsque vous installez SQL Server.
 
+<div>
+
+
 > [!IMPORTANT]  
-> Pour installer et déployer les bases de données sur le serveur SQL Server, vous devez être membre du groupe sysadmin SQL Server pour le serveur SQL Server sur lequel vous installez les fichiers de base de données. Si vous n’êtes pas membre de ce groupe, vous devez demander à être ajouté au groupe jusqu’au déploiement des fichiers de base de données. Si vous ne pouvez pas être défini comme membre du groupe sysadmin, vous devez fournir à votre administrateur de base de données SQL Server le script nécessaire à la configuration et au déploiement des bases de données. Pour plus d’informations sur les droits et autorisations d’utilisateur dont vous avez besoin pour accomplir les procédures, voir <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Autorisations de déploiement de SQL Server dans Lync Server 2013</a>.
+> Pour installer et déployer les bases de données sur le serveur SQL Server, vous devez être membre du groupe SQL Server sysadmin pour le serveur SQL Server sur lequel vous installez les fichiers de base de données. Si vous n’êtes pas membre du groupe SQL Server sysadmin, vous devez demander à l’ajouter au groupe jusqu’à ce que les fichiers de la base de données soient déployés. Si vous ne pouvez pas être membre du groupe sysadmin, vous devez fournir à votre administrateur de base de données SQL Server le script de configuration et de déploiement de celles-ci. Pour plus d’informations sur les droits d’utilisateur et les autorisations nécessaires pour accomplir ces procédures, voir <A href="lync-server-2013-deployment-permissions-for-sql-server.md">autorisations de déploiement pour SQL Server dans Lync server 2013</A>.
 
-## Pour configurer le clustering SQL Server
 
-1.  Une fois que vous avez terminé l’installation et la configuration du clustering SQL Server, vous devez définir le magasin SQL Server dans le générateur de topologies à l’aide du nom de cluster virtuel de l’instance SQL Server (tel que configuré lors de l’installation du clustering SQL Server) et le nom d’instance de la base de données SQL Server. Contrairement à un serveur SQL Server unique, vous utiliserez le nom de domaine complet du nœud virtuel pour un serveur SQL Server en cluster.
+
+</div>
+
+<div>
+
+## <a name="to-configure-sql-server-clustering"></a>Pour configurer le regroupement SQL Server
+
+1.  Après avoir effectué l’installation et la configuration de la mise en cluster de SQL Server, vous définissez SQL Server Store dans le générateur de topologie à l’aide du nom de cluster virtuel de l’instance SQL Server (configuré dans le programme d’installation de SQL Server clustering) et de l’instance. nom de la base de données SQL Server. Différent d’un serveur SQL Server unique, vous devez utiliser le nom de domaine complet (FQDN) du nœud virtuel pour un serveur SQL Server groupé.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Les nœuds de cluster Windows Server individuels ne doivent pas être configurés pour le générateur de topologies. Vous utiliserez uniquement le nom du cluster SQL Server virtuel.
+    > Il n’est pas nécessaire de configurer les nœuds de cluster Windows Server individuels pour le générateur de topologie. Vous utiliserez uniquement le nom du cluster SQL Server virtuel.
 
-2.  Si vous utilisez le générateur de topologies pour déployer vos bases de données, vous devez être membre du groupe sysadmin SQL Server. Si vous êtes membre de ce groupe, mais que vous n’avez pas de privilège dans le domaine (par exemple, un rôle d’administrateur de base de données SQL Server), vous êtes autorisé à créer les bases de données mais pas à lire les informations nécessaires dans Lync Server. Pour plus d’informations sur les droits et autorisations d’utilisateur nécessaires au déploiement de Lync Server, voir [Autorisations de déploiement de SQL Server dans Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
-
-3.  Vérifiez que les valeurs par défaut des dossiers des bases de données et fichiers journaux sont correctement mappés aux disques partagés dans le cluster SQL Server à l’aide de SQL Server Management Studio. Cette procédure est obligatoire si vous créerez les bases de données à l’aide du générateur de topologies.
     
+    </div>
+
+2.  Si vous utilisez le générateur de topologie pour déployer vos bases de données, vous devez être membre du groupe SQL Server sysadmin. Si vous êtes membre du groupe SQL Server sysadmin, mais que vous n’avez pas de privilèges sur le domaine (par exemple, un rôle d’administrateur de base de données SQL Server), vous disposez des droits nécessaires pour créer les bases de données, mais pas pour lire les informations nécessaires dans Lync Server. Pour plus d’informations sur les droits d’utilisateur et les autorisations nécessaires au déploiement de Lync Server, reportez-vous à la section [autorisations de déploiement pour SQL Server dans Lync server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
+
+3.  Assurez-vous que le dossier de base de données et les fichiers journaux par défaut sont mappés correctement aux disques partagés dans le groupe SQL Server en utilisant SQL Server Management Studio. Il s’agit d’une procédure obligatoire si vous créez des bases de données à l’aide du générateur de topologie.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous n’avez pas installé SQL Server Management Studio, vous pouvez l’installer en réexécutant le programme d’installation de SQL Server, puis en sélectionnant l’outil de gestion comme une fonctionnalité ajoutée pour le déploiement SQL Server existant.
+    > Si vous n’avez pas installé SQL Server Management Studio, vous pouvez l’installer en réexécutant le programme d’installation de SQL Server, puis en sélectionnant l’outil de gestion en tant que composant supplémentaire pour le déploiement SQL Server existant.
 
-4.  Installez les bases de données pour le serveur SQL Server à l’aide du générateur de topologies ou des applets de commande Windows PowerShell. Pour utiliser le générateur de topologies, utilisez la procédure suivante. Pour utiliser les applets de commande Windows PowerShell, voir [Installation de la base de données avec Lync Server Management Shell dans Lync Server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md).
-
-## Pour créer des bases de données à l’aide du générateur de topologies
-
-1.  Démarrez le générateur de topologies : cliquez sur **Démarrer** , **Tous les programmes** , **Microsoft Lync Server 2013** , puis sur **Générateur de topologies Lync Server**.
     
+    </div>
+
+4.  Installez les bases de données pour le serveur SQL Server à l’aide du générateur de topologie ou des cmdlets Windows PowerShell. Pour utiliser le générateur de topologie, utilisez la procédure suivante. Pour utiliser les applets de cmdlet Windows PowerShell, consultez l' [installation de la base de données à l’aide de Lync Server Management Shell dans Lync server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md).
+
+</div>
+
+<div>
+
+## <a name="to-create-databases-using-topology-builder"></a>Pour créer des bases de données à l’aide du générateur de topologie
+
+1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+    
+    <div>
+    
+
     > [!WARNING]  
-    > La procédure suivante suppose que vous avez défini et configuré votre topologie dans le générateur de topologies. Pour plus d’informations sur la définition de votre topologie, voir <a href="lync-server-2013-defining-and-configuring-the-topology.md">Définition et configuration de la topologie dans Lync Server 2013</a>. Pour utiliser le générateur de topologies pour publier la topologie et configurer la base de données, vous devez vous connecter en tant qu’utilisateur avec les droits d’utilisateur et appartenances aux groupes corrects. Pour plus d’informations sur les droits et appartenances aux groupes requis, voir <a href="lync-server-2013-deployment-permissions-for-sql-server.md">Autorisations de déploiement de SQL Server dans Lync Server 2013</a>.
+    > La procédure suivante suppose que vous avez défini et configuré votre topologie dans le générateur de topologie. Pour plus d’informations sur la définition de votre topologie, voir<A href="lync-server-2013-defining-and-configuring-the-topology.md">définition et configuration de la topologie dans Lync Server 2013</A>. Pour utiliser le générateur de topologie afin de publier la topologie et de configurer la base de données, vous devez vous connecter en tant qu’utilisateur disposant des droits d’utilisateur et des appartenances aux groupes appropriés. Pour plus d’informations sur les droits et les appartenances aux groupes requis, voir <A href="lync-server-2013-deployment-permissions-for-sql-server.md">autorisations de déploiement pour SQL Server dans Lync server 2013</A>.
 
-2.  Dans le générateur de topologies, tandis que vous publiez la topologie, sur la page **Créer des bases de données**, cliquez sur **Avancé**.
-
-3.  La page **Sélectionner un emplacement de fichier de base de données** inclut deux options qui déterminent le mode de déploiement des fichiers de base de données vers le cluster SQL Server. Sélectionnez l’une des options suivantes :
     
-      - **Déterminer automatiquement l’emplacement du fichier de base de données.** Cette sélection utilise un algorithme pour déterminer les emplacements des fichiers journaux et de données de la base de données selon la configuration de lecteur sur le serveur SQL Server. Les fichiers seront distribués de façon à optimiser les performances.
-    
-      - Utiliser les valeurs par défaut de l’instance SQL Server. La sélection de cette option installe les fichiers journaux et de données selon les paramètres de l’instance SQL Server. Une fois les fichiers de base de données déployés vers le serveur SQL Server, votre administrateur de base de données SQL Server peut déplacer les fichiers pour optimiser les performances conformément à vos exigences de configuration SQL Server spécifiques.
+    </div>
 
-4.  Finalisez la publication de la topologie et vérifiez qu’aucune erreur n’est survenue pendant l’opération.
+2.  Dans le générateur de topologie, lorsque vous publiez la topologie, dans la page **créer des bases de données** , cliquez sur **avancé**.
+
+3.  La page **Sélectionner l’emplacement du fichier de base de données** propose deux options qui déterminent le mode de déploiement des fichiers de base de données sur le cluster SQL Server. Sélectionnez l’une des options suivantes :
+    
+      - **Déterminez automatiquement l’emplacement du fichier de base de données.** Cette sélection utilise un algorithme pour déterminer les emplacements du journal de la base de données et des fichiers de données en fonction de la configuration du lecteur sur le serveur SQL Server. Les fichiers seront distribués de telle sorte qu’ils puissent essayer d’offrir des performances optimales.
+    
+      - Utilisez les valeurs par défaut des instances SQL Server. Si vous sélectionnez cette option, les fichiers journaux et de données seront installés conformément aux paramètres de l’instance SQL Server. Après le déploiement des fichiers de base de données sur le serveur SQL Server, l’administrateur de votre base de données SQL Server a besoin de replacer les fichiers pour optimiser les performances de votre configuration spécifique de SQL Server.
+
+4.  Achevez la publication de la topologie et vérifiez qu’il n’y a pas eu d’erreur pendant l’opération.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

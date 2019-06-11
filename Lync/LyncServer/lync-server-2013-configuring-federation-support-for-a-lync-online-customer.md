@@ -1,38 +1,79 @@
-﻿---
-title: "Conf. de la prise en charge de la fédération pour un client Lync Online 2013"
-TOCtitle: "Conf. de la prise en charge de la fédération pour un client Lync Online 2013"
-ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202193(v=OCS.15)
-ms:contentKeyID: 49299171
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration de la prise en charge de la Fédération pour un client Lync Online'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring federation support for a Lync Online customer
+ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
+ms:contentKeyID: 48185669
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f5e3b1e7a325a078d4769116697f957815f02487
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838252"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration de la prise en charge de la fédération pour un client Lync Online 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Configuration de la prise en charge de la Fédération pour un client Lync Online dans Lync Server 2013
 
-Vous pouvez fournir des services de communication aux utilisateurs de votre entreprise de l’une des façons suivantes :
+</div>
 
-  - Déployez Lync Server 2013 dans votre entreprise (en tant que *services sur site*) et configurez des comptes d’utilisateurs Lync 2013 dans votre entreprise.
+<div id="mainSection">
 
-  - Configurez un compte client Microsoft Lync Online 2010 et des comptes d’utilisateurs auprès d’un fournisseur d’hébergement (également appelé prestataire de *services en ligne*).
+<div id="mainBody">
 
-Si vous déployez Lync 2013 dans votre entreprise, vous pouvez vous fédérer avec les domaines d’un ou plusieurs clients Microsoft Lync Online 2010. Pour permettre la fédération entre les utilisateurs de votre déploiement sur site Lync 2013 et les utilisateurs d’un client Lync Online 2010, vous devez configurer la prise en charge du domaine et des utilisateurs du client Lync Online.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-01_
+
+Vous pouvez fournir des services de communication aux utilisateurs de votre organisation de l’une des façons suivantes:
+
+  - Déploiement de Lync Server 2013 au sein de votre organisation (connu sous le nom de *services locaux*) et configuration de comptes d’utilisateur Lync 2013 au sein de votre organisation.
+
+  - Configurer un compte client Microsoft Lync Online 2010 auprès d’un fournisseur d’hébergement et configurer des comptes d’utilisateurs avec le fournisseur d’hébergement (appelé *services en ligne*).
+
+Si vous déployez Lync 2013 au sein de votre organisation, vous pouvez fédérer avec les domaines d’un ou de plusieurs clients Microsoft Lync Online 2010. Pour permettre la Fédération entre les utilisateurs de votre déploiement local Lync 2013 et des utilisateurs d’un client 2010 Online, vous devez configurer la prise en charge du domaine et des utilisateurs du client Lync Online.
+
+<div>
+
 
 > [!NOTE]  
-> Cette documentation décrit uniquement les procédures de configuration visant à permettre à votre entreprise de prendre en charge la fédération avec un client Lync Online 2010. Elle ne décrit pas les procédures de configuration de la prise en charge de la fédération par le client Lync Online 2010. Pour plus d’informations sur les services en ligne Lync, voir Lync Online à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=218941%26clcid=0x40c">http://go.microsoft.com/fwlink/?linkid=218941&amp;clcid=0x40C</a>.
+> Cette documentation décrit uniquement les procédures de configuration de votre organisation pour la prise en charge de la Fédération avec un client 2010 Lync Online. Cette documentation ne décrit pas les procédures de configuration du client 2010 Lync Online pour la prise en charge de la Fédération. Pour plus d’informations sur Lync Online Services, consultez Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>Online à l’adresse.
 
-## Dans cette section
 
-  - [Conditions préalable à la fédération avec un client Lync Online](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
 
-  - [Configurer la prise en charge de la fédération pour un domaine Lync Online](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+</div>
 
-  - [Configurer l’accès utilisateur pour la fédération avec un client Lync Online](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+<div>
 
-  - [Vérifier les communications avec un client Lync Online](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Conditions préalables à la Fédération avec un client Lync Online dans Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md)
+
+  - [Configurer la prise en charge de la Fédération pour un domaine Lync Online dans Lync Server 2013](lync-server-2013-configure-federation-support-for-a-lync-online-domain.md)
+
+  - [Configurer l’accès utilisateur pour la Fédération avec un client Lync Online dans Lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)
+
+  - [Vérifier les communications avec un client Lync Online dans Lync Server 2013](lync-server-2013-verify-communications-with-a-lync-online-customer.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

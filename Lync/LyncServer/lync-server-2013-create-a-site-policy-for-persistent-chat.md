@@ -1,50 +1,96 @@
-﻿---
-title: "Lync Server 2013 : Créa. d’une strat. de site pour la conversation permanente"
-TOCTitle: Création d’une stratégie de site pour la conversation permanente
-ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204693(v=OCS.15)
-ms:contentKeyID: 49296327
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Création d’une stratégie de site pour la conversation permanente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site policy for Persistent Chat
+ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)
+ms:contentKeyID: 48183470
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: be98028bf06c20c82dca98fc3bc20d25e97a94c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création d’une stratégie de site pour la conversation permanente dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-06_
+# <a name="create-a-site-policy-for-persistent-chat-in-lync-server-2013"></a>Création d’une stratégie de site pour la conversation permanente dans Lync Server 2013
 
-Pour chaque site que vous avez déployé, vous pouvez créer une stratégie de conversation permanente spécifique au site.
+</div>
 
-La configuration de la stratégie du site supplante la stratégie globale, uniquement pour le site pour lequel elle est définie.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-06_
+
+Pour chaque site déployé, vous pouvez créer une stratégie de conversation persistante spécifique au site.
+
+La configuration de la stratégie de site remplace la stratégie globale, uniquement pour le site pour lequel elle est définie.
+
+<div>
+
 
 > [!NOTE]  
-> Pour configurer et utiliser le serveur de conversations permanentes, vous devez d’abord utiliser le Générateur de topologie pour ajouter la prise en charge du serveur de conversations permanentes à la topologie, puis publier la topologie. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajout d’un serveur de conversation permanente à votre déploiement dans Lync Server 2013</a> dans la documentation de déploiement.<br />
-Pour configurer les paramètres de configuration du serveur de conversations permanentes, reportez-vous à <a href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente dans Lync Server 2013</a> dans la documentation de déploiement.
+> Pour configurer et utiliser le serveur de chat permanent, vous devez d’abord utiliser le générateur de topologie pour ajouter la prise en charge du serveur de chat permanent à la topologie, puis publier la topologie. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajouter un serveur Chat permanent à votre déploiement dans Lync Server 2013</A> dans la documentation de déploiement.<BR>Pour configurer les paramètres de configuration de serveur Chat permanent, voir <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">configurer globalement les options de serveur de chat permanent ou pour le pool de serveurs de chat permanent dans Lync Server 2013</A> dans la documentation de déploiement.
 
-## Pour créer une stratégie de conversation permanente pour un site
 
-1.  À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
 
-2.  Dans le menu **Démarrer**, sélectionnez le Panneau de configuration Lync Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration. Pour plus d’informations sur les différentes méthodes permettant de démarrer le Panneau de configuration Lync Server, reportez-vous à [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **conversation permanente**, puis sur **conversation permanenteStratégie**.
+<div>
+
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Pour créer une stratégie de conversation permanente pour un site
+
+1.  À partir d’un compte d’utilisateur auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est affecté, connectez-vous à un ordinateur de votre déploiement interne.
+
+2.  Dans le menu **Démarrer** , sélectionnez le panneau de configuration de Lync Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Stratégie de conversation permanente**.
     
-    > [!IMPORTANT]  
-    > Vous pouvez également utiliser des applets de commande Windows PowerShell. Pour plus d’informations, reportez-vous à <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell</a> dans la documentation de déploiement.
+    <div>
+    
 
-4.  Cliquez sur **Nouveau**, puis sur **Stratégie de site**.
+    > [!IMPORTANT]  
+    > Vous pouvez également utiliser des cmdlets Windows PowerShell. Pour plus d’informations, reportez-vous à <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">configuration du serveur de chat permanent à l’aide des cmdlets Windows PowerShell</A> dans la documentation de déploiement.
+
+    
+    </div>
+
+4.  Cliquez sur **Créer**, puis sur **Stratégie de site**.
 
 5.  Dans **Sélectionner un site**, cliquez sur le site auquel la stratégie doit s’appliquer.
 
-6.  Dans **Nouvelle stratégie conversation permanente**, effectuez les opérations suivantes :
+6.  Dans **Nouvelle stratégie de conversation permanente**, procédez comme suit :
     
-      - Dans **Nom**, spécifiez un nom pour la nouvelle stratégie de site (par exemple, Redmond).
+      - Dans **Nom**, spécifiez un nom pour la nouvelle stratégie de site (par exemple, « Redmond »).
     
-      - Dans **Description**, entrez des informations décrivant la stratégie de site (par exemple, stratégie de salle de conversation pour Redmond).
+      - Dans **Description**, entrez des informations décrivant la stratégie de site (par exemple, « Stratégie de salle de conversation pour Redmond »).
     
-      - Pour contrôler la conversation permanente pour tous les sites qui ne sont pas spécifiquement contrôlés via une stratégie de site, activez ou désactivez la case à cocher **Activer la conversation permanente**.
+      - Pour contrôler la conversation permanente pour tous les sites qui ne sont pas contrôlés spécifiquement par le biais d’une stratégie de site, activez ou désactivez la case à cocher **Activer la conversation permanente**.
 
 7.  Cliquez sur **Valider**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

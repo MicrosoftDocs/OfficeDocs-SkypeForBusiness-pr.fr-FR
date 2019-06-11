@@ -1,195 +1,298 @@
-﻿---
-title: Configuration des itinéraires de fédération et du trafic multimédia
-TOCTitle: Configuration des itinéraires de fédération et du trafic multimédia
-ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688121(v=OCS.15)
-ms:contentKeyID: 49891428
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration des itinéraires de fédération et du trafic multimédia
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure federation routes and media traffic
+ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
+ms:contentKeyID: 49733720
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838097"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des itinéraires de fédération et du trafic multimédia
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-15_
+# <a name="configure-federation-routes-and-media-traffic"></a>Configuration des itinéraires de fédération et du trafic multimédia
 
-La fédération est une relation d’approbation entre deux ou plusieurs domaines SIP qui permet aux utilisateurs d’entreprises distinctes de communiquer au-delà des limites du réseau. Après avoir effectué la migration vers votre premier pool Lync Server 2013, vous devez effectuer une transition de l’itinéraire de la fédération de vos serveurs Edge Lync Server 2010 vers l’itinéraire de fédération de vos serveurs Edge Lync Server 2013.
+</div>
 
-Utilisez les procédures suivantes pour effectuer la transition de l’itinéraire de fédération et de l’itinéraire de trafic multimédia de votre serveur Edge et directeur Lync Server 2010 vers votre serveur Edge Lync Server 2013, pour un déploiement sur un seul site.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-15_
+
+La Fédération est une relation d’approbation entre au moins deux domaines SIP, qui permet aux utilisateurs d’organisations distinctes de communiquer au sein des frontières du réseau. Après avoir effectué une migration vers votre pool de pilotes de Lync Server 2013, vous devez effectuer une transition de l’itinéraire de Fédération de vos serveurs Edge Lync Server 2010 vers l’itinéraire de Fédération de votre serveur Edge Lync Server 2013.
+
+Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l’itinéraire de la Fédération et l’itinéraire de trafic multimédia de votre serveur Edge et de votre directeur 2010 Lync Server 2013 vers votre serveur Edge Lync Server.
+
+<div>
+
 
 > [!IMPORTANT]  
-> La modification de l’itinéraire de fédération et de l’itinéraire de trafic multimédia nécessite que vous planifiiez une interruption de maintenance pour les serveurs Edge Lync Server 2013 et Lync Server 2010. Ce processus de transition signifie également que l’accès fédéré sera indisponible pendant la durée de l’interruption. Vous devez donc planifier cette interruption à un moment où l’activité des utilisateurs sera minimale. Prévoyez aussi d’en informer les utilisateurs finaux suffisamment à l’avance. Anticipez cette interruption à tous les niveaux et informez-en votre entreprise afin qu’elle s’y prépare en conséquence.
+> La modification de l’itinéraire et de l’itinéraire de trafic multimédia requis pour la planification de la maintenance pour les serveurs Edge Lync Server 2013 et Lync Server 2010. Ce processus de transition complet signifie également que l’accès fédéré ne sera pas disponible pendant la durée de la période d’interruption. Nous vous conseillons de planifier le temps d’arrêt à un moment où vous vous attendez à un minimum d’activités utilisateur. Vous devez également fournir une notification suffisante à vos utilisateurs finaux. Planifiez en conséquence pour cette interruption et définissez les attentes appropriées au sein de votre organisation.
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si votre serveur Edge Lync Server 2010 hérité est configuré pour utiliser le même FQDN pour le serveur Edge d’accès, le service Edge de conférence et le service Edge A/V, les procédures de cette section ne sont pas prises en charge. Si les services Edge hérités sont configurés pour utiliser le même FQDN, vous devez tout d’abord migrer tous les utilisateurs de Lync Server 2010 vers Lync Server 2013, puis supprimer le serveur Edge Lync Server 2010 avant d’activer la fédération sur le serveur Edge Lync Server 2013.
+> Si votre serveur Edge Lync Server 2010 hérité est configuré de manière à utiliser le même nom de domaine complet pour le service Edge d’accès, le service Edge de conférence Web et le service Edge A/V, les procédures de cette section ne sont pas prises en charge. Si les services Edge hérités sont configurés pour utiliser le même nom de domaine complet, vous devez tout d’abord migrer tous vos utilisateurs de Lync Server 2010 vers Lync Server 2013, puis désactivez le serveur Edge Lync Server 2010 avant d’activer la Fédération sur le serveur Edge Lync Server 2013.
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si votre fédération XMPP est acheminée via un serveur Edge Lync Server 2013, les utilisateurs Lync Server 2010 hérités ne peuvent pas communiquer avec le partenaire fédéré XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, que les stratégies XMPP et les certificats n’ont pas été configurés, que le partenaire fédéré XMPP n’a pas été configuré sur Lync Server 2013, et enfin que les entrées DNS n’ont pas été mises à jour.
+> Si votre Fédération XMPP est routée via un serveur Edge Lync Server 2013, les utilisateurs hérités de Lync Server 2010 ne seront pas en mesure de communiquer avec le partenaire fédéré de XMPP tant que tous les utilisateurs n’ont pas été déplacés vers Lync Server 2013, que les stratégies et les certificats XMPP configuré, le partenaire fédéré de XMPP a été configuré sur Lync Server 2013, et la mise à jour des entrées DNS.
 
-## Pour supprimer l’association de fédération héritée des sites Lync Server 2013
 
-1.  Sur le serveur frontal Lync Server 2013, ouvrez la topologie existante dans le générateur de topologie.
 
-2.  Dans le volet gauche, accédez au nœud du site, situé directement sous **Lync Server**.
+</div>
 
-3.  Cliquez avec le bouton droit sur le site, puis cliquez sur **Modifier les propriétés** .
+<div>
 
-4.  Dans le volet gauche, sélectionnez **Itinéraire de fédération** .
+## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a>Pour supprimer l’Association de Fédération héritée des sites Lync Server 2013
 
-5.  Sous **Attribution de l’itinéraire de fédération du site**, décochez la case **Activer la fédération SIP** pour désactiver l’itinéraire de fédération via l’environnement Lync Server 2010 hérité.
+1.  Sur le serveur frontal Lync Server 2013, ouvrez la topologie existante dans le générateur de topologie.
+
+2.  Dans le volet gauche, accédez au nœud de site qui se trouve juste en dessous de **Lync Server**.
+
+3.  Cliquez avec le bouton droit sur le site, puis cliquez sur **modifier les propriétés**.
+
+4.  Dans le volet gauche, sélectionnez **gamme de Fédération**.
+
+5.  Sous **affectation**de l’itinéraire de Fédération de site, décochez la case **activer la Fédération SIP** pour désactiver le routage de Fédération par le biais de l’environnement 2010 hérité de Lync Server.
     
-    ![Boîte de dialogue Modifier les propriétés, page Itinéraire de fédération](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page Itinéraire de fédération")
+    ![Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération")
 
-6.  Cliquez sur **OK** pour fermer la page Modifier les propriétés.
+6.  Cliquez sur **OK** pour fermer la page modifier les propriétés.
 
-7.  Dans le **Générateur de topologie** , sélectionnez le nœud supérieur **Lync Server** .
+7.  Dans le **Générateur de topologie**, sélectionnez le nœud supérieur **serveur Lync**.
 
-8.  Dans le menu **Action** , cliquez sur **Publier la topologie** .
+8.  Dans le menu **action** , cliquez sur **publier la topologie**.
 
-9.  Cliquez sur **Suivant** pour terminer le processus de publication, puis cliquez sur **Terminer** quand la publication est terminée.
+9.  Cliquez sur **suivant** pour finaliser le processus de publication, puis cliquez sur **Terminer** lorsque le processus de publication est terminé.
 
-## Pour configurer le serveur Edge hérité comme serveur Edge non fédéré
+</div>
 
-1.  Dans le volet gauche, accédez au nœud **Lync Server 2010**, puis au nœud **Pool de serveurs Edge**.
+<div>
 
-2.  Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **Modifier les propriétés** .
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Pour configurer le serveur de périphérie traditionnel en tant que serveur Edge non fédéré
 
-3.  Sélectionnez **Général** dans le volet gauche.
+1.  Dans le volet gauche, accédez au nœud **Lync Server 2010** , puis au nœud Pools de **bords** .
 
-4.  Décochez la case **Activer la fédération pour ce pool Edge (port 5061)** et sélectionnez **OK** pour fermer la page.
+2.  Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **modifier les propriétés**.
+
+3.  Dans le volet gauche, sélectionnez **général** .
+
+4.  Décochez la case **activer la Fédération pour ce pool Edge (port 5061)** , puis sélectionnez **OK** pour fermer la page.
     
-    ![Modifier les propriétés, Général, effacer Activer la fédération](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Modifier les propriétés, Général, effacer Activer la fédération")
+    ![Modifier les propriétés, général, effacer la Fédération d’activation] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Modifier les propriétés, général, effacer la Fédération d’activation")
 
-5.  Dans le menu **Actions** , sélectionnez **Publier la topologie** , puis cliquez sur **Suivant** .
+5.  Dans le menu **action** , cliquez sur **publier la topologie**, puis sur **suivant**.
 
-6.  Une fois que l’**Assistant Publication** a terminé, cliquez sur **Terminer** pour le fermer.
+6.  Lorsque l' **Assistant Publication** est terminé, cliquez sur **Terminer** pour fermer l’Assistant.
 
-7.  Vérifiez que la fédération pour le serveur Edge hérité est désactivée.
+7.  Vérifiez que la Fédération pour le serveur de périphérie antérieur est désactivée.
     
-    ![Générateur de topologie, pool Edge, Fédération désactivée](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Générateur de topologie, pool Edge, Fédération désactivée")
+    ![Générateur de topologie, pool de périphériques, Fédération désactivé] (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Générateur de topologie, pool de périphériques, Fédération désactivé")
 
-## Pour configurer des certificats sur le serveur Edge Lync Server 2010
+</div>
 
-1.  Exportez le certificat de proxy d’accès externe, avec la clé privée, à partir du serveur Edge Lync Server 2010 hérité.
+<div>
 
-2.  Sur le serveur Edge Lync Server 2013, importez le certificat externe de proxy d’accès à partir de l’étape précédente.
+## <a name="to-configure-certificates-on-the-lync-server-2010-edge-server"></a>Pour configurer des certificats sur le serveur Edge Lync Server 2010
 
-3.  Attribuez le certificat externe de proxy d’accès à l’interface externe Lync Server 2013 du serveur Edge.
+1.  Exportez le certificat de proxy d’accès externe, avec la clé privée, à partir du serveur Edge Lync Server 2010 hérité.
 
-4.  Le certificat d’interface interne du serveur Edge Lync Server 2013 doit être demandé à partir d’une autorité de certification approuvée et affecté.
+2.  Sur le serveur Edge Lync Server 2013, importez le certificat externe de proxy d’accès à partir de l’étape précédente.
 
-## Pour changer l’itinéraire de fédération Lync Server 2010 pour utiliser un serveur Edge Lync Server 2013
+3.  Attribuez le certificat externe du proxy d’accès à l’interface externe de Lync Server 2013 du serveur Edge.
 
-1.  Dans le volet gauche du générateur de topologie, accédez au nœud **Lync Server 2013**, puis au nœud **Pool de serveurs Edge**.
+4.  Le certificat d’interface interne du serveur Edge Lync Server 2013 doit être demandé auprès d’une autorité de certification approuvée et attribué.
 
-2.  Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **Modifier les propriétés** .
+</div>
 
-3.  Sélectionnez **Général** dans le volet gauche.
+<div>
 
-4.  Cochez la case **Activer la fédération pour ce pool Edge (port 5061)** , puis cliquez sur **OK** pour fermer la page.
+## <a name="to-change-lync-server-2010-federation-route-to-use-lync-server-2013-edge-server"></a>Pour modifier l’itinéraire de Fédération de Lync Server 2010 de sorte qu’il utilise Lync Server 2013 Edge Server
+
+1.  Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Lync Server 2013** , puis au nœud **pools de périphérie** .
+
+2.  Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **modifier les propriétés**.
+
+3.  Dans le volet gauche, sélectionnez **général** .
+
+4.  Sélectionnez l’entrée de la case à cocher **activer la Fédération pour ce pool Edge (port 5061)** , puis cliquez sur **OK** pour fermer la page.
     
-    ![Boîte de dialogue Modifier les propriétés, page Général](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page Général")
+    ![Boîte de dialogue Modifier les propriétés, page général] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")
 
-5.  Dans le menu **Actions** , sélectionnez **Publier la topologie** , puis cliquez sur **Suivant** .
+5.  Dans le menu **action** , cliquez sur **publier la topologie**, puis sur **suivant**.
 
-6.  Une fois que l’**Assistant Publication** a terminé, cliquez sur **Terminer** pour le fermer.
+6.  Lorsque l' **Assistant Publication** est terminé, cliquez sur **Terminer** pour fermer l’Assistant.
 
-7.  Vérifiez que **Fédération (port 5061)** est **Activé**.
+7.  Vérifier la **Fédération (le port 5061)** est défini sur **activé**.
     
-    ![Générateur de topologie, pool Edge, Fédération activée](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Générateur de topologie, pool Edge, Fédération activée")
+    ![Générateur de topologie, pool de périphériques, Fédération activée] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Générateur de topologie, pool de périphériques, Fédération activée")
 
-## Pour mettre à jour le tronçon suivant de fédération du serveur Edge Lync Server 2013
+</div>
 
-1.  Dans le volet gauche du générateur de topologie, accédez au nœud **Lync Server 2013**, puis au nœud **Pool de serveurs Edge**.
+<div>
 
-2.  Développez le nœud, cliquez avec le bouton droit sur le serveur Edge listé, puis cliquez sur **Modifier les propriétés** .
+## <a name="to-update-lync-server-2013-edge-server-federation-next-hop"></a>Pour mettre à jour Lync Server 2013 Edge Server Federation Next hop
 
-3.  Dans la page **Général** , sous **Sélection du tronçon suivant** , sélectionnez le pool Lync Server 2013  dans la liste déroulante.
+1.  Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Lync Server 2013** , puis au nœud **pools de périphérie** .
+
+2.  Développez le nœud, cliquez avec le bouton droit sur le serveur Edge indiqué, puis cliquez sur **modifier les propriétés**.
+
+3.  Dans la page **général** , sous **sélection du tronçon suivant**, sélectionnez dans la liste déroulante le pool Lync Server 2013.
     
-    ![Boîte de dialogue Modifier les propriétés, page Tronçon suivant](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page Tronçon suivant")
+    ![Boîte de dialogue Modifier les propriétés, page saut suivant] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page saut suivant")
 
-4.  Cliquez sur **OK** pour fermer la page Modifier les propriétés.
+4.  Cliquez sur **OK** pour fermer la page modifier les propriétés.
 
-5.  Dans le **Générateur de topologie** , sélectionnez le nœud supérieur **Lync Server** .
+5.  Dans le **Générateur de topologie**, sélectionnez le nœud supérieur **serveur Lync** .
 
-6.  Dans le menu **Action** , cliquez sur **Publier la topologie** et exécutez l’Assistant.
+6.  Dans le menu **action** , cliquez sur **publier la topologie** et terminer l’Assistant.
 
-## Pour configurer le chemin d’accès sortant des médias Lync Server 2013, serveur Edge
+</div>
 
-1.  Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Lync Server 2013**, puis au pool sous **Serveurs frontaux Standard Edition** ou **Pools frontaux Enterprise Edition** .
+<div>
 
-2.  Cliquez avec le bouton droit sur le pool, puis cliquez sur **Modifier les propriétés** .
+## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>Pour configurer le chemin multimédia sortant du serveur Lync Server 2013 Edge
 
-3.  Dans la section **Associations** , activez la case à cocher **Pool Edge associé (pour composants médias)** .
+1.  Dans le concepteur de topologies, dans le volet de gauche, accédez au nœud **Lync Server 2013** , puis au pool sous **Standard Edition serveurs front end** ou **Enterprise Edition**.
+
+2.  Cliquez avec le bouton droit sur la liste, puis cliquez sur **modifier les propriétés**.
+
+3.  Dans la section **associations** , activez la case à cocher **associer le pool Edge (pour les composants multimédias)** .
     
-    ![Modifier les propriétés, Général, Pool de serveurs Edge associé](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Modifier les propriétés, Général, Pool de serveurs Edge associé")
+    ![Modification des propriétés, général et pool de périphérie] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Modification des propriétés, général et pool de périphérie")
 
-4.  Dans le menu déroulant, sélectionnez le serveur Edge Lync Server 2013.
+4.  Dans la zone de liste déroulante, sélectionnez le serveur Edge Lync Server 2013.
 
-5.  Cliquez sur **OK** pour fermer la page **Modifier les propriétés** .
+5.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 
-## Pour activer la fédération du serveur Edge Lync Server 2013
+</div>
 
-1.  Dans le volet gauche du générateur de topologie, accédez au nœud **Lync Server 2013**, puis au nœud **Pool de serveurs Edge**.
+<div>
 
-2.  Développez le nœud, cliquez avec le bouton droit sur le serveur Edge répertorié, puis cliquez sur **Modifier les propriétés** .
+## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>Pour activer la Fédération de serveur Edge Lync Server 2013
+
+1.  Dans le générateur de topologie, dans le volet gauche, accédez au nœud **Lync Server 2013** , puis au nœud **pools de périphérie** .
+
+2.  Développez le nœud, cliquez avec le bouton droit sur le serveur Edge indiqué, puis cliquez sur **modifier les propriétés**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > La fédération ne peut être activée que pour un seul pool de serveurs Edge. Si vous avez plusieurs pools Edge, sélectionnez-en un à utiliser comme pool de serveurs Edge de fédération.
+    > La Fédération ne peut être activée que pour un seul pool de bords. Si vous avez plusieurs pools de bords, sélectionnez-en un pour les utiliser comme pools de frontière de Fédération.
 
-3.  Dans la page **Général** , vérifiez que le paramètre **Activer la fédération pour ce pool Edge (port 5061)** est coché.
     
-    ![Boîte de dialogue Modifier les propriétés, page Général](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page Général")
+    </div>
 
-4.  Cliquez sur **OK** pour fermer la page Modifier les propriétés.
-
-5.  Naviguez ensuite vers le nœud du site.
-
-6.  Cliquez avec le bouton droit sur le site, puis cliquez sur **Modifier les propriétés** .
-
-7.  Dans le volet gauche, cliquez sur **Itinéraire de fédération** .
-
-8.  Sous **Attribution de l’itinéraire de fédération du site** , sélectionnez **Activer la fédération SIP** puis, dans la liste, sélectionnez le serveur EdgeLync Server 2013 répertorié.
+3.  Dans la page **général** , assurez-vous que le paramètre **activer la Fédération pour ce pool Edge (port 5061)** est coché.
     
-    ![Modifier les propriétés, page Itinéraire de fédération](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Modifier les propriétés, page Itinéraire de fédération")
+    ![Boîte de dialogue Modifier les propriétés, page général] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")
 
-9.  Cliquez sur **OK** pour fermer la page **Modifier les propriétés** .
+4.  Cliquez sur **OK** pour fermer la page modifier les propriétés.
+
+5.  Ensuite, accédez au nœud site.
+
+6.  Cliquez avec le bouton droit sur le site, puis cliquez sur **modifier les propriétés**.
+
+7.  Dans le volet de gauche, cliquez sur **route de Fédération**.
+
+8.  Sous **affectation**de l’itinéraire de la Fédération de sites, sélectionnez **activer la Fédération SIP**, puis dans la liste, sélectionnez le serveur Edge Lync Server 2013.
     
-    Pour les déploiements sur plusieurs sites, effectuez cette procédure sur chaque site.
+    ![Modifier les propriétés, page itinéraire de Fédération] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Modifier les propriétés, page itinéraire de Fédération")
 
-## Pour publier les modifications de configuration du serveur Edge
-
-1.  Dans le **Générateur de topologie** , sélectionnez le nœud supérieur **Lync Server** .
-
-2.  Dans le menu **Action** , sélectionnez **Publier la topologie** et exécutez l’Assistant.
-
-3.  Attendez que la réplication Active Directory se produise sur tous les pools de serveurs impliqués dans le déploiement.
+9.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
     
+    Pour les déploiements multisites, procédez comme suit sur chaque site.
+
+</div>
+
+<div>
+
+## <a name="to-publish-edge-server-configuration-changes"></a>Pour publier les modifications de configuration de serveur Edge
+
+1.  Dans le **Générateur de topologie**, sélectionnez le nœud supérieur **serveur Lync** .
+
+2.  Dans le menu **action** , sélectionnez **publier la topologie** et terminer l’Assistant.
+
+3.  Attendez la fin de la réplication Active Directory pour tous les pools du déploiement.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Vous pouvez voir le message suivant :<br />
-    <strong>Attention : La topologie contient plusieurs serveurs Edge fédérés. Cela peut se produire au cours d’une migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge voulu. Si vous voulez déployer plusieurs serveurs Edge de fédération de sorte qu’ils soient actifs simultanément (pas un scénario de migration, donc), vérifiez que tous les partenaires fédérés utilisent Lync Server. Vérifiez que l’enregistrement SRV DNS externe liste tous les serveurs Edge activés pour la fédération.</strong><br />
-    Cet avertissement est attendu et peut être ignoré en toute sécurité.
+    > Le message suivant risque de s’afficher:<BR><STRONG>AVERTISSEMENT: la topologie comporte plus d’un serveur Edge fédéré. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la Fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge approprié. Si vous voulez déployer plusieurs serveurs de périphérie de Fédération de manière à être actifs dans le cadre de la migration (autrement dit, qu’il ne s’agit pas d’un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Lync Server. Vérifiez que l’enregistrement SRV DNS externe recense tous les serveurs Edge compatibles avec la Fédération.</STRONG><BR>Cet avertissement est attendu et peut être ignoré en toute sécurité.
 
-## Pour configurer le serveur Edge Lync Server 2013
-
-1.  Mettez tous les serveurs Edge Lync Server 2013 en ligne.
-
-2.  Mettez à jour les règles de routage du pare-feu externe ou les paramètres du programme d’équilibrage de la charge matérielle pour envoyer le trafic SIP pour l’accès externe (port 443, en général) et la fédération (port 5061, en général) au serveur Edge  Lync Server 2013, au lieu du serveur serveur Edge hérité.
     
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-configure-lync-server-2013-edge-server"></a>Pour configurer Lync Server 2013 Edge Server
+
+1.  Accédez à tous les serveurs Edge Lync Server 2013 en ligne.
+
+2.  Mettez à jour les règles de routage de pare-feu externe ou les paramètres de l’équilibrage de charge matérielle pour envoyer le trafic SIP pour l’accès externe (en général, le port 443) et la Fédération (en général, le port 5061) vers le serveur Edge Lync Server 2013, au lieu du serveur Edge hérité.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Si vous n’utilisez pas un équilibreur de charge matérielle, vous devez mettre à jour l’enregistrement A DNS pour que la fédération puisse résoudre le nouveau serveur Edge d’accès Lync Server. Pour ce faire, réduisez la valeur TLL pour le FQDN du serveur Edge d’accès Lync Server externe afin que lorsque le DNS est mis à jour pour pointer vers le nouveau serveur Edge d’accès Lync Server, la fédération et l’accès à distance soient mis à jour rapidement.
+    > Si vous n’avez pas d’équilibrage de charge matérielle, vous devez mettre à jour l’enregistrement DNS A pour la Fédération pour résoudre le nouveau serveur Lync Server Access Edge. Pour effectuer cette opération avec un minimum de perturbation, réduisez la valeur TLL du nom de domaine complet (FQDN) du périmètre Lync Server de Lync Server de façon à ce qu’elle pointe vers le nouveau serveur Lync Server d’accès.
 
-3.  Ensuite, arrêtez le **Serveur Edge d’accès Lync Server** sur chaque ordinateur de serveur Edge.
+    
+    </div>
 
-4.  Sur chaque ordinateur serveur Edge hérité, ouvrez l’applet **Services** dans les **Outils d’administration** .
+3.  Ensuite, arrêtez le **Edge d’accès de Lync Server** depuis chaque ordinateur du serveur Edge.
 
-5.  Dans la liste des services, trouvez **Serveur Edge d’accès Lync Server** .
+4.  À partir de chaque ordinateur serveur Edge hérité, ouvrez l’application **services** à partir des **Outils d’administration**.
 
-6.  Cliquez avec le bouton droit sur le nom du service, puis sélectionnez **Arrêter** pour arrêter le service.
+5.  Dans la liste services, recherchez **Edge Access Server**.
 
-7.  Définissez le type de démarrage sur **Désactivé** .
+6.  Cliquez avec le bouton droit sur le nom des services, puis sélectionnez **arrêter** pour arrêter le service.
+
+7.  Définissez le type de démarrage sur **désactivé**.
 
 8.  Cliquez sur **OK** pour fermer la fenêtre **Propriétés** .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

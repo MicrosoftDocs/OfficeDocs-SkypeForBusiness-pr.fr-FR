@@ -1,21 +1,41 @@
-﻿---
-title: Prise en charge d’Active Directory dans Lync Server 2013
-TOCTitle: Prise en charge d’Active Directoryt
-ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425756(v=OCS.15)
-ms:contentKeyID: 49296683
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Prise en charge d’Active Directory dans Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Active Directory support
+ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425756(v=OCS.15)
+ms:contentKeyID: 48183679
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9be3bda71e44d0e739fce3a8d01db9cb84e2b9e3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838957"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Prise en charge d’Active Directory dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="active-directory-support-in-lync-server-2013"></a>Prise en charge d’Active Directory dans Lync Server 2013
 
-Les topologies locales des services de domaine Active Directory prises en charge par Lync Server 2013 sont les suivantes :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-12-04_
+
+Les topologies locales services de domaine Active Directory prises en charge par Lync Server 2013 sont les suivantes:
 
   - Forêt unique avec domaine unique
 
@@ -27,11 +47,35 @@ Les topologies locales des services de domaine Active Directory prises en charg
 
   - Plusieurs forêts dans une topologie de forêt de ressources
 
-> [!NOTE]  
-> Le Lync Server 2013 ne prend pas en charge les domaines en une seule partie. Par exemple, une forêt comportant le domaine racine <strong>contoso.local</strong> est prise en charge, alors que le domaine racine <strong>local</strong> en une seule partie ne l’est pas. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, « Informations sur la configuration des domaines Active Directory à l’aide de noms DNS en une seule partie », à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</a>.
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 ne prend pas en charge l’attribution de nouveau nom aux domaines. Si vous devez renommer un domaine où Lync Server est déployé, vous devez d’abord désinstaller Lync Server, renommer le domaine, puis réinstaller Lync Server.
+> Lync Server 2013 ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé «informations sur la configuration <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>de Windows pour les domaines avec des noms DNS en une seule étiquette».
 
-Pour plus d’informations sur les topologies prises en charge et les conditions requises des déploiements locaux, reportez-vous à [Configuration requise, prise en charge et topologies relatives aux services de domaine Active Directory dans Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) dans la documentation de planification.
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Lync Server 2013 ne prend pas en charge le changement de nom de domaines. Si vous avez besoin de renommer un domaine sur lequel Lync Server est déployé, vous devez commencer par désinstaller Lync Server, puis renommer le domaine, puis réinstaller Lync Server.
+
+
+
+</div>
+
+Pour plus d’informations sur les topologies prises en charge et la configuration requise pour les déploiements sur site, voir [Configuration requise pour les services de domaine Active Directory, support et topologies dans Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) dans la documentation de planification.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

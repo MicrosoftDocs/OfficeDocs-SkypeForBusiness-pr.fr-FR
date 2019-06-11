@@ -1,25 +1,55 @@
-﻿---
-title: "Lync Server 2013 : Aj. de domaines d’ut. et de gr. d’ut. à la cat. de salles"
-TOCTitle: Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles
-ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215884(v=OCS.15)
-ms:contentKeyID: 49299243
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding domains of users and user groups to the room category
+ms:assetid: ee03f2cf-1c84-41c4-b524-d0729be33b8c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215884(v=OCS.15)
+ms:contentKeyID: 48706013
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 32539c66523cf625c80d5f113cf788b02d3c905b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838933"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-02-07_
+# <a name="adding-domains-of-users-and-user-groups-to-the-room-category-in-lync-server-2013"></a>Ajout de domaines d’utilisateurs et de groupes d’utilisateurs à la catégorie de salles dans Lync Server 2013
 
-Pour ajouter de plus grands groupes d’utilisateurs à une salle de conversation, reportez-vous à [Configuration des catégories dans Lync Server 2013](lync-server-2013-configure-categories.md) et [Gestion des catégories](manage-categories.md) dans la documentation de déploiement. Par exemple, la commande suivante ajoute tous les utilisateurs de l’unité d’organisation NorthAmericaUsers dans Active Directory à la salle de conversation NorthAmerica :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-02-07_
+
+Pour ajouter des groupes de personnes plus importants à une salle de conversation, voir [configurer les catégories dans Lync Server 2013](lync-server-2013-configure-categories.md) et [gérer les catégories](manage-categories.md) dans la documentation de déploiement. Par exemple, la commande suivante permet d’ajouter tous les utilisateurs de l’unité d’organisation NorthAmericaUsers dans Active Directory à la salle de conversation du Nord:
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-Cette commande ajoute tous les membres du groupe de distribution Finance à la même salle de conversation :
+Sa commande permet d’ajouter tous les membres du groupe de distribution finance à la même salle de conversation:
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

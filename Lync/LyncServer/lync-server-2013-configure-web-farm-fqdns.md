@@ -1,44 +1,84 @@
-﻿---
-title: "Lync Server 2013 : Conf. des noms de dom. complets d’une batterie de serv. web"
-TOCTitle: Configuration des noms de domaine complets d’une batterie de serveurs web
-ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429722(v=OCS.15)
-ms:contentKeyID: 49298868
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration des noms de domaine complets d’une batterie de serveurs web'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure web farm FQDNs
+ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429722(v=OCS.15)
+ms:contentKeyID: 48185481
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 517e00baef63e3597c2f5b2b6621e62efb02ca62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838305"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des noms de domaine complets d’une batterie de serveurs web pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-03-29_
+# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Configuration des noms de domaine complets d’une batterie de serveurs web pour Lync Server 2013
 
-Lorsque vous définissez la configuration du serveur Standard Edition, du pool de serveurs frontaux, du directeur ou du pool de directeurs dans Générateur de topologie, vous configurez un nom de domaine complet des services web externes. Durant le processus de connexion d’un client hébergé sur le serveur Standard Edition ou le pool de serveurs frontaux, les noms de domaine complets des services web configurés sont envoyés via une mise en service intrabande. Si vous devez ajouter ou modifier l’URL des services web externes, utilisez le Générateur de topologie pour configurer ou reconfigurer les services web en suivant la procédure dans cette rubrique.
+</div>
 
-## Pour configurer le nom de domaine complet du pool externe pour les services web
+<div id="mainSection">
 
-1.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
+<div id="mainBody">
 
-2.  Dans l’arborescence de la console du Générateur de topologie, sous **Pools frontaux Standard Edition**, **Pools frontaux Enterprise Edition** et **Directeurs**, cliquez avec le bouton droit sur le nom du pool que vous devez modifier, puis cliquez sur **Modifier les propriétés**.
+<span> </span>
 
-3.  Dans la section **Services web**, ajoutez ou modifiez le **nom de domaine complet des services web externes**.
+_**Dernière modification de la rubrique:** 2013-03-29_
 
-4.  Vérifiez et ajustez les **ports d’écoute** pour HTTP et HTTPS. Les valeurs suivantes sont définies par défaut :
+Lors de la définition de la configuration du serveur Standard Edition Server, du pool frontal ou du pool de directeurs dans le générateur de topologie, vous configurez un nom de domaine complet (FQDN) pour les services Web externes. Pendant le processus de connexion d’un client hébergé sur le serveur Standard Edition ou du pool frontal, les noms de domaine complets configurés pour les services Web sont envoyés par le biais de la mise en service intrabande. Si vous avez besoin d’ajouter ou de modifier l’URL des services Web externes, vous utilisez le générateur de topologie pour configurer ou reconfigurer la configuration des services Web à l’aide de la procédure décrite dans cette rubrique.
+
+<div>
+
+## <a name="to-configure-an-external-pool-fqdn-for-web-services"></a>Pour configurer un nom de domaine complet du pool externe pour les services Web
+
+1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+
+2.  Dans le générateur de topologie, dans l’arborescence de la console sous les **éditions frontale standard**, cliquez avec **** le bouton droit sur le nom du pool, puis cliquez sur **modifier les propriétés**. ****
+
+3.  Dans la section **services Web** , ajoutez ou modifiez le **nom de domaine complet des services Web externes**.
+
+4.  Passez en revue et ajustez les **ports Listening** pour HTTP et HTTPS. Les valeurs par défaut sont les suivantes:
     
-      - **Ports d’écoute :** HTTP 8080, HTTPS 4443
+      - **Ports Listening:** HTTP 8080, HTTPS 4443
     
-      - **Ports publiés :** HTTP 80, HTTPS 443
+      - **Ports publiés:** HTTP 80, HTTPS 443
     
-    Les **ports d’écoute** sont les ports via lesquels les services web externes reçoivent les requêtes du proxy inverse. Les **ports publiés** sont publiés en externe par le proxy inverse et communiqués aux clients durant la mise en service intrabande.
+    Lorsque le **** port Listening correspond au port sur lequel les services Web externes seront configurés pour recevoir des demandes de la part du proxy inverse et que les **ports publiés** correspondent aux ports publiés en externe par le proxy inverse et sont communiqués à clients lors de la mise en service intrabande.
 
-5.  Une fois vos ajouts et mises à jour effectués, cliquez sur **OK** pour continuer.
+5.  Lorsque vous avez terminé vos ajouts et mises à jour, cliquez sur **OK** pour continuer.
 
-6.  Cliquez avec le bouton droit sur **Lync Server 2013**, puis cliquez sur **Publier**.
+6.  Cliquez avec le bouton droit sur **Lync Server 2013**, puis cliquez sur **publier**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Une fois la publication terminée, un lien vous informant que des opérations supplémentaires doivent être effectuées peut s’afficher. Cliquez sur le lien pour ouvrir la liste des serveurs affectés par les modifications apportées dans le Générateur de topologie qui nécessiteront de ré-exécuter l’Assistant Déploiement de Lync Server sur chaque serveur répertorié pour mettre à jour la configuration pour les composants ajoutés, supprimés ou modifiés.
+    > Après la publication réussie, un lien vous informant que vous devez effectuer des étapes supplémentaires est peut-être affiché. Le lien, si vous cliquez dessus, ouvre une liste de serveurs affectés par les modifications apportées au générateur de topologie, qui vous oblige à réexécuter l’Assistant Déploiement de Lync Server sur chaque serveur pour mettre à jour la configuration pour les composants ajoutés, supprimés ou modifiés.
 
-7.  Répétez ces étapes pour le serveur Standard Edition, le pool de serveurs frontaux, le directeur ou le pool de directeurs dans l‘organisation.
+    
+    </div>
+
+7.  Répétez ces étapes pour chaque serveur Standard Edition, pool frontal, directeur ou pool de directeurs au sein de l’organisation.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

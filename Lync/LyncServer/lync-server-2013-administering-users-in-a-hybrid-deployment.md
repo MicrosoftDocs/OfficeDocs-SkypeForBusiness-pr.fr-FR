@@ -1,47 +1,77 @@
-﻿---
-title: 'Lync Server 2013 : Administration des utilisateurs dans un déploiement hybride'
-TOCTitle: Administration des utilisateurs dans un déploiement hybride
-ms:assetid: 6924ed7b-30a9-4be7-b952-90655625f2c8
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204967(v=OCS.15)
-ms:contentKeyID: 49297486
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: administration des utilisateurs dans un déploiement hybride'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Administering users in a hybrid deployment
+ms:assetid: 6924ed7b-30a9-4be7-b952-90655625f2c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204967(v=OCS.15)
+ms:contentKeyID: 48184381
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0dd4f53eaa611d130291b1a42c798a8d5589968c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34839020"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administration des utilisateurs dans un déploiement Lync Server 2013 hybride
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-05-29_
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a>Administration des utilisateurs dans un déploiement 2013 Lync Server hybride
 
-Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utilisateurs migrés vers Lync Online à l’aide des fonctionnalités de gestion des utilisateurs disponibles sur le portail en ligne Microsoft Office 365. Vous devez vous connecter à l’aide d’un compte d’administrateur client pour pouvoir effectuer des tâches d’administration.
+</div>
 
-## Redéplacement d’utilisateurs vers la version locale
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2014-05-29_
+
+Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utilisateurs migrés vers Lync Online à l’aide des fonctionnalités de gestion des utilisateurs disponibles sur le portail en ligne Microsoft Office 365. Vous devez vous connecter à l’aide d’un compte d’administrateur client pour effectuer des tâches d’administration.
+
+<div>
+
+## <a name="moving-users-back-to-on-premises"></a>Replacer les utilisateurs sur le serveur local
+
+<div class="">
+
 
 > [!IMPORTANT]  
-> Cette section ne s’applique qu’aux utilisateurs créés et activés pour Lync local, puis déplacés d’un déploiement local vers Lync Online. Pour déplacer des utilisateurs créés dans Lync Online (et qui n’ont jamais été activés pour Lync dans un déploiement local), reportez-vous à <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Déplacement des utilisateurs de Lync Online vers Lync local dans Lync Server 2013</a>.
+> Cette section s’applique uniquement aux utilisateurs qui ont été créés et activés pour Lync local, puis transférés d’un déploiement local vers Lync Online. Pour déplacer des utilisateurs qui ont été créés dans Lync Online (et qui ne sont pas encore activés pour Lync dans un déploiement local), voir <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">déplacement des utilisateurs de Lync Online vers Lync local dans Lync Server 2013</A>.
 
-  - Pour redéplacer un utilisateur de Lync Online vers Lync local, exécutez l’applet de commande suivante :
+
+
+</div>
+
+  - Pour déplacer un utilisateur de Lync Online vers Lync local, exécutez les applets de commande suivantes:
     
-    ```
-    $cred=Get-Credential
-    ```
-    ```
-    Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
-    ```
+       ```
+        $cred=Get-Credential
+       ```
+    
+       ```
+        Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
+       ```
 
-L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit correspondre à celle du pool où le service de migration hébergée s’exécute, au format suivant :
+L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit correspondre à celle du pool dans lequel le service de migration hébergée est exécuté, au format suivant :
 
-*Https://\<nom de domaine complet du pool\>/Hosted Migration/hostedmigrationService.svc* . Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du Panneau de configuration Lync Online correspondant à votre compte client Office 365.
+Nom\<de domaine\>complet (FQDN) du pool https:///HostedMigration/hostedmigrationService.svc. Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du Panneau de configuration Lync Online correspondant à votre compte client Office 365.
 
 **Pour déterminer l’URL du service de migration hébergée de votre client Office 365**
 
 1.  Connectez-vous à votre client Office 365 en tant qu’administrateur.
 
-2.  Ouvrez le **Centre d’administration Lync** .
+2.  Ouvrez le **Centre d’administration Lync**.
 
-3.  Une fois le **Centre d’administration Lync** affiché, sélectionnez et copiez l’URL dans la barre d’adresse jusqu’à **lync.com**. L’URL doit ressembler au format de l’exemple suivant :
+3.  Avec le **Centre d’administration Lync** affiché, sélectionnez et copiez l’URL dans la barre d’adresses jusqu’à **Lync.com**. L’URL doit se présenter comme dans l’exemple suivant :
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
@@ -49,9 +79,21 @@ L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit corre
     
     `https://admin0a.online.lync.com`
 
-5.  Ajoutez la chaîne suivante à l’URL : **/HostedMigration/hostedmigrationservice.svc**.
+5.  Ajoutez la chaîne ci-dessous à l’URL : **/HostedMigration/hostedmigrationservice.svc**.
     
     L’URL obtenue, qui est la valeur de **HostedMigrationOverrideUrl**, doit se présenter comme suit :
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

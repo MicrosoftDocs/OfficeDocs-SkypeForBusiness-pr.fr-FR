@@ -1,69 +1,124 @@
-﻿---
-title: "Lync Server 2013 : Cond. Préreq. pr conf. parcage d’appel et droits ut."
-TOCTitle: Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur
-ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425730(v=OCS.15)
-ms:contentKeyID: 49296611
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call Park configuration prerequisites and user rights
+ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425730(v=OCS.15)
+ms:contentKeyID: 48183648
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 64a2f322ffec1d2ffa7aa238b76686391fc76ed7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838697"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-10_
+# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Conditions prérequises pour la configuration du parcage d’appel et des droits utilisateur dans Lync Server 2013
 
-Le parcage d’appel est une fonctionnalité de gestion des appels installée par défaut lorsque vous déployez Voix Entreprise. Cette rubrique présente la configuration requise pour le parcage d’appel ainsi que les droits d’utilisateur nécessaires pour effectuer les tâches de configuration.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-10_
+
+Le parc d’appels est une fonctionnalité de gestion des appels qui est installée par défaut lors du déploiement d’Enterprise Voice. Cette rubrique décrit ce que vous devez mettre en place avant de pouvoir configurer le parc d’appels et les droits d’utilisateur nécessaires à l’exécution des tâches de configuration.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Les fichiers d’attente musicale personnalisée pour le application de parcage d’appel ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et ils seront perdus si les fichiers téléchargés dans le pool sont endommagés ou effacés. Conservez toujours une copie de sauvegarde des fichiers d’attente musicale personnalisée que vous avez téléchargés pour le parcage d’appel.
+> Les fichiers de conservation de musique personnalisés pour l’application de parc d’appels ne sont pas sauvegardés dans le cadre du processus de reprise après sinistre de Lync Server 2013 et les fichiers sont perdus si les fichiers téléchargés sur le pool sont endommagés, endommagés ou supprimés. Veillez à toujours conserver une copie de sauvegarde distincte des fichiers de mise en attente musicale personnalisés que vous avez téléchargés pour le parcage d’appel.
 
-Cette section suppose que vous ayez lu la documentation de planification du parcage d’appel (reportez-vous à [Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
 
-## parcage d’appelComposants requis pour la configuration
 
-parcage d’appel requiert les composants suivants :
+</div>
+
+Cette section part du principe que vous avez lu la documentation de planification liée au parc d’appels (pour plus d’informations, reportez-vous à la [planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
+
+<div>
+
+## <a name="call-park-configuration-prerequisites"></a>Conditions préalables à la configuration du parc d’appels
+
+Le parc d’appels nécessite les composants suivants:
 
   - service d’application
 
   - application de parcage d’appel
 
-Ces composants sont installés automatiquement lors du déploiement de Voix Entreprise.
+Ces composants sont installés automatiquement lorsque vous déployez Enterprise Voice.
 
-Si vous voulez que les appelants entendent de la musique lors du parcage des appels, un fichier d’attente musicale est également requis. Un fichier d’attente musicale par défaut est également installé automatiquement lors du déploiement de Voix Entreprise. Vous pouvez le remplacer par un fichier d’attente musicale de votre choix. La fonction de parcage d’appel stocke le fichier audio dans le magasin de fichiers.
+Si vous voulez que les appelants entendent de la musique pendant le stationnement de l’appel, un fichier en attente de musique est également requis. Un fichier de Music-Holding par défaut est installé automatiquement lorsque vous déployez Enterprise Voice. Vous pouvez remplacer le fichier par défaut par votre propre fichier audio. Le parc d’appels utilise le magasin de fichiers pour contenir le fichier audio.
 
-## Droits d’utilisateur nécessaires à la configuration du parcage d’appel
+</div>
 
-Vous pouvez utiliser les outils d’administration suivants pour configurer parcage d’appel :
+<div>
 
-  - Panneau de configuration Lync Server
+## <a name="call-park-configuration-user-rights"></a>Configuration du parc d’appels-droits d’utilisateur
 
-  - Lync Server Management Shell
+Pour configurer le parc d’appels, vous pouvez utiliser les outils d’administration suivants:
 
-Les outils suivants permettent de configurer la table d’orbite du parcage d’appel ainsi que les autres paramètres utilisés par parcage d’appel.
+  - Panneau de configuration Lync Server
 
-Selon la tâche de configuration de parcage d’appel l’un des rôles d’administration suivants est requis :
+  - Lync Server Management Shell
 
-  - **CsVoiceAdministrator** : ce rôle d’administrateur peut créer, configurer et gérer l’ensemble des stratégies et paramètres de voix.
+Ces outils vous permettent de configurer la table de stationnement d’appel et de configurer d’autres paramètres utilisés par le parc d’appels.
 
-  - **CsUserAdministrator :** ce rôle d’administrateur peut activer le parcage d’appel dans une stratégie de voix. Il dispose aussi d’un accès en lecture seule à toutes les configurations de voix.
+La configuration du parc d’appels nécessite l’un des rôles d’administration suivants, en fonction de la tâche:
 
-  - **CsServerAdministrator** : ce rôle d’administrateur peut gérer et surveiller les serveurs et les services, identifier leurs problèmes et les résoudre.
+  - **CsVoiceAdministrator:** Ce rôle d’administrateur peut créer, configurer et gérer l’ensemble des stratégies et paramètres relatifs à la voix.
 
-  - **CsAdministrator** : ce rôle d’administrateur peut exécuter toutes les tâches des rôles CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
+  - **CsUserAdministrator:** Ce rôle d’administrateur peut activer le parc d’appels dans la politique vocale. Ce rôle d’administrateur dispose également d’un accès en lecture seule à toutes les configurations vocales.
+
+  - **CsServerAdministrator:** Ce rôle d’administrateur peut gérer, surveiller et résoudre les problèmes liés aux serveurs et services.
+
+  - **CsAdministrator:** Ce rôle d’administrateur peut effectuer toutes les tâches de CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
+
+<div>
+
 
 > [!NOTE]  
-> Pour plus d’informations sur les droits d’administration, reportez-vous à <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
+> Pour plus d’informations sur les droits d’administration, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planification du contrôle d’accès basé sur les rôles dans Lync Server 2013</A> dans la documentation de planification.
 
-## Voir aussi
 
-#### Concepts
 
-[Déploiement de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+</div>
 
-#### Autres ressources
+</div>
 
-[Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Déploiement d’Enterprise Voice dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[Planifier les fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

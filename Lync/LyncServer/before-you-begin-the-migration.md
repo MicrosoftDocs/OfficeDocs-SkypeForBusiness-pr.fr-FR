@@ -1,21 +1,41 @@
-﻿---
-title: Avant de commencer la migration
-TOCTitle: Avant de commencer la migration
-ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204634(v=OCS.15)
-ms:contentKeyID: 49296094
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Avant de commencer la migration
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Before you begin the migration
+ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204634(v=OCS.15)
+ms:contentKeyID: 48183259
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a7ab2e365e8653695b88b1e7b12ee1104edd115d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838101"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Avant de commencer la migration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-23_
+# <a name="before-you-begin-the-migration"></a>Avant de commencer la migration
 
-Avant de commencer, nous vous recommandons de lire ce document et les guides ci-après afin de vous familiariser avec le déploiement des rôles Lync Server 2013 correspondants :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-23_
+
+Avant de commencer, il est recommandé de lire ce document et les guides suivants pour vous familiariser avec le déploiement des rôles Lync Server 2013 correspondants:
 
   - [Déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
@@ -23,11 +43,25 @@ Avant de commencer, nous vous recommandons de lire ce document et les guides ci-
 
   - [Déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
 
-  - [Déploiement des clients et appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
+  - [Déploiement de clients et d’appareils dans Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
 
-## Dans cette section
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Processus de migration](migration-process.md)
 
   - [Phases de migration](migration-phases.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,33 +1,67 @@
-﻿---
-title: Stratégies de conférence dans Lync Server 2013
-TOCTitle: Stratégies de conférence dans Lync Server 2013
-ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688133(v=OCS.15)
-ms:contentKeyID: 49891439
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: stratégies de conférence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing policies
+ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688133(v=OCS.15)
+ms:contentKeyID: 49733732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b60b521c69b821dacfe8bd569a6300b4c21e0287
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838468"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Stratégies de conférence dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-18_
+# <a name="conferencing-policies-in-lync-server-2013"></a>Stratégies de conférence dans Lync Server 2013
 
-Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion). Les paramètres d’une stratégie de conférence englobent une grande variété d’options de planification et de participation, notamment la possibilité d’utiliser des fonctions audio et vidéo IP dans une réunion et de déterminer le nombre maximal de participants. Les administrateurs peuvent utiliser une stratégie de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+</div>
 
-Vous pouvez définir une stratégie de conférence sur trois niveaux : étendue globale, étendue de site et étendue d’utilisateur. Les paramètres s’appliquent à un utilisateur de l’étendue la plus étroite à la plus large. Si vous affectez une stratégie utilisateur à un utilisateur, les paramètres de cette stratégie prévalent. Si vous n’affectez pas une stratégie utilisateur à un utilisateur, les paramètres de la stratégie par site s’appliquent. Si vous n’appliquez aucune stratégie par utilisateur ou par site, la stratégie globale fournit les paramètres par défaut.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-18_
+
+La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion). Les paramètres d’une stratégie de conférence englobent une grande variété d’options de planification et de participation, notamment la possibilité d’utiliser des fonctions audio et vidéo IP dans une réunion et de déterminer le nombre maximal de participants. Les administrateurs peuvent utiliser une stratégie de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+
+Vous pouvez définir une stratégie de conférence sur trois niveaux : étendue globale, étendue de site et étendue d’utilisateur. Les paramètres s’appliquent à un utilisateur spécifique de l’étendue la plus étroite à la plus large. Si vous attribuez une stratégie utilisateur à un utilisateur, ces paramètres sont prioritaires. Si vous n’affectez pas une stratégie utilisateur à un utilisateur, les paramètres de la stratégie par site s’appliquent. Si vous n’appliquez aucune stratégie par utilisateur ou par site, la stratégie globale fournit les paramètres par défaut.
 
 Une stratégie globale existe par défaut, par conséquent vous ne pouvez pas en créer une nouvelle. Vous ne pouvez pas non plus supprimer la stratégie globale existante, mais vous pouvez modifier la stratégie globale existante pour personnaliser les paramètres par défaut.
 
-## Dans cette section
+<div>
 
-  - [Affichage des informations d’une stratégie de conférence](lync-server-2013-view-conferencing-policy-information.md)
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Afficher les informations de stratégie de conférence dans Lync Server 2013](lync-server-2013-view-conferencing-policy-information.md)
 
   - [Création ou modification d’une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md)
 
-  - [Suppression d’une stratégie de conférence existante](lync-server-2013-delete-an-existing-conferencing-policy.md)
+  - [Supprimer une stratégie de conférence existante dans Lync Server 2013](lync-server-2013-delete-an-existing-conferencing-policy.md)
 
   - [Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,47 +1,81 @@
-﻿---
-title: Sauvegarde et restauration de Lync Server 2013
-TOCTitle: Sauvegarde et restauration de Lync Server 2013
-ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202160(v=OCS.15)
-ms:contentKeyID: 53095352
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: sauvegarde et restauration de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up and restoring Lync Server 2013
+ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202160(v=OCS.15)
+ms:contentKeyID: 51541443
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a0cf9f9baabd095e54373c31acd4f4522974a82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838897"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sauvegarde et restauration de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="backing-up-and-restoring-lync-server-2013"></a>Sauvegarde et restauration de Lync Server 2013
 
-Cette section indique les meilleures pratiques pour la sauvegarde de vos données Lync Server 2013 et pour leur restauration en cas d’échec. Ces meilleures pratiques s’appliquent dans les circonstances suivantes :
+</div>
 
-  - un pool Lync Server entier de n’importe quel type (serveur frontal, serveur Edge, serveur de médiation, serveur de conversations permanentes ou directeur) ou un serveur individuel dans l’un de ces pools ;
+<div id="mainSection">
 
-  - le serveur de gestion centralisée ;
+<div id="mainBody">
 
-  - un serveur Standard Edition ;
+<span> </span>
 
-  - un serveur principalEnterprise Edition ;
+_**Dernière modification de la rubrique:** 2013-02-21_
 
-  - un magasin de fichiers ;
+Cette section présente les meilleures pratiques en matière de sauvegarde de vos données 2013 Lync Server et de restauration en cas d’échec. Ces bonnes pratiques s’appliquent aux situations suivantes:
 
-  - une base de données d’archivage, base de données de surveillance ou une base de données de conversation permanente.
+  - Un pool de serveurs Lync de n’importe quel type (serveur frontal, serveur Edge, serveur de médiation, serveur de chat permanent ou directeur), ou un serveur individuel dans l’un de ces groupes.
 
-Cette section n’inclut pas les informations permettant de restaurer tout un site ou de développer un site en veille. Pour plus d’informations sur le développement d’une solution de récupération d’urgence avec des pools frontaux appariés, voir [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Il s’agit de la méthode recommandée pour planifier la récupération d’urgence.
+  - Serveur de gestion central
 
-Si vous avez déployé des pools frontaux appariés et que l’un de ces pools échoue et devient irrécupérable, vous pouvez le restaurer avec un nouveau nom de domaine complet à partir de son pool apparié. Pour plus d’informations sur les étapes de cette récupération, voir [Basculement vers un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md). En outre, si vous souhaitez par la suite recréer un pool défaillant et irrécupérable qui faisait partie d’une paire frontale, vous pouvez utiliser les étapes décrites dans [Exécution d’un basculement de pools frontaux ABC](lync-server-2013-performing-an-abc-front-end-pool-failover.md).
+  - Un serveur Standard Edition Server
 
-La méthodologie décrite dans ce document implique des considérations spécifiques lors de la phase de planification. Pour plus d’informations, voir [Établissement d’un plan de sauvegarde et de restauration](lync-server-2013-establishing-a-backup-and-restoration-plan.md).
+  - Serveur principal d’Enterprise Edition
 
-## Dans cette section
+  - Magasin de fichiers
 
-  - [Préparation de la sauvegarde et de la restauration de Lync Server](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+  - Une base de données d’archivage, une base de données de surveillance ou une base de données de chat permanent
 
-  - [Sauvegarde des données et des paramètres](lync-server-2013-backing-up-data-and-settings.md)
+Cette section n’inclut pas d’informations sur la restauration d’un site entier ou sur le développement d’un site de secours. Pour plus d’informations sur le développement d’une solution de reprise après sinistre avec des listes frontales couplées, voir [planification d’une haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Il s’agit de la méthode recommandée pour la planification de la reprise après sinistre.
 
-  - [Restauration des données et paramètres](lync-server-2013-restoring-data-and-settings.md)
+Si vous avez déployé des pools frontaux couplés, si l’un de ces groupes échoue et devient irrécupérable, vous pouvez restaurer ce pool avec un nouveau nom de domaine complet (FQDN) du pool couplé. Pour plus d’informations sur la procédure d’exécution de cette récupération, voir [échec d’un pool dans Lync Server 2013](lync-server-2013-failing-over-a-pool.md). Par ailleurs, si vous voulez recréer un pool failed et unrécupérable qui faisait partie d’une paire frontale, vous pouvez suivre la procédure décrite dans la section [exécution d’un basculement de pool frontal ABC dans Lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md).
 
-  - [Feuilles de travail de sauvegarde et de restauration](lync-server-2013-backup-and-restoration-worksheets.md)
+La méthodologie décrite dans ce document implique des considérations spéciales lors de la phase de planification. Pour plus d’informations, reportez-vous à [la rubrique établissement d’un plan de sauvegarde et de restauration pour Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Préparation pour la sauvegarde et la restauration de Lync Server 2013](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+
+  - [Sauvegarder des données et des paramètres dans Lync Server 2013](lync-server-2013-backing-up-data-and-settings.md)
+
+  - [Restauration de données et de paramètres dans Lync Server 2013](lync-server-2013-restoring-data-and-settings.md)
+
+  - [Sauvegarder et restaurer des feuilles de calcul pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,65 +1,119 @@
-﻿---
-title: "LS 2013 : Créa. d’un enr. SRV DNS pour l’intégrer à la mess. un. Exchange héb."
-TOCTitle: Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée
-ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh500728(v=OCS.15)
-ms:contentKeyID: 49298036
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a DNS SRV record for integration with hosted Exchange UM
+ms:assetid: 8ea590ae-58ea-4ca5-9853-e0708b3ea760
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh500728(v=OCS.15)
+ms:contentKeyID: 48184770
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b2f96b8873e7d83b7025b43b111312185b8e5d5c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838134"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Création d’un enregistrement SRV DNS pour l’intégrer à la messagerie unifiée Exchange hébergée
 
-Cette rubrique décrit comment configurer l’enregistrement SRV DNS (Domain Name System) requis pour qu’un  serveur EdgeLync Server 2013 effectue un routage vers un service Exchange hébergé tel que Microsoft Exchange Online.
+</div>
 
-## Pour créer un enregistrement SRV DNS pour le service Exchange hébergé
+<div id="mainSection">
 
-1.  Ouvrez une session sur le serveur DNS externe en tant que membre du groupe DnsAdmins.
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-20_
+
+Cette rubrique décrit comment configurer l’enregistrement SRV DNS (Domain Name System) requis pour un serveur Edge Lync Server 2013 pour le routage vers un service Exchange hébergé tel que Microsoft Exchange Online.
+
+<div>
+
+## <a name="to-create-an-external-dns-srv-record-for-the-hosted-exchange-service"></a>Pour créer un enregistrement SRV DNS externe pour le service Exchange hébergé
+
+1.  Connectez-vous au serveur DNS externe en tant que membre du groupe DnsAdmins.
 
 2.  Cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
-3.  Dans l’arborescence de la console pour votre domaine SIP, développez **Zones de recherche directes** et sélectionnez le domaine SIP dans lequel Lync Server 2013 sera installé.
+3.  Dans l’arborescence de la console de votre domaine SIP, développez **zones de recherche directe**, puis sélectionnez le domaine SIP dans lequel Lync Server 2013 sera installé.
     
-    > [!IMPORTANT]  
-    > Vous devez créer l’enregistrement SRV DNS dans le domaine SIP dans lequel Lync Server est ou sera installé. Lorsque vous créez l’enregistrement SRV, le nom de domaine complet mentionné dans le champ Hôte offrant ce service doit être le nom de domaine externe du pool Edge. Par exemple, si le nom de domaine complet externe de votre pool Edge est edge01.contoso.net, entrez cette valeur. Il doit également être dans le même domaine que l’enregistrement d’hôte (A) DNS.
+    <div>
+    
 
-4.  Cliquez avec le bouton droit sur le domaine sélectionné, puis cliquez sur **Nouveaux enregistrements**.
+    > [!IMPORTANT]
+    > Vous devez créer l’enregistrement SRV DNS dans le domaine SIP sur lequel Lync Server est ou sera installé. Lorsque vous créez l’enregistrement SRV, le nom de domaine complet (FQDN) utilisé pour le champ Host qui offre ce service doit être le nom de domaine complet (FQDN) externe du pool Edge. Par exemple, si le nom de domaine complet externe de votre pool Edge est edge01.contoso.net, entrez cette valeur. Cela doit également se trouver dans le même domaine que l’enregistrement DNS hosts (A).
 
-5.  Dans **Type d’enregistrement de ressource**, cliquez sur **Emplacement du service (SRV)**, puis sur **Créer un enregistrement**.
+    
+    </div>
 
-6.  Dans **Nouvel enregistrement de ressource**, cliquez sur **Service**, puis tapez **\_sipfederationtls** .
+4.  Cliquez avec le bouton droit sur le domaine sélectionné, puis cliquez sur **nouveaux enregistrements**.
 
-7.  Cliquez sur **Protocole**, puis saisissez **\_tcp**.
+5.  Dans **type d’enregistrement de ressource**, cliquez sur **emplacement du service (SRV)**, puis cliquez sur **créer un enregistrement**.
+
+6.  Dans **nouvel enregistrement de ressource**, cliquez sur **service**, puis tapez ** \_sipfederationtls**.
+
+7.  Cliquez sur **protocole**, puis tapez ** \_TCP**.
 
 8.  Cliquez sur **Numéro de port**, puis saisissez **5061**.
 
-9.  Cliquez sur **Hôte offrant ce service**, puis saisissez le nom de domaine complet (FQDN) du Lync Server 2013 pool de serveurs Edge permettant aux clients externes approuvés d’accéder à votre système Lync Server 2013.
+9.  Cliquez sur **hôte proposant ce service**, puis tapez le nom de domaine complet (FQDN) du pool de périphériques lync Server 2013 qui permet d’accéder à votre système lync Server 2013 pour les clients externes approuvés.
     
-    > [!NOTE]  
-    > Le domaine doit également être configuré comme domaine accepté et faisant autorité dans vos paramètres Exchange Online. Pour plus d’informations, reportez-vous à « Créer des domaines acceptés » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</a>.
+    <div>
+    
+
+    > [!NOTE]
+    > Le domaine doit également être configuré en tant que domaine forcé et accepté dans vos paramètres Exchange Online. Pour plus d’informations, consultez créer des <A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>domaines approuvés sur.
+
+    
+    </div>
 
 10. Cliquez sur **OK**, puis sur **Terminé**.
 
-## Pour vérifier que l’enregistrement SRV DNS a bien été créé
+</div>
 
-1.  Ouvrez une session sur un ordinateur client du domaine.
+<div>
 
-2.  Cliquez sur **Démarrer**, puis sur **Exécuter**.
+## <a name="to-verify-that-the-dns-srv-record-was-created-successfully"></a>Pour vérifier que l’enregistrement SRV DNS a été correctement créé
 
-3.  Dans la ligne de commande, exécutez la commande suivante :
+1.  Connectez-vous à un ordinateur client dans le domaine.
+
+2.  Cliquez sur **Démarrer **, puis sur **Exécuter **.
+
+3.  À l’invite de commandes, exécutez la commande suivante:
     
         nslookup <FQDN Lync Edge Pool>
 
-4.  Vérifiez que vous recevez une réponse résolue en adresse IP appropriée pour le nom de domaine complet.
+4.  Vérifiez que vous recevez une réponse qui est résolue en adresse IP appropriée pour le nom de domaine complet (FQDN).
 
-## Voir aussi
+</div>
 
-#### Concepts
+<div>
 
-[Création des enregistrements DNS pour les serveurs proxy inverses dans Lync Server 2013](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)
+## <a name="see-also"></a>Voir aussi
+
+
+[Création des enregistrements DNS pour les serveurs proxy inverses dans Lync Server 2013](lync-server-2013-create-dns-records-for-reverse-proxy-servers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

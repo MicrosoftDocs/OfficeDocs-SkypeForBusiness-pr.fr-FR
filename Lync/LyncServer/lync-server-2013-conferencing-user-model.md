@@ -1,49 +1,79 @@
-﻿---
-title: Modèle d’utilisateur de conférence
-TOCTitle: Modèle d’utilisateur de conférence
-ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205199(v=OCS.15)
-ms:contentKeyID: 49298669
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Modèle d’utilisateur de conférence Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: The conferencing user model
+ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
+ms:contentKeyID: 48185229
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838461"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modèle d’utilisateur de conférence
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a>Le modèle utilisateur de conférence dans Lync Server 2013
 
-La taille des réunions constitue un élément essentiel du modèle utilisateur des conférences Lync Server. Après avoir collecté des données à partir de plusieurs points de données (comme indiqué dans la section précédente), nous avons déterminé les points suivants :
+</div>
 
-  - La plupart des réunions sont en fait de petites réunions collaboratives, avec une moyenne de quatre à six participants.
+<div id="mainSection">
 
-  - Environ 80 % des réunions comptent moins de 20 participants.
+<div id="mainBody">
 
-  - 99,98 % des réunions comptent moins de 100 participants.
+<span> </span>
 
-Outre la taille des réunions, le modèle utilisateur des conférences prend également en compte divers facteurs, tels que les suivants :
+_**Dernière modification de la rubrique:** 2012-10-22_
 
-  - **Réunions simultanées**   Combien d’utilisateurs devraient participer simultanément à des réunions ?
+La taille de la réunion est une partie essentielle du modèle utilisateur de conférence de Lync Server. Après la collecte des données à partir de plusieurs points de données (comme décrit dans la section précédente), nous avons déterminé les éléments suivants:
 
-  - **Mélange de médias**   Quels types de médias sont disponibles et susceptibles d’être utilisés par les utilisateurs lors des réunions ?
+  - La plupart des réunions sont en fait de petites réunions en équipe avec une moyenne de quatre à six participants.
 
-  - **Types d’utilisateurs**   Les utilisateurs sont-ils internes, distants, fédérés ou anonymes ?
+  - Environ 80% des réunions ont moins de 20 participants.
 
-  - **Temps d’accès aux réunions**   Combien de temps faut-il pour que tous les utilisateurs d’une réunion rejoignent une réunion ?
+  - 99,98% des réunions ont moins de 100 participants.
 
-Pour plus d’informations sur le modèle utilisateur, voir [Modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).
+En plus de la taille de la réunion, le modèle utilisateur de conférence prend également en compte plusieurs facteurs, tels que:
 
-Pour déterminer le nombre de réunions et d’utilisateurs à utiliser pour effectuer les tests, nous avons procédé comme suit :
+  - **Réunions simultanées**   combien d’utilisateurs sont-ils censés avoir en même temps des réunions?
 
-  - Nous avons pris le nombre total d’utilisateurs d’une organisation (par exemple, 80 000 utilisateurs) que nous avons multiplié par le taux de simultanéité des réunions (par exemple, 5 % de tous les utilisateurs) afin de déterminer le nombre total d’utilisateurs susceptibles d’assister simultanément à des réunions (dans le présent exemple, 4 000 utilisateurs).
+  - **Media Mix**   quels types de médias sont disponibles et censés être utilisés par les utilisateurs dans les réunions?
 
-  - Nous avons divisé le nombre total d’utilisateurs par le nombre de serveurs frontauxLync Server 2013 du déploiement (par exemple, 8 serveurs) afin de déterminer une estimation du nombre de participants à une réunion par serveur frontal (dans le présent exemple, 500 utilisateurs par serveur frontal).
+  - **Les types**   d’utilisateurs sont des utilisateurs internes, des utilisateurs distants, des utilisateurs fédérés ou des utilisateurs anonymes.
 
-  - Nous avons divisé le nombre d’utilisateurs par serveur frontal par la taille moyenne des réunions (par exemple, 4 utilisateurs) afin de déterminer une estimation du nombre moyen de réunions par serveur frontal (dans le présent exemple, 125 réunions par serveur frontal).
+  - **Durée**   de la réunion avec le temps nécessaire pour permettre à tous les utilisateurs d’une réunion de participer à une réunion?
 
-  - Pour obtenir la charge par média sur chaque serveur frontal, nous avons calculé une estimation du mélange de médias. Par exemple, en supposant que 75 % des réunions requièrent plus qu’un simple support audio et que 50 % de ces réunions requièrent un partage d’application, 47 réunions et 188 utilisateurs en moyenne se connectent simultanément à chaque serveur frontal pour un partage d’application.
+Pour plus d’informations sur le modèle utilisateur, voir [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).
 
-  - Nous avons testé diverses tailles de réunion (en nous basant sur notre modèle utilisateur qui compte un maximum de 250 utilisateurs dans un pool partagé) afin de garantir l’extensibilité du serveur.
+Pour déterminer le nombre de réunions et d’utilisateurs à utiliser pour le test, nous avons effectué les opérations suivantes:
+
+  - A suivi le nombre total d’utilisateurs au sein d’une organisation (par exemple, les utilisateurs 80 000) et multiplié par le taux de concurrence de la réunion (par exemple, 5% de l’ensemble des utilisateurs) pour déterminer le nombre total d’utilisateurs censés participer à des réunions en même temps (dans cet exemple, , 4000 utilisateurs).
+
+  - Divisez le nombre total d’utilisateurs par le nombre de serveurs Lync Server 2013, serveurs frontaux du déploiement (par exemple, 8 serveurs) pour déterminer le nombre estimé de participants de la réunion par serveur frontal (dans cet exemple, 500 utilisateurs par serveur frontal).
+
+  - Divisez le nombre d’utilisateurs par serveur frontal en fonction de la taille de la réunion moyenne (par exemple, 4 utilisateurs) pour déterminer le nombre de réunions moyenne estimée par serveur frontal (dans cet exemple, les réunions 125 par serveur principal).
+
+  - Pour obtenir la charge de média par chaque serveur frontal, nous avons estimé la combinaison de médias. Par exemple, en supposant que 75% des réunions nécessitent plus qu’une prise en charge du son et 50% de celles-ci nécessitent le partage d’application, une moyenne de 47 réunions et des utilisateurs 188 se connectent à chaque serveur frontal pour le partage d’application.
+
+  - A testé une large gamme de tailles de réunion (en fonction de notre modèle utilisateur d’un maximum de 250 utilisateurs dans un pool partagé) pour s’assurer de l’évolutivité du serveur.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

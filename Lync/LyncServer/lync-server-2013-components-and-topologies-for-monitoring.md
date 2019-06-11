@@ -1,37 +1,57 @@
-﻿---
-title: 'Lync Server 2013 : Composants et topologies pour la surveillance'
-TOCTitle: Composants et topologies pour la surveillance
-ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412952(v=OCS.15)
-ms:contentKeyID: 49891523
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Composants et topologies pour la surveillance'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for monitoring
+ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)
+ms:contentKeyID: 48185313
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0c848b3c404bc9bce3b54d6ed52157d1b9da679
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838515"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Composants et topologies pour la surveillance dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-05_
+# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Composants et topologies pour la surveillance dans Lync Server 2013
 
-Les agents de collecte de données unifiée étant automatiquement installés et activés sur chaque serveur frontal, vous n’avez pas besoin de configurer un serveur en tant que serveur de surveillance ; en effet, chaque serveur frontal fonctionne déjà comme un serveur de surveillance. En revanche, vous devez installer et configurer une base de données qui servira de magasin de données principal pour vos données d’analyse. Microsoft Lync Server 2013 prend en charge les bases de données suivantes comme magasin principal des données d’analyse :
+</div>
 
-  - Microsoft SQL Server 2008 R2 Enterprise Edition
+<div id="mainSection">
 
-  - Microsoft SQL Server 2008 R2 Standard Edition
+<div id="mainBody">
 
-  - Microsoft SQL Server 2012 Enterprise Edition
+<span> </span>
 
-  - Microsoft SQL Server 2012 Standard Edition
+_**Dernière modification de la rubrique:** 2012-09-05_
 
-Notez que vous devez utiliser les versions 64 bits de ces bases de données, car les versions 32 bits de SQL Server ne sont pas prises en charge en tant que magasin principal des données d’analyse. De même, Lync Server 2013 ne prend pas en charge les versions Express Edition de SQL Server 2008 et de SQL Server 2012. Pour plus d’informations sur la configuration requise des bases de données pour Lync Server 2013, reportez-vous à la rubrique [Prise en charge du logiciel de base de données dans Lync Server 2013](lync-server-2013-database-software-support.md) dans le guide de prise en charge de Lync Server 2013.
+Dans la mesure où les agents de collection de données unifiées sont automatiquement installés et activés sur chaque serveur frontal, vous n’avez pas besoin de configurer un serveur pour agir en tant que serveur de surveillance; chaque serveur frontal fonctionne déjà en tant que serveur de surveillance. Toutefois, vous devrez installer et configurer une base de données pour qu’elle serve de magasin de données principal pour vos données de surveillance. Microsoft Lync Server 2013 peut utiliser les bases de données suivantes comme magasin principal de surveillance:
 
-N’oubliez pas que SQL Server doit être installé et configuré avant de procéder au déploiement et à la configuration de la fonctionnalité d’analyse. Vous devez déployer SQL Server, mais vous n’avez pas besoin de configurer les bases de données d’analyse, car celles-ci seront automatiquement créées lorsque vous publierez votre topologie Lync Server.
+  - Microsoft SQL Server 2008 R2 Enterprise Edition
+
+  - Microsoft SQL Server 2008 R2 Standard Edition
+
+  - Microsoft SQL Server 2012 Enterprise Edition
+
+  - Microsoft SQL Server 2012 Standard Edition
+
+Notez que vous devez utiliser les éditions 64 bits de ces bases de données. les versions 32 bits de SQL Server ne peuvent pas être utilisées comme magasin principal pour le contrôle. De même, Lync Server 2013 ne prend pas en charge les éditions Express de SQL Server 2008 ou SQL Server 2012. Pour plus d’informations sur la configuration requise de base de données pour Lync Server 2013, voir la rubrique [prise en charge des logiciels de base de données dans Lync server 2013](lync-server-2013-database-software-support.md) dans le Guide de prise en charge de lync Server 2013.
+
+N’oubliez pas que SQL Server doit être installé et configuré avant que vous ne procédiez au déploiement et à la configuration de la fonctionnalité de surveillance. Toutefois, il vous suffit de déployer SQL Server proprement dit; vous n’avez pas besoin de configurer les bases de données de surveillance à l’avance. Au lieu de cela, celles-ci sont automatiquement créées lors de la publication de la topologie de votre serveur Lync.
 
 Les données d’analyse peuvent utiliser la même instance SQL Server que d’autres types de données. Généralement, la base de données des enregistrements des détails des appels (LcsCdr) et la base de données de qualité de l’expérience (QoEMetrics) utilisent la même instance SQL ; par ailleurs, ces deux bases de données utilisent souvent la même instance SQL que la base de données d’archivage (LcsLog). La seule limitation réelle concernant les instances SQL Server est que chaque instance SQL Server est limitée à :
 
-  - une seule instance de la base de données principale Lync Server 2013 (en règle générale, il est préférable de ne pas colocaliser votre base de données d’analyse dans la même instance SQL, ni sur le même ordinateur, que la base de données principale. Même si cela est techniquement possible, la base de données d’analyse risque d’utiliser de l’espace disque nécessaire à la base de données principale) ;
+  - Une instance de la base de données du serveur principal Lync Server 2013. (En règle générale, il est déconseillé d’avoir colocalisé votre base de données de surveillance dans la même instance SQL, ou même sur le même ordinateur que la base de données principale. Même si cela est possible, vous courez le risque de la base de données de surveillance en utilisant l’espace disque requis par la base de données principale.)
 
   - une seule instance de la base de données LcsCdr ;
 
@@ -39,11 +59,25 @@ Les données d’analyse peuvent utiliser la même instance SQL Server que d’
 
   - une seule instance de la base de données d’archivage.
 
-Autrement dit, vous ne pouvez pas avoir deux instances de la base de données LcsCdr dans la même instance SQL Server. Pour utiliser plusieurs instances de cette base de données, vous devez configurer plusieurs instances SQL Server.
+En d’autres termes, vous ne pouvez pas avoir deux instances de la base de données LcsCdr dans la même instance de SQL Server. Si vous avez besoin d’instances multiples de la base de données LcsCdr, vous devrez configurer plusieurs instances de SQL Server.
 
-## Voir aussi
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[Déploiement du serveur de surveillance dans Lync Server 2013](lync-server-2013-deploying-monitoring.md)
+
+[Déploiement de la surveillance dans Lync Server 2013](lync-server-2013-deploying-monitoring.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

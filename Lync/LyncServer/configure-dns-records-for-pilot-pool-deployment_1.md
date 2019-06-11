@@ -1,35 +1,65 @@
-﻿---
-title: Configuration des enregistrements DNS pour le déploiement du pool pilote
-TOCTitle: Configuration des enregistrements DNS pour le déploiement du pool pilote
-ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688072(v=OCS.15)
-ms:contentKeyID: 49891367
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration des enregistrements DNS pour le déploiement d’un pool pilote
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure DNS records for pilot pool deployment
+ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688072(v=OCS.15)
+ms:contentKeyID: 49733666
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0425d8adf0e09f3a0d081b1708d7e67e3f53a24
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838083"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des enregistrements DNS pour le déploiement du pool pilote
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-24_
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configuration des enregistrements DNS pour le déploiement d’un pool pilote
 
-Avant de déployer le pool pilote Lync Server 2013, vous devez mettre à jour les entrées d’hôte DNS (A) pour le pool pilote. Pour réussir cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Admins du domaine ou du groupe DnsAdmins.
+</div>
 
-**Pour configurer les enregistrements d’hôte DNS (A)**
+<div id="mainSection">
 
-1.  Sur le serveur DNS, cliquez sur **Démarrer** , sur **Outils d’administration** , puis sur **DNS** .
+<div id="mainBody">
 
-2.  Dans l’arborescence de la console de votre domaine, développez **Transférer les zones de recherche** , puis cliquez avec le bouton droit sur le domaine dans lequel Lync Server 2013 sera installé.
+<span> </span>
 
-3.  Cliquez sur **Nouvel hôte (A ou AAAA)** .
+_**Dernière modification de la rubrique:** 2012-09-24_
 
-4.  Cliquez sur **Nom** , tapez le nom d’hôte du pool (le nom de domaine est présumé à partir de la zone dans laquelle est défini l’enregistrement, il est inutile de l’entrer comme partie de l’enregistrement A).
+Avant de déployer le pool de pilotes de Lync Server 2013, vous devez mettre à jour les entrées de l’hôte DNS pour le pool de pilotes. Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Domain Admins ou membre du groupe DnsAdmins.
 
-5.  Cliquez sur **Adresse IP** , puis tapez l’adresse IP du pool de serveurs frontaux.
+**Pour configurer les enregistrements d’un hôte DNS**
 
-6.  Cliquez sur **Ajouter un hôte** , puis sur **OK** .
+1.  Sur le serveur DNS (Domain Name System), cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
 
-7.  Lorsque vous avez terminé, cliquez sur **Terminé** .
+2.  Dans l’arborescence de la console pour votre domaine, développez **zones de recherche directe**, puis cliquez avec le bouton droit sur le domaine dans lequel Lync Server 2013 sera installé.
+
+3.  Cliquez sur **nouvel hôte (A ou AAAA)**.
+
+4.  Cliquez sur **nom**, tapez le nom d’hôte de la liste (le nom de domaine est censé partir de la zone dans laquelle l’enregistrement est défini et qu’il n’est pas nécessaire d’entrer dans le cadre de l’enregistrement a).
+
+5.  Cliquez sur **adresse IP**, tapez l’adresse IP de la liste frontale.
+
+6.  Cliquez sur **Ajouter un hôte**, puis cliquez sur **OK**.
+
+7.  Lorsque vous avez terminé, cliquez sur **terminé**.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
