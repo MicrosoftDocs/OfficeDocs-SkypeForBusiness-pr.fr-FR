@@ -1,39 +1,61 @@
-﻿---
-title: Activation du routage géodépendant dans Lync Server 2013
-TOCTitle: Activation du routage géodépendant dans Lync Server 2013
-ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994014(v=OCS.15)
-ms:contentKeyID: 53095349
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: activation du routage par emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling Location-Based Routing
+ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994014(v=OCS.15)
+ms:contentKeyID: 51803920
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 170ca1af77a84b655e90d5587fcd101cccf83c8a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831272"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activation du routage géodépendant dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="enabling-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="5fcb3-102">Activation du routage par emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5fcb3-102">Enabling Location-Based Routing in Lync Server 2013</span></span>
 
-Une fois que Voix Entreprise est déployé et que les régions réseau, sites réseau et sous-réseaux sont définis, vous pouvez activer le routage géodépendant. Cette fonctionnalité doit être activée pour les éléments Voix Entreprise suivants :
+</div>
 
-  - sites réseau ;
+<div id="mainSection">
 
-  - configurations de jonction ;
+<div id="mainBody">
 
-  - stratégies de voix ;
+<span> </span>
 
-  - configuration du routage.
+<span data-ttu-id="5fcb3-103">_**Dernière modification de la rubrique:** 2013-04-26_</span><span class="sxs-lookup"><span data-stu-id="5fcb3-103">_**Topic Last Modified:** 2013-04-26_</span></span>
 
-## Activation du routage géodépendant sur les sites réseau
+<span data-ttu-id="5fcb3-104">Après le déploiement d’Enterprise Voice et des régions du réseau, des sites et des sous-réseaux sont définis, vous pouvez activer le routage selon l’emplacement.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-104">Once Enterprise Voice is deployed and network regions, sites and subnets are defined, you can enable Location-Based Routing.</span></span> <span data-ttu-id="5fcb3-105">Le routage basé sur l’emplacement doit être activé pour les éléments vocaux d’entreprise suivants:</span><span class="sxs-lookup"><span data-stu-id="5fcb3-105">Location-Based Routing must be enabled for the following Enterprise Voice elements:</span></span>
 
-Une fois que vous avez déployé Voix Entreprise et configuré les sites réseau, vous êtes prêt à configurer le routage géodépendant. Vous devez commencer par créer une stratégie de routage des communications vocales afin d’associer le site réseau aux utilisations PSTN appropriées. Lorsque vous affectez des utilisations PSTN à une stratégie de routage des communications vocales, veillez à n’utiliser que les utilisations PSTN associées aux itinéraires de communications vocales qui utilisent une passerelle PSTN locale sur le site ou une passerelle PSTN située dans une région dans laquelle les restrictions de routage géodépendant ne sont pas nécessaires. Utilisez la commande Lync ServerWindows PowerShell New-CsVoiceRoutingPolicy ou le Panneau de configuration Lync Server pour créer les stratégies de routage des communications vocales.
+  - <span data-ttu-id="5fcb3-106">Sites réseau</span><span class="sxs-lookup"><span data-stu-id="5fcb3-106">Network sites</span></span>
+
+  - <span data-ttu-id="5fcb3-107">Configurations de Trunk</span><span class="sxs-lookup"><span data-stu-id="5fcb3-107">Trunk configurations</span></span>
+
+  - <span data-ttu-id="5fcb3-108">Stratégies de voix</span><span class="sxs-lookup"><span data-stu-id="5fcb3-108">Voice policies</span></span>
+
+  - <span data-ttu-id="5fcb3-109">Configuration de routage</span><span class="sxs-lookup"><span data-stu-id="5fcb3-109">Routing configuration</span></span>
+
+<div>
+
+## <a name="enable-location-based-routing-to-network-sites"></a><span data-ttu-id="5fcb3-110">Activer le routage par emplacement vers les sites réseau</span><span class="sxs-lookup"><span data-stu-id="5fcb3-110">Enable Location-Based Routing to Network Sites</span></span>
+
+<span data-ttu-id="5fcb3-111">Après avoir déployé Enterprise Voice et configuré les sites réseau, vous pouvez configurer le routage sur site.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-111">After you have deployed Enterprise Voice, and configured network sites, you are ready to configure Location-Based Routing.</span></span> <span data-ttu-id="5fcb3-112">Tout d’abord, vous devez créer une stratégie de routage vocal pour associer le site réseau aux utilisations RTC appropriées.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-112">First, you create a voice routing policy to associate the network site with the appropriate PSTN usages.</span></span> <span data-ttu-id="5fcb3-113">Lorsque vous attribuez des utilisations RTC à une stratégie de routage téléphonique, veillez à n’utiliser que des utilisations RTC associées à des itinéraires vocaux utilisant une passerelle PSTN locale vers le site ou une passerelle RTC située dans une région où les restrictions de routage basées sur l’emplacement ne sont pas nécessaires. Utilisez la commande Windows PowerShell de Lync Server, le nouveau-CsVoiceRoutingPolicy ou le panneau de configuration de Lync Server pour créer des stratégies de routage de messagerie vocale.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-113">When assigning PSTN usages to a voice routing policy, make sure to only use PSTN usages that are associated to voice routes that use a PSTN gateway local to the site or a PSTN gateway that is located in a region where Location-Based Routing restrictions are not needed.Use the Lync Server Windows PowerShell command, New-CsVoiceRoutingPolicy, or Lync Server Control Panel to create voice routing policies.</span></span>
 
     New-CsVoiceRoutingPolicy -Identity <voice routing policy ID> -Name <voice routing policy name> -PstnUsages <usages>
 
-Pour plus d’informations, voir [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoiceRoutingPolicy).
+<span data-ttu-id="5fcb3-114">Pour plus d’informations, consultez la rubrique [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy).</span><span class="sxs-lookup"><span data-stu-id="5fcb3-114">For more information, see [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoiceRoutingPolicy).</span></span>
 
-Pour cet exemple, le tableau suivant et les commandes Windows PowerShell illustrent deux stratégies de routage des communications vocales et les utilisations PSTN associées définies dans ce scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
+<span data-ttu-id="5fcb3-115">Pour cet exemple, les commandes de tableau et Windows PowerShell suivantes montrent deux stratégies de routage de voix et leurs utilisations RTC associées définies dans ce scénario.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-115">For this example, the following table and Windows PowerShell commands illustrate two voice routing policies and their associated PSTN usages defined in this scenario.</span></span> <span data-ttu-id="5fcb3-116">Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-116">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
 
     New-CsVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Name "Delhi voice routing policy" -PstnUsages @{add="Delhi usage", "PBX Del usage", "PBX Hyd usage"}
     New-CsVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Name " Hyderabad voice routing policy" -PstnUsages @{add="Hyderabad usage", "PBX Del usage", "PBX Hyd usage"}
@@ -48,31 +70,31 @@ Pour cet exemple, le tableau suivant et les commandes Windows PowerShell illust
 <thead>
 <tr class="header">
 <th></th>
-<th>Stratégie de routage des communications vocales 1</th>
-<th>Stratégie de routage des communications vocales 2</th>
+<th><span data-ttu-id="5fcb3-117">Politique de routage de la voix 1</span><span class="sxs-lookup"><span data-stu-id="5fcb3-117">Voice routing policy 1</span></span></th>
+<th><span data-ttu-id="5fcb3-118">Politique de routage de la voix 2</span><span class="sxs-lookup"><span data-stu-id="5fcb3-118">Voice routing policy 2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ID de la stratégie de voix</p></td>
-<td><p>Delhi voice routing policy</p></td>
-<td><p>Hyderabad voice routing policy</p></td>
+<td><p><span data-ttu-id="5fcb3-119">ID de la stratégie vocale</span><span class="sxs-lookup"><span data-stu-id="5fcb3-119">Voice policy ID</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-120">Politique de routage vocal de Delhi</span><span class="sxs-lookup"><span data-stu-id="5fcb3-120">Delhi voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-121">Politique de routage vocale Hyderabad</span><span class="sxs-lookup"><span data-stu-id="5fcb3-121">Hyderabad voice routing policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Utilisations PSTN</p></td>
-<td><p>Delhi usage, PBX Del usage, PBX Hyd usage</p></td>
-<td><p>Hyderabad usage, PBX Hyd usage, PBX Del usage</p></td>
+<td><p><span data-ttu-id="5fcb3-122">Usages RTC</span><span class="sxs-lookup"><span data-stu-id="5fcb3-122">PSTN usages</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-123">Utilisation de Delhi, utilisation de PBX del, utilisation du PBX HYD</span><span class="sxs-lookup"><span data-stu-id="5fcb3-123">Delhi usage, PBX Del usage, PBX Hyd usage</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-124">Utilisation de Hyderabad, utilisation de PBX HYD, utilisation de PBX del</span><span class="sxs-lookup"><span data-stu-id="5fcb3-124">Hyderabad usage, PBX Hyd usage, PBX Del usage</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-Vous devez ensuite configurer le routage géodépendant pour les sites réseau applicables et associer vos stratégies de routage des communications vocales à ceux-ci. Utilisez la commande Lync ServerWindows PowerShell New-CsNetworkSite pour activer le routage géodépendant et associer les stratégies de routage des communications vocales à vos sites réseau devant appliquer les restrictions de routage.
+<span data-ttu-id="5fcb3-125">Ensuite, configurez le routage selon l’emplacement pour les sites réseau concernés et associez-leur des stratégies de routage de votre voix.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-125">Next, configure Location-Based Routing for the applicable network sites and associate your voice routing policies to them.</span></span> <span data-ttu-id="5fcb3-126">Utilisez la commande Windows PowerShell de Lync Server, New-CsNetworkSite, pour activer le routage par emplacement et associer des stratégies de routage de messagerie à vos sites réseau qui doivent appliquer des restrictions de routage.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-126">Use the Lync Server Windows PowerShell command, New-CsNetworkSite, to enable Location-Based Routing and associate voice routing policies to your network sites that must enforce routing restrictions.</span></span>
 
     Set-CsNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -VoiceRoutingPolicy <voice routing policy ID>
 
-Dans cet exemple, le tableau suivant illustre le routage géodépendant pour deux sites réseau (Delhi et Hyderabad) définis dans ce scénario à l’aide de Lync ServerWindows PowerShell. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
+<span data-ttu-id="5fcb3-127">Dans cet exemple, le tableau ci-dessous illustre le routage basé sur l’emplacement de deux sites réseau différents, Delhi et Hyderabad, définis dans ce scénario à l’aide de Lync Server Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-127">In this example, the following table illustrates Location-Based Routing for two different network sites, Delhi and Hyderabad, defined in this scenario using the Lync Server Windows PowerShell.</span></span> <span data-ttu-id="5fcb3-128">Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-128">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
 
     Set-CsNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "DelhiVoiceRoutingPolicy"
     Set-CsNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -VoiceRoutingPolicy "HyderabadVoiceRoutingPolicy"
@@ -87,73 +109,81 @@ Dans cet exemple, le tableau suivant illustre le routage géodépendant pour deu
 <thead>
 <tr class="header">
 <th></th>
-<th>Site 1 (Delhi)</th>
-<th>Site 2 (Hyderabad)</th>
+<th><span data-ttu-id="5fcb3-129">Site 1 (Delhi)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-129">Site 1 (Delhi)</span></span></th>
+<th><span data-ttu-id="5fcb3-130">Site 2 (Hyderabad)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-130">Site 2 (Hyderabad)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nom du site</p></td>
-<td><p>Site 1 (Delhi)</p></td>
-<td><p>Site 2 (Hyderabad)</p></td>
+<td><p><span data-ttu-id="5fcb3-131">Nom du site</span><span class="sxs-lookup"><span data-stu-id="5fcb3-131">Site Name</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-132">Site 1 (Delhi)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-132">Site 1 (Delhi)</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-133">Site 2 (Hyderabad)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-133">Site 2 (Hyderabad)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>EnableLocationBasedRouting</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p><span data-ttu-id="5fcb3-134">EnableLocationBasedRouting</span><span class="sxs-lookup"><span data-stu-id="5fcb3-134">EnableLocationBasedRouting</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-135">True</span><span class="sxs-lookup"><span data-stu-id="5fcb3-135">True</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-136">True</span><span class="sxs-lookup"><span data-stu-id="5fcb3-136">True</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Stratégie de routage des communications vocales</p></td>
-<td><p>Delhi voice routing policy</p></td>
-<td><p>Hyderabad voice routing policy</p></td>
+<td><p><span data-ttu-id="5fcb3-137">Politique de routage de la voix</span><span class="sxs-lookup"><span data-stu-id="5fcb3-137">Voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-138">Politique de routage vocal de Delhi</span><span class="sxs-lookup"><span data-stu-id="5fcb3-138">Delhi voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-139">Politique de routage vocale Hyderabad</span><span class="sxs-lookup"><span data-stu-id="5fcb3-139">Hyderabad voice routing policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Sous-réseaux</p></td>
-<td><p>Subnet 1 (Delhi)</p></td>
-<td><p>Subnet 2 (Hyderabad)</p></td>
+<td><p><span data-ttu-id="5fcb3-140">Sous-réseaux</span><span class="sxs-lookup"><span data-stu-id="5fcb3-140">Subnets</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-141">Sous-réseau 1 (Delhi)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-141">Subnet 1 (Delhi)</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-142">Sous-réseau 2 (Hyderabad)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-142">Subnet 2 (Hyderabad)</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-## Activation du routage géodépendant sur les jonctions
 
-Avant qu’une configuration de jonction ne puisse être activée pour le routage géodépendant, vous devez créer une configuration pour chaque jonction ou site réseau. Utilisez la commande Lync ServerWindows PowerShell New-CsTrunkConfiguration pour créer une configuration de jonction. Si plusieurs jonctions sont associées à un système donné (passerelle ou PBX), chaque configuration de jonction doit être modifiée pour activer les restrictions de routage géodépendant.
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-location-based-routing-to-trunks"></a><span data-ttu-id="5fcb3-143">Activez le routage par emplacement vers les Trunks</span><span class="sxs-lookup"><span data-stu-id="5fcb3-143">Enable Location-Based Routing to Trunks</span></span>
+
+<span data-ttu-id="5fcb3-144">Pour que la configuration de Trunk puisse être activée pour le routage de l’emplacement, vous devez créer une configuration de Trunk pour chaque Trunk ou chaque site réseau.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-144">Before a trunk configuration can be enabled for Location-Based Routing, you need to create a trunk configuration for each trunk or each network site.</span></span> <span data-ttu-id="5fcb3-145">Pour créer une configuration de Trunk, utilisez la commande Windows PowerShell de Lync Server, New-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-145">Use the Lync Server Windows PowerShell command, New-CsTrunkConfiguration, to create a trunk configuration.</span></span> <span data-ttu-id="5fcb3-146">Si plusieurs Trunks sont associées à un système donné (c.-à-d. passerelle ou PBX), chaque configuration de Trunk doit être modifiée pour permettre de limiter le routage selon l’emplacement.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-146">If multiple trunks are associated with a given system (i.e. Gateway or PBX), each trunk configuration must be modified to enable Location-Based Routing restrictions.</span></span>
 
     New-CsTrunkConfiguration -Identity < trunk configuration ID>
 
-Pour plus d’informations, voir [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
+<span data-ttu-id="5fcb3-147">Pour plus d’informations, reportez-vous à [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).</span><span class="sxs-lookup"><span data-stu-id="5fcb3-147">For more information, see [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).</span></span>
 
-Pour cet exemple, les commandes Windows PowerShell suivantes illustrent la création d’une configuration pour chaque jonction dans le déploiement défini dans ce scénario.
+<span data-ttu-id="5fcb3-148">Pour cet exemple, les commandes Windows PowerShell suivantes montrent comment créer une configuration de Trunk pour chaque Trunk dans le déploiement défini dans ce scénario.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-148">For this example, the following Windows PowerShell commands illustrate creating one trunk configuration for each trunk in the deployment defined in this scenario.</span></span>
 
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 1 DEL-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 2 HYD-GW>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 3 DEL-PBX>"
     New-CsTrunkConfiguration -Identity Service:PstnGateway:"<Trunk 4 HYD-PBX>"
 
-Une fois qu’une configuration est définie pour chaque jonction, vous pouvez utiliser la commande Lync ServerWindows PowerShell Set-CsTrunkConfiguration pour activer le routage géodépendant sur vos jonctions devant appliquer les restrictions de routage. Vous devez activer le routage géodépendant sur les jonctions qui acheminent les appels vers les passerelles PSTN et associer le site réseau sur lequel la passerelle est située.
+<span data-ttu-id="5fcb3-149">Une fois qu’une configuration de Trunk est configurée par Trunk, vous pouvez utiliser la commande Windows PowerShell de Lync Server, Set-CsTrunkConfiguration, pour activer le routage par emplacement vers vos lignes de Trunk qui doivent appliquer des restrictions de routage.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-149">Once a trunk configuration is configured per trunk, you can use the Lync Server Windows PowerShell command, Set-CsTrunkConfiguration, to enable Location-Based Routing to your trunks that must enforce routing restrictions.</span></span> <span data-ttu-id="5fcb3-150">Activez le routage basé sur l’emplacement vers les Trunks qui routent les appels vers les passerelles RTC qui routent les appels vers le RTC et associez le site réseau où se trouve la passerelle.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-150">Enable Location-Based Routing to trunks that route calls to PSTN gateways that route calls to the PSTN, and associate the network site where the gateway is located.</span></span>
 
     Set-CsTrunkConfiguration -Identity <trunk configuration ID> -EnableLocationRestriction $true -NetworkSiteID <site ID>
 
-Pour plus d’informations, voir [New-CsTrunkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration).
+<span data-ttu-id="5fcb3-151">Pour plus d’informations, reportez-vous à [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).</span><span class="sxs-lookup"><span data-stu-id="5fcb3-151">For more information, see [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).</span></span>
 
-Dans cet exemple, le routage géodépendant est activé pour chaque jonction associée à des passerelles PSTN à Delhi et Hyderabad :
+<span data-ttu-id="5fcb3-152">Dans cet exemple, le routage basé sur l’emplacement est activé pour chaque Trunk associé aux passerelles RTC dans Delhi et Hyderabad:</span><span class="sxs-lookup"><span data-stu-id="5fcb3-152">In this example, Location-Based Routing is enabled for each trunk that is associated to PSTN gateways in Delhi and Hyderabad:</span></span>
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-Vous ne devez pas activer le routage géodépendant pour les jonctions n’acheminant pas d’appels vers le réseau téléphonique commuté. Vous devez tout de même associer la jonction au site réseau dans lequel se trouve le système, car les restrictions de routage géodépendant doivent être appliquées pour les appels PSTN atteignant des points de terminaison connectés via cette jonction. Pour cet exemple, le routage géodépendant n’est pas activé pour chaque jonction associée à des systèmes PBX à Delhi et Hyderabad :
+<span data-ttu-id="5fcb3-153">N’activez pas le routage par emplacement pour les lignes qui ne routent pas les appels vers le RTC; Toutefois, vous devez toujours associer le Trunk au site réseau où se trouve le système en tant que restrictions de routage basées sur l’emplacement doivent être appliquées pour les appels RTC atteignant des points de terminaison connectés par le biais de ce Trunk.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-153">Do not enable Location-Based Routing for trunks that do not route calls to the PSTN; however, you must still associate the trunk to the network site where the system is located as Location-Based Routing restrictions need to be enforced for PSTN calls reaching endpoints connected via this trunk.</span></span> <span data-ttu-id="5fcb3-154">Pour cet exemple, le routage basé sur l’emplacement n’est pas activé pour chaque Trunk associé aux systèmes PBX dans Delhi et Hyderabad:</span><span class="sxs-lookup"><span data-stu-id="5fcb3-154">For this example, Location-Based Routing is not enabled for each trunk that is associated to PBX systems in Delhi and Hyderabad:</span></span>
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
 
   
-Les points de terminaison connectés à des systèmes n’acheminant pas d’appels vers le réseau téléphonique commuté (PBX) auront des restrictions semblables à celles des points de terminaison Lync des utilisateurs pour lesquels le routage géodépendant est activé. Ces utilisateurs pourront passer et recevoir des appels via Lync quel que soit leur emplacement. Ils pourront également passer et recevoir des appels via d’autres systèmes n’acheminant pas d’appels vers le réseau téléphonique commuté (point de terminaison connecté à un autre PBX) quel que soit le site réseau auquel le système est associé. Les restrictions de routage géodépendant seront appliquées à tous les appels entrants, appels sortants, transferts d’appel et renvois d’appel impliquant des points de terminaison PSTN. Les appels ne doivent utiliser que les passerelles PSTN définies comme locales pour ces systèmes.
+<span data-ttu-id="5fcb3-155">Les points de terminaison qui sont connectés à des systèmes qui ne routent pas les appels vers le RTC (par exemple, un PBX) présentent des restrictions similaires aux points de terminaison Lync pour le routage de l’emplacement.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-155">Endpoints that are connected to systems that do not route calls to the PSTN (i.e. a PBX) will have similar restrictions as Lync endpoints of users enabled for Location-Based Routing.</span></span> <span data-ttu-id="5fcb3-156">Cela signifie que ces utilisateurs seront en mesure de passer et de recevoir des appels vers et à partir de l’utilisateur Lync indépendamment de l’emplacement de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-156">This means that these users will be able to place and receive calls to and from Lync user regardless of the user’s location.</span></span> <span data-ttu-id="5fcb3-157">Ils seront également en mesure de passer des appels de réception vers et à partir d’autres systèmes qui ne routent pas les appels vers le réseau PSTN (par exemple, un point de terminaison connecté à un autre système PBX), quel que soit le site du réseau auquel le système est associé.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-157">They will also be able to place an receive calls to and from other systems that do not route calls to the PSTN network (i.e. an endpoint connected to a different PBX) regardless of the network site to which the system is associated.</span></span> <span data-ttu-id="5fcb3-158">Tous les appels entrants, les appels sortants, les transferts d’appel et le transfert d’appel impliquant des points de terminaison RTC sont soumis à des conditions de routage basées sur l’emplacement.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-158">All inbound calls, outbound calls, call transfers and call forwarding involving PSTN endpoints will be subject to Location-Based Routing enforcements.</span></span> <span data-ttu-id="5fcb3-159">Ces appels doivent uniquement utiliser des passerelles RTC définies comme locales pour ces systèmes.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-159">Such calls must use only PSTN gateways that are defined as local to such systems.</span></span>
 
-Le tableau suivant illustre la configuration de quatre jonctions dans deux sites réseau : deux connectés aux passerelles PSTN et deux connectés aux systèmes PBX.
+<span data-ttu-id="5fcb3-160">Le tableau suivant illustre la configuration de Trunk de quatre Trunks dans deux sites réseau différents: deux connectés à des passerelles RTC et deux connectés à des systèmes PBX.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-160">The following table illustrates the trunk configuration of four trunks in two different network sites: two connected to PSTN gateways and two connected to PBX systems.</span></span>
 
 
 <table>
@@ -164,46 +194,54 @@ Le tableau suivant illustre la configuration de quatre jonctions dans deux sites
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom</th>
-<th>EnableLocationRestriction</th>
-<th>NetworkSiteID</th>
+<th><span data-ttu-id="5fcb3-161">Nom</span><span class="sxs-lookup"><span data-stu-id="5fcb3-161">Name</span></span></th>
+<th><span data-ttu-id="5fcb3-162">EnableLocationRestriction</span><span class="sxs-lookup"><span data-stu-id="5fcb3-162">EnableLocationRestriction</span></span></th>
+<th><span data-ttu-id="5fcb3-163">NetworkSiteID</span><span class="sxs-lookup"><span data-stu-id="5fcb3-163">NetworkSiteID</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PstnGateway:Trunk 1 DEL-GW</p></td>
-<td><p>True</p></td>
-<td><p>Site 1 (Delhi)</p></td>
+<td><p><span data-ttu-id="5fcb3-164">PstnGateway: Trunk 1 DEL-GW</span><span class="sxs-lookup"><span data-stu-id="5fcb3-164">PstnGateway:Trunk 1 DEL-GW</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-165">True</span><span class="sxs-lookup"><span data-stu-id="5fcb3-165">True</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-166">Site 1 (Delhi)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-166">Site 1 (Delhi)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway:Trunk 2 HYD-GW</p></td>
-<td><p>True</p></td>
-<td><p>Site 2 (Hyderabad)</p></td>
+<td><p><span data-ttu-id="5fcb3-167">PstnGateway: Trunk 2 HYD-GW</span><span class="sxs-lookup"><span data-stu-id="5fcb3-167">PstnGateway:Trunk 2 HYD-GW</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-168">True</span><span class="sxs-lookup"><span data-stu-id="5fcb3-168">True</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-169">Site 2 (Hyderabad)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-169">Site 2 (Hyderabad)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PstnGateway:Trunk 3 DEL-PBX</p></td>
-<td><p>False</p></td>
-<td><p>Site 1 (Delhi)</p></td>
+<td><p><span data-ttu-id="5fcb3-170">PstnGateway: Trunk 3 DEL-PBX</span><span class="sxs-lookup"><span data-stu-id="5fcb3-170">PstnGateway:Trunk 3 DEL-PBX</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-171">False</span><span class="sxs-lookup"><span data-stu-id="5fcb3-171">False</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-172">Site 1 (Delhi)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-172">Site 1 (Delhi)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway:Trunk 4 HYD-PBX</p></td>
-<td><p>False</p></td>
-<td><p>Site 2 (Hyderabad)</p></td>
+<td><p><span data-ttu-id="5fcb3-173">PstnGateway: Trunk 4 HYD-PBX</span><span class="sxs-lookup"><span data-stu-id="5fcb3-173">PstnGateway:Trunk 4 HYD-PBX</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-174">False</span><span class="sxs-lookup"><span data-stu-id="5fcb3-174">False</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-175">Site 2 (Hyderabad)</span><span class="sxs-lookup"><span data-stu-id="5fcb3-175">Site 2 (Hyderabad)</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-## Activation du routage géodépendant sur les stratégies de routage des communications vocales
 
-Pour activer le routage géodépendant pour des utilisateurs spécifiques, vous devez configurer la stratégie de voix de ceux-ci afin d’empêcher le contournement des frais de réseau téléphonique commuté. Utilisez la commande Lync ServerWindows PowerShell New-CsVoicePolicy pour créer une stratégie de voix ou Set-CsVoicePolicy, si vous utilisez une stratégie existante, pour activer le routage géodépendant en empêchant le contournement des frais de réseau téléphonique commuté.
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-location-based-routing-to-voice-policies"></a><span data-ttu-id="5fcb3-176">Activer le routage par emplacement vers les stratégies vocales</span><span class="sxs-lookup"><span data-stu-id="5fcb3-176">Enable Location-Based Routing to Voice Policies</span></span>
+
+<span data-ttu-id="5fcb3-177">Pour appliquer le routage basé sur l’emplacement à des utilisateurs spécifiques, configurez la politique vocale de ces utilisateurs afin d’éviter tout contournement de la fonction d’appel RTC.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-177">To enforce Location-Based Routing to specific users, configure those users’ voice policy to prevent PSTN toll bypass.</span></span> <span data-ttu-id="5fcb3-178">Utiliser la commande Lync Server Windows PowerShell, New-CsVoicePolicy, pour créer une nouvelle stratégie vocale ou Set-CsVoicePolicy, si vous utilisez une stratégie existante, pour activer le routage sur site en prévenant le contournement du numéro RTC.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-178">Use the Lync Server Windows PowerShell command, New-CsVoicePolicy, to create a new voice policy or Set-CsVoicePolicy, if using an existing policy, to enable Location-Based Routing by preventing PSTN toll bypass.</span></span>
 
     Set-CsVoicePolicy -Identity <voice policy ID> -PreventPSTNTollBypass <$true|$false>
 
-Pour plus d’informations, voir [New-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsVoicePolicy).
+<span data-ttu-id="5fcb3-179">Pour plus d’informations, reportez-vous à [New-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy).</span><span class="sxs-lookup"><span data-stu-id="5fcb3-179">For more information, see [New-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsVoicePolicy).</span></span>
 
-Pour cet exemple, le tableau suivant et les commandes Windows PowerShell illustrent l’activation de la prévention du contournement des frais de réseau téléphonique commuté sur les stratégies de voix de Delhi et d’Hyderabad définies dans le scénario. Seuls les paramètres spécifiques au routage géodépendant sont inclus dans le tableau à des fins d’illustration.
+<span data-ttu-id="5fcb3-180">Pour cet exemple, les commandes de tableau et de Windows PowerShell suivantes illustrent l’activation de la fonctionnalité de prévention des appels payants RTC aux politiques vocales Delhi et Hyderabad définies dans ce scénario.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-180">For this example, the following table and Windows PowerShell commands illustrate enabling the prevention of PSTN toll bypass to the Delhi and Hyderabad voice policies defined in this scenario.</span></span> <span data-ttu-id="5fcb3-181">Seuls les paramètres spécifiques au routage de géolocalisation sont inclus dans la table à des fins d’illustration.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-181">Only settings that are specific to Location-Based Routing are included in the table for illustration purposes.</span></span>
 
     Set-CsVoicePolicy -Identity "Delhi voice policy" -PreventPSTNTollBypass $true
     Set-CsVoicePolicy -Identity "Hyderabad voice policy" -PreventPSTNTollBypass $true
@@ -218,46 +256,81 @@ Pour cet exemple, le tableau suivant et les commandes Windows PowerShell illust
 <thead>
 <tr class="header">
 <th></th>
-<th>Stratégie de voix 1</th>
-<th>Stratégie de voix 2</th>
+<th><span data-ttu-id="5fcb3-182">Politique vocale 1</span><span class="sxs-lookup"><span data-stu-id="5fcb3-182">Voice policy 1</span></span></th>
+<th><span data-ttu-id="5fcb3-183">Politique vocale 2</span><span class="sxs-lookup"><span data-stu-id="5fcb3-183">Voice policy 2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ID de la stratégie de voix</p></td>
-<td><p>Delhi voice policy</p></td>
-<td><p>Hyderabad voice policy</p></td>
+<td><p><span data-ttu-id="5fcb3-184">ID de la stratégie vocale</span><span class="sxs-lookup"><span data-stu-id="5fcb3-184">Voice policy ID</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-185">Politique vocale de Delhi</span><span class="sxs-lookup"><span data-stu-id="5fcb3-185">Delhi voice policy</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-186">Politique vocale Hyderabad</span><span class="sxs-lookup"><span data-stu-id="5fcb3-186">Hyderabad voice policy</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Utilisations PSTN</p></td>
-<td><p>Delhi usage, PBX Del usage, PBX Hyd usage</p></td>
-<td><p>Hyderabad usage, PBX Hyd usage, PBX Del usage</p></td>
+<td><p><span data-ttu-id="5fcb3-187">Usages RTC</span><span class="sxs-lookup"><span data-stu-id="5fcb3-187">PSTN usages</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-188">Utilisation de Delhi, utilisation de PBX del, utilisation du PBX HYD</span><span class="sxs-lookup"><span data-stu-id="5fcb3-188">Delhi usage, PBX Del usage, PBX Hyd usage</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-189">Utilisation de Hyderabad, utilisation de PBX HYD, utilisation de PBX del</span><span class="sxs-lookup"><span data-stu-id="5fcb3-189">Hyderabad usage, PBX Hyd usage, PBX Del usage</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PreventPSTNTollBypass</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p><span data-ttu-id="5fcb3-190">PreventPSTNTollBypass</span><span class="sxs-lookup"><span data-stu-id="5fcb3-190">PreventPSTNTollBypass</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-191">True</span><span class="sxs-lookup"><span data-stu-id="5fcb3-191">True</span></span></p></td>
+<td><p><span data-ttu-id="5fcb3-192">True</span><span class="sxs-lookup"><span data-stu-id="5fcb3-192">True</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-## Activation du routage géodépendant dans la configuration du routage
 
-Enfin, activez globalement le routage géodépendant sur votre configuration du routage. Utilisez la commande Lync ServerWindows PowerShell New-CsRoutingConfiguration pour activer le routage géodépendant.
+</div>
+
+</div>
+
+<div>
+
+## <a name="enable-location-based-routing-in-the-routing-configuration"></a><span data-ttu-id="5fcb3-193">Activer le routage en fonction de l’emplacement dans la configuration de routage</span><span class="sxs-lookup"><span data-stu-id="5fcb3-193">Enable Location-Based Routing in the routing configuration</span></span>
+
+<span data-ttu-id="5fcb3-194">Enfin, activez globalement le routage par emplacement vers votre configuration de routage.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-194">Finally, globally enable Location-Based Routing to your routing configuration.</span></span> <span data-ttu-id="5fcb3-195">Pour activer le routage par emplacement, utilisez la commande Windows PowerShell de Lync Server, New-CsRoutingConfiguration.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-195">Use the Lync Server Windows PowerShell command, New-CsRoutingConfiguration, to enable Location-Based Routing.</span></span>
 
     Set-CsRoutingConfiguration -EnableLocationBasedRouting $true
 
-Pour plus d’informations, voir [Set-CsRoutingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsRoutingConfiguration).
+<span data-ttu-id="5fcb3-196">Pour plus d’informations, consultez la rubrique [Set-CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration).</span><span class="sxs-lookup"><span data-stu-id="5fcb3-196">For more information, see [Set-CsRoutingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsRoutingConfiguration).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Si le routage géodépendant doit être activé via une configuration globale, l’ensemble de règles devant être appliqué ne le sera que pour les sites, utilisateurs et jonctions pour lesquels il a été configuré, comme spécifié dans cette documentation.
+> <span data-ttu-id="5fcb3-197">Lorsque le routage local doit être activé par le biais d’une configuration globale, l’ensemble de règles à appliquer ne sera appliqué qu’aux sites, utilisateurs et Trunks pour lesquels il a été configuré comme spécifié dans cette documentation.</span><span class="sxs-lookup"><span data-stu-id="5fcb3-197">while Location-Based Routing must be enabled via a global configuration, the set of rules to be applied will only be enforced for the sites, users and trunks for which it has been configured as specified in this documentation.</span></span>
 
 
-## Voir aussi
 
-#### Autres ressources
+</div>
 
-[Configuration du routage géodépendant dans Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)
+<div>
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="5fcb3-198">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5fcb3-198">See Also</span></span>
+
+
+[<span data-ttu-id="5fcb3-199">Configuration du routage géodépendant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5fcb3-199">Configuring Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-configuring-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

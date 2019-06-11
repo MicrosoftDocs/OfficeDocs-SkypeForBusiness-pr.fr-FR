@@ -1,33 +1,59 @@
-﻿---
-title: "Lync Server 2013 : Pro. de dépl. pour l’int. de la mess. Un. Exchange hébergée"
-TOCTitle: Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server
-ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398968(v=OCS.15)
-ms:contentKeyID: 49299036
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment process for integrating hosted Exchange UM with Lync Server
+ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398968(v=OCS.15)
+ms:contentKeyID: 48185586
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6269efd85261c702c77568fac67c96034ba01a71
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831469"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a><span data-ttu-id="632af-102">Processus de déploiement pour l’intégration de la messagerie unifiée Exchange hébergée à Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="632af-102">Deployment process for integrating hosted Exchange UM with Lync Server 2013</span></span>
 
-Pour planifier efficacement l’intégration de Lync Server 2013 à la messagerie unifiée Exchange hébergée, vous devez tenir compte des points suivants :
+</div>
 
-  - Conditions préalables à l’intégration de Lync Server 2013 à la messagerie unifiée Exchange hébergée
+<div id="mainSection">
 
-  - Étapes requises au cours du processus d’intégration
+<div id="mainBody">
 
-## Conditions préalables au déploiement pour l’intégration à la messagerie unifiée Exchange hébergée
+<span> </span>
 
-Avant d’entamer le processus d’intégration, vous devez avoir déployé Lync Server 2013 (un pool frontal ou un serveur Standard Edition Server au moins), un serveur Edge et les clients Lync 2013 ou Lync 2010.
+<span data-ttu-id="632af-103">_**Dernière modification de la rubrique:** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="632af-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-## Processus d’intégration
+<span data-ttu-id="632af-104">La planification efficace de l’intégration de Lync Server 2013 à la messagerie unifiée Exchange hébergée (MU) nécessite que vous prenez en compte les éléments suivants:</span><span class="sxs-lookup"><span data-stu-id="632af-104">Effective planning for integrating Lync Server 2013 with hosted Exchange Unified Messaging (UM) requires that you take into account the following:</span></span>
 
-Le tableau ci-dessous présente une vue d’ensemble du processus d’intégration de la messagerie unifiée Exchange hébergée. Pour plus d’informations sur les étapes de déploiement, reportez-vous à [Mise à disposition de la messagerie vocale Lync Server 2013 aux utilisateurs sur la messagerie unifiée Exchange hébergée](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) dans la documentation de déploiement.
+  - <span data-ttu-id="632af-105">Conditions préalables à l’intégration de Lync Server 2013 avec la messagerie unifiée Exchange hébergée</span><span class="sxs-lookup"><span data-stu-id="632af-105">Prerequisites for integrating Lync Server 2013 with hosted Exchange UM</span></span>
+
+  - <span data-ttu-id="632af-106">Étapes requises lors du processus d’intégration</span><span class="sxs-lookup"><span data-stu-id="632af-106">Steps required during the integration process</span></span>
+
+<div>
+
+## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a><span data-ttu-id="632af-107">Prérequis de déploiement pour l’intégration à la messagerie unifiée Exchange hébergée</span><span class="sxs-lookup"><span data-stu-id="632af-107">Deployment Prerequisites for Integrating with Hosted Exchange UM</span></span>
+
+<span data-ttu-id="632af-108">Avant de pouvoir commencer le processus d’intégration, vous devez déjà avoir déployé Lync Server 2013 (au minimum, un pool frontal ou un serveur Standard Edition Server), un serveur Edge et des clients Lync 2013 ou Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="632af-108">Before you can begin the integration process, you must already have deployed Lync Server 2013 (at a minimum, a Front End pool or a Standard Edition server), an Edge Server, and Lync 2013 or Lync 2010 clients.</span></span>
+
+</div>
+
+<div>
+
+## <a name="integration-process"></a><span data-ttu-id="632af-109">Processus d’intégration</span><span class="sxs-lookup"><span data-stu-id="632af-109">Integration Process</span></span>
+
+<span data-ttu-id="632af-110">Le tableau suivant fournit une vue d’ensemble du processus d’intégration d’Exchange UM hébergé.</span><span class="sxs-lookup"><span data-stu-id="632af-110">The following table provides an overview of the hosted Exchange UM integration process.</span></span> <span data-ttu-id="632af-111">Pour plus d’informations sur les étapes de déploiement, voir [fourniture de messages vocaux aux utilisateurs Lync Server 2013 sur la messagerie unifiée Exchange hébergée](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="632af-111">For details about deployment steps, see [Providing Lync Server 2013 users voice mail on hosted Exchange UM](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in the Deployment documentation.</span></span>
 
 
 <table>
@@ -39,54 +65,69 @@ Le tableau ci-dessous présente une vue d’ensemble du processus d’intégrati
 </colgroup>
 <thead>
 <tr class="header">
-<th>Phase</th>
-<th>Étapes</th>
-<th>Droits et autorisations</th>
-<th>Documentation de déploiement</th>
+<th><span data-ttu-id="632af-112">Phase</span><span class="sxs-lookup"><span data-stu-id="632af-112">Phase</span></span></th>
+<th><span data-ttu-id="632af-113">Étapes</span><span class="sxs-lookup"><span data-stu-id="632af-113">Steps</span></span></th>
+<th><span data-ttu-id="632af-114">Droits et autorisations</span><span class="sxs-lookup"><span data-stu-id="632af-114">Rights and permissions</span></span></th>
+<th><span data-ttu-id="632af-115">Documentation de déploiement</span><span class="sxs-lookup"><span data-stu-id="632af-115">Deployment documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Configurez le serveur Edge.</p></td>
+<td><p><span data-ttu-id="632af-116">Configurer le serveur de périphérie</span><span class="sxs-lookup"><span data-stu-id="632af-116">Configure the Edge Server.</span></span></p></td>
 <td><ol>
-<li><p>Configurez le serveur Edge pour la fédération.</p></li>
-<li><p>Répliquez manuellement les données sur le serveur Edge.</p></li>
-<li><p>Configurez le fournisseur d’hébergement sur le serveur Edge.</p></li>
+<li><p><span data-ttu-id="632af-117">Configurez le serveur Edge pour la fédération.</span><span class="sxs-lookup"><span data-stu-id="632af-117">Configure the Edge Server for federation.</span></span></p></li>
+<li><p><span data-ttu-id="632af-118">Répliquer manuellement les données sur le serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="632af-118">Manually replicate data to the Edge Server.</span></span></p></li>
+<li><p><span data-ttu-id="632af-119">Configurez le fournisseur d’hébergement sur le serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="632af-119">Configure the hosting provider on the Edge Server.</span></span></p></li>
 </ol></td>
-<td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configuration du serveur Edge pour l’intégration à la messagerie unifiée Exchange hébergée</a></p></td>
+<td><p><span data-ttu-id="632af-120">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="632af-120">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="632af-121"><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configuration du serveur Edge pour l’intégration à la messagerie unifiée Exchange hébergée</a></span><span class="sxs-lookup"><span data-stu-id="632af-121"><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Configure the Edge Server for integration with hosted Exchange UM</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurez la stratégie de messagerie vocale hébergée.</p></td>
+<td><p><span data-ttu-id="632af-122">Configurer une stratégie de messagerie vocale hébergée.</span><span class="sxs-lookup"><span data-stu-id="632af-122">Configure hosted voice mail policy.</span></span></p></td>
 <td><ol>
-<li><p>Modifiez la stratégie globale de messagerie vocale hébergée ou créez une stratégie de messagerie vocale hébergée avec une étendue de site ou par utilisateur.</p></li>
-<li><p>Lorsque les stratégies sont définies avec une étendue par utilisateur, attribuez-les à des utilisateurs ou à des groupes.</p></li>
+<li><p><span data-ttu-id="632af-123">Modifiez la stratégie globale de messagerie vocale hébergée ou créez une nouvelle stratégie de messagerie vocale hébergée avec un site ou une étendue par utilisateur.</span><span class="sxs-lookup"><span data-stu-id="632af-123">Either modify the global hosted voice mail policy or create a new hosted voice mail policy with Site or Per-User scope.</span></span></p></li>
+<li><p><span data-ttu-id="632af-124">Pour les stratégies dont l’étendue est définie par l’utilisateur, affectez la stratégie à des utilisateurs ou des groupes.</span><span class="sxs-lookup"><span data-stu-id="632af-124">For policies with Per-User scope, assign the policy to users or groups.</span></span></p></li>
 </ol></td>
-<td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Gestion des stratégies de messagerie vocale hébergée dans Lync Server 2013</a></p></td>
+<td><p><span data-ttu-id="632af-125">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="632af-125">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="632af-126"><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Gestion des stratégies de messagerie vocale hébergée dans Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="632af-126"><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Manage hosted voice mail policies in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Activez les utilisateurs pour la messagerie vocale hébergée.</p></td>
+<td><p><span data-ttu-id="632af-127">Autorisez les utilisateurs à utiliser la messagerie vocale hébergée.</span><span class="sxs-lookup"><span data-stu-id="632af-127">Enable users for hosted voice mail.</span></span></p></td>
 <td><ul>
-<li><p>Configurez les comptes des utilisateurs qui possèdent des boîtes aux lettres sur un service Exchange hébergé.</p></li>
+<li><p><span data-ttu-id="632af-128">Configurez des comptes d’utilisateurs pour les utilisateurs dont la boîte aux lettres se trouve sur un service Exchange hébergé.</span><span class="sxs-lookup"><span data-stu-id="632af-128">Configure user accounts for users whose mailboxes are on a hosted Exchange service.</span></span></p></li>
 </ul></td>
-<td><p>RTCUniversalUserAdmins</p></td>
-<td><p><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Activation des utilisateurs pour la messagerie vocale hébergée dans Lync Server 2013</a></p></td>
+<td><p><span data-ttu-id="632af-129">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="632af-129">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="632af-130"><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Activation des utilisateurs pour la messagerie vocale hébergée dans Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="632af-130"><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Enable users for hosted voice mail in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurez les objets contact hébergés.</p></td>
+<td><p><span data-ttu-id="632af-131">Configurer les objets de contact hébergés.</span><span class="sxs-lookup"><span data-stu-id="632af-131">Configure hosted contact objects.</span></span></p></td>
 <td><ol>
-<li><p>Créez des objets contact de standard automatique pour la messagerie unifiée Exchange hébergée.</p></li>
-<li><p>Créez des objets contact d’accès abonné pour la messagerie unifiée Exchange hébergée.</p></li>
+<li><p><span data-ttu-id="632af-132">Créer des objets de contact de standard automatique pour la messagerie unifiée Exchange hébergée.</span><span class="sxs-lookup"><span data-stu-id="632af-132">Create auto-attendant Contact objects for hosted Exchange UM.</span></span></p></li>
+<li><p><span data-ttu-id="632af-133">Créer des objets de contact d’accès d’abonné pour la messagerie unifiée Exchange hébergée.</span><span class="sxs-lookup"><span data-stu-id="632af-133">Create Subscriber Access contact objects for hosted Exchange UM.</span></span></p></li>
 </ol></td>
-<td><p>RTCUniversalUserAdmins</p>
+<td><p><span data-ttu-id="632af-134">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="632af-134">RTCUniversalUserAdmins</span></span></p>
+<div>
 
 > [!NOTE]  
-> Pour créer, modifier ou supprimer des objets contact, l’utilisateur qui exécute l’applet de commande New-CsExUmContact, Set-CsExUmContact ou Remove-CsExUmContact doit posséder l’autorisation appropriée sur l’unité d’organisation Active Directory où sont stockés les nouveaux objets contact. Cette autorisation peut être accordée en exécutant l’applet de commande Grant-CsOUPermission. Pour plus d’informations, reportez-vous à la documentation relative à Lync Server Management Shell.
+> <span data-ttu-id="632af-135">Pour créer, modifier ou supprimer des objets de contact, l’utilisateur exécutant l’applet de commande New-CsExUmContact, Set-CsExUmContact ou Remove-CsExUmContact doit disposer de l’autorisation appropriée pour l’unité d’organisation Active Directory où les nouveaux objets de contact sont stockés.</span><span class="sxs-lookup"><span data-stu-id="632af-135">To create, modify or remove contact objects, the user who runs the New-CsExUmContact, Set-CsExUmContact or Remove-CsExUmContact cmdlet must have the correct permission to the Active Directory organizational unit where the new contact objects are stored.</span></span> <span data-ttu-id="632af-136">Cette autorisation peut être accordée en exécutant l’applet de commande Grant-CsOUPermission.</span><span class="sxs-lookup"><span data-stu-id="632af-136">This permission can be granted by running the Grant-CsOUPermission cmdlet.</span></span> <span data-ttu-id="632af-137">Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="632af-137">For details, see the Lync Server Management Shell documentation.</span></span>
 
-</td>
-<td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Création des objets de contact pour la messagerie unifiée Exchange hébergée dans Lync Server 2013</a></p></td>
+
+</div></td>
+<td><p><span data-ttu-id="632af-138"><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Création des objets de contact pour la messagerie unifiée Exchange hébergée dans Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="632af-138"><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Create contact objects for hosted Exchange UM in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,31 +1,65 @@
-﻿---
-title: 'Lync Server 2013 : Installation du logiciel Lync Server 2013 requis'
-TOCTitle: Installation du logiciel Lync Server 2013 requis
-ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204856(v=OCS.15)
-ms:contentKeyID: 49297116
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Installation du logiciel Lync Server 2013 requis'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Lync Server 2013 prerequisite software
+ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204856(v=OCS.15)
+ms:contentKeyID: 48184028
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f6c5a88edef1d218c26b0ed46a0352f832b83f7e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831003"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installation du logiciel Lync Server 2013 requis
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="install-lync-server-2013-prerequisite-software"></a><span data-ttu-id="f0fb5-102">Installation du logiciel Lync Server 2013 requis</span><span class="sxs-lookup"><span data-stu-id="f0fb5-102">Install Lync Server 2013 prerequisite software</span></span>
 
-Les logiciels prérequis pour le serveur de conversations permanentes sont identiques aux logiciels prérequis pour les serveurs frontauxLync Server 2013 et le serveur Standard EditionLync Server 2013 sur lesquels les fonctionnalités du serveur de conversations permanentes sont installées.
+</div>
 
-Les logiciels prérequis pour le magasin de fichiers du serveur de conversations permanentes sont identiques à ceux de Lync Server 2013.
+<div id="mainSection">
 
-Les logiciels prérequis pour les bases de données SQL Server relatives au contenu et à la conformité du serveur de conversations permanentes sont identiques à ceux de Lync Server 2013.
+<div id="mainBody">
 
-Pour plus d’informations sur l’ensemble des exigences logicielles relatives aux serveurs Lync Server 2013, reportez-vous à [Autres prises en charge et configurations de serveur requises dans Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) dans la documentation de prise en charge.
+<span> </span>
 
-## Voir aussi
+<span data-ttu-id="f0fb5-103">_**Dernière modification de la rubrique:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="f0fb5-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-#### Concepts
+<span data-ttu-id="f0fb5-104">Le logiciel requis pour le serveur de chat permanent est le même que le logiciel requis pour les serveurs frontaux Lync Server 2013 et le serveur Lync Server 2013 Standard Edition sur lequel sont installés les fonctionnalités du serveur de chat permanent.</span><span class="sxs-lookup"><span data-stu-id="f0fb5-104">The prerequisite software for Persistent Chat Server is the same as the prerequisite software for the Lync Server 2013 Front End Servers and the Lync Server 2013 Standard Edition server on which Persistent Chat Server features are installed.</span></span>
 
-[Autres prises en charge et configurations de serveur requises dans Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)
+<span data-ttu-id="f0fb5-105">Le logiciel requis pour le stockage des fichiers du serveur de conversation permanent est le même que celui de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f0fb5-105">The prerequisite software required for the Persistent Chat Server file store is the same as that for Lync Server 2013.</span></span>
+
+<span data-ttu-id="f0fb5-106">Les logiciels requis pour les bases de données SQL Server pour le contenu du serveur de chat permanent et la conformité sont également les mêmes que pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f0fb5-106">The prerequisite software for the SQL Server databases for Persistent Chat Server content and compliance is also the same as that for Lync Server 2013.</span></span>
+
+<span data-ttu-id="f0fb5-107">Pour plus d’informations sur la configuration logicielle requise pour les serveurs Lync Server 2013, voir [prise en charge et configuration requise supplémentaires dans Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) dans la documentation de support.</span><span class="sxs-lookup"><span data-stu-id="f0fb5-107">For details about all the software requirements for Lync Server 2013 servers, see [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in the Supportability documentation.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f0fb5-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f0fb5-108">See Also</span></span>
+
+
+[<span data-ttu-id="f0fb5-109">Autres prises en charge et configurations de serveur requises dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0fb5-109">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

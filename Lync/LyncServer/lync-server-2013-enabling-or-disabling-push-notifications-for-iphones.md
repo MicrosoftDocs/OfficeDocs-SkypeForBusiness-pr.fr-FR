@@ -1,71 +1,125 @@
-﻿---
-title: Activation ou désactivation des notifications push pour les iPhone
-TOCTitle: Activation ou désactivation des notifications push pour les iPhone
-ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688122(v=OCS.15)
-ms:contentKeyID: 49891429
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: activation ou désactivation des notifications de transmission pour les iPhone'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling push notifications for iPhones
+ms:assetid: 8bbf531a-807f-4a8f-814a-94bfed8f97ef
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688122(v=OCS.15)
+ms:contentKeyID: 49733719
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ccd4e4c65c539f5a6af36d1012c32059b3e291a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831240"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Activation ou désactivation des notifications push pour les iPhone
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a><span data-ttu-id="d24e8-102">Activation ou désactivation des notifications de transmission pour les iPhone dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d24e8-102">Enabling or disabling push notifications for iPhones in Lync Server 2013</span></span>
 
-Les notifications Push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un iPhone même quand l’application mobile est inactive. Les notifications Push avertissent un utilisateur d’événements, tels que des invitations de messagerie instantanée nouvelle ou manquée et un message vocal. Vous pouvez activer ou désactiver les notifications Push pour un iPhone en utilisant le Panneau de configuration Lync Server 2013 ou Lync Server 2013 Management Shell.
+</div>
 
-## Pour activer les notifications Push pour iPhone à partir du Panneau de configuration Lync Server
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur le bouton de navigation **Configuration des notifications push**.
+<span data-ttu-id="d24e8-103">_**Dernière modification de la rubrique:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="d24e8-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  Dans la page **Configuration des notifications push**, cliquez sur le site à modifier, sur le menu **Edition**, puis sur **Afficher les détails**.
+<span data-ttu-id="d24e8-104">Les notifications de transmission sous forme de badges, d’icônes ou d’alertes peuvent être envoyées à un iPhone même lorsque l’application mobile n’est pas active.</span><span class="sxs-lookup"><span data-stu-id="d24e8-104">Push notifications, in the form of badges, icons, or alerts, can be sent to an iPhone even when the mobile application is inactive.</span></span> <span data-ttu-id="d24e8-105">Les notifications de transmission avertissent un utilisateur d’événements tels qu’une invitation à la messagerie instantanée, une invitation à une nouvelle ou une messagerie vocale.</span><span class="sxs-lookup"><span data-stu-id="d24e8-105">Push notifications notify a user of events such as a new or missed IM invitation and voice mail.</span></span> <span data-ttu-id="d24e8-106">Vous pouvez activer ou désactiver les notifications de transmission pour iPhone à l’aide de Lync Server 2013 Control Panel ou de Lync Server 2013 Management Shell.</span><span class="sxs-lookup"><span data-stu-id="d24e8-106">You can enable or disable push notifications for iPhone by using either Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
-5.  Cochez la case **Activer les notifications push Apple**.
+<div>
 
-6.  Cliquez sur **Valider**.
+## <a name="to-enable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a><span data-ttu-id="d24e8-107">Pour activer les notifications de transmission pour iPhone en utilisant le panneau de configuration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="d24e8-107">To enable push notifications for iPhone by using Lync Server Control Panel</span></span>
 
-## Pour désactiver les notifications Push pour iPhone à partir du Panneau de configuration Lync Server
+1.  <span data-ttu-id="d24e8-108">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="d24e8-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+2.  <span data-ttu-id="d24e8-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d24e8-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d24e8-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="d24e8-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+3.  <span data-ttu-id="d24e8-111">Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de notifications de **transmission** .</span><span class="sxs-lookup"><span data-stu-id="d24e8-111">In the left navigation bar, click **Clients**, and then click the **Push Notification Configuration** navigation button.</span></span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Clients**, puis sur le bouton de navigation **Configuration des notifications push**.
+4.  <span data-ttu-id="d24e8-112">Dans la page Configuration de notifications de **transmission** , cliquez sur le site que vous voulez modifier, cliquez sur le menu **modifier** , puis cliquez sur **afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="d24e8-112">On the **Push Notification Configuration** page, click the site you want to edit, click the **Edit** menu, and then click **Show details**.</span></span>
 
-4.  Dans la page **Configuration des notifications push**, cliquez sur le site à modifier, sur le menu **Edition**, puis sur **Afficher les détails**.
+5.  <span data-ttu-id="d24e8-113">Activez la case à cocher Activer les notifications de **type Apple** .</span><span class="sxs-lookup"><span data-stu-id="d24e8-113">Click the **Enable Apple push notifications** checkbox.</span></span>
 
-5.  Décochez la case **Activer les notifications push Apple**.
+6.  <span data-ttu-id="d24e8-114">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="d24e8-114">Click **Commit**.</span></span>
 
-6.  Cliquez sur **Valider**.
+</div>
 
-## Pour activer ou désactiver les notifications Push sur un iPhone en utilisant les applets de commande Windows PowerShell
+<div>
 
-Vous pouvez activer ou désactiver les notifications Push pour un iPhone Apple en utilisant l’applet de commande **Set-CsPushNotificationConfiguration**. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="to-disable-push-notifications-for-iphone-by-using-lync-server-control-panel"></a><span data-ttu-id="d24e8-115">Pour désactiver les notifications de transmission pour iPhone en utilisant le panneau de configuration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="d24e8-115">To disable push notifications for iPhone by using Lync Server Control Panel</span></span>
 
-## Pour activer les notifications Push pour un iPhone
+1.  <span data-ttu-id="d24e8-116">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="d24e8-116">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-  - Pour activer les notifications Push pour un iPhone définissez la valeur de la propriété EnableApplePushNotificationService à True ($True). Par exemple :
+2.  <span data-ttu-id="d24e8-117">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d24e8-117">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d24e8-118">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="d24e8-118">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="d24e8-119">Dans la barre de navigation gauche, cliquez sur **clients**, puis sur le bouton de navigation configuration de notifications de **transmission** .</span><span class="sxs-lookup"><span data-stu-id="d24e8-119">In the left navigation bar, click **Clients**, and then click the **Push Notification Configuration** navigation button.</span></span>
+
+4.  <span data-ttu-id="d24e8-120">Dans la page Configuration de notifications de **transmission** , cliquez sur le site que vous voulez modifier, cliquez sur le menu **modifier** , puis cliquez sur **afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="d24e8-120">On the **Push Notification Configuration** page, click the site you want to edit, click the **Edit** menu, and then click **Show details**.</span></span>
+
+5.  <span data-ttu-id="d24e8-121">Décochez la case Activer les notifications de **type Apple** .</span><span class="sxs-lookup"><span data-stu-id="d24e8-121">Clear the **Enable Apple push notifications** checkbox.</span></span>
+
+6.  <span data-ttu-id="d24e8-122">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="d24e8-122">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="d24e8-123">Activation ou désactivation des notifications de transmission pour iPhone à l’aide d’applets de cmdlet Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d24e8-123">Enabling or Disabling Push Notifications to iPhone by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="d24e8-124">Les notifications de transmission vers Apple iPhone peuvent être activées ou désactivées à l’aide de l’applet de cmdlet **Set-CsPushNotificationConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="d24e8-124">Push notifications to Apple iPhone can be enabled or disabled by using the **Set-CsPushNotificationConfiguration** cmdlet.</span></span> <span data-ttu-id="d24e8-125">Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="d24e8-125">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d24e8-126">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="d24e8-126">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-enable-push-notifications-for-iphone"></a><span data-ttu-id="d24e8-127">Pour activer les notifications de transmission pour iPhone</span><span class="sxs-lookup"><span data-stu-id="d24e8-127">To enable push notifications for iPhone</span></span>
+
+  - <span data-ttu-id="d24e8-128">Pour activer les notifications de transmission pour iPhone, définissez la valeur de la propriété EnableApplePushNotificationService sur true ($True).</span><span class="sxs-lookup"><span data-stu-id="d24e8-128">To enable push notifications for iPhone set the value of the EnableApplePushNotificationService property to True ($True).</span></span> <span data-ttu-id="d24e8-129">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="d24e8-129">For example:</span></span>
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $True
 
-## Pour désactiver les notifications Push pour un iPhone
+</div>
 
-  - Pour désactiver les notifications Push pour un iPhone définissez la valeur de la propriété EnableApplePushNotificationService à False ($False). Par exemple :
+<div>
+
+## <a name="to-disable-push-notifications-for-iphone"></a><span data-ttu-id="d24e8-130">Pour désactiver les notifications de transmission pour iPhone</span><span class="sxs-lookup"><span data-stu-id="d24e8-130">To disable push notifications for iPhone</span></span>
+
+  - <span data-ttu-id="d24e8-131">Pour désactiver les notifications de transmission pour iPhone, définissez la valeur de la propriété EnableApplePushNotificationService sur false ($False).</span><span class="sxs-lookup"><span data-stu-id="d24e8-131">To disable push notifications for iPhone set the value of the EnableApplePushNotificationService property to False ($False).</span></span> <span data-ttu-id="d24e8-132">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="d24e8-132">For example:</span></span>
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPushNotificationConfiguration).
+</div>
 
-## Voir aussi
+<span data-ttu-id="d24e8-133">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="d24e8-133">For more information, see the help topic for the [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) cmdlet.</span></span>
 
-#### Tâches
+</div>
 
-[Configuration des notifications push dans Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="d24e8-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d24e8-134">See Also</span></span>
+
+
+[<span data-ttu-id="d24e8-135">Configuration des notifications push dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d24e8-135">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

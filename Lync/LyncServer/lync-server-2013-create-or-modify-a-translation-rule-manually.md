@@ -1,63 +1,106 @@
-﻿---
-title: Créer ou modifier manuellement une règle de traduction
-TOCTitle: Créer ou modifier manuellement une règle de traduction
-ms:assetid: 049d1db3-af58-48c5-be89-52e1d068a4bd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398099(v=OCS.15)
-ms:contentKeyID: 49296112
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création ou modification manuelle d’une règle de traduction'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a translation rule manually
+ms:assetid: 049d1db3-af58-48c5-be89-52e1d068a4bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398099(v=OCS.15)
+ms:contentKeyID: 48183276
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 445b17b5a878e066ed0a77c725ae035101d57469
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831781"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Créer ou modifier manuellement une règle de traduction
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-08-06_
+# <a name="create-or-modify-a-translation-rule-manually-in-lync-server-2013"></a><span data-ttu-id="7e59a-102">Créer ou modifier une règle de traduction manuellement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59a-102">Create or modify a translation rule manually in Lync Server 2013</span></span>
 
-Effectuez cette procédure si vous voulez définir une règle de traduction en écrivant une expression régulière pour le modèle correspondant et la règle de traduction. Vous pouvez également entrer un ensemble de valeurs dans l’outil **Créer une règle de traduction** et générer automatiquement le modèle correspondant et la règle de traduction à l’aide du Panneau de configuration Lync Server . Pour plus d’informations, voir [Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).
+</div>
 
-## Pour définir une règle de traduction manuellement
+<div id="mainSection">
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir [Délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Pour commencer à définir une règle de traduction, suivez les étapes dans [Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) jusqu’à l’étape 10 ou [Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) jusqu’à l’étape 9.
+<span data-ttu-id="7e59a-103">_**Dernière modification de la rubrique:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="7e59a-103">_**Topic Last Modified:** 2012-08-06_</span></span>
 
-4.  Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
+<span data-ttu-id="7e59a-104">Suivez ces étapes si vous voulez définir une règle de traduction en écrivant une expression régulière pour le modèle et la règle de traduction correspondants.</span><span class="sxs-lookup"><span data-stu-id="7e59a-104">Follow these steps if you want to define a translation rule by writing a regular expression for the matching pattern and translation rule.</span></span> <span data-ttu-id="7e59a-105">Vous pouvez également entrer un ensemble de valeurs dans l’outil **créer une règle de traduction** et activer le panneau de configuration de Lync Server pour générer le modèle correspondant et la règle de traduction correspondants pour vous.</span><span class="sxs-lookup"><span data-stu-id="7e59a-105">Alternatively, you can enter a set of values in the **Build a Translation Rule** tool and enable Lync Server Control Panel to generate the corresponding matching pattern and translation rule for you.</span></span> <span data-ttu-id="7e59a-106">Pour plus d’informations, reportez-vous à [créer ou modifier une règle de traduction à l’aide de l’outil créer une règle de traduction dans Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span><span class="sxs-lookup"><span data-stu-id="7e59a-106">For details, see [Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md).</span></span>
 
-5.  (Facultatif) Dans **Description**, entrez la description de la règle de traduction, par exemple **Appel longue distance international**.
+<div>
 
-6.  Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.
+## <a name="to-define-a-translation-rule-manually"></a><span data-ttu-id="7e59a-107">Pour définir une règle de traduction manuellement</span><span class="sxs-lookup"><span data-stu-id="7e59a-107">To define a translation rule manually</span></span>
 
-7.  Entrez ce qui suit dans **Taper une expression régulière** :
+1.  <span data-ttu-id="7e59a-108">Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="7e59a-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="7e59a-109">Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="7e59a-109">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+
+2.  <span data-ttu-id="7e59a-110">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7e59a-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7e59a-111">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="7e59a-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="7e59a-112">Pour commencer à définir une règle de traduction, suivez les étapes décrites dans l’article [configurer un Trunk with Media bypass dans Lync server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) à l’étape 10 ou [configurer un Trunk sans dérivation multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) à l’étape 9.</span><span class="sxs-lookup"><span data-stu-id="7e59a-112">To begin defining a translation rule, follow the steps in [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) through step 10 or [Configure a trunk without media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) through step 9.</span></span>
+
+4.  <span data-ttu-id="7e59a-113">Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.</span><span class="sxs-lookup"><span data-stu-id="7e59a-113">In the **Name** field on the **New Translation Rule** or **Edit Translation Rule** page, type a name that describes the number pattern being translated.</span></span>
+
+5.  <span data-ttu-id="7e59a-114">(Facultatif) Dans **Description**, entrez la description de la règle de traduction, par exemple **US International long-distance dialing**.</span><span class="sxs-lookup"><span data-stu-id="7e59a-114">(Optional) In **Description**, type a description of the translation rule, for example **US International long-distance dialing**.</span></span>
+
+6.  <span data-ttu-id="7e59a-115">Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.</span><span class="sxs-lookup"><span data-stu-id="7e59a-115">Click **Edit** at the bottom of the **Build a Translation Rule** section.</span></span>
+
+7.  <span data-ttu-id="7e59a-116">Entrez ce qui suit dans **Taper une expression régulière** :</span><span class="sxs-lookup"><span data-stu-id="7e59a-116">Enter the following in **Type a Regular Expression**:</span></span>
     
-      - Dans **Suivre ce modèle**, spécifiez le modèle qui sera utilisé pour correspondre aux numéros à traduire.
+      - <span data-ttu-id="7e59a-117">Dans **Suivre ce modèle**, spécifiez le modèle qui sera utilisé pour correspondre aux numéros à traduire.</span><span class="sxs-lookup"><span data-stu-id="7e59a-117">In **Match this pattern**, specify the pattern that will be used to match the numbers to be translated.</span></span>
     
-      - Dans **Règle de traduction**, spécifiez un modèle pour le format des numéros traduits.
+      - <span data-ttu-id="7e59a-118">Dans **Règle de traduction**, spécifiez un modèle pour le format des numéros traduits.</span><span class="sxs-lookup"><span data-stu-id="7e59a-118">In **Translation rule**, specify a pattern for the format of translated numbers.</span></span>
     
-    Par exemple, si vous entrez **^\\+(\\d{9}\\d+)$** dans **Suivre ce modèle** et **011$1** dans **Règle de traduction**, la règle traduira le numéro +441235551010 comme suit, 011441235551010.
+    <span data-ttu-id="7e59a-119">Par exemple, si vous tapez \*\* ^ \\+ (\\j{9}\\+ +) $\*\* dans **correspondre à ce modèle** et **011 $1** dans la **règle de traduction**, la règle traduira + 441235551010 à 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="7e59a-119">For example, if you enter **^\\+(\\d{9}\\d+)$** in **Match this pattern** and **011$1** in **Translation rule**, the rule will translate +441235551010 to 011441235551010.</span></span>
 
-8.  Cliquez sur **OK** pour enregistrer la règle de traduction.
+8.  <span data-ttu-id="7e59a-120">Cliquez sur **OK** pour enregistrer la règle de traduction.</span><span class="sxs-lookup"><span data-stu-id="7e59a-120">Click **OK** to save the translation rule.</span></span>
 
-9.  Cliquez sur **OK** pour enregistrer la configuration de la jonction.
+9.  <span data-ttu-id="7e59a-121">Cliquez sur **OK** pour enregistrer la configuration de la jonction.</span><span class="sxs-lookup"><span data-stu-id="7e59a-121">Click **OK** to save the trunk configuration.</span></span>
 
-10. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
+10. <span data-ttu-id="7e59a-122">Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.</span><span class="sxs-lookup"><span data-stu-id="7e59a-122">On the **Trunk Configuration** page, click **Commit**, and then click **Commit all**.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > À chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <strong>Valider tout</strong> pour publier la modification de la configuration. Pour plus d’informations, voir <a href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013</a> dans la documentation des opérations.
+    > <span data-ttu-id="7e59a-123">Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande <STRONG>Valider tout</STRONG> pour publier la modification de la configuration.</span><span class="sxs-lookup"><span data-stu-id="7e59a-123">Whenever you create or modify a translation rule, you must run the <STRONG>Commit all</STRONG> command to publish the configuration change.</span></span> <span data-ttu-id="7e59a-124">Pour plus d’informations, reportez-vous <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">à la rubrique publier des modifications en attente sur la configuration de l’acheminement de la voix dans Lync Server 2013</A> dans la documentation</span><span class="sxs-lookup"><span data-stu-id="7e59a-124">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+</div>
 
-[Créer ou modifier une règle de traduction à l’aide de l’outil Créer une règle de traduction](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
-[Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
-[Publication des modifications en attente de la configuration du routage des communications vocales dans Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+<div>
 
-#### Concepts
+## <a name="see-also"></a><span data-ttu-id="7e59a-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7e59a-125">See Also</span></span>
 
-[Options globales du contournement de média dans Lync Server 2013](lync-server-2013-global-media-bypass-options.md)
+
+[<span data-ttu-id="7e59a-126">Créer ou modifier une règle de traduction à l’aide de l’outil créer une règle de traduction dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59a-126">Create or modify a translation rule by using the Build a Translation Rule tool in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)  
+[<span data-ttu-id="7e59a-127">Configure a trunk with media bypass in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59a-127">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="7e59a-128">Configurer un Trunk sans dérivation multimédia dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59a-128">Configure a trunk without media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+[<span data-ttu-id="7e59a-129">Publier les modifications en attente apportées à la configuration du routage de la voix dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59a-129">Publish pending changes to the voice routing configuration in Lync Server 2013</span></span>](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+
+
+[<span data-ttu-id="7e59a-130">Options de contournement global de médias dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59a-130">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
