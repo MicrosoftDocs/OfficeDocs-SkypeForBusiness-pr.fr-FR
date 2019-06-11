@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702679"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813081"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -137,7 +137,7 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | Virtual | Fonctionnalités de l’appelant  | Satisfaction de l’appelant-messagerie vocale privée | L’appelant peut choisir une option pour marquer un message enregistré comme privé  | N | O    |
 | Virtual | Fonctionnalités de l’appelant  | Détection de silence   |  | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client: un administrateur peut configurer une règle de niveau de service pour marquer la boîte vocale comme protégée | O | Y    |
-| Virtual | Client-fonctionnalités d’administration | Changer la durée limite d’enregistrement  | CVM préprogrammé sur 5 minutes    | N | O    |
+| Virtual | Client-fonctionnalités d’administration | Changer la durée limite d’enregistrement  |     | O | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer le délai de détection du silence    |  | S/O    | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer le nombre d’échecs d’entrée | CVM: préprogrammé sur 3 | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Changer la langue par défaut |  | O | Y    |
