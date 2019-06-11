@@ -1,49 +1,77 @@
-﻿---
-title: "Afficher le statut des services s’exécutant sur un ordi. dans Lync Server 2013"
-TOCtitle: "Afficher le statut des services s’exécutant sur un ordi. dans Lync Server 2013"
-ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182606(v=OCS.15)
-ms:contentKeyID: 49299355
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: affichage de l’état des services en cours d’exécution sur un ordinateur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View the status of services running on a computer
+ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182606(v=OCS.15)
+ms:contentKeyID: 48185804
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 52f7b1628f9e9fcd99eea84ebda2cbfe934fc7d6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846284"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Afficher le statut des services s’exécutant sur un ordinateur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-22_
+# <a name="view-the-status-of-services-running-on-a-computer-in-lync-server-2013"></a><span data-ttu-id="61a28-102">Afficher l’état des services en cours d’exécution sur un ordinateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61a28-102">View the status of services running on a computer in Lync Server 2013</span></span>
 
-Panneau de configuration Lync Server 2013 permet de consulter tous les services qui s’exécutent sur un ordinateur donné de votre topologie Lync Server et voir le statut de chaque service.
+</div>
 
-## Pour consulter le statut des services qui s’exécutent sur un ordinateur
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topologie**.
+<span data-ttu-id="61a28-103">_**Dernière modification de la rubrique:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="61a28-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-4.  Sur la page **Statut**, triez ou recherchez dans la liste, le cas échéant, l’ordinateur qui vous intéresse, puis cliquez sur le nom de l’ordinateur.
+<span data-ttu-id="61a28-104">Vous pouvez utiliser le panneau de configuration de Lync Server 2013 pour afficher tous les services en cours d’exécution sur un ordinateur spécifique dans la topologie de votre serveur Lync et afficher l’état de chaque service.</span><span class="sxs-lookup"><span data-stu-id="61a28-104">You can use Lync Server 2013 Control Panel to view all the services that are running on a specific computer in your Lync Server topology and see the status of each service.</span></span>
 
-5.  Effectuez l’une des opérations suivantes :
+<div>
+
+## <a name="to-view-the-status-of-services-running-on-a-computer"></a><span data-ttu-id="61a28-105">Pour afficher l’état des services en cours d’exécution sur un ordinateur</span><span class="sxs-lookup"><span data-stu-id="61a28-105">To view the status of services running on a computer</span></span>
+
+1.  <span data-ttu-id="61a28-106">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="61a28-106">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="61a28-107">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="61a28-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="61a28-108">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="61a28-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="61a28-109">Dans la barre de navigation de gauche, cliquez sur **Topology**.</span><span class="sxs-lookup"><span data-stu-id="61a28-109">In the left navigation bar, click **Topology**.</span></span>
+
+4.  <span data-ttu-id="61a28-110">Dans la page **État** , triez ou effectuez une recherche dans la liste, si nécessaire, pour trouver l’ordinateur qui vous intéresse, puis cliquez sur le nom de l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="61a28-110">On the **Status** page, sort or search the list, as required, to find the computer you’re interested in, and then click the computer name.</span></span>
+
+5.  <span data-ttu-id="61a28-111">Effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="61a28-111">Do any of the following:</span></span>
     
-      - Pour voir le dernier statut des services qui s’exécutent sur l’ordinateur, cliquez sur **Obtenir le statut du service**.
+      - <span data-ttu-id="61a28-112">Pour afficher le dernier état des services en cours d’exécution sur l’ordinateur, cliquez sur **obtenir l’état du service**.</span><span class="sxs-lookup"><span data-stu-id="61a28-112">To see the latest status of services running on the computer, click **Get service status**.</span></span>
     
-      - Pour voir la liste des services spécifiques qui s’exécutent sur l’ordinateur et le statut de chaque service, cliquez sur **Propriétés**, puis sur **Fermer** pour revenir à la liste.
+      - <span data-ttu-id="61a28-113">Pour afficher une liste de services spécifiques en cours d’exécution sur l’ordinateur et l’état de chaque service, cliquez sur **Propriétés**, puis sur **Fermer** pour revenir à la liste.</span><span class="sxs-lookup"><span data-stu-id="61a28-113">To see a list of specific services running on the computer and the status of each service, click **Properties**, and then click **Close** to return to the list.</span></span>
 
-## Affichage de l’état des services en utilisant les cmdlets Lync Server Management Shell
+</div>
 
-Vous pouvez également afficher l’état des services en utilisant Lync Server Management Shell et la cmdlet **Get-CsWindowsService**. Vous pouvez exécuter cette cmdlet depuis Lync Server 2013 Management Shell ou depuis une session distante de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Pour afficher l’état des services
+## <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="61a28-114">Affichage de l’état du service à l’aide des cmdlets Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="61a28-114">Viewing Service Status by Using Windows PowerShell Cmdlets</span></span>
 
-  - Pour afficher l’état des services sur un ordinateur, entrez une commande semblable à la suivante dans Lync Server Management Shell puis appuyez sur Entrée :
+<span data-ttu-id="61a28-115">Vous pouvez également afficher l’état du service à l’aide de Windows PowerShell et de l’applet **de connexion Get-CsWindowsService** .</span><span class="sxs-lookup"><span data-stu-id="61a28-115">You can also view service status by using Windows PowerShell and the **Get-CsWindowsService** cmdlet.</span></span> <span data-ttu-id="61a28-116">Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="61a28-116">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="61a28-117">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="61a28-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-service-status"></a><span data-ttu-id="61a28-118">Pour afficher l’état du service</span><span class="sxs-lookup"><span data-stu-id="61a28-118">To view service status</span></span>
+
+  - <span data-ttu-id="61a28-119">Pour afficher l’état du service sur un ordinateur, tapez une commande similaire à celle qui suit dans Lync Server Management Shell, puis appuyez sur entrée:</span><span class="sxs-lookup"><span data-stu-id="61a28-119">To view service status on a computer, type a command similar to the following in the Lync Server Management Shell and then press Enter:</span></span>
     
         Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
     
-    Cette commande renvoie des informations comme celles-ci :
+    <span data-ttu-id="61a28-120">Cette commande renvoie le type d’informations suivant :</span><span class="sxs-lookup"><span data-stu-id="61a28-120">This command returns information similar to the following:</span></span>
     
         RoleName                                  Status
         --------                                  ------
@@ -55,11 +83,29 @@ Vous pouvez également afficher l’état des services en utilisant Lync Server 
         {ConferencingServer}                      Running
         {MediationServer}                         Running
 
-Pour plus d’informations, voir [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
+</div>
 
-## Voir aussi
+<span data-ttu-id="61a28-121">Pour plus d’informations, consultez la rubrique [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).</span><span class="sxs-lookup"><span data-stu-id="61a28-121">For details, see [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).</span></span>
 
-#### Autres ressources
+</div>
 
-[Gestion des appareils, des téléphones et des applications client dans Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="61a28-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="61a28-122">See Also</span></span>
+
+
+[<span data-ttu-id="61a28-123">Gestion des appareils, des téléphones et des applications client dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="61a28-123">Managing devices, phones, and client applications in Lync Server 2013</span></span>](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

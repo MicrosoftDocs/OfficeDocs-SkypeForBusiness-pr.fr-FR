@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013 : Sonnerie simultanée'
-TOCTitle: Sonnerie simultanée
-ms:assetid: df02f919-4d50-4832-9300-6c51f8b4fc56
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994079(v=OCS.15)
-ms:contentKeyID: 53095548
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Sonnerie simultanée'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Simultaneous ringing
+ms:assetid: df02f919-4d50-4832-9300-6c51f8b4fc56
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994079(v=OCS.15)
+ms:contentKeyID: 51803990
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f7303c1fc77d109bd08044c8acff56aaf538790d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846820"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sonnerie simultanée dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="simultaneous-ringing-in-lync-server-2013"></a><span data-ttu-id="3a7eb-102">Sonnerie simultanée dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a7eb-102">Simultaneous ringing in Lync Server 2013</span></span>
 
-Lorsque la sonnerie simultanée est activée pour la partie appelée, le routage géodépendant analyse l’emplacement de l’appelant et les points de terminaison des parties appelées pour déterminer si l’appel doit être routé.
+</div>
 
-Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultanée est configurée. La cible de la sonnerie simultanée est un utilisateur appartenant au même site réseau, à un autre site réseau ou à un site réseau inconnu.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="3a7eb-103">_**Dernière modification de la rubrique:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="3a7eb-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+
+<span data-ttu-id="3a7eb-104">Lorsque la partie appelée dispose d’une sonnerie simultanée activée, le routage de géolocalisation analyse l’emplacement de la partie de l’appel et les points de terminaison des parties appelées pour déterminer si l’appel doit être routé.</span><span class="sxs-lookup"><span data-stu-id="3a7eb-104">When the called party has simultaneous ringing enabled, Location-Based Routing analyzes the location of the calling party and the endpoints of the called parties to determine whether the call should be routed.</span></span>
+
+<span data-ttu-id="3a7eb-105">Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultanée est configurée. La cible de la sonnerie simultanée est un utilisateur appartenant au même site réseau, à un autre site réseau ou à un site réseau inconnu.</span><span class="sxs-lookup"><span data-stu-id="3a7eb-105">The following table illustrates a user configured with simultaneous ringing, and the simultaneous ringing target is a user in the same network site, in a different network site, or in an unknown network site.</span></span>
 
 
 <table>
@@ -29,24 +49,24 @@ Le tableau ci-dessous illustre un utilisateur pour lequel la sonnerie simultané
 </colgroup>
 <thead>
 <tr class="header">
-<th>Appel RTC entrant pour</th>
-<th>Situé dans le même site réseau que l’appelé</th>
-<th>Situé dans un autre site réseau que l’appelé</th>
-<th>Situé dans un site réseau inconnu ou routage géodépendant non activé</th>
+<th><span data-ttu-id="3a7eb-106">Appel RTC entrant pour</span><span class="sxs-lookup"><span data-stu-id="3a7eb-106">Incoming PSTN call for</span></span></th>
+<th><span data-ttu-id="3a7eb-107">Situé dans le même site réseau que l’appelé</span><span class="sxs-lookup"><span data-stu-id="3a7eb-107">Located in the same network site as callee</span></span></th>
+<th><span data-ttu-id="3a7eb-108">Situé dans un autre site réseau que l’appelé</span><span class="sxs-lookup"><span data-stu-id="3a7eb-108">Located in different network site than callee</span></span></th>
+<th><span data-ttu-id="3a7eb-109">Se trouve sur un site réseau inconnu ou n’est pas activé pour le routage par emplacement</span><span class="sxs-lookup"><span data-stu-id="3a7eb-109">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Utilisateur de Lync</p></td>
-<td><p>Sonnerie simultanée autorisée</p></td>
-<td><p>Sonnerie simultanée non autorisée</p></td>
-<td><p>Sonnerie simultanée non autorisée</p></td>
+<td><p><span data-ttu-id="3a7eb-110">Utilisateur Lync</span><span class="sxs-lookup"><span data-stu-id="3a7eb-110">Lync user</span></span></p></td>
+<td><p><span data-ttu-id="3a7eb-111">Sonnerie simultanée autorisée</span><span class="sxs-lookup"><span data-stu-id="3a7eb-111">Simultaneous ring allowed</span></span></p></td>
+<td><p><span data-ttu-id="3a7eb-112">Sonnerie simultanée non autorisée</span><span class="sxs-lookup"><span data-stu-id="3a7eb-112">Simultaneous ring not allowed</span></span></p></td>
+<td><p><span data-ttu-id="3a7eb-113">Sonnerie simultanée non autorisée</span><span class="sxs-lookup"><span data-stu-id="3a7eb-113">Simultaneous ring not allowed</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
   
-Le tableau ci-dessous illustre un appel d’un utilisateur de Lync (appelant Lync) dans le même site réseau, dans un autre site réseau ou dans un site réseau inconnu. L’appelé a un point de terminaison RTC (téléphone portable) configuré comme cible de la sonnerie simultanée. Dans ce scénario, le routage géodépendant détermine si l’appel doit être acheminé ou non vers la cible de sonnerie simultanée (téléphone portable) de l’appelé.
+<span data-ttu-id="3a7eb-114">Le tableau suivant illustre un appel d’un utilisateur Lync (par exemple, appelant Lync) au sein d’un même site réseau, sur un autre site réseau ou à partir d’un site réseau inconnu.</span><span class="sxs-lookup"><span data-stu-id="3a7eb-114">The following table illustrates a call from a Lync user (i.e. Lync caller) in the same network site, in a different network site, or from an unknown network site.</span></span> <span data-ttu-id="3a7eb-115">L’appelé a un point de terminaison RTC (téléphone portable) configuré comme cible de la sonnerie simultanée.</span><span class="sxs-lookup"><span data-stu-id="3a7eb-115">The callee has a PSTN endpoint (i.e. cellphone) configured as a simultaneous ring target.</span></span> <span data-ttu-id="3a7eb-116">Dans ce scénario, le routage en fonction de l’emplacement détermine si l’appel doit être acheminé vers la cible de sonnerie simultanée (c.-à-d. téléphone mobile) de l’appelé ou non.</span><span class="sxs-lookup"><span data-stu-id="3a7eb-116">In this scenario, Location-Based Routing will determine whether the call should be routed to the simultaneous ring target (i.e. cellphone) of the callee or not.</span></span>
 
 
 <table>
@@ -58,26 +78,40 @@ Le tableau ci-dessous illustre un appel d’un utilisateur de Lync (appelant Lyn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cible de la sonnerie simultanée</th>
-<th>Situé dans le même site réseau que l’appelé</th>
-<th>Situé dans un autre site réseau que l’appelé</th>
-<th>Situé dans un site réseau inconnu ou routage géodépendant non activé</th>
+<th><span data-ttu-id="3a7eb-117">Cible de la sonnerie simultanée</span><span class="sxs-lookup"><span data-stu-id="3a7eb-117">Simultaneous ring target</span></span></th>
+<th><span data-ttu-id="3a7eb-118">Situé dans le même site réseau que l’appelé</span><span class="sxs-lookup"><span data-stu-id="3a7eb-118">Located in the same network site as callee</span></span></th>
+<th><span data-ttu-id="3a7eb-119">Situé dans un autre site réseau que l’appelé</span><span class="sxs-lookup"><span data-stu-id="3a7eb-119">Located in different network site than callee</span></span></th>
+<th><span data-ttu-id="3a7eb-120">Se trouve sur un site réseau inconnu ou n’est pas activé pour le routage par emplacement</span><span class="sxs-lookup"><span data-stu-id="3a7eb-120">Located in unknown network site or not enabled for Location-Based Routing</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Point de terminaison RTC</p></td>
-<td><p>Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</p></td>
-<td><p>Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</p></td>
-<td><p>Sonnerie simultanée autorisée via la stratégie de voix de l’appelant vers les jonctions sur lesquelles le routage géodépendant n’est pas activé</p></td>
+<td><p><span data-ttu-id="3a7eb-121">Point de terminaison RTC</span><span class="sxs-lookup"><span data-stu-id="3a7eb-121">PSTN endpoint</span></span></p></td>
+<td><p><span data-ttu-id="3a7eb-122">Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</span><span class="sxs-lookup"><span data-stu-id="3a7eb-122">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="3a7eb-123">Sonnerie simultanée autorisée via la stratégie de routage des communications vocales du site de l’appelant</span><span class="sxs-lookup"><span data-stu-id="3a7eb-123">Simultaneous ring allowed through the caller’s site voice routing policy</span></span></p></td>
+<td><p><span data-ttu-id="3a7eb-124">Sonnerie simultanée autorisée via la stratégie de voix de l’appelant vers les jonctions sur lesquelles le routage géodépendant n’est pas activé</span><span class="sxs-lookup"><span data-stu-id="3a7eb-124">Simultaneous ring allowed through the caller’s voice policy to trunks not enabled for Location-Based Routing</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Voir aussi
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a><span data-ttu-id="3a7eb-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3a7eb-125">See Also</span></span>
 
-[Scénarios de routage géodépendant dans Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
+
+[<span data-ttu-id="3a7eb-126">Scénarios de routage géodépendant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a7eb-126">Scenarios for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

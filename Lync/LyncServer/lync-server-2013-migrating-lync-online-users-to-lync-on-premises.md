@@ -1,44 +1,73 @@
-﻿---
-title: Migration des utilisateurs Lync Online vers Lync local
-TOCTitle: Migration des utilisateurs Lync Online vers Lync local
-ms:assetid: 0e29605b-db2d-4cbf-b6a9-15db6b9fdabc
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn689115(v=OCS.15)
-ms:contentKeyID: 62247319
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: migration des utilisateurs Lync Online vers Lync local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Migrating Lync Online users to Lync on-premises
+ms:assetid: 0e29605b-db2d-4cbf-b6a9-15db6b9fdabc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689115(v=OCS.15)
+ms:contentKeyID: 62258120
+ms.date: 11/13/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af8806610d8ede0932a9e1f6048d892a48f104d3
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34846964"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migration des utilisateurs Lync Online vers Lync local
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a><span data-ttu-id="6a9d7-102">Migration des utilisateurs Lync Online vers Lync local dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6a9d7-102">Migrating Lync Online users to Lync on-premises in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6a9d7-103">_**Dernière modification de la rubrique:** 2015-11-13_</span><span class="sxs-lookup"><span data-stu-id="6a9d7-103">_**Topic Last Modified:** 2015-11-13_</span></span>
+
+<div class="">
+
 
 > [!IMPORTANT]  
-> Ces étapes ne sont nécessaires que pour la migration de comptes d’utilisateur activés à l’origine pour Lync dans Lync Online, avant le déploiement de Lync sur site. Pour déplacer les utilisateurs activés initialement pour Lync local, puis déplacés vers Lync Online, voir <a href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administration des utilisateurs dans un déploiement Lync Server 2013 hybride</a>.<br />
-De plus, tous les utilisateurs en cours de déplacement doivent disposer de comptes dans l’instance Active Directory sur site.
+> <span data-ttu-id="6a9d7-104">Ces étapes sont nécessaires uniquement pour la migration des comptes d’utilisateurs qui ont été activés pour Lync dans Lync Online avant de déployer Lync en local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-104">These steps are necessary only for migrating user accounts that were originally enabled for Lync in Lync Online, before you deployed Lync on-premises.</span></span> <span data-ttu-id="6a9d7-105">Pour déplacer des utilisateurs qui ont été activés pour Lync local, puis transférés plus tard vers Lync Online, voir <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">administration des utilisateurs dans un déploiement 2013 Lync Server</A>.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-105">To move users who were originally enabled for Lync on-premises, then later moved to Lync Online, see <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Administering users in a hybrid Lync Server 2013 deployment</A>.</span></span><BR><span data-ttu-id="6a9d7-106">De plus, tous les utilisateurs en cours de déplacement doivent disposer de comptes dans l’instance locale d’Active Directory.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-106">Additionally, all users being moved must have accounts in the on-premises Active Directory.</span></span>
 
-## Migration des comptes d’utilisateur activés initialement dans Lync Online vers Lync local
 
-1.  Tout d’abord, vérifiez que votre organisation est configurée pour l’environnement hybride.
+
+</div>
+
+<div>
+
+## <a name="migrating-user-accounts-originally-enabled-in-lync-online-to-lync-on-premises"></a><span data-ttu-id="6a9d7-107">Migration des comptes d’utilisateurs activés dans Lync Online vers Lync local</span><span class="sxs-lookup"><span data-stu-id="6a9d7-107">Migrating User Accounts Originally Enabled in Lync Online to Lync On-Premises</span></span>
+
+1.  <span data-ttu-id="6a9d7-108">Tout d’abord, assurez-vous que votre organisation est configurée pour l’environnement hybride.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-108">First, make sure that your organization is configured for hybrid.</span></span>
     
-      - Installez l’outil de synchronisation Windows Azure Active Directory. Pour plus d’information, voir <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
+      - <span data-ttu-id="6a9d7-109">Installez l’outil de synchronisation Azure Active Directory.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-109">Install the Azure Active Directory Sync Tool.</span></span> <span data-ttu-id="6a9d7-110">Pour plus d’informations, <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>reportez-vous à.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-110">For more information, see <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.</span></span>
     
-      - Pour activer vos utilisateurs pour qu’ils utilisent l’authentification unique pour Lync Online, installez Active Directory Federation Services <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>.
+      - <span data-ttu-id="6a9d7-111">Pour permettre à vos utilisateurs d’utiliser l’authentification unique pour Lync Online, installez les services ADFS ( <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Active Directory Federation Services).</span><span class="sxs-lookup"><span data-stu-id="6a9d7-111">To enable your users to use single sign-on for Lync Online, install Active Directory Federation Services <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>.</span></span>
     
-      - Dans votre déploiement local, dans Lync Server Management Shell, tapez les applets de commandes pour créer le fournisseur d’hébergement Lync Online :
+      - <span data-ttu-id="6a9d7-112">Sur votre déploiement local, dans Lync Server Management Shell, entrez les applets de commande suivantes pour créer le fournisseur d’hébergement pour Lync Online:</span><span class="sxs-lookup"><span data-stu-id="6a9d7-112">On your on-premises deployment, in Lync Server Management Shell, type the following cmdlets to create the hosting provider for Lync Online:</span></span>
         
-        ```
-        Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
-        ```
-        ```
-        New-CSHostingProvider -Identity LyncOnline -Name LyncOnlin -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
-        ```
+           ```
+           Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
+           ```
+        
+           ```
+            New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
+           ```
 
-2.  Confirmez que, sur vos serveurs Edge, la chaîne de certificat qui permet la connexion à Lync Online est présente, comme indiqué dans le tableau ci-dessous. Vous pouvez télécharger cette chaîne ici : [https://corp.sts.microsoft.com/Onboard/ADFS\_Onboarding\_Pack/corp\_sts\_certs.zip](https://corp.sts.microsoft.com/onboard/adfs_onboarding_pack/corp_sts_certs.zip) .
-    
-    
+2.  <span data-ttu-id="6a9d7-113">Vérifiez que, sur votre serveur Edge local, vous disposez de la chaîne de certificats qui permet de se connecter à Lync Online, comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-113">Confirm that, on your on-premises Edge Servers, you have the certificate chain that enables connection to Lync Online, as shown in the following table.</span></span> <span data-ttu-id="6a9d7-114">Vous pouvez télécharger cette chaîne à l’adresse suivante:https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb</span><span class="sxs-lookup"><span data-stu-id="6a9d7-114">You can download this chain here: https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb</span></span>
+
+
     <table>
     <colgroup>
     <col style="width: 50%" />
@@ -46,100 +75,110 @@ De plus, tous les utilisateurs en cours de déplacement doivent disposer de comp
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Certificat</th>
-    <th>Magasin de certificats</th>
+    <th><span data-ttu-id="6a9d7-115">Certificat</span><span class="sxs-lookup"><span data-stu-id="6a9d7-115">Certificate</span></span></th>
+    <th><span data-ttu-id="6a9d7-116">Magasin de certificats</span><span class="sxs-lookup"><span data-stu-id="6a9d7-116">Certificate Store</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Baltimore CyberTrust Root</p></td>
-    <td><p>Autorité de certification racine de confiance</p></td>
+    <td><p><span data-ttu-id="6a9d7-117">Certificat racine de CyberTrust Baltimore</span><span class="sxs-lookup"><span data-stu-id="6a9d7-117">Baltimore CyberTrust Root</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-118">Autorité de certification racine de confiance</span><span class="sxs-lookup"><span data-stu-id="6a9d7-118">Trusted Root CA</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Microsoft Internet Authority (Nouveau certificat de l’autorité de certification racine)</p></td>
-    <td><p>Autorité de certification intermédiaire</p></td>
+    <td><p><span data-ttu-id="6a9d7-119">Microsoft Internet Authority (Nouveau certificat de l’autorité de certification racine)</span><span class="sxs-lookup"><span data-stu-id="6a9d7-119">Microsoft Internet Authority (New CA certificate)</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-120">Autorité de certification intermédiaire</span><span class="sxs-lookup"><span data-stu-id="6a9d7-120">Intermediate CA</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>MSIT Machine Auth CA2 (Nouvelle autorité de certification émettrice CA2)</p></td>
-    <td><p>Autorité de certification intermédiaire</p></td>
+    <td><p><span data-ttu-id="6a9d7-121">MSIT Machine Auth CA2 (Nouvelle autorité de certification émettrice CA2)</span><span class="sxs-lookup"><span data-stu-id="6a9d7-121">MSIT Machine Auth CA2 (New Issuing CA2)</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-122">Autorité de certification intermédiaire</span><span class="sxs-lookup"><span data-stu-id="6a9d7-122">Intermediate CA</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
-
-3.  Dans votre instance Active Directory locale, activez les comptes d’utilisateur concernés pour Lync local. Pour un utilisateur individuel, tapez l’applet de commande suivante :
+3.  <span data-ttu-id="6a9d7-123">Dans votre Active Directory local, activez les comptes d’utilisateurs concernés pour Lync local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-123">In your on-premises Active Directory, enable the affected user accounts for Lync on-premises.</span></span> <span data-ttu-id="6a9d7-124">Pour un utilisateur individuel, tapez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-124">You can do this for an individual user by typing the following cmdlet:</span></span>
     
         Enable-CsUser
         -Identity "username" 
         -SipAddress "sip: username@contoso.com"
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
     
-    Vous pouvez également créer un script qui lit les noms d’utilisateur dans un fichier et les transmet comme informations à l’applet de commande Enable-CsUser :
+    <span data-ttu-id="6a9d7-125">Vous pouvez également créer un script qui lit les noms d’utilisateur dans un fichier et les transmet comme informations à l’applet de commande Enable-CsUser :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-125">Or you can create a script that reads user names from a file and provides them as input to the Enable-CsUser cmdlet:</span></span>
     
         Enable-CsUser
         -Identity $Identity 
         -SipAddress $SipAddress 
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
 
-4.  Exécutez DirSync pour synchroniser les utilisateurs Lync Online avec les utilisateurs Lync locaux à jour.
+4.  <span data-ttu-id="6a9d7-126">Exécutez DirSync pour synchroniser les utilisateurs Lync Online avec les utilisateurs Lync locaux mis à jour.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-126">Run DirSync to sync the Lync Online users with the updated Lync on-premises users.</span></span>
 
-5.  Mettez à jour les enregistrements DNS pour acheminer tout le trafic SIP vers Lync local :
+5.  <span data-ttu-id="6a9d7-127">Mettez à jour les enregistrements DNS pour acheminer l’ensemble du trafic SIP vers Lync local:</span><span class="sxs-lookup"><span data-stu-id="6a9d7-127">Update some DNS records to direct all SIP traffic to Lync on-premises:</span></span>
     
-      - Mettez à jour **lyncdiscover.contoso.com** Un enregistrement pour pointer vers le nom de domaine complet (FQDN) du serveur proxy inverse local.
+      - <span data-ttu-id="6a9d7-128">Mettez à jour **lyncdiscover.contoso.com**  Un enregistrement pour pointer vers le nom de domaine complet (FQDN) du serveur proxy inverse local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-128">Update the **lyncdiscover.contoso.com** A record to point to the FQDN of the on-premises reverse proxy server.</span></span>
     
-      - Mettez à jour l’enregistrement SRV ***\_sip*.\_tls.contoso.com** pour résoudre vers l’adresse IP publique ou l’adresse VIP du service Edge d’accès de Lync local.
+      - <span data-ttu-id="6a9d7-129">Mettez à jour le \*\**\_SIP\_ *. tls.contoso.com** SRV enregistrement pour la résolution vers l’adresse IP ou VIP publique du service Edge d’accès de Lync local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-129">Update the \***\_sip\*.\_tls.contoso.com** SRV record to resolve to the public IP or VIP address of the Access Edge service of Lync on-premises.</span></span>
     
-      - Mettez à jour l’enregistrement SRV ***\_sipfederationtls*.\_tcp.contoso.com** pour résoudre vers l’adresse IP publique ou l’adresse VIP du service Edge d’accès de Lync local.
+      - <span data-ttu-id="6a9d7-130">Mettez à jour \*\**\_sipfederationtls *\_ . tcp.contoso.com** SRV enregistrement pour la résolution vers l’adresse IP ou VIP publique du service Edge d’accès de Lync local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-130">Update the \***\_sipfederationtls\*.\_tcp.contoso.com** SRV record to resolve to the public IP or VIP address of the Access Edge service of Lync on-premises.</span></span>
     
-      - Si votre organisation utilise un « DNS split » (également appelé « DNS split-brain »), vérifiez que les utilisateurs qui résolvent des noms par le biais de la zone DNS interne sont dirigés vers le pool frontal.
+      - <span data-ttu-id="6a9d7-131">Si votre organisation utilise un « DNS split » (également appelé « DNS split-brain »), vérifiez que les utilisateurs qui résolvent des noms par le biais de la zone DNS interne sont dirigés vers le pool frontal.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-131">If your organization uses split DNS (sometimes called “split-brain DNS”), make sure that users resolving names through the internal DNS zone are directed to the Front End Pool.</span></span>
 
-6.  Tapez l’applet de commande `Get-CsUser` pour vérifier des propriétés concernant les utilisateurs que vous allez déplacer. Vérifiez que HostingProviderProxyFQDN possède la valeur `"sipfed.online.lync.com"` et que les adresses SIP sont définies correctement.
+6.  <span data-ttu-id="6a9d7-132">Tapez l' `Get-CsUser` applet de recherche pour vérifier certaines propriétés des utilisateurs que vous allez déplacer.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-132">Type the `Get-CsUser` cmdlet to check some properties about the users you’ll be moving.</span></span> <span data-ttu-id="6a9d7-133">Vous voulez vous assurer que HostingProviderProxyFQDN est défini sur `"sipfed.online.lync.com"` et que les adresses SIP sont correctement définies.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-133">You want to make sure that the HostingProviderProxyFQDN is set to `"sipfed.online.lync.com"` and that the SIP addresses are set correctly.</span></span>
 
-7.  Déplacez les utilisateurs Lync Online vers Lync local.
+7.  <span data-ttu-id="6a9d7-134">Déplacez les utilisateurs Lync Online vers Lync local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-134">Move Lync Online users to Lync on-premises.</span></span>
     
-    Pour déplacer un seul utilisateur, tapez ce qui suit :
+    <span data-ttu-id="6a9d7-135">Pour déplacer un seul utilisateur, tapez ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-135">To move a single user, type this:</span></span>
     
-    ```
-    $cred = Get-Credential
-    ```
-    ```
-    Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
-    ```
+       ```
+       $cred = Get-Credential
+       ```
     
-    Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande **Get-CsUSer** avec le paramètre –Filter pour sélectionner les utilisateurs comportant une propriété spécifique. Par exemple, pour sélectionner tous les utilisateurs Lync Online, filtrez sur {Hosting Provider –eq “sipfed.online.lync.om”}. Vous pouvez ensuite rediriger les utilisateurs renvoyés vers l’applet de commande **Move-CsUSer**, comme indiqué ci-dessous.
+       ```
+       Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
+       ```
+    
+    <span data-ttu-id="6a9d7-136">Vous pouvez déplacer plusieurs utilisateurs à l’aide de l’applet de commande **Get-CsUSer**  avec le paramètre –Filter pour sélectionner les utilisateurs comportant une propriété spécifique.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-136">You can move multiple users by using the **Get-CsUSer** cmdlet with the –Filter parameter to select the users with a specific property.</span></span> <span data-ttu-id="6a9d7-137">Par exemple, vous pouvez sélectionner tous les utilisateurs de Lync Online en filtrant pour {Hosting Provider-EQ "sipfed.online.lync.om"}.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-137">For example, you could select all Lync Online users by filtering for {Hosting Provider –eq “sipfed.online.lync.om”}.</span></span> <span data-ttu-id="6a9d7-138">Vous pouvez ensuite rediriger les utilisateurs renvoyés vers l’applet de commande **Move-CsUSer**, comme indiqué ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-138">You can then pipe the returned users to the **Move-CsUSer** cmdlet, as shown below.</span></span>
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    L’URL spécifiée pour le paramètre **HostedMigrationOverrideUrl** doit correspondre à celle du pool où le service de migration hébergée s’exécute, au format suivant : *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
+    <span data-ttu-id="6a9d7-139">Le format de l’URL spécifiée pour le paramètre **hostedmigrationoverrideurl doit correspondre** doit être l’URL du pool sur lequel le service de migration hébergé est en cours d’exécution, au format suivant: *nom de domaine complet\<\>du pool https:///HostedMigration/ hostedmigrationService. svc*.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-139">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format: *Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.</span></span>
     
-    Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du Panneau de configuration Lync Online correspondant à votre compte client Office 365.
+    <span data-ttu-id="6a9d7-140">Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du Panneau de configuration Lync Online correspondant à votre compte client Office 365.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-140">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Office 365 tenant account.</span></span>
     
-    ## Pour déterminer l’URL du service de migration hébergée de votre client Office 365
+    <div>
     
-    1.  Connectez-vous à votre client Office 365 en tant qu’administrateur.
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-tenant"></a><span data-ttu-id="6a9d7-141">Pour déterminer l’URL du service de migration hébergée de votre client Office 365</span><span class="sxs-lookup"><span data-stu-id="6a9d7-141">To determine the Hosted Migration Service URL for your Office 365 tenant</span></span>
     
-    2.  Ouvrez le **Centre d’administration Lync**.
+    1.  <span data-ttu-id="6a9d7-142">Connectez-vous à votre client Office 365 en tant qu’administrateur.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-142">Login to your Office 365 tenant as an administrator.</span></span>
     
-    3.  Une fois le **Centre d’administration Lync** affiché, sélectionnez et copiez l’URL dans la barre d’adresse jusqu’à **lync.com**. L’URL doit ressembler au format de l’exemple suivant :
+    2.  <span data-ttu-id="6a9d7-143">Ouvrez le **Centre d’administration Lync**.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-143">Open the **Lync admin center**.</span></span>
+    
+    3.  <span data-ttu-id="6a9d7-144">Avec le **Centre d’administration Lync** affiché, sélectionnez et copiez l’URL dans la barre d’adresses jusqu’à **Lync.com**.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-144">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="6a9d7-145">L’URL doit se présenter comme dans l’exemple suivant :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-145">An example URL looks similar to the following:</span></span>
         
         `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
     
-    4.  Dans l’URL, remplacez **webdir** par **admin** pour obtenir le résultat suivant :
+    4.  <span data-ttu-id="6a9d7-146">Dans l’URL, remplacez **webdir** par **admin** pour obtenir le résultat suivant :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-146">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
         
         `https://admin0a.online.lync.com`
     
-    5.  Ajoutez la chaîne suivante à l’URL : **/HostedMigration/hostedmigrationservice.svc**.
+    5.  <span data-ttu-id="6a9d7-147">Ajoutez la chaîne ci-dessous à l’URL : **/HostedMigration/hostedmigrationservice.svc**.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-147">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
         
-        L’URL obtenue, qui est la valeur de **HostedMigrationOverrideUrl**, doit se présenter comme suit :
+        <span data-ttu-id="6a9d7-148">L’URL obtenue, qui est la valeur de **HostedMigrationOverrideUrl**, doit se présenter comme suit :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-148">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
+    </div>
+    
+    <div class="">
+    
+
     > [!NOTE]  
-    > La taille maximale par défaut pour les fichiers journaux de transaction de la base de données rtcxds est de 16 Go. Cette taille peut être insuffisante si vous déplacez simultanément un grand nombre d’utilisateurs, notamment si la mise en miroir est activée. Pour résoudre ce problème, vous pouvez augmenter la taille du fichier ou sauvegarder régulièrement les fichiers journaux. Pour plus d’informations, voir <a href="http://support.microsoft.com/kb/2756725" class="uri">http://support.microsoft.com/kb/2756725</a>.
+    > <span data-ttu-id="6a9d7-149">La taille maximale par défaut pour les fichiers journaux de transaction de la base de données rtcxds est de 16 Go.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-149">The default maximum size for transaction log files of the rtcxds database is 16 GB.</span></span> <span data-ttu-id="6a9d7-150">Cette taille peut être insuffisante si vous déplacez simultanément un grand nombre d’utilisateurs, notamment si la mise en miroir est activée.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-150">This might not be big enough if you’re moving a large number of users at once, especially if you have mirroring enabled.</span></span> <span data-ttu-id="6a9d7-151">Pour résoudre ce problème, vous pouvez augmenter la taille du fichier ou sauvegarder régulièrement les fichiers journaux.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-151">To get around this you can increase the file size or back up the log files regularly.</span></span> <span data-ttu-id="6a9d7-152">Pour plus d’informations, <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>reportez-vous à.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-152">For more information, see <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.</span></span>
 
-8.  Il s’agit d’une étape facultative. Pour une intégration à Exchange 2013 Online, vous devez faire appel à un autre fournisseur d’hébergement. Pour plus d’informations, voir [Configuration de l’intégration de Lync Server 2013 local avec Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
+    
+    </div>
 
-9.  Les utilisateurs sont maintenant déplacés. Pour vérifier qu’un utilisateur possède des valeurs correctes pour les attributs affichés dans le tableau ci-dessous, tapez cette applet de commande :
+8.  <span data-ttu-id="6a9d7-153">Il s’agit d’une étape facultative.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-153">This is an optional step.</span></span> <span data-ttu-id="6a9d7-154">Pour une intégration à Exchange 2013 Online, vous devez utiliser un autre fournisseur d’hébergement.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-154">If you need to integrate with Exchange 2013 Online, you need to use an additional hosting provider.</span></span> <span data-ttu-id="6a9d7-155">Pour plus d’informations, reportez-vous à la rubrique [configuration d’une intégration de Lync Server 2013 en local avec Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).</span><span class="sxs-lookup"><span data-stu-id="6a9d7-155">For details, see [Configuring on-premises Lync Server 2013 integration with Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).</span></span>
+
+9.  <span data-ttu-id="6a9d7-p110">Les utilisateurs sont maintenant déplacés. Pour vérifier qu’un utilisateur possède des valeurs correctes pour les attributs affichés dans le tableau ci-dessous, tapez cette applet de commande :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-p110">The users are now moved. To check that a user has correct values for the attributes shown in the following table, type this cmdlet:</span></span>
     
         Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
     
@@ -153,38 +192,50 @@ De plus, tous les utilisateurs en cours de déplacement doivent disposer de comp
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Attribut Active Directory</th>
-    <th>Nom Attribut</th>
-    <th>Valeur correcte pour l’utilisateur Lync Online</th>
-    <th>Valeur correcte pour les utilisateurs Lync locaux</th>
+    <th><span data-ttu-id="6a9d7-158">Attribut Active Directory</span><span class="sxs-lookup"><span data-stu-id="6a9d7-158">Active Directory attribute</span></span></th>
+    <th><span data-ttu-id="6a9d7-159">Nom Attribut</span><span class="sxs-lookup"><span data-stu-id="6a9d7-159">Attribute name</span></span></th>
+    <th><span data-ttu-id="6a9d7-160">Valeur correcte pour l’utilisateur de Lync Online</span><span class="sxs-lookup"><span data-stu-id="6a9d7-160">Correct value for Lync Online user</span></span></th>
+    <th><span data-ttu-id="6a9d7-161">Valeur correcte pour les utilisateurs Lync local</span><span class="sxs-lookup"><span data-stu-id="6a9d7-161">Correct value for Lync on–premises users</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>msRTCSIP-DeploymentLocator</p></td>
-    <td><p>HostingProvider</p></td>
-    <td><p>sipfed.online.lync.com</p></td>
-    <td><p>SRV:</p></td>
+    <td><p><span data-ttu-id="6a9d7-162">msRTCSIP-DeploymentLocator</span><span class="sxs-lookup"><span data-stu-id="6a9d7-162">msRTCSIP-DeploymentLocator</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-163">HostingProvider</span><span class="sxs-lookup"><span data-stu-id="6a9d7-163">HostingProvider</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-164">sipfed.online.lync.com</span><span class="sxs-lookup"><span data-stu-id="6a9d7-164">sipfed.online.lync.com</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-165">SRV :</span><span class="sxs-lookup"><span data-stu-id="6a9d7-165">SRV:</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>msRTCSIP-PrimaryUserAddress</p></td>
-    <td><p>SIPAddress</p></td>
-    <td><p>sip:userName@contoso.com</p></td>
-    <td><p>sip:userName@contoso.com</p></td>
+    <td><p><span data-ttu-id="6a9d7-166">msRTCSIP-PrimaryUserAddress</span><span class="sxs-lookup"><span data-stu-id="6a9d7-166">msRTCSIP-PrimaryUserAddress</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-167">SIPAddress</span><span class="sxs-lookup"><span data-stu-id="6a9d7-167">SIPAddress</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-168">sip:userName@contoso.com</span><span class="sxs-lookup"><span data-stu-id="6a9d7-168">sip:userName@contoso.com</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-169">sip:userName@contoso.com</span><span class="sxs-lookup"><span data-stu-id="6a9d7-169">sip:userName@contoso.com</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>sRTCSIP-UserEnabled</p></td>
-    <td><p>Activé</p></td>
-    <td><p>True</p></td>
-    <td><p>True</p></td>
+    <td><p><span data-ttu-id="6a9d7-170">sRTCSIP-UserEnabled</span><span class="sxs-lookup"><span data-stu-id="6a9d7-170">sRTCSIP-UserEnabled</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-171">Activé</span><span class="sxs-lookup"><span data-stu-id="6a9d7-171">Enabled</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-172">True</span><span class="sxs-lookup"><span data-stu-id="6a9d7-172">True</span></span></p></td>
+    <td><p><span data-ttu-id="6a9d7-173">True</span><span class="sxs-lookup"><span data-stu-id="6a9d7-173">True</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-10. Chaque utilisateur déplacé devra se déconnecter de Lync, puis se reconnecter. Lorsque l’utilisateur se reconnecte, il doit vérifier ses listes de contacts et ajouter des contacts, si nécessaire.
+10. <span data-ttu-id="6a9d7-174">Chaque utilisateur déplacé aura besoin de se déconnecter de Lync, puis de vous reconnecter.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-174">Each user who has been moved will need to log out of Lync, then log back in.</span></span> <span data-ttu-id="6a9d7-175">Lorsque l’utilisateur se reconnecte, il doit vérifier ses listes de contacts et ajouter des contacts, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-175">When they log in they should verify their contact lists, and add contacts if needed.</span></span>
     
-    Notez que les réunions planifiées ne sont pas migrées de Lync Online vers Lync local. Les utilisateurs doivent replanifier ces réunions après les avoir déplacées.
+    <span data-ttu-id="6a9d7-176">Notez que les réunions planifiées ne sont pas déplacées de Lync Online vers Lync local.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-176">Note that scheduled meetings are not migrated from Lync Online to Lync on-premises.</span></span> <span data-ttu-id="6a9d7-177">Les utilisateurs doivent replanifier ces réunions après les avoir déplacées.</span><span class="sxs-lookup"><span data-stu-id="6a9d7-177">Users will need to reschedule these meetings after being moved.</span></span>
     
-    Après la mise à jour des enregistrements DNS et la redirection de tous les utilisateurs vers l’environnement local, l’attribut HostingProvider indique à l’utilisateur Lync d’utiliser les enregistrements SRV ou le dirige vers le fournisseur en ligne « sipfed.online.lync.com ».
+    <span data-ttu-id="6a9d7-178">Une fois que les enregistrements DNS sont mis à jour et que tous les utilisateurs sont dirigés vers le site, l’attribut HostingProvider indique à l’utilisateur de Lync d’utiliser des enregistrements SRV ou de le diriger vers le fournisseur en ligne «sipfed.online.lync.com».</span><span class="sxs-lookup"><span data-stu-id="6a9d7-178">After the DNS records are updated and all users are directed to On premise, the HostingProvider attribute directs the Lync user to either use SRV records or direct them to the Online provider “sipfed.online.lync.com.”</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

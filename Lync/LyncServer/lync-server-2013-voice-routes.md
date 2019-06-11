@@ -1,80 +1,137 @@
-﻿---
-title: 'Lync Server 2013 : Itinéraires des communications vocales'
-TOCTitle: Itinéraires des communications vocales
-ms:assetid: a2ddf327-2ec4-407b-af0f-276f2b13eefd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412757(v=OCS.15)
-ms:contentKeyID: 49298379
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Itinéraires des communications vocales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Voice routes
+ms:assetid: a2ddf327-2ec4-407b-af0f-276f2b13eefd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412757(v=OCS.15)
+ms:contentKeyID: 48185038
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e46b4074d41d2ac79dfe63bc99411a7aba72a88c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846223"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Itinéraires des communications vocales dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="voice-routes-in-lync-server-2013"></a><span data-ttu-id="522fd-102">Itinéraires des communications vocales dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="522fd-102">Voice routes in Lync Server 2013</span></span>
 
-Les itinéraires téléphoniques spécifient comment Lync Server traite les appels sortants passés par les utilisateurs de Voix Entreprise. Lorsqu’un utilisateur compose un numéro, le serveur frontal normalise si nécessaire la chaîne de numérotation au format E.164 et tente de la faire correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction du numéro. La dernière étape de la définition de cette logique consiste à créer un itinéraire téléphonique nommé distinct pour chaque ensemble de numéros de téléphone de destination répertorié dans chaque plan de numérotation.
+</div>
 
-Avant de définir des itinéraires d’appels sortants, vous devez effectuer les étapes suivantes :
+<div id="mainSection">
 
-  - Déployer une ou plusieurs jonctions.
+<div id="mainBody">
 
-  - Créer des plans de numérotation selon les besoins des sites, des personnes, ainsi que des objets Contact.
+<span> </span>
 
-  - Créer des enregistrements d’utilisation RTC (réseau téléphonique commuté).
+<span data-ttu-id="522fd-103">_**Dernière modification de la rubrique:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="522fd-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-En outre, pour activer le routage des appels sortants, vous devez créer et affecter une ou plusieurs stratégies de voix. Vous pouvez effectuer cette tâche avant ou après la définition des itinéraires des appels sortants.
+<span data-ttu-id="522fd-104">Les itinéraires d’appels spécifient comment Lync Server gère les appels sortants placés par des utilisateurs d’Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="522fd-104">Call routes specify how Lync Server handles outbound calls placed by Enterprise Voice users.</span></span> <span data-ttu-id="522fd-105">Lorsqu’un utilisateur compose un numéro, le serveur frontal normalise la chaîne de numérotation au format E. 164, si nécessaire, et tente de correspondre à un URI SIP.</span><span class="sxs-lookup"><span data-stu-id="522fd-105">When a user dials a number, the Front End Server normalizes the dial string to E.164 format, if necessary, and attempts to match it to a SIP URI.</span></span> <span data-ttu-id="522fd-106">Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction du numéro.</span><span class="sxs-lookup"><span data-stu-id="522fd-106">If the server cannot make the match, it applies outgoing call routing logic based on the number.</span></span> <span data-ttu-id="522fd-107">La dernière étape de la définition de cette logique consiste à créer un itinéraire téléphonique nommé distinct pour chaque ensemble de numéros de téléphone de destination répertorié dans chaque plan de numérotation.</span><span class="sxs-lookup"><span data-stu-id="522fd-107">The final step in defining that logic is to create a separate named call route for each set of destination phone numbers that are listed in each dial plan.</span></span>
 
-Pour chaque itinéraire, vous devez indiquer :
+<span data-ttu-id="522fd-108">Avant de définir des itinéraires d’appels sortants, vous devez effectuer les étapes suivantes :</span><span class="sxs-lookup"><span data-stu-id="522fd-108">Before you define outbound call routes, you should complete the following steps:</span></span>
 
-  - un nom sous lequel l’itinéraire peut être facilement identifié ;
+  - <span data-ttu-id="522fd-109">Déployer une ou plusieurs jonctions.</span><span class="sxs-lookup"><span data-stu-id="522fd-109">Deploy one or more trunks.</span></span>
 
-  - une description facultative pour les cas où le nom seul peut ne pas être suffisant pour décrire l’itinéraire ;
+  - <span data-ttu-id="522fd-110">Créer des plans de numérotation selon les besoins des sites, des personnes, ainsi que des objets Contact.</span><span class="sxs-lookup"><span data-stu-id="522fd-110">Create dial plans as needed for sites, individuals, and Contact objects.</span></span>
 
-  - le modèle correspondant à l’expression régulière qui identifie les numéros de téléphone de destination auxquels l’itinéraire est appliqué, ainsi que les exceptions auxquelles le modèle ne doit pas être appliqué ;
+  - <span data-ttu-id="522fd-111">Créer des enregistrements d’utilisation PSTN (réseau téléphonique commuté).</span><span class="sxs-lookup"><span data-stu-id="522fd-111">Create public switched telephone network (PSTN) usage records.</span></span>
 
-  - une ou plusieurs jonctions que vous souhaitez affecter à l’itinéraire ;
+<span data-ttu-id="522fd-p102">En outre, pour activer le routage des appels sortants, vous devez créer et affecter une ou plusieurs stratégies de voix. Vous pouvez effectuer cette tâche avant ou après la définition des itinéraires des appels sortants.</span><span class="sxs-lookup"><span data-stu-id="522fd-p102">Additionally, to enable outbound call routing, you must create and assign one or more voice policies. You can do this either before or after you define outbound call routes.</span></span>
 
-  - les enregistrements d’utilisation RTC dont doivent disposer les utilisateurs afin d’appeler des numéros qui correspondent à l’expression régulière du numéro de téléphone de destination.
+<span data-ttu-id="522fd-114">Pour chaque itinéraire, vous devez indiquer :</span><span class="sxs-lookup"><span data-stu-id="522fd-114">For each route, you must specify:</span></span>
 
-Vous pouvez spécifier des itinéraires téléphoniques dans le Panneau de configuration Lync Server. Ces itinéraires renseignent la table de routage du serveur utilisée par Lync Server pour acheminer les appels destinés au réseau commuté.
+  - <span data-ttu-id="522fd-115">un nom sous lequel l’itinéraire peut être facilement identifié ;</span><span class="sxs-lookup"><span data-stu-id="522fd-115">A name by which the route can be easily identified.</span></span>
 
-## M:N Prise en charge des jonctions
+  - <span data-ttu-id="522fd-116">une description facultative pour les cas où le nom seul peut ne pas être suffisant pour décrire l’itinéraire ;</span><span class="sxs-lookup"><span data-stu-id="522fd-116">An optional description in cases where the name alone may not be sufficient to describe the route.</span></span>
 
-Lync Server offre une flexibilité dans la façon dont les appels sont acheminés vers le RTC. Un itinéraire des communications vocales spécifie un ensemble de jonctions au RTC qui peuvent être utilisées pour un appel vocal particulier. Une jonction associe un serveur de médiation et un numéro de port à une passerelle RTC et un numéro de port d’écoute. Cette association logique permet à un serveur de médiation d’être associé à plusieurs passerelles et de disposer de plusieurs connexions à la même passerelle. Lors de la définition d’un itinéraire téléphonique, vous spécifiez les jonctions associées à cet itinéraire, mais vous ne précisez pas les serveurs de médiation qui y sont associés. Pour créer des jonctions en définissant les relations entre des serveurs de médiation et des passerelles RTC, des IP-PBX et des contrôleurs SBC (Session Border Controllers), utilisez le Générateur de topologie.
+  - <span data-ttu-id="522fd-117">le modèle correspondant à l’expression régulière qui identifie les numéros de téléphone de destination auxquels l’itinéraire est appliqué, ainsi que les exceptions auxquelles le modèle ne doit pas être appliqué ;</span><span class="sxs-lookup"><span data-stu-id="522fd-117">The regular expression matching pattern that identifies the destination phone numbers to which the route is applied, along with exceptions to which the matching pattern is not to be applied.</span></span>
 
-## Routage à moindre coût
+  - <span data-ttu-id="522fd-118">une ou plusieurs jonctions que vous souhaitez affecter à l’itinéraire ;</span><span class="sxs-lookup"><span data-stu-id="522fd-118">One or more trunks that you want to assign to the route.</span></span>
 
-La possibilité de spécifier les jonctions vers lesquelles différents numéros sont routés permet de déterminer les itinéraires qui offrent les coûts les plus bas et de les mettre en œuvre en conséquence. La règle générale concernant la sélection des jonctions consiste à choisir celle possédant la passerelle la plus proche du numéro de destination afin de réduire les coûts des appels longue distance. Par exemple, si vous vous trouvez à New York et que vous appelez un numéro à Rome, vous transférerez l’appel via le réseau IP vers la jonction avec la passerelle de votre bureau romain, ne subissant ainsi que le coût d’un appel local.
+  - <span data-ttu-id="522fd-119">les enregistrements d’utilisation PSTN dont doivent disposer les utilisateurs afin d’appeler des numéros qui correspondent à l’expression régulière du numéro de téléphone de destination.</span><span class="sxs-lookup"><span data-stu-id="522fd-119">The PSTN usage records that users must have in order to call numbers matching the destination phone number regular expression.</span></span>
 
-Voici un exemple d’utilisation du routage à moindre coût : Fabrikam décide d’autoriser les utilisateurs allemands à composer des numéros américains à l’aide de la jonction correspondante. Fabrikam veut également configurer le système de sorte que tous les appels en provenance des utilisateurs de Lync Server aux États-Unis et destinés à l’Allemagne et aux pays/régions voisins aboutissent sur la jonction dont la passerelle se trouve en Allemagne. Ce routage est économique car un appel passé de l’Allemagne vers l’Australie, par exemple, est moins onéreux qu’un appel émis des États-Unis en direction de l’Australie.
+<span data-ttu-id="522fd-120">Vous pouvez spécifier des itinéraires d’appels dans le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="522fd-120">You can specify call routes in the Lync Server Control Panel.</span></span> <span data-ttu-id="522fd-121">Ces itinéraires d’appel remplissent la table de routage du serveur, qui est utilisée par Lync Server pour diriger les appels destinés au RTC.</span><span class="sxs-lookup"><span data-stu-id="522fd-121">These call routes populate the server routing table, which Lync Server uses to route calls that are destined for the PSTN.</span></span>
 
-## Conversion des chaînes de numérotation sortantes
+<div>
 
-Lync Server 2013, comme ses prédécesseurs immédiats, exige que toutes les chaînes de numérotation adoptent le format standard E.164 pour des besoins de recherche de numéros inversée. Pour les jonctions avec des passerelles ou des PBX (Private Branch Exchanges) qui requièrent des numéros convertis dans des formats de numérotation locaux, Lync Server 2013 vous permet de créer une ou plusieurs règles pour faciliter la manipulation du numéro appelé (autrement dit, l’URI de demande) avant de l’acheminer vers la jonction. Par exemple, vous pouvez rédiger une règle pour supprimer la valeur « +44 » au début de la chaîne de numérotation et la remplacer par « 0144 ».
+## <a name="mn-trunk-support"></a><span data-ttu-id="522fd-122">M:N Prise en charge des jonctions</span><span class="sxs-lookup"><span data-stu-id="522fd-122">M:N Trunk Support</span></span>
 
-Avec Lync Server 2013, il est possible de créer une ou plusieurs règles pour simplifier la manipulation du numéro appelé avant de l’acheminer vers la jonction.
+<span data-ttu-id="522fd-123">Lync Server offre une souplesse pour le routage des appels vers PSTN.</span><span class="sxs-lookup"><span data-stu-id="522fd-123">Lync Server provides flexibility in how calls are routed to the PSTN.</span></span> <span data-ttu-id="522fd-124">Un itinéraire des communications vocales spécifie un ensemble de jonctions au PSTN qui peuvent être utilisées pour un appel vocal particulier.</span><span class="sxs-lookup"><span data-stu-id="522fd-124">A voice route specifies a set of trunks to the PSTN that can be used for a particular voice call.</span></span> <span data-ttu-id="522fd-125">Un Trunk associe un serveur de médiation et un numéro de port avec une passerelle PSTN et un numéro de port d’écoute.</span><span class="sxs-lookup"><span data-stu-id="522fd-125">A trunk associates a Mediation Server and a port number with a PSTN gateway and listening port number.</span></span> <span data-ttu-id="522fd-126">Cette association logique permet d’associer un serveur de médiation à plusieurs passerelles et de disposer de plusieurs connexions à la même passerelle.</span><span class="sxs-lookup"><span data-stu-id="522fd-126">This logical association enables a Mediation Server to be associated with multiple gateways and have multiple connections to the same gateway.</span></span> <span data-ttu-id="522fd-127">Lors de la définition d’un itinéraire d’appel, vous spécifiez les Trunks associés à cet itinéraire, mais vous ne spécifiez pas les serveurs de médiation associés à l’itinéraire.</span><span class="sxs-lookup"><span data-stu-id="522fd-127">When defining a call route, you specify the trunks associated with that route, but you do not specify which Mediation Servers are associated with the route.</span></span> <span data-ttu-id="522fd-128">Pour créer des Trunks en définissant les relations entre les serveurs de médiation et les passerelles RTC, PBX IP et contrôleurs de frontière de session (SBCs), utilisez le générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="522fd-128">To create trunks by defining the relationships between Mediation Servers and PSTN gateways, IP-PBXs, and Session Border Controllers (SBCs), use the Topology Builder.</span></span>
 
-En planifiant vos jonctions qui associent des paires passerelles:port à des paires serveur de médiation:port, il peut s’avérer utile de regrouper les jonctions ayant des exigences de numérotation locale similaires afin de réduire le nombre de règles de conversion requises et le temps nécessaire pour les rédiger.
+</div>
 
-## Configuration d’un ID d’appelant
+<div>
 
-Lync Server permet de manipuler l’ID de l’appelant pour les appels sortants. Par exemple, si une organisation souhaite masquer les numéros de poste direct des employés et les remplacer par le numéro de l’entreprise ou du service générique, un administrateur peut désormais utiliser le Panneau de configuration Lync Server pour supprimer l’ID de l’appelant et le remplacer par un autre ID d’appelant indiqué. Lors de la planification de votre logique de routage, déterminez les personnes, groupes ou sites pour lesquels vous souhaiterez activer cette option (vous pourriez même l’activer pour l’ensemble des employés).
+## <a name="least-cost-routing"></a><span data-ttu-id="522fd-129">Routage à moindre coût</span><span class="sxs-lookup"><span data-stu-id="522fd-129">Least-Cost Routing</span></span>
+
+<span data-ttu-id="522fd-p105">La possibilité de spécifier les jonctions vers lesquelles différents numéros sont routés permet de déterminer les itinéraires qui offrent les coûts les plus bas et de les mettre en œuvre en conséquence. La règle générale concernant la sélection des jonctions consiste à choisir celle possédant la passerelle la plus proche du numéro de destination afin de réduire les coûts des appels longue distance. Par exemple, si vous vous trouvez à New York et que vous appelez un numéro à Rome, vous transférerez l’appel via le réseau IP vers la jonction avec la passerelle de votre bureau romain, ne subissant ainsi que le coût d’un appel local.</span><span class="sxs-lookup"><span data-stu-id="522fd-p105">The ability to specify the trunks to which various numbers are routed enables you to determine which routes incur the lowest costs and implement them accordingly. The general rule in selecting trunks is to choose the trunk with the closest gateway to the location of the destination number in order to minimize long-distance charges. For example, if you are in New York and calling a number in Rome, you would carry the call over the IP network to the trunk with the gateway in your Rome office, thereby incurring a charge only for a local call.</span></span>
+
+<span data-ttu-id="522fd-133">Voici un exemple d’utilisation du routage à moindre coût : Fabrikam décide d’autoriser les utilisateurs allemands à composer des numéros américains à l’aide de la jonction correspondante.</span><span class="sxs-lookup"><span data-stu-id="522fd-133">For an example of how least-cost routing might be used, consider the following: Fabrikam decides to enable German users to dial U.S. numbers by using the U.S. trunk.</span></span> <span data-ttu-id="522fd-134">Fabrikam veut également configurer le système de manière à ce que tous les appels des utilisateurs du serveur Lync U.S. vers l’Allemagne et les pays/régions adjacents se terminent sur le Trunk avec la passerelle en Allemagne.</span><span class="sxs-lookup"><span data-stu-id="522fd-134">Fabrikam also wants to configure the system so that all calls from U.S. Lync Server users to Germany and adjacent countries/regions terminate on the trunk with the gateway in Germany.</span></span> <span data-ttu-id="522fd-135">Ce routage est économique car un appel passé de l’Allemagne vers l’Australie, par exemple, est moins onéreux qu’un appel émis des États-Unis en direction de l’Australie.</span><span class="sxs-lookup"><span data-stu-id="522fd-135">This routing will save money, because a call from Germany to Austria, for example, is less expensive than a call from the U.S. to Austria.</span></span>
+
+</div>
+
+<div>
+
+## <a name="translating-outbound-dial-strings"></a><span data-ttu-id="522fd-136">Conversion des chaînes de numérotation sortantes</span><span class="sxs-lookup"><span data-stu-id="522fd-136">Translating Outbound Dial Strings</span></span>
+
+<span data-ttu-id="522fd-137">Lync Server 2013, à l’instar de ses prédécesseurs, nécessite que toutes les chaînes de numérotation soient normalisées au format E. 164 pour pouvoir exécuter la recherche de numéros inverse (RNL).</span><span class="sxs-lookup"><span data-stu-id="522fd-137">Lync Server 2013, like its immediate predecessors, requires all dial strings to be normalized to E.164 format for the purpose of performing reverse number lookup (RNL).</span></span> <span data-ttu-id="522fd-138">S’il s’agit de lignes avec passerelles ou d’échangeurs de succursales privées (PBX) qui nécessitent des numéros traduits dans les formats de numérotation locaux, Lync Server 2013 vous permet de créer une ou plusieurs règles qui vous aident à manipuler le numéro appelé (URI de demande) avant de le diriger vers le tronc.</span><span class="sxs-lookup"><span data-stu-id="522fd-138">For trunks with gateways or private branch exchanges (PBXs) that require numbers translated in local dialing formats, Lync Server 2013 enables you to create one or more rules that assist in manipulating the called number (i.e. Request URI) prior to routing it to the trunk.</span></span> <span data-ttu-id="522fd-139">Par exemple, vous pouvez rédiger une règle pour supprimer la valeur « +44 » au début de la chaîne de numérotation et la remplacer par « 0144 ».</span><span class="sxs-lookup"><span data-stu-id="522fd-139">For example, you could write a rule to remove +44 from the head of a dial string and replace it with 0144.</span></span>
+
+<span data-ttu-id="522fd-140">Avec Lync Server 2013, il est possible de créer une ou plusieurs règles qui vous aident à manipuler le numéro d’appel avant de le diriger vers le Trunk.</span><span class="sxs-lookup"><span data-stu-id="522fd-140">With Lync Server 2013, it is possible to create one or more rules that assist in manipulating the calling number prior to routing it to the trunk.</span></span>
+
+<span data-ttu-id="522fd-141">Dans la planification de vos Trunks qui associent des passerelles: paires de port avec médiation Server: paires de port, il peut être utile de regrouper les Trunks avec des exigences de numérotation locales similaires, et donc de réduire le nombre de règles de traduction requises et le temps nécessaire pour les écrire.</span><span class="sxs-lookup"><span data-stu-id="522fd-141">In planning your trunks that associate gateways:port pairs with Mediation Server:port pairs, it may be useful to group trunks with similar local dialing requirements, and therefore reduce the number of required translation rules and the time it takes to write them.</span></span>
+
+</div>
+
+<div>
+
+## <a name="configuring-caller-id"></a><span data-ttu-id="522fd-142">Configuration d’un ID d’appelant</span><span class="sxs-lookup"><span data-stu-id="522fd-142">Configuring Caller ID</span></span>
+
+<span data-ttu-id="522fd-143">Lync Server fournit un moyen de manipuler l’ID de l’appelant pour les appels sortants.</span><span class="sxs-lookup"><span data-stu-id="522fd-143">Lync Server provides a way to manipulate the caller ID for outbound calls.</span></span> <span data-ttu-id="522fd-144">Par exemple, si une organisation veut masquer les extensions de numérotation directe des employés et les remplacer par le numéro générique d’entreprise ou de département, un administrateur peut le faire en utilisant le panneau de configuration de Lync Server pour supprimer l’ID de l’appelant et le remplacer par un ID d’appelant différent spécifié.</span><span class="sxs-lookup"><span data-stu-id="522fd-144">For example, if an organization wants to mask employees’ direct-dial extensions and replace them with the generic corporate or departmental number, an administrator can do that by using Lync Server Control Panel to suppress the caller ID and replace it with a specified alternative caller ID.</span></span> <span data-ttu-id="522fd-145">Lors de la planification de votre logique de routage, déterminez les personnes, groupes ou sites pour lesquels vous souhaiterez activer cette option (vous pourriez même l’activer pour l’ensemble des employés).</span><span class="sxs-lookup"><span data-stu-id="522fd-145">In planning your routing logic, consider which individuals, groups, sites you’ll want this option for—perhaps, even, for all employees.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Pour les appels réacheminés sur le réseau téléphonique commuté, l’ID de l’appelant générique s’affiche à la place de l’ID initial. L’appel peut alors contourner les paramètres de confidentialité ou « Ne pas déranger » éventuellement configurés par l’appelé.
+> <span data-ttu-id="522fd-p109">Pour les appels réacheminés sur le réseau téléphonique commuté, l’ID de l’appelant générique s’affiche à la place de l’ID initial. L’appel peut alors contourner les paramètres de confidentialité ou « Ne pas déranger » éventuellement configurés par l’appelé.</span><span class="sxs-lookup"><span data-stu-id="522fd-p109">For calls that are rerouted over the PSTN, the generic caller ID will be presented instead of the original caller ID. This can cause the call to bypass Do Not Disturb or privacy settings that the callee may have configured.</span></span>
 
-## Logique de routage supplémentaire
 
-Lors de la création d’itinéraires téléphoniques sortants, vous devez avoir conscience des facteurs suivants susceptibles d’affecter la logique de routage :
 
-  - Lorsqu’un appel est établi sur une limite fédérée, la partie domaine de l’URI permet d’acheminer l’appel vers l’entreprise chargée de l’application de la logique du routage sortant.
+</div>
 
-  - Si la partie domaine de l’URI demandé ne contient pas de domaine pris en charge pour l’entreprise, le composant de routage sortant sur le serveur ne traite pas l’appel.
+</div>
 
-  - Si un utilisateur n’est pas activé pour Voix Entreprise, le serveur applique une autre logique de routage, selon le cas.
+<div>
 
-  - Si un appel est acheminé vers une passerelle totalement occupée (toutes les lignes de la jonction sont occupées), la passerelle refuse l’appel et la logique de routage des appels sortants le redirige vers l’itinéraire à moindre coût suivant. Vous devez tenir compte de ces éléments, car une passerelle dont la taille est adaptée à un petit bureau à l’étranger (par exemple, Zurich) peut en réalité transporter une quantité considérable de trafic non local pour des appels internationaux vers la Suisse. Si la taille de la passerelle ne convient pas à ce trafic supplémentaire, les appels vers la Suisse peuvent être acheminés via une passerelle située en Allemagne, ce qui augmente les frais téléphoniques.
+## <a name="additional-routing-logic"></a><span data-ttu-id="522fd-148">Logique de routage supplémentaire</span><span class="sxs-lookup"><span data-stu-id="522fd-148">Additional Routing Logic</span></span>
+
+<span data-ttu-id="522fd-149">Lors de la création d’itinéraires téléphoniques sortants, vous devez avoir conscience des facteurs suivants susceptibles d’affecter la logique de routage :</span><span class="sxs-lookup"><span data-stu-id="522fd-149">In creating outbound call routes, you should be aware of the following factors that can affect routing logic:</span></span>
+
+  - <span data-ttu-id="522fd-150">Lorsqu’un appel est établi sur une limite fédérée, la partie domaine de l’URI permet d’acheminer l’appel vers l’entreprise chargée de l’application de la logique du routage sortant.</span><span class="sxs-lookup"><span data-stu-id="522fd-150">Where a call is established over a federated boundary, the domain portion of the URI is used to route the call over to the enterprise that is responsible for applying the outbound routing logic.</span></span>
+
+  - <span data-ttu-id="522fd-151">Si la partie domaine de l’URI demandé ne contient pas de domaine pris en charge pour l’entreprise, le composant de routage sortant sur le serveur ne traite pas l’appel.</span><span class="sxs-lookup"><span data-stu-id="522fd-151">If the domain portion of the request URI does not contain a supported domain for the enterprise, the outbound routing component on the server does not process the call.</span></span>
+
+  - <span data-ttu-id="522fd-152">Si un utilisateur n’est pas activé pour voix entreprise, le serveur applique une autre logique de routage, selon le cas.</span><span class="sxs-lookup"><span data-stu-id="522fd-152">If a user is not enabled for Enterprise Voice, the server applies other routing logic, as appropriate.</span></span>
+
+  - <span data-ttu-id="522fd-p110">Si un appel est acheminé vers une passerelle totalement occupée (toutes les lignes de la jonction sont occupées), la passerelle refuse l’appel et la logique de routage des appels sortants le redirige vers l’itinéraire à moindre coût suivant. Vous devez tenir compte de ces éléments, car une passerelle dont la taille est adaptée à un petit bureau à l’étranger (par exemple, Zurich) peut en réalité transporter une quantité considérable de trafic non local pour des appels internationaux vers la Suisse. Si la taille de la passerelle ne convient pas à ce trafic supplémentaire, les appels vers la Suisse peuvent être acheminés via une passerelle située en Allemagne, ce qui augmente les frais téléphoniques.</span><span class="sxs-lookup"><span data-stu-id="522fd-p110">If a call is routed to a gateway that is fully occupied (all trunk lines are busy), the gateway rejects the call and the outbound routing logic redirects the call to the next-least-cost route. Give this careful consideration, because a gateway sized for a small office overseas (for example, Zurich) may actually carry a significant amount of nonlocal traffic for international calls to Switzerland. If the gateway is not correctly sized for this additional traffic, calls to Switzerland may be routed by way of a gateway in Germany, resulting in larger toll charges.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

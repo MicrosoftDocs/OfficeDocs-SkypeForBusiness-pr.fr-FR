@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013 : tblEnumAttribute'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblEnumAttribute
 ms:assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558617(v=OCS.15)
-ms:contentKeyID: 49296383
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558617(v=OCS.15)
+ms:contentKeyID: 48183523
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 2662f5d0ea9b55f8e3f5320b2e385157bef8bce9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846688"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblEnumAttribute dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tblenumattribute-in-lync-server-2013"></a><span data-ttu-id="17e04-102">tblEnumAttribute dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17e04-102">tblEnumAttribute in Lync Server 2013</span></span>
 
-tblEnumAttribute est une table codée en dur qui contient les attributs Visibility et Behavior utilisés dans la table Node.
+</div>
 
-### Colonnes
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="17e04-103">_**Dernière modification de la rubrique:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="17e04-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="17e04-104">tblEnumAttribute est une table codée en dur qui contient les attributs de visibilité et de comportement qui sont utilisés dans la table de nœud.</span><span class="sxs-lookup"><span data-stu-id="17e04-104">tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior attributes that are used in the Node table.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="17e04-105">Celles</span><span class="sxs-lookup"><span data-stu-id="17e04-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,27 +47,27 @@ tblEnumAttribute est une table codée en dur qui contient les attributs Visibili
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Type</th>
-<th>Description</th>
+<th><span data-ttu-id="17e04-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="17e04-106">Column</span></span></th>
+<th><span data-ttu-id="17e04-107">Type</span><span class="sxs-lookup"><span data-stu-id="17e04-107">Type</span></span></th>
+<th><span data-ttu-id="17e04-108">Description</span><span class="sxs-lookup"><span data-stu-id="17e04-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>attributeID</p></td>
-<td><p>smallint, non null</p></td>
-<td><p>ID de l’attribut</p></td>
+<td><p><span data-ttu-id="17e04-109">attributeID</span><span class="sxs-lookup"><span data-stu-id="17e04-109">attributeID</span></span></p></td>
+<td><p><span data-ttu-id="17e04-110">smallint, pas null</span><span class="sxs-lookup"><span data-stu-id="17e04-110">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="17e04-111">ID de l’attribut.</span><span class="sxs-lookup"><span data-stu-id="17e04-111">ID of the attribute.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>attributeName</p></td>
-<td><p>nvarchar (256), non null</p></td>
-<td><p>Nom de l’attribut.</p></td>
+<td><p><span data-ttu-id="17e04-112">attributeName</span><span class="sxs-lookup"><span data-stu-id="17e04-112">attributeName</span></span></p></td>
+<td><p><span data-ttu-id="17e04-113">nvarchar (256), pas null</span><span class="sxs-lookup"><span data-stu-id="17e04-113">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="17e04-114">Nom de l’attribut.</span><span class="sxs-lookup"><span data-stu-id="17e04-114">Name of the attribute.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Clé
+### <a name="key"></a><span data-ttu-id="17e04-115">Clé</span><span class="sxs-lookup"><span data-stu-id="17e04-115">Key</span></span>
 
 <table>
 <colgroup>
@@ -56,20 +76,20 @@ tblEnumAttribute est une table codée en dur qui contient les attributs Visibili
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Description</th>
+<th><span data-ttu-id="17e04-116">Colonne</span><span class="sxs-lookup"><span data-stu-id="17e04-116">Column</span></span></th>
+<th><span data-ttu-id="17e04-117">Description</span><span class="sxs-lookup"><span data-stu-id="17e04-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>attributeID</p></td>
-<td><p>Clé primaire.</p></td>
+<td><p><span data-ttu-id="17e04-118">attributeID</span><span class="sxs-lookup"><span data-stu-id="17e04-118">attributeID</span></span></p></td>
+<td><p><span data-ttu-id="17e04-119">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="17e04-119">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Valeurs de la table
+### <a name="table-values"></a><span data-ttu-id="17e04-120">Valeurs de table</span><span class="sxs-lookup"><span data-stu-id="17e04-120">Table Values</span></span>
 
 <table>
 <colgroup>
@@ -78,26 +98,40 @@ tblEnumAttribute est une table codée en dur qui contient les attributs Visibili
 </colgroup>
 <thead>
 <tr class="header">
-<th>attributeID</th>
-<th>attributeName</th>
+<th><span data-ttu-id="17e04-121">attributeID</span><span class="sxs-lookup"><span data-stu-id="17e04-121">attributeID</span></span></th>
+<th><span data-ttu-id="17e04-122">attributeName</span><span class="sxs-lookup"><span data-stu-id="17e04-122">attributeName</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Visibilité.</p></td>
+<td><p><span data-ttu-id="17e04-123">1</span><span class="sxs-lookup"><span data-stu-id="17e04-123">1</span></span></p></td>
+<td><p><span data-ttu-id="17e04-124">Notoriété.</span><span class="sxs-lookup"><span data-stu-id="17e04-124">Visibility.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>Comportement.</p></td>
+<td><p><span data-ttu-id="17e04-125">2</span><span class="sxs-lookup"><span data-stu-id="17e04-125">2</span></span></p></td>
+<td><p><span data-ttu-id="17e04-126">Fonctionnement.</span><span class="sxs-lookup"><span data-stu-id="17e04-126">Behavior.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Voir aussi
+<div>
 
-#### Concepts
+## <a name="see-also"></a><span data-ttu-id="17e04-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="17e04-127">See Also</span></span>
 
-[tblNode dans Lync Server 2013](lync-server-2013-tblnode.md)
+
+[<span data-ttu-id="17e04-128">tblNode dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17e04-128">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

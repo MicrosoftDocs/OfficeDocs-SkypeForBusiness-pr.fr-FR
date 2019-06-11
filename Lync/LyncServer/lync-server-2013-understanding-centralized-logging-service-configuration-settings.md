@@ -1,128 +1,171 @@
-﻿---
-title: "Présentation des param. de config. du service de journalisation centralisée"
-TOCtitle: "Présentation des param. de config. du service de journalisation centralisée"
-ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688029(v=OCS.15)
-ms:contentKeyID: 49891312
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Présentation des paramètres de configuration du service de journalisation centralisé
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Understanding Centralized Logging Service configuration settings
+ms:assetid: 3c34e600-0b91-43dc-b4cc-90b6a70ee12e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688029(v=OCS.15)
+ms:contentKeyID: 49733619
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7a4f9a6a2db8cb4726abc65553fc4482d349f38f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846473"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Présentation des paramètres de configuration du service de journalisation centralisée
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="a862e-102">Présentation des paramètres de configuration du service de journalisation centralisé dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a862e-102">Understanding Centralized Logging Service configuration settings in Lync Server 2013</span></span>
 
-Le service de journalisation centralisée est configuré pour définir les éléments qu’il est appelé à collecter, le mode de collecte, la source de collecte, ainsi que les paramètres de journalisation. Ces paramètres sont définis à une échelle globale (c’est-à-dire, pour le déploiement entier) ou au niveau d’un site (c’est-à-dire, un site déterminé dans votre déploiement). La journalisation que vous définissez utilise les paramètres appropriés à l’identité utilisée pour les commandes de démarrage, d’arrêt, de vidage et de recherche de journaux.
+</div>
 
-## Pour afficher la configuration active du service de journalisation centralisée
+<div id="mainSection">
 
-Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+<div id="mainBody">
 
-Tapez ce qui suit dans une invite de ligne de commande :
+<span> </span>
 
-    Get-CsClsConfiguration
+<span data-ttu-id="a862e-103">_**Dernière modification de la rubrique:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a862e-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-> [!TIP]  
-> Vous pouvez limiter ou étendre la portée des paramètres de configuration retournés en définissant <code>-Identity</code> et une portée (par exemple, « Site:Redmond » pour retourner uniquement CsClsConfiguration pour le site Redmond. Si vous avez besoin de détails sur une partie spécifique de la configuration, vous pouvez rediriger le résultat vers une autre applet de commande Windows PowerShell. Par exemple, pour obtenir des détails sur les scénarios définis dans la configuration du site « Redmond », tapez : <code>Get-CsClsConfiguration -Identity &quot;site:Redmond&quot; | Select-Object -ExpandPropery Scenarios</code>
+<span data-ttu-id="a862e-104">Le service de journalisation centralisé est configuré pour définir ce que le service de journalisation doit collecter, la manière dont il recueille l’emplacement et les paramètres de journalisation.</span><span class="sxs-lookup"><span data-stu-id="a862e-104">The Centralized Logging Service is configured to define what the logging service is intended to collect, how it collects, where it will collect from, and what the log settings are.</span></span> <span data-ttu-id="a862e-105">Ces paramètres sont définis de manière globale (cʼest-à-dire pour lʼensemble du déploiement) ou au niveau d’un site (c’est-à-dire un site déterminé dans votre déploiement).</span><span class="sxs-lookup"><span data-stu-id="a862e-105">You define these settings globally (that is, for the entire deployment) or for a site (that is, a named site in your deployment).</span></span> <span data-ttu-id="a862e-106">La journalisation que vous définissez utilise les paramètres appropriés à l’identité utilisée pour les commandes de démarrage, d’arrêt, de vidage et de recherche de journaux.</span><span class="sxs-lookup"><span data-stu-id="a862e-106">Any logging that you define will use the settings that are appropriate for the identity that you use for commands to start, stop, flush, and search logs.</span></span>
 
-![Exemple de sortie de Get-CsClsConfiguration.](images/JJ688138.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")
+<div>
 
-Le résultat de l’applet de commande affiche la configuration active du service de journalisation centralisée.
+## <a name="to-display-the-current-centralized-logging-service-configuration"></a><span data-ttu-id="a862e-107">Pour afficher la configuration actuelle du service de journalisation centralisée</span><span class="sxs-lookup"><span data-stu-id="a862e-107">To display the current Centralized Logging Service configuration</span></span>
+
+1.  <span data-ttu-id="a862e-108">Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="a862e-108">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="a862e-109">Tapez ce qui suit dans une invite de ligne de commande :</span><span class="sxs-lookup"><span data-stu-id="a862e-109">Type the following at a command-line prompt:</span></span>
+    
+        Get-CsClsConfiguration
+    
+    <div>
+    
+
+    > [!TIP]
+    > <span data-ttu-id="a862e-110">Vous pouvez réduire ou développer l’étendue des paramètres de configuration renvoyés par la définition <CODE>-Identity</CODE> et une étendue, par exemple, «site: Redmond» pour renvoyer uniquement le CsClsConfiguration pour le site Redmond.</span><span class="sxs-lookup"><span data-stu-id="a862e-110">You can narrow or expand the scope of the configuration settings that are returned by defining <CODE>-Identity</CODE> and a scope, such as "Site:Redmond" to return only the CsClsConfiguration for the site Redmond.</span></span> <span data-ttu-id="a862e-111">Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez canaler la sortie dans une autre applet de cmdlet Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a862e-111">If you want details about a given portion of the configuration, you can pipe the output into another Windows PowerShell cmdlet.</span></span> <span data-ttu-id="a862e-112">Par exemple, pour obtenir des informations sur les scénarios définis dans la configuration du site «Redmond», tapez:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE></span><span class="sxs-lookup"><span data-stu-id="a862e-112">For example, to get details about the scenarios defined in the configuration for site "Redmond", type: <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE></span></span>
+
+    
+    </div>
+    
+    <span data-ttu-id="a862e-113">![Exemple de sortie de Get-CsClsConfiguration.] (images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemple de sortie de Get-CsClsConfiguration.")</span><span class="sxs-lookup"><span data-stu-id="a862e-113">![Sample output from Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Sample output from Get-CsClsConfiguration.")</span></span>
+    
+    <span data-ttu-id="a862e-114">Le résultat de l’applet de connexion affiche la configuration actuelle du service de journalisation centralisé.</span><span class="sxs-lookup"><span data-stu-id="a862e-114">The result from the cmdlet displays the current configuration of the Centralized Logging Service.</span></span>
+    
+    
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><span data-ttu-id="a862e-115">Paramètre de configuration</span><span class="sxs-lookup"><span data-stu-id="a862e-115">Configuration Setting</span></span></th>
+    <th><span data-ttu-id="a862e-116">Description</span><span class="sxs-lookup"><span data-stu-id="a862e-116">Description</span></span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-117"><strong>Identity</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-117"><strong>Identity</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-p103">Identifie lʼétendue et le nom de cette configuration. Il existe une seule configuration globale et une seule configuration par site.</span><span class="sxs-lookup"><span data-stu-id="a862e-p103">Identifies the scope and name for this configuration. There is only one Global configuration, and one configuration per site.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-120"><strong>Scenarios</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-120"><strong>Scenarios</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-121">Liste de tous les scénarios définis pour cette configuration.</span><span class="sxs-lookup"><span data-stu-id="a862e-121">Listing of all scenarios that are defined for this configuration.</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-122"><strong>SearchTerms</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-122"><strong>SearchTerms</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-123">Termes de recherche définis pour la configuration.</span><span class="sxs-lookup"><span data-stu-id="a862e-123">Defined search terms for the configuration.</span></span> <span data-ttu-id="a862e-124">Office 365, et non des déploiements sur site.</span><span class="sxs-lookup"><span data-stu-id="a862e-124">Office 365, not on-premises deployments.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-125"><strong>SecurityGroups</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-125"><strong>SecurityGroups</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-126">Groupes de sécurité définis déterminant les personnes (c’est-à-dire, les membres des groupes de sécurité) autorisées à voir les ordinateurs du sur lequel elles se trouvent.</span><span class="sxs-lookup"><span data-stu-id="a862e-126">Defined security groups that control who (that is, members of the security groups) can see computers based on the site they are located in.</span></span> <span data-ttu-id="a862e-127">Le site, dans ce contexte, est le site tel qu’il est défini dans le générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="a862e-127">Site, in this context, is the site as defined in Topology Builder.</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-128"><strong>Regions</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-128"><strong>Regions</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-129">Les régions définies servent à collecter les groupes de sécurité (SecurityGroups) dans une région, par exemple, EMEA (Europe/Moyen-Orient/Afrique).</span><span class="sxs-lookup"><span data-stu-id="a862e-129">Defined regions are used to collect SecurityGroups into a region, for example EMEA.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-130"><strong>EtlFileFolder</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-130"><strong>EtlFileFolder</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-131">Chemin d’accès défini de l’emplacement dans lequel les fichiers journaux sont écrits sur des ordinateurs.</span><span class="sxs-lookup"><span data-stu-id="a862e-131">Defined path to the location where log files are written on computers.</span></span> <span data-ttu-id="a862e-132">CLSAgent écrit les fichiers journaux et s’exécute dans le contexte du service réseau.</span><span class="sxs-lookup"><span data-stu-id="a862e-132">CLSAgent writes the log files and runs under the context of the Network Service.</span></span> <span data-ttu-id="a862e-133">Dans le cas présent,% TEMP% est étendu à%WINDIR%\ServiceProfiles\NetworkService\AppData\Local</span><span class="sxs-lookup"><span data-stu-id="a862e-133">In this case, %TEMP% expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-134"><strong>EtlFileRolloverSizeMB</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-134"><strong>EtlFileRolloverSizeMB</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-p107">Ce paramètre indique la taille maximale du fichier journal au-delà de laquelle un nouveau fichier journal de suivi d’événements (.etl) est créé. Un nouveau fichier journal est créé quand la taille définie est atteinte, même si la durée maximale définie dans EtlFileRolloverMinutes n’a pas encore été atteinte.</span><span class="sxs-lookup"><span data-stu-id="a862e-p107">The parameter indicates the maximum size of the log file before a new event trace log (.etl) file is created. A new log file is created when the defined size is reached even if the maximum time set in EtlFileRolloverMinutes has not yet been reached.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-137"><strong>EtlFileRolloverMinutes</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-137"><strong>EtlFileRolloverMinutes</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-p108">Durée maximale définie en minutes au-delà de laquelle un nouveau fichier .etl est créé. Un nouveau fichier local est créé quand le minuteur arrive à expiration, même si la taille maximale définie dans EtlFileRolloverSizeMB n’a pas encore été atteinte.</span><span class="sxs-lookup"><span data-stu-id="a862e-p108">Defined maximum amount of time, in minutes, that a log can elapse before a new .etl file is created. A new log file is created when the timer expires even if the maximum size set in EtlFileRolloverSizeMB has not yet been reached.</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-140"><strong>TmfFileSearchPath</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-140"><strong>TmfFileSearchPath</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-141">Emplacement dans lequel rechercher les fichiers au format de message de suivi.</span><span class="sxs-lookup"><span data-stu-id="a862e-141">Location to search for the trace message format files.</span></span> <span data-ttu-id="a862e-142">Les fichiers de format des messages de suivi sont utilisés pour convertir les fichiers binaires en un format lisible par le humain.</span><span class="sxs-lookup"><span data-stu-id="a862e-142">The trace message format files are used to convert the binary files into a human readable format.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-143"><strong>CacheFileLocalFolders</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-143"><strong>CacheFileLocalFolders</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-p110">Chemin d’accès défini à l’emplacement où sont écrits les fichiers cache sur les ordinateurs. CLSAgent écrit les fichiers cache et s’exécute dans le contexte du service réseau. Dans ce cas, %TEMP% s’étend vers %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. Par défaut, les fichiers cache et les fichiers journaux sont écrits dans le même répertoire.</span><span class="sxs-lookup"><span data-stu-id="a862e-p110">Defined path to the location where cache files are written on computers. CLSAgent writes the cache files and runs under the context of the Network Service. In this case, %TEMP% expands to %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. By default, cache files and log files are written to the same directory.</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-148"><strong>CacheFileNetworkFolder</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-148"><strong>CacheFileNetworkFolder</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-149">Vous pouvez définir un chemin d’accès UNC (Universal Naming Convention) pour recevoir les fichiers cache lors des opérations de journalisation.</span><span class="sxs-lookup"><span data-stu-id="a862e-149">You can define a universal naming convention (UNC) path to receive the cache files during logging operations.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-150"><strong>CacheFileLocalRetentionPeriod</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-150"><strong>CacheFileLocalRetentionPeriod</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-151">Définit la durée maximale de conservation des fichiers cache, en jours.</span><span class="sxs-lookup"><span data-stu-id="a862e-151">Defined as the maximum time, in days, that cache files are retained.</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-152"><strong>CacheFileMaxDiskUsage</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-152"><strong>CacheFileMaxDiskUsage</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-153">Définit le pourcentage d’espace disque pouvant être utilisé par les fichiers cache.</span><span class="sxs-lookup"><span data-stu-id="a862e-153">Defined as the percentage of disk space that can be used by the cache files.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-154"><strong>ComponentThrottleLimit</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-154"><strong>ComponentThrottleLimit</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-155">Définit le nombre maximal de traces par seconde pouvant être créées par un composant avant le déclenchement du limiteur automatique.</span><span class="sxs-lookup"><span data-stu-id="a862e-155">Defined as the maximum number of traces per second that a component can produce before the automatic throttle limiter is triggered.</span></span></p></td>
+    </tr>
+    <tr class="odd">
+    <td><p><span data-ttu-id="a862e-156"><strong>ComponentThrottleSample</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-156"><strong>ComponentThrottleSample</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-157">Nombre de fois que la limite ComponentThrottleLimit peut être dépassée en l’espace de 60 secondes.</span><span class="sxs-lookup"><span data-stu-id="a862e-157">Number of times in 60 seconds that the ComponentThrottleLimit can be exceeded.</span></span></p></td>
+    </tr>
+    <tr class="even">
+    <td><p><span data-ttu-id="a862e-158"><strong>MinimumClsAgentServiceVersion</strong></span><span class="sxs-lookup"><span data-stu-id="a862e-158"><strong>MinimumClsAgentServiceVersion</strong></span></span></p></td>
+    <td><p><span data-ttu-id="a862e-159">La version minimale du CLSAgent dont lʼexécution est autorisée.</span><span class="sxs-lookup"><span data-stu-id="a862e-159">The minimum version of the CLSAgent allowed to run.</span></span> <span data-ttu-id="a862e-160">Cet élément est destiné à Office 365.</span><span class="sxs-lookup"><span data-stu-id="a862e-160">This element is intended for Office 365.</span></span></p></td>
+    </tr>
+    </tbody>
+    </table>
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre de configuration</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Identity</strong></p></td>
-<td><p>Identifie la portée et le nom de cette configuration. Il existe une seule configuration globale et une seule configuration par site.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Scenarios</strong></p></td>
-<td><p>Liste de tous scénarios définis pour cette configuration.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>SearchTerms</strong></p></td>
-<td><p>Termes de recherche définis pour la configuration. Office 365, pas de déploiements locaux.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>SecurityGroups</strong></p></td>
-<td><p>Groupes de sécurité définis déterminant les personnes (c’est-à-dire, les membres des groupes de sécurité) autorisées à voir les ordinateurs du sur lequel elles se trouvent. Dans ce contexte, il s’agit du site défini dans le Générateur de topologie.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Regions</strong></p></td>
-<td><p>Les régions définies servent à collecter les groupes de sécurité (SecurityGroups) dans une région, par exemple, EMEA (Europe/Moyen-Orient/Afrique).</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>EtlFileFolder</strong></p></td>
-<td><p>Chemin d’accès défini à l’emplacement où sont écrits les fichiers journaux sur les ordinateurs. CLSAgent écrit les fichiers journaux et s’exécute dans le contexte du service réseau. Dans ce cas, %TEMP% s’étend vers %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>EtlFileRolloverSizeMB</strong></p></td>
-<td><p>Ce paramètre indique la taille maximale du fichier journal au-delà de laquelle un nouveau fichier journal de suivi d’événements (.etl) est créé. Un nouveau fichier journal est créé quand la taille définie est atteinte, même si la durée maximale définie dans EtlFileRolloverMinutes n’a pas encore été atteinte.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>EtlFileRolloverMinutes</strong></p></td>
-<td><p>Durée maximale définie en minutes au-delà de laquelle un nouveau fichier .etl est créé. Un nouveau fichier local est créé quand le minuteur arrive à expiration, même si la taille maximale définie dans EtlFileRolloverSizeMB n’a pas encore été atteinte.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>TmfFileSearchPath</strong></p></td>
-<td><p>Emplacement dans lequel rechercher les fichiers au format de message de suivi. Les fichiers au format de message de suivi servent à convertir les fichiers binaires en format lisible.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>CacheFileLocalFolders</strong></p></td>
-<td><p>Chemin d’accès défini à l’emplacement où sont écrits les fichiers cache sur les ordinateurs. CLSAgent écrit les fichiers cache et s’exécute dans le contexte du service réseau. Dans ce cas, %TEMP% s’étend vers %WINDIR%\ServiceProfiles\NetworkService\AppData\Local. Par défaut, les fichiers cache et les fichiers journaux sont écrits dans le même répertoire.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>CacheFileNetworkFolder</strong></p></td>
-<td><p>Vous pouvez définir un chemin d’accès UNC (Universal Naming Convention) pour recevoir les fichiers cache lors des opérations de journalisation.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>CacheFileLocalRetentionPeriod</strong></p></td>
-<td><p>Définit la durée maximale de conservation des fichiers cache, en jours.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>CacheFileMaxDiskUsage</strong></p></td>
-<td><p>Définit le pourcentage d’espace disque pouvant être utilisé par les fichiers cache.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>ComponentThrottleLimit</strong></p></td>
-<td><p>Définit le nombre maximal de traces par seconde pouvant être créées par un composant avant le déclenchement du limiteur automatique.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>ComponentThrottleSample</strong></p></td>
-<td><p>Nombre de fois que la limite ComponentThrottleLimit peut être dépassée en l’espace de 60 secondes.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-<td><p>Version minimale de CLSAgent autorisée à s’exécuter. Cet élément est prévu pour Office 365.</p></td>
-</tr>
-</tbody>
-</table>
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="a862e-161">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a862e-161">See Also</span></span>
 
 
-## Voir aussi
+[<span data-ttu-id="a862e-162">Présentation du service de journalisation centralisé dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a862e-162">Overview of the Centralized Logging Service in Lync Server 2013</span></span>](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
-#### Concepts
 
-[Présentation du service de journalisation centralisée](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+<span data-ttu-id="a862e-163">[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a862e-163">[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))</span></span>  
+<span data-ttu-id="a862e-164">[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a862e-164">[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))</span></span>  
+<span data-ttu-id="a862e-165">[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a862e-165">[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))</span></span>  
+<span data-ttu-id="a862e-166">[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="a862e-166">[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))</span></span>  
+  
 
-#### Autres ressources
+</div>
 
-[Set-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsConfiguration)  
-[Remove-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsClsConfiguration)  
-[New-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsConfiguration)  
-[Get-CsClsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsConfiguration)
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

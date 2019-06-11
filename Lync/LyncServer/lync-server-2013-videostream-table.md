@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table VideoStream'
-TOCTitle: 'Table VideoStream '
-ms:assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425928(v=OCS.15)
-ms:contentKeyID: 49297035
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table VideoStream'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: VideoStream table
+ms:assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425928(v=OCS.15)
+ms:contentKeyID: 48184014
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 98e0ad3f7c18032dd903d2f8d1d41428ccc12cf9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846321"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table VideoStream dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="videostream-table-in-lync-server-2013"></a><span data-ttu-id="e1bb5-102">Table VideoStream dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e1bb5-102">VideoStream table in Lync Server 2013</span></span>
 
-Chaque enregistrement représente un flux vidéo. En règle générale, une ligne de média vidéo contient deux flux vidéo.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e1bb5-103">_**Dernière modification de la rubrique:** 2013-12-13_</span><span class="sxs-lookup"><span data-stu-id="e1bb5-103">_**Topic Last Modified:** 2013-12-13_</span></span>
+
+<span data-ttu-id="e1bb5-104">Chaque enregistrement représente un flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-104">Each record represents one video stream.</span></span> <span data-ttu-id="e1bb5-105">Une ligne de média vidéo contient généralement deux flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-105">One video media line usually contains two video streams.</span></span>
 
 
 <table>
@@ -27,507 +47,518 @@ Chaque enregistrement représente un flux vidéo. En règle générale, une lign
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Colonne</strong></th>
-<th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><span data-ttu-id="e1bb5-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="e1bb5-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="e1bb5-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="e1bb5-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>DateHeure</p></td>
-<td><p>Principal</p></td>
-<td><p>Référencée depuis la <a href="lync-server-2013-medialine-table.md">Table MediaLine dans Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="e1bb5-110"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-110"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-111">DateHeure</span><span class="sxs-lookup"><span data-stu-id="e1bb5-111">datetime</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-112">Principal</span><span class="sxs-lookup"><span data-stu-id="e1bb5-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-113">Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-113">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SessionSeq</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
-<td><p>Référencée depuis la <a href="lync-server-2013-medialine-table.md">Table MediaLine dans Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="e1bb5-114"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-114"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-115">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-115">int</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-116">Principal</span><span class="sxs-lookup"><span data-stu-id="e1bb5-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-117">R référencé à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-117">R Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediaLineLabel</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p>Principal</p></td>
-<td><p>Référencée depuis la <a href="lync-server-2013-medialine-table.md">Table MediaLine dans Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="e1bb5-118"><strong>MediaLineLabel</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-118"><strong>MediaLineLabel</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-119">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-119">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-120">Principal</span><span class="sxs-lookup"><span data-stu-id="e1bb5-120">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-121">Fait référence à partir de la <a href="lync-server-2013-medialine-table.md">table MediaLine dans Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-121">Referenced from the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>StreamID</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
-<td><p>ID unique dans une ligne de média.</p></td>
+<td><p><span data-ttu-id="e1bb5-122"><strong>StreamID</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-122"><strong>StreamID</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-123">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-123">int</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-124">Principal</span><span class="sxs-lookup"><span data-stu-id="e1bb5-124">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-125">IDENTIFIant unique dans une ligne de médias.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-125">Unique ID within a media line.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VideoPayloadDescription</strong></p></td>
-<td><p>smallint</p></td>
-<td><p>Étrangère, primaire</p></td>
-<td><p>Description de la charge utile. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-payloaddescription-table.md">Table PayloadDescription dans Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="e1bb5-126"><strong>VideoPayloadDescription</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-126"><strong>VideoPayloadDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-127">type</span><span class="sxs-lookup"><span data-stu-id="e1bb5-127">smallint</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-128">Étranger, primaire</span><span class="sxs-lookup"><span data-stu-id="e1bb5-128">Foreign, Primary</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-129">Description de la charge utile.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-129">Payload description.</span></span> <span data-ttu-id="e1bb5-130">Pour plus d’informations, voir la <a href="lync-server-2013-payloaddescription-table.md">table PayloadDescription dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e1bb5-130">See the <a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>JitterInterArrival</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-131"><strong>JitterInterArrival</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-131"><strong>JitterInterArrival</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-132">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-132">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Gigue réseau moyenne d’après les statistiques RTCP (Real Time Control Protocol).</p></td>
+<td><p><span data-ttu-id="e1bb5-133">Gigue réseau moyenne des statistiques de protocole RTCP (Real Time Control Protocol).</span><span class="sxs-lookup"><span data-stu-id="e1bb5-133">Average network jitter from Real Time Control Protocol (RTCP) statistics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>JitterInterArrivalMax</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-134"><strong>JitterInterArrivalMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-134"><strong>JitterInterArrivalMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-135">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-135">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Gigue réseau maximum au cours de la session vidéo.</p></td>
+<td><p><span data-ttu-id="e1bb5-136">Scintillement du réseau maximum lors de la session vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-136">Maximum network jitter during the video session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RoundTrip</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-137"><strong>RoundTrip</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-137"><strong>RoundTrip</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-138">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-138">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Durée d’aller-retour d’après les statistiques RTCP.</p></td>
+<td><p><span data-ttu-id="e1bb5-139">Durée de l’aller-retour des statistiques RTCP.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-139">Round trip time from RTCP statistics.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RoundTripMax</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-140"><strong>RoundTripMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-140"><strong>RoundTripMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-141">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-141">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Durée d’aller-retour maximale pour le flux vidéo.</p></td>
+<td><p><span data-ttu-id="e1bb5-142">Durée de l’aller-retour maximal pour le flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-142">Maximum round trip time for the video stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PacketLossRate</strong></p></td>
-<td><p>decimal(5,4)</p></td>
+<td><p><span data-ttu-id="e1bb5-143"><strong>PacketLossRate</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-143"><strong>PacketLossRate</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-144">décimale (5; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-144">decimal(5,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Taux moyen de perte de paquets pendant l’appel.</p></td>
+<td><p><span data-ttu-id="e1bb5-145">Taux moyen de perte de paquets lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-145">Average packet loss rate during the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>decimal(5,4)</p></td>
+<td><p><span data-ttu-id="e1bb5-146"><strong>PacketLossRateMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-146"><strong>PacketLossRateMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-147">décimale (5; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-147">decimal(5,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Taux maximum de perte de paquets observé pendant l’appel.</p></td>
+<td><p><span data-ttu-id="e1bb5-148">Perte de paquets maximum observée pendant l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-148">Maximum packet loss observed during the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PacketUtilization</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-149"><strong>PacketUtilization</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-149"><strong>PacketUtilization</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-150">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-150">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Compte de paquets pour le flux vidéo (Real Time Transport Protocol, RTP).</p></td>
+<td><p><span data-ttu-id="e1bb5-151">Nombre de paquets pour le flux vidéo (Real Time Transport Protocol, RTP).</span><span class="sxs-lookup"><span data-stu-id="e1bb5-151">Packet count for the video stream (Real Time Transport Protocol, RTP).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BandwidthEst</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-152"><strong>Bande passante</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-152"><strong>BandwidthEst</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-153">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-153">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Estimations de la bande passante pour le flux vidéo.</p></td>
+<td><p><span data-ttu-id="e1bb5-154">Estimations de bande passante pour le flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-154">Bandwidth estimates for the video stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoResolution</strong></p></td>
-<td><p>char(9)</p></td>
+<td><p><span data-ttu-id="e1bb5-155"><strong>VideoResolution</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-155"><strong>VideoResolution</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-156">car (9)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-156">char(9)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Résolution de la vidéo en pixels (largeur x hauteur). Rapporté en tant que chaîne.</p></td>
+<td><p><span data-ttu-id="e1bb5-157">Résolution de la vidéo, en pixels, de largeur multipliée par la hauteur en pixels.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-157">Resolution of the video in pixels width multiplied by pixels height.</span></span> <span data-ttu-id="e1bb5-158">Signalée en tant que chaîne.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-158">Reported as a string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VideoBitRateAvg</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-159"><strong>VideoBitRateAvg</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-159"><strong>VideoBitRateAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-160">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-160">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Vitesse de transmission moyenne du flux vidéo.</p></td>
+<td><p><span data-ttu-id="e1bb5-161">Vitesse de transmission moyenne du flux vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-161">Average bit rate of the video stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>InboundVideoFrameRateAvg</strong></p></td>
-<td><p>decimal(9,4)</p></td>
+<td><p><span data-ttu-id="e1bb5-162"><strong>InboundVideoFrameRateAvg</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-162"><strong>InboundVideoFrameRateAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-163">décimale (9; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-163">decimal(9,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Fréquence d’images vidéo reçues.</p></td>
+<td><p><span data-ttu-id="e1bb5-164">Fréquence d’images vidéo reçues.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-164">The video frame rate received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OutboundVideoFrameRateAvg</strong></p></td>
-<td><p>decimal(9,4)</p></td>
+<td><p><span data-ttu-id="e1bb5-165"><strong>OutboundVideoFrameRateAvg</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-165"><strong>OutboundVideoFrameRateAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-166">décimale (9; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-166">decimal(9,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Fréquence d’images vidéo envoyées.</p></td>
+<td><p><span data-ttu-id="e1bb5-167">Fréquence d’images vidéo envoyées.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-167">The video frame rate sent.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoBitRateMax</strong></p></td>
-<td><p>Int</p></td>
+<td><p><span data-ttu-id="e1bb5-168"><strong>VideoBitRateMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-168"><strong>VideoBitRateMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-169">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-169">int</span></span></p></td>
 <td><p> </p></td>
-<td><p>Fréquence d’images vidéo maximum au cours de la session vidéo.</p></td>
+<td><p><span data-ttu-id="e1bb5-170">Débit vidéo maximum lors de la session vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-170">The maximum video bit rate during the video session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VideoFrameLossRate</strong></p></td>
-<td><p>decimal(9,4)</p></td>
+<td><p><span data-ttu-id="e1bb5-171"><strong>VideoFrameLossRate</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-171"><strong>VideoFrameLossRate</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-172">décimale (9; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-172">decimal(9,4)</span></span></p></td>
 <td><p> </p></td>
-<td><p>Pourcentage d’images vidéo perdues.</p></td>
+<td><p><span data-ttu-id="e1bb5-173">Pourcentage du nombre total de trames vidéo perdues.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-173">The percentage of total video frames that are lost.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoFEC</strong></p></td>
-<td><p>bit</p></td>
+<td><p><span data-ttu-id="e1bb5-174"><strong>VideoFEC</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-174"><strong>VideoFEC</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-175">bit</span><span class="sxs-lookup"><span data-stu-id="e1bb5-175">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p>Non disponible</p></td>
+<td><p><span data-ttu-id="e1bb5-176">Non disponible.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-176">Not available.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VideoLocalFrameLossPercentageAvg</strong></p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p></p></td>
-<td><p>Pourcentage d’images vidéo perdues.</p></td>
+<td><p><span data-ttu-id="e1bb5-177"><strong>VideoLocalFrameLossPercentageAvg</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-177"><strong>VideoLocalFrameLossPercentageAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-178">décimale (9; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-178">decimal(9,4)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-179">Pourcentage du nombre total de trames vidéo perdues.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-179">The percentage of total video frames that are lost.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CIFQualityRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel qui se trouvait à la résolution CIF (Common Interchange Format).</p></td>
+<td><p><span data-ttu-id="e1bb5-180"><strong>CIFQualityRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-180"><strong>CIFQualityRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-181">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-181">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-182">Pourcentage de l’appel à la résolution CAF (Common Interchange Format).</span><span class="sxs-lookup"><span data-stu-id="e1bb5-182">The percentage of the call that was at the Common Interchange Format (CIF) resolution.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VGAQualityRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel qui était à la résolution VGA.</p></td>
+<td><p><span data-ttu-id="e1bb5-183"><strong>VGAQualityRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-183"><strong>VGAQualityRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-184">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-184">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-185">Pourcentage de l’appel à la résolution VGA.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-185">The percentage of the call that was at VGA resolution.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>HD720QualityRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel qui était à la résolution HD720.</p></td>
+<td><p><span data-ttu-id="e1bb5-186"><strong>HD720QualityRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-186"><strong>HD720QualityRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-187">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-187">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-188">Pourcentage de l’appel passé à la résolution HD720.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-188">The percentage of the call that was at HD720 resolution.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>NoneDropRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de la durée de l’appel sans suppression d’images.</p></td>
+<td><p><span data-ttu-id="e1bb5-189"><strong>NoneDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-189"><strong>NoneDropRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-190">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-190">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-191">Pourcentage de la durée de l’appel sans cadre.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-191">Percentage of call duration with no frame drop.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BDropRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de la durée de l’appel avec suppression d’images B.</p></td>
+<td><p><span data-ttu-id="e1bb5-192"><strong>BDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-192"><strong>BDropRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-193">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-193">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-194">Pourcentage de la durée de l’appel avec la dépose de l’image B.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-194">Percentage of call duration with B frame drop.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BPDropRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de la durée de l’appel avec suppression d’images BP.</p></td>
+<td><p><span data-ttu-id="e1bb5-195"><strong>BPDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-195"><strong>BPDropRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-196">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-196">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-197">Pourcentage de la durée de l’appel avec la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-197">Percentage of call duration with BP frame drop.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BPSPDropRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de la durée de l’appel avec suppression d’images BPSP.</p></td>
+<td><p><span data-ttu-id="e1bb5-198"><strong>BPSPDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-198"><strong>BPSPDropRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-199">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-199">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-200">Pourcentage de la durée de l’appel avec BPSP Frame.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-200">Percentage of call duration with BPSP frame drop.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BPSPIDropRatio</strong></p></td>
-<td><p>tinyint</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de la durée de l’appel avec suppression d’images BPSPI.</p></td>
+<td><p><span data-ttu-id="e1bb5-201"><strong>BPSPIDropRatio</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-201"><strong>BPSPIDropRatio</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-202">tinyint</span><span class="sxs-lookup"><span data-stu-id="e1bb5-202">tinyint</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-203">Pourcentage de la durée de l’appel avec BPSPI Frame.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-203">Percentage of call duration with BPSPI frame drop.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Inbound</strong></p></td>
-<td><p>bit</p></td>
+<td><p><span data-ttu-id="e1bb5-204"><strong>Entrant</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-204"><strong>Inbound</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-205">bit</span><span class="sxs-lookup"><span data-stu-id="e1bb5-205">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p>Données de flux du côté récepteur reçues.</p></td>
+<td><p><span data-ttu-id="e1bb5-206">Des données de flux sur le côté du destinataire sont reçues.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-206">Stream data on receiver side is received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Outbound</strong></p></td>
-<td><p>bit</p></td>
+<td><p><span data-ttu-id="e1bb5-207"><strong>Sortant</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-207"><strong>Outbound</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-208">bit</span><span class="sxs-lookup"><span data-stu-id="e1bb5-208">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p>Données de flux du côté expéditeur reçues.</p></td>
+<td><p><span data-ttu-id="e1bb5-209">Les données du flux du côté de l’expéditeur sont reçues.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-209">Stream data on sender side is received.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SenderIsCallerPAI</strong></p></td>
-<td><p>bit</p></td>
+<td><p><span data-ttu-id="e1bb5-210"><strong>SenderIsCallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-210"><strong>SenderIsCallerPAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-211">bit</span><span class="sxs-lookup"><span data-stu-id="e1bb5-211">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p>1 signifie que la direction du flux va de l’appelant à l’appelé.</p>
-<p>0 signifie que la direction du flux va de l’appelé à l’appelant.</p></td>
+<td><p><span data-ttu-id="e1bb5-212">1 signifie que le sens du flux provient de l’appelant vers l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-212">1 means the stream direction is from the caller to callee.</span></span></p>
+<p><span data-ttu-id="e1bb5-213">0: le sens du flux provient de l’appelant.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-213">0 means the stream direction is from the callee to the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Indique en pourcentage la durée de l’état de congestion de perte de l’appel.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-214"><strong>LossCongestionPercent</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-214"><strong>LossCongestionPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-215">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-215">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-216">Indique le pourcentage du temps pendant lequel l’appel a été dans un état de congestion de perte.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-216">Indicates the percentage of the time when the call was in a loss congestion state.</span></span></p>
+<p><span data-ttu-id="e1bb5-217">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-217">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Indique en pourcentage la durée de l’appel pendant laquelle la congestion a été provoquée par l’arrivée en retard des paquets réseau.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-218"><strong>DelayCongestionPercent</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-218"><strong>DelayCongestionPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-219">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-219">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-220">Indique le pourcentage de l’appel au cours duquel une congestion est causée par le retard de paquets réseau.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-220">Indicates the percentage of the call during which congestion was caused by the delayed arrival of network packets.</span></span></p>
+<p><span data-ttu-id="e1bb5-221">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-221">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Indique en pourcentage la durée pendant laquelle l’appel a tenté de récupérer des ressources réseau.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-222"><strong>ContentionDetectedPercent</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-222"><strong>ContentionDetectedPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-223">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-223">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-224">Indique le pourcentage de temps pendant lequel l’appel a été compétitif pour les ressources réseau.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-224">Indicates the percentage of the time when the call was competing for network resources.</span></span></p>
+<p><span data-ttu-id="e1bb5-225">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-225">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BandwidthEstMin</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Estimation de quantité minimale de bande passante mesurée pendant l’appel.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-226"><strong>BandwidthEstMin</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-226"><strong>BandwidthEstMin</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-227">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-227">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-228">Quantité minimale d’estimation de la bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-228">Minimum amount of bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="e1bb5-229">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-229">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BandwidthEstMax</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Estimation de quantité maximale de bande passante mesurée pendant l’appel.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-230"><strong>BandwidthEstMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-230"><strong>BandwidthEstMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-231">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-231">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-232">Quantité maximale d’estimation de la bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-232">Maximum amount of bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="e1bb5-233">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-233">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BandwidthEstStdDev</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Écart type de l’estimation de bande passante mesurée pendant l’appel.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-234"><strong>BandwidthEstStdDev</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-234"><strong>BandwidthEstStdDev</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-235">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-235">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-236">Écart type de l’estimation de la bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-236">Standard deviation of the bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="e1bb5-237">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-237">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>BandwidthEstAvge</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Estimation de quantité moyenne de bande passante mesurée pendant l’appel.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-238"><strong>BandwidthEstAvge</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-238"><strong>BandwidthEstAvge</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-239">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-239">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-240">Quantité moyenne d’estimation de bande passante mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-240">Average amount of bandwidth estimation measured during the call.</span></span></p>
+<p><span data-ttu-id="e1bb5-241">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-241">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LowBandwidthForMultiview</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel où le point de terminaison a déterminé que la connexion réseau ne pouvait pas prendre en charge la vidéo à plusieurs affichages.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-242"><strong>LowBandwidthForMultiview</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-242"><strong>LowBandwidthForMultiview</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-243">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-243">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-244">Pourcentage de l’appel où le point de terminaison a déterminé que la connexion réseau n’a pas pu prendre en charge la vidéo multivue.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-244">Percentage of the call where the endpoint determined that the network connection could not support multiview video.</span></span></p>
+<p><span data-ttu-id="e1bb5-245">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-245">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-246"><strong>RelativeOneWayTotal</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-246"><strong>RelativeOneWayTotal</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-247">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-247">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-248">Quantité totale de latence à sens unique.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-248">Total amount of one-way latency.</span></span> <span data-ttu-id="e1bb5-249">Latence relative à sens unique, mesure du délai entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-249">Relative one-way latency measures the delay between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-250">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-250">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-251"><strong>Moyenne unidirectionnelle relative</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-251"><strong>RelativeOneWayAverage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-252">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-252">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-253">Quantité moyenne de latence à sens unique.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-253">Average amount of one-way latency.</span></span> <span data-ttu-id="e1bb5-254">Latence relative à sens unique, mesure du délai entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-254">Relative one-way latency measures the delay between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-255">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-255">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-256"><strong>RelativeOneWayMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-256"><strong>RelativeOneWayMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-257">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-257">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-258">Quantité maximale de latence à sens unique.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-258">Maximum amount of one-way latency.</span></span> <span data-ttu-id="e1bb5-259">Latence relative à sens unique, mesure du délai entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-259">Relative one-way latency measures the delay between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-260">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-260">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Nombre total d’occurrences de rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-261"><strong>RelativeOneWayBurstOccurrences</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-261"><strong>RelativeOneWayBurstOccurrences</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-262">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-262">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-263">Nombre total d’occurrences de rafales à sens unique.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-263">Total one-way burst occurrences.</span></span> <span data-ttu-id="e1bb5-264">Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-264">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream.</span></span> <span data-ttu-id="e1bb5-265">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-265">This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-266">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-266">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Densité totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-267"><strong>RelativeOneWayBurstDensity</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-267"><strong>RelativeOneWayBurstDensity</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-268">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-268">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-269">Densité du Burst total unidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-269">Total one-way burst density.</span></span> <span data-ttu-id="e1bb5-270">Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-270">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream.</span></span> <span data-ttu-id="e1bb5-271">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-271">This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-272">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-272">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Durée totale des rafales unidirectionnelles. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-273"><strong>RelativeOneWayBurstDuration</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-273"><strong>RelativeOneWayBurstDuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-274">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-274">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-275">Durée totale du Burst.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-275">Total one-way burst duration.</span></span> <span data-ttu-id="e1bb5-276">Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-276">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream.</span></span> <span data-ttu-id="e1bb5-277">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-277">This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-278">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-278">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Nombre total d’occurrences d’intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-279"><strong>RelativeOneWayGapOccurrences</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-279"><strong>RelativeOneWayGapOccurrences</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-280">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-280">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-281">Nombre total d’occurrences de l’espacement unidirectionnel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-281">Total one-way gap occurrences.</span></span> <span data-ttu-id="e1bb5-282">Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-282">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts.</span></span> <span data-ttu-id="e1bb5-283">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-283">This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-284">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-284">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Densité totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-285"><strong>RelativeOneWayGapDensity</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-285"><strong>RelativeOneWayGapDensity</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-286">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-286">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-287">Densité de l’intervalle total à sens unique.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-287">Total one-way gap density.</span></span> <span data-ttu-id="e1bb5-288">Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-288">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts.</span></span> <span data-ttu-id="e1bb5-289">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-289">This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-290">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-290">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Durée totale des intervalles unidirectionnels. Dans une transmission « par rafales », les données sont transmises de façon sporadique contrairement à un flux de données régulier ; les intervalles indiquent les retards entre les rafales. Cette valeur mesure le flux de données entre le client et le serveur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-291"><strong>RelativeOneWayGapDuration</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-291"><strong>RelativeOneWayGapDuration</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-292">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-292">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-293">Durée totale de l’intervalle.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-293">Total one-way gap duration.</span></span> <span data-ttu-id="e1bb5-294">Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-294">A “bursty” transmission is a transmission where data flows in unpredictable bursts as opposed to a steady stream; gaps indicate delays between these bursts.</span></span> <span data-ttu-id="e1bb5-295">Cette métrique mesure le flux de données entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-295">This metric measures data flow between the client and the server.</span></span></p>
+<p><span data-ttu-id="e1bb5-296">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-296">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoPacketLossRate</strong></p></td>
-<td><p>decimal(9,4)</p></td>
-<td><p></p></td>
-<td><p>Fréquence à laquelle les paquets vidéo ont été perdus.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-297"><strong>Cause du taux</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-297"><strong>VideoPacketLossRate</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-298">décimale (9; 4)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-298">decimal(9,4)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-299">Taux d’interruption des paquets vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-299">Rate at which video packets were lost.</span></span></p>
+<p><span data-ttu-id="e1bb5-300">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-300">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>VideoAllocateBWAvg</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Quantité moyenne de bande passante allouée pour la vidéo.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-301"><strong>VideoAllocateBWAvg</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-301"><strong>VideoAllocateBWAvg</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-302">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-302">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-303">Quantité moyenne de bande passante allouée pour la vidéo.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-303">Average amount of bandwidth allocated for video.</span></span></p>
+<p><span data-ttu-id="e1bb5-304">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-304">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SendCodecTypes</strong></p></td>
-<td><p>smallint</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Type des codecs vidéo utilisés par l’émetteur. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-codecdescription-table.md">Table CodecDescription dans Lync Server 2013</a>.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-305"><strong>SendCodecTypes</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-305"><strong>SendCodecTypes</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-306">type</span><span class="sxs-lookup"><span data-stu-id="e1bb5-306">smallint</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-307">Externes</span><span class="sxs-lookup"><span data-stu-id="e1bb5-307">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-308">Type de codecs vidéo utilisés par l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-308">Type of video codecs used by the sender.</span></span> <span data-ttu-id="e1bb5-309">Pour plus d’informations, voir la <a href="lync-server-2013-codecdescription-table.md">table CodecDescription dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e1bb5-309">See the <a href="lync-server-2013-codecdescription-table.md">CodecDescription table in Lync Server 2013</a> for more information.</span></span></p>
+<p><span data-ttu-id="e1bb5-310">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-310">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SendResolutionWidth</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Largeur de résolution utilisée par l’émetteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-311"><strong>SendResolutionWidth</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-311"><strong>SendResolutionWidth</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-312">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-312">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-313">Largeur de résolution utilisée par l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-313">Resolution width used by the sender.</span></span></p>
+<p><span data-ttu-id="e1bb5-314">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-314">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SendResolutionHeight</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Hauteur de résolution utilisée par l’émetteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-315"><strong>SendResolutionHeight</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-315"><strong>SendResolutionHeight</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-316">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-316">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-317">Hauteur de résolution utilisée par l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-317">Resolution height used by the sender.</span></span></p>
+<p><span data-ttu-id="e1bb5-318">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-318">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SendFrameRateAverage</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Fréquence d’images vidéo moyenne.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-319"><strong>SendFrameRateAverage</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-319"><strong>SendFrameRateAverage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-320">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-320">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-321">Transmission moyenne de la fréquence d’images vidéo utilisée par l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-321">Average video frame rate transmission used by the sender.</span></span></p>
+<p><span data-ttu-id="e1bb5-322">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-322">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SendBitRateMaximum</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Vitesse de transmission maximale pour l’émetteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-323"><strong>SendBitRateMaximum</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-323"><strong>SendBitRateMaximum</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-324">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-324">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-325">Taux de bits maximal pour l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-325">Maximum bit rate for the sender.</span></span></p>
+<p><span data-ttu-id="e1bb5-326">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-326">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>SendBitRateAverage</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Vitesse de transmission moyenne pour l’émetteur.</p></td>
+<td><p><span data-ttu-id="e1bb5-327"><strong>SendBitRateAverage</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-327"><strong>SendBitRateAverage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-328">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-328">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-329">Taux de bits moyen pour l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-329">Average bit rate for the sender.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SendVideoStreamsMax</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Nombre maximal de flux vidéo utilisés par l’émetteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-330"><strong>SendVideoStreamsMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-330"><strong>SendVideoStreamsMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-331">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-331">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-332">Nombre maximal de flux vidéo utilisés par l’expéditeur.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-332">Maximum number of video streams used by the sender.</span></span></p>
+<p><span data-ttu-id="e1bb5-333">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-333">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RecvCodecTypes</strong></p></td>
-<td><p>smallint</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Codecs vidéo utilisés par le récepteur. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-codecdescription-table.md">Table CodecDescription dans Lync Server 2013</a>.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-334"><strong>RecvCodecTypes</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-334"><strong>RecvCodecTypes</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-335">type</span><span class="sxs-lookup"><span data-stu-id="e1bb5-335">smallint</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-336">Externes</span><span class="sxs-lookup"><span data-stu-id="e1bb5-336">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-337">Codes vidéo utilisés par le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-337">Video codes used by the receiver.</span></span> <span data-ttu-id="e1bb5-338">Pour plus d’informations, voir la <a href="lync-server-2013-codecdescription-table.md">table CodecDescription dans Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="e1bb5-338">See the <a href="lync-server-2013-codecdescription-table.md">CodecDescription table in Lync Server 2013</a> for more information.</span></span></p>
+<p><span data-ttu-id="e1bb5-339">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-339">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RecvResolutionWidth</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Largeur de résolution utilisée par le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-340"><strong>RecvResolutionWidth</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-340"><strong>RecvResolutionWidth</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-341">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-341">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-342">Largeur de résolution utilisée par le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-342">Resolution width used by the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-343">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-343">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RecvResolutionHeight</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Hauteur de résolution utilisée par le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-344"><strong>RecvResolutionHeight</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-344"><strong>RecvResolutionHeight</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-345">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-345">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-346">Hauteur de résolution utilisée par le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-346">Resolution height used by the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-347">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-347">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RecvFrameRateAverage</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Fréquence d’images vidéo moyenne utilisée par le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-348"><strong>Cause reçues</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-348"><strong>RecvFrameRateAverage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-349">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-349">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-350">Fréquence d’images vidéo moyenne utilisée par le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-350">Average video frame rate used by the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-351">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-351">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RecvBitRateMaximum</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Vitesse de transmission maximale pour le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-352"><strong>RecvBitRateMaximum</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-352"><strong>RecvBitRateMaximum</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-353">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-353">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-354">Vitesse de transmission maximale du destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-354">Maximum bit rate for the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-355">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-355">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RecvBitRateAverage</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Vitesse de transmission moyenne pour le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-356"><strong>RecvBitRateAverage</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-356"><strong>RecvBitRateAverage</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-357">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-357">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-358">Taux de bits moyen pour le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-358">Average bit rate for the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-359">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-359">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RecvVideoStreamsMax</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Flux vidéo maximaux pour le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-360"><strong>RecvVideoStreamsMax</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-360"><strong>RecvVideoStreamsMax</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-361">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-361">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-362">Flux vidéo maximal pour le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-362">Maximum video streams for the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-363">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-363">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RecvVideoStreamsMin</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Vitesse de transmission maximale pour le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-364"><strong>RecvVideoStreamsMin</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-364"><strong>RecvVideoStreamsMin</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-365">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-365">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-366">Flux vidéo minimal pour le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-366">Minimum video streams for the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-367">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-367">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RecvVideoStreamsMode</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Mode vidéo (par exemple, galerie ou flux unique) pour le récepteur.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-368"><strong>RecvVideoStreamsMode</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-368"><strong>RecvVideoStreamsMode</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-369">int</span><span class="sxs-lookup"><span data-stu-id="e1bb5-369">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-370">Mode vidéo (par exemple, Galerie ou flux unique) pour le destinataire.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-370">Video mode (for example, gallery or single stream) for the receiver.</span></span></p>
+<p><span data-ttu-id="e1bb5-371">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-371">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>VideoPostFECPLR</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Taux de pertes de paquets à la suite de l’application de la correction d’erreur de transfert.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-372"><strong>VideoPostFECPLR</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-372"><strong>VideoPostFECPLR</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-373">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-373">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-374">Taux de perte de paquets après application de la correction d’erreur de transfert.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-374">Packet loss rate after forward error correction has been applied.</span></span></p>
+<p><span data-ttu-id="e1bb5-375">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-375">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DynamicCapabilityPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Durée en pourcentage pendant laquelle l’indicateur de capacité dynamique a été actif.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-376"><strong>Cause du pourcentage</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-376"><strong>DynamicCapabilityPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-377">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-377">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-378">Pourcentage de temps pendant lequel l’indicateur de capacité dynamique a été actif.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-378">Percentage of time that the dynamic capability flag was active.</span></span></p>
+<p><span data-ttu-id="e1bb5-379">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-379">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ResolutionMin</strong></p></td>
-<td><p>char(9)</p></td>
-<td><p></p></td>
-<td><p>Résolution minimale mesurée durant l’appel.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-380"><strong>ResolutionMin</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-380"><strong>ResolutionMin</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-381">car (9)</span><span class="sxs-lookup"><span data-stu-id="e1bb5-381">char(9)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-382">Résolution minimale mesurée lors de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-382">Minimum resolution measured during the call.</span></span></p>
+<p><span data-ttu-id="e1bb5-383">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-383">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LowBitRateCallPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel inférieur au seuil minimal de vitesse de transmission (70 Kbits/s).</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-384"><strong>LowBitRateCallPercent</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-384"><strong>LowBitRateCallPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-385">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-385">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-386">Pourcentage de l’appel inférieur au seuil de faible taux de bits (70 kilobits par seconde).</span><span class="sxs-lookup"><span data-stu-id="e1bb5-386">Percentage of the call below the low bit rate threshold (70 kilobits per second).</span></span></p>
+<p><span data-ttu-id="e1bb5-387">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-387">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LowFrameRateCallPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel inférieur au seuil minimal de fréquence d’images (7,5 images par seconde, en entrée).</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-388"><strong>Cause du pourcentage</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-388"><strong>LowFrameRateCallPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-389">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-389">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-390">Pourcentage de l’appel inférieur au seuil de fréquence d’images faible (7,5 images par seconde, entrant).</span><span class="sxs-lookup"><span data-stu-id="e1bb5-390">Percentage of the call below the low frame rate threshold (7.5 frames per second, inbound).</span></span></p>
+<p><span data-ttu-id="e1bb5-391">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-391">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LowResolutionCallPercent</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Pourcentage de l’appel dont la résolution était la plus faible.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-392"><strong>Cause du pourcentage</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-392"><strong>LowResolutionCallPercent</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-393">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-393">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-394">Pourcentage de l’appel qui s’est produit à la résolution la plus basse.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-394">Percentage of the call that occurred at the lowest resolution.</span></span></p>
+<p><span data-ttu-id="e1bb5-395">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-395">This column was introduced in Microsoft Lync Server 2013.</span></span></p>
+<p><span data-ttu-id="e1bb5-396">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-396">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DurationSeconds</strong></p></td>
-<td><p>float</p></td>
-<td><p></p></td>
-<td><p>Durée de l’appel en secondes.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-397"><strong>DurationSeconds</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-397"><strong>DurationSeconds</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-398">float</span><span class="sxs-lookup"><span data-stu-id="e1bb5-398">float</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-399">Durée de l’appel en secondes.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-399">Length of the call in seconds.</span></span></p>
+<p><span data-ttu-id="e1bb5-400">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-400">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>IsAggregatedData</strong></p></td>
-<td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Indique si les données ont été agrégées à partir de plusieurs appels.</p>
-<p>Cette colonne est une nouveauté de Microsoft Lync Server 2013.</p></td>
+<td><p><span data-ttu-id="e1bb5-401"><strong>IsAggregatedData</strong></span><span class="sxs-lookup"><span data-stu-id="e1bb5-401"><strong>IsAggregatedData</strong></span></span></p></td>
+<td><p><span data-ttu-id="e1bb5-402">bit</span><span class="sxs-lookup"><span data-stu-id="e1bb5-402">bit</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e1bb5-403">Indique si les données ont été agrégées à partir de plusieurs appels.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-403">Indicates whether the data has been aggregated from multiple calls.</span></span></p>
+<p><span data-ttu-id="e1bb5-404">Cette colonne a été introduite dans Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e1bb5-404">This column was introduced in Microsoft Lync Server 2013.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,71 @@
-﻿---
-title: Migration des numéros d’accès entrant
-TOCTitle: Migration des numéros d’accès entrant
-ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204898(v=OCS.15)
-ms:contentKeyID: 49297291
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrer les numéros d’accès entrant
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrate dial-in access numbers
+ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204898(v=OCS.15)
+ms:contentKeyID: 48184171
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b86db6e669fd5f52827591c25e5bb237bd9ee012
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846169"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migration des numéros d’accès entrant
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-26_
+# <a name="migrate-dial-in-access-numbers"></a><span data-ttu-id="eb373-102">Migrer les numéros d’accès entrant</span><span class="sxs-lookup"><span data-stu-id="eb373-102">Migrate dial-in access numbers</span></span>
 
-La migration des numéros d’accès entrant nécessite deux étapes : l’exécution de l’applet de commande **Import-CsLegacyConfiguration** (déjà effectuée dans [Importation des stratégies et des paramètres](import-policies-and-settings.md)) pour migrer les plans de numérotation et les autres paramètres des numéros d’accès entrant, puis l’exécution de l’applet de commande **Move-CsApplicationEndpoint** pour migrer les objets contact.
+</div>
 
-## Pour faire migrer les numéros d’accès entrant
+<div id="mainSection">
 
-1.  Ouvrez l’outil d’administration Office Communications Server 2007 R2.
+<div id="mainBody">
 
-2.  Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud Forêt, cliquez sur **Propriétés** , puis sur **Propriétés de Intendant Conférence** .
+<span> </span>
 
-3.  Sous l’onglet **Numéros de téléphone d’accès** , cliquez sur **Traité par le pool** pour trier les numéros de téléphone d’accès par leur pool associé et identifiez tous les numéros d’accès pour le pool à partir duquel vous effectuez la migration.
+<span data-ttu-id="eb373-103">_**Dernière modification de la rubrique:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="eb373-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-4.  Pour identifier l’URI SIP de chaque numéro d’accès, double-cliquez sur le numéro d’accès pour ouvrir la boîte de dialogue **Modifier le numéro de l’Intendant Conférence** et regardez sous **URI SIP** .
+<span data-ttu-id="eb373-104">La migration des numéros d’accès rendez-vous implique deux étapes: l’exécution de l’applet de connexion **Import-CsLegacyConfiguration** (exécutée précédemment dans l' [importation des stratégies et des paramètres](import-policies-and-settings.md)) pour migrer les **plans de numérotation et autres paramètres de numéro d’accès Applet de passe Move-CsApplicationEndpoint** pour migrer les objets de contact.</span><span class="sxs-lookup"><span data-stu-id="eb373-104">Migrating dial-in access numbers requires two steps: running the **Import-CsLegacyConfiguration** cmdlet (completed earlier in [Import policies and settings](import-policies-and-settings.md)) to migrate dial plans and other dial-in access number settings, and running the **Move-CsApplicationEndpoint** cmdlet to migrate the contact objects.</span></span>
 
-5.  Ouvrez Lync Server Management Shell.
+<div>
 
-6.  Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, exécutez :
+## <a name="to-migrate-dial-in-access-numbers"></a><span data-ttu-id="eb373-105">Pour migrer des numéros d’accès entrants</span><span class="sxs-lookup"><span data-stu-id="eb373-105">To migrate dial-in access numbers</span></span>
+
+1.  <span data-ttu-id="eb373-106">Ouvrez l’outil d’administration d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="eb373-106">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
+
+2.  <span data-ttu-id="eb373-107">Dans l’arborescence de la console, cliquez avec le bouton droit sur le nœud de la forêt, cliquez sur **Propriétés**, puis sur **Propriétés du surveillant de conférence**.</span><span class="sxs-lookup"><span data-stu-id="eb373-107">In the console tree, right-click the forest node, click **Properties**, and then click **Conferencing Attendant Properties**.</span></span>
+
+3.  <span data-ttu-id="eb373-108">Dans l’onglet **numéros de téléphone d’accès** , cliquez sur **desservi par le pool** pour trier les numéros de téléphone d’accès par leur liste de connexions associées, puis identifiez tous les numéros d’accès pour le pool à partir duquel vous effectuez la migration.</span><span class="sxs-lookup"><span data-stu-id="eb373-108">On the **Access Phone Numbers** tab, click **Serviced by Pool** to sort the access phone numbers by their associated pool, and identify all the access numbers for the pool from which you are migrating.</span></span>
+
+4.  <span data-ttu-id="eb373-109">Pour identifier l’URI SIP de chaque numéro d’accès, double-cliquez sur le numéro d’accès pour ouvrir la boîte de dialogue **modifier le numéro du surveillant de conférences** et recherchez sous **URI SIP**.</span><span class="sxs-lookup"><span data-stu-id="eb373-109">To identify the SIP URI for each access number, double-click the access number to open the **Edit Conferencing Attendant Number** dialog box, and look under **SIP URI**.</span></span>
+
+5.  <span data-ttu-id="eb373-110">Ouvrez Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="eb373-110">Open the Lync Server Management Shell.</span></span>
+
+6.  <span data-ttu-id="eb373-111">Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Lync Server 2013, exécutez:</span><span class="sxs-lookup"><span data-stu-id="eb373-111">To move each dial-in access number to a pool hosted on Lync Server 2013, run:</span></span>
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  Dans l’outil d’administration Office Communications Server 2007 R2, sous l’onglet **Numéros de téléphone d’accès** , vérifiez qu’il ne reste aucun numéro d’accès entrant pour le pool Office Communications Server 2007 R2 à partir duquel vous effectuez la migration.
+7.  <span data-ttu-id="eb373-112">Dans l’onglet **numéros de téléphone d’accès** de l’outil d’administration d’Office communications Server 2007 R2, vérifiez qu’aucun numéro d’accès entrant ne reste pour le pool Office communications Server 2007 R2 à partir duquel vous effectuez la migration.</span><span class="sxs-lookup"><span data-stu-id="eb373-112">In the Office Communications Server 2007 R2 Administrative tool, on the **Access Phone Numbers** tab, verify that no dial-in access numbers remain for the Office Communications Server 2007 R2 pool from which you are migrating.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

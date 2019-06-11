@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013 : tblComplianceState'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceState
 ms:assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615045(v=OCS.15)
-ms:contentKeyID: 49299209
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615045(v=OCS.15)
+ms:contentKeyID: 48185937
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fce70f05b317ac7467fd17306d6933c66087e5e6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846701"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblComplianceState dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="e67f5-102">tblComplianceState dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e67f5-102">tblComplianceState in Lync Server 2013</span></span>
 
-tblComplianceState contient des informations d’état de conformité à l’échelle du pool.
+</div>
 
-### Colonnes
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e67f5-103">_**Dernière modification de la rubrique:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="e67f5-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+
+<span data-ttu-id="e67f5-104">tblComplianceState contient des informations sur l’état de compatibilité à l’échelle du pool.</span><span class="sxs-lookup"><span data-stu-id="e67f5-104">tblComplianceState contains pool-wide compliance state information.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="e67f5-105">Celles</span><span class="sxs-lookup"><span data-stu-id="e67f5-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,27 +47,38 @@ tblComplianceState contient des informations d’état de conformité à l’éc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Type</th>
-<th>Description</th>
+<th><span data-ttu-id="e67f5-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="e67f5-106">Column</span></span></th>
+<th><span data-ttu-id="e67f5-107">Type</span><span class="sxs-lookup"><span data-stu-id="e67f5-107">Type</span></span></th>
+<th><span data-ttu-id="e67f5-108">Description</span><span class="sxs-lookup"><span data-stu-id="e67f5-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>lastProcessedEntryID</p></td>
-<td><p>bigint, non null</p></td>
-<td><p>ID du dernier événement de conformité traité.</p></td>
+<td><p><span data-ttu-id="e67f5-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="e67f5-109">lastProcessedEntryID</span></span></p></td>
+<td><p><span data-ttu-id="e67f5-110">bigint, pas null</span><span class="sxs-lookup"><span data-stu-id="e67f5-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="e67f5-111">ID de l’événement de conformité traité le plus récent.</span><span class="sxs-lookup"><span data-stu-id="e67f5-111">ID of the latest processed compliance event.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>activeServerID</p></td>
-<td><p>entier, non null</p></td>
-<td><p>ID du serveur de conformité verrouillant de manière exclusive la base de données, ou -1 s’il n’existe pas.</p></td>
+<td><p><span data-ttu-id="e67f5-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="e67f5-112">activeServerID</span></span></p></td>
+<td><p><span data-ttu-id="e67f5-113">ent, non null</span><span class="sxs-lookup"><span data-stu-id="e67f5-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="e67f5-114">ID du serveur de conformité qui détient le verrou exclusif sur la base de données, ou-1 si aucun.</span><span class="sxs-lookup"><span data-stu-id="e67f5-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>lockExpirationTime</p></td>
-<td><p>dateheure2, non null</p></td>
-<td><p>Heure d’expiration du verrou (si activeServerID est différent de -1).</p></td>
+<td><p><span data-ttu-id="e67f5-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="e67f5-115">lockExpirationTime</span></span></p></td>
+<td><p><span data-ttu-id="e67f5-116">datetime2, pas null</span><span class="sxs-lookup"><span data-stu-id="e67f5-116">datetime2, not null</span></span></p></td>
+<td><p><span data-ttu-id="e67f5-117">Durée d’expiration du verrouillage (si activeServerID n’est pas-1).</span><span class="sxs-lookup"><span data-stu-id="e67f5-117">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

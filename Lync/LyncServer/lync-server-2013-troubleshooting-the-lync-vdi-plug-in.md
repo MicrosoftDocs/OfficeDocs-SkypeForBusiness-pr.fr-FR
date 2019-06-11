@@ -1,63 +1,101 @@
-﻿---
-title: "Résol. des pb du plug-in Lync VDI (Virtual Desktop Infrastructure) ds LS 2013"
-TOCtitle: "Résol. des pb du plug-in Lync VDI (Virtual Desktop Infrastructure) ds LS 2013"
-ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204713(v=OCS.15)
-ms:contentKeyID: 49296393
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: résolution des problèmes du plug-in Lync VDI'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Troubleshooting the Lync VDI plug-in
+ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
+ms:contentKeyID: 48183525
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7afaa0067e4ca06f8bb40ff201b090a45c66f442
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846480"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Résolution des problèmes du plug-in Lync VDI (Virtual Desktop Infrastructure) dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-10_
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a><span data-ttu-id="0e36d-102">Résoudre les problèmes du plug-in Lync VDI dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0e36d-102">Troubleshooting the Lync VDI plug-in in Lync Server 2013</span></span>
 
-## Résolution des problèmes liés à l’installation du plug-in Lync VDI (Virtual Desktop Infrastructure) sur un client léger
+</div>
 
-Si vous rencontrez des problèmes lors de l’installation du plug-in VDI sur un client léger, vérifiez les points suivants :
+<div id="mainSection">
 
-  - Assurez-vous que l’espace est suffisant dans le dossier que vous avez spécifié dans les variables système TEMP et TMP.
+<div id="mainBody">
 
-  - Assurez-vous que la protection en écriture est désactivée. Reportez-vous à la documentation du fabricant de votre périphérique pour en savoir plus.
+<span> </span>
 
-## Résolution des problèmes liés au jumelage
+<span data-ttu-id="0e36d-103">_**Dernière modification de la rubrique:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="0e36d-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-Lorsque le jumelage du plug-in VDI échoue, l’icône du jumelage qui se trouve dans l’angle inférieur droit prend la forme d’un « X » rouge, comme ceci :
+<div>
 
-![Icône Lync VDI indiquant un jumelage réussi](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Icône Lync VDI indiquant un jumelage réussi")
+## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a><span data-ttu-id="0e36d-104">Résolution des problèmes liés à l’installation du plug-in Lync VDI sur un client léger</span><span class="sxs-lookup"><span data-stu-id="0e36d-104">Troubleshooting Issues with Installing the Lync VDI Plug-in on a Thin Client</span></span>
 
-Voici les raisons possibles des échecs, ainsi que les mesures que vous pouvez prendre pour y remédier.
+<span data-ttu-id="0e36d-105">Si vous rencontrez des problèmes lors de l’installation du plug-in VDI sur un client léger, vérifiez les points suivants:</span><span class="sxs-lookup"><span data-stu-id="0e36d-105">If there are issues with installing the VDI plug-in on a thin client, check the following:</span></span>
 
-  - **L’utilisateur a entré des informations d’identification incorrectes au moment de la connexion.**
+  - <span data-ttu-id="0e36d-106">Assurez-vous que l’espace est suffisant dans le dossier que vous avez spécifié dans les variables système TEMP et TMP.</span><span class="sxs-lookup"><span data-stu-id="0e36d-106">Ensure that there is sufficient space in the folder that you specified in the TEMP and TMP system variables.</span></span>
+
+  - <span data-ttu-id="0e36d-p101">Assurez-vous que la protection en écriture est désactivée. Reportez-vous à la documentation du fabricant de votre périphérique pour en savoir plus.</span><span class="sxs-lookup"><span data-stu-id="0e36d-p101">Ensure that write-protect is turned off. Refer to your device manufacturer’s documentation for instructions.</span></span>
+
+</div>
+
+<div>
+
+## <a name="troubleshooting-issues-with-pairing"></a><span data-ttu-id="0e36d-109">Résolution des problèmes liés au jumelage</span><span class="sxs-lookup"><span data-stu-id="0e36d-109">Troubleshooting Issues with Pairing</span></span>
+
+<span data-ttu-id="0e36d-110">Lorsque le jumelage enfichable VDI échoue, l’icône de jumelage en bas à droite s’affiche sous la forme d’un «X» rouge, comme illustré ci-dessous:</span><span class="sxs-lookup"><span data-stu-id="0e36d-110">When VDI plug-in pairing fails, the pairing icon in the lower right displays as a red “X” as shown:</span></span>
+
+<span data-ttu-id="0e36d-111">![Icône VDI de Lync montrant une jumelage réussie] (images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Icône VDI de Lync montrant une jumelage réussie")</span><span class="sxs-lookup"><span data-stu-id="0e36d-111">![Lync VDI icon showing successful pairing](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Lync VDI icon showing successful pairing")</span></span>
+
+<span data-ttu-id="0e36d-112">Voici quelques raisons possibles d’échecs et des actions correctives que vous pouvez effectuer.</span><span class="sxs-lookup"><span data-stu-id="0e36d-112">The following are possible reasons for failures and the corrective actions you can take.</span></span>
+
+  - <span data-ttu-id="0e36d-113">**L’utilisateur a entré des informations d’identification incorrectes au moment de la connexion.**</span><span class="sxs-lookup"><span data-stu-id="0e36d-113">**The user entered incorrect credentials during sign-in.**</span></span>
     
-    L’utilisateur doit se déconnecter de Lync et se reconnecter avec les informations d’identification appropriées. La boîte de dialogue de jumelage réapparaît et indique si le jumelage a réussi.
+    <span data-ttu-id="0e36d-114">L’utilisateur doit se déconnecter de Lync et se reconnecter avec les informations d’identification appropriées.</span><span class="sxs-lookup"><span data-stu-id="0e36d-114">The user should sign out of Lync and sign in again with the correct credentials.</span></span> <span data-ttu-id="0e36d-115">La boîte de dialogue de jumelage réapparaît et indique si le jumelage a réussi.</span><span class="sxs-lookup"><span data-stu-id="0e36d-115">The pairing dialog box will reappear and show whether pairing is successful.</span></span>
 
-  - **Une autre instance du client Bureau à distance est en cours d’exécution.**
+  - <span data-ttu-id="0e36d-116">**Une autre instance du client Bureau à distance est en cours d’exécution.**</span><span class="sxs-lookup"><span data-stu-id="0e36d-116">**Another instance of the remote desktop client is running.**</span></span>
     
-    Si vous utilisez une connexion Bureau à distance dans Windows, procédez ainsi :
+    <span data-ttu-id="0e36d-117">S’ils utilisent une connexion Bureau à distance dans Windows, les utilisateurs doivent procéder comme suit:</span><span class="sxs-lookup"><span data-stu-id="0e36d-117">If they are using Remote Desktop Connection in Windows, users should do the following:</span></span>
     
-    1.  Démarrez le Gestionnaire des tâches : appuyez sur **Alt+Ctrl+Suppr**, puis cliquez sur **Démarrer le Gestionnaire des tâches**.
+    1.  <span data-ttu-id="0e36d-118">Démarrez le Gestionnaire des tâches : appuyez sur \*\*Alt+Ctrl+Suppr \*\*, puis cliquez sur **Démarrer le Gestionnaire des tâches**.</span><span class="sxs-lookup"><span data-stu-id="0e36d-118">Start Task Manager: Press **Alt+Ctrl+Delete**, and then click **Start Task Manager**.</span></span>
     
-    2.  Cliquez sur l’onglet **Processus** et recherchez tous les processus nommés **mstsc.exe** dans la liste.
+    2.  <span data-ttu-id="0e36d-119">Cliquez sur l’onglet **Processus** et recherchez tous les processus nommés **mstsc.exe** dans la liste.</span><span class="sxs-lookup"><span data-stu-id="0e36d-119">Click the **Processes** tab and look for all processes named **mstsc.exe** in the list.</span></span>
     
-    3.  Mettez chaque processus **mstsc.exe** en surbrillance et cliquez sur **Arrêter le processus**.
+    3.  <span data-ttu-id="0e36d-120">Mettez chaque processus **mstsc.exe** en surbrillance et cliquez sur **Arrêter le processus**. </span><span class="sxs-lookup"><span data-stu-id="0e36d-120">Highlight each **mstsc.exe** process and then click **End Process**.</span></span>
     
-    4.  Démarrez une nouvelle session Bureau à distance et réessayez de vous connecter.
+    4.  <span data-ttu-id="0e36d-121">Démarrez une nouvelle session Bureau à distance et réessayez de vous connecter. </span><span class="sxs-lookup"><span data-stu-id="0e36d-121">Start a new remote desktop session and try connecting again.</span></span>
 
-  - **Les fichiers nécessaires n’ont pas été installés correctement.**
+  - <span data-ttu-id="0e36d-122">**Les fichiers nécessaires n’ont pas été installés correctement.**</span><span class="sxs-lookup"><span data-stu-id="0e36d-122">**The necessary files did not install correctly.**</span></span>
     
-    Une fois le plug-in installé sur l’ordinateur local, les fichiers suivants doivent se trouver sous C:\\Program Files\\Microsoft Office\\Office15 (ou la lettre de lecteur qui convient) :
+    <span data-ttu-id="0e36d-123">Une fois que le plug-in est installé sur l’ordinateur local, les fichiers suivants doivent figurer sous\\C:\\Program Files\\Microsoft Office Office15 (ou la lettre de lecteur appropriée):</span><span class="sxs-lookup"><span data-stu-id="0e36d-123">After the plug-in is installed on the local computer, the following files should be present under C:\\Program Files\\Microsoft Office\\Office15 (or the appropriate drive letter):</span></span>
     
-      - LyncVdiPlugin.dll
+      - <span data-ttu-id="0e36d-124">LyncVdiPlugin.dll</span><span class="sxs-lookup"><span data-stu-id="0e36d-124">LyncVdiPlugin.dll</span></span>
     
-      - UcVdi.dll
+      - <span data-ttu-id="0e36d-125">UcVdi.dll</span><span class="sxs-lookup"><span data-stu-id="0e36d-125">UcVdi.dll</span></span>
     
-    Si des problèmes liés au jumelage VDI se sont produits, vérifiez que ces fichiers sont présents sur l’ordinateur local.
+    <span data-ttu-id="0e36d-126">S’il existe des problèmes avec le jumelage d’infrastructure VDI, assurez-vous que ces fichiers sont présents sur l’ordinateur local.</span><span class="sxs-lookup"><span data-stu-id="0e36d-126">If there are any issues with VDI pairing, check to make sure that these files are present on the local computer.</span></span>
 
-  - **Le client Lync s’exécute sur l’ordinateur local.**
+  - <span data-ttu-id="0e36d-127">**Le client Lync s’exécute sur l’ordinateur local.**</span><span class="sxs-lookup"><span data-stu-id="0e36d-127">**The Lync client is running on the local computer.**</span></span>
     
-    Pour utiliser le plug-in Lync VDI, aucun client Lync ne doit s’exécuter sur l’ordinateur local. Sinon, le jumelage échoue. Il est recommandé de ne pas installer le client Lync sur l’ordinateur local.
+    <span data-ttu-id="0e36d-128">Pour utiliser le plug-in Lync VDI, un client Lync ne doit pas être en cours d’exécution sur l’ordinateur local; sinon, le jumelage échoue.</span><span class="sxs-lookup"><span data-stu-id="0e36d-128">To use the Lync VDI plugin, a Lync client must not be running on the local computer, otherwise pairing will fail.</span></span> <span data-ttu-id="0e36d-129">En règle générale, l’utilisateur ne doit pas installer un client Lync sur l’ordinateur local.</span><span class="sxs-lookup"><span data-stu-id="0e36d-129">As a best practice, the user should not install a Lync client on the local computer.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013 : tblPreference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615052(v=OCS.15)
-ms:contentKeyID: 49299415
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
+ms:contentKeyID: 48185913
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846700"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPreference dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tblpreference-in-lync-server-2013"></a><span data-ttu-id="a00ec-102">tblPreference dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a00ec-102">tblPreference in Lync Server 2013</span></span>
 
-La table tblPreference contient les préférences des utilisateurs pour les clients. Elle est généralement utilisée par les clients avant Lync 2013.
+</div>
 
-### Colonnes
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a00ec-103">_**Dernière modification de la rubrique:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="a00ec-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+
+<span data-ttu-id="a00ec-104">tblPreference contient les préférences client de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="a00ec-104">tblPreference contains the users’ client preferences.</span></span> <span data-ttu-id="a00ec-105">Il est généralement utilisé par les clients antérieurs à Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="a00ec-105">This is generally used by clients previous to Lync 2013.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="a00ec-106">Celles</span><span class="sxs-lookup"><span data-stu-id="a00ec-106">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,37 +47,37 @@ La table tblPreference contient les préférences des utilisateurs pour les clie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Type</th>
-<th>Description</th>
+<th><span data-ttu-id="a00ec-107">Colonne</span><span class="sxs-lookup"><span data-stu-id="a00ec-107">Column</span></span></th>
+<th><span data-ttu-id="a00ec-108">Type</span><span class="sxs-lookup"><span data-stu-id="a00ec-108">Type</span></span></th>
+<th><span data-ttu-id="a00ec-109">Description</span><span class="sxs-lookup"><span data-stu-id="a00ec-109">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prefLabel</p></td>
-<td><p>nvarchar (255), non null</p></td>
-<td><p>Étiquette dont le format est le suivant : &lt;uri sip utilisateur&gt;|nom utilisateur.&lt;préférence définie&gt;.</p></td>
+<td><p><span data-ttu-id="a00ec-110">prefLabel</span><span class="sxs-lookup"><span data-stu-id="a00ec-110">prefLabel</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-111">nvarchar (255), pas null</span><span class="sxs-lookup"><span data-stu-id="a00ec-111">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-112">Étiquette avec un format tel que: &lt;URI&gt;SIP utilisateur | nom d’utilisateur. &lt;option définie&gt;.</span><span class="sxs-lookup"><span data-stu-id="a00ec-112">Label with a format such as: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prefSeqID</p></td>
-<td><p>int, non null</p></td>
-<td><p>Numéro séquentiel (par étiquette) à des fins de contrôle de version.</p></td>
+<td><p><span data-ttu-id="a00ec-113">prefSeqID</span><span class="sxs-lookup"><span data-stu-id="a00ec-113">prefSeqID</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-114">ent, non null</span><span class="sxs-lookup"><span data-stu-id="a00ec-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-115">Un numéro séquentiel (par étiquette) à des fins de contrôle de version.</span><span class="sxs-lookup"><span data-stu-id="a00ec-115">A sequential number (per label) for versioning purposes.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prefContent</p></td>
-<td><p>nvarchar (max)</p></td>
-<td><p>Contenu codé.</p></td>
+<td><p><span data-ttu-id="a00ec-116">prefContent</span><span class="sxs-lookup"><span data-stu-id="a00ec-116">prefContent</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-117">nvarchar (max)</span><span class="sxs-lookup"><span data-stu-id="a00ec-117">nvarchar (max)</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-118">Contenu encodé.</span><span class="sxs-lookup"><span data-stu-id="a00ec-118">Encoded content.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>lastModifiedBy</p></td>
-<td><p>int, non null</p></td>
-<td><p>ID du principal qui à mis à jour la préférence.</p></td>
+<td><p><span data-ttu-id="a00ec-119">lastModifiedBy</span><span class="sxs-lookup"><span data-stu-id="a00ec-119">lastModifiedBy</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-120">ent, non null</span><span class="sxs-lookup"><span data-stu-id="a00ec-120">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-121">ID de l’objet principal qui a mis à jour la préférence.</span><span class="sxs-lookup"><span data-stu-id="a00ec-121">ID of the principal that updated the preference.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Clé
+### <a name="key"></a><span data-ttu-id="a00ec-122">Clé</span><span class="sxs-lookup"><span data-stu-id="a00ec-122">Key</span></span>
 
 <table>
 <colgroup>
@@ -66,15 +86,26 @@ La table tblPreference contient les préférences des utilisateurs pour les clie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Description</th>
+<th><span data-ttu-id="a00ec-123">Colonne</span><span class="sxs-lookup"><span data-stu-id="a00ec-123">Column</span></span></th>
+<th><span data-ttu-id="a00ec-124">Description</span><span class="sxs-lookup"><span data-stu-id="a00ec-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prefLabel, prefSeqID&gt;</p></td>
-<td><p>Clé primaire.</p></td>
+<td><p><span data-ttu-id="a00ec-125">&lt;prefLabel, prefSeqID&gt;</span><span class="sxs-lookup"><span data-stu-id="a00ec-125">&lt;prefLabel, prefSeqID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="a00ec-126">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="a00ec-126">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

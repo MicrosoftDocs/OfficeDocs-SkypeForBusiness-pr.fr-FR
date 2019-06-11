@@ -1,86 +1,76 @@
-﻿---
-title: Affectation d’une stratégie de voix par utilisateur
-TOCTitle: Affectation d’une stratégie de voix par utilisateur
-ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688155(v=OCS.15)
-ms:contentKeyID: 49891468
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Affectation d’une stratégie de voix par utilisateur
+title: 'Lync Server 2013: affecter une stratégie vocale par utilisateur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user voice policy
+ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)
+ms:contentKeyID: 49733758
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e74bebc202a9e8d9fbc7b925c14bbe030e4c577
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846895"
+---
+# <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a><span data-ttu-id="b421d-102">Affecter une stratégie vocale par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b421d-102">Assign a per-user voice policy in Lync Server 2013</span></span>
 
  
 
-_**Dernière rubrique modifiée :** 2013-02-22_
 
-Les stratégies de voix au niveau global ou au niveau du site sont automatiquement assignées à tous les comptes d’utilisateurs Lync Server 2013 activés pour Voix Enterprise. Vous pouvez également assigner des stratégies de voix à des utilisateurs spécifiques à l’aide du Panneau de configuration Lync Server 2013 ou de Lync Server 2013 Management Shell. Appliquez les procédures de cette rubrique pour assigner de manière explicite des stratégies par utilisateur à des utilisateurs Lync Server.
+<span data-ttu-id="b421d-103">Les stratégies de voix globale et de niveau site sont automatiquement affectées à tous les comptes d’utilisateurs Lync Server 2013 activés pour Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="b421d-103">Global and site-level voice policies are automatically assigned to all Lync Server 2013 user accounts that are enabled for Enterprise Voice.</span></span> <span data-ttu-id="b421d-104">Vous pouvez également attribuer des stratégies vocales à des utilisateurs spécifiques à l’aide du panneau de configuration de Lync Server 2013 ou de Lync Server 2013 Management Shell.</span><span class="sxs-lookup"><span data-stu-id="b421d-104">You can also assign voice policies to specific users by using either the Lync Server 2013 Control Panel or the Lync Server 2013 Management Shell.</span></span> <span data-ttu-id="b421d-105">Suivez les procédures décrites dans cette rubrique pour affecter explicitement des stratégies par utilisateur aux utilisateurs de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b421d-105">Use the procedures in this topic to explicitly assign per-user policies to Lync Server users.</span></span>
 
-## Pour assigner une stratégie de voix spécifique à l’utilisateur à l’aide du Panneau de configuration Lync Server
+## <a name="to-assign-a-user-specific-voice-policy-using-the-lync-server-control-panel"></a><span data-ttu-id="b421d-106">Pour attribuer une stratégie vocale spécifique à l’utilisateur à l’aide du panneau de configuration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="b421d-106">To assign a user-specific voice policy using the Lync Server Control Panel</span></span>
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+1.  <span data-ttu-id="b421d-107">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="b421d-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  <span data-ttu-id="b421d-108">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b421d-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b421d-109">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b421d-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur que vous souhaitez configurer.
+3.  <span data-ttu-id="b421d-110">Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur à configurer.</span><span class="sxs-lookup"><span data-stu-id="b421d-110">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
 
-4.  Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
+4.  <span data-ttu-id="b421d-111">Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="b421d-111">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-5.  Dans **Modifier l’utilisateur Lync Server** sous **Stratégie de voix**, sélectionnez la stratégie d’utilisateur à appliquer.
+5.  <span data-ttu-id="b421d-112">Dans **modifier l’utilisateur de Lync Server** sous **stratégie vocale**, sélectionnez la stratégie d’utilisateur que vous voulez appliquer.</span><span class="sxs-lookup"><span data-stu-id="b421d-112">In **Edit Lync Server User** under **Voice policy**, select the user policy that you want to apply.</span></span>
     
+
     > [!NOTE]  
-    > Les paramètres <strong>&lt;Automatique&gt;</strong> appliquent les paramètres de stratégie globale ou du serveur par défaut.
+    > <span data-ttu-id="b421d-113">Les <STRONG> &lt;paramètres&gt; automatiques</STRONG> appliquent le serveur par défaut ou les paramètres de stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="b421d-113">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.</span></span>
 
-## Pour assigner une stratégie de voix spécifique à l’utilisateur à l’aide de Lync Server Management Shell
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="b421d-114">Attribution d’une stratégie vocale par utilisateur à l’aide des applets de cmdlet Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b421d-114">Assigning a Per-User Voice Policy by using Windows PowerShell Cmdlets</span></span>
 
-3.  Pour assigner une stratégie de voix utilisateur existante à un utilisateur, exécutez la commande suivante à l’invite :
-    
-        Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
-    
-    Par exemple :
-    
-        Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
-    
-    Dans cet exemple, l’utilisateur dont le nom complet est Bob Kelly a reçu la stratégie de voix portant le nom **VoicePolicyJapan**.
+<span data-ttu-id="b421d-115">Vous pouvez affecter des stratégies vocales par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsVoicePolicy** .</span><span class="sxs-lookup"><span data-stu-id="b421d-115">You can assign per-user voice policies by using Windows PowerShell and the **Grant-CsVoicePolicy** cmdlet.</span></span> <span data-ttu-id="b421d-116">Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b421d-116">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="b421d-117">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="b421d-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-Pour plus d’informations sur l’assignation d’une stratégie de voix spécifique à l’utilisateur ou sur l’exécution de l’applet de commande **Grant-CsVoicePolicy**, voir la documentation de [Lync Server Management Shell](lync-server-2013-lync-server-management-shell.md).
+## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a><span data-ttu-id="b421d-118">Pour attribuer une stratégie vocale par utilisateur à un utilisateur unique</span><span class="sxs-lookup"><span data-stu-id="b421d-118">To assign a per-user voice policy to a single user</span></span>
 
-## Assignation d’une stratégie de voix par utilisateur à l’aide d’applets de commande Windows PowerShell
-
-Les stratégies de voix par utilisateur peuvent également être assignées à l’aide de Windows PowerShell et de l’applet de commande **Grant-CsVoicePolicy**. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
-
-## Assignation d’une stratégie de voix par utilisateur à un utilisateur unique
-
-  - La commande suivante assigne la stratégie de voix par utilisateur RedmondVoicePolicy à l’utilisateur Ken Myer.
+  - <span data-ttu-id="b421d-119">La commande suivante affecte le RedmondVoicePolicy de la stratégie vocale par utilisateur à l’utilisateur Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="b421d-119">The following command assigns the per-user voice policy RedmondVoicePolicy to the user Ken Myer.</span></span>
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## Assignation d’une stratégie de voix par utilisateur à plusieurs utilisateurs
+## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a><span data-ttu-id="b421d-120">Pour affecter une stratégie vocale par utilisateur à plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="b421d-120">To assign a per-user voice policy to multiple users</span></span>
 
-  - Cette commande assigne la stratégie de voix par utilisateur FinanceVoicePolicy à tous les utilisateurs qui ont des comptes dans l’unité d’organisation Finance dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, voir la documentation de l’applet de commande [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - <span data-ttu-id="b421d-121">Cette commande affecte le FinanceVoicePolicy de la stratégie vocale par utilisateur à tous les utilisateurs disposant de comptes dans l’unité d’organisation Finance dans Active Directory.</span><span class="sxs-lookup"><span data-stu-id="b421d-121">This command assigns the per-user voice policy FinanceVoicePolicy to all the users who have accounts in the Finance OU in Active Directory.</span></span> <span data-ttu-id="b421d-122">Pour plus d’informations sur le paramètre de l’unité d’organisation utilisée dans cette commande, voir la documentation relative à l’applet de commande [Get-Csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="b421d-122">For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## Annulation de l’assignation d’une stratégie de voix par utilisateur
+## <a name="to-unassign-a-per-user-voice-policy"></a><span data-ttu-id="b421d-123">Pour annuler l’affectation d’une stratégie vocale par utilisateur</span><span class="sxs-lookup"><span data-stu-id="b421d-123">To unassign a per-user voice policy</span></span>
 
-  - La commande suivante annule l’assignation d’une stratégie de voix par utilisateur précédemment affectée à Ken Myer. Lorsque cette stratégie par utilisateur n’est plus affectée à Ken Myer, celui-ci est automatiquement géré par la stratégie globale ou, le cas échéant, par la stratégie de site locale associée. La stratégie de site est prioritaire sur la stratégie globale.
+  - <span data-ttu-id="b421d-124">La commande suivante réattribue toutes les stratégies vocales par utilisateur précédemment affectées à Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="b421d-124">The following command unassigns any per-user voice policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="b421d-125">Une fois l’affectation de la stratégie par utilisateur annulée, Ken Myer sera automatiquement géré en utilisant la stratégie globale ou, le cas échéant, sa stratégie de site local.</span><span class="sxs-lookup"><span data-stu-id="b421d-125">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="b421d-126">Une stratégie de site est prioritaire sur la stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="b421d-126">A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Grant-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsVoicePolicy).
+<span data-ttu-id="b421d-127">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="b421d-127">For more information, see the help topic for the [Grant-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398828\(v=ocs.15\)) cmdlet.</span></span>
 
-## Voir aussi
+## <a name="see-also"></a><span data-ttu-id="b421d-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b421d-128">See Also</span></span>
 
-#### Tâches
 
-[Désactivation d’un utilisateur pour Voix Entreprise](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
+[<span data-ttu-id="b421d-129">Désactiver un utilisateur pour voix entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b421d-129">Disable a user for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-disable-a-user-for-enterprise-voice.md)  
 
-#### Autres ressources
 
-[Lync Server Management Shell](lync-server-2013-lync-server-management-shell.md)
+[<span data-ttu-id="b421d-130">Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="b421d-130">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)
 

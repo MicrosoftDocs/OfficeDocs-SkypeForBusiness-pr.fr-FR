@@ -1,29 +1,63 @@
-﻿---
-title: Mise à jour de la liste d’activation Outlook
-TOCTitle: Mise à jour de la liste d’activation Outlook
-ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215438(v=OCS.15)
-ms:contentKeyID: 49297354
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: mise à jour de la liste d’activations d’Outlook'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Updating the Outlook enable list
+ms:assetid: 5db120dc-52f9-4dde-acb9-3824ae245086
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215438(v=OCS.15)
+ms:contentKeyID: 48242739
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20c7ee75e70b52a4edd01230fe10aeb46f6e6e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846464"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mise à jour de la liste d’activation Outlook
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-01-07_
+# <a name="updating-the-outlook-enable-list-in-lync-server-2013"></a><span data-ttu-id="66dd1-102">Mise à jour de la liste d’activations d’Outlook dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66dd1-102">Updating the Outlook enable list in Lync Server 2013</span></span>
 
-Pour vous assurer que le complément de réunion en ligne pour Microsoft Lync 2013 est toujours activé pour les utilisateurs, vous pouvez créer une stratégie qui inclut ce complément dans la liste de gestion des compléments pour Outlook. La stratégie Liste de gestion des compléments est incluse dans les fichiers de modèle d’administration Office pour la Console de gestion des stratégies de groupe. Elle crée une clé de Registre sous HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList. Vous pouvez ajouter une valeur à cette clé pour la bibliothèque de liens dynamiques ucaddin.dll et configurer la valeur ucaddin.dll afin qu’elle soit toujours activée et que les utilisateurs ne puissent pas la désactiver manuellement.
+</div>
 
-## Pour ajouter ucaddin.dll à la liste des compléments Outlook
+<div id="mainSection">
 
-  - À la clé de Registre AddinList, située sous HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, ajoutez la valeur suivante :
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="66dd1-103">_**Dernière modification de la rubrique:** 2013-01-07_</span><span class="sxs-lookup"><span data-stu-id="66dd1-103">_**Topic Last Modified:** 2013-01-07_</span></span>
+
+<span data-ttu-id="66dd1-104">Vous pouvez vous assurer que le complément réunion en ligne pour Microsoft Lync 2013 reste actif pour les utilisateurs en créant une stratégie qui l’inclut dans la liste de gestion des compléments pour Outlook.</span><span class="sxs-lookup"><span data-stu-id="66dd1-104">You can ensure that Online Meeting Add-in for Microsoft Lync 2013 always remains enabled for users by creating a policy that includes it in the Add-in Management List for Outlook.</span></span> <span data-ttu-id="66dd1-105">La stratégie de liste de gestion des compléments est incluse dans les fichiers de modèles d’administration Office pour la console de gestion des stratégies de groupe.</span><span class="sxs-lookup"><span data-stu-id="66dd1-105">The Add-in Management List policy is included in the Office administrative template files for the Group Policy Management Console.</span></span> <span data-ttu-id="66dd1-106">Il crée une clé de Registre sous\\stratégies\\\\logiciel HKCU\\Microsoft\\Office\\15,0\\Outlook15 résilience\\AddinList.</span><span class="sxs-lookup"><span data-stu-id="66dd1-106">It creates a registry key under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList.</span></span> <span data-ttu-id="66dd1-107">Vous pouvez ajouter une valeur à ucaddin. dll à cette clé et configurer la valeur ucaddin. dll de sorte qu’elle soit toujours activée et que les utilisateurs ne puissent pas la désactiver manuellement.</span><span class="sxs-lookup"><span data-stu-id="66dd1-107">You can add a value for the ucaddin.dll to this key, and configure the ucaddin.dll value so that it is always enabled and so that users cannot manually disable it</span></span>
+
+<div>
+
+## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a><span data-ttu-id="66dd1-108">Pour ajouter ucaddin. dll à la liste des compléments Outlook</span><span class="sxs-lookup"><span data-stu-id="66dd1-108">To Add ucaddin.dll to the Outlook Add-in List</span></span>
+
+  - <span data-ttu-id="66dd1-109">Pour la clé de Registre AddinList, située sous\\stratégies\\\\logicielles\\HKCU\\Microsoft\\Office\\15,0 Outlook15\\de résilience AddinList, ajoutez la valeur suivante:</span><span class="sxs-lookup"><span data-stu-id="66dd1-109">To the AddinList registry key, located under HKCU\\Software\\Policies\\Microsoft\\Office\\15.0\\Outlook15\\Resiliency\\AddinList, add the following value:</span></span>
     
-      - Type de Registre = REG\_SZ
+      - <span data-ttu-id="66dd1-110">Type de Registre =\_St SZ</span><span class="sxs-lookup"><span data-stu-id="66dd1-110">Registry Type = REG\_SZ</span></span>
     
-      - Nom = ucaddin.dll
+      - <span data-ttu-id="66dd1-111">Nom = ucaddin. dll</span><span class="sxs-lookup"><span data-stu-id="66dd1-111">Name = ucaddin.dll</span></span>
     
-      - Valeur = 1 (spécifie que le complément est toujours activé et qu’il ne peut pas être géré par l’utilisateur final)
+      - <span data-ttu-id="66dd1-112">Valeur = 1 (indique que le complément est toujours activé et ne peut pas être géré par l’utilisateur final)</span><span class="sxs-lookup"><span data-stu-id="66dd1-112">Value = 1 (specifies that the add-in is always enabled and cannot be managed by the end user)</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,24 +1,51 @@
-﻿---
-title: 'Lync Server 2013 : Table Tenants'
-TOCTitle: Table Tenants
-ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412950(v=OCS.15)
-ms:contentKeyID: 49298757
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Tenants'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Tenants table
+ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)
+ms:contentKeyID: 48185309
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a7da863aa2b713f874aba00f5a4f481f45fb79b3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846625"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Tenants dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tenants-table-in-lync-server-2013"></a><span data-ttu-id="e657b-102">Table Tenants dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e657b-102">Tenants table in Lync Server 2013</span></span>
 
-La table Tenants est une table de prise en charge qui stocke une liste des différents clients. Chaque enregistrement de la table représente un client.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e657b-103">_**Dernière modification de la rubrique:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="e657b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="e657b-104">La table clients est une table de prise en charge qui stocke une liste des différents clients.</span><span class="sxs-lookup"><span data-stu-id="e657b-104">The Tenants table is a supporting table that stores a list of the various tenants.</span></span> <span data-ttu-id="e657b-105">Chaque enregistrement de la table représente un client.</span><span class="sxs-lookup"><span data-stu-id="e657b-105">Each record in the table represents one tenant.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Dans les déploiement sur site, CDR utilise l’ID de client intégré pour indiquer différents types d’authentification, tels que la connectivité de messagerie instantanée publique, l’authentification fédérée et l’authentification anonyme.
+> <span data-ttu-id="e657b-106">Dans le cadre d’un déploiement local, le CDR utilise l’ID de locataire intégré pour indiquer un type d’authentification différent, tel que la connectivité de messagerie instantanée publique, fédéré et anonyme.</span><span class="sxs-lookup"><span data-stu-id="e657b-106">In on-premises deployment, CDR uses the build-in Tenant ID to indicate different authentication type, such as public IM connectivity, Federated and Anonymous.</span></span>
+
+
+
+</div>
 
 
 <table>
@@ -30,25 +57,42 @@ La table Tenants est une table de prise en charge qui stocke une liste des diff�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Type de données</th>
-<th>Clé/Index</th>
-<th>Détails</th>
+<th><span data-ttu-id="e657b-107">Colonne</span><span class="sxs-lookup"><span data-stu-id="e657b-107">Column</span></span></th>
+<th><span data-ttu-id="e657b-108">Type de données</span><span class="sxs-lookup"><span data-stu-id="e657b-108">Data Type</span></span></th>
+<th><span data-ttu-id="e657b-109">Clé/Index</span><span class="sxs-lookup"><span data-stu-id="e657b-109">Key/Index</span></span></th>
+<th><span data-ttu-id="e657b-110">Détails</span><span class="sxs-lookup"><span data-stu-id="e657b-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>TenantId</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant cet ID de client.</p></td>
+<td><p><span data-ttu-id="e657b-111"><strong>IDClient</strong></span><span class="sxs-lookup"><span data-stu-id="e657b-111"><strong>TenantId</strong></span></span></p></td>
+<td><p><span data-ttu-id="e657b-112">int</span><span class="sxs-lookup"><span data-stu-id="e657b-112">int</span></span></p></td>
+<td><p><span data-ttu-id="e657b-113">Principal</span><span class="sxs-lookup"><span data-stu-id="e657b-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e657b-114">Numéro unique identifiant cet ID de client.</span><span class="sxs-lookup"><span data-stu-id="e657b-114">Unique number identifying this Tenant ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantKey</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Valeurs autorisées :</p><ul><li><p>00000000-0000-0000-0000-000000000000 (entreprise)</p></li><li><p>00000000-0000-0000-0000-000000000001 (fédéré)</p></li><li><p>00000000-0000-0000-0000-000000000002 (anonyme)</p></li><li><p>00000000-0000-0000-0000-000000000003 (connectivité PIC)</p></li></ul></td>
+<td><p><span data-ttu-id="e657b-115"><strong>TenantKey</strong></span><span class="sxs-lookup"><span data-stu-id="e657b-115"><strong>TenantKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="e657b-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e657b-116">nvarchar(256)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="e657b-117">Valeurs autorisées:</span><span class="sxs-lookup"><span data-stu-id="e657b-117">Allowed values:</span></span></p>
+<ul>
+<li><p><span data-ttu-id="e657b-118">00000000-0000-0000-0000-000000000000-entreprise</span><span class="sxs-lookup"><span data-stu-id="e657b-118">00000000-0000-0000-0000-000000000000 – Enterprise</span></span></p></li>
+<li><p><span data-ttu-id="e657b-119">00000000-0000-0000-0000-000000000001-Federated</span><span class="sxs-lookup"><span data-stu-id="e657b-119">00000000-0000-0000-0000-000000000001 – Federated</span></span></p></li>
+<li><p><span data-ttu-id="e657b-120">00000000-0000-0000-0000-000000000002-anonyme</span><span class="sxs-lookup"><span data-stu-id="e657b-120">00000000-0000-0000-0000-000000000002 – Anonymous</span></span></p></li>
+<li><p><span data-ttu-id="e657b-121">00000000-0000-0000-0000-000000000003-connectivité PIC (Public IM Connectivity)</span><span class="sxs-lookup"><span data-stu-id="e657b-121">00000000-0000-0000-0000-000000000003 – Public IM connectivity</span></span></p></li>
+</ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

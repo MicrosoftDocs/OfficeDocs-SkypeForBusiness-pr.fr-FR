@@ -1,51 +1,79 @@
-﻿---
-title: Affichage des informations d’une stratégie de conférence
-TOCTitle: Affichage des informations d’une stratégie de conférence
-ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721918(v=OCS.15)
-ms:contentKeyID: 49891588
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: afficher les informations de stratégie de conférence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View conferencing policy information
+ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721918(v=OCS.15)
+ms:contentKeyID: 49733852
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e8dc9174356b1d5f8e5c6316ef761c51db1eb969
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846308"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Affichage des informations d’une stratégie de conférence
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="view-conferencing-policy-information-in-lync-server-2013"></a><span data-ttu-id="2762c-102">Afficher les informations de stratégie de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2762c-102">View conferencing policy information in Lync Server 2013</span></span>
 
-Dans le Panneau de configuration Lync Server 2013, les stratégies de conférence vous permettent de contrôler la manière dont la conférence est implémentée dans votre déploiement. Parmi les stratégies de conférence se trouvent :
+</div>
 
-  - une stratégie globale créée par défaut lorsque vous déployez Lync Server 2013 ;
+<div id="mainSection">
 
-  - une stratégie facultative au niveau du site et au niveau de l’utilisateur que vous pouvez créer et utiliser pour spécifier la manière dont la conférence est implémentée pour des sites ou utilisateurs spécifiques.
+<div id="mainBody">
 
-## Pour voir les paramètres de stratégie de conférence
+<span> </span>
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<span data-ttu-id="2762c-103">_**Dernière modification de la rubrique:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="2762c-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="2762c-104">Dans Lync Server 2013 panneau de configuration, vous utilisez des stratégies de conférence pour contrôler la façon dont les conférences sont implémentées dans votre déploiement.</span><span class="sxs-lookup"><span data-stu-id="2762c-104">In Lync Server 2013 Control Panel, you use conferencing policies to control how conferencing is implemented in your deployment.</span></span> <span data-ttu-id="2762c-105">Cela inclut les stratégies de conférence suivantes:</span><span class="sxs-lookup"><span data-stu-id="2762c-105">This includes the following conferencing policies:</span></span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
+  - <span data-ttu-id="2762c-106">Stratégie globale créée par défaut lors du déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2762c-106">A global policy that is created by default when you deploy Lync Server 2013.</span></span>
 
-4.  Sur la page **Stratégie de conférence**, double-cliquez sur la stratégie de conférence que vous voulez voir.
+  - <span data-ttu-id="2762c-107">Stratégie de niveau de site et de niveau utilisateur facultative que vous pouvez créer et utiliser pour spécifier la façon dont les conférences sont implémentées pour des sites ou des utilisateurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="2762c-107">Optional site-level and user-level policy that you can create and use to specify how conferencing is implemented for specific sites or users.</span></span>
 
-5.  Dans **Modifier le filtre de fichier**, sélectionnez la case à cocher **Afficher les détails…**.
+<div>
+
+## <a name="to-view-conferencing-policy-settings"></a><span data-ttu-id="2762c-108">Pour afficher les paramètres de stratégie de conférence</span><span class="sxs-lookup"><span data-stu-id="2762c-108">To view conferencing policy settings</span></span>
+
+1.  <span data-ttu-id="2762c-109">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="2762c-109">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="2762c-110">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2762c-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2762c-111">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2762c-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="2762c-112">Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.</span><span class="sxs-lookup"><span data-stu-id="2762c-112">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
+
+4.  <span data-ttu-id="2762c-113">Dans la page **Stratégie de conférence**, double-cliquez sur la stratégie de conférence à afficher.</span><span class="sxs-lookup"><span data-stu-id="2762c-113">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
+
+5.  <span data-ttu-id="2762c-114">Dans **modifier le filtre de fichier**, sélectionnez l’option **afficher les détails...**</span><span class="sxs-lookup"><span data-stu-id="2762c-114">In **Edit File Filter**, select the **Show Details…**</span></span> <span data-ttu-id="2762c-115">case à cocher.</span><span class="sxs-lookup"><span data-stu-id="2762c-115">check box.</span></span>
     
-    **Modifier la stratégie de conférence - \<stratégie\>** s’ouvre pour afficher les paramètres pour la stratégie sélectionnée. Pour plus d’informations concernant la configuration des paramètres, voir [Création ou modification d’une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) (contenu éventuellement en anglais).
+    <span data-ttu-id="2762c-116">**Modifier une stratégie de \<Conférence\> :** ouvre l’affichage des paramètres pour la stratégie sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="2762c-116">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span> <span data-ttu-id="2762c-117">Pour plus d’informations sur la configuration des paramètres, consultez la rubrique [créer ou modifier une stratégie de conférence dans Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).</span><span class="sxs-lookup"><span data-stu-id="2762c-117">For details about configuring the settings, see [Create or modify a conferencing policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).</span></span>
 
-## Affichage des stratégies de conférence à l’aide des cmdlets Lync Server PowerShell
+</div>
 
-Les stratégies de conférence peuvent aussi être affichées à l’aide de Lync Server PowerShell et de la cmdlet Get-CsConferencingPolicy. Celle-ci peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Affichage des stratégies de conférence
+## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2762c-118">Affichage de stratégies de conférence à l’aide des cmdlets Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2762c-118">Viewing Conferencing Policies by Using Windows PowerShell Cmdlets</span></span>
 
-  - Pour voir les informations relatives à toutes vos stratégies de conférence, tapez la commande suivante dans Lync Server Management Shell et appuyez sur Entrée :
+<span data-ttu-id="2762c-119">Les stratégies de conférence peuvent être affichées à l’aide de Windows PowerShell et de l’applet de passe Get-CsConferencingPolicy.</span><span class="sxs-lookup"><span data-stu-id="2762c-119">Conferencing policies can be viewed by using Windows PowerShell and the Get-CsConferencingPolicy cmdlet.</span></span> <span data-ttu-id="2762c-120">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2762c-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="2762c-121">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="2762c-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-conferencing-policies"></a><span data-ttu-id="2762c-122">Pour afficher les stratégies de conférence</span><span class="sxs-lookup"><span data-stu-id="2762c-122">To view conferencing policies</span></span>
+
+  - <span data-ttu-id="2762c-123">Pour afficher des informations sur toutes vos stratégies de conférence, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:</span><span class="sxs-lookup"><span data-stu-id="2762c-123">To view information about all your conferencing policies, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsConferencingPolicy
     
-    Vous obtiendrez des indications semblables à ceci :
+    <span data-ttu-id="2762c-124">Vous obtiendrez des indications semblables à ceci :</span><span class="sxs-lookup"><span data-stu-id="2762c-124">That will return information similar to this:</span></span>
     
         Identity                                  : Global
         AllowIPAudio                              : True
@@ -82,5 +110,19 @@ Les stratégies de conférence peuvent aussi être affichées à l’aide de Lyn
         TotalReceiveVideoBitRateKb                : 6000
         EnableMultiViewJoin                       : True
 
-Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy) (contenu éventuellement en anglais).
+</div>
+
+<span data-ttu-id="2762c-125">Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) .</span><span class="sxs-lookup"><span data-stu-id="2762c-125">For more information, see the help topic for the [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

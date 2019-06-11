@@ -1,52 +1,105 @@
-﻿---
-title: Vue d’ensemble des conférences web dans Lync Server 2013
-TOCTitle: Vue d’ensemble des conférences web dans Lync Server 2013
-ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425913(v=OCS.15)
-ms:contentKeyID: 49297004
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Présentation de la conférence Web Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing overview
+ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)
+ms:contentKeyID: 48183949
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0b85bc97f5737f980c83c992a6a21eaeaca4e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846204"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vue d’ensemble des conférences web dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-30_
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a><span data-ttu-id="02ec3-102">Présentation de la conférence Web dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02ec3-102">Overview of web conferencing in Lync Server 2013</span></span>
 
-La conférence web permet aux utilisateurs de partager des documents, tels que des présentations PowerPoint, et de collaborer dessus au cours de leurs conférences. En outre, les utilisateurs peuvent partager tout ou partie de leur Bureau en temps réel, comme si les participants à la conférence se trouvaient autour de la même table de réunion.
+</div>
 
-## Tableau blanc et annotations
+<div id="mainSection">
 
-Un tableau blanc est une surface vierge que vous pouvez utiliser à des fins de collaboration, avec du texte, de l’encre, des dessins et des images. Tous les participants à une réunion peuvent voir les annotations qui y sont ajoutées. La fonctionnalité de tableau blanc favorise la collaboration en permettant aux participants à une réunion d’échanger des idées, de débattre, de prendre des notes, etc.
+<div id="mainBody">
 
-## Interrogation
+<span> </span>
 
-La fonctionnalité d’interrogation favorise la collaboration en permettant aux présentateurs de déterminer rapidement les préférences des participants. Au cours des réunions et des conversations en ligne, les présentateurs peuvent avoir recours à l’interrogation pour recueillir des réponses anonymes des participants. Tous les présentateurs peuvent voir les résultats et choisir soit de les montrer à tous les participants, soit de les masquer.
+<span data-ttu-id="02ec3-103">_**Dernière modification de la rubrique:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="02ec3-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-## Partage d’application et partage de Bureau
+<span data-ttu-id="02ec3-104">Les conférences Web permettent aux utilisateurs de partager des documents et de collaborer sur ceux-ci dans leurs conférences.</span><span class="sxs-lookup"><span data-stu-id="02ec3-104">With web conferencing, users can share and collaborate on documents, such as PowerPoint presentations, during their conferences.</span></span> <span data-ttu-id="02ec3-105">De plus, les utilisateurs peuvent partager tout ou une partie de leurs bureaux entre eux en temps réel, ce qui semble que les personnes de la Conférence aient été rassemblées au sein de la même table lors de la réunion.</span><span class="sxs-lookup"><span data-stu-id="02ec3-105">Additionally, users can share all or part of their desktops with each other in real time, making it seem as though the people in the conference were gathered around the same table in the meeting.</span></span>
 
-Au cours d’une conférence, vous pouvez décider de partager l’intégralité de votre Bureau, une application individuelle ou des moniteurs individuels dans un environnement constitué de plusieurs moniteurs. Outre la possibilité de consulter le contenu, les autres participants de la conférence peuvent aussi demander à prendre le contrôle de votre écran et, moyennant votre autorisation, d’interagir avec le contenu (défilement, modification, etc).
+<div>
+
+## <a name="whiteboard-and-annotations"></a><span data-ttu-id="02ec3-106">Tableau blanc et annotations</span><span class="sxs-lookup"><span data-stu-id="02ec3-106">Whiteboard and Annotations</span></span>
+
+<span data-ttu-id="02ec3-107">Un tableau blanc est une surface vierge qui vous permet de collaborer en utilisant du texte, des entrées manuscrites, des dessins et des images.</span><span class="sxs-lookup"><span data-stu-id="02ec3-107">A whiteboard is a blank canvas that can be used for collaboration, with text, ink, drawings and images.</span></span> <span data-ttu-id="02ec3-108">Tous les participants à une réunion peuvent voir les annotations qui y sont ajoutées.</span><span class="sxs-lookup"><span data-stu-id="02ec3-108">Annotations made on whiteboards can be seen by all meeting participants.</span></span> <span data-ttu-id="02ec3-109">La fonctionnalité de tableau blanc favorise la collaboration en permettant aux participants à une réunion d’échanger des idées, de débattre, de prendre des notes, etc.</span><span class="sxs-lookup"><span data-stu-id="02ec3-109">The whiteboard feature enhances collaboration by enabling meeting participants to discuss ideas, brainstorm, take notes, and so on.</span></span>
+
+</div>
+
+<div>
+
+## <a name="polling"></a><span data-ttu-id="02ec3-110">Interrogation</span><span class="sxs-lookup"><span data-stu-id="02ec3-110">Polling</span></span>
+
+<span data-ttu-id="02ec3-111">La fonctionnalité d’interrogation améliore la collaboration en permettant aux présentateurs de déterminer rapidement les préférences des participants.</span><span class="sxs-lookup"><span data-stu-id="02ec3-111">The polling feature enhances collaboration by enabling presenters to quickly determine participants’ preferences.</span></span> <span data-ttu-id="02ec3-112">Lors des réunions et des conversations en ligne, les présentateurs peuvent avoir recours à l’interrogation pour recueillir des réponses anonymes des participants.</span><span class="sxs-lookup"><span data-stu-id="02ec3-112">During online meetings and conversations, presenters can use polling to gather anonymous responses from participants.</span></span> <span data-ttu-id="02ec3-113">Tous les présentateurs peuvent voir les résultats et choisir de les montrer à tous les participants ou de les masquer.</span><span class="sxs-lookup"><span data-stu-id="02ec3-113">All presenters can see the results and can either hide the results or show them to all attendees.</span></span>
+
+</div>
+
+<div>
+
+## <a name="application-sharing-and-desktop-sharing"></a><span data-ttu-id="02ec3-114">Partage d’application et partage de bureau</span><span class="sxs-lookup"><span data-stu-id="02ec3-114">Application Sharing and Desktop Sharing</span></span>
+
+<span data-ttu-id="02ec3-115">Pendant une conférence, vous pouvez partager l’intégralité de votre bureau, une application individuelle ou des écrans individuels dans un environnement multi-moniteur.</span><span class="sxs-lookup"><span data-stu-id="02ec3-115">During a conference you can share your entire desktop, an individual application, or individual monitors in a multi-monitor environment.</span></span> <span data-ttu-id="02ec3-116">Outre la possibilité d’afficher le contenu, les autres participants à la Conférence peuvent également demander le contrôle de votre écran et, avec cette autorisation, interagir avec le contenu (y compris le défilement et la modification).</span><span class="sxs-lookup"><span data-stu-id="02ec3-116">Aside from just viewing the content, other participants in the conference can also request control of your screen and, with the permission, interact with the content (including scrolling and editing).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Les participants qui agissent en tant que spectateurs de la conférence peuvent aussi décider de prendre le contrôle et de partager du contenu au cours de la réunion.
+> <span data-ttu-id="02ec3-117">Les personnes qui visualisent la Conférence peuvent également prendre le contrôle du contenu pendant la réunion et commencer à le partager.</span><span class="sxs-lookup"><span data-stu-id="02ec3-117">Participants who are viewing the conference can also take over and start sharing content during the meeting</span></span>
 
-## Partage de PowerPoint
 
-Dans Lync 2010, il existait deux modes de visualisation des présentations PowerPoint. Pour les utilisateurs qui exécutaient Lync 2010, les présentations PowerPoint étaient affichées au format PowerPoint 97-2003 et visualisées par le biais d’une copie incorporée de la Visionneuse PowerPoint. Pour les utilisateurs qui exécutaient Lync Web App, les présentations PowerPoint étaient d’abord converties en fichiers HTML dynamiques avant d’être affichées en utilisant conjointement ces fichiers DHTML et Silverlight. Bien que généralement efficace, cette approche présentait certaines limites :
 
-  - La Visionneuse PowerPoint incorporée (qui assurait l’expérience de visualisation optimale) est disponible uniquement sur la plateforme Windows.
+</div>
 
-  - De nombreux appareils mobiles (dont certains téléphones mobiles parmi les plus populaires) ne prennent pas en charge Silverlight.
+</div>
 
-  - La Visionneuse PowerPoint et l’approche DHTML/Silverlight ne prennent pas en charge toutes les fonctionnalités (telles que les transitions de diapositives et la vidéo incorporée) offertes par les dernières éditions de PowerPoint.
+<div>
 
-Pour résoudre ces problèmes et améliorer l’expérience générale des utilisateurs présentant ou visionnant des présentations PowerPoint, Lync Server 2013 fait appel à Office Web Apps et à Office Web Apps Server pour gérer les présentations PowerPoint. Voici quelques-uns des avantages offerts par cette nouvelle approche :
+## <a name="powerpoint-sharing"></a><span data-ttu-id="02ec3-118">Partage PowerPoint</span><span class="sxs-lookup"><span data-stu-id="02ec3-118">PowerPoint Sharing</span></span>
 
-  - Une résolution d’affichage supérieure et une meilleure prise en charge des fonctionnalités de PowerPoint, telles que les animations, les transitions de diapositives et la vidéo incorporée.
+<span data-ttu-id="02ec3-119">Dans les présentations PowerPoint 2010, les présentations PowerPoint étaient affichées de l’une des deux façons suivantes.</span><span class="sxs-lookup"><span data-stu-id="02ec3-119">In Lync 2010 PowerPoint presentations were viewed in one of two ways.</span></span> <span data-ttu-id="02ec3-120">Pour les utilisateurs exécutant Lync 2010, les présentations PowerPoint étaient affichées dans le format PowerPoint 97-2003 et consultées à l’aide d’une copie incorporée de la visionneuse PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="02ec3-120">For users running Lync 2010, PowerPoint presentations were displayed using the PowerPoint 97-2003 format and were viewed using an embedded copy of the PowerPoint viewer.</span></span> <span data-ttu-id="02ec3-121">Pour les utilisateurs exécutant Lync Web App, les présentations PowerPoint ont été converties en fichiers HTML dynamiques, puis consultées à l’aide d’une combinaison de ces fichiers DHTML personnalisés et de Silverlight.</span><span class="sxs-lookup"><span data-stu-id="02ec3-121">For users running Lync Web App, PowerPoint presentations were converted to dynamic HTML files then viewed using a combination of those customized DHTML files and Silverlight.</span></span> <span data-ttu-id="02ec3-122">En règle générale, cette approche avait des limitations:</span><span class="sxs-lookup"><span data-stu-id="02ec3-122">Although generally effective, this approach did have some limitations:</span></span>
 
-  - Des présentations accessibles à un plus grand nombre d’appareils mobiles. En effet, pour la diffusion des présentations PowerPoint, Lync Server 2013 a abandonné le DHTML personnalisé et Silverlight au profit des langages DHTML et JavaScript standard.
+  - <span data-ttu-id="02ec3-123">La visionneuse PowerPoint incorporée (qui offre une meilleure qualité d’affichage) n’est disponible que sur la plateforme Windows.</span><span class="sxs-lookup"><span data-stu-id="02ec3-123">The embedded PowerPoint Viewer (which provided the optimal viewing experience) is only available on the Windows platform.</span></span>
 
-  - Possibilité pour les utilisateurs disposant des privilèges appropriés de parcourir librement une présentation PowerPoint pendant son exécution. Par exemple, pendant que Ken Myer présente son diaporama, Pilar Ackerman peut examiner la diapositive de son choix sans perturber la présentation de Ken.
+  - <span data-ttu-id="02ec3-124">De nombreux appareils mobiles (y compris certains des téléphones mobiles plus populaires) ne prennent pas en charge Silverlight.</span><span class="sxs-lookup"><span data-stu-id="02ec3-124">Many mobile devices (including some of the more popular mobile phones) do not support Silverlight.</span></span>
+
+  - <span data-ttu-id="02ec3-125">La visionneuse PowerPoint et l’approche DHTML/Silverlight ne prennent pas en charge toutes les fonctionnalités (transitions de diapositives et vidéo incorporées) qui se trouvent dans les éditions plus récentes de PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="02ec3-125">The PowerPoint Viewer and the DHTML/Silverlight approach do not support all of the features (such slide transitions and embedded video) that are found in the more recent editions of PowerPoint.</span></span>
+
+<span data-ttu-id="02ec3-126">Pour vous aider à résoudre ces problèmes et améliorer l’utilisation globale des utilisateurs qui présentent ou visualisent des présentations PowerPoint, Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer les présentations PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="02ec3-126">To help address these issues, and to improve the overall experience of users presenting or viewing PowerPoint presentations, Lync Server 2013 employs Office Web Apps and the Office Web Apps Server to handle PowerPoint presentations.</span></span> <span data-ttu-id="02ec3-127">Parmi les autres avantages, cette approche permet de:</span><span class="sxs-lookup"><span data-stu-id="02ec3-127">Among other advantages, this new approach enables:</span></span>
+
+  - <span data-ttu-id="02ec3-128">Des écrans de résolution supérieure et une meilleure prise en charge des fonctionnalités de PowerPoint, telles que les animations, les transitions entre les diapositives et la vidéo incorporée.</span><span class="sxs-lookup"><span data-stu-id="02ec3-128">Higher-resolution displays and better support for PowerPoint capabilities, such as animations, slide transitions, and embedded video.</span></span>
+
+  - <span data-ttu-id="02ec3-129">Appareils mobiles supplémentaires permettant d’accéder à ces présentations.</span><span class="sxs-lookup"><span data-stu-id="02ec3-129">Additional mobile devices to access these presentations.</span></span> <span data-ttu-id="02ec3-130">C’est parce que Lync Server 2013 utilise le langage DHTML et JavaScript standard pour diffuser des présentations PowerPoint au lieu de DHTML et Silverlight personnalisés.</span><span class="sxs-lookup"><span data-stu-id="02ec3-130">That's because Lync Server 2013 uses standard DHTML and JavaScript to broadcast PowerPoint presentations instead of customized DHTML and Silverlight.</span></span>
+
+  - <span data-ttu-id="02ec3-131">Utilisateurs disposant des privilèges appropriés pour faire défiler une présentation PowerPoint indépendamment de la présentation elle-même.</span><span class="sxs-lookup"><span data-stu-id="02ec3-131">Users with the appropriate privileges to scroll through a PowerPoint presentation independent of the presentation itself.</span></span> <span data-ttu-id="02ec3-132">Par exemple, si Ken Myer a présenté son diaporama, Pilar Arès peut examiner n’importe quelle diapositive et ce n’est pas le cas pour la présentation de Ken.</span><span class="sxs-lookup"><span data-stu-id="02ec3-132">For example, while Ken Myer is presenting his slide show, Pilar Ackerman can look at any slide she wants to, and without affecting Ken's presentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

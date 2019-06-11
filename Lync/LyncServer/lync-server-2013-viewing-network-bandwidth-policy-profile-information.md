@@ -1,45 +1,73 @@
-﻿---
-title: Affichage des informations d’un profil de stratégie de bande passante réseau
-TOCTitle: Affichage des informations d’un profil de stratégie de bande passante réseau
-ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721931(v=OCS.15)
-ms:contentKeyID: 49891603
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: affichage des informations de profil de la stratégie de bande passante réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network bandwidth policy profile information
+ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721931(v=OCS.15)
+ms:contentKeyID: 49733866
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 513bd20e9a1ecd40f061c4873e7da8bff4738f36
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846279"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Affichage des informations d’un profil de stratégie de bande passante réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a><span data-ttu-id="2170e-102">Affichage des informations de profil de la stratégie de bande passante réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2170e-102">Viewing network bandwidth policy profile information in Lync Server 2013</span></span>
 
-Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de bande passante est utilisée afin de définir les restrictions de bande passantes pour certains modes. Dans Microsoft Lync Server 2013, seuls les modes audio et vidéo peuvent être soumis à des restrictions en matière de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de configuration Lync Server pour créer, modifier ou supprimer un profil pour ces stratégies au sein du conteneur. Chaque profil de stratégie de bande passante peut être associé à un ou plusieurs sites réseau. Suivez les procédures ci-dessous pour voir un profil de stratégie de bande passante. Pour créer ou modifier un profil de stratégie de bande passante, voir [Création ou modification des profils de stratégie de bande passante](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md) (contenu éventuellement en anglais).
+</div>
 
-## Pour modifier un profil de stratégie de bande passante
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie de bande passante**.
+<span data-ttu-id="2170e-103">_**Dernière modification de la rubrique:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="2170e-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  Sur la page **Stratégie de bande passante**, cliquez sur le profil de stratégie de bande passante que vous souhaitez modifier.
+<span data-ttu-id="2170e-104">Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de bande passante est utilisée pour définir des limitations de bande passante pour certaines modalités.</span><span class="sxs-lookup"><span data-stu-id="2170e-104">As part of call admission control (CAC), a bandwidth policy is used to define bandwidth limitations for certain modalities.</span></span> <span data-ttu-id="2170e-105">Dans Microsoft Lync Server 2013, seules les modalités d’audio et de vidéo peuvent être affectées par des limitations de bande passante.</span><span class="sxs-lookup"><span data-stu-id="2170e-105">In Microsoft Lync Server 2013, only audio and video modalities can be assigned bandwidth limitations.</span></span> <span data-ttu-id="2170e-106">Vous pouvez définir les limites générales de bande passante et les limites de session.</span><span class="sxs-lookup"><span data-stu-id="2170e-106">You can set overall bandwidth limitations and session limitations.</span></span> <span data-ttu-id="2170e-107">Vous pouvez utiliser le panneau de configuration de Lync Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies.</span><span class="sxs-lookup"><span data-stu-id="2170e-107">You can use the Lync Server Control Panel to create, modify, or delete a container profile for these policies.</span></span> <span data-ttu-id="2170e-108">Chaque profil de stratégie de bande passante peut être associé à un ou plusieurs sites réseau.</span><span class="sxs-lookup"><span data-stu-id="2170e-108">Each bandwidth policy profile can be associated with one or more network sites.</span></span> <span data-ttu-id="2170e-109">Pour afficher le profil d’une stratégie de bande passante, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="2170e-109">Use the following procedures to view a bandwidth policy profile.</span></span> <span data-ttu-id="2170e-110">Pour créer ou modifier un profil de stratégie de bande passante, reportez-vous à [la rubrique création ou modification des profils de stratégie de bande passante dans Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).</span><span class="sxs-lookup"><span data-stu-id="2170e-110">To create or modify a bandwidth policy profile, see [Creating or modifying bandwidth policy profiles in Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).</span></span>
 
-5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
+<div>
 
-## Affichage des informations de profil de stratégie de bande passante de réseau à l’aide des cmdlets Lync Server PowerShell
+## <a name="to-view-a-bandwidth-policy-profile"></a><span data-ttu-id="2170e-111">Pour afficher un profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="2170e-111">To view a bandwidth policy profile</span></span>
 
-Les profils de bande passante de réseau peuvent aussi être affichés à l’aide de Lync Server PowerShell et de la cmdlet Get-CsNetworkBandwidthPolicyProfile. Celle-ci peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+1.  <span data-ttu-id="2170e-112">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="2170e-112">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-## Affichage des informations de profil de stratégie de bande passante réseau
+2.  <span data-ttu-id="2170e-113">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="2170e-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2170e-114">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="2170e-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-  - Pour voir les informations relatives à tous vos profils de stratégie de bande passante réseau, tapez la commande suivante dans Lync Server Management Shell et appuyez sur Entrée :
+3.  <span data-ttu-id="2170e-115">Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **stratégie de bande passante**.</span><span class="sxs-lookup"><span data-stu-id="2170e-115">In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.</span></span>
+
+4.  <span data-ttu-id="2170e-116">Dans la page **stratégie de bande passante** , cliquez sur le profil de la stratégie de bande passante que vous souhaitez afficher.</span><span class="sxs-lookup"><span data-stu-id="2170e-116">On the **Bandwidth Policy** page, click the bandwidth policy profile that you want to view.</span></span>
+
+5.  <span data-ttu-id="2170e-117">Dans le menu **Edition**, cliquez sur **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="2170e-117">On the **Edit** menu, click **Show details**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2170e-118">Affichage des informations de profil de la stratégie de bande passante du réseau à l’aide des cmdlets Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2170e-118">Viewing Network Bandwidth Policy Profile Information by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="2170e-119">Les profils de bande passante réseau peuvent être affichés à l’aide de Windows PowerShell et de l’applet de connexion Get-CsNetworkBandwidthPolicyProfile.</span><span class="sxs-lookup"><span data-stu-id="2170e-119">Network bandwidth profiles can be viewed by using Windows PowerShell and the Get-CsNetworkBandwidthPolicyProfile cmdlet.</span></span> <span data-ttu-id="2170e-120">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2170e-120">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="2170e-121">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="2170e-121">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-network-bandwidth-policy-profile-information"></a><span data-ttu-id="2170e-122">Pour afficher les informations de profil de la stratégie de bande passante réseau</span><span class="sxs-lookup"><span data-stu-id="2170e-122">To view network bandwidth policy profile information</span></span>
+
+  - <span data-ttu-id="2170e-123">Pour afficher des informations sur tous les profils de stratégie de bande passante réseau, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:</span><span class="sxs-lookup"><span data-stu-id="2170e-123">To view information about all your network bandwidth policy profiles, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsNetworkBandwidthPolicyProfile
     
-    Vous obtiendrez des indications semblables à ceci :
+    <span data-ttu-id="2170e-124">Vous obtiendrez des indications semblables à ceci :</span><span class="sxs-lookup"><span data-stu-id="2170e-124">That will return information similar to this:</span></span>
     
         Identity          : RedmondBandwidthPolicy
         BWPolicy          : {BWLimit=200;BWSessionLimit=200;
@@ -49,16 +77,33 @@ Les profils de bande passante de réseau peuvent aussi être affichés à l’ai
         BWPolicyProfileID : RedmondBandwidthPolicy
         Description       :
 
-Pour plus d’informations, voir la rubrique d’aide pour la cmdlet [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) (contenu éventuellement en anglais).
+</div>
 
-## Voir aussi
+<span data-ttu-id="2170e-125">Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) .</span><span class="sxs-lookup"><span data-stu-id="2170e-125">For more information, see the help topic for the [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) cmdlet.</span></span>
 
-#### Tâches
+</div>
 
-[Création ou modification des profils de stratégie de bande passante](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
-[Suppression des profils de stratégie de bande passante réseau](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a><span data-ttu-id="2170e-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2170e-126">See Also</span></span>
 
-[Configuration du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)
+
+[<span data-ttu-id="2170e-127">Création ou modification des profils de stratégie de bande passante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2170e-127">Creating or modifying bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
+[<span data-ttu-id="2170e-128">Supprimer des profils de stratégie de bande passante réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2170e-128">Deleting network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)  
+
+
+[<span data-ttu-id="2170e-129">Configurer le contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2170e-129">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

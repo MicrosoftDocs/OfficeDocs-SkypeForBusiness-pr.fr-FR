@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013 : tblSiopWhiteList'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblSiopWhiteList
 ms:assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558607(v=OCS.15)
-ms:contentKeyID: 49296132
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558607(v=OCS.15)
+ms:contentKeyID: 48183310
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fff11d98d35b288436922477025ea9cf49e924cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846663"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblSiopWhiteList dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="771fb-102">tblSiopWhiteList dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="771fb-102">tblSiopWhiteList in Lync Server 2013</span></span>
 
-tblSiopWhiteList représente la liste des compléments inscrits qui peuvent être associés à des nœuds.
+</div>
 
-### Colonnes
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="771fb-103">_**Dernière modification de la rubrique:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="771fb-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+
+<span data-ttu-id="771fb-104">tblSiopWhiteList est la liste des compléments enregistrés qui peuvent être associés à des nœuds.</span><span class="sxs-lookup"><span data-stu-id="771fb-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="771fb-105">Celles</span><span class="sxs-lookup"><span data-stu-id="771fb-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,32 +47,32 @@ tblSiopWhiteList représente la liste des compléments inscrits qui peuvent êtr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Type</th>
-<th>Description</th>
+<th><span data-ttu-id="771fb-106">Colonne</span><span class="sxs-lookup"><span data-stu-id="771fb-106">Column</span></span></th>
+<th><span data-ttu-id="771fb-107">Type</span><span class="sxs-lookup"><span data-stu-id="771fb-107">Type</span></span></th>
+<th><span data-ttu-id="771fb-108">Description</span><span class="sxs-lookup"><span data-stu-id="771fb-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>GUID, non null</p></td>
-<td><p>GUID du complément.</p></td>
+<td><p><span data-ttu-id="771fb-109">siopID</span><span class="sxs-lookup"><span data-stu-id="771fb-109">siopID</span></span></p></td>
+<td><p><span data-ttu-id="771fb-110">GUID, pas null</span><span class="sxs-lookup"><span data-stu-id="771fb-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="771fb-111">GUID du complément.</span><span class="sxs-lookup"><span data-stu-id="771fb-111">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>siopName</p></td>
-<td><p>nvarchar (50), non null</p></td>
-<td><p>Nom d’affichage du complément.</p></td>
+<td><p><span data-ttu-id="771fb-112">siopName</span><span class="sxs-lookup"><span data-stu-id="771fb-112">siopName</span></span></p></td>
+<td><p><span data-ttu-id="771fb-113">nvarchar (50), pas null</span><span class="sxs-lookup"><span data-stu-id="771fb-113">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="771fb-114">Nom d’affichage du complément.</span><span class="sxs-lookup"><span data-stu-id="771fb-114">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>siopUrl</p></td>
-<td><p>nvarchar (255), non null</p></td>
-<td><p>URL du complément.</p></td>
+<td><p><span data-ttu-id="771fb-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="771fb-115">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="771fb-116">nvarchar (255), pas null</span><span class="sxs-lookup"><span data-stu-id="771fb-116">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="771fb-117">URL du complément.</span><span class="sxs-lookup"><span data-stu-id="771fb-117">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Clé
+### <a name="key"></a><span data-ttu-id="771fb-118">Clé</span><span class="sxs-lookup"><span data-stu-id="771fb-118">Key</span></span>
 
 <table>
 <colgroup>
@@ -61,15 +81,26 @@ tblSiopWhiteList représente la liste des compléments inscrits qui peuvent êtr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Colonne</th>
-<th>Description</th>
+<th><span data-ttu-id="771fb-119">Colonne</span><span class="sxs-lookup"><span data-stu-id="771fb-119">Column</span></span></th>
+<th><span data-ttu-id="771fb-120">Description</span><span class="sxs-lookup"><span data-stu-id="771fb-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>siopID</p></td>
-<td><p>Clé primaire.</p></td>
+<td><p><span data-ttu-id="771fb-121">siopID</span><span class="sxs-lookup"><span data-stu-id="771fb-121">siopID</span></span></p></td>
+<td><p><span data-ttu-id="771fb-122">Clé primaire.</span><span class="sxs-lookup"><span data-stu-id="771fb-122">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

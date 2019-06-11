@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table User'
-TOCTitle: Table User
-ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398505(v=OCS.15)
-ms:contentKeyID: 49297513
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table User'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User table
+ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398505(v=OCS.15)
+ms:contentKeyID: 48184437
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4baaf8b8dea0f9e5aa77986791c82051fc00e90b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846431"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table User dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="user-table-in-lync-server-2013"></a><span data-ttu-id="48584-102">Table User dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="48584-102">User table in Lync Server 2013</span></span>
 
-La table User est une table de prise en charge qui stocke la liste des divers utilisateurs ayant participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un utilisateur.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="48584-103">_**Dernière modification de la rubrique:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="48584-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="48584-104">La table utilisateur est une table qui contient une liste des différents utilisateurs ayant participé à des sessions enregistrées dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="48584-104">The User table is a supporting table that stores a list of the various users who have participated in sessions recorded in the database.</span></span> <span data-ttu-id="48584-105">Chaque enregistrement de la table représente un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="48584-105">Each record in the table represents one user.</span></span>
 
 
 <table>
@@ -27,52 +47,63 @@ La table User est une table de prise en charge qui stocke la liste des divers ut
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Colonne</strong></th>
-<th><strong>Type de données</strong></th>
-<th><strong>Clé/Index</strong></th>
-<th><strong>Détails</strong></th>
+<th><span data-ttu-id="48584-106"><strong>Colonne</strong></span><span class="sxs-lookup"><span data-stu-id="48584-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="48584-107"><strong>Type de données</strong></span><span class="sxs-lookup"><span data-stu-id="48584-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="48584-108"><strong>Clé/Index</strong></span><span class="sxs-lookup"><span data-stu-id="48584-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="48584-109"><strong>Détails</strong></span><span class="sxs-lookup"><span data-stu-id="48584-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Numéro unique identifiant cet utilisateur.</p></td>
+<td><p><span data-ttu-id="48584-110"><strong>UserKey</strong></span><span class="sxs-lookup"><span data-stu-id="48584-110"><strong>UserKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="48584-111">int</span><span class="sxs-lookup"><span data-stu-id="48584-111">int</span></span></p></td>
+<td><p><span data-ttu-id="48584-112">Principal</span><span class="sxs-lookup"><span data-stu-id="48584-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="48584-113">Numéro unique identifiant cet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="48584-113">Unique number identifying this user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>URI</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>Unique</p></td>
-<td><p>Chaîne URI.</p></td>
+<td><p><span data-ttu-id="48584-114"><strong>SPAMMEUR</strong></span><span class="sxs-lookup"><span data-stu-id="48584-114"><strong>URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="48584-115">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="48584-115">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="48584-116">Différent</span><span class="sxs-lookup"><span data-stu-id="48584-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="48584-117">Chaîne d’URI.</span><span class="sxs-lookup"><span data-stu-id="48584-117">URI string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>URIType</strong></p></td>
-<td><p>int</p></td>
-<td><p></p></td>
-<td><p>1 est type URI inconnu.</p>
-<p>2 est URI d’utilisateur.</p>
-<p>4 est URI de conférence.</p>
-<p>8 est URI de téléphone.</p></td>
+<td><p><span data-ttu-id="48584-118"><strong>URIType</strong></span><span class="sxs-lookup"><span data-stu-id="48584-118"><strong>URIType</strong></span></span></p></td>
+<td><p><span data-ttu-id="48584-119">int</span><span class="sxs-lookup"><span data-stu-id="48584-119">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="48584-120">1 est un type d’URI inconnu.</span><span class="sxs-lookup"><span data-stu-id="48584-120">1 is unknown URI type.</span></span></p>
+<p><span data-ttu-id="48584-121">2 est l’URI de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="48584-121">2 is user URI.</span></span></p>
+<p><span data-ttu-id="48584-122">4 est un URI de conférence.</span><span class="sxs-lookup"><span data-stu-id="48584-122">4 is conference URI.</span></span></p>
+<p><span data-ttu-id="48584-123">8 est un URI de téléphone.</span><span class="sxs-lookup"><span data-stu-id="48584-123">8 is phone URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantKey</strong></p></td>
-<td><p>int</p></td>
-<td><p>Étrangère</p></td>
-<td><p>Locataire de l’utilisateur, référencé depuis la table de locataires.</p></td>
+<td><p><span data-ttu-id="48584-124"><strong>TenantKey</strong></span><span class="sxs-lookup"><span data-stu-id="48584-124"><strong>TenantKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="48584-125">int</span><span class="sxs-lookup"><span data-stu-id="48584-125">int</span></span></p></td>
+<td><p><span data-ttu-id="48584-126">Externes</span><span class="sxs-lookup"><span data-stu-id="48584-126">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="48584-127">Client de l’utilisateur, référencé dans la table locataire.</span><span class="sxs-lookup"><span data-stu-id="48584-127">Tenant of the user, referenced from tenant table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LastPoorCallTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Horodatage le plus récent du moment où l’utilisateur avait un appel de mauvaise qualité audio.</p></td>
+<td><p><span data-ttu-id="48584-128"><strong>LastPoorCallTime</strong></span><span class="sxs-lookup"><span data-stu-id="48584-128"><strong>LastPoorCallTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="48584-129">DateHeure</span><span class="sxs-lookup"><span data-stu-id="48584-129">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="48584-130">Horodatage le plus récent lorsque l’utilisateur avait un appel audio médiocre.</span><span class="sxs-lookup"><span data-stu-id="48584-130">Latest time stamp when the user had a poor audio call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>À usage interne uniquement.</p></td>
+<td><p><span data-ttu-id="48584-131"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="48584-131"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="48584-132">DateHeure</span><span class="sxs-lookup"><span data-stu-id="48584-132">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="48584-133">Pour un usage interne uniquement.</span><span class="sxs-lookup"><span data-stu-id="48584-133">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

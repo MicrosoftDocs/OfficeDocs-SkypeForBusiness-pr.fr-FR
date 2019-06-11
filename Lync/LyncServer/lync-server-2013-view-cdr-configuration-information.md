@@ -1,41 +1,69 @@
-﻿---
-title: "Aff. des info. de configuration de l’enregistrement des détails des appels"
-TOCtitle: "Aff. des info. de configuration de l’enregistrement des détails des appels"
-ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688096(v=OCS.15)
-ms:contentKeyID: 49891397
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: afficher les informations de configuration de CDR'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View CDR configuration information
+ms:assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688096(v=OCS.15)
+ms:contentKeyID: 49733695
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: baa03ab1ce52c98746657c0314760c902f295589
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846313"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Affichage des informations de configuration de l’enregistrement des détails des appels
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="view-cdr-configuration-information-in-lync-server-2013"></a><span data-ttu-id="558bf-102">Afficher les informations de configuration de CDR dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="558bf-102">View CDR configuration information in Lync Server 2013</span></span>
 
-L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
+</div>
 
-Lorsque vous installez Microsoft Lync Server 2013, une collection globale et unique de paramètres de configuration d’enregistrement des détails des appels est automatiquement créée. Les administrateurs ont également la possibilité de créer des collections de paramètres personnalisées applicables à des sites individuels. Vous pouvez consulter les paramètres de configuration d’enregistrement des détails des appels en cours d’utilisation au sein de votre organisation à l’aide du Panneau de configuration Lync Server ou de l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
+<div id="mainSection">
 
-## Pour afficher les informations de configuration d’enregistrement des détails des appels à l’aide du Panneau de configuration Lync Server
+<div id="mainBody">
 
-1.  Dans le Panneau de configuration Lync Server, cliquez sur **Surveillance et archivage**.
+<span> </span>
 
-2.  La liste de tous vos paramètres de configuration d’enregistrement des détails des appels s’affiche sous l’onglet **Enregistrement des détails des appels** ; pour chaque collection de paramètres apparaissent la collection **Nom**, l’indication stipulant si l’enregistrement des détails des appels a été activé ou non (propriété **Enregistrement des détails des appels**) et l’indication stipulant si le vidage a été activé (propriété **Vidage de l’enregistrement des détails des appels**). Pour plus d’informations sur une collection, double-cliquez dessus ou sélectionnez la collection appropriée, cliquez sur **Modifier**, puis sur **Afficher les détails**. Notez que vous pouvez uniquement afficher des informations détaillées pour une seule collection de paramètres de configuration d’enregistrement des détails des appels à la fois.
+<span data-ttu-id="558bf-103">_**Dernière modification de la rubrique:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="558bf-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-## Pour afficher les informations de configuration d’enregistrement des détails des appels à l’aide des applets de commande Lync Server Management Shell
+<span data-ttu-id="558bf-p101">L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.</span><span class="sxs-lookup"><span data-stu-id="558bf-p101">Call Detail Recording (CDR) enables you to track usage of such things as peer-to-peer instant messaging sessions, Voice over Internet Protocol (VoIP) phone calls, and conferencing calls. This usage data includes information about who called whom, when they called, and how long they talked.</span></span>
 
-Vous pouvez également consulter les paramètres de configuration d’enregistrement des détails des appels à l’aide de Lync Server Management Shell et de l’applet de commande Get-CsCdrConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<span data-ttu-id="558bf-106">Lorsque vous installez Microsoft Lync Server 2013, une collection globale unique de paramètres de configuration de CDR est créée pour vous.</span><span class="sxs-lookup"><span data-stu-id="558bf-106">When you install Microsoft Lync Server 2013, a single, global collection of CDR configuration settings is created for you.</span></span> <span data-ttu-id="558bf-107">Les administrateurs peuvent également créer des collections de paramètres personnalisés pouvant être appliquées aux sites individuels.</span><span class="sxs-lookup"><span data-stu-id="558bf-107">Administrators also have the option of creating custom setting collections that can be applied to individual sites.</span></span> <span data-ttu-id="558bf-108">Vous pouvez afficher les paramètres de configuration de CDR utilisés au sein de votre organisation à l’aide du panneau de configuration de Lync Server ou de l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="558bf-108">You can view the CDR configuration settings in use in your organization by using Lync Server Control Panel or the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
 
-## Pour afficher les informations de configuration d’enregistrement des détails des appels
+<div>
 
-  - Pour afficher des informations sur tous vos paramètres de configuration d’enregistrement des détails des appels, tapez la commande suivante dans Lync Server Management Shell et appuyez sur Entrée :
+## <a name="to-view-cdr-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="558bf-109">Pour afficher les informations de configuration de CDR en utilisant le panneau de configuration de Lync Server</span><span class="sxs-lookup"><span data-stu-id="558bf-109">To view CDR configuration information by using Lync Server Control Panel</span></span>
+
+1.  <span data-ttu-id="558bf-110">Dans le panneau de configuration de Lync Server, cliquez sur **surveillance et archivage**.</span><span class="sxs-lookup"><span data-stu-id="558bf-110">In Lync Server Control Panel click **Monitoring and Archiving**.</span></span>
+
+2.  <span data-ttu-id="558bf-p103">La liste de tous vos paramètres de configuration d’enregistrement des détails des appels s’affiche sous l’onglet **Enregistrement des détails des appels** ; pour chaque collection de paramètres apparaissent la collection **Nom**, l’indication stipulant si l’enregistrement des détails des appels a été activé ou non (propriété **Enregistrement des détails des appels**) et l’indication stipulant si le vidage a été activé (propriété **Vidage de l’enregistrement des détails des appels**). Pour plus d’informations sur une collection, double-cliquez dessus ou sélectionnez la collection appropriée, cliquez sur **Modifier**, puis sur **Afficher les détails**. Notez que vous pouvez uniquement afficher des informations détaillées pour une seule collection de paramètres de configuration d’enregistrement des détails des appels à la fois.</span><span class="sxs-lookup"><span data-stu-id="558bf-p103">A list of all your CDR configuration settings will be displayed in the **Call Detail Recording** tab; for each collection of settings you will see the collection **Name**; whether or not CDR has been enabled (the **CDR** property); and whether or not purging has been enabled (the **CDR purging** property). To see detailed information about a collection, double-click the collection, or select the appropriate collection, click **Edit**, and then click **Show Details**. Note that you can only view detailed information for a single collection of CDR configuration settings at a time.</span></span>
+
+</div>
+
+<div>
+
+## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="558bf-114">Affichage des informations de configuration de CDR à l’aide des cmdlets Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="558bf-114">Viewing CDR Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="558bf-115">Vous pouvez afficher les paramètres de configuration de CDR à l’aide de Windows PowerShell et de l’applet de cmdlet Get-CsCdrConfiguration.</span><span class="sxs-lookup"><span data-stu-id="558bf-115">You can view CDR configuration settings by using Windows PowerShell and the Get-CsCdrConfiguration cmdlet.</span></span> <span data-ttu-id="558bf-116">Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="558bf-116">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="558bf-117">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="558bf-117">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-view-cdr-configuration-information"></a><span data-ttu-id="558bf-118">Pour afficher les informations de configuration d’enregistrement des détails des appels</span><span class="sxs-lookup"><span data-stu-id="558bf-118">To view CDR configuration information</span></span>
+
+  - <span data-ttu-id="558bf-119">Pour afficher des informations sur les paramètres de configuration de votre CDR, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:</span><span class="sxs-lookup"><span data-stu-id="558bf-119">To view information about all your CDR configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsCdrConfiguration
     
-    Les informations retournées se présentent ainsi :
+    <span data-ttu-id="558bf-120">Vous obtiendrez des indications semblables à ceci :</span><span class="sxs-lookup"><span data-stu-id="558bf-120">That will return information similar to this:</span></span>
     
         Identity               : Global
         EnableCDR              : True
@@ -44,5 +72,19 @@ Vous pouvez également consulter les paramètres de configuration d’enregistre
         KeepErrorReportForDays : 60
         PurgeHourOfDay         : 2
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration).
+</div>
+
+<span data-ttu-id="558bf-121">Pour plus d’informations, consultez la rubrique d’aide de l’applet de passe [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="558bf-121">For more information, see the help topic for the [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

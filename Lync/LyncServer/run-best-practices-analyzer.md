@@ -1,21 +1,51 @@
-﻿---
-title: Exécution de Best Practices Analyzer
-TOCTitle: Exécution de Best Practices Analyzer
-ms:assetid: 1392ef69-d4fe-45cc-9890-8e8d565df2ee
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204694(v=OCS.15)
-ms:contentKeyID: 49296326
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Exécuter l’analyseur de meilleures pratiques
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Run Best Practices Analyzer
+ms:assetid: 1392ef69-d4fe-45cc-9890-8e8d565df2ee
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204694(v=OCS.15)
+ms:contentKeyID: 48183472
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: db4fa3067f122026dc273aae8124d0e1aea29f80
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846043"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exécution de Best Practices Analyzer
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="run-best-practices-analyzer"></a><span data-ttu-id="b46cd-102">Exécuter l’analyseur de meilleures pratiques</span><span class="sxs-lookup"><span data-stu-id="b46cd-102">Run Best Practices Analyzer</span></span>
 
-L’outil Best Practices Analyzer de Lync Server 2010 recueille des informations sur la configuration d’un déploiement Lync Server 2010 et détermine si la configuration est conforme aux meilleures pratiques de Microsoft. Vous pouvez installer l’outil sur un ordinateur client qui exécute Microsoft .NET Framework 3.5 Service Pack 1 ou directement sur le serveur qui exécute Lync Server 2010. Nous vous recommandons d’installer et d’exécuter cet outil sur un ordinateur client. Les outils d’administration de Lync Server 2010 doivent également être installés localement sur l’ordinateur client de sorte que l’outil Best Practices Analyzer puisse recueillir un jeu complet de données.
+</div>
 
-Vous pouvez télécharger Lync Server 2010 Best Practices Analyzer à partir du Centre de téléchargement Microsoft à l’adresse <http://go.microsoft.com/fwlink/p/?linkid=246173> .
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b46cd-103">_**Dernière modification de la rubrique:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="b46cd-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+
+<span data-ttu-id="b46cd-104">L’outil Analyseur de meilleures pratiques pour Lync Server 2010 recueille des informations de configuration du déploiement de Lync Server 2010 et détermine si la configuration est définie conformément aux meilleures pratiques Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b46cd-104">The Lync Server 2010 Best Practices Analyzer tool gathers configuration information from an Lync Server 2010 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="b46cd-105">Vous pouvez installer l’outil sur un ordinateur client qui exécute Microsoft .NET Framework 3,5 Service Pack 1 ou directement sur le serveur qui exécute Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="b46cd-105">You can install the tool on a client computer that runs Microsoft .NET Framework 3.5 Service Pack 1, or directly on the server that runs Lync Server 2010.</span></span> <span data-ttu-id="b46cd-106">Nous vous recommandons d’installer et d’exécuter cet outil sur un ordinateur client.</span><span class="sxs-lookup"><span data-stu-id="b46cd-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="b46cd-107">Les outils d’administration de Lync Server 2010 doivent également être installés localement sur l’ordinateur client de telle sorte que l’analyseur de meilleures pratiques puisse recueillir un ensemble complet de données.</span><span class="sxs-lookup"><span data-stu-id="b46cd-107">The Lync Server 2010 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
+
+<span data-ttu-id="b46cd-108">Vous pouvez télécharger l’analyseur de meilleures pratiques de Lync Server 2010 à partir du centre <http://go.microsoft.com/fwlink/p/?linkid=246173> de téléchargement Microsoft à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="b46cd-108">You can download the Lync Server 2010 Best Practices Analyzer from the Microsoft Download Center at <http://go.microsoft.com/fwlink/p/?linkid=246173> .</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

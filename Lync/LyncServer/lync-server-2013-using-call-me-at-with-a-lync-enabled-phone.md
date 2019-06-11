@@ -1,65 +1,95 @@
-﻿---
-title: "Ut. de la fonctionnalité Appelle-moi à avec un tél. prenant en charge Lync"
-TOCtitle: "Ut. de la fonctionnalité Appelle-moi à avec un tél. prenant en charge Lync"
-ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn383570(v=OCS.15)
-ms:contentKeyID: 56559395
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: utilisation de m’appeler avec un téléphone compatible Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Call Me At with a Lync-enabled phone
+ms:assetid: 975a1df8-a159-4aa4-a991-5972a535998e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn383570(v=OCS.15)
+ms:contentKeyID: 56470326
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc89ac5038d367a57b791546c287e515bfd3c7bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846399"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Utilisation de la fonctionnalité Appelle-moi à avec un téléphone prenant en charge Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-08-09_
+# <a name="using-call-me-at-with-a-lync-enabled-phone-and-lync-server-2013"></a><span data-ttu-id="218f9-102">Utiliser appeler avec un téléphone compatible Lync et Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="218f9-102">Using Call Me At with a Lync-enabled phone and Lync Server 2013</span></span>
 
-La fonctionnalité Appelle-moi à dans Lync permet aux utilisateurs de rejoindre la partie audio d’une conférence à l’aide d’un téléphone portable, d’un téléphone fixe ou d’un autre appareil connecté au réseau téléphonique commuté. Lorsque vous tentez de rejoindre une réunion à l’aide de Lync, la boîte de dialogue **Accéder à la partie audio de la réunion** s’affiche généralement :
+</div>
 
-![Capture d’écran de la fenêtre Utiliser Lync pour rejoindre une réunion audio](images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Capture d’écran de la fenêtre Utiliser Lync pour rejoindre une réunion audio")
+<div id="mainSection">
 
-Si vous sélectionnez l’option **Appelle-moi à**, vous pouvez ensuite sélectionner un numéro de téléphone dans la liste déroulante. Lync Server 2013 passe un appel téléphonique au numéro sélectionné. Vous pouvez ensuite utiliser ce téléphone pour participer à la partie audio de la conférence.
+<div id="mainBody">
 
-La liste déroulante inclut les numéros de téléphone (téléphone mobile, téléphone personnel ou autre) que vous avez entrés sous l’onglet **Téléphones** de la boîte de dialogue **Lync – Options** :
+<span> </span>
 
-![Capture d’écran des options de configuration des téléphones Lync](images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Capture d’écran des options de configuration des téléphones Lync")
+<span data-ttu-id="218f9-103">_**Dernière modification de la rubrique:** 2013-08-09_</span><span class="sxs-lookup"><span data-stu-id="218f9-103">_**Topic Last Modified:** 2013-08-09_</span></span>
 
-Si vous n’avez pas entré de numéro de téléphone sous l’onglet **Téléphones**, aucun numéro n’apparaît dans la liste déroulante. Vous pouvez tout de même cliquer sur **Nouveau numéro** et demander à Lync Server d’appeler le numéro de téléphone de votre choix :
+<span data-ttu-id="218f9-104">La fonctionnalité m’appeler au niveau de Lync permet aux utilisateurs d’accéder à la partie audio d’une conférence en utilisant un téléphone mobile, «ligne fixe» ou tout autre appareil connecté au réseau téléphonique public commuté (RTC).</span><span class="sxs-lookup"><span data-stu-id="218f9-104">The Call Me At feature in Lync provides a way for users to join the audio portion of a conference by using a cell phone, “land line,” or other device connected to the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="218f9-105">Lorsque vous essayez de participer à une réunion à l’aide de Lync, la boîte de dialogue **accéder** à la partie audio de la réunion s’affiche.</span><span class="sxs-lookup"><span data-stu-id="218f9-105">When you attempt to join a meeting by using Lync, you will typically be presented with the **Join Meeting Audio** dialog box:</span></span>
 
-![Capture d’écran de la fenêtre M’appeler pour participer à une réunion audio Lync](images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Capture d’écran de la fenêtre M’appeler pour participer à une réunion audio Lync")
+<span data-ttu-id="218f9-106">![Capture d’écran de la fenêtre de connexion audio de la réunion à l’aide de Lync] (images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Capture d’écran de la fenêtre de connexion audio de la réunion à l’aide de Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-106">![Use Lync to join meeting audio window screenshot](images/Dn383570.e28f17f0-9f17-44ef-b893-f4ef132f47ac(OCS.15).png "Use Lync to join meeting audio window screenshot")</span></span>
 
-La fonctionnalité Appelle-moi à fonctionne correctement dès lors que vous l’utilisez correctement : en demandant à Lync Server d’appeler un numéro de téléphone PSTN. Vous pouvez toutefois rencontrer une expérience non optimale si vous demandez à Lync Server de vous appeler sur un point de terminaison activé pour Lync (par exemple, un téléphone dans une salle de conférence). Voici le problème que vous pouvez rencontrer, ainsi que deux façons de le contourner.
+<span data-ttu-id="218f9-107">Si vous sélectionnez **m’appeler au**, vous pouvez sélectionner un numéro de téléphone dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="218f9-107">If you select **Call me at**, you can then pick a phone number from the dropdown list.</span></span> <span data-ttu-id="218f9-108">Lync Server 2013 effectue un appel téléphonique au numéro sélectionné et vous pouvez l’utiliser pour participer à la partie audio de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="218f9-108">Lync Server 2013 will place a phone call to the selected number, and you can then use that phone to participate in the audio portion of the conference.</span></span>
 
-Pour commencer, voici ce qui arrive lorsque vous fournissez à la fonctionnalité Appelle-moi à le numéro d’un téléphone prenant en charge Lync. Supposons que Ken Myer essaie de rejoindre une réunion en demandant à Lync Server de l’appeler au 01 20 65 55 12, un numéro prenant en charge Lync Server. Ken est d’abord connecté à la réunion, mais après quelques secondes, Lync affiche le message **L’appel n’a pas été établi ou a pris fin**. Ken apparaît alors comme ayant quitté la réunion :
+<span data-ttu-id="218f9-109">La liste déroulante est renseignée en fonction des numéros de téléphone (téléphone mobile, téléphone personnel ou autre téléphone) que vous avez entrés sous l’onglet **téléphones** dans la boîte de dialogue **Lync – options** :</span><span class="sxs-lookup"><span data-stu-id="218f9-109">The dropdown list is populated by the phone numbers (for mobile phone, home phone, or other phone) that you have entered on the **Phones** tab in the **Lync – Options** dialog box:</span></span>
 
-![Capture d’écran de la fenêtre de téléconférences Lync](images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "Capture d’écran de la fenêtre de téléconférences Lync")
+<span data-ttu-id="218f9-110">![Capture d’écran des options de configuration des téléphones Lync] (images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Capture d’écran des options de configuration des téléphones Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-110">![Lync Phones set up options screenshot](images/Dn383570.03d2f25d-49e2-47b4-b1e9-b1614fc0c11c(OCS.15).png "Lync Phones set up options screenshot")</span></span>
 
-Notez la présence d’une incohérence dans la fenêtre de conversation Lync. Ken Myer est le seul nom indiqué sous le titre **Participants**. Pourtant, si vous consultez la barre de titre de la fenêtre, vous verrez que la conférence réunit 4 participants.
+<span data-ttu-id="218f9-111">Si vous n’avez pas entré de numéro de téléphone dans l’onglet **téléphones** , aucun numéro n’est disponible dans la liste déroulante.</span><span class="sxs-lookup"><span data-stu-id="218f9-111">If you have not entered any phone numbers on the **Phones** tab then you will not have any numbers available in the dropdown box.</span></span> <span data-ttu-id="218f9-112">Toutefois, vous pouvez toujours cliquer sur **nouveau numéro** et faire en sorte que Lync Server appelle le numéro de téléphone de votre choix:</span><span class="sxs-lookup"><span data-stu-id="218f9-112">However, you can always click **New Number** and have Lync Server dial out to any phone number you wish:</span></span>
 
-De même, si vous consultez la fenêtre de conversation de l’un des participants à la conférence, Ken Myer n’apparaît nulle part :
+<span data-ttu-id="218f9-113">Capture d’écran de la fenêtre de l' ![appel audio de réunion Lync] Capture d’écran de la fenêtre de l' (images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "appel audio de réunion Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-113">![Lync join meeting audio call me window screenshot](images/Dn383570.27f2ac7a-cc1c-465c-b145-202ad03af4f2(OCS.15).png "Lync join meeting audio call me window screenshot")</span></span>
 
-![Capture d’écran de la fenêtre Liste des participants Lync](images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Capture d’écran de la fenêtre Liste des participants Lync")
+<span data-ttu-id="218f9-114">La fonction m’appeler au-moi fonctionne très bien si vous l’utilisez comme prévu: en utilisant Lync Server pour appeler un numéro de téléphone PSTN.</span><span class="sxs-lookup"><span data-stu-id="218f9-114">The Call Me At feature works extremely well provided that you use it in the way it was intended: by having Lync Server call a PSTN phone number.</span></span> <span data-ttu-id="218f9-115">Néanmoins, vous pouvez effectuer une mise à niveau plus lente si vous demandez à Lync Server de vous appeler auprès d’un point de terminaison Lync (par exemple, un téléphone dans une salle de conférence).</span><span class="sxs-lookup"><span data-stu-id="218f9-115">However, you can run into a less-than-optimal experience if you ask Lync Server to call you at a Lync-enabled endpoint (for example, a phone in a conference room).</span></span> <span data-ttu-id="218f9-116">Vous trouverez ci-après le problème que vous pourriez rencontrer, ainsi que deux méthodes pour contourner le problème.</span><span class="sxs-lookup"><span data-stu-id="218f9-116">Following is the issue you might run into, as well as two ways to work around the problem.</span></span>
 
-Pourtant, au même moment, Ken Myer peut participer à la partie audio de l’appel à l’aide de son téléphone prenant en charge Lync. La fonctionnalité Appelle-moi à a fonctionné correctement, mais l’expérience n’est pas optimale.
+<span data-ttu-id="218f9-117">Pour commencer, voici ce qui se produit lorsque vous fournissez la fonction m’appeler au numéro de téléphone d’un téléphone compatible Lync.</span><span class="sxs-lookup"><span data-stu-id="218f9-117">To begin, here’s what happens when you provide the Call Me At feature with the phone number of a Lync-enabled phone.</span></span> <span data-ttu-id="218f9-118">Supposez que Ken Myer tente de participer à une réunion en ayant appelé le serveur Lync sur 1-206-555-1219, un numéro de Téléphone Lync Server.</span><span class="sxs-lookup"><span data-stu-id="218f9-118">Suppose Ken Myer tries to join a meeting by having Lync Server call him at 1-206-555-1219, a Lync Server-enabled phone number.</span></span> <span data-ttu-id="218f9-119">Ken sera initialement connecté à la réunion, mais après quelques secondes, Lync affichera le message n' **a pas été terminé ou a pris fin**, et Ken aura été rejeté de la réunion:</span><span class="sxs-lookup"><span data-stu-id="218f9-119">Ken will initially be connected to the meeting, but after a few seconds Lync will display the message **Call was not completed or has ended**, and Ken will appear to have been dropped from the meeting:</span></span>
 
-Il y a au moins deux façons de résoudre le problème. Si vous avez déjà rejoint une conférence de cette façon (comme Ken Myer), vous pouvez résoudre le problème en optant pour une autre modalité. Par exemple, si vous envoyez un message instantané, la fenêtre de conversation n’indique pas tous les participants à la conférence, y compris vous :
+<span data-ttu-id="218f9-120">![Capture d’écran de la fenêtre de conférence d’appels Lync] (images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "Capture d’écran de la fenêtre de conférence d’appels Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-120">![Screen shot of Lync call conferencing window](images/Dn383570.c2a81727-8751-41b5-946a-03a1b75b9d95(OCS.15).png "Screen shot of Lync call conferencing window")</span></span>
 
-![Capture d’écran de la liste des participants et des conversations Lync](images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Capture d’écran de la liste des participants et des conversations Lync")
+<span data-ttu-id="218f9-121">Notez toutefois qu’il existe une divergence dans la fenêtre de conversation de Lync.</span><span class="sxs-lookup"><span data-stu-id="218f9-121">Notice, however, that there is a discrepancy within the Lync conversation window.</span></span> <span data-ttu-id="218f9-122">Ken Myer est le seul nom indiqué sous le titre **participants** .</span><span class="sxs-lookup"><span data-stu-id="218f9-122">Ken Myer is the only name listed under the **Participants** heading.</span></span> <span data-ttu-id="218f9-123">Toutefois, si vous regardez dans la barre de titre de la fenêtre, vous verrez que la Conférence comporte au total 4 participants.</span><span class="sxs-lookup"><span data-stu-id="218f9-123">However, if you look in the title bar of the window, you’ll see that the conference contains a total of 4 participants.</span></span>
 
-À ce stade, vous devez pouvoir participer à la réunion comme prévu.
+<span data-ttu-id="218f9-124">De même, si vous regardez dans la fenêtre de conversation de n’importe quel participant à la Conférence, vous ne verrez pas Ken Myer en tout lieu:</span><span class="sxs-lookup"><span data-stu-id="218f9-124">Likewise, if you look in the conversation window of any of the other conference participants you will not see Ken Myer listed anywhere:</span></span>
 
-Vous pouvez aussi éviter ce problème en modifiant la façon dont vous rejoignez la réunion. Si vous avez besoin que Lync Server appelle un téléphone prenant en charge Lync Server, vous devez commencer par rejoindre la réunion sans connexion audio. Pour ce faire, sélectionnez l’option Ne pas participer au système dans la boîte de dialogue Acccéder à la partie audio de la réunion :
+<span data-ttu-id="218f9-125">![Capture d’écran de la fenêtre Liste des participants Lync] (images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Capture d’écran de la fenêtre Liste des participants Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-125">![Lync participant list window screenshot](images/Dn383570.fa5990cf-2694-402c-ac06-946aa66b6837(OCS.15).png "Lync participant list window screenshot")</span></span>
 
-![Capture d’écran de la fenêtre Ne pas participer à une réunion audio Lync](images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "Capture d’écran de la fenêtre Ne pas participer à une réunion audio Lync")
+<span data-ttu-id="218f9-126">Pour l’instant, Ken Myer sera en mesure de participer à la partie audio de l’appel à l’aide de son téléphone compatible Lync.</span><span class="sxs-lookup"><span data-stu-id="218f9-126">And yet, at the same time, Ken Myer will be able to participate in the audio portion of the call by using his Lync-enabled phone.</span></span> <span data-ttu-id="218f9-127">La fonction m’appeler au moment de l’appel a réellement fonctionné, mais le niveau d’expérience utilisateur est inférieur à la taille optimale.</span><span class="sxs-lookup"><span data-stu-id="218f9-127">The Call Me At feature has actually worked, but the user experience is less than optimal.</span></span>
 
-Une fois que vous êtes connecté à la réunion, vous pouvez « inviter » le téléphone prenant en charge Lync Server pour rejoindre la réunion également. Pour ce faire, placez la souris sur l’icône Personnes, puis cliquez sur **Inviter d’autres personnes** :
+<span data-ttu-id="218f9-128">Il existe au moins deux moyens de contourner ce problème.</span><span class="sxs-lookup"><span data-stu-id="218f9-128">There are at least two ways to work around this problem.</span></span> <span data-ttu-id="218f9-129">Si vous avez déjà rejoint une conférence de cette manière (comme Ken Myer), vous pouvez généralement résoudre le problème en effectuant une autre modalité.</span><span class="sxs-lookup"><span data-stu-id="218f9-129">If you have already joined a conference in this fashion (like Ken Myer did), you can typically resolve the issue by engaging in a different modality.</span></span> <span data-ttu-id="218f9-130">Par exemple, si vous envoyez un message instantané, la fenêtre de conversation montre alors tous les participants à la Conférence, y compris vous-même:</span><span class="sxs-lookup"><span data-stu-id="218f9-130">For example, if you send an instant message the conversation window will now show all the conference participants, including yourself:</span></span>
 
-![Capture d’écran de la fenêtre Inviter plus de participants Lync](images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Capture d’écran de la fenêtre Inviter plus de participants Lync")
+<span data-ttu-id="218f9-131">![Capture d’écran de la liste des participants et des conversations Lync] (images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Capture d’écran de la liste des participants et des conversations Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-131">![Lync conversation and participant list screenshot](images/Dn383570.9b5ff6d6-9f73-467c-99a7-ef3aa8bd7e7a(OCS.15).png "Lync conversation and participant list screenshot")</span></span>
 
-La boîte de dialogue **Envoyer un message instantané** s’ouvre. Ignorez le titre de la boîte de dialogue (vous n’allez pas vraiment envoyer un message instantané), puis tapez le numéro du téléphone prenant en charge Lync :
+<span data-ttu-id="218f9-132">À ce stade, vous devriez être en mesure de participer à la réunion de la manière attendue.</span><span class="sxs-lookup"><span data-stu-id="218f9-132">At this point you should be able to participate in the meeting in the expected fashion.</span></span>
 
-![Capture d’écran de la boîte de dialogue Envoyer un message instantané](images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Capture d’écran de la boîte de dialogue Envoyer un message instantané")
+<span data-ttu-id="218f9-133">Vous pouvez aussi éviter ce problème en modifiant la façon dont vous rejoignez la réunion.</span><span class="sxs-lookup"><span data-stu-id="218f9-133">Alternatively, you can avoid this issue altogether by changing the way you join the meeting.</span></span> <span data-ttu-id="218f9-134">Si vous avez besoin que Lync Server appelle un téléphone compatible Lync Server, vous devez commencer par rejoindre la réunion sans connexion audio.</span><span class="sxs-lookup"><span data-stu-id="218f9-134">If you need to have Lync Server call a Lync Server-enabled phone, you should begin by joining the meeting without an audio connection.</span></span> <span data-ttu-id="218f9-135">Pour ce faire, sélectionnez ne pas participer au système audio lorsque la boîte de dialogue accéder à la partie audio de la réunion apparaît:</span><span class="sxs-lookup"><span data-stu-id="218f9-135">To do that, select Don’t join audio when presented with the Join Meeting Audio dialog box:</span></span>
 
-Une fois que vous cliquez sur **OK**, Lync Server appelle le numéro entré dans la boîte de dialogue. Une fois la connexion établie, vous bénéficiez de fonctionnalités audio complètes via le téléphone prenant en charge Lync et vous pouvez afficher la liste de conférence et interagir avec.
+<span data-ttu-id="218f9-136">![Capture d’écran de la fenêtre ne pas participer à la réunion audio dans Lync] (images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "Capture d’écran de la fenêtre ne pas participer à la réunion audio dans Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-136">![Lync don't join meeting audio window screenshot](images/Dn383570.280a148d-cce5-4b02-87f9-9f78f17a81c1(OCS.15).png "Lync don't join meeting audio window screenshot")</span></span>
+
+<span data-ttu-id="218f9-137">Une fois que vous avez réussi à vous connecter à la réunion, vous pouvez désormais «inviter» le téléphone compatible Lync Server à rejoindre la réunion.</span><span class="sxs-lookup"><span data-stu-id="218f9-137">After you have successfully connected to the meeting, you can now “invite” the Lync Server-enabled phone to join the meeting as well.</span></span> <span data-ttu-id="218f9-138">Pour cela, placez le pointeur de la souris sur l’icône personnes, puis cliquez sur **inviter d’autres personnes**:</span><span class="sxs-lookup"><span data-stu-id="218f9-138">To do that, place the mouse over the People icon and then click **Invite More People**:</span></span>
+
+<span data-ttu-id="218f9-139">![Capture d’écran de la fenêtre inviter d’autres participants à Lync] (images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Capture d’écran de la fenêtre inviter d’autres participants à Lync")</span><span class="sxs-lookup"><span data-stu-id="218f9-139">![Lync invite more participants window screenshot](images/Dn383570.69b81b29-d1d2-4ed3-acb6-e37dd18e3d86(OCS.15).png "Lync invite more participants window screenshot")</span></span>
+
+<span data-ttu-id="218f9-140">La boîte de dialogue **Envoyer un message instantané** s’affiche.</span><span class="sxs-lookup"><span data-stu-id="218f9-140">That will bring up the **Send an IM** dialog box.</span></span> <span data-ttu-id="218f9-141">Ignorez le titre de la boîte de dialogue (vous n’envoyez pas de message instantané) et tapez le numéro de téléphone du téléphone compatible Lync:</span><span class="sxs-lookup"><span data-stu-id="218f9-141">Ignore the dialog box title (you’re not actually sending an instant message) and type the phone number of the Lync-enabled phone:</span></span>
+
+<span data-ttu-id="218f9-142">![Capture d’écran de la boîte de dialogue Envoyer un message instantané] (images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Capture d’écran de la boîte de dialogue Envoyer un message instantané")</span><span class="sxs-lookup"><span data-stu-id="218f9-142">![Send an IM dialog box screenshot](images/Dn383570.cd67a3f0-06d8-41ba-a808-c067f64bec9f(OCS.15).png "Send an IM dialog box screenshot")</span></span>
+
+<span data-ttu-id="218f9-143">Lorsque vous cliquez sur **OK**, Lync Server appelle le numéro entré dans la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="218f9-143">After you click **OK**, Lync Server will call the number entered in the dialog box.</span></span> <span data-ttu-id="218f9-144">Une fois la connexion établie, vous bénéficierez des fonctionnalités audio complètes par le biais du téléphone compatible Lync et vous pourrez voir et utiliser la liste complète de la Conférence.</span><span class="sxs-lookup"><span data-stu-id="218f9-144">When the connection is made, you will have full audio capabilities through the Lync-enabled phone, and you will be able to see and interact with the full conference roster.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
