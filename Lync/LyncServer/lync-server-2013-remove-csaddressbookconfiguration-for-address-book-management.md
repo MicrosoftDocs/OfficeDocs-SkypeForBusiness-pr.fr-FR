@@ -1,35 +1,67 @@
-﻿---
-title: Remove-CsAddressBookConfiguration pour la gestion du carnet d’adresses
-TOCTitle: Remove-CsAddressBookConfiguration pour la gestion du carnet d’adresses
-ms:assetid: 5d173ebe-ec4d-4640-8432-a25071ea9cc5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429705(v=OCS.15)
-ms:contentKeyID: 49297347
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Remove-CsAddressBookConfiguration pour la gestion du carnet d’adresses
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove-CsAddressBookConfiguration for Address Book management
+ms:assetid: 5d173ebe-ec4d-4640-8432-a25071ea9cc5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429705(v=OCS.15)
+ms:contentKeyID: 48184258
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2662ef012c33d173f836bc3a49581653e846b00b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823111"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Remove-CsAddressBookConfiguration pour la gestion du carnet d’adresses
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="remove-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Remove-CsAddressBookConfiguration pour la gestion du carnet d’adresses dans Lync Server 2013
 
-Personnes autorisées à exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Remove-CsAddressBookConfiguration : RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-01_
+
+Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Remove-CsAddressBookConfiguration localement: RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Remove-CsAddressBookConfiguration"}
 
-Comme son nom l’indique, Remove-CsAddressBookConfiguration supprimera la configuration basée sur l’identité de site définie.
+Comme son nom l’indique, Remove-CsAddressBookConfiguration supprime la configuration en fonction de l’identité de site définie.
 
 Par exemple :
 
     Remove-CsAddressBookConfiguration -Identity site:Redmond
 
-Pour une description détaillée de la commande complète, reportez-vous aux ressources suivantes dans la référence principale des RTCCmdlets Windows PowerShell pour Lync Server.
+<div>
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
-#### Autres ressources
 
-[Remove-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAddressBookConfiguration)
+[Remove-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

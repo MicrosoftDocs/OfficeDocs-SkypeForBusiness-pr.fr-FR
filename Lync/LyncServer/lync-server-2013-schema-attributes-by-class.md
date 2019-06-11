@@ -1,23 +1,45 @@
-﻿---
-title: Attributs de schéma par classe dans Lync Server 2013
-TOCTitle: Attributs de schéma par classe dans Lync Server 2013
-ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398544(v=OCS.15)
-ms:contentKeyID: 49297688
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: attributs de schéma par classe'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes by class
+ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
+ms:contentKeyID: 48184468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822040"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Attributs de schéma par classe dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Attributs de schéma par classe dans Lync Server 2013
 
-Cette section répertorie les attributs de schéma qui peuvent être contenus dans chaque classe Lync Server 2013, ainsi que les classes qui peuvent être contenues dans d’autres classes. Pour obtenir la liste de toutes les classes avec leur description, voir [Classes et descriptions de schéma dans Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Pour obtenir la liste de tous les attributs avec leur description, voir [Attributs et descriptions de schéma dans Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+</div>
 
-## Attributs par classe
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-08-29_
+
+Cette section répertorie les attributs de schéma qui peuvent être contenus dans chaque classe Lync Server 2013 et les classes qui peuvent être contenues dans d’autres classes. Pour obtenir la liste de toutes les classes et leurs descriptions, voir [classes et descriptions de schéma dans Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Pour obtenir la liste de tous les attributs et leurs descriptions, voir [attributs et descriptions de schéma dans Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+
+<div>
+
+## <a name="attributes-by-class"></a>Attributs par classe
 
 
 <table>
@@ -27,13 +49,13 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 </colgroup>
 <thead>
 <tr class="header">
-<th>Classe</th>
-<th>Peut contenir ces attributs</th>
+<th>Cours</th>
+<th>Pourraient contenir ces attributs</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contact</p></td>
+<td><p>Locuteur</p></td>
 <td><p>msDS-SourceObjectDN</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
@@ -45,7 +67,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>msRTCSIP-ligne</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -57,7 +79,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-SourceObjectType</p>
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
+<p>msRTCSIP-IDClient</p>
 <p>msRTCSIP-UserEnabled</p>
 <p>msRTCSIP-UserExtension</p>
 <p>msRTCSIP-UserLocationProfile</p>
@@ -67,7 +89,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>Mail-Recipient</p></td>
+<td><p>Mail-destinataire</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
@@ -96,9 +118,9 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-Domain</p></td>
-<td><p>msRTCSIP-Default</p>
+<td><p>msRTCSIP-par défaut</p>
 <p>msRTCSIP-DomainData</p>
-<p>msRTCSIP-DomainName</p></td>
+<p>msRTCSIP-nom_domaine</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-EdgeProxy</p></td>
@@ -172,7 +194,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pool</p></td>
+<td><p>msRTCSIP-pool</p></td>
 <td><p>msRTCSIP-ApplicationList</p>
 <p>msRTCSIP-BackEndServer</p>
 <p>msRTCSIP-dnsHostName</p>
@@ -189,7 +211,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <td><p>msRTCSIP-FrontEndServers</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Presence</p></td>
+<td><p>msRTCSIP-présence</p></td>
 <td><p>msRTCSIP-PresenceFlags</p>
 <p>msRTCSIP-PresencePolicy</p></td>
 </tr>
@@ -217,7 +239,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <tr class="even">
 <td><p>msRTCSIP-TrustedService</p></td>
 <td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-Routable</p>
+<p>msRTCSIP-routable</p>
 <p>msRTCSIP-RoutingPoolDN</p>
 <p>msRTCSIP-ServerBL</p>
 <p>msRTCSIP-TrustedServerFQDN</p>
@@ -243,7 +265,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>User</p></td>
+<td><p>Utilisateur</p></td>
 <td><p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationOptions</p>
 <p>msRTCSIP-ArchivingEnabled</p>
@@ -251,7 +273,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>msRTCSIP-ligne</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -261,7 +283,7 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-PrivateLine</p>
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
+<p>msRTCSIP-IDClient</p>
 <p>msRTCSIP-UserEnabled</p>
 <p>msRTCSIP-UserExtension</p>
 <p>msRTCSIP-UserLocationProfile</p>
@@ -274,7 +296,9 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 </table>
 
 
-## Classes contenues dans d’autres classes
+<div>
+
+## <a name="classes-contained-in-other-classes"></a>Classes contenues dans d’autres classes
 
 
 <table>
@@ -284,29 +308,29 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 </colgroup>
 <thead>
 <tr class="header">
-<th>Classe</th>
-<th>Peut contenir cette classe</th>
+<th>Cours</th>
+<th>Contiennent ce cours</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-Server</p>
+<td><p>msRTCSIP-serveur</p>
 <p>msRTCSIP-PoolService</p>
 <p>msRTCSIP-MCU</p>
 <p>msRTCSIP-MCUFactoryService</p>
-<p>msRTCSIP-WebComponents</p>
+<p>msRTCSIP-webcomposants</p>
 <p>msRTCSIP-WebComponentsService</p>
 <p>msRTCSIP-ApplicationServerService</p>
-<p>msRTCSIP-Service</p>
+<p>msRTCSIP-service</p>
 <p>msRTCSIP-ConnectionPoint</p>
 <p>msRTCSIP-MediationServer</p>
 <p>msRTCSIP-ApplicationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Service</p></td>
+<td><p>msRTCSIP-service</p></td>
 <td><p>msRTCSIP-GlobalContainer</p>
-<p>msRTCSIP-Pools</p>
+<p>msRTCSIP-pools</p>
 <p>msRTCSIP-MCUFactories</p>
 <p>msRTCSIP-TrustedMCUs</p>
 <p>msRTCSIP-TrustedWebComponentsServers</p>
@@ -325,8 +349,8 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 <p>msRTCSIP-MonitoringServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pools</p></td>
-<td><p>msRTCSIP-Pool</p></td>
+<td><p>msRTCSIP-pools</p></td>
+<td><p>msRTCSIP-pool</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MCUFactories</p></td>
@@ -362,4 +386,19 @@ Cette section répertorie les attributs de schéma qui peuvent être contenus da
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

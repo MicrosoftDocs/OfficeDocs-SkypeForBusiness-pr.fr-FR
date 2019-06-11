@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013 : Gestion des catégories, des salles et des compléments'
-TOCTitle: Gestion des catégories, des salles et des compléments
-ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412799(v=OCS.15)
-ms:contentKeyID: 49298464
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Gestion des catégories, des salles et des compléments'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing categories, rooms, and add-ins
+ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)
+ms:contentKeyID: 48185100
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2870d83d463866e07afdffab7c0a840bb2686928
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828081"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion des catégories, des salles et des compléments dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-06_
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Gestion des catégories, des salles et des compléments dans Lync Server 2013
 
-Dans le Panneau de configuration Lync Server 2013, ou l’aide d’applets de commande Windows PowerShell, les administrateurs de conversation permanente peuvent utiliser la page **conversation permanente** pour créer des catégories et des compléments. Pour la gestion des salles de conversation permanente, les administrateurs peuvent utiliser des applets de commande Windows PowerShell. En guise d’alternative, si l’administrateur de conversation permanente est également activé pour SIP, il peut utiliser le client Lync pour lancer une page web pour créer et gérer des salles de conversation.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-06_
+
+Dans Lync Server 2013 panneau de configuration, ou à l’aide des applets de commande Windows PowerShell, les administrateurs de discussions permanentes peuvent utiliser la page de **conversation permanente** pour créer des catégories et des compléments. Pour la gestion des salles de conversation permanentes, les administrateurs peuvent utiliser les applets de cmdlet Windows PowerShell. Par ailleurs, si l’administrateur de chat permanent est compatible SIP, il peut utiliser le client Lync pour lancer une page Web afin de créer et gérer des salles de conversation.
 
 Les rubriques suivantes expliquent comment créer et utiliser des catégories et des salles de conversation.
 
-## Dans cette section
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Création ou modification d’une catégorie dans Lync Server 2013](lync-server-2013-creating-or-editing-a-new-category.md)
 
@@ -36,4 +58,16 @@ Les rubriques suivantes expliquent comment créer et utiliser des catégories et
   - [Suppression d’une catégorie ou d’une salle de conversation dans Lync Server 2013](lync-server-2013-deleting-a-chat-room-or-category.md)
 
   - [Suppression d’un message ou purge de messages obsolètes dans Lync Server 2013](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,39 +1,76 @@
-﻿---
-title: 'Lync Server 2013 : Gestion du routage des communications vocales'
-TOCTitle: Gestion du routage des communications vocales
-ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182596(v=OCS.15)
-ms:contentKeyID: 49299051
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Gestion du routage des communications vocales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing voice routing
+ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182596(v=OCS.15)
+ms:contentKeyID: 48185554
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cbfdaa2359493941e2bde6cbbfcb857b75071c5f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827612"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion du routage des communications vocales dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="managing-voice-routing-in-lync-server-2013"></a>Gestion du routage des communications vocales dans Lync Server 2013
 
-Les rubriques de cette section comportent des procédures détaillées pour les tâches que vous pouvez effectuer à l’aide du groupe **Routage des communications vocales** dans le Panneau de configuration Lync Server.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Définition des règles de traduction et de normalisation dans Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-01_
+
+Les rubriques de cette section fournissent des procédures pas à pas pour les tâches que vous pouvez effectuer à l’aide du groupe de **routage vocal** dans le panneau de configuration de Lync Server.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Définir des règles de traduction et des règles de normalisation dans Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
   - [Configuration des jonctions dans Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  - [Configuration des stratégies de voix, des enregistrements d’utilisation du RTC et des itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [Configuration des stratégies vocales, des enregistrements d’utilisation RTC et des itinéraires vocaux dans Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
   - [Configuration des plans de numérotation dans Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
-## Voir aussi
+</div>
 
-#### Concepts
+<div>
 
-[Planification de Voix Entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+## <a name="see-also"></a>Voir aussi
 
-#### Autres ressources
 
-[Gestion des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-managing-call-management-features.md)
+[Planification d’Enterprise Voice dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+
+
+[Gestion des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-managing-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

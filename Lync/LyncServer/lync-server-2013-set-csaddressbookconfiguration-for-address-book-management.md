@@ -1,35 +1,67 @@
-﻿---
-title: Set-CsAddressBookConfiguration pour la gestion des carnets d’adresses
-TOCTitle: Set-CsAddressBookConfiguration pour la gestion des carnets d’adresses
-ms:assetid: 3a64ceb1-9f79-4f3b-bf33-eaf346dbd60d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg429700(v=OCS.15)
-ms:contentKeyID: 49296930
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Set-CsAddressBookConfiguration pour la gestion du carnet d’adresses'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set-CsAddressBookConfiguration for Address Book management
+ms:assetid: 3a64ceb1-9f79-4f3b-bf33-eaf346dbd60d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429700(v=OCS.15)
+ms:contentKeyID: 48183913
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: edafd6b51da15b3302a9c3f454400325527fa631
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821935"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Set-CsAddressBookConfiguration pour la gestion des carnets d’adresses
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Set-CsAddressBookConfiguration pour la gestion du carnet d’adresses dans Lync Server 2013
 
-Personnes autorisées à exécuter cette applet de commande : Par défaut, les membres des groupes suivants sont autorisés à exécuter localement l’applet de commande Set-CsAddressBookConfiguration : RTCUniversalServerAdmins. Pour retourner une liste de tous les rôles RBAC (Contrôle d’accès basé sur un rôle) auxquels cette applet de commande a été affectée (y compris les rôles RBAC personnalisés créés par vos soins), exécutez la commande suivante depuis l’invite Windows PowerShell :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-01_
+
+Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Set-CsAddressBookConfiguration localement: RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-Set-CsAddressBookConfiguration est similaire à l’applet de commande New-CsAddressBookConfiguration, à la seule différence qu’elle sert à modifier une configuration existante.
+Set-CsAddressBookConfiguration est similaire à l’applet de requête New-CsAddressBookConfiguration, sauf qu’il est utilisé pour modifier une configuration existante.
 
 Par exemple :
 
     Set-CsAddressBookConfiguration -identity site:Redmond -RunTimeOfDay 23:00
 
-Pour une description détaillée de la commande complète, reportez-vous aux ressources suivantes dans la référence principale des RTCCmdlets Windows PowerShell pour Lync Server.
+<div>
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
-#### Autres ressources
 
-[Set-CsAddressBookConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAddressBookConfiguration)
+[Set-CsAddressBookConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
