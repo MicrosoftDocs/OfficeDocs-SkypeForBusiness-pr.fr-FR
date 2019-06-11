@@ -1,63 +1,106 @@
-﻿---
-title: Configuration requise pour les infrastructures de certificat Lync Server 2013
-TOCTitle: Configuration requise pour les infrastructures de certificat
-ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398066(v=OCS.15)
-ms:contentKeyID: 49296050
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration requise pour les infrastructures de certificat Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate infrastructure requirements
+ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398066(v=OCS.15)
+ms:contentKeyID: 48183219
+ms.date: 06/23/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 59089e9e44110809374ef0bf11fb2dc97705d0d1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838661"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration requise pour les infrastructures de certificat pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="e66d0-102">Configuration requise pour les infrastructures de certificat pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66d0-102">Certificate infrastructure requirements for Lync Server 2013</span></span>
 
-Lync Server 2013 requiert une infrastructure à clé publique (PKI, Public Key Infrastructure) pour la prise en charge des connexions PKI et MTLS (Mutual TLS).
+</div>
 
-Lync Server utilise des certificats dans les cas suivants :
+<div id="mainSection">
 
-  - Connexions TLS entre client et serveur
+<div id="mainBody">
 
-  - Connexions MTLS entre serveurs
+<span> </span>
 
-  - Fédération à l’aide de la découverte automatique de partenaires via le DNS
+<span data-ttu-id="e66d0-103">_**Dernière modification de la rubrique:** 2016-06-23_</span><span class="sxs-lookup"><span data-stu-id="e66d0-103">_**Topic Last Modified:** 2016-06-23_</span></span>
 
-  - Accès des utilisateurs distants à la messagerie instantanée
+<span data-ttu-id="e66d0-104">Lync Server 2013 a besoin d’une infrastructure à clé publique (PKI) pour prendre en charge les connexions TLS et Mutual TLS (MTLS).</span><span class="sxs-lookup"><span data-stu-id="e66d0-104">Lync Server 2013 requires a public key infrastructure (PKI) to support TLS and mutual TLS (MTLS) connections.</span></span>
 
-  - Accès des utilisateurs externes aux sessions audio/vidéo (A/V), au partage d’application et aux conférences
+<span data-ttu-id="e66d0-105">Lync Server utilise des certificats aux fins suivantes:</span><span class="sxs-lookup"><span data-stu-id="e66d0-105">Lync Server uses certificates for the following purposes:</span></span>
 
-  - Demandes mobiles utilisant la découverte automatique de services web
+  - <span data-ttu-id="e66d0-106">Connexions TLS entre le client et le serveur</span><span class="sxs-lookup"><span data-stu-id="e66d0-106">TLS connections between client and server</span></span>
 
-Pour Lync Server, les conditions suivantes sont requises :
+  - <span data-ttu-id="e66d0-107">Connexions MTLS entre serveurs</span><span class="sxs-lookup"><span data-stu-id="e66d0-107">MTLS connections between servers</span></span>
 
-  - Tous les certificats de serveur doivent prendre en charge l’autorisation serveur (utilisation améliorée de la clé du serveur).
+  - <span data-ttu-id="e66d0-108">Fédération utilisant une découverte automatique de DNS des partenaires</span><span class="sxs-lookup"><span data-stu-id="e66d0-108">Federation using automatic DNS discovery of partners</span></span>
 
-  - Tous les certificats de serveur doivent contenir un point de distribution de liste de révocation de certificats (CDP).
+  - <span data-ttu-id="e66d0-109">Accès des utilisateurs distants à la messagerie instantanée</span><span class="sxs-lookup"><span data-stu-id="e66d0-109">Remote user access for instant messaging (IM)</span></span>
 
-  - Tous les certificats doivent être signés à l’aide de l’algorithme de signature pris en charge par le système d’exploitation. Lync Server 2013 prend en charge SHA-1 et la suite de tailles d’algorithme SHA-2 (224, 256, 384 et 512 bits) et respecte la configuration système requise. Pour plus d’informations sur la prise en charge du système d’exploitation, reporrtez-vous à [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002).
+  - <span data-ttu-id="e66d0-110">Accès des utilisateurs externes aux sessions audio/vidéo (A/V), au partage d’application et aux conférences</span><span class="sxs-lookup"><span data-stu-id="e66d0-110">External user access to audio/video (A/V) sessions, application sharing, and conferencing</span></span>
 
-  - L’inscription automatique est prise en charge pour les serveurs internes exécutant Lync Server.
+  - <span data-ttu-id="e66d0-111">Demandes mobiles utilisant la découverte automatique des services Web</span><span class="sxs-lookup"><span data-stu-id="e66d0-111">Mobile requests using automatic discovery of Web Services</span></span>
 
-  - L’inscription automatique n’est pas prise en charge pour les serveurs Edge Lync Server.
+<span data-ttu-id="e66d0-112">Pour Lync Server, les exigences courantes suivantes s’appliquent:</span><span class="sxs-lookup"><span data-stu-id="e66d0-112">For Lync Server, the following common requirements apply:</span></span>
 
-  - Pour soumettre une demande de certificat web à une Autorité de certification Windows Server 2003, vous devez utiliser un ordinateur exécutant Windows Server 2003 avec SP2 ou Windows XP.
+  - <span data-ttu-id="e66d0-113">Tous les certificats de serveur doivent prendre en charge l’autorisation serveur (utilisation améliorée de la clé du serveur).</span><span class="sxs-lookup"><span data-stu-id="e66d0-113">All server certificates must support server authorization (Server EKU).</span></span>
+
+  - <span data-ttu-id="e66d0-114">Tous les certificats de serveur doivent contenir un point de distribution de liste de révocation de certificats (CDP).</span><span class="sxs-lookup"><span data-stu-id="e66d0-114">All server certificates must contain a CRL Distribution Point (CDP).</span></span>
+
+  - <span data-ttu-id="e66d0-115">Tous les certificats doivent être signés à l’aide de l’algorithme de signature pris en charge par le système d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="e66d0-115">All certificates must be signed using a signing algorithm supported by the operating system.</span></span> <span data-ttu-id="e66d0-116">Lync Server 2013 prend en charge la suite SHA-1 et SHA-2 de tailles synthétiques (224, 256, 384 et 512 bits) et répond ou dépasse la configuration requise du système d’exploitation.</span><span class="sxs-lookup"><span data-stu-id="e66d0-116">Lync Server 2013 supports the SHA-1 and SHA-2 suite of digest sizes (224, 256, 384 and 512-bit), and meets or exceeds the operating system requirements.</span></span> <span data-ttu-id="e66d0-117">Pour la prise en charge du [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)système d’exploitation, voir.</span><span class="sxs-lookup"><span data-stu-id="e66d0-117">For operating system support, see [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002).</span></span>
     
-    Notez bien que l’article de la Base de connaissances Microsoft KB922706 indique comment résoudre les problèmes relatifs à l’inscription de certificats web lors d’une inscription avec les services de certificat Windows Server 2003, il n’est pas possible d’utiliser Windows Server 2008, Windows Vista ou Windows 7 pour demander un certificat auprès d’une Autorité de certification Windows Server 2003.
+    <div>
+    
 
-  - Les longueurs de clé de chiffrement 1024, 2048 et 4096 sont prises en charge. Les longueurs de clé supérieures ou égales à 2048 sont recommandées.
+    > [!NOTE]  
+    > <span data-ttu-id="e66d0-118">L’algorithme de signature RSASSA-PSS n’est pas pris en charge et peut entraîner entre autres des erreurs de connexion et de transfert d’appels. </span><span class="sxs-lookup"><span data-stu-id="e66d0-118">Using the RSASSA-PSS signature algorithm is unsupported, and may lead to errors on login and call forwarding issues, among other problems.</span></span>
 
-  - L’algorithme digest, ou de signature de hachage, par défaut est RSA. Les algorithmes ECDH\_P256, ECDH\_P384 et ECDH\_P521 sont également pris en charge. 
+    
+    </div>
 
-## Dans cette section
+  - <span data-ttu-id="e66d0-119">L’inscription automatique est prise en charge pour les serveurs internes exécutant Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e66d0-119">Auto-enrollment is supported for internal servers running Lync Server.</span></span>
 
-  - [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)
+  - <span data-ttu-id="e66d0-120">L’enregistrement automatique n’est pas pris en charge pour les serveurs Edge Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e66d0-120">Auto-enrollment is not supported for Lync Server Edge Servers.</span></span>
 
-  - [Certificats requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - <span data-ttu-id="e66d0-121">Lorsque vous envoyez une demande de certification basée sur le Web à une autorité de certification Windows Server 2003, vous devez la transmettre à partir d’un ordinateur exécutant Windows Server 2003 SP2 ou Windows XP.</span><span class="sxs-lookup"><span data-stu-id="e66d0-121">When you submit a web-based certificate request to a Windows Server 2003 CA, you must submit it from a computer running either Windows Server 2003 with SP2 or Windows XP.</span></span>
+    
+    <span data-ttu-id="e66d0-122">Notez que, même si KB922706 fournit une prise en charge de la résolution des problèmes liés à l’inscription de certificats Web sur un serveur de certification Windows Server 2003, il ne peut pas être utilisé Windows Server 2008, Windows Vista ou Windows 7 pour demander une certificat d’une autorité de certification Windows Server 2003.</span><span class="sxs-lookup"><span data-stu-id="e66d0-122">Note that although KB922706 provides support for resolving issues with enrolling web certificates against a Windows Server 2003 Certificate Services web enrollment, it does not make it possible to use Windows Server 2008, Windows Vista, or Windows 7 to request a certificate from a Windows Server 2003 CA.</span></span>
 
-  - [Certificats requis pour le serveur de conversation permanente dans Lync Server 2013](lync-server-2013-certificate-requirements-for-persistent-chat-server.md)
+  - <span data-ttu-id="e66d0-123">Les longueurs de clé de chiffrement 1024, 2048 et 4096 sont prises en charge.</span><span class="sxs-lookup"><span data-stu-id="e66d0-123">Encryption key lengths of 1024, 2048, and 4096 are supported.</span></span> <span data-ttu-id="e66d0-124">Les longueurs de clé supérieures ou égales à 2048 sont recommandées.</span><span class="sxs-lookup"><span data-stu-id="e66d0-124">Key lengths of 2048 and greater are recommended.</span></span>
 
-  - [Exigences relatives aux certificats pour la mobilité dans Lync Server 2013](lync-server-2013-certificate-requirements-for-mobility.md)
+  - <span data-ttu-id="e66d0-125">L’algorithme digest, ou de signature de hachage, par défaut est RSA.</span><span class="sxs-lookup"><span data-stu-id="e66d0-125">The default digest, or hash signing, algorithm is RSA.</span></span> <span data-ttu-id="e66d0-126">Les algorithmes ECDH\_P256\_, ECDH P384 et\_ECDH P521 sont également pris en charge.</span><span class="sxs-lookup"><span data-stu-id="e66d0-126">The ECDH\_P256, ECDH\_P384, and ECDH\_P521 algorithms are also supported.</span></span> 
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="e66d0-127">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="e66d0-127">In This Section</span></span>
+
+  - [<span data-ttu-id="e66d0-128">Exigences de certificat pour les serveurs internes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66d0-128">Certificate requirements for internal servers in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-internal-servers.md)
+
+  - [<span data-ttu-id="e66d0-129">Certificats requis pour l’accès des utilisateurs externes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66d0-129">Certificate requirements for external user access in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-external-user-access.md)
+
+  - [<span data-ttu-id="e66d0-130">Certificats requis pour le serveur de conversation permanente dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66d0-130">Certificate requirements for Persistent Chat server in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-persistent-chat-server.md)
+
+  - [<span data-ttu-id="e66d0-131">Exigences relatives aux certificats pour la mobilité dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e66d0-131">Certificate requirements for mobility in Lync Server 2013</span></span>](lync-server-2013-certificate-requirements-for-mobility.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

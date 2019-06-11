@@ -1,35 +1,79 @@
-﻿---
-title: Installation du package de compatibilité descendante WMI
-TOCTitle: Installation du package de compatibilité descendante WMI
-ms:assetid: 38797fbd-06a0-4008-b099-158e7b5d7703
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204816(v=OCS.15)
-ms:contentKeyID: 49296882
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Installer le package de compatibilité descendante WMI
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Install WMI Backward Compatibility package
+ms:assetid: 38797fbd-06a0-4008-b099-158e7b5d7703
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204816(v=OCS.15)
+ms:contentKeyID: 48183893
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b61d34ce8809f06156f4d4dca61c39cc4aff0f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838982"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Installation du package de compatibilité descendante WMI
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-02_
+# <a name="install-wmi-backward-compatibility-package"></a><span data-ttu-id="5168a-102">Installer le package de compatibilité descendante WMI</span><span class="sxs-lookup"><span data-stu-id="5168a-102">Install WMI Backward Compatibility package</span></span>
 
-Si vous essayez d’exécuter l’Assistant Fusion du générateur de topologie sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche :
+</div>
 
-![Message d’erreur WMI](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "Message d’erreur WMI")
+<div id="mainSection">
 
-Si vous essayez d’exécuter l’applet de commande **Merge-CsLegacytopology** sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche :
+<div id="mainBody">
 
-![Erreur de fournisseur WMI Windows PowerShell](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Erreur de fournisseur WMI Windows PowerShell")
+<span> </span>
 
-Pour installer le package de compatibilité descendante WMI
+<span data-ttu-id="5168a-103">_**Dernière modification de la rubrique:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5168a-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-1.  Sur votre support d’installation, accédez à \\SETUP\\AMD64\\SETUP\\OCSWMIBC.MSI.
+<span data-ttu-id="5168a-104">Si vous essayez d’exécuter l’Assistant Fusion du générateur de topologie sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche:</span><span class="sxs-lookup"><span data-stu-id="5168a-104">If you attempt to run the Topology Builder Merge wizard without installing the WMI Backward Compatibility package, you will see the following error:</span></span>
 
-2.  Installez OCSWMIBC.MSI.
+<span data-ttu-id="5168a-105">![Message d’erreur WMI] (images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "Message d’erreur WMI")</span><span class="sxs-lookup"><span data-stu-id="5168a-105">![WMI error message](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "WMI error message")</span></span>
+
+<span data-ttu-id="5168a-106">Si vous essayez d’exécuter l’applet **de commande Merge-CsLegacytopology** sans installer le package de compatibilité descendante WMI, le message d’erreur suivant s’affiche:</span><span class="sxs-lookup"><span data-stu-id="5168a-106">If you attempt to run the **Merge-CsLegacytopology** cmdlet without installing the WMI Backward Compatibility package, you will see the following error:</span></span>
+
+<span data-ttu-id="5168a-107">![Erreur du fournisseur WMI Windows PowerShell] (images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Erreur du fournisseur WMI Windows PowerShell")</span><span class="sxs-lookup"><span data-stu-id="5168a-107">![Windows PowerShell WMI Provider Error](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Windows PowerShell WMI Provider Error")</span></span>
+
+<span data-ttu-id="5168a-108">Pour installer le package de compatibilité descendante WMI</span><span class="sxs-lookup"><span data-stu-id="5168a-108">To install the WMI Backward Compatibility Package</span></span>
+
+1.  <span data-ttu-id="5168a-109">À partir de votre support d’installation \\,\\accédez\\à\\configuration de configuration de OCSWMIBC. Portion.</span><span class="sxs-lookup"><span data-stu-id="5168a-109">From your installation media, navigate to \\SETUP\\AMD64\\SETUP\\OCSWMIBC.MSI.</span></span>
+
+2.  <span data-ttu-id="5168a-110">Installez OCSWMIBC. Portion.</span><span class="sxs-lookup"><span data-stu-id="5168a-110">Install OCSWMIBC.MSI.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > OCSWMIBC.msi doit être installé sur l’ordinateur sur lequel l’Assistant Fusion du générateur de topologie s’exécute. Cependant, nous recommandons d’installer OCSWMIBC.msi sur tous les serveurs frontaux de votre topologie.    
+    > <span data-ttu-id="5168a-111">OCSWMIBC. msi doit être installé sur l’ordinateur sur lequel s’exécute l’Assistant Fusion du générateur de topologie.</span><span class="sxs-lookup"><span data-stu-id="5168a-111">OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run.</span></span> <span data-ttu-id="5168a-112">Toutefois, nous vous recommandons d’installer OCSWMIBC. msi sur tous les serveurs frontaux de votre topologie.</span><span class="sxs-lookup"><span data-stu-id="5168a-112">However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.</span></span>
+
+    
+    </div>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > OCSWMIBC.msi peut être installé sur tout ordinateur du domaine sur lequel les composants principaux de Lync Server 2013 et Lync Server 2013 Management Shell sont installés, et ayant accès à la topologie Office Communications Server 2007 R2 (fournisseur WMI des services de domaine Active Directory (AD DS) et SQL Server).
+    > <span data-ttu-id="5168a-113">OCSWMIBC. msi peut être installé sur n’importe quel ordinateur du domaine sur lequel sont installés les composants principaux de Lync Server 2013 et Lync Server 2013 Management Shell et ayant accès à la topologie Office Communications Server 2007 R2 (fournisseur WMI sur le domaine Active Directory) Services (AD DS) et SQL Server).</span><span class="sxs-lookup"><span data-stu-id="5168a-113">OCSWMIBC.msi can be installed on any computer in the domain that has the Lync Server 2013 Core Components and the Lync Server 2013 Management Shell installed, and has access to the Office Communications Server 2007 R2 topology (WMI provider to Active Directory Domain Services (AD DS) and SQL Server).</span></span>
+
+    
+    </div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

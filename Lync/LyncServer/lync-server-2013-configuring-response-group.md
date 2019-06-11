@@ -1,52 +1,97 @@
-﻿---
-title: 'Lync Server 2013 : Configuration du groupe Response Group'
-TOCTitle: Configuration du groupe Response Group
-ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205249(v=OCS.15)
-ms:contentKeyID: 49298805
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration du groupe Response Group'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Response Group
+ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)
+ms:contentKeyID: 48185359
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c4d12d1ee21cfa5e480dea52a0de9f89b250715c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838179"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration du groupe Response Group dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="configuring-response-group-in-lync-server-2013"></a><span data-ttu-id="dd27a-102">Configuration du groupe Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-102">Configuring Response Group in Lync Server 2013</span></span>
 
-Response Group est une fonctionnalité Voix Entreprise qui achemine et place en file d’attente les appels entrants vers des groupes de personnes, appelés *agents* , par exemple, un support technique ou un service clientèle.
+</div>
 
-Les composants nécessaires à Response Group sont installés et activés automatiquement sur le serveur frontal ou le serveur Standard Edition quand vous déployez Voix Entreprise. Pour rendre Response Group accessible aux utilisateurs, vous devez configurer des groupes d’agents, des files d’attente, puis des flux de travail. Un administrateur Response Group peut aussi déléguer la configuration d’un flux de travail existant à un gestionnaire Response Group qui peut ensuite modifier et reconfigurer le flux avec ses files d’attente et groupes d’agents associés.
+<div id="mainSection">
 
-Cette section vous guide tout au long de la configuration de Response GroupLync Server 2013. Nous partons du principe que vous avez déjà lu les sections de planification concernant Response Group et que vous avez déployé un serveur Enterprise Edition ou Standard Edition server avec Voix Entreprise.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="dd27a-103">_**Dernière modification de la rubrique:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="dd27a-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+
+<span data-ttu-id="dd27a-104">Response Group est une fonctionnalité de voix entreprise qui achemine et met en file d’attente les appels entrants vers des groupes de personnes, appelés *agents*, tels qu’un service d’assistance ou un service clientèle.</span><span class="sxs-lookup"><span data-stu-id="dd27a-104">Response Group is an Enterprise Voice feature that routes and queues incoming calls to groups of people, called *agents*, such as a help desk or a customer service desk.</span></span>
+
+<span data-ttu-id="dd27a-105">Les composants requis par le groupe de réponse sont installés et activés automatiquement sur le serveur frontal ou le serveur Standard Edition lors du déploiement de voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="dd27a-105">The components that Response Group requires are installed and enabled automatically on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="dd27a-106">Pour rendre le groupe de réponses disponible pour les utilisateurs, vous devez configurer des groupes d’agents, des files d’attente, puis des flux de travail.</span><span class="sxs-lookup"><span data-stu-id="dd27a-106">To make Response Group available to users, you must configure agent groups, then queues, and then workflows.</span></span> <span data-ttu-id="dd27a-107">Par ailleurs, un administrateur de groupe de réponse peut déléguer la configuration d’un flux de travail existant à un gestionnaire de groupe de réponse, qui peut ensuite modifier et reconfigurer le flux de travail ainsi que ses groupes d’agents et files d’attente associés.</span><span class="sxs-lookup"><span data-stu-id="dd27a-107">Additionally, a Response Group Administrator can delegate configuration of an existing workflow to a Response Group Manager, who can then modify and reconfigure the workflow and its associated agent groups and queues.</span></span>
+
+<span data-ttu-id="dd27a-108">Cette section vous guide dans la configuration du groupe de réponse Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dd27a-108">This section guides you through the configuration of Lync Server 2013 Response Group.</span></span> <span data-ttu-id="dd27a-109">Il part du principe que vous avez déjà lu les sections de planification associées au Response Group et avez déployé un serveur Enterprise Edition ou un serveur Standard Edition avec Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="dd27a-109">It assumes that you have already read the planning sections related to Response Group and have deployed an Enterprise Edition server or a Standard Edition server with Enterprise Voice.</span></span>
+
+<div>
+
 
 > [!TIP]  
-> Pour plus d’informations sur la création d’un Response Group à l’aide de Lync Server Management Shell, y compris un exemple de script, reportez-vous à « Création de votre premier groupe de réponse à l’aide de Lync Server Management Shell » à l’adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</a>.
+> <span data-ttu-id="dd27a-110">Pour plus d’informations sur la création d’un groupe de réponse à l’aide de Lync Server Management Shell, y compris un exemple de script, reportez-vous <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>à la section «Création de votre premier groupe de réponse avec Lync Server Management Shell».</span><span class="sxs-lookup"><span data-stu-id="dd27a-110">For details about creating a Response Group by using Lync Server Management Shell, including a sample script, see "Creating Your First Response Group Using Lync Server Management Shell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>.</span></span>
 
-## Dans cette section
 
-  - [Autorisations et conditions prérequises pour la configuration de Response Group dans Lync Server 2013](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
-  - [Processus de déploiement de Response Group dans Lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
+</div>
 
-  - [Vue d’ensemble des scénarios de création de flux de travail dans Lync Server 2013](lync-server-2013-overview-of-workflow-creation-scenarios.md)
+<div>
 
-  - [Création des groupes d’agents Response Group Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
+## <a name="in-this-section"></a><span data-ttu-id="dd27a-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="dd27a-111">In This Section</span></span>
 
-  - [Création des files d’attente Response Group dans Lync Server 2013](lync-server-2013-create-response-group-queues.md)
+  - [<span data-ttu-id="dd27a-112">Autorisations et conditions prérequises pour la configuration de Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-112">Response Group configuration permissions and prerequisites in Lync Server 2013</span></span>](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
-  - [(Facultatif) Définition des heures ouvrées des groupes Response Group dans Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [<span data-ttu-id="dd27a-113">Processus de déploiement pour Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-113">Deployment process for Response Group in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-response-group.md)
 
-  - [(Facultatif) Définition des groupes de congés des groupes Response Group dans Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [<span data-ttu-id="dd27a-114">Vue d’ensemble des scénarios de création de flux de travail dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-114">Overview of workflow creation scenarios in Lync Server 2013</span></span>](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [Création des flux de travail Response Group dans Lync Server 2013](lync-server-2013-create-response-group-workflows.md)
+  - [<span data-ttu-id="dd27a-115">Création des groupes d’agents Response Group Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-115">Create Response Group agent groups Lync Server 2013</span></span>](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [(Facultatif) Vérification du déploiement de Response Group](lync-server-2013-optional-verify-response-group-deployment.md)
+  - [<span data-ttu-id="dd27a-116">Création des files d’attente Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-116">Create Response Group queues in Lync Server 2013</span></span>](lync-server-2013-create-response-group-queues.md)
 
-## Voir aussi
+  - [<span data-ttu-id="dd27a-117">Facultatif Définir les heures d’activité du groupe de réponses dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-117">(Optional) Define Response Group business hours in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-business-hours.md)
 
-#### Autres ressources
+  - [<span data-ttu-id="dd27a-118">Facultatif Définir des jeux de vacances de groupe de réponse dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-118">(Optional) Define Response Group holiday sets in Lync Server 2013</span></span>](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-[Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+  - [<span data-ttu-id="dd27a-119">Création des flux de travail Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-119">Create Response Group workflows in Lync Server 2013</span></span>](lync-server-2013-create-response-group-workflows.md)
+
+  - [<span data-ttu-id="dd27a-120">Facultatif Vérifier le déploiement de Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-120">(Optional) Verify Response Group deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-response-group-deployment.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="dd27a-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dd27a-121">See Also</span></span>
+
+
+[<span data-ttu-id="dd27a-122">Planifier les fonctionnalités de gestion des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dd27a-122">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

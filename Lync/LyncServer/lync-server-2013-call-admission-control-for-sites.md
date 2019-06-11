@@ -1,31 +1,69 @@
-﻿---
-title: Contrôle d’admission des appels pour les sites
-TOCTitle: Contrôle d’admission des appels pour les sites
-ms:assetid: 5607b3f3-128b-44c7-a043-c0834e39e697
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688061(v=OCS.15)
-ms:contentKeyID: 49891354
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: contrôle d’admission des appels pour les sites'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Call admission control for sites
+ms:assetid: 5607b3f3-128b-44c7-a043-c0834e39e697
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688061(v=OCS.15)
+ms:contentKeyID: 49733655
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ccdba0497afe933fa681b73136f9e34e6c40bbf1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838715"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Contrôle d’admission des appels pour les sites
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="call-admission-control-for-sites-in-lync-server-2013"></a><span data-ttu-id="0d539-102">Contrôle d’admission des appels pour les sites dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d539-102">Call admission control for sites in Lync Server 2013</span></span>
 
-Les sites réseau sont les bureaux ou emplacements au sein de chaque région réseau des déploiements du service Contrôle d’admission des appels, du service E9-1-1 ou du contournement de médias. Utilisez les procédures de cette section pour configurer le service Contrôle d’admission des appels pour les sites réseau.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-1.  [Affichage des informations d’un site réseau](lync-server-2013-viewing-network-site-information.md)
+<div id="mainBody">
 
-2.  [Création ou modification des sites réseau](lync-server-2013-creating-or-modifying-network-sites.md)
+<span> </span>
 
-3.  [Suppression d’un site réseau existant](lync-server-2013-deleting-an-existing-network-site.md)
+<span data-ttu-id="0d539-103">_**Dernière modification de la rubrique:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="0d539-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-## Sections connexes
+<span data-ttu-id="0d539-104">Les sites réseau sont les bureaux ou les emplacements dans chaque région du réseau de déploiement d’admission des appels (CAC), de E9-1-1 et de contournement de média.</span><span class="sxs-lookup"><span data-stu-id="0d539-104">Network sites are the offices or locations within each network region of call admission control (CAC), E9-1-1, and media bypass deployments.</span></span> <span data-ttu-id="0d539-105">Suivez les procédures décrites dans cette section pour configurer le contrôle d’admission des appels pour les sites réseau.</span><span class="sxs-lookup"><span data-stu-id="0d539-105">Use the procedures in this section to configure call admission control for network sites.</span></span>
 
-[Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="0d539-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="0d539-106">In This Section</span></span>
+
+  - [<span data-ttu-id="0d539-107">Affichage des informations sur le site réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d539-107">Viewing network site information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-site-information.md)
+
+  - [<span data-ttu-id="0d539-108">Création ou modification de sites réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d539-108">Creating or modifying network sites in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-sites.md)
+
+  - [<span data-ttu-id="0d539-109">Suppression d’un site réseau existant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d539-109">Deleting an existing network site in Lync Server 2013</span></span>](lync-server-2013-deleting-an-existing-network-site.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a><span data-ttu-id="0d539-110">Sections associées</span><span class="sxs-lookup"><span data-stu-id="0d539-110">Related Sections</span></span>
+
+[<span data-ttu-id="0d539-111">Planification du contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d539-111">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

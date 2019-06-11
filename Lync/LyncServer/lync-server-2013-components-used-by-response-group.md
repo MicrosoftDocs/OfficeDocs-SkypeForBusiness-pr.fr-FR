@@ -1,45 +1,79 @@
-﻿---
-title: 'Lync Server 2013 : Composants utilisés par Response Group'
-TOCTitle: Composants utilisés par Response Group
-ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425768(v=OCS.15)
-ms:contentKeyID: 49296704
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Composants utilisés par Response Group'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components used by Response Group
+ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425768(v=OCS.15)
+ms:contentKeyID: 48183693
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f52ceb18c355f6d867b5b3b4485434df83683d26
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838508"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Composants utilisés par Response Group dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-11_
+# <a name="components-used-by-response-group-in-lync-server-2013"></a><span data-ttu-id="dba85-102">Composants utilisés par Response Group dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dba85-102">Components used by Response Group in Lync Server 2013</span></span>
 
-L’application Response Group est automatiquement activée lors du déploiement de Voix Entreprise. Cette section présente les composants qui prennent en charge l’application Response Group.
+</div>
 
-## Composants de l’application Response Group
+<div id="mainSection">
 
-Les composants Microsoft Lync Server 2013 suivants prennent en charge l’application Response Group :
+<div id="mainBody">
 
-  - **service d’application** : le service d’application fournit une plateforme de déploiement, d’hébergement et de gestion des applications de communications unifiées, telles que Response Group. Le service d’application est automatiquement installé sur chaque serveur frontal d’un pool de serveurs frontaux et sur chaque serveur Standard Edition.
+<span> </span>
 
-  - **application Response Group** : l’application Response Group est l’une des applications de communications unifiées hébergées par le service d’application. Elle est automatiquement incluse lors du déploiement de Response Group. L’application Response Group achemine les appels entrants destinés aux groupes d’agents et les place en file d’attente.
+<span data-ttu-id="dba85-103">_**Dernière modification de la rubrique:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="dba85-103">_**Topic Last Modified:** 2012-09-11_</span></span>
 
-  - **Module linguistique** : un module linguistique est requis pour prendre en charge la conversion de texte par synthèse vocale et la reconnaissance vocale. Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses d’une réponse vocale interactive, par exemple). Par défaut, 26 modules linguistiques pris en charge sont installés lors du déploiement de Lync Server 2013.
+<span data-ttu-id="dba85-104">L’application Response Group est activée automatiquement lorsque vous déployez Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="dba85-104">The Response Group application is automatically enabled when you deploy Enterprise Voice.</span></span> <span data-ttu-id="dba85-105">Cette section décrit les composants qui prennent en charge l’application Response Group.</span><span class="sxs-lookup"><span data-stu-id="dba85-105">This section describes the components that support the Response Group application.</span></span>
 
-  - **Fichiers audio** : ils sont destinés aux messages et à la musique d’attente.
+<div>
 
-  - **Magasin de fichiers** : Response Group y stocke les fichiers audio. Plusieurs pools Response Group peuvent utiliser la même instance d’un magasin de fichiers.
+## <a name="response-group-components"></a><span data-ttu-id="dba85-106">Composants de Response Group</span><span class="sxs-lookup"><span data-stu-id="dba85-106">Response Group Components</span></span>
 
-  - **outil de configuration Response Group** : l’outil de configuration Response Group est un outil web permettant de créer et de configurer des groupes Response Group. L’outil de configuration Response Group est installé avec les services web.
+<span data-ttu-id="dba85-107">Les composants Microsoft Lync Server 2013 suivants prennent en charge l’application Response Group:</span><span class="sxs-lookup"><span data-stu-id="dba85-107">The following Microsoft Lync Server 2013 components support the Response Group application:</span></span>
 
-  - **Panneau de configuration Microsoft Lync Server 2013** : le Panneau de configuration Lync Server permet d’installer et de configurer les groupes et les files d’attente d’agents pour les groupes Response Group.
+  - <span data-ttu-id="dba85-108">\*\*\*\*   Le service d’application de service d’application fournit une plateforme de déploiement, d’hébergement et de gestion d’applications de communications unifiées, telles que Response Group.</span><span class="sxs-lookup"><span data-stu-id="dba85-108">**Application service**   Application service provides a platform for deploying, hosting, and managing unified communications applications, such as Response Group.</span></span> <span data-ttu-id="dba85-109">Le service d’application est automatiquement installé sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server.</span><span class="sxs-lookup"><span data-stu-id="dba85-109">The Application service is automatically installed on every Front End Server in a Front End pool and on every Standard Edition server.</span></span>
 
-  - **Lync Server Management Shell** : vous pouvez configurer tous les paramètres Response Group à l’aide des applets de commande Lync Server Management Shell.
+  - <span data-ttu-id="dba85-110">**Application de Response Group**   l’application Response Group est l’une des applications de communications unifiées hébergées par le service d’application.</span><span class="sxs-lookup"><span data-stu-id="dba85-110">**Response Group application**   The Response Group application is one of the unified communications applications that are hosted by Application service.</span></span> <span data-ttu-id="dba85-111">Elle est incluse automatiquement lorsque vous déployez Response Group.</span><span class="sxs-lookup"><span data-stu-id="dba85-111">It is included automatically when you deploy Response Group.</span></span> <span data-ttu-id="dba85-112">Le Response Group application route et met en file d’attente les appels entrants vers des groupes d’agents.</span><span class="sxs-lookup"><span data-stu-id="dba85-112">The Response Group application routes and queues incoming calls to groups of agents.</span></span>
 
-  - **Microsoft Lync 2013** : les agents formels (ceux qui doivent se connecter au groupe pour recevoir des appels pour le groupe) utilisent Lync 2013 pour se connecter du groupe et s’en déconnecter. Si un groupe d’agents est configuré pour des agents formels, les agents se connectent au groupe et s’en déconnectent à partir d’une console web accessible depuis un élément de menu dans Lync 2013 qui permet d’ouvrir Internet Explorer.
+  - <span data-ttu-id="dba85-113">**Module**   linguistique un module linguistique est requis pour la prise en charge de la reconnaissance vocale et de la synthèse vocale.</span><span class="sxs-lookup"><span data-stu-id="dba85-113">**Language pack**   A language pack is required to support text-to-speech and speech recognition.</span></span> <span data-ttu-id="dba85-114">Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses du système de réponse vocale interactive, par exemple).</span><span class="sxs-lookup"><span data-stu-id="dba85-114">These speech technologies are used when you configure messages, such as the welcome message and other prompts, and interactive voice response (IVR) questions and answers.</span></span> <span data-ttu-id="dba85-115">Par défaut, les 26 modules linguistiques pris en charge sont installés lors du déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dba85-115">By default, the 26 supported language packs are installed when you deploy Lync Server 2013.</span></span>
 
-  - **Services web** : les services web sont nécessaires à l’outil de configuration Response Group, à la console de connexion et de déconnexion des agents, au Panneau de configuration Lync Server et au service web client Response Group.
+  - <span data-ttu-id="dba85-116">\*\*\*\* Les fichiers audio sont utilisés pour les messages et la musique en attente.   </span><span class="sxs-lookup"><span data-stu-id="dba85-116">**Audio files**   Audio files are used for messages and on-hold music.</span></span>
 
-  - **Service web client Response Group** : l’application Response Group fournit un service web client que les applications tierces peuvent utiliser pour récupérer des informations sur les agents, les membres du groupe d’agents, le statut de connexion des agents, le statut des appels des groupes et les groupes qui prennent en charge les appels anonymes. Lync 2013 et Intendant Lync 2010 utilisent le service web client de Response Group pour récupérer la liste des groupes Response Group dont les agents peuvent se servir pour passer des appels anonymes. Le service web client est installé avec les services web.
+  - <span data-ttu-id="dba85-117">\*\*\*\*   Le groupe de réponse du magasin de fichiers utilise le magasin de fichiers pour stocker des fichiers audio.</span><span class="sxs-lookup"><span data-stu-id="dba85-117">**File Store**   Response Group uses File store to store audio files.</span></span> <span data-ttu-id="dba85-118">Plusieurs pools de groupe de réponse peuvent utiliser la même instance du magasin de fichiers.</span><span class="sxs-lookup"><span data-stu-id="dba85-118">Multiple Response Group pools can use the same instance of File store.</span></span>
+
+  - <span data-ttu-id="dba85-119">**Outil de configuration de Response Group**   l’outil de configuration de Response Group est un outil Web utilisé pour créer et configurer des groupes de réponse.</span><span class="sxs-lookup"><span data-stu-id="dba85-119">**Response Group Configuration Tool**   The Response Group Configuration Tool is a web-based tool that is used to create and configure response groups.</span></span> <span data-ttu-id="dba85-120">L’outil de configuration de Response Group est inclus dans l’installation des services Web.</span><span class="sxs-lookup"><span data-stu-id="dba85-120">The Response Group Configuration Tool is included when you install Web Services.</span></span>
+
+  - <span data-ttu-id="dba85-121">**Panneau de configuration Microsoft Lync Server 2013**   vous pouvez utiliser le panneau de configuration de Lync Server pour configurer et configurer des groupes d’agents et des files d’attente pour les groupes de réponses.</span><span class="sxs-lookup"><span data-stu-id="dba85-121">**Microsoft Lync Server 2013 Control Panel**   You can use Lync Server Control Panel to setup and configure agent groups and queues for response groups.</span></span>
+
+  - <span data-ttu-id="dba85-122">**Lync Server Management Shell**   tous les paramètres de groupe de réponse peuvent être configurés à l’aide d’applets de applet Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="dba85-122">**Lync Server Management Shell**   All Response Group settings can be configured by using Lync Server Management Shell cmdlets.</span></span>
+
+  - <span data-ttu-id="dba85-123">**Microsoft Lync 2013**   -agents officiels (agents nécessaires pour se connecter au groupe avant de pouvoir accepter les appels pour le groupe) utilisez Lync 2013 pour vous connecter et vous déconnecter du groupe.</span><span class="sxs-lookup"><span data-stu-id="dba85-123">**Microsoft Lync 2013**   Formal agents (agents who are required to sign in to the group before they can accept calls for the group) use Lync 2013 to sign in to and sign out from the group.</span></span> <span data-ttu-id="dba85-124">Si un groupe d’agent est configuré pour les agents officiels, les agents cliquent sur un élément de menu dans Lync 2013 pour ouvrir Internet Explorer et afficher une console de pages Web pour se connecter et s’en déconnecter.</span><span class="sxs-lookup"><span data-stu-id="dba85-124">If an agent group is configured for formal agents, the agents click a menu item in Lync 2013 to open Internet Explorer and display a webpage console for signing in and out of the group.</span></span>
+
+  - <span data-ttu-id="dba85-125">\*\*\*\*   Les services Web services Web sont requis pour les outils de configuration de Response Group, la console de connexion et de connexion des agents, le panneau de configuration de Lync Server et le service Web du client de Response Group.</span><span class="sxs-lookup"><span data-stu-id="dba85-125">**Web Services**   Web Services is required for Response Group Configuration Tool, the agents’ sign-in and sign-out console, Lync Server Control Panel, and Response Group client web service.</span></span>
+
+  - <span data-ttu-id="dba85-126">**Response service Web Response service**   application de groupe de réponse fournit un service Web client qui peut être utilisé par des applications tierces pour récupérer des informations sur les agents, l’appartenance à un groupe d’agents, le statut de connexion de l’agent, le statut d’appel des groupes. et les groupes qui prennent en charge les appels anonymes.</span><span class="sxs-lookup"><span data-stu-id="dba85-126">**Response Group Client Web Service**   Response Group application provides a client web service, which can be used by third-party applications to retrieve information about agents, agent group membership, agent sign-in status, call status for groups, and the groups that support anonymous calls.</span></span> <span data-ttu-id="dba85-127">Lync 2013 et Lync 2010 attendant utiliser le service Web du client de Response Group pour récupérer la liste des groupes de réponses que les agents peuvent utiliser pour effectuer des appels anonymes.</span><span class="sxs-lookup"><span data-stu-id="dba85-127">Lync 2013 and Lync 2010 Attendant use Response Group Client Web service to retrieve the list of response groups that agents can use to make anonymous calls.</span></span> <span data-ttu-id="dba85-128">Le service Web client est inclus dans le cadre de l’installation des services Web.</span><span class="sxs-lookup"><span data-stu-id="dba85-128">The client web service is included when you install Web Services.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

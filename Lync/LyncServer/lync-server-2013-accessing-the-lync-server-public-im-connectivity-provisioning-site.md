@@ -1,23 +1,43 @@
-﻿---
-title: "Lync Server 2013 : accès au site d’approv. de connectivité PIC de Lync Server"
-TOCTitle: Accès au site d’approvisionnement de connectivité PIC de Lync Server
-ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn440174(v=OCS.15)
-ms:contentKeyID: 59602874
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Accès au site d’approvisionnement de connectivité PIC de Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Accessing the Lync Server public IM connectivity provisioning site
+ms:assetid: 77a08234-6bcf-4f59-b43b-ee5fc1926585
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440174(v=OCS.15)
+ms:contentKeyID: 57793364
+ms.date: 03/09/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a6e028afcd3a9affc6c316b7cb373e124e6d5b0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838971"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Accès au site d’approvisionnement de connectivité PIC de Lync Server à partir de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2017-03-09_
+# <a name="accessing-the-lync-server-public-im-connectivity-provisioning-site-from-lync-server-2013"></a><span data-ttu-id="dfc34-102">Accès au site d’approvisionnement de connectivité PIC de Lync Server à partir de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dfc34-102">Accessing the Lync Server public IM connectivity provisioning site from Lync Server 2013</span></span>
 
-Le processus d'approvisionnement de la connectivité Lync-Skype a changé par rapport aux méthodes d'approvisionnement PIC précédentes. Ce processus d'approvisionnement peut nécessiter jusqu'à trente jours. Nous vous recommandons de commencer par démarrer ce processus, avant d'effectuer les étapes restantes de ce document. Une fois le processus d'approvisionnement Lync-Skype terminé pour votre compte, ce dernier est activé et vos utilisateurs éligibles sont activés pour la connectivité PIC.
+</div>
 
-### Pour approvisionner la connectivité Lync-Skype, vous avez besoin des informations suivantes :
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="dfc34-103">_**Dernière modification de la rubrique:** 2019-03-22_</span><span class="sxs-lookup"><span data-stu-id="dfc34-103">_**Topic Last Modified:** 2019-03-22_</span></span>
+
+<span data-ttu-id="dfc34-104">Le processus de mise en service de Lync-connectivité Skype a changé par rapport aux méthodes de mise en service de l’image précédente.</span><span class="sxs-lookup"><span data-stu-id="dfc34-104">The provisioning process for Lync-Skype connectivity has changed, as compared to previous PIC provisioning methods.</span></span> <span data-ttu-id="dfc34-105">Ce processus de mise en service peut durer jusqu’à trente jours.</span><span class="sxs-lookup"><span data-stu-id="dfc34-105">This provisioning process can take up to thirty days to complete.</span></span> <span data-ttu-id="dfc34-106">Nous vous recommandons de commencer par commencer ce processus avant d’effectuer les étapes restantes de ce document.</span><span class="sxs-lookup"><span data-stu-id="dfc34-106">We recommend that you start this process first, prior to completing the remaining steps in this document.</span></span> <span data-ttu-id="dfc34-107">Après l’exécution du processus de mise en service de Lync-Skype pour votre compte, le compte est activé et les utilisateurs éligibles sont activés pour la connectivité de messagerie instantanée publique.</span><span class="sxs-lookup"><span data-stu-id="dfc34-107">After the Lync-Skype provisioning process is completed for your account, the account is activated and your eligible users are enabled for public IM connectivity.</span></span>
+
+### <a name="to-provision-lync-skype-connectivity-you-need-the-following-information"></a><span data-ttu-id="dfc34-108">Pour configurer Lync-connectivité Skype, vous avez besoin des informations suivantes:</span><span class="sxs-lookup"><span data-stu-id="dfc34-108">To provision Lync-Skype connectivity, you need the following information:</span></span>
 
 <table>
 <colgroup>
@@ -25,16 +45,25 @@ Le processus d'approvisionnement de la connectivité Lync-Skype a changé par ra
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><ol><li><p>Numéro de contrat Microsoft</p></li><li><p>Nom de domaine complet (FQDN) du service Edge d'accès Edge</p></li><li><p>Domaine(s) SIP (Session Initiation Protocol)</p></li><li><p>Noms complets (FQDN) supplémentaires éventuels du service Edge d'accès</p></li><li><p>Coordonnées</p></li></ol></td>
-</tr>
-<tr class="even">
-<td><ol><li><p>Numéro de contrat Microsoft</p></li><li><p>Nom de domaine complet (FQDN) du service Edge d'accès Edge</p></li><li><p>Domaine(s) SIP (Session Initiation Protocol)</p></li><li><p>Noms complets (FQDN) supplémentaires éventuels du service Edge d'accès</p></li><li><p>Coordonnées</p></li></ol></td>
+<td><ol>
+<li><p><span data-ttu-id="dfc34-109">Numéro de contrat Microsoft</span><span class="sxs-lookup"><span data-stu-id="dfc34-109">Microsoft Agreement Number</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-110">Nom de domaine complet (FQDN) du service Edge d’accès</span><span class="sxs-lookup"><span data-stu-id="dfc34-110">Access Edge service fully qualified domain name (FQDN)</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-111">Domaine(s) SIP (Session Initiation Protocol)</span><span class="sxs-lookup"><span data-stu-id="dfc34-111">Session Initiation Protocol (SIP) domain(s)</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-112">Noms complets (FQDN) supplémentaires éventuels du service Edge d’accès</span><span class="sxs-lookup"><span data-stu-id="dfc34-112">Any additional Access Edge service FQDNs</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-113">Coordonnées</span><span class="sxs-lookup"><span data-stu-id="dfc34-113">Contact information</span></span></p></li>
+</ol></td>
 </tr>
 </tbody>
 </table>
 
+<span data-ttu-id="dfc34-114">À compter du 2019 avril, nous mettrons fin à la collecte et la conservation des informations de contact des clients approvisionnés par Skype Federation par le biais du site Web pic.lync.com.</span><span class="sxs-lookup"><span data-stu-id="dfc34-114">Beginning in April 2019, we will stop the collection and retention of contact information for customers who are provisioned for Skype Federation via the pic.lync.com website.</span></span> <span data-ttu-id="dfc34-115">Cette modification est apportée pour s’assurer que le système de mise en service de pic.lync.com respecte les politiques de confidentialité de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfc34-115">This change is being made to ensure that the pic.lync.com provisioning system adheres to Microsoft privacy policies.</span></span> 
 
-### Pour lancer le processus d'approvisionnement pour la connectivité Lync-Skype :
+<span data-ttu-id="dfc34-116">Lorsque le changement est en cours, nous ne pourrons plus fournir de mises à jour par e-mail sur les changements de mise en service en attente.</span><span class="sxs-lookup"><span data-stu-id="dfc34-116">Once this change goes live, we will no longer be able to provide email updates on pending provisioning changes.</span></span> <span data-ttu-id="dfc34-117">Les modifications apportées aux mises en service PIC s’effectuent généralement dans les 24-48 heures suivant la saisie.</span><span class="sxs-lookup"><span data-stu-id="dfc34-117">PIC provisioning changes typically complete within 24-48 hours after being entered.</span></span> <span data-ttu-id="dfc34-118">Si vous continuez à rencontrer des problèmes avec la Fédération de Skype 48 heures après avoir envoyé une demande de provisionnement, contactez le support technique de Microsoft pour approfondir votre investigation.</span><span class="sxs-lookup"><span data-stu-id="dfc34-118">If you are still experiencing Skype Federation issues 48 hours after submitting a provisioning request, please engage Microsoft Technical Support to investigate further.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="dfc34-119">Dans le cadre de cette modification, toutes les informations de contact précédemment entrées sont purgées de notre système à la fin du 1er avril 2019.</span><span class="sxs-lookup"><span data-stu-id="dfc34-119">As part of this change, all previously entered contact information will be purged from our system by the end of April, 2019.</span></span>
+
+### <a name="to-initiate-the-provisioning-process-for-lync-skype-connectivity"></a><span data-ttu-id="dfc34-120">Pour démarrer le processus de mise en service de Lync-connectivité Skype:</span><span class="sxs-lookup"><span data-stu-id="dfc34-120">To initiate the provisioning process for Lync-Skype connectivity:</span></span>
 
 <table>
 <colgroup>
@@ -42,78 +71,139 @@ Le processus d'approvisionnement de la connectivité Lync-Skype a changé par ra
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><ol><li><p>Connectez-vous au site <strong>https://pic.lync.com</strong> à l’aide de votre identifiant Microsoft Windows Live ID.</p></li><li><p>Sélectionnez le type de contrat de licence Microsoft.</p></li>
-> <li><p>Activez la case à cocher indiquant que vous avez lu et accepté les droits d'utilisation du produit pour Lync Server.</p></li>
-> <li><p>Dans la page <strong>Émettre une demande d’approvisionnement</strong>, cliquez sur le lien approprié pour émettre une demande d’approvisionnement :</p></li>
-> <li><p>Dans la page <strong>Indiquer les informations d’approvisionnement</strong> entrez le <strong>nom complet du service Edge d’accès</strong>. Par exemple, <strong>accessedge.contoso.com</strong>.</p></li>
-> <li><p>Entrez au moins un nom de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</p>
-<div>
+<td><ol>
+<li><p><span data-ttu-id="dfc34-121">Connectez-vous au site Web <strong>https://pic.lync.com</strong>, à l’aide de votre identifiant Microsoft Windows Live ID.</span><span class="sxs-lookup"><span data-stu-id="dfc34-121">Sign in to the website, <strong>https://pic.lync.com</strong>, using your Microsoft Windows Live ID.</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-122">Sélectionnez le type de contrat de licence Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfc34-122">Select the Microsoft licensing agreement type.</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-123">Activez cette case à cocher pour vérifier que vous avez lu et accepté les droits d’utilisation du produit sur Lync Server.</span><span class="sxs-lookup"><span data-stu-id="dfc34-123">Select the check box, verifying that you have read and accept the Product Use Rights for Lync Server.</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-124">Dans la page <strong>initier une demande de mise en service</strong> , cliquez sur le lien approprié pour lancer une demande de configuration:</span><span class="sxs-lookup"><span data-stu-id="dfc34-124">On the <strong>Initiate a Provisioning Request</strong> page, click the appropriate link to initiate a provisioning request:</span></span></p></li>
+<li><p><span data-ttu-id="dfc34-125">Dans la page <strong>spécifier les informations de mise en service</strong> , entrez le nom de <strong>domaine complet du service Edge d’accès</strong>.</span><span class="sxs-lookup"><span data-stu-id="dfc34-125">On the <strong>Specify Provisioning Information</strong> page, enter the <strong>Access Edge service FQDN</strong>.</span></span> <span data-ttu-id="dfc34-126">Par exemple, <strong>SIP.contoso.com</strong>.</span><span class="sxs-lookup"><span data-stu-id="dfc34-126">For example, <strong>sip.contoso.com</strong>.</span></span></p>
 
-> [!IMPORTANT]  
-> Au moins un serveur Edge d'accès et un domaine SIP sont requis pour effectuer le processus d'approvisionnement. Le domaine SIP et le serveur Edge d'accès doivent être actifs, en état de fonctionnement et accessibles sur le réseau.
-</div></li><li><p>Dans la liste des <strong>fournisseurs de service de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> et cliquez sur <strong>Suivant</strong> pour ajouter des coordonnées, puis envoyez la demande d’approvisionnement.</p></li></ol></td>
-</tr>
-<tr class="even">
-<td><ol><li><p>Connectez-vous au site <strong>https://pic.lync.com</strong> à l’aide de votre identifiant Microsoft Windows Live ID.</p></li><li><p>Sélectionnez le type de contrat de licence Microsoft.</p></li>
-> <li><p>Activez la case à cocher indiquant que vous avez lu et accepté les droits d'utilisation du produit pour Lync Server.</p></li>
-> <li><p>Dans la page <strong>Émettre une demande d’approvisionnement</strong>, cliquez sur le lien approprié pour émettre une demande d’approvisionnement :</p></li>
-> <li><p>Dans la page <strong>Indiquer les informations d’approvisionnement</strong> entrez le <strong>nom complet du service Edge d’accès</strong>. Par exemple, <strong>accessedge.contoso.com</strong>.</p></li>
-> <li><p>Entrez au moins un nom de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</p>
-<div>
 
-> [!IMPORTANT]  
-> Au moins un serveur Edge d'accès et un domaine SIP sont requis pour effectuer le processus d'approvisionnement. Le domaine SIP et le serveur Edge d'accès doivent être actifs, en état de fonctionnement et accessibles sur le réseau.
-</div></li><li><p>Dans la liste des <strong>fournisseurs de service de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> et cliquez sur <strong>Suivant</strong> pour ajouter des coordonnées, puis envoyez la demande d’approvisionnement.</p></li></ol></td>
+
+> [!IMPORTANT]
+> <span data-ttu-id="dfc34-127">Après le 1er juillet, 2017 Microsoft fera en sorte que le déploiement d’enregistrements SRV DNS de Fédération pour la connectivité de messagerie instantanée publique reste opérationnel pour les clients.</span><span class="sxs-lookup"><span data-stu-id="dfc34-127">After July 1st, 2017 Microsoft will additionally require customers have the Federation DNS SRV record deployed for Public IM connectivity to continue to work.</span></span>
+
+</li>
+<li><p><span data-ttu-id="dfc34-128">Entrez au moins un ou plusieurs noms de domaine SIP, puis cliquez sur <strong>Ajouter</strong>.</span><span class="sxs-lookup"><span data-stu-id="dfc34-128">Enter at least one or more SIP domain names, and then click <strong>Add</strong>.</span></span></p>
+
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="dfc34-129">Au moins un serveur Edge d’accès et un domaine SIP sont requis pour terminer le processus de mise en service.</span><span class="sxs-lookup"><span data-stu-id="dfc34-129">At least one Access Edge server and one SIP domain are required to complete the provisioning process.</span></span> <span data-ttu-id="dfc34-130">Le domaine SIP et le serveur Edge d’accès doivent être actifs, fonctionnels et accessibles sur le réseau.</span><span class="sxs-lookup"><span data-stu-id="dfc34-130">The SIP domain and the Access Edge server must be active, functioning, and reachable on the network.</span></span>
+
+</li>
+<li><p><span data-ttu-id="dfc34-131">Dans la liste des <strong>fournisseurs de services de messagerie instantanée publique</strong>, sélectionnez <strong>Skype,</strong> cliquez sur <strong>suivant</strong> pour ajouter des informations de contact, puis envoyez la demande de mise en service.</span><span class="sxs-lookup"><span data-stu-id="dfc34-131">In the list of <strong>Public IM Service providers</strong>, select <strong>Skype,</strong> and click <strong>Next</strong> to add contact information, and submit the provisioning request.</span></span></p></li>
+</ol></td>
 </tr>
 </tbody>
 </table>
 
 
-Une fois la demande d'approvisionnement envoyée, l'activation du compte et des utilisateurs pour la connectivité PIC peut prendre jusqu'à 30 jours.
+<span data-ttu-id="dfc34-132">Après l’envoi de la demande de mise en service, l’activation du compte peut prendre jusqu’à 30 jours et permettre aux utilisateurs d’être activés pour la connectivité de messagerie instantanée publique.</span><span class="sxs-lookup"><span data-stu-id="dfc34-132">After the provisioning request has been submitted, it can take up to 30 days for the account to activate and for users to be enabled for public IM connectivity.</span></span>
 
-## Activation de la fédération et de la connectivité PIC (Public IM Connectivity)
+<div>
 
-Une fois la demande d'approvisionnement transmise, vous pouvez vous concentrer sur l'environnement Lync Server et les tâches d'administration nécessaires à la configuration de la connectivité Lync-Skype. Cette section suppose que l'administrateur Lync Server a déployé Lync Server et configuré l'accès externe. Pour plus d'informations sur la configuration de l'accès externe pour Lync Server, voir « Planification de l'accès des utilisateurs externes » à l'adresse [http://go.microsoft.com/fwlink/p/?LinkID=273772](http://go.microsoft.com/fwlink/p/?linkid=273772) et « Déploiement de l'accès des utilisateurs externes » à l'adresse [http://go.microsoft.com/fwlink/p/?LinkID=27378](http://go.microsoft.com/fwlink/p/?linkid=27378).
+## <a name="enabling-federation-and-public-im-connectivity-pic"></a><span data-ttu-id="dfc34-133">Activation de la fédération et de la connectivité PIC (Public IM Connectivity)</span><span class="sxs-lookup"><span data-stu-id="dfc34-133">Enabling Federation and Public IM Connectivity (PIC)</span></span>
 
-Pour préparer l'environnement Lync Server pour la connectivité Lync-Skype, l'administrateur Lync Server doit effectuer les trois tâches suivantes :
+<span data-ttu-id="dfc34-134">Après avoir soumis la demande de mise en service, vous pouvez vous concentrer sur l’environnement du serveur Lync et les tâches d’administration requises pour configurer Lync-connectivité Skype.</span><span class="sxs-lookup"><span data-stu-id="dfc34-134">After you have submitted the provisioning request, you can focus on the Lync Server environment and administrative tasks required to configure Lync-Skype connectivity.</span></span> <span data-ttu-id="dfc34-135">Dans cette section, nous supposons que l’administrateur du serveur Lync a déployé Lync Server et configuré l’accès externe.</span><span class="sxs-lookup"><span data-stu-id="dfc34-135">In this section, we assume that the Lync Server administrator has deployed Lync Server and configured external access.</span></span> <span data-ttu-id="dfc34-136">Pour plus d’informations sur la configuration de l’accès externe pour Lync Server, voir «planification pour l’accès [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) utilisateur externe» auprès de et «déploiement de [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378)l’accès utilisateur externe».</span><span class="sxs-lookup"><span data-stu-id="dfc34-136">For additional information on configuring external access for Lync Server, see "Planning for External User Access" at [https://go.microsoft.com/fwlink/p/?LinkID=273772](https://go.microsoft.com/fwlink/p/?linkid=273772) and "Deploying External User Access" at [https://go.microsoft.com/fwlink/p/?LinkID=27378](https://go.microsoft.com/fwlink/p/?linkid=27378).</span></span>
 
-## 1\. Configurer la fédération et la connectivité PIC
+<span data-ttu-id="dfc34-137">Pour préparer l’environnement Lync Server pour Lync-connectivité Skype, l’administrateur du serveur Lync doit effectuer les trois tâches suivantes:</span><span class="sxs-lookup"><span data-stu-id="dfc34-137">To prepare the Lync Server environment for Lync-Skype connectivity, the Lync Server administrator must complete the following three tasks:</span></span>
 
-La fédération est requise pour permettre aux utilisateurs Skype de communiquer avec les utilisateurs Lync dans votre organisation. La connectivité PIC (Public IM Connectivity) est une classe de fédération. Elle doit être configurée pour permettre à vos utilisateurs Lync de communiquer avec les utilisateurs Skype. La fédération et la connectivité PIC sont configurées à l'aide du panneau de configuration Lync Server (affiché ci-dessous).
+<div>
 
-> [!IMPORTANT]  
-> La fédération PIC n'est plus prise en charge par Live Communication Server 2005 SP1 ou Office Communications Server 2007. Les plateformes prises en charge pour la fédération PIC incluent Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2.
+## <a name="1-configure-federation-and-pic"></a><span data-ttu-id="dfc34-138">1 \.</span><span class="sxs-lookup"><span data-stu-id="dfc34-138">1\.</span></span> <span data-ttu-id="dfc34-139">Configurer la fédération et PIC</span><span class="sxs-lookup"><span data-stu-id="dfc34-139">Configure Federation and PIC</span></span>
 
-## 2\. Configurer au moins une stratégie pour la prise en charge de l'accès des utilisateurs fédérés
+<span data-ttu-id="dfc34-140">La Fédération est requise pour permettre aux utilisateurs de Skype de communiquer avec les utilisateurs de Lync au sein de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="dfc34-140">Federation is required to enable Skype users to communicate with Lync users in your organization.</span></span> <span data-ttu-id="dfc34-141">La connectivité de messagerie instantanée publique (PIC) est une classe de Fédération qui doit être configurée pour permettre aux utilisateurs de Lync de communiquer avec des utilisateurs Skype.</span><span class="sxs-lookup"><span data-stu-id="dfc34-141">Public Instant Messaging Connectivity (PIC) is a class of federation, and it must be configured to enable your Lync users to communicate with Skype users.</span></span> <span data-ttu-id="dfc34-142">Les options de Fédération et PIC sont configurées à l’aide du panneau de configuration de Lync Server, comme illustré ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="dfc34-142">Federation and PIC are configured by using the Lync Server Control Panel, shown below.</span></span>
 
-À l'aide du panneau de configuration Lync Server, l'administrateur doit configurer une ou plusieurs stratégies d'accès des utilisateurs externes pour contrôler la possibilité pour les utilisateurs Skype de collaborer avec les utilisateurs Lync Server internes.
+<div>
 
-## 3\. Configurer le paramètre de fournisseur PIC Skype pour Lync
 
-À l'aide de Lync Server Management Shell, l'administrateur doit configurer la stratégie de client Lync pour afficher Skype comme fournisseur PIC supplémentaire.
+> [!IMPORTANT]
+> <span data-ttu-id="dfc34-143">La fédération PIC n’est plus prise en charge par Live Communication Server 2005 SP1 ni par Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="dfc34-143">PIC federation is no longer supported by Live Communication Server 2005 SP1 or by Office Communications Server 2007.</span></span> <span data-ttu-id="dfc34-144">Les plateformes prises en charge pour la Fédération PIC incluent Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="dfc34-144">The supported platforms for PIC federation include Lync Server 2013, Lync Server 2010, and Office Communications Server 2007 R2.</span></span>
 
-> [!NOTE]  
-> Les utilisateurs du service PIC ne peuvent pas participer à des sessions de messagerie instantanée ou des conférences dans votre organisation tant que vous n'avez pas configuré au moins une stratégie (étape 2 de cette procédure) pour prendre en charge la connectivité PIC.<br />
-Pour configurer la fédération et la connectivité PIC, voir « Activation ou désactivation de la fédération et de la connectivité PIC (Public IM Connectivity) » à l'adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=306063">http://go.microsoft.com/fwlink/p/?LinkId=306063</a>.<br />
-Pour configurer au moins une stratégie pour prendre en charge l'accès des utilisateurs fédérés, voir « Configuration des stratégies de contrôle d'accès des utilisateurs publics » à l'adresse <a href="http://go.microsoft.com/fwlink/p/?linkid=306064">http://go.microsoft.com/fwlink/p/?LinkId=306064</a>.
 
-1.  À partir d'un serveur frontal Lync Server, ouvrez Lync Server Management Shell.
 
-2.  Exécutez les deux commandes suivantes :
+</div>
+
+</div>
+
+<div>
+
+## <a name="2-configure-at-least-one-policy-to-support-federated-user-access"></a><span data-ttu-id="dfc34-145">2 \.</span><span class="sxs-lookup"><span data-stu-id="dfc34-145">2\.</span></span> <span data-ttu-id="dfc34-146">Configurer au moins une stratégie pour la prise en charge de l’accès des utilisateurs fédérés</span><span class="sxs-lookup"><span data-stu-id="dfc34-146">Configure at least one policy to support federated user access</span></span>
+
+<span data-ttu-id="dfc34-147">À l’aide du panneau de configuration de Lync Server, un administrateur doit configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs de Skype peuvent collaborer avec des utilisateurs internes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="dfc34-147">Using the Lync Server Control Panel, an administrator must configure one or more external user access policies to control whether Skype users can collaborate with internal Lync Server users.</span></span>
+
+</div>
+
+<div>
+
+## <a name="3-configure-the-skype-pic-provider-setting-for-lync"></a><span data-ttu-id="dfc34-148">3 \.</span><span class="sxs-lookup"><span data-stu-id="dfc34-148">3\.</span></span> <span data-ttu-id="dfc34-149">Configuration du paramètre du fournisseur de PIC Skype pour Lync</span><span class="sxs-lookup"><span data-stu-id="dfc34-149">Configure the Skype PIC provider setting for Lync</span></span>
+
+<span data-ttu-id="dfc34-150">À l’aide de Lync Server Management Shell, un administrateur doit configurer la stratégie de client Lync pour afficher Skype en tant que fournisseur de PIC supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="dfc34-150">Using the Lync Server Management Shell, an administrator must configure the Lync client policy to display Skype as an additional PIC provider.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="dfc34-151">Les utilisateurs du service PIC ne peuvent pas participer à des sessions de messagerie instantanée ou des conférences dans votre organisation tant que vous n’avez pas configuré au moins une stratégie (étape 2 de cette procédure) pour prendre en charge la connectivité PIC. </span><span class="sxs-lookup"><span data-stu-id="dfc34-151">Users of the Public Instant Messaging Connectivity (PIC) service providers can’t participate in IM or conferences in your organization until you also configure at least one policy (step 2, earlier in this procedure) to support public IM connectivity.</span></span><BR><span data-ttu-id="dfc34-152">Pour configurer la Fédération et la messagerie instantanée, voir Activer ou désactiver la Fédération et la connectivité <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>de messagerie instantanée publique à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="dfc34-152">To configure federation and PIC, see "Enable or Disable Federation and Public IM Connectivity" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306063">https://go.microsoft.com/fwlink/p/?LinkId=306063</A>.</span></span><BR><span data-ttu-id="dfc34-153">Pour configurer au moins une stratégie pour la prise en charge de l’accès des utilisateurs fédérés, voir «Configurer des stratégies <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>pour contrôler l’accès public aux utilisateurs».</span><span class="sxs-lookup"><span data-stu-id="dfc34-153">To configure at least one policy to support federated user access, see "Configure Policies to Control Public User Access" at <A href="https://go.microsoft.com/fwlink/p/?linkid=306064">https://go.microsoft.com/fwlink/p/?LinkId=306064</A>.</span></span>
+
+
+
+</div>
+
+1.  <span data-ttu-id="dfc34-154">À partir d’un serveur frontal Lync Server, ouvrez Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="dfc34-154">From a Lync Server Front End Server, open the Lync Server Management Shell.</span></span>
+
+2.  <span data-ttu-id="dfc34-155">Exécutez les deux commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="dfc34-155">Run the following two commands:</span></span>
     
-      - Remove-CsPublicProvider -Identity Messenger
+      - `Remove-CsPublicProvider -Identity <identity-name>`
+        
+        <div>
+        
+
+        > [!NOTE]
+        > <span data-ttu-id="dfc34-156">Si vous n’avez pas encore de fournisseur PIC dans votre environnement et que vous êtes en train de créer un nouveau fournisseur de PIC, vous n’avez pas besoin d’exécuter l’applet de action <STRONG>Remove-CsPublicProvider</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="dfc34-156">If you do not already have a PIC provider in your environment and are creating a new PIC provider then you do not need to run the <STRONG>Remove-CsPublicProvider</STRONG> cmdlet.</span></span>
+
+        
+        </div>
     
-      - New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl "https://images.edge.messenger.live.com/Messenger\_16x16.png" -VerificationLevel 2 -Enabled 1
+      - `New-CsPublicProvider -ProxyFqdn federation.messenger.msn.com -Enabled 1 -Identity Skype  -VerificationLevel 2 -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -IconUrl "https://images.edge.messenger.live.com/Messenger_16x16.png"`
+        
+        <div>
+        
 
-3.  À partir d’un client Lync, vous pouvez désormais sélectionner Skype en tant que fournisseur PIC, et ajouter un client Skype en spécifiant son compte Microsoft. De plus, un utilisateur Skype qui a effectué la fusion et qui est connecté à partir de son compte Microsoft peut envoyer une demande de contact aux utilisateurs Lync. Pour plus d’informations sur les comptes Microsoft, voir [Qu'est-ce qu’un compte Microsoft ?](https://support.skype.com/fr/faq/fa12059/what-is-a-microsoft-account). Pour plus d’informations concernant l’ajout de clients à Lync, voir [Utilisation de la connectivité Lync-Skype dans Lync Server 2013 en tant qu’utilisateur final](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).
+        > [!NOTE]
+        > <span data-ttu-id="dfc34-157">Ajouté dans Lync Server 2013 CU5 &amp; le client de bureau Lync dans Office 2013 SP1, le NameDecorationRoutingDomain et NameDecorationExcludedDomainList d’améliorer la situation dans laquelle les utilisateurs de Lync ajoutent des contacts Skype nécessaires pour «décorer» des domaines non Microsoft vers Identifiez-les et acheminez-les vers Skype (format: utilisateur (contoso. com) @msn. com).</span><span class="sxs-lookup"><span data-stu-id="dfc34-157">Added in Lync Server 2013 CU5 &amp; Lync desktop client in Office 2013 SP1, the NameDecorationRoutingDomain and NameDecorationExcludedDomainList improve the situation where Lync users adding Skype contacts needed to “decorate” non-Microsoft domains to identify and route them to Skype (the format of: user(contoso.com)@msn.com).</span></span> <span data-ttu-id="dfc34-158">Ces nouveaux paramètres permettent la mise en forme automatique de l’adresse que l’utilisateur entre dans la boîte de dialogue « Ajouter un contact Skype » avec NameDecorationRoutingDomain (qui doit être défini sur msn.com) si elle ne contient pas les domaines dans NameDecorationExcludedDomainList (actuellement, nous pouvons prendre en charge msn.com, live.com, Hotmail.com et outlook.com).</span><span class="sxs-lookup"><span data-stu-id="dfc34-158">These new settings will allow automatic formatting of the address user’s enter in the “Add Skype contact” dialog box with the NameDecorationRoutingDomain (which should be set to msn.com) if it does not contain the domains in the NameDecorationExcludedDomainList (we currently can support msn.com, live.com, Hotmail.com, outlook.com).</span></span>
 
-4.  Pour plus d'informations sur la modification des fournisseurs hébergés, voir « Création ou modification de fournisseurs fédérés SIP hébergés » à l'adresse [http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065).
+        
+        </div>
 
-Cette procédure termine les tâches d'administration qui doivent être effectuées sur le serveur. Vous pouvez à présent utiliser la connectivité Lync-Skype.
+3.  <span data-ttu-id="dfc34-159">À partir d’un client Lync, vous pouvez désormais sélectionner Skype en tant que fournisseur de PIC et ajouter un client Skype en spécifiant son compte Microsoft.</span><span class="sxs-lookup"><span data-stu-id="dfc34-159">From a Lync client, you can now select Skype as the PIC provider, and add a Skype client by specifying their Microsoft account.</span></span> <span data-ttu-id="dfc34-160">De plus, un utilisateur de Skype qui a fusionné et connecté avec son compte Microsoft peut envoyer une demande de contact à des utilisateurs de Lync.</span><span class="sxs-lookup"><span data-stu-id="dfc34-160">In addition, a Skype user who has merged and logged in with their Microsoft account can send contact request to Lync users.</span></span> <span data-ttu-id="dfc34-161">Pour plus d’informations sur les comptes Microsoft, voir [qu’est-ce qu’un compte Microsoft?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account).</span><span class="sxs-lookup"><span data-stu-id="dfc34-161">For more information about Microsoft accounts, see [What is a Microsoft account?](https://support.skype.com/en/faq/fa12059/what-is-a-microsoft-account).</span></span> <span data-ttu-id="dfc34-162">Pour plus d’informations sur l’ajout de clients à Lync, reportez-vous à la rubrique [utilisation de Lync-connectivité Skype dans Lync Server 2013 en tant qu’utilisateur final](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).</span><span class="sxs-lookup"><span data-stu-id="dfc34-162">For additional information on adding clients to Lync, see [Using Lync-Skype connectivity in Lync Server 2013 as an end user](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md).</span></span>
 
-## Ressources supplémentaires
+4.  <span data-ttu-id="dfc34-163">Pour plus d’informations sur la modification des fournisseurs hébergés, voir «créer ou modifier des fournisseurs fédérés [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)SIP hébergés» à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="dfc34-163">For detailed information on modifying hosted providers, see "Create or Edit Hosted SIP Federated Providers" at [https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065).</span></span>
 
-[Utilisation de la connectivité Lync-Skype dans Lync Server 2013 en tant qu’utilisateur final](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+<span data-ttu-id="dfc34-164">Cette procédure termine les tâches d’administration qui doivent être effectuées sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="dfc34-164">This completes the administrative tasks that must be performed on the server.</span></span> <span data-ttu-id="dfc34-165">Vous êtes désormais configuré pour Lync-connectivité Skype.</span><span class="sxs-lookup"><span data-stu-id="dfc34-165">You are now set up for Lync-Skype connectivity.</span></span>
 
-[Provisioning guide for Lync-Skype connectivity in Lync Server 2013](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+</div>
+
+</div>
+
+<div>
+
+## <a name="additional-resources"></a><span data-ttu-id="dfc34-166">Ressources supplémentaires</span><span class="sxs-lookup"><span data-stu-id="dfc34-166">Additional Resources</span></span>
+
+[<span data-ttu-id="dfc34-167">Utilisation de la connectivité Lync-Skype dans Lync Server 2013 en tant qu’utilisateur final</span><span class="sxs-lookup"><span data-stu-id="dfc34-167">Using Lync-Skype connectivity in Lync Server 2013 as an end user</span></span>](lync-server-2013-using-lync-skype-connectivity-as-an-end-user.md)
+
+[<span data-ttu-id="dfc34-168">Guide d’approvisionnement pour la connectivité Lync-Skype dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dfc34-168">Provisioning guide for Lync-Skype connectivity in Lync Server 2013</span></span>](lync-server-2013-provisioning-guide-for-lync-skype-connectivity.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

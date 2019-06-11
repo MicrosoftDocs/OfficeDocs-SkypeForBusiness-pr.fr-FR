@@ -1,55 +1,97 @@
-﻿---
-title: Vue d’ensemble du processus de sauvegarde et de restauration
-TOCTitle: Vue d’ensemble du processus de sauvegarde et de restauration
-ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202192(v=OCS.15)
-ms:contentKeyID: 53095549
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Présentation du processus de sauvegarde et de restauration Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backup and restoration process overview
+ms:assetid: e0f23b21-070f-4df5-b795-cea2f5338d85
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202192(v=OCS.15)
+ms:contentKeyID: 51541524
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5b01230e84c9278d5540c21d41d9af1342479e6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838887"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vue d’ensemble du processus de sauvegarde et de restauration
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-03-26_
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a><span data-ttu-id="afadb-102">Présentation du processus de sauvegarde et de restauration pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afadb-102">Backup and restoration process overview for Lync Server 2013</span></span>
 
-Cette section fournit une vue d’ensemble du fonctionnement du processus de sauvegarde et de restauration pour Lync Server 2013. Vous utilisez le même processus pour tous les serveurs Standard Edition et les serveurs Enterprise Edition, quel que soit leur emplacement.
+</div>
 
-En général, le processus de sauvegarde fonctionne comme suit :
+<div id="mainSection">
 
-  - Vous créez un emplacement de sauvegarde en tant que dossier partagé sur un ordinateur autonome qui ne fait partie d’aucun pool. L’emplacement de la sauvegarde est référencé dans **$Backup**.
+<div id="mainBody">
 
-  - De manière régulière et planifiée, vous sauvegardez toutes les bases de données Lync Server et tous les magasins de fichiers décrits dans [Besoins de sauvegarde et de restauration dans Lync Server 2013 : données](lync-server-2013-backup-and-restoration-requirements-data.md) en appliquant les procédures décrites dans [Sauvegarde de Lync Server](lync-server-2013-backing-up-lync-server.md). Le magasin central de gestion inclut tous les paramètres et configurations de serveur.
+<span> </span>
 
-  - Chaque fois que vous exécutez une sauvegarde ultérieure, vous créez un nouveau dossier partagé et modifiez le chemin d’accès que **$Backup** référence.
+<span data-ttu-id="afadb-103">_**Dernière modification de la rubrique:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="afadb-103">_**Topic Last Modified:** 2013-03-26_</span></span>
 
-En général, le processus de restauration fonctionne comme suit :
+<span data-ttu-id="afadb-104">Cette section fournit une vue d’ensemble du fonctionnement du processus de sauvegarde et de restauration pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="afadb-104">This section provides an overview of how the backup and restoration process works for Lync Server 2013.</span></span> <span data-ttu-id="afadb-105">Vous utilisez le même processus pour tous les serveurs Standard Edition Server et les serveurs Enterprise Edition, quel que soit leur emplacement.</span><span class="sxs-lookup"><span data-stu-id="afadb-105">You use the same process for all Standard Edition servers and Enterprise Edition servers, regardless of their location.</span></span>
 
-  - Lorsqu’une défaillance ou une panne se produit, vous restaurez les données situées à l’emplacement référencé par **$Backup** sur des ordinateurs nouveaux ou nettoyés.
+<span data-ttu-id="afadb-106">En règle générale, le processus de sauvegarde fonctionne comme suit:</span><span class="sxs-lookup"><span data-stu-id="afadb-106">In general, the backup process works as follows:</span></span>
+
+  - <span data-ttu-id="afadb-107">Vous pouvez créer un emplacement de sauvegarde en tant que dossier partagé sur un ordinateur autonome qui ne fait pas partie d’un pool.</span><span class="sxs-lookup"><span data-stu-id="afadb-107">You create a backup location as a shared folder on a stand-alone computer that is not part of any pool.</span></span> <span data-ttu-id="afadb-108">L’emplacement de la sauvegarde est référencé dans **$Backup**.</span><span class="sxs-lookup"><span data-stu-id="afadb-108">The location of the backup is referenced in **$Backup**.</span></span>
+
+  - <span data-ttu-id="afadb-109">D’un plan régulier, vous sauvegardez toutes les bases de données Lync Server et tous les magasins de fichiers décrits dans les [exigences de sauvegarde et de restauration de Lync server 2013: données](lync-server-2013-backup-and-restoration-requirements-data.md) en suivant les procédures décrites dans la rubrique [sauvegarde de Lync Server 2013 ](lync-server-2013-backing-up-lync-server.md)Le magasin gestion centrale inclut tous les paramètres et configurations du serveur.</span><span class="sxs-lookup"><span data-stu-id="afadb-109">On a regular, scheduled basis, you back up all the Lync Server databases and all the file stores that are described in [Backup and restoration requirements in Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md) by following the procedures described in [Backing up Lync Server 2013](lync-server-2013-backing-up-lync-server.md) The Central Management store includes all the server settings and configurations.</span></span>
+
+  - <span data-ttu-id="afadb-110">Chaque fois que vous exécutez une sauvegarde ultérieure, vous devez créer un dossier partagé et changer le chemin d’accès **$Backup** références.</span><span class="sxs-lookup"><span data-stu-id="afadb-110">Each time you run a subsequent backup, you create a new shared folder and change the path that **$Backup** references.</span></span>
+
+<span data-ttu-id="afadb-111">En règle générale, le processus de restauration fonctionne comme suit:</span><span class="sxs-lookup"><span data-stu-id="afadb-111">In general, the restoration process works as follows:</span></span>
+
+  - <span data-ttu-id="afadb-112">Dans le cas d’une panne ou d’une panne, vous restaurez les données à l’emplacement référencé par **$Backup** sur des ordinateurs nouveaux ou sains.</span><span class="sxs-lookup"><span data-stu-id="afadb-112">When a failure or outage occurs, you restore the data in the location referenced by **$Backup** to new or clean computers.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Ce processus de restauration ne restaure pas les données sur un état de serveur existant. C’est-à-dire que ce processus requiert que le serveur soit nettoyé ou nouveau.
+    > <span data-ttu-id="afadb-113">Ce processus de restauration ne restaure pas les données sur un État serveur existant.</span><span class="sxs-lookup"><span data-stu-id="afadb-113">This restoration process does not restore data onto an existing server state.</span></span> <span data-ttu-id="afadb-114">Autrement dit, ce processus nécessite une nouvelle installation du serveur.</span><span class="sxs-lookup"><span data-stu-id="afadb-114">That is, this process requires that the server is clean or new.</span></span>
 
-  - Pour faire en sorte que vos informations utilisateur et de conférence soient récupérables au point de défaillance, vous pouvez mettre en œuvre une topologie de récupération d’urgence avec des pools frontaux associés, comme décrit dans [Planification de la haute disponibilité et de la récupération d’urgence dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Outre cette option, Lync Server prend en charge uniquement le mode de récupération simple pour ses bases de données. Avec le mode de récupération simple, les bases de données sont récupérées à la date de la dernière sauvegarde complète, ce qui signifie que vous ne pouvez pas restaurer une base de données à la date de la défaillance ou à moment spécifique. Pour de nombreuses organisations, le modèle de récupération simple est optimal, car la base de données principale Lync Server (RTCXDS.mdf) est en fait plus petite que les fichiers journaux des transactions et beaucoup plus petite que ceux des applications de bases de données métier ordinaires.
-
-  - Toute la configuration DNS (Domain Name System), la configuration DHCP (Dynamic Host Configuration Protocol), les noms de domaine, les noms de domaine complets des ordinateurs, les chemins d’accès aux magasins de fichiers, etc. doivent être les mêmes au moment de la restauration que ceux qu’ils étaient au moment de la sauvegarde.
-
-Si un serveur exécutant Lync Server subit une défaillance, la récupération comprend les étapes suivantes :
-
-  - Installez le système d’exploitation sur un ordinateur nouveau ou nettoyé portant le même nom de domaine complet (FQDN) que l’ordinateur défaillant.
-
-  - Réinstallez les certificats.
-
-  - Si le serveur hébergeait une base de données, installez Microsoft SQL Server 2012 ou Microsoft SQL Server 2008 R2.
-
-  - En général, si le serveur hébergeait une base de données, exécutez le Générateur de topologie pour créer et installer la base de données, puis configurez les listes de contrôle d’accès.
-
-  - En général, si le serveur hébergeait un rôle serveur, exécutez les étapes 1 à 4 de l’Assistant Déploiement de Lync Server pour installer les fichiers de configuration locaux, installez les composants du rôle serveur, assignez les certificats, puis démarrez les services.
     
-    > [!NOTE]  
-    > Si le serveur hébergeait une base de données colocalisée avec le rôle serveur, l’exécution de l’étape 2 de l’Assistant Déploiement de Lync Server permet de recréer la base de données.
+    </div>
 
-  - Si le serveur hébergeait une base de données, restaurez les données sauvegardées.
+  - <span data-ttu-id="afadb-115">Pour permettre à l’utilisateur et aux informations de votre conférence d’être récupérable au point de défaillance, vous pouvez implémenter une topologie de récupération d’urgence avec des pools frontaux couplés, comme décrit dans la section [planification de la haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="afadb-115">To enable your user and conference information to be recoverable to the point of failure, you can implement a disaster recovery topology with paired Front End pools, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span>
+
+  - <span data-ttu-id="afadb-116">La configuration de votre système de noms de domaine (DNS), de la configuration du protocole de configuration de l’hôte dynamique, des noms de domaine, des noms de domaine complets (FQDN), des chemins d’accès du magasin de fichiers, etc. doivent être identiques au moment de la restauration. Recule.</span><span class="sxs-lookup"><span data-stu-id="afadb-116">All Domain Name System (DNS) configuration, Dynamic Host Configuration Protocol (DHCP) configuration, domain names, computer fully qualified domain names (FQDNs), file store paths, and so on must be the same at the time of restoration that they were at the time of back up.</span></span>
+
+<span data-ttu-id="afadb-117">Si un serveur exécutant Lync Server tombe en panne, la récupération inclut les étapes suivantes:</span><span class="sxs-lookup"><span data-stu-id="afadb-117">If a server running Lync Server fails, recovery includes the following steps:</span></span>
+
+  - <span data-ttu-id="afadb-118">Installez le système d’exploitation sur un nouvel ordinateur ou un ordinateur qui a le même nom de domaine complet que l’ordinateur en panne.</span><span class="sxs-lookup"><span data-stu-id="afadb-118">Install the operating system on a new or clean computer with the same FQDN as the failed computer.</span></span>
+
+  - <span data-ttu-id="afadb-119">Réinstallez les certificats.</span><span class="sxs-lookup"><span data-stu-id="afadb-119">Reinstall certificates.</span></span>
+
+  - <span data-ttu-id="afadb-120">Si le serveur a hébergé une base de données, installez Microsoft SQL Server 2012 ou Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="afadb-120">If the server hosted a database, install Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2.</span></span>
+
+  - <span data-ttu-id="afadb-121">En règle générale, si le serveur a hébergé une base de données, exécutez le générateur de topologie pour créer et installer la base de données et configurer les listes de contrôle d’accès (ACL).</span><span class="sxs-lookup"><span data-stu-id="afadb-121">In general, if the server hosted a database, run Topology Builder to create and install the database and set up access control lists (ACLs).</span></span>
+
+  - <span data-ttu-id="afadb-122">En règle générale, si le serveur héberge un rôle serveur, exécutez les étapes 1 à 4 de l’Assistant Déploiement de Lync Server pour installer les fichiers de configuration locaux, installer les composants du rôle de serveur, attribuer des certificats et démarrer les services.</span><span class="sxs-lookup"><span data-stu-id="afadb-122">In general, if the server hosted a server role, run step 1 through step 4 of the Lync Server Deployment Wizard to install the local configuration files, install the server role components, assign certificates, and start the services.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="afadb-123">Si le serveur a hébergé une base de données avec le rôle serveur, l’exécution de l’étape 2 de l’Assistant Déploiement de Lync Server recrée la base de données.</span><span class="sxs-lookup"><span data-stu-id="afadb-123">If the server hosted a database collocated with the server role, running step 2 of the Lync Server Deployment Wizard recreates the database.</span></span>
+
+    
+    </div>
+
+  - <span data-ttu-id="afadb-124">Si le serveur a hébergé une base de données, restaurez les données sauvegardées.</span><span class="sxs-lookup"><span data-stu-id="afadb-124">If the server hosted a database, restore the backed up data.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

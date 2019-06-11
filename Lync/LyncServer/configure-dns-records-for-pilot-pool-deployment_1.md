@@ -1,35 +1,65 @@
-﻿---
-title: Configuration des enregistrements DNS pour le déploiement du pool pilote
-TOCTitle: Configuration des enregistrements DNS pour le déploiement du pool pilote
-ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688072(v=OCS.15)
-ms:contentKeyID: 49891367
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration des enregistrements DNS pour le déploiement d’un pool pilote
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure DNS records for pilot pool deployment
+ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688072(v=OCS.15)
+ms:contentKeyID: 49733666
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0425d8adf0e09f3a0d081b1708d7e67e3f53a24
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838083"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des enregistrements DNS pour le déploiement du pool pilote
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-24_
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a><span data-ttu-id="51277-102">Configuration des enregistrements DNS pour le déploiement d’un pool pilote</span><span class="sxs-lookup"><span data-stu-id="51277-102">Configure DNS records for pilot pool deployment</span></span>
 
-Avant de déployer le pool pilote Lync Server 2013, vous devez mettre à jour les entrées d’hôte DNS (A) pour le pool pilote. Pour réussir cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Admins du domaine ou du groupe DnsAdmins.
+</div>
 
-**Pour configurer les enregistrements d’hôte DNS (A)**
+<div id="mainSection">
 
-1.  Sur le serveur DNS, cliquez sur **Démarrer** , sur **Outils d’administration** , puis sur **DNS** .
+<div id="mainBody">
 
-2.  Dans l’arborescence de la console de votre domaine, développez **Transférer les zones de recherche** , puis cliquez avec le bouton droit sur le domaine dans lequel Lync Server 2013 sera installé.
+<span> </span>
 
-3.  Cliquez sur **Nouvel hôte (A ou AAAA)** .
+<span data-ttu-id="51277-103">_**Dernière modification de la rubrique:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="51277-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-4.  Cliquez sur **Nom** , tapez le nom d’hôte du pool (le nom de domaine est présumé à partir de la zone dans laquelle est défini l’enregistrement, il est inutile de l’entrer comme partie de l’enregistrement A).
+<span data-ttu-id="51277-104">Avant de déployer le pool de pilotes de Lync Server 2013, vous devez mettre à jour les entrées de l’hôte DNS pour le pool de pilotes.</span><span class="sxs-lookup"><span data-stu-id="51277-104">Prior to deploying the Lync Server 2013 pilot pool, you must update the DNS Host A entries for the pilot pool.</span></span> <span data-ttu-id="51277-105">Pour effectuer cette procédure, vous devez être connecté au serveur ou au domaine au minimum en tant que membre du groupe Domain Admins ou membre du groupe DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="51277-105">To successfully complete this procedure, you should be logged on to the server or domain at minimum as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-5.  Cliquez sur **Adresse IP** , puis tapez l’adresse IP du pool de serveurs frontaux.
+<span data-ttu-id="51277-106">**Pour configurer les enregistrements d’un hôte DNS**</span><span class="sxs-lookup"><span data-stu-id="51277-106">**To configure DNS Host A records**</span></span>
 
-6.  Cliquez sur **Ajouter un hôte** , puis sur **OK** .
+1.  <span data-ttu-id="51277-107">Sur le serveur DNS (Domain Name System), cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.</span><span class="sxs-lookup"><span data-stu-id="51277-107">On the Domain Name System (DNS) server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-7.  Lorsque vous avez terminé, cliquez sur **Terminé** .
+2.  <span data-ttu-id="51277-108">Dans l’arborescence de la console pour votre domaine, développez **zones de recherche directe**, puis cliquez avec le bouton droit sur le domaine dans lequel Lync Server 2013 sera installé.</span><span class="sxs-lookup"><span data-stu-id="51277-108">In the console tree for your domain, expand **Forward Lookup Zones**, and then right-click the domain in which Lync Server 2013 will be installed.</span></span>
+
+3.  <span data-ttu-id="51277-109">Cliquez sur **nouvel hôte (A ou AAAA)**.</span><span class="sxs-lookup"><span data-stu-id="51277-109">Click **New Host (A or AAAA)**.</span></span>
+
+4.  <span data-ttu-id="51277-110">Cliquez sur **nom**, tapez le nom d’hôte de la liste (le nom de domaine est censé partir de la zone dans laquelle l’enregistrement est défini et qu’il n’est pas nécessaire d’entrer dans le cadre de l’enregistrement a).</span><span class="sxs-lookup"><span data-stu-id="51277-110">Click **Name**, type the host name for the pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).</span></span>
+
+5.  <span data-ttu-id="51277-111">Cliquez sur **adresse IP**, tapez l’adresse IP de la liste frontale.</span><span class="sxs-lookup"><span data-stu-id="51277-111">Click **IP Address**, type the IP address for the Front End pool.</span></span>
+
+6.  <span data-ttu-id="51277-112">Cliquez sur **Ajouter un hôte**, puis cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="51277-112">Click **Add Host**, and then click **OK**.</span></span>
+
+7.  <span data-ttu-id="51277-113">Lorsque vous avez terminé, cliquez sur **terminé**.</span><span class="sxs-lookup"><span data-stu-id="51277-113">When you are finished, click **Done**.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

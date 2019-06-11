@@ -1,25 +1,59 @@
-﻿---
-title: "Ajout des bases de données d’arch. à un déploiement Lync Server 2013 existant"
-TOCtitle: "Ajout des bases de données d’arch. à un déploiement Lync Server 2013 existant"
-ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204997(v=OCS.15)
-ms:contentKeyID: 49297721
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Ajouter des bases de données d’archivage à un déploiement de Lync Server 2013 existant
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding Archiving databases to an existing Lync Server 2013 Deployment
+ms:assetid: 7350a6f7-6ed7-4fa7-b12d-e1858b93f9c0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204997(v=OCS.15)
+ms:contentKeyID: 48184482
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7790d0f9a07076731b2ce35f2d5052dd5e11ab64
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838940"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ajout des bases de données d’archivage à un déploiement Lync Server 2013 existant
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-23_
+# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a><span data-ttu-id="7b89c-102">Ajouter des bases de données d’archivage à un déploiement de Lync Server 2013 existant</span><span class="sxs-lookup"><span data-stu-id="7b89c-102">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>
 
-Après avoir configuré les plateformes et l’infrastructure du système pour l’archivage, vous devez utiliser le Générateur de topologie pour ajouter l’archivage à votre topologie, puis publier la topologie.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Ajout de bases de données d’archivage à la topologie Lync Server 2013](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
+<div id="mainBody">
 
-  - [Publication de la topologie mise à jour pour l’ajout des bases de données d’archivage](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
+<span> </span>
+
+<span data-ttu-id="7b89c-103">_**Dernière modification de la rubrique:** 2012-06-23_</span><span class="sxs-lookup"><span data-stu-id="7b89c-103">_**Topic Last Modified:** 2012-06-23_</span></span>
+
+<span data-ttu-id="7b89c-104">Après avoir configuré les plateformes et l’infrastructure système pour l’archivage, vous devez utiliser le générateur de topologie pour ajouter l’archivage à votre topologie, puis publier la topologie.</span><span class="sxs-lookup"><span data-stu-id="7b89c-104">After you set up the system platforms and infrastructure for Archiving, you must use Topology Builder to add Archiving to your topology, and then publish the topology.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="7b89c-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="7b89c-105">In This Section</span></span>
+
+  - [<span data-ttu-id="7b89c-106">Ajouter des bases de données d’archivage à la topologie Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b89c-106">Adding Archiving databases to the Lync Server 2013 topology</span></span>](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
+
+  - [<span data-ttu-id="7b89c-107">Publication de la topologie mise à jour pour ajouter des bases de données d’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7b89c-107">Publishing the updated topology to add Archiving databases in Lync Server 2013</span></span>](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

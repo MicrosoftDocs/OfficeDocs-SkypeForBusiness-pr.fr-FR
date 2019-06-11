@@ -1,30 +1,64 @@
-﻿---
-title: Configuration requise pour la conférence A/V
-TOCTitle: Configuration requise pour la conférence A/V
-ms:assetid: fb8c282b-059a-455c-92e5-819d75739142
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ619193(v=OCS.15)
-ms:contentKeyID: 49299439
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration requise pour les conférences de Lync Server 2013 A/V
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: A/V conferencing requirements
+ms:assetid: fb8c282b-059a-455c-92e5-819d75739142
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619193(v=OCS.15)
+ms:contentKeyID: 49733883
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 73fe77b87e3fd5fe3ef72554c3890cdff454ab08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838976"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration requise pour la conférence A/V
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-30_
+# <a name="av-conferencing-requirements-in-lync-server-2013"></a><span data-ttu-id="cbdd4-102">Exigences de conférence A/V dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbdd4-102">A/V conferencing requirements in Lync Server 2013</span></span>
 
-Les conditions d’infrastructure requises de Lync Server 2013 pour la conférence sont les mêmes que pour le déploiement de Lync Server 2013. Pour plus d’informations, voir [Définition de la configuration requise pour l’infrastructure pour Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) dans la documentation de planification.
+</div>
 
-Vous devez disposer de la bande passante multimédia requise pour gérer le trafic multimédia généré par la conférence. Pour plus d’informations sur le calcul de la bande passante multimédia, voir [Configuration requise de la bande passante pour le trafic multimédia dans Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md). Pour plus d’informations sur la limitation de la bande passante, voir [Création ou modification des profils de stratégie de bande passante](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md). Pour plus d’informations sur les conditions d’infrastructure requises, voir [Exigences relatives à l'infrastructure réseau pour Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).
+<div id="mainSection">
 
-Pour utiliser les fonctionnalités de conférence, Lync Server 2013 requiert l’ouverture de certains ports. Pour plus d’information sur les conditions de port requises, voir [Ports et protocoles pour les serveurs internes dans Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md). Pour plus d’informations sur la configuration des ports, voir [Configuration des plages de ports pour vos serveurs de conférence, d’applications et de médiation](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).
+<div id="mainBody">
 
-## Voir aussi
+<span> </span>
 
-#### Concepts
+<span data-ttu-id="cbdd4-103">_**Dernière modification de la rubrique:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="cbdd4-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-[Présentation de la conférence A/V dans Lync Server 2013](lync-server-2013-a-v-conferencing-overview.md)  
-[Liste de vérification du déploiement pour la conférence A/V dans Lync Server 2013](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
+<span data-ttu-id="cbdd4-104">Les exigences en matière d’infrastructure de Lync Server 2013 pour les conférences sont les mêmes que pour le déploiement de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cbdd4-104">Lync Server 2013 infrastructure requirements for conferencing are the same as for deployment of Lync Server 2013.</span></span> <span data-ttu-id="cbdd4-105">Pour plus d’informations, reportez-vous à la rubrique [détermination de votre configuration d’infrastructure requise pour Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="cbdd4-105">For details, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="cbdd4-106">Il est important que vous disposez de la bande passante média requise pour gérer le trafic multimédia généré par la fonction de conférence.</span><span class="sxs-lookup"><span data-stu-id="cbdd4-106">It is important that you have the necessary Media bandwidth to handle media traffic generated by conferencing.</span></span> <span data-ttu-id="cbdd4-107">Pour plus d’informations sur le calcul de la bande passante nécessaire, voir [exigences de bande passante réseau pour le trafic multimédia dans Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="cbdd4-107">For details that you can use to calculate your needed bandwidth, see [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).</span></span> <span data-ttu-id="cbdd4-108">Pour plus d’informations sur la limitation de la bande passante, voir [création ou modification des profils de stratégie de bande passante dans Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).</span><span class="sxs-lookup"><span data-stu-id="cbdd4-108">For details about limiting the bandwidth, see [Creating or modifying bandwidth policy profiles in Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).</span></span> <span data-ttu-id="cbdd4-109">Pour plus d’informations sur la configuration requise en matière d’infrastructure, voir [Configuration requise en matière d’infrastructure réseau pour Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="cbdd4-109">For details about infrastructure requirements, see [Network infrastructure requirements for Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).</span></span>
+
+<span data-ttu-id="cbdd4-110">Pour pouvoir utiliser les fonctionnalités de conférence, il est nécessaire d’ouvrir certains ports de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cbdd4-110">In order to use the conferencing features, Lync Server 2013 requires that certain ports are open.</span></span> <span data-ttu-id="cbdd4-111">Pour plus d’informations sur la configuration requise pour les ports, voir [ports et protocoles pour les serveurs internes dans Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).</span><span class="sxs-lookup"><span data-stu-id="cbdd4-111">For details about Port Requirements, see [Ports and protocols for internal servers in Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).</span></span> <span data-ttu-id="cbdd4-112">Pour plus d’informations sur la configuration des ports, voir [configuration de plages de ports dans Lync Server 2013 pour vos serveurs de conférence, d’application et de médiation](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).</span><span class="sxs-lookup"><span data-stu-id="cbdd4-112">For details about configuring ports, see [Configuring port ranges in Lync Server 2013 for your Conferencing, Application, and Mediation servers](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="cbdd4-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cbdd4-113">See Also</span></span>
+
+
+[<span data-ttu-id="cbdd4-114">Présentation de la fonctionnalité de conférence A/V dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbdd4-114">Overview of A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-a-v-conferencing-overview.md)  
+[<span data-ttu-id="cbdd4-115">Liste de vérification de déploiement pour les conférences A/V dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbdd4-115">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

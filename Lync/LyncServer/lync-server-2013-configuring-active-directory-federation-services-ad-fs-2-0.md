@@ -1,68 +1,111 @@
-﻿---
-title: Configuration d’Active Directory Federation Services (AD FS 2.0)
-TOCTitle: Configuration d’Active Directory Federation Services (AD FS 2.0)
-ms:assetid: 0ba8657f-55b8-41b3-960c-fdc5eeee6978
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn308561(v=OCS.15)
-ms:contentKeyID: 56269560
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration des services de fédération Active Directory (AD FS 2,0)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Active Directory Federation Services (AD FS 2.0)
+ms:assetid: 0ba8657f-55b8-41b3-960c-fdc5eeee6978
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308561(v=OCS.15)
+ms:contentKeyID: 54973682
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 924f9c1b6e7fe64186eeee6a34364417d497866b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838295"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration d’Active Directory Federation Services (AD FS 2.0)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a><span data-ttu-id="2e4ba-102">Configuration des services ADFS 2,0 (Active Directory Federation Services) pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e4ba-102">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>
 
-Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur. Pour plus d’informations sur l’installation d’AD FS 2.0, voir les guides détaillés et procéduraux pour AD FS 2.0 accessibles via la page [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="2e4ba-103">_**Dernière modification de la rubrique:** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="2e4ba-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+
+<span data-ttu-id="2e4ba-104">Cette section décrit la configuration d’Active Directory Federation Services (AD FS 2.0) pour prendre en charge l’authentification multifacteur.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-104">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="2e4ba-105">Pour plus d’informations sur l’installation d’AD FS 2,0, consultez la rubrique AD FS 2,0 étape par étape et comment les [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)guides.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-105">For information on how to install AD FS 2.0, see AD FS 2.0 Step-by-Step and How To Guides at [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).</span></span>
+
+<div class="">
+
 
 > [!NOTE]  
-> Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services. À la place, vous devez télécharger et installer le package Active Directory Federation Services 2.0 RTW accessible via la page <a href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</a>.
+> <span data-ttu-id="2e4ba-106">Lorsque vous installez AD FS 2.0, vous ne devez pas utiliser le Gestionnaire de serveur Windows pour ajouter le rôle Active Directory Federation Services.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-106">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="2e4ba-107">Au lieu de cela, téléchargez et installez le package de services ADFS ( <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>Active Directory Federation Services) 2,0 à l’adresse.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-107">Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span></span>
 
 
-**Pour configurer AD FS pour l’authentification à deux facteurs**
 
-1.  Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.
+</div>
 
-2.  Démarrez Windows PowerShell.
+<div>
 
-3.  Depuis la ligne de commande Windows PowerShell, exécutez la commande suivante :
+
+<span data-ttu-id="2e4ba-108">**Pour configurer AD FS pour l’authentification à deux facteurs**</span><span class="sxs-lookup"><span data-stu-id="2e4ba-108">**To configure AD FS for two-factor Authentication**</span></span>
+
+1.  <span data-ttu-id="2e4ba-109">Connectez-vous à l’ordinateur AD FS 2.0 à l’aide d’un compte d’administrateur de domaine.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-109">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
+
+2.  <span data-ttu-id="2e4ba-110">Lancez Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-110">Start Windows PowerShell.</span></span>
+
+3.  <span data-ttu-id="2e4ba-111">À partir de la ligne de commande Windows PowerShell, exécutez la commande suivante :</span><span class="sxs-lookup"><span data-stu-id="2e4ba-111">From the Windows PowerShell command-line, run the following command:</span></span>
     
         add-pssnapin Microsoft.Adfs.PowerShell
 
-4.  Établissez un partenariat avec chaque directeur, pool d’entreprise et serveur Standard Edition Lync Server 2013 avec les mises à jour cumulatives pour Lync Server 2013 de juillet 2013 pour lequel l’authentification passive sera activée en exécutant la commande suivante (remplacez le nom du serveur spécifique de votre déploiement) :
+4.  <span data-ttu-id="2e4ba-112">Établissez un partenariat avec chaque 2013 Lync Server avec des mises à jour cumulatives pour Lync Server 2013: le directeur 2013 de juillet, le pool d’entreprise et le serveur Standard Edition Server qui seront activés pour l’authentification passive en exécutant la commande suivante, en remplaçant le nom du serveur propre à votre déploiement:</span><span class="sxs-lookup"><span data-stu-id="2e4ba-112">Establish a partnership with each Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
     
         Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
 
-5.  Dans le menu Outils d’administration, démarrez la console de gestion AD FS 2.0.
+5.  <span data-ttu-id="2e4ba-113">Dans le menu Outils d’administration, lancez la console de gestion AD FS 2.0.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-113">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
 
-6.  Développez **Relations d’approbation** \> **Relations d’approbation de la partie de confiance**.
+6.  <span data-ttu-id="2e4ba-114">Développez **relations d’approbation** \> de confiance entre les **parties**.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-114">Expand **Trust Relationships** \> **Relying Party Trusts**.</span></span>
 
-7.  Vérifiez qu’une relation de confiance a été créée pour votre pool d’entreprise ou serveur Standard Edition Lync Server 2013 avec les mises à jour cumulatives pour Lync Server 2013 de juillet 2013.
+7.  <span data-ttu-id="2e4ba-115">Vérifiez qu’une nouvelle approbation a été créée pour votre Lync Server 2013 avec des mises à jour cumulatives pour Lync Server 2013:2013 du pool d’entreprise.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-115">Verify that a new trust has been created for your Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Enterprise Pool or Standard Edition server.</span></span>
 
-8.  Créez et affectez une règle d’autorisation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
+8.  <span data-ttu-id="2e4ba-116">Créez et affectez une règle d’autorisation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="2e4ba-116">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
-    ```
-    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-    ```
-    ```
-    Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
-    -IssuanceAuthorizationRules $IssuanceAuthorizationRules
-    ```    
-
-9.  Créez et affectez une règle de transformation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
+       ```
+        $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+       ```
     
-    ```
-    $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-    ```
-    ```
-    Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-    ```
+       ```
+        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
+        -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+       ```
 
-10. Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre relation d’approbation de la partie de confiance, puis sélectionnez **Modifier les règles de revendication**.
+9.  <span data-ttu-id="2e4ba-117">Créez et affectez une règle de transformation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :</span><span class="sxs-lookup"><span data-stu-id="2e4ba-117">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+    
+       ```
+        $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+       ```
+    
+       ```
+        Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+       ```
 
-11. Sélectionnez l’onglet **Règles d’autorisation d’émission**, puis vérifiez que la règle d’autorisation a été correctement créée.
+10. <span data-ttu-id="2e4ba-118">Dans la console de gestion AD FS 2.0, cliquez avec le bouton droit sur votre relation d’approbation de la partie de confiance, puis sélectionnez **Modifier les règles de revendication**.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-118">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
 
-12. Sélectionnez l’onglet **Règles de transformation d’émission**, puis vérifiez que la règle de transformation d’émission a été correctement créée.
+11. <span data-ttu-id="2e4ba-119">Sélectionnez l’onglet **Règles d’autorisation d’émission**, puis vérifiez que la règle d’autorisation a été correctement créée.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-119">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
+
+12. <span data-ttu-id="2e4ba-120">Sélectionnez l’onglet **Règles de transformation d’émission**, puis vérifiez que la règle de transformation d’émission a été créée correctement.</span><span class="sxs-lookup"><span data-stu-id="2e4ba-120">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

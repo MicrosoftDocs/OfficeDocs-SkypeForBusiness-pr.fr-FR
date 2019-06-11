@@ -1,25 +1,59 @@
-﻿---
-title: Sauvegarde des magasins de fichiers
-TOCTitle: Sauvegarde des magasins de fichiers
-ms:assetid: 1a7f4e93-aa3d-461e-878e-2c572baa1293
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202167(v=OCS.15)
-ms:contentKeyID: 53095368
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: sauvegarde des magasins de fichiers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up file stores
+ms:assetid: 1a7f4e93-aa3d-461e-878e-2c572baa1293
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202167(v=OCS.15)
+ms:contentKeyID: 51541449
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f6facef86481e247d1f51d3ec567c8a4ee4bfde8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838892"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Sauvegarde des magasins de fichiers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-17_
+# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="c55a3-102">Sauvegarder des magasins de fichiers dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c55a3-102">Backing up file stores in Lync Server 2013</span></span>
 
-La sauvegarde des magasins de fichiers Lync Server comprend tous les fichiers et dossiers utilisés par les composants Lync Server :
+</div>
 
-## Pour sauvegarder des magasins de fichiers
+<div id="mainSection">
 
-1.  Pour rechercher les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le Générateur de topologie et recherchez le nœud **Magasins de fichiers**.
+<div id="mainBody">
 
-2.  Utilisez Robocopy ou un autre outil de gestion de système de fichiers pour copier chaque magasin de fichiers dans $Backup\\filestore.
+<span> </span>
+
+<span data-ttu-id="c55a3-103">_**Dernière modification de la rubrique:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="c55a3-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+
+<span data-ttu-id="c55a3-104">La sauvegarde des banques de fichiers Lync Server inclut tous les fichiers et dossiers utilisés par les composants serveur Lync.</span><span class="sxs-lookup"><span data-stu-id="c55a3-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
+
+<div>
+
+## <a name="to-back-up-file-stores"></a><span data-ttu-id="c55a3-105">Pour sauvegarder des magasins de fichiers</span><span class="sxs-lookup"><span data-stu-id="c55a3-105">To back up File Stores</span></span>
+
+1.  <span data-ttu-id="c55a3-106">Pour trouver les emplacements spécifiques de vos magasins de fichiers Lync Server, ouvrez le générateur de topologie et recherchez dans le nœud **magasins de fichiers** .</span><span class="sxs-lookup"><span data-stu-id="c55a3-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
+
+2.  <span data-ttu-id="c55a3-107">Utilisez Robocopy ou un autre outil de gestion du système de fichiers pour copier chaque\\Banque de fichiers dans $Backup.</span><span class="sxs-lookup"><span data-stu-id="c55a3-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

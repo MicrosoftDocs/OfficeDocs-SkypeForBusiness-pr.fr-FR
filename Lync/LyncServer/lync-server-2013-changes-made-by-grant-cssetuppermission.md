@@ -1,25 +1,45 @@
-﻿---
-title: Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013
-TOCTitle: Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013
-ms:assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205250(v=OCS.15)
-ms:contentKeyID: 49298806
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modifications apportées par Grant-CsSetupPermission'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by Grant-CsSetupPermission
+ms:assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205250(v=OCS.15)
+ms:contentKeyID: 48185360
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bc63cf814f2bd901ab9753fe0f4501e7f44e2189
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34838593"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a><span data-ttu-id="9f7e6-102">Modifications apportées par Grant-CsSetupPermission dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f7e6-102">Changes made by Grant-CsSetupPermission in Lync Server 2013</span></span>
 
-Pour déléguer l’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique afin que les membres du groupe et de l’unité d’organisation puissent installer Lync Server 2013 dans le domaine spécifié sans avoir à être membres du groupe Administrateurs d’entreprise.
+</div>
 
-L’applet de commande **Grant-CsSetupPermission** accorde des autorisations de groupe RTCUniversalServerAdmins sur une unité d’organisation, comme indiqué dans le tableau suivant :
+<div id="mainSection">
 
-### Autorisations accordées aux objets dans l’unité d’organisation
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9f7e6-103">_**Dernière modification de la rubrique:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="9f7e6-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+
+<span data-ttu-id="9f7e6-104">Pour déléguer le programme d’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique (UO), ce qui permet aux membres du groupe RTCUniversalServerAdmins dans cette UO d’installer Lync Server 2013 dans le dossier spécifié. domaine sans être membre du groupe administrateurs de domaine.</span><span class="sxs-lookup"><span data-stu-id="9f7e6-104">To delegate setup, you can grant permissions to the RTCUniversalServerAdmins universal group for a specific Active Directory organizational unit (OU), enabling members of the RTCUniversalServerAdmins group in that OU to install Lync Server 2013 in the specified domain without being members of the Domain Admins group.</span></span>
+
+<span data-ttu-id="9f7e6-105">L’applet de commande **Grant-CsSetupPermission** accorde aux autorisations de groupe RTCUniversalServerAdmins sur une unité d’organisation, comme indiqué dans le tableau suivant:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-105">The **Grant-CsSetupPermission** cmdlet grants the RTCUniversalServerAdmins group permissions on an OU, as specified in the following table:</span></span>
+
+### <a name="permissions-granted-to-objects-in-the-ou"></a><span data-ttu-id="9f7e6-106">Autorisations accordées aux objets dans l’unité d’organisation</span><span class="sxs-lookup"><span data-stu-id="9f7e6-106">Permissions granted to Objects in the OU</span></span>
 
 <table>
 <colgroup>
@@ -28,106 +48,117 @@ L’applet de commande **Grant-CsSetupPermission** accorde des autorisations de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Les autorisations s’appliquent à :</th>
-<th>Les autorisations accordées sont :</th>
+<th><span data-ttu-id="9f7e6-107">Les autorisations s’appliquent à:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-107">Permissions apply to:</span></span></th>
+<th><span data-ttu-id="9f7e6-108">Les autorisations accordées sont les suivantes:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-108">Permissions granted are:</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>RTCUniversalServerAdmins</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-109">RTCUniversalServerAdmins</span><span class="sxs-lookup"><span data-stu-id="9f7e6-109">RTCUniversalServerAdmins</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-110">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-110">Special access:</span></span></p>
 <ul>
-<li><p>Lecture servicePrincipalName</p></li>
-<li><p>Écriture servicePrincipalName</p></li>
-<li><p>Suppression de l’arborescence</p></li>
-<li><p>Réplication des modifications d’annuaire</p></li>
+<li><p><span data-ttu-id="9f7e6-111">Lire servicePrincipalName</span><span class="sxs-lookup"><span data-stu-id="9f7e6-111">Read servicePrincipalName</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-112">Écrire le servicePrincipalName</span><span class="sxs-lookup"><span data-stu-id="9f7e6-112">Write servicePrincipalName</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-113">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-113">Delete tree</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-114">Répliquer les modifications de l’annuaire</span><span class="sxs-lookup"><span data-stu-id="9f7e6-114">Replicating directory changes</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets serviceConnectionPoint descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-115">Objets serviceConnectionPoint descendants</span><span class="sxs-lookup"><span data-stu-id="9f7e6-115">Descendant serviceConnectionPoint objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-116">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-116">Special access:</span></span></p>
 <ul>
-<li><p>Autorisations en lecture</p></li>
-<li><p>Autorisations en écriture</p></li>
-<li><p>Création de l’enfant</p></li>
-<li><p>Suppression de l’enfant</p></li>
-<li><p>Affichage du contenu</p></li>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-117">Autorisations de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-117">Read permissions</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-118">Autorisations d’écriture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-118">Write permissions</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-119">Créer un enfant</span><span class="sxs-lookup"><span data-stu-id="9f7e6-119">Create child</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-120">Supprimer un enfant</span><span class="sxs-lookup"><span data-stu-id="9f7e6-120">Delete child</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-121">Contenu de la liste</span><span class="sxs-lookup"><span data-stu-id="9f7e6-121">List contents</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-122">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-122">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-123">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-123">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-124">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-124">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets msRTCSIP-Server descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-125">Objets enfants msRTCSIP-Server</span><span class="sxs-lookup"><span data-stu-id="9f7e6-125">Descendant msRTCSIP-Server objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-126">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-126">Special access:</span></span></p>
 <ul>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-127">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-127">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-128">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-128">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-129">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-129">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets msRTCSIP-WebComponents descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-130">Objets enfants msRTCSIP-webcomposants</span><span class="sxs-lookup"><span data-stu-id="9f7e6-130">Descendant msRTCSIP-WebComponents objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-131">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-131">Special access:</span></span></p>
 <ul>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-132">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-132">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-133">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-133">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-134">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-134">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets msRTCSIP-MCU descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-135">Objets descendants msRTCSIP-MCU</span><span class="sxs-lookup"><span data-stu-id="9f7e6-135">Descendant msRTCSIP-MCU objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-136">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-136">Special access:</span></span></p>
 <ul>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-137">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-137">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-138">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-138">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-139">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-139">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets msRTCSIP-MediationServer descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-140">Objets MediationServer en descendant</span><span class="sxs-lookup"><span data-stu-id="9f7e6-140">Descendant msRTCSIP-MediationServer objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-141">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-141">Special access:</span></span></p>
 <ul>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-142">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-142">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-143">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-143">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-144">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-144">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets msRTCSIP-ApplicationServer descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-145">Objets ApplicationServer en descendant</span><span class="sxs-lookup"><span data-stu-id="9f7e6-145">Descendant msRTCSIP-ApplicationServer objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-146">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-146">Special access:</span></span></p>
 <ul>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-147">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-147">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-148">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-148">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-149">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-149">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objets msRTCSIP-ConnectionPoint descendants</p></td>
-<td><p>Accès particulier :</p>
+<td><p><span data-ttu-id="9f7e6-150">Objets descendants de msRTCSIP-ConnectionPoint</span><span class="sxs-lookup"><span data-stu-id="9f7e6-150">Descendant msRTCSIP-ConnectionPoint objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-151">Accès spécial:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-151">Special access:</span></span></p>
 <ul>
-<li><p>Écriture de propriété</p></li>
-<li><p>Lecture de propriété</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-152">Propriété Write</span><span class="sxs-lookup"><span data-stu-id="9f7e6-152">Write property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-153">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-153">Read property</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-154">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-154">Delete tree</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objets Computer descendants</p></td>
-<td><p>Accès particulier pour serviceConnectionPoint :</p>
+<td><p><span data-ttu-id="9f7e6-155">Objets ordinateur descendants</span><span class="sxs-lookup"><span data-stu-id="9f7e6-155">Descendant Computer objects</span></span></p></td>
+<td><p><span data-ttu-id="9f7e6-156">Accès spécial pour serviceConnectionPoint:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-156">Special access for serviceConnectionPoint:</span></span></p>
 <ul>
-<li><p>Création d’objets enfants</p></li>
-<li><p>Suppression d’objets enfants</p></li>
-<li><p>Suppression de l’arborescence</p></li>
+<li><p><span data-ttu-id="9f7e6-157">Créer des objets enfants</span><span class="sxs-lookup"><span data-stu-id="9f7e6-157">Create child objects</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-158">Supprimer des objets enfants</span><span class="sxs-lookup"><span data-stu-id="9f7e6-158">Delete child objects</span></span></p></li>
+<li><p><span data-ttu-id="9f7e6-159">Supprimer l’arborescence</span><span class="sxs-lookup"><span data-stu-id="9f7e6-159">Delete tree</span></span></p></li>
 </ul>
-<p>Accès particulier pour les informations publiques :</p>
+<p><span data-ttu-id="9f7e6-160">Accès spécial pour les informations publiques:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-160">Special access for public information:</span></span></p>
 <ul>
-<li><p>Lecture de propriété</p></li>
+<li><p><span data-ttu-id="9f7e6-161">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-161">Read property</span></span></p></li>
 </ul>
-<p>Accès particulier pour le nom d’hôte DNS :</p>
+<p><span data-ttu-id="9f7e6-162">Accès spécial pour le nom d’hôte DNS:</span><span class="sxs-lookup"><span data-stu-id="9f7e6-162">Special access for DNS host name:</span></span></p>
 <ul>
-<li><p>Lecture de propriété</p></li>
+<li><p><span data-ttu-id="9f7e6-163">Propriété de lecture</span><span class="sxs-lookup"><span data-stu-id="9f7e6-163">Read property</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
