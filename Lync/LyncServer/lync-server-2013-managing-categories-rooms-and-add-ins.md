@@ -1,39 +1,73 @@
-﻿---
-title: 'Lync Server 2013 : Gestion des catégories, des salles et des compléments'
-TOCTitle: Gestion des catégories, des salles et des compléments
-ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412799(v=OCS.15)
-ms:contentKeyID: 49298464
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Gestion des catégories, des salles et des compléments'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing categories, rooms, and add-ins
+ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)
+ms:contentKeyID: 48185100
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2870d83d463866e07afdffab7c0a840bb2686928
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828081"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion des catégories, des salles et des compléments dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-06_
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="5ff1e-102">Gestion des catégories, des salles et des compléments dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
 
-Dans le Panneau de configuration Lync Server 2013, ou l’aide d’applets de commande Windows PowerShell, les administrateurs de conversation permanente peuvent utiliser la page **conversation permanente** pour créer des catégories et des compléments. Pour la gestion des salles de conversation permanente, les administrateurs peuvent utiliser des applets de commande Windows PowerShell. En guise d’alternative, si l’administrateur de conversation permanente est également activé pour SIP, il peut utiliser le client Lync pour lancer une page web pour créer et gérer des salles de conversation.
+</div>
 
-Les rubriques suivantes expliquent comment créer et utiliser des catégories et des salles de conversation.
+<div id="mainSection">
 
-## Dans cette section
+<div id="mainBody">
 
-  - [Création ou modification d’une catégorie dans Lync Server 2013](lync-server-2013-creating-or-editing-a-new-category.md)
+<span> </span>
 
-  - [Création ou modification d’une salle dans Lync Server 2013](lync-server-2013-creating-or-editing-a-new-room.md)
+<span data-ttu-id="5ff1e-103">_**Dernière modification de la rubrique:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="5ff1e-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-  - [Création de compléments pour les salles dans Lync Server 2013](lync-server-2013-creating-new-add-ins-for-rooms.md)
+<span data-ttu-id="5ff1e-104">Dans Lync Server 2013 panneau de configuration, ou à l’aide des applets de commande Windows PowerShell, les administrateurs de discussions permanentes peuvent utiliser la page de **conversation permanente** pour créer des catégories et des compléments. Pour la gestion des salles de conversation permanentes, les administrateurs peuvent utiliser les applets de cmdlet Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5ff1e-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="5ff1e-105">Par ailleurs, si l’administrateur de chat permanent est compatible SIP, il peut utiliser le client Lync pour lancer une page Web afin de créer et gérer des salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="5ff1e-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
 
-  - [Définition des utilisateurs pouvant publier des messages dans une salle de conversation de type auditorium dans Lync Server 2013](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+<span data-ttu-id="5ff1e-106">Les rubriques suivantes expliquent comment créer et utiliser des catégories et des salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="5ff1e-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
 
-  - [Désactivation ou activation d’une salle de conversation dans Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+<div>
 
-  - [Déplacement d’une salle de conversation d’une catégorie vers une autre dans Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+## <a name="in-this-section"></a><span data-ttu-id="5ff1e-107">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="5ff1e-107">In This Section</span></span>
 
-  - [Suppression d’une catégorie ou d’une salle de conversation dans Lync Server 2013](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [<span data-ttu-id="5ff1e-108">Création ou modification d’une catégorie dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [Suppression d’un message ou purge de messages obsolètes dans Lync Server 2013](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [<span data-ttu-id="5ff1e-109">Création ou modification d’une salle dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
+
+  - [<span data-ttu-id="5ff1e-110">Création de compléments pour les salles dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
+
+  - [<span data-ttu-id="5ff1e-111">Définition des utilisateurs pouvant publier des messages dans une salle de conversation de type auditorium dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+
+  - [<span data-ttu-id="5ff1e-112">Désactivation ou activation d’une salle de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+
+  - [<span data-ttu-id="5ff1e-113">Déplacement d’une salle de conversation d’une catégorie vers une autre dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+
+  - [<span data-ttu-id="5ff1e-114">Suppression d’une catégorie ou d’une salle de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
+
+  - [<span data-ttu-id="5ff1e-115">Suppression d’un message ou purge de messages obsolètes dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5ff1e-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

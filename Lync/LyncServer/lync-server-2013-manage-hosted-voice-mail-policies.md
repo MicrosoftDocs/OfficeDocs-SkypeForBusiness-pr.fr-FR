@@ -1,34 +1,75 @@
-﻿---
-title: 'Lync Server 2013 : Gestion des stratégies de messagerie vocale hébergée'
-TOCTitle: Gestion des stratégies de messagerie vocale hébergée
-ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398332(v=OCS.15)
-ms:contentKeyID: 49297199
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Gestion des stratégies de messagerie vocale hébergée'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage hosted voice mail policies
+ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398332(v=OCS.15)
+ms:contentKeyID: 48184139
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9f0db0d2c4e1e8258fb5d9a212084823d1e25f7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828263"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion des stratégies de messagerie vocale hébergée dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-20_
+# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a><span data-ttu-id="9ef93-102">Gestion des stratégies de messagerie vocale hébergée dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ef93-102">Manage hosted voice mail policies in Lync Server 2013</span></span>
 
-Une *stratégie de messagerie vocale hébergée* fournit des informations à l’application de routage ExUM de Lync Server 2013 sur l’emplacement auquel les appels doivent être acheminés pour les utilisateurs dont les boîtes aux lettres se trouvent sur un service Exchange hébergé.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9ef93-103">_**Dernière modification de la rubrique:** 2012-09-20_</span><span class="sxs-lookup"><span data-stu-id="9ef93-103">_**Topic Last Modified:** 2012-09-20_</span></span>
+
+<span data-ttu-id="9ef93-104">Une *stratégie de messagerie vocale hébergée* fournit des informations à l’application de routage de l’ExUM de Lync Server 2013 sur l’emplacement de routage des appels pour les utilisateurs dont la boîte aux lettres est située sur un service Exchange hébergé.</span><span class="sxs-lookup"><span data-stu-id="9ef93-104">A *hosted voice mail policy* provides information to the Lync Server 2013 ExUM Routing application about where to route calls for users whose mailboxes are located on a hosted Exchange service.</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Généralement, une seule stratégie de messagerie vocale hébergée est requise. Dans de nombreux cas, vous pouvez modifier la stratégie globale pour qu’elle réponde à vos besoins. Si vous créez une stratégie avec cette étendue de site, elle est affectée automatiquement à tous les utilisateurs hébergés sur le site spécifié. Si vous créez une stratégie avec une étendue utilisateur, vous devez explicitement l’affecter aux utilisateurs, groupes et objets contact. Il est possible de déployer plusieurs stratégies de messagerie vocale hébergées mais, dans ce cas, les stratégies doivent être affectées pour un utilisateur donné.
+> <span data-ttu-id="9ef93-105">En règle générale, une seule stratégie de messagerie vocale hébergée est requise.</span><span class="sxs-lookup"><span data-stu-id="9ef93-105">Typically, only one hosted voice mail policy is required.</span></span> <span data-ttu-id="9ef93-106">Dans de nombreux cas, vous pouvez modifier la stratégie globale en fonction de vos besoins.</span><span class="sxs-lookup"><span data-stu-id="9ef93-106">In many cases, you can modify the global policy to meet all your needs.</span></span> <span data-ttu-id="9ef93-107">Si vous créez une stratégie avec l’étendue du site, elle est affectée automatiquement à tous les utilisateurs hébergés sur le site spécifié.</span><span class="sxs-lookup"><span data-stu-id="9ef93-107">If you create a policy with site scope, it is assigned automatically to all users homed at the specified site.</span></span> <span data-ttu-id="9ef93-108">Si vous créez une stratégie avec une étendue par utilisateur, vous devez l’attribuer explicitement à des utilisateurs, des groupes et des objets de contact.</span><span class="sxs-lookup"><span data-stu-id="9ef93-108">If you create a policy with per-user scope, you must explicitly assign it to users, groups, and contact objects.</span></span> <span data-ttu-id="9ef93-109">Il est possible de déployer plusieurs stratégies de messagerie vocale hébergées, mais dans ce cas, les stratégies doivent être attribuées en fonction de chaque utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9ef93-109">It is possible to deploy multiple hosted voice mail policies, but in that case the policies must be assigned on a per-user basis.</span></span>
 
-Pour plus d’informations sur la planification des stratégies de messagerie vocale hébergées, reportez-vous à [Stratégies de messagerie vocale hébergées dans Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) dans la documentation de planification.
 
-## Dans cette section
 
-  - [Modifier la stratégie de messagerie vocale hébergée globale dans Lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+</div>
 
-  - [Créer une stratégie de messagerie vocale hébergée pour un site dans Lync Server 2013](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+<span data-ttu-id="9ef93-110">Pour plus d’informations sur la planification des stratégies de messagerie vocale hébergées, voir [stratégies de messagerie vocale hébergées dans Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="9ef93-110">For details about planning hosted voice mail policies, see [Hosted voice mail policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) in the Planning documentation.</span></span>
 
-  - [Créer une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+<div>
 
-  - [Attribuer une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+## <a name="in-this-section"></a><span data-ttu-id="9ef93-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="9ef93-111">In This Section</span></span>
+
+  - [<span data-ttu-id="9ef93-112">Modifier la stratégie globale de messagerie vocale hébergée dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ef93-112">Modify the global hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+
+  - [<span data-ttu-id="9ef93-113">Créer une stratégie de messagerie vocale hébergée au niveau du site dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ef93-113">Create a site-level hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+
+  - [<span data-ttu-id="9ef93-114">Créer une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ef93-114">Create a per-user hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+
+  - [<span data-ttu-id="9ef93-115">Affecter une stratégie de messagerie vocale hébergée par utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9ef93-115">Assign a per-user hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

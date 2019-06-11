@@ -1,39 +1,73 @@
-﻿---
-title: 'Lync Server 2013 : Gestion des fonctionnalités de gestion des appels'
-TOCTitle: Gestion des fonctionnalités de gestion des appels
-ms:assetid: c1261140-7a17-4bb2-9823-aa2cf307067c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721872(v=OCS.15)
-ms:contentKeyID: 49891521
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Gestion des fonctionnalités de gestion des appels'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing call management features
+ms:assetid: c1261140-7a17-4bb2-9823-aa2cf307067c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721872(v=OCS.15)
+ms:contentKeyID: 49733805
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e254b127d4773a97d322771c6b9a94eaa71cf667
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828130"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion des fonctionnalités de gestion des appels dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-12-18_
+# <a name="managing-call-management-features-in-lync-server-2013"></a><span data-ttu-id="9a605-102">Gestion des fonctionnalités de gestion des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a605-102">Managing call management features in Lync Server 2013</span></span>
 
-Les fonctionnalités de gestion des appels Voix Entreprise contrôlent les modes d’acheminement et de réponse utilisés pour les appels entrants. Lync Server 2013 propose les fonctionnalités de gestion des appels suivantes :
+</div>
 
-  - Fonctionnalité de **parcage d’appel** : permet aux utilisateurs vocaux de parquer provisoirement un appel, puis de le reprendre depuis le même ou un autre téléphone.
+<div id="mainSection">
 
-  - **Prise de groupe** : permet aux utilisateurs de Voix Entreprise de répondre à des appels destinés à d’autres utilisateurs en composant un numéro de groupe de prise d’appel.
+<div id="mainBody">
 
-  - **Response Group** : achemine les appels entrants vers des groupes d’agents à l’aide de groupes de recherche, ou de questions et réponses IVR (réponse vocale interactive).
+<span> </span>
 
-  - **Annonce** : lit un message pour les appels passés à un numéro non attribué et/ou achemine l’appel vers un autre emplacement.
+<span data-ttu-id="9a605-103">_**Dernière modification de la rubrique:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="9a605-103">_**Topic Last Modified:** 2012-12-18_</span></span>
 
-Cette section décrit comment gérer ces fonctionnalités de gestion des appels dans votre déploiement Voix Entreprise.
+<span data-ttu-id="9a605-104">Les fonctionnalités de gestion des appels voix entreprise contrôlent la façon dont les appels entrants sont routés et répondent.</span><span class="sxs-lookup"><span data-stu-id="9a605-104">Enterprise Voice call management features control how incoming calls are routed and answered.</span></span> <span data-ttu-id="9a605-105">Lync Server 2013 fournit les fonctionnalités de gestion des appels suivantes:</span><span class="sxs-lookup"><span data-stu-id="9a605-105">Lync Server 2013 provides the following call management features:</span></span>
 
-## Dans cette section
+  - <span data-ttu-id="9a605-106">**Park d’appel:** Permet aux utilisateurs vocaux de parcer temporairement un appel et de le décrocher sur le même téléphone ou sur un autre téléphone.</span><span class="sxs-lookup"><span data-stu-id="9a605-106">**Call Park:** Enables voice users to temporarily park a call and then pick it up from the same phone or another phone.</span></span>
 
-  - [Gestion du parcage d’appel dans Lync Server 2013](lync-server-2013-managing-call-park.md)
+  - <span data-ttu-id="9a605-107">**Capture de groupe:** Permet aux utilisateurs de décrocher les appels qui sonnent pour d’autres utilisateurs en composant un numéro de groupe de capture d’appel.</span><span class="sxs-lookup"><span data-stu-id="9a605-107">**Group Pickup:** Enables users to pick up calls that are ringing for other users by dialing a call pickup group number.</span></span>
 
-  - [Gestion de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-managing-group-call-pickup.md)
+  - <span data-ttu-id="9a605-108">**Response Group:** Achemine les appels entrants vers des groupes d’agents en utilisant des groupes de recherche ou des questions et réponses de réponse vocale interactives.</span><span class="sxs-lookup"><span data-stu-id="9a605-108">**Response Group:** Routes incoming calls to groups of agents by using hunt groups or interactive voice response (IVR) questions and answers.</span></span>
 
-  - [Gestion des groupes Response Group dans Lync Server 2013](lync-server-2013-managing-response-groups.md)
+  - <span data-ttu-id="9a605-109">**Annonce:** Lit un message pour les appels passés vers un numéro non attribué, ou route l’appel à un autre endroit, ou les deux.</span><span class="sxs-lookup"><span data-stu-id="9a605-109">**Announcement:** Plays a message for calls made to an unassigned number, or routes the call elsewhere, or both.</span></span>
 
-  - [Gestion des appels vers les numéros non attribués dans Lync Server 2013](lync-server-2013-managing-calls-to-unassigned-numbers.md)
+<span data-ttu-id="9a605-110">Cette section explique comment gérer ces fonctionnalités de gestion des appels dans votre déploiement voix entreprise.</span><span class="sxs-lookup"><span data-stu-id="9a605-110">This section describes how to manage these call management features in your Enterprise Voice deployment.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="9a605-111">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="9a605-111">In This Section</span></span>
+
+  - [<span data-ttu-id="9a605-112">Gestion du parc d’appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a605-112">Managing Call Park in Lync Server 2013</span></span>](lync-server-2013-managing-call-park.md)
+
+  - [<span data-ttu-id="9a605-113">Gestion des appels de groupe dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a605-113">Managing Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-managing-group-call-pickup.md)
+
+  - [<span data-ttu-id="9a605-114">Gestion des groupes de réponses dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a605-114">Managing response groups in Lync Server 2013</span></span>](lync-server-2013-managing-response-groups.md)
+
+  - [<span data-ttu-id="9a605-115">Gestion des appels vers des numéros non attribués dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a605-115">Managing calls to unassigned numbers in Lync Server 2013</span></span>](lync-server-2013-managing-calls-to-unassigned-numbers.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
