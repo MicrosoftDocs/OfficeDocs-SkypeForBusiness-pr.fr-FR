@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Rapport détaillé de session P2P'
-TOCTitle: Rapport détaillé de session P2P
-ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558659(v=OCS.15)
-ms:contentKeyID: 49297517
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport détaillé sur la session d’égal à égal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Session Detail Report
+ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
+ms:contentKeyID: 48184416
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825400"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport détaillé de session P2P dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Rapport détaillé sur la session d’égal à égal dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-06_
 
 Le rapport détaillé de session P2P renvoie des informations détaillées sur une session P2P. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
 
-## Accès au rapport détaillé de session P2P
+<div>
+
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a>Accès au rapport détaillé de session P2P
 
 Vous pouvez accéder au rapport de détails de session P2P à partir de l’un des rapports suivants (disponibles en totalité dans la page d’accueil Rapports de surveillance) :
 
@@ -29,29 +51,41 @@ Vous pouvez accéder au rapport de détails de session P2P à partir de l’un d
 
   - Rapport de liste des échecs
 
-À partir du rapport rapport détaillé de session P2P, vous pouvez accéder au [Rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md) en cliquant sur la mesure Rapport de diagnostic (Détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
+Dans le rapport détaillé de la session d’égal à égal, vous pouvez accéder au [rapport de diagnostic dans Lync Server 2013](lync-server-2013-diagnostic-report.md) en cliquant sur le rapport de diagnostic (détails) métrique. Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
 
   - Réponse
 
   - ID de diagnostic
 
-## Exploiter au mieux le rapport détaillé de session P2P
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>Exploiter au mieux le rapport détaillé de session P2P
 
 Le rapport détaillé de session P2P comprend un grand nombre de mesures, dont bon nombre peuvent être inconnues des administrateurs système. Cependant, dans bien des cas, vous pouvez afficher une info-bulle qui offre une brève description de cette mesure en maintenant simplement votre souris sur l’étiquette de la mesure.
 
 Note que les mesures qui s’affichent sur un rapport donné dépendent du type de session P2P que vous avez sélectionné. Une session audio/vidéo et une session de messagerie instantanée n’affichent pas le même ensemble de mesures.
 
-Vous pouvez également pointer votre souris sur les mesures Code de réponse et ID de diagnostic pour obtenir une description de ces valeurs :
+Vous pouvez également pointer votre souris sur les mesures Code de réponse et ID de diagnostic pour obtenir une description de ces valeurs :
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Aucun. Vous ne pouvez pas filtrer le Rapport détaillé de session P2P.
 
-## Mesures des informations de session
+</div>
+
+<div>
+
+## <a name="session-information-metrics"></a>Mesures des informations de session
 
 Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P de chaque session.
 
-### Mesures des informations de session
+### <a name="session-information-metrics"></a>Mesures des informations de session
 
 <table>
 <colgroup>
@@ -102,7 +136,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 <td><p>Code de réponse SIP envoyé lors de l’échec de session.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Frontal</strong></p></td>
+<td><p><strong>Serveur frontal</strong></p></td>
 <td><p>Nom du serveur frontal utilisé dans la conférence.</p></td>
 </tr>
 <tr class="odd">
@@ -141,11 +175,15 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </table>
 
 
-## Mesures des modalités
+</div>
+
+<div>
+
+## <a name="metrics-for-modalities"></a>Mesures des modalités
 
 Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P de chaque modalité de session.
 
-### Mesures des modalités
+### <a name="metrics-for-modalities"></a>Mesures des modalités
 
 <table>
 <colgroup>
@@ -180,11 +218,15 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </table>
 
 
-## Mesures pour les rapports de diagnostic
+</div>
+
+<div>
+
+## <a name="metrics-for-diagnostic-reports"></a>Mesures pour les rapports de diagnostic
 
 Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé de session P2P pour chaque rapport de diagnostic.
 
-### Mesures pour les rapports de diagnostic
+### <a name="metrics-for-diagnostic-reports"></a>Mesures pour les rapports de diagnostic
 
 <table>
 <colgroup>
@@ -201,7 +243,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Détail</strong></p></td>
+<td><p><strong>Détails</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Lorsque vous cliquez sur cet élément, le rapport montre le rapport de diagnostic pour la session.</p></td>
 </tr>
@@ -218,7 +260,7 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 <tr class="even">
 <td><p><strong>ID de diagnostic</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins d’identification et de résolution des problèmes.</p></td>
+<td><p>Identificateur unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui fournit souvent des informations utiles pour résoudre des erreurs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type de contenu</strong></p></td>
@@ -232,4 +274,17 @@ Le tableau ci-dessous liste les informations fournies dans le Rapport détaillé
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

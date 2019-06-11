@@ -1,27 +1,61 @@
-﻿---
-title: "Lync Server 2013 : Nouvelles fonctionnalités de l’app. de parcage d’appel"
-TOCTitle: Nouvelles fonctionnalités de l’application de parcage d’appel
-ms:assetid: bddff13c-92cc-47fd-bfd4-6e8bfbfed11b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412927(v=OCS.15)
-ms:contentKeyID: 49298706
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Nouvelles fonctionnalités de l’application de parcage d’appel'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New Call Park application features
+ms:assetid: bddff13c-92cc-47fd-bfd4-6e8bfbfed11b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412927(v=OCS.15)
+ms:contentKeyID: 48185277
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9dc0dc2c47bbe322402338095dc10eebef7a5ae9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826296"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nouvelles fonctionnalités de l’application de parcage d’appel dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-17_
+# <a name="new-call-park-application-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de l’application de parcage d’appel dans Lync Server 2013
 
-L’application de parcage d’appel permet aux utilisateurs Voix Entreprise de parquer un appel, puis de le récupérer par la suite, depuis n’importe quel téléphone. L’utilisateur qui parque l’appel peut soit composer le numéro orbite fourni par parcage d’appel pour récupérer l’appel, soit recourir à un mécanisme externe, tel qu’un système de messagerie instantanée ou de radiomessagerie, pour communiquer le numéro à quelqu’un d’autre à des fins de récupération.
+</div>
 
-Lync Server 2013 offre des nouveaux mécanismes de récupération d’urgence sous la forme de processus de basculement et de restauration. Ces processus prennent en charge la récupération de la fonctionnalité du parcage d’appel en permettant aux utilisateurs hébergés dans le pool principal d’exploiter l’application de parcage d’appel du pool de sauvegarde si une panne se produit dans le pool principal. La prise en charge pour la récupération d’urgence de l’application de parcage d’appel s’active pendant la configuration et le déploiement de pools de serveurs frontaux associés.
+<div id="mainSection">
 
-## Voir aussi
+<div id="mainBody">
 
-#### Autres ressources
+<span> </span>
 
-[Planification du parcage d’appel dans Lync Server 2013](lync-server-2013-planning-for-call-park.md)
+_**Dernière modification de la rubrique:** 2012-10-17_
+
+L’application de parc d’appel permet aux utilisateurs voix entreprise de mettre un appel en attente, puis de le récupérer ultérieurement sur n’importe quel téléphone. L’utilisateur qui a parqué l’appel peut composer le numéro en orbite fourni par le parc d’appels pour récupérer l’appel en stationnement ou utiliser un mécanisme externe, tel que la messagerie instantanée (IM) ou un système d’échange, pour demander à un tiers de récupérer l’appel.
+
+Lync Server 2013 fournit de nouveaux mécanismes de reprise après sinistre sous la forme de processus de basculement et de restauration automatique. Ces processus de basculement et de restauration prennent en charge la récupération de la fonctionnalité de parc d’appels en permettant aux utilisateurs hébergés sur le pool principal de tirer parti de l’application de parc de sauvegarde lorsqu’une panne se produit dans le pool principal. La prise en charge de la reprise après sinistre de l’application de parc d’appels est activée dans le cadre de la configuration et du déploiement de pools front-end couplés.
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Planification du parcage d’appel dans Lync Server 2013](lync-server-2013-planning-for-call-park.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

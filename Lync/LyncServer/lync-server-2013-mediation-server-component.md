@@ -1,64 +1,93 @@
-﻿---
-title: 'Lync Server 2013 : Composant Serveur de médiation'
-TOCTitle: Composant Serveur de médiation
-ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398399(v=OCS.15)
-ms:contentKeyID: 49297281
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: composant du serveur de médiation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mediation Server component
+ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
+ms:contentKeyID: 48184239
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827227"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Composant Serveur de médiation dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-21_
+# <a name="mediation-server-component-in-lync-server-2013"></a>Composant serveur de médiation dans Lync Server 2013
 
-Vous devez déployer le serveur de médiation de Lync Server 2013 si vous déployez la charge de travail Voix Entreprise. Cette section décrit les fonctionnalités et topologies de base, les dépendances et les directives de planification.
+</div>
 
-Le serveur de médiation convertit la signalisation et, dans certaines configurations, les données multimédia entre votre infrastructure interne Voix Entreprise de Lync Server 2013 et une passerelle RTC ou une jonction SIP (Session Initiation Protocol). Du côté de Lync Server 2013, le serveur de médiation est à l’écoute sur une seule adresse de transport MTLS (Mutual TLS). Du côté de la passerelle, le serveur de médiation est à l’écoute sur tous les ports d’écoute associés aux jonctions définies dans le document de topologie. Toutes les passerelles qualifiées doivent prendre en charge le protocole TLS mais peuvent aussi activer le protocole TCP. Le protocole TCP est pris en charge pour les passerelles qui ne prennent pas en charge le protocole TLS.
+<div id="mainSection">
 
-Si vous disposez aussi d’un autocommutateur public (PBX) dans votre environnement, le serveur de médiation gère les appels entre les utilisateurs Voix Entreprise et l’autocommutateur public. Si votre système PBX est de type IP-PBX, vous pouvez créer une connexion SIP directe entre le système PBX et le serveur de médiation. Si votre système PBX est de type PBX TDM (multiplexage temporel), vous devez aussi déployer une passerelle RTC entre le serveur de médiation et le système PBX.
+<div id="mainBody">
 
-Le serveur de médiation est colocalisé avec le serveur frontal par défaut. Le serveur de médiation peut aussi être déployé dans un pool autonome pour des raisons de performances ou pour le déploiement d’une jonction SIP. Dans ce dernier cas de figure, le pool autonome est fortement recommandé.
+<span> </span>
 
-Si vous déployez des connexions SIP directes sur une passerelle RTC qualifiée prenant en charge la déviation du trafic multimédia et l’équilibrage de charge DNS, un pool de serveurs de médiation autonome n’est pas nécessaire, car les passerelles qualifiées sont capables d’équilibrer la charge DNS sur un pool de serveurs de médiation et d’accepter du trafic en provenance de n’importe quel serveur de médiation au sein d’un pool.
+_**Dernière modification de la rubrique:** 2012-09-21_
 
-Nous vous recommandons également de colocaliser le serveur de médiation sur un pool de serveurs frontaux après avoir déployé des systèmes IP-PBX ou vous être connecté au contrôleur SBC d’un fournisseur de serveur de téléphonie Internet si l’une des conditions suivantes est remplie :
+Si vous déployez la charge de travail voix entreprise, vous devez déployer Lync Server 2013, serveur de médiation. Cette section décrit les fonctionnalités de base, les dépendances, les topologies de base et les recommandations en matière de planification.
 
-  - Le système IP-PBX ou le contrôleur SBC est configuré pour recevoir du trafic de n’importe quel serveur de médiation du pool et peut acheminer les données de ce trafic de manière uniforme sur tous les serveurs de médiation du pool.
+Le serveur de médiation translate les signaux et, dans certaines configurations, les éléments multimédias entre votre serveur interne Lync Server 2013, l’infrastructure voix entreprise et une passerelle de réseau téléphonique commuté (PSTN) ou un Trunk SIP (Session Initiation Protocol). Sur le site Lync Server 2013, le serveur de médiation écoute une seule adresse de transport Mutual TLS (MTLS). Sur le côté passerelle, le serveur de médiation écoute tous les ports d’écoute associés associés à des lignes définies dans le document topologique. Toutes les passerelles qualifiées doivent prendre en charge le protocole TLS mais peuvent aussi activer le protocole TCP. Le protocole TCP est pris en charge pour les passerelles qui ne prennent pas en charge le protocole TLS.
 
-  - Le système IP-PBX ne prend pas en charge la déviation du trafic multimédia mais le pool de serveurs frontaux chargé d’héberger le serveur de médiation peut gérer le transcodage vocal des appels non concernés par la déviation du trafic multimédia.
+Si vous avez également un échange de succursale publique (PBX) existant dans votre environnement, le serveur de médiation gère les appels entre les utilisateurs voix entreprise et le PBX. S’il s’agit d’un PBX IP, vous pouvez créer une connexion SIP directe entre le PBX et le serveur de médiation. S’il s’agit d’un système PBX (TDM) PBX, vous devez également déployer une passerelle RTC entre le serveur de médiation et le PBX.
 
-L’outil de planification Microsoft Lync Server 2013 peut servir à évaluer si le pool de serveurs frontaux sur lequel s‘effectuera la colocalisation du serveur de médiation peut gérer la charge. Si votre environnement ne satisfait pas les conditions requises, vous devez déployer un pool de serveurs de médiation autonome.
+Le serveur de médiation est colocalisé par défaut avec le serveur frontal. Le serveur de médiation peut également être déployé dans un pool autonome pour des raisons de performances, ou si vous déployez le trunking SIP, auquel cas le pool autonome est fortement recommandé.
 
-Les principales fonctions du serveur de médiation sont les suivantes :
+Si vous déployez des connexions SIP directes vers une passerelle RTC qualifiée qui prend en charge le contournement du contenu multimédia et l’équilibrage de charge DNS, vous n’avez pas besoin d’un pool de serveurs de médiation autonome. Il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonomes, car les passerelles qualifiées sont en mesure d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool.
 
-  - Chiffrement et déchiffrement SRTP sur Lync Server
+Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie:
 
-  - Conversion SIP sur TCP (pour les passerelles non compatibles TLS) vers SIP sur mutual TLS
+  - Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
 
-  - Conversion des flux de données multimédias entre Lync Server et l’homologue de passerelle du serveur de médiation
+  - Le PBX IP ne prend pas en charge la dérivation multimédia, mais le pool frontal qui héberge le serveur de médiation peut gérer le transcodage de la voix pour les appels pour lesquels aucune dérivation de média ne s’applique.
 
-  - Connexion des clients situés hors du réseau aux composants ICE internes, ce qui permet aux données multimédias de traverser les convertisseurs d’adresses réseau (NAT) et les pare-feu
+Vous pouvez utiliser l’outil de planification de Microsoft Lync Server 2013 pour déterminer si le pool frontal sur lequel vous souhaitez collocate le serveur de médiation peut gérer le chargement. Si votre environnement ne peut pas répondre à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
 
-  - Rôle d’intermédiaire pour les flux d’appels non pris en charge par une passerelle, tels que les appels de travailleurs distants sur un client Voix Entreprise
+Les principales fonctions du serveur de médiation sont les suivantes:
 
-  - Dans les déploiements qui incluent la jonction SIP, collaboration avec le fournisseur de services de jonction SIP pour fournir la prise en charge RTC, de sorte qu’il ne soit plus nécessaire de disposer d’une passerelle RTC
+  - Le chiffrement et le déchiffrement de SRTP du côté serveur Lync
 
-La figure suivante illustre les protocoles de signalisation et de données multimédias utilisés par le serveur de médiation lors de la communication avec une passerelle RTC de base et l’infrastructure Voix Entreprise.
+  - Traduction SIP sur TCP (pour les passerelles qui ne prennent pas en charge TLS) pour SIP sur Mutual TLS
+
+  - Traduction de flux multimédias entre Lync Server et l’homologue de passerelle du serveur de médiation
+
+  - Connexion de clients se trouvant hors du réseau à des composants de glace internes, qui permettent le passage de contenus multimédias de tar et de pare-feu
+
+  - Agissant en tant qu’intermédiaire pour les flux d’appels qui n’est pas pris en charge par une passerelle, comme les appels de travailleurs à distance sur un client voix entreprise
+
+  - Dans les déploiements qui incluent le trunking SIP, en travaillant avec le fournisseur de service de trunking SIP pour fournir la prise en charge RTC, qui rend inutile le besoin d’une passerelle RTC
+
+La figure suivante illustre les protocoles de signalisation et de média utilisés par le serveur de médiation pour communiquer avec une passerelle RTC de base et l’infrastructure voix entreprise.
 
 **Protocoles de signalisation et de données multimédias utilisés par le serveur de médiation**
 
-![Diagramme de protocoles de serveur de médiation](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagramme de protocoles de serveur de médiation")
+![Diagramme des protocoles du serveur de médiation] (images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagramme des protocoles du serveur de médiation")
+
+<div>
+
 
 > [!NOTE]  
-> Si vous utilisez TCP ou RTP/RTCP (au lieu de SRTP ou SRTCP) sur le réseau entre la passerelle RTC et le serveur de médiation, nous vous conseillons de prendre les mesures nécessaires pour garantir la sécurité et la confidentialité des données sur le réseau.
+> Si vous utilisez TCP ou RTP/RTCP (au lieu de SRTP ou SRTCP) sur le réseau entre la passerelle RTC et le serveur de médiation, nous vous conseillons de prendre des mesures pour garantir la sécurité et la confidentialité du réseau.
 
-## Dans cette section
 
-  - [Jonction M:N dans Lync Server 2013](lync-server-2013-m-n-trunk.md)
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [M:N Trunk dans Lync Server 2013](lync-server-2013-m-n-trunk.md)
 
   - [Contrôle d’admission des appels et serveur de médiation dans Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)
 
@@ -68,5 +97,17 @@ La figure suivante illustre les protocoles de signalisation et de données multi
 
   - [Composants et topologies utilisés pour le serveur de médiation dans Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md)
 
-  - [Instructions de déploiement du serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Recommandations en matière de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

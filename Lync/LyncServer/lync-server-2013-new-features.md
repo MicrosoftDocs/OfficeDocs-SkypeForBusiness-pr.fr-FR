@@ -1,25 +1,47 @@
-﻿---
-title: Nouvelles fonctionnalités Lync Server 2013
-TOCTitle: Nouvelles fonctionnalités serveur
-ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425795(v=OCS.15)
-ms:contentKeyID: 49296745
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Nouvelles fonctionnalités Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New server features
+ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)
+ms:contentKeyID: 48183722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8fa65936e2e27a2b33595778961ca7edd1a2bcb4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826226"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nouvelles fonctionnalités de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-04_
+# <a name="new-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de Lync Server 2013
 
-Lync Server 2013 comporte de nombreuses fonctionnalités innovantes et améliore de manière significative les fonctionnalités existantes. Cette section en présente un aperçu.
+</div>
 
-Les présentations des nouvelles fonctionnalités de Lync Server 2013 sont regroupées dans les rubriques de cette section.
+<div id="mainSection">
 
-## Dans cette section
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-04_
+
+Lync Server 2013 offre de nombreuses nouvelles fonctionnalités, ainsi que des améliorations significatives apportées aux fonctionnalités existantes. Cette section fournit une présentation générale des nouvelles fonctionnalités et améliorations.
+
+Les discussions des nouvelles fonctionnalités de Lync Server 2013 sont regroupées entre les rubriques de cette section.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Nouvelles fonctionnalités d’administration et de gestion dans Lync Server 2013](lync-server-2013-new-management-and-administration-features.md)
 
@@ -50,4 +72,16 @@ Les présentations des nouvelles fonctionnalités de Lync Server 2013 sont regr
   - [Nouvelle fonctionnalité Magasin de contacts unifié dans Lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
 
   - [Nouvelles fonctionnalités vidéo dans Lync Server 2013](lync-server-2013-new-video-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

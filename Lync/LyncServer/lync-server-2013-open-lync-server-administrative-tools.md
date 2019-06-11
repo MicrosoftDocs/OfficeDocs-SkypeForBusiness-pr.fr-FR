@@ -1,98 +1,200 @@
-﻿---
-title: Ouvrir les outils d’administration Lync Server
-TOCTitle: Ouvrir les outils d’administration Lync Server
-ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg195741(v=OCS.15)
-ms:contentKeyID: 49298018
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ouvrir les outils d’administration de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Open Lync Server administrative tools
+ms:assetid: 8c58de94-9e0a-4368-9e14-9afcaa1142d0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195741(v=OCS.15)
+ms:contentKeyID: 48184778
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa84c132061cb599448b78cf7d4ffcc6bd7fa3d5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826016"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ouvrir les outils d’administration Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-28_
+# <a name="open-lync-server-2013-administrative-tools"></a>Ouvrez les outils d’administration de Lync Server 2013
 
-Vous pouvez recourir aux procédures décrites dans cette rubrique pour ouvrir les outils d’administration et déployer, configurer ou dépanner votre topologie Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-06-28_
+
+Vous pouvez utiliser les procédures décrites dans cette rubrique pour ouvrir les outils d’administration pour déployer, configurer ou dépanner votre topologie Lync Server 2013.
 
   - Assistant Déploiement
 
   - Générateur de topologie
 
-  - Panneau de configuration Lync Server 2013
+  - Panneau de configuration Lync Server
 
-  - Lync Server 2013 Management Shell
+  - Lync Server Management Shell
 
-## Assistant Déploiement
+<span id="BKMK_OpenDeploymentWizard"></span>
 
-Procédez comme suit pour démarrer localement l’Assistant Déploiement afin d’ajouter ou de supprimer des fichiers de composants Lync Server 2013.
+<div>
 
-## Pour démarrer l’Assistant Déploiement Lync Server 2013
+## <a name="deployment-wizard"></a>Assistant Déploiement
 
-1.  Ouvrez une session sur l’ordinateur sur lequel l’Assistant Déploiement de Lync Server est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+Suivez la procédure ci-dessous pour démarrer l’Assistant déploiement en local afin d’ajouter ou de supprimer des fichiers de composants Lync Server 2013.
 
-2.  Cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013** et **Assistant Déploiement Lync Server**.
+<div>
 
-## Générateur de topologie
+## <a name="to-start-lync-server-2013-deployment-wizard"></a>Pour démarrer l’Assistant Déploiement de Lync Server 2013
 
-Procédez comme suit pour ouvrir le Générateur de topologie et définir les serveurs que vous souhaitez déployer dans votre topologie Lync Server 2013.
+1.  Ouvrez une session sur l’ordinateur sur lequel est installé l’Assistant Déploiement de Lync Server en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-## Pour ouvrir le Générateur de topologie Lync Server 2013 afin de concevoir la topologie
+2.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Assistant Déploiement de Lync Server**.
 
-1.  Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologie est installé en tant que membre du groupe Admins du domaine et du groupe RTCUniversalServerAdmins.
+</div>
+
+</div>
+
+<span id="BKMK_OpenTopologyBuilder"></span>
+
+<div>
+
+## <a name="topology-builder"></a>Générateur de topologie
+
+Utilisez la procédure suivante pour ouvrir le générateur de topologie et définir les serveurs que vous voulez déployer dans votre topologie Lync Server 2013.
+
+<div>
+
+## <a name="to-open-lync-server-2013-topology-builder-to-design-the-topology"></a>Pour ouvrir le générateur de topologie Lync Server 2013 et concevoir la topologie
+
+1.  Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local mais pour lire, publier ou activer une topologie (phase préalable indispensable à l’installation d’un serveur Lync Server 2013, vous devez utiliser un compte membre des groupes Administrateurs du domaine et RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (à savoir lecture, écriture et modification) sur le partage de fichiers à utiliser pour le magasin de fichiers d’archivage afin que le Générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise ou un compte disposant de droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour lire, publier ou activer une topologie, qui est requise pour installer Lync Server 2013 sur un serveur, vous devez utiliser un compte membre du groupe administrateurs de domaine et du RTCUniv. ersalServerAdmins et qui dispose des autorisations de contrôle total (en lecture, écriture et modification) sur le partage de fichiers que vous allez utiliser pour le stockage des fichiers d’archivage, afin que le générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire (DACL) requise. ou un compte disposant de droits d’utilisateur équivalents.
 
-2.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
-
-## Panneau de configuration Lync Server 2013
-
-Procédez comme suit pour ouvrir le Panneau de configuration Lync Server 2013 afin de gérer la configuration des serveurs, des utilisateurs, des clients et des périphériques dans votre environnement.
-
-> [!NOTE]  
-> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour réaliser n’importe quelle tâche dans Panneau de configuration Lync Server 2013. Vous pouvez aussi recourir à d’autres rôles pour vous connecter au Panneau de configuration Lync Server 2013 et réaliser des tâches d’administration spécifiques en fonction des opérations qui sont à mener. Par exemple, le rôle CSArchivingAdministrator peut vous permettre de gérer l’archivage dans le Panneau de configuration Lync Server 2013. Pour obtenir des informations sur les rôles, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification. Pour plus d’informations sur les rôles à utiliser pour une tâche en particulier, voir la documentation consacrée à cette dernière.
-
-## Pour ouvrir le Panneau de configuration Lync Server 2013 depuis n’importe quel ordinateur dans le pare-feu de votre organisation
-
-1.  À partir d’un compte d’utilisateur affecté au rôle CsAdministrator ou à un autre rôle doté des droits et des autorisations utilisateur adéquats pour la tâche à réaliser, connectez-vous à un ordinateur dans le cadre de votre déploiement interne avec une résolution d’écran minimale de 1024 x 768.
     
-    > [!IMPORTANT]  
-    > Si vous avez configuré une URL (Uniform Resource Locator) d’administration simple, vous pouvez accéder au Panneau de configuration Lync Server 2013 depuis un navigateur Internet exécuté sur un ordinateur connecté au pare-feu de votre organisation. Pour plus d’informations sur la configuration d’une URL d’administration simple, voir <a href="lync-server-2013-planning-for-simple-urls.md">Planification des URL simples dans Lync Server 2013</a> dans la documentation de planification et <a href="lync-server-2013-edit-or-configure-simple-urls.md">Modification ou configuration des URL simples dans Lync Server 2013</a> dans la documentation de déploiement.
+    </div>
 
-2.  Ouvrez une fenêtre du navigateur, puis entrez l’URL d’administration configurée pour votre organisation.
+2.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
-## Pour ouvrir le Panneau de configuration Lync Server 2013 sur un ordinateur équipé de Lync Server 2013
+</div>
 
-1.  À partir d’un compte d’utilisateur membre du rôle CsAdministrator ou d’un autre rôle doté des droits et des autorisations utilisateur adéquats pour la tâche à réaliser, connectez-vous à un ordinateur sur lequel vous avez installé Lync Server 2013 ou, au minimum, les outils d’administration de Lync Server 2013. Pour configurer les paramètres, l’ordinateur doit utiliser une résolution d’écran minimale de 1024 x 768
+</div>
 
-2.  Pour démarrer le Panneau de configuration Lync Server 2013 : cliquez sur **Démarrer** et **Tous les programmes**, pointez sur **Outils d’administration**, puis sur **Microsoft Lync Server 2013**. Cliquez enfin sur **Panneau de configuration Lync Server 2013**.
+<span id="BKMK_OpenControlPanel"></span>
 
-## Lync Server 2013 Management Shell
+<div>
 
-Procédez comme suit pour ouvrir Lync Server 2013 Management Shell et administrer des serveurs, des utilisateurs, des clients et des périphériques dans votre environnement au moyen de la ligne de commande.
+## <a name="lync-server-2013-control-panel"></a>Panneau de configuration de Lync Server 2013
+
+Utilisez l’une des procédures suivantes pour ouvrir le panneau de configuration de Lync Server 2013 pour gérer la configuration des serveurs, utilisateurs, clients et appareils de votre environnement.
+
+<div>
+
 
 > [!NOTE]  
-> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer n’importe quelle tâche dans Lync Server 2013 Management Shell. Vous pouvez aussi vous servir d’autres rôles pour réaliser des tâches d’administration précises en fonction de l’opération que vous devez mener. Par exemple, le rôle CSArchivingAdministrator peut vous servir à exécuter des applets de commande inhérentes à l’administration de l’archivage. Pour plus d’informations sur les rôles, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification. Pour plus d’informations sur les rôles qu’il est possible d’utiliser pour l’exécution d’une applet de commande spécifique, voir la documentation consacrée à celle-ci.<br />
-Vous pouvez également exécuter certaines applets de commande à l’aide d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, RTCUniversalUserAdmins ou RTCUniversalReadOnlyAdmins, selon l’applet de commande.
+> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer une tâche dans le panneau de configuration de Lync Server 2013. Vous pouvez utiliser d’autres rôles pour vous connecter à Lync Server 2013 panneau de configuration afin d’effectuer des tâches d’administration spécifiques en fonction de la tâche que vous devez effectuer. Par exemple, vous pouvez utiliser CSArchivingAdministrator pour gérer l’archivage dans Lync Server 2013 Control Panel. Pour plus d’informations sur les rôles, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planifier le contrôle d’accès basé sur les rôles dans Lync Server 2013</A> dans la documentation de planification. Pour plus d’informations sur les rôles que vous pouvez utiliser pour effectuer une tâche spécifique, voir la documentation relative à la tâche.
 
-## Pour ouvrir Lync Server 2013 Management Shell
 
-  - Par défaut, si vous ouvrez une fenêtre Windows PowerShell, plutôt que Lync Server 2013 Management Shell, vous ne pouvez pas exécuter les applets de commande Lync Server 2013. Pour exécuter les applets de commande Lync Server 2013 depuis Windows PowerShell, tapez ce qui suit à l’invite de commandes Windows PowerShell :
+
+</div>
+
+<div>
+
+## <a name="to-open-lync-server-2013-control-panel-from-any-computer-inside-your-organizations-firewall"></a>Pour ouvrir le panneau de configuration Lync Server 2013 à partir de n’importe quel ordinateur dans le pare-feu de votre organisation
+
+1.  À partir d’un compte d’utilisateur affecté au rôle CsAdministrator ou à un autre rôle disposant de droits d’utilisateur et d’autorisations appropriés pour la tâche à exécuter, connectez-vous à n’importe quel ordinateur dans votre déploiement interne avec une résolution d’écran minimale de 1024 x 768.
+    
+    <div>
+    
+
+    > [!IMPORTANT]  
+    > Si vous avez configuré une adresse URL (Uniform Resource Locator) d’administration, vous pouvez accéder au panneau de configuration de Lync Server 2013 à partir d’un navigateur Internet qui s’exécute sur n’importe quel ordinateur au sein du pare-feu de votre organisation. Pour plus d’informations sur la configuration de l’URL simple d’administration, voir <A href="lync-server-2013-planning-for-simple-urls.md">planification d’URL simples dans Lync server 2013</A> dans la documentation de planification et <A href="lync-server-2013-edit-or-configure-simple-urls.md">modifier ou configurer des URL simples dans Lync Server 2013</A> dans la documentation de déploiement.
+
+    
+    </div>
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration configurée pour votre organisation.
+
+</div>
+
+<div>
+
+## <a name="to-open-lync-server-2013-control-panel-on-a-computer-running-lync-server-2013"></a>Pour ouvrir le panneau de configuration de Lync Server 2013 sur un ordinateur exécutant Lync Server 2013
+
+1.  À partir d’un compte d’utilisateur qui est membre du rôle CsAdministrator ou d’un autre rôle disposant de droits d’utilisateur et d’autorisations appropriés pour la tâche à exécuter, connectez-vous à un ordinateur sur lequel vous avez installé Lync Server 2013 ou, au minimum, Lync Server 2013 administration outils ive. Pour configurer les paramètres, l’ordinateur doit avoir une résolution d’écran d’au moins 1024 x 768.
+
+2.  Démarrez le panneau de configuration de Lync Server 2013: cliquez sur **Démarrer**, sur **tous les programmes**, pointez sur **Outils d’administration**, sur **Microsoft Lync Server 2013**, puis cliquez sur **Lync Server 2013 Control Panel**.
+
+</div>
+
+</div>
+
+<span id="BKMK_OpenManagementShell"></span>
+
+<div>
+
+## <a name="lync-server-2013-management-shell"></a>Lync Server 2013 Management Shell
+
+Utilisez la procédure suivante pour ouvrir Lync Server 2013 Management Shell pour administrer des serveurs, des utilisateurs, des clients et des appareils dans votre environnement à l’aide de la ligne de commande.
+
+<div>
+
+
+> [!NOTE]  
+> Vous pouvez utiliser un compte d’utilisateur affecté au rôle CsAdministrator pour effectuer une tâche dans Lync Server 2013 Management Shell. Vous pouvez vous connecter à l’aide d’autres rôles pour effectuer des tâches d’administration spécifiques, en fonction de la tâche que vous devez effectuer. Par exemple, vous pouvez utiliser CSArchivingAdministrator pour exécuter des cmdlets liées à l’administration de l’archivage. Pour plus d’informations sur les rôles, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planifier le contrôle d’accès basé sur les rôles dans Lync Server 2013</A> dans la documentation de planification. Pour plus d’informations sur les rôles que vous pouvez utiliser pour exécuter une applet de connexion spécifique, voir la documentation relative à l’applet de connexion.<BR>Vous pouvez également exécuter certaines cmdlets en utilisant un compte d’utilisateur dans les groupes RTCUniversalServerAdmins, RTCUniversalUserAdmins ou RTCUniversalReadOnlyAdmins, en fonction de l’applet de la cmdlet.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-open-the-lync-server-2013-management-shell"></a>Pour ouvrir Lync Server 2013 Management Shell
+
+  - Si vous ouvrez une fenêtre Windows PowerShell plutôt que Lync Server 2013 Management Shell, par défaut, vous ne pouvez pas exécuter les applets de cmdlet Lync Server 2013. Pour exécuter les applets de commande Lync Server 2013 à partir de Windows PowerShell, tapez la commande suivante à l’invite de commandes Windows PowerShell:
     
     `Import-Module Lync`
 
-  - Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+  - Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-## Voir aussi
+</div>
 
-#### Tâches
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Installation des outils d’administration Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  
 
-#### Concepts
 
-[Outils d’administration de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)
+[Outils d’administration de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

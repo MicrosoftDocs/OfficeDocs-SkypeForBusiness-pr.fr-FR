@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013 : Planification du jumelage de pools frontaux'
-TOCTitle: Planification du jumelage de pools frontaux
-ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205293(v=OCS.15)
-ms:contentKeyID: 49298883
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Planification du jumelage de pools frontaux'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Front End pool pairing
+ms:assetid: cca5773d-57ff-45ce-a7b4-f82ae697c477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205293(v=OCS.15)
+ms:contentKeyID: 48185508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0445a6d952ba7311b8f6b5435c16d9e91de587f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824966"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification du jumelage de pools frontaux dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-28_
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a>Planification du jumelage de pools frontaux dans Lync Server 2013
 
-Pour obtenir les meilleures fonctionnalités de récupération d’urgence dans Lync Server 2013, déployez des paires de pools frontaux à travers deux sites géographiquement dispersés. Chaque site contient un pool frontal couplé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs, et le service de sauvegarde Lync Server assure la réplication des données en temps réel pour garder les pools synchronisés. Le service de sauvegarde est une nouvelle fonction dans Lync Server 2013, conçue pour prendre en charge la solution de récupération d’urgence. Il est installé sur un pool frontal lorsque vous couplez le pool avec un autre pool frontal.
+</div>
 
-Si le pool dans un site échoue, vous pouvez basculer les utilisateurs de ce pool vers le pool dans l’autre site, qui fournit alors les services à tous les utilisateurs dans les deux pools. À des fins de planification de capacité, chaque pool doit être conçu pour gérer les charges de travail de tous les utilisateurs dans les deux pools en cas de sinistre.
+<div id="mainSection">
 
-## Dans cette section
+<div id="mainBody">
 
-  - [Options de couplage de pools et meilleures pratiques prises en charge pour Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-28_
+
+Pour les meilleures capacités de reprise après sinistre dans Lync Server 2013, le déploiement de paires de pools front-end sur deux sites à dispersion géographique. Chaque site comporte une réserve frontale associée à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde de Lync Server fournit la réplication des données en temps réel pour que les pools restent synchronisés. Le service de sauvegarde est une nouvelle fonctionnalité de Lync Server 2013 conçue pour prendre en charge la solution de reprise après sinistre. Elle est installée sur un pool frontal lorsque vous jumelez la liste avec un autre pool frontal.
+
+En cas d’échec du pool dans un site, vous pouvez faire basculer les utilisateurs de ce groupe vers le pool dans l’autre site, qui fournit ensuite les services à tous les utilisateurs des deux groupes. Dans le cadre de la planification de la capacité, chaque pool doit être conçu pour gérer les charges de travail de tous les utilisateurs dans les deux pools en cas de sinistre.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Options de jumelage de pool prises en charge et meilleures pratiques pour Lync Server 2013](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
   - [Relations des serveurs d’inscriptions de sauvegarde dans Lync Server 2013](lync-server-2013-backup-registrar-relationships.md)
 
@@ -30,4 +52,16 @@ Si le pool dans un site échoue, vous pouvez basculer les utilisateurs de ce poo
   - [Basculement du magasin central de gestion dans Lync Server 2013](lync-server-2013-central-management-store-failover.md)
 
   - [Sécurité des données d’appariement de pools frontaux dans Lync Server 2013](lync-server-2013-front-end-pool-pairing-data-security.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
