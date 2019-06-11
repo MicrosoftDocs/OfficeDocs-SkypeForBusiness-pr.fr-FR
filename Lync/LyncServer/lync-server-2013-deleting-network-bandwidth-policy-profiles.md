@@ -1,49 +1,98 @@
-﻿---
-title: Suppression des profils de stratégie de bande passante réseau
-TOCTitle: Suppression des profils de stratégie de bande passante réseau
-ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688050(v=OCS.15)
-ms:contentKeyID: 49891343
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: suppression des profils de stratégie de bande passante réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting network bandwidth policy profiles
+ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688050(v=OCS.15)
+ms:contentKeyID: 49733643
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c33f781e8818dbefa3dc37b3f17c789099e6add
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831581"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression des profils de stratégie de bande passante réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="deleting-network-bandwidth-policy-profiles-in-lync-server-2013"></a><span data-ttu-id="94cce-102">Supprimer des profils de stratégie de bande passante réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94cce-102">Deleting network bandwidth policy profiles in Lync Server 2013</span></span>
 
-La stratégie de bande passante utilisée dans le cadre du service Contrôle d’admission des appels permet de définir des restrictions de bande passante pour des modes bien précis. Dans Microsoft Lync Server 2013, seuls les modes audio et vidéo peuvent être soumis à des restrictions en matière de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de configuration Lync Server pour créer, modifier ou supprimer un profil conteneur pour ces stratégies. Utilisez les procédures suivantes pour supprimer des profils de stratégies de bande passante réseau. Pour plus d’informations sur la création ou la modification d’un profil de stratégie de bande passante réseau, voir [Création ou modification des profils de stratégie de bande passante](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).
+</div>
 
-## Pour supprimer un profil de stratégie de bande passante
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits) ou affecté au rôle CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie de bande passante**.
+<span data-ttu-id="94cce-103">_**Dernière modification de la rubrique:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="94cce-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-4.  Dans la page **Stratégie de bande passante**, cliquez sur le profil de stratégie de bande passante que vous souhaitez supprimer.
+<span data-ttu-id="94cce-104">Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de bande passante est utilisée pour définir des limitations de bande passante pour certaines modalités.</span><span class="sxs-lookup"><span data-stu-id="94cce-104">As part of call admission control (CAC), a bandwidth policy is used to define bandwidth limitations for certain modalities.</span></span> <span data-ttu-id="94cce-105">Dans Microsoft Lync Server 2013, seules les modalités d’audio et de vidéo peuvent être affectées par des limitations de bande passante.</span><span class="sxs-lookup"><span data-stu-id="94cce-105">In Microsoft Lync Server 2013, only audio and video modalities can be assigned bandwidth limitations.</span></span> <span data-ttu-id="94cce-106">Vous pouvez définir les limites générales de bande passante et les limites de session.</span><span class="sxs-lookup"><span data-stu-id="94cce-106">You can set overall bandwidth limitations and session limitations.</span></span> <span data-ttu-id="94cce-107">Vous pouvez utiliser le panneau de configuration de Lync Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies.</span><span class="sxs-lookup"><span data-stu-id="94cce-107">You can use the Lync Server Control Panel to create, modify, or delete a container profile for these policies.</span></span> <span data-ttu-id="94cce-108">Utilisez les procédures suivantes pour supprimer un profil de stratégie de bande passante réseau.</span><span class="sxs-lookup"><span data-stu-id="94cce-108">Use the following procedures to delete a network bandwidth policy profiles.</span></span> <span data-ttu-id="94cce-109">Pour plus d’informations sur la création et la modification d’un profil de stratégie de bande passante réseau, voir [création ou modification des profils de stratégie de bande passante dans Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).</span><span class="sxs-lookup"><span data-stu-id="94cce-109">For details on creating or modifying a network bandwidth policy profile, see [Creating or modifying bandwidth policy profiles in Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).</span></span>
+
+<div>
+
+## <a name="to-delete-a-bandwidth-policy-profile"></a><span data-ttu-id="94cce-110">Pour supprimer un profil de stratégie de bande passante</span><span class="sxs-lookup"><span data-stu-id="94cce-110">To delete a bandwidth policy profile</span></span>
+
+1.  <span data-ttu-id="94cce-111">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="94cce-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="94cce-112">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="94cce-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="94cce-113">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="94cce-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="94cce-114">Dans la barre de navigation de gauche, cliquez sur **configuration du réseau** , puis sur **stratégie de bande passante**.</span><span class="sxs-lookup"><span data-stu-id="94cce-114">In the left navigation bar, click **Network Configuration** and then click **Bandwidth Policy**.</span></span>
+
+4.  <span data-ttu-id="94cce-115">Dans la page **stratégie de bande passante** , cliquez sur le profil de la stratégie de bande passante que vous voulez supprimer.</span><span class="sxs-lookup"><span data-stu-id="94cce-115">On the **Bandwidth Policy** page, click the bandwidth policy profile that you want to delete.</span></span>
     
+    <div>
+    
+
     > [!NOTE]  
-    > Vous pouvez supprimer plusieurs profils à la fois. Pour cela, appuyez sur Ctrl et tout en maintenant cette touche enfoncée, sélectionnez plusieurs profils. Pour sélectionner tous les profils, cliquez sur <strong>Sélectionner tout</strong> dans le menu <strong>Edition</strong>.
+    > <span data-ttu-id="94cce-116">Vous pouvez supprimer plusieurs profils à la fois.</span><span class="sxs-lookup"><span data-stu-id="94cce-116">You can delete more than one profile at a time.</span></span> <span data-ttu-id="94cce-117">Pour cela, appuyez sur CTRL et sélectionnez plusieurs profils tout en maintenant la touche CTRL enfoncée.</span><span class="sxs-lookup"><span data-stu-id="94cce-117">To do this, press CTRL and select multiple profiles while holding down the CTRL key.</span></span> <span data-ttu-id="94cce-118">Pour sélectionner tous les profils, dans le menu <STRONG>Edition</STRONG> , cliquez sur <STRONG>Sélectionner tout</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="94cce-118">Or, to select all profiles, click <STRONG>Select all</STRONG> on the <STRONG>Edit</STRONG> menu.</span></span>
 
-5.  Dans le menu **Edition**, cliquez sur **Supprimer**.
     
+    </div>
+
+5.  <span data-ttu-id="94cce-119">Dans le menu **modifier** , cliquez sur **supprimer**.</span><span class="sxs-lookup"><span data-stu-id="94cce-119">On the **Edit** menu, click **Delete**.</span></span>
+    
+    <div>
+    
+
     > [!WARNING]  
-    > Vous ne pouvez pas supprimer un profil de stratégie de bande passante associé à un site réseau. Vous devez d’abord supprimer l’association au site réseau avant de supprimer le profil. Pour plus d’informations sur la modification du site réseau, voir <a href="lync-server-2013-creating-or-modifying-network-sites.md">Création ou modification des sites réseau</a>.
+    > <span data-ttu-id="94cce-120">Vous ne pouvez pas supprimer un profil de stratégie de bande passante associé à un site réseau.</span><span class="sxs-lookup"><span data-stu-id="94cce-120">You cannot delete a bandwidth policy profile that is associated with a network site.</span></span> <span data-ttu-id="94cce-121">Vous devez d’abord supprimer l’Association au site du réseau avant de pouvoir supprimer le profil.</span><span class="sxs-lookup"><span data-stu-id="94cce-121">You must first remove the association with the network site before you can delete the profile.</span></span> <span data-ttu-id="94cce-122">Pour plus d’informations sur la modification du site réseau, voir <A href="lync-server-2013-creating-or-modifying-network-sites.md">création ou modification des sites réseau dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="94cce-122">For details about how to modify the network site, see <A href="lync-server-2013-creating-or-modifying-network-sites.md">Creating or modifying network sites in Lync Server 2013</A>.</span></span>
 
-## Voir aussi
+    
+    </div>
 
-#### Tâches
+</div>
 
-[Création ou modification des profils de stratégie de bande passante](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
-[Affichage des informations d’un profil de stratégie de bande passante réseau](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)  
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a><span data-ttu-id="94cce-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="94cce-123">See Also</span></span>
 
-[Configuration du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
+
+[<span data-ttu-id="94cce-124">Création ou modification des profils de stratégie de bande passante dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94cce-124">Creating or modifying bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
+[<span data-ttu-id="94cce-125">Affichage des informations de profil de la stratégie de bande passante réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94cce-125">Viewing network bandwidth policy profile information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)  
+
+
+[<span data-ttu-id="94cce-126">Configurer le contrôle d’admission des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="94cce-126">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)  
+[<span data-ttu-id="94cce-127">Remove-CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="94cce-127">Remove-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

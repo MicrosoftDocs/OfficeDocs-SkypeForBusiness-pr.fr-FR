@@ -1,44 +1,85 @@
-﻿---
-title: Créer des stratégies inter-sites réseau
-TOCTitle: Créer des stratégies inter-sites réseau
-ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412844(v=OCS.15)
-ms:contentKeyID: 49298566
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création de stratégies d’intersite réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create network intersite policies
+ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412844(v=OCS.15)
+ms:contentKeyID: 48185148
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b6309b27ddedb37c2c38e7d40e74e427f61b904a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Créer des stratégies inter-sites réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-19_
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a><span data-ttu-id="79e88-102">Créer des stratégies d’intersite réseau dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="79e88-102">Create network intersite policies in Lync Server 2013</span></span>
 
-Une *stratégie intersite réseau* définit des limitations de bande passante entre des sites présentant des liens directs WAN entre eux.
+</div>
 
-Pour plus d’informations, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
+<div id="mainSection">
 
-  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
+<div id="mainBody">
 
-  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+<span> </span>
 
-  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+<span data-ttu-id="79e88-103">_**Dernière modification de la rubrique:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="79e88-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+<span data-ttu-id="79e88-104">Une *stratégie d’intersite réseau* définit des limitations de bande passante entre les sites disposant de liens WAN directs entre eux.</span><span class="sxs-lookup"><span data-stu-id="79e88-104">A *network intersite policy* defines bandwidth limitations between sites that have direct WAN links between them.</span></span>
+
+<span data-ttu-id="79e88-105">Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell pour les applets de commande suivantes:</span><span class="sxs-lookup"><span data-stu-id="79e88-105">For details, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+
+  - [<span data-ttu-id="79e88-106">New-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="79e88-106">New-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
+
+  - [<span data-ttu-id="79e88-107">Get-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="79e88-107">Get-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+
+  - [<span data-ttu-id="79e88-108">Set-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="79e88-108">Set-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+
+  - [<span data-ttu-id="79e88-109">Remove-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="79e88-109">Remove-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+
+<div>
+
 
 > [!IMPORTANT]  
-> Une stratégie intersite réseau est nécessaire <em>uniquement</em> s’il existe un lien d’accès direct entre deux sites réseau.
+> <span data-ttu-id="79e88-110">Une stratégie d’intersite réseau est requise <EM>uniquement</EM> s’il existe un lien croisé direct entre deux sites du réseau.</span><span class="sxs-lookup"><span data-stu-id="79e88-110">A network intersite policy is required <EM>only</EM> if there is a direct cross link between two network sites.</span></span>
 
-Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersite qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb\_Link.
 
-## Pour créer une stratégie intersite réseau
 
-1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+</div>
 
-2.  Exécutez l’applet de commande New-CsNetworkInterSitePolicy pour créer des stratégies intersite réseau et appliquez un profil de stratégie de bande passante approprié pour deux sites qui présentent un lien d’accès direct. Par exemple, exécutez :
+<span data-ttu-id="79e88-111">Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="79e88-111">In the example topology North America region, there is a direct link between the Reno and Albuquerque sites.</span></span> <span data-ttu-id="79e88-112">Ces deux sites nécessitent une stratégie de intersite qui applique un profil de stratégie de bande passante approprié.</span><span class="sxs-lookup"><span data-stu-id="79e88-112">These two sites require an intersite policy that applies an appropriate bandwidth policy profile.</span></span> <span data-ttu-id="79e88-113">L’exemple suivant applique le profil\_de liaison 20Mo.</span><span class="sxs-lookup"><span data-stu-id="79e88-113">The following example applies the 20Mb\_Link profile.</span></span>
+
+<div>
+
+## <a name="to-create-a-network-intersite-policy"></a><span data-ttu-id="79e88-114">Pour créer une stratégie d’intersite réseau</span><span class="sxs-lookup"><span data-stu-id="79e88-114">To create a network intersite policy</span></span>
+
+1.  <span data-ttu-id="79e88-115">Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="79e88-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="79e88-116">Exécutez l’applet de nouvelle applet de CsNetworkInterSitePolicy pour créer des stratégies d’intersite réseau et appliquer un profil de stratégie de bande passante approprié pour deux sites qui disposent d’un lien direct.</span><span class="sxs-lookup"><span data-stu-id="79e88-116">Run the New-CsNetworkInterSitePolicy cmdlet to create network intersite policies and apply an appropriate bandwidth policy profile for two sites that have a direct cross link.</span></span> <span data-ttu-id="79e88-117">Par exemple, exécutez :</span><span class="sxs-lookup"><span data-stu-id="79e88-117">For example, run:</span></span>
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  Répétez l’étape 2 autant que nécessaire, afin de créer des stratégies intersite réseau pour toutes les paires de sites réseau qui présentent un lien d’accès direct.
+3.  <span data-ttu-id="79e88-118">Répétez l’étape 2 autant de fois que nécessaire pour créer des stratégies d’intersite réseau pour toutes les paires de sites réseau qui présentent un lien croisé direct.</span><span class="sxs-lookup"><span data-stu-id="79e88-118">Repeat step 2 as needed to create network intersite policies for all network sites pairs that have a direct cross link.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

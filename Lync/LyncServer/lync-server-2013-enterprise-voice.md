@@ -1,59 +1,119 @@
-﻿---
-title: Voix Entreprise dans Lync Server 2013
-TOCTitle: Voix Entreprise
-ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg417163(v=OCS.15)
-ms:contentKeyID: 49298820
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Voix Entreprise dans Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enterprise Voice
+ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)
+ms:contentKeyID: 48185404
+ms.date: 04/08/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c7c8131c2f52dfc7ab061d8dec46ee34b62f89e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831215"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Voix Entreprise dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-04-08_
+# <a name="enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="ddb83-102">Voix Entreprise dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddb83-102">Enterprise Voice in Lync Server 2013</span></span>
 
-Avec Voix Entreprise, Lync Server inclut un protocole autonome Voix sur Internet (VoIP) qui permet d’améliorer ou de remplacer les systèmes PBX (Private Branch Exchange) traditionnels. Les utilisateurs Voix Entreprise peuvent appeler leurs collègues sur le réseau VoIP ou le PBX de votre entreprise, et passer des appels traditionnels externes. La solution Voix Entreprise intègre des fonctionnalités d’appel standard (réponse, transfert, mise en attente, redirection, parcage et libération d’appel, par exemple), et prend également en charge les appels Enhanced 9-1-1 (E9-1-1). Notez que E9-1-1 n’est disponible qu’aux États-Unis. Voix Entreprise prend également en charge une gamme étendue de périphériques IP et USB actuels et plus anciens.
+</div>
 
-## Émission et réception d’appels
+<div id="mainSection">
 
-En utilisant Lync, les utilisateurs peuvent passer des appels en tapant un nom ou un numéro de téléphone sur leur clavier ou en utilisant le pavé de numérotation affiché sur leur écran. Ils peuvent également passer des appels directement à partir de leur liste des contacts. Vous pouvez également déployer des périphériques Lync Phone Edition qui sont des périphériques de téléphonie IP autonomes fournis par les partenaires Microsoft.
+<div id="mainBody">
 
-Les utilisateurs peuvent enregistrer plusieurs périphériques de téléphonie dans Lync Server et passer facilement de l’un à l’autre.
+<span> </span>
 
-En cas d’appel entrant, les utilisateurs sont avertis simultanément sur tous leurs périphériques par des sonneries personnalisables sur les périphériques de téléphonie IP et par une notification similaire à un message instantané sur leur PC.
+<span data-ttu-id="ddb83-103">_**Dernière modification de la rubrique:** 2015-04-08_</span><span class="sxs-lookup"><span data-stu-id="ddb83-103">_**Topic Last Modified:** 2015-04-08_</span></span>
 
-Ils peuvent également définir un numéro de téléphone auquel ils peuvent être contactés sur leur téléphone de bureau, leur PC et leur téléphone mobile.
+<span data-ttu-id="ddb83-104">Avec Enterprise Voice, Lync Server fournit une offre VoIP (voix sur IP) autonome pour améliorer ou remplacer les systèmes PBX (Private Branch Exchange) traditionnels.</span><span class="sxs-lookup"><span data-stu-id="ddb83-104">With Enterprise Voice, Lync Server delivers a stand-alone Voice over Internet Protocol (VoIP) offering to enhance or replace traditional private branch exchange (PBX) systems.</span></span> <span data-ttu-id="ddb83-105">Les utilisateurs d’Enterprise Voice peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone traditionnels à l’extérieur de votre organisation.</span><span class="sxs-lookup"><span data-stu-id="ddb83-105">Enterprise Voice users can call colleagues on your organization’s VoIP network or PBX, and they can call traditional phone numbers outside your organization.</span></span> <span data-ttu-id="ddb83-106">La solution voix entreprise inclut des fonctionnalités d’appel courantes, telles que réponse, transfert, transfert, mise en attente, dérouter, libérer et parc, et 9-1-1 (E9-1-1-1). Voix entreprise prend également en charge un vaste éventail d’appareils IP et USB plus courants.</span><span class="sxs-lookup"><span data-stu-id="ddb83-106">The Enterprise Voice solution includes common calling features such as answer, forward, transfer, hold, divert, release and park, and Enhanced 9-1-1 (E9-1-1) calling (E9-1-1 is available only in the United States.) Enterprise Voice also supports a broad range of current and older IP and USB devices.</span></span>
 
-## Fonctionnalités d’appel de base
+<div>
 
-Lorsqu’il téléphone, un utilisateur peut répondre à d’autres appels entrants ou passer des appels sortants : l’appel en cours est alors automatiquement mis en attente. Il est possible de transférer un appel d’un utilisateur à l’autre, soit directement, soit après que le premier utilisateur ait parlé en privé au deuxième utilisateur. Les utilisateurs peuvent également transférer un appel vers un autre périphérique, par exemple, vers leur téléphone mobile, lorsqu’ils quittent le bureau.
+## <a name="placing-and-receiving-calls"></a><span data-ttu-id="ddb83-107">Placement et réception d’appels</span><span class="sxs-lookup"><span data-stu-id="ddb83-107">Placing and Receiving Calls</span></span>
 
-## Fonctionnalités de communication plus puissantes
+<span data-ttu-id="ddb83-108">Lync permet aux utilisateurs de passer des appels en tapant un nom ou un numéro de téléphone sur leur clavier, ou à l’aide d’un pavé de numérotation affiché à l’écran.</span><span class="sxs-lookup"><span data-stu-id="ddb83-108">Using Lync, users can place calls by typing a name or phone number on their keyboard, or using a dial pad displayed on their screen.</span></span> <span data-ttu-id="ddb83-109">Les utilisateurs peuvent également lancer des appels directement depuis leur liste de contacts.</span><span class="sxs-lookup"><span data-stu-id="ddb83-109">Users can also initiate calls directly from their Contacts list.</span></span> <span data-ttu-id="ddb83-110">Vous pouvez également déployer des appareils Lync Phone Edition, qui sont des appareils de téléphone IP autonomes proposés par des partenaires Microsoft.</span><span class="sxs-lookup"><span data-stu-id="ddb83-110">You can also deploy Lync Phone Edition devices, which are stand-alone IP phone devices provided by Microsoft partners.</span></span>
 
-Lorsqu’il parle à un autre utilisateur avec Lync, un utilisateur peut facilement ajouter du texte et un contenu vidéo ou partager son Bureau pendant la conversation. La fonctionnalité Ne pas déranger est intégrée aux paramètres de présence dans Lync.
+<span data-ttu-id="ddb83-111">Les utilisateurs peuvent utiliser plusieurs appareils téléphoniques enregistrés sur Lync Server et pouvoir basculer entre eux facilement.</span><span class="sxs-lookup"><span data-stu-id="ddb83-111">Users can have multiple phone devices registered with Lync Server, and can switch between them easily.</span></span>
 
-Avec messagerie unifiée Exchange, Lync et Lync Server s’intègrent à Microsoft Exchange Server 2013 et Microsoft Outlook 2013. Ainsi, les utilisateurs peuvent voir s’ils ont un nouveau message vocal dans la fenêtre Lync et dans la messagerie électronique. Si le message vocal est enregistré dans un message électronique, l’utilisateur peut cliquer dessus pour l’écouter ou afficher la transcription du message vocal.
+<span data-ttu-id="ddb83-112">Les utilisateurs sont avertis de tous les appels entrants sur tous leurs appareils, avec des sonneries personnalisées sur les appareils de téléphone IP et une notification similaire à un message instantané sur leur ordinateur.</span><span class="sxs-lookup"><span data-stu-id="ddb83-112">Users are alerted to incoming calls on all their devices simultaneously, with customizable ringtones on IP phone devices and a notification similar to an instant message on their PC.</span></span>
 
-## Fonctionnalités d’appel avancées
+<span data-ttu-id="ddb83-113">Les utilisateurs peuvent également définir un numéro de téléphone qui se connecte à leur téléphone de bureau, leur PC et leur téléphone mobile, afin de pouvoir y accéder où qu’ils se trouvent.</span><span class="sxs-lookup"><span data-stu-id="ddb83-113">Users can also set a single telephone number that connects to their desk phone, PC and mobile phone, so they can be reached no matter where they are.</span></span>
 
-Voix Entreprise regroupe également plusieurs fonctionnalités d’appel avancées, telles que la délégation d’appel, les appels d’équipe, la prise d’appel de groupe et les services Response Group.
+</div>
 
-La délégation permet aux utilisateurs de déléguer la gestion des appels à un ou plusieurs assistants. Le délégué peut effectuer plusieurs tâches d’appel au nom de l’utilisateur, y compris le filtrage et l’émission d’appels ou l’initialisation de conférences.
+<div>
 
-L’appel d’équipe permet à un utilisateur de faire sonner simultanément les téléphones de ses collègues en cas d’appel entrant, ce qui permet à n’importe quel membre de l’équipe de répondre à l’appel.
+## <a name="basic-call-features"></a><span data-ttu-id="ddb83-114">Fonctionnalités d’appel de base</span><span class="sxs-lookup"><span data-stu-id="ddb83-114">Basic Call Features</span></span>
 
-La Prise d’appel de groupe, une nouvelle fonctionnalité de la Mise à jour cumulative pour Lync Server 2013de février 2013, permet aux utilisateurs de répondre, sur leur propre téléphone, à des appels entrants destinés à leurs collègues. Cette fonctionnalité diffère de l’appel d’équipe principalement dans le sens où un appel entrant sonne uniquement sur le téléphone du destinataire prévu, mais n’importe quel autre utilisateur peut choisir d’y répondre en composant un numéro de groupe de prise d’appel.
+<span data-ttu-id="ddb83-115">Pendant un appel, un utilisateur peut répondre à d’autres appels entrants ou lancer des appels sortants, et l’appel actif actuel est mis automatiquement en attente.</span><span class="sxs-lookup"><span data-stu-id="ddb83-115">While on a call, a user can answer additional incoming calls or initiate outgoing calls, and the existing active call is automatically put on hold.</span></span> <span data-ttu-id="ddb83-116">Les appels peuvent être transférés d’un utilisateur à un autre, directement ou après que le premier utilisateur parle en privé.</span><span class="sxs-lookup"><span data-stu-id="ddb83-116">Calls can be transferred from one user to another, either directly or after the first user speaks privately with the second user.</span></span> <span data-ttu-id="ddb83-117">Les utilisateurs peuvent également transférer des appels vers un autre appareil. par exemple, ils pourraient transférer un appel actif vers leur téléphone mobile, car ils découvrent la porte de leur bureau.</span><span class="sxs-lookup"><span data-stu-id="ddb83-117">Users can also transfer calls to another device; for example, they could transfer an active call to their mobile phone as they walk out the door of their office.</span></span>
 
-Le service Response Group peut être configuré en vue de mettre en attente et d’acheminer intelligemment les appels vers des agents désignés. Les supports techniques informatiques, les services d’assistance téléphoniques des ressources humaines et d’autres centres de contact internes l’utilisent couramment.
+</div>
 
-## Administration de Voix Entreprise
+<div>
 
-Lync Server utilise des interfaces standard et publiées pour interagir avec l’infrastructure existante. Il prend en charge les options de passerelle et SIP (comme la jonction SIP) pour permettre l’interconnexion avec les systèmes PBX IP et les réseaux RTC afin que vous puissiez migrer progressivement les utilisateurs vers Voix Entreprise, tout en minimisant les risques d’interruption. Lync Server prend en charge les codecs traditionnels, tels que G.711, G.722 et G.723.1, pour garantir l’interopérabilité avec les solutions VoIP traditionnelles.
+## <a name="richer-communications"></a><span data-ttu-id="ddb83-118">Communications plus complètes</span><span class="sxs-lookup"><span data-stu-id="ddb83-118">Richer Communications</span></span>
 
-Grâce au contrôle d’admission des appels (CAC), les administrateurs peuvent limiter le trafic audio et vidéo Lync Server acheminé sur des liaisons réseau restreintes, et spécifier ce qu’il faut faire si un nouvel appel dépasse cette limite. Par exemple, l’appel peut être routé par un autre chemin ou refusé.
+<span data-ttu-id="ddb83-119">Lorsque vous parlez à un autre utilisateur avec Lync, les utilisateurs peuvent facilement ajouter du texte, de la vidéo ou du partage de bureau à l’appel.</span><span class="sxs-lookup"><span data-stu-id="ddb83-119">When talking to another user with Lync, users can easily add text, video, or desktop sharing to the call.</span></span> <span data-ttu-id="ddb83-120">La fonctionnalité ne pas déranger est intégrée aux paramètres de présence dans Lync.</span><span class="sxs-lookup"><span data-stu-id="ddb83-120">The Do-Not-Disturb feature is integrated with the presence settings in Lync.</span></span>
 
-Lync Server fonctionne avec des Survivable Branch Appliances tiers pour fournir des services d’appel local et une connexion RTC dans les succursales, au cas où la liaison du réseau étendu tomberait en panne sur le site central.
+<span data-ttu-id="ddb83-121">Avec la messagerie unifiée Exchange, Lync et Lync Server s’intègrent à Microsoft Exchange Server 2013 et Microsoft Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="ddb83-121">With Exchange Unified Messaging (UM), Lync and Lync Server integrate with Microsoft Exchange Server 2013 and Microsoft Outlook 2013.</span></span> <span data-ttu-id="ddb83-122">Les utilisateurs peuvent voir s’ils ont de nouveaux messages vocaux dans leur fenêtre Lync et dans leurs messages électroniques.</span><span class="sxs-lookup"><span data-stu-id="ddb83-122">Users can see if they have new voice mail both in their Lync window and in email.</span></span> <span data-ttu-id="ddb83-123">Dans un courrier électronique, ils peuvent cliquer pour lire le fichier audio de la messagerie vocale dans un message électronique ou afficher une transcription du message vocal.</span><span class="sxs-lookup"><span data-stu-id="ddb83-123">While in email they can click to play the voice mail audio in an email message, or view a transcript of the voice mail message.</span></span>
+
+</div>
+
+<div>
+
+## <a name="advanced-calling-features"></a><span data-ttu-id="ddb83-124">Fonctionnalités d’appel avancées</span><span class="sxs-lookup"><span data-stu-id="ddb83-124">Advanced Calling Features</span></span>
+
+<span data-ttu-id="ddb83-125">Voix entreprise inclut plusieurs fonctionnalités d’appel avancées, telles que la délégation d’appels Lync, les appels d’équipe, la collecte d’appels de groupe et les groupes de réponse.</span><span class="sxs-lookup"><span data-stu-id="ddb83-125">Enterprise Voice includes several advanced calling features as well, such as Lync call delegation, team calling, Group Call Pickup, and Response Groups.</span></span>
+
+<span data-ttu-id="ddb83-126">La délégation d’appel Lync permet aux utilisateurs de déléguer la gestion des appels à un ou plusieurs assistants, en accédant à **Outils** \> **options** \> de **transfert d’appel**.</span><span class="sxs-lookup"><span data-stu-id="ddb83-126">Lync call delegation enables users to delegate call handling to one or more assistants, by going to **Tools** \> **Options** \> **Call Forwarding Settings**.</span></span> <span data-ttu-id="ddb83-127">Le délégué peut effectuer plusieurs tâches d’appel de la part de l’utilisateur, y compris les appels de filtrage, le placement d’appels et l’initiation de conférences.</span><span class="sxs-lookup"><span data-stu-id="ddb83-127">The delegate can perform multiple calling tasks on behalf of the user, including screening calls, placing calls, and initiating conferences.</span></span>
+
+<div>
+
+
+> [!IMPORTANT]  
+> <span data-ttu-id="ddb83-128">Il est possible que vous souhaitiez Rechercher une autre fonctionnalité nommée de la même façon, délégation de calendrier Lync.</span><span class="sxs-lookup"><span data-stu-id="ddb83-128">You may be looking for another similarly named feature, Lync calendar delegation.</span></span> <span data-ttu-id="ddb83-129">La fonctionnalité voix entreprise n’est pas obligatoire et permet aux utilisateurs de planifier des réunions Lync en ligne à partir d’Outlook.</span><span class="sxs-lookup"><span data-stu-id="ddb83-129">It doesn't require the Enterprise Voice feature and does allow users to schedule online Lync meetings from Outlook.</span></span> <span data-ttu-id="ddb83-130">Si vous recherchez ces informations, nous vous recommandons de consulter <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> pour plus d’informations sur l’activation de la synchronisation de délégué Exchange.</span><span class="sxs-lookup"><span data-stu-id="ddb83-130">If you've come here looking for that info, we recommend checking out <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A> for information on enabling Exchange delegate sync.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="ddb83-131">Les appels d’équipe permettent à un utilisateur de faire sonner simultanément les téléphones des membres de l’équipe pour que tous les membres de l’équipe puissent répondre à l’appel.</span><span class="sxs-lookup"><span data-stu-id="ddb83-131">Team calling enables a user to have incoming calls simultaneously ring the phones of teammates so that anyone on the team can answer the call.</span></span>
+
+<span data-ttu-id="ddb83-132">Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013: février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone.</span><span class="sxs-lookup"><span data-stu-id="ddb83-132">Group Call Pickup, a new feature in Cumulative Updates for Lync Server 2013: February 2013, lets users answer incoming calls to their colleagues from their own phones.</span></span> <span data-ttu-id="ddb83-133">Le prélèvement d’appels de groupe diffère de l’appel d’équipe dans la mesure où un appel entrant sonne uniquement sur le téléphone du destinataire prévu, mais que les autres utilisateurs peuvent choisir d’y répondre en composant un numéro de groupe.</span><span class="sxs-lookup"><span data-stu-id="ddb83-133">Group Call Pickup differs from team calling primarily in that an incoming call rings only at the intended recipient's phone, but any other user can choose to answer it by dialing a call pickup group number.</span></span>
+
+<span data-ttu-id="ddb83-134">Les groupes de réponse peuvent être configurés pour la mise en file d’attente et le routage intelligent des appels vers les agents désignés.</span><span class="sxs-lookup"><span data-stu-id="ddb83-134">Response Groups can be set up for queuing and intelligently routing calls to designated agents.</span></span> <span data-ttu-id="ddb83-135">Les utilisations courantes incluent les support informatiques, les services d’assistance aux ressources humaines et autres centres de contacts internes.</span><span class="sxs-lookup"><span data-stu-id="ddb83-135">Common uses include IT helpdesks, human resources hotlines, and other internal contact centers.</span></span>
+
+</div>
+
+<div>
+
+## <a name="enterprise-voice-administration"></a><span data-ttu-id="ddb83-136">Administration de voix entreprise</span><span class="sxs-lookup"><span data-stu-id="ddb83-136">Enterprise Voice Administration</span></span>
+
+<span data-ttu-id="ddb83-137">Lync Server utilise des normes et des interfaces publiées pour interagir avec l’infrastructure existante.</span><span class="sxs-lookup"><span data-stu-id="ddb83-137">Lync Server uses standards and published interfaces to interoperate with existing infrastructure.</span></span> <span data-ttu-id="ddb83-138">Il prend en charge les options passerelle et SIP (par exemple, le trunking SIP) pour une interconnexion aux systèmes PBX IP et aux réseaux RTC, afin que vous puissiez migrer les utilisateurs vers Enterprise Voice dans le temps, tout en minimisant les interruptions.</span><span class="sxs-lookup"><span data-stu-id="ddb83-138">It supports both gateway and SIP options (such as SIP trunking) for interconnection to IP PBX systems and the PSTN networks, so that you can migrate users to Enterprise Voice over time, while minimizing disruption.</span></span> <span data-ttu-id="ddb83-139">Lync Server prend en charge les codecs traditionnels tels que G. 711, G. 722 et G. 723.1 pour l’interopérabilité avec les solutions VoIP traditionnelles.</span><span class="sxs-lookup"><span data-stu-id="ddb83-139">Lync Server supports traditional codecs such as G.711, G.722, and G.723.1 for interoperability with traditional VoIP solutions.</span></span>
+
+<span data-ttu-id="ddb83-140">Le contrôle d’admission des appels permet aux administrateurs de définir des limites sur le volume de trafic audio et vidéo de Lync Server transporté par des liaisons réseau contraintes et de spécifier l’action à entreprendre si un nouvel appel dépasse la limite.</span><span class="sxs-lookup"><span data-stu-id="ddb83-140">With call admission control (CAC), administrators can set limits on the amount of Lync Server voice and video traffic carried on constrained network links, and specify the action to be taken if a new call would exceed the limit.</span></span> <span data-ttu-id="ddb83-141">Les actions peuvent inclure le routage via un autre chemin ou le rejet de l’appel.</span><span class="sxs-lookup"><span data-stu-id="ddb83-141">The actions could include routing by an alternate path, or refusing the call.</span></span>
+
+<span data-ttu-id="ddb83-142">Lync Server fonctionne avec des appareils de succursales Survivables tiers pour fournir des services d’appel local et une connexion RTC aux succursales, en cas de panne du WAN sur le site central.</span><span class="sxs-lookup"><span data-stu-id="ddb83-142">Lync Server works with third-party Survivable Branch Appliances to provide local calling services and connection to PSTN at branch offices, in case of WAN failure at the central site.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

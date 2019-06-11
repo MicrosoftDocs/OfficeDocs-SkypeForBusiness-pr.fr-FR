@@ -1,35 +1,65 @@
-﻿---
-title: 'Lync Server 2013 : Désactivation ou activation d’une salle de conversation'
-TOCTitle: Désactivation ou activation d’une salle de conversation
-ms:assetid: db0908fc-aae3-46e8-bc0b-245e9adfa1e2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ215883(v=OCS.15)
-ms:contentKeyID: 49299030
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Désactivation ou activation d’une salle de conversation'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Disabling or enabling a chat room
+ms:assetid: db0908fc-aae3-46e8-bc0b-245e9adfa1e2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215883(v=OCS.15)
+ms:contentKeyID: 48706011
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f89862b4f7e38a637fa183641f8cdc75e0491379
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831376"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Désactivation ou activation d’une salle de conversation dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2014-02-05_
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a><span data-ttu-id="d67e8-102">Désactivation ou activation d’une salle de conversation dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d67e8-102">Disabling or enabling a chat room in Lync Server 2013</span></span>
 
-Si le sujet d’une salle de conversation permanente n’est plus pertinent, vous pouvez rendre la salle de conversation inaccessible aux utilisateurs en la désactivant. Lorsqu’une salle de conversation est désactivée, tous les membres sont immédiatement déconnectés de la salle. Une fois une salle de conversation désactivée, les utilisateurs ne peuvent ni la rejoindre, ni la trouver lors de recherches de salles de conversation.
+</div>
 
-Une salle de conversation désactivée peut être activée ultérieurement par un administrateur de conversation permanente. Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés. Si vous la réactivez, vous n’avez pas besoin de recréer manuellement les paramètres.
+<div id="mainSection">
 
-Si l’historique de la salle de conversation est conservé (la conservation de l’historique d’une salle de conversation est un paramètre facultatif lié à une catégorie qui s’applique à toutes les salles au sein de la catégorie ; par défaut, il est conservé, mais l’option peut être désactivée en définissant le paramètre **Activer l’historique des conversations** de la catégorie sur false), le contenu est conservé si la salle est désactivée. Cependant, le contenu ne s’affichera pas dans les recherches tant que la salle de conversation demeurera dans son état de désactivation. Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle.
+<div id="mainBody">
 
-Pour plus d’informations sur la désactivation et l’activation des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, reportez-vous à « Gestion des salles » dans [Configuration du serveur de conversation permanentte avec les applets de commande Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md). Pour désactiver une salle de conversation, utilisez une commande de type :
+<span> </span>
+
+<span data-ttu-id="d67e8-103">_**Dernière modification de la rubrique:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="d67e8-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+
+<span data-ttu-id="d67e8-104">Si le sujet d’une salle de conversation permanente n’est plus pertinent, vous pouvez rendre la salle de conversation non disponible pour les utilisateurs en la désactivant.</span><span class="sxs-lookup"><span data-stu-id="d67e8-104">If the topic of a Persistent Chat room is no longer relevant, you can make the chat room unavailable to users by disabling it.</span></span> <span data-ttu-id="d67e8-105">Lorsqu’une salle de conversation est désactivée, tous les membres sont immédiatement déconnectés de la salle.</span><span class="sxs-lookup"><span data-stu-id="d67e8-105">When a chat room is disabled, all members are immediately disconnected from the room.</span></span> <span data-ttu-id="d67e8-106">Une fois qu’une salle de conversation est désactivée, les utilisateurs ne peuvent ni la rejoindre, ni la trouver lors de recherches de salles de conversation.</span><span class="sxs-lookup"><span data-stu-id="d67e8-106">After a chat room is disabled, users cannot rejoin it or find it in chat room searches.</span></span>
+
+<span data-ttu-id="d67e8-107">Une salle de conversation désactivée peut être activée ultérieurement par un administrateur de chat permanent.</span><span class="sxs-lookup"><span data-stu-id="d67e8-107">A disabled chat room can be enabled later by a Persistent Chat administrator.</span></span> <span data-ttu-id="d67e8-108">Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés.</span><span class="sxs-lookup"><span data-stu-id="d67e8-108">If a chat room is disabled, its membership list and other settings are preserved.</span></span> <span data-ttu-id="d67e8-109">Si vous réactivez la salle, vous n’avez pas besoin de recréer les paramètres manuellement.</span><span class="sxs-lookup"><span data-stu-id="d67e8-109">If you enable the room again, you do not need to manually re-create the settings.</span></span>
+
+<span data-ttu-id="d67e8-110">Si l’historique de la salle de conversation persiste (la persistance de l’historique des salles de conversation est un paramètre facultatif sur une catégorie qui s’applique à toutes les pièces au sein de la catégorie; la valeur par défaut est conservée, mais peut être désactivée en définissant l' **historique de conversation** de la catégorie sur faux), le contenu est conservé lorsque la salle de conversation est désactivée.</span><span class="sxs-lookup"><span data-stu-id="d67e8-110">If the chat room’s history persists (chat room history persistence is an optional setting on a category that applies to all rooms within the category; the default is that it is persisted, but can be turned off by setting the category’s **Enable Chat History** to false), the content is preserved when the chat room is disabled.</span></span> <span data-ttu-id="d67e8-111">Cependant, le contenu ne s’affichera pas dans les recherches tant que la salle de conversation demeurera désactivée.</span><span class="sxs-lookup"><span data-stu-id="d67e8-111">However, that content will not appear in searches during the time that the chat room remains in a disabled state.</span></span> <span data-ttu-id="d67e8-112">Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle.</span><span class="sxs-lookup"><span data-stu-id="d67e8-112">If you later enable the chat room, users can search for messages that were posted before the chat room was disabled.</span></span>
+
+<span data-ttu-id="d67e8-113">Pour plus d’informations sur la désactivation et l’activation de salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, voir «gestion des salles» dans [configuration du serveur de chat permanent à l’aide des applets de commande Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span><span class="sxs-lookup"><span data-stu-id="d67e8-113">For details about disabling and enabling chat rooms by using the Windows PowerShell command-line interface, see "Room Management" in [Configuring Persistent Chat Server by using Windows PowerShell cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).</span></span> <span data-ttu-id="d67e8-114">Pour désactiver une salle de conversation, utilisez une commande semblable à celle-ci:</span><span class="sxs-lookup"><span data-stu-id="d67e8-114">To disable a chat room, use a command similar to this:</span></span>
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
-Pour activer une salle de conversation, définissez la propriété Disabled sur False :
+<span data-ttu-id="d67e8-115">Pour activer une salle de conversation, définissez la propriété disabled sur false:</span><span class="sxs-lookup"><span data-stu-id="d67e8-115">To enabled a chat room, set the Disabled property to False:</span></span>
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $False
 
-Notez que vous ne pouvez pas utiliser Panneau de configuration Lync Server pour activer ou désactiver des salles de conversation.
+<span data-ttu-id="d67e8-116">Notez que les salles de conversation ne peuvent pas être activées ou désactivées à l’aide du panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="d67e8-116">Note that chat rooms cannot be enabled or disabled by using the Lync Server Control Panel.</span></span>
 
-Pour plus d’informations sur la configuration des salles de configuration, reportez-vous à [Configuration des salles dans in Lync Server 2013](lync-server-2013-configure-rooms.md) dans la documentation de déploiement.
+<span data-ttu-id="d67e8-117">Pour plus d’informations sur la configuration des salles de conversation, voir [configurer des salles dans Lync Server 2013](lync-server-2013-configure-rooms.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="d67e8-117">For details about configuring chat rooms, see [Configure rooms in Lync Server 2013](lync-server-2013-configure-rooms.md) in the Deployment documentation.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

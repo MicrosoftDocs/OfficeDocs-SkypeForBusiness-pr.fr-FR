@@ -1,47 +1,105 @@
-﻿---
-title: "FAQ sur la prise en charge des grandes réunions Lync Server 2013"
-TOCtitle: "FAQ sur la prise en charge des grandes réunions Lync Server 2013"
-ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204804(v=OCS.15)
-ms:contentKeyID: 49296832
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: FAQ sur la prise en charge des réunions de grande taille'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync Server large meeting support FAQ
+ms:assetid: 34b4fb6a-e35c-47e8-8ab1-f8331741fed2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204804(v=OCS.15)
+ms:contentKeyID: 48183837
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1c8355374a773afe3d6da22c886a2b103b13abd3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34830948"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Forum aux questions sur la prise en charge des grandes réunions Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a><span data-ttu-id="d7a68-102">FAQ sur la prise en charge des réunions de grande taille pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7a68-102">Large meeting support FAQ for Lync Server 2013</span></span>
 
-Les sections suivantes apportent des réponses aux questions fréquemment posées sur la création et l’exécution de grandes réunions.
+</div>
 
-## Q : Combien d’utilisateurs peuvent participer à une grande réunion ?
+<div id="mainSection">
 
-Le modèle d’utilisateur Lync Server spécifie une limite de 250 utilisateurs pour un pool partagé ou de 1 000 utilisateurs pour un pool consacré aux grandes réunions, mais ces chiffres ne représentent que le nombre d’utilisateurs que nous avons testés, et uniquement pour la configuration matérielle utilisée dans notre test. Ces limites maximales sont donc recommandées par rapport à ce test. Toutefois, vous contrôlez le nombre réel de participants aux réunions dans votre organisation en configurant une ou plusieurs stratégies de conférence (à l’aide des applets de commande Windows PowerShell dans Lync Server Management Shell ou à partir du Panneau de configuration Lync Server). Le nombre spécifié dans une stratégie de conférence peut être tout nombre entier 32 bits compris entre 1 et 4 294 967 295, mais la taille recommandée est comprise entre 2 et 250 participants, inclus. La valeur par défaut est 250.
+<div id="mainBody">
 
-## Q : Combien de réunions ou autres charges de travail puis-je avoir dans un pool dédié aux grandes réunions ?
+<span> </span>
 
-Pour garantir la meilleure expérience utilisateur dans les grandes réunions d’un maximum de 1 000 participants, nous vous conseillons d’héberger sur un pool dédié aux grandes réunions une seule grande réunion à la fois. Il est aussi préférable de ne pas autoriser l’exécution d’autres charges de travail sur ce pool pendant le déroulement d’une grande réunion.
+<span data-ttu-id="d7a68-103">_**Dernière modification de la rubrique:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="d7a68-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-## Q : Les organisateurs de grandes réunions doivent-ils être hébergés sur le pool dédié ?
+<span data-ttu-id="d7a68-104">Les sections suivantes fournissent des réponses aux questions les plus fréquentes sur la création et l’exécution de réunions de grande envergure.</span><span class="sxs-lookup"><span data-stu-id="d7a68-104">The following sections provide answers to common questions for creating and running large meetings.</span></span>
 
-Non. Nous ne recommandons pas d’héberger sur le pool dédié des utilisateurs autres que le personnel dédié à la planification des grandes réunions. Cela permet d’éviter que les grandes réunions hébergées dans le pool ne soient affectées par le trafic d’autres communications en temps réel. Vous devez planifier les grandes réunions sur le pool dédié à l’aide d’un compte d’utilisateur appartenant à un membre du personnel chargé de la planification des grandes réunions. Vous devez ajouter le compte d’utilisateur de l’organisateur de la réunion (celui qui sollicite la grande réunion) en tant que présentateur de la grande réunion.
+<div>
 
-## Q : Quelles modalités multimédias puis-je utiliser dans une grande réunion ?
+## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a><span data-ttu-id="d7a68-105">Q: combien d’utilisateurs peuvent participer à une réunion de grande envergure?</span><span class="sxs-lookup"><span data-stu-id="d7a68-105">Q: How many users can participate in a large meeting?</span></span>
 
-Les grandes réunions de plus de 1 000 utilisateurs peuvent inclure de l’audio, de la vidéo, un partage PowerPoint, des tableaux blancs et l’interrogation de présence.
+<span data-ttu-id="d7a68-106">Le modèle utilisateur de Lync Server spécifie des limites d’utilisateurs 250 dans un pool partagé ou 1000 utilisateurs dans un pool dédié à des réunions de grande taille, mais ces numéros représentent uniquement le nombre d’utilisateurs que nous avons testés et uniquement pour l’ensemble spécifique de matériel que nous avons utilisé dans le cadre de nos tests.</span><span class="sxs-lookup"><span data-stu-id="d7a68-106">The Lync Server user model specifies limits of 250 users in a shared pool or 1000 users in a pool dedicated to large meetings, but these numbers only represent the number of users we tested and only for the specific set of hardware that we used in our testing.</span></span> <span data-ttu-id="d7a68-107">D’après nos tests, nous vous conseillons de les limiter à des tailles maximales.</span><span class="sxs-lookup"><span data-stu-id="d7a68-107">Based on our testing, we recommend those limits for maximum sizes.</span></span> <span data-ttu-id="d7a68-108">Toutefois, vous contrôlez le nombre réel de participants autorisés à participer à des réunions au sein de votre organisation en configurant une ou plusieurs stratégies de conférence (que vous configurez à l’aide d’applets de commande Windows PowerShell dans Lync Server Management Shell ou à l’aide du serveur Lync. Panneau de configuration).</span><span class="sxs-lookup"><span data-stu-id="d7a68-108">However, you control the actual number of participants allowed in meetings in your organization by configuring one or more conferencing policies (which you configure using Windows PowerShell cmdlets in the Lync Server Management Shell or using the Lync Server Control Panel).</span></span> <span data-ttu-id="d7a68-109">Le numéro que vous spécifiez dans une stratégie de conférence peut être tout nombre entier de 32 bits compris entre 1 et 4 294 967 295, mais la taille recommandée est comprise entre 2 et 250 participants, y compris. et la valeur par défaut est 250.</span><span class="sxs-lookup"><span data-stu-id="d7a68-109">The number that you specify in a conferencing policy can be any 32-bit whole number between 1 and 4,294,967,295, but the recommended size is between 2 and 250 participants, inclusive; and the default value is 250.</span></span>
 
-## Q : Puis-je utiliser la messagerie instantanée de groupe dans les grandes réunions ?
+</div>
 
-Oui. Toutefois, un grand nombre de messages instantanés, en particulier quand ils sont envoyés par un grand nombre de participants à la réunion, peuvent affecter l’expérience utilisateur en raison des problèmes liés au défilement rapide du texte dans la fenêtre de messagerie instantanée. La distribution d’un grand nombre de messages instantanés à un groupe de 1 000 utilisateurs peut également introduire des charges de serveur considérable, et ainsi nuire aux performances. En règle générale, la messagerie instantanée n’est requise que pour les questions et réponses.
+<div>
 
-## Q :Les utilisateurs peuvent-ils participer à de grandes réunions en composant le numéro à partir d’un téléphone ?
+## <a name="q-how-many-meetings-or-other-workloads-can-i-have-in-a-pool-that-is-dedicated-to-large-meetings"></a><span data-ttu-id="d7a68-110">Q: combien de réunions ou autres charges de travail puis-je avoir dans un pool dédié aux grandes réunions?</span><span class="sxs-lookup"><span data-stu-id="d7a68-110">Q: How many meetings or other workloads can I have in a pool that is dedicated to large meetings?</span></span>
 
-Oui. Si le pool Lync Server 2013 est correctement déployé et activé pour la conférence rendez-vous, les utilisateurs ont la possibilité de participer à des grandes réunions en composant un numéro. Nos tests ont montré que jusqu’à 15 % de 1 000 participants peuvent participer à une grande réunion pendant 10 minutes.
+<span data-ttu-id="d7a68-111">Pour garantir 1000 une meilleure utilisation de l’utilisateur dans les réunions de grande taille, nous vous conseillons d’héberger uniquement une seule grande réunion à la fois sur un pool dédié aux réunions de grande envergure.</span><span class="sxs-lookup"><span data-stu-id="d7a68-111">To ensure the best user experience in large meetings of up to 1000 participants, we recommend hosting only a single large meeting at a time on a pool that is dedicated to large meetings.</span></span> <span data-ttu-id="d7a68-112">Nous vous recommandons également de ne pas autoriser l’exécution de toutes les autres charges de travail sur le pool lors de la grande réunion.</span><span class="sxs-lookup"><span data-stu-id="d7a68-112">We also recommend not allowing any other workloads to run on that pool when the large meeting is in progress.</span></span>
 
-## Q : Puis-je héberger des grandes réunions dans une topologie virtuelle ?
+</div>
 
-Nous n’avons pas testé de grandes réunions dans une topologie virtuelle, nous ne sommes donc pas en mesure d’assurer un support en cas d’utilisation d’ordinateurs virtuels pour héberger un pool dédié aux grandes réunions.
+<div>
+
+## <a name="q-should-the-organizers-of-large-meeting-be-homed-on-the-dedicated-pool"></a><span data-ttu-id="d7a68-113">Q: les organisateurs de grande réunion doivent-ils être hébergés sur le pool dédié?</span><span class="sxs-lookup"><span data-stu-id="d7a68-113">Q: Should the organizers of large meeting be homed on the dedicated pool?</span></span>
+
+<span data-ttu-id="d7a68-114">Non.</span><span class="sxs-lookup"><span data-stu-id="d7a68-114">No.</span></span> <span data-ttu-id="d7a68-115">Nous vous recommandons de ne pas organiser des utilisateurs autres que le personnel spécialisé qui gère la planification de réunions de grande envergure sur le pool dédié.</span><span class="sxs-lookup"><span data-stu-id="d7a68-115">We recommend not homing any users other than the dedicated staff that manages scheduling of large meetings on the dedicated pool.</span></span> <span data-ttu-id="d7a68-116">Cela empêche tout trafic de communication en temps réel de provoquer des problèmes liés aux réunions importantes qui sont hébergées dans le pool.</span><span class="sxs-lookup"><span data-stu-id="d7a68-116">This prevents other real-time communications traffic from causing problems with large meetings that are hosted in the pool.</span></span> <span data-ttu-id="d7a68-117">Il est recommandé de planifier des réunions de grande envergure sur le pool dédié en utilisant un compte d’utilisateur du personnel directeur de la réunion.</span><span class="sxs-lookup"><span data-stu-id="d7a68-117">You should schedule large meetings on the dedicated pool using a user account of the large meeting scheduling staff.</span></span> <span data-ttu-id="d7a68-118">Vous devez ajouter le compte d’utilisateur de l’organisateur de la réunion (l’utilisateur qui demande une importante réunion) en tant que présentateur de la grande réunion.</span><span class="sxs-lookup"><span data-stu-id="d7a68-118">You should add the user account of the meeting organizer (the user who requests a large meeting) as a presenter for the large meeting.</span></span>
+
+</div>
+
+<div>
+
+## <a name="q-what-media-modalities-can-i-use-in-a-large-meeting"></a><span data-ttu-id="d7a68-119">Q: Quelles sont les modalités de médias que j’utilise dans une grande réunion?</span><span class="sxs-lookup"><span data-stu-id="d7a68-119">Q: What media modalities can I use in a large meeting?</span></span>
+
+<span data-ttu-id="d7a68-120">Les réunions de grande envergure avec un maximum de 1000 peuvent inclure des éléments audio, vidéo, partage PowerPoint, tableaux blancs et interrogation de présence.</span><span class="sxs-lookup"><span data-stu-id="d7a68-120">Large meetings with up to 1000 users can include audio, video, PowerPoint sharing, whiteboards, and presence polling.</span></span>
+
+</div>
+
+<div>
+
+## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a><span data-ttu-id="d7a68-121">Q: est-il possible d’utiliser la messagerie instantanée de groupe dans de grandes réunions?</span><span class="sxs-lookup"><span data-stu-id="d7a68-121">Q: Can I use group instant messaging (IM) in large meetings?</span></span>
+
+<span data-ttu-id="d7a68-122">Oui.</span><span class="sxs-lookup"><span data-stu-id="d7a68-122">Yes.</span></span> <span data-ttu-id="d7a68-123">Toutefois, un grand nombre de messages instantanés, en particulier ceux envoyés par un grand nombre de participants à la réunion, peuvent influer sur l’interface utilisateur en raison de problèmes liés au défilement rapide du texte dans la fenêtre de messagerie instantanée.</span><span class="sxs-lookup"><span data-stu-id="d7a68-123">However, large numbers of instant messages, especially when sent by a large number of meeting participants, can affect the user experience due to problems with fast text scrolling in the IM window.</span></span> <span data-ttu-id="d7a68-124">La livraison d’un grand nombre de messages instantanés à un maximum de 1000 utilisateurs peut également provoquer de importants efforts de chargement du serveur, ce qui peut affecter les performances.</span><span class="sxs-lookup"><span data-stu-id="d7a68-124">Delivering a large amount of instant messages to up to 1000 users can also introduce significant server loads, which can affect performance.</span></span> <span data-ttu-id="d7a68-125">En règle générale, la messagerie instantanée est uniquement requise pour les\&questions et réponses (Q As).</span><span class="sxs-lookup"><span data-stu-id="d7a68-125">Generally, IM is only required for questions and answers (Q\&As).</span></span>
+
+</div>
+
+<div>
+
+## <a name="can-users-join-large-meetings-by-dialing-in-from-a-phone"></a><span data-ttu-id="d7a68-126">Les utilisateurs peuvent-ils participer à des réunions importantes en se connectant depuis un téléphone?</span><span class="sxs-lookup"><span data-stu-id="d7a68-126">Can users join large meetings by dialing in from a phone?</span></span>
+
+<span data-ttu-id="d7a68-127">Oui.</span><span class="sxs-lookup"><span data-stu-id="d7a68-127">Yes.</span></span> <span data-ttu-id="d7a68-128">Si le pool Lync Server 2013 est correctement déployé et activé pour la Conférence rendez-vous, les utilisateurs peuvent rejoindre les réunions de grande taille en composant un numéro de téléphone.</span><span class="sxs-lookup"><span data-stu-id="d7a68-128">If the Lync Server 2013 pool is properly deployed and enabled for dial-in conferencing, users will be able to join the large meetings by dialing in.</span></span> <span data-ttu-id="d7a68-129">Nos tests ont démontré qu’un maximum de 15% des utilisateurs de 1000 peuvent rejoindre la réunion de grande taille sur une période de 10 minutes.</span><span class="sxs-lookup"><span data-stu-id="d7a68-129">Our testing has shown that up to 15% of the 1000 users can join the large meeting over a 10 minute period.</span></span>
+
+</div>
+
+<div>
+
+## <a name="q-can-i-host-large-meetings-in-a-virtual-topology"></a><span data-ttu-id="d7a68-130">Q: est-il possible d’héberger de grandes réunions dans une topologie virtuelle?</span><span class="sxs-lookup"><span data-stu-id="d7a68-130">Q: Can I host large meetings in a virtual topology?</span></span>
+
+<span data-ttu-id="d7a68-131">Comme nous n’avons pas testé de grande réunion dans une topologie virtuelle, nous ne prenons pas en charge l’utilisation d’ordinateurs virtuels pour l’hébergement d’une réserve dédiée pour les réunions de grande envergure.</span><span class="sxs-lookup"><span data-stu-id="d7a68-131">We have not tested large meetings in a virtual topology, so we do not support the use of virtual machines to host a dedicated pool for large meetings.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

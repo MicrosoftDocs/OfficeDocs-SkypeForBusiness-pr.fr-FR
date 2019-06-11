@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013 : Configuration requise de Voix Entreprise'
-TOCTitle: Configuration requise de Voix Entreprise
-ms:assetid: eca317b9-2f4f-4d40-9509-9d734b2305b0
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399068(v=OCS.15)
-ms:contentKeyID: 49299227
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration requise de Voix Entreprise'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enterprise Voice prerequisites
+ms:assetid: eca317b9-2f4f-4d40-9509-9d734b2305b0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399068(v=OCS.15)
+ms:contentKeyID: 48185746
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03baddeb817b97452fa88bc2f2a070757ebf4f54
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831202"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration requise de Voix Entreprise pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-08-06_
+# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a><span data-ttu-id="f2b26-102">Configuration requise de Voix Entreprise pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2b26-102">Enterprise Voice prerequisites for Lync Server 2013</span></span>
 
-Pour que le déploiement de Voix Entreprise se déroule dans les meilleures conditions possibles, vérifiez que l’infrastructure, le réseau et les systèmes informatiques remplissent les conditions préalables décrites dans cette section.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Configuration logicielle requise pour Entreprise Voix dans Lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+<div id="mainBody">
 
-  - [Conditions prérequises de configuration et de sécurité pour Voix Entreprise dans Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+<span> </span>
+
+<span data-ttu-id="f2b26-103">_**Dernière modification de la rubrique:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="f2b26-103">_**Topic Last Modified:** 2012-08-06_</span></span>
+
+<span data-ttu-id="f2b26-104">Pour une utilisation optimale lors du déploiement d’Enterprise Voice, assurez-vous que votre infrastructure, réseau et systèmes informatiques répondent à la configuration requise décrite dans les rubriques de cette section.</span><span class="sxs-lookup"><span data-stu-id="f2b26-104">For the best experience when deploying Enterprise Voice, be sure that your IT infrastructure, network, and systems meet the prerequisites described in the topics in this section.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="f2b26-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="f2b26-105">In This Section</span></span>
+
+  - [<span data-ttu-id="f2b26-106">Configuration logicielle requise pour Entreprise Voix dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2b26-106">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+
+  - [<span data-ttu-id="f2b26-107">Conditions préalables à la sécurité et à la configuration pour Enterprise Voice dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2b26-107">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

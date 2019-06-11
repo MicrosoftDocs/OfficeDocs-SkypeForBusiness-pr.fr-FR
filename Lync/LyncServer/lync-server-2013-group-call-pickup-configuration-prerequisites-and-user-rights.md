@@ -1,64 +1,112 @@
-﻿---
-title: "Droits d’ut. requis et élém. prérequis pour conf. de la prise d’appel de gr."
-TOCtitle: "Droits d’ut. requis et élém. prérequis pour conf. de la prise d’appel de gr."
-ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945641(v=OCS.15)
-ms:contentKeyID: 53095454
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Conditions préalables et droits d’utilisateur pour la configuration des appels de groupe
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Group Call Pickup configuration prerequisites and user rights
+ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945641(v=OCS.15)
+ms:contentKeyID: 51541495
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2eb0af5b78d5d391ba055e557ad71da79484b5c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831113"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Droits d’utilisateur requis et éléments prérequis pour la configuration de la prise d’appel de groupe
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-01-30_
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="c7509-102">Configuration requise pour les appels de groupe et droits d’utilisateur dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7509-102">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>
 
-La prise d’appel de groupe est une fonctionnalité de gestion des appels installée par défaut lorsque vous déployez Voix Entreprise. Cette rubrique présente la configuration requise pour la prise d’appel de groupe ainsi que les droits d’utilisateur nécessaires pour effectuer les tâches de configuration.
+</div>
 
-Cette section part du principe que vous avez lu la documentation de planification relative à la prise d’appel de groupe (voir [Planification de la prise d’appel de groupe dans Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).
+<div id="mainSection">
 
-## Éléments requis pour la configuration de la prise d’appel de groupe
+<div id="mainBody">
 
-La prise d’appel de groupe requiert les composants suivants :
+<span> </span>
 
-  - service d’application
+<span data-ttu-id="c7509-103">_**Dernière modification de la rubrique:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="c7509-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-  - application de parcage d’appel
+<span data-ttu-id="c7509-104">La cueillette de groupe est une fonctionnalité de gestion des appels qui est installée par défaut lors du déploiement d’Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="c7509-104">Group Call Pickup is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="c7509-105">Cette rubrique décrit ce que vous devez mettre en place avant de pouvoir configurer la collecte d’appels de groupe et les droits d’utilisateur nécessaires à l’exécution des tâches de configuration.</span><span class="sxs-lookup"><span data-stu-id="c7509-105">This topic describes what you need to have in place before you can configure Group Call Pickup and the user rights that you need to perform configuration tasks.</span></span>
 
-Ces composants sont installés automatiquement lors du déploiement de Voix Entreprise.
+<span data-ttu-id="c7509-106">Cette section part du principe que vous avez lu la documentation de planification liée au regroupement d’appels de groupe (voir [planification d’appels de groupe dans Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span><span class="sxs-lookup"><span data-stu-id="c7509-106">This section assumes that you have read the planning documentation related to Group Call Pickup (see [Planning for Group Call Pickup in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span></span>
 
-## Droits d’utilisateur requis pour la configuration de la prise d’appel de groupe
+<div>
 
-Vous devez utiliser les outils d’administration suivants pour configurer la prise d’appel de groupe :
+## <a name="group-call-pickup-configuration-prerequisites"></a><span data-ttu-id="c7509-107">Configuration requise pour la configuration des appels de groupe</span><span class="sxs-lookup"><span data-stu-id="c7509-107">Group Call Pickup Configuration Prerequisites</span></span>
 
-  - Lync Server Management Shell
+<span data-ttu-id="c7509-108">La collecte des appels de groupe nécessite les composants suivants:</span><span class="sxs-lookup"><span data-stu-id="c7509-108">Group Call Pickup requires the following components:</span></span>
 
-  - Outil de Kit de ressources SEFAUtil
+  - <span data-ttu-id="c7509-109">service d’application</span><span class="sxs-lookup"><span data-stu-id="c7509-109">Application service</span></span>
 
-Utilisez Lync Server Management Shell pour créer et gérer les groupes de prise d’appel dans la table d’orbites de parcage d’appel. Utilisez l’outil de Kit de ressources SEFAUtil pour assigner un groupe de prise d’appel et activer la fonctionnalité de prise d’appel de groupe pour des utilisateurs ou pour désactiver la fonctionnalité de prise d’appel de groupe pour des utilisateurs.
+  - <span data-ttu-id="c7509-110">application de parcage d’appel</span><span class="sxs-lookup"><span data-stu-id="c7509-110">Call Park application</span></span>
 
-Selon la tâche de configuration de prise d’appel de groupe, l’un des rôles d’administration suivants est requis :
+<span data-ttu-id="c7509-111">Ces composants sont installés automatiquement lorsque vous déployez Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="c7509-111">These components are installed automatically when you deploy Enterprise Voice.</span></span>
 
-  - **CsVoiceAdministrator** : ce rôle d’administrateur peut créer, configurer et gérer l’ensemble des stratégies et paramètres de voix.
+</div>
 
-  - **CsUserAdministrator:** ce rôle d’administrateur peut activer la prise d’appel de groupe pour des utilisateurs. Il dispose aussi d’un accès en lecture seule à toutes les configurations de voix.
+<div>
 
-  - **CsServerAdministrator** : ce rôle d’administrateur peut gérer, surveiller et dépanner les serveurs et les services.
+## <a name="group-call-pickup-configuration-user-rights"></a><span data-ttu-id="c7509-112">Droits d’utilisateur de configuration des appels de groupe</span><span class="sxs-lookup"><span data-stu-id="c7509-112">Group Call Pickup Configuration User Rights</span></span>
 
-  - **CsAdministrator** : ce rôle d’administrateur peut exécuter toutes les tâches des rôles CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.
+<span data-ttu-id="c7509-113">Vous pouvez utiliser les outils d’administration suivants pour configurer la cueillette des appels de groupe:</span><span class="sxs-lookup"><span data-stu-id="c7509-113">You use the following administrative tools to configure Group Call Pickup:</span></span>
 
-> [!NOTE]  
-> Pour plus d’informations sur les droits d’administration, voir <a href="lync-server-2013-planning-for-role-based-access-control.md">Planification du contrôle d’accès basé sur un rôle dans Lync Server 2013</a> dans la documentation de planification.
+  - <span data-ttu-id="c7509-114">Lync Server Management Shell</span><span class="sxs-lookup"><span data-stu-id="c7509-114">Lync Server Management Shell</span></span>
 
-## Voir aussi
+  - <span data-ttu-id="c7509-115">Outil du kit de ressources SEFAUtil</span><span class="sxs-lookup"><span data-stu-id="c7509-115">SEFAUtil resource kit tool</span></span>
 
-#### Concepts
+<span data-ttu-id="c7509-116">Utilisez Lync Server Management Shell pour créer et gérer des groupes de captures d’appels dans la table de stationnement d’appel.</span><span class="sxs-lookup"><span data-stu-id="c7509-116">Use Lync Server Management Shell to create and manage call pickup groups in the Call Park orbit table.</span></span> <span data-ttu-id="c7509-117">Utilisez l’outil de kit de ressources SEFAUtil pour attribuer un groupe de cueillette d’appel et activer le regroupement d’appels de groupe pour les utilisateurs ou pour désactiver la sélection d’appels de groupe pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c7509-117">Use the SEFAUtil resource kit tool to assign a call pickup group and enable Group Call Pickup for users or to disable Group Call Pickup for users.</span></span>
 
-[Déploiement de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
+<span data-ttu-id="c7509-118">La configuration de la cueillette de groupe nécessite l’un des rôles d’administration suivants, en fonction de la tâche:</span><span class="sxs-lookup"><span data-stu-id="c7509-118">Configuring Group Call Pickup requires any of the following administrative roles, depending on the task:</span></span>
 
-#### Autres ressources
+  - <span data-ttu-id="c7509-119">**CsVoiceAdministrator:** Ce rôle d’administrateur peut créer, configurer et gérer l’ensemble des stratégies et paramètres relatifs à la voix.</span><span class="sxs-lookup"><span data-stu-id="c7509-119">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
 
-[Planification des fonctionnalités de gestion des appels dans Lync Server 2013](lync-server-2013-planning-for-call-management-features.md)
+  - <span data-ttu-id="c7509-120">**CsUserAdministrator:** Ce rôle d’administrateur peut activer le prélèvement d’appels de groupe pour les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c7509-120">**CsUserAdministrator:** This administrator role can enable Group Call Pickup for users.</span></span> <span data-ttu-id="c7509-121">Ce rôle d’administrateur dispose également d’un accès en lecture seule à toutes les configurations vocales.</span><span class="sxs-lookup"><span data-stu-id="c7509-121">This administrator role also has read-only view access to all voice configurations.</span></span>
+
+  - <span data-ttu-id="c7509-122">**CsServerAdministrator:** Ce rôle d’administrateur peut gérer, surveiller et résoudre les problèmes liés aux serveurs et services.</span><span class="sxs-lookup"><span data-stu-id="c7509-122">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
+
+  - <span data-ttu-id="c7509-123">**CsAdministrator:** Ce rôle d’administrateur peut effectuer toutes les tâches de CsVoiceAdministrator, CsServerAdministrator et CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="c7509-123">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="c7509-124">Pour plus d’informations sur les droits d’administration, voir <A href="lync-server-2013-planning-for-role-based-access-control.md">planification du contrôle d’accès basé sur les rôles dans Lync Server 2013</A> dans la documentation de planification.</span><span class="sxs-lookup"><span data-stu-id="c7509-124">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c7509-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c7509-125">See Also</span></span>
+
+
+[<span data-ttu-id="c7509-126">Déploiement d’Enterprise Voice dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7509-126">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+
+
+[<span data-ttu-id="c7509-127">Planifier les fonctionnalités de gestion des appels dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7509-127">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

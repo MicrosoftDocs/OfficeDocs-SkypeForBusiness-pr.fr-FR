@@ -1,57 +1,92 @@
-﻿---
-title: "Lync Server 2013 : Rés. des enr. DNS - SE conso. màé avec des éq. de ch. Mat."
-TOCTitle: Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle
-ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398670(v=OCS.15)
-ms:contentKeyID: 49297942
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
+ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)
+ms:contentKeyID: 48184700
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d411b004edde96314e3c06d7f28a9f9d294688ad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831353"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="dns-summary---scaled-consolidated-edge-with-hardware-load-balancers-in-lync-server-2013"></a><span data-ttu-id="7d936-102">Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7d936-102">DNS summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>
 
-Les enregistrements DNS requis pour l’accès à distance à Lync Server 2013 sont assez simples comparés à ceux des certificats et des ports. En outre, de nombreux enregistrements sont facultatifs, selon la manière dont vous configurez les clients Lync 2013 et selon que la fédération est activée ou désactivée.
+</div>
 
-Pour plus d’informations sur les enregistrements DNS Lync 2013 requis, reportez-vous à [Détermination de la configuration requise pour DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+<div id="mainSection">
 
-Pour plus d’informations sur la configuration automatique des clients Lync 2013 si vous ne souhaitez pas utiliser une configuration DNS Split-Brain, reportez-vous à la section « Configuration automatique sans configuration DNS Split Brain » dans [Détermination de la configuration requise pour DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+<div id="mainBody">
 
-Le tableau ci-dessous contient une synthèse des enregistrements DNS requis pour prendre en charge le serveur Edge consolidé ajusté (avec équilibrage de charge matérielle) présenté dans la figure. Notez que certains enregistrements DNS sont requis uniquement pour la configuration automatique des clients Lync. Si vous envisagez d’utiliser des objets de stratégie de groupe (GPO) pour configurer des clients Lync, les enregistrements associés ne sont pas nécessaires.
+<span> </span>
 
-## IMPORTANT : cartes réseau de serveur Edge requises
+<span data-ttu-id="7d936-103">_**Dernière modification de la rubrique:** 2013-01-27_</span><span class="sxs-lookup"><span data-stu-id="7d936-103">_**Topic Last Modified:** 2013-01-27_</span></span>
 
-Pour éviter des problèmes de routage, vérifiez que les serveurs Edge sont équipés d’au moins deux cartes réseau et que la passerelle par défaut est définie uniquement sur la carte réseau associée à l’interface externe. Par exemple, comme l’illustre la figure Topologie Edge consolidée mise à l’échelle dans [Topologie Edge consolidée mise à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md), la passerelle par défaut doit pointer vers le pare-feu externe.
+<span data-ttu-id="7d936-104">Les exigences d’enregistrements DNS pour l’accès distant à Lync Server 2013 sont assez simples comparées à celles des certificats et des ports.</span><span class="sxs-lookup"><span data-stu-id="7d936-104">DNS record requirements for remote access to Lync Server 2013 are fairly straightforward compared to those for certificates and ports.</span></span> <span data-ttu-id="7d936-105">De plus, de nombreux enregistrements sont facultatifs, en fonction de la configuration des clients exécutant Lync 2013 et de la possibilité d’activer la Fédération.</span><span class="sxs-lookup"><span data-stu-id="7d936-105">Also, many records are optional, depending on how you configure clients running Lync 2013 and whether you enable federation.</span></span>
 
-Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comme suit :
+<span data-ttu-id="7d936-106">Pour plus d’informations sur les exigences DNS de Lync 2013, voir [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="7d936-106">For details about Lync 2013 DNS requirements, see [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
 
-  - **Carte réseau 1 (interface interne)**
+<span data-ttu-id="7d936-107">Pour plus d’informations sur la configuration de la configuration automatique de clients 2013 Lync si le DNS avec fractionnement n’est pas configuré, voir la section «Configuration automatique sans le service DNS partagé» dans [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="7d936-107">For details about configuring automatic configuration of Lync 2013 clients if split-brain DNS is not configured, see the "Automatic Configuration without Split Brain DNS" section in [Determine DNS requirements for Lync Server 2013](lync-server-2013-determine-dns-requirements.md).</span></span>
+
+<span data-ttu-id="7d936-108">Le tableau suivant contient un résumé des enregistrements DNS qui sont requis pour prendre en charge la figure de topologie de frontière consolidée à l’échelle (équilibrage de charge matérielle).</span><span class="sxs-lookup"><span data-stu-id="7d936-108">The following table contains a summary of the DNS records that are required to support the Scaled Consolidated Edge Topology (Hardware Load Balanced) figure.</span></span> <span data-ttu-id="7d936-109">Notez que certains enregistrements DNS sont requis uniquement pour la configuration automatique pour les clients Lync.</span><span class="sxs-lookup"><span data-stu-id="7d936-109">Note that certain DNS records are required only for automatic configuration for Lync clients.</span></span> <span data-ttu-id="7d936-110">Si vous envisagez d’utiliser des objets de stratégie de groupe pour configurer des clients Lync, les enregistrements associés ne sont pas nécessaires.</span><span class="sxs-lookup"><span data-stu-id="7d936-110">If you plan to use group policy objects (GPOs) to configure Lync clients, the associated records are not necessary.</span></span>
+
+<div>
+
+## <a name="important-edge-server-network-adapter-requirements"></a><span data-ttu-id="7d936-111">IMPORTANT: configuration requise pour les cartes réseau du serveur Edge</span><span class="sxs-lookup"><span data-stu-id="7d936-111">IMPORTANT: Edge Server Network Adapter Requirements</span></span>
+
+<span data-ttu-id="7d936-112">Pour éviter les problèmes de routage, assurez-vous qu’il y a au moins deux cartes réseau dans vos serveurs Edge et que la passerelle par défaut est définie uniquement sur l’adaptateur réseau associé à l’interface externe.</span><span class="sxs-lookup"><span data-stu-id="7d936-112">To avoid routing issues, verify that there are at least two network adapters in your Edge Servers and that the default gateway is set only on the network adapter associated with the external interface.</span></span> <span data-ttu-id="7d936-113">Par exemple, comme illustré dans la figure dans le cadre de la configuration consolidée de l’option frontière consolidée à l’échelle de l’application, le [2013 serveur](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)passerelle par défaut pointe vers le pare-feu externe.</span><span class="sxs-lookup"><span data-stu-id="7d936-113">For example, as shown in the Scaled Consolidated Edge Scenario figure in [Scaled consolidated edge with hardware load balancers in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md), the default gateway would point to the external firewall.</span></span>
+
+<span data-ttu-id="7d936-114">Vous pouvez configurer deux cartes réseau sur chaque serveur Edge comme suit:</span><span class="sxs-lookup"><span data-stu-id="7d936-114">You can configure two network adapters in each of your Edge Servers as follows:</span></span>
+
+  - <span data-ttu-id="7d936-115">**Carte réseau 1 (interface interne)**</span><span class="sxs-lookup"><span data-stu-id="7d936-115">**Network adapter 1 (Internal Interface)**</span></span>
     
-    Interface interne avec 172.25.33.10 affecté.
+    <span data-ttu-id="7d936-116">Interface interne avec 172.25.33.10 attribué.</span><span class="sxs-lookup"><span data-stu-id="7d936-116">Internal interface with 172.25.33.10 assigned.</span></span>
     
-    Aucune passerelle par défaut.
+    <span data-ttu-id="7d936-117">Aucune passerelle par défaut.</span><span class="sxs-lookup"><span data-stu-id="7d936-117">No default gateway.</span></span>
     
-    Assurez-vous qu’il existe un itinéraire entre le réseau contenant l’interface interne serveur Edge et les réseaux qui contiennent des clients ou serveurs Lync Server exécutant Lync Server (par exemple, de 172.25.33.0 à 192.168.10.0).
+    <span data-ttu-id="7d936-118">Assurez-vous qu’il existe un itinéraire à partir du réseau contenant l’interface interne du serveur Edge vers les réseaux contenant des clients Lync Server ou des serveurs exécutant Lync Server (par exemple, de 172.25.33.0 à 192.168.10.0).</span><span class="sxs-lookup"><span data-stu-id="7d936-118">Ensure there is a route from the network containing the Edge Server internal interface to any networks that contain Lync Server clients or servers running Lync Server (for example, from 172.25.33.0 to 192.168.10.0).</span></span>
 
-  - **Carte réseau 2 (interface externe)**
+  - <span data-ttu-id="7d936-119">**Carte réseau 2 (interface externe)**</span><span class="sxs-lookup"><span data-stu-id="7d936-119">**Network adapter 2 (External Interface)**</span></span>
     
-    Trois adresses IP publiques sont affectées à cette carte réseau, par exemple, 131.107.155.10 pour le service Edge d’accès, 131.107.155.20 pour le service Edge de conférence web, 131.107.155.30 pour le service Edge A/V.
+    <span data-ttu-id="7d936-120">Trois adresses IP publiques sont attribuées à cette carte réseau (par exemple, 131.107.155.10 pour le service Edge d’Access 131.107.155.20 pour le service Edge de conférence Web, 131.107.155.30 pour les services Edge A/V.</span><span class="sxs-lookup"><span data-stu-id="7d936-120">Three public IP addresses are assigned to this network adapter, for example 131.107.155.10 for Access Edge service, 131.107.155.20 for Web Conferencing Edge service, 131.107.155.30 for A/V Edge service.</span></span>
     
-    > [!NOTE]  
-    > Les adresses IP affectées aux interfaces réseau externes réelles du serveur Edge peuvent varier en fonction de l’équilibreur de charge matérielle choisi. Pour plus d’informations sur les exigences liées aux adresses IP, reportez-vous à la documentation de votre équilibreur de charge matérielle.<br />
-    Il est possible, bien que non recommandé, d’utiliser une seule adresse IP pour toutes les interfaces de service Edge. Même si cela économise des adresses IP, des numéros de port différents sont requis pour chaque service. Le numéro de port par défaut est 443/TCP (garantit que la plupart des pare-feux distants autorisent le trafic). La modification des valeurs de port sur (par exemple) 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence web et 443/TCP pour le service Edge A/V peut engendrer des problèmes pour les utilisateurs distants si le pare-feu derrière lequel ils se trouvent n’autorise pas le trafic via les ports 5061/TCP et 444/TCP. En outre, trois adresses IP distinctes facilitent l’identification et la résolution des problèmes, car vous pouvez filtrer selon l’adresse IP.    
-    L’adresse IP du service Edge d’accès avec la passerelle par défaut définie sur le routeur Internet (131.107.155.1) est l’adresse principale.
+    <div>
     
-    Les adresses IP service Edge de conférence web et service Edge A/V sont secondaires.
 
-> [!TIP]  
-> La configuration du serveur Edge avec deux cartes réseau est une option. L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge. Cela permet d’utiliser une carte réseau distincte par service serveur Edge et une collection de données potentiellement plus concise en cas d’identification et de résolution des problèmes.
+    > [!NOTE]
+    > <span data-ttu-id="7d936-121">Les adresses IP affectées aux interfaces du réseau externe réel du serveur Edge peuvent dépendre du ou des équilibreurs de charge matérielle que vous choisissez.</span><span class="sxs-lookup"><span data-stu-id="7d936-121">The IP addresses that are assigned to the actual external network interfaces of the Edge Server may depend on which hardware load balancer you choose.</span></span> <span data-ttu-id="7d936-122">Reportez-vous à la documentation de votre équilibrage de charge matérielle pour comprendre les exigences réelles de l’adresse IP.</span><span class="sxs-lookup"><span data-stu-id="7d936-122">Refer to the documentation for your hardware load balancer to understand the actual IP address requirements.</span></span><BR><span data-ttu-id="7d936-123">Il est possible, mais déconseillé, d’utiliser une seule adresse IP pour les trois interfaces de service Edge.</span><span class="sxs-lookup"><span data-stu-id="7d936-123">It is possible, though not recommended, to use a single IP address for all three Edge service interfaces.</span></span> <span data-ttu-id="7d936-124">Même si cela enregistre les adresses IP, il est nécessaire de disposer d’un numéro de port différent pour chaque service.</span><span class="sxs-lookup"><span data-stu-id="7d936-124">Though this does save IP addresses, it requires different port numbers for each service.</span></span> <span data-ttu-id="7d936-125">Le numéro de port par défaut est 443/TCP, ce qui permet à la plupart des pare-feu distants d’autoriser le trafic.</span><span class="sxs-lookup"><span data-stu-id="7d936-125">The default port number is 443/TCP, which ensures that most remote firewalls will allow the traffic.</span></span> <span data-ttu-id="7d936-126">La modification des valeurs de port à (par exemple) 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence Web et 443/TCP pour le service Edge A/V, peut poser des problèmes pour les utilisateurs distants dans lesquels un pare-feu est derrière n’autorise pas le trafic 5061/TCP et 444/TCP.</span><span class="sxs-lookup"><span data-stu-id="7d936-126">Changing the port values to (for example) 5061/TCP for the Access Edge service, 444/TCP for the Web Conferencing Edge service and 443/TCP for the A/V Edge service might cause problems for remote users where a firewall that they are behind does not allow the traffic over 5061/TCP and 444/TCP.</span></span> <span data-ttu-id="7d936-127">Par ailleurs, trois adresses IP distinctes simplifient la résolution des problèmes en raison de la possibilité de filtrer sur l’adresse IP.</span><span class="sxs-lookup"><span data-stu-id="7d936-127">Additionally, three distinct IP addresses makes troubleshooting easier due to being able to filter on IP address.</span></span>
 
-### Enregistrements DNS requis pour le serveur Edge consolidé ajusté, équilibrage de charge matérielle (exemple)
+    
+    </div>
+    
+    <span data-ttu-id="7d936-128">L’adresse IP du service Edge d’accès est principale avec la passerelle par défaut définie sur routeur Internet (131.107.155.1).</span><span class="sxs-lookup"><span data-stu-id="7d936-128">Access Edge service IP address is primary with default gateway set to Internet-facing router (131.107.155.1).</span></span>
+    
+    <span data-ttu-id="7d936-129">Service de conférence Web et adresses IP de service Edge/V</span><span class="sxs-lookup"><span data-stu-id="7d936-129">Web Conferencing Edge service and A/V Edge service IP addresses secondary.</span></span>
+
+<div>
+
+
+> [!TIP]
+> <span data-ttu-id="7d936-130">La configuration du serveur Edge avec deux cartes réseau est l’une des deux options suivantes.</span><span class="sxs-lookup"><span data-stu-id="7d936-130">Configuring the Edge Server with two network adapters is one of two options.</span></span> <span data-ttu-id="7d936-131">L’autre option consiste à utiliser une carte réseau pour le côté interne et trois cartes réseau pour le côté externe du serveur Edge.</span><span class="sxs-lookup"><span data-stu-id="7d936-131">The other option is to use one network adapter for the internal side and three network adapters for the external side of the Edge Server.</span></span> <span data-ttu-id="7d936-132">Le principal avantage de cette option est une carte réseau distincte par service de serveur Edge et une collection de données plus concise lorsque le dépannage est nécessaire.</span><span class="sxs-lookup"><span data-stu-id="7d936-132">The main benefit of this option is a distinct network adapter per Edge Server service, and potentially more concise data collection when troubleshooting is necessary</span></span>
+
+
+
+</div>
+
+### <a name="dns-records-required-for-scaled-consolidated-edge-hardware-load-balanced-example"></a><span data-ttu-id="7d936-133">Enregistrements DNS requis pour le contour consolidé mis à l’échelle (exemple)</span><span class="sxs-lookup"><span data-stu-id="7d936-133">DNS Records Required for Scaled Consolidated Edge, Hardware Load Balanced (Example)</span></span>
 
 <table>
 <colgroup>
@@ -62,49 +97,62 @@ Vous pouvez configurer deux cartes réseau dans chacun de vos serveurs Edge comm
 </colgroup>
 <thead>
 <tr class="header">
-<th>Emplacement/TYPE/Port</th>
-<th>Nom de domaine complet/enregistrement DNS</th>
-<th>Adresse IP/nom de domaine complet</th>
-<th>Mappage à/Commentaires</th>
+<th><span data-ttu-id="7d936-134">Emplacement/TYPE/port</span><span class="sxs-lookup"><span data-stu-id="7d936-134">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="7d936-135">Nom de domaine complet/enregistrement DNS</span><span class="sxs-lookup"><span data-stu-id="7d936-135">FQDN/DNS Record</span></span></th>
+<th><span data-ttu-id="7d936-136">IP address/FQDN</span><span class="sxs-lookup"><span data-stu-id="7d936-136">IP Address/FQDN</span></span></th>
+<th><span data-ttu-id="7d936-137">Cartes sur/Commentaires</span><span class="sxs-lookup"><span data-stu-id="7d936-137">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS externe/A</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>131.107.155.10</p></td>
-<td><p>Interface externe du service Edge d’accès (Contoso). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync</p></td>
+<td><p><span data-ttu-id="7d936-138">DNS/A externe</span><span class="sxs-lookup"><span data-stu-id="7d936-138">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="7d936-139">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-139">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-140">131.107.155.10</span><span class="sxs-lookup"><span data-stu-id="7d936-140">131.107.155.10</span></span></p></td>
+<td><p><span data-ttu-id="7d936-141">Interface externe du Service Access Edge (contoso).</span><span class="sxs-lookup"><span data-stu-id="7d936-141">Access Edge service external interface (Contoso).</span></span> <span data-ttu-id="7d936-142">Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="7d936-142">Repeat as necessary for all SIP domains with Lync enabled users</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DNS externe/A</p></td>
-<td><p>webcon.contoso.com</p></td>
-<td><p>131.107.155.20</p></td>
-<td><p>Interface externe du service Edge de conférence web</p></td>
+<td><p><span data-ttu-id="7d936-143">DNS/A externe</span><span class="sxs-lookup"><span data-stu-id="7d936-143">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="7d936-144">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-144">webcon.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-145">131.107.155.20</span><span class="sxs-lookup"><span data-stu-id="7d936-145">131.107.155.20</span></span></p></td>
+<td><p><span data-ttu-id="7d936-146">Interface externe du service de conférence Web</span><span class="sxs-lookup"><span data-stu-id="7d936-146">Web Conferencing Edge service external interface</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS externe/A</p></td>
-<td><p>av.contoso.com</p></td>
-<td><p>131.107.155.30</p></td>
-<td><p>Interface externe du service Edge A/V</p></td>
+<td><p><span data-ttu-id="7d936-147">DNS/A externe</span><span class="sxs-lookup"><span data-stu-id="7d936-147">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="7d936-148">av.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-148">av.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-149">131.107.155.30</span><span class="sxs-lookup"><span data-stu-id="7d936-149">131.107.155.30</span></span></p></td>
+<td><p><span data-ttu-id="7d936-150">Interface externe du service A/V Edge</span><span class="sxs-lookup"><span data-stu-id="7d936-150">A/V Edge service external interface</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DNS externe/SRV/443</p></td>
-<td><p>_sip._tls.contoso.com</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>Interface externe du service Edge d’accès. Requis pour la configuration automatique des clients Lync 2013 et Lync 2010 afin de travailler en externe. Répéter selon le besoin pour tous les domaines SIP avec des utilisateurs Lync.</p></td>
+<td><p><span data-ttu-id="7d936-151">DNS/SRV/443 externes</span><span class="sxs-lookup"><span data-stu-id="7d936-151">External DNS/SRV/443</span></span></p></td>
+<td><p><span data-ttu-id="7d936-152">_sip._tls.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-152">_sip._tls.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-153">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-153">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-154">Interface externe du service Edge d’accès.</span><span class="sxs-lookup"><span data-stu-id="7d936-154">Access Edge service external interface.</span></span> <span data-ttu-id="7d936-155">Requis pour la configuration automatique de clients 2013 et Lync 2010 pour une utilisation externe.</span><span class="sxs-lookup"><span data-stu-id="7d936-155">Required for automatic configuration of Lync 2013 and Lync 2010 clients to work externally.</span></span> <span data-ttu-id="7d936-156">Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="7d936-156">Repeat as necessary for all SIP domains with Lync enabled users.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS externe/SRV/5061</p></td>
-<td><p>_sipfederationtls._tcp.contoso.com</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>Interface externe du service Edge d’accès SIP. Requise pour la découverte DNS automatique des partenaires fédérés ou « Domaine SIP autorisé » (appelé fédération étendue dans les versions précédentes). Répétez si nécessaire pour tous les domaines SIP avec des utilisateurs prenant en charge Lync et des clients Microsoft Lync Mobile qui utilisent le service de notifications Push ou le service de notifications Push Apple</p></td>
+<td><p><span data-ttu-id="7d936-157">DNS/SRV/5061 externes</span><span class="sxs-lookup"><span data-stu-id="7d936-157">External DNS/SRV/5061</span></span></p></td>
+<td><p><span data-ttu-id="7d936-158">_sipfederationtls._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-158">_sipfederationtls._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-159">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="7d936-159">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="7d936-160">Interface externe du service d’accès au serveur SIP requis pour la détection automatique de DNS des partenaires fédérés connus sous le nom de «domaine SIP autorisé» (appelé Fédération avancée dans les versions précédentes).</span><span class="sxs-lookup"><span data-stu-id="7d936-160">SIP Access Edge service external interface Required for automatic DNS discovery of federated partners known as “Allowed SIP Domain” (called enhanced federation in previous releases).</span></span> <span data-ttu-id="7d936-161">Répétez cette opération pour tous les domaines SIP avec des utilisateurs compatibles Lync et des clients mobiles Microsoft Lync qui utilisent le service de notifications d’émission ou le service de notifications de transmission d’Apple.</span><span class="sxs-lookup"><span data-stu-id="7d936-161">Repeat as necessary for all SIP domains with Lync enabled users and Microsoft Lync Mobile clients that use either the Push Notification Service or the Apple Push Notification service</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DNS interne/A</p></td>
-<td><p>lsedge.contoso.net</p></td>
-<td><p>172.25.33.10</p></td>
-<td><p>Interface interne de serveur Edge consolidé</p></td>
+<td><p><span data-ttu-id="7d936-162">DNS interne/A</span><span class="sxs-lookup"><span data-stu-id="7d936-162">Internal DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="7d936-163">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="7d936-163">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="7d936-164">172.25.33.10</span><span class="sxs-lookup"><span data-stu-id="7d936-164">172.25.33.10</span></span></p></td>
+<td><p><span data-ttu-id="7d936-165">Interface interne consolidée Edge</span><span class="sxs-lookup"><span data-stu-id="7d936-165">Consolidated Edge internal interface</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

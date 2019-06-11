@@ -1,124 +1,168 @@
-﻿---
-title: Création ou modification d’une stratégie de conférence dans Lync Server 2013
-TOCTitle: Création ou modification d’une stratégie de conférence dans Lync Server 2013
-ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ721910(v=OCS.15)
-ms:contentKeyID: 49891578
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: création ou modification d’une stratégie de conférence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a conferencing policy
+ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721910(v=OCS.15)
+ms:contentKeyID: 49733844
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 898ffb4473fadd4470ef7e1559fa3cc0c54185c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831810"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Création ou modification d’une stratégie de conférence dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-07_
+# <a name="create-or-modify-a-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="968d5-102">Création ou modification d’une stratégie de conférence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="968d5-102">Create or modify a conferencing policy in Lync Server 2013</span></span>
 
-Effectuez les étapes suivantes pour créer une stratégie de conférence au niveau de l’utilisateur ou au niveau du site. Pour plus d’informations sur la procédure d’attribution d’une stratégie au niveau de l’utilisateur à un utilisateur, voir [Attribution d’une stratégie de conférence par utilisateur](lync-server-2013-assign-a-per-user-conferencing-policy.md). Pour obtenir une liste de tous les paramètres de stratégie de conférence disponibles, voir [Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+</div>
 
-## Pour créer une nouvelle stratégie utilisateur ou de site
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
+<span data-ttu-id="968d5-103">_**Dernière modification de la rubrique:** 2013-02-07_</span><span class="sxs-lookup"><span data-stu-id="968d5-103">_**Topic Last Modified:** 2013-02-07_</span></span>
 
-4.  Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
+<span data-ttu-id="968d5-104">Procédez comme suit pour créer une stratégie de niveau utilisateur ou de niveau site.</span><span class="sxs-lookup"><span data-stu-id="968d5-104">Follow these steps to create a user-level or a site-level conferencing policy.</span></span> <span data-ttu-id="968d5-105">Pour plus d’informations sur l’affectation d’une stratégie de niveau utilisateur à un utilisateur, voir [affecter une stratégie de conférence par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md).</span><span class="sxs-lookup"><span data-stu-id="968d5-105">For details about how to assign a user-level policy to a user, see [Assign a per-user conferencing policy in Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md).</span></span> <span data-ttu-id="968d5-106">Pour obtenir la liste de tous les paramètres de stratégie de conférence disponibles, voir [référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).</span><span class="sxs-lookup"><span data-stu-id="968d5-106">For a list of all available conferencing policy settings, see [Conferencing policy settings reference for Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).</span></span>
+
+<div>
+
+## <a name="to-create-a-new-user-or-site-policy"></a><span data-ttu-id="968d5-107">Pour créer une nouvelle stratégie d’utilisateur ou de site</span><span class="sxs-lookup"><span data-stu-id="968d5-107">To create a new user or site policy</span></span>
+
+1.  <span data-ttu-id="968d5-108">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="968d5-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="968d5-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="968d5-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="968d5-110">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="968d5-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="968d5-111">Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.</span><span class="sxs-lookup"><span data-stu-id="968d5-111">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
+
+4.  <span data-ttu-id="968d5-112">Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="968d5-112">Click **New**, and then do one of the following:</span></span>
     
-      - Pour créer une stratégie au niveau de l’utilisateur, cliquez sur **Stratégie utilisateur**. Dans **Nouvelle stratégie de conférence**, dans **Nom**, tapez un nom descriptif pour la stratégie.
+      - <span data-ttu-id="968d5-p103">Pour créer une stratégie au niveau de l’utilisateur, cliquez sur **Stratégie utilisateur**. Dans **Nouvelle stratégie de conférence**, dans **Nom**, tapez un nom descriptif pour la stratégie.</span><span class="sxs-lookup"><span data-stu-id="968d5-p103">To create a user-level policy, click **User policy**. In **New Conferencing Policy**, in **Name**, type a descriptive name for the policy.</span></span>
     
-      - Pour créer une stratégie au niveau site, cliquez sur **Stratégie de site**. Dans la zone de recherche **Sélectionner un site**, tapez entièrement ou partiellement le nom du site pour lequel vous voulez créer une stratégie. Dans la liste des sites, cliquez sur le site voulu, puis sur **OK**.
+      - <span data-ttu-id="968d5-p104">Pour créer une stratégie au niveau site, cliquez sur **Stratégie de site**. Dans la zone de recherche **Sélectionner un site**, tapez entièrement ou partiellement le nom du site pour lequel vous voulez créer une stratégie. Dans la liste des sites, cliquez sur le site voulu, puis sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="968d5-p104">To create a site-level policy, click **Site policy**. In the **Select a Site** search field, type all or part of the name of the site for which you want to create a policy. In the list of sites, click the site that you want, and then click **OK**.</span></span>
         
+        <div>
+        
+
         > [!NOTE]  
-        > Le nom du site devient le nom de la stratégie de conférence et ne peut pas être modifié.
+        > <span data-ttu-id="968d5-118">Le nom du site devient le nom de la stratégie de conférence et ne peut pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="968d5-118">The site name becomes the conferencing policy name, and it cannot be changed.</span></span>
 
-5.  Dans **Description**, tapez la description de la stratégie.
+        
+        </div>
 
-6.  Sous **Stratégie de l’organisateur**, dans **Taille maximale de la réunion**, tapez le nombre maximal d’utilisateurs autorisés à participer à une réunion. Par défaut, la taille maximale de la réunion est définie sur 250.
+5.  <span data-ttu-id="968d5-119">Dans **Description**, tapez la description de la stratégie.</span><span class="sxs-lookup"><span data-stu-id="968d5-119">In **Description**, type a description for the policy.</span></span>
 
-7.  Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**. Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas d’informations d’identification du répertoire services de domaine Active Directory de votre entreprise et qui ne sont donc pas authentifiés. Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.
+6.  <span data-ttu-id="968d5-p105">Sous **Stratégie de l’organisateur**, dans **Taille maximale de la réunion**, tapez le nombre maximal d’utilisateurs autorisés à participer à une réunion. Par défaut, la taille maximale de la réunion est définie sur 250.</span><span class="sxs-lookup"><span data-stu-id="968d5-p105">Under **Organizer policy**, in **Maximum meeting size**, type the maximum number of users that you want to allow at a meeting. By default, the maximum meeting size is 250.</span></span>
 
-8.  Dans **Enregistrement**, effectuez l’une des opérations suivantes :
+7.  <span data-ttu-id="968d5-122">Pour empêcher les utilisateurs d’inviter des utilisateurs anonymes aux réunions, désactivez la case à cocher **Autoriser les participants à inviter des utilisateurs anonymes**.</span><span class="sxs-lookup"><span data-stu-id="968d5-122">To prevent users from inviting anonymous users to meetings, clear the **Allow participants to invite anonymous users** check box.</span></span> <span data-ttu-id="968d5-123">Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas des informations d’identification dans les services de domaine Active Directory de votre organisation et qui, par conséquent, ne sont pas authentifiés.</span><span class="sxs-lookup"><span data-stu-id="968d5-123">Anonymous users are users who do not have credentials in your organization’s Active Directory Domain Services and who, therefore, are not authenticated.</span></span> <span data-ttu-id="968d5-124">Par défaut, les utilisateurs peuvent inviter des utilisateurs anonymes aux réunions.</span><span class="sxs-lookup"><span data-stu-id="968d5-124">By default, users can invite anonymous users to meetings.</span></span>
+
+8.  <span data-ttu-id="968d5-125">Dans **Enregistrement**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="968d5-125">In **Recording**, do one of the following:</span></span>
     
-      - Pour interdire aux participants d’enregistrer les réunions, cliquez sur **Aucun**. Il s’agit du paramètre par défaut.
+      - <span data-ttu-id="968d5-p107">Pour interdire aux participants d’enregistrer les réunions, cliquez sur **Aucun**. Il s’agit du paramètre par défaut.</span><span class="sxs-lookup"><span data-stu-id="968d5-p107">To prevent participants from recording meetings, click **None**. This is the default setting.</span></span>
     
-      - Pour autoriser les participants à enregistrer les réunions, cliquez sur **Activer l’enregistrement**.
+      - <span data-ttu-id="968d5-128">Pour autoriser les participants à enregistrer les réunions, cliquez sur **Activer l’enregistrement**.</span><span class="sxs-lookup"><span data-stu-id="968d5-128">To allow participants to record meetings, click **Enable recording**.</span></span>
 
-9.  Pour autoriser les participants externes à enregistrer les réunions, activez la case à cocher **Autoriser les participants fédérés et anonymes à enregistrer**. Par défaut, le système interdit aux participants externes d’enregistrer les réunions.
+9.  <span data-ttu-id="968d5-p108">Pour autoriser les participants externes à enregistrer les réunions, activez la case à cocher **Autoriser les participants fédérés et anonymes à enregistrer**. Par défaut, le système interdit aux participants externes d’enregistrer les réunions.</span><span class="sxs-lookup"><span data-stu-id="968d5-p108">To allow external participants to record meetings, select the **Allow federated and anonymous participants to record** check box. The default is to prevent external participants from recording meetings.</span></span>
 
-10. Dans **Audio/vidéo**, effectuez l’une des opérations suivantes :
+10. <span data-ttu-id="968d5-131">Dans **Audio/vidéo**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="968d5-131">In **Audio/video**, do one of the following:</span></span>
     
-      - Pour interdire l’utilisation de l’audio et de la vidéo, cliquez sur **Aucun**.
+      - <span data-ttu-id="968d5-132">Pour interdire l’utilisation de l’audio et de la vidéo, cliquez sur **Aucun**.</span><span class="sxs-lookup"><span data-stu-id="968d5-132">To prevent the use of audio and video, click **None**.</span></span>
     
-      - Pour autoriser l’utilisation de l’audio mais pas de la vidéo, cliquez sur **Activer Audio sur IP**.
+      - <span data-ttu-id="968d5-133">Pour autoriser l’utilisation de l’audio mais pas de la vidéo, cliquez sur **Activer Audio sur IP**.</span><span class="sxs-lookup"><span data-stu-id="968d5-133">To allow the use of audio but not video, click **Enable IP audio**.</span></span>
     
-      - Pour autoriser l’utilisation de l’audio et de la vidéo, cliquez sur **Activer l’audio/la vidéo IP**. Il s’agit du paramètre par défaut.
+      - <span data-ttu-id="968d5-p109">Pour autoriser l’utilisation de l’audio et de la vidéo, cliquez sur **Activer l’audio/la vidéo IP**. Il s’agit du paramètre par défaut.</span><span class="sxs-lookup"><span data-stu-id="968d5-p109">To allow the use of audio and video, click **Enable IP audio/video**. This is the default setting.</span></span>
 
-11. Si vous avez choisi d’autoriser l’utilisation de l’audio dans **Audio/vidéo**, procédez comme suit :
+11. <span data-ttu-id="968d5-136">Si vous avez choisi d’autoriser l’utilisation de l’audio dans **Audio/vidéo**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="968d5-136">If you chose to allow the use of audio in **Audio/video**, do the following:</span></span>
     
-      - Pour empêcher les utilisateurs de rejoindre la réunion via un appel à distance, désactivez la case à cocher **Activer la conférence rendez-vous PSTN**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).
+      - <span data-ttu-id="968d5-p110">Pour empêcher les utilisateurs de rejoindre la réunion via un appel à distance, désactivez la case à cocher **Activer la conférence rendez-vous RTC**. Par défaut, les utilisateurs peuvent accéder aux réunions par le biais du réseau téléphonique commuté (RTC).</span><span class="sxs-lookup"><span data-stu-id="968d5-p110">To prevent users from joining the meeting by dialing in, clear the **Enable PSTN dial-in conferencing** check box. By default, users can dial in to meetings by using the public switched telephone network (PSTN).</span></span>
     
-      - Si vous autorisez les utilisateurs à accéder aux réunions à distance et que vous souhaitez autoriser les utilisateurs non authentifiés (anonymes) à rejoindre une réunion via un appel téléphonique sortant, activez la case à cocher **Autoriser l’accès sortant des participants anonymes**. Avec l’appel téléphonique sortant, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour rejoindre la réunion. Par défaut, les utilisateurs anonymes ne peuvent pas rejoindre une réunion via un appel téléphonique sortant.
+      - <span data-ttu-id="968d5-p111">Si vous autorisez les utilisateurs à accéder aux réunions à distance et que vous souhaitez autoriser les utilisateurs non authentifiés (anonymes) à rejoindre une réunion via un appel téléphonique sortant, activez la case à cocher **Autoriser l’accès sortant des participants anonymes**. Avec l’appel téléphonique sortant, le serveur de conférence appelle l’utilisateur et celui-ci répond au téléphone pour rejoindre la réunion. Par défaut, les utilisateurs anonymes ne peuvent pas rejoindre une réunion via un appel téléphonique sortant.</span><span class="sxs-lookup"><span data-stu-id="968d5-p111">If you allow users to dial in to meetings and you want to allow unauthenticated (anonymous) users to join a meeting by using dial out phoning, select the **Allow anonymous participants to dial out** check box. With dial-out phoning, the conference server calls the user, and the user answers the phone to join the meeting. By default, anonymous users cannot join a meeting by using dial-out phoning.</span></span>
 
-12. Si vous décidez d’autoriser l’utilisation de la vidéo dans **Audio/vidéo**, cochez **Autoriser plusieurs flux vidéo** .
+12. <span data-ttu-id="968d5-142">Si vous choisissez d’autoriser l’utilisation de la vidéo dans les **fichiers audio/vidéo**, activez la case à cocher **autoriser plusieurs flux vidéo** .</span><span class="sxs-lookup"><span data-stu-id="968d5-142">If you chose to allow the use of video in **Audio/video**, check **Allow multiple video streams** .</span></span>
 
-13. Dans **Collaboration de données**, effectuez l’une des opérations suivantes :
+13. <span data-ttu-id="968d5-143">Dans **Collaboration de données**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="968d5-143">In **Data collaboration**, do one of the following:</span></span>
     
-      - Pour empêcher la collaboration de données, cliquez sur **Aucun**.
+      - <span data-ttu-id="968d5-144">Pour empêcher la collaboration de données, cliquez sur **Aucun**.</span><span class="sxs-lookup"><span data-stu-id="968d5-144">To prevent data collaboration, click **None**.</span></span>
     
-      - Pour autoriser la collaboration de données, cliquez sur **Activer la collaboration de données**. Il s’agit du paramètre par défaut.
+      - <span data-ttu-id="968d5-p112">Pour autoriser la collaboration de données, cliquez sur **Activer la collaboration de données**. Il s’agit du paramètre par défaut.</span><span class="sxs-lookup"><span data-stu-id="968d5-p112">To allow data collaboration, click **Enable data collaboration**. This is the default setting.</span></span>
 
-14. Si vous avez choisi d’autoriser la collaboration de données dans **Collaboration de données**, procédez comme suit :
+14. <span data-ttu-id="968d5-147">Si vous avez choisi d’autoriser la collaboration de données dans **Collaboration de données**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="968d5-147">If you chose to allow data collaboration in **Data collaboration**, do the following:</span></span>
     
-      - Pour interdire les téléchargements externes, désactivez la case à cocher **Autoriser les participants fédérés et anonymes à télécharger du contenu**. Par défaut, les utilisateurs externes peuvent télécharger du contenu.
+      - <span data-ttu-id="968d5-p113">Pour interdire les téléchargements externes, désactivez la case à cocher **Autoriser les participants fédérés et anonymes à télécharger du contenu**. Par défaut, les utilisateurs externes peuvent télécharger du contenu.</span><span class="sxs-lookup"><span data-stu-id="968d5-p113">To prevent external downloads, clear the **Allow federated and anonymous participants to download content** check box. By default, external users can download content.</span></span>
     
-      - Pour interdire les transferts de fichiers, désactivez la case à cocher **Autoriser les participants à transférer des fichiers**. Par défaut, les utilisateurs peuvent transférer des fichiers.
+      - <span data-ttu-id="968d5-p114">Pour interdire les transferts de fichiers, désactivez la case à cocher **Autoriser les participants à transférer des fichiers**. Par défaut, les utilisateurs peuvent transférer des fichiers.</span><span class="sxs-lookup"><span data-stu-id="968d5-p114">To prevent file transfers, clear the **Allow participants to transfer files** check box. By default, users can transfer files.</span></span>
     
-      - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour autoriser l’utilisation des annotations dans les présentations PowerPoint, désactivez la case à cocher **Activer les annotations PowerPoint**. Par défaut, les annotations sont autorisées.
+      - <span data-ttu-id="968d5-152">Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**.</span><span class="sxs-lookup"><span data-stu-id="968d5-152">To prevent the use of annotations, clear the **Enable annotations** check box.</span></span> <span data-ttu-id="968d5-153">Pour utiliser des annotations dans Shard des présentations PowerPoint, désactivez les annotations **PowerPoint**.</span><span class="sxs-lookup"><span data-stu-id="968d5-153">To the use of annotations in shard PowerPoint presentations, clear the **Enable PowerPoint annotations**.</span></span> <span data-ttu-id="968d5-154">Par défaut, les annotations sont autorisées.</span><span class="sxs-lookup"><span data-stu-id="968d5-154">By default, annotations are allowed.</span></span>
     
-      - Pour interdire l’utilisation des sondages, désactivez la case à cocher **Activer les sondages**. Par défaut, les sondages sont autorisés.
+      - <span data-ttu-id="968d5-p116">Pour interdire l’utilisation des sondages, désactivez la case à cocher **Activer les sondages**. Par défaut, les sondages sont autorisés.</span><span class="sxs-lookup"><span data-stu-id="968d5-p116">To prevent the use of polls, clear the **Enable polls** check box. By default, polls are allowed.</span></span>
 
-15. Dans **Partage d’application**, effectuez l’une des opérations suivantes :
+15. <span data-ttu-id="968d5-157">Dans **Partage d’application**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="968d5-157">In **Application sharing**, do one of the following:</span></span>
     
-      - Pour interdire l’utilisation du partage d’application, cliquez sur **Désactiver le partage d’application**.
+      - <span data-ttu-id="968d5-158">Pour interdire l’utilisation du partage d’application, cliquez sur **Désactiver le partage d’application**.</span><span class="sxs-lookup"><span data-stu-id="968d5-158">To prevent the use of application sharing, click **Disable application sharing**.</span></span>
     
-      - Pour autoriser l’utilisation du partage d’application, cliquez sur **Activer le partage d’application**. Il s’agit du paramètre par défaut.
+      - <span data-ttu-id="968d5-p117">Pour autoriser l’utilisation du partage d’application, cliquez sur **Activer le partage d’application**. Il s’agit du paramètre par défaut.</span><span class="sxs-lookup"><span data-stu-id="968d5-p117">To allow the use of application sharing, click **Enable application sharing**. This is the default setting.</span></span>
 
-16. Si vous avez choisi d’autoriser le partage d’application dans **Partage d’application**, procédez comme suit :
+16. <span data-ttu-id="968d5-161">Si vous avez choisi d’autoriser le partage d’application dans **Partage d’application**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="968d5-161">If you chose to allow application sharing in **Application sharing**, do the following:</span></span>
     
-      - Pour empêcher les participants à la réunion de prendre le contrôle du partage d’application, désactivez la case à cocher **Autoriser les participants à prendre le contrôle**. Par défaut, les participants peuvent prendre le contrôle du partage d’application.
+      - <span data-ttu-id="968d5-p118">Pour empêcher les participants à la réunion de prendre le contrôle du partage d’application, désactivez la case à cocher **Autoriser les participants à prendre le contrôle**. Par défaut, les participants peuvent prendre le contrôle du partage d’application.</span><span class="sxs-lookup"><span data-stu-id="968d5-p118">To prevent meeting participants from taking control of application sharing, clear the **Allow participants to take control** check box. By default, participants can take control of application sharing.</span></span>
     
-      - Si vous avez choisi d’autoriser les participants à la réunion à prendre le contrôle du partage d’application, activez la case à cocher **Autoriser les participants fédérés et anonymes à prendre le contrôle** pour autoriser les utilisateurs externes à prendre le contrôle du partage d’application. Par défaut, les utilisateurs externes ne peuvent pas prendre le contrôle du partage d’application.
+      - <span data-ttu-id="968d5-p119">Si vous avez choisi d’autoriser les participants à la réunion à prendre le contrôle du partage d’application, activez la case à cocher **Autoriser les participants fédérés et anonymes à prendre le contrôle** pour autoriser les utilisateurs externes à prendre le contrôle du partage d’application. Par défaut, les utilisateurs externes ne peuvent pas prendre le contrôle du partage d’application.</span><span class="sxs-lookup"><span data-stu-id="968d5-p119">If you chose to allow meeting participants to take control of application sharing, select the **Allow federated and anonymous participants to take control** check box to allow external users to take control of application sharing. By default, external users cannot take control of application sharing.</span></span>
 
-17. Sous **Stratégie de participant**, effectuez l’une des opérations suivantes :
+17. <span data-ttu-id="968d5-166">Sous **Stratégie de participant**, effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="968d5-166">Under **Participant policy**, do one of the following:</span></span>
     
-      - Pour interdire le partage d’application et le partage du Bureau, cliquez sur **Désactiver le partage d’application et de Bureau**.
+      - <span data-ttu-id="968d5-167">Pour interdire le partage d’application et le partage du Bureau, cliquez sur **Désactiver le partage d’application et de Bureau**.</span><span class="sxs-lookup"><span data-stu-id="968d5-167">To prevent both application sharing and desktop sharing, click **Disable application and desktop sharing**.</span></span>
     
-      - Pour autoriser le partage d’application mais pas le partage du Bureau, cliquez sur **Activer le partage d’application**.
+      - <span data-ttu-id="968d5-168">Pour autoriser le partage d’application mais pas le partage du Bureau, cliquez sur **Activer le partage d’application**.</span><span class="sxs-lookup"><span data-stu-id="968d5-168">To allow application sharing but not desktop sharing, click **Enable application sharing**.</span></span>
     
-      - Pour autoriser le partage d’application et le partage du Bureau, cliquez sur **Activer le partage d’application et de Bureau**. Il s’agit du paramètre par défaut.
+      - <span data-ttu-id="968d5-p120">Pour autoriser le partage d’application et le partage du Bureau, cliquez sur **Activer le partage d’application et de Bureau**. Il s’agit du paramètre par défaut.</span><span class="sxs-lookup"><span data-stu-id="968d5-p120">To allow both application sharing and desktop sharing, click **Enable application and desktop sharing**. This is the default setting.</span></span>
 
-18. Pour interdire les transferts de fichiers d’homologue à homologue, désactivez la case à cocher **Autoriser le transfert de fichiers entre homologues**. Par défaut, les transferts de fichiers d’homologue à homologue sont autorisés.
+18. <span data-ttu-id="968d5-p121">Pour interdire les transferts de fichiers d’homologue à homologue, désactivez la case à cocher **Autoriser le transfert de fichiers entre homologues**. Par défaut, les transferts de fichiers d’homologue à homologue sont autorisés.</span><span class="sxs-lookup"><span data-stu-id="968d5-p121">To prevent peer-to-peer file transfers, clear the **Enable peer-to-peer file transfer** check box. By default, peer-to-peer file transfers are allowed.</span></span>
 
-19. Pour autoriser l’enregistrement d’homologue à homologue, activez la case à cocher **Activer l’enregistrement entre homologues**. Par défaut, l’enregistrement d’homologue à homologue n’est pas autorisé.
+19. <span data-ttu-id="968d5-p122">Pour autoriser l’enregistrement d’homologue à homologue, activez la case à cocher **Activer l’enregistrement entre homologues**. Par défaut, l’enregistrement d’homologue à homologue n’est pas autorisé.</span><span class="sxs-lookup"><span data-stu-id="968d5-p122">To allow peer-to-peer recording, select the **Enable peer-to-peer recording** check box. By default, peer-to-peer recording is not allowed.</span></span>
 
-20. Pour autoriser les participants à participer avec plusieurs flux vidéo, activez la case à cocher **Autoriser les participants à participer avec plusieurs flux vidéo**. Par défaut, les flux vidéo multiples sont autorisés.
+20. <span data-ttu-id="968d5-p123">Pour autoriser les participants à participer avec plusieurs flux vidéo, activez la case à cocher **Autoriser les participants à participer avec plusieurs flux vidéo**. Par défaut, les flux vidéo multiples sont autorisés.</span><span class="sxs-lookup"><span data-stu-id="968d5-p123">To allow participants to join with multiple video streams, select the **Enable participants to join with multiple video streams** check box. By default, multiple video streams are allowed.</span></span>
 
-21. Cliquez sur **Valider**.
+21. <span data-ttu-id="968d5-177">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="968d5-177">Click **Commit**.</span></span>
 
-## Pour modifier une stratégie utilisateur ou de site existante
+</div>
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+<div>
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-modify-an-existing-user-or-site-policy"></a><span data-ttu-id="968d5-178">Pour modifier une stratégie d’utilisateur ou de site existante</span><span class="sxs-lookup"><span data-stu-id="968d5-178">To modify an existing user or site policy</span></span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de conférence**.
+1.  <span data-ttu-id="968d5-179">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="968d5-179">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-4.  Dans la liste des stratégies de conférence, cliquez sur la stratégie de conférence souhaitée, sur **Modifier**, puis sur **Afficher les détails**.
+2.  <span data-ttu-id="968d5-180">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="968d5-180">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="968d5-181">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="968d5-181">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-5.  Dans **Modifier la stratégie de conférence**, modifiez les paramètres de stratégie, à l’exception du nom de la stratégie qui ne peut pas être modifié.
+3.  <span data-ttu-id="968d5-182">Dans la barre de navigation de gauche, cliquez sur **Conférence** , puis sur **stratégie de conférence**.</span><span class="sxs-lookup"><span data-stu-id="968d5-182">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
 
-6.  Cliquez sur **Valider**.
+4.  <span data-ttu-id="968d5-183">Dans la liste des stratégies de conférence, cliquez sur la stratégie à modifier, cliquez sur **Modifier**, puis sur **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="968d5-183">In the list of conferencing policies, click the policy that you want to change, click **Edit**, and then click **Show details**.</span></span>
+
+5.  <span data-ttu-id="968d5-184">Dans **Modifier la stratégie de conférence**, modifiez les paramètres de stratégie, à l’exception du nom de la stratégie qui ne peut pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="968d5-184">In **Edit Conferencing Policy**, modify any of the policy settings, except for the policy name, which cannot be modified.</span></span>
+
+6.  <span data-ttu-id="968d5-185">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="968d5-185">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

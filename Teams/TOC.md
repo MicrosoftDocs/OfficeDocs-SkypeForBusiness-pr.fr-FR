@@ -23,6 +23,7 @@
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
 ## [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
+## [Partage de fichiers dans Teams](sharing-files-in-teams.md)
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
@@ -692,6 +693,7 @@
 ## Installer Teams
 ### [Obtenir des clients pour Teams](get-clients.md)
 ### [Configuration matérielle requise pour l’application Teams](hardware-requirements-for-the-teams-app.md)
+### [Recommandations concernant le pilote matériel encodeur et décodeur](hardware-decoders-and-encoders.md)
 ### [Installer Teams avec MSI](msi-deployment.md)
 ### [Activer Teams dans votre organisation](Office-365-set-up.md)
 ### [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)
@@ -713,6 +715,7 @@
 ##### [GOV, éducation et organisations à but non lucratif](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Gérer l’offre de version d’évaluation Teams Commercial](iw-trial-teams.md)
 ### [Mettre à niveau la version gratuite de Teams vers la version avec abonnement Microsoft 365](upgrade-freemium.md)
+### [Gestion des licences des stratégies de messagerie](teams-add-on-licensing/pri-message.md)
 
 
 ## Interopérabilité avec Office 365

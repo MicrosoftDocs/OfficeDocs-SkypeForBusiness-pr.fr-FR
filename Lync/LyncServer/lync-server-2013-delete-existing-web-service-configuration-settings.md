@@ -1,63 +1,117 @@
-﻿---
-title: Suppression des paramètres de configuration d’un service web existant
-TOCTitle: Suppression des paramètres de configuration d’un service web existant
-ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182582(v=OCS.15)
-ms:contentKeyID: 49298743
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: supprimer les paramètres de configuration d’un service Web existant'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete existing Web Service configuration settings
+ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182582(v=OCS.15)
+ms:contentKeyID: 48185333
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: faecc3675e4ed22e6bab3a85825ae65c50a8511f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831595"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression des paramètres de configuration d’un service web existant
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-23_
+# <a name="delete-existing-web-service-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b5b63-102">Supprimer les paramètres de configuration d’un service Web existant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b5b63-102">Delete existing Web Service configuration settings in Lync Server 2013</span></span>
 
-Procédez comme suit pour supprimer une stratégie de service web.
+</div>
 
-## Pour supprimer une stratégie de service web
+<div id="mainSection">
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+<div id="mainBody">
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
+<span data-ttu-id="b5b63-103">_**Dernière modification de la rubrique:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="b5b63-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-4.  Dans le champ de recherche de la page **Service web**, tapez l’intégralité ou une partie du nom de la stratégie à supprimer.
+<span data-ttu-id="b5b63-104">Pour supprimer les paramètres de configuration des services web, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="b5b63-104">Follow these steps to delete web service configuration settings.</span></span>
 
-5.  Dans la liste des stratégies, cliquez sur la stratégie que vous souhaitez supprimer, cliquez sur **Modifier**, puis sur **Supprimer**.
+<div>
 
-6.  Cliquez sur **OK**.
+## <a name="to-delete-web-service-configuration-settings"></a><span data-ttu-id="b5b63-105">Pour supprimer des paramètres de configuration d’un service web existant</span><span class="sxs-lookup"><span data-stu-id="b5b63-105">To delete web service configuration settings</span></span>
 
-## Suppression des nouveaux paramètres de configuration des services web à l’aide des applets de commande de Lync Server Management Shell
+1.  <span data-ttu-id="b5b63-106">À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b5b63-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-Vous avez également la possibilité de supprimer les paramètres de configuration des services web en utilisant Lync Server Management Shell et l’applet de commande **Remove-CsWebServiceConfiguration**. Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+2.  <span data-ttu-id="b5b63-107">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b5b63-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b5b63-108">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b5b63-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-## Pour supprimer une collection de paramètres de configuration des services web
+3.  <span data-ttu-id="b5b63-109">Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.</span><span class="sxs-lookup"><span data-stu-id="b5b63-109">In the left navigation bar, click **Security** and then click **Web Service**.</span></span>
 
-  - La commande suivante supprime les paramètres de sécurité des services web appliqués au site de Redmond :
+4.  <span data-ttu-id="b5b63-110">Dans le champ de recherche de la page **Service web**, tapez l’intégralité ou une partie du nom de la stratégie à supprimer.</span><span class="sxs-lookup"><span data-stu-id="b5b63-110">On the **Web Service** page, and in the search field, type all or part of the name of the policy you want to delete.</span></span>
+
+5.  <span data-ttu-id="b5b63-111">Dans la liste des stratégies, cliquez sur la stratégie à supprimer, sur **Modifier**, puis sur **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="b5b63-111">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+
+6.  <span data-ttu-id="b5b63-112">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="b5b63-112">Click **OK**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="b5b63-113">Supprimer des paramètres de configuration de service Web à l’aide des applets de cmdlet Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b5b63-113">Deleting Web Service Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="b5b63-114">Vous pouvez supprimer des paramètres de configuration de service Web à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsWebServiceConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="b5b63-114">You can delete web service configuration settings by using Windows PowerShell and the **Remove-CsWebServiceConfiguration** cmdlet.</span></span> <span data-ttu-id="b5b63-115">Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b5b63-115">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="b5b63-116">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="b5b63-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a><span data-ttu-id="b5b63-117">Pour supprimer une collection de paramètres de configuration des services web</span><span class="sxs-lookup"><span data-stu-id="b5b63-117">To delete a specific collection of web service configuration settings</span></span>
+
+  - <span data-ttu-id="b5b63-118">La commande ci-dessous supprime les paramètres de sécurité des services web appliqués au site de Redmond :</span><span class="sxs-lookup"><span data-stu-id="b5b63-118">The following command removes the Web Service security settings applied to the Redmond site:</span></span>
     
         Remove-CsWebServiceConfiguration -Identity "site:Redmond"
 
-## Pour supprimer tous les paramètres de configuration des services web appliqués à l’étendue du site
+</div>
 
-  - La commande suivante supprime tous les paramètres de sécurité des services web appliqués à l’étendue des services :
+<div>
+
+## <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a><span data-ttu-id="b5b63-119">Pour supprimer tous les paramètres de configuration des services web appliqués à l’étendue du site</span><span class="sxs-lookup"><span data-stu-id="b5b63-119">To delete all of the web service configuration settings applied to the site scope</span></span>
+
+  - <span data-ttu-id="b5b63-120">La commande ci-dessous supprime tous les paramètres de sécurité des services web appliqués à l’étendue des services :</span><span class="sxs-lookup"><span data-stu-id="b5b63-120">The following command removes all of the Web Service security settings applied to the service scope:</span></span>
     
         Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
 
-## Pour supprimer tous les paramètres de configuration des services web qui autorisent l’authentification des certificats
+</div>
 
-  - La commande suivante supprime tous les paramètres de sécurité des services web qui autorisent l’authentification des certificats :
+<div>
+
+## <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a><span data-ttu-id="b5b63-121">Pour supprimer tous les paramètres de configuration des services web qui autorisent l’authentification des certificats</span><span class="sxs-lookup"><span data-stu-id="b5b63-121">To delete all of the web service configuration settings that allow certificate authentication</span></span>
+
+  - <span data-ttu-id="b5b63-122">La commande ci-dessous supprime tous les paramètres de sécurité des services web qui autorisent l’authentification des certificats :</span><span class="sxs-lookup"><span data-stu-id="b5b63-122">The following command removes all the Web Service security settings that allow the use of certificate authentication:</span></span>
     
         Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
 
-Pour plus d’informations, voir [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWebServiceConfiguration).
+</div>
 
-## Voir aussi
+<span data-ttu-id="b5b63-123">Pour plus d’informations, consultez la rubrique [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).</span><span class="sxs-lookup"><span data-stu-id="b5b63-123">For details, see [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWebServiceConfiguration).</span></span>
 
-#### Autres ressources
+</div>
 
-[Configuration de la sécurité](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="b5b63-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b5b63-124">See Also</span></span>
+
+
+[<span data-ttu-id="b5b63-125">Configuration de l’authentification dans le panneau de configuration de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b5b63-125">Configuring authentication in the Lync Server 2013 Control Panel</span></span>](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

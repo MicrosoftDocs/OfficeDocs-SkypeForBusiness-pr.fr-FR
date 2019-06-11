@@ -1,33 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Emergency procedures'
+---
+title: 'Lync Server 2013: procédures d’urgence'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Emergency procedures
 ms:assetid: ac92b267-4c21-4304-91dc-606f9db6d4a6
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn720345(v=OCS.15)
-ms:contentKeyID: 62221596
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720345(v=OCS.15)
+ms:contentKeyID: 63969640
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 76312609ddec57afd326ed076d300f01cc2edf1e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34831321"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Emergency procedures in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="emergency-procedures-in-lync-server-2013"></a><span data-ttu-id="d0be7-102">Procédures d’urgence dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0be7-102">Emergency procedures in Lync Server 2013</span></span>
 
-Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function). These procedures usually relate to one of the following:
+</div>
 
-  - Implementing change as part of a troubleshooting effort—to resolve an identified system issue.
+<div id="mainSection">
 
-  - Resolve an identified security threat—such as software updates.
+<div id="mainBody">
 
-Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.
+<span> </span>
 
-We recommend implementing emergency change procedures. For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.
+<span data-ttu-id="d0be7-103">_**Dernière modification de la rubrique:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="d0be7-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-## Voir aussi
+<span data-ttu-id="d0be7-104">Procédures d’urgence il s’agit de procédures à la demande qui ne se trouvent pas dans les procédures standard évoquées précédemment et qui doivent être gérées par la fonction de gestion des modifications (voir la [structure MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) pour obtenir une description de la fonction de gestion des modifications).</span><span class="sxs-lookup"><span data-stu-id="d0be7-104">Emergency procedures are on-demand procedures that fall outside the standard procedures previously discussed and should be handled by the change management function (refer to the [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) for a description on the "change management" function).</span></span> <span data-ttu-id="d0be7-105">Ces procédures concernent généralement l’un des éléments suivants:</span><span class="sxs-lookup"><span data-stu-id="d0be7-105">These procedures usually relate to one of the following:</span></span>
 
-#### Autres ressources
+  - <span data-ttu-id="d0be7-106">Implémentation du changement dans le cadre d’une procédure de résolution des problèmes: pour résoudre un problème système identifié.</span><span class="sxs-lookup"><span data-stu-id="d0be7-106">Implementing change as part of a troubleshooting effort—to resolve an identified system issue.</span></span>
 
-[Microsoft Operations Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=40939)
+  - <span data-ttu-id="d0be7-107">Résoudre une menace identifiée pour la sécurité (par exemple, mises à jour logicielles);</span><span class="sxs-lookup"><span data-stu-id="d0be7-107">Resolve an identified security threat—such as software updates.</span></span>
+
+<span data-ttu-id="d0be7-108">L’impact sur l’entreprise doit être évalué pour déterminer si un changement temporaire doit être implémenté ou canalisé par le biais des procédures officielles de gestion des changements, telles qu’elles sont définies par les instructions du quadrant de changement.</span><span class="sxs-lookup"><span data-stu-id="d0be7-108">Impact to the business should be evaluated to determine whether a temporary change should be implemented or channeled through the official change management procedures as defined by the Changing Quadrant guidance.</span></span>
+
+<span data-ttu-id="d0be7-109">Nous vous recommandons d’implémenter les procédures de changement d’urgence.</span><span class="sxs-lookup"><span data-stu-id="d0be7-109">We recommend implementing emergency change procedures.</span></span> <span data-ttu-id="d0be7-110">Par exemple, documentez le fonctionnement de ces types de procédures et l’aide à la réduction d’un état de confusion lors de la présentation d’une modification d’urgence.</span><span class="sxs-lookup"><span data-stu-id="d0be7-110">For example, document how to deal with these types of procedures and help with reducing a state of confusion when an emergency change is presented.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="d0be7-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d0be7-111">See Also</span></span>
+
+
+[<span data-ttu-id="d0be7-112">Microsoft Operations Framework 4,0</span><span class="sxs-lookup"><span data-stu-id="d0be7-112">Microsoft Operations Framework 4.0</span></span>](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
