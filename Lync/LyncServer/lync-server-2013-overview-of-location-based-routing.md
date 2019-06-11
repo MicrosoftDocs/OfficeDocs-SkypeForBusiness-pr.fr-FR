@@ -1,35 +1,69 @@
-﻿---
-title: 'Lync Server 2013 : Vue d’ensemble du routage géodépendant'
-TOCTitle: Vue d’ensemble du routage géodépendant
-ms:assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ994032(v=OCS.15)
-ms:contentKeyID: 53095412
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: vue d’ensemble du routage par emplacement'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Location-Based Routing
+ms:assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994032(v=OCS.15)
+ms:contentKeyID: 51803941
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 82b3a5cb2e89376a356daf54c6e5bc443ab52207
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825365"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vue d’ensemble du routage géodépendant dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="overview-of-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="3208a-102">Vue d’ensemble du routage basé sur l’emplacement dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3208a-102">Overview of Location-Based Routing in Lync Server 2013</span></span>
 
-Le routage géodépendant introduit de nouvelles règles modifiant le routage des appels RTC nationaux et internationaux pour empêcher le contournement des frais de réseau téléphonique commuté. Il offre la flexibilité nécessaire pour appliquer ces règles à certaines régions, passerelles ou groupes d’utilisateurs uniquement.
+</div>
 
-Les scénarios suivants illustrent les principaux types de restriction que le routage géodépendant peut mettre en œuvre :
+<div id="mainSection">
 
-  - Acheminer les appels : le routage géodépendant peut configurer les appels sortants pour les acheminer depuis une passerelle RTC basée dans la même région que l’appelant pour empêcher le contournement des frais de réseau téléphonique commuté RTC et, ainsi, les acheminer depuis une passerelle RTC située dans une région autre que celle de l’appelant.
+<div id="mainBody">
 
-  - Acheminer les appels : le routage géodépendant peut empêcher les appels RTC entrants d’atteindre les points de terminaison Lync si la passerelle RTC dirigeant les appels entrants se trouve dans une région autre que celle de l’utilisateur Lync appelé.
+<span> </span>
 
-  - Régions inconnues : le routage géodépendant restreint les appels entrants et sortants RTC vers et depuis les utilisateurs dont la localisation est indéterminée (à savoir les utilisateurs distants se connectant depuis Internet ou vivant dans des régions inconnues).
+<span data-ttu-id="3208a-103">_**Dernière modification de la rubrique:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="3208a-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-  - Régions internationales : le routage géodépendant achemine les appels sortants via les passerelles RTC internationales si aucune passerelle n’est disponible à proximité de la région de l’utilisateur.
+<span data-ttu-id="3208a-p101">Le routage géodépendant introduit de nouvelles règles modifiant le routage des appels RTC nationaux et internationaux pour empêcher le contournement des frais de réseau téléphonique commuté. Il offre la flexibilité nécessaire pour appliquer ces règles à certaines régions, passerelles ou groupes d’utilisateurs uniquement.</span><span class="sxs-lookup"><span data-stu-id="3208a-p101">Location-Based Routing introduces a new set of rules that modifies the routing of national and international PSTN calls to prevent toll bypass. Location-Based Routing provides the flexibility to scope these rules to specific regions, specific gateways or to specific set of users only.</span></span>
 
-## Voir aussi
+<span data-ttu-id="3208a-106">Les scénarios suivants illustrent les principaux types de routage de restrictions qui peuvent garantir:</span><span class="sxs-lookup"><span data-stu-id="3208a-106">The following scenarios illustrate the main types of restrictions Location-Based Routing can enforce:</span></span>
 
-#### Autres ressources
+  - <span data-ttu-id="3208a-107">Appels de sortie: le routage de géolocalisation peut imposer des appels sortants vers la sortie à partir d’une passerelle RTC qui se trouve dans la même région que celle où l’appelant doit éviter le contournement du réseau PSTN, qui empêche les appels à la sortie d’une passerelle RTC située dans une autre région que le visiteur.</span><span class="sxs-lookup"><span data-stu-id="3208a-107">Egress calls – Location-Based Routing can enforce outgoing calls to egress from a PSTN gateway that is located in the same region as where the caller is to prevent PSTN toll bypass, which prevents calls to egress from a PSTN gateway located in a different region as the caller.</span></span>
 
-[Planification du routage géodépendant dans Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+  - <span data-ttu-id="3208a-108">Appels entrants – le routage de géolocalisation peut empêcher les appels RTC entrants de sonner sur des points de terminaison Lync si la passerelle RTC qui achemine l’appel entrant ne se trouve pas dans la même région que l’utilisateur Lync appelé.</span><span class="sxs-lookup"><span data-stu-id="3208a-108">Ingress calls – Location-Based Routing can prevent incoming PSTN calls to ring Lync endpoints if the PSTN gateway routing the incoming call is not located in the same region as the called Lync user.</span></span>
+
+  - <span data-ttu-id="3208a-109">Régions inconnues: le routage géolocalisation limite les appels RTC entrants et sortants vers et depuis les utilisateurs qui se trouvent dans des endroits indéterminés (c’est-à-dire, des utilisateurs distants qui se connectent à partir d’Internet ou qui se trouvent dans des régions inconnues).</span><span class="sxs-lookup"><span data-stu-id="3208a-109">Unknown regions – Location-Based Routing restricts incoming and outgoing PSTN calls to and from users that are located in undetermined locations (i.e. remote users connecting from the Internet or located in unknown regions).</span></span>
+
+  - <span data-ttu-id="3208a-110">Régions internationales: le routage de géolocalisation applique le routage des appels sortants par le biais des passerelles RTC internationales si une passerelle locale à l’emplacement de l’utilisateur est introuvable.</span><span class="sxs-lookup"><span data-stu-id="3208a-110">International regions – Location-Based Routing enforces routing of outgoing calls through international PSTN gateways if a gateway local to the user’s location cannot be found.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="3208a-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3208a-111">See Also</span></span>
+
+
+[<span data-ttu-id="3208a-112">Planification du routage géodépendant dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3208a-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

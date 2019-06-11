@@ -1,33 +1,67 @@
-﻿---
+---
 title: >
   Lync Server 2013 : Nouvelles fonctionnalités d’intégration Exchange Server
-TOCTitle: Nouvelles fonctionnalités d’intégration Exchange Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New Exchange Server integration features
 ms:assetid: cad9cbfa-f213-42af-9c8b-9baf1a5bf6bd
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205269(v=OCS.15)
-ms:contentKeyID: 49298829
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205269(v=OCS.15)
+ms:contentKeyID: 48185431
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: d39aad7f2df2f02983bad50cae8e81e711065456
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826359"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nouvelles fonctionnalités d’intégration Exchange Server dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-24_
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a><span data-ttu-id="f8320-102">Nouvelles fonctionnalités d’intégration Exchange Server dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8320-102">New Exchange Server integration features in Lync Server 2013</span></span>
 
-Lync Server 2013 prend en charge de nouvelles fonctionnalités lorsqu’il est déployé avec Microsoft Exchange Server 2013, comme décrit dans la liste suivante. Pour que chacune de ces fonctionnalités soit activée, Lync Server 2013 et Exchange 2013 doivent être déployés.
+</div>
 
-  - Vous pouvez utiliser un **magasin de contact unifié**, dans lequel la liste de contacts Lync est stockée dans Exchange 2013. Vous pouvez gérer le magasin de contact dans Lync 2013, Outlook 2013 et Outlook Web App.
+<div id="mainSection">
 
-  - Vous pouvez utiliser des **photos haute résolution** pour les contacts. Les photos d’une dimension maximale de 648x648 pixels sont stockées dans Exchange 2013 et sont disponibles pour les clients, y compris Lync 2013, Outlook 2013, Microsoft Lync Web App et Outlook Web App.
+<div id="mainBody">
 
-  - Vous pouvez activer l’**intégration de l’archivage Lync**, qui intègre l’archivage de Lync Server 2013 dans la fonctionnalité d’archive permanente d’Exchange 2013, pour les utilisateurs hébergés sur Exchange 2013. Cela permet d’offrir aux administrateurs une expérience commune en relation avec la conformité et la découverte électronique.
+<span> </span>
 
-## Voir aussi
+<span data-ttu-id="f8320-103">_**Dernière modification de la rubrique:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="f8320-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-#### Concepts
+<span data-ttu-id="f8320-104">Lync Server 2013 prend en charge les nouvelles fonctionnalités lorsqu’il est déployé en même temps que Microsoft Exchange Server 2013, comme décrit dans la liste suivante.</span><span class="sxs-lookup"><span data-stu-id="f8320-104">Lync Server 2013 supports new features when it is deployed alongside Microsoft Exchange Server 2013, as described in the following list.</span></span> <span data-ttu-id="f8320-105">Pour que chacune de ces fonctionnalités fonctionne, Lync Server 2013 et Exchange 2013 doivent être déployés.</span><span class="sxs-lookup"><span data-stu-id="f8320-105">For each of these features to work, both Lync Server 2013 and Exchange 2013 must be deployed.</span></span>
 
-[Planification et déploiement du magasin de contacts unifié dans Lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
-[Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md)
+  - <span data-ttu-id="f8320-106">Vous pouvez utiliser un **magasin de contacts unifié**dans lequel la liste de contacts Lync est stockée dans Exchange 2013 et vous pouvez gérer le magasin de contacts dans Lync 2013, Outlook 2013 et Outlook Web App.</span><span class="sxs-lookup"><span data-stu-id="f8320-106">You can use a **unified contact store**, in which the Lync contact list is stored in Exchange 2013, and you can manage the contact store in Lync 2013, Outlook 2013, and Outlook Web App.</span></span>
+
+  - <span data-ttu-id="f8320-107">Vous pouvez utiliser des **photos haute résolution** pour vos contacts.</span><span class="sxs-lookup"><span data-stu-id="f8320-107">You can use **high-resolution photos** for contacts.</span></span> <span data-ttu-id="f8320-108">Les photos avec un maximum de 648x648 pixels sont stockées dans Exchange 2013 et mises à la disposition des clients, notamment Lync 2013, Outlook 2013, Microsoft Lync Web App et Outlook Web App.</span><span class="sxs-lookup"><span data-stu-id="f8320-108">Photos with up to 648x648 pixels are stored in Exchange 2013 and made available to clients including Lync 2013, Outlook 2013, Microsoft Lync Web App, and Outlook Web App.</span></span>
+
+  - <span data-ttu-id="f8320-109">Vous pouvez activer l' **intégration de l’archivage Lync**, qui intègre le processus d’archivage de lync Server 2013 dans la fonctionnalité de conservation inaltérable Exchange 2013, pour les utilisateurs hébergés sur Exchange 2013, ce qui permet aux administrateurs de garantir une interface utilisateur commune pour la conformité et attitude.</span><span class="sxs-lookup"><span data-stu-id="f8320-109">You can enable **Lync Archiving integration**, which integrates Lync Server 2013 Archiving into the Exchange 2013 In-Place Hold feature, for users homed on Exchange 2013, which enables one common experience for administrators around compliance and eDiscovery.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f8320-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f8320-110">See Also</span></span>
+
+
+[<span data-ttu-id="f8320-111">Planification et déploiement du magasin de contacts unifié dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8320-111">Planning and deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+[<span data-ttu-id="f8320-112">Fonctionnement de l’archivage dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8320-112">How Archiving works in Lync Server 2013</span></span>](lync-server-2013-how-archiving-works.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
