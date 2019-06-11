@@ -1,27 +1,49 @@
-﻿---
-title: Compteurs de performances de mobilité
-TOCTitle: Compteurs de performances de mobilité
-ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh690046(v=OCS.15)
-ms:contentKeyID: 49298930
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: compteurs de performances de mobilité'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility performance counters
+ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
+ms:contentKeyID: 48185441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827115"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Compteurs de performances de mobilité
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Compteurs de performance de mobilité dans Lync Server 2013
 
-Les tableaux suivants répertorient les noms et descriptions des compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service de mobilité Mcx de Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-22_
+
+Les tableaux suivants répertorient les noms et descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API Unified Communications Web API (UCWA) et le service de mobilité MCX de Lync Server 2013.
 
 Le nom de la catégorie pour les compteurs dans le tableau UCWA est **LS:WEB – UCWA**.
 
 Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
 
-## Compteurs de performances pour UCWA
+<div>
+
+## <a name="performance-counters-for-ucwa"></a>Compteurs de performances pour UCWA
 
 
 <table>
@@ -102,7 +124,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </tr>
 <tr class="odd">
 <td><p>Average Lifetime for Session (ms)</p></td>
-<td><p>Durée de vie moyenne d’une session en millisecondes</p></td>
+<td><p>Durée de vie moyenne pour une session en millisecondes</p></td>
 </tr>
 <tr class="even">
 <td><p>Data MCU Join Failures</p></td>
@@ -141,7 +163,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Nombre total d’échecs de désérialisation</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of HD Photo Get Failures</p></td>
+<td><p>Nombre d’échecs de photo HD</p></td>
 <td><p>Nombre total d’échecs de récupération de photos HD depuis Exchange</p></td>
 </tr>
 <tr class="even">
@@ -193,7 +215,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Nombre total de demandes reçues sur le canal de commande</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total de demandes réussies</p></td>
+<td><p>Total Requests Succeeded</p></td>
 <td><p>Nombre total de demandes réussies</p></td>
 </tr>
 <tr class="odd">
@@ -202,7 +224,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </tr>
 <tr class="even">
 <td><p>Total Sessions Terminated Because of Idle Timeout</p></td>
-<td><p>Nombre total de sessions qui ont été terminées suite à l’expiration du délai d’inactivité utilisateur</p></td>
+<td><p>Nombre total de sessions terminées en raison d’un délai d’expiration d’inactivité</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total Throttled Applications</p></td>
@@ -212,7 +234,11 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </table>
 
 
-### Compteurs de performances pour le service de mobilité Mcx
+</div>
+
+<div id="sectionSection1" class="section">
+
+### <a name="performance-counters-for-mcx-mobility-service"></a>Compteurs de performances pour le service de mobilité Mcx
 
 <table>
 <colgroup>
@@ -236,7 +262,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </tr>
 <tr class="odd">
 <td><p>Nombre d’interrogations réseau expirées actuellement actives</p></td>
-<td><p>Nombre d’interrogations réseau sont le délai d’attente a expiré</p></td>
+<td><p>Nombre d’interrogations réseau dont le délai d’attente a expiré</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre d’interrogations actuellement actives</p></td>
@@ -251,7 +277,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Nombre de sessions actuellement actives avec abonnements de présence actifs</p></td>
 </tr>
 <tr class="odd">
-<td><p>Demandes de notifications push échouées/seconde</p></td>
+<td><p>Demandes de notifications push ayant échoué/seconde</p></td>
 <td><p>Taux de notifications push ayant échoué par seconde</p></td>
 </tr>
 <tr class="even">
@@ -267,7 +293,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Taux de notifications push envoyées par seconde</p></td>
 </tr>
 <tr class="odd">
-<td><p>Demandes échouées/seconde</p></td>
+<td><p>Demandes ayant échoué/seconde</p></td>
 <td><p>Taux de demandes ayant échoué par seconde</p></td>
 </tr>
 <tr class="even">
@@ -291,11 +317,11 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Nombre total d’appels vocaux entrants ayant été refusés</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total d’appels vocaux entrants échoués</p></td>
+<td><p>Nombre total d’appels vocaux entrants ayant échoué</p></td>
 <td><p>Nombre total d’appels vocaux entrants ayant échoué</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total d’appels vocaux sortants échoués</p></td>
+<td><p>Nombre total d’appels vocaux sortants ayant échoué</p></td>
 <td><p>Nombre total d’appels vocaux sortants ayant échoué</p></td>
 </tr>
 <tr class="odd">
@@ -307,7 +333,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Nombre total de demandes de notifications push</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre total de demandes de notifications push échouées</p></td>
+<td><p>Nombre total de demandes de notifications push ayant échoué</p></td>
 <td><p>Nombre total de demandes de notifications push ayant échoué</p></td>
 </tr>
 <tr class="even">
@@ -319,7 +345,7 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 <td><p>Nombre total de demandes de notifications push ayant limitées</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre total de demandes échouées</p></td>
+<td><p>Nombre total de demandes ayant échoué</p></td>
 <td><p>Nombre total de demandes ayant échoué</p></td>
 </tr>
 <tr class="odd">
@@ -352,4 +378,17 @@ Le nom de la catégorie pour les compteurs dans le tableau Service de mobilité 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

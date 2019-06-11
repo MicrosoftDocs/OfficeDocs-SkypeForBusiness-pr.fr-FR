@@ -1,43 +1,81 @@
-﻿---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités de l’application Response Group'
-TOCTitle: Nouvelles fonctionnalités de l’application Response Group
-ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398373(v=OCS.15)
-ms:contentKeyID: 49297234
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Nouvelles fonctionnalités de l’application Response Group'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New Response Group application features
+ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398373(v=OCS.15)
+ms:contentKeyID: 48184196
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 33dd01cf7516f950e58dbc90ee09b06901bccf74
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826149"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nouvelles fonctionnalités de l’application Response Group dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-29_
+# <a name="new-response-group-application-features-in-lync-server-2013"></a>Nouvelles fonctionnalités de l’application Response Group dans Lync Server 2013
 
-L’application Response Group vous permet de router et de placer en file d’attente des appels entrants vers des entités désignées pour des objectifs spéciaux (par exemple, un service clientèle, un service d’assistance interne ou un service d’assistance téléphonique général dédié à un service).
+</div>
 
-Les fonctionnalités suivantes de l’application Response Group constituent des nouveautés dans Lync Server 2013 :
+<div id="mainSection">
 
-  - **Rôle de gestionnaire**
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-29_
+
+L’application Response Group vous permet d’acheminer et de traiter en file d’attente les appels entrants vers des personnes disposant de personnes spécifiques, comme le service clientèle, le support technique interne ou l’assistance téléphonique générale pour un service.
+
+Les fonctionnalités d’application de groupe de réponse suivantes sont une nouveauté de Lync Server 2013:
+
+  - **Rôle du responsable**
     
-    Lync Server 2013 introduit un nouveau rôle de gestionnaire Response Group. Désormais, il existe deux rôles de gestion pour les groupes Response Group : gestionnaire Response Group et administrateur Response Group. Les administrateurs Response Group peuvent toujours configurer un élément d’un groupe Response Group alors que les gestionnaires ne peuvent configurer que certains éléments, uniquement dans les groupes Response Group dont ils sont propriétaires.
+    Lync Server 2013 introduit un nouveau rôle responsable de groupe de réponse. Il existe désormais deux rôles de gestion pour les groupes de réponse: responsable de groupe de réponse et administrateur de groupe de réponse. Si les administrateurs de groupe de réponse peuvent tout de même configurer tous les éléments pour n’importe quel groupe de réponse, les responsables peuvent configurer uniquement certains éléments, uniquement pour les groupes de réponse qu’ils possèdent.
     
-    Cette amélioration du modèle d’administration tire parti de l’extensibilité Response Group, en particulier pour les scénarios de déploiement de grande taille.
+    Cette amélioration apportée au modèle d’administration offre une évolutivité du groupe de réponse, en particulier pour des scénarios de déploiement importants.
 
   - **Haute disponibilité**
     
-    La prise en charge de la haute disponibilité pour l’application Response Group, sous la forme d’une mise en miroir SQL Server, est activée dans le cadre de la configuration et du déploiement d’ensemble de la haute disponibilité pour Lync Server 2013. Si vous configurez la haute disponibilité et si vous perdez la connectivité au serveur principal, la fonctionnalité Response Group n’est pas affectée, car elle tire profit du serveur principal en miroir.
+    La prise en charge de la haute disponibilité pour l’application Response Group, sous la forme de la mise en miroir SQL Server, est activée dans le cadre de la configuration générale et du déploiement de la haute disponibilité pour Lync Server 2013. Si vous configurez pour une haute disponibilité et perdez votre connectivité au serveur principal principal, la fonctionnalité de groupe de réponse n’est pas affectée par l’utilisation du serveur principal en miroir.
     
-    La prise en charge de la mise en miroir SQL Server pour l’application Response Group ne peut pas être activée ou configurée individuellement en dehors de la configuration d’ensemble de la haute disponibilité pour Lync Server 2013.
+    La prise en charge de la mise en miroir SQL Server pour l’application Response Group ne peut pas être activée ou configurée en dehors de la configuration globale de haute disponibilité Lync Server 2013.
 
   - **Récupération d’urgence**
     
-    La prise en charge de la récupération d’urgence pour l’application Response Group est activée dans le cadre de la configuration et du déploiement des pools de serveurs frontaux appariés, qui font partie de la configuration d’ensemble de la récupération d’urgence pour Lync Server 2013. En outre, les applets de commande d’importation et d’exportation Response Group prennent en charge le processus de basculement vers le pool de sauvegarde, ainsi que le processus de restauration automatique vers le pool principal ou un nouveau pool. Si une panne survient dans le pool principal, les groupes Response Group peuvent faire l’objet d’un basculement vers le pool de sauvegarde, puis d’une restauration automatique vers le pool principal ou un nouveau pool une fois la panne terminée.
+    La prise en charge du reprise après sinistre pour l’application Response Group est activée dans le cadre de la configuration et du déploiement des pools frontaux couplés, qui font partie de la configuration globale de reprise après sinistre de Lync Server 2013. De plus, les cmdlets d’importation et d’exportation de groupe de réponse prennent en charge le processus de basculement vers le pool de sauvegarde et le processus de restauration vers le pool principal ou vers un nouveau pool. Si une interruption se produit dans le pool principal, les groupes de réponses peuvent être basculés vers le pool de sauvegardes, puis restaurés au pool principal ou à un nouveau pool lorsque l’interruption est terminée.
 
-## Voir aussi
+<div id="sectionSection0" class="section">
 
-#### Autres ressources
+</div>
 
-[Planification des groupes Response Group dans Lync Server 2013](lync-server-2013-planning-for-response-groups.md)
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Planification des groupes Response Group dans Lync Server 2013](lync-server-2013-planning-for-response-groups.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

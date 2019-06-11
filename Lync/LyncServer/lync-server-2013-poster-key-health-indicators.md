@@ -1,31 +1,51 @@
-﻿---
-title: Key Health Indicators
-TOCTitle: 'Affiche : Key Health Indicators'
-ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn593599(v=OCS.15)
-ms:contentKeyID: 61084842
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: affiche: indicateurs d’intégrité clés'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Poster: Key Health Indicators'
+ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
+ms:contentKeyID: 61084873
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824007"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Key Health Indicators
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="key-health-indicators-in-lync-server-2013"></a>Principaux indicateurs d’intégrité dans Lync Server 2013
 
-Le présent article complète l'affiche [Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers](http://go.microsoft.com/fwlink/?linkid=391838), que vous pouvez télécharger à partir du Centre de téléchargement.
+</div>
 
-![Poster décrivant le dépannage à l’aide des données KHI](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Poster décrivant le dépannage à l’aide des données KHI")
+<div id="mainSection">
 
-Vous pouvez utiliser cette affiche pour en savoir davantage sur les indicateurs KHI (Key Health Indicators), les compteurs de performance avec des seuils destinés à révéler les problèmes rencontrés lors de l'expérience utilisateur. La collecte des données KHI constitue généralement la première étape vers l'implémentation du CQM (Call Quality Methodology), dont la finalité est d'assurer une expérience audio de qualité pour les utilisateurs Lync.
+<div id="mainBody">
 
-Si vous avez des questions sur la façon d'utiliser CQM, vous pouvez les soumettre à cqmfeedback@microsoft.com.
+<span> </span>
 
-L'affiche explique les points suivants :
+_**Dernière modification de la rubrique:** 2014-02-10_
 
-  - Que sont les Key Health Indicators ?
+Cet article est un complément des [indicateurs d’intégrité clés: la base de la mise à jour des afficheurs Lync Servers sains](http://go.microsoft.com/fwlink/?linkid=391838) que vous pouvez télécharger à partir du centre de téléchargement.
+
+![Affiche décrivant le dépannage à l’aide de données Khi] (images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Affiche décrivant le dépannage à l’aide de données Khi")
+
+Vous pouvez utiliser cette affiche pour en savoir plus sur les indicateurs de performance clés (KHIs), les compteurs de performance avec des seuils visant à révéler des problèmes d’utilisation de l’utilisateur. La collecte des données KHI est généralement la première étape de l’implémentation de la méthodologie de qualité des appels (CQM), qui vise à garantir une qualité audio optimale pour les utilisateurs de Lync.
+
+Si vous avez des questions sur l’utilisation de CQM, vous pouvez transmettre vos questions à cqmfeedback@microsoft.com.
+
+L’affiche décrit les domaines suivants:
+
+  - Que sont les indicateurs d’intégrité clés?
 
   - Pour collecter des données KHI
 
@@ -35,75 +55,103 @@ L'affiche explique les points suivants :
 
   - Serveurs frontaux
 
-  - Serveurs SQL principaux
+  - Serveur SQL principal
 
-  - Serveurs de médiation
+  - serveurs de médiation
 
-  - Serveurs Edge
+  - serveurs Edge
 
-## Que sont les Key Health Indicators ?
+<span id="WhatIs"></span>
 
-Les Key Health Indicators (KHI) sont des compteurs de performance avec des seuils destinés à révéler les problèmes lors de l'expérience utilisateur. La collecte des données KHI est généralement la première étape vers l'implémentation du CQM (Call Quality Methodology), dont la finalité est d'assurer une expérience audio de qualité pour les utilisateurs Lync.
+<div>
 
-Les indicateurs KHI complètent les solutions de surveillance Lync standard (à savoir, System Center Operations Manager, Synthetic Transactions, Monitoring Server) et ne les remplacent pas.
+## <a name="what-are-key-health-indicators"></a>Que sont les indicateurs d’intégrité clés?
 
-Collectez les compteurs de performance KHI et remplissez le tableur KHI accompagnant le guide réseau (Networking Guide) afin d'obtenir une carte de performance vous permettant de déterminer l'état d'intégrité d'un serveur lors d'un déploiement Lync. Une fois remplie, cette carte vous aide à réparer l'environnement et vous apporte un éclairage supplémentaire sur d'autres éléments de l'infrastructure. Évaluez les indicateurs KHI à une fréquence mensuelle et incorporez-les dans tous les processus opérationnels de votre déploiement.
+Les indicateurs de performance clés sont des compteurs de performance avec des seuils visant à révéler des problèmes d’utilisation de l’utilisateur. La collecte des données KHI est généralement la première étape de l’implémentation de la méthodologie de qualité des appels (CQM), qui vise à garantir une qualité audio optimale pour les utilisateurs de Lync.
 
-Téléchargez [Lync Server Networking Guide](http://go.microsoft.com/fwlink/p/?linkid=390677) pour obtenir la liste complète des indicateurs KHI et les tableurs associés.
+Les KHIs sont utilisés en plus des solutions de surveillance Lync standard (par exemple, System Center Operations Manager, transactions synthétiques, serveur de surveillance) et non au lieu de ces solutions.
 
-## Pour collecter des données KHI
+Recueillez les compteurs de performance KHI et remplissez la feuille de calcul KHI qui accompagne le Guide réseau pour créer une carte de performance qui vous aidera à déterminer l’état du serveur d’un déploiement Lync. Une fois rempli, il vous guide dans la réparation de l’environnement et fournit des renseignements supplémentaires aux autres parties prenantes. Évaluez KHIs sur une base mensuelle et intégrez-le dans les processus opérationnels en cours de déploiement.
 
-1.  Exécutez le script KHI inclus avec le guide réseau Lync Server sur chaque serveur Lync. Un collecteur de données est créé dans l'Analyseur de performances, nommez-le KHI. Par défaut, les données sont interrogées toutes les 15 secondes.
+Téléchargez le [Guide du réseau Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677) pour afficher la liste complète des KHIs et obtenir les feuilles de calcul associées.
 
-2.  Avant de commencer la journée de travail, accédez à chaque serveur Lync Server et démarrez le collecteur de données KHI.
+</div>
 
-3.  À la fin de la journée, arrêtez la collecteur de données KHI et copiez les données vers un emplacement centralisé.
+<span id="ToCollect"></span>
 
-4.  Après avoir utilisé l'Analyseur de performances pour remplir le tableur KHI inclus dans le téléchargement du guide réseau Lync Server, comparez les résultats aux valeurs cibles recommandées.
+<div>
 
-## Flux de correction pour tous les rôles serveur
+## <a name="to-collect-khi-data"></a>Pour collecter des données KHI
 
-Pour chaque serveur de votre implémentation Lync, commencez par vérifier que l'intégrité du serveur et les performances du système se situent au niveau voulu ou au-dessus de celui-ci. Ce n'est qu'ensuite que vous pouvez examiner les indicateurs concernant le rôle de serveur dans l'implémentation globale Lync.
+1.  Exécutez le script KHI inclus dans le Guide du réseau Lync Server sur chaque serveur Lync. Cela permet de créer un collecteur de données dans le moniteur de performance et de le nommer KHI. Par défaut, les données sont interrogées toutes les 15 secondes.
 
-Commencez par collecter les données de performance KHI pour tous les serveurs. Pour chaque rôle de système (voir plus loin dans ce document pour les détails), déterminez si les composants du système de base respectent les valeurs cibles recommandées. Sinon, corrigez les performances du système, recollectez les données KHI et vérifiez l'intégrité du système avant d'examiner les métriques propres au rôle de serveur dans l'implémentation Lync. L'intégrité des composants pour tous les rôles est définie comme suit :
+2.  Avant le début de la journée de votre entreprise, accédez à chaque serveur Lync et démarrez le collecteur de données KHI.
 
-  - Utilisation du processeur \< 80%
+3.  À la fin de cette journée, arrêtez le collecteur de données KHI et copiez les données dans un emplacement central.
 
-  - Moyenne des écritures sur disque \< 10 ms
+4.  Après avoir utilisé le moniteur de performance pour remplir la feuille de calcul KHI incluse dans le téléchargement du Guide du réseau Lync Server, comparez les résultats aux cibles recommandées.
 
-  - Moyenne des lectures sur disque \< 10 ms
+</div>
 
-  - Available memory  \>20% System Total MB
+<span id="Remidiation"></span>
 
-  - Longueur de la file d'attente réseau \< 2
+<div>
 
-  - Paquets ignorés (entrée/sortie) = 0
+## <a name="remediation-flow-for-all-server-roles"></a>Flux de correction pour tous les rôles de serveur
 
-## Glossaire
+Pour chaque serveur dans votre implémentation Lync, commencez par vérifier que les performances du composant et celles du serveur du serveur sont au niveau le plus souhaité. Après cela, vous devez examiner les indicateurs relatifs au rôle du serveur dans l’implémentation globale de Lync.
 
-Cette affiche utilise les termes et acronymes suivants :
+Commencez par collecter les données de performances KHI pour tous les serveurs. Pour chacun des rôles système (détails abordés plus loin dans ce document), déterminez si les composants système de base répondent aux cibles recommandées. Si ce n’est pas le cas, assurez-vous d’apporter une correction aux performances du système, puis recollectez les données KHI et assurez-vous que l’état du système s’applique aux mesures spécifiques au rôle du serveur dans l’implémentation Lync. L’intégrité des composants de tous les rôles est définie comme suit:
 
-AS MCU = Application Sharing Multi-point Control Unit
+  - Taux d' \< utilisation UC 80%
 
-MCU AV = MCU Audio-Vidéo
+  - Moyenne. écriture \< de 10 ms
 
-MCU MI = MCU de messagerie instantanée
+  - Moyenne. Disk lu \< 10 ms
 
-UCWA = Unified Communications Web API (API Web de communications unifiées)
+  - Mémoire \>disponible de 20% au total Mo
 
-AV Edge = Traversée audio/vidéo via edge
+  - Longueur \< de la file d’attente réseau 2
 
-Auth AV = Authentification audio/vidéo
+  - Paquets ignorés (en entrée/sortie) = 0
 
-Pile SIP = Contient l'implémentation SIP de base Lync
+</div>
 
-Proxy de données = Utilisé pour les conférences Edge
+<span id="Glossary"></span>
 
-LySS = Lync Storage Service (service de stockage Lync)
+<div>
 
-## Serveurs frontaux
+## <a name="glossary"></a>Glossaire
 
-Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs frontaux en plus de l'intégrité de base des composants :
+Les termes et sigles suivants sont utilisés dans cet affiche:
+
+AS MCU = unité de contrôle de partage d’application multipoint
+
+AV MCU = audio/vidéo MCU
+
+Messagerie instantanée MCU = MCU
+
+UCWA = API Web de communications unifiées
+
+Clavier AV = traversée de l’audio/vidéo via Edge
+
+Authentification AV = authentification audio/vidéo
+
+Pile SIP = application de base SIP de Lync
+
+Proxy de données = utilisé pour les conférences de périphériques
+
+LySS = service de stockage Lync
+
+</div>
+
+<span id="Front"></span>
+
+<div>
+
+## <a name="front-end-servers"></a>Serveurs frontaux
+
+Les cibles KHI suivantes sont spécifiques aux serveurs frontaux en plus de l’état d’intégrité des composants de base:
 
 
 <table>
@@ -114,53 +162,59 @@ Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs fr
 <thead>
 <tr class="header">
 <th>Zone fonctionnelle</th>
-<th>Métriques cibles</th>
+<th>Mesures cibles</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>AS/AV/IM MCU</p></td>
-<td><p>État intégrité MCU &lt;2</p></td>
+<td><p>État &lt;d’intégrité du MCU 2</p></td>
 </tr>
 <tr class="even">
 <td><p>Composants Web</p></td>
-<td><p>Délais AD de l'expansion de la liste de distribution &lt;0</p>
-<p>Échecs ABWQ = 0</p>
-<p>Échecs LIS = 0</p>
-<p>Erreurs d'authentification &lt; 1/s</p>
-<p>Requêtes ASP.NET v4 rejetées = 0</p></td>
+<td><p>Temporisation de l’extension de &lt;liste de distribution 0</p>
+<p>Échecs de ABWQ = 0</p>
+<p>Échecs de LIS = 0</p>
+<p>Erreurs &lt; d’authentification 1/s</p>
+<p>Demandes d’ASP.NET V4 rejetées = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Pile SIP</p></td>
-<td><p>Moyenne des traitements des messages entrants &lt; 1 s</p>
-<p>Incoming Responses Dropped &lt; 1/sec Incoming Requests Dropped &lt; 1/sec</p>
-<p>Latence de file d'attente &lt; 100 ms</p>
-<p>Latence Sproc &lt; 100 ms</p>
-<p>Requêtes limitées = 0</p>
-<p>Erreurs d'authentification &lt; 1/s</p>
-<p>Expiration des messages entrants &lt; 2</p>
-<p>Moyenne des messages entrants mis en attente &lt; 1 s</p>
-<p>Connexions avec contrôle de flux &lt; 2</p>
-<p>Expiration moyenne de file d'attente &lt; 2 s</p></td>
+<td><p>Moyenne. traitement &lt; de messages entrants 1 s</p>
+<p>Les réponses entrantes ont été supprimées &lt; &lt; .</p>
+<p>Latence de la &lt; file d’attente 100 ms</p>
+<p>Latence de sproc &lt; 100 ms</p>
+<p>Demandes de limitation = 0</p>
+<p>Erreurs &lt; d’authentification 1/s</p>
+<p>Messages entrants expirés &lt; 2</p>
+<p>Moyenne de messages entrants &lt; : 1 seconde</p>
+<p>Connexions &lt; à contrôle de flux 2</p>
+<p>Moyenne. décalage &lt; de la file d’attente 2 s</p></td>
 </tr>
 <tr class="even">
 <td><p>LySS</p></td>
-<td><p>% d'espace utilisé par la base de données du service de stockage &lt; 80</p>
-<p>Nombre d'échecs de réplications de réplicas = 0</p>
-<p>Nombre d'événements de pertes de données = 0</p></td>
+<td><p>% d’espace utilisé par la base &lt; de services de stockage 80</p>
+<p>#échecs de réplication de réplica = 0</p>
+<p>#des événements de perte de données = 0</p></td>
 </tr>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Espérance de vie d'une page &gt; 300 s.</p>
-<p>Requêtes de lots / sec &lt; 2500</p></td>
+<td><p>Durée de vie de &gt; la page 300 s.</p>
+<p>Demandes de lot/ &lt; s 2500</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Serveurs SQL principaux
+</div>
 
-Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs SQL en plus de l'intégrité de base des composants :
+<span id="BackEnd"></span>
+
+<div>
+
+## <a name="backend-sql-servers"></a>Serveur SQL principal
+
+Les cibles KHI suivantes sont spécifiques aux serveurs SQL Server en plus de l’intégrité des composants de base:
 
 
 <table>
@@ -171,22 +225,28 @@ Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs SQ
 <thead>
 <tr class="header">
 <th>Zone fonctionnelle</th>
-<th>Métriques cibles</th>
+<th>Mesures cibles</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>SQL</p></td>
-<td><p>Espérance de vie d'une page &gt; 300 s.</p>
-<p>Requêtes de lot / s &lt; 2500</p></td>
+<td><p>Durée de vie de &gt; la page 300 s.</p>
+<p>Demandes de lot/ &lt; s 2500</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Serveurs de médiation
+</div>
 
-Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs de médiation en plus de l'intégrité de base des composants :
+<span id="Mediation"></span>
+
+<div>
+
+## <a name="mediation-servers"></a>serveurs de médiation
+
+Les cibles KHI suivantes sont spécifiques aux serveurs de médiation en plus de l’intégrité des composants de base:
 
 
 <table>
@@ -197,26 +257,32 @@ Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs de
 <thead>
 <tr class="header">
 <th>Zone fonctionnelle</th>
-<th>Métriques cibles</th>
+<th>Mesures cibles</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Service de serveur de médiation</p></td>
-<td><p>Indice d'échec de chargement des appels = 0</p>
-<p>Appels n'ayant pas abouti à cause du proxy &lt;10</p>
-<p>Appels n'ayant pas abouti à cause de la passerelle &lt;10</p>
-<p>Appels (entrants ou sortants) rejetés = 0</p>
-<p>Candidats de média manquants = 0</p>
-<p>Échecs de vérification de la connectivité des médias = 0</p></td>
+<td><p>Service de médiation Server</p></td>
+<td><p>Chargement de l’index d’échec de l’appel = 0</p>
+<p>Appels en échec en raison &lt;de proxy 10</p>
+<p>Appels en échec en raison &lt;de la passerelle 10</p>
+<p>Appels (en sortie ou en sortie) rejetés = 0</p>
+<p>Les candidats de médias ont manquant = 0</p>
+<p>Échecs de vérification de la connectivité média = 0</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Serveurs Edge
+</div>
 
-Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs Edge en plus de l'intégrité de base des composants :
+<span id="Edge"></span>
+
+<div>
+
+## <a name="edge-servers"></a>serveurs Edge
+
+Les cibles KHI suivantes sont spécifiques aux serveurs Edge, en plus de l’état d’intégrité des composants de base:
 
 
 <table>
@@ -227,42 +293,58 @@ Les valeurs cibles KHI suivantes recommandées sont spécifiques aux serveurs Ed
 <thead>
 <tr class="header">
 <th>Zone fonctionnelle</th>
-<th>Métriques cibles</th>
+<th>Mesures cibles</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Auth AV</p></td>
-<td><p>Requêtes incorrectes &lt; 20/s</p></td>
+<td><p>Authentification AV</p></td>
+<td><p>Demandes &lt; incorrectes 20/s</p></td>
 </tr>
 <tr class="even">
-<td><p>Edge AV</p></td>
-<td><p>Échec d'authentification &lt;20/s</p>
-<p>Échecs d'allocation &lt;20/s</p>
-<p>Paquets abandonnés &lt;300/s</p></td>
+<td><p>Bordure AV</p></td>
+<td><p>Échecs &lt;d’authentification 20/s</p>
+<p>Échecs &lt;d’attribution 20/s</p>
+<p>Paquets déposés &lt;300/s</p></td>
 </tr>
 <tr class="odd">
 <td><p>Proxy de données</p></td>
-<td><p>Connexions serveur limitées &lt; 3</p>
-<p>Le système impose une limitation &lt;1</p></td>
+<td><p>Connexions &lt; serveur limitées 3</p>
+<p>Le système est en &lt;limitation 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Pile SIP</p></td>
-<td><p>Connexions au-delà de la limite abandonnées &lt; 1</p>
-<p>Expiration des envois &lt;10</p>
-<p>Connexions à contrôle de flux &lt;100</p>
-<p>Requêtes entrantes abandonnées &lt; 1/s</p>
-<p>Traitement moyen des messages &lt; 3 s</p></td>
+<td><p>Connexions en dépassement de &lt; limite</p>
+<p>Le délai d' &lt;envoi est écoulé 10</p>
+<p>Connexion &lt;contrôlée par flux 100</p>
+<p>Demandes entrantes &lt; rejetées 1/s</p>
+<p>Moyenne du traitement &lt; des messages 3 s</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+<div>
 
-[Lync Server Networking Guide](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync Call Quality Methodology](http://go.microsoft.com/fwlink/?linkid=391841)
+## <a name="see-also"></a>Voir aussi
+
+
+[Guide du réseau Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Principaux indicateurs d’intégrité: notions de base pour la mise à jour des serveurs Lync sains](http://go.microsoft.com/fwlink/?linkid=391838)  
+[Méthodologie de qualité d’appel Lync](http://go.microsoft.com/fwlink/?linkid=391841)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

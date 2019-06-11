@@ -1,46 +1,90 @@
-﻿---
-title: "Plan. de féd. XMPP (Extensible Messaging and Presence Protocol) dans LS 2013"
-TOCtitle: "Plan. de féd. XMPP (Extensible Messaging and Presence Protocol) dans LS 2013"
-ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205107(v=OCS.15)
-ms:contentKeyID: 49298113
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Planification de la Fédération des protocoles de messagerie et de présence extensibles
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for extensible messaging and presence protocol (XMPP) federation
+ms:assetid: 952b33e2-1f58-4831-9a39-1dfec2a316ad
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205107(v=OCS.15)
+ms:contentKeyID: 48184892
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f2f4e1d8f9b7f164dd9e83f556dcc57809619278
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824868"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification de la fédération XMPP (Extensible Messaging and Presence Protocol) dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="planning-for-extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Planification de la Fédération des protocoles de messagerie et de présence extensibles dans Lync Server 2013
 
-Les versions précédentes de Lync Server et Office Communications Server fournissaient une passerelle XMPP qui pouvait être déployée sur un rôle serveur séparé afin de permettre la fédération avec les déploiements XMPP. Dans Microsoft Lync Server 2013, XMPP peut être déployé comme une fonctionnalité. La fonctionnalité XMPP est installée en deux parties : un proxy XMPP qui s’exécute sur le serveur Edge et la passerelle XMPP qui s’exécute sur les serveurs frontaux.
+</div>
 
-Le déploiement et la configuration de XMPP sont décrits dans [Déploiement de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Pour prendre en charge XMPP au sein de votre organisation, vous devez prévoir la définition des règles de port et de protocole sur votre pare-feu, la configuration des certificats et l’ajout d’enregistrements DNS. Les rubriques suivantes de cette section résument les informations nécessaires pour prévoir la fédération XMPP pour votre déploiement.
+<div id="mainSection">
 
-> [!IMPORTANT]  
-> La fonctionnalité XMPP de Lync Server 2013 est testée et prise en charge par Microsoft pour la fédération de messagerie instantanée avec Google Talk. Pour d’autres systèmes XMPP, contactez le fournisseur tiers pour vérifier qu’il prend en charge la fédération avec Lync Server 2013 et pour obtenir d’autres recommandations de déploiement et de dépannage.
+<div id="mainBody">
 
-## Dans cette section
+<span> </span>
 
-  - [Résumé des certificats - Fédération XMPP (Extensible Messaging and Presence Protocol)](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+_**Dernière modification de la rubrique:** 2012-10-22_
 
-  - [Résumé des ports - Fédération XMPP (Extensible Messaging and Presence Protocol)](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+Les versions précédentes de Lync Server et d’Office Communications Server ont fourni une passerelle XMPP (extensible Messaging and Presence Protocol) qui pouvait être déployée en tant que rôle de serveur distinct pour permettre la Fédération avec des déploiements de XMPP. Dans Microsoft Lync Server 2013, la fonctionnalité XMPP peut être déployée en tant que fonctionnalité. La fonctionnalité XMPP est installée en deux parties: un proxy XMPP qui s’exécute sur le serveur Edge et la passerelle XMPP qui s’exécute sur les serveurs frontaux.
 
-  - [Résumé des enregistrements DNS - Fédération XMPP (Extensible Messaging and Presence Protocol)](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+Le déploiement et la configuration de XMPP sont abordés dans le déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) que vous envisagez de prendre en charge XMPP au sein de votre organisation en définissant des règles de port et de protocole sur votre pare-feu, la configuration des certificats et l’ajout de DNS registres. Les rubriques suivantes de cette section résument les informations dont vous avez besoin pour planifier la Fédération XMPP pour votre déploiement.
 
-## Voir aussi
+<div>
 
-#### Tâches
+
+> [!IMPORTANT]
+> La fonctionnalité XMPP de Lync Server 2013 est testée et prise en charge par Microsoft pour la fédération de messagerie instantanée avec Google Talk. Pour d’autres systèmes XMPP, contactez le fournisseur tier pour vérifier qu’il prend en charge la fédération avec Lync Server 2013 et pour obtenir d’autres recommandations de déploiement et de dépannage.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Résumé de certification-Fédération de protocoles de messagerie extensible et de présence dans Lync Server 2013](lync-server-2013-certificate-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+
+  - [Service de synthèse de port-extension de messagerie (XMPP) dans Lync Server 2013](lync-server-2013-port-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+
+  - [Service DNS Summary-extensible Messaging and Presence Protocol (XMPP) dans Lync Server 2013](lync-server-2013-dns-summary-extensible-messaging-and-presence-protocol-xmpp-federation.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Configuration de la fédération XMPP dans Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md)  
 [Configuration des stratégies de contrôle d’accès des utilisateurs fédérés XMPP dans Lync Server 2013](lync-server-2013-configure-policies-to-control-xmpp-federated-user-access.md)  
 
-#### Autres ressources
 
 [Gestion des partenaires fédérés XMPP dans Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Get-CsXmppAllowedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppAllowedPartner)  
-[Get-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsXmppGatewayConfiguration)
+[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/Gg425805(v=OCS.15))  
+[Get-CsXmppAllowedPartner](https://technet.microsoft.com/en-us/library/JJ204981(v=OCS.15))  
+[Get-CsXmppGatewayConfiguration](https://technet.microsoft.com/en-us/library/JJ204869(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

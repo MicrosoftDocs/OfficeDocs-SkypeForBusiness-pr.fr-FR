@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Enregistrements d’utilisation RTC'
-TOCTitle: enregistrements d’utilisation RTC
-ms:assetid: b5f624aa-abe8-455b-a8e3-c228be230463
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412878(v=OCS.15)
-ms:contentKeyID: 49298605
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Enregistrements d’utilisation RTC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN usage records
+ms:assetid: b5f624aa-abe8-455b-a8e3-c228be230463
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412878(v=OCS.15)
+ms:contentKeyID: 48185188
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e32000f1664591a3e054d058ced4f996a98f27cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823580"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Enregistrements d’utilisation RTC dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="pstn-usage-records-in-lync-server-2013"></a>Enregistrements d’utilisation RTC dans Lync Server 2013
 
-La planification des enregistrements d’utilisation RTC consiste principalement à répertorier toutes les autorisations d’appel actuellement en vigueur dans votre organisation, du PDG aux travailleurs temporaires, consultants et subordonnés. Ce processus donne également la possibilité de revérifier les autorisations d’appel existantes et de les modifier. Vous pouvez créer des enregistrements d’utilisation RTC uniquement pour les autorisations qui s’appliquent aux utilisateurs Voix Entreprise prévus, mais une meilleure solution à long terme peut consister à créer des enregistrements d’utilisation RTC pour toutes les autorisations d’appel, même si certaines d’entre elles peuvent ne pas s’appliquer actuellement au groupe d’utilisateurs à activer pour Voix Entreprise. Si les autorisations d’appel changent ou que de nouveaux utilisateurs avec des autorisations d’appel différentes sont ajoutés, vous aurez déjà créé les enregistrements d’utilisation RTC requis.
+</div>
 
-Le tableau ci-dessous présente un exemple d’utilisation RTC standard :
+<div id="mainSection">
 
-### Enregistrements d’utilisation RTC
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-23_
+
+La planification des enregistrements d’utilisation PSTN consiste principalement à répertorier toutes les autorisations d’appel actuellement en vigueur dans votre organisation, du PDG aux travailleurs temporaires, consultants et subordonnés. Ce processus donne également la possibilité de revérifier les autorisations d’appel existantes et de les modifier. Vous pouvez créer des enregistrements d’utilisation RTC uniquement pour les autorisations d’appel qui s’appliquent aux utilisateurs vocaux de votre entreprise, mais une meilleure solution de grande gamme peut être de créer des enregistrements d’utilisation RTC pour toutes les autorisations d’appel, qu’il soit ou non Appliquez au groupe d’utilisateurs à activer pour voix entreprise. Si les autorisations d’appel changent ou que de nouveaux utilisateurs avec des autorisations d’appel différentes sont ajoutés, vous aurez déjà créé les enregistrements d’utilisation PSTN requis.
+
+Le tableau ci-dessous présente un exemple d’utilisation PSTN standard :
+
+### <a name="pstn-usage-records"></a>Enregistrements d’utilisation PSTN
 
 <table>
 <colgroup>
@@ -38,7 +58,7 @@ Le tableau ci-dessous présente un exemple d’utilisation RTC standard :
 <td><p>Appels locaux</p></td>
 </tr>
 <tr class="even">
-<td><p>Longue distance</p></td>
+<td><p>Long-Distance</p></td>
 <td><p>Appels longue distance</p></td>
 </tr>
 <tr class="odd">
@@ -65,11 +85,21 @@ Le tableau ci-dessous présente un exemple d’utilisation RTC standard :
 </table>
 
 
-Les enregistrements d’utilisation RTC n’effectuent aucune action par eux-mêmes. Pour qu’ils fonctionnent, vous devez les associer aux éléments suivants :
+Les enregistrements d’utilisation PSTN n’effectuent aucune action par eux-mêmes. Pour qu’ils fonctionnent, vous devez les associer aux éléments suivants :
 
   - des stratégies de voix, affectées aux utilisateurs ;
 
   - des itinéraires, affectés aux numéros de téléphone.
 
-Pour plus d’informations sur les stratégies de voix et les itinéraires, reportez-vous à [Stratégies de voix dans Lync Server 2013](lync-server-2013-voice-policies.md) et [Itinéraires des communications vocales dans Lync Server 2013](lync-server-2013-voice-routes.md). Pour plus d’informations sur leur création et leur configuration, reportez-vous à [Configuration des itinéraires de communications vocales pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+Pour plus d’informations sur les stratégies et les itinéraires vocaux, voir [stratégies vocales dans Lync server 2013](lync-server-2013-voice-policies.md) et [itinéraires vocaux dans Lync Server 2013](lync-server-2013-voice-routes.md). Pour plus d’informations sur la création et la configuration de celles-ci, reportez-vous à la rubrique [Configuration des itinéraires vocaux pour les appels sortants dans Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

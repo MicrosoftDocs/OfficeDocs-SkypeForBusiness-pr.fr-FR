@@ -1,31 +1,53 @@
-﻿---
-title: 'Lync Server 2013 : Rapport vocal et vidéo P2P'
-TOCTitle: Rapport vocal et vidéo P2P
-ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615040(v=OCS.15)
-ms:contentKeyID: 49299118
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport audio et vidéo d’égal à égal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Voice and Video Report
+ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615040(v=OCS.15)
+ms:contentKeyID: 48185535
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b938a5281717528143cfc077a42f51bd68f69bae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825393"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport vocal et vidéo P2P dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Rapport audio et vidéo d’égal à égal dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-21_
 
 Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la distribution des appels vocaux et vidéo sur une période donnée (par exemple, les appels par heure ou par jour). Il vous offre également la possibilité de voir tous les appels vocaux et vidéo émis, ou de voir uniquement les appels ayant abouti ou échoué. Le rapport fournit les informations d’appels réparties dans les sections suivantes :
 
   - Appels par pool
 
-  - Appels par type d’appel (par exemple, un appel Lync vers Lync par opposition à un appel Lync à une personne sur le réseau RTC)
+  - Appels par type d’appel (par exemple, appel Lync vers Lync et appel Lync vers une personne du réseau PSTN);
 
   - Appels par type d’accès (utilisateurs connectés au réseau interne par opposition aux utilisateurs connectés au réseau externe)
 
   - Appels par serveur de médiation
 
-## Pour accéder au rapport vocal et vidéo d’égal-à-égal
+<div>
+
+## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>Pour accéder au rapport vocal et vidéo d’égal-à-égal
 
 Vous pouvez accéder au rapport vocal et vidéo d’égal-à-égal en ouvrant simplement le rapport de synthèse d’activité d’égal-à-égal, puis en cliquant sur l’une des mesures suivantes :
 
@@ -33,19 +55,27 @@ Vous pouvez accéder au rapport vocal et vidéo d’égal-à-égal en ouvrant si
 
   - Nombre total de minutes audio d’égal-à-égal
 
-  - Nombre total de sessions vidéo d’égal-à-égal
+  - Nombre total de sessions vidéo P2P
 
   - Nombre total de minutes vidéo d’égal-à-égal
 
-## Pour une utilisation optimale du rapport vocal et vidéo d’égal-à-égal
+</div>
+
+<div>
+
+## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>Pour une utilisation optimale du rapport vocal et vidéo d’égal-à-égal
 
 Vous pouvez filtrer le rapport vocal et vidéo d’égal-à-égal de différentes manières. Cependant, ces options de filtre sont masquées par défaut. Pour afficher les options de filtre disponibles, cliquez sur le bouton **Afficher/Masquer les paramètres** dans le coin supérieur droit de la fenêtre du rapport.
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données de différentes manières. Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport vocal et vidéo P2P.
 
-### Filtres du rapport vocal et vidéo d’égal-à-égal
+### <a name="peer-to-peer-voice-and-video-report-filters"></a>Filtres du rapport vocal et vidéo d’égal-à-égal
 
 <table>
 <colgroup>
@@ -83,12 +113,12 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 <td><p><strong>Intervalle</strong></p></td>
 <td><p>Intervalle de temps. Sélectionnez l’une des options suivantes :</p>
 <ul>
-<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
-<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
-<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
-<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
+<li><p>Toutes les heures (il est possible d’afficher un maximum de 25 heures)</p></li>
+<li><p>Tous les jours (il est possible d’afficher un maximum de 31 jours)</p></li>
+<li><p>Toutes les semaines (il est possible d’afficher un maximum de 12 semaines)</p></li>
+<li><p>Tous les mois (il est possible d’afficher un maximum de 12 mois)</p></li>
 </ul>
-<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 7/7/2012 et une date de fin le 2/28/2012, les données s’affichent pour les jours compris entre le 8/7/2012 12:00 AM et le 9/7/2012 12:00 AM (c’est-à-dire, un total de 31 jours de données).</p></td>
+<p>Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle quotidien avec une date de début de 7/7/2012 et une date de fin de 2/28/2012, les données sont affichées pour les jours de 8/7/2012 12:00 AM à 9/7/2012 12:00 AM (c’est-à-dire un total de 31 jours de données).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type de média</strong></p></td>
@@ -120,11 +150,15 @@ Les filtres vous offrent la possibilité de renvoyer un ensemble de données mie
 </table>
 
 
-## Mesures de l’activité vocale et vidéo P2P par pool
+</div>
+
+<div>
+
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Mesures de l’activité vocale et vidéo P2P par pool
 
 Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque pool.
 
-### Mesures de l’activité vocale et vidéo P2P par pool
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Mesures de l’activité vocale et vidéo P2P par pool
 
 <table>
 <colgroup>
@@ -143,7 +177,7 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Nom du pool de serveurs d’inscriptions ou du serveur Edge utilisé pour l’appel.</p></td>
+<td><p>Nom du pool d’inscriptions ou du serveur Edge utilisés pour l’appel.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Date/Heure</strong></p></td>
@@ -159,11 +193,15 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 </table>
 
 
-## Mesures de l’activité vocale et vidéo P2P par type d’appel
+</div>
+
+<div>
+
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Mesures de l’activité vocale et vidéo P2P par type d’appel
 
 Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque type d’appel émis.
 
-### Mesures de l’activité vocale et vidéo P2P par type d’appel
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Mesures de l’activité vocale et vidéo P2P par type d’appel
 
 <table>
 <colgroup>
@@ -204,11 +242,15 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 </table>
 
 
-## Mesures de l’activité vocale et vidéo P2P par type d’accès
+</div>
+
+<div>
+
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Mesures de l’activité vocale et vidéo P2P par type d’accès
 
 Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque type d’accès réseau.
 
-### Mesures de l’activité vocale et vidéo P2P par type d’accès
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Mesures de l’activité vocale et vidéo P2P par type d’accès
 
 <table>
 <colgroup>
@@ -248,11 +290,15 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 </table>
 
 
-## Mesures de l’activité vocale et vidéo P2P par serveur de médiation
+</div>
 
-Le tableau qui suit dresse la liste des informations fournies dans le rapport vocal et vidéo P2P pour chaque serveur de médiation.
+<div>
 
-### Mesures de l’activité vocale et vidéo P2P par serveur de médiation
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Mesures de l’activité vocale et vidéo P2P par serveur de médiation
+
+Le tableau suivant répertorie les informations fournies dans le rapport audio et vidéo d’égal à égal pour chaque serveur de médiation.
+
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Mesures de l’activité vocale et vidéo P2P par serveur de médiation
 
 <table>
 <colgroup>
@@ -285,4 +331,17 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

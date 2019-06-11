@@ -1,32 +1,61 @@
-﻿---
-title: Plateformes matérielles de serveur pour Lync Server 2013
-TOCTitle: Plateformes matérielles de serveur
-ms:assetid: c964c1c0-0153-472b-88ad-a38866e0df0c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398835(v=OCS.15)
-ms:contentKeyID: 49298845
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Server Hardware Platforms pour Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server hardware platforms
+ms:assetid: c964c1c0-0153-472b-88ad-a38866e0df0c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398835(v=OCS.15)
+ms:contentKeyID: 48185395
+ms.date: 07/28/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2682d0d8636c024dee4151842a143e65b11d48c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822124"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Plateformes matérielles de serveur pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Server Hardware Platforms pour Lync Server 2013
 
-Les rôles serveur Lync Server 2013 et les ordinateurs exécutant des outils d'administration Lync Server requièrent du matériel 64 bits.
+</div>
 
-Le matériel spécifique utilisé pour le déploiement de Lync Server 2013 peut varier en fonction des impératifs de taille et d'utilisation. Cette section décrit le matériel recommandé. Même s'il s'agit de recommandations, et non d'impératifs, l'utilisation de matériel ne respectant pas ces recommandations peut entraîner des baisses de performance significatives et d'autres problèmes.
+<div id="mainSection">
 
-## Plateforme matérielle recommandée
+<div id="mainBody">
 
-Pour obtenir les meilleures performances, nous vous recommandons d'exécuter Lync Server sur les serveurs avec un matériel qui satisfait la configuration requise indiquée dans le tableau suivant. Si vous utilisez un matériel moins puissant, vous pouvez rencontrer des problèmes de fonctionnement ou des performances médiocres. Notez que cette configuration matérielle requise est supérieure à celle des versions précédentes de Lync Server, car tous les serveurs frontaux exécutent SQL Server dans Lync Server 2013 pour l'essentiel.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2016-07-28_
+
+Les rôles serveur Lync Server 2013 et les ordinateurs exécutant des outils d’administration de Lync Server nécessitent 64 bits.
+
+Le matériel spécifique utilisé pour le déploiement de Lync Server 2013 peut varier en fonction de la taille et de l’utilisation requise. Cette section décrit le matériel recommandé. Même s’il s’agit de recommandations, et non d’impératifs, l’utilisation de matériel ne respectant pas ces recommandations peut entraîner des baisses de performance significatives et d’autres problèmes.
+
+<div>
+
+## <a name="recommended-hardware-platform"></a>Plateforme matérielle recommandée
+
+Pour des performances optimales, nous vous recommandons d’exécuter Lync Server sur les serveurs dotés du matériel qui répond aux conditions énoncées dans le tableau suivant. Si vous utilisez un matériel moins puissant, vous pouvez rencontrer des problèmes de fonctionnement ou des performances médiocres. Notez que la configuration matérielle requise est supérieure à celle des versions précédentes de Lync Server, principalement par le biais de Lync Server 2013, tous les serveurs frontaux exécutant SQL Server.
+
+<div>
+
 
 > [!NOTE]  
-> La collaboration NIC est prise en charge et doit être transparente sur Lync Server. Pour plus d'informations, reportez-vous à <a href="https://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server or Lync Server and network adapter teaming (Association de carte réseau et de Communications Server ou Lync Server)</a>..
+> L’Association de cartes réseau est prise en charge et doit être transparente pour Lync Server. Pour plus d’informations, reportez-vous à <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server ou Lync Server et à l’équipe des cartes réseau</A>.
 
-### Matériel recommandé pour les serveurs frontaux, les serveurs principaux, les serveurs Standard Edition Server, les serveurs de conversation permanente, le magasin de conversation permanente et le magasin de conformité de conversation permanente (rôles Serveur principal pour le serveur de conversation permanente)
+
+
+</div>
+
+### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>Matériel recommandé pour les serveurs frontaux, les serveurs principaux, les serveurs Standard Edition Server, les serveurs de conversation permanente, le magasin de conversation permanente et le magasin de conformité de conversation permanente (rôles Serveur principal pour le serveur de conversation permanente)
 
 <table>
 <colgroup>
@@ -43,7 +72,7 @@ Pour obtenir les meilleures performances, nous vous recommandons d'exécuter Lyn
 <tr class="odd">
 <td><p>Processeur</p></td>
 <td><p>Biprocesseur 64 bits, six cœurs, 2,26 GHz ou supérieur.</p>
-<p>Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</p></td>
+<p>Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</p></td>
 </tr>
 <tr class="even">
 <td><p>Mémoire</p></td>
@@ -51,25 +80,31 @@ Pour obtenir les meilleures performances, nous vous recommandons d'exécuter Lyn
 </tr>
 <tr class="odd">
 <td><p>Disque</p></td>
-<td><ul><li><p>8 disques durs ou plus 10 000 tr/min avec au moins 72 Go d'espace disponible.</p>
+<td><ul>
+<li><p>8 disques durs ou plus 10 000 tr/min avec au moins 72 Go d’espace disponible. </p>
 <p>Deux de ces disques doivent utiliser RAID 1 et six doivent utiliser RAID 10.</p>
-<p>- OU -</p></li><li><p>Disques SSD (Solid State Drive) qui fournissent des performances similaires à 8 disques durs mécaniques 10 000 tr/min.</p></li></ul></td>
+<p>-Ou</p></li>
+<li><p>Disques SSD (Solid State Drive) qui fournissent des performances similaires à 8 disques durs mécaniques 10 000 tr/min.</p></li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><p>Réseau</p></td>
-<td><ul><li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l'association à une seule adresse MAC et une seule adresse IP).</p>
+<td><ul>
+<li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP).</p>
 <div>
 
 > [!NOTE]  
-> Les configurations doubles ou à plusieurs connexions ne sont pas prises en charge pour les serveurs serveurs frontaux, serveurs principaux, serveurs Standard Edition et serveurs de conversations permanentes.<br />
-Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilisées pour la surveillance et la gestion du matériel des serveurs ne constituent pas un serveur à plusieurs connexions et ne sont donc pas prises en charge.
-</div></li></ul></td>
+> Les configurations à double ou à hébergement multiple ne sont pas prises en charge pour les serveurs frontaux, serveurs dorsaux, serveurs Standard Edition et serveurs de chat permanent.<BR>ILO/DRAC/etc. connexions non exposées au système d’exploitation et permettant de surveiller et de gérer le matériel du serveur ne constituent pas un serveur multi-résident et sont donc pris en charge.
+
+
+</div></li>
+</ul></td>
 </tr>
 </tbody>
 </table>
 
 
-### Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonomes et les directeurs
+### <a name="recommended-hardware-for-edge-servers-standalone-mediation-servers-and-directors"></a>Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonomes et les directeurs
 
 <table>
 <colgroup>
@@ -85,32 +120,54 @@ Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilis�
 <tbody>
 <tr class="odd">
 <td><p>Processeur</p></td>
-<td><ul><li><p>Biprocesseur 64 bits, quadruple cœur, 2 GHz ou supérieur</p>
-<p>- OU -</p></li><li><p>Processeur 64 bits à quatre voies, double cœur, 2 GHz ou supérieur</p></li></ul>
-<p>Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</p></td>
+<td><ul>
+<li><p>processeur double cœur, cadencé à 4 bits, 2,0 gigahertz (GHz) ou version ultérieure. 64</p>
+<p>-Ou</p></li>
+<li><p>processeur à 4 ou 4 processeurs cadencé à 4 ou 4 processeurs, 2,0 GHz ou supérieur. 64</p></li>
+</ul>
+<p>Les processeurs Intel Itanium ne sont pas pris en charge pour les rôles serveur Lync Server.</p></td>
 </tr>
 <tr class="even">
 <td><p>Mémoire</p></td>
-<td><p>16 giga-octets (Go).</p></td>
+<td><p>16 gigaoctets (Go).</p></td>
 </tr>
 <tr class="odd">
 <td><p>Disque</p></td>
-<td><ul><li><p>4 disques durs ou plus 10 000 tr/min avec au moins 72 Go d'espace disponible.</p>
+<td><ul>
+<li><p>4 Mo ou davantage de disques durs 10 000 RPM dotés d’au moins 72 Go d’espace libre sur le disque dur.</p>
 <p>La configuration des disques doit être de type 2x RAID 1.</p>
-<p>- OU -</p></li><li><p>Disques SSD (Solid State Drive) qui fournissent des performances similaires à 4 disques durs mécaniques 10 000 tr/min.</p></li></ul></td>
+<p>-Ou</p></li>
+<li><p>Disques SSD (Solid State Drive) qui fournissent des performances similaires à 4 disques durs mécaniques 10 000 tr/min. </p></li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><p>Réseau</p></td>
-<td><ul><li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l'association à une seule adresse MAC et une seule adresse IP). 2 interfaces réseau sont requises sur serveurs Edge et sont prises en charge sur les serveurs serveurs de médiation autonomes.</p></li></ul>
+<td><ul>
+<li><p>1 carte réseau double port, 1 Gbits/s ou supérieur (2 recommandé, ce qui nécessite l’association à une seule adresse MAC et une seule adresse IP). 2 interfaces réseau sont requises sur les serveurs Edge et sont prises en charge sur les serveurs de médiation autonomes.</p></li>
+</ul>
 <div>
 
 > [!NOTE]  
-> Les configurations doubles ou à plusieurs connexions ne sont pas prises en charge pour les serveurs directeurs.<br />
-Les connexions ILO/DRAC/etc. non exposées au système d'exploitation et utilisées pour la surveillance et la gestion du matériel des serveurs ne constituent pas un serveur à plusieurs connexions et ne sont donc pas prises en charge.
+> Les configurations à double ou à hébergement multiple ne sont pas prises en charge pour les directeurs.<BR>ILO/DRAC/etc. connexions non exposées au système d’exploitation et permettant de surveiller et de gérer le matériel du serveur ne constituent pas un serveur multi-résident et sont donc pris en charge.
+
+
 </div>
-<p>Les serveurs serveurs Edge nécessitent deux interfaces réseau qui sont des cartes réseau double port, 1 Gbit/s ou plus (ou deux cartes réseau appariées, pour un total de quatre, chaque paire étant associée à une seule adresse MAC et à une adresse IP unique, pour un total de deux paires).</p>
-<p>L'installation de cartes d'interface réseau (NIC) supplémentaires pour permettre la configuration d'une adresse IP PSTN spécifique est prise en charge sur les serveurs serveurs de médiation autonomes.</p></td>
+<p>Les serveurs Edge requièrent deux interfaces réseau qui sont des cartes réseau à double-port, 1 Gbit/s ou une version ultérieure (ou deux cartes réseau couplées, pour un total de quatre, chaque paire étant associée à une adresse MAC unique et une seule adresse IP, pour un total de deux paires).</p>
+<p>L’installation de cartes d’interface réseau supplémentaires (NIC) pour permettre la configuration d’une adresse IP RTC spécifique est prise en charge sur les serveurs de médiation autonomes.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

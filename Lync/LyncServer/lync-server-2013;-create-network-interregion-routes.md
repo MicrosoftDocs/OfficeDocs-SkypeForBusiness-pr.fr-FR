@@ -1,57 +1,91 @@
-﻿---
-title: Créer des itinéraires inter-région réseau
-TOCTitle: Créer des itinéraires inter-région réseau
-ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398368(v=OCS.15)
-ms:contentKeyID: 49297227
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Lync Server 2013; Créer des itinéraires de réseau interrégion
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Create network interregion routes
+ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
+ms:contentKeyID: 48184159
+ms.date: 07/23/2014
+mtps_version: v=OCS.15
+ms.openlocfilehash: be1c28450708660e2322144802c81d5458ded6da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "34821816"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Créer des itinéraires inter-région réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-20_
+# <a name="create-network-interregion-routes-in-lync-server-2013"></a>Créer des itinéraires réseau interrégion dans Lync Server 2013
 
-Un *itinéraire inter-région réseau* définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels requiert un itinéraire inter-région réseau. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
+</div>
 
-Alors que les liens de région définissent les limitations de bande passante sur les connexions entre les régions, un itinéraire inter-région détermine le chemin lié qu’empruntera la connexion pour aller d’une région à l’autre.
+<div id="mainSection">
 
-Pour plus d’informations sur l’utilisation des itinéraires inter-région réseau, voir la documentation de Lync Server Management Shell pour les applets de commande suivantes :
+<div id="mainBody">
 
-  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterRegionRoute)
+<span> </span>
 
-  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+_**Dernière modification de la rubrique:** 2012-10-20_
 
-  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+Un *itinéraire réseau interrégional* définit l’itinéraire entre deux régions du réseau. Chaque paire de zones réseau dans le déploiement de votre contrôle d’admission des appels nécessite un itinéraire réseau interrégional. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
 
-  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+Lorsque les liaisons de zone définissent des limitations de bande passante pour les connexions entre les régions, un itinéraire interrégional détermine le chemin d’accès lié que la connexion traverse d’une région à l’autre.
 
-Dans l’exemple de topologie, les itinéraires inter-région réseau doivent être définis pour chacune des trois paires de régions : Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC.
+Pour plus d’informations sur l’utilisation des itinéraires réseau interrégional, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
 
-## Pour créer des itinéraires inter-région réseau à l’aide de Lync Server Management Shell
+  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-1.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+
+  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+
+  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+
+Dans l’exemple de topologie, des itinéraires réseau interrégion doivent être définis pour chacune des paires de trois régions: Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC.
+
+<div>
+
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Pour créer des itinéraires réseau interrégion à l’aide de Lync Server Management Shell
+
+1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande **New-CsNetworkInterRegionRoute** pour définir les itinéraires nécessaires. Par exemple, exécutez :
     
-    ```
-    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
-    ```
-    ```
-    New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
-    ```
-    ```
-    New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
-    ```
+       ```
+        New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
+       ```
+    
+       ```
+        New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
+       ```
+    
+       ```
+        New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
+       ```
+    
+    <div class=" ">
+    
+
     > [!NOTE]  
-    > L’itinéraire inter-région réseau Amérique du Nord/APAC requiert deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles.
+    > L’itinéraire interrégional du réseau Amérique du Nord et l’Asie du Nord nécessite deux liaisons de région réseau dans la mesure où il n’existe aucun lien de région réseau directe entre eux.
 
-## Pour créer des itinéraires inter-région réseau à l’aide du Panneau de configuration Lync Server
+    
+    </div>
 
-1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
+
+<div>
+
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>Pour créer des itinéraires réseau en utilisant le panneau de configuration de Lync Server
+
+1.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
 
@@ -59,18 +93,36 @@ Dans l’exemple de topologie, les itinéraires inter-région réseau doivent ê
 
 4.  Cliquez sur **Nouveau**.
 
-5.  Dans la page **Nouvel itinéraire de région**, cliquez sur **Nom**, puis tapez un nom pour l’itinéraire inter-région réseau.
+5.  Sur la page **nouveau routage de zone** , cliquez sur **nom** , puis tapez un nom pour l’itinéraire réseau interrégion.
 
-6.  Cliquez sur **Région réseau n° 1**, puis cliquez dans la liste sur une région réseau que vous souhaitez acheminer vers la région réseau n° 2.
+6.  Cliquez sur **région \#réseau 1**, puis cliquez sur une région réseau dans la liste que vous voulez diriger vers la région \#2 du réseau.
 
-7.  Cliquez sur **Région réseau n° 2**, puis cliquez dans la liste sur une région réseau que vous souhaitez acheminer vers la région réseau n° 1.
+7.  Cliquez sur **région \#2**du réseau, puis cliquez sur une région réseau dans la liste que vous voulez diriger vers la \#région 1 du réseau.
 
-8.  Cliquez sur **Ajouter** en regard du champ **Liens de région réseau**, puis ajoutez un lien de région réseau qui sera utilisé dans l’itinéraire inter-région réseau.
+8.  Cliquez sur **Ajouter** à côté du champ liens entre les **zones du réseau** , puis ajoutez un lien de région réseau qui sera utilisé dans l’itinéraire réseau interrégion.
     
+    <div class=" ">
+    
+
     > [!NOTE]  
-    > Si vous créez un itinéraire pour deux régions réseau qui n’ont pas de lien de région réseau direct entre elles, vous devez ajouter tous les liens nécessaires pour terminer l’itinéraire. Par exemple, l’itinéraire inter-région réseau Amérique du Nord/APAC requiert deux liens de région réseau, car il n’existe aucun lien de région réseau direct entre elles.
+    > Si vous créez un itinéraire pour deux régions réseau qui n’ont pas de lien de région réseau direct entre elles, vous devez ajouter tous les liens nécessaires pour terminer l’itinéraire. Par exemple, l’itinéraire d’interrégion du réseau Amérique du Nord ou Pacifique nécessite deux liaisons de région réseau, car il n’y a pas de lien de région réseau directe entre eux.
+
+    
+    </div>
 
 9.  Cliquez sur **Valider**.
 
-10. Pour terminer la création des itinéraires inter-région réseau pour votre topologie, répétez les étapes 4 à 9 en spécifiant les paramètres correspondant à d’autres itinéraires inter-région réseau.
+10. Pour finaliser la création de itinéraires d’interrégion pour votre topologie, répétez les étapes 4 à 9 avec les paramètres des autres itinéraires réseau interrégion.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

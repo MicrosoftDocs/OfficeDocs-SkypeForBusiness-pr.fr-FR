@@ -1,41 +1,86 @@
-﻿---
-title: 'Lync Server 2013 : Connectivité RTC sur un site de succursale'
-TOCTitle: Connectivité RTC sur un site de succursale
-ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398945(v=OCS.15)
-ms:contentKeyID: 49299001
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Connectivité RTC sur un site de succursale'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Providing PSTN connectivity at a branch site
+ms:assetid: d78d76fb-2dd1-42cb-b25a-bfaff9650a70
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398945(v=OCS.15)
+ms:contentKeyID: 48185633
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cf7ba3c77c789d10e80319542cd163186eef2d4c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823622"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Connectivité RTC sur un site de succursale dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-05_
+# <a name="providing-pstn-connectivity-at-a-branch-site-in-lync-server-2013"></a>Connectivité RTC sur un site de succursale dans Lync Server 2013
 
-Nous vous conseillons d’utiliser l’outil de planification Microsoft Lync Server 2013 pour ajouter des sites de succursale à votre topologie et configurer votre infrastructure vocale dans ces sites de succursale.
+</div>
 
-Si vous n’utilisez pas le outil de planification, effectuez les procédures décrites dans les rubriques de cette section : ajoutez les sites de succursale, puis configurez votre infrastructure vocale en définissant la passerelle IP/RTC (réseau téléphonique commuté) et/ou en configurant le tronçon SIP (avec ou sans déviation du trafic multimédia). Vous pouvez également connecter un autocommutateur privé (PBX) au site de succursale.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-05_
+
+Nous vous recommandons d’utiliser Microsoft Lync Server 2013, l’outil de planification pour ajouter des sites de succursales à votre topologie et configurer votre infrastructure vocale dans les sites de succursale.
+
+Si vous n’utilisez pas l’outil de planification, suivez les procédures décrites dans les rubriques de cette section pour ajouter d’abord les sites de succursale, puis pour configurer votre infrastructure vocale en définissant la passerelle RTC (réseau téléphonique commuté) IP/public, et/ou en configurant le SIP. Trunk (avec ou sans contournement de média). Une autre option consiste à connecter un système PBX à un site de succursale.
+
+<div>
+
 
 > [!NOTE]  
-> Pour qu’un site de succursale soit résistant, vous devez déployer un Survivable Branch Appliance, un serveur Survivable Branch Server ou serveur Standard Edition sur le site de succursale. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">Déploiement d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server avec Lync Server 2013</a> ou à <a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a> dans la documentation de déploiement.
+> Si vous souhaitez fournir la résilience du site de succursales, vous devez déployer une application de succursale Survivable, un serveur de succursales survivant ou un serveur Standard Edition sur le site de la succursale. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md">déploiement d’une unité ou d’un serveur à l’aide de Lync server 2013</A> ou <A href="lync-server-2013-deploying-lync-server.md">déploiement de Lync Server 2013</A>, le cas échéant, dans la documentation de déploiement.
 
-## Dans cette section
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Ajout des sites de succursale à votre topologie dans Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
   - [Définition d’une passerelle RTC pour un site de succursale dans Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)
 
-  - [Configuration d’une jonction avec la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
-  - [Configuration d’une jonction sans déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+  - [Configurer un Trunk sans dérivation multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Planification de la déviation du trafic multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
-[Planification de la connectivité RTC dans Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)
+[Planification de la connectivité PSTN dans Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

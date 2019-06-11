@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de performances du serveur'
-TOCTitle: Rapport de performances du serveur
-ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615018(v=OCS.15)
-ms:contentKeyID: 49298104
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Rapport de performances du serveur Lync Server 2013:'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server Performance Report
+ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
+ms:contentKeyID: 48184879
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c5a08104f33fc07d6a0ec1c3241a7f14fa1227a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822376"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de performances du serveur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="server-performance-report-in-lync-server-2013"></a>Rapport sur les performances du serveur dans Lync Server 2013
 
-Le rapport de performances du serveur fournit une liste des serveurs Microsoft Lync Server 2013 avec le pourcentage d’appels médiocres le plus élevé. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
+</div>
 
-  - serveur de médiation
+<div id="mainSection">
 
-  - serveur de conférence A/V
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-01_
+
+Le rapport sur les performances du serveur fournit une liste de serveurs Microsoft Lync Server 2013 ayant constaté le plus grand pourcentage d’appels médiocres. Ce rapport est décomposé en fonction des types de serveur, et propose des statistiques distinctes pour les types suivants :
+
+  - Serveur de médiation
+
+  - Serveur de conférence A/V
 
   - Serveur Edge A/V
 
@@ -33,9 +53,11 @@ Le rapport de performances du serveur fournit une liste des serveurs Microsoft L
 
 Il est important de noter que le classement indiqué dans le rapport est relatif. Par exemple, supposons que le serveur ayant les pires performances a reçu un appel médiocre sur les 1 000 passés. Ce pourcentage de 0,1 est plus qu’acceptable. Cependant, s’il s’agit du serveur ayant les pires performances (c’est-à-dire que les autres serveurs ont un pourcentage d’appels médiocres inférieur à 0,1 %), ce serveur s’affichera dans le rapport de performances du serveur.
 
-## Accès au rapport de performances du serveur
+<div>
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [Rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
+## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
+
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:
 
   - Volume d’appels
 
@@ -45,17 +67,25 @@ De plus, vous pouvez accéder au rapport de tendance de la qualité des médias 
 
   - Tendance
 
-## Utilisation efficace du rapport de performances du serveur
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Optimiser l’utilisation du rapport sur les performances du serveur
 
 Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les données ; par exemple, vous pouvez filtrer sur un type de réseau (appels passés via une connexion câblée ou sans fil) et un type d’accès (appels passés à l’intérieur du pare-feu ou à l’extérieur). Il est conseillé d’utiliser ces filtres quand vous affichez le rapport de performances du serveur. Par exemple, vous avez un serveur de médiation avec un pourcentage d’appels médiocre de 3,24 %. Si vous considérez uniquement les appels sans fil, ce même serveur peut avoir un pourcentage d’appels médiocres de 20 %. Cela signifie que ce serveur ne gère pas bien les appels sans fil, mais ce problème peut être partiellement masqué par les appels câblés qui ne posent pas de problème.
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Le rapport de performances du serveur vous permet par exemple, de filtrer les données renvoyées par type de serveur ou type de réseau (câblé ou sans fil). Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les données sont groupées par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de performances du serveur.
 
-### Filtres de rapport de performances du serveur
+### <a name="server-performance-report-filters"></a>Filtres de rapport de performances du serveur
 
 <table>
 <colgroup>
@@ -94,18 +124,18 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 <td><p>Indique le type de serveur dont les performances doivent être rapportées. Sélectionnez l’une des options suivantes :</p>
 <ol>
 <li><p>[Tous]</p></li>
-<li><p>serveur de médiation</p></li>
-<li><p>serveur de conférence A/V</p></li>
+<li><p>Serveur de médiation</p></li>
+<li><p>Serveur de conférence A/V</p></li>
 <li><p>Serveur Edge A/V</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><p><strong>N premiers</strong></p></td>
-<td><p>Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez <strong>5</strong> , les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :</p>
+<td><p>Indique le nombre de serveurs (sur la base du pourcentage d’appels médiocres) à afficher dans chaque catégorie. Par exemple, si vous sélectionnez <strong>5</strong>, les cinq serveurs ayant les performances les plus médiocres sont affichés. Sélectionnez l’une des options suivantes :</p>
 <ol>
 <li><p>[Tous]</p></li>
 <li><p>5</p></li>
-<li><p>10</p></li>
+<li><p>0,10</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -139,11 +169,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </table>
 
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de performances du serveur.
 
-### Mesures du rapport de performances du serveur : synthèse des appels audio
+### <a name="server-performance-report-metrics-audio-call-summary"></a>Mesures du rapport de performances du serveur : synthèse des appels audio
 
 <table>
 <colgroup>
@@ -183,7 +217,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 <tr class="odd">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, le serveur de surveillance se sert d’un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, le serveur de surveillance utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
 <p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="even">
@@ -194,7 +228,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 <tr class="odd">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>
@@ -215,7 +249,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </table>
 
 
-### Mesures du rapport de performances du serveur : synthèse des appels vidéo
+### <a name="server-performance-report-metrics-video-call-summary"></a>Mesures du rapport de performances du serveur : synthèse des appels vidéo
 
 <table>
 <colgroup>
@@ -307,14 +341,14 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </tr>
 <tr class="even">
 <td><p><strong>Intégrité des clients (%)</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Indique l’intégrité relative du périphérique client pendant l’appel.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Mesures du rapport de performances du serveur : synthèse des appels de partage d’application
+### <a name="server-performance-report-metrics-application-sharing-call-summary"></a>Mesures du rapport de performances du serveur : synthèse des appels de partage d’application
 
 <table>
 <colgroup>
@@ -372,7 +406,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 <tr class="odd">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unilatéral relatif moyen</strong></p></td>
@@ -391,4 +425,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

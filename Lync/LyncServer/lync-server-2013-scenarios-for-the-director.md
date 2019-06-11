@@ -1,26 +1,55 @@
-﻿---
-title: 'Lync Server 2013 : Scénarios pour le directeur'
-TOCTitle: Scénarios pour le directeur
-ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398908(v=OCS.15)
-ms:contentKeyID: 49298924
-ms.date: 07/20/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Scénarios pour le directeur'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for the Director
+ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
+ms:contentKeyID: 48185419
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eba35647e8ecc0cfa59d5c7c6b5c32b07bedf95e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822152"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Scénarios pour le directeur dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-22_
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Scénarios pour le directeur dans Lync Server 2013
 
-Un directeur est un serveur exécutant les logiciels de communication  Microsoft Lync Server 2013 qui peut authentifier des demandes des utilisateurs, mais qui n’héberge pas de comptes d’utilisateurs. Le directeur héberge également des services web similaires à ceux du serveur frontal, authentifie les demandes de tickets web et fournit d’autres services.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-22_
+
+Un directeur est un serveur exécutant un logiciel de communication Microsoft Lync Server 2013 capable d’authentifier les demandes des utilisateurs, mais qui ne famille pas les comptes d’utilisateurs. Le directeur héberge également des services Web similaires au serveur frontal, et authentifie les demandes de tickets Web et fournit d’autres services.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si vous déployez des directeurs, vous devez publier les services web du directeur en externe via le proxy inverse ainsi que les services web du serveur frontal. Les rubriques suivantes décrivent le processus de planification pour les topologies possibles du directeur.
+> Si vous déployez des directeurs, vous devez publier les services Web de Director en externe via le proxy inverse, ainsi que les services Web du serveur frontal. Les rubriques suivantes décrivent le processus de planification des topologies de réalisateur possibles.
 
-## Dans cette section
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Vue d’ensemble du directeur dans Lync Server 2013](lync-server-2013-overview-of-the-director.md)
 
@@ -32,10 +61,26 @@ Un directeur est un serveur exécutant les logiciels de communication  Microsof
 
   - [Pool directeur mis à l’échelle dans Lync Server 2013](lync-server-2013-scaled-director-pool.md)
 
-## Voir aussi
+</div>
 
-#### Concepts
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md)  
-[Plateformes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md)
+[Server Hardware Platforms pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

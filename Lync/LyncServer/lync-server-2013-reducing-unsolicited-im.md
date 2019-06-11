@@ -1,33 +1,63 @@
-﻿---
-title: 'Lync Server 2013 : réduction des messages instantanés non sollicités'
-TOCTitle: Réduction des messages instantanés non sollicités pour Lync Server 2013
-ms:assetid: d2998708-e699-4465-a918-e1d9ea4c49c3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn518335(v=OCS.15)
-ms:contentKeyID: 60484532
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : réduction des messages instantanés non sollicités'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reducing unsolicited IM for Lync Server 2013
+ms:assetid: d2998708-e699-4465-a918-e1d9ea4c49c3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518335(v=OCS.15)
+ms:contentKeyID: 62625493
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5042c4400cdf16be650a3c2c74ed756f01d93114
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823916"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Réduction des messages instantanés non sollicités pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-12-05_
+# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Réduction des messages instantanés non sollicités pour Lync Server 2013
 
-L’application Filtre de messagerie instantanée intelligent permet de protéger votre déploiement Microsoft Lync Server 2013 contre les virus les plus fréquents avec une dégradation minimale pour l’expérience utilisateur. L’application Filtre de messagerie instantanée intelligent possède les avantages suivants :
+</div>
 
-  - Filtrage d’URL amélioré
+<div id="mainSection">
 
-  - Filtrage des transferts de fichier amélioré
+<div id="mainBody">
 
-Utilisez le Filtre de message instantané intelligent pour configurer les filtres de façon à bloquer les messages instantanés non sollicités ou potentiellement dangereux en provenance de points de terminaison externes au pare-feu d’entreprise. Vous configurez des filtres en spécifiant les critères à utiliser pour déterminer ce qui doit être bloqué, comme les messages instantanés contenant des liens hypertexte et les fichiers avec des extensions spécifiques.
+<span> </span>
 
-Avant de déployer l’application Filtre de messagerie instantanée intelligent, vous devez comprendre comment les options de filtrage sont appliquées lorsque les messages sont acheminés d’un serveur Lync Server 2013 vers un autre. L’application de ces options de filtrage est toujours effectué de la même manière, que les serveurs soient situés à l’intérieur d’une même organisation ou qu’ils soient disséminés dans plusieurs organisations. Cette cohérence concerne la façon dont les notices personnalisées et les textes d’avertissement sont insérés dans des messages et envoyés sur les serveurs.
+_**Dernière modification de la rubrique:** 2013-12-05_
 
-L’option de filtrage recommandée consiste à autoriser les messages instantanés avec des liens hypertexte, mais implique que l’application Filtre de messagerie instantanée intelligent désactive le lien en insérant un trait de soulignement avant le lien. Si vous sélectionnez cette option, vous disposez d’une option supplémentaire qui permet de rédiger une notice à l’attention des utilisateurs, qui s’affiche au début de chaque message instantané contenant un lien hypertexte.
+L’application de filtre de messages instantanés intelligents vous aide à protéger votre déploiement de Microsoft Lync Server 2013 contre les virus les plus fréquents avec une dégradation minimale de l’interface utilisateur. Ce filtre fournit les éléments suivants:
 
-La deuxième option de filtrage autorise les messages instantanés avec des liens hypertexte non modifiés. Si vous sélectionnez cette option, vous disposez d’une option supplémentaire (recommandée) permettant de rédiger un avertissement à l’attention des utilisateurs, inséré dans chaque message.
+  - Amélioration du filtrage d’URL
 
-La troisième option bloque tous les messages instantanés contenant des liens hypertexte. Si vous sélectionnez cette option, le serveur envoie un avertissement à l’utilisateur. C’est à vous de rédiger cet avertissement.
+  - Amélioration du filtrage du transfert de fichiers
+
+Utilisez le filtre de message instantané intelligent pour configurer des filtres permettant de bloquer les messages instantanés non sollicités ou potentiellement dangereux de points de terminaison inconnus en dehors du pare-feu de l’entreprise. Vous pouvez configurer des filtres en spécifiant les critères à utiliser pour déterminer ce qui devrait être bloqué (par exemple, les messages instantanés contenant des liens hypertexte et des fichiers avec des extensions spécifiques).
+
+Avant de déployer l’application de filtre de messages INSTANTANÉs intelligents, vous devez comprendre comment les options de filtre sont appliquées lorsque les messages sont routés d’un serveur Lync Server 2013 à un autre. La façon dont ces options de filtrage sont appliquées est cohérente, qu’il s’agisse de serveurs au sein d’une organisation unique ou de limites de l’organisation. Cette cohérence s’applique au mode d’insertion des avis personnalisés et des textes d’avertissement dans les messages et envoyés sur plusieurs serveurs.
+
+L’option de filtrage recommandée consiste à autoriser les messages instantanés avec des liens hypertexte, mais ils nécessitent le filtre de messagerie instantanée intelligent pour désactiver le lien en insérant un trait de soulignement. Si vous choisissez cette option, vous avez la possibilité d’ajouter un avis aux utilisateurs qui s’affichent au début de chaque message instantané contenant un lien hypertexte.
+
+Une deuxième option de filtrage consiste à autoriser les messages instantanés comportant des liens hypertexte non modifiés. Si vous choisissez cette option, vous avez la possibilité d’utiliser l’option supplémentaire (recommandée) pour composer un avertissement aux utilisateurs insérés dans chaque message.
+
+Une troisième option consiste à bloquer tous les messages instantanés qui contiennent des liens hypertexte. Si vous choisissez cette option, le serveur envoie un message d’avertissement à l’utilisateur. Vous devez rédiger cet avertissement.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

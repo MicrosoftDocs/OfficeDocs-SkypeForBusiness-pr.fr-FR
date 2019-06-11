@@ -1,55 +1,102 @@
-﻿---
-title: Restauration d’un serveur membre Enterprise Edition
-TOCTitle: Restauration d’un serveur membre Enterprise Edition
-ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202191(v=OCS.15)
-ms:contentKeyID: 53095542
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: restauration d’un serveur membre Enterprise Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring an Enterprise Edition member server
+ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202191(v=OCS.15)
+ms:contentKeyID: 51541523
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 83f0283dc6525dbb75ce74809bd88f4e962a9aec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822971"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restauration d’un serveur membre Enterprise Edition
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-18_
+# <a name="restoring-an-enterprise-edition-member-server-in-lync-server-2013"></a>Restauration d’un serveur membre Enterprise Edition dans Lync Server 2013
 
-Si un serveur exécutant l’un des rôles serveur suivants est défaillant, appliquez la procédure indiquée dans cette section pour le restaurer. Si plusieurs serveurs subissent une défaillance indépendamment, appliquez la procédure pour chacun d’eux.
+</div>
 
-  - Serveur frontal
+<div id="mainSection">
 
-  - Serveur de médiation
+<div id="mainBody">
 
-  - Directeur
+<span> </span>
 
-  - Serveur de conversation permanente
+_**Dernière modification de la rubrique:** 2013-02-18_
 
-  - Serveur Edge
+Si un serveur exécutant l’un des rôles serveur suivants ne fonctionne pas, suivez la procédure décrite dans cette rubrique pour restaurer le serveur. Si plusieurs serveurs échouent indépendamment, suivez la procédure pour chaque serveur.
+
+  - serveur frontal
+
+  - serveur de médiation
+
+  - directeur
+
+  - serveur de conversations permanentes
+
+  - serveur Edge
+
+<div>
+
 
 > [!TIP]  
-> Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pourrez utiliser cette copie comme point de restauration au cas où un problème surviendrait lors de la restauration. Il peut être préférable de créer cette copie instantanée après avoir installé le système d’exploitation et SQL Server et après avoir restauré ou réinscrit les certificats.
+> Nous vous recommandons de prendre une copie d’image du système avant de commencer la restauration. Vous pouvez utiliser cette image comme point de restauration en cas de problème de restauration. Vous souhaiterez peut-être prendre la copie d’image après l’installation du système d’exploitation et de SQL Server, puis restaurez ou Réinscrivez les certificats.
 
-## Pour restaurer un serveur membre
 
-1.  Démarrez avec un nouveau serveur ayant le même nom de domaine complet que le serveur ayant subi une défaillance, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
+
+</div>
+
+<div>
+
+## <a name="to-restore-a-member-server"></a>Pour restaurer un serveur membre
+
+1.  Commencez par un serveur propre ou nouveau qui porte le même nom de domaine complet (FQDN) que le serveur en panne, installez le système d’exploitation, puis restaurez ou Réinscrivez les certificats.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Suivez les procédures de déploiement de serveur de votre organisation pour effectuer cette étape.
+    > Pour effectuer cette étape, suivez les procédures de déploiement du serveur de votre organisation.
 
-2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, ouvrez une session sur le serveur que vous restaurez.
+    
+    </div>
 
-3.  Accédez au dossier ou support d’installation de Lync Server, puis démarrez l’Assistant Déploiement de Lync Server situé à l’emplacement \\setup\\amd64\\Setup.exe.
+2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous au serveur que vous restaurez.
 
-4.  Suivez l’Assistant Déploiement pour effectuer ce qui suit :
+3.  Recherchez le dossier d’installation ou le média de Lync Server et démarrez l’Assistant Déploiement de Lync Server \\situé\\à\\l’installation de Setup. exe.
+
+4.  Suivez l’Assistant déploiement pour effectuer les opérations suivantes:
     
-    1.  Exécutez l’**Étape 1 : Installer le magasin de configurations local** pour installer les fichiers de configuration locaux.
+    1.  Exécutez l' **étape 1: installer le magasin de configuration local** pour installer les fichiers de configuration locaux.
     
-    2.  Exécutez l’**Étape 2 : Installer ou supprimer des composants Lync Server** pour installer les rôles serveur Lync Server.
+    2.  Exécutez l' **étape 2: configurer ou supprimer les composants serveur Lync** pour installer le rôle serveur Lync Server.
     
-    3.  Exécuter l’**Étape 3 : Demander, installer ou assigner les certificats** pour assigner les certificats.
+    3.  Exécutez l' **étape 3: demandez, installez ou attribuez des certificats** pour attribuer les certificats.
     
-    4.  Exécutez l’**Étape 4 : Démarrer les services** pour démarrer les services sur le serveur.
+    4.  Exécutez l' **étape 4: démarrer des services** pour démarrer des services sur le serveur.
     
-    Pour plus d’informations sur l’exécution de l’Assistant Déploiement, voir la documentation de déploiement relative au rôle serveur que vous restaurez.
+    Pour plus d’informations sur l’exécution de l’Assistant Déploiement, voir la documentation de déploiement pour le rôle de serveur que vous restaurez.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

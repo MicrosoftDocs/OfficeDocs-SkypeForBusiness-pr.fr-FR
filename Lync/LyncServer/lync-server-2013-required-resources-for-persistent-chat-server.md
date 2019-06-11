@@ -1,49 +1,89 @@
-﻿---
-title: "Lync Server 2013 : Ressources req. pour le serveur de conversation permanente"
-TOCTitle: Ressources requises
-ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205211(v=OCS.15)
-ms:contentKeyID: 49298664
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Ressources requises pour le serveur de conversation permanente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Required resources
+ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
+ms:contentKeyID: 48185255
+ms.date: 02/05/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823251"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ressources requises pour le serveur de conversation permanente dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-02-05_
+# <a name="required-resources-for-persistent-chat-server-in-lync-server-2013"></a>Ressources requises pour le serveur de conversation permanente dans Lync Server 2013
 
-La haute disponibilité et la récupération d’urgence pour les serveur de conversations permanentes nécessite des ressources supplémentaires dépassant ce qui est généralement nécessaire pour une exploitation complète. Avant la configuration des serveur de conversations permanentes pour la haute disponibilité et la récupération d’urgence, vérifiez que vous avez bien les ressources suivantes en plus de ce qui est obligatoire pour un fonctionnement standard des serveur de conversations permanentes. Pour plus d’informations sur la configuration, reportez-vous à [Configuration du serveur de conversation permanente dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).
+</div>
 
-  - Une instance dédiée de la base de données, située au même centre de données physique dans lequel le serveur de conversations permanentes frontal d’accueil du service se trouve. Cette base de données sert de miroir SQL Server pour la base de données de conversation permanente principale. Désignez au besoin une base de données SQL Server en plus comme témoin de mise en miroir si vous voulez que le basculement automatisé se fasse sur la base de données miroir.
+<div id="mainSection">
 
-  - Une instance dédiée de la base de données, située dans l’autre centre de données physique. Elle doit servir de base de données SQL Server secondaire de copie des journaux de transaction pour la base de données qui se trouve dans le centre de données principal.
+<div id="mainBody">
 
-  - Une instance dédiée de la base de données servant de miroir SQL Server pour la base de données secondaire. Désignez au besoin une SQL Server en plus comme témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
+<span> </span>
 
-  - Si la conformité du serveur de conversations permanentes est activée, trois autres instances dédiées de base de données sont obligatoires. Leur distribution est identique à celle déjà indiquée pour la base de données de conversation permanente. S’il est possible que la base de données de conformité partage la même instance SQL Server que la base de données de conversation permanente, nous vous recommandons de créer des instances autonomes pour la haute disponibilité et la récupération d’urgence.
+_**Dernière modification de la rubrique:** 2016-02-05_
 
-  - Vous devez aussi créer et désigner un partage de fichiers pour les journaux des transactions de copie des journaux de transaction SQL Server. Tous les serveurs SQL Server des deux centres de données qui exécutent des bases de données conversation permanente doivent disposer d’un accès en lecture/écriture à ce partage de fichiers. Celui-ci n’est pas défini avec un rôle FileStore.
+Une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent nécessitent des ressources supplémentaires en plus de ce qui est en général requis pour une opération complète. Avant de configurer le serveur de chat permanent pour une haute disponibilité et une reprise après sinistre, assurez-vous que vous disposez des ressources suivantes en plus de ce qui est requis pour l’opération de serveur de chat permanent standard. Pour plus d’informations sur la configuration, voir [configuration du serveur de chat permanent dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md).
 
-  - Un partage de fichiers sur le serveur de base de données secondaire servant de dossier de destination pour les journaux de transaction SQL Server copiés depuis le partage de fichiers du serveur principal.
+  - Une instance de base de données dédiée située dans le même centre de données physiques dans lequel se trouve le serveur frontal principal du service de chat permanent. Cette base de données fera office de miroir SQL Server pour la base de données de chat permanent principale. Vous pouvez également désigner un serveur SQL Server supplémentaire comme témoin de mise en miroir si vous voulez un basculement automatisé vers la base de données miroir.
 
-Les données suivantes fournissent des exemples de configuration du pool de serveurs de conversations permanentes complet dans les deux topologies de pool étirées :
+  - Une instance dédiée de la base de données, située dans l’autre centre de données physique. Cette base de données sera utilisée en tant que base de données secondaire pour l’envoi du journal SQL Server de la base de données dans le centre de données principal.
 
-  - pool de serveurs de conversations permanentes étiré quand les centres de données sont localisés géographiquement et font état d’une bande passante élevée/faible latence.
+  - Une instance de base de données dédiée à faire office de miroir SQL Server pour la base de données secondaire. Vous pouvez éventuellement désigner un serveur SQL Server supplémentaire comme témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
 
-  - pool de serveurs de conversations permanentes étiré quand les centres de données sont localisés géographiquement et font état d’une bande passante réduite/latence élevée.
+  - Si la conformité de serveur Chat permanent est activée, il est nécessaire d’avoir trois instances de base de données spécialisées supplémentaires. La distribution de la base de données de chat persiste est identique à celle présentée précédemment. S’il est possible que la base de données de conformité partage la même instance SQL Server que la base de données de chat persistante, nous recommandons des instances autonomes pour une haute disponibilité et une reprise après sinistre.
 
-Les données suivantes montrent une topologie de pool de serveurs de conversations permanentes étirée où les centres de données sont localisés géographiquement avec une bande passante élevée/faible latence.
+  - Un partage de fichiers doit être créé et désigné pour les journaux de transactions d’envoi du journal SQL Server. Tous les serveurs SQL dans les centres de données exécutant des bases de données de chat permanent doivent disposer d’un accès en lecture/écriture à ce partage de fichiers. Celui-ci n’est pas défini avec un rôle FileStore.
 
-**Pool de serveurs de conversation permanente étiré quand les centres de données sont localisés géographiquement et font état d’une bande passante élevée/faible latence.**
+  - Un partage de fichiers sur le serveur de base de données secondaire servant de dossier de destination pour les journaux de transactions SQL Server copiés à partir du partage de fichiers du serveur principal.
 
-![Examen de configuration HBW du pool de serveurs de conversations persistantes](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Examen de configuration HBW du pool de serveurs de conversations persistantes")
+<div>
 
-Les données suivantes montrent une topologie de pool de serveurs de conversations permanentes étirée où les centres de données sont localisés géographiquement avec une bande passante réduite/latence élevée.
 
-**Pool de serveurs de conversation permanente étiré quand les centres de données sont localisés géographiquement avec une bande passante réduite/latence élevée.**
+> [!NOTE]  
+> Les serveurs de chat permanent actifs dans un pool de serveurs de chat permanent doivent résider dans le même fuseau horaire que le pool Lync de saut suivant défini dans la topologie.
 
-![Examen de configuration LBW du pool de serveurs de conversations persistantes](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Examen de configuration LBW du pool de serveurs de conversations persistantes")
+
+
+</div>
+
+Les illustrations suivantes fournissent des exemples sur la façon dont l’intégralité du pool de serveurs de chat permanent peut être configuré dans les deux topologies de pool étiré différentes:
+
+  - Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante élevée et une latence faible.
+
+  - Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante faible et une latence élevée.
+
+La figure ci-après illustre une topologie de pool de serveurs de chat permanent étirée dans laquelle les centres de données sont géospatiales avec une bande passante élevée et une latence faible.
+
+**Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante élevée et une latence faible.**
+
+![Examen permanent de configuration du pool de serveurs de conversation HBW] (images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Examen permanent de configuration du pool de serveurs de conversation HBW")
+
+La figure suivante illustre une topologie de pool de serveurs de chat permanent étirée dans laquelle les centres de données sont géospatiales avec une bande passante faible et une latence élevée.
+
+**Pool de serveurs de chat permanent étiré lorsque les centres de données sont géospatiales avec une bande passante faible et une latence élevée.**
+
+![Examen permanent de configuration du pool de serveurs de conversation LBW] (images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Examen permanent de configuration du pool de serveurs de conversation LBW")
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

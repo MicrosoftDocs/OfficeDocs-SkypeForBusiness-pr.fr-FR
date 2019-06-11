@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table Pool'
-TOCTitle: Table Pool
-ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398746(v=OCS.15)
-ms:contentKeyID: 49298091
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Pool'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Pool table
+ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398746(v=OCS.15)
+ms:contentKeyID: 48184803
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08f878b9eefef86fba0fed4dd039b9a60b6f035d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824231"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Pool dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="pool-table-in-lync-server-2013"></a>Table Pool dans Lync Server 2013
 
-La table Pool est une table de prise en charge qui contient des informations sur les différents pools frontaux. Chaque enregistrement dans la table représente un pool.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-02_
+
+Le tableau de réserve est une table de prise en charge qui stocke des informations sur les divers pools de front-end. Chaque enregistrement de la table représente un pool.
 
 
 <table>
@@ -36,16 +56,27 @@ La table Pool est une table de prise en charge qui contient des informations sur
 <tbody>
 <tr class="odd">
 <td><p><strong>PoolKey</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
-<td><p>Numéro unique qui identifie ce pool.</p></td>
+<td><p>Numéro unique identifiant ce pool.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Unique </p></td>
+<td><p>Différent </p></td>
 <td><p>Nom de domaine complet du pool.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,48 +1,91 @@
-﻿---
-title: Planification de la connectivité PIC (Public Instant Messaging Connectivity)
-TOCTitle: Planification de la connectivité PIC (Public Instant Messaging Connectivity)
-ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205349(v=OCS.15)
-ms:contentKeyID: 49299206
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planification de la connectivité de messagerie instantanée publique'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for public instant messaging connectivity
+ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205349(v=OCS.15)
+ms:contentKeyID: 48185698
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4432484fbd6056d51a38090a18dbe106851d7c0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824574"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification de la connectivité PIC (Public Instant Messaging Connectivity)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2017-03-09_
+# <a name="planning-for-public-instant-messaging-connectivity-in-lync-server-2013"></a>Planification de la connectivité de messagerie instantanée publique dans Lync Server 2013
 
-La Connectivité PIC (Public IM Connectivity) est une classe de fédération configurée pour permettre à vos utilisateurs internes et externes de Lync Server 2013 d’ajouter des contacts à partir des applications suivantes :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-10-07_
+
+La connectivité de messagerie instantanée publique est une classe de Fédération et est configurée pour permettre à vos utilisateurs de Lync Server 2013 internes et externes d’ajouter des contacts à partir de l’un des éléments suivants:
 
   - Contacts Messenger
 
-  - Contacts Yahoo\!
+  - Yahoo!\! contacts
 
   - Contacts AOL (America Online)
 
+<div>
+
+
 > [!IMPORTANT]  
-> <ul>
-> <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, voir <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>
-> <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent ne sera pas renouvelé.</p></li>
-> <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li></ul>
+> <UL>
+> <LI>
+> <P>À compter du 1er septembre 2012, la licence de l’abonnement à l’utilisateur de la connectivité PIC (Public IM Connectivity) de Microsoft Lync n’est plus disponible pour l’achat de contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <LI>
+> <P>La fonction USL (PIC) est une licence d’abonnement par utilisateur et par mois requise pour la Fédération de Lync Server ou d’Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, qui n’est pas renouvelé.</P>
+> <LI>
+> <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste, ce qui permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes par messagerie instantanée et vocale.</P></LI></UL>
 
 
-Cette classe de fédération nécessite les considérations de planification suivantes :
 
-  - Les utilisateurs de Windows Live Messenger peuvent communiquer avec l’audio/la vidéo d’égal-à-égal avec les utilisateurs de Lync Server 2013, en plus de la messagerie instantanée. Vos serveurs Edge doivent respecter des exigences de port et de protocole spécifiques. Pour plus d’informations, voir [Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
+</div>
 
-  - La messagerie instantanée Yahoo n’a aucune exigence spécifique autre que celles typiquement utilisées dans la planification et le déploiement d’un serveur Edge classique qui fournit la fédération.
+Cette classe de Fédération exige les considérations en matière de planification suivantes:
 
-  - America Online demande à ce que votre certificat serveur Edge attribué au service Edge d’accès ait une utilisation améliorée de la clé (EKU).
+  - Les utilisateurs de Windows Live Messenger peuvent utiliser la communication audio et vidéo d’égal à égal avec les utilisateurs de Lync Server 2013, en plus de la messagerie instantanée. Vos serveurs Edge doivent répondre à des exigences de port et de protocole spécifiques. Pour plus d’informations, reportez-vous à [la rubrique déterminer la configuration requise 2013 pour le pare-feu A](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-## Dans cette section
+  - Le service de messagerie instantanée Yahoo n’est soumis à aucune configuration unique, autre que celles généralement utilisées dans le cadre de la planification et du déploiement du serveur de périphérie standard qui fournit la Fédération.
 
-  - [Résumé des certificats - Connectivité PIC (Public IM Connectivity)](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+  - America Online nécessite que votre certificat de serveur Edge attribué au service Edge d’accès possède une utilisation améliorée de la clé par le client.
 
-  - [Résumé des ports - Connectivité PIC (Public IM Connectivity)](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+<div>
 
-  - [Résumé des enregistrements DNS - Connectivité PIC (Public IM Connectivity)](https://technet.microsoft.com/fr-fr/library/jj618375\(v=ocs.15\))
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Résumé de certification-connectivité de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+
+  - [Résumé de port-connectivité de messagerie instantanée publique dans Lync Server 2013](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+
+  - [DNS Summary-connectivité de messagerie instantanée publique dans Lync Server 2013](https://technet.microsoft.com/en-us/library/jj618375\(v=ocs.15\))
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

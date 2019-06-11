@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013 : Rapport de synthèse de la qualité des médias'
-TOCTitle: Rapport de synthèse de la qualité des médias
-ms:assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg615012(v=OCS.15)
-ms:contentKeyID: 49297999
-ms.date: 07/01/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rapport de synthèse sur la qualité multimédia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Media Quality Summary Report
+ms:assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615012(v=OCS.15)
+ms:contentKeyID: 48184776
+ms.date: 06/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5c967c6d6b120c73cb933281d4edb17be1868900
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827493"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rapport de synthèse de la qualité des médias dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-06-29_
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Rapport synthèse qualité multimédia dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2016-06-29_
 
 Le rapport de synthèse de la qualité des médias permet d’analyser la qualité des appels au sein de votre organisation : ce rapport fournit des mesures d’appel de qualité de l’expérience (QoE) détaillées décomposées selon les catégories suivantes :
 
-  - Appels P2P UC (par exemple, un appel Microsoft Lync 2013 vers Microsoft Lync 2013)
+  - Appels d’égal à égal (par exemple, Microsoft Lync 2013 vers Microsoft Lync 2013)
 
   - Sessions de conférence UC
 
@@ -31,15 +51,17 @@ Le rapport de synthèse de la qualité des médias permet d’analyser la qualit
 
   - Autres types d’appels
 
-Quand vous ouvrez le rapport pour la première fois, une synthèse des informations pour chaque catégorie s’affiche. Sans quitter le rapport, vous pouvez développer chaque catégorie pour afficher des sous-catégories, telles que les appels passés de Office Communicator 2007 R2 vers Lync 2013. Vous pouvez développer également ces sous-catégories pour afficher des détails sur chaque appel passé dans cette sous-catégorie.
+Quand vous ouvrez le rapport pour la première fois, une synthèse des informations pour chaque catégorie s’affiche. Sans quitter le rapport, vous pouvez développer chaque catégorie pour afficher des sous-catégories, comme les appels passés à partir d’Office Communicator 2007 R2 vers Lync 2013. Vous pouvez développer également ces sous-catégories pour afficher des détails sur chaque appel passé dans cette sous-catégorie.
 
-Dans Microsoft Lync Server 2013, le rapport de synthèse de la qualité des médias décompose les données en trois types d’appel : appels audio, appels vidéo et appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
+Dans Microsoft Lync Server 2013, le rapport synthèse qualité multimédia répartit les données en trois types d’appels: les appels audio, les appels vidéo et les appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
 
 Le rapport de synthèse de la qualité des médias vous permet d’appliquer des filtres pour comparer la qualité des appels entre les appels câblés et les appels sans fil, les appels internes et externes, les appels VPN et non VPN.
 
-## Accès au rapport de synthèse de la qualité des médias
+<div>
 
-Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [Rapport de la liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
+## <a name="accessing-the-media-quality-summary-report"></a>Accès au rapport de synthèse de la qualité des médias
+
+Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:
 
   - Volume d’appels
 
@@ -61,13 +83,17 @@ De plus, vous pouvez accéder au Rapport de distribution des mesures de qualité
 
   - Taux de compression de la réparation
 
-## Filtres
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtres
 
 Les filtres vous offrent la possibilité de renvoyer un ensemble de données mieux ciblées ou de visualiser les données renvoyées de différentes manières. Par exemple, grâce au rapport de synthèse de la qualité des médias, vous pouvez filtrer les données renvoyées selon des éléments précis, tels que le type d’accès (à savoir « accès interne » par comparaison à « accès externe ») ou la connexion réseau câblée/sans fil. Vous pouvez également choisir le mode de groupement des données. Dans ce cas, les appels sont groupés par heure, jour, semaine ou mois.
 
 Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le rapport de synthèse de la qualité des médias.
 
-### Filtres du rapport de synthèse de la qualité des médias
+### <a name="media-quality-summary-report-filters"></a>Filtres du rapport de synthèse de la qualité des médias
 
 <table>
 <colgroup>
@@ -132,11 +158,15 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 </table>
 
 
-## Mesures
+</div>
+
+<div>
+
+## <a name="metrics"></a>Mesures
 
 Le tableau qui suit répertorie les informations fournies dans le rapport de synthèse de la qualité des médias.
 
-### Mesures du rapport de synthèse de la qualité des médias : synthèse des appels audio
+### <a name="media-quality-summary-report-metrics-audio-call-summary"></a>Mesures du rapport de synthèse de la qualité des médias : synthèse des appels audio
 
 <table>
 <colgroup>
@@ -200,7 +230,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="even">
 <td><p><strong>Dégradation (MOS)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server se sert d’un ensemble d’algorithmes pour prédire la manière dont les utilisateurs auraient évalué un appel.</p>
+<td><p>Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Lync Server, Lync Server utilise un ensemble d’algorithmes pour prévoir la façon dont les utilisateurs auraient noté un appel.</p>
 <p>Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un point de terminaison surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
 </tr>
 <tr class="odd">
@@ -211,7 +241,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="even">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taux de masquage de la réparation</strong></p></td>
@@ -232,7 +262,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 </table>
 
 
-### Mesures du rapport de synthèse de la qualité des médias : synthèse des appels vidéo
+### <a name="media-quality-summary-report-metrics-video-call-summary"></a>Mesures du rapport de synthèse de la qualité des médias : synthèse des appels vidéo
 
 <table>
 <colgroup>
@@ -324,14 +354,14 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 </tr>
 <tr class="even">
 <td><p><strong>Intégrité des clients (%)</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Indique l’intégrité relative du périphérique client pendant l’appel.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Mesures du rapport de synthèse de la qualité des médias : synthèse des appels de partage d’application
+### <a name="media-quality-summary-report-metrics-application-sharing-call-summary"></a>Mesures du rapport de synthèse de la qualité des médias : synthèse des appels de partage d’application
 
 <table>
 <colgroup>
@@ -389,7 +419,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="odd">
 <td><p><strong>Gigue (ms)</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.</p></td>
+<td><p>Gigue moyenne détectée entre les arrivées de paquets RTP. (Gigue est une mesure du &quot;shakiness&quot; d’un appel.) Les valeurs de gigue élevée sont généralement provoquées par une congestion ou un serveur multimédia surchargé, ce qui a pour effet de déformer ou de perdre du son.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unilatéral relatif moyen</strong></p></td>
@@ -399,7 +429,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 <tr class="odd">
 <td><p><strong>Latence moyenne de traitement des mosaïques RDP</strong></p></td>
 <td><p>Non</p></td>
-<td><p>Latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. Cette mesure ne couvre pas la latence du réseau. Une moyenne élevée indique un délai plus long pour l’expérience de visionnage. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés.</p></td>
+<td><p>Latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. Une moyenne élevée équivaut à une expérience de visionnage plus longue et inclut une latence du réseau. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre total de mosaïques altérées (%)</strong></p></td>
@@ -408,4 +438,17 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

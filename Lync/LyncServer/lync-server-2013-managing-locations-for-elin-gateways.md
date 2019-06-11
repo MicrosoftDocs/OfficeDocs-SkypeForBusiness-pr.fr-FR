@@ -1,54 +1,89 @@
-﻿---
-title: 'Lync Server 2013 : Gestion des emplacements pour les passerelles ELIN'
-TOCTitle: Gestion des emplacements pour les passerelles ELIN
-ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205288(v=OCS.15)
-ms:contentKeyID: 49298908
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: gestion des emplacements pour les passerelles ELIN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing locations for ELIN gateways
+ms:assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205288(v=OCS.15)
+ms:contentKeyID: 48185496
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8b447a150a48255a04e5a332cc5d0f56110848f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828039"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gestion des emplacements pour les passerelles ELIN dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>Gestion des emplacements pour les passerelles ELIN dans Lync Server 2013
 
-Pour que Lync Server fournisse automatiquement les emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes :
+</div>
 
-  - Renseignez la base de données service d’informations sur l’emplacement avec un schéma de câblage réseau, et incluez les numéros d’identification de l’emplacement en cas d’urgence dans le champ CompanyName.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-02_
+
+Pour que Lync Server fournisse automatiquement des emplacements pour les clients au sein d’un réseau, vous devez effectuer les tâches suivantes:
+
+  - Remplissez la base de données de service informations d’emplacement auprès d’un réseau de Wiremap, puis incluez les numéros d’identification d’emplacement d’urgence (ELINs) dans le champ CompanyName.
 
   - Publiez les emplacements afin qu’ils soient disponibles pour les clients dans votre réseau.
 
-  - Téléchargez les numéros d’identification de l’emplacement en cas d’urgence vers la base de données ALI (Automatic Location Identification) de votre opérateur RTC.
+  - Téléchargez les numéros d’identification de l’emplacement en cas d’urgence vers la base de données ALI (Automatic Location Identification) de votre opérateur PSTN.
 
-Pour plus d’informations sur l’exécution de ces tâches, reportez-vous à [Configurer la base de données d’emplacements dans Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
+Pour plus d’informations sur l’exécution de ces tâches, voir [configurer la base de données de localisation dans Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
+
+<div>
+
 
 > [!NOTE]  
-> Les emplacements ajoutés à la base de données centrale des emplacements ne sont accessibles au client qu’une fois publiés à l’aide d’une commande Lync Server Management Shell et répliqués vers les magasins locaux du pool. Pour plus d’informations, reportez-vous à <a href="lync-server-2013-publish-the-location-database.md">Publier la base de données d’emplacements</a> dans la documentation de déploiement.
+> Les emplacements ajoutés à la base de données de l’emplacement central ne sont pas disponibles pour le client tant qu’ils n’ont pas été publiés à l’aide d’une commande Lync Server Management Shell et répliqués dans les boutiques locales du pool. Pour plus d’informations, voir <A href="lync-server-2013-publish-the-location-database.md">publier la base de données de localisation à partir de Lync Server 2013</A> dans la documentation de déploiement.
+
+
+
+</div>
 
 Cette section décrit les éléments à prendre en compte lorsque vous prévoyez de mettre à jour ou maintenir la base de données des emplacements.
 
-## Planification des emplacements d’urgence
+<div>
 
-Lorsque vous utilisez des passerelles ELIN, vous renseignez la base de données du service d’informations sur l’emplacement avec des adresses géographiques et au moins un numéro d’identification de l’emplacement en cas d’urgence pour chaque emplacement d’intervention d’urgence. Durant la phase de planification, il est recommandé de décider du nom des emplacements et de l’affectation des numéros d’identification de l’emplacement en cas d’urgence.
+## <a name="planning-emergency-locations"></a>Planification des emplacements d’urgence
 
-## Planification des noms d’emplacement
+Lorsque vous utilisez des passerelles ELIN, vous remplissez la base de données de service des informations d’emplacement à l’aide de l’adresse postale, d’un emplacement spécifique au sein d’un bâtiment et au moins un ELIN pour chaque emplacement. Durant la phase de planification, il est recommandé de décider du nom des emplacements et de l’affectation des numéros d’identification de l’emplacement en cas d’urgence.
 
-Le champ **Location** du service d’informations sur l’emplacement, qui contient l’emplacement spécifique au sein d’un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
+<div>
+
+## <a name="planning-location-names"></a>Planification des noms d’emplacement
+
+Le champ d' **emplacement** du service des informations d’emplacement, qui contient l’emplacement spécifique au sein d’un immeuble, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
 
   - Nom facile à comprendre qui identifie l’emplacement de l’appelant 911 pour s’assurer que les agents des services d’urgence trouvent l’emplacement spécifique rapidement lorsqu’ils arrivent à l’adresse géographique. Ce nom d’emplacement peut inclure un numéro d’immeuble, un numéro d’étage, un indicateur d’aile, un numéro de chambre, etc. Évitez les surnoms connus des seuls employés, qui peuvent induire les agents des services d’urgence en erreur.
 
-  - Identificateur d’emplacement qui aide les utilisateurs à vérifier que leur client Lync a sélectionné l’emplacement correct. Le client Lync concatène et affiche automatiquement les champs **Location** et **City** découverts dans son en-tête. Il est recommandé d’ajouter l’adresse postale de l’immeuble à chaque identificateur d’emplacement (par exemple, « 1er étage \<numéro de rue\> »). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
+  - Un identificateur d’emplacement qui permet à l’utilisateur de voir facilement le bon emplacement du client Lync. Le client Lync concatène et affiche automatiquement les champs **emplacement** et **ville** détectés dans son en-tête. Il est recommandé d’ajouter l’adresse postale du bâtiment à chaque identificateur d’emplacement (par exemple, «numéro \<\>de rue du 1er étage»). Sans l’adresse postale, un identificateur d’emplacement générique tel que « 1er étage » peut s’appliquer à n’importe quel immeuble de la ville.
 
   - Si l’emplacement est approximatif car il est déterminé par un point d’accès sans fil, vous pouvez ajouter le mot Near (par exemple, « À proximité du 1er étage 1234 »).
 
-## Planification des numéros d’identification de l’emplacement en cas d’urgence (ELIN)
+</div>
 
-Après avoir déterminé comment diviser l’espace de votre bâtiment en emplacements, vous devez décider du nombre de numéros ELIN à affecter à chaque emplacement. Par exemple, dans un immeuble à plusieurs étages ou multilocatif, différentes zones ERL peuvent être affectées à différentes zones d’urgence. En général, chaque étage d’un immeuble est désigné comme un emplacement. Chaque emplacement se voit alors affecté un ou plusieurs numéros ELIN, utilisés comme numéros d’appel durant un appel d’urgence. Contactez votre opérateur RTC pour connaître les numéros de téléphone que vous pouvez utiliser pour les numéros ELIN. Le tableau ci-dessous fournit des exemples d’emplacements pour une adresse postale spécifique.
+<div>
 
-### Exemples d’affectations d’emplacements et de numéros ELIN
+## <a name="planning-elins"></a>Planification des numéros d’identification de l’emplacement en cas d’urgence (ELIN)
+
+Après avoir déterminé comment diviser l’espace de votre bâtiment en emplacements, vous devez décider du nombre de numéros ELIN à affecter à chaque emplacement. Par exemple, dans un immeuble à plusieurs étages ou multilocatif, différentes zones ERL peuvent être affectées à différentes zones d’urgence. En général, chaque étage d’un immeuble est désigné comme un emplacement. Chaque emplacement se voit alors affecté un ou plusieurs numéros ELIN, utilisés comme numéros d’appel durant un appel d’urgence. Contactez votre opérateur PSTN pour connaître les numéros de téléphone que vous pouvez utiliser pour les numéros ELIN. Le tableau ci-dessous fournit des exemples d’emplacements pour une adresse postale spécifique.
+
+### <a name="sample-location-and-elin-assignments"></a>Exemples d’affectations d’emplacements et de numéros ELIN
 
 <table>
 <colgroup>
@@ -89,7 +124,13 @@ Les emplacements définis doivent satisfaire les exigences suivantes :
 
   - être assez spécifiques pour faciliter la localisation de l’appel d’urgence.
 
-## Remplissage de la base de données d’emplacements
+</div>
+
+</div>
+
+<div>
+
+## <a name="populating-the-location-database"></a>Remplissage de la base de données d’emplacements
 
 Les questions suivantes vous permettront de déterminer comment remplir la base de données des emplacements.
 
@@ -99,13 +140,17 @@ Les questions suivantes vous permettront de déterminer comment remplir la base 
 <!-- end list -->
 
   - **Disposez-vous d’une base de données tierce qui contient déjà un mappage des emplacements ?**  
-    En utilisant l’option du service d’informations sur l’emplacement secondaire de Lync Server pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors ligne. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Par conséquent, le service d’informations sur l’emplacement peut renvoyer plusieurs adresses provenant du service d’informations sur l’emplacement vers un client Lync Server. L’utilisateur peut alors choisir l’emplacement le plus approprié.
+    À l’aide de l’option de service d’information d’emplacement secondaire du serveur Lync Server pour vous connecter à une base de données tierce, vous pouvez regrouper et gérer les emplacements à l’aide d’une plateforme hors connexion. Outre la possibilité d’associer des emplacements à des identificateurs réseau, cette approche vous offre l’avantage d’associer des emplacements à un utilisateur. Cela signifie que le service d’information d’emplacement peut retourner plusieurs adresses à partir du service d’information d’emplacement secondaire, vers un client serveur Lync. L’utilisateur peut alors choisir l’emplacement le plus approprié.
     
-    Pour permettre l’intégration au service d’informations sur l’emplacement, la base de données tierce doit respecter le schéma Demande/Réponse d’emplacement de Lync Server. Pour plus d’informations, reportez-vous à <http://go.microsoft.com/fwlink/p/?linkid=213819>. Pour plus d’informations sur le déploiement d’un service d’informations sur l’emplacement secondaire, reportez-vous à [Configurer un service Informations d’emplacement secondaire](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
+    Pour être intégré au service d’information d’emplacement, la base de données tierce doit suivre le schéma de requête/réponse d’emplacement du serveur Lync. Pour plus d’informations <http://go.microsoft.com/fwlink/p/?linkid=213819>, reportez-vous à. Pour plus d’informations sur le déploiement d’un service d’information d’emplacement secondaire, voir [configurer un service d’information d’emplacement secondaire dans Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) dans la documentation de déploiement.
 
-Pour plus d’informations sur le renseignement de la base de données d’emplacements, reportez-vous à [Configurer la base de données d’emplacements dans Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
+Pour plus d’informations sur le remplissage de la base de données de localisation, voir [configurer la base de données de localisation dans Lync Server 2013](lync-server-2013-configure-the-location-database.md) dans la documentation de déploiement.
 
-## Mise à jour de la base de données d’emplacements
+</div>
+
+<div>
+
+## <a name="maintaining-the-location-database"></a>Mise à jour de la base de données d’emplacements
 
 Une fois que vous avez renseigné la base de données des emplacements, vous devez développer une stratégie pour la mettre à jour au fur et à mesure que la configuration réseau change. Les questions suivantes vous permettront de déterminer comment maintenir la base de données des emplacements.
 
@@ -115,5 +160,17 @@ Une fois que vous avez renseigné la base de données des emplacements, vous dev
 <!-- end list -->
 
   - **Ferez-vous appel à une application SNMP pour associer des adresses MAC de client Lync aux identificateurs de port et de commutateur ?**  
-    Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie une adresse IP de châssis ou un ID de port qui ne figure pas dans la base de données, le service d’informations sur l’emplacement ne pourra pas renvoyer un emplacement au client.
+    Si vous utilisez une application SNMP, vous devez développer un processus manuel permettant de garder les informations de châssis de commutateur et de port cohérentes entre l’application SNMP et la base de données des emplacements. Si l’application SNMP renvoie une adresse IP du châssis ou un ID de port qui n’est pas inclus dans la base de données, le service d’information d’emplacement n’est pas en mesure de renvoyer un emplacement au client.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

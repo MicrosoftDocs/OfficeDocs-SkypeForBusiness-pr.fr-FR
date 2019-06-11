@@ -1,31 +1,65 @@
-﻿---
-title: 'Lync Server 2013 : Nouvelles fonctionnalités vidéo'
-TOCTitle: Nouvelles fonctionnalités vidéo
-ms:assetid: c5d7ef57-cda7-456e-b263-c78179991b79
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205246(v=OCS.15)
-ms:contentKeyID: 49298775
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Nouvelles fonctionnalités vidéo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New video features
+ms:assetid: c5d7ef57-cda7-456e-b263-c78179991b79
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205246(v=OCS.15)
+ms:contentKeyID: 48185355
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6560b18bd2b1db72aca6dc98997c8a7cdf33445b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825960"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nouvelles fonctionnalités vidéo dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-08-16_
+# <a name="new-video-features-in-lync-server-2013"></a>Nouvelles fonctionnalités vidéo dans Lync Server 2013
 
-Lync Server 2013 inclut les nouvelles fonctionnalités vidéo suivantes :
+</div>
 
-  - **Vidéo HD**   Les utilisateurs peuvent bénéficier de résolutions jusqu’à 1080P HD pendant les appels à deux interlocuteurs et dans les conférences à plusieurs.
+<div id="mainSection">
 
-  - **Vue Galerie**   Dans les visioconférences regroupant plus de deux personnes, les utilisateurs peuvent visionner l’image de ses participants. Si la conférence regroupe plus de cinq participants, la vidéo limitée aux seuls participants les plus actifs s’affiche en haut et une photo s’affiche pour les autres participants.
+<div id="mainBody">
 
-  - **Vidéo H.264**   Le codec vidéo H.264 est désormais le codec par défaut pour l’encodage vidéo sur les clients Lync 2013. La vidéo H.264 prend en charge une plage plus importante de résolutions et de fréquences d’images, et améliore l’optimisation des vidéos.
+<span> </span>
 
-## Voir aussi
+_**Dernière modification de la rubrique:** 2012-08-16_
 
-#### Autres ressources
+Lync Server 2013 inclut les nouvelles fonctionnalités vidéo suivantes:
 
-[Configuration de la vidéo dans Lync Server 2013](lync-server-2013-planning-and-deploying-video.md)
+  - ****   Les utilisateurs de la vidéo HD peuvent bénéficier de résolutions de HD 1080p dans les appels et conférences multiparties.
+
+  - **Vue Galerie dans**   les conférences vidéo ayant plus de deux personnes, les utilisateurs peuvent voir les vidéos des participants à la Conférence. Si la Conférence compte plus de cinq participants, la vidéo des seuls participants les plus actifs s’affiche dans la ligne supérieure et une photo s’affiche pour les autres participants.
+
+  - **Vidéo h. 264**   le codec vidéo h. 264 est désormais le codec par défaut pour le codage vidéo sur les clients Lync 2013. La vidéo H. 264 prend en charge un éventail plus large de résolutions et de fréquences d’images, et améliore l’évolutivité vidéo.
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Planification et déploiement de la vidéo dans Lync Server 2013](lync-server-2013-planning-and-deploying-video.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,49 +1,100 @@
-﻿---
-title: 'Lync Server 2013 : Suppression de l’authentification Kerberos d’un site'
-TOCTitle: Suppression de l’authentification Kerberos d’un site
-ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398749(v=OCS.15)
-ms:contentKeyID: 49298093
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Suppression de l’authentification Kerberos d’un site'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove Kerberos authentication from a site
+ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398749(v=OCS.15)
+ms:contentKeyID: 48184806
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f030083bc49822f1d41e297388f6ca7dbf66d397
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression de l’authentification Kerberos d’un site dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-01-16_
+# <a name="in-lync-server-2013-remove-kerberos-authentication-from-a-site"></a>Suppression de l’authentification Kerberos d’un site dans Lync Server 2013
 
-Pour effectuer cette procédure vous devez avoir ouvert une session en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
+</div>
 
-Si vous devez supprimer l’authentification Kerberos d’un site ou supprimer un site, vous devez supprimer l’affectation du compte d’authentification Kerberos du site à l’aide de l’applet de commande **Remove-CsKerberosAccountAssignment**. Utilisez la procédure suivante pour supprimer l’affectation du compte d’authentification Kerberos, ce qui a pour effet de supprimer l’affectation de tous les ordinateurs présents sur le site.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-01-16_
+
+Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
+
+Si vous avez besoin de supprimer l’authentification Kerberos d’un site ou de retirer un site, vous devez supprimer l’attribution de compte d’authentification Kerberos du site en utilisant l’applet de passe **Remove-CsKerberosAccountAssignment** . Utilisez la procédure suivante pour supprimer l’attribution du compte d’authentification Kerberos, qui supprime le devoir de tous les ordinateurs du site.
+
+<div class=" ">
+
 
 > [!WARNING]  
-> Si vous supprimez définitivement le compte activé pour Kerberos, vous devriez utiliser le composant Utilisateurs et ordinateurs Active Directory pour le supprimer des services de domaine Active Directory après avoir supprimé l’affectation. Si vous envisagez d’utiliser l’objet ultérieurement, vous pouvez peut-être conserver l’objet Active Directory.
+> Si vous désactivez définitivement le compte Kerberos, utilisez utilisateurs et ordinateurs Active Directory pour le supprimer des services de domaine Active Directory (AD Active Directory) après avoir supprimé le devoir. Si vous envisagez d’utiliser l’objet à l’avenir, vous souhaiterez peut-être conserver l’objet Active Directory.
 
-## Pour supprimer l’authentification Kerberos d’un site
 
-1.  En tant que membre du groupe RTCUniversalServerAdmins, ouvrez une session sur un ordinateur du domaine qui exécute Lync Server 2013 ou sur un ordinateur où les outils d’administration sont installés.
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+</div>
 
-3.  Depuis la ligne de commande, exécutez les deux commandes suivantes :
+<div>
+
+## <a name="to-remove-kerberos-authentication-from-a-site"></a>Pour supprimer l’authentification Kerberos d’un site
+
+1.  En tant que membre du groupe RTCUniversalServerAdmins, connectez-vous à un ordinateur du domaine exécutant Lync Server 2013 ou sur un ordinateur sur lequel les outils d’administration sont installés.
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+
+3.  À partir de la ligne de commande, exécutez les deux commandes suivantes:
     
-    ```
-    Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
-    ```
-    ```
-    Enable-CsTopology
-    ```
-    Exemple :
+       ```
+        Remove-CsKerberosAccountAssignment -Identity "site:SiteName"
+       ```
     
-    ```
-    Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
-    ```
-    ```
-    Enable-CsTopology
-    ```
+       ```
+        Enable-CsTopology
+       ```
     
+    Par exemple :
+    
+       ```
+        Remove-CsKerberosAccountAssignment -Identity "site:Redmond"
+       ```
+    
+       ```
+        Enable-CsTopology
+       ```
+    
+    <div class=" ">
+    
+
     > [!IMPORTANT]  
-    > Une fois que vous avez modifié l’authentification Kerberos, par exemple, si vous ajoutez ou supprimez un compte, vous devez exécuter <strong>Enable-CsTopology</strong> depuis l’invite de commandes Lync Server Management Shell.
+    > Après avoir apporté des modifications à l’authentification Kerberos (par exemple, ajout d’un compte ou suppression d’un compte), vous devez exécuter <STRONG>Enable-CsTopology</STRONG> à partir de l’invite de commandes de Lync Server Management Shell.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

@@ -1,21 +1,51 @@
-﻿---
-title: Configuration d’un emplacement de sauvegarde
-TOCTitle: Configuration d’un emplacement de sauvegarde
-ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202158(v=OCS.15)
-ms:contentKeyID: 53095346
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration d’un emplacement de sauvegarde'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up a backup location
+ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202158(v=OCS.15)
+ms:contentKeyID: 51541440
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c6d8f91af650e68348a35e9f485f5ca5f54093fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821879"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration d’un emplacement de sauvegarde
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-17_
+# <a name="setting-up-a-backup-location-for-lync-server-2013"></a>Configuration d’un emplacement de sauvegarde pour Lync Server 2013
 
-Avant que vous n’effectuiez votre première sauvegarde de Lync Server, installez le matériel et les logiciels nécessaires au stockage et à la maintenance des sauvegardes. Vous devez avoir accès aux supports et aux contenus, selon le cas, et fournir une connectivité réseau entre chaque serveur à sauvegarder et les supports de sauvegarde. Les supports et l’emplacement que vous utilisez doivent être définis dans votre stratégie de sauvegarde et de restauration. L’emplacement que vous utilisez pour vos sauvegardes régulières peut être local ou distant, mais il doit être sécurisé et accessible à la fois pour la sauvegarde et la restauration. Nous recommandons l’utilisation d’un emplacement distant pour se protéger contre un événement catastrophique au niveau de votre site principal.
+</div>
 
-Une fois que vous avez installé et testé les composants individuels, vérifiez l’accessibilité des sauvegardes à partir de chaque serveur.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-17_
+
+Avant de procéder à la première sauvegarde de Lync Server, configurez le matériel et le logiciel dont vous avez besoin afin de stocker et de tenir à jour les sauvegardes. Vous devez obtenir l’accès au contenu multimédia et au contenu, le cas échéant, et fournir une connectivité réseau entre chaque serveur à sauvegarder et le média de sauvegarde. Le média et l’emplacement que vous utilisez doivent être définis dans votre stratégie de sauvegarde et de restauration. L’emplacement que vous utilisez pour les sauvegardes régulières peut être local ou distant, mais il doit être accessible pour la sauvegarde et la restauration. Nous vous recommandons d’utiliser un lieu distant pour vous protéger contre un événement catastrophique sur votre site principal.
+
+Après avoir configuré et testé les composants individuels, vérifiez l’accessibilité des sauvegardes sur chaque serveur.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Détails des tables QoE'
-TOCTitle: Détails des tables QoE
-ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413003(v=OCS.15)
-ms:contentKeyID: 49299318
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Détails des tables QoE'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoE table details
+ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413003(v=OCS.15)
+ms:contentKeyID: 48185775
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcfb0d3dd40341f082e4efdcb8bd22a7c3ba6b25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823776"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Détails des tables QoE dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-02_
+# <a name="qoe-table-details-in-lync-server-2013"></a>Détails des tables QoE dans Lync Server 2013
 
-Ces sections détaillent les colonnes de chacune des tables du schéma de base de données de la qualité de l’expérience (QoE).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-02_
+
+Les sections suivantes décrivent en détail les colonnes dans chaque table de schéma de la base de données de qualité de l’interface (QoE).
 
   - [Table AppliedBandwidthSource dans Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
 
@@ -59,7 +79,7 @@ Ces sections détaillent les colonnes de chacune des tables du schéma de base d
 
   - [Table Pool dans Lync Server 2013](lync-server-2013-pool-table.md)
 
-  - [Table PurgeSettings (QoE) dans Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
+  - [PurgeSettings table (QoE) dans Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
 
   - [Table Region dans Lync Server 2013](lync-server-2013-region-table.md)
 
@@ -71,13 +91,13 @@ Ces sections détaillent les colonnes de chacune des tables du schéma de base d
 
   - [Table Subnet dans Lync Server 2013](lync-server-2013-subnet-table.md)
 
-  - [Table TraceRoute dans Lync Server 2013](lync-server-2013-traceroute-table.md)
+  - [Tableau TraceRoute dans Lync Server 2013](lync-server-2013-traceroute-table.md)
 
   - [Table User dans Lync Server 2013](lync-server-2013-user-table.md)
 
   - [Table UserAgent dans Lync Server 2013](lync-server-2013-useragent-table.md)
 
-  - [Table UserAgentDef (QoE) dans Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
+  - [UserAgentDef table (QoE) dans Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
 
   - [Table UserSite dans Lync Server 2013](lync-server-2013-usersite-table.md)
 
@@ -86,4 +106,14 @@ Ces sections détaillent les colonnes de chacune des tables du schéma de base d
   - [Table VideoMetricsThreshold dans Lync Server 2013](lync-server-2013-videometricsthreshold-table.md)
 
   - [Table VideoStream dans Lync Server 2013](lync-server-2013-videostream-table.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

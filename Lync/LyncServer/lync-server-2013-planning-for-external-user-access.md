@@ -1,32 +1,61 @@
-﻿---
-title: 'Lync Server 2013 : Planification de l’accès des utilisateurs externes'
-TOCTitle: Planification de l’accès des utilisateurs externes
-ms:assetid: ea098933-eff5-461e-aba3-e7f128784dc2
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg399048(v=OCS.15)
-ms:contentKeyID: 49299204
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Planification de l’accès des utilisateurs externes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for external user access
+ms:assetid: ea098933-eff5-461e-aba3-e7f128784dc2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399048(v=OCS.15)
+ms:contentKeyID: 48185903
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d76d4853e7e748128214fc93b721a59e979af03e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824980"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification de l’accès des utilisateurs externes dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-01-19_
+# <a name="planning-for-external-user-access-in-lync-server-2013"></a>Planification de l’accès des utilisateurs externes dans Lync Server 2013
 
-Dans la plupart des entreprises, les communications impliquent des services et des utilisateurs situés à l’extérieur de votre réseau interne. Il peut s’agir d’employés travaillant de manière temporaire ou permanente hors site, d’employés travaillant pour un client ou un partenaire, d’utilisateurs de services de messagerie instantanée publics, de clients, de partenaires et d’utilisateurs anonymes potentiels conviés à des réunions et à des présentations. Dans cette documentation, ces personnes sont collectivement appelées *utilisateurs externes* .
+</div>
 
-Grâce à Microsoft Lync Server 2013, les utilisateurs de votre entreprise peuvent utiliser la messagerie instantanée et la présence pour communiquer avec des utilisateurs externes et participer à des conférences audio/vidéo (A/V) et web avec vos employés hors site et d’autres types d’utilisateurs externes. Vous pouvez également prendre en charge l’accès externe à partir de périphériques mobiles et via Voix Entreprise. Les utilisateurs externes qui ne sont pas membres de votre entreprise peuvent participer à des réunions Lync Server 2013 qui admettent les participants anonymes.
+<div id="mainSection">
 
-Pour prendre en charge les communications via le pare-feu de votre entreprise, vous déployez le serveur Edge Lync Server 2013 dans votre réseau de périmètre (également appelé DMZ, zone démilitarisée, et sous-réseau filtré). Le serveur Edge spécifie comment les utilisateurs à l’extérieur du pare-feu peuvent se connecter à votre déploiement Lync Server 2013 interne. Il contrôle également les communications avec les utilisateurs externes qui transitent à travers le pare-feu.
+<div id="mainBody">
 
-Selon vos exigences, vous pouvez déployer un ou plusieurs serveurs Edge dans un ou plusieurs emplacements. Cette section décrit des scénarios de l’accès des utilisateurs externes dans Lync Server 2013 et explique comment planifier votre topologie de périmètre et de proxy inverse.
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-01-19_
+
+Dans la plupart des organisations, les communications concernent les services et les utilisateurs qui ne se trouvent pas à l’intérieur de votre réseau interne. Ces services et utilisateurs incluent des employés qui sont temporairement ou définitivement hors site, des employés d’organisations de clients ou de partenaires, des personnes qui utilisent des services de messagerie instantanée publique, et des clients potentiels, des partenaires et des utilisateurs anonymes que vous invitez à des réunions et des présentations. Dans cette documentation, ces personnes sont collectivement appelées *utilisateurs externes*.
+
+Avec Microsoft Lync Server 2013, les utilisateurs de votre organisation peuvent utiliser la messagerie instantanée et la présence pour communiquer avec des utilisateurs externes, et participer à des conférences audio/vidéo (A/V) et des conférences Web avec vos employés hors site et d’autres types d’utilisateurs externes. Vous pouvez également prendre en charge l’accès externe à partir d’appareils mobiles et de voix entreprise. Les utilisateurs externes qui ne sont pas membres de votre organisation peuvent participer à des réunions Lync Server 2013, ce qui permet aux participants anonymes.
+
+Pour prendre en charge les communications entre le pare-feu de votre organisation, vous déployez le serveur Edge Lync Server 2013 dans votre réseau de périmètre (également connu sous le nom de DMZ, zone démilitarisée et sous-réseau filtré). Le serveur de périphérie contrôle la façon dont les utilisateurs extérieurs au pare-feu peuvent se connecter à votre déploiement interne Lync Server 2013. Il contrôle également les communications avec les utilisateurs externes qui proviennent du pare-feu.
+
+En fonction de vos besoins, vous pouvez déployer un ou plusieurs serveurs Edge dans un ou plusieurs emplacements. Cette section décrit les scénarios d’accès des utilisateurs externes dans Lync Server 2013 et explique comment planifier votre topologie de proxy inversée.
+
+<div>
+
 
 > [!NOTE]  
-> Même si vous avez besoin d’un serveur Edge pour prendre en charge Voix Entreprise et l’accès des utilisateurs externes, cette section se concentre sur la prise en charge des fonctionnalités de messagerie instantanée, de présence, de conférence A/V, de fédération, de conférence web et de Lync Mobile. Pour plus d’informations sur la prise en charge de Voix Entreprise, reportez-vous à <a href="lync-server-2013-planning-for-enterprise-voice.md">Planification de Voix Entreprise dans Lync Server 2013</a> dans la documentation relative à la planification.
+> Même si vous avez besoin d’un serveur Edge pour prendre en charge l’accès voix entreprise et l’accès utilisateur externe, cette section porte sur la prise en charge de la messagerie instantanée, de la présence, des conférences A/V, de la Fédération, de la conférence Web et de Lync mobile. Pour plus d’informations sur la prise en charge de voix entreprise, reportez-vous à la rubrique <A href="lync-server-2013-planning-for-enterprise-voice.md">planification d’entreprise voix dans Lync Server 2013</A> dans la documentation de planification.
 
-## Dans cette section
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Modifications apportées dans Lync Server 2013 affectant la planification de serveurs Edge](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)
 
@@ -34,7 +63,7 @@ Selon vos exigences, vous pouvez déployer un ou plusieurs serveurs Edge dans un
 
   - [Vue d’ensemble de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-overview-of-external-user-access.md)
 
-  - [Présentation de la découverte automatique](lync-server-2013-understanding-autodiscover.md)
+  - [Comprendre la découverte automatique dans Lync Server 2013](lync-server-2013-understanding-autodiscover.md)
 
   - [Sélection d’une topologie dans Lync Server 2013](lync-server-2013-choosing-a-topology.md)
 
@@ -47,4 +76,16 @@ Selon vos exigences, vous pouvez déployer un ou plusieurs serveurs Edge dans un
   - [Planification des certificats de serveur Edge dans Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)
 
   - [Scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

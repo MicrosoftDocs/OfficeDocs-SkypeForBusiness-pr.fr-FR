@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013 : Suppression d’un hôte autorisé hérité (facultatif)'
-TOCTitle: Suppression d’un hôte autorisé hérité (facultatif)
-ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558603(v=OCS.15)
-ms:contentKeyID: 49296083
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Suppression d’un hôte autorisé hérité (facultatif)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a legacy authorized host (optional)
+ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558603(v=OCS.15)
+ms:contentKeyID: 48183252
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e149a95bdb9111aee4b92afde8842a5871ca4f0c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823132"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-05_
+# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a>Suppression d’un hôte autorisé hérité dans Lync Server 2013 (facultatif)
 
-Lorsque vous migrez un contrôle d’appel distant vers un déploiement de Lync Server, vous devez supprimer des entrées d’hôte autorisé existantes (appelées *entrées d’applications approuvées* dans Lync Server) pour les passerelles SIP/CSTA dans le déploiement hérité. Vous devez utiliser les outils d’administration pour supprimer les entrées d’hôtes autorisés de ces déploiements, respectivement.
+</div>
 
-## Voir aussi
+<div id="mainSection">
 
-#### Tâches
+<div id="mainBody">
 
-[Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-05_
+
+Lorsque vous migrez le contrôle d’appel distant vers un déploiement Lync Server, vous devez supprimer les entrées d’hôte autorisées héritées (appelées *applications de confiance* dans Lync Server) pour les passerelles SIP/CSTA dans votre déploiement hérité. Vous devez utiliser les outils d’administration pour supprimer les entrées hôtes autorisées de ces déploiements, respectivement.
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Configuration d’une entrée d’application approuvée pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

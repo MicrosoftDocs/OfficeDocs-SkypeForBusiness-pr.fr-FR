@@ -1,43 +1,77 @@
-﻿---
-title: 'Lync Server 2013: Performing and monitoring backups'
+---
+title: 'Lync Server 2013: exécution et surveillance de sauvegardes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Performing and monitoring backups
 ms:assetid: 2df415d4-0f37-460e-99ff-4035a9a2f445
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Dn720912(v=OCS.15)
-ms:contentKeyID: 62240057
-ms.date: 12/10/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720912(v=OCS.15)
+ms:contentKeyID: 63969595
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: fffc6a8355305e11d87513ffc37626f3e386c749
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825358"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Performing and monitoring backups in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Exécution et analyse des sauvegardes dans Lync Server 2013
 
-Your business priorities should drive the specification of backup and restoration requirements for your organization. Performing backups of the servers and data is the first line of defense in planning for a disaster.
+</div>
 
-Computers that run Lync Server 2013 services or server roles must have a copy of the current topology, current configuration settings, and current policies before they can function in their appointed role. Lync Server is responsible for making sure that this information is passed along to each computer that needs it.
+<div id="mainSection">
 
-The **Export-CsConfiguration** and **Import-CsConfiguration** cmdlets are used to back up and restore your Lync Server topology, configuration settings, and policies during a Central Management store upgrade. The **Export-CsConfiguration** cmdlets enable you to export data to a .ZIP file. You can then use the **Import-CsConfiguration** cmdlet to read that .ZIP file and restore the topology, configuration settings, and policies to the Central Management store. After that, the replication services of Lync Server will replicate the restored information to other computers that are running Lync Server services.
+<div id="mainBody">
 
-The ability to export and import configuration data is also used during the initial configuration of computers that are located in your perimeter network (for example, Edge Servers). When configuring a computer in the perimeter network, you must first perform a manual replication using the CsConfiguration cmdlets: you must export the configuration data by using **Export-CsConfiguration** and then copy the .ZIP file to the computer in the perimeter network. After that, you can use **Import-CsConfiguration** and the LocalStore parameter to import the data. You only have to do this one time. After that, replication will occur automatically.
+<span> </span>
 
-Who can run this cmdlet: By default, members of the following groups are authorized to run the **Export-CsConfiguration** cmdlet locally: RTCUniversalServerAdmins. To return a list of all RBAC roles, this cmdlet is assigned to (including any custom RBAC roles that you have created yourself), run the following command from the Windows PowerShell prompt:
+_**Dernière modification de la rubrique:** 2014-05-15_
+
+Les priorités de votre entreprise doivent conduire à la spécification des exigences de sauvegarde et de restauration pour votre organisation. La sauvegarde des serveurs et des données est la première ligne de défense de la planification d’un sinistre.
+
+Les ordinateurs qui exécutent les services ou rôles serveur Lync Server 2013 doivent avoir une copie de la topologie actuelle, des paramètres de configuration actuels et des stratégies actuelles pour pouvoir fonctionner dans leur rôle désigné. Lync Server est tenu de s’assurer que ces informations sont transmises à chaque ordinateur qui en a besoin.
+
+Les applets **de suivi Export-CsConfiguration** et **Import-CsConfiguration** sont utilisés pour sauvegarder et restaurer votre topologie de serveur Lync, vos paramètres de configuration et vos stratégies lors d’une mise à niveau centralisée du magasin. Les applets **de passe Export-CsConfiguration** vous permettent d’exporter des données vers un. Fichier ZIP. Vous pouvez ensuite utiliser l’applet de cmdlet **Import-CsConfiguration** pour la lire. ZIP et restaurez la topologie, les paramètres de configuration et les stratégies dans le centre de gestion central. Après cela, les services de réplication de Lync Server répliquent les informations restaurées sur d’autres ordinateurs exécutant des services serveur Lync.
+
+La possibilité d’exporter et d’importer des données de configuration est également utilisée lors de la configuration initiale d’ordinateurs situés dans votre réseau de périmètre (par exemple, serveurs de périphérie). Lorsque vous configurez un ordinateur dans le réseau de périmètre, vous devez d’abord effectuer une réplication manuelle à l’aide des applets de commande CsConfiguration: vous devez exporter les données de configuration en utilisant **Export-CsConfiguration** , puis copier le. ZIP vers l’ordinateur dans le réseau de périmètre. Après cela, vous pouvez utiliser **Import-CsConfiguration** et le paramètre LocalStore pour importer les données. Vous ne devez effectuer cette opération qu’une seule fois. Après cela, la réplication sera exécutée automatiquement.
+
+Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande **Export-CsConfiguration** localement: RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles RBAC, cette applet de commande est affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-All SQL 2012 Back End databases should be backed up as per [SQL best practices](https://go.microsoft.com/fwlink/p/?linkid=290716).
+Toutes les bases de données principales SQL 2012 doivent être sauvegardées conformément aux [meilleures pratiques SQL](http://go.microsoft.com/fwlink/p/?linkid=290716).
 
-Regular testing of the Disaster Recovery Plan for your Lync Server 2013 infrastructure should be performed in a lab environment that mimics the production environment as closely as possible. Refer to the Monthly Tasks for more information about Disaster Recovery Testing.
+Le test régulier du plan de reprise après sinistre pour votre infrastructure Lync Server 2013 doit être effectué dans un environnement de laboratoire qui imite l’environnement de production aussi fidèlement que possible. Pour plus d’informations sur les tests de récupération d’urgence, reportez-vous aux tâches mensuelles.
 
-Note that the backup frequency can be adjusted, based on your Restore Point and Recovery Point objectives. As a best practice, take regular, periodic snapshots throughout the day. Generally, you should perform full backups every 24 hours.
+Notez que la fréquence de sauvegarde peut être ajustée en fonction de vos objectifs en matière de points de restauration et de points de récupération. Nous vous conseillons de prendre des instantanés périodiques et périodiques tout au long de la journée. En règle générale, vous devez effectuer des sauvegardes complètes toutes les 24 heures.
 
-## Voir aussi
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[Import-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsConfiguration)  
-[Export-CsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsConfiguration)  
-[SQL best practices](https://go.microsoft.com/fwlink/p/?linkid=290716)
+
+[Importation-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
+[Meilleures pratiques SQL](http://go.microsoft.com/fwlink/p/?linkid=290716)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

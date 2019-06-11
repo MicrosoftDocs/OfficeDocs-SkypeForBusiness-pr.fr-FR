@@ -1,213 +1,313 @@
-﻿---
-title: 'Lync Server 2013 : Configuration des certificats pour l’interface Edge externe'
-TOCTitle: Configuration des certificats pour l’interface Edge externe
-ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398409(v=OCS.15)
-ms:contentKeyID: 49297344
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Configuration des certificats pour l’interface Edge externe'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set up certificates for the external edge interface
+ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
+ms:contentKeyID: 48184287
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b2cb33a91d6609f9109e6416f5688d1b2ddfb9ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822117"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des certificats pour l’interface Edge externe pour Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Configuration des certificats pour l’interface Edge externe pour Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-08_
+
+<div>
+
 
 > [!IMPORTANT]  
-> Lorsque vous exécutez l’Assistant Certificat, assurez-vous d’être connecté à l’aide d’un compte membre d’un groupe auquel ont été affectées les autorisations appropriées pour le type de modèle de certificat que vous utiliserez. Par défaut, une demande de certificat Lync Server utilise le modèle de certificat Serveur web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat utilisant ce modèle, vérifiez que les autorisations Inscrire requises pour utiliser ce modèle ont été affectées au groupe.
+> Lorsque vous exécutez l’Assistant certificat, assurez-vous que vous êtes connecté à l’aide d’un compte associé à un compte qui dispose des autorisations appropriées pour le type de modèle de certificat que vous utilisez. Par défaut, une demande de certificat du serveur Lync utilise le modèle de certificat de serveur Web. Si vous utilisez un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat à l’aide de ce modèle, vérifiez que le groupe a été affecté aux autorisations d’inscription requises pour utiliser ce modèle.
 
-Chaque serveur Edge requiert un certificat public sur l’interface entre le réseau de périmètre et Internet, et l’autre nom de sujet du certificat doit contenir les noms externes du service Edge d’accès et les noms de domaine complets (FQDN) du service Edge de conférence web.
 
-Pour plus d’informations à ce sujet et sur les certificats requis, reportez-vous à [Certificats requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Pour obtenir la liste des autorités de certification (CA) publiques fournissant des certificats conformes à certaines exigences pour les certificats de communications unifiées et ayant mis en place un partenariat avec Microsoft pour garantir leur fonctionnement avec l’Assistant Certificat Lync Server 2013, reportez-vous à l’article 929395 de la base de connaissances Microsoft, « Partenaires de certificat de communications unifiées pour Exchange Server et Communications Server », à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).
+</div>
 
-## Configuration des certificats sur les interfaces externes
+Chaque serveur Edge nécessite un certificat public sur l’interface entre le réseau de périmètre et Internet, et le nom de l’autre sujet du certificat doit contenir les noms externes du service Edge d’accès et du service Edge de conférence Web entièrement noms de domaine qualifiés (FQDN).
 
-Pour configurer un certificat sur l’interface Edge externe d’un site, suivez les procédures décrites dans cette section afin d’effectuer les opérations suivantes :
+Pour plus d’informations sur ce problème et sur les autres exigences relatives aux certificats, voir [exigences relatives aux certificats pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-  - Créer la demande de certificat pour l’interface externe du serveur Edge.
+Pour obtenir une liste des autorités de certification publiques qui fournissent des certificats qui répondent à des exigences spécifiques pour les certificats de communications unifiées et qui ont été associés à Microsoft pour s’assurer qu’ils fonctionnent avec l’Assistant certificat de Lync Server 2013, voir Article 929395 de la base de connaissances Microsoft, «partenaires de certification de communications unifiées pour Exchange Server et [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)pour Communications Server» au.
 
-  - Envoyer la demande à votre autorité de certification publique.
+<div>
 
-  - Importer le certificat pour l’interface externe de chaque serveur Edge.
+## <a name="configuring-certificates-on-the-external-interfaces"></a>Configuration de certificats sur les interfaces externes
 
-  - Affecter le certificat pour l’interface externe de chaque serveur Edge.
+Pour configurer un certificat sur l’interface latérale externe sur un site, suivez les procédures décrites dans cette section pour effectuer les opérations suivantes:
 
-  - Si votre déploiement comporte plusieurs serveurs Edge, exportez le certificat avec sa clé privée, puis copiez-le sur les autres serveurs Edge. Ensuite, pour chaque serveur Edge, importez-le et affectez-le comme indiqué précédemment. Répétez cette procédure sur chaque serveur Edge.
+  - Créez une demande de certificat pour l’interface externe du serveur Edge.
 
-Vous pouvez demander des certificats publics directement à une autorité de certification publique (par exemple, à partir de son site web). Les procédures décrites dans cette section utilisent l’Assistant Certificat pour la plupart des tâches relatives aux certificats. Si vous choisissez de demander un certificat directement à une autorité de certification publique, vous devrez modifier chaque procédure pour demander, transférer et importer le certificat, mais aussi pour importer la chaîne de certificats.
+  - Envoyez la demande à votre autorité de certification publique.
 
-Lorsque vous demandez un certificat à une autorité de certification externe, les informations d’identification fournies doivent englober les droits de demande d’un certificat à cette autorité de certification. Chaque autorité de certification a une stratégie de sécurité qui spécifie les informations d’identification (à sareportez-vous à l’utilisateur spécifique et les noms de groupe) autorisées à demander, émettre, gérer ou lire des certificats.
+  - Importez le certificat pour l’interface externe de chaque serveur Edge.
 
-Si vous décidez d’utiliser la console MMC (Microsoft Management Console) des certificats pour importer la chaîne de certificats et le certificat, vous devez les importer dans le magasin de certificats de l’ordinateur. Si vous les importez dans le magasin de certificats de l’utilisateur ou du service, le certificat ne pourra pas être affecté via l’Assistant Certificat Lync Server 2013.
+  - Attribuez le certificat pour l’interface externe de chaque serveur Edge.
 
-## Pour créer la demande de certificat pour l’interface externe du serveur Edge
+  - Si votre déploiement inclut plusieurs serveurs Edge, exportez le certificat en même temps que sa clé privée, puis copiez-le sur l’autre serveur Edge. Ensuite, pour chaque serveur Edge, importez-le et attribuez-le comme décrit précédemment. Répétez cette procédure pour chaque serveur Edge.
 
-1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de **Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
+Vous pouvez demander des certificats publics directement auprès d’une autorité de certification (CA) publique (par exemple, à partir du site Web d’une autorité de certification publique). Les procédures décrites dans cette section utilisent l’Assistant Certificat pour la plupart des tâches de certificat. Si vous avez choisi de demander un certificat directement auprès d’une autorité de certification publique, vous devez modifier chaque procédure en fonction de la demande, du transport et de l’importation du certificat, ainsi que de l’importation de la chaîne de certificats.
+
+Lorsque vous demandez un certificat auprès d’une autorité de certification externe, les informations d’identification fournies doivent disposer de droits de demande de certificat de cette autorité de certification. Chaque autorité de certification dispose d’une stratégie de sécurité qui définit les informations d’identification (c’est-à-dire, les noms d’utilisateurs et de groupes spécifiques) autorisées à demander, émettre, gérer ou lire des certificats.
+
+Si vous décidez d’utiliser la console MMC (Microsoft Management Console) pour importer des certificats, vous devez les importer dans le magasin de certificats de l’ordinateur. Si vous les importez dans le magasin de certificats d’utilisateur ou de service, le certificat ne sera pas disponible pour attribution dans l’Assistant certificat de Lync Server 2013.
+
+<div>
+
+## <a name="to-create-the-certificate-request-for-the-external-interface-of-the-edge-server"></a>Pour créer une demande de certificat pour l’interface externe du serveur de périphérie
+
+1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si votre organisation souhaite prendre en charge la solution PIC avec AOL, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour demander le certificat. Vous devez effectuer les procédures décrites à la section « Pour créer une demande de certificat pour l’interface externe du serveur Edge afin de prendre en charge la solution PIC avec AOL » dans la suite de cette rubrique.<br />
-    Si plusieurs serveurs Edge se trouvent au même emplacement dans un pool, vous pouvez exécuter l’Assistant Certificat Lync Server 2013 sur n’importe lequel d’entre eux.
+    > Si votre organisation veut prendre en charge la connectivité de messagerie instantanée publique avec AOL, vous ne pouvez pas utiliser l’Assistant Déploiement de Lync Server pour demander le certificat. À la place, suivez les étapes décrites dans la section «pour créer une demande de certificat pour l’interface externe du serveur Edge pour la prise en charge de la connectivité de messagerie instantanée publique avec AOL», plus loin dans cette rubrique.<BR>Si vous disposez de plusieurs serveurs Edge à un emplacement dans un pool, vous pouvez exécuter l’Assistant Certificat Lync Server 2013 sur l’un des serveurs Edge.
 
-2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Créer une demande de certificat** .
-
-3.  Dans la page **Demande de certificat** , cliquez sur **Certificat de serveur Edge externe** .
-
-4.  Dans la page **Demande différée ou immédiate** , cochez la case **Préparer la demande maintenant, mais l’envoyer plus tard** .
-
-5.  Dans la page **Fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple, c:\\cert\_exernal\_edge.cer).
-
-6.  Dans la page **Spécifier un autre modèle de certificat** , pour utiliser un autre modèle que le modèle WebServer par défaut, cochez la case **Utiliser un autre modèle de certificat pour l’autorité de certification sélectionnée** .
-
-7.  Dans la page **Nom et paramètres de sécurité** , procédez comme suit :
     
-      - Dans **Nom convivial** , tapez un nom d’affichage du certificat.
+    </div>
+
+2.  Dans la page **Tâches se rapportant aux certificats disponibles**, cliquez sur **Créer une demande de certificat**.
+
+3.  Dans la page **demande de certificat** , cliquez sur certificat de **bord externe**.
+
+4.  Dans la page de **demande retardée ou immédiate** , activez la case à cocher **préparer la demande maintenant, puis l’envoyer plus tard** .
+
+5.  Dans la **page fichier de demande de certificat** , tapez le chemin d’accès complet et le nom du fichier dans lequel la demande doit être enregistrée (par exemple,\\c\_:\_CERT l’Edge. cer).
+
+6.  Dans la page **spécifier un modèle de certificat secondaire** , pour utiliser un modèle autre que le modèle par défaut du serveur Web, activez la case à cocher utiliser un autre **modèle de certificat pour l’autorité de certification sélectionnée** .
+
+7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit:
     
-      - Dans **Longueur en bits** , spécifiez la longueur en bits (généralement, la valeur par défaut est **2048** ).
+      - Dans **nom convivial**, tapez un nom d’affichage pour le certificat.
     
-      - Vérifiez que la case **Marquer la clé privée du certificat comme exportable** est cochée.
-
-8.  Dans la page **Informations relatives à l’organisation** , tapez le nom de l’organisation et de l’unité d’organisation (par exemple, une division ou un service).
-
-9.  Dans la page **Informations géographiques** , spécifiez les informations d’emplacement.
-
-10. Dans la page **Nom du sujet/Autres noms du sujet** , le système affiche les informations automatiquement renseignées par l’Assistant. Si d’autres noms du sujet doivent être ajoutés, spécifiez-les dans les deux étapes suivantes.
-
-11. Dans la page **Paramètre du domaine SIP sur les autres noms du sujet** , activez la case à cocher du domaine pour ajouter une entrée sip. *\<sipdomain\>* (domaine SIP) à la liste des autres noms du sujet.
-
-12. Dans la page **Configurer d’autres noms du sujet supplémentaires** , spécifiez les autres noms du sujet supplémentaires nécessaires.
-
-13. Dans la page **Résumé de la demande** , vérifiez les informations de certificat à utiliser pour générer la demande.
-
-14. Une fois que l’exécution des commandes est terminée, procédez comme suit :
+      - En **longueur**, spécifiez la longueur en bits (en général, la valeur par défaut **2048**).
     
-      - Pour afficher le fichier journal de la demande de certificat, cliquez sur **Afficher le journal** .
+      - Vérifiez que la case à cocher **marquer le certificat en tant que clé publique en tant qu’export** est activée.
+
+8.  Dans la page informations sur l' **organisation** , tapez le nom de l’organisation et l’unité d’organisation (par exemple, une division ou un service).
+
+9.  Dans la page **informations géographiques** , spécifiez les informations d’emplacement.
+
+10. Sur la page nom de l’objet **/nom** de l’objet, les informations à remplir automatiquement par l’Assistant sont affichées. Si d’autres noms d’objet sont nécessaires, vous pouvez les spécifier au cours des deux étapes suivantes.
+
+11. Dans la page Configuration du protocole **SIP sur le nom de l’objet** , activez la case à cocher Domain pour ajouter un SIP. \<entrée\> sipdomain dans la liste noms de remplacement de l’objet.
+
+12. Dans la page configurez d’autres **noms d’objet** , spécifiez d’autres noms d’objet obligatoires.
+
+13. Dans la page Résumé de la **demande** , passez en revue les informations de certificat à utiliser pour générer la requête.
+
+14. À la fin de l’exécution de la commande, procédez comme suit:
     
-      - Pour terminer la demande de certificat, cliquez sur **Suivant** .
-
-15. Dans la page **Fichier de demande de certificat** , procédez comme suit :
+      - Pour afficher le journal de la demande de certificat, cliquez sur **afficher le journal**.
     
-      - Pour afficher le fichier de demande de signature de certificat (CSR) généré, cliquez sur **Afficher** .
+      - Pour remplir la demande de certificat, cliquez sur **suivant**.
+
+15. Dans la page **fichier de demande de certificat** , procédez comme suit:
     
-      - Pour fermer l’Assistant, cliquez sur **Terminer** .
+      - Pour afficher le fichier de demande de signature de certificat généré (CSR), cliquez sur **Afficher**.
+    
+      - Pour fermer l’Assistant, cliquez sur **Terminer**.
 
-16. Copiez le fichier de sortie à un emplacement à partir duquel vous pouvez l’envoyer à l’autorité de certification publique.
+16. Copiez le fichier de sortie à un emplacement dans lequel vous pouvez le renvoyer à l’autorité de certification publique.
 
-## Pour créer une demande de certificat pour l’interface externe du serveur Edge afin de prendre en charge la connectivité PIC avec AOL
+</div>
 
-1.  Lorsque le modèle requis est à la disposition de l’autorité de certification, utilisez l’applet de commande Windows PowerShell suivante depuis le serveur Edge pour demander le certificat :
+<div>
+
+## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>Pour créer une demande de certificat pour l’interface externe du serveur de périphérie pour la prise en charge de la connectivité de messagerie instantanée publique avec AOL
+
+1.  Lorsque le modèle requis est disponible pour l’autorité de certification, utilisez la cmdlet Windows PowerShell suivante à partir du serveur de périphérie pour demander le certificat:
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Le nom de certificat par défaut du modèle fourni dans Lync Server 2013 est Serveur web. Spécifiez uniquement *\<template name\>* (nom du modèle) si vous devez utiliser un modèle différent du modèle par défaut.
+    Le nom du certificat par défaut du modèle fourni dans Lync Server 2013 est serveur Web. Spécifiez le \<nom\> du modèle uniquement si vous devez utiliser un modèle différent du modèle par défaut.
     
-    > [!NOTE]  
-    > Si votre organisation souhaite prendre en charge la solution PIC avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat afin de demander le certificat à affecter au serveur Edge externe pour le service Edge d’accès. Cela est dû au fait que le modèle Serveur web Lync Server 2013 utilisé par l’Assistant Certificat pour demander un certificat ne prend pas en charge la configuration EKU (utilisation avancée de la clé) sur le client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’EKU sur le client.
+    <div>
+    
 
-## Pour envoyer une demande à une autorité de certification publique
+    > [!NOTE]  
+    > Si votre organisation veut prendre en charge une connectivité de messagerie instantanée publique avec AOL, vous devez utiliser Windows PowerShell au lieu de l’Assistant Certificat pour demander que le certificat soit affecté au bord externe du service Edge d’accès. Ce problème est dû au fait que le modèle de serveur Web 2013 à l’aide de l’Assistant Création de certificat ne prend pas en charge la configuration EKU du client. Avant d’utiliser Windows PowerShell pour créer le certificat, l’administrateur de l’autorité de certification doit créer et déployer un nouveau modèle qui prend en charge l’utilisation améliorée de l’utilisation du client.
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-submit-a-request-to-a-public-certification-authority"></a>Pour renvoyer une demande auprès d’une autorité de certification publique
 
 1.  Ouvrez le fichier de sortie.
 
 2.  Copiez et collez le contenu de la demande de signature de certificat (CSR).
 
-3.  Si vous y êtes invité, spécifiez les éléments suivants :
+3.  Si vous y êtes invité, spécifiez les éléments suivants:
     
       - **Microsoft** en tant que plateforme serveur.
     
-      - **Services Internet (IIS)** en tant que version
+      - **IIS** en tant que version.
     
-      - **Serveur web** en tant que type d’utilisation.
+      - **Serveur Web** comme type d’utilisation.
     
-      - **PKCS7** en tant que format de réponse.
+      - **PKCS7** en tant que format de la réponse.
 
-4.  Une fois que l’autorité de certification publique a vérifié vos informations, vous recevez un message électronique contenant le texte requis pour votre certificat.
+4.  Lorsque l’AC publique a vérifié vos informations, vous recevez un message électronique contenant un texte requis pour votre certificat.
 
-5.  Copiez le texte du message électronique et enregistrez-le dans un fichier texte (.txt) sur votre ordinateur local.
+5.  Copiez le texte du message électronique et enregistrez le contenu dans un fichier texte (. txt) sur votre ordinateur local.
 
-## Pour importer le certificat destiné à l’interface externe du serveur Edge
+</div>
 
-1.  Ouvrez une session en tant que membre du groupe Administrateurs sur le serveur Edge où vous avez créé la demande de certificat.
+<div>
 
-2.  Dans l’Assistant Déploiement, dans la page **Déployer un serveur Edge** , en regard de l’**Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
+## <a name="to-import-the-certificate-for-the-external-interface-of-the-edge-server"></a>Pour importer le certificat pour l’interface externe du serveur de périphérie
 
-3.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Importer un certificat à partir d’un fichier .p7b, pfx ou .cer** .
+1.  Ouvrez une session en tant que membre du groupe Administrateurs sur le serveur Edge sur lequel vous avez créé la demande de certificat.
 
-4.  Dans la page **Importer un certificat** , cliquez sur **Parcourir** pour rechercher et sélectionner le certificat que vous avez demandé pour l’interface externe du serveur Edge (ou tapez le chemin complet et le nom du fichier). Si le certificat comprend une clé privée, sélectionnez **Le fichier du certificat contient la clé privée du certificat** et tapez le mot de passe de la clé privée. Cliquez sur **Suivant** .
+2.  Dans l’Assistant Déploiement, dans la page **déploiement du serveur Edge** , en regard de l' **étape 3: demander, installer ou affecter des certificats**, cliquez de nouveau sur **exécuter**.
 
-5.  Dans la page **Importer le résumé du certificat** , passez en revue le certificat, puis cliquez sur **Suivant** .
+3.  Dans la page **tâches de certification disponibles** , cliquez sur **Importer un certificat à partir d’un fichier. p7b, pfx ou. cer**.
 
-6.  Dans **Exécution des commandes** , passez en revue les résultats de l’importation, cliquez sur **Afficher le journal** pour obtenir plus d’informations si nécessaire, puis cliquez sur **Terminer** pour terminer l’importation du certificat.
+4.  Sur la page **importer le certificat** , cliquez sur **Parcourir** pour rechercher et sélectionner le certificat que vous avez demandé pour l’interface externe du serveur Edge (ou bien tapez le chemin d’accès complet et le nom du fichier). Si le certificat contient une clé privée, sélectionnez le **fichier de certificat contient la clé privée du certificat** et tapez le mot de passe de la clé privée. Cliquez sur **Suivant**.
 
-7.  Si vous configurez un pool de serveurs Edge, exportez le certificat avec sa clé privée, comme décrit à la section « Pour exporter le certificat avec la clé privée pour les serveurs Edge d’un pool » plus loin dans cet article. Copiez le certificat exporté sur les autres serveurs Edge, puis importez-le dans le magasin de l’ordinateur de chaque serveur Edge.
+5.  Sur la page **importer le résumé du certificat** , examinez le résumé, puis cliquez sur **suivant**.
 
-## Pour exporter le certificat avec la clé privée pour les serveurs Edge d’un pool
+6.  Sur l' **exécution des commandes**, examinez les résultats de l’importation, puis cliquez sur Afficher le journal pour **Afficher** d’autres informations si nécessaire, puis cliquez sur **Terminer** pour achever l’importation du certificat.
 
-1.  Ouvrez une session en tant que membre du groupe Administrateurs sur le serveur Edge sur lequel vous avez importé le certificat.
+7.  Si vous configurez un pool de serveurs Edge, exportez le certificat avec sa clé privée, comme indiqué dans la procédure «pour exporter le certificat avec la clé privée pour les serveurs Edge dans une liste» plus loin dans cette rubrique. Copiez le fichier de certificat exporté vers les autres serveurs Edge, puis importez-le dans le magasin d’ordinateur sur chaque serveur Edge.
 
-2.  Cliquez sur **Démarrer** , sur **Exécuter** , puis tapez **MMC** .
+</div>
 
-3.  Dans la console MMC (Microsoft Management Console), cliquez sur **Fichier** , puis sur **Ajouter/supprimer un composant logiciel enfichable** .
+<div>
 
-4.  Dans **Ajouter ou supprimer des composants logiciels enfichables** , cliquez sur **Certificats** , puis sur **Ajouter** .
+## <a name="to-export-the-certificate-with-the-private-key-for-edge-servers-in-a-pool"></a>Pour exporter le certificat avec la clé privée pour les serveurs Edge dans un pool
 
-5.  Dans la boîte de dialogue **Certificats** , sélectionnez **Compte d’ordinateur** , cliquez sur **Suivant** , sélectionnez **L’ordinateur local (l’ordinateur sur lequel cette console s’exécute)** dans **Sélectionner l’ordinateur** , cliquez sur **Terminer** , puis enfin sur **OK** pour terminer la configuration de la console MMC (Microsoft Management Console).
+1.  Ouvrez une session en tant que membre du groupe Administrateurs sur le serveur Edge sur lequel vous avez importé le certificat.
 
-6.  Double-cliquez sur **Certificats (ordinateur local)** pour développer les magasins de certificats, double-cliquez sur **Personnel** , puis sur **Certificats** .
+2.  Cliquez sur **Démarrer**, sur **exécuter**, puis tapez **MMC**.
+
+3.  Dans la console Microsoft Management Console (MMC), cliquez sur **fichier**, puis sur **Ajouter/supprimer un composant logiciel enfichable**.
+
+4.  Dans **Ajouter ou supprimer des composants logiciels enfichables**, cliquez sur **certificats**, puis cliquez sur **Ajouter**.
+
+5.  Dans la boîte de dialogue **certificats** , sélectionnez **compte d’ordinateur**, cliquez sur **suivant**, sélectionnez **ordinateur local: (l’ordinateur sur lequel cette console s’exécute)** dans **Sélectionner un ordinateur**, cliquez sur **Terminer** , puis sur **OK** pour configuration complète de la console MMC.
+
+6.  Double-cliquez sur **certificats (ordinateur local)** pour développer les magasins de certificats, double-cliquez sur **personnel**, puis double-cliquez sur **certificats**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Si aucun certificat ne se trouve dans le magasin personnel de certificats de l’ordinateur local, aucune clé privée n’est associée au certificat importé. Vérifiez la demande et la procédure d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur d’autorités de certification.
+    > S’il n’y a aucun certificat dans le magasin personnel de certificats de l’ordinateur local, il n’existe aucune clé privée associée au certificat importé. Passez en revue les étapes de demande et d’importation. Si le problème persiste, contactez votre administrateur ou fournisseur de l’autorité de certification.
 
-7.  Dans **Magasin personnel de certificats pour l’ordinateur local** , cliquez avec le bouton droit sur le certificat que vous exportez, cliquez sur **Toutes les tâches** , puis sur **Exporter** .
-
-8.  Dans l’Assistant Exportation du certificat, cliquez sur **Suivant** , sélectionnez **Oui, exporter la clé privée** , puis cliquez sur **Suivant** .
     
+    </div>
+
+7.  Dans le **magasin personnel de certificats de l’ordinateur local**, cliquez avec le bouton droit sur le certificat que vous exportez, cliquez sur **toutes les tâches**, puis cliquez sur **Exporter**.
+
+8.  Dans l’Assistant exportation de certificat, cliquez sur **suivant**, sélectionnez **Oui, exportez la clé privée**, puis cliquez sur **suivant**.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Si la sélection <strong>Oui, exporter la clé privée</strong> n’est pas disponible, cela signifie que la clé privée associée au certificat n’était pas marquée pour l’exportation. Pour pouvoir poursuivre l’exportation, vous devrez faire une nouvelle demande de certificat en vous assurant que le certificat est marqué de façon à autoriser l’exportation de la clé privée. Contactez votre administrateur ou fournisseur d’autorités de certification.
+    > Si la sélection est <STRONG>Oui, exporter la clé privée</STRONG> n’est pas disponible, la clé privée associée à ce certificat n’est pas marquée pour l’exportation. Vous devez demander à nouveau le certificat, en veillant à ce que le certificat soit marqué pour autoriser l’exportation de la clé privée avant de poursuivre l’exportation. Contactez votre administrateur ou fournisseur de l’autorité de certification.
 
-9.  Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez **Échange d’informations personnelles – PKCS\#12 (.PFX)** , puis les éléments suivants :
     
-      - Inclure tous les certificats dans le chemin d’accès de certification, si possible
+    </div>
+
+9.  Dans la boîte de dialogue Exporter les formats de fichier, sélectionnez **échange\#d’informations personnelles – PKCS 12 (. PFX)** , puis sélectionnez les options suivantes:
+    
+      - Incluez tous les certificats dans le chemin de certification, le cas échéant.
     
       - Exporter toutes les propriétés étendues
         
+        <div>
+        
+
         > [!WARNING]  
-        > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <strong>Supprimer la clé privée si l’exportation s’est terminée correctement</strong> . Si vous sélectionnez cette option, vous serez obligé d’importer le certificat et la clé privée sur ce serveur Edge.
+        > Lorsque vous exportez le certificat à partir d’un serveur Edge, ne sélectionnez pas <STRONG>Supprimer la clé privée si l’exportation est réussie</STRONG>. La sélection de cette option nécessite l’importation du certificat et de la clé privée vers ce serveur Edge.
 
-10. Cliquez sur **Suivant** .
+        
+        </div>
 
-11. Tapez un mot de passe pour la clé privée, tapez-le à nouveau pour confirmer votre entrée, puis cliquez sur **Suivant** .
+10. Cliquez sur **Suivant**.
 
-12. Tapez un chemin d’accès et un nom de fichier avec l’extension .pfx pour le certificat exporté. Le chemin d’accès doit être accessible à tous les autres serveurs Edge du pool ou transportable au moyen d’un média amovible, comme par exemple, un disque mémoire flash USB. Cliquez sur **Suivant** .
+11. Tapez un mot de passe pour la clé privée, tapez à nouveau le mot de passe pour le confirmer, puis cliquez sur **suivant**.
 
-13. Passez en revue le résumé dans **Fin de l’Assistant Exportation du certificat** , puis cliquez sur **Terminer** .
+12. Tapez un chemin d’accès et un nom de fichier avec l’extension .pfx pour le certificat exporté. Le chemin d’accès doit être accessible à tous les autres serveurs de périphérie du pool ou disponible pour le transport par le biais de médias amovibles (par exemple, un lecteur flash USB). Cliquez sur **Suivant**.
 
-14. Dans la boîte de dialogue confirmant le succès de l’exportation, cliquez sur **OK**
+13. Passez en revue le résumé pour **terminer l’Assistant exportation de certificat**, puis cliquez sur **Terminer**.
 
-15. Importez le fichier de certificat exporté vers les autres serveurs Edge en suivant les étapes décrites à la section « Pour importer le certificat destiné à l’interface externe du serveur Edge » plus haut dans cet article.
+14. Dans la boîte de dialogue exportation réussie, cliquez sur **OK**.
 
-## Pour affecter le certificat destiné à l’interface externe du serveur Edge
+15. Importez le fichier de certificat exporté vers les autres serveurs de périmètre en suivant les étapes décrites dans la procédure «importer le certificat pour l’interface externe de la section serveur Edge» plus haut dans cette rubrique.
 
-1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, à l’**Étape 3 : Demander, installer ou affecter les certificats** , cliquez sur **Réexécuter** .
+</div>
 
-2.  Dans la page **Tâches se rapportant aux certificats disponibles** , cliquez sur **Affecter un certificat existant** .
+<div>
 
-3.  Dans la page **Affectation du certificat** , cliquez sur **Certificat de serveur Edge externe** et activez la case à cocher **Utilisations de certificat avancées** .
+## <a name="to-assign-the-certificate-for-the-external-interface-of-the-edge-server"></a>Pour attribuer le certificat pour l’interface externe du serveur de périphérie
 
-4.  Dans la page **Utilisations de certificat avancées** , activez toutes les cases à cocher afin d’affecter le certificat pour toutes les utilisations.
+1.  Sur chaque serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
 
-5.  Dans la page **Magasin de certificats** , sélectionnez le certificat public que vous avez demandé et importé pour l’interface externe du serveur Edge.
+2.  Dans la page **tâches de certification disponibles** , cliquez sur **attribuer un certificat existant**.
+
+3.  Dans la page **affectation de certificat** , cliquez sur certificat de **périphérie externe** , puis activez la case à cocher **Utilisation avancée des certificats** .
+
+4.  Sur la page **Utilisation avancée du certificat** , activez toutes les cases à cocher pour affecter le certificat à toutes les utilisations.
+
+5.  Dans la page **magasin de certificats** , sélectionnez le certificat public que vous avez demandé et importé pour l’interface externe du serveur Edge.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Si le certificat que vous avez demandé et importé ne se trouve pas dans la liste, l’une des méthodes d’identification et de résolution des problèmes consiste à vérifier que le nom du sujet et les autres noms du sujet du certificat respectent toutes les conditions requises pour le certificat et, si vous avez importé manuellement le certificat et la chaîne de certificats au lieu d’appliquer les procédures précédentes, contrôlez que le certificat se trouve dans le magasin de certificats correct (le magasin de certificats de l’ordinateur, et non le magasin de certificats de l’utilisateur ou du service).
+    > Si le certificat que vous avez demandé et importé ne figure pas dans la liste, l’une des méthodes de tournage peut consister à vérifier que le nom de l’objet et le nom de l’objet du certificat répondent à toutes les conditions requises pour le certificat et, si vous avez importé manuellement le certificat et chaîne de certificats au lieu d’utiliser les procédures précédentes, que le certificat se trouve dans le magasin de certificats approprié (le magasin de certificats de l’ordinateur, et non pas le magasin de certificats d’utilisateur ou de service).
 
-6.  Dans la page **Résumé de l’affectation du certificat** , vérifiez vos paramètres, puis cliquez sur **Suivant** pour affecter les certificats.
+    
+    </div>
 
-7.  Dans la page de fin de l’Assistant, cliquez sur **Terminer** .
+6.  Dans la page Résumé des affectations de **certificat** , passez en revue vos paramètres, puis cliquez sur **suivant** pour attribuer les certificats.
 
-8.  Après avoir utilisé cette procédure pour affecter le certificat Edge, ouvrez le composant logiciel enfichable Certificats sur chaque serveur, développez **Certificats (ordinateur local)** , développez **Personnel** , cliquez sur **Certificats** , puis vérifiez dans le volet d’informations que le certificat figure bien dans la liste.
+7.  Dans la page de fin de l’Assistant, cliquez sur **Terminer**.
 
-9.  Si votre déploiement inclut plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.
+8.  Lorsque vous utilisez cette procédure pour attribuer le certificat de bord, ouvrez le composant logiciel enfichable Certificats sur chaque serveur, développez **certificats (ordinateur local)**, **personnel**, cliquez sur **certificats**, puis vérifiez dans le volet d’informations que l’option le certificat est répertorié.
+
+9.  Si votre déploiement inclut plusieurs serveurs Edge, répétez cette procédure pour chaque serveur Edge.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

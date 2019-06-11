@@ -1,19 +1,49 @@
-﻿---
-title: "Lync Server 2013 : Surv., démarrage et arrêt des services de conv. permanente"
-TOCTitle: Surveillance, démarrage et arrêt des services de conversation permanente
-ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398105(v=OCS.15)
-ms:contentKeyID: 49296122
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Surveillance, démarrage et arrêt des services de conversation permanente
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring, starting, and stopping the Persistent Chat services
+ms:assetid: 05761d02-e7b5-494e-a58f-f3d213483035
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398105(v=OCS.15)
+ms:contentKeyID: 48183291
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0e84900789a27295087791d8d3e8fa9d8bd0bbec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826590"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Surveillance, démarrage et arrêt des services de conversation permanente dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-06_
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>Surveillance, démarrage et arrêt des services de conversation permanente dans Lync Server 2013
 
-Les services de conversation permanente et les services de conformité de conversation permanente font partie de la topologie Lync Server 2013. Il est donc possible de les surveiller, les arrêter et les démarrer à l’aide des applets de commande de Windows PowerShell, soit **get-CsWindowsService**, **stop-CsWindowsService** et **start-CsWindowsService** respectivement.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-06_
+
+Les services de chat permanent et de conformité des conversations permanent font partie de la topologie Lync Server 2013 et peuvent donc être surveillés, arrêtés et démarrés à l’aide des applets de contrôle Windows PowerShell, **Get-CsWindowsService**, ** Stop-CsWindowsService**et **Démarrez-CsWindowsService**, respectivement.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

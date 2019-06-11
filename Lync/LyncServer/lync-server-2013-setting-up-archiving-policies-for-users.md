@@ -1,31 +1,71 @@
-﻿---
-title: Configuration des stratégies d’archivage pour les utilisateurs
-TOCTitle: Configuration des stratégies d’archivage pour les utilisateurs
-ms:assetid: 1bbb45df-0590-4c66-9d65-d25526f57790
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ204722(v=OCS.15)
-ms:contentKeyID: 49296413
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuration des stratégies d’archivage pour les utilisateurs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Archiving policies for users
+ms:assetid: 1bbb45df-0590-4c66-9d65-d25526f57790
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204722(v=OCS.15)
+ms:contentKeyID: 48183549
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 55a56ff5c44d10d112762bb06662e9266dbc270b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821865"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration des stratégies d’archivage pour les utilisateurs
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-10-09_
+# <a name="setting-up-archiving-policies-for-users-in-lync-server-2013"></a>Configuration de stratégies d’archivage pour les utilisateurs dans Lync Server 2013
 
-Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiques en créant et en configurant une stratégie d’archivage pour les utilisateurs, puis en appliquant la stratégie à des utilisateurs spécifiques ou à des groupes d’utilisateurs. Les stratégies utilisateur remplacent les stratégies globales ou de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou si vous utilisez l’intégration Microsoft Exchange mais que d’autres utilisateurs ne sont pas hébergés sur Exchange 2013 et que leur boîte aux lettres a été archivée de manière permanente.
+</div>
 
-Pour plus d’informations sur les stratégies d’archivage, notamment la hiérarchie des stratégies : globale, de site et utilisateur, voir [Fonctionnement de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, dans la documentation de déploiement ou dans la documentation des opérations.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-10-09_
+
+Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiques en créant et en configurant une stratégie d’archivage pour les utilisateurs, puis en appliquant cette stratégie à des utilisateurs ou groupes d’utilisateurs spécifiques. Les stratégies utilisateur remplacent les stratégies globales ou de site. Les stratégies d’archivage ne s’appliquent que si vous n’utilisez pas l’intégration de Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais que certains utilisateurs ne sont pas hébergés sur Exchange 2013 et disposent de leurs boîtes aux lettres pour la conservation inaltérable.
+
+Pour plus d’informations sur le fonctionnement des stratégies d’archivage, y compris la hiérarchie pour les stratégies globales, de site et d’utilisateur, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) Planning documentation, documentation de déploiement, ou documentation sur les opérations.
+
+<div>
+
 
 > [!NOTE]  
-> Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, des stratégies d’archive permanente Exchange contrôlent si l’archivage est activé pour les utilisateurs qui sont hébergés sur Exchange 2013 et dont les boîtes aux lettres sont placées dans une archive permanente. Pour plus d’informations, voir <a href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server</a> dans la documentation de déploiement.<br />
-Vous devez spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage des communications internes ou externes dans les stratégies d’archivage. Pour plus d’informations, voir <a href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage</a> dans la documentation de déploiement.
+> Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, les stratégies de conservation sur place permettent de contrôler si l’archivage est activé pour les utilisateurs hébergés sur Exchange 2013 et que leurs boîtes aux lettres sont placées sur place. Pour plus d’informations, reportez-vous à la rubrique <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configuration de stratégies d’archivage dans Lync server 2013 lors de l’utilisation d’une intégration Exchange Server</A> dans la documentation de déploiement.<BR>Vous devez spécifier toutes les options appropriées dans les configurations de l’archivage avant d’activer l’archivage des communications internes ou externes dans les stratégies d’archivage. Pour plus d’informations, reportez-vous à <A href="lync-server-2013-configuring-archiving-options.md">Configuration des options d’archivage dans Lync Server 2013</A> dans la documentation de déploiement.
 
-## Dans cette section
 
-  - [Configuration des stratégies d’utilisateur pour l’archivage dans Lync Server](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)
 
-  - [Configuration des stratégies pour l’archivage lors de l’utilisation de l’intégration Exchange Server](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Configuration de stratégies utilisateur pour l’archivage dans Lync Server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)
+
+  - [Configuration de stratégies d’archivage dans Lync Server 2013 lors de l’utilisation d’une intégration Exchange Server](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

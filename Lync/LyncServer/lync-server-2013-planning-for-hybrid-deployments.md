@@ -1,39 +1,69 @@
-﻿---
-title: 'Lync Server 2013 : Planification des déploiements hybrides Lync Server'
-TOCTitle: Planification des déploiements hybrides Lync Server
-ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205403(v=OCS.15)
-ms:contentKeyID: 49299394
-ms.date: 06/01/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planification des déploiements hybrides'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for hybrid deployments
+ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
+ms:contentKeyID: 48185910
+ms.date: 05/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825148"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification des déploiements hybrides Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Planification des déploiements hybrides de Lync Server 2013
 
-Lors de la planification d’un déploiement hybride, prenez en compte les éléments suivants pour votre infrastructure réseau et pour les utilisateurs.
+</div>
 
-## Conditions requises pour l’infrastructure
+<div id="mainSection">
 
-Les éléments suivants doivent être disponibles dans votre environnement afin d’implémenter et de configurer un déploiement hybride Lync Server 2013.
+<div id="mainBody">
 
-  - Un locataire Office 365 pour lequel Lync Online est activé.
+<span> </span>
 
-  - Un serveur Active Directory Federation Services (AD FS) local ou utilisant Microsoft Azure. Pour plus d’informations sur Active Directory Federation Services (AD FS), reportez-vous à [Active Directory Federation Services 2.0](http://go.microsoft.com/fwlink/p/?linkid=393795) ou [Configurer Active Directory Federation Services pour Windows Azure Pack](http://go.microsoft.com/fwlink/p/?linkid=522475).
+_**Dernière modification de la rubrique:** 2016-05-25_
 
-  - Un déploiement local de Lync Server 2013 ou Lync Server 2010 avec les mises à jour cumulatives pour Lync Server 2010 de mars 2013 ou ultérieures.
+Prenez en compte les exigences suivantes pour les utilisateurs et votre infrastructure réseau lors de la planification d’un déploiement hybride.
 
-  - Outils d’administration de Lync Server 2013.
+<div>
 
-  - Synchronisation d’annuaire. Pour plus d’informations sur la synchronisation d’annuaire, reportez-vous à [Gestion des identités hybrides](http://go.microsoft.com/fwlink/p/?linkid=231010).
+## <a name="infrastructure-requirements"></a>Exigences d’infrastructure
 
-## Prise en charge du client Lync
+Pour pouvoir implémenter et déployer un déploiement hybride, vous devez disposer des éléments suivants configurés dans votre environnement.
 
-Des différences existent dans les fonctionnalités prises en charge dans les clients Lync, ainsi que dans les fonctionnalités disponibles dans des environnements locaux et en ligne. Avant de choisir où vous voulez héberger les utilisateurs de votre organisation, vous pouvez consulter la prise en charge client pour les différentes configurations de Lync Server. Les clients suivants sont pris en charge avec Skype Entreprise Online dans un déploiement hybride Lync :
+  - Un client Microsoft Office 365 doté de Skype entreprise online. Notez que vous pouvez uniquement utiliser un seul client pour une configuration hybride avec votre déploiement local.
+
+  - Un déploiement local unique (infrastructure) de Skype entreprise Server ou de Lync Server déployé dans une topologie prise en charge. Voir la configuration requise pour la topologie.
+    
+    Pour plus d’informations sur la configuration de votre déploiement Lync Server 2013 ou Lync Server 2010 pour une application hybride, voir [configuration de déploiements hybrides Lync server 2013](lync-server-2013-configuring-hybrid-deployments.md).
+
+  - Outils d’administration de Skype entreprise Server 2015. Si vous utilisez Lync Server 2013 ou Lync Server 2010, vous pouvez utiliser les outils d’administration de Lync Server 2013.
+
+  - Pour prendre en charge l’authentification unique avec Office 365 de façon à ce que les utilisateurs puissent utiliser les mêmes informations d’identification pour se connecter à Office en local, vous pouvez utiliser les fonctionnalités de synchronisation de mot de passe d’Azure Active Directory (AAD) Connect. Vous pouvez également utiliser AD FS (Active Directory Federation Services) avec l’authentification unique pour Office 365.
+    
+    Pour plus d’informations, consultez [intégration de vos identités locales avec Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).
+
+  - Une solution unique de synchronisation d’annuaires pour assurer la synchronisation de vos objets Active Directory locaux et en ligne. Pour plus d’informations sur la synchronisation d’annuaires, voir [Outils d’intégration d’annuaire](http://go.microsoft.com/fwlink/p/?linkid=530320).
+
+</div>
+
+<div>
+
+## <a name="lync-client-support"></a>Prise en charge du client Lync
+
+Il existe certaines différences entre les fonctionnalités prises en charge dans les clients Lync, ainsi que les fonctionnalités disponibles dans les environnements locaux et en ligne. Avant de décider de l’endroit où vous souhaitez accéder aux utilisateurs de votre organisation, vous pouvez afficher la prise en charge du client pour les différentes configurations de Lync Server. Les clients suivants sont pris en charge dans Skype entreprise Online dans un déploiement hybride Lync:
 
   - Lync 2010
 
@@ -43,15 +73,15 @@ Des différences existent dans les fonctionnalités prises en charge dans les cl
 
   - Lync Web App
 
-  - Lync Mobile
+  - Lync Mobile
 
   - Lync pour Mac 2011
 
   - Lync Room System
 
-  - Lync Basic 2013
+  - Lync Basic 2013
 
-Pour plus d’informations sur la prise en charge client, reportez-vous aux rubriques suivantes :
+Pour plus d’informations sur la prise en charge des clients, voir les rubriques suivantes:
 
   - [Clients pour Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
 
@@ -59,55 +89,142 @@ Pour plus d’informations sur la prise en charge client, reportez-vous aux rubr
 
   - [Tableau de comparaison des clients mobiles pour Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
 
-## Conditions requises pour la topologie
+</div>
 
-Pour configurer votre déploiement Lync Server 2013 pour une utilisation hybride avec Skype Entreprise Online, l’une des topologies suivantes doit être prise en charge :
+<span id="BKMK_Topology"></span>
 
-  - Microsoft Office Communications Server 2007 R2 avec Lync Server 2013 en local. La fédération Lync Server 2013serveur Edge et le serveur du tronçon suivant à partir du serveur Edge de fédération doit exécuter Lync Server 2013, et un Magasin central de gestion doit être déployé. Le serveur Edge et le pool doivent être déployés localement.
+<div>
+
+## <a name="topology-requirements"></a>Conditions requises pour la topologie
+
+Pour configurer votre déploiement pour une connexion hybride avec Skype entreprise Online, vous devez disposer de l’une des topologies prises en charge suivantes:
+
+  - Un déploiement 2015 de Skype entreprise Server avec tous les serveurs exécutant Skype entreprise Server 2015.
+
+  - Un déploiement Lync Server 2013 avec tous les serveurs exécutant Lync Server 2013.
+
+  - Un déploiement Lync Server 2010 avec tous les serveurs exécutant Lync Server 2010 avec les mises à jour les plus récentes.
     
-    > [!IMPORTANT]  
-    > Même si cette topologie est prise en charge, certaines fonctionnalités peuvent être limitées. Par exemple, les informations de présence entre les utilisateurs Microsoft Lync Online et les utilisateurs Office Communications Server 2007 R2 locaux peuvent ne pas fonctionner comme prévu.
-
-  - Microsoft Lync Server 2010 avec les mises à jour cumulatives pour Lync Server 2010 de mars 2013 appliqués (ou ultérieures) et outils d’administration de Lync Server 2013 installés en local. Le serveur Edge de fédération et le serveur de la jonction suivante du serveur Edge de fédération doivent exécuter Microsoft Lync Server 2010 avec les mises à jour cumulatives de mars 2013 (ou ultérieures) appliquées ou Lync Server 2013.
+      - Le serveur de périphérie de Fédération et le serveur de tronçon suivant du serveur Edge de Fédération doivent exécuter Lync Server 2010 avec les mises à jour cumulatives les plus récentes.
     
-    > [!IMPORTANT]  
-    > Les outils d’administration de Lync Server 2013 doivent être installés sur un serveur distinct pouvant se connecter au déploiement Lync Server 2010 existant. L’applet de commande Move-CsUser doit être exécutée à partir des outils d’administration de Lync Server 2013 connectés à votre déploiement local pour déplacer les utilisateurs de votre déploiement local vers Lync Online.
+      - Les outils d’administration de Skype entreprise Server 2015 ou Lync Server 2013 doivent être installés sur au moins un serveur ou une station de travail de gestion.
 
-  - Un déploiement Lync Server 2013 avec tous les serveurs exécutant Lync Server 2013.
+  - Un déploiement Lync Server 2013 et Skype entreprise Server 2015 mixte avec les rôles serveur suivants dans au moins un site exécutant Skype entreprise Server 2015:
+    
+      - Au moins un pool d'entreprise ou serveur Standard Edition 
+    
+      - Pool directeur associé à la fédération SIP, le cas échéant
+    
+      - Pool Edge associé à la fédération SIP
 
-Pour plus d’informations sur les topologies prises en charge, reportez-vous à [Topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) et à [Topologies de référence Lync Server 2013 pour les déploiements hybrides Enterprise](http://go.microsoft.com/fwlink/p/?linkid=398709).
+  - Un déploiement Lync Server 2010 et Skype entreprise Server 2015 mixte avec les rôles de serveurs suivants dans au moins un site exécutant Skype entreprise Server 2015:
+    
+      - Au moins un pool d'entreprise ou serveur Standard Edition 
+    
+      - Pool directeur associé à la fédération SIP, le cas échéant
+    
+      - Pool Edge associé à la fédération SIP pour le site
 
-Pour obtenir des informations d’identification et de résolution des problèmes liés aux déploiements hybrides et à la connexion de PowerShell à Lync Online, reportez-vous à [Lync Online: Lync PowerShell and Hybrid Troubleshooting (Lync Online : identification et résolution des problèmes liés à Lync PowerShell et aux déploiements hybrides)](http://go.microsoft.com/fwlink/p/?linkid=306718).
+  - Un déploiement Lync Server 2010 et Lync Server 2013 mixte avec les rôles serveur suivants dans au moins un site exécutant Lync Server 2013:
+    
+      - Au moins un pool d'entreprise ou serveur Standard Edition dans le site
+    
+      - Pool directeur associé à la fédération SIP, si elle existe dans le site
+    
+      - Pool Edge associé à la fédération SIP pour le site
 
-## Configuration requise pour les listes de fédération autorisées/bloquées
+<div>
 
-La liste des domaines autorisés comprend les domaines pour lesquels un nom complet Edge partenaire est configuré (parfois appelé *serveur partenaire autorisé* ou *partenaire de fédération direct* . Vous devez connaitre la différence entre la fédération ouverte et la fédération fermée, appelée *découverte de partenaire* et *liste de domaines partenaire autorisés* , dans les déploiements locaux.
 
-La configuration suivante est requise pour configurer un déploiement hybride :
+> [!IMPORTANT]  
+> La gestion des utilisateurs, y compris les déplacements entre les utilisateurs locaux et UNRESOLVED_TOKEN_VAL (skypeforbusiness) en ligne, doit être effectuée à l’aide de la version installée la plus récente des outils d’administration. Les outils d’administration doivent être installés sur un serveur distinct qui dispose d’un accès de connexion au déploiement local existant et à Internet. Pour déplacer des utilisateurs de votre déploiement local vers UNRESOLVED_TOKEN_VAL (skype16_online), l’applet de <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">passe Move-Csuser</A> doit être exécutée à partir des outils d’administration connectés à votre déploiement local.
 
-  - La correspondance de domaine doit être identique pour votre déploiement local et votre client Office 365. Si la découverte partenaire est activée sur le déploiement local; la fédération ouverte doit être configurée pour votre client en ligne. Si la découverte partenaire n’est pas activée, alors la fédération fermée doit être configurée pour votre client en ligne.
+
+
+</div>
+
+Pour plus d’informations sur les topologies prises en charge, voir [topologies prises en charge dans Lync server 2013](lync-server-2013-supported-topologies.md)et [topologies de référence de Lync Server 2013 pour les déploiements hybrides d’entreprise](http://go.microsoft.com/fwlink/p/?linkid=398709).
+
+Pour plus d’informations sur les déploiements hybrides et la connexion de PowerShell à Lync Online, voir [Lync Online: Lync PowerShell et résolution des problèmes hybrides](http://go.microsoft.com/fwlink/p/?linkid=306718).
+
+</div>
+
+<div>
+
+## <a name="requirements-for-federation-allowedblocked-lists"></a>Configuration requise pour les listes de Fédération autorisées/bloquées
+
+La liste des domaines autorisés comprend les domaines pour lesquels un nom de domaine complet Edge partenaire est configuré (parfois appelé *serveur partenaire autorisé* ou *partenaire de fédération direct*). Vous devez connaitre la différence entre la fédération ouverte et la fédération fermée, appelée *découverte de partenaire* et *liste de domaines partenaires autorisés*, dans les déploiements locaux.
+
+La configuration ci-dessous est requise pour configurer un déploiement hybride :
+
+  - La correspondance de domaine doit être identique pour votre déploiement local et votre client Office 365. Si la découverte de partenaire est activée sur le déploiement local, la fédération ouverte doit être configurée pour votre client en ligne. Si la découverte de partenaire n'est pas activée, alors la fédération fermée doit être configurée pour votre client en ligne.
 
   - La liste des domaines bloqués dans le déploiement local doit correspondre exactement à la liste des domaines bloqués pour votre client en ligne.
 
   - La liste des domaines autorisés dans le déploiement local doit correspondre exactement à la liste des domaines autorisés pour votre client en ligne.
 
-  - La fédération doit être activée pour les communications externes pour le client en ligne, qui est configurée à l’aide du panneau de configuration Lync Online.
+  - La Fédération doit être activée pour les communications externes pour le client en ligne, qui est configuré à l’aide du panneau de configuration Lync Online.
 
-## Paramètres DNS
+</div>
 
-Lors de la création des enregistrements DNS SRV pour les déploiements hybrides, les enregistrements, \_sipfederationtls.\_tcp.\<domaine\> et \_sip.\_tls.\<domaine\>, doivent pointer vers le proxy d’accès local.
+<div>
 
-## Éléments à prendre en compte pour le pare-feu
+## <a name="dns-settings"></a>Paramètres DNS
 
-Les ordinateurs du réseau doivent être en mesure d’effectuer des recherches DNS Internet. Si ces ordinateurs peuvent accéder à des sites Internet standard, votre réseau est correctement configuré.
+Lors de la création d’enregistrements DNS pour les déploiements hybrides, tous les enregistrements DNS externes Lync doivent pointer vers l’infrastructure locale. Pour plus d’informations sur les enregistrements DNS requis, voir [Configuration requise pour le système de noms de domaine (DNS) pour Lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).
 
-En fonction de l’emplacement de votre centre de données Microsoft Online Services, vous devez également configurer vos appareils de pare-feu réseau pour accepter les connexions en fonction de noms de domaine génériques (par exemple, tout le trafic de \*.outlook.com). Si les pare-feu de votre organisation ne prennent pas en charge les configurations de nom génériques, vous devrez déterminer manuellement les plages d’adresses IP que vous voulez autoriser et les ports.
+En outre, vous devez vous assurer que la résolution DNS décrite dans le tableau ci-dessous fonctionne dans votre déploiement local :
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Enregistrement DNS</p></td>
+<td><p>Résolvable par</p></td>
+<td><p>Enregistrement DNS requis</p></td>
+</tr>
+<tr class="even">
+<td><p>Enregistrement SRV DNS pour _sipfederationtls. _ TCP. &lt;sipdomain.com&gt; pour tous les domaines SIP pris en charge résolus vers les adresses IP externes d’Access Edge</p></td>
+<td><p>Serveur(s) Edge</p></td>
+<td><p>Permettre la communication fédérée dans une configuration hybride. Le serveur Edge doit savoir où acheminer le trafic fédéré pour le domaine SIP qui est à la fois en local et en ligne.</p></td>
+</tr>
+<tr class="odd">
+<td><p>Enregistrement(s) DNS A pour le FQDN du service de conférence web Edge, par exemple webcon.contoso.com se résolvant en adresse(s) IP externe(s) Edge de conférence web</p></td>
+<td><p>Ordinateurs des utilisateurs connectés au réseau d'entreprise interne</p></td>
+<td><p>Permettre aux utilisateurs de présenter ou d'afficher le contenu de réunions hébergées localement. Ce contenu peut inclure des fichiers PowerPoint, des tableaux blancs, des sondages et des notes partagées. </p></td>
+</tr>
+</tbody>
+</table>
+
+
+En fonction de la configuration DNS de votre organisation, vous devrez peut-être ajouter ces enregistrements dans la zone DNS hébergée en interne pour le(s) domaine(s) SIP correspondant(s) afin de fournir à ces enregistrements une résolution DNS interne.
+
+</div>
+
+<div>
+
+## <a name="firewall-considerations"></a>Considérations en matière de pare-feu
+
+Les ordinateurs du réseau doivent être en mesure d'effectuer des recherches DNS Internet. Si ces ordinateurs peuvent accéder à des sites Internet standard, votre réseau est correctement configuré.
+
+En fonction de l’emplacement de votre centre de données Microsoft Online Services, vous devez également configurer les périphériques de pare-feu de votre réseau pour accepter les connexions basées sur les noms de \*domaine génériques (par exemple, tout le trafic de. Outlook.com). Si les pare-feu de votre organisation ne prennent pas en charge les configurations de nom génériques, vous devrez déterminer manuellement les plages d'adresses IP que vous voulez autoriser et les ports.
 
 Reportez-vous à la rubrique d’aide [URL et plages d’adresses IP Office 365](http://go.microsoft.com/fwlink/p/?linkid=252942).
 
-## Configuration requise pour les ports et les protocoles
+</div>
 
-En plus de la configuration requise pour les ports pour les communications Lync Server 2013 internes, vous devez également configurer les ports suivants.
+<span id="b"></span>
+
+<div>
+
+## <a name="port-and-protocol-requirements"></a>Configuration requise pour les ports et les protocoles
+
+En plus de la configuration requise pour les ports pour les communications internes de Lync Server 2013, vous devez également configurer les ports suivants.
 
 
 <table>
@@ -117,23 +234,34 @@ En plus de la configuration requise pour les ports pour les communications Lync 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocole / Port</th>
+<th>Protocole/port</th>
 <th>Applications</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>TCP 443</p></td>
-<td><p>Ouvrir entrant</p><ul><li><p>Active Directory Federation Services (rôle serveur de fédération)</p>
-<p>Pour plus d’informations, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Présentation des services de rôle AD FS</a>.</p></li><li><p>Active Directory Federation Services (rôle serveur proxy)</p></li><li><p>Portail Microsoft Online Services</p></li><li><p>Mon portail d’entreprise</p></li><li><p>Outlook Web App</p></li><li><p>Client Lync (communications avec Lync Online à partir d’un Lync Server local)</p></li></ul></td>
+<td><p>TCP 443</p></td>
+<td><p>Ouvrir entrant</p>
+<ul>
+<li><p>Services ADFS (Active Directory Federation Services)</p>
+<p>Pour plus d’informations, voir <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Présentation des services de rôle AD FS</a>.</p></li>
+<li><p>Services ADFS (Active Directory Federation Services) (rôle serveur proxy)</p></li>
+<li><p>Portail Microsoft Online Services</p></li>
+<li><p>Mon portail d’entreprise</p></li>
+<li><p>Outlook Web App</p></li>
+<li><p>Client Lync (communications vers Lync Online à partir d’un serveur Lync local)</p></li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><p>TCP 80 et 443</p></td>
-<td><p>Ouvrir entrant</p><ul><li><p>Outil de synchronisation d’annuaire Microsoft Online Services</p></li></ul></td>
+<td><p>Ouvrir entrant</p>
+<ul>
+<li><p>Outil de synchronisation d’annuaires de Microsoft Online Services</p></li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><p>TCP 5061</p></td>
-<td><p>Ouvrir entrant/sortant sur le serveur Edge</p></td>
+<td><p>Ouvrir entrant/sortant sur le serveur de périphérie</p></td>
 </tr>
 <tr class="even">
 <td><p>PSOM/TLS 443</p></td>
@@ -141,42 +269,13 @@ En plus de la configuration requise pour les ports pour les communications Lync 
 </tr>
 <tr class="odd">
 <td><p>STUN/TCP 443</p></td>
-<td><p>Ouvrir entrant/sortant pour les sessions de partage audio, vidéo et d’applications</p></td>
+<td><p>Ouvrir entrant/sortant pour les sessions audio, vidéo et de partage d’application</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/UDP 3478</p></td>
 <td><p>Ouvrir entrant/sortant pour les sessions audio et vidéo</p></td>
 </tr>
 <tr class="odd">
-<td><p>RTP/TCP 50000-59999</p></td>
-<td><p>Ouvrir sortant pour les sessions audio et vidéo</p></td>
-</tr>
-<tr class="even">
-<td><p>TCP 443</p></td>
-<td><p>Ouvrir entrant</p><ul><li><p>Active Directory Federation Services (rôle serveur de fédération)</p>
-<p>Pour plus d’informations, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Présentation des services de rôle AD FS</a>.</p></li><li><p>Active Directory Federation Services (rôle serveur proxy)</p></li><li><p>Portail Microsoft Online Services</p></li><li><p>Mon portail d’entreprise</p></li><li><p>Outlook Web App</p></li><li><p>Client Lync (communications avec Lync Online à partir d’un Lync Server local)</p></li></ul></td>
-</tr>
-<tr class="odd">
-<td><p>TCP 80 et 443</p></td>
-<td><p>Ouvrir entrant</p><ul><li><p>Outil de synchronisation d’annuaire Microsoft Online Services</p></li></ul></td>
-</tr>
-<tr class="even">
-<td><p>TCP 5061</p></td>
-<td><p>Ouvrir entrant/sortant sur le serveur Edge</p></td>
-</tr>
-<tr class="odd">
-<td><p>PSOM/TLS 443</p></td>
-<td><p>Ouvrir entrant/sortant pour les sessions de partage de données</p></td>
-</tr>
-<tr class="even">
-<td><p>STUN/TCP 443</p></td>
-<td><p>Ouvrir entrant/sortant pour les sessions de partage audio, vidéo et d’applications</p></td>
-</tr>
-<tr class="odd">
-<td><p>STUN/UDP 3478</p></td>
-<td><p>Ouvrir entrant/sortant pour les sessions audio et vidéo</p></td>
-</tr>
-<tr class="even">
 <td><p>RTP/TCP 50000-59999</p></td>
 <td><p>Ouvrir sortant pour les sessions audio et vidéo</p></td>
 </tr>
@@ -184,33 +283,57 @@ En plus de la configuration requise pour les ports pour les communications Lync 
 </table>
 
 
-> [!NOTE]  
-> Si vous avez besoin de la fédération avec les partenaires exécutant Office Communications Server 2007, vous devez ouvrir les ports entrant/sortant RTP/UDP et RTP/TCP 50000-59999. Pour plus d’informations sur les exigences liées au pare-feu A/V, reportez-vous à <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Définition de la configuration requise pour le pare-feu A/V et les ports pour Lync Server 2013</a>. Pour plus d’informations sur les ports et les protocoles, reportez-vous à <a href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013</a>.
+</div>
 
-## Comptes et données utilisateur
+<div>
 
-Dans un déploiement Lync Server 2013 hybride, tout utilisateur que vous voulez héberger dans Lync Online doit d’abord être créé dans le déploiement local afin que le compte utilisateur soit créé dans services de domaine Active Directory. Vous pouvez ensuite déplacer l’utilisateur vers Skype Entreprise Online, ce qui déplace la liste des contacts de l’utilisateur.
+## <a name="user-accounts-and-data"></a>Comptes et données utilisateur
 
-Lorsque vous synchronisez des comptes utilisateur entre les déploiements Lync locaux et Lync Online avec AD FS et Dirsync, vous devez synchroniser les comptes Active Directory pour tous les utilisateurs Lync de votre organisation entre vos déploiements Lync locaux et en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.
+Dans le cas d’un déploiement hybride Lync Server 2013, tous les utilisateurs que vous souhaitez utiliser dans Lync Online doivent d’abord être créés dans le déploiement local, de sorte que le compte d’utilisateur est créé dans les services de domaine Active Directory (AD FS). Vous pouvez ensuite déplacer l’utilisateur vers Skype entreprise Online, qui va déplacer la liste de contacts de l’utilisateur.
+
+Lorsque vous synchronisez des comptes d’utilisateurs entre vos déploiements Lync local et Lync Online avec AD FS et DirSync, vous devez synchroniser les comptes d’annonces de tous les utilisateurs Lync de votre organisation entre votre déploiement local et Lync en ligne, même si les utilisateurs ne sont pas déplacés vers Lync Online. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne dans votre organisation risque de ne pas fonctionner comme vous le souhaitez.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si l’utilisateur est créé à l’aide du portail en ligne pour Office 365, le compte utilisateur ne sera pas synchronisé avec Active Directory en local où cet utilisateur ne figurera pas. Si vous avez déjà créé des utilisateurs dans Lync Online et que vous souhaitez configurer le déploiement hybride avec le déploiement Lync Server local, reportez-vous à <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Déplacement des utilisateurs de Lync Online vers Lync local dans Lync Server 2013</a>.
+> Si l’utilisateur est créé à l’aide du portail en ligne pour Office 365, le compte d’utilisateur n’est pas synchronisé avec Active Directory local et l’utilisateur n’existe pas dans l’annuaire Active Directory local. Si vous avez déjà créé des utilisateurs dans Lync Online et que vous souhaitez configurer une connexion hybride avec un serveur Lync local, voir <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">déplacement des utilisateurs de Lync Online vers Lync local dans Lync server 2013</A>.
 
-Prenez en compte les problèmes suivants liés aux utilisateurs lors de la planification d’un déploiement hybride.
 
-  - **Contacts de l’utilisateur**   Le nombre maximal de contacts pour les utilisateurs Lync Online est de 250. Au-delà de ce chiffre, les contacts seront supprimés de la liste des contacts de l’utilisateur.
 
-  - **Messagerie instantanée et présence**   Les listes de contacts, groupes et listes de contrôle d’accès des utilisateurs sont migrés avec le compte de l’utilisateur.
+</div>
 
-  - **Données de conférence, contenu de réunion et réunions planifiées**   Ce contenu n’est pas migré avec le compte de l’utilisateur. Les utilisateurs doivent replanifier les réunions une fois leur compte migré sur Lync Online.
+Lors de la planification d'un déploiement hybride, prenez en compte les aspects suivants liés aux utilisateurs.
 
-## Fonctionnalités et stratégies utilisateur
+  - **** Le nombre maximal de contacts pour les utilisateurs de Lync Online 250 est fixé aux utilisateurs    Au-delà de ce chiffre, les contacts seront supprimés de la liste des contacts de l'utilisateur.
 
-  - Dans un environnement Lync Server 2013 hybride, les utilisateurs peuvent utiliser la messagerie instantanée, la voix et les réunions soit localement soir en ligne, mais les deux simultanément.
+  - **Messagerie instantanée et présence**   les listes de contacts, groupes et listes de contrôle d’accès des utilisateurs sont migrés avec le compte d’utilisateur.
 
-  - **Client Lync**    Certains utilisateurs peuvent avoir besoin d’une nouvelle version du client après leur déplacement vers Lync Online. Pour Office Communications Server 2007 R2, les utilisateurs doivent être déplacés vers un pool Lync Server 2013 avant la migration vers Lync Online.
+  - **Les données de conférence, le contenu de la réunion et les réunions**   planifiées, ce contenu n’est pas migré avec le compte d’utilisateur. Les utilisateurs doivent replanifier les réunions une fois leur compte migré sur Lync Online.
+
+</div>
+
+<div>
+
+## <a name="user-policies-and-features"></a>Fonctionnalités et stratégies utilisateur
+
+  - Dans un environnement hybride Lync Server 2013, les utilisateurs peuvent être activés pour la messagerie instantanée, la voix et les réunions localement ou en ligne, mais pas les deux simultanément.
+
+  - **Client Lync certains**     utilisateurs peuvent nécessiter une nouvelle version du client après leur déplacement vers Lync Online. Pour Office Communications Server 2007 R2, les utilisateurs doivent être déplacés vers un pool Lync Server 2013 avant la migration vers Lync Online.
     
-    Pour plus d’informations sur la prise en charge de client, reportez-vous à [Clients for Lync Online (Clients pour Lync Online)](http://go.microsoft.com/fwlink/p/?linkid=281902) et [Supported Lync clients and network port configurations (Configurations des ports réseau et clients Lync pris en charge)](http://go.microsoft.com/fwlink/p/?linkid=281901) .
+    Pour plus d’informations sur la prise en charge des clients, voir [clients pour Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) et [clients et configurations de port réseau prises en charge](http://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Configuration et stratégies locales (non utilisateur)**   Les stratégies en ligne et locales nécessitent des configurations distinctes. Vous ne pouvez pas définir des stratégies globales qui s’appliquent au deux.
+  - **Les stratégies locales et la configuration (non-utilisateur)**   en ligne et en local nécessitent une configuration distincte. Vous ne pouvez pas définir des stratégies globales qui s'appliquent au deux.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

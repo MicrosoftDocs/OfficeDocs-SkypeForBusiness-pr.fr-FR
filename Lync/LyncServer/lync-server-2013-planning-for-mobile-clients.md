@@ -1,34 +1,75 @@
-﻿---
-title: Planification des clients mobiles dans Lync Server 2013
-TOCTitle: Planification des clients mobiles dans Lync Server 2013
-ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh690989(v=OCS.15)
-ms:contentKeyID: 49298437
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planification pour les clients mobiles'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for mobile clients
+ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
+ms:contentKeyID: 48185020
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8693c35d43ec70cbff8badd16b51d0b0c68b52fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824637"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification des clients mobiles dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="planning-for-mobile-clients-in-lync-server-2013"></a>Planification pour les clients mobiles dans Lync Server 2013
 
-Les clients mobiles Lync 2013 fournissent des fonctionnalités de présence améliorée, de messagerie instantanée, de réunions Lync et d’appels audio et vidéo par le biais d’Internet ou de la connexion cellulaire. Pour obtenir un tableau qui répertorie les fonctionnalités des clients mobiles et les compare au client de bureau, voir [Tableau de comparaison des clients mobiles pour Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-04-02_
+
+Les clients mobiles Lync 2013 offrent une présence améliorée, la messagerie instantanée, les réunions Lync et les appels vocaux et vidéo via Internet ou la connexion mobile. Pour une matrice qui recense les fonctionnalités et capacités des clients mobiles et les compare au client de bureau, voir [tableaux de comparaison des clients mobiles pour Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
+
+<div>
+
 
 > [!NOTE]  
-> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, voir « Planification des clients mobiles » dans la bibliothèque TechNet Lync Server 2010 à l’adresse <a href="http://go.microsoft.com/fwlink/?linkid=235955" class="uri">http://go.microsoft.com/fwlink/?linkid=235955</a>.
+> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, reportez-vous à la section «planification de clients mobiles» <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>dans la bibliothèque TechNet de Lync Server 2010 à l’adresse.
 
-## Dans cette section
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Tableau de comparaison des clients mobiles pour Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
 
-  - [Exigences relatives à Lync pour Windows Phone](lync-server-2013-lync-for-windows-phone-requirements.md)
+  - [Configuration requise pour Lync pour Windows Phone dans Lync Server 2013](lync-server-2013-lync-for-windows-phone-requirements.md)
 
-  - [Configuration requise pour Lync pour iPhone et iPad](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
+  - [Configuration requise pour Lync pour iPhone et iPad dans Lync Server 2013](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
 
-  - [Configuration requise de Lync pour Android](lync-server-2013-lync-for-android-requirements.md)
+  - [Configuration requise pour Lync pour Android dans Lync Server 2013](lync-server-2013-lync-for-android-requirements.md)
 
-  - [Processus de déploiement de client mobile](lync-server-2013-mobile-client-deployment-process.md)
+  - [Processus de déploiement d’un client mobile dans Lync Server 2013](lync-server-2013-mobile-client-deployment-process.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

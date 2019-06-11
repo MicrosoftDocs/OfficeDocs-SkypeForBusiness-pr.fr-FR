@@ -1,59 +1,120 @@
-﻿---
-title: 'Lync Server 2013 : Planification des certificats de serveur Edge'
-TOCTitle: Planification des certificats de serveur Edge
-ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg413010(v=OCS.15)
-ms:contentKeyID: 49299302
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Planification des certificats de serveur Edge'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Plan for Edge Server certificates
+ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)
+ms:contentKeyID: 48185798
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 737e0845b4b9966accd8c450b8a300b4f1bb128e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825155"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification des certificats de serveur Edge dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-05_
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>Planification des certificats de serveur Edge dans Lync Server 2013
 
-La création de certificat pour Edge est simplifiée dans Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-11-05_
+
+La création de certificats pour Edge est simplifiée dans Lync Server 2013.
 
 **Diagramme de certificats pour le serveur Edge**
 
-![Diagramme des certificats](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "Diagramme des certificats")
+![a5fc20db-7ced-4364-b577-6a709a8367cd] (images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
-Créez un certificat public unique, vérifiez que vous disposez d’une clé privée exportable définie pour le certificat, et affectez-le aux interfaces externes du serveur Edge à l’aide de l’Assistant Certificat :
+Créez un certificat public unique, assurez-vous d’avoir une clé privée exportable définie pour le certificat et attribuez-la aux interfaces externes du serveur Edge suivantes à l’aide de l’Assistant Certificat:
+
+<div>
+
 
 > [!IMPORTANT]  
-> Les certificats génériques ne sont pas pris en charge dans Lync Server, sauf s’ils sont utilisés pour résumer des URL simples via le proxy inverse. Vous devez définir des noms SAN distincts pour chaque nom de domaine SIP, service Edge de conférence web, service Edge A/V et domaine XMPP proposés par votre déploiement.
+> Les certificats génériques ne sont pas pris en charge dans Lync Server, sauf s’ils sont utilisés pour résumer les URL simples par le biais du proxy inverse. Vous devez définir des noms secondaires d’objet distincts (San) pour chaque nom de domaine SIP, service Edge de conférence Web, service Edge A/V et domaine XMPP offert par votre déploiement.
+
+
+
+</div>
+
+<div>
+
 
 > [!NOTE]  
-> Introduits dans Lync Server 2013, les certificats d’authentification audio/vidéo temporaires précédant l’expiration du certificat actuel requièrent une planification supplémentaire. Au lieu d’un certificat utilisé à des fins diverses pour l’interface externe du serveur Edge, vous aurez besoin de deux certificats : l’un sera affecté au service Edge d’accès et au service Edge de conférence web, tandis que l’autre sera affecté au service Edge A/V. Pour obtenir des informations supplémentaires, reportez-vous à <a href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate">Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate</a>
+> Introduite dans Lync Server 2013, les certificats d’authentification audio et vidéo intermédiaires qui avancent l’expiration du certificat actuel nécessitent une planification supplémentaire. Au lieu d’utiliser un certificat à des fins différentes pour l’interface de bord externe, vous devez disposer de deux certificats, l’un attribué au service Edge d’accès et au service Edge de conférence Web, et un certificat pour le service Edge A/V. Pour plus d’informations, consultez la rubrique <A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">Configuration des certificats d’audiovisuel et des certificats OAuth dans Lync Server 2013 avec l’application Set-CsCertificate</A>
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Dans le cas d’un pool de serveurs Edge, vous devez exporter le certificat avec la clé privée à chaque serveur Edge et affecter le certificat à chaque service serveur Edge. Procédez de la même façon pour le certificat serveur Edge, en exportant le certificat avec la clé privée et en l’affectant à chaque interface interne de serveur Edge.
+> Dans le cas d’un pool de serveurs Edge, vous exportez le certificat avec la clé privée vers chaque serveur Edge et vous attribuez le certificat à chaque service Edge Server. Procédez de la même façon pour le certificat de serveur Edge interne, en exportant le certificat avec la clé privée et en l’affectant à chaque interface de bord interne.
 
-  - Vérifiez que vous disposez d’une clé privée exportable affectée pour le certificat.
 
-  - service Edge d’accès (désigné sous le nom de **Serveur Edge d’accès SIP externe** dans l’Assistant Certificat)
 
-  - service Edge de conférence web (désolé sous le nom de **Serveur Edge de conférence web externe** dans l’Assistant Certificat)
+</div>
 
-  - Service d’authentification A/V (désigné comme **Serveur Edge A/V externe** dans l’Assistant Certificat)
+  - Vérifiez que vous avez affecté une clé privée exportée au certificat.
 
-Créez un certificat interne unique doté d’une clé privée exportable, copiez-le et affectez-le aux interfaces internes du serveur Edge suivantes :
+  - Service Edge d’accès (appelé **Edge d’accès SIP externe** dans l’Assistant certificat)
 
-  - Serveur Edge (désigné comme **Serveur Edge interne** dans l’Assistant Certificat)
+  - Service Edge de conférence Web (connu sous le nom de **conférence Web externe** dans l’Assistant certificat)
+
+  - Service d’authentification a/V (appelé par le biais de l' **extérieur** de l’Assistant certificat)
+
+Créez un certificat interne unique avec une clé privée exportable, puis copiez-le et attribuez-le à chaque interface interne du serveur Edge:
+
+  - Serveur Edge (appelé **Edge Internal** dans l’Assistant certificat)
+
+<div>
+
 
 > [!IMPORTANT]  
-> Vous pouvez utiliser des certificats distincts et séparés pour chaque service serveur Edge. Cela peut être le cas si vous souhaitez utiliser la nouvelle fonctionnalité de certificat propagé pour le certificat service Edge A/V. Dans le cas de cette fonctionnalité, Le découplage du certificat service Edge A/V du service Edge d’accès et du service Edge de conférence web est recommandé. Si vous choisissez de demander, acquérir et affecter des certificats distincts pour chaque service, vous devez demande que la clé privée soit exportable pour le service Edge A/V (rappel : il s’agit du service d’authentification A/V) et d’affecter le même certificat à l’interface externe Edge A/V sur chaque serveur Edge.
+> Il est possible d’utiliser des certificats distincts et distincts pour chaque service Edge Server. Il peut s’avérer utile de choisir des certificats séparés si vous souhaitez utiliser la nouvelle fonctionnalité de certificat de déploiement pour le certificat de service Edge A/V. Dans le cas de cette fonctionnalité, il est recommandé de découpler le certificat de service Edge A/V du service Edge d’accès et du service Edge de conférence Web. Si vous choisissez de demander, d’acquérir et d’affecter des certificats séparés pour chaque service, vous devez demander à la clé privée d’être exportable pour le service Edge A/v (de nouveau, il s’agit du service d’authentification a/v) et de lui attribuer le même certificat Interface externe latérale sur chaque serveur Edge.
 
-## Voir aussi
 
-#### Tâches
 
-[Préparation de certificats AV et OAuth dans Lync Server 2013 à l’aide du paramètre -Roll dans l’applet de commande Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate)  
+</div>
 
-#### Concepts
+<div>
 
-[Modifications apportées dans Lync Server 2013 affectant la planification de serveurs Edge](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)
+## <a name="see-also"></a>Voir aussi
+
+
+[Test de l’audiovisuel et des certificats OAuth dans Lync Server 2013 à l’aide du CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+
+
+[Modifications apportées dans Lync Server 2013 affectant la planification de serveurs Edge](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

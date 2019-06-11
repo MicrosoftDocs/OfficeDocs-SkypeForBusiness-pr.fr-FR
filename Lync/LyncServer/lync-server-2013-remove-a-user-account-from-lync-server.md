@@ -1,62 +1,114 @@
-﻿---
-title: Suppression d’un compte d’utilisateur de Lync Server
-TOCTitle: Suppression d’un compte d’utilisateur de Lync Server
-ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ688008(v=OCS.15)
-ms:contentKeyID: 49891286
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: supprimer un compte d’utilisateur de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a user account from Lync Server
+ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
+ms:contentKeyID: 49733596
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823153"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suppression d’un compte d’utilisateur de Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-22_
+# <a name="remove-a-user-account-from-lync-server-2013"></a>Supprimer un compte d’utilisateur de Lync Server 2013
 
-Vous pouvez utiliser la procédure suivante pour supprimer un compte d’utilisateur précédemment ajouté dans Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-22_
+
+Vous pouvez utiliser la procédure suivante pour supprimer un compte d’utilisateur déjà ajouté dans Lync Server 2013.
+
+<div>
+
 
 > [!NOTE]  
-> La suppression d’un utilisateur entraînera la perte de tous les paramètres associés au compte d’utilisateur. Si vous souhaitez plutôt désactiver temporairement un compte d’utilisateur, voir la rubrique <a href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server</a>.
+> La suppression d’un utilisateur entraîne la perte des paramètres que vous avez configurés pour le compte d’utilisateur. Si vous voulez désactiver temporairement un compte d’utilisateur à la place, reportez-vous à la rubrique <A href="lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md">désactiver ou réactiver un compte d’utilisateur pour Lync Server 2013</A>.
 
-## Pour supprimer un compte d’utilisateur Lync Server
 
-1.  À partir d’un compte d’utilisateur auquel est affecté un des rôles CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
+
+<div>
+
+## <a name="to-remove-a-user-account-by-using-lync-server-management-shell"></a>Pour supprimer un compte d’utilisateur à l’aide de Lync Server Management Shell
+
+1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
+
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la zone **Rechercher des utilisateurs**, tapez le début ou l’intégralité du nom d’affichage, du prénom, du nom de famille, du nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), de l’adresse SIP ou de l’URI (Uniform Resource Identifier) de ligne du compte d’utilisateur que vous souhaitez désactiver ou réactiver, puis cliquez sur **Rechercher**.
+4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez désactiver ou réactiver. puis cliquez sur **Rechercher**.
 
-5.  Dans le tableau, cliquez sur le compte d’utilisateur que vous souhaitez supprimer.
+5.  Dans la table, cliquez sur le compte d’utilisateur que vous voulez supprimer.
 
-6.  Dans le menu **Action**, sélectionnez **Supprimer de Lync Server** et une boîte de dialogue apparaît.
+6.  Dans le menu **action** , sélectionnez **supprimer de Lync Server**et une boîte de dialogue s’affiche.
 
 7.  Dans la boîte de dialogue, sélectionnez **OK** pour supprimer l’utilisateur.
 
-## Suppression d’un compte d’utilisateur à l’aide des applets de commande PowerShell de Lync Server
+</div>
 
-Vous pouvez aussi supprimer des comptes d’utilisateur à l’aide de l’applet de commande Disable-CsUser. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session à distance de Windows PowerShell. Pour plus de détails sur l’utilisation de Windows PowerShell à distance pour une connexion à Lync Server, voir l’article du blog Lync Server Windows PowerShell « Démarrage rapide : Gestion de Microsoft Lync Server 2010 avec PowerShell à distance » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Suppression d’un compte d’utilisateur
+## <a name="removing-user-accounts-by-using-windows-powershell-cmdlets"></a>Suppression de comptes d’utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-  - Pour supprimer un compte d’utilisateur, utilisez l’applet de commande Disable-CsUser. Par exemple :
+Vous pouvez supprimer des comptes d’utilisateurs à l’aide de l’applet de passe Disable-CsUser. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+
+<div>
+
+## <a name="to-remove-a-user-account"></a>Pour supprimer un compte d’utilisateur
+
+  - Pour supprimer un compte d’utilisateur, utilisez l’applet de passe Disable-CsUser. Par exemple :
     
         Disable-CsUser -Identity "Ken Myer"
     
-    Une fois cette commande exécutée, il n’y a aucun moyen de réactiver le compte et ses anciens paramètres. En revanche, vous pouvez utiliser l’applet de commande Enable-CsUser pour créer un tout nouveau compte pour Ken Myer.
+    Après avoir exécuté cette commande, il est impossible de réactiver le compte et ses paramètres précédents. Au lieu de cela, vous devez utiliser l’applet de passe Enable-CsUser pour créer un nouveau compte pour Ken Myer.
 
-Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser).
+</div>
 
-## Voir aussi
+Pour plus d’informations, reportez-vous à la rubrique d’aide de l’applet de la cmdlet [Disable-Csuser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser) .
 
-#### Tâches
+</div>
 
-[Désactivation ou réactivation d’un compte d’utilisateur pour Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+<div>
 
-#### Autres ressources
+## <a name="see-also"></a>Voir aussi
 
-[Activation et désactivation des utilisateurs pour Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+
+[Désactiver ou réactiver le compte d’utilisateur pour Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+
+
+[Activation et désactivation des utilisateurs pour Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

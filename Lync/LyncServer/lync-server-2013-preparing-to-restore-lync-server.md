@@ -1,31 +1,53 @@
-﻿---
-title: Préparation à la restauration de Lync Server
-TOCTitle: Préparation à la restauration de Lync Server
-ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202179(v=OCS.15)
-ms:contentKeyID: 53095469
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: préparation de la restauration de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing to restore Lync Server
+ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202179(v=OCS.15)
+ms:contentKeyID: 51541490
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a470a338d05436be942201e6df6a864f955ac87c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823755"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Préparation à la restauration de Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="preparing-to-restore-lync-server-2013"></a>Préparation de la restauration de Lync Server 2013
 
-Avant de commencer la restauration des serveurs et des bases de données après une défaillance, vous devez déterminer :
+</div>
 
-  - les éléments à restaurer ;
+<div id="mainSection">
 
-  - le matériel, les logiciels, les données et les outils nécessaires à la restauration.
+<div id="mainBody">
 
-## Détermination des éléments à restaurer
+<span> </span>
 
-Cette rubrique décrit comment effectuer une restauration suite à une défaillance de Lync Server qui s’est produite au niveau du serveur, du pool ou du magasin central de gestion. En cas de défaillance du magasin central de gestion, votre déploiement de Lync Server continue de fonctionner, mais la modification de la configuration est impossible. En cas de défaillance d’un serveur principal ou d’un serveur Standard Edition, le pool d’utilisateurs cesse de fonctionner. En cas de défaillance d’un autre serveur, l’étendue de la défaillance dépend du rôle du serveur et du fait qu’il héberge ou non une ou plusieurs bases de données.
+_**Dernière modification de la rubrique:** 2013-02-21_
 
-### Éléments à restaurer
+Avant de procéder à la restauration de serveurs et de bases de données après un échec, vous devez déterminer les éléments suivants:
+
+  - Ce qui doit être restauré.
+
+  - Le matériel, les logiciels, les données et les outils dont vous avez besoin pour la restauration.
+
+<div>
+
+## <a name="determining-what-to-restore"></a>Déterminer les données à restaurer
+
+Cette rubrique décrit la restauration des pannes du serveur Lync qui se produisent au niveau du serveur, du pool ou du magasin de gestion central. En cas d’échec du magasin de gestion central, votre déploiement de Lync Server continue de fonctionner, mais vous ne pouvez pas apporter de modifications à la configuration. En cas d’échec d’un serveur principal ou d’un serveur Standard Edition Server, le pool d’utilisateurs cesse de fonctionner. En cas d’échec d’un autre serveur, l’amplitude de l’échec dépend du rôle de serveur exécuté sur le serveur et de l’hébergement d’une ou plusieurs bases de données par le serveur.
+
+### <a name="what-to-restore"></a>Restauration
 
 <table>
 <colgroup>
@@ -34,106 +56,151 @@ Cette rubrique décrit comment effectuer une restauration suite à une défailla
 </colgroup>
 <thead>
 <tr class="header">
-<th>En cas de défaillance de cet élément</th>
-<th>Voir cette section :</th>
+<th>Si ce n’est pas le cas</th>
+<th>Consultez cette section:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Serveur Standard Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restauration d’un serveur Standard Edition</a></p></td>
+<td><p>serveur Standard Edition</p></td>
+<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restauration d’un serveur Standard Edition Server dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>magasin central de gestion</p></td>
-<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restauration du serveur hébergeant le magasin central de gestion</a></p></td>
+<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restauration du serveur qui héberge le magasin de gestion central dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Serveur principal Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restauration du serveur principal Enterprise Edition</a></p></td>
+<td><p>Version back-end de l’entreprise</p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restauration d’un serveur principal Enterprise Edition dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Serveur principal en miroir Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restauration d’un serveur principal Enterprise Edition en miroir - Base de données primaire</a></p></td>
+<td><p>Serveur principal principal en miroir d’Enterprise Edition</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restauration d’un serveur principal Enterprise Edition en miroir sur Lync Server 2013-principal</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Serveur secondaire en miroir Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restauration d’un serveur principal Enterprise Edition en miroir - Miroir</a></p></td>
+<td><p>Serveur secondaire de l’édition Enterprise en miroir</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restauration d’un serveur principal Enterprise Edition en miroir sur Lync Server 2013-Mirror</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Tout serveur Enterprise Edition exécutant un seul rôle serveur, tel qu’un serveur frontal, serveur Edge, directeur, serveur de médiation ou serveur de conversation permanente.</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restauration d’un serveur membre Enterprise Edition</a></p></td>
+<td><p>Tout serveur Enterprise Edition exécutant un rôle serveur, tel qu’un serveur frontal, un serveur Edge, un directeur, un serveur de médiation, ou un serveur de chat permanent.</p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restauration d’un serveur membre Enterprise Edition dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Un pool Lync Server entier</p></td>
-<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restauration d’un pool Lync Server</a></p></td>
+<td><p>Ensemble d’un pool de serveurs Lync</p></td>
+<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restauration d’un pool de serveurs Lync dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>magasin de fichiers Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-file-store.md">Restauration d’un magasin de fichiers</a></p></td>
+<td><p>Magasin de fichiers Enterprise Edition</p></td>
+<td><p><a href="lync-server-2013-restoring-a-file-store.md">Restauration d’un magasin de fichiers dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Une base de données d’archivage ou de surveillance autonome</p></td>
-<td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restauration des données de surveillance ou d’archivage</a></p></td>
+<td><p>Une base de données de surveillance autonome ou une base de données d’archivage</p></td>
+<td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restauration de données d’analyse ou d’archivage dans Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Une base de données de conversation permanente autonome</p></td>
-<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">Restauration de données de conversation permanente</a></p></td>
+<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">Restauration de données de conversations permanentes dans Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Collecte du matériel, des logiciels et des outils
+</div>
 
-Lors de la restauration d’un serveur, vous devez prendre pour base un nouvel ordinateur et disposer du matériel et des logiciels suivants :
+<div>
 
-  - Un nouveau serveur ayant le même nom de domaine complet que le serveur ayant subi une défaillance.
+## <a name="gathering-hardware-software-and-tools"></a>Rassemblement de matériel, de logiciels et d’outils
+
+Lorsque vous restaurez un serveur, vous devez commencer avec un nouvel ordinateur ou nettoyer. Par ailleurs, vous devez disposer des éléments matériels et logiciels suivants:
+
+  - Serveur propre ou nouveau avec le même nom de domaine complet (FQDN) que le serveur qui a échoué.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Lors de l’installation du système d’exploitation, veillez à ne pas supprimer le compte d’ordinateur dans les services de domaine Active Directory et vérifiez que les autorisations de groupe pour le compte sont conservées.
+    > Lorsque vous installez le système d’exploitation, assurez-vous de ne pas supprimer le compte d’ordinateur dans les services de domaine Active Directory (AD FS) et vérifiez que les autorisations de groupe associées au compte sont conservées.
 
-  - Logiciel d’installation pour le système d’exploitation. Pour installer le système d’exploitation, utilisez les configurations et procédures de déploiement de serveur établies par votre organisation. Celles-ci doivent être à votre disposition lors de la restauration du service.
-
-  - Logiciel d’installation pour SQL Server 2012 ou SQL Server 2008 R2. Pour installer un serveur de bases de données, utilisez la version appropriée de SQL Server et les procédures et configurations de déploiement de serveur de bases de données établies par votre organisation. Celles-ci doivent être à votre disposition lors de la restauration du service.
     
+    </div>
+
+  - Programme d’installation du système d’exploitation. Pour installer le système d’exploitation, utilisez les procédures et configurations de déploiement de serveur établies par votre organisation. Pour restaurer le service, vous devez disposer de ces procédures et de vos exigences relatives à la configuration.
+
+  - Programme d’installation de SQL Server 2012 ou SQL Server 2008 R2. Pour installer un serveur de base de données, utilisez la version appropriée de SQL Server, ainsi que les procédures et configurations de déploiement du serveur de base de données établies par votre organisation. Pour restaurer le service, vous devez disposer de ces procédures et de vos exigences relatives à la configuration.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > L’Assistant Déploiement de Lync Server installe automatiquement SQL Server 2012 Express sur chaque serveur Standard Edition et sur tout autre serveur Lync Server lors de l’installation d’un magasin de configurations local, à moins que vous n’ayez préinstallé SQL Server 2012 ou SQL Server 2008 R2 Express sur le serveur.
+    > L’Assistant Déploiement de Lync Server installe automatiquement SQL Server 2012 Express sur chaque serveur Standard Edition et sur n’importe quel autre serveur Lync Server lors de l’installation d’un magasin de configuration local, sauf si vous avez préinstallé SQL Server 2012 ou SQL Server 2008 R2 sur serveur.
 
-  - Logiciels de prise d’images système
     
+    </div>
+
+  - Logiciel pour la capture d’images système.
+    
+    <div>
+    
+
     > [!TIP]  
-    > Nous vous recommandons de créer une image du système après avoir installé le système d’exploitation et SQL Server et avant de commencer la restauration, de manière à pouvoir utiliser cette image comme point de restauration dans l’éventualité où un problème surviendrait lors de la restauration.
+    > Nous vous conseillons de prendre une copie d’image du système après l’installation du système d’exploitation et de SQL Server, et avant de commencer la restauration, afin que vous puissiez utiliser cette image comme point de restauration en cas de problème de restauration.
 
-  - Logiciel d’installation de Lync Server 2013. L’Assistant Déploiement de Lync Server se trouve sur le support ou dans le dossier d’installation de Lync Server à l’emplacement \\setup\\amd64\\Setup.exe.
+    
+    </div>
 
-Durant la restauration, vous utilisez les outils suivants :
+  - Programme d’installation de Lync Server 2013. L’Assistant Déploiement de Lync Server se trouve dans le dossier d’installation ou le média \\de\\Lync\\Server lors de l’installation de l’application. exe.
 
-  - Applets de commande Lync Server Management Shell
+Lors de la restauration, vous devez utiliser les outils suivants:
+
+  - Cmdlets Lync Server Management Shell
 
   - Import-CsUserData
 
-  - Outils de restauration des dossiers Windows
+  - Outils de restauration de dossiers Windows
 
   - Générateur de topologie
 
-  - Utilitaires de bases de données SQL Server, tels que SQL Server Management Studio
+  - Utilitaires de base de données SQL Server tels que SQL Server Management Studio
 
-## Préparation à la restauration d’un serveur
+</div>
 
-Avant de restaurer le serveur, vous devez effectuer les étapes suivantes :
+<div>
+
+## <a name="preparing-to-restore-a-server"></a>Préparation de la restauration d’un serveur
+
+Avant de restaurer le serveur, vous devez effectuer les étapes suivantes:
 
 1.  Installez le système d’exploitation.
 
-2.  S’il s’agit d’un serveur principal, installez SQL Server 2012, ou SQL Server 2008 R2.
+2.  S’il s’agit d’un serveur principal, installez SQL Server 2012 ou SQL Server 2008 R2.
 
-3.  Restaurez ou réinscrivez vos certificats. Pour plus d’informations sur les certificats, voir « Exigences supplémentaires relatives à la sauvegarde » dans [Besoins de sauvegarde et de restauration dans Lync Server 2013 : données](lync-server-2013-backup-and-restoration-requirements-data.md).
+3.  Restaurez ou réinscrivez vos certificats. Pour plus d’informations sur les certificats, voir «exigences de sauvegarde supplémentaires» dans [les exigences de sauvegarde et de restauration dans Lync Server 2013: données](lync-server-2013-backup-and-restoration-requirements-data.md).
 
-4.  Créez une image du système avant de commencer la restauration. Celle-ci servira de point de restauration en cas de problème.
+4.  Prenez une photo du système avant de commencer la restauration à utiliser comme point de restauration, en cas de problème de restauration.
+
+<div>
+
 
 > [!NOTE]  
-> L’Assistant Déploiement de Lync Server et les applets de commande décrites dans les procédures de cette section, et dans les sections associées, définissent toutes les listes de contrôle d’accès requises.
+> L’Assistant Déploiement de Lync Server et les applets de commande décrits dans les procédures décrites dans cette rubrique, ainsi que les rubriques connexes, définissent toutes les listes de contrôle d’accès (ACL) requises.
 
-Avant de commencer la restauration, vérifiez que le matériel et les logiciels dont vous avez besoin pour les éléments que vous prévoyez de restaurer sont disponibles. Une fois le système d’exploitation et SQL Server installés, la plupart des étapes des procédures de restauration suivantes peuvent être effectuées à distance. Les exceptions sont notées dans les procédures.
 
-Avant de commencer la restauration, vous devez également avoir à votre disposition le plan de sauvegarde et de restauration de votre organisation, ainsi que les informations relatives à votre dernière sauvegarde, telles que celles décrites dans les feuilles de calcul de ce document (pour plus de détails, voir [Feuilles de travail de sauvegarde et de restauration](lync-server-2013-backup-and-restoration-worksheets.md)).
+
+</div>
+
+Vérifiez que le matériel et le logiciel dont vous avez besoin pour les composants que vous envisagez de restaurer sont disponibles avant de commencer la restauration. Après avoir installé le système d’exploitation et SQL Server, la plupart des étapes de la procédure de restauration suivantes peuvent être exécutées à distance. Les exceptions sont indiquées dans les procédures.
+
+Pour plus d’informations, reportez-vous au plan de sauvegarde et de restauration de votre organisation ainsi qu’aux informations de votre dernière sauvegarde, telles que les informations figurant dans les feuilles de calcul de ce document (pour plus d’informations, reportez-vous à la rubrique [sauvegarde et restauration de feuilles de calcul pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)). disponible avant de commencer la restauration.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

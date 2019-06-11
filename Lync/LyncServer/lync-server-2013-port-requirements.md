@@ -1,29 +1,51 @@
-﻿---
-title: Configuration requise pour les ports
-TOCTitle: Configuration requise pour les ports
-ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398798(v=OCS.15)
-ms:contentKeyID: 49298283
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuration requise pour les ports Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port requirements
+ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398798(v=OCS.15)
+ms:contentKeyID: 48184886
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fddb9e1ad518196b3ac2ac1d8c5d2dc0ebeac972
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824294"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuration requise pour les ports
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-03-27_
+# <a name="port-requirements-for-lync-server-2013"></a>Configuration requise pour les ports pour Lync Server 2013
 
-Lync Server nécessite l’ouverture de ports spécifiques sur le pare-feu. De plus, si la sécurité IPsec (Internet Protocol security) est déployée dans votre organisation, elle doit être désactivée sur la plage de ports utilisée pour l’acheminement des flux audio, vidéo et de vidéo panoramique.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-Cette section contient les rubriques suivantes :
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-03-27_
+
+Le serveur Lync nécessite l’ouverture des ports spécifiques du pare-feu. De plus, si la sécurité IPsec (Internet Protocol security) est déployée dans votre organisation, elle doit être désactivée sur la plage de ports utilisée pour l’acheminement des flux audio, vidéo et de vidéo panoramique.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+Cette section comprend les rubriques suivantes:
 
   - [Ports et protocoles pour les serveurs internes dans Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 
-  - [Exceptions Ipsec dans Lync Server 2013](lync-server-2013-ipsec-exceptions.md)
+  - [Exceptions IPsec dans Lync Server 2013](lync-server-2013-ipsec-exceptions.md)
 
   - [Résumé des ports - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
@@ -37,5 +59,17 @@ Cette section contient les rubriques suivantes :
 
   - [Résumé des ports - Proxy inverse dans Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [Résumé des ports - Fédération SIP, fédération XMPP et messagerie instantanée publique](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Résumé de port-SIP, Fédération de XMPP et messagerie instantanée publique dans Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

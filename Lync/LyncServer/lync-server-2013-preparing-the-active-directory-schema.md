@@ -1,55 +1,104 @@
-﻿---
-title: 'Lync Server 2013 : Préparation du schéma Active Directory'
-TOCTitle: Préparation du schéma Active Directory
-ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398119(v=OCS.15)
-ms:contentKeyID: 49296136
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Préparation du schéma Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing the Active Directory schema
+ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
+ms:contentKeyID: 48183300
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823958"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Préparation du schéma Active Directory dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2016-12-08_
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Préparation du schéma Active Directory dans Lync Server 2013
 
-Avant de commencer à préparer les services de domaine Active Directory, vous pouvez ouvrir les fichiers de schéma à l’aide d’un éditeur de texte, tel que le Bloc-notes de Windows, ou consultez [Attributs, classes et extensions des schémas Active Directory utilisés par Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) pour consulter toutes les extensions de schéma services de domaine Active Directory qui seront modifiées pour Lync Server 2013. Lync Server utilise quatre fichiers de schéma :
+</div>
 
-  - ExternalSchema.ldf, qui est utilisé pour l’interopérabilité avec Microsoft Exchange Server
+<div id="mainSection">
 
-  - ServerSchema.ldf, qui est le fichier de schéma Lync Server 2013 principal
+<div id="mainBody">
 
-  - BackCompatSchema.ldf, qui est utilisé pour l’interopérabilité avec des composants de versions précédentes
+<span> </span>
 
-  - VersionSchema.ldf, qui est utilisé pour les informations de version du schéma préparé
+_**Dernière modification de la rubrique:** 2012-08-27_
 
-Tous les fichiers .ldf sont installés au cours de la préparation du schéma, même si vous procédez à une migration depuis une version précédente ou à une nouvelle installation. Ces fichiers de schéma sont installés dans l’ordre indiqué précédemment et se trouvent dans le dossier \\Support\\schema sur le support d’installation.
+Avant de commencer à préparer les services de domaine Active Directory, vous pouvez ouvrir les fichiers de schéma à l’aide d’un éditeur de texte, tel que le bloc-notes Windows, ou voir [extensions de schéma Active Directory, classes et attributs utilisés par Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) pour passer en revue toutes les opérations actives. Extensions de schéma de services de domaine Active Directory qui seront modifiées pour Lync Server 2013. Lync Server utilise quatre fichiers de schéma:
 
-Les extensions de schéma Lync Server sont répliquées dans tous les domaines, ce qui a un impact sur le trafic réseau. Exécutez la préparation du schéma lorsque l’utilisation du réseau est basse.
+  - ExternalSchema. ldf, utilisé à des fins d’interopérabilité avec Microsoft Exchange Server
+
+  - ServerSchema. ldf, qui est le fichier de schéma principal de Lync Server 2013
+
+  - BackCompatSchema. ldf, utilisé à des fins d’interopérabilité avec les composants des versions précédentes
+
+  - VersionSchema. ldf, qui est utilisé pour les informations de version du schéma préparé.
+
+Tous les fichiers. ldf sont installés lors de la préparation du schéma, que vous passiez à partir d’une version précédente ou que vous effectuiez une nouvelle installation. Ces fichiers de schéma sont installés dans l’ordre présenté dans la liste précédente et se trouvent dans \\le\\dossier de schéma de support sur le média d’installation.
+
+Les extensions de schéma Lync Server sont répliquées dans tous les domaines, ce qui a un impact sur le trafic réseau. Exécutez la préparation du schéma à la fois lorsque le niveau d’utilisation du réseau est faible.
+
+<div>
+
 
 > [!NOTE]  
-> Si vous devez ajouter la prise en charge de Microsoft® Office Communicator Mobile 2007 R2 pour Java et Microsoft® Office Communicator Mobile pour les clients mobiles Nokia 1.0 à votre déploiement Lync Server 2013, il vous faut préparer le schéma Active Directory pour Microsoft Office Communications Server 2007 R2 lors de l’installation de Lync Server 2013. Pour obtenir la documentation et les logiciels nécessaires, reportez-vous à <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.
+> Si vous avez besoin d’ajouter la prise en charge de Microsoft® Office Communicator Mobile 2007 R2 pour Java et Microsoft® Office Communicator Mobile pour Nokia 1,0 vers votre déploiement Lync Server 2013, vous devez préparer le schéma Active Directory pour Microsoft Office Communications Server 2007 R2 lors de l’installation de Lync Server 2013. Pour le logiciel et la documentation nécessaires, <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>voir.
 
-## Éditeur ADSI
 
-L’Éditeur ADSI (Active Directory Service Interfaces) est un outil d’administration AD DS qui vous permet de vérifier la préparation et la réplication du schéma.
 
-L’Éditeur ADSI est installé par défaut lorsque vous installez le rôle AD DS pour faire d’un serveur un contrôleur de domaine. Pour Windows Server 2008 et Windows Server 2008 R2, l’Éditeur ADSI (adsiedit.msc) fait partie des outils d’administration de serveur distant. Vous pouvez également installer les outils d’administration de serveur distant sur des serveurs membres du domaine ou des serveurs autonomes. Le package des outils d’administration de serveur distant est copié par défaut sur ces serveurs lorsque vous installez Windows, mais il n’est pas installé par défaut. Utilisez le Gestionnaire de serveur pour installer chaque outil. L’éditeur ADSI est inclus sous **Outils d’administration de rôles** , **Outils des services de domaine Active Directory** , **Outils de contrôleur de domaine Active Directory** .
+</div>
 
-Pour Windows Server 2003, l’Éditeur ADSI fait partie des outils de support, disponibles sur le CD Windows Server 2003, dans le dossier \\SUPPORT\\TOOLS. Vous pouvez également les télécharger depuis le site web « Outils de support de Windows Server 2003 Service Pack 2 32 bits » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770).Les instructions d’installation à partir du CD sont disponibles sur le site web «  Installer les outils de support Windows » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771). Adsiedit.dll est inscrit automatiquement lorsque vous installez les outils de support. Cependant, si vous avez copié les fichiers sur votre ordinateur, vous devez exécuter la commande **regsvr32** pour inscrire le fichier adsiedit.dll avant de pouvoir exécuter l’outil.
+<div>
 
-## Dans cette section
+## <a name="adsi-edit"></a>Modification ADSI
+
+L’éditeur d’interfaces de service Active Directory (ADSI Edit) est un outil d’administration AD DS qui vous permet de vérifier la préparation du schéma et la réplication.
+
+ADSI Edit est installé par défaut lorsque vous installez le rôle AD DS pour définir un serveur comme contrôleur de domaine. Pour Windows Server 2008 et Windows Server 2008 R2, ADSI Edit (adsied. msc) est inclus dans les outils d’administration de serveur distant. Vous pouvez également installer le RSAT sur les serveurs de membres de domaine ou les serveurs autonomes. Le package RSAT est copié sur ces serveurs par défaut lors de l’installation de Windows, mais il n’est pas installé par défaut. Vous installez des outils individuels à l’aide du gestionnaire de serveur. La modification ADSI est incluse dans **Outils d’administration de rôles**, outils de services de **domaine Active Directory**, **outils de contrôleur de domaine Active Directory**.
+
+Pour Windows Server 2003, l’édition ADSI est incluse dans les outils de support. Les outils de support sont disponibles sur le CD Windows Server 2003 dans \\le\\dossier Outils de support, ou vous pouvez les télécharger à partir des outils de support technique de Windows server 2003 Service [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit. Pour obtenir des instructions sur l’installation des outils d’assistance technique sur le CD du produit, voir la [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)section «installer les outils de support Windows» à l’adresse. Adsied. dll est enregistré automatiquement lorsque vous installez les outils de support. Toutefois, si vous avez copié les fichiers sur votre ordinateur, vous devez exécuter la commande **regsvr32** pour inscrire le fichier adsied. dll avant de pouvoir exécuter l’outil.
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Exécution de la préparation du schéma Active Directory dans Lync Server 2013](lync-server-2013-running-schema-preparation.md)
 
   - [Vérification de la réplication de schéma Active Directory dans Lync Server 2013](lync-server-2013-verifying-schema-replication.md)
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
 
 [Préparation de la forêt pour Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
-[Préparation des domaines pour Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Préparation des domaines pour Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

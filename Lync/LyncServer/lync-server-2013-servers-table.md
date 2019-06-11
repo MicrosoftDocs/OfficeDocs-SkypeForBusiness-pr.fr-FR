@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table Servers'
-TOCTitle: Table Servers
-ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398223(v=OCS.15)
-ms:contentKeyID: 49296349
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table Servers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Servers table
+ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398223(v=OCS.15)
+ms:contentKeyID: 48183487
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a360a9fbffed50747b695ec3f517ffc4002cc9cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822012"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table Servers dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="servers-table-in-lync-server-2013"></a>Table Servers dans Lync Server 2013
 
-La table Servers est une table de prise en charge qui stocke des informations relatives aux divers serveurs. Chaque enregistrement de la table représente un serveur.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2010-11-05_
+
+La table serveurs est une table de prise en charge qui stocke des informations sur les différents serveurs. Chaque enregistrement de la table représente un serveur.
 
 
 <table>
@@ -36,16 +56,27 @@ La table Servers est une table de prise en charge qui stocke des informations re
 <tbody>
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
-<td><p>Numéro unique d’identification de ce serveur.</p></td>
+<td><p>Numéro unique identifiant ce serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ServerFQDN</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
-<td><p>Nom de domaine complet du serveur</p></td>
+<td><p>Nom de domaine complet du serveur.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

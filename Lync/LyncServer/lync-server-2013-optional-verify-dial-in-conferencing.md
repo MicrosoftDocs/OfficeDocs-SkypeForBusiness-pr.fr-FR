@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013 : (Facultatif) Vérification de la conférence rendez-vous'
-TOCTitle: (Facultatif) Vérification de la conférence rendez-vous
-ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425905(v=OCS.15)
-ms:contentKeyID: 49296980
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : (Facultatif) Vérification de la conférence rendez-vous'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify dial-in conferencing
+ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425905(v=OCS.15)
+ms:contentKeyID: 48183941
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 70a0b18ce596e4799c82a2843b5f3a008b5cb285
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825638"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Facultatif) Vérification de la conférence rendez-vous dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2011-01-21_
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>(Facultatif) Vérification de la conférence rendez-vous dans Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2011-01-21_
 
 Pour vérifier que la page web Paramètres de conférence rendez-vous et les numéros d’accès entrants fonctionnent correctement, vous devez :
 
@@ -23,11 +43,13 @@ Pour vérifier que la page web Paramètres de conférence rendez-vous et les num
 
 Cette étape est facultative.
 
-## Pour tester les numéros d’accès à un pool spécifique
+<div>
 
-1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle **Cs-ServerAdministratorr** ou **CsAdministrator** .
+## <a name="to-test-access-numbers-for-a-specific-pool"></a>Pour tester les numéros d’accès à un pool spécifique
 
-2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **CS-ServerAdministrator** ou **CsAdministrator** .
+
+2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez la commande suivante dans l’invite de commandes :
     
@@ -37,4 +59,16 @@ Cette étape est facultative.
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
     Le rapport obtenu indique Opération réussie ou Échec ainsi que des informations de diagnostic. L’indicateur -Verbose permet d’obtenir des informations plus détaillées ainsi que le nombre de numéros d’accès trouvés.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

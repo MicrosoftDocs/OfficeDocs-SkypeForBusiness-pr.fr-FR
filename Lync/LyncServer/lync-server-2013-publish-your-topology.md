@@ -1,40 +1,80 @@
-﻿---
-title: 'Lync Server 2013 : Publication de la topologie'
-TOCTitle: Publication de la topologie
-ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412935(v=OCS.15)
-ms:contentKeyID: 49298735
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Publication de la topologie'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Publish your topology
+ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412935(v=OCS.15)
+ms:contentKeyID: 48185287
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bd542db6acedbec75e475045ae2ace6d63d5469
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823664"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Publication de la topologie dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-09-08_
+# <a name="publish-your-topology-in-lync-server-2013"></a>Publication de la topologie dans Lync Server 2013
 
-Chaque fois que vous utilisez le Générateur de topologie pour créer une topologie, vous devez publier cette dernière dans une base de données du magasin central de gestion afin que les données puissent servir au déploiement de Lync Server 2013. Procédez comme suit pour publier votre topologie.
+</div>
 
-## Pour publier la topologie
+<div id="mainSection">
 
-1.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
+<div id="mainBody">
 
-2.  À partir du Générateur de topologie, dans l’arborescence de la console, cliquez avec le bouton droit sur **Lync 2013**, puis cliquez sur **Publier la topologie** .
+<span> </span>
 
-3.  Dans la page **Bienvenue** de l’Assistant, cliquez sur **Suivant** .
+_**Dernière modification de la rubrique:** 2012-09-08_
 
-4.  Dans la page **Le générateur de topologie a trouvé un magasin central de gestion** , cliquez sur **Suivant** .
+Chaque fois que vous utilisez le générateur de topologie pour générer votre topologie, vous devez publier la topologie sur une base de données dans la Banque centrale de gestion pour que les données puissent être utilisées pour le déploiement de Lync Server 2013. Utilisez la procédure suivante pour publier votre topologie.
 
-5.  Dans la page **Créer d’autres bases de données** , cliquez sur **Suivant** .
+<div>
 
-6.  Dès que l’état indique que la base de données a été correctement créée, procédez comme suit :
+## <a name="to-publish-the-topology"></a>Pour publier la topologie
+
+1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+
+2.  Dans le générateur de topologie, dans l’arborescence de la console, cliquez avec le bouton droit sur **Lync 2013**, puis cliquez sur **topologie de publication**.
+
+3.  Dans la page **Bienvenue** de l’Assistant, cliquez sur **Suivant**.
+
+4.  Dans le **Générateur de topologie a détecté une page CMS Store** , cliquez sur **suivant**.
+
+5.  Dans la page **Créer d’autres bases de données**, cliquez sur **Suivant**.
+
+6.  Lorsque l’état indique la création réussie de la base de données, procédez comme suit:
     
-      - Pour afficher le journal, cliquez sur **Afficher le journal** .
+      - Pour afficher le journal, cliquez sur **Afficher le journal**.
     
-      - Pour fermer l’Assistant, cliquez sur **Terminer** .
+      - Pour fermer l’Assistant, cliquez sur **Terminer**.
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > S’il s’agit d’une nouvelle installation d’un serveur Edge ou d’un pool de serveurs Edge, vous devez exporter la configuration du serveur Edge d’un serveur frontal, pool de serveurs frontaux ou serveur Standard Edition existant. Pour exporter la configuration, reportez-vous à <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportation de la topologie Lync Server 2013 et copie vers le support externe de l’installation Edge</a>. Vous importez le fichier de configuration à partir du média externe ou d’un partage réseau lors de la phase d’installation et de déploiement des serveurs Edge via l’Assistant Déploiement de Lync Server.<br />
-        Une fois que les serveurs Edge sont opérationnels et que la base de données du magasin local de gestion de la configuration est répliquée avec le déploiement interne, les mises à jour suivantes de la configuration de Lync Server 2013 seront publiées et répliquées sur les serveurs Edge.
+        > S’il s’agit d’une nouvelle installation d’un serveur de périphérie ou d’un pool de périphériques, vous devez exporter la configuration de serveur Edge à partir d’un serveur frontal, d’un pool frontal ou d’un serveur Standard Edition Server. Pour exporter la configuration, reportez-vous à la section <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Export de votre topologie Lync Server 2013 et copiez-la sur du média externe pour l’installation Edge</A>. Dans le cadre de l’installation et du déploiement, vous allez importer le fichier de configuration à partir du média externe ou du partage réseau via l’Assistant Déploiement de Lync Server.<BR>Une fois les serveurs Edge opérationnels et la base de données du magasin de gestion des configurations locales répliquant le déploiement interne, les mises à jour ultérieures apportées à la configuration de Lync Server 2013 seront publiées et répliquées sur les serveurs de périphérie.
+
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

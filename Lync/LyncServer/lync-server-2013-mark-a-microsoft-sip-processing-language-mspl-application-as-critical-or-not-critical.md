@@ -1,51 +1,87 @@
-﻿---
-title: "Marquer une app. serv. MSPL comme critique ou non critique"
-TOCtitle: "Marquer une app. serv. MSPL comme critique ou non critique"
-ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg182598(v=OCS.15)
-ms:contentKeyID: 49299095
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: marquer une application Microsoft SIP Processing Language (MSPL) comme critique ou non critique'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical
+ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182598(v=OCS.15)
+ms:contentKeyID: 48185622
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 419a162e355434972216f0c47d79850af28cd244
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827647"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Marquer une application serveur Microsoft SIP Processing Language (MSPL) comme critique ou non critique
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-11-01_
+# <a name="mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical-in-lync-server-2013"></a>Marquer une application Microsoft SIP Processing Language (MSPL) comme critique ou non critique dans Lync Server 2013
 
-Les applications serveur Microsoft SIP Processing Language (MSPL) sont des applications script uniquement utilisant le langage de script MSPL au lieu de API Microsoft Lync 2010. Certaines applications serveur MSPL sont spécifiées comme critiques. Si un script est critique, il doit être lancé au démarrage du système afin que Lync Server 2013 puisse démarrer. Si le script échoue pendant l’exécution de Lync Server, le serveur ne s’arrête pas, mais il cesse l’envoi de trafic vers le script et consigne des erreurs dans le journal des événements.
+</div>
 
-Vous pouvez utiliser le Panneau de configuration Lync Server pour marquer ou démarquer les applications serveur Microsoft SIP Processing Language (MSPL) comme critiques.
+<div id="mainSection">
 
-Les scripts ne prennent pas tous en charge cette option. Par exemple, le script DefaultRouting est marqué comme critique, et cette option ne peut pas être modifiée pour DefaultRouting.
+<div id="mainBody">
 
-## Pour marquer ou démarquer une application serveur MSPL comme critique
+<span> </span>
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou disposant des mêmes droits), ou affecté au rôle CsServerAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
+_**Dernière modification de la rubrique:** 2012-11-01_
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de configuration Lync Server. Pour plus d’informations sur les différentes méthodes de démarrage du Panneau de configuration Lync Server, voir [Ouvrir les outils d’administration Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+Les applications serveur MSPL (Microsoft SIP Processing Language) sont des applications qui utilisent le langage de script MSPL au lieu de l’API 2010 Microsoft Lync. Certaines applications serveur MSPL sont spécifiées comme étant critiques. Si le script est essentiel, le script doit commencer au démarrage du système pour que Lync Server 2013 commence. Si le script échoue alors que Lync Server est en cours d’exécution, le serveur ne s’arrête pas, mais il cesse d’envoyer du trafic au script et il écrit les erreurs dans le journal des événements.
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **Application de serveur**.
+Vous pouvez utiliser le panneau de configuration de Lync Server pour marquer les applications serveur MSPL (Microsoft SIP Processing Language) comme étant critiques ou annuler la marque.
 
-4.  Dans la page **Application de serveur**, cliquez sur l’en-tête d’une colonne pour trier les applications, si nécessaire, puis sur l’application de serveur à modifier.
+Tous les scripts ne prennent pas en charge cette option. Par exemple, le script DefaultRouting est marqué comme Critical et cette option ne peut pas être modifiée pour DefaultRouting.
 
-5.  Cliquez sur **Action**.
+<div>
 
-6.  Cliquez sur **Marquer comme critique** ou **Désélectionner comme critique** (si le script prend en charge cette option).
+## <a name="to-mark-or-unmark-an-mspl-server-application-as-critical"></a>Pour marquer ou démarquer une application serveur MSPL comme essentielle
 
-## Voir aussi
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013.
 
-#### Tâches
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-[Activer ou désactiver une application de serveur MSPL (Microsoft SIP Processing Language)](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+3.  Dans la barre de navigation de gauche, cliquez sur **topologie** , puis sur **application serveur**.
 
-#### Concepts
+4.  Dans la page de l' **application serveur** , cliquez sur un en-tête de colonne pour trier les applications, le cas échéant, puis cliquez sur l’application serveur que vous voulez modifier.
+
+5.  Cliquez sur **action**.
+
+6.  Cliquez sur **marquer comme critique** ou désélectionner **comme critique** (autrement dit, si le script prend en charge cette option).
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Voir aussi
+
+
+[Activer ou désactiver une application serveur MSPL (Microsoft SIP Processing Language) dans Lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+
 
 [Afficher des applications de serveur MSPL (Microsoft SIP Processing Language) dans Lync Server 2013](lync-server-2013-view-microsoft-sip-processing-language-mspl-server-applications.md)  
 
-#### Autres ressources
 
-[Gestion de la topologie Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
+[Gestion de la topologie Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,34 +1,79 @@
-﻿---
-title: Régions réseau
-TOCTitle: Régions réseau
-ms:assetid: 1818e9d2-bbb7-420a-93ea-4c3da3a55ad3
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ687979(v=OCS.15)
-ms:contentKeyID: 49891248
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: régions réseau'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Network regions
+ms:assetid: 1818e9d2-bbb7-420a-93ea-4c3da3a55ad3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687979(v=OCS.15)
+ms:contentKeyID: 49733567
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1f9a2fd8ce5de11f592d010615ddee9c253913c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826429"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Régions réseau
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-21_
+# <a name="network-regions-in-lync-server-2013"></a>Régions réseau dans Lync Server 2013
 
-Les *régions réseau* sont les concentrateurs de réseau ou les dorsales principales utilisés dans la configuration du contrôle d’admission d’appels, E9-1-1, et la déviation du trafic multimédia. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une fonction vocale, vous n’avez pas besoin de créer de nouvelles régions réseau ; les autres fonctions Enterprise Voice avancées utiliseront ces mêmes régions réseau. Cependant, il peut être nécessaire de modifier une définition de région réseau existante pour appliquer des paramètres spécifiques à une fonction. Par exemple, si vous avez créé des régions réseau pour E9-1-1 (qui ne requiert pas un site central associé) et que vous déployez ensuite un contrôle d’admission des appels, vous devez modifier les définitions de région réseau pour spécifier un site central. Pour plus d’informations, voir [Configurer les régions de réseau pour le contrôle d’admission des appels (CAC)](lync-server-2013-configure-network-regions-for-cac.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-21_
+
+Les *régions réseau* sont les concentrateurs réseau ou les dorsales utilisés dans la configuration de contrôle d’admission des appels, de E9-1-1 et de contournement de média. Utilisez les procédures suivantes pour afficher, créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une seule fonctionnalité vocale, vous n’avez pas besoin de créer de nouvelles régions réseau. d’autres fonctionnalités avancées de voix entreprise utiliseront les mêmes régions réseau. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis que vous déployez le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. Pour plus d’informations, voir [configurer des régions réseau pour CAC dans Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
+
+<div>
+
 
 > [!NOTE]  
-> Toutes les exigences ayant trait à des fonctionnalités pour les définitions des régions réseau sont documentées dans les rubriques de déploiement des fonctionnalités concernées.
+> Les exigences spécifiques aux fonctionnalités relatives aux définitions de zones réseau sont décrites dans les rubriques de déploiement de la fonctionnalité.
 
-## Dans cette section
 
-1.  [Affichage des informations d’une région réseau](lync-server-2013-viewing-network-region-information.md)
 
-2.  [Création ou modification de régions réseau](lync-server-2013-creating-or-modifying-network-regions.md)
+</div>
 
-3.  [Suppression de régions réseau existantes](lync-server-2013-deleting-existing-network-regions.md)
+<div>
 
-## Référence
+## <a name="in-this-section"></a>Dans cette section
 
-[Déploiement des fonctionnalités avancées de Voix Entreprise dans Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+  - [Affichage des informations de région réseau dans Lync Server 2013](lync-server-2013-viewing-network-region-information.md)
+
+  - [Création ou modification des régions réseau dans Lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)
+
+  - [Supprimer des zones réseau existantes dans Lync Server 2013](lync-server-2013-deleting-existing-network-regions.md)
+
+</div>
+
+<div>
+
+## <a name="reference"></a>Référence
+
+[Déploiement de fonctionnalités avancées d’entreprise voix dans Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

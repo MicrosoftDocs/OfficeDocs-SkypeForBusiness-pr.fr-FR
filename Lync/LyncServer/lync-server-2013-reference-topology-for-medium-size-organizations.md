@@ -1,69 +1,106 @@
-﻿---
-title: "Topo. de réf. de Lync Server 2013 pour les organisations de taille moyenne"
-TOCTitle: Topologie de référence pour les organisations de taille moyenne
-ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg425939(v=OCS.15)
-ms:contentKeyID: 49297048
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Topologie de référence de Lync Server 2013 pour les organisations de taille moyenne
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topology for medium-size organizations
+ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
+ms:contentKeyID: 48184026
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824042"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Topologie de référence de Lync Server 2013 pour les organisations de taille moyenne
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-10-07_
+# <a name="reference-topology-for-lync-server-2013-in-medium-size-organizations"></a>Topologie de référence de Lync Server 2013 pour les organisations de taille moyenne
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-10-07_
 
 La topologie de référence avec haute disponibilité et centre de données unique est conçue pour une entreprise de taille petite ou moyenne dotée d’un site central. La topologie exacte présentée dans le diagramme suivant est destinée à une organisation de 20 000 utilisateurs.
 
 **Topologie de référence pour des organisations de taille moyenne**
 
-![Diagramme de topologie de référence pour un seul centre de données](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Diagramme de topologie de référence pour un seul centre de données")
+![Topologie de référence pour un diagramme du centre de données] (images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Topologie de référence pour un diagramme du centre de données")
 
-  - **Augmentez le nombre d’utilisateurs pris en charge en ajoutant des serveurs frontaux supplémentaires.**    La topologie exacte présentée dans ce diagramme inclut trois serveurs frontaux pour prendre en charge jusqu’à 20 000 utilisateurs. Si vous avez un seul site central et des utilisateurs supplémentaires, vous pouvez simplement ajouter davantage de serveurs frontaux dans le pool. Le nombre maximal d’utilisateurs par pool est 80 000, avec douze serveurs frontaux.
+  - **Pour permettre à d’autres utilisateurs d’ajouter d’autres serveurs frontaux.**    La topologie exacte de ce diagramme est composée de trois serveurs frontaux pour fournir une prise en charge des utilisateurs de 20 000. Si vous avez un seul site central et des utilisateurs supplémentaires, vous pouvez simplement ajouter davantage de serveurs frontaux dans le pool. Le nombre maximal d’utilisateurs par pool est 80 000, avec douze serveurs frontaux.
     
     Néanmoins, la topologie sur site unique peut prendre en charge davantage d’utilisateurs en ajoutant un autre pool frontal au site.
 
-  - **La récupération d’urgence peut être ajoutée.**    Pour cette organisation, la haute disponibilité de ses services Lync Server est une fonctionnalité nécessaire, mais pas la récupération d’urgence. Le pool de serveurs frontaux qu’elle a déployé fournit une haute disponibilité.
+  - **Une reprise après sinistre a pu être ajoutée.**    Pour cette organisation, il est nécessaire de disposer d’une haute disponibilité pour les services Lync Server, mais pas de la reprise après sinistre. La réserve de serveurs frontaux déployés offre une disponibilité élevée.
     
     Pour disposer d’une fonctionnalité de récupération d’urgence, cette organisation peut établir un autre centre de données et ajouter un autre pool frontal, en le couplant au pool frontal du centre de données actuel. Si une catastrophe devait affecter le pool principal, les administrateurs pourraient effectuer un basculement des utilisateurs vers le pool de sauvegarde.
 
-  - **Les serveurs principaux sont mis en miroir.**   Pour garantir une meilleure disponibilité pour les fonctionnalités utilisateur, l’organisation a déployé une paire de serveurs principaux mis en miroir pour chaque pool de serveurs frontaux. Il s’agit d’une nouvelle option de topologie pour Lync Server 2013 (facultative). Vous pouvez choisir de déployer plutôt un serveur principal unique.
+  - **Les serveurs dorsaux sont mis en miroir**   pour offrir une plus grande disponibilité aux fonctionnalités utilisateur de base, l’organisation a déployé une paire de serveurs dorsaux en miroir pour chaque pool frontal. Il s’agit d’une nouvelle option de topologie pour Lync Server 2013, qui est facultative. Vous pouvez choisir de déployer un serveur principal unique à la place.
 
-  - **Options de base de données du serveur de surveillance.**    Cette organisation a déployé une fonctionnalité de surveillance pour assurer la qualité des appels Voix Entreprise et des conférences A/V. La surveillance est déployée sur chaque serveur frontal et la base de données de surveillance est colocalisée avec les serveurs principaux. Nous prenons également en charge les topologies dans lesquelles la base de données de surveillance est située sur un serveur distinct.
+  - **Options de base de données du serveur surveillées.**    Cette organisation a déployé une analyse pour garantir la qualité des appels vocaux d’entreprise et des conférences A/V. La surveillance est déployée sur chaque serveur frontal et la base de données de surveillance est colocalisée avec les serveurs principaux. Nous prenons également en charge les topologies dans lesquelles la base de données de surveillance est située sur un serveur distinct.
 
-  - **Haute disponibilité du serveur Edge.**    Dans cet exemple d’organisation comportant 20 000 utilisateurs, un seul serveur Edge suffit pour obtenir les performances souhaitées. Cependant, un pool de deux serveurs Edge est déployé afin de fournir une haute disponibilité.
+  - **Haute disponibilité du serveur Edge**    Dans cet exemple d’organisation avec des utilisateurs de 20 000, un seul serveur Edge serait suffisant pour les performances. Néanmoins, il existe un pool de deux serveurs Edge déployés pour offrir une disponibilité élevée.
 
-  - **Options de déploiement de site de succursale.**    L’organisation dans cette topologie a déployé Voix Entreprise en tant que solution de voix. Le site de succursale 1 ne dispose d’aucune liaison de réseau étendu (WAN) robuste vers le site central. Un Survivable Branch Appliance est donc déployé pour permettre la gestion des nombreuses fonctionnalités Lync Server en cas de défaillance de la liaison de réseau étendu vers le site central. Néanmoins, le site de succursale 2 comporte une liaison de réseau étendu robuste ; seule une passerelle RTC est donc nécessaire. La passerelle RTC déployée ici prend en charge la déviation du trafic multimédia. Aucun serveur de médiation n’est donc nécessaire sur le site de succursale 2. Pour plus d’informations sur le choix des éléments à déployer sur un site de succursale, reportez-vous à [Planification de la résistance vocale d’un site de succursale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) dans la documentation de planification.
+  - **Options de déploiement d’un site de succursale.**    L’organisation de cette topologie dispose d’Enterprise Voice déployé comme solution vocale. Le site de succursale 1 ne possède pas de lien réseau étendu (WAN) sur le site central, de sorte qu’il dispose d’une unité de branchement Survivable déployée pour gérer de nombreuses fonctionnalités de Lync Server en cas de panne du lien WAN vers le site central. Le site de succursale 2 possède toutefois une liaison WAN résiliente, de sorte qu’il n’est pas nécessaire de disposer d’une passerelle RTC (réseau téléphonique commuté). La passerelle RTC déployée prend en charge la fonctionnalité de contournement du contenu multimédia; donc aucun serveur d’intermédiation n’est requis au niveau du site de succursale 2. Pour plus d’informations sur la décision de déploiement sur un site de succursale, voir [planification de la résilience vocale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) dans la documentation de planification.
 
-  - **Équilibrage de charge DNS.**    Le pool frontal et le pool de serveurs Edge disposent d’un équilibrage de charge DNS pour le trafic SIP. Cela vous évite de devoir recourir à un appareil d’équilibrage de charge pour les serveurs Edge et cela réduit significativement la configuration et la maintenance des appareils d’équilibrage de charge pour les autres pools, car les appareils d’équilibrage de charge sont uniquement nécessaires pour le trafic HTTP. Pour plus d’informations sur l’équilibrage de charge DNS, reportez-vous à [Équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
+  - **Équilibrage de charge DNS.**    Le pool frontal andEdge serveur, l’équilibrage de charge DNS du trafic SIP déployé. Cela vous évite de devoir recourir à un appareil d’équilibrage de charge pour les serveurs Edge et cela réduit significativement la configuration et la maintenance des appareils d’équilibrage de charge pour les autres pools, car les appareils d’équilibrage de charge sont uniquement nécessaires pour le trafic HTTP. Pour plus d’informations sur l’équilibrage de charge DNS, voir [équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
 
-  - **Déploiement de la messagerie unifiée Exchange.**    Cette topologie de référence inclut un serveur de messagerie unifiée Exchange, qui exécute Microsoft Exchange Server et non Lync Server
+  - **Déploiement de la messagerie unifiée Exchange.** Cette topologie de référence inclut un serveur Exchange Unified Messaging (UM) qui exécute Microsoft Exchange Server et non Lync Server.
     
-    Pour plus d’informations sur la messagerie unifiée Exchange, reportez-vous à [Planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) et [Intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) dans la documentation de planification.
+    Pour plus d’informations sur la messagerie unifiée Exchange, voir [planification d’une intégration de messagerie unifiée Exchange dans Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) et [intégration de la messagerie unifiée Exchange hébergée dans Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) dans la documentation de planification.
 
-  - **Office Web Apps Server.**    Nous recommandons le déploiement d’un serveur Office Web Apps Server ou d’une batterie de serveurs Office Web Apps Server dans toutes les organisations qui utilisent des conférences web. Office Web Apps Server permet de présenter des diapositives Powerpoint au cours de conférences web. Pour plus d’informations, reportez-vous à [Configuration de l’intégration à Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Office Web Apps Server.** Nous recommandons le déploiement d’un serveur Office Web Apps Server ou d’une batterie de serveurs Office Web Apps Server dans toutes les organisations qui utilisent des conférences Web. Office Web Apps Server permet de présenter des diapositives PowerPoint au cours de conférences Web. Pour plus d’informations, reportez-vous à la rubrique [configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-  - **Les serveurs Edge sont recommandés.**    Même si le déploiement d’un serveur Edge n’est pas obligatoire, nous vous conseillons de l’effectuer pour toute taille de déploiement. Vous pouvez optimiser votre investissement dans Lync Server en déployant un serveur Edge pour fournir des services aux utilisateurs se trouvant hors des pare-feu de votre organisation. Les avantages sont les suivants :
+  - **Il est recommandé d’avoir un serveur Edge.**    Le déploiement d’un serveur de périphérie n’est pas obligatoire, mais nous vous recommandons de le faire pour toute taille de déploiement. Vous pouvez optimiser votre investissement sur votre serveur Lync en déployant un serveur Edge pour fournir des services aux utilisateurs qui se trouvent en dehors des pare-feu de votre organisation. Les avantages sont les suivants :
     
-      - Les utilisateurs de votre organisation peuvent utiliser les fonctionnalités de Lync Server, s’ils travaillent de chez eux ou s’ils sont en déplacement.
+      - Les utilisateurs de votre organisation peuvent utiliser la fonctionnalité de serveur Lync, s’ils travaillent à la maison ou sont en déplacement.
     
       - Les utilisateurs de votre organisation peuvent inviter des utilisateurs externes à participer à des réunions.
     
-      - Si un partenaire, un fournisseur ou un client avec qui vous êtes en relation, utilise également Lync Server, vous pouvez former une *relation fédérée* avec l’organisation de cette personne. Le déploiement Lync Server reconnaîtra alors les utilisateurs de cette organisation fédérée pour une meilleure collaboration.
+      - Si un partenaire, un fournisseur ou une organisation cliente utilise également Lync Server, vous pouvez créer une *relation fédérée* avec cette organisation. Le déploiement de votre serveur Lync reconnaît alors les utilisateurs de cette organisation fédérée pour une meilleure collaboration.
     
-      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publics, notamment : Windows Live, AOL, Yahoo\! et Google Talk. Une licence distincte peut être nécessaire pour la connectivité de la messagerie instantanée publique avec ces services.
+      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publique, y compris tout ou partie des éléments suivants:\!Windows Live, AOL, Yahoo et Google Talk. Une licence distincte peut être nécessaire pour la connectivité de messagerie instantanée publique avec ces services.
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > <ul>        
-        > <li><p>Depuis le 1er septembre 2012, la licence Microsoft Lync « PIC USL » (Public IM Connectivity User Subscription License) n’est plus disponible et ne peut pas être achetée ou renouvelée. Les clients disposant de licences actives pourront continuer à assurer la fédération avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Une date de fin de vie de juin 2014 a été annoncée pour AOL et Yahoo! Pour plus d’informations, reportez-vous à <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Prise en charge de la connectivité PIC (Public IM Connectivity) dans Lync Server 2013</a>.</p></li>        
-        > <li><p>La licence PIC USL est une licence d’abonnement mensuel par utilisateur requise pour la fédération de Lync Server ou Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est liée au soutien de Yahoo!, dont le contrat sous-jacent arrive à expiration.</p></li>        
-        > <li><p>Lync est un outil puissant permettant aux organisations et aux individus du monde entier de rester connectés. La fédération avec Windows Live Messenger ne nécessite aucune licence utilisateur/appareil supplémentaire en plus de la licence d’accès client (CAL) standard Lync. La fédération avec Skype sera prochainement ajoutée à cette liste, ce qui permettra aux utilisateurs Lync d’entrer en contact avec des centaines de millions de personnes à l’aide des fonctionnalités vocales et de messagerie instantanée.</p></li>
-        > </ul>
+        > <UL>
+        > <LI>
+        > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+        > <LI>
+        > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+        > <LI>
+        > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
+        
+        </div>
 
-  - **Des directeurs peuvent être ajoutés.**    Si cette organisation veut accroître la sécurité face aux attaques par déni de service, elle peut également déployer un pool directeur. Un directeur est un rôle serveur distinct, facultatif, dans Lync Server, qui n’héberge pas de comptes d’utilisateur et ne fournit pas de services de présence ou de conférence. Il sert de serveur du tronçon suivant interne vers lequel un serveur Edge achemine le trafic SIP entrant destiné aux serveurs internes. Le directeur pré-authentifie les requêtes entrantes et les redirige vers le pool ou le serveur central de l’utilisateur. La pré-authentification au niveau du directeur permet d’ignorer les requêtes des comptes d’utilisateur inconnus dans le déploiement. Un directeur aide à isoler les serveurs frontaux du trafic malveillant, par exemple, les attaques par déni de service (DoS). Si le réseau est saturé en raison d’un trafic externe non valide lié à ce type d’attaque, le trafic s’arrête au niveau du directeur.
+  - **Les directeurs peuvent être ajoutés.**    Si cette organisation souhaitait améliorer la sécurité contre les attaques par déni de service, elle peut également déployer un pool de directeurs. Un directeur est un rôle de serveur distinct facultatif dans Lync Server qui n’utilise pas de compte d’utilisateur familial ou fournit des services de présence et de conférence. Il sert de serveur interne de tronçons de tronçon sur lequel un serveur de périphérie route le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifie les demandes entrantes et les redirige vers le serveur ou le groupe de destination de l’utilisateur. La pré-authentification au niveau du directeur permet d’ignorer les demandes en provenance de comptes d’utilisateurs inconnus du déploiement. Un directeur permet d’isoler les serveurs frontaux du trafic malveillant, tels que les attaques par déni de service (DoS). Si le réseau est inondé de trafic externe non valide lors d’une telle attaque, le trafic se termine au directeur.
 
-  - **System Center Operations Manager est recommandé.**    Nous vous recommandons de surveiller l’intégrité de votre déploiement Lync Server afin de garantir la disponibilité du service pour l’utilisateur final. Vous pouvez surveiller Lync à l’aide du pack d’administration System Center Operations Manager pour Lync, qui peut être téléchargé gratuitement sur le site de Microsoft. Grâce au pack d’administration Lync, vous pouvez obtenir de manière proactive des alertes en temps réel quand des problèmes surviennent, exécuter des transactions synthétiques pour tester de bout en bout les fonctionnalités de Lync, obtenir des rapports sur la disponibilité du service, etc. Cela vous permet de répondre de manière proactive aux problèmes liés à votre déploiement avant que l’utilisateur final n’y soit confronté.
+  - **System Center Operations Manager est recommandé.**   Nous vous recommandons de surveiller l’état de votre déploiement de Lync Server afin de garantir la disponibilité du service pour les utilisateurs finaux. Vous pouvez surveiller Lync avec le pack d’administration System Center Operations Manager pour Lync disponible en téléchargement gratuit depuis Microsoft. Le pack d’administration de Lync vous permet d’obtenir des alertes en temps réel en temps réel en cas de problème, d’exécuter des transactions synthétiques pour tester la fonctionnalité Lync de bout en bout, d’obtenir des rapports sur la disponibilité du service, etc. This helps you to proactively respond to issues with your deployment before end-users experience them.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,40 +1,87 @@
-﻿---
-title: Planification de la découverte automatique
-TOCTitle: Planification de la découverte automatique
-ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ945628(v=OCS.15)
-ms:contentKeyID: 53095421
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planification de la découverte automatique'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Autodiscover
+ms:assetid: 51f1ff94-1d64-4e6d-a878-b86fa07edc2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945628(v=OCS.15)
+ms:contentKeyID: 51541474
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a1d0ce7a775bc73c5f3afa10d1f9c148395b0eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825120"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification de la découverte automatique
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-16_
+# <a name="planning-for-autodiscover-in-lync-server-2013"></a>Planification de la découverte automatique dans Lync Server 2013
 
-La découverte automatique a été introduite pour Lync Server dans la mise à jour cumulative pour Lync Server 2010 de novembre 2011. La principale finalité de cette implémentation initiale de la découverte automatique était de permettre à Lync Mobile de localiser le service de mobilité (Mcx). Le service de découverte automatique dans Lync Server 2013 est désormais un service utilisé par tous les clients pour la localisation des services serveur et utilisateur. Le service de découverte automatique Microsoft Lync Server 2013 s’exécute sur les directeurs et les serveurs frontaux.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-16_
+
+La découverte automatique a été introduite pour Lync Server dans la mise à jour cumulative pour Lync Server 2010: novembre 2011. L’objectif principal de cette implémentation initiale de la découverte automatique était d’offrir à Lync mobile la possibilité de rechercher le service de mobilité (MCX). Le service de découverte automatique de Lync Server 2013 est désormais un service utilisé par tous les clients pour localiser les services serveur et utilisateur. Le service de découverte automatique Microsoft Lync Server 2013 s’exécute sur les directeurs et les serveurs frontaux.
+
+<div>
+
 
 > [!TIP]  
-> Pour plus d’informations techniques sur la découverte automatique et sur les éléments communiqués aux clients, voir <a href="lync-server-2013-understanding-autodiscover.md">Présentation de la découverte automatique</a>.<br />
-La mobilité demeure un scénario spécifique et les services de mobilité nécessitent une planification particulière. Pour plus d’informations, voir <a href="lync-server-2013-planning-for-mobility.md">Planification de la mobilité dans Lync Server 2013</a>.
+> Pour plus d’informations techniques sur la découverte automatique et la façon de communiquer avec les clients, voir <A href="lync-server-2013-understanding-autodiscover.md">comprendre la découverte automatique dans Lync Server 2013</A>.<BR>La mobilité reste un scénario distinct et les services de mobilité nécessitent toujours une planification particulière. Pour plus d’informations, consultez <A href="lync-server-2013-planning-for-mobility.md">planification de la mobilité dans Lync Server 2013</A>.
 
-Quand la découverte automatique a été introduite dans Lync Server 2010, la solution adoptée devait permettre d’implémenter un service impliquant la modification éventuelle des certificats dans les déploiements de serveur existants. La découverte automatique pouvait être utilisée via le port TCP 443 pour HTTPS ou le port TCP 80 pour HTTP. S’il était décidé d’utiliser HTTPS, les certificats sur les proxys inverses, les directeurs et les serveurs frontaux devaient être réémis afin de permettre la prise en charge des enregistrements DNS `lyncdiscover.<domain>` et `lyncdiscoverinternal.<domain>` requis. S’il était décidé d’utiliser HTTP, la réémission de certificats pouvait être évitée grâce au recours à des enregistrements (ou alias) CNAME DNS pour utiliser des noms existants sur les certificats. L’utilisation de HTTP ne signifiait pas que les communications initiales étaient non chiffrées.
 
-Étant donné que Lync Server 2013 utilise la découverte automatique pour tous les clients, le principal scénario consiste à utiliser HTTPS exclusivement et à créer des certificats avec lyncdiscover.\<domain\> dans le cadre de la configuration des proxys inverses, des directeurs et des serveurs frontaux. Si vous implémentez la découverte automatique dans un déploiement mis à niveau à partir de Lync Server 2010, vous pouvez utiliser HTTP pour éviter la réémission de certificats. Les sections suivantes fournissent de l’aide pour les deux scénarios.
+
+</div>
+
+Lorsque la découverte automatique a été introduite dans Lync Server 2010, il y a eu des compromis à mettre en place pour implémenter un service qui nécessitait des changements de certificats potentiels pour les déploiements de serveur existants. La découverte automatique peut être utilisée via le port TCP 443 pour HTTPs ou sur le port TCP 80 pour HTTP. S’il s’agit d’une décision d’utiliser HTTPs, les certificats des proxys inversés, des directeurs et des serveurs frontaux nécessaires doivent être réémis pour `lyncdiscover.<domain>` pouvoir `lyncdiscoverinternal.<domain>` accueillir les enregistrements DNS et obligatoires. Si la décision consistait à utiliser HTTP, le réémission de certificats peut être évité en utilisant des enregistrements DNS CNAMe (ou alias) pour utiliser les noms existants sur les certificats. L’utilisation de HTTP signifie que les communications initiales n’ont pas été chiffrées.
+
+Dans la mesure où Lync Server 2013 utilise la découverte automatique pour tous les clients, le scénario principal consiste à utiliser HTTPs en exclusivité et à créer des certificats avec lyncdiscover. \<Domain\> dans le cadre de la configuration de proxys inverse, de directeurs et de serveurs frontaux. Si vous implémentez la découverte automatique dans un déploiement mis à niveau à partir de Lync Server 2010, il est possible que vous souhaitiez utiliser HTTP pour éviter de réémettre des certificats. Les instructions pour ces deux scénarios sont fournies dans les sections suivantes.
+
+<div>
+
 
 > [!IMPORTANT]  
-> La liste des autres noms de sujet sur les certificats utilisés par la règle de publication des services web externes doit contenir une entrée <em>lyncdiscover.&lt;sipdomain&gt;</em> pour chaque domaine SIP situé au sein de votre organisation. Pour plus d’informations sur les entrées des autres noms de sujet requises pour les directeurs, les serveurs frontaux et les proxys inverses, voir <a href="lync-server-2013-certificate-summary-autodiscover.md">Résumé des certificats - découverte automatique</a>.
+> La liste autre nom de l’objet sur les certificats utilisés par la règle de publication des services Web externes doit contenir un <EM>lyncdiscover.&lt; entrée&gt; sipdomain</EM> pour chaque domaine SIP au sein de votre organisation. Pour plus d’informations sur les autres entrées de nom de l’objet requises pour les directeurs, serveurs frontaux et proxys inversés, voir <A href="lync-server-2013-certificate-summary-autodiscover.md">synthèse des certificats-découverte automatique dans Lync Server 2013</A>.
 
-## Dans cette section
 
-  - [Résumé des certificats - découverte automatique](lync-server-2013-certificate-summary-autodiscover.md)
 
-  - [Synthèse des ports - Découverte automatique dans Lync Server 2013](lync-server-2013-port-summary-autodiscover.md)
+</div>
 
-  - [Synthèse DNS - Découverte automatique dans Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md)
+<div>
 
-  - [Hybride et domaine partagé - Découverte automatique](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Résumé du certificat-découverte automatique dans Lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)
+
+  - [Résumé du port-découverte automatique dans Lync Server 2013](lync-server-2013-port-summary-autodiscover.md)
+
+  - [DNS Summary-découverte automatique dans Lync Server 2013](lync-server-2013-dns-summary-autodiscover.md)
+
+  - [Domaines hybrides et fractionnés-découverte automatique dans Lync Server 2013](lync-server-2013-hybrid-and-split-domain-autodiscover.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

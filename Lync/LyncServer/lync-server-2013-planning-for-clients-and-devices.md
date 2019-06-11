@@ -1,27 +1,61 @@
-﻿---
-title: Planification des clients et périphériques dans Lync Server 2013
-TOCTitle: Planification des clients et périphériques dans Lync Server 2013
-ms:assetid: 7b45958a-bb98-4f69-b597-18bb27034244
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398610(v=OCS.15)
-ms:contentKeyID: 49297827
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planification pour les clients et les appareils'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for clients and devices in Lync Server
+ms:assetid: 7b45958a-bb98-4f69-b597-18bb27034244
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398610(v=OCS.15)
+ms:contentKeyID: 48184598
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3294a4e8d0f94e2cf8c2dd5d028da36266c7fd0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824896"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planification des clients et périphériques dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2012-06-04_
+# <a name="planning-for-clients-and-devices-in-lync-server-2013"></a>Planification des clients et des appareils dans Lync Server 2013
 
-Les rubriques de cette section décrivent comment planifier les clients et périphériques Lync Server 2013 au sein de votre organisation.
+</div>
 
-## Dans cette section
+<div id="mainSection">
 
-  - [Planification du déploiement des clients dans Lync Server 2013](lync-server-2013-planning-for-clients.md)
+<div id="mainBody">
 
-  - [Planification des clients mobiles dans Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
+<span> </span>
 
-  - [Planification pour les périphériques](lync-server-2013-planning-for-devices.md)
+_**Dernière modification de la rubrique:** 2012-06-04_
+
+Les rubriques de cette section expliquent comment planifier des clients et appareils Lync Server 2013 au sein de votre organisation.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
+
+  - [Planification pour les clients dans Lync Server 2013](lync-server-2013-planning-for-clients.md)
+
+  - [Planification pour les clients mobiles dans Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
+
+  - [Planification des appareils dans Lync Server 2013](lync-server-2013-planning-for-devices.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

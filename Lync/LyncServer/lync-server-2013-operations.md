@@ -1,23 +1,45 @@
-﻿---
-title: 'Skype Entreprise Server 2015 : opérations'
-TOCTitle: Opérations
-ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398344(v=OCS.15)
-ms:contentKeyID: 49297212
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Skype Entreprise Server 2015 : opérations'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Operations
+ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)
+ms:contentKeyID: 48184155
+ms.date: 01/27/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63fe79fbf30d41f3f365d3ae06027cb43e557b1f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825834"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Opérations dans Skype Entreprise Server 2015
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-01-26_
+# <a name="operations-in-lync-server-2013"></a>Opérations dans Skype Entreprise Server 2015
 
-Les rubriques de cette section indiquent comment utiliser les outils d’administration pour configurer et gérer votre déploiement de Lync Server 2013.
+</div>
 
-## Dans cette section
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2015-01-26_
+
+Les rubriques de cette section expliquent comment utiliser les outils de gestion pour configurer et gérer votre déploiement Lync Server 2013.
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
 
@@ -51,24 +73,40 @@ Les rubriques de cette section indiquent comment utiliser les outils d’adminis
 
   - [Gestion du service Enhanced 9-1-1 et du service d’emplacement dans Lync Server 2013](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
-  - [Gestion des services et des rôles serveur Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)
+  - [Gestion des services et rôles serveur Lync Server 2013](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
   - [Gestion des applications dans Lync Server 2013](lync-server-2013-managing-applications.md)
 
   - [Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 
-  - [Sauvegarde et restauration de Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
+  - [Sauvegarde et restauration de Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Configuration du contrôle d’intégrité dans Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Surveillance et configuration de l’intégrité dans Lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
 
-  - [Lync Server Management Shell](lync-server-2013-lync-server-management-shell.md)
+  - [Lync Server 2013 Management Shell](lync-server-2013-lync-server-management-shell.md)
 
   - [Lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md)
 
-## Voir aussi
+</div>
 
-#### Autres ressources
+<div>
 
-[Déploiement](lync-server-2013-deployment.md)  
-[Planification pour Lync Server 2013](lync-server-2013-planning.md)
+## <a name="see-also"></a>Voir aussi
+
+
+[Déploiement de Lync Server 2013](lync-server-2013-deployment.md)  
+[Planification de Lync Server 2013](lync-server-2013-planning.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

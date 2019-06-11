@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013 : Table MediationServers'
-TOCTitle: Table MediationServers
-ms:assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg412743(v=OCS.15)
-ms:contentKeyID: 49298345
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Table MediationServers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: MediationServers table
+ms:assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412743(v=OCS.15)
+ms:contentKeyID: 48184929
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e211bf9339df49faef7fa83bffa7c65b732b2684
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827199"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Table MediationServers dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="mediationservers-table-in-lync-server-2013"></a>Table MediationServers dans Lync Server 2013
 
-La table MediationServers est une table de prise en charge. Chaque enregistrement contient des informations sur un serveur de médiation impliqué dans les appels possédant des enregistrements dans la base de données.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2010-11-06_
+
+La table MediationServers est une table de prise en charge. Chaque enregistrement stocke des informations sur un serveur de médiation impliqué dans des appels ayant des enregistrements dans la base de données.
 
 
 <table>
@@ -36,7 +56,7 @@ La table MediationServers est une table de prise en charge. Chaque enregistremen
 <tbody>
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
-<td><p>Int</p></td>
+<td><p>int</p></td>
 <td><p>Principal</p></td>
 <td><p>Numéro unique identifiant ce serveur de médiation.</p></td>
 </tr>
@@ -44,8 +64,19 @@ La table MediationServers est une table de prise en charge. Chaque enregistremen
 <td><p><strong>MediationServer</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td><p> </p></td>
-<td><p>Nom du serveur de médiation</p></td>
+<td><p>Nom du serveur de médiation.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

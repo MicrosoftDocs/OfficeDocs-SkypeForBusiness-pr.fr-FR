@@ -1,79 +1,133 @@
-﻿---
-title: Restauration du serveur principal Enterprise Edition
-TOCTitle: Restauration du serveur principal Enterprise Edition
-ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Hh202163(v=OCS.15)
-ms:contentKeyID: 53095361
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: restauration d’un serveur principal Enterprise Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring an Enterprise Edition Back End Server
+ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202163(v=OCS.15)
+ms:contentKeyID: 51541446
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9e0121ee654846bcb60acc6da6847995b967a880
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823048"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restauration du serveur principal Enterprise Edition
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-18_
+# <a name="restoring-an-enterprise-edition-back-end-server-in-lync-server-2013"></a>Restauration d’un serveur principal Enterprise Edition dans Lync Server 2013
 
-Utilisez la procédure décrite dans cette rubrique dans les deux cas suivants :
+</div>
 
-  - La base de données primaire et la base de données miroir d’un serveur principal Enterprise Edition en miroir échouent.
+<div id="mainSection">
 
-  - Un serveur principal Enterprise Edition qui n’est pas en miroir échoue.
+<div id="mainBody">
 
-Si vous possédez un serveur principal Enterprise Edition en miroir et que seule la base de données miroir ou primaire échoue, voir [Restauration d’un serveur principal Enterprise Edition en miroir - Base de données primaire](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) pour restaurer la base de données primaire ou [Restauration d’un serveur principal Enterprise Edition en miroir - Miroir](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) pour restaurer la base de données miroir.
+<span> </span>
 
-Si le magasin central de gestion échoue, voir [Restauration du serveur hébergeant le magasin central de gestion](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si un serveur membre Enterprise Edition qui n’est pas le serveur principal échoue, voir [Restauration d’un serveur membre Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+_**Dernière modification de la rubrique:** 2013-02-18_
+
+Suivez la procédure décrite dans cette rubrique dans les deux cas suivants:
+
+  - Les bases de données principales et en miroir d’un serveur principal Enterprise Edition en miroir échouent.
+
+  - Le serveur principal d’une édition d’entreprise qui n’est pas en miroir ne fonctionne pas.
+
+Si vous disposez d’une édition d’entreprise en miroir et que seul le miroir ou la base de données principale échoue, voir [restauration d’un serveur principal Enterprise Edition dans Lync Server 2013-principal](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) pour la restauration de la base de données principale et la [restauration d’un serveur en miroir Serveur principal Enterprise Edition dans Lync Server 2013-Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) pour restaurer le miroir.
+
+Si la Banque centrale de gestion échoue, voir [restauration du serveur qui héberge le magasin de gestion central dans Lync server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si un serveur membre Enterprise Edition qui n’est pas le serveur principal ne fonctionne pas, consultez la rubrique [restauration d’un serveur membre Enterprise Edition dans Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+
+<div>
+
 
 > [!TIP]  
-> Nous vous recommandons de faire une image du système avant de démarrer la restauration. Vous pouvez utiliser cette image en tant que point de restauration au cas où un problème se produise pendant la restauration. Cette image pourra être effectuée après l’installation du système d’exploitation et SQL Server, et la restauration et réinscription des certificats.
+> Nous vous recommandons de prendre une copie d’image du système avant de commencer la restauration. Vous pouvez utiliser cette image comme point de restauration en cas de problème de restauration. Vous souhaiterez peut-être prendre la copie d’image après l’installation du système d’exploitation et de SQL Server, puis restaurez ou Réinscrivez les certificats.
 
-## Pour restaurer un serveur principal Enterprise Edition
 
-1.  Démarrez avec un nouveau serveur qui est doté du même nom de domaine complet (FQDN) que l’ordinateur qui a échoué, installez le système d’exploitation, puis restaurez ou réinscrivez les certificats.
+
+</div>
+
+<div>
+
+## <a name="to-restore-an-enterprise-edition-back-end-server"></a>Pour restaurer un serveur principal Enterprise Edition
+
+1.  Commencez par un serveur propre ou nouveau qui porte le même nom de domaine complet (FQDN) que l’ordinateur en panne, installez le système d’exploitation, puis restaurez ou Réinscrivez les certificats.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Suivez les procédures de déploiement de votre organisation pour effectuer cette étape.
+    > Pour effectuer cette étape, suivez les procédures de déploiement du serveur de votre organisation.
 
-2.  À partir d’un compte d’utilisateur qui est membre du groupe RTCUniversalServerAdmins, ouvrez une session sur le serveur que vous êtes en train de restaurer.
-
-3.  Installez SQL Server 2012 ou SQL Server 2008 R2, en conservant les noms d’instance qui existaient avant l’échec.
     
+    </div>
+
+2.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins, connectez-vous au serveur que vous restaurez.
+
+3.  Installez SQL Server 2012 ou SQL Server 2008 R2, en conservent le nom de l’instance avant l’échec.
+    
+    <div>
+    
+
     > [!NOTE]  
-    > Selon votre déploiement, le serveur principal peut comprendre plusieurs bases de données colocalisées ou distinctes. Suivez la même procédure pour installer SQL Server que celle que vous avez utilisée pour déployer le serveur, y compris les autorisations et les connexions SQL Server.
+    > Selon votre déploiement, le serveur principal peut inclure plusieurs bases de données colocalisées ou distinctes. Suivez la même procédure pour installer SQL Server que vous avez utilisé à l’origine pour déployer le serveur, y compris les autorisations et les connexions SQL Server.
 
-4.  Une fois que vous avez installé SQL Server, effectuez les actions suivantes :
     
-    1.  Démarrez le Générateur de topologie : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Générateur de topologie Lync Server**.
+    </div>
+
+4.  Après avoir installé SQL Server, procédez comme suit:
     
-    2.  Cliquez sur **Télécharger la topologie à partir d’un déploiement existant**, puis cliquez sur **OK**.
+    1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
     
-    3.  Sélectionnez la topologie, puis cliquez sur **Enregistrer**. Cliquez sur **Oui** pour confirmer la sélection.
+    2.  Cliquez sur **Télécharger la topologie à partir du déploiement existant**, puis cliquez sur **OK**.
     
-    4.  Cliquez avec le bouton droit sur le nœud **Lync Server 2013**, puis cliquez sur **Publier la topologie**.
+    3.  Sélectionnez la topologie, puis cliquez sur **Enregistrer**. Cliquez sur **Oui** pour confirmer votre sélection.
     
-    5.  Suivez l’Assistant **Publier la topologie**. Dans la page **Créer des bases de données**, sélectionnez les bases de données à recréer.
+    4.  Cliquez avec le bouton droit sur le nœud **Lync Server 2013** , puis cliquez sur **publier la topologie**.
+    
+    5.  Suivez la procédure **publier l’Assistant topologie** . Dans la page **créer des bases de données** , sélectionnez les bases de données que vous voulez recréer.
         
-        > [!NOTE]  
-        > Seules les bases de données autonomes sont affichées dans la page <strong>Créer des bases de données</strong>.    
-    6.  Si vous restaurez un serveur principal en miroir, poursuivez le reste de l’Assistant jusqu’à l’apparition de l’invite **Créer des bases de données miroir**. Sélectionnez la base de données à installer, puis terminez le processus.
-    
-    7.  Suivez le reste de l’Assistant, puis cliquez sur **Terminer**.
-    
-    > [!TIP]  
-    > Au lieu d’exécuter le Générateur de topologie, vous pouvez utiliser l’applet de commande <strong>Install-CsDatabase</strong>, pour créer chaque base de données, et l’applet de commande <strong>Install-CsMirrorDatabase</strong>, pour configurer la mise en miroir. Pour plus d’informations, voir la documentation Lync Server Management Shell.
+        <div>
+        
 
-5.  Restaurez les données utilisateur comme suit :
+        > [!NOTE]  
+        > Seules les bases de données autonomes sont affichées dans la page <STRONG>créer des bases de données</STRONG> .
+
+        
+        </div>
     
-    1.  Copiez ExportedUserData.zip à partir de $Backup\\ vers un répertoire local.
+    6.  Si vous restaurez une fin en miroir, continuez à suivre le reste de l’Assistant jusqu’à ce que l’invite **créer une base de données miroir** s’affiche. Sélectionnez la base de données que vous voulez installer, puis terminez la procédure.
     
-    2.  Démarrez Lync Server Management Shell : cliquez successivement sur **Démarrer**, **Tous les programmes**, **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+    7.  Suivez les autres instructions de l’Assistant, puis cliquez sur **Terminer**.
     
-    3.  Avant de restaurer les données utilisateur, vous devez arrêter les services Lync. Pour ce faire, tapez :
+    <div>
+    
+
+    > [!TIP]  
+    > Au lieu d’exécuter le générateur de topologie, vous pouvez utiliser l’applet de applet <STRONG>install-CsDatabase</STRONG> pour créer une base de données et l’applet de la cmdlet <STRONG>install-CsMirrorDatabase</STRONG> pour configurer la mise en miroir. Pour plus d’informations, reportez-vous à la documentation Lync Server Management Shell.
+
+    
+    </div>
+
+5.  Restaurez les données utilisateur en procédant comme suit:
+    
+    1.  Copiez ExportedUserData. zip de\\ $Backup dans un répertoire local.
+    
+    2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+    
+    3.  Avant de restaurer les données utilisateur, vous devez arrêter les services Lync. Pour ce faire, tapez:
         
             Stop-CsWindowsService
     
-    4.  Pour restaurer les données utilisateur, Sur la ligne de commande, tapez ce qui suit :
+    4.  Pour restaurer les données utilisateur, à partir de la ligne de commande, tapez:
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
@@ -81,11 +135,23 @@ Si le magasin central de gestion échoue, voir [Restauration du serveur héberge
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     
-    5.  Redémarrez les services Lync en tapant :
+    5.  Redémarrez les services Lync en entrant:
         
             Start-CsWindowsService
 
-6.  Si vous déployez l’Response Group sur ce pool, restaurez les données de configuration de Response Group. Pour plus d’informations, voir [Restauration des paramètres Response Group](lync-server-2013-restoring-response-group-settings.md).
+6.  Si vous avez déployé Response Group sur ce pool, restaurez les données de configuration du groupe de réponse. Pour plus d’informations, consultez la rubrique [restauration des paramètres du groupe de réponses dans Lync Server 2013](lync-server-2013-restoring-response-group-settings.md).
 
-7.  Si vous restaurez un serveur principal qui incluait des bases de données d’archivage ou de surveillance, restaurez les données d’archivage ou de surveillance à l’aide d’un utilitaire SQL Server, tel que SQL Server Management Studio. Pour plus d’informations, voir [Restauration des données de surveillance ou d’archivage](lync-server-2013-restoring-monitoring-or-archiving-data.md).
+7.  Si vous restaurez un serveur principal qui inclut l’archivage ou la surveillance de bases de données, restaurez les données d’archivage ou de contrôle à l’aide d’un outil SQL Server, tel que SQL Server Management Studio. Pour plus d’informations, reportez-vous à la rubrique [restauration de données d’analyse ou d’archivage dans Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
