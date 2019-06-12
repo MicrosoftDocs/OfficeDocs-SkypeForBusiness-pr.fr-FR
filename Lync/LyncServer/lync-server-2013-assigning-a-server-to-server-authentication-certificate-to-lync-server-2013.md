@@ -1,71 +1,107 @@
-﻿---
-title: "Attr. d’un certif. d’auth. de serveur à serveur à Microsoft Lync Server 2013"
-TOCtitle: "Attr. d’un certif. d’auth. de serveur à serveur à Microsoft Lync Server 2013"
-ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/JJ205253(v=OCS.15)
-ms:contentKeyID: 49298793
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Attribution d’un certificat d’authentification de serveur à serveur à Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013
+ms:assetid: c7413954-2504-47f4-a073-44548aff1c0c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205253(v=OCS.15)
+ms:contentKeyID: 48185367
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63d4e5e3ac8c544e83ab9cfb8f82a5c70f86131b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846943"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Attribution d’un certificat d’authentification de serveur à serveur à Microsoft Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-10-24_
+# <a name="assigning-a-server-to-server-authentication-certificate-to-microsoft-lync-server-2013"></a><span data-ttu-id="19d1a-102">Attribution d’un certificat d’authentification de serveur à serveur à Microsoft Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19d1a-102">Assigning a server-to-server authentication certificate to Microsoft Lync Server 2013</span></span>
 
-Pour déterminer si un certificat d’authentification de serveur à serveur a été affecté à Microsoft Lync Server 2013, exécutez la commande suivante à partir de Lync Server 2013 Management Shell :
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="19d1a-103">_**Dernière modification de la rubrique:** 2013-10-24_</span><span class="sxs-lookup"><span data-stu-id="19d1a-103">_**Topic Last Modified:** 2013-10-24_</span></span>
+
+<span data-ttu-id="19d1a-104">Pour déterminer si un certificat d’authentification de serveur à serveur est déjà attribué à Microsoft Lync Server 2013, exécutez la commande suivante à partir de Lync Server 2013 Management Shell:</span><span class="sxs-lookup"><span data-stu-id="19d1a-104">To determine whether or not a server-to-server authentication certificate has already been assigned to Microsoft Lync Server 2013, run the following command from the Lync Server 2013 Management Shell:</span></span>
 
     Get-CsCertificate -Type OAuthTokenIssuer
 
-Si aucune information de certificat n’est retournée, vous devez affecter un certificat de l’émetteur de jeton pour pouvoir utiliser l’authentification de serveur à serveur. En règle générale, n’importe quel certificat Lync Server 2013 peut être utilisé comme certificat OAuthTokenIssuer. Par exemple, votre certificat par défaut Lync Server 2013 peut aussi servir de certificat OAuthTokenIssuer. (Le certificat OAUthTokenIssuer peut aussi correspondre à n’importe quel certificat de serveur web qui inclut le nom de votre domaine SIP dans le champ Objet.) Les deux principales exigences pour le certificat utilisé pour l’authentification de serveur à serveur sont les suivantes : 1) le même certificat doit être configuré comme certificat OAuthTokenIssuer sur tous vos serveurs frontaux, et, 2) le certificat doit être au moins de 2 048 bits.
+<span data-ttu-id="19d1a-105">Si aucune information de certificat n’est renvoyée, vous devez attribuer un certificat de l’émetteur de jeton pour pouvoir utiliser l’authentification de serveur à serveur.</span><span class="sxs-lookup"><span data-stu-id="19d1a-105">If no certificate information is returned you must assign a token issuer certificate before you can use server-to-server authentication.</span></span> <span data-ttu-id="19d1a-106">En règle générale, tout certificat 2013 de Lync Server peut être utilisé comme certificat OAuthTokenIssuer. par exemple, vous pouvez également utiliser votre certificat par défaut Lync Server 2013 comme certificat OAuthTokenIssuer.</span><span class="sxs-lookup"><span data-stu-id="19d1a-106">As a general rule, any Lync Server 2013 certificate can be used as your OAuthTokenIssuer certificate; for example, your Lync Server 2013 default certificate can also be used as the OAuthTokenIssuer certificate.</span></span> <span data-ttu-id="19d1a-107">(Le certificat OAUthTokenIssuer peut également être un certificat de serveur Web incluant le nom de votre domaine SIP dans le champ Subject.) Les deux conditions principales requises pour le certificat utilisé pour l’authentification de serveur à serveur sont les suivantes: 1) le même certificat doit être configuré en tant que certificat OAuthTokenIssuer sur tous les serveurs frontaux. et 2) le certificat doit comporter au moins 2048 bits.</span><span class="sxs-lookup"><span data-stu-id="19d1a-107">(The OAUthTokenIssuer certificate can also be any Web server certificate that includes the name of your SIP domain in the Subject field.) The primary two requirements for the certificate used for server-to-server authentication are these: 1)the same certificate must be configured as the OAuthTokenIssuer certificate on all of your Front End Servers; and, 2) the certificate must be at least 2048 bits.</span></span>
 
-Si vous n’avez pas de certificat à même de servir pour l’authentification de serveur à serveur, vous pouvez obtenir un nouveau certificat, l’importer, puis l’utiliser pour l’authentification de serveur à serveur. Après avoir demandé et obtenu le nouveau certificat, vous pouvez ensuite ouvrir une session sur l’un de vos serveurs frontaux et passer par une commande Windows PowerShell semblable à celle-ci pour importer et affecter le certificat :
+<span data-ttu-id="19d1a-108">Si vous n’avez pas de certificat à même de servir pour l’authentification de serveur à serveur, vous pouvez obtenir un nouveau certificat, l’importer, puis l’utiliser pour l’authentification de serveur à serveur.</span><span class="sxs-lookup"><span data-stu-id="19d1a-108">If you do not have a certificate that can be used for server-to-server authentication you can obtain a new certificate, import the new certificate, and then use that certificate for server-to-server authentication.</span></span> <span data-ttu-id="19d1a-109">Après avoir demandé et obtenu le nouveau certificat, vous pouvez vous connecter à l’un de vos serveurs frontaux et utiliser une commande Windows PowerShell similaire à celle-ci pour importer et attribuer ce certificat:</span><span class="sxs-lookup"><span data-stu-id="19d1a-109">After you have requested and obtained the new certificate you can then log on to any one of your Front End Servers and use a Windows PowerShell command similar to this one to import and assign that certificate:</span></span>
 
     Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 
-Dans la commande précédente, le paramètre Path représente le chemin d’accès complet au fichier du certificat et le paramètre Password correspond au mot de passe ayant été affecté au certificat. Cette procédure ne doit être suivie qu’une seule fois : le service de réplication de Lync Server crée ensuite automatiquement un ensemble de tâches planifiées qui doivent déchiffrer et déployer le certificat sur tous vos serveurs frontaux.
+<span data-ttu-id="19d1a-110">Dans la commande précédente, le paramètre Path représente le chemin d’accès complet au fichier du certificat et le paramètre Password correspond au mot de passe affecté au certificat.</span><span class="sxs-lookup"><span data-stu-id="19d1a-110">In the preceding command the Path parameter represents the full path to the certificate file, and the Password parameter represents the password that was assigned to the certificate.</span></span> <span data-ttu-id="19d1a-111">Cette procédure doit être exécutée une seule fois: le service de réplication de Lync Server créera automatiquement un ensemble de tâches planifiées qui décryptera et déploiera le certificat sur tous vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="19d1a-111">This procedure should be run just one time: Lync Server's replication service will then automatically create a set of scheduled tasks that will decrypt and deploy the certificate to all your Front End Servers.</span></span>
 
-Une autre solution consiste à utiliser un certificat existant comme certificat pour votre authentification de serveur à serveur. (Comme indiqué avant, le certificat par défaut peut être utilisé comme certificat d’authentification de serveur à serveur.) Les deux commandes Windows PowerShell suivantes récupèrent la valeur de la propriété Thumbprint du certificat par défaut, puis utilise la valeur pour faire du certificat par défaut le certificat d’authentification de serveur à serveur :
+<span data-ttu-id="19d1a-112">Une autre solution consiste à utiliser un certificat existant comme certificat pour votre authentification de serveur à serveur.</span><span class="sxs-lookup"><span data-stu-id="19d1a-112">Alternatively, you can use an existing certificate as your server-to-server authentication certificate.</span></span> <span data-ttu-id="19d1a-113">(Comme indiqué, le certificat par défaut peut être utilisé en tant que certificat d’authentification de serveur à serveur.) La paire de commandes Windows PowerShell suivantes récupère la valeur de la propriété d’empreinte du certificat par défaut, puis utilise cette valeur pour définir le certificat par défaut du certificat d’authentification serveur à serveur:</span><span class="sxs-lookup"><span data-stu-id="19d1a-113">(As noted, the default certificate can be used as the server-to-server authentication certificate.) The following pair of Windows PowerShell commands retrieve the value of the default certificate's Thumbprint property, then use that value to make the default certificate the server-to-server authentication certificate:</span></span>
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 
-Dans la commande précédente, le certificat récupéré est configuré pour fonctionner comme certificat global d’authentification de serveur à serveur, c’est-à-dire que le certificat est répliqué sur, et utilisé par, tous vos serveurs frontaux. Là encore, cette commande ne doit être exécutée qu’une seule fois et seulement sur l’un de vos serveurs frontaux. Bien que tous les serveurs frontaux doivent utiliser le même certificat, ne configurez pas le certificat OAuthTokenIssuer sur chacun des serveurs frontaux. Configurez-le plutôt une fois, puis laissez le serveur de réplication de Lync Server s’occuper de la copie du certificat sur chaque serveur.
+<span data-ttu-id="19d1a-114">Dans la commande précédente, le certificat récupéré est configuré pour fonctionner en tant que certificat d’authentification serveur à serveur global; Cela signifie que le certificat sera répliqué vers et utilisé par tous vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="19d1a-114">In the preceding command, the retrieved certificate is configured to function as the global server-to-server authentication certificate; that means that the certificate will be replicated to, and used by, all your Front End Servers.</span></span> <span data-ttu-id="19d1a-115">Là encore, cette commande ne doit être exécutée qu’une seule fois et sur l’un de vos serveurs frontaux.</span><span class="sxs-lookup"><span data-stu-id="19d1a-115">Again, this command should only be run one time, and only on one of your Front End Servers.</span></span> <span data-ttu-id="19d1a-116">Même si tous les serveurs front-end doivent utiliser le même certificat, vous ne devez pas configurer le certificat OAuthTokenIssuer sur chaque serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="19d1a-116">Although all Front End Servers must use the same certificate, you should not configure the OAuthTokenIssuer certificate on each Front End Server.</span></span> <span data-ttu-id="19d1a-117">Au lieu de cela, configurez le certificat une seule fois, puis faites en sorte que le serveur de réplication de Lync Server prenne en charge la copie de ce certificat sur chaque serveur.</span><span class="sxs-lookup"><span data-stu-id="19d1a-117">Instead, configure the certificate once, then let Lync Server's replication server take care of copying that certificate to each server.</span></span>
 
-L’applet de commande Set-CsCertificate configure immédiatement le certificat en question pour remplir le rôle de certificat OAuthTokenIssuer actif. (Lync Server 2013 garde deux copies d’un type de certificat : le certificat actif et le certificat précédent.) Si vous avez besoin que le nouveau certificat commence immédiatement à servir de certificat OAuthTokenIssuer, vous devriez alors utiliser l’applet de commande Set-CsCertificate.
+<span data-ttu-id="19d1a-118">La cmdlet Set-CsCertificate prend le certificat en question et configure immédiatement ce certificat pour agir en tant que certificat OAuthTokenIssuer actuel.</span><span class="sxs-lookup"><span data-stu-id="19d1a-118">The Set-CsCertificate cmdlet takes the certificate in question and immediately configures that certificate to act as the current OAuthTokenIssuer certificate.</span></span> <span data-ttu-id="19d1a-119">(Lync Server 2013 conserve deux copies d’un type de certificat: le certificat actuel et le certificat précédent.) Si vous avez besoin que le nouveau certificat commence immédiatement à fonctionner en tant que certificat OAuthTokenIssuer, vous devez utiliser l’applet de certification Set-CsCertificate.</span><span class="sxs-lookup"><span data-stu-id="19d1a-119">(Lync Server 2013 keeps two copies of a certificate type: the current certificate and the previous certificate.) If you need the new certificate to immediately begin to act as the OAuthTokenIssuer certificate then you should use the Set-CsCertificate cmdlet.</span></span>
 
-Vous pouvez aussi passer par l’applet de commande Set-CsCertificate pour « transmettre » un nouveau certificat. « Transmettre » un certificat revient simplement à configurer un nouveau certificat pour qu’il devienne le certificat OAuthTokenIssuer actif à un moment précis. Par exemple, la commande suivante récupère le certificat par défaut puis le configure pour prendre la suite en tant que certificat OAuthTokenIssuer actif à partir du 1er juillet 2012 :
+<span data-ttu-id="19d1a-120">Vous pouvez également utiliser l’applet de commande Set-CsCertificate pour « transmettre » un nouveau certificat.</span><span class="sxs-lookup"><span data-stu-id="19d1a-120">You can also use the Set-CsCertificate cmdlet to "roll" a new certificate.</span></span> <span data-ttu-id="19d1a-121">« Transmettre » un certificat revient simplement à configurer un nouveau certificat pour qu’il devienne le certificat OAuthTokenIssuer actif à un moment précis.</span><span class="sxs-lookup"><span data-stu-id="19d1a-121">"Rolling" a certificate simply means that you configure a new certificate to become the current OAuthTokenIssuer certificate at a specified point in time.</span></span> <span data-ttu-id="19d1a-122">Par exemple, cette commande récupère le certificat par défaut, puis configure ce certificat pour prendre le contrôle en tant que certificat OAuthTokenIssuer actuel le 1er juillet 2012:</span><span class="sxs-lookup"><span data-stu-id="19d1a-122">For example, this command retrieves the default certificate and then configure that certificate to take over as the current OAuthTokenIssuer certificate as of July 1, 2012:</span></span>
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2012" -Roll
 
-Le 1er juillet 2012, le nouveau certificat est alors configuré comme certificat OAuthTokenIssuer actif et « l’ancien » certificat OAuthTokenIssuer est configuré en tant que certificat précédent.
+<span data-ttu-id="19d1a-123">Le 1er juillet, 2012 le nouveau certificat sera configuré comme le certificat OAuthTokenIssuer actuel et le certificat OAuthTokenIssuer "Old" sera configuré comme certificat précédent.</span><span class="sxs-lookup"><span data-stu-id="19d1a-123">On July 1, 2012 the new certificate will be configured as the current OAuthTokenIssuer certificate and the "old" OAuthTokenIssuer certificate will be configured as the previous certificate.</span></span>
 
-Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel à la console MMC Certificats pour exporter un certificat d’un serveur frontal puis l’importer sur tous vos autres serveurs frontaux. Assurez-vous dans ce cas d’exporter la clé privée en plus du certificat même.
+<span data-ttu-id="19d1a-124">Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez également utiliser la console MMC Certificats pour exporter un certificat à partir d’un serveur frontal, puis importer ce certificat sur tous les autres serveurs front-end.</span><span class="sxs-lookup"><span data-stu-id="19d1a-124">If you do not want to use Windows PowerShell you can also use the Certificates MMC console to export a certificate from one Front End Server and then import that same certificate on all your other Front End Servers.</span></span> <span data-ttu-id="19d1a-125">En pareil cas, veillez à exporter la clé privée en plus du certificat proprement dit.</span><span class="sxs-lookup"><span data-stu-id="19d1a-125">If you do this, make sure that you export the private key along with the certificate itself.</span></span>
 
-> [!CAUTION]  
-> Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Pendant l’exportation et l’importation des certificats de cette manière, Lync Server 2013 ne réplique pas le certificat sur chaque serveur frontal.
+<div>
 
 
-Quand le certificat est importé sur tous vos serveurs frontaux, il peut ensuite être affecté à l’aide de l’Assistant Déploiement de Lync Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :
+> [!WARNING]
+> <span data-ttu-id="19d1a-126">Dans ce cas, la procédure doit être effectuée sur chaque serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="19d1a-126">In this case, the procedure must be performed on each Front End Server.</span></span> <span data-ttu-id="19d1a-127">Lors de l’exportation et de l’importation de certificats de cette manière, Lync Server 2013 ne dupliquera pas ce certificat sur chaque serveur frontal.</span><span class="sxs-lookup"><span data-stu-id="19d1a-127">When exporting and importing certificates in this manner Lync Server 2013 will not replicate that certificate to each Front End Server.</span></span>
 
-1.  Cliquez successivement sur Démarrer, Tous les programmes, **Microsoft Lync Server 2013** et **Assistant Déploiement de Lync Server**.
 
-2.  Dans l’Assistant Déploiement, cliquez sur **Installer ou mettre à jour le système Lync Server**.
 
-3.  Dans la page Microsoft Lync Server 2013, cliquez sur le bouton **Exécuter** sous l’en-tête **Étape 3 : Demander, installer ou assigner des certificats**. (Remarque : si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
+</div>
 
-4.  Dans l’Assistant Certificat, sélectionnez le certificat **OAuthTokenIssuer**, puis cliquez sur **Affecter**.
+<span data-ttu-id="19d1a-128">Après l’importation du certificat sur tous vos serveurs frontaux, ce certificat peut ensuite être attribué à l’aide de l’Assistant Déploiement de Lync Server au lieu de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="19d1a-128">After the certificate has been imported to all your Front End Servers, that certificate can then be assigned by using the Lync Server Deployment Wizard instead of Windows PowerShell.</span></span> <span data-ttu-id="19d1a-129">Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez la procédure ci-dessous sur un ordinateur sur lequel l’Assistant est installé :</span><span class="sxs-lookup"><span data-stu-id="19d1a-129">To assign a certificate by using the Deployment Wizard, complete the following steps on a computer where the Deployment Wizard has been installed:</span></span>
 
-5.  Dans l’Assistant Assignation de certificat, dans la page **Assignation de certificat**, cliquez sur **Suivant**.
+1.  <span data-ttu-id="19d1a-130">Cliquez sur Démarrer, sur tous les programmes, sur **Microsoft Lync server 2013**, puis sur **Assistant Déploiement de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-130">Click Start, click All Programs, click **Microsoft Lync Server 2013**, and then click **Lync Server Deployment Wizard**.</span></span>
 
-6.  Dans la page **Magasin de certificats**, sélectionnez le certificat à utiliser pour l’authentification de serveur à serveur, puis cliquez sur **Suivant**.
+2.  <span data-ttu-id="19d1a-131">Dans l’Assistant Déploiement, cliquez sur **installer ou mettre à jour le système serveur Lync**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-131">In the Deployment Wizard, click **Install or Update Lync Server System**.</span></span>
 
-7.  Dans la page Résumé de l’affectation du certificat, cliquez sur **Suivant**.
+3.  <span data-ttu-id="19d1a-132">Sur la page Microsoft Lync Server 2013, cliquez sur le bouton **exécuter** sous le titre **étape 3: demander, installer ou affecter des certificats**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-132">On the Microsoft Lync Server 2013 page, click the **Run** button under the heading **Step 3: Request, Install or Assign Certificates**.</span></span> <span data-ttu-id="19d1a-133">(Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)</span><span class="sxs-lookup"><span data-stu-id="19d1a-133">(Note: If you have already installed certificates on this computer then the **Run** button will be labeled **Run Again**.)</span></span>
 
-8.  Dans la page Exécution de commandes, cliquez sur **Terminer**.
+4.  <span data-ttu-id="19d1a-134">Dans l’Assistant Certificat, sélectionnez le certificat **OAuthTokenIssuer**, puis cliquez sur **Affecter**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-134">In the Certificate Wizard, select the **OAuthTokenIssuer** certificate and then click **Assign**.</span></span>
 
-9.  Fermez l’Assistant Certificat et l’Assistant Déploiement.
+5.  <span data-ttu-id="19d1a-135">Dans l’Assistant Assignation de certificat, dans la page **Affectation de certificat**, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-135">In the Certificate Assignment wizard, on the **Certificate Assignment** page, click **Next**.</span></span>
+
+6.  <span data-ttu-id="19d1a-136">Dans la page **Magasin de certificats**, sélectionnez le certificat à utiliser pour l’authentification de serveur à serveur, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-136">On the **Certificate Store** page, select the certificate to be used for server-to-server authentication and then click **Next**.</span></span>
+
+7.  <span data-ttu-id="19d1a-137">Dans la page Résumé de l’affectation du certificat, cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-137">On the Certificate Assignment Summary page, click **Next**.</span></span>
+
+8.  <span data-ttu-id="19d1a-138">Dans la page Exécution de commandes, cliquez sur **Terminer**.</span><span class="sxs-lookup"><span data-stu-id="19d1a-138">On the Executing Commands page, click **Finish**.</span></span>
+
+9.  <span data-ttu-id="19d1a-139">Fermez l’Assistant Certificat et l’Assistant Déploiement.</span><span class="sxs-lookup"><span data-stu-id="19d1a-139">Close the Certificate Wizard and the Deployment Wizard.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
