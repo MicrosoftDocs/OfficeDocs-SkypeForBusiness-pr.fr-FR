@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, des médias et du bureau générés par Microsoft Teams, où les trouver et comment ils peuvent vous assister dans vos opérations de dépannage.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0484b84daa1bd8604c5f2caf9cb728f8fce25a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219778"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857397"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Utiliser les fichiers journaux pour le dépannage de Microsoft Teams
 =================================================
@@ -86,8 +86,12 @@ Les journaux des médias contiennent des données de diagnostic sur les appels a
 
 |Client |Lieu |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*. blog         |
+|            |%appdata%\Microsoft\Teams\skylib\*. blog
+|            |%appdata%\Microsoft\Teams\media-stack\*.etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
+|            |~/Library/Application Support/Microsoft/teams/\*skylib. blog         |
+
 
 
 <a name="desktop-logs"></a>Journaux du bureau

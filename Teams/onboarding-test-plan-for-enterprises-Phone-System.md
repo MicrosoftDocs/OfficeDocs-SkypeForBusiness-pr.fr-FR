@@ -7,7 +7,7 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Valider que les attentes de votre organisation sont remplies par le biais de test de système téléphonique dans les fonctionnalités d’équipes, les fonctionnalités et les possibilités d’utilisation.
+description: Vérifiez que les attentes de votre organisation sont satisfaites en testant le système téléphonique dans les fonctionnalités, les fonctionnalités et la facilité d’utilisation de teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -22,833 +22,833 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/11/2019
 ms.locfileid: "33898753"
 ---
-<a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Définissez et documentez votre système téléphonique avec des Plans de l’appel dans le plan de test des équipes pour les entreprises 
+<a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Définir et documenter votre système téléphonique avec des plans d’appels dans le plan de test teams pour les entreprises 
 ============================================================================================
 
-Une fois que vous avez définies et documentées votre système téléphonique avec les Plans d’appel dans la réussite de l’entreprise équipes et techniques de mise en œuvre dans le cadre de la phase de prévoir, l’étape suivante est validation que les attentes de votre organisation et les conditions sont remplies par le biais de fonctionnalité, la fonctionnalité et facilité d’utilisation. Vous devez effectuer cette étape de validation avant de déployer un déploiement pilote ou final dans votre environnement de production.
+Une fois que vous avez défini et documenté votre système téléphonique avec des plans d’appels dans les offres de réussite et d’implémentation technique de teams dans le cadre de la phase enVision, l’étape suivante consiste à valider le respect des attentes et des exigences de votre organisation. fonctionnalité, fonctionnalités et convivialité. Avant de déployer un déploiement pilote ou final dans votre environnement de production, vous devez effectuer cette étape de validation.
 
-Vous pouvez vous appuyer sur le plan de réussite définis lors de la phase de prévoir pour servir de base pour déterminer les activités, les attentes, caractéristiques et fonctionnalités des cas de test et étendue globale pour être évaluée pendant la phase de test.
+Vous pouvez utiliser le plan de réussite pour les entreprises que vous avez défini lors de la phase enVision afin de baser la détermination des activités, des attentes, des cas de test des fonctionnalités et des fonctionnalités ainsi que de l’étendue globale de la phase de test.
 
-<a name="identify-testing-support-stakeholders"></a>Identifier les parties prenantes de prise en charge de test
+<a name="identify-testing-support-stakeholders"></a>Identifier les personnes prenant en charge les tests
 -------------------------------------
 
-Lorsque vous préparez à évaluer le système téléphonique avec des fonctionnalités d’appel de Plans, créer une matrice de parties prenantes prise en charge de test pour identifier les rôles requis pour prendre en charge de la phase de test.
+Lorsque vous préparez l’évaluation du système téléphonique avec les fonctionnalités d’appels de plan, créez une matrice des parties prenantes du support de test pour identifier les rôles nécessaires à la prise en charge de la phase de test.
 
 > [!TIP]
-> Lorsque vous remplissez les équipes de prise en charge des parties prenantes matrice de test, vous pouvez voir que certains rôles sont les mêmes que celles identifiées pendant la phase de prévoir, mais avec les descriptions de rôle inclinées lors du test. Vous devrez peut-être identifier les rôles supplémentaires, selon les besoins de vos scénarios de tests.
+> Lorsque vous remplissez la matrice des parties prenantes en charge des tests d’équipes, il est possible que certains rôles soient les mêmes que ceux identifiés lors de la phase enVision, mais avec des descriptions de rôles penchées sur les tests. Vous devrez peut-être identifier des rôles supplémentaires en fonction de la configuration requise pour vos scénarios de test.
 
-#### <a name="teams-testing-support-stakeholder-matrix"></a>Test de matrice des parties prenantes de prise en charge des équipes
+#### <a name="teams-testing-support-stakeholder-matrix"></a>Matrice des parties prenantes en matière de tests teams
 
 > [!TIP]
 > 
-> Voici un exemple d’un modèle de test prise en charge des parties prenantes que vous pouvez utiliser pour documenter les parties prenantes que vous avez besoin pour prendre en charge de la phase de test.
+> Vous trouverez ci-dessous un exemple de modèle de parties prenantes en charge de tests que vous pouvez utiliser pour documenter les parties prenantes nécessaires à la prise en charge de la phase de test.
 
-| Rôle                          | Description du rôle                                                                                                                                                                          | Ressource affectée, informations de contact et l’emplacement |
+| Rôle                          | Description du rôle                                                                                                                                                                          | Ressource affectée, informations de contact et emplacement |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| Test de dirigeants  | <ul><li>Vérifier les fonctionnalités des équipes répondant aux besoins ; les relations privilégiées sont fluent commerciaux clés des scénarios par ordre de priorité.</li><li>Servir d’autorité ultime et supposent accountability, de fonctionnalité équipes objectifs d’évaluation.</li><li>Résoudre les problèmes transmis par le responsable de test.</li><li>Promotion de communication au sein de la société sur le test des objectifs.</li><li>Est responsable de la prise de décisions stratégiques clées.</li><li>Être responsable de la disponibilité des ressources nécessaires et de budget pour prendre en charge les efforts de test.</li><li>Lecteur de sensibilisation et acheter dans la campagne de test avec les autres parties prenantes.</li><li>Servir au sponsor test pendant la phase d’évaluation de test.</li></ul>                                                 | TBD                                                  |
-| Membres comité    | <ul><li>Mettre à jour d’intérêt et fournissent des instructions pour l’orientation globale du système téléphonique avec l’appel des Plans de déploiement du service.<li>Aider à conduite insight stratégique par le biais de conduite d’acheter dans l’organisation.</li></ul>                                                                        | TBD                                                  |
-| Chef de projet                  |<ul><li> Gérer et responsable de l’équipe de projet.</li><li>Coordonner les partenaires et les équipes de travail dans le projet.</li><li>Être responsable de la création et des plans de gestion de projet répondre aux résultats clés trimestriels.</li><li>Résoudre les problèmes fonctionnel.</li><li>Fournissent des mises à jour régulières aux organisateurs de projet.</li><li>Incorporer les connaissances de l’expérience utilisateur clés identifiés dans les résultats de test dans le plan d’adoption utilisateur globale.</li><li>Prospect business tous les mois et les avis opérationnels, contribuent à analyses d’activité trimestriels.</li></ul>                                                                                                                                                         | TBD                                                  |
-| Chef/architecte de la collaboration  | <ul><li>Est responsable de l’exécution de la stratégie de collaboration définie par les dirigeants de l’entreprise.</li><li>Analyser et choisir les produits de collaboration pour la société qui répondent aux objectifs de l’entreprise.</li><li>Est responsable de la conception des opérations pour les produits de collaboration.</li><li>Définir les modèles opération et prise en charge.</li><li>Contribuer aux analyses d’activité mensuels et trimestriels.</li></ul>                                                                                                 | TBD                                                  |
-| Gestionnaire de projets               | <ul><li>Développer et mettre à jour le plan de projet.</li><li>Gérer les livrables du projet inséré dans le plan de projet et le budget.</li><li>Enregistrer et de gérer les problèmes du projet, y compris les problèmes.</li><li>Mener des appels quotidienne toutes les semaines.</li><li>Sécurité de collaborer avec et fournir des mises à jour pour privilégiées project.</li><li>Travailler avec les équipes de gestion et la communication de modification interne à mettre à jour les modification approche et la communication des plans de gestion selon vos besoins.</li></ul>                                                                                                                                                   | TBD                                                  |
-| Directeur de réseau                  | <ul><li>Fournir l’entrée sur la conception du réseau pendant la phase de découverte.</li><li>Participer à des ateliers de phase de prévoir une planification.</li><li>Coordonner le travail de l’équipe de mise en réseau durant l’exécution du projet.</li></ul>                                                                                                                               | TBD                                                  |
-| Directeur de la sécurité                 | <ul><li>Fournir l’entrée sur la conception de la sécurité et les processus au cours de la phase de découverte.</li><li>Participer à des ateliers de phase de prévoir une planification.</li><li>Coordonner le travail de l’équipe de sécurité lors de l’exécution du projet.</li></ul>                                                                                                                | TBD                                                  |
-| Directeur de la téléphonie                | <ul><li>Fournir l’entrée sur la conception de téléphonie pendant la phase de découverte.</li><li>Participer à des ateliers de phase de prévoir une planification.</li><li>Coordonner le travail de l’équipe de téléphonie durant l’exécution du projet.</li></ul>                                                                                                                           | TBD                                                  |
-| Directeur de bureau                  | <ul><li>Fournir l’entrée sur les clients et le processus de mise à jour pendant la phase de découverte.</li><li>Participer à des ateliers de phase de prévoir une planification.</li><li>Coordonner le travail de l’équipe du bureau pendant l’exécution du projet.</li></ul>                                                                                                              | TBD                                                  |
-| Représentants d'unité commerciale | <ul><li>Contribuer à guides utilisateur Kit d’adoption et de la documentation.</li><li>Contribuent à et passer en revue, des exemples d’utilisation.</li></ul>                                                                                                                                   | TBD                                                  |
-| Administrateurs informatiques                     | <ul><li>Aide à la planification de test et de l’exécution (ce rôle n’est pour les professionnels de l’informatique).                                                                                                                       | TBD                                                  |
-| Propriétaire de service                 | <ul><li>Être responsable de l’opération du système téléphonique avec l’appel des Plans de service, tout.</li><li>Traiter en tant que propriétaire du système téléphonique avec des Plans de l’appel de service.</li></ul>                                                                                                               | TBD                                                  |
-| Responsable en chef de test             | <ul><li>Définir le plan de test, y compris les activités, dépendances, environnement, objectifs, stratégie, varieront (environnemental et humaine) et la chronologie requis pour la prise en charge de la phase de test.</li><li>Coordonner la préparation des dépendances de plan de test et remise.</li><li>Aligner sur la priorité pour la résolution de l’erreur de droite.</li><li>Servir le chemin de réaffectation pour le test des problèmes qui surviennent.</li><li>Communiquer et de rapport d’état de plan de test avec vos équipes internes et les parties prenantes désignés.</li><li>Documenter et présenter les résultats du test final.</li></ul> | TBD                                                  |
-| Système téléphonique par l’appel de Plans de testeur     | <ul><li>Passez en revue le plan de test de comprendre test requise, objectifs, chronologie, résolution des problèmes et des cas de test à exécuter.</li><li>Passez en revue et développer des cas de test de prise en charge du système téléphonique aux exigences d’acceptation et les fonctionnalités des Plans de l’appel.</li><li>Exécuter des cas de test et les résultats des tests de document.</li><li>Défauts de documents qu’ils se présentent et transformer les le responsable de Test pour la définition des priorités et la résolution.</li><li>Test de régression pour fermer défauts après que défaillance résolution a été confirmée.</li></ul>                                                                | TBD                                                  |
-| Testeur de réseau                | <ul><li>Passez en revue le plan de test de comprendre test requise, objectifs, chronologie, résolution des problèmes et des cas de test à exécuter.</li><li>Passez en revue les exigences de performances et d’acceptation de la préparation du réseau de prise en charge des cas de test.</li><li>Exécuter les tests liés à la préparation du réseau, y compris la connectivité réseau et validation des performances, la validation de QoS et validation de la configuration de double-tunnel.</li><li>Effectuez validation de bande passante pour les sites dans l’étendue à l’aide du Planificateur de réseau par le biais de MyAdvisor.</li><li>Préparation du réseau résultats des tests du document.</li><li>Défauts de documents qu’ils se présentent et transformer les le responsable de Test pour la définition des priorités et la résolution.</li><li>Test de régression pour fermer défauts après que défaillance résolution a été confirmée.</li></ul>                                                                | TBD                                                  |
-| Test de la sécurité               | <ul><li>Passez en revue le plan de test de comprendre test requise, objectifs, chronologie, résolution des problèmes et des cas de test à exécuter.</li><li>Passez en revue et développer des cas de test en matière de sécurité acceptation de prise en charge.</li><li>Exécutez le test relatif à l’acceptation de sécurité pour les cas de test.</li><li>Document sécurité aux tests d’acceptation des résultats.</li><li>Défauts de documents qu’ils se présentent et transformer les le responsable de Test pour la définition des priorités et la résolution.</li><li>Test de régression pour fermer défauts après que défaillance résolution a été confirmée.</li></ul>                                                                | TBD                                                  |
-| Testeur de téléphonie              | <ul><li>Passez en revue le plan de test de comprendre test requise, objectifs, chronologie, résolution des problèmes et des cas de test à exécuter.</li><li>Passez en revue les cas de test de prise en charge du service numéros portage acceptation et fonctionnalités requises.</li><li>Exécutez le test au service portage numéro, y compris le port numéro de service vers Office 365.</li><li>Exécuter des cas de test et les résultats des cas de test de document.</li><li>Défauts de documents qu’ils se présentent et transformer les le responsable de Test pour la définition des priorités et la résolution.</li><li>Test de régression pour fermer défauts après que défaillance résolution a été confirmée.</li></ul>                                                                | TBD                                                  |
-| Système téléphonique par l’appel des Plans de Test d’administration | <ul><li>Passez en revue le plan de test de comprendre test requise, objectifs, chronologie, résolution des problèmes et des cas de test à exécuter.</li><li>Passez en revue et développer des cas de test du système téléphonique de la prise en charge avec l’appel des Plans de réception et les fonctionnalités requises par l’administration.</li> <li>Exécuter des cas de test et les résultats des cas de test de document.</li><li>Défauts de documents qu’ils se présentent et transformer les le responsable de Test pour la définition des priorités et la résolution.</li><li>Test de régression pour fermer défauts après que défaillance résolution a été confirmée.</li></ul>                                                                | TBD                                                  |
+| Test du ou des sponsors de la direction  | <ul><li>Vérifiez que les fonctionnalités d’équipe répondent aux besoins de votre entreprise. les sponsors de la direction maîtrisent les résultats clés des entreprises et les scénarios d’utilisation prioritaires.</li><li>Faire office de service ultime et supposer une responsabilité, pour les objectifs de test des fonctionnalités d’équipe.</li><li>Aidez-vous à résoudre les problèmes que le responsable des tests a escaladé.</li><li>Communication du parrainement au sein de l’entreprise concernant les objectifs de test.</li><li>Être tenu de prendre des décisions stratégiques clés.</li><li>Être tenu de veiller à la disponibilité des ressources et du budget requis pour soutenir les efforts de test.</li><li>Sensibilisation et acquisition pour la campagne de test avec d’autres parties prenantes.</li><li>Faire office de sponsors lors de la phase d’évaluation du test.</li></ul>                                                 | DÉFINIR                                                  |
+| Membres du Comité de direction    | <ul><li>Soyez intéressé et fournissez des recommandations en matière de direction générale du système téléphonique avec le déploiement de services d’offres d’appels.<li>Assistez à la sensibilisation des connaissances stratégiques par le biais de l’achat au sein de l’organisation.</li></ul>                                                                        | DÉFINIR                                                  |
+| Chef de projet                  |<ul><li> Gérer et diriger l’équipe du projet.</li><li>Coordonnées des partenaires et équipes travaillant dans le projet.</li><li>Soyez responsable de la création et de la gestion des plans de projet pour les résultats de clés trimestrielles.</li><li>Résoudre les problèmes liés aux fonctions transversales.</li><li>Fournir des mises à jour régulières aux sponsors de Project.</li><li>Incorporation d’une connaissance clé de l’utilisateur les enseignements identifiés dans les résultats des tests dans l’offre globale d’adoption des utilisateurs.</li><li>Envoiez des revues mensuelles et opérationnelles et participez à des examens trimestriels de l’entreprise.</li></ul>                                                                                                                                                         | DÉFINIR                                                  |
+| Chef/architecte de la collaboration  | <ul><li>Être responsable de l’exécution de la stratégie de collaboration définie par les dirigeants de l’entreprise.</li><li>Analysez et sélectionnez des produits de collaboration pour l’entreprise qui répondent aux objectifs de votre entreprise.</li><li>Être responsable du design des opérations pour les produits de collaboration.</li><li>Définissez les modèles de fonctionnement et de support.</li><li>Contribuez aux révisions mensuelles et trimestrielles de l’entreprise.</li></ul>                                                                                                 | DÉFINIR                                                  |
+| Gestionnaire de projets               | <ul><li>Développement et mise à jour du plan de projet.</li><li>Gérer les livrables du projet en fonction du plan de projet et du budget.</li><li>Enregistrez et gérez les problèmes du projet, y compris les escalades.</li><li>Organisez des appels standup hebdomadaires.</li><li>Mettre en personne et fournir des mises à jour aux sponsors de Project Executive.</li><li>Utiliser la gestion des modifications internes et les équipes de communication pour mettre à jour l’approche de gestion des modifications et les plans de communication selon les besoins.</li></ul>                                                                                                                                                   | DÉFINIR                                                  |
+| Directeur de réseau                  | <ul><li>Fournir des informations sur la conception du réseau lors de la phase de découverte;</li><li>Participez à la planification des ateliers de phase enVision.</li><li>Coordonner le travail de l’équipe du réseau lors de l’exécution du projet.</li></ul>                                                                                                                               | DÉFINIR                                                  |
+| Directeur de la sécurité                 | <ul><li>Fournir des informations sur la conception et les processus de sécurité pendant la phase de découverte;</li><li>Participez à la planification des ateliers de phase enVision.</li><li>Coordonner le travail de l’équipe de sécurité lors de l’exécution du projet.</li></ul>                                                                                                                | DÉFINIR                                                  |
+| Directeur de la téléphonie                | <ul><li>Fournir une entrée lors de la phase de découverte;</li><li>Participez à la planification des ateliers de phase enVision.</li><li>Coordonner le travail de l’équipe de téléphonie lors de l’exécution du projet;</li></ul>                                                                                                                           | DÉFINIR                                                  |
+| Directeur de bureau                  | <ul><li>Fournir des informations sur les clients et le processus de mise à jour lors de la phase de découverte;</li><li>Participez à la planification des ateliers de phase enVision.</li><li>Coordonner le travail de l’équipe de bureau lors de l’exécution du projet;</li></ul>                                                                                                              | DÉFINIR                                                  |
+| Représentants d'unité commerciale | <ul><li>Contribuez aux guides d’adoption d’utilisateurs et aux matériaux.</li><li>Contribuer aux cas d’utilisation de votre entreprise.</li></ul>                                                                                                                                   | DÉFINIR                                                  |
+| Administrateurs informatiques                     | <ul><li>Assistez à la planification et à l’exécution des tests (ce rôle est destiné aux professionnels de l’informatique).                                                                                                                       | DÉFINIR                                                  |
+| Propriétaire de service                 | <ul><li>Être responsable du fonctionnement du système téléphonique avec service d’appels, le tout vers le haut.</li><li>Faire office de propriétaire du système téléphonique avec le service forfaits d’appels.</li></ul>                                                                                                               | DÉFINIR                                                  |
+| Test/responsable             | <ul><li>Définissez le plan de test, y compris les activités, les dépendances, l’environnement, les objectifs, la stratégie, la réapprovisionnement (environnemental et humaine) et la chronologie requise pour la prise en charge de la phase de test.</li><li>Coordonnées de la remise et de la disponibilité des dépendances de plan de test.</li><li>Aligner selon la priorité appropriée pour la résolution des défauts.</li><li>Faire office de chemin d’escalade pour les problèmes de tests qui surviennent.</li><li>Communiquez et signalez le statut d’un plan de test auprès d’équipes internes et de parties prenantes spécifiques.</li><li>Documenter et présenter les résultats des tests finaux.</li></ul> | DÉFINIR                                                  |
+| Système téléphonique avec testeur d’offres d’appels     | <ul><li>Passez en revue le plan de test pour comprendre les exigences de tests, les objectifs, la chronologie, la résolution des problèmes et les scénarios de test à exécuter.</li><li>Passez en revue et développez des cas de test prenant en charge le système téléphonique grâce aux exigences d’acceptation et de fonctionnalités des plans d’appel.</li><li>Exécuter des cas de test et des résultats de test de document.</li><li>Donnez des défauts de document au fur et à mesure qu’ils se produisent, et transformez-les en test de priorité et de résolution des problèmes.</li><li>Testez les régressions pour identifier les défauts après confirmation de la résolution de l’erreur.</li></ul>                                                                | DÉFINIR                                                  |
+| Testeur réseau                | <ul><li>Passez en revue le plan de test pour comprendre les exigences de tests, les objectifs, la chronologie, la résolution des problèmes et les scénarios de test à exécuter.</li><li>Passez en revue les cas de test prenant en charge l’acceptation et les exigences de performance du réseau.</li><li>Exécution de tests liés à la préparation du réseau, y compris la connectivité réseau, la validation de performance, la validation de la qualité de service (QoS) et la validation de la configuration du tunnel scindé.</li><li>Achever la validation de la bande passante pour les sites en étendue en utilisant le planificateur de réseau via MyAdvisor.</li><li>Documentation des résultats du test de disponibilité du réseau.</li><li>Donnez des défauts de document au fur et à mesure qu’ils se produisent, et transformez-les en test de priorité et de résolution des problèmes.</li><li>Testez les régressions pour identifier les défauts après confirmation de la résolution de l’erreur.</li></ul>                                                                | DÉFINIR                                                  |
+| Testeur de sécurité               | <ul><li>Passez en revue le plan de test pour comprendre les exigences de tests, les objectifs, la chronologie, la résolution des problèmes et les scénarios de test à exécuter.</li><li>Passez en revue et développez des cas de test prenant en charge les exigences d’approbation de sécurité.</li><li>Exécution de tests liés à l’approbation de sécurité des cas de test.</li><li>Les résultats des tests d’approbation de la sécurité des documents.</li><li>Donnez des défauts de document au fur et à mesure qu’ils se produisent, et transformez-les en test de priorité et de résolution des problèmes.</li><li>Testez les régressions pour identifier les défauts après confirmation de la résolution de l’erreur.</li></ul>                                                                | DÉFINIR                                                  |
+| Testeur de téléphonie              | <ul><li>Passez en revue le plan de test pour comprendre les exigences de tests, les objectifs, la chronologie, la résolution des problèmes et les scénarios de test à exécuter.</li><li>Passez en revue les cas de test prenant en charge le transfert de numéro de service et les exigences de fonctionnalités.</li><li>Exécutez des tests liés au transfert de numéro de service, notamment sur le port de numéro de service vers Office 365.</li><li>Exécuter des cas de test et des résultats de cas de test de documents.</li><li>Donnez des défauts de document au fur et à mesure qu’ils se produisent, et transformez-les en test de priorité et de résolution des problèmes.</li><li>Testez les régressions pour identifier les défauts après confirmation de la résolution de l’erreur.</li></ul>                                                                | DÉFINIR                                                  |
+| Système téléphonique avec test d’administration de plans d’appel | <ul><li>Passez en revue le plan de test pour comprendre les exigences de tests, les objectifs, la chronologie, la résolution des problèmes et les scénarios de test à exécuter.</li><li>Passez en revue et développez des cas de test prenant en charge le système téléphonique grâce aux exigences d’approbation et de fonctionnalités d’assistance.</li> <li>Exécuter des cas de test et des résultats de cas de test de documents.</li><li>Donnez des défauts de document au fur et à mesure qu’ils se produisent, et transformez-les en test de priorité et de résolution des problèmes.</li><li>Testez les régressions pour identifier les défauts après confirmation de la résolution de l’erreur.</li></ul>                                                                | DÉFINIR                                                  |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez quels rôles prise en charge et des parties prenantes tests, vous avez besoin pour test système téléphonique avec des Plans de l’appel des fonctionnalités de votre environnement.</li><li>Choisir les ressources qui vous affecterez pour les rôles des parties prenantes et prise en charge de test que vous avez identifié.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les rôles de prise en charge et des parties prenantes tests requis dans votre matrice des parties prenantes test de Support du document.</li><li>Informations de contact et les détails de l’emplacement pour chaque ressource que dans la matrice de parties prenantes de prise en charge de test de la liste de documents.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez la prise en charge des tests et des rôles des parties prenantes dont vous avez besoin pour tester le système téléphonique avec les fonctionnalités d’appel de plan dans votre environnement.</li><li>Déterminez les ressources que vous affecterez aux rôles d’assistance technique de test et d’intervenant que vous avez identifiés.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les rôles d’assistance technique de test et d’intervenant requis dans votre matrice des parties prenantes du support de test.</li><li>Documentez les informations de contact et les détails d’emplacement de chaque ressource que vous listez dans la matrice des parties prenantes du support de test.
 </table>
 
 
-<a name="define-phone-system-with-calling-plans-feature-requirements"></a>Définir le système téléphonique avec les exigences de la fonction appel de Plans 
+<a name="define-phone-system-with-calling-plans-feature-requirements"></a>Définition d’un système téléphonique avec la configuration requise pour les offres d’appels 
 ------------------------------------------------------------
 
-Dans le cadre de la définition de système téléphonique avec des Plans de l’appel des fonctionnalités requises pour les utilisateurs dans l’étendue, consultez la rubrique [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md).
-Ensuite, évaluer la dernière équipes public feuille de route pour déterminer :
+Dans le cadre de la définition d’un système téléphonique avec la configuration requise pour les utilisateurs dans le cadre de l’application, reportez-vous à la rubrique [système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
+Ensuite, évaluez la procédure publique de la dernière équipe pour déterminer:
 
--   Le système téléphonique avec des fonctionnalités d’appel de Plans vous envisagez de déployer pour les utilisateurs dans l’étendue.
+-   Le système téléphonique doté de fonctionnalités d’appels de plan que vous déploierez pour les utilisateurs de l’étendue.
 
--   Utilisateur système téléphonique avec appelant des Plans de fonctionnalités exigences, votre actuel Skype pour paysage de déploiement d’entreprise, Exchange et SharePoint.
+-   Système de téléphonie de l’utilisateur attendu avec les offres d’appels d’offres en fonction de votre paysage de déploiement actuel de Skype entreprise, Exchange et SharePoint.
 
--   Si vous pouvez confirmer que système téléphonique avec des Plans de l’appel des fonctionnalités décrites dans la feuille de route public le plus récent qui répondent à vos utilisateurs, les fonctionnalités et exigences d’étendue dans la chronologie de votre déploiement
-
-> [!TIP]
-> La feuille de route équipes le plus récent pour identifier le système téléphonique avec des Plans de l’appel de fonctionnalités dans l’étendue pour votre déploiement, consultez <https://aka.ms/O365Roadmap>.
-
-Maintenant que le système téléphonique et personnage appelant Plans ont été définis, les critères d’évaluation suivant sera l’expérience de l’interopérabilité avec des équipes. Pour plus d’informations sur l’expérience de l’interopérabilité avec les options de configuration disponibles, consultez [les équipes Microsoft et Skype pour l’interopérabilité de l’entreprise](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
-
-#### <a name="phone-system-with-calling-plans-feature-definition"></a>Système téléphonique avec l’appel des Plans de la définition de fonctionnalité
+-   La possibilité de vérifier le système téléphonique avec les fonctionnalités d’appel d’appels décrite dans la dernière gamme publique qui répond à vos besoins en matière d’utilisation, de fonctionnalités et d’étendue dans la chronologie de votre déploiement;
 
 > [!TIP]
-> Voici un exemple d’un système téléphonique avec le modèle de définition des Plans de l’appel que vous pouvez utiliser le système téléphonique avec des fonctionnalités de groupe utilisateur et de l’administration des Plans de l’appel doit être évaluée de document.
+> Le plan d’identification du système téléphonique avec les fonctionnalités d’appel de plan dans le cadre de votre déploiement est <https://aka.ms/O365Roadmap>disponible à l’adresse.
+
+À présent que le système téléphonique doté de personnes et de fonctionnalités de plans d’appel a été défini, le prochain critère d’évaluation sera l’interface d’interopérabilité avec Teams. Pour plus d’informations sur l’interopérabilité et sur les options de configuration disponibles, reportez-vous à la rubrique [Microsoft teams et interopérabilité de Skype entreprise](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
+
+#### <a name="phone-system-with-calling-plans-feature-definition"></a>Système téléphonique avec définition de la fonction plans d’appel
+
+> [!TIP]
+> Vous trouverez ci-dessous un exemple de système téléphonique avec un modèle de définition de plans d’appel que vous pouvez utiliser pour documenter le système téléphonique avec les fonctionnalités d’administration de plan d’appel et de groupe d’utilisateurs à évaluer.
 
 
-| Échelle de l’entreprise   | Réunions de collaboration    | Plateforme et appareils   | Professionnels de l’informatique  | Groupe supplémentaires, spécifiques au site  | Conditions sont remplies par la dernière feuille de route équipes |
+| Niveau entreprise   | Réunions de collaboration    | Plateforme et périphériques   | Professionnels de l’informatique  | Groupe professionnel supplémentaire, propre à un site  | Exigences remplies par le plan de la dernière équipe teams |
 |-------------------------------------------|----------------------------|------------------|------------------------|-------------------|-------------------|
-| <ul><li>Système téléphonique fonctionnalités d’appel :<ul><li>Transfert invisible</li><li>Blocage des appels</li><li>Transfert d’appel</li><li>ID d’appelant de masquage</li><li>Prise en charge E911</li><li>Numérotation d’extension</li><li>Mise en attente</li><li>Gestion des appels multiples</li><li>Sonnerie simultanée</li><li>Messagerie vocale Azure</li></ul></li><li>Prise en charge du plan appel</li></ul> |<ul><li>Skype pour les entreprises-à-appel des équipes</li></ul> |<ul><li> Prise en charge des fonctionnalités Windows, les réunions de clients Mac équipes</li><li>Fonctionnalité de réunions client navigateur équipes en charge pour :<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>iOS et Android équipes client réunions fonctionnalité prise en charge</li><li>Prise en charge TTY</li></ul> | <ul><li>Portail de diagnostic de la qualité des appels</li><li>Plan de numérotation client</li><li>Stratégies de client ID de l’appelant</li><li>Activer l’appel de qualité analytique (CQD)</li></ul> | <ul><li>Valider les équipes basées sur un ordinateur portable d’entreprise image des fonctionnalités de réunion</li><li>Prise en charge des langues spécifiques</li><li>Paramètres de stratégie de groupe appliqués pour un scénario donné d’utilisateurs ou un site spécifique</li></ul> | Oui  |
+| <ul><li>Fonctionnalités d’appel du système téléphonique:<ul><li>Transfert en aveugle</li><li>Blocage des appels</li><li>Transfert d’appel</li><li>Masquage de l’identification de l’appelant</li><li>Support E911</li><li>Numéro de téléphone</li><li>Mise en attente des appels</li><li>Gestion de plusieurs appels</li><li>Sonnerie simultanée</li><li>Boîte vocale Azure</li></ul></li><li>Support technique pour les appels</li></ul> |<ul><li>Appels Skype entreprise-à-teams</li></ul> |<ul><li> Windows, prise en charge des fonctionnalités de réunion du client de Mac teams</li><li>La prise en charge des réunions du client teams du navigateur pour:<ul><li>Chrome</li><li>Microsoft Edge</li></ul></li><li>support technique pour les réunions iOS et Android</li><li>Prise en charge TTY</li></ul> | <ul><li>Portail de diagnostic de la qualité des appels</li><li>Plan de numérotation client</li><li>Stratégies d’ID d’appelant client</li><li>Activer l’analyse de la qualité des appels (bord)</li></ul> | <ul><li>Valider les fonctionnalités des réunions teams en fonction de l’image d’un ordinateur portable</li><li>Prise en charge de langues spécifiques</li><li>Paramètres d’objets de stratégie de groupe appliqués pour un scénario utilisateur ou un site spécifique donné</li></ul> | Oui  |
 
 
 
 
-#### <a name="phone-system-with-calling-plans-user-functionality-definition"></a>Système téléphonique avec des Plans de l’appel de définition de fonctionnalité utilisateur
+#### <a name="phone-system-with-calling-plans-user-functionality-definition"></a>Système téléphonique avec la définition des fonctionnalités utilisateur de plans d’appel
 
 > [!TIP]
-> Vous trouverez ci-dessous un exemple d’un modèle de fonctionnalités utilisateur que vous pouvez utiliser l’expérience utilisateur requis de document est basé sur le système téléphonique avec des Plans de l’appel de fonctionnalités à évaluer.
+> Vous trouverez ci-dessous un exemple de modèle de fonctionnalité utilisateur que vous pouvez utiliser pour documenter l’utilisation requise en fonction du système téléphonique dont sont évalués les fonctions d’appel.
 
 
-| Expérience d’Exchange                          | Expérience de SharePoint                            | Expérience de stratégie d’interopérabilité équipes |
+| Découverte d’Exchange                          | Découverte de SharePoint                            | Expertise de la stratégie d’interopérabilité dans teams |
 |----------------------------------------------|--------------------------------------------------|------------------------------------------|
-| <ul><li>Créer des équipes (création d’un groupe Office activée)</li><li>Rejoindre des équipes</li><li>Créer des canaux</li><li>Créer et afficher des réunions</li><li>Modifier une image de profil utilisateur</li><li>Ajouter et configurer des connecteurs</li><li>Ajouter et configurer des onglets</li><li>Ajouter et configurer des bots</li></ul> | <ul><li>Stocker et partager des fichiers dans des conversations d’équipes</li><li>Magasin et de partage et de fichiers dans les salles de conversation privées (basés sur OneDrive)</li></ul> | <ul><li>ChatDefaultClient : par défaut</li><li>CallingDefaultClient : par défaut</li></ul>      |
+| <ul><li>Créer des équipes (la création de groupes Office est activée)</li><li>Rejoindre des équipes</li><li>Créer des canaux</li><li>Créer et afficher des réunions</li><li>Modifier une image de profil utilisateur</li><li>Ajouter et configurer des connecteurs</li><li>Ajouter et configurer des onglets</li><li>Ajouter et configurer des bots</li></ul> | <ul><li>Stocker et partager des fichiers dans les conversations d’équipe</li><li>Stocker et partager des fichiers et des fichiers dans des discussions privées (en fonction de OneDrive)</li></ul> | <ul><li>ChatDefaultClient: par défaut</li><li>CallingDefaultClient: par défaut</li></ul>      |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li> Décider quels système téléphonique avec des Plans de l’appel des fonctionnalités de catégorie vous envisagez de déployer dans votre environnement.</li><li>Identifier votre système téléphonique de l’utilisateur à l’appel des Plans de fonctionnalités exigences votre Skype actuel pour paysage de déploiement d’entreprise, Exchange et SharePoint.</li><li>Décidez que vous envisagez de déployer l’expérience interopérabilité équipes.</li><li>Passez en revue la feuille de route public équipes le plus récent et déterminer si les fonctionnalités de la charge de travail en cours répondent à votre scénario de déploiement.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Le système téléphonique avec des Plans de l’appel des fonctions de catégorie requis pour prendre en charge votre système téléphonique avec l’appel des Plans de déploiement de document.</li><li>Document utilisateur système téléphonique avec les Plans de l’appel des fonctionnalités et exigences d’interopérabilité donnés votre actuel Skype pour paysage de déploiement d’entreprise, Exchange et SharePoint.</li><li>Si l’équipes public actualisé représentant le système téléphonique avec les fonctions d’appel de Plans respecte les besoins et les exigences de minutage de votre déploiement du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li> Déterminez le système téléphonique doté de la catégorie plans d’appel que vous déploierez dans votre environnement.</li><li>Identifiez votre système téléphonique utilisateur à l’aide de la fonctionnalité offres d’appels qui vous a donné votre environnement de déploiement actuel de Skype entreprise, Exchange et SharePoint.</li><li>Déterminez l’efficacité de l’interopérabilité entre les équipes que vous déploierez.</li><li>Passez en revue la plan d’évolution publique de la dernière équipe et déterminez si les capacités de charge de travail actuelles répondent à votre chronologie de déploiement.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez le système téléphonique avec les fonctionnalités de catégorie offres d’appel requises pour prendre en charge votre système téléphonique avec le déploiement d’offres d’appels.</li><li>Le système téléphonique des utilisateurs avec des offres d’appel et des fonctionnalités d’interopérabilité pour le déploiement actuel de Skype entreprise, Exchange et SharePoint.</li><li>Documentez si la gamme de formations publiques de la dernière équipe qui représente le système téléphonique avec les fonctionnalités d’appels d’offre répond aux besoins en matière d’entreprise et au minutage de votre déploiement.</li></ul></td></tr>
 </table>
 
-<a name="define-and-document-your-phone-system-with-calling-plans-test-plan"></a>Définissez et documentez votre système téléphonique avec le plan de test des Plans de l’appel
+<a name="define-and-document-your-phone-system-with-calling-plans-test-plan"></a>Définir et documenter votre système téléphonique avec le plan de test des offres d’appels
 ------------------------------------------------------------------
 
-Une fois que vous avez défini le système téléphonique avec des Plans de l’appel des fonctions dans la portée, l’étape suivante consiste à créer le plan de test. À un niveau élevé, le plan de test comprend la stratégie globale de test et la méthodologie que vous allez utiliser pour prendre en charge la validation de la fonctionnalité dans le processus de test.
+Après avoir défini le système téléphonique avec les fonctionnalités d’appels de plan dans l’objectif, l’étape suivante consiste à créer le plan de test. À un niveau élevé, le plan de test englobe la stratégie de test générale et la méthodologie que vous utiliserez pour la prise en charge de la validation des fonctionnalités dans le processus de test.
 
-À un niveau élevé, le plan de test doit inclure :
+À un niveau élevé, le plan de test doit inclure:
 
--   **Test étendue :** Récapitule les domaines (objectifs, des scénarios et objectifs) doit être évaluée en tant que partie de la phase de test
+-   **Étendue des tests:** Résume les zones ciblées (objectifs, scénarios et objectifs) à évaluer dans le cadre de la phase de test.
 
--   **Cas de Test :** L’ensemble des cas de test à valider pour les fonctionnalités de système téléphonique avec des Plans de l’appel dans une étendue
+-   **Scénarios de test:** Ensemble de cas de test à valider pour le système téléphonique avec les fonctionnalités d’appels d’offres en matière d’étendue
 
--   **Test de ressources :** Une matrice des ressources requises pour prendre en charge de l’effort de test à partir d’un point de vue environnemental, techniques et le personnel
+-   **Ressources de test:** Matrice de ressources nécessaires à la prise en charge des efforts de test d’un point de vue environnemental, technique et personnel
 
--   **Planification de test (chronologie) :** Représente les lors de tests commencera combien il est probable à la dernière, et lorsque vous prévoyez de mettre fin à la phase de test
+-   **Planning de test (chronologie):** Représente au début du test, la durée de la dernière tentative et la date de fin de la phase de test.
 
--   **Annuler l’inscription de création de rapports et de correction :** Suivi des instructions pour comment les problèmes de test doivent être déclarées et triés
+-   **Rapport de défectuosité et correction:** Recommandations en matière de rapports, de suivi et de triage des problèmes liés aux tests
 
--   **Anomalies triage et escalade :** Plan pour comment et quand une escalade défaut doit être effectuée.
+-   **Triage et escalade de défaut:** Plan du mode et de la date de début d’une escalade de défaut
 
--   **Suspension et la sortie des critères de test :** Critères du plan d’orientation permettant l’approbation pour quitter la phase de test ou de test pause jusqu'à ce que les défauts par ordre de priorité sont résolus
+-   **Test de la sortie et du critère de suspension:** Recommandations en matière de contour pour la fermeture de la phase de test ou la mise en suspens
 
--   **Tester livrables :** Résumé dont résultats seront développés et remis pour prendre en charge à l’acceptation et quitter le processus de test
-
-> [!TIP]
->   Une méthodologie de test peut déjà exister dans votre organisation, mais les conseils ci-dessous indique les meilleures pratiques qui peuvent être incluses ou exploitées séparément pour les fonctionnalités d’équipes tests dans votre environnement.
-
-Dans les sections qui suivent vous trouverez des instructions prescrites supplémentaires qui vous aideront à des décisions spécifiques et les modèles et les rubriques vous permet de prendre en compte lorsque vous avez terminé votre plan de test.
-
-### <a name="define-and-document-testing-scope"></a>Définissez et documentez la portée du test
-
-Lorsque vous utilisez pour développer votre plan de test, vous devez définir la portée du test, de mise en surbrillance de la charge de travail et la liste des fonctionnalités que vous souhaitiez évaluer.
-
-L’étendue d’évaluation correctement de système téléphonique avec des fonctionnalités d’appel Plans généralement comprend :
-
--   Système téléphonique avec l’appel des Plans de la disponibilité du site
-
--   Système téléphonique avec l’appel des Plans de l’expérience utilisateur
-
--   Système téléphonique avec l’administration des Plans de l’appel
-
-#### <a name="phone-system-with-calling-plans-testing-scope"></a>Système téléphonique avec l’appel des Plans de test étendue
+-   **Tests de livrables:** Résumé des résultats qui seront développés et fournis pour prendre en charge l’acceptation et la sortie de la signature
 
 > [!TIP]
->   Voici un exemple de modèle test étendue que vous pouvez utiliser le système téléphonique avec des fonctionnalités de groupe utilisateur et de l’administration des Plans de l’appel doit être évaluée de document.
+>   Une méthodologie de test peut déjà exister au sein de votre organisation, mais les conseils ci-dessous illustrent des pratiques recommandées qui peuvent être incluses ou optimisées séparément pour le test des fonctionnalités d’équipes dans votre environnement.
 
-| Système téléphonique avec l’appel des Plans de la disponibilité du site                                                                                                                                                                                    | Système téléphonique avec l’appel des Plans de l’expérience utilisateur                                                                                                                                                                                         | Système téléphonique avec l’expérience de l’administration des Plans de l’appel                                                                           |
+Dans les sections qui suivent, vous trouverez des instructions prescrites supplémentaires qui vous aideront à prendre des décisions spécifiques et des modèles et des rubriques que vous devez prendre en considération lors de la fin de votre plan de test.
+
+### <a name="define-and-document-testing-scope"></a>Définir et étendue de l’évaluation des documents
+
+Lorsque vous travaillez pour développer votre plan de test, vous devez définir le niveau de l’étendue des tests avant, en mettant en évidence la charge de travail et la liste de fonctionnalités que vous évaluez.
+
+L’objectif de l’évaluation correcte du système téléphonique et des plans d’appel inclut les fonctionnalités suivantes:
+
+-   Système téléphonique avec les offres d’appels prêts sur le site
+
+-   Système téléphonique avec l’interface utilisateur de offres d’appels
+
+-   Système téléphonique avec administration de plans d’appel
+
+#### <a name="phone-system-with-calling-plans-testing-scope"></a>Système téléphonique avec l’étendue des tests de plans d’appel
+
+> [!TIP]
+>   Vous trouverez ci-dessous un exemple de modèle d’étendue de test que vous pouvez utiliser pour documenter le système téléphonique avec les fonctionnalités d’administration de plans d’appel et de groupe d’utilisateurs à évaluer.
+
+| Système téléphonique avec les offres d’appels prêts sur le site                                                                                                                                                                                    | Système téléphonique avec l’interface utilisateur de offres d’appels                                                                                                                                                                                         | Système téléphonique avec une interface d’administration de plans d’appel                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| <ul><li>La bande passante planificateur planification (via MyAdvisor)<li></li>Validation de performances et de connectivité réseau (via Skype pour l’outil d’évaluation réseau Business)<li></li>Qualité de la validation du service (QoS)<li></li>Validation de fractionnement-tunnel l’accès à distance</li></ul>|<ul><li>Fonctionnalités du système PBX<li></li>PSTN d’appel (nationales et internationales)<li></li> Émission et réception d’appels PSTN<li></li>Messagerie vocale Azure<li></li>E911<li></li>Plan de numérotation client<li></li>Masquage de l’ID d’appelant de client <li></li>Fonctionnalités de contrôle d’appel avancées (par exemple, de transfert d’appel la sonnerie simultanée)</li></ul> |<ul><li>Attribution de licences</li><li>Numéro d’abonné portage vers Office 365</li><li>Système téléphonique avec l’appel des Plans de génération de rapports</li><li>Création de rapports (CQD) de la qualité des appels</li></ul> |
+| <ul><li>Planification de la bande passante de planificateur de réseaux (via MyAdvisor)<li></li>Connexion réseau et validation des performances (via l’outil d’évaluation du réseau Skype entreprise)<li></li>Validation de la qualité de service (QoS)<li></li>Validation du tunnel d’accès distant</li></ul>|<ul><li>Fonctionnalités PBX<li></li>Appel RTC (national et international)<li></li> Placement et réception d’appels RTC<li></li>Boîte vocale Azure<li></li>E911<li></li>Plan de numérotation client<li></li>Masquage de l’ID d’appelant client <li></li>Fonctionnalités avancées de contrôle d’appel (par exemple, le transfert d’appel et la sonnerie simultanée)</li></ul> |<ul><li>Attribution de licence</li><li>Portage des numéros d’abonnés vers Office 365</li><li>Système téléphonique avec rapports d’offres d’appels</li><li>Rapports sur la qualité des appels (bord)</li></ul> |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez le système téléphonique avec l’appel des Plans de test étendue en identifiant les fonctionnalités doit être évaluée par sujet.</li><li>Décider supplémentaires buts et objectifs pour l’évaluation.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Le système téléphonique avec des fonctionnalités de Plans de l’appel doit être évaluée par sujet du document.</li><li>Autres buts et objectifs pour l’évaluation du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez le système téléphonique avec les offres d’appels qui testent l’étendue en identifiant les fonctionnalités qui doivent être évaluées par la zone de focalisation.</li><li>Déterminez les objectifs et les objectifs supplémentaires à des fins d’évaluation.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez le système téléphonique avec les fonctionnalités d’offres d’appels qui doivent être évaluées par la zone de focalisation.</li><li>Documenter des buts et objectifs supplémentaires pour l’évaluation.</li></ul></td></tr>
 </table>
 
-### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Définir et système téléphonique de documents avec des Plans de l’appel des cas de test
+### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Définir et documenter un système téléphonique avec des cas de test de plans d’appel
 
-Une fois que vous avez défini le système téléphonique avec les fonctionnalités d’appel des Plans de déploiement du client et scénarios côte à côte avec Skype pour les entreprises (le cas échéant), l’étape suivante consiste à formuler nécessaires pour évaluer le système téléphonique avec des Plans de l’appel de fonctionnalités dans les cas de test étendue. À un niveau élevé, le cas de test sont regroupées par sujet généralement et incluent :
+Après avoir défini le système téléphonique avec les fonctionnalités de plans d’appel, le déploiement de clients et les scénarios côte à côte avec Skype entreprise (le cas échéant), l’étape suivante consiste à formuler les cas de test requis pour évaluer le système téléphonique avec les fonctionnalités d’appel d’appels dans hors. À un niveau élevé, les cas de test sont généralement groupés par zone de focalisation et incluent les éléments suivants:
 
--   **Titre des cas de Test :** Évaluation de la zone focus de la fonctionnalité de test (par exemple, le système téléphonique avec des Plans de l’appel)
+-   **Titre du cas de test:** Zone focalisée de la fonctionnalité que le test évalue (par exemple, un système téléphonique avec des plans d’appel)
 
--   **Description des cas de Test :** Les fonctionnalités de résumé décrivant les objectifs du test en cours d’évaluation
+-   **Description de cas de test:** Récapitulatif des buts des fonctions de test évaluées
 
--   **Instructions de cas de Test :** Étapes à suivre afin d’exécuter correctement le cas de test en cours d’exécution
+-   **Instructions de cas de test:** Étapes à suivre pour exécuter correctement le cas de test exécuté
 
--   **Environnement requis (configuration requise) :** Instructions d’installation requises pour exécuter correctement le test
+-   **Environnement requis (prérequis):** Instructions de configuration nécessaires à l’exécution correcte du test
 
--   **Ressource requise :** Ressources humaines requises pour l’évaluation et l’exécution du test
+-   **Ressource requise:** Ressources humaines requises pour l’évaluation et l’exécution appropriées du test
 
--   **Résultat attendu :** Le résultat souhaité après que le test se termine avec succès
+-   **Résultats attendus:** Résultat attendu après le test réussi
 
 > [!NOTE]
->   L’approche et le niveau de détail requis pour la création de cas de test peuvent varier au sein de votre organisation, il est préférable de suivre une approche qui autorise un niveau de détail adéquat encore allie minutie des raisons de commodité, pour prendre en charge de test global facilité de gestion.
+>   Dans la mesure où l’approche et le niveau de détail requis pour la création de cas de test peuvent varier au sein de votre organisation, il est recommandé de suivre une approche permettant d’obtenir un niveau de détail approprié pour la prise en charge des tests généraux. facilité.
 
 > [!TIP]
->   Pour faciliter la création des cas de test comme point de départ, vous trouverez la liste de téléphone système Guide de l’utilisateur disponible à l’adresse [équipes de réunions et les appels](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
+>   Pour vous aider à effectuer des tests de création de cas de test en tant que point de départ, consultez la liste des recommandations en matière d’utilisation du système téléphonique disponibles aux [réunions et aux appels d’équipe](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8).
 
-#### <a name="phone-system-with-calling-plans-test-case"></a>Système de téléphone à appeler des Plans de cas de test
+#### <a name="phone-system-with-calling-plans-test-case"></a>Système téléphonique avec un cas de test de plans d’appel
 
 > [!TIP]
->   Voici un exemple de modèle de cas de test que vous pouvez utiliser le système téléphonique avec des fonctionnalités de groupe utilisateur et de l’administration des Plans de l’appel doit être évaluée de document.
+>   Vous trouverez ci-dessous un exemple de modèle de cas de test que vous pouvez utiliser pour documenter le système téléphonique avec les fonctionnalités d’administration de plans d’appel et de groupe d’utilisateurs à évaluer.
 
-Système téléphonique par l’appel de Plans de Validation
+Système téléphonique avec validation de plans d’appel
 
-| ID de cas de test | Titre du cas de test               | Description des cas de test                                                  | Environnement requis pour l’exécution de cas de test                                               | Étapes requises pour l’exécution de cas de test                                                                                                                                                          | Test des ressources nécessaires              |
+| ID de cas de test | Titre du cas de test               | Description de cas de test                                                  | Environnement requis pour l’exécution de cas de test                                               | Étapes requises pour l’exécution de cas de test                                                                                                                                                          | Ressource de test requise              |
 |--------------|-------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| 1            | Un appel RTC sortant | Vérifiez que vous pouvez placer un appel vocal externe vers un numéro à 10 chiffres. |<ul><li>Client équipes installé.</li><li>Utilisateur activé avec les licences Office 365 suivantes affectés :<ul><li>Office entreprise E5 avec système téléphonique, les équipes Microsoft et les Plans d’appel nationales et internationales</li><li>Office entreprise E3 avec système téléphonique, les équipes Microsoft et les Plans d’appel nationales et internationales</li></ul></li></ul> | <ol><li>Connectez-vous au client d’équipes.</li><li>Sélectionnez le pavé de numérotation, entrez un numéro de 10 chiffres à composer.</li><li>Vérifiez que la numérotation de numéro est normalisée correctement et que l’appel PSTN externe est établie.</li></ol>    | Système téléphonique par l’appel de Plans de testeur |
+| 1            | Placement d’un appel RTC sortant | Vérifiez que vous pouvez passer un appel vocal externe à un numéro à 10 chiffres. |<ul><li>Client teams installé.</li><li>Utilisateur activé avec les licences Office 365 suivantes attribuées:<ul><li>Office Enterprise E5 avec le système téléphonique, Microsoft teams et les offres d’appels nationaux et internationaux</li><li>Office entreprise E3 avec le système téléphonique, Microsoft teams et les offres d’appels nationaux et internationaux</li></ul></li></ul> | <ol><li>Connectez-vous au client Teams.</li><li>Sélectionnez le pavé de numérotation, puis entrez le numéro à 10 chiffres à composer.</li><li>Vérifiez que le numéro de numérotation est correctement normalisé et que l’appel RTC externe est établi.</li></ol>    | Système téléphonique avec testeur d’offres d’appels |
 
 
 > [!TIP]
->   Pour obtenir des instructions supplémentaires de faciliter le cas de test individuels et globale de création de plan pour évaluer le système téléphonique avec des Plans de l’appel de fonctionnalités dans votre organisation, passez en revue le [Plan de Test système téléphonique](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) fourni par [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
+>   Pour obtenir des recommandations supplémentaires sur la création d’un cas de test individuel et sur la création d’un plan global pour l’évaluation du système téléphonique avec les fonctionnalités d’appels de votre organisation, consultez le [plan de test du système téléphonique](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) fourni par [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider quels système téléphonique avec l’administration de l’appel des Plans et fonctionnalités de l’utilisateur seront évaluées.</li><li>Décider quel environnement de test est requis pour prendre en charge l’exécution de cas de test.</li><li>Déterminez les étapes requises pour l’évaluation des cas de test.</li><li>Choisir les ressources requises pour la bonne exécution du test.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter les cas de test à évaluer, basé sur le modèle de cas de test fourni.</li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez le système téléphonique avec les fonctionnalités d’administration et d’utilisation des plans d’appel.</li><li>Déterminez quel environnement de test est requis pour prendre en charge l’exécution de cas de test.</li><li>Déterminez les étapes nécessaires à l’évaluation de cas de test.</li><li>Déterminez les ressources nécessaires à l’exécution correcte du test.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les cas de test à évaluer en fonction du modèle de cas de test fourni.</li><li>Incluez le modèle complet dans le cadre de votre plan de test global.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-testing-resources"></a>Définissez et documentez les ressources de test
+### <a name="define-and-document-testing-resources"></a>Définition et documentation de ressources de test
 
-Pour prendre en charge de la phase de test, il est important de développer un plan de ressources détaillant les ressources de personnes, prise en charge et la technologie dont vous aurez besoin. Un élément important du plan de test global, la ressource plan vous aide à que déterminer les dépendances qui peuvent exister et vous donne une idée de haut niveau de la ressource en charge vous pourriez avoir besoin.
+Pour la prise en charge de la phase de test, il est important de mettre en place un plan de ressources détaillant les ressources humaines, le support et les ressources technologiques dont vous avez besoin. Une composante importante du plan de test global, le plan de ressources vous aide à déterminer les dépendances susceptibles d’exister et vous donne une idée générale de la prise en charge de ressources dont vous aurez besoin.
 
-À un niveau élevé, ces ressources sont généralement constituées de :
+À un niveau élevé, il s’agit généralement des ressources suivantes:
 
 -   **Personnes**: parties prenantes
 
--   **Technologie**: client, gestion des licences, les périphériques
+-   **Technologie**: client, gestion des licences, appareils
 
--   **Prise en charge**: formation (cartes vidéos), prise en charge de l’administration avec chemin de réaffectation défini
+-   **Support**: formation (cartes, vidéos), prise en charge de l’administration avec la trajectoire d’escalade définie
 
-#### <a name="testing-resource-requirements"></a>Test des besoins en ressources
+#### <a name="testing-resource-requirements"></a>Tests requis pour les ressources
 
 > [!TIP]
->   Voici un exemple de modèle exigence ressource test que vous pouvez utiliser pour documenter les différents types de ressources requises pour prendre en charge votre phase de test.
+>   Vous trouverez ci-dessous un exemple de test de modèle de demande de ressources que vous pouvez utiliser pour documenter les différents types de ressources nécessaires à la prise en charge de la phase de test.
 
 
-| Type de ressource | Ressources requises                                           | Description de la ressource |
+| Type de ressource | Ressources nécessaires                                           | Description de la ressource |
 |---------------|--------------------------------------------------------------|----------------------|
-| Personnes        | Parties prenantes tester les testeurs prospects                               | TBD                  |
-| Technologie    | Accès à Office 365 avec les services suivants activé :<ul><li>Office 365 E5 licences affectés</li><li>Plan d’appel nationales et internationales affecté</li></ul>    | TBD                  |
-| Support       | Responsable de prise en charge de Test administrateur technicien Test de test | TBD                  |
+| Personnes        | Testeurs de chef de projet                               | DÉFINIR                  |
+| Technologie    | Un accès à Office 365 avec les services suivants activés:<ul><li>Gestion des licences Office 365 E5 affectées</li><li>Forfait d’appels nationaux et internationaux attribués</li></ul>    | DÉFINIR                  |
+| Support       | Test de l’assistance de test de l’administrateur du technicien du support technique | DÉFINIR                  |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Choisir les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test.</li><li>Choisir les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Décider si vous devez fournir plus de détails pour décrire les types de ressources dont vous avez besoin.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les types de ressources (personnes, la technologie et prise en charge) que vous aurez besoin pour prendre en charge de la phase de test du document.</li><li>Documenter les ressources spécifiques requis pour les types de ressources que vous avez identifié.</li><li>Si vous décidez qu’il est nécessaire, des détails supplémentaires sur les types de ressources que nécessaires pour prendre en charge de la phase de test du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les types de ressources (personnes, technologie et support) dont vous aurez besoin pour prendre en charge la phase de test.</li><li>Déterminez les ressources spécifiques requises pour les types de ressources que vous avez identifiés.</li><li>Décidez si vous devez fournir des informations supplémentaires pour décrire les types de ressources dont vous avez besoin.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les types de ressources (personnes, technologies et support) dont vous aurez besoin pour prendre en charge la phase de test.</li><li>Documentez les ressources spécifiques requises pour les types de ressources que vous avez identifiés.</li><li>Si vous décidez qu’il est nécessaire, documentez les informations supplémentaires sur les types de ressources dont vous avez besoin pour prendre en charge la phase de test.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-a-testing-timeline"></a>Définissez et documentez un scénario de test
+### <a name="define-and-document-a-testing-timeline"></a>Définir et documenter une chronologie des tests
 
-Dans le cadre de la définition de plan de test, créez une chronologie qui décrit la planification lorsque vous prévoyez d’effectuer des activités de test et d’atteindre des jalons de haut niveau.
+Dans le cadre de la définition d’un plan de test, créez une chronologie qui organise le planning en fonction de la manière dont vous envisagez de terminer les activités de test et de répondre aux jalons de haut niveau.
 
-À un niveau élevé, il se compose généralement de :
+À un niveau élevé, il s’agit généralement de:
 
--   **Tâche :** Activité haut niveau
+-   **Tâche:** Activité de haut niveau à accomplir
 
--   **Jalon :** Objectif de haut niveau, ou la progression qui s’est terminée
+-   **Jalon:** Objectif de niveau supérieur, ou progression achevée
 
--   **Ressource requise :** Test des ressources requises pour prendre en charge la remise du jalon ou tâche identifiée
+-   **Ressource requise:** Ressources de test requises pour prendre en charge la remise du jalon ou de la tâche identifiés
 
--   **La date de début :** La date de sur que l’activité, jalon ou la tâche a été effectuée
+-   **Date de début:** Date à laquelle l’activité, le jalon ou la tâche a été lancée le
 
--   **Date de fin :** La date à par que laquelle l’activité, jalon ou la tâche se termine
+-   **Date d’achèvement:** Date à laquelle vous voulez que l’activité, le jalon ou la tâche se termine par
 
--   **Propriétaire :** Ressource affectée qui doit s’assurer que l’activité, jalon ou la tâche est terminée sur le temps, selon la date de fin
+-   **Propriétaire:** Ressource affectée qui est chargée de vérifier que l’activité, le jalon ou la tâche est achevée à temps, en fonction de la date d’achèvement
 
--   **Estimation :** Nombre d’heures que les ressources affectées anticiper il aura pour s’assurer que l’activité, jalon ou la tâche est terminée sur le temps
+-   **Estimation:** Nombre d’heures nécessaires aux ressources affectées pour s’assurer que l’activité, le jalon ou la tâche est achevée à temps
 
-#### <a name="testing-scheduling-and-timeline-requirements"></a>Test des exigences de planification et de la chronologie
+#### <a name="testing-scheduling-and-timeline-requirements"></a>Test de la planification et de la chronologie requise
 
 > [!TIP]
->   Voici un exemple d’un modèle de test chronologie exigence que vous pouvez utiliser pour documenter les dates prévues pour lors des activités de test doit se terminer ou jalons transmis par.
+>   Vous trouverez ci-dessous un exemple de modèle de critères de chronologie des tests que vous pouvez utiliser pour documenter les dates prévues lors du déroulement d’activités de test spécifiques ou des jalons remis par.
 
-| Tâche                                                 | Jalon       | Date de début                                                             | Date de fin | Propriétaire | Ressources affectées | Estimation |
+| Tâche                                                 | Consultation       | Date de début                                                             | Date d’achèvement | Propriétaire | Ressources affectées | Coût |
 |------------------------------------------------------|-----------------|------------------------------------------------------------------------|-----------------|-------|--------------------|------------|
-| Rapport de test                                          | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Heures à déterminer  |
-| L’exécution de cas de test : Système téléphonique avec les Plans d’appel | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Heures à déterminer  |
-| D’exécution de cas de test : Préparation du réseau               | TBD             | TBD                                                                    | TBD             | TBD   | TBD                | Heures à déterminer  |
+| Rapport de test                                          | DÉFINIR             | DÉFINIR                                                                    | DÉFINIR             | DÉFINIR   | DÉFINIR                | Heures de TBD  |
+| Exécution de cas de test: système téléphonique avec des plans d’appels | DÉFINIR             | DÉFINIR                                                                    | DÉFINIR             | DÉFINIR   | DÉFINIR                | Heures de TBD  |
+| Exécution du cas de test: disponibilité du réseau               | DÉFINIR             | DÉFINIR                                                                    | DÉFINIR             | DÉFINIR   | DÉFINIR                | Heures de TBD  |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider d’activité de chronologie, jalon et les tâches dont vous avez besoin pour effectuer le suivi.</li><li>Choisir les ressources que vous devrez affecter.</li><li>Choisir la date à que laquelle à effectuer.</li><li>Identifier le propriétaire de la remise.</li><li>Déterminer combien de temps faut-il pour effectuer l’activité, un jalon ou une tâche.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter votre scénario de test à l’aide du modèle fourni et incluent :<ul><li>Activité de chronologie, de jalon et les tâches qui doivent être suivis.</li><li>Ressources qui doivent être attribués.</li><li>Date de fin prévue.</li><li>Propriétaire de remise.</li><li>Temps nécessaire pour effectuer l’activité, un jalon ou une tâche.</li></ul></li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez l’activité de chronologie, le jalon et les tâches que vous devez suivre.</li><li>Déterminez les ressources que vous devez affecter.</li><li>Déterminez la date à laquelle vous pensez avoir besoin.</li><li>Identifiez le propriétaire de la livraison.</li><li>Déterminez le temps nécessaire à l’exécution de l’activité, du jalon ou de la tâche.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez votre chronologie de test à l’aide du modèle fourni, et notamment:<ul><li>Activité de chronologie, jalon et tâches qui doivent être suivies.</li><li>Ressources devant être affectées.</li><li>Date d’achèvement prévue.</li><li>Propriétaire de la remise.</li><li>Temps requis pour terminer l’activité, le jalon ou la tâche.</li></ul></li><li>Incluez le modèle complet dans le cadre de votre plan de test global.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-test-defect-report-criteria"></a>Définissez et documentez les critères de rapport de test défaut
+### <a name="define-and-document-test-defect-report-criteria"></a>Définir et documenter les critères de rapport des défauts de test
 
-Comme des cas de test au sein d’une phase donnée ou d’un flux de données sont exécutées, problèmes peuvent survenir lorsque le résultat du cas de test en cours d’exécution n’est pas attendue.
+Dans la mesure où les cas de test au sein d’une phase ou d’un flux donnés sont exécutés, des problèmes peuvent se produire lorsque le résultat du cas de test exécuté ne correspond pas à ce que vous attendiez.
 
-Lorsque ces types de résultats se produisent, ils doivent être consignés dans un plan de rapport et de correction de défaut qui est modifiée pour le responsable de test désigné pour passer en revue les, création de rapports et la résolution de l’erreur.
+Lorsque ces types de résultats se produisent, ils doivent être capturés dans un rapport de défaut et un plan de correction qui est escaladé au cadre du test désigné pour la révision, la création de rapports et la résolution des problèmes.
 
-En règle générale, un plan de rapport et de correction de défaut inclut les éléments suivants :
+En règle générale, un rapport de défaut et un plan de correction incluent les éléments suivants:
 
--   **Anomalies ID :** Le numéro attribué à ce problème
+-   **ID de défaut:** Le numéro affecté au problème;
 
--   **ID de cas de test est affectée**: le numéro assigné au cas de test qui a été évalué au moment où l’erreur a été identifié
+-   **ID de cas de test**affecté: le numéro affecté au cas de test évalué au moment de l’identification du défaut
 
--   **Anomalies description :** Résumé du problème
+-   **Description de l’erreur:** Résumé du problème
 
--   **Environnement/étapes à reproduire :** Résumé de la configuration de l’environnement test, ainsi que les étapes exactes requises à reproduire le problème
+-   **Environnement/étapes à reproduire:** Résumé de la configuration de l’environnement de test, ainsi que les étapes exactes requises pour reproduire le problème
 
--   **Gravité de l’erreur**: l’impact du problème, allant empêche le cas de test de l’approbation son accepté avec un minimum de risques. Voici quelques exemples peuvent :
+-   **Gravité du défaut**: l’impact du problème, qu’il s’agisse d’empêcher l’approbation du cas de test en tant que risque minimal. Voici quelques exemples:
 
--   **Faible :** Le problème a peu d’impact et empêche le cas de test d’atteindre acceptation si le problème peut être résolu ultérieurement.
+-   **Faible:** Le problème a peu d’impact et n’empêche pas l’acceptation du cas de test si le problème peut être résolu plus tard.
 
--   **Support :** Le problème a eu un impact important, mais ne sont pas empêcher le cas de test d’atteindre acceptation si le problème peut être résolu avant la fin de la phase de test.
+-   **Moyenne:** Le problème a un impact substantiel, mais n’empêche pas l’acceptation du cas de test si le problème peut être résolu avant la fin de la phase de test.
 
--   **Haute :** -le problème a un impact majeur sur le cas de test. Le problème doit être résolu avant de pouvoir accepter le cas de test.
+-   **Elevé:** -le problème a un impact critique sur le cas de test. Le problème doit être résolu avant que le cas de test ne puisse être accepté.
 
--   **État :** Présente le problème résolu, il est ouvert, ou encore à l’étude
+-   **État:** Le problème est-il résolu, ou encore en cours d’étude;
 
--   **Envoyé par :** Le testeur qui a signalé le problème
+-   **Envoyé par:** Le testeur qui a signalé le problème;
 
--   **Propriétaire affecté :** La ressource affectée à partir de l’équipe de test qui est chargé de résoudre le problème
+-   **Propriétaire attribué:** Ressource attribuée par l’équipe de test qui est responsable de la résolution du problème.
 
--   **Plus d’informations de prise en charge :** Cela peut inclure, mais n’est pas limité à : journaux côté client, captures d’écran ou vidéo du problème.
+-   **Informations de prise en charge:** Il peut s’agir d’un problème, mais n’est pas limité aux journaux, captures d’écran ou vidéos du problème côté client.
 
-Comme les testeurs s’exécuter les cas de test dans votre plan de test, ils doivent être sûr effectuer un plan de rapport et de correction de défaut pour les problèmes qui surviennent.
-Cela met en évidence impact potentiel qui pourrait entraver ou même interrompre le processus de test d’évaluation.
+Dans la mesure où les testeurs exécutent les cas de test décrits dans votre plan de test, ils doivent veiller à remplir un rapport de défaut et un plan de correction pour les problèmes qui se produisent.
+Cela met en évidence un impact potentiel qui peut entraver, voire arrêter le processus d’évaluation des tests.
 
-#### <a name="testing-defect-report-and-remediation-plan"></a>Planifier les tests de rapport et de correction
+#### <a name="testing-defect-report-and-remediation-plan"></a>Rapport sur les défauts de test et plan de correction
 
 > [!TIP]
->   Voici un exemple de modèle de rapport et de planifier la mise à jour que vous pouvez utiliser pour documenter les problèmes décelées au cours de la phase de test.
+>   Vous trouverez ci-dessous un exemple de rapport sur les défauts et de modèle de plan de correction que vous pouvez utiliser pour documenter des problèmes détectés lors de la phase de test.
 
-| ID d’erreur                                | ID de cas de test affecté | Description de l’erreur                                                                                 | Environnement /steps à reproduire                                                                                                | Niveau de gravité | État | Envoyé par | Propriétaire affecté | Prise en charge plus d’informations (journaux, captures d’écran, etc.) |
+| ID de défaut                                | ID de cas de test affecté | Description de l’erreur                                                                                 | /Steps environnement pour reproduire                                                                                                | Minimal | État | Envoyé par | Propriétaire affecté | Informations de support (journaux, captures d’écran, etc.) |
 |------------------------------------------|-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------|--------|--------------|----------------|---------------------------------------------------|
-| 1                                        | 1                     | Lorsque l’utilisateur entre une extension de quatre chiffres, essayez d’effectuer un appel sortant, l’appel est échoue. | Dans le client d’équipes, sélectionnez le pavé de numérotation, entrez une extension de quatre chiffres et sélectionnez l’icône téléphone pour tenter d’effectuer l’appel. | Moyen   | Fermé | Louis Lahr   | Lisa gris      | Journal des équipes côté client<br/> Capture d’écran du client équipes     |
+| 1                                        | 1                     | Lorsque l’utilisateur entre une extension à quatre chiffres, en essayant de passer un appel sortant, l’appel échoue. | Dans le client Microsoft Teams, sélectionnez le pavé de numérotation, entrez une extension à quatre chiffres et sélectionnez l’icône de téléphone pour essayer de passer l’appel. | Moyen   | Été | Louis Lahr   | Isabelle gris      | Journal côté client teams<br/> Capture d’écran du client teams     |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les niveaux de gravité critères défaut vous affecterez pour prendre en charge de l’effort de test.</li><li>Décider quels défaut test critères, que vous devez documenter si des problèmes se produisent pendant les tests de création de rapports.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter l’erreur test de création de rapports critères requis dans le modèle fourni.</li><li>Inclure le modèle terminé dans le cadre de votre plan de test global.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les niveaux de gravité du critère de défaut que vous attribuez à l’effort de test.</li><li>Déterminez les critères de signalement de problèmes que vous souhaitez utiliser pour le test.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les critères de signalement de défaut de test requis dans le modèle fourni.</li><li>Incluez le modèle complet dans le cadre de votre plan de test global.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-exit-and-suspension-criteria"></a>Définissez et documentez les critères de sortie et de suspension
+### <a name="define-and-document-exit-and-suspension-criteria"></a>Définir et définir les critères de sortie et de suspension d’un document
 
-Dans le cadre du processus de l’exécution du test plan global, vous devez définir des critères pour indiquer le point auquel vous devez suspendre les efforts de test par rapport à des exigences qui doivent être remplies pour l’obtention d’approbation et de fermeture de la phase de test.
+Dans le cadre de la procédure globale d’exécution d’un plan de test, vous devez définir des critères pour indiquer le point où vous devez suspendre les efforts de test et les exigences qui doivent être satisfaites pour obtenir une connexion et sortir de la phase de test.
 
-#### <a name="test-plan-exit-and-suspension-criteria"></a>Critères de suspension et la sortie de plan de test
+#### <a name="test-plan-exit-and-suspension-criteria"></a>Critères de sortie et de suspension du plan de test
 
 > [!TIP]
->   Vous trouverez ci-dessous un exemple de modèle de critères de suspension et la sortie que vous pouvez utiliser dans votre plan de test pour les critères de document est nécessaire pour obtenir l’approbation, quitter la phase de test ou suspendre des activités de test.
+>   Vous trouverez ci-dessous un exemple de modèle de critères de Exit et de suspension que vous pouvez utiliser dans votre plan de test pour vous permettre de vous connecter, de quitter la phase de test ou de suspendre des activités de test.
 
-| Test des critères de sortie                            | Critères de suspension de test                      |
+| Test de critères de sortie                            | Critères de suspension du test                      |
 |--------------------------------------------------|--------------------------------------------------|
-|<ul><li>Tous les cas de test doit atteindre un taux de réussite TBD %</li><li>Tous les cas de test doit avoir été entièrement exécutés</li><li>Tous les cas de test évaluées, toutes les erreurs de gravité élevée doivent être fermés.</li></ul> | <ul><li>Tous les cas de test doit atteindre un taux d’échec TBD %</li><li>Tous les défauts identifiées comme une gravité élevée doivent être résolus avant de test peut continuer.</li></ul> |
+|<ul><li>Tous les cas de test doivent avoir atteint le taux de réussite de%.</li><li>Tous les cas de test doivent avoir été entièrement exécutés</li><li>Dans tous les cas de test évalués, tous les défauts de gravité élevée doivent être fermés</li></ul> | <ul><li>Tous les scénarios de test doivent parvenir au taux d’échec de% TBD</li><li>Tous les défauts identifiés comme ayant une gravité élevée doivent être résolus avant que les tests puissent continuer.</li></ul> |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les critères de suspension qui doivent être remplies si les problèmes de test sont identifiés.</li><li>Déterminez les critères de sortie qui doivent être remplies pour obtenir test approbation et prennent en charge la sortie de la phase de test après tout test activités sont terminées.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Critères de suspension et la sortie test requis dans les modèles de test et de sortie fournies du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez les critères de suspension qui doivent être satisfaits en cas de problèmes de tests.</li><li>Déterminez les critères de sortie qui doivent être satisfaits pour obtenir une connexion d’approbation de test et pour la prise en charge de la sortie de la phase de test une fois toutes les activités de test effectuées.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les critères de sortie des tests et de suspension requis dans les modèles de test et de sortie fournis.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-the-defect-escalation-process"></a>Définissez et documentez le processus d’escalade défaut
+### <a name="define-and-document-the-defect-escalation-process"></a>Définir et documenter le processus de réaffectation de défaut
 
-Tout au long de l’exécution de plan de test, vous pouvez découvrir un problème ou d’identifier le problème nécessitant l’escalade vers la ressource adéquate pour la conduite et la détermination de la résolution requise pour permettre le test continuer.
+Tout au long de la procédure d’exécution d’un plan de test, vous pouvez rencontrer un problème ou identifier un défaut qui nécessite une remontée vers la ressource appropriée pour piloter et déterminer la résolution requise pour autoriser les tests.
 
-Comme défauts sont identifiés par la gravité appropriée et la priorité, vous créez une matrice d’escalade et triage réviser le processus de mise en correspondance des lorsqu’une escalade est déclenchée et comment, quand et qui est affecté à l’erreur pour approfondir passer en revue les et résolution.
+Étant donné que les défauts sont identifiés avec la gravité et la priorité appropriées, vous créez une matrice de remontée et un processus de révision de triage pour le mappage lors du déclenchement d’une remontée et de la manière dont vous pouvez affecter le défaut à des fins d’examen supplémentaire et Règlement.
 
-En règle générale, un plan de rapport et de correction de défaut inclut les éléments suivants :
+En règle générale, un rapport de défaut et un plan de correction incluent les éléments suivants:
 
--   **Anomalies ID :** Le numéro que vous avez affecté à ce problème
+-   **ID de défaut:** Le numéro que vous avez affecté au problème;
 
--   **Anomalies description :** Résumé du problème
+-   **Description de l’erreur:** Résumé du problème
 
--   **Annuler l’inscription d’évaluation de la priorité :** Le niveau de priorité à une erreur de résolution en fonction de défauts et impact sur l’activité gravité. Voici quelques exemples peuvent :
+-   **Évaluation de priorité de défaut:** Niveau de priorité affecté à une erreur de résolution basée sur l’impact de l’entreprise et sur la gravité des défauts. Voici quelques exemples:
 
--   **Faible :** Le problème a peu d’impact sur la prévention de la phase de test d’atteindre hors connexion si le problème peut être résolu ultérieurement.
+-   **Faible:** Le problème a peu d’impact sur l’interdiction de la phase de test d’obtenir une connexion si le problème peut être résolu plus tard.
 
--   **Support :** Le problème a eu un impact important sur la prévention de la phase de test d’atteindre hors connexion s’il ne peut pas être résolu.
+-   **Moyenne:** Le problème a un impact important sur l’interdiction de la phase de test d’obtenir une connexion si le problème ne peut pas être résolu.
 
--   **Haute :** Le problème a un impact majeur sur la prévention de la phase de test d’atteindre hors connexion s’il ne peut pas être résolu.
+-   **Haut:** Le problème a un impact important sur l’interdiction de la phase de test d’obtenir une connexion si le problème ne peut pas être résolu.
 
--   **Propriétaire de défaut affecté :** La ressource affectée à partir de l’équipe de test qui est chargé de résoudre le problème
+-   **Propriétaire de défaut affecté:** Ressource attribuée par l’équipe de test qui est responsable de la résolution du problème.
 
--   **Affecté le point d’escalade défaut :** La ressource affectée qui est sur le point d’escalade le problème dans l’organisation (si nécessaire) pour la conduite résolution ; selon la gravité d’erreur
+-   **Point de réaffectation de défaut affecté:** La ressource qui a été affectée pour la résolution du problème au niveau de l’organisation (si nécessaire) pour la résolution du problème; sur la base d’une gravité de défaut
 
--   **Anomalies état :** Présente le problème résolu, il est ouvert, ou encore à l’étude
+-   **État d’erreur:** Le problème est-il résolu, ou encore en cours d’étude;
 
--   **Requis résolution par date :** La date à laquelle le problème doit être résolu en
+-   **Résolution requise par date:** La date à laquelle le problème doit être résolu
 
--   **Date d’état :** La date qui reflète l’état de la dernière heure a été mis à jour comme résultat d’une révision du triage défaut
+-   **Date d’État:** Date reflétant le dernier État mis à jour comme résultat d’une révision de triage de défaut
 
-#### <a name="test-plan-defect-escalation"></a>Escalade de défaut de plan de test
+#### <a name="test-plan-defect-escalation"></a>Réaffectation de défaut de plan de test
 
 > [!TIP]
->   Voici un exemple d’un modèle de réaffectation défaut que vous pouvez utiliser dans le cadre de votre plan de test pour documenter le processus d’escalade requis pour la définition des priorités et résolution des erreurs de tests.
+>   Vous trouverez ci-dessous un exemple de modèle de réaffectation de défaut que vous pouvez utiliser dans le cadre de votre plan de test pour documenter le processus d’escalade requis pour la définition de priorités et la résolution des erreurs de test.
 
-| ID d’erreur                                | Description de l’erreur                                                                                 | Évaluation de la priorité de la défaillance                                           | Propriétaire de défaut affecté | Point d’escalade défaut affecté | Méthode d’escalade de défaillance                                          | État d’erreur | Solution requise par date | Date d’état |
+| ID de défaut                                | Description de l’erreur                                                                                 | Évaluation de priorité de défaut                                           | Propriétaire de défaut affecté | Point de réaffectation de défaut affecté | Méthode de réaffectation de défaut                                          | État d’erreur | Résolution requise par date | Date d’État |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1                                        | Lorsque l’utilisateur entre une extension de quatre chiffres, essayez d’effectuer un appel sortant, l’appel est échoue. | Moyen                                                               | Lisa gris             | Louis Lahr                       | E-mail de révision Triage haute priorité hebdomadaire aux parties prenantes affectés | Ouvrir          | ASAP                        | 1/12/2018   |
+| 1                                        | Lorsque l’utilisateur entre une extension à quatre chiffres, en essayant de passer un appel sortant, l’appel échoue. | Moyen                                                               | Isabelle gris             | Louis Lahr                       | Tri hebdomadaire-examen de la messagerie à haute priorité aux parties prenantes touchées | Ouvre          | DQP                        | 1/12/2018   |
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décider et accord sur les priorités défauts pour prendre en charge votre plan de test.</li><li>Décider du point d’escalade pour chaque zone de défaillance.</li><li>Décider du plan de triage à suivre et une erreur de réaffectation en fonction de la priorité.</li><li>Décider de rapports d’erreur et triage du plan de communication pour escalade.</li><li>Déterminez la cadence de réunion de triage défauts.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les priorités convenues défaut du document.</li><li>Le point d’escalade pour chaque zone focus potentiels du document.</li><li>Documenter la planification défaut escalade et trier en fonction des critères convenues.</li><li>Documenter votre défaut instructions de création de rapports.</li><li>Planifier la série de réunions de tri défauts.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Décidez et acceptez les priorités des défauts pour la prise en charge de votre plan de test.</li><li>Déterminez le point d’escalade pour chaque zone de défaut.</li><li>Déterminez le plan de réaffectation et de triage des défauts à suivre en fonction de la priorité.</li><li>Déterminez le plan de communication et de triage des erreurs pour la réaffectation.</li><li>Déterminez la cadence de réunion d’examen de défaut.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les priorités relatives aux défauts approuvés.</li><li>Documentez le point d’escalade pour chaque zone de focalisation potentielle.</li><li>Documentez le plan de triage et de triage des défauts en fonction de critères approuvés.</li><li>Documentez les instructions relatives aux rapports de défectuosité.</li><li>Planifiez la série de réunions de triage des défauts.</li></ul></td></tr>
 </table>
 
 
-### <a name="define-and-document-testing-deliverables"></a>Définissez et documentez les livrables tests
+### <a name="define-and-document-testing-deliverables"></a>Définir et documenter des livrables
 
-Le composant dernière lors de la création d’un plan de test consiste à identifier les objectifs en termes de livrables spécifiques que le plan de test global.
+Le dernier et dernier composant de la création d’un plan de test consiste à identifier les résultats en termes de livrables spécifiques pour lesquels le plan de test global sera remis.
 
-À un niveau élevé, ces incluent généralement, mais ne sont pas limitées à :
+À un niveau élevé, il s’agit généralement de:
 
 -   Plan de test
 
--   Cas de test
+-   Scénarios de test
 
--   Rapports d’erreur
+-   Rapports de défaut
 
--   Synthèse des résultats
+-   Synthèse des résultats de test
 
--   Test d’acceptation et hors connexion
+-   Acceptation et approbation des tests
 
-#### <a name="test-plan-deliverables"></a>Livrables de plan de test
+#### <a name="test-plan-deliverables"></a>Livrables du plan de test
 
 > [!TIP]
->   Voici un exemple d’une matrice de livrable plan test que vous pouvez utiliser les livrables à créer, ainsi que les ressources requises pour la révision, l’approbation et approbation de document.
+>   Vous trouverez ci-dessous un exemple de matrice de livrables d’un plan de test que vous pouvez utiliser pour documenter les livrables à créer, ainsi que les ressources nécessaires pour la révision, l’approbation et la connexion.
 
-| Plan de test du livrable                    | Format du livrable de plan de test | Propriétaire du livrable du plan de test                                                                                                      | Réviseur du livrable de plan de test | Approbateur du livrable de plan de test | Plan du livrable approbation date de test |
+| Livrable du plan de test                    | Format livrable du plan de test | Propriétaire du plan de test                                                                                                      | Réviseur du plan de test | Approbateur du plan de test | Date de connexion du livrable du plan de test |
 |------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------|--------------------------------|-------------------------------------|
-| Plan de test                                | Mot                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Rapports de gestion des défauts                | Mot                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Test des rapports d’état                   | Mot                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Synthèse des résultats                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Plan de test                                | Mot                         | DÉFINIR                                                                                                                              | DÉFINIR                            | DÉFINIR                            | DÉFINIR                                 |
+| Rapports sur la gestion des défauts                | Mot                         | DÉFINIR                                                                                                                              | DÉFINIR                            | DÉFINIR                            | DÉFINIR                                 |
+| Rapports d’état des tests                   | Mot                         | DÉFINIR                                                                                                                              | DÉFINIR                            | DÉFINIR                            | DÉFINIR                                 |
+| Synthèse des résultats de test                     | Word PPTX                    | DÉFINIR                                                                                                                              | DÉFINIR                            | DÉFINIR                            | DÉFINIR                                 |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminer les livrables doivent être créés et capturé en sortie de chaque phase de test. Pour chaque livrable, décider de son :<ul><li>Format</li><li>Propriétaire</li><li>Réviseur</li><li>Approbateur</li></ul></li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Un plan du livrable création et la fourniture de matrice de test du document.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Points de décision</td><td><ul><li>Déterminez quels produits seront créés et capturés en sortie de chaque phase de test. Pour chaque livrable, décidez de:<ul><li>RTF</li><li>Propriétaire</li><li>Relecteur</li><li>Approbateur</li></ul></li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez une matrice de création et de remise d’un plan de test.</li></ul></td></tr>
 </table>
 
 
-<a name="evaluate-network-readiness"></a>Évaluer la préparation du réseau
+<a name="evaluate-network-readiness"></a>Évaluer la disponibilité du réseau
 ----------------------------
 
-Comme un élément critique de prise en charge de votre déploiement d’équipes, préparation du réseau est une partie essentielle des tests afin de garantir que le réseau est correctement optimisé pour prendre en charge les communications d’équipes. Pour vous assurer que votre réseau est prêt pour les sites dans la portée, inclure les domaines répertoriés ci-dessous dans votre stratégie de test global :
+En tant qu’élément critique prenant en charge votre déploiement d’équipe, la disponibilité du réseau est une partie essentielle des tests qui permettent de garantir l’optimisation du réseau pour la prise en charge des communications de l’équipe. Pour vous assurer que votre réseau est prêt pour les sites concernés, incluez les zones principales répertoriées ci-dessous dans votre stratégie de test générale:
 
--   Estimation de la bande passante et de planification avec le Planificateur de réseau (via MyAdvisor)
+-   Estimation de la bande passante et planification avec le planificateur réseau (via MyAdvisor)
 
--   Qualité de la validation de la configuration service (QoS)
+-   Validation de la configuration de qualité de service (QoS)
 
--   Vérifier les performances et connectivité réseau par le biais de simulation de trafic
+-   Vérification de connectivité et de performance réseau via la simulation du trafic
 
--   Tunnel de fractionnement de validation
+-   Validation par tunneling fractionné
 
-### <a name="execute-network-planner-through-myadvisor-for-sites-and-personas-in-scope"></a>Exécuter le Planificateur de réseau (via MyAdvisor) pour les sites et les personnages étendue
+### <a name="execute-network-planner-through-myadvisor-for-sites-and-personas-in-scope"></a>Exécuter le planificateur de réseau (via MyAdvisor) pour les sites et les personnes dans l’étendue
 
-Avant d’introduire des services de communication en temps réel comme équipes dans votre environnement, il est important pour s’assurer que le réseau a été correctement optimisé et taille Azure ExpressRoute (le cas échéant), internet, et point de vue de la bande passante WAN.
+Avant l’introduction de services de communication en temps réel tels que teams dans votre environnement, il est important de s’assurer que le réseau a été correctement optimisé et ajusté à partir d’une connexion Azure ExpressRoute (le cas échéant), d’Internet et de la bande passante WAN.
 
-Pour aider à déterminer la quantité de bande passante et le niveau d’optimisation de réseau requise pour les sites dans la portée de prise en charge de votre déploiement, effectuez l’outil [Planificateur de réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=DashboardHelp) (via MyAdvisor) pour valider les besoins de disponibilité du réseau de votre organisation. Pour plus d’instructions sur la façon de déterminer la configuration réseau requise pour les équipes par le Planificateur de réseau, voir MyAdvisor : planificateur réseau.
+Pour vous aider à déterminer la quantité de bande passante et le niveau d’optimisation du réseau requis pour les sites de l’étendue prenant en charge votre déploiement, vous pouvez exécuter l’outil [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=DashboardHelp) (via MyAdvisor) pour vérifier la disponibilité du réseau de votre organisation. Pour plus d’informations sur la façon de déterminer la configuration requise pour les équipes via le planificateur de réseaux, voir MyAdvisor: Network Planner.
 
 > [!TIP]
->   Pour plus d’informations sur l’onglet **recommandations** , avec des exemples de la configuration et interpréter les résultats, voir planificateur réseau [Vue d’ensemble des recommandations](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=RecommendationHelp).
+>   Pour plus d’informations sur l’onglet **recommandations** , avec des exemples sur la façon de configurer et d’interpréter les résultats, voir [vue d’ensemble des recommandations](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner/Help?sectionName=RecommendationHelp)du planificateur réseau.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminer les sites de réseau dans la portée de déploiement des équipes de services.</li><li>Déterminez les personnages requis pour les modalités d’équipes dans l’étendue.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Renseignez le Gestionnaire de réseau (via MyAdvisor) pour la liste des sites qui se trouvent dans l’étendue.</li><li>Résultats de la validation de réseau Planificateur de document dans le modèle de résultats de plan de test fourni.</li><li>Valider ExpressRoute (le cas échéant), internet et la bande passante WAN qui a été calculée pour les sites dans l’étendue s’aligne sur les valeurs de bande passante qui sont actuellement attribuées.</li><li>Pour les sites qui n’ont pas la bande passante adéquate, exécuter des plans de réaffectation et de correction pour résoudre les problèmes de bande passante.</li><li>Établir un réseau de surveillance solution pour les sites dans l’étendue pour surveiller l’utilisation de la bande passante et QoS pour ExpressRoute (le cas échéant), internet et les segments de réseau étendu.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats du Planificateur de réseau.</li><li>Présenter la bande passante de la planification des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez les sites réseau qui font l’objet d’un déploiement de services d’équipe.</li><li>Déterminez la personne requise pour les modalités d’équipe.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Complétez le planificateur de réseaux (via MyAdvisor) pour obtenir la liste des sites dans l’étendue.</li><li>Documentez les résultats de la validation du planificateur de réseaux dans le modèle de résultats de plan de test fourni.</li><li>Vérifiez que le ExpressRoute (le cas échéant), Internet et la bande passante WAN calculée pour les sites dans l’étendue sont alignés sur les valeurs de bande passante actuellement allouées.</li><li>Pour les sites disposant d’une bande passante suffisante, exécutez des plans de remontée et de correction pour résoudre les problèmes de bande passante.</li><li>Établissez une solution de surveillance réseau pour les sites dans le cadre de l’application afin de surveiller l’utilisation de la bande passante et la qualité de service (le cas échéant), les segments Internet et WAN.</li><li>Planifiez une réunion de Comité d’orientation pour vérifier les résultats du planificateur de réseaux.</li><li>Présenter les résultats de la planification de la bande passante au Comité de direction pour identifier les domaines qui nécessitent une correction.</li></ul></td></tr>
 </table>
 
 
-<a name="evaluate-qos-configuration-for-sites-in-scope"></a>Évaluer la configuration de QoS pour les sites dans la portée
+<a name="evaluate-qos-configuration-for-sites-in-scope"></a>Évaluer la configuration de QoS pour les sites dans l’étendue
 ---------------------------------------------
 
-Dans le cadre de la validation de préparation du réseau pour prendre en charge les communications en temps réel d’équipes, il est également important pour s’assurer que le réseau a été correctement configuré et optimisé du point de vue de la qualité de service.
+Dans le cadre de la validation du réseau pour la prise en charge des communications en temps réel, il est même important de s’assurer que le réseau a été correctement configuré et optimisé à partir d’un point de vue QoS.
 
-Pour plus d’instructions sur la façon de configurer, déployer et valider la préparation du réseau QoS pour les équipes à l’aide de la stratégie de groupe, voir [Activation de QoS pour les équipes](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
+Pour obtenir des instructions supplémentaires sur la configuration, le déploiement et la validation de la disponibilité du réseau QoS pour teams à l’aide d’une stratégie de groupe, voir [activation de la qualité de](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)service (QoS) pour Teams.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez la configuration de la qualité de service à mettre en œuvre.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Configurer la qualité de service.</li><li>Exécuter le contrôle de la qualité de service comme indiqué dans les étapes répertoriées via la « valider via la stratégie de groupe » et « valider à l’aide de l’Analyseur de Message » les sections ci-dessus.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez la configuration de QoS à implémenter.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Configurer QoS.</li><li>Exécuter une validation de la qualité de service (QoS) par le biais des étapes indiquées par le biais des sections «valider via l’objet GPO» et «valider par l’analyseur de messages» ci-dessus.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-qos-configuration-validation-test-results"></a>Résultats des tests QoS configuration validation de document
+### <a name="document-qos-configuration-validation-test-results"></a>Résultats du test de validation de la configuration QoS du document
 
-Une fois que vous avez terminé le test à l’aide de la stratégie de groupe pour les sites dans la portée de validation QoS, créez un rapport qui résume les résultats des tests de présenter lors de la révision finale comité directeur.
+Après avoir effectué un test de validation QoS à l’aide d’une stratégie de groupe pour les sites dans l’étendue, créez un rapport qui résume les résultats de tests à présenter lors de la révision du Comité d’orientation final.
 
-#### <a name="site-a-qos-configuration-validation-testing-summary-report"></a>Site r : validation de la configuration QoS test du rapport de synthèse
+#### <a name="site-a-qos-configuration-validation-testing-summary-report"></a>Site A: rapport de synthèse de vérification de la configuration de QoS
 
 > [!TIP]
->   Voici un exemple de modèle de rapport de synthèse que vous pouvez consulter lors de la prochaine réunion du comité lorsque vous décidez lorsqu’à intégré système téléphonique avec l’appel des Plans de services lors de la phase pilote de test.
+>   Vous trouverez ci-dessous un exemple de modèle de rapport de synthèse de tests que vous pouvez consulter lors de la réunion du Comité de direction suivant lorsque vous décidez de l’intégration d’un système téléphonique aux services de plans d’appel dans le cadre de la phase pilote.
 
 
-**Validation de la configuration QoS par le biais de la stratégie de groupe et de l’Analyseur de Message**
+**Validation de la configuration QoS via un objet de stratégie de groupe ou un analyseur de message**
 
-**Résumé des résultats**:&nbsp;&nbsp;&nbsp;& #9744 ; Transmettez&nbsp; &nbsp; &nbsp; & #9744 ; Partiel&nbsp; &nbsp; &nbsp; & #9744 ; Échec
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail
 
 <table>
-<tr><th colspan="2">Test d’actualités </th></tr>
-<tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
-<tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
+<tr><th colspan="2">Recommandations en matière de tests </th></tr>
+<tr><td>DÉFINIR</td><td>DÉFINIR</td></tr>
+<tr><th colspan="2">Test de lowlights  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction:</strong> DÉFINIR</td></tr>
+<tr><th colspan="2">Bloqueurs identifiés </td></tr>
+<tr><td><strong>Bloqueur</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 
 > [!TIP]
-> Pour faciliter la discussion supplémentaire lors de la révision finale comité directeur, vous pouvez utiliser la [matrice des résultats de tests](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) de mise à jour de [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) et mettre en surbrillance des zones supplémentaires qui nécessitent une conversion de documents.
+> Pour faciliter les discussions ultérieures au cours de l’évaluation du Comité d’orientation final, vous pouvez utiliser la [matrice de résultats de test](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) mise à jour de [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) à un document et mettre en évidence des zones supplémentaires qui nécessitent une correction.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer les résultats des tests de qualité de service pour vous assurer que les équipes correctement le trafic multimédia en temps réel est marquée et la priorité.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Résultats des tests QoS de document dans le modèle de résultat de plan de test fourni.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes où QoS ne peut pas être configuré correctement ou n’est pas travaille comme prévu pour prendre en charge le trafic multimédia équipes.</li></ul></td></tr><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluez les résultats des tests de qualité de service pour vérifier que les équipes du trafic multimédia en temps réel sont marquées et classées en priorité.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les résultats des tests QoS dans le modèle de résultats de plan de test fourni.</li><li>Exécutez des plans de réaffectation et de correction pour résoudre les problèmes dans lesquels la qualité de service (QoS) n’est pas correctement configurée ou ne fonctionne pas comme prévu pour la prise en charge du trafic multimédia d’équipes.</li></ul></td></tr><li>Planifiez une réunion de Comité d’orientation pour passer en revue les résultats de synthèse des tests.</li><li>Présenter des résultats de synthèse de test au Comité de direction pour identifier les domaines qui nécessitent une correction.</li>
 </table>
 
 
-<a name="execute-split-tunnel-enablement-validation"></a>Exécuter le contrôle de fractionnement-tunnel activation
+<a name="execute-split-tunnel-enablement-validation"></a>Exécuter une validation d’activation de tunneling fractionné
 ------------------------------------------
 
-Il est courant pour les entreprises à avoir une ou plusieurs solutions pour fournir l’accès à distance, par exemple un réseau privé virtuel ou VPN. Ces solutions permettent de connectivité à des ressources de métier internes et des applications en toute sécurité et de manière fiable.
+Il est courant pour les entreprises d’utiliser une ou plusieurs solutions pour fournir un accès à distance, par exemple un réseau privé virtuel ou un réseau privé virtuel (VPN). Ces solutions permettent une connectivité sécurisée et fiable aux ressources et applications métier internes.
 
-Bien que les solutions d’accès distant peuvent fonctionne parfaitement pour donner accès à certaines applications, lorsqu’il s’agit du trafic multimédia en temps réel les équipes de tunnel, ces solutions fréquemment entraînent une expérience utilisateur moins optimale pour tous les participants à une audio d’équipes conférence ou appelant scénario.
+Bien que les solutions d’accès à distance puissent fonctionner très bien pour donner accès à certaines applications, lorsqu’il s’agit de l’utilisation d’un réseau multimédia en temps réel dans le cadre de l’utilisation d’un réseau multimédia en temps réel scénario de conférence ou d’appel.
 
-Pour vous assurer que le trafic multimédia équipes ne *pas* traverser les solutions d’accès distant dans votre environnement, une configuration de double-tunnel seront requise.
+Pour vous assurer que le trafic multimédia d’équipes ne traverse *pas* les solutions d’accès distant de votre environnement, une configuration de tunneling en tunnel sera requise.
 
-Pour plus d’instructions sur la façon de configurer et valider la préparation du double-tunnel configuration réseau pour les équipes, voir Préparation du [réseau](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
+Pour obtenir des instructions supplémentaires sur la configuration et la validation de la préparation du réseau de configuration de tunnel partagé pour Teams, voir préparation du [réseau](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
 
 > [!NOTE]
->   En raison du volume élevé de solutions d’accès distant disponibles sur le marché, ce document ne peuvent pas fournir plus d’informations spécifiques au fournisseur, les consignes générales uniquement pour ce qui doivent être configurées sur les solutions d’accès à distance.
+>   Outre le volume de solutions d’accès à distance disponibles sur Marketplace, ce document ne permet pas de fournir des informations spécifiques aux fournisseurs et seules les recommandations générales relatives aux solutions d’accès à distance.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez la configuration de double-tunnel à implémenter.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Mettre en œuvre de la configuration de double-tunnel.</li><li>Tester et valider la configuration du double-tunnel.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez la configuration de tunneling fractionné à implémenter.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Mettre en œuvre une configuration de tunneling fractionné.</li><li>Testez et validez la configuration de tunneling fractionné.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-split-tunnel-configuration-validation-test-results"></a>Résultats des tests de validation document configuration tunnel fractionné
+### <a name="document-split-tunnel-configuration-validation-test-results"></a>Résultats du test de vérification de la configuration du tunnel
 
-Après avoir réalisé test configuration split-tunnel pour les sites dans la portée, créer un rapport qui résume les résultats des tests et présenter lors de la révision comité suivante.
+Une fois que vous avez terminé de tester la configuration de tunneling fractionné pour les sites de l’application, créez un rapport qui résume les résultats des tests et présentez-le au cours de la révision du Comité de direction suivant.
 
-#### <a name="site-a-split-tunnel-configuration-validation-testing-summary-report"></a>Site r : validation de la configuration Split-tunnel test du rapport de synthèse
+#### <a name="site-a-split-tunnel-configuration-validation-testing-summary-report"></a>Site A: rapport de synthèse de vérification de la configuration du tunnel de fractionnement
 
 > [!TIP]
->   Voici un exemple de modèle de rapport de synthèse que vous pouvez consulter lors de la prochaine réunion du comité lorsque vous décidez lorsqu’à intégré système téléphonique avec l’appel des Plans de services lors de la phase pilote de test.
+>   Vous trouverez ci-dessous un exemple de modèle de rapport de synthèse de tests que vous pouvez consulter lors de la réunion du Comité de direction suivant lorsque vous décidez de l’intégration d’un système téléphonique aux services de plans d’appel dans le cadre de la phase pilote.
 
-**Validation de la configuration de double-tunnel**
+**Validation de la configuration du tunnel scindé**
 
-**Résumé des résultats**:&nbsp;&nbsp;&nbsp;& #9744 ; Transmettez&nbsp; &nbsp; &nbsp; & #9744 ; Partiel&nbsp; &nbsp; &nbsp; & #9744 ; Échec
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail
 
 <table>
-<tr><th colspan="2">Test d’actualités </th></tr>
-<tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
-<tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
+<tr><th colspan="2">Recommandations en matière de tests </th></tr>
+<tr><td>DÉFINIR</td><td>DÉFINIR</td></tr>
+<tr><th colspan="2">Test de lowlights  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction:</strong> DÉFINIR</td></tr>
+<tr><th colspan="2">Bloqueurs identifiés </td></tr>
+<tr><td><strong>Bloqueur</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 
 > [!TIP]
-> Pour faciliter la discussion supplémentaire lors de la révision finale comité directeur, vous pouvez utiliser la [matrice des résultats de tests](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) de mise à jour de [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) et mettre en surbrillance des zones supplémentaires qui nécessitent une conversion de documents.
+> Pour faciliter les discussions ultérieures au cours de l’évaluation du Comité d’orientation final, vous pouvez utiliser la [matrice de résultats de test](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) mise à jour de [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) à un document et mettre en évidence des zones supplémentaires qui nécessitent une correction.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer les résultats de tests split-tunnel pour vous assurer que le trafic en temps réel équipes est exclu de la solution d’accès à distance.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documenter les résultats des tests de connectivité tunnel fractionné dans le modèle de résultat de plan de test fourni.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes où un routage correct n’existe pas de prise en charge multimédia équipes au sein d’une configuration de double-tunnel.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluez les résultats des tests de tunneling fractionné pour vous assurer que le trafic en temps réel des équipes est exclu de la solution d’accès à distance.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Résultats du test de connectivité de tunnel fractionné du document dans le modèle de résultat de plan de test fourni.</li><li>Exécutez des plans de remontée et de correction pour résoudre les problèmes sans qu’un routage approprié puisse exister pour la prise en charge du contenu multimédia d’équipes dans une configuration de tunneling fractionné.</li><li>Planifiez une réunion de Comité d’orientation pour passer en revue les résultats de synthèse des tests.</li><li>Présenter des résultats de synthèse de test au Comité de direction pour identifier les domaines qui nécessitent une correction.</li></ul></td></tr>
 </table>
 
 
-<a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>Exécuter le contrôle de performances et de connectivité réseau à l’aide de l’outil d’évaluation de réseau à partir de Microsoft
+<a name="execute-network-connectivity-and-performance-validation-by-using-the-network-assessment-tool-from-microsoft"></a>Exécuter une connectivité réseau et une validation des performances à l’aide de l’outil d’évaluation réseau de Microsoft
 -----------------------------------------------------------------------------------------------------------
 
-L’outil d’évaluation de réseau à partir de Microsoft effectue des tests de connectivité et de la simulation du trafic à diffusion en continu de paquets audio simulés, pour une période prédéfinie et le nombre d’itérations, sur le site le plus proche edge qui permet la connexion au service équipes. Un objectif de ce test est d’évaluer les mesures de performances du réseau pour la perte de paquets, de gigue, latence du parcours circulaire et pourcentage de réapprovisionnement de paquet de chaque appel simulé. En outre, le test vérifie que la connectivité est autorisée entre interne et edge des éléments réseau à tous les points d’entrée edge qui prennent en charge la connexion aux services d’équipes.
+L’outil d’analyse de réseau de Microsoft effectue des tests de connectivité et de simulation du trafic en diffusant les paquets audio à l’aide d’une fonction de diffusion en continu pour une période prédéfinie et le nombre d’itérations, sur le site Edge le plus proche qui fournit une connectivité au service Teams. L’un des objectifs de ce test est d’évaluer les métriques de performances réseau en matière de perte de paquets, de gigue, de latence d’aller-retour et de pourcentage de réorganisation de chaque appel simulé. Par ailleurs, le test vérifie qu’une connectivité appropriée est autorisée entre les éléments réseau interne et Edge à tous les points d’entrée Edge qui prennent en charge la connectivité aux services d’équipe.
 
-Pour plus d’instructions sur la façon de vérifier et d’évaluer la préparation du réseau équipes pour les sites dans l’étendue, consultez la rubrique Préparation du [réseau](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
+Pour obtenir des instructions supplémentaires sur la façon de confirmer et d’évaluer la préparation du réseau d’équipes pour les sites désignés dans le cadre de l’application, voir préparation du [réseau](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
 
 > [!TIP]
->   Pour effectuer une analyse de disponibilité du réseau et de préparation des sites dans l’étendue, désigner un responsable pour chaque site qui peut vous aider à vos efforts d’évaluation de préparation au réseau.
+>   Pour effectuer une analyse de la disponibilité du réseau et un niveau d’exhaustivité pour les sites dans le cadre de l’objet, indiquez un lead pour chaque site qui peut vous aider à améliorer les efforts d’évaluation de la disponibilité du réseau.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Décider de l’évaluation de réseau et d’un profil de test de connectivité pour les sites dans l’étendue.</li><li>Décider d’évaluation de la configuration réseau fichier requise pour les sites dans l’étendue.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Configurer l’évaluation de la configuration réseau fichier requise pour les sites dans l’étendue.</li><li>Exécuter la validation de performances et de connectivité réseau pour les sites dans l’étendue.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez le profil de test Network Assessment et de connexion pour les sites dans l’étendue.</li><li>Déterminez la configuration requise pour le fichier de configuration de l’analyse réseau pour les sites dans l’étendue.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Configurez la configuration requise du fichier de configuration de l’analyse réseau pour les sites dans l’étendue.</li><li>Effectuer une validation des performances du réseau et de la connectivité pour les sites dans l’étendue.</li></ul></td></tr>
 </table>
 
 
 
-### <a name="document-network-connectivity-and-performance-validation-test-results"></a>Document réseau connectivité et performances validation résultats des tests
+### <a name="document-network-connectivity-and-performance-validation-test-results"></a>Documentation sur les résultats des tests de connectivité du réseau et de validation des performances
 
-Une fois que vous avez terminé toutes les connectivité réseau et test de performances pour les sites dans la portée, créer un rapport qui résume les résultats des tests et présenter lors de la révision comité suivante.
+Une fois que vous avez effectué toutes les opérations de connectivité et de performance réseau pour les sites dans le cadre de l’application, créez un rapport qui résume les résultats des tests et présentez-le pendant la prochaine révision du Comité de direction.
 
-#### <a name="site-a-network-connectivity-and-performance-summary-report"></a>Site r : réseau connectivité et performances rapport Résumé
+#### <a name="site-a-network-connectivity-and-performance-summary-report"></a>Site A: rapport sur la connectivité réseau et le rapport de performance
 
 > [!TIP]
-> Vous trouverez ci-dessous un exemple réseau connectivité et performances synthèse de modèle que vous pouvez utiliser lors de la révision comité suivante lorsque vous êtes détermination de préparation du réseau pour les sites dans l’étendue globale.
+> Vous trouverez ci-dessous un exemple de modèle connectivité réseau et synthèse des performances que vous pouvez utiliser lors de l’évaluation du Comité d’orientation suivant lorsque vous déterminez la disponibilité globale du réseau pour les sites dans l’étendue.
 
-**Emplacement : Seattle [inside filaire] client aux résultats Office 365**
+**Emplacement: Seattle [Inside Wired] client vers Office 365**
 
-**Résumé des résultats**:&nbsp;&nbsp;&nbsp;& #9744 ; Transmettez&nbsp; &nbsp; &nbsp; & #9744 ; Partiel&nbsp; &nbsp; &nbsp; & #9744 ; Échec 
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail 
 
 
 
-| Mesure                                                        | Cible                                                                                                            | Weekday : heures de bureau 9 h 30 à 11:00                                                                                                                                                                                                                                                                                                 | Weekday : heures de bureau 2:30 PM à 4:30 PM | Weekday : après les heures de 10 h 30 à 12:30 AM | Week-end : après les heures de 9 h 30 à 11:30 AM | Week-end : après les heures de 2:30 PM à 4:30 PM |
+| Mesure                                                        | Cible                                                                                                            | Semaine: Office heures 9:30 AM à 11:00 AM                                                                                                                                                                                                                                                                                                 | Semaine: Office heures 2:30 PM à 4:30 PM | Semaine: après les heures 10:30 à 12:30 AM | Week-end: après heures 9:30 AM à 11:30 AM | Week-end: après heures de 2:30 à 4:30 PM |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
 | Latence (unidirectionnelle)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
-| Latence (temps d’aller-retour ou durée aller-retour)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
-| Perte de paquets en rafale                                             | \<10 % au cours de l’intervalle de 200-ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | % 2                                       | % 2                                        | 0,2                                     | 0,1 %                                    |
-| Perte de paquets                                                   | \<1 % au cours de l’intervalle de 15-s                                                                                   | 0,4 %                                                                                                                                                                                                                                                                                                                                      | 0,3 %                                     | 0,3 %                                      | 0,1 %                                     | 0%                                      |
-| Gigue arrivée entre des batteries de paquets                                   | \<30 ms pendant l’intervalle de 15-s                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
-| Réorganisation des paquets                                                | \<paquets d’ordre 0,05 %                                                                                      | 0 %                                                                                                                                                                                                                                                                                                                                        | 0 %                                       | 0 %                                        | 0 %                                       | 0 %                                      |
+| Latence (durée de l’aller-retour ou RTT)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
+| Perte de paquets en rafale                                             | \<10% pendant tout intervalle de 200-ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | deuxième                                       | deuxième                                        | 0,2%                                     | 0,1%                                    |
+| Perte de paquets                                                   | \<1% durant tout intervalle de 15 secondes                                                                                   | 0,4%                                                                                                                                                                                                                                                                                                                                      | 0,3%                                     | 0,3%                                      | 0,1%                                     | 0%                                      |
+| Gigue entre les arrivées de paquets                                   | \<30 ms pendant tout intervalle de 15 secondes                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
+| Réorganisation des paquets                                                | \<0,05% de paquets en souffrance                                                                                      | 0 %                                                                                                                                                                                                                                                                                                                                        | 0 %                                       | 0 %                                        | 0 %                                       | 0 %                                      |
 
 
 
 <table>
-<tr><th colspan="2">Test d’actualités </th></tr>
-<tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr> 
-<tr><td><strong>Problème</strong>: latence élevée</td><td><strong>Correction :</strong> Examiner le routage de paquets et implémentez l’itinéraire idéal.</td></tr>
-<tr><td><strong>Problème</strong>: temps d’aller-retour isn& #39 ; t double de la latence</td><td><strong>Correction :</strong> Recherchez un problème de configuration du pare-feu ou votre routeur possible. Examinez les chemins de trafic.</td></tr>
-<tr><td><strong>Problème</strong>: la perte de paquets haute </td><td><strong>Correction :</strong> Via le Planificateur de réseau, vérifiez que la bande passante requise a été affecté. </td></tr>
-<tr><td><strong>Problème</strong>: gigue haute </td><td> <strong>Correction :</strong> Vérifiez si les valeurs de point (DSCP) de code de services différenciés corrects sont utilisés. </td></tr>
-<tr><td><strong>Problème</strong>: la perte de paquets haute </td><td><strong>Correction :</strong> Examinez la perte de paquets. </td></tr>
-<tr><td><strong>Problème</strong>: réorganiser les paquets haute </td><td><strong>Correction :</strong> Examinez la bande passante et la file d’attente routeur. </td></tr>
-<tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
+<tr><th colspan="2">Recommandations en matière de tests </th></tr>
+<tr><td>DÉFINIR</td><td>DÉFINIR</td></tr>
+<tr><th colspan="2">Test de lowlights  </th></tr> 
+<tr><td><strong>Problème</strong>: latence élevée</td><td><strong>Correction:</strong> Recherchez le routage de paquets et implémentez l’itinéraire idéal.</td></tr>
+<tr><td><strong>Problème</strong>: la durée de l’aller-retour n’est pas&#39;t doublement la latence</td><td><strong>Correction:</strong> Recherchez un problème de configuration de routeur ou de pare-feu. Examen des chemins de trafic.</td></tr>
+<tr><td><strong>Problème</strong>: perte de paquets élevée </td><td><strong>Correction:</strong> Assurez-vous que le planificateur réseau dispose d’une bande passante suffisante. </td></tr>
+<tr><td><strong>Problème</strong>: scintillement élevé </td><td> <strong>Correction:</strong> Déterminez si les valeurs DSCP (Differentiated Services Code point) correctes sont utilisées. </td></tr>
+<tr><td><strong>Problème</strong>: perte de paquets élevée </td><td><strong>Correction:</strong> Analyser la perte de paquets. </td></tr>
+<tr><td><strong>Problème</strong>: réorganisation des paquets élevés </td><td><strong>Correction:</strong> Examiner la mise en file d’attente et la bande passante du routeur. </td></tr>
+<tr><th colspan="2">Bloqueurs identifiés </td></tr>
+<tr><td><strong>Bloqueur</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer l’évaluation du réseau et garantir la que satisfaction des exigences décrites dans les <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">performances de connectivité réseau et de qualité multimédia</a> du segment edge et les segments client résultats des tests de connectivité.</li><li>Avez-vous évalué pour prendre en charge des médias en temps réel pour tous les sites dans la portée des fonctionnalités de réseau ?</li><li> Si votre réseau n’a pas été correctement évalué, ou si vous connaissez qu'il ne prend pas en charge les médias en temps réel, désactivera vidéo et les fonctionnalités de partage d’écran afin de réduire le réseau impact et améliorent l’expérience des équipes pour les utilisateurs ?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Performances du réseau et les résultats des tests de connectivité du document.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes avec les sites où il n’est pas suffisamment de bande passante, ou les exigences de performances et de connectivité réseau ne sont pas respectées.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluez les résultats des tests de connectivité et de l’évaluation réseau pour vous assurer que vous respectez les exigences décrites dans la section <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">qualité multimédia et performances de connectivité réseau</a> pour le segment d’arête et les segments de client.</li><li>Avez-vous évalué les fonctionnalités réseau pour la prise en charge des éléments multimédias en temps réel pour tous les sites dans l’étendue?</li><li> Si votre réseau n’a pas été correctement évalué ou si vous savez qu’il ne prend pas en charge les contenus multimédias en temps réel, vous pouvez désactiver la vidéo et les fonctionnalités de partage d’écran afin de réduire l’impact sur le réseau et d’améliorer les performances de l’équipe pour les utilisateurs.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les performances du réseau et les résultats des tests de connectivité.</li><li>Exécuter les plans de remontée et de correction pour résoudre les problèmes liés aux sites pour lesquels il n’y a pas assez de bande passante ou les performances du réseau et les exigences de connectivité ne sont pas satisfaites.</li><li>Planifiez une réunion de Comité d’orientation pour passer en revue les résultats de synthèse des tests.</li><li>Présenter des résultats de synthèse de test au Comité de direction pour identifier les domaines qui nécessitent une correction.</li></ul></td></tr>
 </table>
 
 
-<a name="execute-subscriber-number-port-validation"></a>Exécuter le contrôle du port numéro abonné
+<a name="execute-subscriber-number-port-validation"></a>Exécuter une validation de port du numéro d’abonné
 -----------------------------------------
 
-Si vous devez transférer des nombres dans le cadre de fournir des fonctionnalités d’appel entrants et sortants dans le système téléphonique avec l’appel des Plans de services pris en charge par les équipes, vous devez effectuer un port partiel pour un numéro de service. Cela vous permettra de valider les attentes, les exigences et chronologie raisonnable que vous avez terminé la préparation de votre déploiement de système téléphonique avec des Plans de l’appel des services dans votre environnement de production.
+Si vous avez besoin de transférer des numéros dans le cadre de la fourniture de fonctionnalités d’appels entrants/sortants dans le système téléphonique avec les services de plans d’appel pris en charge par Teams, vous devez utiliser un port partiel pour un numéro de service. Cela vous permettra de valider les attentes, les exigences et les délais raisonnables lorsque vous avez fini de préparer votre déploiement de système téléphonique avec les services d’appels de plan dans votre environnement de production.
 
-Pour effectuer un port partiel d’un numéro d’abonné à partir de votre fournisseur de services PSTN actuel aux équipes, passez en revue les étapes décrites ci-dessous.
+Pour effectuer un portage partiel du numéro d’abonné de votre fournisseur de services RTC actuel vers Teams, suivez les étapes décrites ci-dessous.
 
 #### <a name="step-1"></a>Étape 1
 
-Identifier le nombre de test que vous souhaitez en service via le système téléphonique avec l’appel des Plans de service dans les équipes de port à Office 365 en tant qu’un utilisateur peut être assigné numéro (abonné).
+Identifiez le numéro que vous voulez utiliser pour le portage d’Office 365 en tant que numéro d’utilisateur attribuable (numéro de l’abonné) pour être desservi par le biais du système téléphonique avec le Service plans d’appel dans Teams.
 
 > [!IMPORTANT]
->Lorsque vous planifiez votre test portage numéro, veillez à consulter les instructions le plus récent pour les demandes portage numéros dans [Numéro de Port questions les plus fréquentes](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions).
+>Lorsque vous planifiez votre test de transfert de numéro, veillez à consulter les dernières recommandations en matière de demandes de transfert de numéros dans les questions fréquentes sur le [port de numéro](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions).
 
 #### <a name="step-2"></a>Étape 2
 
-Identifier et documenter toutes les informations de compte (y compris le nom utilisé pour le compte spécifique) pour l’opérateur actuel du nombre de test que vous allez être portage.
-En règle générale, vous pouvez trouver les informations que vous avez besoin dans la dernière lettre ou la facture à partir de votre fournisseur de services en cours.
+Identifiez et documentez toutes les informations sur le compte (y compris le nom utilisé pour le compte en particulier) pour le transporteur actuel du numéro de test que vous allez transférer.
+En règle générale, vous trouverez les informations dont vous avez besoin dans la dernière facture de votre fournisseur de services actuel.
 
 > [!TIP]
->   Vous pouvez déplacer ou transfert des numéros de téléphone dans toutes les actuellement pris en charge pays/régions ; Toutefois, la manière de vous soumettez une demande de commande de port peut-être différer en fonction du pays ou région dans lequel les numéros de téléphone sont issus. Pour connaître la liste des pays/régions actuellement pris en charge, voir [pays et disponibilité dans la région de conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+>   Vous pouvez porter ou transférer des numéros de téléphone dans les pays/régions actuellement pris en charge. Toutefois, le mode de soumission d’une demande de transfert peut varier en fonction du pays ou de la région à partir duquel les numéros de téléphone sont sources. Pour obtenir la liste actualisée des pays/régions actuellement pris en charge, consultez la rubrique [disponibilité des pays et de la région pour les conférences audio et les offres d’appels](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 > 
->   Pour plus d’informations sur le transfert des numéros de téléphone au système téléphonique avec des Plans de l’appel, ainsi que les restrictions potentielles — voir [transférer des numéros de téléphone vers Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) et [composer le numéro payant restrictions dans Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
+>   Pour plus d’informations sur le transfert de numéros de téléphone vers le système téléphonique avec les offres d’appels, ainsi que les restrictions potentielles, voir [transférer des numéros de téléphone vers office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) et [restrictions de numérotation gratuites dans Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Étape 3
 
-Téléchargez et créer une lettre d’autorisation (lettre d’accord) pour votre pays/région qui repose sur « service nombre » comme type de numéro portage.
+Téléchargez et créez une lettre d’autorisation (LOA) pour votre pays/région, en fonction du numéro de service, comme type de transfert de numéro.
 
 >[!NOTE]
->   Étant donné que les formats lettre d’accord peuvent différer par type de numéro, région ou pays (qui est géographique et non géographiques ou numéro d’utilisateur et le service ou le numéro gratuit), vérifiez que vous utilisez le modèle de lettre d’accord approprié pour votre scénario spécifique. Pour plus d’informations sur le choix de la lettre d’accord, consultez [télécharger une lettre d’autorisation (lettre d’accord)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa) , ou accédez directement à la [page de téléchargement](https://www.microsoft.com/download/details.aspx?id=49167).
+>   Dans la mesure où les formats LOA peuvent être différents selon le pays, la région ou le type de numéro (c’est-à-dire géographique ou non géographique ou numéro de téléphone ou numéro gratuit), vérifiez que vous utilisez le modèle LOA approprié pour votre type de scénario spécifique. Pour plus d’informations sur le choix de l’LOA, voir [Télécharger une lettre d’autorisation (LOA)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa) , ou accéder directement à la [page de téléchargement](https://www.microsoft.com/download/details.aspx?id=49167).
 
 >[!NOTE]
 > **États-Unis uniquement**<br/>
->   Étant donné que nous allons portage uniquement un numéro de service pour ce test, veillez à sélectionner les champs appropriés dans la lettre d’accord comme indiqué ci-dessous :
+>   Étant donné que nous ne transférons qu’un numéro de service pour ce test, veillez à sélectionner les champs appropriés dans le LOA, comme illustré ci-dessous:
 
-![Comment plusieurs numéros de téléphone vous transférez ? Réponse : je suis à transférer certains de mes numéros de mon opérateur actuel.] (media/onboarding-test-plan-image1.png "Comment plusieurs numéros de téléphone vous transférez ? Réponse : je suis à transférer certains de mes numéros de mon opérateur actuel.")
+Combien de ![numéros de téléphone transférerez-vous? Réponse: je ne transfère que certains de mes numéros de mon opérateur actuel.] Combien de (media/onboarding-test-plan-image1.png "numéros de téléphone transférerez-vous? Réponse: je ne transfère que certains de mes numéros de mon opérateur actuel.")
 
-![Quel type de numéros de téléphone vous transférez ? Réponse : je suis transfert voice service numéro de téléphone pour les standards automatiques ou de ponts de conférence.] (media/onboarding-test-plan-image2.png "Quel type de numéros de téléphone vous transférez ? Réponse : je suis transfert voice service numéro de téléphone pour les standards automatiques ou de ponts de conférence.")
+![Quels types de numéros de téléphone allez-vous transférer? Réponse: je transfère des numéros de téléphone de service vocal comme pour les standards automatiques ou les ponts de conférence.] (media/onboarding-test-plan-image2.png "Quels types de numéros de téléphone allez-vous transférer? Réponse: je transfère des numéros de téléphone de service vocal comme pour les standards automatiques ou les ponts de conférence.")
 
 >[!IMPORTANT]
->   Lorsque vous portez manuellement les numéros de téléphone à l’aide d’une lettre d’accord, assurez-vous que vous sélectionnez le type de numéro de téléphone approprié. Vous devez soumettre des demandes de transfert distinctes pour chaque type de numéro de téléphone que vous voulez transférer.<br/><br/>
->   Parce que nous voulons tester le numéro portage processus à l’aide d’un numéro de téléphone associé avec le même numéro de téléphone facturation (bouton), vous devez vous assurer que le numéro de téléphone de facturation n’est *pas* inclus avec le numéro de téléphone spécifique portage.
+>   Lorsque vous transférez manuellement des numéros de téléphone à l’aide d’un LOA, veillez à sélectionner le type de numéro de téléphone correct. Vous devez soumettre des demandes de transfert distinctes pour chaque type de numéro de téléphone que vous voulez transférer.<br/><br/>
+>   Comme nous voulons tester le processus de transfert de numéro à l’aide d’un numéro de téléphone associé au même numéro de téléphone de facturation (BTN), vous devez vous assurer que le numéro de téléphone de facturation ne correspond *pas* au numéro de téléphone à transférer.
 
 #### <a name="step-4"></a>Étape 4
 
-Dans le portail d’administration de client, cliquez sur l’onglet **prise en charge** et créer et soumettre une demande de service. Joignez le fichier lettre d’accord terminé pour planifier le numéro de téléphone associé à votre fournisseur de services en cours pour la migration. Pour choisir la méthode de demande de service plus appropriée pour la taille de votre client, consultez la rubrique [manuellement pour soumettre une demande de service personnalisé](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request).
+Dans le portail d’administration du client, accédez à l’onglet **support** , puis créez et envoyez une demande de service. Joignez le fichier LOA Completed pour planifier le numéro de téléphone associé à votre fournisseur de services actuel pour la migration. Pour choisir la méthode de demande de service la plus appropriée à la taille de votre client, reportez-vous à la rubrique [envoi manuel d’une demande de service personnalisée](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manually-submit-a-custom-service-request).
 
-Une fois que la prise en charge de la demande, Support Microsoft sera suivi selon le mode de communication, vous avez choisi et de notification d’état et les étapes suivantes pour terminer le processus de portage numéro.
+Après la réception de la demande d’assistance, le support Microsoft assurera le suivi en fonction de la méthode de communication que vous avez choisie et vous avertit de votre statut et des étapes suivantes pour terminer le processus de transfert de numéro.
 
 #### <a name="step-5"></a>Étape 5
 
-Une fois que le nombre est confirmé comme ayant été portées comme un nouveau numéro d’abonné dans Office 365, affecter le nombre au système téléphonique avec le service d’appel de Plans en accédant au portail d’administration client \> **Skype pour le centre d’administration Business** \> ** Voix**. Sous l’onglet **Numéros de téléphone** , affectez le nouveau numéro de service pour le système téléphonique avec le service d’appel de Plans.
+Une fois que le numéro a été transféré en tant que nouveau numéro d’abonné dans Office 365, attribuez-lui le numéro à l’aide du service de plan d’appel dans le portail \> d’administration du client dans le **Centre** \> **d’administration Skype entreprise. Voix**. Dans l’onglet **numéros de téléphone** , attribuez le nouveau numéro de service au système téléphonique grâce au service forfaits d’appels.
 
 > [!TIP]
->   Bien que cela affecte un nouveau numéro de service au système téléphonique avec l’appel prévoit, au moment de la rédaction de ce document, l’administration de cette tâche a été effectuée à l’aide de la Skype entreprise centre d’administration.
+>   Même si cette tâche attribue un nouveau numéro de service au système téléphonique avec des plans d’appels, au moment de la rédaction de ce code, l’administration de cette tâche est effectuée à l’aide du centre d’administration Skype entreprise.
 
 #### <a name="step-6"></a>Étape 6
 
-Maintenant que vous avez affecté le nombre de ports abonné, connectez-vous à un client d’équipes en tant que l’utilisateur et composer un numéro à 10 chiffres externe via le réseau téléphonique commuté. Une fois que vous placez l’appel, vérifiez que l’appel a été connecté et que l’ID d’appelant affichée correspond au numéro d’abonné que vous porté.
+À présent que vous avez attribué le numéro de l’abonné à une équipe, connectez-vous à un client teams en tant qu’utilisateur et composez un numéro à 10 chiffres externe via PSTN. Une fois l’appel terminé, confirmez que l’appel a été connecté et que l’ID d’appelant affiché correspond au numéro d’abonné que vous avez porté.
 
 #### <a name="step-7"></a>Étape 7
 
-À partir d’un numéro RTC externe, effectuez un appel vers le numéro d’abonné que vous préparés pour Office 365 et vérifiez que l’appel est reçu entrant et connecté via le client équipes.
+À partir d’un numéro RTC externe, vous devez effectuer un appel vers le numéro de l’abonné que vous avez porté à Office 365 et vérifier que l’appel est reçu entrant et connecté via le client Teams.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez les numéros nationaux abonné vous devrez port, par pays/région.</li><li>Choisir le modèle de lettre d’accord que vous allez utiliser.</li><li>Déterminer si votre opérateur actuel (opérateur perdre) autorise la fragmentation numérique de téléphone (autrement dit, permet de commandes port partielle).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Collecter les informations nécessaires et préparez accord.</li><li>Télécharger et terminez les modèles de lettre d’accord que vous avez besoin.</li><li>Pour soumettre une demande de portage numérique d’abonné.</li><li>Exécuter le test de validation pour les numéros de ports en leur attribuant le système téléphonique avec l’appel des Plans de service pour l’accès à distance et vérifiez qu’ils fonctionnent, comme indiqué dans les étapes 6 et 7 plus haut dans cette section.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez les numéros d’abonnés nationaux que vous devez porter, par pays/région.</li><li>Déterminez le modèle LOA que vous utiliserez.</li><li>Déterminez si votre opérateur actuel (opérateur de perte) permet de défragmenter le numéro de téléphone (c’est-à-dire autorisant les commandes de transfert partiel).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Rassemblez les informations requises et préparez le LOAs.</li><li>Téléchargez et remplissez les modèles LOA dont vous avez besoin.</li><li>Envoyez une demande de transfert de numéro d’abonné.</li><li>Exécutez une validation de test pour les numéros portés en les affectant au système téléphonique avec service d’appels d’offre pour l’accès rendez-vous et confirmez qu’ils fonctionnent, comme indiqué dans les étapes 6 et 7 plus haut dans cette section.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-service-number-porting-test-results"></a>Numéro de service portage des résultats des tests de document
+### <a name="document-service-number-porting-test-results"></a>Résultats du test de Portage du numéro de service de document
 
-Après avoir réalisé tous les tests de numéro d’abonné, créez un rapport qui résume les résultats des tests de présenter lors de la révision comité suivante.
+Une fois que vous avez terminé de tester le numéro de l’abonné, créez un rapport qui résume les résultats du test à présenter lors de la révision du Comité de direction suivant.
 
-#### <a name="site-a-number-porting-test-summary-report"></a>Numéro du site a : portage rapport récapitulatif des tests
+#### <a name="site-a-number-porting-test-summary-report"></a>Site A: rapport de synthèse des tests de transfert de numéros
 
 > [!TIP]
->   Voici un exemple de modèle de rapport de synthèse test que vous pouvez utiliser pour passer en revue les lors de la prochaine réunion du comité lorsque vous décidez lorsqu’à intégré système téléphonique avec l’appel des Plans de services lors de la phase pilote.
+>   Vous trouverez ci-dessous un exemple de modèle de rapport de synthèse de test que vous pouvez utiliser pour passer en revue lors de la réunion du Comité de direction suivant lorsque vous décidez de l’intégration d’un système téléphonique aux services de plans d’appel dans le cadre de la phase pilote.
 
-**Portage du numéro de service**
+**Transfert de numéro de service**
 
-**Résumé des résultats**:&nbsp;&nbsp;&nbsp;& #9744 ; Transmettez&nbsp; &nbsp; &nbsp; & #9744 ; Partiel&nbsp; &nbsp; &nbsp; & #9744 ; Échec 
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail 
 
 <table>
-<tr><th colspan="2">Test d’actualités </th></tr>
-<tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
-<tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
+<tr><th colspan="2">Recommandations en matière de tests </th></tr>
+<tr><td>DÉFINIR</td><td>DÉFINIR</td></tr>
+<tr><th colspan="2">Test de lowlights  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction:</strong> DÉFINIR</td></tr>
+<tr><th colspan="2">Bloqueurs identifiés </td></tr>
+<tr><td><strong>Bloqueur</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 
 > [!TIP]
->   Pour faciliter la discussion supplémentaire lors de la révision finale comité directeur, vous pouvez utiliser la mise à jour [matrice des résultats de Test](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) fourni par [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) et mettre en surbrillance des zones de test supplémentaires qui nécessitent une conversion de documents.
+>   Pour faciliter la discussion supplémentaire au cours de l’évaluation du Comité d’orientation final, vous pouvez utiliser la [matrice de résultats de test](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) mise à jour fournie par [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) pour documenter et mettre en évidence des zones de test supplémentaires qui nécessitent une correction.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluez si les numéros abonné soumis à la migration ont été correctement prise en charge par le système téléphonique avec le service d’appel de Plans...</li><li>Évaluer si vous avez réussi à affecter le nombre de ports de service pour le système téléphonique avec le service d’appel de Plans.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Votre numéro de portage des résultats des tests du document.</li><li>Exécuter des plans de réaffectation et de correction pour résoudre les problèmes que vous avez rencontré avec le processus portage numéro, le cas échéant.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Présenter les résultats des tests résumé au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez si les numéros d’abonnés envoyés pour la migration ont été portés au système téléphonique avec le service de plans d’appel.</li><li>Évaluez si vous avez été en mesure d’affecter le numéro de service sur le système téléphonique avec le service des plans d’appels.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les résultats des tests de portage de votre numéro.</li><li>Exécutez les plans de remontée et de mise à jour pour résoudre les problèmes rencontrés avec le processus de transfert de numéro, le cas échéant.</li><li>Planifiez une réunion de Comité d’orientation pour passer en revue les résultats de synthèse des tests.</li><li>Présenter les résultats du test de synthèse au Comité d’orientation pour identifier les domaines qui nécessitent une correction.</li></ul></td></tr>
 </table>
 
 
-<a name="execute-your-test-plan-for-phone-system-with-calling-plans"></a>Exécuter votre plan de test pour le système téléphonique avec des Plans de l’appel
+<a name="execute-your-test-plan-for-phone-system-with-calling-plans"></a>Exécuter votre plan de test pour le système téléphonique avec les offres d’appels
 ----------------------------------------------------------
 
-Maintenant que vous avez défini votre plan de test, l’étape suivante consiste à parcourir les cas de test, en mettant l’accent sur l’évaluation du système téléphonique avec l’appel des Plans de l’administration et utilisateur bénéficier des fonctionnalités dans l’étendue. Avant de commencer réellement les tests, vérifiez que la configuration de test répertoriée ci-dessous est en place.
+Maintenant que vous avez défini votre plan de test, l’étape suivante consiste à parcourir les cas de test, en insistant sur l’évaluation du système téléphonique avec les fonctionnalités d’administration des plans d’appel et de l’utilisation de l’application. Avant le début du test, vérifiez que les conditions de test répertoriées ci-dessous sont en place.
 
-### <a name="phone-system-with-calling-plans-testing-prerequisites"></a>Système téléphonique avec l’appel des Plans de test des conditions requises
+### <a name="phone-system-with-calling-plans-testing-prerequisites"></a>Système téléphonique avec la configuration requise pour les tests d’offres
 
--   Exemples d’utilisation ont été définies pour le système téléphonique avec le service d’appel de Plans.
+-   Des cas d’utilisation peuvent avoir été définis pour le système téléphonique avec le service forfaits d’appels.
 
--   Les principales parties prenantes ont été identifiés.
+-   Les principales parties prenantes ont été identifiées.
 
--   La gestion des licences requis pour le système téléphonique avec des Plans de l’appel de services est disponible et a été affecté au groupe d’utilisateurs dans l’étendue.
+-   Le contrat de licence requis pour le système téléphonique avec les services de plans d’appel est disponible et attribué au groupe d’utilisateurs dans l’ensemble de l’application.
 
--   La liste des sites d’organisation et des groupes d’utilisateurs dans la portée ont été identifiés.
+-   La liste des sites d’entreprise et des groupes d’utilisateurs de l’étendue a été identifiée.
 
--   [Communications générique](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
+-   [Crédits de communication](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
 
--   Système téléphonique avec les paramètres de l’appel des Plans ont été identifiés et configuré.
+-   Le système téléphonique avec des paramètres de plans d’appel a été identifié et configuré.
 
--   Les paramètres qui prennent en charge le système téléphonique avec des Plans de l’appel identifiés, configurés et appliqués pour le groupe d’utilisateurs dans la portée de plan de numérotation de client.
+-   Les paramètres du plan de numérotation client prenant en charge le système téléphonique avec des plans d’appel ont été identifiés, configurés et appliqués pour le groupe d’utilisateurs dans l’étendue.
 
--   Système téléphonique avec l’appel des Plans de stratégies ont été identifiés et configurés pour le groupe d’utilisateurs dans l’étendue.
+-   Le système téléphonique avec des plans d’appel a été identifié et configuré pour ce groupe d’utilisateurs.
 
--   Système téléphonique avec les exigences de conformité ont été identifiés et configurés pour le groupe d’utilisateurs dans la portée des Plans de l’appel.
+-   Système téléphonique avec des plans d’appels le respect des exigences de conformité a été identifié et configuré pour le groupe d’utilisateurs dans l’étendue.
 
-### <a name="document-phone-system-with-calling-plans-test-case-passfail-status"></a>Système téléphonique de document avec le statut de réussite/échec de cas de test des Plans de l’appel
+### <a name="document-phone-system-with-calling-plans-test-case-passfail-status"></a>Système téléphonique de documents avec l’état de réussite ou d’échec du test de plans d’appel
 
-Comme des cas de test sont évaluées pour les équipes d’administration et les fonctionnalités du système de téléphone dans l’étendue utilisateur, suivi de chaque cas de test afin de refléter le statut partielle/réussite/échec, ainsi que l’ID affecté de la défaillance en cas de problème imprévu.
+Dans la mesure où les cas de test sont évalués pour les fonctionnalités d’administration et de système téléphonique utilisateur de teams dans l’objectif, effectuez le suivi des résultats de chaque cas de test pour refléter le statut de réussite/partielle/échec, ainsi que l’ID attribué au cas où un problème imprévu se produisait.
 
-#### <a name="phone-system-with-calling-plans-test-case-status"></a>Système téléphonique avec le statut de cas de test et des Plans de l’appel
+#### <a name="phone-system-with-calling-plans-test-case-status"></a>Système téléphonique avec état du cas de test plans d’appel
 
 > [!TIP]
->   Voici un exemple de modèle de l’état des cas de test que vous pouvez utiliser pour les résultats des tests pour passer en revue les lors de la prochaine réunion du comité lorsque vous décidez lorsqu’à intégré système téléphonique avec l’appel des Plans de services lors de la phase pilote.
+>   Vous trouverez ci-dessous un exemple de modèle d’état de cas de test que vous pouvez utiliser pour documenter des résultats de test pour révision lors de la prochaine réunion du Comité de direction lorsque vous décidez de l’intégration du système téléphonique aux services d’appels de plan dans le cadre de la phase pilote.
 
-| Système téléphonique avec les Plans d’appel          |                              |                                                                                            |                           |                                                                            |
+| Système téléphonique avec forfaits d’appels          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
-| ID de cas de test                             | Titre du cas de test              | Description des cas de test                                                                      | Récapitulatif de résultats de cas de test | ID d’erreur affecté (le cas échéant)                                         |
-| 1                                        | Passer des appels PSTN sortants. | Émettre un appel sortant en composant un numéro à 10 chiffres nationale.                              |    & #9744 ; Passer<br/>& #9744 ; Partiel<br/> & #9744 ; Échec                   | Lorsqu’un utilisateur entre un nombre à quatre chiffres, l’appel vers la réseau téléphonique commuté échoue. |
+| ID de cas de test                             | Titre du cas de test              | Description de cas de test                                                                      | Résumé des résultats de cas de test | ID de défaut affecté (le cas échéant)                                         |
+| 1                                        | Placement d’appels RTC sortants. | Passez un appel sortant en composant un numéro national à 10 chiffres.                              |    &#9744;passe<br/>&#9744;partielle<br/> &#9744;Fail                   | Lorsqu’un utilisateur entre un numéro à quatre chiffres, l’appel passé au RTC échoue. |
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer le statut de réussite/échec de haut niveau des cas de test par site pour système téléphonique avec des Plans de l’appel de fonctionnalités dans l’étendue.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Les résultats de l’état cas de test pour tous les cas de test effectuées dans la portée du document.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Présenter les résultats de l’état de cas de test au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluez l’état de réussite et d’échec du test de haut niveau par site pour le système téléphonique avec les fonctionnalités d’appels de plan dans l’étendue.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez les résultats de l’état de cas de test pour tous les cas de test remplis dans l’étendue.</li><li>Planifiez une réunion de Comité d’orientation pour passer en revue les résultats de synthèse des tests.</li><li>Présenter les résultats de l’état de cas de test au Comité d’orientation pour identifier les domaines qui nécessitent une correction.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-phone-system-with-calling-plans-testing-result-summary"></a>Système téléphonique de document avec l’appel des Plans de résumé des résultats de test
+### <a name="document-phone-system-with-calling-plans-testing-result-summary"></a>Système téléphonique de documents avec les résultats du test plans d’appel
 
-Une fois tous les cas de test avec des Plans de l’appel de fonctionnalités dans la portée de prise en charge système téléphonique ont été effectuées par site, les résultats pour passer en revue lors d’une réunion du comité lorsque vous décidez d’activer le système téléphonique avec les services de Plans de l’appel dans le pilote de document phase.
+Après que tous les cas de test prenant en charge le système téléphonique avec les fonctionnalités de plans d’appel dans le champ d’application ont été remplis par site, documentez les résultats à réviser au cours d’une réunion de Comité d’orientation lorsque vous décidez de l’activation de votre système téléphonique avec les services de plans d’appel au pilote. polyphasé.
 
-#### <a name="site-a-phone-system-with-calling-plans-test-case-summary-report"></a>Site a : téléphone système avec l’appel des Plans de rapport de synthèse des cas de test :
+#### <a name="site-a-phone-system-with-calling-plans-test-case-summary-report"></a>Site A: système téléphonique avec le rapport de synthèse de cas de test de plans d’appel:
 
 > [!TIP]
->   Voici un exemple de modèle de rapport de synthèse test que vous pouvez consulter lors de la prochaine réunion du comité lorsque vous décidez lorsqu’à intégré système téléphonique avec l’appel des Plans de services lors de la phase pilote.
+>   Vous trouverez ci-dessous un exemple de modèle de rapport de synthèse de test que vous pouvez consulter lors de la réunion du Comité de direction suivant lorsque vous décidez de l’intégration de votre système téléphonique aux services de plans d’appel dans le cadre de la phase pilote.
 
 
-**Système de téléphone équipes avec les Plans d’appel**
+**Système téléphonique d’équipe avec des plans d’appels**
 
-**Résumé des résultats**:&nbsp;&nbsp;&nbsp;& #9744 ; Transmettez&nbsp; &nbsp; &nbsp; & #9744 ; Partiel&nbsp; &nbsp; &nbsp; & #9744 ; Échec 
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail 
 
 <table>
-<tr><th colspan="2">Test d’actualités </th></tr>
-<tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Enseignements de test  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction :</strong> TBD</td></tr>
-<tr><th colspan="2">BLOQUEURS identifiés </td></tr>
-<tr><td><strong>Bloqueur de fenêtres publicitaires</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
+<tr><th colspan="2">Recommandations en matière de tests </th></tr>
+<tr><td>DÉFINIR</td><td>DÉFINIR</td></tr>
+<tr><th colspan="2">Test de lowlights  </th></tr><br/><tr><td><strong>Problème</strong>: TBD</td><td><strong>Correction:</strong> DÉFINIR</td></tr>
+<tr><th colspan="2">Bloqueurs identifiés </td></tr>
+<tr><td><strong>Bloqueur</strong>: TBD</td><td><strong>Correction</strong>: TBD</td></tr>
 </table>
 
 
 > [!TIP]
->   Pour faciliter la discussion supplémentaire lors de la révision finale comité directeur, vous pouvez utiliser la mise à jour [matrice des résultats de tests](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) fournie par [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) et mettre en surbrillance des zones supplémentaires qui nécessitent une conversion de documents.
+>   Pour faciliter les discussions ultérieures au cours de l’évaluation du Comité d’orientation final, vous pouvez utiliser la [matrice de résultats de test](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) mise à jour fournie par [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) pour documenter et mettre en évidence des zones supplémentaires qui nécessitent une correction.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluer le test de haut niveau synthèse des résultats par site pour système téléphonique avec des Plans de l’appel de fonctionnalités dans l’étendue.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Une fois que tous les résultats de cas de test ont été effectuées du document du rapport récapitulatif des cas de test.</li><li>Organiser une réunion du comité directeur pour passer en revue les résultats des tests résumé.</li><li>Il est présent test synthèse des résultats au comité de direction pour identifier les zones qui nécessitent une conversion.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Évaluez les résultats de synthèse de test de haut niveau par site pour le système téléphonique avec les fonctionnalités d’appels de plan dans l’étendue.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Documentez le rapport de synthèse de cas de test une fois tous les résultats de cas de test remplis.</li><li>Planifiez une réunion de Comité d’orientation pour passer en revue les résultats de synthèse des tests.</li><li>Présenter des résultats de synthèse de test au Comité de direction pour identifier les domaines qui nécessitent une correction.</li></ul></td></tr>
 </table>
 
 
 
-<a name="present-and-report-phone-system-with-calling-plans-test-findings"></a>Présenter et rapport système téléphonique avec des Plans de l’appel des résultats de test
+<a name="present-and-report-phone-system-with-calling-plans-test-findings"></a>Présenter et signaler un système téléphonique avec les résultats des tests d’appels
 ----------------------------------------------------------------
 
-Une fois toutes les activités de tests ont été effectuées et défauts ayant un impact faible ont été résolus, organiser une réunion de clôture finale avec les parties prenantes tests désignés. Lors de la réunion, l’adresse :
+Une fois toutes les activités de test effectuées et les éventuels défauts ayant un impact sur le niveau faible, planifiez une réunion définitive de clôture avec les parties prenantes en matière de tests désignés. Dans la réunion, adresse:
 
--   Résumé de l’état
+-   Résumé de l’État
 
--   Mise en surbrillance/enseignements
+-   Mise en surbrillance/lowlights
 
--   Enseignements
+-   Leçons apprises
 
--   Recommandation générale, réévaluez les résultats des tests ou de passer à la phase pilote ?
+-   Recommandation globale: passez à la phase pilote ou réévaluez les résultats des tests.
 
--   Résultats des tests de matrice (celles-ci doivent être entièrement renseignées dans l’annexe)
+-   Résultats de matrice de test (ces valeurs doivent être entièrement documentées dans une annexe)
 
-#### <a name="test-plan-deliverables"></a>Livrables du plan de test :
+#### <a name="test-plan-deliverables"></a>Livrables du plan de test:
 
 > [!TIP]
->   Voici un exemple d’un plan de test du livrable modèle que vous pouvez utiliser les critères de document requis pour obtenir l’approbation et de quitter la phase de test ou de suspendre le test jusqu'à ce que tous les problèmes identifiés sont entièrement résolus.
+>   Vous trouverez ci-dessous un exemple de modèle de livrable de plan de test que vous pouvez utiliser pour documenter les critères requis pour la connexion et la sortie de la phase de test, ou pour suspendre les tests jusqu’à ce que tous les problèmes identifiés soient entièrement résolus.
 
-| Résumé de l’état               | Actualités/enseignements | Enseignements | Recommandation de fermeture |
+| Résumé de l’État               | Recommandations/lowlights | Leçons apprises | Recommandations en matière de conclusion |
 |------------------------------|----------------------|-----------------|------------------------|
-| <ul><li>Taux de réussite des cas de test de TBD %</li><li>Tous les tests réussis</li></ul> | TBD                  | TBD             | Passez à pilote       |
+| <ul><li>Taux de tests de cas de test de% TBD</li><li>Tous les tests réussis</li></ul> | DÉFINIR                  | DÉFINIR             | Passer au programme pilote       |
 
 -   Tous les tests réussis
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminer l’état des tests résumé.</li><li>Identifier les tests actualités et enseignements.</li><li>Identifier les enseignements.</li><li>Décider quels correction actions restent, le cas échéant.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Document test synthèse des résultats à inclure :<ul><li>Résumé de l’état</li><li>Actualités/enseignements</li><li>Enseignements</li></ul></li><li>Organiser une réunion du comité finale pour passer en revue les résultats des tests.</li><li>Passez en revue présent test synthèse des résultats pendant un comité directeur pour obtenir la signature finale pour la phase de test en quittant l’application.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Points de décision</td><td><ul><li>Déterminez le résumé de l’état des tests.</li><li>Identifiez les tests de mise en surbrillance et lowlights.</li><li>Identifiez les leçons tirées.</li><li>Déterminez les actions de correction qui resteront, le cas échéant.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez inclure les résultats de synthèse du test de document comme suit:<ul><li>Résumé de l’État</li><li>Recommandations/lowlights</li><li>Leçons apprises</li></ul></li><li>Planifiez une réunion finale de Commission pour examiner les résultats des tests.</li><li>Présenter des résultats de synthèse lors d’une étude du Comité d’orientation afin d’obtenir une signature finale permettant de sortir de la phase de test.</li></ul></td></tr>
 </table>

@@ -25,7 +25,7 @@ ms.locfileid: "34433342"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande envergure grâce aux équipes de conférences de grande qualité that& # 39; </p>
+                        <p>Transformer des espaces de réunion allant de petites huddles à des salles de conférence de grande envergure grâce aux équipes de conférences de grande qualité,&#39;qui sont simples à utiliser, à déployer et à gérer. </p>
                         <p>Démarrez des réunions avec une jointure en une seule fois, puis projetez instantanément sur l’écran de la salle et partagez-les avec les participants distants. </p>
                         <p>Sélectionnez les périphériques audio et vidéo appropriés pour l’un de nos partenaires: Yealink, Logitech, Crestron, Polycom, Lenovo et HP.</p>
                         <p></p>

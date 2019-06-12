@@ -496,7 +496,7 @@ Après avoir effectué un test de validation QoS à l’aide d’une stratégie 
 
 **Validation de la configuration QoS via un objet de stratégie de groupe ou un analyseur de message**
 
-**Résumé**des résultats&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Réussi
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail
 
 <table>
 <tr><th colspan="2">Recommandations en matière de tests </th></tr>
@@ -549,7 +549,7 @@ Une fois que vous avez terminé de tester la configuration de tunneling fraction
 
 **Validation de la configuration du tunnel scindé**
 
-**Résumé**des résultats&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Réussi
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail
 
 <table>
 <tr><th colspan="2">Recommandations en matière de tests </th></tr>
@@ -599,7 +599,7 @@ Une fois que vous avez effectué toutes les opérations de connectivité et de p
 
 **Emplacement: Seattle [Inside Wired] client vers Office 365**
 
-**Résumé**des résultats&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Réussi 
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail 
 
 
 
@@ -617,7 +617,7 @@ Une fois que vous avez effectué toutes les opérations de connectivité et de p
 <tr><th colspan="2">Recommandations en matière de tests </th></tr>
 <tr><td>DÉFINIR</td><td>DÉFINIR</td></tr>
 <tr><th colspan="2">Test de lowlights  </th></tr><br/><tr><td><strong>Problème</strong>: latence élevée</td><td><strong>Correction:</strong> Recherchez le routage de paquets et implémentez l’itinéraire idéal.</td></tr>
-<tr><td><strong>Problème</strong>: durée de l’aller-retour isn& # 39; t doubler la latence</td><td><strong>Correction:</strong> Recherchez un problème de configuration de routeur ou de pare-feu. Examen des chemins de trafic.</td></tr>
+<tr><td><strong>Problème</strong>: la durée de l’aller-retour n’est pas&#39;t doublement la latence</td><td><strong>Correction:</strong> Recherchez un problème de configuration de routeur ou de pare-feu. Examen des chemins de trafic.</td></tr>
 <tr><td><strong>Problème</strong>: perte de paquets élevée </td><td><strong>Correction:</strong> Assurez-vous que le planificateur réseau dispose d’une bande passante suffisante. </td></tr>
 <tr><td><strong>Problème</strong>: scintillement élevé </td><td> <strong>Correction:</strong> Déterminez si les valeurs DSCP (Differentiated Services Code point) correctes sont utilisées. </td></tr>
 <tr><td><strong>Problème</strong>: perte de paquets élevée </td><td><strong>Correction:</strong> Analyser la perte de paquets. </td></tr>
@@ -716,7 +716,7 @@ Après avoir effectué tous les tests de transfert de numéros, créez un rappor
 
 **Transfert de numéro de service**
 
-**Résumé**des résultats&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Réussi 
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail 
 
 <table>
 <tr><th colspan="2">Recommandations en matière de tests </th></tr>
@@ -776,7 +776,7 @@ Comme les scénarios de test sont évalués pour les fonctionnalités d’admini
 
 | ID de cas de test                             | Titre du cas de test                             | Description de cas de test                                                                            | Résumé des résultats de cas de test | ID de défaut affecté (le cas échéant)                                                                          |
 |------------------------------------------|---------------------------------------------|---------------------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------|
-| 1                                        | Planifier une réunion de conférence audio dans teams | Planifiez une réunion en ligne et vérifiez que le pont de conférence est affiché dans l’invitation. |  &#9744; Franchi<br/>&#9744; Couleur<br/> &#9744; Réussi   | Pour les utilisateurs RHM, les coordonnées de numérotation en option ne sont pas renseignées via le complément de planification d’Outlook teams |
+| 1                                        | Planifier une réunion de conférence audio dans teams | Planifiez une réunion en ligne et vérifiez que le pont de conférence est affiché dans l’invitation. |  &#9744;passe<br/>&#9744;partielle<br/> &#9744;Fail   | Pour les utilisateurs RHM, les coordonnées de numérotation en option ne sont pas renseignées via le complément de planification d’Outlook teams |
 
 
 <table>
@@ -796,7 +796,7 @@ Après l’exécution de tous les cas de test prenant en charge les fonctionnali
 
 **Audioconférence teams**
 
-**Résumé**des résultats&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; &nbsp; &nbsp; Partial&nbsp; & # 9744; Réussi 
+**Résumé**des résultats&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passe &#9744;&nbsp; &nbsp; partielle&nbsp; &#9744;Fail 
 
 <table>
 <tr><th colspan="2">Recommandations en matière de tests </th></tr>

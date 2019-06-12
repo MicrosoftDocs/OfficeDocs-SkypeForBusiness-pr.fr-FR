@@ -73,40 +73,40 @@ Si le fichier XML est formé de manière incorrecte (le type d'une valeur de var
 |Élément|Type|Niveau|Utilisation|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |Conteneur de tous les éléments.   ||Obligatoire.   |
-| \<AutoScreenShare\>  |Valeur & # x2777;  |Premier & # x2776;  |   Si ce paramètre est vrai, le partage d'écran automatique est activé.  |
-|\<HideMeetingName\>   |Valeur & # x2777;  |Premier & # x2776;  |Si ce paramètre est vrai, les noms de réunion sont masqués.   |
-|\<UserAccount\>   |Conteneur   |Premier & # x2776;  |Conteneur des paramètres d'identification.   L’adresse de connexion, l’adresse Exchange ou l’adresse de messagerie sont généralement les mêmes, par<span></span>exemple RanierConf @contoso. com.   |
-|\<SkypeMeetingsEnabled\>  |Valeur & # x2777;  |Premier & # x2776;  |Activée par défaut.   |
-|\<SkypeSignInAddress\>   |Chaîne & # x2778;  ||Nom de connexion au compte d'appareil Skype Entreprise de la console.   |
-|\<ExchangeAddress\>   |Chaîne & # x2778;  ||Nom de connexion au compte d'appareil Exchange de la console.   Si l'adresse d'Exchange est omise, l'adresse de connexion à Skype ne sera pas réutilisée automatiquement.    |
-|\<DomainUsername\>   |Chaîne & # x2778;  ||Nom de domaine et d'utilisateur de la console, par exemple Seattle\RanierConf.   |
+| \<AutoScreenShare\>  |&#x2777; booléenne  |Première &#x2776;  |   Si ce paramètre est vrai, le partage d'écran automatique est activé.  |
+|\<HideMeetingName\>   |&#x2777; booléenne  |Première &#x2776;  |Si ce paramètre est vrai, les noms de réunion sont masqués.   |
+|\<UserAccount\>   |Conteneur   |Première &#x2776;  |Conteneur des paramètres d'identification.   L’adresse de connexion, l’adresse Exchange ou l’adresse de messagerie sont généralement les mêmes, par<span></span>exemple RanierConf @contoso. com.   |
+|\<SkypeMeetingsEnabled\>  |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut.   |
+|\<SkypeSignInAddress\>   |&#x2778; de chaîne  ||Nom de connexion au compte d'appareil Skype Entreprise de la console.   |
+|\<ExchangeAddress\>   |&#x2778; de chaîne  ||Nom de connexion au compte d'appareil Exchange de la console.   Si l'adresse d'Exchange est omise, l'adresse de connexion à Skype ne sera pas réutilisée automatiquement.    |
+|\<DomainUsername\>   |&#x2778; de chaîne  ||Nom de domaine et d'utilisateur de la console, par exemple Seattle\RanierConf.   |
 |\<Son\>   |Chaîne 3  ||  Le paramètre du mot de passe est le même mot de passe que celui utilisé pour la connexion au compte d'appareil Skype Entreprise.   |
-| \<ConfigureDomain\>  |Chaîne & # x2778;  ||Vous pouvez répertorier plusieurs domaines, séparés par des virgules.   |
-|\<TeamsMeetingsEnabled\>   |Valeur & # x2777;  |Premier & # x2776;  |Désactivé par défaut. <br/> <br/> Le fichier XML est considéré de façon incorrecte\> si\<les\> deux \<SkypeMeetingsEnabled et TeamsMeetingsEnabled sont désactivés, mais il est acceptable d’activer les deux paramètres en même temps.   |
-|\<IsTeamsDefaultClient> |Valeur & # x2777;  |Premier & # x2776;  |Désactivé par défaut. |
-|\<BluetoothAdvertisementEnabled> |Valeur & # x2777;  |Premier & # x2776;  |Activée par défaut. |
-|\<DualScreenMode\>  |Valeur & # x2777;  |Premier & # x2776;  |Si la valeur est true, le mode à deux écrans est activé. Dans le cas contraire, l'appareil utilisera le mode d'écran unique.   |
-|\<SendLogs\>   |Conteneur   |Premier & # x2776;  ||
-|\<EmailAddressForLogsAndFeedback\>   |Chaîne & # x2778;  ||Ce paramètre définit une adresse électronique en option à laquelle les journaux peuvent être envoyés lorsque la fenêtre "Envoyer des commentaires" s'affiche.    |
-|\<SendLogsAndFeedback\>   |Valeur & # x2777;  ||  Si ce paramètre est vrai, les journaux sont envoyés à l'administrateur. Si ce paramètre est faux, seuls les commentaires sont envoyés à l'administrateur (pas les journaux).  |
-| \<Appareils\>  |Conteneur   |Premier & # x2776;  | Les noms des appareils audio connectés dans les éléments enfants sont les mêmes valeurs que celles qui sont répertoriées dans l'application du gestionnaire de périphériques. La configuration peut contenir un appareil qui n'existe pas actuellement sur le système, tel qu'un périphérique audio/vidéo qui n'est pas connecté à la console actuellement. La configuration sera conservée pour l'appareil respectif.  |
-|\<MicrophoneForCommunication\>   |Chaîne & # x2778;  ||Définit le microphone qui sera utilisé comme appareil d'enregistrement dans une conférence.   |
-|\<SpeakerForCommunication\>   |Chaîne & # x2778;  ||Périphérique qui sera utilisé comme haut-parleur pour la conférence. Ce paramètre permet de définir le haut-parleur qui sera utilisé pour entendre le son lors d'un appel.   |
-|\<DefaultSpeaker\>   |Chaîne & # x2778;  ||Périphérique qui sera utilisé pour lire le son d'une source de réception HDMI.    |
-| \<Thèmes\>  |Conteneur   |Premier & # x2776;  |Une des fonctionnalités qui peuvent être appliquées en utilisant un fichier XML est un thème personnalisé pour votre organisation. Vous pourrez spécifier un nom de thème, une image d’arrière-plan et une couleur.   |
-|\<ThemeName\>   |Chaîne & # x2778;  || Permet d'identifier le thème sur le client. Les options pour le nom du thème sont Par défaut, un des thèmes prédéfinis fournis ou Personnalisé. <br/>  Les noms de thème personnalisés doivent toujours utiliser le nom *personnalisé* . L';interface utilisateur du client peut être définie sur la console sur Par défaut ou l';un des thèmes prédéfinis, mais l';application d';un thème personnalisé doit être définie à distance par Administrateur. <br/>  Les thèmes prédéfinis sont les suivants :  <br/>  Par défaut <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Pour désactiver le thème actuel, utilisez «aucun thème» pour l’ThemeName.  |
-|\<CustomThemeImageUrl\>   |Chaîne & # x2778;  ||Obligatoire si vous utilisez un thème personnalisé, sinon facultatif. Pour plus d’informations sur l’image de thème personnalisé, voir la section [images de thème personnalisées](xml-config-file.md#Themes) ci-dessous.  |
+| \<ConfigureDomain\>  |&#x2778; de chaîne  ||Vous pouvez répertorier plusieurs domaines, séparés par des virgules.   |
+|\<TeamsMeetingsEnabled\>   |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. <br/> <br/> Le fichier XML est considéré de façon incorrecte\> si\<les\> deux \<SkypeMeetingsEnabled et TeamsMeetingsEnabled sont désactivés, mais il est acceptable d’activer les deux paramètres en même temps.   |
+|\<IsTeamsDefaultClient> |&#x2777; booléenne  |Première &#x2776;  |Désactivé par défaut. |
+|\<BluetoothAdvertisementEnabled> |&#x2777; booléenne  |Première &#x2776;  |Activée par défaut. |
+|\<DualScreenMode\>  |&#x2777; booléenne  |Première &#x2776;  |Si la valeur est true, le mode à deux écrans est activé. Dans le cas contraire, l'appareil utilisera le mode d'écran unique.   |
+|\<SendLogs\>   |Conteneur   |Première &#x2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |&#x2778; de chaîne  ||Ce paramètre définit une adresse électronique en option à laquelle les journaux peuvent être envoyés lorsque la fenêtre "Envoyer des commentaires" s'affiche.    |
+|\<SendLogsAndFeedback\>   |&#x2777; booléenne  ||  Si ce paramètre est vrai, les journaux sont envoyés à l'administrateur. Si ce paramètre est faux, seuls les commentaires sont envoyés à l'administrateur (pas les journaux).  |
+| \<Appareils\>  |Conteneur   |Première &#x2776;  | Les noms des appareils audio connectés dans les éléments enfants sont les mêmes valeurs que celles qui sont répertoriées dans l'application du gestionnaire de périphériques. La configuration peut contenir un appareil qui n'existe pas actuellement sur le système, tel qu'un périphérique audio/vidéo qui n'est pas connecté à la console actuellement. La configuration sera conservée pour l'appareil respectif.  |
+|\<MicrophoneForCommunication\>   |&#x2778; de chaîne  ||Définit le microphone qui sera utilisé comme appareil d'enregistrement dans une conférence.   |
+|\<SpeakerForCommunication\>   |&#x2778; de chaîne  ||Périphérique qui sera utilisé comme haut-parleur pour la conférence. Ce paramètre permet de définir le haut-parleur qui sera utilisé pour entendre le son lors d'un appel.   |
+|\<DefaultSpeaker\>   |&#x2778; de chaîne  ||Périphérique qui sera utilisé pour lire le son d'une source de réception HDMI.    |
+| \<Thèmes\>  |Conteneur   |Première &#x2776;  |Une des fonctionnalités qui peuvent être appliquées en utilisant un fichier XML est un thème personnalisé pour votre organisation. Vous pourrez spécifier un nom de thème, une image d’arrière-plan et une couleur.   |
+|\<ThemeName\>   |&#x2778; de chaîne  || Permet d'identifier le thème sur le client. Les options pour le nom du thème sont Par défaut, un des thèmes prédéfinis fournis ou Personnalisé. <br/>  Les noms de thème personnalisés doivent toujours utiliser le nom *personnalisé* . L';interface utilisateur du client peut être définie sur la console sur Par défaut ou l';un des thèmes prédéfinis, mais l';application d';un thème personnalisé doit être définie à distance par Administrateur. <br/>  Les thèmes prédéfinis sont les suivants :  <br/>  Par défaut <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Pour désactiver le thème actuel, utilisez «aucun thème» pour l’ThemeName.  |
+|\<CustomThemeImageUrl\>   |&#x2778; de chaîne  ||Obligatoire si vous utilisez un thème personnalisé, sinon facultatif. Pour plus d’informations sur l’image de thème personnalisé, voir la section [images de thème personnalisées](xml-config-file.md#Themes) ci-dessous.  |
 |\<CustomThemeColor\>   |Conteneur   ||Conteneur pour les \<valeurs\>RedComponent \<,\>GreenComponent et \<BlueComponent\> . Ces valeurs sont obligatoires si un thème personnalisé est utilisé.   |
 |\<RedComponent\>   |Octet (0-255)   ||Représente le composant de la couleur rouge.   |
 |\<GreenComponent\>   |Octet (0-255)   ||Représente le composant de la couleur verte.   |
 |\<BlueComponent\>   |Octet (0-255)   ||Représente le composant de la couleur bleue.   |
 | | | |
    
-&#x2776; Tous les éléments de premier niveau sont facultatifs. Si un élément du premier niveau est omis, tous ses paramètres enfants restent inchangés sur l';appareil.
+&#x2776; tous les éléments de premier niveau sont facultatifs. Si un élément du premier niveau est omis, tous ses paramètres enfants restent inchangés sur l';appareil.
   
-&#x2777; Un indicateur booléen peut être l’un des éléments suivants: true, false, 0 ou 1. Des valeurs booléennes ou numériques laissées vides peuvent rendre le fichier XML incorrect, et les paramètres ne seront donc pas modifiés.
+&#x2777; un indicateur booléen peut être l’un des éléments suivants: true, false, 0 ou 1. Des valeurs booléennes ou numériques laissées vides peuvent rendre le fichier XML incorrect, et les paramètres ne seront donc pas modifiés.
   
- &#x2778; Si un paramètre de chaîne est présent, vide et vide est une valeur valide, le paramètre est effacé sur l’appareil.
+ &#x2778; si un paramètre de chaîne est présent, vide et vide est une valeur valide, le paramètre est supprimé de l’appareil.
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Gestion des paramètres de la console à l'aide d'un fichier de configuration XML
 

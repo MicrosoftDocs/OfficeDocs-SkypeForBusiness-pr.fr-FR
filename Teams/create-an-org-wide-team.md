@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: ff59a1973b3a77ec38a2e8da6ef065e221892139
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802645"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857506"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -29,7 +29,7 @@ Grâce aux équipes au sein de l’organisation, les administrateurs généraux 
 
 ![Capture d’écran de l’option de création d’une équipe à l’échelle de l’organisation] (media/create-org-wide-team.png "Capture d’écran de l’option de création d’une équipe à l’échelle de l’organisation")
 
-Lorsque vous créez une équipe à l’échelle de l’organisation, tous les administrateurs globaux sont ajoutés en tant que propriétaires d’équipe, et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, il reçoit une licence d’évaluation de Cloud Computing Microsoft Teams. Pour en savoir plus sur la licence d’évaluation, voir [gérer l’offre d’évaluation de Cloud Computing teams](iw-trial-teams.md). Les utilisateurs désactivés pour les équipes, les utilisateurs invités et la plupart des salles ne sont pas ajoutés à l’équipe. 
+Lorsque vous créez une équipe à l’échelle de l’organisation, tous les administrateurs globaux sont ajoutés en tant que propriétaires d’équipe, et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, il reçoit une licence d’évaluation de Cloud Computing Microsoft Teams. Pour en savoir plus sur la licence d’évaluation, voir [gérer l’offre d’évaluation de Cloud Computing teams](iw-trial-teams.md). Les types de comptes suivants ne sont pas ajoutés à votre équipe au sein de l’Organisation: les comptes qui ne sont pas pris en compte lors de la connexion, les utilisateurs invités, les comptes de service, les comptes de salle ou de matériel, ou les comptes sauvegardés par une boîte aux lettres partagée.
 
 Dans la mesure où l’annuaire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs ou que les utilisateurs ne travaillent plus dans votre société et qu’elle est désactivée, les modifications sont automatiquement synchronisées et les utilisateurs sont ajoutés ou supprimés de l’équipe. Les membres d’une équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez ajouter ou supprimer des utilisateurs manuellement, si nécessaire.
 

@@ -54,18 +54,18 @@ Pour utiliser l’application Web Skype entreprise, un utilisateur doit disposer
 
 | Système d’exploitation | Edge | 32-et 64 bits Internet Explorer 11 ou version ultérieure | 32 et 64 bits Internet Explorer 10 ou version ultérieure | 32 et 64 bits Internet Explorer 9 ou version ultérieure | Version 32 et 64 bits de Safari 6.2.8-11. X | Version 32 et 64 bits de chrome 18. X ou version ultérieure |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Oui   <br/> |Oui  <br/> |N/A   <br/> |N/A   <br/> |N/A   <br/> |Oui & # x2778; <br/> |
-|Windows 8,1 & # x2776; <br/> |N/A  <br/> |Oui  <br/> |N/A   <br/> |N/A   <br/> |N/A  <br/> |Oui & # x2778; <br/> |
-|Windows 8 (Intel) & # x2776; <br/> |N/A   <br/> |N/A  <br/> |Oui  <br/> |N/A  <br/> |N/A   <br/> |Oui & # x2778; <br/> |
-|Windows 7 avec SP1 & # x2777; <br/> |N/A  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |N/A <br/>|Oui & # x2778; <br/> |
-|Windows Server 2008 R2 avec SP1 & # x2777; <br/> |N/A  <br/> |Oui  <br/> |Oui   <br/> |Oui  <br/> |N/D <br/>|Oui & # x2778; <br/> |
-|macOS 10,8 et versions ultérieures (Intel) & # x2777; <br/> |N/A   <br/> |N/A   <br/> |N/A   <br/> |N/A  <br/> |Oui  <br/> |Oui <br/> |
+|Windows 10  <br/> |Oui   <br/> |Oui  <br/> |N/A   <br/> |N/A   <br/> |N/A   <br/> |Oui &#x2778; <br/> |
+|Windows 8,1 &#x2776; <br/> |N/A  <br/> |Oui  <br/> |N/A   <br/> |N/A   <br/> |N/A  <br/> |Oui &#x2778; <br/> |
+|&#x2776; Windows 8 (Intel) <br/> |N/A   <br/> |N/A  <br/> |Oui  <br/> |N/A  <br/> |N/A   <br/> |Oui &#x2778; <br/> |
+|Windows 7 avec SP1 &#x2777; <br/> |N/A  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |N/A <br/>|Oui &#x2778; <br/> |
+|Windows Server 2008 R2 avec SP1 &#x2777; <br/> |N/A  <br/> |Oui  <br/> |Oui   <br/> |Oui  <br/> |N/D <br/>|Oui &#x2778; <br/> |
+|macOS 10,8 et versions ultérieures (Intel) &#x2777; <br/> |N/A   <br/> |N/A   <br/> |N/A   <br/> |N/A  <br/> |Oui  <br/> |Oui <br/> |
    
-&#x2776; Le plug-in de navigateur Skype entreprise Web App nécessite un plug-in de partage spécifique pour utiliser la voix, la vidéo, le partage et l’affichage de l’écran en cours de partage et d’autres fonctionnalités. Un participant à une réunion dispose de l’option d’installation du plug-in de partage lors de la réunion ou du lancement de l’une de ces fonctionnalités. Sur Windows 8 et Windows 8,1, le plug-in de partage ne peut être installé que si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le bureau. Ces fonctionnalités ne sont pas disponibles pour les versions non de bureau d’Internet Explorer 10 et 11. Notez que Firefox et Safari version 12,0 et les versions ultérieures ne sont plus pris en charge.
+&#x2776; le plug-in de navigateur Skype entreprise Web App nécessite un plug-in de partage spécifique pour utiliser la voix, la vidéo, le partage et l’affichage en cours du partage d’écran et d’autres fonctionnalités sur un ordinateur. Un participant à une réunion dispose de l’option d’installation du plug-in de partage lors de la réunion ou du lancement de l’une de ces fonctionnalités. Sur Windows 8 et Windows 8,1, le plug-in de partage ne peut être installé que si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le bureau. Ces fonctionnalités ne sont pas disponibles pour les versions non de bureau d’Internet Explorer 10 et 11. Notez que Firefox et Safari version 12,0 et les versions ultérieures ne sont plus pris en charge.
   
-&#x2777; Sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo, l’affichage des applications, le partage d’application et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in quand vous y êtes invité. Veuillez noter que la version Mac OS X 10.7 n’est plus prise en charge.
+&#x2777; sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo et le partage des applications basés sur un ordinateur, le partage d’application, l’affichage du bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in quand vous y êtes invité. Veuillez noter que la version Mac OS X 10.7 n’est plus prise en charge.
   
-&#x2778; L’accès à l’application Web à partir de chrome sur Windows lancera un petit programme qui charge l’application Web dans une image incorporée d’Internet Explorer. Ce programme requiert l'une des versions d'Internet Explorer prises en charge pour charger correctement l'application Web.
+&#x2778; l’accès à l’application Web à partir de chrome sur Windows lancera un petit programme qui charge l’application Web dans une image incorporée d’Internet Explorer. Ce programme requiert l'une des versions d'Internet Explorer prises en charge pour charger correctement l'application Web.
   
 > [!NOTE]
 > Les utilisateurs d’Office 365 peuvent utiliser Internet Explorer 10 ou une version ultérieure de Skype entreprise. 
@@ -104,14 +104,14 @@ Le tableau suivant compare les fonctionnalités de réunion disponibles pour les
 |Basculer l’audio sur un téléphone pour les participants authentifiés  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Basculer l’audio sur un téléphone pour les participants invités  <br/> |&#x2714;|&#x2714;|&#x2714;|||
 |Afficher une vidéo à plusieurs (vue galerie)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Partage d'écran vidéo  <br/> |&#x2714;|&#x2714; <br/> |& # x2714; (lecture seule)  <br/> |||
+|Partage d'écran vidéo  <br/> |&#x2714;|&#x2714; <br/> |&#x2714; (lecture seule)  <br/> |||
 |Utiliser des commandes de présentateur lors des réunions  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Accéder à une liste détaillée des réunions  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Participer à une conversation par messagerie instantanée à plusieurs  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Définir les messages instantanés sur Importance haute  <br/> |&#x2714;|||||
 |Partager le bureau (si option activée)  <br/> |&#x2714;|&#x2714;|&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |
-|Partager un programme (si option activée)  <br/> |&#x2714;||& # x2714; (sur Windows uniquement; plug-in requis)  <br/> |& # x2714; (sur Windows uniquement; plug-in requis)  <br/> |& # x2714; (sur Windows uniquement; plug-in requis)  <br/> |
-|Prendre le contrôle d’un bureau ou d’un programme partagé d’un autre utilisateur  <br/> |&#x2714;||&#x2714; (&#x2776; Sur Windows uniquement; plug-in requis)  <br/> |&#x2714; (&#x2776; Sur Windows uniquement; plug-in requis)  <br/> |&#x2714; (&#x2776; Sur Windows uniquement; plug-in requis)  <br/> |
+|Partager un programme (si option activée)  <br/> |&#x2714;||&#x2714; (sur Windows uniquement; nécessite un plug-in)  <br/> |&#x2714; (sur Windows uniquement; nécessite un plug-in)  <br/> |&#x2714; (sur Windows uniquement; nécessite un plug-in)  <br/> |
+|Prendre le contrôle d’un bureau ou d’un programme partagé d’un autre utilisateur  <br/> |&#x2714;||&#x2714; (&#x2776; sur Windows uniquement; nécessite un plug-in)  <br/> |&#x2714; (&#x2776; sur Windows uniquement; nécessite un plug-in)  <br/> |&#x2714; (&#x2776; sur Windows uniquement; nécessite un plug-in)  <br/> |
 |Autoriser un autre utilisateur à prendre le contrôle de votre bureau ou programme partagé  <br/> |&#x2714;|||||
 |Ajouter des participants anonymes (si option activée)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Inviter des participants par nom  <br/> |&#x2714;|&#x2714;||||
@@ -135,11 +135,11 @@ Le tableau suivant compare les fonctionnalités de réunion disponibles pour les
 |Inviter tout le monde à participer  <br/> |&#x2714;|||||
 |Produire une diffusion de réunion Skype  <br/> |&#x2714;|||||
    
- &#x2776;  Les participants ne peuvent pas contrôler les bureaux partagés par Skype entreprise pour Mac, Lync pour Mac 2011 ou les utilisateurs de Communicator pour Mac 2011. Cela ne fonctionne pas non plus avec Skype entreprise Web App sur Max OSX.
+ &#x2776; les participants ne peuvent pas contrôler les bureaux partagés par Skype entreprise pour Mac, Lync pour Mac 2011 ou les utilisateurs de Communicator pour Mac 2011. Cela ne fonctionne pas non plus avec Skype entreprise Web App sur Max OSX.
   
- &#x2777;  Pour Skype entreprise Online, cette fonctionnalité nécessite Microsoft RTC Conferencing, Exchange Unified Messaging ou un fournisseur de services d’audioconférence tiers.
+ &#x2777; pour Skype entreprise Online, cette fonctionnalité nécessite Microsoft RTC Conferencing, Exchange Unified Messaging ou un fournisseur de services d’audioconférence tiers.
   
- &#x2778;  Le client 2011 Lync pour Mac ne peut pas afficher les présentations PowerPoint de Microsoft Office 2013 lors de leur partage dans une conférence par le biais de l’application Web Skype entreprise.
+ &#x2778; le client 2011 Lync pour Mac ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lors de leur partage dans une conférence par le biais de l’application Web Skype entreprise.
   
 ## <a name="known-issues-and-troubleshooting"></a>Problèmes connus et résolution des problèmes
 <a name="BKMK_Conferencing"> </a>

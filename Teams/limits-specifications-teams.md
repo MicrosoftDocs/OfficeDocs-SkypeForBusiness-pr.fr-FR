@@ -3,7 +3,7 @@ title: Limites et spécifications de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e4ea4a914b0877eebb0dfd07cf643a4ecf52d8
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802614"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857405"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -49,7 +49,6 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
 |Nombre de personnes dans une réunion  | 250    |
-|Nombre de personnes dans une discussion privée  | 50    |
 
 ## <a name="storage"></a>Stockage
 
@@ -65,9 +64,9 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Stockage                 |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation, plus 10 Go par licence achetée   |1 To par organisation, plus 10 Go par licence achetée |1 To par organisation, plus 10 Go par licence achetée  |1 To par organisation           |
 |Espace de stockage pour fichiers Teams |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |Jusqu’à 25 To par collection de sites ou groupe |
-|Limite de chargement de fichier (par fichier)    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |
+|Limite de chargement de fichier (par fichier)    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |15 Go    |
 
-Chaque onglet Fichiers dans Teams est exécuté sur un serveur principal SharePoint Online, donc les limites de stockage ci-dessus s’appliquent à chaque Canal dans une Équipe.
+Les canaux sont reversés par des dossiers dans la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets de fichier dans les canaux partagent les limites de stockage de l’équipe auxquelles elles appartiennent.
 
 Pour plus d’informations, voir [Limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
@@ -77,15 +76,16 @@ Les utilisateurs qui participent aux conversations qui font partie de la liste d
 
 Fonction de conversation de Microsoft Teams fonctionne sur un serveur principal Microsoft Exchange, donc vous pouvez appliquer les limites de messagerie Exchange à la fonction de conversation dans Microsoft Teams. Si un utilisateur souhaite envoyer un message électronique à un canal dans Teams, ils utilisent l’adresse de messagerie du canal. Une fois qu’un message électronique fait partie d’un canal, tout le monde peut y répondre et démarrer une conversation. Voici quelques-unes des limites applicables pour l’envoi de courrier à un canal. 
 
-|Fonctionnalité  |Office 365 Entreprise E1  |Office 365 Entreprise E3  |Office 365 Entreprise E5  |Office 365 Entreprise F1  |
-|---------|---------|---------|---------|---------|
-|Limite de la taille des messages&dagger;  |25 Ko   |25 Ko   |25 Ko   |25 Ko   |
-|Limite du nombre de pièces jointes&Dagger;  |0,10     |0,10     |0,10     |0,10    |
-|Utilisation d’images en ligne&Dagger; |50   |50   |50   |50   |
+|Fonctionnalité  | Limite maximale  |
+|---------|---------|
+|Nombre de personnes dans une discussion privée  | 100    |
+|Taille du message&dagger;  |25 Ko   |
+|Nombre de pièces jointes&Dagger;  |0,10     |
+|Nombre d’images incorporées&Dagger; |50   |
 
 &dagger; Si le message excède cette limite, un aperçu du message est généré et l’utilisateur est invité à afficher/télécharger le message d’origine à partir du lien fourni.
 
-&Dagger; Si le nombre de pièces jointes ou images excède cette limite, le message ne sera pas traité et un message électronique de notification d’échec est envoyé à l’expéditeur pour l’avertir de l’erreur.
+&Dagger;Si le nombre de pièces jointes ou d’images dépasse cette limite, le message ne sera pas traité et un message de notification d’erreur de remise sera renvoyé à l’expéditeur pour lui envoyer une erreur.
 
 > [!NOTE]
 > La taille des messages, des pièces jointes et des images incorporées sont les mêmes pour toutes les licences Office 365.

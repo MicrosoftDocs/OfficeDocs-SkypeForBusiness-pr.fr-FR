@@ -41,7 +41,7 @@ L’illustration suivante décrit le mode d’affichage d’un appel entrant d�
 
 ![Capture d’écran d’une notification d’appel entrant](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Lorsque le standard automatique ou la file d’attente d’appels est reçu, l’utilisateur peut traiter l’appel comme tout autre appel & # x2014; ils peuvent ajouter ou organiser une conférence au sein d’un autre utilisateur ou transférer l’appel vers une autre personne. De plus, les appels de standard automatique seront transférés en fonction de la configuration de l’utilisateur.
+Lorsque le standard automatique ou la file d’attente d’appels est reçu, l’utilisateur peut traiter l’appel comme tout autre appel &#x2014; il peut ajouter ou organiser une conférence à un autre utilisateur ou transférer l’appel vers une autre personne. De plus, les appels de standard automatique seront transférés en fonction de la configuration de l’utilisateur.
 
 > [!NOTE] 
 > Les appels de file d’attente d’appels ne sont pas transférés en fonction de la configuration de l’utilisateur. Cela permet de s’assurer que les appelants restent dans la file d’attente jusqu’à ce qu’un agent puisse répondre à l’appel et que l’appelant ne soit pas transféré de manière inattendue.

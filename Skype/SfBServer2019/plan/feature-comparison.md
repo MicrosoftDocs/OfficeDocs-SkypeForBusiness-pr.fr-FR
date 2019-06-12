@@ -53,7 +53,7 @@ Ce tableau couvre les fonctionnalités de présence avancée qui vont plus loin 
 | Ajouter une note personnalisée                                                                                   | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Utiliser une photo à partir d’un site public pour Mon image  <br/> (non disponible dans Skype entreprise Online) | &#x2714;                                      |                           | &#x2714;         |
 
- &#x2776;  Ne prend pas en charge l’état de publication en fonction des informations de disponibilité du calendrier.
+ &#x2776; ne prend pas en charge l’état de publication en fonction des informations de disponibilité du calendrier.
 
 ## <a name="contacts-and-contact-groups-support"></a>Prise en charge des contacts et groupes de contacts
 <a name="BKMK_Contacts"> </a>
@@ -88,7 +88,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de la messag
 |:-----|:-----|:-----|:-----|  
 |Démarrer une conversation par messagerie instantanée avec un contact  |&#x2714;|&#x2714;|&#x2714;|  
 |Parcourir plusieurs conversations par messagerie instantanée/Suivre plusieurs conversations dans une seule fenêtre avec onglets   |&#x2714;|&#x2714;|&#x2714;| 
-|Enregistrer des conversations par messagerie instantanée dans Outlook  |&#x2714;|&#x2714; Si l’historique des conversations côté serveur est activé   |&#x2714;|   
+|Enregistrer des conversations par messagerie instantanée dans Outlook  |&#x2714;|&#x2714; si l’historique des conversations côté serveur est activé   |&#x2714;|   
 |Vérification de l'orthographe |&#x2714;|&#x2714;||   
 |Recherche de compétences (avec l'intégration de SharePoint Server)   <br/> (Skype entreprise Server local et SharePoint 2013 local sont requis pour la recherche de compétences.)  |&#x2714;||&#x2714;|
 |Intégration de la conversation permanente (Conversation de groupe)   <br/> (non disponible pour Skype entreprise Online)|&#x2714;||&#x2714;|  
@@ -111,19 +111,19 @@ Pour plus d’informations, reportez-vous à la [Description du service Skype en
 
 |Fonctionnalité | Client 2016 Skype entreprise | Skype Entreprise sur Mac | Skype entreprise Web App | Client 2015 Skype entreprise | Client 2013 Lync | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
-|Ajouter l'audio de l'ordinateur  |&#x2714;|&#x2714;|& # x2714; (nécessite un plug-in)  |&#x2714;|&#x2714;| 
-|Ajouter la vidéo |&#x2714;|&#x2714;|& # x2714; (nécessite un plug-in) |&#x2714;|&#x2714;| 
+|Ajouter l'audio de l'ordinateur  |&#x2714;|&#x2714;|&#x2714; (nécessite un plug-in)  |&#x2714;|&#x2714;| 
+|Ajouter la vidéo |&#x2714;|&#x2714;|&#x2714; (nécessite un plug-in) |&#x2714;|&#x2714;| 
 |Afficher une vidéo à plusieurs (vue galerie)  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Partage d'écran vidéo    |&#x2714;|&#x2714;|&#x2714; Lecture seule   ||| 
+|Partage d'écran vidéo    |&#x2714;|&#x2714;|&#x2714; affichage seul   ||| 
 |Utiliser des commandes de présentateur lors des réunions |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Accéder à une liste détaillée des réunions |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
 |Participer à une conversation par messagerie instantanée à plusieurs |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
-|Partager le bureau (si option activée)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; (nécessite un plug-in) |&#x2714;| &#x2714;|
-|Partager un programme (si option activée) |&#x2714;|Afficher seulement   |& # x2714; (nécessite un plug-in)  |&#x2714;|&#x2714;|   
+|Partager le bureau (si option activée)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776;  (nécessite un plug-in) |&#x2714;| &#x2714;|
+|Partager un programme (si option activée) |&#x2714;|Afficher seulement   |&#x2714; (nécessite un plug-in)  |&#x2714;|&#x2714;|   
 |Ajouter des participants anonymes (si option activée) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Utiliser les réunions audio rendez-vous & # x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
+|Utiliser les réunions audio rendez-vous &#x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
 |Démarrer une réunion Conférence maintenant|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
-|Ajouter et présenter des fichiers Microsoft PowerPoint |&#x2714;| &#x2778; Annotations non disponibles   |&#x2714;|&#x2714;|&#x2714;| 
+|Ajouter et présenter des fichiers Microsoft PowerPoint |&#x2714;| Annotations &#x2778; non disponibles   |&#x2714;|&#x2714;|&#x2714;| 
 |Parcourir des fichiers Microsoft PowerPoint |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Ajouter et modifier des notes de réunion OneNote  |&#x2714;||Modifier uniquement (pas ajouter)  |&#x2714;|&#x2714;|
 |Utiliser un tableau blanc |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
@@ -141,15 +141,15 @@ Pour plus d’informations, reportez-vous à la [Description du service Skype en
 |Définir la vidéo à la une (verrouiller la vidéo) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Donner/prendre le contrôle du partage d'écran  |&#x2714;||&#x2714;|||
 
- &#x2776;  Les participants ne peuvent pas contrôler les bureaux partagés par Skype entreprise sur Mac, Lync pour Mac 2011 ou les utilisateurs de Communicator pour Mac 2011. Les utilisateurs de Skype entreprise sur Mac, de Lync pour Mac 2011 et de Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs Windows. Cela ne fonctionne pas non plus avec Skype entreprise Web App sur Max OSX.
+ &#x2776; les participants ne peuvent pas contrôler les bureaux partagés par Skype entreprise sur Mac, Lync pour Mac 2011 ou les utilisateurs de Communicator pour Mac 2011. Les utilisateurs de Skype entreprise sur Mac, de Lync pour Mac 2011 et de Communicator pour Mac 2011 ne peuvent pas contrôler les bureaux partagés par les utilisateurs Windows. Cela ne fonctionne pas non plus avec Skype entreprise Web App sur Max OSX.
 
- &#x2777;  Pour Skype entreprise Online, cette fonctionnalité nécessite Microsoft RTC Conferencing, Exchange Unified Messaging ou un fournisseur de services d’audioconférence tiers.
+ &#x2777; pour Skype entreprise Online, cette fonctionnalité nécessite Microsoft RTC Conferencing, Exchange Unified Messaging ou un fournisseur de services d’audioconférence tiers.
 
- &#x2778;  Le client 2011 Lync pour Mac ne peut pas afficher les présentations PowerPoint de Microsoft Office 2013 lors de leur partage dans une conférence par le biais de l’application Web Skype entreprise.
+ &#x2778; le client 2011 Lync pour Mac ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lors de leur partage dans une conférence par le biais de l’application Web Skype entreprise.
 
-&#x2779;  Pour les applications 2016 Skype entreprise, vous devez utiliser la version «démarrer en un clic», 16.0.4227 ou une version ultérieure.
+&#x2779; pour les applications 2016 Skype entreprise, vous devez utiliser la version «démarrer en un clic», 16.0.4227 ou une version ultérieure.
 
-&#x2780;  Pour les applications 2015 Skype entreprise, vous devez disposer de la mise à jour de septembre, Build 15.0.4747 ou version ultérieure.
+&#x2780; pour les applications 2015 Skype entreprise, vous devez disposer de la mise à jour de septembre, Build 15.0.4747 ou version ultérieure.
 
 ## <a name="voice-telephony-support"></a>Prise en charge de la voix (téléphonie)
 <a name="BKMK_Telephony"> </a>
@@ -180,7 +180,7 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge des services
 |Routage géodépendant |&#x2714;|&#x2714;|&#x2714;| 
 |Gérer un groupe Response Group/d'appel d'équipe |&#x2714;||&#x2714;|
 
- &#x2776;  Cette fonctionnalité n’est pas disponible dans Skype entreprise online.
+ &#x2776; cette fonctionnalité n’est pas disponible dans Skype entreprise online.
 
 ## <a name="external-users-support"></a>Prise en charge des utilisateurs externes
 <a name="BKMK_ExternalUsers"> </a>
@@ -205,9 +205,9 @@ Ce tableau couvre les fonctionnalités liées à la prise en charge de l’enreg
 |Enregistrement côté client des transferts de fichiers, des pages OneNote partagées et des annotations PowerPoint| &#x2714; &#x2777; ||&#x2714; &#x2777; |
 |Sélection de la résolution d'enregistrement préférée  |&#x2714;||&#x2714;|
 
- &#x2776;  L’enregistrement n’est pas disponible dans certaines offres autonomes Skype entreprise online. L'enregistrement nécessite des droits complets de client Skype Entreprise.
+ &#x2776; enregistrement n’est pas disponible dans certaines offres autonomes Skype entreprise online. L'enregistrement nécessite des droits complets de client Skype Entreprise.
 
- &#x2777;  L’enregistrement de transferts de fichiers, de pages OneNote partagées et d’annotations PowerPoint n’est pas disponible dans Skype entreprise online.
+ &#x2777; l’enregistrement de transferts de fichiers, de pages OneNote partagées et d’annotations PowerPoint n’est pas disponible dans Skype entreprise online.
 
 ## <a name="modern-authentication"></a>Authentification moderne
 <a name="BKMK_Recording"> </a>
@@ -221,7 +221,7 @@ L’authentification moderne nécessite également une topologie décrite dans [
 |:-----|:-----|:-----|:-----|  
 |Authentification moderne |&#x2714;|&#x2714;|&#x2714;|
 |Authentification multifacteur|&#x2714;|&#x2714;|&#x2714;|
-|Authentification avec certificat |& # x2714; (appareil joint à un domaine uniquement) |&#x2714;|& # x2714; (appareil joint à un domaine uniquement)  |
+|Authentification avec certificat |&#x2714; (appareil joint à un domaine uniquement) |&#x2714;|&#x2714; (appareil joint à un domaine uniquement)  |
 |Authentification Kerberos |&#x2714;||&#x2714;|
 
 ## <a name="archiving-compliance-and-logging-support"></a>Prise en charge de l'archivage, de la conformité et de la journalisation
@@ -232,12 +232,12 @@ Ce tableau présente les fonctionnalités liées à la prise en charge de l’ar
 
  | Fonctionnalité | Client Skype entreprise 2015, 2016 ou 2019 | Skype Entreprise sur Mac | Client 2013 Lync |  
 |:-----|:-----|:-----|:-----|  
-|Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook|&#x2714; &#x2776; |&#x2714; Si l’historique des conversations côté serveur est activé  |&#x2714; &#x2776; | 
+|Archivage des conversations par messagerie instantanée dans l’historique des conversations Outlook|&#x2714; &#x2776; |&#x2714; si l’historique des conversations côté serveur est activé  |&#x2714; &#x2776; | 
 |Archivage côté client du son, de la vidéo, du partage d’applications, du partage de bureau et du contenu téléchargé  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |Archivage côté client des transferts de fichiers, pages OneNote partagées et annotations PowerPoint (non disponibles dans Skype entreprise Online)  |&#x2714;||&#x2714;|
 |Accès aux journaux de connexion à partir de l’icône Skype entreprise dans la barre des tâches |&#x2714;||&#x2714;|
 
- &#x2776;  Pour les utilisateurs de Skype entreprise Online, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut conservation inaltérable de l’utilisateur.
+ &#x2776; pour les utilisateurs de Skype entreprise Online, cette fonctionnalité nécessite Exchange Online et est contrôlée par l’attribut conservation inaltérable de l’utilisateur.
 
 ## <a name="client-limitations"></a>Limitations du client
 <a name="Types"> </a>

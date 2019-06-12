@@ -31,7 +31,7 @@ Les nouvelles fonctionnalités de Skype entreprise Server 2019 sont les suivante
 
 La messagerie unifiée Exchange reste disponible dans Skype entreprise Server 2019 lorsque vous intégrez Skype entreprise 2019 avec Exchange 2013 ou Exchange 2016. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est mise en évidence dans les fonctionnalités de messagerie vocale et de standard automatique Cloud.  
 
-La boîte vocale Cloud vous permet d’accéder à l’intégralité de votre Skype entreprise 2019 users& # x2014; qu’ils soient hébergés en local ou online& # x2014; pour avoir accès au même service de boîte vocale dans le Cloud Microsoft. La messagerie vocale Cloud offre les avantages suivants pour vos utilisateurs locaux et en ligne:
+La boîte vocale Cloud permet à tous les&#x2014;&#x2014;utilisateurs de Skype entreprise 2019 d’avoir accès à un même service de messagerie vocale dans le Cloud Microsoft. La messagerie vocale Cloud offre les avantages suivants pour vos utilisateurs locaux et en ligne:
 
 - Accès à la messagerie vocale dans sa boîte aux lettres Exchange à l’aide des clients Skype entreprise Online, teams ou Outlook
 - Possibilité d’utiliser le portail Web pour gérer leurs options de messagerie vocale

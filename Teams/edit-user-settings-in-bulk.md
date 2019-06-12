@@ -8,7 +8,7 @@ ms.date: 04/19/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment gérer les paramètres utilisateur de Microsoft Teams en bloc dans le centre d’administration Microsoft Teams.
+description: Découvrez comment gérer les paramètres utilisateur de Microsoft teams en bloc dans le centre d’administration Microsoft Teams.
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.edit
@@ -22,26 +22,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32245065"
 ---
-# <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Modifier les paramètres utilisateur de Microsoft Teams en bloc
+# <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Modification des paramètres utilisateur de Microsoft teams en bloc
 
-En tant qu’administrateur, gérer les paramètres utilisateur d’équipes dans le centre d’administration Microsoft Teams. Dans la page **utilisateurs** , vous pouvez afficher les informations de compte et les détails de licence et modifier les paramètres de stratégie et autres. Vous pouvez modifier les paramètres pour les utilisateurs individuellement ou pour plusieurs utilisateurs en même temps.
+En tant qu’administrateur, vous pouvez gérer les paramètres utilisateur de teams dans le centre d’administration Microsoft Teams. Dans la page **utilisateurs** , vous pouvez afficher des informations telles que les détails du compte et de la licence, ainsi que la stratégie d’édition et d’autres paramètres. Vous pouvez modifier les paramètres pour les utilisateurs individuellement ou pour plusieurs utilisateurs en même temps.
 
-## <a name="edit-user-settings-in-bulk"></a>Modifier les paramètres utilisateur en bloc
+## <a name="edit-user-settings-in-bulk"></a>Modification des paramètres utilisateur en bloc
 
-Utiliser le centre d’administration Microsoft Teams pour modifier les paramètres pour plusieurs utilisateurs à la fois. Nous vous recommandons de modification des paramètres pour les utilisateurs de 20 à la fois. Pour modifier les paramètres pour un grand nombre d’utilisateurs, utilisez PowerShell. Pour plus d’informations, voir [Vue d’ensemble de PowerShell équipes](teams-powershell-overview.md).
+Utilisez le centre d’administration de Microsoft teams pour modifier les paramètres de plusieurs utilisateurs à la fois. Nous vous recommandons de modifier les paramètres de 20 utilisateurs à la fois. Pour modifier les paramètres d’un grand nombre d’utilisateurs, utilisez PowerShell. Pour plus d’informations, voir [vue d’ensemble de PowerShell teams](teams-powershell-overview.md).
 
-1. Dans la navigation de gauche du centre d’administration Microsoft Teams, sélectionnez **les utilisateurs**.
-2. Recherche pour les utilisateurs que vous souhaitez modifier ou filtrer l’affichage pour afficher les utilisateurs à modifier.
-3. Dans la **& #x 2713 ;** colonne (case à cocher), sélectionnez les utilisateurs en effectuant l’une des options suivantes :
-    - Sélectionnez les utilisateurs un à la fois. Un **& #x 2713 ;** s’affiche en regard de chaque utilisateur que vous sélectionnez. Si vous sélectionnez plus de 20 utilisateurs, vous ne sera pas bloqué, mais n’oubliez pas que les utilisateurs plus que vous sélectionnez, prend plus de temps pour effectuer l’opération.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, sélectionnez **utilisateurs**.
+2. Recherchez les utilisateurs que vous souhaitez modifier ou filtrez l’affichage pour afficher les utilisateurs que vous voulez modifier.
+3. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs en effectuant l’une des opérations suivantes:
+    - Sélectionner des utilisateurs un par un. Un **&#x2713;** est affiché en regard de chaque utilisateur que vous sélectionnez. Si vous sélectionnez plus de 20 utilisateurs, vous ne serez pas bloqué, mais n’oubliez pas que plus le nombre d’utilisateurs que vous sélectionnez est long.
 
-        ![Capture d’écran de la page utilisateurs affichant la sélection de l’utilisateur](media/bulk-edit-user-settings-select-users.png)
+        ![Capture d’écran de la page utilisateurs montrant la sélection de l’utilisateur](media/bulk-edit-user-settings-select-users.png)
 
-    - Cliquez sur le & #x 2713 ; (coche) en haut de la table pour sélectionner tous les utilisateurs (jusqu'à un maximum de 20 utilisateurs), puis cliquez sur **Continuer sélectionner tout** pour terminer la sélection dans la boîte de dialogue **limiter la sélection** .
+    - Cliquez sur la &#x2713; (coche) en haut du tableau pour sélectionner tous les utilisateurs (jusqu’à 20 utilisateurs maximum), puis dans la boîte de dialogue **limiter la sélection** , cliquez sur **Continuer tout sélectionner** pour terminer la sélection.
 
-        ![Capture d’écran de la page utilisateurs, en affichant la limite de sélection](media/bulk-edit-user-settings-select-all-limit.png) <br> Un **& #x 2713 ;** s’affiche en regard des utilisateurs sélectionnés.
+        ![Capture d’écran de la page utilisateurs montrant la limite de sélection](media/bulk-edit-user-settings-select-all-limit.png) <br> Un **&#x2713;** est affiché en regard des utilisateurs sélectionnés.
 
-        ![Capture d’écran de la page utilisateurs, en affichant les 20 utilisateurs sélectionnés](media/bulk-edit-user-settings-select-all.png)
-4. Cliquez sur **Modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
+        ![Capture d’écran de la page utilisateurs montrant 20 utilisateurs sélectionnés](media/bulk-edit-user-settings-select-all.png)
+4. Cliquez sur **modifier les paramètres**, apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
 
-    ![Capture d’écran du volet Modifier les paramètres](media/bulk-edit-user-settings-edit-settings.png)
+    ![Capture d’écran du volet modifier les paramètres](media/bulk-edit-user-settings-edit-settings.png)

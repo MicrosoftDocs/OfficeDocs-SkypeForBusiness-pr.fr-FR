@@ -21,7 +21,7 @@ ms.locfileid: "34280382"
  
 **Résumé:** Découvrez comment configurer l’option de participation à une réunion sans punaise dans Skype entreprise Server.
   
-Lorsqu’un appelant rendez-vous tente de participer à une réunion, le service de la Conférence automatique (CAA) place l’appelant dans un stylet qui est différent de la salle d’attente & # x2014; Si un présentateur n’est pas en cours d’appel, et si le numéro d’appelant n’a pas été entré, L’option de participation à une réunion sans code confidentiel autorise les appelants à participer à une téléconférence sans entrer de code d’organisateur même s’ils sont les premiers à rejoindre un appel. 
+Lorsqu’un appelant rendez-vous tente de participer à une réunion, le service de la Conférence automatique (CAA) place l’appelant dans un stylet qui est différent de la salle d’attente &#x2014; si un présentateur n’est pas en cours d’appel, et si l’appelant rendez-vous n’a pas encore entré de code confidentiel. L’option de participation à une réunion sans code confidentiel autorise les appelants à participer à une téléconférence sans entrer de code d’organisateur même s’ils sont les premiers à rejoindre un appel. 
   
 Lors de la configuration de cette fonctionnalité, rappelez-vous des points suivants :
   

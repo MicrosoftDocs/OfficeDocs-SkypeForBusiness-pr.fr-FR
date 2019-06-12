@@ -15,33 +15,60 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: e4b68b287204abfae9c678f9497d3ac00bf42b4d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
+ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305384"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34859727"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Licences Salles Microsoft Teams
-<a name="bkmk_srs"> </a>
+# <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams 
 
-Le tableau suivant répertorie les fonctionnalités de gestion des licences disponibles dans Microsoft teams et les licences nécessaires pour les obtenir.
+## <a name="licensing-solutions-for-shared-communication-devices"></a>Solutions de gestion des licences pour les appareils de communication partagés
+
+Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les appels de la salle de réunion (par exemple, Microsoft teams services et Microsoft surface Hub).
+
+||Référence SKU Microsoft Room |  
+|:--- |:---: |
+|Skype Entreprise |&#x2714;|
+|Microsoft Teams|  &#x2714;|
+|Systèmes téléphoniques|  &#x2714;|
+|Audioconférence,|&#x2714; &sup1;|
+|Microsoft Intune|&#x2714;|  
+|Disponibilité dans le monde entier | &#x2714; &sup2;|
+|Disponibilité du canal | AE, EAS, CSP, <br>Web direct |
+| | | |
+
+&sup1; La disponibilité et les minutes incluses peuvent varier en fonction de la région. Pour vérifier la disponibilité du service, voir [disponibilité du pays et de la région pour les offres d’appels audio et de services d’audioconférence](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Des frais de consommation pourraient s’appliquer pour des services supplémentaires, tels que le numéro sans frais, des minutes internationales pour les forfaits nationaux, etc. Les clients peuvent désactiver ces fonctionnalités pour éviter de facturer davantage.  
+
+&sup2; Non disponible dans les nuages souverains  
+
+
+> [!NOTE]
+> Si vous utilisez actuellement E1, E3, E4, E5 avec l’offre Skype entreprise autonome 1 ou Skype entreprise plan 2 ou Skype entreprise plan 2 avec audioconférence ou avec un système téléphonique Office 365 et un plan d’appel, les appels continuent de fonctionner. Néanmoins, vous devez envisager de migrer vers un modèle de gestion de licences plus simple dans le tableau ci-dessus après l’expiration des licences actuelles.  
+
+Le tableau suivant répertorie les fonctionnalités disponibles dans Microsoft Teams, ainsi que les licences nécessaires pour les obtenir.
   
 > [!NOTE]
 > Ces licences doivent être affectées à la salle configurée et elle doit être un objet utilisateur.
-> La nouvelle licence de salle de réunion est désormais disponible dans Office 365.
 
-|Scénario de Microsoft teams |Vous disposez actuellement d’Office 365 Premium, Office 365 ProPlus, ou de Skype entreprise, plan autonome 2.  <br/> Voici les compléments que vous devez acheter :  |Vous possédez actuellement une offre d'entreprise.  <br/> Voici les compléments que vous devez acheter : |Vous possédez Skype Entreprise Server 2015 (sur site ou hybride). <br/> Voici les compléments que vous devez acheter :|
-|:-----|:-----|:-----|:-----|
-|Participez à une réunion planifiée.  |Plan autonome 1 Skype Entreprise |E1, 3, 4 ou 5  |Skype Entreprise Licence d'accès client Server standard  |
-|Lancer une réunion ad hoc. |Plan autonome 2 Skype Entreprise |E1, 3, 4 ou 5 |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Lancer une réunion ad hoc et passer un appel sortant d’une réunion vers des numéros de téléphone. |Plan autonome 2 de Skype entreprise avec audioconférence  <br/> **Remarque:** Les crédits de communication sont facultatifs. |E1 ou E3 avec audioconférence  <br/> OU  <br/> E5  <br/> |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Donnez un numéro de téléphone à la salle et transmettez ou recevez des appels depuis la salle ou participez à une conférence audio par le biais d’un numéro de téléphone.  |Plan autonome 2 de Skype entreprise avec un système téléphonique Office 365 et un plan d’appels  <br/> **Remarque:** Les crédits de communication sont facultatifs.           |E1 ou E3 avec le système téléphonique Office 365 et un plan d’appels Office 365  <br/> OU  <br/> E5   |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
+|  | Vous avez Microsoft teams ou Skype entreprise Online <br/> Voici les compléments que vous devez acheter :   |Vous avez Skype entreprise Server 2015/2019 (local ou hybride). <br/> Voici les compléments que vous devez acheter :|
+|:-----|:-----|:-----|
+|Rejoindre une réunion planifiée  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  |
+|Créer une réunion ad hoc | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Créer une réunion impromptue et passer un appel sortant vers des numéros de téléphone depuis une réunion |  Référence SKU de salle de réunion |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Donnez un numéro de téléphone à la salle et transmettez ou recevez des appels depuis la salle ou participez à une conférence audio par le biais d’un numéro de téléphone.  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
+|Gérer votre appareil de salle avec Microsoft Intune |Référence SKU de salle de réunion  |Abonnement Microsoft Intune avec [le GPM sur site](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+| |||
 
- **Utiliser la version appropriée de Windows 10**: pour les clients qui souhaitent déployer des images Windows 10 sur leurs appareils, voir [configurer une console de salle Microsoft teams](/Skypeforbusiness/deploy/deploy-clients/console.md).
+> [!NOTE]
+> Si vous disposez de licences existantes affectées pour les systèmes de salle, celles-ci continuent de fonctionner sans interruption. Vous devez utiliser la nouvelle référence de la salle de réunion lorsque les licences existantes arrivent à expiration.  
+
+ **Utiliser la version appropriée de Windows 10**: pour les clients qui souhaitent déployer des images Windows 10 sur leurs appareils, voir [configurer une console de salle Microsoft teams](https://docs.microsoft.com/microsoftteams/room-systems/console). Vous pouvez obtenir une copie via le [Centre](https://www.microsoft.com/Licensing/servicecenter/)de gestion des licences en volume.

@@ -1,31 +1,67 @@
-﻿---
-title: 'Lync Server 2013 : Test du routage des communications vocales'
-TOCTitle: Test du routage des communications vocales
-ms:assetid: d3aae909-fef6-440f-b144-0b62dc82bf5d
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg398915(v=OCS.15)
-ms:contentKeyID: 49298940
-ms.date: 05/20/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013 : Test du routage des communications vocales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Test voice routing
+ms:assetid: d3aae909-fef6-440f-b144-0b62dc82bf5d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398915(v=OCS.15)
+ms:contentKeyID: 48185444
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0ac9fdac24178bfec7ebce97cbdfdd15707913d1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846569"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Test du routage des communications vocales dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2013-02-24_
+# <a name="test-voice-routing-in-lync-server-2013"></a>Test du routage des communications vocales dans Lync Server 2013
 
-Vous pouvez utiliser l’onglet **Tester le routage des com. vocales** du Panneau de configuration Lync Server pour configurer des scénarios de test. Pour définir un cas de test, vous devez spécifier le plan de numérotation, la stratégie de voix, l’utilisation RTC et l’itinéraire des communications vocales en fonction desquels le numéro de téléphone spécifié doit être testé.
+</div>
 
-Avant de déployer votre configuration de routage des communications vocales, nous vous conseillons de la tester sur plusieurs numéros de téléphone pour vous assurer que les résultats obtenus sont ceux escomptés.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2013-02-24_
+
+Pour configurer des scénarios de cas de test, vous pouvez utiliser l’onglet **test** du panneau de configuration de Lync Server. Pour définir un cas de test, vous spécifiez le plan de numérotation, la stratégie vocale, l’utilisation RTC et l’itinéraire vocal sur lequel tester un numéro de téléphone spécifié.
+
+Avant de déployer votre configuration de routage vocale, nous vous recommandons de la tester sur les différents numéros de téléphone pour vérifier que les résultats sont bien attendus.
+
+<div>
+
 
 > [!TIP]  
-> Vous pouvez faire appel aux commandes <strong>Exporter des cas de test</strong> et <strong>Importer des cas de test</strong> pour enregistrer des cas de test de routage des communications vocales et les importer sur un autre ordinateur afin de les utiliser.
+> Vous pouvez utiliser les commandes d’exportation de cas de <STRONG>test</STRONG> et d' <STRONG>importation de cas de test</STRONG> pour enregistrer les cas de tests de routage de voix et les importer pour les utiliser sur un autre ordinateur.
 
-> [!CAUTION]  
-> Si vous supprimez une partie de la configuration du routage des communications vocales, comme un plan de numérotation, une stratégie de voix, un itinéraire de communications vocales ou l’utilisation téléphonique, vous devez examiner et mettre à jour vos cas de test de routage des communications vocales. Le Panneau de configuration Lync Server ne vous demandera pas de tester des cas qui ne sont plus valables suite aux modifications apportées aux configurations.
 
-## Dans cette section
+
+</div>
+
+<div>
+
+
+> [!WARNING]  
+> Si vous supprimez une partie quelconque de votre configuration de routage, par exemple un plan de numérotation, une stratégie vocale, un itinéraire vocal ou une utilisation du téléphone, vous devez passer en revue et mettre à jour les cas de test de votre gamme vocale. Le panneau de configuration de Lync Server ne vous alerte pas pour les cas de tests qui ne sont plus valides en raison de configurations modifiées.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Dans cette section
 
   - [Création d’un cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)
 
@@ -34,4 +70,16 @@ Avant de déployer votre configuration de routage des communications vocales, no
   - [Importation des cas de test de routage des communications vocales dans Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)
 
   - [Exécution des tests de routage des communications vocales dans Lync Server 2013](lync-server-2013-running-voice-routing-tests.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

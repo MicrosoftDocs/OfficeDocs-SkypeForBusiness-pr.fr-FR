@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013 : tblPrincipalType'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalType
 ms:assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-ms:mtpsurl: https://technet.microsoft.com/fr-fr/library/Gg558633(v=OCS.15)
-ms:contentKeyID: 49296801
-ms.date: 05/20/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558633(v=OCS.15)
+ms:contentKeyID: 48183787
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 725d097e1e2e75b6430974a4f133cb5fa4130346
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34846671"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalType dans Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Dernière rubrique modifiée :** 2015-03-09_
+# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType dans Lync Server 2013
 
-La table tblPrincipalType contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal.
+</div>
 
-### Colonnes
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Dernière modification de la rubrique:** 2012-09-12_
+
+tblPrincipalType contient des types de principaux pour classer ce qui se trouve dans la table tblPrincipal.
+
+### <a name="columns"></a>Celles
 
 <table>
 <colgroup>
@@ -29,35 +49,35 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 <tr class="header">
 <th>Colonne</th>
 <th>Type</th>
-<th>Description</th>
+<th>Description%</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ptypeID</p></td>
-<td><p>smallint, non null</p></td>
-<td><p>ID de type Principal.</p></td>
+<td><p>smallint, pas null</p></td>
+<td><p>ID de type principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>nvarchar (256), non null</p></td>
+<td><p>nvarchar (256), pas null</p></td>
 <td><p>Description du type.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ptypeIsSystemUser</p></td>
-<td><p>bit, non null</p></td>
-<td><p>Vrai si le type correspond aux principaux utilisés pour des fonctions internes.</p></td>
+<td><p>bit, pas null</p></td>
+<td><p>True si le type correspond aux éléments principaux utilisés à des fins internes.</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
-<td><p>bit, non null</p></td>
-<td><p>Vrai si le type est un type utilisateur.</p></td>
+<td><p>bit, pas null</p></td>
+<td><p>True si le type est un type d’utilisateur.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Clé
+### <a name="key"></a>Clé
 
 <table>
 <colgroup>
@@ -79,7 +99,7 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 </table>
 
 
-### Valeurs principales
+### <a name="principal-values"></a>Valeurs principales
 
 <table>
 <colgroup>
@@ -100,58 +120,72 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 <tr class="odd">
 <td><p>1</p></td>
 <td><p>Indifférente</p></td>
-<td><p>Principal générique sans type connu. Inutilisé dans la table tblPrincipal.</p></td>
-<td><p></p></td>
+<td><p>Principal générique sans type connu. Non utilisé dans la table tblPrincipal.</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
 <td><p>AnyUser</p></td>
-<td><p>Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.</p></td>
+<td><p>Principal générique de type d’utilisateur. Non utilisé dans la table tblPrincipal.</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
 <td><p>AnyGroup</p></td>
-<td><p>Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.</p></td>
-<td><p></p></td>
+<td><p>Principal générique avec la sémantique de groupe. Non utilisé dans la table tblPrincipal.</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
 <td><p>SystemUser</p></td>
-<td><p>Principal utilisé en interne par le serveur de conversations permanentes.</p></td>
-<td><p></p></td>
+<td><p>Principal utilisé par le serveur de chat permanent.</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
 <td><p>Utilisateur</p></td>
-<td><p>Utilisateur régulier.</p></td>
+<td><p>Utilisateur ordinaire.</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
-<td><p>DC</p></td>
-<td><p>Contrôleur de domaine services de domaine Active Directory.</p></td>
-<td><p></p></td>
+<td><p>version8</p></td>
+<td><p>CD</p></td>
+<td><p>Contrôleur de domaine Active Directory Domain Services.</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
+<td><p>09</p></td>
 <td><p>Groupe</p></td>
 <td><p>Groupe de sécurité Active Directory.</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
+<td><p>0,10</p></td>
 <td><p>Folder</p></td>
-<td><p>Conteneur ou unité d’organisation Active Directory.</p></td>
-<td><p></p></td>
+<td><p>Conteneur Active Directory ou unité d’organisation.</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-## Voir aussi
+<div>
 
-#### Concepts
+## <a name="see-also"></a>Voir aussi
 
-[tblPrincipal dans Lync Server 2013](lync-server-2013-tblprincipal.md)
+
+[tblPrincipal dans Lync Server 2013](lync-server-2013-tblprincipal.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
