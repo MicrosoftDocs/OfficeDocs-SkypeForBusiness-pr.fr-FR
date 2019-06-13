@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
-ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
+ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301267"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768774"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Attribuer des licences Skype Entreprise
 
@@ -107,20 +107,22 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 |Plan autonome 2 de Skype Entreprise Online  <br/> |MCOSTANDARD  <br/> |
 |Système téléphonique  <br/> |MCOEV  <br/> |
 |Forfait d’appels internationaux  <br/> |MCOPSTN2  <br/> |
-|Forfait d'appels nationaux  <br/> |MCOPSTN1  <br/> |
+|Forfait d’appels nationaux (3000 min US/1200 min Europe)  <br/> |MCOPSTN1  <br/> |
+|Forfait d’appels nationaux (forfait d’appels 120 min)  <br/> |MCOPSTN5  <br/> |
+|Forfait d’appels nationaux (forfait d’appels 240 min)  <br/> |MCOPSTN6  <br/> |
 |Crédits de communication  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconférence: conseils et scripts pour affecter des licences
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Ce que vous devez savoir avant d’affecter des licences de conférence audio
 
-- **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an **Audio Conferencing** license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
+- Fournisseur de services d' **audioconférence tiers**: si une personne est déjà configurée pour utiliser un fournisseur de services d’audioconférence tiers, lorsque vous lui attribuez une licence d' **audioconférence** , elle est modifiée de manière à utiliser Microsoft comme audioconférence. fournisseurs. Vous pouvez le remplacer par le fournisseur tiers.
 
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
+- Étapes suivantes: une fois que vous avez attribué des licences de **conférence audio** , vous devez affecter un fournisseur de services d’audioconférence. Voir [Affecter Microsoft comme fournisseur d'audioconférence].
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Comment affecter une licence de conférence audio à un utilisateur
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Comment affecter des licences de conférence audio en bloc
 
@@ -130,7 +132,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
     Une fois les modules installés, utilisez l'invite de commande Windows PowerShell et la syntaxe suivante pour affecter les licences à vos utilisateurs :
 
-    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
+    Le nom des licences ou des produits du script est répertorié dans le texte en italique. Voir les noms des produits de l’audioconférence pour l' [écriture de scripts](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) pour l’ensemble des noms de produits.
 
     Cet exemple affecte une licence entreprise E3, ainsi qu’une licence de conférence audio.
 
@@ -187,15 +189,15 @@ foreach ($user in $users)
 
 - **Clients entreprise E5**: même si des licences entreprise E5 ont été affectées à vos utilisateurs, nous vous conseillons de leur affecter des licences de **crédits de communication** .
     
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **Prochaines étapes**: après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, consultez la rubrique [configurer les offres d’appels](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Comment affecter une licence de crédits de communication à un utilisateur
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez la rubrique [Attribuer ou supprimer des licences pour Office 365 pour les entreprises](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Comment attribuer des crédits de communication en bloc
 
-Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
+Jetez un coup d’œil à l’exemple de script permettant d’affecter des licences de **conférence audio** . Mettez-le à jour avec les informations relatives à l’affectation de licences de **crédits de communication** .
 
 ## <a name="related-topics"></a>Voir aussi
   

@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec la messagerie sécurisée pour les organismes de santé
-ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: da9bc348a52cf8e4ceacdec36594c81386186c0e
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681904"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912863"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -38,12 +38,9 @@ Les paramètres suivants sont particulièrement intéressants pour les applicati
 
 ## <a name="read-receipts"></a>Confirmations de lecture
 
-- ![Icône du numéro 1, qui fait référence à une légende dans la](../../media/sfbcallout1.png) **** capture d’écran précédente confirmation de lecture des confirmations de lecture permet à l’expéditeur d’un message de savoir lorsque le message a été lu par le destinataire. Utilisez ce paramètre pour spécifier si les confirmations de lecture sont contrôlées par l’utilisateur, activées pour tout le monde, ou désactivées pour tout le monde. Les confirmations de lecture de messages sont importantes dans les organisations de soins de santé, car elles suppriment de façon incertaine l’existence ou non de la lecture d’un message.
+- ![Icône du numéro 1, faisant référence à une légende dans la capture](../../media/sfbcallout1.png) **** d’écran précédente confirmations de lecture pour permettre à l’expéditeur d’un message de savoir lorsque le message a été lu par le destinataire dans 1:1 et les discussions de groupe de 20 personnes ou moins. Utilisez ce paramètre pour spécifier si les confirmations de lecture sont contrôlées par l’utilisateur, pour tout le monde ou désactivé pour tout le monde. Les confirmations de lecture de messages sont importantes dans les organisations de soins de santé, car elles suppriment de façon incertaine l’existence ou non de la lecture d’un message.
 
-  Dans le cas d’applications de santé, sélectionnez géré par l' **utilisateur** ou **activé pour tout le monde**. Sachez que lors de l’utilisation du paramètre **activé pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée «global (org, par défaut)») ou avoir tous les messages les stratégies du client utilisent les mêmes paramètres pour les accusés de réception.
-
-  > [!NOTE]
-  > Lors de l’utilisation de confirmations de lecture dans une discussion de groupe importante (par exemple, pour les utilisateurs de plus de 100, par exemple), les messages de bon de réception risquent de submerger les messages et de susciter la frustration de l’utilisateur. Il s’agit d’une information dont les utilisateurs doivent tenir compte. Une discussion de groupe de plus petite taille (peut-être 20 utilisateurs ou moins) utilise une meilleure utilisation de cette fonctionnalité.
+  Pour les applications de santé, sélectionnez **contrôle utilisateur** ou **activé pour tout le monde**. Sachez que lors de l’utilisation du paramètre **on pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée «global (organisation par défaut)») ou d’avoir toutes les stratégies de messagerie dans le client utilise les mêmes paramètres pour les accusés de réception. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
 
     *Exemple d’utilisation sans confirmation de lecture:* Jakob Roth, un patient à haut risque, est admis aux hôpitaux.Le Sofia Krause est une infirmier qui travaille dans le cadre de l’équipe interdisciplinaire (IDT) des travailleurs médicaux, y compris des spécialistes, est désigné comme le coordinateur principal responsable du patient.  Le champ Sofia envoie des messages électroniques et d’autres messages instantanés à un groupe d’infirmières et de médecins utilisant divers clients et applications de messagerie, et n’obtient généralement aucune réponse ou indication qu’un message a été lu par les membres de l’équipe. En raison de processus de communication Tangled, le médicament de Jakob est appliqué de façon incertaine et le reste de l’hôpital est prolongé.
 

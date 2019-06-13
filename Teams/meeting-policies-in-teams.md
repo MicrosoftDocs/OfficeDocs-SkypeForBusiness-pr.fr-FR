@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: b6ab6674da7212f14e7315a34cced60fcabe3e1f
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: bdad8f852855c8f87eb62851ddc3082026bcc0ed
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433254"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912871"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -45,11 +45,11 @@ Par défaut, la création d’une stratégie nommée global (au niveau de l’or
 
 ## <a name="change-or-create-a-meeting-policy"></a>Modification ou création d’une stratégie de réunion
 
-Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams > les**stratégies de réunion**des **réunions** > . Sélectionnez une stratégie dans la liste ou sélectionnez **nouvelle stratégie**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
+Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams >**politiques**des **réunions** > . Sélectionnez une stratégie dans la liste ou sélectionnez **nouvelle stratégie**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
 
 Par exemple, imaginons que vous disposiez d’un certain nombre d’utilisateurs et que vous voulez limiter la bande passante nécessaire à la réunion. Vous pouvez créer une stratégie personnalisée nommée «bande passante limitée» et désactiver les paramètres suivants:
 
-Sous **audio & vidéo**:
+Sous **Audio & vidéo**:
 - Désactiver l’enregistrement dans le Cloud
 - Désactiver l’option autoriser la vidéo IP
 
@@ -135,7 +135,7 @@ Remarque: Si vous désactivez l’option **autoriser la planification de réunio
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Paramètres de la stratégie de réunion-vidéo & audio
+## <a name="meeting-policy-settings---audio--video"></a>Paramètres de la stratégie de réunion-audio & Video
 
 - [Autoriser la transcription](#allow-transcription)
 - [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
@@ -192,7 +192,7 @@ Si Daniela appelle Amanda avec la vidéo, Amanda peut répondre à l’appel ave
 
 ### <a name="media-bit-rate-kbs"></a>Taux d’échantillonnage du support (Ko)
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine le taux de bits média pour les transmissions du partage d’application audio, vidéo et vidéo dans les appels et les réunions de l’utilisateur. Il est appliqué à la traversée de l’appel ou de la réunion, en liaison descendante et en liaison descendante multimédia. Ce paramètre vous permet de contrôler plus précisément la bande passante de votre organisation. En fonction des scénarios de réunions requis par les utilisateurs, nous recommandons une bande passante suffisante pour une qualité optimale. La valeur minimale est 30 kbps et la valeur maximale dépend du scénario de la réunion. Pour en savoir plus sur la bande passante minimum recommandée pour des réunions, des appels et des événements en direct de bonne qualité dans Teams, voir [besoins en bande passante](prepare-network.md#bandwidth-requirements).
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine le taux de bits média pour les transmissions du partage d’application audio, vidéo et vidéo dans les appels et les réunions de l’utilisateur. Il est appliqué à la traversée de l’appel ou de la réunion, en liaison descendante et en liaison descendante multimédia. Ce paramètre vous permet de contrôler plus précisément la bande passante de votre organisation. En fonction des scénarios de réunions requis par les utilisateurs, nous recommandons une bande passante suffisante pour une qualité optimale. La valeur minimale est 30 kbps et la valeur maximale dépend du scénario de la réunion. Pour en savoir plus sur la bande passante minimum recommandée pour des réunions, des appels et des événements en direct de bonne qualité dans Teams, voir [besoins en bande passante](prepare-network.md#bandwidth-requirements).
 
 S’il n’y a pas assez de bande passante pour une réunion, un message s’affiche indiquant une mauvaise qualité du réseau.
 
@@ -320,6 +320,9 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Autoriser les personnes anonymes à commencer une réunion](#allow-anonymous-people-to-start-a-meeting)
 - [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Permettre aux organisateurs de remplacer les paramètres de la salle d’attente](#allow-organizers-to-override-lobby-settings-coming-soon)
+
+> [!NOTE]
+>Les options de participation à une réunion varient en fonction des paramètres de chaque groupe équipes et de la méthode de connexion. Si votre groupe comporte une audioconférence et qu’elle est utilisée pour se connecter, voir [audioconférence dans Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si ce n’est pas le cas, reportez-vous à la rubrique [participer à une réunion dans teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 

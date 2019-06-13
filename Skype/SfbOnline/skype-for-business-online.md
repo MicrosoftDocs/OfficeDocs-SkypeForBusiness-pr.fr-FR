@@ -56,7 +56,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39 ; re ici pour aider à</h3>
+                        <h3>Nous&#39;ici pour vous aider.</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 ---
 
-<h2>What& #39 ; est nouvelle</h2>
+<h2>Nouveautés de&#39;</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -182,7 +182,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
 
 ---
 
-<h2>Articles suggérés</h2>
+<h2>Articles proposés</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
@@ -238,7 +238,7 @@ Découvrez comment gérer Skype Entreprise Online pour votre organisation.
                 <div class="card">
                     <div class="cardText">
                         <h3>Système téléphonique</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39 ; est ce que vous obtenez avec un système téléphonique dans Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">Qu'est-ce que le système téléphonique dans Office 365 ?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Voici&#39;s ce que vous obtenez avec le système téléphonique dans Office 365</a></p>
                </div>
                 </div>
             </div>

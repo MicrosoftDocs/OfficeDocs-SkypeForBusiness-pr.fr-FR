@@ -16,19 +16,18 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: b3d1db5b89c88784761d5bcef3a5400eeabdabe5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681892"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912855"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
 <!--- Add zone marker here--->
 
 Les stratégies de messagerie sont utilisées pour contrôler les fonctionnalités de messagerie et de messagerie de canal disponibles pour les utilisateurs de Microsoft Teams. Vous pouvez utiliser la stratégie par défaut qui est créée automatiquement ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Après avoir créé une stratégie, vous pouvez l’affecter à un utilisateur ou à un groupe d’utilisateurs de votre organisation.
-
 Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent cette stratégie de messagerie. Vous pouvez modifier cette stratégie ou en créer une ou plusieurs, et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui auront besoin des paramètres appliqués. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Modification ou création d’une stratégie de messagerie
@@ -72,7 +71,10 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer les messages que les utilisateurs ont envoyés dans une conversation.
 - **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
-- **Confirmations de lecture** Utilisez ce paramètre pour spécifier si les confirmations de lecture sont contrôlées par l’utilisateur, activées pour tout le monde, ou désactivé.
+- **Confirmations de lecture** Utilisez ce paramètre pour spécifier si les confirmations de lecture sont contrôlées par l’utilisateur, pour tout le monde ou désactivé pour tout le monde. Le paramètre par défaut est géré par l’utilisateur. 
+    - **Contrôle utilisateur** Cela signifie que les utilisateurs décident d’activer ou de désactiver les confirmations de lecture. Le paramètre par défaut de l’application est activé. Les utilisateurs peuvent alors le désactiver.
+    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. 
+    - **Désactivé pour tous** Cela signifie que la fonctionnalité est désactivée et que personne ne dispose d’une confirmation de lecture dans le client. 
 <a name="bkchat"> </a>
 
 - **Discussions**  Activez ce paramètre si vous souhaitez que les utilisateurs de votre organisation puissent utiliser l’application équipes pour discuter avec d’autres personnes.
@@ -86,7 +88,7 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Autoriser** les aperçus d’URL Utilisez ce paramètre pour activer ou désactiver l’aperçu d’URL automatique dans les messages.
 - **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels pour Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activez ce paramètre pour permettre aux utilisateurs d’afficher des messages dans le lecteur immersif Microsoft. Le lecteur immersif est un outil d’apprentissage qui offre une interface de lecture plein écran pour améliorer la lisibilité du texte.
-- **Les utilisateurs peuvent envoyer des notifications de priorité** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité avertissent les utilisateurs de manière répétée sur une période de 20 minutes, ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui permet d’optimiser la probabilité que le message soit reçu et agi en temps opportun. [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Les utilisateurs peuvent envoyer des notifications de priorité** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité avertissent les utilisateurs de manière répétée sur une période de 20 minutes, ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui permet d’optimiser la probabilité que le message soit reçu et agi en temps opportun.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Creation de messages vocaux** 
     - **Autorisé dans les conversations et les canaux** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les conversations et les canaux.
     - **Accordé uniquement aux conversations** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les conversations, mais pas dans les canaux.

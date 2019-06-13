@@ -55,7 +55,7 @@ ms.locfileid: "33905693"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Solutions hybrides</h3>
-                                                    <p>Trouvez des informations sur la planification d’un Skype pour un déploiement hybride Business.</p>
+                                                    <p>Trouvez des informations sur la planification d’un déploiement hybride Skype entreprise.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -72,7 +72,7 @@ ms.locfileid: "33905693"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype pour Business Server</h3>
+                                                    <h3>Skype entreprise Server</h3>
                                                     <p>Déployez et gérez Skype Entreprise Server pour votre organisation.</p>
                                                 </div>
                                             </div>
@@ -130,7 +130,7 @@ ms.locfileid: "33905693"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Transition de Skype Entreprise à Microsoft Teams</h3>
-                                                    <p>Trouvez des conseils et des outils pour Explorer votre chemin d’accès optimal aux équipes.</p>
+                                                    <p>Trouvez des conseils et des outils pour découvrir votre chemin optimal vers Teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ ms.locfileid: "33905693"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Utilisateurs finaux</h3>
-                                                    <p>Rechercher l’aide, de formation et de support technique pour Skype pour les utilisateurs professionnels sur <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Trouvez de l’aide, des formations et une assistance technique pour les utilisateurs de Skype entreprise sur <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.Office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>

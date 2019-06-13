@@ -7,15 +7,15 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442e00cfe36aa94eb1d2306a67707485b4859910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830919"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,10 +75,10 @@ Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons de s
 <td><p>Internet Explorer 10, 64 bits</p></td>
 <td><p>32 bits d’Internet Explorer 9</p></td>
 <td><p>64 bits d’Internet Explorer 9</p></td>
-<td><p>Firefox 32-bit</p></td>
-<td><p>Firefox 64-bit</p></td>
+<td><p>Firefox 32-bit<sup>4</sup></p></td>
+<td><p>Firefox 64-bit<sup>4</sup></p></td>
 <td><p>Safari</p></td>
-<td><p>Chrome</p></td>
+<td><p>Chrome<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -87,99 +87,101 @@ Pour utiliser Lync Web App, vous devez disposer de l’une des combinaisons de s
 <td><p>N/A </p></td>
 <td><p>N/A </p></td>
 <td><p>N/A </p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-<td><p>Non</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 8,11</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
 <td><p>N/A </p></td>
-<td><p>N/A </p></td>
-<td><p>N/A </p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
 <td><p>Non</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows 8 (Intel) 1</p></td>
-<td><p>N/A </p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui</p></td>
-<td><p>N/A </p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-<td><p>Non</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 7 avec SP12</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui </p></td>
-<td><p>Oui </p></td>
-<td><p>Oui </p></td>
-<td><p>Oui </p></td>
-<td><p>Oui</p></td>
-<td><p>Non</p></td>
-<td><p>N/A</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows Server 2008 R2 avec SP12</p></td>
-<td><p>N/A</p></td>
-<td><p>Oui</p></td>
-<td><p>Oui </p></td>
-<td><p>Oui </p></td>
-<td><p>Oui </p></td>
-<td><p>Oui </p></td>
-<td><p>Oui</p></td>
 <td><p>Non</p></td>
 <td><p>N/A</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 avec SP23</p></td>
+<td><p>Windows 8,1<sup>1</sup></p></td>
 <td><p>N/A</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui</p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
 <td><p>Non</p></td>
-<td><p>Oui</p></td>
-<td><p>Non</p></td>
-<td><p>Oui</p></td>
 <td><p>Non</p></td>
 <td><p>N/A</p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10,7 et version ultérieure (Intel) 2</p></td>
-<td><p>N/A </p></td>
-<td><p>N/A </p></td>
-<td><p>N/A </p></td>
-<td><p>N/A </p></td>
+<td><p>Windows 8 (Intel)<sup>1</sup></p></td>
 <td><p>N/A </p></td>
 <td><p>N/A</p></td>
 <td><p>Oui</p></td>
+<td><p>Oui</p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
 <td><p>Non</p></td>
+<td><p>Non</p></td>
+<td><p>N/A</p></td>
+<td><p>Non</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows 7 avec SP1<sup>2</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>Oui</p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
 <td><p>Oui </p></td>
 <td><p>Oui</p></td>
+<td><p>Non</p></td>
+<td><p>Non</p></td>
+<td><p>N/A</p></td>
+<td><p>Non</p></td>
+</tr>
+<tr class="even">
+<td><p>Windows Server 2008 R2 avec SP1<sup>2</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>Oui</p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
+<td><p>Oui </p></td>
+<td><p>Oui</p></td>
+<td><p>Non</p></td>
+<td><p>Non</p></td>
+<td><p>N/A</p></td>
+<td><p>Non</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows Server 2008 avec SP2<sup>3</sup></p></td>
+<td><p>N/A</p></td>
+<td><p>Oui</p></td>
+<td><p>Oui</p></td>
+<td><p>Non</p></td>
+<td><p>Oui</p></td>
+<td><p>Non</p></td>
+<td><p>Non</p></td>
+<td><p>Non</p></td>
+<td><p>N/A</p></td>
+<td><p>Non</p></td>
+</tr>
+<tr class="even">
+<td><p>Mac OS X 10,7 et version ultérieure (Intel)<sup>2</sup></p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>N/A </p></td>
+<td><p>Non</p></td>
+<td><p>Non</p></td>
+<td><p>Oui</p></td>
+<td><p>Non</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 sur Windows 8 et Windows 8,1, le plug-in requis pour l’utilisation de l’audio et de la vidéo, de l’affichage des applications, du partage d’applications, de l’affichage du bureau et du partage du Bureau sur un ordinateur ne peut être installé que si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le D945GBO. Ces fonctionnalités ne sont pas disponibles dans les versions de bureau d’Internet Explorer 10 ou d’Internet Explorer 11 qui ne sont pas disponibles.
+<sup>1</sup> sur Windows 8 et Windows 8,1, le plug-in requis pour l’utilisation de l’audio et de la vidéo, de l’affichage des applications, du partage d’applications, de l’affichage du bureau et du partage du Bureau sur un ordinateur ne peut être installé que si vous utilisez Internet Explorer 10 ou Internet Explorer 11 pour le bureau. Ces fonctionnalités ne sont pas disponibles dans les versions de bureau d’Internet Explorer 10 ou d’Internet Explorer 11 qui ne sont pas disponibles.
 
-2 sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo et le partage des applications basés sur un ordinateur, le partage d’application, l’affichage du bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in quand vous y êtes invité. Notez que la version 10,6 de Mac OS X n’est plus prise en charge.
+<sup>2</sup> sur les systèmes d’exploitation Windows 7, windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix, la vidéo et le partage des applications basés sur un ordinateur, le partage d’application, l’affichage du bureau et le partage du bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in quand vous y êtes invité. Notez que la version 10,6 de Mac OS X n’est plus prise en charge.
 
-3 sur les systèmes d’exploitation Windows Server 2008 pris en charge, les fonctionnalités audio et vidéo basées sur un ordinateur ne sont pas disponibles. L’affichage des applications, le partage d’applications, l’affichage du bureau et le partage du Bureau sont disponibles.
+<sup>3</sup> sur les systèmes d’exploitation Windows Server 2008 pris en charge, les fonctionnalités audio et vidéo basées sur un ordinateur ne sont pas disponibles. L’affichage des applications, le partage d’applications, l’affichage du bureau et le partage du Bureau sont disponibles.
+
+<sup>4</sup> le plug-in nécessite une prise en charge de NPAPI dans le navigateur. Firefox a supprimé la prise en charge de NPAPI dans la version 52,0 et de la prise en charge du chrome dans la version 45, de sorte que ces navigateurs ne sont plus pris en charge dans leurs versions actuelles.
 
 </div>
 
