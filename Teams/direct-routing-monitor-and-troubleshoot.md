@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Cet article décrit comment surveiller et résoudre les problèmes de votre configuration de routage direct.
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290407"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915155"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
@@ -46,7 +46,7 @@ Le schéma suivant illustre un exemple de configuration:
 
 ![Exemple de configuration des options SIP](media/sip-options-config-example.png)
 
-Lorsqu’un utilisateur effectue un appel vers le numéro + \<1 425 d’un digits>, le routage direct évalue l’itinéraire. Il existe deux éléments SBCs dans l’itinéraire: sbc1.contoso.com et sbc2.contoso.com. Les deux SBCs ont une priorité égale dans l’itinéraire. Avant de sélectionner un SBC, le mécanisme de routage évalue l’état de l’SBCs en fonction du moment où l’SBC a envoyé les options SIP pour la dernière fois. 
+Lorsqu’un utilisateur effectue un appel vers le numéro + \<1 425 de sept chiffres>, le routage direct évalue l’itinéraire. Il existe deux éléments SBCs dans l’itinéraire: sbc1.contoso.com et sbc2.contoso.com. Les deux SBCs ont une priorité égale dans l’itinéraire. Avant de sélectionner un SBC, le mécanisme de routage évalue l’état de l’SBCs en fonction du moment où l’SBC a envoyé les options SIP pour la dernière fois. 
 
 Un SBC est considéré comme sain si les statistiques lors de l’envoi de l’appel indiquent que la ligne SBC envoie des options sur un intervalle régulier.  
 

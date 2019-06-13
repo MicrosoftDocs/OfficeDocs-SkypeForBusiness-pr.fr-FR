@@ -16,18 +16,19 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912855"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915147"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
 <!--- Add zone marker here--->
 
 Les stratégies de messagerie sont utilisées pour contrôler les fonctionnalités de messagerie et de messagerie de canal disponibles pour les utilisateurs de Microsoft Teams. Vous pouvez utiliser la stratégie par défaut qui est créée automatiquement ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Après avoir créé une stratégie, vous pouvez l’affecter à un utilisateur ou à un groupe d’utilisateurs de votre organisation.
+
 Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent cette stratégie de messagerie. Vous pouvez modifier cette stratégie ou en créer une ou plusieurs, et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui auront besoin des paramètres appliqués. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Modification ou création d’une stratégie de messagerie
