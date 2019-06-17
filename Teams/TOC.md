@@ -309,11 +309,15 @@
 ### [Guide de démarrage rapide : configuration des forfaites d’appel](configuring-teams-calling-quickstartguide.md)
 
 ## Routage direct via le système téléphonique
+
 ### [Vue d’ensemble](direct-routing-landing-page.md)
 ### [Planifier le routage direct](direct-routing-plan.md)
 ### [Configurer le routage direct](direct-routing-configure.md)
 ### [Migrer vers un routage direct](direct-routing-migrating.md)
-### [Contrôler et dépanner le routage direct](direct-routing-monitor-and-troubleshoot.md)
+
+### Contrôler et dépanner le routage direct
+#### [Vue d’ensemble](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [Comptes d’utilisateur dans un environnement hybride avec une connectivité PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 ### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
