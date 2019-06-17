@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7885d08cd007ba94a655c85cd973b8442ea3b01d
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857475"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933833"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise
 
 > [!Tip] 
 > Regardez la session suivante pour en savoir plus sur la [coexistence et l’interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
 
-Dans le cadre de la prise en main de Skype entreprise, les administrateurs peuvent gérer l’utilisation des utilisateurs au sein de leur organisation en utilisant le concept du mode de coexistence "qui est une propriété de TeamsUpgradePolicy. Le mode de gestion de l’interopérabilité et de la migration permet aux administrateurs de gérer le passage de Skype entreprise à Teams.  Le mode utilisateur détermine dans quel client les discussions entrantes et les appels terrestres, ainsi que dans quel service (teams ou Skype entreprise) de nouvelles réunions sont prévues. À l’avenir, le mode sera également utilisé pour définir le comportement du client teams en termes de fonctionnalités qui seront disponibles. 
+Dans le cadre de la prise en main de Skype entreprise, les administrateurs peuvent gérer l’utilisation des utilisateurs au sein de leur organisation en utilisant le concept du mode de coexistence "qui est une propriété de TeamsUpgradePolicy. Le mode de gestion de l’interopérabilité et de la migration permet aux administrateurs de gérer le passage de Skype entreprise à Teams.  Le mode utilisateur détermine dans quel client les discussions entrantes et les appels terrestres, ainsi que dans quel service (teams ou Skype entreprise) de nouvelles réunions sont prévues. Il définit également les fonctionnalités disponibles dans le client Teams. 
 
 
 ## <a name="fundamental-concepts"></a>Concepts de base
@@ -154,12 +154,6 @@ Lorsque l’utilisateur se trouve dans l’un des modes Skype entreprise (SfBOnl
 
 > [!Note] 
 > - Avant la mise à disposition automatique des équipes et des canaux, les modes SfbOnly et SfBWithTeamsCollab se comportent de la même façon.
-
-
-
-## <a name="teamsinteroppolicy-has-been-retired"></a>TeamsInteropPolicy a été supprimé 
-
-TeamsInteropPolicy a été remplacé par TeamsUpgradePolicy. Tous les composants qui ont déjà respecté TeamsInteropPolicy ont été mis à jour pour honorer TeamsUpgradePolicy à la place. Microsoft avait déjà introduit le mode «hérité» dans TeamsUpgradePolicy pour faciliter la transition de TeamsInteropPolicy vers TeamsUpgradePolicy. Dans le mode légué, les composants de routage qui ont été compris dans TeamsUpgradePolicy seraient de nouveau rétablis à TeamsInteropPolicy. Le routage est désormais entièrement compatible avec TeamsUpgradePolicy. Le mode hérité n’est plus pris en charge et il n’est plus possible d’accorder le mode hérité. Toutes les instances de TeamsInteropPolicy sont dans le processus de suppression.
 
 
 ## <a name="detailed-mode-descriptions"></a>Descriptions du mode détaillé

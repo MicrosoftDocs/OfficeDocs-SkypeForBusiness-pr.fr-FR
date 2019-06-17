@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec la messagerie sécurisée pour les organismes de santé
-ms.openlocfilehash: 86640eae696c424e7d6132b277dc0f6c2241ff04
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: d53a445cd7c13001fee8f365bc5d897a065de398
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915163"
+ms.locfileid: "34933856"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -52,7 +52,7 @@ Les paramètres suivants sont particulièrement intéressants pour les applicati
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
-- ![Icône du numéro 2, qui référence une légende dans la capture d'](../../media/sfbcallout2.png) écran précédente **les utilisateurs peuvent envoyer des notifications de priorité** utilisez ce paramètre pour autoriser les utilisateurs à envoyer des messages de discussion prioritaire à d’autres utilisateurs. Cette fonctionnalité permet au personnel de l’hôpital de s’avertir lorsque l’un d’eux nécessite son attention. À la différence des messages de type «important» normaux, les notifications de priorité avertissent les utilisateurs de manière répétée sur une période de 20 minutes ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit reçu et agi en temps opportun.
+- ![Icône du numéro 2, qui référence une légende dans la capture d'](../../media/sfbcallout2.png) écran précédente **les utilisateurs peuvent envoyer des notifications de priorité** un utilisateur peut marquer un message comme «urgent» lors de l’envoi de messages instantanés à d’autres utilisateurs. Cette fonctionnalité permet au personnel de l’hôpital de s’avertir lorsque l’un d’eux nécessite son attention. À la différence des messages «importants» normaux, les notifications de priorité avertissent les utilisateurs toutes les deux minutes pour une période de 20 minutes maximum ou jusqu’à ce que le message soit reçu et lu par le destinataire, ce qui maximise la probabilité d’action du message en temps opportun.
 
   Un administrateur peut activer ou désactiver la possibilité pour les utilisateurs ayant affecté cette stratégie d’envoyer des notifications de priorité. Cette fonctionnalité est activée par défaut. Le destinataire du message prioritaire peut ne pas avoir la même stratégie de messagerie et ne peut pas désactiver la réception de messages de priorité. Dans le cas des applications de santé, nous vous recommandons d’activer la fonctionnalité pour au moins quelques utilisateurs, mais vous devez en déterminer les.
 

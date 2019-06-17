@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Comprendre comment gérer les clients à l’échelle et les paramètres utilisateur pour les équipes pendant la transition entre les équipes expérience dans le centre d’administration Microsoft 365 le nouveau centre d’administration Microsoft Teams.
+description: Apprenez à gérer les paramètres utilisateur et à l’échelle du client pour les équipes lors de la transition de l’utilisation de teams dans le centre d’administration Microsoft 365 vers le nouveau centre d’administration Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827795"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933779"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
@@ -32,86 +32,113 @@ ms.locfileid: "33827795"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Quel est le nouveau centre d’administration de Microsoft Teams ?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Qu’est-ce que le nouveau centre d’administration de Microsoft teams?  
 
-La nouvelle expérience du centre d’administration vous fournira une expérience unifiée pour gérer des équipes et Skype pour les entreprises. Offrir des fonctionnalités supplémentaires, détails de bout en bout et la possibilité de gérer les paramètres des équipes sur un niveau de l’utilisateur.
+Le nouveau centre d’administration offrira une interface unifiée pour gérer les équipes et Skype entreprise. Nous proposons des fonctionnalités supplémentaires, des analyses de bout en bout et la possibilité de gérer les paramètres d’équipe sur un niveau utilisateur.
 
-![Capture d’écran du centre d’administration équipes Microsoft.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Capture d’écran du centre d’administration Microsoft Teams.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migrés vers le nouveau centre d’administration de Microsoft Teams
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migrés vers le nouveau centre d’administration Microsoft teams
 
-Le tableau suivant identifie les sections de l’expérience des équipes qui ont été migrées et indique la relation entre les paramètres et les stratégies dans le nouveau portail d’administration.
+Le tableau suivant identifie les sections de l’interface d’équipe qui ont été migrées et indique la relation entre les paramètres actuels et les stratégies du nouveau portail d’administration.
 
-|Section d’équipes dans le centre d’administration Microsoft 365  |Nom du paramètre (niveau client)  |Stratégie de centre d’administration Microsoft Teams   |Niveau : Client ou utilisateur   |
+|Section d’équipes dans le centre d’administration 365 Microsoft  |Nom du paramètre (niveau du client)  |Stratégie du centre d’administration Microsoft teams   |Niveau: client ou utilisateur   |
 |---------|---------|---------|---------|
-|Général     |Afficher la conversation d’organisation dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Client       |
-|Général     |Utilisez Skype pour les entreprises pour les destinataires qui ne possèdent pas les équipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des messages électroniques à canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Intégration de courrier électronique     |Autoriser les expéditeurs liste         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Client         |
-|Stockage cloud personnalisé     |Zone         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |Échange        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |Lecteur de Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Stockage cloud personnalisé     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Client         |
-|Paramètres par type de licence d’utilisateur     |Activer Microsoft Teams activé ou désactivé pour tous les utilisateurs          |Obsolètes<sup>1</sup>        |         |
-|Équipes et canaux     |         |Redirige vers Azure Active Directory groupe Management (identique à l’expérience).              |Utilisateur         |
-|Équipes et canaux     |         |Redirige vers la gestion de groupe DAS (identique à l’expérience).             |Utilisateur          |
-|Applications|Activer les applications externes nouvelles par défaut|Paramètres d’application à l’échelle de l’organisation|Client|
-|Applications|Autoriser les applications externes|Paramètres d’application à l’échelle de l’organisation|Client|
-|Applications|Autoriser le chargement de version test des applications externes<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Utilisateur|
-|Applications|Par défaut applications<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
+|Général     |Afficher la discussion d’organisation dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Améliorations       |
+|Général     |Utiliser Skype entreprise pour les destinataires qui ne disposent pas de Microsoft teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des messages électroniques à des canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Intégration de courrier électronique     |Liste des expéditeurs autorisés         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Améliorations         |
+|Stockage cloud personnalisé     |Boite         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Stockage cloud personnalisé     |Échange        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Stockage cloud personnalisé     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Stockage cloud personnalisé     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
+|Paramètres par utilisateur/type de licence     |Activation ou désactivation de Microsoft teams pour tous les utilisateurs          |Déconseillé<sup>1</sup>        |         |
+|Équipes et canaux     |         |Redirectionne la gestion des groupes Azure Active Directory (comme l’interface actuelle).              |Utilisateur         |
+|Équipes et canaux     |         |Redirectionne vers la gestion des groupes AAD (similaire à l’interface actuelle).             |Utilisateur          |
+|Applications|Activer les applications externes nouvelles par défaut|Paramètres d’application à l’échelle de l’Organisation|Améliorations|
+|Applications|Autoriser les applications externes|Paramètres d’application à l’échelle de l’Organisation|Améliorations|
+|Applications|Autoriser le chargement indépendant d’applications externes du<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Utilisateur|
+|Applications|Applications par défaut<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
 |Applications|Applications externes<sup>3</sup>|TeamsAppPermissionPolicy|Utilisateur|
-|Les réunions et les appels     |Autoriser la planification de réunions privées         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Les réunions et les appels     |Autoriser les meetup du canal Ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Les réunions et les appels     |Autoriser la planification de réunions de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Les réunions et les appels     |Autoriser les vidéos de réunions         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Les réunions et les appels     |Autoriser les réunions de partage d’écran         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
-|Les réunions et les appels     |Autorise les appels privée         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Utilisateur          |
-|Messagerie      |Activer Giphy afin que les utilisateurs peuvent ajouter des images GIF à des conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Appels et réunions     |Autoriser la planification de réunions privées         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser le Meetup de canal ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser la planification de réunions de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser les vidéos dans les réunions         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser le partage d’écran dans les réunions         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Utilisateur          |
+|Appels et réunions     |Autoriser les appels privés         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Utilisateur          |
+|Messagerie      |Activer Giphy pour permettre aux utilisateurs d’ajouter des fichiers GIF à des conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 |Messagerie      |Évaluation du contenu         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie      |Activer les memes que les utilisateurs peuvent modifier et ajouter des conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie      |Activer autocollants que les utilisateurs peuvent modifier et ajouter des conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie      |Autoriser les propriétaires supprimer tous les messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie      |Activez mèmes que les utilisateurs peuvent modifier et ajouter aux conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie      |Activer les autocollants que les utilisateurs peuvent modifier et ajouter aux conversations         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie      |Autoriser les propriétaires à supprimer tous les messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 |Messagerie      |Permettre aux utilisateurs de modifier leurs propres messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 |Messagerie      |Autoriser les utilisateurs à supprimer leurs propres messages         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
-|Messagerie      |Permet aux utilisateurs de chat privé         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
+|Messagerie      |Permet aux utilisateurs de discuter en privé         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Utilisateur         |
 
-<sup>1</sup> déconseillée pour invité. Activation/désactivation de l’invité peuvent maintenant être géré dans le centre d’administration Microsoft Teams. Activation/désactivation des équipes pour l’entreprise, Edu étudiant, et Université Edu sera bientôt déconseillée. Il doit être gérée par l’attribution de licences dans le centre d’administration Microsoft 365. Consultez la rubrique [gérer l’accès utilisateur aux équipes de Microsoft](user-access.md).
+<sup>1</sup> déconseillé pour les invités. L’activation/désactivation de invités peut désormais être gérée dans le centre d’administration Microsoft Teams. L’activation/désactivation de teams pour les entreprises, des étudiants edu et des universités edu sera bientôt désapprouvée. Pour ce faire, vous devez affecter des licences dans le centre d’administration Microsoft 365. Voir [gérer l’accès des utilisateurs à Microsoft teams](user-access.md).
 <br><br>
-<sup>2</sup> chargement de version test est fractionnée comme suit :
+<sup>2</sup> chargement indépendant est scindé comme suit:
 
-- Permettre à un utilisateur pour les applications sideload qui peuvent être gérés à un niveau de l’utilisateur dans [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
-- Autoriser les utilisateurs dans un client pour interagir avec des applications personnalisées qui peuvent être gérées à un niveau client dans les paramètres d’application à l’échelle de l’organisation.
+- Autorisez un utilisateur à charger des applications qui peuvent être gérées à un utilisateur dans [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Autorisez les utilisateurs d’un client à interagir avec des applications personnalisées qui peuvent être gérées au niveau du client dans les paramètres d’application à l’échelle de l’organisation.
  
-<sup>3</sup> applications par défaut et les applications externes peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. En outre, les applications peuvent être bloquées au niveau du client dans les paramètres d’application à l’échelle de l’organisation qui se substitue à tous les utilisateurs et les paramètres au niveau du client. 
+<sup>3</sup> les applications et applications externes par défaut peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. De plus, les applications peuvent être bloquées au niveau du client dans les paramètres de l’application à l’échelle de l’organisation qui remplace les paramètres utilisateur et de niveau client. 
 
 > [!NOTE]
-> Vous allez continuer à utiliser le tableau de bord de groupes dans le centre d’administration Microsoft 365 pour configuration relatives aux équipes et canaux. Paramètres pour les applications restent dans la zone équipes du centre d’administration Microsoft 365 et doit être migrés ultérieurement. 
+> Vous pouvez toujours utiliser le tableau de bord groupes dans le centre d’administration Microsoft 365 pour la configuration liée aux équipes et aux canaux. Les paramètres des applications resteront dans la zone équipes du centre d’administration Microsoft 365 et seront migrés plus tard. 
 
 ## <a name="manage-settings-during-the-migration"></a>Gérer les paramètres lors de la migration
 
-Vous pouvez continuer à modifier les paramètres dans le centre d’administration Microsoft 365 et le Skype entreprise centre d’administration jusqu'à ce que la migration d’une section est terminée pour votre client. 
+Vous pouvez continuer à modifier les paramètres dans le centre d’administration Microsoft 365 et le centre d’administration Skype entreprise jusqu’à ce que la migration pour une section soit terminée pour votre client. 
 
-Le tableau suivant montre où vous pouvez gérer les fonctionnalités pendant la migration.
+Le tableau suivant indique les emplacements où vous pouvez gérer les fonctionnalités lors de la migration.
 
-|Fonctionnalité  |Centre d’administration de Microsoft Teams                      |Skype pour Business admin center (hérité)  |Centre d’administration Microsoft 365  |
+|Fonctionnalité  |Centre d’administration Microsoft teams                      |Centre d’administration Skype entreprise (hérité)  |Centre d’administration Microsoft 365  |
 |---------|:---------:|:---------:|:---------:|
-|Stratégies de messagerie, les réunions et les événements Live des équipes     |     X    |         |         |
-|Stratégie de mise à niveau d’équipes     |    X     |         |         |
-|Paramètres invité pour la messagerie, les réunions et voix     |   X      |         |         |
+|Stratégies de messagerie, de réunions et d’événements en direct teams     |     X    |         |         |
+|Stratégie de mise à niveau des équipes     |    X     |         |         |
+|Paramètres d’invité pour la messagerie, les réunions et la voix     |   X      |         |         |
 |Gestion du cycle de vie des équipes   |    X    |      |       |
-|Paramètres d’équipes   |    X    |      |       |
+|Paramètres des équipes   |    X    |      |       |
 |Paramètres d’accès externe     |    X    |      |       |
 |Gestion des utilisateurs    |         |         |    X     |    
 |Audioconférence     |    X     |    X     |         |
 |Forfaits d'appels     |         |    X     |         |
 |Système téléphonique    |         |     X    |         |
-|Gestion de numéros de téléphone     |         |   X      |         |
-|Gestion des licences pour les fonctionnalités de voix dans le nuage     |         |         |    X     |
+|Gestion des numéros de téléphone     |         |   X      |         |
+|Licences pour les fonctionnalités vocales sur le Cloud     |         |         |    X     |
 |Standards automatiques     |         |    X     |         |
 |Files d'attente des appels     |         |    X     |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Gérer les paramètres après la migration
 
-Lors de la migration de ces paramètres est terminée, nous allons désactiver dans le centre d’administration Office 365 et le Skype pour le centre d’administration de Business, et ils peuvent être gérées dans le centre d’administration Microsoft Teams nouveau.
+Lorsque la migration de ces paramètres est terminée, nous les désactivons dans le centre d’administration Office 365 et le centre d’administration Skype entreprise, et ils peuvent être gérés dans le nouveau centre d’administration Microsoft Teams.
 
 
+## <a name="edu-migration-june-july-2019"></a>Migration EDU juin-2019
+
+En juin et 2019, les clients EDU restants seront migrés de l’ancienne version d’administration (dans le centre d’administration Microsoft 365) vers le centre d’administration Teams. Consultez le centre de messages (dans le centre d’administration 365 Microsoft) pour en savoir plus sur la migration. Voici ce qui apparaît une fois que vous avez effectué la migration:
+
+|Section d’équipes dans le centre d’administration 365 Microsoft  |Nom du paramètre (niveau du client)  |Stratégie du centre d’administration Microsoft teams   |Niveau: client ou utilisateur   |
+|---------|---------|---------|---------|  
+| Messagerie   |Les propriétaires peuvent supprimer des messages envoyés |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+| Messagerie  | Les utilisateurs peuvent supprimer des messages envoyés |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+| Messagerie   | Les utilisateurs peuvent modifier les messages envoyés |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Utilisateur|
+| Messagerie  | Permettre aux utilisateurs de discuter |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+| Messagerie  | Utiliser Giphys dans les conversations | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+| Messagerie  | Évaluation du contenu Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+| Messagerie  | Utiliser mèmes dans les conversations  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+| Messagerie  | Utiliser les autocollants dans les conversations |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+
+De plus, Voici les paramètres qui sont uniquement disponibles dans le centre d’administration Microsoft teams:
+
+|Nom du paramètre | Stratégie du centre d’administration Microsoft teams | Niveau: client ou utilisateur
+|-------------|-------------------------------------|---------|
+|Autoriser les aperçus d’URL | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+|Autoriser un utilisateur à supprimer des utilisateurs d’une conversation de groupe |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+|Autoriser le lecteur immersif à afficher les messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Utilisateur |
+|Permettre aux utilisateurs de traduire des messages |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Utilisateur |
+|Confirmations de lecture | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+|Les utilisateurs peuvent envoyer des notifications de priorité | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Utilisateur |
+|Creation de messages vocaux |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Utilisateur |
+|Sur les appareils mobiles, afficher les canaux préférés au-dessus des discussions récentes |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Utilisateur |

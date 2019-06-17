@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Résumé: Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: 304887bdd6096b70c8d4d7b50f404f144f869859
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e15431cf08925920f4f7ec223d9983d3dc3e35c7
+ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306597"
+ms.lasthandoff: 06/15/2019
+ms.locfileid: "35002844"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype entreprise Server
  
@@ -169,7 +169,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
   
 11. Déconnectez-vous, puis reconnectez-vous à Windows afin de mettre à jour votre jeton de sécurité avec le nouveau groupe de sécurité Skype entreprise Server, puis rouvrez l’Assistant déploiement.
     
-12. Vérifiez la présence d’une coche verte à côté de **Préparer Active Directory** pour confirmer que vous avez réussi, comme indiqué dans la figure.
+12. Vérifiez qu’une coche verte s’affiche en regard de **Préparer Active Directory** pour confirmer la réussite, comme illustré dans la figure.
     
      ![Préparation d’Active Directory terminée.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   

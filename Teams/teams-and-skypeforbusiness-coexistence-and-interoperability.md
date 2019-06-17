@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f652023a0d896c70aab2e6c3c56725568a95c35a
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857498"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933848"
 ---
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur l’étape de définition du projet] (media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
@@ -52,6 +52,9 @@ Par défaut, les utilisateurs peuvent exécuter des équipes en même temps que 
 Dans ce mode de coexistence, appelé **îlot**, chacune des applications clientes fonctionne comme une île séparée. Skype entreprise parle de Skype entreprise et teams parle d’équipes. Les utilisateurs exécutent les deux clients à tout moment et peuvent communiquer en mode natif dans le client à partir duquel la communication a été lancée. Par exemple, il n’est pas nécessaire d’interopérabilité en mode **îlot** .
 
 Pour éviter toute confusion ou régression de Skype entreprise, les communications externes, les services vocaux RTC et les applications vocales, l’intégration d’Office et plusieurs autres intégrations continuent d’être gérées par Skype entreprise.
+
+> [!Important]
+> Le mode **îlot** permet de remettre tous les messages des utilisateurs fédérés (personnes externes à votre organisation) à Skype entreprise. Après avoir basculé vers le mode **équipes uniquement** , tous les messages provenant de l’extérieur de votre organisation sont remis à Teams.
 
 > [!Tip]
 > Le chemin d’accès recommandé pour les utilisateurs de Skype entreprise Online consiste à démarrer avec le mode par défaut des **îles** , de mettre la saturation des équipes au sein de l’organisation et de basculer rapidement vers le mode **équipes uniquement** . Les clients locaux et hybrides peuvent bénéficier du déploiement de **Skype entreprise avec** le mode de collaboration teams comme point de départ plutôt que par les îlots, et progresser de là vers **Skype entreprise avec le mode de collaboration et les réunions teams** . le cas échéant, et au mode **équipes uniquement** lorsque l’organisation est prête à adopter Teams.
