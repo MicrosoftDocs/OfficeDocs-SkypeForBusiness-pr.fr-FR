@@ -12,22 +12,22 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Exemples illustrant comment utiliser PowerShell pour définir des stratégies dans les équipes pour contrôler qui peut contenir des événements en direct dans votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
+description: Exemples d’utilisation de PowerShell pour définir des stratégies dans teams pour contrôler les utilisateurs qui peuvent contenir des événements en direct au sein de votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8858b8572a06aede2fa1de98ce9cfc14ed1745bd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204569"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012973"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
-Vous pouvez utiliser les applets de commande Windows PowerShell suivante pour configurer et affecter des paramètres de stratégie pour les événements en temps réel dans les équipes : 
+Vous pouvez utiliser les applets de commande Windows PowerShell suivantes pour définir et affecter des paramètres de stratégie pour les événements en direct dans teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
-- [Nouvelle CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [Nouveau-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 Voici quelques exemples.
@@ -35,105 +35,105 @@ Voici quelques exemples.
 ## <a name="allow-users-to-schedule-live-events"></a>Permettre aux utilisateurs de planifier des événements en direct 
 
 > [!NOTE]
-> Ces exemples sont pour les événements de démarrage rapide. Pour les événements de codage externe, il existe des étapes supplémentaires que vous devez effectuer. Pour plus d’informations, voir [permettent aux utilisateurs de planifier des événements de codage externe](set-up-for-teams-live-events.md#enable-users-to-schedule-external-encoder-events).
+> Ces exemples concernent les événements produits dans Teams. Pour les événements produits avec une application ou un appareil externe, vous devez effectuer des étapes supplémentaires. Pour plus d’informations, reportez-vous à la rubrique [permettre aux utilisateurs de planifier des événements qui ont été produits avec un appareil ou une application externe](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
-**Autoriser un utilisateur à organiser des événements en direct**
+**Permettre à un utilisateur de planifier des événements en direct**
 
-Si l’utilisateur est affecté à la stratégie globale, exécuter et vérifiez que le paramètre *AllowBroadcastScheduling* est définie sur *True*:
+Si la stratégie globale est affectée à l’utilisateur, exécutez et vérifiez que le paramètre *AllowBroadcastScheduling* est défini sur *true*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Affecter l’utilisateur à la stratégie globale, exécutez :
+Affectez ensuite à l’utilisateur la politique globale, exécutez:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 ### <a name="user-scenarios"></a>Scénarios utilisateur
-**Vous que tous les utilisateurs dans votre organisation pour pouvoir planifier des événements en direct**
+**Vous souhaitez que tous les utilisateurs de votre organisation puissent planifier des événements en direct**
 
-Si les utilisateurs sont affectés à la stratégie globale, exécutez et vérifiez *AllowBroadcastScheduling* * est défini sur *True*:
+Si les utilisateurs disposent de la stratégie globale, exécutez et vérifiez que *AllowBroadcastScheduling* * est défini sur *true*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Si les utilisateurs sont affectés à une stratégie de la stratégie globale, exécuter et vérifiez que l’option *-AllowBroadcastScheduling* est définie sur *True*:
+Si les utilisateurs se voient attribuer une stratégie autre que la stratégie globale, exécutez et vérifiez que *-AllowBroadcastScheduling* est défini sur *true*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
-**Vous souhaitez que les événements live désactivé au sein de votre organisation de la planification**
+**Vous voulez que le calendrier des événements dynamiques soit désactivé au sein de votre organisation**
 
-Désactiver la planification d’événements en direct, exécutez :
+Désactiver la planification des événements en direct, exécutez:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Affecter tous les utilisateurs de votre organisation à la stratégie globale, exécutez :
+Attribuer à tous les utilisateurs de votre organisation la stratégie globale, exécuter:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-**Vous souhaitez un grand nombre d’utilisateurs puissent planifier des événements en direct et empêcher un ensemble d’utilisateurs de leur planification**
+**Vous voulez qu’un grand nombre d’utilisateurs puisse planifier des événements en direct et empêcher un ensemble d’utilisateurs de les planifier**
 
-Exécutez et vérifiez que *AllowBroadcastScheduling* est définie sur *True*:
+Exécutez et vérifiez que *AllowBroadcastScheduling* est défini sur *true*:
 ```
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
-Puis affecter un ou plusieurs utilisateurs à la stratégie globale, exécutez :
+Puis affectez un ou des utilisateurs à la stratégie globale, exécutez:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-Créer une nouvelle stratégie qui n’autorise pas la planification d’événements en direct, exécutez :
+Créer une nouvelle stratégie qui n’autorise pas la planification d’événements en direct, exécutez:
 ```
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
-Désactiver la planification d’événements en direct, exécutez :
+Désactiver la planification des événements en direct, exécutez:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
-Puis affecter des utilisateurs à cette stratégie, exécutez :
+Assigner des utilisateurs à cette stratégie, exécutez:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
-**Pour désactiver des événements live planification pour un grand nombre d’utilisateurs en autorisant un ensemble d’utilisateurs à l’échéancier**
+**Vous voulez désactiver la planification d’événements en direct pour un grand nombre d’utilisateurs et permettre à un utilisateur de les planifier**
 
-Désactiver la planification d’événements en direct, exécutez :
+Désactiver la planification des événements en direct, exécutez:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
-Puis affecter ces utilisateurs à la stratégie globale, exécutez :
+Ensuite, attribuez ces utilisateurs à la stratégie globale, exécutez:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
-Créer une stratégie pour autoriser la planification d’événements en direct, exécutez :
+Créer une stratégie pour autoriser la planification d’événements en direct, exécutez:
 ```
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
-Activer la planification d’événements en direct, exécutez :
+Activez la planification des événements en direct, exécutez:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
-Puis affecter des utilisateurs à cette stratégie, exécutez :
+Assigner des utilisateurs à cette stratégie, exécutez:
 ```
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
-## <a name="set-who-can-join-live-events"></a>Set qui peut participer à des événements en direct
+## <a name="set-who-can-join-live-events"></a>Définir qui peut participer à des événements en direct
  
-Définir la stratégie globale pour permettre aux utilisateurs de créer des événements que tout le monde, y compris les utilisateurs anonymes, peut participer, exécutez :
+Définissez la stratégie globale pour autoriser les utilisateurs à créer des événements que tout le monde, y compris les utilisateurs anonymes, peuvent participer:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
-## <a name="set-the-recording-option-for-live-events"></a>Définissez l’option d’enregistrement des événements live
+## <a name="set-the-recording-option-for-live-events"></a>Définir l’option d’enregistrement pour les événements en direct
 > [!NOTE]
-> Ce paramètre s’applique uniquement aux événements de démarrage rapide.
+> Ce paramètre s’applique uniquement aux événements produits dans Teams.
 
-Définir la stratégie globale pour désactiver l’enregistrement des événements live :
+Définissez la stratégie globale pour désactiver l’enregistrement des événements en direct:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Définir la transcription et traduction dans les événements live (bientôt disponible)
+## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Définir la transcription et la traduction des événements en direct (bientôt disponible)
 > [!NOTE]
-> Ce paramètre s’applique uniquement aux événements de démarrage rapide. 
+> Ce paramètre s’applique uniquement aux événements produits dans Teams. 
 
-Définir la stratégie globale pour activer transcription et traduction sur des participants d’événement :
+Définissez la stratégie globale de manière à activer la transcription et la traduction pour les participants à l’événement:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

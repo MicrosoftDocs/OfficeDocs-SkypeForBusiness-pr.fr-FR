@@ -1,88 +1,118 @@
 ---
-title: Barrières à l’information dans Microsoft Teams preview
+title: Barrières relatives à l’information dans Microsoft teams preview
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/14/2019
+ms.date: 06/17/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: vikramju
-description: Découvrez les barrières à l’information et la façon dont ils affectent les équipes.
+description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993920"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013020"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Barrières à l’information dans Microsoft Teams preview
+# <a name="information-barriers-in-microsoft-teams-preview"></a>Barrières relatives à l’information dans Microsoft teams preview
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
-Barrières à l’information sont des stratégies que l’administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer les uns avec les autres. Cela est utile si, par exemple, un service est gestion des informations qui ne doivent pas être partagées avec d’autres départements ou un groupe doit être empêché de communiquer avec d’autres contacts.
+Les barrières en informations sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre eux. Cela peut s’avérer utile si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres services ou si un groupe doit être empêché ou être isolé de communiquer avec des personnes extérieures à ce groupe.
 
 > [!NOTE]
-> - Impossible de créer des groupes barrière entre les clients.
-> - Pour ajouter des utilisateurs à l’aide de robots n’est pas pris en charge dans la version 1.
-> - Version des informations sur les barrières 1 n’inclut pas la prise en charge pour SharePoint et OneDrive for Business. Nous se trouvent sur l’activation de la fonctionnalité dans SharePoint et communique dès qu’elle est disponible.
+> - Les groupes de barrière d’information ne peuvent pas être créés entre des clients.
+> - L’utilisation de robots pour ajouter des utilisateurs n’est pas prise en charge dans la version 1.
+> - Les barrières d’information version 1 ne comprennent pas la prise en charge de SharePoint et OneDrive entreprise. Nous travaillons à l’activation de la fonctionnalité dans SharePoint et communiquerons dès qu’elle sera disponible.
 
-Stratégies aisée des informations empêchent également découverte et des recherches. Cela signifie que si vous tentez de communiquer avec une personne que vous ne devez pas communiquer avec, vous ne trouverez pas que l’utilisateur dans le sélecteur de personnes.
+Les stratégies de barrage d’information empêchent également les recherches et la découverte. En d’autres termes, si vous essayez de communiquer avec une personne sans communiquer, vous ne trouverez pas cet utilisateur dans le sélecteur de personnes.
 
 ## <a name="background"></a>Arrière-plan
 
-Le pilote principal pour les barrières à l’Information provient de l’industrie des services financiers. L’autorité réglementaire du secteur financier ([FINRA]( http://www.finra.org/)) passe en revue les barrières à l’information et les conflits d’intérêt dans les entreprises membres et fournit des conseils quant à la gestion des conflits (FINRA 2241, [Obligations recherche avis réglementaires 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
+Le principal pilote pour les barrières d’information provient du secteur des services financiers. Les autorités compétentes de l’industrie bancaire ([FINRA]( http://www.finra.org)) vérifient les obstacles et conflits d’intérêt dans les entreprises membres et fournissent des instructions sur la gestion de ces conflits (FINRA 2241, [avis de réglementation 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
 
-## <a name="when-should-i-use-information-barriers"></a>Quand dois-je utiliser barrières à l’information ?
+## <a name="when-should-i-use-information-barriers"></a>Quand dois-je utiliser les barrières d’information?
 
-Vous pouvez souhaiter utiliser les barrières à l’information dans les situations suivantes :
+Vous souhaiterez peut-être utiliser les barrières d’information dans les situations suivantes:
 
-- Une équipe doit être évitée de communication ou de partage de données avec une spécifique autre équipe.
-- Une équipe ne doit pas communiquer ou partager des données avec tout le monde à l’extérieur de l’équipe.
+- Une équipe doit être empêché de communiquer et de partager des données avec une autre équipe spécifique.
+- Une équipe ne doit pas communiquer et partager des données avec une personne en dehors de l’équipe.
 
-Le Service d’évaluation d’informations barrière stratégie détermine si une communication est conforme aux stratégies d’aisée des informations. 
+Le service d’évaluation de la stratégie d’obstacle des informations détermine si une communication est conforme aux stratégies de cloisonnement des informations. 
 
-## <a name="managing-information-barrier-policies"></a>Gestion des stratégies de barrière d’informations
+## <a name="managing-information-barrier-policies"></a>Gestion des stratégies de cloisonnement des informations
 
-Stratégies d’aisée des informations sont gérés par & sécurité applets de commande PowerShell de centre de conformité (SCC). Pour plus d’informations sur l’utilisation de ces applets de commande, [Inscrivez-vous ici](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+Les stratégies de barrage des informations sont gérées avec les cmdlets PowerShell de Security & Compliance Center. Pour plus d’informations sur l’utilisation de ces applets de applet, voir [définir des stratégies pour les barrières d’information (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Avant que vous configurez ou définissez des stratégies, **vous devez activer la recherche dans l’annuaire étendue dans les équipes Microsoft**. Attendez au moins 24 heures après l’activation de la recherche de répertoire sur lesquelles porte avant de définir ou de définir des stratégies pour les barrières à l’information.
+> Avant de configurer ou de définir des stratégies, **vous devez activer la recherche dans l’annuaire d’étendues dans Microsoft teams**. Patientez au moins 24 heures après l’activation de la recherche dans l’annuaire d’étendue avant de configurer ou de définir des stratégies pour les barrières d’information.
 
-## <a name="information-barriers-administrator-role"></a>Rôle d’administrateur informations obstacles
+## <a name="information-barriers-administrator-role"></a>Rôles d’administrateur de barrières d’information
 
-Le rôle d’administrateur obstacles informations est chargé de gérer les stratégies d’aisée des informations. Pour plus d’informations sur ce rôle et de participer à l’aperçu, [Inscrivez-vous ici](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+Le rôle d’administrateur de barrières en matière d’information (la gestion de la conformité IB) est responsable de la gestion des stratégies de cloisonnement des informations. Pour plus d’informations sur ce rôle, voir [autorisations dans le centre de sécurité & conformité Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
-## <a name="when-are-information-barrier-policies-checked"></a>Lorsque des stratégies d’aisée des informations sont archivés ?
+## <a name="when-are-information-barrier-policies-checked"></a>Quels sont les stratégies de barrage des informations sélectionnées?
 
-Stratégies d’aisée des informations sont vérifiés lorsque les événements équipes suivants ont lieu :
+Les stratégies de barrage d’information sont contrôlées lorsque les événements d’équipe suivants se produisent:
 
-- **Que les membres sont ajoutés à une équipe** - lorsque vous ajoutez un utilisateur à une équipe, la stratégie de l’utilisateur doivent être évaluées contre les stratégies aisée des informations d’autres membres de l’équipe. Une fois que l’utilisateur est ajouté avec succès, l’utilisateur peut effectuer toutes les fonctions de l’équipe sans contrôles supplémentaires. Si la stratégie d’utilisateur bloque les d’être ajouté à l’équipe, l’utilisateur s’afficheront pas dans la recherche.
-- **Une nouvelle conversation est demandée** - chaque fois qu’une nouvelle conversation est demandé entre deux ou plusieurs utilisateurs, la salle de conversation est évaluée pour vous assurer qu’il n’est pas violation de toutes les stratégies barrière informations. Si la conversation ne respecte pas une stratégie aisée des informations, puis la conversation n’est pas lancée, et un message d’erreur s’affiche.
-- **Un utilisateur est invité à participer à une réunion** - lorsqu’un utilisateur est invité à participer à une réunion, la stratégie de l’utilisateur est évaluée sur les stratégies d’autres membres de l’équipe et s’il existe une violation, l’utilisateur ne pourra pas participer à la réunion et s’affiche un message d’erreur.
-- **Qu'un écran est partagé entre deux ou plusieurs utilisateurs** - chaque fois qu’un écran est partagé entre deux ou plusieurs utilisateurs, le partage d’écran doit être évalué pour vous assurer qu’il ne ne respectent pas les stratégies aisée des informations d’autres utilisateurs. Si une stratégie aisée des informations n’est pas respectée, le partage d’écran ne seront pas autorisé et un message d’erreur s’affiche.
-- **Un utilisateur passe un appel téléphonique (VOIP) dans les équipes** - chaque fois qu’un appel vocal est initié par un utilisateur à un autre utilisateur ou groupe d’utilisateurs, l’appel est évaluée pour vous assurer qu’il ne ne respectent pas les stratégies de membres de l’équipe oher aisée des informations. S’il existe une violation, l’appel vocal est bloqué.
+- Les **membres sont ajoutés à une équipe** , chaque fois que vous ajoutez un utilisateur à une équipe, la stratégie de l’utilisateur doit être évaluée par rapport aux stratégies de barrage des informations des autres membres de l’équipe. Une fois que l’utilisateur a été ajouté, l’utilisateur peut exécuter toutes les fonctions de l’équipe sans vérification supplémentaire. Si la stratégie de l’utilisateur les empêche de l’ajouter à l’équipe, l’utilisateur n’affichera pas la recherche.
+- **Une nouvelle conversation est demandée** -chaque fois qu’une nouvelle discussion est demandée entre deux utilisateurs ou plus, la discussion est évaluée pour s’assurer qu’elle ne viole aucune stratégie de barrière des informations. Si la conversation ne respecte pas une stratégie d’obstacle d’information, la conversation n’est pas lancée et un message d’erreur s’affiche.
+- **Un utilisateur est invité à rejoindre une réunion** : lorsque l’utilisateur est invité à rejoindre une réunion, la stratégie de l’utilisateur est évaluée par rapport aux politiques des autres membres de l’équipe, et en cas de violation, l’utilisateur n’est pas autorisé à rejoindre la réunion et verra un message d’erreur.
+- **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne peut pas être autorisé et un message d’erreur s’affiche.
+- **Un utilisateur place un appel téléphonique (VoIP) dans teams** : chaque fois qu’un utilisateur est lancé par un utilisateur ou à un groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations des autres membres de l’équipe. En cas de violation, l’appel audio est bloqué.
 
-## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Que se passe-t-il pour les threads de conversation existants lors de la modification d’une stratégie ?
+## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Qu’advient-il des fils de discussion existants lorsqu’une stratégie est modifiée?
 
-Lorsque l’administrateur de stratégie barrière informations modifie la stratégie ou une modification de stratégie intervient en vigueur en raison de travail d’un utilisateur modification ou une raison similaire, le Service d’évaluation d’informations barrière stratégie automatiquement recherche pour vous assurer que les membres de membres de l’équipe ne sont pas enfreindre toutes les stratégies. 
+Lorsque l’administrateur de la stratégie de protection des informations apporte des modifications à une stratégie ou qu’une modification de la stratégie est en vigueur en raison d’une modification du profil d’un utilisateur (par exemple, pour un changement de poste ou pour une raison similaire), le service d’évaluation de la stratégie d’obstacle des informations effectue une recherche automatique. les membres pour s’assurer que les membres de l’équipe n’enfreignent aucune stratégie.
 
-Si une conversation existante ou de communication entre les utilisateurs et une nouvelle stratégie est définie ou une stratégie existante est modifiée, le service évalue les communications existantes pour vous assurer qu’ils ne sont pas « corrompues » (non autorisé) : 
+S’il existe une discussion existante ou une autre communication entre les utilisateurs et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées. 
 
-- **conversation de 1:1** - si la communication entre les deux utilisateurs n’est plus autorisée (si une stratégie de blocage des communications est appliquée à un ou deux utilisateurs), plus la communication est bloquée et devient la conversation en lecture seule.
-- **Conversation de groupe** - si la communication à partir d’un utilisateur au groupe n’est plus autorisée (par exemple, si un utilisateur modifie des tâches), l’utilisateur ainsi que d’autres utilisateurs qui respecte pas la stratégie peut être supprimé de la conversation de groupe et toute communication avec le groupe ne sera pas autorisés. Les utilisateurs peuvent encore voir les anciennes conversations (qui seront en lecture seule), mais ne sera pas en mesure de voir ou de participer à toute nouvelle conversation avec le groupe. Si la stratégie empêcher la communication de nouvelle ou modifiée est appliquée à plusieurs utilisateurs, les utilisateurs qui sont affectés par la stratégie peuvent être retirées de la conversation de groupe. Ils peuvent encore voir les anciennes conversations. 
-- **Équipe** - tous les utilisateurs qui ont été supprimées du groupe sont supprimés de l’équipe et ne sera pas en mesure de voir ou de participer à des conversations existantes ou nouveau.
+- **chat 1:1** : si la communication entre les deux utilisateurs n’est plus autorisée (si une communication bloquante est appliquée à l’un ou les deux utilisateurs), une communication supplémentaire est bloquée et la conversation par messagerie instantanée devient en lecture seule.
+- **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et aucune communication avec le groupe ne sera acceptés. L’utilisateur peut toujours voir d’anciennes conversations (qui sont en lecture seule), mais ne peut pas voir ou participer à d’autres conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations. 
+- **Équipe** : les utilisateurs qui ont été supprimés du groupe sont supprimés de l’équipe et ne seront pas en mesure d’afficher ou de participer à des conversations existantes ou nouvelles.
 
-## <a name="required-licenses-and-permissions"></a>Autorisations et les licences requises
+## <a name="what-will-users-experience-if-another-user-is-blocked"></a>Que peuvent faire les utilisateurs si un autre utilisateur est bloqué?
 
-Actuellement, les fonctionnalités de barrière informations sont dans la version d’évaluation. Lorsque ces fonctionnalités sont généralement disponibles, elles allez incluses dans les abonnements, telles que :
+Pour le moment, les utilisateurs ont connaissance des éléments suivants si une stratégie de protection des informations bloque un autre utilisateur:
+
+- **Onglet contacts** : un utilisateur A pu voir certains utilisateurs bloqués sous l’onglet **personnes** . L’utilisateur peut sélectionner les utilisateurs bloqués.
+- **Onglet activité** : si un utilisateur accède à l’onglet **activité** d’un utilisateur bloqué, aucun billet ne s’affiche. (L’onglet **activité** affiche uniquement les billets de canal et il n’y a pas de canaux courants entre les deux utilisateurs.)
+- **** Organigrammes: si un utilisateur accède à un organigramme sur lequel un utilisateur bloqué apparaît, il verra l’utilisateur bloqué sur le graphique et peut cliquer sur actions dans le graphique, mais les actions (comme les appels) ne seront pas transmises.
+- **Carte contacts** : si un utilisateur participe à une conversation et est bloqué par la suite, les autres utilisateurs peuvent toujours voir la carte de personnes pour l’utilisateur bloqué. Toutes les actions figurant sur la carte (par exemple, les appels et les discussions) seront disponibles, mais pas les actions.
+- **Contacts suggérés** : dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs), les utilisateurs peuvent voir tous les contacts suggérés (y compris les utilisateurs bloqués). Toutefois, si un utilisateur clique sur le nom d’un utilisateur bloqué pour ouvrir le volet de conversation, le message est bloqué.
+- **Contacts de chat** : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts de la messagerie instantanée.
+- **Appels de contact** : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts appels et les actions telles que les appels et la messagerie apparaissent, mais lorsque l’utilisateur tente d’appeler ou d’envoyer un message à l’utilisateur bloqué, l’appel ou le message ne sera pas envoyé.
+- **Migration de Skype vers les équipes** : au cours d’une migration Skype entreprise vers Teams, tous les utilisateurs, même ceux qui ont été bloqués par des politiques de barrage d’information, sont migrés vers Teams, puis seront gérés comme décrit ci-dessus.
+
+Bientôt disponible: les utilisateurs seront en mesure de procéder comme suit si une stratégie de protection des informations bloque un autre utilisateur:
+
+- **Onglet contacts** : un utilisateur ne peut pas voir les utilisateurs bloqués sous l’onglet **personnes** .
+- **Onglet activité** : si un utilisateur accède à l’onglet **activité** d’un utilisateur bloqué, aucun billet ne s’affiche. (L’onglet **activité** affiche uniquement les billets de canal et il n’y a pas de canaux courants entre les deux utilisateurs.)
+- **** Organigrammes: si un utilisateur accède à un organigramme sur lequel un utilisateur bloqué s’affiche, l’utilisateur bloqué n’apparaît pas dans l’organigramme et un message d’erreur s’affiche à la place.
+- **Carte contacts** : si un utilisateur participe à une conversation et que l’utilisateur est bloqué par la suite, les autres utilisateurs verront s’afficher un message d’erreur au lieu de la carte contacts lorsqu’ils placent le pointeur sur le nom de l’utilisateur bloqué. Les actions figurant sur la carte (par exemple, appels et discussions) ne sont pas disponibles.
+- **Suggestions de contacts** : les utilisateurs bloqués n’apparaissent pas dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs).
+- **Contacts de chat** : un utilisateur ne peut pas voir les utilisateurs bloqués dans la liste des contacts de la messagerie instantanée.
+- **Appels** de contact: un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts appels, mais les utilisateurs bloqués seront identifiés et la seule action qu’il peut effectuer est de les supprimer.
+- **Migration de Skype vers les équipes** : au cours d’une migration Skype entreprise vers Teams, tous les utilisateurs, même ceux qui ont été bloqués par des politiques de barrage d’information, sont migrés vers Teams, puis seront gérés comme décrit ci-dessus.
+
+## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
+
+Pour l’instant, les fonctionnalités de barrage d’information sont en préversion publique. En règle générale, ces fonctionnalités sont incluses dans les abonnements, par exemple:
 
 - Microsoft 365 E5
 - Office 365 E5
-- Office 365 avancées de conformité
+- Conformité avancée Office 365
 - Microsoft 365 E5 conformité
 
-Pour plus d’informations, y compris les plans et les prix, voir [Solutions de conformité](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Pour plus d’informations, y compris les offres et les tarifs, voir [solutions de conformité](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+
+## <a name="more-information"></a>Plus d’informations
+
+- Pour en savoir plus sur les barrières d’information, voir [barrières d’information (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+
+- Pour configurer des stratégies de barrière des informations, consultez [définir des stratégies pour les barrières d’information (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies) .

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34428752"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013028"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -29,16 +29,17 @@ Lorsque vous planifiez des événements en direct teams pour organiser des réun
 Les conditions préalables suivantes sont requises pour l’utilisateur pour planifier un événement en direct Teams.
 
 Les licences qui doivent être attribuées sont les suivantes:  
-- Licence Office 365 entreprise E1, E3 ou E5, ou licence Office 365 a3 ou a5. 
-- Microsoft teams et licence Microsoft Stream.
+- Licence Office 365 entreprise E1, E3 ou E5, ou licence Office 365 a3 ou a5
+- Licence Microsoft teams
+- Licence Microsoft Stream
 
 > [!IMPORTANT]
 > L’utilisateur qui crée et planifie un événement en direct doit avoir une boîte aux lettres Exchange Online.
 
-Il est important de savoir qu’une licence Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cela dépend de la méthode de production utilisée:
+Il est important de savoir qu’une licence Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cette obligation dépend de la méthode de production utilisée:
 
-- **Pour une production rapide**  Une licence Microsoft teams doit être attribuée à l’utilisateur.
-- **Pour la production d’encodeur externe** Une licence Microsoft Stream doit être attribuée à l’utilisateur.
+- **Pour les événements produits dans teams**  Une licence d’équipe doit être attribuée à l’utilisateur.
+- **Pour les événements produits avec une application ou un appareil externe** Une licence de flux doit être attribuée à l’utilisateur.
 
 Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -47,14 +48,14 @@ L’utilisateur doit avoir:
 - Partage vidéo activé dans les réunions Teams (*paramètre TeamsMeetingPolicy-AllowIPVideo = true*).
 - Le partage d’écran est activé dans les réunions Teams (*paramètre TeamsMeetingPolicy-ScreenSharingMode = EntireScreen*).
 - Planification d’événements en direct dans équipes activées (*paramètre TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling = true*).
-- Autorisations de création d’événements en direct dans Microsoft Stream (pour une production d’encodeur externe).
+- Autorisations de création d’événements en direct dans le flux (pour la production d’applications ou de périphériques externes).
 
 > [!IMPORTANT]
 > Les utilisateurs d’Office 365, fédérés et anonymes ne peuvent pas être invités en tant que producteurs ou présentateurs dans des événements en direct Teams. Les utilisateurs d’Office 365 invités et fédérés peuvent uniquement surveiller les événements dynamiques de manière anonyme. 
  
 ## <a name="who-can-watch-live-events"></a>Qui peut regarder des événements en direct?
 
-|**Visibilité des participants**       |**Démarrage rapide**  |**Codeur externe**  |
+|**Visibilité des participants**       |**Production teams**  |**Production d’applications ou de périphériques externes**  |
 |------------------------------|-----------------|----------------------|
 |Public (utilisateurs anonymes)      |  Oui            |  Non                  |
 |Utilisateurs invités                   |  No<sup>1</sup> |  Non                  |
@@ -68,7 +69,7 @@ L’utilisateur doit avoir:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct teams et diffusion de réunion Skype
 Le tableau suivant met en évidence les fonctionnalités principales et les fonctionnalités proposées dans les événements en direct et la façon dont ils diffèrent de la diffusion de réunion Skype. 
 
-|**Faculté**   |**Diffusion de réunion Skype** |**Événements produits dans Microsoft teams** |**Événements produits dans une application ou un appareil externes** |
+|**Faculté**   |**Diffusion de réunion Skype** |**Événements produits dans teams** |**Événements produits dans une application ou un appareil externes** |
 |---------|---------|---------|---------|
 |Taille maximale du public |participants 10 000 |10 000 participants * |10 000 participants * |
 |Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
@@ -87,7 +88,7 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Présenter un écran |X |&#x2714; (Teams) |S/O |
 |Présenter une présentation PowerPoint (de partage PPT) |&#x2714; |X (atténué via le partage d’écran) |S/O |
 |Enregistrement d’une réunion basée sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
-|Publiez automatiquement l’enregistrement dans Microsoft Stream |X |X |&#x2714; |
+|Publier automatiquement l’enregistrement dans le flux |X |X |&#x2714; |
 |Légendes et traductions en temps réel |&#x2714; |&#x2714; (bientôt disponible) |X |
 |Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; (bientôt disponible) |&#x2714; |
 |Contrôles de participants DVR (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
@@ -111,7 +112,7 @@ Vous pouvez utiliser des événements en direct teams dans plusieurs régions da
 - Go local Canada
 
 **Exclusions et considérations**
-- Rendez-vous **locales:** Le Royaume-Uni, l’Inde, l’Australie, le Japon et les autres régions de Microsoft Teams ne sont pas pris en charge pour le moment.
+- Rendez-vous **locales:** Le Royaume-Uni, l’Inde, l’Australie, le Japon et d’autres équipes ne sont pas pris en charge pour le moment.
 - **Chine:** Les membres de l’équipe et les participants ne seront pas en mesure d’utiliser les événements teams Live car Azure CDN n’est pas accessible en Chine. Pour contourner ce problème, vous pouvez utiliser une connexion VPN d’entreprise, qui obtient le client connecté au CDN via le réseau d’entreprise du client.
 
 ## <a name="next-steps"></a>Étapes suivantes

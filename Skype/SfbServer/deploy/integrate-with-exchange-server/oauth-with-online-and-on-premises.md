@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: La configuration de l’authentification OAuth entre Exchange sur site et Skype entreprise Online permet d’activer les fonctionnalités d’intégration de Skype entreprise et Exchange décrites dans la rubrique prise en charge des fonctionnalités.
-ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: ab778279996bd9439eaad9f13b373b206abf2662
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933840"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012980"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurer l’intégration et le protocole OAuth entre Skype entreprise Online et Exchange Server 
 
@@ -126,13 +126,23 @@ Utilisez ensuite Windows PowerShell pour télécharger le certificat d’autori
 
 4. Une fois que vous avez lancé le script, une boîte de dialogue d’informations d’identification s’affiche. Entrez les données d’identification du compte d’administrateur client de votre organisation Microsoft Online Azure AD. Après avoir exécuté le script, laissez la session Windows PowerShell pour Azure AD ouverte. Vous l’utiliserez pour exécuter un script PowerShell à l’étape suivante.
 
+### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Étape 7: vérifier que le certificat a été téléchargé pour le principal du service Skype entreprise
+1. Dans PowerShell ouvert et authentifié dans Azure Active Directory, exécutez la commande suivante:
+```
+Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+```
+2. Appuyez sur entrée lorsque vous êtes invité à ReturnKeyValues
+3. Confirmez que vous voyez une clé qui correspond à la date de début et aux données de fin correspondant aux dates de début et de fin de votre certificat OAuth Exchange.
+
 ### <a name="verify-your-success"></a>Vérifiez que tout fonctionne correctement
 
 Vérifiez que la configuration est correcte en vérifiant que certaines fonctionnalités fonctionnent correctement. 
 
-1. L’historique des conversations pour les clients mobiles est visible dans le dossier historique des conversations Outlook.
+1. Assurez-vous que les utilisateurs de Skype entreprise avec le service de messagerie vocale Cloud, au sein d’une organisation qui dispose d’une configuration Exchange Server hybride, peuvent modifier les messages d’accueil de la boîte vocale.
 
-2. Vérifiez que les messages archivés sont déposés dans la boîte aux lettres locale de l’utilisateur dans le dossier purges à l’aide de [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
+2. L’historique des conversations pour les clients mobiles est visible dans le dossier historique des conversations Outlook.
+
+3. Vérifiez que les messages archivés sont déposés dans la boîte aux lettres locale de l’utilisateur dans le dossier purges à l’aide de [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
 Vous pouvez également examiner votre trafic. Le trafic d’une connexion OAuth est réellement distinctif (et ne ressemble pas à l’authentification de base), en particulier par rapport aux domaines, où vous allez commencer à voir le trafic de l’émetteur qui ressemble à ce qui suit: 00000004-0000-0ff1-CE00-000000000000 @ (parfois avec un/avant). le signe @), dans les jetons transmis. Aucun nom d’utilisateur ou mot de passe ne s’affiche, qui est le point de OAuth. Néanmoins, vous verrez l’émetteur’Office', dans le cas où «4» est Skype entreprise, ainsi que le domaine de votre abonnement.
 
