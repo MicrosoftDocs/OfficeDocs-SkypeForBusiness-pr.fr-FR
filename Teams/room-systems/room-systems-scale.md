@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Consultez cette rubrique pour en savoir plus sur le déploiement de salles de Microsoft teams à des déploiements à grande échelle.
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305442"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062370"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de System Center Configuration Manager
 
@@ -129,6 +129,9 @@ Pour plus d’informations, voir [gérer les images de démarrage à l’aide de
 > Vous pouvez créer un média USB amorçable pour lancer des déploiements de séquence de tâches de Configuration Manager pour les environnements n’ayant pas de prise en charge PXE. Le média amorçable contient uniquement l’image de démarrage, les commandes de prédémarrage facultatives et les fichiers requis, ainsi que les fichiers binaires de configuration pour la prise en charge du démarrage dans Windows PE et la connexion à Configuration Manager pour le reste du processus de déploiement. Pour plus d’informations, reportez-vous [à la rubrique Création d’un média amorçable](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Créer des packages de Configuration Manager
+
+> [!IMPORTANT]
+> La version de système d’exploitation requise pour chaque version du programme d’installation de SRS change avec chaque version MSI. Pour déterminer la meilleure version du système d’exploitation pour un fichier MSI donné, exécutez le script de configuration de la console une seule fois. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams à l’aide de System Center Configuration Manager](room-systems-scale.md).
 
 Configuration Manager nécessite un certain nombre de packages pour déployer et configurer les unités de salles de Microsoft Teams.
 
@@ -622,7 +625,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
    9. **Installer le certificat racine**: cette étape distribue le certificat racine pour les appareils non joints au domaine et est par conséquent facultatif et désactivé par défaut.
       -   Activez cette étape si vous avez besoin de déployer un certificat racine vers les unités de salles de Microsoft Teams.
-      -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le package SRS (SRS) 64 et la redirection de votre système de fichiers sont sélectionnés.
+      -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **package SRS (SRS)** 64 et la redirection de votre **système de fichiers** sont sélectionnés.
 
    10. **Installer et configurer l’agent de surveillance**: cette étape installe la version 64 bits de l’agent de suivi Microsoft Azure et configure l’agent pour la connexion à votre espace de travail d’analyse du journal.
        -   Cette étape est désactivée par défaut. Activez cette étape uniquement si vous envisagez d’utiliser l’agent de surveillance pour contrôler l’état de vos unités de salle Microsoft Teams.

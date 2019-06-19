@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c9a4a1c035afda7941f82018cc074293f338832d
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493915"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062354"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -47,7 +47,7 @@ Par exemple, supposons qu’un utilisateur se trouve dans le même bâtiment ou 
 
 ![Affiche le signalement et le flux multimédia avec une dérivation multimédia](media/direct-routing-media-bypass-2.png)
 
-La fonction de contournement de média utilise des protocoles appelés interactifs établissant une connexion interactives (ICE) Ces protocoles permettent le routage direct pour utiliser le chemin multimédia le plus direct pour une qualité optimale. ICE et ICE Lite sont des normes WebRTC. Pour plus d’informations sur ces protocoles, voir RFC 5245.
+La fonction de contournement de média utilise des protocoles appelés interactifs (ICE) sur le client teams et ICE Lite sur l’SBC. Ces protocoles permettent le routage direct pour utiliser le chemin multimédia le plus direct pour une qualité optimale. ICE et ICE Lite sont des normes WebRTC. Pour plus d’informations sur ces protocoles, voir RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Planification de flux d’appels et de pare-feu

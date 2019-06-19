@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/18/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,198 +12,202 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d832081bcd610e5d367c5d3d62ffdfe13650e238
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245873"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062426"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
-Effet 2019, octobre 1, Microsoft StaffHub sera être retirée. Nous créons StaffHub fonctionnalités dans Microsoft Teams. Aujourd'hui, les équipes inclut l’application des équipes de gestion de la planification et des fonctionnalités supplémentaires seront intégrées au fil du temps.
+À compter du 1er octobre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps.
 
-Ces modifications font partie des efforts pour permettre aux employés avec Microsoft 365 que nous. Avec des capacités pour les travailleurs Firstline dans des équipes de chaque employé de votre organisation seront en mesure d’utiliser des équipes pour simplifier leur journée de travail, de collaborer avec vos collègues et accéder aux informations et des connaissances pour leur permettre d’effectuer leur travail meilleures.
+Ces modifications font partie de nos efforts continus pour permettre à tous les employés possédant Microsoft 365. Avec les fonctionnalités de terrain travailleurs désormais disponibles en équipe, tous les employés de votre organisation pourront utiliser teams pour rationaliser leur journée de travail, collaborer avec des collègues et accéder à des informations et à l’expertise pour leur permettre de travailler efficacement.
 
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-### <a name="about-staffhub-retirement"></a>À propos de retraite StaffHub
+### <a name="about-staffhub-retirement"></a>À propos du retrait de StaffHub
 
-#### <a name="when-will-staffhub-be-retired"></a>Lorsque StaffHub être retirée ?
+#### <a name="when-will-staffhub-be-retired"></a>Quand StaffHub sera-t-il supprimé?
 
-À partir du milieu de 2019 avril, Microsoft StaffHub ne sera plus disponible pour les nouveaux clients et vous ne sera plus en mesure d’accéder à l’application depuis le lancement d’application Office 365. Les utilisateurs en cours sera toujours en mesure d’utiliser le service jusqu'à octobre 1, 2019, fonctionnalités toutefois ne supplémentaires seront disponibles.
+À compter du milieu du 2019 avril, Microsoft StaffHub ne sera plus disponible pour les nouveaux clients et vous ne pourrez plus accéder à l’application à partir du lanceur d’applications Office 365 dans les clients existants. Les utilisateurs actuels pourront toujours utiliser le service jusqu’au 1er octobre 2019, mais aucune nouvelle fonctionnalité n’est disponible.
 
-#### <a name="what-will-happen-once-staffhub-is-retired"></a>Que se passe-t-il lorsque StaffHub est obsolète ?
+#### <a name="what-will-happen-once-staffhub-is-retired"></a>Que se passe-t-il une fois que StaffHub est supprimé?
 
-Microsoft StaffHub cessera de fonctionner pour tous les utilisateurs sur le 1 octobre 2019. Toute personne qui essaie d’ouvrir l’application s’affichera un message pronom pour télécharger les équipes. Si l’utilisateur possède une licence active qui inclut des équipes et l’organisation a effectué les étapes appropriées pour activer les équipes, leurs données et les fonctionnalités principales de StaffHub seront disponibles pour les lors de leur transition vers les équipes.
+Microsoft StaffHub cesse de fonctionner pour tous les utilisateurs du 1er octobre 2019. Tout utilisateur qui tente d’ouvrir l’application verra s’afficher un message lui indiquant de télécharger Teams. Si l’utilisateur dispose d’une licence active qui inclut les équipes et que l’organisation a suivi les étapes appropriées pour permettre aux équipes, les données et les fonctionnalités essentielles de StaffHub lui sont accessibles en fonction de leur transition vers Teams.
 
-Entre avril 2019 et octobre 2019, StaffHub d’utilisateurs recevront les encourager les notifications dans l’application à utiliser des équipes.
+Entre le 2019 avril et le 2019 octobre, les utilisateurs de StaffHub peuvent recevoir des notifications dans l’application les encourageant à utiliser Teams.
 
-#### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Les équipes offre toutes les fonctionnalités actuellement proposées dans StaffHub ?
+#### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Les équipes disposeront-elles de toutes les fonctionnalités actuellement proposées dans StaffHub?
 
-Dans 2019 janvier, équipes ont commencé à proposer des équipes qui a été précédemment disponibles dans Microsoft StaffHub. Cette fonctionnalité permet aux gestionnaires planifier et distribuer des planifications de travail d’équipe et la possibilité de passer en revue son calendrier et de modifier la planification des demandes à partir de leurs appareils mobiles de membres de l’équipe. Pour plus d’informations, voir [gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md).
+En janvier 2019, les équipes ont commencé à proposer des Shifts auparavant disponibles dans Microsoft StaffHub. Cette fonctionnalité permet aux responsables de planifier et de distribuer des plannings de quarts, ainsi que des membres de l’équipe, de revoir leur planning et de définir des demandes de changement d’Agenda depuis leurs appareils mobiles. Pour en savoir plus, voir [gérer l’application Shifts pour votre organisation dans teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-Nous sommes engagés à proposer une expérience utilisateur de qualité et les fonctionnalités uniques de StaffHub à équipes. Pour plus d’informations sur lequel fonctionnalités seront disponibles dans les équipes, voir [fonctionnalités de travail Firstline bientôt disponible pour les équipes](firstline-worker-features-coming-to-teams.md).
+Nous nous efforçons d’offrir une meilleure utilisation de l’utilisateur et de proposer les fonctionnalités uniques de StaffHub aux équipes. Pour plus d’informations sur les fonctionnalités qui seront disponibles dans Teams, consultez la rubrique [fonctionnalités de travailleur terrain](firstline-worker-features-coming-to-teams.md)bientôt disponibles dans Teams.
 
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>Que dois-je faire pour préparer pour que cette modification ?
+#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>De quoi ai-je besoin pour préparer ce changement?
 
-Pour savoir comment préparer pour la transition à partir de StaffHub équipes dans les équipes, accédez à [préparer pour déplacer vos équipes StaffHub équipes](move-staffhub-teams-to-shifts-in-teams.md#prepare).
+Pour savoir comment préparer le passage de StaffHub aux équipes, retrouvez préparer le déplacement de [vos équipes StaffHub](move-staffhub-teams-to-shifts-in-teams.md#prepare).
 
-#### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Pourquoi les utilisateurs de mon organisation ne peut pas accéder leur équipe StaffHub d’équipes dans les équipes ?
+#### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Pourquoi les utilisateurs de mon organisation peuvent-ils accéder à leur équipe StaffHub à partir de Shifts dans Microsoft teams?
 
-Les équipes qui ont été créées avec StaffHub uniquement peuvent être visualisés et gérés dans StaffHub. Après un StaffHub équipe est déplacé vers les équipes, les utilisateurs seront en mesure d’afficher leurs prévisions de déplacements. Nous vous invitons à communiquer ce changement au début et à vous familiariser les utilisateurs avec des équipes.
+Les équipes créées avec StaffHub peuvent seulement être affichées et gérées dans StaffHub. Après le déplacement d’une équipe StaffHub vers Teams, les utilisateurs peuvent consulter leur planning par équipes. Nous vous encourageons à communiquer ce changement en avance et à familiariser les utilisateurs existants avec Teams.
 
-### <a name="about-shifts"></a>À propos des équipes
+### <a name="about-shifts"></a>À propos des Shifts
 
-#### <a name="what-is-shifts"></a>Nouveautés des équipes
+#### <a name="what-is-shifts"></a>Qu’est-ce qu’une équipe?
 
-L’application d’équipes dans les équipes est un outil de gestion de planification qui conserve les travailleurs Firstline connecté et synchronisation. Responsables de créer, mettre à jour et gérer les planifications de travail d’équipe pour les équipes et membres de l’équipe peuvent afficher leurs planifications, voir qui d’autre est prévue pour le jour, demande d’échange ou de proposer une équipe et demandes de congé, à partir de leurs appareils mobiles.  
+Dans Microsoft Teams, l’application équipes est un outil de gestion des calendriers qui permet aux utilisateurs de terrain de se connecter et de se synchroniser. Les responsables peuvent créer, mettre à jour et gérer les plannings pour les équipes, et les membres de l’équipe peuvent afficher leurs plannings, voir qui est programmé pour la journée, demander à échanger ou proposer un Shift, et demander un congé, le tout sur les appareils mobiles.  
 
-#### <a name="which-plans-is-shifts-available-in"></a>Qui planifie est disponible dans les équipes ?
+#### <a name="which-plans-is-shifts-available-in"></a>Quelles offres sont disponibles dans?
 
-Déplacements est disponible sans coût supplémentaire des plans de composant d’équipes dans les éléments suivants :
+Le changement est disponible dans le cadre d’équipes dans les offres suivantes sans frais supplémentaires:
 
 - Office 365 Business Premium 
-- Office 365 entreprise F1, E5 E1, E3,
+- Office 365 entreprise F1, E1, E3, E5
 - Office 365 pour l’éducation
 - Microsoft 365 F1, E1, E3, E5
 
-Pour plus d’informations, voir [Disponibilité d’équipes](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Pour plus d’informations, voir [disponibilité des équipes](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
 
-#### <a name="how-do-i-get-shifts"></a>Comment obtenir les équipes ? 
+#### <a name="how-do-i-get-shifts"></a>Comment obtenir le changement de poste? 
 
-Si vous êtes déjà sur un plan incluant des équipes, vous pouvez démarrer à l’aide des équipes aujourd'hui dans le cadre d’équipes. Consultez la rubrique [mise en route d’équipes](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
+Si vous avez déjà un plan qui comprend des équipes, vous pouvez commencer à utiliser les Shifts dès aujourd’hui dans le cadre de teams. Pour en savoir plus, consultez la rubrique mise [en route des équipes](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
-#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Les appareils ou les plateformes est disponible sur équipes ?
+#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Sur quels appareils ou plates-formes les équipes sont-elles disponibles?
 
-Déplacements est disponible sur les équipes client web, client de bureau équipes et les clients mobiles équipes (iOS et Android).
+Le changement est disponible dans le client Microsoft Teams, le client de bureau teams et les clients mobiles Teams (iOS et Android).
  
-#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Y a-t-il des différences entre les applications web et de bureau de déplacements et les applications mobile (iOS et Android) ?
+#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Existe-t-il des différences entre les équipes de bureau et les applications Web et les applications mobiles (iOS et Android)?
 
-Pour les responsables, les applications web et de bureau optimisées pour créer des équipes, ajouter des membres, créer et publier des planifications et partager du contenu avec l’équipe. Responsables généralement utilisent l’application mobile pour approuver les demandes, envoyer des messages rapides vers l’équipe, appeler un membre d’équipe et collaborer en déplacement. 
+Pour les responsables, les applications de bureau et Web sont optimisées pour créer des équipes, ajouter des membres, créer et publier des plannings, et partager du contenu avec l’équipe. En règle générale, les responsables utilisent l’application mobile pour approuver des demandes, envoyer des messages rapides à l’équipe, appeler un membre d’équipe et collaborer en déplacement. 
 
-Membres d’équipe, l’application mobile est optimisée pour afficher son calendrier, voir qui ils collaborent avec un jour, d’horloge et se déconnecter, définir la disponibilité, durée hors de la demande, d’échange ou proposent des équipes et ouvrir des équipes. Il existe des différences dans les utilisateurs peuvent faire dans les applications web et de bureau et les applications mobiles. Nous sommes en train de parité des fonctionnalités.
+Pour les membres de l’équipe, l’application mobile est optimisée pour afficher leur planning, voir les personnes avec lesquelles elles travaillent le jour, l’horloge et les dépassements d’ouverture et d’inversion. Il existe des différences dans ce que les utilisateurs peuvent faire au sein des applications de bureau et Web par rapport aux applications mobiles. Nous travaillons actuellement sur la parité des fonctionnalités.
 
-#### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Y a-t-il des différences entre l’application iOS équipes et l’application d’Android ?
+#### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Y a-t-il des différences entre l’application iOS Shift et l’application Android?
 
-Fonctionnalité principale est identique entre les équipes iOS et Android applications. Il existe des différences de l’interface utilisateur mineures entre les deux applications à aligner sur les modèles de conception recommandé.
+Le fonctionnement principal est identique entre les équipes iOS et Android. Il existe des différences mineures d’interface utilisateur entre les deux applications à aligner sur les modèles de conception recommandés.
 
-#### <a name="what-browsers-does-shifts-work-on"></a>Sur les navigateurs équipes fonctionne-t-il ?
+#### <a name="what-browsers-does-shifts-work-on"></a>Quels sont les navigateurs sur lesquels fonctionne le changement?
 
-Équipes fonctionne sur tous les navigateurs qui prend en charge les équipes qui inclut les dernières versions de Mozilla Firefox, Google Chrome, Microsoft Edge et Internet Explorer. Pour plus d’informations, voir [obtenir des clients pour les équipes](../../get-clients.md).
+Shifts fonctionne sur tous les navigateurs pris en charge par Teams, qui inclut les versions les plus récentes de Microsoft Edge, Internet Explorer, Google Chrome et Mozilla Firefox. Pour plus d’informations, voir [obtenir des clients pour teams](../../get-clients.md).
 
-#### <a name="what-languages-does-shifts-support"></a>Quelles sont les langues prises en charge par équipes ?
+#### <a name="what-languages-does-shifts-support"></a>Quelles sont les langues prises en charge par le changement?
 
-Équipes est disponible dans les langues suivantes : chinois simplifié, français, espagnol, russe, japonais, Français, portugais-portugais (Brésil), allemand, coréen, italien, chinois traditionnel, néerlandais, turc, suédois, danois et norvégien. Nous envisageons ajouter la prise en charge de langues supplémentaires à l’avenir.  
+Le changement est disponible dans les langues suivantes: chinois (simplifié), anglais (États-Unis), espagnol, russe, japonais, néerlandais, portugais (Brésil), chinois (traditionnel), coréen, danois, espagnol, suédois, néerlandais et norvégien. Nous prévoyons d’ajouter la prise en charge de langues supplémentaires à l’avenir.  
 
-#### <a name="where-is-shifts-data-stored"></a>Où sont stockées les données de déplacements ?
+#### <a name="where-is-shifts-data-stored"></a>Où les données sont-elles stockées?
 
-Données de déplacements sont stockées dans Azure dans les centres de données en Amérique du Nord et en Europe. Contenu SharePoint tire parti des groupes d’Office 365 et utilise le même stockage et prise en charge.
+Les données de décalage sont stockées dans Azure dans les centres de données en Amérique du Nord et en Europe de l’Ouest. Le contenu SharePoint exploite les groupes Office 365 et utilise le même stockage et la même prise en charge.
 
-Pour plus d’informations, voir [data de l’emplacement d’équipes](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
+Pour plus d’informations, voir [emplacement des données de décalage](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
-#### <a name="where-can-i-learn-more-about-shifts"></a>Où puis-je obtenir plus d’informations sur les équipes ?
+#### <a name="where-can-i-learn-more-about-shifts"></a>Où puis-je en savoir plus sur les Shifts?
 
-Pour plus d’informations, consultez [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software).
+Pour plus d’informations sur le [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)produit, voir.
 
-Pour obtenir des conseils d’administration, consultez la rubrique [gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md)
+Pour obtenir des instructions d’administration, voir [gérer l’application Shifts pour votre organisation dans teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-Pour obtenir de l’utilisateur final, accédez à [Équipes aide pour les travailleurs Firstline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
+Pour obtenir de l’aide pour les utilisateurs finaux, accédez à [aide sur les équipes pour terrain travailleurs](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
-### <a name="switch-from-staffhub-to-shifts-in-teams"></a>Passer de StaffHub à des équipes de travail en équipe
+### <a name="switch-from-staffhub-to-shifts-in-teams"></a>Basculer entre StaffHub et les équipes dans teams
 
-#### <a name="what-licenses-do-i-need-for-teams"></a>De quelles licences ai-je besoin pour les équipes ?
+#### <a name="what-licenses-do-i-need-for-teams"></a>De quelles licences ai-je besoin pour teams?
 
-Chaque utilisateur doit disposer d’une licence Microsoft 365 ou Office 365 active à partir d’un [plan éligible](#which-plans-is-shifts-available-in) et doit être attribué une licence d’équipes. Pour plus d’informations, voir [déplacer vos équipes StaffHub équipes de travail en équipe](move-staffhub-teams-to-shifts-in-teams.md).
+Chaque utilisateur doit avoir une licence Microsoft 365 ou Office 365 active d’un [plan éligible](#which-plans-is-shifts-available-in) et être disposant d’une licence d’équipe. Pour plus d’informations, voir [déplacer vos équipes StaffHub vers](move-staffhub-teams-to-shifts-in-teams.md)des équipes.
 
-#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Comment déplacer des équipes de StaffHub de mon organisation aux équipes ?
+#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Comment puis-je déplacer les équipes StaffHub de mon organisation vers teams?
 
-Pour obtenir des instructions détaillées sur la façon d’effectuer la transition à partir de StaffHub aux équipes, voir [déplacer vos équipes Microsoft StaffHub pour les déplacements dans les équipes](move-staffhub-teams-to-shifts-in-teams.md).
+Pour obtenir des instructions détaillées sur le passage d’StaffHub à Teams, voir [déplacer vos équipes Microsoft StaffHub vers des](move-staffhub-teams-to-shifts-in-teams.md)équipes.
 
-#### <a name="how-do-i-enable-teams-in-my-organization"></a>Comment activer des équipes au sein de mon organisation ?
+#### <a name="how-do-i-enable-teams-in-my-organization"></a>Comment puis-je activer teams au sein de mon organisation?
 
-Par défaut, les équipes est activée pour toutes les organisations. Vous affectez des équipes licences aux utilisateurs pour contrôler l’accès aux équipes individuel. Pour plus d’informations, voir [Activer les équipes de votre organisation](../../Office-365-set-up.md) et de [gérer l’accès utilisateur aux équipes](../../user-access.md).
+Par défaut, l’option équipes est activée pour toutes les organisations. Vous attribuez des licences teams aux utilisateurs pour contrôler l’accès individuel aux équipes. Pour plus d’informations, reportez-vous à la rubrique [activer les équipes au sein de votre organisation](../../Office-365-set-up.md) et [gérer l’accès des utilisateurs aux équipes](../../user-access.md).
 
-#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>Que se passe-t-il si j’ai actuellement Skype pour les entreprises activé dans mon organisation, mais pas les équipes ?
+#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>Que se passe-t-il si Skype entreprise est actuellement activé dans mon organisation mais pas dans teams?
 
-Les équipes prend en charge la coexistence avec Skype pour les entreprises. Pour plus d’informations, voir [comprendre les équipes et Skype pour l’interopérabilité et coexistence d’entreprise](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) et [Migration et l’interopérabilité pour les organisations à l’aide des équipes avec Skype pour les entreprises](../../migration-interop-guidance-for-teams-with-skype.md).
+Teams prend en charge la coexistence avec Skype entreprise. Pour plus d’informations, reportez-vous à la rubrique [comprendre les équipes et la coexistence de Skype entreprise,](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) ainsi que les recommandations en matière d’interopérabilité et [de migration et d’interopérabilité pour les organisations qui utilisent des équipes dans Skype entreprise](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Chaque utilisateur a-t-il besoin d’avoir un compte Office 365 ou un compte Azure Active Directory (AD Azure) ?
+#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Est-ce que chaque utilisateur doit avoir un compte 365 Office ou un compte Azure Active Directory (Azure AD)?
 
-Oui, chaque responsable et membre d’équipe à l’aide des équipes et équipes au sein des équipes doit posséder un compte Office 365 (Azure AD) et doit être attribué une licence valide.
+Oui, tous les responsables et membres d’une équipe qui utilisent des équipes et des équipes doivent disposer d’un compte Office 365 (Azure AD) et disposer d’une licence valide.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>Dans StaffHub, je peux ajouter un préfixe spécial à tous les groupes de 365 Office qui ont été créés par les équipes StaffHub. Puis-je effectuer la même dans les équipes ?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>Dans StaffHub, j’aurais pu ajouter un préfixe spécial à tous les groupes Office 365 qui ont été créés par StaffHub Teams. Est-ce que je peux faire la même chose dans teams?
 
-Vous n’aurez la même fonctionnalité lorsque vous déplacez de StaffHub aux équipes. Si vous avez besoin d’appliquer la cohérence des noms à tous vos groupes d’Office 365, vous pouvez utiliser la [stratégie de noms de groupes d’Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+Vous ne disposez pas de la même fonctionnalité lorsque vous passez de StaffHub à Teams. Si vous devez appliquer la cohérence de nom à tous vos groupes 365 Office, vous pouvez utiliser la [stratégie d’attribution de noms de groupes office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
-#### <a name="will-team-names-be-the-same-in-teams"></a>Noms d’équipe sera la même dans les équipes ?
+#### <a name="will-team-names-be-the-same-in-teams"></a>Les noms d’équipe seront-ils les mêmes dans teams?
 
-Il est possible que le nom d’une équipe sera différent. Les noms d’équipe dans les équipes utilisent le nom de groupe dans Office 365. Si le nom de l’équipe StaffHub est différent du nom du groupe correspondant Office 365, vous verrez un nom différent lorsque vous basculez les équipes.
+Le nom d’une équipe est peut-être différent. Le nom des équipes dans teams utilise le nom du groupe Office 365. Si le nom de l’équipe StaffHub est différent du nom du groupe Office 365 correspondant, vous verrez un autre nom lorsque vous basculerez vers Teams.
 
-#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>Que se passe-t-il à l’appartenance de l’équipe lorsqu’une équipe StaffHub est déplacée vers les équipes ?
+#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>Qu’advient-il de l’appartenance à une équipe StaffHub à une équipe?
 
-L’appartenance de l’équipe est conservé lorsqu’une équipe StaffHub est déplacée vers les équipes. Numéros de téléphone des membres de l’équipe ne s’affiche dans les équipes. Si le numéro de téléphone StaffHub correspond au numéro de téléphone dans Azure AD, il sera stocké dans Azure AD pour ce compte d’utilisateur. 
+L’appartenance aux équipes est maintenue quand une équipe StaffHub est déplacée vers Teams. Les numéros de téléphone des membres de l’équipe ne s’afficheront pas par équipes. Si le numéro de téléphone StaffHub correspond au numéro de téléphone d’Azure AD, il sera stocké dans Azure AD pour ce compte d’utilisateur. 
 
-Nous vous invitons à consulter vos règles de l’équipe existante sur StaffHub et si possible aligner les numéros de téléphone pour Azure pertinent identités AD.
+Nous vous encourageons à consulter vos listes d’équipe existantes sur StaffHub et dans quel cas les numéros de téléphone peuvent être alignés sur les identités Azure AD pertinentes.
  
-#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>Que se passe-t-il pour les membres de l’équipe StaffHub qui ne sont pas mis en service ou dont l’état est inactif ?
+#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>Qu’advient-il des membres de l’équipe StaffHub qui ne sont pas approvisionnés ou dont le statut est inactif?
 
-Planification de l’utilisateur est déplacée vers des équipes, toutefois, l’utilisateur n’est pas un membre de l’équipe ou un groupe d’Office 365.
+Le planning de l’utilisateur est déplacé vers les décalages, mais il n’est pas membre de l’équipe ou d’un groupe Office 365.
 
-Pour les comptes inactifs qui ne sont pas liés à un compte d’utilisateur AD Azure, un responsable peut faire en sorte l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Office 365 valide dans la page de membres de l’équipe StaffHub afin que l’utilisateur est liée à Azure AD correct de compte dans le organisation infrarouge.
+Pour les comptes inactifs qui ne sont pas associés à un compte d’utilisateur Azure AD, un responsable peut s’assurer que l’utilisateur est ajouté en tant que membre de l’équipe en ajoutant une adresse de messagerie Office 365 valide dans la page des membres de l’équipe StaffHub de sorte que l’utilisateur soit lié au compte Azure AD approprié dans le Organisation IR.
 
-Une autre solution consiste pour les administrateurs pour exécuter l' **Add-StaffHubMember** et sauvegarder des applets de commande **Remove-StaffHubUser** pour supprimer un compte non mis en service d’une équipe StaffHub et ajouter l’utilisateur à l’équipe avec leur UPN.
+Une autre option consiste à ce que les administrateurs exécutent les applets de commande **Add-StaffHubMember** et **Remove-StaffHubUser** pour supprimer un compte non approvisionné d’une équipe StaffHub et le rajouter à l’équipe avec leur nom d’utilisateur principal.
 
-Nous vous recommandons de vérifier que tous les utilisateurs de votre organisation sont abordées avec une licence appropriée afin de réduire l’interruption et l’accès aux services.
+Nous vous recommandons de veiller à ce que tous les utilisateurs de votre organisation disposent d’une licence appropriée pour limiter les perturbations et l’accès aux services.
  
-#### <a name="what-happens-to-chats-in-staffhub"></a>Que se passe-t-il à des conversations dans StaffHub ?
+#### <a name="what-happens-to-chats-in-staffhub"></a>Qu’advient-il des conversations dans StaffHub?
 
-Pour vous aider à migrer les utilisateurs, nous planifier la migration de l’historique des conversations de données dans StaffHub aux équipes. La quantité de l’historique des conversations qui seront disponibles dans les équipes dépend de combien de temps de la configuration de votre organisation pour la transition. Nous vous recommandons de ne plus tard le 30 juin 2019 pour fournir suffisamment de temps pour une transition de 90 jours de données par le 1 octobre 2019 rien.
+Pour aider les utilisateurs à migrer, nous prévoyons de migrer l’historique de la discussion dans StaffHub vers Teams. Le volume de l’historique des conversations disponible dans teams dépend de la manière dont vous configurez votre organisation en fonction de la transition. Nous vous recommandons de n’effectuer aucune action au plus tard le 30 juin 2019 afin d’offrir suffisamment de temps à la transition de 90 jours de données avant le 1er octobre 2019.
 
-Assurez-vous que la création de groupe dans Office 365 est activée dans le centre d’administration Microsoft 365 avant le début de la transition, comme cela est essentiel pour nous la possibilité de déplacer vos données de conversation StaffHub dans les équipes. Pour activer ce service par le 30 juin 2019, provoque dans une date ultérieure de la migration des données de conversation en cours de copie sur maximum.
+Assurez-vous que la création de groupes Office 365 est activée dans le centre d’administration 365 avant le début de la transition, car cela est essentiel pour nous permettre de migrer vos données de discussion StaffHub en équipes. Dans le cas contraire, il est impossible d’activer ce service avant le 30 juin 2019, mais la mise à jour des données de la discussion sera moins récente.
 
-#### <a name="can-i-export-shift-schedules-from-shifts"></a>Puis-je exporter les planifications de travail d’équipe à partir des équipes ?
+#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>Qu’advient-il des fichiers qui ont été téléchargés sur StaffHub?
+
+Vous pouvez déplacer les fichiers dont votre équipe a besoin auprès d’StaffHub Teams. Les fichiers que vous déplacez sont stockés dans le dossier général du site d’équipe dans SharePoint Online. Dans Teams, les utilisateurs peuvent accéder aux fichiers à partir de l’onglet **fichiers** dans le canal général de l’équipe. Pour en savoir plus, reportez-vous [à la section déplacer vos équipes Microsoft StaffHub vers les équipes](move-staffhub-teams-to-shifts-in-teams.md).
+
+#### <a name="can-i-export-shift-schedules-from-shifts"></a>Est-il possible d’exporter des plannings de quarts à partir d’une équipe?
   
-Vous pouvez exporter les informations de planification de travail d’équipe pour un fichier Excel à partir d’applications web et de bureau équipes. Vous pouvez ensuite importer ces informations aux systèmes et les outils de votre organisation.
+Vous pouvez exporter les informations de planification de Shift vers un fichier Excel à partir du bureau et des applications Web Shift. Vous pouvez ensuite importer ces informations dans les systèmes et outils de votre organisation.
 
-#### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>Comment puis-je récupérer une planification si vous avez supprimé une équipe ?
+#### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>Comment puis-je récupérer une planification si j’ai accidentellement supprimé une équipe?
 
-Suppression d’une planification est liée à la suppression d’une équipe. Si vous restaurez une équipe, la planification n’est pas récupérée.
+La suppression d’une planification est liée à la suppression d’une équipe. Si vous récupérez une équipe, l’échéancier n’est pas récupéré.
 
-#### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Le fichier de fonctionnalité dans les équipes de partage moteur ? Où sont stockés les fichiers ?
+#### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>Qui alimente la fonctionnalité de partage de fichiers dans teams? Où les fichiers sont-ils stockés?
 
-Le fichier de fonctionnalité, la capacité d’un responsable distribuer les fichiers aux membres d’équipe, de partage a été générée sur le serveur principal par SharePoint Online. Lors de la création d’une équipe, un groupe d’Office 365 est automatiquement mis en service pour que l’équipe en arrière-plan.
+La fonctionnalité de partage de fichiers, qui permet à un responsable de distribuer des fichiers aux membres d’une équipe, est disponible sur le serveur principal de SharePoint Online. Lors de la création d’une équipe, un groupe Office 365 est automatiquement configuré pour cette équipe en arrière-plan.
 
-Pour plus d’informations, voir [comment SharePoint Online et OneDrive entreprise interagissent avec les équipes](../../SharePoint-OneDrive-interact.md).
+Pour en savoir plus, voir [comment SharePoint Online et OneDrive entreprise interagissent avec teams](../../SharePoint-OneDrive-interact.md).
  
-#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Existe-t-il une intégration entre équipes et le calendrier Outlook ? Puis-je exporter un calendrier à un calendrier ?
+#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Est-il possible d’intégrer les équipes et le calendrier Outlook? Est-il possible d’exporter un planning dans un calendrier?
  
-Firstline employés peuvent afficher son calendrier de travail entière en un coup de œil dans les équipes. Nous allons en charge une intégration native avec le calendrier Outlook dans le cadre de notre feuille de route. En attendant, utilisez Flow Microsoft pour configurer l’intégration avec des équipes dans les équipes et Outlook et Google calendriers.
+Les utilisateurs de terrain peuvent voir leur plan de travail entier en un clin d’œil. Nous allons prendre en charge l’intégration native dans le calendrier Outlook dans le cadre de notre introduction. D’ici là, utilisez le flux Microsoft pour configurer l’intégration avec les équipes dans les calendriers Microsoft teams et Outlook et Google.
 
-#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>Ai-je besoin de former les utilisateurs sur l’utilisation des équipes s’ils sont déjà familiers avec StaffHub ?
+#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>Ai-je besoin de faire savoir aux utilisateurs comment utiliser les Shifts s’ils sont déjà familiarisés avec StaffHub?
 
-Aucune formation supplémentaire n’est requise. Ils peuvent utiliser des équipes de façon similaire à la façon dont ils utilisé StaffHub. 
+Aucune formation supplémentaire n’est requise. Ils peuvent utiliser les Shifts de la même façon que le mode d’utilisation de StaffHub. 
  
-#### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Les contrôles d’administration sont disponibles pour indiquer si les utilisateurs de mon organisation peuvent utiliser des équipes ?  
+#### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Quels contrôles d’administration sont disponibles pour gérer si les utilisateurs de mon organisation peuvent utiliser les Shifts?  
   
-Vous pouvez activer ou désactiver des équipes org à l’échelle pour tous les utilisateurs dans votre organisation. Dans le centre d’administration Microsoft Teams, vous pouvez également utiliser la stratégie du programme d’installation d’application travailleur Firstline pour personnaliser les équipes de votre personnel Firstline. La stratégie est configurée à l’activité, équipes, la conversation et appel des applications. Affectation de ces applications les codes confidentiels de stratégie à la barre d’application dans les équipes pour accéder rapidement et facilement par les utilisateurs. 
+Vous pouvez activer ou désactiver les équipes pour tous les utilisateurs de votre organisation. Dans le centre d’administration de Microsoft Teams, vous pouvez également utiliser la stratégie de configuration de l’application ouvrier terrain pour personnaliser teams pour votre personnel terrain. La stratégie est configurée à l’aide des applications d’activité, de décalages, de discussions et d’appels. L’attribution de la stratégie épingle ces applications à la barre de l’application dans teams pour un accès rapide et facile aux utilisateurs. 
 
-Pour plus d’informations, voir [gérer l’application des équipes de votre organisation dans les équipes](manage-the-shifts-app-for-your-organization-in-teams.md).
+Pour en savoir plus, voir [gérer l’application Shifts pour votre organisation dans teams](manage-the-shifts-app-for-your-organization-in-teams.md).
 
-#### <a name="what-powershell-controls-are-available-for-teams"></a>Les contrôles PowerShell sont disponibles pour les équipes ?
+#### <a name="what-powershell-controls-are-available-for-teams"></a>Quels contrôles PowerShell sont disponibles pour Microsoft teams?
 
-Vous gérez les équipes via le module PowerShell d’équipes Microsoft et la Skype pour le module PowerShell Business. Pour plus d’informations, voir [Vue d’ensemble de PowerShell équipes](../../teams-powershell-overview.md). À ce stade, il n’existe aucune applets de commande PowerShell spécifiques disponibles pour gérer les déplacements.  
+Vous pouvez gérer teams via le module Microsoft teams PowerShell et le module PowerShell Skype entreprise. Pour plus d’informations, voir [vue d’ensemble de PowerShell teams](../../teams-powershell-overview.md). Pour le moment, il n’existe pas de cmdlets PowerShell spécifiques disponibles pour gérer les Shifts.  
 
-S’il s’agit de quelque chose que qui vous intéressent, nous envoyer une demande via le [portail de commentaires équipes sur UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+S’il s’agit d’un sujet qui vous intéresse, envoyez-nous une demande par le biais du [portail de commentaires d’équipe sur uservoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
-#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>Que se passe-t-il avec l’API StaffHub qui est actuellement en mode Aperçu privé ?
+#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>Que se passe-t-il avec l’API StaffHub qui est actuellement en version préliminaire privée?
 
-Si vous avez créé des intégrations avec les APIs StaffHub, ces API sera déconseillé. Nous avons publié Microsoft Graph API pour prendre en charge l’intégration avec vos ressources humaines, paie ou des solutions de gestion des ressources. Pour plus d’informations, voir [utilisation de l’API de graphique Microsoft pour travailler avec les équipes](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
+Si vous avez créé une intégration avec les API StaffHub, ces API seront déconseillées. Nous avons mis à disposition les API Microsoft Graph pour prendre en charge les intégrations à vos solutions de gestion des ressources humaines, des salaires et de la main-d’œuvre. Pour en savoir plus, voir [utiliser l’API Microsoft Graph pour travailler avec des équipes](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
 
-#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Un rapport est disponible pour l’affichage de l’utilisation des équipes au sein de mon organisation ?
+#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Est-ce que le signalement est disponible pour afficher l’utilisation des équipes au sein de mon organisation?
 
-Équipes étant une application dans les équipes, vous pouvez afficher l’utilisation par le biais de rapports d’équipes. Pour plus d’informations, consultez les [équipes de création de rapports dans le centre d’administration Microsoft équipes](../../teams-analytics-and-reports/teams-reporting-reference.md) et [rapports d’activité équipes dans le centre d’administration Microsoft 365](../../teams-activity-reports.md).
+Comme Shifts est une application dans Teams, vous pouvez voir l’utilisation via des rapports d’équipes. Pour plus d’informations, consultez [la rubrique Création de rapports d’équipes dans le centre d’administration Microsoft teams](../../teams-analytics-and-reports/teams-reporting-reference.md) et [rapports d’activité sur Microsoft teams dans le centre d’administration 365](../../teams-activity-reports.md).
 
-#### <a name="where-can-i-provide-feedback"></a>Où puis-je fournissez des commentaires ?
+#### <a name="where-can-i-provide-feedback"></a>Où puis-je envoyer des commentaires?
   
-Dans l’application mobile, cliquez sur **plus** dans le coin supérieur gauche de l’écran, accédez à **paramètres** > **Envoyer des commentaires** ou un **état d’un problème**. De même, dans les applications web et de bureau, dans le coin inférieur gauche de l’écran, accédez à **aider** > **partager une idée** ou **l’état d’un problème**.
+Dans l’application mobile, appuyez sur **plus** dans le coin supérieur gauche de l’écran, accédez à **paramètres** > **Envoyer des commentaires** ou **signaler un problème**. De même, dans les applications de bureau et Web, dans le coin inférieur gauche de l’écran, **vous** > allez**partager une idée** ou **signaler un problème**.

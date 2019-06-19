@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Cet article décrit comment surveiller et résoudre les problèmes de votre configuration de routage direct.
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915155"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062378"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
@@ -66,6 +66,8 @@ Si l’SBC dans notre exemple a envoyé des options à n’importe quelle pério
 La rétrogradation signifie que l’SBC ne sera pas essayé en premier. Par exemple, nous avons sbc1.contoso.com et sbc2.contoso.com avec une priorité égale.  
 
 Si sbc1.contoso.com n’envoie pas d’options SIP à un intervalle régulier comme décrit ci-dessus, il est abaissé. Ensuite, sbc2.contoso.com tente d’appeler. Si sbc2. contoso. con ne peut pas répondre à l’appel, le sbc1.contoso.com (rétrogradé) est essayé de nouveau avant la génération d’une erreur. 
+
+S’il s’agit de deux (ou plus) SBCs d’un itinéraire, qu’il soit sain et égal, Fisher-Yates appliqué de façon aléatoire à distrubute les appels entre le SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Surveiller les journaux de tableau de bord d’analyse de la qualité des appels 
  
