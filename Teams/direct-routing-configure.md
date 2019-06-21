@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667497"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116016"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -114,7 +114,8 @@ Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez 
 |Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si vous avez activé l’en-tête d’ID vie privée: il est également envoyé. La valeur par défaut **** est false ($false).|False|True<br/>False|Boolean|
 |Non|SendSIPOptions |Définit si une SBC va ou non envoyer les options SIP. S’il est désactivé, l’SBC sera exclu du système de surveillance et d’alerte. Nous vous recommandons vivement d’activer les options SIP. La valeur par défaut est **true**. |True|True<br/>False|Boolean|
 |Non|MaxConcurrentSessions |Utilisé par le système d’alerte. Lorsque n’importe quelle valeur est définie, le système d’alerte génère une alerte auprès de l’administrateur client lorsque le nombre de sessions simultanées est 90% ou une valeur supérieure à celle-ci. Si paramètre n’est pas défini, les alertes ne le sont pas. Toutefois, le système de surveillance rapportera le nombre de sessions simultanées toutes les 24 heures. |Valeur|Valeur<br/>1 à 100 000 ||
-|Non|Activation|Utilisé pour activer cet SBC pour les appels sortants. Peut être utilisé pour supprimer temporairement l’SBC, pendant sa mise à jour ou lors de la maintenance. |False|True<br/>False|Boolean|
+|Non|MediaRelayRoutingLocationOverride |Permet de sélectionner manuellement le chemin pour le média. Le routage direct affecte un centre de contenus multimédia pour le chemin multimédia en fonction de l’adresse IP publique de l’SBC. Nous cherchons toujours le plus près du centre de centres SBC. Toutefois, dans certains cas, il est possible d’attribuer une adresse IP publique de la part d’une SBC située en Europe, par exemple. Dans ce cas, nous n’utiliserons pas le chemin multimédia. Ce paramètre permet de définir manuellement la région préférée pour le trafic multimédia. Nous vous conseillons de définir ce paramètre uniquement si les journaux d’appels indiquent clairement que l’attribution automatique du centre de fichiers de média pour le chemin multimédia n’affecte pas le plus proche au centre de médias SBC. |Aucun|Codes de pays au format ISO||
+|Non|Activé|Utilisé pour activer cet SBC pour les appels sortants. Peut être utilisé pour supprimer temporairement l’SBC, pendant sa mise à jour ou lors de la maintenance. |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Vérifier le jumelage des SBC 
 

@@ -13,16 +13,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Intégration du DMI de l’application Microsoft teams
-ms.openlocfilehash: d2177e4201a1c7d7087a4c04ffffbbf52dd7366c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b76dd4d721d934b4597c5faf1a8f2fc739d5281d
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548309"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115992"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Intégration des dossiers médicaux électroniques dans Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Pour participer à une préversion privée, voir Inscrivez-vous [à la version d’évaluation privée](#enroll-in-the-private-preview).
 
@@ -71,7 +71,16 @@ L’authentification du service au service doit être réalisée par le biais du
 4. Le point de terminaison de métadonnées qui héberge la déclaration de conformité doit être non authentifié, il doit être accessible sans jeton d’authentification.
 5. Le service partenaire fournit le point de terminaison jeton de l’application patients pour demander un jeton d’accès à l’aide d’un flux d’informations d’identification du client. L’URL du jeton en tant que serveur d’autorisation doit faire partie intégrante de l’instruction de compatibilité FHIR (Capability) récupérée à partir des métadonnées du serveur FHIR, comme dans cet exemple:
 
-![Capture d’écran de l’URL du jeton dans un exemple de code](../../media/Patient-app-5.png)
+* * *
+    {"resourceType": "CapabilityStatement",.
+        .
+        .
+        "Rest": [{"mode": "serveur", "sécurité": {"extension": [{"extension": [{"URL": "Token", "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"URL": "«autorisive", "valueUri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}], "URL":http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris""}), "service": [{"Coding": [{"System":http://hl7.org/fhir/ValueSet/restful-security-service"", "code": "OAuth" } ] } ] }, .
+                .
+                .
+            } ] }
+
+* * *
 
 Une demande de jeton d’accès comprend les paramètres suivants:
 
@@ -153,6 +162,6 @@ Une fois que vous avez créé le serveur Open source FHIR, il est très facile d
 
     ![Capture d’écran des paramètres de serveur de l’application patients](../../media/patients-server.png)
 
-5. Commencez à utiliser l’application pour rechercher des patients à partir du serveur FHIR/DMI et ajoutez-les à une liste, puis [faites-nous part de vos commentaires](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) en cas de dysfonctionnement. Par ailleurs, pour établir une version entièrement authentifié de l’application patients-> FHIR Server Flow, vous devez vous engager du dialogue hors connexion avec Microsoft teams pour l’ingénierie des produits pour la santé, par le biais de la demande de courrier électronique mentionnée plus haut pour clarifier les exigences et nous vous pour cela, vous devez vous en authentifier conformément aux exigences d’authentification décrites ci-dessus dans le document de l’interface FHIR.  
+5. Commencez à utiliser l’application pour rechercher des patients à partir du serveur FHIR/DMI et ajoutez-les à une liste, puis [faites-nous part de vos commentaires](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) en cas de dysfonctionnement. Par ailleurs, pour établir une version entièrement authentifié de l’application patients-> flux serveur FHIR, vous pouvez vous engager dans un dialogue hors connexion avec Microsoft teams pour l’ingénierie des produits pour la santé, par le biais de la demande de courrier électronique mentionnée plus haut pour clarifier les exigences et nous vous pour cela, vous devez vous en authentifier conformément aux exigences d’authentification décrites ci-dessus dans le document de l’interface FHIR.  
 
 
