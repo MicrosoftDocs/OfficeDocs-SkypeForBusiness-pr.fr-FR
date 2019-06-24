@@ -27,8 +27,7 @@
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Présence](presence-admins.md)
-## [Communiquer avec des utilisateurs de Teams dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
-## [Archiver ou supprimer une Équipe](archive-or-delete-a-team.md)
+## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 
 
 
@@ -70,7 +69,7 @@
 ### [Modifier les paramètres utilisateur Teams en bloc](edit-user-settings-in-bulk.md)
 ### [Gérer les stratégies de configuration de l’application dans Teams](teams-app-setup-policies.md)
 ### [Configurer l’Application Réunions Skype pour fonctionner avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Communiquer avec des utilisateurs de Teams dans d’autres organisations](let-your-teams-users-communicate-with-other-people.md)
+### [Gérer l’accès externe](manage-external-access.md)
 ### [Utiliser la traduction des messages en ligne](inline-message-translation-teams.md)
 ### [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
 
@@ -643,7 +642,7 @@
 ### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Démarrage avec la messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Définir un délégué dans un message d’état](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Délégation de messages](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Intégration des dossiers médicaux électroniques dans Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Spécification de l’interface DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Spécification de l’interface STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
