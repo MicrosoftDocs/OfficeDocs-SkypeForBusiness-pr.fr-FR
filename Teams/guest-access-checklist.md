@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280924"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131416"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité teams
 ==========================================
@@ -49,7 +49,7 @@ Pour plus d’informations, reportez-vous à [l’interface utilisateur](guest-e
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si vos invités voient des erreurs de licence
 
-L’accès invité dans Microsoft teams utilise Azure Active Directory Business to Business (B2B) et son modèle de licence. Si vous rencontrez des erreurs de gestion des licences, veillez à lire les recommandations en matière de gestion des licences interentreprises pour comprendre les exigences en matière de licences dont dispose votre organisation afin que vos utilisateurs puissent inviter des invités à votre organisation.
+L’accès invité dans Microsoft teams utilise Azure Active Directory Business to Business (B2B) et son modèle de licence. Si vous rencontrez des erreurs de gestion des licences, veillez à lire les [recommandations](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) en matière de gestion des licences interentreprises pour comprendre les exigences en matière de licences dont dispose votre organisation afin que vos utilisateurs puissent inviter des invités à votre organisation.
 
 Quelques points à garder à l’esprit:
 
@@ -78,7 +78,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès inv
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Étape 2: configurer les groupes Office 365
 
-1. Dans le centre d’administration 365 Microsoft, accédez à **paramètres** > des**services & les** > compléments**Office 365**.
+1. Dans le centre d’administration 365 de Microsoft, accédez à **paramètres** > **des services & des** > compléments**Office 365**.
 2. Veillez à **ce que les membres du groupe qui se trouvent en dehors de l’organisation aient accès au contenu du groupe** . **** Si ce paramètre est désactivé, les invités ne seront pas en mesure d’accéder aux contenus du groupe.
 3. Assurez-vous que **les propriétaires de groupe peuvent ajouter des personnes en dehors de l’organisation aux groupes** est **activé**. Si ce paramètre est désactivé, les propriétaires d’équipe ne peuvent pas ajouter de nouveaux invités. Ce paramètre doit être activé pour prendre en charge l’accès invité.
 
@@ -106,7 +106,7 @@ Pour obtenir des instructions détaillées, voir [activer ou désactiver l’acc
 
 Assurez-vous que les utilisateurs peuvent ajouter des invités. Voici comment procéder:
 
-1. Dans le centre d’administration 365 Microsoft, accédez à **paramètres** > **sécurité & confidentialité**.
+1. Dans le centre d’administration 365 de Microsoft, accédez à **paramètres** > **sécurité & confidentialité**.
 
      ![Capture d’écran illustrant un exemple de paramètres de services](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

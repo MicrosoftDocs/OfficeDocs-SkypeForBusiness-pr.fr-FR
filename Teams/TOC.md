@@ -639,10 +639,11 @@
 ### [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Gérer l’application Shifts pour votre organisation dans Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [Teams pour la santé publique](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## Teams pour la santé publique
 ### [Prise en main de Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Démarrage avec les modèles Teams pour les organismes de santé](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Démarrage avec la messagerie sécurisée pour les organismes de santé](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Définir un délégué dans un message d’état](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Intégration des dossiers médicaux électroniques dans Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Spécification de l’interface DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Spécification de l’interface STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)

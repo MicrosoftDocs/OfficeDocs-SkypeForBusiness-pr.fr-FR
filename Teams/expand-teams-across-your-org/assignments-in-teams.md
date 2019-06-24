@@ -15,16 +15,14 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591719"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131519"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Les affectations sont des tâches ou des unités de travail attribuées à un étudiant ou à un membre d’équipe dans une classe dans le cadre de leur étude. Vous pouvez créer des devoirs au sein de votre classe Teams.
 
@@ -36,6 +34,8 @@ Les paramètres d’administration du centre d’administration Microsoft teams 
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Résumé du message électronique du tuteur de chaque semaine
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Les messages électroniques de tuteur sont des messages électroniques hebdomadaires envoyés aux parents ou tuteurs des étudiants. Les courriers électroniques contiennent des informations sur les affectations de la semaine précédente et de la semaine à venir, et seront envoyées pendant le week-end. Les messages électroniques doivent être mis à jour par les administrateurs à l’aide de la fonctionnalité School Data Sync.
 
 Ce paramètre est désactivé par défaut.
@@ -48,10 +48,11 @@ Il s’agit d’un produit ou service tiers soumis à ses propres conditions et 
 
 Ce paramètre est désactivé par défaut.
 
-[En savoir plus sur MakeCode](https://www.microsoft.com/${locale}/makecode)
+[En savoir plus sur MakeCode](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin est un service de détection Plagiarism. Il s’agit d’un produit ou service tiers soumis à ses propres conditions et politique de confidentialité. Vous êtes responsable de l’utilisation de produits et services tiers.
 

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: 73ba9a0f3627cf744679bf46d07019b1d7aa644b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: feaa7972766ffeb21517080e97ee67dcd597edb4
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329549"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134251"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online
 
@@ -66,7 +66,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > Le pays ou la région de votre organisation est disponible en vous connectant au **Centre d’administration Office 365** et en regardant sous profil de l' **organisation**. 
   
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
+> En raison d’une disponibilité limitée des numéros de téléphone payants au Venezuela, en Indonésie, au Viêt Nam et aux Émirats Arabes Unis (Émirats Arabes Unis), les organisations de ces pays/régions ne disposent pas d’un numéro de téléphone payant. Les numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   

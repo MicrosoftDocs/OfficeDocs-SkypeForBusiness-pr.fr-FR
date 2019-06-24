@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298757"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131511"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -54,6 +54,26 @@ Pour commencer, il vous suffit d’acheter une licence d’appel d’en-tête et
 > Vous n’avez pas besoin d’une licence de Système téléphonique. Il est inclus dans la licence Téléphone de zone commune.
 
 Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+La licence de téléphone commune prend en charge les éléments suivants: 
+
+
+|   |  Téléphone de zone commune  |
+|---------|---------|
+|Skype Entreprise |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|Systèmes téléphoniques |    &#x2714; |
+|Audioconférence, |       &#x2718; &sup1;  |
+|Microsoft Intune |        &#x2718; &sup2; |
+|Disponibilité dans le monde entier |    &#x2714; |
+|Disponibilité du canal |    AE, EAS, CSP, GCC, EES, Web direct  |
+|      |         |
+
+&sup1; Les téléphones ordinaires peuvent participer à des conférences audio par le biais d’un numéro de connexion fourni par l’organisateur de la réunion.
+
+&sup2; Non disponible dans les nuages souverains  
+
+
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 - Créer un nouveau compte utilisateur pour le téléphone et attribuer les licences
 
