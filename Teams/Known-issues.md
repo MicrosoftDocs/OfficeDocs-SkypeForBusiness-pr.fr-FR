@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115953"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131431"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -30,7 +30,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|    
 |:-----|:-----|:-----|:-----|
-|Service de compte de ressource mal configuré <br/> |Les comptes de ressource associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours de préparation pour résoudre ce problème. <br/> |Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instance d’application de communication Microsoft" <br/> |8/5/19 <br/> |
+|Service de compte de ressource mal configuré <br/> |Les comptes de ressource associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours de préparation pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l’échec de la création de comptes de ressources dans Skype Entreprise en ligne. Dans ce cas, vous devez configurer le nom du service dans Active Directory avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instance d’application de communication Microsoft" <br/> |8/5/19 <br/> |
 
 
 
@@ -271,6 +271,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Échec du téléchargement d’un fichier <br/> |Toute tentative de téléchargement d’un fichier lorsque le chemin d’accès à un fichier contient une apostrophe se solde en un échec avec affichage du message «Le fichier n’a pas été téléchargé» lors de l’utilisation du client de bureau Microsoft Teams. <br/> |Téléchargez le fichier à partir du client Web ou de SharePoint Online <br/> |10/5/2019  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de charger ou de télécharger un fichier OneNote <br/> |La tentative de chargement ou de téléchargement d’un fichier ou d’un bloc-notes OneNote échouera en utilisant Microsoft Teams. <br/> |Charger ou télécharger le fichier directement dans SharePoint Online <br/> |7/5/2019  <br/> |
 
 ## <a name="teams"></a>Équipes
 

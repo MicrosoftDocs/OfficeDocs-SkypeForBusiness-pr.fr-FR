@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f027a4626fef2fbfbdad5e6ceb52ca6c3828d1c7
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548852"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131408"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
@@ -107,9 +107,9 @@ Teams repose sur SharePoint Online et OneDrive Entreprise pour stocker les fic
    
 Pour activer l'expérience complète de l'accès invité Teams, les administrateurs d'Office 365 doivent sélectionner **Activé** pour les paramètres suivants :
 
-- Dans SharePoint Online : **Autoriser uniquement le partage avec les utilisateurs externes déjà dans le répertoire**
+- Dans SharePoint Online : **invités existants**, **nouveaux invités et invités existants** ou **Tout le monde**
     
-    Pour obtenir plus d’informations, consultez l’article [Gérer le partage externe pour votre environnement SharePoint Online](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+    Pour plus d’informations, voir [Activer ou désactiver le partage externe](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
     
 - Dans les groupes Office 365 : **Autoriser les propriétaires de groupes à ajouter des personnes en dehors de l'organisation aux groupes**
     
