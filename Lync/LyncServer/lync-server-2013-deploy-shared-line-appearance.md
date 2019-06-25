@@ -10,12 +10,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6893dbda1c8f9ecf61319d19a24b896ff67de20b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 708dc90d28944a050624e83af5f0c5fe48f6eeeb
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831576"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -141,7 +141,7 @@ L’apparence des lignes partagées (SLA) est une nouvelle fonctionnalité de Ly
                   -MissedCallOption <Option> -MissedCallForwardTarget
                   <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     
-    L’exemple suivant spécifie que les appels manqués doivent être renvoyés à `sla_forward_number`l’utilisateur nommé. Les options valides pour `-MissedCallOption` le paramètre `Forward`sont `BusySignal`, ou `Disconnect`. Si vous le `Forward`souhaitez, vous devez également inclure `-MissedCallForwardTarget `le paramètre, avec un utilisateur ou un numéro de téléphone comme destination:
+    L’exemple suivant spécifie que les appels manqués doivent être renvoyés à `sla_forward_number`l’utilisateur nommé. Les options valides pour `-MissedCallOption` le paramètre `Forward`sont `BusySignal`, ou `Disconnect`. Si vous le `Forward`souhaitez, vous devez également inclure `-MissedCallForwardTarget` le paramètre, avec un utilisateur ou un numéro de téléphone comme destination:
     
         Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
                   Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 

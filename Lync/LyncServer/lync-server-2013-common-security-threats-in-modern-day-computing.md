@@ -10,12 +10,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d62cef3870e7134a628e0d5cedf20bb16200a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838543"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -133,7 +133,7 @@ Un *virus* est une unité de code dont le seul rôle consiste à reproduire d’
 
 Microsoft Lync Server 2013 est en mesure de divulguer des informations sur un réseau public qui peuvent être liées à une personne. Ces informations appartiennent à deux catégories :
 
-  - **Données de présence améliorées ** Les données de présence améliorées sont des informations que les utilisateurs peuvent choisir de partager ou de ne pas partager sur un lien vers un partenaire fédéré ou avec des contacts au sein d’une organisation. Elles ne sont pas partagées avec les utilisateurs d’un réseau public de messagerie instantanée. Selon les stratégies de groupe en vigueur et la configuration du client, l’administrateur système peut contrôler ces informations. Dans Lync Server 2013, le mode de confidentialité Enhanced presence peut être configuré pour un utilisateur individuel afin d’empêcher les utilisateurs de Lync d’avoir à voir les informations de présence de l’utilisateur dans la liste des contacts de l’utilisateur. Le mode de confidentialité de présence enrichie n’empêche pas les utilisateurs de Microsoft Office Communicator 2007 et Microsoft Office Communicator 2007 R2 de voir les informations de présence d’un utilisateur. Pour plus d’informations, reportez-vous aux [nouveautés pour les clients dans Lync server 2013](lync-server-2013-what-s-new-for-clients.md) dans la documentation de mise en route et [configuration du mode de confidentialité de présence avancée dans Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) dans la documentation de déploiement.
+  - **Données de présence améliorées** Les données de présence améliorées sont des informations que les utilisateurs peuvent choisir de partager ou de ne pas partager sur un lien vers un partenaire fédéré ou avec des contacts au sein d’une organisation. Elles ne sont pas partagées avec les utilisateurs d’un réseau public de messagerie instantanée. Selon les stratégies de groupe en vigueur et la configuration du client, l’administrateur système peut contrôler ces informations. Dans Lync Server 2013, le mode de confidentialité Enhanced presence peut être configuré pour un utilisateur individuel afin d’empêcher les utilisateurs de Lync d’avoir à voir les informations de présence de l’utilisateur dans la liste des contacts de l’utilisateur. Le mode de confidentialité de présence enrichie n’empêche pas les utilisateurs de Microsoft Office Communicator 2007 et Microsoft Office Communicator 2007 R2 de voir les informations de présence d’un utilisateur. Pour plus d’informations, reportez-vous aux [nouveautés pour les clients dans Lync server 2013](lync-server-2013-what-s-new-for-clients.md) dans la documentation de mise en route et [configuration du mode de confidentialité de présence avancée dans Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) dans la documentation de déploiement.
 
   - **Données obligatoires** Des données obligatoires sont nécessaires pour le bon fonctionnement du serveur ou du client et ne sont pas sous le contrôle de l’administration du client ou du système. Il s’agit d’informations nécessaires au niveau du serveur ou du réseau aux fins de routage, de maintenance de l’État et de signalisation.
 
