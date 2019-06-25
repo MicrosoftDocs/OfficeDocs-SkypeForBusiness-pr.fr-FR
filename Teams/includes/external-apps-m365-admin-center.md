@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Assurez-vous d’avoir activé les applications pour teams dans [les paramètres à l’échelle du client dans le centre d’administration 365 Microsoft](../enable-features-office-365.md#tenant-wide-settings-in-the-microsoft-365-admin-center). Si vous souhaitez ajouter des applications externes (fournies par des tiers), vous devez activer les paramètres des [applications externes](../enable-features-office-365.md#external-apps).

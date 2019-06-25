@@ -3,7 +3,7 @@ title: Évaluer votre environnement pour les charges de travail des fonctionnali
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 8aed7b648a3cd742fa7cf160d34aefced97ae31c
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548381"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198364"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -42,7 +42,7 @@ Vous devez incorporer ces informations dans le registre de risques.
 Dans le cadre de votre découverte environnementale, incluez toutes les informations relatives à l’utilisation de l’utilisateur final, par exemple, l’évaluation de la compatibilité des PC et des appareils mobiles pour la prise en charge de l’audioconférence et du système téléphonique pour les appels de plan d’utilisation pour les entreprises. configuration logicielle requise.
 
 La découverte environnementale peut également vous indiquer si vous avez besoin de [transférer des numéros de téléphone vers Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
-Le fait de savoir que cela aidera votre organisation à ajuster son plan de projet en conséquence et à préparer les informations nécessaires au transfert de numéro. Vous pouvez utiliser la [découverte environnementale pour le lancement de Microsoft teams](environmental-discovery-for-microsoft-teams-rollout.md) à partir de MyAdvisor pour effectuer une découverte environnementale.
+Le fait de savoir que cela aidera votre organisation à ajuster son plan de projet en conséquence et à préparer les informations nécessaires au transfert de numéro. Vous pouvez utiliser la [découverte environnementale pour le lancement de Microsoft teams](environmental-discovery-for-microsoft-teams-rollout.md) pour effectuer une découverte environnementale.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui sera chargé d’effectuer une évaluation de l’environnement?</li></ol></td></tr>
@@ -83,7 +83,7 @@ Voici les principaux points à retenir dans ces instructions. Il le faut:
 
 -   Ouvrez les ports UDP 3478 à 3481 sortants des clients qui utiliseront Teams.
 
--   Vérifiez que vous disposez d’assez de bande passante pour déployer teams en remplissant le [planificateur réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+-   Vérifiez que vous disposez d’assez de bande passante pour déployer Teams.
 
 -   Exécutez l' [outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885) et assurez-vous de respecter les exigences décrites dans la section [qualité multimédia et performances de connectivité réseau](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) du segment du réseau et du segment client.
 
@@ -106,8 +106,6 @@ Le non-respect de votre réseau risque de provoquer des problèmes d’insatisfa
 ## <a name="bandwidth-planning"></a>Planification de la bande passante
 
 La première étape de préparation du réseau consiste à s’assurer que votre réseau dispose d’une bande passante suffisante pour permettre aux utilisateurs de se servir de la bande passante disponible. La planification d’une bande passante suffisante est une tâche relativement simple et un début de faible entrave pour s’assurer que vos utilisateurs disposent d’une qualité d’équipes de grande qualité.
-
-Vous commencez le parcours de planification de la bande passante pour les équipes sur le [site Web de mon conseiller](https://myadvisor.fasttrack.microsoft.com/) à l’aide du planificateur réseau. Le planificateur de réseaux fournit la planification de la bande passante par site pour teams et propose des recommandations pour optimiser les performances du réseau.
 
 ### <a name="local-internet-egress"></a>Sortie Internet locale
 
@@ -219,7 +217,7 @@ Pour plus d’informations, reportez-vous à la section [qualité de service de 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui est responsable de l’exécution correcte des évaluations réseau sur tous les segments réseau et emplacements de l’Organisation?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une analyse du réseau détaillée pour vous assurer que votre réseau est prêt pour le déploiement de Microsoft Teams. Pour plus d’informations, voir évaluation de la <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">compatibilité réseau</a>.</li><li>Effectuez une correction du réseau en fonction des résultats de l’évaluation de la compatibilité réseau pour chaque segment réseau.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une analyse du réseau détaillée pour vous assurer que votre réseau est prêt pour le déploiement de Microsoft Teams.</li><li>Effectuez une correction du réseau en fonction des résultats de l’évaluation de chaque segment réseau.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

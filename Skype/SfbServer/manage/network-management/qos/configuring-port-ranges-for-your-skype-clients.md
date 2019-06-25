@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit la configuration des plages de port pour vos clients et la configuration des stratégies de qualité de service dans Skype entreprise Server pour les clients exécutant Windows 10.
-ms.openlocfilehash: 2eaf7eb6b10f2aba2665704f973a4dfcddbd4885
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279423"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204013"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuration de plages de ports et d’une politique de qualité de service pour vos clients dans Skype entreprise Server
 
@@ -187,7 +187,7 @@ Pour créer une stratégie audio de qualité de service pour les ordinateurs Win
 
 6.  Dans la boîte de dialogue **QoS basée sur une stratégie** , dans la page d’ouverture, tapez un nom pour la nouvelle stratégie dans la zone **nom** . Sélectionnez **spécifier la valeur DSCP** et définissez la valeur sur **46**. Laissez l’option **spécifier le taux de limitation en sortie** non sélectionnée, puis cliquez sur **suivant**.
 
-7.  Dans la page suivante, assurez-vous que l’option **toutes les applications** est sélectionnée, puis cliquez sur **suivant**. Ce paramètre indique au réseau de chercher tous les paquets avec un marquage DSCP de 46, pas seulement les paquets créés par une application spécifique.
+7.  Dans la page suivante, sélectionnez **uniquement les applications ayant ce nom d’exécutable**, entrez **Lync. exe** comme nom, puis cliquez sur **suivant**. Ce paramètre indique à la stratégie de classer uniquement le trafic correspondant à partir du client Skype entreprise.
 
 8.  Sur la troisième page, assurez-vous que toutes les **adresses IP source** et **adresse IP de destination** sont sélectionnées, puis cliquez sur **suivant**. Ces deux paramètres garantissent le fonctionnement de la gestion des paquets indépendamment de l’ordinateur (adresse IP) ayant envoyé ces paquets et de l’ordinateur (adresse IP) recevant ces paquets.
 

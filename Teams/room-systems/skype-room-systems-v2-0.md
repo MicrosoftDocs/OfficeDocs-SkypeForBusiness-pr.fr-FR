@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Cet article décrit les considérations relatives à la planification pour le déploiement de Microsoft Teams, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 7b71969358e17b98dbfe5e5437ed4b421c27ea85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288592"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198651"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier les salles de Microsoft teams
 
@@ -102,8 +102,6 @@ _Exemple d’inventaire d’une salle de réunion/de conférence_
 | HQ de Londres | Curie         | Moyen        | 6&ndash;12                  | Oui          | Mains                        | 1 écran, audio et vidéo plus présentation<br>Accès RTC |
 | HQ de Sydney | Hill          | Grande         | 12&ndash;16                 | Oui          | Unité AV héritée, 1 écran et appareil photo | 2 écrans, audio et vidéo et présentation<br>Accès RTC |
 
-**Conseil professionnel** : Si vous avez de nombreux sites à inventorier, vous souhaiterez peut-être télécharger et utiliser le questionnaire sur le [déploiement et la planification](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15)de la migration de sites.
-
 ## <a name="device-selection"></a>Sélection d’appareil 
 
 Évaluez la solution Microsoft teams Room qui est la plus appropriée pour chaque salle en fonction des fonctionnalités que vous voulez utiliser pour la salle. Déterminez les périphériques AV qui conviennent le mieux, en fonction de la taille de la salle et de la disposition. 
@@ -128,7 +126,7 @@ _Exemple de modèle de déploiement de salles de Microsoft teams pour votre orga
 | Moyenne 18 'par 20 '    | 6&ndash;12                  |                                  |                         |                 |
 | Grande 15 'par 32 '     | 12&ndash;16                 |                                  |                         |                 |
 
-**Conseil Pro:** C’est le moment idéal pour commencer à collecter des informations sur la solution de Microsoft teams que vous avez choisie. Nous vous recommandons de travailler avec votre fournisseur pour discuter de l’accomplissement du modèle de conception afin de capturer des informations pertinentes pour votre déploiement. vous pouvez [Télécharger ce modèle pratique](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) à partir de MyAdvisor. 
+**Conseil Pro:** C’est le moment idéal pour commencer à collecter des informations sur la solution de Microsoft teams que vous avez choisie.
 
 ## <a name="procurement"></a>Marchés 
 

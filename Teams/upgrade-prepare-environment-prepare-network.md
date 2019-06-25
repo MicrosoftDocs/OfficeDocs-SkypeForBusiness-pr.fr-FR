@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d18d7641c56ae2c8f84777e408133fef1cb35610
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548620"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198643"
 ---
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 
@@ -76,10 +76,10 @@ Les deux méthodes de définition des segments réseau (client vers Microsoft Ed
 |---|---|---|
 |**Latence (unidirectionnelle)** |< 50 ms |< 30 ms |
 |**Latence (durée de l’aller-retour ou RTT)** |< 100 ms |< 60 ms |
-|**Perte de paquets en rafale** |<10% pendant tout intervalle 200-ms |<1% pendant tout intervalle 200-ms |
-|**Perte de paquets** |<1% pendant tout intervalle de 15 secondes |< 0,1% par intervalle de 15 secondes |
-|**Gigue entre les arrivées de paquets** |<30 MS pendant tout intervalle de 15 secondes |<15 MS pendant tout intervalle de 15 secondes |
-|**Réorganisation des paquets** |< 0,05% de paquets en souffrance |< 0,01% de paquets en souffrance |
+|**Perte de paquets en rafale** |<10% pendant tout intervalle 200-ms |<1% pendant tout intervalle de 200-ms |
+|**Perte de paquets** |<1% pendant tout intervalle de 15 secondes |<0,1% pendant tout intervalle de 15 secondes |
+|**Gigue entre les arrivées de paquets** |<30 ms pendant tout intervalle de 15 secondes |<15 ms pendant tout intervalle de 15 secondes |
+|**Réorganisation des paquets** |<0,05% de paquets hors commande |<0,01% de paquets hors commande |
 
 Pour tester les deux segments réseau, vous pouvez utiliser l' [outil d’évaluation du réseau](https://go.microsoft.com/fwlink/?linkid=855799). Cet outil peut être déployé sur le PC client directement et sur un PC connecté au bord du réseau du client. L’outil inclut une documentation limitée, mais une documentation plus approfondie sur l’utilisation de l’outil est disponible ici: [évaluation](https://go.microsoft.com/fwlink/?linkid=855800)de la disponibilité du réseau. L’exécution de cette analyse de préparation du réseau vous permet de valider la préparation de votre réseau pour exécuter des applications multimédias en temps réel, telles que Microsoft Teams.
 
@@ -195,7 +195,7 @@ La qualité de service (QoS) peut être utilisée pour lutter contre les trouble
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Point de décision</td><td><ul><li>Qui est responsable de l’exécution correcte des évaluations réseau sur tous les segments réseau et emplacements de l’Organisation?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une analyse du réseau détaillée pour vous assurer que votre réseau est prêt pour le déploiement de Microsoft Teams. Pour plus d’informations, voir évaluation de la <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">compatibilité réseau</a>.</li><li>Effectuez une correction du réseau en fonction des résultats de l’évaluation de la compatibilité réseau pour chaque segment réseau.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une analyse du réseau détaillée pour vous assurer que votre réseau est prêt pour le déploiement de Microsoft Teams. </li><li>Effectuez une correction du réseau en fonction des résultats de l’évaluation de la compatibilité réseau pour chaque segment réseau.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -208,7 +208,7 @@ Voici les principaux points à retenir dans ces instructions. Il le faut:
 
 - Ouvrez les ports UDP 3478 à 3481 sortants des clients qui utiliseront Teams.
 
-- Vérifiez que vous disposez d’assez de bande passante pour déployer teams en remplissant le [planificateur réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+- Vérifiez que vous disposez d’assez de bande passante pour déployer Teams.
 
 - Exécutez l' [outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885) et assurez-vous de respecter les exigences décrites dans la section [qualité multimédia et performances de connectivité réseau](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) du segment du réseau et du segment client.
 

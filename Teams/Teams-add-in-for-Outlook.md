@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 51d28bc5806aebdad1bb83bb08945f45d505cde9
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694746"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203933"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -32,7 +32,7 @@ Le complément réunion teams permet aux utilisateurs de planifier une réunion 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Complément réunion teams dans Outlook pour Windows
 
-Le complément Réunion Teams est installé automatiquement pour les utilisateurs pour lesquels Microsoft Teams et Office 2013 ou Office 2016 sont installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier d'Outlook.
+Le complément de réunion équipes est automatiquement installé pour les utilisateurs disposant de Microsoft teams et d’Office 2010, Office 2013 ou Office 2016 installés sur leur PC Windows. Le complément Réunion Teams apparaît sur le ruban Calendrier d'Outlook.
 
 ![Capture d’écran du complément réunion teams sur le ruban Outlook](media/Teams-add-in-for-Outlook.png)
 

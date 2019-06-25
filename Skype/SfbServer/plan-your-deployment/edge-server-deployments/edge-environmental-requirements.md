@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Résumé: en savoir plus sur la configuration environnementale requise pour le serveur Edge dans Skype entreprise Server.'
-ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277173"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203955"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Configuration requise pour l’environnement du serveur Edge dans Skype entreprise Server
  
@@ -81,8 +81,8 @@ Pour vous aider à choisir, le tableau ci-dessous contient un résumé des optio
 |:-----|:-----|:-----|:-----|:-----|
 |Serveur Edge consolidé unique avec des adresses IP privées et la conversion d’adresses réseau  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |
 |Serveur Edge consolidé unique avec des adresses IP publiques  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |Non  <br/> |
-|Serveur Edge consolidé ajusté avec des adresses IP privées et de conversion d’adresses réseau (NAT) (charge DNS équilibrée)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Yes&sup1;  <br/> |
-|Serveur Edge consolidé ajusté avec des adresses IP publiques (charge DNS équilibrée)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Yes&sup1;  <br/> |
+|Serveur Edge consolidé ajusté avec des adresses IP privées et de conversion d’adresses réseau (NAT) (charge DNS équilibrée)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui&sup1;  <br/> |
+|Serveur Edge consolidé ajusté avec des adresses IP publiques (charge DNS équilibrée)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui&sup1;  <br/> |
 |Topologie Edge consolidée ajustée avec des équilibreurs de charge matérielle  <br/> |Oui  <br/> |Non (un enregistrement DNS A par VIP)  <br/> |Oui  <br/> |Oui  <br/> |
    
 &sup1; Le basculement d’utilisateur distant de la messagerie unifiée (MU) à l’aide de l’équilibrage de charge DNS nécessite Exchange 2013 ou une version ultérieure.
@@ -143,7 +143,7 @@ Lorsqu’il s’agit du déploiement de serveur Edge de Skype entreprise Server,
 
 Il s’agira des enregistrements DNS que vous allez avoir besoin pour un serveur de périphérie unique utilisant une IPS privée ou une IPs privée avec NAT. Comme il s’agit d’exemples de données, nous allons vous donner des exemples d’adresses IP pour que vous puissiez élaborer plus facilement vos propres entrées :
   
-- Carte réseau interne : 172.25.33.10 (aucune passerelle par défaut affectée)
+- Carte réseau interne: 172.25.33.10 (aucune passerelle par défaut attribuée)
     
     > [!NOTE]
     > Assurez-vous qu’il existe un itinéraire du réseau contenant l’interface interne latérale vers des réseaux contenant des serveurs exécutant Skype entreprise Server ou des clients Lync Server 2013 (par exemple, de 172.25.33.0 à 192.168.10.0). 

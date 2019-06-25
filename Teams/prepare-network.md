@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330b62bc98d4a45d8d6902707dd2ebb9fd031913
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548277"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198420"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
@@ -118,7 +118,7 @@ Dans le cas contraire, il s’agit du délai nécessaire pour envisagez de suspe
 |  |  |  |
 |---------|---------|---------|
 |![Icône représentant un point de décision](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Point de décision         |Avez-vous évalué vos capacités réseau pour la prise en charge de médias en temps réel?<br></br>Si votre réseau n’a pas été correctement évalué ou s’il ne prend pas en charge les contenus multimédias en temps réel, vous pouvez désactiver les fonctionnalités de partage vidéo et d’écran afin de réduire l’impact sur le réseau et de mauvaises expériences d’équipe.         |
-|![Icône représentant les étapes suivantes](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Étapes suivantes         |Qualité du réseau inconnue: suivez les recommandations de l’évaluation de la [compatibilité réseau](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) pour déterminer si votre réseau est prêt pour le média en temps réel.<br></br>Qualité du réseau médiocre: suivez les étapes de la reconversion réseau pour proposer un environnement approprié pour le média en temps réel de haute qualité.<br></br>Réseau satisfaisant: Assurez-vous que toutes les adresses IP et tous les ports sont accessibles correctement.           |
+|![Icône représentant les étapes suivantes](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Étapes suivantes         |Qualité du réseau inconnue: effectuez une analyse de compatibilité réseau pour déterminer si votre réseau est prêt pour le média en temps réel.<br></br>Qualité du réseau médiocre: suivez les étapes de la reconversion réseau pour proposer un environnement approprié pour le média en temps réel de haute qualité.<br></br>Réseau satisfaisant: Assurez-vous que toutes les adresses IP et tous les ports sont accessibles correctement.           |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548883"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198276"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -47,16 +47,13 @@ Dans la plupart des cas, le réseau qui se connecte à votre entreprise avec le 
 
 ## <a name="verify-your-network-is-ready"></a>Vérifier que votre réseau est prêt
 
-Si vous envisagez une implémentation QoS, vous devez déjà avoir déterminé vos exigences de bande passante et d’autres [exigences réseau](prepare-network.md). Les calculs de bande passante pour Microsoft teams sont complexes et vous aideront à créer une calculatrice. Pour accéder à la calculatrice, accédez au [Planificateur de réseaux](https://aka.ms/bwcalc/) dans MyAdvisor.
+Si vous envisagez une implémentation QoS, vous devez déjà avoir déterminé vos exigences de bande passante et d’autres [exigences réseau](prepare-network.md). 
   
   La congestion du trafic sur un réseau aura un impact considérable sur la qualité multimédia. Un manque de bande passante entraîne une dégradation des performances et une expérience utilisateur médiocre. Au fur et à mesure de l’adoption des équipes, vous pouvez utiliser la création de rapports, l' [analyse des appels et le tableau de bord de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md) pour identifier les problèmes, puis effectuer des ajustements à l’aide de la fonctionnalité QoS et de
 
 ### <a name="vpn-considerations"></a>Considérations relatives aux réseaux VPN
 
 QoS fonctionne uniquement quand il est implémenté sur tous les liens entre les appelants. Si vous utilisez QoS sur un réseau interne et qu’un utilisateur se connecte à partir d’un emplacement distant, vous pouvez uniquement définir des priorités dans votre réseau interne géré. Bien que les emplacements distants puissent recevoir une connexion gérée via l’implémentation d’un réseau privé virtuel (VPN), un VPN ajoute par essence une surcharge de paquets et génère des retards en temps réel. Nous vous recommandons de ne pas utiliser le trafic de communications en temps réel sur un réseau privé virtuel (VPN).
-
-> [!NOTE]
-> Les utilisateurs distants connectés par le biais d’un réseau VPN doivent implémenter un tunneling fractionné pour optimiser la qualité de l’utilisation de l’utilisateur. Le document [déploiement-Guide-VPN Split tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) est disponible sur MyAdvisor et dispose d’informations supplémentaires.
 
 Dans une organisation globale disposant de liens gérés qui couvrent des continents, nous vous recommandons vivement de QoS, car le niveau de bande passante pour ces liens est limité par rapport au réseau local.
 
