@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Apprenez-en davantage sur la gestion du pool frontal dans Skype entreprise Server, y compris la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec deux serveurs frontaux uniquement.
-ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297469"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221722"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  
@@ -70,7 +70,7 @@ Pour qu’un pool frontal puisse fonctionner, il ne peut pas être dans la perte
 |8-9  <br/> |4 (n’importe lesquels parmi les 7 premiers serveurs)  <br/> |
 |10-12  <br/> |5 (n’importe lesquels parmi les 9 premiers serveurs)  <br/> |
    
-Dans le tableau ci-dessus, le «premier serveur» est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l' `Get-CsComputer` applet de commande ` -PoolFqdn` avec l’option. Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
+Dans le tableau ci-dessus, le «premier serveur» est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l' `Get-CsComputer` applet de commande `-PoolFqdn` avec l’option. Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Étapes supplémentaires pour vérifier que les pools sont opérationnels
 

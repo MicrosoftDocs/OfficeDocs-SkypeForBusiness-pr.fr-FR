@@ -3,7 +3,7 @@ title: Utiliser la recherche d’annuaire étendue Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -13,48 +13,46 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
-description: Découvrez comment utiliser recherche dans l’annuaire sur lesquelles porte Teams Microsoft pour fournir des vues personnalisées du répertoire.
+description: Découvrez comment utiliser la recherche dans l’annuaire d’étendues de Microsoft teams pour fournir des vues personnalisées de l’annuaire.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3b51b56b8cc8a1f08d756cdab245915a2ac6824
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bf65cec72c21e34e0aab8338d20ae36549497846
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226650"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221730"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
-Recherche dans l’annuaire étendue Microsoft Teams permet aux organisations de créer des limites virtuels qui contrôlent la façon dont les utilisateurs peuvent rechercher et communiquer avec d’autres utilisateurs dans leur organisation. 
+La fonction de recherche dans l’arborescence de Microsoft teams permet aux organisations de créer des frontières virtuelles qui contrôlent la façon dont les utilisateurs peuvent trouver et communiquer avec d’autres utilisateurs de leur organisation. 
 
-Microsoft Teams permet aux entreprises de fournir des vues personnalisées du répertoire à leurs utilisateurs. Teams Microsoft utilise les [stratégies de carnet d’adresses Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) pour prendre en charge ces affichages personnalisés. Une fois que les stratégies sont activées, les résultats renvoyés par la recherche pour d’autres utilisateurs (par exemple, pour lancer une conversation ou pour ajouter des membres à une équipe) seront étendus en fonction des stratégies configurées. Les utilisateurs ne sera pas en mesure de rechercher ou de découvrir les équipes lors de la recherche à étendue définie est en vigueur. 
+Microsoft teams permet aux organisations d’offrir des vues personnalisées de l’annuaire à leurs utilisateurs. Microsoft teams utilise des [stratégies de carnet d’adresses Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour lancer une discussion ou ajouter des membres à une équipe) seront définis dans l’étendue conformément aux stratégies configurées. Les utilisateurs ne seront pas en mesure de rechercher ou de découvrir les équipes lorsque la recherche avec l’étendue est en vigueur. 
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>Quand utiliser les recherches dans l’annuaire étendue ?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Quand utiliser les recherches dans l’annuaire avec une application?
 
-Scénarios qui tirent parti des recherches dans l’annuaire étendue définie sont similaires aux scénarios téléchargeable stratégie. Par exemple, vous souhaiterez peut-être utiliser la recherche dans l’annuaire étendue dans les situations suivantes :
+Les scénarios qui s’offrent à vous pour les recherches dans l’annuaire sont similaires aux scénarios de stratégie de carnet d’adresses. Par exemple, vous pouvez utiliser la recherche dans l’annuaire avec l’étendue dans les situations suivantes:
 
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
  
-Pour savoir comment utiliser les stratégies de carnet d’adresses, consultez [du carnet d’adresses stratégies dans Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+Pour plus d’informations sur l’utilisation des stratégies du carnet d’adresses, voir [stratégies du carnet d’adresses dans Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
 > [!IMPORTANT]
-> Stratégies de carnet d’adresses fournissent uniquement une séparation virtuelle d’utilisateurs du point de vue de répertoire. Les utilisateurs peuvent lancer toujours les communications avec d’autres personnes en fournissant des adresses de messagerie complète. Il est également important de noter que toutes les données utilisateur qui avaient déjà été mis en cache, avant l’application des stratégies de carnet d’adresses de nouveau ou mis à jour, reste accessibles aux utilisateurs de 30 jours.
+> Les politiques du carnet d’adresses fournissent uniquement une séparation virtuelle des utilisateurs du point de vue du répertoire. Les utilisateurs peuvent toujours lancer des communications avec d’autres personnes en leur fournissant des adresses de messagerie complètes. Il est également important de noter que toutes les données utilisateur qui ont déjà été mises en cache avant d’appliquer les stratégies de carnet d’adresses nouvelles ou mises à jour restent disponibles pour les utilisateurs pendant 30 jours maximum.
 
-## <a name="enable-scoped-directory-search"></a>Activer la recherche de répertoire sur lesquelles porte
+## <a name="turn-on-scoped-directory-search"></a>Activez la recherche dans l’annuaire avec étendue
 
-1.  Stratégies de carnet d’adresses permet de configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, voir [procédures de stratégies de carnet d’adresses](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+1. Utilisez les stratégies du carnet d’adresses pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, consultez la rubrique [procédures pour les stratégies du carnet d’adresses](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
-2.  Se connecter au centre d’administration Microsoft 365, sélectionnez **centre Admin**et sélectionnez **& équipes Skype**.
- 
-3.  Dans le centre d’administration Microsoft Teams, sélectionnez **paramètres à l’échelle de la société** > **paramètres équipes**.
+2. Dans le centre d’administration de Microsoft Teams, sélectionnez > **paramètres d’équipe** **des paramètres à l’échelle**de l’organisation.
 
-4.  Sous **recherche**, en regard de **recherche dans l’annuaire étendue dans les équipes à l’aide d’une stratégie de carnet d’adresses Exchange (APB)**, activez la bascule **sur**. 
+3. Sous **recherche**, en regard de la **zone Rechercher dans l’annuaire dans teams à l’aide d’une stratégie de carnet d’adresses Exchange (APB)**, activez le bouton bascule. ****
 
-    ![Étendue de recherche dans le répertoire dans le centre d’administration de Microsoft Teams](media/teams-scoped-directory-search-image1.png)
+    ![Recherche dans l’annuaire dans l’étendue dans le centre d’administration Microsoft teams](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
-> Configurations hybrides (équipes avec Exchange local) ne prennent pas charge en mode de recherche à étendue définie. 
+> Les configurations hybrides (teams avec Exchange local) ne prennent pas en charge le mode de recherche étendu. 
 

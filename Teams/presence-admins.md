@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748442"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222092"
 ---
 # <a name="user-presence-in-teams"></a>Présence de l’utilisateur dans teams
 
-Les informations de présence font partie du profil d’un utilisateur dans Microsoft Teams (et dans Office 365), et indiquent la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs au sein de l’organisation. Par défaut, tous les membres de votre organisation qui utilisent teams peuvent voir-en presque en temps réel, qu’ils soient ou non disponibles en ligne.
+Les informations de présence font partie du profil d’un utilisateur dans Microsoft Teams (et dans Office 365), et indiquent la disponibilité et l’état actuel de l’utilisateur à d’autres utilisateurs au sein de l’organisation. Par défaut, tous les membres de votre organisation utilisant teams peuvent voir, en temps réel, si d’autres utilisateurs sont disponibles en ligne.
 
 ## <a name="presence-states-in-teams"></a>États de présence dans teams
 
@@ -56,10 +56,11 @@ Il y a un délai d’inactivité de 15 minutes, après quoi l’état de présen
 
 Les utilisateurs peuvent spécifier qui peut vous répartir (ils remplacent le paramètre ne pas déranger). Ces paramètres sont disponibles dans l’application.
 
-## <a name="teams-is-not-skype-for-business"></a>Teams n’est pas Skype entreprise
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administration dans teams par rapport à Skype entreprise
 
-Les paramètres d’administration suivants dans Skype entreprise sont différents dans teams:
-- Le partage de présence est toujours activé dans teams pour les utilisateurs au sein de l’organisation. La configuration de la vie privée (en choisissant qui peut voir la présence) n’est pas disponible dans Teams.
+Les paramètres d’administration suivants Skype entreprise sont différents dans teams:
+
+- Dans Teams, le partage de présence est toujours activé pour les utilisateurs de l’organisation. La configuration de la vie privée (en choisissant qui peut voir la présence) n’est pas disponible dans Teams.
 - Le partage de présence avec tout le monde (y compris les services fédérés) est toujours activé pour les utilisateurs de Microsoft Teams. La liste de contacts (s’il en existe une dans Skype entreprise) est visible sous **discussions > contacts** ou sous **appels > contacts**.
 - Le client ne pas déranger et les fonctionnalités d’innovation sont toujours activées pour les utilisateurs de Microsoft Teams.
 - Calendrier (y compris les informations d’absence du bureau et d’autres informations de calendrier) l’intégration est toujours activée pour les utilisateurs en équipe, si ils sont intégrés à Outlook.
@@ -67,7 +68,6 @@ Les paramètres d’administration suivants dans Skype entreprise sont différen
 
 > [!NOTE]
 > La capacité d’un administrateur d’équipes à personnaliser ces paramètres n’est pas actuellement prise en charge.
-
 
 ## <a name="coexistence-with-skype-for-business"></a>Coexistence avec Skype Entreprise
 

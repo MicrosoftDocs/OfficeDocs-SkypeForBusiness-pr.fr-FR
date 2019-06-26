@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Résumé: pour plus d’informations sur l’implémentation de Skype entreprise Server, reportez-vous à la section Considérations relatives au DNS.'
-ms.openlocfilehash: 13dd8b65c52329ff2db0ac3d7d57eeba990e29f6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297063"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221223"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Configuration requise pour le service DNS pour Skype entreprise Server
 
@@ -65,7 +65,7 @@ Les tableaux suivants illustrent les enregistrements DNS utilisés par Skype ent
 |SRV   |\_sipfederationtls. \_TCP. * \<sipdomain\> * <br/>\_sipfederationtls. \_TCP. <span> </span> *Contoso<span></span>. com*  | Nom de domaine complet du service Edge d’accès <br/> EdgePool-int.<span></span>*Contoso<span></span>. com*  |Créez un enregistrement SRV pour chaque domaine SIP comptant des clients mobiles iOS ou Windows Phone.   |Prise en charge des clients mobiles   |
 |A/AAAA   |URL d'administration  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Panneau de configuration Skype entreprise Server, voir [URL simples](dns.md#BK_Simple)  ||
 |A/AAAA   |URL de réunion  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Réunions en ligne, voir [URL simples](dns.md#BK_Simple)  ||
-|A/AAAA   |URL d'accès à distance  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Conférences rendez-vous, voir [URL simples](dns.md#BK_Simple)  ||
+|A/AAAA   |URL d'accès à distance  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Conférence rendez-vous, voir [URL simples](dns.md#BK_Simple)  ||
 |A/AAAA   |FQDN des services Web internes  <br/>*Web-int.<span></span>Contoso<span></span>. com*  |Adresse VIP de pool HLB FE  <br/> 192.168.21.121   |Service Web Skype entreprise utilisé par Skype entreprise Web App   ||
 |A/AAAA   |Nom de domaine complet (FQDN) du pool Office Web Apps Server  <br/> App. <span> </span>Contoso<span></span>. com   | Adresse VIP du pool Office Web Apps Server <br/> 192.168.1.5   |Définit le nom de domaine complet (FQDN) du pool Office Web Apps Server   ||
 |A/AAAA   |  FQDN web interne <br/> Web-int.<span></span>Contoso<span></span>. com   | Adresse VIP du pool frontal <br/> 192.168.21.121   |Définit le FQDN Web interne utilisé par Skype entreprise Web App  <br/> Si vous avez recours à l'équilibrage de la charge DNS dans ce pool, votre pool frontal et votre batterie de serveurs Web internes ne peuvent pas avoir le même nom de domaine complet.   ||
@@ -98,8 +98,8 @@ Le diagramme suivant illustre un exemple incluant des enregistrements DNS à la 
 |SRV   |\_sipfederationtls. \_TCP. * \<sipdomain\> * <br/>\_sipfederationtls. \_TCP. * <span> </span>Contoso<span></span>. com*  |Nom de domaine complet Edge Access  <br/>*Access1. <span> </span>Contoso<span></span>. com*  |Pour prendre en charge les services de notifications de transmission et de notifications de type Apple, vous devez créer un enregistrement SRV pour chaque domaine SIP. &#x2778;  ||
 |A/AAAA   |Nom de domaine complet des services Web de réserve externe  <br/>*Web-ext.<span></span>Contoso<span></span>. com*  |Adresse IP publique de proxy inverse, proxys vers le VIP des services Web externes pour votre pool frontal &#x2776; <br/> 131.107.155.1 proxy to 192.168.21.120   |Interface externe de pool frontal utilisée par Skype entreprise Web App   |Y   |
 |A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. * <span> </span>Contoso<span></span>. com*  |Adresse IP publique de proxy inverse, résolue vers l’adresse VIP des services Web externes de votre pool de Director, si vous en avez une, ou si vous n’avez pas de réalisateur &#x2777; <br/> 131.107.155.1 proxy to 192.168.21.120   | Enregistrement externe pour la découverte automatique du client, également utilisé par la mobilité, Skype entreprise Web App et le planificateur Web App, résolu par le serveur proxy inverse <br/> Pour prendre en charge les services de notifications de transmission et de notifications de type Apple, vous devez créer un enregistrement SRV pour chaque domaine SIP doté de clients mobiles Microsoft Lync. 3  |Y   |
-|A/AAAA   |correspondre. * \<sipdomain\>* <br/> correspondre. * <span> </span>Contoso<span></span>. com*  |Adresse IP publique de proxy inverse, résolue en interface Web externe pour le pool frontal  <br/> 131.107.155.1 proxy to 192.168.21.120   |Proxy pour le service Web Skype entreprise  <br/> Afficher des [URL simples](dns.md#BK_Simple)  |Y   |
-|A/AAAA   |appel entrant.*\<sipdomain\>* <br/> appel entrant.*<span></span><span></span>contoso. com*  |Adresse IP publique de proxy inverse, proxys vers l’interface Web externe pour le pool frontal  <br/> 131.107.155.1 proxy to 192.168.21.120   |Proxy pour le service Web Skype entreprise  <br/> Afficher des [URL simples](dns.md#BK_Simple)  |Y   |
+|A/AAAA   |correspondre. * \<sipdomain\>* <br/> correspondre. * <span> </span>Contoso<span></span>. com*  |Adresse IP publique de proxy inverse, résolue en interface Web externe pour le pool frontal  <br/> 131.107.155.1 proxy to 192.168.21.120   |Proxy pour le service Web Skype entreprise  <br/> Voir la section [URL simples](dns.md#BK_Simple)  |Y   |
+|A/AAAA   |appel entrant.*\<sipdomain\>* <br/> appel entrant.*<span></span><span></span>contoso. com*  |Adresse IP publique de proxy inverse, proxys vers l’interface Web externe pour le pool frontal  <br/> 131.107.155.1 proxy to 192.168.21.120   |Proxy pour le service Web Skype entreprise  <br/> Voir la section [URL simples](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |Nom de domaine complet (FQDN) du pool Office Web Apps Server  <br/> App. <span> </span>Contoso<span></span>. com   | Adresse IP publique de proxy inverse, proxys vers l’interface Web externe pour Office Web Apps Server <br/> 131.107.155.1 proxy pour 192.168.1.5   | Adresse VIP du pool Office Web Apps Server <br/> 192.168.1.5   |Définit le nom de domaine complet (FQDN) du pool Office Web Apps Server   |
 
 &#x2776; requis pour déployer la Fédération, sinon facultatif.

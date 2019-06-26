@@ -15,23 +15,23 @@ description: Cette section explique quelles données et autorisations sont deman
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167e8d8e628927e470422bf9d0a21adb06e48b53
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 598fd2d9dc8c8942a2d82e136c8367afa4d8495e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859735"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221944"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
 Les applications Microsoft Teams permettent de regrouper une ou plusieurs fonctionnalités dans un _package d’applications_ qui peut être installé, mis à niveau et désinstallé. Ces fonctionnalités incluent les éléments suivants :
 
--   Bots
--   Extensions de messagerie
--   Onglets
--   Connecteurs
+- Bots
+- Extensions de messagerie
+- Onglets
+- Connecteurs
 
-Les bots sont acceptés par les utilisateurs et gérés par le service informatique de vue stratégique. Cependant, pour la plupart d’entre eux, des autorisations d’applications et un profil de risque sont définis par les autorisations et les profils de risque des fonctionnalités qu'ils contiennent. Cet article est donc axé sur les autorisations et les éléments à prendre en compte au niveau des fonctionnalités.
+Les bots sont acceptés par les utilisateurs et gérés par le service informatique de vue stratégique. Toutefois, pour la plupart des cas, les autorisations et le profil de risques d’une application sont définis par les autorisations et les profils de risques des fonctionnalités contenues dans l’application. Cet article est donc axé sur les autorisations et les éléments à prendre en compte au niveau des fonctionnalités.
 
 Les autorisations répertoriées ci-dessous en majuscules, comme par exemple RECEIVE_MESSAGE et REPLYTO_MESSAGE, n’apparaissent pas partout dans la [documentation destinée aux développeurs Microsoft Teams](https://aka.ms/teamsdevdocs) ou les [autorisations de Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). Il ne s’agit que d’une description aux fins de cet article.
 

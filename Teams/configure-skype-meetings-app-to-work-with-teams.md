@@ -4,46 +4,44 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 09/21/2018
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Administrateurs peuvent utiliser le centre d’administration Microsoft Teams pour configurer l’application de réunions Skype pour travailler avec des équipes
+description: Les administrateurs peuvent utiliser le centre d’administration de Microsoft teams pour configurer l’application réunions Skype pour collaborer avec les équipes
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8d79a7afa03d071984aac2bdca874ecde7703c8
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198350"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221690"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’Application Réunions Skype pour fonctionner avec Teams
 ===================================================
 
-Après qu’un utilisateur est mis à niveau vers Microsoft Teams, administrateurs peuvent utiliser le centre d’administration Microsoft Teams pour spécifier l’application par défaut que les utilisateurs utiliseront pour joindre Skype pour les réunions d’entreprise.
+Une fois qu’un utilisateur a procédé à la mise à niveau de Microsoft Teams, vous pouvez utiliser le centre d’administration de Microsoft teams pour spécifier l’application préférée que les utilisateurs utiliseront pour participer aux réunions Skype entreprise.
 
-Pour spécifier la Skype pour application de réunions en tant que l’application par défaut :
+Pour spécifier l’application Skype pour les réunions comme application préférée:
 
 1. Se connecter au centre d’administration de Microsoft Teams.
-2. Dans le volet gauche, sous **paramètres de l’organisation**, sélectionnez **les équipes de mise à niveau**.
-3. Sur les équipes de mise à niveau de la page, sous **Préférences de l’application**, sélectionnez **Application de réunions Skype** à partir de la liste déroulante **application par défaut pour les utilisateurs à participer à Skype pour les réunions d’entreprise** .
+2. Dans le volet gauche, sous **paramètres**à l’échelle de l’organisation, sélectionnez **mise à niveau des équipes**.
+3. Dans la page mise à niveau de Microsoft Teams, sous **Préférences**de l’application, sélectionnez **application réunions Skype** dans la liste déroulante **application préférée pour permettre aux utilisateurs d’accéder à** la liste déroulante réunions Skype entreprise.
 
-![Choisissez application par défaut pour les utilisateurs à participer à Skype pour les réunions d’entreprise](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![Sélectionnez l’application préférée pour permettre aux utilisateurs de participer à des réunions Skype entreprise](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Limitations connues
 
-Les utilisateurs qui utilisent l’application de réunions Skype avec les équipes sont soumises aux limitations suivantes :
+Les utilisateurs qui utilisent l’application réunions Skype avec teams sont soumis aux limitations suivantes:
 
-- Les utilisateurs n’ont aucune option permettant de modifier leur périphérique vidéo.
-- Une fois un utilisateur est mis à niveau vers les équipes, si l’utilisateur est dans une réunion à l’aide de l’application de réunions Skype, puis reçoit un appel sur les équipes, la réunion dans l’application de réunions Skype n’est pas mises en attente. Au lieu de cela, l’utilisateur est connecté à deux appels.
+- Les utilisateurs n’ont pas la possibilité de modifier leur périphérique vidéo.
+- Après la mise à niveau d’un utilisateur vers Teams, si un utilisateur participe à une réunion à l’aide de l’application réunions Skype et reçoit un appel en équipe, la réunion dans l’application réunions Skype n’est pas suspendue. Au lieu de cela, l’utilisateur est connecté aux deux appels.
 
-## <a name="see-also"></a>Voir aussi
+## <a name="more-information"></a>Plus d’informations
 
-Pour plus d’informations sur l’application de réunions Skype, voir :
-
-- [Nouveautés Skype réunions application (Skype pour Business Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [Qu’est-ce que l’application réunions Skype (Skype entreprise Web App)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Configuration réseau minimale requise pour l’application Réunions Skype](https://technet.microsoft.com/library/mt845808.aspx)

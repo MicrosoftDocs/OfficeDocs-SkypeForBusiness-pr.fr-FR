@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux réseau dans Skype entreprise Server. Tous ces éléments sont utilisés pour les fonctionnalités avancées de voix entreprise: contournement du contenu multimédia, contrôle d’admission des appels et routage basé sur l’emplacement.'
-ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291199"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221482"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déploiement de régions, de sites et de sous-réseaux réseau dans Skype entreprise
 
 Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux réseau dans Skype entreprise Server. Tous ces éléments sont utilisés pour les fonctionnalités avancées de voix entreprise: contournement du contenu multimédia, contrôle d’admission des appels et routage basé sur l’emplacement.
 
-Les fonctionnalités avancées de Voix Entreprise sont [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) et [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Ces fonctionnalités vous obligent à créer toutes les régions réseau, sites réseau et sous-réseaux. Par exemple, toutes ces fonctionnalités requièrent que chaque sous-réseau de votre topologie soit associé à un site réseau spécifique, et que chaque site réseau soit associé à une région réseau. Pour plus d’informations sur ces termes, voir [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Les fonctionnalités avancées de voix entreprise sont le [contrôle d’admission des appels](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), le contournement du [média](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), le [routage](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)géolocalisation et [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Ces fonctionnalités vous obligent à créer toutes les régions réseau, sites réseau et sous-réseaux. Par exemple, toutes ces fonctionnalités requièrent que chaque sous-réseau de votre topologie soit associé à un site réseau spécifique, et que chaque site réseau soit associé à une région réseau. Pour plus d’informations sur ces conditions, voir [paramètres réseau pour les fonctions avancées de voix entreprise dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 Le contrôle d’admission des appels et E9-1-1 ont des exigences de configuration supplémentaires pour les sites réseau :
 

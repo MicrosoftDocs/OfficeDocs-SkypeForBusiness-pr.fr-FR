@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
-ms.openlocfilehash: 8b45067cf0c717fdcda144fc44750b7cf3d0f7f7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 248b541a4d57c3b51a48694d3194432cc207db06
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297815"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221188"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
@@ -58,7 +58,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d’une
     
 2. Vérifiez la version en entrant _Get-Host_ dans la fenêtre **Windows PowerShell** .
     
-3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4.0, consultez [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845). Redémarrez votre ordinateur lorsque vous y êtes invité.
+3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     

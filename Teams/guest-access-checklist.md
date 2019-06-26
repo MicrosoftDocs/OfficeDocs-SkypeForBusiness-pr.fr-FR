@@ -3,7 +3,7 @@ title: Liste de contrôle de l’accès invité Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131416"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221659"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité teams
 ==========================================
@@ -39,7 +39,7 @@ L’interface des invités a des limitations par conception. Assurez-vous de bie
 - Créer ou réviser une équipe
 - Rechercher une équipe
 - Télécharger des fichiers dans une conversation de personne à personne
-- Les invités peuvent toujours Rechercher et Rechercher des utilisateurs, en dehors de leur équipe, s’ils connaissent leur ID de messagerie complet. Pour éviter ce problème, les administrateurs informatiques peuvent utiliser les modèles tels que la recherche dans l' [Annuaire](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) et permettent de limiter les invités à leur propre gal virtuelle.
+- Les invités peuvent toujours Rechercher et Rechercher des utilisateurs (en dehors de leur équipe) s’ils connaissent l’ID de courrier complet de l’utilisateur. Pour éviter ce problème, les administrateurs informatiques peuvent utiliser les modèles tels que la recherche dans l' [Annuaire](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) et permettent de limiter les invités à leur propre gal virtuelle.
 
 Pour plus d’informations, reportez-vous à [l’interface utilisateur](guest-experience.md) et [accès invité dans les groupes Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
@@ -49,7 +49,7 @@ Pour plus d’informations, reportez-vous à [l’interface utilisateur](guest-e
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si vos invités voient des erreurs de licence
 
-L’accès invité dans Microsoft teams utilise Azure Active Directory Business to Business (B2B) et son modèle de licence. Si vous rencontrez des erreurs de gestion des licences, veillez à lire les [recommandations](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) en matière de gestion des licences interentreprises pour comprendre les exigences en matière de licences dont dispose votre organisation afin que vos utilisateurs puissent inviter des invités à votre organisation.
+L’accès invité dans Microsoft teams utilise Azure Active Directory (Azure AD) Business to Business (B2B) et son modèle de licence. Si vous rencontrez des erreurs de gestion des licences, veillez à lire les [recommandations](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) en matière de gestion des licences interentreprises pour comprendre les exigences en matière de licences dont dispose votre organisation afin que vos utilisateurs puissent inviter des invités à votre organisation.
 
 Quelques points à garder à l’esprit:
 
@@ -60,7 +60,7 @@ Quelques points à garder à l’esprit:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Étape 1: configurer les paramètres d’Azure AD Business-to-Business
 
-1. Connectez-vous àhttps://portal.azure.com
+1. Connectez-vous https://portal.azure.com.
 2. Dans le volet de gauche, cliquez sur **Azure Active Directory** .
 3. Sous **gestion**, cliquez sur paramètres de l' **utilisateur**.
 4. Sous **utilisateurs externes**, cliquez sur **gérer les paramètres de collaboration externes**.
@@ -68,10 +68,10 @@ Quelques points à garder à l’esprit:
 
       ![Capture d’écran illustrant un exemple de bascule de paramètres AAD. ](media/guest-access-checklist-AADSettings1.png)
 
-    Pour prendre en charge **les** invités, l’invitation doit être définie sur **Oui**. 
-   
-> [!NOTE] 
-> Si vous définissez des **membres comme invités** sur **non** , puis activez l’accès invité aux groupes Office 365 et Microsoft Teams, l’administrateur peut contrôler les invitations des invités à votre annuaire. Lorsque les invités sont dans l’annuaire, ils peuvent être ajoutés à des équipes par des membres non administrateurs qui sont des propriétaires d’équipe.
+    Pour prendre en charge **les** invités, l’invitation doit être définie sur **Oui**.
+
+    > [!NOTE] 
+    > Si vous définissez des **membres comme invités** sur **non** , puis activez l’accès invité aux groupes Office 365 et Microsoft Teams, l’administrateur peut contrôler les invitations des invités à votre annuaire. Lorsque les invités sont dans l’annuaire, ils peuvent être ajoutés à des équipes par des membres non administrateurs qui sont des propriétaires d’équipe.
 
 Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès invité dans Microsoft Teams](Teams-dependencies.md).
 
@@ -84,7 +84,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès inv
 
      ![La capture d’écran indique le bouton bascule groupes d’Office 365](media/guest-access-checklist-office365.png)
 
-Pour obtenir des instructions détaillées sur la configuration de ces paramètres, voir [gérer l’accès invité dans les groupes office 365](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) et la section «groupes 365 Office» dans [autoriser l’accès invité dans Microsoft teams](Teams-dependencies.md).
+Pour obtenir des instructions détaillées sur la configuration de ces paramètres, voir [gérer l’accès invité dans les groupes office 365](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) et [contrôler l’accès invité dans les groupes Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Étape 3: activer l’accès invité au niveau du client

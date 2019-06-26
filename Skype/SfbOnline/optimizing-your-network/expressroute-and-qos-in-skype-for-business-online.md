@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 36af4a817a106758fbe95fb91e03661b9e200b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299182"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221246"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
@@ -377,7 +377,7 @@ Il est important de noter qu'il y a une incompatibilité dans le codage des prio
 
 L'autre méthode de mise en œuvre de QoS dans une configuration réseau ExpressRoute consiste à utiliser une liste de contrôle d'accès (ACL) réseau. Dans cette approche, au lieu que les points de terminaison insèrent le marquage DSCP dans l'en-tête de chaque paquet, le marquage peut être effectué par un routeur en amont basé sur le port UDP source. Tous les commutateurs et les routeurs doivent toujours être configurés pour prendre en charge QoS afin de vérifier que les paramètres DSCP sont conservés. Mieux encore, le routeur connecté au réseau du fournisseur de services doit conserver les paramètres DSCP dans l'en-tête de chaque paquet, car il s'agit d'instructions que vous avez saisies pour indiquer au fournisseur de services la façon dont le paquet doit être traité.
   
-Les plages de ports recommandées pour chaque application Skype Entreprise sont répertoriées dans la section 2.6.1.1 du guide [Planification, surveillance et dépannage réseau avec Lync Server ](https://go.microsoft.com/fwlink/?LinkId=690286). Il est important de coordonner cela avec l'approche globale de l'entreprise vis-à-vis de QoS, et vous devez être conscient des différentes stratégies de QoS et des différences de marquage de paquets potentielles.
+Les plages de port recommandées pour chaque application Skype entreprise sont répertoriées dans la section 2.6.1.1 du Guide de [planification, de surveillance et de dépannage du réseau avec Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286) . Il est important de coordonner cela avec l'approche globale de l'entreprise vis-à-vis de QoS, et vous devez être conscient des différentes stratégies de QoS et des différences de marquage de paquets potentielles.
   
 Même si la principale raison d'utiliser les services réseau QoS et MPLS est de garantir une expérience utilisateur excellente pour la voix et la vidéo en temps réel, ces fonctionnalités peuvent s'appliquer aux applications de données. Au lieu de traiter toutes les applications de la même façon, les réseaux MPLS permettent aux entreprises de hiérarchiser les priorités entre applications de données. Avec MPLS, les applications en temps réel, comme les transactions de carte de crédit ou le partage d'applications, peuvent être prioritaires par rapport aux applications dont le trafic est moins urgent, comme la messagerie électronique.
   

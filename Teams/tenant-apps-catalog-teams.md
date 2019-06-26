@@ -1,13 +1,13 @@
 ---
-title: Publier des applications dans le catalogue d’applications de locataire Microsoft Teams
+title: Publier des applications dans le catalogue d’applications client Microsoft teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2019
+ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
-description: Conseils pour la publication d’applications dans le catalogue d’applications Microsoft équipes client.
+description: Conseils pour la publication d’applications dans le catalogue d’applications client Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
@@ -16,65 +16,65 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc26292e41328589f302127980f4a303efd46a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226700"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221324"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications de locataire Microsoft Teams
+<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications client Microsoft teams
 =======================================================
 
-Vous pouvez utiliser le catalogue d’applications client équipes Microsoft pour tester et distribuer des applications métier de votre organisation. 
+Vous pouvez utiliser le catalogue d’applications client Microsoft teams pour tester et distribuer des applications métier à votre organisation.
 
-Le catalogue d’applications client équipes vous permet de distribuer vos applications line-of-business qui ont été conçues spécialement pour votre organisation et que vous vous appuyez sur terminent fonctions critiques à vos utilisateurs. 
- 
-Se connecter à votre client équipes à l’aide de vos informations d’identification d’administrateur global et publier des applications pour votre organisation. 
+Le catalogue d’applications de locataire teams vous permet de distribuer des applications métier qui ont été spécifiquement développées pour votre organisation et dont vous avez l’assurance que vous vous bamettrez à effectuer les fonctions stratégiques de l’entreprise.
 
-## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>Publier une application dans le catalogue d’applications client à partir du client d’équipes
+Pour publier des applications pour votre organisation, connectez-vous à votre client teams à l’aide de vos informations d’identification d’administrateur global, puis suivez les instructions ci-dessous.
 
-Remarque : Vous devez être connecté au client Microsoft Teams à l’aide de vos informations d’identification d’administrateur global à publier des applications pour votre organisation.
+## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publier une application dans le catalogue d’applications client à partir du client teams
 
-### <a name="get-a-teams-app-package"></a>Obtenir un package d’application équipes
+> [!NOTE]
+> Vous devez être connecté au client Microsoft teams à l’aide de vos informations d’identification d’administrateur général pour publier des applications pour votre organisation.
 
-Un package d’application équipes est créé à l’aide des [Équipes application Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Une fois le package d’application, vous pouvez l’ajouter à un catalogue d’applications de contenu d’entreprise. Tous les utilisateurs dans le client lors de la vue du catalogue d’applications, actuellement uniquement global admins peut avoir la possibilité de publier et gérer. (Éventuellement, équipes administrateurs pourront faire également.)
+### <a name="get-a-teams-app-package"></a>Obtenir un package d’application teams
 
-### <a name="go-to-the-tenant-apps-catalog"></a>Accédez au catalogue d’applications client
+Un package d’application teams est créé à l’aide de [teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Une fois le package d’application installé, vous pouvez l’ajouter au catalogue d’applications de l’entreprise. Même si tous les utilisateurs du client peuvent afficher le catalogue d’applications, seuls les administrateurs généraux ont la possibilité de les publier et de les gérer. (Il est possible que les administrateurs d’équipes puissent également effectuer cette opération.)
 
-Lancer le client Microsoft Teams et connexion à l’aide de vos informations d’identification d’administrateur global. Dans le Store Teams Microsoft, sélectionnez la nouvelle section nommée pour votre organisation spécifique (dans cet exemple, Contoso). Les utilisateurs de votre organisation peuvent afficher les applications dans le catalogue et installez-les aux équipes dont ils sont membres. 
+### <a name="go-to-the-tenant-apps-catalog"></a>Accédez au catalogue des applications clientes.
 
-![Capture d’écran de l’App Store équipes affichant le catalogue d’applications.](media/private-app-store-teams-image01.png)
+Démarrez le client Microsoft Teams, puis connectez-vous à l’aide de vos informations d’identification d’administrateur général. À partir de Microsoft teams Store, sélectionnez la nouvelle section intitulée pour votre organisation spécifique (dans cet exemple, contoso). Les utilisateurs de votre organisation peuvent afficher les applications dans le catalogue et les installer pour les équipes dont ils sont membres.
 
-### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Ajouter une application au catalogue d’applications client
+![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image01.png)
 
-Dans le magasin, sélectionnez **télécharger une application personnalisée** > **télécharger pour Contoso**.
+### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Ajouter une application au catalogue d’applications locataire
 
-![Capture d’écran de l’App Store équipes affichant le catalogue d’applications.](media/private-app-store-teams-image02.png)
+1. Dans le Windows Store, sélectionnez **Télécharger un** > **chargement d’application personnalisé pour Contoso**.
 
-(Vous pouvez également choisir de **télécharger pour moi ou Mes équipes**, qui est appelée chargement de version test, ce qui rend l’application disponible uniquement pour votre ou vos équipes sélectionnés.) 
+    ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image02.png)
 
-Naviguer vers le package d’application et sélectionnez-le.
+    (Vous pouvez également choisir **Télécharger pour moi ou mes équipes**, qui s’appelle *chargement indépendant*. Chargement indépendant rend l’application disponible uniquement pour vos équipes ou pour les équipes que vous sélectionnez.)
 
-![Capture d’écran de l’App Store équipes affichant le catalogue d’applications.](media/private-app-store-teams-image03.png)
+2. Accédez au package d’application et sélectionnez-le, puis cliquez sur **ouvrir**.
 
-Lorsque vous retournez à votre catalogue d’applications client, la nouvelle application d’entreprise sera il. N’oubliez pas seulement vous et les membres de votre organisation ont accès à ce catalogue d’applications.
+    ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image03.png)
 
-### <a name="update-an-app-in-the-tenant-apps-catalog"></a>Mettre à jour une application dans le catalogue d’applications client
+Lorsque vous revenez au catalogue d’applications de votre client, la nouvelle application d’entreprise est disponible. N’oubliez pas que seuls les membres de votre organisation et vous avez accès à ce catalogue d’applications.
 
-1. À partir de votre catalogue d’applications client, sélectionnez «****» sur supérieur droit de l’application que vous souhaitez mettre à jour.
-2. Naviguez vers le package d’application mis à jour et sélectionnez-le.
+### <a name="update-an-app-in-the-tenant-apps-catalog"></a>Mise à jour d’une application dans le catalogue des applications clientes
 
-![Capture d’écran de l’App Store équipes affichant le catalogue d’applications.](media/private-app-store-teams-image04.png)
+1. Dans le catalogue d’applications de votre client, sélectionnez «**...**» dans le coin supérieur droit de l’application que vous voulez mettre à jour.
 
-L’application est révisée à la version 2.0. Vous permet également de supprimer l’application de votre société dans ce menu.
+2. Accédez au package d’application mis à jour, sélectionnez-le, puis cliquez sur **ouvrir**.
 
-## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Utilisez le portail d’administration d’Office 365 pour gérer le catalogue d’applications client
+    ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image04.png)
 
-Si vous avez des applications qui nécessitent des correctifs, vous pouvez temporairement désactiver les applications via le portail d’administration d’Office 365, sélectionnez **paramètres** > **compléments Services &** > **Équipes Microsoft**. En plus des paramètres précédents, il est désormais une section dédié aux applications de votre entreprise. Vous pouvez choisir les applications que vous souhaitez activer ou désactiver.
+L’application sera révisée vers la version 2,0. Vous pouvez également supprimer l’application pour votre entreprise dans le menu.
 
-![Capture d’écran de l’App Store équipes affichant le catalogue d’applications.](media/private-app-store-teams-image05.png)
+## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Utiliser le portail d’administration Office 365 pour gérer le catalogue des applications clientes
 
-Cela empêche les utilisateurs d’interagir avec l’application, sans supprimer complètement de l’application. Ces contrôles donner administrateurs davantage de flexibilité et contrôler quand la gouvernance des applications dans votre entreprise. 
+Si vous avez des applications qui nécessitent des correctifs, vous pouvez désactiver temporairement les applications par le biais du portail d’administration Office 365. Sélectionnez **paramètres** > **services & compléments** > **Microsoft teams**. Outre les paramètres précédents, il existe désormais une section consacrée aux applications de votre entreprise. Vous pouvez sélectionner les applications que vous souhaitez activer ou désactiver.
 
+![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image05.png)
 
+La désactivation d’une application empêche les utilisateurs d’interagir avec celle-ci, sans supprimer entièrement l’application. Ces contrôles vous offrent une plus grande souplesse et contrôle lors de la gestion des applications dans votre entreprise.

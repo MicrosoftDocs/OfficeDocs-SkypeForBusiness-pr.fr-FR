@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Résumé: Découvrez les points à prendre en compte lors de la planification d’une mise à niveau vers Skype entreprise Server 2015. Télécharger une version d’évaluation gratuite de Skype entreprise Server 2015 à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: 931ac609dec370d03fe50034300346b7e41c5f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296783"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222130"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Plan de mise à niveau vers Skype Entreprise Server 2015
  
@@ -68,7 +68,7 @@ La mise à niveau sur place implique la mise hors connexion du pool Lync Server 
 1. Présentation de votre topologie actuelle.
     
     > [!NOTE]
-    > Avant de procéder à la mise à niveau sur place, veillez à désinstaller LRS outil d’administration pour Lync Server 2013. L’outil d’administration de LRS pour Lync Server 2013 ne peut pas cohabiter avec Skype entreprise Server 2015. Après l’exécution de la mise à niveau sur place, accédez au nouvel outil d’administration de LRS, reportez-vous à la rubrique [Microsoft Lync Room System Administration Portal pour Skype entreprise Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807)
+    > Avant de procéder à la mise à niveau sur place, veillez à désinstaller LRS outil d’administration pour Lync Server 2013. L’outil d’administration de LRS pour Lync Server 2013 ne peut pas cohabiter avec Skype entreprise Server 2015. Après l’exécution de la mise à niveau sur place, installez le nouvel outil d’administration LRS. Pour plus d’informations, reportez-vous à la rubrique [portail Web d’administration du système de salle Microsoft Lync pour Skype entreprise Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) .
   
 2. Pool principal de la mise à niveau.
     
@@ -148,7 +148,7 @@ Pour utiliser cette méthode, déplacez les utilisateurs vers un autre pool avan
    - Pour les serveurs frontaux, utilisez Start-CSWindowsService.
     
 > [!NOTE]
->  Si vous ne souhaitez pas mettre à niveaux vos bases de données d’archivage et de surveillance existants, supprimez la dépendance avant la mise à niveau de la topologie. Si vous voulez créer de nouvelles bases de données de surveillance et d’archivage, lors de la mise à niveau, vous pouvez créer un nouveau magasin SQL et l’associer au pool. Pour plus d’informations sur la procédure à suivre, voir la rubrique[mise à niveau vers Skype entreprise Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > la mise à niveau sur place ne prend pas en charge la haute disponibilité ou la reprise après sinistre pour Skype entreprise Server. Pour éviter d’interrompre les services des utilisateurs, utilisez la [méthode de déplacement des utilisateurs (sans temps d’arrêt de l’utilisateur)](upgrade.md#bkmk_MoveUsersMethod) pour mettre à niveau. > pendant le processus de mise à niveau, il est placé dans le dossier local partagé sur le lecteur de disque avec l’espace le plus libre. Si ce disque est supprimé par la suite, vous pouvez rencontrer des problèmes, comme des services qui ne démarrent pas.
+>  Si vous ne souhaitez pas mettre à niveaux vos bases de données d’archivage et de surveillance existants, supprimez la dépendance avant la mise à niveau de la topologie. Si vous voulez créer de nouvelles bases de données de surveillance et d’archivage, lors de la mise à niveau, vous pouvez créer un nouveau magasin SQL et l’associer au pool. Pour plus d’informations sur la procédure à suivre, voir la rubrique[mise à niveau vers Skype entreprise Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > mise à niveau sur place ne prend pas en charge la haute disponibilité ou la reprise après sinistre pour Skype entreprise Server. Pour éviter d’interrompre les services des utilisateurs, utilisez la [méthode de déplacement des utilisateurs (sans temps d’arrêt)](upgrade.md#bkmk_MoveUsersMethod) pour effectuer la mise à niveau. > au cours de la procédure de mise à niveau. Si ce disque est supprimé par la suite, vous pouvez rencontrer des problèmes, comme des services qui ne démarrent pas.
   
 ### <a name="upgrade-order"></a>Séquence de la mise à niveau
 

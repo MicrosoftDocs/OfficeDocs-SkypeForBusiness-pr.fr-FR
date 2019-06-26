@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933779"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221952"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 ======================================================
@@ -44,7 +44,7 @@ Le tableau suivant identifie les sections de l’interface d’équipe qui ont �
 
 |Section d’équipes dans le centre d’administration 365 Microsoft  |Nom du paramètre (niveau du client)  |Stratégie du centre d’administration Microsoft teams   |Niveau: client ou utilisateur   |
 |---------|---------|---------|---------|
-|Général     |Afficher la discussion d’organisation dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Améliorations       |
+|Général     |Affichage de l’organigramme dans le profil personnel        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Améliorations       |
 |Général     |Utiliser Skype entreprise pour les destinataires qui ne disposent pas de Microsoft teams         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
 |Intégration de courrier électronique     |Autoriser les utilisateurs à envoyer des messages électroniques à des canaux         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Améliorations         |
 |Intégration de courrier électronique     |Liste des expéditeurs autorisés         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Améliorations         |

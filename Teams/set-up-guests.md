@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver l'accès invité dans Microsoft Teams
+title: Activation ou désactivation de l’accès invité à Microsoft teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,17 +17,17 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20aed363bcdd7777639adf04687f5d62a3757a97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 240e93d5f6329090940e6bf49cb2d6a4ee46ce2f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894359"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221450"
 ---
-<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité dans Microsoft Teams
-======================================
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
+===================================================
 
-En tant qu'administrateur d'Office 365, vous devez activer la fonctionnalité Invité pour que vous ou les utilisateurs de votre organisation (notamment les propriétaires d'équipe) puissiez ajouter des invités. 
+En tant qu'administrateur d'Office 365, vous devez activer la fonctionnalité Invité pour que vous ou les utilisateurs de votre organisation (notamment les propriétaires d'équipe) puissiez ajouter des invités.
 
 Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu'il essaye d'ajouter un invité à son équipe, il est probable que la fonctionnalité d'invité ne soit pas activée ou que les paramètres ne sont pas encore actifs.
 
@@ -64,8 +64,8 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
     - **Évaluation du contenu Giphy** : sélectionner une note dans la liste déroulante :
        - **Autoriser tout le contenu** : les invités pourront insérer tous les Giphys dans des conversations, quelle que soit l’évaluation du contenu.
        - **Modéré** : les invités pourront insérer Giphys dans les conversations, mais seront relativement limités pour le contenu adulte.
-       - **Strict** : les invités pourront insérer Giphys dans les conversations, mais seront entièrement limités pour le contenu adulte.
-    - **Utiliser Memes dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Memes dans les conversations.
+       - **Strict** : les invités seront en mesure d’insérer des Giphys dans les discussions, mais ils ne seront pas autorisés à insérer des contenus adultes.
+    - **Utiliser mèmes dans conversations** : activez ce paramètre **** pour autoriser les invités à utiliser mèmes dans les conversations.
     - **Utiliser des Autocollants dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Autocollants dans les conversations. 
 
 

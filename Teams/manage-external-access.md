@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Votre administrateur informatique peut configurer l’accès externe pour les autres domaines (Fédération) pour permettre aux utilisateurs de ces domaines de participer aux équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: cf211e88a1eff071fcae10bc90c4d78ed3ccface
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133922"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221272"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gérez l’accès externe (fédération) dans Microsoft Teams
 ======================================================
@@ -67,13 +67,13 @@ Consultez le tableau ci-dessous pour obtenir une comparaison des fonctionnalité
 | @mentions prises en charge | Non | Oui |
 | Passer des appels privés | Oui | Oui |
 | Autoriser la vidéo IP | Oui | Oui |
-| Mode de partage d’écran | Oui | Oui |
+| Mode de partage d’écran | Non | Oui |
 | Autoriser la Conférence maintenant | Non | Oui |
-| Modifier les messages envoyés | Oui | Oui |
-| Peut supprimer les messages envoyés | Oui | Oui |
-| Utiliser Giphy dans une conversation | Oui | Oui |
-| Utiliser mèmes dans une conversation | Oui | Oui |
-| Utiliser les autocollants dans les conversations | Oui | Oui |
+| Modifier les messages envoyés | Non | Oui |
+| Peut supprimer les messages envoyés | Non | Oui |
+| Utiliser Giphy dans une conversation | Non | Oui |
+| Utiliser mèmes dans une conversation | Non | Oui |
+| Utiliser les autocollants dans les conversations | Non | Oui |
 ||||
 
 <sup>1</sup> si l’utilisateur a été ajouté en tant qu’invité et est connecté en tant qu’invité au client invité.<br>

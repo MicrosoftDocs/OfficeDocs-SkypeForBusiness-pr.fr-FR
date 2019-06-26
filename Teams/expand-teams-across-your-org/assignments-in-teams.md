@@ -15,12 +15,12 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131519"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221256"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
@@ -66,7 +66,7 @@ Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà dispose
 Voici quelques instructions pour vous aider à obtenir ces informations.
 
 TurnitinApiUrl est l’adresse d’hôte de votre console d’administration.
-Example. https:[]()//Your-tenant-Name.Turnitin.com
+Example. `https://your-tenant-name.turnitin.com`
 
 La console d’administration est l’endroit où vous pouvez créer une intégration et une clé d’API associée à l’intégration.
 

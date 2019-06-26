@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198276"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222037"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -180,9 +180,9 @@ Moniteur réseau est un outil que vous pouvez [Télécharger auprès de Microsof
 
 3. Arrêtez la capture.
 
-4. Dans le champ **filtre d’affichage** , utilisez l’adresse IP source du PC à l’origine de l’appel et affinez le filtre en définissant la valeur DSCP 46 (hex 0xB8) comme critère de recherche, comme le montre l’exemple suivant:
+4. Dans le champ **filtre d’affichage** , utilisez l’adresse IP source du PC à l’origine de l’appel et affinez le filtre en définissant la valeur DSCP 46 (hex 0x2E) comme critère de recherche, comme le montre l’exemple suivant:
 
-    Source = = «192.168.137.201» et IPv4. DifferentiatedServicesField = = 0xB8
+    Source = = «192.168.137.201» et IPv4. DifferentiatedServicesField = = 0x2E
 
     ![Filtres de capture d’écran de la boîte de dialogue Filtre d’affichage.] (media/Qos-in-Teams-Image4.png "La boîte de dialogue Filtre d’affichage du moniteur réseau, montrant les filtres à appliquer.")
 

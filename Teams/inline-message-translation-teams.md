@@ -1,9 +1,9 @@
 ---
-title: Utiliser la traduction des messages incorporée dans Microsoft Teams
+title: Activer la traduction de messages en ligne dans Microsoft teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/30/2018
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,33 +18,32 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58e6fb04dd015e939125b75d604fe9692a32c0e2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dfd0582837b2e9c9859b44292255e5e42a2f35a4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222324"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222068"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a>Utiliser la traduction des messages incorporée dans Microsoft Teams 
+<a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Activer la traduction de messages en ligne dans Microsoft teams 
 =================================================
 
 La traduction des messages incorporée est une nouvelle fonctionnalité de Microsoft Teams, qui permet aux utilisateurs de traduire automatiquement les messages Teams dans la [langue](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) spécifiée par leurs paramètres de langue personnels pour Office 365.
 
-La traduction des messages incorporée est déployée par défaut pour votre organisation. Si vous souhaitez autoriser les utilisateurs à utiliser cette fonctionnalité dans le client d’équipes, vous devez activer ce paramètre.
+La traduction des messages incorporée est déployée par défaut pour votre organisation. Si vous voulez autoriser les utilisateurs à utiliser cette fonctionnalité dans le client Teams, vous devez activer ce paramètre.
 
 > [!NOTE]
->Ce déploiement est exclu des abonnements Office 365 dans les environnements de notre nuage de la Communauté Office 365 pour le gouvernement et Office 365 Allemagne.
+>Ce déploiement est exclu des abonnements Office 365 dans le Cloud Office 365 Government Community et les environnements Office 365 Germany.
 
-## <a name="enable-by-using-powershell"></a>Activer à l’aide de PowerShell
+## <a name="use-powershell-to-turn-on-inline-message-translation"></a>Utiliser PowerShell pour activer la traduction de messages en ligne
 
-Vous pouvez activer la fonctionnalité de traduction de messages incorporés à l’aide de la stratégie de messagerie.
+Vous pouvez utiliser la stratégie de messagerie pour activer la traduction des messages insérés.
 
-1. Activer la stratégie à l’aide de l’applet de commande [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
-2. La stratégie prend quelques minutes à appliquer. Vous devrez vous déconnecter et vous reconnecter aux équipes des utilisateurs.
+Activez la stratégie à l’aide de l’applet de cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) . L’application de la stratégie prend quelques minutes. Vous devrez peut-être vous déconnecter et vous reconnecter à Teams.
 
-## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Activer à l’aide du centre d’administration Microsoft Teams
+## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a>Utiliser le centre d’administration de Microsoft teams pour activer la traduction de messages en ligne
 
-Dans le **Centre d’administration de Microsoft équipes**, sélectionnez **Stratégies de messagerie** dans la barre de gauche, soit créer une nouvelle stratégie ou modifier une stratégie existante, puis définissez l’option **Autoriser les utilisateurs à convertir des messages** **sur**.
+Dans le **Centre d’administration de Microsoft teams**, sélectionnez **stratégies de messagerie** dans le volet de navigation de gauche, puis créez une nouvelle stratégie ou modifiez une stratégie existante et définissez l’option **autoriser les utilisateurs à traduire les messages** sur **activé**.
 
 > [!NOTE]
->Traduction est effectuée par le service et remise au client avec aucun effet sur le contenu capturé dans les enregistrements de conformité. Pour plus d’informations sur la traduction, voir [What ' s Microsoft Translator ?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
+> Le service effectue la traduction et le remet au client, sans effet sur le contenu capturé dans les enregistrements de conformité. Pour en savoir plus sur la traduction, voir [qu’est-ce que Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).

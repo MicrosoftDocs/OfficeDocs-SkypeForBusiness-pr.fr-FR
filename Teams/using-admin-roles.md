@@ -1,5 +1,5 @@
 ---
-title: Utiliser des rôles d’administrateur Microsoft Teams pour gérer des équipes
+title: Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,61 +10,61 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 ms.reviewer: islubin
-description: Découvrez comment utiliser les différents rôles d’administration pour gérer les équipes.
+description: Apprenez à utiliser les différents rôles d’administration pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8b2d1c9f1dccc12f630625d880dad54b0497f12
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108738"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221216"
 ---
-# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser des rôles d’administrateur Microsoft Teams pour gérer des équipes
+# <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
 
-À l’aide d’Azure Active Directory (AD Azure), vous pouvez désigner les administrateurs qui ont besoin de différents niveaux d’accès pour gérer Microsoft Teams. Les administrateurs peuvent gérer la charge de travail d’équipes entière, ou ils peuvent avez délégué des autorisations pour la résolution des problèmes d’appel des problèmes de qualité ou de la gestion des besoins de téléphonie de votre organisation. 
+À l’aide d’Azure Active Directory (Azure AD), vous pouvez désigner les administrateurs qui ont besoin d’un niveau d’accès différent pour gérer Microsoft Teams. Les administrateurs peuvent gérer toute la charge de travail teams ou disposer d’autorisations déléguées pour la résolution des problèmes de qualité des appels ou la gestion des besoins en téléphonie de votre organisation. 
 
-## <a name="teams-roles-and-capabilities"></a>Rôles d’équipes et fonctionnalités
+## <a name="teams-roles-and-capabilities"></a>Rôles et capacités de teams
 
-Il existe quatre rôles d’administrateur équipes : administrateur de service d’équipes, administrateur de communications d’équipes, spécialiste des équipes communications prise en charge et communications équipes ingénieur de support. Consultez le tableau suivant pour comprendre ce que chaque rôle peut faire et choix des outils de l’administrateur peut utiliser dans le centre d’administration de Microsoft Teams et PowerShell.
+Il existe quatre rôles d’administrateur d’équipes disponibles: l’administrateur de service Teams, l’administrateur des communications Teams, le support technique de Microsoft Team communications et l’ingénieur du support des communications Teams. Consultez le tableau ci-dessous pour comprendre le fonctionnement de chaque rôle et les outils qu’il peut utiliser dans le centre d’administration Microsoft teams et PowerShell.
 
 <!-- add Global admin role? -->
 
-| Rôle | Peuvent effectuer ces tâches | Les outils suivants peuvent accéder à |
+| Rôle | Tâches possibles | Peut accéder aux outils suivants |
 |----- | ------------------ | ------------------------------ |
-| Administrateur du service Teams | Gérer le service Microsoft Teams, gérer et créer des groupes Office 365 | Tous les éléments dans le centre d’administration de Microsoft Teams et contrôles PowerShell associés, notamment :<br><br> Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Gérer la messagerie, y compris la messagerie stratégies<sup>1,3</sup><br><br> Gérer tous les paramètres à l’échelle de l’organisation, y compris la fédération, la mise à niveau des équipes et équipes client paramètres<sup>1,3</sup><br><br> Gérer les équipes dans l’organisation et leurs paramètres associés, y compris l’appartenance (gestion de groupe prises en charge par le biais de PowerShell, gestion de l’équipe dans le centre d’administration équipes) <sup>23</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé <br><br> Accéder, surveiller et dépanner la qualité des appels du client et la fiabilité à l’aide de données exposées dans tableau de bord de la qualité des appels (CQD) aux utilisateurs concernés par l’appel de mauvaise qualité. Créer des rapports, mettre à jour et supprimer des rapports selon vos besoins. Télécharger et mettre à jour CQD création de données |
-| Administrateur des communications Teams | Gérer les appels et les fonctionnalités des réunions au sein du service d’équipes | Gérer des réunions, y compris des réunions de conférence, les configurations et les stratégies de ponts<sup>1,3</sup><br><br> Gérer la voix, notamment l’appel de stratégies et téléphone inventaire et affectation numéro<sup>1</sup><br><br> Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé <br><br> Accéder, surveiller et dépanner la qualité des appels du client et la fiabilité à l’aide de données exposées dans tableau de bord de la qualité des appels (CQD) aux utilisateurs qui sont affectées par l’appel de mauvaise qualité. Créer des rapports, mettre à jour et supprimer des rapports selon vos besoins. Télécharger et mettre à jour CQD création de données |
-| Ingénieur du support technique pour les communications Teams | Résoudre les problèmes de communication au sein des équipes à l’aide des outils **avancés** . | Afficher la page de profil utilisateur et de résoudre les problèmes de qualité des appels utilisateur à l’aide de diagnostic<sup>3</sup> dépannage avancé <br><br> Accéder, surveiller et dépanner la qualité des appels du client et la fiabilité à l’aide de données exposées dans tableau de bord de la qualité des appels (CQD) aux utilisateurs qui sont affectées par la qualité des appels médiocres |
-| Spécialiste des équipes Communications prise en charge | Résoudre les problèmes de communication au sein des équipes à l’aide des outils de **base** .| Accès à la page de profil utilisateur pour résoudre les problèmes des appels dans Analytique d’appel. Peut afficher uniquement les informations de l’utilisateur spécifique recherché.<sup>3</sup> <br><br> Accéder, surveiller et dépanner la qualité des appels du client et la fiabilité à l’aide de données exposées dans tableau de bord de la qualité des appels (CQD).  
+| Administrateur du service Teams | Gérer le service équipes et gérer et créer des groupes Office 365 | Tout le centre d’administration Microsoft teams et les contrôles PowerShell associés, notamment:<ul><li> Gestion des réunions, y compris des stratégies de réunion, des configurations et des ponts de conférence. <sup>1, 3</sup></li><li>Gérer la voix, y compris les politiques d’appel et le numéro de téléphone et l’affectation. <sup>1</sup></li><li>Gérer les messages, y compris les stratégies de messagerie. <sup>1, 3</sup></li><li>Gestion de tous les paramètres à l’échelle de l’organisation, y compris les paramètres de Fédération, de mise à niveau des équipes et du client Teams. s<sup>1, 3</sup></li><li>Gérer les équipes au sein de l’organisation et leurs paramètres associés, y compris l’appartenance (gestion des groupes prises en charge par PowerShell, gestion des équipes dans le centre d’administration Teams). <sup>23</sup></li><li>Afficher la page de profil de l’utilisateur et résoudre les problèmes de qualité des appels d’utilisateur à l’aide du jeu d’outils avancé. <sup>3</sup> </li><li> Accédez à des données exposées dans le tableau de bord de qualité des appels pour surveiller et résoudre les problèmes de qualité des appels et de la fiabilité du client à l’aide des données exposées dans le tableau de bord de qualité d’appel (bord). Créer des rapports, mettre à jour et supprimer des rapports selon vos besoins. Téléchargez et mettez à jour les données de bâtiment bord.</li></ul> |
+| Administrateur des communications Teams | Gérer les fonctionnalités d’appel et de réunion à l’aide du service Teams. | Gestion des réunions, y compris des stratégies de réunion, des configurations et des ponts de conférence. <sup>1, 3</sup><br><br> Gérer la voix, y compris les politiques d’appel et le numéro de téléphone et l’affectation. <sup>1</sup><br><br> Afficher la page de profil de l’utilisateur et résoudre les problèmes de qualité des appels d’utilisateur à l’aide du jeu d’outils avancé. <sup>3</sup> <br><br> Accédez à des données exposées dans le tableau de bord de qualité des appels pour surveiller et résoudre les problèmes de qualité des appels et de la fiabilité du client à l’aide des données exposées dans le tableau de bord de qualité d’appel (bord). Créer des rapports, mettre à jour et supprimer des rapports selon vos besoins. Téléchargez et mettez à jour les données de bâtiment bord.|
+| Ingénieur du support technique pour les communications Teams | Résoudre les problèmes de communication dans teams à l’aide des outils **avancés** . | Afficher la page de profil de l’utilisateur et résoudre les problèmes de qualité des appels d’utilisateur à l’aide du jeu d’outils avancé. <sup>3</sup> <br><br> Accédez à des données exposées dans le tableau de bord de qualité des appels pour surveiller et résoudre les problèmes de qualité des appels et de la fiabilité du client à l’aide des données exposées dans le tableau de bord de qualité d’appel (bord). |
+| Spécialiste du support des communications teams | Résoudre les problèmes de communication dans teams à l’aide d’outils de **base** .| Page de profil utilisateur Access pour la résolution des problèmes d’analyse des appels. Peut afficher uniquement les informations de l’utilisateur spécifique recherché.<sup>3</sup> <br><br> Accédez à des données exposées dans le tableau de bord de qualité des appels pour surveiller et résoudre les problèmes de qualité des appels et de la fiabilité du client.  
 
-<sup>1</sup> [PowerShell - Skype pour le module d’entreprise](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
-<sup>2</sup> [PowerShell - module équipes Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [les équipes Microsoft Centre d’administration](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
+<sup>1</sup> [PowerShell-module Skype entreprise](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
+<sup>2</sup> [PowerShell-module Microsoft teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
+<sup>3</sup> [Centre d’administration Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-Pour plus d’informations sur les outils d’administration disponibles pour la gestion de Microsoft Teams, voir [Gestion des équipes Microsoft](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+Pour plus d’informations sur les outils d’administration disponibles pour la gestion de Microsoft Teams, reportez-vous à [gestion de Microsoft teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
-Pour plus d’informations sur les limites, les spécifications et autres conditions qui s’appliquent aux équipes, voir [limites et les spécifications pour les équipes Microsoft](limits-specifications-teams.md).
+Pour plus d’informations sur les limites et les spécifications, ainsi que d’autres conditions qui s’appliquent aux équipes, voir [limites et caractéristiques de Microsoft teams](limits-specifications-teams.md).
 
-## <a name="assign-users-to-each-role"></a>Affecter des utilisateurs à chaque rôle
+## <a name="assign-users-to-each-role"></a>Attribuer des utilisateurs à chaque rôle
 
-Vous pouvez affecter des utilisateurs à ces rôles dans Azure Active Directory. Pour savoir comment attribuer des rôles administratifs à un utilisateur dans Azure Active Directory, consultez la rubrique [affecter un utilisateur à des rôles d’administrateur dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Vous pouvez attribuer des utilisateurs à ces rôles dans Azure AD. Pour plus d’informations sur l’attribution de rôles d’administrateur à un utilisateur dans Azure AD, voir [affecter des rôles d’administrateur dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
-## <a name="cmdlets-available-for-each-role"></a>Applets de commande disponibles pour chaque rôle.
+## <a name="cmdlets-available-for-each-role"></a>Cmdlets disponibles pour chaque rôle
 
-La plupart des outils de PowerShell pour ces rôles d’administrateur live dans le Skype pour le module PowerShell Business, et il est important de noter que certaines des applets de commande que ces rôles d’administration ont accès au contrôle partagés paramètres qui sont également exploitées pour Skype pour Business Online. Pour afficher la liste complète des applets de commande actuellement disponibles pour un rôle donné dans la Skype pour le module PowerShell Business, procédez comme suit :
+La plupart des outils PowerShell pour ces rôles d’administrateur résident dans le module PowerShell de Skype entreprise, et il est important de noter que certaines des applets de commande dont ces rôles d’administrateur ont accès à des paramètres partagés qui sont également utilisés pour Skype entreprise online. Pour afficher la liste complète des cmdlets actuellement disponibles pour un rôle donné dans le module PowerShell Skype entreprise, procédez comme suit:
 
-1. Attribuer ce rôle à un utilisateur (et assurez-vous ne qu’aucun autre rôle de l’utilisateur).
-2. Se connecter à la Skype pour le module PowerShell d’entreprise :<br>
-   a. $session = nouveau csonlinesession<br>
-   b. Import-pssession $session<br>
-   c. Utilisez **Get-Module** pour identifier le nom de la session importé (il s’agira d’un nom généré de manière aléatoire).<br>
-3. Utilisez **Get-Command - Module** <> de*nom à partir du haut*pour identifier toutes les applets de commande disponibles
+1. Attribuez ce rôle à un utilisateur (et assurez-vous que l’utilisateur n’a pas d’autres rôles).
+2. Connectez-vous au module PowerShell Skype entreprise:<br>
+   a. $session = New-csonlinesession<br>
+   b. Importation-PowerShell $session<br>
+   c. Utilisez **Get-Module** pour identifier le nom de la session importée (le nom sera généré de manière aléatoire).<br>
+3. Utiliser **Get-Command-** <*nom du module ci-dessus*> pour identifier toutes les applets de commande disponibles
 
 ### <a name="related-topics"></a>Voir aussi
 
-- [Vue d’ensemble d’équipes Microsoft PowerShell](teams-powershell-overview.md)
-- [Les équipes Microsoft PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+- [Vue d’ensemble de Microsoft teams PowerShell](teams-powershell-overview.md)
+- [Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 - [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
 

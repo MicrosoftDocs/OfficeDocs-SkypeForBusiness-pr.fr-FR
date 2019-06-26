@@ -16,24 +16,24 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Découvrez comment un administrateur peut afficher les informations relatives aux utilisateurs invités dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f86ef6a8bc152400b8f845b926b24b07b00067e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e068e6e754ab28f3c068c59c92c7a27d13e2da1d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884802"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35220893"
 ---
 <a name="view-guest-users-in-a-team"></a>Afficher les utilisateurs invités d'une équipe
 ==========================
-Dans une équipe tout le monde peut voir tous les membres d’une équipe, y compris les invités, par le biais **l’équipe de gestion** de Microsoft Teams. [Voir qui est d’une équipe ou un canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) a plus de détails.
+Tout le monde dans une équipe peut voir tous les membres d’une équipe, y compris les invités, via **gérer l’équipe** dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [qui est membre d’une équipe ou d’un canal](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) .
 
-Pour identifier les utilisateurs invités :
+Pour identifier les utilisateurs invités:
 
 1.  Connectez-vous au centre d’administration Microsoft 365.
-2.  Sélectionnez le **Centre d’administration** > **équipes**.
-3.  Dans le centre d’administration Microsoft Teams, sélectionnez **les utilisateurs**. Vous verrez **invité** ajouté au nom de l’affichage de tous les utilisateurs invités.
+2.  Sélectionnez **** > **équipes**de centres d’administration.
+3.  Dans le centre d’administration de Microsoft Teams, sélectionnez **utilisateurs**. L' **invité** est alors ajouté au nom d’affichage des utilisateurs invités.
   
-Vous pouvez également identifier des utilisateurs invités à partir d’une équipe que vous possédez.  
+Vous pouvez également identifier les utilisateurs invités d’une équipe dont vous êtes propriétaire.  
 
 ## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 

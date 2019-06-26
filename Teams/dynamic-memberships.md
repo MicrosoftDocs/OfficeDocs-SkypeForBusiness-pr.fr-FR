@@ -14,25 +14,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 8f48309b5816c61668d240087c1f2815fc94ebe4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748434"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221435"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
-Microsoft teams prend en charge les équipes associées aux groupes Office 365 via l’appartenance dynamique. L’appartenance dynamique permet de définir l’appartenance d’une équipe à l’aide d’une ou plusieurs règles qui recherchent certains attributs d’utilisateur dans Azure Active Directory (AAD). Les utilisateurs sont ajoutés ou supprimés automatiquement aux équipes appropriées en tant qu’attributs utilisateur, mais ils rejoignent et quittent le client.
+Microsoft teams prend en charge les équipes associées aux groupes Office 365 à l’aide de l' *appartenance dynamique*. L’appartenance au groupe dynamique permet de définir l’appartenance d’une équipe à une ou plusieurs règles qui recherchent certains attributs d’utilisateur dans Azure Active Directory (Azure AD). Les utilisateurs sont ajoutés ou supprimés automatiquement aux équipes appropriées en tant qu’attributs utilisateur, mais ils rejoignent et quittent le client.
 
 L’appartenance dynamique vous permet de configurer des équipes pour certaines cohortes d’utilisateurs au sein de votre organisation. Les scénarios possibles sont les suivants:
 - Un hôpital peut créer des équipes distinctes pour les infirmières, les médecins et les chirurgiens en communication de diffusion. Cela est particulièrement important si l’hôpital repose sur des employés temporaires.
 - Une université peut créer une équipe pour toutes les universités au sein d’un collège particulier, y compris des enseignants qui changent fréquemment.
 - Une compagnie aérienne veut créer une équipe pour chaque version d’évaluation (par exemple, un mardi de l’après-midi sans arrêt de Chicago vers Atlanta) et avoir modifié automatiquement l’équipe de volée ou supprimée en conséquence.
 
-Cette fonctionnalité permet aux membres d’une équipe donnée de mettre à jour automatiquement en fonction d’un ensemble spécifique de critères, au lieu de gérer manuellement l’appartenance. Pour cela, il est nécessaire d’affecter des licences d’Azure AD Premium P1 et des appartenances d’équipe à [un administrateur client](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) aux propriétés AAD de chaque utilisateur, à condition de disposer d’un client et d’un compte d’administrateur. 
+Cette fonctionnalité permet aux membres d’une équipe donnée de mettre à jour automatiquement en fonction d’un ensemble spécifique de critères, au lieu de gérer manuellement l’appartenance. Pour cela, il est nécessaire d’affecter des licences d’Azure AD Premium P1 et des membres d’une équipe à l' [aide d’un administrateur client](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) aux propriétés Azure AD de chaque utilisateur, dans la mesure où vous disposez d’un client et d’un compte d’administrateur.
 
-Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour refléter les changements d’appartenance dynamique une fois qu’ils ont été appliqués dans le groupe Office 365 d’une équipe. 
+Microsoft Teams ne doit compter que de quelques minutes à 2 heures pour refléter les changements d’appartenance dynamique une fois qu’ils ont été appliqués dans le groupe Office 365 d’une équipe.
 
 > [!NOTE]
 > - Les règles peuvent définir qui est membre d’une équipe, sans qui est le propriétaire de l’équipe.

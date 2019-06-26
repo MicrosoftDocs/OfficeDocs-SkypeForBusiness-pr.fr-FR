@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Résumé: installez et configurez les nœuds d’observation pour les transactions synthétiques de Skype entreprise Server.'
-ms.openlocfilehash: 11d99ac51ab3b6c3d2cffbe2061a2e0527bfc633
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277621"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221517"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installation et configuration des nœuds observateurs
  
@@ -27,7 +27,7 @@ Les nœuds d’observation sont des ordinateurs qui exécutent périodiquement l
   
 - **Par défaut** Transactions synthétiques exécutées par défaut par un nœud FileSystemWatcher. Lorsque vous créez un nœud observateur, vous pouvez spécifier les transactions synthétiques exécutées par ce nœud. (Il s’agit de l’objet du paramètre tests utilisé par l’applet de nouvelle cmdlet New-CsWatcherNodeConfiguration.) Si vous n’utilisez pas le paramètre tests lors de la création du nœud d’observateur, toutes les transactions synthétiques par défaut sont exécutées et aucune des transactions synthétiques par défaut ne sera exécutée. Cela signifie, par exemple, que le nœud observateur est configuré de manière à exécuter le test Test-CsAddressBookService, mais qu’il ne l’est pas pour exécuter le test Test-CsExumConnectivity.
     
-- **Non définie par défaut** Tests que les nœuds d’observation ne s’exécutent pas par défaut. (Pour plus d’informations, consultez la description du type par défaut.) Toutefois, le nœud Watcher peut être activé pour exécuter une des transactions synthétiques non par défaut. Vous pouvez le faire lorsque vous créez le nœud d’observation (à l’aide de l’applet de connexion New-CsWatcherNodeConfiguration), ou à tout moment après la création du nœud d’observateur. Notez que la plupart des transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, voir instructions de configuration spéciales pour les transactions synthétiques. Pour plus d’informations sur ces étapes, voir [instructions de configuration spéciales pour les transactions synthétiques ](test-users-and-settings.md#special_synthetictrans).
+- **Non définie par défaut** Tests que les nœuds d’observation ne s’exécutent pas par défaut. (Pour plus d’informations, consultez la description du type par défaut.) Toutefois, le nœud Watcher peut être activé pour exécuter une des transactions synthétiques non par défaut. Vous pouvez le faire lorsque vous créez le nœud d’observation (à l’aide de l’applet de connexion New-CsWatcherNodeConfiguration), ou à tout moment après la création du nœud d’observateur. Notez que la plupart des transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, voir [instructions de configuration spéciales pour les transactions synthétiques](test-users-and-settings.md#special_synthetictrans).
     
 - **Étendu** Type particulier de transaction synthétique non définie par défaut. Contrairement à d’autres transactions synthétiques, les tests étendus peuvent être exécutés plusieurs fois à chaque passage. Cela peut s’avérer utile pour vérifier des comportements tels que plusieurs itinéraires des communications vocales sur le réseau téléphonique commuté (RTC) pour un pool. Vous pouvez configurer cette fonction en ajoutant simplement plusieurs instances d’un test étendu à un nœud observateur.
     

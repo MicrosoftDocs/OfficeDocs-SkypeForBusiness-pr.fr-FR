@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Résumé: Découvrez les tâches de surveillance et de configuration de l’intégrité dans Skype entreprise Server.'
-ms.openlocfilehash: 7328168a1a653586253766fb3fdae3156c9ea6b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305751"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221936"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gestion de l’intégrité et de la surveillance dans Skype entreprise Server
 
@@ -39,5 +39,5 @@ Les rubriques de cette section fournissent des procédures pas à pas pour la su
 
 [Planification de la surveillance](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Contrôle du déploiement](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Déployer la surveillance](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: En savoir plus sur les considérations en matière de planification pour le système téléphonique dans Office 365 (Cloud PBX) avec la connectivité PSTN locale.
-ms.openlocfilehash: 7b24c0de8eab663dea771948b066a0752fe943ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287019"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221042"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planifier le système téléphonique dans Office 365 avec la connectivité PSTN locale dans Skype entreprise Server
 
@@ -110,7 +110,7 @@ De plus, vous devez vérifier les points suivants:
 
     Si vous utilisez Lync Server 2013, consultez la rubrique [hybride Lync server 2013](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
-- **(Recommandé) services ADFS (Active Directory Federation Services** ) Nous recommandons le déploiement d’AD FS pour prendre en charge l’authentification unique. Pour plus d’informations, reportez-vous à la rubrique [AD FS (Active Directory Federation Services)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
+- **Recommande Services AD FS (Active Directory Federation Services).** Nous vous conseillons de déployer AD FS pour prendre en charge l'authentification unique. Pour plus d’informations, reportez-vous à la rubrique [AD FS (Active Directory Federation Services)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
 Pour plus d’informations sur le déploiement du système téléphonique dans Office 365, voir [activer les utilisateurs pour le système téléphonique dans office 365 avec la connectivité PSTN locale dans Skype entreprise Server](enable-users-for-phone-system.md).
 

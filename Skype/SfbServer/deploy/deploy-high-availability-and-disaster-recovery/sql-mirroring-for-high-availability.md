@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir package de mise à jour cumulative 9 pour SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49ccc2057641b23dffa309726bc5cdf0d74f6b08
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298538"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222115"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déploiement de la mise en miroir SQL pour la haute disponibilité du serveur principal dans Skype entreprise Server 2015
 
 
-Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir [package de mise à jour cumulative 9 pour SQL Server 2008 Service Pack 1 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir [package de mise à jour cumulative 9 pour SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 En général, la configuration de la mise en miroir SQL entre deux serveurs principaux avec un témoin exige ce qui suit :
 
@@ -50,7 +50,7 @@ Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en 
 > Le recours au générateur de topologie ou aux cmdlets pour configurer et supprimer la mise en miroir SQL est uniquement pris en charge lorsque les serveurs principal, miroir et témoin (le cas échéant) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, reportez-vous à votre documentation SQL Server.
 
 > [!IMPORTANT]
-> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.  > pour un changement de mise en miroir (par exemple, modification de l’emplacement d’un miroir), vous devez utiliser le générateur de topologie pour effectuer les trois étapes suivantes:
+> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.  > pour un changement de mise en miroir (par exemple, la modification de l’emplacement d’un miroir), vous devez utiliser le générateur de topologie pour effectuer les trois étapes suivantes:
 
 1. Supprimez la mise en miroir de l’ancien serveur miroir.
 
@@ -59,7 +59,7 @@ Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en 
 3. Publiez la topologie.
 
 > [!NOTE]
-> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute dans le contexte de service réseau, vous pouvez ajouter \<le\>\\domaine\><SQLSERVERNAME $ de l’entité et du serveur miroir SQL aux autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur.
+> Un partage de fichiers doit être créé pour pouvoir y écrire les fichiers miroir, et le service sous lequel SQL Server et SQL Agent s’exécutent doit disposer d’un accès en lecture/écriture. Si le service SQL Server s’exécute dans le contexte de service réseau, vous pouvez ajouter \<un\> \\ domaine<\>SqlServerName $ de l’entité et du serveur miroir SQL aux autorisations de partage. Le signe $ est important afin d’identifier qu’il s’agit d’un compte ordinateur.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Pour configurer la mise en miroir SQL lors de la création d’un pool dans le générateur de topologie
 

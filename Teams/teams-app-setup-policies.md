@@ -3,7 +3,7 @@ title: Gérer les stratégies de mise en application dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/18/2019
+ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -19,19 +19,19 @@ search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 21e56f9b2910180295e996f12c899e153551a8a3
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198627"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221805"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
 > [!NOTE]
 > Si vous avez activé le paramètre de stratégie d’autorisation d’application à l’échelle de l’organisation, autorisez les **interactions avec les applications personnalisées**, il est possible que les stratégies de configuration des applications n’apparaissent pas dans le centre d’administration Microsoft Teams. Ce service est actuellement déployé et sera disponible prochainement dans votre organisation.
 
-En tant qu’administrateur, vous pouvez utiliser des stratégies de configuration d’application pour personnaliser Microsoft teams afin de mettre en évidence les applications les plus importantes pour vos utilisateurs. Vous choisissez les applications à épingler et définir leur ordre d’apparition. Les stratégies de configuration des applications vous permettent de faire la promotion des applications requises par les utilisateurs de votre organisation, notamment celles créées par des tiers ou des développeurs de votre organisation. Vous pouvez également utiliser des stratégies de configuration d’application pour gérer l’affichage des fonctionnalités intégrées.
+En tant qu’administrateur, vous pouvez utiliser des stratégies de configuration d’application pour personnaliser Microsoft teams afin de mettre en évidence les applications les plus importantes pour vos utilisateurs. Vous choisissez les applications à épingler et définir leur ordre d’apparition. Les stratégies de configuration des applications vous permettent de faire la promotion des applications requises par les utilisateurs de votre organisation, y compris celles créées par des tiers ou par des développeurs de votre organisation. Vous pouvez également utiliser des stratégies de configuration d’application pour gérer l’affichage des fonctionnalités intégrées.
 
 Applications épinglées à la barre de l’application. Il s’agit de la barre située sur le côté du client de bureau teams et au bas des clients mobiles Teams (iOS et Android). 
 

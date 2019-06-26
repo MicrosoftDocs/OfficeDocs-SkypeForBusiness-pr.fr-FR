@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870e939602f5d954bfce64bc1f10d08838fc7c15
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d36116cad009e7207ff4bbfc5d5617e0a3eff434
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667408"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221065"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -35,7 +35,7 @@ Teams applique également l’authentification à deux facteurs à l’échelle 
 
 Nous avons également ajouté la prise en charge de la recherche dans les journaux d'audit, eDiscovery et la conservation légale pour les canaux, les conversations et les fichiers ainsi que la gestion des applications mobiles avec Microsoft Intune. Accédez au centre de sécurité & conformité d’Office 365 pour gérer ces paramètres. 
 
-Pour en savoir plus sur la & sécurité dans Office 365, voir Configurer votre client Office 365 pour renforcer la sécurité.
+Pour en savoir plus sur la & sécurité dans Office 365, voir [configurer votre client office 365 pour renforcer la sécurité](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) .
 
 ## <a name="auditing-and-reporting"></a>Audit et rapports
 
@@ -130,7 +130,7 @@ Pour plus d'informations sur le lancement de la résidence des données de Teams
 
 Pour plus d’informations sur la fonction de données du Canada pour Teams, voir le billet de blog de Varun Sagar, Microsoft teams: délégation des données du Canada sur les [données, l’Australie et le Japon bientôt disponible](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Pour en savoir plus sur le lancement d’Australie et de résidence sur les données du Japon pour Teams, voir le billet de blog de Varun Sagar de [Microsoft teams ](https://go.microsoft.com/fwlink/?linkid=867773). 
+Pour en savoir plus sur le lancement d’Australie et de résidence sur les données du Japon pour Teams, voir le billet de blog de Varun Sagar de [Microsoft teams](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Pour en savoir plus sur le lancement de la résidence des données de la France pour Teams, voir le billet de blog de Varun Sagar de [Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466).
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245690"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221208"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
 
@@ -64,7 +64,7 @@ Pour installer le client de bureau Windows, le plus simple consiste à :
 3. Démarrer Teams une fois que l’installation est terminée.
 
 > [!NOTE]
-> Plus tard, lorsque vous envisagez un déploiement plus formel en masse de Teams au sein de votre organisation, consultez la vidéo [Client de bureau Windows pour Teams](http://aka.ms/teams-clients) pour découvrir comment planifier et le déployer. 
+> Plus tard, lorsque vous envisagez un déploiement plus formel en masse de Teams au sein de votre organisation, consultez la vidéo [Client de bureau Windows pour Teams](https://aka.ms/teams-clients) pour découvrir comment planifier et le déployer. 
 
 #### <a name="teams-for-mac"></a>Teams pour Mac 
 Pour installer le client de bureau Mac, le plus simple consiste à :
