@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 144c67a968402832d059ba1b15151e24e2c1e1b3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957540"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221332"
 ---
 # <a name="microsoft-teams-training"></a>Formation à Microsoft Teams
 
@@ -120,7 +120,7 @@ Revenez régulièrement : nous continuerons de mettre à jour cette liste pour 
                 <div class="card">
                     <div class="cardText">
                         <h3>Certification de spécialiste de l’adoption</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">La certification Microsoft Service Adoption Specialist (Spécialiste de l’adoption des services Microsoft) porte également sur Teams. Elle explique comment favoriser l’adoption des services Microsoft dans votre organisation.</a></p>
+                        <p><a href="https://aka.ms/AdoptionCert">La certification Microsoft Service Adoption Specialist (Spécialiste de l’adoption des services Microsoft) porte également sur Teams. Elle explique comment favoriser l’adoption des services Microsoft dans votre organisation.</a></p>
                     </div>
                 </div>
             </div>
