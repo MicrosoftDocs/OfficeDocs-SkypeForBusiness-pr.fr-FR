@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133859"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221982"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -29,7 +29,7 @@ Si vous recherchez de l’aide pour les utilisateurs finaux Teams, cliquez sur *
 
 
 
-Si vous débutez avec Teams et que vous voulez en savoir plus, regardez notre courte vidéo de bienvenue dans Teams.
+Si vous débutez avec Teams et que vous voulez en savoir plus, regardez notre courte vidéo de bienvenue dans Teams (55 secondes).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
@@ -66,7 +66,7 @@ En tant qu’administrateur, vous allez gérer Teams via le centre d’administr
 Pour rester au fait des nouveautés dans Teams et tous les autres produits Office 365 et services dans votre organisation, veillez à consulter le [Centre de messages](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) et la [Feuille de route Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Vous serez informé des fonctionnalités nouvelles et mises à jour, des modifications prévues et des problèmes. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Mise à niveau de Skype Entreprise vers Teams
-Teams est le client principal pour des communications intelligentes dans Office 365, remplaçant Skype Entreprise Online au fil du temps. Pour en savoir plus sur les nouvelles fonctionnalités disponibles dans Teams, consultez la [Feuille de route de Microsoft 365](http://aka.ms/O365Roadmap). Pour compléter les fonctionnalités de conversation permanente et de messagerie, Teams offre une expérience de réunion et d’appels complète, avec des fonctions vocales et vidéo prédéfinies et entièrement intégrées. Consultez la rubrique [Teams est maintenant une solution de réunion et d’appel complète](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) dans le blog Microsoft Teams.
+Teams est le client principal pour des communications intelligentes dans Office 365, remplaçant Skype Entreprise Online au fil du temps. Pour en savoir plus sur les nouvelles fonctionnalités disponibles dans Teams, consultez la [Feuille de route de Microsoft 365](https://aka.ms/O365Roadmap). Pour compléter les fonctionnalités de conversation permanente et de messagerie, Teams offre une expérience de réunion et d’appels complète, avec des fonctions vocales et vidéo prédéfinies et entièrement intégrées. Consultez la rubrique [Teams est maintenant une solution de réunion et d’appel complète](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) dans le blog Microsoft Teams.
 
 Si vous exécutez Skype Entreprise et que vous êtes prêt à effectuer la mise à niveau vers Teams, ou si vous exécutez Skype Entreprise et Teams côte à côte et que vous êtes prêt à passer entièrement à Teams, nous avons les outils, les conseils et les guides pour vous aider à réussir votre transition. Pour plus d’informations, voir [Mise à niveau vers Teams](journey-skypeforbusiness-teams.md).
 

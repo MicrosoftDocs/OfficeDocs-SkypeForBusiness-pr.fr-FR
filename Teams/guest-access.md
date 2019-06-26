@@ -16,17 +16,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748387"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221667"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
-
-## <a name="guest-access-overview"></a>Vue d’ensemble de l’accès invité
 
 L’accès Invité est l’une des fonctions les plus demandées par les clients. Pour vous tenir au courant de notre progression et nous faire part de vos commentaires :
 
@@ -34,6 +32,8 @@ L’accès Invité est l’une des fonctions les plus demandées par les clients
 - Vous trouverez des informations sur les fonctionnalités à venir, nouvelles ou mises à jour, dans la [Feuille de route de Teams](https://aka.ms/teamsroadmap).
 - Indiquez-nous ce que vous souhaitez dans [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Partagez votre expérience dans la section Commentaires ci-dessous.
+
+## <a name="guest-access-overview"></a>Vue d’ensemble de l’accès invité
 
 L’accès invité permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux. Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes.
 
@@ -59,7 +59,7 @@ Teams est basé sur les Groupes Office 365 et offre un nouveau moyen pour accé
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Plus d’informations
-    
+
 [Contacter le support relatif aux produits d’entreprises- Aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Accès invité dans les Groupes Office 365](https://support.office.com/fr-FR/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 

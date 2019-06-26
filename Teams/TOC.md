@@ -19,14 +19,14 @@
 # Conversations, équipes, canaux et applications
 ## [Planifier votre déploiement](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Vue d’ensemble des équipes et des canaux](teams-channels-overview.md)
-## [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md)
+## [Affecter des propriétaires d’équipe et des membres dans Teams](assign-roles-permissions.md)
+## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
 ## [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
 ## [Partage de fichiers dans Teams](sharing-files-in-teams.md)
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
-## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
-## [Présence](presence-admins.md)
+## [Présence des utilisateurs dans Teams](presence-admins.md)
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 
 
@@ -45,11 +45,11 @@
 
 
 ## Accès invité
-### [Vue d’ensemble](guest-access.md)
+### [À propos de l’accès des invités](guest-access.md)
 ### [Comment un invité rejoint une équipe](guest-joins.md)
 ### [À quoi ressemble l'expérience des invités](guest-experience.md)
 ### [Autoriser l’accès invité dans Teams](teams-dependencies.md)
-### [Activer ou désactiver l’accès invité de Teams](set-up-guests.md)
+### [Activer ou désactiver l’accès invité dans Teams](set-up-guests.md)
 ### [Gérer l'accès invité dans Microsoft Teams](manage-guests.md)
 ### [Ajouter un invité à une équipe](add-guests.md)
 ### [Afficher les utilisateurs invités d'une équipe](view-guests.md)

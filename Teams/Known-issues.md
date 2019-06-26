@@ -3,7 +3,7 @@ title: Problèmes connus pour Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/10/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131431"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222076"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -215,6 +215,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Différences de disposition des équipes sur le client mobile  <br/> |Les équipes s'affichent dans l'ordre alphabétique et les canaux ne peuvent pas être réduits sur le client mobile.  <br/> |Aucune solution.  <br/> |13/03/2017  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Problèmes que vous pouvez rencontrer si vous utilisez iOS 13 bêta  <br/> |1. les notifications Teams ne sont pas activées.  Cela inclut les conversations, les mentions et les appels.  2. L’aperçu des fichiers ne fonctionne pas avec la version bêta.  <br/> |Il n'existe actuellement aucune solution.  Nous travaillons en collaboration avec les développeurs d’Apple pour trouver des correctifs pour ces problèmes.  <br/> | 25/6/19  <br/>|
 
 
 ## <a name="people"></a>Personnes
