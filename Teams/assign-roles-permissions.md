@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 423a12e8fce0c9d7508e97c1f57e17a0ba8a0ff0
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 9bcc0db65555d367f3af139be22e37690248b8e0
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493801"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253702"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -28,7 +28,7 @@ ms.locfileid: "34493801"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Microsoft Teams inclut deux rôles : **Propriétaire** et **Membre**. Par défaut, un utilisateur qui crée une équipe a le statut de Propriétaire. Si une équipe est créée à partir d'un groupe existant Office 365, les autorisations sont héritées.
+Dans Microsoft Teams, il existe deux rôles d’utilisateur: **propriétaire** et **membre**. Par défaut, un utilisateur qui crée une équipe dispose du statut de propriétaire. Si une équipe est créée à partir d’un groupe Office 365 existant, les autorisations sont héritées.
 
 Le tableau ci-après présente les différences d'autorisations entre un propriétaire et un membre.
 
@@ -48,21 +48,14 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 |        **Ajouter des connecteurs**         |    Oui     |    Oui<sup>2</sup>|
 |           **Ajouter des bots**            |    Oui     |    Oui<sup>2</sup>|
 
-<sup>1</sup> les propriétaires des équipes peuvent créer des équipes, sauf s’ils sont restreints. Voir « Autorisations nécessaires pour créer des équipes » ci-dessous.
->
-<sup>2</sup> Ces éléments peuvent être désactivés par un propriétaire au niveau d'une équipe, auquel cas les membres n'y auront pas accès.
-
-<sup>3</sup> après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de propriétaire. Il est également possible pour un propriétaire d’abaisser leur propre état pour un membre.
-
-<sup>4</sup> les membres de Teams peuvent ajouter d’autres membres à une équipe publique.
-
+<sup>1</sup> les propriétaires des équipes peuvent créer des équipes, sauf s’ils sont restreints. Voir [autorisations pour créer des équipes](#permissions-to-create-teams) ci-dessous.<br>
+<sup>2</sup> Ces éléments peuvent être désactivés par un propriétaire au niveau d'une équipe, auquel cas les membres n'y auront pas accès.<br>
+<sup>3</sup> après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de propriétaire. Il est également possible pour un propriétaire d’abaisser leur propre état pour un membre.<br>
+<sup>4</sup> les membres de Teams peuvent ajouter d’autres membres à une équipe publique.<br>
 <sup>5</sup> un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander qu’une personne soit ajoutée à une équipe dont ils sont déjà membres. Lorsqu’un membre demande l’ajout d»une personne à une équipe, les propriétaires des équipes reçoivent une alerte de demande en attente qu’ils peuvent accepter ou refuser.
 
-
-
 > [!NOTE]
-> Les propriétaires peuvent nommer d'autres membres en tant que propriétaires à l'aide de l'option Afficher les équipes. Une équipe peut compter 100 propriétaires maximum. Pour gérer au mieux l'équipe, il est recommandé de définir plusieurs propriétaires ; cela évitera également qu'une équipe comptant un seul propriétaire de se retrouver orpheline si celui-ci quitte l'organisation. Pour plus d'informations sur les groupes orphelins, reportez-vous à l'article [Attribuer un nouveau propriétaire à un groupe orphelin](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
-
+> Les propriétaires peuvent nommer d'autres membres en tant que propriétaires à l'aide de l'option Afficher les équipes. Une équipe peut compter 100 propriétaires maximum. Il est recommandé d’avoir au moins quelques propriétaires pour aider à gérer l’équipe. Cela permet également d’éviter les groupes orphelins si le propriétaire unique quitte votre organisation. Pour plus d'informations sur les groupes orphelins, reportez-vous à l'article [Attribuer un nouveau propriétaire à un groupe orphelin](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
 <a name="permissions-to-create-teams"></a>Autorisations de créations d'équipes
 ---------------------------

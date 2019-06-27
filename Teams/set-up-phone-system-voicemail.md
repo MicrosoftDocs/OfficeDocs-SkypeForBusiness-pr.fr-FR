@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
-ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
+ms.openlocfilehash: 8417d8338f8ba25b9f3c92d9fc4547ed861f8b8e
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2019
-ms.locfileid: "34808024"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253801"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -57,12 +57,9 @@ Vous trouverez ci-après des informations sur la configuration de la messagerie 
 
 4. La prise en charge de la transcription de la boîte vocale a été ajoutée en mars 2017 et est activée par défaut pour tous les utilisateurs et organisations. Vous pouvez désactiver la transcription pour votre organisation à l'aide de Windows PowerShell et en suivant les étapes ci-dessous.
 
-5. Les messages vocaux sont remis à la boîte aux lettres Exchange des utilisateurs via le protocole SMTP routé via Exchange Online Protection. Pour permettre la remise des messages, assurez-vous que les connecteurs Exchange sont correctement configurés entre les serveurs Exchange et Exchange Online Protection. [Utiliser des connecteurs pour configurer le flux de messagerie](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
+5. Les messages vocaux sont remis à la boîte aux lettres Exchange des utilisateurs via le protocole SMTP routé via Exchange Online Protection. Pour permettre la remise des messages, assurez-vous que les connecteurs Exchange sont correctement configurés entre les serveurs Exchange et Exchange Online Protection. [Utiliser des connecteurs pour configurer le flux de messagerie](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow). 
 
-6. Pour activer les fonctionnalités de boîte vocale telles que la personnalisation des messages d’accueil et les messages vocaux visuels dans les clients Skype entreprise, il est nécessaire de se connecter à partir d’Office 365 vers la boîte aux lettres Exchange Server via les services Web Exchange. Pour activer cette connectivité, vous devez configurer le nouveau protocole d’authentification OAuth Exchange décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) . 
-
-> [!NOTE]
-> L’Assistant Exchange hybride exécuté à partir d’Exchange 2013 CU5 ou version ultérieure gérera automatiquement les exigences des étapes 5 et 6. 
+6. Pour activer les fonctionnalités de boîte vocale telles que la personnalisation des messages d’accueil et les messages vocaux visuels dans les clients Skype entreprise, il est nécessaire de se connecter à partir d’Office 365 vers la boîte aux lettres Exchange Server via les services Web Exchange. Pour activer cette connectivité, vous devez configurer le nouveau protocole d’authentification OAuth Exchange décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx), ou exécuter l’Assistant Exchange hybride à partir d’Exchange 2013 CU5 ou égal. Par ailleurs, vous devez configurer l’intégration et le protocole OAuth entre Skype entreprise Online et Exchange Server décrits dans [configurer l’intégration et OAuth entre Skype entreprise Online et Exchange Server](https://docs.microsoft.com/en-us/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 

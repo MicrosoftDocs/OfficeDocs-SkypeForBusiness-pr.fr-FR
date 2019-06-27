@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Cette rubrique définit l’ensemble des exigences de performances réseau pour les services Skype entreprise Online et la façon dont vous pouvez choisir d’utiliser Internet ou ExpressRoute pour la connectivité entre votre réseau et Skype entreprise Online en fonction de votre évaluation du réseau. Connectivity. Si vous avez décidé de déployer Azure ExpressRoute pour une connectivité dédiée à Office 365, ce document fournit également des instructions sur la planification de vos connexions ExpressRoute dans différents scénarios de déploiement de Skype entreprise online.
-ms.openlocfilehash: 2ec74fb3137b8eac048187ac4015f857428b0851
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5818c07bcc939d18275409fd34bb627be2f2abd9
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297835"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253718"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualité multimédia et performances de connectivité réseau dans Skype Entreprise Online
 
@@ -132,7 +132,7 @@ Pour garantir une qualité multimédia optimale, vous devez disposer des cibles 
 |Perte de paquets en rafale  <br/> |<10% pendant tout intervalle de 200 millions  <br/> |
 |Perte de paquets  <br/> |<1% pendant tout intervalle 15s  <br/> |
 |Gigue entre les arrivées de paquets  <br/> |<30ms pendant tout intervalle 15s  <br/> |
-|Réorganisation des paquets  <br/> |< 0,05% de paquets en souffrance  <br/> |
+|Réorganisation des paquets  <br/> |<0,05% de paquets hors commande  <br/> |
    
  **Autres objectifs de performances requis:**
   
@@ -155,10 +155,10 @@ Vous trouverez ci-après les cibles de performance réseau ou les seuils requis 
 |**Mesure** <br/> |**Cible** <br/> |
 |Latence (unidirectionnelle)  <br/> |< 30ms  <br/> |
 |Latence (RTT)  <br/> |< 60ms  <br/> |
-|Perte de paquets en rafale  <br/> |<1% pendant un intervalle de MS 200  <br/> |
-|Perte de paquets  <br/> |< 0,1% pendant tout intervalle 15s  <br/> |
+|Perte de paquets en rafale  <br/> |<1% pendant tout intervalle de MS 200  <br/> |
+|Perte de paquets  <br/> |<0,1% pendant tout intervalle 15s  <br/> |
 |Gigue entre les arrivées de paquets  <br/> |<15ms pendant tout intervalle 15s  <br/> |
-|Réorganisation des paquets  <br/> |< 0,01% de paquets en souffrance  <br/> |
+|Réorganisation des paquets  <br/> |<0,01% de paquets hors commande  <br/> |
    
  **Autres objectifs de performances requis:**
   
@@ -288,7 +288,7 @@ Si vous décidez que ExpressRoute en fonction des recommandations ci-dessus est 
 
 Si tous vos utilisateurs utilisent le service Skype entreprise Online et si vos bureaux sont centrés sur un emplacement physique unique et que vous décidez de déployer Azure ExpressRoute, vous devez configurer une connexion ExpressRoute unique entre le site de votre entreprise et le plus proche. [Emplacement d’homologation ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/).
   
-Le graphique suivant montre un exemple de ce type de déploiement. Pour cet exemple, contoso est une université située à Orlando, FL. Contoso a 10 000 membres de l’Université et étudiants. Les tests Internet de leur emplacement vers des sites Microsoft Edge montrent une perte de paquets de 5% au cours des heures de cours de la période. L’utilisateur a décidé d’obtenir une connexion dédiée à Office 365 à l’aide de ExpressRoute et de la bande passante déployée afin d’éviter la congestion du réseau pour Office 365 en particulier pour le trafic en temps réel de Skype entreprise online. Ils se connectent à Microsoft Cloud via ExpressRoute à partir du site MeetMe d’Atlanta, disponible en Géorgie.
+Le graphique suivant montre un exemple de ce type de déploiement. Pour cet exemple, contoso est une université située à Orlando, FL. Contoso a 10 000 membres de l’Université et étudiants. Les tests Internet de leur emplacement vers des sites Microsoft Edge montrent une perte de paquets de 5% au cours des heures de cours de la période. Ils ont décidé d’obtenir une connexion dédiée à Office 365 à l’aide de ExpressRoute et de la bande passante déployée afin d’éviter la congestion du réseau pour Office 365 en particulier pour le trafic en temps réel de Skype entreprise online. Ils se connectent à Microsoft Cloud via ExpressRoute à partir du site MeetMe d’Atlanta, disponible en Géorgie.
   
 ![Site unique ExpressRoute.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   

@@ -15,17 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221659"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253694"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité teams
 ==========================================
 
 Utilisez cette liste de vérification pour vous aider à activer et configurer la fonctionnalité d’accès invité dans Microsoft Teams, conformément aux préférences de votre organisation.
+
+> [!NOTE] 
+> Pour les restrictions de collaboration [, voir Activer la collaboration externe B2B et gérer qui peut inviter des invités](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## <a name="understand-the-limitations-for-guests"></a>Comprendre les limites applicables aux invités
 
@@ -46,6 +49,9 @@ Pour plus d’informations, reportez-vous à [l’interface utilisateur](guest-e
 ### <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+> [!NOTE] 
+> Pour le moment, Microsoft Teams ne prend pas en charge le rôle d’invité invité. Au minimum, le bouton bascule «les membres peuvent inviter» doit être défini sur «Oui» pour que l’accès invité puisse travailler dans Microsoft Teams. Si vous définissez «les membres peuvent inviter» sur «non», puis activez l’accès invité aux groupes Office 365 et Microsoft Teams, les administrateurs peuvent contrôler les invitations invitées dans votre annuaire. Lorsque les invités sont dans l’annuaire, ils peuvent être ajoutés à des équipes par des membres non administrateurs qui sont des propriétaires d’équipe.
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si vos invités voient des erreurs de licence
 

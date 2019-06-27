@@ -3,7 +3,7 @@ title: Analyses et rapports Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -14,38 +14,38 @@ f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Découvrez les rapports des équipes qui sont disponibles dans le centre d’administration Microsoft Teams.
+description: En savoir plus sur les rapports d’équipes disponibles dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225015"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253793"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
-Un nouveau analytique et les rapports d’expérience pour Microsoft Teams est disponible dans le centre d’administration Microsoft Teams. Vous pouvez exécuter différents rapports pour obtenir des informations sur comment les utilisateurs de votre organisation utilisent les équipes. Par exemple, vous pouvez voir combien d’utilisateurs communiquer par le biais de canal et les messages de conversation et les types d’appareils qu'ils utilisent pour se connecter aux équipes. Votre organisation peut utiliser les informations provenant de rapports pour mieux comprendre les modèles d’utilisation, prendre des décisions et informer les efforts de formation et de communication.
+Une nouvelle expertise d’analyse et de création de rapports de Microsoft teams est disponible dans le centre d’administration Microsoft Teams. Vous pouvez exécuter différents rapports pour accéder à des informations sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir le nombre d’utilisateurs qui communiquent par canal et par messagerie instantanée, ainsi que le type d’appareil qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations contenues dans les rapports pour mieux comprendre les schémas d’utilisation, aider à prendre des décisions commerciales et informer les efforts de formation et de communication.
 
-## <a name="how-to-access-the-reports"></a>Comment accéder aux rapports
+## <a name="how-to-access-the-reports"></a>Accès aux rapports
 
-Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, un administrateur du service équipes ou Skype pour l’administrateur d’entreprise  Accédez au centre d’administration Microsoft Teams, dans la navigation de gauche, sélectionnez **rapports de & Analytique**, puis, sous **état**, sélectionnez le rapport que vous souhaitez exécuter.
+Pour accéder aux rapports, vous devez être un administrateur global dans Office 365, l’administrateur de service teams ou l’administrateur Skype entreprise.  Accédez au centre d’administration de Microsoft Teams, dans le volet de navigation gauche, sélectionnez **analyse & rapports**, puis sous **État**, choisissez le rapport que vous souhaitez exécuter.
 
 > [!NOTE]
-> Les rapports dans le centre d’administration Microsoft Teams sont séparés des rapports d’activité pour les équipes qui font partie des rapports Office 365 dans le centre d’administration d’Office 365. Pour plus d’informations sur les rapports d’activité dans le centre d’administration d’Office 365, voir [utiliser des rapports pour les équipes Microsoft activité](../teams-activity-reports.md)
+> Les rapports dans le centre d’administration Microsoft teams sont séparés des rapports d’activité des équipes qui font partie des rapports 365 Office dans le centre d’administration Microsoft 365. Pour plus d’informations sur les rapports d’activité dans le centre d’administration Microsoft 365, voir [rapports d’activité d’équipe dans le centre d’administration microsoft 365](../teams-activity-reports.md) .
 
-## <a name="teams-reporting-reference"></a>Équipes de référence de création de rapports
+## <a name="teams-reporting-reference"></a>Référence de création de rapports teams
 
-Voici une liste des équipes rapports disponibles dans le centre d’administration Microsoft Teams et une vue d’ensemble des informations disponibles dans chaque rapport.
+Vous trouverez ci-dessous une liste des rapports d’équipes disponibles dans le centre d’administration Microsoft teams et une vue d’ensemble des informations disponibles dans chaque rapport.
 
-Nous allons amélioration continue les équipes expérience de création de rapports et ajout de fonctionnalités. Au fil du temps, nous à intégrer des fonctionnalités supplémentaires dans les rapports et ajout de nouveaux rapports dans le centre d’administration Microsoft Teams.
+Nous cherchons constamment à améliorer l’efficacité de création de rapports d’équipes et à ajouter des fonctions et fonctionnalités. Dans le temps, nous allons créer des fonctionnalités supplémentaires dans les rapports et ajouter de nouveaux rapports dans le centre d’administration Microsoft Teams.
 
 |Rapport  |Quelles données sont mesurées ? |
 |---------|---------|
-|[Rapport d’utilisation Teams](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans les canaux et les équipes<br/>Canaux actifs<br/>Messages<br/>Paramètre de confidentialité d’équipes<br/>Invités dans une équipe   |
-|[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |  un utilisateur qui a participé à des appels de 1:1<br/>Un utilisateur de messages publiés dans une conversation de l’équipe<br/>Un utilisateur de messages publiés dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
-|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs Macintosh<br/>utilisateurs iOS<br/>Utilisateurs de téléphones Android     |
+|[Rapport d’utilisation Teams](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans équipes et canaux<br/>Canaux actifs<br/>Contenus<br/>Paramètre de confidentialité de teams<br/>Invités dans une équipe   |
+|[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |  1:1 appelle un utilisateur ayant participé à la Conférence<br/>Messages qu’un utilisateur a publié dans une conversation d’équipe<br/>Messages qu’un utilisateur a publié dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
+|[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs de Mac<br/>utilisateurs d’iOS<br/>Utilisateurs du téléphone Android     |
 
 > [!NOTE]
-> Les rapports d’équipes affichent les données des utilisateurs actifs et les équipes actives. Par exemple, si un utilisateur de votre organisation n’est pas actif dans les équipes au cours de la plage de dates que vous avez spécifié pour un état, les données de cet utilisateur n’est pas incluses dans ce rapport.
+> Le rapport équipes affiche les données des utilisateurs actifs et des équipes actives. Par exemple, si un utilisateur de votre organisation n’est pas actif dans teams au cours de la période que vous avez spécifiée pour un rapport, les données de cet utilisateur ne sont pas incluses dans ce rapport.
