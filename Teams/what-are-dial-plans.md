@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez les types de plan d’appels de numérotation (RTC) disponibles dans Office 365 et comment en choisir un pour votre organisation.  '
-ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288165"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347994"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
@@ -38,15 +38,15 @@ Consultez [créer et gérer les plans](create-and-manage-dial-plans.md) de numé
 
 ## <a name="tenant-dial-plan-scope"></a>Étendue du plan de numérotation client
 
-L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les étendues sont différentes de celles d’un déploiement local de Skype entreprise Server. Les clients obtiennent le plan de numérotation approprié via les paramètres dʼapprovisionnement qui sont automatiquement fournis lorsque les utilisateurs se connectent à Skype Entreprise Online. En tant qu'administrateur, vous pouvez gérer et attribuer les niveaux d'étendue des plans de numérotation en utilisant une session PowerShell à distance.
+L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les étendues sont différentes de celles d’un déploiement local de Skype entreprise Server. Les clients obtiennent le plan de numérotation approprié via les paramètres de mise en service fournis automatiquement lorsque les utilisateurs se connectent à teams ou à Skype entreprise online. En tant qu'administrateur, vous pouvez gérer et attribuer les niveaux d'étendue des plans de numérotation en utilisant une session PowerShell à distance.
 
-Dans Skype entreprise Online, il existe deux types de plans de numérotation: l’étendue du service et le client (qui est destiné à votre organisation). Un plan de numérotation de service est défini pour chaque pays/région où le système téléphonique Office 365 est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation d’Office 365 attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
+Dans teams et Skype entreprise Online, il existe deux types de plans de numérotation: l’étendue du service et le client (qui est destiné à votre organisation). Un plan de numérotation de service est défini pour chaque pays ou région où le système téléphonique Office 365 est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation d’Office 365 attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
 
 Les plans de numérotation client peuvent être encore répartis dans deux étendues : l'étendue client ou l'étendue utilisateur. Si un client définit et attribue un plan de numérotation étendu à un utilisateur, cet utilisateur sera alors approvisionné avec un plan de numérotation efficace constitué du plan de numérotation de son pays de service et du plan de numérotation utilisateur qui lui est attribué. Si un client définit un plan de numérotation étendu au client mais n'attribue pas de plan de numérotation étendu à un utilisateur, cet utilisateur sera alors approvisionné avec un plan de numérotation efficace constitué du plan de numérotation de son pays de service et du plan de numérotation client.
 
-Voici le modèle d'héritage des plans de numérotation dans Skype Entreprise Online.
+Voici le modèle d’héritage des plans de numérotation dans équipes et Skype entreprise online.
 
-![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Comment sont hérités les plans de numérotation dans équipes et dans Skype entreprise Online](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Voici les différents plans de numérotation efficace possibles :
 
@@ -85,9 +85,6 @@ Pour les plans de numérotation des utilisateurs, vous devez spécifier un nom d
 Nous vous recommandons d'écrire le nom habituel, connu, de l'emplacement géographique ou du groupe d'utilisateurs pour lequel le plan de numérotation correspondant s'applique.
 
 ### <a name="external-access-prefix"></a>Préfixe d'accès extérieur
-
-> [!CAUTION]
-> Le préfixe dʼaccès extérieur nʼest actuellement pas pris en charge. 
 
 Vous pouvez spécifier un préfixe d'accès extérieur de 1 à 4 caractères (#, * et 0-9) si les utilisateurs doivent composer un ou plusieurs chiffres supplémentaires (par exemple, 9) pour joindre une ligne extérieure.
 
@@ -158,4 +155,4 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

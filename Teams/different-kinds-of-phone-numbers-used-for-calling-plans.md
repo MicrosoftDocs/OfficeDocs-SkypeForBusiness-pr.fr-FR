@@ -14,29 +14,28 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Skype entreprise Online utilise différents types de numéros de téléphone en fonction de l’usage que vous voulez utiliser avec le numéro de téléphone.
-ms.openlocfilehash: 0f4feee439beff5821b18296cb0e9a76d65aa139
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: En savoir plus sur les différents types de numéros de téléphone utilisés par teams pour les offres d’appels.
+ms.openlocfilehash: ba328cdac6000c00d2d51f08b68b3092536557ec
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281839"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347986"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les appels d’offre
 
-Skype entreprise Online utilise différents types de numéros de téléphone en fonction de l’usage que vous voulez utiliser avec le numéro de téléphone. Skype entreprise Online utilise des numéros d' **abonné** , qui peuvent être attribués à des utilisateurs de votre organisation ainsi que des numéros de **service** attribués à des services tels que l’audioconférence dans Office 365, aux standards automatiques ou aux files d’attente d’appels. Les numéros de téléphone de service disposent d’une *capacité d’appels simultanée plus élevée* que les numéros d’abonnés (ou utilisateur). Les numéros de téléphone de service sont disponibles, mais varient en fonction du pays/de la région et du type de numéro (s’il s’agit d’un numéro payant ou gratuit). Si vous avez besoin d’autres types de numérotation ou d’autres types de chiffres dans le centre d’administration de Skype entreprise, il est possible que vous receviez une demande de numéro de téléphone au bureau de service du numéro de téléphone Microsoft.
+Microsoft teams utilise différents types de numéros de téléphone en fonction de l’usage que vous voulez utiliser avec le numéro de téléphone. Teams utilise des numéros d' **utilisateur** , qui peuvent être attribués à des utilisateurs de votre organisation, ainsi que des numéros de **service** attribués à des services tels que les téléconférences, les standards automatiques ou les files d’attente d’appels. Les numéros de téléphone de service ont une *plus grande capacité d’appels simultanés* que les numéros d’utilisateur. Les numéros de téléphone de service sont disponibles, mais varient en fonction du pays/de la région et du type de numéro (s’il s’agit d’un numéro payant ou gratuit). Si vous avez besoin d’autres types de numérotation ou d’autres types de chiffres dans le centre d’administration de Microsoft Teams, vous pouvez faire une demande de numéro de téléphone à l’aide de l' [assistance téléphonique PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
-- **Numéros d’abonnés**
+- **Numéros d’utilisateur**
     
-    Les numéros d’abonné sont attribués aux utilisateurs et il existe deux types de:
+    Les numéros d’utilisateur sont attribués aux utilisateurs et il existe deux types:
     
-  - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique et sont les plus courants. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’à l’intérieur d’une certaine adresse, ville, État ou région du pays.
+  - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique et sont les plus courants. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’au sein d’une certaine adresse, ville, État ou région du pays.
     
   - **Numéros non géographiques** Les numéros non géographiques sont des numéros nationaux qui n’ont pas de relation avec une zone géographique dans un pays ou une région. Par exemple, les numéros non géographiques ont souvent le même coût lorsque vous appelez le numéro à partir de n’importe quel endroit dans le pays ou la région. Par ailleurs, certains pays, comme le Danemark, ne disposent que de numéros non géographiques disponibles.
     
@@ -46,26 +45,24 @@ Skype entreprise Online utilise différents types de numéros de téléphone en 
     
     Les numéros de service payants peuvent avoir un coût facturé pour l’appelant et il existe deux sortes de services:
     
-      - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’à l’intérieur d’une certaine adresse, ville, État ou région du pays.
+      - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’au sein d’une certaine adresse, ville, État ou région du pays.
         
       - **Numéros non géographiques** Les numéros non géographiques sont des numéros nationaux qui n’ont pas de relation avec une zone géographique dans un pays ou une région. Par exemple, les numéros non géographiques ont souvent le même coût lorsque vous appelez le numéro à partir de n’importe quel endroit dans le pays ou la région.
-    
-  - **Numéros de service gratuits** Ces numéros de service n’impliquent généralement aucun coût facturé pour l’appelant. Skype entreprise Online fournit des numéros de téléphone sans frais nationaux dans plus de 60 pays/régions.
+   
+  - **Numéros de service gratuits** Ces numéros de service n’impliquent généralement aucun coût facturé pour l’appelant. Teams fournit des numéros de téléphone sans frais nationaux dans plus de 60 pays ou régions.
     
     > [!CAUTION]
     > Certains pays ou régions et certains types de numéros d’origine, tels que les appels provenant de téléphones mobiles, pourraient entraîner des frais facturés pour l’appelant. 
   
 > [!NOTE]
-> Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+> Si vous avez besoin d’obtenir plus de numéros de téléphone, [Contactez l’assistance téléphonique PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
+
 [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 
+[Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

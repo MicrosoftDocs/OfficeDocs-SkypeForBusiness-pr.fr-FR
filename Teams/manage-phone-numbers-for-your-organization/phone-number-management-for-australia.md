@@ -13,26 +13,25 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Australie pour Skype entreprise Online et Microsoft Teams.
-ms.openlocfilehash: d70fcddf777aa08c71d366431eb033940668816a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Australie pour Microsoft Teams.
+ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302713"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35348002"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion des numéros de téléphone pour l’Australie
 Nous sommes associés en Australie avec Telstra pour l’achat et la configuration des forfaits d’appels. Telstra vend des forfaits d’appel et fournit la prise en charge pour la gestion des numéros de téléphone pour les numéros d’utilisateur et de service pour les standards automatiques et les files d’attente d'appel. Toutefois, les numéros de service et des licences pour une audioconférence seront toujours être vendus et gérées par Office 365.
 
 Pour plus d’informations, voir [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan).
 
-Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Australie pour Skype entreprise Online et Microsoft Teams.
+Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Australie pour Microsoft Teams.
 
 Pour plus d’informations, reportez-vous à [la rubrique gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization.md).
   
