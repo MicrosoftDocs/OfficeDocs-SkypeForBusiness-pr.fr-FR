@@ -338,10 +338,12 @@
 ### [Types de numéros de téléphone utilisés pour les forfaits d’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Obtention de numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md)
 ### [Combien de numéros de téléphone vous pouvez obtenir ?](how-many-phone-numbers-can-you-get.md)
+### [Rechercher des numéros de téléphone pour les utilisateurs](search-for-phone-numbers-for-users.md)
+### [Afficher la liste des numéros de téléphone de votre organisation](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Obtention de numéros de téléphone de service](getting-service-phone-numbers.md)
 ### [Transférer les numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md)
-### [Questions fréquentes à propos du transfert de numéros](transferring-phone-numbers-common-questions.md)
+### [Transfert des questions fréquemment posées numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
 ## Routage des appels
 ### [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
