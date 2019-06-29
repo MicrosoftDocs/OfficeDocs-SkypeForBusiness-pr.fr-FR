@@ -14,12 +14,12 @@ description: Découvrez comment les événements dynamiques permettent aux utili
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4110e9dbfdff6548c0cae1406f1139835d00ec40
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013008"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394538"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -75,6 +75,9 @@ L’objectif de eCDN est de prendre le contenu vidéo à partir d’Internet et 
 L’utilisation des participants est l’aspect le plus important des événements en direct et il est essentiel que les participants puissent participer à l’événement en direct sans problèmes. L’expérience des participants utilise le lecteur Windows Media (pour les événements produits dans Teams) et le lecteur de flux (pour les événements produits dans une application ou un appareil externe) et fonctionne sur les ordinateurs de bureau, navigateur et appareil mobile (iOS, Android). Office 365 fournit Yammer et teams sous la forme de deux hubs de collaboration et l’environnement des participants est intégré à ces outils de collaboration. 
 
 ![Capture d’écran montrant l’expertise des événements en direct] (../media/teams-live-events-attendee.png "Capture d’écran montrant l’expertise des événements en direct")
+
+### <a name="live-event-usage-report"></a>Rapport sur l’utilisation des événements en direct 
+Les administrateurs de clients peuvent afficher les données d’analyse en temps réel des événements en direct dans le centre d’administration Microsoft Teams.  Le rapport d’utilisation des événements en direct montre la vue d’ensemble de l’activité des événements en direct organisés au sein de l’organisation.  Les administrateurs peuvent afficher les informations d’utilisation des événements, notamment l’état des événements, l’heure de début, les vues et le type de production.  
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez au [plan pour les événements en direct teams](plan-for-teams-live-events.md).

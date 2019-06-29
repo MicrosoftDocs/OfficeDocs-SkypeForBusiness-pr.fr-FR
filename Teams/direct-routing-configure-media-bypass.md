@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur la configuration du contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290452"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394570"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
@@ -30,7 +29,7 @@ Pour activer le contournement du contenu multimédia, les conditions suivantes d
 
 1.  Assurez-vous que le fournisseur de votre contrôleur de bordure de session (SBC) prend en charge la méthode de contournement du contenu multimédia et fournit des instructions sur la configuration du contournement sur la SBC. Reportez-vous à la page de certification pour en savoir plus sur les éléments SBCs, qui prennent en charge la contournement du support technique et des instructions.
 
-2.  Vous devez activer la dérivation multimédia sur le Trunk en utilisant la commande suivante: **Set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.  Vous devez activer la dérivation multimédia sur le Trunk en utilisant la commande suivante: **Set-CSOnlinePSTNGateway-identity <sbc_FQDN>-MediaBypass $true**.
 
 3.  Vérifiez que les ports requis sont ouverts. 
 

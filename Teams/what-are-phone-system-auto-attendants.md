@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez les standards automatiques du Cloud et comment les utiliser.
-ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330355"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394546"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud?
 
@@ -55,8 +55,9 @@ Le standard automatique Cloud offre les fonctionnalités suivantes:
 Avant de commencer à utiliser les standards automatiques, il est impératif de noter les points suivants :
 
 - Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
-- Si vous envisagez d’affecter un numéro d’acheminement direct, vous devez acquérir et attribuer les licences suivantes à \(votre compte de ressources Office 365 entreprise E1, E3 ou E5, à l’aide\)du composant additionnel du système téléphonique.
-- Si vous affectez un numéro de service Microsoft à la place, vous devez acquérir et attribuer les licences suivantes à votre compte \(de ressources Office 365 entreprise E1, E3 ou E5, avec le module complémentaire du système téléphonique et un\)plan d’appels.
+- Si vous envisagez d’affecter un numéro de téléphone à votre standard automatique, vous devez acquérir et attribuer une des licences suivantes à vos comptes de ressources: 
+    - Office 365 entreprise E1 ou E3 avec le système téléphonique ajouté
+    - Office 365 entreprise E5 qui inclut un système téléphonique
 - Il vous suffit de créer une licence pour les comptes de ressources avec un numéro de téléphone qui leur est attribué. Dans une file d’attente d’appels ou de standards automatiques imbriqués, vous n’avez pas besoin de vous attribuer une licence au reste des standards automatiques ou des files d’attente d’appels s’ils ne disposent pas de numéros de téléphone associés. 
 
 > [!NOTE]
@@ -211,11 +212,10 @@ Chaque standard automatique dispose d’options de traitement des appels qui peu
 - Vous pouvez également :
   - Rediriger l’appel vers un utilisateur de Microsoft teams disposant d’une licence de **système téléphonique** compatible voix entreprise ou dont les offres d’appels sont affectées. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
 
-  
   - Redirigez l’appel vers une file d’attente d’appels. Pour en savoir plus sur les files d’attente d’appels, voir [créer une file d’attente des appels Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Rediriger l’appel vers un autre standard automatique que vous avez configuré.
-- Créer des options de menu et activer une invite de menu pour l'appelant. Par exemple : « Appuyez sur 1 pour contacter le département des ventes, appuyez sur 2 pour contacter le département des services. Pour contacter l'opérateur, appuyez sur 0 à tout moment. »
+  - Créer des options de menu et activer une invite de menu pour l'appelant. Par exemple : « Appuyez sur 1 pour contacter le département des ventes, appuyez sur 2 pour contacter le département des services. Pour contacter l'opérateur, appuyez sur 0 à tout moment. »
 
 ### <a name="menu-options"></a>Options de menu
 
@@ -234,9 +234,9 @@ Pour configurer un standard automatique et les options de menu, sélectionnez [c
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Attribution de numéros de téléphone pour un standard automatique
 
-Vous pouvez affecter un numéro de service de plan d’appel Microsoft ou un numéro hybride de routage direct à votre standard automatique. Pour plus d’informations, voir [planifier le routage direct](direct-routing-plan.md) .
+Vous pouvez affecter un numéro de service Microsoft, un numéro de routage direct ou un numéro hybride à votre standard automatique. Pour plus d’informations, voir [planifier le routage direct](direct-routing-plan.md) .
 
-Pour attribuer un numéro de service, vous devez obtenir ou transférer vos numéros de service gratuits ou payants existants. Dès lors que vous recevez les numéros de service gratuits ou payants, ils s’affichent dans la <!-- validate nav path --> **** > Les**numéros de téléphone****vocaux** > du centre d’administration Skype entreprise et le **type de numéro** mentionné seront répertoriés en tant que **service-gratuit**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) ou, si vous voulez effectuer un virement et un numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéros de service gratuits ou payants existants. Dès lors que vous recevez les numéros de service gratuits ou payants, ils s’affichent dans la <!-- validate nav path --> **** > Les**numéros de téléphone****vocaux** > du centre d’administration Skype entreprise et le **type de numéro** mentionné seront répertoriés en tant que **service-gratuit**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) ou, si vous voulez effectuer un virement et un numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour savoir comment procéder, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .

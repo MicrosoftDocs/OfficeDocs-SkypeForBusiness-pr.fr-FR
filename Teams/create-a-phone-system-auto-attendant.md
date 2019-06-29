@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Apprenez à configurer et tester des standards automatiques Cloud pour gérer efficacement les appels pour votre organisation.
-ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
+ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432895"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394612"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -37,22 +37,20 @@ Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique
 > [!NOTE]
 > Cet article s’applique à Microsoft teams et à Skype entreprise online.
 
-
-
 ## <a name="step-1---get-started"></a>Étape 1: commencer
 
 - Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
 - Si vous envisagez d’affecter un numéro d’acheminement direct, vous devez acquérir et attribuer les licences suivantes à \(votre compte de ressources Office 365 entreprise E1, E3 ou E5, à l’aide\)du composant additionnel du système téléphonique.
-- Si vous affectez un numéro de service Microsoft à la place, vous devez acquérir et attribuer les licences suivantes à votre compte \(de ressources Office 365 entreprise E1, E3 ou E5, avec le module complémentaire du système téléphonique et un\)plan d’appels.
+- Si vous attribuez un numéro de service Microsoft à la place, vous devez acquérir et attribuer les licences suivantes à votre compte \(de ressources Office 365 entreprise E1, E3 ou E5, avec le complément système téléphonique\).
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft travaille sur un modèle de licence sans frais pour des applications telles que les standards automatiques de Cloud et les files d’attente d’appels, pour le moment, vous devez utiliser le modèle de gestion des licences utilisateur.
 
 > [!CAUTION]
 > Pour obtenir et utiliser des numéros de téléphone gratuits, vous devez configurer des crédits de communication. Pour faire cela, consultez [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
 
 > [!TIP]
-> Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour Enterprise Voice ou affecter des plans d’appel dans Office 365. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour Enterprise Voice. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Étape 2 : création d'un standard automatique
 
@@ -211,7 +209,7 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
   - **Une Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Voix de l'Entreprise ou affectée à un Plan d’appel dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour cela, sélectionnez une **personne au sein de votre entreprise** et configurez cette personne pour que les appels soient transférés directement à la boîte vocale.
 
     > [!Note]
-    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. 
+    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013.
     - Un autre **standard automatique**
 
        Vous pouvez utiliser un standard automatique existant pour créer un deuxième niveau d’options de menu contenant un sous-menu. Il s’agit des standards automatiques imbriqués. Pour envoyer l’appel à un standard automatique imbriqué, sélectionnez une **personne dans la société** et attribuez un compte de ressource, qui est déjà associé à un standard automatique ou que vous voulez associer à un standard automatique une fois que vous avez créé ce standard automatique.
@@ -226,7 +224,6 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
 ![Icône du numéro 5 qui référence une légende dans la capture d’écran précédente](media/sfbcallout5.png)
 
 **Numérotation par nom** Si vous choisissez cette option, les utilisateurs qui se connectent pour rechercher des personnes dans votre organisation doivent effectuer une recherche dans l’annuaire. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Tout utilisateur en ligne disposant d'une licence **   Phone System**  ou de tout utilisateur hébergé sur site à l'aide de Skype Professionnel Server 2015 ou Lync Server 2013 peut être trouvé avec Composer par Nom.
-
 
 * * *
 
@@ -278,7 +275,7 @@ Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent êtr
   - Une**  Personne de votre société**  disposant  d'une licence de ** Système téléphonique**  qui est activée pour Voix de l'Enterprise ou de plans d'appels associés dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour cela, sélectionnez une **personne au sein de votre entreprise**et configurez cette personne pour que les appels soient transférés directement à la boîte vocale.
 
     > [!Note]
-    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013. 
+    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013.
 
   - Une **file d’attente d’appels** pour transférer l’appel vers une file d’attente d’appels que vous avez configurée.
   - Un autre **standard automatique**pour créer un deuxième niveau d’options de menu contenant un sous-menu. Il s’agit des standards automatiques imbriqués.
@@ -321,31 +318,27 @@ Si vous voulez apporter des modifications à un standard automatique, sélection
 
 Vous pouvez également effectuer un test rapide de votre standard automatique à l’aide du bouton **test** dans le volet action.
 
-## <a name="want-to-know-more"></a>Vous souhaitez en savoir plus ?
+## <a name="auto-attendant-cmdlets"></a>Applets de commande de standard automatique
 
-Vous pouvez également utiliser PowerShell Windows pour créer et configurer des standards automatiques.
-
-### <a name="auto-attendant-cmdlets"></a>Applets de commande de standard automatique
-
-Voici les applets de commande requis pour gérer un standard automatique.
+Vous pouvez également utiliser PowerShell Windows pour créer et configurer des standards automatiques. Voici les applets de passe dont vous avez besoin pour gérer un standard automatique:
 
 - [Nouveau-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [Nouveau-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [Nouveau-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [Nouveau-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
-- [Nouvelle CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
-- [Nouvelle CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
-- [Nouvelle CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [Nouveau-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [Nouveau-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [Nouveau-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
+- [Nouvelle CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [Nouvelle CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
+- [Nouvelle CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
 - [Nouveau-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
 - [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Importation-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [Nouveau-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Importation-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [Nouveau-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Informations supplémentaires sur PowerShell Windows
 
