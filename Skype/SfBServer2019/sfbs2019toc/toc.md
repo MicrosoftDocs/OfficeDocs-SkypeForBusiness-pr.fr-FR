@@ -100,10 +100,10 @@
 ##### [Configurer la messagerie vocale cloud](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Standards automatiques cloud
 ##### [Planifier les standards automatiques cloud](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
-##### [Configurer des standards automatiques cloud](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+##### [Configurer des comptes de ressource](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 #### Files d’attente d’appels cloud
 ##### [Planifier les files d’attente d’appels cloud](../../SfbHybrid/hybrid/plan-call-queue.md)
-##### [Configurer les files d’attente d’appels cloud](../../SfbHybrid/hybrid/configure-call-queue.md)
+##### [Configurer des comptes de ressource](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 ### [Planifier l’intégration de Skype Entreprise et d’Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Messagerie unifiée](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Vue d’ensemble du déploiement](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
