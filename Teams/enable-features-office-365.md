@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421994"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221535"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -40,17 +40,17 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Applications
 
-Les applications sont des onglets, des connecteurs, des bots ou une combinaison des trois, fournies par Teams (applications internes, ou par défaut) ou par un tiers (applications externes).Sous **Applications**, vous pouvez activer et désactiver les applications par défaut et configurer les paramètres pour contrôler les applications externes.Pour découvrir le déploiement d’applications, de bots, de connecteurs et d’onglets dans Teams, lisez (applications, bots et connecteurs)[deploy-apps-microsoft-teams-landing-page.md].
+Les applications sont des onglets, des connecteurs, des bots ou une combinaison des trois, fournies par Teams (applications internes, ou par défaut) ou par un tiers (applications externes). Sous **Applications**, vous pouvez activer et désactiver les applications par défaut et configurer les paramètres pour contrôler les applications externes. Pour découvrir le déploiement d’applications, de bots, de connecteurs et d’onglets dans Teams, lisez [applications, bots et connecteurs](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page).
 
 #### <a name="default-apps"></a>Applications par défaut
 
-Ces applications, comme le Planificateur, Compliment et Météo sont fournies par Teams. Pour activer une application, cochez la case correspondante. Pour désactiver une application, décochez la case. 
+Les applications par défaut, comme le Planificateur, Compliment et Météo sont fournies par Teams. Pour activer une application, cochez la case correspondante. Pour désactiver une application, décochez la case.
 
 ![Capture d’écran de la section Applications par défaut.](media/teams-manage-features-in-office365-image1.png "Capture d’écran de la section Applications par défaut")
 
 #### <a name="external-apps"></a>Applications externes
 
-Ces applications sont fournies par des tiers. Vous pouvez configurer les paramètres suivants pour les applications externes.
+Les applications externes sont fournies par des tiers. Vous pouvez configurer les paramètres suivants pour les applications externes.
 
 ![Capture d’écran de la section Applications par défaut.](media/teams-manage-features-in-office365-image2.png "Capture d’écran de la section Applications par défaut, montrant les paramètres que vous pouvez activer et désactiver")
 
@@ -65,7 +65,7 @@ Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organi
 
 ### <a name="external-access"></a>Accès externe
 
-L’**accès externe** permet à vos utilisateurs de Teams et Skype Entreprise de communiquer avec des utilisateurs qui sont à l’extérieur de votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre à vos utilisateurs de Teams de discuter et communiquer avec des utilisateurs dans une autre organisation Teams](let-your-teams-users-communicate-with-other-people.md).
+L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](let-your-teams-users-communicate-with-other-people.md).
 
 Pour ajouter ou bloquer un domaine :
 
@@ -118,7 +118,7 @@ Basculez ce paramètre sur **Activé** pour activer les recherches d’annuaire 
 Vous pouvez utiliser ces paramètres pour configurer la manière dont vos utilisateurs feront la transition de Skype Entreprise vers Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Mode de coexistence
-Vous pouvez spécifier un mode de coexistence : **Teams uniquement**, **Îles** (Teams et Skype Entreprise coexisteront) ou **Skype Entreprise uniquement**. Le mode de coexistence que vous choisissez détermine le routage des appels et conversations entrants et l’application qui est utilisée par l’utilisateur pour initialiser des conversations et appels ou pour planifier des réunions. Pour plus d’informations sur les modes de coexistence, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Vous pouvez spécifier un mode de coexistence : **Teams uniquement**, **Îles** (Teams et Skype Entreprise coexisteront), ou ** Skype Entreprise uniquement**. Le mode de coexistence que vous choisissez détermine le routage des appels et conversations entrants et l’application qui est utilisée par l’utilisateur pour initialiser des conversations et appels ou pour planifier des réunions. Pour plus d’informations sur les modes de coexistence, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Préférences d’application
 
