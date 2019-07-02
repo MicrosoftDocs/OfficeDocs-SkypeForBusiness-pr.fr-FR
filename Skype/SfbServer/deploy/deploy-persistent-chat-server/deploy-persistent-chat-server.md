@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 'Résumé: cette rubrique vous explique comment déployer Skype entreprise Server 2015 permanent Chat Server.'
-ms.openlocfilehash: 06cc51ccbbab193e749c2f919102d7d38fde3f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fed07d864bda6fc3e0e93932123b2651c226b4f6
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273895"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418114"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>Déployer un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -33,7 +33,7 @@ Pour déployer le serveur de chat permanent, vous devez:
 Avant de déployer le serveur Chat permanent, il est conseillé de lire [plan pour le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Les rubriques de planification décrivent la configuration logicielle et matérielle requise, les topologies possibles et les scénarios de colocalisation. 
   
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
 
 ## <a name="deployment-checklist"></a>Liste de contrôle du déploiement
 

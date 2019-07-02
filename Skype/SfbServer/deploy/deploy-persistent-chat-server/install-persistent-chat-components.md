@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Résumé: cette rubrique vous explique comment utiliser l’Assistant Déploiement de Skype entreprise Server pour installer les composants et services de Skype entreprise Server 2015.'
-ms.openlocfilehash: 6c30ba33f1ff22b5088080048210c7dcb862cb3b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2b19599ff3523a1b96a2349d62c948ed3fe72d7b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273803"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418159"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Installation des composants de conversation permanente dans Skype Entreprise Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34273803"
 Avant d’installer les composants chat persistants, assurez-vous que vous avez déjà installé le matériel et les logiciels requis et que vous avez créé la topologie appropriée pour prendre en charge le serveur de chat permanent. Pour plus d’informations sur la planification et la configuration requise, reportez-vous à [la section Configuration requise pour votre environnement Skype entreprise](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) et [planifier le serveur de chat permanent dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Pour plus d’informations sur la mise à jour et la publication de votre topologie dans le cas d’inclusion du serveur de chat permanent, voir [Ajouter le serveur de conversation permanente à votre topologie 2015 Skype entreprise Server](add-persistent-chat-server.md).
   
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
 
 ## <a name="install-and-start-services"></a>Installation et démarrage des services
 

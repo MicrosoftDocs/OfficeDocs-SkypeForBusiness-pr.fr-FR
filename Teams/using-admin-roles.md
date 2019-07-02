@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: Apprenez à utiliser les différents rôles d’administration pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a4753fd90a687a176bb9145d4c216adc0453bce
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221216"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417981"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
 
@@ -27,6 +27,8 @@ ms.locfileid: "35221216"
 ## <a name="teams-roles-and-capabilities"></a>Rôles et capacités de teams
 
 Il existe quatre rôles d’administrateur d’équipes disponibles: l’administrateur de service Teams, l’administrateur des communications Teams, le support technique de Microsoft Team communications et l’ingénieur du support des communications Teams. Consultez le tableau ci-dessous pour comprendre le fonctionnement de chaque rôle et les outils qu’il peut utiliser dans le centre d’administration Microsoft teams et PowerShell.
+
+
 
 <!-- add Global admin role? -->
 
@@ -53,7 +55,9 @@ Vous pouvez attribuer des utilisateurs à ces rôles dans Azure AD. Pour plus d�
 
 ## <a name="cmdlets-available-for-each-role"></a>Cmdlets disponibles pour chaque rôle
 
-La plupart des outils PowerShell pour ces rôles d’administrateur résident dans le module PowerShell de Skype entreprise, et il est important de noter que certaines des applets de commande dont ces rôles d’administrateur ont accès à des paramètres partagés qui sont également utilisés pour Skype entreprise online. Pour afficher la liste complète des cmdlets actuellement disponibles pour un rôle donné dans le module PowerShell Skype entreprise, procédez comme suit:
+La plupart des outils PowerShell pour ces rôles d’administrateur résident dans le module PowerShell de Skype entreprise, et il est important de noter que certaines des applets de commande dont ces rôles d’administrateur ont accès à des paramètres partagés qui sont également utilisés pour Skype entreprise online. Le rôle d’administrateur Skype entreprise a également accès à toutes les applets de la fonction du module PowerShell Skype entreprise.
+
+Pour afficher la liste complète des cmdlets actuellement disponibles pour un rôle donné dans le module PowerShell Skype entreprise, procédez comme suit:
 
 1. Attribuez ce rôle à un utilisateur (et assurez-vous que l’utilisateur n’a pas d’autres rôles).
 2. Connectez-vous au module PowerShell Skype entreprise:<br>

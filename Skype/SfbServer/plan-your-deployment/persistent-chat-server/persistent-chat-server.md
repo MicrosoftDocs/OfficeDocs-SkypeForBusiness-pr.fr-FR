@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Résumé: cette rubrique vous explique comment planifier le fonctionnement du serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 7916fa041e5180cd7e4d4bba2349565c22f8fdcb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3e485f938d2bd48dad5f1b9f0baa96d7f3f537d0
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297091"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418279"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -37,7 +37,7 @@ Le serveur de chat permanent peut améliorer la communication au sein de votre o
 - Suivi de la conformité à la réglementation en déployant facultativement le service de conformité de conversation permanente
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Architecture de haut niveau du serveur de conversation permanente
 

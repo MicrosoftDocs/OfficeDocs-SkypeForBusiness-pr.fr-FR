@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Résumé: cette rubrique vous explique comment planifier l’archivage dans Skype entreprise Server.'
-ms.openlocfilehash: 4bbe6b5bd8eb9e5e56bfdea6f8a4187a6d14b231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277600"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417873"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planifier l’archivage dans Skype entreprise Server
  
@@ -69,7 +69,7 @@ Pour implémenter l’archivage, vous devez décider comment répondre aux besoi
     Skype entreprise Server ne permet pas non plus d’archiver des conversations persistantes. Pour archiver des conversations permanentes, vous devez activer et configurer le service de conformité, qui est un composant qui peut être déployé avec le serveur de chat permanent. Pour plus d’informations, reportez-vous à la section [planification du serveur de conversation permanente dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
-    > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+    > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
     
 - **Quelle doit être la durée de conservation du contenu archivé**. La base de données d’archivage n’est pas destinée à la conservation longue durée, et Skype entreprise Server ne fournit pas de solution de découverte électronique pour les données archivées, de sorte que les données doivent être déplacées vers un autre stockage. Skype entreprise Server fournit un outil d’exportation de session que vous pouvez utiliser pour exporter des données archivées et qui crée des transcriptions sur les données archivées. 
     

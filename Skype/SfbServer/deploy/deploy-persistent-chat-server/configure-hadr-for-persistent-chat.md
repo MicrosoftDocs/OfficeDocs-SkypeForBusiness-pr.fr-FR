@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Résumé: cette rubrique vous explique comment configurer la haute disponibilité et la récupération après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 152797229dc02bfcd1991a9ac6f67370c9154593
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 813ea29d8ea8b75c866e12c056b40e237173922c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282293"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418166"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -28,7 +28,7 @@ Skype entreprise Server prend en charge plusieurs modes de haute disponibilité 
 > Les groupes de disponibilité AlwaysOn ne sont pas pris en charge par les serveurs de chat permanents. 
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
   
 Avant de configurer votre déploiement de chat permanent pour une haute disponibilité et une reprise après sinistre, assurez-vous que vous connaissez les concepts de la [planification de la haute disponibilité et de la reprise après sinistre pour le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). La solution de reprise après sinistre pour serveur de chat permanent décrite dans ces rubriques est basée sur un pool de serveurs de chat permanent étiré. Le contenu de la planification décrit les exigences en ressources et la topologie de pool étiré qui permet une disponibilité élevée et une reprise après sinistre pour le serveur de chat permanent, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et l’envoi du journal SQL Server pour reprise après sinistre.
   

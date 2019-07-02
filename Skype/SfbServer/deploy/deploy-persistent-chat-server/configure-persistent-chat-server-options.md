@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Résumé: Découvrez comment configurer les options de serveur de chat permanent sur le niveau global, de site ou de pool dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 6305ba9a961248b24fe1a2fc28d5944efb6adeac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3140689190900bee1633210a455c7af475bb8fa0
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273867"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418127"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configuration des options de serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -33,7 +33,7 @@ Vous pouvez spécifier plusieurs options pour le serveur de chat permanent qui p
 - URL de gestion de la salle. URL utilisée pour personnaliser la gestion des salles de conversation. Ce paramètre permet d’utiliser une solution personnalisée de gestion des salles. 
    
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
  
 ## <a name="configure-persistent-chat-server-global-options"></a>Configurer les options globales de chat permanent du serveur de conversation
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Résumé: en savoir plus sur la configuration environnementale requise pour le serveur Edge dans Skype entreprise Server.'
-ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203955"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414988"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Configuration requise pour l’environnement du serveur Edge dans Skype entreprise Server
  
@@ -285,7 +285,7 @@ Nous aborderons séparément les besoins de certificats internes et externes, pu
   
 ### <a name="external-certificates"></a>Certificats externes
 
-Au minimum, le certificat attribué à vos interfaces de serveur Edge externe doit être fourni par une autorité de certification (CA) publique. Nous ne sommes pas en mesure de vous recommander une autorité de certification spécifique, mais nous disposons d’une liste de [partenaires de certification de communications unifiées](https://support.microsoft.com/en-us/kb/929395) qui vous permettent de vérifier si votre autorité de certification préférée figure dans la liste.
+Au minimum, le certificat attribué à vos interfaces de serveur Edge externe doit être fourni par une autorité de certification (CA) publique. Nous ne sommes pas en mesure de vous recommander une autorité de certification spécifique, mais nous disposons d’une liste de [partenaires de certification de communications unifiées](/SkypeForBusiness/certification/services-ssl) qui vous permettent de vérifier si votre autorité de certification préférée figure dans la liste.
   
 Quand aurez-vous besoin d’envoyer une demande à une autorité de certification pour ce certificat public et comment procéder ? Il existe différentes façons de faire :
   

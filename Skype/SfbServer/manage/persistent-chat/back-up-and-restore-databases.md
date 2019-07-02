@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Résumé: Découvrez comment sauvegarder et restaurer des bases de données serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 07d904620bbc5925ec6457924af6ee1e48d98d55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279360"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417959"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Sauvegarde et restauration des bases de données de conversation permanente dans Skype Entreprise Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279360"
 Le serveur Chat permanent nécessite le logiciel de base de données SQL Server pour stocker des données de salle de conversation, telles que l’historique, le contenu, la configuration, la mise en service des utilisateurs et d’autres métadonnées pertinentes. De plus, si votre organisation a des réglementations qui nécessitent l’archivage de l’activité de conversation permanente et que le service de conformité facultatif est activé, le logiciel de base de données SQL Server est utilisé pour stocker les données de conformité, y compris le contenu et les événements de conversation, comme salle de réunion et de départ. Le contenu d’une salle de conversation est stocké dans la base de données de chat permanent (MGC). Les données de conformité sont conservées dans la base de données de conformité (mgccomp). Il s’agit de données vitales qui doivent être sauvegardées régulièrement. 
   
 > [!NOTE]
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
 
 ## <a name="back-up-the-databases"></a>Sauvegarde des bases de données
 

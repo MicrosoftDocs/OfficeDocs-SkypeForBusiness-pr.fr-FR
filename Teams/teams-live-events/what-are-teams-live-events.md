@@ -14,12 +14,12 @@ description: Découvrez comment les événements dynamiques permettent aux utili
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394538"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420051"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -77,7 +77,7 @@ L’utilisation des participants est l’aspect le plus important des événemen
 ![Capture d’écran montrant l’expertise des événements en direct] (../media/teams-live-events-attendee.png "Capture d’écran montrant l’expertise des événements en direct")
 
 ### <a name="live-event-usage-report"></a>Rapport sur l’utilisation des événements en direct 
-Les administrateurs de clients peuvent afficher les données d’analyse en temps réel des événements en direct dans le centre d’administration Microsoft Teams.  Le rapport d’utilisation des événements en direct montre la vue d’ensemble de l’activité des événements en direct organisés au sein de l’organisation.  Les administrateurs peuvent afficher les informations d’utilisation des événements, notamment l’état des événements, l’heure de début, les vues et le type de production.  
+Les administrateurs de clients peuvent afficher les données d’analyse en temps réel des événements en direct dans le centre d’administration Microsoft Teams.  Le [rapport d’utilisation des événements en direct](../teams-analytics-and-reports/teams-live-event-usage-report.md) montre la vue d’ensemble de l’activité des événements en direct organisés au sein de l’organisation.  Les administrateurs peuvent afficher les informations d’utilisation des événements, notamment l’état des événements, l’heure de début, les vues et le type de production.  
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez au [plan pour les événements en direct teams](plan-for-teams-live-events.md).

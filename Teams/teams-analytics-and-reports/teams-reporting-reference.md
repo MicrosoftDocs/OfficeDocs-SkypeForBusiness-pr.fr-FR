@@ -3,7 +3,6 @@ title: Analyses et rapports Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +16,12 @@ MS.collection:
 description: En savoir plus sur les rapports d’équipes disponibles dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253793"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420035"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -46,6 +45,7 @@ Nous cherchons constamment à améliorer l’efficacité de création de rapport
 |[Rapport d’utilisation Teams](teams-usage-report.md)  |  Utilisateurs actifs<br/>Utilisateurs actifs dans équipes et canaux<br/>Canaux actifs<br/>Contenus<br/>Paramètre de confidentialité de teams<br/>Invités dans une équipe   |
 |[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |  1:1 appelle un utilisateur ayant participé à la Conférence<br/>Messages qu’un utilisateur a publié dans une conversation d’équipe<br/>Messages qu’un utilisateur a publié dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
 |[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs de Mac<br/>utilisateurs d’iOS<br/>Utilisateurs du téléphone Android     |
+|[Rapport sur l’utilisation des événements en direct teams](teams-live-event-usage-report.md)   |  Nombre total d’affichages<br>Heure de début<br>État de l’événement<br>Organisateur<br>Présentateur<br>Productrice<br>Paramètre d’enregistrement<br>Type de production    |
 
 > [!NOTE]
 > Le rapport équipes affiche les données des utilisateurs actifs et des équipes actives. Par exemple, si un utilisateur de votre organisation n’est pas actif dans teams au cours de la période que vous avez spécifiée pour un rapport, les données de cet utilisateur ne sont pas incluses dans ce rapport.

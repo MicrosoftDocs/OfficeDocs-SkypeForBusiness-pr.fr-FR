@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Résumé: Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur Chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 8dfd21426cee6b32e6f06c35297ccd5fd8dc534e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e700b76c8af29a0c877c1dc594244a299b8a3904
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297098"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418444"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration logicielle et matérielle requise pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -39,7 +39,7 @@ Avant de déployer le serveur de chat permanent, vous devez vous assurer que les
 Les sections suivantes décrivent les conditions requises pour le serveur de chat permanent et la base de données qui stocke les données de chat permanent.
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
   
 ## <a name="front-end-server-requirements"></a>Configuration requise pour le serveur frontal
 

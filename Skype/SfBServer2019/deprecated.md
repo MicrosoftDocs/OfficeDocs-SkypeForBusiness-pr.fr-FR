@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé: les fonctionnalités suivantes ont été supprimées de Skype entreprise Server 2019.'
-ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278111"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418360"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Ce qui est déconseillé dans Skype entreprise Server 2019
 
@@ -35,7 +35,7 @@ Skype entreprise Server 2015 et ses prédécesseurs vous permettaient de configu
 
 Le serveur Chat permanent est un rôle facultatif qui permet à plusieurs utilisateurs de votre organisation de participer à des conversations de salles de conversation qui persistent dans le temps. La conversation permanente ne peut pas être déployée avec Skype entreprise Server 2019. Ce rôle de serveur est supprimé du générateur de topologie, ainsi que du code. 
 
-La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams).
+La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Mise en miroir SQL pour Skype entreprise Server
 

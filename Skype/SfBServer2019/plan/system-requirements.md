@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé: Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: c1703c28f7c095810044145c6b3e9512b017e901
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134282"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35415003"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019
  
@@ -439,7 +439,7 @@ Ce n’est qu’un grand nombre d’entre eux et il existe de nombreux niveaux d
   
 ### <a name="certificates-for-your-internal-servers"></a>Certificats pour vos serveurs internes
 
-Vous aurez besoin de certificats pour la plupart de vos serveurs internes, et il est probable que vous les obteniez auprès d’une autorité de certification interne (CA située dans votre domaine). Si vous le souhaitez, vous pouvez demander ces certificats auprès d’une autorité de certification externe (qui se trouve sur Internet). Si vous vous demandez ce que vous devez faire, vous pouvez consulter la liste des [partenaires de certification de communications unifiées](https://support.microsoft.com/kb/929395/en-us) .
+Vous aurez besoin de certificats pour la plupart de vos serveurs internes, et il est probable que vous les obteniez auprès d’une autorité de certification interne (CA située dans votre domaine). Si vous le souhaitez, vous pouvez demander ces certificats auprès d’une autorité de certification externe (qui se trouve sur Internet). Si vous vous demandez ce que vous devez faire, vous pouvez consulter la liste des [partenaires de certification de communications unifiées](/SkypeForBusiness/certification/services-ssl) .
   
 Vous aurez également besoin de certificats lorsque Skype entreprise Server 2019 communiquera avec d’autres applications et serveurs, comme Microsoft Exchange Server. Cela doit évidemment être un certificat que ces autres applications et serveurs peuvent utiliser d’une manière prise en charge. Skype entreprise Server 2019 et d’autres produits Microsoft prennent en charge le protocole d’autorisation d’ouverture (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Si cela vous intéresse, nous avons un article de planification supplémentaire pour les appels OAuth et Skype entreprise Server 2019.
   

@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Apprenez et ne pouvez pas utiliser le centre d’administration Skype entreprise, ainsi que d’autres fonctionnalités lorsque votre service est migré vers un autre centre de données Microsoft. '
-ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284876"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411568"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Pourquoi ne puis-je pas utiliser le centre d’administration de Skype entreprise Online pour le moment?
 
@@ -45,7 +45,7 @@ Tout d’abord, nous allons répartir quelques termes.
     
 - **Migration** en Ce n’est pas le même que le déplacement. Dans ce cas, cela signifie que nous transférons vos utilisateurs et vos paramètres Skype entreprise Online d’un datacenter vers un autre qui vous rapproche de votre service.
     
-- **Latence** Il s’agit du délai nécessaire pour accéder au centre d’administration Office 365, apporter des modifications aux paramètres, puis enregistrer les modifications.
+- **Latence** Il s’agit du délai nécessaire pour accéder au centre d’administration 365 Microsoft, apporter des modifications, puis enregistrer les modifications.
     
 - **ID de corrélation** Vous avez peut-être remarqué que cela figure dans le message que vous venez d’obtenir. Ces informations sont utilisées par les ingénieurs du support Microsoft pour vous aider à résoudre une erreur. Si vous contactez le support technique de Microsoft, vous pouvez être invité à entrer l’ID de corrélation.
     

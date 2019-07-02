@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Résumé: cette rubrique vous explique en plus des catégories, des salles de conversation et des rôles d’utilisateur et d’administrateur pour le serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 2499cabbf4d7563228108ff5037a49be2976c018
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297112"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418468"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Catégories de conversation permanente, salles de conversation, rôles d’utilisateur dans Skype Entreprise Server 2015
  
@@ -31,7 +31,7 @@ Vous pouvez contrôler l’accès aux salles de conversation en créant des cat�
 - Rôles d’administrateur
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Catégories d’organisation des salles de conversation
 
@@ -40,7 +40,7 @@ Les catégories permettent d’organiser les salles de conversation et de déter
 La logique principale du concept de membres autorisés ou refusés passe par des murs éthiques. Par exemple, il est courant dans les institutions bancaires et financières d’imposer des limites éthiques qui empêchent les courtiers et les analystes de partager des communications quand ils mettent en œuvre des stratégies et des conventions. Pour répondre à cette exigence, un administrateur peut créer des catégories de sorte qu’une seule catégorie autorise la création et l’utilisation des salles par les courtiers, et une autre catégorie autorise la création et l’utilisation des salles par les analystes. Il n’est possible d’ajouter un utilisateur en tant que membre de la salle si la catégorie parente l’en empêche.
   
 > [!IMPORTANT]
-> Les membres autorisés et refusés d’une catégorie ne sont pas les **** mêmes que pour les membres d’une salle de conversation permanente. les recherches > affichent toutes les salles de conversation ouvertes et fermées pour lesquelles l’utilisateur exécute la recherche dans la liste des membres autorisés et refusés. Les salles secrètes ne sont pas affichées, sauf si l’utilisateur effectuant la recherche en est membre. L’utilisateur peut rechercher seulement les salles dont il est déjà membre, ou celles pour lesquelles il peut demander son appartenance. 
+> Les membres autorisés et refusés d’une catégorie ne sont pas les mêmes que les rôles de **membre** qui s’appliquent à une salle de conversation permanente. > recherche affiche toutes les salles de conversation ouvertes et fermées pour lesquelles l’utilisateur exécute la recherche dans la liste des membres autorisés et refusés. Les salles secrètes ne sont pas affichées, sauf si l’utilisateur effectuant la recherche en est membre. L’utilisateur peut rechercher seulement les salles dont il est déjà membre, ou celles pour lesquelles il peut demander son appartenance. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salles de conversation et rôles utilisateur
 

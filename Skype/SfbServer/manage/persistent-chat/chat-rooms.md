@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Résumé: Découvrez comment gérer des salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279346"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417945"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des salles de conversation sur un serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279346"
 La création et la gestion des salles de conversation est beaucoup plus facile en cas d’utilisation pertinente des catégories. Une catégorie définit qui peut créer des salles de conversation ou y participer. Avant de tenter de gérer des salles de conversation, veillez à lire les [catégories de discussion, les salles de conversation et les rôles d’utilisateur persistants dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) et à [gérer les catégories dans le serveur Chat permanent dans skype entreprise Server 2015](categories.md).
   
 > [!NOTE]
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
 
 Vous pouvez configurer et gérer des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, ou à l’aide du client Skype entreprise si vous êtes membre de la salle de conversation. Cette rubrique explique comment gérer les salles de conversation en utilisant l’interface de ligne de commande Windows PowerShell. Si vous voulez gérer des salles de conversation à l’aide du client Skype entreprise, voir l’aide du client. 
   

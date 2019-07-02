@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Résumé: choisissez votre topologie pour Skype entreprise Server. En savoir plus sur la colocalisation du serveur pour Skype entreprise Server.'
-ms.openlocfilehash: 5c8c4b7cc2a0bf1c392e3fad70a179b838a64606
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296622"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418010"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Notions de base de la topologie pour Skype entreprise Server
 
@@ -184,7 +184,7 @@ Les directeurs peuvent authentifier les demandes des utilisateurs de Skype entre
 ### <a name="persistent-chat-server-roles"></a>Rôles de serveur Chat permanent
 
 > [!NOTE]
-> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
 
 La conversation permanente permet aux utilisateurs de participer à des conversations thématiques durables à plusieurs. Le serveur frontal de conversation permanente exécute le service de conversation permanente. Le serveur principal de conversation permanente stocke les données d’historique de conversation, ainsi que des informations sur les catégories et les salles de conversation. Le serveur principal de conformité de conversation permanente peut stocker le contenu des conversations et les événements de conformité à des fins de conformité.
 
@@ -239,7 +239,7 @@ Il s’agit de la zone présentant de véritables différences entre les déploi
 Dans la mesure où SQL Server Express est colocalisé sur le serveur Standard Edition Server et ne peut pas être déplacé, c’est vraiment simple. Par ailleurs, si vous déployez le serveur de chat permanent sur un serveur Standard Edition Server, vous pouvez également collocate la conversation permanente et la base de données de conformité de la conversation permanente sur le serveur Standard Edition Server, mais ce n’est pas le cas.
 
     > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
 
 Celles-ci ne peuvent pas être colocalisées sur le serveur Standard Edition Server, mais peuvent se trouver sur un serveur de base de données unique:
 
@@ -272,7 +272,7 @@ Les bases de données suivantes peuvent être localisées sur le même serveur S
 - Le serveur de base de données ne peut pas prendre en charge plus d’une grappe frontale Enterprise Edition, un serveur exécutant l’archivage, un serveur exécutant la surveillance, une seule base de données de chat permanent et une seule base de données de conformité de la conversation permanente, mais elle peut prendre en charge l’une de chacune que les bases de données utilisent ou non la même instance de SQL Server, ou des instances distinctes de SQL Server.
 
     > [!NOTE]
-    > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique [voyage de Skype entreprise à Microsoft teams](/microsoftteams/journey-skypeforbusiness-teams). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
+    > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
 
 ### <a name="file-shares"></a>Partages de fichiers
 

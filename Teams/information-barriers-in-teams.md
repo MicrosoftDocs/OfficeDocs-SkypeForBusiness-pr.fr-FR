@@ -1,9 +1,9 @@
 ---
 title: Barrières relatives à l’information dans Microsoft teams preview
-author: LolaJacobsen
-ms.author: lolaj
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.date: 06/17/2019
+ms.date: 07/01/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013020"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418287"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Barrières relatives à l’information dans Microsoft teams preview
 
@@ -61,9 +61,9 @@ Le rôle d’administrateur de barrières en matière d’information (la gestio
 Les stratégies de barrage d’information sont contrôlées lorsque les événements d’équipe suivants se produisent:
 
 - Les **membres sont ajoutés à une équipe** , chaque fois que vous ajoutez un utilisateur à une équipe, la stratégie de l’utilisateur doit être évaluée par rapport aux stratégies de barrage des informations des autres membres de l’équipe. Une fois que l’utilisateur a été ajouté, l’utilisateur peut exécuter toutes les fonctions de l’équipe sans vérification supplémentaire. Si la stratégie de l’utilisateur les empêche de l’ajouter à l’équipe, l’utilisateur n’affichera pas la recherche.
-- **Une nouvelle conversation est demandée** -chaque fois qu’une nouvelle discussion est demandée entre deux utilisateurs ou plus, la discussion est évaluée pour s’assurer qu’elle ne viole aucune stratégie de barrière des informations. Si la conversation ne respecte pas une stratégie d’obstacle d’information, la conversation n’est pas lancée et un message d’erreur s’affiche.
-- **Un utilisateur est invité à rejoindre une réunion** : lorsque l’utilisateur est invité à rejoindre une réunion, la stratégie de l’utilisateur est évaluée par rapport aux politiques des autres membres de l’équipe, et en cas de violation, l’utilisateur n’est pas autorisé à rejoindre la réunion et verra un message d’erreur.
-- **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne peut pas être autorisé et un message d’erreur s’affiche.
+- **Une nouvelle conversation est demandée** -chaque fois qu’une nouvelle discussion est demandée entre deux utilisateurs ou plus, la discussion est évaluée pour s’assurer qu’elle ne viole aucune stratégie de barrière des informations. Si la conversation ne respecte aucune stratégie d’obstacle d’information, la conversation n’est pas lancée.
+- **Un utilisateur est invité à rejoindre une réunion** : lorsque l’utilisateur est invité à rejoindre une réunion, la stratégie de l’utilisateur est évaluée par rapport aux politiques des autres membres de l’équipe, et en cas de violation, l’utilisateur n’est pas autorisé à rejoindre la réunion.
+- **Un écran est partagé entre** plusieurs utilisateurs, chaque fois qu’un écran est partagé entre deux utilisateurs ou plus, le partage d’écran doit être évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations d’autres utilisateurs. Dans le cas contraire, le partage d’écran ne sera pas autorisé.
 - **Un utilisateur place un appel téléphonique (VoIP) dans teams** : chaque fois qu’un utilisateur est lancé par un utilisateur ou à un groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne respecte pas les stratégies de barrage des informations des autres membres de l’équipe. En cas de violation, l’appel audio est bloqué.
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Qu’advient-il des fils de discussion existants lorsqu’une stratégie est modifiée?
