@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Découvrez les causes courantes des erreurs de connexion à Skype Entreprise Online et résolvez-les. '
-ms.openlocfilehash: 25f6c08392823c35e4bb5d53ac523c1efeddf958
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285033"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221490"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Résolution des erreurs de connexion à Skype Entreprise Online pour les administrateurs
 
@@ -75,7 +75,7 @@ Pour résoudre les erreurs de connexion à Skype Entreprise Online, commencez pa
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  Ces instructions sont destinées principalement aux clients disposant d’un compte Microsoft Office 365 Plan E. Si vous êtes un client Office 365 Plan P, veuillez passer à la section suivante, [Recueillir d’autres informations et rechercher de l’aide supplémentaire ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
+>  Ces instructions sont destinées principalement aux clients disposant d’un compte Microsoft Office 365 Plan E. Si vous êtes un client Office 365 Plan P, veuillez passer à la section suivante, [Recueillir d’autres informations et rechercher de l’aide supplémentaire](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
 
 Si l’utilisateur ne peut pas se connecter après avoir essayé les suggestions de la section précédente, vous pouvez procéder à une résolution des problèmes plus précise, axée sur le type d’erreur rencontré. Le tableau ci-dessous répertorie les principaux messages d’erreur et leurs causes probables. Le tableau suivant décrit les procédures détaillées à suivre pour résoudre chaque problème.
 
