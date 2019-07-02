@@ -1,7 +1,7 @@
 ---
 title: Formation à Microsoft Teams pour les administrateurs
 ms.reviewer: ''
-description: La formation, que vous devez gérer Teams Microsoft dans votre organisation
+description: Obtenir la formation dont vous avez besoin pour gérer Microsoft teams au sein de votre organisation
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896241"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417837"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
-Découvrez comment gérer les équipes de votre organisation.
+Découvrez comment gérer teams pour votre organisation.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ Découvrez comment gérer les équipes de votre organisation.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Nouveau : Instructeur pour les équipes</h3>
+                        <h3>NOUVEAUTÉ: formation dirigée par un instructeur pour teams</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ Découvrez comment gérer les équipes de votre organisation.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
