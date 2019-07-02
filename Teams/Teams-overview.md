@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: c4b0b404fae8d9142333bed60de80697e350b4ab
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221982"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417923"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -68,7 +68,7 @@ Pour rester au fait des nouveautés dans Teams et tous les autres produits Offic
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Mise à niveau de Skype Entreprise vers Teams
 Teams est le client principal pour des communications intelligentes dans Office 365, remplaçant Skype Entreprise Online au fil du temps. Pour en savoir plus sur les nouvelles fonctionnalités disponibles dans Teams, consultez la [Feuille de route de Microsoft 365](https://aka.ms/O365Roadmap). Pour compléter les fonctionnalités de conversation permanente et de messagerie, Teams offre une expérience de réunion et d’appels complète, avec des fonctions vocales et vidéo prédéfinies et entièrement intégrées. Consultez la rubrique [Teams est maintenant une solution de réunion et d’appel complète](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) dans le blog Microsoft Teams.
 
-Si vous exécutez Skype Entreprise et que vous êtes prêt à effectuer la mise à niveau vers Teams, ou si vous exécutez Skype Entreprise et Teams côte à côte et que vous êtes prêt à passer entièrement à Teams, nous avons les outils, les conseils et les guides pour vous aider à réussir votre transition. Pour plus d’informations, voir [Mise à niveau vers Teams](journey-skypeforbusiness-teams.md).
+Si vous exécutez Skype Entreprise et que vous êtes prêt à effectuer la mise à niveau vers Teams, ou si vous exécutez Skype Entreprise et Teams côte à côte et que vous êtes prêt à passer entièrement à Teams, nous avons les outils, les conseils et les guides pour vous aider à réussir votre transition. Pour plus d’informations, voir [Mise à niveau vers Teams](upgrade-start-here.md).
 
 ## <a name="teamwork-and-office-365"></a>Travail d’équipe et Office 365
 Chaque équipe est différente, il n’existe pas une seule et même approche de la collaboration. Office 365 est destiné à répondre aux besoins uniques de chaque équipe, en permettant de communiquer, collaborer et faire plus avec des applications intégrées dédiées. 

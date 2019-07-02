@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e86769e2e3774c219cd4ac89a9b84867114140e6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 9408ad5108de64806e95a6b63c480d082002a843
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432792"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418619"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Comment mettre en place Microsoft Teams
 
@@ -50,8 +50,8 @@ Si vous venez vers Teams de Skype Entreprise (en ligne ou en local) ou si vous a
 
 |  |Le profil de votre organisation|Aide  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|J’utilise actuellement Skype Entreprise Online et je suis prêt à passer à Teams. |Accédez à [Mise à niveau vers Teams](Journey-SkypeforBusiness-Teams.md).        |
-|<IMG SRC="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Tout d’abord, pour un déploiement de Teams à grande échelle, vous devez configurer la connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planification de la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](Journey-SkypeforBusiness-Teams.md).    |
+|<IMG src="https://docs.microsoft.com/en-us/office/media/icons/migration-blue.svg" alt="An icon representing migration" height="50" width="50">|J’utilise actuellement Skype Entreprise Online et je suis prêt à passer à Teams. |Accédez à [Mise à niveau vers Teams](upgrade-start-here.md).        |
+|<IMG SRC="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="An icon representing hybrid connectivity" height="50" width="50">|Mon organisation utilise Skype Entreprise Server et je souhaite mettre en place Teams. |Tout d’abord, pour un déploiement de Teams à grande échelle, vous devez configurer la connectivité hybride entre votre environnement local et Microsoft 365. Commencez par lire [Planification de la connectivité hybride entre Skype Entreprise Server et Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity). <br><br>Vous devriez également passer en revue [Mise à niveau vers Teams](upgrade-start-here.md).    |
 |<IMG src="https://docs.microsoft.com/en-us/office/media/icons/on-premises.svg" alt="An icon representing an on-premises solution" height="50" width="50">|Je n’ai pas Skype Entreprise Server, mais j’ai une solution PSTN en local. Je souhaite mettre en place Teams, mais je souhaite conserver ma solution PSTN en local. |Mettre en place les équipes en suivant le [parcours recommandé](#recommended-path-to-teams) ci-dessus.<br><br>Lisez ensuite la [Planification d’un routage Direct](direct-routing-plan.md) pour en savoir plus sur l’utilisation d’un routage direct du système téléphonique pour connecter votre solution PSTN en local avec Teams.|
 |
 
