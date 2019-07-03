@@ -15,12 +15,12 @@ localization_priority: Priority
 description: Découvrez les outils mis à la disposition d’un administrateur pour ajouter de nouveaux utilisateurs invités à une organisation, notamment la version de bureau et les clients Web Microsoft teams ainsi que le portail de collaboration inter-entreprise d’Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67a00b87dbe3f29ce6588d4ff84302df2f07ce69
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a176ccf4eb6a35b9a4cbff9dcd8be663f5630d8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221633"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418476"
 ---
 <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 =====================
@@ -31,6 +31,10 @@ Toutes les personnes ayant un compte de messagerie professionnel ou un compte de
 
 En tant qu’administrateur, vous pouvez ajouter un nouvel utilisateur invité à l’organisation de deux manières :
 - Les administrateurs généraux qui sont propriétaires d’une équipe et les propriétaires d’une équipe peuvent ajouter un invité à une équipe par le biais de la version de bureau de Microsoft teams ou des clients Web. Pour plus d’informations, voir [Ajouter des invités à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
+
+> [!NOTE] 
+> Cela ne s’applique pas lorsque **Les administrateurs et les utilisateurs membres du rôle Inviteur d’invités peuvent inviter** est activé. En effet, le rôle Inviteur d’invités n’est pas pris en charge dans Teams.
+
 - Ajoutez des invités à votre organisation via Azure Active Directory (Azure AD) B2B Collaboration. Azure AD B2B Collaboration permet à un administrateur général d’inviter et d’autoriser un ensemble d’utilisateurs externes en chargeant un fichier de valeurs séparées par des virgules (CSV) comportant au maximum 2 000 lignes via le portail de collaboration B2B. Pour plus d’informations, voir [Azure Active Directory B2B Collaboration](https://go.microsoft.com/fwlink/p/?linkid=826383).
 
 Azure AD B2B Collaboration permet aux organisations d'imposer un accès conditionnel et des stratégies d'authentification multifacteur (MFA) aux utilisateurs B2B. Ces stratégies peuvent être appliquées au niveau locataire, application ou utilisateur individuel, de la même façon qu’elles peuvent être activées pour les employés à plein temps et les membres de l’organisation. Les stratégies MFA sont appliquées à l’organisation de ressources. Pour plus d’informations, consultez la page [Accès conditionnel pour les utilisateurs B2B Collaboration](https://go.microsoft.com/fwlink/?linkid=857454). Non, il n’est pas possible de bloquer des utilisateurs invités individuels.
