@@ -35,7 +35,7 @@
 
 ### [Vue d’ensemble](deploy-apps-microsoft-teams-landing-page.md)
 ### [Autorisations d’applications et points à prendre en compte](app-permissions.md)
-### [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
+### [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 ### [Ajouter des bots à des conversations privées et en groupe, et à des canaux dans Microsoft Teams](add-bots.md)
 ### [Utiliser les onglets intégrés et personnalisés](built-in-custom-tabs.md)
 ### [Utiliser les connecteurs Office 365 et personnalisés](Office-365-custom-connectors.md)
@@ -47,14 +47,14 @@
 ## Accès invité
 ### [À propos de l’accès des invités](guest-access.md)
 ### [Comment un invité rejoint une équipe](guest-joins.md)
-### [À quoi ressemble l'expérience des invités](guest-experience.md)
+### [À quoi ressemble l’expérience des invités](guest-experience.md)
 ### [Autoriser l’accès invité dans Teams](teams-dependencies.md)
 ### [Activer ou désactiver l’accès invité dans Teams](set-up-guests.md)
-### [Gérer l'accès invité dans Microsoft Teams](manage-guests.md)
+### [Gérer l’accès invité dans Microsoft Teams](manage-guests.md)
 ### [Ajouter un invité à une équipe](add-guests.md)
-### [Afficher les utilisateurs invités d'une équipe](view-guests.md)
-### [Modifier les informations d'un utilisateur invité](edit-guests-information.md)
-### [Utiliser PowerShell pour contrôler l'accès invité à une équipe](guest-access-PowerShell.md)
+### [Afficher les utilisateurs invités d’une équipe](view-guests.md)
+### [Modifier les informations d’un utilisateur invité](edit-guests-information.md)
+### [Utiliser PowerShell pour contrôler l’accès invité à une équipe](guest-access-PowerShell.md)
 ### [Liste de vérification de l’accès invité](guest-access-checklist.md)
 
 ## [Accès externe (fédération)](manage-external-access.md)
@@ -78,7 +78,8 @@
 #### [Rapport d’utilisation Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Rapport d’activité d’utilisateur Teams](teams-analytics-and-reports/user-activity-report.md) 
 #### [Rapport d’utilisation Teams sur des périphériques](teams-analytics-and-reports/device-usage-report.md)
-### [Rapports d’activité Teams dans le centre d’administration Microsoft 365](teams-activity-reports.md)
+#### [Rapport d’utilisation des événements en direct Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
+### [Rapports d’activité Teams dans le Centre d’administration Microsoft 365](teams-activity-reports.md)
 
 
 
@@ -89,10 +90,10 @@
 ## [Planifier votre déploiement](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Didacticiel : Réunions dans Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gérer les stratégies de réunion](meeting-policies-in-teams.md)
-## [Gérer les paramètres des réunions](meeting-settings-in-teams.md
+## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
-## [Autoriser les utilisateurs à enregistrer leur nom lorsqu'ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-## [Activer ou désactiver les annonces d'entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
+## [Activer ou désactiver les annonces d’entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
 ## [Configurer le partage de bureau dans Teams](configure-desktop-sharing.md)
 ## [Enregistrement de réunion cloud Teams](cloud-recording.md)
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
@@ -133,10 +134,10 @@
 #### [Afficher la liste des utilisateurs pour lesquels l’audioconférence est activée](see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md)
 
 #### [Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-#### [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)
-#### [Réinitialiser le code confidentiel d'audioconférence d'un utilisateur](reset-the-audio-conferencing-pin-in-teams.md)
+#### [Réinitialiser l’ID de conférence d’un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)
+#### [Réinitialiser le code confidentiel d’audioconférence d’un utilisateur](reset-the-audio-conferencing-pin-in-teams.md)
 #### [Courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres](emails-sent-to-users-when-their-settings-change-in-teams.md)
-#### [Activer ou désactiver l'envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+#### [Activer ou désactiver l’envoi de messages électroniques en cas de modification des paramètres d’audioconférence](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Désactiver les numéros gratuits pour des utilisateurs spécifiques](disabling-toll-free-numbers-for-specific-teams-users.md)
 #### [Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs](outbound-calling-restriction-policies.md)
 #### [Afficher et réinitialiser l’ID de conférence attribué à un utilisateur](see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md)
@@ -157,7 +158,7 @@
 
 #### [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
 
-#### Disponibilité des forfaits d'appels et de l’audioconférence selon les régions et les pays
+#### Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 ##### [Vue d’ensemble](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 ##### [Argentine](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
 ##### [Australie](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia.md)
@@ -290,7 +291,7 @@
 #### [Les standards cloud automatiques, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
 #### [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
 #### [Exemple de petite entreprise : configurer un standard automatique](tutorial-org-aa.yml)
-#### [Exemple de petite entreprise : configurer une file d'attente des appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemple de petite entreprise : configurer une file d’attente des appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Gérer les comptes de ressources dans Microsoft Teams](manage-resource-accounts.md)
 #### [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
 #### [Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams](answer-auto-attendant-and-call-queue-calls.md)
@@ -332,6 +333,7 @@
 
 ### Référence technique pour le routage direct
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
+#### [Indicatifs de pays pour le chemin d’accès au média](direct-routing-country-codes.md)
 
 ## Numéros de téléphone
 ### [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -452,9 +454,9 @@
 #### [Gestion des numéros de téléphone pour la Belgique](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [Gestion des numéros de téléphone pour le Canada](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
 #### [Gestion des numéros de téléphone pour la France](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
-#### [Gestion des numéros de téléphone pour l'Allemagne](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
-#### [Gestion des numéros de téléphone pour l'Irlande](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
-#### [Gestion des numéros de téléphone pour l'Espagne](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
+#### [Gestion des numéros de téléphone pour l’Allemagne](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
+#### [Gestion des numéros de téléphone pour l’Irlande](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [Gestion des numéros de téléphone pour l’Espagne](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [Gestion des numéros de téléphone pour les Pays-Bas](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Gestion des numéros de téléphone pour le Royaume-Uni](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Gestion des numéros de téléphone pour les États-Unis](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
@@ -630,7 +632,8 @@
 # 
 # 
 
-# [Développer Teams au sein de votre organisation](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# Conseils pour les industries et le secteur public
+## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,16 +669,45 @@
 
 <!-- ============================================================ -->
 
-# 
-# 
+# Conseils pour les petites et moyennes entreprises
+## [Modèles Teams pour les petites et moyennes entreprises](smb-templates.md)
+#    
+#    
 
 <!-- ============================================================ -->
 
+# Sécurité et conformité
+## [Vue d’ensemble](security-compliance-overview.md)
+## [Protection des informations dans Teams](information-barriers-in-teams.md)
+## [Mener une recherche eDiscovery de contenu dans Microsoft Teams](ediscovery-investigation.md)
+## [Modèles d’identité et authentification dans Teams](identify-models-authentication.md)
+## [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
+## [Placer un utilisateur ou une équipe Microsoft Teams en conservation légale](legal-hold.md)
+## [Rechercher des événements Microsoft Teams dans le journal d’audit](audit-log-events.md)
+## [Utilisation de la recherche de contenu dans Microsoft Teams](content-search.md)
+## [Stratégies de contrôle d’application AppLocker dans Teams](applocker-in-teams.md)
+## Stratégies de conservation dans Teams
+### [Vue d’ensemble](retention-policies.md)
+### [Questions fréquentes sur les stratégies de conservation](retention-policies-FAQ.md)
+### [Problèmes connus avec les stratégies de conservation](retention-policies-known-issues.md)
+## [Emplacement des données dans Teams](location-of-data-in-teams.md)
+## [Déclaration d’accessibilité de la conformité en France pour Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Solutions d’accessibilité pour Skype Entreprise Online et Microsoft Teams](accessibility-solutions-in-france.md)
+##  [Forfaits d’appels dans Office 365 - Code de conduite au Royaume-Uni](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Forfaits d’appels dans Office 365 - Gestion de réclamation de code pour le Royaume-Uni](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [Pratiques de collecte de données](data-collection-practices.md)
+## [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+#       
+#        
 # [Formation](training-microsoft-teams-landing-page.md)
 ## [Formation Teams par un instructeur](instructor-led-training-teams-landing-page.md)
 ## [Formation sur Teams pour les administrateurs](itadmin-readiness.md)
 ## [Formation sur Teams pour les utilisateurs finaux](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # Référence
@@ -707,7 +739,7 @@
 ### [Processus de mise à jour du client pour Teams](teams-client-update.md)
 
 ## Licence
-### [Gérer l'accès des utilisateurs à Microsoft Teams](user-access.md)
+### [Gérer l’accès des utilisateurs à Microsoft Teams](user-access.md)
 ### [Licences Office 365 pour Microsoft Teams](office-365-licensing.md)
 ### [Assigner des licences Teams](assign-teams-licenses.md)
 ### [Licences de module complémentaire Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
@@ -743,27 +775,6 @@
 ### [Téléphones IP certifiés pour Microsoft Teams](teams-ip-phones.md)
 ### [Téléphones pour Skype Entreprise Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Sécurité et conformité
-### [Vue d’ensemble](security-compliance-overview.md)
-### [Protection des informations dans Teams](information-barriers-in-teams.md)
-### [Mener une recherche eDiscovery de contenu dans Microsoft Teams](ediscovery-investigation.md)
-### [Modèles d'identité et authentification dans Teams](identify-models-authentication.md)
-### [Se connecter à Teams en utilisant l’authentification moderne](sign-in-teams.md)
-### [Placer un utilisateur ou une équipe Microsoft Teams en conservation légale](legal-hold.md)
-### [Rechercher des événements Microsoft Teams dans le journal d'audit](audit-log-events.md)
-### [Utilisation de la recherche de contenu dans Microsoft Teams](content-search.md)
-### [Stratégies de contrôle d’application AppLocker dans Teams](applocker-in-teams.md)
-### Stratégies de conservation dans Teams
-#### [Vue d’ensemble](retention-policies.md)
-#### [Questions fréquentes sur les stratégies de conservation](retention-policies-FAQ.md)
-#### [Problèmes connus avec les stratégies de conservation](retention-policies-known-issues.md)
-### [Emplacement des données dans Teams](location-of-data-in-teams.md)
-### [Déclaration d’accessibilité de la conformité en France pour Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Solutions d’accessibilité pour Skype Entreprise Online et Microsoft Teams](accessibility-solutions-in-france.md)
-###  [Forfaits d’appels dans Office 365 - Code de conduite au Royaume-Uni](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Forfaits d’appels dans Office 365 - Gestion de réclamation de code pour le Royaume-Uni](complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Pratiques de collecte de données](data-collection-practices.md)
-### [Conditions générales d’utilisation des appels d’urgence](emergency-calling-terms-and-conditions.md)
 
 
 ## Résolution des problèmes et prise en charge
@@ -771,7 +782,7 @@
 ### [Ressources de support pour Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Dépannage des problèmes de connectivité avec le client Microsoft Teams](connectivity-issues.md)
 ### [Utiliser des fichiers journaux pour le dépannage de Microsoft Teams](log-files.md)
-### [Vérifier l'intégrité du service pour Microsoft Teams](service-health.md)
+### [Vérifier l’intégrité du service pour Microsoft Teams](service-health.md)
 ### [Restrictions de caractère spécial dans les stratégies Teams](special-character-restrictions-in-policy-names.md)
 
 ### [Surveiller la qualité des appels](monitor-call-quality-qos.md)
