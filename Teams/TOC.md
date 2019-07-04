@@ -97,6 +97,7 @@
 ## [Configurer le partage de bureau dans Teams](configure-desktop-sharing.md)
 ## [Enregistrement de réunion cloud Teams](cloud-recording.md)
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
+## [Configurer la fonctionnalité M’appeler pour vos utilisateurs](set-up-the-call-me-feature-for-your-users.md)
 ## [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Salles Microsoft Teams](room-systems/index.md)
 ## [Gérer le tableau blanc dans teams](manage-whiteboard.md)
