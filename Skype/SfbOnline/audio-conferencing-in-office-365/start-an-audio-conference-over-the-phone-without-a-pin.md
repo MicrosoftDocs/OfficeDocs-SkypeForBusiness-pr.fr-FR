@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver la possibilité pour des appelants anonymes de se joindre aux réunions dans le centre d’administration Skype entreprise ou à l’aide d’un script PowerShell. '
-ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 146a23c35bca8e313f193dbd1407990fc8c6a788
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302769"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535865"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Skype Entreprise Online
 
@@ -65,13 +65,13 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 - Si vous souhaitez réinitialiser le code confidentiel, reportez-vous à la rubrique réinitialisation [du code confidentiel de l’audioconférence](reset-the-audio-conferencing-pin.md).
     
-- Si vous avez accès anonyme ou si vous n’avez pas besoin d’un code confidentiel pour démarrer une réunion, est activé:
+- Si l’accès anonyme ou ne nécessite pas un code confidentiel pour démarrer une réunion, est désactivé:
     
   - Si la réunion n’a pas commencé (il n’y a pas encore de compte dans la réunion): un appelant sera invité s’il s’agit de l’organisateur; s’il répond oui, il est invité à entrer son code confidentiel et, après avoir entré son code confidentiel, la réunion démarre et l’utilisateur se connecte à la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
-- Si l’accès anonyme ou ne nécessite pas un code confidentiel pour démarrer une réunion, est désactivé:
+- Si vous avez accès anonyme ou si vous n’avez pas besoin d’un code confidentiel pour démarrer une réunion, est activé:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     

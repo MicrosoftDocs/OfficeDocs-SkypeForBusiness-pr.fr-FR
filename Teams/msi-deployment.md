@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 711018e754f64960fc7b120baad13966ebf1a1ac
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694728"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535891"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
@@ -70,11 +70,11 @@ Voici le processus de déploiement de l’application de bureau Teams. Pour obte
 
 2. Exécutez la commande suivante pour installer le MSI sur la machine virtuelle VDI (ou terminer la mise à jour).
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
     Cette opération permet d’installer teams pour programmer des fichiers. À ce stade, la configuration de l’image Golden est terminée.
 
-    La prochaine session interactive de connexion démarre teams et demande des informations d’identification. Notez qu’il n’est pas possible de désactiver le lancement automatique d’équipes lors de l’installation d’équipes sur VDI à l’aide de la propriété ALLUSERS.
+    La prochaine session interactive de connexion démarre teams et demande des informations d’identification. Notez qu’il n’est pas possible de désactiver le lancement automatique d’équipes lors de l’installation d’équipes sur VDI à l’aide de la propriété ALLUSER.
 
 3. Exécutez la commande suivante pour désinstaller le MSI de l’ordinateur virtuel VDI (ou préparer la mise à jour).
 
