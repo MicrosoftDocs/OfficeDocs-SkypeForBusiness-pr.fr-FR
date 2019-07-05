@@ -68,7 +68,8 @@
 ### [Affecter des propriétaires d’équipe et des membres dans Teams](assign-roles-permissions.md)
 ### [Modifier les paramètres utilisateur Teams en bloc](edit-user-settings-in-bulk.md)
 ### [Gérer les stratégies de configuration de l’application dans Teams](teams-app-setup-policies.md)
-### [Configurer l’Application Réunions Skype pour fonctionner avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Gérer les stratégies de commentaires dans Teams](manage-feedback-policies-in-teams.md)
+### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Gérer l’accès externe](manage-external-access.md)
 ### [Utiliser la traduction des messages en ligne](inline-message-translation-teams.md)
 ### [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
@@ -717,6 +718,7 @@
 ## Préparez-vous à déployer Teams
 ### [Vérifier la préparation de votre environnement pour Teams](environment-readiness.md)
 ### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
+### [Utiliser le Planificateur de réseau pour Teams](network-planner.md)
 ### [Serveurs proxy pour Skype Entreprise Online et Teams](proxy-servers-for-skype-for-business-online.md)
 ### [Spécifications et limites de Teams](limits-specifications-teams.md)
 ### [Planifier les groupes Office 365 lors de la création d’équipes dans Teams](plan-office-365-groups.md)

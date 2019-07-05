@@ -15,22 +15,18 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
+ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222076"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "35541063"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
 Cet article répertorie les problèmes connus concernant Microsoft Teams, par fonctionnalité spécifique.
 
 ## <a name="administration"></a>Administration
-
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|    
-|:-----|:-----|:-----|:-----|
-|Service de compte de ressource mal configuré <br/> |Les comptes de ressource associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours de préparation pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l’échec de la création de comptes de ressources dans Skype Entreprise en ligne. Dans ce cas, vous devez configurer le nom du service dans Active Directory avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instance d’application de communication Microsoft" <br/> |8/5/19 <br/> |
 
 
 
@@ -226,6 +222,35 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Photos de profil des utilisateurs  <br/> | Teams ne comporte pas actuellement de mécanisme permettant d’empêcher les utilisateurs de changer leur photo. L’équipe BTS a rencontré l’équipe de développement qui a consigné le point suivant à prendre en considération : Fonctionnalité 108874 : stratégie IT pour désactiver le chargement de photos de profil   <br/> | Si vous avez des clients qui souhaiteraient avoir la possibilité d’empêcher le chargement de photos de profil dans Teams, veuillez ajouter leur vote et leur script commercial aux commentaires ici : https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01/03/2017 <br/> |
+
+
+
+## <a name="phone-system"></a>Système téléphonique
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Service de compte de ressource mal configuré <br/> |Les comptes de ressource associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours de préparation pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l’échec de la création de comptes de ressources dans Skype Entreprise en ligne. Dans ce cas, vous devez configurer le nom du service dans Active Directory avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instance d’application de communication Microsoft" <br/> |8/5/19 <br/> |
+
+
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Retard de synchronisation des comptes de ressource|Impossible d’attribuer un numéro de téléphone au compte de ressources ou affichage du message d’erreur « L’instance d’application suivante n’est pas présente dans BVD ».|Patientez 24 heures pour la synchronisation. Si 24 heures se sont déjà écoulées, supprimez l’affectation du numéro de téléphone, supprimez le compte de ressource, puis recréez-en un sous un autre nom.|18/05/2018|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible d’attribuer numéro de service payant à partir du centre d’administration Teams|Lorsque vous essayez d’attribuer un numéro de service payant dans le centre d’administration Teams, l’erreur « Vous avez besoin d’une licence de système téléphonique » s’affiche.|Utilisez plutôt des cmdlets PowerShell pour attribuer un numéro de service payant.|18/05/2018|
+
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Compte de ressource endommagé|Compte de ressources non fonctionnel|La suppression ou le remplacement de la licence d’un compte de ressource ou la création d’un compte de ressource avec la même URI SIP qu’un compte supprimé précédemment endommage le compte de ressource.|18/05/2018|
+
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Numéro de téléphone bloqué|Numéro de téléphone bloqué : la suppression du compte de la ressource avant de supprimer le numéro de téléphone bloque le numéro de téléphone.|Contactez le service clientèle Microsoft pour libérer le numéro de téléphone.|18/05/2018|
+
 
 ## <a name="provisioning"></a>Mise en service
 
