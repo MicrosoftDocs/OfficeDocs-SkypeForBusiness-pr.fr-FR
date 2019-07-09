@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253694"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588078"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité teams
 ==========================================
@@ -66,21 +66,25 @@ Quelques points à garder à l’esprit:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Étape 1: configurer les paramètres d’Azure AD Business-to-Business
 
-1. Connectez-vous https://portal.azure.com.
-2. Dans le volet de gauche, cliquez sur **Azure Active Directory** .
-3. Sous **gestion**, cliquez sur paramètres de l' **utilisateur**.
-4. Sous **utilisateurs externes**, cliquez sur **gérer les paramètres de collaboration externes**.
-5. Dans la page **paramètres de collaboration externe** , assurez-vous que **les membres peuvent inviter** est défini sur **Oui**.
+1. Connectez-vous au [portail Azure](https://portal.azure.com) en tant qu’administrateur client.
+2. Sélectionnez > **utilisateurs**d' **Azure Active Directory** > **paramètres utilisateur**.
+3. Sous **utilisateurs externes**, sélectionnez **gérer les paramètres de collaboration externes**.
+   > [!NOTE]
+   > Les **paramètres de collaboration externes** sont également disponibles à partir de la page **relations d’organisation** . Dans Azure Active Directory, sous **Manage (gérer**), accédez à**paramètres**de l' **organisation** > .
+4. Dans la page **paramètres de collaboration externe** , sélectionnez les stratégies que vous souhaitez activer.
 
-      ![Capture d’écran illustrant un exemple de bascule de paramètres AAD. ](media/guest-access-checklist-AADSettings1.png)
+   ![Paramètres de collaboration externes](media/control-who-to-invite.png)
 
-    Pour prendre en charge **les** invités, l’invitation doit être définie sur **Oui**.
-
-    > [!NOTE] 
-    > Si vous définissez des **membres comme invités** sur **non** , puis activez l’accès invité aux groupes Office 365 et Microsoft Teams, l’administrateur peut contrôler les invitations des invités à votre annuaire. Lorsque les invités sont dans l’annuaire, ils peuvent être ajoutés à des équipes par des membres non administrateurs qui sont des propriétaires d’équipe.
-
-Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès invité dans Microsoft Teams](Teams-dependencies.md).
-
+  - **Les autorisations des utilisateurs invités sont limitées**: cette stratégie détermine les autorisations des invités dans votre annuaire. Sélectionnez **Oui** pour bloquer les invités de certaines tâches d’annuaire, comme l’énumération des utilisateurs, des groupes ou d’autres ressources de l’annuaire. Sélectionnez **non** pour permettre aux invités d’accéder aux données de l’annuaire en tant qu’utilisateurs réguliers dans votre annuaire.
+   - Les **administrateurs et les utilisateurs du rôle d’invité invité peuvent inviter**: pour permettre aux administrateurs et aux utilisateurs du rôle «invité invité» d’inviter des invités, définissez cette stratégie sur **Oui**.
+   - **Les membres peuvent inviter**: pour autoriser les membres non administrateur de votre annuaire à inviter des invités, attribuez la valeur **Oui**à cette stratégie.
+   
+       > [!NOTE]
+       > Si vous définissez des **membres comme invités** sur **non** , puis activez l’accès invité aux groupes Office 365 et Microsoft Teams, l’administrateur peut contrôler les invitations des invités à votre annuaire. Lorsque les invités sont dans l’annuaire, ils peuvent être ajoutés à des équipes par des membres non administrateurs qui sont des propriétaires d’équipe. Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès invité dans Microsoft Teams](Teams-dependencies.md).
+   
+   - Les **invités peuvent inviter**: pour permettre aux invités d’inviter d’autres personnes, attribuez la valeur **Oui**à cette stratégie.
+   - **Activer le mot de passe unique pour les invités (** préversion): pour plus d’informations sur la fonctionnalité de code secret unique, voir [authentification par code électronique unique (Preview) par courrier électronique](one-time-passcode.md).
+   - **Restrictions de collaboration**: pour plus d’informations sur l’autorisation ou le blocage d’invitations dans des domaines spécifiques, voir [autoriser ou bloquer les invitations d’utilisateurs B2B d’organisations spécifiques](allow-deny-list.md).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Étape 2: configurer les groupes Office 365
 

@@ -1,9 +1,9 @@
 ---
-title: Barrières relatives à l’information dans Microsoft teams preview
+title: Obstacles liés à l’information dans Microsoft teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/01/2019
+ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,16 +12,14 @@ ms.reviewer: vikramju
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418287"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588126"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Barrières relatives à l’information dans Microsoft teams preview
-
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+# <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
 Les barrières en informations sont des stratégies qu’un administrateur peut configurer pour empêcher des personnes ou des groupes de communiquer entre eux. Cela peut s’avérer utile si, par exemple, un service gère des informations qui ne doivent pas être partagées avec d’autres services ou si un groupe doit être empêché ou être isolé de communiquer avec des personnes extérieures à ce groupe.
 
@@ -47,14 +45,14 @@ Le service d’évaluation de la stratégie d’obstacle des informations déter
 
 ## <a name="managing-information-barrier-policies"></a>Gestion des stratégies de cloisonnement des informations
 
-Les stratégies de barrage des informations sont gérées avec les cmdlets PowerShell de Security & Compliance Center. Pour plus d’informations sur l’utilisation de ces applets de applet, voir [définir des stratégies pour les barrières d’information (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+Les stratégies de barrière des informations sont gérées dans le centre de & sécurité et de conformité d’Office 365, à l’aide des cmdlets PowerShell. Pour plus d’informations, consultez [définir des stratégies pour les barrières d’information](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Avant de configurer ou de définir des stratégies, **vous devez activer la recherche dans l’annuaire d’étendues dans Microsoft teams**. Patientez au moins 24 heures après l’activation de la recherche dans l’annuaire d’étendue avant de configurer ou de définir des stratégies pour les barrières d’information.
+> Avant de configurer ou de définir des stratégies, **vous devez activer la recherche dans l’annuaire d’étendues dans Microsoft teams**. Patientez au moins 24 heures après l’activation de la recherche dans l’annuaire d’étendue avant de configurer ou de définir des stratégies pour les barrières d’information. [En savoir plus sur les conditions préalables pour les barrières d’information](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Rôles d’administrateur de barrières d’information
 
-Le rôle d’administrateur de barrières en matière d’information (la gestion de la conformité IB) est responsable de la gestion des stratégies de cloisonnement des informations. Pour plus d’informations sur ce rôle, voir [autorisations dans le centre de sécurité & conformité Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+Le rôle de gestion de la conformité IB est responsable de la gestion des stratégies de barrière des informations. Pour plus d’informations sur ce rôle, voir [autorisations dans le centre de sécurité & conformité Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="when-are-information-barrier-policies-checked"></a>Quels sont les stratégies de barrage des informations sélectionnées?
 
@@ -68,7 +66,7 @@ Les stratégies de barrage d’information sont contrôlées lorsque les événe
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>Qu’advient-il des fils de discussion existants lorsqu’une stratégie est modifiée?
 
-Lorsque l’administrateur de la stratégie de protection des informations apporte des modifications à une stratégie ou qu’une modification de la stratégie est en vigueur en raison d’une modification du profil d’un utilisateur (par exemple, pour un changement de poste ou pour une raison similaire), le service d’évaluation de la stratégie d’obstacle des informations effectue une recherche automatique. les membres pour s’assurer que les membres de l’équipe n’enfreignent aucune stratégie.
+Lorsque l’administrateur de la stratégie de protection des informations apporte des modifications à une stratégie, ou qu’une modification de la stratégie est en vigueur en raison d’une modification du profil d’un utilisateur (par exemple, pour un changement de poste ou pour une raison similaire), le service d’évaluation de la stratégie d’obstacle des informations recherche les membres pour s’assurer que les membres de l’équipe n’enfreignent aucune stratégie.
 
 S’il existe une discussion existante ou une autre communication entre les utilisateurs et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées. 
 
@@ -102,7 +100,7 @@ Bientôt disponible: les utilisateurs seront en mesure de procéder comme suit s
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
-Pour l’instant, les fonctionnalités de barrage d’information sont en préversion publique. En règle générale, ces fonctionnalités sont incluses dans les abonnements, par exemple:
+Les barrières d’information sont désormais disponibles et sont incluses dans les abonnements, tels que:
 
 - Microsoft 365 E5
 - Office 365 E5
@@ -113,6 +111,8 @@ Pour plus d’informations, y compris les offres et les tarifs, voir [solutions 
 
 ## <a name="more-information"></a>Plus d’informations
 
-- Pour en savoir plus sur les barrières d’information, voir [barrières d’information (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+- Pour en savoir plus sur les barrières d’information, voir [barrières d’information](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Pour configurer des stratégies de barrière des informations, consultez [définir des stratégies pour les barrières d’information (Preview)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies) .
+- Pour configurer des stratégies de barrière des informations, consultez [définir des stratégies pour les barrières d’informations](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+
+- Pour modifier ou supprimer des stratégies de protection des informations, voir [modifier ou supprimer des stratégies de barrage des informations](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)

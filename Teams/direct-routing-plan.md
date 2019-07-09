@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290385"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588198"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -29,7 +29,7 @@ ms.locfileid: "34290385"
 
 Le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session (SBC) fourni par le client au système Microsoft Phone.  Grâce à cette fonctionnalité, vous pouvez par exemple configurer une connectivité PSTN locale avec le client Microsoft Teams, comme illustré dans le schéma suivant: 
 
-![Décrit la configuration de la connectivité PSTN locale avec le client Microsoft teams](media/PlanDirectRouting1-PSTNwithTeams.png)
+![Diagramme montrant la configuration de la connectivité PSTN locale] (media/PlanDirectRouting1-PSTNwithTeams.png "Configuration de la connectivité PSTN locale avec le client Microsoft teams")
 
   > [!NOTE]
   > Skype entreprise Online vous permet également de jumeler une SBC fournie par l’utilisateur, mais cela nécessite un déploiement sur site de Skype entreprise Server ou une édition spéciale de Skype entreprise, appelée Cloud Connector, entre SBC et Microsoft Cloud. Ce scénario est connu sous le nom de voix hybride. En revanche, le routage direct autorise une connexion directe entre SBC et Microsoft Cloud. 
@@ -89,10 +89,14 @@ Les utilisateurs du routage direct doivent avoir les licences suivantes affecté
 - Microsoft Teams 
 - Audioconférence Microsoft 
 
-La licence d’audioconférence est nécessaire pour ajouter des participants externes à des réunions planifiées en les appelant ou en fournissant un numéro de connexion. 
- 
-  > [!NOTE]
-  > La licence E5 inclut le système téléphonique et l’audioconférence.   
+> [!NOTE]
+> Lorsque vous effectuez un appel à partir d’un 1:1, vous devez disposer de la licence de conférence audio.
+
+> [!IMPORTANT]
+>  Dans le cas où vous aimeriez ajouter des participants externes à des réunions planifiées, vous devez les appeler ou en fournissant un numéro de connexion, la licence de conférence audio est *requise*.
+
+> [!NOTE]
+> La licence E5 inclut le système téléphonique et l’audioconférence.   
 
 Par ailleurs, vous devez vous assurer que les suivants:
  

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
-ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548947"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588174"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -224,9 +224,9 @@ Pour créer une file d’attente d’appels, dans le **Centre d’administration
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Pour créer un standard automatique, dans le centre d’administration Skype entreprise, cliquez sur **** > **standards**de routage des appels, cliquez sur **Ajouter nouveau**, puis suivez les instructions de chaque page de l' **étape 2** de la rubrique [configurer un standard automatique du Cloud. ](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Pour créer un standard automatique, dans le centre d’administration Skype entreprise, cliquez sur **** > **standards**de routage des appels, cliquez sur **Ajouter nouveau**, puis suivez les instructions de chaque page de l' **étape 2** de la rubrique [configurer un standard automatique du Cloud. ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**Pour plus d’informations sur les standards automatiques Cloud, voir [configurer un standard automatique Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
+**Pour plus d’informations sur les standards automatiques Cloud, voir [configurer un standard automatique Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Étape 9 : Affecter les numéros de téléphone des services (services d’audioconférence, files d’attente des appels, standards automatiques)
 
@@ -236,7 +236,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Pour les standards automatiques, vous pouvez attribuer un numéro dédié à un standard automatique en accédant aux centres d’administration du**** > Centre > d' **administration Microsoft 365**dans les**centres** > d’administration de**Skype entreprise** > .** **puis cliquez sur le standard automatique. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [configurer un standard automatique Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- Pour les files d’attente d’appels, vous pouvez attribuer un numéro dédié à une file d’attente d'**** > **** appels en accédant aux**centres** > **** > d’administration du **Centre** > d’administration de Microsoft 365 et en cliquant sur dans la file d’attente d’appels. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [créer une file d’attente des appels Cloud](/SkypeForBusiness/create-a-phone-system-call-queue).
+- Pour les files d’attente d’appels, vous pouvez attribuer un numéro dédié à une file d’attente d'**** > **** appels en accédant aux**centres** > **** > d’administration du **Centre** > d’administration de Microsoft 365 et en cliquant sur dans la file d’attente d’appels. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [créer une file d’attente des appels Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Pour plus d’informations voir [Créer une attente système téléphonique appelée = "undefined" class="unusedGlossaryTerm">](/microsoftteams/getting-service-phone-numbers).**
 

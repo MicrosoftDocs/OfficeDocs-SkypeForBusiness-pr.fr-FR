@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493986"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587915"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
 
@@ -76,7 +76,7 @@ Voici une illustration du rapport.
      **Applications de communication unifiée (UCAP)** 
      *    **ucap_in** (un appel RTC entrant vers l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels); 
      *    **ucap_out** (un appel RTC sortant depuis l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels)
-     *    **Remarque:** Les appels transférés vers un utilisateur à partir de l’application de communications unifiées, tels qu’un standard automatique ou une file d’attente d’appels, n’apparaissent pas dans le rapport d’utilisation RTC, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le centre d’administration de Skype entreprise, sous la section «outils > d’analyse des appels Skype entreprise» et effectuer une recherche par nom d’utilisateur ou adresse SIP mettant en corrélation l’appel par date/heure et/ou CLID d’origine (ID de ligne d’appel). 
+     *    **Remarque:** Les appels transférés vers un utilisateur à partir de l’application de communications unifiées, tels qu’un standard automatique ou une file d’attente d’appels, n’apparaissent pas dans le rapport d’utilisation RTC, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le centre d’administration de Skype entreprise, sous «outils > analyse des appels Skype entreprise» et rechercher en fonction du nom d’utilisateur ou de l’adresse SIP en corrélation avec l’appel par date/heure et/ou CLID d’origine (ID de ligne d’appel). 
 *     
      **National/international** vous indique si l’appel qui a été placé était considéré comme national (dans un pays ou une région) ou international (à l’extérieur d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
 *    **Composé composé** est le nom de la destination du pays/de la région qui est numérotée comme France, Allemagne ou les États-Unis. 
@@ -104,7 +104,7 @@ Voici une illustration du rapport.
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel délimité par des TABULATIONs en cliquant ou en appuyant sur le bouton **Exporter vers Excel** . <br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
+![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel délimité par des TABULATIONs en cliquant ou en appuyant sur le bouton **Exporter vers Excel** . Vous pouvez exporter des données vers un an à partir de la date actuelle.<br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

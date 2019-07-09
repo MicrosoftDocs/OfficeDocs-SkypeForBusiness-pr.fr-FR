@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: cf7455a42d19d82ff4d82c4434b8e97962433131
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298211"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588190"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
 
@@ -77,7 +77,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
 
 Lorsque vous affectez une licence d' **audioconférence** à des personnes de votre organisation qui ne disposent pas de Skype entreprise intégrées à un fournisseur de services d’audioconférence tiers, elles sont toutes configurées et prêtes pour la lecture. (Vous n’avez pas à définir leur fournisseur de services d’audioconférence.)
 
-Si des utilisateurs sont activés avec un fournisseur de services d’audioconférence tiers, vous devez remplacer le fournisseur par Microsoft. Pour changer le fournisseur pour un utilisateur, voir [affecter Microsoft en tant que fournisseur](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)de services d’audioconférence.
+Si des utilisateurs sont activés avec un fournisseur de services d’audioconférence tiers, vous devez remplacer le fournisseur par Microsoft. Pour changer le fournisseur pour un utilisateur, voir [affecter Microsoft en tant que fournisseur](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)de services d’audioconférence.
 
 ## <a name="step-3-other-admin-tasks"></a>Étape 3 : Autres tâches d’administration
 

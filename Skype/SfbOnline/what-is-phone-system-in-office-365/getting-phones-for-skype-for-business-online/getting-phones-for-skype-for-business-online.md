@@ -21,26 +21,27 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez quels téléphones fonctionnent avec Skype Entreprise à partir de Polycom, HP et Mitel, ainsi que les licences requises. '
-ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297997"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587933"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
-  
-Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, consultez le [catalogue de périphériques Skype entreprise](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+
+> [!NOTE]
+> Skype entreprise sera progressivement remplacé par Microsoft teams comme méthode de communication principale dans Office 365.  Pour plus d’informations, voir [une nouvelle vision des communications intelligentes dans Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) .
+>
+>Pour obtenir les dernières mises à jour et les informations les plus récentes sur les appareils pris en charge, voir les [appareils Microsoft teams pour les communications intelligentes](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Téléphones pris en charge
-
-Pour les utilisateurs de Skype entreprise Online, vous avez le choix entre plusieurs modèles au sein de la liste *des téléphones et téléphones Skype entreprise* de Lync Phone Edition (LPE) qui sont répertoriés dans la catégorie Skype entreprise Online de l' [appareil Skype entreprise. Catalog](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 Microsoft s’associe et collabore étroitement avec Polycom, Yealink et AudioCodes afin de développer et de certifier une vaste gamme d’appareils via le programme PIP pour le système téléphonique dans Office 365 et Skype entreprise Server.
   
-When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
+Lorsque vous passez un nouveau numéro de téléphone pour Skype entreprise, il est important d’acheter des téléphones dont l' *ID de produit est approprié*. Ces ID de produit garantissent que les téléphones que vous recevez disposent de la version qualifiée de Skype entreprise Online déjà installée.
   
 |||
 |:-----|:-----|
@@ -56,9 +57,9 @@ Pour plus de détails sur les téléphones Yealink, reportez-vous à la page [Sk
 Pour plus d’informations sur les téléphones AudioCodes, reportez-vous à la rubrique [téléphones IP Skype entreprise](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
+> Lync Phone Edition est pris en charge avec Skype Entreprise Online, mais pas avec Microsoft Teams. Le support standard de la plate-forme LPE a pris fin le 10 avril 2014, avec prise en charge étendue jusqu'au 11 avril 2023 pour s’aligner sur la politique de prise en charge de Lync Server 2013. Pour plus d’informations sur le cycle de vie de votre produit, consultez le support [technique de Microsoft](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Les modèles CAP pour LPE ne sont pas pris en charge avec Skype Entreprise Online.
 >
-> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
+> Plus tard cette année, Office 365 ne prend en charge aucune version de TLS antérieure à 1,2. Dans la mesure où le système d’exploitation sous-jacent de LPE ne prend pas en charge TLS 1.2, LPE ne sera plus prise en charge pour se connecter à Office 365. Pour plus d’informations, consultez [Préparation à l’utilisation obligatoire de TLS 1.2 dans Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
   
 ## <a name="supported-firmware"></a>Microprogramme pris en charge
 
@@ -90,24 +91,24 @@ Pour en savoir plus sur les fonctionnalités et fonctions complètes de votre ap
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Fonctionnalité** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Se connecter à l'aide des informations de connexion de l'utilisateur  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Se connecter via un PC (couplage), Windows uniquement  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Se connecter à l'aide de (connexion Web)  <br/>  <br/> **Remarque:** Consultez la matrice de prise en charge dans le Guide de déploiement.           |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Cliquez sur participer à une réunion  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Cliquer pour marquer un numéro (couplage)  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Contrôles de réunion  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Messagerie vocale visuelle  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Verrouillage du téléphone  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Mise à jour de l'appareil  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Provisionnement intrabande  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|QoE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Chargement de journaux  <br/> <br/> **Remarque:** Actuellement, tous les journaux sont chargés uniquement dans l’équipe du support Microsoft; l’accès client aux journaux des téléphones n’est pas encore disponible.           |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Authentification moderne  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Se connecter à l'aide des informations de connexion de l'utilisateur  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Se connecter via un PC (couplage), Windows uniquement  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Se connecter à l'aide de (connexion Web)  <br/>  <br/> **Remarque:** Consultez la matrice de prise en charge dans le Guide de déploiement.           |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Cliquez sur participer à une réunion  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Cliquer pour marquer un numéro (couplage)  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Contrôles de réunion  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Messagerie vocale visuelle  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Verrouillage du téléphone  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Mise à jour de l'appareil  <br/> |Oui  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Provisionnement intrabande  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|QoE  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Chargement de journaux  <br/> <br/> **Remarque:** Actuellement, tous les journaux sont chargés uniquement dans l’équipe du support Microsoft; l’accès client aux journaux des téléphones n’est pas encore disponible.           |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Authentification moderne  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Numéros d'urgence multiples  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Intégration du calendrier Exchange*  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |Oui  <br/> <br/> **Remarque:** Nécessite une connexion de PC           |
-|Intégration de la présence  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Annuaire d'entreprise  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Délégation  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Intégration du calendrier Exchange*  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> <br/> **Remarque:** Nécessite une connexion de PC           |
+|Intégration de la présence  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Annuaire d'entreprise  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Délégation  <br/> |Oui  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Intégration de l'image des contacts  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |
 ||||||
 

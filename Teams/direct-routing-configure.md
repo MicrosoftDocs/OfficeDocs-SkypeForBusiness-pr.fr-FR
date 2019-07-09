@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116016"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588150"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -83,7 +83,9 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > 1. Nous vous recommandons vivement de définir une limite d’appels maximale dans l’SBC en utilisant les informations qui figurent dans la documentation de l’SBC. La limite déclenche une notification si l’SBC a le niveau de capacité.
   > 2. Vous pouvez uniquement jumeler l’SBC si la partie Domain de son nom de domaine complet correspond à l’un des domaines inscrits \*dans votre client, à l’exception de. onmicrosoft.com. L' \*utilisation des noms de domaine. onmicrosoft.com n’est pas prise en charge pour le nom de domaine complet SBC. Par exemple, si vous avez deux noms de domaine:<br/><br/>
   > **contoso**. com<br/>**contoso**. onmicrosoft.com<br/><br/>
-  > Pour le nom SBC, vous pouvez utiliser le nom sbc.contoso.com. Si vous essayez de jumeler l’SBC avec un nom SBC. contoso. ABC, le système ne vous en permettra pas, car le domaine n’est pas détenu par ce client.
+  > Pour le nom SBC, vous pouvez utiliser le nom sbc.contoso.com. Si vous essayez de jumeler l’SBC avec un nom SBC. contoso. ABC, le système ne vous en permettra pas, car le domaine n’est pas détenu par ce client.<br/>
+  > Outre le domaine enregistré dans votre client, il est important qu’il existe un utilisateur avec ce domaine et qu’une licence E3 ou E5 lui est affectée. Si ce n’est pas le cas, vous recevez le message d’erreur suivant:<br/>
+  `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 

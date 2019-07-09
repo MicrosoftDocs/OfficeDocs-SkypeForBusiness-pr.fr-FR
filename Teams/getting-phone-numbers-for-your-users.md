@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros et transférer des numéros existants pour les équipes, et montrer les changements à vos utilisateurs. '
-ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347923"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588214"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -64,7 +64,7 @@ Il existe trois façons d’obtenir des numéros d’utilisateur:
   
 - Si vous avez besoin de 999 ou moins de numéros de téléphone pour vos utilisateurs, vous pouvez utiliser le portail hérité dans le centre d’administration Microsoft Teams. Suivez les étapes de la procédure de [transfert de numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) pour transférer vos numéros de téléphone vers Teams.
     
-- Si vous devez transférer plus de 999 numéros, reportez-vous à la rubrique [Envoi manuel d'une demande de service personnalisé](/skypeforbusiness/manually-submit-a-custom-service-request) pour effectuer une demande de transfert de tous ces numéros vers Office 365.
+- Si vous avez besoin de porter plus de numéros de téléphone 999, voir [gérer les demandes de service dans le gestionnaire de services](https://docs.microsoft.com/system-center/scsm/service-requests) pour effectuer une demande de transfert de tous ces numéros de téléphone vers Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Affichage des numéros de téléphone pour votre entreprise
 

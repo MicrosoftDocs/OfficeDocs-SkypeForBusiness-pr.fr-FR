@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c33f1cc4b508149ae42b79e956e1f08d44579bc
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 11378d35e042a69c2eff8f171cdc266108505774
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34422002"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588118"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
@@ -52,6 +52,9 @@ Bien que des milliers de clients aient réussi la mise à niveau de Microsoft Te
  - Le client Skype entreprise est hébergé en Corée du Sud **et** l’organisation nécessite le stockage des données d’équipe en Corée du Sud. Pour l’instant, les organisations possédant des données Skype entreprise stockées en Corée du Sud qui effectuent une mise à niveau vers teams disposeront des données de leurs équipes dans la région du centre de données Asia, et non dans la région du centre de données de Corée du Sud
 
 **Considérations spécifiques à l’utilisateur**: certains scénarios d’utilisation sont toujours évolutifs, et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs au sein de l’organisation. Nous travaillons à la résolution de ces scénarios. Pour plus d’annonces, visitez le site de [plan d’évolution d’Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) .
+
+> [!NOTE]
+> Avant de basculer vers le mode équipes uniquement, vous devez remplacer ou mettre à jour les appareils qui ne prennent pas en charge Teams. 
 
 | Scénario | Notes |
 |----------|-------|
