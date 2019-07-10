@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez les mises à jour du client de bureau Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ba5280e03e316dfcde3bda9b62520fa513f3157a
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588182"
+ms.locfileid: "35602270"
 ---
 # <a name="teams-update-process"></a>Processus de mise à jour des équipes
 
@@ -31,7 +31,9 @@ Le client de bureau est mis à jour automatiquement. Teams vérifie les mises à
 
 Les utilisateurs peuvent également télécharger manuellement les mises à jour en cliquant sur **Rechercher les mises à jour** dans le menu déroulant **Profil** en haut à droite de l’application. Si une mise à jour est disponible, elle est téléchargée et installée en silence lorsque l’ordinateur est inactif.
 
-Les utilisateurs doivent être connectés pour pouvoir télécharger les mises à jour. À compter du 9 juillet, 2019, les mises à jour du client teams utilisent une bande passante réseau nettement inférieure au cours de la mise à jour. Cette option est activée par défaut et ne nécessite aucune action de la part des administrateurs ou des utilisateurs.
+Les utilisateurs doivent être connectés pour pouvoir télécharger les mises à jour. 
+
+À compter du 9 juillet, 2019, les mises à jour du client teams utilisent une bande passante réseau nettement inférieure au cours de la mise à jour. Cette option est activée par défaut et ne nécessite aucune action de la part des administrateurs ou des utilisateurs.
 
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>À propos des mises à jour d’Office 365 ProPlus

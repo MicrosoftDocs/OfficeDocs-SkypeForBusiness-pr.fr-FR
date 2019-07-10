@@ -1,8 +1,9 @@
 ---
 title: Planifier des événements en direct dans Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013028"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602254"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -51,7 +52,7 @@ L’utilisateur doit avoir:
 - Autorisations de création d’événements en direct dans le flux (pour la production d’applications ou de périphériques externes).
 
 > [!IMPORTANT]
-> Les utilisateurs d’Office 365, fédérés et anonymes ne peuvent pas être invités en tant que producteurs ou présentateurs dans des événements en direct Teams. Les utilisateurs d’Office 365 invités et fédérés peuvent uniquement surveiller les événements dynamiques de manière anonyme. 
+> Les utilisateurs d’Office 365, fédérés et anonymes ne peuvent pas être invités en tant que producteurs ou présentateurs dans des événements en direct Teams. Les invités Office 365 et les utilisateurs fédérés peuvent uniquement regarder des événements en direct de manière anonyme. 
  
 ## <a name="who-can-watch-live-events"></a>Qui peut regarder des événements en direct?
 
@@ -59,11 +60,12 @@ L’utilisateur doit avoir:
 |------------------------------|-----------------|----------------------|
 |Public (utilisateurs anonymes)      |  Oui            |  Non                  |
 |Utilisateurs invités                   |  No<sup>1</sup> |  Non                  |
-|Tout le monde dans la société fédérée |  No<sup>1</sup> |  Non                  |
+|Tout le monde dans la société fédérée |  No<sup>2</sup> |  Non                  |
 |Tout le monde dans la société           |  Oui             |  Oui                 |
 |Groupes/personnes spécifiques      |  Oui             |  Oui                 |
 
-<sup>1</sup> peut uniquement surveiller les événements en direct en tant qu’utilisateurs anonymes.
+<sup>1</sup> peut surveiller les événements en direct si l’événement en direct est configuré à l’aide de l’option à l’échelle de l' **organisation** .<br>
+<sup>2</sup> peut uniquement surveiller les événements en direct en tant qu’utilisateurs anonymes.
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct teams et diffusion de réunion Skype
@@ -89,8 +91,8 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Présenter une présentation PowerPoint (de partage PPT) |&#x2714; |X (atténué via le partage d’écran) |S/O |
 |Enregistrement d’une réunion basée sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
 |Publier automatiquement l’enregistrement dans le flux |X |X |&#x2714; |
-|Légendes et traductions en temps réel |&#x2714; |&#x2714; (bientôt disponible) |X |
-|Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; (bientôt disponible) |&#x2714; |
+|Légendes et sous-titres dynamiques |&#x2714; |&#x2714; |X |
+|Légendes dans les enregistrements d’événements en direct |&#x2714; |&#x2714; |&#x2714; |
 |Contrôles de participants DVR (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
 |Support technique de eCDN partenaire |&#x2714; (Hive, Kollective, RAMP) |&#x2714; (Hive, Kollective, RAMP) |&#x2714; (Hive, Kollective, RAMP) |
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |X |
@@ -112,7 +114,7 @@ Vous pouvez utiliser des événements en direct teams dans plusieurs régions da
 - Go local Canada
 
 **Exclusions et considérations**
-- Rendez-vous **locales:** Le Royaume-Uni, l’Inde, l’Australie, le Japon et d’autres équipes ne sont pas pris en charge pour le moment.
+- Rendez-vous **locales:** Le Royaume-Uni, l’Inde, l’Australie, le Japon et les autres équipes ne sont pas pris en charge pour le moment.
 - **Chine:** Les membres de l’équipe et les participants ne seront pas en mesure d’utiliser les événements teams Live car Azure CDN n’est pas accessible en Chine. Pour contourner ce problème, vous pouvez utiliser une connexion VPN d’entreprise, qui obtient le client connecté au CDN via le réseau d’entreprise du client.
 
 ## <a name="next-steps"></a>Étapes suivantes

@@ -1,9 +1,9 @@
 ---
 title: Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,12 +15,12 @@ MS.collection:
 description: Exemples d’utilisation de PowerShell pour définir des stratégies dans teams pour contrôler les utilisateurs qui peuvent contenir des événements en direct au sein de votre organisation et les fonctionnalités qui sont disponibles dans les événements qu’ils créent
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 825fe7e7e80b2653d35c8b0752124b50386395d6
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012973"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602262"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
 
@@ -129,11 +129,11 @@ Définissez la stratégie globale pour désactiver l’enregistrement des évén
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Définir la transcription et la traduction des événements en direct (bientôt disponible)
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>Définir des légendes et des sous-titres en direct dans les événements en direct
 > [!NOTE]
 > Ce paramètre s’applique uniquement aux événements produits dans Teams. 
 
-Définissez la stratégie globale de manière à activer la transcription et la traduction pour les participants à l’événement:
+Définissez la stratégie globale pour activer les légendes dynamiques et les sous-titres (transcription) pour les participants au service:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

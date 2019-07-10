@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Résumé: Découvrez les options de planification d’une solution de communication et de voix unifiées dans Skype entreprise Server.'
-ms.openlocfilehash: 7d9df9b8b5997a08a04ddcc802914b0dc01a23c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276872"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602168"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planifier votre solution voix entreprise dans Skype entreprise Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "34276872"
   
 Skype entreprise Server est doté de deux options de voix entreprise locales: voix entreprise et appel via le bureau, qui vous permet d’intégrer le système téléphonique de votre organisation à votre déploiement Skype entreprise Server et de faire des communications unifiées complètes. solutions. Ces deux options permettent aux utilisateurs d’utiliser le client Skype entreprise pour lancer des appels vocaux avec d’autres utilisateurs, à l’intérieur et à l’extérieur de votre organisation.
   
-Vous pouvez également tirer parti des services PBX Cloud de Microsoft, notamment les services PBX et la fonction d’appel RTC, en connectant votre infrastructure de téléphonie locale aux services proposés par Skype entreprise online. Pour plus d’informations, reportez-vous à [la rubrique planification de votre système téléphonique dans la solution Office 365 (Cloud PBX)](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
+Vous pouvez également tirer parti des services PBX Cloud de Microsoft, notamment les services PBX et la fonction d’appel RTC, en connectant votre infrastructure de téléphonie locale aux services proposés par Skype entreprise online. Pour plus d’informations, consultez [Cloud Voice dans Microsoft teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
   
 Vous pouvez également utiliser des appels voix et des appels d’entreprise.
   
