@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf65cec72c21e34e0aab8338d20ae36549497846
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 068a37af62ea31c53caed8c9dc22feec6fd60ec6
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221730"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614260"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -53,6 +53,5 @@ Pour plus d’informations sur l’utilisation des stratégies du carnet d’adr
 
     ![Recherche dans l’annuaire dans l’étendue dans le centre d’administration Microsoft teams](media/teams-scoped-directory-search-image1.png)
 
-> [!NOTE]
-> Les configurations hybrides (teams avec Exchange local) ne prennent pas en charge le mode de recherche étendu. 
+
 

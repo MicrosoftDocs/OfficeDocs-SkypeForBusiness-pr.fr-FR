@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591654"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614204"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -63,6 +63,9 @@ Microsoft teams fonctionne avec plusieurs services 365 Office pour offrir aux ut
 
 - Pour permettre à Microsoft teams de fonctionner avec Exchange en local, vous devez configurer le nouveau protocole d’authentification OAuth Exchange comme décrit dans [configurer l’authentification OAuth entre les organisations Exchange et Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
+> [!NOTE]
+>Dans le cas d’une intégration Exchange locale ou Teams, la licence requise doit être attribuée à l’utilisateur synchronisé de AAD.
+
 ## <a name="additional-considerations"></a>Autres considérations
 
 Voici quelques éléments supplémentaires à prendre en considération lors de l’implémentation de Microsoft teams au sein de votre organisation.
@@ -73,7 +76,7 @@ Voici quelques éléments supplémentaires à prendre en considération lors de 
 
 - Si votre organisation a des exigences en matière de conformité afin de vous assurer que toutes les discussions de réunion soient détectables, vous devez désactiver les réunions privées si l’organisateur dispose d’une boîte aux lettres Exchange locale.
 
-- Dans le cas d’un déploiement hybride Exchange, le contenu des messages instantanés peut être recherché, même si les participants possédant une boîte aux lettres basée sur le Cloud ou une boîte aux lettres locale. Pour en savoir plus, consultez [recherche de boîtes aux lettres dans le Cloud pour les utilisateurs locaux dans Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Microsoft Teams, voir [recherche de contenu dans le centre de sécurité _AMP_ conformité d’Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- Dans le cas d’un déploiement hybride Exchange, le contenu des messages instantanés peut être recherché, même si les participants possédant une boîte aux lettres basée sur le Cloud ou une boîte aux lettres locale. Pour en savoir plus, consultez [recherche de boîtes aux lettres dans le Cloud pour les utilisateurs locaux dans Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Pour en savoir plus sur la recherche de contenu dans Microsoft Teams, voir [recherche de contenu dans le centre de sécurité & conformité Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 > [!TIP]
 > Pour plus d’informations sur l’utilisation d’Azure AD Connect pour synchroniser avec Azure Active Directory, voir [intégration de vos identités locales avec Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
