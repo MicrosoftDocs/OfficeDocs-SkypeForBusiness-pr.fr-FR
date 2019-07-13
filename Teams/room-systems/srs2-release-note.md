@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article présente les améliorations cumulatives apportées aux salles de Microsoft Teams.
-ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062410"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643130"
 ---
 # <a name="release-notes"></a>Notes de publication 
 
@@ -27,6 +27,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 | Communiquer | Publié sur <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -53,6 +54,20 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
+### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
+
+Présenté dans cette mise à jour:
+- Nouvelle personnalisation de l’application dans le système de salle Skype vers «Salle Microsoft teams»
+- Alignement de l’interface utilisateur de la console de salle Microsoft teams avec Microsoft teams
+- Mise à jour de thème permettant de conserver uniquement l’image d’arrière-plan personnalisée sur le panneau d’affichage de la salle en définissant une couleur neutre pour l’arrière-plan de la console
+- Barre universelle pour les contrôles d’appel en réunion pour les appels/réunions d’équipes pour fournir une interface cohérente avec les clients Microsoft teams PC/Web/mobiles<sup>1</sup>
+- Évaluation de la qualité d’appel après appels ou réunions d’équipes<sup>1</sup>
+- Fonction de réception/rendu de Microsoft Whitebord sur l’écran de la salle Microsoft teams de la salle<sup></sup><sup></sup>  
+- Suppression de la prise en charge de la mise à niveau vers Windows 10 version 1809 en raison de problèmes de compatibilité détectés avec le client de salle Microsoft Teams. La prise en charge de Windows 10 version 19H1 sera ajoutée dans les versions ultérieures
+
+<sup>1</sup> lancement de service de Microsoft teams avec teams sonne. Cette fonctionnalité peut être disponible avant ou après la mise à jour du client 4.0.105.0
+
+<sup>2</sup> a besoin des administrateurs informatiques pour activer le Web tableau blanc collaboratif Microsoft. Par ailleurs, si vous disposez d’une ouverture de votre écran, vous devez étalonner plusieurs affichages à l’aide de paramètres Windows avec la connexion de l’administrateur de l’appareil pour commencer à utiliser le tableau blanc collaboratif de collboration à partir de l’affichage de la salle après l’avoir partagée dans teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 

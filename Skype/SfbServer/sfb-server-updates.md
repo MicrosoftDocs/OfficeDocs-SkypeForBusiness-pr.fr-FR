@@ -10,19 +10,26 @@ ms.prod: skypeforbusiness-server-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: Recherchez et gérez les mises à jour de Skype Entreprise Server 2015 et Lync 2013 à partir d'un seul emplacement. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et de Lync 2013 au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
+ms.openlocfilehash: dcc267be9c7a77ea0a472941ff298d993c08ae7c
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221857"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638580"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
-Recherchez et gérez les mises à jour de [Skype entreprise Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)et [Lync Server 2010](#lync-server-2010-update-history) au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
+Recherchez et gérez les mises à jour de [Skype entreprise server 2019](#skype-for-business-server-2019-update-history), [skype entreprise Server 2015](#skype-for-business-server-2015-update-history), [Lync server 2013](#lync-server-2013-update-history)et [Lync Server 2010](#lync-server-2010-update-history) au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
 
 Pour obtenir les mises à jour les plus récentes de Skype entreprise Online et d’Office 365, consultez la [documentation Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
+
+## <a name="skype-for-business-server-2019-update-history"></a>Historique des mises à jour de Skype entreprise Server 2019
+
+|Nom du package|Numéro d’article de la base de connaissances|Date de publication|
+|:--- |:--- |:--- |
+|Mise à jour cumulative 1 Skype entreprise Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 juillet |
+| | | |
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Historique des mises à jour de Skype Entreprise Server 2015
 

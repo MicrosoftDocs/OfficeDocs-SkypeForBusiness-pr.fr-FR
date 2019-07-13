@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'En savoir plus sur ce que votre système téléphonique peut faire pour vous. '
-ms.openlocfilehash: 60978b76eb6bf986c5db0b1a8ee04de1c5516c73
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548955"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643138"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
 
@@ -41,9 +41,9 @@ Pour activer les appels vers des téléphones fixes et mobiles, le système tél
   
 - En achetant un forfait d’appels (national ou national et international) pour Office 365. Voir le [système téléphonique et les offres d’appels](calling-plan-landing-page.md)
     
-- À l’aide d’une connectivité PSTN locale, où les logiciels en local se connectent à votre infrastructure de téléphonie existante. Reportez-vous à [la rubrique planification de votre système téléphonique](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Diagramme qui décrit les propositions de PBX Cloud](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- À l’aide d’une connectivité PSTN locale, où les logiciels en local se connectent à votre infrastructure de téléphonie existante. Voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## <a name="more-about-calling-plans"></a>En savoir plus sur les offres d’appels
 

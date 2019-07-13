@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: 4dcb9327efba7be70628ad71a90734940fc3317e
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394499"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643170"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -38,13 +38,17 @@ Dans Microsoft teams ou Skype entreprise Online, chaque file d’attente d’app
 
 Si le service de votre système téléphonique nécessite un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant:
 
-1. Obtenez un numéro de service
-2. Achat d’une licence de système téléphonique (Office 365 entreprise E1 ou E3 avec le système téléphonique ajouté ou Office 365 entreprise E5 qui inclut un système téléphonique)
-3. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doivent être associés à un compte de ressources associé.
-4. Affectez la licence du système téléphonique au compte de ressource.
-5. Attribuez un numéro de téléphone au compte de ressource.
-6. Créer un service de système téléphonique (une file d’attente d’appels ou un standard automatique)
-7. Associer le compte de ressource à un service: (New-CsApplicationInstanceAssociation)
+1. Obtenez un numéro de service.
+2. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doivent être associés à un compte de ressources associé.
+3. Obtenez un système téléphonique ou une licence utilisateur virtuelle de système téléphonique.
+4. Achetez un forfait d’appels nationaux ou internationaux.
+5. Attribuez le système téléphonique ou une licence utilisateur virtuel du système téléphonique au compte de ressources.
+6. Attribuez une licence de plan d’appel au compte de ressource.
+7. Attribuez une licence de crédits de communication au compte de ressource.
+8. Configurez des crédits de communication et configurez la recharge automatique pour votre organisation.
+9. Affectez un numéro de téléphone de service au compte de ressource auquel vous venez d’affecter des licences.
+10. Créer un service de système téléphonique (une file d’attente d’appels ou un standard automatique).
+11. Associez le compte de ressources à un service.
 
 Si le standard automatique ou la file d’attente d’appels est imbriquée sous un standard automatique de niveau supérieur, le compte de ressources associé a uniquement besoin d’un numéro de téléphone si vous voulez que plusieurs points d’entrée soient présents dans la structure des standards automatiques et des files d’attente d’appels.
 
@@ -64,18 +68,20 @@ Pour créer un compte de ressource qui utilise un numéro de téléphone, vous d
 
    Avant d’affecter un numéro de téléphone à un compte de ressources, vous devez obtenir ou porter vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu les numéros de téléphone de service gratuits ou payants, ceux-ci apparaissent dans les**numéros de téléphone****vocaux** > du centre > d' **administration Microsoft teams**et le **type de numéro** mentionné est répertorié en tant que **service-** gratuit. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou, si vous souhaitez transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
 
-2. Achetez une licence de système téléphonique. Savoir  
-   - [Office 365 Entreprise E1 et E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-   - [Office 365 Entreprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-   - [Logiciel Office 365 entreprise E5 pour les entreprises](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   Si vous affectez un numéro de téléphone à un compte de ressources, vous pouvez désormais utiliser la licence utilisateur virtuel du système téléphonique sans frais. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation, et vous permet de créer des capacités de mise en file d’attente et de standard automatique.
 
-3. Créer un compte de ressource. Voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell)
-4. Affectez la licence du système téléphonique au compte de ressource. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
-6. Configurez l’une des options suivantes:
+2. Créer un compte de ressource. Voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell)
+3. Obtenez un système téléphonique ou une licence utilisateur virtuelle de système téléphonique. Dans le centre d’administration Microsoft 365, accédez **** > à la section abonnements au**composant additionnel**  > **services d’achat**de facturation et faites défiler jusqu’à la fin. Sélectionnez **acheter maintenant**.
+4. Achetez un [forfait d’appels](calling-plans-for-office-365.md)nationaux ou internationaux.
+5. Affectez la licence du système téléphonique au compte de ressource. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+6. Attribuez une licence de plan d’appel au compte de ressource. Pour plus d’informations, voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) .
+7. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
+8. Configurez des crédits de communication et configurez la recharge automatique pour votre organisation. [Attribuez une licence de crédits de communication](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) au compte de ressource.
+9. [Affectez un numéro de téléphone de service](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge) au compte de ressource auquel vous venez d’affecter des licences. 
+10. Configurez l’une des options suivantes:
    - [Standard automatique Cloud](create-a-phone-system-auto-attendant.md)
    - [File d’attente d’appels Cloud](create-a-phone-system-call-queue.md)
-7. Affectez le compte de ressource au service. Voir [affectation/désaffectation de numéros de téléphone et services](#assignunassign-phone-numbers-and-services)
+11. Liez le compte de ressources au standard automatique ou à la file d’attente d’appels. Voir [affectation/désaffectation de numéros de téléphone et services](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Créer un compte de ressources sans numéro de téléphone
 
@@ -89,7 +95,7 @@ Pour créer un compte de ressources sans numéro de téléphone, vous devez effe
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Créer un compte de ressources dans le centre d’administration Microsoft teams
 
-Après avoir acheté une licence de système téléphonique et un plan d’appels à l’aide du centre d’administration de Microsoft Teams, accédez à**comptes de ressources**de **paramètres** > à l’échelle de l’organisation.
+Après avoir acheté une licence de système téléphonique, le centre d’administration Microsoft teams vous permet d’accéder aux**comptes de ressources**de **paramètres** > à l’échelle de l’organisation.
 
 ![Capture d’écran de la page comptes de ressources](media/r-a-master.png)
 

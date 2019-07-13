@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
-ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588174"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643162"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -224,7 +224,8 @@ Pour créer une file d’attente d’appels, dans le **Centre d’administration
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Pour créer un standard automatique, dans le centre d’administration Skype entreprise, cliquez sur **** > **standards**de routage des appels, cliquez sur **Ajouter nouveau**, puis suivez les instructions de chaque page de l' **étape 2** de la rubrique [configurer un standard automatique du Cloud. ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Pour créer un standard automatique, dans le centre d’administration de Skype entreprise, cliquez sur**standards**de **routage** > des appels, cliquez sur **Ajouter nouveau**, puis suivez les instructions de chaque page à l' **étape 2** de [la rubrique créer un standard automatique Cloud. ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+
 
 **Pour plus d’informations sur les standards automatiques Cloud, voir [configurer un standard automatique Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 

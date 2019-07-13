@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Pour plus d’informations, reportez-vous à la rubrique Skype entreprise Online: affectation d’une licence de conférence rendez-vous et d’un ID de conférence à un utilisateur et aux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: aef115d2882a368e085880a66332dc7d22e4ff04
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494245"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638563"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -83,11 +83,11 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Vous pouvez également utiliser Windows PowerShell et exécuter :[](https://go.microsoft.com/fwlink/?LinkId=627285)
+    Vous pouvez également utiliser Windows PowerShell et exécuter :[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Changer les informations de contact de l’expéditeur dans les messages électroniques envoyés aux utilisateurs
 
-Modification des coordonnées de l'expéditeur dans les messages électroniques envoyés aux utilisateurs[](https://go.microsoft.com/fwlink/?LinkId=627285)
+Modification des coordonnées de l'expéditeur dans les messages électroniques envoyés aux utilisateurs[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
 - Entrez l’adresse de messagerie dans le paramètre _à sendemailfromaddress;_ .
 
@@ -103,7 +103,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 Vous pouvez apporter des modifications aux courriers électroniques envoyés aux utilisateurs, notamment l'adresse électronique d'envoi du courrier électronique ou le nom d'affichage associé à l'adresse électronique en exécutant :
 
-Vous pouvez utiliser l’applet de cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) pour gérer d’autres paramètres de votre organisation, notamment la messagerie électronique.
+Vous pouvez utiliser l’applet de cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) pour gérer d’autres paramètres de votre organisation, notamment la messagerie électronique.
 
 Afficher [les courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de leurs paramètres de conférence audio](emails-sent-to-users-when-their-settings-change.md).
 
@@ -261,7 +261,7 @@ Voir [la liste des numéros de conférence audio](see-a-list-of-audio-conferenci
 
 2. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.** ** > ** **
 
-3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à **audioconférence**-_GT_, puis à **utilisateurs**.
+3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à **conférence audio**> puis **aux utilisateurs**.
 
 Reportez-vous à la rubrique [Afficher la liste des utilisateurs activés pour les conférences Audio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
 

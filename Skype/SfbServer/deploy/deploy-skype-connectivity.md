@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé: Découvrez comment connecter Skype entreprise Server à Skype grand public. Également connu sous le nom de connectivité Skype.'
-ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302830"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643177"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déploiement de la connectivité Skype dans Skype entreprise Server
- 
+
 **Résumé:** Découvrez comment vous connecter à Skype entreprise Server avec le grand public Skype. Également connu sous le nom de connectivité Skype.
   
 Cet article décrit le déploiement de la connectivité Skype.
@@ -96,49 +96,48 @@ Skype entreprise Server utilise l’architecture d’accès à la Fédération p
 > [!NOTE]
 > Si Skype Entreprise Server est configuré pour se connecter à Windows Messenger via la connectivité PIC (Public IM Connectivity), votre déploiement est déjà configuré pour la connectivité Skype. Vous pouvez éventuellement renommer votre entrée Messenger PIC existante pour utiliser Skype.  
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Accès au site de mise en service de la connectivité de messagerie instantanée publique de Skype entreprise Server depuis Skype entreprise Server
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Le site de mise en service de la connectivité de messagerie instantanée publique de Skype entreprise Server n’est plus disponible
 
-Ce processus d’approvisionnement peut nécessiter jusqu’à trente jours mais peut être achevé en quelques jours selon le volume de demandes. Nous vous recommandons de commencer par commencer ce processus avant d’effectuer les étapes restantes de ce document. Une fois le processus d’approvisionnement Skype terminé pour votre compte, ce dernier est activé et vos utilisateurs éligibles sont activés pour la connectivité de messagerie instantanée publique.  
+Le site précédemment utilisé pour approvisionner manuellement la Fédération entre les déploiements locaux de Skype entreprise et Skype n’est plus nécessaire et sera arrêté dans 8/15/2019. La Fédération avec Skype utilise désormais la découverte de partenaire fédéré, qui est le même mécanisme requis pour la Fédération avec Skype entreprise online.
+
+La communication entre le déploiement de Skype entreprise local et les utilisateurs Skype par le biais de l’infrastructure de messagerie instantanée publique existante nécessite désormais la compatibilité de la configuration du serveur Edge sur site avec Skype entreprise online.
+
+> [!NOTE]
+> Aucune action n’est nécessaire pour la plupart des clients, y compris tous les déploiements qui se fédérer dans Skype entreprise online.
   
-Pour approvisionner la connectivité Skype, vous avez besoin des informations suivantes :
-  
-- Numéro de contrat Microsoft
-    
-- Nom de domaine complet (FQDN) du service Edge d’accès
-    
-- Domaine(s) SIP (Session Initiation Protocol)
-    
-- Noms complets (FQDN) supplémentaires éventuels du service Edge d’accès
-    
-- Coordonnées
-    
-Pour lancer le processus d’approvisionnement pour la connectivité Skype :
-  
-1. Connectez-vous au site Web https://pic.lync.com, à l’aide de votre identifiant Microsoft Windows Live ID.
-    
-2. Sélectionnez le type de contrat de licence Microsoft.
-    
-3. Activez la case à cocher indiquant que vous avez lu et accepté les droits d’utilisation du produit pour Skype Entreprise Server.
-    
-4. Dans la page Émettre une demande d’approvisionnement, cliquez sur le lien approprié pour émettre une demande d’approvisionnement :
-    
-5. Dans la page Indiquer les informations d’approvisionnement, entrez le nom complet du service Edge d’accès. Par exemple, sip.contoso.com.
-    
-    > [!IMPORTANT]
-    > Après le 1er juillet 2017, les clients devront également disposer du déploiement de l’enregistrement SRV DSN pour la fédération afin d’assurer le fonctionnement de la connectivité de la messagerie instantanée publique.  
-  
-6. Entrez au moins un nom de domaine SIP, puis cliquez sur Ajouter.
-    
-    > [!NOTE]
-    > Au moins un serveur Edge d’accès est requis pour le processus de mise en service. Alors qu’un nom de domaine complet Edge d’accès peut prendre en charge plusieurs domaines SIP, un domaine SIP ne peut être représenté par plusieurs noms de domaine complets Edge d’accès. Le domaine SIP et le serveur Edge d’accès doivent être actifs, fonctionnels et accessibles sur le réseau.              
-  
-7. Dans la liste des fournisseurs de service de messagerie instantanée publique, sélectionnez Skype, cliquez sur Suivant pour ajouter des coordonnées, puis envoyez de nouveau la demande d’approvisionnement.
-    
-Une fois la demande d’approvisionnement envoyée, l’activation du compte et des utilisateurs pour la connectivité Skype peut prendre jusqu’à 30 jours voire seulement quelques jours selon la file d’attente.
-  
+Les déploiements sur site sont requis pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’ils hébergent. Les recommandations sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit résoudre par la requête DNS SRV en un nom de domaine complet (FQDN) de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine «contoso.com»:
+
+|**Noms de domaine complets valides**|**Commentaire**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |Dans chaque cas, le nom de domaine complet exact doit être présent dans le réseau SN ou le SAN du certificat externe installé sur le serveur Edge.   |
+|access.contoso.com   ||
+|**Noms de domaine complets non valides**|**Raison**|
+|sip.contoso-edge.com   |Ce ne correspond pas à un suffixe.  |
+|sip.it.contoso.com   |Il n’existe pas de suffixe de niveau supérieur.   |
+
+Pour plus d’informations sur les certificats externes, reportez-vous à la rubrique [planification de certificat](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
+
+#### <a name="faqs"></a>Questions
+
+**Pourquoi le site Web de mise en service est-il arrêté?**
+Le mécanisme de mise en service de messagerie instantanée (im) public qui a été déployé dans 2006 ne peut plus être utilisé et sera arrêté sur 8/15/2019. Au lieu de cela, la Fédération publique utilise le même modèle de Fédération que celui utilisé par Skype entreprise Online, connu sous le nom de «découverte des partenaires», qui permet de détecter publiquement un déploiement local par le biais de ses enregistrements SRV DNS de Fédération.
+
+**Cette modification signifie-t-elle que la Fédération de messagerie instantanée publique est déconseillée?**
+Non. La Fédération de messagerie instantanée publique restera prise en charge pendant plusieurs années, sans doute que le produit local Skype entreprise n’atteint la fin de vie.
+
+**Notre entreprise est dotée d’une relation hybride (espace d’adresse partagée) avec Skype entreprise online.**
+Non, puisque vous vous êtes déjà connecté à Skype entreprise Online, cette modification n’aura aucun effet.
+ 
+**Ce changement signifie-t-il que notre entreprise doit activer la Fédération avec Skype entreprise Online?**
+Non. Si les paramètres de proxy de votre serveur Edge n’autorisent pas la Fédération avec le fournisseur d’hébergement Skype entreprise Online (sipfed.online.lync.com), cette modification n’a pas d’incidence sur celle-ci. Toutefois, les mêmes exigences DNS et de certificats qui s’appliquent à la Fédération avec Skype entreprise Online s’appliquent également à la Fédération avec les utilisateurs de Skype.
+ 
+**Notre entreprise est volumineuse et ne peut pas modifier sa configuration latérale en raison de la réglementation et de la conformité, etc. que faire?**
+Toutes les organisations locales qui ne peuvent pas modifier la configuration de votre serveur de périmètre comme spécifié doivent communiquer au support technique le plus tôt possible.
+
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Activation de la fédération et de la connectivité PIC (Public IM Connectivity)
 
-Une fois la demande d’approvisionnement transmise, vous pouvez vous concentrer sur l’environnement Skype Entreprise Server et les tâches d’administration nécessaires à la configuration de la connectivité Skype. Cette section suppose que l’administrateur a déployé Skype Entreprise Server et configuré l’accès externe, appelé serveurs Edge.  
+Concentrez-vous désormais sur l’environnement Skype entreprise Server et les tâches d’administration nécessaires à la configuration de la connectivité Skype. Cette section suppose que l’administrateur a déployé Skype Entreprise Server et configuré l’accès externe, appelé serveurs Edge. 
   
 Trois étapes sont nécessaires pour activer la fédération et PIC :
   
@@ -153,7 +152,7 @@ Trois étapes sont nécessaires pour activer la fédération et PIC :
 La fédération est requise pour permettre aux utilisateurs Skype de communiquer avec les utilisateurs Skype Entreprise dans votre organisation. La connectivité PIC (Public IM Connectivity) est une classe de fédération. Elle doit être configurée pour permettre à vos utilisateurs Skype Entreprise de communiquer avec les utilisateurs Skype. La fédération et la connectivité PIC sont configurées à l’aide du panneau de configuration Skype Entreprise Server.
   
 > [!NOTE]
-> La fédération PIC n’est plus prise en charge par Live Communication Server 2005 SP1 ni par Office Communications Server 2007. Les plateformes prises en charge pour la Fédération PIC incluent Skype entreprise Server, Lync Server 2013, Lync Server 2010 et Office Communications Server 2007 R2. 
+> La Fédération PIC n’est plus prise en charge par les versions de produits antérieures à Lync Server 2010 (Live Communication Server, Office Communications Server). Les plateformes prises en charge pour la Fédération PIC incluent Skype entreprise Server, Lync Server 2013 et Lync Server 2010. 
   
 La fédération est requise pour permettre aux utilisateurs Skype de communiquer avec les utilisateurs Skype Entreprise dans votre organisation. La connectivité PIC (Public IM Connectivity) est une classe de fédération. Elle doit être configurée pour permettre à vos utilisateurs Skype Entreprise de communiquer avec les utilisateurs Skype. La fédération et la connectivité PIC sont configurées à l’aide de la boîte de dialogue Configuration du serveur Edge du panneau de configuration Skype Entreprise Server, comme le montre la figure.
   

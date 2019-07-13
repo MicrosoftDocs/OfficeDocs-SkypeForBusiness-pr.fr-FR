@@ -21,13 +21,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-description: Les clients peuvent utiliser le Forfait d’appels Office 365 et l’Audioconférence Office 365, comme le permettent les conditions d’utilisation des services RTC de Skype Entreprise Online et le contrat de licence en volume du client.
-ms.openlocfilehash: be3a32f50399fb32268aa30c3f0c48b8b4b4c462
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Les clients peuvent utiliser le plan d’appel d’Office 365 et la fonction de conférence rendez-vous d’Office 365 comme il est autorisé dans les conditions d’utilisation des services RTC de Skype entreprise Online et Microsoft Teams.
+ms.openlocfilehash: 4dc642ce59343b9d8699f31951c3cbe02b72ba08
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283369"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638588"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -41,26 +41,29 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 
 ### <a name="complimentary-dial-out-period-details"></a>Détails de la période de numérotation gratuite
 
-Pour les clients adoptant notre service de conférence audio d’Office 365, Microsoft fournit un avantage supplémentaire supplémentaire lié aux appels sortants de conférences organisés par les utilisateurs ayant attribué une licence d’abonnement Office 365 audio Conferencing en novembre. 2019. Au cours de cette période supplémentaire, Microsoft permet aux organisateurs de réunion ou aux participants autorisés, tels qu’ils sont définis dans les paramètres de la stratégie de réunion, de passer des 44 appels sortants dans les pays suivants: Cette prestation s’applique uniquement aux licences d’abonnements mensuels de conférences audio et ne s’étend pas aux licences payantes de l’audioconférence.
+Pour les clients adoptant notre service de conférence audio d’Office 365, Microsoft fournit un avantage supplémentaire supplémentaire lié aux appels sortants de conférences organisés par les utilisateurs ayant attribué une licence d’abonnement Office 365 audio Conferencing en novembre. 2019. Au cours de cette période supplémentaire, Microsoft permet aux organisateurs de la réunion ou aux participants autorisés, tels qu’ils sont définis dans les paramètres de la stratégie de la réunion, de passer des appels sortants à partir de la réunion vers des numéros de téléphone non plus surtaxés dans les pays et régions de 44 «zone A». Cette prestation s’applique uniquement aux licences d’abonnements mensuels de conférences audio et ne s’étend pas aux licences payantes de l’audioconférence.
 
 Par ailleurs, il y a une limite de 900 minutes au cours de la période de numérotation gratuite, comme suit:
 
-Les utilisateurs disposant d’un emplacement d’utilisation des licences (il s’agit de l’emplacement de l’utilisateur défini dans la zone gestion des licences du portail d’administration 365) dans n’importe quel pays est en mesure de passer des appels vers n’importe quel pays de la zone 44. Chaque utilisateur reçoit 900 minutes par utilisateur et par mois vers l’une des zones de la zone qui est regroupée au niveau du client. Par exemple, un client a acheté des licences d’abonnement à des services d’audioconférence 115 et possède 10 utilisateurs, 100 utilisateurs au Royaume-Uni et 5 utilisateurs en Inde, tous dotés de licences d’abonnement de conférence audio attribuées à leurs utilisateurs. Remarque: la taille de réserve est basée sur des licences attribuées et non sur des licences achetées.
+Les utilisateurs disposant d’un emplacement d’utilisation des licences (il s’agit de l’emplacement de l’utilisateur défini dans la zone gestion des licences du portail d’administration d’Office 365) dans n’importe quel pays peut appeler n’importe quelle zone 44 dans un pays ou une région. Chaque utilisateur reçoit une 900 minutes par utilisateur et par mois vers n’importe quel pays ou région dans lequel il est regroupé au niveau du client. Par exemple, un client a acheté des licences d’abonnement à des services d’audioconférence 115 et possède 10 utilisateurs, 100 utilisateurs au Royaume-Uni et 5 utilisateurs en Inde, tous dotés de licences d’abonnement de conférence audio attribuées à leurs utilisateurs.
+
+> [!NOTE]
+> La taille du pool est basée sur des licences attribuées et non sur des licences achetées.
  
-- Tous les utilisateurs d' 115 partagent un pool de (115 utilisateurs X 900 min) = 103 500 les minutes d’appel sortant par mois civil qui peuvent être utilisées pour passer des appels sortants vers n’importe quel pays de la zone.
+- Tous les utilisateurs d' 115 partagent un pool de (115 utilisateurs X 900 min) = 103 500 les minutes d’appel sortant par mois civil qui peuvent être utilisées pour passer des appels sortants vers n’importe quel pays ou région.
 - Tous les appels de plus de 103 500 minutes par mois civil sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination. (Remarque: le client doit configurer le crédit de communications et affecter la licence de crédits de communication à l’organisateur de la réunion).
 - Tous les appels sortants vers des destinations qui ne sont pas dans la zone une liste de pays sont facturés à la minute à l’aide de crédits de communication au tarif publié pour cette destination (le client fourni a configuré les crédits de communication et a attribué la licence Organisateur de la réunion.
 
 > [!NOTE]
-> Le centre d’administration Skype entreprise vous permet de surveiller l’utilisation du pool de minutes d’appels sortants. Dans le centre d’administration Skype de Microsoft teams &, accédez à**rapports** > **** du **portail** > hérité. Ce groupe de minutes est intitulé dans le rapport en tant qu’appel entrant vers la zone A pays.
+> Le centre d’administration Skype entreprise vous permet de surveiller l’utilisation du pool de minutes d’appels sortants. Dans le centre d’administration Skype & de Microsoft Teams, accédez à**rapports** > **** de **portail** > hérités. Ce groupe de minutes est intitulé dans le rapport en tant qu’appel entrant vers les pays et les régions.
 
 Des notifications par courrier électronique seront envoyées à tous les administrateurs de clients d’un client donné lorsque le taux d’utilisation du pool de minutes de connexion par le client atteint 80% et 100%.
 
-Pour les appels sortants facturés à la minute (les appels ne dépassent pas le ou les appels vers les destinations qui ne se trouvent pas dans la liste de pays), les appels et les tarifs associés sont basés essentiellement sur la destination de l’appel et non sur le pays du Organisateur ou participant lançant l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé au même tarif s’il est démarré par un participant à une réunion aux États-Unis ou en France.
+Pour les appels sortants facturés à la minute (les appels ne dépassent pas le ou les appels vers les destinations qui ne se trouvent pas dans la zone de liste des pays et régions), les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays. ou la région de l’organisateur ou du participant lançant l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé au même tarif s’il est démarré par un participant à une réunion aux États-Unis ou en France.
 
 Pour plus d’informations sur les crédits de communication, voir [crédits](what-are-communications-credits.md)de communication.
 
-**Zone A pays**
+**Zones A pays et régions**
 
 |    |
 |-----|
