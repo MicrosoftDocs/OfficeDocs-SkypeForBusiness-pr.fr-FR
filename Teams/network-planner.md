@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2c2c7242c594d67af131d3a15224ddf16419c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35214822"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701566"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le planificateur de réseaux pour Microsoft teams
 
@@ -36,6 +36,8 @@ Le planificateur réseau vous permet d’effectuer les opérations suivantes:
     > Les personnes recommandées ont été développées en fonction des données des scénarios d’utilisation et de modèles d’utilisation les plus courants. Toutefois, vous pouvez créer jusqu’à trois personnages personnalisés en plus des trois personnages recommandés.
 
 - Générez des rapports et calculez les besoins en bande passante pour l’utilisation des équipes.
+
+Pour utiliser le planificateur réseau, vous devez être administrateur général, administrateur de service teams ou administrateur de communications Teams.
 
 ## <a name="create-a-custom-persona"></a>Créer un personnage personnalisé
 
@@ -95,3 +97,7 @@ Après avoir ajouté tous les sites, vous pouvez créer un rapport, comme suit.
     - Un affichage supplémentaire affiche les recommandations globales en matière de bande passante.
 
 4. Cliquez sur **Enregistrer**. Votre rapport sera disponible dans la liste des rapports pour un affichage ultérieur.
+
+## <a name="example-scenario"></a>Exemple de scénario
+
+Pour obtenir un exemple illustrant l’utilisation du planificateur de réseaux pour configurer un plan réseau et générer un rapport à l’aide de ces étapes, téléchargez la [Présentation PowerPoint sur le planificateur de réseaux](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (en anglais uniquement).

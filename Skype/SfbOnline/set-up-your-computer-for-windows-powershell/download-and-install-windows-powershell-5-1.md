@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Téléchargez, installez, puis utilisez Windows PowerShell 5,1 pour créer une session PowerShell distante qui se connecte à Skype entreprise online.
-ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285113"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701553"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Télécharger et installer 5,1 PowerShell Windows
 
@@ -93,7 +93,7 @@ Avant d’installer Windows Management Framework 5,1:
 
 Si vous n'êtes pas certain de la version de Windows que vous utilisez, ou si vous n'êtes pas sûr d'avoir installé Windows 7 Service Pack 1, cliquez sur **Démarrer**, faites un clic droit sur **Ordinateur** puis cliquez sur **Propriétés**. Ces informations seront mentionnées dans la boîte de dialogue Système.
   
-Pour installer Windows Management Framework 5,1, suivez la procédure décrite dans [installer et configurer une version WMF 5,1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
+Pour installer Windows Management Framework 5,1, suivez la procédure décrite dans [installer et configurer une version WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
   
 Après que l'ordinateur a redémarré, vérifiez que Windows PowerShell démarre correctement et que l'application soit bien exécutée en tant qu'administrateur. Pour:
   
