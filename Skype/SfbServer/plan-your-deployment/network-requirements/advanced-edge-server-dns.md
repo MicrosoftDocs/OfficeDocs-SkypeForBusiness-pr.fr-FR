@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Résumé: Examinez les scénarios relatifs aux options de déploiement de Skype entreprise Server. Si vous voulez utiliser un serveur unique ou si vous préférez un pool de serveurs avec DNS ou HLB, cette rubrique devrait vous aider.'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297070"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758941"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planification DNS avancée du serveur Edge pour Skype entreprise Server
  
@@ -112,7 +112,7 @@ Nous allons répertorier les enregistrements DNS pour les zones internes et exte
     
 - Toutes les interfaces Edge internes de Skype entreprise Server dans votre réseau de périmètre utilisent cette zone DNS interne pour la résolution des requêtes vers contoso.com.
     
-- Tous les serveurs exécutant Skype entreprise et les clients exécutant Skype entreprise Server sur le réseau d’entreprise, pointez sur les serveurs DNS internes pour la résolution des requêtes vers contoso.com, ou utilisez le fichier hôte sur chaque serveur Edge et la liste A et le AAAA (si vous utilisez Adressage IPv6) pour le serveur du tronçon suivant (spécialement pour le directeur ou le VIP du pool de réalisateurs, le protocole VIP du pool frontal ou le serveur Standard Edition Server).
+- Tous les serveurs exécutant Skype entreprise Server et clients exécutant Skype entreprise Server sur le réseau d’entreprise, pointez sur les serveurs DNS internes pour la résolution des requêtes vers contoso.com, ou utilisez le fichier hôte sur chaque serveur Edge et la liste A et le AAAA (si vous utilisez Adressage IPv6) pour le serveur du tronçon suivant (spécialement pour le directeur ou le VIP du pool de réalisateurs, le protocole VIP du pool frontal ou le serveur Standard Edition Server).
     
 ### <a name="external-dns"></a>DNS externe
 

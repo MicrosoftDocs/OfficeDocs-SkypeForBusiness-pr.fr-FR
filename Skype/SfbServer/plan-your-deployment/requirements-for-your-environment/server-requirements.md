@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé: Préparez vos serveurs Skype entreprise Server 2015 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les exigences système et recommandations sont disponibles pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134260"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758948"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -75,7 +75,7 @@ Lorsque le matériel est en place, vous devez installer des systèmes d’exploi
 S’il ne figure pas dans cette liste, cela ne fonctionne pas correctement, veuillez ne pas essayer pour les nouvelles installations de Skype entreprise Server 2015.
   
 > [!NOTE]
-> Il est possible que vous ayez remarqué que Windows Server 2008 R2 ne figure pas dans cette liste. C’est pourquoi nous recommandons Windows Server 2012 R2 pour que tous les nouveaux serveurs soient utilisés pour marketing. Vous devez utiliser Windows Server 2008 R2 uniquement si vous avez des serveurs déjà installés avec Lync Server 2013 et que vous envisagez d’effectuer une mise à niveau sur place de celles-ci. Windows Server 2008 R2 a atteint la fin de vie du support technique standard sur 1/13/2015. 
+> Il est possible que vous ayez remarqué que Windows Server 2008 R2 ne figure pas dans cette liste. C’est pourquoi nous recommandons Windows Server 2012 R2 pour que tous les nouveaux serveurs soient utilisés pour marketing. Vous devez utiliser Windows Server 2008 R2 uniquement si vous avez des serveurs déjà installés avec Lync Server 2013 et que vous envisagez d’effectuer une mise à niveau sur place de celles-ci. Windows Server 2008 R2 a atteint la fin de la durée de vie du support technique standard sur 1/13/2015 et atteint la fin de son support technique sur 1/14/2020.
   
 En plus du dernier Service Pack, vérifiez que les mises à jour suivantes sont installées le cas échéant :
   

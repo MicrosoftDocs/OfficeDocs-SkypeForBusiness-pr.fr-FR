@@ -8,17 +8,17 @@ audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Avant d’apprendre les différentes façons dont vous pouvez déplacer les utilisateurs entre les pools, nous devons d’abord déterminer quels utilisateurs existent dans le pool hérité. Dans l’image ci-dessous, la colonne pool d’inscriptions identifie six utilisateurs qui sont configurés pour le pool hérité. Voici les utilisateurs de test que nous allons déplacer vers le pool 2019 de Skype entreprise Server.
-ms.openlocfilehash: b0694ce5d6091ae1f9c03db696fe3525c4b906f1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Avant d’apprendre les différentes façons dont vous pouvez déplacer les utilisateurs entre les pools, nous devons d’abord déterminer quels utilisateurs existent dans le pool hérité. La colonne pool d’inscriptions identifie les utilisateurs qui sont configurés pour le pool hérité. Voici les utilisateurs de test que nous allons déplacer vers le pool 2019 de Skype entreprise Server.
+ms.openlocfilehash: abcb7066ebcc58e603861985673584249edef1ad
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280603"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758896"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Afficher les utilisateurs actuels dans le pool hérité
 
-Avant d’apprendre les différentes façons dont vous pouvez déplacer les utilisateurs entre les pools, nous devons d’abord déterminer quels utilisateurs existent dans le pool hérité. Dans l’image ci-dessous, la colonne **pool d’inscriptions** identifie six utilisateurs qui sont configurés pour le pool hérité. Voici les utilisateurs de test que nous allons déplacer vers le pool 2019 de Skype entreprise Server.
+Avant d’apprendre les différentes façons dont vous pouvez déplacer les utilisateurs entre les pools, nous devons d’abord déterminer quels utilisateurs existent dans le pool hérité. La colonne **pool d’inscriptions** identifie les utilisateurs qui sont configurés pour le pool hérité. Voici les utilisateurs de test que nous allons déplacer vers le pool 2019 de Skype entreprise Server.
   
 ### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>Pour afficher la liste des utilisateurs dans le pool hérité
 

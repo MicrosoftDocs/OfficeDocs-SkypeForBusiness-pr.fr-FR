@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Découvrez ce qui est nécessaire pour migrer vers le routage direct à partir d’un point de vue de la configuration d’équipes et de Skype entreprise online.
-ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290422"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35759007"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur la migration de forfaits d’appels, voir:
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-Nous vous recommandons de supprimer les informations du plan de gestion des licences previouslycconfigured comme suit:
+Nous vous recommandons de supprimer les informations de plan de gestion des licences précédemment configurées comme suit:
  
 ```
 $companyname = “contoso” 

@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Processus de vérification de la coexistence du pool pilote avec le pool hérité.
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280652"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758903"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérification de la coexistence du pool pilote avec le pool hérité
 
@@ -65,7 +65,7 @@ Cette topologie inclut désormais des rôles de serveur anciens et Skype entrepr
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Ne pas essayer d’ouvrir la topologie dans le générateur de topologie hérité
 <a name="sectionSection2"> </a>
 
-Si vous essayez d’ouvrir la topologie à l’aide du générateur de topologie hérité, vous pouvez rencontrer l’erreur ci-dessous. La topologie ne peut être affichée qu’à l’aide du générateur de topologie 2019 de Skype entreprise Server. Le générateur de topologie 2019 de Skype entreprise Server doit être utilisé pour créer des pools pour Skype entreprise Server 2019 et l’installation héritée.
+La topologie ne peut être affichée qu’à l’aide du générateur de topologie 2019 de Skype entreprise Server. Le générateur de topologie 2019 de Skype entreprise Server doit être utilisé pour créer des pools pour Skype entreprise Server 2019 et l’installation héritée.
 
   
 
