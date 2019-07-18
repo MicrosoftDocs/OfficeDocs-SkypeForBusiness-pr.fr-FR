@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Résumé: Découvrez les options de planification d’une solution de communication et de voix unifiées dans Skype entreprise Server.'
-ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602168"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768031"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planifier votre solution voix entreprise dans Skype entreprise Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "35602168"
   
 Skype entreprise Server est doté de deux options de voix entreprise locales: voix entreprise et appel via le bureau, qui vous permet d’intégrer le système téléphonique de votre organisation à votre déploiement Skype entreprise Server et de faire des communications unifiées complètes. solutions. Ces deux options permettent aux utilisateurs d’utiliser le client Skype entreprise pour lancer des appels vocaux avec d’autres utilisateurs, à l’intérieur et à l’extérieur de votre organisation.
   
-Vous pouvez également tirer parti des services PBX Cloud de Microsoft, notamment les services PBX et la fonction d’appel RTC, en connectant votre infrastructure de téléphonie locale aux services proposés par Skype entreprise online. Pour plus d’informations, consultez [Cloud Voice dans Microsoft teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
+Vous pouvez également tirer parti des services PBX Cloud de Microsoft, notamment les services PBX et la fonction d’appel RTC, en connectant votre infrastructure de téléphonie locale aux services proposés par Skype entreprise online. Pour plus d’informations, reportez-vous à la rubrique [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
 Vous pouvez également utiliser des appels voix et des appels d’entreprise.
   

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588198"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768163"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -89,14 +89,15 @@ Les utilisateurs du routage direct doivent avoir les licences suivantes affecté
 - Microsoft Teams 
 - Audioconférence Microsoft 
 
-> [!NOTE]
-> Lorsque vous effectuez un appel à partir d’un 1:1, vous devez disposer de la licence de conférence audio.
 
 > [!IMPORTANT]
 >  Dans le cas où vous aimeriez ajouter des participants externes à des réunions planifiées, vous devez les appeler ou en fournissant un numéro de connexion, la licence de conférence audio est *requise*.
 
 > [!NOTE]
-> La licence E5 inclut le système téléphonique et l’audioconférence.   
+> La licence de conférence audio est *requise* pour:
+> - Passer d’un appel 1:1 à un appel de groupe.
+> - Ajoutez des participants externes à des réunions planifiées en composant un numéro de téléphone ou en fournissant un numéro de connexion. 
+
 
 Par ailleurs, vous devez vous assurer que les suivants:
  

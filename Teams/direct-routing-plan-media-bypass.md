@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: e309b0a21374cb0ea7e02bec82404474947215aa
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394578"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768171"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -234,7 +234,7 @@ Vous avez besoin d’ouvrir les ports 3478 et 3479 pour la transition. Lorsque M
 
 ### <a name="requirements-for-using-media-processors"></a>Configuration requise pour l’utilisation de processeurs multimédias
 
-Les processeurs multimédias sont toujours dans le chemin multimédia pour les applications vocales. Les exigences sont les mêmes que pour la configuration sans contournement.
+Les processeurs multimédias sont toujours dans le chemin multimédia pour les applications vocales et pour les cleints Web (pour exampe, teams cleint dans Microsoft Edge ou Google Chrome). Les exigences sont les mêmes que pour la configuration sans contournement.
 
 
 La plage d’adresses IP pour le trafic multimédia est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
@@ -282,9 +282,9 @@ Pour plus d’informations sur la configuration de deux lignes sur le même SBC,
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Points de terminaison client pris en charge avec l’exclusion de média
 
-La dérivation de média est prise en charge pour tous les points de terminaison d’équipe, à l’exception des clients Web teams 
+La dérivation de média est prise en charge avec tous les points de terminaison Teams.
 
-Si vos utilisateurs préfèrent équiper l’application Web dans Microsoft Edge, Google Chrome ou Mozilla Firefox, la dérivation multimédia de ces utilisateurs doit être désactivée. Nous allons présenter les appels à l’aide d’une dérivation multimédia activée à l’avenir.   
+Remarque pour webcleints (teams Web App dans Microsoft Edge, Google Chrome ou Mozilla Firefox), l’appel est soumis à un contournement différent même en cas de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. 
  
 ## <a name="see-also"></a>Voir aussi
 

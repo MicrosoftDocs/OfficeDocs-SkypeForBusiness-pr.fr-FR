@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Cet article décrit comment surveiller et résoudre les problèmes de votre configuration de routage direct.
-ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062378"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768155"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
@@ -48,20 +48,17 @@ Le schéma suivant illustre un exemple de configuration:
 
 Lorsqu’un utilisateur effectue un appel vers le numéro + \<1 425 de sept chiffres>, le routage direct évalue l’itinéraire. Il existe deux éléments SBCs dans l’itinéraire: sbc1.contoso.com et sbc2.contoso.com. Les deux SBCs ont une priorité égale dans l’itinéraire. Avant de sélectionner un SBC, le mécanisme de routage évalue l’état de l’SBCs en fonction du moment où l’SBC a envoyé les options SIP pour la dernière fois. 
 
-Un SBC est considéré comme sain si les statistiques lors de l’envoi de l’appel indiquent que la ligne SBC envoie des options sur un intervalle régulier.  
+Un SBC est considéré comme sain si les statistiques lors de l’envoi de l’appel indiquent que le SBC envoie les options toutes les minutes.  
 
-Le routage direct calcule les intervalles réguliers en prenant deux fois la moyenne lorsque l’SBC envoie les options avant de passer l’appel et d’ajouter cinq minutes. 
+Lorsqu’un appel est effectué, la logique suivante s’applique:
 
-Par exemple, supposons que vous ayez les informations suivantes: 
-
-- Un SBC est configuré pour envoyer des options toutes les minutes. 
 - L’SBC a été couplé à 11,00 AM.  
 - Les options d’envoi de SBC envoient à 11,01 AM, 11,02 AM, et ainsi de suite.  
 - Dans 11,15, un utilisateur effectue un appel et le mécanisme de routage sélectionne cet SBC. 
 
-La logique suivante est appliquée: deux fois l’intervalle moyen lorsque l’SBC envoie les options (une minute plus une minute = 2 minutes) + cinq minutes = sept minutes. Il s’agit de la valeur de l’intervalle régulier pour l’SBC.
- 
-Si l’SBC dans notre exemple a envoyé des options à n’importe quelle période entre 11,08 et 11,15 AM (l’heure de l’appel), il est considéré comme sain. Si ce n’est pas le cas, l’SBC sera abaissé de l’itinéraire. 
+Le routage direct prend les options d’intervalle normales trois fois (l’intervalle régulier est d’une minute). Si les options étaient envoyées au cours des trois dernières minutes, l’SBC est considéré comme sain.
+
+Si l’SBC dans l’exemple a envoyé des options à n’importe quelle période entre 11,12 AM et 11,15 AM (l’heure de l’appel), il est considéré comme sain. Si ce n’est pas le cas, l’SBC sera abaissé de l’itinéraire. 
 
 La rétrogradation signifie que l’SBC ne sera pas essayé en premier. Par exemple, nous avons sbc1.contoso.com et sbc2.contoso.com avec une priorité égale.  
 
