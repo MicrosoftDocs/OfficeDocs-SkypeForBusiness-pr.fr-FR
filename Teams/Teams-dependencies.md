@@ -3,7 +3,6 @@ title: Autoriser l'accès invité dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Gérez les fonctionnalités d’accès invité dans Microsoft Teams par le biais de quatre niveaux d’autorisation différents.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b088cd78e08263a18a646cd774d43e1294b028
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3808a587de81c9d32fec15fce7bd942594b3aa82
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222013"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758919"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autoriser l'accès invité dans Microsoft Teams
 ===========================================
@@ -122,3 +121,7 @@ Vous pouvez gérer les paramètres d'utilisateur externe de SharePoint Online p
 ## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="related-topics"></a>Rubriques connexes
+
+- [Références sur les paramètres de partage d’invités de Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
