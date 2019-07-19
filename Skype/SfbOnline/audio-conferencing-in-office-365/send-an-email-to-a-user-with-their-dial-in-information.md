@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un message électronique contenant leurs informations de conférence audio dans Skype entreprise online.
-ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302096"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792267"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoi d’un courrier électronique à un utilisateur avec ses informations de conférence audio dans Skype entreprise Online
 
@@ -56,7 +56,7 @@ Voici un exemple du courrier électronique envoyé:
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au >  **Centre d’administration Office 365****Skype entreprise**, puis, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
+2. Accédez au centre d’administration > **Skype entreprise**, puis, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
     
 3. Cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur.
     
@@ -110,7 +110,7 @@ Voici un exemple du courrier électronique envoyé:
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Office 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: Cliquez avec le bouton droit sur Serveurs Office Web Apps Server, puis sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant Office Online.
-ms.openlocfilehash: 5988ef0d276577bc81640aa6a9be1caf35a5f1ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Vous pouvez cliquer avec le bouton droit sur serveurs Office Web Apps et sélectionner nouveau serveur Office Web Apps pour ouvrir l’Assistant.
+ms.openlocfilehash: d5169ceda8bc67106d44b4ead0e5d7ec346f5bb9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303227"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793469"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nœud d’étendue des serveurs Office Web Apps Server
 
-Cliquez avec le bouton droit sur **Serveurs Office Web Apps Server**, puis sélectionnez **Nouveau serveur Office Web Apps Server** pour ouvrir l’Assistant Office Online.
+Vous pouvez cliquer avec le bouton droit sur **serveurs Office Web Apps** et sélectionner **nouveau serveur Office Web Apps** pour ouvrir l’Assistant.
 
 ![Nœud d’étendue d’Office WebApps Server](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

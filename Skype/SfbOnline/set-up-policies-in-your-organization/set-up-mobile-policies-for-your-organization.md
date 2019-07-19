@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Vous pouvez configurer la manière dont vos utilisateurs se connectent à Skype entreprise Online à l’aide de l’application Skype entreprise sur les appareils mobiles, par exemple une fonctionnalité qui permet aux utilisateurs de passer et de recevoir des appels téléphoniques sur leur téléphone mobile en utilisant leur numéro de téléphone professionnel plutôt que leur numéro de téléphone mobile. mber. Des stratégies de mobilité peuvent également être utilisées pour exiger des connexions Wi-Fi lorsque les utilisateurs passent ou reçoivent des appels.
-ms.openlocfilehash: 5acf0f7f331e7836e5bab785f9726cfd921b619d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221142"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792464"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurer les stratégies mobiles pour votre organisation
 
@@ -130,7 +130,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de de
     
   - [Six raisons d’utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

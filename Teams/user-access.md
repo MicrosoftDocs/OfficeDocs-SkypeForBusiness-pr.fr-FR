@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0858373bebabdb9df6c8a00463ac5a3db1834843
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493754"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792134"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -41,7 +41,7 @@ Les licences de niveau utilisateur d’équipes sont gérées directement via le
 
 Lorsqu'une référence (SKU) de licence telle que Entreprise E3 ou E5 est affectée à un utilisateur, une licence Microsoft Teams est automatiquement affectée et le produit est activé pour l'utilisateur. Les administrateurs peuvent disposer d'un contrôle précis sur les services et licences Office 365 ; la licence Microsoft Teams peut être activée ou désactivée pour un utilisateur ou un groupe d'utilisateurs.
 
-![Capture d'écran de la section Licences de produit dans le Centre d'administration Office 365.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
+![Capture d’écran de la section licences de produits dans le centre d’administration.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
 Une licence utilisateur d’équipes peut être désactivée à tout moment. Lorsque la licence est désactivée, les utilisateurs qui accèdent à Microsoft teams sont empêchés et l’utilisateur ne peut plus voir teams dans le lanceur d’applications et la page d’accueil d’Office 365.
 
@@ -50,7 +50,7 @@ Une licence utilisateur d’équipes peut être désactivée à tout moment. Lor
 ## <a name="manage-via-powershell"></a>Gérer via PowerShell
 
 > [!IMPORTANT]
-> Le nouveau-MsolLicenseOptions activera tous les services précédemment désactivés, à moins que explictitly identitied dans votre script personnalisé. Par exemple, si vous souhaitez laisser Exchange & Sway désactivé lors de la désactivation d’équipes, vous devrez inlcude cela dans le script ou Exchange & Sway sera activé pour les utilisateurs que vous avez identifiés. Si vous souhaitez utiliser une interface utilisateur pour gérer cette fonctionnalité, voir: [outil de création de rapports et de gestion des licences Office 365-attribuer supprimer des licences en bloc](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> Le nouveau-MsolLicenseOptions activera tous les services précédemment désactivés, à moins que explictitly identitied dans votre script personnalisé. Par exemple, si vous souhaitez laisser Exchange & Sway désactivé lors de la désactivation d’équipes, vous devez l’inlcude dans le script ou Exchange & Sway sera activé pour les utilisateurs que vous avez identifiés. Si vous souhaitez utiliser une interface utilisateur pour gérer cette fonctionnalité, voir: [outil de création de rapports et de gestion des licences Office 365-attribuer supprimer des licences en bloc](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
 L’activation et la désactivation de Teams comme licence de charge de travail via PowerShell sont effectuées comme pour n'importe quelle charge de travail. Le nom du plan de service est TEAMS1 pour Microsoft Teams. Pour GCC, le nom du plan de services est TEAMS_GOV. Pour le nom de plan de service de GCC High, le nom du plan de services est TEAMS_GCCHIGH. Pour DoD, le nom du plan de service est TEAMS_DOD (pour plus d’informations, voir [désactiver l’accès aux services avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
 

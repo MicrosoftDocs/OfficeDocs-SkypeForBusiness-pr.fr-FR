@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 318473355d11017135c53319808a7423767cfe85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286151"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792649"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
@@ -37,11 +37,11 @@ Consultez la [vue d’ensemble des rapports](https://support.office.com/article/
 Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des informations sur les activités au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise. 
   
 > [!NOTE]
-> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Comment obtenir le rapport d'activité P2P Skype Entreprise
 
-1. Accédez à l'**utilisation**des > **rapports** > du **Centre d’administration Office 365**.
+1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
 2. Dans la page **utilisation** , cliquez sur **activité d’égal à égal Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche. Vous pouvez cliquer sur le widget **activité Skype entreprise** , puis sur **activité d’égal à égal Skype entreprise** dans la liste **activité Skype entreprise** .
     
@@ -93,7 +93,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 *    **Minutes audio** indique le nombre total de minutes audio utilisées dans votre organisation. 
 *    **Minutes vidéo** indique le nombre total de minutes vidéo utilisées dans votre organisation. 
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **comment masquer les détails au niveau utilisateur?** dans les [rapports d’activité du centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **«Comment puis-je masquer les détails au niveau utilisateur?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton d’exportation des rapports de Skype entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***
@@ -118,7 +118,7 @@ Si les stratégies de votre organisation vous empêchent d’afficher des rappor
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

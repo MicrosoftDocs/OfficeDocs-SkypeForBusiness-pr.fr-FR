@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Découvrez comment configurer Skype entreprise afin de pouvoir voir la disponibilité de vos collègues. '
-ms.openlocfilehash: e7a5eb07f21f889da545fd2270789d3bd34ed42b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494235"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793343"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
@@ -36,7 +36,7 @@ En tant qu' **[administrateur](https://support.office.com/article/eac4d046-1afd-
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-1. Accédez aux**centres** > d’administration du >  **Centre d’administration Office 365****Skype entreprise**.
+1. Accédez au centre d’administration > Centre d' **administration** > **Skype entreprise**.
 
 2. Dans le **Centre d’administration de Skype entreprise**, sélectionnez **organisation**.
 

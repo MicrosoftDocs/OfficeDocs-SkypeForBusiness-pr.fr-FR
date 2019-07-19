@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3be118c02e260688f89bea31283c3914d657d045
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303673"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793157"
 ---
 # <a name="conference-participant-activity-report"></a>Rapport d'activités de participant à la conférence
 
@@ -35,11 +35,11 @@ Pour plus d’informations, consultez la [vue d’ensemble des rapports](https:/
 Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des détails sur l’activité de conférences au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise.
   
 > [!NOTE]
-> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>Comment obtenir le rapport d'activité de participation à des conférences Skype Entreprise
 
-1. Accédez à l'**utilisation**des > **rapports** > du **Centre d’administration Office 365**.
+1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
 2. Sur la page **utilisation** , cliquez sur activité de participation à des **conférences Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de participation à des conférences Skype entreprise** dans la liste **activité Skype entreprise** .
     
@@ -87,7 +87,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 *    **Rendez-vous ou mises en conférence tierces** indique le nombre total de conférences rendez-vous ou de mises en conférence qui ont été organisées en utilisant un fournisseur de services d'audioconférence tiers. 
 *    **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo pour lesquelles il y a eu des participants. 
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **comment masquer les détails au niveau utilisateur?** dans les [rapports d’activité du centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **«Comment puis-je masquer les détails au niveau utilisateur?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton d’exportation des rapports de Skype entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***
@@ -112,7 +112,7 @@ Si les stratégies de votre organisation vous empêchent d’afficher des rappor
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

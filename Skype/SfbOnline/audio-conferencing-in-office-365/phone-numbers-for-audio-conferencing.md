@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: feaa7972766ffeb21517080e97ee67dcd597edb4
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134251"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792308"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online
 
@@ -63,7 +63,7 @@ While the default audio conferencing number that is assigned to an organizer is 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> Le pays ou la région de votre organisation est disponible en vous connectant au **Centre d’administration Office 365** et en regardant sous profil de l' **organisation**. 
+> Vous pouvez trouver l’emplacement du pays ou de la région de votre organisation en vous connectant au centre d’administration 365 Microsoft et en regardant sous profil de l' **organisation**. 
   
 > [!CAUTION]
 > En raison d’une disponibilité limitée des numéros de téléphone payants au Venezuela, en Indonésie, au Viêt Nam et aux Émirats Arabes Unis (Émirats Arabes Unis), les organisations de ces pays/régions ne disposent pas d’un numéro de téléphone payant. Les numéros gratuits pour ces lieux sont disponibles en fonction d'un inventaire mis à disposition. 

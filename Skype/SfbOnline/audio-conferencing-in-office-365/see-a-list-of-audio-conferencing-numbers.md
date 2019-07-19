@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment trouver vos numéros de conférence rendez-vous à partir de Skype entreprise online. '
-ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299048"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792444"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Voir la liste des numéros d’audioconférence dans Skype Entreprise Online
 
@@ -53,7 +53,7 @@ Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez au centre d’administration > **Skype entreprise**.
     
 3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à **audioconférence** > **Microsoft Bridge**, puis procédez comme suit:
     
@@ -75,7 +75,7 @@ Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Découvrez comment planifier et déployer Skype entreprise dans les petites, moyennes et grandes organisations et comment le mettre à la disposition de vos utilisateurs. '
-ms.openlocfilehash: b6895a45f59de2c73e445c7c26345f3b3d191a5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dedf142e316f502185bc2de0d0e37fee0513d2c3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285283"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792182"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Déploiement du client Skype entreprise dans Office 365
 
@@ -44,21 +44,21 @@ Avant de déployer Skype entreprise pour vos utilisateurs, assurez-vous que vous
 
 En tant qu' [administrateur](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US) , vous pouvez choisir de mettre l’application Skype entreprise à la disposition de vos utilisateurs.
   
-- **Pour savoir si tous les utilisateurs de votre entreprise reçoivent le logiciel**: Connectez-vous au centre d’administration Office 365, accédez à **installer mon logiciel**, puis sélectionnez les logiciels que vous voulez rendre disponibles pour les utilisateurs.
+- **Pour savoir si tous les utilisateurs de votre entreprise reçoivent le logiciel**: Connectez-vous au centre d’administration 365 Microsoft, accédez à **installer mon logiciel**, puis sélectionnez les logiciels que vous voulez rendre disponibles pour les utilisateurs.
     
     ![Choisissez le logiciel que vous voulez mettre à la disposition des membres de votre entreprise.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- **Pour déterminer si des personnes spécifiques au sein de votre entreprise obtiennent le logiciel**: Connectez-vous au centre d’administration Office **** > 365, accédez à utilisateurs**actifs**, sélectionnez la personne à laquelle vous voulez accorder l’accès au logiciel, puis cliquez sur **modifier** . en regard de **licences de produits** , puis activez ou désactivez la licence.
+- **Pour déterminer si des personnes spécifiques au sein de votre entreprise obtiennent le logiciel**: Connectez-vous au centre d’administration 365 **** > Microsoft, accédez à utilisateurs**actifs**, sélectionnez la personne à laquelle vous voulez accorder l’accès au logiciel, puis cliquez sur **modifier. **en regard de **licences de produits** , puis activez ou désactivez la licence.
     
     ![Sélectionnez les logiciels auxquels l’utilisateur doit accéder.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Si vous avez besoin de connaître les plans attribués aux membres de votre organisation, connectez-vous au nouveau centre d’administration Office **** > 365 > utilisateurs**actifs**. Sélectionnez la personne dans la liste, puis cliquez sur **licences de produit**. Si vous utilisez le centre d’administration Office 365 classique, reportez-vous à la rubrique **licence attribuée**. 
+> Si vous avez besoin de connaître les plans attribués aux membres de votre organisation, connectez-vous au centre d’administration 365 Microsoft > **utilisateurs** > **actifs**. Sélectionnez la personne dans la liste, puis cliquez sur **licences de produit**. Si vous utilisez le centre d’administration classique, reportez-vous à la section **licence attribuée**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Déploiement manuel de Skype entreprise pour vos utilisateurs
 <a name="bkmk_manual_1"> </a>
 
-Si vous souhaitez que les utilisateurs installent l’application Skype entreprise à partir d’un emplacement sur votre réseau plutôt que d’Internet, vous pouvez télécharger les fichiers d’installation. Pour ce faire, accédez à la section **déploiement manuel du logiciel utilisateur** dans le centre d’administration Office 365. Vous pouvez ensuite sélectionner **installer** et enregistrer le fichier Setup. exe sur un emplacement réseau.
+Si vous souhaitez que les utilisateurs installent l’application Skype entreprise à partir d’un emplacement sur votre réseau plutôt que d’Internet, vous pouvez télécharger les fichiers d’installation. Pour ce faire, accédez à la section **déploiement manuel du logiciel utilisateur** du centre d’administration 365 Microsoft. Vous pouvez ensuite sélectionner **installer** et enregistrer le fichier Setup. exe sur un emplacement réseau.
   
 Une autre option consiste à télécharger l’application Skype entreprise Basic pour vos utilisateurs. Vous pouvez télécharger [Microsoft Skype entreprise Basic (32 ou 64)](https://www.microsoft.com/en-us/download/details.aspx?id=49440).
   
@@ -75,11 +75,11 @@ Dans de nombreuses entreprises ou grandes organisations, les utilisateurs ne son
   
 Dans Office 365, plusieurs options s’offrent à vous pour le déploiement de l’application Skype entreprise, si vous souhaitez contrôler l’endroit où elle est installée. Voici quelques-unes de ces options:
   
-- Téléchargez l’application Skype entreprise sur votre réseau local à partir du centre d’administration Office 365, comme décrit dans la rubrique [déploiement manuel de Skype entreprise pour vos utilisateurs](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
+- Téléchargez l’application Skype entreprise sur votre réseau local à partir du centre d’administration Microsoft 365, comme décrit dans la rubrique [déploiement manuel de Skype entreprise pour vos utilisateurs](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
     
 - Utilisez l' **[outil déploiement d’Office](https://go.microsoft.com/fwlink/p/?LinkID=626065)** pour télécharger l’application Office 365 ProPlus ou l’application Skype entreprise sur votre réseau local. Ensuite, utilisez l’outil déploiement d’Office pour déployer l’application auprès de vos utilisateurs. L’outil déploiement d’Office vous donne la possibilité de contrôler certains aspects du déploiement, tels que les langues et la version (32 bits ou 64 bits).
     
-- Utilisez vos outils et processus de déploiement de logiciels existants tels que System Center Configuration Manager pour déployer Office 365 ProPlus ou l’application Skype entreprise pour vos utilisateurs. Vous pouvez utiliser vos outils et processus existants à l’aide de l' [outil déploiement d’Office](https://go.microsoft.com/fwlink/p/?LinkID=626065) ou du logiciel que vous avez téléchargé à partir du centre d’administration Office 365.
+- Utilisez vos outils et processus de déploiement de logiciels existants tels que System Center Configuration Manager pour déployer Office 365 ProPlus ou l’application Skype entreprise pour vos utilisateurs. Vous pouvez utiliser vos outils et processus existants à l’aide de l' [outil déploiement d’Office](https://go.microsoft.com/fwlink/p/?LinkID=626065) ou du logiciel que vous avez téléchargé à partir du centre d’administration Microsoft 365.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Plus d’informations sur l’utilisation de l’outil déploiement d’Office
 
@@ -103,7 +103,7 @@ Pour plus d’informations sur l’outil déploiement d’Office et le fichier C
     
 ### <a name="more-info-on-using-system-center-configuration-manager"></a>Plus d’informations sur l’utilisation de System Center Configuration Manager
 
-Vous pouvez utiliser vos outils et processus de déploiement de logiciels existants tels que System Center Configuration Manager pour déployer l’application Skype entreprise. Vous pouvez utiliser ces outils et processus avec le logiciel que vous téléchargez à partir du centre d’administration Office 365 ou à l’aide de l’outil déploiement d’Office.
+Vous pouvez utiliser vos outils et processus de déploiement de logiciels existants tels que System Center Configuration Manager pour déployer l’application Skype entreprise. Vous pouvez utiliser ces outils et processus avec le logiciel que vous téléchargez à partir du centre d’administration Microsoft 365 ou de l’outil déploiement d’Office.
   
 Pour plus d’informations sur l’utilisation du gestionnaire de configuration pour déployer un logiciel, reportez-vous aux articles suivants:
   

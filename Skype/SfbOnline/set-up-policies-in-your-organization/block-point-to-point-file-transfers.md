@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Dans Skype entreprise Online, vous pouvez contrôler les transferts de fichiers point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet à un utilisateur de transférer des fichiers ou d’en bloquer les transferts de fichiers à des utilisateurs au sein de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
-ms.openlocfilehash: 248b541a4d57c3b51a48694d3194432cc207db06
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221188"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792513"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
@@ -112,7 +112,7 @@ Vous pouvez l’appliquer à un utilisateur en créant une nouvelle stratégie e
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

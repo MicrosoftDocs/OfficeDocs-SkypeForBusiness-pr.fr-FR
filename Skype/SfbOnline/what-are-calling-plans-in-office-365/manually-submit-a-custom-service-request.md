@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 84160b877ffa8420ea41e804d02ad5828e55ad8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 498f69070e7dfed8d367effd83715fa3ee8001cd
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293782"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793353"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Envoi manuel d'une demande de service personnalisé
 
@@ -38,7 +38,7 @@ Dans certains pays ou certaines régions, vous devrez également saisir manuelle
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Si vous avez besoin de créer et de valider une demande de service, procédez comme suit:
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
-1. Dans le **Centre d'administration d'Office 365**, sélectionnez **Besoin d'aide ?**
+1. Dans le centre d’administration, sélectionnez **vous avez besoin d’aide**?
 2. Dans le volet **Besoin d'aide ?**, indiquez-nous pour quel élément vous avez besoin d'aide et sélectionnez **Aide**.
 3. Si les résultats dans la section **Afficher les solutions** ne vous apportent aucune aide, sélectionnez une des options suivantes :
     - **Laissez-nous vous appeler (recommandé)**  : confirmez votre numéro de contact et appuyez sur **M'appeler**. Le temps d'attente prévu pour un rappel est indiqué dans le volet **Besoin d'aide ?**.
@@ -46,9 +46,9 @@ Dans certains pays ou certaines régions, vous devrez également saisir manuelle
 
 ### <a name="for-organizations-with-more-than-150-users-follow-these-steps-to-create-a-service-request"></a>Pour les organisations ayant plus de 150 utilisateurs, procédez comme suit pour créer une demande de service:
 
-1. Connectez-vous à Office 365 en tant qu'administrateur à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous en tant qu'administrateur à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans le Centre d'administration d'Office 365, dans le volet de navigation de gauche, cliquez sur **Support** > **Nouvelle demande de service**.
+2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge** > une**nouvelle demande de service**.
     
 3. Sous **Demandes de service**, cliquez sur **Ajouter**.
     
@@ -98,7 +98,7 @@ Dans certains pays ou certaines régions, vous devrez également saisir manuelle
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page **Demandes de service** du Centre d'administration d'Office 365.
+> Le numéro de référence sera répertorié dans la page **demandes de service** du centre d’administration Microsoft 365.
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>Que faut-il savoir d'autre à propos du transfert de numéro ?
 

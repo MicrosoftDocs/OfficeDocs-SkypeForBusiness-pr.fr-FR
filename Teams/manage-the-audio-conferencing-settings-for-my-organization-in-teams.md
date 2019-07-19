@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: b8a93b9f6ad47b4b1f4203e4611331bfe3c13b59
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343913"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793195"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -54,7 +54,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
 4. Sur la page **licences de produits** , activez l' **audioconférence** , puis cliquez sur **Enregistrer**. Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
-> Une fois que vous avez affecté la licence, Microsoft peut ne pas s'afficher initialement comme fournisseur de conférence rendez-vous dans la liste déroulante. Dans ce cas, déconnectez-vous du Centre d'administration Office 365 ou appuyez sur les touches Ctrl + F5 pour actualiser la fenêtre du navigateur. 
+> Dès lors que vous attribuez la licence, il est possible que Microsoft n’apparaisse pas dans la liste en tant que fournisseur de services d’audioconférence. Si tel est le cas, déconnectez-vous du centre d’administration ou appuyez sur CTRL + F5 pour actualiser la fenêtre du navigateur. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Activer ou désactiver l'envoi de courriers électroniques aux utilisateurs d'audioconférence
 

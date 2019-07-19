@@ -19,16 +19,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Le plan 1 de Skype entreprise Online a été annulé. Néanmoins, si vous avez un abonnement à Skype entreprise Online plan 1, cette modification n’affectera pas le bon vous. Lorsque vous êtes prêt à passer à une nouvelle offre, que ce soit immédiatement ou au moment du renouvellement, trois options s’offrent à vous.
-ms.openlocfilehash: 92b8cc0b01c14cf254dd90fdd96d06b80dfd5345
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290290"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793137"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype Entreprise Online - Déclassement de l’offre 1 
 
-Le plan 1 de Skype entreprise Online a été annulé. Néanmoins, si vous avez un abonnement à Skype entreprise Online plan 1, cette modification n’affectera pas le bon vous. En tant qu’administrateur général d’Office 365, vous recevez des mises à jour par courrier électronique et vous pouvez consulter les billets dans le centre de messages (inclus dans le centre d’administration Office 365) avec les informations sur le moment où vous devez effectuer une action. En attendant, vous pouvez continuer à utiliser vos licences plan 1 Skype entreprise Online existantes.
+Le plan 1 de Skype entreprise Online a été annulé. Néanmoins, si vous avez un abonnement à Skype entreprise Online plan 1, cette modification n’affectera pas le bon vous. En tant qu’administrateur général d’Office 365, vous recevez des mises à jour par courrier électronique et vous pouvez consulter les billets dans le centre de messages (inclus dans le centre d’administration de Microsoft 365) avec des informations sur la manière dont vous avez besoin d’effectuer une action. En attendant, vous pouvez continuer à utiliser vos licences plan 1 Skype entreprise Online existantes.
 
 Lorsque vous êtes prêt à passer à une nouvelle offre, que ce soit immédiatement ou au moment du renouvellement, vous avez la possibilité de basculer vers Office 365 F1 ou un autre plan Office 365 de votre choix.
 
@@ -42,7 +42,7 @@ Cette option est idéale si vous souhaitez tirer parti des fonctionnalités supp
 
 ### <a name="how-to-switch"></a>Comment changer 
 
-Vous pouvez passer à Office 365 F1 ou patienter jusqu’à ce qu’il soit temps de procéder au renouvellement et de procéder à la mise à niveau lors du processus de renouvellement. Quelle que soit la méthode que vous utilisez, vous devez collaborer avec votre représentant ou partenaire pour effectuer le changement, sauf si vous avez acheté votre abonnement directement auprès de Microsoft, auquel cas vous pourrez basculer vers Office 365 F1 dans le centre d’administration Office 365.
+Vous pouvez passer à Office 365 F1 ou patienter jusqu’à ce qu’il soit temps de procéder au renouvellement et de procéder à la mise à niveau lors du processus de renouvellement. Quelle que soit la méthode que vous utilisez, vous devez collaborer avec votre représentant ou partenaire pour effectuer le changement, sauf si vous avez acheté votre abonnement directement auprès de Microsoft, auquel cas vous pourrez basculer vers Office 365 F1 dans le centre d’administration Microsoft 365.
 
 
 ## <a name="switching-to-another-office-365-offer"></a>Basculer vers une autre offre Office 365

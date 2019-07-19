@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494195"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792172"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype entreprise
 
@@ -94,7 +94,7 @@ Vous pouvez ensuite [définir des langues de standard automatique pour les conf�
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise**:
 
-1. **** > Accédez au portail d’administration du centre > d' **administration Office 365****équipes** > du**portail hérité**.
+1. Accédez au centre d’administration >**portail**de **centres** > **** > d’administration Teams.
 2. Sélectionnez **audioconférence** > **Microsoft Bridge**. 
 3. Sélectionnez le numéro de téléphone du pont de conférence, cliquez sur **définir les langues**, puis sélectionnez la langue par défaut.
 

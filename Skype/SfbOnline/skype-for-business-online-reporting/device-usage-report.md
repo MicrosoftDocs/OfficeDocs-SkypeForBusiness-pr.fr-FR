@@ -18,13 +18,13 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation des appareils Skype entreprise pour afficher les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles, sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions. Pour plus d’informations, consultez les rapports d’activité dans le centre d’administration Office 365.
-ms.openlocfilehash: aa96fc36e2efd5574bc363b8a199007a60060338
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation des appareils Skype entreprise pour afficher les appareils, y compris les systèmes d’exploitation Windows et les appareils mobiles, sur lesquels l’application Skype entreprise est installée et qui s’en servent pour la messagerie instantanée et les réunions. Pour plus d’informations, consultez les rapports d’activité dans le centre d’administration.
+ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280772"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793119"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
@@ -35,11 +35,11 @@ Pour plus d’informations, consultez la [vue d’ensemble des rapports](https:/
 Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des informations sur les types de clients/périphériques utilisés au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise.
   
 > [!NOTE]
-> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Comment obtenir le rapport d’utilisation des appareils Skype entreprise
 
-1. Accédez à l'**utilisation**des > **rapports** > du **Centre d’administration Office 365**.
+1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
 2. Dans la page **utilisation** , cliquez sur utilisation de l' **appareil Skype entreprise** dans la **liste Sélectionner un rapport** sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **utilisation de périphériques Skype entreprise** dans la liste **activité Skype entreprise** .
     
@@ -84,7 +84,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 *    **iPhone** est sélectionné si l’utilisateur dispose de l’application Skype entreprise installée sur un iPhone et l’utilise. 
 *    **iPad** est sélectionné si l’utilisateur dispose de l’application Skype entreprise installée sur un iPad et l’utilise. 
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **comment masquer les détails au niveau utilisateur?** dans les [rapports d’activité du centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **«Comment puis-je masquer les détails au niveau utilisateur?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Nombre 8](../images/sfbcallout8.png)<br/>Cliquez ou appuyez sur l’icône **colonnes** dans une des colonnes pour ajouter ou supprimer des colonnes dans le rapport.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
@@ -109,7 +109,7 @@ Si les stratégies de votre organisation vous empêchent d’afficher des rappor
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290055"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792881"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
@@ -44,7 +44,7 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clients E1 et E3 : comment connaître les prix et procéder à l'achat
 <a name="bkmk_buypremium"> </a>
 
-1. Connectez-vous au Centre d'administration Office 365.
+1. Connectez-vous au centre d’administration.
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
@@ -59,14 +59,14 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
-2. Connectez-vous au Centre d'administration Office 365 et accédez à **Facturation** > **Abonnements** > **Compléments**.
+2. Connectez-vous au centre d’administration et accédez à > **modules complémentaires**abonnements de **facturation** > ****.
 
     Les prix et l’option permettant d’acheter des modules complémentaires de services d' **audioconférence** et de **système téléphonique** apparaissent désormais.
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Pourquoi l'option d'achat de compléments ne s'affiche-t-elle pas ?
 <a name="bkmk_how"> </a>
 
-Parfois, l'option d'achat de compléments Skype Entreprise ne s'affiche pas dans le Centre d'administration Office 365.
+Dans certains cas, l’option d’achat de compléments Skype entreprise n’apparaît pas dans le centre d’administration 365 Microsoft.
 
 - **Vous avez acheté Office 365 Business Premium par l'entremise de GoDaddy**. Dans ce cas, vous ne pouvez pas acheter de compléments de licence Skype Entreprise. Vous devez basculer vers l’offre E3 (ce que GoDaddy ne vend pas), puis vous pouvez l’acheter. [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

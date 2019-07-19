@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Découvrez l’activation de l’enregistrement pour les conférences audio et vidéo et ce qui est et n’est pas inclus dans les enregistrements. '
-ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494080"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792599"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 
@@ -32,7 +32,7 @@ ms.locfileid: "34494080"
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-1. Accédez au >  **Centre d’administration Office 365****Skype entreprise**, puis cliquez sur **utilisateurs**.
+1. Accédez au centre d’administration > **Skype entreprise**, puis cliquez sur **utilisateurs**.
     
 2. Dans la page **utilisateurs** , sélectionnez l’utilisateur ou les utilisateurs dans la liste, puis cliquez sur **modifier**.
     

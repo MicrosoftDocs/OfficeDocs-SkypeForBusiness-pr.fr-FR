@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: fb57fbd44021c28350723c180e16637f41a5cf66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 748a08d088e3637566b6c6c1636bbf7a513f1f4d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273671"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793223"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licences de module complémentaire Skype Entreprise
 
@@ -81,7 +81,7 @@ Pour obtenir une liste détaillée des fonctionnalités et des comparaisons de c
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Comment connaître les prix et acheter des licences de complément ?
 <a name="bkmk_how"> </a>
 
- **Après avoir acheté un Office 365 plan, vous pouvez consulter les prix et acheter des modules complémentaires via Centre d'administration Office 365**.
+ **Après avoir acheté un plan Office 365, vous pouvez consulter les prix et acheter des modules complémentaires par le biais du centre d’administration Microsoft 365**.
 
 En fonction des modules complémentaires que vous souhaitez acquérir, nous vous recommandons d'[évaluer s'il serait plus rentable ](https://go.microsoft.com/fwlink/?linkid=844053) de passer à un plan qui comprend déjà ces fonctions.
 

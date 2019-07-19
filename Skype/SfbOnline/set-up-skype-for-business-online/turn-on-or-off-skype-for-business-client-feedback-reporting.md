@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Vous pouvez permettre aux utilisateurs de Skype entreprise d’utiliser l’outil de commentaires d’applications Skype entreprise intégré pour permettre aux utilisateurs de signaler les problèmes et de fournir des commentaires directement à Microsoft sur leur utilisation.
-ms.openlocfilehash: a15ef9f8c29b98dc4012800716380e6979d2874e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d7d80110be63b60fcfa1581c806d01ab0f056077
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221813"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792666"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activer ou désactiver les commentaires client sur Skype Entreprise
 
@@ -87,7 +87,7 @@ Pour activer le rapport de commentaires pour les utilisateurs de votre organisat
     
   - [Six raisons d’utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

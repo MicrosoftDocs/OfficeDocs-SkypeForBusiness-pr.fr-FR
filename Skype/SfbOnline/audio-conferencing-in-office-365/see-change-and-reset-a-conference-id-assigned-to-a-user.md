@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment attribuer un ID de conférence à un utilisateur dans Skype entreprise Online et quels sont les paramètres d’ID de conférence. '
-ms.openlocfilehash: 884934360c8d3a627e68486189acc398c22b68f2
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35002835"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793003"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Afficher et réinitialiser un ID de conférence affecté à un utilisateur de Skype Entreprise Online
 
@@ -51,7 +51,7 @@ Vous pouvez afficher leurs ID de conférence et les envoyer aux utilisateurs.
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez au centre d’administration > **Skype entreprise**.
 
 3. Dans le **centre d'administration Skype Entreprise**> **Audioconférence** > **Utilisateurs**, sélectionnez l’utilisateur qui a besoin d'un ID de conférence.
 
@@ -79,7 +79,7 @@ Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'ou
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Sélectionnez **Centre d'administration Office 365** > **Skype Entreprise**.
+2. Accédez au centre d’administration > **Skype entreprise**.
 
 3. Dans les**** > **utilisateurs**du>  **Centre d’administration de Skype entreprise**, dans le volet action, sous **ID de conférence**, cliquez sur **Réinitialiser**.
 
@@ -113,7 +113,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell offre de nombreux avantages en matière de rapidité, de simplicité et de productivité par rapport à l'utilisation du centre d'administration Office 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d'utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Learn about these advantages in the following topics:
 
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

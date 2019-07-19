@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Résumé: pour plus d’informations sur la configuration de l’intégration entre Office Web Apps Server et Skype entreprise Server, voir présentation PowerPoint pour les conférences Web.'
-ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be69b24b2ae64763b1f9b0d324b812b60f69434
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289110"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793288"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurer l’intégration avec Office Web Apps Server dans Skype entreprise Server
  
@@ -50,7 +50,7 @@ Pour ajouter Office Web Apps Server à votre topologie, procédez comme suit :
     
    - Si le serveur Office Web Apps Server est déployé à l’extérieur de votre pare-feu interne, sélectionnez alors l’option **Le serveur Office Web Apps est déployé sur un réseau externe (périmètre/Internet)**.
     
-7. Dans la boîte de dialogue **Définir un nouveau serveur Office Web Apps**, cliquez sur **OK**. Ensuite, cliquez sur **OK** dans la boîte de dialogue **Modifier les propriétés**. L’URL de découverte d’Office Online doit alors figurer parmi les associations du pool.
+7. Dans la boîte de dialogue **définir un nouveau serveur Office Web Apps** , cliquez sur **OK**, puis sur **OK** dans la boîte de dialogue **modifier les propriétés** . L’URL de découverte est alors répertoriée en tant qu’Association du pool.
     
 Vous devez répéter ce processus pour chaque pool à associer à votre serveur Office Web Apps Server.
   

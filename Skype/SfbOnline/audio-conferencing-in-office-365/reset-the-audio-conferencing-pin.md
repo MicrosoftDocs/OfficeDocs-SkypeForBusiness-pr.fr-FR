@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et la manière de les réinitialiser dans Skype entreprise online. '
-ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299085"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792277"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence dans Skype entreprise Online
 
@@ -40,7 +40,7 @@ Meetings can be started when an authenticated user joins using the Skype for Bus
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
     
-2. Accédez au >  **Centre d’administration Office 365****Skype entreprise**, puis, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
+2. Accédez au centre d’administration > **Skype entreprise**, puis, dans le volet de navigation de gauche, cliquez sur **audioconférence**.
     
 3. Cliquez sur **utilisateurs**, sélectionnez l’utilisateur pour lequel vous souhaitez réinitialiser le code confidentiel.
     
@@ -91,7 +91,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

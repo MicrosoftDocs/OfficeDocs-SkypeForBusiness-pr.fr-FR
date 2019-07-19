@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport de pools de minutes RTC Skype entreprise pour connaître le nombre de minutes consommées lors du mois en cours au sein de votre organisation.
-ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494014"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793089"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
@@ -37,13 +37,13 @@ Consultez la [vue d’ensemble des rapports](https://support.office.com/article/
 Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des informations sur les activités au sein de votre organisation. Ces informations sont très utiles lors de l’examen, de la planification et de la création d’autres décisions commerciales pour votre organisation, ainsi que pour la configuration de [crédits de communication](/microsoftteams/what-are-communications-credits) .
   
 > [!NOTE]
-> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Comment obtenir le rapport de pools de minutes RTC Skype entreprise
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
--  > Accédez au centre d’administration du centre d' **administration Office 365****centres** > **d’administration Skype entreprise** > -**rapports sur** > les pools de**minutes RTC**.
+- Accédez au centre d’administration > **centres** > d’administration Skype entreprise-**rapports** > **** > **du centre d’administration Skype entreprise**.
     
 > [!NOTE]
 > En fonction de l’abonnement Office 365 que vous avez, vous ne verrez peut-être pas les mêmes détails. 
@@ -62,7 +62,7 @@ Voici une illustration du rapport.
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau montre une répartition des regroupements de minutes par licence (fonctionnalité) et d’emplacement d’utilisation. 
 *    **Capability** est le plan de licence/service utilisé pour l’appel. Les offres de licence/service qui peuvent figurer dans ce rapport sont les suivantes:
      * MCOPSTN1-forfait d’appels nationaux (plans 3000-minutes d’Europe/1200 minutes
-     * MCOPSTN2-national & international Calling, à partir duquel vous verrez un forfait local (3000-minute-américaine/Canada/PR, 1200-minutes Europe) et un pool international (600 minutes). Le capuchon est atteint chaque fois que la PAC nationale ou internationale est atteinte dans le cadre du mois civil. 
+     * MCOPSTN2-national & forfait d’appels internationaux à partir duquel vous verrez un forfait local (3000-minutes pour les États-Unis et le Canada/PR, 1200-minutes) et un pool international (600 minutes). Le capuchon est atteint chaque fois que la PAC nationale ou internationale est atteinte dans le cadre du mois civil. 
      * MCOPSTN5-forfait d’appels nationaux (forfait d’appels de 120 minutes)
      * MCOPSTN6-forfait d’appels nationaux (forfait d’appels de 240 minutes)
      * MCOMEETADD-audioconférence
@@ -93,7 +93,7 @@ Voici une illustration du rapport.
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    

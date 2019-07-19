@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Ce rapport, ainsi que d’autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation du service RTC au sein de votre organisation. '
-ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494004"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793013"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
@@ -32,13 +32,13 @@ Le nouveau tableau de bord des **rapports** Skype entreprise montre la vue d’e
  Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d’informations sur les rapports disponibles.
   
 > [!NOTE]
-> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Office 365. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Comment obtenir le rapport de blocage des utilisateurs Skype entreprise
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-- Accédez aux centres d’administration du**** > **** Centre > d’administration **Office 365****centres** > **d’administration de Skype entreprise** > .
+- Accédez au centre d’administration > **centres** > d’administration Skype entreprise- > **rapports** > ******du centre d’administration Skype entreprise**bloqués.
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpréter le rapport de blocage des utilisateurs Skype entreprise
 
@@ -85,7 +85,7 @@ Cela exportera les données de tous les utilisateurs et vous permettra de trier 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
    
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

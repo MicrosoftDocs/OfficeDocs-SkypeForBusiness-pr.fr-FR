@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: df46f6a8fa029936911d8cafd463e683d25b4551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298017"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793243"
 ---
 # <a name="activity-report"></a>Rapport d'activités
 
@@ -35,11 +35,11 @@ Pour plus d’informations, consultez la [vue d’ensemble des rapports](https:/
 Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des informations sur les activités au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise.
   
 > [!NOTE]
-> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur dans le centre d’administration Office 365. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur dans le centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Comment obtenir le rapport d'activité Skype Entreprise
 
-1. Accédez à l'**utilisation**des > **rapports** > du **Centre d’administration Office 365**.
+1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
 2. Sur la page **utilisation** , cliquez sur **activité Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche ou cliquez sur le widget **activité Skype entreprise** .
     
@@ -94,7 +94,7 @@ Le tableau montre une répartition de toutes les activités de conférences par 
 * **Participations-à des conférences** indique le nombre total de conférences auxquelles l'utilisateur a participé.
 * **Produit affecté** indique les produits Office 365 affectés à cet utilisateur.<br/>
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **Masquer les détails des utilisateurs dans la section rapports** dans les [rapports d’activité du centre d’administration 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Pour plus d' **informations, voir masquer les détails des utilisateurs dans la section rapports** des rapports d’activité du [Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Nombre 8](../images/sfbcallout8.png)<br/>
 Cliquez ou appuyez sur l’icône **colonnes** dans une des colonnes pour ajouter ou supprimer des colonnes dans le rapport.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
@@ -120,7 +120,7 @@ Vous pouvez également exporter les données du rapport vers un fichier Excel .c
 
     
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

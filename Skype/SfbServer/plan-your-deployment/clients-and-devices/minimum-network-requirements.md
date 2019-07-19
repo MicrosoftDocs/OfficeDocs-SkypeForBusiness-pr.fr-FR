@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Résumé: informations pour les organisations qui n’utilisent pas Office 365 et qui ont besoin d’accéder à des réunions hébergées par d’autres organisations.'
-ms.openlocfilehash: 1017c81fc3432fbd409077b89809d725b2b0e2cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 631c4b9825181300552faa387c00a1ca73097885
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277481"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792855"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Configuration réseau minimale requise pour l'application Réunions Skype
  
@@ -35,8 +35,8 @@ Les informations ci-dessous sont un sous-ensemble d' [URL et de plages d’adres
  
 |Appli |Noms de domaine complets de destination  |Adresses IP  |Ports  |
 |---|---------|---------|---------|
-|**Application Réunions Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Ces adresses IP sont régulièrement mises à jour.  Afficher les [plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) et les [plages d’adresses IP d’Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP : 3478 à 3481<br/>
-|**Teams**    | \*<span></span>. microsoft.com <br/>\*<span></span>. skype.com | Ces adresses IP sont régulièrement mises à jour.  Afficher les [plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) et les [plages d’adresses IP d’Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP : 443 <br/> UDP : 3478 à 3481
+|**Application Réunions Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*Broadcast<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Ces adresses IP sont régulièrement mises à jour.  Afficher les [plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) et les [plages d’adresses IP d’Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP : 3478 à 3481<br/>
+|**Teams**    | \*<span></span>. microsoft.com <br/>\*<span></span>. skype.com | Ces adresses IP sont régulièrement mises à jour.  Afficher les [plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) et les [plages d’adresses IP d’Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP : 443 <br/> UDP : 3478 à 3481
 
 ## <a name="see-also"></a>Voir aussi
 <a name="BKMK_Conferencing"> </a>

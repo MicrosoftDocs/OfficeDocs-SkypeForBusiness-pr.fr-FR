@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'En savoir plus sur les informations envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence rendez-vous dans Skype entreprise online. '
-ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4f1916778985012754cc436f37e76f0097dd49e9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494285"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792434"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype entreprise Online
 
@@ -152,7 +152,7 @@ Vous pouvez utiliser l’applet de cmdlet [Set-CsOnlineDialInConferencingTenantS
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Office 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

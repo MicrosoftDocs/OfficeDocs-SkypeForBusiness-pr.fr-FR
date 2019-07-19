@@ -21,19 +21,19 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: f9f24ff805cb78f0e77042d8ba180695fecf746c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7aefb714e3a27fb483bd6ff2e2d37ae15ed4a541
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290544"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793373"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant en cours de mise à jour ?
 
 La validation des adresses est une partie importante des forfaits d'appels dans Office 365. Si, pour une raison quelconque, un numéro de téléphone n’est pas activé et est répertorié comme **mise à jour** en raison de la validation de l’adresse, vous devez créer et renvoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
-1. Dans le **Centre d'administration d'Office 365**, sélectionnez **Besoin d'aide ?**
+1. Dans le centre d’administration, sélectionnez **vous avez besoin d’aide**?
 2. Dans le volet **Besoin d'aide ?**, indiquez-nous pour quel élément vous avez besoin d'aide et sélectionnez **Aide**.
 3. Si les résultats dans la section **Afficher les solutions** ne vous apportent aucune aide, sélectionnez une des options suivantes :
     - **Laissez-nous vous appeler (recommandé)**  : confirmez votre numéro de contact et appuyez sur **M'appeler**. Le temps d'attente prévu pour un rappel est indiqué dans le volet **Besoin d'aide ?**.
@@ -43,7 +43,7 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 
 1. Connectez-vous à Office 365 en tant qu'administrateur à l'aide de votre compte professionnel ou scolaire.
     
-2. Dans le Centre d'administration d'Office 365, dans le volet de navigation de gauche, cliquez sur **Support** > **Nouvelle demande de service**.
+2. Dans le centre d’administration, dans le volet de navigation de gauche, cliquez sur **prendre en charge** > une**nouvelle demande de service**.
     
 3. Sous **Demandes de service**, cliquez sur **Ajouter**.
     
@@ -93,7 +93,7 @@ La validation des adresses est une partie importante des forfaits d'appels dans 
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page **Demandes de service** du Centre d'administration d'Office 365.
+> Le numéro de référence sera répertorié dans la page **demandes de service** du centre d’administration Microsoft 365.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

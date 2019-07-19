@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Rapports, le nouveau tableau de bord d'Office 365, vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
-ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302086"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793061"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 
@@ -34,11 +34,11 @@ Consultez la [vue d’ensemble des rapports](https://support.office.com/article/
 Ce rapport, ainsi que les autres rapports Skype entreprise fournissent des informations sur les activités, y compris les détails de la session au sein de votre organisation. Ces informations sont très utiles lorsque vous effectuez des recherches, planifiez et organisez d’autres décisions professionnelles pour votre organisation et que vous configurez des [crédits de communication](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> Vous pouvez accéder à tous les rapports Skype Entreprise lorsque vous vous connectez au centre d'administration d'Office 365 en tant qu'administrateur. 
+> Vous pouvez afficher tous les rapports Skype entreprise lorsque vous vous connectez en tant qu’administrateur au centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Comment obtenir le rapport Détails de la session Skype entreprise
 
-1. Accédez aux > **rapports** du **Centre d’administration Office 365**
+1. Accédez au centre d’administration > **rapports**
     
 2. Dans le menu de gauche, sélectionnez **rapports** , puis cliquez sur **utilisation**.
     
@@ -118,7 +118,7 @@ Pour chaque session, il existe une sous-table avec différentes données disponi
 - [Rapport de pools de minutes RTC Skype entreprise](pstn-minute-pools-report.md) vous pouvez voir le nombre de minutes consommées pendant le mois en cours au sein de votre organisation.
     
 ## <a name="related-topics"></a>Voir aussi
-[Rapports d'activité dans le centre d’administration Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

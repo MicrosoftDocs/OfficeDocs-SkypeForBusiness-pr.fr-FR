@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
-ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643162"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793167"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -252,7 +252,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Connectez-vous à Microsoft 365 à l’aide de votre compte professionnel ou scolaire.
 
-2. Dans la navigation de gauche du centre d’administration Office 365, accédez à la **facturation** > **abonnements** > **modules complémentaires** > **acheter des modules complémentaires**, puis choisissez **Crédits Communications** > **Acheter maintenant**.
+2. Dans le volet de navigation de gauche du centre d’administration, accédez à**abonnements** > de **facturation** > **-modules** > complémentaires**acheter des modules complémentaires**, puis cliquez sur crédits > de **communication****acheter maintenant**.
 
 3. Dans la page d’abonnement **Communications crédits** , renseignez vos informations, puis cliquez sur **suivant**.
 
