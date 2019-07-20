@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652745"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804760"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -117,3 +117,4 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 - [Permettre le travail d’équipe avec Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Spécialiste de l’Adoption de Service Microsoft](https://aka.ms/AdoptionCert)
+- [Équipes dans 30 formations interactives](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
