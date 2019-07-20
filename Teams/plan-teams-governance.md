@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10fb80667a957ac4f4a7d9e25713a9232129b0b7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a7022c700d2b7448625bb9ab627d1b77d780b50e
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344379"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804864"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
@@ -62,11 +62,11 @@ Votre organisation peut nécessiter l’implémentation de contrôles stricts su
 
 Après avoir déterminé vos exigences, vous pouvez les implémenter à l’aide des contrôles Azure AD. Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir:
 
--   [Applets de contrôle Azure Active Directory pour la configuration des paramètres de groupe](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Applets de contrôle Azure Active Directory pour la configuration des paramètres de groupe](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
--   [Appliquez une stratégie d’appellation pour les groupes Office 365 dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Appliquez une stratégie d’appellation pour les groupes Office 365 dans Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
 
--   [Stratégie d’attribution de noms de groupes Office 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Stratégie d’attribution de noms de groupes Office 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiration de groupe et d’équipe, rétention et archivage
@@ -84,7 +84,7 @@ Votre organisation a peut-être besoin d’exigences supplémentaires pour défi
 |Faculté |Détails |Licence Azure AD Premium requise |Décision |
 |---------|---------|---------|---------|
 |Stratégie d’expiration |Pour gérer le cycle de vie des groupes Office 365, définissez une stratégie d’expiration. |Envoyé |DÉFINIR|
-|Stratégie de rétention |Conserver ou supprimer des données pour une période spécifique en définissant des stratégies de rétention pour les équipes dans le centre de sécurité & Compliance Center. **Remarque**: l’utilisation de cette fonctionnalité nécessite une licence d’Office 365 entreprise E3 ou une version ultérieure. |Non |DÉFINIR |
+|Stratégie de rétention |Conserver ou supprimer des données pour une période spécifique en définissant des stratégies de rétention pour les équipes dans le centre de sécurité & conformité. **Remarque**: l’utilisation de cette fonctionnalité nécessite une licence d’Office 365 entreprise E3 ou une version ultérieure. |Non |DÉFINIR |
 |Archiver et restaurer |Archivez une équipe lorsque celle-ci n’est plus active mais que vous souhaitez la conserver pour référence ou pour la réactiver ultérieurement. |Non |DÉFINIR |
 
 > [!Note]
@@ -94,11 +94,11 @@ Votre organisation a peut-être besoin d’exigences supplémentaires pour défi
 
 Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir:
 
--   [Configurer l’expiration des groupes Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurer l’expiration des groupes Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Configurez les stratégies](retention-policies.md)de rétention Teams.
+- [Configurez les stratégies](retention-policies.md)de rétention Teams.
 
--   [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 
 ## <a name="teams-feature-management"></a>Gestion des fonctionnalités de teams
@@ -117,10 +117,12 @@ Teams fournit des fonctionnalités granulaires pour contrôler les fonctionnalit
 
 Pour obtenir la liste détaillée de tous les paramètres, y compris des recommandations techniques sur la manière de les implémenter dans votre organisation, consultez les articles suivants:
 
--   [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
--   [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
--   [Gérer les stratégies de réunion dans teams](meeting-policies-in-teams.md)
+- [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
+- [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Gérer les stratégies de réunion dans teams](meeting-policies-in-teams.md)
+- [Gérer les stratégies de messagerie dans Teams](messaging-policies-in-teams.md)
 
+Par ailleurs, vous pouvez configurer la modération d’un canal et fournir des fonctionnalités de modérateur à certains utilisateurs afin qu’ils puissent contrôler qui peut créer des billets de canal et y répondre. Pour plus d’informations, reportez-vous à la rubrique [configurer et gérer la modération de canal dans Microsoft teams](manage-channel-moderation-in-teams.md) .
 
 ## <a name="security-and-compliance"></a>Sécurité et conformité
 
