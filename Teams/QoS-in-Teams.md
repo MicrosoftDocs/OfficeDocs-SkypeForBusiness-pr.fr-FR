@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222037"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818175"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -37,7 +37,7 @@ Sans la qualité de service (QoS), vous risquez de rencontrer les problèmes de 
 
 Le moyen le plus complexe de traiter ces problèmes consiste à augmenter la taille des connexions de données, à la fois en interne et hors Internet. Étant donné qu’il s’agit souvent de coûts, la fonction QoS fournit un moyen de gérer plus efficacement les ressources que vous avez au lieu d’ajouter de nouvelles ressources. Pour résoudre les problèmes de qualité d’utilisation de la qualité de service (QoS) sur l’ensemble de l’implémentation, ajoutez une connectivité uniquement si nécessaire.
 
-Pour que la qualité de service (QoS) s’applique, vous devez appliquer des paramètres de QoS cohérents à la fin de votre organisation (y compris tous les PC d’utilisateur, commutateurs réseau et routeurs vers Internet), car les éventuelles parties du chemin qui ne prend pas en charge les priorités de QoS peuvent dégrader qualité des appels, des vidéos et des partages d’écran.
+Pour que la qualité de service (QoS) s’applique, vous devez appliquer des paramètres de QoS cohérents au sein de votre organisation, car une partie du chemin d’accès qui ne prend pas en charge les priorités de QoS peut nuire à la qualité des appels, de la vidéo et des partages d’écran. Cela inclut l’application de paramètres à tous les PC ou appareils utilisateur, commutateurs réseau, routeurs vers Internet et service en ligne Teams.
 
 _Figure 1. Relation entre les réseaux d’une organisation et les services 365 Office_
 

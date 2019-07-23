@@ -18,41 +18,41 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643170"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818215"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
-Un compte de ressource est également connu sous le nom d’objet utilisateur désactivé dans Azure Active Directory et peut être utilisé pour représenter des ressources en général. Dans Exchange, il peut être utilisé pour représenter des salles de conférence, par exemple, et leur permettre d’avoir un numéro de téléphone. Un compte de ressource peut être hébergé dans Microsoft 365 ou sur site à l’aide de Skype entreprise Server 2019.
+Un compte de ressource est également connu sous le nom d' *objet utilisateur désactivé* dans Azure Active Directory et peut être utilisé pour représenter des ressources en général. Dans Exchange, il peut être utilisé pour représenter des salles de conférence, par exemple, et leur permettre d’avoir un numéro de téléphone. Un compte de ressource peut être hébergé dans Microsoft 365 ou sur site à l’aide de Skype entreprise Server 2019.
 
-Dans Microsoft teams ou Skype entreprise Online, chaque file d’attente d’appels ou standard automatique est requis pour disposer d’un compte de ressources associé. La nécessité d’utiliser un numéro de téléphone pour un compte de ressources dépend de la façon dont vous souhaitez utiliser la file d’attente d’appels ou le standard automatique associé. Pour attribuer un numéro de téléphone à un compte de ressources, voir les articles sur les files d’attente d’appels et les standards automatiques liés au bas de cet article.
+Dans Microsoft teams ou Skype entreprise Online, chaque file d’attente d’appels du système téléphonique ou le standard automatique est requis pour disposer d’un compte de ressources associé. La nécessité d’utiliser un numéro de téléphone pour un compte de ressources dépend de la façon dont vous souhaitez utiliser la file d’attente d’appels ou le standard automatique associé. Pour attribuer un numéro de téléphone à un compte de ressources, voir les articles sur les files d’attente d’appels et les standards automatiques liés au bas de cet article.
 
 > [!NOTE]
 > Cet article s’applique à Microsoft teams et à Skype entreprise online. Pour les comptes de ressources hébergés sur Skype entreprise Server 2019, voir [configurer les comptes de ressources](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
+
 ## <a name="overview"></a>Vue d’ensemble
 
-Si le service de votre système téléphonique nécessite un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant:
+En supposant que votre organisation utilise au moins une licence de système téléphonique, l’affectation d’un service de système téléphonique à un numéro de téléphone nécessite une adresse aux différentes dépendances dans l’ordre suivant:
 
 1. Obtenez un numéro de service.
-2. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doivent être associés à un compte de ressources associé.
-3. Obtenez un système téléphonique ou une licence utilisateur virtuelle de système téléphonique.
-4. Achetez un forfait d’appels nationaux ou internationaux.
-5. Attribuez le système téléphonique ou une licence utilisateur virtuel du système téléphonique au compte de ressources.
-6. Attribuez une licence de plan d’appel au compte de ressource.
-7. Attribuez une licence de crédits de communication au compte de ressource.
-8. Configurez des crédits de communication et configurez la recharge automatique pour votre organisation.
-9. Affectez un numéro de téléphone de service au compte de ressource auquel vous venez d’affecter des licences.
-10. Créer un service de système téléphonique (une file d’attente d’appels ou un standard automatique).
-11. Associez le compte de ressources à un service.
+2. Obtenez une licence d' [utilisateur virtuel](teams-add-on-licensing/virtual-user.md) de système téléphonique ou une licence de système téléphonique classique à utiliser avec le compte de ressource.
+3. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doivent être associés à un compte de ressources associé.
+4. Attribuez le système téléphonique ou une licence utilisateur virtuel du système téléphonique au compte de ressources.
+5. Affectez un numéro de téléphone de service au compte de ressource auquel vous venez d’affecter des licences.
+6. Créer un service de système téléphonique (une file d’attente d’appels ou un standard automatique).
+7. Associez le compte de ressources à un service.
 
 Si le standard automatique ou la file d’attente d’appels est imbriquée sous un standard automatique de niveau supérieur, le compte de ressources associé a uniquement besoin d’un numéro de téléphone si vous voulez que plusieurs points d’entrée soient présents dans la structure des standards automatiques et des files d’attente d’appels.
 
 Pour rediriger les appels vers des utilisateurs de votre organisation qui sont hébergés en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer de plans d’appel Office 365. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+
+> [!WARNING]
+> Afin d’éviter les problèmes liés au compte de ressources, procédez comme suit dans cet ordre.
 
 Si le service de système téléphonique que vous créez est imbriqué et ne nécessite pas de numéro de téléphone, le processus est le suivant:
 
@@ -70,18 +70,16 @@ Pour créer un compte de ressource qui utilise un numéro de téléphone, vous d
 
    Si vous affectez un numéro de téléphone à un compte de ressources, vous pouvez désormais utiliser la licence utilisateur virtuel du système téléphonique sans frais. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation, et vous permet de créer des capacités de mise en file d’attente et de standard automatique.
 
-2. Créer un compte de ressource. Voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell)
-3. Obtenez un système téléphonique ou une licence utilisateur virtuelle de système téléphonique. Dans le centre d’administration Microsoft 365, accédez **** > à la section abonnements au**composant additionnel**  > **services d’achat**de facturation et faites défiler jusqu’à la fin. Sélectionnez **acheter maintenant**.
-4. Achetez un [forfait d’appels](calling-plans-for-office-365.md)nationaux ou internationaux.
-5. Affectez la licence du système téléphonique au compte de ressource. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-6. Attribuez une licence de plan d’appel au compte de ressource. Pour plus d’informations, voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) .
-7. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
-8. Configurez des crédits de communication et configurez la recharge automatique pour votre organisation. [Attribuez une licence de crédits de communication](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) au compte de ressource.
-9. [Affectez un numéro de téléphone de service](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge) au compte de ressource auquel vous venez d’affecter des licences. 
-10. Configurez l’une des options suivantes:
+2. Obtenez une licence d’utilisateur virtuel de système téléphonique ou une licence de système téléphonique classique. 
+
+   Pour obtenir la licence virtuelle, à partir du centre d’administration 365 de Microsoft **** > , accédez à la section abonnements au**composant additionnel**  > **services d’achat**de facturation et faites défiler jusqu’à la fin. Sélectionnez **acheter maintenant**. Il y a un coût zéro, mais vous devez toujours suivre ces étapes pour acquérir la licence.
+3. Créer un compte de ressource. Voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell)
+4. Attribuez une licence de l' [utilisateur virtuel](teams-add-on-licensing/virtual-user.md) ou du système téléphonique au compte de ressources. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md) et [affecter des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Attribuez le numéro de service au compte de ressource. Voir [affecter/retirer des numéros de téléphone et des services](#assignunassign-phone-numbers-and-services).
+6. Configurez l’une des options suivantes:
    - [Standard automatique Cloud](create-a-phone-system-auto-attendant.md)
    - [File d’attente d’appels Cloud](create-a-phone-system-call-queue.md)
-11. Liez le compte de ressources au standard automatique ou à la file d’attente d’appels. Voir [affectation/désaffectation de numéros de téléphone et services](#assignunassign-phone-numbers-and-services)
+7. Liez le compte de ressources au standard automatique ou à la file d’attente d’appels. Voir [affectation/désaffectation de numéros de téléphone et services](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Créer un compte de ressources sans numéro de téléphone
 
@@ -119,9 +117,16 @@ Ensuite, appliquez une licence au compte de ressources dans le centre d’admini
 Pour affecter un routage direct ou un numéro hybride à un compte de ressource, vous devez utiliser PowerShell, reportez-vous à la section suivante.
 
 > [!IMPORTANT]
-> Si votre client ne dispose pas d’une licence de système téléphonique, un échec de vérification interne entraîne un échec lorsque vous tentez d’affecter le numéro de téléphone au compte de ressource. Vous ne pourrez pas affecter le numéro ou associer le compte de ressources à un service.
+> Si votre compte de ressource ne dispose pas d’une licence de système téléphonique ou d’utilisateur virtuel, un échec de vérification interne entraîne un échec lorsque vous tentez d’affecter le numéro de téléphone au compte de ressource. Vous ne pourrez pas affecter le numéro ou associer le compte de ressources à un service.
 
 ![Capture d’écran des options d’attribution/de désaffectation](media/r-a-assign.png)
+
+## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Modifier un compte de ressource existant pour utiliser une licence utilisateur virtuel
+
+Si vous décidez de basculer entre les licences sur votre compte de ressources existant d’une licence de système téléphonique vers une licence utilisateur virtuel, vous devez acquérir la licence utilisateur virtuel gratuite, puis suivre les étapes liées dans le centre d’administration Microsoft 365 pour [déplacer des utilisateurs vers un abonnement différent](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+
+> [!WARNING]
+> Supprimez toujours une licence de système téléphonique complet et attribuez-la à la licence utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressources risque de ne plus fonctionner comme prévu. Si tel est le cas, nous vous recommandons de créer un compte de ressources pour la licence d’utilisateur virtuel et de supprimer le compte de ressource endommagé. 
 
 ## <a name="create-a-resource-account-in-powershell"></a>Créer un compte de ressources dans PowerShell
 
@@ -198,6 +203,7 @@ Si l’attribut Service affiche le point de terminaison d’une application Skyp
 ``` Powershell
 Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
 ```
+
 > [!NOTE]
 > Actualisez la page Web du centre d’administration teams après avoir exécuté le cmldet et vous devriez pouvoir affecter le numéro correctement.
 
@@ -205,20 +211,25 @@ Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instanc
 
 Pour les implémentations hybrides avec Skype entreprise Server, procédez comme suit:
 
-[Planifier les standards automatiques cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+   [Planifier les standards automatiques cloud](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+  
+   [Planifier les files d’attente d’appels cloud](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   
+   [Configurer les comptes de ressources hébergé](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
 
-[Configurer des standards automatiques cloud](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Pour les implémentations dans teams ou Skype entreprise Online:
 
-[Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
+   [Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
 
-[Configurer un standard automatique dans le cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Configurer un standard automatique dans le cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Exemple de petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa)
+   [Exemple de petite entreprise : configurer un standard automatique](/microsoftteams/tutorial-org-aa)
 
-[Créer une file d’attente d’appels cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+   [Créer une file d’attente d’appels cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nouveau-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [Nouveau-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[Licence utilisateur virtuel](teams-add-on-licensing/virtual-user.md)
