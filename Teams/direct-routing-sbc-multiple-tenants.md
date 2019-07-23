@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062394"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821069"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -114,7 +114,7 @@ Pour plus d’informations sur les rôles d’administrateur et comment attribue
 1.  Dans le centre d’administration Microsoft 365, accédez à **configuration** > des**domaines** > **Ajouter un domaine**.
 2.  Dans la zone **Entrez un domaine que vous possédez** , tapez le nom de domaine complet (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *Customers.adatum.biz*.
 
-    ! [Capture d’écran montrant la page Ajouter un domaine]] (Media/direct-Routing-2-SBC-Add-Domain. png)
+    ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
 
 3. Cliquez sur **Suivant**.
 4. Dans l’exemple, le locataire a déjà adatum.biz comme nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, car customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un nom de domaine complet (FQDN) qui n’a pas été vérifié auparavant, vous devez suivre le processus de vérification. Le processus de vérification est [décrit ci-dessous](#add-a-subdomain-to-the-customer-tenant-and-verify-it).

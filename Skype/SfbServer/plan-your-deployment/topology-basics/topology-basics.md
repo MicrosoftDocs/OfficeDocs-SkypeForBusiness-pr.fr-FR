@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Résumé: choisissez votre topologie pour Skype entreprise Server. En savoir plus sur la colocalisation du serveur pour Skype entreprise Server.'
-ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418010"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820991"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Notions de base de la topologie pour Skype entreprise Server
 
@@ -238,8 +238,8 @@ Il s’agit de la zone présentant de véritables différences entre les déploi
 
 Dans la mesure où SQL Server Express est colocalisé sur le serveur Standard Edition Server et ne peut pas être déplacé, c’est vraiment simple. Par ailleurs, si vous déployez le serveur de chat permanent sur un serveur Standard Edition Server, vous pouvez également collocate la conversation permanente et la base de données de conformité de la conversation permanente sur le serveur Standard Edition Server, mais ce n’est pas le cas.
 
-    > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+> [!NOTE]
+> La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015.
 
 Celles-ci ne peuvent pas être colocalisées sur le serveur Standard Edition Server, mais peuvent se trouver sur un serveur de base de données unique:
 
@@ -289,7 +289,7 @@ Le partage de fichier peut être sur un serveur distinct ou colocalisé sur le m
 - Base de données de compatibilité des conversations permanentes
 
 > [!CAUTION]
-> Notez que même si vous pouvez colocaliser le partage de fichiers sur ces serveurs, il est primordial de comprendre que cela n’est pas recommandé. Si vous souhaitez colocaliser le partage de fichiers avec un autre rôle de serveur, veillez à surveiller régulièrement l’espace disque ou les problèmes de performances.
+> Notez que même si vous pouvez colocaliser le partage de fichiers sur ces serveurs, il est primordial de comprendre que cela n’est pas recommandé. Si vous êtes collocating du partage de fichiers avec n’importe quel autre rôle de serveur, assurez-vous de surveiller régulièrement l’espace disque et les problèmes de performances.
 
 ### <a name="keep-in-mind"></a>À retenir :
 

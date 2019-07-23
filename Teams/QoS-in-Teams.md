@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818175"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820984"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -43,7 +43,7 @@ _Figure 1. Relation entre les réseaux d’une organisation et les services 365 
 
 ![Illustration de la relation entre les réseaux et les services] (media/Qos-in-Teams-Image1.png "Relation entre les réseaux d’une organisation et les services 365 Office: le réseau local et les appareils se connectent à un réseau d’interconnexion, qui à son tour est connecté aux services d’audioconférence et de voix sur le Cloud Office 365.")
 
-Dans la plupart des cas, le réseau qui se connecte à votre entreprise avec le Cloud sera un réseau non géré dans lequel vous ne pourrez pas définir de manière fiable les options de QoS. L’un des choix disponibles pour l’adresse QoS de bout en bout est [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mais nous vous recommandons de mettre en œuvre la qualité de service (QoS) sur votre réseau local. Cela permettra d’augmenter la qualité des charges de travail de communication en temps réel pendant votre déploiement et de soulager chokepoints.
+Dans la plupart des cas, le réseau qui se connecte à votre entreprise avec le Cloud sera un réseau non géré dans lequel vous ne pourrez pas définir de manière fiable les options de QoS. L’un des choix disponibles pour l’adresse QoS de bout en bout est [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mais nous vous recommandons tout de même d’implémenter QoS sur votre réseau local pour le trafic entrant et sortant. Cela permettra d’augmenter la qualité des charges de travail de communication en temps réel pendant votre déploiement et de soulager chokepoints.
 
 ## <a name="verify-your-network-is-ready"></a>Vérifier que votre réseau est prêt
 
