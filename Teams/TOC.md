@@ -24,6 +24,7 @@
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
 ## [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
+## [Configurer la modération des canaux dans teams](manage-channel-moderation-in-teams.md)
 ## [Partage de fichiers dans Teams](sharing-files-in-teams.md)
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Présence des utilisateurs dans Teams](presence-admins.md)
@@ -41,7 +42,8 @@
 ### [Utiliser les connecteurs Office 365 et personnalisés](Office-365-custom-connectors.md)
 ### [Publier des applications dans le catalogue d’applications de locataire Teams](tenant-apps-catalog-teams.md)
 ### [Certification des applications](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurer l’Application Réunions Skype pour fonctionner avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 ## Accès invité
@@ -757,6 +759,7 @@
 ### [Gérer l’offre de version d’évaluation Teams Commercial](iw-trial-teams.md)
 ### [Mettre à niveau la version gratuite de Teams vers la version avec abonnement Microsoft 365](upgrade-freemium.md)
 ### [Gestion des licences des stratégies de messagerie](teams-add-on-licensing/pri-message.md)
+### [Licence utilisateur virtuel](teams-add-on-licensing/virtual-user.md)
 
 
 ## Interopérabilité avec Office 365
