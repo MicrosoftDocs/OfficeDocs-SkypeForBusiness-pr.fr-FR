@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 9ad965c4979345b41f257507cb172b4e564f28cf
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133906"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804800"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -42,7 +41,7 @@ Avant de déployer Teams dans votre organisation, prenez le temps de confirmer q
 
 |Posez-vous la question|Action |
 |------------|-------|
-|Mon organisation est-elle prête à mettre en place Teams ?|Pour répondre à cette question, voir : <ul><li> [Vérifier la préparation de votre environnement pour Microsoft Teams](environment-readiness.md)</li><li>[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)</li><li>[URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planifier les groupes Office 365 lors de la création d'équipes](plan-office-365-groups.md)|
+|Mon organisation est-elle prête à mettre en place Teams ?|Pour répondre à cette question, voir : <ul><li> [Vérifier la préparation de votre environnement pour Microsoft Teams](environment-readiness.md)</li><li>[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)</li><li>[URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planifier les groupes Office 365 lors de la création d'équipes](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
@@ -51,7 +50,7 @@ Voici les paramètres de chat, d’équipe et de canaux que la plupart des organ
 
 ### <a name="teams-administrators"></a>Administrateurs Teams
 
-Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent servir à gérer des équipes pour votre organisation. Ces rôles fournissent plusieurs fonctionnalités aux administrateurs. 
+Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent servir à gérer des équipes pour votre organisation. Ces rôles fournissent plusieurs fonctionnalités aux administrateurs.
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -60,13 +59,23 @@ Teams fournit un ensemble de rôles d’administrateur personnalisé qui peuvent
 |Qui va assumer le rôle de spécialiste d’assistance des Communications Teams ?||
 |||
 
+### <a name="teams-owners-and-members"></a>Propriétaires d’équipes et membres
+
+En plus des rôles d’administrateur, Teams vous permet d’attribuer des rôles propriétaire et utilisateur, et de les attribuer de façon sélective (si la modération est configurée) pour contrôler qui peut effectuer certaines actions au sein d’un canal. La modération vous permet de contrôler qui peut commencer de nouvelles publications dans un canal, d’ajouter et de supprimer des membres de l’équipe comme modérateurs, et de contrôler si les membres d’une équipe peuvent répondre aux messages de canaux existants.
+
+|Posez-vous la question|Action |
+|------------|-------|
+|Qui doit être affecté à chaque rôle ? | Pour comparer les fonctionnalités de chaque rôle, voir [attribuer des propriétaires d’équipes, des modérateurs et des membres dans Microsoft Teams](assign-roles-permissions.md).
+|Comment affecter un rôle d’utilisateur ? | Pour attribuer ou modifier un rôle, voir [attribuer un rôle d’utilisateur](assign-roles-permissions.md#assign-a-user-role).
+|Ai-je besoin de contrôler qui peut publier et répondre à un canal ? | Pour configurer la modération, voir[Configurer et gérer la modération des canaux dans Microsoft Teams](manage-channel-moderation-in-teams.md).
+
 ### <a name="messaging-policies"></a>Stratégies de messagerie
 
 Les stratégies de messagerie contrôlent les fonctionnalités de conversation et de canal qui seront mis à disposition des utilisateurs dans Teams. Par exemple, qui peut modifier et supprimer des messages envoyés, qui peuvent utiliser le chat, qui peut utiliser des mèmes dans les conversations et bien plus encore. Par défaut, les stratégie de messagerie générales sont affectées aux utilisateurs et toutes les fonctionnalités sont **activées**. Vous pouvez utiliser la stratégie générale par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour certaines personnes qui hébergent des réunions dans votre organisation. 
 
 |Posez-vous la question|Action |
 |------------|-------|
-|Est-ce que je vais personnaliser la stratégie générale de messagerie ?|Pour plus d’informations sur l’utilisation du centre d’administration de Microsoft Teams pour modifier la stratégie générale de messagerie ou ajouter une nouvelle stratégie, voir [Quelles sont les stratégies de messagerie dans Teams ?](messaging-policies-in-teams.md).|
+|Est-ce que je vais personnaliser la stratégie générale de messagerie ?|Pour plus d’informations sur l’utilisation du centre d’administration de Microsoft Teams pour modifier la stratégie générale de messagerie ou ajouter une nouvelle stratégie, voir [Gérer les stratégies de messagerie dans Teams](messaging-policies-in-teams.md).|
 |Est-ce que j’ai besoin de plusieurs stratégies de messagerie ?|Pour créer et attribuer une stratégie de messagerie dans PowerShell, voir [Exemple de script PowerShell : créer et attribuer une stratégie de messagerie](scripts/powershell-script-teams-messaging-policy-edu.md).|
 |Comment déterminer quelles stratégies de réunion sont appliqués à quels groupes d’utilisateurs?|Pour en savoir plus sur les applets de commande CsTeamsMessagingPolicy, voir [Paramétrage de CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 
