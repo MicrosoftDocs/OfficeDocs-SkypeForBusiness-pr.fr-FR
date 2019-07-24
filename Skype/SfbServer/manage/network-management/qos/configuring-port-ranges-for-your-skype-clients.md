@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cet article décrit la configuration des plages de port pour vos clients et la configuration des stratégies de qualité de service dans Skype entreprise Server pour les clients exécutant Windows 10.
-ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204013"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841468"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuration de plages de ports et d’une politique de qualité de service pour vos clients dans Skype entreprise Server
 
@@ -221,7 +221,7 @@ Pour une stratégie de transfert de fichiers:
 
 Les nouvelles stratégies que vous avez créées ne sont pas prises en compte tant que la stratégie de groupe n’a pas été actualisée sur les ordinateurs clients. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en exécutant la commande suivante sur chaque ordinateur dans lequel la stratégie de groupe doit être actualisée:
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 Vous pouvez exécuter cette commande à partir de n’importe quelle fenêtre de commande exécutée sous informations d’identification d’administrateur. Pour exécuter une fenêtre de commande sous informations d’identification d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **invite de commandes**, puis cliquez sur **exécuter en tant qu’administrateur**.
 
