@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e0c17089416315500baba4b42950008ab54946e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218037"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768139"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
@@ -94,6 +94,15 @@ Vous pouvez utiliser les rapports d’activité pour voir comment les utilisateu
 | Posez-vous la question | Action |
 |--------------|--------|
 | <br>Qui a besoin de voir les rapports d’activité et est-ce qu’ils disposent des autorisations appropriées pour les afficher ? |<ul><li>Si vous ne voulez pas attribuer un rôle d’administrateur à un utilisateur, vous pouvez lui [attribuer le rôle de lecteur de rapports](teams-activity-reports.md#reports-reader-role).</li><li>Voir [Rôles et autorisations](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) et [Afficher et attribuer des rôles](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) pour plus d’informations sur comment attribuer des rôles d’administrateur dans Azure Active Directory.</li></ul> |
+|||
+
+### <a name="app-templates"></a>Modèles d’application
+
+Les modèles d’application sont des applications Microsoft Teams prêtes pour la production qui sont impulsées par la communauté, open source et disponibles sur GitHub. Chacune contient des instructions détaillées de déploiement et d’installation pour votre organisation, offrant ainsi une application prête à l’emploi installable et utilisable immédiatement. Le code source complet est également disponible, de sorte que vous pouvez l’explorer en détail ou répliquer le code et le modifier en fonction de vos besoins spécifiques.
+
+| Posez-vous la question | Action |
+|--------------|--------|
+| Est-ce que je veux installer des modèles d’applications Teams, tels que Icebreaker ? |Pour en savoir plus, lisez [Modèles d’application pour Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
 |||
 
 
