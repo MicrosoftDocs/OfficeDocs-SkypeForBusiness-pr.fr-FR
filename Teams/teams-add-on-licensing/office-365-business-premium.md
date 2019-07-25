@@ -18,35 +18,35 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Office 365 Business Premium. '
-ms.openlocfilehash: 2e8c580237bb61160906d1fadd511815741d8984
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: db7b9ef81fa56f74ea678834fca1f8a65e434095
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298570"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861846"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Si vous avez [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
 
-**Deux options s'offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
+**Trois options s’offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
 
 - **Option 1**. Utilisez l' [application gratuite teams](https://products.office.com/microsoft-teams/free). S’il s’agit d’une petite entreprise (par exemple, 1-2), il est préférable d’utiliser l’application Teams. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours passer des appels audio et vidéo 1:1 et de groupe et partager votre bureau pour des présentations. [Comparer les fonctions, les tarifs et les options de paiement](https://products.office.com/microsoft-teams/free).
 
-     Nous vous recommandons de commencer par teams gratuitement pour voir s’il répond à vos besoins. Si ce n'est pas le cas, l'option suivante vous permettra de mettre à niveau votre plan.
+     Nous vous recommandons de commencer par teams gratuitement pour voir s’il répond à vos besoins. Toutefois, si vous n’avez pas encore deux options.
 
-- **Option 2. Mettez à niveau votre forfait et acheter un Système téléphonique et un forfait d'appels local ou national**.
-
-    > [!Important]
-    > Même si teams est inclus dans l’abonnement Office Business Premium, vous ne pouvez pas ajouter de fonctionnalités d’appel vocal Cloud. Ainsi, nous vous conseillons de considérer un forfait d’entreprise E5 (ou entreprise E3) pour voir s’il ne serait pas plus rentable.
+- **Option 2. Gardez votre plan et achetez un système téléphonique et un plan d’appels nationaux ou internationaux**.
+    1. Acheter le module complémentaire Système téléphonique.
+    
+    2. Acheter un [plan d’appel pour Office 365](../calling-plans-for-office-365.md) -vous pouvez l’acheter uniquement après l’acquisition du complément de votre système téléphonique.
+    
+- **Option 3. Mettez à niveau votre plan et achetez un système téléphonique et un plan d’appels nationaux ou internationaux**.
 
     1. [Basculer vers une autre offre Office 365 pour les entreprises](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Nous vous conseillons de considérer un forfait d’entreprise E5 pour voir s’il ne serait pas plus rentable.
 
-    2. Acheter le module complémentaire Système téléphonique.
+    2. Si vous décidez d’acheter une licence entreprise E5, celle-ci inclut une licence de système téléphonique. Si vous utilisez une licence entreprise E1 ou E3 ou un Office 365 Business Essentials ou Office 365 Business Premium licsense, vous devez acheter le module complémentaire système téléphonique.
     
     3. Acheter un [plan d’appel pour Office 365](../calling-plans-for-office-365.md): vous pouvez l’acheter uniquement après l’acquisition du complément de votre système téléphonique.
-    
-    Cette option est idéale pour les entreprises où quelques personnes passent et reçoivent des appels téléphoniques extérieurs.
 
 ## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
 <a name="bkmk_buypremium"> </a>

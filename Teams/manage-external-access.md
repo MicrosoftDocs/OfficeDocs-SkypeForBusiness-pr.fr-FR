@@ -17,12 +17,12 @@ description: Votre administrateur informatique peut configurer l’accès extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dc8d737ada80e6cd7e62e795e820e47246c29715
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 406805760829c2246f47fe9641606eea5b0eadc2
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841461"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861871"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================
@@ -109,9 +109,9 @@ Pour plus d’informations sur la version gratuite de teams et son fonctionnemen
 
 L’accès externe permet aux équipes et aux utilisateurs Skype entreprise de communiquer avec d’autres utilisateurs en dehors de votre organisation. Par défaut, votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines seront autorisés, mais si vous ajoutez des domaines autorisés, tous les autres domaines seront bloqués. Vous pouvez facilement configurer l’accès externe pour votre organisation. Il existe trois scénarios pour la configuration:
 
-- **Scénario 1** -vous pouvez utiliser la **Fédération ouverte**. Il s’agit du paramètre par défaut, qui permet aux membres de votre organisation de rechercher, appeler et envoyer des messages instantanés, ainsi que de configurer des réunions avec des personnes extérieures à votre organisation.
+- **Scénario 1** -vous pouvez utiliser la **Fédération ouverte**. Il s’agit du paramètre par défaut, qui permet aux membres de votre organisation de rechercher, appeler et envoyer des messages instantanés et des discussions, ainsi que de configurer des réunions avec des personnes extérieures à votre organisation.
 
-    Lorsque vous utilisez cette configuration, vos utilisateurs peuvent communiquer avec tous les domaines externes exécutant Teams, mais ils ont configuré leur domaine/Organisation pour autoriser votre domaine.
+    Lorsque vous utilisez cette configuration, vos utilisateurs peuvent communiquer avec tous les domaines externes exécutant teams ou Skype entreprise et utilisant la Fédération d’ouverture ou avoir ajouté votre domaine à la liste verte.
 
 - **Scénario 2** -vous pouvez ajouter un ou des domaines à la liste **verte** . Pour cela, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **action à entreprendre sur ce domaine**, puis sélectionnez **autorisé**. Il est important de savoir que, si vous procédez ainsi **** , tous les autres domaines sont bloqués.
 

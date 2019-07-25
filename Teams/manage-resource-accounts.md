@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841476"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861894"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -39,15 +39,17 @@ Dans Microsoft teams ou Skype entreprise Online, chaque file d’attente d’app
 
 ## <a name="overview"></a>Vue d’ensemble
 
-En supposant que votre organisation utilise déjà au moins une licence de système téléphonique, pour affecter un service de système téléphonique à un numéro de téléphone, vous devez traiter les différentes dépendances dans l’ordre suivant:
+En supposant que votre organisation utilise déjà au moins une licence de système téléphonique, pour affecter une file d’attente d’appels ou un standard automatique à un numéro de téléphone, vous devez traiter les différentes dépendances dans l’ordre suivant:
 
 1. Obtenez un numéro de service.
 2. Procurez-vous un système [](teams-add-on-licensing/virtual-user.md) téléphonique gratuit, ou une licence de système téléphonique payant à utiliser avec le compte de ressources.
 3. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doivent être associés à un compte de ressources associé.
 4. Attribuez le système téléphonique ou un système téléphonique-licence utilisateur virtuel au compte de ressources.
-5. Affectez un numéro de téléphone de service au compte de ressource auquel vous venez d’affecter des licences.
-6. Créer un service de système téléphonique (une file d’attente d’appels ou un standard automatique).
-7. Associez le compte de ressources à un service.
+5. Affectez un numéro de téléphone de service au compte de ressource auquel vous venez d’affecter des licences. 
+6. Créer une file d’attente des appels du système téléphonique ou un standard automatique
+7. Liez le compte de ressource avec une file d’attente d’appels ou un standard automatique.
+
+
 
 Si le standard automatique ou la file d’attente d’appels est imbriquée sous un standard automatique de niveau supérieur, le compte de ressources associé a uniquement besoin d’un numéro de téléphone si vous voulez que plusieurs points d’entrée soient présents dans la structure des standards automatiques et des files d’attente d’appels.
 
@@ -56,11 +58,11 @@ Pour rediriger les appels vers des utilisateurs de votre organisation qui sont h
 > [!WARNING]
 > Afin d’éviter les problèmes liés au compte de ressources, procédez comme suit dans cet ordre.
 
-Si le service de système téléphonique que vous créez est imbriqué et ne nécessite pas de numéro de téléphone, le processus est le suivant:
+Si la file d’attente d’appels du système téléphonique ou le standard automatique que vous créez est imbriqué et qu’il n’est pas nécessaire de composer un numéro de téléphone, le processus est le suivant:
 
 1. Créer le compte de ressources  
-2. Créer un service de système téléphonique
-3. Associer le compte de ressource à un service de système téléphonique
+2. Créer une file d’attente des appels du système téléphonique ou un standard automatique
+3. Associez le compte de ressource à une file d’attente d’appels du système téléphonique ou un standard automatique
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>Créer un compte de ressources avec un numéro de téléphone
 
@@ -91,7 +93,7 @@ Un standard automatique ou une file d’attente d’appels imbriqués nécessite
 2. Configurez l’une des options suivantes:
    - [Standard automatique Cloud](create-a-phone-system-auto-attendant.md)
    - [File d’attente d’appels Cloud](create-a-phone-system-call-queue.md)
-3. Affectez le compte de ressource au service. Voir [affectation/désaffectation de numéros de téléphone et services](#assignunassign-phone-numbers-and-services)
+3. Affectez le compte de ressource à la file d’attente d’appels ou au standard automatique. Voir [affectation/désaffectation de numéros de téléphone et services](#assignunassign-phone-numbers-and-services)
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Créer un compte de ressources dans le centre d’administration Microsoft teams
@@ -120,7 +122,7 @@ Ensuite, appliquez une licence au compte de ressources dans le centre d’admini
 Pour affecter un routage direct ou un numéro hybride à un compte de ressource, vous devez utiliser PowerShell, reportez-vous à la section suivante.
 
 > [!IMPORTANT]
-> Si votre compte de ressource ne dispose pas d’une licence de système téléphonique ou d’utilisateur virtuel, un échec de vérification interne entraîne un échec lorsque vous tentez d’affecter le numéro de téléphone au compte de ressource. Vous ne pourrez pas affecter le numéro ou associer le compte de ressources à un service.
+> Si votre compte de ressource ne possède pas de licence valide, un échec de vérification interne entraîne un échec lorsque vous tentez d’affecter le numéro de téléphone au compte de ressource. Vous ne pourrez pas affecter le numéro ou associer le compte de ressources à une file d’attente d’appels ou un standard automatique.
 
 ![Capture d’écran des options d’attribution/de désaffectation](media/r-a-assign.png)
 

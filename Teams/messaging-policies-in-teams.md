@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: 6bd340d6fe212af43828c19ccfd974fb159261e5
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134314"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861863"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -72,9 +72,9 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer les messages que les utilisateurs ont envoyés dans une conversation.
 - **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
-- **Confirmations de lecture** Utilisez ce paramètre pour spécifier si les confirmations de lecture sont contrôlées par l’utilisateur, pour tout le monde ou désactivé pour tout le monde. Le paramètre par défaut est géré par l’utilisateur. 
-    - **Contrôle utilisateur** Cela signifie que les utilisateurs décident d’activer ou de désactiver les confirmations de lecture. Le paramètre par défaut de l’application est activé. Les utilisateurs peuvent alors le désactiver.
-    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. 
+- **Confirmations de lecture** Les confirmations de lecture permettent à l’expéditeur d’un message de recevoir une notification lors de la lecture du message par le destinataire dans 1:1 et les discussions de groupe de 20 personnes ou moins. Les confirmations de lecture des messages ne s’importent pas incertainement quant à la lecture des messages et à l’amélioration de la communication d’équipe.  
+    - **Contrôle utilisateur** Cela signifie que les utilisateurs décident d’activer ou de désactiver les confirmations de lecture. Le paramètre par défaut de l’application est activé. Les utilisateurs peuvent alors le désactiver. 
+    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. Sachez que lors de l’utilisation du paramètre **on pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée «global (organisation par défaut)») ou d’avoir toutes les stratégies de messagerie dans le client utilise les mêmes paramètres pour les accusés de réception. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
     - **Désactivé pour tous** Cela signifie que la fonctionnalité est désactivée et que personne ne dispose d’une confirmation de lecture dans le client. 
 <a name="bkchat"> </a>
 

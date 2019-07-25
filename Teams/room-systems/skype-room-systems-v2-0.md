@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Cet article décrit les considérations relatives à la planification pour le déploiement de Microsoft Teams, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198651"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851545"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier les salles de Microsoft teams
 
@@ -51,12 +51,13 @@ Outre la combinaison surface Pro/Dock, vous pouvez également acheter des salles
 
 En règle générale, les forfaits et unités intégrées incluent les logiciels préinstallés, alors que si vous achetez individuellement des composants pris en charge pour les systèmes surface Pro, vous devez installer le logiciel. Pour obtenir des instructions, consultez [cet article sur l’installation de logiciels sur des appareils](room-systems-scale.md). 
 
-Vous pouvez déployer des salles de Microsoft teams avec Microsoft Teams, Skype entreprise Online, ou des déploiements hybrides Skype entreprise ou locaux.  Pour plus d’informations sur les licences nécessaires, voir gestion des [licences Microsoft teams](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+Vous pouvez déployer des salles de Microsoft teams avec Microsoft Teams, Skype entreprise Online, ou des déploiements hybrides Skype entreprise ou locaux.  Pour plus d’informations sur les licences nécessaires, voir la [mise à jour des licences de salle de réunion teams](skype-room-systems-v2.md) .
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déploierez-vous des salles Microsoft teams au sein de votre organisation? </li><li>Comment allez-vous utiliserez vos systèmes de salle Microsoft Teams, regroupés en tant que composants séparés ou en tant qu’unités intégrées?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Identifiez les personnes qui utiliseront les principales activités dans votre déploiement.</li><li>Passez en revue les salles de réunion que vous avez (et prévoyez de configurer) pour comprendre l’endroit où vous voulez déployer les salles et les périphériques de Microsoft teams appropriés à la taille de la pièce.</li></ul> |
+| | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identifier les personnes qui utiliseront les principales activités dans votre déploiement
 
