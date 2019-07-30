@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé: Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: ab7062e3629c4638c68198f19e061c31cba4ac67
-ms.sourcegitcommit: a3eb0032c21e88fce4c16b625f8cbb7c31efd0dc
+ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35904303"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925325"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019
  
@@ -112,7 +112,7 @@ Vous devrez peut-être installer ou configurer certains éléments pour n’impo
 |**Logiciel/rôle**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous les serveurs Skype entreprise Server requièrent l’installation de Windows PowerShell 3,0.  <br/> • Cela doit être installé par défaut avec Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** qui est installée en tant que fonctionnalité Windows, dans le **Gestionnaire de serveur**, aucun téléchargement n’est nécessaire. <br/> • Vous devez vous assurer que, lorsque vous installez cette fonction ou qu’elle est déjà installée et que vous la Vérifiez, l’option d' **activation http** est également activée et installée, comme suit: <br/> ![Capture d’écran présentant l’option Activation HTTP des fonctionnalités .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’Activation HTTP puisse être installée. C’est normal; Cliquez sur OK et continuez. Si vous ne parvenez pas à afficher cette fenêtre contextuelle, vous pouvez supposer que les éléments suivants sont déjà installés et déplacés.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Skype entreprise Server fonctionne avec les versions Microsoft .NET Framework suivantes:  <br/> • .NET 3,5  <br/> • .NET 4,5  <br/> • .NET 4.6. x  <br/> • .NET 4,7 <br/> |
+|Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** qui est installée en tant que fonctionnalité Windows, dans le **Gestionnaire de serveur**, aucun téléchargement n’est nécessaire. <br/> • Vous devez vous assurer que, lorsque vous installez cette fonction ou qu’elle est déjà installée et que vous la Vérifiez, l’option d' **activation http** est également activée et installée, comme suit: <br/> ![Capture d’écran présentant l’option Activation HTTP des fonctionnalités .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’Activation HTTP puisse être installée. C’est normal; Cliquez sur OK et continuez. Si vous ne parvenez pas à afficher cette fenêtre contextuelle, vous pouvez supposer que les éléments suivants sont déjà installés et déplacés.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Pour le mettre à jour, Skype entreprise Server nécessite Microsoft .NET Framework 4,7. La mise à jour est disponible [ici](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) .<br/> |
 |Media Foundation  <br/> |Pour Windows Server 2016, le runtime du format Windows Media s’installe avec Microsoft Media Foundation.  <br/> Tous les serveurs front-end et les serveurs Standard Edition utilisés pour les conférences requièrent l’exécution du format Windows Media Runtime pour exécuter les fichiers Windows Media audio (. WMA) que les applications de parc d’appels, d’annonce et de groupe de réponse sont lues pour les annonces et la musique.  <br/> |
 |Windows Identity Foundation  <br/> |Nous avons besoin de Windows Identity Foundation 3,5 pour prendre en charge les scénarios d’authentification de serveur à serveur pour Skype entreprise Server 2019.  <br/> • Pour Windows Server 2016, vous n’avez rien à télécharger. Ouvrez le **Gestionnaire de serveur** et accédez à l’**Assistant Ajout de rôles et de fonctionnalités**. **Windows Identity Foundation 3.5** est listé sous la section **Fonctionnalités**. S’il est sélectionné, c’est bien. Dans le cas contraire, sélectionnez-le, puis cliquez sur **suivant** pour atteindre le bouton **installer** . <br/> |
 |Outils d’administration de serveur distant  <br/> |Outils d’administration de rôles : outils AD DS et AD LDS  <br/> |

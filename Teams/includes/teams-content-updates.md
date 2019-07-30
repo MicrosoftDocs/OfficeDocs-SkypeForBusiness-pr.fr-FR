@@ -3,49 +3,6 @@
 
 
 
-## <a name="week-of-june-17-2019"></a>Semaine du 17 juin 2019
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 6/17/2019 | [Barrières relatives à l’information dans Microsoft teams preview](/MicrosoftTeams/information-barriers-in-teams) | modifié |
-| 6/17/2019 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 6/17/2019 | [Contacter le service d’assistance RTC](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | modifié |
-| 6/17/2019 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
-| 6/17/2019 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
-| 6/17/2019 | [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modifié |
-| 6/17/2019 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
-| 6/17/2019 | [Que sont les événements en direct Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modifié |
-| 6/18/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
-| 6/18/2019 | Personnaliser les invitations aux réunions dans Microsoft Teams | supprimé |
-| 6/18/2019 | [Contrôler et dépanner le routage direct](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modifié |
-| 6/18/2019 | [Planifier le contournement de média avec un routage direct](/MicrosoftTeams/direct-routing-plan-media-bypass) | modifié |
-| 6/18/2019 | [Configurer un contrôleur de frontière de session pour plusieurs clients](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
-| 6/18/2019 | [Fin de parcours pour Microsoft StaffHub](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | modifié |
-| 6/18/2019 | [Gérer les paramètres de réunion](/MicrosoftTeams/meeting-settings-in-teams) | modifié |
-| 6/18/2019 | [Déploiement de salles de Microsoft teams à l’aide de System Center Configuration Manager](/MicrosoftTeams/room-systems/room-systems-scale) | modifié |
-| 6/18/2019 | [Configurer des comptes pour les salles de Microsoft teams](/MicrosoftTeams/room-systems/room-systems-v2-configure-accounts) | modifié |
-| 6/18/2019 | [Notes de publication](/MicrosoftTeams/room-systems/srs2-release-note) | modifié |
-| 6/18/2019 | [Configurer Audioconférence pour Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modifié |
-| 6/19/2019 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
-| 6/19/2019 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
-| 6/20/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
-| 6/20/2019 | [Configurer le routage direct](/MicrosoftTeams/direct-routing-configure) | modifié |
-| 6/20/2019 | [Gérer les paramètres de Microsoft Teams pour votre organisation](/MicrosoftTeams/enable-features-office-365) | modifié |
-| 6/20/2019 | [Vue d’ensemble de l’application patients](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | modifié |
-| 6/21/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
-| 6/21/2019 | [Autoriser l'accès invité dans Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modifié |
-| 6/21/2019 | [Affectations pour Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | modifié |
-| 6/21/2019 | [Délégation de message](/MicrosoftTeams/expand-teams-across-your-org/healthcare/hc-delegates) | modifié |
-| 6/21/2019 | [Liste de contrôle de l’accès invité Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modifié |
-| 6/21/2019 | [Configurer la licence de téléphone de partie commune pour Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modifié |
-| 6/21/2019 | [Bienvenue dans Microsoft Teams](/MicrosoftTeams/teams-overview) | modifié |
-| 6/21/2019 | [Chat, équipes, canaux et applications dans Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modifié |
-| 6/21/2019 | Communiquer avec des utilisateurs de Teams dans une autre organisation | supprimé |
-| 6/21/2019 | [Gérez l’accès externe (fédération) dans Microsoft Teams](/MicrosoftTeams/manage-external-access) | modifié |
-| 6/21/2019 | [Gérer les stratégies de messagerie dans Teams](/MicrosoftTeams/messaging-policies-in-teams) | modifié |
-
-
 ## <a name="week-of-june-24-2019"></a>Semaine du 24 juin 2019
 
 
@@ -220,7 +177,7 @@
 | 7/9/2019 | [Configurer les paramètres d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | modifié |
 | 7/9/2019 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
 | 7/9/2019 | [Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | modifié |
-| 7/9/2019 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
+| 7/9/2019 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Modifié le |
 | 7/9/2019 | [Que sont les événements en direct Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modifié |
 | 7/9/2019 | [Système téléphonique dans Office 365](/MicrosoftTeams/what-is-phone-system-in-office-365) | modifié |
 | 7/10/2019 | [Interaction entre Exchange et Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modifié |
@@ -280,3 +237,39 @@
 | 7/19/2019 | [Configurer un standard automatique dans le cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
 | 7/19/2019 | [Créer une file d’attente d’appel](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
 | 7/19/2019 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+
+
+## <a name="week-of-july-22-2019"></a>Semaine du 22 juillet 2019
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 7/22/2019 | [Configurer les paramètres de réseau pour le routage géodépendant](/MicrosoftTeams/location-based-routing-configure-network-settings) | modifié |
+| 7/22/2019 | [Planifier le routage géodépendant pour le routage direct](/MicrosoftTeams/location-based-routing-plan) | modifié |
+| 7/22/2019 | [Terminologie du routage géodépendant](/MicrosoftTeams/location-based-routing-terminology) | modifié |
+| 7/22/2019 | [Implémenter la qualité de service dans Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modifié |
+| 7/22/2019 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+| 7/22/2019 | [Formation à Microsoft Teams pour les administrateurs](/MicrosoftTeams/itadmin-readiness) | modifié |
+| 7/22/2019 | [Licences utilisateur virtuelles](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modifié |
+| 7/22/2019 | [Configurer un contrôleur de frontière de session pour plusieurs clients](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
+| 7/22/2019 | [Partager des fichiers dans Microsoft teams](/MicrosoftTeams/sharing-files-in-teams) | modifié |
+| 7/23/2019 | [Liste de contrôle de l’accès invité Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modifié |
+| 7/23/2019 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+| 7/23/2019 | [Système téléphonique-licences utilisateur virtuelles](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modifié |
+| 7/23/2019 | [Configurer et gérer la modération de canal dans Microsoft teams](/MicrosoftTeams/manage-channel-moderation-in-teams) | modifié |
+| 7/23/2019 | [Gérez l’accès externe (fédération) dans Microsoft Teams](/MicrosoftTeams/manage-external-access) | modifié |
+| 7/24/2019 | [Gestion des licences Office 365 pour Microsoft Teams](/MicrosoftTeams/office-365-licensing) | modifié |
+| 7/24/2019 | [Plan pour les salles de Microsoft teams](/MicrosoftTeams/room-systems/skype-room-systems-v2-0) | modifié |
+| 7/24/2019 | [Office 365 Business Premium ](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | modifié |
+| 7/24/2019 | [Utiliser le complément Réunion Microsoft Teams dans Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modifié |
+| 7/24/2019 | [Formation dispensée par un instructeur et des vidéos pour les administrateurs de Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modifié |
+| 7/24/2019 | [Gérez l’accès externe (fédération) dans Microsoft Teams](/MicrosoftTeams/manage-external-access) | modifié |
+| 7/24/2019 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+| 7/24/2019 | [Gérer les stratégies de messagerie dans Teams](/MicrosoftTeams/messaging-policies-in-teams) | modifié |
+| 7/24/2019 | [Utiliser le planificateur de réseaux pour Microsoft teams](/MicrosoftTeams/network-planner) | modifié |
+| 7/24/2019 | [Configurer les crédits de communication pour votre organisation](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modifié |
+| 7/25/2019 | [Système téléphonique-licences utilisateur virtuelles](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modifié |
+| 7/25/2019 | [Système téléphonique-licences utilisateur virtuelles](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | modifié |
+| 7/25/2019 | [Configurer la fonctionnalité m’appeler pour vos utilisateurs](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | modifié |
+| 7/25/2019 | [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modifié |
+| 7/26/2019 | [Configuration requise pour Microsoft teams](/MicrosoftTeams/room-systems/requirements) | modifié |

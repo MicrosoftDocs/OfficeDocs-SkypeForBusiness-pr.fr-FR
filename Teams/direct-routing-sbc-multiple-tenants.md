@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821069"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925480"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -58,6 +58,7 @@ Pour plus d’informations sur le déploiement et la configuration de SBCs pour 
 
 - **AudioCodes:** [Remarques sur la configuration du routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration du scénario d’hébergement SBC décrit dans «connexion de AudioCodes SBC à la configuration de modèle d’hébergement de Microsoft teams 
 - **Communications du ruban:**  Reportez-vous au [Guide de configuration de Microsoft teams SBC principal du ruban](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour obtenir une documentation sur la configuration de la série de cœurs du ruban SBCS et sur cette page. [ Bordure](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Te-systèmes (anynode):**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
 
 > [!NOTE]
 > Veuillez nous concentrer sur la configuration de l’en-tête «contact». L’en-tête contact permet de rechercher le locataire du client dans le message d’invitation entrant. 

@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 65b3ec1b12f4e5074513378671044177a2ad9a6d
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494815"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925454"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimiser les retours d’expérience et les comptes-rendus pour votre adoption de Microsoft Teams
 
@@ -46,7 +46,7 @@ Soyez plus clair dans votre programme de conception de votre personnel et ce qu�
 
 Meilleure pratique: Organisez une réunion mensuelle teams pour vos champions internes. Fractionnez votre agenda entre les nouvelles fonctionnalités, les commentaires et les outils d’auto-service pour votre communauté d’employés.
 
-Meilleure pratique: les représentants de votre service d’assistance technique ou d’assistance technique vous rejoignent la communauté des champions pour vous tenir au courant des nouvelles informations relatives à l’utilisation de vos équipes. 
+Meilleure pratique: Demandez aux représentants de votre service d’assistance interne ou de votre support informatique de rejoindre la communauté des champions pour vous tenir au courant des nouvelles informations relatives à l’utilisation de vos équipes. 
 
 ## <a name="service-reporting"></a>Rapport de service
 
