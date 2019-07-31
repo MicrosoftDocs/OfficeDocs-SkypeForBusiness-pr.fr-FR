@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 77e9d460867df89ea367d9ceae9c2bd64c168f78
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588086"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925333"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -250,6 +250,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |Numéro de téléphone bloqué|Numéro de téléphone bloqué : la suppression du compte de la ressource avant de supprimer le numéro de téléphone bloque le numéro de téléphone.|Contactez le service clientèle Microsoft pour libérer le numéro de téléphone.|18/05/2018|
 
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de configurer le transfert des appels sans réponse à la messagerie vocale dans l’application de bureau|Lorsqu’un utilisateur est en mode Teams uniquement, sa boîte aux lettres Exchange est locale et s’il accède à **Paramètres** > **Appels** dans l’application de bureau Teams, il ne peut pas sélectionner l’option de transfert des appels vers la messagerie vocale (pour les appels sans réponse ou tous les appels). Si l’une ou l’autre option était déjà configurée, l’ouverture de l’onglet Appels dans Paramètres désactivera le transfert vers la messagerie vocale.|Configurez le transfert vers la messagerie vocale à l’aide de l’application mobile Teams.|27/05/2019|
+
 
 ## <a name="provisioning"></a>Mise en service
 
@@ -345,3 +349,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Impossible de déplacer, supprimer ou renommer des fichiers après modification  <br/> |Une fois qu’un fichier est modifié dans Teams, il ne peut pas être déplacé, renommé ou supprimé immédiatement <br/> |Il s’agit d’un problème connu. La solution de contournement consiste à patienter un certain temps avant d’apporter des modifications d’administration.  <br/> |12/03/19  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Problème d’interopérabilité entre Symantec DLP et Teams <br/> |Les agents Symantec DLP Endpoint peuvent interférer avec le processus Teams, ce qui peut entraîner une défaillance au lancement ou à la sortie.  <br/> |Excluez (mettez en liste verte) Teams.exe à partir des agents Endpoint de Symantec DLP, comme décrit dans cet <a href="https://support.symantec.com/us/en/article.TECH220322.html">article du support technique de Symantec</a>. <br/> |15/07/2019  <br/> |
