@@ -298,7 +298,7 @@
 
 ## [Configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 ### [Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector.md)
-### [Télécharger et installer Windows PowerShell 3.0](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md)
+### [Télécharger et installer Windows PowerShell 5.1](../set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1.md)
 ### [Télécharger et installer le connecteur Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
 ### [Gérer la messagerie unifiée Exchange et la messagerie vocale hébergée](../set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail.md)
 ### [Gérer les comptes d’utilisateurs](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
