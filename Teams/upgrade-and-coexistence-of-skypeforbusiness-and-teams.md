@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535875"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934398"
 ---
 ![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation] (media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
@@ -35,12 +35,18 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Choisissez le passage de votre mise à niveau de Skype entreprise à teams
 
-Microsoft teams remplacera par la suite Skype entreprise Online, de sorte que vous devez planifier des équipes dès maintenant pour être prêt.
-
 En tant que client Skype entreprise existant, la transition complète vers teams peut prendre un certain temps. Néanmoins, vous pouvez commencer à utiliser teams dès aujourd’hui en permettant à vos utilisateurs d’utiliser teams en même temps que Skype entreprise. Étant donné qu’il existe d’autres fonctionnalités qui se chevauchent entre les deux applications, nous vous conseillons de passer en revue les modes de coexistence et de mise à niveau disponibles pour vous aider à déterminer le chemin approprié pour votre organisation. Par exemple, vous pouvez choisir d’activer toutes les charges de travail sur les deux solutions sans interopérabilité. Vous pouvez également décider de gérer l’utilisation de l’utilisateur, soit en introduisant progressivement les fonctionnalités d’équipe ou en ciblant des groupes d’utilisateurs pour les fonctionnalités sélectionnées, tant que votre organisation n’est pas en mesure de mettre à niveau tout le monde vers Teams. Utilisez le résultat de votre pilote pour vérifier le bon déroulement de la mise à niveau de votre organisation.
 
 > [!IMPORTANT]
-> Cet article présente les différents modes qui vous permettent de gérer les modalités de gestion des modalités de Skype entreprise et équipes disponibles pour les utilisateurs. Comme pour n’importe quel déploiement, nous vous encourageons vivement à [piloter votre plan prévu](pilot-essentials.md) avec un groupe d’utilisateurs sélectionné avant de mettre à niveau votre organisation vers Teams. N’oubliez pas que l’introduction d’une nouvelle technologie peut être perturbatrice pour les utilisateurs. Prenez le temps d’évaluer la compatibilité des utilisateurs et d’implémenter un plan de communication et de formation avant d’implémenter les modes décrits dans les présentes.
+> Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui.
+
+Cet article présente les différents modes qui vous permettent de gérer les modalités de gestion des modalités de Skype entreprise et équipes disponibles pour les utilisateurs. Comme pour n’importe quel déploiement, nous vous encourageons vivement à [piloter votre plan prévu](pilot-essentials.md) avec un groupe d’utilisateurs sélectionné avant de mettre à niveau votre organisation vers Teams. N’oubliez pas que l’introduction d’une nouvelle technologie peut être perturbatrice pour les utilisateurs. Prenez le temps d’évaluer la compatibilité des utilisateurs et d’implémenter un plan de communication et de formation avant d’implémenter les modes décrits dans les présentes.
+
+> [!TIP]
+> Rejoignez-nous pour des ateliers en direct et interactifs qui vous aideront à partager des conseils, des meilleures pratiques et des ressources conçues pour lancer la planification et l’implémentation de la mise à niveau.
+>
+>Participez d’abord à la planification de votre session de [mise à niveau](https://aka.ms/SkypeToTeamsPlanning) pour commencer.
+
 
 ## <a name="upgrade-journey-building-blocks"></a>Briques de construction de mise à niveau
 
@@ -63,6 +69,9 @@ Le tableau suivant compare les modes de coexistence et de mise à niveau.
 |Skype entreprise avec collaboration et réunions en équipe |Déploiement de Skype entreprise avec une utilisation significative de la voix et des exigences de l’entreprise qui ne sont pas encore remplies par les appels d’équipes<br><br>Besoin de plus de temps pour les entreprises et/ou pour s’engager sur Skype entreprise<br><br>Vous utilisez peut-être un service de réunion tiers|Commencer rapidement à adopter Teams, au-delà de la collaboration de groupe<br><br>Amélioration de l’interface utilisateur pour les réunions<br><br>Utilisation recommandée pour les organisations locales qui souhaitent tirer parti des réunions d’équipes avant d’être prêt à effectuer une mise à niveau complète (généralement en raison d’une voix entreprise locale). |Aucune fonctionnalité ne chevauchant<br><br>Réunions de grande qualité dans Teams. Introduction aux fonctionnalités, expérience utilisateur et multiplateforme, qualité et fiabilité<br><br>Une expérience «conjointe» entre Skype entreprise et Teams<br><br>Utilisateurs d’interopérabilité uniquement dans Teams.|La messagerie instantanée et la conversation se trouvent dans Skype entreprise (associé aux appels)|
 |Équipes uniquement |Teams uniquement représente la destination finale de tous les utilisateurs, en définitive.<br><br>Certains utilisateurs ont besoin de rester sur Skype entreprise<br><br>Vous effectuez la mise à niveau de vos utilisateurs Skype entreprise Online vers teams tout en préservant les utilisateurs locaux de Skype entreprise sur Skype entreprise Server<br><br>Vous avez peut-être déjà déployé des utilisateurs en mode îlot et nous sommes prêts à supprimer Skype entreprise pour les groupes d’utilisateurs |Réduction des coûts variables sur Skype entreprise (opérations serveur locales, contrat d’approvisionnement, etc.)<br><br>Accédez à l’ensemble de l’interface teams aussi rapidement que possible, pour au moins quelques utilisateurs.|Limite la confusion des utilisateurs en n’offrant qu’un seul client pour l’interopérabilité avec les utilisateurs dans Skype entreprise, Skype entreprise, collaboration en équipe, Skype entreprise avec collaboration et réunions en équipe|L’interopérabilité ne prend en charge que les discussions de base et les appels entre Skype entreprise et équipes, et les scénarios d’escalade d’interopérabilité pour le partage de bureau et les appels et les appels multitiers|
 |Skype entreprise uniquement |Certains utilisateurs ont besoin de rester sur Skype entreprise<br><br>|Limite la confusion des utilisateurs en fournissant un seul client<br><br>Les utilisateurs peuvent toujours participer à des réunions d’équipes auxquelles ils sont invités|Continuent de répondre aux besoins de votre entreprise qui ne peuvent être satisfaits que par Skype entreprise<br><br>Interopérabilité avec les utilisateurs uniquement dans teams|L’interopérabilité ne prend en charge que les discussions de base et les appels entre Skype entreprise et équipes, et les scénarios d’escalade d’interopérabilité pour le partage de bureau et les appels et les appels multitiers|
+
+> [!TIP]
+> Pour vous aider à identifier le mode de mise à niveau recommandé en fonction des fonctionnalités que vous voulez activer dans teams alors que Skype entreprise est toujours en cours d’utilisation, tirez parti de l' [Assistant Mise à niveau de Skype to teams](https://aka.ms/SkypeToTeamsWizard).
 
 ## <a name="upgrade-journeys"></a>Déplacements de la mise à niveau
 

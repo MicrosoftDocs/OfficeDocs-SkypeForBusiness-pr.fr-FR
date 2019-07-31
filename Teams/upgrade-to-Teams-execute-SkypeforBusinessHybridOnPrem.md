@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493978"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934517"
 ---
 ![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation] (media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
@@ -40,7 +40,7 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 Suivez les recommandations de cet article si vous avez déployé Skype entreprise ou Microsoft Lync en local et que votre organisation souhaite effectuer une mise à niveau vers des équipes de manière sélective, en utilisant plusieurs modes de coexistence, ou tout le tout. La première étape consiste à configurer la connectivité hybride avec votre client Office 365, puis à déplacer vos utilisateurs vers Skype entreprise Online et à leur affecter le mode de coexistence et de mise à niveau appropriés. 
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>Étape 1: déployer une connectivité hybride 
 

@@ -1,12 +1,12 @@
 ---
-title: Mise à niveau | Business Skype pour la mise à niveau des équipes | Étapes de base
+title: Liste de contrôle de mise à niveau | Mise à niveau de Skype entreprise vers équipes | Étapes de base
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Plan accéléré action dix étapes de mise à niveau à partir de Skype pour les entreprises aux équipes
+description: Plan d’action en dix étapes accéléré pour la mise à niveau de Skype entreprise vers teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -18,45 +18,48 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3a4aacf23ffcad426a86735e55ed6a03e06e07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 397155766bc966c9591f863a3f97fca59dcb1128
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920505"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934549"
 ---
 <a name="about-upgrade-basic"></a>
 
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
-Conçu pour les organisations de petite taille ou ceux qui utilisent Skype pour Business en ligne pour la messagerie instantanée (conversation) et des réunions, la liste de contrôle de mise à niveau de base est un plan d’action accéléré qui inclut les principaux, recommandé d’activités et des ressources pour l’implémentation associées une Déplacement réussi de Skype pour les entreprises aux équipes.
+Conçu pour des organisations plus petites ou celles utilisant Skype entreprise Online pour la messagerie instantanée (discussion) et les réunions uniquement, la liste de contrôle de mise à niveau de base est un plan d’action accéléré incluant les activités principales et recommandées et les ressources associées à l’implémentation d’une transition réussie de Skype entreprise vers Teams.
 
-Ces dix étapes fournissent tout ce dont vous avez besoin pour une mise à niveau réussie. Ils sont conçus pour être effectuées dans environ 30 à 45 jours, mais vous devez ajuster les dates de fin des tâches en fonction de la planification de mise à niveau de votre organisation.
+Ces dix étapes simples permettent de tout ce dont vous avez besoin pour effectuer une mise à niveau réussie. Celles-ci sont conçues pour être achevées dans environ 30 à 45 jours, mais vous devez ajuster les dates d’achèvement des tâches en fonction du planning de mise à niveau de votre organisation.
 
-Que se passe-t-il à Skype pour les entreprises après la mise à niveau ? Une fois que vos utilisateurs sont mis à niveau vers les équipes (mode**d’Équipes uniquement** ) :
+> [!IMPORTANT]
+> La mise à niveau de Skype entreprise Online sera annulée le 31 juillet 2021. Après cela, le service Skype entreprise Online ne sera plus accessible ou n’est plus pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui.
 
-- Leur Skype pour Business client est désactivée, et toutes les conversations et les appels accédez aux équipes. Notez que cela ne sera pas désinstallé le client sur leurs bureaux.
-- N’importe quel Skype pour les réunions professionnels qui ont été planifiée avant le travail de mise à niveau comme prévu, mais toutes les nouvelles réunions sont planifiées dans les équipes.
-- Si les utilisateurs tentent de se connecter à Skype pour les entreprises, ils recevoir une notification à partir de leurs clients qu’ils ont été mis à niveau vers les équipes.
-- Les utilisateurs doivent désinstaller manuellement le Skype pour Business client sur leurs appareils mobiles.
+Qu’arrive-t-il à Skype entreprise après la mise à niveau? Une fois vos utilisateurs mis à niveau en équipes (mode**teams uniquement** ):
 
-Consultez notre [FAQ](https://aka.ms/SkypeToTeams-FAQ) pour des questions supplémentaires sur la mise à niveau.
+- Le client Skype entreprise est désactivé, et les discussions et les appels sont redirigés vers Teams. Notez que le client ne sera pas désinstallé sur son ordinateur de bureau.
+- Toutes les réunions Skype entreprise planifiées avant la mise à niveau fonctionnent comme prévu, mais toutes les nouvelles réunions sont planifiées dans Teams.
+- Si les utilisateurs essaient de se connecter à Skype entreprise, ils reçoivent une notification de leur client qu’ils ont été mis à niveau vers Teams.
+- Les utilisateurs doivent désinstaller manuellement le client Skype entreprise sur leur appareil mobile.
 
-Pas familiarisé avec les équipes ? [En savoir plus sur l’équipes](https://products.office.com/microsoft-teams/group-chat-software) rassemble des conversations, réunions, fichiers, les applications Office et intégrations de tiers — fournissant un concentrateur unique pour le travail d’équipe dans Office 365.
+Pour plus d’informations sur la mise à niveau, consultez notre [Forum aux questions](https://aka.ms/SkypeToTeams-FAQ) .
+
+Vous ne connaissez pas les équipes? [Apprenez-en davantage sur la façon dont les équipes](https://products.office.com/microsoft-teams/group-chat-software) réunissent les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en fournissant un seul Hub pour le travail en équipe dans Office 365.
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>Étape 1. Notifier les parties prenantes principales
+## <a name="step-1-notify-your-key-stakeholders"></a>Étape 1. Informer les principales parties prenantes
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Différents directeurs sont responsables de la réussite de l’entreprise ; Veillez à conserver les tenu au courant sur les évolutions technologiques. Puisqu’il est possible que tout le monde pas reçu ou lire la notification de mise à niveau droit, vous devez informer les parties prenantes (par exemple, PDG, les professionnels de l’informatique, Marketing et responsables du support technique) avant de commencer à planifier votre mise à niveau.
+Les leaders sont responsables du succès de l’entreprise; n’hésitez pas à nous en informer sur les changements technologiques. Dans la mesure où il est possible que tout le monde ne reçois ou ne lisent pas les notifications de mise à niveau, vous devez indiquer à vos parties prenantes (par exemple, PDG, professionnels de l’informatique, marketing et responsables du support technique) avant de commencer à planifier votre mise à niveau.
 
-**Ressources :**
+**Ressources**
 
-- [Exemple de courrier électronique : communication des parties prenantes](upgrade-emails-surveys.md#step-1-email)
+- [Exemple de message électronique: communication avec les parties prenantes](upgrade-emails-surveys.md#step-1-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -68,16 +71,16 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Équipes offre compatible Skype pour les fonctionnalités d’entreprise — telles que la messagerie instantanée (conversation) et des réunions, mais cela peut également être bien plus encore. Équipes permet un concentrateur de la valeur true pour le travail d’équipe, des groupes de travail gérer des projets, des fichiers, des conversations et des applications dans un emplacement. Décidez comment votre organisation utilisera les équipes et configurer votre environnement de réussite.
+Teams propose des fonctionnalités Skype entreprise compatibles (par exemple, la messagerie instantanée, les réunions, etc.). En tant que concentrateur véritable pour le travail en équipe, teams permet aux groupes de travail de gérer les projets, les fichiers, les conversations et les applications en un seul endroit. Déterminez le mode d’utilisation des équipes par votre organisation et configurez votre environnement en vue de sa réussite.
 
 > [!Note]
-> Comme un Skype existante pour le client d’entreprise, votre infrastructure réseau actuelle est probablement déjà configuré pour les équipes. Pour vérifier cela, vous pouvez suivre les instructions « Terminer la planification technique » liée à ci-dessous (cette étape est facultative).
+> En tant que client Skype entreprise existant, votre infrastructure réseau actuelle est probablement déjà configurée pour Teams. Pour confirmer cela, vous pouvez suivre les instructions complètes de planification technique associées au ci-dessous (facultatif).
 
-**Ressources :**
+**Ressources**
 
 - [Présentation de Teams](Teams-overview.md)
 - [En savoir plus sur les équipes et les canaux](teams-channels-overview.md)
-- [Effectuer une planification technique](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Planification technique complète](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Gérer Microsoft Teams Rooms](https://aka.ms/MTRDocs)
 
 [Retour au début](#about-upgrade-basic)
@@ -86,13 +89,13 @@ Différents directeurs sont responsables de la réussite de l’entreprise ; Ve
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>Étape 3. Connaître votre Skype pour les utilisateurs professionnels
+## <a name="step-3-know-your-skype-for-business-users"></a>Étape 3. Familiarisez-vous avec vos utilisateurs Skype entreprise
 
 *(Environ quatre semaines avant la mise à niveau)*
 
-Les utilisateurs qui sont profondément adoptées Skype pour les entreprises peut-être un peu plus de temps ou d’une assistance pour effectuer la transition aux équipes. Temps pour passer en revue vos Skype pour l’utilisation de Business actuel pour identifier vos utilisateurs les plus fréquents nécessitant une prise en charge supplémentaire et pour établir une référence d’utilisation que vous pouvez effectuer le suivi par rapport à vos numéros de post-mise à niveau.
+Les utilisateurs en profondeur sur Skype entreprise peuvent avoir besoin de plus de temps ou d’aide pour effectuer la transition vers Teams. Prenez le temps de passer en revue l’utilisation de Skype entreprise pour identifier les principaux utilisateurs qui ont besoin d’une assistance supplémentaire et de définir un planning de référence d’utilisation pour vous permettre d’effectuer le suivi de vos numéros post-mise à niveau.
 
-**Ressources :**
+**Ressources**
 
 - [Afficher les données d’utilisation dans les rapports d’activité dans Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
@@ -102,19 +105,19 @@ Les utilisateurs qui sont profondément adoptées Skype pour les entreprises peu
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Étape 4. Informez les utilisateurs qu’ils vous mise à niveau de Skype pour les entreprises à des équipes
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Étape 4. Informer vos utilisateurs qu’ils vont procéder à la mise à niveau de Skype entreprise vers teams
 
-*(Environ 2 à 3 semaines avant la mise à niveau)*
+*(Environ deux à trois semaines avant la mise à niveau)*
 
-Fournir une notification à vos utilisateurs sera en mesure de fournir les temps pour vous familiariser avec les équipes sans affecter leur productivité, entraînant une expérience utilisateur plus positive. Envoyer une communication pour leur expliquer les changements, pourquoi il est modifié et comment ils peuvent préparer.
+Le rendez-vous d’un avis suffisant pour vos utilisateurs lui permettra d’avoir le temps de se familiariser avec les équipes, sans affecter le niveau de productivité, ce qui donne une expérience utilisateur plus positive. Envoyez une communication pour leur dire ce qui est en train de changer, la raison de la modification et la manière dont ils peuvent s’en préparer.
 
 > [!Note]
-> Si nécessaire, vous pouvez activer les équipes pour vos utilisateurs via le portail d’administration d’Office 365 pour l’instant.
+> Le cas échéant, vous pouvez activer teams pour vos utilisateurs via le portail d’administration Office 365.
 
-**Ressources :**
+**Ressources**
 
 - [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
-- [Exemple de courrier électronique : annonce aux utilisateurs sur Skype pour les entreprises](upgrade-emails-surveys.md#step-4-email)
+- [Exemple de message électronique: annonce aux utilisateurs de Skype entreprise](upgrade-emails-surveys.md#step-4-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -126,9 +129,9 @@ Fournir une notification à vos utilisateurs sera en mesure de fournir les temps
 
 *(Environ une semaine avant la mise à niveau)*
 
-Mettre à jour momentum mise à niveau en activant la notification de mise à niveau utilisateur via le portail d’administration, fournissant une alerte visuelle dans le Skype pour client d’entreprise que les utilisateurs sont en cours mis à niveau à partir de Skype pour les entreprises aux équipes.
+La mise à jour de l’état de mise à niveau est activée via le portail d’administration, qui fournit une alerte visuelle dans le client Skype entreprise, que les utilisateurs sont en train de mettre à niveau de Skype entreprise vers Teams.
 
-**Ressources :**
+**Ressources**
 
 - [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
 
@@ -138,15 +141,15 @@ Mettre à jour momentum mise à niveau en activant la notification de mise à ni
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Étape 6. Rappelez à vos utilisateurs qu’ils vous mise à niveau de Skype pour les entreprises à des équipes
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Étape 6. Rappelez à vos utilisateurs qu’ils effectuent la mise à niveau de Skype entreprise vers teams
 
 *(Environ cinq jours avant la mise à niveau)*
 
-Les utilisateurs sont occupés avec leurs responsabilités quotidiennes. Rappeler les la mise à niveau en attente afin de garantir qu’ils n’oubliez pas de prendre les mesures que nécessaires pour préparer les équipes. Il s’agit de l’occasion pour rappeler aux utilisateurs la formation disponible et comment prendre en main équipes.
+Les utilisateurs ont occupé leurs responsabilités quotidiennes. Les rappels de la mise à niveau en attente permettent de veiller à ce qu’ils n’aient pas à effectuer les étapes nécessaires pour préparer les équipes. C’est le moment idéal pour rappeler aux utilisateurs les formations disponibles et comment commencer à utiliser Teams.
 
-**Ressources :**
+**Ressources**
 
-- [Exemple de courrier électronique : rappeler aux utilisateurs de prendre en main équipes](upgrade-emails-surveys.md#step-6-email)
+- [Exemple de message électronique: rappeler aux utilisateurs de commencer à utiliser teams](upgrade-emails-surveys.md#step-6-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -154,18 +157,18 @@ Les utilisateurs sont occupés avec leurs responsabilités quotidiennes. Rappele
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>Étape 7. Mise à niveau des utilisateurs aux équipes !
+## <a name="step-7-upgrade-users-to-teams"></a>Étape 7. Mettre à niveau les utilisateurs vers équipes
 
-*(Mise à niveau jour)*
+*(Jour de la mise à niveau)*
 
-Aujourd'hui est le jour de que votre organisation officiellement met à niveau aux équipes comme solution de communication et de collaboration. Dans le centre d’administration Microsoft Teams, activez le commutateur de mise à niveau en configurant le mode de coexistence pour **Les équipes uniquement**. (Dans le centre d’administration, accédez à **paramètres à l’échelle de la société** > **Équipes de mise à niveau**.) Les utilisateurs recevront une notification dans leur Skype pour client Business qu’ils ont été mis à niveau vers les équipes.
+C’est aujourd’hui que votre organisation est officiellement mise à niveau vers teams en tant que solution de communication et de collaboration. Dans le centre d’administration de Microsoft Teams, activez le commutateur de mise à niveau en définissant le mode de coexistence sur **équipes uniquement**. (Dans le centre d’administration, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation.) Les utilisateurs reçoivent une notification dans leur client Skype entreprise qu’ils ont été mis à niveau en équipes.
 
-Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vous envoyer un message électronique accueillir les équipes.
+Nous vous recommandons d’avoir effectué une mise à niveau de tout le monde, vous envoyez un courrier électronique à vos équipes.
 
-**Ressources :**
+**Ressources**
 
 - [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
-- [Exemple de courrier électronique : accueillir les utilisateurs à des équipes](upgrade-emails-surveys.md#step-7-email)
+- [Exemple de courrier: Bienvenue des utilisateurs dans teams](upgrade-emails-surveys.md#step-7-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -173,15 +176,15 @@ Nous vous recommandons qu’une fois que tout le monde a été mis à niveau, vo
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>Étape 8. Surveiller l’utilisation d’équipes à votre planification initiale
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>Étape 8. Surveiller l’utilisation des équipes par rapport à vos plannings de référence
 
-*(Sur un ou deux semaines après la mise à niveau)*
+*(Environ une ou deux semaines après la mise à niveau)*
 
-Ajuster à une nouvelle technologie peut prendre un certain temps. Vérifiez l’utilisation pour vérifier que les utilisateurs utilisent les équipes au même — ou supérieur, comme avec Skype pour les entreprises de niveau. Vérifiez avec les utilisateurs qui ne sont pas à l’aide des équipes aux niveaux attendues.
+Le réglage de votre nouvelle technologie peut prendre un certain temps. Activez l’option utilisation pour vérifier que les utilisateurs utilisent une équipe au même niveau (ou plus) qu’avec Skype entreprise. Archivez avec des utilisateurs qui n’utilisent pas les équipes aux niveaux attendus.
 
-**Ressources :**
+**Ressources**
 
-- [Voir les données d’utilisation](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [Afficher les données d’utilisation](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -189,15 +192,15 @@ Ajuster à une nouvelle technologie peut prendre un certain temps. Vérifiez l�
 
 <!--ENDOFSECTION-->
 
-## <a name="step-9-measure-user-satisfaction"></a>Étape 9. Satisfaction des utilisateurs de mesures
+## <a name="step-9-measure-user-satisfaction"></a>Étape 9. Mesurer la satisfaction de l’utilisateur
 
-*(Sur un ou deux semaines après la mise à niveau)*
+*(Environ une ou deux semaines après la mise à niveau)*
 
-Satisfaction des employés permettre influer sur la productivité, la rétention, et, enfin, des résultats commerciaux. Atteindre vos utilisateurs à évaluer sentiment de l’utilisateur sur la mise à niveau et de leur équipes de satisfaction.
+La satisfaction des employés peut influer sur la productivité, la conservation et les résultats commerciaux. Contactez vos utilisateurs pour évaluer l’opinion de la mise à niveau par l’utilisateur et sa satisfaction vis-à-vis des équipes.
 
-**Ressources :**
+**Ressources**
 
-- [Exemple de courrier électronique : vérifier avec les utilisateurs](upgrade-emails-surveys.md#step-9-email), plus [les enquêtes effectuées auprès](upgrade-emails-surveys.md#step-9-surveys)
+- [Exemple de courrier: utiliser des utilisateurs](upgrade-emails-surveys.md#step-9-email)et des [enquêtes utilisateur](upgrade-emails-surveys.md#step-9-surveys)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -205,14 +208,14 @@ Satisfaction des employés permettre influer sur la productivité, la rétention
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>Étape 10. Optimiser le retour sur investissement avec des équipes
+## <a name="step-10-maximize-your-roi-with-teams"></a>Étape 10. Rentabilisez votre investissement grâce à teams
 
-*(En cours)*
+*Façon*
 
-Une fois que les utilisateurs sont à l’aise avec la messagerie instantanée (conversation) et des réunions dans les équipes, les inciter à étendre leurs cas d’utilisation à l’intégration de collaboration et d’application des équipes, réellement optimiser leur solution nouvelle et optimisation d’un retour sur investissement.
+Lorsque les utilisateurs ont l’habitude d’utiliser la messagerie instantanée et les réunions en équipe, encouragez-les à prolonger leur cas d’utilisation en utilisant la collaboration et l’intégration des applications, en optimisant leur nouvelle solution et en maximisant le retour de votre investissement.
 
-**Ressources :**
+**Ressources**
 
-- [Exemple de courrier électronique : encourager les utilisateurs à explorer davantage les équipes](upgrade-emails-surveys.md#step-10-email)
+- [Exemple de courrier: encourager les utilisateurs à découvrir les équipes](upgrade-emails-surveys.md#step-10-email)
 
 [Retour au début](#about-upgrade-basic)

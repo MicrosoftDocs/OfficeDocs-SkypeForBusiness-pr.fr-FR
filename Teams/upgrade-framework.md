@@ -3,7 +3,6 @@ title: À propos du cadre de mise à niveau
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432975"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934565"
 ---
 # <a name="about-the-upgrade-framework"></a>À propos du cadre de mise à niveau
 
@@ -125,5 +124,4 @@ Pour vous aider à montrer la marche à suivre pour le déroulement de votre mis
 > Le contenu de cette mise à niveau est en perpétuelle évolution. Assurez-vous de consulter les informations les plus récentes et lisez le [blog teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Si vous êtes un administrateur sur votre client Office 365, il est possible que vous rencontriez des options de mise à niveau dans votre cmdlet PowerShell ou le centre d’administration Microsoft Teams. Avoir la possibilité d’effectuer la mise à niveau ne signifie pas nécessairement que votre organisation est prête pour ce changement. Pour une utilisation optimale de l’utilisateur, assurez-vous que teams répond aux besoins en matière de collaboration et de communication, vérifiez que votre réseau est prêt pour la prise en charge des équipes et implémentez votre plan de compatibilité utilisateur avant de mettre à niveau les utilisateurs vers Teams.
- 
+> Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.

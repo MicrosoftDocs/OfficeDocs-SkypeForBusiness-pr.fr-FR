@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432935"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934573"
 ---
 ![Diagramme de parcours de mise à niveau, mise en surbrillance de l’étape de définition du projet] (media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
@@ -81,7 +81,7 @@ Le tableau suivant montre des exemples de OKRs et KSIs pour les phases initiales
 
 | Critère | Résultat de la clé | À faire |
 |---|---|---|
-| Équipe pilote avec Skype entreprise en mode de [collaboration uniquement](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY18Q2:500-pilote utilisateur exécuté et terminé | <ul><li>Identifier les utilisateurs pilotes</li><li>Créer un plan de test pilote</li><li>Activer les utilisateurs pilotes dans teams</li><li>Mettre en œuvre le pilote</li><li>Exécuter une enquête de commentaires en pilote</li><li>Mesurer le succès du pilote</li></ul> |
+| Équipe pilote avec Skype entreprise en mode de [collaboration uniquement](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2:500-pilote utilisateur exécuté et terminé | <ul><li>Identifier les utilisateurs pilotes</li><li>Créer un plan de test pilote</li><li>Activer les utilisateurs pilotes dans teams</li><li>Mettre en œuvre le pilote</li><li>Exécuter une enquête de commentaires en pilote</li><li>Mesurer le succès du pilote</li></ul> |
 | Exécution réussie du mode de collaboration uniquement pour tous les utilisateurs au sein de l’organisation à côté de Skype entreprise | <ul><li>60% des utilisateurs de Skype entreprise utilisent teams dans un délai de 30 jours de déploiement</li><li>La satisfaction des utilisateurs avec teams est &#8805;80%</li></ul> | <ul><li>Conception et exécution d’une offre générale de communications et de formations</li><li>Activer tous les utilisateurs pour teams en mode de collaboration uniquement</li><li>Suivi mensuel de l’utilisation</li><li>Collecter les commentaires des utilisateurs</li><li>Surveiller l’intégrité ou la qualité du réseau</li><li>Limiter selon les besoins</li></ul> |
 
 | Type | Indicateur de réussite clé | Comment les mesurer | Critères de réussite | Mesurés |
@@ -119,3 +119,5 @@ Le tableau suivant montre des exemples de OKRs et KSIs pour les phases initiales
 À titre d’exemple, un exemple de chronologie est fourni pour les phases précédant la mise à niveau, la mise à niveau et après la mise à niveau du voyage dans le cadre de la [mise à niveau](https://aka.ms/UpgradePro), que nous vous encourageons à ajuster selon les besoins spécifiques de votre organisation.
 
 Une fois que vous avez terminé les activités décrites ci-dessus, vous devez avoir une base solide pour votre projet. Poursuivez vos [](https://aka.ms/SkypeToTeams-TechnicalReadiness) activités de planification et de préparation de votre [organisation](https://aka.ms/SkypeToTeams-UserReadiness) .
+
+N’oubliez pas: Skype entreprise Online sera supprimé le 31 juillet 2021. Après cela, le service Skype entreprise Online ne sera plus accessible ou n’est plus pris en charge. Pour optimiser la réalisation des avantages et garantir le bon déroulement de votre mise à niveau de votre organisation, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui.

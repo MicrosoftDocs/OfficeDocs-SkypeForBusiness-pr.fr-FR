@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 5e03889c4bdc4ae7c1b34538cba28cc73da9b8a9
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804760"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934485"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -108,7 +108,6 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 <h2>Didacticiels</h2>
 
-- [Didacticiel : Migration de Skype Entreprise vers Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Didacticiel : Réunions dans Teams](tutorial-meetings-in-teams.yml)
 - [Didacticiel : Audioconférence dans Teams](tutorial-audio-conferencing.yml)
 - [Didacticiel: Comprendre la fonction d'appel dans Microsoft Teams](tutorial-calling-in-teams.yml)
@@ -117,4 +116,3 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 - [Permettre le travail d’équipe avec Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Spécialiste de l’Adoption de Service Microsoft](https://aka.ms/AdoptionCert)
-- [Équipes dans 30 formations interactives](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)

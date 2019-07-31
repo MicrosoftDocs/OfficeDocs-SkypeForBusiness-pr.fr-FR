@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933848"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934629"
 ---
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur l’étape de définition du projet] (media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
@@ -31,10 +31,14 @@ Cet article fait partie de la phase de définition du projet de votre parcours d
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft teams et la coexistence et l’interopérabilité de Skype entreprise
 
-Si votre organisation utilise Skype entreprise dès aujourd’hui et que vous envisagez de commencer à utiliser teams en même temps que Skype entreprise, ou si vous envisagez de commencer la mise à niveau vers Teams, il est important de comprendre la manière dont les deux applications coexistent, quand et comment elles interagissent, et comment gestion de la migration des utilisateurs jusqu’à la mise à niveau éventuelle de Skype entreprise vers équipes.
+Si votre organisation utilise Skype entreprise dès aujourd’hui et que vous commencez à utiliser teams avec Skype entreprise, ou que vous commencez à effectuer la mise à niveau vers Teams, il est important de comprendre la façon dont les deux applications coexistent, quand et comment elles interagissent et comment gérer migration des utilisateurs jusqu’à la mise à niveau éventuelle de Skype entreprise vers équipes.
 
 > [!Tip]
-> Regardez la session suivante pour en savoir plus sur la [coexistence et l’interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)
+> Regardez la session suivante pour en savoir plus sur la [coexistence et l’interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop).
+>
+> De plus, vous pouvez participer à des ateliers en direct et interactifs pour partager des conseils, des meilleures pratiques et des ressources conçues pour démarrer la mise à niveau de la planification et l’implémentation.
+>
+> Participez d’abord à la planification de votre session de [mise à niveau](https://aka.ms/SkypeToTeamsPlanning) pour commencer.
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistence des équipes et de Skype entreprise
 
@@ -81,12 +85,15 @@ Ce mode permet aux équipes dans votre environnement de profiter de votre invest
 
 Utilisez ce mode de coexistence pour accélérer la disponibilité des fonctionnalités de réunion teams au sein de votre organisation, en plus de ses fonctionnalités de collaboration, qui permettent à vos utilisateurs de profiter de la meilleure qualité d’utilisation des réunions d’équipes-qualité exceptionnelle. fonctionnalités novatrices telles que la transcription et la traduction ou le brouillage en arrière-plan, et une meilleure interface utilisateur pour toutes les plateformes, y compris les appareils mobiles et les navigateurs.
 
-Outre l’utilisation d’équipes pour les équipes et les canaux, les utilisateurs utilisent teams pour planifier et diriger leurs réunions. Discussions privées et appels sur Skype entreprise. Avantages de teams et de Skype entreprise d’une gamme de fonctions «combinées», telles que le rapprochement de présence, la conservation automatique de la conservation et l’affichage de périphériques HID sur les deux applications. 
+Outre l’utilisation d’équipes pour les équipes et les canaux, les utilisateurs utilisent teams pour planifier et diriger leurs réunions. Les appels et les discussions privés restent sur Skype entreprise. Avantages de teams et de Skype entreprise d’une gamme de fonctions «combinées», telles que le rapprochement de présence, la conservation automatique de la conservation et l’affichage de périphériques HID sur les deux applications. 
 
 Ce mode de coexistence est particulièrement utile pour les utilisateurs de déploiements sur site de Skype entreprise dont la mise à niveau de Skype entreprise est susceptible de prendre un peu de temps pour être mis à niveau vers des équipes et de profiter des réunions de plus en plus performantes dès que possible.
 
 > [!Note]
 > Lorsqu’elle est déployée dans des modes de coexistence spécifiques, les équipes et Skype entreprise peuvent [interagir](#interoperability-of-teams-and-skype-for-business), ce qui permet aux utilisateurs de discuter avec eux et de s’appeler l’un de l’autre et de veiller à ce que les communications restent fluides au sein de votre organisation pendant la mise à niveau vers Teams. Modes de coexistence régissant l’interopérabilité. Le mode de coexistence du destinataire détermine si l’interopérabilité sera disponible. Par exemple, si le destinataire est dans un mode qui n’est disponible que dans un seul client (par exemple, Teams), l’interopérabilité des discussions sera généralement disponible en cas d’utilisation d’un autre client (dans ce cas, Skype entreprise) pour lancer la discussion. D’un autre côté, si le destinataire est dans un mode dans lequel la conversation est disponible dans les deux clients (en mode insulaire), l’interopérabilité ne sera pas disponible pour la discussion. Le message est reçu par le destinataire dans le client dans lequel l’initiateur a lancé la discussion. Par conséquent, une bonne communication en mode îlot nécessite la saturation de teams; ainsi, tous les utilisateurs utilisent activement et surveillant les deux clients.
+
+> [!TIP]
+> Pour vous aider à identifier le mode de mise à niveau recommandé en fonction des fonctionnalités que vous voulez activer dans teams alors que Skype entreprise est toujours en cours d’utilisation, tirez parti de l' [Assistant Mise à niveau de Skype to teams](https://aka.ms/SkypeToTeamsWizard).
 
 Pour plus d’informations sur les modes de coexistence, les conditions préalables et la gestion, reportez-vous à la rubrique [Guide de migration et d’interopérabilité pour les organisations qui utilisent des équipes avec Skype entreprise](https://aka.ms/SkypeToTeams-Interop) et [définissant vos paramètres de coexistence et de mise à niveau](https://aka.ms/SkypeToTeams-SetCoexistence).
 

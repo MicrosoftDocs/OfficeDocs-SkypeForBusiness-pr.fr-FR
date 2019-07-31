@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b1cfb8302476983eeb5be180307bc143eb281dc
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9994bb8efa862cc66cb1e081d0ca8136b4fb1871
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548508"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934501"
 ---
 ![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation] (media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
@@ -39,11 +39,11 @@ Cet article fait partie de l’étape de déploiement et d’implémentation de 
 Suivez les recommandations de cet article si vous avez entièrement déployé Skype entreprise Online et voulez mettre à niveau vos utilisateurs de Skype entreprise vers Teams. Vous pouvez mettre à niveau les utilisateurs de manière sélective ou sélective, en fonction du parcours de mise à niveau choisi par votre organisation, en attribuant la coexistence et le mode de mise à niveau appropriés à vos utilisateurs.
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui. Rappelez-vous qu’une mise à niveau réussie aligne les techniques et les capacités de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Attribuer le mode de coexistence et de mise à niveau
 
-Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en assignant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du centre d’administration Microsoft teams ou d’une session Windows PowerShell Skype entreprise distante. Vous pouvez effectuer cette opération sur une base par utilisateur ou sur une base d’un client si vous voulez ugprade tout le client en une seule étape. 
+Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en assignant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du centre d’administration Microsoft teams ou d’une session Windows PowerShell Skype entreprise distante. Vous pouvez effectuer cette opération sur une base par utilisateur ou sur une base d’un client si vous souhaitez mettre à niveau tout le client en une seule étape. 
 
 Pour plus d’informations, reportez-vous à [définition de votre coexistence et de vos paramètres de mise à](https://aka.ms/SkypeToTeams-SetCoexistence) [TeamsUpgradePolicy: gestion de la migration et de](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)la coexistence.
 
@@ -69,7 +69,7 @@ Suivez ces étapes si vous souhaitez mettre à niveau progressivement vos utilis
 
 Il arrive souvent que les organisations choisissent de mettre à niveau leurs organisations en cas d’onde de réussite.  Vous souhaiterez peut-être identifier ces utilisateurs d’abord pour pouvoir les Rechercher dans le centre d’administration Microsoft Teams. Par ailleurs, il est possible que vous souhaitiez utiliser PowerShell pour plus efficacement. Une fois que vous avez identifié le jeu d’utilisateurs pour une vague de mise à niveau donnée, poursuivez les étapes restantes.
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>Étape 2: définir une notification pour les utilisateurs de l’onde ugprade actuelle (facultatif)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Étape 2: définir une notification pour les utilisateurs de l’onde de mise à niveau actuelle (facultatif)
 
 Si vous utilisez le centre d’administration de Microsoft Teams, vous pouvez configurer TeamsUpgradePolicy pour 20 utilisateurs à la fois:
 1. Dans le centre d’administration de Microsoft Teams, sélectionnez **utilisateurs**, puis recherchez et activez la case à cocher pour 20 utilisateurs maximum qui doivent être mis à niveau. 
