@@ -1,0 +1,208 @@
+---
+title: Configuration d’un compte de ressource dans Skype entreprise Server 2019
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.reviewer: wasseemh
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: ''
+description: Configurez un compte de ressource pour Skype entreprise Server 2019.
+ms.openlocfilehash: 33211f7dcd56e402167a3c810343947d4dfe0954
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "36160534"
+---
+# <a name="configure-resource-accounts"></a><span data-ttu-id="0af1a-103">Configurer des comptes de ressources</span><span class="sxs-lookup"><span data-stu-id="0af1a-103">Configure resource accounts</span></span>
+
+<span data-ttu-id="0af1a-104">Les implémentations hybrides de Skype entreprise Server 2019 utilisent uniquement les services Cloud fournis par le système téléphonique pour la messagerie unifiée et ne s’intègrent pas à Exchange Online.</span><span class="sxs-lookup"><span data-stu-id="0af1a-104">Skype for Business Server 2019 hybrid implementations only use Cloud services provided by Phone System for unified messaging and do not integrate with Exchange Online.</span></span> <span data-ttu-id="0af1a-105">Dans Skype entreprise Server 2019, vous pouvez désormais utiliser les files d’attente d’appels Cloud et les standards automatiques décrits dans la section relative à la prise en charge du [système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).</span><span class="sxs-lookup"><span data-stu-id="0af1a-105">In Skype for Business Server 2019 you are now able to use the Cloud call queues and auto attendants described in [Here's what you get with Phone System in Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).</span></span>
+
+<span data-ttu-id="0af1a-106">Pour utiliser ces services de système téléphonique avec Skype entreprise Server 2019, vous devrez créer des comptes de ressources qui agissent en tant que points de terminaison d’application et peuvent recevoir des numéros de téléphone, puis utiliser le centre d’administration teams Online pour configurer la file d’attente d’appels ou le standard automatique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-106">To use these Phone System services with Skype for Business Server 2019, you will need to create resource accounts that act as application endpoints and can be assigned phone numbers, then use the online Teams admin center to configure the call queue or auto attendant.</span></span> <span data-ttu-id="0af1a-107">Ce compte de ressource peut être hébergé en ligne (consultez la rubrique [Manage Resource Accounts in Microsoft teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressource hébergés en ligne) ou sur site comme décrit dans cet article.</span><span class="sxs-lookup"><span data-stu-id="0af1a-107">This resource account can be homed online (see [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) to create resource accounts homed online) or on premise as described in this article.</span></span> <span data-ttu-id="0af1a-108">En règle générale, vous aurez plusieurs nœuds de service de système téléphonique, chacun d’entre eux étant mappé sur un compte de ressource qui peut être hébergé en ligne ou dans Skype entreprise Server 2019.</span><span class="sxs-lookup"><span data-stu-id="0af1a-108">Typically you will have multiple Phone System service nodes, each of which is mapped to a resource accounts, which can be homed online or in Skype for Business Server 2019.</span></span>
+
+<span data-ttu-id="0af1a-109">Si vous disposez d’un système de file d’attente automatique et d’appels de messagerie unifiée Exchange existant, avant de passer à Exchange Server 2019 ou Exchange Online, vous devez enregistrer manuellement les détails comme décrit ci-dessous, puis implémenter un système entièrement nouveau à l’aide du centre d’administration Teams. .</span><span class="sxs-lookup"><span data-stu-id="0af1a-109">If you have an existing Exchange UM auto attendant and call queue system, before you switch to Exchange Server 2019 or Exchange online you will need to manually record the details as described below and then implement a completely new system using the Teams admin center.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="0af1a-110">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="0af1a-110">Overview</span></span>
+
+<span data-ttu-id="0af1a-111">Si votre service de système téléphonique nécessite un numéro de service, les diverses dépendances peuvent être satisfaites dans la séquence suivante:</span><span class="sxs-lookup"><span data-stu-id="0af1a-111">If your Phone System service will need a service number, the various dependencies can be met in the following sequence:</span></span>
+
+1. <span data-ttu-id="0af1a-112">Obtenir un numéro de service</span><span class="sxs-lookup"><span data-stu-id="0af1a-112">Obtain a service number</span></span>
+2. <span data-ttu-id="0af1a-113">Acheter une licence de système téléphonique</span><span class="sxs-lookup"><span data-stu-id="0af1a-113">Buy a Phone System license</span></span>
+3. <span data-ttu-id="0af1a-114">Créez le compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-114">Create the resource account.</span></span> <span data-ttu-id="0af1a-115">Un standard automatique ou une file d’attente d’appels doit être associé à un compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-115">An auto attendant or call queue is required to have an associated resource account.</span></span>
+4. <span data-ttu-id="0af1a-116">Attendre une synchronisation Active Directory entre en ligne et sur site</span><span class="sxs-lookup"><span data-stu-id="0af1a-116">Wait for an active directory sync between online and on premise</span></span>
+5. <span data-ttu-id="0af1a-117">Affectez la licence de système téléphonique au compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-117">Assign the Phone System license to the resource account.</span></span>
+6. <span data-ttu-id="0af1a-118">Affectez un numéro de service au compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-118">Assign a service number to the resource account.</span></span>
+7. <span data-ttu-id="0af1a-119">Créer un service système téléphonique (une file d’attente d’appels ou un standard automatique)</span><span class="sxs-lookup"><span data-stu-id="0af1a-119">Create a Phone System service (a call queue or auto attendant)</span></span>
+8. <span data-ttu-id="0af1a-120">Associer le compte de ressource à un service: (New-CsApplicationInstanceAssociation)</span><span class="sxs-lookup"><span data-stu-id="0af1a-120">Associate the resource account with a service: (New-CsApplicationInstanceAssociation)</span></span>
+
+<span data-ttu-id="0af1a-121">Si le standard automatique ou la file d’attente des appels est imbriqué sous un standard automatique de niveau supérieur, le compte de ressource associé n’a besoin que d’un numéro de téléphone si vous souhaitez utiliser plusieurs points d’entrée dans la structure des standards automatiques et des files d’attente d’appels.</span><span class="sxs-lookup"><span data-stu-id="0af1a-121">If the auto attendant or call queue is nested under a top level auto attendant, the associated resource account only needs a phone number if you want multiple points of entry into the structure of auto attendants and call queues.</span></span>
+
+<span data-ttu-id="0af1a-122">Pour rediriger les appels vers des personnes de votre organisation qui sont hébergées en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour voix entreprise ou avoir des forfaits d’appels Office 365.</span><span class="sxs-lookup"><span data-stu-id="0af1a-122">To redirect calls to people in your organization who are homed Online, they must have a **Phone System** license and be enabled for Enterprise Voice or have Office 365 Calling Plans.</span></span> <span data-ttu-id="0af1a-123">Consultez la rubrique [attribuer des licences Microsoft teams](/MicrosoftTeams/assign-teams-licenses).</span><span class="sxs-lookup"><span data-stu-id="0af1a-123">See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses).</span></span> <span data-ttu-id="0af1a-124">Pour les activer pour voix entreprise, vous pouvez utiliser Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="0af1a-124">To enable them for Enterprise Voice, you can use Windows PowerShell.</span></span> <span data-ttu-id="0af1a-125">Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span><span class="sxs-lookup"><span data-stu-id="0af1a-125">For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`</span></span>
+
+<span data-ttu-id="0af1a-126">Si le service système téléphonique que vous créez est imbriqué et n’a pas besoin de numéro de téléphone, le processus est le suivant:</span><span class="sxs-lookup"><span data-stu-id="0af1a-126">If the Phone system service you're creating will be nested and will not need a phone number, the process is:</span></span>
+
+1. <span data-ttu-id="0af1a-127">Créer le compte de ressource</span><span class="sxs-lookup"><span data-stu-id="0af1a-127">Create the resource account</span></span>  
+2. <span data-ttu-id="0af1a-128">Attendre une synchronisation Active Directory entre en ligne et sur site</span><span class="sxs-lookup"><span data-stu-id="0af1a-128">Wait for an active directory sync between online and on premise</span></span>
+3. <span data-ttu-id="0af1a-129">Créer un service système téléphonique</span><span class="sxs-lookup"><span data-stu-id="0af1a-129">Create a Phone System service</span></span>
+4. <span data-ttu-id="0af1a-130">Associer le compte de ressource à un service de système téléphonique</span><span class="sxs-lookup"><span data-stu-id="0af1a-130">Associate the resource account with a Phone System service</span></span>
+
+## <a name="create-a-resource-account-with-a-phone-number"></a><span data-ttu-id="0af1a-131">Créer un compte de ressource avec un numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="0af1a-131">Create a resource account with a phone number</span></span>
+
+<span data-ttu-id="0af1a-132">La création d’un compte de ressource qui utilise un numéro de téléphone nécessiterait d’effectuer les tâches suivantes dans l’ordre suivant:</span><span class="sxs-lookup"><span data-stu-id="0af1a-132">Creating a resource account that uses a phone number would require performing the following tasks in the following order:</span></span>
+
+1. <span data-ttu-id="0af1a-133">Port ou obtenir un numéro de service payant ou gratuit.</span><span class="sxs-lookup"><span data-stu-id="0af1a-133">Port or get a toll or toll-free service number.</span></span> <span data-ttu-id="0af1a-134">Le numéro ne peut être attribué à aucun autre service de téléphonie ou compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-134">The number can't be assigned to any other voice services or resource accounts.</span></span>
+
+   <span data-ttu-id="0af1a-135">Avant d’attribuer un numéro de téléphone à un compte de ressource, vous devrez obtenir ou transférer vos numéros de service payants ou gratuits.</span><span class="sxs-lookup"><span data-stu-id="0af1a-135">Before you assign a phone number to a resource account, you will need to get or port your existing toll or toll-free service numbers.</span></span> <span data-ttu-id="0af1a-136">Une fois que vous avez obtenu les numéros de téléphone du service payant ou gratuit, ceux-ci s’afficheront dans les**numéros de téléphone\*\*\*\*vocaux** > du centre > d' **administration Microsoft teams**, et le **type de numéro** affiché sera mentionné en tant que **service-** gratuit.</span><span class="sxs-lookup"><span data-stu-id="0af1a-136">After you get the toll or toll-free service phone numbers, they will show up in **Microsoft Teams admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**.</span></span> <span data-ttu-id="0af1a-137">Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de téléphone de service](/MicrosoftTeams/getting-service-phone-numbers) ou pour transférer un numéro de service existant, consultez la rubrique transférer des [numéros de téléphone vers Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).</span><span class="sxs-lookup"><span data-stu-id="0af1a-137">To get your service numbers, see [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers) or if you want to transfer an existing service number, see [Transfer phone numbers to Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).</span></span>
+
+   <span data-ttu-id="0af1a-138">Si vous n’êtes pas aux États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft teams pour obtenir des numéros de service.</span><span class="sxs-lookup"><span data-stu-id="0af1a-138">If you are outside the United States, you can't use the Microsoft Teams admin center to get service numbers.</span></span> <span data-ttu-id="0af1a-139">Accédez à la rubrique [gérer les numéros de téléphone de votre organisation](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) à la place de l’extérieur des États-Unis.</span><span class="sxs-lookup"><span data-stu-id="0af1a-139">Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.</span></span>
+
+2. <span data-ttu-id="0af1a-140">Acheter une licence de système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-140">Buy a Phone System license.</span></span> <span data-ttu-id="0af1a-141">Voir :</span><span class="sxs-lookup"><span data-stu-id="0af1a-141">See:</span></span>  
+   - [<span data-ttu-id="0af1a-142">Office 365 entreprise E1 et E3</span><span class="sxs-lookup"><span data-stu-id="0af1a-142">Office 365 Enterprise E1 and E3</span></span>](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
+   - [<span data-ttu-id="0af1a-143">Office 365 Entreprise E5</span><span class="sxs-lookup"><span data-stu-id="0af1a-143">Office 365 Enterprise E5</span></span>](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
+   - [<span data-ttu-id="0af1a-144">Office 365 entreprise E5 Software</span><span class="sxs-lookup"><span data-stu-id="0af1a-144">Office 365 Enterprise E5 Business Software</span></span>](https://products.office.com/business/office-365-enterprise-e5-business-software)
+
+3. <span data-ttu-id="0af1a-145">Créez un compte de ressource local en exécutant l' `New-CsHybridApplicationEndpoint` applet de commande pour chaque service de système téléphonique et attribuez un nom, une adresse SIP et ainsi de suite à chacun d’eux.</span><span class="sxs-lookup"><span data-stu-id="0af1a-145">Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each Phone System service, and give each one a name, sip address, and so on.</span></span>
+
+    ``` Powershell
+    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    ```
+
+    <span data-ttu-id="0af1a-146">Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="0af1a-146">See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.</span></span>
+
+4. <span data-ttu-id="0af1a-147">Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre la synchronisation de l’annonce publicitaire en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne des services du système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-147">(Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System services.</span></span> <span data-ttu-id="0af1a-148">Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande):</span><span class="sxs-lookup"><span data-stu-id="0af1a-148">To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):</span></span>
+
+    ``` Powershell
+    Start-ADSyncSyncCycle -PolicyType Delta
+    ```
+
+    <span data-ttu-id="0af1a-149">Pour plus d’informations sur cette commande, voir [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .</span><span class="sxs-lookup"><span data-stu-id="0af1a-149">See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.</span></span>
+
+5. <span data-ttu-id="0af1a-150">Affectez la licence de système téléphonique au compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-150">Assign the Phone System license to the resource account.</span></span> <span data-ttu-id="0af1a-151">Consultez la rubrique [attribuer des licences Microsoft teams](/MicrosoftTeams/assign-teams-licenses) et [attribuer des licences à un utilisateur](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).</span><span class="sxs-lookup"><span data-stu-id="0af1a-151">See [Assign Microsoft Teams licenses](/MicrosoftTeams/assign-teams-licenses) and [Assign licenses to one user](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).</span></span>
+
+    <span data-ttu-id="0af1a-152">Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence utilisateur virtuelle du système téléphonique économique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-152">If you are assigning a phone number to a resource account you can now use the cost-free Phone System Virtual User license.</span></span> <span data-ttu-id="0af1a-153">Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation et vous permet de créer des fonctionnalités de standard automatique et de file d’attente d’appel.</span><span class="sxs-lookup"><span data-stu-id="0af1a-153">This provides Phone System capabilities to phone numbers at the organizational level, and allows you to create auto attendant and call queue capabilities.</span></span>
+
+
+6. <span data-ttu-id="0af1a-154">Affectez le numéro de service au compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-154">Assign the service number to the resource account.</span></span> <span data-ttu-id="0af1a-155">Utilisez la `Set-CsHybridApplicationEndpoint` commande pour affecter un numéro de téléphone (avec l’option-LineURI) au compte de ressource.</span><span class="sxs-lookup"><span data-stu-id="0af1a-155">Use the `Set-CsHybridApplicationEndpoint` command to a assign a phone number (with the -LineURI option) to the resource account.</span></span>
+
+    ``` Powershell
+    Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
+    ```
+
+    <span data-ttu-id="0af1a-156">Pour plus d’informations sur cette commande, voir [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="0af1a-156">See [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) for more details on this command.</span></span>
+
+    <span data-ttu-id="0af1a-157">Pour affecter un routage direct ou un numéro hybride à un compte de ressource, utilisez l’applet de commande suivante:</span><span class="sxs-lookup"><span data-stu-id="0af1a-157">To assign a direct routing or hybrid number to  a resource account, use the following cmdlet:</span></span>
+
+   ``` Powershell
+   Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
+   ```
+
+<span data-ttu-id="0af1a-158">Le compte de ressource aura besoin d’un numéro de téléphone attribué s’il doit être affecté à un standard automatique de niveau supérieur ou une file d’attente d’appels.</span><span class="sxs-lookup"><span data-stu-id="0af1a-158">The resource account will need an assigned phone number if it will be assigned to a top level auto attendant or call queue.</span></span> <span data-ttu-id="0af1a-159">Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressource, seuls les numéros payants ou gratuits du service peuvent être utilisés.</span><span class="sxs-lookup"><span data-stu-id="0af1a-159">User (subscriber) phone numbers can't be assigned to a resource account, only service toll or toll-free phone numbers can be used.</span></span>
+
+    You can assign a Direct Routing Hybrid number to your resource account.  See [Plan Direct Routing](direct-routing-plan) for details.
+
+    > [!NOTE]
+    > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
+
+    > [!NOTE]
+    > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
+
+7. <span data-ttu-id="0af1a-160">Créez le service système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-160">Create the Phone system service.</span></span> <span data-ttu-id="0af1a-161">Consultez l’une des rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="0af1a-161">See one of the following:</span></span>
+
+   - [<span data-ttu-id="0af1a-162">Configurer un standard automatique Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-162">Set up a Cloud auto attendant</span></span>](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [<span data-ttu-id="0af1a-163">Créer une file d’attente d’appels sur le Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-163">Create a Cloud call queue</span></span>](/MicrosoftTeams/create-a-phone-system-call-queue)  
+
+8. <span data-ttu-id="0af1a-164">Associez le compte de ressource au service système téléphonique que vous avez choisi précédemment.</span><span class="sxs-lookup"><span data-stu-id="0af1a-164">Associate the resource account with the Phone system service you chose previously.</span></span>
+
+<span data-ttu-id="0af1a-165">Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise: set up a auto](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).</span><span class="sxs-lookup"><span data-stu-id="0af1a-165">An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).</span></span>
+
+## <a name="create-a-resource-account-without-a-phone-number"></a><span data-ttu-id="0af1a-166">Créer un compte de ressource sans numéro de téléphone</span><span class="sxs-lookup"><span data-stu-id="0af1a-166">Create a resource account without a phone number</span></span>
+
+<span data-ttu-id="0af1a-167">Cette section traite de la création d’un compte de ressource hébergé sur site.</span><span class="sxs-lookup"><span data-stu-id="0af1a-167">This section discusses creating a resource account that is homed on premise.</span></span> <span data-ttu-id="0af1a-168">La création d’un compte de ressource hébergé en ligne est abordée dans [Manage Resource Accounts in Microsoft teams](/MicrosoftTeams/manage-resource-accounts).</span><span class="sxs-lookup"><span data-stu-id="0af1a-168">Creating a resource account that is homed online is discussed at [Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).</span></span>
+
+<span data-ttu-id="0af1a-169">Ces étapes sont nécessaires si vous créez un nouveau système de service de système téléphonique, ou si vous créez une structure créée dans la messagerie unifiée Exchange.</span><span class="sxs-lookup"><span data-stu-id="0af1a-169">These steps are necessary whether you are creating a brand new Phone System service system, or rebuilding structure originally created in Exchange UM.</span></span>
+
+<span data-ttu-id="0af1a-170">Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de commande PowerShell suivantes:</span><span class="sxs-lookup"><span data-stu-id="0af1a-170">Log in to the Skype for Business front end server and run the following PowerShell cmdlets:</span></span>
+
+1. <span data-ttu-id="0af1a-171">Créez un compte de ressource local en exécutant l' `New-CsHybridApplicationEndpoint` applet de commande pour chaque service de système téléphonique et attribuez un nom, une adresse SIP et ainsi de suite à chacun d’eux.</span><span class="sxs-lookup"><span data-stu-id="0af1a-171">Create an on-premises resource account by running the `New-CsHybridApplicationEndpoint` cmdlet for each Phone System service, and give each one a name, sip address, and so on.</span></span>
+
+    ``` Powershell
+    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    ```
+
+    <span data-ttu-id="0af1a-172">Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="0af1a-172">See [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) for more details on this command.</span></span>
+
+2. <span data-ttu-id="0af1a-173">Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre la synchronisation de l’annonce publicitaire en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne des services du système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-173">(Optional) Once your resource accounts are created, you can either wait for AD to sync between online and on premise, or force a sync and proceed to online configuration of Phone System services.</span></span> <span data-ttu-id="0af1a-174">Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande):</span><span class="sxs-lookup"><span data-stu-id="0af1a-174">To force a sync you would run the following command on the computer running AAD Connect (if you haven't done so already you would need to load `import-module adsync` to run the command):</span></span>
+
+    ``` Powershell
+    Start-ADSyncSyncCycle -PolicyType Delta
+    ```
+
+    <span data-ttu-id="0af1a-175">Pour plus d’informations sur cette commande, voir [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .</span><span class="sxs-lookup"><span data-stu-id="0af1a-175">See [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) for more details on this command.</span></span>
+
+3. <span data-ttu-id="0af1a-176">Créez le service système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-176">Create the Phone system service.</span></span> <span data-ttu-id="0af1a-177">Consultez l’une des rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="0af1a-177">See one of the following:</span></span>
+   - [<span data-ttu-id="0af1a-178">Configurer un standard automatique Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-178">Set up a Cloud auto attendant</span></span>](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [<span data-ttu-id="0af1a-179">Créer une file d’attente d’appels sur le Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-179">Create a Cloud call queue</span></span>](/MicrosoftTeams/create-a-phone-system-call-queue)  
+4. <span data-ttu-id="0af1a-180">Associez le compte de ressource et le service système téléphonique que vous avez choisi précédemment.</span><span class="sxs-lookup"><span data-stu-id="0af1a-180">Associate the resource account and the Phone System service you chose previously.</span></span>
+
+<span data-ttu-id="0af1a-181">Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise: set up a auto](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).</span><span class="sxs-lookup"><span data-stu-id="0af1a-181">An example of a small business implementation is available in  [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) and [Small business example - Set up a call queue](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).</span></span>
+
+## <a name="test-the-implementation"></a><span data-ttu-id="0af1a-182">Tester l’implémentation</span><span class="sxs-lookup"><span data-stu-id="0af1a-182">Test the implementation</span></span>
+
+<span data-ttu-id="0af1a-183">La meilleure façon de tester l’implémentation est d’appeler le numéro configuré pour un service de système téléphonique et de se connecter à l’un des agents ou des menus.</span><span class="sxs-lookup"><span data-stu-id="0af1a-183">The best way to test the implementation is to call the number configured for a Phone System service and connect to one of the agents or menus.</span></span> <span data-ttu-id="0af1a-184">Vous pouvez également passer rapidement un appel de test à l’aide du **bouton test** dans le volet d’action du centre d’administration.</span><span class="sxs-lookup"><span data-stu-id="0af1a-184">You can also quickly place a test call by using the **Test button** in the admin center Action pane.</span></span> <span data-ttu-id="0af1a-185">Si vous souhaitez apporter des modifications à un service de système téléphonique, sélectionnez-le, puis, dans le volet Actions, cliquez sur **modifier**.</span><span class="sxs-lookup"><span data-stu-id="0af1a-185">If you want to make changes to a Phone System service, select it and then in the Action pane click **Edit**.</span></span>
+
+## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a><span data-ttu-id="0af1a-186">Transfert d’un standard automatique de messagerie unifiée Exchange ou d’une file d’attente d’appels vers le système téléphonique</span><span class="sxs-lookup"><span data-stu-id="0af1a-186">Moving an Exchange UM auto attendant or call queue to Phone System</span></span>
+
+<span data-ttu-id="0af1a-187">La migration du service de messagerie unifiée Exchange vers le système téléphonique nécessite la recréation de la file d’attente et de la structure du standard automatique, la migration directe de l’une vers l’autre n’est pas prise en charge.</span><span class="sxs-lookup"><span data-stu-id="0af1a-187">Migration from Exchange UM to Phone System will require recreating the call queue and auto attendant structure, directly migrating from one to the other is not supported.</span></span> <span data-ttu-id="0af1a-188">Pour réimplémenter un ensemble de files d’attente d’appels et de standards automatiques:</span><span class="sxs-lookup"><span data-stu-id="0af1a-188">To re-implement a set of call queues and auto attendants:</span></span>
+
+1. <span data-ttu-id="0af1a-189">Obtenez la liste de tous les standards automatiques de messagerie unifiée Exchange et des files d’attente d’appels en exécutant la commande suivante sur le système Exchange 2013 ou 2016 lorsque vous êtes connecté en tant qu’administrateur:</span><span class="sxs-lookup"><span data-stu-id="0af1a-189">Get a list of all Exchange UM auto attendants and call queues by running the following command on the Exchange 2013 or 2016 system while logged in as admin:</span></span>
+
+    ``` Powershell
+    Get-UMAutoAttendant | Format-List
+    ```
+
+2. <span data-ttu-id="0af1a-190">Pour chaque file d’attente d’appels de messagerie unifiée Exchange ou standard automatique, notez son emplacement dans la structure, les paramètres et les copies des fichiers audio ou de synthèse vocale associés (le GUID dans le résultat sera le nom d’un dossier dans lequel les fichiers sont stockés).</span><span class="sxs-lookup"><span data-stu-id="0af1a-190">For each listed Exchange UM call queue or auto attendant, note its place in the structure, settings, and get copies of associated sound or text-to-speech files (the guid in the output will be the name of a folder where the files are stored).</span></span> <span data-ttu-id="0af1a-191">Vous pouvez obtenir ces détails en exécutant la commande:</span><span class="sxs-lookup"><span data-stu-id="0af1a-191">You can get these details by running the command:</span></span>
+
+    ``` Powershell
+    Get-UMAutoAttendant -Identity MyUMAutoAttendant
+    ```
+
+    <span data-ttu-id="0af1a-192">Pour plus d’informations sur cette commande, voir [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) .</span><span class="sxs-lookup"><span data-stu-id="0af1a-192">See [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) for more details on this command.</span></span> <span data-ttu-id="0af1a-193">La liste complète des options que vous devrez peut-être capturer concerne les [membres UMAutoAttendant](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) , mais les options les plus importantes à noter sont les suivantes:</span><span class="sxs-lookup"><span data-stu-id="0af1a-193">A complete list of options you might need to capture is at [UMAutoAttendant members](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) but the most important options to note down are:</span></span>
+
+    - <span data-ttu-id="0af1a-194">Heures d'ouverture</span><span class="sxs-lookup"><span data-stu-id="0af1a-194">Business hours</span></span>
+    - <span data-ttu-id="0af1a-195">Heures d’ouverture</span><span class="sxs-lookup"><span data-stu-id="0af1a-195">Non-business hours</span></span>
+    - <span data-ttu-id="0af1a-196">Langue</span><span class="sxs-lookup"><span data-stu-id="0af1a-196">Language</span></span>
+    - <span data-ttu-id="0af1a-197">Planning des congés</span><span class="sxs-lookup"><span data-stu-id="0af1a-197">Holiday schedule</span></span>
+
+3. <span data-ttu-id="0af1a-198">Créez de nouveaux points de terminaison sur site, comme décrit précédemment.</span><span class="sxs-lookup"><span data-stu-id="0af1a-198">Create new on-premises endpoints as previously described.</span></span>
+   <span data-ttu-id="0af1a-199">Affectez au standard automatique de niveau supérieur un numéro temporaire à des fins de test.</span><span class="sxs-lookup"><span data-stu-id="0af1a-199">Assign the top-level auto attendant a temporary number for testing purposes.</span></span>
+
+4. <span data-ttu-id="0af1a-200">Configurez un service de système téléphonique qui utilise les points de terminaison comme décrit précédemment.</span><span class="sxs-lookup"><span data-stu-id="0af1a-200">Configure a Phone system service that uses the endpoints as previously described.</span></span>
+
+   <span data-ttu-id="0af1a-201">Il peut s’avérer utile d’utiliser les exercices du didacticiel intitulé [petite entreprise-configurer un standard automatique](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) pour créer une carte logique des hiérarchies dans votre ancien système de messagerie unifiée Exchange.</span><span class="sxs-lookup"><span data-stu-id="0af1a-201">You may find it useful to use the exercises in the tutorial titled [Small business example - Set up an auto attendant](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) to create a logical map of the hierarchies in your old Exchange UM system.</span></span>
+5. <span data-ttu-id="0af1a-202">Testez le service système téléphonique.</span><span class="sxs-lookup"><span data-stu-id="0af1a-202">Test the Phone System service.</span></span>
+6. <span data-ttu-id="0af1a-203">Réassignez le numéro de téléphone lié à la file d’attente d’appels de messagerie unifiée Exchange ou au standard automatique pour le service système téléphonique correspondant.</span><span class="sxs-lookup"><span data-stu-id="0af1a-203">Reassign the phone number linked to the Exchange UM call queue or auto attendant to the corresponding Phone system service.</span></span>  
+
+   <span data-ttu-id="0af1a-204">À ce stade, si vous avez déjà migré la messagerie vocale de messagerie unifiée, vous devez être en mesure de migrer vers Exchange Server 2019.</span><span class="sxs-lookup"><span data-stu-id="0af1a-204">At this point, if you have already migrated UM Voicemail, you should be in a position to migrate to Exchange Server 2019.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="0af1a-205">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0af1a-205">See Also</span></span>
+
+[<span data-ttu-id="0af1a-206">Créer une file d’attente d’appels sur le Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-206">Create a Cloud call queue</span></span>](/MicrosoftTeams/create-a-phone-system-call-queue)
+
+[<span data-ttu-id="0af1a-207">Qu’est-ce que les standards automatiques Cloud?</span><span class="sxs-lookup"><span data-stu-id="0af1a-207">What are Cloud auto attendants?</span></span>](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+
+[<span data-ttu-id="0af1a-208">Configurer un standard automatique Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-208">Set up a Cloud auto attendant</span></span>](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
+
+[<span data-ttu-id="0af1a-209">Planifier les standards automatiques Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-209">Plan Cloud auto attendants</span></span>](plan-cloud-auto-attendant.md)
+
+[<span data-ttu-id="0af1a-210">Planifier les files d’attente des appels Cloud</span><span class="sxs-lookup"><span data-stu-id="0af1a-210">Plan Cloud call queues</span></span>](plan-call-queue.md)
+
+[<span data-ttu-id="0af1a-211">Planifier le service de messagerie vocale sur le Cloud pour les utilisateurs locaux</span><span class="sxs-lookup"><span data-stu-id="0af1a-211">Plan Cloud Voicemail service for on-premises users</span></span>](plan-cloud-voicemail.md)
+
+[<span data-ttu-id="0af1a-212">New-CsHybridApplicationEndpoint</span><span class="sxs-lookup"><span data-stu-id="0af1a-212">New-CsHybridApplicationEndpoint</span></span>](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
+
+[<span data-ttu-id="0af1a-213">New-CsOnlineApplicationInstance</span><span class="sxs-lookup"><span data-stu-id="0af1a-213">New-CsOnlineApplicationInstance</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+<span data-ttu-id="0af1a-214">[Gérer les comptes de ressources dans Microsoft teams](/MicrosoftTeams/manage-resource-accounts) - \(pour créer des comptes de ressource hébergés en ligne\)</span><span class="sxs-lookup"><span data-stu-id="0af1a-214">[Manage resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) - \(to create resource accounts homed online\)</span></span>
