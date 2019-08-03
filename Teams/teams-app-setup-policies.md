@@ -3,7 +3,6 @@ title: Gérer les stratégies de mise en application dans Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,13 +17,13 @@ localization_priority: Normal
 search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
-- ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221805"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171080"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -45,8 +44,6 @@ Vous pouvez modifier les paramètres de la stratégie globale de manière à inc
 
 ![Capture d’écran montrant la page stratégies de configuration des applications](media/app-setup-policies.png)
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
-
 > [!NOTE]
 > Si vous disposez d’équipes pour l’éducation, il est important de savoir que l’application devoirs est épinglée par défaut dans la stratégie globale, même si elle n’est pas répertoriée dans la stratégie globale. Il s’agira de la quatrième application de la liste des applications épinglées sur les clients Teams.
 
@@ -55,9 +52,9 @@ Vous pouvez modifier les paramètres de la stratégie globale de manière à inc
 Vous pouvez utiliser le centre d’administration de Microsoft teams pour créer une stratégie personnalisée.
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies de configuration**des **applications** > teams.
-2. Sélectionnez **nouvelle stratégie**.
-3. Entrez un nom descriptif pour la stratégie, puis cliquez sur **Ajouter des applications**.
-4. Activez ou désactivez l’option autoriser le téléchargement d' **applications personnalisées**, selon que vous voulez permettre aux utilisateurs de télécharger des applications personnalisées dans Teams.
+2. Cliquez sur **Ajouter**.
+3. Entrez le nom et la description de la stratégie, puis cliquez sur **Ajouter des applications**.
+4. Activez ou désactivez l’option autoriser le téléchargement d' **applications personnalisées**, selon que vous voulez permettre aux utilisateurs de télécharger des applications personnalisées dans Teams. Vous ne pourrez pas modifier ce paramètre si l’option **autoriser les applications tierces ou personnalisées** est désactivée dans [les paramètres](teams-app-permission-policies.md#manage-org-wide-app-settings) de l’application à l’échelle de l’organisation dans les stratégies d’autorisation d’application.
 5. Dans le volet **Ajouter des applications épinglées** , recherchez les applications que vous voulez ajouter, puis cliquez sur **Ajouter**. Vous pouvez également filtrer les applications par stratégie d’autorisation d’applications. Lorsque vous avez choisi votre liste d’applications, cliquez sur **Ajouter**.
 
      ![Capture d’écran montrant le volet ajouter des applications épinglées](media/app-setup-policies-add-apps.png)
@@ -71,7 +68,7 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour créer
 Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifier une stratégie, dont la stratégie globale par défaut de l’organisation et les stratégies personnalisées que vous créez.
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies de configuration**des **applications** > teams.
-2. Sélectionnez la stratégie que vous voulez modifier. 
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
 3. À partir de cet emplacement, apportez les modifications souhaitées. Vous pouvez ajouter, supprimer et modifier l’ordre des applications.
 4. Cliquez sur **Enregistrer**.
 
@@ -79,20 +76,17 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifi
 
 Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à des utilisateurs individuels ou au module PowerShell Skype entreprise pour attribuer une stratégie personnalisée à des groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution.
 
-> [!IMPORTANT]
-> Nous vous recommandons d’utiliser PowerShell uniquement pour attribuer des stratégies aux utilisateurs. Utilisez le centre d’administration de Microsoft teams pour créer, modifier et gérer des stratégies.
-
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Assigner une stratégie de configuration d’application personnalisée à des utilisateurs individuels
+### <a name="assign-a-custom-app-setup-policy-to-users"></a>Assigner une stratégie de configuration d’application personnalisée aux utilisateurs
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis cliquez sur l’utilisateur.
-2. En regard de **stratégies affectées**, choisissez **modifier**.
-3. Sous **stratégie de configuration des applications teams**, sélectionnez la stratégie de configuration de l’application que vous voulez attribuer, puis cliquez sur **Enregistrer**.
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de l’utilisateur, puis sur **modifier les paramètres**.
+3. Sous **stratégie de configuration des applications**, sélectionnez la stratégie de configuration de l’application que vous voulez attribuer, puis cliquez sur **appliquer**.
 
-    ![Capture d’écran montrant le volet modifier les stratégies d’utilisateur](media/app-setup-policies-assign-policy.png)
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
 
-Vous pouvez également affecter une stratégie de configuration d’application à un ou plusieurs utilisateurs comme suit:
+Vous pouvez également effectuer les opérations suivantes:
 
-1. Accédez à**stratégies de configuration**des**applications** > du centre > d' **administration Microsoft teams**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies de configuration**des **applications** > teams.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.

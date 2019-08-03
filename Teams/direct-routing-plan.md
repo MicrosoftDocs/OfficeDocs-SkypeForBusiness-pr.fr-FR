@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
+ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768163"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36166281"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -234,8 +234,8 @@ Le tableau suivant indique la portée de port des processeurs multimédias:
 S’applique aux cas de contournement de média et de non-contournement du contenu multimédia
 
 L’interface de routage directe sur la jambe entre le contrôleur de bordure de session et le processeur de média Cloud (sans contournement de média), ou entre le client teams et l’SBC (si le contournement de média est activé) peut utiliser les codecs suivants:
-- Contournement non multimédia (SBC pour le processeur de média Cloud): soie, G. 711, G. 722, G, 729
-- Contournement multimédia (SBC vers le client Teams): soie, G. 711, G. 722, G, 729, OPUS
+- Contournement non multimédia (SBC pour le processeur de média Cloud): soie, G. 711, G. 722, G. 729
+- Contournement multimédia (SBC vers le client Teams): soie, G. 711, G. 722, G. 729, OPUS
 
 Vous pouvez forcer l’utilisation du codec spécifique sur le contrôleur de bordure de session en excluant les codecs indésirables de l’offrant.
 

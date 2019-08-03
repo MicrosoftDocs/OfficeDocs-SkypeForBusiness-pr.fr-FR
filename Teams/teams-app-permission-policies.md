@@ -3,8 +3,7 @@ title: Gérer les stratégies d’autorisation d’application dans Microsoft Te
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 3/18/2019
-ms.reviewer: lajin
+ms.reviewer: rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,23 +15,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: Apprenez-en davantage sur les stratégies d’autorisation d’applications dans Microsoft teams et la manière de les utiliser pour contrôler les applications disponibles pour les utilisateurs de votre organisation.
 f1keywords:
-- ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: fac559fb492155af9953beb74c2fac1526f01432
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 75940330958870407c04c20629e212f799cd5fdf
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681920"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171088"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
-
-> [!NOTE]
-> Pour la méthode actuelle de gestion des applications dans Microsoft Teams, voir [gérer les paramètres de Microsoft teams pour votre organisation](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler les applications disponibles pour les utilisateurs de Microsoft teams au sein de votre organisation. Vous pouvez autoriser ou bloquer toutes les applications ou applications spécifiques publiées par Microsoft, des tiers et votre organisation. Lorsque vous bloquez une application, les utilisateurs ne peuvent pas l’installer à partir de l’App Store Teams.
 
@@ -43,18 +37,20 @@ Vous gérez les stratégies d’autorisation d’application dans le centre d’
 > [!NOTE]
 > Les utilisateurs de votre organisation obtiennent automatiquement la stratégie globale sauf si vous créez et attribuez une stratégie personnalisée. Les paramètres d’application à l’échelle de l’organisation remplacent la stratégie globale et les stratégies personnalisées que vous créez et attribuez aux utilisateurs.
 
+Si votre organisation est déjà en équipe, les paramètres d’application que vous avez configurés dans les paramètres à l' **échelle du client** du centre d’administration 365 Microsoft sont reflétés dans les paramètres de l’application à l’échelle de l’organisation. S’il s’agit de nouvelles équipes et de la mise en route, par défaut, toutes les applications sont autorisées dans la stratégie globale. Cela inclut les applications publiées par Microsoft, par des tiers et par votre organisation.
+
 Par exemple, supposons que vous souhaitiez bloquer toutes les applications tierces et autoriser des applications spécifiques de Microsoft à l’équipe RH de votre organisation. Vous pouvez créer une stratégie personnalisée nommée Stratégie d’autorisations de l’application DRH, définir le blocage et autoriser les applications souhaitées, puis les affecter aux utilisateurs de l’équipe RH.
 
 ## <a name="manage-org-wide-app-settings"></a>Gérer les paramètres d’application à l’échelle de l’Organisation
 
-Utilisez les paramètres de l’application à l’échelle de l’Organisation pour contrôler les applications disponibles dans l’ensemble de votre organisation. Les paramètres de l’application à l’échelle de l’organisation régissent le comportement de tous les utilisateurs et remplacent toutes les autres stratégies d’autorisation d’application attribuées aux utilisateurs. Les paramètres d’application à l’échelle de l’organisation prennent effet immédiatement et vous pouvez les utiliser pour contrôler les applications malveillantes ou problématiques.
+Utilisez les paramètres de l’application à l’échelle de l’Organisation pour contrôler les applications disponibles dans l’ensemble de votre organisation. Les paramètres de l’application à l’échelle de l’organisation régissent le comportement de tous les utilisateurs et remplacent toutes les autres stratégies d’autorisation d’application attribuées aux utilisateurs. Vous pouvez les utiliser pour contrôler les applications malveillantes ou problématiques.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisation**d' **application** > teams.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisations**des **applications** > teams.
 2. Sélectionnez **paramètres à l’échelle de l’organisation**. Vous pouvez alors configurer les paramètres de votre choix dans le panneau. 
 ![Capture d’écran des paramètres d’application à l’échelle de l’Organisation](media/app-permission-policies-org-wide-settings.png)
 3. Sous **applications tierces**, désactivez ou activez ces paramètres pour contrôler l’accès aux applications tierces:
 
-    - **Autoriser les applications**tierces dans teams: ce contrôle si les utilisateurs peuvent utiliser des applications tierces.
+    - **Autorisez des applications tierces ou personnalisées dans teams**: ce contrôle si les utilisateurs peuvent utiliser des applications tierces ou personnalisées.
     - **Autorisez toutes les nouvelles applications tierces publiées dans le Windows Store par défaut**: ce contrôle si les nouvelles applications tierces publiées dans le Windows Store sont automatiquement disponibles dans Teams. Vous ne pouvez définir cette option que si vous autorisez des applications tierces.
 
 4. Sous **applications personnalisées**, désactivez ou activez l’option **autoriser les interactions avec les applications personnalisées**. Ce paramètre détermine si les utilisateurs peuvent interagir avec les applications personnalisées (chargée). Gardez à l’esprit qu’il est différent de l’autorisation des utilisateurs à *Télécharger* des applications personnalisées.
@@ -65,10 +61,10 @@ Utilisez les paramètres de l’application à l’échelle de l’Organisation 
 
 Si vous voulez contrôler les applications qui sont disponibles pour différents groupes d’utilisateurs de votre organisation, créez et attribuez une ou plusieurs stratégies d’autorisation d’application personnalisées. Vous pouvez créer et attribuer des stratégies personnalisées distinctes selon que les applications sont publiées par Microsoft, par des tiers ou par votre organisation. Il est important de savoir qu’une fois que vous avez créé une stratégie personnalisée, vous ne pouvez pas la modifier si des applications tierces sont désactivées dans les paramètres à l’échelle de l’organisation. 
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisation**d' **application** > teams.
-2. Sélectionnez **nouvelle stratégie**.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisations**des **applications** > teams.
+2. Cliquez sur **Ajouter**.
     ![Capture d’écran de la nouvelle stratégie d’autorisation d’application](media/app-permission-policies-new-policy.png)
-3. Entrez un nom descriptif pour la stratégie.
+3. Entrez le nom et la description de la stratégie.
 4. Sous **applications Microsoft**, **applications**tierces et **applications clientes**, sélectionnez l’une des options suivantes:
 
     - **Autoriser toutes les applications**
@@ -87,36 +83,32 @@ Si vous voulez contrôler les applications qui sont disponibles pour différents
 
 ## <a name="edit-an-app-permission-policy"></a>Modifier une stratégie d’autorisation d’application
 
-Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifier une stratégie, dont la stratégie globale par défaut de l’organisation et les stratégies personnalisées que vous créez. 
+Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifier une stratégie, y compris la stratégie globale et les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisation**d' **application** > teams.
-2. Sélectionnez la stratégie que vous voulez modifier.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisations**des **applications** > teams.
+2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
 3. À partir de cet emplacement, apportez les modifications souhaitées. Vous pouvez gérer les paramètres en fonction de l’éditeur de l’application et ajouter et supprimer des applications en fonction du paramètre autoriser/bloquer.
 4. Cliquez sur **Enregistrer**.
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>Attribuer une stratégie d’autorisation d’application personnalisée aux utilisateurs
 
-Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à des utilisateurs individuels ou au module PowerShell Skype entreprise pour attribuer une stratégie personnalisée à plusieurs utilisateurs, par exemple tous les utilisateurs d’un groupe de sécurité ou d’un groupe de distribution.
+Vous pouvez utiliser le centre d’administration de Microsoft teams pour attribuer une stratégie personnalisée à un ou plusieurs utilisateurs ou au module PowerShell Skype entreprise pour attribuer une stratégie personnalisée à des groupes d’utilisateurs, par exemple tous les utilisateurs d’un groupe de sécurité ou d’un groupe de distribution.
 
-> [!IMPORTANT]
-> Nous vous recommandons d’utiliser PowerShell uniquement pour attribuer des stratégies aux utilisateurs. Utilisez le centre d’administration de Microsoft teams pour créer, modifier et gérer des stratégies.
+### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>Attribuer une stratégie d’autorisation d’application personnalisée à un utilisateur
 
-### <a name="assign-a-custom-app-permission-policy-to-individual-users"></a>Assigner une stratégie d’autorisation d’application personnalisée à des utilisateurs individuels
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**.
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de l’utilisateur, puis sur **modifier les paramètres**.
+3. Sous **stratégie d’autorisation d’application**, sélectionnez la stratégie d’autorisation d’application que vous voulez attribuer, puis cliquez sur **appliquer**.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis cliquez sur l’utilisateur.
-2. En regard de **stratégies affectées**, choisissez **modifier**.
-3. Sous **stratégie d’autorisation d’application**, sélectionnez la stratégie d’autorisation d’application que vous voulez attribuer, puis cliquez sur **Enregistrer**.
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
 
-    ![App-Setup-permission-Assign-Policy. png](media/app-permission-policies-assign-policy.png)
+Vous pouvez également effectuer les opérations suivantes:
 
-Vous pouvez également affecter une stratégie d’autorisation d’application à un ou plusieurs utilisateurs comme suit:
-
-1. Accédez > au **Centre d’administration Microsoft teams****stratégies d’autorisations**des**applications** > Teams.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies d’autorisations**des **applications** > teams.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
-4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
- 
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>Assigner une stratégie d’autorisation d’application personnalisée aux utilisateurs d’un groupe
 
@@ -146,8 +138,7 @@ En fonction du nombre de membres du groupe, cette commande risque de prendre que
 ### <a name="working-with-app-permission-policies"></a>Utilisation des stratégies d’autorisation d’application
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>Puis-je contrôler les applications métier?
-
-Oui, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler le lancement et la distribution d’applications personnalisées (LOB).
+Oui, vous pouvez utiliser des stratégies d’autorisation d’application pour contrôler le lancement et la distribution d’applications personnalisées (LOB). Vous pouvez créer une stratégie personnalisée ou modifier la stratégie globale pour autoriser ou bloquer des applications personnalisées en fonction des besoins de votre organisation.
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>Quelle est la relation entre les stratégies d’autorisation d’application et les stratégies d’application et de configuration d’applications?
 
@@ -155,11 +146,9 @@ Vous pouvez utiliser les stratégies de configuration d’application conjointem
 
 #### <a name="can-i-use-app-permission-policies-to-restrict-uploading-custom-apps-also-known-as-sideloading"></a>Est-il possible d’utiliser des stratégies d’autorisation d’application pour limiter le téléchargement d’applications personnalisées (également appelées chargement indépendant)?
 
-Pour en savoir plus sur la façon de limiter le téléchargement d’applications personnalisées, consultez [gérer les stratégies et paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
+Utilisez les paramètres à l’échelle de l’organisation dans les stratégies d’autorisation d’application pour limiter le téléchargement d’applications personnalisées pour votre organisation.  
 
-#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Combien de temps faut-il pour que les modifications soient prises en compte?
-
-Dès lors que vous modifiez la stratégie globale ou que vous attribuez une stratégie aux utilisateurs, le délai de 24 heures peut être nécessaire pour que les modifications soient prises en compte. Les paramètres de l’application à l’échelle de l’organisation prennent effet immédiatement.
+Pour empêcher des utilisateurs spécifiques de télécharger des applications personnalisées, utilisez des stratégies d’application personnalisées (bientôt disponible). Pour plus d’informations, consultez [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).
 
 #### <a name="does-blocking-an-app-apply-to-teams-mobile-clients"></a>Le blocage d’une application s’applique-t-elle aux clients mobiles teams?
 
@@ -169,7 +158,7 @@ Oui, lorsque vous bloquez une application, celle-ci est bloquée sur tous les cl
 
 #### <a name="what-does-a-user-experience-when-an-app-is-blocked"></a>Que se passe-t-il lorsqu’une application est bloquée?
 
-Les utilisateurs ne peuvent pas interagir avec une application bloquée ou ses fonctionnalités, telles que les robots, les onglets et les extensions de messagerie. Dans un contexte partagé, tel qu’une discussion d’équipe ou de groupe, les robots peuvent tout de même envoyer des messages à tous les participants de ce contexte. Teams indique à l’utilisateur quand une application est bloquée. 
+Les utilisateurs ne peuvent pas interagir avec une application bloquée ou ses fonctionnalités, telles que les robots, les onglets et les extensions de messagerie. Dans un contexte partagé, tel qu’une discussion d’équipe ou de groupe, les robots peuvent tout de même envoyer des messages à tous les participants de ce contexte. Teams indique à l’utilisateur quand une application est bloquée.
 
 Par exemple, quand une application est bloquée, les utilisateurs ne peuvent pas effectuer les opérations suivantes:
 
@@ -180,7 +169,9 @@ Par exemple, quand une application est bloquée, les utilisateurs ne peuvent pas
 - Configurer des connecteurs pour recevoir des notifications
 - Utiliser l’extension de messagerie de l’application
 
+Le portail hérité autorisait le contrôle des applications au niveau de l’organisation, ce qui signifie qu’une application est bloquée pour tous les utilisateurs au sein de l’organisation. Le paramètre de l’application à l’échelle de l’organisation dans les stratégies d’autorisation des applications fonctionne exactement de la même manière.
+
+Pour les stratégies d’autorisation d’application attribuées à des utilisateurs spécifiques, si une application dotée d’une fonctionnalité de robot ou de connecteur a été autorisée et bloquée et si l’application est alors autorisée uniquement pour certains utilisateurs dans un contexte partagé, les membres d’une conversation de groupe ou d’un canal ne disposant pas de l’autorisation sur cette application  peut afficher l’historique des messages et les messages publiés par le robot ou le connecteur, mais ne peut pas interagir avec celui-ci.
+
  ## <a name="related-topics"></a>Voir aussi
 - [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
-- [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
-- [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)

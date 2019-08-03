@@ -3,11 +3,10 @@ title: Paramètres d'administration pour les applications dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag, lajin
+ms.reviewer: ritikag, rarang
 description: En savoir plus sur les stratégies et les paramètres que vous pouvez utiliser pour gérer des applications pour votre organisation dans Microsoft Teams.
 localization_priority: Normal
 ms.custom:
@@ -18,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d66d410677b4cdf31d21777bfc8963f5c25168ad
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 141cff84c6c5304b40366cb89335d95d9c95daf6
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681841"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171420"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 ==========================================
@@ -32,9 +31,21 @@ ms.locfileid: "34681841"
 
 Les applications fournissent des outils prédéfinis pour votre organisation afin de tirer le meilleur parti des équipes. Ces applications associent les fonctionnalités des onglets, des extensions de messagerie, des connecteurs et des robots proposés par Microsoft, par une tierce partie ou par les développeurs de votre organisation.
 
-Dans **** le centre d’administration de Microsoft Teams, vous pouvez définir des stratégies pour gérer les applications pour votre organisation. Par exemple, vous pouvez définir des stratégies pour personnaliser teams en épinglant les applications les plus importantes à vos utilisateurs.
+Dans **** le centre d’administration de Microsoft Teams, vous pouvez définir des stratégies pour gérer les applications pour votre organisation. Par exemple, vous pouvez définir des stratégies pour contrôler les applications qui sont disponibles pour les utilisateurs d’équipes et vous pouvez personnaliser teams en épinglant les applications les plus importantes à vos utilisateurs.
 
-Nous améliorons continuellement l’interface de l’application dans teams et en ajoutant des fonctions et fonctionnalités. Au fil du temps, nous développons des fonctionnalités supplémentaires de gestion des applications pour vous permettre de vérifier les informations les plus récentes sur les stratégies d’application.
+Nous améliorons continuellement l’interface de l’application dans teams et en ajoutant des fonctions et fonctionnalités. Au fil du temps, nous développons des fonctionnalités supplémentaires de gestion des applications, vous pouvez donc rechercher les informations les plus récentes sur les stratégies d’application.
+
+## <a name="app-permission-policies"></a>Stratégies d’autorisation d’application
+
+Grâce aux stratégies d’autorisation d’application, vous pouvez bloquer ou autoriser des applications, à l’échelle de l’organisation ou pour des utilisateurs spécifiques.  Lorsque vous bloquez une application, toutes les interactions avec cette application sont désactivées et l’application n’apparaît pas dans teams pour les utilisateurs.
+
+Par exemple, vous pouvez utiliser des stratégies d’autorisation d’application pour:
+
+- Désactiver une application qui génère un risque d’autorisation ou de perte de données pour votre organisation.
+- Déploiement graduel de nouvelles applications tierces ou personnalisées pour des utilisateurs spécifiques.
+- Simplifiez l’utilisation de l’utilisateur, en particulier lorsque vous commencez à déployer des équipes au sein de votre organisation.
+
+Pour en savoir plus, voir [gérer les stratégies d’autorisation d’applications dans](teams-app-permission-policies.md)Microsoft Teams.
 
 ## <a name="app-setup-policies"></a>Stratégies de configuration des applications
 
@@ -45,3 +56,11 @@ Voici quelques exemples de la manière dont vous pouvez utiliser les stratégies
 - Épinglez de manière sélective les fonctionnalités principales d’équipe, telles que les discussions, les équipes et les appels. Cela permet de garantir que les utilisateurs participent à des activités spécifiques dans Teams.
 
 Pour en savoir plus, consultez [gérer les stratégies de configuration des applications dans](teams-app-setup-policies.md)Microsoft Teams.
+
+## <a name="custom-app-policies-and-settings"></a>Paramètres et stratégies d’application personnalisés
+
+>[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+
+Teams permet aux développeurs de votre organisation de créer, tester et déployer des applications personnalisées pour les autres utilisateurs. Les applications personnalisées peuvent être ajoutées à teams en téléchargeant un package d’application dans un fichier. zip directement dans une équipe ou dans le contexte personnel. Vous pouvez utiliser les stratégies de configuration des applications pour contrôler les utilisateurs de votre organisation qui peuvent télécharger des applications personnalisées. Vous pouvez également définir les paramètres à l’échelle de l’Organisation pour contrôler si les utilisateurs peuvent interagir avec des applications personnalisées spécifiques.
+
+Pour plus d’informations, accédez à [gérer les stratégies et les paramètres d’application personnalisés dans teams](teams-custom-app-policies-and-settings.md).

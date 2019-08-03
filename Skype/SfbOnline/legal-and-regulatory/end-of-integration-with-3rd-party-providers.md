@@ -18,35 +18,35 @@ f1keywords: None
 ms.custom:
 - Legal
 hideEdit: true
-description: Le 1er avril 2020, le programme de fin de vie se conclut pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers (ACP tiers).
-ms.openlocfilehash: db2480c5b21c719ab9eed66e4d99f7cee077278e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Le 31 juillet 2021, le programme de fin de vie se conclut pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers (ACP tiers).
+ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304166"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36170992"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programme de fin de vie pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers 
 
 Microsoft a annoncé le début du programme de fin de vie pour l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers (ACPs). 
 
-Le programme de fin de vie sera conclu le 1er avril 2020. Lorsque le programme se termine, l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers cesse de fonctionner et les modifications suivantes sont observées à cette date (1er avril 2020): 
+Le programme de fin de vie sera conclu le 31 juillet 2021. Lorsque le programme se termine, l’intégration de Skype entreprise à des fournisseurs de services d’audioconférence tiers cesse de fonctionner et les modifications suivantes seront observées à cette date (31 juillet 2021):
 
 - Les participants qui essaient de participer à une réunion Skype entreprise par le biais d’un numéro de connexion fourni par un service d’ACP tiers ne seront plus connectés à la réunion Skype entreprise.
  
-- Les utilisateurs activés pour un service ACP tiers ne disposeront plus des informations de connexion intégrées automatiquement dans les nouvelles invitations à une réunion Skype entreprise. 
+- Les utilisateurs activés pour un service ACP tiers ne disposeront plus des informations de connexion intégrées automatiquement dans les nouvelles invitations à une réunion Skype entreprise.
 
 Dans le cadre de la mise en place du programme de fin de vie, le changement suivi de la mise en place et restera en vigueur jusqu’à la fin de la vie du programme: 
 
-- Les clients ne disposant pas de Skype entreprise configurés pour utiliser un service ACP tiers ne pourront pas configurer les utilisateurs pour utiliser un service ACP tiers. 
+- Les clients ne disposant pas de Skype entreprise configurés pour utiliser un service ACP tiers ne pourront pas configurer les utilisateurs pour utiliser un service ACP tiers.
 
-- Les clients existants dotés de Skype entreprise et configurés pour utiliser un service d’ACP tiers continuent à pouvoir ajouter de nouveaux utilisateurs pour la durée de la période de fin de vie. Veuillez noter que nous ne conseillons pas de configurer d’autres utilisateurs Skype entreprise pour qu’ils utilisent un service ACP tiers, dans la mesure où les modifications qui entreront en vigueur le 1er avril de 2020 s’appliquent également à ces derniers. 
+- Les clients existants dotés de Skype entreprise et configurés pour utiliser un service d’ACP tiers continuent à pouvoir ajouter de nouveaux utilisateurs pour la durée de la période de fin de vie. Veuillez noter que nous ne conseillons pas de configurer d’autres utilisateurs Skype entreprise pour utiliser un service ACP tiers, dans la mesure où les modifications entrent en vigueur le 31 juillet, 2021 s’appliquent également à ces derniers.
 
 ## <a name="preparing-for-this-change"></a>Préparation au changement
 
-Pour préparer ce changement, nous encourageons les organisations affectées à informer leurs utilisateurs de cette mise à jour prévue avant le 1er avril 2020. 
+Pour préparer ce changement, nous encourageons les organisations concernées à informer leurs utilisateurs de cette mise à jour prévue avant le 31 juillet 2021. 
 
-Après le 1er avril, 2020, les utilisateurs peuvent continuer à utiliser Skype entreprise sans interruption de leurs réunions en ligne. Toutefois, les organisations doivent activer leurs utilisateurs pour l’audioconférence fournie par Microsoft s’ils ont besoin d’une audioconférence rendez-vous avec Skype entreprise ou Microsoft Teams. Pour en savoir plus sur l’audioconférence Microsoft, voir [audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
+Après le 31 juillet 2021, les utilisateurs peuvent continuer à utiliser Skype entreprise sans interruption de leurs réunions en ligne. Toutefois, les organisations doivent activer leurs utilisateurs pour l’audioconférence fournie par Microsoft s’ils ont besoin d’une audioconférence rendez-vous avec Skype entreprise ou Microsoft Teams. Pour en savoir plus sur l’audioconférence Microsoft, voir [audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
 
 En fonction de l’état de terminaison souhaité d’une organisation, vous pouvez suivre trois chemins d’accès:
 
@@ -56,7 +56,7 @@ En fonction de l’état de terminaison souhaité d’une organisation, vous pou
 
 ### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>#1 path: migrer vers Microsoft audio Conferencing   
 
-Les organisations qui décident de migrer vers Microsoft audio Conferencing et de terminer leur migration avant le 1er avril 2020 ne pourront pas utiliser un impact sur les services pendant ou après cette date. La migration vers Microsoft audio Conferencing introduira les modifications suivantes à une organisation: 
+Les organisations qui décident de migrer vers Microsoft audio Conferencing et de terminer leur migration avant le 31 juillet 2021 ne pourront pas utiliser d’impact sur les services pendant ou après cette date. La migration vers Microsoft audio Conferencing introduira les modifications suivantes à une organisation: 
 
 - Le service sera facturé avec tous les autres services Office 365. 
 
@@ -76,21 +76,21 @@ La migration vers l’audioconférence Microsoft est une opération simple et pe
  
 **Résumé :**
 
-- Les organisations qui migrent vers des services d’audioconférence Microsoft et terminent leur migration avant le 1er avril, 2020, ne verront aucun impact sur leur service pendant ou après cette date.
+- Les organisations qui migrent vers des services d’audioconférence Microsoft et terminent leur migration avant le 31 juillet 2021, ne verront aucun impact sur leur service pendant ou après cette date.
 
 - Pour en savoir plus sur la migration vers Microsoft audio Conferencing, voir [essayer ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Chemin #2: continuer à utiliser séparément un fournisseur de services d’audioconférence tiers
 
-Les organisations qui décident de continuer à utiliser un fournisseur de services d’audioconférence tiers pour et après le 1er avril 2020, peuvent avoir une incidence sur les services, car les informations de connexion tierces tierces ne pourront plus être utilisées pour accéder à la partie audio d’une réunion Skype entreprise. 
+Les organisations qui décident de continuer à utiliser un fournisseur de services d’audioconférence tiers, et après le 31 juillet 2021, peuvent avoir une incidence sur les services, car les informations de connexion tierces tierces ne pourront plus être utilisées pour accéder à la partie audio d’une réunion Skype entreprise. 
 
 Pour empêcher la fragmentation de l’audio dans les réunions Skype entreprise en faisant en sorte que certains participants se rejoignent par le biais du protocole VoIP et d’autres par le biais du fournisseur de services d’audioconférence tiers, il est recommandé de désactiver l’option VoIP pour les réunions de leurs utilisateurs. Ainsi, tous les participants doivent rejoindre la partie audio d’une réunion à l’aide du fournisseur de de contenus tiers ACP et toutes les autres charges de travail de la réunion (par exemple, les discussions ou le partage d’écran) peuvent rester compatibles sur Skype entreprise. 
 
 - Pour désactiver le VoIP pour toutes les réunions d’un organisateur donné, définissez le paramètre AllowIPAudio de sa stratégie de conférence sur false via l’applet de commande Set-CsConferencingPolicy. Pour plus d’informations, consultez la rubrique [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-En termes de planification et en vertu du 1er avril 2020, les informations de connexion d’un fournisseur de service d’audioconférence tiers ne seront plus intégrées automatiquement aux invitations aux réunions Skype entreprise. Les utilisateurs devront ajouter manuellement les informations de connexion à l’invitation à une réunion Skype entreprise s’ils souhaitent continuer à inclure ces informations dans le cadre de leurs réunions. 
+En ce qui concerne la planification et le 31 juillet 2021, les informations de connexion d’un fournisseur de service d’audioconférence tiers ne seront plus intégrées automatiquement aux invitations aux réunions Skype entreprise. Les utilisateurs devront ajouter manuellement les informations de connexion à l’invitation à une réunion Skype entreprise s’ils souhaitent continuer à inclure ces informations dans le cadre de leurs réunions. 
 
-Veuillez noter que le 1er avril, 2020, les réunions existantes des utilisateurs ne seront pas replanifiées automatiquement pour supprimer les informations de connexion tierces tierces. Les organisations qui décident de préserver la voix sur IP (VoIP) pour les réunions de leurs utilisateurs doivent envisager la désactivation de l’intégration du fournisseur de services d’audioconférence tiers pour leurs utilisateurs et Replanifier leurs réunions à l’aide du service de migration des réunions pour supprimer la partie audio du tiers Organisez les informations de conférence rendez-vous dans leurs réunions existantes et empêchez la fragmentation du son lors de réunions déjà planifiées. 
+Notez que le 31 juillet 2021, les réunions existantes des utilisateurs ne seront pas replanifiées automatiquement pour supprimer des informations de connexion tierces tierces. Les organisations qui décident de préserver la voix sur IP (VoIP) pour les réunions de leurs utilisateurs doivent envisager la désactivation de l’intégration du fournisseur de services d’audioconférence tiers pour leurs utilisateurs et Replanifier leurs réunions à l’aide du service de migration des réunions pour supprimer la partie audio du tiers Organisez les informations de conférence rendez-vous dans leurs réunions existantes et empêchez la fragmentation du son lors de réunions déjà planifiées. 
 
 - Pour désactiver l’intégration d’une audioconférence tierce pour une organisateur donnée, utilisez l’applet de commande Remove-CsUserAcp. Pour plus d’informations, consultez la rubrique [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
@@ -98,9 +98,9 @@ Veuillez noter que le 1er avril, 2020, les réunions existantes des utilisateurs
 
 **Résumé :**
 
-- Les organisations qui décident de continuer à utiliser un fournisseur de services d’audioconférence tiers le 1er avril et après le 1er avril 2020, seront affectées, car un fournisseur de services d’audioconférence tiers ne sera pas en mesure d’accéder à une réunion Skype entreprise et les nouvelles réunions ne seront pas incluses dans les informations de connexion d’un fournisseur de services d’audioconférence tiers. 
+- Les organisations qui décident de continuer à utiliser un fournisseur de services d’audioconférence tiers, et après le 31 juillet 2021, seront affectées car un fournisseur de services d’audioconférence tiers ne sera pas en mesure d’accéder à une réunion Skype entreprise et les nouvelles réunions ne seront pas incluses dans les informations de connexion tierces tierces. 
 
-- Nous vous recommandons de désactiver la VoIP pour toutes les réunions de tous les utilisateurs concernés avant le 1er avril, 2020, afin d’éviter que le son soit fragmenté entre les participants qui se connectent par VoIP et par le biais d’un fournisseur de service d’audioconférence tiers. 
+- Nous vous conseillons de désactiver le protocole VoIP pour toutes les réunions de tous les utilisateurs concernés avant le 31 juillet 2021, afin d’éviter que le son soit fragmenté entre les participants qui se connectent par le biais du protocole VoIP et par le biais d’un fournisseur de service d’audioconférence tiers. 
 
     - Pour désactiver le VoIP pour toutes les réunions d’un organisateur donné, définissez le paramètre AllowIPAudio de la stratégie de conférence de l’utilisateur sur false via l’applet de commande Set-CsConferencingPolicy. Pour plus d’informations, consultez la rubrique [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
@@ -122,7 +122,7 @@ Ces organisations doivent empêcher leurs utilisateurs d’utiliser un fournisse
 
 **Résumé :** 
 
-- Les organisations qui décident d’arrêter d’utiliser l’audioconférence entièrement avant le 2020 1er avril ne seront pas affectées.
+- Les organisations qui décident d’arrêter d’utiliser l’audioconférence entièrement avant le 31 juillet 2021 ne seront pas affectées.
 
 - Pour désactiver l’intégration d’une audioconférence tierce pour une organisateur donnée, utilisez l’applet de commande Remove-CsUserAcp. Pour plus d’informations, consultez la rubrique [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
