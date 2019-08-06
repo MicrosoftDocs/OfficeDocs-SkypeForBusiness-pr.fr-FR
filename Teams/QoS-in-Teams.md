@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820984"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206964"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -101,7 +101,7 @@ La valeur DSCP indique à une connexion réseau configurée quelle priorité dé
 
 La taille relative des plages de port pour différentes charges de travail en flux continu en temps réel définit le prorata de la bande passante disponible totale dédiée à cette charge de travail. Pour revenir à notre analogie initiale plus ancienne: une lettre portant le cachet «messagerie» peut être prélevée dans une heure à l’aéroport le plus proche, tandis qu’un petit emballage marqué «courrier en nombre» peut patienter pendant une journée avant de voyager sur terre sur une série de camions.
 
-Le tableau suivant répertorie les marques DSCP requises pour teams avec ExpressRoute et les ports associés pour les files d’attente de charge de travail. Ces plages peuvent servir de bon point de départ pour les clients qui ne sont pas certain de ce qu’ils peuvent utiliser dans leur propre environnement. Pour des informations complémentaire, consultez les [Exigences de qualité de service d’ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+Le tableau suivant répertorie les marquages DSCP requis et les plages de ports multimédias correspondant aux suggestions utilisées par teams et ExpressRoute. Ces plages peuvent servir de bon point de départ pour les clients qui ne sont pas certain de ce qu’ils peuvent utiliser dans leur propre environnement. Pour des informations complémentaire, consultez les [Exigences de qualité de service d’ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Plages de port initiales recommandées_
 

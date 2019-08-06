@@ -18,16 +18,16 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: dfb7a9b65003442266cc6cf25ea59b7270aa1c9c
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861894"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207166"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
-Un compte de ressource est également connu sous le nom d' *objet utilisateur désactivé* dans Azure Active Directory et peut être utilisé pour représenter des ressources en général. Dans Exchange, il peut être utilisé pour représenter des salles de conférence, par exemple, et leur permettre d’avoir un numéro de téléphone. Un compte de ressource peut être hébergé dans Microsoft 365 ou sur site à l’aide de Skype entreprise Server 2019.
+Un compte de ressource est également connu sous le nom d' *objet utilisateur désactivé* dans Azure ad et peut être utilisé pour représenter des ressources en général. Dans Exchange, il peut être utilisé pour représenter des salles de conférence, par exemple, et leur permettre d’avoir un numéro de téléphone. Un compte de ressource peut être hébergé dans Microsoft 365 ou sur site à l’aide de Skype entreprise Server 2019.
 
 Dans Microsoft teams ou Skype entreprise Online, chaque file d’attente d’appels du système téléphonique ou le standard automatique est requis pour disposer d’un compte de ressources associé. La nécessité pour un compte de ressources d’avoir besoin d’un numéro de téléphone dépend de la manière dont vous souhaitez utiliser la file d’attente d’appels ou le standard automatique associé, comme illustré dans le schéma suivant. Vous pouvez également vous référer aux articles sur les files d’attente d’appels et aux standards automatiques liés au bas de cet article avant d’affecter un numéro de téléphone à un compte de ressources.
 
@@ -39,38 +39,36 @@ Dans Microsoft teams ou Skype entreprise Online, chaque file d’attente d’app
 
 ## <a name="overview"></a>Vue d’ensemble
 
-En supposant que votre organisation utilise déjà au moins une licence de système téléphonique, pour affecter une file d’attente d’appels ou un standard automatique à un numéro de téléphone, vous devez traiter les différentes dépendances dans l’ordre suivant:
+Si votre organisation utilise déjà au moins une licence de système téléphonique, vous pouvez attribuer un numéro de téléphone à la file d’attente d’appels d’un système téléphonique ou à un standard automatique le processus est le suivant:
 
 1. Obtenez un numéro de service.
-2. Procurez-vous un système [](teams-add-on-licensing/virtual-user.md) téléphonique gratuit, ou une licence de système téléphonique payant à utiliser avec le compte de ressources.
+2. Procurez-vous un système [](teams-add-on-licensing/virtual-user.md) téléphonique gratuit ou une licence de système téléphonique payant à utiliser avec le compte de ressources ou une licence de système téléphonique.
 3. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doivent être associés à un compte de ressources associé.
 4. Attribuez le système téléphonique ou un système téléphonique-licence utilisateur virtuel au compte de ressources.
 5. Affectez un numéro de téléphone de service au compte de ressource auquel vous venez d’affecter des licences. 
 6. Créer une file d’attente des appels du système téléphonique ou un standard automatique
 7. Liez le compte de ressource avec une file d’attente d’appels ou un standard automatique.
 
-
-
 Si le standard automatique ou la file d’attente d’appels est imbriquée sous un standard automatique de niveau supérieur, le compte de ressources associé a uniquement besoin d’un numéro de téléphone si vous voulez que plusieurs points d’entrée soient présents dans la structure des standards automatiques et des files d’attente d’appels.
 
-Pour rediriger les appels vers des utilisateurs de votre organisation qui sont hébergés en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer de plans d’appel Office 365. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Pour rediriger les appels vers des utilisateurs de votre organisation qui sont hébergés en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer de plans d’appel Office 365. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > Afin d’éviter les problèmes liés au compte de ressources, procédez comme suit dans cet ordre.
 
 Si la file d’attente d’appels du système téléphonique ou le standard automatique que vous créez est imbriqué et qu’il n’est pas nécessaire de composer un numéro de téléphone, le processus est le suivant:
 
-1. Créer le compte de ressources  
+1. Créer le compte de ressources 
 2. Créer une file d’attente des appels du système téléphonique ou un standard automatique
 3. Associez le compte de ressource à une file d’attente d’appels du système téléphonique ou un standard automatique
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>Créer un compte de ressources avec un numéro de téléphone
 
-Un standard automatique ou une file d’attente d’appels de niveau supérieur exige qu’un numéro de téléphone soit lié à son standard automatique. Pour créer un compte de ressource qui utilise un numéro de téléphone, vous devez effectuer les tâches suivantes dans l’ordre suivant:
+Un standard automatique ou une file d’attente d’appels de niveau supérieur exige qu’un numéro de téléphone soit lié à son standard automatique. Pour créer un compte de ressource qui utilise un numéro de téléphone, le processus est le suivant:
 
 1. Transférez ou obtenez un numéro de service gratuit ou payant. Le numéro ne peut pas être attribué à un autre service vocal ou à un autre compte de ressources.
 
-   Avant d’affecter un numéro de téléphone à un compte de ressources, vous devez obtenir ou porter vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu les numéros de téléphone de service gratuits ou payants, ceux-ci apparaissent dans les**numéros de téléphone****vocaux** > du centre > d' **administration Microsoft teams**et le **type de numéro** mentionné est répertorié en tant que **service-** gratuit. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou, si vous souhaitez transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+   Avant d’affecter un numéro de téléphone à un compte de ressources, vous devez obtenir ou porter vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu les numéros de téléphone de service gratuits ou payants, ils s’affichent dans les**numéros de téléphone****vocaux** > du centre > d' **administration Microsoft teams**et le **type de numéro** est répertorié en tant que **service-** gratuit. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou, si vous souhaitez transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
 
    Si vous affectez un numéro de téléphone à un compte de ressources, vous pouvez désormais utiliser la licence utilisateur virtuel du système téléphonique sans frais. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation, et vous permet de créer des capacités de mise en file d’attente et de standard automatique.
 
@@ -87,7 +85,7 @@ Un standard automatique ou une file d’attente d’appels de niveau supérieur 
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Créer un compte de ressources sans numéro de téléphone
 
-Un standard automatique ou une file d’attente d’appels imbriqués nécessiteront un compte de ressources, mais dans de nombreux cas, le compte de ressource correspondant n’aura pas besoin d’un numéro de téléphone et de la gestion des licences nécessaires à la prise en charge d’un numéro de téléphone.  Pour créer un compte de ressources sans numéro de téléphone, vous devez effectuer les tâches suivantes dans l’ordre suivant:
+Un standard automatique ou une file d’attente d’appels imbriqués nécessiteront un compte de ressources, mais dans de nombreux cas, le compte de ressource correspondant n’aura pas besoin d’un numéro de téléphone et de la gestion des licences nécessaires à la prise en charge d’un numéro de téléphone. Pour créer un compte de ressources sans numéro de téléphone, vous devez effectuer les tâches suivantes dans l’ordre suivant:
 
 1. Créer un compte de ressource. Voir [créer un compte de ressources dans le centre d’administration Microsoft teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [créer un compte de ressources dans PowerShell](#create-a-resource-account-in-powershell)
 2. Configurez l’une des options suivantes:
@@ -112,7 +110,7 @@ Ensuite, appliquez une licence au compte de ressources dans le centre d’admini
 
 ### <a name="edit-resource-account-name"></a>Modifier le nom du compte de la ressource
 
-![Icône du numéro 2, qui référence une légende dans la capture d'](media/sfbcallout2.png) écran précédente, vous pouvez modifier le nom d’affichage du compte de la ressource à l’aide de l’option **modifier** .  Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Icône du numéro 2, qui référence une légende dans la capture d'](media/sfbcallout2.png) écran précédente, vous pouvez modifier le nom d’affichage du compte de la ressource à l’aide de l’option **modifier** . Lorsque vous avez fin, cliquez sur **Enregistrer** .
 ![Capture d’écran de l’option modifier le compte de ressources](media/r-a-edit.png)
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Attribution/désaffectation des numéros de téléphone et services
@@ -149,7 +147,7 @@ L’ID d’application que vous devez utiliser lors de la création des instance
 > [!NOTE]
 > Si vous souhaitez que la file d’attente d’appels ou le standard automatique puissent être recherchés par des utilisateurs locaux, vous devez créer vos comptes de ressources en local, car les comptes de ressources en ligne ne sont pas synchronisés avec Active Directory.
 
-1. Pour créer un compte de ressources en ligne à utiliser avec un standard automatique, utilisez la commande suivante.  
+1. Pour créer un compte de ressources en ligne à utiliser avec un standard automatique, utilisez la commande suivante.
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -177,7 +175,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gérer les paramètres de compte de ressources dans le centre d’administration Microsoft teams
 
-Pour gérer les paramètres de compte de ressources dans le centre d’administration de Microsoft Teams, accédez à**comptes de ressources**de **paramètres**  > à l’échelle de l’organisation, sélectionnez le compte de ressources dont vous avez besoin pour modifier les paramètres, puis cliquez sur le bouton **modifier** . dans l’écran **modifier le compte de ressources** , vous pouvez modifier les paramètres suivants:
+Pour gérer les paramètres de compte de ressources dans le centre d’administration de Microsoft Teams, accédez à**comptes de ressources**de **paramètres** > à l’échelle de l’organisation, sélectionnez le compte de ressources dont vous avez besoin pour modifier les paramètres, puis cliquez sur le bouton **modifier** . dans l’écran **modifier le compte de ressources** , vous pouvez modifier les paramètres suivants:
 
 - **Nom d’affichage** du compte
 - File d’attente d’appels ou standard automatique qui utilise le compte
@@ -206,7 +204,7 @@ Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 Si l’attribut Service affiche le point de terminaison d’une application Skype entreprise, exécutez l’applet de demande ci-dessous:
 
 ``` Powershell
-Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 
 > [!NOTE]
@@ -220,7 +218,7 @@ Pour les implémentations hybrides avec Skype entreprise Server, procédez comme
   
    [Planifier les files d’attente d’appels cloud](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Configurer les comptes de ressources hébergé](/SkypeForBusiness/hybrid/configure-onprem-ra)
+   [Configurer les comptes de ressources locaux](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Pour les implémentations dans teams ou Skype entreprise Online:

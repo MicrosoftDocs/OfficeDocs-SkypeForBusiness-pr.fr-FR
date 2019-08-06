@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198420"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206956"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams
 
@@ -58,13 +58,10 @@ La connexion au site de votre entreprise avec le réseau de périmètre Microsof
 
 Les cibles de performance réseau adoptent une planification de bande passante et/ou de [QoS](QoS-in-Teams.md)correcte. En d’autres termes, les exigences s’appliquent directement au trafic multimédia en temps réel lors de la connexion réseau.
 
-Pour tester les deux segments réseau, vous pouvez utiliser l' [outil d’évaluation du réseau](https://go.microsoft.com/fwlink/?linkid=855799). Cet outil peut être déployé sur le PC client directement et sur un PC connecté au bord du réseau du client. L’outil inclut une documentation limitée, mais une documentation plus approfondie sur l’utilisation de l’outil est disponible ici: [évaluation](https://go.microsoft.com/fwlink/?linkid=855800)de la disponibilité du réseau. L’exécution de cette analyse de préparation du réseau vous permet de valider la préparation de votre réseau pour exécuter des applications multimédias en temps réel, telles que Microsoft Teams.
-
-> [!NOTE]
-> Il s’agit de la même évaluation de compatibilité réseau que celle qui est recommandée pour les clients souhaitant déployer Skype entreprise.
+Pour obtenir de l’aide concernant la préparation de votre réseau pour Teams, voir [Planificateur de réseaux](https://docs.microsoft.com/microsoftteams/network-planner).
 
 
-## <a name="bandwidth-requirements"></a>Bande passante requise
+## <a name="bandwidth-requirements"></a>Condition requise pour la bande passante
 Microsoft teams vous offre la meilleure expérience audio, vidéo et de partage de contenu quelle que soit l’état de votre réseau. Grâce aux codecs variables, le média peut être négocié dans les environnements à bande passante limitée avec un impact minimal. Même si la bande passante n’est pas un problème, les expériences peuvent être optimisées en matière de qualité, y compris jusqu’à 1080p résolutions vidéo, jusqu’à 30 IPS pour la vidéo et 15fps pour le contenu et le son haute fidélité.
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]

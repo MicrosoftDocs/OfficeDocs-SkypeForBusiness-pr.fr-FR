@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: 7e855ece643d3412047b4d01a9250b17f699ac98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a16b56c6886215f46ca40a7898353af010c840b3
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288482"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207142"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 
@@ -141,7 +141,13 @@ PowerShell Skype entreprise Online permet de gérer les services de Microsoft te
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Pour activer votre compte Microsoft teams Room, exécutez la commande suivante:
+2. Obtenez l’adresse SIP du compte:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. Pour activer votre compte Microsoft teams Room, exécutez la commande suivante:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

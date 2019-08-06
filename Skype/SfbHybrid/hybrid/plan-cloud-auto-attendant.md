@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un standard automatique Cloud avec Skype entreprise Server 2019
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36160531"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207028"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planifier les standards automatiques Cloud
 
@@ -45,7 +45,7 @@ Voir également :
 
 La configuration requise suivante suppose que vous ayez déjà déployé Skype entreprise Server 2019 dans une topologie prise en charge.  Vos besoins dépendent de votre scénario:
 
-- Si vous utilisez déjà la messagerie unifiée Exchange Online ou locale et que vous effectuez une mise à niveau vers Skype entreprise 2019, vous devrez capturer la structure de vos standards automatiques et les recréer dans le Cloud à l’aide de standards automatiques Cloud. Pour plus d’informations, consultez la rubrique [migration d’un standard automatique de messagerie unifiée Exchange ou d’une file d’attente d’appels vers un système téléphonique](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
+- Si vous utilisez déjà la messagerie unifiée Exchange en ligne ou en local et que vous effectuez une mise à niveau vers Skype entreprise 2019, vous devrez capturer la structure de vos standards automatiques et les recréer dans le Cloud à l’aide de standards automatiques Cloud. Pour plus d’informations, consultez la rubrique [migration d’un standard automatique de messagerie unifiée Exchange ou d’une file d’attente d’appels vers un système téléphonique](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - Pour une nouvelle configuration de standards automatiques Cloud, suivez les étapes décrites dans [Configure Resource Accounts](configure-onprem-ra.md).
 
@@ -56,14 +56,14 @@ Outre la configuration requise ci-dessus, les conditions suivantes doivent être
    Pour plus d’informations, voir [planifier une connectivité hybride entre Skype entreprise Server et office 365](plan-hybrid-connectivity.md) et [configurer la connectivité hybride entre Skype entreprise server et Office 365](configure-hybrid-connectivity.md).
 
 - Si vous attribuez un numéro de téléphone à votre standard automatique, vous aurez besoin d’une licence [Office 365 entreprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
-- Créez un [compte de ressource](/MicrosoftTeams/manage-resource-accounts.md) local pour chaque standard automatique et attribuez les numéros de téléphone et les licences. 
+- Créez un [compte de ressource](/MicrosoftTeams/manage-resource-accounts.md) en ligne ou un [compte de ressource](configure-onprem-ra.md)local pour chaque standard automatique et attribuez les numéros de téléphone et les licences. 
 
 ## <a name="migration-and-interoperability"></a>Migration et interopérabilité
 
 Si vous envisagez de déployer Skype entreprise Server 2019 et/ou Exchange Server 2019, vous devez planifier soigneusement votre migration afin de garantir la prise en charge continue des standards automatiques. Gardez les éléments suivants à l’esprit :
 
 - Exchange Server 2019 ne fournit plus la fonctionnalité de messagerie unifiée Exchange
-- La messagerie unifiée Exchange Online est en mode de déclassement
+- La messagerie unifiée Exchange est en mode de déclassement
 - Skype entreprise Server 2019 ne s’intègre plus à la messagerie unifiée Exchange Online
 
 Les standards automatiques Cloud peuvent être configurés avec Skype entreprise Server 2019, 2015 et 2013.
@@ -91,7 +91,7 @@ Pour plus d’informations sur ces étapes, voir [migration d’un standard auto
 
 ## <a name="additional-planning-resources"></a>Ressources de planification supplémentaires
 
-Le didacticiel intitulé [petite entreprise-configurer un standard automatique](/microsoftteams/tutorial-org-aa) passe par le processus de collecte d’informations sur les besoins des utilisateurs, la planification d’une structure de standards automatiques et d’utilisateurs (et éventuellement des files d’attente d’appels), l’écriture des invites de menu et implémentation du plan dans le centre d’administration en ligne. Passez en revue le didacticiel et utilisez les exercices pratiques pour créer votre plan.
+Le didacticiel intitulé [petite entreprise-configurer un standard automatique](/microsoftteams/tutorial-org-aa) passe par le processus de collecte d’informations sur les besoins des utilisateurs, la planification d’une structure de standards automatiques et d’utilisateurs (et éventuellement des files d’attente d’appels), l’écriture des invites de menu et implémentation du plan dans le centre d’administration Teams. Passez en revue le didacticiel et utilisez les exercices pratiques pour créer votre plan.
 
 Lorsque vous disposez d’une structure solide qui répond à vos besoins et d’un script qui guide les clients de manière efficace, passez à la [Configuration des comptes de ressources](configure-onprem-ra.md).
 
