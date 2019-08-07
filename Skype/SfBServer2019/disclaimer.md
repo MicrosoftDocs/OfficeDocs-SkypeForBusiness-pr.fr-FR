@@ -1,2 +1,0 @@
-> [!NOTE]
-> Cette page décrit une version préliminaire susceptible de changer considérablement avant son lancement. Les captures d’écran sont des espaces réservés et semblent différentes de celle que vous voyez. 
