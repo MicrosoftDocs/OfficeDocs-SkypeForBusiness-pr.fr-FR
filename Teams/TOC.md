@@ -23,6 +23,7 @@
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
 ## [Meilleurs pratiques d’organisation d’équipe dans Teams](best-practices-organizing.md)
 ## [Créer une équipe à l’échelle de l’organisation dans Teams](create-an-org-wide-team.md)
+## [Gérer les équipes et les stratégies de canal](teams-policies.md)
 ## [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
 ## [Configurer la modération des canaux dans teams](manage-channel-moderation-in-teams.md)
 ## [Partage de fichiers dans Teams](sharing-files-in-teams.md)
@@ -69,14 +70,16 @@
 ### [Gérer la version gratuite de Teams](manage-freemium.md)
 ### [Affecter des propriétaires d’équipe et des membres dans Teams](assign-roles-permissions.md)
 ### [Modifier les paramètres utilisateur Teams en bloc](edit-user-settings-in-bulk.md)
-### [Gérer les stratégies de configuration de l’application dans Teams](teams-app-setup-policies.md)
+### [Gérer les stratégies d’autorisation d’application dans Teams](teams-app-permission-policies.md)
+### [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
+### [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 ### [Gérer les stratégies de commentaires dans Teams](manage-feedback-policies-in-teams.md)
 ### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Gérer l’accès externe](manage-external-access.md)
 ### [Utiliser la traduction des messages en ligne](inline-message-translation-teams.md)
 ### [Utiliser la recherche d’annuaire étendue Microsoft Teams](teams-scoped-directory-search.md)
 
-### Analyse et rapports Teams dans le centre d’administration de Microsoft Teams
+### Analyses et rapports dans le Centre d’administration Teams 
 #### [Vue d’ensemble](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Rapport d’utilisation Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Rapport d’activité d’utilisateur Teams](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +629,6 @@
 ### [Contrôler la qualité](upgrade-monitor-quality.md)
 ### [Améliorer votre service](upgrade-enhance-my-service.md)
 
-## [Didacticiel : Migration de Skype Entreprise vers Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [FAQ](FAQ-journey.md)
 ## Informations supplémentaires
 ### [Migration et interopérabilité avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)

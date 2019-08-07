@@ -17,15 +17,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34494497"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
-S’il s’agit d’une petite entreprise, ou si vous voulez déployer des équipes à partir de la discussion, des & de canaux et de réunions, vous pouvez utiliser nos [guides de démarrage](get-started-with-teams-quick-start.md)rapide pour vous lancer rapidement. Si vous êtes une entreprise disposant d’une configuration Skype entreprise hybride ou locale, ou si vous voulez déployer des fonctions vocales (par exemple, des plans d’appel ou du système téléphonique Office 365), vous pouvez commencer avec nos recommandations en matière de mise en route. les instructions ci-dessous, sous **recommandations d’adoption plus approfondie**.
+S’il s’agit d’une petite entreprise, ou si vous voulez déployer des équipes à partir de la discussion, d’équipes & de canaux et de réunions, utilisez nos [guides](get-started-with-teams-quick-start.md)de démarrage rapide pour vous lancer rapidement. Si vous êtes une entreprise disposant d’une configuration Skype entreprise hybride ou locale, ou si vous voulez déployer des fonctions vocales (par exemple, des plans d’appel ou du système téléphonique Office 365), vous pouvez commencer avec nos recommandations en matière de mise en route. les instructions ci-dessous, sous **recommandations d’adoption plus approfondie**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -112,7 +112,7 @@ S’il s’agit d’une petite entreprise, ou si vous voulez déployer des équi
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Certification de formation &</h3>
+                        <h3>Formation & certification</h3>
                     </div>
                 </div>
             </div>
