@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez les standards automatiques du Cloud et comment les utiliser.
-ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394546"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35536004"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud?
 
@@ -55,17 +55,11 @@ Le standard automatique Cloud offre les fonctionnalités suivantes:
 Avant de commencer à utiliser les standards automatiques, il est impératif de noter les points suivants :
 
 - Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
-- Si vous envisagez d’affecter un numéro de téléphone à votre standard automatique, vous devez acquérir et attribuer une des licences suivantes à vos comptes de ressources: 
-    - Office 365 entreprise E1 ou E3 avec le système téléphonique ajouté
-    - Office 365 entreprise E5 qui inclut un système téléphonique
-- Il vous suffit de créer une licence pour les comptes de ressources avec un numéro de téléphone qui leur est attribué. Dans une file d’attente d’appels ou de standards automatiques imbriqués, vous n’avez pas besoin de vous attribuer une licence au reste des standards automatiques ou des files d’attente d’appels s’ils ne disposent pas de numéros de téléphone associés. 
+- Si vous affectez un numéro de téléphone à un compte de ressources, vous pouvez désormais utiliser la licence utilisateur virtuel du système téléphonique sans frais. Cela fournit des fonctionnalités de système téléphonique aux numéros de téléphone au niveau de l’organisation, et vous permet de créer des capacités de mise en file d’attente et de standard automatique.
 
 > [!NOTE]
 > Les numéros de service de routage direct pour le standard automatique et les files d’attente d’appels sont uniquement pris en charge pour les utilisateurs et les agents Microsoft Teams.
-
-> [!NOTE]
-> Microsoft travaille sur un modèle de licence sans frais pour des applications telles que les standards automatiques de Cloud et les files d’attente d’appels, pour le moment, vous devez utiliser le modèle de gestion des licences utilisateur.
-    
+  
    > [!TIP]
    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour la voix entreprise ou lui affecter des plans d’appels. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   

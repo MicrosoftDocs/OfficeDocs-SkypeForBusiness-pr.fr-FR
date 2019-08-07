@@ -23,10 +23,10 @@ ms.custom:
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
 ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35792172"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype entreprise

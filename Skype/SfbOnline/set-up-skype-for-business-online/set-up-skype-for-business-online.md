@@ -24,10 +24,10 @@ ms.custom:
 - LIL_Placement
 description: 'Familiarisez-vous avec la configuration de votre domaine, des utilisateurs, de la messagerie instantanée et de la présence de votre organisation pour l’installation de Skype entreprise. Apprenez-en plus sur la configuration de l’audioconférence, du système téléphonique et des plans d’appel et de la diffusion de réunion Skype. '
 ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35792619"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online

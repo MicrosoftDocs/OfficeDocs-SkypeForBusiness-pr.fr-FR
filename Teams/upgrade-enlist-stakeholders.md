@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344624"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433478"
 ---
-![Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project] (media/upgrade-banner-stakeholders.png "Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project")
+![Illustration illustrant l’état des parties prenantes du parcours de mise à niveau] (media/upgrade-banner-stakeholders.png "Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project")
 
 Cet article fait partie de l’étape parties prenantes dans le cadre de votre mise à niveau de votre projet.
 

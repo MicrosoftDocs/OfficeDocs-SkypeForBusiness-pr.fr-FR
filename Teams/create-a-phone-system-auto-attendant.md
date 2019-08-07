@@ -3,7 +3,7 @@ title: Configurer un standard automatique dans le cloud
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614267"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35807535"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -39,12 +39,7 @@ Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique
 
 ## <a name="step-1---get-started"></a>Étape 1: commencer
 
-- Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
-- Si vous envisagez d’affecter un numéro d’acheminement direct, vous devez acquérir et attribuer les licences suivantes à \(votre compte de ressources Office 365 entreprise E1, E3 ou E5, à l’aide\)du composant additionnel du système téléphonique.
-- Si vous attribuez un numéro de service Microsoft à la place, vous devez acquérir et attribuer les licences suivantes à votre compte \(de ressources Office 365 entreprise E1, E3 ou E5, avec le complément système téléphonique\).
-
-> [!CAUTION]
-> Pour obtenir et utiliser des numéros de téléphone gratuits, vous devez configurer des crédits de communication. Pour faire cela, consultez [Quelles sont les Communications crédits ?](what-are-communications-credits.md) et [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).
+- Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
 
 > [!TIP]
 > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour Enterprise Voice. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -206,7 +201,7 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
   - **Une Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Voix de l'Entreprise ou affectée à un Plan d’appel dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour cela, sélectionnez une **personne au sein de votre entreprise** et configurez cette personne pour que les appels soient transférés directement à la boîte vocale.
 
     > [!Note]
-    > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013.
+    > Une **personne de votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server ou Lync Server 2013.
     - Un autre **standard automatique**
 
        Vous pouvez utiliser un standard automatique existant pour créer un deuxième niveau d’options de menu contenant un sous-menu. Il s’agit des standards automatiques imbriqués. Pour envoyer l’appel à un standard automatique imbriqué, sélectionnez une **personne dans la société** et attribuez un compte de ressource, qui est déjà associé à un standard automatique ou que vous voulez associer à un standard automatique une fois que vous avez créé ce standard automatique.
@@ -214,13 +209,13 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
         > [!Note]
         > Les **heures d’ouverture** de standards automatiques imbriqués (ou de second niveau) seront également utilisé, y compris pour les appels envoyés à partir d’autres standards automatiques qui ont été définis.
 
-<!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
+     - **file d’attente d’appels** L’utilisation d’une option de file d’attente permet de transférer l’appel vers une file d’attente d’appels que vous avez configurée. 
 
 * * *
 
 ![Icône du numéro 5 qui référence une légende dans la capture d’écran précédente](media/sfbcallout5.png)
 
-**Numérotation par nom** Si vous choisissez cette option, les utilisateurs qui se connectent pour rechercher des personnes dans votre organisation doivent effectuer une recherche dans l’annuaire. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Tout utilisateur en ligne disposant d'une licence **   Phone System**  ou de tout utilisateur hébergé sur site à l'aide de Skype Professionnel Server 2015 ou Lync Server 2013 peut être trouvé avec Composer par Nom.
+**Numérotation par nom** Si vous choisissez cette option, les utilisateurs qui se connectent pour rechercher des personnes dans votre organisation doivent effectuer une recherche dans l’annuaire. Vous pouvez sélectionner les personnes qui seront répertoriées comme disponibles ou non disponibles pour la Numérotation par nom en configurant ces options dans la page de **portée de la numérotation**. Tout utilisateur en ligne disposant d’une licence de **système téléphonique** ou de tout utilisateur hébergé sur site utilisant Skype entreprise Server ou Lync Server 2013 est disponible avec la numérotation par nom.
 
 * * *
 
@@ -290,7 +285,7 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation q
 
 ![Icône du numéro 1, qui référence une légende dans la capture d'](media/sfbcallout1.png) écran précédente à l’aide de l’option **inclure** , vous avez deux options:
 
-- **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. Tous les utilisateurs en ligne avec une licence de **Système téléphonique** , ainsi que les utilisateurs hébergés sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013 qui ont des Plans d’appel dans Office 365, apparaîtront.
+- **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. Tous les utilisateurs en ligne disposant d’une licence de **système téléphonique** , ainsi que les utilisateurs hébergés sur site utilisant Skype entreprise Server ou Lync Server 2013 qui dispose d’offres d’appels dans Office 365, seront répertoriés.
 - **Groupe d’utilisateurs personnalisés** Si vous utilisez cette option, vous pouvez rechercher un groupe Office 365, une liste de distribution ou un groupe de sécurité qui a été créé au sein de votre organisation et les personnes ajoutées à ce groupe Office 365, liste de distribution ou groupe de sécurité qui sont des **utilisateurs en ligne avec un Licence du système téléphonique** ou hébergé sur site avec Skype entreprise Server 2015 ou Lync Server 2013. Vous pouvez ajouter plusieurs groupes 365 Office, des listes de distribution et des groupes de sécurité.
 
 * * *

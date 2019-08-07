@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
 ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35792308"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online

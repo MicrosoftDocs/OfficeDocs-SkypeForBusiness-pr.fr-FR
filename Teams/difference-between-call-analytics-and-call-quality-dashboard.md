@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Apprenez-en davantage sur l’analyse des appels et le tableau de bord de qualité des appels et le moment où les utiliser pour surveiller et résoudre les problèmes de qualité d’appel.
-ms.openlocfilehash: bf16cd9a2cb23ebf22e08680132b5c5d7e5a94a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 535d3bf6ce2abf69143fb270e01bf4f0c2e230dc
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281877"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433598"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 
@@ -42,11 +42,11 @@ L’analyse des appels affiche des informations détaillées sur les périphéri
 
 Pour afficher ces informations pour un utilisateur dans le centre d’administration de Microsoft Teams, cliquez sur l’onglet **historique des appels** pour cet utilisateur dans la page de détails de l’utilisateur, en affichant tous les appels et les réunions auxquels il a participé au cours des 30 derniers jours.
 
-![Données utilisateur d’analyse des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![Capture d’écran de toutes les données utilisateur d’analyse.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Pour obtenir des informations supplémentaires sur une session donnée, notamment des statistiques détaillées sur le média et la mise en réseau, cliquez sur une session pour afficher les détails.
 
-![Données de session utilisateur d’analyse des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![Capture d’écran des données de session utilisateur d’analyse des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Si vous voulez que les personnes qui ne sont pas administrateurs (par exemple, les agents de support technique d’un fournisseur externe) utilisent l’analyse des appels, vous pouvez attribuer des autorisations de manière à ce qu’elles puissent utiliser l’analyse des appels, mais elles ne peuvent pas accéder au reste du centre d’administration Microsoft teams: 
   
@@ -70,11 +70,11 @@ Même si l’analyse des appels permet aux administrateurs et aux agents de supp
   
 La qualité des appels est peut-être médiocre en raison d’un problème réseau affectant également de nombreux autres utilisateurs. L’utilisation individuelle des appels n’est pas visible dans bord, mais la qualité générale des appels passés à l’aide de Microsoft teams ou de Skype entreprise est capturée. Avec bord, les modèles globaux risquent de se révéler invisibles, ce qui permet aux ingénieurs réseau d’effectuer des analyses éclairées de la qualité des appels. BORD fournit des rapports sur les mesures de la qualité d’appel qui vous permettent d’accéder à des informations sur la qualité des appels globales, les flux de clients du serveur, les flux client-client et le [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)de qualité vocale.
   
-![Capture d’écran du tableau de bord de qualité des appels. Les onglets indiqués sont la qualité générale de l’appel, le client client, le client-client et le SLA de qualité vocale.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![Capture d’écran du tableau de bord de qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
 À l’aide des rapports d’emplacement de bord, il est possible d’évaluer la qualité et la fiabilité des appels dans le bâtiment de l’utilisateur pour déterminer si le problème est isolé d’un utilisateur ou s’il a des répercussions sur un plus grand nombre d’utilisateurs.
 
-![Capture d’écran des rapports d’emplacement du tableau de bord de qualité des appels. Les onglets présentés sont vue d’ensemble, immeubles-filaires-WiFi et mobiles (LTE). Un filtre est appliqué pour afficher les flux au sein d’un immeuble spécifique.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![Capture d’écran des rapports d’emplacement du tableau de bord de qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Pour activer des affichages spécifiques de la construction ou du point de terminaison dans bord, un administrateur doit [Télécharger des informations de bâtiment ou de point de terminaison](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) sur la page de téléchargement des données du client bord. 

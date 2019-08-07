@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé: Préparez-vous à la désactivation de TLS 1,0 et 1,1 dans vos environnements.'
 ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34275240"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype entreprise Server 2015
@@ -451,7 +451,7 @@ Il est possible que vous ayez remarqué que nous ne puissions pas simplement dé
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Valider le fonctionnement normal des charges de travail
 
-Une fois que les protocoles TLS 1,0 et 1,1 ont été désactivés dans votre environnement, assurez-vous que l’ensemble des charges de travail principales fonctionnent comme prévu, par exemple & de messagerie instantanée, les appels P2P, voix entreprise, etc.
+Une fois que les protocoles TLS 1,0 et 1,1 ont été désactivés dans votre environnement, assurez-vous que toutes les charges de travail principales fonctionnent comme prévu, comme la messagerie instantanée & la présence, les appels P2P, l’entreprise voix, etc.
 
 **Valider uniquement le 1,2 TLS est utilisé**
 
@@ -480,8 +480,8 @@ Dans la mesure où certains éléments requis de dépendance sont requis pour la
 
 **Option 2:** Pré-installation des instances SQL locales (RTCLOCAL et LYNCLOCAL)
 
-1. Téléchargez et copiez SQL Express 2014 SP2 (SQLEXPR_x64. exe) dans le dossier local sur FE. Par exemple, le chemin d’accès du dossier <SQL_FOLDER_PATH>.
-2. Lancez PowerShell ou l’invite de commandes et accédez à <SQL_FOLDER_PATH>.
+1. Téléchargez et copiez SQL Express 2014 SP2 (SQLEXPR_x64. exe) dans le dossier local sur FE. Imaginons que le chemin d’accès du dossier <SQL_FOLDER_PATH>.
+2. Lancez PowerShell ou invite de commandes, puis accédez à <SQL_FOLDER_PATH>.
 3. Créez l’instance SQL RTCLOCAL en exécutant la commande suivante. Attendez la fin de SQLEXPR_x64. exe avant de procéder comme suit:
 
     SQLEXPR_x64. exe/Q/IACCEPTSQLSERVERLICENSETERMS/UPDATEENABLED = 0/HIDECONSOLE/ACTION = installer/FEATURES = SQLEngine, Tools/INSTANCENAME = RTCLOCAL/TCPENABLED = 1/SQLSVCACCOUNT = "AUTORITE AUTHORITY\NetworkService"/SQLSYSADMINACCOUNTS = "builtin \ Administrateurs "/BROWSERSVCSTARTUPTYPE =" Automatic "/AGTSVCACCOUNT =" NTAUTHORITY\NetworkService "/SQLSVCSTARTUPTYPE = AUTOi
