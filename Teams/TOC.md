@@ -644,7 +644,6 @@
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [Fonctionnalités pour l’employé de terrain prochainement disponibles pour Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
 ### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Exécuter un rapport pour afficher l’utilisation effective de StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
