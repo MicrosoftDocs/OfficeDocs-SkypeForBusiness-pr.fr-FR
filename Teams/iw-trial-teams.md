@@ -10,17 +10,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
 description: Les utilisateurs d’Office 365 qui ne disposent pas d’une licence Microsoft Teams peuvent commencer une période d’essai d’un an de Microsoft Teams.
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b27cbe49cef8f523504b6a308c6b55f2bd39d12
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c6135a96e588c881f1f3548632da9e14182c9e53
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793281"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245397"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
