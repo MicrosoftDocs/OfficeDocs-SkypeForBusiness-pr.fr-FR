@@ -6,6 +6,7 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
@@ -13,16 +14,16 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20e186ac9ab0dc98dda503738160f09c4f55b07
-ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
+ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33472555"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235358"
 ---
 # <a name="teams-for-education"></a>Teams pour l’éducation
 
-Avec les équipes, enseignants et enseignant peuvent créer des classes collaboratives, se connecter dans les Communautés de formation professionnelle et communiquer avec des étudiants et enseignants. Utilisez les ressources d’administration ici pour vous aider à déployer avec succès, adoptent et gèrent les équipes de votre école ou l’établissement. 
+Grâce aux équipes, aux enseignants et aux enseignants, vous pouvez créer des salles de classe collaboratives, se connecter à des communautés d’apprentissage professionnel et communiquer avec des étudiants et des enseignants. Utilisez les ressources d’administration ici pour vous aider à déployer, arrêter et gérer des équipes dans votre établissement scolaire ou votre établissement scolaire. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -32,7 +33,7 @@ Avec les équipes, enseignants et enseignant peuvent créer des classes collabor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="arrow" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/arrow-right-2-teams.svg" alt="An arrow icon representing quick start" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,11 +51,11 @@ Avec les équipes, enseignants et enseignant peuvent créer des classes collabor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="A pencil icon representing assignments" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Affectations dans les équipes pour l’éducation</h3>
+                        <h3>Devoirs dans Teams pour l’éducation</h3>
                     </div>
                 </div>
             </div>
@@ -68,11 +69,11 @@ Avec les équipes, enseignants et enseignant peuvent créer des classes collabor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="toolbox" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/toolbox.svg" alt="A tool icon representing resources" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ressources pour les équipes pour les administrateurs de formation</h3>
+                        <h3>Ressources pour les administrateurs d’équipes pour l’éducation</h3>
                     </div>
                 </div>
             </div>
@@ -85,11 +86,11 @@ Avec les équipes, enseignants et enseignant peuvent créer des classes collabor
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon representing governance FAQ" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Gouvernance du Forum aux questions sur des équipes pour les administrateurs de formation</h3>
+                        <h3>Forum aux questions de gouvernance pour les administrateurs teams éducation</h3>
                     </div>
                 </div>
             </div>

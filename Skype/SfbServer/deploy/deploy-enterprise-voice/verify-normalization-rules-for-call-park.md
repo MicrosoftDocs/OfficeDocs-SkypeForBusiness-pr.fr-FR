@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,23 +14,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: En savoir plus sur les règles de normalisation du parc d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: 36e9a91ff1269caffb8eab5be9a2c681d3244b31
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 38de300970341d563f2a532847a39c2fe98e15e7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300936"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240016"
 ---
-# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a><span data-ttu-id="1e9d2-103">Vérifier les règles de normalisation du parc d’appels dans Skype entreprise</span><span class="sxs-lookup"><span data-stu-id="1e9d2-103">Verify normalization rules for Call Park in Skype for Business</span></span>
+# <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a><span data-ttu-id="d8ee4-103">Vérifier les règles de normalisation du parc d’appels dans Skype entreprise</span><span class="sxs-lookup"><span data-stu-id="d8ee4-103">Verify normalization rules for Call Park in Skype for Business</span></span>
  
-<span data-ttu-id="1e9d2-104">En savoir plus sur les règles de normalisation du parc d’appels dans Skype entreprise Server Voice.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-104">Learn about normalization rules for Call Park in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="d8ee4-104">En savoir plus sur les règles de normalisation du parc d’appels dans Skype entreprise Server Voice.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-104">Learn about normalization rules for Call Park in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="1e9d2-105">Le parking des orbites ne doit pas être normalisé.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-105">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="1e9d2-106">Vérifiez dans vos plans de numérotation que vos numéros orbites ne sont pas normalisés.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-106">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="1e9d2-107">Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure décrite dans la rubrique [créer ou modifier un plan de numérotation dans Skype entreprise Server](dial-plans.md) pour définir une nouvelle règle de normalisation, afin que le **modèle corresponde** identifie la plage orbite et le **modèle de translation** est **$1**.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-107">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="1e9d2-108">Par exemple, si la plage de votre stationnement d’appels est 7000-7999, le **modèle à faire correspondre** est **^ ({3}7 \ d) $** et le **modèle de traduction** est **$1**.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-108">For example, if your Call Park orbit range is 7000 - 7999, the **Pattern to match** is **^(7\d{3})$** and **Translation pattern** is **$1**.</span></span>
+<span data-ttu-id="d8ee4-105">Le parking des orbites ne doit pas être normalisé.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-105">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="d8ee4-106">Vérifiez dans vos plans de numérotation que vos numéros orbites ne sont pas normalisés.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-106">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="d8ee4-107">Si vous devez créer une règle de normalisation supplémentaire pour empêcher la normalisation de vos orbites, suivez la procédure décrite dans la rubrique [créer ou modifier un plan de numérotation dans Skype entreprise Server](dial-plans.md) pour définir une nouvelle règle de normalisation, afin que le **modèle corresponde** identifie la plage orbite et le **modèle de translation** est **$1**.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-107">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create or modify a dial plan in Skype for Business Server](dial-plans.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="d8ee4-108">Par exemple, si la plage de votre stationnement d’appels est 7000-7999, le **modèle à faire correspondre** est **^ ({3}7 \ d) $** et le **modèle de traduction** est **$1**.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-108">For example, if your Call Park orbit range is 7000 - 7999, the **Pattern to match** is **^(7\d{3})$** and **Translation pattern** is **$1**.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="1e9d2-109">Vérifiez que la règle de normalisation par défaut de vos plans de numérotation ne contient pas **^\*(\d)**.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-109">Be sure that the default normalization rule in your dial plans does not contain **^(\d\*)**.</span></span> <span data-ttu-id="1e9d2-110">Dans le cas contraire, votre règle de normalisation de parc d’appels ne sera jamais exécutée.</span><span class="sxs-lookup"><span data-stu-id="1e9d2-110">Otherwise, your Call Park normalization rule will never run.</span></span>
+> <span data-ttu-id="d8ee4-109">Vérifiez que la règle de normalisation par défaut de vos plans de numérotation ne contient pas **^\*(\d)**.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-109">Be sure that the default normalization rule in your dial plans does not contain **^(\d\*)**.</span></span> <span data-ttu-id="d8ee4-110">Dans le cas contraire, votre règle de normalisation de parc d’appels ne sera jamais exécutée.</span><span class="sxs-lookup"><span data-stu-id="d8ee4-110">Otherwise, your Call Park normalization rule will never run.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1e9d2-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1e9d2-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8ee4-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d8ee4-111">See also</span></span>
 
-[<span data-ttu-id="1e9d2-112">Création ou modification d’un plan de numérotation dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="1e9d2-112">Create or modify a dial plan in Skype for Business Server</span></span>](dial-plans.md)
+[<span data-ttu-id="d8ee4-112">Création ou modification d’un plan de numérotation dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="d8ee4-112">Create or modify a dial plan in Skype for Business Server</span></span>](dial-plans.md)
 
