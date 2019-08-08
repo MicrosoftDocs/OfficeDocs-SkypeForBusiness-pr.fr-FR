@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Dans Skype entreprise Server 2019, vous définissez des sites sur votre réseau qui contiennent des composants Skype entreprise Server 2019. Un site est un ensemble d’ordinateurs qui sont bien connectés par le biais d’un réseau haut débit à faible latence, par exemple un réseau local unique (LAN) ou deux réseaux connectés par un réseau fibres optiques haut débit.
-ms.openlocfilehash: 8f50f25536e330a03440702614f81c09ce74518a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ad93a512a1aab596e08744f76d74e2e41a9faa5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298161"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237785"
 ---
 # <a name="migration-phases"></a>Phases de migration
 

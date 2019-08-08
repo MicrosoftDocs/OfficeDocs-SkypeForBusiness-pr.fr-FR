@@ -4,8 +4,9 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -13,12 +14,12 @@ ms.reviewer: lucarras, jakon
 description: Découvrez comment ajouter des robots dans Microsoft teams pour les discussions personnelles, les discussions de groupe et les canaux, et télécharger vos propres robots pour les discussions personnelles, les conversations de groupes et les canaux.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a5f7ef2d548031528aa41b9fdb75831fe46d36d
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859688"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239056"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Ajouter des robots pour les discussions personnelles, les discussions de groupe et les canaux dans Microsoft teams
 ==========================================================

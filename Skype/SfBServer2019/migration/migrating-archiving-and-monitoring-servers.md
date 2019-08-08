@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si vous avez déployé le serveur d’archivage et surveillé votre serveur dans votre environnement hérité, vous pouvez déployer ces serveurs dans votre environnement 2019 Skype entreprise Server après la migration de vos pools front-end. En revanche, si la fonctionnalité d’archivage et de surveillance est essentielle pour votre organisation, il est conseillé d’ajouter l’archivage et la surveillance à votre liste de pilotes de pilotes 2019 Skype entreprise Server avant de procéder à la migration de manière à ce que la fonctionnalité soit disponible pendant le processus de migration.
-ms.openlocfilehash: 94a3d21b9b76d18f63fdf7db53144b1d51deb53c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f259a08d25c93467c79fdaf3550288c6208607c3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298196"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237890"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migration des serveurs d’archivage et de surveillance
 

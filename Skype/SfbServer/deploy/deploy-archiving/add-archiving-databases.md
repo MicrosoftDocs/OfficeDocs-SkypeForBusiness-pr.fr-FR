@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Résumé: cette rubrique vous explique comment ajouter des bases de données d’archivage à votre déploiement Skype entreprise Server.'
-ms.openlocfilehash: 2110a6c82aed473fdc07e5796075aabdb50c7086
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278996"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234374"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype entreprise Server
  
@@ -96,7 +96,7 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
 5. Dans la page **Créer des bases de données**, vérifiez que la base de données est sélectionnée, puis cliquez sur **Suivant**. 
     
     > [!NOTE]
-    > Si vous ne disposez pas des autorisations appropriées pour créer des bases de données, vous pouvez annuler la sélection de la base de données et laisser une autre personne dotée des autorisations nécessaires la créer. > uniquement les bases de données sur les serveurs SQL dédiés peuvent être installées à l’aide du générateur de topologie. Les bases de données situées sur des serveurs SQL colocalisés avec d’autres composants serveur doivent être installées via une installation locale sur l’ordinateur concerné. 
+    > Si vous ne disposez pas des autorisations appropriées pour créer des bases de données, vous pouvez annuler la sélection de la base de données et laisser une autre personne dotée des autorisations nécessaires la créer. > seules les bases de données sur des serveurs SQL dédiés peuvent être installées à l’aide du générateur de topologie. Les bases de données situées sur des serveurs SQL colocalisés avec d’autres composants serveur doivent être installées via une installation locale sur l’ordinateur concerné. 
   
 6. Dans la page **Assistant Publication terminé**, assurez-vous que la topologie a été publiée correctement, puis cliquez sur **Terminer**.
     

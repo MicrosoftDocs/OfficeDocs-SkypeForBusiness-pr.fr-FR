@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Sélectionnez applications clientes Teams, planifiez la qualité du point de terminaison, obtenez des recommandations pour le déploiement de points de terminaison Wi-Fi et le choix de périphériques audio.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c189ba7c3e814b3bbe37fea92f740e9fe873af86
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432594"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235186"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
 

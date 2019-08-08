@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Chaque appareil de branchement survivant (SBA) est associé à une réserve frontale qui sert de bureau d’enregistrement de sauvegarde pour le SBA. Lorsque le pool frontal est migré vers Skype entreprise Server 2019, l’SBA doit être désassocié du pool frontal lors de la mise à niveau du pool, une fois que le regroupement a été déplacé vers Skype entreprise Server 2019, l’adresse SBA peut être réassociée au premier plan. Pool ND. Cela implique la suppression de l’SBA de la topologie héritée dans le générateur de topologie, puis l’ajout de l’SBA à la topologie 2019 de Skype entreprise Server. Les utilisateurs hébergés sur l’ancien SBA doivent d’abord être déplacés vers un autre pool frontal avant de supprimer l’SBA de la topologie. Une fois que le SBA a été ajouté à la topologie 2019 de Skype entreprise Server, il peut ensuite être ramené à l’adresse SBA. Ces étapes sont décrites ci-dessous:'
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275544"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239283"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Connexion d’une Survivable Branch Appliance
 

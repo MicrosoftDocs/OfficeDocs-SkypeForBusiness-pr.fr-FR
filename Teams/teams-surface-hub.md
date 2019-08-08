@@ -8,89 +8,89 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Configurer les paramètres d’administration pour Microsoft Teams concentrateur de la surface d’exposition.
+description: Configurer les paramètres d’administration de Microsoft teams pour surface Hub.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
 - Devices
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204460"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235038"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================
 
-Avant d’installer les équipes Surface concentrateur, veillez à effectuer les opérations suivantes :
+Avant d’installer teams pour surface Hub, veillez à effectuer les opérations suivantes:
 
- □ Assurez-vous que matériel, système d’exploitation et autres conditions sont remplies. Pour plus d’informations, consultez le [guide d’administration de Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).<br>
- □ Assurez-vous que la mise à jour de système d’exploitation minimum requis pour les équipes est installé - [KB4343889](https://support.microsoft.com/help/4343889).<br>
- □ Attribuer une licence équipes au compte périphérique Hub.<br>
- □ Si vous faites passer de Skype pour Business Online, vérifiez qu’une licence d’équipes est attribuée à l’utilisateur.
+ □ Vérifiez que le matériel, le système d’exploitation et les autres exigences sont satisfaits. Pour plus d’informations, consultez le [Guide d’administration Microsoft surface Hub](https://docs.microsoft.com/surface-hub/).<br>
+ □ Vérifiez que la mise à jour du système d’exploitation minimum nécessaire pour teams est installée- [KB4343889](https://support.microsoft.com/help/4343889).<br>
+ □ Affecter une licence d’équipes au compte de l’appareil concentrateur.<br>
+ □ Si vous passez de Skype entreprise Online, vérifiez qu’une licence teams est affectée à l’utilisateur.
 
-## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer des équipes pour exposer Hub à partir du magasin de Microsoft 
+## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer teams pour surface Hub à partir de la boutique Microsoft 
 
-Ces instructions sont pour l’installation des équipes concentrateur de Surface à partir de Microsoft Store. 
+Les instructions suivantes s’appliquent à l’installation d’teams surface Hub à partir du Microsoft Store. 
  
-1. Démarrer la banque Microsoft :<br>
-   a. Cliquez sur **Démarrer** > **toutes les applications** > **paramètres**.<br> b. Cliquez sur **compte de Surface Hub DISPOSITIF, la gestion**.<br>
-   c. Sur la gauche, cliquez sur l’onglet **applications & fonctionnalités** .<br> d. Sur la droite, appuyez sur le bouton **Ouvrir un magasin** . 
-2. Dans le Store Microsoft, recherchez les *Équipes Microsoft*. Les **Équipes Microsoft Surface concentrateur** s’affichera. Appuyez sur le bouton **obtenir l’application** à installer.  
-3. Une fois l’installation terminée, redémarrez le Hub de la surface d’exposition. 
+1. Démarrez Microsoft Store:<br>
+   a. Appuyez sur **Démarrer** > **tous les** > **paramètres**d’application.<br> b. Appuyez sur **compte surface Hub, gestion**.<br>
+   c. Sur la gauche, appuyez sur l’onglet **applications & fonctionnalités** .<br> d. À droite, appuyez sur le bouton **ouvrir la boutique** . 
+2. Dans la boutique Microsoft, recherchez *Microsoft teams*. **Microsoft teams surface Hub** est affiché. Appuyez sur le bouton **obtenir l’application** pour procéder à l’installation.  
+3. Lorsque l’installation est terminée, redémarrez surface Hub. 
 
 > [!NOTE]
-> Ne cliquez pas la **barre de lancement** de la page de liste des magasins.
+> N’appuyez pas sur **lancer** à partir de la page Description dans le Windows Store.
 
-## <a name="make-teams-the-default-calling-and-meetings-application"></a>Rendre les équipes l’appel par défaut et l’application de réunions
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Définir teams comme application par défaut pour les appels et les réunions
  
-Il existe deux options pour la configuration de la stratégie d’application appelant et réunions par défaut : 
+Deux options s’offrent à vous pour configurer la stratégie d’appel et de réunion par défaut: 
 
-- **Option 1**: configurer via une clé USB. 
-- **Option 2**: configurer via Mobile Device Manager tels que Intune.
+- **Option 1**: configuration via la clé USB. 
+- **Option 2**: configurer via le GPM (par exemple, Intune).
  
-### <a name="option-1-configure-via-usb-key"></a>Option 1 : Configurer via une clé USB 
+### <a name="option-1-configure-via-usb-key"></a>Option 1: configurer via une clé USB 
  
-Les packages se trouvent sur cette [page de téléchargement](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Choisissez celui qui convient pour le programme que vous prévoyez d’installer et de le copier sur une clé USB. Le fichier .ppkg correct à utiliser dépend de la stratégie d’application par défaut que voulez-vous appliquer comme suit : 
+Les packages sont disponibles sur cette [page de téléchargement](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Sélectionnez l’application appropriée pour le package que vous envisagez d’installer et copiez-la sur une clé USB. Le fichier. ppkg approprié à utiliser dépend de la stratégie d’application par défaut que vous souhaitez appliquer en procédant comme suit: 
 
 |Numéro  |Description  |
 |---------|---------|
-|0     | Application préférée Skype sur l’écran de démarrage, équipes de réunions disponibles        |
-|1     | Application préférée équipes sur l’écran de démarrage, Skype réunions disponibles        |
-|2     | Application exclusive équipes sur l’écran d’accueil (Skype app n’est pas disponible)        |
+|0,4     | Application préférée Skype sur l’écran d’accueil, réunions teams disponibles        |
+|1     | Application par défaut teams dans l’écran d’accueil, réunions Skype disponibles        |
+|2     | Application Skype pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible)        |
  
-1. Attacher la clé USB à l’appareil Hub de la surface d’exposition. 
-2. Ouvrez l’application de **paramètres** sur un appareil Hub de la surface d’exposition. 
-3. Ouvrez **gestion de compte Hub Surface périphérique**.
-4. Ouvrez **Gestion des périphériques**. 
-5. Cliquez sur **Ajouter ou supprimer un package de mise en service**. 
-6. Cliquez sur **Ajouter un Package**.
-7. Sélectionnez l’option **Support amovible** dans le menu déroulant. 
-8. Ajoutez le package <strong>TeamsRTMMode*.ppkg</strong> approprié qui a été précédemment copié à la clé USB. 
-9. Redémarrez le dispositif Hub de la surface d’exposition. 
-10. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier. 
+1. Associez la clé USB à l’appareil surface Hub. 
+2. Ouvrez l’application **paramètres** sur un appareil surface Hub. 
+3. Ouvrez **gestion de compte de l’appareil surface Hub**.
+4. Ouvrez la **gestion des appareils**. 
+5. Cliquez sur **Ajouter ou supprimer un package de mise à service**. 
+6. Cliquez sur **Ajouter un package**.
+7. Sélectionnez l’option **média amovible** dans le menu déroulant. 
+8. Ajoutez le package <strong>TeamsRTMMode *. ppkg</strong> approprié précédemment copié sur la clé USB. 
+9. Redémarrez l’appareil surface Hub. 
+10. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : Configurer via Mobile Device Manager tels que Intune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: configurer via le GPM (par exemple, Intune) 
 
-Utilisez ce qui suit pour configurer la stratégie par défaut les réunions et les appels d’application via Intune. Consultez également le blog, [déployer les équipes Microsoft pour Hub de la Surface d’application à l’aide de Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
+Procédez comme suit pour configurer la stratégie d’application pour les appels et les réunions par défaut via Intune. Consultez également le blog, [déploiement de l’application Microsoft teams pour surface Hub à l’aide de Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
 |Paramètre   |Valeur    |Description    |
 |----------|---------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
-|Type de données | nombre entier (0-2)   |0 - application préféré Skype sur l’écran de démarrage, équipes de réunions disponibles<br>1 - teams préféré application sur l’écran de démarrage, Skype réunions disponibles<br>2 - application exclusive d’équipes sur l’écran d’accueil (Skype app n’est pas disponible) |
+|Type de données | entier (0-2)   |0-application préférée de Skype sur l’écran d’accueil, réunions teams disponibles<br>1-l’application préférée d’équipes sur l’écran d’accueil, réunions Skype disponibles<br>2-application exclusive pour les équipes sur l’écran d’accueil (l’application Skype n’est pas disponible) |
 |Opérations| Obtenir, définir        |
 
 |Paramètre   |Valeur    |
 |----------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Type de données | chaîne - ensemble chaîne aux équipes des ID de package d’application en tant que **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe ! Les équipes** |
+|Type de données | Définissez chaîne-donnez à l’ID de package de l’application teams en tant que **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams** |
 |Opérations| Obtenir, définir        |
 
-Redémarrez le dispositif Hub de la surface d’exposition. Après le redémarrage de l’appareil, vous devez être en mesure de démarrer l’application des équipes à partir de l’écran d’accueil et participer à une réunion à partir du calendrier.
+Redémarrez l’appareil surface Hub. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier.
 

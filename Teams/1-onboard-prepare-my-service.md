@@ -3,6 +3,7 @@ title: Préparer le déploiement du service vocal cloud de Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Utilisez les listes de contrôle d’intégration pour préparer Office 365 pour teams et configurer les fonctionnalités principales, la mise en réseau et les charges de travail de l’équipe Cloud.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344828"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236197"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -112,7 +113,7 @@ Dans sa forme la plus simple, votre approche de test est basée sur les fonction
 
 Pour plus d’informations, consultez:
 
-- [Planification technique de l’audioconférence](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [Planification technique de l’audioconférence](cloud-voice-deployment.md)
 
 - [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

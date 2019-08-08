@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Apprenez-en davantage sur l’analyse des appels et le tableau de bord de qualité des appels et le moment où les utiliser pour surveiller et résoudre les problèmes de qualité d’appel.
-ms.openlocfilehash: 535d3bf6ce2abf69143fb270e01bf4f0c2e230dc
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 1130e901ca8c7103c9dd73990c4c0af47898203d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34433598"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237516"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Tableau de bord Analyse des appels et Qualité des appels
 

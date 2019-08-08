@@ -7,7 +7,8 @@ manager: serdars
 ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviwer: sbhatta
@@ -16,12 +17,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Découvrez comment un administrateur peut afficher les informations relatives aux utilisateurs invités dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e068e6e754ab28f3c068c59c92c7a27d13e2da1d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d05e6f6af0174930ddeafe06ece5a39f4ec91c87
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35220893"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237061"
 ---
 <a name="view-guest-users-in-a-team"></a>Afficher les utilisateurs invités d'une équipe
 ==========================

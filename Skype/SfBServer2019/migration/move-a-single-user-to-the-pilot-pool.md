@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez déplacer un utilisateur de votre liste héritée vers votre pool de pilotes Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration ou de Skype entreprise Server 2019 Management Shell. Dans l’exemple ci-dessous, dans la colonne pool d’inscriptions, pool01.contoso.net est le pool hérité, et les six de ces utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur vers votre pool Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration et de Skype entreprise Server Management Shell.
-ms.openlocfilehash: 23ce56f8bcf759aeeaa9e9a9b64820958c656c6a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298133"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237764"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Déplacer un utilisateur unique vers le pool de pilotes
 

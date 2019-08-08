@@ -7,27 +7,28 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: Découvrez les méthodes recommandées de demande de commentaires des utilisateurs dans Microsoft Teams pour assurer la meilleure expérience d'équipe possible.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c29a896c520aa6475e0739bc0555090958f35b92
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194764"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236961"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 ===========================================================
 
 L'adoption d'une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement du comportement des personnes requiert des formations, des encouragements et des exemples positifs. Il est également essentiel pour les personnes de se sentir écoutées pendant la transition. Si vous avez déjà établi des méthodes de demande de commentaires qui ont fait leurs preuves dans votre organisation, envisagez de les étendre pour inclure votre implémentation de Teams. Si ce n'est pas le cas, envisagez d'appliquer l'une des approches suivantes :
 
--   Création d’une équipe public au sein de Microsoft Teams que n’importe quel utilisateur peut rejoindre pour fournir des commentaires sur leur expérience (en gardant à l’esprit que groupes publics est limitée à 5 000 utilisateurs).
+-   La création d’une équipe publique au sein de Microsoft Teams, qui permet à un utilisateur de se joindre pour formuler des commentaires sur son utilisation (en gardant à l’esprit que les groupes publics sont limités aux utilisateurs 5000).
 
 -   Utilisation de Yammer pour mettre en place une communauté ouverte pour fournir des meilleures pratique et un support.
 

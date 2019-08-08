@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La migration de l’application de parc d’appels inclut la mise en service du pool Skype entreprise Server 2019 avec n’importe quel fichier de musique personnalisé sur les fichiers qui ont été téléchargés dans l’installation héritée, en restaurant les paramètres de niveau de service et en reciblant toutes les orbites du parc d’appels sur le Pool 2019 de Skype entreprise Server. Si des fichiers personnalisés de musique en attente ont été configurés dans la liste, ces fichiers doivent être copiés dans le nouveau pool Skype entreprise Server 2019. Par ailleurs, il est recommandé de sauvegarder les fichiers de conservation de musique personnalisés de votre parc d’appels à partir d’une autre destination pour conserver une copie de sauvegarde distincte de tous les fichiers de conservation de la musique personnalisés qui ont été téléchargés pour le parc d’appels. Les fichiers de conservation de musique personnalisés pour l’application de parc d’appels sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio à partir d’un magasin de fichiers de réserve dans un magasin de fichiers 2019 Skype entreprise Server, utilisez la commande xcopy avec les paramètres suivants:'
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280829"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238031"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
 

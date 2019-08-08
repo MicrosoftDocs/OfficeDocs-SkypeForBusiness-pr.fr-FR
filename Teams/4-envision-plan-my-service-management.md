@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Livrez et gérez un déploiement de haute qualité en planifiant les rôles opérationnels et en attribuant un rôle de champion de la qualité.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 44f68e258535959c164ae838c2c146a4a4b207d9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548111"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232293"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -72,25 +73,23 @@ Le Guide des opérations fournit une liste des tâches communes mappées aux rô
 |Opérations Exchange|Gérer l’environnement Exchange|TBA|TBA|
 |Opérations de téléphonie|Gérer le SBC et les numéros de téléphone|TBA|TBA|
 
-Pour permettre un mappage des rôles opérationnels plus détaillé, incluant les tâches associées à chaque rôle opérationnel, vous pouvez utiliser le [Classeur de mappage des rôles opérationnels](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) pour capturer les détails qui permettront d’avoir une vision claire des rôles et responsabilités pour la prise en charge des charges de travail Voix Cloud.
-
 <!--ENDOFSECTION-->
 
 ## <a name="the-quality-champion-role"></a>Le rôle de Champion de la qualité
 
 Un groupe ou un individu doit être responsable de la qualité dans toutes les organisations.
-Il s'agit du rôle le plus important dans la gestion des services. Le champion de la qualité est un rôle de client attribué à une personne ou à un groupe passionné par l'expérience de ses utilisateurs. Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives.
-Le meilleur candidat pour le champion de la qualité est généralement le propriétaire du service-clients qui, en fonction de la taille et de la complexité de l'organisation, peut être toute personne ou tout groupe passionné par l'expérience utilisateur.
+Il s'agit du rôle le plus important dans la gestion des services. Le spécialiste qualité est un rôle client attribué à une personne ou à un groupe qui s’est engagé sur l’interface de ses utilisateurs. Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives.
+Le meilleur candidat pour le champion de qualité est généralement le propriétaire du service clientèle, qui, en fonction de la taille et de la complexité de l’organisation, peut être une personne ou un groupe qui est passionné par l’utilisation de l’utilisateur.
 
-Le champion de la qualité s'appuie sur les outils existants et les processus documentés, comme le Tableau de bord de la qualité des appels (CQD) et le Guide d'examen de l'expérience de la qualité, afin de surveiller l'expérience utilisateur, identifier les tendances de la qualité et mettre en œuvre, le cas échéant, des mesures correctives. Le champion de la qualité doit collaborer avec les équipes respectives pour mettre en place des mesures correctrices, en fournissant des rapports à un comité directeur sur la progression et les problèmes ouverts.
+Le spécialiste qualité tire parti des outils et processus documentés existants, tels que le tableau de bord de qualité des appels (bord) et le Guide de vérification de l’utilisation de la qualité pour surveiller l’utilisation des utilisateurs, identifier les tendances en matière de qualité et piloter la correction le cas échéant. Le spécialiste de la qualité travaille en équipe auprès des équipes respectives pour diriger les actions de reconversion, en rapport avec le Comité d’orientation pour les problèmes de progression et d’ouverture.
 
-Les tâches et les activités associées à ce rôle ont été documentées dans le Guide des opérations. Ce rôle devrait être assigné au début de la phase de conception. Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
+Les tâches et les activités associées au rôle sont décrites dans le guide opérations. Ce rôle devrait être assigné au début de la phase de conception. Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Introduction au Guide d'examen de l'expérience de la qualité
 
-Le Guide d'examen de l'expérience de la qualité comporte un ensemble d'activités qui évaluent et fournissent des conseils en matière de correction dans les domaines clés qui ont le plus grand impact sur l'amélioration de l'expérience utilisateur, comme le montre la figure ci-dessous.
+Le Guide de vérification de l’utilisation de la qualité dispose d’un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact maximal sur l’amélioration de l’interface utilisateur, comme illustré dans la figure ci-dessous.
 
 ![Illustration des zones clés à examiner lors de l’évaluation de l’interface qualité] (media/plan-my-service-management-image2.png "Les principales zones à examiner lors de l’évaluation de l’utilisation de la qualité: les résultats de l’enquête audio, fiable et utilisateur.")
 
@@ -110,13 +109,13 @@ En évaluant et en corrigeant continuellement les zones décrites dans ce docume
 
 Les conseils fournis dans le Guide d'examen de l'expérience de qualité portent sur l'utilisation du CQD en ligne comme outil principal pour rapporter et enquêter sur chaque domaine décrit, en mettant l'accent sur l'audio pour maximiser l'adoption et l'impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Nous vous recommandons fortement de nommer le champion de la qualité le plus tôt possible. Une fois nommé, il doit commencer à se familiariser avec le contenu du [Guide d'examen de la qualité de l'expérience](https://aka.ms/qerguide).
+Nous vous conseillons vivement de le nommer rapidement. Après avoir été désignée, il doit commencer à se familiariser avec le contenu du [Guide de vérification](https://aka.ms/qerguide)de l’utilisation de la qualité.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décidez de la personne responsable des opérations Voix Cloud dans votre organisation.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Téléchargez le Guide complet de la planification de la gestion des services.</li><li>Téléchargez le Guide d'examen de l'expérience de la qualité.</li><li>Consultez en détail le Guide des opérations.</li><li>Fournissez tous les guides à tous les membres de l’équipe pour leur permettre de se familiariser avec les conditions requises pour les opérations.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez qui est responsable des opérations vocales Cloud au sein de votre organisation.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Téléchargez le guide complet planification du service gestion des services.</li><li>Télécharger le Guide de vérification de l’utilisation de la qualité.</li><li>Passez en revue le Guide de fonctionnement complet.</li><li>Fournissez tous les guides à chaque membre de l’équipe d’opérations pour vérifier et être familiarisé avec les exigences opérationnelles.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

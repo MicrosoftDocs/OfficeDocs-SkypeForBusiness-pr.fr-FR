@@ -7,24 +7,25 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Découvrez comment activer Microsoft Teams pour votre organisation Office 365.
+audience: admin
+description: Apprenez à activer Microsoft teams pour votre organisation Office 365.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180128"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245828"
 ---
-# <a name="enable-teams-in-your-organization"></a>Permettent aux équipes de votre organisation
+# <a name="enable-teams-in-your-organization"></a>Permettre aux équipes au sein de votre organisation
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
@@ -32,7 +33,7 @@ ms.locfileid: "32180128"
 Par défaut, Teams est activé pour toutes les organisations. Si vous utilisiez Teams lors de la période d’évaluation, sa configuration reste identique à celle que vous aviez définie pendant sa période d’évaluation. 
 
 
-En tant qu’administrateur pour votre organisation, vous pouvez attribuer des licences utilisateur pour contrôler l’accès aux équipes individuel, et vous pouvez autoriser ou bloquer les sources de contenu peuvent être utilisées dans les équipes. Pour plus d’informations, voir [les équipes Microsoft gérer les paramètres de votre organisation](enable-features-office-365.md) ou des [paramètres d’administration pour les applications dans les équipes Microsoft](admin-settings.md) . 
+En tant qu’administrateur de votre organisation, vous pouvez attribuer des licences utilisateur pour contrôler l’accès individuel aux équipes et vous pouvez autoriser ou bloquer les sources de contenu qui peuvent être utilisées dans Teams. Pour plus d’informations, voir [gérer les paramètres de Microsoft teams pour les](enable-features-office-365.md) [applications dans Microsoft teams](admin-settings.md) . 
 
 
  

@@ -6,21 +6,22 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 description: Découvrez comment utiliser Groupes Office 365 et les adhésions de groupe avec Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a104200d8138f65e84113e38b19527c070ea2f08
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 9734404e767e9769a44a09fa7afe22bf251e4ba7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344533"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245167"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Groupes Office 365 et Microsoft teams
 =====================================

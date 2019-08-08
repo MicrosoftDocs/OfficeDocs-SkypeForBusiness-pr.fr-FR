@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Les appels de partage et de groupe permettent aux utilisateurs de partager des appels entrants avec des collègues, de sorte que les appels puissent être capturés quand l’utilisateur n’est pas disponible.
-ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283478"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237163"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Partage d’appel et prise d’appel de groupe dans Microsoft Teams
 
@@ -48,11 +48,13 @@ Pour configurer la fonction d’appel de groupe, un utilisateur configure d’ab
 
 Les préférences de création et de notification de groupe d’appels sont des fonctionnalités définies par l’utilisateur. les administrateurs n’ont pas besoin de configurer ces fonctionnalités pour leurs utilisateurs. Les groupes d’appels ne peuvent pas être créés à partir de groupes de sécurité ou de groupes Office 365; ils doivent être créés dans Teams.
 
-Les administrateurs doivent activer les groupes d’appels via le paramètre **TeamsCallingPolicy AllowCallGroups** pour un utilisateur. Les administrateurs peuvent uniquement contrôler si cet utilisateur peut configurer des groupes d’appels. Une fois que le bit est défini sur true, les administrateurs ne peuvent pas empêcher l’utilisateur de configurer et d’ajouter les utilisateurs du groupe d’appels de leur choix.
+Les administrateurs doivent activer les groupes d’appels via le paramètre **TeamsCallingPolicy AllowCallGroups** pour un utilisateur. Les administrateurs peuvent également l’activer via le portail d’administration Teams.  Par ailleurs, l’utilisateur configuré peut également configurer directement ses groupes d’appels via le client. Les utilisateurs d’un administrateur ou d’un utilisateur final ne peuvent pas bloquer la configuration entre eux, mais le portail d’administration teams et le client teams doivent afficher cette relation avec précision dans les deux emplacements. 
+
+Important: lorsque les administrateurs désactivent les groupes d’appels pour les utilisateurs (une fois qu’il est activé et que les relations du groupe d’appels sont configurées), les administrateurs doivent nettoyer les relations du groupe d’appels pour les utilisateurs dans le centre d’administration teams pour éviter un routage incorrect. 
 
 ## <a name="limitations"></a>Conditions
 
-Un locataire peut contenir un maximum de groupes d’appels 32 768. Il peut y avoir un maximum de 5 utilisateurs dans chaque groupe d’appels. 
+Un locataire peut contenir un maximum de groupes d’appels 32 768. Chaque groupe d’appels peut comporter un maximum de 25 utilisateurs. 
 
 ## <a name="more-information"></a>Plus d’informations
 

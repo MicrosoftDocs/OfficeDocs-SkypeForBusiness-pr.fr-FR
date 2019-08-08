@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Les téléphones portables courants sont les téléphones IP qui se trouvent le plus souvent dans un espace de travail partagé ou une zone commune (par exemple, salle d’attente, cuisine ou étage d’usine). Il n’est pas nécessaire de connecter des téléphones communs à un ordinateur pour fournir une fonctionnalité de communications unifiées (UC) Skype entreprise Server. Après avoir migré un déploiement vers Skype entreprise Server 2019, vous devez également migrer les objets de contact associés au numéro local hérité. À l’aide de Skype entreprise Server Management Shell, vous devez tout d’abord récupérer tous les objets de contact associés aux numéros de téléphone de zone commune hérités, puis déplacer ces objets vers le pool Skype entreprise Server 2019.
-ms.openlocfilehash: 915b0b86c4f0b1ac74e2575cdfcd65d0cbf23d31
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 123f0a73da65e7d661541c6c4bec65481bf12f0c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280818"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238024"
 ---
 # <a name="migrate-common-area-phones"></a>Migration des téléphones de partie commune
 

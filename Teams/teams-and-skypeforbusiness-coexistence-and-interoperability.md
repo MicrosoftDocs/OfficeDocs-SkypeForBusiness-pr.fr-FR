@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Détails des options de coexistence de Skype entreprise et Microsoft Teams, ainsi que de l’interopérabilité entre Skype entreprise et Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 5ba7ae0613bbab87f09a6c290d191d711d583c24
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934629"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237527"
 ---
 ![Diagramme de parcours de mise à niveau, mettant l’accent sur l’étape de définition du projet] (media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 

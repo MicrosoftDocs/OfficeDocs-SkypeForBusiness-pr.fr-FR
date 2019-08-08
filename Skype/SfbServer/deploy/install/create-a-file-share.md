@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Résumé: Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292164"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235241"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Création d’un partage de fichiers dans Skype entreprise Server
  
@@ -64,7 +64,7 @@ Regardez la vidéo des étapes pour **créer un partage de fichiers** :
 > [!NOTE]
 >Si le magasin de fichiers est hébergé sur un partage DFS, le message d’avertissement suivant est reçu:
 
-AVERTISSEMENT: impossible d’accéder aux autorisations de partage\\<domain>\<pour «share>».
+AVERTISSEMENT: impossible d’accéder aux autorisations de partage\\<domain>\<pour «partager>».
 
 >Cela peut se produire si vous n’êtes pas administrateur sur le serveur de fichiers ou s’il s’agit d’un partage du système de fichiers DFS. Si les autorisations de partage ont déjà été configurées, cet avertissement peut être ignoré. S’il s’agit d’un nouveau partage, reportez-vous à la documentation pour plus d’informations sur la configuration manuelle des autorisations de partage.
 

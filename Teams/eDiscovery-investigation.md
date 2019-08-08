@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
@@ -14,34 +15,34 @@ search.appverid: MET150
 description: Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54ccb21e33c6acc1747023fc7c3eb174040d5746
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6831ec2cef16e65e2fd8dd722d436c12b7548a5c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233491"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236358"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 ============================
 
-Grandes entreprises sont souvent exposés aux poursuites judiciaires pénalité considérable qui exigent l’envoi de tous les électroniquement stockées informations (ESI).
+Les grandes entreprises sont souvent exposées à des actions juridiques à forte pénalité qui demandent la soumission de toutes les informations stockées électroniquement (ESI).
 
-Toutes les équipes 1:1 ou les salles de conversation de groupe sont journalisés via aux boîtes aux lettres des utilisateurs respectifs, et tous les messages de canal sont journalisés par le biais de la boîte aux lettres de groupe représentant l’équipe. Fichiers téléchargés sont couverts par la fonctionnalité eDiscovery pour SharePoint Online et OneDrive for Business.
+Toutes les équipes 1:1 ou les discussions de groupe sont journalisées dans les boîtes aux lettres des utilisateurs correspondants, et tous les messages des canaux sont journalisés dans la boîte aux lettres du groupe représentant l’équipe. Les fichiers téléchargés sont décrits dans la fonctionnalité eDiscovery pour SharePoint Online et OneDrive entreprise.
 
-1.  Pour effectuer une enquête eDiscovery avec un contenu Teams Microsoft, consultez l’étape 1 de [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) lien.
+1.  Pour effectuer une analyse eDiscovery avec le contenu Microsoft Teams, reportez-vous à l’étape 1 de [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) lien.
 
-2.  Données Microsoft Teams apparaît sous forme de messagerie instantanée ou sortie d’exportation de Conversations dans la découverte électronique Excel, et vous pouvez monter le. Exportation de publication PST dans Outlook pour afficher ces messages.
+2.  Les données de Microsoft teams s’affichent sous forme de messages instantanés ou de conversations dans la sortie d’exportation eDiscovery d’Excel et vous pouvez les monter. PST dans Outlook pour afficher ces messages après l’exportation.
 
-    Lorsque vous montez la. PST de l’équipe, notez que toutes les conversations sont conservées dans le dossier de l’équipe conversation sous l’historique des conversations. Le titre du message s’aligne à l’équipe et de canal. De la révision de l’image ci-dessous, vous pouvez voir ce message de Bob qui sollicités le canal 7 du projet de l’équipe de spécifications de fabrication.
+    Lors du montage du. PST pour l’équipe, Notez que toutes les conversations sont conservées dans le dossier de discussion d’équipe sous historique des conversations. Le titre du message s’aligne sur l’équipe et le canal. À partir de la consultation de l’image ci-dessous, vous pouvez voir ce message de Bob qui a affiché le canal Project 7 de l’équipe des spécifications de fabrication.
 
-    ![Capture d’écran d’un dossier de conversation de l’équipe dans la boîte aux lettres d’un utilisateur dans Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+    ![Capture d’écran d’un dossier de discussion d’équipe dans la boîte aux lettres d’un utilisateur dans Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 3.  Pour afficher les conversations privées dans la boîte aux lettres d'un utilisateur, accédez au dossier Conversation de l'équipe sous l'historique des conversations.
 
-## <a name="ediscovery-of-guest-to-guest-chats"></a>Découverte des conversations d’invité à invité
+## <a name="ediscovery-of-guest-to-guest-chats"></a>Découverte électronique des discussions entre invités
 
-Sans une boîte aux lettres, conversations invité-invité (conversations 1xN dans laquelle il n’existe aucun utilisateur client personnel) ne doit pas être indexées et ne serait par conséquent, pas être incluses dans la découverte électronique. Pour faciliter la découverte électronique pour une conversation invité-invité, une boîte aux lettres en nuage (ou fantôme) est créé pour stocker les données 1xN. Une fois que les données de conversation d’équipes sont stockées dans la boîte aux lettres en nuage, il est indexé pour la recherche de contenu eDiscovery et de conformité.
+Sans boîte aux lettres, les discussions invitées invitées (1xNs dans lesquelles il n’y a pas d’utilisateurs privés) ne sont pas indexées et ne sont pas incluses dans eDiscovery. Pour faciliter l’eDiscovery pour les discussions invitées, une boîte aux lettres Cloud (ou une boîte aux lettres fantôme) est créée pour le stockage des données 1xN. Une fois que les données de chat de l’équipe sont stockées dans la boîte aux lettres dans le Cloud, celles-ci sont indexées pour la découverte électronique et la recherche de contenu de conformité.
 
-L’illustration suivante montre le fonctionne de découverte électronique pour les conversations invité-invité dans laquelle il n’existe pas une boîte aux lettres.
+L’illustration suivante décrit le fonctionnement de eDiscovery pour les discussions invitées dans lesquelles il n’y a pas de boîte aux lettres.
 
-![guest-to-guest-chats-with-no-Mailbox](media/conduct-an-ediscovery-investigation-of-content-in-microsoft-teams-image2.png)
+![invité-à-invité-discussions-avec non-boîte aux lettres](media/conduct-an-ediscovery-investigation-of-content-in-microsoft-teams-image2.png)

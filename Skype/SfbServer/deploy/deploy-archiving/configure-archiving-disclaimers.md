@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Résumé: cette rubrique vous explique comment configurer un déni d’utilisation de l’archivage pour Skype entreprise Server.'
-ms.openlocfilehash: 86430ac80d85ed166ae091119f4261cdc5e1ff9b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5901429918d4cf346cbbf9f1fdad6ff4736817ea
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278982"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234357"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configuration de l’archivage des demandes d’incentive pour les utilisateurs externes dans Skype entreprise Server
  

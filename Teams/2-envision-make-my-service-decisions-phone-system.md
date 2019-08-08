@@ -5,101 +5,102 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Choisir parmi les plans d’appel et la gestion des licences, configurer les emplacements d’urgence et des fonctionnalités telles que les ID de la messagerie vocale et de l’appelant, acquérir ou transférer des numéros de téléphone.
+description: Choisissez parmi les offres d’appel et la gestion des licences, configurez des emplacements d’urgence et des fonctionnalités telles que la boîte vocale et l’identification de l’appelant, achetez ou transférez des numéros
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 513519e95951676dc9e5a9b69d2fe3c5ace2824b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: ddc618a4b68c8a620568eba5ae2ed52d17096b30
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400867"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232356"
 ---
-# <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
+# <a name="make-my-service-decisions"></a>Prendre des décisions de service
 
-Pour planifier l’implémentation du système téléphonique technique avec des Plans de l’appel, vous devez apporter une série de décisions de service à l’avance afin de mieux préparer votre organisation pour implémenter une solution qui répond aux besoins de votre entreprise défini.
+Pour planifier l’implémentation technique du système téléphonique avec des plans d’appels, vous devez prendre des décisions sur les services à l’avance pour préparer votre organisation à mettre en place une solution qui répond à vos besoins professionnels définis.
 
-## <a name="calling-in-teams"></a>L’appel dans les équipes
+## <a name="calling-in-teams"></a>Appel dans teams
 
-Avec Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels vers ou depuis le réseau téléphonique commuté (RTC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédié pour l’émission et réception d’appels téléphoniques nationales et internationales des applications clientes équipes, avec des fonctionnalités avancées qui incluent la messagerie vocale.
+Grâce à Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels téléphoniques à partir du réseau téléphonique public commuté (RTC). Vos utilisateurs peuvent utiliser leur propre numéro de téléphone pour passer et recevoir des appels nationaux et internationaux depuis des applications clientes Teams, grâce à des fonctionnalités avancées qui incluent la boîte vocale.
 
 > [!NOTE]
-> La feuille de route équipes le plus récent pour identifier les équipes téléphone système avec l’appel de planifier les fonctionnalités d’étendue pour votre déploiement, voir <https://aka.ms/O365Roadmap>.
+> La présentation la plus récente d’équipes concernant l’identification du système téléphonique d’équipe avec les fonctionnalités de plan d’appel <https://aka.ms/O365Roadmap>de votre déploiement est disponible à l’adresse.
 
-## <a name="phone-system-in-teams"></a>Système téléphonique dans les équipes
+## <a name="phone-system-in-teams"></a>Système téléphonique dans teams
 
-Pour les utilisateurs équipes pouvoir émettre et recevoir des appels RTC, ils doivent être activés pour le système téléphonique, une fonctionnalité d’Office 365.
+Pour permettre aux utilisateurs d’équipes de passer et de recevoir des appels RTC, ils doivent être activés pour le système téléphonique, une fonctionnalité d’Office 365.
 
-Pour activer la connectivité au réseau RTC, votre organisation peut utiliser Microsoft en tant que son fournisseur de services de télécommunications. Finalement, vous aurez également l’option « apportez votre propre » un fournisseur de services de télécommunications pour activer la connectivité PSTN pour le système téléphonique.
+Pour permettre la connectivité au RTC, votre organisation peut utiliser Microsoft comme fournisseur de services de télécommunication. Pour le moment, vous avez la possibilité de «proposer votre propre fournisseur de services de téléphonie» pour activer la connectivité PSTN pour le système téléphonique.
 
 > [!IMPORTANT]
-> La possibilité d’utiliser votre propre fournisseur de services de télécommunications pour le système téléphonique avec votre déploiement équipes est également disponible avec le routage d’un système téléphonique Direct. Pour plus d’informations sur le routage Direct, veuillez consulter les [instructions de routage Direct](2-envision-make-my-service-decisions-direct-routing.md).
+> La possibilité d’utiliser votre propre fournisseur de services de télécommunication pour le système téléphonique avec le déploiement d’équipes est également disponible avec le routage direct du système téléphonique. Pour en savoir plus sur le routage direct, consultez les instructions relatives au [routage direct](2-envision-make-my-service-decisions-direct-routing.md).
 
-## <a name="phone-system-with-calling-plans"></a>Système téléphonique avec les Plans d’appel
+## <a name="phone-system-with-calling-plans"></a>Système téléphonique avec forfaits d’appels
 
-Pour utiliser Microsoft comme votre fournisseur de télécommunications, vous devez obtenir des licences de l’appel de planifier et les attribuer aux utilisateurs de votre système téléphonique.
+Pour utiliser Microsoft comme fournisseur de services de télécommunication, vous devez obtenir les licences de plan d’appel et les affecter aux utilisateurs de votre système téléphonique.
 
-Il existe deux types principaux de plans d’appel :
+Il existe deux types principaux de plans d’appel:
 
--   Plan d’appel interne
+-   Forfait d’appels nationaux
 
--   Plan appelant nationale et international
+-   Forfait d’appels nationaux et internationaux
 
-Chaque type de planification de l’appelante alloue un certain nombre de minutes d’appel par mois pour chaque utilisateur qui a été affecté à la licence. Lors de l’allocation de minutes d’appel est atteint, l’utilisateur ne pourra passer des appels sortants, à l’exception des appels d’urgence — jusqu'à ce que le cycle de facturation du mois suivant. Si vous souhaitez que les utilisateurs puissent continuer à émettre des appels sortants une fois qu’ils ont atteint leur affectation de minutes d’appel, ou pour permettre aux utilisateurs qui disposent d’un plan d’appel nationale passer des appels internationaux, vous pouvez configurer les Communications crédits pour votre organisation.
+Chaque type de plan d’appel attribue un certain nombre de minutes d’appel par mois à chaque utilisateur qui a reçu la licence. Lorsque l’attribution des minutes d’appel est épuisée, l’utilisateur ne pourra pas passer d’appels sortants, à l’exception des appels d’urgence, jusqu’au cycle de facturation du mois suivant. Si vous souhaitez que les utilisateurs puissent continuer à passer des appels sortants même après avoir épuisé leur attribution de minutes d’appel ou pour permettre aux utilisateurs disposant d’un forfait d’appel national d’avoir atteint les appels internationaux, vous pouvez configurer des crédits de communication pour votre organisation.
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-calling-plans"></a>Disponibilité des Plans d’appel
+## <a name="availability-of-calling-plans"></a>Disponibilité des offres d’appels
 
-Avant de planifier l’implémentation de l’appel des Plans dans les équipes, vérifiez que le service des Plans de l’appel est disponible dans votre région en examinant le [pays et région disponibilité pour la conférence Audio et des Plans de l’appel](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Avant de planifier l’implémentation des plans d’appel dans Teams, vérifiez que le service des forfaits d’appels est disponible dans votre région en passant en revue la [disponibilité du pays et de la région pour les offres de conférence et d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
-> En raison des contraintes juridiques, pour appeler des Plans soient disponibles pour les organisations multinationales, le contrat pour les abonnements Office 365 doit être basé dans votre pays ou région où le service des Plans de l’appel est disponible, ou bien où l’appel des Plans de service peut être acheté.
+> En raison de contraintes juridiques, les offres d’appels doivent être disponibles pour les organisations multinationales, le contrat pour les abonnements Office 365 doit être basé dans un pays ou une région où le service d’appels est disponible, ou dans lequel le service des plans d’appel peut être fournis.
 
 > [!NOTE]
-> Si des Plans de l’appel ne sont pas disponibles dans votre région, vous pouvez utiliser le [Routage d’un système téléphonique directe](2-envision-make-my-service-decisions-direct-routing.md) pour autoriser les utilisateurs à l’aide des équipes les fonctionnalités RTC.
+> Si les plans d’appel ne sont pas disponibles dans votre région, vous pouvez utiliser le [routage direct du système téléphonique](2-envision-make-my-service-decisions-direct-routing.md) pour permettre aux utilisateurs d’utiliser des équipes dotées des fonctionnalités RTC.
 
-Après avoir confirmé que votre organisation peut obtenir le service d’appel de Plans, compiler la liste des emplacements de l’utilisateur ou de bureaux où vous allez être implémentant le service des Plans de l’appel, en fonction de la liste des pays et régions disponibles.
+Après confirmation de l’obtention du service de plans d’appel par votre organisation, compilez la liste des emplacements des utilisateurs ou des bureaux où vous allez mettre en œuvre le service des plans d’appel, en fonction de la liste des pays et régions disponibles.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux, vous allez implémenter l’appel des Plans de service dans.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements de l’utilisateur ou les bureaux à activer pour le service d’appel de Plans.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez les emplacements des utilisateurs ou les bureaux dans lesquels vous implémenterez le service des plans d’appels.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements des utilisateurs ou les bureaux à activer pour le service des plans d’appels.</li></ul>|
 
 > [!TIP]
-> Voici un exemple d’un système téléphonique avec la liste des activation appelant des Plans de site.
+> Vous trouverez ci-dessous un exemple de système téléphonique avec la liste de plans d’activation de site.
 > 
 > | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
-> | 1 Eppîng Road                | Australie      | Service RTC antérieur |
+> | 1 Eppîng Road                | Australie      | Service PSTN hérité |
 > | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage direct via le système téléphonique |
 > | 1 Marina Boulevard           | Singapour      | Routage direct via le système téléphonique |
-> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec les Plans d’appel |
-> | 39 quai du Président Roosevelt | France         | Système téléphonique avec les Plans d’appel |
+> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec forfaits d’appels |
+> | 39 quai du Président Roosevelt | France         | Système téléphonique avec forfaits d’appels |
 
 <!--ENDOFSECTION-->
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
-Avec des Plans de l’appel dans Office 365, tous les utilisateurs de votre organisation doivent avoir un unique vers l’intérieur direct composer le numéro de téléphone (DID) et une adresse d’urgence validée correspondante. Passez en revue les [numéros de téléphone voix gérer dans le nuage](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) pour planifier l’acquisition de numéro de téléphone pour votre mise en œuvre des Plans de l’appel.
+Avec les offres d’appels d’Office 365, chaque utilisateur de votre organisation doit disposer d’un numéro de téléphone unique et d’une adresse de secours validée correspondante. Passez en revue la [gestion des numéros de téléphone vocaux Cloud](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) pour planifier l’acquisition du numéro de téléphone de votre implémentation de plans d’appel.
 
-Lorsque vous configurez des numéros de téléphone pour appeler des Plans, vous devez affecter une adresse d’urgence pour chaque numéro de téléphone avant d’affecter le nombre à un utilisateur. Cela est nécessaire pour prendre en charge les appels d’urgence. L’adresse d’urgence doit être validée pour vous assurer qu’il se trouve dans le format correct pour être utilisé par les services d’urgence.
+Lorsque vous configurez des numéros de téléphone pour les offres d’appels, vous devez attribuer une adresse d’urgence à chaque numéro de téléphone avant d’affecter le numéro à un utilisateur. Cela est nécessaire pour prendre en charge les appels d’urgence. L’adresse de secours doit être validée pour vérifier qu’elle est dans le bon format à utiliser par les services de réponse d’urgence.
 
 > [!IMPORTANT]
-> Appel de Services d’urgence fonctionne différemment dans le service d’appel de Plans que dans les services téléphoniques traditionnels. Il est important de comprendre les différences et les communique à tous les utilisateurs. Pour plus d’informations, voir [Conditions et les termes du contrat de l’appel d’urgence](emergency-calling-terms-and-conditions.md) .
+> Les appels vers les services d’urgence fonctionnent différemment dans le service des plans d’appel et dans les services téléphoniques traditionnels. Il est important que vous comprenez ces différences et les communiquez à tous les utilisateurs. Pour plus d’informations, consultez les conditions générales d’utilisation des [appels d’urgence](emergency-calling-terms-and-conditions.md) .
 
-En plus de fournir une adresse d’urgence validée, vous pourrez définir des emplacements d’urgence et les associer à l’adresse validée en cas d’urgence pour donner à un emplacement plus précis au sein d’une adresse. Un emplacement d'urgence correspond généralement à un numéro de bâtiment, un étage, une aile de bâtiment ou un numéro de bureau où se trouve l'utilisateur.
+Outre la fourniture d’une adresse de secours validée, vous pouvez définir des emplacements d’urgence et les associer à l’adresse de secours validée afin de fournir un emplacement plus précis au sein d’une adresse. Un emplacement d'urgence correspond généralement à un numéro de bâtiment, un étage, une aile de bâtiment ou un numéro de bureau où se trouve l'utilisateur.
 
-Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant Plans, lisez les articles suivants :
+Pour en savoir plus sur les emplacements d’urgence en ce qui concerne les offres d’appels, consultez les articles suivants:
 
 -   [Que sont les emplacements, les adresse et le routage d'appel d'urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
 
@@ -109,47 +110,47 @@ Pour en savoir plus sur les emplacements d’urgence par rapport à l’appelant
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez la granularité des informations sur l’emplacement d’urgence à collecter pour les emplacements de l’utilisateur ou de bureaux dans la portée de l’implémentation des Plans de l’appel.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les adresses d’urgence détaillées et les emplacements d’urgence pour chaque utilisateur ou office dans la portée de l’implémentation des Plans de l’appel.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez la granularité des informations d’emplacement d’urgence à collecter pour les emplacements des utilisateurs ou les bureaux dans le cadre de l’implémentation de plans d’appel.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez l’adresse de secours et les emplacements d’urgence détaillés pour chaque emplacement utilisateur ou bureau dans le cadre de l’implémentation de plans d’appel.</li></ul>|
 
 > [!TIP]
-> Vous pouvez utiliser le modèle suivant pour documenter les détails des numéros de téléphone et les détails de l’emplacement en cas d’urgence.
+> Vous pouvez utiliser le modèle suivant pour documenter les détails des numéros de téléphone et les détails de l’emplacement d’urgence.
 > 
-> |Utilisateur |Adresse et l’emplacement en cas d’urgence |Numéro de téléphone |
+> |Utilisateur |Emplacement et adresse d’urgence |Numéro de téléphone |
 > |-----|-------------------------------|-------------|
-> |Emily Braun |1034/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 8901 |
-> |Lidia Holloway |1065/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 89112 |
-> |Louis Lahr |1023/32 Londres pont rue, London, SE1, Royaume-Uni |+ 44 23 4567 8921 |
-> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
-> |Rachelle Cormier |07N15D/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
-> |Isabell Potvin |07F05E/39 quai du Président Roosevelt, Issy 92130-les-Moulineaux, France | TBA |
+> |Emily Braun |1034/32 Londres Bridge Street, Londres, SE1., Royaume-Uni |commande + 44 23 4567 8901 |
+> |Lidia Holloway |1065/32 Londres Bridge Street, Londres, SE1., Royaume-Uni |commande + 44 23 4567 89112 |
+> |Louis Lahr |1023/32 Londres Bridge Street, Londres, SE1., Royaume-Uni |commande + 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-au-Moulineaux, France | TBA |
+> |Rachelle Cormier |07N15D/39 quai du Président Roosevelt, 92130 Issy-au-Moulineaux, France | TBA |
+> |Isabell Potvin |07F05E/39 quai du Président Roosevelt, 92130 Issy-au-Moulineaux, France | TBA |
 
 <!--ENDOFSECTION-->
 
 ## <a name="voicemail"></a>Messagerie vocale
 
-Messagerie vocale dans le nuage, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
+La messagerie vocale Cloud, optimisée par les services de boîte vocale Azure, prend en charge les dépôts de boîte vocale dans les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de courrier tiers.
 
-Par défaut, la messagerie vocale dans le nuage fonctionne avec Exchange Online ; Toutefois il possède un minimum pris en charge Exchange sur site version et le déploiement modèle pour permettre la remise des messages vocaux pour les boîtes aux lettres dans le déploiement d’Exchange sur site.
+Par défaut, la boîte vocale Cloud fonctionne avec Exchange Online. Toutefois, il possède un modèle de version et de déploiement local pris en charge pour permettre la remise de messages vocaux aux boîtes aux lettres des utilisateurs dans le déploiement Exchange local.
 
-Messagerie vocale dans le nuage inclut la transcription de la messagerie vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doivent être activés. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
+La messagerie vocale Cloud inclut la transcription de la boîte vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Les besoins de votre entreprise peuvent nécessiter la désactivation de la transcription de la boîte vocale pour des utilisateurs spécifiques ou pour tout le monde au sein de l’organisation. Si votre organisation a décidé de maintenir la transcription de la boîte vocale activée, vous devez également envisager d’activer ou de désactiver le masquage de la boîte vocale. Pour plus d’informations, reportez-vous à [la rubrique Configuration des stratégies de messagerie vocale pour votre organisation](set-up-phone-system-voicemail.md)
 
 >[!NOTE]
-> Un mécanisme de secours a été implémenté afin que la messagerie vocale dans le nuage permet de renvoyer des messages à l’aide de SMTP, ce qui signifie que les utilisateurs qui disposent d’une boîte aux lettres sur un système de messagerie tiers recevront leurs messages vocaux. Ce mécanisme n’inclut pas les temps de fonctionnement de service garanti ou d’autres fonctionnalités de messagerie vocale, telle que la modification du message d’accueil de la messagerie vocale.
+> Un mécanisme de secours a été implémenté de sorte que la boîte vocale Cloud puisse renvoyer les messages à l’aide du protocole SMTP, ce qui signifie que les utilisateurs disposant d’une boîte aux lettres sur un système de courrier tiers recevront leurs messages vocaux. Ce mécanisme n’inclut pas le fonctionnement garanti du service ou d’autres fonctions de messagerie vocale, comme le changement d’accueil de la boîte vocale.
 
-Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [Système téléphonique avec des Plans de l’appel](calling-plan-landing-page.md).
+Pour plus d’informations sur la boîte vocale dans l’implémentation d’un système téléphonique, voir [système téléphonique avec forfaits d’appels](calling-plan-landing-page.md).
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous allez activer la messagerie vocale dans le nuage dans votre implémentation de Plans de l’appel.</li><li>Si l’aide Exchange sur site et votre déploiement existant ne répond pas à vos besoins pour prendre en charge de la messagerie vocale dans le nuage, choisissez parmi les options disponibles (mise à niveau et le programme d’installation pour la prise en charge de la messagerie vocale dans le nuage, migrer vers Exchange Online, ou tirer parti de secours mécanisme décrit plus haut).</li><li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, les points de décision Exchange pour prendre en charge de la messagerie vocale dans le nuage du document.</li><li>Si vous devez activer/désactiver le masquage gratuites de transcription de la messagerie vocale uniquement pour des utilisateurs spécifiques, transcription de la messagerie vocale et de la messagerie vocale, cette liste d’utilisateurs du document.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décidez si vous voulez activer la boîte vocale Cloud dans votre implémentation de plans d’appel.</li><li>Si vous utilisez Exchange en local et que votre déploiement actuel ne répond pas à vos exigences de prise en charge de la messagerie vocale dans le Cloud, choisissez l’une des options disponibles (mise à niveau et configuration pour la prise en charge de la messagerie vocale dans le Cloud, migrer vers Exchange Online ou tirer parti de la reprise mécanisme décrit plus haut).</li><li>Décidez si vous activez ou désactivez la transcription de la boîte vocale et le masquage des blasphèmes de transcription de la boîte vocale au sein de l’organisation ou pour des utilisateurs spécifiques.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, documentez les points de décision Exchange pour prendre en charge la messagerie vocale Cloud.</li><li>Si vous activez/désactivez la boîte vocale, la transcription de la boîte vocale et le masquage par inconvenances de transcription de la boîte vocale uniquement pour des utilisateurs spécifiques, documentez la liste des utilisateurs.</li></ul>|
 
 > [!TIP]
-> Détails de la messagerie vocale dans le nuage pour le système téléphonique avec mise en œuvre des Plans de l’appel peuvent être documentés comme suit.
+> Les détails de la boîte vocale Cloud pour le système téléphonique avec l’implémentation des plans d’appels peuvent être documentés comme suit.
 > 
-> |Utilisateur |Boîte aux lettres Exchange |Activer la messagerie vocale ? |Transcription de la messagerie vocale |Masquage de la messagerie vocale transcription gratuites |
+> |Utilisateur |Boîte aux lettres Exchange |Activer la boîte vocale? |Transcription de la boîte vocale |Masquage de l’blasphème de transcription de la boîte vocale |
 > |------------------|------------------|-------------------|----------|----------|
 > |Emily Braun      |Online      |Oui |Activé |Activé |
 > |Lidia Holloway   |Online      |Oui |Activé |Désactivé |
@@ -160,61 +161,61 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 
 <!--ENDOFSECTION-->
 
-## <a name="calling-identity"></a>Identité de l’appelant
+## <a name="calling-identity"></a>Identité d’appel
 
-Par défaut, tous les appels sortants utilisent le numéro de téléphone affecté comme identité de l’appelante (ID de l’appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, il existe des besoins légitimes pour masquer l’ID d’appelant pour protéger l’identité des appelants en utilisant le numéro de ligne principale office — il s’agit généralement d’un numéro de service pris en charge par la configuration du standard automatique — en tant qu’ID d’appelant ou bloquer des ID de l’appelant présentation entièrement.
+Par défaut, tous les appels sortants utilisent le numéro de téléphone attribué en tant qu’identité d’appel (ID d’appelant). Le destinataire de l'appel peut rapidement identifier l'appelant et décider d'accepter ou de refuser l'appel. Dans certains cas, il existe des exigences d’entreprise légitimes pour masquer l’ID de l’appelant afin de protéger l’identité des appelants à l’aide du numéro de ligne principale d’Office (il s’agit généralement d’un numéro de service desservi par le standard automatique) en tant qu’IDENTIFIant de l’appelant ou pour bloquer l’identification de l’appelant. présentation entièrement.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si manipulation de l’ID de l’appelant est requise pour l’implémentation de Plans de l’appel.</li><li>Le cas échéant, déterminez les types de manipulation de l’ID de l’appelant (masque de numéro de service ou Anonymiser) à mettre en œuvre.</li><li>Le cas échéant, décider quels utilisateurs ont besoin de manipulation de l’ID de l’appelant et le type de manipulation de l’ID de l’appelant à affecter à chaque utilisateur.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Les utilisateurs pour disposer de manipulation de l’ID de l’appelant et le type de manipulation de l’ID de l’appelant pour affecter du document.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez s’il est nécessaire de manipuler l’identification de l’appelant pour votre implémentation de plans d’appel.</li><li>Le cas échéant, déterminez les types de manipulation d’ID d’appelant (masque avec numéro de service ou anonymat) à implémenter.</li><li>Le cas échéant, Déterminez quels utilisateurs nécessitent une manipulation d’identification d’appelant et le type de manipulation d’ID d’appelant à attribuer à chaque utilisateur.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les utilisateurs auxquels une manipulation d’ID d’appelant est affectée et le type de manipulation d’ID d’appelant à attribuer.</li></ul>|
 
 > [!TIP]
-> Voici un exemple de la documentation plus d’informations de masquage des ID de l’appelant.
+> Voici un exemple de documentation sur les détails du masquage de l’identification de l’appelant.
 > 
-> |Utilisateur  |Activer le masquage de l’ID d’appelant sortant  |Masquage de type d’ID de l’appelant  |Autoriser le remplacement de l’utilisateur  | Activer le masquage de l’ID d’appelant entrant  |
+> |Utilisateur  |Activer le masquage d’ID d’appelant sortant  |Type de masquage de l’identification de l’appelant  |Autoriser le remplacement de l’utilisateur  | Activer le masquage d’ID d’appelant entrant  |
 > |---------|---------|---------|---------|---------|
 > |Emily Braun|Non|N/A|Oui|Non|
-> |Lidia Holloway|Oui|Numéro de service (OrgAA + 44 20 7946 0000)|Non|Oui|
+> |Lidia Holloway|Oui|Numéro de service (OrgAA, + 44 20 7946 0000)|Non|Oui|
 > |Louis Lahr|Non|N/A|Oui|Non|
-> |Marcel Beauchamp|Oui|Numéro de service (OrgAA, à déterminer)|Non|Oui|
-> |Rachelle Cormier|Oui|Anonymiser|Oui|Non|
-> |Isabell Potvin|Oui|Numéro de service (OrgAA, à déterminer)|Non|Oui|
+> |Marcel Beauchamp|Oui|Numéro de service (OrgAA TBA)|Non|Oui|
+> |Rachelle Cormier|Oui|Anonymat|Oui|Non|
+> |Isabell Potvin|Oui|Numéro de service (OrgAA TBA)|Non|Oui|
 
 <!--ENDOFSECTION-->
 
-## <a name="licensing-for-cloud-voice-capabilities"></a>Gestion des licences pour les fonctionnalités vocales de nuage
+## <a name="licensing-for-cloud-voice-capabilities"></a>Gestion des licences pour les fonctionnalités vocales de Cloud
 
-Conférence audio et système téléphonique sont les fonctionnalités d’Office 365. Ils peuvent être une licence séparée en tant que services de module complémentaire pour les clients disposant d’Office 365 E3 ou des plans d’abonnement E1 ; ils sont déjà inclus dans le cadre de la planification d’abonnement Office 365 E5.
+Les fonctionnalités d’audioconférence et de système téléphonique sont des fonctionnalités d’Office 365. Ils peuvent être sous licence séparément en tant que services de modules complémentaires pour les clients existants disposant d’offres d’abonnement à Office 365 E3 ou E1; ils sont déjà inclus dans le cadre du forfait d’abonnement Office 365 E5.
 
-Plans d’appel est un module complémentaire à la fonctionnalité de système téléphonique dans Office 365, vous devez disposer d’un système téléphonique sous licence activé à utiliser des Plans de l’appel.
+Forfaits d’appels est un module complémentaire de la fonctionnalité de système téléphonique dans Office 365, de sorte que vous devez disposer d’une licence de système téléphonique activée pour pouvoir utiliser des plans d’appels.
 
-Pour prendre en charge pour audioconférence supplémentaires et appel des Plans de cas (international conférence rendez-vous, externe à l’appel après épuisement des allocations minutes de planifier l’appel, etc.) d’utilisation, vous pouvez configurer les Communications crédits pour votre organisation.
+Pour la prise en charge des services d’audioconférence et de services d’appels audio supplémentaires (appel sortant de conférence internationale, les appels externes après les allocations de minute de plan d’appel sont épuisés, etc.), vous pouvez configurer les crédits de communication pour votre organisation.
 
-## <a name="licensing-for-calling-plans"></a>Gestion des licences pour les Plans d’appel
+## <a name="licensing-for-calling-plans"></a>Licences pour les offres d’appels
 
-Si votre organisation envisage d’utiliser Microsoft comme fournisseur de services de télécommunications, vous devez obtenir l’appel de planifier les modules complémentaires appropriées aux besoins de vos utilisateurs. En règle générale, pas tout le monde dans une organisation doit passer des appels internationaux, afin que vous pouvez configurer la plupart des utilisateurs avec des licences nationales de planifier l’appel.
+Si votre organisation envisagez d’utiliser Microsoft comme fournisseur de services de téléphonie, vous devez obtenir des modules complémentaires de plan d’appels adaptés aux besoins de vos utilisateurs. En règle générale, vous n’avez pas besoin de passer des appels internationaux à d’autres personnes, de sorte que vous pouvez configurer la plupart des utilisateurs avec des licences de plan d’appel national.
 
-Il existe deux types de licences planifier l’appel :
+Il existe deux types de licences de plan d’appel:
 
 -   Forfait d'appels nationaux
 
 -   Forfait d'appels nationaux et internationaux
 
 > [!NOTE]
-> Ce qui est considéré comme « interne » pour un utilisateur spécifique est déterminé par l’emplacement d’utilisation de l’utilisateur affecté Office 365.
+> Ce qui est considéré comme «domestique» pour un utilisateur spécifique est déterminé par l’emplacement d’utilisation d’Office 365 affecté par l’utilisateur.
 
-Chaque type d’appel de planification fournit une répartition de l’appel de minutes pendant lesquelles les utilisateurs peuvent utiliser par mois, soit pour effectuer des appels nationaux ou appels internationaux. Les coûts de planifier l’appel nationales qu'inférieur par rapport à l’International et nationales appelant planifier.
+Chaque type de plan d’appels fournit une attribution de minutes d’appel que les utilisateurs peuvent utiliser par mois, pour passer des appels nationaux ou internationaux. Le forfait d’appels nationaux est inférieur au forfait d’appels nationaux et internationaux.
 
-La flexibilité de l’abonnement et en affectant le type d’appel de planifier plus approprié pour les besoins des utilisateurs individuels permet de contrôler les coûts de son implémentation de l’appel des Plans de votre organisation.
+La flexibilité de l’abonnement et de l’attribution du type de plan d’appel le plus approprié pour les exigences métiers des utilisateurs individuels permet à votre organisation de contrôler les coûts de ses plans d’appel.
 
-Pour chaque client Office 365, le nombre total de minutes d’appel est regroupée par pays ou région et par type de planifier l’appel. Lorsque le mensuel appelant minutes pour le client est atteinte, l’appel des Plans de service (à l’exception des appels d’urgence) sera interrompu pour le reste du mois. Le service d’appel de Plans reprendra automatiquement sur le premier jour du mois suivant.
+Pour chaque client Office 365, le nombre combiné de minutes d’appel est regroupé par pays ou région, et par type de plan d’appel. Lorsque le seuil des minutes d’appel mensuel pour le client est atteint, le service des plans d’appel (sauf pour les appels d’urgence) sera suspendu pendant le reste du mois. Le service forfaits d’appels sera automatiquement relancé le premier jour du mois suivant.
 
-Vous pouvez définir des crédits Communications pour vos organisations pour permettre aux utilisateurs d’émettre des appels sortants une fois que l’allocation de l’appel de minutes épuisement sans devoir attendre le mois prochain cycle de facturation. En outre, crédits Communications donnent les utilisateurs affectés le Plan d’appel nationales la possibilité d’effectuer des appels internationaux, qui sont appliqués à l’aide d’un modèle « salaire par minute ».
+Vous pouvez configurer des crédits de communication pour votre organisation afin que les utilisateurs puissent passer des appels sortants une fois l’attribution des minutes d’appel épuisée sans avoir besoin d’attendre le cycle de facturation du mois suivant. De plus, les crédits de communication permettent aux utilisateurs d’avoir reçu le forfait d’appels nationaux pour passer des appels internationaux, qui sont ensuite facturés par le biais d’un modèle «payant à la minute».
 
-Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez les articles suivants :
+Pour en savoir plus sur le système téléphonique et les offres d’appels, consultez les articles suivants:
 
 -   [Système téléphonique](https://products.office.com/en-us/skype-for-business/phone-system)
 
@@ -224,44 +225,44 @@ Pour en savoir plus sur le système téléphonique et Plans de l’appel, lisez 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation ne possède pas la licence de système téléphonique nécessaire, décidez si vous permet d’acquérir la licence du système téléphonique par le renforcement de vos abonnements Office 365 existants ou à acquérir le service complémentaire système téléphonique.</li><li>Décider quels utilisateurs ont besoin d’une licence nationales appelant planifier et qui nécessitent une licence national et International appelant planifier.</li><li>Décider si vous devez crédits Communications pour votre mise en œuvre des Plans de l’appel.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter la division, département, office ou vous allez attribuer une licence système téléphonique avec nationales appelant planifier ou nationales et International appelant planifier des groupes d’utilisateurs.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation ne dispose pas de la licence de système téléphonique requis, décidez si vous allez acquérir la licence du système téléphonique en accroissant vos abonnements Office 365 existants ou en acquérant le service de complément système téléphonique.</li><li>Déterminez quels utilisateurs nécessitent une licence de plan d’appel national et qui nécessitent une licence de plan d’appels nationaux et internationaux.</li><li>Décidez si vous aurez besoin de crédits de communication pour l’implémentation de vos plans d’appel.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les groupes de divisions, services, bureaux ou utilisateurs vous devez attribuer une licence de système téléphonique à un plan d’appels nationaux ou à une offre d’appels nationaux et internationaux.</li></ul>|
 
 > [!TIP]
-> Vous pouvez utiliser l’exemple suivant l’attribution de licence pour le système téléphonique avec des utilisateurs d’appeler des Plans de document.
+> Vous pouvez utiliser l’exemple suivant pour documenter l’attribution de licence pour le système téléphonique avec les utilisateurs de forfaits d’appels.
 > 
-> |Utilisateur |Bureau |Licence Office 365 |Appel de Plan |
+> |Utilisateur |Bureau |Licence Office 365 |Forfait d’appels |
 > |----|----|----|----|
 > |Emily Braun |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux et internationaux |
 > |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux |
 > |Louis Lahr |32 London Bridge Street |Office 365 E5 |Forfait d'appels nationaux |
-> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, module complémentaire système téléphonique |Forfait d'appels nationaux |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, module complémentaire du système téléphonique |Forfait d'appels nationaux |
 > |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Forfait d'appels nationaux et internationaux |
-> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, module complémentaire système téléphonique |Forfait d'appels nationaux |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, module complémentaire du système téléphonique |Forfait d'appels nationaux |
 
 <!--ENDOFSECTION-->
 
 ## <a name="communications-credits"></a>Crédits de communication
 
-À l’aide de Communications crédits, vos utilisateurs peuvent composer à partir d’une réunion Conférence Audio pour ajouter quelqu'un à partir de n’importe où dans le monde (à l’extérieur de l’origine pays de l’organisateur de réunion). Vous pouvez définir des crédits Communications pour votre organisation pour permettre aux utilisateurs d’émettre des appels sortants après leur ont atteint leur affectation de l’appel de minutes, sans avoir à attendre la période de facturation du mois prochain. En outre, Communications crédits donner utilisateurs affectés avec le Plan de l’appel nationales la possibilité d’effectuer des appels internationaux, qui sont appliqués à l’aide d’un modèle « salaire par minute ».
+À l’aide de crédits de communication, vos utilisateurs peuvent se connecter à partir d’une réunion d’audioconférence pour ajouter une autre personne de n’importe où dans le monde (en dehors du pays d’origine de l’organisateur de la réunion). Vous pouvez configurer des crédits de communication pour votre organisation de manière à permettre aux utilisateurs de passer des appels sortants une fois qu’ils ont épuisé leur attribution de minutes d’appel, sans devoir attendre la fin du cycle de facturation du mois suivant. En outre, les crédits de communication permettent aux utilisateurs disposant d’un forfait d’appels nationaux de passer des appels internationaux, qui sont ensuite facturés par le biais d’un modèle «payant à la minute».
 
-Le premier élément à prendre en compte lors de l’implémentation de crédits de communication est de décider du montant initial des fonds à acheter. Si votre organisation décide d’utiliser recharge automatique, vous devez déterminer la quantité optimale par mesure de l’utilisation réelle. Surveiller l’utilisation de Communications crédits au fil du temps et ajuster votre recharge selon les besoins.
+Le premier élément à prendre en compte lors de l’implémentation de crédits de communication est de décider du montant initial des fonds à acheter. Si votre organisation choisit d’utiliser la recharge automatique, vous déterminez la quantité optimale en mesurant l’utilisation réelle. Surveiller l’utilisation des crédits de communication au fil du temps et régler le montant de votre recharge selon vos besoins.
 
-Pour votre implémentation de Plans de l’appel, vous pouvez contrôler l’utilisation de Communications crédits sur une base par utilisateur, qui vous permet de vérifier que vous avez attribué les crédits d’alignement avec les besoins de votre entreprise.
+Pour la mise en œuvre de vos plans d’appel, vous pouvez contrôler l’utilisation des crédits de communication par utilisateur, ce qui vous permet de vous assurer que vous avez attribué ces crédits en fonction de vos besoins professionnels.
 
-Pour en savoir plus sur les Communications crédits, passez en revue [Quelles sont les Communications crédits ?](what-are-communications-credits.md).
+Pour en savoir plus sur les crédits de communication, voir [qu’est-ce que les crédits de communication?](what-are-communications-credits.md).
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez crédits Communications pour votre implémentation d’audioconférence ou des Plans de l’appel.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Les groupes division, département, office ou utilisateur, pour que vous devez ensuite activer Communications crédits du document.</li><li>Documenter votre planification Communications crédits votre implémentation d’audioconférence ou des Plans de l’appel.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si vous avez besoin de crédits de communication pour la mise en œuvre de votre audioconférence ou d’appels audio.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez la Division, le service, les bureaux ou les groupes d’utilisateurs pour lesquels vous souhaitez activer les crédits de communication.</li><li>Documentez vos crédits de communication pour votre implémentation de votre audioconférence ou de vos plans d’appel.</li></ul>|
 
 > [!TIP]
-> L’exemple suivant vous permet de documenter la liste des affectations Communications générique pour les utilisateurs de Plans de l’appel.
+> L’exemple suivant vous permet de documenter la liste d’attributions de crédits de communication pour les utilisateurs d’offres d’appels.
 > 
-> |Utilisateur |Bureau |Appel de Plan |Crédits de communication |
+> |Utilisateur |Bureau |Forfait d’appels |Crédits de communication |
 > |----|----|----|----|
 > |Emily Braun |32 London Bridge Street |Forfait d'appels nationaux et internationaux |Activé |
 > |Lidia Holloway |32 London Bridge Street |Forfait d'appels nationaux |Désactivé |
@@ -273,7 +274,7 @@ Pour en savoir plus sur les Communications crédits, passez en revue [Quelles so
 <br>
 
 > [!TIP]
-> Votre planification des numéros des crédits Communications pouvant être documentés comme dans l’exemple suivant.
+> Les numéros de téléphone de vos communications peuvent être documentés comme dans l’exemple suivant.
 >
 > |         |         |
 > |---------|---------|
@@ -283,48 +284,48 @@ Pour en savoir plus sur les Communications crédits, passez en revue [Quelles so
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-cloud-voice-telephone-numbers"></a>Gérer les numéros de téléphone de voix dans le nuage
+## <a name="manage-cloud-voice-telephone-numbers"></a>Gérer les numéros de téléphone vocaux Cloud
 
-Si vous implémentez un système téléphonique en apportant votre propre fournisseur de services de télécommunications, gestion de numéros de téléphone reste-est.
+Si vous implémentez un système téléphonique en effectuant votre propre fournisseur de services de télécommunication, la gestion des numéros de téléphone restera en tout.
 
-Pour les implémentations de conférence Audio et des Plans de l’appel, vous pouvez choisir d’acquérir de nouveaux numéros de téléphone ou transférer des numéros de téléphone existants (port).
+Pour les implémentations de conférences et d’appels audio, vous pouvez choisir d’acheter de nouveaux numéros de téléphone ou de transférer (porter) des numéros de téléphone existants.
 
-Permettent aux utilisateurs de composer des numéros de la façon dont ils êtes habitués à — comme omettant indicatifs pour les appels locaux, en omettant le code du pays pour les appels nationaux ou même à l’aide de numérotation short chiffres lors de la conférence rendez-vous ou l’appel des autres utilisateurs dans l’organisation : Vous pouvez configurer un plan de numérotation personnalisé et attribuez-le aux utilisateurs.
+Pour permettre aux utilisateurs de composer les numéros de téléphone tels qu’ils sont habitués (par exemple, omettre les indicatifs pour les appels locaux, omettre le code du pays pour les appels nationaux ou utiliser la numérotation à l’aide de numéros abrégés lors de l’exécution d’une conférence rendez-vous ou pour appeler d’autres utilisateurs au sein de l’organisation); vous pouvez configurer un plan de numérotation personnalisé et l’affecter aux utilisateurs.
 
-## <a name="acquire-new-telephone-numbers"></a>Acquérir de nouveaux numéros de téléphone
+## <a name="acquire-new-telephone-numbers"></a>Acquisition de nouveaux numéros de téléphone
 
-Les deux types de numéros de téléphone dans les solutions de voix dans le cloud Microsoft sont les suivants :
+Les deux types de numéros de téléphone dans les solutions Microsoft Cloud Voice sont les suivants:
 
--   Numéros d’abonné (utilisateur), qui peuvent être affectés aux utilisateurs de votre organisation.
+-   Des numéros d’abonnés (utilisateurs), qui peuvent être attribués à des utilisateurs de votre organisation.
 
--   Numéros de service, disponibles en tant que numéro payant et numéros gratuits service, qui ont la capacité d’appels simultanés plus élevée que les numéros d’abonné et peuvent être affectés aux services tels que la conférence Audio, les standards automatiques ou files d’attente des appels.
+-   Les numéros de service, disponibles en tant que numéros de service gratuits ou payants, qui ont une plus grande capacité d’appel simultanée que les numéros d’abonné, peuvent être attribués à des services tels que les conférences audio, les standards automatiques ou les files d’attente d’appels.
 
-Pour plus d’informations sur les types de numéros de téléphone, voir [différents types de numéros de téléphone utilisés pour les Plans de l’appel](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+Pour plus d’informations sur les types de numéros de téléphone, reportez-vous à [différents types de numéros de téléphone utilisés pour les offres d’appels](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-Le nombre total de numéros de téléphone que vous pouvez obtenir dépendent du type de numéro de téléphone et le nombre de licences que vous avez acheté et affecté à vos utilisateurs.
+Le nombre total de numéros de téléphone que vous pouvez obtenir dépend du type de numéro de téléphone et du nombre de licences que vous avez achetées et attribuées à vos utilisateurs.
 
-Pour plus d’informations sur le nombre total de numéros de téléphone que vous pouvez obtenir, voir [combien de numéros de téléphone peut obtenir ?](how-many-phone-numbers-can-you-get.md)
+Pour plus d’informations sur le nombre total de numéros de téléphone que vous pouvez obtenir, voir [combien de numéros de téléphone pouvez-vous obtenir?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux où nouveaux numéros de téléphone seront acquis à partir de Microsoft.</li><li>Choisir le type de numéros de téléphone à acquérir de Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements de l’utilisateur ou les bureaux où nouveaux numéros de téléphone seront acquis à partir de Microsoft.</li><li>Le type de numéros de téléphone à acquérir de Microsoft du document.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez les emplacements ou les bureaux des utilisateurs dans lesquels de nouveaux numéros de téléphone seront achetés auprès de Microsoft.</li><li>Choisissez le type de numéro de téléphone à acquérir auprès de Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements ou les bureaux des utilisateurs dans lesquels de nouveaux numéros de téléphone seront achetés auprès de Microsoft.</li><li>Documentez le type de numéro de téléphone à acquérir auprès de Microsoft.</li></ul>|
 
-## <a name="transfer-existing-telephone-numbers"></a>Transfert des numéros de téléphone existants
+## <a name="transfer-existing-telephone-numbers"></a>Transférer des numéros de téléphone existants
 
-Si votre organisation souhaite transférer (ou le port) existante de numéros de téléphone à Microsoft, vous pouvez le faire en envoyant une demande de commande de port à Microsoft.
+Si votre organisation souhaite transférer (ou porter) des numéros de téléphone existants à Microsoft, vous pouvez le faire en envoyant une demande de transfert à Microsoft.
 
-Vous pouvez transférer tous les vos numéros de téléphone existants à la fois (port complète), et, dans certains marchés, vous pouvez transférer un sous-ensemble de vos numéros de téléphone existant (port partiel). Un port partiel peut être utile dans les cas où vous souhaitez simplement déplacer progressivement les utilisateurs au système téléphonique avec des Plans de l’appel.
+Vous pouvez transférer tous vos numéros de téléphone existants à la fois (port complet) et, dans certains pays, vous pouvez transférer un sous-ensemble de vos numéros de téléphone existants (port partiel). Un port partiel peut être utile dans les cas où vous souhaitez simplement déplacer progressivement vos utilisateurs vers un système téléphonique avec des plans d’appels.
 
-Une commande port unique permettre transférer uniquement les numéros de téléphone à un type de numéro de téléphone unique. Si vous devez transférer certains de vos numéros de téléphone comme numéros d’abonné et d’autres en tant que numéro de service, nous vous recommandons d’abord effectuer le transfert à Microsoft puis effectuez la conversion dès qu’ils sont dans le contrôle de Microsoft.
+Une demande de transfert unique peut uniquement transférer les numéros de téléphone vers un même type de numéro de téléphone. Si vous avez besoin de transférer certains de vos numéros de téléphone et d’autres en tant que numéros de service, nous vous recommandons de commencer par procéder au transfert vers Microsoft et de procéder à la conversion dès que les numéros sont dans le contrôle de Microsoft.
 
-Comme alternative (si le port partiel est pris en charge), vous pouvez envoyer plusieurs demandes de port, demande un port à la fois. Toutefois, cette méthode alternative sera prolonger votre contrat avec votre fournisseur de services de télécommunications existant.
+En guise d’alternative (si le port partiel est pris en charge), vous pouvez transmettre plusieurs demandes de port, une demande de port à la fois. Toutefois, cette approche peut prolonger votre contrat avec votre fournisseur de services de télécommunication existant.
 
-Portage numéro de téléphone est un sujet complexe et nécessite une planification approfondie, coordination et correctement la gestion des attentes de votre des parties prenantes. Pour plus d’informations, voir les articles suivants :
+Le portage des numéros de téléphone est un sujet complexe qui nécessite une planification et une coordination complètes, et la gestion appropriée des attentes des parties prenantes. Pour en savoir plus, consultez les articles suivants:
 
--   [Transfert des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md)
+-   [Transfert de numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md)
 
 -   [Transfert des questions fréquemment posées numéros de téléphone](transferring-phone-numbers-common-questions.md)
 
@@ -332,31 +333,31 @@ Portage numéro de téléphone est un sujet complexe et nécessite une planifica
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminer les emplacements de l’utilisateur ou les bureaux où les numéros de téléphone existant seront transférés vers Microsoft.</li><li>Choisir le type de numéros de téléphone à transférer à Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements de l’utilisateur ou les bureaux où les numéros de téléphone existant seront transférés vers Microsoft.</li><li>Le type de numéros de téléphone à transférer à Microsoft de document.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez les emplacements ou les bureaux des utilisateurs dans lesquels les numéros de téléphone existants seront transférés vers Microsoft.</li><li>Choisissez le type de numéro de téléphone à transférer vers Microsoft.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements ou les bureaux des utilisateurs dans lesquels les numéros de téléphone existants seront transférés vers Microsoft.</li><li>Documentez le type de numéro de téléphone à transférer vers Microsoft.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="dial-plans"></a>Plan de numérotation
 
-Un Plan de numérotation dans la fonctionnalité de système téléphonique d’Office 365 est un ensemble de règles de normalisation qui traduisent composé des numéros de téléphone dans un autre format (généralement le format E.164) pour l’autorisation d’appel et le routage des appels. Le service de conférence Audio exploite les mêmes capacités utilisées par le système téléphonique pour traduire des numéros de téléphone composé dans les scénarios d’appel sortant de conférence (par exemple, inviter des participants via PSTN et numérotation, fonctionnalité « m’appeler »).
+Un plan de numérotation dans la fonctionnalité système téléphonique d’Office 365 est un ensemble de règles de normalisation qui convertissent les numéros de téléphone numérotés dans un autre format (en général, le format E. 164) pour l’autorisation et le routage des appels. Le service d’audioconférence utilise les mêmes fonctionnalités utilisées par le système téléphonique pour traduire les numéros de téléphone de conférence rendez-vous dans les scénarios de numérotation de conférences (par exemple, invitez des participants via PSTN et Dial-moi).
 
-Dans la fonction système téléphonique d’Office 365, il existe deux types de plans de numérotation :
+Dans la fonctionnalité système téléphonique d’Office 365, il existe deux types de plans de numérotation:
 
--   **Plan de numérotation Service :** Il s’agit de la valeur par défaut plan de numérotation est appliquée aux utilisateurs en fonction de leur emplacement d’utilisation d’Office 365, et il ne peut pas être modifié.
+-   **Plan de numérotation service:** Il s’agit du plan de numérotation par défaut qui est appliqué aux utilisateurs en fonction de leur emplacement d’utilisation d’Office 365 et ne peut pas être modifié.
 
--   **Client au plan de numérotation :** Il s’agit d’un plan de numérotation personnalisable au sein d’un client, ce qui est divisé en deux types :
+-   **Plan de numérotation client:** Il s’agit d’un plan de numérotation personnalisable au sein d’un client, qui est divisée en deux types:
 
-    -   **Client globales plan de numérotation :** Le plan de numérotation qui s’applique à tous les utilisateurs dans le client.
+    -   **Client-plan de numérotation global:** Plan de numérotation qui s’applique à tous les utilisateurs du client.
 
-    -   **Plan de numérotation utilisateur client :** Le plan de numérotation qui s’applique uniquement à certains utilisateurs.
+    -   **Plan de numérotation de l’utilisateur:** Plan de numérotation s’appliquant uniquement à des utilisateurs spécifiques.
 
-Le plan de numérotation effectives attribué aux utilisateurs est la combinaison du plan de numérotation service (basé sur l’emplacement d’utilisation d’un utilisateur Office 365) et client de numérotation de plan (qui peut être un plan de numérotation global-client ou un plan de numérotation utilisateur client).
+Le plan de numérotation efficace attribué aux utilisateurs est la combinaison du plan de numérotation service (en fonction de l’emplacement d’utilisation d’Office 365 d’un utilisateur) et du plan de numérotation client (qui peut être un client-plan de numérotation global ou un plan de numérotation de l’utilisateur).
 
-![Tableau présente trois combinaisons de service et les clients des plans de numérotation.] (media/audio_conferencing_image8.png "Tableau présente trois combinaisons de service et les clients des plans de numérotation.")
+Le ![tableau suivant présente trois combinaisons de plans de services et de numérotation client.] Le (media/audio_conferencing_image8.png "tableau suivant présente trois combinaisons de plans de services et de numérotation client.")
 
 > [!IMPORTANT]
-> Il peut y avoir un maximum de 25 règles de normalisation dans chaque plan de numérotation client ; Par conséquent, il est important éviter la duplication des règles de normalisation qui sont déjà disponibles dans le cadre du service de plan de numérotation.
+> Chaque plan de numérotation client peut comporter un maximum de 25 règles de normalisation. par conséquent, il est important de ne pas dupliquer les règles de normalisation déjà disponibles dans le cadre du plan de numérotation service.
 
 Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de numérotation ?](what-are-dial-plans.md)
 
@@ -364,24 +365,24 @@ Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de nu
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation nécessite des plans de numérotation personnalisé (impératifs d’entreprise, configuration requise d’adoption et ainsi de suite).</li><li>Le cas échéant, décider de l’étendue du plan de numérotation client (client globale ou utilisateur client) pour prendre en charge votre configuration requise pour les plans de numérotation personnalisé.</li><li>Le cas échéant, déterminez les plans de numérotation client que vous créerez pour prendre en charge des bureaux ou emplacements de l’utilisateur dans la portée de l’implémentation de la voix dans le nuage.</li><li>Le cas échéant, décider quels utilisateurs ont besoin d’un plan de numérotation personnalisé et le plan de numérotation client pour être attribué à chaque utilisateur.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les plans de numérotation personnalisé et les règles de normalisation associées à configurer dans le cadre de la mise en œuvre de la voix dans le nuage.</li><li>Les utilisateurs à affecter à un plan de numérotation personnalisé et le plan de numérotation client pour être attribué à chaque utilisateur du document.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si votre organisation nécessite des plans de numérotation personnalisés (exigences d’entreprise, exigences d’adoption, etc.).</li><li>Le cas échéant, déterminez l’étendue du plan de numérotation client (client-global ou utilisateur client) pour prendre en charge vos exigences relatives aux plans de numérotation personnalisés.</li><li>Le cas échéant, déterminez les plans de numérotation client que vous allez créer pour prendre en charge les emplacements des utilisateurs ou les bureaux dans le cadre de l’implémentation de la voix Cloud.</li><li>Le cas échéant, Déterminez quels utilisateurs nécessitent un plan de numérotation personnalisé et le plan de numérotation client à attribuer pour chaque utilisateur.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les plans de numérotation personnalisés et les règles de normalisation associées à configurer dans le cadre de l’implémentation de la voix Cloud.</li><li>Documentez les utilisateurs auxquels vous voulez attribuer un plan de numérotation personnalisé et le plan de numérotation client à attribuer à chaque utilisateur.</li></ul>|
 
 > [!TIP]
-> Si elle est applicable à votre projet, vous pouvez utiliser le modèle suivant pour documenter les configurations de plan de numérotation client.
+> S’il est applicable à votre projet, vous pouvez utiliser le modèle suivant pour documenter les configurations du plan de numérotation client.
 > 
 > |Nom du plan de numérotation de client<br>_Description_  |Nom des règles de normalisation<br>_Description_  |Modèle<br>Conversion<br>IsInternalExtension  |
 > |---------|---------|---------|
-> |**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^(7\d{3})$<br>+6125550$1<br>True|
+> |**AU-NSW-NorthRyde-OER**<br>_1 Epping Road North Ryde, NSW, plan de numérotation AU_|**AU-NSW-NorthRyde-OER-Internal**<br>_Numéro interne (x7000 - x7999) du 1 Epping Road office, North Ryde, NSW, Australie_|^ (7-d{3}) $<br>+6125550$1<br>True|
 > ||**AU-NSW-Local**<br>_Normalisation du numéro local pour NSW, Australie_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
-> ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>False|
 > ||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
-> |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000 â « x 8999) pour office OMB, Singapour_|^(8\d{3})$<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
-> ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
-> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000 d’â « x 7999) pour 39 quai du Président Roosevelt office, les Issy-les-Moulineaux, France_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000-€ € "x8999) pour OMB Office, Singapour_|^ (8{3}<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^ (1? 800 p{7}) \d * $<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000-€ € "x7999) pour 39 quai du Président Roosevelt Office, Issy-aux-Moulineaux, France_|^ (7-d{3}) $<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0? (80 \n d{7}) \d * $<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1-d{1,2}\|11 [68] \d{3}\|10 \ d{2}\|3 \ d{3}) $<br>$1<br>False|
 
 <br>
 
@@ -405,21 +406,21 @@ Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de nu
 
 <!--ENDOFSECTION-->
 
-## <a name="document-service-decisions"></a>Décisions de service de document 
+## <a name="document-service-decisions"></a>Décisions relatives au service de documents 
 
-Utilisez les informations dans les sections précédentes de cet article pour documenter vos décisions de service. En règle générale, cette documentation contient les sections principales suivantes :
+Utilisez les informations des sections précédentes de cet article pour documenter les décisions de votre service. En règle générale, cette documentation contient les sections principales suivantes:
 
--   Système téléphonique avec la liste des activation appelant des Plans de site
+-   Système téléphonique avec une liste de plans d’appel d’activation de site
 
--   Affectation de licence pour le système téléphonique avec des Plans de l’appel des utilisateurs
+-   Attribution de licence pour le système téléphonique avec les utilisateurs de forfaits d’appels
 
 -   Numéros de planification de crédits de communication
 
--   Acquisition de numéro de téléphone, les numéros de téléphone et les détails de l’emplacement en cas d’urgence
+-   Acquisition de numéro de téléphone, numéros de téléphone et informations de l’emplacement d’urgence
 
--   Détails de configuration de la messagerie vocale
+-   Détails de la configuration de la boîte vocale
 
--   ID d’appelant masquage des détails de configuration
+-   Détails de la configuration du masquage de l’identification de l’appelant
 
 -   Plans de numérotation de client
 

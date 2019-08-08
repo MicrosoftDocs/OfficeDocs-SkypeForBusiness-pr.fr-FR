@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: vikramju
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 1238e0e4d015a9216523c96e981e3f37ad54c131
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588126"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245362"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 

@@ -7,8 +7,9 @@ ms.date: 2/1/2019
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
-description: Découvrez la terminologie et concepts associés à routage basé sur un emplacement pour le routage Direct.
+description: Découvrez les concepts de base liés au routage par emplacement pour le routage direct.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,25 +17,25 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8e02f8c9c9371771f41b1fc724bcc2f40ebd69b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d35b42453ac0eb9d9ae4a3f4c71f4452943a3b0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245179"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245094"
 ---
 # <a name="location-based-routing-terminology"></a>Terminologie du routage géodépendant
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Voici quelques termes et les concepts utilisés dans la documentation de routage basé sur l’emplacement. Il est judicieux de vous familiariser avec ces concepts et termes avant d’arriver plus loin dans la documentation.
+Voici quelques termes et concepts qui sont utilisés dans la documentation de routage basée sur l’emplacement. Nous vous conseillons de vous familiariser avec les présentes conditions générales et concepts avant de vous familiariser avec la documentation.
 
 |Terme  |Description  |
 |---------|---------|
-|Régions réseau     | Une région réseau contient une collection de sites réseau. Par exemple, si votre organisation dispose de nombreux sites situés en Inde, vous pouvez choisir de désigner « Inde » comme une région réseau.        |
-|Sites réseau    | Un site réseau représente un emplacement où votre organisation a un lieu physique, comme un bureau, un ensemble de bâtiments ou un site. Sites réseau sont définies comme un ensemble de sous-réseaux IP. Meilleure pratique pour le routage basé sur l’emplacement consiste à créer un site distinct pour chaque emplacement disposant d’une connectivité PSTN unique.  Chaque site de réseau doit être associé à une région réseau. Vous pouvez créer un site qui est activé pour le routage basé sur l’emplacement ou un site qui n’est pas activé pour le routage basé sur l’emplacement. Par exemple, vous souhaiterez peut-être créer un site qui n’est pas activé pour le routage de gÉodÉpendante permettre aux utilisateurs activés pour le routage emplacement effectuer des appels PSTN lorsqu’elles se trouvent sur ce site. Notez que sites réseau peuvent également être utilisés pour activer et configurer l’appel d’urgence.        |
-|Sous-réseaux     |Sous-réseaux IP à l’emplacement où les points de terminaison équipes peuvent se connecter au réseau doivent être définies et associés à un réseau défini pour appliquer le contournement de média payant. Plusieurs sous-réseaux peuvent être associés au même site réseau, mais plusieurs sites n’est peut-être pas associés à un même sous-réseau. Cette association de sous-réseaux permet de routage emplacement rechercher les points de terminaison géographiquement pour déterminer si un appel RTC donné doit être autorisé. Sous-réseaux à la fois IPv4 et IPv6 sont prises en charge. Pour déterminer si un point de terminaison équipes se trouve sur un site, en fonction de routage commence pour une adresse IPv6 correspondante. Si une adresse IPv6 n’est pas présent, routage basé sur l’emplacement de recherche une adresse IPv4. <br><br>Prise en charge d’IPv6 est en cours et sera disponible par disponibilité générale de routage basé sur l’emplacement.          |
-|Adresse IP externe de confiance    |Les adresses IP externes approuvés sont les adresses IP externes d’Internet du réseau d’entreprise. Ils déterminent si le point de terminaison de l’utilisateur est à l’intérieur du réseau d’entreprise avant de vérification pour une correspondance de site spécifique. Si l’adresse IP externe de l’utilisateur correspond à une adresse IP qui est définie dans la liste approuvée, en fonction de routage vérifie le sous-réseau interne où se trouve le point de terminaison de l’utilisateur. Si l’adresse IP externe de l’utilisateur ne correspond à n’importe quelle adresse IP qui est défini dans la liste approuvée, le point de terminaison est classé comme étant situé à un emplacement inconnu et tous les appels PSTN vers ou à partir d’un utilisateur qui est activé pour le routage basé sur l’emplacement sont bloquées.          |
+|Régions réseau     | Une région réseau contient une collection de sites réseau. Par exemple, si votre organisation comporte de nombreux sites situés en Inde, vous pouvez choisir de définir «Inde» en tant que région réseau.        |
+|Sites réseau    | Un site réseau correspond à un emplacement où votre organisation a une place physique, par exemple un bureau, un ensemble de bâtiments ou un campus. Les sites réseau sont définis comme une collection de sous-réseaux IP. Il est recommandé de créer un site distinct pour chaque emplacement ayant une connectivité PSTN unique.  Chaque site réseau doit être associé à une région réseau. Vous pouvez créer un site activé pour le routage de géolocalisation ou un site qui n’est pas activé pour le routage sur site. Par exemple, vous souhaiterez peut-être créer un site qui n’est pas activé pour le routage géolocalisation pour permettre aux utilisateurs qui sont activés pour le routage de l’emplacement d’effectuer des appels RTC lors de l’itinérance de ce site. Notez que les sites réseau permettent également d’activer et de configurer les appels d’urgence.        |
+|Sous-réseaux réseau     |Les sous-réseaux IP situés à l’emplacement où les points de terminaison d’équipe peuvent se connecter au réseau doivent être définis et associés à un réseau défini pour appliquer le contournement du numéro. Plusieurs sous-réseaux pourront être associés à un même site réseau, mais il est possible que plusieurs sites ne soient pas associés à un même sous-réseau. Cette association de sous-réseaux permet le routage de géolocalisation pour localiser les points de terminaison géographiquement pour déterminer si un appel RTC donné doit être autorisé. Les sous-réseaux IPv6 et IPv4 sont pris en charge. Lorsque vous déterminez si un point de terminaison d’équipes est situé sur un site, le routage en fonction de l’emplacement vérifie une adresse IPv6 correspondante. Si aucune adresse IPv6 n’est présente, le routage sur la base de l’emplacement vérifie la présence d’une adresse IPv4. <br><br>
+|Adresses IP externes approuvées    |Les adresses IP externes approuvées correspondent aux adresses IP externes Internet du réseau d’entreprise. Ils déterminent si le point de terminaison de l’utilisateur se trouve à l’intérieur du réseau d’entreprise avant de rechercher une correspondance de site spécifique. Si l’adresse IP externe de l’utilisateur correspond à une adresse IP définie dans la liste de confiance, le routage au niveau de l’emplacement vérifie le sous-réseau interne sur lequel se trouve le point de terminaison de l’utilisateur. Si l’adresse IP de l’utilisateur ne correspond pas à une adresse IP définie dans la liste de confiance, le point de terminaison est considéré comme qui se trouve à un emplacement inconnu et tout appel RTC à ou à partir d’un utilisateur qui est autorisé à utiliser le routage de géolocalisation est bloqué.          |
 
 ### <a name="related-topics"></a>Voir aussi
 - [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)

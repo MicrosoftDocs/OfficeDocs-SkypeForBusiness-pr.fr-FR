@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créer, modifier ou supprimer des plages de numéros non attribués pour l’application d’annonce dans Skype entreprise Server Voice. Cela affecte le traitement des appels à des numéros non attribués.
-ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286182"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233224"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Création ou modification d’une plage de numéros non affectées dans Skype entreprise Server
  
@@ -62,7 +62,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
     
    - Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.
     
-   - Le numéro doit correspondre à l’expression régulière (tel que ?\+() ? [1-9]{0,17}\d (; ext = [1-9]{0,9}\d) ?. Cela signifie que le numéro peut commencer par la chaîne «tel:» (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
+   - Le numéro doit correspondre à l’expression régulière (tel:)? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?. Cela signifie que le numéro peut commencer par la chaîne «tel:» (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
     
 6. Dans **Service d’annonce**, effectuez l’une des opérations suivantes : 
     

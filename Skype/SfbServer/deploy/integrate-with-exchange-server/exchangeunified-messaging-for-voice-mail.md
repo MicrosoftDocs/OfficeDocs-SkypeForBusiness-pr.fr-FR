@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Résumé: configuration de la messagerie unifiée Exchange Server pour la messagerie vocale Skype entreprise Server.'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278184"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238005"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configuration de la messagerie unifiée d’Exchange Server pour la messagerie vocale de Skype Entreprise Server
  
@@ -153,7 +153,7 @@ Lorsque vous intégrez Microsoft Skype entreprise Server à la messagerie unifi�
 - Crée un groupe de recherche de MU pour chaque passerelle IP de messagerie unifiée. L’identificateur pilote de chaque groupe de recherche spécifie le plan de numérotation d’URI SIP de MU utilisé par le pool frontal de Skype entreprise Server ou le serveur Standard Edition associé à la passerelle IP de messagerie unifiée.
 - Octroie à Skype entreprise Server l’autorisation de lire les objets du conteneur de MU Active Directory, tels que les plans de numérotation de messagerie unifiée, les standards automatiques, les passerelles IP de messagerie unifiée et les groupes de recherche de MU.
   > [!IMPORTANT]
-  > Chaque forêt UM doit être configurée pour approuver la forêt dans laquelle Skype entreprise Server est déployée et la forêt de déploiement de Skype entreprise Server 2013 doit être configurée pour faire confiance à chaque forêt UM. Si Exchange UM est installé dans plusieurs forêts, vous devez effectuer les étapes d’intégration d’Exchange Server pour chaque forêt de messagerie unifiée ou spécifier le domaine Skype entreprise Server. Par exemple, ExchUcUtil. ps1 – forêt: <lync-Domain-Controller-fqdn>. 
+  > Chaque forêt UM doit être configurée pour approuver la forêt dans laquelle Skype entreprise Server est déployée et la forêt de déploiement de Skype entreprise Server 2013 doit être configurée pour faire confiance à chaque forêt UM. Si Exchange UM est installé dans plusieurs forêts, vous devez effectuer les étapes d’intégration d’Exchange Server pour chaque forêt de messagerie unifiée ou spécifier le domaine Skype entreprise Server. Par exemple, ExchUcUtil. ps1 – forêt: <Lync-Domain-Controller-FQDN>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Utiliser le Shell pour exécuter le script ExchUcUtil. ps1
 
@@ -164,7 +164,7 @@ Exécutez le script ExchUcUtil. ps1 sur tout serveur Exchange de votre organisat
 > Vous devez disposer des autorisations du rôle gestion de l’organisation Exchange ou être membre du groupe de sécurité administrateurs d’organisation Exchange pour exécuter le script. 
 
 1. Ouvrez Exchange Management Shell.
-2. À l’invite C:\Windows\System32, tapez **CD \<Drive letter>: \Program Files\Microsoft\Exchange Server\V15\Scripts>. ExchUcUtil. ps1**, puis appuyez sur entrée.
+2. À l’invite C:\Windows\System32, tapez **> \<lettre du lecteur de CD: \program files\microsoft\exchange Server\V15\Scripts>. ExchUcUtil. ps1**, puis appuyez sur entrée.
 
 #### <a name="how-do-you-know-this-worked"></a>Comment vérifier que l’opération a fonctionné?
 
@@ -189,7 +189,7 @@ Pour que vous puissiez vous connecter à Skype entreprise Server, le serveur Exc
 
 **Pour télécharger le certificat d’autorité de certification:**
 
-1. Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, tapez **le nom\<http://de votre autorité de certification émettrice Server>/certsrv**, puis cliquez sur **OK**.
+1. Sur le serveur exécutant la messagerie unifiée Exchange, cliquez sur **Démarrer**, sur **exécuter**, tapez **le nom\<http://de votre serveur d’autorité de certification émettrice>/certsrv**, puis cliquez sur **OK**.
 2. Sous sélectionner une tâche, cliquez sur **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou une LRC**.
 3. Sous **Télécharger un certificat d’autorité de certification, une chaîne de certificats ou une LRC**, sélectionnez **méthode d’encodage pour baser 64**, puis cliquez sur**Télécharger le certificat d’autorité de certification**.
    > [!NOTE]

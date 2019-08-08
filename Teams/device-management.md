@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
@@ -17,17 +18,17 @@ description: Découvrez comment gérer les appareils utilisés avec les équipes
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b259b893f443a068b8156f2298613b0feb6d028
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344640"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237502"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
 ::: zone target="docs"
-En tant qu’administrateur, vous gérez tous les appareils utilisés avec les équipes de votre organisation à partir du centre d’administration Microsoft teams & Skype entreprise. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation, et effectuer des tâches telles que la mise à jour, le redémarrage et l’analyse des diagnostics pour les appareils. Vous pouvez également créer des profils de configuration et les affecter à un appareil ou à un groupe d’appareils. 
+En tant qu’administrateur, vous gérez tous les appareils utilisés avec les équipes de votre organisation à partir de Microsoft teams & Centre d’administration Skype entreprise. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation, et effectuer des tâches telles que la mise à jour, le redémarrage et l’analyse des diagnostics pour les appareils. Vous pouvez également créer des profils de configuration et les affecter à un appareil ou à un groupe d’appareils. 
 
 ## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer?
 Les appareils doivent être certifiés pour les équipes et inscrits dans Teams. Un appareil est automatiquement inscrit la première fois qu’un utilisateur se connecte à teams sur l’appareil. Pour obtenir la liste des appareils certifiés gérables, reportez-vous à la section [conférences](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) téléphoniques et [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -51,10 +52,10 @@ Les appareils doivent être certifiés pour les équipes et inscrits dans Teams.
 |Pour cela, procédez comme suit...  |Procédez comme suit |
 |---------|---------|
 |Modification des informations de périphérique   | Sélectionnez un appareil > **modifier**. Vous pouvez modifier des détails tels que le nom de l’appareil, les informations utilisateur, la balise de ressources et ajouter des notes.     |
-|Gérer les mises à jour logicielles   |Sélectionnez une **mise à jour**de l’appareil >. Vous pouvez afficher la liste des mises à jour de logiciels et de microprogrammes disponibles pour l’appareil, puis sélectionner les mises à jour pour procéder à l’installation.    |
+|Gérer les mises à jour logicielles   |Sélectionnez un appareil > **mettre à jour**. Vous pouvez afficher la liste des mises à jour de logiciels et de microprogrammes disponibles pour l’appareil, puis sélectionner les mises à jour pour procéder à l’installation.    |
 |Redémarrer un appareil   |Sélectionnez un appareil > **redémarrer**.          |
-|Afficher l’historique de l’appareil  | Sélectionnez un appareil > **History**. Vous pouvez afficher l’historique des mises à jour de l’appareil.     |
-|Afficher les Diagnostics  | Sélectionnez un périphérique > **Diagnostics**.        |
+|Afficher l’historique de l’appareil  | Sélectionnez un appareil > **historique**. Vous pouvez afficher l’historique des mises à jour de l’appareil.     |
+|Afficher les Diagnostics  | Sélectionnez un appareil > **Diagnostics**.        |
 
 ## <a name="use-configuration-profiles-in-teams"></a>Utiliser des profils de configuration dans teams
 
@@ -64,7 +65,7 @@ Utilisez les profils de configuration pour gérer les paramètres et les fonctio
 
 ::: zone target="docs"
 
-![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams & Skype entreprise
+![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation de Microsoft teams & le centre d’administration Skype entreprise
 
 1. Dans le volet de navigation de gauche, accédez à **périphériques** > **gérer les appareils**.
 
@@ -78,7 +79,7 @@ Utilisez les profils de configuration pour gérer les paramètres et les fonctio
 
 ::: zone target="docs"
 
-![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams & Skype entreprise
+![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation de Microsoft teams & le centre d’administration Skype entreprise
 
 1. Dans le volet de navigation de gauche, accédez à **périphériques** > **gérer les appareils**.
 

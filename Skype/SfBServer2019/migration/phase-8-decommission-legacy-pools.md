@@ -5,17 +5,17 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: La rubrique suivante fournit des recommandations pour la mise à jour des entrées DNS, le déplacement de pools, la désaffectation de pools, la désactivation et la suppression de serveurs et de pools à partir d’un déploiement hérité. Toutes les procédures indiquées dans cette section ne sont pas obligatoires. Lisez la documentation et déterminez la procédure de désactivation à utiliser.
-ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273874"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236995"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Étape 8 : Mettre des pools hérités hors service
 

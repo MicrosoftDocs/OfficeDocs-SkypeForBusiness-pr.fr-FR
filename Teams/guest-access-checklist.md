@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 description: Utilisez cette liste de contrôle pour configurer l’accès invité dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925357"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244115"
 ---
 <a name="teams-guest-access-checklist"></a>Liste de vérification de l’accès invité teams
 ==========================================
@@ -81,7 +82,7 @@ Quelques points à garder à l’esprit:
    
    - Les **invités peuvent inviter**: pour permettre aux invités d’inviter d’autres personnes, attribuez la valeur **Oui**à cette stratégie.
    - **Activer le mot de passe unique pour les invités (** préversion): pour plus d’informations sur la fonctionnalité de code secret unique, voir [authentification par code électronique unique (Preview) par courrier électronique](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
-   - **Restrictions de collaboration**: pour plus d’informations sur l’autorisation ou le blocage d’invitations dans des domaines spécifiques, voir [autoriser ou bloquer les invitations d’utilisateurs B2B d’organisations spécifiques](allow-deny-list.md).
+   - **Restrictions de collaboration**: pour plus d’informations sur l’autorisation ou le blocage d’invitations dans des domaines spécifiques, voir [autoriser ou bloquer les invitations d’utilisateurs B2B d’organisations spécifiques](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Étape 2: configurer les groupes Office 365
 

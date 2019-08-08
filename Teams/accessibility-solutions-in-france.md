@@ -7,10 +7,10 @@ ms.reviewer: mikedav, allancar
 ms.topic: article
 ms.assetid: 1094e7b0-eeb5-4fe4-b2c8-5fe6d80ce178
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+audience: admin
+ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous les cœur de la mission de Microsoft, affaire composé de permettre à chaque entreprise et de la planète d’accomplir davantage. Microsoft offre est un certain nombre de fonctionnalités d’accessibilité vers Skype entreprise et Microsoft teams affaire s’inscrivent dans le fils d’engagement fort en faveur de l’accessibilité et de l’inclusion.
-ms.openlocfilehash: d9102a9eba297a0545e94bc04801e28778a05c9c
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395453"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239470"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Solutions d’accessibilité pour Skype entreprise Online et Microsoft teams en France
 

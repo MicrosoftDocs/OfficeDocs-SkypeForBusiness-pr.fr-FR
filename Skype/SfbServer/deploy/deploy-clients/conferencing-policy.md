@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 ms.reviewer: davgroom
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Consultez cette rubrique pour découvrir comment attribuer des stratégies de conférence pour Skype Room System.
-ms.openlocfilehash: 5662778c14d8f987e26b36eaca252fbd8a6ea98c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c34ad8a397cc18fe6d9b67be421bfd6ce1d4435
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286523"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234481"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  

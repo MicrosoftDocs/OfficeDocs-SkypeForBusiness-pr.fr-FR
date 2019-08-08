@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype entreprise Server offre une grande disponibilité grâce à la mise en pool de serveurs, une reprise après sinistre avec le jumelage de pools, ainsi que plusieurs modes de haute disponibilité du serveur principal, y compris les groupes d’attribution de la base de données, la mise en miroir de la base de données et le basculement SQL.
-ms.openlocfilehash: 7997f71fb1f45801436caa50c4d6b258cc1b843b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cb4d39df7f6a12a14c25533d8c6fb1ae95da24d4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306677"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240061"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Déployer la haute disponibilité et la récupération d’urgence
  
