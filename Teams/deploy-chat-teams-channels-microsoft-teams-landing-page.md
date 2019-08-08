@@ -6,20 +6,21 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Des conseils étape par étape pour déployer le chat, les équipes, les canaux et les applications dans Microsoft Teams
 localization_priority: Priority
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ad965c4979345b41f257507cb172b4e564f28cf
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 568a8beca02fdcae32bac417301d1a0bde7530b3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804800"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240900"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 

@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Résumé: Découvrez comment installer un service qui générera des rapports d’analyse dans Skype entreprise Server.'
-ms.openlocfilehash: d17f66a5a500dad19677e51c98a465a2eb6ee87b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282365"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239980"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installer des rapports de surveillance dans Skype entreprise Server
  

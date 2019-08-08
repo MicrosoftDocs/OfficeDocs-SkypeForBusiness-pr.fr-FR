@@ -8,19 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232807"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240837"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -50,7 +51,9 @@ Vous pouvez utiliser le [compagnon de test de réseau ](https://www.powershellga
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Mon réseau est-il prêt pour le déploiement de réunions Teams ? | Pour vérifier que votre réseau est prêt, voir :<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/fr-FR/MicrosoftTeams/prepare-network)</li><li>[URL et plages d’adresses IP Office 365](https://docs.microsoft.com/fr-FR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Mon réseau est-il prêt pour le déploiement de réunions Teams ? | Pour vérifier que votre réseau est prêt, voir :<ul><li>
+  [Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/fr-FR/MicrosoftTeams/prepare-network)</li><li>
+  [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/fr-FR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
