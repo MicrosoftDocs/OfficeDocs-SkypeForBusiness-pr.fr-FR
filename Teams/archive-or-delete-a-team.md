@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 04/18/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: islubin
 search.appverid: MET150
@@ -12,55 +13,55 @@ description: Découvrez comment archiver ou supprimer définitivement une équip
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 125c7954eabcbf5f454d1e9bc96b1c33377ed23f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211066"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241961"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 ===========================================
 
-Au fil du temps, une équipe créée dans Microsoft Teams peut se trouvent en dehors de l’utilisation ou vous souhaitez archiver ou supprimer une équipe à la fin d’un projet. Si vous êtes un administrateur de Microsoft Teams, suivez les étapes décrites dans cet article pour archiver ou supprimer une équipe n’est plus nécessaire. Lorsque vous archivez une équipe, cesse de toutes les activités d’équipe, mais vous pouvez ajouter ou supprimer des membres et mettre à jour les rôles et vous pouvez toujours afficher toutes les activités de l’équipe dans des canaux, des fichiers et des salles de conversation. Lorsque vous supprimez une équipe, activité d’équipe dans les canaux associés, des fichiers et des salles de conversation est également supprimée. 
+Au fil du temps, une équipe créée dans Microsoft teams peut ne pas être utilisée ou vous voudrez peut-être archiver ou supprimer une équipe à la fin d’un projet. Si vous êtes un administrateur de Microsoft Teams, suivez les étapes décrites dans cet article pour archiver ou supprimer une équipe qui n’est plus nécessaire. Lorsque vous archivez une équipe, toutes les activités correspondant à celle-ci sont interrompues, mais vous pouvez toujours ajouter ou supprimer des membres et mettre à jour les rôles, et vous pouvez toujours afficher toutes les activités de l’équipe dans les canaux, les fichiers et les conversations. Lorsque vous supprimez une équipe, l’activité de l’équipe dans les canaux, les fichiers et les discussions associées est également supprimée. 
 
 > [!IMPORTANT]
-> Équipes archivées peuvent être réactivés, mais vous ne pouvez pas restaurer une équipe qui a été supprimée. Archivez tout d’abord l’équipe et différer la suppression jusqu'à ce que vous savez que vous n’avez plus besoin l’équipe.
+> Les équipes archivées peuvent être réactivées, mais vous ne pouvez pas annuler la suppression d’une équipe qui a été supprimée. Envisagez d’archiver d’abord l’équipe et de différer la suppression jusqu’à ce que vous soyez sûr que vous n’avez plus besoin de l’équipe.
 
 ## <a name="archive-a-team"></a>Archiver une équipe
 
-Suivez ces étapes pour archiver une équipe.
+Pour archiver une équipe, procédez comme suit.
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **les équipes**.
-2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
-3. Sélectionnez **l’Archive**. Le message suivant s’affiche.
+1. Dans le centre d’administration de Microsoft Teams, sélectionnez **teams**.
+2. Pour sélectionner une équipe, cliquez sur son nom.
+3. Sélectionnez **Archive**. Le message suivant s’affiche.
 
-    ![Message d’archivage capture d’écran des équipes](media/teams-archive-message.png)
+    ![Capture d’écran du message Archive teams](media/teams-archive-message.png)
 
-4. Si vous souhaitez créer le site SharePoint de l’équipe en lecture seule, activez la case à cocher.
-5. Sélectionnez **Archiver** pour archiver l’équipe. État de l’équipe devient **archivé**.
+4. Si vous voulez que le site SharePoint de l’équipe soit en lecture seule, activez la case à cocher.
+5. Sélectionnez **Archive** pour archiver l’équipe. Le statut de l’équipe devient **Archivé**.
 
-## <a name="make-an-archived-team-active"></a>Activer une équipe archivée
+## <a name="make-an-archived-team-active"></a>Rendre une équipe archivée active
 
-Suivez ces étapes pour rendre active à nouveau une équipe archivée.
+Procédez comme suit pour rendre une équipe archivée active de nouveau.
 
-1. Dans le centre d’administration Microsoft Teams, sélectionnez **les équipes**.
-2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
-3. Sélectionnez **réactivation archivée**. État de l’équipe devient **actif**.
+1. Dans le centre d’administration de Microsoft Teams, sélectionnez **teams**.
+2. Pour sélectionner une équipe, cliquez sur son nom.
+3. Sélectionnez ne pas **Archiver**. Le statut de l’équipe devient **actif**.
 
 ## <a name="delete-a-team"></a>Supprimer une équipe
 
-Si l’équipe ne sera pas requis à l’avenir, vous pouvez supprimer il plutôt que de l’archiver. Suivez ces étapes pour supprimer une équipe.
+Si l’équipe ne sera pas tenue à l’avenir, vous pouvez la supprimer au lieu d’archiver celle-ci. Pour supprimer une équipe, procédez comme suit.
 
-1.  Dans le centre d’administration Microsoft Teams, sélectionnez **les équipes**.
-2.  Sélectionnez une équipe en cliquant sur le nom de l’équipe.
-3.  Sélectionnez **Supprimer**. Un message de confirmation s’affiche.
-4.  Sélectionnez **Supprimer** pour supprimer définitivement l’équipe.
+1.  Dans le centre d’administration de Microsoft Teams, sélectionnez **teams**.
+2.  Pour sélectionner une équipe, cliquez sur son nom.
+3.  Sélectionnez **supprimer**. Un message de confirmation s’affiche.
+4.  Sélectionnez **supprimer** pour supprimer définitivement l’équipe.
 
 
 

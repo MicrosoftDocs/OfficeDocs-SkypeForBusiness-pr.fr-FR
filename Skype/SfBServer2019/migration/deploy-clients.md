@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: End User
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Pour plus d’informations, reportez-vous à la section déploiement de clients et d’appareils dans Skype entreprise Server 2019 dans la documentation de déploiement.
-ms.openlocfilehash: 688d4bf489be56694d583793f951f3f04919365b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 454f4db3eac870a8aaba00e091a59e109d8eaa0e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288620"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237090"
 ---
 # <a name="deploy-skype-for-business-server-clients"></a>Déploiement de clients Skype entreprise Server
 

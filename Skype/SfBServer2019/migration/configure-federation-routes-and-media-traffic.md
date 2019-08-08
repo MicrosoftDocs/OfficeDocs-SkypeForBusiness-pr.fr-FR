@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: La Fédération est une relation d’approbation entre au moins deux domaines SIP, qui permet aux utilisateurs d’organisations distinctes de communiquer au sein des frontières du réseau. Après avoir effectué une migration vers votre pool de pilotes, vous devez effectuer une transition de l’itinéraire de Fédération de vos serveurs de périphérie de version précédente vers l’itinéraire de Fédération de vos serveurs Edge 2019 Skype entreprise Server.
-ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298318"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239361"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configuration des itinéraires de fédération et du trafic multimédia
 

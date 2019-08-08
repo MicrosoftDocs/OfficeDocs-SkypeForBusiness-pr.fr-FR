@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Résumé: Découvrez comment créer ou modifier un itinéraire vocal dans Skype entreprise Server à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: f79e672b45f68e09391489da55023dceb3b0dd93
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5b8fcb5617d1f5abcbbda0826c3366ab4f73cd8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286210"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233342"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Création ou modification d’un itinéraire vocal dans Skype entreprise
  
@@ -58,7 +58,7 @@ ms.locfileid: "34286210"
 11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté (RTC) à l’itinéraire des communications vocales, cliquez sur **Sélectionner** et sélectionnez un enregistrement dans la liste des enregistrements d’utilisation RTC définis pour votre déploiement de Voix Entreprise.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation RTC disponibles, voir [afficher les enregistrements d’utilisation RTC dans Skype entreprise](view-pstn-usage-records.md). > de créer ou de modifier les enregistrements d’utilisation RTC, consultez [la rubrique créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation RTC dans Skype entreprise](voice-policy-and-pstn-usage-records.md) .
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation RTC disponibles, voir [afficher les enregistrements d’utilisation RTC dans Skype entreprise](view-pstn-usage-records.md). > de créer ou de modifier des enregistrements d’utilisation RTC, consultez [la rubrique créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation RTC dans Skype entreprise](voice-policy-and-pstn-usage-records.md) .
   
 12. Organisez les enregistrements d’utilisation RTC pour bénéficier de performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement, puis cliquez sur la flèche vers le haut ou vers le bas.
     
@@ -105,7 +105,7 @@ ms.locfileid: "34286210"
 9. Pour associer une ou plusieurs utilisations RTC à l’itinéraire vocal, cliquez sur **Sélectionner** et sélectionnez un enregistrement dans la liste des enregistrements d’utilisation RTC définis pour votre déploiement voix entreprise.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation RTC disponibles, voir [afficher les enregistrements d’utilisation RTC dans Skype entreprise](view-pstn-usage-records.md). > pour créer ou modifier des enregistrements d’utilisation RTC, consultez [la rubrique créer ou modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Skype entreprise](voice-policy-and-pstn-usage-records.md). 
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation RTC disponibles, voir [afficher les enregistrements d’utilisation RTC dans Skype entreprise](view-pstn-usage-records.md). > de créer ou de modifier des enregistrements d’utilisation RTC, consultez [la rubrique créer ou modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Skype entreprise](voice-policy-and-pstn-usage-records.md). 
   
 10. Organisez les enregistrements d’utilisation RTC pour bénéficier de performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez le nom de l’enregistrement, puis cliquez sur la flèche vers le haut ou vers le bas.
     

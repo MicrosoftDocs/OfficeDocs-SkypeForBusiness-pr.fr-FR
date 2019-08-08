@@ -6,22 +6,23 @@ manager: serdars
 ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: daro
 description: Conseils destinés aux professionnels de l’informatique pour piloter les déploiements d’Office 365 dans les entités qui gèrent les données soumises au règlement du gouvernement des États-Unis.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 798381250386afd1bf92da0cf2207ea36a437ce7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344371"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237666"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 Government-déploiements de niveau supérieur
 

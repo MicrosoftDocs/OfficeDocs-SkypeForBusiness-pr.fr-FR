@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour démarrer ou arrêter l’exécution de tous les services hérités sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
-ms.openlocfilehash: 90cd9c0c7d2fbd87a4ae796c94f025b60d1a1f87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e7cde5a947d9822106223216f1f826d6ebac036f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307090"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241243"
 ---
 # <a name="stop-legacy-services"></a>Arrêter les services hérités
 

@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bbea76639fe1be0edb3269fc345d3e0d4a89e721
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305392"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243332"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -44,21 +44,12 @@ Vous pouvez en savoir plus sur ces dépendances dans les liens d’instructions 
 -   [Certificats](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Conseil professionnel** : Si vous envisagez d’utiliser des serveurs proxy pour accéder à Microsoft teams ou à Skype entreprise Online, consultez d’abord [cet article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Notez que lorsqu’il s’agit du trafic de Skype entreprise sur les serveurs proxy, nous vous recommandons de contourner entièrement les serveurs proxy. Le trafic Skype entreprise est déjà crypté, de sorte que les serveurs proxy ne le rendent pas plus sûr. Dans le cadre de votre déploiement plus large, nous vous conseillons de suivre les recommandations de la rubrique [évaluer mon environnement](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) pour la planification de la bande passante et évaluer la pertinence de votre réseau pour le trafic en temps réel. Pour toute la planification de la bande passante, utilisez le [planificateur réseau MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Nous vous recommandons de créer un personnage de salles de Microsoft teams pour refléter l’utilisation prévue de Microsoft Teams (vidéo, partage d’écran, audio) et de lui attribuer un nombre d’utilisateurs qui correspond au nombre d’unités de salles de Microsoft teams à déployer sur chaque site.) 
+**Conseil professionnel** : Si vous envisagez d’utiliser des serveurs proxy pour accéder à Microsoft teams ou à Skype entreprise Online, consultez d’abord [cet article](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Notez que lorsqu’il s’agit du trafic de Skype entreprise sur les serveurs proxy, nous vous recommandons de contourner entièrement les serveurs proxy. Le trafic Skype entreprise est déjà crypté, de sorte que les serveurs proxy ne le rendent pas plus sûr. Dans le cadre de votre déploiement plus large, nous vous conseillons de suivre les recommandations de la rubrique [évaluer mon environnement](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) pour la planification de la bande passante et évaluer la pertinence de votre réseau pour le trafic en temps réel.
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Confirmez que vos sites répondent à la configuration requise pour les salles Microsoft Teams.</li><li>Vérifiez que vous avez fourni suffisamment de bande passante pour chaque site.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement et la configuration de votre appareil.</li></ul>| 
-
-**Conseil professionnel** À partir d’un point de vue de la planification, les ressources suivantes peuvent vous être utiles. Ils couvrent bien plus que Microsoft teams et peuvent être utilisés dans le déploiement complet de Skype entreprise Online:
-
--   [Guide de distribution de la planification de la migration/déploiement de sites](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
-
--   [Planning de lancement et de migration de site-manuel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
-
-    > [!NOTE]
-    > Dans le manuel, effectuez les tâches de la section «4,3-> salles de conférence» sous la feuille «4 points de terminaison» pour chaque site sur lequel vous envisagez de déployer des appareils de Microsoft Teams. Cela vous permettra d’utiliser le script de mise en service de compte en bloc plus tard dans le processus. 
 
 ## <a name="service-readiness"></a>Préparation du service
 
@@ -129,9 +120,6 @@ Chaque appareil de salle Microsoft teams nécessite un compte de ressources déd
 
 **Conseil Pro** : rendez les noms d’affichage de ces comptes descriptifs et faciles à comprendre. Il s’agit des noms que les utilisateurs verront lors de la recherche et de l’ajout de systèmes de salle Microsoft teams à des réunions. Certaines organisations utilisent le*nom*de la salle de *site*-(*capacité maximale*de la salle)-RS, par exemple Curie, une salle de conférence de 12 personnes à Londres, peut présenter le nom d’affichage lon-Curie (12)-RS. 
 
-Si votre organisation possède de nombreuses salles de conférence qui nécessitent plusieurs comptes approvisionnés, il est possible que vous souhaitiez utiliser les [scripts de mise en service des comptes de systèmes de salle Skype](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) pour configurer en bloc plusieurs comptes de service d’une manière automatisée.
-
-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez la Convention d’affectation de noms pour les comptes de vos salles Microsoft Teams.</li><li>Décidez si vous voulez créer des comptes individuels ou utiliser des scripts de provisionnement en bloc.</li></ul>| 
@@ -144,7 +132,7 @@ Lors de la planification du déploiement des salles de Microsoft Teams, vous ave
 
 | **Scénario**            | **Accessible**         |
 |-------------------------|-----------------------|   
-|Déploiement d’un petit nombre de périphériques en salle de Microsoft Teams (<10). | Si vous utilisez des salles de Microsoft teams sous la forme de surface Pro, suivez les [instructions d’installation d’une installation par appareil](console.md). [Cette vidéo pratique vous guide tout au long du processus.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si vous utilisez une solution intégrée, déployez en utilisant l’image du fournisseur et configurez les paramètres selon les besoins. |
+|Déploiement d’un petit nombre d’appareils de salle Microsoft Teams (<10). | Si vous utilisez des salles de Microsoft teams sous la forme de surface Pro, suivez les [instructions d’installation d’une installation par appareil](console.md). [Cette vidéo pratique vous guide tout au long du processus.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si vous utilisez une solution intégrée, déployez en utilisant l’image du fournisseur et configurez les paramètres selon les besoins. |
 | Déploiement entre 10 et 50 appareils à partir d’un seul fournisseur.     | Créez une image WIM, interrompez votre travail après [l’étape 6 dans les instructions](console.md), puis capturez une image de distribution à utiliser avec votre technologie de distribution de clonage.    |
 | Déploiement de plus de 50 équipements de salles de Microsoft Teams, déploiement de périphériques auprès de plusieurs fournisseurs ou demandant des agents spécifiques à une organisation dans le cadre du déploiement. | Utilisez une plateforme de build et de distribution de logiciels basée sur une séquence de tâches, telle que [System Center Configuration Manager](room-systems-scale.md).  |
 
@@ -200,9 +188,7 @@ Une fois le système de salle Microsoft teams déployé, vous devez le tester. V
 
 Nous vous recommandons de configurer les fichiers de construction pour le tableau de bord de qualité des appels dans le cadre d’équipes générales ou du lancement de Skype entreprise, ainsi que le processus de vérification de la qualité de l’expertise. Pour plus d’informations, reportez-vous au [Guide de vérification de la qualité de l’utilisation](https://aka.ms/qerguide). 
 
-**Conseil Pro** : la [matrice de test](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) disponible sur [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) contient un onglet avec un certain nombre de tests de salles Microsoft teams que vous devez examiner dans le cadre de vos tests. 
-
-### <a name="asset-management"></a>Gestion des ressources 
+### <a name="asset-management"></a>Gestion des ressources
 
 Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens à l’aide du nom de la salle, du nom de l’appareil de Microsoft Teams, du compte de ressources connecté à Microsoft Teams, et des périphériques périphériques (et des ports USB qu’il utilise). 
 

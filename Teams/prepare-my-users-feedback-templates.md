@@ -7,65 +7,66 @@ ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Recueillir les commentaires utilisateur pour améliorer la mise en œuvre de la voix dans le nuage dans Microsoft Teams ou Skype pour les entreprises.
+audience: admin
+description: Recueillez les commentaires des utilisateurs pour améliorer l’implémentation de la voix Cloud dans Microsoft teams ou Skype entreprise.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16a535701088afd4e094e2762e9b278b74cb1ee7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898573"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232852"
 ---
-# <a name="user-feedback-surveys"></a>Les enquêtes effectuées auprès de commentaires 
+# <a name="user-feedback-surveys"></a>Etudes de commentaires des utilisateurs 
 
-Enquêtes commentaires permet de capturer l’expérience et des vues d’ensemble des utilisateurs après le déploiement. Questions devraient produire des commentaires sur receptiveness les utilisateurs à modifier, l’efficacité des ressources de formation, l’état de préparation était le plan de prise en charge et de satisfaction des utilisateurs. Évaluer les réponses à mesurer aux objectifs actives (spécifiques, mesurables, réalisable, pertinents, liés au temps) définis lors de la planification de votre projet et de déterminer toute action supplémentaire requise.
+Utilisez les enquêtes de commentaires pour capturer l’utilisation et les informations de l’utilisateur après votre déploiement. Les questions doivent poser des commentaires sur le receptiveness de l’utilisateur, l’efficacité des ressources de formation, la manière dont il s’agit du plan de support et de l’utilisation globale de l’utilisateur. Évaluez les réponses de l’enquête pour pouvoir comparer aux objectifs intelligents (spécifiques, mesurables, accessibles et pertinents) que vous avez définis lors de la planification de votre projet et déterminez toute action supplémentaire requise.
 
-Personnaliser les questions ci-dessous, puis les transférer vers un outil d’enquête telle que SharePoint pour simplifier la distribution et l’analyse.
+Personnalisez les questions ci-dessous, puis transférez-les vers un outil d’enquête tel que SharePoint pour faciliter la distribution et l’analyse.
 
-Pour les besoins de ces enquêtes, *nouveau système téléphonique* fait référence à l’utilisation des fonctionnalités d’appel dans Microsoft Teams ou Skype pour les entreprises, en plus des périphériques comme un téléphone multimédia ou un téléphone mobile. Toutes les références à Microsoft Teams dans ces enquêtes s’appliquent également à Skype pour les entreprises.
+Dans le cadre de ces examens, le *nouveau système téléphonique* fait référence à l’utilisation des fonctionnalités d’appel dans Microsoft teams ou Skype entreprise, en plus de périphériques tels qu’un téléphone multimédia ou un téléphone mobile. Toutes les références à Microsoft teams dans ces enquêtes s’appliquent également à Skype entreprise.
 
-Êtes-vous d’accord avec les affirmations suivantes, en ce qui concerne l’utilisation des équipes comme votre téléphone. 
+Indiquez votre niveau d’accord avec les déclarations suivantes, en relation avec l’utilisation de teams comme téléphone. 
 
-|     &nbsp;                              | Entièrement d’accord | Plutôt d’accord | Neutre | D’accord | Absolument pas d’accord | N/a ou n’avez pas utilisé |
+|     &nbsp;                              | Entièrement accepter | Accepter un peu | Neutralisant | Pas d’accord | Pas d’accord complet | Non applicable |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Je peux facilement émettre et recevoir des appels téléphoniques à l’aide de mon ordinateur.                                                             |                      |                    |             |                       |                         |                        |
-| Je peux facilement émettre et recevoir des appels téléphoniques à l’aide de mon nouveau téléphone de bureau.                                              |                      |                    |             |                       |                         |                        |
-| Je n’a pu facilement connecter mon nouveau téléphone de bureau.                                                                              |                      |                    |             |                       |                         |                        |
-| Je n’a pu correctement envoyer et recevoir des appels sur mon appareil mobile.                                                   |                      |                    |             |                       |                         |                        |
-| Le nouveau système téléphonique répond à tous mes besoins appelant (transfert, attente, la messagerie vocale et ainsi de suite)                                      |                      |                    |             |                       |                         |                        |
-| J’obtiens la valeur de l’intégration avec des équipes de notre système téléphonique.                                                 |                      |                    |             |                       |                         |                        |
-| À l’aide des équipes en tant que mon téléphone facilite me faire mon travail.                                          |                      |                    |             |                       |                         |                        |
-| Mon expérience audio avec des équipes est une qualité ou mieux celle à notre ancien système téléphonique.                   |                      |                    |             |                       |                         |                        |
+| Je peux facilement passer et recevoir des appels téléphoniques à l’aide de mon ordinateur.                                                             |                      |                    |             |                       |                         |                        |
+| Je peux facilement passer et recevoir des appels téléphoniques à l’aide de mon nouveau téléphone de bureau.                                              |                      |                    |             |                       |                         |                        |
+| J’étais en mesure de me connecter facilement à mon nouveau téléphone de bureau.                                                                              |                      |                    |             |                       |                         |                        |
+| J’ai réussi à passer et à recevoir des appels sur mon appareil mobile.                                                   |                      |                    |             |                       |                         |                        |
+| Le nouveau système téléphonique répond à tous mes besoins en matière d’appels (transfert, attente, boîte vocale, etc.)                                      |                      |                    |             |                       |                         |                        |
+| Je vois la valeur d’intégration de notre système téléphonique à Teams.                                                 |                      |                    |             |                       |                         |                        |
+| L’utilisation de teams comme mon téléphone simplifie la tâche.                                          |                      |                    |             |                       |                         |                        |
+| La qualité audio avec teams est aussi bonne que celle de notre ancien système téléphonique.                   |                      |                    |             |                       |                         |                        |
 
-Si vous avez choisi **d’accord** ou **absolument pas d’accord** pour les instructions ci-dessus, veuillez expliquer. (Texte ouvert)
+Si vous avez choisi de ne pas être **absolument absolument** pas d' **accord** ou totalement d’accord pour l’une des affirmations ci-dessus, veuillez expliquer. (Texte ouvert)
 
-Êtes-vous d’accord avec les affirmations suivantes, en ce qui concerne votre expérience de l’intégration avec votre nouveau téléphone.  
+Indiquez votre niveau d’accord avec les déclarations suivantes, telles qu’il est lié à votre utilisation de l’intégration sur votre nouveau téléphone.  
 
-|          &nbsp;                  | Entièrement d’accord | Plutôt d’accord | Neutre | D’accord | Absolument pas d’accord | N/a ou n’avez pas utilisé |
+|          &nbsp;                  | Entièrement accepter | Accepter un peu | Neutralisant | Pas d’accord | Pas d’accord complet | Non applicable |
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
-| Mon organisation fourni suffisamment d’informations (communication, ressources et les appels à l’action) pour moi commencer à utiliser le nouveau système téléphonique. |                      |                    |             |                       |                         |                        |
-| Ressources de formation adéquate rapidement intégré vers le nouveau système de téléphone était.                                                          |                      |                    |             |                       |                         |                        |
-| Notre service de support technique peut répondre à toutes mes questions sur le nouveau système téléphonique.                                                           |                      |                    |             |                       |                         |                        |
+| Mon organisation a fourni suffisamment d’informations (communications, ressources et appels d’action) pour pouvoir commencer à utiliser le nouveau système téléphonique. |                      |                    |             |                       |                         |                        |
+| J’avais des ressources de formation suffisantes pour être rapidement intégrées au nouveau système téléphonique.                                                          |                      |                    |             |                       |                         |                        |
+| Notre support technique peut répondre à toutes mes questions sur le nouveau système téléphonique.                                                           |                      |                    |             |                       |                         |                        |
 
-Si vous avez choisi **d’accord** ou **absolument pas d’accord** pour les instructions ci-dessus, veuillez expliquer. (Texte ouvert)
+Si vous avez choisi de ne pas être **absolument absolument** pas d' **accord** ou totalement d’accord pour l’une des affirmations ci-dessus, veuillez expliquer. (Texte ouvert)
 
-Quelle est la probabilité que vous recommandiez à l’aide des équipes comme un téléphone à un ami ou un collègue ? (0 ne = pas du tout prêt... 10 = très probablement)
+Dans quelle mesure êtes-vous prêt à utiliser teams comme téléphone pour un ami ou un collègue? (0 = sans doute... 10 = très probable)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0,4      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
-Quelle est la probabilité que vous recommandiez votre appareil téléphonique à un ami ou un collègue ? (0 ne = pas du tout prêt... 10 = très probablement)  
+Dans quelle mesure êtes-vous susceptible de recommander votre appareil téléphonique à un ami ou un collègue? (0 = sans doute... 10 = très probable)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0,4      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 
-Veuillez partager vos commentaires concernant votre expérience de téléphone. (Texte ouvert)
+Merci de nous faire part de vos commentaires sur votre interface de téléphone. (Texte ouvert)

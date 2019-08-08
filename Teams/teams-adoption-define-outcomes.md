@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment mesurer les résultats et la réussite de votre vaste public d’équipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad55031c06f114a8037715dff859d54f41b05a8c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548907"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242403"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Définir les résultats et la réussite de votre adoption de Microsoft Teams
 
@@ -66,7 +66,7 @@ Voici un exemple de résultats dans chaque catégorie:
  
 En règle générale, vous devez considérer ces mesures comme agrégées pour créer un quotient de changement pour votre société de la façon suivante:
 
-![Mesures tangibles divisées par le changement de quotient égal à un seul sentiment](media/teams-adoption-change-quotient.png)
+![Mesures tangibles divisées par un sentiment individuel = changer le quotient](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>Sélectionner une stratégie d’activation du service
 

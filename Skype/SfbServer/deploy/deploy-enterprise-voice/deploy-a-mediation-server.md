@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Résumé: Découvrez comment définir et déployer un serveur de médiation dans le générateur de topologies dans Skype entreprise Server.'
-ms.openlocfilehash: 61b90bb874d96579d975a1672238a7427350a5dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 23d1567816c56408b276672fdd0330b0aa3d635c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284647"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245493"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déploiement d’un serveur de médiation dans le générateur de topologies dans Skype entreprise Server
  

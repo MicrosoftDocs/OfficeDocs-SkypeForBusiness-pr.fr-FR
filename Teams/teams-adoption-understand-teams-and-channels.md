@@ -10,51 +10,51 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Pour plus d’informations sur la structuration des équipes et canaux dans Microsoft Teams.
+description: En savoir plus sur la structuration d’équipes et de canaux dans Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f85c85c0753bb578f2e6b697194f1b7616ebdf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930325"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240770"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
-Les concepts des équipes et les canaux sont essentielles dans une implémentation de Microsoft Teams intègre productif. 
+Les concepts d’équipes et de canaux sont fondamentaux pour une implémentation saine et productive de Microsoft Teams. 
 
-- Une équipe est une collection de personnes, le contenu et les outils qui fonctionnent ensemble pour produire des résultats commerciaux de votre société. Les équipes sont centrées autour de groupes Office 365, et les modifications apportées à l’appartenance à un groupe Office 365 sont synchronisées avec l’équipe. 
+- Une équipe est une collection de personnes, de contenu et d’outils qui collaborent pour générer un résultat professionnel pour votre entreprise. Les équipes sont centrées autour de groupes Office 365, et les modifications apportées à l’appartenance à un groupe Office 365 sont synchronisées avec l’équipe. 
 
-- Les chaînes sont les espaces de collaboration au sein d’une équipe dans laquelle le travail réel est terminé. 
+- Les canaux sont les espaces de collaboration au sein d’une équipe dans laquelle le travail réel est réalisé. 
 
-Pour lire des informations supplémentaires sur les équipes et les canaux, consultez la [vue d’ensemble des équipes et de canaux dans les équipes Microsoft](teams-channels-overview.md). Pour des conseils d’adoption équipes complète, obtenez le [Guide d’Adoption d’équipes](https:aka.ms/teamstoolkit). Pour en savoir plus sur les équipes et les groupes d’Office 365, voir [groupes de Office 365 et les équipes Microsoft](office-365-groups.md) et [en savoir plus sur Office 365 groupes](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Pour en savoir plus sur les équipes et les canaux, voir [vue d’ensemble des équipes et des canaux dans Microsoft teams](teams-channels-overview.md). Pour des instructions d’adoption complètes des équipes, consultez le [Guide d’adoption](https:aka.ms/teamstoolkit)de teams. Pour en savoir plus sur les équipes et les groupes 365, voir [groupes office 365 et Microsoft teams](office-365-groups.md) et [en savoir plus sur les groupes Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
-| Afficher cette courte vidéo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Regardez cette courte vidéo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 
 
 
-Types d’accès équipe déterminent qui peut participer à une équipe :
+Les types d’accès aux équipes déterminent qui peut rejoindre une équipe:
 
 - Les équipes *privées* sont restreintes aux membres de l’équipe approuvés par le ou les propriétaire(s) de celle-ci. Il s’agit du paramètre le plus courant pour les équipes de projet et les équipes virtuelles dans une grande organisation.
 
-- Les équipes *public* sont ouverts pour tout le monde dans l’organisation et les utilisateurs peuvent prendre part directement. Équipes publics sont utiles pour la collaboration sur des sujets d’intérêt général pour les personnes de différents départements ou à des personnes qui travaillent sur différents projets. Ce paramètre par défaut est idéal pour les organisations plus petites.
+- Les équipes *publiques* sont ouvertes à tout le monde au sein de l’organisation, et les utilisateurs peuvent les rejoindre directement. Les équipes publiques sont utiles pour collaborer sur des sujets d’intérêt général pour les personnes appartenant à différents services ou aux personnes qui travaillent sur différents projets. Ce paramètre par défaut est idéal pour les organisations plus petites.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Permet aux équipes de collaboration inter-organisations de lecteur
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Utiliser teams pour favoriser la collaboration entre organisations
 
-Il est préférable d’utiliser des équipes pour améliorer la collaboration inter-organisations et nombre de projets se prêtent à ce modèle. En outre, dirigeants ou divisions à l’intérieur d’une organisation peuvent vouloir une équipe dédiée pour leur propre personnes. Envisagez l’organisation et l’illustration suivante montre les modèles de projet.
+Nous vous conseillons d’utiliser teams pour améliorer la collaboration entre organisations et de nombreux projets seront prêtés à ce modèle. De plus, les leaders ou les divisions au sein d’une entreprise peuvent avoir besoin d’une équipe dédiée pour leurs propres personnes. Prenez en compte les modèles d’organisation et de projet indiqués dans l’illustration suivante.
 
-![Modèles de projet et d’organisation](media/teams-adoption-organization-project.png)
+![Modèles d’organisations et de projets](media/teams-adoption-organization-project.png)
 
-Informations essentielles sur la manière qu’organisation exécute son business, les événements de l’équipe, les stratégies de base et autres informations opérationnelles, telles que les analyses d’activité, peuvent être partagés dans une équipe d’organisation (illustrée sur la gauche). Pour l’équipe indiqué sur la droite, les informations du secteur sont divisées en canaux qui représentent les catégories de travail en cours effectuées à l’équipe. Membres de cette équipe peuvent ou ne peuvent pas signaler à la même personne, mais ils sont engagés dans les résultats pour le secteur de la commande.
+Dans une équipe d’entreprise (illustrée à gauche), les informations clés relatives à la manière dont l’organisation exécute son activité, les événements d’équipe, les stratégies principales et d’autres informations opérationnelles, telles que les analyses d’entreprise, peuvent être partagées. Pour l’équipe affichée à droite, les informations de la circonscription sont divisées en canaux qui représentent les catégories de travail accomplies par cette équipe. Les membres de cette équipe peuvent ou ne peuvent pas faire état d’une même personne, mais ils s’engagent à conduire les résultats de la circonscription.
   
-Vous utiliserez davantage sur la structure de vos équipes lors de la [phase 2](teams-adoption-phase2-experiment.md) de votre implémentation.
+Vous collaborerez davantage sur la structure de vos équipes dans la [phase 2](teams-adoption-phase2-experiment.md) de votre implémentation.
 
-![Icône d’étapes suivante](media/teams-adoption-next-icon.png) suivant : [créer votre premières équipes](teams-adoption-your-first-teams.md)
+![Icône illustrant la prochaine étape](media/teams-adoption-next-icon.png) : [créer votre première équipe](teams-adoption-your-first-teams.md)

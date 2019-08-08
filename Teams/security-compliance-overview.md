@@ -7,20 +7,21 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: Vue d’ensemble des fonctionnalités de sécurité et de conformité de Microsoft Teams, notamment l’audit et la création de rapports, la recherche de contenu de conformité, la découverte électronique, etc.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7582a7890b13c2879a672f87c90e9e646557dbc0
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d9e9b07ed1ca995d673ef6ea79652cb880c4dff6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768039"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242782"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -121,10 +122,14 @@ La recherche de contenu et eDiscovery ne nécessitent aucune activation dans le 
 <a name="location-of-data-in-teams"></a>Emplacement des données dans Teams
 -------------------------
 
-Les données dans Teams résident dans la région géographique associée à votre client Office 365. Pour l’instant, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, le Royaume-Uni, le Pacifique et la région EMEA. 
+Les données dans Teams résident dans la région géographique associée à votre client Office 365. Actuellement, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, le Royaume-Uni, la Corée du Sud, l’Afrique du Sud 
 
 > [!IMPORTANT]
-> Teams propose actuellement une résidence de données en Australie, au Canada, en France, en Inde, au Japon et au Royaume-Uni uniquement pour les nouveaux clients. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Les clients existants tirés de l’Australie, de l’Inde et du Japon continuent d’avoir leurs données d’équipe stockées dans la région APAC. Les clients existants au Canada continuent d’avoir leurs données stockées dans le continent américain. Les clients existants en France et au Royaume-Uni continuent d’avoir leurs données stockées dans la région EMEA.
+> Pour le moment, les équipes disposent d’une résidence de données en Australie, au Canada, en France, en Inde, au Japon, au Royaume-Uni, en Corée du Sud et en Afrique du Sud uniquement pour les nouveaux clients. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Les clients existants tirés de l’Australie, de l’Inde, du Japon et de la Corée du Sud continuent d’avoir leurs données en équipe stockées dans la région sud-est. Les clients existants au Canada continuent d’avoir leurs données stockées dans le continent américain. Les clients existants en France, au Royaume-Uni et en Afrique du Sud continuent d’avoir leurs données stockées dans la région EMEA.
+
+Pour plus d’informations sur la résidence des données sud-africains pour Teams, reportez-vous à la publication de blog d’Varun Sagar de [Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611).
+
+Pour plus d’informations sur les données de résidence du sud-coréen sur les équipes sont fournies par le billet de blog d’Varun Sagar, [Microsoft teams lance la résidence des données du sud-coréen](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171).
 
 Pour plus d'informations sur le lancement de la résidence des données de Teams au Royaume-Uni et en Inde, lisez l’article de blog d’Ansuman Acharya, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827) (Microsoft Teams lance la résidence des données en Inde, d’autres régions géographiques seront couvertes prochainement). 
 

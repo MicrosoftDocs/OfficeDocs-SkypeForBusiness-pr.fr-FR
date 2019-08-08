@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Résumé: activez le magasin de contacts unifié dans Skype entreprise Server.'
-ms.openlocfilehash: 737e9dbdd0dc9e4aae54e454cb558c59004719b0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39317316be6c4590e992c61e91549748f3bf6719
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302802"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239316"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Déploiement d’un magasin de contacts unifié dans Skype entreprise Server
  
@@ -108,7 +108,7 @@ Déterminez si les contacts d’un utilisateur ont été transférés en utilisa
   
 - Vérifiez la clé de Registre suivante sur l’ordinateur client :
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\UCS
+    URL\\ \>HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<SIP \UCS
     
     Si les contacts de l’utilisateur sont stockés dans Exchange 2013, cette clé contient une valeur de InUCSMode avec une valeur de 2165.
     

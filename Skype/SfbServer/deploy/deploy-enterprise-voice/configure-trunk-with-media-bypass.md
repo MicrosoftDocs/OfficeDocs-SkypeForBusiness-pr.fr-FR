@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Résumé: configurez un Trunk avec contournement multimédia activé pour Skype entreprise Server. Cela vous permet de réduire le nombre de serveurs de médiation, en supposant que votre fournisseur SIP Trunk le prend en charge.'
-ms.openlocfilehash: 29fd1d4e978306f58e99b4a75cb5255863139888
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289103"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233670"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configuration d’une Trunk with Media bypass dans Skype entreprise Server
 

@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Résumé: cette rubrique vous explique comment configurer la haute disponibilité et la récupération après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: a771479eccc88c6ff30864a44649fe3d309a7ca2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfc2843ceb3afba4813cc729856dcd35a4a6439e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298485"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240115"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
  

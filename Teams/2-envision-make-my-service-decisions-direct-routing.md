@@ -5,80 +5,81 @@ ms.author: Rowille
 manager: serdars
 ms.date: 07/09/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: En savoir plus sur le routage Direct, licences, et les décisions qui doivent être effectuées.
+description: En savoir plus sur le routage direct, les licences et les décisions qui doivent être prises.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a2371c72f24b19b9e3c4fe836a59cbc800ad1c4
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401789"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240806"
 ---
-# <a name="make-my-service-decisions"></a>Prendre des décisions de mon service
+# <a name="make-my-service-decisions"></a>Prendre des décisions de service
 
-Pour planifier l’implémentation technique de téléphone système routage Direct (« routage Direct »), vous devez apporter une série de décisions de service à l’avance pour mieux préparer votre organisation pour implémenter une solution qui répond aux besoins de l’entreprise que vous avez définie.
+Pour planifier l’implémentation technique du routage direct du système téléphonique («routage directe»), vous devez mettre en place une série de décisions sur le service pour mieux préparer votre organisation à la mise en œuvre d’une solution qui répond aux besoins de l’entreprise que vous avez définis.
 
-## <a name="calling-in-teams"></a>L’appel dans les équipes
+## <a name="calling-in-teams"></a>Appel dans teams
 
-Avec Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels vers ou depuis le réseau téléphonique commuté (RTC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédié pour l’émission et réception d’appels nationales et internationales (y compris la messagerie vocale) à partir de l’application cliente équipes.
+Grâce à Microsoft Teams, vos utilisateurs peuvent passer et recevoir des appels téléphoniques à partir du réseau téléphonique public commuté (RTC). Vos utilisateurs peuvent utiliser leurs propres numéros de téléphone dédiés pour le placement et la réception d’appels nationaux et internationaux (y compris la boîte vocale) depuis l’application cliente Teams.
 
 ## <a name="direct-routing"></a>Routage direct
 
-Pour les utilisateurs équipes pouvoir émettre et recevoir des appels RTC, ils doivent être activés pour le système téléphonique, une fonctionnalité d’Office 365.
+Pour permettre aux utilisateurs d’équipes de passer et de recevoir des appels RTC, ils doivent être activés pour le système téléphonique, une fonctionnalité d’Office 365.
 
-Pour activer la connectivité au réseau RTC, vous pouvez utiliser le routage Direct à donner aux personnes de votre organisation la possibilité d’émettre et recevoir des appels téléphoniques à l’extérieur de l’organisation via le réseau RTC.
+Pour activer la connectivité au réseau PSTN, vous pouvez utiliser le routage direct pour permettre aux membres de votre organisation de passer et de recevoir des appels téléphoniques extérieurs à l’organisation via PSTN.
 
-Avec le routage Direct, connectivité PSTN est facilitée par un fournisseur tiers, ce qui vous permet de continuer à utiliser vos jonctions PSTN existantes fournies par votre fournisseur de services PSTN. Ainsi, pour le déploiement dans les pays où système téléphonique avec l’appel Plans (« appel Plans ») ne sont pas disponibles ou dans les déploiements où un contrat de fournisseur de service RTC doit être conservée ou l’interopérabilité avec certains systèmes locaux Obligatoire.
+Le routage direct permet à un fournisseur tiers de vous offrir la possibilité de continuer à utiliser vos liaisons RTC existantes fournies par votre fournisseur de services RTC. Cela permet le déploiement dans des pays où le système téléphonique avec des plans d’appel («plans d’appel») n’est pas disponible, ou dans les déploiements où un contrat de prestataire de services RTC existant doit être maintenu ou l’interopérabilité avec certains systèmes locaux est Obligatoire.
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-direct-routing"></a>Disponibilité de routage Direct
+## <a name="availability-of-direct-routing"></a>Disponibilité du routage direct
 
-Routage direct est disponible dans les pays où Office 365 est disponible. Pour obtenir la liste de ces pays, voir [disponibilité internationale](https://products.office.com/business/international-availability) .
+Le routage direct est disponible dans tous les pays où Office 365 est disponible. Pour obtenir la liste de ces pays, voir [disponibilité internationale](https://products.office.com/business/international-availability) .
 
-Après avoir confirmé que votre organisation peut obtenir la fonctionnalité système téléphonique, compiler la liste des emplacements de l’utilisateur ou de bureaux où vous allez implémenter système téléphonique, en fonction de la liste des pays et régions disponibles. Identifier les utilisateurs auxquels vous souhaitez activer le routage Direct ou Plans de l’appel pour chaque emplacement que vous avez également.
+Après confirmation de l’obtention de la fonctionnalité du système téléphonique par votre organisation, compilez la liste des emplacements des utilisateurs ou des bureaux où vous allez mettre en œuvre le système téléphonique, en fonction de la liste des pays et régions disponibles. Identifiez également les utilisateurs pour lesquels vous souhaitez activer les offres d’appels ou le routage direct de chaque emplacement.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Identifiez les emplacements de l’utilisateur et les bureaux dans lequel vous allez implémenter système téléphonique.<li>Identifier les utilisateurs qui vous souhaitez activer le routage Direct ou Plans de l’appel pour chaque emplacement que vous avez.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements de l’utilisateur ou les bureaux à activer pour le système téléphonique.<li>La liste des utilisateurs que vous souhaitez activer le routage Direct ou Plans de l’appel pour chaque emplacement que vous avez de documents</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Identifiez les emplacements des utilisateurs ou les bureaux dans lesquels vous implémenterez le système téléphonique.<li>Identifiez les utilisateurs pour lesquels vous souhaitez activer les offres d’appels ou le routage direct de chaque emplacement.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les emplacements des utilisateurs ou les bureaux à activer pour le système téléphonique.<li>Documentez la liste des utilisateurs pour lesquels vous souhaitez activer les offres d’appels ou le routage direct de chaque emplacement</ul>|
 
 > [!TIP]
-> Voici un exemple d’une liste d’activation site routage Direct.
+> Vous trouverez ci-dessous un exemple de liste de sites de routage direct.
 > 
 > | **Bureau**                     | **Emplacement**   | **Service de système téléphonique** |
 > |--------------------------------|----------------|--------------------------|
-> | 1 Eppîng Road                | Australie      | Service RTC antérieur |
+> | 1 Eppîng Road                | Australie      | Service PSTN hérité |
 > | 100 Cyberport Road             | Hong Kong R.A.S.  | Routage direct via le système téléphonique |
 > | 1 Marina Boulevard           | Singapour      | Routage direct via le système téléphonique |
-> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec les Plans d’appel |
-> | 39 quai du Président Roosevelt | France         | Système téléphonique avec les Plans d’appel |
+> | 32 London Bridge Street        | Royaume-Uni | Système téléphonique avec forfaits d’appels |
+> | 39 quai du Président Roosevelt | France         | Système téléphonique avec forfaits d’appels |
 
 <!--ENDOFSECTION-->
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence
 
-Système téléphonique, chaque utilisateur dans votre organisation doit disposer un unique vers l’intérieur direct composer le numéro de téléphone (DID)). Avec le routage Direct, les numéros de téléphone et les services d’urgence fournis par votre fournisseur de services PSTN.
+Le système téléphonique nécessite que tous les utilisateurs de votre organisation disposent d’un numéro de téléphone unique de numérotation vers l’intérieur. Avec le routage direct, les numéros de téléphone et les services d’urgence sont fournis par votre fournisseur de services RTC.
 
 > [!NOTE]
-> Avec le routage Direct, vos utilisateurs peuvent continuer à l’aide de leurs propres numéros de téléphone, fourni par le fournisseur de services PSTN.
+> Le routage direct permet à vos utilisateurs de continuer à utiliser leurs propres numéros de téléphone fournis par le fournisseur de services RTC.
 > 
 > [!TIP]
-> Vous pouvez utiliser le modèle suivant pour documenter les détails de numéros de téléphone.
+> Vous pouvez utiliser le modèle suivant pour documenter les détails des numéros de téléphone.
 > 
 > |Utilisateur |Numéro de téléphone |
 > |-----|-------------|
-> |Emily Braun | + 44 23 4567 8901 |
-> |Lidia Holloway | + 44 23 4567 89112 |
-> |Louis Lahr | + 44 23 4567 8921 |
+> |Emily Braun | commande + 44 23 4567 8901 |
+> |Lidia Holloway | commande + 44 23 4567 89112 |
+> |Louis Lahr | commande + 44 23 4567 8921 |
 > |Marcel Beauchamp | TBA |
 > |Rachelle Cormier | TBA |
 > |Isabell Potvin | TBA |
@@ -87,21 +88,21 @@ Système téléphonique, chaque utilisateur dans votre organisation doit dispose
 
 ## <a name="voicemail"></a>Messagerie vocale
 
-Messagerie vocale dans le nuage, grâce aux services de messagerie vocale Azure, prend en charge les dépôts de messagerie vocale pour les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de messagerie tiers.
+La messagerie vocale Cloud, optimisée par les services de boîte vocale Azure, prend en charge les dépôts de boîte vocale dans les boîtes aux lettres Exchange et ne prend pas en charge les systèmes de courrier tiers.
 
-Messagerie vocale dans le nuage inclut la transcription de la messagerie vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Besoins de votre entreprise peuvent nécessiter que vous désactivez la transcription de la messagerie vocale pour des utilisateurs spécifiques ou tout le monde dans toute l’organisation. Si votre organisation a décidé de conserver la transcription de la messagerie vocale activée, vous devez également prendre en compte si le masquage de la messagerie vocale transcription gratuites doit être activée. Pour plus d’informations, voir [définition des stratégies de messagerie vocale dans votre organisation](set-up-phone-system-voicemail.md) .
+La messagerie vocale Cloud inclut la transcription de la boîte vocale, qui est activée par défaut pour tous les utilisateurs de votre organisation. Les besoins de votre entreprise peuvent nécessiter la désactivation de la transcription de la boîte vocale pour des utilisateurs spécifiques ou pour tout le monde au sein de l’organisation. Si votre organisation a décidé de maintenir la transcription de la boîte vocale activée, vous devez également envisager d’activer ou de désactiver le masquage de la boîte vocale. Pour plus d’informations, reportez-vous à [la rubrique Configuration des stratégies de messagerie vocale pour votre organisation](set-up-phone-system-voicemail.md)
 
-Pour plus d’informations sur la messagerie vocale dans une implémentation du système téléphonique, voir [configuration de la messagerie vocale dans le nuage](set-up-phone-system-voicemail.md).
+Pour plus d’informations sur la boîte vocale dans l’implémentation d’un système téléphonique, voir [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si vous devez activer la messagerie vocale dans le nuage dans votre implémentation de routage Direct.<li>Décider si vous activer ou désactiver la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale dans toute l’organisation ou des utilisateurs spécifiques.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, les points de décision pour prendre en charge de la messagerie vocale dans le nuage du document.<li>Si vous devez activer ou désactiver la messagerie vocale, la transcription de la messagerie vocale et masquage de gratuites transcription de la messagerie vocale uniquement pour des utilisateurs spécifiques, cette liste d’utilisateurs du document.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décidez si vous voulez activer la boîte vocale Cloud dans votre implémentation de routage direct.<li>Décidez si vous activez ou désactivez la transcription de la boîte vocale et le masquage des blasphèmes de transcription de la boîte vocale au sein de l’organisation ou pour des utilisateurs spécifiques.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Le cas échéant, documentez les points de décision pour prendre en charge la messagerie vocale Cloud.<li>Si vous activez ou désactivez la boîte vocale, la transcription de la boîte vocale et le masquage par inconvenances de transcription vocale uniquement pour des utilisateurs spécifiques, documentez la liste des utilisateurs.</ul>|
 
 > [!TIP]
-> Détails de la messagerie vocale dans le nuage pour l’implémentation des Plans de l’appel peuvent être documentés comme dans le tableau suivant.
+> Les détails de la boîte vocale Cloud pour l’implémentation des plans d’appels peuvent être décrits comme suit:
 > 
-> | **User**         | **Boîte aux lettres Exchange** | **Activer la messagerie vocale ?** | **Transcription de la messagerie vocale** | **Masquage de la messagerie vocale transcription gratuites** |
+> | **User**         | **Boîte aux lettres Exchange** | **Activer la boîte vocale?** | **Transcription de la boîte vocale** | **Masquage de l’blasphème de transcription de la boîte vocale** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Oui                   | Activé                     | Activé                                       |
 > | Lidia Holloway   | Online               | Oui                   | Activé                     | Désactivé                                      |
@@ -111,195 +112,195 @@ Pour plus d’informations sur la messagerie vocale dans une implémentation du 
 > | Isabell Potvin   | Sur site          | Oui                   | Désactivé                    | S/O                                           |
 > 
 > [!NOTE]
-> Pour utiliser la messagerie vocale et les équipes, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [comment Exchange et les équipes Microsoft interagir](exchange-teams-interact.md) .
+> Pour utiliser les équipes et la messagerie vocale, vos utilisateurs doivent disposer de boîtes aux lettres Exchange. Pour plus d’informations, voir [Comment Exchange et Microsoft teams interagissent](exchange-teams-interact.md) .
 
 <!--ENDOFSECTION-->
 
-## <a name="licensing-for-direct-routing"></a>Gestion des licences pour le routage Direct
+## <a name="licensing-for-direct-routing"></a>Gestion des licences pour le routage direct
 
-Si votre organisation envisage d’utiliser le routage Direct, vous devez obtenir les licences requises. Les utilisateurs de routage Direct doivent disposer les licences suivantes affectés dans Office 365 :
+Si votre organisation envisage d’utiliser le routage direct, vous devez obtenir les licences requises. Les utilisateurs du routage direct doivent avoir les licences suivantes affectées dans Office 365:
 
--   Système téléphonique de Microsoft
+-   Système Microsoft Phone
 
 -   Microsoft Teams
 
 -   Audioconférence,
 
-Licence de conférence audio est obligatoire pour ajouter des participants externes aux réunions planifiées, par un appel sortant leur ou en fournissant le numéro d’accès. Lorsqu’un participant externe est composé à, le service de conférence Audio passe l’appel à l’aide des fonctionnalités d’appel en ligne. Licence de conférence audio est facultative et requis uniquement pour les utilisateurs qui seront à organiser des équipes de conférences qui incluent l’audioconférence.
+Une licence d’audioconférence est nécessaire pour ajouter des participants externes à des réunions planifiées en les appelant ou en fournissant le numéro de connexion. Lors de l’appel d’un participant externe, le service d’audioconférence passe l’appel à l’aide des fonctionnalités d’appel en ligne. La licence d’audioconférence est facultative et est uniquement requise pour les utilisateurs qui organiseront des conférences d’équipes incluant des conférences audio.
 
 
 > [!NOTE]
-> Pour fournir des numéros de téléphone de pont de conférence gratuit et pour prendre en charge la conférence rendez-vous aux numéros de téléphone international, vous devez configurer [Les crédits de Communications](what-are-communications-credits.md) pour votre organisation.
+> Pour fournir des numéros de téléphone de conférence rendez-vous gratuits et prendre en charge les appels vers des numéros internationaux, vous devez configurer des [crédits de communication](what-are-communications-credits.md) pour votre organisation.
 
-Conférence audio et système téléphonique peuvent être une licence séparée en tant que services de module complémentaire pour les clients disposant d’Office 365 E3 ou des plans d’abonnement E1 ; ils sont déjà inclus dans le cadre de la planification d’abonnement Office 365 E5.
+Les services d’audioconférence et de téléphonie peuvent être dotés d’une licence séparée en tant que services complémentaires pour les clients existants disposant d’offres d’abonnement Office 365 E3 ou E1; ils sont déjà inclus dans le cadre du forfait d’abonnement Office 365 E5.
 
 > [!TIP]
-> Vous pouvez également utiliser le routage Direct pour les utilisateurs activés pour l’appel des Plans lors du routage de leurs appels au PBX tiers. Pour plus d’informations, voir [Gestion des licences et les autres exigences de routage Direct](direct-routing-plan.md#licensing-and-other-requirements).
+> Vous pouvez également utiliser le routage direct pour les utilisateurs qui sont activés pour les offres d’appels lors du routage de leurs appels vers des PBX tiers. Pour en savoir plus, voir gestion [des licences et autres exigences relatives au routage direct](direct-routing-plan.md#licensing-and-other-requirements).
 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation ne possède pas la licence de système téléphonique nécessaire, décidez si vous permet d’acquérir la licence du système téléphonique par le renforcement de vos abonnements Office 365 existants ou à acquérir le service complémentaire système téléphonique.<li>Décider si vous devez Communications générique pour l’implémentation de routage Direct.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Les groupes de division, département, office ou utilisateur que vous allez attribuer une licence de système téléphonique du document.<li>En cas d’audioconférence avec numéros de téléphone gratuits dans la portée, les groupes division, département, office ou utilisateur, vous devez ensuite activer Communications crédits du document.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Si votre organisation ne dispose pas de la licence de système téléphonique requis, décidez si vous allez acquérir la licence du système téléphonique en accroissant vos abonnements Office 365 existants ou en acquérant le service de complément système téléphonique.<li>Décidez si vous aurez besoin de crédits de communication pour votre implémentation du routage direct.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les groupes de divisions, services, bureaux ou groupes d’utilisateurs vous devez attribuer une licence de système téléphonique.<li>Si l’étendue de la fonction de conférence rendez-vous, documentez la Division, le service, les bureaux ou les groupes d’utilisateurs, vous activerez les crédits de communication.</ul>|
 
 <!--ENDOFSECTION-->
 
-## <a name="office-365-considerations"></a>Considérations relatives à Office 365
+## <a name="office-365-considerations"></a>Remarques sur Office 365
 
-Tout utilisateur qui sera activé pour le routage Direct doit être hébergé dans Office 365. Pour les déploiements hybrides avec Skype local de Business Server ou Lync Server, vous devez déplacer des utilisateurs vers Skype pour Business Online avant de les configurer pour utiliser le routage directe avec les équipes.
+Tout utilisateur qui sera activé pour le routage direct doit être hébergé dans Office 365. Pour les déploiements hybrides avec Skype entreprise Server ou Lync Server en local, vous devez déplacer des utilisateurs vers Skype entreprise Online avant de les configurer de manière à utiliser le routage direct avec Teams.
 
-Tous les utilisateurs qui se trouvent dans l’étendue des implémentations de routage Direct doivent être activés pour les équipes.
+Tous les utilisateurs qui font partie du champ d’implémentation du routage direct doivent être activés pour Teams.
 
-Votre client Office 365 doit être activé avec un ou plusieurs domaines, car la valeur par défaut \*. onmicrosoft.com domaine ne peut pas être utilisé avec le routage Direct. Pour plus d’informations sur les domaines et les clients Office 365, voir [Le Forum aux questions sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).
+Votre client Office 365 doit être activé avec un ou plusieurs domaines, car le domaine \*par défaut. onmicrosoft.com ne peut pas être utilisé avec le routage direct. Pour plus d’informations sur les domaines et les clients 365 Office, voir [FAQ sur les domaines](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décider si les utilisateurs doivent être migrées vers Skype pour Business Online prendre en charge le routage Direct.<li>Identifier les utilisateurs qui doivent être activés pour les équipes.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>La liste des utilisateurs qui doivent atteindre Skype pour Business Online et être activé pour les équipes de documents.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez si les utilisateurs doivent être migrés vers Skype entreprise Online pour prendre en charge le routage direct.<li>Identifiez les utilisateurs qui doivent être activés pour Teams.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez la liste des utilisateurs qui doivent être migrés vers Skype entreprise Online et activez pour Teams.</ul>|
 
 <!--ENDOFSECTION-->
 
-## <a name="sbc-considerations"></a>Considérations relatives à la SBC
+## <a name="sbc-considerations"></a>Considérations relatives aux SBC
 
-Vous devez utiliser des contrôleurs de frontière de session certifié et pris en charge (SBC) qui doivent être associés au service de routage Direct afin de fournir une connectivité PSTN pour vos utilisateurs. Pour une liste de SBC certifié, voir [Contrôleurs de frontière de Session pris en charge](direct-routing-plan.md#supported-session-border-controllers-sbcs).
+Vous devez utiliser des contrôleurs de frontière de session certifiés et pris en charge (SBCs) qui doivent être associés au service de routage direct pour fournir une connectivité PSTN à vos utilisateurs. Pour obtenir la liste des contrôleurs de [frontière de session, voir prises en charge](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
-Selon votre environnement, le nombre d’emplacements et exigences de routage voix, vous devrez déployer plusieurs SBCs pour prendre en charge votre base d’utilisateurs.
+Selon votre environnement, le nombre d’emplacements et les exigences en matière de routage vocal, il est possible que vous deviez déployer plusieurs éléments SBCs pour prendre en charge votre base d’utilisateurs.
 
 ### <a name="sbc-domain-names"></a>Noms de domaine SBC
 
-Chaque SBC établir une association avec le routage Direct doit avoir un nom DNS unique. Les noms DNS SBC doivent être d’un des noms de domaines enregistrés dans le client Office 365. Si plusieurs noms de domaine a été assigné à votre client, vous pouvez utiliser ces noms de domaine lors de la planification pour les noms DNS des votre SBCs.
+Chaque SBC que vous jumelez avec le routage direct doit avoir un nom DNS unique. Les noms DNS de SBC doivent être issus de l’un des noms de domaine inscrits dans le client Office 365. Si votre client a été affecté de plusieurs noms de domaine, vous pouvez utiliser l’un de ces noms de domaine lors de la planification de vos noms DNS SBCs.
 
 > [!IMPORTANT]
-> L’utilisation de *. onmicrosoft.com pour le nom DNS SBC n’est pas autorisée.
+> L’utilisation de *. onmicrosoft.com pour le nom DNS de SBC n’est pas autorisée.
 
 ### <a name="certificates"></a>Certificats
 
-Chaque SBC déployé avec le routage Direct nécessite un certificat obtenu auprès d’une liste d’autorités de certification prises en charge. Le certificat doit inclure le nom DNS SBC dans l’objet, autre nom du sujet ou les champs nom commun.
+Chaque SBC déployé avec le routage direct nécessite un certificat obtenu à partir d’une liste des autorités de certification prises en charge. Le certificat doit inclure le nom DNS du SBC dans l’objet, le nom de l’objet ou le nom du sujet.
 
 > [!NOTE]
-> L’utilisation des certificats avec caractères génériques avec SBC est également pris en charge.
+> L’utilisation de certificats génériques avec SBCs est également prise en charge.
 
-Pour plus d’informations et une liste d’autorités de certification prises en charge, consultez la rubrique [Public certificat approuvé pour le contrôleur SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
+Pour plus d’informations et une liste des autorités de certification prises en charge, voir [certificat de confiance public pour l’SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
 
-### <a name="sbc-ip-addresses-and-ports"></a>Ports et adresses IP SBC
+### <a name="sbc-ip-addresses-and-ports"></a>Adresses IP et ports de SBC
 
-Chaque SBC doit être configuré à l’aide d’une adresse IP publique accessible à partir des centres de données Office 365. Vous pouvez également configurer la traduction d’adresses réseau (NAT) pour publier votre SBCs vers les centres de données Office 365.
+Chaque SBC doit être configuré à l’aide d’une adresse IP publique accessible à partir de centres de discussion Office 365. Vous pouvez également configurer la traduction d’adresses réseau (NAT) pour publier votre connexion SBCs aux centres de datacenters Office 365.
 
-SBC requièrent une connectivité bidirectionnelle pour communiquer avec les services en nuage pour la signalisation et des médias. Signalisation est gérée par le composant nommé *Proxy SIP*et le média est géré par les *Processeurs multimédia*.
+SBCs nécessite une connectivité bidirectionnelle pour communiquer avec les services Cloud pour le signalement et le contenu multimédia. Le signalement est géré par le composant appelé *proxy SIP*et le média est géré par les *processeurs de médias*.
 
-Vous devez définir des numéros de port spécifiques sur chaque SBC pour la signalisation SIP et des médias et de configurer votre pare-feu pour autoriser le trafic bidirectionnel à ces ports ainsi que leurs adresses IP.
+Vous devez définir des numéros de port spécifiques sur chaque SBC pour les signaux et éléments multimédias SIP, et configurer vos pare-feu pour autoriser le trafic bidirectionnel vers ces ports et leurs adresses IP associées.
 
-Pour plus d’informations, voir [de signalisation SIP : noms de domaine complets et les ports de pare-feu](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) et [du trafic multimédia : plages de ports](direct-routing-plan.md#media-traffic-port-ranges).
+Pour plus d’informations, reportez-vous à la section [signalisation SIP: noms de domaine complets, ports de pare-feu](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) et [trafic multimédia: plages de ports](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
-> Nous vous recommandons de définir une limite de session simultanés maximale pour chaque SBC, selon le modèle SBC. Cette limite puis déclenche une notification lorsque le contrôleur SBC est en cours d’exécution ou n’atteigne déjà sa capacité.
+> Nous vous recommandons vivement de définir le nombre maximal de sessions simultanées pour chaque SBC, en fonction du modèle SBC. Cette limite déclenche alors une notification lorsque l’SBC est en cours d’exécution, ou près de sa capacité.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Décidez à quels endroits vous envisagez de déployer SBCs.<li>Choisir un nom DNS pour chaque SBC vous projetez de déployer.<li>Selon la décision de nom de domaine SBC, décider si vous prévoyez d’utiliser un certificat générique pour prendre en charge toutes les SBCs dans votre déploiement ou un certificat par SBC dédié.<li>Décider quelle autorité de certification publique vous allez obtenir les certificats pour votre SBCs à partir de.<li>Définir une paire de port/adresse IP publique pour chaque SBC vous allez déployer et décider si vous allez attribuer les adresses IP publiques pour les SBCs ou utiliser NAT.<li>Identifiez le nombre maximal de sessions simultanées que chaque SBC prend en charge ou peut gérer.<li>Décider quels SBCs vont être configurés à l’aide de contournement de média.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Chaque décision effectuée à l’aide du tableau suivant pour les SBCs du document.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez les emplacements que vous déploierez SBCs.<li>Déterminez le nom DNS de chaque SBC que vous envisagez de déployer.<li>Sur la base de la décision de nom de domaine SBC, décidez si vous allez utiliser un certificat générique pour la prise en charge de tout SBCs dans votre déploiement ou d’un certificat dédié par SBC.<li>Déterminez les autorités de certification publiques auxquelles vous souhaitez accéder aux certificats de votre SBCs.<li>Définissez une paire adresse IP/port publique pour chaque SBC que vous déploierez, et décidez si vous allez affecter les adresses IP publiques au protocole SBCs ou utiliser la traduction d’adresses réseau (NAT).<li>Identifiez le nombre maximal de sessions simultanées prises en charge ou peut gérer chaque SBC.<li>Déterminez les éléments SBCs à configurer à l’aide du contournement multimédia.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez chaque décision apportée pour l’SBCs en utilisant l’exemple de tableau suivant.</ul>|
 
 
 > [!TIP]
-> Utilisez le modèle suivant pour documenter les détails SBC pour votre déploiement de routage Direct.
+> Utilisez le modèle suivant pour documenter les détails d’un SBC pour votre déploiement de routage direct.
 > 
-> | **Nom DNS SBC (FQDN)** | **SBC marque et un modèle** | **Certificat** | **Emplacement**  | **Adresse IP** | **Port de signalisation SIP** | **NAT ?** | **Sessions simultanées maximales** | **Le contournement de média activé ?** |
+> | **Nom de domaine complet (FQDN)** | **Marque et modèle SBC** | **Certificat** | **Emplacement**  | **Adresse IP** | **Port de signalisation SIP** | **NAT?** | **Nombre maximal de sessions simultanées** | **Contournement de média activé?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
-> | SBC-Europe.contoso.com | TBD | \*. contoso.com | Amsterdam | TBD | TBD | Oui | TBD | Non |
-> | SBC-Asie.contoso.com | TBD | \*. contoso.com | Hong Kong R.A.S. | TBD | TBD | Non | TBD | Oui |
-> | SBC-Africa.contoso.com | TBD | \*. contoso.com | Johannesburg | TBD | TBD | Oui | TBD | Oui |
+> | SBC-Europe.contoso.com | DÉFINIR | \*. contoso.com | Amsterdam | DÉFINIR | DÉFINIR | Oui | DÉFINIR | Non |
+> | SBC-Asia.contoso.com | DÉFINIR | \*. contoso.com | Hong Kong R.A.S. | DÉFINIR | DÉFINIR | Non | DÉFINIR | Oui |
+> | SBC-Africa.contoso.com | DÉFINIR | \*. contoso.com | Johannesbourg | DÉFINIR | DÉFINIR | Oui | DÉFINIR | Oui |
 
 <!--ENDOFSECTION-->
 
-## <a name="voice-routing"></a>Routage des communications vocales
+## <a name="voice-routing"></a>Itinéraires vocaux
 
-Vous devez configurer le système téléphonique de Microsoft pour acheminer les appels vers les SBCs spécifiques pour le routage Direct. Vous pouvez configurer des itinéraires de communications vocales en fonction de :
+Vous devez configurer le système Microsoft Phone pour acheminer les appels vers l’objet SBCs spécifique pour le routage direct. Vous pouvez configurer des itinéraires vocaux en fonction de:
 
--   Modèle de numéro appelé.
+-   Appelées modèle numérique.
 
--   Modèle de numéro appelé + de l’utilisateur qui effectue l’appel.
+-   Appelées modèle de numéro + l’utilisateur qui effectue l’appel.
 
 
-Routage des appels est composé des éléments suivants :
+Le routage des appels se compose des éléments suivants:
 
--   Stratégie de routage voix – conteneur pour les utilisations RTC ; peuvent être attribuées à un utilisateur ou à plusieurs utilisateurs
+-   Politique de routage de la voix-conteneur d’utilisation PSTN; peuvent être affectés à un utilisateur ou à plusieurs utilisateurs
 
--   Utilisations PSTN – conteneur pour les itinéraires de communications vocales et les utilisations RTC ; peuvent être partagées dans différentes stratégies de routage des communications vocales
+-   Usages PSTN: conteneur des itinéraires vocaux et des utilisations PSTN; peuvent être partagés dans différentes politiques de routage vocal
 
--   Itinéraires-modèle de numéro et un ensemble de Online passerelles PSTN à utiliser pour les appels où le numéro appelant correspond au modèle de voix
+-   Itinéraires vocaux: modèle numérique et ensemble de passerelles RTC en ligne à utiliser pour les appels dont le numéro de téléphone correspond au modèle
 
--   Passerelle PSTN Online - pointeur SBC, stocke également la configuration est appliquée lorsqu’un appel est passé via le contrôleur SBC, telles que le transfert P-Asserted-Identity (PAI) ou Codecs par défaut ; peuvent être ajoutés à des itinéraires de communications vocales
+-   Le pointeur passerelle RTC en ligne sur SBC vous permet également de stocker la configuration appliquée lors de l’envoi d’un appel via SBC, par exemple en transférant l’identité P-assertion (PAI) ou les codecs préférés. peuvent être ajoutés aux itinéraires vocaux
 
-Vous pouvez configurer vos itinéraires de communications vocales avec le routage Direct de coexister avec les Plans de l’appel. Cette configuration permet l’appel prévoit d’acheminer certains des appels vers les SBCs spécifiques à l’aide de routage Direct.
+Vous pouvez configurer vos itinéraires vocaux avec le routage direct pour cohabiter avec les offres d’appels. Cette configuration permet aux plans d’appel d’acheminer certains appels vers des SBCs spécifiques en utilisant le routage direct.
 
 > [!TIP]
-> SBC peut être désignés comme *actif* et de *sauvegarde*. Cela signifie que lorsque la SBC est configuré comme actif pour ce numéro de modèle, ou le numéro de modèle + utilisateur spécifique, n’est pas disponible, les appels sont acheminés vers un contrôleur SBC sauvegarde.
+> SBCs peut être désignée comme *active* et *Backup*. Cela signifie que lorsque l’SBC configuré comme étant actif pour ce modèle de nombre (ou modèle de nombre + utilisateur spécifique) n’est pas disponible, les appels sont dirigés vers un SBC de sauvegarde.
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez la voix de routage des stratégies, les utilisations PSTN et les itinéraires de communications vocales que vous créerez à la prise en charge d’emplacements d’utilisateur ou de bureaux dans la portée de l’implémentation de routage Direct.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documenter les stratégies de routage voix, utilisations PSTN et itinéraires de communications vocales pour votre organisation.<li>Les utilisateurs à être affecté pour chaque stratégie de routage voix que vous définissez du document.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez les stratégies de routage de voix, les usages RTC et les itinéraires vocaux que vous allez créer pour prendre en charge les emplacements des utilisateurs ou les bureaux dans le cadre de l’implémentation du routage direct.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Les stratégies de routage de messages vocaux, les utilisations RTC et les itinéraires vocaux pour votre organisation.<li>Documentez les utilisateurs auxquels vous voulez attribuer une stratégie de routage vocale que vous définissez.</ul>|
 
 > [!TIP]
-> Utilisez le modèle suivant pour documenter les stratégies de voix pour votre déploiement de routage Direct.
+> Utilisez le modèle suivant pour documenter les stratégies vocales pour votre déploiement de routage direct.
 > 
-> | **Utilisation PSTN** | **Itinéraire de communications vocales** | **Schéma de numéro** | **Priorité** | **SBC** | **Description** |
+> | **Utilisation PSTN** | **Route vocale** | **Schéma de numéro** | **Priorité** | **SBC** | **Description** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
-> | Nous uniquement | « Redmond 1 » | \^\\+ 1 (425\|206) (\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Itinéraire actif pour les numéros appelés XXX-XX-XX +1 425 ou XXX-XX-XX +1 206 |
-> | Nous uniquement | « Redmond 2 » | \^\\+ 1 (425\|206) (\\d{7})\$ | 2 | SBC3.contoso.com sbc4.contoso.com | Itinéraire alternatif pour les numéros appelés XXX-XX-XX +1 425 ou XXX-XX-XX +1 206 |
-> | Nous uniquement | « Autres + 1 » | \^\\+ 1 (\\d{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Routage de numéros appelés + 1 XXX XXX XX XX (sauf XXX-XX-XX +1 425 ou XXX-XX-XX +1 206) |
-> | International | International | \\+ d | 4 | sbc2.contoso.com sbc5.contoso.com | Itinéraire pour n’importe quel modèle de numéro |
+> | États-Unis uniquement | "Redmond 1" | \^\\+ 1 (425\|206) (\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Itinéraire actif pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX |
+> | États-Unis uniquement | "Redmond 2" | \^\\+ 1 (425\|206) (\\d{7})\$ | 2 | sbc3.contoso.com sbc4.contoso.com | Itinéraire de sauvegarde pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX |
+> | États-Unis uniquement | "Other + 1" | \^\\commande + 1\\({10}d)\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Itinéraire pour les numéros appelés + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX) |
+> | International | International | \\d + | 4 | sbc2.contoso.com sbc5.contoso.com | Itinéraire pour n’importe quel modèle numérique |
 > 
 > [!IMPORTANT]
-> Les utilisations PSTN dans les stratégies de routage voix sont appliquées dans l’ordre, et si une correspondance est trouvée dans la première utilisation, les autres utilisations ne sont jamais évaluées.
+> Les utilisations RTC dans les stratégies de routage vocal sont appliquées dans l’ordre, et si une correspondance est trouvée lors de la première utilisation, les autres utilisations ne sont jamais évaluées.
 
 <!--ENDOFSECTION-->
 
-## <a name="calling-and-interop-policies"></a>L’appel et interopérabilité stratégies
+## <a name="calling-and-interop-policies"></a>Politiques d’appel et d’interopérabilité
 
-Routage direct est uniquement pris en charge avec Microsoft Teams. Pour passer ou recevoir des appels PSTN par le biais de routage Direct, vous devez configurer les stratégies nécessaires pour garantir les appels entrants sont reçus dans les équipes.
+Le routage direct est uniquement pris en charge par Microsoft Teams. Pour passer ou recevoir des appels RTC via le routage direct, vous devez configurer les stratégies nécessaires pour vérifier que les appels entrants sont reçus dans Teams.
 
 > [!NOTE]
-> Les utilisateurs activés pour le routage Direct ne peut pas émettre ou recevoir diriger des appels de routage à l’aide de Skype pour les entreprises et doit donc être déployé le client équipes.
+> Les utilisateurs activés pour le routage direct ne peuvent pas passer ou recevoir des appels de routage direct à l’aide de Skype entreprise, et doivent donc déployer le client Teams.
 
-Vous pouvez configurer les utilisateurs pour définir des équipes en tant que leur client par défaut pour les appels à une des deux méthodes suivantes :
+Vous pouvez configurer vos utilisateurs de manière à ce qu’ils configurent les équipes en tant que client préféré pour les appels par l’une des deux méthodes suivantes:
 
 -   Configurer l’utilisateur pour le mode équipes uniquement
 
--   Configurer les équipes en tant que client appelant par défaut en affectant la TeamsCallingPolicy et le TeamsInteropPolicy.
+-   Configurez teams en tant que client appelant préféré en attribuant le TeamsCallingPolicy et le TeamsInteropPolicy.
 
-Pour plus d’informations, voir [définir les équipes Microsoft en tant que préférable appel client pour les utilisateurs](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
+Pour plus d’informations, reportez-vous à [la section définir Microsoft teams en tant que client d’appel préféré pour les utilisateurs](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Identifiez la méthode que vous allez utiliser pour définir des équipes comme client par défaut pour les appels.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Les utilisateurs à configurer avec les stratégies d’interopérabilité et l’appel du document.</ul>|
+|<img src="media/audio_conferencing_image7.png" />|Points de décision|<ul><li>Déterminez l’approche à utiliser pour définir teams en tant que client préféré pour les appels.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Étapes suivantes|<ul><li>Documentez les utilisateurs à configurer à l’aide de stratégies d’interopérabilité et d’appel.</ul>|
 
 > [!IMPORTANT]
-> Lorsqu’un utilisateur est configuré pour les équipes seule, cet utilisateur n’est plus connecter à Skype pour les entreprises.
+> Lorsqu’un utilisateur est configuré pour le mode équipe uniquement, cet utilisateur ne peut plus se connecter à Skype entreprise.
 
-Pour que vos utilisateurs à l’onglet appels dans le client d’équipes, vous devez activer privée appelant au niveau de l’organisation du client. Pour plus d’informations sur l’activation des appels privées, voir [Activer d’appel pour les équipes Microsoft](direct-routing-configure.md) .
+Pour que vos utilisateurs puissent voir l’onglet appels dans le client Microsoft Teams, vous devez activer les appels privés au niveau de l’Organisation pour le client. Pour plus d’informations sur l’activation des appels privés, voir [activer l’appel pour Microsoft teams](direct-routing-configure.md) .
 
 
 <!--ENDOFSECTION-->
 
-## <a name="document-service-decisions"></a>Décisions de service de document
+## <a name="document-service-decisions"></a>Décisions relatives au service de documents
 
-Utilisez les informations dans les sections précédentes de cet article pour documenter vos décisions de service. En règle générale, cette documentation contient les sections principales suivantes :
+Utilisez les informations des sections précédentes de cet article pour documenter les décisions de votre service. En règle générale, cette documentation contient les sections principales suivantes:
 
--   Système téléphonique avec la liste des activation appelant des Plans de site
+-   Système téléphonique avec une liste de plans d’appel d’activation de site
 
--   Détails de configuration de la messagerie vocale
+-   Détails de la configuration de la boîte vocale
 
--   Affectation de licence pour les utilisateurs de routage d’un système téléphonique Direct
+-   Attribution de licence pour les utilisateurs du routage direct du système téléphonique
 
--   Détails de configuration SBC
+-   Détails de la configuration de SBC
 
--   Stratégie et les détails de routage de voix
+-   Politique de routage de la voix et informations de routage
 
--   Détails de la stratégie d’interopérabilité de base et l’appel
+-   Détails de la stratégie d’interopérabilité et d’appels
 
 <!--ENDOFSECTION-->

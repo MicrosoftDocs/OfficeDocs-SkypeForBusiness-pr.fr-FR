@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Créez ou modifiez une table de plages d’orbites de stationnement d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: 77be47597e5bbb674719ac2b3192efdf4217a3dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286262"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233460"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Créer ou modifier une gamme de parc d’appels dans Skype entreprise
 
@@ -64,7 +64,7 @@ Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l�
 
    - Si la plage orbite commence par le \* caractère ou #, la plage doit être supérieure à 100.
 
-   - Valeurs valides: doit correspondre à la chaîne d’expression\\normale ([* | #] ? [1-{0,7}9] \d) | ([1-9] \d{0,8}). Cela signifie que la valeur doit être une chaîne commençant par le caractère \* ou # ou par un nombre 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est \* ou #, le caractère suivant doit être un nombre 1 à 9 (il ne peut pas être zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9 (par exemple, "#6000"\*, "92000"\*, "95551212" et "915551212"). Si le premier caractère n’est \* pas ou #, le premier caractère doit être un nombre compris entre 1 et 9 (il ne peut pas être zéro), suivi de huit caractères au maximum (par exemple, "915551212", "41212", "300").
+   - Valeurs valides: doit correspondre à la chaîne\\d’expression régulière 1-9] \d{0,7}) | ([1-9] \d{0,8}). Cela signifie que la valeur doit être une chaîne commençant par le caractère \* ou # ou par un nombre 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est \* ou #, le caractère suivant doit être un nombre 1 à 9 (il ne peut pas être zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9 (par exemple, "#6000"\*, "92000"\*, "95551212" et "915551212"). Si le premier caractère n’est \* pas ou #, le premier caractère doit être un nombre compris entre 1 et 9 (il ne peut pas être zéro), suivi de huit caractères au maximum (par exemple, "915551212", "41212", "300").
 
    - Il ne doit pas y avoir plus de 50 000 orbites par pool. Chaque plage d’orbites comporte en général un maximum de 100 orbites. Mais les plages peuvent comporter jusqu’à 10 000 orbites. Par exemple, au lieu de spécifier « 7 000 000 » comme numéro de début et « 8 000 000 » comme numéro de fin, spécifiez « 7 000 000 » comme numéro de début et « 7 000 100 » comme numéro de fin.
 

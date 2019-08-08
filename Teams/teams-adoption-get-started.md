@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur les phases de démarrage, d’expérimentation et d’activation de Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02fc59d7f770d6c4070f67370533e30e4b657c98
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 168799878ff5f2a9ec1662c905f480854130bb45
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548780"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242282"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Commencer à faire adopter Microsoft Teams
 

@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d65060049204f13d32158ba6c21ee18917df154
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: f3ede35352436074cbf7c94fc9df78100a73a017
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35220911"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241809"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================

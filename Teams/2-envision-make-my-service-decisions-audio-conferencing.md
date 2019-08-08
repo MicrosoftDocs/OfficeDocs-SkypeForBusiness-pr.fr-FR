@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Apprenez-en davantage sur les réunions, les licences et la disponibilité, la configuration des paramètres du pont de conférence, l’acquisition ou le transfert de numéros de téléphone, et le choix de plans de numérotation client.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f7c36904aadf19802511979fa5e069b3c91035e
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d0155788ef4ba99a350be0043847edd5e705b75b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330595"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240574"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de service
 
@@ -355,10 +356,10 @@ Pour en savoir plus sur les plans de numérotation, reportez-vous à la rubrique
 > ||**AU-TollFree**<br>_Normalisation du numéro gratuit pour l’Australie_|^ (1 [38] \d{4,8}) \d * $<br>+61$1<br>False|
 > ||**AU-Service**<br>_Normalisation du numéro de service pour l’Australie_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 > |**SG-Singapore-OMB**<br>_OMB Singapour, plan de numérotation SG_|**SG-OMB-Internal**<br>_Numéro interne (x8000-€ € "x8999) pour OMB Office, Singapour_|^ (8{3}<br>+656888$1<br>True|
-> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^ (1?800 \ d{7}) \d * $<br>+65$1<br>False|
+> ||**SG-TollFree**<br>_Normalisation du numéro gratuit pour Singapour_|^ (1? 800 p{7}) \d * $<br>+65$1<br>False|
 > ||**SG-Service**<br>_Normalisation du numéro de service pour Singapour_|^ (1 \ d{3,4}\|9 \ d{2}) $<br>$1<br>False|
 > |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, plan de numérotation France_|**FR-39qdPR-Internal**<br>_Numéro interne (x7000-€ € "x7999) pour 39 quai du Président Roosevelt Office, Issy-aux-Moulineaux, France_|^ (7-d{3}) $<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0? (80 \ d{7}) \d * $<br>+33$1<br>False|
+> ||**FR-TollFree**<br>_Normalisation du numéro gratuit pour la France_|^ 0? (80 \n d{7}) \d * $<br>+33$1<br>False|
 > ||**FR-Service**<br>_Normalisation du numéro de service pour la France_|^ (1-d{1,2}\|11 [68] \d{3}\|10 \ d{2}\|3 \ d{3}) $<br>$1<br>False|
 
 <br>

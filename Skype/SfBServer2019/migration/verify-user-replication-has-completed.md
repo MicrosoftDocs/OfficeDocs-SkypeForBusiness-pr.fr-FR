@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lorsque vous exécutez l’applet de contrôle Move-CsUser, il est possible que vous constatiez un échec en raison du fait que les informations utilisateur entre les services de domaine Active Directory (AD DS) et celles de Skype entreprise Server 2019 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service de réplicateur d’utilisateurs Skype entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le Skype entreprise. Pool serveur 2019. Le processus de synchronisation initiale du service Réplicateur d’utilisateurs de Skype entreprise Server 2019 se produit lorsque le serveur frontal de Skype entreprise Server 2019 est démarré pour la première fois. Après cela, la synchronisation est alors basée sur l’intervalle du réplicateur d’utilisateurs. Suivez les étapes ci-dessous pour vérifier que la réplication des utilisateurs a abouti avant d’exécuter l’applet de commande Move-CsUser.
-ms.openlocfilehash: d5d0462ec2886c73fb7286860eea2c89e0fea9fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12bb3c29f703287934358f331dc945830e318afb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280645"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243710"
 ---
 # <a name="verify-user-replication-has-completed"></a>Vérifier que la réplication utilisateur est terminée
 

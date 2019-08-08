@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, par fonctionnalité spécifique.
-ms.openlocfilehash: 91e90479efdf905705d217de75cdac744a773860
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fab004336d5a349bd0548479395ef0c25eb642c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306517"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243431"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -37,7 +37,6 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, 
 | Titre du problème |  Comportement\/Symptôme | Solution connue | Article Ko |
 |  ---        |      ---             |   ---            | --- |
 |Clavier virtuel manquant   | Le clavier virtuel n’apparaît pas lorsque vous devez entrer des informations dans Microsoft Teams Rooms. Ce problème se produit après l’installation de Windows 10 Creators Update (version 1703) soit sur le Surface Pro 4, sur lequel Microsoft Teams Rooms est en cours d’exécution. | Pour contourner ce problème, ouvrez manuellement le clavier virtuel. Pour cela, procédez comme suit :<br><br> **1.** fois et maintenez la touche de la barre des tâches, puis sur le bouton**Afficher le clavier tactile de diaporama**. Une icône clavier doit apparaître sur le côté droit de la barre des tâches. <br><br> **2.** Appuyez sur l’icône du clavier pour ouvrir le clavier virtuel. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
-   
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Matériel
@@ -45,21 +44,29 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, 
 | Titre du problème |  Comportement\/Symptôme | Solution connue | Article Ko |
 |  ---        |      ---             |   ---            |   --- |
 | Moniteurs non détectés | Lorsque vous exécutez Microsoft Teams Rooms sur un appareil Surface Pro (modèle 2017), les moniteurs ne sont pas détectés. |  Maintenez le bouton marche du Surface Pro pendant 20 ou plusieurs secondes. Lorsque vous effectuez cette opération, l’appareil redémarre et efface le cache de graphiques. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
-          
+
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>Limitations et comportements prévus
+
 ***
+
 Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent visiblement des problèmes avec la fonctionnalité de réception HDMI (vidéo, audio). Assurez-vous que les options HDCP des commutateurs connectés à Microsoft Teams sont désactivées. 
+
 ***
-Un téléviseur utilisé comme écran à l’avant de la salle doit prendre en charge/permettre la fonctionnalité CEC (Consumer Electronics Control ) HDMI afin de pouvoir basculer automatiquement sur une source vidéo active depuis le mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs. 
+
+Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle de l’électronique Consumer (CEC) de l’interface HDMI pour basculer automatiquement vers une source vidéo active à partir du mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs.
+
 ***
-Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
+
+Utilisez toujours une connexion réseau 1 Gbit/s câblée pour vous assurer que vous disposez de la bande passante nécessaire. 
+
 ***
-Si votre appareil Microsoft Teams Rooms n’approuve plus le domaine (par exemple, si vous supprimez Microsoft Teams Rooms du domaine après la jonction), vous ne pourrez pas vous authentifier dans l’appareil et ouvrir les paramètres. La solution consiste à se connecter avec le compte d’administrateur local. 
+
+Si votre périphérique Microsoft teams se bloque en toute sécurité, vous ne pourrez pas vous authentifier auprès de l’appareil et ouvrir les paramètres. Par exemple, si vous supprimez les salles de Microsoft teams du domaine après qu’il est joint au domaine, l’approbation est perdue. La solution consiste à se connecter avec le compte d’administrateur local. 
 ***
 La version 64 bits de l’édition anniversaire de Windows 10 Entreprise (en anglais, version 1607) est n’est plus prise en charge depuis la publication Microsoft Teams Rooms 3.0.12.0. 
 ***
-La salle Microsoft teams est une application multifenêtre qui nécessite l’affichage de la salle avant de se connecter au port HDMI de l’appareil pour que l’application fonctionne correctement. Vérifiez que vous disposez d’un écran HDMI branché ou que vous utilisez un câble HDMI si vous effectuez des tests et que vous n’avez pas encore d’affichage acheté.
+Les salles de Microsoft teams sont une application multifenêtre et nécessitent l’affichage d’une salle avant pour être connectés au port HDMI de l’appareil, afin que l’application fonctionne correctement. Vérifiez que vous disposez d’un écran HDMI branché ou que vous utilisez un câble HDMI si vous effectuez des tests et que vous n’avez pas encore d’affichage acheté.
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi

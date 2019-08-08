@@ -1,4 +1,5 @@
 ---
+title: Restrictions de numérotation sans frais en Australie
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 7201b2fd540d5703aa6f051cceb99677245d768c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330571"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241832"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Restrictions de numérotation sans frais en Australie
 

@@ -6,26 +6,27 @@ manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
-description: Utilisez ce script PowerShell pour créer une stratégie de messagerie dans les équipes et attribuez-le aux utilisateurs de votre organisation.
+audience: admin
+description: Utilisez ce script PowerShell pour créer une stratégie de messagerie dans teams et l’attribuer aux utilisateurs de votre organisation.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d65deff9f424fad8fed11d7b10cbe40ced387161
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1fd414c960406418e9189a68e219b6a08bb7a939
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205073"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243097"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemple de script PowerShell : créer et attribuer une stratégie de messagerie
 -------------------------------------------------------------------------
 
-Utilisez ce script PowerShell pour créer une stratégie de messagerie dans Microsoft Teams et attribuez-le aux utilisateurs. 
+Utilisez ce script PowerShell pour créer une stratégie de messagerie dans Microsoft teams et l’affecter à des utilisateurs. 
 
-Pour plus d’informations sur l’utilisation de ce script PowerShell, voir [démarrage rapide - équipes pour l’éducation](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
+Pour plus d’informations sur l’utilisation de ce script PowerShell, reportez-vous à la rubrique [démarrage rapide-teams pour l’éducation](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).
 
 Si vous débutez avec PowerShell et avez besoin d’aide pour démarrer, reportez-vous à la rubrique [Présentation d’Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).
 

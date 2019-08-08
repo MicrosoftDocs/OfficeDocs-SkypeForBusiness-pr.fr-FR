@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Suivez ces instructions pour en savoir plus sur la configuration requise pour évaluer votre environnement actuel et procéder à la mise à niveau vers Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4193c6de078b196c2d34ffe098f542918d0059ad
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198484"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236102"
 ---
 ![Diagramme de route de mise à niveau, mettant l’accent sur l’étape de préparation technique] (media/upgrade-banner-tech-readiness.png "Étapes du parcours de la mise à niveau, en mettant l’accent sur l’étape de préparation technique")
 

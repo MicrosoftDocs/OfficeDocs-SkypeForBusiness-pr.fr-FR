@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,16 +16,16 @@ search.appverid: MET150
 description: Page d’accueil du déploiement de la voix Cloud dans teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185323"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236978"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
-Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé des [conférences & Conferencing](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes désormais prêt à ajouter des fonctionnalités de voix Cloud à vos utilisateurs. 
+Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé des [réunions & des conférences](deploy-meetings-microsoft-teams-landing-page.md). Vous êtes désormais prêt à ajouter des fonctionnalités de voix Cloud à vos utilisateurs. 
 
 Voix Cloud fournit des fonctionnalités PBX (Private Branch Exchange) et des options pour la connexion au réseau téléphonique public commuté (RTC).
 
@@ -99,7 +100,7 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone attrib
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Souhaitez-vous masquer ou désactiver l’identification de l’appelant? | Pour modifier ou bloquer l’ID de l’appelant, voir [définir l’ID d’appelant d’un utilisateur](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Souhaitez-vous masquer ou désactiver l’identification de l’appelant? | Pour modifier ou bloquer l’ID de l’appelant, voir [définir l’ID d’appelant d’un utilisateur](set-the-caller-id-for-a-user.md). |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Numéros de téléphone de Microsoft

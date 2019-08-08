@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Résumé: Découvrez comment effectuer une mise à niveau de Lync Server 2013 vers Skype entreprise Server 2015. Télécharger une version d’évaluation gratuite de Skype entreprise Server 2015 à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: f68e944b75af9f921dacd182bab023177a3ab2b1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275513"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237447"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -180,7 +180,7 @@ Nous vous recommandons d’utiliser Disable-CsComputer, car il est possible que 
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Étape 5 : Mettre à niveau les pools frontaux et les serveurs des pools non frontaux
 
 > [!NOTE]
->  Avant de procéder à la mise à niveau, procédez à l’installation de tous les nouveaux éléments requis pour Skype entreprise Server 2015 qui incluent: > au moins 32 Go d’espace libre avant d’effectuer une mise à niveau. De plus, assurez-vous que le lecteur est un lecteur local fixe, qu’il n’est pas connecté par USB ou FireWire, qu’il est mis en forme avec le système de fichiers NTFS, qu’il n’est pas compressé et qu’il ne contient pas de fichier de page. > PowerShell version 6.2.9200.0 ou ultérieure. > le dernier Lync Server 2013 Mise à jour cumulative désinstallée. > SQL Server 2012 SP1 installé. > la version d’évaluation suivante (installée automatiquement si vous utilisez Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)_GT_ Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Avant de procéder à la mise à niveau, procédez à l’installation de tous les nouveaux éléments requis pour Skype entreprise Server 2015 qui incluent: > au moins 32 Go d’espace libre avant d’effectuer une mise à niveau. De plus, assurez-vous que le lecteur est un lecteur local fixe, qu’il n’est pas connecté par USB ou FireWire, qu’il est mis en forme avec le système de fichiers NTFS, qu’il n’est pas compressé et qu’il ne contient pas de fichier de page. > PowerShell version 6.2.9200.0 ou ultérieure. > la dernière version de Lync Server 2013 Mise à jour cumulative installée. > SQL Server 2012 SP1 installé. > la mise à jour des Ko suivants (installée automatiquement si vous utilisez Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Utilisez la mise à niveau sur place de chaque serveur pour mettre à jour la liste frontale, le pool de médiation et le serveur de médiation.
   

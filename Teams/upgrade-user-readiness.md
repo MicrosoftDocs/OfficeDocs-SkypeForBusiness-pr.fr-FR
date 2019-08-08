@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Envisagez de communiquer, d’apprendre et de soutenir vos utilisateurs comme vous le pilote, l’intégration et la mise à niveau vers teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934493"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235918"
 ---
 ![Étapes du parcours de la mise à niveau, mise en surbrillance de l’étape de préparation de l’utilisateur] (media/upgrade-banner-user-readiness.png "Étapes du parcours de la mise à niveau, avec mise en évidence de l’étape de préparation de l’utilisateur")
 

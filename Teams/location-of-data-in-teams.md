@@ -5,29 +5,35 @@ ms.author: lolaj
 manager: serdars
 ms.date: 05/09/2019
 ms.topic: reference
+audience: admin
 ms.service: msteams
 ms.reviewer: anach
 description: En savoir plus sur l’emplacement de stockage des données dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 832fa044379698eae3531c8b340dbd36f922198c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667473"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242103"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Emplacement des données dans Microsoft Teams
 
-Les données dans Teams résident dans la région géographique associée à votre client Office 365. Pour l’instant, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, le Royaume-Uni, le Amérique du Pacifique et la région EMEA. 
+Les données dans Teams résident dans la région géographique associée à votre client Office 365. Actuellement, teams prend en charge l’Australie, le Canada, la France, l’Inde, le Japon, le Royaume-Uni, la Corée du Sud, l’Afrique du Sud 
 
 > [!IMPORTANT]
-> Teams propose actuellement une résidence de données en Australie, au Canada, en France, en Inde, au Japon et au Royaume-Uni pour les nouveaux clients uniquement. Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Les clients existants tirés de l’Australie, de l’Inde et du Japon continuent d’avoir leurs données d’équipe stockées dans la région APAC. Les clients existants au Canada continuent d’avoir leurs données stockées dans le continent américain. Les clients existants en France et au Royaume-Uni auront leurs données stockées dans la région EMEA.
+> Pour le moment, les équipes disposent d’une résidence de données en Australie, au Canada, en France, en Inde, au Japon, au Royaume-Uni, en Corée du Sud et en Afrique du Sud uniquement pour les nouveaux clients.
+> Tout client qui ne possédait pas d'utilisateur unique inscrit dans Teams est considéré comme un nouveau client. Les clients existants tirés de l’Australie, de l’Inde, du Japon et de la Corée du Sud continuent d’avoir leurs données en équipe stockées dans la région sud-est. Les clients existants au Canada continuent d’avoir leurs données stockées dans le continent américain. Les clients existants en France, au Royaume-Uni et en Afrique du Sud auront leurs données stockées dans la région EMEA.
+
+Pour plus d’informations sur la résidence des données sud-africains pour Teams, reportez-vous à la publication de blog d’Varun Sagar de [Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611).
+
+Pour plus d’informations sur les données de résidence du sud-coréen sur les équipes sont fournies par le billet de blog d’Varun Sagar, [Microsoft teams lance la résidence des données du sud-coréen](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171).
 
 Pour en savoir plus sur le lancement des données de la société en Inde et au Royaume-Uni, consultez le billet de blog de Ansuman Acharya, [Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 

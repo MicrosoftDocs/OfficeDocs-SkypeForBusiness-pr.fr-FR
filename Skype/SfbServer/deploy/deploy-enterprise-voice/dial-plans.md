@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Résumé: Découvrez comment créer ou modifier un plan de numérotation à l’aide du panneau de configuration Skype entreprise Server.'
-ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291650"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240504"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Création ou modification d’un plan de numérotation dans Skype entreprise Server
 
@@ -45,12 +45,12 @@ ms.locfileid: "34291650"
 4. Si vous créez le plan de numérotation d’un utilisateur, entrez un nom descriptif dans le champ **Nom** de la boîte de dialogue **Nouveau plan de numérotation**. Une fois enregistré, ce nom ne peut pas être modifié.
 
     > [!NOTE]
-    > Pour les plans de numérotation de site, le champ **nom** est prérempli avec le nom du site et ne peut pas être modifié. > pour les plans de numérotation de la liste, le champ **nom** est prérempli avec le nom de la passerelle PSTN ou du Bureau d’enregistrement et ne peut pas être modifié.
+    > Pour les plans de numérotation de site, le champ **nom** est prérempli avec le nom du site et ne peut pas être modifié. > pour les plans de numérotation de groupe, le champ **nom** est prérempli avec le nom de la passerelle PSTN ou du Bureau d’enregistrement et ne peut pas être modifié.
 
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
    > [!IMPORTANT]
-   > Le **nom simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** incluent les espaces<http://www.ietf.org/rfc/rfc3966.txt>et les caractères réservés tels qu’ils sont définis dans RFC 3966 (). Les caractères réservés qui ne sont **pas pris en charge** dans le **nom simple** sont les suivants: > ";" «/» «?» ":" "@&amp;" "" = "" + "" $ "", "
+   > Le **nom simple** doit être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.) ou un trait de soulignement (_). > caractères **non pris en charge** incluent les espaces<http://www.ietf.org/rfc/rfc3966.txt>et les caractères réservés tels qu’ils sont définis dans RFC 3966 (). Les caractères réservés qui ne sont **pas pris en charge** dans le **nom simple** incluent les éléments suivants: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 
@@ -109,7 +109,7 @@ ms.locfileid: "34291650"
 5. (Facultatif) Dans **Modifier un plan de numérotation**, modifiez le champ **Nom simple**, qui contient déjà le nom qui s’affiche dans le champ **Nom**, pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
     > [!IMPORTANT]
-    > Le **nom simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.), un signe plus (+) ou un trait de soulignement (_). les **** espaces > ne le sont pas.
+    > Le **nom simple** doit être unique parmi tous les plans de numérotation dans le déploiement de Lync Server 2013. Il ne peut pas contenir plus de 256 caractères Unicode, dont chacun peut être un caractère alphabétique ou numérique, un trait d’Union (-), un point (.), un signe plus (+) ou un trait de soulignement (_) >. ****
 
 6. (Facultatif) Dans le champ **Description**, entrez des informations descriptives concernant le plan de numérotation.
 

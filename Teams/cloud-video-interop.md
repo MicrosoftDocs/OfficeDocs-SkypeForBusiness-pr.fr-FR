@@ -5,21 +5,22 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: La technologie Cloud Video Interop permet à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549018"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237070"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -47,9 +48,9 @@ Les partenaires suivants disposent de solutions d’interopérabilité vidéo po
 
 |Partenaire|Solution de partenariat|
 |----|---|
-|![Logo de Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect Polycom</a> |
-|![Logo de PEXIP Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">PEXIP Infinity pour Microsoft teams</a> | 
-|![Logo de la passerelle BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft teams</a> |
+|![Logo représentant Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Service RealConnect Polycom</a> |
+|![Logo représentant l’infini de PEXIP](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">PEXIP Infinity pour Microsoft teams</a> | 
+|![Logo représentant la passerelle BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft teams</a> |
 
 ### <a name="cloud-video-interop-overview"></a>Vue d’ensemble de l’interopérabilité Cloud Video
 
@@ -68,7 +69,7 @@ Lors du déploiement d’une solution d’interopérabilité Cloud Video, il est
 
 ![Diagramme décrivant le déploiement d’CVI au sein de votre organisation](media/deploying-cvi.png)
 
-### <a name="plan"></a>Offre
+### <a name="plan"></a>Plan
 
 Pendant la phase du plan, vous devez identifier les appareils que vous ne devez pas remplacer par un appareil teams natif et Rechercher un partenaire d’interopérabilité Cloud qui peut prendre en charge ces appareils.  
 

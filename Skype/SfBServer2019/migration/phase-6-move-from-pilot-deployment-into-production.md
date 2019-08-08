@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Les rubriques de cette section décrit les tâches que vous devez effectuer avant de migrer votre déploiement de Skype entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
-ms.openlocfilehash: cc101ae93bbea9cf3fa7366bdf83676970ad450c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 03aba848f3a0edeb148e6a23166699318ed8150c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273888"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244398"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6 : Transition d’un déploiement pilote vers un environnement de production
 

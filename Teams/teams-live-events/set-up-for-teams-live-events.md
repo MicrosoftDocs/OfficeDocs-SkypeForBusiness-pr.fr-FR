@@ -1,31 +1,32 @@
 ---
 title: Configurer des événements en direct dans Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 03/06/2019
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez les étapes nécessaires à la configuration des événements en direct dans Teams, y compris la préparation de votre réseau, l’attribution de licences, l’utilisation de stratégies pour activer les fonctionnalités d’événement en direct et la planification pour les utilisateurs et la configuration d’un fournisseur de distribution tiers.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012996"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237367"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
-Lorsque vous configurez des événements en direct, vous devez suivre plusieurs étapes:
+Lorsque vous configurez des événements en direct, vous devez suivre plusieurs étapes.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Étape 1: configuration de votre réseau pour les événements en direct dans teams
 Les événements en direct produits dans teams vous demandent de [préparer le réseau de votre organisation aux équipes](https://docs.microsoft.com/microsoftteams/prepare-network).  
@@ -37,7 +38,7 @@ Vérifiez que vous disposez des attributions de licence appropriées pour les [p
 Les stratégies d’événements dynamiques permettent de contrôler les utilisateurs de votre organisation qui peuvent contenir des événements en direct et les fonctionnalités disponibles dans les événements qu’ils créent. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies d’événements dynamiques personnalisés. Lorsque vous créez une stratégie personnalisée, attribuez-la à un utilisateur ou à un groupe d’utilisateurs de votre organisation.
 
 > [!NOTE]
-> Les utilisateurs de votre organisation obtiendront la stratégie globale sauf si vous créez et attribuez une stratégie personnalisée. Par défaut, la planification d’événements en temps réel est activée pour les utilisateurs Teams, la transcription est désactivée, tous les membres de l’organisation peuvent participer aux événements en direct et le paramètre d’enregistrement est défini sur toujours enregistrer. 
+> Les utilisateurs de votre organisation obtiendront la stratégie globale sauf si vous créez et attribuez une stratégie personnalisée. Par défaut, dans la stratégie globale, la planification d’événements en direct est activée pour les utilisateurs Teams, les légendes dynamiques et les sous-titres (transcription) sont désactivés, tous les membres de l’organisation peuvent rejoindre des événements en direct et le paramètre d’enregistrement est défini sur toujours enregistrer. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Création ou modification d’une stratégie d’événements en direct
 <a name="bkcreatepolicy"> </a>
@@ -59,8 +60,8 @@ Les stratégies d’événements dynamiques permettent de contrôler les utilisa
 |**Nom**     |Il s’agit du nom de la stratégie qui s’affiche dans la page stratégies d’événements dynamiques. Il ne peut pas contenir plus de 64 caractères, ni contenir des caractères spéciaux.          |
 |**Description**    |Utilisez cette opération pour ajouter une description conviviale de la stratégie.         |
 |**Autoriser la planification**     |L’activation de cette option permet aux utilisateurs de votre organisation de créer et de planifier des événements en direct dans Teams. Il est important de savoir que si vous souhaitez que les utilisateurs planifient un événement en direct obtenu à l’aide d’une application ou d’un appareil externe, vous devez effectuer des étapes supplémentaires. Pour en savoir plus, voir [permettre aux utilisateurs de planifier des événements qui ont été produits avec un appareil ou une application externe](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Autoriser la transcription pour les participants** (bientôt disponible) |Ce paramètre ne peut être appliqué qu’aux événements produits dans Teams. L’activation de cette fonction permet aux participants en temps réel d’afficher des légendes et des traductions en temps réel lors de l’événement.         |
-|**Qui peut participer à des événements en direct programmés**    |Choisissez l’une des options suivantes.<br><br>**Tout le monde** Les utilisateurs peuvent créer des événements en direct que tout le monde, y compris les personnes externes à votre organisation, peuvent participer. Ce paramètre active le type d’autorisation **public** dans teams lorsqu’un utilisateur planifie un événement en direct.<br> **Tout le monde au sein de l’organisation** Les utilisateurs peuvent créer des événements en direct que seules les personnes de votre organisation peuvent participer. Les utilisateurs ne peuvent pas créer d’événements en direct qui sont contrôlés par des utilisateurs anonymes. Ce paramètre active le type d’autorisation à l’échelle de l' **organisation** dans teams lorsqu’un utilisateur planifie un événement en direct.<br> **Utilisateurs ou groupes spécifiques** Les utilisateurs peuvent créer des événements en direct qui peuvent être participants à des utilisateurs ou des groupes spécifiques de votre organisation. Les utilisateurs ne peuvent pas créer d’événements en direct qui sont contrôlés par tous les utilisateurs de votre organisation ou par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **personnes et groupes** dans teams lorsqu’un utilisateur planifie un événement en direct.       |
+|**Autoriser la transcription pour les participants** |Ce paramètre ne peut être appliqué qu’aux événements produits dans Teams. L’activation de cette fonction permet aux participants en temps réel d’afficher des légendes et des sous-titres en direct pendant l’événement.         |
+|**Qui peut participer à des événements en direct programmés**    |Choisissez l’une des options suivantes.<br><br>**Tout le monde** Les utilisateurs peuvent créer des événements en direct que tout le monde, y compris les personnes externes à votre organisation, peuvent participer. Ce paramètre active le type d’autorisation **public** dans teams lorsqu’un utilisateur planifie un événement en direct.<br> **Tout le monde au sein de l’organisation** Les utilisateurs peuvent créer des événements en direct que des membres de votre organisation peuvent participer, y compris des [utilisateurs invités](../add-guests.md) ajoutés à votre organisation. Les utilisateurs ne peuvent pas créer d’événements en direct qui sont contrôlés par des utilisateurs anonymes. Ce paramètre active le type d’autorisation à l’échelle de l' **organisation** dans teams lorsqu’un utilisateur planifie un événement en direct.<br> **Utilisateurs ou groupes spécifiques** Les utilisateurs peuvent créer des événements en direct qui peuvent être participants à des utilisateurs ou des groupes spécifiques de votre organisation. Les utilisateurs ne peuvent pas créer d’événements en direct qui sont contrôlés par tous les utilisateurs de votre organisation ou par des utilisateurs anonymes. Ce paramètre active le type d’autorisation **personnes et groupes** dans teams lorsqu’un utilisateur planifie un événement en direct.       |
 |**Paramètre d’enregistrement**  <br>     | Ce paramètre ne peut être appliqué qu’aux événements produits dans Teams. Choisissez l’une des options suivantes. <br><br> **Toujours enregistrer** Les événements en direct créés par les utilisateurs sont toujours enregistrés. Après l’événement, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent la voir. <br> **Ne jamais enregistrer** Les événements en direct créés par les utilisateurs ne sont jamais enregistrés. <br>L' **organisateur peut enregistrer ou non** Les utilisateurs peuvent décider d’enregistrer l’événement en direct. S’il est enregistré, après l’événement, les membres de l’équipe peuvent télécharger l’enregistrement et les participants peuvent la voir.      
 
 Vous pouvez également effectuer cette opération à l’aide de Windows PowerShell. Pour plus d’informations, reportez-vous à la rubrique [Utiliser PowerShell pour définir les stratégies d’événements dynamiques dans teams](set-teams-live-events-policies-using-powershell.md). 

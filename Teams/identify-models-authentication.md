@@ -7,20 +7,21 @@ ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e70313d83bfa7873e990a2d77bc165dfd8dfbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fabd8a853202f49fb66c9b796a84beff554afdb5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234937"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241903"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
@@ -53,7 +54,7 @@ Reportez-vous aux guides [Choosing a sign-in model for Office 365 (Sélection d'
 
 Les plans Office 365 prennent en charge l'authentification multifacteur (MFA) qui renforce la sécurité des connexions des utilisateurs aux services Office 365. Avec la MFA pour Office 365, les  utilisateurs doivent confirmer un appel téléphonique, un SMS ou une notification d'application sur leur smartphone après avoir saisi leur mot de passe. Ils pourront se connecter uniquement après avoir rempli ce second facteur d'authentification.
 
-Authentification à plusieurs facteurs est pris en charge avec n’importe quel plan Office 365 qui inclut Microsoft Teams. Les plans d’abonnement Office 365 comprenant Microsoft Teams présentés plus loin dans la section Gestion des licences ci-dessous.
+L’authentification multifacteur est prise en charge avec n’importe quel plan Office 365 incluant Microsoft Teams. Les offres d’abonnement à Office 365 qui incluent Microsoft teams sont décrites plus loin dans la section gestion des licences ci-dessous.
 
 Une fois les utilisateurs inscrits pour la MFA, lors de leur prochaine connexion, un message les invitera à configurer leur deuxième facteur d'authentification. Méthodes d'authentification prises en charge :
 

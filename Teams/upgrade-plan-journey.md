@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Planifiez la mise à niveau en effectuant d’abord les parties prenantes, puis en relevant le projet.
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934557"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236058"
 ---
 ![Diagramme du parcours de la mise à niveau de teams] (media/upgrade-banner-main.png "Assurez-vous que votre projet est configuré pour réussir avec l’équipe de projet appropriée. Définissez l’étendue de votre projet, vos buts et votre chronologie. Confirmez la compatibilité technique et des utilisateurs. Exécutez votre plan de déploiement. Mettez à jour votre dynamisme pour optimiser les résultats.")
 

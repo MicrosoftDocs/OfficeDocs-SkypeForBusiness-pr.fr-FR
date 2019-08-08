@@ -6,22 +6,23 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: rowille, crowe
 search.appverid: MET150
 description: Guide de mise en route pour la configuration des offres d’appel dans Microsoft Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - Teams_ITAdmin_Training
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6600513cf4491aed05598439987cff8d8e7232a1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 0e043633749e0ef2dba41b5b3b18776cfbe1c497
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548103"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236572"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================

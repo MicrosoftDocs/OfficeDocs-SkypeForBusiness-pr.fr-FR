@@ -7,21 +7,22 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
+audience: admin
 description: Conseils pour la publication d’applications dans le catalogue d’applications client Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221324"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235097"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications client Microsoft teams
 =======================================================
@@ -30,20 +31,20 @@ Vous pouvez utiliser le catalogue d’applications client Microsoft teams pour t
 
 Le catalogue d’applications de locataire teams vous permet de distribuer des applications métier qui ont été spécifiquement développées pour votre organisation et dont vous avez l’assurance que vous vous bamettrez à effectuer les fonctions stratégiques de l’entreprise.
 
-Pour publier des applications pour votre organisation, connectez-vous à votre client teams à l’aide de vos informations d’identification d’administrateur global, puis suivez les instructions ci-dessous.
+Pour publier des applications pour votre organisation, connectez-vous à votre client teams à l’aide d’un compte disposant des rôles d’administrateur général ou de service Teams, puis suivez les instructions ci-dessous.
 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publier une application dans le catalogue d’applications client à partir du client teams
 
 > [!NOTE]
-> Vous devez être connecté au client Microsoft teams à l’aide de vos informations d’identification d’administrateur général pour publier des applications pour votre organisation.
+> Vous devez être connecté au client Microsoft teams avec un compte pour lequel le rôle d’administrateur général ou de service teams a été activé pour publier des applications pour votre organisation. En savoir plus sur [l’utilisation des rôles d’administrateur pour gérer teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
 
 ### <a name="get-a-teams-app-package"></a>Obtenir un package d’application teams
 
-Un package d’application teams est créé à l’aide de [teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Une fois le package d’application installé, vous pouvez l’ajouter au catalogue d’applications de l’entreprise. Même si tous les utilisateurs du client peuvent afficher le catalogue d’applications, seuls les administrateurs généraux ont la possibilité de les publier et de les gérer. (Il est possible que les administrateurs d’équipes puissent également effectuer cette opération.)
+Un package d’application teams est créé à l’aide de [teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Une fois le package d’application installé, vous pouvez l’ajouter au catalogue d’applications de l’entreprise. Même si tous les utilisateurs du client peuvent afficher le catalogue d’applications, seuls les administrateurs généraux et les administrateurs des services teams ont la possibilité de les publier et de les gérer.
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Accédez au catalogue des applications clientes.
 
-Démarrez le client Microsoft Teams, puis connectez-vous à l’aide de vos informations d’identification d’administrateur général. À partir de Microsoft teams Store, sélectionnez la nouvelle section intitulée pour votre organisation spécifique (dans cet exemple, contoso). Les utilisateurs de votre organisation peuvent afficher les applications dans le catalogue et les installer pour les équipes dont ils sont membres.
+Démarrez le client Microsoft Teams, puis connectez-vous à l’aide de vos informations d’identification d’administrateur de service global ou Teams. À partir de Microsoft teams Store, sélectionnez la nouvelle section intitulée pour votre organisation spécifique (dans cet exemple, contoso). Les utilisateurs de votre organisation peuvent afficher les applications dans le catalogue et les installer pour les équipes dont ils sont membres.
 
 ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image01.png)
 

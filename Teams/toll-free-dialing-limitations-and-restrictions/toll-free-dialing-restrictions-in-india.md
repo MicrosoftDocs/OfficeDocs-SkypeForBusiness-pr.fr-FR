@@ -7,6 +7,7 @@ ms.reviewer: mikedav, oscarr
 ms.topic: reference
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -22,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 5226df97db101088e5a843b6a130dd36c16eb460
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 43ddad059b0028d7d79bc5e5f2430148e463d9be
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334854"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235168"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrictions de numérotation gratuit en Inde
 

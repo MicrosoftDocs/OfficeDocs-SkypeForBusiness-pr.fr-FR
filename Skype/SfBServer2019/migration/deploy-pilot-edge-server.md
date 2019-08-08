@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette rubrique présente les paramètres de configuration que vous devez prendre en compte avant de déployer votre serveur Edge 2019 Skype entreprise Server. Le processus de déploiement et de configuration de Skype entreprise Server 2019 est très similaire à celui de Skype entreprise Server 2015. Cette section présente uniquement les points clés à prendre en compte dans le cadre de votre déploiement de pool pilote. Pour plus d’informations, reportez-vous à la rubrique déploiement d’un accès utilisateur externe dans Skype entreprise Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
-ms.openlocfilehash: f692eb5ad4a24b47a8bab7a56be218eab04af7dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280916"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238387"
 ---
 # <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
 

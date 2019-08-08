@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: islubin
 description: Découvrez comment afficher ou mettre à jour vos équipes dans le centre d’administration Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c205c8d3b4f57935c1882530815643a90357d1aa
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f495a9cc5b3bfb1fd270e85b2a1fb17bd5f11e68
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548269"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233351"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer teams dans le centre d’administration Microsoft teams
 ==========================================
@@ -52,7 +53,7 @@ La grille affiche les propriétés suivantes:
 - **Utilisateurs** : nombre total d’utilisateurs, y compris les propriétaires, invités et membres de votre client.
 - **Propriétaires** -nombre de propriétaires pour cette équipe.
 - **Invités** -nombre d’utilisateurs invités d’Azure Active Directory B2B membres de cette équipe.
-- Protection de la vie privée-le groupe de AccessTypes 365 Office.
+- **Protection de la vie privée** -le groupe de AccessTypes 365 Office.
 - **État** : le statut archivé ou actif de cette équipe.  En savoir plus sur l’archivage d’équipes dans l' [archivage ou la restauration d’une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **GroupID** -le GroupID unique du groupe Office 365 de stockage
 - **Classification** : classification (si utilisée au sein de votre organisation) affectée au groupe Office 365 de stockage.  Pour plus d’informations sur [les catégories, voir créer des classifications pour les groupes Office au sein de votre organisation](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
@@ -113,7 +114,7 @@ Remplacez **{GroupID}** dans la requête pour le GroupID réel en question, que 
 
 2. Se connecter à l’Explorateur de graphiques dans le menu de gauche
 
-3. Changer la ligne de requête en: PATCH > v 1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
+3. Changer la ligne de requête en: correctif > version 1.0 >https://graph.microsoft.com/v1.0/groups/{groupid}
 
 4. Ajoutez la valeur suivante dans le corps de la requête: {"resourceProvisioningOptions": ["équipe"]}
 

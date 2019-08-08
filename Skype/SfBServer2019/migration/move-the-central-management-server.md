@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après la migration vers Skype entreprise Server 2019, vous devez déplacer le serveur de gestion central vers le serveur ou le pool frontal de Skype entreprise Server 2019 avant de pouvoir supprimer le serveur hérité.
-ms.openlocfilehash: 5e16145b6695a9ee7006ab7d5321af9e478d7c37
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7ba82a3748a98e2f1bc25cd7c48eceabdf76ac19
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291297"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244504"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Déplacer le serveur de gestion central hérité vers Skype entreprise Server 2019
 

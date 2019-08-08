@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Résumé: pour plus d’informations sur la création de stratégies utilisateur initiales pour le serveur de conversation persistant dans Skype entreprise Server 2015, consultez la rubrique suivante. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
-ms.openlocfilehash: 3f2a55f3a411fc3020ebe9af57d456f00dd74ef4
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 83d6b49372f695be1a4db516eda6c7be357beed3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418122"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239755"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
  

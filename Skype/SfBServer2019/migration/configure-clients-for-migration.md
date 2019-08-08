@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cette rubrique contient les étapes recommandées en matière de déploiement de clients que vous devez prendre avant de procéder à la migration vers Skype entreprise Server 2019. Ces modifications de configuration doivent être apportées sur Lync Server 2013 ou Skype entreprise Server 2015.
-ms.openlocfilehash: d37fe866676042fe043eb2caf303e5dc813e7dbd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a674c6aa0d9082aa9887f618ab3a56dd12c2982
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300385"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239499"
 ---
 # <a name="configure-clients-for-migration"></a>Configuration des clients pour la migration
 

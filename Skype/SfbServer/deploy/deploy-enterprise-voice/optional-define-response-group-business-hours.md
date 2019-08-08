@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Créez ou modifiez les heures d’activité du groupe de réponses dans Skype entreprise Server Voice.
-ms.openlocfilehash: 9f00e89bede48af8c36de93da951df9b69a692e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e492715e32b60858176f0034ef4978d0f333dc09
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306332"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240385"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Facultatif Définir des heures d’activité de groupe de réponse dans Skype entreprise 
  
