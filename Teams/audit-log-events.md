@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer des données Microsoft Teams à partir du journal d'audit d’Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31db1ad74c0819e5dc9bcdb4f7e8e9fd6ae2291d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d6b0ddd0dc5064d484c8420b42daee1b4e16d0e
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236969"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253901"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 ==================================================
@@ -51,7 +51,7 @@ Pour pouvoir voir les données d’audit, vous devez d’abord activer l’audit
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Récupérer des données Teams à partir du journal d'audit
 
-1.  Pour récupérer les journaux d’audit, accédez au [Centre de sécurité et de conformité](https://go.microsoft.com/fwlink/?linkid=855775). Sous **recherche & examen**, sélectionnez **Rechercher dans le journal d’audit**. ![Capture d’écran de la page de recherche du journal d’audit](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  Pour récupérer les journaux d’audit, accédez au [Centre de sécurité et de conformité](https://go.microsoft.com/fwlink/?linkid=855775). Sous **recherche & examen**, sélectionnez **Rechercher dans le journal d’audit**.
 
 2.  Utilisez l’option **Rechercher** pour filtrer les données en fonction des activités, dates et utilisateurs que vous souhaitez vérifier.
 

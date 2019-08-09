@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925480"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36254019"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -205,7 +205,7 @@ Avec la version initiale du routage direct, Microsoft a demandé qu’un Trunk s
 
 Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes:
  
-• **Gestion des frais d’administration**. Par exemple, si vous déchargez ou déchargez un SBC, vous modifiez des paramètres, par exemple, en activant ou en désactivant la dérivation multimédia. Le changement de port nécessite la modification des paramètres de plusieurs clients (en exécutant Set-CSonlinePSTNGateway), mais il est en fait le même SBC. • **Traitement**de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
+• **Gestion des frais d’administration**. Par exemple, si vous déchargez ou déchargez un SBC, vous modifiez des paramètres, par exemple, en activant ou en désactivant la dérivation multimédia. Le changement de port nécessite la modification des paramètres de plusieurs clients (en exécutant Set-CSOnlinePSTNGateway), mais il est en fait le même SBC. • **Traitement**de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
  
 
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
@@ -226,7 +226,7 @@ Exemple de logique de mise en service.
 
 Migration du modèle précédent vers le Trunk de l’opérateur
  
-Pour effectuer une migration à partir de l’implémentation actuelle du modèle hébergé sur l’opérateur vers le nouveau modèle, les opérateurs doivent reconfigurer les Trunks pour les clients clients. Supprimez les Trunks des clients de clients à l’aide de Remove-CSOnluinePSTNGateway (en laissant le Trunk dans le client de l’opérateur).
+Pour effectuer une migration à partir de l’implémentation actuelle du modèle hébergé sur l’opérateur vers le nouveau modèle, les opérateurs doivent reconfigurer les Trunks pour les clients clients. Supprimez les Trunks des clients de clients à l’aide de Remove-CSOnlinePSTNGateway (en laissant le Trunk dans le client de l’opérateur).
 
 Nous vous encourageons vivement à procéder à une migration vers la nouvelle solution le plus rapidement possible, car nous améliorerons la surveillance et l’approvisionnement en utilisant le porteur et le modèle de Trunk dérivé.
  

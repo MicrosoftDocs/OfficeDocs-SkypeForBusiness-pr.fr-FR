@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237666"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271380"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 Government-déploiements de niveau supérieur
 
@@ -78,14 +78,14 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 |-----------------------------|-----------------------------|----------------|
 | Assiette | Connexion | Disponibles |
 | | Présence | Disponibles |
-| | Présence unifiée (Skype entreprise et équipes unifiées) | Sur le backlog du secteur public |
+| | Présence unifiée (Skype entreprise et équipes unifiées) | Disponibles |
 | Interactive | Actualité | Disponibles |
 |  | Mon activité | Disponibles |
 | Conversation | Conversation | Disponibles |
 | | Fichiers | Disponibles |
 | | Organigramme | Disponibles |
 | | Interactive | Disponibles |
-| | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Sur le backlog du secteur public |
+| | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Disponibles |
 | Équipes | Message du canal | Disponibles |
 | | Fichiers de canal | Disponibles |
 | | Onglet OneNote | Sur le backlog du secteur public |

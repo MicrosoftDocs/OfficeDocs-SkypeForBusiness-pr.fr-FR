@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Résumé: en savoir plus sur le rapport Détails de la Conférence utilisé dans Skype entreprise Server.'
-ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17337624c955dfa174f7b98772fdd836e82891d0
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305786"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271393"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Rapport Détails de la Conférence dans Skype entreprise Server
 
@@ -33,7 +33,7 @@ Le rapport détaillé de conférence est accessible à partir des rapports suiva
 
 - Le [User Activity Report](call-diagnostic-reports-per-user.md) (en cliquant sur la mesure URI de la conférence)
 
-Dans le rapport Détails de la Conférence, vous pouvez accéder au [repor de diagnostic](diagnostic-report.md) en cliquant sur la métrique du rapport de diagnostic.
+Le rapport détaillé de conférence vous permet d’accéder au [Diagnostic Report](diagnostic-report.md) en cliquant sur la mesure Rapport de diagnostic (détaillé).
 
 ## <a name="filters"></a>Filtres
 

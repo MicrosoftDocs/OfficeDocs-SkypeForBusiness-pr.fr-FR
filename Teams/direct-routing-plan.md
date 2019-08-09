@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166281"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271423"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -55,9 +55,10 @@ La planification de votre déploiement du routage direct est essentiel pour une 
 - [Gestion des licences et autres conditions requises](#licensing-and-other-requirements)
 - [Noms de domaine SBC](#sbc-domain-names)
 - [Certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc)
-- [Signalisation SIP: FQDN et ports de pare-feu](#sip-signaling-fqdns-and-firewall-ports)
+- [Signalisation SIP: noms de domaine complets](#sip-signaling-fqdns)
+- [Signalisation SIP: ports](#sip-signaling-ports)
 - [Trafic multimédia: plages de ports](#media-traffic-port-ranges)
-- [SBCs prises en charge](#supported-session-border-controllers-sbcs)
+- [Contrôleurs de bordure de session pris en charge (SBCs)](#supported-session-border-controllers-sbcs)
 
 Pour plus d’informations sur la configuration du routage direct, voir [configurer le routage direct](direct-routing-configure.md).
 
@@ -75,7 +76,7 @@ Les exigences d’infrastructure pour les domaines SBCs et de connectivité rés
 |Nom de domaine complet (FQDN) pour l’SBC|Nom de domaine complet pour l’SBC, où la partie Domain du nom de domaine complet (FQDN) est l’un des domaines inscrits dans votre client Office 365. Pour plus d’informations, consultez la section [noms de domaine SBC](#sbc-domain-names).|
 |Entrée DNS publique pour l’SBC |Une entrée DNS publique qui mappe le nom de domaine complet du SBC à l’adresse IP publique. |
 |Certificat de confiance public pour l’SBC |Certificat de l’SBC à utiliser pour toutes les communications avec le routage direct. Pour plus d’informations, voir [certificat de confiance public pour l’SBC](#public-trusted-certificate-for-the-sbc).|
-|Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants:<br/><br/>`sip.pstnhub.microsoft.com`-Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP: FQDN et port de pare-feu](#sip-signaling-fqdns-and-firewall-ports).|
+|Points de connexion pour le routage direct |Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants:<br/><br/>`sip.pstnhub.microsoft.com`-Nom de domaine complet (FQDN) global, doit d’abord être essayé.<br/>`sip2.pstnhub.microsoft.com`– Nom de domaine complet secondaire, géographiquement correspond à la deuxième région de priorité.<br/>`sip3.pstnhub.microsoft.com`– Nom de domaine complet (FQDN), qui correspond à la troisième région de priorité.<br/><br/>Pour plus d’informations sur la configuration requise, reportez-vous à la section [signalisation SIP: FQDN](#sip-signaling-fqdns).|
 |Adresses IP et ports du pare-feu pour le média de routage direct |Le SBC communique avec les services suivants dans le Cloud:<br/><br/>Proxy SIP, qui gère le signalement<br/>Processeur multimédia, qui gère les éléments multimédias, sauf lorsque la dérivation multimédia est activée<br/><br/>Ces deux services ont des adresses IP distinctes dans le Cloud Microsoft, décrites plus loin dans ce document.<br/><br/>Pour plus d’informations, reportez-vous à la [section Microsoft teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) dans les [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Profil de transport de média|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Adresses IP et ports pour le pare-feu pour les éléments multimédias de Microsoft teams |Pour plus d’informations, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -169,7 +170,17 @@ Le certificat doit être généré par l’une des autorités de certification r
 
 Microsoft travaille actuellement à l’ajout d’autorités de certification basées sur les demandes des clients. 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Signalisation SIP: FQDN et ports de pare-feu 
+## <a name="sip-signaling-fqdns"></a>Signalisation SIP: noms de domaine complets 
+
+Le routage direct est fourni dans les environnements Office 365 suivants:
+- Office 365
+- GCC Office 365
+- Office 365 (GCC High)
+- Office 365 DoD
+
+Apprenez-en davantage sur [Office 365 et les environnements gouvernementaux des États-Unis](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) tels que GCC, GCC High et DoD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
 Le point de connexion pour le routage direct est le trois noms de domaine complets suivants:
 
@@ -191,7 +202,44 @@ Les noms de domaine complets – sip.pstnhub.microsoft.com, sip2.pstnhub.microso
 - 52.114.7.24 
 - 52.114.14.70
 
-Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip-all.pstnhub.microsoft.com est résolu sur toutes les adresses IP ci-dessus.  Vous devez utiliser les ports suivants:
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip-all.pstnhub.microsoft.com est résolu sur toutes les adresses IP suivantes. 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+
+Le point de connexion pour le routage direct est le nom de domaine complet suivant:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.us** : FQDN global. Comme l’environnement Office 365 DoD existe uniquement dans les centres de données américains, il n’existe pas de noms de domaine complets secondaires et tertiaires.
+
+Les noms de domaine complets (FQDN) – sip.pstnhub.dod.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip.pstnhub.dod.teams.microsoft.us est résolu sur toutes les adresses IP suivantes. 
+
+### <a name="office-365-gcc-high-environment"></a>Environnement de grande qualité dans Office 365
+
+Le point de connexion pour le routage direct est le nom de domaine complet suivant:
+
+**SIP.pstnhub.gov.Teams.Microsoft.us** : FQDN global. Dans la mesure où l’environnement de grande qualité n’existe qu’aux centres de données américains, il n’y a pas de noms de domaine complets secondaires et tertiaires.
+
+Les noms de domaine complets (FQDN) – sip.pstnhub.gov.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip.pstnhub.gov.teams.microsoft.us est résolu sur toutes les adresses IP suivantes. 
+
+## <a name="sip-signaling-ports"></a>Signalisation SIP: ports
+
+La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible:
+- Office 365
+- GCC Office 365
+- Office 365 (GCC High)
+- Office 365 DoD
+
+Vous devez utiliser les ports suivants:
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ Le tableau ci-dessous résume les relations entre les centres de donneaux princi
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Trafic multimédia: plages de ports
-Notez que les conditions ci-dessous s’appliquent si vous souhaitez déployer le routage direct sans dérivation multimédia. Pour connaître la configuration requise pour le pare-feu, consultez [la rubrique planification pour la dérivation de médias avec le routage direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+Notez que les conditions suivantes s’appliquent si vous souhaitez déployer le routage direct sans dérivation multimédia. Pour connaître la configuration requise pour le pare-feu, consultez [la rubrique planification pour le contournement du média avec le routage direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+
+
 
 Le trafic de média est acheminé vers et à partir d’un service distinct dans le Cloud Microsoft. Plage d’adresses IP du trafic multimédia:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
 
+### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Environnement de grande qualité dans Office 365
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>Plage de ports (applicable à tous les environnements)
 Le tableau suivant indique la portée de port des processeurs multimédias: 
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|

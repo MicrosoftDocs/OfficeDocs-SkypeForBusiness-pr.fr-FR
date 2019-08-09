@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236598"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271445"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -155,9 +155,17 @@ Les relais de transport d’équipes sont toujours dans le chemin multimédia da
 Assurez-vous que votre SBC a accès aux relais de transport comme décrit ci-dessous.    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Signalisation SIP: FQDN et ports de pare-feu
+## <a name="sip-signaling-fqdns"></a>Signalisation SIP: noms de domaine complets
 
 Pour la signalisation SIP, les exigences en matière de nom de domaine complet et de pare-feu sont les mêmes que pour les cas sans contournement. 
+
+Le routage direct est fourni dans les environnements Office 365 suivants:
+- Office 365
+- GCC Office 365
+- Office 365 (GCC High)
+- Office 365 DoD en savoir plus sur les [environnements d’administration des États-Unis et d’office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) tels que GCC, GCC High et DoD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
 Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants:
 
@@ -182,7 +190,43 @@ Les noms de domaine complets **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Micro
 - 52.114.7.24
 - 52.114.14.70
 
-Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir ports pour toutes ces adresses IP sur votre pare-feu. Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet **SIP-All.pstnhub.Microsoft.com** est résolu sur toutes les adresses IP ci-dessus. Vous devez utiliser les ports suivants:
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu. Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet **SIP-All.pstnhub.Microsoft.com** est résolu sur toutes les adresses IP suivantes. 
+
+### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+
+Le point de connexion pour le routage direct est le nom de domaine complet suivant:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.us** : FQDN global. Comme l’environnement Office 365 DoD existe uniquement dans les centres de données américains, il n’existe pas de noms de domaine complets secondaires et tertiaires.
+
+Les noms de domaine complets (FQDN) – sip.pstnhub.dod.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip.pstnhub.dod.teams.microsoft.us est résolu sur toutes les adresses IP suivantes. 
+
+### <a name="office-365-gcc-high-environment"></a>Environnement de grande qualité dans Office 365
+
+Le point de connexion pour le routage direct est le nom de domaine complet suivant:
+
+**SIP.pstnhub.gov.Teams.Microsoft.us** : FQDN global. Dans la mesure où l’environnement de grande qualité n’existe qu’aux centres de données américains, il n’y a pas de noms de domaine complets secondaires et tertiaires.
+
+Les noms de domaine complets (FQDN) – sip.pstnhub.gov.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip.pstnhub.gov.teams.microsoft.us est résolu sur toutes les adresses IP suivantes. 
+
+## <a name="sip-signaling-ports"></a>Signalisation SIP: ports
+
+La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible:
+- Office 365
+- GCC Office 365
+- Office 365 (GCC High)
+- Office 365 DoD
+
+Vous devez utiliser les ports suivants:
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ Remarque: Si vous disposez d’un appareil réseau qui traduit les ports sources
 
 ### <a name="requirements-for-using-transport-relays"></a>Configuration requise pour l’utilisation des relais de transport
 
-Les relais de transport sont dans la même plage que les processeurs de médias (pour les cas de non-contournement): 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
+Les relais de transport sont dans la même plage que les processeurs de médias (pour les cas de non-contournement): 
 
-Le tableau suivant indique la plage de ports des relais de transport Teams.
+### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+
+-52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Environnement de grande qualité dans Office 365
+
+- 52.127.88.0/21
+
+
+Le tableau suivant indique la plage de ports des relais de transport Teams (applicables à tous les environnements):
 
 
 | Trafic | De | À | Port source | Port de destination|
@@ -236,9 +293,21 @@ Vous avez besoin d’ouvrir les ports 3478 et 3479 pour la transition. Lorsque M
 Les processeurs multimédias sont toujours dans le chemin multimédia pour les applications vocales et pour les cleints Web (pour exampe, teams cleint dans Microsoft Edge ou Google Chrome). Les exigences sont les mêmes que pour la configuration sans contournement.
 
 
-La plage d’adresses IP pour le trafic multimédia est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254).
+La plage d’adresses IP du trafic multimédia est 
 
-Le tableau suivant indique la portée de port des processeurs multimédias:
+### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
+
+-52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Environnement de grande qualité dans Office 365
+
+- 52.127.88.0/21
+
+Le tableau suivant indique la portée de port des processeurs multimédias (applicables à tous les environnements):
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|

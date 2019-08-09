@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237029"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271396"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -32,7 +32,7 @@ Associé: [la documentation sur l’enregistrement de la réunion teams](https:/
 Pour que les réunions d’un utilisateur d’équipes puissent être enregistrées, Microsoft Stream doit être activé pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui initialise l’enregistrement:
 
 - L’utilisateur possède un bureau 365 E1, E3, E5, a1, a3, a5, M365 entreprise, Business Premium ou Business Essentials
-- L’utilisateur doit avoir une licence pour Microsoft Stream
+- L’utilisateur doit avoir une licence pour Microsoft Stream<sup>1</sup> 
 - L’utilisateur dispose des autorisations de la vidéo de téléchargement de Microsoft Stream
 - L’utilisateur s’est inscrit aux recommandations de la société, si elle a été configurée par l’administrateur.
 - L’utilisateur dispose d’un espace de stockage suffisant dans Microsoft Stream pour enregistrer les enregistrements
@@ -41,6 +41,8 @@ Pour que les réunions d’un utilisateur d’équipes puissent être enregistr�
 
 > [!NOTE]
 > Par ailleurs, pour permettre à la personne chargée de l’enregistrement d’indiquer la transcription automatique de l’enregistrement, le paramètre TeamsMeetingPolicy-AllowTranscription de l’utilisateur doit être défini sur true.
+
+<sup>1</sup> L’utilisateur doit être titulaire d’une licence pour télécharger et télécharger des réunions dans/à partir de Microsoft Stream, mais il n’est pas nécessaire d’enregistrer une réunion. Si vous souhaitez empêcher un utilisateur d’enregistrer une réunion Microsoft Teams, vous devez lui accorder une TeamsMeetingPolicy dont AllowCloudRecording a la valeur $False.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurer l’enregistrement de réunion Cloud teams pour les utilisateurs de votre organisation
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Résumé: configurez votre configuration non serveur requise pour Skype entreprise Server 2015. Vous pouvez configurer plusieurs éléments avant de procéder à votre déploiement, notamment Active Directory, DNS, certs et Fileshares.'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414981"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253924"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -54,6 +54,8 @@ Même si de nombreuses données de configuration pour les serveurs et les servic
 ### <a name="os-for-domain-controllers"></a>Système d’exploitation pour les contrôleurs de domaine
 
 Quel système d’exploitation de contrôleur de domaine faut-il alors utiliser ? Nous avons la liste suivante :
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ Quel système d’exploitation de contrôleur de domaine faut-il alors utiliser�
 - Windows Server 2008
     
 À présent, le niveau de fonctionnalité du domaine de tout domaine sur lequel vous déployez Skype entreprise Server 2015 et le niveau fonctionnel de la forêt de n’importe quelle forêt de déploiement de Skype entreprise Server 2015 doivent être l’un des suivants:
+
+- Windows Server 2019
   
 - Windows Server 2016
     

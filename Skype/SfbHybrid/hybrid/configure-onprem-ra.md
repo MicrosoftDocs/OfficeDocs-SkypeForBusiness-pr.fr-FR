@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207155"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253953"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
 
@@ -31,7 +31,7 @@ Si vous disposez d’un système de file d’attente automatique et d’appels d
 Si le standard automatique de votre système téléphonique ou la file d’attente d’appels nécessite un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant:
 
 1. Obtenir un numéro de service
-2. Procurez-vous une licence de système téléphonique [virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) gratuit ou une licence de système téléphonique payant à utiliser avec le compte de ressource.
+2. Procurez-vous une licence de système téléphonique [virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user) gratuit ou une licence de système téléphonique payant à utiliser avec le compte de ressource.
 3. Créez le compte de ressource. Un standard automatique ou une file d’attente d’appels doit être associé à un compte de ressource.
 4. Attendre une synchronisation Active Directory entre en ligne et en local.
 5. Affectez la licence de système téléphonique au compte de ressource.

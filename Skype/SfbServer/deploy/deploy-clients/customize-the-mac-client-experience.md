@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Cet article décrit les préférences et valeurs par défaut disponibles pour le client Skype Entreprise sur un client Mac ainsi que leur modification hors de l'application.
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234189"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271277"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l'expérience de client Mac dans Skype Entreprise
  
@@ -34,7 +34,7 @@ Pour définir ces préférences, accédez à une invite de terminal sur le Mac d
 
 | Clé | Type | Valeur | Description% |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique du serveur (par défaut)    |Spécifiez la manière dont Skype entreprise identifie le transport et le serveur à utiliser lors de la connexion. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique du serveur (par défaut)    |Spécifiez la manière dont Skype entreprise identifie le transport et le serveur à utiliser lors de la connexion. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique interne    |
 |externalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique externe    |
 |httpProxyDomain    |String    ||Domaine HTTP proxy    |

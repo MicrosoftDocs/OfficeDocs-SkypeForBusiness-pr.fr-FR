@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240806"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271434"
 ---
 # <a name="make-my-service-decisions"></a>Prendre des décisions de service
 
@@ -191,7 +191,7 @@ SBCs nécessite une connectivité bidirectionnelle pour communiquer avec les ser
 
 Vous devez définir des numéros de port spécifiques sur chaque SBC pour les signaux et éléments multimédias SIP, et configurer vos pare-feu pour autoriser le trafic bidirectionnel vers ces ports et leurs adresses IP associées.
 
-Pour plus d’informations, reportez-vous à la section [signalisation SIP: noms de domaine complets, ports de pare-feu](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) et [trafic multimédia: plages de ports](direct-routing-plan.md#media-traffic-port-ranges).
+Pour plus d’informations, reportez-vous à la section [signalisation SIP: FQDN](direct-routing-plan.md#sip-signaling-fqdns) et [trafic multimédia: plages de ports](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
