@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36254019"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271456"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -57,6 +57,7 @@ Vous trouverez ci-après les étapes d’implémentation techniques de la config
 Pour plus d’informations sur le déploiement et la configuration de SBCs pour un scénario d’hébergement SBC, consultez la documentation du fournisseur de SBC.
 
 - **AudioCodes:** [Remarques sur la configuration du routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration du scénario d’hébergement SBC décrit dans «connexion de AudioCodes SBC à la configuration de modèle d’hébergement de Microsoft teams 
+- **Oracle:** [Remarques sur la configuration du routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section «Microsoft». 
 - **Communications du ruban:**  Reportez-vous au [Guide de configuration de Microsoft teams SBC principal du ruban](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour obtenir une documentation sur la configuration de la série de cœurs du ruban SBCS et sur cette page. [ Bordure](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **Te-systèmes (anynode):**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
 
