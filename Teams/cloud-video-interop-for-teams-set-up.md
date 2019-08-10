@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
+ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237051"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "36286255"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
-Une fois que vous avez [choisi sur votre ou vos partenaires d’interopérabilité Cloud Video](cloud-video-interop.md), vous devez planifier votre déploiement, se préparer à l’aide des détails de mise en service et de la clé de client partenaire et consent à l’application d’interopérabilité vidéo de votre organisation. Le schéma suivant décrit le processus. 
+Une fois que vous avez [choisi votre ou vos partenaires d’interopérabilité Cloud Video](cloud-video-interop.md), vous devez planifier votre déploiement, se familiariser avec les détails de mise en service et la clé de client partenaire et consent à l’application d’interopérabilité vidéo au sein de votre organisation. Le schéma suivant décrit le processus. 
 
 ![Déploiement d’CVI au sein de votre organisation](media/deploying-cvi.png)
 
