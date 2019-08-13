@@ -72,6 +72,7 @@
 ### [Gérer les stratégies de mise en application dans Teams](teams-app-setup-policies.md)
 ### [Gérer les stratégies d’application personnalisée et les paramètres dans Teams](teams-custom-app-policies-and-settings.md)
 ### [Gérer les stratégies de commentaires dans Teams](manage-feedback-policies-in-teams.md)
+### [Gérer les packages de stratégie dans Teams](manage-policy-packages.md)
 ### [Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Gérer l’accès externe](manage-external-access.md)
 ### [Utiliser la traduction des messages en ligne](inline-message-translation-teams.md)
