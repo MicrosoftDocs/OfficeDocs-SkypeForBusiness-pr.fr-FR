@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237665"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393437"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 Government-déploiements de GCC
 
@@ -98,9 +98,9 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Donner et prendre le contrôle dans le partage | Disponibles |
 | | Se connecter à partir d’une salle de conférence | Disponibles |
 | | Jointure anonyme | Disponibles |
-| | Enregistrement Cloud | Sur le backlog du secteur public |
+| | Enregistrement Cloud | Disponibles |
 | | Notes de réunion | Disponibles |
-| | Diffuser des réunions | Sur le backlog du secteur public |
+| | Événements en direct | Disponibles |
 | | Réunions fédérées | Disponibles |
 | | Prise en charge de surface Hub | Non disponibles |
 | Appels | Contacts | Disponibles |
