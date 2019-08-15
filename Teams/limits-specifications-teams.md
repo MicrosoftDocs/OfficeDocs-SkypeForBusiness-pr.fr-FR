@@ -3,7 +3,6 @@ title: Limites et spécifications de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244836"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407880"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -45,7 +44,19 @@ Cet article présente certaines limites, spécifications et autres configuration
 
 &sup3; les canaux supprimés peuvent être restaurés dans les 30 jours. Pendant ces 30 jours, le nombre de canaux supprimés continue d’être comptabilisé au canal 200 par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de manière définitive et le canal n’est plus compté vers les canaux 200 par équipe.
 
-## <a name="meetings-and-calls"></a>Réunions et appels 
+## <a name="channel-names"></a>Noms de canaux
+
+Les noms de canaux ne peuvent pas contenir les caractères ou mots suivants.
+
+|||
+|---------|---------|
+|Majuscule     | ~ #% & * {} +/\:  < > ? &#124; ' "..        |
+|Caractères dans ces plages    | 0 à 1F<br>80 à 9F        |
+|Mots     | Forms, CON, CONIN $, CONOUT $, PRN, aux, NUL, COM1 à COM9, LPT1 à LPT9, Desktop. ini, &#95;VTI&#95;|
+
+Les noms des canaux ne peuvent pas non plus commencer par un trait de soulignement (_) ou par un point (.) ou se terminer par un point (.).
+
+## <a name="meetings-and-calls"></a>Réunions et appels
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
@@ -57,7 +68,12 @@ Cet article présente certaines limites, spécifications et autres configuration
 |------------|---------------|
 |Taille du public | participants 10 000 |
 |Durée de l’événement | 4 heures |
-|Événements dynamiques concurrents dans un client Office 365 | 0,15 |
+|Column1  |Colonne2  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+| Événements en direct concurrents dans un client 365 Office | 15 |
 
 Pour plus d’informations sur les événements en direct et une comparaison des événements en direct teams avec la [](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)diffusion de réunion Skype, accédez à la diffusion de réunion Skype.
 
