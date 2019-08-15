@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
-ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236559"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404602"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -73,14 +73,17 @@ Vous pouvez personnaliser les invitations aux réunions teams selon les besoins 
 
 <a name="bknetwork"> </a>
 
-Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir la priorité du trafic réseau, vous pouvez activer les marqueurs de QoS et vous pouvez définir des plages de ports pour chaque type de trafic multimédia.
+Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir la priorité du trafic réseau, vous pouvez activer les marqueurs de QoS et vous pouvez définir des plages de ports pour chaque type de trafic multimédia. La définition de plages de ports pour différents types de trafic est une étape de la gestion du contenu multimédia en temps réel; Pour plus de détails, voir [qualité de service (QoS) dans teams](qos-in-teams.md) .
+
+> [!IMPORTANT]
+> Si vous activez la fonction QoS ou modifiez les paramètres dans le centre d’administration Microsoft teams pour le service Microsoft Teams, vous devrez également [appliquer des paramètres de correspondance à tous les appareils utilisateur](QoS-in-Teams-clients.md) et à tous les périphériques réseau internes pour appliquer les modifications à QoS dans Teams.
 
  ![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **réseau**, procédez comme suit:
 
-    ![Capture d’écran des paramètres réseau des réunions dans le centre d’administration] (media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
+    ![Capture d’écran des paramètres réseau pour les réunions dans le centre d’administration] (media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
 
     - Pour autoriser l’utilisation de la marque DSCP pour la qualité de service (QoS), activez insérer des marqueurs de **qualité de service (QoS) pour le trafic multimédia en temps réel**. Vous avez la possibilité d’utiliser des marqueurs uniquement. vous ne pouvez pas définir de marqueurs personnalisés pour chaque type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Pour spécifier des plages de ports, en regard de l' **option Sélectionner une plage de ports pour chaque type de trafic multimédia en temps réel**, sélectionnez **spécifier les plages de ports**, puis entrez les ports de début et de fin pour le partage d’écran, audio et vidéo. Sélectionner cette option est requis pour implémenter QoS.
@@ -89,7 +92,7 @@ Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir l
     >
     > Le fait de sélectionner une plage de port trop étroite entraînera des appels interrompus et une mauvaise qualité d’appel. Les recommandations ci-dessous doivent être minimales.
 
- Si vous ne savez pas quelles plages de ports utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, voir implémenter la [qualité de service (QoS) dans Microsoft teams](QoS-in-Teams.md). Il s’agit des marques DSCP requises et des plages de ports multimédias correspondant aux suggestions utilisées par teams et ExpressRoute.
+Si vous ne savez pas quelles plages de ports utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, voir implémenter la [qualité de service (QoS) dans Microsoft teams](QoS-in-Teams.md). Il s’agit des marques DSCP requises et des plages de ports multimédias correspondant aux suggestions utilisées par teams et ExpressRoute.
 
 _Plages de port et marques DSCP_
 
@@ -100,8 +103,6 @@ Type de trafic multimédia| Plage de ports sources du client\* |Protocole|Valeur
 |Partage d’écran ou d’application| 50,040 – 50059      |TCP/UDP |19        |Transfert assuré (AF21)|
 | | | | |
 
-\*Les plages de port que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes les unes aux autres.
-
-La définition de plages de ports pour différents types de trafic est une étape de la gestion du contenu multimédia en temps réel. Pour plus de détails, voir [qualité de service (QoS) dans teams](qos-in-teams.md) . Si vous activez ou modifiez les paramètres dans le centre d’administration de Microsoft Teams, vous devez [appliquer des paramètres de correspondance à tous les appareils](QoS-in-Teams-clients.md) et périphériques réseau internes pour appliquer les modifications à QoS dans Teams.
+\*Les plages de port que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.
 
 Lorsque la qualité de service (QoS) est utilisée depuis un certain temps, vous disposez des informations d’utilisation à la demande de chacune de ces trois charges de travail, vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) sera utile.
