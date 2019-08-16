@@ -10,18 +10,18 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 70a45e7c5ec18a3f1383e9f9fb7ef1dd5e9cb657
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: ee4e674ff3d518e9f70ff17926bebf99eef65552
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428119"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436366"
 ---
 # <a name="content-cameras"></a>Webcams de contenu
 
 Vous pouvez désormais utiliser une caméra de contenu avec un système de salle Microsoft Teams. Une caméra de contenu interagit avec un logiciel spécial de traitement des images et un tableau blanc pour permettre au présentateur de dessiner sur un tableau blanc analogique et de partager le contenu avec des participants distants.
 
-Regardez la vidéo [telle que vous vous trouvez au même endroit grâce à Microsoft teams](https://youtu.be/1XvgH2rNpmk?t=350) pour découvrir des exemples de fonctionnalités de caméra de contenu.
+Regardez la vidéo [telle que vous vous trouvez au même endroit grâce aux salles de Microsoft teams](https://www.youtube.com/watch?v=1XvgH2rNpmk) pour obtenir un exemple de fonctionnalités de caméra de contenu.
 
 ## <a name="set-up-a-content-camera"></a>Configurer une caméra de contenu
 

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
-ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
+ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407880"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436314"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -68,12 +68,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |------------|---------------|
 |Taille du public | participants 10 000 |
 |Durée de l’événement | 4 heures |
-|Column1  |Colonne2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-
-| Événements en direct concurrents dans un client 365 Office | 15 |
+|Événements dynamiques concurrents dans un client Office 365 | 0,15 |
 
 Pour plus d’informations sur les événements en direct et une comparaison des événements en direct teams avec la [](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)diffusion de réunion Skype, accédez à la diffusion de réunion Skype.
 
