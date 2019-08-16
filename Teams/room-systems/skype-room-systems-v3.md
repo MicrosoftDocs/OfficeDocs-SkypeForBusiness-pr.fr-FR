@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Présentation de la gestion des salles de Microsoft Teams.
-ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288570"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427873"
 ---
 # <a name="management-overview"></a>Vue d’ensemble de la gestion 
 
@@ -62,7 +62,7 @@ Grâce à ces instructions, vous pouvez créer un tableau de bord simple à util
 
 Nous vous conseillons d’implémenter les procédures de vérification de la qualité opérationnelle et de la fiabilité dans le cadre de votre déploiement pour contrôler la tendance des appels et de la qualité des réunions et de la fiabilité, en identifiant les zones de préoccupation et en vous efforçant de résoudre le problème. 
 
-Lorsque vous chargez vos informations de bâtiment dans bord, vous pouvez examiner les tendances en matière de qualité d’appel et de fiabilité d’un niveau par niveau, ce qui permet de comparer facilement les bâtiments et de focaliser votre attention sur des problèmes spécifiques. Pour plus d’informations, téléchargez le [Guide d’administration de bord pour Skype entreprise Online-distribution et opérations](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15). 
+Lorsque vous chargez vos informations de bâtiment dans bord, vous pouvez examiner les tendances en matière de qualité d’appel et de fiabilité d’un niveau par niveau, ce qui permet de comparer facilement les bâtiments et de focaliser votre attention sur des problèmes spécifiques.
 
 Nous vous recommandons de revoir et de suivre le Guide de la [qualité de l’utilisation](https://aka.ms/qerguide) pour identifier les tendances en matière de qualité et de fiabilité, et créer un plan d’action pour les résoudre. 
 

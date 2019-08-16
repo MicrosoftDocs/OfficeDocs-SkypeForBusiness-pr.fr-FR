@@ -7,16 +7,16 @@ ms.reviewer: davgroom
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge.
-ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305483"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427986"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
  
@@ -33,7 +33,7 @@ Vous devrez également installer [KB4089848](http://download.windowsupdate.com/d
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Vérifier la version de Windows 
 
-1. Connectez-vous à un compte d’administrateur en accédant à **Settings> Windows Setting> admin Connectez-vous** à partir de l’appareil Microsoft Teams. Cette option vous permet d’accéder à l’écran de connexion.
+1. Connectez-vous à un compte d’administrateur en accédant à **paramètres> paramètres de Windows> vous connecter** à l’administrateur à partir de l’appareil Microsoft Teams. Cette option vous permet d’accéder à l’écran de connexion.
 2. Connectez-vous à un compte d’administrateur, `admin` à l’aide du compte `sfb`d’administrateur par défaut et du mot de passe.
 3. Cliquez sur le menu Démarrer, puis `winver.exe` tapez dans la zone de recherche et cliquez sur la*commande + exécuter* du résultat.
 4. Notez le numéro après «version» dans la deuxième ligne du volet d’informations.

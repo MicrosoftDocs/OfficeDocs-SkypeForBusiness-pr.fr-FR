@@ -3,7 +3,7 @@ title: Planifier des événements en direct dans Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243658"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429991"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -43,7 +43,10 @@ Il est important de savoir qu’une licence Office 365 est requise pour particip
 - **Pour les événements produits dans teams**  Une licence d’équipe doit être attribuée à l’utilisateur.
 - **Pour les événements produits avec une application ou un appareil externe** Une licence de flux doit être attribuée à l’utilisateur.
 
-Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+> [!NOTE]
+> Les événements en direct teams sont désormais disponibles pour les organisations américaines de la communauté Cloud.
+
+Pour plus d’informations sur les licences, voir [licences de modules complémentaires Microsoft teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 L’utilisateur doit avoir:
 - Planification de réunions privées en équipes activées (*paramètre TeamsMeetingPolicy-AllowPrivateMeetingScheduling = true*).

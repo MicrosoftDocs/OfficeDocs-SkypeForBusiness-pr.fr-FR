@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288562"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427942"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -80,7 +80,10 @@ Cette section décrit les paramètres système dont dépend le fonctionnement de
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
    
 Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
+
+> [!NOTE]
+> Lorsque l’appareil de salle Microsoft teams est compatible avec la version suivante du système d’exploitation Windows 10, l’appareil est automatiquement mis à jour vers la version suivante par le biais de Windows Update. La mise à niveau vers la nouvelle version de Windows 10, ou via l’activation de la stratégie de groupe Windows Update pour les entreprises (WUFB) de Microsoft Teams ne peut pas être mise à niveau vers une version ultérieure de Windows 10 Les mises à jour de fonctionnalités sont reçues par le biais d’un objet de stratégie de groupe. Un appareil doté de ces stratégies de groupe activé est connu pour rencontrer des problèmes liés à la mise à jour de Windows 10 du système d’exploitation par l’application Microsoft Teams.
+
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
 
