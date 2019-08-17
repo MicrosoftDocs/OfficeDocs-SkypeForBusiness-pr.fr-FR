@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35807535"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447940"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -37,14 +37,14 @@ Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique
 > [!NOTE]
 > Cet article s’applique à Microsoft teams et à Skype entreprise online.
 
-## <a name="step-1---get-started"></a>Étape 1: commencer
+## <a name="step-1--get-started"></a>Étape 1: prendre en main
 
 - Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
 
 > [!TIP]
 > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour Enterprise Voice. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-## <a name="step-2---create-a-new-auto-attendant"></a>Étape 2 : création d'un standard automatique
+## <a name="step-2--create-a-new-auto-attendant"></a>Étape 2: créer un standard automatique
 
 > [!IMPORTANT]
 > Chaque standard automatique doit disposer d’un compte de [ressources](manage-resource-accounts.md)associé. Vous devez d’abord créer le compte de ressources, puis vous pouvez l’associer au standard automatique.
@@ -61,51 +61,51 @@ Dans le **Centre d’administration de Microsoft teams**, cliquez sur**standards
 
 ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
-**Nom** Entrez un nom descriptif pour le standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Il sera répertorié dans la colonne **Nom** de l'onglet **Standards automatiques**.
+**Nom** Entrez un nom descriptif pour le standard automatique. Le nom est obligatoire et peut contenir jusqu'à 64 caractères, espaces compris. Elle apparaît dans la colonne **nom** de l’onglet **standards automatiques** .
 
 * * *
 
 ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
-**Compte de ressources** Cliquez sur ce bouton pour sélectionner un ou plusieurs comptes de ressources pour vous connecter à votre nouveau standard automatique. Tous les standards automatiques doivent disposer d’un compte de ressources associé. Un compte de ressource peut avoir un numéro de téléphone associé au compte, mais ce n’est pas le tout. Le standard automatique de niveau supérieur possède généralement un compte de ressources avec un numéro de téléphone attribué, mais le standard automatique imbriqué (utilisé en tant que menu de niveau 2 auquel le standard automatique de premier niveau est connecté) peut ne pas avoir de numéro de téléphone attribué à son compte de ressources.
+**Compte de ressources** Cliquez sur ce bouton pour sélectionner un ou plusieurs comptes de ressources pour vous connecter à votre nouveau standard automatique. Tous les standards automatiques doivent disposer d’un compte de ressources associé. Un compte de ressource peut avoir un numéro de téléphone associé au compte, mais aucun numéro de téléphone n’est requis. En règle générale, un standard automatique de niveau supérieur dispose d’un compte de ressources avec un numéro de téléphone, mais il est possible que le standard automatique qui se connecte au premier niveau ne dispose pas d’un numéro de téléphone attribué à son compte de ressources.
 
 * * *
 
 ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/sfbcallout3.png)
 
-**Fuseau horaire** Vous devez définir le fuseau horaire pour votre standard automatique, mais il ne doit pas nécessairement correspondre à celui de l'adresse principale de votre organisation. Vous pouvez définir un fuseau horaire différent pour chaque standard automatique et les horaires d'ouverture du standard automatique seront définies en fonction du fuseau horaire sélectionné.
+**Fuseau horaire** Vous devez définir le fuseau horaire pour votre standard automatique, mais il ne doit pas nécessairement correspondre à celui de l'adresse principale de votre organisation. Chaque standard automatique peut avoir un fuseau horaire différent et les heures d’ouverture définies pour le standard automatique sont définies en fonction du fuseau horaire que vous sélectionnez ici.
 
 * * *
 
 ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/sfbcallout4.png)
 
-**Langue** Sélectionnez la langue que vous souhaitez utiliser pour votre standard automatique parmi les langues disponibles répertoriées. La langue que vous définissez ici correspond à la langue que le standard automatique utilisera pour interagir avec les personnes qui rejoignent le standard automatique et toutes les invites système seront exécutées dans cette langue.
+**Langue** Sélectionnez la langue que vous souhaitez utiliser pour votre standard automatique parmi les langues disponibles répertoriées. La langue que vous définissez ici correspond à la langue utilisée par le standard automatique pour interagir avec les personnes qui rejoignent le standard automatique et toutes les invites système sont exécutées dans cette langue.
 
 * * *
 
 ![Icône du numéro 5 qui référence une légende dans la capture d’écran précédente](media/sfbcallout5.png)
 
-**Opérateur** Cette option est facultative ne doit pas nécessairement être définie pour le standard automatique. Toutefois, vous pouvez définir l’option d' **opérateur** pour les personnes qui appellent pour être en mesure de sortir du menu pour parler à une personne.
+**Opérateur** Facultatif, mais vous pouvez définir l’option d' **opérateur** permettant aux appelants de sortir des menus et de parler à une personne.
 
-La touche 0 est automatiquement affectée à l'option Opérateur.
+La touche 0 est affectée à l’opérateur par défaut.
 
-Si vous configurer ce paramètre, vous devez également indiquer aux personnes qui appellent que ceci est une option disponible dans le **menu options d’édition** dans la page **Gestion des appels en heures** . Si vous définissez un opérateur pour le standard automatique, vous devrez entrer le texte du message correspondant dans la zone **appelants entendront** ou modifier votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. »
+Si vous définissez un opérateur, vous devez également indiquer aux personnes qui vous appellent à propos de l’option dans les **Options du menu Édition** de la page **gestion des appels d’heures d’entreprise** . Si vous définissez un opérateur sur votre standard automatique, vous devez entrer le texte d’invite correspondant dans la **** zone les appelants entendent ou changer votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. »
 
-L'opérateur peut être défini comme suit :
+Vous pouvez définir l’opérateur de plusieurs manières:
 
 - **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée Plans de l’appel dans Office 365.
 
      > [!Note]
      > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013.
 
-- Une **file d’attente d’appels** que vous avez configurée.
-- Vous pouvez la configurer de manière qu'une personne appelant soit renvoyée sur la messagerie. Pour cela, sélectionnez une **personne au sein de votre entreprise** et configurez les appels de cette personne pour qu’elle soit transférée directement vers la messagerie vocale.
+- **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
+- Vous pouvez la configurer de manière à ce que la personne qui appelle envoie la boîte vocale. Pour cela, sélectionnez une **personne au sein de votre entreprise** et configurez les appels de cette personne pour qu’elle soit transférée directement vers la messagerie vocale.
 
 * * *
 
 ![Icône du numéro 6 qui référence une légende dans la capture d’écran précédente](media/sfbcallout6.png)
 
-**Activer les entrées vocales** La reconnaissance vocale est disponible si cette option est sélectionnée. Les personnes qui appellent dans peuvent utiliser la saisie vocale dans la [langue que vous avez définie](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Vous pouvez désactiver la reconnaissance vocale en la définissant sur désactivé si vous souhaitez uniquement permettre aux utilisateurs d’utiliser leur clavier téléphonique.
+**Activer les entrées vocales** La reconnaissance vocale est disponible si cette option est sélectionnée. Les personnes qui appellent dans peuvent utiliser la saisie vocale dans la [langue que vous avez définie](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si vous souhaitez uniquement permettre aux utilisateurs d’utiliser leur clavier téléphonique, vous pouvez désactiver la reconnaissance vocale en le définissant sur désactivé.
 
 * * *
 
@@ -113,7 +113,7 @@ Lorsque vous avez terminé vos sélections, cliquez sur **suivant**.
 
 #### <a name="business-hours-page"></a>Page heures de bureau
 
-Par défaut, les heures d’activité sont définies sur 9H à 17h00, du lundi au vendredi.  Toutes les heures exclues des heures d'ouverture sont considérées comme des heures de fermeture. Vous pouvez cliquer sur **Sélectionner une 24/7** pour prendre toutes les heures d’activité. Si vous n’avez pas sélectionné l’option **Sélectionner une 24/7** , la page des **paramètres d’appel après heures** est utilisée pour configurer la gestion des appels après les heures d’activité pour le standard automatique.
+Par défaut, les heures d’activité sont définies sur 9:00 AM à 5:00 PM, du lundi au vendredi. Toutes les heures qui ne sont pas incluses dans les heures d’activité sont prises en compte après les heures d’activité. Vous pouvez cliquer sur **sélectionner 24/7** pour passer toutes les heures d’activité. Si vous ne sélectionnez pas l’option **Sélectionner une 24/7** , la page des **paramètres d’appel après heures** est utilisée pour configurer les règles de gestion des appels à partir de heures d’utilisation normales pour le standard automatique.
 
 ![Capture d’écran de la page des heures de bureau](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -121,13 +121,13 @@ Par défaut, les heures d’activité sont définies sur 9H à 17h00, du lundi a
 
 ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
-Par défaut, les heures d’activité sont définies comme du lundi au vendredi, 9:00 AM-5:00 pm. Sélectionnez l’option **effacer toutes les heures** pour désélectionner toutes les heures heures dans le planning. Lorsque vous sélectionnez **rétablir les valeurs par défaut**, les heures d’ouverture sont réinitialisées au lundi au vendredi, 9:00 am-5:00 pm.
+Par défaut, les heures d’activité sont définies comme du lundi au vendredi, 9:00 AM-5:00 pm. Sélectionnez l’option **effacer toutes les heures** pour désélectionner toutes les heures dans le planning. Lorsque vous sélectionnez **rétablir les valeurs par défaut**, les heures d’ouverture sont réinitialisées du lundi au vendredi, 9:00 am-5:00 pm.
 
 * * *
 
 ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
-Pour modifier les heures d'ouverture, mettez en surbrillance les heures d'ouverture que vous voulez définir à l'aide du calendrier. Le calendrier vous permet de sélectionner des heures d’ouverture par intervalle de 30 minutes, et les heures d’ouverture sélectionnées ici seront définies en fonction du fuseau horaire que vous avez défini dans la page **informations générales** . Pour configurer une coupure (pour le déjeuner, par exemple), désélectionnez ou faites glisser pour désélectionner l'heure dans le calendrier. Vous pouvez définir plusieurs sauts dans les heures de bureau.
+Pour modifier les heures d’activité, sélectionnez les heures d’activité que vous voulez définir dans le calendrier. Le calendrier vous permet de sélectionner des heures d’ouverture par intervalle de 30 minutes, et les heures d’ouverture de votre choix sont basées sur le fuseau horaire que vous avez défini dans la page **informations générales** . Pour configurer une coupure (pour le déjeuner, par exemple), désélectionnez ou faites glisser pour désélectionner l'heure dans le calendrier. Vous pouvez définir plusieurs sauts dans les heures de bureau.
 
 * * *
 
@@ -138,7 +138,7 @@ Lorsque vous avez terminé vos sélections, cliquez sur **suivant**.
 > [!TIP]
 > Si vous utilisez un planning personnalisé d’heures de travail, vous devez également configurer le suivi des appels après les heures d’activité à l’aide de la page de **traitement des appels après** les heures d’appel, qui vous offre les mêmes options que les **paramètres d’appel d’heures de travail**.
 
-Vous pouvez configurer des messages d’accueil, des invites et des menus que les personnes qui rejoignent le numéro de téléphone du standard automatique de votre organisation pourront entendre pendant les heures d’activité.
+Vous pouvez configurer des messages d’accueil, des messages d’accueil et des menus que les utilisateurs entendent lors de leur appel au numéro de téléphone lié au standard automatique de votre organisation pendant les heures d’ouverture.
 
 ![Capture d’écran de la section](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 ![d’accueil de la page de gestion des appels en heures d’activité](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
@@ -147,9 +147,7 @@ Vous pouvez configurer des messages d’accueil, des invites et des menus que le
 
 ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
-**Message d’accueil** Un message d’accueil d’heures d’entreprise est facultatif et **ne peut pas**être défini pour le message d’accueil. Dans le cas présent, l’appelant n’entendra aucun message ou message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
-
-- **Aucun message d’accueil** Aucun message d’accueil ne sera lu lorsque les personnes appellent le numéro de téléphone du standard automatique.
+**Message d’accueil** Un message d’accueil d’heures d’entreprise est facultatif et **ne peut pas**être défini pour le message d’accueil. Dans ce cas, l’appelant n’entend aucun message ni message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
 - **Télécharger un fichier audio** Si vous choisissez cette fonction, enregistrez le message d’accueil, puis téléchargez votre fichier audio (au format. wav,. mp3 ou. WMA).
 - **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez entrer «Bienvenue dans contoso. Votre appel est important pour nous. dans la **** zone les appelants entendent.
 
@@ -209,7 +207,7 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
         > [!Note]
         > Les **heures d’ouverture** de standards automatiques imbriqués (ou de second niveau) seront également utilisé, y compris pour les appels envoyés à partir d’autres standards automatiques qui ont été définis.
 
-     - **file d’attente d’appels** L’utilisation d’une option de file d’attente permet de transférer l’appel vers une file d’attente d’appels que vous avez configurée. 
+       - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
 
 * * *
 
@@ -269,8 +267,7 @@ Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent êtr
     > [!Note]
     > **Une Personne dans votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site à l’aide de Skype Professionnel Server 2015 ou Lync Server 2013.
 
-  - Une **file d’attente d’appels** pour transférer l’appel vers une file d’attente d’appels que vous avez configurée.
-  - Un autre **standard automatique**pour créer un deuxième niveau d’options de menu contenant un sous-menu. Il s’agit des standards automatiques imbriqués.
+   - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
 
     > [!Note]
     > Par défaut, tous les appels arrivant pendant une période de congé sont définies pour déconnecter la session après le message d’accueil (le cas échéant), vous devez spécifier une redirection si vous souhaitez un comportement différent.

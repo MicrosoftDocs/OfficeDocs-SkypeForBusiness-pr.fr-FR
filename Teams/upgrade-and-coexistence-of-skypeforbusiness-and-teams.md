@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d3c2b53767cb9bbaff3cbe4f2aeacea36fcc01d2
+ms.sourcegitcommit: f053b3a51a89751453101978e265efefcb30849c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236167"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36437488"
 ---
-![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation] (media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
+![Diagramme de parcours de mise à niveau, mettant l’accent sur l’étape de définition du projet] (media/upgrade-banner-project-definition.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de définition du projet")
 
-Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau. Avant de continuer, confirmez que vous avez terminé les activités suivantes:
+Cet article fait partie de l’étape définition du projet de votre parcours de mise à niveau. Avant de continuer, confirmez que vous avez terminé les activités suivantes:
 
 - [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 - [Définition de l’objectif de votre projet](https://aka.ms/SkypetoTeams-Scope)
