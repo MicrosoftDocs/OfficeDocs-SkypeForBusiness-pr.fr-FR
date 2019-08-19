@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240837"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436353"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
 Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous êtes maintenant prêt à ajouter la charge de travail correspondant aux réunions, y compris les [audioconférences](deploy-audio-conferencing-teams-landing-page.md), les vidéo et le partage. Voici comment procéder. 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>Décisions de déploiement de réunions et conférences
+## <a name="meetings-and-conferencing-deployment-decisions"></a>Décisions liées au déploiement de réunions et de conférences
 
 Teams offre une expérience prête à l’utilisation pour votre organisation, et la plupart des organisations trouvent que les paramètres par défaut leur conviennent. Cet article vous permet de décider si vous voulez modifier les paramètres par défaut en fonction du profil de votre organisation et vos exigences professionnelles, puis il vous guide pour chaque modification. Nous avons fractionné les paramètres en deux groupes, en commençant par l’ensemble des [modifications principales que vous êtes le plus susceptible d’apporter](#core-deployment-decisions). Le deuxième groupe inclut les [paramètres supplémentaires](#additional-deployment-decisions) que vous souhaiterez peut-être configurer, en fonction des besoins de votre organisation.
 
@@ -36,7 +36,7 @@ Teams offre une expérience prête à l’utilisation pour votre organisation, e
 > Regardez la session suivante pour en savoir plus sur Meetings : [présentation de Meetings dans Microsoft Teams pour les spécialistes des TI](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings--conferencing-prerequisites"></a>Conditions préalables requises pour les réunions et les conférences 
+## <a name="meetings-and-conferencing-prerequisites"></a>Prérequis pour les réunions et conférences 
 
 Avant d'étendre le déploiement de vos réunions à l'ensemble de votre organisation, prenez le temps d'examiner et de confirmer que votre environnement est prêt à offrir aux utilisateurs la meilleure expérience possible. Passer en revue les informations suivantes et apportez les modifications nécessaires à votre environnement selon vos besoins.
 
