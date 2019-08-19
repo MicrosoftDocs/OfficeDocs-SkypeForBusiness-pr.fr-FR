@@ -590,21 +590,18 @@
 #       
 #        
 
-
-<!-- ============================================================ -->
 # Mise à niveau vers Teams
+
 ## [Prise en main](upgrade-start-here.md)
 ## [À propos du cadre de mise à niveau](upgrade-framework.md)
 
 ## Planifier votre parcours de mise à niveau
+
 ### [Vue d’ensemble de la planification de mise à niveau](upgrade-plan-journey.md)
 ### [Inscription des parties prenantes du projet](upgrade-enlist-stakeholders.md)
 ### [Définition de l’étendue de votre projet](upgrade-define-project-scope.md)
-
-### Comprendre la coexistence et l’interopérabilité
-#### [Vue d’ensemble de la coexistence et de l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Prévoir la qualité](upgrade-plan-for-quality.md)
+### [Présentation de la coexistence et de l’interopérabilité](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Choix de votre parcours de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## Préparer votre environnement pour Teams
 ### [Vue d’ensemble de la préparation technique](upgrade-prepare-environment.md)
@@ -618,9 +615,15 @@
 ### [Vue d’ensemble de la préparation organisationnelle](upgrade-prepare-organization.md)
 ### [Évaluer la préparation au changement de l’organisation](upgrade-org-change-readiness.md)
 ### [Préparer un plan de préparation utilisateur](upgrade-user-readiness.md)
-## [Réaliser un pilote utilisateur](pilot-essentials.md)
-## [Mise à niveau de Skype Entreprise Online vers Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [Mise à niveau de Skype Entreprise hybride ou sur site vers Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+
+## Implémenter votre mise à niveau
+### [Vue d’ensemble](upgrade-to-Teams.md)
+### [Réaliser un pilote utilisateur](pilot-essentials.md)
+### [Mise à niveau de Skype Entreprise Online vers Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
+### [Mise à niveau de Skype Entreprise local vers Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## Fonctionnement, adoption et optimisation
 ### [Vue d’ensemble du plan opérationnel](continue-journey.md)
@@ -628,15 +631,54 @@
 ### [Contrôler la qualité](upgrade-monitor-quality.md)
 ### [Améliorer votre service](upgrade-enhance-my-service.md)
 
+
 ## [FAQ](FAQ-journey.md)
-## Informations supplémentaires
+
+## En savoir plus la coexistence
 ### [Migration et interopérabilité avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
 ### [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
 <!-- ============================================================ -->
-# 
-# 
+
+# Connectivité hybride 
+
+## [Planifier une connectivité hybride](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+
+## Configurer la connectivité hybride
+### [Vue d’ensemble](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Configurer Azure AD Connect pour les environnements hybrides](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Configurer Skype Entreprise hybride](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+
+## Déplacer des utilisateurs entre l’environnement local et le cloud
+### [Vue d’ensemble](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Déplacer des utilisateurs de l’environnement local vers Teams](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Déplacer des utilisateurs du cloud vers l’environnement local](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+
+### [Gérer les stratégies de migration](https://docs.microsoft.com/fr-FR/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+## [Désactiver le mode hybride pour terminer la migration vers le cloud](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+
+## [Déployer une topologie de forêt de ressources](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+
+## Consolidation du cloud pour Teams et Skype Entreprise Online
+### [Vue d’ensemble](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Mettre à jour le certificat de serveur Edge](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Mettre à jour AAD Connect pour inclure plusieurs forêts](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+
+## [Intégration avec Exchange et SharePoint](https://docs.microsoft.com/fr-FR/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+
+#       
+#        
+
+<!-- ============================================================ -->
+
+
+
 
 # Conseils pour les industries et le secteur public
 ## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
