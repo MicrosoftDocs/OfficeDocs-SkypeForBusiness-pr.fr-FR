@@ -1,219 +1,218 @@
 ---
 layout: HubPage
-hide_bc: true
+ms.topic: hub-page
 title: Formation dispensée par un instructeur et des vidéos pour les administrateurs de Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: dearbeen
 manager: serdars
 description: Inscrivez-vous pour les classes par un instructeur pour en savoir plus sur Microsoft Teams.
 localization_priority: Priority
-author: lanachin
+author: lolajacobsen
 audience: admin
-ms.topic: hub-page
-ms.author: v-lanac
+ms.author: lolaj
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 344f47847abc909f9bea2561821ba8778382e615
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2f1ff08d2066eeb414a17393598c721f2f6937f1
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245330"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407982"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Formation dirigée par un instructeur pour Microsoft Teams</h1>
+Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams. Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. D’autres possibilités de formation, notamment les versions à la demande de formation en direct, consultez notre <a href="https://docs.microsoft.com/microsoftteams/enduser-training">formation à la demande aux utilisateurs finaux</a>.<br><br>Cliquez sur une session ci-dessous pour vous inscrire.
         <ul class="pivots">
             <li>
-                <a href="#tab1">Formation dirigée par un instructeur</a>
-                <ul id="tab1">
+                <a href="#home" data-linktype="self-bookmark"></a>
+                <ul id="home">
                     <li>
-                        <a href="#tab1-all"></a>
-                        <ul id="tab1-all" class="cardsC">
-                            <li class="fullSpan">
-                                <div class="container intro">
-                                    <p>Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams. Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. D’autres possibilités de formation, notamment les versions à la demande de formation en direct, consultez notre <a href="https://docs.microsoft.com/microsoftteams/enduser-training">formation à la demande aux utilisateurs finaux</a>.<br><br>Cliquez sur une vignette pour inscrire.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="https://microsoftteams.eventbuilder.com/This%20is%20Teams"target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="Icon depicting an upward arrow and a hand with finger pointing up" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>#ThisIsTeams-présentation de Microsoft Teams</h3>
-                                                    <p>Qu’est-ce que Microsoft Teams ? Rejoignez-nous pour cette orientation de 30 minutes découvrir ce qu’est Teams et ce qu’elle peut vous apporter. (Public: Tout le monde)</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="Icon depicting a pedestrian and an arrow pointing to devices" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Démarrer avec Teams</h3>
-                                                    <p>À partir des discussions et des réunions à l’aide des équipes et canaux, les utilisateurs quitteront cette session avec les bases pour utiliser Teams en toute confiance. (Public : utilisateurs finaux)</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                             <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="Icon depicting a call agent, a graduation cap, and a list symbol" data-linktype="external"/>
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Conseils et astuces Teams</h3>
-                                                <p>Comprendre de manière créative pour optimiser et organiser Teams dans votre travail au quotidien. (Public : utilisateurs finaux)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="Icon depicting a roadmap with footsteps" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Gérer votre mise à niveau à partir de Skype Entreprise vers Teams</h3>
-                                                <p>Planifier et implémenter une mise à niveau réussi vers Teams (Public : professionnels informatiques, responsables de la modification d’adoption)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                            <li>
-                            <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="Icon depicting a teacher standing at a podium in front of students" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Passer de Skype entreprise à Teams : conseils de l’utilisateur final</h3>
-                                                    <p>Obtenir ce dont vous avez besoin pour démarrer rapidement l’utilisation de Teams pendant votre transition à partir de Skype Entreprise vers Teams. (Public : utilisateurs finaux)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="Icon depicting a graduation cap with tassle" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Teams pour une utilisations dans l’éducation: Webinaires</h3>
-                                                <p>Découvrez comment utiliser Teams dans l’enseignement supérieur. (Public: employés, étudiants, formation universitaire, recherches universitaires, professionnels de l’informatique)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li> 
-                        <li>
-                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="Icon depicting a successful meeting" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Optimisation des réunions Teams</h3>
-                                                <p>Découvrez comment vous pouvez tirer parti de Teams pour votre expérience avant, pendant et après réunions. (Public : utilisateurs finaux)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li> 
-                            <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="An icon depicting a mobile user" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Teams pour les employés de terrain</h3>
-                                                <p>En savoir plus sur les fonctionnalités d’ employés de terrain dans Teams. (Public : utilisateurs finaux)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li> 
-                            <a href="https://aka.ms/TeamsForGov"target="_blank">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.svg" alt="Icon depicting a government building" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Teams pour une vue d’ensemble pour le secteur publique américain (GCC)</h3>
-                                                <p>Rejoignez-nous pour une vue d’ensemble interactif de Teams dans Office 365 GCC qui illustre les meilleures pratiques en matière de collaboration. (Public concerné : professionnels de l’informatique)</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-<li>
-            </ul>
+                        <a href="#home-all" data-linktype="self-bookmark"></a>
+                        <ul id="home-all" class="panelContent cardsF cols cols3">        
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="What's new megaphone symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Dites bonjour à Microsoft Teams</h3>
+                        <p>Qu’est-ce que Microsoft Teams ? Rejoignez-nous pour cette orientation de 30 minutes découvrir ce qu’est Teams et ce qu’elle peut vous apporter.</p>
+                        <p><i>Public : tout le monde</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Prise en main de Teams</h3>
+                        <p>Des conversations et réunions aux équipes et canaux, à l’issue de cette session, les utilisateurs disposeront des bases nécessaires pour utiliser Teams en toute confiance.</p>
+                        <p><i>Public : utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Organisez des réunions efficaces avec Teams</h3>
+                        <p>Découvrez comment vous pouvez tirer parti de Teams pour votre expérience avant, pendant et après réunions.</p>
+                        <p><i>Public : utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/best-practices-teams.svg" alt="Best practices window" data-linktype="external"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Découvrez comment aller plus loin avec Teams</h3>
+                        <p>Comprenez comment optimiser et organiser Teams de manière créative dans votre travail au quotidien.</p>
+                        <p><i>Public : utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/From%20Skype%20for%20Business%20to%20Teams"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Passez de Skype Entreprise à Teams</h3>
+                        <p>Obtenez ce dont vous avez besoin pour commencer rapidement à utiliser Teams dans le cadre de votre transition de Skype Entreprise vers Teams.</p>
+                        <p><i>Public : utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsForGov"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/globe-internet.svg" alt="Globe symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams pour le secteur public américain (GCC)</h3>
+                        <p>Rejoignez-nous pour une présentation interactive de Teams dans Office 365 GCC montrant les meilleures pratiques en matière de collaboration.</p>
+                    <p><i>Public : professionnels de l’informatique, utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://aka.ms/TeamsEduWebinars"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial-teams.svg" alt="Education symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams pour une utilisations dans l’éducation: Webinaires</h3>
+                        <p>Découvrez comment utiliser Teams dans l’enseignement supérieur.</p>
+                        <p><i>Public : employés, étudiants, universitaires, chercheurs, informaticiens</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams pour les employés de terrain</h3>
+                        <p>Apprenez-en davantage sur les fonctionnalités de Teams destinées aux employés de terrain.</p>
+                        <p><i>Public : utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Ateliers de planification de mise à niveau</h3>
+                        <p>Planifiez et implémentez une mise à niveau réussie vers Teams</p>
+                        <p><i>Public : professionnels de l’informatique, responsables de l’adoption des changements</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        </ul>
         </li>
     </ul>
     </div>
-</div>
+</div> 
