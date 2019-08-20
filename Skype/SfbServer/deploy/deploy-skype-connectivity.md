@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé: Découvrez comment connecter Skype entreprise Server à Skype grand public. Également connu sous le nom de connectivité Skype.'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235703"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464599"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déploiement de la connectivité Skype dans Skype entreprise Server
 
@@ -105,7 +105,7 @@ La communication entre le déploiement de Skype entreprise local et les utilisat
 > [!NOTE]
 > Aucune action n’est nécessaire pour la plupart des clients, y compris tous les déploiements qui se fédérer dans Skype entreprise online.
   
-Les déploiements sur site sont requis pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’ils hébergent. Les recommandations sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit résoudre par la requête DNS SRV en un nom de domaine complet (FQDN) de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine «contoso.com»:
+Les déploiements sur site sont requis pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’il héberge. Les recommandations sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit résoudre par la requête DNS SRV en un nom de domaine complet (FQDN) de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine «contoso.com»:
 
 |**Noms de domaine complets valides**|**Commentaire**|
 |:-----|:-----|
@@ -121,7 +121,7 @@ Pour plus d’informations sur les certificats externes, reportez-vous à la rub
 #### <a name="faqs"></a>Questions
 
 **Pourquoi le site Web de mise en service est-il arrêté?**
-Le mécanisme de mise en service de messagerie instantanée (im) public qui a été déployé dans 2006 ne peut plus être utilisé et sera arrêté sur 8/15/2019. Au lieu de cela, la Fédération publique utilise le même modèle de Fédération que celui utilisé par Skype entreprise Online, connu sous le nom de «découverte des partenaires», qui permet de détecter publiquement un déploiement local par le biais de ses enregistrements SRV DNS de Fédération.
+Le mécanisme de mise en service de messagerie instantanée (im) public qui a été déployé dans 2006 ne peut plus être utilisé et sera arrêté sur 8/15/2019. Au lieu de cela, la Fédération publique doit supposer le même modèle de Fédération utilisé par Skype entreprise Online, connu sous le nom de «découverte de partenaire», qui permet de détecter publiquement un déploiement local par son ou ses enregistrements SRV DNS de Fédération.
 
 **Cette modification signifie-t-elle que la Fédération de messagerie instantanée publique est déconseillée?**
 Non. La Fédération de messagerie instantanée publique restera prise en charge pendant plusieurs années, sans doute que le produit local Skype entreprise n’atteint la fin de vie.
@@ -133,7 +133,7 @@ Non, puisque vous vous êtes déjà connecté à Skype entreprise Online, cette 
 Non. Si les paramètres de proxy de votre serveur Edge n’autorisent pas la Fédération avec le fournisseur d’hébergement Skype entreprise Online (sipfed.online.lync.com), cette modification n’a pas d’incidence sur celle-ci. Toutefois, les mêmes exigences DNS et de certificats qui s’appliquent à la Fédération avec Skype entreprise Online s’appliquent également à la Fédération avec les utilisateurs de Skype.
  
 **Notre entreprise est volumineuse et ne peut pas modifier sa configuration latérale en raison de la réglementation et de la conformité, etc. que faire?**
-Toutes les organisations locales qui ne peuvent pas modifier la configuration de votre serveur de périmètre comme spécifié doivent communiquer au support technique le plus tôt possible.
+Toutes les organisations locales qui ne peuvent pas modifier la configuration de votre serveur de périmètre comme indiqué doivent communiquer au support technique le plus tôt possible.
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Activation de la fédération et de la connectivité PIC (Public IM Connectivity)
 

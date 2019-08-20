@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Découvrez ce que vous devez savoir et faire avant de transférer des numéros de téléphone vers des équipes et comment créer une demande de transfert.
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347793"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464567"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transférer les numéros de téléphone vers Office 365
 
@@ -39,7 +39,7 @@ Avant de commencer à transférer des numéros de téléphone, nous vous conseil
   > [!NOTE]
   > Les commandes de port ne sont traitées pour le transfert des numéros de téléphone que sur les jours ouvrés américains et non sur les jours fériés ou les week-end.
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>Création d’une demande de transfert et transfert de vos numéros de téléphone vers l’équipe
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Création d’une demande de transfert et transfert de vos numéros de téléphone dans teams
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]

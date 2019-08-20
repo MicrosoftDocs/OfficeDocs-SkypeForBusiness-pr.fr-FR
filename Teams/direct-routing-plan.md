@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271423"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464578"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -87,8 +87,11 @@ Adresses IP et ports pour le pare-feu pour les éléments multimédias de Micros
 Les utilisateurs du routage direct doivent avoir les licences suivantes affectées dans Office 365: 
 
 - Système Microsoft Phone 
-- Microsoft Teams 
+- Microsoft teams + Skype entreprise plan 2 s’il est inclus dans la référence de licence
 - Audioconférence Microsoft 
+
+> [!NOTE]
+> L’offre Skype entreprise ne doit pas être supprimée des références SKU de licences auxquelles elle est incluse. 
 
 
 > [!IMPORTANT]

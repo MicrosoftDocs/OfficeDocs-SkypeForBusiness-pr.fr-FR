@@ -3,7 +3,7 @@ title: Planifier des événements en direct dans Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429991"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464553"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -73,11 +73,12 @@ L’utilisateur doit avoir:
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Événements en direct teams et diffusion de réunion Skype
+
 Le tableau suivant met en évidence les fonctionnalités principales et les fonctionnalités proposées dans les événements en direct et la façon dont ils diffèrent de la diffusion de réunion Skype. 
 
 |**Faculté**   |**Diffusion de réunion Skype** |**Événements produits dans teams** |**Événements produits dans une application ou un appareil externes** |
 |---------|---------|---------|---------|
-|Taille maximale du public |participants 10 000 |10 000 participants * |10 000 participants * |
+|Taille maximale du public |participants 10 000 |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
 |Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
 |Nombre maximal d’événements en direct simultanés par client Office 365 |0,15  | 0,15  | 0,15  |
 |Création d’événements en direct |   Portail de diffusion de réunion Skype |Teams, Yammer via teams | Teams, Yammer par équipe, flux |
@@ -102,8 +103,7 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |X |
 |Analyse d’un sentiment d’audience: vote en direct & sondages |&#x2714; (Microsoft Pulse) |X |X |
 
-> [!IMPORTANT]
-> Les limites définies peuvent être modifiées.
+<sup>1</sup> les limites définies peuvent être modifiées.
 
 ## <a name="regional-availability"></a>Disponibilité régionale
 Vous pouvez utiliser des événements en direct teams dans plusieurs régions dans le monde entier. Les informations suivantes indiquent la disponibilité pour les membres de l’équipe et les participants. 
@@ -118,7 +118,7 @@ Vous pouvez utiliser des événements en direct teams dans plusieurs régions da
 - Go local Canada
 
 **Exclusions et considérations**
-- Rendez-vous **locales:** Le Royaume-Uni, l’Inde, l’Australie, le Japon et les autres équipes ne sont pas pris en charge pour le moment.
+- Rendez-vous **locales:** Le Royaume-Uni et les autres équipes ne sont pas pris en charge pour le moment.
 - **Chine:** Les membres de l’équipe et les participants ne seront pas en mesure d’utiliser les événements teams Live car Azure CDN n’est pas accessible en Chine. Pour contourner ce problème, vous pouvez utiliser une connexion VPN d’entreprise, qui obtient le client connecté au CDN via le réseau d’entreprise du client.
 
 ## <a name="next-steps"></a>Étapes suivantes

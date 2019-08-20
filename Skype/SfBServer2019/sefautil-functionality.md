@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé: Découvrez comment utiliser PowerShell pour obtenir le fonctionnement de SEFAUtil dans Skype entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821323"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464546"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utiliser la fonctionnalité SEFAUtil via PowerShell dans Skype entreprise Server 2019
 
-SEFAUtil (l’activation de la fonctionnalité d’extension secondaire) permet aux administrateurs et aux techniciens du support technique de Skype entreprise de configurer la sonnerie de délégué, le transfert d’appel et les paramètres de cueillette de groupe pour le compte d’un utilisateur de Skype entreprise Server. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après l’installation de cette mise à jour, les fonctionnalités suivantes qui peuvent être gérées uniquement via SEFAUtil peuvent également être gérées via PowerShell:
+SEFAUtil (l’activation de la fonctionnalité d’extension secondaire) permet aux administrateurs et aux techniciens du support technique de Skype entreprise de configurer la sonnerie de délégué, le transfert d’appel et les paramètres de cueillette de groupe pour le compte d’un utilisateur de Skype entreprise Server. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après l’installation de la mise à jour cumulative de 2019 juillet de Skype entreprise Server, les fonctionnalités suivantes qui peuvent être gérées uniquement via SEFAUtil peuvent également être gérées via PowerShell:
 
 - [Paramètres de transfert d’appel](#call-forwarding-settings)
 - [Paramètres de délégation](#delegation-settings)

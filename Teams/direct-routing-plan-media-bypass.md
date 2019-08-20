@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271445"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464589"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -290,7 +290,7 @@ Vous avez besoin d’ouvrir les ports 3478 et 3479 pour la transition. Lorsque M
 
 ### <a name="requirements-for-using-media-processors"></a>Configuration requise pour l’utilisation de processeurs multimédias
 
-Les processeurs multimédias sont toujours dans le chemin multimédia pour les applications vocales et pour les cleints Web (pour exampe, teams cleint dans Microsoft Edge ou Google Chrome). Les exigences sont les mêmes que pour la configuration sans contournement.
+Les processeurs multimédias sont toujours dans le chemin multimédia pour les applications vocales et pour les clients Web (par exemple, les clients teams dans Microsoft Edge ou Google Chrome). Les exigences sont les mêmes que pour la configuration sans contournement.
 
 
 La plage d’adresses IP du trafic multimédia est 
@@ -353,7 +353,7 @@ Pour plus d’informations sur la configuration de deux lignes sur le même SBC,
 
 La dérivation de média est prise en charge avec tous les points de terminaison Teams.
 
-Remarque pour webcleints (teams Web App dans Microsoft Edge, Google Chrome ou Mozilla Firefox), l’appel est soumis à un contournement différent même en cas de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. 
+Remarque pour les clients Web (teams Web App dans Microsoft Edge, Google Chrome ou Mozilla Firefox), l’appel est soumis à un contournement, même s’il a commencé en tant qu’appel de contournement. Ce problème se produit automatiquement et ne nécessite aucune action de l’administrateur. 
  
 ## <a name="see-also"></a>Voir aussi
 

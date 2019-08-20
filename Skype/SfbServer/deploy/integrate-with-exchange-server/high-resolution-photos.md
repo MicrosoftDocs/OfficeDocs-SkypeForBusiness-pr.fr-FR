@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Résumé: configurez l’utilisation de photos haute résolution dans Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
-ms.openlocfilehash: 8d68cb75a053d7eb165383154514ca6ff8d1a941
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244322"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464653"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurer l’utilisation de photos haute résolution dans Skype entreprise Server
  
@@ -56,7 +56,7 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 Pour vérifier que la nouvelle photo a été affectée à un compte d’utilisateur, Ken Myer peut se connecter à Skype entreprise, sélectionner des **options**, puis sélectionner **mon image**. La photo nouvellement téléchargée doit alors s’afficher comme photo personnelle de Ken. En guise d’alternative, les administrateurs peuvent vérifier la photo de tout utilisateur en lançant Internet Explorer et en accédant à une URL semblable à la suivante :
   
 ```
-https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&amp;size=HR648x648
+https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
 Si l’administrateur peut voir la photo à l’aide d’Internet Explorer, mais que l’utilisateur ne peut pas voir sa photo dans Skype entreprise, il existe peut-être un problème de connectivité avec les services Web Exchange ou le service de découverte automatique Exchange.

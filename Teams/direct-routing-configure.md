@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925496"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464610"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -328,8 +328,6 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
-SuppressCallerId    :
-AlternateCallerId   :
 </pre>
 Pour créer l’itinéraire de Redmond 2, entrez:
 
@@ -485,8 +483,6 @@ Les étapes à suivre pour créer une utilisation PSTN «international», un iti
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SuppressCallerId          :
-   AlternateCallerId         :
    </pre>
 3. Ensuite, créez une stratégie de routage téléphonique «aucune restriction». L’utilisation RTC «Redmond 1» et «Redmond» sont réutilisées dans cette politique de routage vocale pour garantir une gestion spéciale des appels au numéro «+ 1 425 XXX XX XX» et «+ 1 206 XXX XX XX» en tant qu’appels locaux ou locaux.
 

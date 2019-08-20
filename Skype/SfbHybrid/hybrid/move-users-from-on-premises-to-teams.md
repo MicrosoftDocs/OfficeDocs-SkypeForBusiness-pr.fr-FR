@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé: Découvrez comment migrer les paramètres utilisateur et déplacer des utilisateurs vers Teams.'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160502"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464677"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’organisation locale vers teams
 
@@ -38,6 +38,11 @@ Quand un utilisateur est déplacé de local vers teams uniquement, le domicile S
     ![Message redirection d’un utilisateur vers teams](../media/go-to-teams-page.png)
 
 Avant de déplacer des utilisateurs, veillez à passer en revue les [éléments prérequis](move-users-between-on-premises-and-cloud.md#prerequisites) pour déplacer les utilisateurs vers le Cloud. Veillez également à consulter les [conseils de migration et d’interopérabilité pour les organisations qui utilisent teams avec Skype entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+
+
+> [!NOTE]
+> Le magasin de contacts unifié doit être désactivé sur le compte SfB local du contact à déplacer vers Teams.
+
 
 Il existe deux méthodes pour déplacer un utilisateur de l’organisation locale vers teams:
 
@@ -86,6 +91,9 @@ La séquence d’applets de commande suivante peut être utilisée pour déplace
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Informer vos utilisateurs locaux de Skype entreprise du déplacement à venir vers teams
 
 Les outils d’administration sur site de Skype entreprise Server 2015 avec CU8, ainsi que dans Skype entreprise Server 2019, vous permettent d’avertir les utilisateurs Skype entreprise locaux de leur déplacement à venir vers Teams. Lorsque vous activez ces notifications, les utilisateurs voient une notification dans leur client Skype entreprise (Win32, Mac, Web et mobile), comme indiqué ci-dessous. Si les utilisateurs cliquent sur le bouton **essayer** , le client teams est lancé s’il est installé; dans le cas contraire, les utilisateurs accéderont à la version Web de teams dans leur navigateur. Par défaut, lorsque les notifications sont activées, les clients Win32 Skype entreprise téléchargent le client teams de manière silencieuse afin que le client riche soit disponible avant de passer à l’utilisateur en mode teams uniquement; Toutefois, vous pouvez également désactiver ce comportement.  Les notifications sont configurées à l’aide de `TeamsUpgradePolicy`la version locale de et le téléchargement en mode silencieux pour les clients Win32 `TeamsUpgradeConfiguration` est contrôlé via l’applet de commande locale.
+
+> [!TIP]
+> Il se peut que certains serveurs doivent redémarrer pour que cela fonctionne dans Skype entreprise 2015 avec CU8.
 
 ![Notification de déplacement imminent vers teams](../media/teams-upgrade-notification.png)
 

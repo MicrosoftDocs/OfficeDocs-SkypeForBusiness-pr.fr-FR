@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé: Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: b173097377c100fcb03b07d7a502e1e6c096608f
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925325"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464413"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019
  
@@ -540,10 +540,13 @@ Skype entreprise Server 2019 peut utiliser le même partage de fichiers pour tou
   
 - Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau de stockage SAN (Storage Area Network), dont un système de fichiers distribués (DFS) et sur une solution RAID (Redundant Array Of Independent Disks) pour les magasins de fichiers. Pour plus d’informations sur le système de fichiers DFS pour Windows Server 2012, consultez [cette page DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- Nous vous recommandons d’utiliser un cluster partagé pour le partage de fichiers. Si vous utilisez un, vous devez disposer d’un cluster Windows Server 2012 ou Windows Server 2012 R2. Pourquoi vous avez la dernière version de Windows? Les versions plus anciennes ne disposent pas des autorisations appropriées pour activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer les partages de fichiers, et cette [création d’un article de](https://support.microsoft.com/en-us/help/224967) la base de connaissances de cluster vous aidera à résoudre ces derniers.
+- Nous vous recommandons d’utiliser un cluster partagé pour le partage de fichiers. Si vous utilisez déjà une version de Windows Server 2012 ou version ultérieure
+
+> [!Note]
+> **Pourquoi vous avez la dernière version de Windows?** Les versions plus anciennes ne disposent pas des autorisations appropriées pour activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer le partage de fichiers. Pour plus d’informations, consultez cet article [du support sur la création de partages de fichiers sur un cluster](https://support.microsoft.com/help/224967) .
     
 > [!CAUTION]
-> Vous devez savoir que le dispositif de stockage réseau (NAS) ne prend pas en charge le partage de fichiers. Vous devez donc utiliser l’une des options proposées ci-après. 
+> Vous devez savoir que le dispositif de stockage réseau (NAS) ne prend pas en charge le partage de fichiers. Vous devez donc utiliser l’une des options proposées ci-après. Cette limitation du support technique est provoquée par la conception variable d’appareils NAS qui doivent fournir la capacité d’adaptation du système de fichiers à l’ordinateur Windows Server qui accède au système de fichiers partagés des appareils.
   
 
 
