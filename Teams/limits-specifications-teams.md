@@ -15,18 +15,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436314"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473330"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
 Cet article présente certaines limites, spécifications et autres configurations requises qui s’appliquent à Teams.
 
-## <a name="teams-and-channels"></a>Équipes et canaux 
+## <a name="teams-and-channels"></a>Équipes et canaux
 
 |Fonctionnalité    | Limite maximale |
 |-----------|---------------|
@@ -113,6 +113,17 @@ Fonction de conversation de Microsoft Teams fonctionne sur un serveur principal 
 > La taille des messages, des pièces jointes et des images incorporées sont les mêmes pour toutes les licences Office 365.
 
 Pour plus d’informations, voir [Limites d’Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+
+## <a name="contacts"></a>Contacts
+
+Teams utilise les contacts suivants:
+
+- Contacts de l’annuaire Active Directory de votre organisation
+- Contacts ajoutés au dossier Outlook par défaut de l’utilisateur
+
+Les utilisateurs de teams peuvent communiquer avec n’importe quel utilisateur de l’annuaire Active Directory de votre organisation et peut ajouter tout le monde dans l’annuaire Active Directory de votre organisation en tant que contact et leurs listes de contacts en accédant à des**contacts** ou des **appels**  >  de **chat** >  **Contacts**.
+
+Les utilisateurs de teams peuvent également ajouter une personne qui ne se trouve pas dans l’annuaire Active Directory de votre organisation en accédant à **appels** > **contacts**.
 
 ## <a name="browsers"></a>Navigateurs
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: 845a9ca61b7d9b4cfe325d03027241634cbdb37e
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: e4fa0b5ab5e5dd248d79286d071d9f5dcaed061f
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447951"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473361"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -67,7 +67,7 @@ Pour commencer à utiliser les files d’attente d’appels, il est important de
 > Les numéros de service de routage direct pour les files d’attente d’appels sont pris en charge pour les utilisateurs et agents Microsoft teams uniquement.
 
 > [!NOTE]
-> Pour rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer d’offres d’appels d’Office 365. Consultez la rubrique [affectation de licences Skype entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Pour rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour Enterprise Voice ou disposer d’offres d’appels d’Office 365. Consultez la rubrique [affectation de licences Skype entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Pour les activer pour Enterprise Voice, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Pour en savoir plus sur les offres d’appels d’Office 365, voir [système téléphonique et](calling-plan-landing-page.md) offres d’appel et [forfaits pour Office 365](calling-plans-for-office-365.md).
 
