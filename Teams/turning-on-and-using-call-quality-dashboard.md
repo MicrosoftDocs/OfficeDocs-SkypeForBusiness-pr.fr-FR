@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
-- ms.lync.lac.ToolsCallQualityDashboard
 - ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels de Skype entreprise Online et obtenez des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: eaadd80030b04d5fb10fd8f29d656fe07e24a1db
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: cf937a159eba723ee4ac7fc2ae01aa733e57170f
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393492"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483769"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
