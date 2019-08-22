@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288203"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493077"
 ---
 # <a name="what-are-communications-credits"></a>Qu’est-ce que les crédits de communication ?
 
@@ -75,6 +75,9 @@ Vous pouvez configurer la facturation de la consommation à l’aide d’un **fi
 Chaque organisation aura une utilisation différente des offres en matière d’appels et de tarifs. You will need to get this type of usage data from your current service provider. Pour les organisations qui utilisent déjà Skype entreprise comme prestataire de services, vous pouvez obtenir des données d’utilisation en les révisant dans le centre****  > d' **administration 365 Microsoft**ou dans les rapports du >  **Centre d’administration Skype entreprise**.** **Détails de **l’utilisation RTC.**  > 
   
 Lorsque vous configurez des crédits de communication, vous devez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants que vous devrez entrer. Ces informations sont disponibles dans le rapport **Détails de l'utilisation RTC**. Ce rapport vous permet d’exporter les enregistrements de données d’appel vers Excel et de créer des rapports personnalisés.
+
+> [!NOTE]
+> Les crédits de communication sont également utilisés pour les numéros surtaxés. L’appelant paie les frais.
   
 ## <a name="recommended-funding-amounts"></a>Montants de financement recommandés
 

@@ -13,26 +13,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Résumé: Découvrez comment déployer un serveur Edge ou un pool Edge dans votre environnement Skype entreprise Server.'
-ms.openlocfilehash: 39f308c13c3164c2fa46363723d5f3b1256595fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 03cb3f1bc4a938a698c28332b4781d08434bc52f
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233896"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36492971"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Déploiement de Edge Server dans Skype entreprise Server
  
 **Résumé:** Découvrez comment déployer un serveur Edge ou un pool Edge dans votre environnement Skype entreprise Server.
   
-Pourquoi déployer un serveur Edge ou un pool Edge dans votre environnement Skype entreprise Server? C’est nécessaire si vous avez besoin que des utilisateurs externes non connectés à votre réseau interne puissent interagir avec des utilisateurs internes. Ces utilisateurs externes peuvent être authentifiés comme des utilisateurs distants anonymes, des partenaires fédérés ou d’autres clients mobiles.
+Pourquoi déployer un serveur Edge ou un pool Edge dans votre environnement Skype entreprise Server? Il est nécessaire de faire en sorte que les utilisateurs externes qui ne sont pas connectés au réseau interne de votre organisation puissent interagir avec les utilisateurs internes. Ces utilisateurs externes peuvent être authentifiés comme des utilisateurs distants anonymes, des partenaires fédérés ou d’autres clients mobiles.
   
 ## <a name="deployment-checklist-for-the-edge-for-skype-for-business-server"></a>Liste de contrôle du déploiement pour Microsoft Edge pour Skype entreprise Server
 
-Comme indiqué plus haut, un grand nombre d’opérations s’exécutent dans un déploiement de serveur Edge pour Skype entreprise Server. Cette liste de vérification vous donne une vue d’ensemble des tâches que vous devez effectuer, ainsi que des liens vers des étapes plus détaillées.
+Comme indiqué plus haut, il est important de procéder à un déploiement de serveur Edge pour Skype entreprise Server. Cette liste de vérification vous donne une vue d’ensemble des tâches que vous devez effectuer, ainsi que des liens vers des étapes plus détaillées.
   
 Nous espérons que vous avez entamé le [plan de déploiement de serveur Edge dans la section Skype entreprise Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Si ce n’est pas le cas, un grand nombre des éléments qui nous font référence sont détaillés. La section déploiement ne contenant que des procédures, si vous souhaitez connaître le raisonnement de ces étapes, la planification est l’endroit où commencer.
   
-Cette documentation suppose également que vous avez également réalisé le déploiement de base de Skype entreprise Server. Vous pouvez effectuer ce déploiement côte à côte avec le bord, mais vous devez d’abord suivre ces étapes pour que vous puissiez apporter les modifications de topologie pour le bord qui sont décrites dans cet article.
+Cette documentation suppose également que vous avez déjà effectué le déploiement de base de Skype entreprise Server. Vous pouvez effectuer ce déploiement côte à côte avec le bord, mais vous devez d’abord suivre ces étapes pour que vous puissiez apporter les modifications de topologie pour le bord qui sont décrites dans cet article.
   
 Il s’agit des étapes de niveau supérieur que vous devez suivre, et des emplacements où vous trouverez ces étapes :
   

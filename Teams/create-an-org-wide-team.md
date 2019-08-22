@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881996d5f8acbc7458a775e02adfad9b38a231a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 901f0dd116bf152433d226e0c131f795675784cc
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241234"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493111"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -40,11 +40,12 @@ Les types de comptes suivants ne sont pas ajoutés à votre équipe au sein de l
 - Comptes de salle ou de matériel
 - Comptes sauvegardés par une boîte aux lettres partagée
 
-Dans la mesure où l’annuaire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs ou que les utilisateurs ne travaillent plus dans votre société et qu’elle est désactivée, les modifications sont automatiquement synchronisées et les utilisateurs sont ajoutés ou supprimés de l’équipe. Les membres d’une équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez ajouter ou supprimer des utilisateurs manuellement, si nécessaire.
+Dans la mesure où l’annuaire de votre organisation est mis à jour de manière à inclure les nouveaux utilisateurs actifs ou que les utilisateurs ne travaillent plus dans votre entreprise, les modifications sont automatiquement synchronisées et les utilisateurs sont ajoutés ou supprimés de l’équipe. Les membres d’une équipe ne peuvent pas quitter une équipe à l’échelle de l’organisation. En tant que propriétaire de l’équipe, vous pouvez ajouter ou supprimer des utilisateurs manuellement, si nécessaire.
 
 > [!NOTE]
-> - Si vous ne voyez pas l’option **à l’échelle** de l’Organisation lors de la création d’une équipe et que vous êtes un administrateur global, il est possible que la fonctionnalité soit en cours de déploiement ou que votre organisation ait plus de la limite de taille actuelle des membres 5 000. Nous cherchons à augmenter cette limite à l’avenir.
+> - Si vous ne voyez pas l’option **à l’échelle** de l’Organisation lors de la création d’une équipe et que vous êtes un administrateur global, il est possible que la fonctionnalité soit en cours de déploiement, que vous ayez atteint la limite de cinq équipes au niveau de l’organisation, ou qu’elle ne dépasse pas la limite de taille actuelle des membres 5 000. Nous cherchons à augmenter cette limite à l’avenir.
 > - Les salles qui ne font pas partie d’une liste de salles, de ressources de matériel et de ressources peuvent être ajoutées ou synchronisées à l’équipe au sein de l’organisation. Les propriétaires d’équipe peuvent facilement supprimer ces comptes de l’équipe.
+> - Toutes les actions par le système pour ajouter ou supprimer des membres sont publiées dans le canal général. Le canal sera également marqué comme ayant une nouvelle activité dans le client Teams.
 
 ## <a name="best-practices"></a>Meilleures pratiques
 
@@ -68,7 +69,7 @@ Envisagez de configurer une modération de canal et d’offrir des fonctionnalit
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Supprimer des comptes qui ne font pas partie
 
-Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire d’une équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui ne font pas partie. Veillez à utiliser teams pour supprimer des utilisateurs de votre équipe au sein de l’organisation. Si vous utilisez une autre méthode de suppression d’un utilisateur (par exemple, le centre d’administration Microsoft 365 ou un groupe dans Outlook), l’utilisateur peut être rajouté à l’équipe au sein de l’organisation.
+Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire d’une équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui ne font pas partie. Veillez **à utiliser teams pour supprimer des utilisateurs de votre équipe au sein de l’organisation**. Si vous utilisez une autre méthode de suppression d’un utilisateur (par exemple, le centre d’administration Microsoft 365 ou un groupe dans Outlook), l’utilisateur peut être rajouté à l’équipe au sein de l’organisation.
 
 ## <a name="faq"></a>FAQ
 

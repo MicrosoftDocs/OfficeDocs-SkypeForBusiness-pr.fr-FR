@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
-ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
+ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473330"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493001"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -43,6 +43,43 @@ Cet article présente certaines limites, spécifications et autres configuration
 &sup2; Cette limite inclut les équipes archivées.
 
 &sup3; les canaux supprimés peuvent être restaurés dans les 30 jours. Pendant ces 30 jours, le nombre de canaux supprimés continue d’être comptabilisé au canal 200 par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de manière définitive et le canal n’est plus compté vers les canaux 200 par équipe.
+
+## <a name="messaging"></a>Messagerie 
+
+### <a name="chat"></a>Conversation
+
+Les utilisateurs qui participent à des conversations faisant partie de la liste de conversations dans teams doivent disposer d’une boîte aux lettres Exchange Online (dans le Cloud) pour permettre à un administrateur de rechercher des conversations par messagerie instantanée. En effet, les conversations faisant partie de la liste de conversations sont stockées dans les boîtes aux lettres du Cloud des participants de la discussion. Si un participant de conversation ne dispose pas de boîte aux lettres Exchange Online, l’administrateur ne pourra pas effectuer de recherche ou suspendre de conversations instantanées. Par exemple, dans le cadre d’un déploiement hybride Exchange, les utilisateurs dotés de boîtes aux lettres locales pourront peut-être participer à des conversations qui font partie de la liste des conversations dans Teams. Toutefois, dans ce cas, le contenu de ces conversations n’est pas consultable et ne peut pas être mis en attente, car les utilisateurs n’ont pas de boîtes aux lettres sur le cloud. (Pour plus d’informations, voir [comment Exchange et Microsoft Teams interagissent](exchange-teams-interact.md).)
+
+La discussion teams fonctionne sur un serveur principal Microsoft Exchange, de sorte que les limites de messagerie Exchange s’appliquent à la fonction de conversation dans Teams.
+
+|Fonctionnalité  | Limite maximale  |
+|---------|---------|
+|Nombre de personnes dans une conversation privée<sup>1</sup>  | 100    |
+|Nombre de pièces jointes<sup>2</sup>  |0,10     |
+
+<sup>1</sup> Si vous avez plus de 20 personnes dans une conversation, les fonctionnalités suivantes sont désactivées: réponses automatiques Outlook et messages d’état d’équipe; indicateur de saisie; appels vidéo et audio; Sharing confirmations de lecture.
+
+<sup>2</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
+
+### <a name="emailing-a-channel"></a>Envoyer un e-mail à un canal
+
+ Si un utilisateur souhaite envoyer un message électronique à un canal dans Teams, ils utilisent l’adresse de messagerie du canal. Lorsqu’un message fait partie d’un canal, tout le monde peut y répondre pour démarrer une conversation. Voici quelques-unes des limites applicables pour l’envoi de courrier à un canal.
+
+|Fonctionnalité  | Limite maximale  |
+|---------|---------|
+|Taille<sup>du message 1<sup> | 24 KO |
+|Nombre de pièces jointes<sup>2</sup>  |CX3-20     |
+|Taille de chaque fichier joint | Moins de 10 Mo |
+|Nombre d’images incorporées<sup>2</sup> |50   |
+
+<sup>1</sup> Si ce n’est pas le cas, un message d’aperçu est généré et l’utilisateur est invité à télécharger et afficher le message d’origine à partir du lien fourni.
+
+<sup>2</sup> Si le nombre de pièces jointes ou d’images dépasse cette limite, un message d’erreur s’affiche.
+
+Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+
+> [!NOTE]
+> La taille des messages, les pièces jointes et les images incorporées sont les mêmes pour toutes les licences Office 365.
 
 ## <a name="channel-names"></a>Noms de canaux
 
@@ -91,28 +128,6 @@ En stockant les fichiers dans la bibliothèque de documents SharePoint Online e
 Les canaux sont reversés par des dossiers dans la collection de sites SharePoint Online créée pour l’équipe, de sorte que les onglets de fichier dans les canaux partagent les limites de stockage de l’équipe auxquelles elles appartiennent.
 
 Pour plus d’informations, voir [Limites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
-
-## <a name="messaging"></a>Messagerie 
-
-Les utilisateurs qui participent aux conversations qui font partie de la liste de Conversation dans Microsoft Teams doivent avoir une boîte aux lettres Exchange Online (sur le cloud) pour qu’un administrateur recherche des conversations instantanées. C’est parce que les conversations qui font partie de la liste de Conversations sont stockées dans les boîtes aux lettres des participants basées sur le cloud. Si un participant de conversation ne dispose pas de boîte aux lettres Exchange Online, l’administrateur ne pourra pas effectuer de recherche ou suspendre de conversations instantanées. Par exemple, dans un déploiement Exchange hybride, les utilisateurs disposant de boîtes aux lettres locales peuvent peut-être participer aux conversations qui font partie de la liste de Conversations dans Microsoft Teams. Toutefois, dans ce cas, le contenu de ces conversations n’est pas consultable et ne peut pas être mis en attente, car les utilisateurs n’ont pas de boîtes aux lettres sur le cloud. (Pour plus d’informations, voir [comment Exchange et Microsoft Teams interagissent](exchange-teams-interact.md).)
-
-Fonction de conversation de Microsoft Teams fonctionne sur un serveur principal Microsoft Exchange, donc vous pouvez appliquer les limites de messagerie Exchange à la fonction de conversation dans Microsoft Teams. Si un utilisateur souhaite envoyer un message électronique à un canal dans Teams, ils utilisent l’adresse de messagerie du canal. Une fois qu’un message électronique fait partie d’un canal, tout le monde peut y répondre et démarrer une conversation. Voici quelques-unes des limites applicables pour l’envoi de courrier à un canal. 
-
-|Fonctionnalité  | Limite maximale  |
-|---------|---------|
-|Nombre de personnes dans une discussion privée  | 100    |
-|Taille du message&dagger;  |25 Ko   |
-|Nombre de pièces jointes&Dagger;  |0,10     |
-|Nombre d’images incorporées&Dagger; |50   |
-
-&dagger; Si le message excède cette limite, un aperçu du message est généré et l’utilisateur est invité à afficher/télécharger le message d’origine à partir du lien fourni.
-
-&Dagger;Si le nombre de pièces jointes ou d’images dépasse cette limite, le message ne sera pas traité et un message de notification d’erreur de remise sera renvoyé à l’expéditeur pour lui envoyer une erreur.
-
-> [!NOTE]
-> La taille des messages, des pièces jointes et des images incorporées sont les mêmes pour toutes les licences Office 365.
-
-Pour plus d’informations, voir [Limites d’Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
 ## <a name="contacts"></a>Contacts
 

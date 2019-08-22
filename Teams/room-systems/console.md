@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
-ms.openlocfilehash: bb21bf6386164f65411a62870e86e1b1883560e1
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428055"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493053"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console de salle Microsoft teams
 
@@ -91,7 +91,10 @@ Vous devez maintenant appliquer le média de configuration que vous avez créé.
 8. Le système s’arrêtera une fois l’installation terminée.
     
 Une fois le système arrêté, il est sûr de supprimer le disque de configuration USB. À ce stade, vous pouvez placer l’appareil cible dans sa station d’accueil (si vous utilisez un produit d’une station d’accueil), joindre les périphériques nécessaires à votre salle de réunion et vous connecter au réseau. Reportez-vous aux instructions de fabricant.
-  
+
+> [!NOTE]
+> Les mises à jour logicielles des salles de Microsoft teams sont téléchargées automatiquement à partir du Microsoft Store pour entreprises. Voir les [conditions préalables pour le Microsoft Store pour les entreprises et l’éducation](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) pour vérifier que la console de salle est en mesure d’accéder au Windows Store et à la mise à jour automatique.  
+
 ### <a name="selecting-a-language"></a>Sélectionner une langue 
 
 Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage. ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en français, mais ce service est disponible en anglais).

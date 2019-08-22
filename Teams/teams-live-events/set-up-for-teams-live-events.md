@@ -17,12 +17,12 @@ description: Découvrez les étapes nécessaires à la configuration des événe
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237367"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493097"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -57,7 +57,7 @@ Les stratégies d’événements dynamiques permettent de contrôler les utilisa
 
 |Paramètre  |Description  |
 |---------|---------|
-|**Nom**     |Il s’agit du nom de la stratégie qui s’affiche dans la page stratégies d’événements dynamiques. Il ne peut pas contenir plus de 64 caractères, ni contenir des caractères spéciaux.          |
+|**Titre**     |Il s’agit du titre de la stratégie qui s’affiche dans la page stratégies d’événements dynamiques. Il ne peut pas contenir plus de 64 caractères, ni contenir des caractères spéciaux.          |
 |**Description**    |Utilisez cette opération pour ajouter une description conviviale de la stratégie.         |
 |**Autoriser la planification**     |L’activation de cette option permet aux utilisateurs de votre organisation de créer et de planifier des événements en direct dans Teams. Il est important de savoir que si vous souhaitez que les utilisateurs planifient un événement en direct obtenu à l’aide d’une application ou d’un appareil externe, vous devez effectuer des étapes supplémentaires. Pour en savoir plus, voir [permettre aux utilisateurs de planifier des événements qui ont été produits avec un appareil ou une application externe](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Autoriser la transcription pour les participants** |Ce paramètre ne peut être appliqué qu’aux événements produits dans Teams. L’activation de cette fonction permet aux participants en temps réel d’afficher des légendes et des sous-titres en direct pendant l’événement.         |

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271456"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493125"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -206,28 +206,34 @@ Avec la version initiale du routage direct, Microsoft a demandé qu’un Trunk s
 
 Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes:
  
-• **Gestion des frais d’administration**. Par exemple, si vous déchargez ou déchargez un SBC, vous modifiez des paramètres, par exemple, en activant ou en désactivant la dérivation multimédia. Le changement de port nécessite la modification des paramètres de plusieurs clients (en exécutant Set-CSOnlinePSTNGateway), mais il est en fait le même SBC. • **Traitement**de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
+- **Gestion des frais d’administration**. Par exemple, si vous déchargez ou déchargez un SBC, vous modifiez des paramètres, par exemple, en activant ou en désactivant la dérivation multimédia. Le changement de port nécessite la modification des paramètres de plusieurs clients (en exécutant Set-CSOnlinePSTNGateway), mais il est en fait le même SBC. 
+
+-  **Traitement**de la surcharge. Collecte et analyse des données d’intégrité de Trunk-les options SIP collectées à partir de plusieurs trunks logiques qui sont en réalité, le même SBC et le même tronc physique, ralentissent le traitement des données de routage.
  
 
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
 
-Deux nouvelles entités ont été introduites: • un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
-• Trunk dérivé, qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir du Trunk du transporteur. Il dérive de tous ses paramètres de configuration du Trunk de l’opérateur. Le Trunk dérivé ne doit pas nécessairement être créé dans PowerShell et l’association avec le Trunk de transporteur est basée sur le nom de domaine complet (voir les détails ci-dessous).
+Deux nouvelles entités ont été introduites:
+-   Un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
 
-Exemple de logique de mise en service.
+-   Trunk dérivé, qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir du Trunk du transporteur. Il dérive de tous ses paramètres de configuration du Trunk de l’opérateur. Le Trunk dérivé ne doit pas nécessairement être créé dans PowerShell et l’association avec le Trunk de transporteur est basée sur le nom de domaine complet (voir les détails ci-dessous).
 
-• Les opérateurs doivent uniquement configurer et gérer un seul Trunk (opérateur Trunk dans le domaine de l’opérateur), à l’aide de la commande Set-CSOnlinePSTNGateway. Dans l’exemple ci-dessus, il s’agit de adatum.biz. • Dans le client client, l’opérateur doit uniquement ajouter le nom de domaine complet du Trunk dérivé aux stratégies de routage vocal des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway pour un Trunk.
-• Trunk dérivé, car son nom l’indique, hérite de tous les paramètres de configuration du Trunk de l’opérateur. Exemples: • Customers.adatum.biz: le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
-• Sbc1.customers.adatum.biz: Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
+**Exemple de logique de mise en service et d’exemple**
 
-• Les modifications apportées sur un Trunk de transporteur (sur le locataire du transporteur) s’appliquent automatiquement aux troncages dérivés. Par exemple, les opérateurs peuvent modifier un port SIP sur le Trunk du transporteur, et cette modification s’applique à tous les Trunks dérivés. La nouvelle logique de configuration des Trunks simplifie la gestion, car vous n’avez pas besoin d’accéder à chaque client et de changer le paramètre sur chaque Trunk.
-• Les options ne sont envoyées qu’au FQDN du Trunk d’opérateur. L’état d’intégrité du Trunk de transporteur est appliqué à toutes les Trunks dérivées et est utilisé pour les décisions de routage. En savoir plus sur les [options de routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
-• Le porteur peut décharger le Trunk du porteur, et tous les Trunks dérivés le seront également. 
+-   Les opérateurs doivent uniquement configurer et gérer un seul Trunk (opérateur Trunk dans le domaine de l’opérateur), à l’aide de la commande Set-CSOnlinePSTNGateway. Dans l’exemple ci-dessus, il s’agit de adatum.biz.
+-   Dans le client client, l’opérateur doit uniquement ajouter le nom de domaine complet du Trunk dérivé aux stratégies de routage vocal des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway pour un Trunk.
+-    Le Trunk dérivé, tel que le nom l’indique, hérite de tous les paramètres de configuration de l’opérateur Trunk. Donnés
+-   Customers.adatum.biz: le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
+-   Sbc1.customers.adatum.biz: Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
+
+-   Les modifications apportées sur un Trunk de transporteur (sur le locataire du transporteur) s’appliquent automatiquement aux troncages dérivés. Par exemple, les opérateurs peuvent modifier un port SIP sur le Trunk du transporteur, et cette modification s’applique à tous les Trunks dérivés. La nouvelle logique de configuration des Trunks simplifie la gestion, car vous n’avez pas besoin d’accéder à chaque client et de changer le paramètre sur chaque Trunk.
+-   Les options ne sont envoyées qu’au nom de domaine complet du Trunk du transporteur. L’état d’intégrité du Trunk de transporteur est appliqué à toutes les Trunks dérivées et est utilisé pour les décisions de routage. En savoir plus sur les [options de routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-   Le porteur peut décharger le Trunk du porteur, et tous les Trunks dérivés seront également drainés. 
  
 
-Migration du modèle précédent vers le Trunk de l’opérateur
+**Migration du modèle précédent vers le Trunk de l’opérateur**
  
-Pour effectuer une migration à partir de l’implémentation actuelle du modèle hébergé sur l’opérateur vers le nouveau modèle, les opérateurs doivent reconfigurer les Trunks pour les clients clients. Supprimez les Trunks des clients de clients à l’aide de Remove-CSOnlinePSTNGateway (en laissant le Trunk dans le client de l’opérateur).
+Pour effectuer une migration à partir de l’implémentation actuelle du modèle hébergé sur l’opérateur vers le nouveau modèle, les opérateurs doivent reconfigurer les Trunks pour les clients clients. Supprimez les Trunks des clients de clients à l’aide de Remove-CSOnlinePSTNGateway (en laissant le Trunk dans le client de l’opérateur)-
 
 Nous vous encourageons vivement à procéder à une migration vers la nouvelle solution le plus rapidement possible, car nous améliorerons la surveillance et l’approvisionnement en utilisant le porteur et le modèle de Trunk dérivé.
  
