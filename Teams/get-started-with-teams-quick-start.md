@@ -5,22 +5,23 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: lolaj
 description: Commencer à utiliser Microsoft Teams en déployant vos premières équipes et premiers canaux afin de gagner de l’expérience avant de le déployer largement au sein de votre organisation.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: e0607544da01d6dce094f64684a717d2704acee4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433119"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241594"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -40,7 +41,7 @@ Voici comment mettre en place votre première série d’équipes et canaux pour
 
 Si vous êtes une grande organisation, si vous avez une configuration hybride ou Skype Entreprise en local, si vous avez des exigences réglementaires ou de conformité strictes, ou si vous voulez mettre en place des réunions ou des fonctionnalités vocales (par exemple, plans d’appel ou système téléphonique), commencez par lire [ Comment mettre en place Teams](how-to-roll-out-teams.md). Nous vous recommandons de toujours commencer avec cette section **Prise en main** pour développer vos compétences et commencer à planifier le déploiement à l’échelle de l’organisation. « Planifiez Teams avec Teams. » Commencez modestement en déployant Teams avec le module conversations, les équipes, les canaux et les applications, puis développez-les. Ces expériences initiales vous permettront de faire passer le mot sur Teams et susciter de l'enthousiasme dans l'ensemble de l'organisation pour la phase de lancement suivante. 
 
-Si vous êtes une petite entreprise, vous pourrez utiliser ce guide de prise en main pour déployer entièrement Teams dans votre organisation. Les petites entreprises n’ont peut-être pas besoin d’effectuer un déploiement progressif de Teams.
+Si vous êtes une petite entreprise, vous pourrez utiliser ce guide de prise en main pour déployer entièrement Teams dans votre organisation. Les petites entreprises n’ont peut-être pas besoin d’effectuer un déploiement progressif de Teams. N’hésitez pas à consulter les modèles destinés aux petites entreprises pour simplifier et rationaliser le déploiement dans votre organisation. Voir [Prise en main des modèles Teams pour les petites et moyennes entreprises](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Avant de commencer
 
