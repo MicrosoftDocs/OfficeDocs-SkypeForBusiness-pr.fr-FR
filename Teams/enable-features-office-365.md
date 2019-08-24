@@ -3,64 +3,40 @@ title: Gérer les paramètres de Microsoft Teams pour votre organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Découvrez comment activer ou désactiver les paramètres à l’échelle de l’organisation Microsoft Teams pour votre organisation, y compris les applications, l’accès externe, l’accès invité, les paramètres Teams et les préférences de mise à niveau Teams.
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221535"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483289"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
-Tous les paramètres de Teams seront bientôt migrés vers le nouveau centre d’administration de Microsoft Teams. La seule fonctionnalité de Teams qui est gérée dans le centre d’administration Office 365 est Applications. 
+## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Paramètres des applications Teams dans le centre d’administration de Microsoft Teams
 
-Sauf indication contraire, la valeur par défaut d'une option est **Activée**.
+Vous gérez les applications pour votre organisation dans les **applications Teams** au sein du Centre d’administration Microsoft Teams. Par exemple, vous pouvez définir des stratégies pour contrôler les applications disponibles pour l’ensemble de l’organisation ou pour des utilisateurs spécifiques de Teams. Vous pouvez également personnaliser Teams en épinglant les applications les plus importantes pour vos utilisateurs.
 
-## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Paramètres de l’échelle du client dans le Centre d’administration Microsoft 365
-
-Vous pouvez désactiver ou activer les applications pour Teams dans **Paramètres à l’échelle du client** dans le centre d’administration Microsoft 365. 
-
-Pour modifier les **paramètres à l’échelle du client** de Teams, accédez au centre d’administration Microsoft 365, sélectionnez **Paramètres** > **Services et compléments** > **Microsoft Teams**. Si vous êtes connecté en tant qu’administrateur d’Office 365, ce lien doit vous diriger vers l’emplacement suivant : 
-
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
-
-### <a name="apps"></a>Applications
-
-Les applications sont des onglets, des connecteurs, des bots ou une combinaison des trois, fournies par Teams (applications internes, ou par défaut) ou par un tiers (applications externes). Sous **Applications**, vous pouvez activer et désactiver les applications par défaut et configurer les paramètres pour contrôler les applications externes. Pour découvrir le déploiement d’applications, de bots, de connecteurs et d’onglets dans Teams, lisez [applications, bots et connecteurs](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page).
-
-#### <a name="default-apps"></a>Applications par défaut
-
-Les applications par défaut, comme le Planificateur, Compliment et Météo sont fournies par Teams. Pour activer une application, cochez la case correspondante. Pour désactiver une application, décochez la case.
-
-![Capture d’écran de la section Applications par défaut.](media/teams-manage-features-in-office365-image1.png "Capture d’écran de la section Applications par défaut")
-
-#### <a name="external-apps"></a>Applications externes
-
-Les applications externes sont fournies par des tiers. Vous pouvez configurer les paramètres suivants pour les applications externes.
-
-![Capture d’écran de la section Applications par défaut.](media/teams-manage-features-in-office365-image2.png "Capture d’écran de la section Applications par défaut, montrant les paramètres que vous pouvez activer et désactiver")
-
-- **Autoriser les applications externes dans Microsoft Teams :** lorsque ce paramètre est activé, les utilisateurs peuvent ajouter les applications externes qui sont disponibles pour votre organisation. 
-
-- **Permettre le chargement transversal des applications externes**: Si vous souhaitez activer certaines applications externes et en désactiver d’autres, désactivez ce paramètre et, dans la liste des applications externes, désactivez les applications auxquelles vous ne voulez pas que les utilisateurs accèdent. Lorsque ce paramètre est activé, les propriétaires d’équipes et les membres autorisés peuvent charger une version test des applications dans Teams. 
-
-- **Activer les applications externes nouvelles par défaut** : lorsque ce paramètre est activé, les utilisateurs peuvent activer les nouvelles applications dès qu'elles sont ajoutées au catalogue d'applications Teams. Désactivez ce paramètre si vous souhaitez contrôler les nouvelles applications. Bien sûr, si vous le désactivez, n'oubliez pas de vérifier régulièrement les nouvelles applications afin que votre organisation ne passe pas à côté de nouvelles applications intéressantes. 
+Pour en savoir plus, voir [Paramètres d’administration des applications dans Teams](admin-settings.md).  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Paramètres Teams à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams
+
 Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organisation dans le centre d’administration de Microsoft Teams. Pour modifier les paramètres à l’échelle de l’organisation, accédez au centre d’administration de Microsoft Teams, puis sélectionnez **Paramètres à l’échelle de l’organisation**. Vous pouvez configurer les paramètres suivants.
 
 ### <a name="external-access"></a>Accès externe
