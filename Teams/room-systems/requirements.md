@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: f8c29d023e78758b3e6933a958d6efe1cf30f0b5
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: ee2f60fbf638613eb296bc24b1bebd1dfc66553a
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427975"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645269"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
@@ -48,7 +48,7 @@ Les salles de Microsoft teams s’adaptent aux différentes tailles de pièces p
 
 |Tablette|Processeur|RAM|Disque|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6| |Core i5||16 Go ou 8 Go |128 Go ou plus |
+|Surface Pro 6| Core i5 |16 Go ou 8 Go |128 Go ou plus |
 |Surface Pro (5e génération) |Core i5 |8 Go ou 4 Go |128 Go ou plus |
 |Surface Pro 4 |Core i5 |8 Go ou 4 Go |128 Go ou plus |
 

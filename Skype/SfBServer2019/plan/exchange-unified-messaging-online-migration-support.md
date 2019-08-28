@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243893"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645247"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -23,8 +23,7 @@ Dans le rapport de l' [annonce](https://blogs.technet.microsoft.com/exchange/201
  
 ExchUMO est déployé par des clients pour la boîte vocale, le standard automatique, la file d’attente des appels et les services d’intégration de télécopie. Microsoft envisage d’aider les clients à migrer sur des services de système téléphonique qui prennent déjà en charge des milliers de clients sur Skype entreprise Online et Microsoft Teams. 
 
-La boîte vocale est essentiellement une migration pilotée par Microsoft; la participation de l’administrateur et l’investissement seront nécessaires pour un sous-ensemble de clients. Les standards automatiques et les files d’attente d’appels ont une migration pilotée par l’administrateur. les administrateurs ont besoin de recréer les arbres de standard automatique ExchUMO existants dans le service de standard automatique du système téléphonique. Les clients qui utilisent une des fonctionnalités ExchUMO avec un système PBX tiers ne migrent pas vers les services Cloud du système téléphonique, car ces services ne prennent pas en charge les systèmes PBX tiers. Un plan de retraite pour le support technique tiers a été annoncé l’année dernière dans [ce blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-), et les clients dans ce modèle de déploiement peuvent migrer leurs utilisateurs vers l’une des plates-formes ou services de messagerie unifiée Microsoft ou acquérir un message vocal ou automatique tiers solution de surveillance pour ces utilisateurs. L’intégration de télécopie n’est pas prise en charge par le système téléphonique. les clients devront migrer vers une solution tierce. 
+La boîte vocale est essentiellement une migration pilotée par Microsoft; le besoin d’administration et/ou l’investissement peuvent être requis pour un sous-ensemble de clients. Le standard automatique est une migration gérée par l’administrateur. vous devez recréer les arborescences de standard automatique ExchUMO existantes dans le service Cloud du standard automatique Cloud. Les clients qui accèdent à n’importe quelle fonction ExchUMO avec un système PBX tiers ne migrent pas vers les services Cloud de Skype, car ils ne prennent pas en charge les systèmes PBX tiers. Un plan de mise hors service du support technique tiers a été annoncé dans [ce blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), et les clients dans ce modèle de déploiement pourront migrer leurs utilisateurs vers l’une des plateformes ou services de communications unifiées de Microsoft ou acquérir un message vocal et/ou automatique tiers. solution de surveillance pour ces utilisateurs. L’intégration de télécopie n’est pas prise en charge dans les services Cloud. les clients devront migrer vers une solution tierce.
 
 ### <a name="who-is-affected"></a>Qui est concerné?
 

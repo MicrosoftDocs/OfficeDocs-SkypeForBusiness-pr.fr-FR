@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
-ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793167"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645299"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -235,8 +235,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Pour les conférences audio, vous pouvez attribuer un numéro dédié à un pont de conférence en accédant aux**centres** > d’administration du**** Centre**** >  > d' **administration Microsoft 365**et en cliquant sur le bouton Conference Bridge ou en consultant [les numéros payants ou les numéros gratuits de votre pont de conférence audio](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- Pour les standards automatiques, vous pouvez attribuer un numéro dédié à un standard automatique en accédant aux centres d’administration du**** > Centre > d' **administration Microsoft 365**dans les**centres** > d’administration de**Skype entreprise** > .** **puis cliquez sur le standard automatique. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [configurer un standard automatique Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
-
+- Pour les standards automatiques, vous pouvez attribuer un numéro dédié à un standard automatique en accédant aux centres d’administration du**** > Centre > d' **administration Microsoft 365**dans les**centres** > d’administration de**Skype entreprise** > .** **et en cliquant sur le standard automatique. Dans la page **général** , le numéro de service dont vous disposez est déjà répertorié dans la liste déroulante **numéro de téléphone** . Pour plus d’informations, consultez [configurer un standard automatique Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 - Pour les files d’attente d’appels, vous pouvez attribuer un numéro dédié à une file d’attente d'**** > **** appels en accédant aux**centres** > **** > d’administration du **Centre** > d’administration de Microsoft 365 et en cliquant sur dans la file d’attente d’appels. Dans la page **Général**, le numéro de service que vous avez déjà sera consigné dans le **numéro de téléphone** de la liste déroulante. Pour plus d’informations, consultez [créer une file d’attente des appels Cloud](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Pour plus d’informations voir [Créer une attente système téléphonique appelée = "undefined" class="unusedGlossaryTerm">](/microsoftteams/getting-service-phone-numbers).**
