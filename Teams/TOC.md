@@ -304,6 +304,7 @@
 ### [Parcage d’appel et récupération](call-park-and-retrieve.md)
 ### [Partage d’appel et prise d’appel de groupe](call-sharing-and-group-call-pickup.md)
 ### [Stratégie d’Appel](teams-calling-policy.md)
+### [Stratégie d’ID de l’appelant](caller-id-policies.md)
 ### [Mode partage de lignes](shared-line-appearance.md)
 ### [Comprendre comment les utilisateurs peuvent bloquer les appels PSTN pour les clients Teams](block-pstn-calls-on-Teams-clients.md)
 
