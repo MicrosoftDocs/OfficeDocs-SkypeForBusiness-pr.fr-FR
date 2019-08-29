@@ -15,18 +15,16 @@ ms.collection:
 description: Découvrez comment utiliser le rapport d’utilisation du centre d’administration Microsoft teams dans le centre d’administration Microsoft teams pour avoir une vue d’ensemble des activités d’événements en direct au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239805"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667059"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Rapport sur l’utilisation des événements Microsoft teams Live
 
 Le rapport utilisation des événements en direct dans le centre d’administration Microsoft teams vous montre la vue d’ensemble des activités liées aux événements en direct au sein de votre organisation. Vous pouvez afficher les informations d’utilisation, telles que l’état de l’événement, l’heure de début, les affichages et le type de production pour chaque événement. Vous pouvez découvrir les tendances d’utilisation et savoir qui dans votre organisation planifie, présente et génère des événements en direct. 
-
-![Capture d’écran du rapport d’utilisation des événements en direct teams dans le centre d’administration Microsoft teams] (../media/teams-live-event-usage-report.png "Capture d’écran du rapport utilisation de Microsoft teams dans le centre d’administration")
 
 ## <a name="view-the-report"></a>Afficher le rapport
 
@@ -35,9 +33,9 @@ Le rapport utilisation des événements en direct dans le centre d’administrat
 3. Facultatif Sous **organisateur**, vous pouvez choisir d’afficher uniquement les événements dynamiques organisés par un utilisateur spécifique.
 4. Cliquez sur **exécuter un rapport**.  
 
-## <a name="interpret-the-report"></a>Interpréter le rapport
+    ![Capture d’écran du rapport d’utilisation des événements en direct teams dans le centre d’administration teams avec légendes] (../media/teams-live-event-usage-report-with-callouts.png "Capture d’écran du rapport d’utilisation des événements en direct teams dans le centre d’administration teams avec légendes")
 
-![Capture d’écran du rapport d’utilisation des événements en direct teams dans le centre d’administration Microsoft teams] (../media/teams-live-event-usage-report-with-callouts.png "Capture d’écran du rapport sur l’utilisation des événements en direct teams dans le centre d’administration avec des légendes numérotées")
+## <a name="interpret-the-report"></a>Interpréter le rapport
 
 |Légende |Description  |
 |--------|-------------|
@@ -56,5 +54,6 @@ La page Détails de l’événement en direct fournit un résumé des détails d
 Si votre organisation est activée pour la [ruche](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ECDN ou [Kollective](https://kollective.com) eCDN, vous pouvez obtenir des analyses de participants supplémentaires en cliquant sur le lien du rapport partenaire.
 
 ## <a name="related-topics"></a>Voir aussi
+
 - [Analyses et rapports Teams](teams-reporting-reference.md)
 - [Que sont les événements en direct Teams ?](../teams-live-events/what-are-teams-live-events.md)
