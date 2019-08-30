@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483314"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675405"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -173,7 +173,11 @@ Vous pouvez sélectionner jusqu’à 200 opérateurs d’appel qui appartiennent
 - Groupe de sécurité
 - Liste de distribution
 
-Les téléopérateurs **** sélectionnés doivent être des utilisateurs en ligne disposant d’une licence de **système téléphonique** et d’Enterprise Voice activé **ou** d’une offre d’appels.
+Les agents d’appel sélectionnés doivent être l’un des éléments suivants: 
+
+- Utilisateurs en ligne avec une licence de système téléphonique et la voix entreprise activée 
+- Utilisateurs en ligne avec un plan d’appels
+- Utilisateurs du serveur Skype entreprise sur site
 
   > [!NOTE]
   > Cela s’applique également si vous souhaitez rediriger les appels vers des utilisateurs de votre organisation qui sont en ligne. Ces personnes doivent disposer d’une licence de **système téléphonique** et d’une voix entreprise activée **ou** avoir un plan d’appels. Pour plus d’informations, reportez-vous à la section [affectation de licences Skype entreprise](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [attribution de licences Microsoft teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)ou le [plan d’appels qui vous convient?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)

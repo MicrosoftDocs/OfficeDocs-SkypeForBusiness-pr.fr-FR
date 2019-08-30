@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenez une liste des problèmes connus liés à l’utilisation de Microsoft comme fournisseur de conférences rendez-vous, ainsi que des solutions de contournement. '
-ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289582"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675236"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problèmes connus et dépannage à propos de l'audioconférence
 
@@ -43,6 +43,7 @@ Pour le moment, utilisez la documentation comme référence lorsque vous résolv
 |Si un utilisateur est approvisionné pour la première fois en ayant reçu une licence E5, il est possible que le message de bienvenue de l’audioconférence ne soit pas remis à l’utilisateur si la boîte aux lettres n’est pas activée.  <br/> |Si tel est le cas, vous pouvez toujours renvoyer les informations de l’audioconférence de l’utilisateur à l’aide de l' **audioconférence** dans le centre d’administration Skype entreprise ou à l’aide de PowerShell. Voir [activer ou désactiver l’envoi de courriers lorsque les paramètres de conférence audio changent](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Remarque:** Pour envoyer à l’utilisateur le code confidentiel de l’audioconférence, le code confidentiel doit être réinitialisé. Vous pouvez également effectuer cette opération à l’aide de l' **audioconférence** dans le centre d’administration Skype entreprise ou à l’aide de PowerShell.          |Aucune solution.  <br/> |30/8/2017  <br/> |
 |Les appels d’audioconférence peuvent être affichés dans les rapports d’utilisation jusqu’à 24 heures.  <br/> |Nous espérons apporter des améliorations à cette zone dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
 |Lorsqu’un utilisateur appelle un pont de conférence une fois que la réunion a été verrouillée par un utilisateur de Skype entreprise, il n’y a pas de notification dans l’application Skype entreprise indiquant que l’utilisateur se trouve dans la salle d’attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
+|Un utilisateur Skype entreprise Server (locaux) A attribué la licence d’audioconférence avant le 1er mars 2019, il est possible que les coordonnées de connexion apparaissent dans les invitations aux réunions.  <br/> |La mise en service des utilisateurs de Skype entreprise Server pour les conférences audio d’équipes n’était pas prise en charge jusqu’à cette date. Ce service est désormais pris en charge et est un composant des [réunions d’abord](https://docs.microsoft.com/microsoftteams/meetings-first). L’utilisateur doit avoir une licence Teams.  <br/> |Le pipeline de mise en service doit être réactivé. Supprimez la licence d’audioconférence de l’utilisateur, attendez quelques heures, puis réattribuez la licence.  <br/> |1/3/2019  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 
