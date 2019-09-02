@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
+ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483289"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699371"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -56,15 +56,19 @@ L’**accès invité** dans Microsoft Teams permet aux équipes de votre organi
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
-Dans les **paramètres de Teams**, vous pouvez configurer l'intégration de la messagerie, les options de stockage cloud, l’interopérabilité de Skype Entreprise et les périphériques.
+Dans les **Paramètres de Teams**, vous pouvez configurer des fonctionnalités pour les équipes, notamment les notifications et les flux, l’intégration des e-mails, les options de stockage cloud et les appareils.
+
+#### <a name="notifications-and-feeds"></a>Notifications et flux
+
+Vous pouvez déterminer si les flux suggérés s’affichent dans le flux d’activité des utilisateurs dans Teams. Pour en savoir plus sur le flux d’activités, voir [Explorer le flux d’activités dans Microsoft Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
 #### <a name="email-integration"></a>Intégration de courrier électronique
 
-Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. Pour activer l’intégration de la messagerie, assurez-vous que l’option **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail de canal** est **activée**. 
+Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Ils peuvent également envoyer des e-mails à n’importe quel canal dans une équipe pour laquelle la fonction d’ajout de connecteurs est activée pour les membres de l’équipe. Pour activer l’intégration de la messagerie, assurez-vous que l’option **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail de canal** est **activée**.
 
 #### <a name="files"></a>Fichiers
 
-Ici, vous pouvez activer ou désactiver les options de partage de fichiers et de stockage de fichiers dans le cloud. 
+Ici, vous pouvez activer ou désactiver les options de partage de fichiers et de stockage de fichiers dans le cloud.
 
 Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent ShareFile, Dropbox, Box et Google Drive. Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
 
