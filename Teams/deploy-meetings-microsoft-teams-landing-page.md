@@ -51,9 +51,7 @@ Vous pouvez utiliser le [compagnon de test de réseau ](https://www.powershellga
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|Mon réseau est-il prêt pour le déploiement de réunions Teams ? | Pour vérifier que votre réseau est prêt, voir :<ul><li>
-  [Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/fr-FR/MicrosoftTeams/prepare-network)</li><li>
-  [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/fr-FR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Mon réseau est-il prêt pour le déploiement de réunions Teams ? | Pour vérifier que votre réseau est prêt, voir :<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](https://docs.microsoft.com/fr-FR/MicrosoftTeams/prepare-network)</li><li>[URL et plages d’adresses IP Office 365](https://docs.microsoft.com/fr-FR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
