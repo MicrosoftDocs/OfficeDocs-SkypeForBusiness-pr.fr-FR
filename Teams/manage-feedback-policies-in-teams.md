@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242157"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715817"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -49,7 +49,7 @@ Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie
 
 Par exemple, supposons que vous souhaitiez permettre à tous les utilisateurs de votre organisation d’envoyer des commentaires par le biais de **Commentaires** et de recevoir des enquêtes à l’exception des nouvelles recrues dans la formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver les deux fonctions et les attribuer aux nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la politique globale avec les fonctionnalités activées.  
 
-Vous pouvez utiliser l’applet de nouvelle applet de **nouveau-CsTeamsFeedbackPolicy** pour créer une stratégie personnalisée et l’applet de passe **Grant-CsTeamsFeedbackPolicy** pour l’attribuer à un ou plusieurs utilisateurs ou groupes d’utilisateurs, par exemple un groupe de sécurité ou un groupe de distribution.
+Vous pouvez utiliser l’applet **de nouvelle applet de nouveau-CsTeamsFeedbackPolicy** , * [disponible ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, pour créer une stratégie personnalisée et l’applet de passe **Grant-CsTeamsFeedbackPolicy** pour l’attribuer à un ou plusieurs utilisateurs ou groupes d’utilisateurs, comme un groupe de sécurité ou Groupe de distribution.
 
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants:
 

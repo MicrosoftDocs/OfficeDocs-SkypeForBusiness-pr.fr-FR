@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: 0a53b68af411ad7085ef3abf6e978565f9ea18f0
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 95390586ce016972fc7d27eeeac0bfa48e106570
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483560"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715838"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -145,7 +145,7 @@ L’ID d’application que vous devez utiliser lors de la création des instance
 - **File d’attente des appels:** 11cd3e2e-FCCB-42AD-AD00-878b93575e07
 
 > [!NOTE]
-> Si vous souhaitez que la file d’attente d’appels ou le standard automatique puissent être recherchés par des utilisateurs locaux, vous devez créer vos comptes de ressources en local, car les comptes de ressources en ligne ne sont pas synchronisés avec Active Directory.
+> Si vous voulez que la file d’attente d’appels ou le standard automatique puissent être recherchés par des utilisateurs locaux, vous devez créer vos comptes de ressources en local, car les comptes de ressources en ligne ne sont pas synchronisés avec Active Directory.
 
 1. Pour créer un compte de ressources en ligne à utiliser avec un standard automatique, utilisez la commande suivante.
 

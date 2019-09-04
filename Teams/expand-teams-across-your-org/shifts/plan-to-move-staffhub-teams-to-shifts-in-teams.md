@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0804b3fb0783a588fdd79dfec1a8dd39e4d92f34
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447964"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715916"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planifier le déplacement de vos équipes StaffHub vers les équipes de Microsoft teams
 
@@ -44,7 +44,7 @@ Servez-vous de la chronologie en guise d’instructions pour planifier votre pas
 |7     |Déterminez la chronologie et identifiez les utilisateurs de StaffHub pour le déménagement aux équipes       |[Exécuter un rapport pour afficher l’utilisation effective de StaffHub](run-report-to-show-staffhub-usage.md) |
 |version8     |Identifier les utilisateurs d’StaffHub qui n’ont pas de compte Azure AD (qui s’affiche comme «inactif» dans StaffHub) et de lier un compte pour eux     |[Créer un lien vers un compte Azure AD pour les membres de l’équipe StaffHub qui n’en ont pas](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |09    |Créer du contenu de formation pour les utilisateurs adaptés à votre organisation         |[Préparer un plan de vérification de l’utilisateur pour teams](../../upgrade-user-readiness.md)     |
-|0,10    |Communiquer aux utilisateurs de StaffHub à propos de la transition aux équipes dans teams         |         |
+|0,10    |Communiquer aux utilisateurs de StaffHub à propos de la transition aux équipes dans teams         |[StaffHub-XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX](staffhub-to-teams-email-template.md)         |
 |27,9     |Installer les clients teams         |[Obtenir des clients pour Teams](../../get-clients.md) |
 |midi    |Affectez la stratégie de configuration de l’application FirstLineWorker aux utilisateurs (ou créez et attribuez une stratégie de configuration d’application personnalisée) pour épingler l’application Shifts aux clients Teams.  |[Affecter la stratégie de configuration de l’application FirstlineWorker aux utilisateurs](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
 |n°13     |Former les utilisateurs sur l’utilisation des équipes et des équipes         |[Utilisateurs intégrés à teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Documentation d’aide sur les Shifts](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Documentation d'aide Teams](https://support.office.com/teams)<br><br>[Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |

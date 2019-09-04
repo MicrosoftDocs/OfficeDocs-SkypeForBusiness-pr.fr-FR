@@ -18,29 +18,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Office 365 Business Premium. '
-ms.openlocfilehash: 1372948962e15de861402fa4f9d30e5749204af8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242657"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715906"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Si vous avez [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
 
-**Trois options s’offrent à vous pour passer et recevoir des appels de personnes extérieures à votre entreprise**:
+**Pour passer et recevoir des appels de personnes extérieures à votre entreprise, vous disposez des options**suivantes:
 
 - **Option 1**. Utilisez l' [application gratuite teams](https://products.office.com/microsoft-teams/free). S’il s’agit d’une petite entreprise (par exemple, 1-2), il est préférable d’utiliser l’application Teams. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours passer des appels audio et vidéo 1:1 et de groupe et partager votre bureau pour des présentations. [Comparer les fonctions, les tarifs et les options de paiement](https://products.office.com/microsoft-teams/free).
 
      Nous vous recommandons de commencer par teams gratuitement pour voir s’il répond à vos besoins. Toutefois, si vous n’avez pas encore deux options.
-
-- **Option 2. Gardez votre plan et achetez un système téléphonique et un plan d’appels nationaux ou internationaux**.
-    1. Acheter le module complémentaire Système téléphonique.
     
-    2. Acheter un [plan d’appel pour Office 365](../calling-plans-for-office-365.md) -vous pouvez l’acheter uniquement après l’acquisition du complément de votre système téléphonique.
-    
-- **Option 3. Mettez à niveau votre plan et achetez un système téléphonique et un plan d’appels nationaux ou internationaux**.
+- **Option 2. Mettez à niveau votre forfait et acheter un Système téléphonique et un forfait d'appels local ou national**.
 
     1. [Basculer vers une autre offre Office 365 pour les entreprises](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Nous vous conseillons de considérer un forfait d’entreprise E5 pour voir s’il ne serait pas plus rentable.
 

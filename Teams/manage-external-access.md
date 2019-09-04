@@ -18,17 +18,17 @@ description: Votre administrateur informatique peut configurer l’accès extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 71aad6a5b19c1d641347b9e0f119acf2f72d5ce9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 146ec2f30afa03a3e8519637a4f852f1b0e73cef
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242128"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715860"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================
 
-L’accès externe de Microsoft teams permet aux utilisateurs de teams d’autres domaines de participer à vos discussions et appels. Vous pouvez également autoriser les utilisateurs externes de Othe qui utilisent encore Skype entreprise Online, Skype entreprise sur-locaux ou même Skype à participer.
+L’accès externe de Microsoft teams permet aux utilisateurs de teams d’autres domaines de participer à vos discussions et appels. Vous pouvez également autoriser d’autres utilisateurs externes de Skype entreprise Online, de Skype entreprise sur locaux ou même de Skype à participer.
 
 Suivez la procédure décrite dans cet article lorsque :
   

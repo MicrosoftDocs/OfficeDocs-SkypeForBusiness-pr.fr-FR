@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et de Lync 2013 au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 7243c607f4855c431256335131f70cd080b6d00c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234606"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715710"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -37,6 +37,7 @@ Pour obtenir les mises à jour les plus récentes de Skype entreprise Online et 
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour cumulative 2015 de Skype entreprise Server|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 septembre |
 |Mise à jour cumulative 9 pour Skype entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 |
 |Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 janvier|
 |Mise à jour cumulative 7 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4340904](https://support.microsoft.com/kb/3134260) |Juillet 2018 |

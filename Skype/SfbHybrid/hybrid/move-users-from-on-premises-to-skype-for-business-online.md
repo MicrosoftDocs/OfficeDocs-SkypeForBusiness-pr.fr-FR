@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs vers Skype entreprise online.
-ms.openlocfilehash: 90d225eb725690566f23b73b3626cbcf1f42c8c7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "36160525"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715892"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Déplacer des utilisateurs de l’organisation locale vers Skype entreprise Online
 
@@ -31,7 +31,7 @@ Avant de déplacer des utilisateurs, veillez à passer en revue les [éléments 
  
 ## <a name="move-users-with-move-csuser"></a>Déplacer des utilisateurs à l’aide de Move-CsUser 
 
-Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype entreprise Management Shell locale. Vous devez disposer de privilèges suffisants dans l’environnement local et dans le client Office 365, comme décrit dans la rubrique [Required Credentials Requirements](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Vous pouvez utiliser un compte unique qui dispose de privilèges dans les deux environnements, ou vous pouvez démarrer une fenêtre locale de Skype entreprise Server Management Shell avec des informations d’identification locales et utiliser le `-Credential` paramètre pour spécifier des informations d’identification pour un Office 365 compte avec le rôle d’administrateur Office 365 nécessaire.
+Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype entreprise Management Shell locale. Vous devez disposer de privilèges suffisants dans l’environnement local et dans le client Office 365, comme décrit dans la rubrique [Required Credentials Requirements](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Vous pouvez utiliser un compte unique qui dispose de privilèges dans les deux environnements, ou vous pouvez démarrer une fenêtre Skype entreprise Server Management Shell locale avec des informations d’identification locales et utiliser le `-Credential` paramètre pour spécifier des informations d’identification pour un Office 365 compte avec le rôle d’administrateur Office 365 nécessaire.
 
 Pour déplacer un utilisateur vers en ligne à l’aide de Move-CsUser:
 

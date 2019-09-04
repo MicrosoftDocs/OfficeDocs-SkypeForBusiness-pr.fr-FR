@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47341662267a3da0a83174cbccb2b2cd251538b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245752"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715798"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -124,7 +124,7 @@ Les plateformes mobiles prises en charge pour les applications mobiles Microsoft
 > [!NOTE]
 > La version mobile doit être disponible au public pour que Teams fonctionne comme prévu.
 
-Les applications mobiles sont distribuées et mises à jour uniquement via la boutique d'applications de la plateforme mobile respective et ne peuvent pas être distribuées via des solutions MDM (gestion des périphériques mobiles) ni utilisées comme version de test.
+Les applications mobiles sont distribuées et mises à jour par le biais du magasin d’applications de la plateforme mobile correspondante uniquement. La distribution des applications mobiles via le GPM ou le chargement hors Windows Store n’est pas prise en charge par Microsoft. Une fois l’application mobile installée sur une plate-forme mobile prise en charge, l’application mobile teams est prise en charge, à condition que la version soit dans les trois mois de la version actuelle.
 
 
 | | | |
