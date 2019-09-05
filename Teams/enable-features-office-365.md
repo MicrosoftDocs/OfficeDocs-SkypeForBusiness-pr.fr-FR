@@ -20,18 +20,18 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
-ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
+ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "36699371"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715925"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
-## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Paramètres des applications Teams dans le centre d’administration de Microsoft Teams
+## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Paramètres des applications Teams dans le centre d’administration Microsoft Teams
 
-Vous gérez les applications pour votre organisation dans les **applications Teams** au sein du Centre d’administration Microsoft Teams. Par exemple, vous pouvez définir des stratégies pour contrôler les applications disponibles pour l’ensemble de l’organisation ou pour des utilisateurs spécifiques de Teams. Vous pouvez également personnaliser Teams en épinglant les applications les plus importantes pour vos utilisateurs.
+Vous gérez les applications pour votre organisation dans les **applications Teams** au sein du [centre d’administration Microsoft Teams](https://admin.teams.microsoft.com). Par exemple, vous pouvez définir des stratégies pour contrôler les applications disponibles pour l’ensemble de l’organisation ou pour des utilisateurs spécifiques de Teams. Vous pouvez également personnaliser Teams en épinglant les applications les plus importantes pour vos utilisateurs.
 
 Pour en savoir plus, voir [Paramètres d’administration des applications dans Teams](admin-settings.md).  
 

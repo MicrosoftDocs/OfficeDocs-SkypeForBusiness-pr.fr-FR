@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec2df17ca154ca01aac5febe572068225165435
-ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
+ms.openlocfilehash: d5910a363032a35bd7096e4048d38d51f260b72b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "36404542"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715728"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>FAQ – Mise à niveau de Skype Entreprise vers Microsoft Teams
 
@@ -80,7 +80,9 @@ Afin d’accompagner les organisations de taille modeste qui n’ont pas de ress
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Comment l’annonce du retrait de Skype Entreprise Online affecte-t-elle les organisations qui disposant de configurations hybrides (Skype Entreprise Online et Skype Entreprise Server) ?
 
-Les clients hybrides disposant de configurations en ligne et locale seront obligés de migrer les utilisateurs de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Les clients disposant d’un abonnement éligible sont encouragés à s’engager avec [FastTrack](https://fasttrack.microsoft.com/) pour l’assistance technique de Teams.
+Les clients hybrides disposant de configurations en ligne et locale seront obligés de migrer les utilisateurs de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Les trajectoires de mise à niveau pour les configurations hybrides basées sur les principes de coexistence et d’interopérabilité sont conservées après le retrait de Skype Entreprise Online. 
+
+Les clients disposant d’un abonnement éligible sont encouragés à s’engager avec [FastTrack](https://fasttrack.microsoft.com/) pour l’assistance technique de Teams.
 
 ## <a name="skype-for-business-to-teams-upgrade"></a>Mise à niveau de Skype Entreprise vers Teams
 
