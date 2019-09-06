@@ -2,7 +2,7 @@
 title: Plan pour les salles de Microsoft teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Cet article décrit les considérations relatives à la planification pour le déploiement de Microsoft Teams, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428019"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775105"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier les salles de Microsoft teams
 
@@ -35,7 +35,7 @@ Le [Centre d’aide de Microsoft teams vous](https://support.office.com/article/
 
 ## <a name="microsoft-teams-rooms-components"></a>Composants de salles de Microsoft teams
 
-Dans Microsoft Teams, les principaux composants suivants vous permettent d’offrir une formidable interface utilisateur:
+Dans Microsoft Teams, les principaux composants suivants vous permettent d’offrir une formidable interface utilisateur :
 
 - Panneau de configuration tactile
 - Calculer
@@ -55,7 +55,7 @@ Vous pouvez déployer des salles de Microsoft teams avec Microsoft Teams, Skype 
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déploierez-vous des salles Microsoft teams au sein de votre organisation? </li><li>Comment allez-vous utiliserez vos systèmes de salle Microsoft Teams, regroupés en tant que composants séparés ou en tant qu’unités intégrées?</li></ul> |
+|![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déploierez-vous des salles Microsoft teams au sein de votre organisation ? </li><li>Comment allez-vous utiliserez vos systèmes de salle Microsoft Teams, regroupés en tant que composants séparés ou en tant qu’unités intégrées ?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Identifiez les personnes qui utiliseront les principales activités dans votre déploiement.</li><li>Passez en revue les salles de réunion que vous avez (et prévoyez de configurer) pour comprendre l’endroit où vous voulez déployer les salles et les périphériques de Microsoft teams appropriés à la taille de la pièce.</li></ul> |
 | | |
 
@@ -93,12 +93,12 @@ Dans le cadre de votre découverte, il est essentiel de prendre en compte l’ac
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelles sont les salles de déploiement?</li><li>Quels sites font l’objet de votre déploiement?</li><li>Qui s’engage l’inventaire des salles de réunion?</li></ul> |
+| ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelles sont les salles de déploiement ?</li><li>Quels sites font l’objet de votre déploiement ?</li><li>Qui s’engage l’inventaire des salles de réunion ?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Révisez les salles de l’application, puis définissez les configurations des salles de Microsoft teams pour elles.</li></ul>|
 
 _Exemple d’inventaire d’une salle de réunion/de conférence_
 
-| Site  | Nom de la salle | Type de salle | Nombre de personnes  | Dans l’étendue? | Fonctionnalités actuelles de la salle       | Nouvelles fonctionnalités de salle     |
+| Site  | Nom de la salle | Type de salle | Nombre de personnes  | Dans l’étendue ? | Fonctionnalités actuelles de la salle       | Nouvelles fonctionnalités de salle     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
 | HQ de Londres | Curie         | Moyen        | 6&ndash;12                  | Oui          | Mains                        | 1 écran, audio et vidéo plus présentation<br>Accès RTC |
 | HQ de Sydney | Hill          | Grande         | 12&ndash;16                 | Oui          | Unité AV héritée, 1 écran et appareil photo | 2 écrans, audio et vidéo et présentation<br>Accès RTC |
@@ -115,7 +115,7 @@ En fonction du fournisseur de votre choix, utilisez les informations fournies da
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Dans votre inventaire, quels types de salles font l’objet de votre déploiement?</li><li>Quels sont les systèmes que vous déploierez pour chaque type de pièce?</li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Dans votre inventaire, quels types de salles font l’objet de votre déploiement ?</li><li>Quels sont les systèmes que vous déploierez pour chaque type de pièce ?</li></ul>|
 | ![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à collecter des documents opérationnels clés pour les systèmes que vous avez choisis et contactez votre équipe d’approvisionnement.</li></ul>|
 
 _Exemple de modèle de déploiement de salles de Microsoft teams pour votre organisation_
@@ -127,7 +127,7 @@ _Exemple de modèle de déploiement de salles de Microsoft teams pour votre orga
 | Moyenne 18 'par 20 '    | 6&ndash;12                  |                                  |                         |                 |
 | Grande 15 'par 32 '     | 12&ndash;16                 |                                  |                         |                 |
 
-**Conseil Pro:** C’est le moment idéal pour commencer à collecter des informations sur la solution de Microsoft teams que vous avez choisie.
+**Conseil Pro :** C’est le moment idéal pour commencer à collecter des informations sur la solution de Microsoft teams que vous avez choisie.
 
 ## <a name="procurement"></a>Marchés 
 
@@ -139,7 +139,7 @@ En fonction de l’échelle et de l’approche de votre déploiement, il est pos
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Allez-vous livrer les composants directement à un site ou à une installation intermédiaire?</li><li>Qui doit gérer la fonction de staging (si vous décidez d’en utiliser une)?</li></ul>|
+| ![](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Allez-vous livrer les composants directement à un site ou à une installation intermédiaire ?</li><li>Qui doit gérer la fonction de staging (si vous décidez d’en utiliser une) ?</li></ul>|
 | ![](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Planifiez les opérations.</li><li>Planifier l’adoption et la gestion des modifications.</li></ul>|
 
 ## <a name="plan-for-operations"></a>Planifier les opérations 
@@ -148,7 +148,7 @@ Votre organisation doit exécuter les tâches de surveillance, d’administratio
 
 De nombreuses organisations disposent d’une équipe ou d’un partenaire AV qui gère leurs salles et périphériques de conférence. Cette équipe doit être chargée de l’acceptation des personnes qui géreront les périphériques de la salle de Microsoft teams pour contrôler les performances et déployer les mises à jour logicielles et les correctifs logiciels. 
 
-Envisagez la file d’attente du support technique pour laquelle vous dirigez les appels liés à Microsoft teams rooms֪, puis fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre l’utilisation des salles de Microsoft teams et les principales étapes de résolution des problèmes. Voici un bon point de départ pour cette FAQ: l’aide de l' [utilisateur](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et la [liste des problèmes connus](known-issues.md).
+Envisagez la file d’attente du support technique pour laquelle vous dirigez les appels liés à Microsoft teams rooms֪, puis fournissez une FAQ à l’équipe du support technique afin qu’elle puisse mieux comprendre l’utilisation des salles de Microsoft teams et les principales étapes de résolution des problèmes. Voici un bon point de départ pour cette FAQ : l’aide de l' [utilisateur](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et la [liste des problèmes connus](known-issues.md).
 
 |    |     |
 |-----------|------------|

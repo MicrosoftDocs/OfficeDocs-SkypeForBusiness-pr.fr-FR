@@ -16,24 +16,22 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer des canaux de modération dans Microsoft Teams, y compris comment ajouter des membres à une équipe comme modérateurs de canaux.
-ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d176c1d0076ea444fb46b69011bad94c0c2b3eb4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244974"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775378"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Dans Microsoft Teams, les propriétaires d’équipe peuvent activer le modération d’un canal pour contrôler qui peut démarrer de nouvelles publications et répondre à des publications dans ce canal.
 
 Les propriétaires d’équipe peuvent également ajouter des membres à une équipe comme modérateurs. Il est possible que le propriétaire d’une équipe ne dispose pas de l’expertise du domaine au niveau du canal pour prendre en charge le modérateur du canal. En permettant aux membres d’équipe spécifiques de modérer un canal, la responsabilité de la gestion du contenu et du contexte au sein d’un canal est partagée entre les propriétaires d’équipe et les modérateurs de canaux. Par exemple, un propriétaire d’équipe peut ajouter des propriétaires d’entreprise ou des propriétaires de contenu en tant que modérateurs, ce qui leur permet de contrôler le partage d’information dans ce canal.
 
-## <a name="what-can-a-channel-moderator-do"></a>Que peut faire un modérateur de canal?
+## <a name="what-can-a-channel-moderator-do"></a>Que peut faire un modérateur de canal ?
 
-Les modérateurs de canal peuvent:
+Les modérateurs de canal peuvent :
 
 - Commencez de nouvelles publications dans le canal. Lorsque modération est activée pour un canal, seuls les modérateurs peuvent commencer de nouvelles publications dans ce canal.
 - Ajoutez et supprimez des membres d’équipe comme modérateurs d’un canal. Gardez à l’esprit que les propriétaires d’équipe sont les modérateurs de canal et ne peuvent pas être supprimés.
@@ -59,17 +57,19 @@ Dans ce scénario, l’enseignant permet aux assistants d’enseignement de mod�
 
 Dans Microsoft Teams, accédez au canal, cliquez sur **autres options.**  >  **Gérer le canal**. Vous pouvez activer et désactiver la modération, ajouter des membres à une équipe comme modérateurs et définir des préférences.
 
+Le modération de canal est un paramètre par canal. Il n’existe aucun paramètre de niveau client pour modération de canal. Si vous souhaitez ajouter un paramètre de modération de canal au niveau du client, demandez-le sur les [équipes UserVoice](https://microsoftteams.uservoice.com/).
+
 ![Manage-Channel-Moderation-in-teams-Preferences. png](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Activer ou désactiver la modération d’un canal
 
-Par défaut, la modération est désactivée et vous pouvez limiter de nouvelles publications uniquement aux membres de l’équipe ou autoriser tout le monde, y compris les invités, à commencer de nouvelles publications.
+Par défaut, la modération est désdésactivée, ce qui signifie que les paramètres du canal habituel s’appliquent aux propriétaires d’équipe et aux membres de l’équipe. Par exemple, vous pouvez limiter de nouvelles publications uniquement aux membres de l’équipe ou autoriser tout le monde, y compris les invités, à commencer de nouvelles publications.
 
 Pour activer le modération d’un canal, sous **modération de canal**, cliquez sur **activé**. Lorsque le modération de canal est activé, seuls les modérateurs peuvent commencer de nouvelles publications. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Ajouter ou supprimer des modérateurs de canal
 
-Sous **qui est le modérateur?**, cliquez sur **gérer**, puis ajoutez ou supprimez des membres d’équipe comme modérateurs. Les propriétaires d’équipe et les modérateurs peuvent ajouter et supprimer d’autres modérateurs.  
+Sous **qui est le modérateur ?**, cliquez sur **gérer**, puis ajoutez ou supprimez des membres d’équipe comme modérateurs. Les propriétaires d’équipe et les modérateurs peuvent ajouter et supprimer d’autres modérateurs.  
 
 ### <a name="set-team-member-permissions"></a>Définir les autorisations des membres de l’équipe
 

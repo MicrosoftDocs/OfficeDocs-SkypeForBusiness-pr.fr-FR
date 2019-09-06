@@ -2,7 +2,7 @@
 title: Présentation de la gestion des salles de Microsoft teams
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,29 +12,27 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Présentation de la gestion des salles de Microsoft Teams.
-ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427873"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775094"
 ---
-# <a name="management-overview"></a>Vue d’ensemble de la gestion 
+# <a name="management-overview"></a>Vue d’ensemble de la gestion
 
 Il est essentiel de développer et d’exécuter les opérations de maintenance et d’exécution en continu pour vous assurer que vos systèmes de salle Microsoft teams sont disponibles pour vos utilisateurs et offrir ainsi une bonne utilisation de l’utilisateur. 
 
 ## <a name="monitoring"></a>Surveillance 
 
-Le contrôle des systèmes de salle Microsoft teams comporte deux activités clés:
+Le contrôle des systèmes de salle Microsoft teams comporte deux activités clés :
 
--  Surveillance de périphériques, d’applications et de périphériques
-
--  Surveillance de la qualité et de la fiabilité (bord)
+- Surveillance de périphériques, d’applications et de périphériques
+- Surveillance de la qualité et de la fiabilité (bord)
 
 ### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Analyse du périphérique, de l’application et de l’appareil périphériques de Microsoft teams
 
 Pour garantir que les utilisateurs peuvent utiliser les unités de salles de Microsoft Teams, les unités doivent être activées, connectées au réseau avec l’application Microsoft teams de Microsoft correctement configurée et être connectées aux périphériques de fonctionnement. 
-
 
 Les informations relatives à l’état de l’application Microsoft teams salles et aux périphériques connectés sont écrites par l’application Microsoft teams dans le journal des événements Windows et expliquées dans les [entrées du journal](azure-monitor-manage.md#understand-the-log-entries). 
 
@@ -43,7 +41,7 @@ Les informations relatives à l’état de l’application Microsoft teams salle
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permet au démarrage de Microsoft teams  <br/> |
 |Gestion de l'\> alimentation-sur le ca, éteindre l’écran après 10 minutes  <br/> Gestion de l'\> alimentation-sur le secteur, jamais mettre le système en veille  <br/> |Activation de l’affichage et de la réactivation des salles de Microsoft teams  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
-   
+
 Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
@@ -77,7 +75,7 @@ Microsoft teams Room s’exécute sur Windows 10 entreprise IoT ou Windows 10 en
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-Nous vous recommandons de configurer l’alerte de la suite de gestion des opérations comme décrit dans la section ci-dessus pour que votre équipe et votre support technique soient avertis de tout problème de Microsoft Teams. Les options qui s’offrent à vous pour la gestion à distance PowerShell sont décrites dans [gestion à distance à l’aide de PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Dans le cas où un périphérique est déconnecté, vous devrez peut-être vous reposer sur des «mains actives» locales ou sur la prise en charge de l’examen et de la reconnexion des appareils. 
+Nous vous recommandons de configurer l’alerte de la suite de gestion des opérations comme décrit dans la section ci-dessus pour que votre équipe et votre support technique soient avertis de tout problème de Microsoft Teams. Les options qui s’offrent à vous pour la gestion à distance PowerShell sont décrites dans [gestion à distance à l’aide de PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Dans le cas où un périphérique est déconnecté, vous devrez peut-être vous reposer sur des « mains actives » locales ou sur la prise en charge de l’examen et de la reconnexion des appareils. 
 
 Pour plus d’informations sur la résolution des problèmes et le mode administrateur, voir [gérer les salles de Microsoft teams](room-systems-v2-operations.md#admin-mode-and-device-management). 
 

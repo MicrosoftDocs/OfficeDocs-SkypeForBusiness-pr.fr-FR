@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype Room System à votre domaine.
-ms.openlocfilehash: 2d2af20173708e199c1de5a205218d3295e7e0d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234382"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774662"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Remarques relatives à la jonction du domaine Skype Room System
  
@@ -31,7 +31,7 @@ Vous pouvez rejoindre le PC de l’application Skype Room sur le domaine Active 
     
 - Lorsque vous rejoignez un ordinateur du système de salle Skype pour le domaine, vous devez créer une unité d’organisation (UO) distincte, afin de fournir des exclusions d’objets de stratégie de groupe à l’unité d’organisation où se trouvent tous les objets de l’ordinateur de bureau Skype. Lorsque vous procédez ainsi, créez des objets machine dans l’unité d’organisation avant de joindre le PC du système de salle Skype au domaine.
     
-- De nombreuses organisations possèdent les objets de stratégie de groupe suivants qui concernent les fonctions PC de l’appliance de salle Skype. Assurez-vous de remplacer ou de bloquer l’héritage de ces objets de stratégie de groupe dans l’unité d’organisation de votre système de salle Skype: 
+- De nombreuses organisations possèdent les objets de stratégie de groupe suivants qui concernent les fonctions PC de l’appliance de salle Skype. Assurez-vous de remplacer ou de bloquer l’héritage de ces objets de stratégie de groupe dans l’unité d’organisation de votre système de salle Skype : 
     
   - Délai d’ouverture de sessions (verrouillage automatique)
     

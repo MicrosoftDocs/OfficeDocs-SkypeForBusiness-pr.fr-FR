@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Pour en savoir plus sur le déploiement de votre système de salle Skype dans un environnement doté de plusieurs versions de Skype entreprise Server et de Lync Server, reportez-vous à cette rubrique.
-ms.openlocfilehash: f5da7f92c7ab947d5e6d68c19823d227f8ae3ca3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6524a7312644ec306185b952caf17818d29344af
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234207"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774672"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Remarques sur la migration de Skype Room System
  
@@ -41,13 +41,13 @@ Vous pouvez résoudre ce problème avec les options suivantes :
 
 Lors de la migration, si un utilisateur qui est hébergé sur un pool Lync Server 2010 planifie une réunion et invite le compte système de salle Skype, le client de système de salle Skype dispose de fonctionnalités limitées tout en participant à la réunion. 
   
-Lorsque le client système de salle Skype joint un appel de conférence planifiée qui a été organisé par un utilisateur hébergé sur Lync Server 2010, le système de salle Skype dispose des limitations suivantes: 
+Lorsque le client système de salle Skype joint un appel de conférence planifiée qui a été organisé par un utilisateur hébergé sur Lync Server 2010, le système de salle Skype dispose des limitations suivantes : 
   
 - Le système de salle Skype ne peut pas afficher la Galerie de vidéos multivues.
     
 - Si le client système de salle Skype est le présentateur, la vidéo ne peut pas être appliquée aux participants.
     
-- Le système de salle Skype ne peut pas afficher la résolution vidéo 1080p (entrante ou sortante), même si la stratégie de conférence 2013 de Lync Server le permet, pour les raisons suivantes: 
+- Le système de salle Skype ne peut pas afficher la résolution vidéo 1080p (entrante ou sortante), même si la stratégie de conférence 2013 de Lync Server le permet, pour les raisons suivantes : 
     
   - Lync Server 2010 ne prend pas en charge la résolution 1080p.
     

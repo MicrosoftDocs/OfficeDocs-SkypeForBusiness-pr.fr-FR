@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Consultez cette rubrique pour découvrir comment déployer Skype Room System dans la forêt unique d’un environnement local.
-ms.openlocfilehash: 107d4724defa11cbe506dcfa1b4f3c4725ee9910
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245866"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775262"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Déploiements locaux d’une forêt Skype Room System unique
  
@@ -51,7 +51,7 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
 
    Pour un ensemble complet des commandes disponibles, reportez-vous à Set-CalendarProcessing.
     
-   Pour rappeler aux organisateurs de la réunion de mettre en ligne une réunion Skype entreprise en ligne dans Outlook, exécutez la commande suivante pour configurer un alerte pour le nouveau compte: 
+   Pour rappeler aux organisateurs de la réunion de mettre en ligne une réunion Skype entreprise en ligne dans Outlook, exécutez la commande suivante pour configurer un alerte pour le nouveau compte : 
     
    ```
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
@@ -63,7 +63,7 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
    ```
 
-5. Facultatif: configurer le texte d’acceptation d’une réunion qui fournit aux utilisateurs des informations sur la salle de réunion Skype entreprise et ce à quoi vous pouvez vous attendre lorsqu’ils organisent et joignez des réunions. 
+5. Facultatif : configurer le texte d’acceptation d’une réunion qui fournit aux utilisateurs des informations sur la salle de réunion Skype entreprise et ce à quoi vous pouvez vous attendre lorsqu’ils organisent et joignez des réunions. 
     
    ```
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
@@ -98,13 +98,13 @@ Une fois que vous avez créé un compte de boîte aux lettres de ressources pour
 > [!NOTE]
 > La procédure suivante suppose que vous avez activé le compte système de salle Skype dans Active Directory. 
   
-1. Exécutez la commande suivante pour activer le compte système de salle Skype dans un pool de serveurs Skype entreprise:
+1. Exécutez la commande suivante pour activer le compte système de salle Skype dans un pool de serveurs Skype entreprise :
     
    ```
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
-2. Optional: Allow this account to make and receive PSTN phone calls by enabling the account for Enterprise Voice. La voix entreprise n’est pas requise pour les systèmes de salle Skype, mais si vous ne l’activez pas pour Enterprise Voice, le client système de salle Skype ne sera pas en mesure de fournir les fonctionnalités de numérotation RTC:
+2. Optional: Allow this account to make and receive PSTN phone calls by enabling the account for Enterprise Voice. La voix entreprise n’est pas requise pour les systèmes de salle Skype, mais si vous ne l’activez pas pour Enterprise Voice, le client système de salle Skype ne sera pas en mesure de fournir les fonctionnalités de numérotation RTC :
     
    ```
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"

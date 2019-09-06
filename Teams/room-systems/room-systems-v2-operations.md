@@ -2,7 +2,7 @@
 title: Maintenance et opérations des salles de Microsoft teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 14f4fb23868cc3e4247c700d15851511310db471
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427942"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775229"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -29,7 +29,7 @@ Dans le cadre de la configuration supplémentaire, la gestion à distance est po
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Collecte de journaux sur les salles de Microsoft teams
 <a name="Logs"> </a>
 
-Pour recueillir les journaux, vous devez appeler le script de collection de journaux qui est fourni avec l’application Microsoft Teams. En mode admin, démarrez une invite de commandes avec élévation de privilèges et émettez la commande suivante:
+Pour recueillir les journaux, vous devez appeler le script de collection de journaux qui est fourni avec l’application Microsoft Teams. En mode admin, démarrez une invite de commandes avec élévation de privilèges et émettez la commande suivante :
   
 ```
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -48,7 +48,7 @@ Configurez l’écran d’affichage en mode étendu. Cela permet de s’assurer 
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Réinitialisation des salles de Microsoft Teams (restauration d’usine)
 <a name="Reset"> </a>
 
-Si Microsoft Teams ne fonctionne pas correctement, il peut être utile d’effectuer une réinitialisation d’usine. Pour cela, vous pouvez utiliser l’application paramètres dans l’onglet **récupération** . sous **réinitialiser ce PC**, sélectionnez **commencer**, puis supprimez **tout**. Suivez les invites restantes pour réinitialiser l’appareil.
+Si Microsoft Teams ne fonctionne pas correctement, il peut être utile d’effectuer une réinitialisation d’usine. Pour cela, vous pouvez utiliser l’application paramètres dans l’onglet **récupération** . sous **réinitialiser ce PC**, sélectionnez **commencer**, puis **supprimez tout**. Suivez les invites restantes pour réinitialiser l’appareil.
   
 > [!NOTE]
 > Il existe un problème connu pour lequel les salles de Microsoft teams peuvent être désactivées si l’option **conserver mes fichiers-supprime des applications et des paramètres, mais** que vous avez sélectionné l’option conservation de vos fichiers personnels lors du processus de réinitialisation de Windows. N’utilisez _pas_ cette option.
@@ -87,7 +87,7 @@ Pour transférer des fichiers à l’aide de stratégies de groupe, voir [config
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
 
-Vous pouvez effectuer les opérations de gestion suivantes à distance à l’aide de PowerShell (voir le tableau ci-dessous pour les exemples de script):
+Vous pouvez effectuer les opérations de gestion suivantes à distance à l’aide de PowerShell (voir le tableau ci-dessous pour les exemples de script) :
   
 - Obtenir les périphériques raccordés
     
@@ -183,7 +183,7 @@ Si vous souhaitez gérer les mises à jour manuellement et ne parvenez pas à su
 
 1. Extrayez le package de l’installation [MSI](https://go.microsoft.com/fwlink/?linkid=851168) vers un partage auquel le périphérique peut accéder.
     
-2. Exécutez le script suivant ciblant les appareils de salle Microsoft Teams, en modifiant \<le partage\> sur le partage de l’appareil, selon le cas:
+2. Exécutez le script suivant ciblant les appareils de salle Microsoft Teams, en modifiant \<le partage\> sur le partage de l’appareil, selon le cas :
     
 ```
 Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -198,14 +198,14 @@ Certaines fonctions de gestion (par exemple, l’installation manuelle d’un ce
 
 1. Raccrochez tout appel en cours et retournez sur l’écran d’accueil.
     
-2. Sélectionner l’icône d’engrenage et afficher le menu (les options sont **paramètres**, **accessibilité**et redémarrage de l' **appareil** ).
+2. Sélectionner l’icône d’engrenage et afficher le menu (les options sont **paramètres**, **accessibilité**et **redémarrage** de l’appareil).
     
 3. Sélectionnez **Paramètres**.
     
 4. Entrez le mot de passe de l’administrateur. L’écran d’installation s’affiche.
     
     > [!NOTE]
-    > Si l’appareil n’est pas joint à un domaine, le compte d’administrateur local (nom d’utilisateur «administrateur») est utilisé par défaut. Le mot de passe par défaut de ce compte est "sfb", mais il est recommandé que votre organisation le change dès que possible pour des raisons de sécurité. Si l’ordinateur est joint à un domaine, vous pouvez vous connecter à l’aide d’un compte de domaine à privilèges appropriés. 
+    > Si l’appareil n’est pas joint à un domaine, le compte d’administrateur local (nom d’utilisateur « administrateur ») est utilisé par défaut. Le mot de passe par défaut de ce compte est "sfb", mais il est recommandé que votre organisation le change dès que possible pour des raisons de sécurité. Si l’ordinateur est joint à un domaine, vous pouvez vous connecter à l’aide d’un compte de domaine à privilèges appropriés. 
   
 5. Dans la colonne de gauche, sélectionnez **Paramètres Windows** .
     

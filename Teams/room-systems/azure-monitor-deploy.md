@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit le déploiement de la gestion des appareils Microsoft teams salles de manière intégrée et complète grâce à l’utilisation de moniteur Azure.
-ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428099"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774683"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor
 
@@ -34,13 +34,13 @@ En suivant ce guide, vous pouvez utiliser un tableau de bord tel que l’exemple
 À haut niveau, vous devez effectuer les tâches suivantes :
 
 
-1.  [Valider la configuration d’analyse du journal](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [Configurer des appareils de test pour la configuration de l’analyse du journal](azure-monitor-deploy.md#configure_test_devices)
-3.  [Mapper les champs personnalisés](azure-monitor-deploy.md#Custom_fields)
-4.  [Définir les affichages des salles de Microsoft teams dans l’analyse du journal](azure-monitor-deploy.md#Define_Views)
-5.  [Définir des alertes](azure-monitor-deploy.md#Alerts)
-6.  [Configurer tous les appareils pour le contrôle](azure-monitor-deploy.md#configure_all_devices)
-7.  [Configurer des solutions supplémentaires pour moniteur Azure](azure-monitor-deploy.md#Solutions)
+1. [Valider la configuration d’analyse du journal](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [Configurer des appareils de test pour la configuration de l’analyse du journal](azure-monitor-deploy.md#configure_test_devices)
+3. [Mapper les champs personnalisés](azure-monitor-deploy.md#Custom_fields)
+4. [Définir les affichages des salles de Microsoft teams dans l’analyse du journal](azure-monitor-deploy.md#Define_Views)
+5. [Définir des alertes](azure-monitor-deploy.md#Alerts)
+6. [Configurer tous les appareils pour le contrôle](azure-monitor-deploy.md#configure_all_devices)
+7. [Configurer des solutions supplémentaires pour moniteur Azure](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > Même si la configuration est minime, l’analyse du journal d’analyse Azure Monitor peut surveiller un ordinateur exécutant un système d’exploitation Windows, il existe toujours certaines étapes spécifiques de Microsoft Teams, dont vous devez disposer avant de commencer à déployer les agents sur toutes les équipes de Microsoft teams Appareils de salle.
@@ -87,21 +87,21 @@ Après le déploiement de l’agent de surveillance Microsoft sur les appareils 
 
 1.  Connectez-vous au [portail Microsoft Azure](https://portal.azure.com) et accédez à analyse du journal et sélectionnez votre espace de travail.
 
-2.  Répertorier les événements de pulsation générés par un appareil Microsoft teams:
+2.  Répertorier les événements de pulsation générés par un appareil Microsoft teams :
     1.  Sélectionnez votre espace de travail, accédez aux **journaux** , puis utilisez une requête pour récupérer les enregistrements de pulsation qui disposeront des champs personnalisés pour les salles Microsoft Teams.
-    2.  Exemple de requête:`Event | where Source == "SRS-App" and EventID == 2000`
+    2.  Exemple de requête :`Event | where Source == "SRS-App" and EventID == 2000`
 
 3.  Assurez-vous que la requête renvoie les enregistrements du journal qui incluent les événements générés par l’application réunions de Microsoft Teams.
 
 4.  Générez un problème de matériel et validez le journal des événements requis dans l’analyse du journal Azure.
     1.  Débranchez l’un des périphériques sur le système de test de Microsoft Teams. Il peut s’agir de l’écran de l’appareil photo, de l’écoute amplifiée, du microphone ou de la salle de façade
     2.  Attendez 10 minutes que le journal des événements soit rempli dans l’analyse du journal Azure.
-    3.  Utiliser une requête pour répertorier les événements d’erreur matérielle:`Event | where Source == "SRS-App" and EventID == 3001`
+    3.  Utiliser une requête pour répertorier les événements d’erreur matérielle :`Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  Génère un problème d’application et validez le journal des événements requis.
     1.  Modifiez la configuration de l’application Microsoft teams à partir de Microsoft Teams, puis tapez une paire adresse de mot de passe ou adresse SIP (Session Initiation Protocol) incorrecte.
     2.  Attendez 10 minutes que le journal des événements soit rempli dans l’analyse du journal Azure.
-    3.  Utiliser une requête pour répertorier les événements d’erreur d’application:`Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
+    3.  Utiliser une requête pour répertorier les événements d’erreur d’application :`Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
 > [!IMPORTANT]
 > Ces exemples de journaux d’événements sont requis pour pouvoir configurer les champs personnalisés. Ne passez pas à l’étape suivante tant que vous n’avez pas collecté les journaux des événements requis.
@@ -111,13 +111,13 @@ Après le déploiement de l’agent de surveillance Microsoft sur les appareils 
 
 Vous utilisez des champs personnalisés pour extraire des données spécifiques des journaux d’événements. Vous devez définir des champs personnalisés qui seront utilisés plus tard avec vos vignettes, affichages de tableau de bord et alertes. Affichez les [champs personnalisés dans l’analyse du journal](https://docs.microsoft.com/azure/azure-monitor/platform/custom-fields) et familiarisez-vous avec les concepts avant de commencer à créer vos champs personnalisés.
 
-Pour extraire vos champs personnalisés des journaux des événements capturés, procédez comme suit:
+Pour extraire vos champs personnalisés des journaux des événements capturés, procédez comme suit :
 
 1.  Connectez-vous au [portail Microsoft Azure](https://portal.azure.com) et accédez à analyse du journal et sélectionnez votre espace de travail.
 
-2. Répertorier les événements générés par un appareil Microsoft teams:
+2. Répertorier les événements générés par un appareil Microsoft teams :
    1.  Accédez aux **journaux** et utilisez une requête pour récupérer les enregistrements qui auront le champ personnalisé.
-   2.  Exemple de requête:`Event | where Source == "SRS-App" and EventID == 2000`
+   2.  Exemple de requête :`Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Sélectionnez l’un des enregistrements, cliquez sur le bouton situé à gauche, puis démarrez l’Assistant extraction de champ.
 4. Mettez en surbrillance les données que vous souhaitez extraire du RenderedDescription et indiquez un titre de champ. Les noms des champs que vous devez utiliser sont indiqués dans le tableau 1.
@@ -167,7 +167,7 @@ Une fois que les données sont collectées et que les champs personnalisés sont
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Créer un tableau de bord de Microsoft teams à l’aide de la méthode d’importation
 
-Vous pouvez importer un tableau de bord des salles de Microsoft teams et commencer à surveiller vos appareils rapidement. Pour importer le tableau de bord, procédez comme suit:
+Vous pouvez importer un tableau de bord des salles de Microsoft teams et commencer à surveiller vos appareils rapidement. Pour importer le tableau de bord, procédez comme suit :
 
 1.  Obtenez le fichier de tableau de bord [SkypeRoomSystems_v2. omsview](https://go.microsoft.com/fwlink/?linkid=835675) .
 2.  Connectez-vous au [portail Microsoft Azure](https://portal.azure.com) et accédez à analyse du journal et sélectionnez votre espace de travail.
@@ -185,11 +185,11 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 2.  Sélectionnez **vignette de vue d’ensemble**, puis sélectionnez **deux numéros** dans la Galerie.
 3.  Nommez la vignette **salles Microsoft teams**.
 4.  Définissez la **première vignette**:<br>
-    **Légende:** Appareils ayant envoyé un Heartbeat au moins une fois au cours du mois dernier<br>
-    **Requête:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
+    **Légende :** Appareils ayant envoyé un Heartbeat au moins une fois au cours du mois dernier<br>
+    **Requête :**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  Définissez la **deuxième vignette**:<br>
-    **Légende:** Appareils actifs ayant envoyé un Heartbeat au cours de la dernière heure<br>
-    **Requête:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
+    **Légende :** Appareils actifs ayant envoyé un Heartbeat au cours de la dernière heure<br>
+    **Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  Sélectionnez **appliquer**.
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>Créer une vignette qui affiche les appareils actifs
@@ -197,16 +197,16 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 1.  Pour commencer à ajouter vos vignettes, sélectionnez **afficher le tableau de bord** .
 2.  Sélectionner le **numéro & liste** dans la Galerie
 3.  Définissez les propriétés **générales** :<br>
-    **Titre du groupe:** État de la pulsation<br>
-    **Nouveau groupe:** Sélectionné
+    **Titre du groupe :** État de la pulsation<br>
+    **Nouveau groupe :** Sélectionné
 4.  Définissez les propriétés de la **vignette** :<br>
-    **Légende:** Appareils actifs (pulsation envoyés au cours des dernières 20 minutes)<br>
+    **Légende :** Appareils actifs (pulsation envoyés au cours des dernières 20 minutes)<br>
     **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Définissez les propriétés de la **liste** :<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Définir les **titres des colonnes**:<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Dernière pulsation
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Dernière pulsation
 7.  Définissez une **requête de navigation**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  Sélectionnez **appliquer**, puis **Fermer**.
@@ -215,16 +215,16 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 1.  Sélectionnez **numéro & liste** dans la Galerie, puis ajoutez une nouvelle vignette.
 2.  Définissez les propriétés **générales** :<br>
-    **Titre du groupe:** Laisser vide<br>
-    **Nouveau groupe:** Non sélectionnée
+    **Titre du groupe :** Laisser vide<br>
+    **Nouveau groupe :** Non sélectionnée
 3.  Définissez les propriétés de la **vignette** :<br>
-    **Légende:** Appareils inactifs (aucun message Heartbeat envoyé au cours des dernières 20 minutes)<br>
+    **Légende :** Appareils inactifs (aucun message Heartbeat envoyé au cours des dernières 20 minutes)<br>
     **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Définissez les propriétés de la **liste** :<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Définir les **titres des colonnes**:<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Dernière pulsation
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Dernière pulsation
 6.  Définir la **requête de navigation**:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  Sélectionnez **appliquer**, puis **Fermer**.
@@ -233,16 +233,16 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 1.  Sélectionnez **numéro & liste** dans la Galerie, puis ajoutez une nouvelle vignette.
 2.  Définissez les propriétés **générales** :<br>
-    **Titre du groupe:** État du matériel<br>
-    **Nouveau groupe:** Sélectionné
+    **Titre du groupe :** État du matériel<br>
+    **Nouveau groupe :** Sélectionné
 3.  Définissez les propriétés de la **vignette** :<br>
-    **Légende:** Appareils ayant rencontré une erreur matérielle lors de la dernière heure<br>
+    **Légende :** Appareils ayant rencontré une erreur matérielle lors de la dernière heure<br>
     **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Définissez les propriétés de la **liste** :<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Définir les **titres des colonnes**:<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Dernière erreur
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Dernière erreur
 6.  Définir la **requête de navigation**:<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Sélectionnez **appliquer**, puis **Fermer**.
@@ -251,22 +251,22 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 1.  Sélectionnez **bouée & liste** dans la Galerie, puis ajoutez une nouvelle vignette.
 2.  Définissez les propriétés **générales** :<br>
-    **Titre du groupe:** Détails du système d’exploitation<br>
-    **Nouveau groupe:** Sélectionné
+    **Titre du groupe :** Détails du système d’exploitation<br>
+    **Nouveau groupe :** Sélectionné
 3.  Définissez les propriétés d' **en-tête** :<br>
-    **Titre:** Versions de système d’exploitation<br>
-    **Sous-titre:** Appareils exécutant des versions spécifiques du système d’exploitation
+    **Titre :** Versions de système d’exploitation<br>
+    **Sous-titre :** Appareils exécutant des versions spécifiques du système d’exploitation
 4.  Définissez les propriétés **bouée** :<br>
-    **Requête:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
-    **Centrer le texte:** Appareils<br>
-    **Opération:** Somme
+    **Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **Centrer le texte :** Appareils<br>
+    **Opération :** Somme
 5.  Définissez les propriétés de **liste** .<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **Masquer le graphique:** Sélectionné<br>
-    **Activer les graphiques sparkline:** Non sélectionnée
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **Masquer le graphique :** Sélectionné<br>
+    **Activer les graphiques sparkline :** Non sélectionnée
 6.  Définissez des **titres de colonnes**.<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Laisser vide
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Laisser vide
 7.  Définissez une **requête de navigation**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  Sélectionnez **appliquer** , puis **Fermer**.
@@ -275,22 +275,22 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 1.  Sélectionnez **bouée & liste** dans la Galerie, puis ajoutez une nouvelle vignette.
 2.  Définissez les propriétés **générales** :<br>
-    **Titre du groupe:** Détails de l’application Microsoft teams salles<br>
-    **Nouveau groupe:** Sélectionné
+    **Titre du groupe :** Détails de l’application Microsoft teams salles<br>
+    **Nouveau groupe :** Sélectionné
 3.  Définissez les propriétés d' **en-tête** :<br>
-    **Titre:** Versions de l’application<br>
-    **Sous-titre:** Appareils exécutant des versions d’application spécifiques
+    **Titre :** Versions de l’application<br>
+    **Sous-titre :** Appareils exécutant des versions d’application spécifiques
 4.  Définissez les propriétés **bouée** :<br>
-    **Requête:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
-    **Centrer le texte:** Appareils<br>
-    **Opération:** Somme
+    **Requête :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+    **Centrer le texte :** Appareils<br>
+    **Opération :** Somme
 5.  Définissez les propriétés de **liste** .<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **Masquer le graphique:** Sélectionné<br>
-    **Activer les graphiques sparkline:** Non sélectionnée
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+    **Masquer le graphique :** Sélectionné<br>
+    **Activer les graphiques sparkline :** Non sélectionnée
 6.  Définissez des **titres de colonnes**.<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Laisser vide
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Laisser vide
 7.  Définissez une **requête de navigation**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  Sélectionnez **appliquer** , puis **Fermer**.
@@ -299,16 +299,16 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 1.  Sélectionnez **numéro & liste** dans la Galerie, puis ajoutez une nouvelle vignette.
 2.  Définissez les propriétés **générales** .<br>
-    **Titre du groupe:** Laisser vide<br>
-    **Nouveau groupe:** Non sélectionnée
+    **Titre du groupe :** Laisser vide<br>
+    **Nouveau groupe :** Non sélectionnée
 3.  Définissez les propriétés de la **vignette** .<br>
-    **Légende:** Appareils ayant rencontré une erreur d’application au cours de la dernière heure<br>
+    **Légende :** Appareils ayant rencontré une erreur d’application au cours de la dernière heure<br>
     **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Définissez les propriétés de **liste** .<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Définissez des **titres de colonnes**.<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Dernière erreur
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Dernière erreur
 6.  Définissez une **requête de navigation**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Sélectionnez **appliquer** , puis **Fermer**.
@@ -317,16 +317,16 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
 
 1.  Sélectionnez **numéro & liste** dans la Galerie, puis ajoutez une nouvelle vignette.
 2.  Définissez les propriétés **générales** .<br>
-    **Titre du groupe:** Laisser vide<br>
-    **Nouveau groupe:** Non sélectionnée
+    **Titre du groupe :** Laisser vide<br>
+    **Nouveau groupe :** Non sélectionnée
 3.  Définissez les propriétés de la **vignette** .<br>
-    **Légende:** Appareils dans lesquels l’application a été redémarrée au cours des dernières 24 heures et nombre de redémarrages<br>
+    **Légende :** Appareils dans lesquels l’application a été redémarrée au cours des dernières 24 heures et nombre de redémarrages<br>
     **Requête de mosaïque : ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Définissez les propriétés de **liste** .<br>
-    **Requête de liste:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
+    **Requête de liste :**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Définissez des **titres de colonnes**.<br>
-    **Nom:** Nom de l’ordinateur<br>
-    **Valeur:** Nombre de redémarrages
+    **Nom :** Nom de l’ordinateur<br>
+    **Valeur :** Nombre de redémarrages
 6.  Définissez une **requête de navigation**.<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  Sélectionnez **appliquer** , puis **Fermer**.
@@ -341,7 +341,7 @@ Le moniteur Azure peut déclencher des alertes pour signaler aux administrateurs
 
 Le moniteur Azure inclut un mécanisme d’alerte intégré qui s’exécute via les recherches dans le journal planifié à intervalles réguliers. Si les résultats de la recherche dans le journal répondent à certains critères, un enregistrement d’alerte est créé.
 
-La règle peut alors automatiquement exécuter une ou plusieurs actions pour vous signaler de manière proactive de l’alerte ou appeler un autre processus. Les options possibles des alertes sont les suivantes:
+La règle peut alors automatiquement exécuter une ou plusieurs actions pour vous signaler de manière proactive de l’alerte ou appeler un autre processus. Les options possibles des alertes sont les suivantes :
 -   Envoi d’un message électronique
 -   Appel d’un processus externe via une requête HTTP POST
 -   Démarrage d’un runbook dans Azure Automation service
@@ -369,16 +369,16 @@ Configurez une règle d’alerte qui recherche sur les appareils Microsoft teams
     |sort by TimeGenerated desc
     ```
 
-5.  Configurez les paramètres de logique d’alerte:<br>
-    **Basé sur:** Nombre de résultats<br>
-    **État:** Plus, puis<br>
-    **Treshold:** 0<br>
+5.  Configurez les paramètres de logique d’alerte :<br>
+    **Basé sur :** Nombre de résultats<br>
+    **État :** Plus, puis<br>
+    **Treshold :** 0<br>
 
 6. Configurez les paramètres d’évaluation et sélectionnez **Terminer**: <br>
-    **Période (en minutes):** 60<br>
-    **Fréquence (en minutes):** 60<br>
+    **Période (en minutes) :** 60<br>
+    **Fréquence (en minutes) :** 60<br>
 
-7. Configurer les groupes d’action:
+7. Configurer les groupes d’action :
     1.  Sélectionner **créer**
     2.  Donnez des noms appropriés aux champs *nom du groupe d’action* et *nom court* .
     3.  Spécifiez un *nom d’action* unique et sélectionnez **email/SMS/émission/voix**, puis sélectionnez **modifier les détails**.
@@ -389,8 +389,8 @@ Configurez une règle d’alerte qui recherche sur les appareils Microsoft teams
 8. **Personnalisez les actions** si vous souhaitez remplacer la ligne d’objet des alertes par courrier électronique.
 
 9. Spécifiez le nom et la description de la règle.<br>
-    **Nom de la règle:** Alerte d’échec du matériel dans Microsoft teams<br>
-    **Description:** Liste des périphériques ayant rencontré un problème de matériel au cours de la dernière heure<br>
+    **Nom de la règle :** Alerte d’échec du matériel dans Microsoft teams<br>
+    **Description :** Liste des périphériques ayant rencontré un problème de matériel au cours de la dernière heure<br>
 
 10. Sélectionnez la gravité prévue, puis vérifiez que la règle est activée.
 
@@ -435,11 +435,11 @@ Si vous avez déjà déployé les périphériques de votre équipe Microsoft tea
 
 4.  Créez un nouvel objet de stratégie de groupe et attribuez-le à l’unité d’organisation où se trouvent les comptes d’ordinateur de Microsoft Teams.
 
-5.  Configurer une stratégie d’exécution PowerShell:
+5.  Configurer une stratégie d’exécution PowerShell :
     1.  Modifiez l’objet de stratégie de groupe que vous venez de créer \\ , \\ puis sélectionnez \\ stratégies de \\ configuration de l’ordinateur modèles d’administration Composants Windows PowerShell Windows PowerShell
     2.  Activez l' **exécution du script** et la **stratégie d’exécution** définies pour autoriser les **scripts locaux**.
 
-6.  Configurez le script de démarrage:
+6.  Configurez le script de démarrage :
     1.  Copiez le script suivant et enregistrez-le en tant que Install-MMAgent. ps1.
     2.  Modifiez les paramètres WorkspaceId, WorkspaceKey et SetupPath en fonction de votre configuration.
     3.  Modifiez le même objet de stratégie de groupe et sélectionnez stratégies \\ \\ de configuration de \\ l’ordinateur scripts de paramètres Windows (démarrage/arrêt).

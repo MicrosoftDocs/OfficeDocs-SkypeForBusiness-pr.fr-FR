@@ -2,7 +2,7 @@
 title: Préparer votre environnement
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Cet article décrit les préparations d’infrastructure pour le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493083"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775052"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -28,23 +28,18 @@ Cette section fournit une vue d’ensemble des étapes nécessaires pour prépar
 2. Vérifiez qu’une connexion réseau/Internet fonctionne et peut être utilisée par l’appareil.  
     
    - Il doit être en mesure de recevoir une adresse IP à l’aide du protocole DHCP. (Les salles de Microsoft Teams ne peuvent pas être configurées à l’aide d’une adresse IP statique lors du premier démarrage de l’unité, mais le protocole IP statique pour l’appareil peut être configuré sur l’appareil ou sur le commutateur ou le routeur en amont.)
-    
-   - Ce port doit être ouvert (en plus de l’ouverture des ports normaux pour le média):
-    
+   - Ce port doit être ouvert (en plus de l’ouverture des ports normaux pour le média) :
    - HTTPS : 443
-    
    - HTTP : 80
-    
    - Si votre réseau fonctionne via un proxy, vous aurez également besoin de l’adresse du proxy ou des informations de script.
     
      > [!NOTE]
-     > Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent visiblement des problèmes avec la fonctionnalité de réception HDMI (vidéo, audio). Assurez-vous que les options HDCP des commutateurs connectés à Microsoft Teams sont désactivées. 
+     > Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent visiblement des problèmes avec la fonctionnalité de réception HDMI (vidéo, audio). Assurez-vous que les options HDCP des commutateurs connectés à Microsoft Teams sont désactivées.
   
-3. Pour améliorer votre expérience, Microsoft collecte des données. Pour collecter des données, les sites suivants doivent figurer dans la liste approuvée :
-    
-   - Point de terminaison du client de télémétrie:https://vortex.data.microsoft.com/
-    
-   - Point de terminaison des paramètres de télémétrie:https://settings.data.microsoft.com/
+3. Pour améliorer votre expérience, Microsoft collecte des données. Pour permettre à Microsoft de recueillir des données, liste d’autorisation sur ces sites :
+
+   - Point de terminaison du client de télémétrie :https://vortex.data.microsoft.com/
+   - Point de terminaison des paramètres de télémétrie :https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Création et test d’un compte d’appareil
 
@@ -52,7 +47,7 @@ Un *compte d’appareil* est un compte qu’utilise le client Microsoft teams po
   
 ### <a name="check-network-availability"></a>Vérification de la disponibilité du réseau
 
-Pour fonctionner correctement, l’appareil de salle Microsoft teams doit avoir accès à un réseau câblé qui répond à la configuration requise suivante:
+Pour fonctionner correctement, l’appareil de salle Microsoft teams doit avoir accès à un réseau câblé qui répond à la configuration requise suivante :
   
 - Accès à votre instance Active Directory ou Azure Active Directory (Azure AD), ainsi qu’à vos serveurs Microsoft Exchange et Skype Entreprise.
 - Accès à un serveur pouvant fournir une adresse IP à l’aide du protocole DHCP. Les salles de Microsoft Teams ne peuvent pas être configurées à l’aide d’une adresse IP statique.
@@ -88,15 +83,15 @@ Les salles de Microsoft teams sont conçues pour hériter des paramètres de pro
 
 7. Vous serez invité à entrer un nom de clé pour votre nouvelle ruche. Entrez dans Skype (les paramètres de registre de l’utilisateur Skype apparaissent désormais).
  
-8. Ouvrez la clé Skype et accédez à paramètres de HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet et vérifiez que les paramètres suivants sont renseignés: 
+8. Ouvrez la clé Skype et accédez à paramètres de HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet et vérifiez que les paramètres suivants sont renseignés : 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     Si ProxyServer n’existe pas, vous devrez peut-être ajouter cette clé en tant qu’une chaîne, changez xx.xx.xx.xx:8080 pour ip/host et port de votre serveur Proxy.
     
@@ -123,7 +118,7 @@ Pour utiliser cette application, vous devez être en mesure de vous connecter au
 |Notifications Push pour Lync Mobile 2010 sur des appareils iOS. Cela n’est pas nécessaire pour appareils mobiles Android, Nokia Symbian ou Windows Phone.  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Télémétrie Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
 |Conseils rapides pour les clients Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |quicktips.skypeforbusiness.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > Le caractère générique de contoso.com et broadcast.skype.com représente une longue liste de nœuds exclusivement utilisés avec Office 365. 
   
@@ -146,7 +141,7 @@ Le compte d’appareil n’utilise généralement pas de mot de passe. Il est po
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
-Le mot de passe par défaut de Microsoft teams est défini sur «marketing». Le mot de passe peut être modifié localement en accédant \> à paramètres Windows, accédez à Windows ou au fichier Autounattend. XML (utilisez le gestionnaire d’image système Windows de ADK pour apporter la modification au fichier XML).
+Le mot de passe par défaut de Microsoft teams est défini sur « marketing ». Le mot de passe peut être modifié localement en accédant \> à paramètres Windows, accédez à Windows ou au fichier Autounattend. XML (utilisez le gestionnaire d’image système Windows de ADK pour apporter la modification au fichier XML).
   
 > [!CAUTION]
 > N’hésitez pas à modifier le mot de passe des salles de Microsoft teams dès que possible. 

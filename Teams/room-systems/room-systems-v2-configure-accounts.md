@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Consultez cette rubrique pour en savoir plus sur la configuration des comptes pour les salles Microsoft teams dans Exchange et Skype entreprise.
-ms.openlocfilehash: d405214660e34c9cda6e54f0198d0d4477aace9b
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 0ba44079e52a644e1d53ae937582a8d209f921da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427953"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775138"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour les salles de Microsoft teams
  
@@ -28,11 +28,11 @@ Consultez cette rubrique pour en savoir plus sur les salles de Microsoft teams e
   
 Cette rubrique présente la création de comptes utilisés par des salles Microsoft teams dans Microsoft Exchange et Skype entreprise. Pour obtenir des instructions sur le déploiement des appareils de Microsoft Teams, reportez-vous à [la configuration d’une console Microsoft teams](console.md). Votre infrastructure peut correspondre à l’une des configurations suivantes :
   
-- Déploiement en ligne: l’environnement de votre organisation est déployé entièrement sur Office 365. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams avec Office 365](with-office-365.md).
+- Déploiement en ligne : l’environnement de votre organisation est déployé entièrement sur Office 365. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams avec Office 365](with-office-365.md).
     
-- Déploiement local: votre organisation dispose de serveurs qui contrôlent la façon dont Active Directory, Exchange et Skype entreprise Server sont hébergés. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles de Microsoft teams avec Skype entreprise Server](with-skype-for-business-server-2015.md)
+- Déploiement local : votre organisation dispose de serveurs qui contrôlent la façon dont Active Directory, Exchange et Skype entreprise Server sont hébergés. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles de Microsoft teams avec Skype entreprise Server](with-skype-for-business-server-2015.md)
     
-- Déploiements hybrides: votre organisation a une combinaison de services, avec une partie hébergée en local et une partie hébergée en ligne via Office 365. Grâce aux salles de Microsoft Teams, les scénarios hybrides suivants sont pris en charge: 
+- Déploiements hybrides : votre organisation a une combinaison de services, avec une partie hébergée en local et une partie hébergée en ligne via Office 365. Grâce aux salles de Microsoft Teams, les scénarios hybrides suivants sont pris en charge : 
     
   - Exchange Online avec Skype entreprise Server en local. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams avec Exchange Online (hybride)](with-exchange-online.md).
     
@@ -40,12 +40,12 @@ Cette rubrique présente la création de comptes utilisés par des salles Micros
     
 La procédure de préparation de l’installation de l’appareil dépend de votre type de configuration.
   
-Les salles de Microsoft teams doivent disposer d’un «compte d’appareil» dans Active Directory, d’Exchange et de Skype entreprise. Le compte est utilisé pour accéder à son calendrier de réunion et établir une connectivité Microsoft teams ou Skype entreprise. Les utilisateurs peuvent réserver ce compte en planifiant une réunion à l’aide de celui-ci. Les salles de Microsoft teams seront en mesure de rejoindre cette réunion et de proposer diverses fonctionnalités aux participants de la réunion.
+Les salles de Microsoft teams doivent disposer d’un « compte d’appareil » dans Active Directory, d’Exchange et de Skype entreprise. Le compte est utilisé pour accéder à son calendrier de réunion et établir une connectivité Microsoft teams ou Skype entreprise. Les utilisateurs peuvent réserver ce compte en planifiant une réunion à l’aide de celui-ci. Les salles de Microsoft teams seront en mesure de rejoindre cette réunion et de proposer diverses fonctionnalités aux participants de la réunion.
   
 > [!IMPORTANT]
 > Sans compte d’appareil, aucune de ces fonctionnalités ne fonctionne. 
   
-Chaque compte d’appareil est unique pour une seule salle Microsoft teams et nécessite une configuration:
+Chaque compte d’appareil est unique pour une seule salle Microsoft teams et nécessite une configuration :
   
 - Le compte de l’appareil doit être correctement configuré.
     

@@ -3,19 +3,19 @@ title: Stratégie de conférence pour les comptes Skype Room System
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Consultez cette rubrique pour découvrir comment attribuer des stratégies de conférence pour Skype Room System.
-ms.openlocfilehash: 5c34ad8a397cc18fe6d9b67be421bfd6ce1d4435
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234481"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775367"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  
@@ -67,7 +67,7 @@ La stratégie de conférence attribuée au compte système de salle Skype doit p
   
 ## <a name="meeting-authentication"></a>Authentification pour une réunion
 
-Le système de salle Skype demande aux utilisateurs de s’authentifier quand ils utilisent le lien de participation à une réunion pour participer à une réunion restreinte; par exemple, une réunion pour laquelle les options d’salle d’attente ont été configurées dans Outlook. Ce paramètre est toujours activé pour les réunions personnalisées, et les utilisateurs sont toujours invités. Cependant, pour les réunions non restreintes, les utilisateurs peuvent participer à la réunion sans authentification. 
+Le système de salle Skype demande aux utilisateurs de s’authentifier quand ils utilisent le lien de participation à une réunion pour participer à une réunion restreinte ; par exemple, une réunion pour laquelle les options d’salle d’attente ont été configurées dans Outlook. Ce paramètre est toujours activé pour les réunions personnalisées, et les utilisateurs sont toujours invités. Cependant, pour les réunions non restreintes, les utilisateurs peuvent participer à la réunion sans authentification. 
   
 La commande suivante permet aux administrateurs d’exiger une authentification pour toutes les réunions, y compris les réunions non restreintes : 
   

@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Consultez cette rubrique pour découvrir comment procéder pour vérifier si vous disposez d’une licence en volume de Skype Entreprise.
-ms.openlocfilehash: 731eefa49714fdced552c6cbedf4ecc288065d6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 15f768de96d65cd8584ceb2529b92892a7a94afe
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234722"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774814"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System : licence du logiciel Skype Entreprise
  
@@ -27,13 +27,13 @@ Le système de salle Skype utilise un client Skype entreprise installé, qui né
 
 Si KMS est en place et distribue les activations de licence en volume Skype entreprise, le système de salle Skype active automatiquement le client Skype entreprise. Pour savoir si vous disposez de KMS :
   
-À partir d’une invite de commandes, exécutez:`nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
+À partir d’une invite de commandes, exécutez :`nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
 Pour plus d’informations, reportez-vous [à la rubrique découvrir comment découvrir les hôtes Office et kms Windows via DNS et supprimer les instances non autorisées](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
 Pour configurer un KMS, voir [activation kms d’office 2013](https://technet.microsoft.com/library/ee624357.aspx) et [GVLKs pour kms et activation d’Active Directory d’Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
   
-Clé de licence en volume générique Office 2013 pour Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (cette clé force le système de salle Skype à chercher un KMS sur le réseau.)
+Clé de licence en volume générique Office 2013 pour Lync : 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (cette clé force le système de salle Skype à chercher un KMS sur le réseau.)
   
 ## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>Clés d’activation multiple (MAK) à partir du Centre de service de licences en volume (VLSC)
 
@@ -45,7 +45,7 @@ Pour obtenir une MAK, accédez au Centre de service de licences en volume pour a
   
 ## <a name="mak-for-office-365-without-vlsc-access"></a>MAK pour Office 365 sans accès au VLSC
 
-Si le client ne dispose pas d’un contrat de licence en volume, les activations de Skype entreprise seront beaucoup plus difficiles à gérer. En revanche, les clients Office 365 sans gestion VOLUMEHTTPS://go.Microsoft.com/fwlink/P/?LINKID=329762 Access peuvent obtenir une MAK promotionnelle en fournissant les informations suivantes à l’OEM vendant le système de salle Skype:
+Si le client ne dispose pas d’un contrat de licence en volume, les activations de Skype entreprise seront beaucoup plus difficiles à gérer. En revanche, les clients Office 365 sans gestion VOLUMEHTTPS://go.Microsoft.com/fwlink/P/ ?LINKID=329762 Access peuvent obtenir une MAK promotionnelle en fournissant les informations suivantes à l’OEM vendant le système de salle Skype :
   
 - Nom de la société
     

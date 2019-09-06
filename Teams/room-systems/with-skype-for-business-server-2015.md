@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Pour plus d’informations sur le déploiement de salles de Microsoft teams avec Skype entreprise Server, reportez-vous à cette rubrique.
-ms.openlocfilehash: 0c970adeae5531b76b1ebfe55ab750efe8bd3ba3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 0661a19b3569cbfde5edfb5ceb631fab7282d302
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427763"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774945"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Déploiement de salles de Microsoft teams avec Skype entreprise Server
   
@@ -53,7 +53,7 @@ Avant de commencer à déployer des salles de Microsoft Teams, vérifiez que vou
    -AsPlainText -Force)
    ```
 
-   Si vous créez une nouvelle boîte aux lettres de ressources:
+   Si vous créez une nouvelle boîte aux lettres de ressources :
 
    ``` Powershell
    New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
@@ -80,7 +80,7 @@ Avant de commencer à déployer des salles de Microsoft Teams, vérifiez que vou
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Activez le compte de l’appareil avec Skype entreprise Server en activant votre compte Active Directory de Microsoft teams sur un pool Skype entreprise Server:
+6. Activez le compte de l’appareil avec Skype entreprise Server en activant votre compte Active Directory de Microsoft teams sur un pool Skype entreprise Server :
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -89,7 +89,7 @@ Avant de commencer à déployer des salles de Microsoft Teams, vérifiez que vou
 
     Vous devrez utiliser l’adresse SIP (Session Initiation Protocol) et le contrôleur de domaine du projet.
 
-7. **Facultatif**. Vous pouvez également permettre aux salles de Microsoft teams de passer et de recevoir des appels téléphoniques du réseau téléphonique commuté (PSTN) en activant Enterprise Voice pour votre compte. L’application voix entreprise n’est pas obligatoire pour les salles de Microsoft Teams, mais si vous voulez utiliser la fonctionnalité de numérotation PSTN pour le client Microsoft Teams, voici comment l’activer:
+7. **Facultatif**. Vous pouvez également permettre aux salles de Microsoft teams de passer et de recevoir des appels téléphoniques du réseau téléphonique commuté (PSTN) en activant Enterprise Voice pour votre compte. L’application voix entreprise n’est pas obligatoire pour les salles de Microsoft Teams, mais si vous voulez utiliser la fonctionnalité de numérotation PSTN pour le client Microsoft Teams, voici comment l’activer :
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -100,7 +100,7 @@ Avant de commencer à déployer des salles de Microsoft Teams, vérifiez que vou
 
    Une fois encore, vous devrez remplacer les exemples de contrôleur de domaine et de numéro de téléphone fournis par vos propres informations. La valeur du paramètre $true demeure identique.
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exemple: configuration de compte salle dans Exchange et Skype entreprise Server en local
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>Exemple : configuration de compte salle dans Exchange et Skype entreprise Server en local
 
 ``` Powershell
 New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)

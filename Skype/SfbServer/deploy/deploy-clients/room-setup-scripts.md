@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Consultez cette rubrique pour trouver des exemples de scripts pour la mise en service de comptes Skype Room System.
-ms.openlocfilehash: 7c462dea9f1a885fbf8a4fb4f6aeee4ca4f8c3d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 77aa3a621cbc1220b71782f2067c8923cad31e5f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235023"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775343"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuration de la salle Skype Room System
  
@@ -23,7 +23,7 @@ Consultez cette rubrique pour trouver des exemples de scripts pour la mise en se
   
 Cette section présente des exemples de scripts qui peuvent être utilisés pour approvisionner des comptes de systèmes de salle Skype. Ces scripts sont fournis à titre indicatif uniquement et ne doivent être utilisés qu’après avoir consulté votre expert en informatique ou administrateur de domaine.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Exemple de script de configuration: Skype entreprise et Exchange Server (local)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Exemple de script de configuration : Skype entreprise et Exchange Server (local)
 
 ```
 # On Exchange 
@@ -37,7 +37,7 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Exemple de script de configuration: Skype entreprise et Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Exemple de script de configuration : Skype entreprise et Exchange Server Online
 
 Assurez-vous que vous avez passé en revue les conditions préalables suivantes avant d’exécuter le script :
   

@@ -2,7 +2,7 @@
 title: Configuration requise pour Microsoft teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: ee2f60fbf638613eb296bc24b1bebd1dfc66553a
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 4a92ba051564800dace5eafec8e573d807c11d04
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645269"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775171"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
@@ -24,10 +24,10 @@ Cet article présente la configuration requise pour la prise en charge des salle
 
 Votre déploiement implique la création d’un compte comme décrit dans la rubrique [déploiement de salles de Microsoft teams](room-systems-v2.md) et configuration de consoles de réunion, comme décrit dans [la rubrique Configurer une console Microsoft teams](console.md).
 
-Vous pouvez également consulter les rubriques suivantes:
+Vous pouvez également consulter les rubriques suivantes :
 
 - [Licences de complément Skype Entreprise](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Options de licence basées sur votre plan: salles de Microsoft teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Options de licence basées sur votre plan : salles de Microsoft teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
 > Les salles de Microsoft teams sont conçues pour une utilisation avec Microsoft Teams, Skype entreprise Server 2019, Skype entreprise Server 2015 ou Skype entreprise online.
@@ -91,7 +91,7 @@ Ces appareils sont disponibles sur [aka.ms/teamsdevices](https://aka.ms/teamsdev
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   |  8.0.914   | &#x2714; |
 |[Logitech bénéficient](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Vidéo: 1.0.156  |
+|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Audio — 1.0.172 <br/> Vidéo : 1.0.156  |
 |[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
 |[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro)   |  1.1.219   |

@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Pour plus d’informations sur le déploiement de votre système de salle Skype dans un environnement hybride, lisez cette rubrique.
-ms.openlocfilehash: 016a4cf379200dc87b8f94d13a65f10f6c3af25f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 80e7efaf5fe3705e052d40606ea5944527d43a61
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234428"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774955"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Déploiements hybrides de Skype Room System
 
@@ -50,7 +50,7 @@ Pour des raisons d’illustration, nous utilisons LyncSample.com pour le domaine
   
     Si vous souhaitez héberger la boîte aux lettres du système de salle Skype dans Exchange Online, ces étapes de l’interpréteur de tâches Exchange Management ne sont pas nécessaires et vous pouvez passer à l’étape 6.
     
-6. Activez le compte système de salle Skype pour Skype entreprise en exécutant l’applet de commande suivante sur Skype entreprise Management Shell:
+6. Activez le compte système de salle Skype pour Skype entreprise en exécutant l’applet de commande suivante sur Skype entreprise Management Shell :
     
    ```
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com

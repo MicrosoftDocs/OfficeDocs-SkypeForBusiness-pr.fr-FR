@@ -3,7 +3,7 @@ title: Utiliser l’outil de récupération de Microsoft Teams Rooms
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge.
-ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: aded92fac90f20246444419bff19415922175856
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427986"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775204"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
  
-Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge. Vous pouvez utiliser cet outil lorsque le message d’erreur «configuration système obsolète» s’affiche.
+Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge. Vous pouvez utiliser cet outil lorsque le message d’erreur « configuration système obsolète » s’affiche.
   
 
 <a name="Prerequisites"> </a>  
@@ -36,7 +36,7 @@ Vous devrez également installer [KB4089848](http://download.windowsupdate.com/d
 1. Connectez-vous à un compte d’administrateur en accédant à **paramètres> paramètres de Windows> vous connecter** à l’administrateur à partir de l’appareil Microsoft Teams. Cette option vous permet d’accéder à l’écran de connexion.
 2. Connectez-vous à un compte d’administrateur, `admin` à l’aide du compte `sfb`d’administrateur par défaut et du mot de passe.
 3. Cliquez sur le menu Démarrer, puis `winver.exe` tapez dans la zone de recherche et cliquez sur la*commande + exécuter* du résultat.
-4. Notez le numéro après «version» dans la deuxième ligne du volet d’informations.
+4. Notez le numéro après « version » dans la deuxième ligne du volet d’informations.
 
 >[!NOTE]
 >Si la version présentée est 1607 ou une version antérieure, suivez les étapes de la procédure de <a href="#Windows-up">mise à jour de Windows avant la récupération</a> avant de procéder à la <a href="#Perform">récupération</a> . Si la version présentée est supérieure à 1607, procédez comme suit pour <a href="#Perform">effectuer une récupération</a>.

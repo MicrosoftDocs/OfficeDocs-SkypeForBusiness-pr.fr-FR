@@ -1,7 +1,7 @@
 ---
-title: Disponibilité en Égypte
-ms.author: crowe
-author: CarolynRowe
+title: Disponibilité au Koweït
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -23,34 +23,34 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Égypte.
-ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
+description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Koweït.
+ms.openlocfilehash: 02987e298d612ed0213b2b067bfdfaf8924c2dec
 ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775443"
+ms.locfileid: "36775663"
 ---
-# <a name="availability-in-egypt"></a>Disponibilité en Égypte
+# <a name="availability-in-kuwait"></a>Disponibilité au Koweït
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
-Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Égypte.
+Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Koweït.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
-|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
+|Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> | Nécessite des crédits de communication <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
-| Standards automatiques <br/> |Disponibles  <br/> |
+|Standards automatiques <br/> |Disponibles  <br/> |
 |Files d'attente des appels  <br/> |Disponibles  <br/> |
 |Messagerie vocale  <br/> |Disponibles  <br/> |
    
@@ -66,17 +66,17 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Non applicable  <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Non  <br/> |
-|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Koweït City ([à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Le numéro gratuit disponible est-il disponible ?  <br/> |Non  <br/> |
    
- Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si vous souhaitez obtenir des numéros de téléphone gratuits et payants pour les conférences audio, les standards automatiques et les files d’attente, voir [obtention des numéros de téléphone de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Crédits de communication
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
+|Les crédits de communication sont-ils disponibles ?  <br/> |Non  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   

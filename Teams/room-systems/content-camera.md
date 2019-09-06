@@ -2,7 +2,7 @@
 title: Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 ms.author: jambirk
 author: jambirk
-ms.reviewer: gregbari
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 4161474f02959b091db6584f1aeed72646028e6d
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645290"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774566"
 ---
 # <a name="content-cameras"></a>Webcams de contenu
 
@@ -30,7 +30,7 @@ Pour obtenir des exemples de fonctionnalités de caméra de contenu, consultez l
 > [!NOTE]
 > Restez toujours dans le code de bâtiment de votre pays ou de votre région, qui peut définir une distance minimum entre le plancher ou une prescription pour la sécurisation de l’équipement monté au plafond pour le rafting ou l’autre structure. Suivez les instructions de montage du matériel fourni avec l’appareil photo que vous avez sélectionné. Les kits de montage d’appareil photo OEM incluent une caméra, des extensions USB 2,0 et des câbles nécessaires.
 
-La taille du tableau blanc utilisé pour le partage affecte la position de la caméra. Les recommandations en matière de taille de tableau sont les suivantes:
+La taille du tableau blanc utilisé pour le partage affecte la position de la caméra. Les recommandations en matière de taille de tableau sont les suivantes :
 
 - 3 à 6 pieds (0,9-1,8 m)
 - 6 à 9 m (1,8-2,7 m) large, recommandé
@@ -81,7 +81,7 @@ Pour plus d’informations, consultez la rubrique Marketplace Microsoft teams Ma
 
 ## <a name="camera-settings"></a>Paramètres de l’appareil photo
 
-Une fois la caméra installée dans la salle, configurez-la sur la console Microsoft teams salles de cette salle:
+Une fois la caméra installée dans la salle, configurez-la sur la console Microsoft teams salles de cette salle :
 
 1. Sélectionnez **** ![l’icône](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)paramètres des paramètres, connectez-vous en tant qu’administrateur, puis sélectionnez Paramètres de l' **appareil**.
 2. Dans la section **valeurs par défaut de l’appareil photo** , sélectionnez l’appareil photo de contenu et assurez-vous que l’option **améliorations du contenu** est sélectionnée.

@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Consultez cette rubrique pour apprendre à déployer Skype Room System dans un environnement local à plusieurs forêts.
-ms.openlocfilehash: 7de5d285f36ddd1060ba53aa3e142a09a5d421e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eb5aa2cbe3bef26602279ffa9d4a5dc38a7e7bc2
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234197"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775039"
 ---
 # <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Déploiements locaux de plusieurs forêts Skype Room System
  
@@ -28,7 +28,7 @@ Après la création de la boîte aux lettres, vous pouvez utiliser Set-CalendarP
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>Option 1 : créer une nouvelle boîte aux lettres de ressources
 
-Pour déployer le système de salle Skype dans un environnement multiforêt:
+Pour déployer le système de salle Skype dans un environnement multiforêt :
   
 1. Créez un utilisateur lié (LinkedRoomTest) dans Active Directory (forêt d’authentification).
     
@@ -39,7 +39,7 @@ Pour déployer le système de salle Skype dans un environnement multiforêt:
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Option 2: remplacer une boîte aux lettres de salle existante par une boîte aux lettres de ressources liée au système de salle Skype
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Option 2 : remplacer une boîte aux lettres de salle existante par une boîte aux lettres de ressources liée au système de salle Skype
 
 ```
 $cred=Get-Credential AuthForest\LinkedRoomTest1

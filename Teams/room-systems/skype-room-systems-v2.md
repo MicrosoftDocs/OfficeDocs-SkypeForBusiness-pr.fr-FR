@@ -3,7 +3,7 @@ title: Licences Salles Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859727"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775058"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams 
+# <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Solutions de gestion des licences pour les appareils de communication partagés
 
@@ -40,15 +40,15 @@ Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les a
 |Skype Entreprise |&#x2714;|
 |Microsoft Teams|  &#x2714;|
 |Systèmes téléphoniques|  &#x2714;|
-|Audioconférence,|&#x2714; &sup1;|
+|Audioconférence,|&#x2714; &sup1 ;|
 |Microsoft Intune|&#x2714;|  
-|Disponibilité dans le monde entier | &#x2714; &sup2;|
-|Disponibilité du canal | AE, EAS, CSP, <br>Web direct |
+|Disponibilité dans le monde entier | &#x2714; &sup2 ;|
+|Disponibilité du canal | AE, EAS, CSP, <br/>Web direct |
 | | | |
 
-&sup1; La disponibilité et les minutes incluses peuvent varier en fonction de la région. Pour vérifier la disponibilité du service, voir [disponibilité du pays et de la région pour les offres d’appels audio et de services d’audioconférence](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Des frais de consommation pourraient s’appliquer pour des services supplémentaires, tels que le numéro sans frais, des minutes internationales pour les forfaits nationaux, etc. Les clients peuvent désactiver ces fonctionnalités pour éviter de facturer davantage.  
+&sup1 ; La disponibilité et les minutes incluses peuvent varier en fonction de la région. Pour vérifier la disponibilité du service, voir [disponibilité du pays et de la région pour les offres d’appels audio et de services d’audioconférence](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Des frais de consommation pourraient s’appliquer pour des services supplémentaires, tels que le numéro sans frais, des minutes internationales pour les forfaits nationaux, etc. Les clients peuvent désactiver ces fonctionnalités pour éviter de facturer davantage.  
 
-&sup2; Non disponible dans les nuages souverains  
+&sup2 ; Non disponible dans les nuages souverains  
 
 
 > [!NOTE]

@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Consultez cette rubrique pour en savoir plus sur la mise en service de comptes Skype Room System dans Office 365.
-ms.openlocfilehash: 5df77e9a9e5e3ca67eb831596c12516457a15c45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235064"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775388"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Mise en service de comptes Skype Room System dans Office 365
  
@@ -59,7 +59,7 @@ Le diagramme suivant fournit une vue d’ensemble du flux de configuration du co
   
 ## <a name="identify-a-new-conference-room"></a>Identifier une nouvelle salle de conférence
 
-Il est possible que vous ayez déjà une boîte aux lettres de salle de ressources dans Exchange qui fournit la fonctionnalité de planification ou que vous deviez créer une boîte aux lettres de ressources pour faciliter le déploiement du système de salle Skype. Dans tous les cas, vous devez identifier un compte de salle à utiliser dans votre client. Les sections de configuration d’Exchange Online et de configuration de Skype entreprise fournissent des instructions pour les deux types de comptes. Par exemple, imaginons que vous ayez les deux pièces suivantes et que vous souhaitez déployer le système de salle Skype pour les deux:
+Il est possible que vous ayez déjà une boîte aux lettres de salle de ressources dans Exchange qui fournit la fonctionnalité de planification ou que vous deviez créer une boîte aux lettres de ressources pour faciliter le déploiement du système de salle Skype. Dans tous les cas, vous devez identifier un compte de salle à utiliser dans votre client. Les sections de configuration d’Exchange Online et de configuration de Skype entreprise fournissent des instructions pour les deux types de comptes. Par exemple, imaginons que vous ayez les deux pièces suivantes et que vous souhaitez déployer le système de salle Skype pour les deux :
   
 - Compte de boîte aux lettres de ressources existant : confrm1@contoso.onmicrosoft.com
     
@@ -69,7 +69,7 @@ Il est possible que vous ayez déjà une boîte aux lettres de salle de ressourc
 
 Tout d’abord, connectez-vous à Exchange Online PowerShell en suivant les instructions de la rubrique [connexion à Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
   
-Pour définir un compte de boîte aux lettres de salle de ressources existant pour Skype Room System, exécutez les commandes suivantes dans Exchange Online PowerShell:
+Pour définir un compte de boîte aux lettres de salle de ressources existant pour Skype Room System, exécutez les commandes suivantes dans Exchange Online PowerShell :
   
 ```
 $rm="confrm1@contoso.onmicrosoft.com"
@@ -77,7 +77,7 @@ $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-Pour créer un compte de boîte aux lettres de ressources Exchange pour le système de salle Skype, exécutez les commandes suivantes dans Exchange Online PowerShell:
+Pour créer un compte de boîte aux lettres de ressources Exchange pour le système de salle Skype, exécutez les commandes suivantes dans Exchange Online PowerShell :
   
 ```
 $rm="confrm2@contoso.onmicrosoft.com"
@@ -97,7 +97,7 @@ Dès lors que vous attribuez une licence à Skype entreprise Online, vous pourre
   
 ## <a name="skype-for-business-online-provisioning"></a>Mise en service de Skype Entreprise Online
 
-Une fois qu’un compte de boîte aux lettres a été créé et activé comme indiqué précédemment et que vous disposez d’une licence pour Skype entreprise Online, le compte est synchronisé entre la forêt Exchange Online et la forêt Skype entreprise Online à l’aide de l’option Forêt Active Directory Windows Azure. Les étapes suivantes sont nécessaires pour approvisionner le compte de système de salle Skype dans la liste de Skype entreprise online. Ces étapes sont identiques pour un compte de boîte aux lettres de ressources existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’ils sont activés dans Exchange Online, les deux comptes seront synchronisés avec Skype entreprise Online de la même façon:
+Une fois qu’un compte de boîte aux lettres a été créé et activé comme indiqué précédemment et que vous disposez d’une licence pour Skype entreprise Online, le compte est synchronisé entre la forêt Exchange Online et la forêt Skype entreprise Online à l’aide de l’option Forêt Active Directory Windows Azure. Les étapes suivantes sont nécessaires pour approvisionner le compte de système de salle Skype dans la liste de Skype entreprise online. Ces étapes sont identiques pour un compte de boîte aux lettres de ressources existant ou un compte nouvellement créé (confrm1 ou confrm2), car une fois qu’ils sont activés dans Exchange Online, les deux comptes seront synchronisés avec Skype entreprise Online de la même façon :
   
 1. Créez une session PowerShell distante. Notez que vous devrez télécharger le module Skype entreprise Online Connector et l’Assistant de connexion Microsoft Online Services pour vous assurer que votre ordinateur est configuré. Pour plus d’informations, voir [configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
@@ -107,13 +107,13 @@ Une fois qu’un compte de boîte aux lettres a été créé et activé comme in
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Pour activer un compte système de salle Skype pour Skype entreprise, exécutez la commande suivante:
+2. Pour activer un compte système de salle Skype pour Skype entreprise, exécutez la commande suivante :
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    Vous pouvez obtenir l’adresse RegistrarPool dans laquelle les utilisateurs de Skype entreprise sont hébergés à partir de l’un de vos comptes existants en utilisant la commande suivante pour renvoyer cette propriété:
+    Vous pouvez obtenir l’adresse RegistrarPool dans laquelle les utilisateurs de Skype entreprise sont hébergés à partir de l’un de vos comptes existants en utilisant la commande suivante pour renvoyer cette propriété :
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
@@ -131,7 +131,7 @@ Dans Office 365, la stratégie d’expiration du mot de passe par défaut pour 
     Connect-MsolService -Credential $cred
     ```
 
-2. Définissez le paramètre mot de passe n’expire jamais pour le compte de la salle de salle Skype créé précédemment en utilisant la commande suivante:
+2. Définissez le paramètre mot de passe n’expire jamais pour le compte de la salle de salle Skype créé précédemment en utilisant la commande suivante :
     
    ```
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true

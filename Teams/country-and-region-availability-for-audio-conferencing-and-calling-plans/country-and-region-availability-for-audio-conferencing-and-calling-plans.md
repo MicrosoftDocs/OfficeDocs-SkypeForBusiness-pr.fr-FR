@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour vérifier la présence de services d’audioconférence, de système téléphonique, de plans d’appel, de crédits de communications et si les numéros de téléphone gratuits et payants sont disponibles ou non.
-ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
-ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
+ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "35908226"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774652"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -38,7 +38,8 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Sélectionnez votre pays ou région pour voir ce qui est disponible pour votre organisation
 
-> [!div class="op_single_selector"]    
+> [!div class="op_single_selector"]
+> - [Algérie](availability-in-algeria.md)    
 > - [Argentine](availability-in-argentina.md)
 > - [Australie](availability-in-australia.md)
 > - [Autriche](availability-in-austria.md)
@@ -46,10 +47,12 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Bélarus](availability-in-belarus.md)
 > - [Belgique](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
+> - [Bénin](availability-in-benin.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](availability-in-bosniaherzegovina.md)
 > - [Brésil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgarie](availability-in-bulgaria.md)
+> - [Cambodge](availability-in-cambodia.md)
 > - [Canada](availability-in-canada.md)
 > - [Chili](availability-in-chile.md)
 > - [Chine](availability-in-china.md)
@@ -68,6 +71,7 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [France](availability-in-france.md)
 > - [Géorgie](availability-in-georgia.md)
 > - [Allemagne](availability-in-germany.md)
+> - [Ghana](availability-in-ghana.md)
 > - [Grèce](availability-in-greece.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong Kong](availability-in-hong-kong.md)
@@ -79,7 +83,9 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Italie](availability-in-italy.md)
 > - [Japon](availability-in-japan.md)
 > - [Jordanie](availability-in-jordan.md)
+> - [Kazakhstan](availability-in-kazakhstan.md)
 > - [Kenya](availability-in-kenya.md)
+> - [Koweït](availability-in-kuwait.md)
 > - [Lettonie](availability-in-latvia.md)
 > - [Lituanie](availability-in-lithuania.md)
 > - [Luxembourg](availability-in-luxembourg.md)
@@ -89,8 +95,11 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Mexique](availability-in-mexico.md)
 > - [Moldavie](availability-in-moldova.md)
 > - [Monaco](availability-in-monaco.md)
+> - [Maroc](availability-in-morocco.md)
 > - [Pays-Bas](availability-in-the-netherlands.md)
 > - [Nouvelle-Zélande](availability-in-new-zealand.md)
+> - [Nicaragua](availability-in-nicaragua.md)
+> - [Nigeria](availability-in-nigeria.md)
 > - [Norvège](availability-in-norway.md)
 > - [Pakistan](availability-in-pakistan.md)
 > - [Panama](availability-in-panama.md)
@@ -117,6 +126,7 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Taïwan](availability-in-taiwan.md)
 > - [Thaïlande](availability-in-thailand.md)
 > - [Trinité-et-Tobago](availability-in-trinidad-and-tobago.md)
+> - [Tunisie](availability-in-tunisia.md)
 > - [Turquie](availability-in-turkey.md)
 > - [Ukraine](availability-in-the-ukraine.md)
 > - [Émirats arabes unis](availability-in-the-united-arab-emirates-uae.md)
@@ -126,7 +136,7 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul disponibilité du pays/](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)de la région dans le Cloud Voice**.
+**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul disponibilité du pays/](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)de la région dans le Cloud Voice**.
 
 ***
 
@@ -137,7 +147,7 @@ Pour savoir si l’un des services Skype entreprise ou Microsoft teams est dispo
 > Si vous avez besoin d’obtenir plus de numéros de téléphone pour vos utilisateurs, reportez-vous à [la rubrique obtention de numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users) ou, pour les formulaires de demande de numéro de téléphone, pour [gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 
-## <a name="want-to-learn-more-about-these-services"></a>Vous voulez en savoir plus sur ces services?
+## <a name="want-to-learn-more-about-these-services"></a>Vous voulez en savoir plus sur ces services ?
 
 ### <a name="audio-conferencing"></a>Audioconférence,
 
@@ -173,12 +183,12 @@ Grâce au système téléphonique, vous pouvez créer des standards automatiques
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région, ainsi que les services disponibles.
 
 ### <a name="calling-plans"></a>Offres d'appels
-Outre le système téléphonique, les plans d’appels permettent aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d’abord obtenir un numéro de téléphone d’utilisateur (abonné) (pas un numéro de service) pour l’attribuer à l’utilisateur, puis lui affecter un plan d’appels. Il existe deux types de forfaits d’appel disponibles: **national** et **national et international**. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](../calling-plan-landing-page.md) .
+Outre le système téléphonique, les plans d’appels permettent aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d’abord obtenir un numéro de téléphone d’utilisateur (abonné) (pas un numéro de service) pour l’attribuer à l’utilisateur, puis lui affecter un plan d’appels. Il existe deux types de forfaits d’appel disponibles : **national** et **national et international**. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](../calling-plan-landing-page.md) .
 
 Vous pouvez également consulter les [licences de système téléphonique et de plans d’appel](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour obtenir des informations sur les licences.
 
 > [!NOTE]
-> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365** > **** et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le centre d’administration **Microsoft 365 centrer**. 
+> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365** > **et** **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le centre d’administration **Microsoft 365 centrer**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Numéros de téléphone gratuits et payants pour les services
 
@@ -194,7 +204,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 Nous vous recommandons de configurer les crédits de communication pour vos services d’audioconférence et d’appels audio qui nécessitent la possibilité de se connecter à **n’importe quelle destination**. De nombreux pays ou régions sont inclus, mais certaines destinations peuvent ne pas être incluses dans les abonnements de votre plan d’appel ou de votre audioconférence.
   
-Si vous ne configurez pas de crédits de communication et attribuez une licence à des utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel ou du forfait d’audioconférence ou de votre pays/région), ils ne seront pas en mesure de passer des appels ou des appels sortants. Vous pouvez en savoir plus sur les montants de financement recommandés en lisant la rubrique en savoir plus sur [les crédits de communication?](../what-are-communications-credits.md)
+Si vous ne configurez pas de crédits de communication et attribuez une licence à des utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel ou du forfait d’audioconférence ou de votre pays/région), ils ne seront pas en mesure de passer des appels ou des appels sortants. Vous pouvez en savoir plus sur les montants de financement recommandés en lisant la rubrique en savoir plus sur [les crédits de communication ?](../what-are-communications-credits.md)
 
 
 ## <a name="related-topics"></a>Rubriques connexes

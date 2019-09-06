@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Consultez cette rubrique pour en savoir plus sur les outils de gestion de Skype Room System.
-ms.openlocfilehash: ce33307babac88f6a0e3145988d0ea8519f86110
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234217"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775325"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Facilité de gestion et outils Skype Room System
  
@@ -25,7 +25,7 @@ Consultez cette rubrique pour en savoir plus sur les outils de gestion de Skype�
 
 Pour les déploiements sur site de Skype entreprise Server, vous pouvez utiliser le portail d’administration du système de salle Skype pour gérer et surveiller activement les déploiements de systèmes de salle Skype au sein de votre organisation.
   
-Pour plus d’informations, consultez l’article suivant:
+Pour plus d’informations, consultez l’article suivant :
   
 - [Déploiement du portail Web d’administration de SRS v1 dans Skype entreprise Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
@@ -39,7 +39,7 @@ Le système de salle Skype peut être surveillé par le biais de System Center O
     
 - Ping Autodiscover (par ex., ping Autodiscover.contoso.com).
     
-- Testez votre service Autodiscover avec l’outil d’analyse de connectivité de Microsoft. Choisissez le premier test «je ne peux pas me connecter à Office Outlook».
+- Testez votre service Autodiscover avec l’outil d’analyse de connectivité de Microsoft. Choisissez le premier test « je ne peux pas me connecter à Office Outlook ».
     
 - Si la salle de réunion possède déjà une boîte aux lettres de ressources, développez ce compte pour le système de salle Skype (exemple de script en bas de la page).
     
@@ -103,9 +103,9 @@ Vérifiez que vous utilisez un KMS pour l’activation du logiciel. Si tel est l
 
 Le système de salle Skype exécute le client de bureau Skype entreprise en arrière-plan. Si le système de salle Skype est membre du domaine, il découvre votre KMS. (et si la clé KMS du programme de licence en volume sera activée automatiquement). Le programme de licence en volume fournit également une MAK, que vous entrez pour afficher xxxxx-xxxxx-xxxxx-xxxxx. (Vous devez disposer d’un accès à Internet pour l’activer à l’aide de MAK mais pas du KMS). Pour plus d’informations, voir activation en volume d’Office 2013.
   
-- Pour entrer la clé MAK, accédez à l’outil \> de gestion des licences de paramètres OEM. Cliquez sur Vérifier l’état. Lorsque l’état indique «le produit n’est pas activé», entrez la clé.
+- Pour entrer la clé MAK, accédez à l’outil \> de gestion des licences de paramètres OEM. Cliquez sur Vérifier l’état. Lorsque l’état indique « le produit n’est pas activé », entrez la clé.
     
-- Si, au cours de l’activation, vous recevez un message d’erreur indiquant que le service de gestion de licences des logiciels a signalé que la clé de produit n’est pas valide, vérifiez les éléments suivants:
+- Si, au cours de l’activation, vous recevez un message d’erreur indiquant que le service de gestion de licences des logiciels a signalé que la clé de produit n’est pas valide, vérifiez les éléments suivants :
     
   - Vous avez saisi la clé correctement.
     
@@ -133,7 +133,7 @@ Importez le fichier. CRT dans le système de salle Skype sous le dossier autorit
   
 Importez les fichiers. lrc dans le système de salle Skype dans le dossier autorités de certification intermédiaires. (Vous devez remplacer le filtre d’extension de fichier dans le gestionnaire de certificats par. crl pour voir les fichiers).
   
-Remarque: le serveur Office Web Apps 2013 risque de partager la même autorité de certification que Skype entreprise. Si ce n’est pas le cas, vous ne serez pas en mesure de partager PowerPoint lors d’une réunion. Vérifiez auprès de votre service informatique et obtenez les fichiers CRT et CRL à partir du CertEnroll partage réseau de l’autorité de certification, comme expliqué ci-dessus. 
+Remarque : le serveur Office Web Apps 2013 risque de partager la même autorité de certification que Skype entreprise. Si ce n’est pas le cas, vous ne serez pas en mesure de partager PowerPoint lors d’une réunion. Vérifiez auprès de votre service informatique et obtenez les fichiers CRT et CRL à partir du CertEnroll partage réseau de l’autorité de certification, comme expliqué ci-dessus. 
   
 L’appartenance aux domaines peut simplifier certains éléments, car vous pouvez considérer le système de salle Skype comme un système Windows et il peut s’appuyer sur Active Directory pour certains aspects du certificat. Toutefois, il est préférable de gérer cela manuellement.
   

@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -14,16 +14,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: 229e81aceb5e63152a35bbe00148015e124cf96f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 132c40c674824bb763ea2087318423ca3677f506
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427997"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775127"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
-Le déploiement de Microsoft teams salles s’arrête essentiellement par phases:
+Le déploiement de Microsoft teams salles s’arrête essentiellement par phases :
 
 - Confirmation que vos emplacements de déploiement (salles) répondent aux dépendances de déploiement
 - Créer des comptes Microsoft teams ou Skype entreprise et les affecter aux périphériques de la console (voir [configurer des comptes pour les salles de Microsoft teams](room-systems-v2-configure-accounts.md))
@@ -38,7 +38,7 @@ Les technologies AUDIOVISUELles peuvent être utilisées pour la dernière tâch
 
 Lorsque les périphériques commandés sont remis à votre organisation, collaborez avec votre réseau et vos installations AV pour vous assurer que les dépendances de déploiement sont satisfaites et que chaque site et salle est prêt en termes d’alimentation, de réseau et d’affichage. Par ailleurs, assurez-vous que la configuration requise pour l’installation physique est satisfaite. Pour plus d’informations sur l’installation physique, consultez le site du fournisseur et profitez de l’utilisation de votre équipe AV lors de l’installation et du montage d’écrans et de l’utilisation de câbles.
 
-Vous pouvez en savoir plus sur ces dépendances dans les liens d’instructions de planification ci-dessous:
+Vous pouvez en savoir plus sur ces dépendances dans les liens d’instructions de planification ci-dessous :
 
 -   [Vérification de la disponibilité du réseau](srs-v2-prep.md#check-network-availability) 
 -   [Certificats](srs-v2-prep.md#certificates)
@@ -53,7 +53,7 @@ Vous pouvez en savoir plus sur ces dépendances dans les liens d’instructions 
 
 ## <a name="service-readiness"></a>Préparation du service
 
-Pour préparer le déploiement de Microsoft Teams, effectuez les tâches centrales suivantes:
+Pour préparer le déploiement de Microsoft Teams, effectuez les tâches centrales suivantes :
 
 -   Définissez les fonctionnalités de compte de service de Microsoft teams services.
 -   Préparez une unité d’organisation et un groupe Active Directory pour contenir les comptes d’ordinateur et de service de Microsoft Teams, et, éventuellement, préparer des objets de stratégie de groupe pour activer l’accès distant PowerShell.
@@ -64,7 +64,7 @@ En fonction des scénarios de collaboration que vous avez décidé d’activer a
 
 | **Scénario** | **Description** | **Fonctionnalité de compte de service de Microsoft teams** |
 |---------- |------------- | --- |
-| Réunions interactives            | Utilisation de la voix, de la vidéo et du partage d’écran; création de la ressource bookable de Microsoft teams                     | Activé pour Skype entreprise, activé pour Exchange (boîte aux lettres de ressources) |
+| Réunions interactives            | Utilisation de la voix, de la vidéo et du partage d’écran ; création de la ressource bookable de Microsoft teams                     | Activé pour Skype entreprise, activé pour Exchange (boîte aux lettres de ressources) |
 | Conférence rendez-vous            | Activer les réunions démarrées *directement* à partir de la console des salles de Microsoft teams avec les coordonnées de conférence rendez-vous | Activé pour les conférences audio                                          |
 | Appel RTC entrant/sortant | Activer la console de salles de Microsoft teams pour passer et recevoir des appels RTC                                         | Activé pour le système téléphonique                                                |
 
@@ -94,18 +94,18 @@ Définissez une communauté locale Active Directory ou Azure AD pour ajouter tou
 
 Définissez une unité d’organisation dans votre hiérarchie locale Active Directory ou Azure AD pour contenir tous les comptes d’ordinateur de Microsoft Teams (s’ils sont joints au domaine) et une unité d’organisation pour contenir tous les comptes d’utilisateurs de Microsoft Teams. Si vous créez une unité d’organisation pour les comptes d’ordinateur de Microsoft Teams, envisagez de désactiver l’héritage de façon à ce que vous appliquiez uniquement les stratégies que vous souhaitez appliquer à l’équipe Microsoft teams dans le domaine. 
 
-Création d’un objet de stratégie de groupe affecté à l’unité d’organisation qui contient les comptes d’ordinateur de votre équipe Microsoft teams; Utilisez cette opération pour: 
+Création d’un objet de stratégie de groupe affecté à l’unité d’organisation qui contient les comptes d’ordinateur de votre équipe Microsoft teams ; Utilisez cette opération pour : 
 
 -   [Définissez les paramètres de compte d’alimentation et de local](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
 -   Activez Windows Update.
--   Activez l’accès distant PowerShell. Vous pouvez configurer un script de démarrage de manière à exécuter un script simple: Enable-PSRemoting-force
+-   Activez l’accès distant PowerShell. Vous pouvez configurer un script de démarrage de manière à exécuter un script simple : Enable-PSRemoting-force
 
 Vous pouvez utiliser PowerShell pour effectuer un certain nombre d’activités de gestion à distance, y compris la création et la définition d’informations de configuration. L’accès distant PowerShell doit être activé *avant qu'* une gestion PowerShell à distance puisse avoir lieu et qu’il soit considéré comme faisant partie de vos processus de déploiement ou configurés via une stratégie de groupe. Pour plus d’informations sur ces fonctionnalités et leur activation, voir [maintenance et opérations](room-systems-v2-operations.md#remote-management-using-powershell). 
 
 
 ## <a name="configuration-and-deployment"></a>Configuration et déploiement 
 
-La planification de la configuration et du déploiement englobe les principales zones suivantes:
+La planification de la configuration et du déploiement englobe les principales zones suivantes :
 
 -   Attribution de compte
 -   Installation de logiciels de périphériques

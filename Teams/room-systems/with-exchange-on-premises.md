@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: 5000c46e4eb37e068f573aee45310537e1504630
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 3dd749e14acabae40da444894dfb89aea97f9e38
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427735"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774966"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 
@@ -68,7 +68,7 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 
 1. [Ouvrez Exchange Management Shell](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [Connectez-vous à votre serveur Exchange à l’aide de Remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. Dans Exchange PowerShell, en utilisant la commande suivante, la boîte aux lettres du compte (activée par boîte aux lettres) s’exécute à l’aide de la commande suivante:
+2. Dans Exchange PowerShell, en utilisant la commande suivante, la boîte aux lettres du compte (activée par boîte aux lettres) s’exécute à l’aide de la commande suivante :
 
    ``` Powershell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
@@ -76,21 +76,21 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 
    Pour obtenir une syntaxe détaillée et des informations relatives aux paramètres, voir [activer-boîte aux lettres](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).
 
-3. Dans Exchange PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’interface utilisateur:
+3. Dans Exchange PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’interface utilisateur :
 
-   - AutomateProcessing: l’acceptation automatique (les organisateurs de la réunion reçoivent la décision de réservation de salle directement sans intervention humaine: gratuit = accepter; occupé = refuser.)
+   - AutomateProcessing : l’acceptation automatique (les organisateurs de la réunion reçoivent la décision de réservation de salle directement sans intervention humaine : gratuit = accepter ; occupé = refuser.)
 
-   - AddOrganizerToSubject: $false (l’organisateur de la réunion n’est pas ajouté au sujet de la demande de réunion.)
+   - AddOrganizerToSubject : $false (l’organisateur de la réunion n’est pas ajouté au sujet de la demande de réunion.)
 
-   - DeleteComments: $false (conservez le texte dans le corps des demandes de réunion entrantes).
+   - DeleteComments : $false (conservez le texte dans le corps des demandes de réunion entrantes).
 
-   - DeleteSubject: $false (conserver le sujet des demandes de réunion entrantes).
+   - DeleteSubject : $false (conserver le sujet des demandes de réunion entrantes).
 
-   - RemovePrivateProperty: $false (vérifie que l’indicateur privé qui a été envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste indiqué.)
+   - RemovePrivateProperty : $false (vérifie que l’indicateur privé qui a été envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste indiqué.)
 
-   - AddAdditionalResponse: $true (le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
+   - AddAdditionalResponse : $true (le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - AdditionalResponse: «il s’agit d’une salle de réunion Skype!» (Le texte supplémentaire à ajouter à la demande de réunion.)
+   - AdditionalResponse : « il s’agit d’une salle de réunion Skype ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
 
    Cet exemple configure ces paramètres sur la boîte aux lettres de salle nommée Project-Rigel-01.
 
@@ -133,7 +133,7 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 
 PowerShell Skype entreprise Online permet de gérer les services de Microsoft teams et de Skype entreprise online.
 
-1. Créez une session Windows PowerShell distante à partir d’un PC comme suit:
+1. Créez une session Windows PowerShell distante à partir d’un PC comme suit :
 
    ``` Powershell
    Import-Module SkypeOnlineConnector  
@@ -141,19 +141,19 @@ PowerShell Skype entreprise Online permet de gérer les services de Microsoft te
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Obtenez l’adresse SIP du compte:
+2. Obtenez l’adresse SIP du compte :
 
   ``` Powershell
    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
    ```
 
-3. Pour activer votre compte Microsoft teams Room, exécutez la commande suivante:
+3. Pour activer votre compte Microsoft teams Room, exécutez la commande suivante :
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-   Si vous ne savez pas quelle valeur utiliser pour le paramètre RegistrarPool dans votre environnement, vous pouvez obtenir la valeur d’un utilisateur existant à l’aide de la commande suivante:
+   Si vous ne savez pas quelle valeur utiliser pour le paramètre RegistrarPool dans votre environnement, vous pouvez obtenir la valeur d’un utilisateur existant à l’aide de la commande suivante :
 
    ``` Powershell
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
