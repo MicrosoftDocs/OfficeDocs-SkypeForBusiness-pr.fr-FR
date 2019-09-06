@@ -3,7 +3,6 @@ title: Prise en main des modèles Teams de vente au détail
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -13,54 +12,54 @@ ms.collection:
 - Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser les modèles d’équipe pour créer des structures de l’équipe conçus pour des besoins.
+description: Découvrez comment utiliser les modèles teams pour créer des structures d’équipe conçues pour les besoins des détaillants.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245745"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767100"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Prise en main des modèles Teams de vente au détail 
 
-Les modèles d’équipe permettent de rapidement et facilement créer des équipes en fournissant un modèle prédéfini de paramètres, les canaux et applications préinstallées.
+Les modèles d’équipes vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéfini de paramètres, de canaux et d’applications déjà installées.
 
-Définitions des structures de l’équipe conçus autour des besoins, les modèles d’équipe ont prédéfinies. Vous pouvez utiliser les modèles d’équipe pour créer rapidement les types d’équipes qui fonctionnent correctement pour les détaillants et de les déploient dans votre organisation. Vous pouvez également étendre les modèles d’équipe pour créer des équipes qui sont adaptées aux besoins spécifiques de votre organisation.
+Les modèles d’équipes sont dotés de définitions prédéfinies de structures d’équipe conçues en fonction des besoins des détaillants. Vous pouvez utiliser les modèles teams pour créer rapidement des types d’équipes adaptées aux détaillants et à déployer au sein de votre organisation. Vous pouvez également développer les modèles teams pour créer des équipes adaptées aux besoins spécifiques de votre organisation.
 
-Dans cet article, nous allons présenter chacun des modèles d’équipe et comment nous vous recommandons de les utiliser.
+Dans cet article, nous allons présenter chacun des modèles d’équipes et la façon dont nous vous conseillons de les utiliser.
 
-Cet article est pour vous si vous êtes responsable de la planification, le déploiement et la gestion de plusieurs équipes au sein de votre organisation vente au détail.
+Cet article est pour vous si vous êtes responsable de la planification, du déploiement et de la gestion de plusieurs équipes au sein de votre organisation commerciale. Nous partons du principe que vous avez déjà déployé teams service au sein de votre organisation. Si vous n’avez pas encore déployé Teams, commencez par lire la rubrique [comment déployer Microsoft teams](How-to-roll-out-teams.md).
 
-Pour en savoir plus sur l’équipe modèles en général, reportez-vous à [prendre en main les modèles d’équipe](get-started-with-teams-templates.md).
+Pour en savoir plus sur les modèles d’équipe en général, consultez la rubrique [commencer à utiliser les modèles](get-started-with-teams-templates.md)Teams.
 
-## <a name="store-template"></a>Modèle de magasin
+## <a name="store-template"></a>Modèle du Windows Store
 
-Le modèle de magasin est idéal pour la création d’une équipe pour représenter un emplacement de magasin de vente au détail individuels. À l’aide du modèle de banque, vous pouvez créer une équipe pour chaque emplacement de magasin de vente au détail dans votre organisation.
+Le modèle Windows Store est idéal pour créer une équipe et représenter une adresse de magasin commerciale individuelle. À l’aide du modèle Windows Store, vous pouvez créer une équipe pour chaque emplacement de magasin commercial au sein de votre organisation.
 
-| Type de modèle de base | baseTemplateId | Propriétés liées à ce modèle de base |
+| Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Vente au détail- <br>boutique | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canaux <ul><li>Déplace la remise\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited<br><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe définie sur Public</li></ul> <br>Autorisations de membre <ul><li>Ne peut pas créer mise à jour/supprimer/canaux </li><li>Ne peut pas ajouter/supprimer des applications </li><li>Impossible de créer/mettre à jour/supprimer onglets</li><li>Impossible de créer/mettre à jour/supprimer les connecteurs</li><ul>|
+| Revendeur <br>Enregistrer | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canaux <ul><li>Transfert de décalage\*</li><li>LMS\*</li></ul>\*Canaux favoris automatiquement<br><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur publique</li></ul> <br>Autorisations des membres <ul><li>Création/mise à jour/suppression de canaux impossible </li><li>Impossible d’ajouter/supprimer des applications </li><li>Impossible de créer/mettre à jour/supprimer des onglets</li><li>Création/mise à jour/suppression de connecteurs impossible</li><ul>|
 ||||
 
-Méthodes recommandées pour personnaliser le modèle de banque de votre organisation :
+Méthodes conseillées pour personnaliser le modèle Windows Store pour votre organisation :
 
-- Si votre organisation a des services de chaque magasin, ajoutez un canal pour chaque service. Cela facilitera la communication et collaboration au sein du département.
+- Si votre organisation a des services dans chaque banque, ajoutez un canal pour chaque service. Cela facilite la communication et la collaboration au sein du service.
 
-- Si votre organisation a des sites Web interne (par exemple, un site SharePoint), prenez en compte les épinglage sous forme d’onglets dans le canal de l’équipe concernés. Pour plus d’informations, reportez-vous à [prendre en main les modèles d’équipe](get-started-with-teams-templates.md) .
+- Si votre organisation a des sites Web internes (par exemple, un site SharePoint), envisagez de les épingler en tant qu’onglets du canal d’équipe approprié. Pour obtenir des instructions, voir [commencer à utiliser les modèles teams](get-started-with-teams-templates.md) .
 
-## <a name="manager-collaboration-template"></a>Modèle de gestionnaire de Collaboration
+## <a name="manager-collaboration-template"></a>Modèle de collaboration responsable
 
-Le modèle de Collaboration Manager est un autre que l’un des modèles d’équipes conçus autour de détaillant doit. Le modèle de Collaboration de gestionnaire est idéal pour la création d’une équipe pour un ensemble de gestionnaires de collaborer sur des magasins/régions, etc.. Par exemple, si votre organisation comporte des zones, vous pourrez créer une équipe de Collaboration de gestionnaire de Californie et inclure tous les gestionnaires de magasin de cette région, ainsi que le directeur régional de cette région.
+Le modèle de collaboration responsable est l’un des modèles d’équipe pour les besoins des détaillants. Le modèle de collaboration responsable est idéal pour créer une équipe pour un ensemble de responsables pour collaborer entre des boutiques et des régions, etc. Par exemple, si votre organisation a des régions, vous pouvez créer une équipe de collaboration en chef pour la région Californie et inclure tous les responsables du Windows Store de cette région ainsi que le responsable régional de cette région.
 
-| Type de modèle de base | baseTemplateId | Propriétés liées à ce modèle de base |
+| Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Vente au détail- <br>boutique | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canaux <ul><li>Opérations\*</li><li>Formation\*</li></ul>\*Canaux auto-favorited<br><br>Propriétés de l’équipe <ul><li>Visibilité de l’équipe privée</li></ul> <br>Autorisations de membre <ul><li>Peut créer mise à jour/supprimer/canaux </li><li>Pouvez ajouter/supprimer des applications </li><li>Peut créer/mettre à jour/supprimer onglets</li><li>Peut créer/mettre à jour/supprimer les connecteurs</li><ul>|
+| Revendeur <br>Enregistrer | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canaux <ul><li>Opérations\*</li><li>LMS\*</li></ul>\*Canaux favoris automatiquement<br><br>Propriétés d’équipe <ul><li>Visibilité de l’équipe définie sur privée</li></ul> <br>Autorisations des membres <ul><li>Création/mise à jour/suppression de canaux </li><li>Ajout/suppression d’applications </li><li>Peut créer/mettre à jour/supprimer des onglets</li><li>Création/mise à jour/suppression de connecteurs possibles</li><ul>|
 ||||
 
-Méthodes recommandées pour personnaliser le modèle de Collaboration Manager pour votre organisation :
+Méthodes conseillées pour personnaliser le modèle de collaboration responsable de votre organisation :
 
-- Si votre organisation a des sites Web internes (par exemple, un site SharePoint) qui sont pertinents pour les responsables, prenez en compte les épinglage sous forme d’onglets dans un canal d’équipe pertinents (reportez-vous à la documentation [ici](get-started-with-teams-templates.md) pour obtenir des instructions).
+- Si votre organisation a des sites Web internes (par exemple, un site SharePoint) qui sont appropriés pour les responsables, envisagez de les épingler en tant qu’onglets dans un canal d’équipe approprié (voir la documentation [ici](get-started-with-teams-templates.md) pour obtenir des instructions).

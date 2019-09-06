@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b079ebc84dfef1714243f79daed970fb148b7c5a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236953"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766933"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams
 ======================================================
@@ -30,7 +30,7 @@ ms.locfileid: "36236953"
 
 Les équipes sont des collections de personnes qui regroupent de façon commune. Ce groupe de personnes est susceptible de figurer dans un département ou dans une autre organisation. Ce que les réunit est le résultat qu’elles visent. Les membres d’une équipe peuvent travailler à un rythme différent ou créer des ressources de différentes façons, mais dans le cadre de notre expérimentation, il est souvent plus rapide de collaborer entre eux, mais nous appelons la fonction d’équipe Velocity haut.  
 
-Avant de créer une équipe dans votre produit, il est conseillé de réfléchir sur l’objectif, le projet ou les éléments de travail, ainsi que les personnes de l’organisation qui peuvent vous aider à le faire de concert. Une fois les utilisateurs identifiés, ajoutez-les à une équipe pour commencer à collaborer. Dans la mesure où l’appartenance peut changer dans le temps, il est conseillé de désigner plusieurs propriétaires pour chaque équipe. Pour plus d’informations, reportez-vous à [gestion d’équipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Avant de créer une équipe, réfléchissez à l’objectif, au projet ou aux éléments de travail et aux membres de votre organisation qui peuvent vous aider à le faire dans votre organisation. Une fois les utilisateurs identifiés, ajoutez-les à une équipe pour commencer à collaborer. Dans la mesure où l’appartenance peut changer dans le temps, il est conseillé de désigner plusieurs propriétaires pour chaque équipe. Pour plus d’informations, reportez-vous à [gestion d’équipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Consultez cette courte vidéo pour découvrir quelques exemples pour structurer les équipes dans votre organisation ou des équipes à objectif unique :
 
@@ -50,7 +50,7 @@ Le guide de nos meilleures pratiques consiste à créer des équipes avec un nom
 
 ## <a name="use-the-general-channel"></a>Utiliser le canal général
 
-Par défaut, le **canal général** est créé pour vous lors de la création de l’équipe. Ce canal comporte de nombreux objectifs utiles:
+Par défaut, le **canal général** est créé pour vous lors de la création de l’équipe. Ce canal comporte de nombreux objectifs utiles :
 
 En savoir plus sur [Travailler dans des canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) avec ces conseils rapides pour les utilisateurs finaux.
 

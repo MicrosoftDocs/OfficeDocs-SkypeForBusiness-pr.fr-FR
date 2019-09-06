@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams avec Exchange Online.
-ms.openlocfilehash: de91560311aa3e1af72a3af69bf2b59780c09d6f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 0aa03f9e37ad6edd0343a1b99c8c3da87ba2d2cd
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427752"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767089"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Déploiement de salles de Microsoft teams avec Exchange Online
 
@@ -36,17 +36,18 @@ Avant de déployer des salles Microsoft teams avec Exchange Online, assurez-vous
 Pour déployer des salles Microsoft teams avec Exchange Online, suivez les étapes ci-dessous. Assurez-vous de disposer des autorisations adéquates pour exécuter les applets de commande associées. 
 
    > [!NOTE]
-   >  Le [module Azure Active Directory pour](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) les applets de contrôle Windows PowerShell de cette section (par exemple, Set-MsolUser) a été testé dans la configuration de comptes pour les appareils Microsoft Teams. Il est possible que d’autres cmdlets puissent fonctionner, mais qui n’ont pas été testées dans ce scénario spécifique.
+   >  Le [module Azure Active Directory pour les applets de contrôle Windows PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) de cette section (par exemple, Set-MsolUser) a été testé dans la configuration de comptes pour les appareils Microsoft Teams. Il est possible que d’autres cmdlets puissent fonctionner, mais qui n’ont pas été testées dans ce scénario spécifique.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Création d’un compte et définition des propriétés Exchange
 
-1. Démarrez une session Windows PowerShell distante sur un PC et connectez-vous à Exchange Online en procédant comme suit:
+1. Démarrez une session Windows PowerShell distante sur un PC et connectez-vous à Exchange Online en procédant comme suit :
 
 ``` Powershell
 Set-ExecutionPolicy Unrestricted
 $org='contoso.microsoft.com'
 $cred=Get-Credential $admin@$org
 $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic  -AllowRedirection
+Import-PSSession $Session -DisableNameChecking
 ```
 
 2. Après avoir établi une session, vous pouvez créer une nouvelle boîte aux lettres et l’activer en tant que RoomMailboxAccount, ou changer les paramètres d’une boîte aux lettres de salle existante. Cela permettra au compte d’s’authentifier dans les salles de Microsoft Teams.
@@ -57,13 +58,13 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-    Si vous créez une nouvelle boîte aux lettres de ressources:
+    Si vous créez une nouvelle boîte aux lettres de ressources :
 
    ``` Powershell
    New-Mailbox -MicrosoftOnlineServicesID 'PROJECTRIGEL01@contoso.com' -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Pour améliorer l’utilisation de la réunion, vous devez définir les propriétés Exchange sur le compte d’utilisateur comme suit:
+3. Pour améliorer l’utilisation de la réunion, vous devez définir les propriétés Exchange sur le compte d’utilisateur comme suit :
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -115,7 +116,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Activer le compte utilisateur avec Skype entreprise Server
 
-1. Créez une session Windows PowerShell distante à partir d’un PC comme suit:
+1. Créez une session Windows PowerShell distante à partir d’un PC comme suit :
 
     ``` Powershell
     Import-Module SkypeOnlineConnector  
@@ -123,7 +124,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Pour activer votre compte Microsoft teams pour Skype entreprise Server, exécutez la commande suivante:
+2. Pour activer votre compte Microsoft teams pour Skype entreprise Server, exécutez la commande suivante :
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

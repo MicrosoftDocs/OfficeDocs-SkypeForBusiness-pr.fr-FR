@@ -1,7 +1,7 @@
 ---
 title: Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
-ms.author: v-lanac
-author: lanachin
+ms.author: phillipg
+author: PhillipGarding
 manager: serdars
 ms.reviewer: qingy
 audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
-ms.openlocfilehash: 6ee633bf9aa35d79c6db83371a47a948da6e6bd3
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: d92c9a289742c54c766d22f4322e755699b478c3
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204020"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767203"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 

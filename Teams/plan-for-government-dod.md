@@ -3,7 +3,6 @@ title: 'Se préparer pour Microsoft 365 Secteur public : Déploiements DoD : Mi
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 247f0209c66a5d6ea1e39e938498eb0f75f9fdab
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237705"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767182"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan pour les déploiements Microsoft 365 Government-DoD
 
@@ -33,7 +32,7 @@ Ce guide est destiné aux professionnels de l’informatique qui pilotent des d�
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---dod-and-meets-eligibility-requirements"></a>Étape 1. Déterminez si votre organisation doit avoir Microsoft 365 Government-DoD et répond aux exigences d’éligibilité. 
 
-L’environnement Microsoft 365 Government-DoD fournit une conformité avec les exigences du secteur public américain pour les services Cloud. En plus des fonctionnalités et des fonctionnalités d’Office 365, les organisations tirent parti des fonctionnalités suivantes qui sont propres à Microsoft 365 Government-DoD:
+L’environnement Microsoft 365 Government-DoD fournit une conformité avec les exigences du secteur public américain pour les services Cloud. En plus des fonctionnalités et des fonctionnalités d’Office 365, les organisations tirent parti des fonctionnalités suivantes qui sont propres à Microsoft 365 Government-DoD :
 
 - Le contenu du client de votre organisation est séparé de manière logique du contenu client dans les services Office 365 commerciaux de Microsoft.
 - Le contenu du client de votre organisation est enregistré aux États-Unis.
@@ -46,7 +45,7 @@ La [Description du service fédéral des États-Unis d’Office 365](https://doc
 
 
 > [!Tip]
-> Vous souhaiterez peut-être transférer les tableaux d’informations dans la description du service dans un classeur Excel et ajouter deux colonnes: **approprié pour mon organisation y/n** et **répond aux besoins de mon organisation y/n**. Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
+> Vous souhaiterez peut-être transférer les tableaux d’informations dans la description du service dans un classeur Excel et ajouter deux colonnes : **approprié pour mon organisation y/n** et **répond aux besoins de mon organisation y/n**. Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
 
 
 |    |     |
@@ -107,7 +106,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Des | Disponibles |
 | | Messagerie vocale | Disponibles |
 | | Appel VoIP | Disponibles |
-| | Skype pour les entreprises: appel d’équipes | Disponibles |
+| | Skype pour les entreprises : appel d’équipes | Disponibles |
 | | Forfaits d'appels | Non disponible |
 | | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Sur le backlog du secteur public |
 | | Routage direct du système Microsoft Phone | Sur le backlog du secteur public |
@@ -153,6 +152,6 @@ Déterminez vos besoins en matière de gouvernance et comment vous pouvez les r�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déploiement d’équipes pour la collaboration
 
-Une fois que vous avez été intégré au service public Microsoft 365-DoD, vous pouvez suivre l’approche de déploiement standard de l’utilisation de [FastTrack](https://www.microsoft.com/fasttrack) et du partenaire que vous avez choisi pour l’intégration du service.
+Une fois que vous avez été intégré au service public Microsoft 365-DoD, suivez le chemin de déploiement recommandé décrit dans [la rubrique Comment déployer Microsoft teams](How-to-roll-out-teams.md). N’hésitez pas à vous engager avec votre adoption et votre équipe de gestion des changements et des champions.
 
-Lorsque vous êtes prêt, déployez teams pour [permettre la collaboration au sein de votre organisation par le biais d’équipes et de canaux](teams-overview.md). N’hésitez pas à vous engager auprès de votre équipe de gestion des responsables et de l’adoption des équipes.
+Vous pouvez également utiliser [FastTrack](https://www.microsoft.com/fasttrack) ou le partenaire que vous avez choisi pour l’intégration du service.

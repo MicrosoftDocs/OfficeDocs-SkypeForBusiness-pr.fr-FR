@@ -7,22 +7,21 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e3113be6965044d2f60c0a6a59b658a191626
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286211"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767067"
 ---
 # <a name="teams-for-government"></a>Teams pour le secteur public
 
-Utilisez ces ressources pour planifier et déployer des équipes dans les environnements gouvernementaux Microsoft 365.
+Utilisez ces ressources pour en savoir plus sur les considérations spécifiques au déploiement d’équipes dans les environnements gouvernementaux Microsoft 365. Lorsque vous êtes prêt, suivez le même chemin d’accès recommandé pour les équipes que pour la déploiement de [Microsoft teams](../How-to-roll-out-teams.md).
 
 <ul class="panelContent cardsFTitle">
     <li>
