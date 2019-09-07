@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253953"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790860"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
 
@@ -28,7 +28,7 @@ Si vous disposez d’un système de file d’attente automatique et d’appels d
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Si le standard automatique de votre système téléphonique ou la file d’attente d’appels nécessite un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant:
+Si le standard automatique de votre système téléphonique ou la file d’attente d’appels nécessite un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant :
 
 1. Obtenir un numéro de service
 2. Procurez-vous une licence de système téléphonique [virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user) gratuit ou une licence de système téléphonique payant à utiliser avec le compte de ressource.
@@ -37,13 +37,13 @@ Si le standard automatique de votre système téléphonique ou la file d’atten
 5. Affectez la licence de système téléphonique au compte de ressource.
 6. Affectez un numéro de service au compte de ressource.
 7. Créez une file d’attente d’appels système téléphoniques ou un standard automatique.
-8. Associez le compte de ressource à un standard automatique ou une file d’attente d’appels: (New-CsApplicationInstanceAssociation).
+8. Associez le compte de ressource à un standard automatique ou une file d’attente d’appels : (New-CsApplicationInstanceAssociation).
 
 Si le standard automatique ou la file d’attente des appels est imbriqué sous un standard automatique de niveau supérieur, le compte de ressource associé n’a besoin que d’un numéro de téléphone si vous souhaitez utiliser plusieurs points d’entrée dans la structure des standards automatiques et des files d’attente d’appels.
 
-Pour rediriger les appels vers des personnes de votre organisation qui sont hébergées en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour voix entreprise ou avoir des forfaits d’appels Office 365. Consultez la rubrique [attribuer des licences Microsoft teams](/MicrosoftTeams/assign-teams-licenses). Pour les activer pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Pour rediriger les appels vers des personnes de votre organisation qui sont hébergées en ligne, ils doivent disposer d’une licence de **système téléphonique** et être activés pour voix entreprise ou avoir des forfaits d’appels Office 365. Consultez la rubrique [attribuer des licences Microsoft teams](/MicrosoftTeams/assign-teams-licenses). Pour les activer pour voix entreprise, vous pouvez utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-Si le standard automatique ou la file d’attente d’appels du système téléphonique que vous créez seront imbriqués et n’aura pas besoin de numéro de téléphone, le processus est le suivant:
+Si le standard automatique ou la file d’attente d’appels du système téléphonique que vous créez seront imbriqués et n’aura pas besoin de numéro de téléphone, le processus est le suivant :
 
 1. Créer le compte de ressource  
 2. Attendre une synchronisation Active Directory entre en ligne et sur site
@@ -52,7 +52,7 @@ Si le standard automatique ou la file d’attente d’appels du système télép
 
 ## <a name="create-a-resource-account-with-a-phone-number"></a>Créer un compte de ressource avec un numéro de téléphone
 
-La création d’un compte de ressource qui utilise un numéro de téléphone nécessiterait d’effectuer les tâches suivantes dans l’ordre suivant:
+La création d’un compte de ressource qui utilise un numéro de téléphone nécessiterait d’effectuer les tâches suivantes dans l’ordre suivant :
 
 1. Port ou obtenir un numéro de service payant ou gratuit. Le numéro ne peut être attribué à aucun autre service de téléphonie ou compte de ressource.
 
@@ -61,7 +61,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
    Si vous n’êtes pas aux États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft teams pour obtenir des numéros de service. Accédez à la rubrique [gérer les numéros de téléphone de votre organisation](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) à la place de l’extérieur des États-Unis.
 
 2. Acheter une licence de système téléphonique. Voir :  
-   - [Système téléphonique – licence utilisateur virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [Système téléphonique – licence utilisateur virtuel](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 entreprise E1 et E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Entreprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 entreprise E5 Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -74,7 +74,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
     Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-4. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre qu’AD se synchronise entre en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande):
+4. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre qu’AD se synchronise entre en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande) :
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -95,7 +95,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
     Pour plus d’informations sur cette commande, voir [Set-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/set-cshybridapplicationendpoint?view=skype-ps) .
 
-    Pour affecter un routage direct ou un numéro hybride à un compte de ressource, utilisez l’applet de commande suivante:
+    Pour affecter un routage direct ou un numéro hybride à un compte de ressource, utilisez l’applet de commande suivante :
 
    ``` Powershell
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
@@ -103,7 +103,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
 Le compte de ressource aura besoin d’un numéro de téléphone attribué s’il doit être affecté à un standard automatique de niveau supérieur ou une file d’attente d’appels. Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à un compte de ressource, seuls les numéros payants ou gratuits du service peuvent être utilisés.
 
-  Vous pouvez attribuer un numéro hybride de routage direct à votre compte de ressource.  Pour plus d’informations, voir [planifier le routage direct](/MicrosoftTeams/direct-routing-plan.md) .
+  Vous pouvez attribuer un numéro hybride de routage direct à votre compte de ressource.  Pour plus d’informations, voir [planifier le routage direct](/MicrosoftTeams/direct-routing-plan) .
 
   > [!NOTE]
   > Les numéros de service de routage direct affectés aux comptes de ressources pour le standard automatique et les files d’attente d’appels sont pris en charge pour les utilisateurs et les agents Microsoft teams uniquement.
@@ -115,7 +115,7 @@ Le compte de ressource aura besoin d’un numéro de téléphone attribué s’i
 
 8. Associez le compte de ressource au standard automatique ou à la file d’attente d’appels du système téléphonique que vous avez choisi précédemment.
 
-Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise: set up a auto](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Créer un compte de ressource sans numéro de téléphone
 
@@ -123,7 +123,7 @@ Cette section traite de la création d’un compte de ressource hébergé sur si
 
 Ces étapes sont nécessaires si vous créez un nouveau standard automatique de système téléphonique ou une structure de file d’attente d’appels ou en reconstruisant une structure créée à l’origine dans la messagerie unifiée Exchange.
 
-Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de commande PowerShell suivantes:
+Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de commande PowerShell suivantes :
 
 1. Créez un compte de ressource local en exécutant l' `New-CsHybridApplicationEndpoint` applet de commande pour chaque standard automatique ou file d’attente d’appels du système téléphonique, et attribuez un nom, une adresse SIP et ainsi de suite à chacun d’eux.
 
@@ -133,7 +133,7 @@ Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de c
 
     Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-2. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre qu’AD se synchronise entre en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande):
+2. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre qu’AD se synchronise entre en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande) :
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -146,29 +146,32 @@ Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de c
    - [Créer une file d’attente d’appels sur le Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associez le compte de ressource et le standard automatique du système téléphonique ou la file d’attente que vous avez choisie précédemment.
 
-Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise: set up a auto](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Un exemple d’implémentation de petite entreprise est disponible dans l’exemple de la petite [entreprise : set up a auto](/microsoftteams/tutorial-org-aa) -exemple de standard automatique et de [petite entreprise-configurer une file d’attente d’appels](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Tester l’implémentation
 
-La meilleure façon de tester l’implémentation est d’appeler le numéro configuré pour un standard automatique de système téléphonique ou une file d’attente d’appels et de se connecter à l’un des agents ou des menus. Vous pouvez également passer rapidement un appel de test à l’aide du **bouton test** dans le volet d’action du centre d’administration. Si vous souhaitez apporter des modifications à un standard automatique de système téléphonique ou à une file d’attente d’appels, sélectionnez-le, puis, dans le volet Actions, cliquez sur **modifier**.
+La meilleure façon de tester l’implémentation est d’appeler le numéro configuré pour un standard automatique de système téléphonique ou une file d’attente d’appels et de se connecter à l’un des agents ou des menus. Vous pouvez également passer rapidement un appel de test à l’aide du **bouton test** dans le volet d’action du centre d’administration. Si vous souhaitez apporter des modifications à un standard automatique de système téléphonique ou à une file d’attente d’appels, sélectionnez-le, puis, dans le volet Actions, cliquez sur **modifier**. 
+
+> [!TIP]
+> Si votre compte de ressource rencontre des difficultés avec une file d’attente ou un standard automatique, reportez-vous à la rubrique [problèmes connus pour Microsoft teams](/MicrosoftTeams/Known-issues#phone-system) et à la section [How to Fix My Hybrid application instances](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) dans le blog Microsoft Teams.
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Transfert d’un standard automatique de messagerie unifiée Exchange ou d’une file d’attente d’appels vers le système téléphonique
 
-La migration du service de messagerie unifiée Exchange vers le système téléphonique nécessite la recréation de la file d’attente et de la structure du standard automatique, la migration directe de l’une vers l’autre n’est pas prise en charge. Pour réimplémenter un ensemble de files d’attente d’appels et de standards automatiques:
+La migration du service de messagerie unifiée Exchange vers le système téléphonique nécessite la recréation de la file d’attente et de la structure du standard automatique, la migration directe de l’une vers l’autre n’est pas prise en charge. Pour réimplémenter un ensemble de files d’attente d’appels et de standards automatiques :
 
-1. Obtenez la liste de tous les standards automatiques de messagerie unifiée Exchange et des files d’attente d’appels en exécutant la commande suivante sur le système Exchange 2013 ou 2016 lorsque vous êtes connecté en tant qu’administrateur:
+1. Obtenez la liste de tous les standards automatiques de messagerie unifiée Exchange et des files d’attente d’appels en exécutant la commande suivante sur le système Exchange 2013 ou 2016 lorsque vous êtes connecté en tant qu’administrateur :
 
     ``` Powershell
     Get-UMAutoAttendant | Format-List
     ```
 
-2. Pour chaque file d’attente d’appels de messagerie unifiée Exchange ou standard automatique, notez son emplacement dans la structure, les paramètres et les copies des fichiers audio ou de synthèse vocale associés (le GUID dans le résultat sera le nom d’un dossier dans lequel les fichiers sont stockés). Vous pouvez obtenir ces détails en exécutant la commande:
+2. Pour chaque file d’attente d’appels de messagerie unifiée Exchange ou standard automatique, notez son emplacement dans la structure, les paramètres et les copies des fichiers audio ou de synthèse vocale associés (le GUID dans le résultat sera le nom d’un dossier dans lequel les fichiers sont stockés). Vous pouvez obtenir ces détails en exécutant la commande :
 
     ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant
     ```
 
-    Pour plus d’informations sur cette commande, voir [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) . La liste complète des options que vous devrez peut-être capturer concerne les [membres UMAutoAttendant](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) , mais les options les plus importantes à noter sont les suivantes:
+    Pour plus d’informations sur cette commande, voir [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant?view=exchange-ps) . La liste complète des options que vous devrez peut-être capturer concerne les [membres UMAutoAttendant](https://msdn.microsoft.com/library/microsoft.exchange.data.directory.systemconfiguration.umautoattendant_members.aspx) , mais les options les plus importantes à noter sont les suivantes :
 
     - Heures d'ouverture
     - Heures d’ouverture
@@ -180,7 +183,7 @@ La migration du service de messagerie unifiée Exchange vers le système télép
 
 4. Configurez un standard automatique de système téléphonique ou une file d’appel qui utilise les points de terminaison comme décrit précédemment.
 
-   Il peut s’avérer utile d’utiliser les exercices du didacticiel intitulé [petite entreprise-configurer un standard automatique](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) pour créer une carte logique des hiérarchies dans votre ancien système de messagerie unifiée Exchange.
+   Il peut s’avérer utile d’utiliser les exercices du didacticiel intitulé [petite entreprise-configurer un standard automatique](/microsoftteams/tutorial-org-aa) pour créer une carte logique des hiérarchies dans votre ancien système de messagerie unifiée Exchange.
 5. Testez le standard automatique du système téléphonique ou la file d’attente d’appels.
 6. Réassignez le numéro de téléphone lié à la file d’attente d’appels de messagerie unifiée Exchange ou au standard automatique du système téléphonique correspondant ou de la file d’attente d’appels.  
 
@@ -190,7 +193,7 @@ La migration du service de messagerie unifiée Exchange vers le système télép
 
 [Créer une file d’attente d’appels sur le Cloud](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[Qu’est-ce que les standards automatiques Cloud?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[Qu’est-ce que les standards automatiques Cloud ?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [Configurer un standard automatique Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 

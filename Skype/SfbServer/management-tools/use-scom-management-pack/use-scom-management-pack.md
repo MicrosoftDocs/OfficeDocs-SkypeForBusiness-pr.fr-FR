@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
-description: 'Résumé: Découvrez comment configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: 0f16e49477e457be7743d024061288f869d9ff58
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+description: 'Résumé : Découvrez comment configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager.'
+ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221572"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790891"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gestion de Skype Entreprise Server 2015 à l’aide d’un pack d’administration SCOM
  
-**Résumé:** Apprenez à configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager.
+**Résumé :** Apprenez à configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager.
   
 Idéalement, vous ne rencontrez jamais de problèmes avec Skype entreprise Server 2015. Toutefois, Skype entreprise Server peut être affecté par des facteurs extérieurs (par exemple, des blocages réseau et des pannes matérielles). L’utilisation de Skype entreprise Server 2015 Management packs vous permet d’identifier les problèmes potentiels de manière proactive et de les corriger. De cette façon, les packs d’administration 2015 de Skype entreprise Server étendent les capacités de System Center Operations Manager.
   
@@ -29,19 +29,19 @@ Ces informations ont été rédigées en fonction de la version 9319,0 du Pack d
   
 ## <a name="configuration-overview"></a>Vue d’ensemble de la configuration
 
- Pour configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager, vous devez effectuer les trois opérations suivantes:
+ Pour configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager, vous devez effectuer les trois opérations suivantes :
   
-Identifiez et configurez [le serveur de gestion principal](configure-the-primary.md). Pour cela, vous devez installer System Center Operations Manager 2012 SP1 ou R2. 
+Identifiez et [configurez le serveur de gestion principal](configure-the-primary.md). Pour cela, vous devez installer System Center Operations Manager 2012 SP1 ou R2. 
   
- Identifiez et configurez [les ordinateurs du serveur Skype entreprise qui seront surveillés](configure-computers-to-monitor.md). Pour surveiller un ordinateur Skype entreprise Server à l’aide de System Center Operations Manager, vous devez installer les fichiers de l’agent System Center Operations Manager et configurer chaque serveur pour qu’il serve de proxy. 
+ Identifiez et [configurez les ordinateurs du serveur Skype entreprise qui seront surveillés](configure-computers-to-monitor.md). Pour surveiller un ordinateur Skype entreprise Server à l’aide de System Center Operations Manager, vous devez installer les fichiers de l’agent System Center Operations Manager et configurer chaque serveur pour qu’il serve de proxy. 
   
- Identifier et [installer et configurer les nœuds d’observation](watcher-nodes.md); Les nœuds d’observation sont des ordinateurs qui exécutent périodiquement des transactions synthétiques de Skype entreprise Server: les applets de contrôle Windows PowerShell qui vérifient les principaux composants de Skype entreprise Server, comme la possibilité de se connecter au système ou la possibilité d’échanger des fichiers instantanés. les messages fonctionnent comme prévu. 
+ Identifier et [installer et configurer les nœuds d’observation](watcher-nodes.md); Les nœuds d’observation sont des ordinateurs qui exécutent périodiquement des transactions synthétiques de Skype entreprise Server : les applets de contrôle Windows PowerShell qui vérifient les principaux composants de Skype entreprise Server, comme la possibilité de se connecter au système ou la possibilité d’échanger des fichiers instantanés. les messages fonctionnent comme prévu. 
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>Support technique du serveur de gestion racine et de l’agent System Center Operations Manager
 
-Les packs de gestion peuvent être utilisés avec System Center Operations Manager 2007 R2 (64 bits) (pris en charge à des fins de migration uniquement) ou &amp; System Center Operations Manager 2012 SP1 R2 (64-bit) ou le gestionnaire d’opérations de system Center 2016 (64-bit). Le tableau suivant indique les configurations prises en charge pour les packs de gestion de Skype entreprise Server 2015: 
+Les packs de gestion peuvent être utilisés avec System Center Operations Manager 2007 R2 (64 bits) (pris en charge à des fins de migration uniquement) ou &amp; System Center Operations Manager 2012 SP1 R2 (64-bit) ou le gestionnaire d’opérations de system Center 2016 (64-bit). Le tableau suivant indique les configurations prises en charge pour les packs de gestion de Skype entreprise Server 2015 : 
   
-|**Configuration**|**Pris en charge?**|
+|Configuration|Pris en charge ?|
 |:-----|:-----|
 |Système d’exploitation Windows Server 2008 R2  <br/> Système d’exploitation Windows Server 2012 R2  <br/> |Oui. Les nœuds du serveur et de l’observateur de transactions synthétiques de Skype entreprise Server 2015.  <br/> |
 |Serveurs en cluster  <br/> |Non pris en charge.  <br/> |
@@ -54,7 +54,7 @@ Les packs de gestion peuvent être utilisés avec System Center Operations Manag
    
 Le tableau ci-dessous détaille la capacité et la configuration de système d’exploitation requises pour un nœud observateur de transactions synthétiques :
   
-|**Composant matériel**|**Spécification minimale**|
+|Composant matériel|Spécification minimale|
 |:-----|:-----|
 |Processeur  <br/> |L’un des éléments suivants :  <br/> Processeur 64 bits, quadruple cœur 2,33 GHz ou supérieur  <br/> Processeur 64 bits à deux voies, double cœur, 2,33 GHz ou supérieur  <br/> |
 |Mémoire  <br/> |8 Go  <br/> |
@@ -73,7 +73,7 @@ Pour exécuter un nœud observateur de transaction synthétique, vous devez d’
     
 ## <a name="files-in-this-monitoring-pack"></a>Fichiers contenus dans ce pack de surveillance
 
-Le pack d’analyse de Skype entreprise Server 2015 inclut les fichiers suivants:
+Le pack d’analyse de Skype entreprise Server 2015 inclut les fichiers suivants :
   
 - Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp
     
@@ -84,12 +84,14 @@ Le pack d’analyse de Skype entreprise Server 2015 inclut les fichiers suivants
 ## <a name="whats-new"></a>Nouveautés
 
 Les fonctionnalités suivantes sont nouvelles dans les packs d’administration 2015 de Skype entreprise Server.
-  
+
+- **Modifications de la [mise à jour 2019 de juin](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Certaines alertes comportent des caractères spéciaux supprimés. Dans certains cas, des caractères spéciaux interfèrent à la fonctionnalité de notification de canal de commandes SCOM.
+
 - **Découverte automatique pour la connexion au client** Les applications clientes qui se connectent à Skype entreprise Server 2015 découvrent souvent automatiquement le serveur pour s’y connecter. Les transactions synthétiques prennent maintenant en charge la vérification de la configuration appropriée de la découverte automatique.
     
 - **Intervalles d’exécution de transactions synthétiques personnalisés** Pour simplifier le processus de configuration des nœuds d’observation, les transactions synthétiques peuvent partager des comptes d’utilisateurs. Cela ralentit la fréquence d’exécution des tests dans la mesure où les tests sont sérialisés pour éviter les conflits. Par défaut, les transactions synthétiques sont exécutées toutes les 15 minutes pour que tous les tests aient le temps de s’exécuter. Les administrateurs qui choisissent d’utiliser plus d’utilisateurs ou moins de tests par utilisateur peuvent désormais réduire également l’intervalle d’exécution.
     
-- **Transaction synthétique de services** d’interopérabilité de vidéo Les clients qui migrent vers Skype entreprise Server 2015 à partir d’autres solutions de fournisseurs souhaitent souvent continuer à utiliser les appareils de visioconférence vidéo (VTCs) de ces autres fournisseurs. Le serveur Video Interop est un nouveau rôle de serveur Skype entreprise Server 2015 qui permet aux clients de continuer à utiliser Cisco VTCs dans leurs salles de conférence en se connectant à Cisco CUCM via un câble SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique afin de vérifier que le serveur d’interopérabilité vidéo (VIS) peut gérer les connexions entrantes sur une jonction SIP vidéo.
+- **Transaction synthétique de services d’interopérabilité de vidéo** Les clients qui migrent vers Skype entreprise Server 2015 à partir d’autres solutions de fournisseurs souhaitent souvent continuer à utiliser les appareils de visioconférence vidéo (VTCs) de ces autres fournisseurs. Le serveur Video Interop est un nouveau rôle de serveur Skype entreprise Server 2015 qui permet aux clients de continuer à utiliser Cisco VTCs dans leurs salles de conférence en se connectant à Cisco CUCM via un câble SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique afin de vérifier que le serveur d’interopérabilité vidéo (VIS) peut gérer les connexions entrantes sur une jonction SIP vidéo.
     
 - **Transaction synthétique de conférence de partage d’applications** La validation de scénario de bout en bout des conférences de partage d’applications est désormais prise en charge.
     
@@ -97,41 +99,41 @@ Les fonctionnalités suivantes sont nouvelles dans les packs d’administration 
 
 Le pack d’administration 2015 de Skype entreprise Server exploite plusieurs fonctionnalités pour vous aider à détecter et à diagnostiquer des problèmes. Ces fonctionnalités offrent une visibilité en temps réel sur l’état d’un environnement 2015 de Skype entreprise Server.
   
-|**Scénario de surveillance**|**Description**|
+|Scénario de surveillance|Description|
 |:-----|:-----|
 |Transactions synthétiques  <br/> | Cmdlets Windows PowerShell permettant de tester et de garantir une haute disponibilité des scénarios tels que la connexion, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutées à partir de n’importe quel emplacement géographique dans l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> Lorsqu’une transaction synthétique échoue, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut des informations sur l’action qui a échoué, la latence de chaque action, la ligne de commande à partir de laquelle a été exécuté le test ainsi que l’erreur spécifique rencontrée.  <br/> |
 |Alertes de fiabilité des appels  <br/> |Les enregistrements des détails des appels écrits par les serveurs 2015 de Skype entreprise Server indiquent si les utilisateurs sont en mesure de se connecter à un appel ou de mettre fin à un appel. Les alertes de fiabilité des appels analysent la base de données des enregistrements des détails des appels afin de générer des alertes qui s’affichent lorsque de nombreux utilisateurs rencontrent des problèmes de connectivité liés à des appels d’égal à égal ou à des fonctionnalités de conférence de base.  <br/> Les scénarios incluent notamment les appels audio, les messages instantanés d’égal à égal et d’autres fonctionnalités de conférence.  <br/> |
 |Alertes de qualité des médias  <br/> |Les requêtes de base de données qui examinent les rapports de qualité de l’expérimentation (QoE) publiés par Skype entreprise Server 2015 clients à la fin de chaque appel. Ces requêtes génèrent des alertes qui avertissent que les utilisateurs des scénarios signalés risquent d’être confrontés à une dégradation de la qualité des médias lors des appels et des conférences. Les données sont établies à partir de mesures clés, telles que la latence et la perte de paquets, qui s’avèrent décisives pour le niveau de qualité de l’expérience utilisateur.  <br/> |
 |Alertes d’intégrité des composants  <br/> |Les composants serveur déclenchent des alertes via les journaux des événements et les compteurs de performances. Ces alertes signalent les conditions d’échec qui peuvent avoir un impact sérieux sur un ou plusieurs scénarios utilisateur. Elles peuvent également indiquer diverses autres conditions d’échec, parmi lesquelles l’arrêt de services, des taux d’échec élevés ou des problèmes de connectivité.  <br/> |
 |Analyse d’intégrité de dépendance  <br/> |Skype entreprise Server peut échouer pour diverses raisons externes. Le pack d’administration analyse et collecte les données relatives à certaines dépendances externes critiques, qui peuvent révéler des problèmes majeurs. Ces dépendances incluent la disponibilité d’Internet Information Services (IIS) et le processeur des serveurs utilisés pour Skype entreprise Server.  <br/> |
+|||
    
 ### <a name="alert-prioritization"></a>Priorisation des alertes
 
 Les alertes sont classées selon les catégories suivantes : 
   
- **Alertes de priorité élevée:** Ces alertes indiquent des conditions qui engendrent des interruptions de service pour des groupes d’utilisateurs de grande taille et nécessitent une action immédiate. Les pannes détectées par les transactions synthétiques et les services hors connexion (par exemple, les conférences audio/vidéo de Skype entreprise Server) sont éligibles en tant qu’alertes à priorité élevée. En revanche, une erreur de type composant sur un seul ordinateur n’est pas une alerte de priorité élevée. Skype entreprise Server 2015 inclut des fonctionnalités haute disponibilité intégrées dans ces situations (par exemple, plusieurs serveurs frontaux derrière des équilibreurs de charge).
+ **Alertes de priorité élevée :** Ces alertes indiquent des conditions qui engendrent des interruptions de service pour des groupes d’utilisateurs de grande taille et nécessitent une action immédiate. Les pannes détectées par les transactions synthétiques et les services hors connexion (par exemple, les conférences audio/vidéo de Skype entreprise Server) sont éligibles en tant qu’alertes à priorité élevée. En revanche, une erreur de type composant sur un seul ordinateur n’est pas une alerte de priorité élevée. Skype entreprise Server 2015 inclut des fonctionnalités haute disponibilité intégrées dans ces situations (par exemple, plusieurs serveurs frontaux derrière des équilibreurs de charge).
   
- **Alertes de priorité moyenne:** Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou qui indiquent des problèmes de qualité d’appel (par exemple, échecs de composants, latence dans l’établissement d’un appel ou qualité audio dans les appels). Les alertes de cette catégorie sont à la fois portées (autrement dit, la nature de l’alerte change en fonction de l’état de la connexion réseau.) Par exemple, si les heures d’établissement d’un appel indiquent une latence, mais que vous revenez à un seuil normal, cette alerte de priorité moyenne serait corrigée automatiquement dans System Center Operations Manager et les administrateurs n’ont pas besoin d’entreprendre une action. Les alertes qui ne peuvent pas être corrigées automatiquement sont généralement adressées par des administrateurs le même jour ouvrable.
+ **Alertes de priorité moyenne :** Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou qui indiquent des problèmes de qualité d’appel (par exemple, échecs de composants, latence dans l’établissement d’un appel ou qualité audio dans les appels). Les alertes de cette catégorie sont à la fois portées (autrement dit, la nature de l’alerte change en fonction de l’état de la connexion réseau.) Par exemple, si les heures d’établissement d’un appel indiquent une latence, mais que vous revenez à un seuil normal, cette alerte de priorité moyenne serait corrigée automatiquement dans System Center Operations Manager et les administrateurs n’ont pas besoin d’entreprendre une action. Les alertes qui ne peuvent pas être corrigées automatiquement sont généralement adressées par des administrateurs le même jour ouvrable.
   
  **Autres alertes :** ces alertes concernent des composants susceptibles d’affecter un ou plusieurs utilisateurs. Par exemple, une alerte type peut signaler que le service de carnet d’adresses n’a pas pu analyser l’entrée AD DS ( Active Directory® Domain Services) de l’utilisateur« testuser@contoso.com ». Les administrateurs peuvent corriger ces alertes lorsqu’ils ont le temps.
   
 ### <a name="synthetic-transactions"></a>Transactions synthétiques
 
-Les packs d’administration de Skype entreprise Server 2015 garantissent une meilleure couverture des alertes par le biais de transactions synthétiques. Les transactions synthétiques sont intégrées dans le pack d’administration Operations Manager pour tester des scénarios utilisateur de bout en bout. Lorsque vous désignez un serveur pour exécuter des transactions synthétiques, celles-ci sont déclenchées périodiquement par le pack d’administration. Les échecs résultant d’une transaction synthétique génèrent une alerte avec état. Voici les transactions synthétiques prises en charge pour Skype entreprise Server 2015:
+Les packs d’administration de Skype entreprise Server 2015 garantissent une meilleure couverture des alertes par le biais de transactions synthétiques. Les transactions synthétiques sont intégrées dans le pack d’administration Operations Manager pour tester des scénarios utilisateur de bout en bout. Lorsque vous désignez un serveur pour exécuter des transactions synthétiques, celles-ci sont déclenchées périodiquement par le pack d’administration. Les échecs résultant d’une transaction synthétique génèrent une alerte avec état. Voici les transactions synthétiques prises en charge pour Skype entreprise Server 2015 :
   
-**Transactions synthétiques prises en charge pour l’inscription, la présence et les contacts**
 
-||||
+
+|Transactions synthétiques prises en charge pour l’inscription, la présence et les contacts|||
 |:-----|:-----|:-----|
 |1  <br/> |Inscription (connexion de l’utilisateur)  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |2  <br/> |Service de carnet d’adresses (téléchargement de fichier)  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |3  <br/> |Recherche web du carnet d’adresses  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |4  <br/> |Présence  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |5  <br/> |Magasin de contacts unifié  <br/> |Disponible Lync Server 2013 et les versions ultérieures  <br/> |
-   
-**Transactions synthétiques prises en charge pour les services d’égal à égal**
+||||   
 
-||||
+|Transactions synthétiques prises en charge pour les services d’égal à égal|||
 |:-----|:-----|:-----|
 |6  <br/> |Messagerie instantanée d’égal à égal  <br/> |Disponible dans Lync Server 2010 et les versions ultérieures  <br/> |
 |7  <br/> |Appels audio/vidéo d’égal à égal  <br/> |Disponible dans Lync Server 2010 et les versions ultérieures  <br/> |
@@ -139,10 +141,9 @@ Les packs d’administration de Skype entreprise Server 2015 garantissent une me
  
 > [!NOTE]
 > La prise en charge de MCX (service de mobilité) pour les clients mobiles hérités n’est plus disponible dans Skype entreprise Server 2019. Tous les clients mobiles Skype entreprise actuels utilisent déjà UCWA (Unified Communications Web API) pour la prise en charge de la messagerie instantanée, de la présence et des contacts. Les utilisateurs des clients hérités utilisant MCX doivent effectuer une mise à niveau vers un client actuel.
-  
-**Transactions synthétiques prises en charge pour les conférences et la conversation permanente**
 
-||||
+
+|Transactions synthétiques prises en charge pour les conférences et la conversation permanente|||
 |:-----|:-----|:-----|
 |09  <br/> |Conférence audio-vidéo  <br/> |Disponible dans Lync Server 2010 et les versions ultérieures  <br/> |
 |0,10  <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et les versions ultérieures  <br/> |
@@ -152,22 +153,22 @@ Les packs d’administration de Skype entreprise Server 2015 garantissent une me
 |14  <br/> |Conférence rendez-vous  <br/> |Nouveautés de Skype entreprise Server 2015  <br/> |
 |0,15  <br/> |Conférence de partage d’applications  <br/> |Nouveautés de Skype entreprise Server 2015  <br/> |
 |Seiz  <br/> |Conférence UCWA (participation à une réunion web)  <br/> |Nouveautés de Skype entreprise Server 2015  <br/> |
-   
-**Transactions synthétiques prises en charge pour les dépendances de réseau et de partenaires**
-
 ||||
+
+|Transactions synthétiques prises en charge pour les dépendances de réseau et de partenaires|||
 |:-----|:-----|:-----|
 |Play  <br/> |Connectivité Edge A/V  <br/> |Disponible dans Lync Server 2013 et les versions ultérieures  <br/> |
 |19  <br/> |Connectivité de messagerie unifiée Exchange de la connectivité Edge A/V (messagerie vocale)  <br/> |Disponible dans Lync Server 2013 et les versions ultérieures  <br/> |
 |19,6  <br/> |Appels d’égal à égal PSTN  <br/> |Disponible dans Lync Server 2010 et les versions ultérieures  <br/> |
 |CX3-20  <br/> |Messagerie instantanée XMPP (fédération)  <br/> |Disponible dans Lync Server 2013 et Skype entreprise 2015  <br/> |
 |vingt  <br/> |Serveur VIS (Video Interop Server)  <br/> |Nouveautés de Skype entreprise Server 2015  <br/> |
+||||
    
 ## <a name="how-health-rolls-up"></a>Comment se présente l’intégrité
 
 Le tableau suivant indique les États d’intégrité des objets du pack d’analyse Skype entreprise Server.
   
-|**Objet du pack d’administration**|**Description**|
+|Objet du pack d’administration|Description|
 |:-----|:-----|
 |Déploiement de Skype entreprise Server  <br/> |Représente le déploiement de Skype entreprise Server 2015 au sein de l’organisation.  <br/> |
 |Site Skype entreprise Server  <br/> |Représente différents emplacements géographiques où les services sont déployés.  <br/> |
@@ -234,7 +235,7 @@ Les liens suivants vous permettent d’accéder à des informations sur les tâc
     
 Pour plus d’informations sur Operations Manager et les packs de surveillance, voir le Forum de la [communauté Operations Manager System Center](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
-Une ressource utile est le blog d' [Operations Manager de System Center Operations Manager](https://opsmgrunleashed.wordpress.com/) , lequel contient des publications «par exemple» pour des packages d’analyse spécifiques.
+Une ressource utile est le blog d' [Operations Manager de System Center Operations Manager](https://opsmgrunleashed.wordpress.com/) , lequel contient des publications « par exemple » pour des packages d’analyse spécifiques.
   
 Pour plus d’informations sur Operations Manager, reportez-vous aux blogs suivants : 
   

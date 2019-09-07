@@ -18,17 +18,17 @@ search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171080"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790908"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
 > [!NOTE]
-> Si vous avez activé le paramètre de stratégie d’autorisation d’application à l’échelle de l’organisation, autorisez les **interactions avec les applications personnalisées**, il est possible que les stratégies de configuration des applications n’apparaissent pas dans le centre d’administration Microsoft Teams. Ce service est actuellement déployé et sera disponible prochainement dans votre organisation.
+> Si vous avez activé le paramètre de stratégie d’autorisation d’application à l’échelle de l’organisation, **autorisez les interactions avec les applications personnalisées**, il est possible que les stratégies de configuration des applications n’apparaissent pas dans le centre d’administration Microsoft Teams. Ce service est actuellement déployé et sera disponible prochainement dans votre organisation.
 
 En tant qu’administrateur, vous pouvez utiliser des stratégies de configuration d’application pour personnaliser Microsoft teams afin de mettre en évidence les applications les plus importantes pour vos utilisateurs. Vous choisissez les applications à épingler et définir leur ordre d’apparition. Les stratégies de configuration des applications vous permettent de faire la promotion des applications requises par les utilisateurs de votre organisation, y compris celles créées par des tiers ou par des développeurs de votre organisation. Vous pouvez également utiliser des stratégies de configuration d’application pour gérer l’affichage des fonctionnalités intégrées.
 
@@ -51,7 +51,7 @@ Vous pouvez modifier les paramètres de la stratégie globale de manière à inc
 
 Vous pouvez utiliser le centre d’administration de Microsoft teams pour créer une stratégie personnalisée.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies de configuration**des **applications** > teams.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à > **stratégies de configuration**des **applications teams**.
 2. Cliquez sur **Ajouter**.
 3. Entrez le nom et la description de la stratégie, puis cliquez sur **Ajouter des applications**.
 4. Activez ou désactivez l’option autoriser le téléchargement d' **applications personnalisées**, selon que vous voulez permettre aux utilisateurs de télécharger des applications personnalisées dans Teams. Vous ne pourrez pas modifier ce paramètre si l’option **autoriser les applications tierces ou personnalisées** est désactivée dans [les paramètres](teams-app-permission-policies.md#manage-org-wide-app-settings) de l’application à l’échelle de l’organisation dans les stratégies d’autorisation d’application.
@@ -67,7 +67,7 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour créer
 
 Vous pouvez utiliser le centre d’administration de Microsoft teams pour modifier une stratégie, dont la stratégie globale par défaut de l’organisation et les stratégies personnalisées que vous créez.
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies de configuration**des **applications** > teams.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à > **stratégies de configuration**des **applications teams**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie, puis cliquez sur **modifier**.
 3. À partir de cet emplacement, apportez les modifications souhaitées. Vous pouvez ajouter, supprimer et modifier l’ordre des applications.
 4. Cliquez sur **Enregistrer**.
@@ -84,9 +84,9 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour attrib
 
 Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
 
-Vous pouvez également effectuer les opérations suivantes:
+Vous pouvez également effectuer les opérations suivantes :
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à**stratégies de configuration**des **applications** > teams.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à > **stratégies de configuration**des **applications teams**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -119,32 +119,34 @@ En fonction du nombre de membres du groupe, cette commande risque de prendre que
 
 ### <a name="working-with-app-setup-policies"></a>Utilisation des stratégies de configuration des applications
 
-#### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Quelles stratégies de configuration des applications intégrées sont incluses dans le centre d’administration de Microsoft teams?
+#### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Quelles stratégies de configuration des applications intégrées sont incluses dans le centre d’administration de Microsoft teams ?
 
 - **Global (par défaut de l’organisation)**: cette stratégie par défaut s’applique à tous les utilisateurs de votre organisation sauf si vous affectez une autre stratégie. Modifiez la stratégie globale pour épingler les applications les plus importantes à vos utilisateurs.
-- **FirstLineWorker**: cette stratégie concerne les travailleurs terrain. Vous pouvez l’affecter à des travailleurs terrain au sein de votre organisation. Il est important de savoir que, comme les stratégies personnalisées que vous créez, vous devez affecter la stratégie aux utilisateurs pour que les paramètres soient actifs. Pour plus d’informations, accédez à la section assigner [une stratégie de configuration d’application personnalisée aux utilisateurs](#assign-a-custom-app-setup-policy-to-users) de cet article.
+- **FirstLineWorker**: cette stratégie concerne les travailleurs terrain. Vous pouvez l’affecter à des travailleurs terrain au sein de votre organisation. Il est important de savoir que, comme les stratégies personnalisées que vous créez, vous devez affecter la stratégie aux utilisateurs pour que les paramètres soient actifs. Pour plus d’informations, accédez à la section [assigner une stratégie de configuration d’application personnalisée aux utilisateurs](#assign-a-custom-app-setup-policy-to-users) de cet article.
 
-#### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Pourquoi ne puis-je pas retrouver une application dans le volet ajouter des applications épinglées?
+#### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Pourquoi ne puis-je pas retrouver une application dans le volet ajouter des applications épinglées ?
 
 Toutes les applications ne peuvent pas être épinglées à teams via une stratégie de configuration d’application. Certaines applications ne prennent pas en charge cette fonctionnalité. Pour rechercher des applications qui peuvent être épinglées, recherchez l’application dans le volet **Ajouter des applications épinglées** . Les onglets qui comportent des onglets statiques et des robots peuvent être épinglés au client de bureau teams et ces applications sont disponibles dans le volet **Ajouter des applications épinglées** .
 
 Gardez à l’esprit que le Windows teams Store répertorie toutes les applications teams alors que le volet **Ajouter des applications épinglées** inclut uniquement les applications qui peuvent être épinglées aux équipes via une stratégie. 
 
-#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Je suis un administrateur d’équipe pour l’éducation. De quoi ai-je besoin en savoir plus sur les stratégies de configuration des applications dans teams pour l’éducation?
+#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Je suis un administrateur d’équipe pour l’éducation. De quoi ai-je besoin en savoir plus sur les stratégies de configuration des applications dans teams pour l’éducation ?
 
 L’application appelante n’est pas disponible dans teams pour l’éducation. Lorsque vous créez une stratégie personnalisée de configuration de l’application, l’application d’appel s’affiche dans la liste des applications. Toutefois, l’application n’est pas épinglée aux clients teams et aux équipes destinées aux utilisateurs éducation ne verra pas l’application appels dans Teams.
 
-#### <a name="how-many-apps-can-be-added-to-a-policy"></a>Combien d’applications peuvent être ajoutées à une stratégie?
+#### <a name="how-many-apps-can-be-added-to-a-policy"></a>Combien d’applications peuvent être ajoutées à une stratégie ?
 
 Au moins deux applications doivent être épinglées aux clients mobiles Teams (iOS et Android). Si une stratégie comporte moins de deux applications, les clients mobiles ne reflètent pas les paramètres de stratégie et continuent à utiliser la configuration existante.
 
-#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Combien de temps faut-il pour que les modifications soient prises en compte?
+Il n’y a aucune limite au nombre d’applications que vous pouvez ajouter à une stratégie.
+
+#### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Combien de temps faut-il pour que les modifications soient prises en compte ?
 
 Lorsque vous modifiez la stratégie globale ou que vous attribuez une stratégie, un délai de 24 heures peut être nécessaire pour que les modifications soient prises en compte.
 
 ### <a name="user-experience"></a>Expérience utilisateur
 
-#### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>Comment les utilisateurs peuvent-ils voir toutes leurs applications épinglées dans teams?
+#### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>Comment les utilisateurs peuvent-ils voir toutes leurs applications épinglées dans teams ?
 
 Pour afficher toutes les applications épinglées pour un utilisateur, les utilisateurs peuvent être amenés à effectuer les opérations suivantes, en fonction du nombre d’applications installées et de la taille de la fenêtre client d’équipes.
 
@@ -153,19 +155,19 @@ Pour afficher toutes les applications épinglées pour un utilisateur, les utili
 |Dans la barre d’application sur le côté d’équipes, cliquez sur **... Autres applications**.| Dans la barre de l’application en bas de teams, balayez vers le haut.|
 |![Capture d’écran montrant plus d’applications dans le client de bureau teams](media/app-setup-policies-desktop-more-apps.png)<br>   |![Capture d’écran illustrant davantage d’applications dans le client mobile teams](media/app-setup-policies-mobile-more-apps.png)  
 
-#### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir sur l’interface mobile de teams?
+#### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir sur l’interface mobile de teams ?
 
 Les clients mobiles Teams (iOS et Android) ne prennent actuellement pas en charge les applications personnelles à l’aide d’onglets statiques. En fonction des applications définies dans la stratégie, les applications épinglées au client de bureau teams peuvent ne pas apparaître dans les clients mobiles Teams. Les robots personnels apparaîtront toujours dans la conversation sur les clients mobiles.
 
 Les clients mobiles teams pourront voir les applications principales de teams, telles que les activités, les discussions et les équipes, et vous pouvez épingler certaines applications tierces de Microsoft, telles que les Shifts. 
 
-#### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Les utilisateurs peuvent-ils changer l’ordre des applications épinglées par le biais d’une stratégie?
+#### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Les utilisateurs peuvent-ils changer l’ordre des applications épinglées par le biais d’une stratégie ?
 
 Pour l’instant, les utilisateurs peuvent modifier l’ordre de leurs applications épinglées sur des clients mobiles Teams, mais pas sur le bureau teams ou les clients Web. 
 
 ### <a name="custom-teams-apps"></a>Applications personnalisées d’équipes
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mon organisation a créé une application teams personnalisée et l’a publiée, soit dans AppSource, soit dans le catalogue d’applications du client, mais l’icône d’application ne s’affiche pas comme prévu lorsque l’application est épinglée à la barre de l’application dans Teams. Comment résoudre ce problème? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Mon organisation a créé une application teams personnalisée et l’a publiée, soit dans AppSource, soit dans le catalogue d’applications du client, mais l’icône d’application ne s’affiche pas comme prévu lorsque l’application est épinglée à la barre de l’application dans Teams. Comment résoudre ce problème ? 
 
 Veillez à suivre les recommandations relatives au logo avant de procéder à la soumission de l’application. Pour en savoir plus, voir [liste de contrôle pour la soumission du tableau de bord du vendeur](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
