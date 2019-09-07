@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464485"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790831"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -225,8 +225,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Service de compte de ressource mal configuré <br/> |Les comptes de ressource associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours de préparation pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l’échec de la création de comptes de ressources dans Skype Entreprise en ligne. Dans ce cas, vous devez configurer le nom du service dans Active Directory avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instance d’application de communication Microsoft" <br/> |8/5/19 <br/> |
-
+|Service de compte de ressource mal configuré <br/> | Les comptes de ressource sur site associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l'échec de la création du compte de ressource dans le centre d'administration Teams. Dans ce cas, vous devez configurer le nom du service dans Active Directory sur site avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department « Instance d’application de communication Microsoft » <br/> Consultez également la mise à jour du service de surveillance automatique et de files d’attente des appels](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |8/5/19 <br/> |
 
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
