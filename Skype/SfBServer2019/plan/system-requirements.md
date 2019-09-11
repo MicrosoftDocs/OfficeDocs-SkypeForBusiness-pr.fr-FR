@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 'Résumé: Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: f54b6647a57cf61cb1ad85ad55985243129242f7
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 'Résumé : Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
+ms.openlocfilehash: e14da71795989356f24d7dc6ae72f94a649011e5
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464413"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838026"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019
  
-**Résumé:** Préparez-vous à installer Skype entreprise Server 2019 à l’aide de cette rubrique. Le matériel, le système d’exploitation, les logiciels, les bases de données, les certificats, les direto actives, les DNS et Fileshares sont décrits ici. Toutes les exigences système et recommandations sont disponibles pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.
+**Résumé :** Préparez-vous à installer Skype entreprise Server 2019 à l’aide de cette rubrique. Le matériel, le système d’exploitation, les logiciels, les bases de données, les certificats, les direto actives, les DNS et Fileshares sont décrits ici. Toutes les exigences système et recommandations sont disponibles pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.
   
 Comme vous pouvez le constater, il est possible que vous deviez apporter certaines préparations avant de commencer le déploiement de Skype entreprise Server 2019. Cet article vous guide à travers la procédure de planification comme suit :
   
@@ -45,7 +45,7 @@ Comme vous pouvez le constater, il est possible que vous deviez apporter certain
 
 Après avoir effectué votre topologie (et si ce n’est pas le cas, vous pouvez consulter la section [notions de base pour Skype entreprise Server 2019](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) ), il est temps de réfléchir aux serveurs. Les serveurs 2019 de Skype entreprise Server nécessitent un matériel 64 bits. Nos recommandations pour le matériel sont indiquées ci-dessous. Ces conditions ne sont pas obligatoires, mais elles reflètent les exigences nécessaires aux performances optimales. La documentation de planification des capacités vous aidera à déterminer si vous avez besoin de capacités supérieures, en fonction des circonstances.
   
-Matériel recommandé pour les serveurs Standard Edition:
+Matériel recommandé pour les serveurs Standard Edition :
 
 |**Composant matériel**|**Recommandation**|
 |:-----|:-----|
@@ -55,7 +55,7 @@ Matériel recommandé pour les serveurs Standard Edition:
 |Réseau  <br/> |1 carte réseau double port, 1 Gbit/s ou plus (2 cartes réseaux peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et à une seule adresse IP).  <br/> Les configurations à double ou à hébergement multiple ne sont **pas** prises en charge pour les serveurs frontaux, les serveurs dorsaux et les serveurs Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez disposer de systèmes de gestion hors-bande tels que DRAC ou ILO. Une telle configuration ne constitue pas un serveur à plusieurs connexions et est prise en charge.  <br/> |
 
 
-Matériel recommandé pour les serveurs frontaux et les serveurs principaux:
+Matériel recommandé pour les serveurs frontaux et les serveurs principaux :
   
 |**Composant matériel**|**Recommandation**|
 |:-----|:-----|
@@ -64,7 +64,7 @@ Matériel recommandé pour les serveurs frontaux et les serveurs principaux:
 |Disque  <br/> |SOIT :  <br/> • 8 lecteurs de disque dur, ou plus de 10000, avec au moins 72 Go d’espace libre sur le disque dur (deux des disques avec RAID 1 et 6 avec RAID 10).  <br/> OU  <br/> • Lecteurs d’État SSD (SSDs) en mesure d’offrir un espace libre et des performances similaires pour les disques mécaniques 8 10000 RPM.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbit/s ou plus (2 cartes réseaux peuvent être utilisées, mais elles doivent être associées à une seule adresse MAC et à une seule adresse IP).  <br/> Les configurations à double ou à hébergement multiple ne sont **pas** prises en charge pour les serveurs frontaux, les serveurs dorsaux et les serveurs Standard Edition. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez disposer de systèmes de gestion hors-bande tels que DRAC ou ILO. Une telle configuration ne constitue pas un serveur à plusieurs connexions et est prise en charge.  <br/> |
    
-Matériel recommandé pour les serveurs de périmètre, serveurs de médiation autonome et directeurs:
+Matériel recommandé pour les serveurs de périmètre, serveurs de médiation autonome et directeurs :
   
 |**Composant matériel**|**Recommandation**|
 |:-----|:-----|
@@ -75,7 +75,7 @@ Matériel recommandé pour les serveurs de périmètre, serveurs de médiation a
 
 
 > [!NOTE]
-> Quel que soit le rôle du serveur, nous vous conseillons également de consulter les paramètres matériels suivants pour Skype entreprise Server 2019 (cela varie en fonction de la marque du matériel que vous avez acheté, veuillez consulter la documentation du fabricant pour obtenir des informations spécifiques):
+> Quel que soit le rôle du serveur, nous vous conseillons également de consulter les paramètres matériels suivants pour Skype entreprise Server 2019 (cela varie en fonction de la marque du matériel que vous avez acheté, veuillez consulter la documentation du fabricant pour obtenir des informations spécifiques) :
 > - La configuration du BIOS doit être définie sur plat à partir de NUMA.
 > - Activez l’hyperthreading.
 > - Le paramètre de la file d’attente RSS doit être défini sur 8 files d’attente.
@@ -92,13 +92,13 @@ Lorsque le matériel est en place, vous devez utiliser le système d’exploitat
 |Windows Server 2016 <br/> ||
 ||
    
-Tout ce qui n’est pas le cas des systèmes d’exploitation mentionnés ici ne fonctionne pas correctement; Veuillez ne pas essayer pour l’installation de Skype entreprise Server 2019. Par exemple, l’option Server Core n’est pas répertoriée et n’est donc pas prise en charge.
+Tout ce qui n’est pas le cas des systèmes d’exploitation mentionnés ici ne fonctionne pas correctement ; Veuillez ne pas essayer pour l’installation de Skype entreprise Server 2019. Par exemple, l’option Server Core n’est pas répertoriée et n’est donc pas prise en charge.
 
 > [!NOTE]
 > 
 > Si vous installez le centre d’administration Windows 2019 sur votre ordinateur Windows Server 2019, il vous invite à entrer un port à écouter. Liklihood vous pouvez choisir le port 443, mais si vous avez installé Skype entreprise Server 2019 sur votre ordinateur, ou si vous avez installé Skype entreprise Server 2019 sur celui-ci, vous devez choisir un autre numéro de port.
 > 
->Pourquoi? Si le centre d’administration Windows 2019 est en cours d’exécution sur le port 443, vous ne pourrez pas vous connecter au serveur à l’aide du panneau de configuration Skype pour les entreprises ou vous ne pourrez pas vous connecter à un service Web interne exécuté sur le serveur (service Web du carnet d’adresses). , Service de découverte automatique, service de tickets d’identification, etc.).  En fait, vous ne pourrez pas vous connecter à l’URL d’un service Web interne. Pour ce faire, vous devez choisir un autre port, ou vous voulez placer le centre d’administration Windows 2019 sur un serveur avec Skype entreprise Server 2019.
+>Pourquoi ? Si le centre d’administration Windows 2019 est en cours d’exécution sur le port 443, vous ne pourrez pas vous connecter au serveur à l’aide du panneau de configuration Skype pour les entreprises ou vous ne pourrez pas vous connecter à un service Web interne exécuté sur le serveur (service Web du carnet d’adresses). , Service de découverte automatique, service de tickets d’identification, etc.).  En fait, vous ne pourrez pas vous connecter à l’URL d’un service Web interne. Pour ce faire, vous devez choisir un autre port, ou vous voulez placer le centre d’administration Windows 2019 sur un serveur avec Skype entreprise Server 2019.
 > 
 
   
@@ -107,21 +107,21 @@ Tout ce qui n’est pas le cas des systèmes d’exploitation mentionnés ici ne
 
 Vous devrez peut-être installer ou configurer certains éléments pour n’importe quel serveur exécutant Skype entreprise Server 2019. Celles-ci sont répertoriées ci-dessous, suivies d’autres exigences relatives aux rôles de serveur spécifiques.
   
- **Tous les serveurs:**
+ **Tous les serveurs :**
   
 |**Logiciel/rôle**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous les serveurs Skype entreprise Server requièrent l’installation de Windows PowerShell 3,0.  <br/> • Cela doit être installé par défaut avec Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** qui est installée en tant que fonctionnalité Windows, dans le **Gestionnaire de serveur**, aucun téléchargement n’est nécessaire. <br/> • Vous devez vous assurer que, lorsque vous installez cette fonction ou qu’elle est déjà installée et que vous la Vérifiez, l’option d' **activation http** est également activée et installée, comme suit: <br/> ![Capture d’écran présentant l’option Activation HTTP des fonctionnalités .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’Activation HTTP puisse être installée. C’est normal; Cliquez sur OK et continuez. Si vous ne parvenez pas à afficher cette fenêtre contextuelle, vous pouvez supposer que les éléments suivants sont déjà installés et déplacés.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Pour le mettre à jour, Skype entreprise Server nécessite Microsoft .NET Framework 4,7. La mise à jour est disponible [ici](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) .<br/> |
+|Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** qui est installée en tant que fonctionnalité Windows, dans le **Gestionnaire de serveur**, aucun téléchargement n’est nécessaire. <br/> • Vous devez vous assurer que, lorsque vous installez cette fonction ou qu’elle est déjà installée et que vous la Vérifiez, l’option d' **activation http** est également activée et installée, comme suit : <br/> ![Capture d’écran présentant l’option Activation HTTP des fonctionnalités .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’Activation HTTP puisse être installée. C’est normal ; Cliquez sur OK et continuez. Si vous ne parvenez pas à afficher cette fenêtre contextuelle, vous pouvez supposer que les éléments suivants sont déjà installés et déplacés.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Le service Skype entreprise Server nécessite Microsoft .NET Framework 4,7 ou 4,8, donc vous devez probablement le mettre à jour. La mise à jour est disponible [ici](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) .<br/> |
 |Media Foundation  <br/> |Pour Windows Server 2016, le runtime du format Windows Media s’installe avec Microsoft Media Foundation.  <br/> Tous les serveurs front-end et les serveurs Standard Edition utilisés pour les conférences requièrent l’exécution du format Windows Media Runtime pour exécuter les fichiers Windows Media audio (. WMA) que les applications de parc d’appels, d’annonce et de groupe de réponse sont lues pour les annonces et la musique.  <br/> |
 |Windows Identity Foundation  <br/> |Nous avons besoin de Windows Identity Foundation 3,5 pour prendre en charge les scénarios d’authentification de serveur à serveur pour Skype entreprise Server 2019.  <br/> • Pour Windows Server 2016, vous n’avez rien à télécharger. Ouvrez le **Gestionnaire de serveur** et accédez à l’**Assistant Ajout de rôles et de fonctionnalités**. **Windows Identity Foundation 3.5** est listé sous la section **Fonctionnalités**. S’il est sélectionné, c’est bien. Dans le cas contraire, sélectionnez-le, puis cliquez sur **suivant** pour atteindre le bouton **installer** . <br/> |
 |Outils d’administration de serveur distant  <br/> |Outils d’administration de rôles : outils AD DS et AD LDS  <br/> |
    
- **Les serveurs front-end et Standard Edition Server ont également besoin des éléments suivants:**
+ **Les serveurs front-end et Standard Edition Server ont également besoin des éléments suivants :**
   
 |**Logiciel/rôle**|**Détails**|
 |:-----|:-----|
-|services Internet (IIS)  <br/> |IIS est requis sur tous les serveurs frontaux, ainsi que sur tous les serveurs Standard Edition, avec les modules suivants sélectionnés:  <br/> • Principales fonctionnalités HTTP: document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics: journalisation HTTP, outils de journalisation, suivi  <br/> • Performances: compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité: filtrage des demandes, authentification du mappage de certificat client, authentification Windows  <br/> • Développement d’applications: extensibilité .NET 3,5, extensibilité .NET 4,5, ASP.NET 3,5, ASP.NET 4,5, extensions ISAPI et filtres ISAPI  <br/> • Outils de gestion: console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que vous l’obtenez lorsque vous installez IIS, de sorte que vous n’avez pas d’emplacement pour le sélectionner dans la liste.  <br/> |
+|services Internet (IIS)  <br/> |IIS est requis sur tous les serveurs frontaux, ainsi que sur tous les serveurs Standard Edition, avec les modules suivants sélectionnés :  <br/> • Principales fonctionnalités HTTP : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification du mappage de certificat client, authentification Windows  <br/> • Développement d’applications : extensibilité .NET 3,5, extensibilité .NET 4,5, ASP.NET 3,5, ASP.NET 4,5, extensions ISAPI et filtres ISAPI  <br/> • Outils de gestion : console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que vous l’obtenez lorsque vous installez IIS, de sorte que vous n’avez pas d’emplacement pour le sélectionner dans la liste.  <br/> |
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, vous devez installer la fonctionnalité **Media Foundation** dans le **Gestionnaire de serveur**. Vous pouvez démarrer l’installation de Skype entreprise Server 2019 sans cela, mais vous serez invité à l’installer, puis à redémarrer le serveur avant la poursuite de l’installation de Skype entreprise Server 2019. Nous vous conseillons de le faire à l’avance. <br/> |
 |Silverlight  <br/> |Vous pouvez installer la dernière version de Silverlight [ici](https://www.microsoft.com/silverlight/).  <br/> |
    
@@ -131,7 +131,7 @@ Pour vous aider, voici un exemple de script PowerShell que vous pouvez exécuter
 Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
 ```
 
- **Les directeurs ont également besoin des éléments suivants:**
+ **Les directeurs ont également besoin des éléments suivants :**
   
 IIS, avec les modules suivants sélectionnés :
   
@@ -190,7 +190,7 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 Lors de l’installation de Skype entreprise Server 2019 Standard Edition, vous avez SQL Server 2016 Express (64-bit Edition).
 
-Skype entreprise Server 2019 Enterprise Edition nécessite SQL Server complet, comme indiqué ci-dessous (seule l’édition 64 bits; n’utilisez pas les éditions 32 bits):
+Skype entreprise Server 2019 Enterprise Edition nécessite SQL Server complet, comme indiqué ci-dessous (seule l’édition 64 bits ; n’utilisez pas les éditions 32 bits) :
   
 ||||
 |:-----|:-----|:-----|
@@ -226,7 +226,7 @@ Six nœuds :
 L’application SQL toujours activée est prise en charge et vous pouvez en savoir plus à son sujet dans la [haute disponibilité du serveur principal dans Skype entreprise Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   
 
-###  <a name="additional-server-installation-recommendations"></a>Recommandations en matière d’installation serveur supplémentaires:
+###  <a name="additional-server-installation-recommendations"></a>Recommandations en matière d’installation serveur supplémentaires :
   
 N’installez pas le logiciel client Microsoft Internet Security and Acceleration (ISA) Server ou tout autre logiciel de fournisseurs de services Layers (Winsock Layerd services), ou un logiciel de contrôle de réseau antiviral (ou logiciel antivirus), sur tout serveur principal ou serveur de médiation autonome. Des performances de trafic multimédia médiocres ont été constatées lors de l’installation de ce logiciel.
   
@@ -234,7 +234,7 @@ N’installez pas le logiciel client Microsoft Internet Security and Acceleratio
 ## <a name="active-directory"></a>Active Directory
 <a name="AD"> </a>
 
-Bien que la plupart des données de configuration pour les serveurs et les services soient stockées dans le magasin de gestion centralisée de Skype entreprise Server 2019, certaines éléments sont toujours stockés dans Active Directory:
+Bien que la plupart des données de configuration pour les serveurs et les services soient stockées dans le magasin de gestion centralisée de Skype entreprise Server 2019, certaines éléments sont toujours stockés dans Active Directory :
   
 |**Objets Active Directory**|**Types d’objets**|
 |:-----|:-----|
@@ -248,7 +248,7 @@ Bien que la plupart des données de configuration pour les serveurs et les servi
    
 ### <a name="os-for-domain-controllers"></a>Système d’exploitation pour les contrôleurs de domaine
 
-Les systèmes d’exploitation de contrôleur de domaine suivants peuvent être utilisés:
+Les systèmes d’exploitation de contrôleur de domaine suivants peuvent être utilisés :
   
 - Windows Server 2019
 
@@ -258,7 +258,7 @@ Les systèmes d’exploitation de contrôleur de domaine suivants peuvent être 
     
 - Windows Server 2012
     
-Le niveau de fonctionnalité du domaine de tout domaine sur lequel vous déployez Skype entreprise Server 2019, ainsi que le niveau fonctionnel de la forêt de n’importe quelle forêt de déploiement de Skype entreprise Server 2019, doit être l’un des éléments suivants:
+Le niveau de fonctionnalité du domaine de tout domaine sur lequel vous déployez Skype entreprise Server 2019, ainsi que le niveau fonctionnel de la forêt de n’importe quelle forêt de déploiement de Skype entreprise Server 2019, doit être l’un des éléments suivants :
   
 - Windows Server 2019
 
@@ -278,7 +278,7 @@ Enfin, vous avez peut-être affaire à un domaine avec un environnement AD DS ve
   
 ### <a name="ad-topologies"></a>Topologies AD
 
-Les topologies prises en charge dans Skype entreprise Server 2019 sont les suivantes:
+Les topologies prises en charge dans Skype entreprise Server 2019 sont les suivantes :
   
 - Forêt unique avec domaine unique
     
@@ -294,7 +294,7 @@ Les topologies prises en charge dans Skype entreprise Server 2019 sont les suiva
     
 - Plusieurs forêts dans une topologie de forêt de ressources Skype Entreprise Online et Azure Active Directory Connect
     
-Nous avons des diagrammes et des descriptions qui vous aideront à déterminer quelle topologie vous avez dans votre environnement ou ce que vous devrez configurer avant d’installer Skype entreprise Server 2019. Pour le simplifier, nous avons également une touche:
+Nous avons des diagrammes et des descriptions qui vous aideront à déterminer quelle topologie vous avez dans votre environnement ou ce que vous devrez configurer avant d’installer Skype entreprise Server 2019. Pour le simplifier, nous avons également une touche :
   
 ![Il s’agit d’une clé pour les icônes utilisées pour les schémas de topologie Skype Entreprise.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
@@ -371,7 +371,7 @@ Pour plus d’informations, reportez-vous à [la rubrique Configuration d’un e
 ## <a name="domain-name-system-dns"></a>Domain Name System (DNS)
 <a name="DNS"> </a>
 
-Pour les raisons suivantes, Skype entreprise Server 2019 nécessite le système DNS:
+Pour les raisons suivantes, Skype entreprise Server 2019 nécessite le système DNS :
   
 - Ce service permet aux utilisateurs de Skype entreprise Server 2019 de découvrir les serveurs internes ou les pools, ce qui permet des communications serveur à serveur.
     
@@ -402,7 +402,7 @@ Pour en savoir plus sur les exigences du DNS pour le réseau, consultez la secti
 
 L’une des tâches les plus importantes à effectuer avant le déploiement est de vérifier que les certificats sont en ordre. Skype entreprise Server 2019 a besoin d’une infrastructure à clé publique (PKI) pour les connexions TLS (Transport Layer Security) et Mutual Transport Layer Security (MTLS). Fondamentalement, pour communiquer de manière sécurisée, Skype entreprise Server utilise des certificats émis par les autorités de certification (ca).
   
-Voici quelques-unes des raisons pour lesquelles Skype entreprise Server 2019 utilise des certificats pour:
+Voici quelques-unes des raisons pour lesquelles Skype entreprise Server 2019 utilise des certificats pour :
   
 - Connexions TLS entre clients et serveurs
     
@@ -416,7 +416,7 @@ Voici quelques-unes des raisons pour lesquelles Skype entreprise Server 2019 uti
     
 - Discuter avec des applications Web et Outlook Web Access (OWA)
     
-Le planning de certification est donc obligatoire. Examinons maintenant la liste de quelques éléments à garder à l’esprit lors de la demande de certificats:
+Le planning de certification est donc obligatoire. Examinons maintenant la liste de quelques éléments à garder à l’esprit lors de la demande de certificats :
   
 - Tous les certificats de serveur doivent prendre en charge l’autorisation serveur (utilisation améliorée de la clé du serveur).
     
@@ -453,37 +453,37 @@ Pour vous faciliter la tâche, nous avons mis en place la configuration requise 
     
 - Comme pour les exemples de noms ci-dessous, si vous avez configuré sipinternal.contoso.com ou sipexternal.contoso.com dans votre DNS, ils doivent être ajoutés au nom de l’objet du certificat.
     
-Certificats pour les serveurs Standard Edition:
+Certificats pour les serveurs Standard Edition :
   
 |**Certificat**|**Nom de l’objet/nom usuel**|**Autre nom du sujet**|**Exemple**|**Commentaires**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool et nom de domaine complet du serveur.  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur les serveurs Standard Edition, le nom de domaine complet du serveur est identique au nom de domaine complet du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez aussi utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web interne (qui est identique au nom de domaine complet du serveur).  <br/> ET  <br/> • Respecter des URL simples  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com; SAN = SE01. contoso. com; SAN =\*. contoso.com  <br/> |Vous ne pouvez pas remplacer le FQDN Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant que sous-réseau.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web externes  <br/> ET  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • Respecter les URL simples par domaine SIP  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com; SAN = webcon01. contoso. com; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant qu’autres noms d’objet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web interne (qui est identique au nom de domaine complet du serveur).  <br/> ET  <br/> • Respecter des URL simples  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = SE01. contoso. com ; SAN =\*. contoso.com  <br/> |Vous ne pouvez pas remplacer le FQDN Web interne dans le générateur de topologie.  <br/> Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant que sous-réseau.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web externes  <br/> ET  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • Respecter les URL simples par domaine SIP  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = SE01. contoso. com ; SAN = webcon01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant qu’autres noms d’objet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
-Certificats pour serveurs frontaux dans une liste frontale:
+Certificats pour serveurs frontaux dans une liste frontale :
   
 |**Certificat**|**Nom de l’objet/nom usuel**|**Autre nom du sujet**|**Exemple**|**Commentaires**|
 |:-----|:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool et nom de domaine complet du serveur.  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez aussi utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet (FQDN) Web interne (différent du nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet (FQDN) du pool Skype entreprise  <br/> ET  <br/> • Respecter des URL simples  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com; SAN = ee01. contoso. com; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant qu’autres noms d’objet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web externes  <br/> ET  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com; SAN = webcon01. contoso. com; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant qu’autres noms d’objet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • Nom de domaine complet (FQDN) Web interne (différent du nom de domaine complet du serveur)  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet (FQDN) du pool Skype entreprise  <br/> ET  <br/> • Respecter des URL simples  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = ee01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant qu’autres noms d’objet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web externes  <br/> ET  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = ee01. contoso. com ; SAN = webcon01. contoso. com ; SAN =\*. contoso.com  <br/> |Si vous avez plusieurs URL de la réunion, vous devez les inclure en tant qu’autres noms d’objet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
    
-Certificats pour le directeur:
+Certificats pour le directeur :
   
 |**Certificat**|**Nom de l’objet/nom usuel**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |pool de directeurs  <br/> |Nom de domaine complet (FQDN) du réalisateur du pool de réalisateurs.  <br/> Si ce pool est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour SIP. sipdomain (pour chaque domaine SIP que vous utilisez).  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> Si ce pool de directeurs est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous devez également disposer de SAN = SIP. contoso. com; SAN = SIP. fabrikam. com  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web interne (qui est identique au nom de domaine complet du serveur).  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet (FQDN) du pool Skype entreprise  <br/> ET  <br/> • Respecter des URL simples  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com; SAN = DIR01. contoso. com SAN =\*. contoso.com  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web externes  <br/> ET  <br/> • Respecter les URL simples par domaine SIP  <br/> • URL d’accès à la Conférence rendez-vous  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |Le FQDN Web de Director doit être différent du serveur frontal ou du pool frontal.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com; SAN = directorwebcon01. contoso. com SAN =\*. contoso.com  <br/> |
+|Par défaut  <br/> |pool de directeurs  <br/> |Nom de domaine complet (FQDN) du réalisateur du pool de réalisateurs.  <br/> Si ce pool est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour SIP. sipdomain (pour chaque domaine SIP que vous utilisez).  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> Si ce pool de directeurs est le serveur de connexion automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, vous devez également disposer de SAN = SIP. contoso. com ; SAN = SIP. fabrikam. com  <br/> |
+|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web interne (qui est identique au nom de domaine complet du serveur).  <br/> • Nom de domaine complet du serveur  <br/> • Nom de domaine complet (FQDN) du pool Skype entreprise  <br/> ET  <br/> • Respecter des URL simples  <br/> • URL d’accès à la Conférence rendez-vous  <br/> • URL simple d’administration  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = DIR01. contoso. com SAN =\*. contoso.com  <br/> |
+|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN Web externes  <br/> ET  <br/> • Respecter les URL simples par domaine SIP  <br/> • URL d’accès à la Conférence rendez-vous  <br/> OU  <br/> • Entrée générique pour les URL simples  <br/> |Le FQDN Web de Director doit être différent du serveur frontal ou du pool frontal.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN = DIR01. contoso. com ; SAN = directorwebcon01. contoso. com SAN =\*. contoso.com  <br/> |
    
-Certificats pour un serveur de médiation autonome:
+Certificats pour un serveur de médiation autonome :
   
 |**Certificat**|**Nom de l’objet/nom usuel**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
 |Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool  <br/> Nom de domaine complet du serveur membre du pool  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
-Certificats pour un appareil de branchement survivant (plus précisément, appareil de branchement Survivable 2015 pour Skype entreprise Server 2019):
+Certificats pour un appareil de branchement survivant (plus précisément, appareil de branchement Survivable 2015 pour Skype entreprise Server 2019) :
   
 |**Certificat**|**Nom de l’objet/nom usuel**|**Autre nom du sujet**|**Exemple**|
 |:-----|:-----|:-----|:-----|
@@ -499,7 +499,7 @@ Votre proxy inverse (RP) utilise également un certificat public et chiffre la c
 
 Si vous déployez une mobilité et que vous prenez en charge la découverte automatique pour les clients mobiles, vous aurez besoin d’ajouter d’autres inscriptions de nom de sujet sur vos certificats pour prendre en charge les connexions sécurisées à partir des clients mobiles.
   
-Pour une découverte automatique des certificats suivants, vous aurez besoin des noms de SAN:
+Pour une découverte automatique des certificats suivants, vous aurez besoin des noms de SAN :
   
 - pool de directeurs
     
@@ -513,7 +513,7 @@ C’est là où un peu de préversion est satisfaisant, mais parfois, vous avez 
   
 Si ce n’est pas le cas, et si vous disposez d’un grand nombre de domaines SIP (ce qui permet d’ajouter des réseaux SANS frais supplémentaires), vous pouvez configurer votre proxy inverse de façon à ce que la demande de service de découverte automatique initiale s’utilise au lieu d’utiliser HTTPs (par défaut). Configuration). Pour plus d’informations, reportez-vous à l’article [plan de mobilité](../../SfbServer/plan-your-deployment/mobility.md) .
   
-Conditions requises pour les certificats du pool de réalisateur et du pool frontal:
+Conditions requises pour les certificats du pool de réalisateur et du pool frontal :
   
 |**Description**|**Entrée SAN**|
 |:-----|:-----|
@@ -543,7 +543,7 @@ Skype entreprise Server 2019 peut utiliser le même partage de fichiers pour tou
 - Nous vous recommandons d’utiliser un cluster partagé pour le partage de fichiers. Si vous utilisez déjà une version de Windows Server 2012 ou version ultérieure
 
 > [!Note]
-> **Pourquoi vous avez la dernière version de Windows?** Les versions plus anciennes ne disposent pas des autorisations appropriées pour activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer le partage de fichiers. Pour plus d’informations, consultez cet article [du support sur la création de partages de fichiers sur un cluster](https://support.microsoft.com/help/224967) .
+> **Pourquoi vous avez la dernière version de Windows ?** Les versions plus anciennes ne disposent pas des autorisations appropriées pour activer toutes les fonctionnalités. Vous pouvez utiliser l’administrateur de cluster pour créer le partage de fichiers. Pour plus d’informations, consultez cet article [du support sur la création de partages de fichiers sur un cluster](https://support.microsoft.com/help/224967) .
     
 > [!CAUTION]
 > Vous devez savoir que le dispositif de stockage réseau (NAS) ne prend pas en charge le partage de fichiers. Vous devez donc utiliser l’une des options proposées ci-après. Cette limitation du support technique est provoquée par la conception variable d’appareils NAS qui doivent fournir la capacité d’adaptation du système de fichiers à l’ordinateur Windows Server qui accède au système de fichiers partagés des appareils.

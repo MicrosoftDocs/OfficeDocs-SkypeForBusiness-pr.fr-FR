@@ -18,12 +18,12 @@ description: Votre administrateur informatique peut configurer l’accès extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 146ec2f30afa03a3e8519637a4f852f1b0e73cef
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715860"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838111"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================
@@ -32,7 +32,7 @@ L’accès externe de Microsoft teams permet aux utilisateurs de teams d’autre
 
 Suivez la procédure décrite dans cet article lorsque :
   
-- Vous avez des utilisateurs dans différents domaines dans votre entreprise: par exemple, Rob@contoso.com et Ann@northwindtraders.com.
+- Vous avez des utilisateurs dans différents domaines dans votre entreprise : par exemple, Rob@contoso.com et Ann@northwindtraders.com.
 
 - Vous voulez que les membres de votre organisation puissent utiliser teams pour contacter des personnes dans des entreprises spécifiques en dehors de votre organisation.
 
@@ -43,9 +43,12 @@ L’accès externe permet aux utilisateurs externes de rechercher, appeler et en
 > [!IMPORTANT]
 > Pour le moment, pour fédérer dans l’application Microsoft teams à un utilisateur externe extérieur à votre organisation qui ne fait pas partie d’un invité de votre Azure Active Directory (Azure AD) ou d’un client, vous devez être correctement configuré pour hybride et déplacé vers Skype entreprise online. À partir de 2/25/2019, Teams ne prend pas en charge la Fédération native sans que l’utilisateur du profil SIP soit hébergé dans Skype entreprise online. Pour plus d’informations sur la configuration de votre compte pour l’environnement hybride, puis pour le déplacement vers Teams, voir [mise à niveau de déploiement hybride de Skype entreprise vers teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
+> [!IMPORTANT]
+> Les utilisateurs invités suivent les paramètres à l’échelle de l’Organisation pour le mode de coexistence. Cette opération ne peut pas être modifiée.
+
 ## <a name="external-access-vs-guest-access"></a>Accès externe et accès invité
 
-L’accès externe (Fédération) et l’accès invité sont différents:
+L’accès externe (Fédération) et l’accès invité sont différents :
 
 - L’accès invité accorde une autorisation d’accès à une personne. L’accès externe accorde l’autorisation d’accès à l’intégralité d’un domaine.
 
@@ -92,41 +95,41 @@ Pour plus d’informations sur la version gratuite de teams et son fonctionnemen
 
 |**Vous voulez....**  |**Étapes rapides**  |
 |---------|-----------------------|
-|Vous voulez permettre **aux utilisateurs teams** de votre organisation de communiquer avec **les utilisateurs** de teams dans une autre organisation (externe).|Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte. <p>Ensuite, demandez à l’administrateur au sein de l’organisation d’autres équipes de faire la même chose.      |
+|Vous voulez permettre **aux utilisateurs teams** de votre organisation de communiquer avec **les utilisateurs de teams** dans une autre organisation (externe).|Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte. <p>Ensuite, demandez à l’administrateur au sein de l’organisation d’autres équipes de faire la même chose.      |
 |Vous voulez permettre **aux utilisateurs** de votre organisation de communiquer avec des **utilisateurs de Skype entreprise Online** au sein de la même organisation.  |Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation.   |
 |Vous voulez permettre **aux utilisateurs d’équipes** de votre organisation de communiquer avec des **utilisateurs de Skype entreprise Online** à l’aide d’une autre organisation (externe).      |Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte.  <p>Activez l’option **les utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe. <p>Ensuite, demandez à l’administrateur au sein de l’organisation d’autres équipes de faire la même chose. <p>**Remarque**: le domaine externe avec les utilisateurs Skype entreprise doit activer le mode de coexistence ou choisir le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de cette organisation.|
-|Vous voulez permettre **aux utilisateurs** de votre organisation de communiquer avec des utilisateurs de **Skype** à l’intérieur ou à l’extérieur de votre organisation.   | Ce scénario n’est pas pris en charge pour le moment. <p>**Important**: les utilisateurs de Teams ne seront pas en mesure de communiquer avec les utilisateurs de Skype, mais vos utilisateurs Skype entreprise dans votre organisation pourront communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation, si les deux conditions suivantes sont remplies: <p>1) activez **les utilisateurs pour communiquer avec les utilisateurs de Skype entreprise et équipes** , et les utilisateurs de **Skype entreprise peuvent communiquer avec les paramètres d’utilisateurs Skype** dans un accès externe. <p> 2) votre organisation s’exécute en mode coexistence. |
+|Vous voulez permettre **aux utilisateurs** de votre organisation de communiquer avec des utilisateurs de **Skype** à l’intérieur ou à l’extérieur de votre organisation.   | Ce scénario n’est pas pris en charge pour le moment. <p>**Important**: les utilisateurs de Teams ne seront pas en mesure de communiquer avec les utilisateurs de Skype, mais vos utilisateurs Skype entreprise dans votre organisation pourront communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation, si les deux conditions suivantes sont remplies : <p>1) activez **les utilisateurs pour communiquer avec les utilisateurs de Skype entreprise et équipes** , et les utilisateurs de **Skype entreprise peuvent communiquer avec les paramètres d’utilisateurs Skype** dans un accès externe. <p> 2) votre organisation s’exécute en mode coexistence. |
 |Vous voulez permettre **aux utilisateurs** de votre équipe de communiquer avec les **utilisateurs de Skype entreprise Online** à partir d’une organisation locale et avec **les utilisateurs de Skype**.   |Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte. . <p>Activez l’option **les utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe. <p>Activez l’option **les utilisateurs Skype entreprise peuvent communiquer avec les utilisateurs de Skype** dans l’accès externe. <p> Par ailleurs, l’administrateur de l’organisation locale fait la même chose.<p>**Important** Dans ce scénario, les utilisateurs de Teams ne seront pas en mesure de communiquer avec les utilisateurs de Skype, mais les utilisateurs de Skype entreprise dans votre organisation pourront communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation si vous allumez **les utilisateurs peuvent communiquer avec Skype entreprise **les utilisateurs d’équipes et les utilisateurs de **Skype entreprise peuvent communiquer avec les paramètres d’utilisateurs Skype** dans un accès externe.|
-|Vous voulez autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs** de teams dans une autre organisation d’Office 365.|Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation. <p>Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte.  <p> Activez l’option **les utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe. <p>Par ailleurs, l’administrateur de l’organisation d’autres équipes effectue les mêmes opérations. |
+|Vous voulez autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs de teams** dans une autre organisation d’Office 365.|Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation. <p>Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte.  <p> Activez l’option **les utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe. <p>Par ailleurs, l’administrateur de l’organisation d’autres équipes effectue les mêmes opérations. |
 |Vous voulez autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec les **utilisateurs de Skype entreprise Online** à partir d’une autre organisation Office 365.    | Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation. <p>Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte. <p> Activez l’option **les utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe.<p>Par ailleurs, l’administrateur de l’organisation d’autres équipes effectue les mêmes opérations. |
 |Vous voulez autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec les **utilisateurs de Skype entreprise Online** à partir d’une organisation locale.     |Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation. <p>Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte.  <p>Activez l’option **les utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe.  <p> Ainsi, l’administrateur de l’organisation locale effectue les mêmes opérations. |
 |Vous voulez autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs de Skype** (à l’intérieur ou à l’extérieur de votre organisation).   |Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation. <p>Activez les **utilisateurs de Skype entreprise pour communiquer avec les utilisateurs de Skype** à l’aide d’un paramètre d’accès externe.         |
 |Vous voulez autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs de Skype entreprise Online** au sein d’une autre organisation et avec **les utilisateurs de Skype** à l’intérieur ou à l’extérieur de votre organisation.    |Activez le mode de coexistence ou sélectionnez le mode de mise à niveau des îlots pour prendre en charge les utilisateurs Skype entreprise de votre organisation. <p>Dans accès externe, ajoutez le domaine externe à la liste autorisée ou utilisez la Fédération ouverte.  <p> Activez la fonction **permettre aux utilisateurs de communiquer avec les utilisateurs de Skype entreprise et équipes** , et les utilisateurs de **Skype entreprise peuvent communiquer avec** le paramètre utilisateurs de Skype dans accès externe. <p>Par ailleurs, l’administrateur de l’organisation d’autres équipes effectue les mêmes opérations.       <p> **Remarque**: l’administrateur de l’autre domaine externe n’a pas besoin d’activer **Skype entreprise pour communiquer avec les utilisateurs de Skype** dans un environnement d’accès externe.|
 
 > [!IMPORTANT]
-> Vous n’avez pas besoin d’ajouter des **«domaines Skype»** comme domaines autorisés pour permettre aux équipes ou aux utilisateurs de Skype entreprise Online de communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation. Tous les **domaines Skype** sont autorisés par le biais d’une autorisation.
+> Vous n’avez pas besoin d’ajouter des **« domaines Skype »** comme domaines autorisés pour permettre aux équipes ou aux utilisateurs de Skype entreprise Online de communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation. Tous les **domaines Skype** sont autorisés par le biais d’une autorisation.
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-organization"></a>Permettre aux utilisateurs d’équipes de discuter et de communiquer avec les utilisateurs d’une autre organisation
 
-L’accès externe permet aux équipes et aux utilisateurs Skype entreprise de communiquer avec d’autres utilisateurs en dehors de votre organisation. Par défaut, votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines seront autorisés, mais si vous ajoutez des domaines autorisés, tous les autres domaines seront bloqués. Vous pouvez facilement configurer l’accès externe pour votre organisation. Il existe trois scénarios pour la configuration:
+L’accès externe permet aux équipes et aux utilisateurs Skype entreprise de communiquer avec d’autres utilisateurs en dehors de votre organisation. Par défaut, votre organisation peut communiquer avec tous les domaines externes. Si vous ajoutez des domaines bloqués, tous les autres domaines seront autorisés, mais si vous ajoutez des domaines autorisés, tous les autres domaines seront bloqués. Vous pouvez facilement configurer l’accès externe pour votre organisation. Il existe trois scénarios pour la configuration :
 
 - **Scénario 1** -vous pouvez utiliser la **Fédération ouverte**. Il s’agit du paramètre par défaut, qui permet aux membres de votre organisation de rechercher, appeler et envoyer des messages instantanés et des discussions, ainsi que de configurer des réunions avec des personnes extérieures à votre organisation.
 
     Lorsque vous utilisez cette configuration, vos utilisateurs peuvent communiquer avec tous les domaines externes exécutant teams ou Skype entreprise et utilisant la Fédération d’ouverture ou avoir ajouté votre domaine à la liste verte.
 
-- **Scénario 2** -vous pouvez ajouter un ou des domaines à la liste **verte** . Pour cela, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **action à entreprendre sur ce domaine**, puis sélectionnez **autorisé**. Il est important de savoir que, si vous procédez ainsi **** , tous les autres domaines sont bloqués.
+- **Scénario 2** -vous pouvez ajouter un ou des domaines à la liste **verte** . Pour cela, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **action à entreprendre sur ce domaine**, puis sélectionnez **autorisé**. Il est important de savoir que, si vous procédez ainsi, tous les autres domaines sont **bloqués** .
 
 - **Scénario 3** : vous pouvez ajouter un ou des domaines à la liste **rouge** . Pour cela, cliquez sur **Ajouter un domaine**, ajoutez le nom de domaine, cliquez sur **action à entreprendre sur ce domaine**, puis sélectionnez **bloqué**. Il est important de savoir que, si vous effectuez cette opération, tous les autres domaines seront **autorisés** .
 
 Pour autoriser ou bloquer des domaines, procédez comme suit.
 
-### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>Étape 1: permettre à votre organisation de communiquer avec d’autres organisations teams
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>Étape 1 : permettre à votre organisation de communiquer avec d’autres organisations teams
 
 ![Icône illustrant le logo](media/teams-logo-30x30.png)de Microsoft teams à l'**aide du centre d’administration Microsoft teams**  
 
 1. Dans le volet de navigation de gauche, accédez à**accès externe aux** **paramètres** > à l’échelle de l’organisation.
 
-2. Activez le bouton bascule permettre aux utilisateurs de **communiquer avec les utilisateurs de Skype entreprise et teams** . ****
+2. Activez le bouton bascule permettre aux utilisateurs de **communiquer avec les utilisateurs de Skype entreprise et teams** **.**
 
      ![Capture d’écran du commutateur d’accès externe activé](media/manage-external-access-2.png).
 
@@ -134,14 +137,14 @@ Pour autoriser ou bloquer des domaines, procédez comme suit.
 
 4. Si vous souhaitez limiter les organisations qui peuvent communiquer avec des utilisateurs au sein de votre organisation, vous pouvez autoriser uniquement certains domaines, ou vous pouvez autoriser uniquement des domaines spécifiques. 
 
-    - Pour autoriser tout sauf certains domaines, ajoutez les domaines que vous voulez bloquer en cliquant sur **Ajouter un domaine**. Dans le volet **Ajouter un domaine** , tapez le nom de domaine, cliquez sur **bloqué**, puis **** sur Clik. 
+    - Pour autoriser tout sauf certains domaines, ajoutez les domaines que vous voulez bloquer en cliquant sur **Ajouter un domaine**. Dans le volet **Ajouter un domaine** , tapez le nom de domaine, cliquez sur **bloqué**, puis cliquez sur **Terminer**. 
     - Pour limiter les communications à des organisations spécifiques, ajoutez ces domaines à la liste avec l’état **autorisé**. Une fois que vous avez ajouté un domaine à la liste verte, les communications avec d’autres organisations sont limitées uniquement aux organisations dont le domaine figure dans la liste verte. 
 
 5. Cliquez sur **Enregistrer**.
 
 6. Assurez-vous que l’administrateur de la société autres équipes effectue les mêmes étapes. Par exemple, dans la liste des **domaines autorisés** , l’administrateur doit entrer le domaine de votre entreprise s’il limite les organisations qui peuvent communiquer avec leurs utilisateurs.
 
-### <a name="step-2---test-it"></a>Étape 2: testez-le
+### <a name="step-2---test-it"></a>Étape 2 : testez-le
 
 Pour tester votre configuration, vous avez besoin d’un utilisateur d’équipe qui ne se trouve pas derrière votre pare-feu.
   
@@ -159,7 +162,7 @@ Si vous configurez l’accès externe pour permettre aux utilisateurs de teams d
 
 ![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-Demandez à l’administrateur de l’organisation de procéder comme suit:
+Demandez à l’administrateur de l’organisation de procéder comme suit :
 
 1. Dans le centre d’administration 365 de Microsoft, accédez à **Centre** > d’administration**teams &** > **portail hérité**de Skype.
   

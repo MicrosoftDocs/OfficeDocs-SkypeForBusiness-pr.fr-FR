@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et de Lync 2013 au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 836903d8040d9ea040309306533484f68453e375
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790813"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838019"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -47,22 +47,9 @@ Pour obtenir les mises à jour les plus récentes de Skype entreprise Online et 
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
-|Mise à jour cumulative 2015 de Skype entreprise Server|[Article 3061064](https://support.microsoft.com/kb/3061064)| 2019 septembre |
-|Mise à jour cumulative 9 pour Skype entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 |
-|Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 janvier|
-|Mise à jour cumulative 7 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4340904](https://support.microsoft.com/kb/4340904) |Juillet 2018 |
-|Mise à jour cumulative 6 Hotfix 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4086059](https://support.microsoft.com/kb/4086059) |Mars 2018 |
-|Mise à jour cumulative 6 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4074701](https://support.microsoft.com/kb/4074701)|Janvier 2018 |
-|Mise à jour cumulative 6 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4036312](https://support.microsoft.com/kb/4036312) |Décembre 2017 |
-|Mise à jour cumulative 5 pour Skype entreprise Server 2015, serveur frontal et serveur Edge  |[Article 4012621](https://support.microsoft.com/kb/4012621) |Mai 2017 |
-|Mise à jour cumulative 4 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 3207506](https://support.microsoft.com/kb/3207506) |Février 2017 |
-|Mise à jour cumulative 4 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3199093](https://support.microsoft.com/kb/3199093) |Novembre 2017 |
-|Mise à jour cumulative 3 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3149227](https://support.microsoft.com/kb/3149227) |Juin 2016 |
-|Mise à jour cumulative 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3134260](https://support.microsoft.com/kb/3134260) |Mars 2016 |
-|Mise à jour cumulative 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3097645](https://support.microsoft.com/kb/3097645) |Novembre 2015 |
-|Mise à jour cumulative de Skype Entreprise Server 2015, composants principaux |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septembre 2015 |
-|Mise à jour cumulative de Skype Entreprise Server 2015, serveur frontal et serveur Edge|[KB 3061059](https://support.microsoft.com/kb/3061059) |Juin 2015 |
-||||
+|Mise à jour cumulative 2015 de Skype entreprise Server|[Article 3061064](https://support.microsoft.com/kb/3061064)| 2019 d’août |
+
+| Mise à jour cumulative 10 2015 de Skype entreprise Server [KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 de juillet | | Mise à jour cumulative 9 pour Skype entreprise Server 2015, Web Components Server | [KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4464355](https://support.microsoft.com/kb/4464355)| 2019 janvier | | Mise à jour cumulative 7 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4340904](https://support.microsoft.com/kb/4340904) | 2018 de juillet | | Mise à jour cumulative 6 Hotfix 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4086059](https://support.microsoft.com/kb/4086059) | 2018 mars | | Mise à jour cumulative 6 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4074701](https://support.microsoft.com/kb/4074701)| 2018 janvier | | Mise à jour cumulative 6 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4036312](https://support.microsoft.com/kb/4036312) | 2017 décembre | | Mise à jour cumulative 5 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4012621](https://support.microsoft.com/kb/4012621) | 2017 Mise à jour cumulative 4 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3207506](https://support.microsoft.com/kb/3207506) | 2017 février | | Mise à jour cumulative 4 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3199093](https://support.microsoft.com/kb/3199093) | 2017 de novembre | | Mise à jour cumulative 3 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3149227](https://support.microsoft.com/kb/3149227) | 2016 juin | | Mise à jour cumulative 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3134260](https://support.microsoft.com/kb/3134260) | 2016 mars | | Mise à jour cumulative 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3097645](https://support.microsoft.com/kb/3097645) | 2015 de novembre | | Mise à jour cumulative pour Skype entreprise Server 2015, composants principaux | [KB 3098601](https://support.microsoft.com/kb/3098601) | 2015 de septembre | | Mise à jour cumulative pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3061059](https://support.microsoft.com/kb/3061059) | 2015 de juin
 
 ### <a name="skype-for-business-server-2015-tools"></a>Outils 2015 de Skype entreprise Server
 
@@ -79,17 +66,19 @@ Pour obtenir les mises à jour les plus récentes de Skype entreprise Online et 
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
-|Correctif 1 pour Lync Server 2013 cumulative 1 |[KB 4458772](http://support.microsoft.com/kb/4458772)|2019 janvier|
-|Mise à jour cumulative 10 pour Lync Server 2013 |[KB 4295703](http://support.microsoft.com/kb/4295703)|Juillet 2018 |
-|Mise à jour cumulative 9 de Lync Server 2013  |[KB 4019183](hhttp://support.microsoft.com/kb/4019183) |Juillet 2017 |
-|Mise à jour cumulative 8 de Lync Server 2013, correctif logiciel 4 |[KB 4014154](http://support.microsoft.com/kb/4014154) |Mars 2017 |
-|Mise à jour cumulative de Lync Server 2013, correctif 3 |[KB 3210166](http://support.microsoft.com/kb/3210166) |Janvier 2017 |
-|2 Hotfix de la mise à jour cumulative de Lync Server 2013 |[KB 3212869](http://support.microsoft.com/kb/3212869) |Décembre 2016 |
-|Mise à jour cumulative 8 de Lync Server 2013, correctif logiciel 1 |[KB 3200079](http://support.microsoft.com/kb/3200079) |Novembre 2016 |
+|Correctif 3 pour Lync Server 2013 cumulative Update 10 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 septembre|
+|Correctif logiciel 2 de Lync Server 2013 cumulative |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 juin|
+|Correctif 1 pour Lync Server 2013 cumulative 1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 janvier|
+|Mise à jour cumulative 10 pour Lync Server 2013 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Juillet 2018 |
+|Mise à jour cumulative 9 de Lync Server 2013  |[KB 4019183](https://support.microsoft.com/kb/4019183) |Juillet 2017 |
+|Mise à jour cumulative 8 de Lync Server 2013, correctif logiciel 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |Mars 2017 |
+|Mise à jour cumulative de Lync Server 2013, correctif 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |Janvier 2017 |
+|2 Hotfix de la mise à jour cumulative de Lync Server 2013 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Décembre 2016 |
+|Mise à jour cumulative 8 de Lync Server 2013, correctif logiciel 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Novembre 2016 |
 |Mise à jour cumulative de Lync Server 2013 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Août 2016 |
 |Mise à jour cumulative de Lync Server 2013  |[Article 3140581](https://support.microsoft.com/kb/3140581)|Avril 2016 |
 |Correctif 2 de Lync Server 2013 cumulative 6 |[Article 3175338](https://support.microsoft.com/kb/3175338)|janvier 2016 |
-|Correctif 1 pour Lync Server 2013 cumulative 6 |[KB 3121213](http://support.microsoft.com/kb/3121213)|Décembre 2015 |
+|Correctif 1 pour Lync Server 2013 cumulative 6 |[KB 3121213](https://support.microsoft.com/kb/3121213)|Décembre 2015 |
 |Mise à jour cumulative de Lync Server 2013 |[Article 3081739](https://support.microsoft.com/kb/3081739)|Septembre 2015 |
 |Correctif 10 pour Lync Server 2013 cumulative Update 5 |[KB 3064728](https://support.microsoft.com/kb/3064728)|Juillet 2015 |
 |Correctif 9 cumulative pour Lync Server 2013 cumulative 9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|Mai 2015 |

@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé: Découvrez comment utiliser PowerShell pour obtenir le fonctionnement de SEFAUtil dans Skype entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
-ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir le fonctionnement de SEFAUtil dans Skype entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
+ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464546"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838097"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utiliser la fonctionnalité SEFAUtil via PowerShell dans Skype entreprise Server 2019
 
-SEFAUtil (l’activation de la fonctionnalité d’extension secondaire) permet aux administrateurs et aux techniciens du support technique de Skype entreprise de configurer la sonnerie de délégué, le transfert d’appel et les paramètres de cueillette de groupe pour le compte d’un utilisateur de Skype entreprise Server. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après l’installation de la mise à jour cumulative de 2019 juillet de Skype entreprise Server, les fonctionnalités suivantes qui peuvent être gérées uniquement via SEFAUtil peuvent également être gérées via PowerShell:
+SEFAUtil (l’activation de la fonctionnalité d’extension secondaire) permet aux administrateurs et aux techniciens du support technique de Skype entreprise de configurer la sonnerie de délégué, le transfert d’appel et les paramètres de cueillette de groupe pour le compte d’un utilisateur de Skype entreprise Server. L’outil permet également aux administrateurs d’interroger les paramètres de routage des appels publiés pour un utilisateur particulier. Après l’installation de la mise à jour cumulative de 2019 juillet de Skype entreprise Server, les fonctionnalités suivantes qui peuvent être gérées uniquement via SEFAUtil peuvent également être gérées via PowerShell :
 
 - [Paramètres de transfert d’appel](#call-forwarding-settings)
 - [Paramètres de délégation](#delegation-settings)
@@ -28,33 +28,33 @@ SEFAUtil (l’activation de la fonctionnalité d’extension secondaire) permet 
 
 ## <a name="call-forwarding-settings"></a>Paramètres de transfert d’appel
 
-Les administrateurs peuvent modifier les paramètres de transfert d’appel à l’aide de l’applet de commande suivante dans PowerShell:
+Les administrateurs peuvent modifier les paramètres de transfert d’appel à l’aide de l’applet de commande suivante dans PowerShell :
 
-- `Get-CsUserForwardingSettings -Identity <UserIdParameter>`
+- `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
 Cette cmdlet renvoie les paramètres de transfert d’appel de l’utilisateur spécifié en tant qu’objet et affiche le même écran sur l’écran.
 
-- `Set-CsUserForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
+- `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
 Cette applet de demande modifie les paramètres de transfert d’appel de l’utilisateur spécifié. Ce cmdlet renvoie les paramètres de transfert d’appel de l’utilisateur spécifié en tant qu’objet et affiche le même écran, en cas de succès. En cas d’échec, un message d’erreur approprié s’affiche.
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 Cette applet de demande désactive les paramètres de transfert d’appel de l’utilisateur (nous affichons deux exemples de paramètres différents ici).
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableForwarding <String> [-Delegates <PSListModifier>] [-DelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 
 Cette applet de demande modifie les paramètres de transfert d’appel de l’utilisateur.
 
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
-- `Set-CsUserForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
+- `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Cette applet de cmdlet modifie les paramètres de SimulRing (de nouveau, avec deux exemples de paramètres: un pour sans réponse à la boîte vocale et le second en absence de réponse à d’autres).
+Cette applet de cmdlet modifie les paramètres de SimulRing (de nouveau, avec deux exemples de paramètres : un pour sans réponse à la boîte vocale et le second en absence de réponse à d’autres).
 
 ## <a name="delegation-settings"></a>Paramètres de délégation
 
-Les administrateurs peuvent modifier les paramètres de délégation en utilisant l’applet de commande suivante dans PowerShell:
+Les administrateurs peuvent modifier les paramètres de délégation en utilisant l’applet de commande suivante dans PowerShell :
 
 - `Get-CsuserDelegates -Identity <UserIdParameter>`
 
@@ -74,7 +74,7 @@ Cette applet de cmdlet définit une liste de délégués pour des délégués sp
 
 ## <a name="team-members-and-related-settings"></a>Membres de l’équipe et paramètres associés
 
-Les administrateurs peuvent modifier les membres de l’équipe et les paramètres associés à l’aide de l’applet de commande suivante dans PowerShell:
+Les administrateurs peuvent modifier les membres de l’équipe et les paramètres associés à l’aide de l’applet de commande suivante dans PowerShell :
 
 - `Get-CsUserTeamMembers -Identity <UserIdParameter>`
 
@@ -94,7 +94,7 @@ Cette applet de cmdlet définit une liste d’équipes pour des membres spécifi
 
 ## <a name="more-information"></a>Plus d’informations
 
-Pour les déploiements sur site, les applets de commande introduites dans cette fonctionnalité ne peuvent être exécutées que par les membres des groupes suivants, selon le niveau d’accès indiqué ci-dessous:
+Pour les déploiements sur site, les applets de commande introduites dans cette fonctionnalité ne peuvent être exécutées que par les membres des groupes suivants, selon le niveau d’accès indiqué ci-dessous :
 
 - CsAdministrator – Get et Set pour toutes les applets de cmdlet
 - CsVoiceAdministrator-Get et Set pour toutes les applets de cmdlet
