@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec les modèles Teams pour les organismes de santé
-ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
+ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232249"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852838"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
@@ -54,12 +54,12 @@ Le modèle d’hôpital est destiné à la communication et à la collaboration 
 
 ## <a name="how-to-use-first-party-templates"></a>Utilisation de modèles de première partie
 
-Pour utiliser ces modèles, il suffit de changer la propriété «template@odata.bind» dans le corps de la requête de «standard» en TemplateIDs ci-dessus.  Pour plus d’informations sur le déploiement de modèles d’équipe, voir l' [article Microsoft Graph sur la création d’une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Pour utiliser ces modèles, il suffit de changer la propriété « template@odata.bind » dans le corps de la requête de « standard » en TemplateIDs ci-dessus.  Pour plus d’informations sur le déploiement de modèles d’équipe, voir l’article Microsoft Graph sur la [création d’une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Les canaux du modèle sont automatiquement créés sous l’onglet général.
 
-### <a name="example-hospital-template-extension-script"></a>Exemple: script d’extension de modèle d’hôpital
+### <a name="example-hospital-template-extension-script"></a>Exemple : script d’extension de modèle d’hôpital
 
 ``` Powershell
 { 
