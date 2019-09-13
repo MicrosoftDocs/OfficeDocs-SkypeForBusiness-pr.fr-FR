@@ -643,7 +643,7 @@
 ### [Contrôler la qualité](upgrade-monitor-quality.md)
 ### [Améliorer votre service](upgrade-enhance-my-service.md)
 
-
+## [Déclassement de Skype Entreprise Online](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
 ## En savoir plus la coexistence
