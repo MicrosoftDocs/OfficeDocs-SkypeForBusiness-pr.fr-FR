@@ -9,17 +9,17 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Résumé: déploiement de l’application Skype entreprise Web App et de réunions Skype utilisée avec Skype entreprise.'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : déploiement de l’application Skype entreprise Web App et de réunions Skype utilisée avec Skype entreprise.'
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234392"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972875"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déploiement de clients Web à télécharger dans Skype entreprise Server
 
-**Résumé:** Déploiement de l’application Web Skype entreprise 2015 et de réunions Skype utilisée avec Skype entreprise Server.
+**Résumé :** Déploiement de l’application Web Skype entreprise 2015 et de réunions Skype utilisée avec Skype entreprise Server.
 
 Skype entreprise Web App est un client Web Internet Information Services (IIS) installé sur le serveur exécutant Skype entreprise Server et par défaut, il est déployé à la demande pour les utilisateurs qui n’ont pas encore le client Skype entreprise. Il est plus souvent possible de se connecter à l’extérieur de votre réseau. Dès qu’un utilisateur clique sur l’URL d’une réunion, mais que le client Skype entreprise n’est pas installé, l’utilisateur est invité à rejoindre la réunion à l’aide de la version la plus récente de Skype entreprise Web App, de l’application réunions Skype ou de Skype entreprise pour Mac.
 
@@ -48,9 +48,9 @@ Skype entreprise Web App, l’application réunions Skype et Skype entreprise po
 
 1. Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, voir le [Guide de déploiement de services ADFS (Active Directory Federation Services) 2,0](https://go.microsoft.com/fwlink/p/?linkid=267511) .
 
-2. Créez des certificats pour AD FS. Pour plus d’informations, reportez-vous à la section [«certificat de serveur de Fédération»](https://go.microsoft.com/fwlink/p/?LinkId=285376) de la rubrique plan pour et déployer AD FS pour une utilisation avec la rubrique authentification unique.
+2. Créez des certificats pour AD FS. Pour plus d’informations, reportez-vous à la section [« certificat de serveur de Fédération »](https://go.microsoft.com/fwlink/p/?LinkId=285376) de la rubrique plan pour et déployer AD FS pour une utilisation avec la rubrique authentification unique.
 
-3. À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante:
+3. À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante :
 
     ```
     add-pssnapin Microsoft.Adfs.powershell
@@ -140,6 +140,10 @@ Cette procédure est facultative et s’applique à Skype entreprise Server 2015
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> Avec MeetingUxUseCdn dans Skype entreprise Server 2015 cumulative Update 5, la valeur par défaut est définie sur false. Le problème se produit alors lorsque le client Skype entreprise pour Mac ne peut pas participer à des réunions non fédérées de partenaires en tant qu’invité, même si l’administrateur Skype entreprise a défini MeetingUxUseCdn sur true. Pour que cette opération fonctionne, Skype entreprise Server 2015 doit disposer de la mise à jour cumulative 7, 6.0.9319.534 ou ultérieure. [Pour remplacer Skype entreprise Web App dans Skype entreprise Server 2015, voir Activer l’application réunions Skype](https://support.microsoft.com/kb/4132312).
+
 
 ## <a name="see-also"></a>Voir aussi
 <a name="SMA_Enable"> </a>
