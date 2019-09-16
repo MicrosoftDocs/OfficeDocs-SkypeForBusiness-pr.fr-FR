@@ -27,6 +27,7 @@
 ## [Partage de fichiers dans Teams](sharing-files-in-teams.md)
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Présence des utilisateurs dans Teams](presence-admins.md)
+## [Afficher les analyses interéquipes et par équipe dans Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 
 
@@ -291,7 +292,8 @@
 #### [Langues pour la messagerie vocale accueil et des messages](languages-for-voicemail-greetings-and-messages.md)
 ### ID de l’appelant
 #### [Utilisation d’un ID d’appelant dans votre organisation](how-can-caller-id-be-used-in-your-organization.md)
-#### [Définir l’ID d’appelant pour un utilisateur](set-the-caller-id-for-a-user.md)
+#### [Gérer les stratégies d’ID de l’appelant](caller-id-policies.md)
+#### [Définir l’ID de l’appelant pour un utilisateur](set-the-caller-id-for-a-user.md)
 #### [Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel](more-about-calling-line-id-and-calling-party-name.md)
 ### Standards automatiques et files d’attente d’appels 
 #### [Les standards cloud automatiques, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
@@ -304,7 +306,6 @@
 ### [Parcage d’appel et récupération](call-park-and-retrieve.md)
 ### [Partage d’appel et prise d’appel de groupe](call-sharing-and-group-call-pickup.md)
 ### [Stratégie d’Appel](teams-calling-policy.md)
-### [Stratégie d’ID de l’appelant](caller-id-policies.md)
 ### [Mode partage de lignes](shared-line-appearance.md)
 ### [Comprendre comment les utilisateurs peuvent bloquer les appels PSTN pour les clients Teams](block-pstn-calls-on-Teams-clients.md)
 
