@@ -58,7 +58,7 @@ Une fois que vous avez vérifié que Windows PowerShell 5.1 est bien installé, 
     
 Si vous utilisez Windows 8, procédez comme suit :
   
-1. Accédez à la barre des talismans, cliquez sur **Rechercher** puis faites un clic droit sur **Windows PowerShell**. Vous pouvez accéder rapidement à la barre des icônes sur un ordinateur Windows 8 (écran tactile ou normal) en maintenant la touche Windows enfoncée, puis en appuyant sur C.
+1. Accédez à la barre des icônes, cliquez sur **Rechercher** puis faites un clic droit sur **Windows PowerShell**. Vous pouvez accéder rapidement à la barre des icônes sur un ordinateur Windows 8 (écran tactile ou normal) en maintenant la touche Windows enfoncée, puis en appuyant sur C.
     
 2. Dans la barre d’outils située en bas de l’écran, cliquez sur **Exécuter en tant qu’administrateur**.
     
