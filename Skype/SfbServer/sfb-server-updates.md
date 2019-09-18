@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et de Lync 2013 au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 836903d8040d9ea040309306533484f68453e375
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838019"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018647"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -48,8 +48,22 @@ Pour obtenir les mises à jour les plus récentes de Skype entreprise Online et 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
 |Mise à jour cumulative 2015 de Skype entreprise Server|[Article 3061064](https://support.microsoft.com/kb/3061064)| 2019 d’août |
-
-| Mise à jour cumulative 10 2015 de Skype entreprise Server [KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 de juillet | | Mise à jour cumulative 9 pour Skype entreprise Server 2015, Web Components Server | [KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4464355](https://support.microsoft.com/kb/4464355)| 2019 janvier | | Mise à jour cumulative 7 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4340904](https://support.microsoft.com/kb/4340904) | 2018 de juillet | | Mise à jour cumulative 6 Hotfix 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4086059](https://support.microsoft.com/kb/4086059) | 2018 mars | | Mise à jour cumulative 6 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4074701](https://support.microsoft.com/kb/4074701)| 2018 janvier | | Mise à jour cumulative 6 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4036312](https://support.microsoft.com/kb/4036312) | 2017 décembre | | Mise à jour cumulative 5 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 4012621](https://support.microsoft.com/kb/4012621) | 2017 Mise à jour cumulative 4 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3207506](https://support.microsoft.com/kb/3207506) | 2017 février | | Mise à jour cumulative 4 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3199093](https://support.microsoft.com/kb/3199093) | 2017 de novembre | | Mise à jour cumulative 3 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3149227](https://support.microsoft.com/kb/3149227) | 2016 juin | | Mise à jour cumulative 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3134260](https://support.microsoft.com/kb/3134260) | 2016 mars | | Mise à jour cumulative 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3097645](https://support.microsoft.com/kb/3097645) | 2015 de novembre | | Mise à jour cumulative pour Skype entreprise Server 2015, composants principaux | [KB 3098601](https://support.microsoft.com/kb/3098601) | 2015 de septembre | | Mise à jour cumulative pour Skype entreprise Server 2015, serveur frontal et serveur Edge | [KB 3061059](https://support.microsoft.com/kb/3061059) | 2015 de juin
+|Mise à jour cumulative 10 de Skype entreprise Server 2015 |[Article 3061064](https://support.microsoft.com/kb/3061064)| 2019 juillet |
+|Mise à jour cumulative 9 pour Skype entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 |
+|Mise à jour cumulative 8 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 janvier|
+|Mise à jour cumulative 7 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4340904](https://support.microsoft.com/kb/4340904) |Juillet 2018 |
+|Mise à jour cumulative 6 Hotfix 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4086059](https://support.microsoft.com/kb/4086059) |Mars 2018 |
+|Mise à jour cumulative 6 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 4074701](https://support.microsoft.com/kb/4074701)|Janvier 2018 |
+|Mise à jour cumulative 6 pour Skype entreprise Server 2015, serveur frontal et serveur Edge|[KB 4036312](https://support.microsoft.com/kb/4036312) |Décembre 2017 |
+|Mise à jour cumulative 5 pour Skype entreprise Server 2015, serveur frontal et serveur Edge  |[Article 4012621](https://support.microsoft.com/kb/4012621) |Mai 2017 |
+|Mise à jour cumulative 4 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 3207506](https://support.microsoft.com/kb/3207506) |Février 2017 |
+|Mise à jour cumulative 4 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3199093](https://support.microsoft.com/kb/3199093) |Novembre 2017 |
+|Mise à jour cumulative 3 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3149227](https://support.microsoft.com/kb/3149227) |Juin 2016 |
+|Mise à jour cumulative 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3134260](https://support.microsoft.com/kb/3134260) |Mars 2016 |
+|Mise à jour cumulative 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3097645](https://support.microsoft.com/kb/3097645) |Novembre 2015 |
+|Mise à jour cumulative de Skype Entreprise Server 2015, composants principaux |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septembre 2015 |
+|Mise à jour cumulative de Skype Entreprise Server 2015, serveur frontal et serveur Edge|[KB 3061059](https://support.microsoft.com/kb/3061059) |Juin 2015 |
+||||
 
 ### <a name="skype-for-business-server-2015-tools"></a>Outils 2015 de Skype entreprise Server
 
