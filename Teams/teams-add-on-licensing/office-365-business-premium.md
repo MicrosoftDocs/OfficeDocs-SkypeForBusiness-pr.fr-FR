@@ -18,18 +18,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat d’offres Office 365 Business Premium. '
-ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
+ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715906"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040735"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Si vous avez [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), vous pouvez utiliser Microsoft teams pour passer des appels vers d’autres personnes de votre entreprise qui font votre abonnement. Par exemple, si votre entreprise compte 10 personnes, vous pouvez utiliser les équipes pour vous appeler et vous envoyer des messages instantanés.
 
-**Pour passer et recevoir des appels de personnes extérieures à votre entreprise, vous disposez des options**suivantes:
+**Pour passer et recevoir des appels de personnes extérieures à votre entreprise, vous disposez des options**suivantes :
 
 - **Option 1**. Utilisez l' [application gratuite teams](https://products.office.com/microsoft-teams/free). S’il s’agit d’une petite entreprise (par exemple, 1-2), il est préférable d’utiliser l’application Teams. Elle est plus économique pour les appels nationaux et internationaux. Vous pouvez toujours passer des appels audio et vidéo 1:1 et de groupe et partager votre bureau pour des présentations. [Comparer les fonctions, les tarifs et les options de paiement](https://products.office.com/microsoft-teams/free).
 
@@ -39,14 +39,14 @@ Si vous avez [Office 365 Business Premium](https://products.office.com/en/busine
 
     1. [Basculer vers une autre offre Office 365 pour les entreprises](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Nous vous conseillons de considérer un forfait d’entreprise E5 pour voir s’il ne serait pas plus rentable.
 
-    2. Si vous décidez d’acheter une licence entreprise E5, celle-ci inclut une licence de système téléphonique. Si vous utilisez une licence entreprise E1 ou E3 ou un Office 365 Business Essentials ou Office 365 Business Premium licsense, vous devez acheter le module complémentaire système téléphonique.
+    2. Si vous décidez d’acheter une licence entreprise E5, celle-ci inclut une licence de système téléphonique. Si vous utilisez une licence entreprise E1 ou E3, vous devez acheter le module complémentaire système téléphonique.
     
     3. Acheter un [plan d’appel pour Office 365](../calling-plans-for-office-365.md): vous pouvez l’acheter uniquement après l’acquisition du complément de votre système téléphonique.
 
 ## <a name="how-to-see-prices-and-buy"></a>Comment connaître les prix et procéder à l’achat
 <a name="bkmk_buypremium"> </a>
 
- **Pour obtenir une audioconférence:**
+ **Pour obtenir une audioconférence :**
 
 1. Connectez-vous au centre d’administration Microsoft 365.
 
