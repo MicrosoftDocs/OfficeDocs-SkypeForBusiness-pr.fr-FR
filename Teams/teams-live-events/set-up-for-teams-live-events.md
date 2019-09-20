@@ -17,24 +17,24 @@ description: Découvrez les étapes nécessaires à la configuration des événe
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493097"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047070"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
 Lorsque vous configurez des événements en direct, vous devez suivre plusieurs étapes.
 
-## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Étape 1: configuration de votre réseau pour les événements en direct dans teams
+## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Étape 1 : configuration de votre réseau pour les événements en direct dans teams
 Les événements en direct produits dans teams vous demandent de [préparer le réseau de votre organisation aux équipes](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Étape 2 : Obtenir et attribuer des licences
 Vérifiez que vous disposez des attributions de licence appropriées pour les [personnes autorisées à créer et à planifier des événements](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) en direct et [qui peuvent regarder des événements en direct](plan-for-teams-live-events.md#who-can-watch-live-events).
 
-## <a name="step-3-set-up-live-events-policies"></a>Étape 3: configurer les stratégies d’événements dynamiques
+## <a name="step-3-set-up-live-events-policies"></a>Étape 3 : configurer les stratégies d’événements dynamiques
 Les stratégies d’événements dynamiques permettent de contrôler les utilisateurs de votre organisation qui peuvent contenir des événements en direct et les fonctionnalités disponibles dans les événements qu’ils créent. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies d’événements dynamiques personnalisés. Lorsque vous créez une stratégie personnalisée, attribuez-la à un utilisateur ou à un groupe d’utilisateurs de votre organisation.
 
 > [!NOTE]
@@ -53,7 +53,7 @@ Les stratégies d’événements dynamiques permettent de contrôler les utilisa
 
     Voici les paramètres que vous pouvez modifier pour répondre aux besoins de votre organisation.
 
-    ![Capture d’écran des paramètres de stratégie d’événements en temps réel] (../media/teams-live-events-policies.png "Capture d’écran des paramètres de stratégie d’événements en temps réel dans le centre d’administration Microsoft teams") 
+    Capture ![d’écran de l’écran des paramètres de stratégie d’événements en temps réel](../media/teams-live-events-policies.png "des paramètres de stratégie d’événements en direct dans le centre d’administration Microsoft teams") 
 
 |Paramètre  |Description  |
 |---------|---------|
@@ -76,7 +76,7 @@ Si vous avez créé une stratégie d’événements dynamiques personnalisée, a
 2. En regard de **stratégies affectées**, choisissez **modifier**. 
 3. Sélectionnez la stratégie d’événements en direct que vous voulez attribuer, puis cliquez sur **Enregistrer**. 
 
-Vous pouvez également affecter une stratégie d’événements en direct à un ou plusieurs utilisateurs comme suit:
+Vous pouvez également affecter une stratégie d’événements en direct à un ou plusieurs utilisateurs comme suit :
 
 ![Icône affichant le logo Microsoft teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
@@ -89,7 +89,7 @@ Vous pouvez également affecter une stratégie d’événements en direct à un 
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permettre aux utilisateurs de planifier des événements qui ont été produits avec une application ou un appareil externe
 
-Pour que les utilisateurs puissent planifier des événements produits avec une application ou un appareil externe, vous devez également procéder comme suit:
+Pour que les utilisateurs puissent planifier des événements produits avec une application ou un appareil externe, vous devez également procéder comme suit :
 
 1. Activez Microsoft Stream pour les utilisateurs de votre organisation. Le flux est disponible dans le cadre des abonnements Office 365 éligibles ou d’un service autonome. Le flux n’est pas inclus dans les offres Business Essentials ou Business Premium. Pour plus d’informations, voir [vue d’ensemble des licences de flux](https://docs.microsoft.com/stream/license-overview) .
 
@@ -99,7 +99,7 @@ Pour que les utilisateurs puissent planifier des événements produits avec une 
 
 3. Assurez-vous que les organisateurs d’événements en direct peuvent être envoyés à la stratégie d’entreprise définie par l’administrateur de flux. Si un administrateur de flux a [configuré une stratégie d’instructions de société](https://docs.microsoft.com/stream/company-policy-and-consent) et nécessite l’acceptation des employés de cette stratégie avant d’enregistrer le contenu, les utilisateurs doivent le faire avant de créer un événement en direct (avec une application ou un appareil externe) dans Teams. Avant de déployer la fonctionnalité événements en direct au sein de l’organisation, assurez-vous que les utilisateurs qui créeront ces événements en direct pourront être envoyés à la stratégie. 
 
-## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Étape 4: configurer une solution de distribution vidéo pour les événements en direct dans teams
+## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Étape 4 : configurer une solution de distribution vidéo pour les événements en direct dans teams
 La lecture de vidéos d’événements en direct utilise le flux de débit adaptatif (ABR), mais il s’agit d’un flux de monodiffusion, ce qui signifie que chaque visionneuse obtient son propre flux vidéo à partir d’Internet. Pour les événements en direct ou les vidéos envoyées à de grandes parties de votre organisation, il est possible qu’il y ait une quantité importante de bande passante Internet consommée par les utilisateurs. Pour les organisations qui souhaitent réduire le trafic Internet pour les événements en direct, les solutions d’événements en direct sont intégrées aux partenaires de distribution de contenu vidéo de Microsoft qui proposent des réseaux de distribution de contenu (SDNs) ou des réseaux de distribution de contenu d’entreprise (eCDNs). Ces plates-formes SDN/eCDN permettent aux organisations d’optimiser la bande passante du réseau sans sacrifier les expériences d’affichage des utilisateurs finaux. Nos partenaires peuvent vous permettre d’offrir une distribution vidéo plus évolutive et plus efficace sur votre réseau d’entreprise.
 
 **Achat et configuration de votre solution en dehors de teams** Obtenez une aide pour la mise à l’échelle de la vidéo grâce aux partenaires de distribution de vidéo approuvés par Microsoft. Avant de pouvoir configurer un fournisseur de remise vidéo pour une utilisation avec Teams, vous devez acheter et configurer la solution SDN/eCDN en dehors de teams.
@@ -108,7 +108,7 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 
 - La fonction **streaming en continu** fournit une solution simple et puissante pour une distribution vidéo professionnelle en direct et à la demande. Hive est une solution logicielle qui ne nécessite pas de matériel ou de bande passante supplémentaire et offre un moyen sécurisé d’activer des milliers de visionneuses vidéo simultanées sans impact sur votre réseau. Pour les clients qui cherchent à comprendre la vidéo d’impact sur leur réseau avant de procéder à l’achat d’une solution SDN/eCDN, la fonction de diffusion en continu de ruche fournit également une solution d’analyse basée sur le navigateur pour les clients Microsoft. [En savoir plus](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- **Kollective** est une plateforme de distribution d’homologation intelligente basée sur le Cloud qui tire parti de votre infrastructure réseau existante pour diffuser du contenu, sous différentes formes, (diffusion en continu de vidéos, vidéo à la demande, mises à jour de logiciels, correctifs de sécurité, etc.) plus rapide, plus fiabilité et réduction de la bande passante. Notre plate-forme sécurisée est digne de confiance par les plus grandes institutions financières du monde et sans aucun matériel supplémentaire, aucune configuration et maintenance n’est facile. [En savoir plus](http://www.kollective.com).
+- **Kollective** est une plateforme de distribution d’homologation intelligente basée sur le Cloud qui tire parti de votre infrastructure réseau existante pour diffuser du contenu, sous différentes formes, (diffusion en continu de vidéos, vidéo à la demande, mises à jour de logiciels, correctifs de sécurité, etc.) plus rapide, plus fiabilité et réduction de la bande passante. Notre plate-forme sécurisée est digne de confiance par les plus grandes institutions financières du monde et sans aucun matériel supplémentaire, aucune configuration et maintenance n’est facile. [En savoir plus](https://kollective.com/microsoft-pilot/).
  
 - **RAMP OmniCache** fournit une distribution réseau nouvelle génération et garantit une remise transparente du contenu vidéo sur les réseaux WAN généraux, permettant aux producteurs d’événements d’optimiser la bande passante du réseau et de prendre en charge les diffusions d’événements en direct et à la demande. transmission. La prise en charge de RAMP OmniCache pour les événements en direct produits dans teams sera bientôt prise en charge. [En savoir plus](http://www.ramp.com). 
  

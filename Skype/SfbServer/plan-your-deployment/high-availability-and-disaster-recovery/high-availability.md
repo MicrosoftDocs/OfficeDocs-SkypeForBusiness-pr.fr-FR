@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Apprenez-en davantage sur la gestion du pool frontal dans Skype entreprise Server, y compris la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec deux serveurs frontaux uniquement.
-ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221722"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047091"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  
@@ -52,7 +52,7 @@ Lors du premier démarrage d’un nouveau nouveau pool frontal, il est primordia
 |27,9  <br/> |09  <br/> |
 |midi  <br/> |0,10  <br/> |
    
-Chaque fois que le pool est démarré ultérieurement, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais qu’il est possible de démarrer le nombre de serveurs de sorte que vous n’ayez pas la perte de `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` quorum au niveau du pool), vous pouvez utiliser l’applet de cmdlet pour permettre au pool de récupérer la perte de quorum de niveau de groupe de routage et de progresser. Pour plus d’informations sur l’utilisation de cette cmdlet, <link Reset-CsPoolRegistrarState>voir.
+Chaque fois que le pool est démarré ultérieurement, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais qu’il est possible de démarrer le nombre de serveurs de sorte que vous n’ayez pas la perte de `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` quorum au niveau du pool), vous pouvez utiliser l’applet de cmdlet pour permettre au pool de récupérer la perte de quorum de niveau de groupe de routage et de progresser. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
 > Dans les pools disposant dʼun nombre égal de serveurs, Skype Entreprise Server utilise la base de données SQL principale. Dans un tel pool, si vous arrêtez la base de donnée principale, basculez vers la copie miroir et arrêtez suffisamment de serveurs frontaux de sorte quʼun nombre insuffisant de serveurs soient exécutés conformément au tableau précédent, le pool entier s’arrête. Pour plus d’informations, voir [témoin de mise en miroir de base de données](https://go.microsoft.com/fwlink/?LinkId=393672). 
@@ -70,7 +70,7 @@ Pour qu’un pool frontal puisse fonctionner, il ne peut pas être dans la perte
 |8-9  <br/> |4 (n’importe lesquels parmi les 7 premiers serveurs)  <br/> |
 |10-12  <br/> |5 (n’importe lesquels parmi les 9 premiers serveurs)  <br/> |
    
-Dans le tableau ci-dessus, le «premier serveur» est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l' `Get-CsComputer` applet de commande `-PoolFqdn` avec l’option. Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
+Dans le tableau ci-dessus, le « premier serveur » est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l' `Get-CsComputer` applet de commande `-PoolFqdn` avec l’option. Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Étapes supplémentaires pour vérifier que les pools sont opérationnels
 
@@ -84,7 +84,7 @@ Vous devez prêter attention à deux autres facteurs pour vous assurer que vos p
 
 Nous déconseillons le déploiement d’un pool frontal qui ne contient que deux serveurs frontaux. En effet, ce petit pool ne fournit pas une solution fiable à haute disponibilité comme le ferait un pool plus grand et il nécessite une gestion plus précautionneuse. De plus, si le serveur principal d’un pool de deux serveurs s’est arrêté, le pool entier lui-même risque de descendre bientôt. Si vous voulez déployer seulement un ou deux serveurs exécutant Skype entreprise Server, nous vous conseillons de les déployer en tant que serveurs Standard Edition Server.
   
-Si vous n’avez jamais besoin de déployer un pool avec deux serveurs frontaux, suivez les recommandations suivantes:
+Si vous n’avez jamais besoin de déployer un pool avec deux serveurs frontaux, suivez les recommandations suivantes :
   
 - Si l’un des deux serveurs frontaux est en panne, vous devez essayer de remettre le serveur en panne dès que vous le pouvez. De même, si vous devez mettre à niveau l’un de ces serveurs, remettez-le en ligne dès la fin de la mise à niveau.
     
@@ -94,7 +94,7 @@ Si vous n’avez jamais besoin de déployer un pool avec deux serveurs frontaux,
     
   - Si les deux serveurs ne peuvent pas être redémarrés en même temps, vous devez les rétablir dans l’ordre inverse de leurs arrêts.
     
-  - Si vous ne pouvez pas les remettre dans l’ordre, utilisez l’applet de commande suivante avant de remettre le pool à nouveau:`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>`
+  - Si vous ne pouvez pas les remettre dans l’ordre, utilisez l’applet de commande suivante avant de remettre le pool à nouveau :`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>`
     
 ## <a name="front-end-pool-configuration-failures-and-changes"></a>Défaillances et modifications de la configuration du pool frontal
 
@@ -104,6 +104,6 @@ Lorsque vous modifiez la configuration dʼun pool frontal, comme en cas d’ajou
   
 - Après avoir publié la nouvelle topologie, vous devez redémarrer chaque serveur dans le pool. Redémarrez-les un par autre.
     
-- Si le pool entier est arrêté lors de la modification de la configuration, exécutez l’applet de commande suivante une fois la nouvelle topologie publiée:`Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
+- Si le pool entier est arrêté lors de la modification de la configuration, exécutez l’applet de commande suivante une fois la nouvelle topologie publiée :`Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
     
 
