@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790831"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047039"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -155,6 +155,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |Un lien symbolique ou le mappage d’un lecteur sur C:\utilisateurs lance l’application sur un écran blanc  <br/> |Si l’emplacement par défaut de `C:\users\<user>\appData` est modifié en déplaçant le dossier `C:\users` ou en utilisant un lien symbolique, l’application se lance avec un écran blanc.   <br/> |Il n’existe pas de solution de contournement. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.   <br/> |13/03/2017  <br/> |
 
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|La présence dans une application Office ne s’affiche pas une fois qu’un utilisateur a été déplacé vers l’expérience Teams uniquement. <br/> |Lorsqu’un utilisateur est déplacé vers l’expérience Teams uniquement et que le client Skype Entreprise est désinstallé, la présence cesse de fonctionner.  <br/> |Pour que la présence soit disponible dans Outlook, Skype Entreprise doit être inclus dans le déploiement d’Office, même si vous n’avez l’intention d’utiliser que Microsoft Teams.  Le travail est prévu pour la suppression de la dépendance Skype Entreprise mais n’est pas actuellement sur le planning.     <br/> |9/2019  <br/> |
+
 ## <a name="environment"></a>Environnement
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -225,7 +229,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Service de compte de ressource mal configuré <br/> | Les comptes de ressource sur site associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l'échec de la création du compte de ressource dans le centre d'administration Teams. Dans ce cas, vous devez configurer le nom du service dans Active Directory sur site avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department « Instance d’application de communication Microsoft » <br/> Consultez également la mise à jour du service de surveillance automatique et de files d’attente des appels](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |8/5/19 <br/> |
+|Service de compte de ressource mal configuré <br/> | Les comptes de ressource sur site associés à un standard automatique ou à une file d’attente d’appels créée avant le mois de janvier 2019 risquent de ne pas avoir le paramètre Department correctement défini, ce qui peut entraîner l’échec d’une affectation de numéro de téléphone. Un correctif est en cours pour résoudre ce problème. <br/><br/> Le paramètre Department (service) des comptes de ressources configurés à l’aide de New-CsHybridApplicationEndpoint avec Skype Entreprise Server n’est pas correctement configuré, ce qui entraîne l'échec de la création du compte de ressource dans le centre d'administration Teams. Dans ce cas, vous devez configurer le nom du service dans Active Directory sur site avant de le synchroniser en ligne.|Pour résoudre ce problème, vous pouvez exécuter la cmdlet suivante afin de définir le paramètre Department. Set-MsolUser -ObjectId <Resource Account Object ID> -Department « Instance d’application de communication Microsoft » <br/> Consultez également la [mise à jour du service de surveillance automatique et de files d’attente des appels](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |8/5/19 <br/> |
 
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
