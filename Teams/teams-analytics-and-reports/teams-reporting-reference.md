@@ -16,12 +16,12 @@ ms.collection:
 description: En savoir plus sur les rapports d’équipes disponibles dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29675485d9a23b184641e8fa855fe2d87b4b80ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234742"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131573"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -46,6 +46,9 @@ Nous cherchons constamment à améliorer l’efficacité de création de rapport
 |[Rapport d’activité d’utilisateur Teams](user-activity-report.md)  |  1:1 appelle un utilisateur ayant participé à la Conférence<br/>Messages qu’un utilisateur a publié dans une conversation d’équipe<br/>Messages qu’un utilisateur a publié dans une conversation privée<br/>Dernière date d’activité d’un utilisateur     |
 |[Rapport d’utilisation Teams sur des périphériques](device-usage-report.md)   |  Utilisateurs de Windows<br/>Utilisateurs de Mac<br/>utilisateurs d’iOS<br/>Utilisateurs du téléphone Android     |
 |[Rapport sur l’utilisation des événements en direct teams](teams-live-event-usage-report.md)   |  Nombre total d’affichages<br>Heure de début<br>État de l’événement<br>Organisateur<br>Présentateur<br>Productrice<br>Paramètre d’enregistrement<br>Type de production    |
+|[Rapport sur les utilisateurs bloqués RTC](pstn-blocked-users-report.md)   |  Nom d’affichage<br>Numéro de téléphone<br>Raison<br>Type d’action<br>Date et heure de l’action   |
+|[Rapports d’utilisation RTC de teams-plans d’appel](pstn-usage-report.md#calling-plans)|  Date et heure<br>Nom d'utilisateur<br>Numéro de téléphone<br>Type d’appel <br>Appelée pour<br>Vers le pays ou la région <br>Appel de <br>Pays ou région<br>Frais<br>Devise<br>Durée<br>National/international<br>ID d’appel<br>Type de numéro<br>Pays ou région<br>ID de conférence<br>Capability (licence)|
+|[Rapport sur l’utilisation RTC d’équipes-routage direct](pstn-usage-report.md#direct-routing)  |  Date et heure<br>Nom d’affichage<br>Adresse SIP<br>Numéro de téléphone <br>Type d’appel<br>Appelée pour<br>Heure de début<br>Heure d’invitation<br>Temps d’échec<br>Heure de fin<br>Durée<br>Type de numéro<br>Contournement de média<br>NOM DE DOMAINE COMPLET SBC<br>Région Azure<br>Type d’événement<br>Code SIP final<br>Sous-code final de Microsoft<br>Phrase SIP finale<br>ID Coorelation  |
 
 > [!NOTE]
 > Le rapport équipes affiche les données des utilisateurs actifs et des équipes actives. Par exemple, si un utilisateur de votre organisation n’est pas actif dans teams au cours de la période que vous avez spécifiée pour un rapport, les données de cet utilisateur ne sont pas incluses dans ce rapport.

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer un contrôleur de bordure de session (SBC) pour servir plusieurs clients.
-ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645310"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131646"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -29,7 +29,7 @@ Le routage direct prend en charge la configuration d’un contrôleur de bordure
 > [!NOTE]
 > Ce scénario est destiné aux partenaires Microsoft et/ou aux opérateurs RTC, désignés sous le nom de opérateurs plus loin dans ce document. Un opérateur vend aux utilisateurs de services de téléphonie remis à Microsoft Teams. 
 
-Opérateur:
+Opérateur :
 - Déploie et gère une SBC sur son centre de donnes (les clients n’ont pas besoin d’implémenter de SBC et ils reçoivent les services de téléphonie de l’opérateur dans le client Teams).
 - Interconnecte l’SBC à plusieurs clients.
 - Fournit des services RTC aux clients.
@@ -40,12 +40,12 @@ Microsoft ne gère pas les opérateurs. Microsoft propose un système PBX (Micro
 
 Vous trouverez ci-après les étapes d’implémentation techniques de la configuration du scénario.
 
-**Opérateur uniquement:**
+**Opérateur uniquement :**
 1. Déployez le SBC et configurez-le pour le scénario d’hébergement conformément aux [instructions des fournisseurs de SBC certifiés](#deploy-and-configure-the-sbc).
 2. Enregistrez un nom de domaine de base dans le client de l’opérateur et demandez un certificat générique.
 3. Enregistrez un sous-domaine pour chaque client, qui fait partie du domaine de base.
 
-**Opérateur avec un administrateur global du client:**
+**Opérateur avec un administrateur global du client :**
 1. Ajoutez le nom de sous-domaine au locataire du client.
 2. Activez le nom de sous-domaine.
 3. Configurez le Trunk du transporteur sur le locataire du client et approvisionnez les utilisateurs.
@@ -56,21 +56,21 @@ Vous trouverez ci-après les étapes d’implémentation techniques de la config
 
 Pour plus d’informations sur le déploiement et la configuration de SBCs pour un scénario d’hébergement SBC, consultez la documentation du fournisseur de SBC.
 
-- **AudioCodes:** [Remarques sur la configuration du routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration du scénario d’hébergement SBC décrit dans «connexion de AudioCodes SBC à la configuration de modèle d’hébergement de Microsoft teams 
-- **Oracle:** [Remarques sur la configuration du routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section «Microsoft». 
-- **Communications du ruban:**  Reportez-vous au [Guide de configuration de Microsoft teams SBC principal du ruban](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour obtenir une documentation sur la configuration de la série de cœurs du ruban SBCS et sur cette page. [ Bordure](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
-- **Te-systèmes (anynode):**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
+- **AudioCodes :** [Remarques sur la configuration du routage direct](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuration du scénario d’hébergement SBC décrit dans «connexion de AudioCodes SBC à la configuration de modèle d’hébergement de Microsoft teams 
+- **Oracle :** [Remarques sur la configuration du routage direct](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuration du scénario d’hébergement SBC est décrite dans la section « Microsoft ». 
+- **Communications du ruban :**  Reportez-vous au [Guide de configuration de Microsoft teams SBC principal du ruban](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) pour obtenir une documentation sur la configuration de la série de cœurs du ruban SBCS et sur cette page. [ Bordure](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Te-systèmes (anynode) :**  Inscrivez-vous sur la page de la [communauté te-systèmes](https://community.te-systems.de/) pour obtenir de la documentation et des exemples sur la configuration de anynode SBC pour plusieurs clients.
 
 > [!NOTE]
-> Veuillez nous concentrer sur la configuration de l’en-tête «contact». L’en-tête contact permet de rechercher le locataire du client dans le message d’invitation entrant. 
+> Veuillez nous concentrer sur la configuration de l’en-tête « contact ». L’en-tête contact permet de rechercher le locataire du client dans le message d’invitation entrant. 
 
 ## <a name="register-a-base-domain-and-subdomains"></a>Inscrire un domaine de base et des sous-domaines
 
-Pour le scénario d’hébergement, vous devez créer:
+Pour le scénario d’hébergement, vous devez créer :
 - Un nom de domaine de base possédé par l’opérateur.
 - Sous-domaine qui fait partie du nom de domaine de base dans chaque client de client.
 
-Dans l’exemple suivant:
+Dans l’exemple suivant :
 - Adatum est un opérateur qui dessert plusieurs clients en fournissant des services Internet et de téléphonie.
 - Woodgrove Bank, contoso et Adventure Works sont trois clients possédant des domaines Office 365, mais ils reçoivent les services de téléphonie de adatum.
 
@@ -138,9 +138,9 @@ Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant a
 
 *Pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
-Par exemple: test@customers.adatum.biz
+Par exemple : test@customers.adatum.biz
 
-![Capture d’écran de la page d’activation de domaine de base](media/direct-routing-4-sbc-domain-activation.png)
+![Capture d’écran de la page d’activation du domaine de base](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Inscrire un nom de sous-domaine dans un client client
 
@@ -200,7 +200,7 @@ Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant a
 
 *Pour plus d’informations sur l’ajout d’utilisateurs dans les clients Office 365, voir [obtenir de l’aide sur les domaines office 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
-Par exemple: test@sbc1.customers.adatum.biz
+Par exemple : test@sbc1.customers.adatum.biz
 
 ![Capture d’écran de l’activation de la page de sous-domaine](media/direct-routing-13-sbc-activate-subdomain.png)
 
@@ -208,7 +208,7 @@ Par exemple: test@sbc1.customers.adatum.biz
 
 Avec la version initiale du routage direct, Microsoft a demandé qu’un Trunk soit ajouté à chaque client desservi (client) à l’aide de New-CSOnlinePSTNGateway.
 
-Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes:
+Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes :
  
 - **Gestion des frais d’administration**. Par exemple, si vous déchargez ou déchargez un SBC, vous modifiez des paramètres, par exemple, en activant ou en désactivant la dérivation multimédia. Le changement de port nécessite la modification des paramètres de plusieurs clients (en exécutant Set-CSOnlinePSTNGateway), mais il est en fait le même SBC. 
 
@@ -217,7 +217,7 @@ Toutefois, cela ne s’est pas avéré optimal pour les deux raisons suivantes:
 
 En fonction de ces commentaires, Microsoft s’est associé à une nouvelle logique de mise en service des Trunks pour les clients de clients.
 
-Deux nouvelles entités ont été introduites:
+Deux nouvelles entités ont été introduites :
 -   Un Trunk de transporteur enregistré dans le client de l’opérateur à l’aide de la commande New-CSOnlinePSTNGateway, par exemple New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
 
 -   Trunk dérivé, qui ne nécessite pas d’inscription. Il s’agit simplement d’un nom d’hôte souhaité ajouté à partir du Trunk du transporteur. Il dérive de tous ses paramètres de configuration du Trunk de l’opérateur. Le Trunk dérivé ne doit pas nécessairement être créé dans PowerShell et l’association avec le Trunk de transporteur est basée sur le nom de domaine complet (voir les détails ci-dessous).
@@ -227,8 +227,9 @@ Deux nouvelles entités ont été introduites:
 -   Les opérateurs doivent uniquement configurer et gérer un seul Trunk (opérateur Trunk dans le domaine de l’opérateur), à l’aide de la commande Set-CSOnlinePSTNGateway. Dans l’exemple ci-dessus, il s’agit de adatum.biz.
 -   Dans le client client, l’opérateur doit uniquement ajouter le nom de domaine complet du Trunk dérivé aux stratégies de routage vocal des utilisateurs. Il n’est pas nécessaire d’exécuter New-CSOnlinePSTNGateway pour un Trunk.
 -    Le Trunk dérivé, tel que le nom l’indique, hérite de tous les paramètres de configuration de l’opérateur Trunk. Donnés
--   Customers.adatum.biz: le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
--   Sbc1.customers.adatum.biz: Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
+-   Customers.adatum.biz : le Trunk du transporteur qui doit être créé dans le client de l’opérateur.
+-   Sbc1.customers.adatum.biz : Trunk dérivé dans un client client qui n’a pas besoin d’être créé dans PowerShell.  Vous pouvez simplement ajouter le nom du Trunk dérivé dans le client de client dans la stratégie de routage de la voix en ligne sans le créer.
+-   L’opérateur doit configurer l’enregistrement DNS pour la résolution de nom de domaine complet du Trunk dérivé sur l’adresse IP de l’SBC.
 
 -   Les modifications apportées sur un Trunk de transporteur (sur le locataire du transporteur) s’appliquent automatiquement aux troncages dérivés. Par exemple, les opérateurs peuvent modifier un port SIP sur le Trunk du transporteur, et cette modification s’applique à tous les Trunks dérivés. La nouvelle logique de configuration des Trunks simplifie la gestion, car vous n’avez pas besoin d’accéder à chaque client et de changer le paramètre sur chaque Trunk.
 -   Les options ne sont envoyées qu’au nom de domaine complet du Trunk du transporteur. L’état d’intégrité du Trunk de transporteur est appliqué à toutes les Trunks dérivées et est utilisé pour les décisions de routage. En savoir plus sur les [options de routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).

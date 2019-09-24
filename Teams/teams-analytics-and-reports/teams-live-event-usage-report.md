@@ -15,20 +15,20 @@ ms.collection:
 description: Découvrez comment utiliser le rapport d’utilisation du centre d’administration Microsoft teams dans le centre d’administration Microsoft teams pour avoir une vue d’ensemble des activités d’événements en direct au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667059"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131613"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Rapport sur l’utilisation des événements Microsoft teams Live
 
-Le rapport utilisation des événements en direct dans le centre d’administration Microsoft teams vous montre la vue d’ensemble des activités liées aux événements en direct au sein de votre organisation. Vous pouvez afficher les informations d’utilisation, telles que l’état de l’événement, l’heure de début, les affichages et le type de production pour chaque événement. Vous pouvez découvrir les tendances d’utilisation et savoir qui dans votre organisation planifie, présente et génère des événements en direct. 
+Le rapport utilisation des événements en direct dans le centre d’administration Microsoft teams vous montre la vue d’ensemble des activités liées aux événements en direct au sein de votre organisation. Vous pouvez afficher les informations d’utilisation, telles que l’état de l’événement, l’heure de début, les affichages et le type de production pour chaque événement. Vous pouvez découvrir les tendances d’utilisation et savoir qui dans votre organisation planifie, présente et génère des événements en direct.
 
 ## <a name="view-the-report"></a>Afficher le rapport
 
-1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse & rapports**, puis sous **rapport**, sélectionnez **utilisation des événements en direct**par Teams.
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez utilisation des **événements en direct teams**.
 2. Sous **plage de dates**, sélectionnez une plage prédéfinie ou définissez une plage personnalisée. Vous pouvez définir une plage pour afficher les données jusqu’à une année, six mois avant et après la date du jour.
 3. Facultatif Sous **organisateur**, vous pouvez choisir d’afficher uniquement les événements dynamiques organisés par un utilisateur spécifique.
 4. Cliquez sur **exécuter un rapport**.  
@@ -42,7 +42,7 @@ Le rapport utilisation des événements en direct dans le centre d’administrat
 |**1**   |Le rapport sur les événements en direct teams peut être consulté pour les tendances au cours des 7, 28 ou une plage de dates personnalisée que vous définissez. |
 |**2**   |Date de génération de chaque rapport. Le rapport reflète une activité en temps réel lors de l’actualisation de la page. |
 |**3**   |<ul><li>L’axe X représente la plage de dates sélectionnée pour ce rapport.</li> <li> L’axe Y représente le nombre total de vues.</li> </ul>Pointez sur le point d’une date donnée pour afficher le nombre d’affichages de tous les événements en direct à cette date.|
-|**4**   |Le tableau fournit une répartition de chaque événement en direct. <ul><li>**Événement** est le nom d’affichage de l’événement en direct. Cliquez sur le nom de l’événement pour [obtenir plus d’informations](#view-event-details) sur l’événement. </li> <li>**Heure de début** fait référence à la date et l’heure de début de l’événement.</li> <li>**État** de l’événement indique si l’événement a eu lieu.  </li><li>**Organizer** est le nom de l’organisateur d’événements.</li> <li>**** Les présentateurs sont les noms des présentateurs d’événements.</li><li>Les **producteurs** sont les noms des producteurs d’événements.</li><li>**Affichages** indique le nombre d’affichages uniques.</li><li>L' **enregistrement** indique si le paramètre d’enregistrement est activé ou désactivé.</li><li>**Type de production** indique si l’événement se produit dans teams ou par un appareil ou une application externe.</li></li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur est affiché en tant que «--» dans la table. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**4**   |Le tableau fournit une répartition de chaque événement en direct. <ul><li>**Événement** est le nom d’affichage de l’événement en direct. Cliquez sur le nom de l’événement pour [obtenir plus d’informations](#view-event-details) sur l’événement. </li> <li>**Heure de début** fait référence à la date et l’heure de début de l’événement.</li> <li>**État** de l’événement indique si l’événement a eu lieu.  </li><li>**Organizer** est le nom de l’organisateur d’événements.</li> <li>Les **présentateurs** sont les noms des présentateurs d’événements.</li><li>Les **producteurs** sont les noms des producteurs d’événements.</li><li>**Affichages** indique le nombre d’affichages uniques.</li><li>L' **enregistrement** indique si le paramètre d’enregistrement est activé ou désactivé.</li><li>**Type de production** indique si l’événement se produit dans teams ou par un appareil ou une application externe.</li></li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur est affiché en tant que « -- » dans la table. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 
 ## <a name="view-event-details"></a>Afficher les détails des événements
