@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047039"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062890"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -155,10 +155,6 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |Un lien symbolique ou le mappage d’un lecteur sur C:\utilisateurs lance l’application sur un écran blanc  <br/> |Si l’emplacement par défaut de `C:\users\<user>\appData` est modifié en déplaçant le dossier `C:\users` ou en utilisant un lien symbolique, l’application se lance avec un écran blanc.   <br/> |Il n’existe pas de solution de contournement. Si le mappage doit exister, vous devez utiliser la version web de Microsoft Teams.   <br/> |13/03/2017  <br/> |
 
-|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
-|:-----|:-----|:-----|:-----|
-|La présence dans une application Office ne s’affiche pas une fois qu’un utilisateur a été déplacé vers l’expérience Teams uniquement. <br/> |Lorsqu’un utilisateur est déplacé vers l’expérience Teams uniquement et que le client Skype Entreprise est désinstallé, la présence cesse de fonctionner.  <br/> |Pour que la présence soit disponible dans Outlook, Skype Entreprise doit être inclus dans le déploiement d’Office, même si vous n’avez l’intention d’utiliser que Microsoft Teams.  Le travail est prévu pour la suppression de la dépendance Skype Entreprise mais n’est pas actuellement sur le planning.     <br/> |9/2019  <br/> |
-
 ## <a name="environment"></a>Environnement
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
@@ -253,6 +249,12 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Impossible de configurer le transfert des appels sans réponse à la messagerie vocale dans l’application de bureau|Lorsqu’un utilisateur est en mode Teams uniquement, sa boîte aux lettres Exchange est locale et s’il accède à **Paramètres** > **Appels** dans l’application de bureau Teams, il ne peut pas sélectionner l’option de transfert des appels vers la messagerie vocale (pour les appels sans réponse ou tous les appels). Si l’une ou l’autre option était déjà configurée, l’ouverture de l’onglet Appels dans Paramètres désactivera le transfert vers la messagerie vocale.|Configurez le transfert vers la messagerie vocale à l’aide de l’application mobile Teams.|27/05/2019|
+
+## <a name="presence"></a>Présence
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|La présence dans Outlook et d'autres applications Office ne s'affiche pas après qu'un utilisateur a été déplacé en mode **Teams uniquement**. <br/> |Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams.  <br/> |Pour voir la présence dans Outlook (et les autres applications Office), Skype Entreprise doit être installé, même si vous exécutez Teams en mode **Teams uniquement**. Microsoft est courant du problème et travaille activement au développement d’un correctif.  <br/> |9/2019  <br/> |
+
 
 
 ## <a name="provisioning"></a>Mise en service
