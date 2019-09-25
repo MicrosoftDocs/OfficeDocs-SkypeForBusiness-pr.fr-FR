@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774566"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142065"
 ---
 # <a name="content-cameras"></a>Webcams de contenu
 
@@ -97,3 +97,7 @@ Vous pouvez également ajuster ces paramètres à distance à l’aide d’un [f
 [Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md)
 
 [Configuration requise pour Microsoft teams](requirements.md)
+
+> [!NOTE]
+> Certains appareils Microsoft teams salle disposant de consoles Microsoft surface Pro (par exemple, Logitech Smartdock et Crestron SR) ne prennent pas encore en charge la caméra de contenu. La prise en charge de ces appareils sera ajoutée plus tard dans CY2019. 
+>

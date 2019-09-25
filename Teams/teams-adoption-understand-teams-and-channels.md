@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240770"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142055"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
@@ -32,7 +32,7 @@ Les concepts d’équipes et de canaux sont fondamentaux pour une implémentatio
 
 - Les canaux sont les espaces de collaboration au sein d’une équipe dans laquelle le travail réel est réalisé. 
 
-Pour en savoir plus sur les équipes et les canaux, voir [vue d’ensemble des équipes et des canaux dans Microsoft teams](teams-channels-overview.md). Pour des instructions d’adoption complètes des équipes, consultez le [Guide d’adoption](https:aka.ms/teamstoolkit)de teams. Pour en savoir plus sur les équipes et les groupes 365, voir [groupes office 365 et Microsoft teams](office-365-groups.md) et [en savoir plus sur les groupes Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Pour en savoir plus sur les équipes et les canaux, voir [vue d’ensemble des équipes et des canaux dans Microsoft teams](teams-channels-overview.md). Pour des instructions d’adoption complètes des équipes, consultez le [Guide d’adoption de teams](https://aka.ms/teamstoolkit). Pour en savoir plus sur les équipes et les groupes 365, voir [groupes office 365 et Microsoft teams](office-365-groups.md) et [en savoir plus sur les groupes Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
@@ -41,7 +41,7 @@ Pour en savoir plus sur les équipes et les canaux, voir [vue d’ensemble des �
 
 
 
-Les types d’accès aux équipes déterminent qui peut rejoindre une équipe:
+Les types d’accès aux équipes déterminent qui peut rejoindre une équipe :
 
 - Les équipes *privées* sont restreintes aux membres de l’équipe approuvés par le ou les propriétaire(s) de celle-ci. Il s’agit du paramètre le plus courant pour les équipes de projet et les équipes virtuelles dans une grande organisation.
 

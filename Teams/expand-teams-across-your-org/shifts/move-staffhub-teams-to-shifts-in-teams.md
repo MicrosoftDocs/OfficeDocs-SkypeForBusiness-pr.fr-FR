@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233282"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142044"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams
 
@@ -27,7 +27,7 @@ ms.locfileid: "36233282"
 
 L’application Shifts dans teams fournit une méthode simple pour gérer les plannings et le flux constant de permutations et d’annulations de Shift qui se produisent quotidiennement. Les membres d’une équipe peuvent accéder à leur planning et leur transférer directement dans l’application et sur leurs appareils pour définir leurs préférences, gérer leur planning et demander un congé.
 
-Cet article vous explique comment déplacer les équipes StaffHub de votre organisation et planifier vos données en vue de leur déplacement dans Teams. Ce service comprend les éléments suivants:
+Cet article vous explique comment déplacer les équipes StaffHub de votre organisation et planifier vos données en vue de leur déplacement dans Teams. Ce service comprend les éléments suivants :
 
 - [Ce que vous devez savoir sur le déplacement dans teams](#what-you-need-to-know-about-the-move-to-teams)
 - [Prévenir](#prepare)
@@ -68,7 +68,7 @@ Voici comment préparer le déplacement vers Teams.
 
 ### <a name="check-that-prerequisites-are-met"></a>Vérifier que les conditions préalables sont remplies
 
-Avant de déplacer une équipe StaffHub vers Teams, assurez-vous que:
+Avant de déplacer une équipe StaffHub vers Teams, assurez-vous que :
 
 - L’utilisateur connecté est un administrateur global.
 - Équipes est activée pour tous les utilisateurs du client.
@@ -86,15 +86,17 @@ Chaque utilisateur doit avoir une licence Microsoft 365 ou Office 365 active d' 
 Pour gérer les licences d’équipe, vous devez utiliser le centre d’administration 365 Microsoft. Pour en savoir plus, voir [gérer l’accès des utilisateurs aux équipes](../../user-access.md).
 
 > [!NOTE]
-> Si votre organisation utilise Skype entreprise et que vous n’êtes pas prêt à déplacer tous vos utilisateurs vers Teams, vous pouvez activer les équipes pour vos travailleurs terrain qui peuvent alors exécuter des équipes en même temps que Skype entreprise. Dans ce mode de coexistence, ** intitulé îlots, chaque application cliente fonctionne en tant que solution distincte. Pour en savoir plus, reportez-vous à la rubrique [Présentation des équipes et coexistence et interopérabilité de Skype entreprise](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+> Si votre organisation utilise Skype entreprise et que vous n’êtes pas prêt à déplacer tous vos utilisateurs vers Teams, vous pouvez activer les équipes pour vos travailleurs terrain qui peuvent alors exécuter des équipes en même temps que Skype entreprise. Dans ce mode de coexistence, intitulé *îlots*, chaque application cliente fonctionne en tant que solution distincte. Pour en savoir plus, reportez-vous à la rubrique [Présentation des équipes et coexistence et interopérabilité de Skype entreprise](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="install-the-staffhub-powershell-module"></a>Installer le module PowerShell Microsoft StaffHub
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>Installez la version préliminaire du module PowerShell StaffHub
 
-Si ce n’est déjà fait, [Installez le module StaffHub PowerShell](install-the-staffhub-powershell-module.md). 
+Si ce n’est déjà fait, [Installez la version préliminaire du module PowerShell StaffHub](install-the-staffhub-powershell-module.md). 
+
+Vous devez avoir installé la version préliminaire du module pour déplacer vos équipes StaffHub vers Teams.
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>Créer un lien vers un compte Azure AD pour les membres de l’équipe StaffHub qui n’en ont pas
 
-Chaque membre de l’équipe StaffHub doit être lié à un compte Azure Active Directory (Azure AD). Les utilisateurs de votre organisation ne seront pas associés à un compte Azure AD si l’un des scénarios suivants s’appliquent:
+Chaque membre de l’équipe StaffHub doit être lié à un compte Azure Active Directory (Azure AD). Les utilisateurs de votre organisation ne seront pas associés à un compte Azure AD si l’un des scénarios suivants s’appliquent :
 
 - Un propriétaire d’équipe a ajouté un utilisateur qui ne possède pas de compte Azure AD.
 - Un propriétaire d’équipe a invité un utilisateur à une équipe StaffHub et ce dernier n’a pas accepté l’invitation.
@@ -132,11 +134,11 @@ Pour plus d’informations sur l’affectation de la stratégie de configuration
 
 Nous vous recommandons de terminer cette étape au moins une semaine avant de déplacer vos équipes et utilisateurs StaffHub vers Teams. Lorsque les utilisateurs sont sur Teams, assurez-vous qu’ils peuvent afficher l’application Shifts et y accéder.
 
-Vous pouvez également créer des stratégies de configuration d’applications personnalisées et modifier les paramètres de la stratégie de configuration de l’application globale. Pour en savoir plus, consultez [gérer les stratégies de configuration des applications dans](../../teams-app-setup-policies.md)Microsoft Teams.
+Vous pouvez également créer des stratégies de configuration d’applications personnalisées et modifier les paramètres de la stratégie de configuration de l’application globale. Pour en savoir plus, consultez [gérer les stratégies de configuration des applications dans Microsoft teams](../../teams-app-setup-policies.md).
 
 ### <a name="onboard-users-to-teams"></a>Utilisateurs intégrés à teams
 
-Dans le cadre de votre stratégie d’intégration, vous pouvez fournir des formations et des conseils pour permettre aux utilisateurs de se familiariser avec Teams. Partagez les ressources suivantes avec des utilisateurs afin qu’ils sachent où sont les clients Teams, la formation et l’assistance technique:
+Dans le cadre de votre stratégie d’intégration, vous pouvez fournir des formations et des conseils pour permettre aux utilisateurs de se familiariser avec Teams. Partagez les ressources suivantes avec des utilisateurs afin qu’ils sachent où sont les clients Teams, la formation et l’assistance technique :
 
 - [Client Web Teams](https://teams.microsoft.com)
 - [Liens de téléchargement du client de bureau et mobile](https://teams.microsoft.com/downloads)
@@ -157,7 +159,7 @@ Contactez-vous pour identifier deux ou trois équipes pilote. Tous les membres d
 
 Identifiez des champions au sein des équipes pilote et inscrivez-les pour favoriser la sensibilisation des équipes. Les champions d’équipe ont une passion quant à leur fonction, en partageant leurs propres formations afin de fournir une assistance et des recommandations aux membres de l’équipe. Les champions d’équipe peuvent être propriétaires d’équipes ou dirigeants.
 
-Les champions doivent s’assurer que les membres de l’équipe sont configurés en consacrant du temps à tous [les](../../get-clients.md)utilisateurs, à se connecter à teams et à consulter leur planning par équipes, et à discuter avec eux. Les utilisateurs qui connaissent déjà StaffHub seront rapidement opérationnels en équipe. Vous pouvez également les désigner pour [](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) une aide supplémentaire.
+Les champions doivent s’assurer que les membres de l’équipe sont configurés en consacrant du temps à tous [les](../../get-clients.md)utilisateurs, à se connecter à teams et à consulter leur planning par équipes, et à discuter avec eux. Les utilisateurs qui connaissent déjà StaffHub seront rapidement opérationnels en équipe. Vous pouvez également les [désigner pour une aide supplémentaire](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) .
 
 ### <a name="move-a-staffhub-team"></a>Déplacer une équipe StaffHub
 
@@ -254,7 +256,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 Voici un exemple de réponse.
 
-Dans le cas d’une équipe qui a déjà été déplacée vers teams ou qui existe déjà dans Teams, le jobId sera «nul», car il n’est pas nécessaire de soumettre une demande de transfert à cette équipe.
+Dans le cas d’une équipe qui a déjà été déplacée vers teams ou qui existe déjà dans Teams, le jobId sera « nul », car il n’est pas nécessaire de soumettre une demande de transfert à cette équipe.
 
 ```
     jobId                                      teamId                                      teamAlreadyInMicrosofteams  
@@ -304,13 +306,13 @@ Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-**Lorsque vous tentez de déplacer les fichiers de StaffHub vers Teams, vous recevez un message d’erreur «autorisation refusée».**
+**Lorsque vous tentez de déplacer les fichiers de StaffHub vers Teams, vous recevez un message d’erreur « autorisation refusée ».**
 
 Cela risque de se produire si vous essayez de déplacer des fichiers dans un groupe Office 365 privé dont vous n’êtes pas membre. Si tel est le cas, utilisez l’applet de demande [AddStaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember) pour vous ajouter à l’équipe StaffHub, puis déplacer les fichiers. Après avoir déplacé les fichiers, utilisez l’applet de passe [Remove-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/remove-staffhubmember) pour vous supprimer de l’équipe. 
 
 **Lorsque vous tentez de déplacer les fichiers de StaffHub vers Teams, un message d’erreur indiquant que le dossier général n’existe pas s’affiche.**
 
-Exécutez la commande suivante pour ajouter le dossier général à SharePoint, puis réessayez:
+Exécutez la commande suivante pour ajouter le dossier général à SharePoint, puis réessayez :
 
   ```
   Add-PnPFolder -Name General -Folder 'Shared Documents'
