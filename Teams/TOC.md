@@ -82,8 +82,10 @@
 ### Analyses et rapports dans le Centre d’administration Teams 
 #### [Vue d’ensemble](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Rapport d’utilisation Teams](teams-analytics-and-reports/teams-usage-report.md)
-#### [Rapport d’activité d’utilisateur Teams](teams-analytics-and-reports/user-activity-report.md) 
+#### [Rapport d’activité d’utilisateur Teams](teams-analytics-and-reports/user-activity-report.md)
 #### [Rapport d’utilisation Teams sur des périphériques](teams-analytics-and-reports/device-usage-report.md)
+#### [Rapport sur les utilisateurs bloqués du réseau téléphonique commuté](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Rapport d'utilisation du réseau téléphonique commuté](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Rapport d’utilisation des événements en direct Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Rapports d’activité Teams dans le Centre d’administration Microsoft 365](teams-activity-reports.md)
 
@@ -780,6 +782,7 @@
 ### [Vérifier la préparation de votre environnement pour Teams](environment-readiness.md)
 ### [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 ### [Utiliser le Planificateur de réseau pour Teams](network-planner.md)
+### [Procédure de présentation du Planificateur de réseau](tutorial-network-planner-example.yml)
 ### [Serveurs proxy pour Skype Entreprise Online et Teams](proxy-servers-for-skype-for-business-online.md)
 ### [Spécifications et limites de Teams](limits-specifications-teams.md)
 ### [Planifier les groupes Office 365 lors de la création d’équipes dans Teams](plan-office-365-groups.md)
