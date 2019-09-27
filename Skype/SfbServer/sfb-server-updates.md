@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et de Lync 2013 au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018647"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275522"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -26,9 +26,12 @@ Pour obtenir les mises à jour les plus récentes de Skype entreprise Online et 
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Historique des mises à jour de Skype entreprise Server 2019
 
+KB 4470124 est le maître d’opérations principal de Skype entreprise Server 2019, qui comporte la liste historique de toutes les mises à jour cumulatives et les correctifs publiés. 
+
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
 |Mise à jour cumulative 1 Skype entreprise Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 juillet |
+|Correctif 1 pour Skype entreprise Server 2019 cumulative 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 septembre |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Outils 2019 de Skype entreprise Server

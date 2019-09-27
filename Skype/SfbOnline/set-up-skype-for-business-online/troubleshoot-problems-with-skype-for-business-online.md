@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285053"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275513"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Résolution des problèmes liés à Skype Entreprise Online
 
@@ -31,7 +31,7 @@ Il arrive que les choses ne se déroulent pas comme prévu. Voici une liste de r
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Résolution des problèmes d'administration pour Skype Entreprise Online
 
-Vous pouvez obtenir des réponses pour la plupart de vos questions sur Skype entreprise Online en recherché [les causes fréquentes des erreurs de connexion à Skype entreprise Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Cet article de la base de connaissances comprend également de nombreuses ressources de dépannage et des références de code d'erreur : [Comment résoudre les problèmes de connexion dans Skype Entreprise Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Vous pouvez obtenir des réponses pour la plupart de vos questions sur Skype entreprise Online dans l’article [vérifier les causes courantes des erreurs de connexion à Skype entreprise Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). L’article de la base de connaissances suivant inclut également de nombreuses ressources de dépannage et références de codes d’erreur : [résolution des erreurs de connexion à Skype entreprise Online pour les administrateurs](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
 
 Pour les problèmes liés aux conférences rendez-vous, consultez la rubrique [résolution des problèmes de conférence audio et problèmes connus](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
