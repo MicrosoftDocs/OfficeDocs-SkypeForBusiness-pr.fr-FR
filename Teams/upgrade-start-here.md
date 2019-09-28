@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483945"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305749"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Prise en main de votre mise à niveau de Microsoft Teams
 
@@ -39,29 +39,29 @@ Félicitations pour la mise à niveau en attente de Skype entreprise vers Micros
 
 Que vous soyez à la mise à niveau de Skype entreprise Online vers équipes ou d’un environnement Skype entreprise local vers Teams, l’infrastructure de mise à niveau vous guidera tout au long du processus en fonction de votre scénario d’entreprise.
 
-## <a name="why-upgrade-to-microsoft-teams"></a>Pourquoi effectuer une mise à niveau vers Microsoft teams?
+## <a name="why-upgrade-to-microsoft-teams"></a>Pourquoi effectuer une mise à niveau vers Microsoft teams ?
 
-Microsoft teams étend les fonctionnalités de Skype entreprise, en regroupant les conversations, les réunions, les appels, la collaboration, l’intégration d’applications et le stockage de fichiers en une seule interface. Ce nouveau concentrateur pour le travail en équipe peut vous aider à rationaliser la façon dont les utilisateurs accomplissent leurs tâches, améliorer la satisfaction des utilisateurs et accélérer les résultats de l’entreprise. Nous développons continuellement les fonctionnalités de teams pour vous permettre de communiquer et de collaborer de manière inédite, de mettre en avant les barrières organisationnelles et géographiques et de dynamiser l’efficacité du processus et de la prise de décision. Apprenez-en davantage sur les avantages de la mise à niveau vers teams dans le rapport Forrester: [impact économique total de Microsoft teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+Microsoft teams étend les fonctionnalités de Skype entreprise, en regroupant les conversations, les réunions, les appels, la collaboration, l’intégration d’applications et le stockage de fichiers en une seule interface. Ce nouveau concentrateur pour le travail en équipe peut vous aider à rationaliser la façon dont les utilisateurs accomplissent leurs tâches, améliorer la satisfaction des utilisateurs et accélérer les résultats de l’entreprise. Nous développons continuellement les fonctionnalités de teams pour vous permettre de communiquer et de collaborer de manière inédite, de mettre en avant les barrières organisationnelles et géographiques et de dynamiser l’efficacité du processus et de la prise de décision. Apprenez-en davantage sur les avantages de la mise à niveau vers teams dans le rapport Forrester : [impact économique total de Microsoft teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
-## <a name="when-should-my-organization-upgrade-to-teams"></a>Quand mon organisation doit-elle être mise à niveau vers teams?
+## <a name="when-should-my-organization-upgrade-to-teams"></a>Quand mon organisation doit-elle être mise à niveau vers teams ?
 
 Skype entreprise Online sera supprimé le 31 juillet 2021, mais il ne sera plus accessible ou pris en charge. Lorsque le service Skype entreprise Online sera pleinement opérationnel jusqu’au 31 juillet, 2021, Microsoft encourage ses clients à commencer leur mise à niveau dès aujourd’hui, ce qui permet d’effectuer une mise à niveau plus longue avant la date de départ à la retraite.  Pour en savoir plus, consultez notre [annonce de retraite](https://aka.ms/sfboannounce) .
 
-## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Est-il possible de continuer à utiliser Skype entreprise Online pour préparer et exécuter notre mise à niveau vers teams?
+## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Est-il possible de continuer à utiliser Skype entreprise Online pour préparer et exécuter notre mise à niveau vers teams ?
 
 Oui, Microsoft propose plusieurs options pour l’utilisation conjointe de Skype entreprise Online et de teams. Ces modes de coexistence permettent aux utilisateurs de se familiariser avec teams dès aujourd’hui tout en accélérant votre mise à niveau vers les équipes uniquement. Pour plus d’informations, [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)reportez-vous à.
  
-## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Comment Microsoft aide les clients à effectuer la mise à niveau de teams? 
+## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Comment Microsoft aide les clients à effectuer la mise à niveau de teams ? 
 
-Microsoft s’engage à faciliter la transition de Skype entreprise à Teams. Microsoft fournit des recommandations puissantes basées sur une infrastructure de succès de mise à niveau complète et éprouvée conçue pour vous aider à planifier et à effectuer la mise à niveau vers Teams. Nos recommandations sont conçues pour chaque étape du processus de mise à niveau, que vous utilisiez uniquement la planification, l’exécution d’équipes ou la mise à niveau vers Teams.
+Microsoft s’engage à faciliter la transition de Skype entreprise à l’équipe de réussite. Microsoft fournit des recommandations puissantes basées sur une infrastructure de succès de mise à niveau complète et éprouvée conçue pour vous aider à planifier et à effectuer la mise à niveau vers Teams. Nos recommandations sont conçues pour chaque étape du processus de mise à niveau, que vous utilisiez uniquement la planification, l’exécution d’équipes ou la mise à niveau vers Teams.
 
-Pour faciliter la planification et la mise en œuvre de votre mise à niveau, Microsoft héberge des ateliers de planification de mise à niveau en direct et interactifs, conçus pour vous familiariser avec notre infrastructure de mise à niveau, partager des informations de sorte que vos utilisateurs puissent en préparer les Effectuez la mise à niveau et identifiez le chemin d’accès approprié pour votre organisation à vos équipes. Rejoignez-nous pour une session de [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)présentation de la planification de la mise à niveau:.
+Pour faciliter la planification et la mise en œuvre de votre mise à niveau, Microsoft héberge des ateliers de planification de mise à niveau en direct et interactifs, conçus pour vous familiariser avec notre infrastructure de mise à niveau, partager des informations de sorte que vos utilisateurs puissent en préparer les Effectuez la mise à niveau et identifiez le chemin d’accès approprié pour votre organisation à vos équipes. Rejoignez-nous pour une session de [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)présentation de la planification de la mise à niveau :.
  
-## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Pourquoi ai-je besoin d’instructions de mise à niveau? Est-il possible de supprimer/désaffecter Skype entreprise? 
+## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Pourquoi ai-je besoin d’instructions de mise à niveau ? Est-il possible de supprimer/désaffecter Skype entreprise ? 
 
 La mise à niveau de Skype entreprise vers équipes est une migration plus qu’une migration technique. Il s’agit d’une transformation de la façon dont les utilisateurs communiquent et collaborent, et la modification n’est pas toujours facile. L’approche de mise à niveau idéale doit répondre aux aspects techniques de votre mise à niveau et encourager les utilisateurs à accepter et à adopter les équipes en effectuant une expérimentation positive et des résultats commerciaux. 
 
-## <a name="where-do-i-start-planning-for-teamsmy-upgrade-to-teams"></a>Où puis-je commencer à planifier pour teams/ma mise à niveau vers teams? 
+## <a name="where-do-i-start-planning-for-teamsmy-upgrade-to-teams"></a>Où puis-je commencer à planifier pour teams/ma mise à niveau vers teams ? 
 
 Démarrez votre voyage en vous familiarisant avec notre infrastructure de réussite de mise à niveau et les ressources associées. Ces instructions constituent le cœur de la navigation dans Skype entreprise vers Teams.
 
@@ -71,7 +71,7 @@ Démarrez votre voyage en vous familiarisant avec notre infrastructure de réuss
 > N’oubliez pas qu’une mise à niveau réussie garantit la compatibilité technique et de l’utilisateur, veillez donc à tirer parti de ces instructions lorsque vous naviguez dans votre voyage vers Microsoft Teams.
 
 > [!Tip]
-> Regardez les sessions suivantes pour en savoir plus sur la mise à niveau de Skype entreprise vers Microsoft teams:
+> Regardez les sessions suivantes pour en savoir plus sur la mise à niveau de Skype entreprise vers Microsoft teams :
 > - [Présentation de la mise à niveau](https://aka.ms/teams-upgrade-intro) 
 > - [Planifier votre mise à niveau](https://aka.ms/teams-upgrade-plan)
 > - [Coexistence et interopérabilité](https://aka.ms/teams-upgrade-coexistence-interop)

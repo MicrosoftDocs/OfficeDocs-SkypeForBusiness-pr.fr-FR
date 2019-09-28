@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645258"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305784"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -39,7 +39,7 @@ Pour plus d’informations, reportez-vous à la rubrique [tarification pour le s
   
 ## <a name="phone-system-in-office-365-features"></a>Système téléphonique dans les fonctionnalités Office 365
 
-À l’aide du système téléphonique, vos utilisateurs Skype entreprise obtiennent les fonctionnalités suivantes:
+À l’aide du système téléphonique, vos utilisateurs Skype entreprise obtiennent les fonctionnalités suivantes :
   
 |||
 |:-----|:-----|
@@ -64,19 +64,21 @@ Pour plus d’informations, reportez-vous à la rubrique [tarification pour le s
 |Appels Skype et fédérés  <br/> |Vous pouvez rechercher tout le monde dans l’annuaire Skype, puis vous connecter, communiquer et collaborer de manière sécurisée.  <br/> |
 |[Définir les options de transfert d'appel dans Skype Entreprise](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envoie vos appels à votre équipe, immédiatement ou après un délai défini.  <br/> |
 |[Émission et réception d'un appel vidéo dans Skype Entreprise](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Vous pouvez voir le nom du présentateur et le flux vidéo dans une petite fenêtre flottante, pour être toujours prêt à répondre à une question. <br/> |
-|[Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Voici comment fonctionne la boîte vocale Cloud: lorsqu’un utilisateur reçoit un message vocal, il est remis à sa boîte aux lettres sous forme de message électronique contenant le message de la boîte vocale en tant que pièce jointe. Ils peuvent également écouter leurs messages sur leur téléphone de bureau Skype Certified, toutes les applications Skype entreprise ou Lync pour Mac 2011.  <br/> La messagerie vocale Cloud inclut un message d’accueil personnalisé, un indicateur d’attente de messages et répondez à un appel. Vous pouvez configurer votre messagerie vocale pour que tous les messages soient stockés dans des boîtes aux lettres et disponibles via Skype Entreprise sur votre ordinateur, appareil mobile ou téléphone IP.  <br/> |
+|[Consultation de la messagerie vocale et des options de Skype Entreprise](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Voici comment fonctionne la boîte vocale Cloud : lorsqu’un utilisateur reçoit un message vocal, il est remis à sa boîte aux lettres sous forme de message électronique contenant le message de la boîte vocale en tant que pièce jointe. Ils peuvent également écouter leurs messages sur leur téléphone de bureau Skype Certified, toutes les applications Skype entreprise ou Lync pour Mac 2011.  <br/> La messagerie vocale Cloud inclut un message d’accueil personnalisé, un indicateur d’attente de messages et répondez à un appel. Vous pouvez configurer votre messagerie vocale pour que tous les messages soient stockés dans des boîtes aux lettres et disponibles via Skype Entreprise sur votre ordinateur, appareil mobile ou téléphone IP.  <br/> |
 |Attente musicale | Disponible en septembre 2019, le système téléphonique lira la musique par défaut définie par le service lors de la mise en attente d’un appel externe à partir du réseau téléphonique public commuté (RTC).  Cette fonctionnalité est disponible pour les appels RTC vers équipes et les appels passés vers une file d’attente d’appels. Cette fonctionnalité fournit la parité de notification en attente avec d’autres plateformes. (Toutes les autres plateformes fournissent un repère visuel lorsqu’un utilisateur est mis en attente, mais l’appelant PSTN n’a aucun moyen de le savoir.)  Au premier lancement, cette fonctionnalité n’est pas configurable par l’administrateur.| 
+|Recherche de numéro inverse | Disponible en septembre, 2019, le système téléphonique affiche l’ID de téléphone externe si le numéro est associé à un utilisateur de AAD. Si le numéro de téléphone ne se trouve pas dans la rubrique AAD, le nom d’affichage fourni par Telco s’affiche s’il est disponible.  |
+
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planifier et configurer le système téléphonique dans Office 365
 <a name="bkmk_setup"> </a>
 
-Configurez le système téléphonique en fonction de votre entreprise:
+Configurez le système téléphonique en fonction de votre entreprise :
   
 - Vous pouvez utiliser le module complémentaire système téléphonique avec les lignes téléphoniques de votre entreprise ou le [système téléphonique doté](calling-plan-landing-page.md) d’appels d’offres pour les appels entrants et sortants.
     
 - Vous pouvez obtenir de nouveaux numéros de téléphone d'Office 365 ou transférer des numéros de téléphone existants vers Skype Entreprise. 
     
-Pour planifier et configurer le système téléphonique au sein de votre entreprise, consultez les articles suivants:
+Pour planifier et configurer le système téléphonique au sein de votre entreprise, consultez les articles suivants :
 
 - [Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
 

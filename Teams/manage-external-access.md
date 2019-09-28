@@ -18,12 +18,12 @@ description: Votre administrateur informatique peut configurer l’accès extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838111"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305760"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================
@@ -70,7 +70,7 @@ Consultez le tableau ci-dessous pour obtenir une comparaison des fonctionnalité
 | L’utilisateur est identifié comme partie externe. | Oui | Oui |
 | La présence est affichée | Oui | Oui |
 | Le message d’absence du Bureau s’affiche | Non | Oui |
-| Il est possible de bloquer l’utilisateur individuel. | Non | Oui |
+| Il est possible de bloquer l’utilisateur individuel. | Non | Non |
 | @mentions prises en charge | Non | Oui |
 | Passer des appels privés | Oui | Oui |
 | Autoriser la vidéo IP | Oui | Oui |
