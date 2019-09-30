@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062890"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305685"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -76,6 +76,8 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |Le contrôle d'appel sortant ne s'affiche pas de façon intermittente.  <br/> |Le contrôle d'appel sortant peut ne pas être visible à partir du panneau Informations sur la réunion.  <br/> |Aucune solution.  <br/> |25/09/2017  <br/> |
 |L'ID de conférence statique n'est pas pris en charge pour les réunions Microsoft Teams.  <br/> |Si l'administrateur remplace le paramètre par défaut de l'ID de conférence dynamique par l'ID de conférence statique, ce paramètre ne s'applique pas aux réunions Microsoft Teams. Reportez-vous à la rubrique [Utiliser des ID dynamiques d’audioconférence dans votre organisation](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Aucune solution.  <br/> |25/09/2017  <br/> |
 |Les coordonnées de réunion RTC ne sont pas disponibles pour les utilisateurs locaux de Skype Entreprise.  <br/> |Si l'utilisateur est un utilisateur local de Skype Entreprise, à qui on a attribué Skype Entreprise Online, une audioconférence et des licences Teams, toutes les réunions programmées à l'aide de Teams n'incluront pas les coordonnées de réunion RTC. <br/> |Aucune solution.  <br/> |1/2/2018  <br/> |
+
+| Informations sur l’interopérabilité de la vidéo dans le nuage dans Conférence maintenant  <br/> |Si vous créez une instance Conférence maintenant d'une réunion dans Microsoft Teams avec une licence CVI existante, les informations CVI ne seront pas complétées. <br/> |Il est recommandé de fixer la date de la réunion de manière à ce que cette information soit complétée.  <br/> |6/11/2019  <br/> |
 
 ## <a name="authentication"></a>Authentification
 
@@ -192,7 +194,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|Aucun son lors du partage de contenu pendant une réunion de diffusion  <br/> |Lors du partage de contenu pendant une réunion de diffusion, le son du contenu partagé (lien youtube ou fichier vidéo enregistré) ne peut pas être entendu par les participants.  <br/> |Il ne s’agit pas d'un comportement par défaut.  Teams ne prend pas en charge actuellement le son du contenu partagé  <br/> |09/10/2018  <br/> |
+|Aucun son lors du partage de contenu pendant une réunion de diffusion  <br/> |Lors du partage de contenu pendant une réunion de diffusion, le son du contenu partagé (lien YouTube ou fichier vidéo enregistré) ne peut pas être entendu par les participants.  <br/> |Il ne s’agit pas d'un comportement par défaut.  Teams ne prend pas en charge actuellement le son du contenu partagé  <br/> |09/10/2018  <br/> |
 
 ## <a name="mobile"></a>Mobile
 
@@ -315,6 +317,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Les journaux d’audit peuvent indiquer un nom d’utilisateur incorrect comme initiateur lorsqu’une personne a été supprimée de Teams  <br/> |Une équipe Teams est un groupe moderne dans AAD. Lorsque vous ajoutez/supprimez un membre par l’intermédiaire de l'interface utilisateur de Teams, le flux sait exactement quel utilisateur a initialisé la modification, et le journal d’audit reflète les informations correctes. Cependant, si un utilisateur ajoute ou supprime un membre via AAD, la modification est synchronisée sur le serveur principal de Teams sans indiquer à Teams qui a initialisé l’action. Microsoft Teams sélectionne le premier propriétaire de Teams comme initiateur, ce qui est finalement répercuté dans le journal d’audit également.    <br/> |  <br/> |11/05/2018  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Les e-mails de messages vocaux Teams sont transmis avec l’échec SPF s’il s’agit d’un appel SIP, s’il s’agit d’un appel PSTN pour un utilisateur, il sont transmis avec l’attribut « de » sans la valeur correcte, si le client a une règle dans laquelle il analyse les messages vocaux SPF, l’action de l’ETR décide. <br/> | <br/> | La solution de contournement du 29/08/2019 ajoute une exception dans la ETR si le message est une messagerie vocale.
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
