@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2c7bae819037d0140fab1fed3625e250b8a4c1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b095beaae7e102f49bc02f6193095b751081db19
+ms.sourcegitcommit: 7d9ed878839609a3bd1f14114423df775a99f790
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241787"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37318834"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -39,6 +39,7 @@ Le complément de réunion équipes est automatiquement installé pour les utili
 > [!NOTE]
 > - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 > - Les utilisateurs de Windows 7 doivent installer la [mise à jour du runtime C universel dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour que le complément réunion teams fonctionne.
+> - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément réunions teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) . 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complément réunion teams dans Outlook pour Mac
 
@@ -110,7 +111,7 @@ Certaines fonctionnalités du complément Réunion Teams sont encore en cours de
 
 - Le complément concerne les réunions planifiées avec des participants spécifiques, pas les réunions dans un canal. Les réunions de canal doivent être planifiées au sein de Teams.
 - Le complément ne fonctionnera pas si un proxy d'authentification se trouve dans le chemin d'accès réseau de l'ordinateur de l'utilisateur et des services Teams.
-- Les utilisateurs ne peuvent pas planifier des événements dynamiques à partir d’Outlook. Accédez à teams pour planifier des événements en direct. Pour plus d’informations, voir [qu’est-ce que Microsoft teams Live Events?](teams-live-events/what-are-teams-live-events.md)
+- Les utilisateurs ne peuvent pas planifier des événements dynamiques à partir d’Outlook. Accédez à teams pour planifier des événements en direct. Pour plus d’informations, voir [qu’est-ce que Microsoft teams Live Events ?](teams-live-events/what-are-teams-live-events.md)
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 

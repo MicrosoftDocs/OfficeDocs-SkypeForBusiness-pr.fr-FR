@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurez un compte de ressource pour Skype entreprise Server 2019.
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790860"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328298"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressources
 
@@ -46,7 +46,7 @@ Pour rediriger les appels vers des personnes de votre organisation qui sont héb
 Si le standard automatique ou la file d’attente d’appels du système téléphonique que vous créez seront imbriqués et n’aura pas besoin de numéro de téléphone, le processus est le suivant :
 
 1. Créer le compte de ressource  
-2. Attendre une synchronisation Active Directory entre en ligne et sur site
+2. Attendre une synchronisation Active Directory entre en ligne et en local
 3. Créer un standard automatique de système téléphonique ou une file d’attente d’appels
 4. Associer le compte de ressource à un standard automatique de système téléphonique ou une file d’attente d’appels
 
@@ -74,7 +74,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
     Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-4. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre qu’AD se synchronise entre en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande) :
+4. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre la synchronisation entre Online et local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande) :
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -133,7 +133,7 @@ Connectez-vous au serveur frontal Skype entreprise et exécutez les applets de c
 
     Pour plus d’informations sur cette commande [, voir New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
 
-2. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre qu’AD se synchronise entre en ligne et en local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande) :
+2. Module Une fois que vos comptes de ressource sont créés, vous pouvez soit attendre la synchronisation entre Online et local, soit forcer une synchronisation et passer à la configuration en ligne du standard automatique du système téléphonique ou des files d’attente d’appels. Pour forcer une synchronisation, vous devez exécuter la commande suivante sur l’ordinateur exécutant AAD Connect (si vous ne l’avez pas déjà fait, vous `import-module adsync` devez charger pour exécuter la commande) :
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta

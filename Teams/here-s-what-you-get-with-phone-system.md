@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305784"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328363"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -51,7 +51,7 @@ Pour plus d’informations, reportez-vous à la rubrique [tarification pour le s
 |[Recherche d'une ancienne conversation Skype Entreprise (Lync)](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |Effectuez le suivi de toutes vos conversations dans un emplacement, qu'ils s'agissent de messages instantanés, d'appels téléphoniques ou de réunions planifiées ou improvisées. Les conversations sont enregistrées dans votre historique d'appels.  <br/> |
 |Mise en attente/récupération  <br/> | Utilisez cette fonction lorsque plusieurs appels sont passés simultanément. Lorsque vous répondez à l'appel entrant suivant ou passez un appel sortant, l'appel actuel est automatiquement mis en attente. <br/> |
 |[Transfert d'un appel Skype Entreprise](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfère les appels à une autre personne. Ou bien, si vous avez besoin de quitter votre bureau, vous pouvez transférer les appels de votre PC ou de votre téléphone IP vers votre téléphone mobile ou votre tablette.  <br/> |
-|ID de l'appelant  <br/> |Les appels internes à l'entreprise indiquent un ID d'appel détaillé, qui extrait des informations depuis le répertoire de l'entreprise, avec la photo et la fonction de l'appelant et pas seulement le numéro de téléphone. Pour les appels provenant de numéros de téléphone externes, l’ID de l’appelant tel qu’il est fourni par le fournisseur de services téléphoniques est affiché.   <br/> |
+|ID de l'appelant  <br/> |Les appels internes à l'entreprise indiquent un ID d'appel détaillé, qui extrait des informations depuis le répertoire de l'entreprise, avec la photo et la fonction de l'appelant et pas seulement le numéro de téléphone. Pour les appels provenant de numéros de téléphone externes, l’ID de l’appelant tel qu’il est fourni par le fournisseur de services téléphoniques est affiché. Si les numéros de téléphone externes sont des numéros secondaires dans votre annuaire d’entreprise, les informations de l’annuaire d’entreprise s’afficheront.  <br/> |
 |[Créer une file d’attente d’appels cloud](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Les files d’attente d’appels Cloud incluent des messages d’accueil qui sont utilisés lorsque quelqu’un vous appelle pour appeler un numéro de téléphone pour votre organisation, la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui rejoignent les appels sont écouter de la musique pendant l’attente.  <br/> |
 |[M'avertir en cas de changement de statut d'une personne](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Cette fonction permet d'identifier les personnes qui ne sont pas disponibles et d'être prévenu lorsque leur statut de présence change et qu'elles passent des appels téléphoniques. <br/> |
 |Clients pour PC, Mac et appareils mobiles  <br/> | Cela vous permet d’appeler des fonctionnalités sur des appareils, des tablettes et des téléphones mobiles vers des PC et des téléphones IP de bureau. <br/> |
