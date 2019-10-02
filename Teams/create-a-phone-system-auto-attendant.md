@@ -21,30 +21,30 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
+ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447940"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37349248"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
 Les standards automatiques permettent aux personnes qui rejoignent votre organisation d’appeler votre organisation et de naviguer dans un système de menu pour les faire passer au service approprié, à la file d’attente des appels, à la personne ou à l’opérateur. Vous pouvez créer un standard automatique pour votre organisation à l’aide du centre d’administration Microsoft Teams. Pour créer un standard automatique, dans la barre de navigation gauche, sélectionnez **voix** , puis cliquez sur **standards** > automatiques**Ajouter nouveau**.
 
-Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique [qu’est-ce que les standards automatiques Cloud?](/microsoftteams/what-are-phone-system-auto-attendants)
+Pour en savoir plus sur les standards automatiques, reportez-vous à la rubrique [qu’est-ce que les standards automatiques Cloud ?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 > [!NOTE]
 > Cet article s’applique à Microsoft teams et à Skype entreprise online.
 
-## <a name="step-1--get-started"></a>Étape 1: prendre en main
+## <a name="step-1--get-started"></a>Étape 1 : prendre en main
 
 - Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
 
 > [!TIP]
-> Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour Enterprise Voice. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour Enterprise Voice. Consultez la rubrique [affectation de licences Skype entreprise](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [affectation de licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-## <a name="step-2--create-a-new-auto-attendant"></a>Étape 2: créer un standard automatique
+## <a name="step-2--create-a-new-auto-attendant"></a>Étape 2 : créer un standard automatique
 
 > [!IMPORTANT]
 > Chaque standard automatique doit disposer d’un compte de [ressources](manage-resource-accounts.md)associé. Vous devez d’abord créer le compte de ressources, puis vous pouvez l’associer au standard automatique.
@@ -67,11 +67,14 @@ Dans le **Centre d’administration de Microsoft teams**, cliquez sur**standards
 
 ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
+<a name="phonenumber"> </a>
+
 **Compte de ressources** Cliquez sur ce bouton pour sélectionner un ou plusieurs comptes de ressources pour vous connecter à votre nouveau standard automatique. Tous les standards automatiques doivent disposer d’un compte de ressources associé. Un compte de ressource peut avoir un numéro de téléphone associé au compte, mais aucun numéro de téléphone n’est requis. En règle générale, un standard automatique de niveau supérieur dispose d’un compte de ressources avec un numéro de téléphone, mais il est possible que le standard automatique qui se connecte au premier niveau ne dispose pas d’un numéro de téléphone attribué à son compte de ressources.
 
 * * *
 
-![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/sfbcallout3.png)
+![Icône du numéro 3 qui référence une légende dans la capture d’écran](media/sfbcallout3.png)
+ <a name="timezone"> </a> précédente
 
 **Fuseau horaire** Vous devez définir le fuseau horaire pour votre standard automatique, mais il ne doit pas nécessairement correspondre à celui de l'adresse principale de votre organisation. Chaque standard automatique peut avoir un fuseau horaire différent et les heures d’ouverture définies pour le standard automatique sont définies en fonction du fuseau horaire que vous sélectionnez ici.
 
@@ -79,19 +82,23 @@ Dans le **Centre d’administration de Microsoft teams**, cliquez sur**standards
 
 ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/sfbcallout4.png)
 
+<a name="language"> </a>
+
 **Langue** Sélectionnez la langue que vous souhaitez utiliser pour votre standard automatique parmi les langues disponibles répertoriées. La langue que vous définissez ici correspond à la langue utilisée par le standard automatique pour interagir avec les personnes qui rejoignent le standard automatique et toutes les invites système sont exécutées dans cette langue.
 
 * * *
 
 ![Icône du numéro 5 qui référence une légende dans la capture d’écran précédente](media/sfbcallout5.png)
 
+<a name="operator"> </a>
+
 **Opérateur** Facultatif, mais vous pouvez définir l’option d' **opérateur** permettant aux appelants de sortir des menus et de parler à une personne.
 
 La touche 0 est affectée à l’opérateur par défaut.
 
-Si vous définissez un opérateur, vous devez également indiquer aux personnes qui vous appellent à propos de l’option dans les **Options du menu Édition** de la page **gestion des appels d’heures d’entreprise** . Si vous définissez un opérateur sur votre standard automatique, vous devez entrer le texte d’invite correspondant dans la **** zone les appelants entendent ou changer votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. »
+Si vous définissez un opérateur, vous devez également indiquer aux personnes qui vous appellent à propos de l’option dans les **Options du menu Édition** de la page **gestion des appels d’heures d’entreprise** . Si vous définissez un opérateur sur votre standard automatique, vous devez entrer le texte d’invite correspondant dans la zone les **appelants entendent** ou changer votre fichier audio pour inclure cette option. Par exemple, « pour l’opérateur, appuyez sur zéro. »
 
-Vous pouvez définir l’opérateur de plusieurs manières:
+Vous pouvez définir l’opérateur de plusieurs manières :
 
 - **Personne de votre société** avec une licence de **Système téléphonique** qui est activée pour Enterprise Voice ou affectée Plans de l’appel dans Office 365.
 
@@ -147,17 +154,21 @@ Vous pouvez configurer des messages d’accueil, des messages d’accueil et des
 
 ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
 
+<a name="greetingsandrouting"> </a>
+
 **Message d’accueil** Un message d’accueil d’heures d’entreprise est facultatif et **ne peut pas**être défini pour le message d’accueil. Dans ce cas, l’appelant n’entend aucun message ni message d’accueil avant que l’appel ne soit géré par l’une des actions que vous sélectionnez. Vous pouvez également charger un fichier audio (au format .wav, mp3 ou .wma), ou créer un messager d'accueil personnalisé à l'aide de la synthèse vocale.
 - **Télécharger un fichier audio** Si vous choisissez cette fonction, enregistrez le message d’accueil, puis téléchargez votre fichier audio (au format. wav,. mp3 ou. WMA).
-- **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez entrer «Bienvenue dans contoso. Votre appel est important pour nous. dans la **** zone les appelants entendent.
+- **Taper un message d’accueil** Si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères). Par exemple, vous pouvez entrer «Bienvenue dans contoso. Votre appel est important pour nous. dans la zone les **appelants entendent** .
 
 * * *
 
 ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
-Vous pouvez sélectionner ce qu’il advient des appels en temps réel. Vous pouvez choisir l’une des actions suivantes:
+Vous pouvez sélectionner ce qu’il advient des appels en temps réel. Vous pouvez choisir l’une des actions suivantes :
 
-- **** Se déconnecter Si vous sélectionnez cette option, l’appelant sera déconnecté après avoir écouté un message d’accueil d’heures d’affaires.
+<a name="redirectcalls"> </a>
+
+- Se **déconnecter** Si vous sélectionnez cette option, l’appelant sera déconnecté après avoir écouté un message d’accueil d’heures d’affaires.
 - **Rediriger un appel** Cela peut servir à envoyer automatiquement l’appel vers :
   - **Personne de la société** disposant d’une licence de **système téléphonique** activée pour les offres d’appels voix entreprise ou affectées dans Office 365. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour cela, sélectionnez une **personne dans la société** et configurez cette personne de sorte que les appels soient transférés directement à la boîte vocale.
 
@@ -174,7 +185,7 @@ Vous pouvez sélectionner ce qu’il advient des appels en temps réel. Vous pou
 
 ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/sfbcallout3.png)
 
-**Invite de menu** Pour créer une invite de menu principale, vous pouvez utiliser la synthèse vocale ou charger un fichier audio (.wav, .mp3 ou .wma). Vous pouvez taper l’invite dans la zone **Définissez votre navigation pour** les appelants ou enregistrez un fichier audio et dites, par exemple: «pour les ventes, Say ou appuyer sur 1. Pour contacter le département des Services, dites 2 ou appuyez sur 2. Pour contacter le service clientèle, dites 3 ou appuyez sur 3. Pour contacter l'opérateur, dites 0 ou appuyez sur 0. Pour réécouter ce menu, appuyez sur étoile ou dites répéter. **Taper un message d’accueil** Si vous avez choisi cette méthode, vous devez entrer le texte que le système devra lire (jusqu’à 1000 caractères). **Charger un fichier audio** Si vous choisissez cette option, vous devrez enregistrer le message d'accueil puis charger votre fichier audio (au format .wav, .mp3 ou .wma).
+**Invite de menu** Pour créer une invite de menu principale, vous pouvez utiliser la synthèse vocale ou charger un fichier audio (.wav, .mp3 ou .wma). Vous pouvez taper l’invite dans la zone **Définissez votre navigation pour les appelants** ou enregistrez un fichier audio et dites, par exemple : «pour les ventes, Say ou appuyer sur 1. Pour contacter le département des Services, dites 2 ou appuyez sur 2. Pour contacter le service clientèle, dites 3 ou appuyez sur 3. Pour contacter l'opérateur, dites 0 ou appuyez sur 0. Pour réécouter ce menu, appuyez sur étoile ou dites répéter. **Taper un message d’accueil** Si vous avez choisi cette méthode, vous devez entrer le texte que le système devra lire (jusqu’à 1000 caractères). **Charger un fichier audio** Si vous choisissez cette option, vous devrez enregistrer le message d'accueil puis charger votre fichier audio (au format .wav, .mp3 ou .wma).
 
 * * *
 
@@ -188,11 +199,11 @@ Vous pouvez sélectionner ce qu’il advient des appels en temps réel. Vous pou
 >Toutes les options de menu peuvent être ajoutées et supprimées dans n’importe quel ordre, et les mappages de clés ne doivent pas nécessairement être continus. Par exemple, il est possible de créer un menu avec les clés 0, 1 et 3 mappées à des options, tandis que la clé 2 n’est pas utilisée.
 
 > [!NOTE]
-> Les clés \* (répétition) et \# (retour) sont réservées par le système et ne peuvent pas être réaffectées. Si la reconnaissance vocale est activée, le fait d’appuyer sur * correspond à «répéter» et # correspond aux commandes vocales «retour».
+> Les clés \* (répétition) et \# (retour) sont réservées par le système et ne peuvent pas être réaffectées. Si la reconnaissance vocale est activée, le fait d’appuyer sur * correspond à « répéter » et # correspond aux commandes vocales « retour ».
 
-Pour configurer vos options de menu, après avoir sélectionné la ou les touches de numérotation, vous devrez:
+Pour configurer vos options de menu, après avoir sélectionné la ou les touches de numérotation, vous devrez :
 
-- Entrez la **commande vocale** de l’option. Il peut y avoir un maximum de 64 caractères et contenir plusieurs mots tels que «service clientèle» ou «opérations et raisons». Si la reconnaissance vocale est activée, le nom sera automatiquement reconnu et la personne qui appelle pourra soit appuyez sur 3, par exemple « 3 », ou dire « Service clientèle » pour sélectionner l’option mappée à la clé 3.
+- Entrez la **commande vocale** de l’option. Il peut y avoir un maximum de 64 caractères et contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ». Si la reconnaissance vocale est activée, le nom sera automatiquement reconnu et la personne qui appelle pourra soit appuyez sur 3, par exemple « 3 », ou dire « Service clientèle » pour sélectionner l’option mappée à la clé 3.
 - Sélectionner l’endroit où l’appel doit être envoyé si la touche correspondante est enfoncée ou si l’option est sélectionnée à l’aide de la reconnaissance vocale. L’appel peut être envoyé à :
 
   - **Opérateur** Si l’opérateur a déjà été configuré, il est automatiquement mappé à la clé de 0, mais il peut également être supprimé ou réaffecté à une autre clé. Si l’opérateur n’est pas défini sur n’importe quelle touche, alors la commande vocale « Opérateur » sera désactivée aussi.
@@ -280,7 +291,7 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation q
 
 * * *
 
-![Icône du numéro 1, qui référence une légende dans la capture d'](media/sfbcallout1.png) écran précédente à l’aide de l’option **inclure** , vous avez deux options:
+![Icône du numéro 1, qui référence une légende dans la capture d'](media/sfbcallout1.png) écran précédente à l’aide de l’option **inclure** , vous avez deux options :
 
 - **Tous les utilisateurs en ligne** Cette option permet d'inclure toutes les personnes de votre organisation dans la recherche dans l'annuaire. Tous les utilisateurs en ligne disposant d’une licence de **système téléphonique** , ainsi que les utilisateurs hébergés sur site utilisant Skype entreprise Server ou Lync Server 2013 qui dispose d’offres d’appels dans Office 365, seront répertoriés.
 - **Groupe d’utilisateurs personnalisés** Si vous utilisez cette option, vous pouvez rechercher un groupe Office 365, une liste de distribution ou un groupe de sécurité qui a été créé au sein de votre organisation et les personnes ajoutées à ce groupe Office 365, liste de distribution ou groupe de sécurité qui sont des **utilisateurs en ligne avec un Licence du système téléphonique** ou hébergé sur site avec Skype entreprise Server 2015 ou Lync Server 2013. Vous pouvez ajouter plusieurs groupes 365 Office, des listes de distribution et des groupes de sécurité.
@@ -289,7 +300,7 @@ Dans cette page, vous pouvez configurer les utilisateurs de votre organisation q
 
 ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/sfbcallout2.png)
 
-L’option **exclure** présente deux choix:
+L’option **exclure** présente deux choix :
 
 - **Aucun** Cette option indiquera qu'aucun utilisateur en ligne ne sera exclu de la recherche dans l'annuaire.
 - **Groupe d’utilisateurs personnalisés** Si vous utilisez cette option, vous pouvez rechercher un groupe, une liste de distribution ou un groupe de sécurité Office 365 qui a été créé au sein de votre organisation, et tous les participants ajoutés à ce groupe Office 365, liste de distribution ou groupes de sécurité seront exclus de la recherche dans l’annuaire. Vous pouvez ajouter plusieurs groupes 365 Office, des listes de distribution et des groupes de sécurité.
@@ -309,7 +320,7 @@ Vous pouvez également effectuer un test rapide de votre standard automatique à
 
 ## <a name="auto-attendant-cmdlets"></a>Applets de commande de standard automatique
 
-Vous pouvez également utiliser PowerShell Windows pour créer et configurer des standards automatiques. Voici les applets de passe dont vous avez besoin pour gérer un standard automatique:
+Vous pouvez également utiliser PowerShell Windows pour créer et configurer des standards automatiques. Voici les applets de passe dont vous avez besoin pour gérer un standard automatique :
 
 - [Nouveau-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
 - [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)

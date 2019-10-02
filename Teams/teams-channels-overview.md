@@ -18,14 +18,15 @@ f1keywords:
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12dca0160b4434472e2afa60971fb80ddebf925d
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1b79821dd3a4e36b2a57ec73e0914027cd17da71
+ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483401"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37349206"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour mieux comprendre la conversation, les équipes, les canaux et les applications dans Teams. Ensuite, accédez à la fenêtre de [conversation, d’équipes, de canaux & les applications dans teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir la liste des décisions importantes pour le déploiement d’équipes.
@@ -64,10 +65,10 @@ Les propriétaires d’équipe peuvent également créer une équipe basée sur 
 
 **Rôles d’équipe**
 
-Il existe deux rôles principaux dans Microsoft teams: 
+Il existe deux rôles principaux dans Microsoft teams : 
 
 - **Propriétaire** de l’équipe-personne qui crée l’équipe. Les propriétaires d’équipe peuvent définir n’importe quel membre de leur équipe comme copropriétaire lorsqu'ils 'l’invitent à rejoindre l'équipe ou à n’importe quel moment une fois qu'il a rejoint l’équipe. La présence de plusieurs propriétaires d’équipes vous permet de partager les responsabilités liées à la gestion des paramètres et de l’appartenance, y compris aux invitations.
-- **Membres** d’une équipe: les personnes que les propriétaires peuvent inviter à rejoindre leur équipe.
+- **Membres** d’une équipe : les personnes que les propriétaires peuvent inviter à rejoindre leur équipe.
 
 De plus, si la modération est configurée, les propriétaires d’équipe et les membres peuvent disposer de capacités de modérateur pour un canal. Les modérateurs peuvent commencer de nouvelles publications dans le canal et contrôler si les membres d’une équipe peuvent répondre à des messages de canal existants. Les propriétaires d’équipe peuvent affecter des modérateurs au sein d’un canal. (Les propriétaires d’équipe disposent de fonctionnalités de modérateur par défaut). Les modérateurs au sein d’un canal peuvent ajouter ou supprimer d’autres modérateurs dans ce canal. Pour plus d’informations, reportez-vous à [configurer et gérer la modération de canal dans Microsoft teams](manage-channel-moderation-in-teams.md).
 
