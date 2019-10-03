@@ -18,16 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: 0508408fbf5bde620cefe9233df4aa62ecf880df
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349262"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375697"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
-
-<a name="bk">PhoneNumber</a>
 
 Un compte de ressource est également connu sous le nom d' *objet utilisateur désactivé* dans Azure ad et peut être utilisé pour représenter des ressources en général. Dans Exchange, il peut être utilisé pour représenter des salles de conférence, par exemple, et leur permettre d’avoir un numéro de téléphone. Un compte de ressource peut être hébergé dans Microsoft 365 ou sur site à l’aide de Skype entreprise Server 2019.
 
@@ -118,6 +116,7 @@ Ensuite, appliquez une licence au compte de ressources dans le centre d’admini
 ![Icône du numéro 2, qui référence une légende dans la capture d'](media/sfbcallout2.png) écran précédente, vous pouvez modifier le nom d’affichage du compte de la ressource à l’aide de l’option **modifier** . Lorsque vous avez fin, cliquez sur **Enregistrer** .
 ![Capture d’écran de l’option modifier le compte de ressources](media/r-a-edit.png)
 
+<a name="phonenumber"></a>
 ### <a name="assignunassign-phone-numbers-and-services"></a>Attribution/désaffectation des numéros de téléphone et services
 
 ![Icône du numéro 3, qui référence une légende dans la capture d'](media/sfbcallout3.png) écran précédente une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour affecter un numéro de service au compte de ressource ou affecter la ressource compte vers une file d’attente d’appels ou un standard automatique qui existe déjà. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si la file d’attente d’appels ou le standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349248"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375708"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -211,14 +211,15 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
 
     > [!Note]
     > Une **personne de votre entreprise** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server ou Lync Server 2013.
-    - Un autre **standard automatique**
+
+  - Un autre **standard automatique**
 
        Vous pouvez utiliser un standard automatique existant pour créer un deuxième niveau d’options de menu contenant un sous-menu. Il s’agit des standards automatiques imbriqués. Pour envoyer l’appel à un standard automatique imbriqué, sélectionnez une **personne dans la société** et attribuez un compte de ressource, qui est déjà associé à un standard automatique ou que vous voulez associer à un standard automatique une fois que vous avez créé ce standard automatique.
 
         > [!Note]
-        > Les **heures d’ouverture** de standards automatiques imbriqués (ou de second niveau) seront également utilisé, y compris pour les appels envoyés à partir d’autres standards automatiques qui ont été définis.
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
+    - **Application vocale** Sélectionnez le nom d’un compte de ressources associé à une file d’attente d’appels ou à un standard automatique que vous avez déjà créé.
 
 * * *
 
@@ -231,6 +232,8 @@ Pour configurer vos options de menu, après avoir sélectionné la ou les touche
 Lorsque vous avez terminé vos sélections, cliquez sur **suivant**.
 
 #### <a name="holiday-call-settings"></a>Paramètres des appels de vacances
+
+<a name="holidaygreetings"> </a>
 
 Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automatique.
 
@@ -283,6 +286,7 @@ Noms des jours fériés peuvent contenir jusqu'à 64 caractères et doivent êtr
     > [!Note]
     > Par défaut, tous les appels arrivant pendant une période de congé sont définies pour déconnecter la session après le message d’accueil (le cas échéant), vous devez spécifier une redirection si vous souhaitez un comportement différent.
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>Page de sélection de la portée de la numérotation
 
 Dans cette page, vous pouvez configurer les utilisateurs de votre organisation qui seront répertoriés dans votre annuaire et disponibles pour le numérotation par nom lorsqu’une personne appelle votre organisation.

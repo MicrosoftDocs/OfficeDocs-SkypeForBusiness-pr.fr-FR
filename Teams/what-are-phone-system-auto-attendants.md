@@ -1,5 +1,5 @@
 ---
-title: Que sont les standards automatiques Cloud?
+title: Que sont les standards automatiques Cloud ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez les standards automatiques du Cloud et comment les utiliser.
-ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: fd1fd053c0ecab8e0a36835f6d26127db91431be
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35536004"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375686"
 ---
-# <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud?
+# <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
 Le système téléphonique dans Office 365 fournit des standards automatiques qui peuvent être utilisés pour permettre aux appelants externes et internes de se déplacer dans un système de menus afin de localiser et de transférer les appels vers des utilisateurs ou services de la société au sein de votre organisation.
   
@@ -37,7 +37,7 @@ Un standard automatique est une série d’invites vocales ou de fichiers audio 
   
 Pour configurer un standard automatique pour le système téléphonique dans Office 365, voir [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md).
   
-Le standard automatique Cloud offre les fonctionnalités suivantes:
+Le standard automatique Cloud offre les fonctionnalités suivantes :
   
 - Il propose des messages d'accueil spécifiques de l'entreprise ou à vocation informative.
 - Il propose des menus d'entreprise personnalisés. Vous pouvez personnaliser ces menus afin de disposer de plusieurs niveaux.
@@ -63,7 +63,7 @@ Avant de commencer à utiliser les standards automatiques, il est impératif de 
    > [!TIP]
    > Pour rediriger les appels vers un opérateur ou une option de menu qui est un utilisateur en ligne disposant d’une licence de **système téléphonique** , vous devez l’activer pour la voix entreprise ou lui affecter des plans d’appels. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md). Vous pouvez aussi utiliser Windows PowerShell. Par exemple, exécutez :  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Pour obtenir et utiliser des numéros de service gratuits pour vos standards automatiques, vous devez configurer des crédits de communication. Pour cela, voir [que sont les crédits de communication?](what-are-communications-credits.md) et [configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).
+- Pour obtenir et utiliser des numéros de service gratuits pour vos standards automatiques, vous devez configurer des crédits de communication. Pour cela, voir [que sont les crédits de communication ?](what-are-communications-credits.md) et [configurer les crédits de communication pour votre organisation](set-up-communications-credits-for-your-organization.md).
 
     > [!IMPORTANT]
     > Les numéros de téléphone des utilisateurs (abonnés) ne peuvent pas être attribués à des standards automatiques. Seuls les numéros de téléphone gratuits et payants peuvent être utilisés.
@@ -90,7 +90,6 @@ Il n’y a pas de limite de taille Active Directory pour lequel la numérotation
 > Si vous utilisez la fonction numérotation par nom avec la reconnaissance vocale, mais que le service Active Directory de votre organisation est supérieur à 80 000 utilisateurs et que vous n’avez pas limité l’étendue du numéro de téléphone à l’aide du clavier et les entrées vocales seront disponibles pour tous les autres scénarios. Vous pouvez utiliser la fonctionnalité de Portée de la numérotation pour limiter les noms atteignables en modifiant la portée de la Numérotation par nom pour un standard automatique spécifique.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Numérotation par nom - Entrée de clavier téléphonique (DTMF)
-
 Les personnes appelant peuvent utiliser la numérotation par nom pour joindre les utilisateurs en spécifiant le nom complet ou partiel de la personne que vous essayez de joindre. Vous pouvez utiliser différents formats lorsque le nom est entré.
 
 Lorsqu'ils recherchent dans l'annuaire de votre organisation, les utilisateurs peuvent utiliser la touche 0 (zéro) pour indiquer un espace entre le prénom et le nom ou vice versa. Lorsque vous entrez le nom, il est demandé d’arrêter son entrée au clavier à l’aide de la touche #. Par exemple : « Après avoir saisi le nom de la personne que vous voulez joindre, appuyez sur #. » Si la recherche renvoie plusieurs noms, l'appelant pourra en sélectionner un parmi une liste.
@@ -187,9 +186,9 @@ Les commandes vocales suivantes sont disponibles dans les quatorze (14) langues 
 
 L’utilisation de l’opérateur d’un standard automatique est un paramètre facultatif qui permet à l’appelant de parler à un opérateur humain.
   
-La touche 0 et la commande vocale «opérateur» redirigent l’appel vers l’opérateur désigné par défaut. C’est le cas pour toutes les langues prises en charge par la reconnaissance vocale. Vous pouvez également utiliser les **options de menu** pour définir une valeur personnalisée pour l’opérateur.
+La touche 0 et la commande vocale « opérateur » redirigent l’appel vers l’opérateur désigné par défaut. C’est le cas pour toutes les langues prises en charge par la reconnaissance vocale. Vous pouvez également utiliser les **options de menu** pour définir une valeur personnalisée pour l’opérateur.
   
-L’opérateur peut être défini comme suit:
+L’opérateur peut être défini comme suit :
   
 - Un utilisateur de Microsoft teams ou un utilisateur de Skype entreprise sur site qui est compatible voix entreprise.
   
@@ -200,7 +199,7 @@ L’opérateur peut être défini comme suit:
 
 Les heures d'ouverture sont définies sur chaque standard automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies à l’aide de pauses pendant la journée, et toutes les heures qui ne sont pas définies comme heures d’ouverture. Vous pouvez définir des options de traitement des appels entrantes différentes et des salutations différentes (facultatifs), et les deux peuvent être définies pour les heures d’activité et après l’heure.
   
-Chaque standard automatique dispose d’options de traitement des appels qui peuvent être définies:
+Chaque standard automatique dispose d’options de traitement des appels qui peuvent être définies :
   
 - Vous pouvez définir la déconnexion de l'appel juste après le message d'accueil.
 - Vous pouvez également :
@@ -213,16 +212,16 @@ Chaque standard automatique dispose d’options de traitement des appels qui peu
 
 ### <a name="menu-options"></a>Options de menu
 
-Les standards automatiques du Cloud vous permettent de créer des invites de menu («appuyer sur 1 pour les ventes, puis sur 2 pour les services») et de configurer les options de menu pour acheminer les appels en fonction de ce que l’utilisateur sélectionne. La configuration des options de menu d'un standard automatique permet à une organisation de fournir une assistance interactive pour orienter rapidement l'appelant vers sa destination, sans recourir à un opérateur humain pour la gestion des appels entrants. Les invites de menu peuvent être créées à l’aide de la conversion de texte par synthèse vocale ou du téléchargement d’un fichier audio qui a été enregistré. La reconnaissance vocale utilise des commandes vocales pour naviguer en mode mains libres, mais les appelants peuvent également utiliser leur clavier téléphonique pour parcourir les menus.
+Les standards automatiques du Cloud vous permettent de créer des invites de menu (« appuyer sur 1 pour les ventes, puis sur 2 pour les services ») et de configurer les options de menu pour acheminer les appels en fonction de ce que l’utilisateur sélectionne. La configuration des options de menu d'un standard automatique permet à une organisation de fournir une assistance interactive pour orienter rapidement l'appelant vers sa destination, sans recourir à un opérateur humain pour la gestion des appels entrants. Les invites de menu peuvent être créées à l’aide de la conversion de texte par synthèse vocale ou du téléchargement d’un fichier audio qui a été enregistré. La reconnaissance vocale utilise des commandes vocales pour naviguer en mode mains libres, mais les appelants peuvent également utiliser leur clavier téléphonique pour parcourir les menus.
   
 Les touches 0 à 9 peuvent être affectées à des **options de menu** dans un standard automatique à l’aide du centre d’administration Skype entreprise. Plusieurs ensembles d'options de menu peuvent être créés pour les heures d'ouverture et de fermeture et vous pouvez activer ou désactiver la fonction Numérotation par nom dans les **Options de menus**. Les touches peuvent être mappées pour transférer les appels vers :
   
 - Un opérateur, mappé vers la touche 0 par défaut. Néanmoins, il peut être réattribué à une autre clé ou supprimé du menu.
 - Une file d’attente d’appels.
-- Un autre standard automatique. Les menus de plusieurs niveaux peuvent être configurés en pointant une **option de menu** dans un standard automatique vers un autre standard automatique doté de son propre ensemble d’options de menu, qui est appelé standard automatique «imbriqué».
+- Un autre standard automatique. Les menus de plusieurs niveaux peuvent être configurés en pointant une **option de menu** dans un standard automatique vers un autre standard automatique doté de son propre ensemble d’options de menu, qui est appelé standard automatique « imbriqué ».
 - Un utilisateur de Microsoft teams disposant d’une licence de **système téléphonique** compatible voix entreprise ou dont les offres d’appels sont affectées. Vous pouvez le régler pour que la personne appelant soit redirigée vers la messagerie vocale. Pour ce faire, sélectionnez **une personne de votre entreprise** et configurez ses appels pour les rediriger automatiquement vers la messagerie vocale.
   
-Le nom de chaque option de menu devient un mot clé de reconnaissance vocale si la reconnaissance vocale est activée. Par exemple, les appelants peuvent prononcer «un» pour sélectionner l’option de menu mappée à la clé 1 ou simplement «ventes» pour sélectionner la même option de menu «ventes».
+Le nom de chaque option de menu devient un mot clé de reconnaissance vocale si la reconnaissance vocale est activée. Par exemple, les appelants peuvent prononcer « un » pour sélectionner l’option de menu mappée à la clé 1 ou simplement « ventes » pour sélectionner la même option de menu « ventes ».
   
 Pour configurer un standard automatique et les options de menu, sélectionnez [configurer un standard automatique Cloud](create-a-phone-system-auto-attendant.md).
   
