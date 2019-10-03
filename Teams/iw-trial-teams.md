@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
+ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018833"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37341867"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -71,9 +71,9 @@ Tous les essais au sein de votre organisation partagent les mêmes dates de déb
 
 ## <a name="manage-the-trial"></a>Gérer l’essai
 
-Les licences d’essai sont assignées de la même manière que toute autre abonnement acquis par un administrateur. Pour obtenir plus d’informations, consultez l’article [Attribuer des licences aux utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
+La version d’évaluation de Teams est destinée aux utilisateurs finaux individuels et vous ne pouvez pas lancer l’offre d’évaluation de Teams pour le compte d’employés de l’utilisateur final.
 
-De plus, les administrateurs peuvent désactiver la possibilité pour les utilisateurs finaux de réclamer des applications et services à l’essai au sein de leur organisation. Actuellement, l’essai décrit dans cet article est seul dans cette catégorie, mais il pourrait s’appliquer à d’autres programmes similaires à l’avenir. 
+Les administrateurs peuvent désactiver la possibilité pour les utilisateurs finaux de réclamer des évaluations des applications et services au sein de leur organisation. Actuellement, l’essai décrit dans cet article est seul dans cette catégorie, mais il pourrait s’appliquer à d’autres programmes similaires à l’avenir. 
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Empêcher les utilisateurs d’installer des applications et services à l’essai
 
