@@ -1,0 +1,121 @@
+### YamlMime:Tutorial
+title: Guide de démarrage rapide de terrain Worker
+metadata:
+  title: Guide de démarrage rapide de terrain Worker
+  description: Configurez un pilote efficace pour les travailleurs terrain en fonction de principes d’Agile et d’une approche itérative.
+  audience: IT Pro
+  level: Intermediate
+  displayType: one-column
+  ms.author: heidip
+  ms.reviewer: keschm
+  manager: serdars
+  ms.date: 02/09/2019
+  ms.service: msteams
+  ms.topic: tutorial
+  localization_priority: Normal
+  search.appverid: MET150
+  ms.collection:
+  - Teams_ITAdmin_PracticalGuidance
+  - Teams_ITAdmin_Training
+  - M365-collaboration
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: 3ded0147624291af1555dbec31d2c34fa950c6bd
+  ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "37391461"
+items:
+- durationInMinutes: 2
+  content: >
+    Dans cette formation, vous allez découvrir comment configurer un pilote efficace pour les travailleurs terrain en fonction de principes d’Agile et d’une approche itérative.
+
+    > [!NOTE]
+
+    > Veuillez vérifier et remplir les [conditions préalables et les dépendances environnementales des équipes](upgrade-plan-journey-prerequisites.md) avant de commencer le fonctionnement.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+
+
+    Cette formation vous est destinée si :
+
+    -   vous êtes un professionnel de l'informatique ;
+
+    -   Responsable de la planification ou du déploiement d’équipes pour les travailleurs terrain.
+
+
+    Nous aborderons les sections suivantes :
+
+    -   Rassemblez vos contacts
+
+    -   Planifier la logistique pilote
+
+    -   Configuration d’équipe technique et pilote
+
+    -   Lui
+
+    -   Action
+
+    -   Itérer et développer
+
+
+    Les informations suivantes n’entrent pas dans le champ d’application :
+
+    -   Ce contenu fait référence à la documentation relative au déploiement d’équipes pour un pilote de travailleur terrain, mais la configuration globale des équipes n’est pas l’objectif de cet article.
+
+
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
+
+
+    Si vous avez des questions ou des commentaires pour cette formation, veuillez :
+
+
+    -   Publiez dans la section des commentaires au bas de la page « Étapes suivantes » de ce didacticiel.
+
+
+    Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, visitez [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+- title: Rassemblez vos contacts
+  durationInMinutes: 4
+  content: "\nAssembler un groupe d’utilisateurs de votre entreprise, de vos communautés informatiques et de terrains pour agir en tant que partie prenante et équipe de décision pour votre pilote d’équipe pour les travailleurs terrain. N’oubliez pas d’inclure des personnes de toutes les 3 communautés pour vous offrir la meilleure chance de réussite :\n\nIdentifiez ensuite votre communauté pilote de phase 1 et assurez-vous qu’elle inclut des travailleurs terrain réels pour le regroupement logique le plus petit au sein de votre organisation. Par exemple, un restaurant, une division d’un magasin d’un service, l’un pour une boutique, l’un pour une seule personne, l’un pour l’autre, un centre de distribution, etc. La clé consiste à optimiser l’espace réservé à l’équipe terrain qui fait partie d’une équipe. Les responsables ou spécialistes pourront être dans plusieurs :\n\n### <a name=\"best-practice\"></a>Meilleure pratique\nIl est important d’inclure tous les rôles au sein du groupe logique le plus petit, entre les responsables et le temps de travail et les employés saisonniers pour découvrir les connaissances utiles et activer les scénarios de communication modernes. Votre équipe le plus expérimentée va vous étonner ! Certains scénarios intéressants et involontaires pour le rétablissement des pilotes d’exemples de clients sont les suivants :\n-   Attentes et formation normalisées : Voici une image d’une poêle propre pour illustrer le personnel de la cuisine. \"S’il ne ressemble pas à ceci, c’est qu’il n’est pas nettoyé !\"\n\n-   Réduction du retrait : en acceptant une photo d’un shoplifter connu et en notifiant immédiatement d’autres employés. Les équipes sur les Shifts futurs verront également cette image pour réduire les risques futurs.\n\n### <a name=\"decision-point\"></a>Point de décision\nÀ la fin de cette phase, vous devriez être en mesure de répondre à ces questions :\n-   Qui participera au programme pilote ?\n\n-   Quel est le regroupement logique le plus petit pour votre organisation ?\n"
+- title: Planifier la logistique pilote
+  durationInMinutes: 4
+  content: "\nDans le cas d’un pilote pour les travailleurs terrain, la simplicité est essentielle. Pour la plupart des clients, cette communauté n’est généralement pas fournie par une technologie de communication ou de collaboration prise en charge par l’entreprise, mais il est probable que des outils consommateurs non pris en charge sont déjà utilisés pour répondre à des besoins de base. Nous vous conseillons de commencer l’endroit où se trouvent vos utilisateurs et de reproduire les fonctionnalités qu’ils utilisent dans les outils grand public dès aujourd’hui. À mesure que le processus d’itération et le processus d’itération démarrent, vous pouvez développer l’évolution de votre travail.\n\n### <a name=\"not-sure-what-consumer-tools-these-users-are-currently-using\"></a>Vous ne connaissez pas les outils particuliers que ces utilisateurs utilisent actuellement ?\nLes exemples d’enquêtes d’utilisateur sont inclus dans le pilote du « pilote » du travailleur terrain. Utilisez l’enquête en prépilote pour inventorier les outils, les fonctionnalités et les scénarios.\n\n### <a name=\"chat-configuration-options\"></a>Options de configuration de conversation\nDans chat sur mobile, vous pouvez utiliser la disposition de conversation classique d’une équipe ou d’une disposition incluant des canaux préférés. Cette deuxième interface utilisateur simplifiée fonctionne bien pour les travailleurs terrain qui appartiennent à une seule équipe et est la meilleure pratique recommandée. La configuration de l’option « Afficher les canaux préférés dans la conversation » crée également une opportunité de supprimer le bouton « teams » de la stratégie de configuration de l’application terrain pour rationaliser et simplifier l’utilisation de l’utilisateur final sans aucune perte de fonctionnalité. Ce n’est pas recommandé pour les utilisateurs qui se trouvent dans plusieurs équipes. Heureusement, il est possible de configurer ce niveau sur une base par utilisateur et de le rendre plus sophistiqué selon vos besoins.\n\n### <a name=\"best-practice\"></a>Meilleure pratique\nConfigurez la phase 1 de l’utilisation de teams terrain pour imiter les outils particuliers que ces utilisateurs utilisent déjà. Nous vous conseillons de démarrer votre pilote pour les travailleurs terrain avec l’option « Afficher les canaux préférés dans les discussions » pour des communications et des équipes simplifiées (facultatif).\n\n|  Avec les Shifts  |  Sans décalages  |\n|---------------|------------------|\n|![Image d’écran d’un téléphone avec l’option équipes ajoutée en bas.](media/firstline-worker-chat-with-shifts.png)    |![Image d’écran d’un téléphone sans option de décalage ajoutée dans la barre inférieure.](media/firstline-worker-chat-without-shifts.png)|\n\n### <a name=\"decision-points\"></a>Points de décision :\n\n-  Quelles sont les fonctionnalités dans la phase 1 de votre pilote pour les travailleurs terrain ?\n-  Les employés de votre terrain ont-ils besoin d’une équipe ?\n-  Quelle configuration de conversation utiliserez-vous ?\n"
+- title: Configuration d’équipe technique et pilote
+  durationInMinutes: 25
+  content: "\nSi vous ne l’avez pas encore fait, Merci de remplir les conditions préalables techniques mises en évidence au début de cette documentation [et des dépendances environnementales pour teams](upgrade-plan-journey-prerequisites.md). Le fait de comprendre les conditions préalables techniques et de configurer l’équipe pilote initiale le planning technique efficace est la base d’une excellente utilisation de l’utilisateur. Il s’agit de la création de l’équipe et de l’invitation des travailleurs terrain identifiés.\n\n### <a name=\"app-policy-configuration\"></a>Configuration de la stratégie d’application\nCréez une stratégie de configuration d’application personnalisée en fonction des décisions de l’étape 2.\n\n1. Accédez à la console d’administration Skype et teams [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)située à l’adresse.\n1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **applications d’équipe > stratégies de configuration**.\n1. Sélectionnez **nouvelle stratégie** (il existe une stratégie FirstLineWorker par défaut que vous pouvez choisir d’utiliser au lieu de créer une stratégie personnalisée).\n1. Entrez un nom descriptif pour la stratégie. Supprimez et réorganisez les applications épinglées en fonction de votre état souhaité. Cliquez sur **Ajouter** des applications pour ajouter des applications tierces ou des applications métier personnalisées que vous souhaitez inclure.\n\n![Liste des applications épinglées.](media/firstline-worker-pinned-apps.png)\n\n### <a name=\"messaging-policy-configuration\"></a>Configuration de la stratégie de messagerie\nCréez une stratégie de messagerie personnalisée en fonction des décisions de l’étape 2. Si vous choisissez d’activer les notifications de priorité, les messages vocaux ou la configuration « afficher les canaux favoris dans la conversation », vous devrez configurer une stratégie de messagerie spécifique du travailleur terrain.\n\n1. Accédez à la console d’administration Skype et teams [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)située à l’adresse.\n1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **stratégies de messagerie**.\n1. Sélectionnez **nouvelle stratégie**.\n1. Entrez un nom descriptif pour la stratégie, puis configurez les paramètres comme vous le souhaitez conformément aux décisions de l’étape 2.\n\n### <a name=\"pilot-team-configuration\"></a>Configuration d’équipe pilote\nConfigurez l’équipe initiale pour les utilisateurs pilote identifiés à l’étape 2.\n1. Accédez à la console d’administration Skype et teams [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)située à l’adresse.\n1. Accédez à Teams.\n\n![Sélection du menu équipes.](media/firstline-worker-teams-bar.png)\n\n3. Dans la page **Teams, sélectionnez nouvelle équipe** .\n\n![Page Teams.](media/firstline-worker-teams-page.png)\n\n4. Renseignez les champs obligatoires, y compris le nom de l’équipe, la description, puis sélectionnez le propriétaire de l’équipe et le niveau de confidentialité appropriés. Veillez à ce que le nom de votre équipe soit descriptif et envisagez de développer le pilote pour plusieurs équipes. Sélectionnez **créer une équipe**.\n\n![Microsoft teams : créer un menu d’équipe.](media/firstline-worker-create-new-team.png)\n\n5. Sélectionnez l’équipe que vous avez créée pour ouvrir la page Détails de l' **équipe** .\n\n![Page Détails de teams.](media/firstline-worker-team-details-page.png)\n\n6. Sélectionnez **canaux** pour afficher la liste actuelle des canaux.\n7. Sélectionnez **Ajouter un canal** pour ajouter d’autres canaux généraux dont vous pensez avoir besoin pour votre groupe pilote.\n![Fenêtre Ajouter une sélection de canal de Microsoft Teams.](media/firstline-worker-add-channel.png)\n\n### <a name=\"decision-point\"></a>Point de décision\n\n-  Combien de canaux/rubriques de conversation souhaitez-vous pour votre pilote ?\n-  Quels sont les sujets qui vous sembleront appropriés pour vos scénarios ?\n\n### <a name=\"best-practice\"></a>Meilleure pratique\n**Gardez les canaux simples**. Nous vous conseillons de résister à une invite de création de canal pour chaque rubrique d’une conversation que vous pouvez utiliser. C’est OK si les canaux sont créés au fil du temps selon les besoins.\n  \n![Le contenu des onglets canaux s’affiche dans Teams.](media/firstline-worker-channels-tab.png)\n\n### <a name=\"user-configuration-admin-console\"></a>Configuration de l’utilisateur : console d’administration\nAppliquez les stratégies de configuration d’application et de paramètre de messagerie que vous avez créées ci-dessus à vos utilisateurs pilote.\n1. Accédez à la console d’administration Skype et teams [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)située à l’adresse.\n1. Accédez à utilisateurs.\n\n![Sélection du menu utilisateur de teams.](media/firstline-worker-users-bar.png)\n\n3. Recherchez les utilisateurs pilote par leur nom.\n\n![Page informations utilisateur de teams.](media/firstline-worker-users-page.png)\n\n4. Cliquez sur le nom complet de l’utilisateur pour ouvrir l’écran des détails de l’utilisateur.\n5. Sélectionnez **modifier** en regard de stratégies affectées.\n\n![Page des détails de l’utilisateur sur Teams.](media/firstline-worker-user-details-page.png)\n\n6. Cliquez sur la liste déroulante Stratégie de configuration de l' **application teams** , sélectionnez la stratégie créée pour votre pilote, puis cliquez sur Enregistrer.\n7. Cliquez sur la liste déroulante **stratégie de messagerie teams** , sélectionnez la stratégie créée pour votre pilote, puis cliquez sur Enregistrer.\n\n![Fenêtre teams-modifier les stratégies utilisateur.](media/firstline-worker-edit-user-policies.png)\n\n8. Répétez ces étapes pour tous les utilisateurs pilote.\n\n### <a name=\"user-configuration-powershell\"></a>Configuration de l’utilisateur : PowerShell\nLorsque vous avez un grand nombre d’utilisateurs avec lesquels vous souhaitez appliquer une stratégie, il est possible d’utiliser PowerShell de manière plus efficace.\n\n#### <a name=\"assign-the-firstlineworker-app-setup-policy-to-users-in-a-group\"></a>Affecter la stratégie de configuration de l’application FirstLineWorker aux utilisateurs d’un groupe\nVous pouvez affecter la stratégie de configuration de l’application FirstLineWorker aux utilisateurs d’un groupe, tel qu’un groupe de sécurité, en vous connectant au service Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise. Pour plus d’informations sur l’utilisation de PowerShell pour gérer Teams, voir [vue d’ensemble de teams PowerShell](teams-powershell-overview.md).\nDans cet exemple, nous affectons la stratégie de configuration de l’application FirstLineWorker à tous les utilisateurs du groupe Bellevue contoso Store 1302.\n\n> [!NOTE]\n> Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).\n\nObtenez la GroupObjectId du groupe en particulier.\n`$group = Get-AzureADGroup -SearchString \"Bellevue Contoso Store 1302\"`\n\nObtenez les membres du groupe spécifié.\n`$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq \"User\"}`\n\nAssignez tous les utilisateurs du groupe à la stratégie de configuration de l’application FirstLineWorker.\n`$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName \"FirstLineWorker\" -Identity $_.EmailAddress}`\nEn fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.\n\n#### <a name=\"invite-the-manager-and-firstline-workers\"></a>Inviter le responsable et les travailleurs terrain\nÀ présent que la structure de l’équipe et les stratégies utilisateur sont appliquées, il est temps de commencer à inviter vos travailleurs terrain.\n1. Accédez à la console d’administration Skype et teams [https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/)située à l’adresse.\n1. Accédez à Teams.\n\n![Sélection du menu équipes.](media/firstline-worker-teams-bar.png)\n\n3. Recherchez l’équipe créée lors de la phase de configuration de l’équipe pilote.\n4. Sélectionnez l’équipe que vous avez créée pour ouvrir la page Détails de l’équipe.\n\n![Page Détails de teams.](media/firstline-worker-team-details-page.png)\n\n5. Sélectionnez **Ajouter des membres**.\n6. Recherchez les noms des membres pilotes, puis cliquez sur **Enregistrer**.\n"
+- title: Lui
+  durationInMinutes: 1
+  content: "\nInformez vos travailleurs terrain de leur participation au programme pilote, les objectifs du pilote et la formation, si nécessaire, sur les fonctions de base. Pour la plupart des clients, il peut s’agir d’une simple instruction pour rendre les utilisateurs Google Play ou Apple Store sur leurs appareils mobiles personnels, de télécharger l’application Microsoft teams et de se connecter à l’aide des informations d’identification de leur société. Nous avons conçu Microsoft teams avec une interface simple et facile à utiliser, qui permet à la plupart des travailleurs terrain de se retrouver intuitif. Si vous souhaitez obtenir d’autres supports de cours et modèles de communication, vous pouvez les retrouver dans votre pilote terrain en une Box.\n\n### <a name=\"best-practice\"></a>Meilleure pratique\nN’oubliez pas de former vos directeurs aux équipes. Si vous envisagez d’inclure des équipes dans votre pilote, assurez-vous d’organiser une session de formation distincte avec vos responsables pour savoir comment créer, gérer et publier des plannings pour leur équipe. Si vous souhaitez obtenir d’autres supports de cours et modèles de communication, vous pouvez les retrouver dans votre pilote terrain en une Box.\n"
+- title: Action
+  durationInMinutes: 1
+  content: "\nLe fait d’offrir à vos travailleurs terrain est plus de ressources que la technologie. Pour mieux comprendre l’impact d’une équipe, restez au courant de votre terrain de travail. Étudiez-les avant, pendant et après le projet pilote, afin de comprendre leurs besoins, points névralgiques et réactions. Si vous effectuez une itération sur votre pilote et que vous ajoutez de nouvelles fonctionnalités dans le temps, ce commentaire peut vous aider à orienter la commande, la vitesse, ou même si des fonctions supplémentaires sont nécessaires. Pour vous aider à évaluer le succès de votre pilote, vous pouvez les retrouver dans votre pilote terrain en une Box.\n### <a name=\"best-practice\"></a>Meilleure pratique\n**Entretenir vos champions et surligner votre victoire**. Récompensez vos travailleurs terrain pour s’adapter à ces nouveaux outils et les utiliser de manière novatrice et en rapport avec les résultats commerciaux de votre entreprise. Au-delà de tout ce qui se passe, vous garantirez la poursuite de l’adoption des équipes et de la valeur de votre entreprise.\n"
+- title: Réitér
+  durationInMinutes: 1
+  content: "\nÀ présent que vous avez terminé votre premier pilote avec un groupe initial de travailleurs terrain, il est temps de développer. Il est temps de passer à l’étape 1 en utilisant l’une des différentes options d’extension ci-dessous. Nous vous recommandons de travailler dans ce processus autant de fois que nécessaire pour parvenir à une solution, à l’ensemble des meilleures pratiques et à la documentation de formation pour tous vos travailleurs terrain.\n\n-   Développer le nombre d’équipes\n    -   Au lieu d’un emplacement, peut-on faire une région ? Voulez-vous une équipe pour l’ensemble de la région ou des équipes individuelles pour chaque emplacement ?\n-   Développez les fonctions fournies.\n   -   Existe-t-il une fonctionnalité clé que vos collaborateurs de terrain ont-ils suggérés pour vos formulaires de commentaires, tels que les Shifts, que vous n’avez pas inclus dans votre ensemble de fonctionnalités initial ?\n"
+- title: Étapes suivantes
+  durationInMinutes: 1
+  content: >
+    Au cours de cette formation, nous avons abordé les sujets suivants :
+
+    -   Planification d’un pilote de travailleur terrain dans teams
+
+    -   Configuration du pilote
+
+    -   Communication, mesure et itération en fonction de l’implémentation pilote
+
+
+    ### <a name="next-steps"></a>Étapes suivantes
+
+
+    1.  Continuez à utiliser teams pour modifier les besoins des travailleurs de votre organisation.
+
+    2.  Faites-nous part de vos commentaires :
+        - Publiez-les dans la section Commentaires au bas de cette page.
+        - Pour nous faire part de vos commentaires sur le produit Teams, ou pour demander une nouvelle fonctionnalité, rendez-vous sur [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    3.  Restez à jour :
+        - Suivez le [blog teams](https://aka.ms/teamsblog).
+        - Lire la [documentation](https://aka.ms/O365Roadmap)relative aux équipes.
+        - Découvrez les dernières fonctionnalités finales dans les [notes de publication](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+    4.  Explorez [les autres formations et didacticiels](https://aka.ms/Teamsacademy).

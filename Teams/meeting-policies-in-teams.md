@@ -3,10 +3,9 @@ title: Gérer les stratégies de réunion
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: sonua, shalenc
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -22,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: eff7eb41b5dccba299f8650c5771b33df04e719b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
+ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236620"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391440"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
 ::: zone target="docs"
 Les stratégies de réunion sont utilisées pour contrôler les fonctionnalités qui sont disponibles pour les réunions planifiées par les utilisateurs de votre organisation. Lorsque vous créez une stratégie et apportez les modifications souhaitées, vous pouvez attribuer des utilisateurs à la stratégie. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en [utilisant PowerShell](teams-powershell-overview.md).
 
-Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur l’interface de réunion pour les utilisateurs avant le début d’une réunion, pendant une réunion ou après une réunion. 
+Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur l’interface de réunion pour les utilisateurs avant le début d’une réunion, pendant une réunion ou après une réunion.
 
 |Type d’implémentation  |Description  |
 |---------|---------|
@@ -48,7 +47,7 @@ Par défaut, la création d’une stratégie nommée global (au niveau de l’or
 
 Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams >**politiques**des **réunions** > . Sélectionnez une stratégie dans la liste ou sélectionnez **nouvelle stratégie**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
 
-Par exemple, imaginons que vous disposiez d’un certain nombre d’utilisateurs et que vous voulez limiter la bande passante nécessaire à la réunion. Vous pouvez créer une stratégie personnalisée nommée «bande passante limitée» et désactiver les paramètres suivants:
+Par exemple, imaginons que vous disposiez d’un certain nombre d’utilisateurs et que vous voulez limiter la bande passante nécessaire à la réunion. Vous pouvez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
 
 Sous **Audio & vidéo**:
 - Désactiver l’enregistrement dans le Cloud
@@ -70,9 +69,9 @@ Si vous appliquez une stratégie à un utilisateur, sélectionnez **utilisateurs
  
 Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez **utilisateurs** dans le volet de navigation gauche, puis sélectionnez chaque utilisateur en cliquant à gauche du nom de l’utilisateur, puis cliquez sur **modifier les paramètres**. Dans le volet **modifier les paramètres** , sous stratégie de **réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**.
  
-Vous pouvez également affecter une stratégie de réunion à un ou plusieurs utilisateurs comme suit:
+Vous pouvez également affecter une stratégie de réunion à un ou plusieurs utilisateurs comme suit :
 
-1. Accédez**** > au **Centre** > d’administration Microsoft teams**stratégies de réunion**.
+1. **** > Accédez au centre > d' **administration Microsoft teams****stratégies de réunion**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -104,7 +103,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 
 ### <a name="allow-meet-now-in-channels"></a>Autoriser la Conférence maintenant dans les canaux
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour démarrer une réunion ad hoc dans le canal.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal.
 
 ![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
 
@@ -132,7 +131,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée sur un canal d’une équipe.
 
-Remarque: Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, l’option **planifier une réunion** ne sera pas disponible et les utilisateurs ne seront pas en mesure de planifier des réunions dans Teams.
+Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, l’option **planifier une réunion** ne sera pas disponible et les utilisateurs ne seront pas en mesure de planifier des réunions dans Teams.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -142,7 +141,7 @@ Remarque: Si vous désactivez l’option **autoriser la planification de réunio
 - [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
 - [Autoriser la vidéo IP](#allow-ip-video)
 - [Taux d’échantillonnage du support (Ko)](#media-bit-rate-kbs)
-- [Activer les légendes dynamiques (bientôt disponible)](#enable-live-captions-coming-soon)
+- [Activer les légendes dynamiques (Preview)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Autoriser la transcription
 
@@ -199,9 +198,17 @@ S’il n’y a pas assez de bande passante pour une réunion, un message s’aff
 
 Pour les réunions qui ont besoin d’une vidéo de qualité optimale, telle que les réunions du tableau PDG et les événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia de teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario. 
 
-### <a name="enable-live-captions-coming-soon"></a>Activer les légendes dynamiques (bientôt disponible)
+### <a name="enable-live-captions-preview"></a>Activer les légendes dynamiques (Preview)
 
-Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une réunion. Si ce paramètre est activé, l’utilisateur peut voir une option pour afficher les légendes pendant une réunion.
+Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une réunion. Ce paramètre détermine si l’option **activer les légendes dynamiques** est disponible pour permettre à l’utilisateur d’activer et de désactiver les légendes dynamiques lors des réunions que l’utilisateur attend.  
+
+![Capture d’écran montrant l’option Activer les légendes dynamiques](media/meeting-policies-live-captions.png)
+
+|Définition de la valeur |Comportement  |
+|---------|---------|
+|**Désactivé et l’utilisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement (**...**) pour l’activer. Il s’agit du paramètre par défaut. |
+|**Désactivé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur ne dispose pas de l’option pour l’activer.          |
+
 
 <a name="bkcontentsharing"> </a>
 
@@ -259,7 +266,7 @@ Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à céder ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les participants externes d’une réunion peuvent donner le contrôle de leur bureau ou fenêtre partagée aux autres participants à la réunion. Les participants externes aux réunions teams peuvent être classés comme suit:  
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les participants externes d’une réunion peuvent donner le contrôle de leur bureau ou fenêtre partagée aux autres participants à la réunion. Les participants externes aux réunions teams peuvent être classés comme suit :  
 
    - Utilisateur anonyme
    - Utilisateurs invités  
@@ -320,7 +327,6 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Admettre automatiquement des personnes](#automatically-admit-people)
 - [Autoriser les personnes anonymes à commencer une réunion](#allow-anonymous-people-to-start-a-meeting)
 - [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [Permettre aux organisateurs de remplacer les paramètres de la salle d’attente](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >Les options de participation à une réunion varient en fonction des paramètres de chaque groupe équipes et de la méthode de connexion. Si votre groupe comporte une audioconférence et qu’elle est utilisée pour se connecter, voir [audioconférence dans Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si ce n’est pas le cas, reportez-vous à la rubrique [participer à une réunion dans teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -382,31 +388,6 @@ Voici le comportement de participation des personnes qui se connectent par tél�
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
 |   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>Permettre aux organisateurs de remplacer les paramètres de la salle d’attente (bientôt disponible)
-
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si l’organisateur de la réunion peut remplacer les paramètres de la salle d’attente qu’un administrateur a défini **automatiquement** et **permettre aux utilisateurs rendez-vous d’utiliser la salle d'** attente lors de la planification d’une nouvelle réunion. 
-
-Les organisateurs de la réunion peuvent cliquer sur options de la **réunion** dans l’invitation à la réunion pour modifier les paramètres de la salle d’attente pour chaque réunion qu’elles planifient 
-
-Ce paramètre détermine si l’organisateur de la réunion peut changer le paramètre d' **admission automatique de personnes** pour chaque réunion planifiée par l’organisateur.
-
-|Permettre aux organisateurs de remplacer les paramètres de la salle d’attente  |Admettre automatiquement des personnes  |Comportement |
-|---------|---------|---------|
-|True    | Tout le monde      | Organizer peut changer le paramètre en n’importe quelle autre valeur. |
-|   | Tout le monde dans votre organisation       | Organizer peut changer le paramètre en n’importe quelle autre valeur.|
-|   | Tout le monde au sein de votre organisation et organisations fédérées       | Organizer peut changer ce type de valeur.         |
-|False    | Tout le monde        | Organizer peut changer le paramètre en n’importe quelle autre valeur.|
-|   | Tout le monde dans votre organisation     |L’organisateur peut changer le paramètre pour **toutes les personnes de votre organisation**. |
-|   | Tout le monde au sein de votre organisation et organisations fédérées      | L’organisateur ne peut pas remplacer le paramètre de salle d’attente. |
-
-Voici comment ce paramètre détermine si l’organisateur de la réunion peut changer le paramètre **autoriser les utilisateurs rendez-vous à l’aide du paramètre salle d’attente** de chaque réunion de l’organisateur.
-    
-|Permettre aux organisateurs de remplacer les paramètres de la salle d’attente  |Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Comportement |
-|---------|---------|---------|
-|True    |  True        | L’organisateur peut changer le paramètre en faux.       |
-|True      | False         | Organizer peut changer le paramètre en true.        |
-|False     | True        |L’organisateur peut changer le paramètre en faux.         |
-|False      |False          |L’organisateur ne peut pas remplacer le paramètre salle d’attente et ne peut pas permettre aux utilisateurs rendez-vous d’utiliser la salle d’attente de la réunion.        |
 
 [Article complet](meeting-policies-in-teams.md)
 
