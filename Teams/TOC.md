@@ -660,7 +660,7 @@
 
 # Connectivité hybride 
 
-## [Planifier une connectivité hybride](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Planifier une connectivité hybride](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Configurer la connectivité hybride
 ### [Vue d’ensemble](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
@@ -673,7 +673,7 @@
 ### [Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Déplacer des utilisateurs du cloud vers l’environnement local](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Gérer les stratégies de migration](https://docs.microsoft.com/fr-FR/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Gérer les stratégies de migration](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
 ## [Désactiver le mode hybride pour terminer la migration vers le cloud](https://docs.microsoft.com/fr-FR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -698,6 +698,7 @@
 # Conseils pour les industries et le secteur public
 ## [Vue d’ensemble](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Prise en main des modèles Teams](get-started-with-teams-templates.md)
+## [Démarrage rapide pour les employés de terrain](firstline-workers-quickstart.yml)
 ## [Shifts pour Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Fin de parcours pour Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Installer le module PowerShell Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
