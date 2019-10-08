@@ -123,10 +123,6 @@
 
 ## [Système téléphonique et forfaits d’appels](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Problèmes connus relatifs aux forfaits d’appel](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
-### [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
-### [Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
-### [Affectation ou modification d’une adresse d’urgence pour un utilisateur](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Attribuer ou modifier l’emplacement d’urgence pour un utilisateur](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
 ### [Créer et gérer les plans de numérotation](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Comment obtenir des forfaits d'appels pour Office 365](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Utilisation d’un ID d’appelant dans votre organisation](/microsoftteams/how-can-caller-id-be-used-in-your-organization?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
