@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241996"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434658"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -30,9 +30,9 @@ Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de 
     
 ![Capture d’écran montrant un exemple de message électronique de bienvenue](media/guest-experience-image1.png)
     
-Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Comme le montre la capture d’écran suivante d’une équipe, une bannière indique «cette équipe a des invités» et une étiquette «(invité)» apparaît en regard du nom de chaque invité.
+Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Comme le montre la capture d’écran suivante d’une équipe, une bannière indique « cette équipe a des invités » et une étiquette « (invité) » apparaît en regard du nom de chaque invité.
     
-![Capture d’écran illustrant des notifications de bannière aux utilisateurs invités] La (media/guest-experience-image2.png "capture d’écran montre une partie du canal marketing de Northwind Traders, avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le mot «Guest» à côté de leur nom.")
+![Capture d’écran illustrant les notifications de bannière utilisateurs invités](media/guest-experience-image2.png "capture d’écran montrant une partie du canal marketing de Northwind Traders avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le INVITÉ Word en regard de son nom.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparaison entre le membre d’équipe et les fonctionnalités d’invité
 
@@ -54,6 +54,7 @@ Le tableau suivant compare la fonctionnalité de Microsoft Teams disponible pou
 |Créer une équipe  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Rechercher et rejoindre une équipe publique  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Afficher l'organigramme  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Utiliser la traduction intraligne  <br/> |![Icône représentant une coche ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 Le tableau suivant répertorie les fonctionnalités d’appel et de réunion accessibles aux invités.
 
@@ -97,29 +98,29 @@ Le tableau suivant répertorie les fonctionnalités d’appel et de réunion acc
  
 ## <a name="frequently-asked-questions"></a>Forum aux questions
 
-F. Comment puis-je laisser une organisation à laquelle j’ai été invité?<br>
+F. Comment puis-je laisser une organisation à laquelle j’ai été invité ?<br>
 Un. Si vous avez été invité à une organisation dont vous ne voulez pas être invité, vous pouvez choisir de quitter l’organisation. Pour plus d’informations, voir [quitter une organisation en tant qu’utilisateur invité](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Par ailleurs, vous pouvez demander à l’administrateur de l’organisation de vous supprimer de son locataire. Notez que, dans tous les cas, vous devrez être réinvité pour le client si vous souhaitez accéder à l’organisation ultérieurement.
 
-F. Les invités ont-ils les mêmes fonctionnalités que les membres de l’équipe?<br>
+F. Les invités ont-ils les mêmes fonctionnalités que les membres de l’équipe ?<br>
 Un. Non. Pour plus d’informations sur ce qu’un invité peut et ne peut pas faire, consultez la rubrique [comparaison des fonctionnalités de membre d’équipe et d’invité](#comparison-of-team-member-and-guest-capabilities) dans cet article.
 
-F. Combien d’invités puis-je inviter?<br>
+F. Combien d’invités puis-je inviter ?<br>
 Un. Vous pouvez ajouter jusqu’à 5 invités par utilisateur sous licence.
 
-F. Les invités peuvent-ils accéder à OneDrive entreprise?<br>
+F. Les invités peuvent-ils accéder à OneDrive entreprise ?<br>
 Un. Non.
 
-F. Les invités peuvent-ils accéder aux fichiers SharePoint?<br>
+F. Les invités peuvent-ils accéder aux fichiers SharePoint ?<br>
 Un. Oui.
 
-F. Les invités peuvent-ils effectuer une recherche dans les fichiers?<br>
+F. Les invités peuvent-ils effectuer une recherche dans les fichiers ?<br>
 Un. Non.
 
-F. Les invités peuvent-ils joindre des fichiers?<br>
-Un. Oui, un invité peut joindre des fichiers de deux manières:
+F. Les invités peuvent-ils joindre des fichiers ?<br>
+Un. Oui, un invité peut joindre des fichiers de deux manières :
 
    - Sélectionnez fichiers dans le volet gauche, puis accédez à l’emplacement du fichier.
    - Chargez des fichiers à partir de leur ordinateur.
 
-F. Un invité peut-il télécharger un fichier dans une conversation privée?<br>
+F. Un invité peut-il télécharger un fichier dans une conversation privée ?<br>
 Un. Oui, il peut recevoir un fichier d’un membre d’une conversation privée, puis le télécharger sur son bureau.

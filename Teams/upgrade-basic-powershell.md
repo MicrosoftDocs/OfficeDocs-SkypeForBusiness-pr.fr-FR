@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 945422f6bb61fca8d2b17379a7c9bf4695e7dd09
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 397cabcbba35c153d234bc4355d12e4eb44b5c57
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236540"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435088"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Mise à niveau de vos utilisateurs de Skype entreprise Online vers Microsoft teams
 
@@ -36,6 +36,6 @@ Si vous êtes prêt à effectuer la mise à niveau vers la version actuelle, vou
 
 | Étape de mise à niveau de base # | Veille | Commande PowerShell |
 |---|---|---|
-| [5](upgrade-basic.md#step-5) | Îles + informer l’utilisateur de Skype entreprise<br>(Utilisez cette commande si les utilisateurs sont actuellement en mode **îlot** (par défaut)) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(par exemple, $SipAddress = 'TestUser@contoso.com')*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
-| [5](upgrade-basic.md#step-5) | Skype entreprise uniquement + informer l’utilisateur de Skype entreprise <br>(Utilisez cette commande si les utilisateurs sont actuellement en mode **Skype entreprise uniquement** ) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
-| [7](upgrade-basic.md#step-7) | Équipes uniquement | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress``` |
+| [5](upgrade-basic.md#step-5) | Îles + informer l’utilisateur de Skype entreprise<br>(Utilisez cette commande si les utilisateurs sont actuellement en mode **îlot** (par défaut)) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(par exemple, $SipAddress = 'TestUser@contoso.com')* |
+| [5](upgrade-basic.md#step-5) | Skype entreprise uniquement + informer l’utilisateur de Skype entreprise <br>(Utilisez cette commande si les utilisateurs sont actuellement en mode **Skype entreprise uniquement** ) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |
+| [7](upgrade-basic.md#step-7) | Équipes uniquement | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress```  |

@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838077"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435146"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -43,7 +43,7 @@ Les journaux seront en sortie sous forme de fichier ZIP dans c:\rigel.
 Configurez l’écran d’affichage en mode étendu. Cela permet de s’assurer que l’interface utilisateur de la console n’est pas dupliquée sur cet écran lorsque vous allumez le mode d’affichage.
   
 > [!NOTE]
-> Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  En fonction du Dock ou de la console sélectionné (qui peut ne pas prendre en charge CEC, voir documentation du fabricant), un contrôleur d’espace de travail tel qu’un [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) peut être nécessaire pour activer le comportement souhaité. 
+> Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  Selon la station d’accueil ou la console sélectionnée (qui n’est pas compatible avec le format CEC, consultez la documentation du support technique), un contrôleur tel qu’une connexion [HD-RX-201-C-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) à partir d’Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron peut être nécessaire pour activer l’option souhaitée. fonctionnement. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Réinitialisation des salles de Microsoft Teams (restauration d’usine)
 <a name="Reset"> </a>

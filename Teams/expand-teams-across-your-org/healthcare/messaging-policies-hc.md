@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec la messagerie sécurisée pour les organismes de santé
-ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: 05a8454201601ebf4e2689f8399547c1af80c971
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306681"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434949"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Démarrage avec la messagerie sécurisée pour les organismes de santé
 
@@ -47,6 +47,8 @@ Les paramètres suivants sont particulièrement intéressants pour les applicati
     *Exemple d’utilisation avec confirmations de lecture :* Jakob Roth, un patient à haut risque, est admis aux hôpitaux.Le Sofia Krause est une infirmier qui travaille dans le cadre de l’équipe interdisciplinaire (IDT) des travailleurs médicaux, y compris des spécialistes, est désigné comme le coordinateur principal responsable du patient.  Sofia démarre une discussion de groupe avec un ensemble de médecins et d’autres infirmières qui travaillent avec le patient pour coordonner les soins et commencer un triage d’urgence.Les infirmières et les médecins communiquent et collaborent au plan de soins du patient tout au long du processus de coordination des soins.  Les messages importants et urgents sont envoyés via 1:1 et les conversations de groupe. Sofia utilise la fonctionnalité de confirmation de lecture pour déterminer si les messages envoyés demandant une assistance sont remis et lus par les médecins ou les infirmières ciblés. Les résultats du patient de Jakob sont les plus proches et qu’ils s’ouvrent plus rapidement, car l’équipe de soins communiquera en toute transparence.
 
 ## <a name="priority-notifications"></a>Notifications de priorité
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 

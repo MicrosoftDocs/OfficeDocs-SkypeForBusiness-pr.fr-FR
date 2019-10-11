@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 46d4edb3b5345fcd2267716968a2987c96259efb
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767111"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435205"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 Government-déploiements de niveau supérieur
 
@@ -85,7 +85,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Organigramme | Disponibles |
 | | Interactive | Disponibles |
 | | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Disponibles |
-| Équipes | Message du canal | Disponibles |
+| Teams | Message du canal | Disponibles |
 | | Fichiers de canal | Disponibles |
 | | Onglet OneNote | Sur le backlog du secteur public |
 | | Envoyer un canal par courrier électronique | Non disponibles |
@@ -109,7 +109,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Appel VoIP | Disponibles |
 | | Skype pour les entreprises : appel d’équipes | Disponibles |
 | | Forfaits d'appels | Non disponible |
-| | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Sur le backlog du secteur public |
+| | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Disponibles |
 | | Routage direct du système Microsoft Phone | Sur le backlog du secteur public |
 | | Salle d’attente pour les appelants PSTN | Sur le backlog du secteur public |
 | | File d’attente d’appels | Sur le backlog du secteur public |

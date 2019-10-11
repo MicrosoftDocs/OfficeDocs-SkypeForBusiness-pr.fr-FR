@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82fbaa955c080446619558a7a90410200f4be604
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: e2b74226825203937a243de9ebecb550113ff21c
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715681"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434825"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -31,6 +31,7 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Fonctionnalité    | Limite maximale |
 |-----------|---------------|
 |Nombre d’équipes qu’un utilisateur peut créer | Soumis à une limite objet de 250 et sup1 ;         |
+|Nombre de groupes dont un utilisateur peut-être membre|1 000|
 |Nombre de membres dans une équipe. | 5,000       |
 |Nombre d’équipes à l’échelle de l’organisation autorisées dans un client | 5     |
 |Nombre de membres dans une[équipe à l’échelle de l’organisation](create-an-org-wide-team.md) | 5 000       |

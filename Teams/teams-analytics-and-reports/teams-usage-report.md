@@ -15,12 +15,12 @@ ms.collection:
 description: Découvrez comment utiliser le rapport utilisation Teams dans le centre d’administration de Microsoft Teams pour obtenir une vue d’ensemble de l’activité des équipes dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131596"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439571"
 ---
 # <a name="microsoft-teams-usage-report"></a>Rapport d’utilisation de Microsoft Teams
 
@@ -31,7 +31,7 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez utilisation des **équipes**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
-    ![Rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec légendes] (../media/teams-reports-teams-usage-with-callouts.png "Rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec légendes")
+    ![Rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec les légendes](../media/teams-reports-teams-usage-with-callouts.png "du rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec légendes")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
@@ -44,6 +44,8 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 |**5**   |Le tableau présente une répartition de l’utilisation par équipe. <ul><li>**Nom** de l’équipe correspond au nom d’affichage de l’équipe. Vous pouvez cliquer sur le nom de l’équipe pour accéder à la page des paramètres de l’équipe dans le centre d’administration Microsoft Teams. </li> <li>**Confidentialité** indique si l’équipe est une équipe privée ou publique.</li> <li>**Utilisateurs actifs** correspond au nombre d’utilisateurs actifs dans l’équipe pour la période spécifiée.</li><li>**Invités** correspond au nombre d’invités dans l’équipe pour la période spécifiée.</li> </li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur est affiché en tant que « -- » dans la table. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 |**7**   |Vous pouvez exporter le rapport dans un fichier CSV pour une analyse hors connexion. Cliquez sur **Exporter vers Excel**, puis sous l’onglet **téléchargements** , cliquez sur **Télécharger** pour télécharger le rapport dès qu’il est prêt.<br><br>![Capture d’écran de l’onglet téléchargements montrant les rapports exportés à télécharger](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>Voir aussi
 

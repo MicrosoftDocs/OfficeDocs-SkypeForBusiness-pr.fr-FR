@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Apprenez-en davantage sur la gestion du pool frontal dans Skype entreprise Server, y compris la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec deux serveurs frontaux uniquement.
-ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047091"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435177"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  
@@ -40,7 +40,7 @@ Lors du premier démarrage d’un nouveau nouveau pool frontal, il est primordia
   
 |Nombre total de serveurs dans le pool  <br/> |Nombre de serveurs devant être en cours d’exécution pour que le pool démarre la première fois  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|deuxième  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4  <br/> |3  <br/> |
 |5  <br/> |4  <br/> |
@@ -51,6 +51,9 @@ Lors du premier démarrage d’un nouveau nouveau pool frontal, il est primordia
 |0,10  <br/> |version8  <br/> |
 |27,9  <br/> |09  <br/> |
 |midi  <br/> |0,10  <br/> |
+|16 **pour Skype entreprise Server 2019** <br/> |midi  <br/> |
+
+
    
 Chaque fois que le pool est démarré ultérieurement, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais qu’il est possible de démarrer le nombre de serveurs de sorte que vous n’ayez pas la perte de `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` quorum au niveau du pool), vous pouvez utiliser l’applet de cmdlet pour permettre au pool de récupérer la perte de quorum de niveau de groupe de routage et de progresser. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
@@ -63,15 +66,19 @@ Pour qu’un pool frontal puisse fonctionner, il ne peut pas être dans la perte
   
 |Nombre total de serveurs frontaux de la liste  <br/> |Nombre de serveurs devant être exécutés pour que le pool soit opérationnel  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|deuxième  <br/> |1  <br/> |
 |3-4  <br/> |2 (n’importe lesquels)  <br/> |
 |5-6  <br/> |3 (n’importe lesquels)  <br/> |
 |7  <br/> |4 (n’importe lesquels)  <br/> |
 |8-9  <br/> |4 (n’importe lesquels parmi les 7 premiers serveurs)  <br/> |
 |10-12  <br/> |5 (n’importe lesquels parmi les 9 premiers serveurs)  <br/> |
+|12-16 **pour Skype entreprise Server 2019**  <br/> |Les 7 premiers serveurs  <br/> |
    
 Dans le tableau ci-dessus, le « premier serveur » est le serveur qui s’est affiché en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser l' `Get-CsComputer` applet de commande `-PoolFqdn` avec l’option. Cette applet de commande affiche les serveurs dans l’ordre dans lequel ils apparaissent dans la topologie, et ceux situés en haut de la liste sont les premiers serveurs.
   
+> [!IMPORTANT]
+> Le nombre maximal de serveurs frontaux a été porté à 16 dans [Skype entreprise Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)
+> 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Étapes supplémentaires pour vérifier que les pools sont opérationnels
 
 Vous devez prêter attention à deux autres facteurs pour vous assurer que vos pools frontaux restent opérationnels.

@@ -18,19 +18,19 @@ description: Découvrez comment gérer les appareils utilisés avec les équipes
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 871a066644aaca3b899d1c7f8b3c3c55f6a516a5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 38d716396a61f259a3a1ac90f45b0b5b4b110e33
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483824"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434899"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
 ::: zone target="docs"
-En tant qu’administrateur, vous gérez tous les appareils utilisés avec les équipes de votre organisation à partir de Microsoft teams & Centre d’administration Skype entreprise. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation, et effectuer des tâches telles que la mise à jour, le redémarrage et l’analyse des diagnostics pour les appareils. Vous pouvez également créer des profils de configuration et les affecter à un appareil ou à un groupe d’appareils. 
+En tant qu’administrateur, vous gérez tous les appareils utilisés avec les équipes de votre organisation à partir du centre d’administration Microsoft Teams. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation, et effectuer des tâches telles que la mise à jour, le redémarrage et l’analyse des diagnostics pour les appareils. Vous pouvez également créer des profils de configuration et les affecter à un appareil ou à un groupe d’appareils. 
 
-## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer?
+## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer ?
 Les appareils doivent être certifiés pour les équipes et inscrits dans Teams. Un appareil est automatiquement inscrit la première fois qu’un utilisateur se connecte à teams sur l’appareil. Pour obtenir la liste des appareils certifiés gérables, reportez-vous à la section [conférences](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) téléphoniques et [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
 
 > [!NOTE]

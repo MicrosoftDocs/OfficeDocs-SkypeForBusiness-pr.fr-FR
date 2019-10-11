@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: mise à niveau ou mise à jour des serveurs frontaux'
+title: 'Lync Server 2013 : mise à niveau ou mise à jour des serveurs frontaux'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e4edb5ea009960fe0456f266a428431049f542b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846463"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435169"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +33,19 @@ ms.locfileid: "34846463"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-06-28_
+_**Dernière modification de la rubrique :** 2013-06-28_
 
 Les serveurs frontaux d’un pool Enterprise Edition sont organisés en *domaines de mise à niveau*. Il s’agit de sous-ensembles de serveurs frontaux dans la liste. Les domaines de mise à niveau sont créés automatiquement par le générateur de topologie.
 
 Lorsque vous procédez à la mise à niveau de vos serveurs, vous devez effectuer la mise à niveau d’un domaine à la fois. Mettez à niveau chaque serveur d’un domaine de mise à niveau, mettez-le à niveau, puis redémarrez-le avant de passer à un autre domaine de mise à niveau. Assurez-vous de garder une trace des domaines et serveurs de mise à niveau que vous avez mis à niveau jusqu’ici. Utilisez le diagramme de flux suivant lors de la mise à niveau de chaque serveur.
 
-![42ed59a4-1c26-49f7-ade4-a5a788457ab9] (images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ade4-a5a788457ab9")
+:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Mise à niveau ou mise à jour des serveurs front-end":::
 
 <div>
 
 ## <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Pour appliquer une mise à niveau aux serveurs frontaux d’un pool
 
-1.  Sur un serveur frontal du pool, exécutez l’applet de commande suivante:
+1.  Sur un serveur frontal du pool, exécutez l’applet de commande suivante :
     
     **Get-CsPoolUpgradeReadinessState**
     
@@ -53,7 +53,7 @@ Lorsque vous procédez à la mise à niveau de vos serveurs, vous devez effectue
     
     Si la valeur de *PoolUpgradeState* est **prête**, passez à l’étape 2.
 
-2.  L’applet **de passe Get-CsPoolUpgradeReadinessState** renvoie également des informations sur chaque domaine de mise à niveau du pool et sur les serveurs frontaux de chaque domaine de mise à niveau. Si la valeur **ReadyforUpgrade** est **true** pour le domaine de mise à niveau qui contient le ou les serveurs que vous voulez mettre à niveau, vous pouvez les mettre à niveau en toute sécurité. Pour cela, procédez comme suit:
+2.  L’applet **de passe Get-CsPoolUpgradeReadinessState** renvoie également des informations sur chaque domaine de mise à niveau du pool et sur les serveurs frontaux de chaque domaine de mise à niveau. Si la valeur **ReadyforUpgrade** est **true** pour le domaine de mise à niveau qui contient le ou les serveurs que vous voulez mettre à niveau, vous pouvez les mettre à niveau en toute sécurité. Pour cela, procédez comme suit :
     
     1.  Arrêtez les nouvelles connexions aux serveurs frontaux que vous allez mettre à niveau en utilisant `Stop-CsWindowsService -Graceful -Verbose` l’applet de commande.
         
@@ -61,7 +61,7 @@ Lorsque vous procédez à la mise à niveau de vos serveurs, vous devez effectue
         
 
         > [!NOTE]  
-        > Si vous exécutez ces mises à niveau de serveur pendant une période d’inactivité du serveur planifié, vous pouvez exécuter cette applet de commande sans le paramètre'-<STRONG>douceur</STRONG>'comme suit: <STRONG>Stop-CsWindowsService</STRONG>. Cela arrêtera immédiatement les services, sans attendre le remplissage de toutes les demandes de service existantes.
+        > Si vous exécutez ces mises à niveau de serveur pendant une période d’inactivité du serveur planifié, vous pouvez exécuter cette applet de commande sans le paramètre'-<STRONG>douceur</STRONG>'comme suit : <STRONG>Stop-CsWindowsService</STRONG>. Cela arrêtera immédiatement les services, sans attendre le remplissage de toutes les demandes de service existantes.
 
         
         </div>

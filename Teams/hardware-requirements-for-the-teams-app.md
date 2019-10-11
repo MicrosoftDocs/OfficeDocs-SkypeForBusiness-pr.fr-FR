@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74de2c5cc6ae294b69f31f7c25e652da4ea397
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245074"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434719"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -36,12 +36,12 @@ ms.locfileid: "36245074"
 |Disque dur    | 3,0 Go d’espace disque disponible        |
 |Display    |   résolution d’écran 1024 x 768 |
 |Matériel vidéo |  Minimum de 128 Mo de mémoire graphique
-|Système d’exploitation  |    Windows 10, Windows 8,1, Windows 8 ou Windows 7 Service Pack 1 en 32 bits et 64 bits. Pour une utilisation optimale, utilisez la version la plus récente de tout système d’exploitation.|
+|Système d’exploitation  |    Windows 10, Windows 8,1 ou Windows 7 Service Pack 1 en 32 bits et 64 bits. Pour une utilisation optimale, utilisez la version la plus récente de tout système d’exploitation.|
 |Version .NET    |  Nécessite .NET 4,5 CLR ou version ultérieure       |
 |Vidéo    |  Caméra vidéo USB 2,0       |
 |Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
-|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de **brouillage facultatif mon arrière-plan** exige un processeur doté d’une prise en charge de la fonction AVX2 (Advanced Vector Extensions 2). Voir [recommandations](hardware-decoders-and-encoders.md) en matière de périphériques d’encodage et de décodage matériel pour obtenir une liste de décodeurs et d’encodeurs non pris en charge. |
-|Événements en direct teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou d’une version ultérieure) et d’un codeur matériel. Voir [recommandations](hardware-decoders-and-encoders.md) en matière de périphériques d’encodage et de décodage matériel pour obtenir une liste de décodeurs et d’encodeurs non pris en charge. |
+|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de **brouillage facultatif mon arrière-plan** exige un processeur doté d’une prise en charge de la fonction AVX2 (Advanced Vector Extensions 2). Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge. |
+|Événements en direct teams | Si vous générez des événements en direct Teams, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur i5 Kaby Lake Core, d’une RAM de 4,0 Go (ou d’une version ultérieure) et d’un codeur matériel. Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Configuration matérielle requise pour l’application de bureau teams sur un Mac
 
@@ -54,15 +54,15 @@ ms.locfileid: "36245074"
 |Système d’exploitation  |    Mac OS X 10,11 El Capitan ou version ultérieure     |
 |Vidéo  |    Webcam compatible     |
 |Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
-|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir [recommandations](hardware-decoders-and-encoders.md) en matière de périphériques d’encodage et de décodage matériel pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.|
+|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application teams sur les appareils mobiles
 
-Vous pouvez utiliser Microsoft teams sur les plateformes mobiles suivantes:
+Vous pouvez utiliser Microsoft teams sur les plateformes mobiles suivantes :
 
 - Android-nécessite Android 4,4 ou version ultérieure
 
-- iOS: nécessite iOS 10,0 ou une version ultérieure. Compatible avec les iPhone, iPad et iPod effleure.
+- iOS : nécessite iOS 10,0 ou une version ultérieure. Compatible avec les iPhone, iPad et iPod effleure.
 
 ## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour l’application teams dans un environnement VDI (Virtual Desktop Infrastructure)
 

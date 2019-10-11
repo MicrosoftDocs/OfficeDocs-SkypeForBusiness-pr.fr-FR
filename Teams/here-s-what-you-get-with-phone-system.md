@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328363"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434863"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -35,7 +35,7 @@ Un système PBX est un système téléphonique au sein d’une entreprise. Le sy
   
 Le module complémentaire du système téléphonique vous permet d’utiliser Skype entreprise pour effectuer des tâches de base, telles que le passage et la réception d’appels, le transfert d’appels, la désactivation ou la réactivation des appels, à partir de n’importe quel emplacement avec l’accès à Internet. Il est disponible dans le monde entier ! 
   
-Pour plus d’informations, reportez-vous à la rubrique [tarification pour le système téléphonique](https://products.office.com/skype-for-business/cloud-pbx#requirements).
+Pour plus d’informations, reportez-vous à la rubrique [tarification pour le système téléphonique](https://products.office.com/microsoft-teams/voice-calling#requirements).
   
 ## <a name="phone-system-in-office-365-features"></a>Système téléphonique dans les fonctionnalités Office 365
 

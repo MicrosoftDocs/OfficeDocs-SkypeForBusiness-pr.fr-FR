@@ -11,30 +11,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 'Résumé: configurez l’utilisation de photos haute résolution dans Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
-ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 'Résumé : configurez l’utilisation de photos haute résolution dans Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 ou Exchange Online et Skype entreprise Server.'
+ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464653"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434909"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurer l’utilisation de photos haute résolution dans Skype entreprise Server
  
-**Résumé:** Configurer l’utilisation de photos haute résolution dans Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.
+**Résumé :** Configurer l’utilisation de photos haute résolution dans Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 ou Exchange Online et Skype entreprise Server.
   
-Les photos de Skype entreprise Server peuvent être stockées dans une boîte aux lettres Exchange Server 2016 ou Exchange Server 2013, qui permet de mettre en photo des tailles de 648 648 pixels. Par ailleurs, Exchange Server peut redimensionner automatiquement ces photos pour une utilisation dans différents produits selon vos besoins. Cela donne généralement trois tailles et résolutions de photos différentes :
+Dans Skype entreprise Server, les photos peuvent être stockées dans un serveur Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 ou une boîte aux lettres Exchange Online, qui permet de dimensionner une photo de 648 pixels par 648 pixels. Par ailleurs, Exchange Server peut redimensionner automatiquement ces photos pour une utilisation dans différents produits selon vos besoins. Cela donne généralement trois tailles et résolutions de photos différentes :
   
-- 64 x 64 pixels, la taille utilisée pour l’attribut thumbnailPhoto Active Directory. Si vous téléchargez une photo sur Exchange Server, Exchange crée automatiquement une version de 64 pixels par 64 pixels de cette photo et met à jour l’attribut thumbnailPhoto de l’utilisateur. Notez, toutefois, que l’inverse n’est pas vrai: Si vous effectuez manuellement la mise à jour de l’attribut thumbnailPhoto dans Active Directory, la photo de la boîte aux lettres Exchange de l’utilisateur ne sera pas automatiquement mise à jour.
+- 64 x 64 pixels, la taille utilisée pour l’attribut thumbnailPhoto Active Directory. Si vous téléchargez une photo sur Exchange Server, Exchange crée automatiquement une version de 64 pixels par 64 pixels de cette photo et met à jour l’attribut thumbnailPhoto de l’utilisateur. Notez, toutefois, que l’inverse n’est pas vrai : Si vous effectuez manuellement la mise à jour de l’attribut thumbnailPhoto dans Active Directory, la photo de la boîte aux lettres Exchange de l’utilisateur ne sera pas automatiquement mise à jour.
     
 - 96 pixels par 96 pixels pour une utilisation dans Microsoft Outlook 2013 Web App, Microsoft Outlook 2013, Skype entreprise Web App et Skype entreprise.
     
 - 648 pixels par 648 pixels pour une utilisation dans Skype entreprise et Skype entreprise Web App sur Skype entreprise Web App.
     
 > [!NOTE]
-> Si vous disposez des ressources, nous vous recommandons de télécharger 648 x 648 photos; Cela fournit une résolution maximale et une qualité d’image optimale dans n’importe quelle application Office 2013. Chaque photo JPEG d’une taille de 648 x 648 et une profondeur de 24 bits génère une taille de fichier d’environ 240 Ko. Chaque photo JPEG de 648 x 648 pixels et d’une profondeur de 24 bits équivaut à une taille de fichier d’environ 240 kilo-octets, ce qui signifie que vous avez besoin d’environ 1 mégaoctet d’espace disque pour quatre photos d’utilisateurs. 
+> Si vous disposez des ressources, nous vous recommandons de télécharger 648 x 648 photos ; Cela fournit une résolution maximale et une qualité d’image optimale dans n’importe quelle application Office 2013. Chaque photo JPEG d’une taille de 648 x 648 et une profondeur de 24 bits génère une taille de fichier d’environ 240 Ko. Chaque photo JPEG de 648 x 648 pixels et d’une profondeur de 24 bits équivaut à une taille de fichier d’environ 240 kilo-octets, ce qui signifie que vous avez besoin d’environ 1 mégaoctet d’espace disque pour quatre photos d’utilisateurs. 
   
-Les photos haute résolution, qui sont accessibles à l’aide des services Web Exchange, peuvent être chargées par les utilisateurs exécutant Outlook 2013 Web App; les utilisateurs ne peuvent mettre à jour qu’une seule photo. En revanche, les administrateurs peuvent mettre à jour la photo de n’importe quel utilisateur à l’aide d’Exchange Management Shell et d’une série de commandes Windows PowerShell similaires à ce qui suit:
+Les photos haute résolution, qui sont accessibles à l’aide des services Web Exchange, peuvent être chargées par les utilisateurs exécutant Outlook 2013 Web App ; les utilisateurs ne peuvent mettre à jour qu’une seule photo. En revanche, les administrateurs peuvent mettre à jour la photo de n’importe quel utilisateur à l’aide d’Exchange Management Shell et d’une série de commandes Windows PowerShell similaires à ce qui suit :
   
 ```
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))

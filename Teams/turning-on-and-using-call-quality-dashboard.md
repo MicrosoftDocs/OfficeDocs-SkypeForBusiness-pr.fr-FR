@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328352"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435099"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -129,11 +129,11 @@ Lorsqu’un champ Drill through est sélectionné, le tableau de bord accède au
 
 Par exemple, dans un rapport d’analyse de qualité d’appel, un utilisateur peut cliquer sur la date à laquelle il souhaite « extraire », ce qui amène à l’onglet emplacement.
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![Capture d’écran : affichage de l’État analyse approfondie](media/CQD-drill-thru-report.png)
 
 Vous pouvez ajouter plusieurs dates à partir de l’onglet emplacement, par exemple, ajouter 2019-09-22 à la date : 2019-09-24 : 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![Capture d’écran : ajouter une date au rapport d’extraction](media/CQD-add-date.png)
 
 > [!NOTE]
 > Ne passez pas directement au dernier onglet. Sans filtres sélectionnés à partir d’un affichage d’exploration antérieur les résultats seraient trop volumineux pour être affichés dans un tableau.
@@ -339,6 +339,8 @@ Le tableau de bord des rapports de synthèse de bord inclut une page de **télé
 ### <a name="building-data-file"></a>Création d’un fichier de données
 
 BORD utilise un fichier de données de bâtiment qui vous permet de fournir des informations d’appel utiles. La colonne de sous-réseau repose sur le développement de la colonne Network + plage du réseau, puis sur la colonne de sous-réseau pour le premier sous-réseau de l’enregistrement d’appel ou sur le second sous-réseau. Pour que le format du fichier de données réussisse le contrôle de validation avant le téléchargement, il doit respecter les critères suivants.
+
+Vous pouvez télécharger un exemple de modèle [ici](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
   
 - Il doit s’agir d’un fichier. TSV (les colonnes sont séparées par une tabulation) ou d’un fichier. csv (les colonnes sont séparées par une virgule).
 - Le fichier de données n’inclut pas de ligne d’en-tête de tableau. La première ligne du fichier de données est censée être de véritables données, pas d’étiquettes d’en-tête comme « réseau ».
@@ -359,9 +361,7 @@ BORD utilise un fichier de données de bâtiment qui vous permet de fournir des 
 
 **Ligne d’exemple :**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > La plage réseau peut être utilisée pour représenter un super-réseau (combinaison de plusieurs sous-réseaux avec un seul préfixe de routage). Les nouveaux chargements de construction seront examinés pour toutes les plages qui se chevauchent. Si vous avez déjà téléchargé un fichier de construction, vous devez télécharger le fichier actif et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème avant de le télécharger à nouveau. Tout chevauchement dans les fichiers précédemment téléchargés risque de provoquer des mappages incorrects de sous-réseaux sur les bâtiments dans les rapports. Certaines implémentations de réseau privé virtuel n’indiquent pas exactement les informations de sous-réseau. Lorsque vous ajoutez un sous-réseau VPN au fichier de construction au lieu d’une entrée pour le sous-réseau, nous vous conseillons d’ajouter des entrées distinctes pour chaque adresse du sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous devez disposer de lignes 256, avec une ligne pour chaque adresse entre 172.16.18.0/32 et 172.16.18.255/32, inclusive.
@@ -382,11 +382,11 @@ BORD utilise un fichier de données de point de terminaison. Les valeurs de colo
 
   **Ordre des champs :**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Ligne d’exemple :**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
 

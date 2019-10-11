@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: d3e5c5377543e780c8dd68e27451ee1ac526787f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305685"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435003"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -195,6 +195,10 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Aucun son lors du partage de contenu pendant une réunion de diffusion  <br/> |Lors du partage de contenu pendant une réunion de diffusion, le son du contenu partagé (lien YouTube ou fichier vidéo enregistré) ne peut pas être entendu par les participants.  <br/> |Il ne s’agit pas d'un comportement par défaut.  Teams ne prend pas en charge actuellement le son du contenu partagé  <br/> |09/10/2018  <br/> |
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de démarrer la réunion en tant qu’organisateur à partir d’Outlook, car vous risquez d’être bloqué dans la salle d'attente virtuelle  <br/> |Vous pouvez rencontrer ce problème si votre client Outlook est connecté à un autre compte que celui de votre client Teams. <br/> |Lorsque vous rejoignez la réunion, assurez-vous que les clients Outlook et Teams sont connectés au compte à partir duquel la réunion a été planifiée.  <br/> |5/11/18  <br/> |
 
 ## <a name="mobile"></a>Mobile
 

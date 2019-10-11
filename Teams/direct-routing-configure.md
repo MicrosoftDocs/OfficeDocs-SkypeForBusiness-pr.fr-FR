@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 38938846c594cbb325193e42111ba8dff528f17f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018767"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434931"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -111,15 +111,15 @@ Le tableau suivant répertorie les paramètres supplémentaires que vous pouvez 
 |Obligatoire?|Nom|Description|Par défaut|Valeurs possibles|Type et restrictions|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Oui|FQDN|Nom de domaine complet du SBC |Aucun|Nom NoneFQDN, limiter 63 caractères|Chaîne, liste de caractères autorisés et non autorisés sur [les conventions d’appellation dans Active Directory pour les ordinateurs, domaines, sites et UO](https://support.microsoft.com/help/909264)|
-|Non|MediaBypass |Paramètre réservé pour une utilisation ultérieure. Le paramètre indiqué par l’élément SBC prend en charge la dérivation multimédia et l’administrateur veut l’utiliser.|Aucun|True<br/>False|Boolean|
+|Non|MediaBypass |Le paramètre indiqué par l’élément SBC prend en charge la dérivation multimédia et l’administrateur veut l’utiliser.|Aucun|Vrai<br/>False|Boolean|
 |Oui|SipSignallingPort |Port d’écoute utilisé pour la communication avec les services de routage directe à l’aide du protocole TLS (Transport Layer Security).|Aucun|Tout port|entre 0 et 65535 |
 |Non|FailoverTimeSeconds |Lorsque la valeur est définie sur 10 (valeur par défaut), les appels sortants pour lesquels la passerelle ne répond pas dans un délai de 10 secondes sont routés vers le Trunk disponible suivant ; s’il n’y a pas de lignes supplémentaires, l’appel est automatiquement interrompu. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels. La valeur par défaut est 10.|0,10|Numéro|Ent|
-|Non|ForwardCallHistory |Indique si les informations d’historique d’appel sont transférées par le biais de la jonction. Si cette option est activée, le Proxy RTC Office 365 envoie deux en-têtes : History-Info et expertisé. La valeur par défaut est **false** ($false). |False|True<br/>False|Boolean|
-|Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si vous avez activé l’en-tête d’ID vie privée : il est également envoyé. La valeur par défaut est **false** ($false).|False|True<br/>False|Boolean|
-|Non|SendSIPOptions |Définit si une SBC va ou non envoyer les options SIP. S’il est désactivé, l’SBC sera exclu du système de surveillance et d’alerte. Nous vous recommandons vivement d’activer les options SIP. La valeur par défaut est **true**. |True|True<br/>False|Boolean|
+|Non|ForwardCallHistory |Indique si les informations d’historique d’appel sont transférées par le biais de la jonction. Si cette option est activée, le Proxy RTC Office 365 envoie deux en-têtes : History-Info et expertisé. La valeur par défaut est **false** ($false). |False|Vrai<br/>False|Boolean|
+|Non|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si vous avez activé l’en-tête d’ID vie privée : il est également envoyé. La valeur par défaut est **false** ($false).|False|Vrai<br/>False|Boolean|
+|Non|SendSIPOptions |Définit si une SBC va ou non envoyer les options SIP. S’il est désactivé, l’SBC sera exclu du système de surveillance et d’alerte. Nous vous recommandons vivement d’activer les options SIP. La valeur par défaut est **true**. |Vrai|Vrai<br/>False|Boolean|
 |Non|MaxConcurrentSessions |Utilisé par le système d’alerte. Lorsque n’importe quelle valeur est définie, le système d’alerte génère une alerte auprès de l’administrateur client lorsque le nombre de sessions simultanées est 90% ou une valeur supérieure à celle-ci. Si paramètre n’est pas défini, les alertes ne le sont pas. Toutefois, le système de surveillance rapportera le nombre de sessions simultanées toutes les 24 heures. |Valeur|Valeur<br/>1 à 100 000 ||
 |Non|MediaRelayRoutingLocationOverride |Permet de sélectionner manuellement le chemin pour le média. Le routage direct affecte un centre de contenus multimédia pour le chemin multimédia en fonction de l’adresse IP publique de l’SBC. Nous cherchons toujours le plus près du centre de centres SBC. Toutefois, dans certains cas, il est possible d’attribuer une adresse IP publique de la part d’une SBC située en Europe, par exemple. Dans ce cas, nous n’utiliserons pas le chemin multimédia. Ce paramètre permet de définir manuellement la région préférée pour le trafic multimédia. Nous vous conseillons de définir ce paramètre uniquement si les journaux d’appels indiquent clairement que l’attribution automatique du centre de fichiers de média pour le chemin multimédia n’affecte pas le plus proche au centre de médias SBC. |Aucun|Codes de pays au format ISO||
-|Non|Activé|Utilisé pour activer cet SBC pour les appels sortants. Peut être utilisé pour supprimer temporairement l’SBC, pendant sa mise à jour ou lors de la maintenance. |False|True<br/>False|Boolean|
+|Non|Activé|Utilisé pour activer cet SBC pour les appels sortants. Peut être utilisé pour supprimer temporairement l’SBC, pendant sa mise à jour ou lors de la maintenance. |False|Vrai<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Vérifier le jumelage des SBC 
 
@@ -270,7 +270,7 @@ Le tableau suivant résume la configuration à l’aide de trois itinéraires vo
 |**Utilisation PSTN**|**Route vocale**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |États-Unis uniquement|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
-|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|deuxième|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
 |États-Unis uniquement|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Itinéraire pour les numéros appelés + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
 |||||||
 
@@ -448,7 +448,7 @@ Le tableau suivant récapitule les concepteurs d’utilisation et les itinérair
 |**Utilisation PSTN**|**Route vocale**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |États-Unis uniquement|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros d’appelant + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
-|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros des appelants + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|deuxième|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros des appelants + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
 |États-Unis uniquement|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|Itinéraire pour les numéros d’appelant + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Itinéraire pour n’importe quel modèle numérique |
 
@@ -532,6 +532,11 @@ Le résultat est que la stratégie vocale appliquée aux appels de Jean-Martin n
 
 Le routage direct exige que les utilisateurs soient en mode d’équipe uniquement pour s’assurer que les appels entrants sont présents dans le client Teams. Pour faire en sorte que les utilisateurs en mode équipes uniquement, attribuez-leur l’instance « UpgradeToTeams » de TeamsUpgradePolicy. Si votre organisation utilise Skype entreprise Server ou Skype entreprise Online, reportez-vous à l’article suivant pour l’interopérabilité des informations entre Skype et teams : [instructions de migration et d’interopérabilité pour les entreprises utilisant teams conjointement avec Skype pour les entreprises](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
+
+## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurer l’envoi d’appels directement à la boîte vocale
+
+Le routage direct vous permet de mettre fin à l’appel d’un utilisateur et de l’envoyer directement à la boîte vocale de l’utilisateur. Si vous voulez envoyer l’appel directement à la boîte vocale, attachez opaque = application : boîte vocale dans l’en-tête de demande d’URI. Par exemple, « SIP : user@yourdomain.com ; opaque = application : boîte vocale ».
+Si tel est le cas, l’utilisateur teams n’aura pas reçu la notification d’appel, l’appel est alors directement connecté à la messagerie vocale de l’utilisateur.
 
 ## <a name="see-also"></a>Voir aussi
 

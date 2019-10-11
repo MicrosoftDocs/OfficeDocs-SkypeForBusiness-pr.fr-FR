@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22e59a33fc6b58f2b2ae41c666506ebb5eddb90e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92fe612a805f350cfa8ff1f0bfb7556fe895180d
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237683"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435194"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -195,7 +195,7 @@ Si un flux commence à s’installer dans une routine, envisagez de :
 
 Lorsque le travail d'une équipe est arrivé à son terme, il est important de prendre officiellement acte qu'il est terminé. Cela donnera aux membres de l’équipe un sentiment de bouclage et empêchera également l’accès à des informations obsolètes et périmées. Vous pouvez utiliser l’équipe elle-même pour effectuer les rituels de clôture comme les analyses rétrospectives et les rapports de synthèse.
 
-Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont en fait supprimées avec une « suppression réversible », que le service informatique peut annuler pendant 21 jours au maximum (30 jours pour les groupes Office 365). La suppression d’une équipe n’a pas d'incidence sur les conversations ou le contenu qui ont été conservés conformément aux stratégies de conformité.
+Vous pouvez supprimer les équipes que vous n’avez plus besoin de conserver (une équipe créée exclusivement à des fins de test ou contenant des données sensibles par exemple). Les équipes sont en fait supprimées avec une « suppression réversible », que le service informatique peut annuler pendant 21 jours au maximum (30 jours pour les groupes Office 365). La suppression d’une équipe n’a pas d’incidence sur les conversations ou contenus qui ont été conservés conformément aux stratégies de conformité. Les canaux ont également une « suppression réversible » et peuvent être rétablis jusqu’à 21 jours après la suppression.
 
 Vous pouvez aussi utiliser des stratégies d’expiration et de conservation en plus des fonctionnalités d’archivage pour réduire l’exposition aux équipes qui ne sont plus actives ou aux propriétaires qui ont quitté l'organisation.
 

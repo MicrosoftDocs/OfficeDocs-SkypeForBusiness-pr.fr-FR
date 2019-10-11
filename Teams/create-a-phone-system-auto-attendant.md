@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401959"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434963"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -44,7 +44,7 @@ Les implémentations de standard automatique impliquent souvent plusieurs standa
 ## <a name="step-1--get-started"></a>Étape 1 : prendre en main
 
 - Un standard automatique est requis pour disposer d’un compte de ressources associé. Pour plus d’informations sur les comptes de ressources et toutes les licences requises, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) . 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ Vous pouvez définir l’opérateur de plusieurs manières :
      > [!Note]
      > Une **personne de votre organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server.
 
-- **Fonction vocale**  Sélectionnez le nom du compte de ressources lié à un standard automatique ou une file d’attente d’appels qui a déjà été créée. Les appelants qui demandent un opérateur y sont redirigés.  
+- **Application vocale**  Sélectionnez le nom du compte de ressources lié à un standard automatique ou une file d’attente d’appels qui a déjà été créée. Les appelants qui demandent un opérateur y sont redirigés.  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ Vous pouvez définir l’opérateur de plusieurs manières :
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![Icône du numéro 3, une légende dans le](media/teamscallout3.png)<a name="timezone"> </a>  
- **fuseau horaire** de capture d’écran précédent vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire.
+<a name="timezone"> </a>
+
+![Icône du numéro 3, une légende dans le](media/teamscallout3.png) **fuseau horaire** de capture d’écran précédent vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire.
 
 * * *
 
@@ -147,7 +148,6 @@ Vous pouvez configurer des messages d’accueil personnalisés, des invites et d
 ![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente **tapez un message d’accueil** si vous choisissez cette option, entrez le texte que le système doit lire (jusqu’à 1000 caractères) dans le champ fourni. Par exemple, entrez «Bienvenue dans contoso. Votre appel est important pour nous. La sortie est créée par un logiciel de synthèse vocale.
 
 * * *
-
 
 Vous pouvez sélectionner ce qui se produit en regard des appels à partir des actions suivantes dans la section **diriger l’appel** . Les paramètres sont **déconnecter**, **rediriger l’appel**ou **lire les options de menu**.
 
@@ -197,13 +197,9 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 > [!NOTE]
 > Les clés \* (répétition) et \# (retour) sont réservées par le système et ne peuvent pas être réaffectées. Si la reconnaissance vocale est activée, le fait d’appuyer sur * correspond à « répéter » et # correspond aux commandes vocales « retour ».
 
-![Icône du numéro 3, légende dans la capture d’écran précédente](media/teamscallout3.png)
+![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente pour configurer une option de menu, cliquez sur **+ affecter une touche de numérotation** , puis entrez les informations pour les options suivantes :
 
-Pour configurer une option de menu, cliquez sur **+ affecter une touche de numérotation** , puis entrez les informations pour les options suivantes :
-
-![Icône du numéro 4, une légende dans la capture d’écran précédente](media/teamscallout4.png) 
-
-La colonne de **commande vocale** pour une option peut comporter jusqu’à 64 caractères, et contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ». Si la reconnaissance vocale est activée, le nom est automatiquement reconnu et l’appelant est en mesure d’appuyer sur 3, de dire « trois » ou de « service clientèle » pour sélectionner l’option associée à la clé 3.
+![Icône du numéro 4 ; une légende dans la capture d’écran](media/teamscallout4.png)de la**commande vocale** de la capture initiale pour une option peut comporter jusqu’à 64 caractères et contenir plusieurs mots tels que « service clientèle » ou « opérations et raisons ».   Si la reconnaissance vocale est activée, le nom est automatiquement reconnu et l’appelant est en mesure d’appuyer sur 3, de dire « trois » ou de « service clientèle » pour sélectionner l’option associée à la clé 3. Ce texte est également affiché par synthèse vocale pour l’invite de confirmation du service (par exemple, « transfert de votre appel vers l’opérateur »).
 
 ![Icône du numéro 5, une légende dans la capture d’écran](media/teamscallout5.png) précédente les options **Rediriger vers** l’emplacement de l’appel, si la touche correspondante est enfoncée ou si l’option est activée à l’aide de la reconnaissance vocale. L’appel peut être envoyé à :
 
@@ -219,13 +215,14 @@ La colonne de **commande vocale** pour une option peut comporter jusqu’à 64 c
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Icône du numéro 6, une légende dans la capture d’écran précédente](media/teamscallout6.png) 
-
-**Recherche** dans l’annuaire Dans cette section, vous pouvez activer le **numérotation par nom** et le **numéro de poste par poste** pour le standard automatique. Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. La recherche dans l’annuaire est définie sur **aucune** par défaut.
+![Icône du numéro 6, une légende dans la capture d’écran](media/teamscallout6.png)précédente de la**recherche** dans cette section, vous pouvez activer le **numérotation par nom** et la **numérotation par poste** pour le standard automatique.   Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. La recherche dans l’annuaire est définie sur **aucune** par défaut.
 
 **Numérotation par nom** Si vous activez cette option, les appelants peuvent rechercher des personnes dans votre organisation à l’aide de la **numérotation par nom**. Il parle du nom de l’utilisateur et de la reconnaissance vocale à l’utilisateur. Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom.
 
 **Composer par poste** Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en entrant leurs extensions de téléphone, dans la **mesure où vous avez configuré un plan de numérotation qui utilise des extensions**. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
+
+> [!NOTE]
+> Si vous souhaitez utiliser les fonctions **numéroter par nom** et **composé** d’une extension, vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu 3 s’ils connaissent l’extension de l’utilisateur et définir l’option 3 sur TRAN. Sfer l’appel vers un standard automatique activé pour le numérotation par extension. 
 
 * * *
 
@@ -328,7 +325,9 @@ Si vous sélectionnez **tous les utilisateurs en ligne**, tous les utilisateurs 
 
 **Groupes d’utilisateurs personnalisés** Cette option vous permet de rechercher et de sélectionner un groupe Office 365, une liste de distribution ou un groupe de sécurité déjà créé au sein de votre organisation. Les utilisateurs sont ajoutés à l’annuaire s’ils se trouvent dans le groupe Office 365 sélectionné, une liste de distribution ou un groupe de sécurité, et qu’il s’agit des **utilisateurs en ligne disposant d’une licence de système téléphonique** ou hébergé sur site via Skype entreprise Server. Vous pouvez ajouter plusieurs groupes Office 365, des listes de distribution et des groupes de sécurité à l’annuaire.
 
+<a name="dialscope"> </a>
 
+Dans cette page, vous pouvez configurer les utilisateurs de votre organisation qui seront répertoriés dans votre annuaire et disponibles pour le numérotation par nom lorsqu’une personne appelle votre organisation.
 
 ![Icône du numéro 2, une légende dans la capture d’écran](media/teamscallout2.png) précédente **exclue** les options de cette section vous permettent d’exclure des utilisateurs ou des groupes d’utilisateurs spécifiques de l’annuaire de l’organisation.
 

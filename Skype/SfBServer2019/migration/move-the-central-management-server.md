@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après la migration vers Skype entreprise Server 2019, vous devez déplacer le serveur de gestion central vers le serveur ou le pool frontal de Skype entreprise Server 2019 avant de pouvoir supprimer le serveur hérité.
-ms.openlocfilehash: 7ba82a3748a98e2f1bc25cd7c48eceabdf76ac19
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244504"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434940"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Déplacer le serveur de gestion central hérité vers Skype entreprise Server 2019
 
@@ -34,7 +34,7 @@ Suivez les procédures décrites dans cette section pour préparer les serveurs 
     
 2. Ouvrez Skype entreprise Server Management Shell.
     
-3. Pour créer la nouvelle Banque centrale de gestion dans la base de données SQL Server 2019 de Skype entreprise Server, dans Skype entreprise Server Management Shell, tapez:
+3. Pour créer la nouvelle Banque centrale de gestion dans la base de données SQL Server 2019 de Skype entreprise Server, dans Skype entreprise Server Management Shell, tapez :
     
    ```
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
@@ -55,7 +55,7 @@ Suivez les procédures décrites dans cette section pour préparer les serveurs 
     > [!NOTE]
     > L’installation initiale risque de prendre un certain temps sans qu’aucune mise à jour ne s’affiche à l’écran de synthèse de la sortie de commande. Le problème est dû à l’installation de SQL Server Express. Si vous avez besoin de surveiller l’installation de la base de données, utilisez le gestionnaire des tâches pour contrôler la configuration. 
   
-5. Pour créer la nouvelle Banque centrale de gestion sur le serveur frontal Skype entreprise Server 2019 Standard Edition, dans Skype entreprise Server Management Shell, tapez: 
+5. Pour créer la nouvelle Banque centrale de gestion sur le serveur frontal Skype entreprise Server 2019 Standard Edition, dans Skype entreprise Server Management Shell, tapez : 
     
    ```
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
@@ -67,9 +67,9 @@ Suivez les procédures décrites dans cette section pour préparer les serveurs 
 
 1. Sur le serveur Skype entreprise Server 2019 qui sera le serveur de gestion central, connectez-vous à l’ordinateur sur lequel est installé Skype entreprise Server Management Shell en tant que membre du groupe **RTCUniversalServerAdmins** . Vous devez également avoir les autorisations et les droits d’utilisateur de l’administrateur de base de données SQL Server. 
     
-2. Ouvrez Skype entreprise Server Management Shell.
+2. Ouvrez Skype entreprise Server Management Shell (exécuter en tant qu’administrateur).
     
-3. Dans Skype entreprise Server Management Shell, tapez: 
+3. Dans Skype entreprise Server Management Shell, tapez : 
     
    ```
    Enable-CsTopology
@@ -78,7 +78,7 @@ Suivez les procédures décrites dans cette section pour préparer les serveurs 
     > [!CAUTION]
     > Si `Enable-CsTopology` ce n’est pas le cas, résolvez le problème empêchant l’exécution de la commande avant de poursuivre. Si **Enable-CsTopology** ne fonctionne pas, le déplacement échoue et il peut arriver que votre topologie soit dans un État où il n’y a aucune banque centrale de gestion. 
   
-4. Dans Skype entreprise Server 2019 front end Server ou pool frontal, dans Skype entreprise Server Management Shell, tapez: 
+4. Dans Skype entreprise Server 2019 front end Server ou pool frontal, dans Skype entreprise Server Management Shell, tapez : 
     
    ```
    Move-CsManagementServer
@@ -90,15 +90,15 @@ Suivez les procédures décrites dans cette section pour préparer les serveurs 
     
 7. Sur le serveur 2019 de Skype entreprise Server, ouvrez l’Assistant Déploiement de Skype entreprise Server. 
     
-8. Dans l’Assistant Déploiement de Skype entreprise Server, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**, cliquez sur **étape 2: configurer ou supprimer des composants Skype entreprise Server**, cliquez sur **suivant**, passez en revue le résumé, puis cliquez sur **Terminer. **. 
+8. Dans l’Assistant Déploiement de Skype entreprise Server, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**, cliquez sur **étape 2 : configurer ou supprimer des composants Skype entreprise Server**, cliquez sur **suivant**, passez en revue le résumé, puis cliquez sur **Terminer. **. 
     
 9. Sur le serveur d’installation hérité, ouvrez l’Assistant déploiement. 
     
-10. Dans l’Assistant Déploiement de Skype entreprise Server, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**, cliquez sur **étape 2: configurer ou supprimer des composants Skype entreprise Server**, cliquez sur **suivant**, passez en revue le résumé, puis cliquez sur **Terminer. **. 
+10. Dans l’Assistant Déploiement de Skype entreprise Server, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**, cliquez sur **étape 2 : configurer ou supprimer des composants Skype entreprise Server**, cliquez sur **suivant**, passez en revue le résumé, puis cliquez sur **Terminer. **. 
     
 11. Redémarrez le serveur Skype entreprise Server 2019. Ceci est requis en raison d’une modification d’appartenance de groupe à une base de données du serveur de gestion centralisée.
     
-12. Pour vérifier que la réplication avec le nouveau magasin central de gestion est en cours, dans la base de connaissances Skype entreprise Server Management Shell, tapez: 
+12. Pour vérifier que la réplication avec le nouveau magasin central de gestion est en cours, dans la base de connaissances Skype entreprise Server Management Shell, tapez : 
     
     ```
     Get-CsManagementStoreReplicationStatus
@@ -116,7 +116,7 @@ Suivez les procédures décrites dans cette section pour préparer les serveurs 
     > [!CAUTION]
     > Ne continuez pas la suppression des fichiers de base de données précédents tant que la réplication n’est pas terminée et qu’elle est stable. Si vous supprimez les fichiers avant de procéder à la réplication, vous désactiverez le processus de réplication et laissons le serveur de gestion central nouvellement déplacé dans un état inconnu. Utilisez l’applet de connexion **Get-CsManagementStoreReplicationStatus** pour vérifier l’état de la réplication. 
   
-3. Pour supprimer les fichiers de base de données de la Banque centrale de gestion de l’installation héritée, tapez:
+3. Pour supprimer les fichiers de base de données de la Banque centrale de gestion de l’installation héritée, tapez :
     
    ```
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>

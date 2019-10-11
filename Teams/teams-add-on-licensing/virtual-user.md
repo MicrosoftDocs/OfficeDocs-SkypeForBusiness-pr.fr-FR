@@ -18,25 +18,25 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: En savoir plus sur les licences utilisateur virtuelles gratuites.
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447910"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435124"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Système téléphonique-licence utilisateur virtuel 
 
 À compter du 2 juillet 2019, une organisation avec les utilisateurs sous licence du système téléphonique peut désormais obtenir et attribuer un système téléphonique gratuit (ou une licence utilisateur de système téléphonique payant aux comptes de ressources). Vous n’avez plus besoin d’un plan d’appels. Tous les standards automatiques ou files d’attente d’appels nécessitent un compte de ressources associé. Les comptes de ressources nécessitant un numéro de téléphone doivent disposer d’un système téléphonique gratuit (licence d’utilisateur virtuel ou licence utilisateur de système téléphonique payant) pour que le numéro de téléphone puisse être appliqué au compte de ressources.
 
 > [!TIP]
-> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des standards automatiques imbriqués ou des files d’attente d’appels sans numéro de téléphone. Pour en savoir plus, consultez le diagramme suivant: 
+> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des standards automatiques imbriqués ou des files d’attente d’appels sans numéro de téléphone. Pour en savoir plus, consultez le diagramme suivant : 
 
 ![Licences utilisateur virtuelles](../media/resource-account.png)
 
 ## <a name="virtual-user-license-allocation"></a>Attribution de licence utilisateur virtuel
 
-Votre organisation dispose d’un système téléphonique attribué: les licences utilisateur virtuelles en fonction de la taille globale. Toute organisation qui dispose d’au moins une licence, y compris système téléphonique ou doté d’un système téléphonique, a 25 licences utilisateur virtuelles disponibles sans frais. Lorsque vous ajoutez 10 licences utilisateur de système téléphonique au sein de votre organisation, un système téléphonique supplémentaire est fourni avec une licence d’utilisateur virtuel.
+Votre organisation dispose d’un système téléphonique attribué : les licences utilisateur virtuelles en fonction de la taille globale. Toute organisation qui dispose d’au moins une licence, y compris système téléphonique ou doté d’un système téléphonique, a 25 licences utilisateur virtuelles disponibles sans frais. Lorsque vous ajoutez 10 licences utilisateur de système téléphonique au sein de votre organisation, un système téléphonique supplémentaire est fourni avec une licence d’utilisateur virtuel.
 
 > [!NOTE]
 > Le système téléphonique est une licence de complément disponible avec Office 365 E1 et E3. Le système téléphonique est également fourni dans le cadre de licences Office 365 E5.
@@ -51,16 +51,19 @@ Contoso doit envisager de reconcevoir le standard automatique et le système de 
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Acquisition d’un système téléphonique-licences utilisateurs virtuelles 
 
+> [!NOTE] 
+> Lorsque vous suivez ces instructions, désactivez le mode d’aperçu pour acheter un système téléphonique-licence utilisateur virtuel.
+
 1. Connectez-vous au centre d’administration Microsoft 365.
 2. Accédez aux **** > **abonnements de complément**  > **services d’achat**de facturation
-3. Faites défiler jusqu’à la fin pour trouver la licence **«système téléphonique-utilisateur virtuel»** . Sélectionnez **acheter maintenant**.
+3. Faites défiler jusqu’à la fin pour trouver la licence **« système téléphonique-utilisateur virtuel »** . Sélectionnez **acheter maintenant**.
 
 > [!WARNING]
 > Gardez à l’esprit que vous devez toujours **acheter** la licence, même si elle a un coût égal à zéro. 
 
 ## <a name="change-an-existing-resource-account-to-use-a-phone-systemvirtual-user-license"></a>Modifier un compte de ressources existant pour utiliser un système téléphonique-licence utilisateur virtuel
 
-Si vous décidez de basculer la licence sur votre compte de ressources à partir d’une licence de système téléphonique vers un système téléphonique, licence d’utilisateur virtuel: 
+Si vous décidez de basculer la licence sur votre compte de ressources à partir d’une licence de système téléphonique vers un système téléphonique, licence d’utilisateur virtuel : 
 
 1. Téléchargez le nouveau système téléphonique – licence utilisateur virtuel. 
 2. Suivez les étapes liées du centre d’administration 365 Microsoft pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
