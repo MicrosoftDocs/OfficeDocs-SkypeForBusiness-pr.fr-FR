@@ -85,6 +85,7 @@
 #### [Rapport d’activité d’utilisateur Teams](teams-analytics-and-reports/user-activity-report.md)
 #### [Rapport d’utilisation Teams sur des périphériques](teams-analytics-and-reports/device-usage-report.md)
 #### [Rapport sur les utilisateurs bloqués du réseau téléphonique commuté](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Rapport du nombre de minutes RTC](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [Rapport d'utilisation du réseau téléphonique commuté](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Rapport d’utilisation des événements en direct Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Rapports d’activité Teams dans le Centre d’administration Microsoft 365](teams-activity-reports.md)
@@ -361,13 +362,19 @@
 ## Routage des appels
 ### [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 ### [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
+### [Ajouter et mettre à jour les étiquettes de rapport](learn-more-about-site-upload.md)
 ## Appel d’urgence
-### [Que sont les emplacements, les adresses et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
-### [Ajouter, modifier ou supprimer une adresse d’urgence pour votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Affectation ou modification d’une adresse d’urgence pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Affectation ou modification d’un emplacement d’urgence pour un utilisateur](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Étiquettes d’appel d’urgence](emergency-calling-labels.md)
+### [Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)
+### Gérer les adresses d’urgence
+#### [Que sont les emplacements, les lieux et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
+#### [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
+#### [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)
+#### [Affecter ou modifier un lieu pour un emplacement d’urgence pour un utilisateur](assign-change-emergency-place-user.md)
+#### [Étiquettes d’appel d’urgence](emergency-calling-labels.md)
+### [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
+### [Gérer les stratégies de routage d’appel d’urgence](manage-emergency-call-routing-policies.md)
+
 
 
 ## Référence
