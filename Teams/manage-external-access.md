@@ -18,19 +18,19 @@ description: Votre administrateur informatique peut configurer l’accès extern
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305760"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468497"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================
 
 L’accès externe de Microsoft teams permet aux utilisateurs de teams d’autres domaines de participer à vos discussions et appels. Vous pouvez également autoriser d’autres utilisateurs externes de Skype entreprise Online, de Skype entreprise sur locaux ou même de Skype à participer.
 
-Suivez la procédure décrite dans cet article lorsque :
+Utilisez les accès externes dans les cas suivants :
   
 - Vous avez des utilisateurs dans différents domaines dans votre entreprise : par exemple, Rob@contoso.com et Ann@northwindtraders.com.
 
@@ -66,7 +66,7 @@ Consultez le tableau ci-dessous pour obtenir une comparaison des fonctionnalité
 | L’utilisateur peut accéder aux ressources de l’équipe | Non | Oui |
 | L’utilisateur peut être ajouté à une conversation de groupe | Non | Oui |
 | L’utilisateur peut être ajouté à une réunion | Oui | Oui |
-| D’autres utilisateurs peuvent être ajoutés à une discussion avec un utilisateur externe | No<sup>3</sup> | S/O |
+| D’autres utilisateurs peuvent être ajoutés à une discussion avec un utilisateur externe | No<sup>3</sup> | N/D |
 | L’utilisateur est identifié comme partie externe. | Oui | Oui |
 | La présence est affichée | Oui | Oui |
 | Le message d’absence du Bureau s’affiche | Non | Oui |

@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, par fonctionnalité spécifique.
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775193"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468486"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -54,7 +54,7 @@ Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent 
 
 ***
 
-Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle de l’électronique Consumer (CEC) de l’interface HDMI pour basculer automatiquement vers une source vidéo active à partir du mode veille. Cette fonctionnalité n’est pas prise en charge sur tous les téléviseurs.
+Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  En fonction du Dock ou de la console sélectionné (qui peut ne pas prendre en charge CEC, voir documentation du fabricant), un contrôleur d’espace de travail tel qu’un [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) peut être nécessaire pour activer le comportement souhaité. 
 
 ***
 
@@ -67,6 +67,9 @@ Si votre périphérique Microsoft teams se bloque en toute sécurité, vous ne p
 La version 64 bits de l’édition anniversaire de Windows 10 Entreprise (en anglais, version 1607) est n’est plus prise en charge depuis la publication Microsoft Teams Rooms 3.0.12.0. 
 ***
 Les salles de Microsoft teams sont une application multifenêtre et nécessitent l’affichage d’une salle avant pour être connectés au port HDMI de l’appareil, afin que l’application fonctionne correctement. Vérifiez que vous disposez d’un écran HDMI branché ou que vous utilisez un câble HDMI si vous effectuez des tests et que vous n’avez pas encore d’affichage acheté.
+***
+Windows 10 1903 n’est pas encore disponible sur les appareils Microsoft teams en Crestron en raison de problèmes liés à un pilote graphique.
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
