@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment créer des plans de numérotation téléphonique (appels RTC) dans Office 365 et comment les gérer. '
-ms.openlocfilehash: 5254a2d63abeffa0b3452ed309d49272affcaf05
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6c432f6494355e9ae0d6a46cc787814bee252a29
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221921"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508788"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -74,7 +74,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   
 ### <a name="using-single-cmdlets"></a>Utilisation d’applets de applet uniques
 
-- Pour créer un plan de numérotation, exécutez:
+- Pour créer un plan de numérotation, exécutez :
     
   ```
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
@@ -82,7 +82,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [New-rubrique Remove](https://technet.microsoft.com/library/mt775026.aspx).
     
-- Pour modifier les paramètres d’un plan de numérotation existant, exécutez:
+- Pour modifier les paramètres d’un plan de numérotation existant, exécutez :
     
   ```
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
@@ -91,7 +91,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Set-rubrique Remove](https://technet.microsoft.com/library/mt775023.aspx).
     
-- Pour ajouter des utilisateurs à un plan de numérotation, exécutez:
+- Pour ajouter des utilisateurs à un plan de numérotation, exécutez :
     
   ```
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
@@ -99,7 +99,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Grant-rubrique Remove](https://technet.microsoft.com/library/mt775021.aspx).
     
-- Pour afficher les paramètres d’un plan de numérotation, exécutez:
+- Pour afficher les paramètres d’un plan de numérotation, exécutez :
     
   ```
   Get-CsTenantDialPlan -Identity RedmondDialPlan
@@ -107,7 +107,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Get-rubrique Remove](https://technet.microsoft.com/library/mt775024.aspx).
     
-- Pour supprimer un plan de numérotation, exécutez:
+- Pour supprimer un plan de numérotation, exécutez :
     
   ```
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
@@ -115,7 +115,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Remove-rubrique Remove](https://technet.microsoft.com/library/mt775020.aspx).
     
-- Pour afficher les paramètres du plan de numérotation efficace, exécutez:
+- Pour afficher les paramètres du plan de numérotation efficace, exécutez :
     
   ```
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
@@ -123,17 +123,17 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
     
-- Pour tester les paramètres efficaces d’un plan de numérotation, exécutez:
+- Pour tester les paramètres efficaces d’un plan de numérotation, exécutez :
     
   ```
-  Test-CsEffectiveTenantDialPlan -DialedNumber 14255551234 -Identity 1849827b-a810-40a8-8f77-e94250d4680b_US_TenantDialPlanRedmond
+  Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
     Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
     
 ### <a name="using-a-powershell-script"></a>Utilisation d’un script PowerShell
 
-Exécutez l’opération suivante pour supprimer une règle de normalisation associée à un plan de numérotation client sans avoir à supprimer d’abord le plan de numérotation client:
+Exécutez l’opération suivante pour supprimer une règle de normalisation associée à un plan de numérotation client sans avoir à supprimer d’abord le plan de numérotation client :
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -207,7 +207,7 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell ?
 
 - Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     

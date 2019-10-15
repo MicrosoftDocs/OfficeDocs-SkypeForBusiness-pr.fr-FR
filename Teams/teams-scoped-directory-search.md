@@ -18,18 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: e4966c2ac6071f0796efeb59248ed3eeacae69a7
+ms.sourcegitcommit: e5a9f276ace283b415f0abd4da6d27433a3d7d3b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305798"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37495282"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
 La fonction de recherche dans l’arborescence de Microsoft teams permet aux organisations de créer des frontières virtuelles qui contrôlent la façon dont les utilisateurs peuvent trouver et communiquer avec d’autres utilisateurs de leur organisation. 
 
-Microsoft teams permet aux organisations d’offrir des vues personnalisées de l’annuaire à leurs utilisateurs. Microsoft teams utilise des [stratégies de carnet d’adresses Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour lancer une discussion ou ajouter des membres à une équipe) seront définis dans l’étendue conformément aux stratégies configurées. Les utilisateurs ne seront pas en mesure de rechercher ou de découvrir les équipes lorsque la recherche avec l’étendue est en vigueur. 
+Microsoft teams permet aux organisations d’offrir des vues personnalisées de l’annuaire à leurs utilisateurs. Microsoft teams utilise des [stratégies de barrage des informations](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) pour prendre en charge ces affichages personnalisés. Une fois les stratégies activées, les résultats renvoyés par les recherches d’autres utilisateurs (par exemple, pour lancer une discussion ou ajouter des membres à une équipe) seront définis dans l’étendue conformément aux stratégies configurées. Les utilisateurs ne seront pas en mesure de rechercher ou de découvrir les équipes lorsque la recherche avec l’étendue est en vigueur. 
 
 > [!NOTE]
 > Dans les environnements Exchange hybrides, cette fonctionnalité fonctionne uniquement avec les boîtes aux lettres Exchange Online, et non avec les boîtes aux lettres locales.
@@ -41,14 +41,14 @@ Les scénarios qui s’offrent à vous pour les recherches dans l’annuaire son
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants. 
  
-Pour plus d’informations sur l’utilisation des stratégies du carnet d’adresses, voir [stratégies du carnet d’adresses dans Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+Pour plus d’informations sur l’utilisation des stratégies de carnet d’adresses, voir [stratégies de protection des informations dans Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
 
 > [!IMPORTANT]
 > Les politiques du carnet d’adresses fournissent uniquement une séparation virtuelle des utilisateurs du point de vue du répertoire. Les utilisateurs peuvent toujours lancer des communications avec d’autres personnes en leur fournissant des adresses de messagerie complètes. Il est également important de noter que toutes les données utilisateur qui ont déjà été mises en cache avant d’appliquer les stratégies de carnet d’adresses nouvelles ou mises à jour restent disponibles pour les utilisateurs pendant 30 jours maximum.
 
 ## <a name="turn-on-scoped-directory-search"></a>Activez la recherche dans l’annuaire avec étendue
 
-1. Utilisez les stratégies du carnet d’adresses pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, consultez la rubrique [procédures pour les stratégies du carnet d’adresses](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+1. Utiliser des stratégies de cloisonnement des informations pour configurer votre organisation en sous-groupes virtuels. Pour plus d’informations, consultez [définir des stratégies de barrière des informations](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
 2. Dans le centre d’administration de Microsoft Teams, sélectionnez > **paramètres d’équipe** **des paramètres à l’échelle**de l’organisation.
 
