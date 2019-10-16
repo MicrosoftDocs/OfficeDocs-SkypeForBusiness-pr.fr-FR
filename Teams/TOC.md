@@ -346,6 +346,7 @@
 ### Référence technique pour le routage direct
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Indicatifs de pays pour le chemin d’accès au média](direct-routing-country-codes.md)
+#### [Script PowerShell pour tester les connexions au contrôleur SBC](sip-tester-powershell-script.md)
 
 ## Numéros de téléphone
 ### [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
