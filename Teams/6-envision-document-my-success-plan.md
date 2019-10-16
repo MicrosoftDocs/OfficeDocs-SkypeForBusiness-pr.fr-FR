@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Choisissez un modèle de déploiement, développez une matrice responsable-consulté-consulté (RACI), créez des plans d’exécution et de gouvernance.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245159"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515991"
 ---
 # <a name="document-my-success-plan"></a>Documenter mon plan de réussite
 
@@ -39,13 +39,13 @@ Si votre organisation ne comporte qu’un ou deux sites, il est possible que vou
 
 Comme pour toute implémentation de technologie qui transforme la façon dont les personnes travaillent au sein de votre organisation, le choix du mode de réalisation du déploiement aura un impact considérable sur le succès de votre implémentation de voix Cloud.
 
-Les modèles de déploiement possibles sont les suivants:
+Les modèles de déploiement possibles sont les suivants :
 
--   **Par site:** Ce modèle est approprié pour les situations dans lesquelles votre organisation est dispersée géographiquement, et les succursales ont un nombre important d’employés. Toutefois, ce modèle de déploiement peut potentiellement perturber la communication au sein des services dans lesquels les employés de département sont répartis sur plusieurs emplacements.
+-   **Par site :** Ce modèle est approprié pour les situations dans lesquelles votre organisation est dispersée géographiquement, et les succursales ont un nombre important d’employés. Toutefois, ce modèle de déploiement peut potentiellement perturber la communication au sein des services dans lesquels les employés de département sont répartis sur plusieurs emplacements.
 
 -   **Par division**: ce modèle est généralement la meilleure option pour les entreprises de taille moyenne et permet aux services concernés d’avoir la même expérience.
 
--   **Société entière à la fois:** Ce modèle est généralement la meilleure option pour les petites entreprises, où tous les employés obtiennent la même connaissance du jour 1 du déploiement.
+-   **Société entière à la fois :** Ce modèle est généralement la meilleure option pour les petites entreprises, où tous les employés obtiennent la même connaissance du jour 1 du déploiement.
 
 
 <table>
@@ -88,12 +88,12 @@ Voici un exemple de plan d’exécution trimestrielle pour la phase enVision d�
 
 | Site/Division                            | Nombre d’employés | Audioconférence, | Système téléphonique                    | Trimestre à exécuter |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| États-Unis: New York                             | 2000                | Oui                | Système téléphonique avec forfaits d’appels | Q1 CY2018          |
-| Irlande: Dublin                          | 300                 | Oui                | Système téléphonique avec forfaits d’appels | Q1 CY2018          |
-| Autriche: Vienne                          | 500                 | Oui                | Routage direct via le système téléphonique     | 2E CY2018          |
-| Italie: Milan                             | 200                 | Oui                | N/A                             | 2E CY2018          |
-| Amérique du Sud: Brésil                    | 1500                | Oui                | Routage direct via le système téléphonique     | 2E CY2018          |
-| Inde: Delhi                             | 7000                | Oui                | N/A                             | 3E CY2018          |
+| États-Unis : New York                             | 2000                | Oui                | Système téléphonique avec forfaits d’appels | Q1 CY2018          |
+| Irlande : Dublin                          | 300                 | Oui                | Système téléphonique avec forfaits d’appels | Q1 CY2018          |
+| Autriche : Vienne                          | 500                 | Oui                | Routage direct via le système téléphonique     | 2E CY2018          |
+| Italie : Milan                             | 200                 | Oui                | N/D                             | 2E CY2018          |
+| Amérique du Sud : Brésil                    | 1500                | Oui                | Routage direct via le système téléphonique     | 2E CY2018          |
+| Inde : Delhi                             | 7000                | Oui                | N/D                             | 3E CY2018          |
 
 
 <table>
@@ -114,8 +114,8 @@ Vous trouverez ci-dessous un exemple de plan de communication et de gouvernance 
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Appels standup de Project                       | Synchronisation de l’état du projet, suivi des jalons et blocages clés                                                                                           | TBA          | Lundi, mardi, mercredi, jeudi 5 PM PST | Virtualization              | TBA           |
 | Comité d’orientation hebdomadaire                   | Réviser l’état du projet voix sur le Cloud, signaler aux dirigeants, résoudre les problèmes nécessitant l’aide d’une direction                                        | TBA          | Tous les vendredis 11 PST                        | Virtualization              | TBA           |
-| Évaluation mensuelle de Business/opérationnel | Consulter l’état du projet avec les parties prenantes, les principaux points de contact et les sponsors de la direction; examiner le plan de déploiement, KSIs et les mesures opérationnelles | TBA          | Deuxième mardi du mois                       | Virtuel ou en personne | TBA           |
-| Examen trimestriel pour les entreprises (QBR)             | Vérifier l’état du projet et passer en revue la progression par rapport aux objectifs stratégiques, au KSIs et aux métriques opérationnelles; revisiter les offres si nécessaire                                 | TBA          | Dernier jeudi de chaque trimestre                | En personne            | TBA           |
+| Évaluation mensuelle de Business/opérationnel | Consulter l’état du projet avec les parties prenantes, les principaux points de contact et les sponsors de la direction ; examiner le plan de déploiement, KSIs et les mesures opérationnelles | TBA          | Deuxième mardi du mois                       | Virtuel ou en personne | TBA           |
+| Examen trimestriel pour les entreprises (QBR)             | Vérifier l’état du projet et passer en revue la progression par rapport aux objectifs stratégiques, au KSIs et aux métriques opérationnelles ; revisiter les offres si nécessaire                                 | TBA          | Dernier jeudi de chaque trimestre                | En personne            | TBA           |
 
 
 <table>
@@ -133,7 +133,7 @@ Un plan de réussite correspond au Résumé de la documentation que vous avez cr
 
 Le plan de réussite donne à l’équipe de projet, qui peut inclure FastTrack ou un partenaire de déploiement, des informations suffisantes pour vous permettre de réaliser les objectifs de votre organisation lors de l’implémentation de l’audioconférence ou du système téléphonique avec le service de plan d’appel.
 
-En règle générale, un plan de réussite comporte les sections principales suivantes, qui vous permettront de travailler dans la phase enVision:
+En règle générale, un plan de réussite comporte les sections principales suivantes, qui vous permettront de travailler dans la phase enVision :
 
 -   Script commercial
 

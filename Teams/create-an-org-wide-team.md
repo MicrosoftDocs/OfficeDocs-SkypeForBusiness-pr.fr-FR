@@ -11,16 +11,15 @@ search.appverid: MET150
 description: Découvrez comment créer et gérer une équipe à l’échelle de l’organisation dans Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901f0dd116bf152433d226e0c131f795675784cc
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493111"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516649"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -28,7 +27,7 @@ Les équipes à l’échelle de l’organisation offrent une méthode automatiqu
 
 Grâce aux équipes au sein de l’organisation, les administrateurs généraux peuvent facilement créer une équipe publique qui collecte les informations de tous les utilisateurs au sein de l’organisation et met à jour l’appartenance avec Active Directory à mesure que les utilisateurs rejoignent et quittent l’organisation. Seuls les administrateurs généraux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations ne disposant pas de plus de 5 000 utilisateurs. Il existe également une limite de cinq équipes au sein de l’organisation par client. Si ces conditions sont remplies, les administrateurs généraux pourront voir l’échelle de l' **organisation** en tant qu’option lors de la création **d’une équipe à partir de zéro lors de** la création d’une équipe. 
 
-![Capture d’écran de l’option de création d’une équipe à l’échelle de l’organisation] (media/create-org-wide-team.png "Capture d’écran de l’option de création d’une équipe à l’échelle de l’organisation")
+![Capture d’écran de l’option à l’échelle de l’organisation de création d’une](media/create-org-wide-team.png "capture d’écran d’équipe à l’échelle de l’Organisation pour la création d’une équipe à l’échelle de l'") Organisation
 
 Lorsque vous créez une équipe à l’échelle de l’organisation, tous les administrateurs globaux sont ajoutés en tant que propriétaires d’équipe, et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, l’utilisateur reçoit une licence d’évaluation de Cloud Computing Microsoft Teams. Pour en savoir plus sur la licence d’évaluation, voir [gérer l’offre d’évaluation de Cloud Computing teams](iw-trial-teams.md). 
 
@@ -73,12 +72,12 @@ Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’o
 
 ## <a name="faq"></a>FAQ
 
-### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Est-il possible de créer une équipe à l’échelle de l’organisation à l’aide du client teams?
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Est-il possible de créer une équipe à l’échelle de l’organisation à l’aide du client teams ?
 
 Les administrateurs généraux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide du client Teams. Si votre organisation limite la création d’équipes à l’aide de PowerShell, vous pouvez utiliser la solution de contournement recommandée pour ajouter vos administrateurs globaux au groupe de sécurité des utilisateurs qui peuvent créer une équipe. Pour plus d'informations, reportez-vous à l’article [Gérer qui peut créer des groupes Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups).
 
 S’il ne s’agit pas d’une option, vous pouvez utiliser PowerShell pour créer une équipe publique et ajouter un administrateur global en tant que propriétaire de l’équipe. Ensuite, demandez à l’administrateur général de cliquer sur **plus d’options** en regard du nom de l’équipe, sur **modifier l’équipe**, puis de changer le niveau de confidentialité en **niveau**de l’organisation. Notez que seuls les propriétaires d’équipe peuvent accéder à l’option **modifier l’équipe** et seuls les administrateurs généraux peuvent voir l’option à l’échelle de l' **organisation** .
 
-### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Est-il possible de convertir une équipe existante en équipe au sein de l’Organisation?
+### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Est-il possible de convertir une équipe existante en équipe au sein de l’Organisation ?
 
 Les administrateurs généraux peuvent convertir une équipe existante en équipe au sein de l’organisation en la modifiant dans le client Teams. Accédez au nom de l’équipe, cliquez sur **autres options** > **modifier l’équipe**.

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434963"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522769"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -219,10 +218,20 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 **Numérotation par nom** Si vous activez cette option, les appelants peuvent rechercher des personnes dans votre organisation à l’aide de la **numérotation par nom**. Il parle du nom de l’utilisateur et de la reconnaissance vocale à l’utilisateur. Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom.
 
-**Composer par poste** Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en entrant leurs extensions de téléphone, dans la **mesure où vous avez configuré un plan de numérotation qui utilise des extensions**. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**Composer par poste** Si vous activez cette option (actuellement disponible uniquement dans certains clients), les appelants peuvent se connecter aux utilisateurs de votre organisation en entrant leur extension de téléphone. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
+
+> [!IMPORTANT]
+> Notez ce qui suit :
+>- Les utilisateurs que vous souhaitez rendre disponibles pour le numérotation par poste doivent avoir une extension dans le cadre de leur numéro de téléphone ou du numéro de téléphone mobile affectées dans le [Centre d’administration 365 Microsoft](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  Le format requis pour entrer l’extension dans le champ numéro de téléphone de l’utilisateur `+<phonenumber>;ext=<extension>` est `x<extension>`soit ou.
+>- L’attribution d’une extension dans le centre d’administration teams n’est pas prise en charge pour le moment. Vous devez utiliser la commande PowerShell [Set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) ou le centre d’administration Microsoft 365.
+>- Il est possible que les modifications apportées aux attributs AAD et MobilePhone soient jusqu’à 12 heures.
+>- Ne définissez pas d’extension pour le LineUri d’un utilisateur. Cette fonctionnalité n’est pas prise en charge pour le moment.
+>- Un standard automatique peut être configuré pour composer par nom ou par numéro de poste, mais pas les deux.
 
 > [!NOTE]
-> Si vous souhaitez utiliser les fonctions **numéroter par nom** et **composé** d’une extension, vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu 3 s’ils connaissent l’extension de l’utilisateur et définir l’option 3 sur TRAN. Sfer l’appel vers un standard automatique activé pour le numérotation par extension. 
+> Si vous souhaitez utiliser les fonctions **numéroter par nom** et **numéro de poste par** , vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu s’ils connaissent l’extension de l’utilisateur et définir cette option sur Transférez l’appel vers un standard automatique activé pour composer par extension. 
 
 * * *
 

@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435099"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522758"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -310,9 +310,15 @@ Le tableau de bord des rapports de synthèse de bord inclut une page de **télé
 - Carte de chaque point d’accès sans fil et son adresse MAC
 - Carte de point de terminaison à marque/modèle/type de point de terminaison, etc.
   
+> [!NOTE]
+> Les étiquettes de rapport que vous chargez dans bord seront gérées en tant que *données de support* dans le cadre de votre contrat pour Office 365, y compris les informations qui seraient considérées comme des *données client* ou des *données personnelles*. N’incluez pas de données que vous ne souhaitez pas envoyer à Microsoft en tant que *données de support technique*, ces informations seront visibles par les ingénieurs Microsoft à des fins de support.
+
 ![Capture d’écran : affiche les données client du tableau de bord de qualité des appels](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. Dans la page **téléchargement de données du client** , utilisez le menu déroulant pour choisir le type de fichier de données à télécharger. Le type de données de fichier indique le contenu du fichier (par exemple, « bâtiment » désigne le mappage de l’adresse IP et de la construction ainsi que d’autres informations géographiques, « point de terminaison » fait référence au mappage du nom du point de terminaison aux informations sur la création/type de point de terminaison. Pour l’instant, bord prend en charge les types de données « bâtiment » et « point de terminaison » pour cqd.teams.microsoft.com (en phase d’aperçu et non officiellement disponible), cqd.lync.com prend uniquement en charge le type de données « bâtiment ».
+
+
+
 2. Après avoir sélectionné le type de données du fichier, cliquez sur **Parcourir** pour choisir un fichier de données.
 
    - Un fichier de données doit être un fichier. TSV (valeurs séparées par des tabulations) ou un fichier. csv (valeurs séparées par des virgules). Dans un fichier. csv, les champs qui contiennent une virgule doivent être entourés de guillemets ou être supprimés. Par exemple, si le nom de votre bâtiment est NY, NY, entrez « NY, NY » dans le fichier. csv.

@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Outre la licence par utilisateur pour les conférences audio standard, les organisations qui utilisent le programme de licence en volume Microsoft peuvent également choisir une proposée à la minute pour activer les fonctionnalités de conférence audio de leur organisation.
-ms.openlocfilehash: 7be5acfcb6dc86179c29c983c9764569232e1d97
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344708"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515891"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -40,9 +39,9 @@ Vous pouvez déterminer si votre [pays ou région est pris en charge](country-an
 > [!NOTE]
 > Étant donné que cette offre n’est disponible que pour les clients en volume et en gestion des licences, vous devrez collaborer avec votre représentant pour acheter des licences. 
   
-## <a name="need-some-details"></a>Vous avez besoin de quelques informations?
+## <a name="need-some-details"></a>Vous avez besoin de quelques informations ?
 
-Alors que l’offre de licence par utilisateur de l’audioconférence inclut l’utilisation de la fonction d’appel entrant et de l’utilisation de la fonction de numérotation, les services d’audioconférence à **la minute vous permettent de payer toutes les utilisations de votre audioconférence à la minute, sans payer chaque mois. licence**. Ainsi, tous les appels entrants et sortants seront débités à la minute, par exemple:
+Alors que l’offre de licence par utilisateur de l’audioconférence inclut l’utilisation de la fonction d’appel entrant et de l’utilisation de la fonction de numérotation, les services d’audioconférence à **la minute vous permettent de payer toutes les utilisations de votre audioconférence à la minute, sans payer chaque mois. licence**. Ainsi, tous les appels entrants et sortants seront débités à la minute, par exemple :
   
 - Les appels entrants vers les numéros de conférence rendez-vous de votre organisation.
     
@@ -57,7 +56,7 @@ Les paiements à la minute impliquent que votre organisation dispose d’un [cr�
   
 Pour activer l’audioconférence pour les utilisateurs de votre organisation, voir [essayer ou acheter une audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
 
-## <a name="why-is-it-best-for-you"></a>Pourquoi c’est-il préférable pour vous?
+## <a name="why-is-it-best-for-you"></a>Pourquoi c’est-il préférable pour vous ?
 
 - Les paiements par minute ne seront facturés à la minute de chaque appel entrant ou sortant passé par chaque participant lors d’une réunion planifiée (des tarifs varient pour les appels payants ou gratuits et par destination) au lieu d’utiliser l’application Skype entreprise ou teams dans un appareil mobile. appareil ou PC.
 
@@ -71,9 +70,9 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
 
 - Activer les services d’audioconférence à la minute avec un abonnement mensuel de E5 ou un abonnement à une audioconférence autonome, les deux services continuent de fonctionner de la même manière. Les modifications apportées n’auront aucun effet sur les opérations de services d’audioconférence ou de communication.
   
-## <a name="want-to-find-out-more-about-pricing"></a>Vous voulez en savoir plus sur les tarifs?
+## <a name="want-to-find-out-more-about-pricing"></a>Vous voulez en savoir plus sur les tarifs ?
 
- **Vous recherchez les prix ?** Découvrez [Comment consulter les prix et acheter des licences de complément](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou l’une des options suivantes:
+ **Vous recherchez les prix ?** Découvrez [Comment consulter les prix et acheter des licences de complément](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how) ou l’une des options suivantes :
   
 - [Tarifs pour les conférences audio](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     

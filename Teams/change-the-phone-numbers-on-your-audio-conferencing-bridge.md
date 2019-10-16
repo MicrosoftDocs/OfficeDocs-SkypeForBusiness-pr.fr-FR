@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221682"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516962"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
@@ -35,11 +35,11 @@ Lorsque vous achetez des licences de **conférence audio** , Microsoft héberge 
 Outre les numéros de téléphone déjà attribués à votre pont de conférence, vous pouvez [obtenir des numéros de service supplémentaires](/microsoftteams/getting-service-phone-numbers) (numéro payant et numéro gratuit utilisés pour les conférences audio) à partir d’autres emplacements, puis les affecter à la Conférence de conférence pour pouvoir développez la couverture de vos utilisateurs.
   
 > [!NOTE]
-> Pour être en mesure d’affecter/retirer un numéro de téléphone à un pont de conférence, le numéro de téléphone doit être un numéro de*service*. Vous pouvez voir le type de numéro qu’il contient en accédant **** > aux**numéros de téléphone** dans le portail hérité et en regardant dans la colonne type de **nombre** . Les crédits de communication Office 365 doivent être configurés en premier pour permettre aux utilisateurs de se connecter au pont via un numéro gratuit.
+> Pour être en mesure d’affecter/retirer un numéro de téléphone à un pont de conférence, le numéro de téléphone doit être un numéro de*service*. Vous pouvez voir le type de numéro qu’il contient en accédant **aux** > **numéros de téléphone** dans le portail hérité et en regardant dans la colonne **type de nombre** . Les crédits de communication d’Office 365 doivent d’abord être configurés pour permettre aux utilisateurs de se connecter au pont sur un numéro gratuit.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Procédure d'affectation d'un nouveau numéro de téléphone de service à votre pont de conférence
 
-### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Étape 1: affectation d’un nouveau numéro de téléphone à votre pont de conférence audio
+### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Étape 1 : affectation d’un nouveau numéro de téléphone à votre pont de conférence audio
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
 
@@ -49,11 +49,11 @@ Outre les numéros de téléphone déjà attribués à votre pont de conférence
 
 4. Sur la page **Affecter**, cliquez sur **Enregistrer**.
 
-### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Étape 2: modifier le numéro de téléphone par défaut de votre pont de conférence (facultatif)
+### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Étape 2 : modifier le numéro de téléphone par défaut de votre pont de conférence (facultatif)
 
 Le numéro de téléphone par défaut de votre pont de conférence définit l’IDENTIFIant de l’appelant qui sera utilisé lors de la placement d’un appel sortant par un participant ou par l’organisateur à partir d’une réunion.
 
-Seul le numéro payant du service peut être défini comme numéro par défaut de votre pont de conférence. **les numéros gratuits du service ne peuvent pas être définis comme numéro par défaut de votre pont de conférence**. Si vous affectez un numéro payant de service et que vous voulez le configurer comme nouveau numéro par défaut de votre pont de conférence audio, procédez comme suit:
+Seul le numéro payant du service peut être défini comme numéro par défaut de votre pont de conférence. **les numéros gratuits du service ne peuvent pas être définis comme numéro par défaut de votre pont de conférence**. Si vous affectez un numéro payant de service et que vous voulez le configurer comme nouveau numéro par défaut de votre pont de conférence audio, procédez comme suit :
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel.
 
@@ -63,13 +63,13 @@ Seul le numéro payant du service peut être défini comme numéro par défaut d
 
 4. Sélectionnez **Définir par défaut**.
  
-### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Étape 3: modifier les numéros de téléphone par défaut inclus dans les invitations aux réunions (facultatif)
+### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Étape 3 : modifier les numéros de téléphone par défaut inclus dans les invitations aux réunions (facultatif)
 
 Le numéro de téléphone par défaut d’un utilisateur est celui qui est inclus dans les invitations à la réunion lors de la planification d’une réunion. Pour plus d’informations sur la façon dont les numéros de téléphone defaul sont attribués pour les nouveaux utilisateurs, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans les invitations de Microsoft teams](set-the-phone-numbers-included-on-invites-in-teams.md) ou [définition des numéros de téléphone des invitations dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Accédez aux**centres** > d’administration du centre > d' **administration 365 Microsoft**teams &**les utilisateurs**de l'**audioconférence** > **Skype** > **hérités** > , puis sélectionnez les utilisateurs dans la liste.
+2. Accédez aux**centres** > d’administration du centre > d' **administration 365 Microsoft****teams &** > **les utilisateurs**de l'**audioconférence** > Skype**hérités** > , puis sélectionnez les utilisateurs dans la liste.
 
 3. Cliquez sur **Modifier** dans le volet Action.
 
@@ -77,7 +77,7 @@ Le numéro de téléphone par défaut d’un utilisateur est celui qui est inclu
 
 Une fois les changements enregistrés, les nouveaux numéros de téléphone par défaut seront inclus dans les invitations aux réunions des organisateurs lors de leur prochaine planification.
 
-### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Étape 4: mettre à jour les invitations aux réunions existantes à l’aide du service de migration des réunions (facultatif)
+### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Étape 4 : mettre à jour les invitations aux réunions existantes à l’aide du service de migration des réunions (facultatif)
 
 Pour les deux étapes suivantes, vous devrez démarrer Windows PowerShell.
   
@@ -104,7 +104,7 @@ Si le numéro de téléphone est supprimé sans la mise à jour des utilisateurs
 
 Dans le cas de ces trois premières étapes, vous devrez démarrer Windows PowerShell. Pour consulter l’aide à ce sujet, cliquez sur [Vous souhaitez savoir comment gérer avec Windows PowerShell ?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#bkPowerShell)
 
-### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Étape 1: mettre à jour les utilisateurs dont le numéro de téléphone ne doit pas être attribué en tant qu’un de leurs numéros par défaut
+### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Étape 1 : mettre à jour les utilisateurs dont le numéro de téléphone ne doit pas être attribué en tant qu’un de leurs numéros par défaut
 
 Remplacez le numéro gratuit par défaut pour tous les utilisateurs dont le numéro doit être non affecté par défaut et commencez le processus de replanification de leurs réunions. Pour cela, exécutez la commande suivante :
 
@@ -129,7 +129,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 Pour plus d'informations sur le service Meeting Migration Service (MMS), reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
-### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Étape 3: annulation de l’affectation de l’ancien numéro de téléphone du pont de conférence audio
+### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Étape 3 : annulation de l’affectation de l’ancien numéro de téléphone du pont de conférence audio
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
@@ -223,16 +223,16 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les appl
 
 **Le bouton Annuler l’affectation est grisé**
 
-Vous voulez annuler l’affectation d’un numéro, mais le bouton est grisé et, si ce n’est pas le cas dans hoovering, vous êtes redirigé vers contacter le support technique avec le message suivant: _«les numéros par défaut ou les numéros partagés peuvent ́t pas être attribués par le pont. Pour retirer des numéros payants, veuillez contacter le service clientèle._
+Vous voulez annuler l’affectation d’un numéro, mais le bouton est grisé et, si ce n’est pas le cas dans hoovering, vous êtes redirigé vers contacter le support technique avec le message suivant : _«les numéros par défaut ou les numéros partagés peuvent ́t pas être attribués par le pont. Pour retirer des numéros payants, veuillez contacter le service clientèle._
 
-Pour obtenir des informations supplémentaires sur le ou les ponts, exécutez la commande PowerShell suivante:
+Pour obtenir des informations supplémentaires sur le ou les ponts, exécutez la commande PowerShell suivante :
 ```
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
 Le résultat, à l’instar des informations telles que l’identité, le nom et la région, doit également contenir le DefaultServiceNumber.
 
-**Par exemple**, pour annuler l’affectation, le DefaultServiceNumber «8005551234»
+**Par exemple**, pour annuler l’affectation, le DefaultServiceNumber « 8005551234 »
 ```
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
 ```

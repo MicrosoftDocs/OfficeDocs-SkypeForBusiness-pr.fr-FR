@@ -12,24 +12,23 @@ search.appverid: MET150
 description: Guide de mise en route pour la configuration des offres d’appel dans Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- Teams_ITAdmin_Training
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e043633749e0ef2dba41b5b3b18776cfbe1c497
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236572"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516479"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 ==============================================================
 
 Ce guide va vous aider à mettre en route un ensemble d’utilisateurs afin qu’ils puissent explorer les plans d’appel dans Teams.
 
-Lire le 12 décembre 2017, annonce des plans d’appel dans teams: [les communications intelligentes prennent l’étape suivante avec les appels dans teams](https://aka.ms/ipyqus)
+Lire le 12 décembre 2017, annonce des plans d’appel dans teams : [les communications intelligentes prennent l’étape suivante avec les appels dans teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
 > Dans le cas d’un guide de démarrage rapide, nous vous conseillons de lire le [système téléphonique avec les offres d’appel](calling-plan-landing-page.md) et [FastTrack](https://aka.ms/cloudvoice) pour planifier et conduire un déploiement réussi.
@@ -43,8 +42,8 @@ Pour activer l’onglet **appels** dans équipes, les utilisateurs doivent avoir
 > [!NOTE]
 > Pour le moment, la boîte vocale n’est pas disponible sous l’onglet appels, sauf si l’utilisateur est autorisé à utiliser les appels RTC. 
 
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Conditions préalables à l’activation du **pavé** de numérotation dans teams
-Pour activer l’onglet **pavé** de numérotation dans teams et permettre aux utilisateurs de passer et de recevoir des appels RTC, vous devez configurer les utilisateurs pour le système téléphonique et les offres d’appels. Pour plus d’informations sur la configuration des forfaits d’appel, consultez la rubrique [configurer les offres d’appels](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Conditions préalables à l’activation du **pavé de numérotation** dans teams
+Pour activer l’onglet **pavé de numérotation** dans teams et permettre aux utilisateurs de passer et de recevoir des appels RTC, vous devez configurer les utilisateurs pour le système téléphonique et les offres d’appels. Pour plus d’informations sur la configuration des forfaits d’appel, consultez la rubrique [configurer les offres d’appels](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
 > Vous pouvez également utiliser le routage direct pour autoriser vos utilisateurs à passer et à recevoir des appels PSTN. Pour savoir comment configurer le routage direct, voir [configurer le routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
@@ -53,13 +52,13 @@ Pour activer l’onglet **pavé** de numérotation dans teams et permettre aux u
 Pour contrôler si les appels entrants (et les discussions) dans teams ou Skype entreprise, les administrateurs utilisent TeamsUpgradePolicy, à l’aide du [Centre d’administration Microsoft teams](https://aka.ms/teamsadmincenter) ou d’une session Windows PowerShell distante avec [Skype entreprise](https://docs.microsoft.com/powershell/module/skype) applets.
 
 
-La configuration par défaut de TeamsUpgradePolicy est le mode îlot, qui est conçu pour garantir que les flux de travail d’entreprise existants ne sont pas interrompus lors du déploiement d’équipes. Par défaut, les appels VoIP, RTC et fédérés vers vos utilisateurs continuent d’être routés vers Skype entreprise tant que vous n’avez pas mis à jour la stratégie pour autoriser les appels entrants vers Teams.  Lorsque les destinataires sont en mode îlot:
+La configuration par défaut de TeamsUpgradePolicy est le mode îlot, qui est conçu pour garantir que les flux de travail d’entreprise existants ne sont pas interrompus lors du déploiement d’équipes. Par défaut, les appels VoIP, RTC et fédérés vers vos utilisateurs continuent d’être routés vers Skype entreprise tant que vous n’avez pas mis à jour la stratégie pour autoriser les appels entrants vers Teams.  Lorsque les destinataires sont en mode îlot :
 
  - Les appels VOIP entrants à l’origine de Skype entreprise sont toujours terrains dans le client Skype entreprise du destinataire.
  - Appels VOIP entrants à l’origine dans teams en équipe, *si l’expéditeur et le destinataire se trouvent dans le même client*.
  - Le VOIP fédéré entrant (quel que soit le client qu’il contient) et les appels RTC sont toujours terrains dans le client Skype entreprise du destinataire.
  
-Pour vous assurer que les appels VOIP et PSTN entrants restent toujours dans le client teams d’un utilisateur, mettez à jour le mode de coexistence de l’utilisateur pour qu’il soit TeamsOnly (c’est-à-dire, attribuez-lui l’instance «UpgradeToTeams» de TeamsUpgradePolicy.  Pour plus d’informations sur les modes de coexistence et TeamsUpgradePolicy, voir [conseils de migration et d’interopérabilité pour les organisations qui utilisent des équipes dans Skype entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) .
+Pour vous assurer que les appels VOIP et PSTN entrants restent toujours dans le client teams d’un utilisateur, mettez à jour le mode de coexistence de l’utilisateur pour qu’il soit TeamsOnly (c’est-à-dire, attribuez-lui l’instance « UpgradeToTeams » de TeamsUpgradePolicy.  Pour plus d’informations sur les modes de coexistence et TeamsUpgradePolicy, voir [conseils de migration et d’interopérabilité pour les organisations qui utilisent des équipes dans Skype entreprise](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) .
 
 **NOTES**
  - Les téléphones IP Skype entreprise recevront des appels, même s’ils sont en mode TeamsOnly.  
@@ -67,7 +66,7 @@ Pour vous assurer que les appels VOIP et PSTN entrants restent toujours dans le 
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour qu’ils reçoivent tous les appels VOIP et PSTN entrants dans teams
-Pour garantir que les utilisateurs reçoivent tous les appels VOIP et PSTN entrants dans Teams, définissez le mode de coexistence de l’utilisateur sur TeamsOnly dans le centre d’administration de Microsoft Teams, ou utilisez la session Windows PowerShell Skype entreprise à distance pour mettre à jour TeamsUpgradePolicy comme suit:
+Pour garantir que les utilisateurs reçoivent tous les appels VOIP et PSTN entrants dans Teams, définissez le mode de coexistence de l’utilisateur sur TeamsOnly dans le centre d’administration de Microsoft Teams, ou utilisez la session Windows PowerShell Skype entreprise à distance pour mettre à jour TeamsUpgradePolicy comme suit :
 
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 

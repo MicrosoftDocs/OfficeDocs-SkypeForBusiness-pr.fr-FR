@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Configurer les appels d’urgence dynamiques
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006f131183fe75b8246f0d2fa2d0ae28575e9e1d
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b166c93bb213fab6e8025a1837ef67baa65c884
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396494"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516931"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling-for-calling-plans"></a>Planifier et configurer les appels d’urgence dynamiques pour les offres d’appels
 Les appels d’urgence dynamiques pour les plans d’appel Microsoft offrent la possibilité de configurer et d’acheminer les appels d’urgence en fonction de l’emplacement actuel du client Teams.  La possibilité de procéder au routage automatique vers le point d’accès à la sécurité publique approprié (PSAPI) ou de notifier le personnel de votre support technique dépend du pays d’utilisation de l’utilisateur de teams.  

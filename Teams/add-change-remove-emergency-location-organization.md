@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
-ms.openlocfilehash: e0befb48ce5cc6c896db89d7defbde94d01c9278
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396495"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516829"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -62,6 +61,6 @@ Pour plus d’informations sur la façon d’obtenir un plan d’appels et son c
 ## <a name="related-topics"></a>Voir aussi
 
 -[Quels sont les emplacements d’urgence, les lieux et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Ajout, modification ou suppression d’un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
+- [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)

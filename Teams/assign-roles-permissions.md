@@ -11,16 +11,15 @@ search.appverid: MET150
 description: Découvrez comment assigner des rôles et des autorisations de propriétaire et de membre d'équipe dans Microsoft Teams, notamment des autorisations de création d'équipes.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29619fce9f3f9d03f887f632d25b4ae7abe474c9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6757f7200535dc8fb687915ec033712b2654723b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241720"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516444"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -28,7 +27,7 @@ ms.locfileid: "36241720"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Dans Microsoft Teams, il existe deux rôles d’utilisateur: **propriétaire** et **membre**. Par défaut, un utilisateur qui crée une équipe dispose du statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer de capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Office 365 existant, les autorisations sont héritées.
+Dans Microsoft Teams, il existe deux rôles d’utilisateur : **propriétaire** et **membre**. Par défaut, un utilisateur qui crée une équipe dispose du statut de propriétaire. De plus, les propriétaires et les membres peuvent disposer de capacités de modérateur pour un canal (à condition que la modération ait été configurée). Si une équipe est créée à partir d’un groupe Office 365 existant, les autorisations sont héritées.
 
 Le tableau ci-après présente les différences d'autorisations entre un propriétaire et un membre.
 

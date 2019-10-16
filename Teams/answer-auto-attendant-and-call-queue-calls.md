@@ -12,16 +12,16 @@ description: Décrit les standards automatiques du Cloud et les files d’attent
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb58a945f1a5ff06c9f92c9440e783e4df9cde0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241252"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516794"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 ===========================================================
@@ -49,7 +49,7 @@ Lorsque le standard automatique ou la file d’attente d’appels est reçu, l�
 
 ## <a name="supported-clients"></a>Clients pris en charge
 
-La prise en charge des appels de standard automatique et de file d’attente d’appels est disponible dans les clients suivants:
+La prise en charge des appels de standard automatique et de file d’attente d’appels est disponible dans les clients suivants :
 
 -   Client Microsoft Teams (versions 32 et 64 bits)
 -   Client Microsoft teams Mac

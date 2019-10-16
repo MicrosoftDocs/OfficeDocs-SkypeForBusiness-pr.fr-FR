@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Page d’accueil du déploiement de la voix Cloud dans teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92e32950526f12c5da1856ce390ee3e532892681
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483862"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515831"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
@@ -39,14 +38,14 @@ Nous recommandons à toutes les organisations de travailler par le biais des dé
 
 ## <a name="learn-more-about-cloud-voice"></a>En savoir plus sur la voix Cloud
 
-Les articles suivants fournissent des informations supplémentaires sur le déploiement et l’utilisation des fonctionnalités vocales Cloud dans teams:
+Les articles suivants fournissent des informations supplémentaires sur le déploiement et l’utilisation des fonctionnalités vocales Cloud dans teams :
 
 - [Système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
 - [Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
 - [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Déploiement de la fonctionnalité vocale cloud](cloud-voice-deployment.md)
 - [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
-- Pour en savoir plus sur le système téléphonique, voir la session suivante: [Présentation du système téléphonique dans Microsoft teams](https://aka.ms/teams-phone-system)
+- Pour en savoir plus sur le système téléphonique, voir la session suivante : [Présentation du système téléphonique dans Microsoft teams](https://aka.ms/teams-phone-system)
 
 
 ## <a name="core-deployment-decisions"></a>Décisions liées au déploiement Core
@@ -60,24 +59,24 @@ Le système téléphonique est la technologie de Microsoft permettant d’active
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Pour quels emplacements ou bureaux d’utilisateurs puis-je implémenter un système téléphonique? |Pour plus d’informations sur le système téléphonique, voir [qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
+|Pour quels emplacements ou bureaux d’utilisateurs puis-je implémenter un système téléphonique ? |Pour plus d’informations sur le système téléphonique, voir [qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md).</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>Connexion au réseau téléphonique public commuté (RTC)
 
-Pour connecter un système téléphonique au réseau téléphonique commuté (PSTN), afin que les utilisateurs puissent passer des appels téléphoniques partout dans le monde, vous disposez d’options selon les besoins de votre entreprise.  Posez-vous les questions suivantes:
+Pour connecter un système téléphonique au réseau téléphonique commuté (PSTN), afin que les utilisateurs puissent passer des appels téléphoniques partout dans le monde, vous disposez d’options selon les besoins de votre entreprise.  Posez-vous les questions suivantes :
 
 
 |Posez-vous la question|Action |
 | :------------|:-------|
-| Voulez-vous utiliser le plan d’appel Microsoft comme opérateur de téléphonie? | Pour plus d’informations, reportez-vous à la rubrique [système téléphonique avec les offres d’appels](calling-plan-landing-page.md).|
-| Ai-je besoin d’utiliser mon propre opérateur de téléphonie? | Pour plus d’informations, reportez-vous [à la rubrique système téléphonique avec routage direct](direct-routing-landing-page.md).
+| Voulez-vous utiliser le plan d’appel Microsoft comme opérateur de téléphonie ? | Pour plus d’informations, reportez-vous à la rubrique [système téléphonique avec les offres d’appels](calling-plan-landing-page.md).|
+| Ai-je besoin d’utiliser mon propre opérateur de téléphonie ? | Pour plus d’informations, reportez-vous [à la rubrique système téléphonique avec routage direct](direct-routing-landing-page.md).
 |||
 
 
 ## <a name="additional-deployment-decisions"></a>Options de déploiement supplémentaires
 
-Vous souhaiterez peut-être modifier les paramètres pour les éléments suivants, en fonction des besoins et de la configuration de votre organisation:
+Vous souhaiterez peut-être modifier les paramètres pour les éléments suivants, en fonction des besoins et de la configuration de votre organisation :
 
 - Messagerie vocale
 - Identité d’appel
@@ -92,8 +91,8 @@ La messagerie vocale Cloud, optimisée par les services de boîte vocale Azure, 
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Ai-je besoin d’activer la messagerie vocale Cloud? | Pour les procédures de configuration de la messagerie vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
-| Ai-je besoin d’activer la transcription de la messagerie vocale pour tout ou partie de mes utilisateurs? | Pour désactiver la transcription de la boîte vocale, consultez [la rubrique Configuration des stratégies de messagerie vocale au sein de votre organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
+| Ai-je besoin d’activer la messagerie vocale Cloud ? | Pour les procédures de configuration de la messagerie vocale, consultez la rubrique [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
+| Ai-je besoin d’activer la transcription de la messagerie vocale pour tout ou partie de mes utilisateurs ? | Pour désactiver la transcription de la boîte vocale, consultez [la rubrique Configuration des stratégies de messagerie vocale au sein de votre organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
 ### <a name="calling-identity"></a>Identité d’appel
@@ -102,18 +101,18 @@ Par défaut, tous les appels sortants utilisent le numéro de téléphone attrib
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-|Souhaitez-vous masquer ou désactiver l’identification de l’appelant? | Pour modifier ou bloquer l’ID de l’appelant, voir [définir l’ID d’appelant d’un utilisateur](set-the-caller-id-for-a-user.md). |
+|Souhaitez-vous masquer ou désactiver l’identification de l’appelant ? | Pour modifier ou bloquer l’ID de l’appelant, voir [définir l’ID d’appelant d’un utilisateur](set-the-caller-id-for-a-user.md). |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Numéros de téléphone de Microsoft
 
-Microsoft est doté de deux types de numéros de téléphone disponibles: des numéros d' *abonnés* (utilisateurs), qui peuvent être attribués à des utilisateurs de votre organisation, et des numéros de *service* , disponibles en tant que numéros de service gratuits ou payants, qui ont des appels simultanés plus élevés. la capacité est utilisée par rapport aux numéros d’abonnés et peut être affectée à des services, tels que les conférences audio, les standards automatiques ou les files d’attente d’appels.
+Microsoft est doté de deux types de numéros de téléphone disponibles : des numéros d' *abonnés* (utilisateurs), qui peuvent être attribués à des utilisateurs de votre organisation, et des numéros de *service* , disponibles en tant que numéros de service gratuits ou payants, qui ont des appels simultanés plus élevés. la capacité est utilisée par rapport aux numéros d’abonnés et peut être affectée à des services, tels que les conférences audio, les standards automatiques ou les files d’attente d’appels.
 
 |Posez-vous la question|Action |
 | :------------|:-------|
-| Quels sont les emplacements des utilisateurs qui ont besoin de nouveaux numéros de téléphone de Microsoft? | Pour plus d’informations sur l’affichage des numéros de téléphone, voir [gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) et [obtenir des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md). 
-| Quel type de numéro de téléphone (abonné ou service) ai-je besoin? | Pour vous aider à choisir le type de numéro de téléphone dont vous avez besoin, voir [différents types de numéros de téléphone utilisés pour les offres d’appels](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-Comment puis-je porter des numéros de téléphone existants vers Office 365?|Pour plus d’informations, consultez la rubrique [transfert de numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+| Quels sont les emplacements des utilisateurs qui ont besoin de nouveaux numéros de téléphone de Microsoft ? | Pour plus d’informations sur l’affichage des numéros de téléphone, voir [gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) et [obtenir des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md). 
+| Quel type de numéro de téléphone (abonné ou service) ai-je besoin ? | Pour vous aider à choisir le type de numéro de téléphone dont vous avez besoin, voir [différents types de numéros de téléphone utilisés pour les offres d’appels](different-kinds-of-phone-numbers-used-for-calling-plans.md).
+Comment puis-je porter des numéros de téléphone existants vers Office 365 ?|Pour plus d’informations, consultez la rubrique [transfert de numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
 |||
 
 ### <a name="dial-plans"></a>Plan de numérotation
@@ -125,7 +124,7 @@ Pour plus d'informations sur les plans d'appel, voir [Quels sont les plans de nu
 |Posez-vous la question|Action |
 |:------------|:-------|
 | Mon organisation a-t-elle besoin d’un plan de numérotation personnalisé ? | Pour savoir si vous avez besoin d’un plan de numérotation personnalisé, voir [planification des plans de numérotation client](what-are-dial-plans.md#planning-for-tenant-dial-plans) .|
-Quels sont les utilisateurs qui ont besoin d’un plan d’appel personnalisé et quel plan de numérotation client doit être attribué à chaque utilisateur ? | Pour ajouter des utilisateurs à un plan de numérotation personnalisé dans PowerShell, reportez-vous à la rubrique [création et gestion de plans](create-and-manage-dial-plans.md)de numérotation. |
+Quels sont les utilisateurs qui ont besoin d’un plan d’appel personnalisé et quel plan de numérotation client doit être attribué à chaque utilisateur ? | Pour ajouter des utilisateurs à un plan de numérotation personnalisé dans PowerShell, reportez-vous à la rubrique [création et gestion de plans de numérotation](create-and-manage-dial-plans.md). |
 |||
 
 ### <a name="call-queues"></a>Files d'attente des appels
@@ -135,7 +134,7 @@ Les files d’attente d’appels Cloud incluent des messages d’accueil qui son
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Mon organisation a-t-elle besoin d’une file d’attente d’appels? | Pour plus d’informations, reportez-vous à la rubrique [création d’une file d’attente d’appels Cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) et [configuration de votre système téléphonique](setting-up-your-phone-system.md). |
+| Mon organisation a-t-elle besoin d’une file d’attente d’appels ? | Pour plus d’informations, reportez-vous à la rubrique [création d’une file d’attente d’appels Cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) et [configuration de votre système téléphonique](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Standards automatiques
 
@@ -143,11 +142,11 @@ Les standards automatiques du Cloud peuvent être utilisés pour créer un syst�
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Mon organisation a-t-elle besoin de standards automatiques? | Pour plus d’informations, reportez-vous à [définition des standards automatiques Cloud](what-are-phone-system-auto-attendants.md) et [configuration d’un standard automatique Cloud](create-a-phone-system-auto-attendant.md). |
+| Mon organisation a-t-elle besoin de standards automatiques ? | Pour plus d’informations, reportez-vous à [définition des standards automatiques Cloud](what-are-phone-system-auto-attendants.md) et [configuration d’un standard automatique Cloud](create-a-phone-system-auto-attendant.md). |
 
 ### <a name="devices"></a>Appareils
 
-Pour plus d’informations sur les appareils pris en charge, voir les rubriques suivantes:
+Pour plus d’informations sur les appareils pris en charge, voir les rubriques suivantes :
 
 - [Gérer vos périphériques dans Microsoft Teams](device-management.md)
 - [Téléphones IP](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,16 +28,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Découvrez comment payer pour les crédits de communication (consommation RTC) pour les services Skype entreprise et consulter les plans permettant à vos utilisateurs d’accéder à un système téléphonique continu. '
-ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239334"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516811"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
-Les crédits de communication constituent un moyen pratique de régler le système téléphonique et les offres d’appels dans Office 365. Les crédits de communication permettent de veiller à ce que vous et vos utilisateurs ne soyez pas en mesure d’effectuer les opérations suivantes:
+Les crédits de communication constituent un moyen pratique de régler le système téléphonique et les offres d’appels dans Office 365. Les crédits de communication permettent de veiller à ce que vous et vos utilisateurs ne soyez pas en mesure d’effectuer les opérations suivantes :
   
 - Rendez-vous pour les réunions de conférence rendez-vous à l’aide d’un numéro de téléphone gratuit.
     
@@ -57,18 +56,18 @@ En tant qu’administrateur, vous pouvez ajouter des fonds manuellement ou confi
   
 La recharge automatique permet de recharger automatiquement votre solde lorsque celui-ci atteint le seuil minimal de déclenchement défini. Il est recommandé d'utiliser la recharge automatique afin de ne pas avoir à penser à rajouter manuellement des fonds. Lorsque votre solde atteint le montant de déclenchement, des fonds sont automatiquement ajoutés. Si vous choisissez de ne pas renouveler la recharge automatique, vous risquez de voir votre solde devenir inférieur à zéro. À ce stade, vous et vos utilisateurs ne pourrez plus passer d'appels gratuits ou d'appels internationaux.
   
-Vous pouvez mettre à jour vos options de paiement à tout moment. Sur la **** page abonnements, sélectionnez **crédits de communication**et effectuez vos mises à jour.
+Vous pouvez mettre à jour vos options de paiement à tout moment. Sur la page **abonnements** , sélectionnez **crédits de communication**et effectuez vos mises à jour.
   
 Les fonds seront appliqués uniquement aux crédits de communication au tarif publié par Microsoft lorsque les services sont utilisés. Les fonds qui ne sont pas utilisés dans les douze (12) mois de la date d’achat expireront et seront perdus.
   
 > [!TIP]
 > Nous vous enverrons des notifications par courrier électronique lorsque les fonds seront ajoutés via la recharge automatique, lorsque la recharge automatique échoue (par exemple, lorsqu’une carte de crédit arrive à expiration) et lorsque votre solde devient inférieur à zéro. 
   
-Pour plus d’informations, consultez [qu’est-ce que les crédits de communication?](what-are-communications-credits.md)
+Pour plus d’informations, consultez [qu’est-ce que les crédits de communication ?](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>Vous souhaitez en savoir plus sur les offres et les tarifs ?
 
-Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suivants:
+Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suivants :
   
 - [Forfaits d’appel](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
@@ -76,7 +75,7 @@ Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suiv
     
 - [Plans de système téléphonique](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation** > **abonnements** > **Ajouter**des abonnements.
+Vous pouvez également consulter des informations en vous [connectant au centre d’administration 365 Microsoft](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) et en accédant à **facturation** > **abonnements** > **Ajouter des abonnements**.
   
 Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

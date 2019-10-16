@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Téléchargez le manuel d’utilisation du site pour planifier le déploiement de vos équipes et accélérer et optimiser l’adoption des utilisateurs, la perception de la qualité et la satisfaction.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17b73629aa874232a449605b45f97ea10e445204
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232285"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515999"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -33,7 +33,7 @@ Utilisez ce manuel pour aider votre organisation à planifier et à exécuter co
 
 Incluant toutes les activités requises, les chronologies recommandées et les liens vers des instructions correspondantes pour chaque activité, le présent manuel décrit les conseils de bout en bout pour vous permettre de garantir le déploiement de votre voix teams pour un site donné, en insistant sur les facteurs importants. à l’utilisateur.
 
-En remplissant les activités de ce manuel, votre organisation peut:
+En remplissant les activités de ce manuel, votre organisation peut :
 
 -   Planifiez et planifiez efficacement le déploiement de votre équipe.
 
@@ -42,17 +42,17 @@ En remplissant les activités de ce manuel, votre organisation peut:
 -   Réduisez les besoins en matière de support et augmentez la satisfaction des utilisateurs.
 
 > [!NOTE]
-> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de vérification d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), fonctionnalités de [base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipes, [réseau pour teams](onboarding-checklist-configure-networking.md)et [activation d’Office 365](onboarding-checklist-enable-office-365.md).
+> Cet article et le manuel associé n’ont pas été prévus pour décrire chaque étape de configuration technique requise pour l’activation du service ou la fourniture de tonalités de numérotation à un site spécifique. Au lieu de cela, ils se concentrent sur les activités et les tâches qui sont recommandées pour intégrer facilement les utilisateurs et leur permettre d’utiliser les charges de travail vocales d’équipes grâce à une transition rapide et plus fluide, tout en minimisant le niveau de prise en charge requise. Pour obtenir des conseils techniques sur la configuration de votre environnement pour teams Voice, voir les listes de vérification d’intégration pour la [Configuration des charges de travail vocales](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)d’équipe, [configuration du routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [fonctionnalités de base](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)d’équipes, [réseau pour teams](onboarding-checklist-configure-networking.md)et [activation d’Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
 ## <a name="playbook-focus-areas"></a>Zones ciblées du manuel
 
-Le manifeste consiste à traiter les facteurs qui influencent la perception de l’utilisateur par un déploiement vocal d’équipes. Les activités et les tâches sont regroupées dans les zones ciblées suivantes:
+Le manifeste consiste à traiter les facteurs qui influencent la perception de l’utilisateur par un déploiement vocal d’équipes. Les activités et les tâches sont regroupées dans les zones ciblées suivantes :
 
 -   Validation de la disponibilité du service
     - Audioconférence,
-    - Offres d'appels
+    - Forfaits d’appel
     - Routage direct
 
 -   Activation utilisateur
@@ -65,7 +65,7 @@ Le manifeste consiste à traiter les facteurs qui influencent la perception de l
 
 Le manuel [d’activation des sites pour les appels vocaux](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un classeur Microsoft Excel. Chacun de ces cinq domaines de focalisation est une feuille séparée dans le classeur, et chaque tâche et activité de déploiement est regroupée sur l’une de ces feuilles.
 
-![Capture d’écran du manuel d’activation du site] (media/deploy-my-service-image1.png "Capture d’écran du manuel")
+Capture d’écran ![de la](media/deploy-my-service-image1.png "capture d'") écran du manuel d’activation du site
 
 > [!NOTE]
 > Vous allez créer une instance distincte du manuel pour chaque site dans le cadre de votre déploiement d’équipes.
@@ -84,17 +84,17 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 4. Entrez le **nom du site, le code du site**et la **Date de lancement prévue**, comme illustré ci-dessous. Il s’agit d’une étape essentielle, car elle ajuste les délais recommandés pour chaque activité du manuel.
 
-   ![Exemple avec le nom du site, le code du site et la date de lancement planifiée] (media/deploy-my-service-image2.png "Exemple avec le nom de site New York, le code de site NY01 et la date de début planifiée 20-Mar-18")
+   ![Exemple avec le nom du site, l’code du site et la date de lancement planifiée](media/deploy-my-service-image2.png "avec le nom du site de New York, le code de site NY01 et la date de lancement prévue du 20 mars-18")
 
-5. Examinez chaque activité, effectuez les actions nécessaires et mettez à jour l’État à mesure que vous parcourez la chronologie. Le statut est représenté sous forme graphique, comme décrit ci-dessous:
+5. Examinez chaque activité, effectuez les actions nécessaires et mettez à jour l’État à mesure que vous parcourez la chronologie. Le statut est représenté sous forme graphique, comme décrit ci-dessous :
   
-   - ![Illustration d’une coche](media/deploy-my-service-image3.png) verte **: oui ou non applicable (vert):** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
-   - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune):</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
-   - ![Illustration d’un X rouge indiquant qu'](media/deploy-my-service-image5.png) il n’y a <strong>pas de no (rouge):</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
+   - ![Illustration d’une coche](media/deploy-my-service-image3.png) verte **: oui ou non applicable (vert) :** l’activité est terminée ou n’est pas applicable pour ce site, et aucune action supplémentaire n’est requise.</li>
+   - ![Image d’un point](media/deploy-my-service-image4.png) d’exclamation jaune <strong>l’activité n’est pas achevée (jaune) :</strong> l’activité n’a pas encore été achevée et doit être mise à jour sur Oui ou non.</li>
+   - ![Illustration d’un X rouge indiquant qu'](media/deploy-my-service-image5.png) il n’y a <strong>pas de no (rouge) :</strong> l’activité ne peut pas être effectuée en raison d’un problème et doit être acheminée vers la réunion d’État du projet.</li></ul>
 
 6. Le statut est répété dans chaque section, et le titre de section est mis en forme avec l’un de ces indicateurs d’État. Le **statut hebdomadaire** est également mis à jour automatiquement.
 
-![Capture d’écran des déploiements de l’état hebdomadaire dans le manuel] (media/deploy-my-service-image6.png "Capture d’écran des déploiements de l’état hebdomadaire dans le manuel")
+![Capture d’écran de la boîte de progression de l’état hebdomadaire dans la](media/deploy-my-service-image6.png "capture d’écran de la boîte de progression de l’état hebdomadaire dans le manuel")
 
 > [!TIP]
 > Répétez les étapes ci-dessus pour tous les emplacements que vous avez.

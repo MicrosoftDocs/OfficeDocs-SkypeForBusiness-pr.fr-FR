@@ -14,22 +14,22 @@ search.appverid: MET150
 description: Guide pratique pour le déploiement de la fonctionnalité vocale cloud dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271396"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516940"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
 Microsoft teams permet aux utilisateurs d’enregistrer les réunions et les appels de groupe de leurs équipes pour capter les activités de partage audio, vidéo et de partage d’écran. Il existe également une option pour les enregistrements qui permet une transcription automatique, afin que les utilisateurs puissent regarder les enregistrements de réunion avec des sous-titres et rechercher des éléments de discussion importants dans la transcription. L’enregistrement intervient dans le Cloud et est enregistré dans [Microsoft Stream](https://docs.microsoft.com/stream/), de sorte que les utilisateurs puissent le partager en toute sécurité au sein de leur organisation.
 
-Associé: [la documentation sur l’enregistrement de la réunion teams](https://aka.ms/recordmeeting)
+Associé : [la documentation sur l’enregistrement de la réunion teams](https://aka.ms/recordmeeting)
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Conditions préalables à l’enregistrement d’une réunion Cloud teams
 
-Pour que les réunions d’un utilisateur d’équipes puissent être enregistrées, Microsoft Stream doit être activé pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui initialise l’enregistrement:
+Pour que les réunions d’un utilisateur d’équipes puissent être enregistrées, Microsoft Stream doit être activé pour le client. De plus, les conditions préalables suivantes sont requises pour l’organisateur de la réunion et la personne qui initialise l’enregistrement :
 
 - L’utilisateur possède un bureau 365 E1, E3, E5, a1, a3, a5, M365 entreprise, Business Premium ou Business Essentials
 - L’utilisateur doit avoir une licence pour Microsoft Stream<sup>1</sup> 
@@ -68,11 +68,11 @@ Utilisez le paramètre AllowCloudRecording dans TeamsMeetingPolicy dans teams Po
 
 Notez que l’organisateur de la réunion et l’initiateur du Registre doivent disposer de l’autorisation d’enregistrement pour enregistrer la réunion. À moins que vous n’ayez affecté une stratégie personnalisée aux utilisateurs, les utilisateurs obtiennent une stratégie globale qui a désactivé par défaut AllowTranscription.
 
-Pour qu’un utilisateur revient à la stratégie globale, utilisez l’applet de commande suivante pour supprimer une affectation de stratégie spécifique pour un utilisateur:
+Pour qu’un utilisateur revient à la stratégie globale, utilisez l’applet de commande suivante pour supprimer une affectation de stratégie spécifique pour un utilisateur :
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utilisez l’applet de commande suivante:
+Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utilisez l’applet de commande suivante :
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
 </br>
@@ -95,11 +95,11 @@ Utilisez le paramètre AllowTranscription dans TeamsMeetingPolicy dans teams Pow
 
 À moins que vous n’ayez affecté une stratégie personnalisée aux utilisateurs, ils obtiennent une stratégie globale qui a AllowTranscription désactivée par défaut.
 
-Pour qu’un utilisateur revient à la stratégie globale, utilisez l’applet de commande suivante pour supprimer une affectation de stratégie spécifique pour un utilisateur:
+Pour qu’un utilisateur revient à la stratégie globale, utilisez l’applet de commande suivante pour supprimer une affectation de stratégie spécifique pour un utilisateur :
 
 `Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
 
-Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utilisez l’applet de commande suivante:
+Pour modifier la valeur de AllowCloudRecording dans la stratégie globale, utilisez l’applet de commande suivante :
 
 `Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
 </br>
@@ -121,7 +121,7 @@ La taille d’un enregistrement d'1 heure est de 400 Mo. Assurez-vous de connaî
 Les enregistrements de réunion sont considérés comme du contenu appartenant au client. Si le propriétaire de l’enregistrement quitte l’entreprise, l’administrateur peut ouvrir l’URL de la vidéo d’enregistrement dans Microsoft Stream en mode admin. L’administrateur est en mesure de supprimer l’enregistrement, de mettre à jour les métadonnées d’enregistrement ou de modifier les autorisations de la vidéo d’enregistrement. En savoir plus sur les [fonctionnalités d’administration dans Stream](https://docs.microsoft.com/stream/manage-content-permissions).
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformité et découverte électronique pour les enregistrements de réunion
-Les enregistrements de la réunion sont stockés dans Microsoft Stream, conforme à la norme Office 365 Tier-C. Pour prendre en charge les demandes de e-Discovery destinées aux administrateurs de la conformité qui sont intéressés par les enregistrements de réunion ou d’appel pour les flux Microsoft, le message enregistrement Completed est disponible dans la fonctionnalité de recherche de contenu de conformité pour Microsoft Teams. Les administrateurs de la conformité peuvent rechercher le mot clé «enregistrement» dans la ligne d’objet de l’élément dans l’aperçu de la recherche de contenu de conformité et découvrir les enregistrements de réunion et d’appel au sein de l’organisation. Pour qu’ils puissent voir tous les enregistrements, il doit être configuré dans Microsoft Stream avec l’accès administrateur. En savoir plus sur [l’attribution des autorisations d’administrateur dans Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
+Les enregistrements de la réunion sont stockés dans Microsoft Stream, conforme à la norme Office 365 Tier-C. Pour prendre en charge les demandes de e-Discovery destinées aux administrateurs de la conformité qui sont intéressés par les enregistrements de réunion ou d’appel pour les flux Microsoft, le message enregistrement Completed est disponible dans la fonctionnalité de recherche de contenu de conformité pour Microsoft Teams. Les administrateurs de la conformité peuvent rechercher le mot clé « enregistrement » dans la ligne d’objet de l’élément dans l’aperçu de la recherche de contenu de conformité et découvrir les enregistrements de réunion et d’appel au sein de l’organisation. Pour qu’ils puissent voir tous les enregistrements, il doit être configuré dans Microsoft Stream avec l’accès administrateur. En savoir plus sur [l’attribution des autorisations d’administrateur dans Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

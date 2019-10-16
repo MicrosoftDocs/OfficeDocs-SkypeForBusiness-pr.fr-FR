@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,16 +21,16 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes dont vous avez besoin pour modifier les paramètres d’un pont de conférence qui est utilisé pour inviter les appelants et rassembler des noms et des codes confidentiels pour les organisateurs de la réunion lorsque ces derniers n’utilisent pas les applications Skype entreprise ou Microsoft Teams. '
-ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494561"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516951"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
-Lorsque vous configurez l’audioconférence dans Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont de conférence audio. Un pont de conférence peut comporter un ou plusieurs numéros de téléphone. Ces numéros de téléphone permettent aux appelants de se connecter à une réunion. Le numéro de téléphone est inclus en bas de l’invitation à la réunion Skype entreprise ou Microsoft Teams.
+Lorsque vous configurez l’audioconférence dans Office 365, vous recevez des numéros de téléphone pour vos utilisateurs à partir d’un pont de conférence audio. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone. Ces numéros de téléphone permettent aux appelants de se connecter à une réunion. Le numéro de téléphone est inclus en bas de l’invitation à la réunion Skype entreprise ou Microsoft Teams.
   
 Le pont de conférence répond à un appel et invite l’appelant à utiliser les invites vocales à l’aide d’un standard automatique de réunion, puis, en fonction de vos paramètres, il peut lire les notifications, demander aux appelants d’enregistrer leur nom et de contrôler les paramètres de code confidentiel. Des broches sont fournies aux organisateurs de la réunion pour leur permettre de démarrer une réunion lorsqu’elles ne sont pas à l’aide d’une application Skype entreprise ou Microsoft Teams.
 
@@ -43,14 +42,14 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
 
 ## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
-1. Dans le volet de navigation de gauche, accédez à **conférences** > **** conférences. 
+1. Dans le volet de navigation de gauche, accédez à **conférences** > **conférences.** 
 
 2. Dans la partie supérieure de la page de **conférences ponts** , cliquez sur **paramètres du pont**. 
 
-3. Dans le volet **paramètres du pont** , sélectionnez: 
+3. Dans le volet **paramètres du pont** , sélectionnez : 
    - **Notifications d’entrée et de sortie de réunion** Si vous désactivez cette fonctionnalité, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsqu’une personne entre ou quitte la réunion.
     
-     Lorsque vous activez les **notifications d’entrée et de sortie**de la réunion, vous pouvez sélectionner les options suivantes:
+     Lorsque vous activez les **notifications d’entrée et de sortie**de la réunion, vous pouvez sélectionner les options suivantes :
     
    - **Nom ou numéro de téléphone** Lorsqu’un utilisateur appelle pour rejoindre une réunion, son numéro de téléphone est diffusé lorsqu’il rejoint la réunion.
     
@@ -72,7 +71,7 @@ Le pont de conférence répond à un appel et invite l’appelant à utiliser le
     
 1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
-2. Dans la page **paramètres du pont Microsoft** , sous **qualité de participation**à une réunion, sélectionnez:
+2. Dans la page **paramètres du pont Microsoft** , sous **qualité de participation**à une réunion, sélectionnez :
     
    - **Activer ou désactiver les annonces d'entrée et de sortie des réunions**: cette option est sélectionnée par défaut. Si vous désactivez cette case à cocher, les utilisateurs qui ont déjà rejoint la réunion ne seront pas avertis lorsqu’une personne entre ou quitte la réunion.
     

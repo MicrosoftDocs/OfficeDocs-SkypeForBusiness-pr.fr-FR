@@ -8,19 +8,16 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 search.appverid: MET150
 description: Découvrez comment élaborer une stratégie de gestion des modifications pour Microsoft Teams par le biais de l'identification de vos intervenants clés, des objectifs de l'entreprise, des mesures de réussite et la gestion de votre campagne.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15cb50ed0b6e6dbba80daf1ed7d045b3cc92d4f2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0c2a01203246f56984f001acbfb4cb889e969c8f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236882"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516321"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 =======================================================

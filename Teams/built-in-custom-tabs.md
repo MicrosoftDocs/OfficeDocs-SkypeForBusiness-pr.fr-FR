@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8fb0fcd1fab0fc51319b72d5557caac836bcb51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236901"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516436"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -33,10 +32,10 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 ## <a name="work-with-tabs"></a>Utiliser les onglets
 
-- Avec chaque nouveau canal, deux onglets sont approvisionnés par défaut: les conversations et les fichiers.
+- Avec chaque nouveau canal, deux onglets sont approvisionnés par défaut : les conversations et les fichiers.
 
     ![Capture d'écran de la section Conversation de l'équipe Marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- Avec chaque discussion privée, quatre onglets sont approvisionnés par défaut: les conversations, les fichiers, l’organisation et l’activité.
+- Avec chaque discussion privée, quatre onglets sont approvisionnés par défaut : les conversations, les fichiers, l’organisation et l’activité.
 
     ![Capture d’écran des onglets d’une discussion.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
@@ -46,9 +45,9 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
     ![Capture d'écran de l'onglet Fichiers avec un fichier PowerPoint sélectionné.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- Pour ajouter un site Web, l’URL doit commencer par **** un préfixe https, de sorte que les informations échangées restent sécurisées.
+- Pour ajouter un site Web, l’URL doit commencer par un préfixe **https** , de sorte que les informations échangées restent sécurisées.
 
-- Des instructions détaillées sont fournies lorsqu’un membre d’une équipe tente d’ajouter un onglet personnalisé à un canal ou une conversation. Lors de l’ajout d’un onglet personnalisé à un canal, une **conversation** par onglets est créée pour permettre aux membres de l’équipe d’avoir des discussions ciblées sur le contenu.
+- Des instructions détaillées sont fournies lorsqu’un membre d’une équipe tente d’ajouter un onglet personnalisé à un canal ou une conversation. Lors de l’ajout d’un onglet personnalisé à un canal, une **conversation par onglets** est créée pour permettre aux membres de l’équipe d’avoir des discussions ciblées sur le contenu.
 
     ![Capture d’écran d’un onglet personnalisé avec une conversation par onglets sur la droite](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 

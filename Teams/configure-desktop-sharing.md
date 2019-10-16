@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 description: Configurer une stratégie de réunion pour permettre aux utilisateurs de partager leur bureau dans des conversations ou des réunions teams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236932"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516885"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
 ============================================
@@ -41,7 +40,7 @@ Pour configurer le partage d’écran, vous devez créer une nouvelle stratégie
 
 3. Donnez un titre unique à votre politique et entrez une brève description.
 
-4. Sous **partage de contenu**, choisissez un **mode de partage d’écran** dans la liste déroulante:
+4. Sous **partage de contenu**, choisissez un **mode de partage d’écran** dans la liste déroulante :
 
    - **Tout l’écran** : permet aux utilisateurs de partager leur bureau entier.
    - **Application unique** -permet aux utilisateurs de limiter le partage d’écran à une seule application active.
@@ -49,7 +48,7 @@ Pour configurer le partage d’écran, vous devez créer une nouvelle stratégie
 
     ![Capture d’écran montrant les options du mode de partage](media/configure-desktop-sharing-image3.png)
 
-5. Activer ou désactiver les paramètres suivants:
+5. Activer ou désactiver les paramètres suivants :
 
     - **Permettre à un participant de donner ou demander le contrôle** – permet aux membres de l’équipe de donner ou demander le contrôle de l’application ou du Bureau du présentateur.
     - **Autoriser un participant externe à céder ou demander le contrôle** – permet aux invités et aux utilisateurs externes d’octroyer le contrôle du bureau ou de l’application du présentateur.
@@ -61,7 +60,7 @@ Pour configurer le partage d’écran, vous devez créer une nouvelle stratégie
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Utiliser PowerShell pour configurer le bureau partagé
 
-Vous pouvez également utiliser l’applet de commande [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) pour contrôler le partage de bureau. Définissez les paramètres suivants:
+Vous pouvez également utiliser l’applet de commande [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) pour contrôler le partage de bureau. Définissez les paramètres suivants :
 
 - Description
 - ScreenSharingMode

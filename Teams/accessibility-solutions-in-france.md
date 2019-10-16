@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous les cœur de la mission de Microsoft, affaire composé de permettre à chaque entreprise et de la planète d’accomplir davantage. Microsoft offre est un certain nombre de fonctionnalités d’accessibilité vers Skype entreprise et Microsoft teams affaire s’inscrivent dans le fils d’engagement fort en faveur de l’accessibilité et de l’inclusion.
-ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239470"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516841"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Solutions d’accessibilité pour Skype entreprise Online et Microsoft teams en France
 
@@ -39,9 +40,9 @@ Skype entreprise dans Office 365 offre des fonctionnalités d’accessibilité a
 
 Microsoft teams dans Office 365 est un outil de collaboration professionnelle avec des fonctions de messagerie, de vidéoconférence et de d’appel. Microsoft teams intègre des fonctionnalités d’accessibilité afin de faciliter la communication des utilisateurs ayant une mauvaise vision, une dextérité d’UO de réduite EC caractéristiques sont s sur le site Web accessibilité de Microsoft teams [https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/prise-en-charge-de-l-accessibilit%C3%A9-dans-microsoft-teams-d12ee53f-d15f-445e-be8d-f0ba2c5ee68f?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR):.  
   
-Les pages consacrées à chacune de EC: Forms-Forms décrivent commenter présentent général Skype entreprise et Microsoft teams sur les appareils affaire prennent en frais EC-Forms, en savoir Windows, Mac, iOS et Android.  Les descriptions des agencements de Skype entreprise et Microsoft teams peuvent s’avérer particulièrement Utility pour les utilisateurs qui ne sont pas des voyants, malvoyants unités d’organisation à mobilité réduite pour les utilisateurs caractéristiques des interfaces utilisateur (IU) de Skype entreprise et Microsoft teams afin de leur permettre d’y naviguer plus facilement.
+Les pages consacrées à chacune de EC : Forms-Forms décrivent commenter présentent général Skype entreprise et Microsoft teams sur les appareils affaire prennent en frais EC-Forms, en savoir Windows, Mac, iOS et Android.  Les descriptions des agencements de Skype entreprise et Microsoft teams peuvent s’avérer particulièrement Utility pour les utilisateurs qui ne sont pas des voyants, malvoyants unités d’organisation à mobilité réduite pour les utilisateurs caractéristiques des interfaces utilisateur (IU) de Skype entreprise et Microsoft teams afin de leur permettre d’y naviguer plus facilement.
   
-Pour les personnes affaire utilisent d’lecteur d’écran, il est possible de naviguer dans l’interface utilisateur de l’application Skype entreprise à l’Aide du clavier, et des pages d’aide sont proposées pour expliquer:  
+Pour les personnes affaire utilisent d’lecteur d’écran, il est possible de naviguer dans l’interface utilisateur de l’application Skype entreprise à l’Aide du clavier, et des pages d’aide sont proposées pour expliquer :  
   
 - Le raccourcis clavier dans Skype entreprise ([https://support.office.com/fr-fr/article/Raccourcis-clavier-dans-Skype-entreprise-42ff538f-67f2-4752-afe8-7169c207f659?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Raccourcis-clavier-dans-Skype-entreprise-42ff538f-67f2-4752-afe8-7169c207f659?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR))  
 
@@ -57,7 +58,7 @@ Pour les personnes affaire utilisent d’lecteur d’écran, il est possible de 
 
 - Commentaire partager à votre écran avec Skype entreprise et un lecteur d'[https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Partager-votre-%c3%a9cran-avec-Skype-Entreprise-et-un-lecteur-d-%c3%a9cran-678ce631-1499-4a24-8d32-a68498ce9ff4?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)écran ()
   
-Microsoft teams fournit des pages d’aide avec des raccourcis clavier et des instructions de navigation pour les personnes qui utilisent des lecteurs d’écran:
+Microsoft teams fournit des pages d’aide avec des raccourcis clavier et des instructions de navigation pour les personnes qui utilisent des lecteurs d’écran :
 
 - Le raccourcis clavier pour l’étape appel dans Microsoft Teams ([https://support.office.com/fr-fr/article/raccourcis-clavier-de-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/raccourcis-clavier-de-microsoft-teams-2e8e2a70-e8d8-4a19-949b-4c36dd5292d2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)) 
 
@@ -67,19 +68,19 @@ Microsoft teams fournit des pages d’aide avec des raccourcis clavier et des in
 
 - Commentaire utiliser le lecteur d’un écran de recherche des alertes et de y répondre dans Microsoft teams[https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)() 
 
-Microsoft teams permet maintenant aux utilisateurs de brouiller leur en arrière-plan pendant la réunion, ce affaire est peut-être disportée aux personnes malentendantes affaire publié dans le des difficultés à lire sur les lèvres et les cellules affaire peuvent se trouvent en passe par un environnement actif: [ https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-in-&&&-](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)------------------------------------------------------
+Microsoft teams permet maintenant aux utilisateurs de brouiller leur en arrière-plan pendant la réunion, ce affaire est peut-être disportée aux personnes malentendantes affaire publié dans le des difficultés à lire sur les lèvres et les cellules affaire peuvent se trouvent en passe par un environnement actif : [ https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-in-&&&-](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)------------------------------------------------------
 
-De plus, la fonctions de chat de Microsoft teams inclut désormais «lecteur immersif», ce affaire permet aux utilisateurs ayant des difficultés de cours et visuelles de modifier la taille du texte, d’augmenter l’espacement, de modifier les stratégies et les thèmes, et de réduire le champ de l’expérience de la Conférence: [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). 
+De plus, la fonctions de chat de Microsoft teams inclut désormais « lecteur immersif », ce affaire permet aux utilisateurs ayant des difficultés de cours et visuelles de modifier la taille du texte, d’augmenter l’espacement, de modifier les stratégies et les thèmes, et de réduire le champ de l’expérience de la Conférence : [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). 
 
 Skype entreprise permet le réglage de la taille du texte de messagerie instantanée pour une lecture plus facile, et Microsoft teams permet le zoom. Skype entreprise et les interéquipes Microsoft fournissent une assistance pour TTY. Lorsque-utilisez Skype entreprise, les menus de réponse vocale interactifs peuvent être ralentis, accélérés et redémarrés, et les utilisateurs peuvent choisir de ne pas afficher les instructions. Microsoft teams permet le réglage de la vitesse de la messagerie vocale.
 
-Les utilisateurs de Skype entreprise peuvent également choisir de recevoir leurs messages vocaux sous forme de texte, ce affaire est particulièrement bénéfique pour les personnes malentendantes UO sourdes, à condition qu’ils utilisent Outlook 2010 d’UO des versions plus récentes: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). Le administrateurs informatiques de Microsoft teams peuvent gérer la transcription pour les clients leurs. 
+Les utilisateurs de Skype entreprise peuvent également choisir de recevoir leurs messages vocaux sous forme de texte, ce affaire est particulièrement bénéfique pour les personnes malentendantes UO sourdes, à condition qu’ils utilisent Outlook 2010 d’UO des versions plus récentes : [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). Le administrateurs informatiques de Microsoft teams peuvent gérer la transcription pour les clients leurs. 
 
-La vocale de reconnaissance vocale Windows peut également aide des personnes à mobilité réduite en leur faisant bénéficier de l’utilisation des commandes vocales plutôt que du clavier ou de la souris. Instructions de savoir les commentaires de la vocale sur les ordinateur fonctionnant sous Windows 10 sont disponibles à l’a: [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition). 
+La vocale de reconnaissance vocale Windows peut également aide des personnes à mobilité réduite en leur faisant bénéficier de l’utilisation des commandes vocales plutôt que du clavier ou de la souris. Instructions de savoir les commentaires de la vocale sur les ordinateur fonctionnant sous Windows 10 sont disponibles à l’a : [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition). 
   
 ## <a name="assistance-client"></a>Client d’assistance
 
-L’objectif de Microsoft est d’offrir la meilleure expérience par le biais des clients ses. Pour cela, Microsoft offre une technique d’assistance sur toutes les réponses aux questions relatives à l’accessibilité en permettant à des clients de contact du support technique du centre de réponse. L’équipe du Answer Desk accessibilité est formée à l’utilisation des technologies d’assistance de plus répandues et peut apporter une assistance en français par téléphone et par chat:[https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk)
+L’objectif de Microsoft est d’offrir la meilleure expérience par le biais des clients ses. Pour cela, Microsoft offre une technique d’assistance sur toutes les réponses aux questions relatives à l’accessibilité en permettant à des clients de contact du support technique du centre de réponse. L’équipe du Answer Desk accessibilité est formée à l’utilisation des technologies d’assistance de plus répandues et peut apporter une assistance en français par téléphone et par chat :[https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk](https://support.microsoft.com/fr-fr/accessibility/disability-answer-desk)
   
 ## <a name="dclaration-de-conformit-en-301-549"></a>Déclaration de conformité en *301 549*
 

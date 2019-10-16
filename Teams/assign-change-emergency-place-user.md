@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: Découvrez comment attribuer ou changer l’emplacement d’un emplacement d’urgence pour les utilisateurs de votre organisation.
-ms.openlocfilehash: 612d93f8d24678c28485ed0f5be190ce37465f18
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396490"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515841"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’un emplacement d’urgence pour un utilisateur
 
@@ -43,9 +42,9 @@ Pour plus d’informations sur la façon d’obtenir des forfaits d’appels dan
     
 ## <a name="related-topics"></a>Voir aussi
 
-- [Quels sont les emplacements d’urgence, les lieux et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Que sont les emplacements, les lieux et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
-- [Ajout, modification ou suppression d’un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
-- [Affectation ou modification d’un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)
+- [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
+- [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Conditions générales relatives aux appels d'urgence](/microsoftteams/emergency-calling-terms-and-conditions)

@@ -7,26 +7,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
 description: Découvrez comment ajouter des robots dans Microsoft teams pour les discussions personnelles, les discussions de groupe et les canaux, et télécharger vos propres robots pour les discussions personnelles, les conversations de groupes et les canaux.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239056"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516160"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Ajouter des robots pour les discussions personnelles, les discussions de groupe et les canaux dans Microsoft teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications relatives aux détails que les utilisateurs trouvent intéressants ou veulent suivre. Les robots permettent aux utilisateurs d’interagir avec les services Cloud, par exemple, la gestion des tâches, la planification et l’interrogation, par le biais de conversations par messagerie instantanée dans Microsoft Teams. Les robots pour les équipes sont basés sur l' [infrastructure Microsoft bot](https://go.microsoft.com/fwlink/?linkid=854370). Les robots développés à l’aide de cette infrastructure peuvent être facilement activés pour les équipes. Pour plus d’informations[Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md).
+Les robots sont des programmes automatisés qui répondent aux requêtes ou fournissent des mises à jour et des notifications sur les détails que les utilisateurs trouvent intéressants ou souhaitent être informés. Les robots permettent aux utilisateurs d’interagir avec les services Cloud, par exemple, la gestion des tâches, la planification et l’interrogation, par le biais de conversations par messagerie instantanée dans Microsoft Teams. Les robots pour les équipes sont basés sur l' [infrastructure Microsoft bot](https://go.microsoft.com/fwlink/?linkid=854370). Les robots développés à l’aide de cette infrastructure peuvent être facilement activés pour les équipes. Pour plus d’informations, reportez-vous à [gérer les paramètres de Microsoft teams pour votre organisation](enable-features-office-365.md).
 
 Actuellement, teams prend en charge les robots dans les discussions personnelles, les discussions de groupe et les canaux au sein d’une équipe. Les administrateurs peuvent contrôler si l’utilisation de robots est autorisée ou interdite dans le client Office 365.<span id="_T-Bot" class="anchor"></span>
 
@@ -58,7 +57,7 @@ Les bots peuvent être testés à l'aide de l'[émulateur Bot Framework](https:/
 <a name="upload-your-bot-for-group-chats-or-channels"></a>Télécharger votre bot pour les discussions ou canaux de groupe
 -----------------------------------
 
-Si vous voulez partager votre bot avec vos collègues, vous pouvez l’ajouter à des discussions de groupe ou à des canaux d’équipes différentes en procédant comme suit:
+Si vous voulez partager votre bot avec vos collègues, vous pouvez l’ajouter à des discussions de groupe ou à des canaux d’équipes différentes en procédant comme suit :
 
 1. Une fois que vous avez [créé un package d’application pour votre bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), ouvrez teams et naviguez jusqu’à l’équipe dans laquelle vous téléchargez le bot.
 2. Ajoutez **[app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, application à Teams.

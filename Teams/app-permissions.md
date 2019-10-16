@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
@@ -16,12 +16,12 @@ description: Cette section explique quelles données et autorisations sont deman
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e841943a4a6bf5f6fcc242d83f4a02d4ca1aa06
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241972"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516783"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -40,7 +40,7 @@ Les autorisations répertoriées ci-dessous en majuscules, comme par exemple REC
 |    |     |
 |-----------|------------|
 | ![Icône illustrant un point de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez le tableau ci-dessous pour connaître les autorisations que les applications que vous recherchez demandent.</li></ul> |
-| ![Icône illustrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service proprement dit pour décider si vous voulez autoriser l’accès au sein de votre organisation. Par exemple, les robots envoient des messages à des utilisateurs et les reçoivent, à l’exception des robots d’entreprise, qui sont situés en dehors de la limite de conformité. Par conséquent, toute application incluant un bot nécessite ces autorisations et possède au moins ce profil de risques. </li></ul>|
+| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service proprement dit pour décider si vous voulez autoriser l’accès au sein de votre organisation. Par exemple, les robots envoient des messages à des utilisateurs et les reçoivent, à l’exception des robots d’entreprise, qui sont situés en dehors de la limite de conformité. Par conséquent, toute application incluant un bot nécessite ces autorisations et possède au moins ce profil de risques. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Autorisations et considérations générales pour les applications
 
@@ -62,7 +62,7 @@ Une application doit divulguer les données qu’elle utilise et quelles sont le
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. Le bot peut recevoir des messages des utilisateurs et leur répondre.<sup>1</sup>
 
-- POST_MESSAGE_USER. Dès qu’un utilisateur a envoyé un message à un bot, le bot peut lui envoyer des messages directs (également appelés *messages* proactifs à tout moment.
+- POST_MESSAGE_USER. Dès qu’un utilisateur a envoyé un message à un bot, le bot peut lui envoyer des messages directs (également appelés *messages proactifs* à tout moment.
 
 - GET_CHANNEL_LIST. Les bots ajoutés à des équipes peuvent obtenir la liste des noms et des ID des canaux d’une équipe.
 
@@ -72,7 +72,7 @@ Une application doit divulguer les données qu’elle utilise et quelles sont le
 
 - POST_MESSAGE_TEAM. Permet aux robots d’une application de lui envoyer des messages directs (proactif) à tout moment, même si l’utilisateur n’a jamais parlé au bot auparavant.
 
-- Les éléments suivants ne sont pas des autorisations explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE, ainsi que les étendues dans lesquelles les robots peuvent être utilisés, et déclarés dans le manifeste:
+- Les éléments suivants ne sont pas des autorisations explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE, ainsi que les étendues dans lesquelles les robots peuvent être utilisés, et déclarés dans le manifeste :
  
     - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
@@ -94,21 +94,21 @@ Une application doit divulguer les données qu’elle utilise et quelles sont le
 
 - Un bot peut récupérer (et peut stocker) des informations d’identité de base pour les membres de l’équipe auxquelles l’application a été ajoutée ou pour des utilisateurs individuels dans des discussions personnelles ou de groupe. Pour plus d’informations sur ces utilisateurs, le bot doit avoir besoin de se connecter à Azure Active Directory (Azure AD).
 
-- Les robots peuvent récupérer (et peut-être stocker) la liste de canaux dans une équipe; ces données quittent le réseau d’entreprise.
+- Les robots peuvent récupérer (et peut-être stocker) la liste de canaux dans une équipe ; ces données quittent le réseau d’entreprise.
 
 - Lorsqu’un fichier est envoyé à un bot, le fichier quitte le réseau d’entreprise. Pour envoyer et recevoir des fichiers, l’utilisateur doit approuver chaque fichier. 
 
-- Par défaut, les robots ne peuvent pas agir de la part de l’utilisateur, mais les robots peuvent demander aux utilisateurs de se connecter; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès permettant d’effectuer d’autres actions. Exactement ce que ces éléments supplémentaires dépendent du bot et de l’endroit où l’utilisateur se connecte: un bot est une application Azure https://apps.dev.microsoft.com/ ad inscrite sur et peut avoir son propre jeu d’autorisations.
+- Par défaut, les robots ne peuvent pas agir de la part de l’utilisateur, mais les robots peuvent demander aux utilisateurs de se connecter ; dès que l’utilisateur se connecte, le bot dispose d’un jeton d’accès permettant d’effectuer d’autres actions. Exactement ce que ces éléments supplémentaires dépendent du bot et de l’endroit où l’utilisateur se connecte : un bot est une application Azure https://apps.dev.microsoft.com/ ad inscrite sur et peut avoir son propre jeu d’autorisations.
 
 - Les robots sont informés lorsque les utilisateurs sont ajoutés ou supprimés d’une équipe.
 
-- Les robots ne voient pas les adresses IP des utilisateurs ou d’autres informations de renvoi. Toutes les informations proviennent de Microsoft. (Il existe une seule exception: si un bot implémente son propre utilisateur de connexion, l’interface utilisateur de connexion verra les adresses IP et les informations de renvoi des utilisateurs.)
+- Les robots ne voient pas les adresses IP des utilisateurs ou d’autres informations de renvoi. Toutes les informations proviennent de Microsoft. (Il existe une seule exception : si un bot implémente son propre utilisateur de connexion, l’interface utilisateur de connexion verra les adresses IP et les informations de renvoi des utilisateurs.)
 
 - En revanche, les extensions de messagerie s’affichent avec les adresses IP des utilisateurs et les informations de renvoi.
 
 - Recommandations en matière d’applications (et notre processus de vérification de AppSource) demander la validation de messages de discussion personnelle aux utilisateurs (via l’autorisation POST_MESSAGE_TEAM) pour des raisons valides. En cas d’abus, les utilisateurs peuvent bloquer le bot, les administrateurs de clients peuvent bloquer l’application et Microsoft peut bloquer les robots de manière centralisée, le cas échéant.
 
-<sup>1</sup> certains robots envoient uniquement des messages (POST_MESSAGE_USER). Il s’agit de robots «notifications uniquement», mais le terme ne fait pas référence à ce qu’un bot est autorisé ou qu’il n’est pas autorisé à faire, cela signifie que le bot ne veut pas exposer une conversation. Teams utilise ce champ pour désactiver les fonctionnalités de l’interface utilisateur qui seraient en principe activées; Ce robot n’est pas limité à ce qu’il est autorisé à faire comparé aux robots qui présentent une connaissance de conversation.
+<sup>1</sup> certains robots envoient uniquement des messages (POST_MESSAGE_USER). Il s’agit de robots « notifications uniquement », mais le terme ne fait pas référence à ce qu’un bot est autorisé ou qu’il n’est pas autorisé à faire, cela signifie que le bot ne veut pas exposer une conversation. Teams utilise ce champ pour désactiver les fonctionnalités de l’interface utilisateur qui seraient en principe activées ; Ce robot n’est pas limité à ce qu’il est autorisé à faire comparé aux robots qui présentent une connaissance de conversation.
 
 <sup>2</sup> soumis à la propriété booléenne supportsFiles sur l’objet bot dans le fichier manifest. JSON de l’application.
 
@@ -149,7 +149,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages 
 
 ### <a name="considerations"></a>Points à prendre en compte
 
-- Le système qui publie des messages de connecteur ne sait pas à qui il envoie des messages ou qui les reçoit: aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, et non le locataire; Microsoft effectue le billet réel sur le canal.)
+- Le système qui publie des messages de connecteur ne sait pas à qui il envoie des messages ou qui les reçoit : aucune information sur le destinataire n’est divulguée. (Microsoft est le destinataire réel, et non le locataire ; Microsoft effectue le billet réel sur le canal.)
 
 - Aucune donnée ne quitte le réseau d’entreprise lorsque des messages de connecteur sont publiés dans un canal.
 
@@ -159,7 +159,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages 
 
 - Les messages de connexion ne peuvent pas contenir de pièces jointes.
 
-- L’URL d’instance du connecteur doit être considérée comme secrète/confidentiel: toute personne disposant de cette URL peut la publier dans celle-ci, comme une adresse de messagerie. Par conséquent, il existe du courrier indésirable ou des liens vers des sites de hameçonnage ou de Malware. Si tel est le cas, les propriétaires d’équipe peuvent supprimer l’instance de connecteur.
+- L’URL d’instance du connecteur doit être considérée comme secrète/confidentiel : toute personne disposant de cette URL peut la publier dans celle-ci, comme une adresse de messagerie. Par conséquent, il existe du courrier indésirable ou des liens vers des sites de hameçonnage ou de Malware. Si tel est le cas, les propriétaires d’équipe peuvent supprimer l’instance de connecteur.
 
 - Si le service qui envoie des messages de connecteur a été compromis et qu’ils commencent à envoyer des courriers indésirables/de hameçonnage/malveillants, un administrateur client peut empêcher la création d’instances de connecteur et Microsoft peut les bloquer de manière centralisée.
 
@@ -168,7 +168,7 @@ REPLYTO_CONNECTOR_MESSAGE. Certains connecteurs prennent en charge des messages 
 
 ## <a name="outgoing-webhooks"></a>Raccordements Web sortants
 
-** Les Webhook sortants sont créés à la volée par les propriétaires d’équipe ou les membres de l’équipe si chargement indépendant est activé pour un client. Elles ne sont pas des fonctionnalités des applications Teams. ces informations sont disponibles à des fins d’exhaustivité.
+Les *webhook sortants* sont créés à la volée par les propriétaires d’équipe ou les membres de l’équipe si chargement indépendant est activé pour un client. Elles ne sont pas des fonctionnalités des applications Teams. ces informations sont disponibles à des fins d’exhaustivité.
 
 ### <a name="required-permissions"></a>Autorisations requises
 
@@ -182,8 +182,8 @@ Aucun
 
 - Les raccordements Web sortants sont similaires aux robots, mais ils ont moins de privilèges. Elles doivent être mentionnées explicitement, comme les robots.
 
-- Lors de l’enregistrement d’un webhook sortant, une clé secrète est générée, ce qui permet au webhook sortant de vérifier que l’expéditeur est Microsoft teams plutôt qu’à un attaquant malveillant. Ce secret doit rester secret; toute personne qui y a accès peut emprunter l’identité de Microsoft Teams. Si la clé secrète est compromise, le webhook sortant peut être supprimé, recréé et un nouveau secret est généré.
+- Lors de l’enregistrement d’un webhook sortant, une clé secrète est générée, ce qui permet au webhook sortant de vérifier que l’expéditeur est Microsoft teams plutôt qu’à un attaquant malveillant. Ce secret doit rester secret ; toute personne qui y a accès peut emprunter l’identité de Microsoft Teams. Si la clé secrète est compromise, le webhook sortant peut être supprimé, recréé et un nouveau secret est généré.
 
 - Même s’il est possible de créer un webhook sortant qui ne valide pas le secret, nous vous recommandons de le faire contre.
 
-- Hormis le fait de recevoir et de répondre à des messages, les Cross Hook sortantes ne peuvent pas faire beaucoup: les utilisateurs ne peuvent pas envoyer de messages de manière proactive, ils ne peuvent pas envoyer ou recevoir des fichiers, ils ne peuvent pas effectuer d’autres opérations que les robots peuvent effectuer, sauf recevoir des messages et y répondre.
+- Hormis le fait de recevoir et de répondre à des messages, les Cross Hook sortantes ne peuvent pas faire beaucoup : les utilisateurs ne peuvent pas envoyer de messages de manière proactive, ils ne peuvent pas envoyer ou recevoir des fichiers, ils ne peuvent pas effectuer d’autres opérations que les robots peuvent effectuer, sauf recevoir des messages et y répondre.

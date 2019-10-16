@@ -1,5 +1,5 @@
 ---
-title: Configurer l’Application Réunions Skype pour fonctionner avec Teams
+title: Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
@@ -12,22 +12,21 @@ search.appverid: MET150
 description: Les administrateurs peuvent utiliser le centre d’administration de Microsoft teams pour configurer l’application réunions Skype pour collaborer avec les équipes
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236861"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516921"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’Application Réunions Skype pour fonctionner avec Teams
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
 ===================================================
 
 Une fois qu’un utilisateur a procédé à la mise à niveau de Microsoft Teams, vous pouvez utiliser le centre d’administration de Microsoft teams pour spécifier l’application préférée que les utilisateurs utiliseront pour participer aux réunions Skype entreprise.
 
-Pour spécifier l’application Skype pour les réunions comme application préférée:
+Pour spécifier l’application Skype pour les réunions comme application préférée :
 
 1. Se connecter au centre d’administration de Microsoft Teams.
 2. Dans le volet gauche, sous **paramètres**à l’échelle de l’organisation, sélectionnez **mise à niveau des équipes**.
@@ -37,7 +36,7 @@ Pour spécifier l’application Skype pour les réunions comme application préf
 
 ## <a name="known-limitations"></a>Limitations connues
 
-Les utilisateurs qui utilisent l’application réunions Skype avec teams sont soumis aux limitations suivantes:
+Les utilisateurs qui utilisent l’application réunions Skype avec teams sont soumis aux limitations suivantes :
 
 - Les utilisateurs n’ont pas la possibilité de modifier leur périphérique vidéo.
 - Après la mise à niveau d’un utilisateur vers Teams, si un utilisateur participe à une réunion à l’aide de l’application réunions Skype et reçoit un appel en équipe, la réunion dans l’application réunions Skype n’est pas suspendue. Au lieu de cela, l’utilisateur est connecté aux deux appels.

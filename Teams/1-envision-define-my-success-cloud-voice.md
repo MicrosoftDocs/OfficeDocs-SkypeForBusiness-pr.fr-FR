@@ -11,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Évaluez les résultats de votre audioconférence, de votre système téléphonique grâce aux plans d’appel ou du déploiement du routage direct du système téléphonique, et vérifiez que vous avez bien obtenu les résultats souhaités.
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a84f0d38afbac74b296ccdfed626d6f8830d46a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244164"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517074"
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
@@ -31,9 +31,9 @@ Cet article fournit une vue d’ensemble des exigences relatives à la définiti
 
 L' **audioconférence** fournit aux organisations des points d’entrée supplémentaires pour toutes les réunions (ad hoc ou programmées) en permettant aux participants d’une réunion de se connecter via un réseau téléphonique commuté (PSTN) en composant un numéro de téléphone fixe ou privé. échange de succursale (PBX) ou téléphones mobiles. Cette fonctionnalité est utile lorsque l’organisateur ou les participants ne se trouvent pas devant un ordinateur, ou lorsque les connexions de données sont indisponibles ou trop fiables pour prendre en charge les communications vocales (par exemple, dans une zone distante avec la protection des données mobiles, ou qui est connectée à un réseau Wi-Fi gratuit et public). service avec une bande passante limitée ou lorsque les participants à la réunion préfèrent se connecter à la réunion via un point de terminaison de téléphonie qui est facilement accessible.
 
-Le **système téléphonique avec des plans d’appels («plans d’appel»)** donne aux organisations une façon de moderniser leur lieu de travail en permettant aux utilisateurs de passer des appels téléphoniques professionnels depuis leurs ordinateurs et leurs appareils mobiles. La modernisation de l’espace de travail peut faire partie d’un certain nombre de scénarios: une implémentation de travail basée sur une activité, un déplacement de bureau principal, une actualisation de la déconnexion d’Office, la suppression d’une solution PBX héritée, la conclusion d’un contrat de prestataire de services RTC, etc. Avec les offres d’appels, Microsoft facilite la connexion au RTC.
+Le **système téléphonique avec des plans d’appels (« plans d’appel »)** donne aux organisations une façon de moderniser leur lieu de travail en permettant aux utilisateurs de passer des appels téléphoniques professionnels depuis leurs ordinateurs et leurs appareils mobiles. La modernisation de l’espace de travail peut faire partie d’un certain nombre de scénarios : une implémentation de travail basée sur une activité, un déplacement de bureau principal, une actualisation de la déconnexion d’Office, la suppression d’une solution PBX héritée, la conclusion d’un contrat de prestataire de services RTC, etc. Avec les offres d’appels, Microsoft facilite la connexion au RTC.
 
-Le **routage direct du système téléphonique («routage directe»)** donne aux organisations les mêmes avantages que ceux indiqués ci-dessus pour les offres d’appels, sauf que la connectivité PSTN est facilitée par un fournisseur tiers plutôt que Microsoft. Cela permet le déploiement dans des pays où les plans d’appel ne sont pas disponibles, ou dans les déploiements où un contrat de prestataire de services RTC existant doit être maintenu ou l’interopérabilité avec certains systèmes locaux est requis. Un scénario supplémentaire pour considérer le routage direct est l’interopérabilité du système de téléphonie. Lorsque les utilisateurs sont en transition pour appeler dans Teams, certains utilisateurs peuvent rester sur des PBX anciens. Le routage direct permet à la fois de cohabiter des cas d’utilisation. Le trafic des appels entre les utilisateurs sur les systèmes et équipes héritées qui restent au sein de l’organisation.
+Le **routage direct du système téléphonique (« routage directe »)** donne aux organisations les mêmes avantages que ceux indiqués ci-dessus pour les offres d’appels, sauf que la connectivité PSTN est facilitée par un fournisseur tiers plutôt que Microsoft. Cela permet le déploiement dans des pays où les plans d’appel ne sont pas disponibles, ou dans les déploiements où un contrat de prestataire de services RTC existant doit être maintenu ou l’interopérabilité avec certains systèmes locaux est requis. Un scénario supplémentaire pour considérer le routage direct est l’interopérabilité du système de téléphonie. Lorsque les utilisateurs sont en transition pour appeler dans Teams, certains utilisateurs peuvent rester sur des PBX anciens. Le routage direct permet à la fois de cohabiter des cas d’utilisation. Le trafic des appels entre les utilisateurs sur les systèmes et équipes héritées qui restent au sein de l’organisation.
 
 <!--ENDOFSECTION-->
 
@@ -41,7 +41,7 @@ Le **routage direct du système téléphonique («routage directe»)** donne aux
 
 Pour commencer, les parties prenantes de Project doivent définir des cas d’utilisation d’entreprise qui prennent en charge l’implémentation des conférences audio, des plans d’appel ou du routage direct.
 
-Les cas d’utilisation pour les entreprises sont destinés à définir et à documenter les résultats professionnels attendus et mesurables, et notamment:
+Les cas d’utilisation pour les entreprises sont destinés à définir et à documenter les résultats professionnels attendus et mesurables, et notamment :
 
 -   Description du processus professionnel actuel
 
@@ -52,7 +52,7 @@ Les cas d’utilisation pour les entreprises sont destinés à définir et à do
 -   Les résultats pour l'entreprise attendus et mesurables si ces difficultés sont surmontées.
 
 > [!TIP]
-> Voici un exemple de cas d’utilisation professionnelle à l’aide de l’audioconférence:
+> Voici un exemple de cas d’utilisation professionnelle à l’aide de l’audioconférence :
 > 
 > |         |
 > |---------|
@@ -76,7 +76,7 @@ Les cas d’utilisation pour les entreprises sont destinés à définir et à do
 <br>
 
 > [!TIP]
-> Voici un exemple de cas d’utilisation professionnelle complet pour le routage directe:
+> Voici un exemple de cas d’utilisation professionnelle complet pour le routage directe :
 > 
 > |         |
 > |---------|
@@ -85,17 +85,17 @@ Les cas d’utilisation pour les entreprises sont destinés à définir et à do
 > |**Comment la technologie peut surmonter ces difficultés**<br>Le contrat du fournisseur de Trunk SIP a été récemment signé et est en place pour trois ans. Le routage direct permet de fournir une connectivité PSTN par le fournisseur SIP Trunk et permettra également à l’ordinateur personnel d’un utilisateur de recevoir des appels téléphoniques sur le réseau de données en tirant parti de l’application Microsoft teams native. Cela évite de déployer et de mettre à jour les téléphones de bureau, et ouvre la possibilité de mettre en place le système PBX existant, tout en conservant un encombrement de contrôleur de la session d’SBC local limité.|
 > |**Résultats de l’entreprise attendus et mesurables**<br>Le retrait des exigences de maintenance ou la désactivation de la version PBX et des téléphones de bureau prérequis entraînent une réduction de 20% sur les dépenses de service de téléphonie mensuelles. Le routage direct simplifie les espaces de travail Office, ce qui permet à contoso d’étendre ses opérations en définissant de nouveaux bureaux avec un minimum de coûts de téléphonie.|
 
-Outre la définition des cas d’utilisation de votre entreprise, vous devez définir les limites du projet pour favoriser la clarté:
+Outre la définition des cas d’utilisation de votre entreprise, vous devez définir les limites du projet pour favoriser la clarté :
 
--   **Étendue de l’Organisation:** L’implémentation de l’audioconférence, des plans d’appel ou du routage direct peut englober l’ensemble de votre organisation ou uniquement des unités commerciales spécifiques.
+-   **Étendue de l’Organisation :** L’implémentation de l’audioconférence, des plans d’appel ou du routage direct peut englober l’ensemble de votre organisation ou uniquement des unités commerciales spécifiques.
 
--   **Barre de planning du projet:** La chronologie spécifique que le projet doit exécuter.
+-   **Barre de planning du projet :** La chronologie spécifique que le projet doit exécuter.
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Points de décision|<ul><li>Quels sont les scénarios d’utilisation pour les entreprises que vous pouvez identifier au sein de votre organisation?</li><li>Quels sont les cas d’utilisation pour les entreprises d’appels que vous pouvez identifier au sein de votre organisation?</li><li>Quels sont les cas d’utilisation pour le routage direct qui peuvent être identifiés au sein de votre organisation?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Points de décision|<ul><li>Quels sont les scénarios d’utilisation pour les entreprises que vous pouvez identifier au sein de votre organisation ?</li><li>Quels sont les cas d’utilisation pour les entreprises d’appels que vous pouvez identifier au sein de votre organisation ?</li><li>Quels sont les cas d’utilisation pour le routage direct qui peuvent être identifiés au sein de votre organisation ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez tous les cas d’utilisation pour les entreprises pour votre organisation.</li><li>Documentez tous les cas d’utilisation pour les entreprises pour les offres d’appels de votre organisation.</li><li>Documentez tous les cas d’utilisation pour le routage direct de votre organisation.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -109,7 +109,7 @@ Les cas d’utilisation pour les entreprises définis à l’étape précédente
 > 
 > |Rôle  |Description  |Nom, informations de contact, emplacement  |
 > |---------|---------|---------|
-> |Sponsor exécutif du projet|<ul><li>Prenez les responsabilités et la responsabilité ultimes du projet et de la livraison sur les objectifs du projet.</li><li>Aidez-vous à résoudre les problèmes escaladés par le responsable de projet.</li><li>Communication du sponsor au sein de l’entreprise concernant les objectifs du projet.</li><li>Prenez les principales décisions stratégiques.</li><li>Garantir la disponibilité des ressources et du budget requis;</li><li>Retrouvez des avis trimestriels pour les entreprises (QBRs).</li><li>Acheter du lecteur et soutenir les efforts des campagnes de sensibilisation.</li><li>Faire office de sponsor du projet pour le lancement du programme.</li></ul>|TBA|
+> |Sponsor exécutif du projet|<ul><li>Prenez les responsabilités et la responsabilité ultimes du projet et de la livraison sur les objectifs du projet.</li><li>Aidez-vous à résoudre les problèmes escaladés par le responsable de projet.</li><li>Communication du sponsor au sein de l’entreprise concernant les objectifs du projet.</li><li>Prenez les principales décisions stratégiques.</li><li>Garantir la disponibilité des ressources et du budget requis ;</li><li>Retrouvez des avis trimestriels pour les entreprises (QBRs).</li><li>Acheter du lecteur et soutenir les efforts des campagnes de sensibilisation.</li><li>Faire office de sponsor du projet pour le lancement du programme.</li></ul>|TBA|
 > |Chef de projet|<ul><li>Gérer et diriger l’équipe du projet.</li><li>Coordonnées des partenaires et équipes travaillant dans le projet.</li><li>Soyez responsable de la création et de la gestion des plans de projet pour les résultats de clés trimestrielles.</li><li>Résoudre les problèmes liés aux fonctions transversales.</li><li>Fournir des mises à jour régulières aux sponsors de Project.</li><li>Intégrez des aspects adoptés au plan de projet tout-en-un.</li><li>Envoiez les revues mensuelles et les avis opérationnels (MBRs), et contribuez à QBRs.</li></ul>|TBA|
 > |Chef/architecte de la collaboration|<ul><li>Exécution sur la stratégie de collaboration définie par les dirigeants de l’entreprise.</li><li>Analysez et sélectionnez des produits de collaboration qui répondent aux objectifs de l’entreprise.</li><li>Opérations de conception pour les produits de collaboration.</li><li>Définir des modèles de fonctionnement et de support.</li><li>Contribuez aux révisions mensuelles et trimestrielles de l’entreprise.</li></ul>|TBA|
 > |Consultant|<ul><li>Être responsable de la configuration des services</li><li>Contribuez à l’architecture globale de la solution.</li></ul>|TBA|
@@ -117,8 +117,8 @@ Les cas d’utilisation pour les entreprises définis à l’étape précédente
 > |Spécialiste en gestion des changements/adoption|<ul><li>Fournir une entrée lors de la phase de découverte aux processus d’adoption et de formation.</li><li>Participez à l’atelier de stratégie adoption.</li><li>Développer et assumer la responsabilité de la stratégie d’adoption.</li><li>Développement et exécution du plan de communication.</li><li>Offrez des formations aux utilisateurs.</li><li>Recueillir des commentaires et conduire des enquêtes.</li></ul>|TBA|
 > |Directeur de réseau|<ul><li>Fournir une entrée lors de la phase de découverte à la conception du réseau.</li><li>Participez à la planification pendant l’atelier de phase enVision.</li><li>Coordonner le travail de l’équipe du réseau lors de l’exécution du projet.</li></ul>|TBA|
 > |Directeur de la sécurité|<ul><li>Fournir une entrée lors de la phase de découverte à la conception et aux processus de sécurité.</li><li>Participez à la planification pendant l’atelier de phase enVision.</li><li>Coordonner le travail de l’équipe de sécurité lors de l’exécution du projet.</li></ul>|TBA|
-> |Directeur de la téléphonie|<ul><li>Fournissez une entrée lors de la phase de découverte au mode de téléphonie.</li><li>Participez à la planification pendant l’atelier de phase enVision.</li><li>Coordonner le travail de l’équipe de téléphonie lors de l’exécution du projet;</li></ul>|TBA|
-> |Directeur de bureau|<ul><li>Fournissez une entrée lors de la phase de découverte aux clients et au processus de mise à jour.</li><li>Participez à la planification pendant l’atelier de enVision.</li><li>Coordonner le travail de l’équipe de bureau lors de l’exécution du projet;</li></ul>|TBA|
+> |Directeur de la téléphonie|<ul><li>Fournissez une entrée lors de la phase de découverte au mode de téléphonie.</li><li>Participez à la planification pendant l’atelier de phase enVision.</li><li>Coordonner le travail de l’équipe de téléphonie lors de l’exécution du projet ;</li></ul>|TBA|
+> |Directeur de bureau|<ul><li>Fournissez une entrée lors de la phase de découverte aux clients et au processus de mise à jour.</li><li>Participez à la planification pendant l’atelier de enVision.</li><li>Coordonner le travail de l’équipe de bureau lors de l’exécution du projet ;</li></ul>|TBA|
 > |Responsable du support|<ul><li>Fournissez une entrée lors de la phase de découverte aux modèles opérationnels et de support.</li><li>Participez à la planification pendant l’atelier de phase enVision.</li><li>Participez à la planification du modèle de support.</li><li>Coordonner le fonctionnement des équipes et des ressources de support lors de l’exécution du projet.</li></ul>|TBA|
 > |Représentants d'unité commerciale|<ul><li>Contribuez aux guides d’adoption d’utilisateurs et aux matériaux.</li><li>Contribuez aux cas d’utilisation professionnelle et passez en revue.</li></ul>|TBA|
 > |Directeur du déploiement|<ul><li>Assurez-vous que les conditions préalables de déploiement sont remplies.</li><li>Engagez des ressources interintervenantes dans les activités de phases intégrées.</li><li>Participez à des réunions pour revoir et préparer des rapports sur l’état du déploiement.</li></ul>|TBA|
@@ -130,7 +130,7 @@ Les cas d’utilisation pour les entreprises définis à l’étape précédente
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Qui remplira chaque rôle d’intervenant clé de votre organisation?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Qui remplira chaque rôle d’intervenant clé de votre organisation ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez toutes les principales parties prenantes et communiquez les responsabilités et les attentes du rôle à chaque individu affecté.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -144,7 +144,7 @@ La participation complète des parties prenantes au projet lors de la définitio
 OKRs contient les objectifs que vous avez définis au début du projet et vous définissez les résultats de clés mesurables sur une base trimestrielle. Vous pouvez réviser les résultats clés tous les mois pour suivre l’état du projet global et, en fonction de la progression, vous pouvez ajuster les offres trimestrielles selon vos besoins.
 
 > [!TIP]
-> Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de conférences audio:
+> Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de conférences audio :
 > <br>
 > 
 > **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
@@ -157,42 +157,42 @@ OKRs contient les objectifs que vous avez définis au début du projet et vous d
 <br>
 
 > [!TIP]
-> Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de plans d’appel:
+> Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de plans d’appel :
 > <br>
 > 
 > **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
 > 
 > |Objectifs  |Résultats clés  |À faire  |
 > |---------|---------|---------|
-> |Déploiement de forfaits d’appels dans les bureaux de succursales européens à la fin de l’exercice 2018|FY18Q3: déploiement d’offres d’appels dans le Bureau de Londres|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
-> |Désaffecter le PBX hérité dans le Bureau de Londres à la fin de l’exercice 2018|FY18Q4: le PBX hérité de Londres dans le Bureau de Londres|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
+> |Déploiement de forfaits d’appels dans les bureaux de succursales européens à la fin de l’exercice 2018|FY18Q3 : déploiement d’offres d’appels dans le Bureau de Londres|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
+> |Désaffecter le PBX hérité dans le Bureau de Londres à la fin de l’exercice 2018|FY18Q4 : le PBX hérité de Londres dans le Bureau de Londres|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
 > 
 > [!TIP]
-> Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de routage direct:
+> Vous trouverez ci-dessous des exemples de OKRs pertinents pour une implémentation de routage direct :
 > <br>
 > 
 > **Vision : augmenter la productivité an optimisant les investissements dans Office 365**
 > 
 > |Objectifs  |Résultats clés  |À faire  |
 > |---------|---------|---------|
-> |Déployer le routage direct dans les agences canadiennes en fin d’exercice 2018|FY18Q3: déployer le routage direct dans le Bureau de Toronto|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
-> |Désaffecter le PBX hérité de la fin de l’année 2018 au bureau de Toronto|FY18Q4: la mise hors service de PBX vers l’ancien bureau|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
+> |Déployer le routage direct dans les agences canadiennes en fin d’exercice 2018|FY18Q3 : déployer le routage direct dans le Bureau de Toronto|Concevoir<ul><li>Créer un plan de réussite</li><li>Créer un plan d’implémentation technique détaillé</li></ul><p>Intégrer<ul><li>Exécuter le plan de réussite</li><li>Exécuter le plan d’implémentation technique</li></ul>|
+> |Désaffecter le PBX hérité de la fin de l’année 2018 au bureau de Toronto|FY18Q4 : la mise hors service de PBX vers l’ancien bureau|Générer une valeur ajoutée<ul><li>Favoriser l’implication des utilisateurs et encourager l'adoption</li><li>Gérer et préparer le changement</li><li>Mesurer, partager la réussite et retravailler</li>|
 
 <br>
 
 KSIs Mesurez la qualité et la réussite des principales valeurs et complétez la nature binaire de OKRs (atteint ou inatteint) en détaillant les résultats appropriés et/ou incorrects.
 
-Lors de la définition de KSIs, nous vous recommandons d’utiliser les critères «spécifiques, mesurables, assignable et réaliste» (dynamique):
+Lors de la définition de KSIs, nous vous recommandons d’utiliser les critères « spécifiques, mesurables, assignable et réaliste » (dynamique) :
 
--   Spécifique: cibler une zone spécifique à des fins d’amélioration
+-   Spécifique : cibler une zone spécifique à des fins d’amélioration
 
--   Mesurables: quantification ou au moins une suggestion d’indicateur de la progression
+-   Mesurables : quantification ou au moins une suggestion d’indicateur de la progression
 
--   Assignable: spécifier les destinataires du programme
+-   Assignable : spécifier les destinataires du programme
 
--   Réalisme: indiquez les résultats qui peuvent être atteints de manière réaliste, en fonction des ressources disponibles.
+-   Réalisme : indiquez les résultats qui peuvent être atteints de manière réaliste, en fonction des ressources disponibles.
 
--   Durée: spécifier à quel moment les résultats peuvent être atteints
+-   Durée : spécifier à quel moment les résultats peuvent être atteints
 
 > [!TIP]
 > Voici un exemple d'indicateur de succès clé approprié à ce projet :
@@ -210,7 +210,7 @@ Lors de la définition de KSIs, nous vous recommandons d’utiliser les critère
 Vous devez identifier les risques commerciaux dans le cadre de cet exercice et définir un plan d’atténuation pour chaque risque identifié. Ces informations peuvent être capturées dans un registre de risques.
 
 > [!TIP]
-> Votre registre de risques peut être documenté comme suit:
+> Votre registre de risques peut être documenté comme suit :
 > 
 > |Risque  |Probabilité  |Impact  |Global  |Plan d’atténuation  |
 > |---------|---------|---------|---------|---------|
@@ -223,20 +223,20 @@ Vous devez identifier les risques commerciaux dans le cadre de cet exercice et d
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Qu’est-ce que votre organisation&#39;s OKRs et KSIs?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de l’audioconférence au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de plans d’appel au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation du routage direct au sein de votre organisation? Quels sont les plans d’atténuation pour les risques identifiés?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Points de décision|<ul><li>Qu’est-ce que votre organisation&#39;s OKRs et KSIs ?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de l’audioconférence au sein de votre organisation ? Quels sont les plans d’atténuation pour les risques identifiés ?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation de plans d’appel au sein de votre organisation ? Quels sont les plans d’atténuation pour les risques identifiés ?</li><li>Quels risques avez-vous identifiés dans le cadre de l’implémentation du routage direct au sein de votre organisation ? Quels sont les plans d’atténuation pour les risques identifiés ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez le OKRs et KSIs, puis établissez le registre de risques.</li></ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="establish-a-steering-committee"></a>Créer un Comité de direction
 
-Le Comité de direction est un groupe directeur d’acteurs clés et de chefs de projet qui ont été réunis pour diriger un projet ou un programme vers les résultats d’entreprise définis. Le Comité de direction n’est pas directement responsable du fonctionnement du projet, mais ** plutôt du *mode* de livraison du projet à l’entreprise.
+Le Comité de direction est un groupe directeur d’acteurs clés et de chefs de projet qui ont été réunis pour diriger un projet ou un programme vers les résultats d’entreprise définis. Le Comité de direction n’est pas directement responsable du fonctionnement du projet, mais *plutôt du* *mode* de livraison du projet à l’entreprise.
 
-Chaque projet nécessite une vision et une Charte de niveau convenu. Pour vous fournir les résultats que vous souhaitez du projet, la vision doit être clairement définie et doit être surveillée et entretenue. C’est la responsabilité du Comité de direction: de prendre des décisions, de conseiller, de soumettre un contrôle stratégique, de faire de la part des partisans de l’Organisation des initiatives du projet et, si nécessaire, de supprimer les bloqueurs.
+Chaque projet nécessite une vision et une Charte de niveau convenu. Pour vous fournir les résultats que vous souhaitez du projet, la vision doit être clairement définie et doit être surveillée et entretenue. C’est la responsabilité du Comité de direction : de prendre des décisions, de conseiller, de soumettre un contrôle stratégique, de faire de la part des partisans de l’Organisation des initiatives du projet et, si nécessaire, de supprimer les bloqueurs.
 
 Il est important de réfléchir à la formation de votre organisation. Le Comité doit veiller à ce que le projet soit conforme aux objectifs de l’entreprise que vous avez définis pour le changement de conduite au sein de l’organisation, à des réunions périodiques pour discuter de l’impulsion actuelle du projet et à débloquer tout obstacle rencontré sur le permettent.
 
-Le Comité devrait définir son Charte pour inclure certains objectifs clés:
+Le Comité devrait définir son Charte pour inclure certains objectifs clés :
 
 -   Restez en contact avec les membres de l’équipe de projet et du cadre de la direction.
 
@@ -244,7 +244,7 @@ Le Comité devrait définir son Charte pour inclure certains objectifs clés:
 
 -   Permettre au commanditaire ou à l’équipe de direction de la direction de fournir une direction et une entrée au projet et de s’assurer qu’il est conforme aux objectifs d’entreprise surajustables, en ajustant les plans de projet, les résultats clés d’objectif (OKRs) et d’autres activités de projet.
 
-Le Comité de direction se réunit à un intervalle récurrent tout au long de la durée de vie d’un projet pour garantir l’alignement entre le leadership de l’organisation et l’équipe du projet. Cette réunion critique vérifie que la direction du projet dispose d’une prise en charge complète du leadership et qu’elle intègre tout avis fourni par leadership dans le projet pour favoriser le succès. Le Comité utilise ces réunions pour vous familiariser avec l’état du projet et pour:
+Le Comité de direction se réunit à un intervalle récurrent tout au long de la durée de vie d’un projet pour garantir l’alignement entre le leadership de l’organisation et l’équipe du projet. Cette réunion critique vérifie que la direction du projet dispose d’une prise en charge complète du leadership et qu’elle intègre tout avis fourni par leadership dans le projet pour favoriser le succès. Le Comité utilise ces réunions pour vous familiariser avec l’état du projet et pour :
 
 -   S’engagent sur les résultats de l’entreprise qui sont alignés sur le scénario commercial et de sorte que le projet s’engage à livrer ces résultats.
 

@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 9a34afb138491f28458b80474600daebbd767696
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b49b5e942229244d2a37fb632badcb580f98ca61
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283515"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515757"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Langues prises en charge pour l’audioconférence
 
-Lorsque vous configurez et configurez l’audioconférence dans Office 365, vous pouvez sélectionner les langues principales et secondaires (jusqu’à 4) qui sont utilisées lorsque les appelants se connectent à une réunion Skype entreprise ou Microsoft Teams. Voici la liste des langues prises en charge pour les conférences audio: 
+Lorsque vous configurez et configurez l’audioconférence dans Office 365, vous pouvez sélectionner les langues principales et secondaires (jusqu’à 4) qui sont utilisées lorsque les appelants se connectent à une réunion Skype entreprise ou Microsoft Teams. Voici la liste des langues prises en charge pour les conférences audio : 
   
 > [!IMPORTANT]
 > La langue principale et les langues secondaires ne peuvent être modifiées qu’avec des numéros de téléphone de conférence audio spécifiques. 
@@ -99,7 +98,7 @@ Si vous recherchez des pays ou des régions ayant des numéros de téléphone po
     
   - [Les meilleures façons de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

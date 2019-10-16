@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de teams au sein de votre organisation.
-ms.openlocfilehash: 95771336e71e56752483519cd089b1c755ec11d3
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622087"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517008"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’identification d’appelant dans Microsoft teams
 
@@ -42,17 +41,17 @@ Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie
 2. Cliquez sur **Ajouter**.
 ![Capture d’écran de la nouvelle page de stratégie d’ID d’appelant dans le centre d’administration](media/caller-id-policies-add-policy.png)
 3. Entrez le nom et la description de la stratégie.
-4. À partir de cet emplacement, sélectionnez les paramètres de votre choix:
+4. À partir de cet emplacement, sélectionnez les paramètres de votre choix :
 
     - **Bloquer l’ID d’appelant entrant**: activez ce paramètre pour bloquer l’identification de l’appelant lors de l’affichage d’appels entrants.
     - **Les utilisateurs peuvent ignorer la stratégie d’ID d’appelant**: activez ce paramètre pour permettre aux utilisateurs de remplacer les paramètres de la stratégie. Cela signifie que les utilisateurs peuvent choisir d’afficher leur ID d’appelant ou bloquer l’ID d’appelant d’un appel entrant.
-    - **Remplacer l’identification**de l’appelant: définissez l’ID de l’appelant à afficher pour les utilisateurs en sélectionnant l’une des options suivantes:
+    - **Remplacer l’identification**de l’appelant : définissez l’ID de l’appelant à afficher pour les utilisateurs en sélectionnant l’une des options suivantes :
 
-        - **Numéro de**l’utilisateur: affiche le numéro de l’utilisateur. 
+        - **Numéro de**l’utilisateur : affiche le numéro de l’utilisateur. 
         - **Numéro de service**: vous permet de définir un numéro de téléphone de service à afficher en tant qu’identifiant de l’appelant.
         - **Anonyme**: affiche l’ID de l’appelant comme anonyme.
 
-    - **Numéro de service à utiliser pour remplacer l’identifiant de l’appelant**: sélectionnez un numéro de service pour remplacer l’identifiant de l’appelant. Cette option n’est disponible que si vous avez sélectionné **numéro de service** dans remplacer l’identifiant de l' **appelant**.
+    - **Numéro de service à utiliser pour remplacer l’identifiant de l’appelant**: sélectionnez un numéro de service pour remplacer l’identifiant de l’appelant. Cette option n’est disponible que si vous avez sélectionné **numéro de service** dans **remplacer l’identifiant**de l’appelant.
 
 5. Cliquez sur **Enregistrer**.
 
@@ -78,9 +77,9 @@ Vous pouvez utiliser le centre d’administration de Microsoft teams pour attrib
 
 Pour assigner une stratégie d’ID de ligne d’appel personnalisée à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
 
-Vous pouvez également effectuer les opérations suivantes:
+Vous pouvez également effectuer les opérations suivantes :
 
-1. **** > **** Accédez au **Centre** > d’administration Microsoft Teams.
+1. Accédez**** > **** au > Centre d' **administration Microsoft teams**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.

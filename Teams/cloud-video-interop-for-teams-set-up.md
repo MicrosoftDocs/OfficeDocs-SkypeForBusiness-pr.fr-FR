@@ -11,16 +11,16 @@ ms.reviewer: srividhc
 description: Cet article décrit la planification et la configuration de l’interopérabilité Cloud Video pour les utilisateurs de votre organisation.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286255"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516660"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -32,7 +32,7 @@ Une fois que vous avez [choisi votre ou vos partenaires d’interopérabilité C
 
 Pour plus d’informations sur l’identification d’un partenaire ou partenaire à utiliser au sein de votre organisation, voir [interopérabilité Cloud pour Microsoft teams](cloud-video-interop.md) . 
 
-Pour planifier l’activation basée sur le niveau d’utilisation/le site, procédez comme suit: 
+Pour planifier l’activation basée sur le niveau d’utilisation/le site, procédez comme suit : 
 
 - Sélectionner un modèle de déploiement/un modèle hébergé pour votre utilisation
 - Sélectionnez le plan de licence idéal pour votre organisation. 
@@ -90,14 +90,14 @@ Une fois ces étapes terminées, les utilisateurs qui sont activés individuelle
 
 ## <a name="schedule"></a>Horaire
 
-Ensuite, planifiez une réunion en équipe avec des coordonnées d’interopérabilité vidéo. L’utilisateur activé peut planifier des réunions d’équipes par le biais de:
+Ensuite, planifiez une réunion en équipe avec des coordonnées d’interopérabilité vidéo. L’utilisateur activé peut planifier des réunions d’équipes par le biais de :
 - [Complément réunion teams pour Outlook](teams-add-in-for-outlook.md)
 - Bureau et appareil mobile teams
 
 
 ## <a name="join"></a>Rejoindre
 
-Vous pouvez participer à des réunions d’équipes à l’aide de vos appareils VTC comme suit:
+Vous pouvez participer à des réunions d’équipes à l’aide de vos appareils VTC comme suit :
  
 - IVR (réponse vocale interactive)
     - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey @ Domain. 

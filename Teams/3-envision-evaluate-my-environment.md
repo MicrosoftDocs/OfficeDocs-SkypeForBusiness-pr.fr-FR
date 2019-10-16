@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Utiliser des personnages et une analyse réseau pour évaluer la disponibilité de votre organisation, ouvrir les ports TCP et UDP appropriés, effectuer une correction du réseau.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1500c9e10d3e8d951c465ce278595c5b17f7cc7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232315"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516015"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -46,7 +46,7 @@ La découverte environnementale peut également vous indiquer si vous avez besoi
 Le fait de savoir que cela aidera votre organisation à ajuster son plan de projet en conséquence et à préparer les informations nécessaires au transfert de numéro. Vous pouvez utiliser la [découverte environnementale pour le lancement de Microsoft teams](environmental-discovery-for-microsoft-teams-rollout.md) pour effectuer une découverte environnementale.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui sera chargé d’effectuer une évaluation de l’environnement?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui sera chargé d’effectuer une évaluation de l’environnement ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documentez les résultats de l’évaluation de l’environnement.</li></ol></td></tr>
 </table>
 
@@ -54,16 +54,16 @@ Le fait de savoir que cela aidera votre organisation à ajuster son plan de proj
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>Fonctionnalités d’évaluation et d’adoption de la gestion des modifications 
 
-Le déploiement met une nouvelle technologie à la portée de l’utilisateur, mais les résultats commerciaux ne sont réalisés qu’après que les utilisateurs ont réellement adopté cette solution comme leurs siennes. Pour garantir une adoption soutenue d’une nouvelle solution, vous devez vous concentrer sur les efforts de préparation et de gestion des utilisateurs. Pour des résultats optimaux, procédez à la planification de la préparation des utilisateurs en tant que flux de flux parallèle à vos activités techniques de compatibilité et intégrez les activités suivantes:
+Le déploiement met une nouvelle technologie à la portée de l’utilisateur, mais les résultats commerciaux ne sont réalisés qu’après que les utilisateurs ont réellement adopté cette solution comme leurs siennes. Pour garantir une adoption soutenue d’une nouvelle solution, vous devez vous concentrer sur les efforts de préparation et de gestion des utilisateurs. Pour des résultats optimaux, procédez à la planification de la préparation des utilisateurs en tant que flux de flux parallèle à vos activités techniques de compatibilité et intégrez les activités suivantes :
 
--   **Profil de l’organisation et de l’utilisateur:** Analyse du receptiveness d’organisation à modifier en plus de l’analyse de cas d’utilisation et de personnages
+-   **Profil de l’organisation et de l’utilisateur :** Analyse du receptiveness d’organisation à modifier en plus de l’analyse de cas d’utilisation et de personnages
 
--   **Préparation et préparation des ressources:** Création de ressources de sensibilisation, de formation et de support ciblées et à grande portée, y compris la messagerie de valeur prioritaire permettant d’accélérer l’achat des utilisateurs
+-   **Préparation et préparation des ressources :** Création de ressources de sensibilisation, de formation et de support ciblées et à grande portée, y compris la messagerie de valeur prioritaire permettant d’accélérer l’achat des utilisateurs
 
 Utilisez les considérations suivantes pour évaluer la préparation de votre organisation à la gestion des modifications de l’utilisateur.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi à avoir adopté des logiciels ou des services pour les utilisateurs?</li><li>Est-il possible d’effectuer le suivi de l’utilisation?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une&mdash;campagne d'&mdash;adoption initiale et en cours (sensibilisation, formation et assistance)?</li><li>Avez-vous une équipe dédiée de gestion des changements ou d’adoption d’utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir les résultats de votre entreprise?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi à avoir adopté des logiciels ou des services pour les utilisateurs ?</li><li>Est-il possible d’effectuer le suivi de l’utilisation ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une&mdash;campagne d'&mdash;adoption initiale et en cours (sensibilisation, formation et assistance) ?</li><li>Avez-vous une équipe dédiée de gestion des changements ou d’adoption d’utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir les résultats de votre entreprise ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous &quot;répondez&quot; Oui à tous les éléments ci-dessus, identifiez les principales parties prenantes en matière de gestion du changement d’utilisateur et commencez votre planification de préparation des utilisateurs.</li><li>Si vous &quot;répondez&quot; non à tout ou partie des éléments ci-dessus, envisagez d’utiliser des ressources externes pour faciliter la gestion des modifications et les activités liées à l’adoption pour votre organisation.</li></ol></td></tr>
 </table>
 
@@ -74,7 +74,7 @@ Utilisez les considérations suivantes pour évaluer la préparation de votre or
 
 Teams utilise une technologie audio et vidéo (codecs) pouvant s’adapter à la plupart des conditions de réseau. Pour garantir des performances optimales et cohérentes, vous devez préparer votre réseau pour Teams.
 
-![Diagramme décrivant les trois composantes de la qualité] (media/evaluate-my-environment-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Avec le focus du réseau.")
+![Diagramme décrivant les trois composants du diagramme de qualité](media/evaluate-my-environment-image1.png "qui décrivent les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Avec le focus du réseau.")
 
 ## <a name="key-takeaways"></a>Points clés
 
@@ -88,10 +88,10 @@ Voici les principaux points à retenir dans ces instructions. Il le faut:
 
 -   Exécutez l' [outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885) et assurez-vous de respecter les exigences décrites dans la section [qualité multimédia et performances de connectivité réseau](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) du segment du réseau et du segment client.
 
-## <a name="why-should-you-prepare-your-network"></a>Pourquoi dois-je préparer votre réseau?
+## <a name="why-should-you-prepare-your-network"></a>Pourquoi dois-je préparer votre réseau ?
 
 Avant de passer en revue les étapes à suivre, il est important de comprendre ce qui peut affecter les performances des équipes et donc le bonheur et la satisfaction des utilisateurs.
-Trois domaines principaux de risques peuvent influer sur la qualité du réseau:
+Trois domaines principaux de risques peuvent influer sur la qualité du réseau :
 
 -   Bande passante disponible insuffisante
 
@@ -129,7 +129,7 @@ Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour 
 
 Comme VPN, les réseaux Wi-Fi ne sont pas nécessairement conçus ou configurés pour prendre en charge les contenus multimédias en temps réel. La planification d’un réseau Wi-Fi pour la prise en charge des équipes est une considération importante pour un déploiement de grande qualité.
 
-Il existe plusieurs facteurs qui entrent en jeu pour optimiser un réseau Wi-Fi:
+Il existe plusieurs facteurs qui entrent en jeu pour optimiser un réseau Wi-Fi :
 
 -   Mettre en œuvre la QoS ou le Wi-Fi Multimedia (WMM) pour s'assurer que le trafic média est priorisé en conséquence sur les réseaux Wi-Fi.
 
@@ -161,15 +161,15 @@ Dans le cas d’un serveur proxy déployé, nous vous recommandons de ne pas uti
 
 Une fois que vous avez terminé votre planification et préparation du réseau, y compris la mise à niveau de la bande passante et l’ouverture des ports dans le pare-feu, vous devez tester les performances de votre réseau. Les résultats de ces tests peignent une image plus claire de l’optimisation du réseau ou de la correction requise pour le succès de votre audioconférence ou de votre système téléphonique avec l’implémentation d’un plan d’appels.
 
-Vous pouvez télécharger l' [outil d’évaluation du réseau Skype entreprise](https://www.microsoft.com/download/details.aspx?id=53885) pour tester si votre réseau est prêt pour les équipes. L’outil offre une double fonctionnalité: il peut tester si tous les ports corrects ont été ouverts et tester les problèmes de réseau.
+Vous pouvez télécharger l' [outil d’évaluation du réseau Skype entreprise](https://www.microsoft.com/download/details.aspx?id=53885) pour tester si votre réseau est prêt pour les équipes. L’outil offre une double fonctionnalité : il peut tester si tous les ports corrects ont été ouverts et tester les problèmes de réseau.
 
 Une fois que vous avez téléchargé et installé l’outil, vous pouvez le trouver\\dans le\\fichier de programmation Microsoft Skype entreprise Network Assessment outil. Un guide détaillé pour l’utilisation de l’outil, utilisation. docx, est inclus dans ce répertoire.
 
 ### <a name="test-for-opened-ports"></a>Tester les ports ouverts
 
-Ouvrez une fenêtre d’invite de commandes et naviguez jusqu’au répertoire de l’outil d’évaluation du réseau en entrant le **CD-C:\\Program Files\\Microsoft Skype entreprise Network Assessment Tool**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool. exe/connectivitycheck**
+Ouvrez une fenêtre d’invite de commandes et naviguez jusqu’au répertoire de l’outil d’évaluation du réseau en entrant le **CD-C :\\Program Files\\Microsoft Skype entreprise Network Assessment Tool**. À l’invite de commandes, démarrez le test pour les ports ouverts en entrant **networkassessmenttool. exe/connectivitycheck**
 
-Après avoir exécuté les tests, l’outil affiche le message «vérification réussie» ou rapport sur les ports qui ont été bloqués.
+Après avoir exécuté les tests, l’outil affiche le message « vérification réussie » ou rapport sur les ports qui ont été bloqués.
 Il génère également un fichier nommé Connectivity_results. txt, qui contient la sortie de l’outil et l'\\enregistre dans le\\\\\\ dossier% UserProfile% AppData de l’outil d’évaluation du réseau Skype entreprise local.
 
 Nous vous recommandons d’exécuter les vérifications de connectivité régulièrement pour vous assurer que les ports ont été ouverts et qu’ils fonctionnent correctement.
@@ -177,17 +177,17 @@ Nous vous recommandons d’exécuter les vérifications de connectivité réguli
 ### <a name="test-for-network-impairments"></a>Test pour les problèmes de réseau
 
 Pour renforcer la satisfaction des utilisateurs, vous devez limiter les troubles de votre réseau.
-Le plus souvent, les déficiences du réseau sont les délais (latence), perte de paquets et gigue:
+Le plus souvent, les déficiences du réseau sont les délais (latence), perte de paquets et gigue :
 
--   **Latence:** Il s’agit du temps nécessaire à l’obtention d’un paquet IP du point A au point B sur le réseau. Ce délai de propagation du réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, y compris la surcharge supplémentaire prélevée par les différents routeurs entre eux.
+-   **Latence :** Il s’agit du temps nécessaire à l’obtention d’un paquet IP du point A au point B sur le réseau. Ce délai de propagation du réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, y compris la surcharge supplémentaire prélevée par les différents routeurs entre eux.
     La latence est mesurée comme une seule ou pour une seule boucle.
 
 -   **Perte de paquets**: il s’agit généralement du pourcentage de paquets perdus dans une période donnée. La perte de paquets a un effet direct sur la qualité audio (par le biais de petits paquets perdus individuels) n’ayant quasiment aucun impact sur les pertes de Burst en retour à la fin de l’audio.
 
--   Scintillement du son **entre les paquets ou simplement gigue:** Il s’agit de la modification moyenne du délai entre les paquets successifs. La plupart des logiciels VoIP modernes, dont Skype entreprise, peuvent s’adapter à certains niveaux de scintillement par le biais de la mise en mémoire tampon. C’est uniquement lorsque l’instabilité est supérieure à la mise en mémoire tampon qu’un participant notera les effets de gigue.
+-   **Scintillement du son entre les paquets ou simplement gigue :** Il s’agit de la modification moyenne du délai entre les paquets successifs. La plupart des logiciels VoIP modernes, dont Skype entreprise, peuvent s’adapter à certains niveaux de scintillement par le biais de la mise en mémoire tampon. C’est uniquement lorsque l’instabilité est supérieure à la mise en mémoire tampon qu’un participant notera les effets de gigue.
 
 Les valeurs maximales de ces déficiences sont décrites dans la section [qualité du média et performances de connectivité réseau](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
-Lorsque vous testez ces déficiences, nous faisons la distinction entre deux segments séparés:
+Lorsque vous testez ces déficiences, nous faisons la distinction entre deux segments séparés :
 
 -   Le *segment de périphérie* correspond au segment qui habite votre routeur. Il s’agit du segment réseau logique le plus proche connecté à Internet à chaque emplacement. Dans la plupart des cas, il s’agit du point de connexion du routeur, ou éventuellement d’un réseau de périmètre (également connu sous le nom de *DMZ*, *zone démilitarisée*et *sous-réseau à écran*). Aucun trafic supplémentaire n’affectant les appareils autres que le routeur ne doit se produire entre ce segment et Internet.
 
@@ -201,7 +201,7 @@ Notez que les deux segments doivent respecter les exigences requises pour un dé
 
 ## <a name="network-remediation"></a>Correction de réseau
 
-Si les résultats de la planification de la bande passante, du test de port ou du test des exigences réseau indiquent que votre réseau actuel a besoin d’une correction avant le déploiement d’équipes, vous pouvez procéder de plusieurs manières:
+Si les résultats de la planification de la bande passante, du test de port ou du test des exigences réseau indiquent que votre réseau actuel a besoin d’une correction avant le déploiement d’équipes, vous pouvez procéder de plusieurs manières :
 
 -   Dans le cas d’une bande passante insuffisante, mettez les connexions à niveau de sorte que le trafic vers Office 365 puisse être mis en place.
 
@@ -217,7 +217,7 @@ Pour plus d’informations, reportez-vous à la section [qualité de service de 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui est responsable de l’exécution correcte des évaluations réseau sur tous les segments réseau et emplacements de l’Organisation?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui est responsable de l’exécution correcte des évaluations réseau sur tous les segments réseau et emplacements de l’Organisation ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une analyse du réseau détaillée pour vous assurer que votre réseau est prêt pour le déploiement de Microsoft Teams.</li><li>Effectuez une correction du réseau en fonction des résultats de l’évaluation de chaque segment réseau.</li></ol></td></tr>
 </table>
 

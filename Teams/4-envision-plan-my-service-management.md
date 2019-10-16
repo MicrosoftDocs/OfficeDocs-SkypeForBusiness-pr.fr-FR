@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Livrez et gérez un déploiement de haute qualité en planifiant les rôles opérationnels et en attribuant un rôle de champion de la qualité.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f68e258535959c164ae838c2c146a4a4b207d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232293"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516007"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -36,7 +36,7 @@ La notion de gestion des services n'est probablement pas un concept nouveau pour
 La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Certaines composantes de la gestion des services - les composantes de l'infrastructure que le service Office 365 comprend lui-même, relèvent de la responsabilité de Microsoft, alors que le client est responsable devant ses utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison qu'il fournit.
 Pour une analyse détaillée de la responsabilité du client quant à la gestion du service Teams et de son incidence sur les principales composantes qui contribuent à la qualité de l’expérience utilisateur, reportez-vous à la rubrique [Plan de gestion du service et de la qualité](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagramme des trois composants de qualité] (media/plan-my-service-management-image1.png "Diagramme des trois composants qualité (service 365 Office, réseau et points de terminaison) et mode de superposition des trois services.")
+![Diagramme des trois composants du diagramme de qualité](media/plan-my-service-management-image1.png "des trois composants de qualité (service 365, réseau et points de terminaison) et mode de superposition") des trois.
 
 <!--ENDOFSECTION-->
 
@@ -91,7 +91,7 @@ Les tâches et les activités associées au rôle sont décrites dans le guide o
 
 Le Guide de vérification de l’utilisation de la qualité dispose d’un ensemble d’activités qui évaluent et fournissent des recommandations en matière de correction dans des domaines clés ayant un impact maximal sur l’amélioration de l’interface utilisateur, comme illustré dans la figure ci-dessous.
 
-![Illustration des zones clés à examiner lors de l’évaluation de l’interface qualité] (media/plan-my-service-management-image2.png "Les principales zones à examiner lors de l’évaluation de l’utilisation de la qualité: les résultats de l’enquête audio, fiable et utilisateur.")
+![Illustration des principales zones à examiner lors de la qualité examinez](media/plan-my-service-management-image2.png "les principales zones à examiner lors de l’évaluation de l’utilisation de la qualité : audio, fiabilité et résultats de l’enquête utilisateur.")
 
 En évaluant et en corrigeant continuellement les zones décrites dans ce document, vous pouvez réduire leur potentiel d'affecter négativement l'expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 

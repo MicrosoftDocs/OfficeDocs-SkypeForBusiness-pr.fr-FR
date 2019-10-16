@@ -9,7 +9,6 @@ ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,16 +21,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 42572abda5c99ff8e21623b88b4f66bc6cfdedd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c521c7bd19ffcdfe870ac3835e3ad1c75c9ff1be
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283377"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516907"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels dans Office 365 Code de traitement de plainte pour le Royaume-Uni (U.K.)
 
-Ce code s’applique aux clients de petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel d’Office 365 (le «service») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
+Ce code s’applique aux clients de petites entreprises (organisations ayant 10 employés ou moins) au Royaume-Uni (r.-u.) en ce qui concerne le service de plan d’appel d’Office 365 (le « service ») conformément aux réglementations du Royaume-Uni. D'autres services Skype Entreprise sont régis par votre accord de service avec Microsoft et toutes autres conditions applicables à votre utilisation du service particulier.
 
 ## <a name="how-to-make-a-complaint"></a>Comment porter réclamation
 
@@ -39,7 +38,7 @@ La satisfaction des clients est une priorité pour Skype Entreprise. Toutefois, 
 
 - Numéro de téléphone gratuit : 0800 032 6417
 
-- En ligne: Connectez-vous au centre d’administration 365 Microsoft et envoyez une demande de service en sélectionnant **nouvelle demande de service** sous **support**.
+- En ligne : Connectez-vous au centre d’administration 365 Microsoft et envoyez une demande de service en sélectionnant **nouvelle demande de service** sous **support**.
 
 ## <a name="timelines"></a>Délais
 
@@ -63,7 +62,7 @@ Toutes les réclamations doivent être envoyées à Ombudsman Services dans les 
 
 Les étapes à suivre pour transférer une réclamation à Ombudsman Services sont indiquées sur le [site Web](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) d'Ombudsman Services.
 
-Vous pouvez vous connecter aux services du Médiateur en remplissant un formulaire de contact sur le site Web des services du médiateur ou par téléphone, lettre ou courrier électronique:
+Vous pouvez vous connecter aux services du Médiateur en remplissant un formulaire de contact sur le site Web des services du médiateur ou par téléphone, lettre ou courrier électronique :
 
 - Formulaire de contact : [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

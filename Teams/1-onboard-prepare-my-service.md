@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Utilisez les listes de contrôle d’intégration pour préparer Office 365 pour teams et configurer les fonctionnalités principales, la mise en réseau et les charges de travail de l’équipe Cloud.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236197"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516495"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -29,7 +29,7 @@ Cet article fournit une vue d’ensemble des exigences relatives à la préparat
 
 ## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>Listes de vérification de l’intégration des charges de travail vocales de Microsoft teams
 
-Les listes de vérification suivantes vous guident tout au long des étapes d’implémentation des fonctionnalités de conférence audio, de système téléphonique avec des plans d’appel («plans d’appel») et de routage direct du système téléphonique («routage directe») dans Microsoft Teams.
+Les listes de vérification suivantes vous guident tout au long des étapes d’implémentation des fonctionnalités de conférence audio, de système téléphonique avec des plans d’appel (« plans d’appel ») et de routage direct du système téléphonique (« routage directe ») dans Microsoft Teams.
 
 *  [Préparer Office 365 pour teams](onboarding-checklist-enable-office-365.md)
 
@@ -41,14 +41,14 @@ Les listes de vérification suivantes vous guident tout au long des étapes d’
 
 *  [Configurer le routage direct dans teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
 
-Les tâches et les activités de ces listes de vérification constituent les éléments de «tâches de base» qui s’appliquent à tous les déploiements de fonctionnalités de voix Cloud avec Teams. Vous pouvez personnaliser les listes de contrôle de façon à inclure les activités et tâches spécifiques à votre propre équipe.
+Les tâches et les activités de ces listes de vérification constituent les éléments de « tâches de base » qui s’appliquent à tous les déploiements de fonctionnalités de voix Cloud avec Teams. Vous pouvez personnaliser les listes de contrôle de façon à inclure les activités et tâches spécifiques à votre propre équipe.
 
 >[!NOTE]
 >Ce guide est axé uniquement sur les offres d’appel, l’audioconférence et le routage direct. Si vous débutez avec Teams, passez en revue la [vue d’ensemble de Microsoft teams](teams-overview.md). Pour obtenir des instructions générales sur la planification du déploiement de teams, commencez par [déployer la discussion, les équipes, les canaux et les applications dans Microsoft teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Utilisez les listes de vérification fournies pour effectuer le suivi de l’état de chacune des activités et tâches individuelles et être sûr de ne pas ignorer les étapes critiques. Chaque activité inclut une description détaillée des actions et références requises pour les informations supplémentaires que vous pouvez utiliser pour effectuer cette activité.
 
-Bien que nous vous recommandons de suivre les listes de vérification dans l’ordre, la séquence exacte dépend de la portée de votre déploiement, de la configuration et de la complexité de votre environnement. Ils sont organisés pour prendre en charge un déploiement d’équipes «Greenfield» (un seul qui ne dispose pas de la présence d’une version précédente de Skype entreprise Online) ou la migration de Skype entreprise Online vers Teams. Si vous effectuez une migration à partir de Skype entreprise Online, vous avez peut-être déjà terminé certaines de ces activités et vous pouvez les ignorer maintenant.
+Bien que nous vous recommandons de suivre les listes de vérification dans l’ordre, la séquence exacte dépend de la portée de votre déploiement, de la configuration et de la complexité de votre environnement. Ils sont organisés pour prendre en charge un déploiement d’équipes « Greenfield » (un seul qui ne dispose pas de la présence d’une version précédente de Skype entreprise Online) ou la migration de Skype entreprise Online vers Teams. Si vous effectuez une migration à partir de Skype entreprise Online, vous avez peut-être déjà terminé certaines de ces activités et vous pouvez les ignorer maintenant.
 
 Lorsque vous intégrez des utilisateurs au niveau de chaque site, nous vous conseillons vivement d’utiliser le [Manuel d’utilisation du site pour les appels vocaux (Guide d’utilisation des sites)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme guide supplémentaire de ces listes de vérification.
 
@@ -56,7 +56,7 @@ Lorsque vous intégrez des utilisateurs au niveau de chaque site, nous vous cons
 >La plupart des paramètres de configuration sont communs entre teams et Skype entreprise online. Pour configurer ces paramètres, vous devez utiliser le centre d’administration Microsoft 365 et le centre d’administration Microsoft Teams.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui est responsable de l’affichage des listes de vérification d’intégration?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui est responsable de l’affichage des listes de vérification d’intégration ?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Téléchargez les listes de vérification de l’intégration.</li><li>Parcourez les éléments de liste de vérification d’intégration conformément au plan de déploiement de votre organisation.</li></ul></td></tr>
 </table>
 
@@ -111,7 +111,7 @@ Dans sa forme la plus simple, votre approche de test est basée sur les fonction
 
 À présent que vous avez défini votre approche de test, l’étape suivante consiste à configurer votre environnement de services et vos utilisateurs dans le cadre des fonctionnalités de voix Cloud de teams.
 
-Pour plus d’informations, consultez:
+Pour plus d’informations, consultez :
 
 - [Planification technique de l’audioconférence](cloud-voice-deployment.md)
 
@@ -127,10 +127,10 @@ Pour plus d’informations, consultez:
 
 ### <a name="execute-the-test-plan"></a>Exécuter le plan de test
 
-[//]: # (Puis-je modifier mon profil? «L’utilisateur» semblait un peu ambigu.)
+[//]: # (Puis-je modifier mon profil ? « L’utilisateur » semblait un peu ambigu.)
 Après la configuration de l’environnement de l’utilisateur et du service, la dernière étape de test inclut l’exécution du plan de test avec le focus sur la validation des fonctionnalités et des fonctionnalités. 
 
-**Conditions préalables et hypothèses de test de l’audioconférence pour les utilisateurs et sites dans l’étendue:**
+**Conditions préalables et hypothèses de test de l’audioconférence pour les utilisateurs et sites dans l’étendue :**
 
 -   La définition d’un cas d’utilisation professionnelle pour le service de conférence audio a été effectuée.
 
@@ -140,7 +140,7 @@ Après la configuration de l’environnement de l’utilisateur et du service, l
 
 -   La liste des numéros de téléphone de conférence rendez-vous et des numéros en fonction de la langue que vous avez choisie a été identifiée et configurée.
 
--   [Crédits de communication](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
+-   Les [crédits de communication](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
 
 -   Les paramètres du pont de conférence audio ont été identifiés et configurés (longueur du code confidentiel, notifications d’entrée/sortie, préférence d’activation de notification).
 
@@ -148,7 +148,7 @@ Après la configuration de l’environnement de l’utilisateur et du service, l
 
 -   Les exigences en matière de conformité de l’audioconférence ont été identifiées et configurées.
 
-**Offres d’appel tests requis et hypothèses pour les utilisateurs et sites dans l’étendue:**
+**Offres d’appel tests requis et hypothèses pour les utilisateurs et sites dans l’étendue :**
 
 -   La définition d’un cas d’utilisation professionnelle pour le Service plans d’appel a été effectuée.
 
@@ -158,13 +158,13 @@ Après la configuration de l’environnement de l’utilisateur et du service, l
 
 -   Les numéros de téléphone à attribuer à des utilisateurs ou qui ont été portés à Microsoft et sont disponibles sur le portail du client.
 
--   [Crédits de communication](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
+-   Les [crédits de communication](what-are-communications-credits.md) (si nécessaire) ont été configurés pour votre organisation.
 
 -   Les stratégies utilisateur client et les paramètres de plan de numérotation prenant en charge les scénarios d’appel d’offres sont identifiés, configurés et appliqués.
 
 -   Les plans d’appel doivent avoir été identifiés et configurés.
 
-**Conditions préalables et hypothèses de test de routage directes pour les utilisateurs et sites dans l’étendue:**
+**Conditions préalables et hypothèses de test de routage directes pour les utilisateurs et sites dans l’étendue :**
 
 -   La définition de cas d’utilisation professionnelle pour le service de routage direct a été effectuée.
 

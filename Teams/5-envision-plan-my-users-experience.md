@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Sélectionnez applications clientes Teams, planifiez la qualité du point de terminaison, obtenez des recommandations pour le déploiement de points de terminaison Wi-Fi et le choix de périphériques audio.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235186"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515972"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
 
@@ -41,7 +41,7 @@ L’un des principaux avantages de teams est que le client est automatiquement m
 
 Comme vous pouvez le voir dans le diagramme ci-dessous, les points de terminaison constituent un bloc de construction important pour offrir une qualité optimale aux utilisateurs.
 
-![Diagramme décrivant les trois composantes de la qualité] (media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
+![Diagramme décrivant les trois composants du diagramme de qualité](media/plan-my-users-experience-image1.png "qui décrivent les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
 
 Les points de terminaison teams peuvent s’exécuter sur de nombreux appareils, notamment les PC, Mac, tablettes et appareils mobiles. Une partie de l’expérience n’englobe pas uniquement le périphérique, mais le mode de connexion de l’utilisateur à l’appareil (par exemple, à l’aide du micro/haut-parleur intégré du périphérique, de confortables ou d’un casque optimisé). L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 
@@ -88,7 +88,7 @@ Certaines organisations préfèrent éviter complètement le Wi-Fi. Parfois, ces
 Si votre organisation utilise des points d’accès sans fil ou des routeurs qui ne prennent pas en charge le protocole Power Save de 802,11, il est possible que vous rencontriez des appels interrompus ou une mauvaise qualité d’appel dans Microsoft teams sur les appareils Windows. Si la mise à niveau de votre point d'accès sans fil ou de vos routeurs est impossible, vous devez mettre à jour les paramètres du plan d'alimentation Windows sur les appareils fonctionnant sur batterie. De plus amples détails et des conseils de configuration sont fournis dans l'[article de support](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you) suivant.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quels clients teams seront déployés au sein de votre organisation?</li><li>Comment allez-vous déployer initialement les clients teams pour vos utilisateurs?</li><li>Qui est responsable de l’évaluation des points de terminaison et des appareils pour vérifier qu’ils répondent aux exigences d’une équipe en matière de qualité?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Quels clients teams seront déployés au sein de votre organisation ?</li><li>Comment allez-vous déployer initialement les clients teams pour vos utilisateurs ?</li><li>Qui est responsable de l’évaluation des points de terminaison et des appareils pour vérifier qu’ils répondent aux exigences d’une équipe en matière de qualité ?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Document le processus qui sera suivi pour le déploiement de clients Teams.</li><li>Évaluez les points de terminaison et les périphériques, puis effectuez et remédiez aux problèmes.</li></ul></td></tr>
 </table>
 

@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour les utilisateurs de Microsoft Teams, afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: c9d4927b29438c47763941b0d1d73b7fef98c78b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241983"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516874"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 

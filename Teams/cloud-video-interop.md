@@ -11,16 +11,16 @@ ms.reviewer: srividhc
 description: La technologie Cloud Video Interop permet à des appareils de salle de réunion tiers de participer à des réunions Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237070"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516682"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -28,13 +28,13 @@ Le Cloud Video Interop (CVI) est une solution tierce qualifiée par Microsoft qu
  
 Grâce à Microsoft Teams, vous bénéficiez d’une collaboration sur le contenu en ligne riche dans les réunions qui incluent l’audio, la vidéo et le partage de contenu. Cela peut être apprécié par le biais du client de bureau et Web, ainsi que par le biais de nombreux appareils partenaires qui s’intègrent en mode natif avec Microsoft Teams. En revanche, de nombreux clients ont déjà investi dans des périphériques de communication vidéo et de visioconférence personnels, ce qui peut être coûteux à mettre à niveau. La technologie Cloud Video Interop fournit une solution simple, qui vous permet de continuer à utiliser vos solutions actuelles tant que vous n’êtes pas prêt à effectuer la mise à niveau.
 
-Avec la fonction d’interopérabilité de la vidéo Cloud, Microsoft teams permet à tous les participants de bénéficier d’une interface de réunion native pour tous les participants:
+Avec la fonction d’interopérabilité de la vidéo Cloud, Microsoft teams permet à tous les participants de bénéficier d’une interface de réunion native pour tous les participants :
 
-### <a name="is-cloud-video-interop-for-me"></a>Est-ce que Cloud Video Interop pour moi?
+### <a name="is-cloud-video-interop-for-me"></a>Est-ce que Cloud Video Interop pour moi ?
 
 La technologie Cloud Video Interop fournit un service intermédiaire lors d’une transition vers une solution Microsoft teams native complète, utilisant des points de terminaison Teams. Le service fourni doit faire partie de votre chemin de migration.
 
-L’interopérabilité de la vidéo Cloud est destiné aux clients qui remplissent les critères suivants:
+L’interopérabilité de la vidéo Cloud est destiné aux clients qui remplissent les critères suivants :
 
 - Déploiement de systèmes de salle de réunion et de déploiement de périphériques vidéo personnels (50 périphériques) qui ne sont pas qualifiés pour une intégration directe avec Microsoft teams
 - Sont prises en charge par l’un de nos partenaires d’interopérabilité Cloud Video
@@ -81,7 +81,7 @@ Le partenaire que vous avez choisi pour votre déploiement CVI vous fournira un 
 
 ### <a name="provision"></a>Octroi  
 
-Pendant la phase de mise en service, vous attribuerez des licences aux utilisateurs appropriés conformément au Guide de configuration du partenaire. Vous devrez également suivre le processus de consentement d’Azure pour proposer au partenaire l’accès à votre environnement d’équipes. Pour plus d’informations sur le processus de consentement d’Azure, consultez la page suivante:https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+Pendant la phase de mise en service, vous attribuerez des licences aux utilisateurs appropriés conformément au Guide de configuration du partenaire. Vous devrez également suivre le processus de consentement d’Azure pour proposer au partenaire l’accès à votre environnement d’équipes. Pour plus d’informations sur le processus de consentement d’Azure, consultez la page suivante :https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>Horaire
 
@@ -89,7 +89,7 @@ Une fois qu’un utilisateur est activé pour l’interopérabilité Cloud Video
 
 ### <a name="join"></a>Rejoindre
 
-En fonction de la solution de partenariat, il existe plusieurs façons de participer à une réunion Cloud Video Interop. Les scénarios exacts de participation à une réunion seront fournis par votre partenaire Cloud Video Interop. Nous avons classé quelques exemples ci-dessous:
+En fonction de la solution de partenariat, il existe plusieurs façons de participer à une réunion Cloud Video Interop. Les scénarios exacts de participation à une réunion seront fournis par votre partenaire Cloud Video Interop. Nous avons classé quelques exemples ci-dessous :
 
 - IVR (réponse vocale interactive) 
   - Vous pouvez vous connecter à l’IVR du partenaire à l’aide du tenantkey @ Domain.

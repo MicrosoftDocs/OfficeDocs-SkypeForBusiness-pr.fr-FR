@@ -7,23 +7,22 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
 description: Apprenez à activer l’application cliente de bureau teams avec des stratégies de contrôle d’application AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d87eb5328f5200479f719dc22d9244c46af8944
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eb12012c0775d98c7d1b08b61c6c0deba83a4d5f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244941"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516772"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Stratégies de contrôle d’application AppLocker dans Microsoft teams
 
-Cet article explique comment activer l’application Microsoft teams cliente de bureau avec des stratégies de contrôle d’application AppLocker. L’utilisation de AppLocker a pour but de limiter l’exécution du programme et du script par des utilisateurs non administrateurs. Pour plus d’informations et des instructions sur AppLocker, voir [qu’est-ce que AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
+Cet article explique comment activer l’application Microsoft teams cliente de bureau avec des stratégies de contrôle d’application AppLocker. L’utilisation de AppLocker a pour but de limiter l’exécution du programme et du script par des utilisateurs non administrateurs. Pour plus d’informations et des instructions sur AppLocker, voir [qu’est-ce que AppLocker ?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
 
 Le processus d’activation d’une équipe avec AppLocker nécessite la création de stratégies de création de listes de personnes basées sur AppLocker. Les stratégies sont créées à l’aide d’un logiciel de gestion des stratégies de groupe et/ou de l’utilisation des cmdlets Windows PowerShell pour AppLocker (voir [référence technique AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) pour plus d’informations). La stratégie AppLocker est enregistrée au format XML et peut être modifiée à l’aide d’un éditeur de texte ou XML.
 
@@ -39,7 +38,7 @@ Dans la mesure où les fichiers exécutable de bureau teams sont signés numéri
 
 ### <a name="example-of-publisher-condition-rules"></a>Exemple de règles de condition Publisher
 
-Pour l’application client Teams (tous les fichiers, toutes les versions):
+Pour l’application client Teams (tous les fichiers, toutes les versions) :
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
