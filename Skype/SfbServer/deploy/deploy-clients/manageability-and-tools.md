@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Consultez cette rubrique pour en savoir plus sur les outils de gestion de Skype Room System.
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775325"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547257"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Facilité de gestion et outils Skype Room System
  
@@ -29,9 +29,6 @@ Pour plus d’informations, consultez l’article suivant :
   
 - [Déploiement du portail Web d’administration de SRS v1 dans Skype entreprise Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-Le système de salle Skype peut être surveillé par le biais de System Center Operations Manager (SCOM) en téléchargeant le Pack de gestion de la [salle Skype](https://www.microsoft.com/download/details.aspx?id=42320) et en l’installant sur votre serveur SCOM. Vous pouvez utiliser SCOM pour définir des alertes, surveiller l’état du système de salle Skype, générer des rapports de disponibilité, etc. Le système de salle Skype est fourni avec un agent de surveillance préinstallé qui peut être configuré pour pointer sur un serveur SCOM. Consultez le Guide d’installation fourni par le fabricant de votre système de salle Skype pour savoir comment configurer l’agent de surveillance dans le système de salle Skype.
   
 ## <a name="exchange-checklist"></a>Liste de vérification Exchange
 

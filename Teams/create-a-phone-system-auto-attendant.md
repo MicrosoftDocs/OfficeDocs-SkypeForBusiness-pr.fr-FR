@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
-ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
+ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37522769"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553781"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -220,7 +220,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Composer par poste** Si vous activez cette option (actuellement disponible uniquement dans certains clients), les appelants peuvent se connecter aux utilisateurs de votre organisation en entrant leur extension de téléphone. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
+**Composer par poste** (cette fonctionnalité d’aperçu n’est pas encore disponible pour le grand public) si vous activez cette option, les appelants peuvent communiquer avec les utilisateurs de votre organisation en entrant leur numéro de poste. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
 
 > [!IMPORTANT]
 > Notez ce qui suit :
@@ -231,7 +231,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 >- Un standard automatique peut être configuré pour composer par nom ou par numéro de poste, mais pas les deux.
 
 > [!NOTE]
-> Si vous souhaitez utiliser les fonctions **numéroter par nom** et **numéro de poste par** , vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu s’ils connaissent l’extension de l’utilisateur et définir cette option sur Transférez l’appel vers un standard automatique activé pour composer par extension. 
+> Si vous souhaitez utiliser les fonctions **numéroter par nom** et **numéro de poste par** , vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu s’ils connaissent l’extension de l’utilisateur et définir cette option sur Transférez l’appel vers un standard automatique activé pour composer par extension.
 
 * * *
 
@@ -326,7 +326,7 @@ Cliquez sur en **regard** de définir l’étendue de numérotation, de **nouvea
 
 ![Capture d’écran montrant la page de portée de numérotation](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-Dans cette page, vous pouvez définir qui est répertorié dans votre annuaire et disponible pour le numérotation par nom lorsque quelqu’un appelle votre organisation. La numérotation par nom est définie sur **désactivé** par défaut dans un écran antérieur. Si vous avez créé des plans de numérotation, tous les utilisateurs disposant d’une extension seront disponibles si la **numérotation par poste** a été sélectionnée auparavant.
+Dans cette page, vous pouvez définir qui est répertorié dans votre annuaire et disponible pour le numérotation par nom lorsque quelqu’un appelle votre organisation. La numérotation par nom est définie sur **désactivé** par défaut dans un écran antérieur. Tous les utilisateurs disposant d’une extension seront disponibles si la **numérotation par poste** a été sélectionnée auparavant.
 
 ![D’après le numéro 1, une légende dans la capture d'](media/teamscallout1.png) écran précédente **inclut** les options de cette section : **tous les utilisateurs en ligne** ou **groupes d’utilisateurs personnalisés**
 

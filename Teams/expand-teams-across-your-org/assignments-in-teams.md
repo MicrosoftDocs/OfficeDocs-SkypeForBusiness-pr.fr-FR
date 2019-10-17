@@ -20,12 +20,12 @@ description: Apprenez à gérer les devoirs dans le centre d’administration Mi
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483978"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547278"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
@@ -35,7 +35,7 @@ Les affectations sont des tâches ou des unités de travail attribuées à un é
 
 ## <a name="assignments-in-the-microsoft-teams-admin-center"></a>Devoirs dans le centre d’administration Microsoft teams
 
-Les paramètres d’administration du centre d’administration Microsoft teams vous permettent d’activer ou de désactiver les fonctionnalités suivantes pour être disponibles pour les étudiants et enseignants au sein de votre organisation. Vous trouverez ci-dessous des paramètres relatifs aux devoirs:
+Les paramètres d’administration du centre d’administration Microsoft teams vous permettent d’activer ou de désactiver les fonctionnalités suivantes pour être disponibles pour les étudiants et enseignants au sein de votre organisation. Vous trouverez ci-dessous des paramètres relatifs aux devoirs :
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Résumé du message électronique du tuteur de chaque semaine
@@ -63,7 +63,7 @@ Turnitin est un service de détection Plagiarism. Il s’agit d’un produit ou 
 
 Ce paramètre est désactivé par défaut.
 
-Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà disposer d’un abonnement Turnitin. Vous devrez entrer les informations supplémentaires suivantes qui se trouvent dans votre console d’administration Turnitin:
+Pour pouvoir activer Turnitin pour votre organisation, vous devez déjà disposer d’un abonnement Turnitin. Vous devrez entrer les informations supplémentaires suivantes qui se trouvent dans votre console d’administration Turnitin :
 
   * _TurnitinApiKey_: il s’agit d’un GUID de 32 caractères qui se trouve dans la console d’administration sous intégrations.
   * _TurnitinApiUrl_: il s’agit de l’URL HTTPS de votre console d’administration Turnitin.
@@ -83,6 +83,4 @@ Le TurnitinApiKey vous sera fourni une fois que vous aurez suivi les invites. Co
 
 Lorsque vous cliquez sur le bouton **Enregistrer** dans le centre d’administration pour ce paramètre, attendez jusqu’à 24 heures avant que ces paramètres soient appliqués.
 
-[En savoir plus sur l’intégration entre Turnitin et Microsoft teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[En savoir plus sur Turnitin](https://www.turnitin.com/)
+Vous êtes prêt à commencer à utiliser l’intégration de Turnitin dans Microsoft teams ? Inscrivez-vous au [programme d’accès en avant](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).
