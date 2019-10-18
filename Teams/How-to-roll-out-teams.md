@@ -12,18 +12,17 @@ description: Rechercher le parcours approprié pour le déploiement de Microsoft
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69853edb9819d0be315a7359177d222f94f59986
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 355e3fe5648fd9f3adac6ac3f48a52af0ff290ce
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483524"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569853"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Comment mettre en place Microsoft Teams
 

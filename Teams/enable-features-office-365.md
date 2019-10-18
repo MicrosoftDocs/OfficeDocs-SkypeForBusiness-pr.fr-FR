@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 3fdb6994a1ae831ff37eb0e6ba3c17168686a4c7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715925"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568407"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -106,7 +105,7 @@ Cette option vous permet de sélectionnez l’application que les utilisateurs u
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 
-Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/fr-FR/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Plus d’informations
 
