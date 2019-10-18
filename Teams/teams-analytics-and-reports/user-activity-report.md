@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment utiliser le rapport activité de l’utilisateur sur teams dans le centre d’administration de Microsoft teams pour voir comment les utilisateurs de votre organisation utilisent Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 19c8837ebc6957d9ccd198df9a08eda229e2a262
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439560"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571377"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Rapport d’activité des utilisateurs de Microsoft Teams
 
@@ -31,7 +30,7 @@ Le rapport activité de l’utilisateur sur teams vous permet de mieux comprendr
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez activité de l' **utilisateur sur teams**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
-    ![Capture d’écran du rapport activité de l’utilisateur sur teams dans le centre d’administration Microsoft teams avec]les légendes(../media/teams-reports-user-activity-with-callouts.png "du rapport activité de l’utilisateur sur teams dans le centre d’administration teams avec légendes")
+    ![Capture d’écran du rapport activité de l’utilisateur sur teams dans le centre d’administration teams avec légendes](../media/teams-reports-user-activity-with-callouts.png "Capture d’écran du rapport activité de l’utilisateur sur teams dans le centre d’administration teams avec légendes")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 

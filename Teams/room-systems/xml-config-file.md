@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774912"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573461"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -131,7 +132,7 @@ Vous pouvez utiliser la méthode que vous souhaitez tant que vous pouvez l'utili
 
 Le fichier image de thème personnalisé doit être placé dans`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` le dossier. Entrez le nom et l’extension du fichier \<dans\> la variable CustomThemeImageUrl.
   
-Le fichier image doit avoir exactement 3840X1080 pixels et doit être l’un des formats de fichier suivants : jpg, JPEG, png et BMP. Si votre organisation veut utiliser une image personnalisée, un concepteur graphique peut utiliser le [modèle Photoshop thème personnalisé](https://go.microsoft.com/fwlink/?linkid=870441). Il contient des détails supplémentaires sur l’endroit où placer divers éléments dans une image de thème et les zones qui apparaissent dans les consoles et les affichages.
+Le fichier image doit avoir exactement 3840X1080 pixels et doit être l’un des formats de fichier suivants : jpg, JPEG, png et BMP. Si votre organisation veut utiliser une image personnalisée, un concepteur graphique peut utiliser le [modèle Photoshop thème personnalisé](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd). Il contient de plus amples détails sur l’emplacement des différents éléments de l’interface utilisateur par rapport au reste d’une image de thème et les zones qui apparaissent dans les consoles et les affichages.
   
 Le fichier de configuration XML doit être mis à jour lors du démarrage de l'appareil pour reconnaître l'image du thème. Lorsque le nouveau fichier XML est traité et supprimé, le fichier graphique de thème est supprimé de l’annuaire.
   

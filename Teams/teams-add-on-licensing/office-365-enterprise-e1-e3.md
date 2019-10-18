@@ -9,7 +9,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de compléments, les fonctionnalités et l’achat pour les offres Office 365 entreprise E1 et E3. '
-ms.openlocfilehash: 30a7f18382c6fcbc28d80089c5cd9f855c00aa8e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7c8851da745009439cd473c9bbd1e90cc7498363
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242646"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571179"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Entreprise E1 et E3
 
@@ -36,7 +35,7 @@ Si vous avez déjà acheté [Office 365 entreprise E1](https://products.office.c
 |Numéros gratuits pour un accès rendez-vous à vos réunions et possibilité de passer des appels sortants à partir d’une réunion pour ajouter une personne en appelant n’importe quel numéro de téléphone dans le monde<br/> | Acheter des [crédits de communication](../add-funds-and-manage-communications-credits.md).|
 |Système téléphonique <br/> |<ol><li>Acheter le module complémentaire du système téléphonique Office 365. </li><li>Achetez un [plan d’appel](../calling-plans-for-office-365.md) pour Office 365.</li></ul>Ou bien, utilisez le [service de téléphone de votre fournisseur existant](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Messagerie vocale cloud<br/> |Pour les offres E1, achetez Exchange Online plan 2. <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
-|Offres d'appels<br/> |<ol><li>Acheter le module complémentaire Système téléphonique.</li><li>Achetez un [forfait d’appels](../calling-plans-for-office-365.md): vous pouvez l’acheter uniquement après l’acquisition du complément de votre **système téléphonique** .</li></ol> <br/> |
+|Forfaits d’appel<br/> |<ol><li>Acheter le module complémentaire Système téléphonique.</li><li>Achetez un [forfait d’appels](../calling-plans-for-office-365.md): vous pouvez l’acheter uniquement après l’acquisition du complément de votre **système téléphonique** .</li></ol> <br/> |
    
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clients E1 et E3 : comment connaître les prix et procéder à l'achat
@@ -57,16 +56,16 @@ L'offre E3 est comprise dans votre abonnement Action Pack. Pour acheter des modu
 
 1. Achetez un siège de E3 sur notre [site Web de marketing](https://go.microsoft.com/fwlink/?LinkId=24393). Choisissez l'option d'ajout du siège à votre client actuel.
 
-2. Connectez-vous au centre d’administration Microsoft 365 et accédez **** > à abonnements de > **complément****services d’achat**de factures.
+2. Connectez-vous au centre d’administration Microsoft 365 et accédez **** > à**abonnements de complément** > **services d’achat**de factures.
 
     Les prix et l’option permettant d’acheter des modules complémentaires de services d’audioconférence et de système téléphonique apparaissent désormais.
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Pourquoi l'option d'achat de compléments ne s'affiche-t-elle pas ?
 <a name="bkmk_how"> </a>
 
-Dans certains cas, vous ne verrez pas l’option d’achat de compléments Microsoft teams dans le centre d’administration Microsoft 365:
+Dans certains cas, vous ne verrez pas l’option d’achat de compléments Microsoft teams dans le centre d’administration Microsoft 365 :
 
-- **Vous avez acheté Office 365 Business Premium par l'entremise de GoDaddy**. Dans ce cas, vous ne pouvez pas acheter de modules complémentaires Microsoft Teams. Vous devez basculer vers l’offre E3 (ce que GoDaddy ne vend pas), puis vous pouvez l’acheter. [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Vous avez acheté Office 365 Business Premium par l'entremise de GoDaddy**. Dans ce cas, vous ne pouvez pas acheter de modules complémentaires Microsoft Teams. Vous devez basculer vers l’offre E3 pour pouvoir les acheter. [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Votre abonnement est mensuel, non annuel**. Dans certains cas, les clients ayant souscrit un engagement mensuel ne peuvent pas acheter de compléments (il s’agit d’un mode de paiement différent du mode de paiement, qui peut être mensuel). Il s’agit d’un problème connu qui est résolu. [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

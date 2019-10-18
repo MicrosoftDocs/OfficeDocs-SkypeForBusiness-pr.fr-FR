@@ -14,21 +14,20 @@ search.appverid: MET150
 ms.custom:
 - Devices
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235038"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570101"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 ======================================
 
-Avant d’installer teams pour surface Hub, veillez à effectuer les opérations suivantes:
+Avant d’installer teams pour surface Hub, veillez à effectuer les opérations suivantes :
 
  □ Vérifiez que le matériel, le système d’exploitation et les autres exigences sont satisfaits. Pour plus d’informations, consultez le [Guide d’administration Microsoft surface Hub](https://docs.microsoft.com/surface-hub/).<br>
  □ Vérifiez que la mise à jour du système d’exploitation minimum nécessaire pour teams est installée- [KB4343889](https://support.microsoft.com/help/4343889).<br>
@@ -39,7 +38,7 @@ Avant d’installer teams pour surface Hub, veillez à effectuer les opérations
 
 Les instructions suivantes s’appliquent à l’installation d’teams surface Hub à partir du Microsoft Store. 
  
-1. Démarrez Microsoft Store:<br>
+1. Démarrez Microsoft Store :<br>
    a. Appuyez sur **Démarrer** > **tous les** > **paramètres**d’application.<br> b. Appuyez sur **compte surface Hub, gestion**.<br>
    c. Sur la gauche, appuyez sur l’onglet **applications & fonctionnalités** .<br> d. À droite, appuyez sur le bouton **ouvrir la boutique** . 
 2. Dans la boutique Microsoft, recherchez *Microsoft teams*. **Microsoft teams surface Hub** est affiché. Appuyez sur le bouton **obtenir l’application** pour procéder à l’installation.  
@@ -50,14 +49,14 @@ Les instructions suivantes s’appliquent à l’installation d’teams surface 
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>Définir teams comme application par défaut pour les appels et les réunions
  
-Deux options s’offrent à vous pour configurer la stratégie d’appel et de réunion par défaut: 
+Deux options s’offrent à vous pour configurer la stratégie d’appel et de réunion par défaut : 
 
 - **Option 1**: configuration via la clé USB. 
 - **Option 2**: configurer via le GPM (par exemple, Intune).
  
-### <a name="option-1-configure-via-usb-key"></a>Option 1: configurer via une clé USB 
+### <a name="option-1-configure-via-usb-key"></a>Option 1 : configurer via une clé USB 
  
-Les packages sont disponibles sur cette [page de téléchargement](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Sélectionnez l’application appropriée pour le package que vous envisagez d’installer et copiez-la sur une clé USB. Le fichier. ppkg approprié à utiliser dépend de la stratégie d’application par défaut que vous souhaitez appliquer en procédant comme suit: 
+Les packages sont disponibles sur cette [page de téléchargement](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Sélectionnez l’application appropriée pour le package que vous envisagez d’installer et copiez-la sur une clé USB. Le fichier. ppkg approprié à utiliser dépend de la stratégie d’application par défaut que vous souhaitez appliquer en procédant comme suit : 
 
 |Numéro  |Description  |
 |---------|---------|
@@ -76,7 +75,7 @@ Les packages sont disponibles sur cette [page de téléchargement](https://1drv.
 9. Redémarrez l’appareil surface Hub. 
 10. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2: configurer via le GPM (par exemple, Intune) 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : configurer via le GPM (par exemple, Intune) 
 
 Procédez comme suit pour configurer la stratégie d’application pour les appels et les réunions par défaut via Intune. Consultez également le blog, [déploiement de l’application Microsoft teams pour surface Hub à l’aide de Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
@@ -89,7 +88,7 @@ Procédez comme suit pour configurer la stratégie d’application pour les appe
 |Paramètre   |Valeur    |
 |----------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Type de données | Définissez chaîne-donnez à l’ID de package de l’application teams en tant que **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Teams** |
+|Type de données | Définissez chaîne-donnez à l’ID de package de l’application teams en tant que **Microsoft. MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe ! Teams** |
 |Opérations| Obtenir, définir        |
 
 Redémarrez l’appareil surface Hub. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier.

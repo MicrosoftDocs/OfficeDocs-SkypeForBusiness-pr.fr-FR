@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbert
 ms.custom:
 - Calling Plans
 description: En savoir plus sur les différents types de numéros de téléphone utilisés par teams pour les offres d’appels.
-ms.openlocfilehash: 9dd6996a4ea455c30025b9430735e22079d870ac
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 353f3810be41aff5365b9dca00831d6b5a4dad5c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483758"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572266"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les appels d’offre
 
@@ -33,7 +32,7 @@ Microsoft teams utilise différents types de numéros de téléphone en fonction
   
 - **Numéros d’utilisateur**
     
-    Les numéros d’utilisateur sont attribués aux utilisateurs et il existe deux types:
+    Les numéros d’utilisateur sont attribués aux utilisateurs et il existe deux types :
     
   - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique et sont les plus courants. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’au sein d’une certaine adresse, ville, État ou région du pays.
     
@@ -43,7 +42,7 @@ Microsoft teams utilise différents types de numéros de téléphone en fonction
     
   - **Numéros de service payants**
     
-    Les numéros de service payants peuvent avoir un coût facturé pour l’appelant et il existe deux sortes de services:
+    Les numéros de service payants peuvent avoir un coût facturé pour l’appelant et il existe deux sortes de services :
     
       - **Numéros géographiques** Les numéros géographiques présentent une relation vers une zone géographique. Par exemple, les numéros de téléphone géographiques dans la plupart des cas ne peuvent être utilisés qu’au sein d’une certaine adresse, ville, État ou région du pays.
         

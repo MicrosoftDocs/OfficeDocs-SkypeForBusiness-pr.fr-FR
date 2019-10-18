@@ -11,17 +11,14 @@ audience: admin
 description: Recueillez les commentaires des utilisateurs pour améliorer l’implémentation de la voix Cloud dans Microsoft teams ou Skype entreprise.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232852"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567678"
 ---
 # <a name="user-feedback-surveys"></a>Etudes de commentaires des utilisateurs 
 
@@ -56,13 +53,13 @@ Indiquez votre niveau d’accord avec les déclarations suivantes, telles qu’i
 
 Si vous avez choisi de ne pas être **absolument absolument** pas d' **accord** ou totalement d’accord pour l’une des affirmations ci-dessus, veuillez expliquer. (Texte ouvert)
 
-Dans quelle mesure êtes-vous prêt à utiliser teams comme téléphone pour un ami ou un collègue? (0 = sans doute... 10 = très probable)
+Dans quelle mesure êtes-vous prêt à utiliser teams comme téléphone pour un ami ou un collègue ? (0 = sans doute... 10 = très probable)
 
 | 0,4      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
-Dans quelle mesure êtes-vous susceptible de recommander votre appareil téléphonique à un ami ou un collègue? (0 = sans doute... 10 = très probable)  
+Dans quelle mesure êtes-vous susceptible de recommander votre appareil téléphonique à un ami ou un collègue ? (0 = sans doute... 10 = très probable)  
 
 | 0,4      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | version8 | 09 | 0,10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|

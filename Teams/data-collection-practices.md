@@ -9,7 +9,6 @@ ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 audience: Admin
@@ -22,18 +21,18 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur afin de comprendre la manière dont Skype entreprise est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations du produit.
-ms.openlocfilehash: ff09801ca4810dcb92d778ca2ad3c85482accddd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d5e4e72ac06eb0638ed25dbf48321afd22b503ed
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240973"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571845"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Pratiques de collecte de données Skype entreprise et Microsoft teams
 
 Skype entreprise Server et Skype entreprise Online, de même que les applications Skype entreprise et Microsoft Teams, recueillez des données pour aider Microsoft à comprendre la façon dont ces produits sont utilisés et les types d’erreur, tels que les erreurs de connexion, qui se sont produites. Ces informations nous aident à comprendre les modèles d’utilisation, à planifier de nouvelles fonctionnalités et à résoudre les problèmes liés aux problèmes.
 
-Lorsque certaines données d’utilisation sont collectées automatiquement, les autres données peuvent uniquement être collectées lorsque l’administrateur et/ou l’utilisateur choisit de l’autoriser. La collecte des données appartient aux trois catégories suivantes:
+Lorsque certaines données d’utilisation sont collectées automatiquement, les autres données peuvent uniquement être collectées lorsque l’administrateur et/ou l’utilisateur choisit de l’autoriser. La collecte des données appartient aux trois catégories suivantes :
 
 - Données de recensement
 
@@ -43,7 +42,7 @@ Lorsque certaines données d’utilisation sont collectées automatiquement, les
 
 ## <a name="census-data"></a>Données de recensement
 
-Les données de recensement sont acquises uniquement pour fournir, soutenir et améliorer Skype entreprise. Microsoft teams et Skype entreprise online. Il inclut des informations sur l’environnement telles que les versions de périphériques et de systèmes d’exploitation, ainsi que les paramètres régionaux et linguistiques. Il inclut également des compteurs pour les tentatives de connexion et les échecs. Voici quelques exemples spécifiques des données de recensement collectées:
+Les données de recensement sont acquises uniquement pour fournir, soutenir et améliorer Skype entreprise. Microsoft teams et Skype entreprise online. Il inclut des informations sur l’environnement telles que les versions de périphériques et de systèmes d’exploitation, ainsi que les paramètres régionaux et linguistiques. Il inclut également des compteurs pour les tentatives de connexion et les échecs. Voici quelques exemples spécifiques des données de recensement collectées :
 
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|
@@ -52,7 +51,7 @@ Les données de recensement sont acquises uniquement pour fournir, soutenir et a
 |OSName  <br/> |iPhone iOS  <br/> ||
 |OSVersion  <br/> |8,3  <br/> ||
 |UserLanguage  <br/> |FR-FR  <br/> ||
-|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |L’ID est haché deux fois: une fois sur le client et de nouveau sur le service de télémétrie. Le hachage vérifie que l’ID ne peut pas être lié à un utilisateur spécifique.  <br/> |
+|UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |L’ID est haché deux fois : une fois sur le client et de nouveau sur le service de télémétrie. Le hachage vérifie que l’ID ne peut pas être lié à un utilisateur spécifique.  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |L’ID d’appareil est un GUID généré de façon aléatoire une fois sur l’appareil et envoyé vers le service de télémétrie.  <br/> |
 
 Les données de recensement ne contiennent aucune information identifiant votre organisation ou vos utilisateurs. Pour plus d’informations, consultez la [déclaration de confidentialité de Skype entreprise](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) .
@@ -63,7 +62,7 @@ Les données de recensement sont activées par défaut et ne peuvent pas être d
 
 Les données d’utilisation incluent des informations telles que le nombre d’appels passés, le nombre de messages instantanés envoyés ou reçus, le nombre de réunions jointes, la fréquence des fonctionnalités utilisées et les problèmes de stabilité.
 
-Les données d’utilisation peuvent contenir des informations identifiant votre organisation, telles que contoso.com. Voici quelques exemples spécifiques des données d’utilisation collectées:
+Les données d’utilisation peuvent contenir des informations identifiant votre organisation, telles que contoso.com. Voici quelques exemples spécifiques des données d’utilisation collectées :
 
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|
@@ -80,7 +79,7 @@ La collecte des données d’utilisation est activée par défaut, mais les admi
 
 Les utilisateurs finaux ne peuvent ni activer ni désactiver la collecte des données d’utilisation.
 
-Pour l’application réunions Skype et les pages Web de lancement de jointure, le mode de contrôle de la télémétrie est le suivant:
+Pour l’application réunions Skype et les pages Web de lancement de jointure, le mode de contrôle de la télémétrie est le suivant :
 
 `Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True`
 
@@ -88,7 +87,7 @@ Ce paramètre est défini sur false par défaut, la collection de télémétrie 
 
 ## <a name="error-reporting-data"></a>Données du rapport d’erreurs
 
-Les données du rapport d’erreurs peuvent inclure des informations sur les performances et la fiabilité, la configuration des appareils, la qualité de connexion réseau, les codes d’erreur, les journaux d’erreur et les exceptions. Voici quelques exemples spécifiques des données de rapport d’erreur collectées:
+Les données du rapport d’erreurs peuvent inclure des informations sur les performances et la fiabilité, la configuration des appareils, la qualité de connexion réseau, les codes d’erreur, les journaux d’erreur et les exceptions. Voici quelques exemples spécifiques des données de rapport d’erreur collectées :
 
 |**Type de données**|**Exemple**|**Remarques**|
 |:-----|:-----|:-----|
@@ -99,7 +98,7 @@ Les données du rapport d’erreurs peuvent inclure des informations sur les per
 
 Les données du rapport d’erreurs contiennent également des informations d’identification personnelle telles que l’adresse IP de l’utilisateur et le protocole URI SIP (Uniform Resource Identifier). Consultez la [déclaration de confidentialité de Skype entreprise](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) pour obtenir une explication détaillée de ce qui est collecté.
 
-Le signalement des erreurs nécessite deux éléments:
+Le signalement des erreurs nécessite deux éléments :
 
 - Le paramètre de stratégie de groupe DisableAutomaticSendTracing est défini sur false sur le serveur ou dans le centre d’administration client (il s’agit de l’État par défaut). Pour plus d’informations, voir [configurer les stratégies d’amorçage du client](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) .
     

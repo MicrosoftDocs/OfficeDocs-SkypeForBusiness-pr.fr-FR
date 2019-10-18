@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
@@ -16,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581aab3067dcc2e8dbdc579236f340259b5c6e74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243183"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571523"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
@@ -42,11 +41,11 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 
 1. Dans le volet de navigation de gauche, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation. 
 
-2. En haut de la page **mise à niveau** de teams, apportez les modifications suivantes, le cas échéant.
-    - Définissez le **** mode de coexistence.
+2. En haut de la page **mise à niveau de teams** , apportez les modifications suivantes, le cas échéant.
+    - Définissez le mode de **coexistence** .
         - **Îles** -utilisez ce paramètre si vous souhaitez que les utilisateurs puissent utiliser simultanément Skype entreprise et Teams.
         - **Skype entreprise uniquement** : utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Skype entreprise.
-        - **Équipes uniquement** (en Preview pour certaines organisations)-Utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que, même avec ce paramètre, les utilisateurs peuvent quand même participer à des réunions hébergées dans Skype entreprise.
+        - **Équipes uniquement** (en version préliminaire pour certaines organisations)-Utilisez ce paramètre si vous souhaitez que vos utilisateurs utilisent uniquement Teams. Notez que, même avec ce paramètre, les utilisateurs peuvent quand même participer à des réunions hébergées dans Skype entreprise.
     - Définissez **des utilisateurs Skype entreprise que teams est disponible pour la mise à niveau**. Si vous activez cette option, les utilisateurs de Skype entreprise pourront bientôt procéder à la mise à niveau vers l’application Teams.
     - Définissez l' **application préférée pour permettre aux utilisateurs de participer à des réunions Skype entreprise**. Ce paramètre détermine quelle application est utilisée pour participer aux réunions Skype entreprise et est honorée indépendamment de la valeur du mode de coexistence.
       - **Application réunions Skype**
@@ -59,13 +58,13 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 ![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation gauche, accédez à **utilisateurs**, puis sélectionnez l’utilisateur dans la liste. 
-2. Dans l’onglet **compte** de l’utilisateur, sous **mise à niveau**de Microsoft Teams, cliquez sur **modifier**.
-3. Vous pouvez définir le **mode**de coexistence. Choisissez l’une des options suivantes:
+2. Dans l’onglet **compte** de l’utilisateur, sous **mise à niveau de Microsoft teams**, cliquez sur **modifier**.
+3. Vous pouvez définir le **mode de coexistence**. Choisissez l’une des options suivantes :
      - **Utiliser les paramètres** à l’échelle de l’organisation-utilisez ce paramètre si vous souhaitez que l’utilisateur utilise les paramètres définis dans les paramètres à l’échelle de l' **organisation** . 
      - **Îles** -utilisez ce paramètre si vous souhaitez que l’utilisateur puisse utiliser Skype entreprise et Teams. 
      - **Skype entreprise uniquement** : utilisez ce paramètre si vous souhaitez que l’utilisateur utilise Skype entreprise. 
      - **Équipes uniquement** : utilisez ce paramètre si vous souhaitez que l’utilisateur utilise uniquement Teams. L’utilisateur sera toujours en mesure de participer à des réunions Skype entreprise.
-4. Si vous sélectionnez n’importe quel **mode** de coexistence autre que l’option **utiliser les paramètres**à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype entreprise d’un utilisateur qui est bientôt mise à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en activant l’option **informer l’utilisateur de Skype entreprise** .
+4. Si vous sélectionnez n’importe quel **mode de coexistence** autre que l’option **utiliser les paramètres**à l’échelle de l’organisation, vous avez la possibilité d’activer les notifications dans l’application Skype entreprise d’un utilisateur qui est bientôt mise à niveau vers Teams. Vous pouvez activer cette notification pour l’utilisateur en activant l’option **informer l’utilisateur de Skype entreprise** .
 5. Cliquez sur **Enregistrer** une fois que vous avez effectué vos modifications.
 
 ### <a name="related-topics"></a>Voir aussi

@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 38938846c594cbb325193e42111ba8dff528f17f
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: a15b679dfa5ac74c6c78242ac40b00e2f24f75a4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434931"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572222"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -270,7 +269,7 @@ Le tableau suivant résume la configuration à l’aide de trois itinéraires vo
 |**Utilisation PSTN**|**Route vocale**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |États-Unis uniquement|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
-|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|deuxième|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros appelés + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
 |États-Unis uniquement|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Itinéraire pour les numéros appelés + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
 |||||||
 
@@ -448,7 +447,7 @@ Le tableau suivant récapitule les concepteurs d’utilisation et les itinérair
 |**Utilisation PSTN**|**Route vocale**|**Schéma de numéro**|**Priorité**|**SBC**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |États-Unis uniquement|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Itinéraire actif pour les numéros d’appelant + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
-|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|deuxième|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros des appelants + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
+|États-Unis uniquement|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Itinéraire de sauvegarde pour les numéros des appelants + 1 425 XXX XX XX ou + 1 206 XXX XX XX|
 |États-Unis uniquement|"Other + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|Itinéraire pour les numéros d’appelant + 1 XXX XXX XX XX (sauf + 1 425 XXX XX XX ou + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Itinéraire pour n’importe quel modèle numérique |
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous trouverez ci-après les questions fréquemment posées sur le transfert de numéros de téléphone vers Teams. Après avoir examiné les réponses, vous devez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions, voir transférer des numéros de téléphone vers Office 365.
-ms.openlocfilehash: 4e4a908594f9efdd80094af58dfdde6bc1e58e90
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: a75112170454def65ebcfe333d5e05e2b0dbfa46
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347769"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571501"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transfert des questions fréquemment posées numéros de téléphone
 
 Vous trouverez ci-après les questions fréquemment posées sur le transfert de numéros de téléphone vers Microsoft Teams. Après avoir examiné les réponses, vous devez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) .
   
-## <a name="what-countries-or-regions-support-number-porting"></a>Quels pays ou régions prennent en charge le transfert de numéro?
+## <a name="what-countries-or-regions-support-number-porting"></a>Quels pays ou régions prennent en charge le transfert de numéro ?
 
 Vous pouvez transférer ou transférer des numéros de téléphone dans tous les pays ou régions pris en charge, mais le mode de soumission d’une demande de transfert dépend du pays ou de la région dont proviennent les numéros de téléphone. Vous pouvez afficher la liste des pays et régions pris en charge par les [pays et les régions disponibles pour les abonnements et les offres d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). 
 
@@ -162,10 +161,10 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. L'utilisateur autorisé doit soumettre une demande à l'opérateur téléphonique actuel pour annuler le gel. Ce processus peut prendre entre une et trois semaines selon l'opérateur.
 
-## <a name="can-you-transfer-or-port-out-numbers"></a>Est-il possible de transférer ou de transférer des numéros?
+## <a name="can-you-transfer-or-port-out-numbers"></a>Est-il possible de transférer ou de transférer des numéros ?
 <a name="bkmk_type_1"> </a>
 
-Pour transférer ou ** transférer des numéros de téléphone d’équipes vers un autre fournisseur ou opérateur de services téléphoniques, vous devez définir un code confidentiel. Après avoir défini le code confidentiel, vous devez l’inclure lorsque vous demandez à transférer un numéro de téléphone. Pour savoir comment configurer votre code confidentiel, reportez-vous à [la rubrique Configuration de votre code confidentiel pour le transfert de numéros vers un nouveau fournisseur de services](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
+Pour transférer ou *transférer des numéros de téléphone d'* équipes vers un autre fournisseur ou opérateur de services téléphoniques, vous devez définir un code confidentiel. Après avoir défini le code confidentiel, vous devez l’inclure lorsque vous demandez à transférer un numéro de téléphone. Pour savoir comment configurer votre code confidentiel, reportez-vous à [la rubrique Configuration de votre code confidentiel pour le transfert de numéros vers un nouveau fournisseur de services](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

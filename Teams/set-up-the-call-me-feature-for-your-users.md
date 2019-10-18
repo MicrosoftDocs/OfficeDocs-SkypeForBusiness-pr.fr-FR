@@ -1,5 +1,5 @@
 ---
-title: Configurer la fonctionnalité m’appeler pour vos utilisateurs
+title: Configurer la fonctionnalité M’appeler pour vos utilisateurs
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -10,17 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Découvrez comment configurer la fonctionnalité m’appeler dans teams pour permettre aux utilisateurs d’accéder à la partie audio par téléphone dans les cas où l’utilisation de leur ordinateur pour l’audio peut ne pas être possible.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54e9d90a3380358abd0c1e984b90834455eb44e2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243172"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571545"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité m’appeler pour vos utilisateurs
+# <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
 Dans Microsoft Teams, la fonctionnalité **m’appeler** permet aux utilisateurs d’accéder à la partie audio d’une réunion par téléphone. C’est pratique dans les situations où l’utilisation d’un ordinateur pour l’audio peut ne pas être possible. Les utilisateurs reçoivent la partie audio de la réunion par le biais de leur téléphone mobile ou de leur ligne fixe et&mdash;de la partie du contenu de la réunion, par exemple lorsqu'&mdash;un autre participant à la réunion partage son écran ou lit une vidéo par le biais de leur ordinateur.
 
@@ -56,7 +57,7 @@ L’utilisateur clique sur **me**rappeler, ce qui fait apparaître l’écran **
 
 ## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité m’appeler
 
-Pour activer la fonctionnalité appeler pour les utilisateurs de votre organisation, les informations suivantes doivent être configurées:
+Pour activer la fonctionnalité appeler pour les utilisateurs de votre organisation, les informations suivantes doivent être configurées :
 
 - L’option audioconférence est activée pour les utilisateurs de votre organisation qui planifient des réunions (organisateurs de la réunion). Pour en savoir plus, consultez la rubrique [configurer l’audioconférence pour les équipes](set-up-audio-conferencing-in-teams.md) et [gérer les paramètres de l’audioconférence pour un utilisateur dans teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 

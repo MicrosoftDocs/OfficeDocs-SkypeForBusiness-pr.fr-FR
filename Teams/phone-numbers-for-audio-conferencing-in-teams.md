@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Cette section présente les pays et régions qui ont des numéros de conférence rendez-vous et explique comment ils sont attribués automatiquement.
-ms.openlocfilehash: e5644ab613fec588a901691632d27ebf25e9e80a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7de04be8fb02e12b97dc964cd0fe8e1c37c821d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299468"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573319"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
-Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour afficher les numéros de téléphone affectés à votre pont de conférence audio, dans le centre d’administration Microsoft Teams, **** > accédez à la section**ponts de conférences**de conférences. Pour plus d’informations, [consultez la liste des numéros de conférence audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
+Lorsque vous configurez l’**audioconférence** pour Microsoft Teams, des numéros de téléphone de connexion sont attribués automatiquement à votre organisation. Pour afficher les numéros de téléphone affectés à votre pont de conférence audio, dans le centre d’administration Microsoft Teams, **accédez à la** > section**ponts de conférences**de conférences. Pour plus d’informations, [consultez la liste des numéros de conférence audio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarifs de l’audioconférence

@@ -1,5 +1,5 @@
 ---
-title: Ajouter et mettre à jour les étiquettes de création de rapports
+title: Ajouter et mettre à jour les étiquettes de rapport
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment télécharger un fichier texte qui contient une liste d’emplacements physiques et de sous-réseaux associés à utiliser comme étiquettes de rapport pour les rapports de tableau de bord d’analyse des appels et de qualité d’appel.
 ms.custom:
@@ -21,14 +20,14 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396431"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572035"
 ---
-<a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de création de rapports
+<a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 ============================
 
 Les étiquettes de rapport sont utilisées dans votre organisation pour indiquer l’emplacement physique des bureaux, des bâtiments ou des sites d’organisation. La page étiquettes de rapport dans le centre d’administration de Microsoft teams vous permet de fournir un fichier texte (. csv ou. TSV) contenant une liste des emplacements physiques et leurs sous-réseaux associés. Ce fichier est utilisé par le tableau de bord d’analyse des appels et de qualité des appels pour générer des rapports. Lorsque vous chargez le mappage de votre sous-réseau, les rapports fournis par ces services contiennent également les noms d’emplacements, ce qui facilite la compréhension et l’utilisation des rapports pour la correction des problèmes potentiels.

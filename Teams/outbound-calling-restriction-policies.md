@@ -9,8 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler le type de conférence audio et d'appels RTC d’utilisateur final pouvant être effectuées par les utilisateurs.
-ms.openlocfilehash: eb54a1c3cefb934c3523d915ab83b9e47b337d8b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 20122d2bc258b8ac6040a103d62e20f81e46a364
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34379241"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573330"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels PSTN des utilisateurs
 
@@ -58,7 +57,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. Cliquez sur **Enregistrer**. 
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **à l’aide du centre d’administration Skype entreprise**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
 1.  Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, sélectionnez**utilisateurs**de l' **audioconférence** > , puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

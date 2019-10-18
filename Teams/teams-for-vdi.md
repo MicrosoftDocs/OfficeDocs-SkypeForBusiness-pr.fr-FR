@@ -12,22 +12,21 @@ description: Découvrez comment exécuter Microsoft teams dans un environnement 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d0680e81799152bfc6eb9a976634384eb70954c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243819"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570222"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
 Cet article décrit les exigences et limitations relatives à l’utilisation de Microsoft teams dans un environnement virtualisé.
 
-## <a name="what-is-vdi"></a>Qu’est-ce qu’un infrastructure VDI?
+## <a name="what-is-vdi"></a>Qu’est-ce qu’un infrastructure VDI ?
 
 La technologie VDI (Virtual Desktop Infrastructure) est une technologie de virtualisation qui héberge un système d’exploitation et des applications de bureau sur un serveur centralisé dans un centre de données. Cela permet d’offrir une expérience de bureau entièrement personnalisée aux utilisateurs dotés d’une source centralisée entièrement sécurisée et compatible. 
  
@@ -176,7 +175,7 @@ En ce qui concerne les diverses charges de travail et les besoins des utilisateu
 
 ### <a name="virtual-machine-operating-system-requirements"></a>Configuration requise pour le système d’exploitation de l’ordinateur virtuel
 
-Les systèmes d’exploitation pris en charge pour les VM sont les suivants:
+Les systèmes d’exploitation pris en charge pour les VM sont les suivants :
 
 - Windows 10 et versions ultérieures
 - Windows Server 2012 R2 et version ultérieure
@@ -217,7 +216,7 @@ Vous trouverez ci-après des problèmes connus et des limitations applicables au
 - **Participation à des appels et des réunions créées par d’autres utilisateurs**: bien que les stratégies restreignent les utilisateurs de la création de réunions, elles peuvent quand même participer à des réunions lorsqu’un autre utilisateur les appelle à partir de la réunion. Lors de ces réunions, la capacité de l’utilisateur à partager la vidéo, utiliser le tableau blanc et les autres fonctionnalités selon que vous avez désactivé ces fonctionnalités à l’aide de TeamsMeetingPolicy.  
 - **Contenu mis en cache**: si l’environnement virtuel dans lequel teams est en cours d’exécution n’est pas permanent (et si les données sont nettoyées à la fin de chaque session utilisateur), les utilisateurs peuvent remarquer une dégradation des performances en raison de l’actualisation du contenu, que l’utilisateur ait accédé ou non. contenu d’une session précédente.
 - **Mises à jour du client**: teams sur VDI n’est pas automatiquement mis à jour avec l’installation de MSI par ordinateur. Vous devez mettre à jour l’image de l’ordinateur virtuel en installant un nouveau MSI comme décrit dans la section [installer teams sur VDI](#install-teams-on-vdi) . Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
-- **** Environnement d’utilisation: l’environnement d’utilisation des équipes dans un environnement VDI est différent d’un environnement non-VDI. Il y a des différences en raison des paramètres de stratégie et de la prise en charge des fonctionnalités dans l’environnement.
+- **Environnement d’utilisation : l'** environnement d’utilisation des équipes dans un environnement VDI est différent d’un environnement non-VDI. Il y a des différences en raison des paramètres de stratégie et de la prise en charge des fonctionnalités dans l’environnement.
 
 Pour les problèmes connus qui ne sont pas liés à VDI, voir [problèmes connus de Microsoft teams](Known-issues.md).
 

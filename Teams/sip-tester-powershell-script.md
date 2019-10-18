@@ -10,16 +10,15 @@ audience: admin
 description: Utilisez cet exemple de script PowerShell pour tester les connexions du contrôleur de bordereaux de routage direct dans Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9910ac347b5e797ad30ac65e76173ba4024a87c4
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: c6df8ee654696ceef89c36a354d943c97139bf8b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547238"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568676"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Script PowerShell pour tester les connexions du contrôleur de bordure de session de routage direct
 

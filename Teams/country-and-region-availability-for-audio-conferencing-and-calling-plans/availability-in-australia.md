@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Australie.
-ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 984450b96747db74966ae9f0880cd96b9eedb2b4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283353"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562705"
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
@@ -90,6 +89,6 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez quelles langues vous pouvez configurer dans Skype Entreprise pour les messages système par défaut. '
-ms.openlocfilehash: 34499cce7635b2c54eb6e086395028179fd849a4
-ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
+ms.openlocfilehash: bae2fccadea6a001c78a8d1f4a1ffabf2f91bae8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040746"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570712"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Royaume-Uni.
-ms.openlocfilehash: 0aa1735411aec77cca1ab26025a997477a1ecb1d
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 918a0b4013ae8e9d74c34e7a973d27ae3772567f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331035"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572520"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilité au Royaume-Uni
 
@@ -43,7 +42,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour: <br/><ul><li> Londres</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour : <br/><ul><li> Londres</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -60,8 +59,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil: <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux: 1200 minutes d’appel international ou de 600 minutes d’appels internationaux (selon la première atteinte du mois civil)</li></li> 
-|Est-il possible de passer des appels sortants vers des numéros payants? <br/> | Partiellement pris en charge: les appels vers des numéros de coûts partagés (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de crédits de communication pour payer à la minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
+|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil : <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1200 minutes d’appel international ou de 600 minutes d’appels internationaux (selon la première atteinte du mois civil)</li></li> 
+|Est-il possible de passer des appels sortants vers des numéros payants ? <br/> | Partiellement pris en charge : les appels vers des numéros de coûts partagés (préfixes 44843, 44844, 44845, 44870, 44871, 44872) sont pris en charge à l’aide de crédits de communication pour payer à la minute.  Les appels vers les préfixes 449XX ne sont pas pris en charge. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services

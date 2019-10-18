@@ -12,19 +12,18 @@ description: Découvrez comment utiliser le planificateur de réseaux pour déte
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69de49397baab5e1a9dc037799aa3ac5ba4f6421
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484047"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573364"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le planificateur de réseaux pour Microsoft teams
 
@@ -32,7 +31,7 @@ Le planificateur de réseaux est un nouvel outil disponible dans le centre d’a
 
 ![Capture d’écran du planificateur de réseaux](media/network-planner.png)
 
-Le planificateur réseau vous permet d’effectuer les opérations suivantes:
+Le planificateur réseau vous permet d’effectuer les opérations suivantes :
 
 - Créer des représentations de votre organisation à l’aide de sites et de personnes recommandées Microsoft (travailleurs Office, travailleurs à distance et systèmes de salle Teams).
 
@@ -45,7 +44,7 @@ Pour utiliser le planificateur réseau, vous devez être administrateur généra
 
 ## <a name="create-a-custom-persona"></a>Créer un personnage personnalisé
 
-Pour créer un personnage personnalisé, procédez comme suit:
+Pour créer un personnage personnalisé, procédez comme suit :
 
 1. Accédez au planificateur de réseau dans le centre d’administration Microsoft Teams.
 
@@ -59,7 +58,7 @@ Pour créer un personnage personnalisé, procédez comme suit:
 
 ## <a name="build-your-plan"></a>Créer votre plan
 
-Pour commencer à créer votre plan réseau, procédez comme suit:
+Pour commencer à créer votre plan réseau, procédez comme suit :
 
 1. Accédez au planificateur de réseau dans le centre d’administration Microsoft Teams.
 
@@ -73,13 +72,13 @@ Pour commencer à créer votre plan réseau, procédez comme suit:
 
     En fonction du réseau de votre organisation, vous souhaiterez peut-être utiliser des sites pour représenter un bâtiment, un emplacement de bureau ou un autre emplacement. Les sites peuvent être connectés par un réseau étendu pour autoriser le partage de connexions Internet et/ou PSTN. Pour obtenir de meilleurs résultats, créez des sites avec des connexions locales avant de créer des sites qui se connectent à distance à Internet ou PSTN.
 
-    Pour créer un site:
+    Pour créer un site :
 
     1. Ajoutez un nom et une description pour votre site.
 
     2. Sous **paramètres réseau**, ajoutez le nombre d’utilisateurs du réseau sur ce site (obligatoire).
 
-    3. Ajoutez des informations sur le réseau: accès WAN, capacités WAN, sortie Internet (**locale** ou distante), sortie PSTN (aucun, local ou distant). ****
+    3. Ajoutez des informations sur le réseau : accès WAN, capacités WAN, sortie Internet (**locale** ou **distante**), sortie PSTN (aucun, local ou distant).
 
       > [!NOTE]
       > Vous devez ajouter des numéros de capacités WAN et Internet pour afficher des recommandations en matière de bande passante spécifiques lors de la génération d’un rapport.
@@ -96,7 +95,7 @@ Après avoir ajouté tous les sites, vous pouvez créer un rapport, comme suit.
 
 3. Lorsque vous avez terminé la distribution, cliquez sur **générer le rapport**.
 
-    Le rapport généré affiche les exigences de bande passante dans plusieurs affichages de sorte que vous puissiez clairement comprendre la sortie:
+    Le rapport généré affiche les exigences de bande passante dans plusieurs affichages de sorte que vous puissiez clairement comprendre la sortie :
     - Une table avec des calculs individuels affichera les exigences de bande passante pour chaque activité autorisée.
     - Un affichage supplémentaire affiche les recommandations globales en matière de bande passante.
 

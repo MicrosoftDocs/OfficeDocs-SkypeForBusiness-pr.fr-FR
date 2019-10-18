@@ -8,14 +8,15 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: e127b476920a8086d3502c0583ca58cea95b0e86
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142065"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573669"
 ---
 # <a name="content-cameras"></a>Webcams de contenu
 

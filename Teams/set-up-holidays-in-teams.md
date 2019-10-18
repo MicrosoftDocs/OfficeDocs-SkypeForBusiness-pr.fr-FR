@@ -9,21 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
-- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Apprenez à configurer les jours fériés dans Microsoft teams et à les connecter à votre standard automatique.
-ms.openlocfilehash: ae960cddb2c5e8d590e5eb73d9f0763dacd582b6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483253"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571567"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
@@ -78,10 +76,10 @@ Pour plus d’informations sur les standards automatiques, voir [que sont les st
 3. Dans le volet de gauche, sélectionnez **paramètres des appels de vacances**.
 4. Sélectionnez **nouveau jour férié**.
 5. Sélectionnez le jour férié dans la liste déroulante.
-6. Vous pouvez ajouter un message d’accueil facultatif:
+6. Vous pouvez ajouter un message d’accueil facultatif :
     - Pour lire un message d’accueil enregistré, sélectionnez **lire un fichier audio**, puis **Télécharger un fichier**. Naviguez jusqu’à l’emplacement du fichier audio, sélectionnez le fichier, puis sélectionnez **ouvrir**.
     - Pour créer un message d’accueil, sélectionnez **taper un message d’accueil**, puis tapez votre message. Les appelants entendront ce message si vous n’avez pas fourni de fichier audio.
-7. Pour mettre fin à l’appel après le message d’accueil, sous **actions**, sélectionnez Déconnecter. **** 
+7. Pour mettre fin à l’appel après le message d’accueil, sous **actions**, sélectionnez **déconnecter**. 
 
     Pour rediriger l’appel, sélectionnez **Rediriger**l’appel, puis sélectionnez la personne qui recevra l’appel Redirigé dans la liste déroulante ou recherchez la personne par son nom d’affichage.
 8. Sélectionnez **Save (enregistrer**).

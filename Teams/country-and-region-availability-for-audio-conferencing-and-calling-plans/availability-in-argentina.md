@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Argentine.
-ms.openlocfilehash: 0084e540de60bae8a14372254f19a1347c15f3ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 2a804d565ecf1fa41bdb4bc7bb5df5056fee2b4e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34332258"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570919"
 ---
 # <a name="availability-in-argentina"></a>Disponibilité en Argentine
 
@@ -43,7 +42,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li>Buenos pour Buenos</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li>Buenos pour Buenos</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> | Nécessite des crédits de communication <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -69,7 +68,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | <ul><li>Buenos pour Buenos <li>Cordoba <li>La Plata <li>Mars del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
-|Le numéro gratuit disponible est-il disponible?  <br/> |Oui  <br/> |
+|Le numéro gratuit disponible est-il disponible ?  <br/> |Oui  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone gratuits et payants pour les conférences audio, les standards automatiques et les files d’attente, voir [obtention des numéros de téléphone de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers).
   

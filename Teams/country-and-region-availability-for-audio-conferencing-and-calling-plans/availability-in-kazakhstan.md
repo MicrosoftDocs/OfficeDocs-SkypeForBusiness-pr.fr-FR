@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Kazakhstan.
-ms.openlocfilehash: a00cee6bd1ac0138c90fe8e8459e8f63f21cf689
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: fed105a529bf8864e8687781b011c7d1e803f923
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775679"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571671"
 ---
 # <a name="availability-in-kazakhstan"></a>Disponibilité au Kazakhstan
 

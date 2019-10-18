@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 64ab051449357476d5e6421723d393622899263a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 10027fa5b1456bd744f14bae763939b395862d4b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793129"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571292"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -68,7 +67,7 @@ Pour en savoir plus sur ces paramètres et leur utilisation, cliquez [Comment ut
     
 2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
     
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Restart your computer when you are prompted.
+3. Si vous n’avez pas la version 3,0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
@@ -94,7 +93,7 @@ Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se con
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>Voir l'ensemble des paramètres de stratégie d'ID d'appelant de votre organisation
 
-- Pour afficher tous les paramètres de stratégie d’ID d’appelant au sein de votre organisation, exécutez:
+- Pour afficher tous les paramètres de stratégie d’ID d’appelant au sein de votre organisation, exécutez :
 
   ```
   Get-CsCallingLineIdentity |fl
@@ -104,7 +103,7 @@ Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se con
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>Créer une stratégie d'ID d'appelant pour votre organisation
 
 
-- Pour créer une nouvelle stratégie d’ID d’appelant qui définit l’ID d’appelant sur anonyme, exécutez:
+- Pour créer une nouvelle stratégie d’ID d’appelant qui définit l’ID d’appelant sur anonyme, exécutez :
     
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
@@ -114,7 +113,7 @@ Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se con
 
   En savoir plus sur [New-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793855.aspx).
     
-- Pour appliquer la nouvelle stratégie que vous avez créée à Amos Marble, exécutez:
+- Pour appliquer la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
     
   ```
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
@@ -125,14 +124,14 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de de
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>Définir la stratégie de manière à bloquer l'ID d'appelant
 
-- Pour bloquer l’ID de l’appelant, exécutez:
+- Pour bloquer l’ID de l’appelant, exécutez :
     
   ```
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
   En savoir plus sur [Set-CsCallingLineIdentity](https://technet.microsoft.com/en-us/library/mt793854.aspx).
     
-- Pour appliquer le paramètre de stratégie que vous avez créé à un utilisateur de votre organisation, exécutez:
+- Pour appliquer le paramètre de stratégie que vous avez créé à un utilisateur de votre organisation, exécutez :
     
   ```
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
@@ -159,7 +158,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Six raisons d’utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Learn about these advantages in the following topics:
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez les avantages suivants dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

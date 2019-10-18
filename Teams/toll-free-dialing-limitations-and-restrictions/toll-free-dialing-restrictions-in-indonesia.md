@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 1a30cad8469837a392509b0c263cbbe54dd9969f
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: ef43e1e818f7d57190d493344118d9f914a52485
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334950"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573183"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Restrictions de numérotation gratuit en Indonésie
 
@@ -37,14 +36,14 @@ ms.locfileid: "34334950"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> | 001 803 CCC XXXX <br/>  007 803 CCC XXXX <br/> |
 |Code ISO pays/région  <br/> |ID  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité de ligne filaire/fixe  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Deux formats de numéro sont fournis pour une meilleure couverture. Le format de nombre 007 803 CCD XXXX est accessible à partir du réseau PT Telkom, notamment Telkomsel et XL mobile. Le format de numéro 001 803 CCC XXXX est accessible via le réseau Indosat. Pour les appareils mobiles: matrice cellulaire (préfixe 0855, 0858, 0815 et 0816) uniquement.  <br/> |
+|Commentaires, restrictions et problèmes d’accès  <br/> |Deux formats de numéro sont fournis pour une meilleure couverture. Le format de nombre 007 803 CCD XXXX est accessible à partir du réseau PT Telkom, notamment Telkomsel et XL mobile. Le format de numéro 001 803 CCC XXXX est accessible via le réseau Indosat. Pour les appareils mobiles : matrice cellulaire (préfixe 0855, 0858, 0815 et 0816) uniquement.  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 

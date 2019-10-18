@@ -12,16 +12,15 @@ description: Guide pour l’analyse de la performance multimédia en temps réel
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243730"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568377"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -33,9 +32,9 @@ Ce guide concerne la phase de la valeur de l’unité pour Microsoft teams et Sk
 Pour avoir le plus d’impact sur l’amélioration de l’interface utilisateur, les organisations doivent pouvoir effectuer les opérations principales indiquées dans la figure suivante. Les zones supplémentaires incluent l’identification des tâches opérationnelles, la définition de cibles pour les mesures de qualité, la vérification des mesures à utiliser pour évaluer le succès de l’organisation et les domaines d’examen plus étroits selon les besoins.
 
 
-![Domaines clés pour la qualité de l’utilisation de l’utilisateur] (media/qerguide-image-keyareas.png "Les principales zones de la qualité de l’utilisation de l’utilisateur sont les suivantes: audio, fiabilité, enquêtes utilisateur, appareils et clients.")
+![Domaines clés pour la qualité de l’utilisation de l’utilisateur](media/qerguide-image-keyareas.png "Les principales zones de la qualité de l’utilisation de l’utilisateur sont les suivantes : audio, fiabilité, enquêtes utilisateur, appareils et clients.")
 
-_Figure 1: principales zones opérationnelles abordées dans ce guide_
+_Figure 1 : principales zones opérationnelles abordées dans ce guide_
 
 En évaluant et en révisant en permanence les domaines décrits dans ce guide, vous pouvez réduire leur potentiel pour influer sur la qualité de l’utilisation de vos utilisateurs. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
@@ -51,7 +50,7 @@ Le bon déroulement de la planification et de la conception avant le déploiemen
 
 Ce guide porte sur l’utilisation du tableau de bord de qualité des appels (bord) en ligne comme outil principal pour signaler et examiner chaque zone, en mettant l’accent sur le son pour optimiser l’adoption et l’impact. Toute amélioration apportée au réseau pour améliorer la qualité audio sera également traduite directement par l’amélioration du partage de la vidéo et du bureau.
 
-Pour accélérer votre évaluation, [deux modèles bord](https://aka.ms/qertemplates) conversés sont fournis: un pour la gestion de tous les réseaux et l’autre pour les réseaux gérés (internes) uniquement. Bien que les rapports de modèles tous les réseaux soient configurés pour afficher des informations sur la création et le réseau, ils peuvent toujours être utilisés lorsque vous travaillez dans le cadre de la collecte et du chargement des informations de bâtiment. Le chargement des informations de bâtiment dans bord permet au service d’améliorer la création de rapports en ajoutant des informations de construction, de réseau et d’emplacement personnalisées en les différenciant des sous-réseaux externes. Pour plus d’informations, consultez la section [mappage de bâtiment](#building-mapping) plus loin dans ce guide.
+Pour accélérer votre évaluation, [deux modèles bord](https://aka.ms/qertemplates) conversés sont fournis : un pour la gestion de tous les réseaux et l’autre pour les réseaux gérés (internes) uniquement. Bien que les rapports de modèles tous les réseaux soient configurés pour afficher des informations sur la création et le réseau, ils peuvent toujours être utilisés lorsque vous travaillez dans le cadre de la collecte et du chargement des informations de bâtiment. Le chargement des informations de bâtiment dans bord permet au service d’améliorer la création de rapports en ajoutant des informations de construction, de réseau et d’emplacement personnalisées en les différenciant des sous-réseaux externes. Pour plus d’informations, consultez la section [mappage de bâtiment](#building-mapping) plus loin dans ce guide.
 
 ### <a name="intended-audience"></a>Public ciblé
 
@@ -75,20 +74,20 @@ Avant d’utiliser ce guide, assurez-vous que vous disposez des [rôles](https:/
 
 Vous pouvez également affecter le rôle suivant à un compte d’utilisateur Office 365 pour autoriser l’accès aux fonctions de création de rapports uniquement.
 
--   **Lecteur de rapports:** Peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration, tous les rapports du [Pack de contenu Adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)et les rapports bord.
+-   **Lecteur de rapports :** Peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration, tous les rapports du [Pack de contenu Adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)et les rapports bord.
 
-## <a name="what-is-quality"></a>Qu’est-ce que la qualité?
+## <a name="what-is-quality"></a>Qu’est-ce que la qualité ?
 
 Lorsque vous discutez de la qualité dans équipes et Skype entreprise, il est important de définir le terme pour parvenir à une connaissance commune. La qualité définie ici est une combinaison de métriques de service et d’une interface utilisateur.
 
 <!-- Note: need to update graphic-->
-![Illustration des métriques du service et de l’utilisation de l’utilisateur] Les (media/qerguide-image-whatisquality.png "métriques de service sont composées de faible rapport de flux, de fiabilité, de points de terminaison/de périphériques et de versions clientes. L’utilisation de l’utilisateur est composée de la perception") de la qualité du service par l’utilisateur.
+![Illustration des métriques du service et de l’utilisation de l’utilisateur](media/qerguide-image-whatisquality.png "Sles métriques du ervice sont composées de médiocres taux de flux, de fiabilité, de points de terminaison/de périphériques et de versions clientes. L’utilisation de l’utilisateur est composée de la perception de la qualité du service par l’utilisateur.»)
 
-_Figure 2: qu’est-ce que la qualité?_
+_Figure 2 : qu’est-ce que la qualité ?_
 
 ### <a name="service-metrics"></a>Métriques de service
 
-Les métriques de service sont composées de mesures spécifiques basées sur le client. Lors de chaque appel, le client recueille des informations de télémétrie sur l’appel et envoie un rapport à la fin de chaque appel qui peut être accédé par le biais d’une analyse bord ou d’un [appel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). Ces métriques sont les suivantes:
+Les métriques de service sont composées de mesures spécifiques basées sur le client. Lors de chaque appel, le client recueille des informations de télémétrie sur l’appel et envoie un rapport à la fin de chaque appel qui peut être accédé par le biais d’une analyse bord ou d’un [appel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). Ces métriques sont les suivantes :
 
 -   Débit médiocre en flux continu
 -   Taux d’échec d’installation
@@ -102,7 +101,7 @@ Le taux de flux médiocre (V.Q.P.R.D.) représente le pourcentage global de l’
 La mesure réelle dans bord varie en fonction de la charge de travail, mais dans le cadre de l’évaluation de l’utilisation de la qualité, nous nous concentrerons essentiellement sur la mesure du _pourcentage audio médiocre_ . Le V.Q.P.R.D. est constitué des cinq moyennes métriques du réseau décrites dans le tableau suivant. Pour qu’un flux soit considéré comme médiocre, une seule métrique doit dépasser le seuil défini. Pour plus d’informations sur le processus de classification des flux, voir [cet article](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
-> BORD indique le «médiocre à cause de...» des mesures pour mieux comprendre quelle condition a entraîné le classement du flux comme médiocre.
+> BORD indique le « médiocre à cause de... » des mesures pour mieux comprendre quelle condition a entraîné le classement du flux comme médiocre.
 
 
 _Tableau 1-indicateurs de qualité audio médiocres_
@@ -121,7 +120,7 @@ Le taux d’échec d’installation, également connu sous le nom de mesure du _
 
 Cela représente tout flux multimédia qui ne peut pas être établi. En raison de la gravité de l’impact sur l’utilisation mesurée ici, l’objectif est de réduire cette valeur à la valeur la plus proche possible. Une valeur élevée de cette métrique est plus courante dans les nouveaux déploiements avec des règles de pare-feu incomplètes qu’un déploiement mature, mais il est encore important de surveiller régulièrement.
 
-Cette métrique est calculée en prenant en charge le nombre total de flux qui n’ont pas pu être configurés divisé par le nombre total de flux ayant soumis un enregistrement des détails des appels réussi (CDR):
+Cette métrique est calculée en prenant en charge le nombre total de flux qui n’ont pas pu être configurés divisé par le nombre total de flux ayant soumis un enregistrement des détails des appels réussi (CDR) :
 
 -   **Taux d’échec** de la configuration = nombre total de flux d’échecs de configuration d’appel/nombre total de flux de CDR disponibles
 
@@ -131,7 +130,7 @@ Le taux d’échec de la suppression, également connu sous le nom de mesure du 
 
 Il s’agit d’un flux multimédia qui s’est arrêté de manière inattendue. Même si l’impact d’une telle opération n’est pas aussi sévère qu’un flux qui n’a pas pu être configuré, cela a un impact négatif sur l’interface utilisateur. Les éléments multimédias soudain et fréquent ne peuvent pas seulement avoir un impact important sur l’interface utilisateur, ce qui a pour effet de reconnecter les utilisateurs et de provoquer une perte de productivité.
 
-La métrique est calculée en prenant le nombre total de flux déplacés divisé par le nombre total de flux configurés correctement:
+La métrique est calculée en prenant le nombre total de flux déplacés divisé par le nombre total de flux configurés correctement :
 
 -   **Taux d’échec de dépôt** = nombre total de flux d’appel interrompus/nombre total de flux d’appel interrompus
 
@@ -162,14 +161,14 @@ Il est important de discuter et de définir les cibles de votre organisation afi
 
 ### <a name="user-experience"></a>Expérience utilisateur
 
-L’analyse de l’utilisation de l’utilisateur est une plus grande art que la science, car les métriques collectées ici ne signifient pas nécessairement qu’il y a un problème avec le réseau ou le service, mais qu’ils indiquent simplement que l’utilisateur a un problème. Microsoft propose un mécanisme d’étude intégré, connu sous le nom de l’option taux mon appel (RMC), pour vous aider à évaluer l’utilisation globale de l’utilisateur. RMC vous aidera à répondre aux questions suivantes du point de vue de vos utilisateurs:
+L’analyse de l’utilisation de l’utilisateur est une plus grande art que la science, car les métriques collectées ici ne signifient pas nécessairement qu’il y a un problème avec le réseau ou le service, mais qu’ils indiquent simplement que l’utilisateur a un problème. Microsoft propose un mécanisme d’étude intégré, connu sous le nom de l’option taux mon appel (RMC), pour vous aider à évaluer l’utilisation globale de l’utilisateur. RMC vous aidera à répondre aux questions suivantes du point de vue de vos utilisateurs :
 
--   Comment utiliser la solution?
--   La solution est-elle facile à utiliser et intuitive, et est-elle prise en charge par les besoins en matière de communication au jour le jour?
--   La solution m’aide-t-elle à accomplir mon travail?
--   Quelle est la perception globale de la solution?
--   Puis-je utiliser la solution à tout moment, où que je me trouve?
--   Est-il possible de configurer et de tenir à jour un appel?
+-   Comment utiliser la solution ?
+-   La solution est-elle facile à utiliser et intuitive, et est-elle prise en charge par les besoins en matière de communication au jour le jour ?
+-   La solution m’aide-t-elle à accomplir mon travail ?
+-   Quelle est la perception globale de la solution ?
+-   Puis-je utiliser la solution à tout moment, où que je me trouve ?
+-   Est-il possible de configurer et de tenir à jour un appel ?
 
 #### <a name="rate-my-call"></a>Évaluer mon appel 
 
@@ -188,7 +187,7 @@ Vous avez besoin d’une stratégie de client et d’appareil solide pour vous a
 
 Une stratégie de disponibilité du client puissante garantit que vos utilisateurs utilisent la version la plus récente du client tout en profitant de la meilleure utilisation possible. Microsoft répare régulièrement le client Skype entreprise. Il est essentiel de veiller à ce que vous soyez assuré que votre environnement est essentiel pour votre réussite globale. Il est également important de ne pas oublier de corriger les pilotes réseau, vidéo, USB et audio, car ils sont souvent oubliés et peuvent affecter l’utilisation de l’utilisateur. Envisagez d’ajouter des pilotes réseau, Wi-Fi, vidéo, USB et audio à votre processus de gestion des correctifs actuel.
 
-Nous vous recommandons de ne pas laisser les versions de vos clients dépasser de plus de six mois. Si vous utilisez Office «démarrer en un clic», vous êtes déjà en cours de mise à jour par le service. Pour vous aider à effectuer ce processus, utilisez les [versions de client](#client-versions)incluses, comme décrit plus loin dans ce guide. Vous pouvez également tirer parti des rapports d’exemples d’appel pour améliorer davantage votre stratégie de compatibilité client.
+Nous vous recommandons de ne pas laisser les versions de vos clients dépasser de plus de six mois. Si vous utilisez Office « démarrer en un clic », vous êtes déjà en cours de mise à jour par le service. Pour vous aider à effectuer ce processus, utilisez les [versions de client](#client-versions)incluses, comme décrit plus loin dans ce guide. Vous pouvez également tirer parti des rapports d’exemples d’appel pour améliorer davantage votre stratégie de compatibilité client.
 
 > [!IMPORTANT]
 > Pour l’instant, les clients teams sont répartis et mis à jour automatiquement via le réseau de distribution de contenu Azure et sont tenus à jour par le service. En raison de cela, les activités d’investigation et de préparation du client ne s’appliquent pas aux équipes.
@@ -203,28 +202,28 @@ Nous recommandons toujours aux utilisateurs de Microsoft teams et de Skype entre
 
 ### <a name="categories-of-quality"></a>Catégories de qualité
 
-Le succès de l’opération de déploiement de grande qualité et fiable dépend de votre préversion du fonctionnement. Prenez en particulier en considération les trois catégories illustrées dans l’illustration suivante. ce guide est axé sur les éléments suivants:
+Le succès de l’opération de déploiement de grande qualité et fiable dépend de votre préversion du fonctionnement. Prenez en particulier en considération les trois catégories illustrées dans l’illustration suivante. ce guide est axé sur les éléments suivants :
 
--   **Réseau:** Qualité audio focalisée sur la métrique du rapport de flux médiocre (V.Q.P.R.D.), l’utilisation du réseau filaire et les sous-réseaux sans fil et l’identification de l’utilisation des proxys HTTP et du VPN.
+-   **Réseau :** Qualité audio focalisée sur la métrique du rapport de flux médiocre (V.Q.P.R.D.), l’utilisation du réseau filaire et les sous-réseaux sans fil et l’identification de l’utilisation des proxys HTTP et du VPN.
 
--   **Points de terminaison:** Périphériques audio et versions clientes (Skype entreprise uniquement)
+-   **Points de terminaison :** Périphériques audio et versions clientes (Skype entreprise uniquement)
 
--   **Gestion du service:** Cette catégorie comprend deux sections:
+-   **Gestion du service :** Cette catégorie comprend deux sections :
 
     -   Tout d’abord, il incombe à Microsoft de gérer et de tenir à jour les équipes et services Skype entreprise online.
 
     -   Deuxièmement les tâches que votre organisation doit gérer pour garantir un accès fiable au service, par exemple, la mise à jour des informations de bâtiment et la maintenance des pare-feu pour les nouvelles adresses IP Office 365 lors de l’ajout d’une infrastructure au service.
 
-![Graphique des catégories de qualité dans une organisation] (media/qerguide-image-categories.png "Catégories de qualité au sein d’une organisation: gestion du service, points de terminaison et réseau.")
+![Graphique des catégories de qualité dans une organisation](media/qerguide-image-categories.png "Catégories de qualité au sein d’une organisation : gestion du service, points de terminaison et réseau.")
 
-_Figure 3: catégories critiques pour le déploiement d’équipes et de Skype entreprise Online_
+_Figure 3 : catégories critiques pour le déploiement d’équipes et de Skype entreprise Online_
 
 Le graphique suivant décrit les tâches que vous devez exécuter pour chaque catégorie. Nous vous recommandons d’effectuer ces tâches une fois par semaine, au minimum.
 
 La première fois que vous effectuez ces tâches, la première fois que vous effectuez cette opération, il est préférable de valider les configurations de déploiement pour la plupart des itérations. Après avoir atteint l’état souhaité en remplissant les cibles que vous avez définies, l’exécution de ces tâches vous aidera à gérer cet État.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Liste des tâches hebdomadaires par catégorie de qualité] (media/qerguide-image-tasks.png "Liste des tâches hebdomadaires par catégorie de qualité")
+![Liste des tâches hebdomadaires par catégorie de qualité](media/qerguide-image-tasks.png "LIST de tâches hebdomadaires par catégorie de qualité ")
 
 #### <a name="service-management-tasks"></a>Tâches de gestion des services
 
@@ -232,7 +231,7 @@ Dans un premier monde de niveau Cloud, vous devez effectuer certaines tâches de
 
 #### <a name="network-tasks"></a>Tâches réseau
 
-Il existe deux catégories de tâches réseau: fiabilité et qualité. Le niveau de fiabilité est axé sur la mesure des capacités de l’utilisateur à passer des appels avec succès et de rester connecté. La qualité porte sur la télémétrie agrégée envoyée aux équipes et Skype entreprise Online par le client de l’utilisateur au cours de l’appel et une fois qu’il a terminé. 
+Il existe deux catégories de tâches réseau : fiabilité et qualité. Le niveau de fiabilité est axé sur la mesure des capacités de l’utilisateur à passer des appels avec succès et de rester connecté. La qualité porte sur la télémétrie agrégée envoyée aux équipes et Skype entreprise Online par le client de l’utilisateur au cours de l’appel et une fois qu’il a terminé. 
 
 Dans la mesure où la fiabilité s’est produite dans l’interface utilisateur, il est important de commencer à évaluer et à examiner ces mesures avant de plonger en qualité. 
 
@@ -248,9 +247,9 @@ Le plus important est de surveiller quels appareils sont les plus courants dans 
 
 ## <a name="cqd-basics"></a>Notions de base sur bord
 
-Cette section décrit les principes de base de l’utilisation de bord. Des instructions sont fournies pour les rubriques suivantes:
+Cette section décrit les principes de base de l’utilisation de bord. Des instructions sont fournies pour les rubriques suivantes :
 
--   Qu’est-ce que bord?
+-   Qu’est-ce que bord ?
 -   Attentes avec bord
 -   Trouver votre ID de locataire
 -   Création de rapports sur Microsoft teams et Skype entreprise
@@ -262,7 +261,7 @@ Cette section décrit les principes de base de l’utilisation de bord. Des inst
 
 Pour des formations et des ressources plus détaillées, voir l' [annexe](#other-resources).
 
-### <a name="what-is-cqd"></a>Qu’est-ce que bord?
+### <a name="what-is-cqd"></a>Qu’est-ce que bord ?
 
 Le tableau de bord de qualité des appels (bord) vous permet de mieux comprendre la qualité des appels passés à l’aide d’équipes et de services Skype entreprise. BORD est conçu pour aider les administrateurs de Skype entreprise et équipes et les ingénieurs réseau à optimiser le réseau et à se familiariser avec la qualité, la fiabilité et l’interface utilisateur. BORD examine la télémétrie globale d’une entreprise dans laquelle les modèles globaux peuvent devenir évidents, ce qui permet aux membres du personnel de passer des examens éclairés et de planifier des activités de correction pour optimiser l’impact. BORD fournit des rapports de mesures qui fournissent des indications sur la qualité générale, la fiabilité et l’utilisation de l’utilisateur.
 
@@ -273,7 +272,7 @@ Ce guide va vous aider à comprendre les principaux concepts de bord pour vous a
 
 ### <a name="expectations-using-cqd"></a>Attentes avec bord
 
-BORD, même s’il est utile pour analyser des tendances et des sous-réseaux, ne fournit pas toujours une cause spécifique pour un scénario donné. Il est important de comprendre ceci et de définir les attentes appropriées lors de l’utilisation de bord:
+BORD, même s’il est utile pour analyser des tendances et des sous-réseaux, ne fournit pas toujours une cause spécifique pour un scénario donné. Il est important de comprendre ceci et de définir les attentes appropriées lors de l’utilisation de bord :
 
 -   BORD ne fournit pas la cause racine de chaque scénario.
 -   BORD ne contient pas les flux de votre système téléphonique ou de conférence audio.
@@ -282,7 +281,7 @@ BORD, même s’il est utile pour analyser des tendances et des sous-réseaux, n
 
 ### <a name="report-editions"></a>Éditions de rapport
 
-Il existe deux éditions de rapport dans bord Online: Summary et detailed. Utilisez le menu déroulant situé dans la barre bleue située en haut de l’écran pour ouvrir une édition de rapport. Le nom de l’édition de rapport sélectionnée apparaît en haut de l’écran.
+Il existe deux éditions de rapport dans bord Online : Summary et detailed. Utilisez le menu déroulant situé dans la barre bleue située en haut de l’écran pour ouvrir une édition de rapport. Le nom de l’édition de rapport sélectionnée apparaît en haut de l’écran.
 
 -   Les rapports de synthèse sont statiques et ne peuvent pas être modifiés, téléchargés ou exportés. 
 -   Les rapports détaillés sont entièrement personnalisables et peuvent être téléchargés dans un fichier CSV, exporté ou cloné.
@@ -291,18 +290,18 @@ Pour une description complète de la différence entre les deux éditions, voir 
 
 ![Capture d’écran du menu déroulant avec les rapports de synthèse sélectionnés](media/qerguide-image-reportcategories.png)
 
-_Figure 4: catégories de rapports bord_
+_Figure 4 : catégories de rapports bord_
 
-Les rapports de synthèse sont répartis en quatre catégories:
+Les rapports de synthèse sont répartis en quatre catégories :
 
 -   **Rapports récapitulatifs** insistez sur l’analyse des tendances de qualité avec des rapports quotidiens, mensuels et de tableau pour vous aider à identifier les sous-réseaux de qualité médiocre. Il s’agit de la page d’accueil par défaut lorsque vous vous connectez pour la première fois à bord online.
 -   **Les rapports d’emplacement améliorés** vous focalisent sur l’analyse des tendances de qualité en fonction des informations d’emplacement. Pour utiliser ces rapports, vous devez avoir téléchargé un fichier de construction.
 -   Les **rapports de fiabilité** s’imposent sur l’analyse des tendances de fiabilité pour l’audio, la vidéo, le partage d’écran vidéo (VBSS) et le partage d’application.
--   Les **rapports qualité de performance** constituent une version «allégée» des modèles QER détaillés, en insistant sur les principaux domaines qui vous intéressent à l’analyse de la qualité et de la fiabilité du son.
+-   Les **rapports qualité de performance** constituent une version « allégée » des modèles QER détaillés, en insistant sur les principaux domaines qui vous intéressent à l’analyse de la qualité et de la fiabilité du son.
 
 ### <a name="report-types"></a>Types de rapports
 
-Vous avez le choix entre deux types de rapports dans bord, selon la manière dont vous voulez afficher vos données. Même si ce guide ne couvre pas les spécificités de la création d’un type de rapport sur un autre, les modèles bord QER fournissent une combinaison de rapports graphiques et de tableaux personnalisés que vous pouvez utiliser:
+Vous avez le choix entre deux types de rapports dans bord, selon la manière dont vous voulez afficher vos données. Même si ce guide ne couvre pas les spécificités de la création d’un type de rapport sur un autre, les modèles bord QER fournissent une combinaison de rapports graphiques et de tableaux personnalisés que vous pouvez utiliser :
 
 -   Rapports de graphique créez des graphiques à barres graphiques pour représenter les données dans un format visuel. Il est préférable d’utiliser des rapports graphiques pour visualiser les données sur une période donnée.
 -   Les rapports de tableau sont utiles pour examiner les mesures et les dimensions individuelles lorsque vous exportez les rapports vers des fichiers CSV pour les manipuler dans Microsoft Excel.
@@ -312,11 +311,11 @@ Vous avez le choix entre deux types de rapports dans bord, selon la manière don
 Certains rapports bord requièrent l’inclusion d’un filtre pour votre ID de client. En raison de la façon dont bord agrège les données, la télémétrie des participants fédérés est incluse. Même si cela peut s’avérer utile lors de l’analyse des tendances, des rapports client et d’appareil nécessitent que vous filtrez les données vers un client spécifique pour exclure la télémétrie des participants fédérés. Si vous ne connaissez pas votre ID de client, vous pouvez utiliser l’une des méthodes suivantes pour le Rechercher.
 
 > [!Note]
-> Ces méthodes nécessitent les autorisations suivantes:<ul><li>Rôle d’administrateur général</li><li>Rôle d’administrateur Skype entreprise</li></ul>
+> Ces méthodes nécessitent les autorisations suivantes :<ul><li>Rôle d’administrateur général</li><li>Rôle d’administrateur Skype entreprise</li></ul>
 
 #### <a name="azure-portal"></a>Portail Azure
 
-1.  Connectez-vous au portail Microsoft Azure:<https://portal.azure.com>
+1.  Connectez-vous au portail Microsoft Azure :<https://portal.azure.com>
 
 2.  Sélectionnez **Azure Active Directory**.
 
@@ -326,7 +325,7 @@ Certains rapports bord requièrent l’inclusion d’un filtre pour votre ID de 
 
 1. [Installez le module Microsoft Azure PowerShell Service Management](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2. Ouvrez une fenêtre de commande Azure PowerShell et exécutez le script suivant en entrant vos informations d’identification Office 365 lorsque vous y êtes invité: 
+2. Ouvrez une fenêtre de commande Azure PowerShell et exécutez le script suivant en entrant vos informations d’identification Office 365 lorsque vous y êtes invité : 
 
    ```
    Login-AzureRmAccount
@@ -366,11 +365,11 @@ Pour modifier la page rapports de synthèse de sorte qu’il ne s’affiche que 
 
 ![Capture d’écran du menu déroulant affichant les options de filtre](media/qerguide-image-productfilter.png)
 
-_Figure 5: sélectionner un filtre produit_
+_Figure 5 : sélectionner un filtre produit_
 
 #### <a name="detailed-reports"></a>Rapports détaillés
 
-Pour filtrer tous les rapports détaillés, dans la barre de navigation, ajoutez le code suivant à la fin de l’URL:
+Pour filtrer tous les rapports détaillés, dans la barre de navigation, ajoutez le code suivant à la fin de l’URL :
 
 ```
 /filter/[AllStreams].[Is Teams]|[FALSE]
@@ -386,33 +385,33 @@ Pour filtrer un rapport détaillé individuel, ajoutez le filtre ``Is Teams`` au
 
 ![Capture d’écran de la page Ajouter un filtre](media/qerguide-image-addteamsfilter.png)
 
-_Figure 6: ajouter un filtre Microsoft teams à un rapport_
+_Figure 6 : ajouter un filtre Microsoft teams à un rapport_
 
 
 ### <a name="managed-vs-unmanaged-networks"></a>Réseaux gérés et non gérés
 
-Par défaut, tous les points de terminaison dans bord sont classés comme extérieurs. Dès qu’un fichier de création est présenté, nous pouvons commencer à examiner les données du point de terminaison géré. Comme indiqué précédemment, les réseaux dans bord sont définis comme suit:
+Par défaut, tous les points de terminaison dans bord sont classés comme extérieurs. Dès qu’un fichier de création est présenté, nous pouvons commencer à examiner les données du point de terminaison géré. Comme indiqué précédemment, les réseaux dans bord sont définis comme suit :
 
 -   Un _réseau géré_, souvent appelé Internal ou Internal, peut être influencé et contrôlé par l’organisation. Il s’agit du réseau interne local, du réseau WAN distant et du VPN.
 -   Un _réseau non géré_, souvent appelé externe ou extérieur, ne peut pas être influencé ou contrôlé par l’organisation. Par exemple, un réseau d’hôtel ou d’aéroport est un réseau non géré.
 
 ### <a name="dimensions-measures-and-filters"></a>Dimensions, mesures et filtres
 
-Une requête bord bien formée contient les trois paramètres suivants:
+Une requête bord bien formée contient les trois paramètres suivants :
 
--   **Dimension:** Je souhaite faire pivoter les données.
+-   **Dimension :** Je souhaite faire pivoter les données.
 
--   **Action:** Ce que je veux signaler.
+-   **Action :** Ce que je veux signaler.
 
--   **Filtrer:** Le mode de réduction du jeu de données retourné par la requête.
+-   **Filtrer :** Le mode de réduction du jeu de données retourné par la requête.
 
 Une autre façon de procéder consiste à noter qu’une _dimension_ correspond à la fonction de regroupement, qu’une _mesure_ est une donnée qui m’intéresse et qu’un _filtre_ correspond à la façon dont vous souhaitez affiner les résultats pour les résultats pertinents pour ma requête.
 
-Voici un exemple de requête bien formée: **afficher les flux médiocres [mesure] par sous-réseau [dimension] pour le bâtiment 6 [filtre]**. Pour plus d’informations, voir [dimensions et mesures disponibles dans bord](https://aka.ms/cqd-dm).
+Voici un exemple de requête bien formée : **afficher les flux médiocres [mesure] par sous-réseau [dimension] pour le bâtiment 6 [filtre]**. Pour plus d’informations, voir [dimensions et mesures disponibles dans bord](https://aka.ms/cqd-dm).
 
 ### <a name="first-vs-second"></a>Première et deuxième 
 
-De nombreux axes et mesures dans bord sont classés comme premiers ou secondes. BORD n’utilise pas de champs d’appelant/appelants, car ils ont été renommés en _premier_ et en _second_ , car il existe des étapes intermédiaires entre l’appelant et l’appelé. La logique suivante détermine le point de terminaison impliqué comme d’abord:
+De nombreux axes et mesures dans bord sont classés comme premiers ou secondes. BORD n’utilise pas de champs d’appelant/appelants, car ils ont été renommés en _premier_ et en _second_ , car il existe des étapes intermédiaires entre l’appelant et l’appelé. La logique suivante détermine le point de terminaison impliqué comme d’abord :
 
 -   **Tout d’abord** , il s’agit d’un point de terminaison serveur (serveur de conférence, serveur de médiation, etc.) si un serveur est impliqué dans le flux ou dans l’appel.
 
@@ -426,9 +425,9 @@ Pour plus d’informations sur la détermination du premier ou du deuxième poin
 
 Vous devez comprendre la différence entre un appel et un flux pour choisir correctement les dimensions ou les mesures que vous allez examiner dans bord. Même si le focus principal de bord est sur les flux, les mesures basées sur les appels sont également disponibles.
 
--   **Flux:** Un _flux_ existe entre deux points de terminaison. Il n’y a qu’un seul flux pour chaque direction, et deux flux sont requis pour la communication. Les flux permettent de rechercher des bâtiments, des réseaux ou des sous-réseaux. Dans certains cas, les appels et les flux sont utilisés dans le nom de la mesure (par exemple, le flux de configuration des appels ou le flux d’appel rejeté). Celles-ci sont toujours classées en flux.
+-   **Flux :** Un _flux_ existe entre deux points de terminaison. Il n’y a qu’un seul flux pour chaque direction, et deux flux sont requis pour la communication. Les flux permettent de rechercher des bâtiments, des réseaux ou des sous-réseaux. Dans certains cas, les appels et les flux sont utilisés dans le nom de la mesure (par exemple, le flux de configuration des appels ou le flux d’appel rejeté). Celles-ci sont toujours classées en flux.
 
--   **Appel:** Un _appel_ est le regroupement de tous les flux de tous les participants. Un appel se compose d’au moins deux flux. Un seul appel aura au moins deux points de terminaison, chacun avec un minimum d’un flux.
+-   **Appel :** Un _appel_ est le regroupement de tous les flux de tous les participants. Un appel se compose d’au moins deux flux. Un seul appel aura au moins deux points de terminaison, chacun avec un minimum d’un flux.
 
 Pour obtenir des instructions supplémentaires sur la façon dont la dimension ou la mesure fait référence à un appel ou à un flux, voir [dimensions et mesures disponibles dans bord](https://aka.ms/cqd-dm)
 
@@ -436,9 +435,9 @@ Pour obtenir des instructions supplémentaires sur la façon dont la dimension o
 
 Un appel est classé comme bon, médiocre ou non classé. Prenons un moment pour parler de chacun d’eux plus en détail.
 
--   **Bon ou médiocre:** Un appel bon ou médiocre se compose d’un appel qui contient un ensemble complet de métriques de service pour lequel un rapport QoE complet a été généré et reçu par le service. Le fait de déterminer si un flux est correct ou médiocre est décrit [plus haut dans ce guide](#poor-stream-rate).
+-   **Bon ou médiocre :** Un appel bon ou médiocre se compose d’un appel qui contient un ensemble complet de métriques de service pour lequel un rapport QoE complet a été généré et reçu par le service. Le fait de déterminer si un flux est correct ou médiocre est décrit [plus haut dans ce guide](#poor-stream-rate).
 
--   Non **classées:** Un flux non classé ne contient aucun ensemble complet de métriques de service. Il peut s’agir d’appels courts (généralement moins de 60 secondes) où les moyennes n’ont pas pu être calculées et un rapport QoE n’a pas été généré. Le motif le plus courant pour les appels non classés est qu’il n’y a pas eu de faible taux d’utilisation des paquets. C’est par exemple le tout participant qui rejoint une réunion en silence et ne parle jamais. Le participant reçoit, mais ne transmet pas, de contenu multimédia. Si les éléments multimédias ne sont pas transmis, il n’y a aucune mesure disponible pour bord à utiliser pour classifier le flux multimédia sortant du point de terminaison.
+-   Non **classées :** Un flux non classé ne contient aucun ensemble complet de métriques de service. Il peut s’agir d’appels courts (généralement moins de 60 secondes) où les moyennes n’ont pas pu être calculées et un rapport QoE n’a pas été généré. Le motif le plus courant pour les appels non classés est qu’il n’y a pas eu de faible taux d’utilisation des paquets. C’est par exemple le tout participant qui rejoint une réunion en silence et ne parle jamais. Le participant reçoit, mais ne transmet pas, de contenu multimédia. Si les éléments multimédias ne sont pas transmis, il n’y a aucune mesure disponible pour bord à utiliser pour classifier le flux multimédia sortant du point de terminaison.
 
 Pour plus d’informations sur le processus de classification des flux, voir [cet article](stream-classification-in-call-quality-dashboard.md).
 
@@ -457,7 +456,7 @@ Lorsque vous étudiez un réseau géré qui utilise un sous-réseau commun, vous
 
 ## <a name="cqd-online"></a>BORD Online
 
-Cette section décrit les principes de base de l’accès à bord. Des instructions sont fournies pour les rubriques suivantes:
+Cette section décrit les principes de base de l’accès à bord. Des instructions sont fournies pour les rubriques suivantes :
 
 -   Accès à bord Online
 -   Commencer à utiliser bord
@@ -469,21 +468,21 @@ Pour des formations et des ressources plus détaillées, voir l' [annexe](#other
 
 ### <a name="access-cqd-online"></a>Accès à bord Online
 
-Vous pouvez accéder à bord de l’une des trois manières suivantes:
+Vous pouvez accéder à bord de l’une des trois manières suivantes :
 
 -   Accédez à <https://cqd.lync.com>.
 
 -   Accédez au **Centre d’administration Microsoft teams** et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
 
-![Capture d’écran du tableau de bord de qualité d’appel sélectionné.] (media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
+![Capture d’écran du tableau de bord de qualité d’appel sélectionné.](media/qerguide-image-mopo.png "Dans le volet de navigation de gauche, le lien vers le tableau de bord de qualité des appels est sélectionné.")
 
-_Figure 7: accès à bord par le biais du centre d’administration Microsoft teams_
+_Figure 7 : accès à bord par le biais du centre d’administration Microsoft teams_
 
 -   Accédez à l’ancien > **Outils**du **Centre d’administration Skype entreprise**et sélectionnez le lien vers bord, comme le montre l’illustration suivante.
 
-![Capture d’écran de bord sélectionnée dans le volet principal.] (media/qerguide-image-legacyui.png "Outils est sélectionné dans le volet de navigation gauche, et le lien vers bord est sélectionné dans le volet principal.")
+![Capture d’écran de bord sélectionnée dans le volet principal.](media/qerguide-image-legacyui.png "Outils est sélectionné dans le volet de navigation gauche, et le lien vers bord est sélectionné dans le volet principal.")
 
-_Figure 8: accès à bord par le biais du centre d’administration Skype entreprise_
+_Figure 8 : accès à bord par le biais du centre d’administration Skype entreprise_
 
 
 ### <a name="getting-started"></a>Prise en main
@@ -492,7 +491,7 @@ Lorsque vous accédez à bord pour la première fois, vous verrez la page rappor
 
 ![Capture d’écran illustrant les types de rapports disponibles dans bord](media/qerguide-image-choosereports.png)
 
-_Figure 9: accéder aux rapports détaillés_
+_Figure 9 : accéder aux rapports détaillés_
 
 La page rapports détaillés de bord se présente comme suit.
 
@@ -500,14 +499,14 @@ La page rapports détaillés de bord se présente comme suit.
 
 |             |           |
 | ------------|-----------|
-| ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente] (media/qerguide-image-callout1.png "une seule") | Le volet Résumé affiche le contexte pour le jeu de rapports qui s’affiche à droite. |
-| ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente] (media/qerguide-image-callout2.png "deux") | Vous pouvez sélectionner **modifier** dans le volet récapitulative pour définir les propriétés de niveau rapport (y compris la hauteur de l’axe y) et importer les nouveaux modèles. |
-| ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente] (media/qerguide-image-callout3.png "trois") | Le barre de navigation permet aux utilisateurs d’identifier leur emplacement actuel dans la hiérarchie de l’ensemble de rapports. |
-| ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente] (media/qerguide-image-callout4.png "quatre") | Les rapports incluant des rapports enfants apparaissent avec un lien bleu. En sélectionnant le lien, vous pouvez explorer les rapports enfant. |
+| ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout1.png "unes") | Le volet Résumé affiche le contexte pour le jeu de rapports qui s’affiche à droite. |
+| ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout2.png "Color") | Vous pouvez sélectionner **modifier** dans le volet récapitulative pour définir les propriétés de niveau rapport (y compris la hauteur de l’axe y) et importer les nouveaux modèles. |
+| ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout3.png "suivantes") | Le barre de navigation permet aux utilisateurs d’identifier leur emplacement actuel dans la hiérarchie de l’ensemble de rapports. |
+| ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/qerguide-image-callout4.png "trois") | Les rapports incluant des rapports enfants apparaissent avec un lien bleu. En sélectionnant le lien, vous pouvez explorer les rapports enfant. |
 
 _Figure 10-page rapports détaillés_
 
-Pointez sur les graphiques à barres et les courbes de tendance dans le rapport pour afficher les valeurs détaillées. Le rapport sur lequel le focus est affiché affiche le menu d’action: **modifier**, cloner, **supprimer**, **Télécharger**et **exporter l’arborescence du rapport**. ****
+Pointez sur les graphiques à barres et les courbes de tendance dans le rapport pour afficher les valeurs détaillées. Le rapport sur lequel le focus est affiché affiche le menu d’action : **modifier**, **cloner**, **supprimer**, **Télécharger**et **exporter l’arborescence du rapport**.
 
 ### <a name="editing-reports"></a>Modification de rapports
 
@@ -517,10 +516,10 @@ Lorsque vous sélectionnez **modifier** dans le menu action d’un rapport, vous
 
 |             |           |
 | ------------|-----------|
-| ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente] (media/qerguide-image-callout1.png "une seule") | Pour ce faire, vous pouvez choisir des dimensions, des mesures et des filtres dans le volet gauche. Pointez sur une valeur existante pour afficher un bouton de fermeture (**X**) que vous pouvez sélectionner pour supprimer la valeur.<ul><li>En sélectionnant la cote ou la mesure, vous pouvez modifier le titre en modifiant le champ de **titre** . Vous pouvez également modifier l’ordre en cliquant sur les flèches bleu vers le haut ou le bas dans le volet supérieur.</li><li>Sélectionner (**+**) en regard d’un titre permet d’ouvrir la boîte de dialogue permettant d’ajouter une nouvelle dimension, mesure ou filtre.</li><li>Entrez les premières lettres de la dimension, de la mesure ou du filtre dans le champ **Rechercher** pour filtrer la liste et faciliter la recherche.</li></ul> |
-| ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente] (media/qerguide-image-callout2.png "deux") | Le volet supérieur affiche des options de personnalisation du graphique. |
-| ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente] (media/qerguide-image-callout3.png "trois") | L’éditeur de requête affiche un aperçu de l’État. |
-| ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente] (media/qerguide-image-callout4.png "quatre") | Utilisez la zone d' **édition** en bas de l’écran pour créer ou modifier une description détaillée du rapport. |
+| ![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout1.png "unes") | Pour ce faire, vous pouvez choisir des dimensions, des mesures et des filtres dans le volet gauche. Pointez sur une valeur existante pour afficher un bouton de fermeture (**X**) que vous pouvez sélectionner pour supprimer la valeur.<ul><li>En sélectionnant la cote ou la mesure, vous pouvez modifier le titre en modifiant le champ de **titre** . Vous pouvez également modifier l’ordre en cliquant sur les flèches bleu vers le haut ou le bas dans le volet supérieur.</li><li>Sélectionner (**+**) en regard d’un titre permet d’ouvrir la boîte de dialogue permettant d’ajouter une nouvelle dimension, mesure ou filtre.</li><li>Entrez les premières lettres de la dimension, de la mesure ou du filtre dans le champ **Rechercher** pour filtrer la liste et faciliter la recherche.</li></ul> |
+| ![Icône du numéro 2 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout2.png "Color") | Le volet supérieur affiche des options de personnalisation du graphique. |
+| ![Icône du numéro 3 qui référence une légende dans la capture d’écran précédente](media/qerguide-image-callout3.png "suivantes") | L’éditeur de requête affiche un aperçu de l’État. |
+| ![Icône du numéro 4, référençant une légende dans la capture d’écran précédente](media/qerguide-image-callout4.png "trois") | Utilisez la zone d' **édition** en bas de l’écran pour créer ou modifier une description détaillée du rapport. |
 
 _Figure 11-éditeur de requête_
 
@@ -534,7 +533,7 @@ Vous pouvez utiliser un filtre d’URL pour filtrer chaque rapport pour une dime
 
 L’exclusion des données fédérées des rapports bord est utile lorsque vous changez de bâtiment ou de réseau dans lequel les points de terminaison fédérés peuvent influencer vos rapports.
 
-Pour implémenter un filtre d’URL, dans la barre d’adresses du navigateur, ajoutez le code suivant à la fin de l’URL:
+Pour implémenter un filtre d’URL, dans la barre d’adresses du navigateur, ajoutez le code suivant à la fin de l’URL :
 
 ```
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -544,7 +543,7 @@ Example
 
 ```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
-Pour filtrer les rapports pour teams ou Skype entreprise, ajoutez le code suivant à la fin de l’URL:
+Pour filtrer les rapports pour teams ou Skype entreprise, ajoutez le code suivant à la fin de l’URL :
 
 ```
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
@@ -563,7 +562,7 @@ Example
 
 Les filtres de requête sont implémentés à l’aide de l’éditeur de requête dans bord. Ces filtres sont utilisés pour réduire le nombre d’enregistrements renvoyés par bord, ce qui a pour effet de limiter les temps d’exécution des requêtes et de la taille globale du rapport. Cela est particulièrement utile pour filtrer les réseaux non gérés. Les filtres répertoriés dans le tableau suivant utilisent des expressions régulières (RegEx).
 
-_Tableau 3: filtres de requête_
+_Tableau 3 : filtres de requête_
 
 | Filtre         | Description          | Exemple de filtre de requête bord      |
 |----------------|----------------------|-------------------------------|
@@ -575,7 +574,7 @@ _Tableau 3: filtres de requête_
 
 Pour implémenter des filtres de rapport, vous devez ajouter un filtre au rapport restitué dans l’éditeur de requête ou directement dans le rapport. Les filtres de rapport suivants sont utilisés dans le modèle.
 
-_Tableau 4: filtres de rapport_
+_Tableau 4 : filtres de rapport_
 
 | Filtre     | Description                            | Exemple de filtre de rapport bord         |
 |------------|----------------------------------------|-----------------------------------|
@@ -601,9 +600,9 @@ Ce guide inclut [deux modèles bord](https://aka.ms/qertemplates). Ces modèles 
 
 4. Dans le volet Résumé, sélectionnez **Importer**. Accédez à l’emplacement CQDX enregistré, sélectionnez le modèle CQDX, puis sélectionnez **ouvrir**.
 
-5. Une fois le modèle chargé, une fenêtre contextuelle affiche le message «l’importation du rapport a réussi». Sélectionnez **OK.**
+5. Une fois le modèle chargé, une fenêtre contextuelle affiche le message « l’importation du rapport a réussi ». Sélectionnez **OK.**
 
-   ![Capture d’écran de la notification d’importation réussie] (media/qerguide-image-importmessage.png "Notification indiquant que le modèle a été correctement importé")
+   ![Capture d’écran de la notification d’importation réussie](media/qerguide-image-importmessage.png "Notification indiquant que le modèle a été correctement importé")
 
 6. Répétez les étapes 4 et 5 pour le deuxième modèle bord.
 
@@ -625,15 +624,15 @@ Le format du fichier de données que vous chargez doit respecter les exigences s
 
 -   La taille du fichier ne doit pas dépasser 50 Mo.
 
--   Le contenu du fichier de données *ne doit pas inclure de en-têtes de tableau*. En d’autres termes, la première ligne du fichier de données doit être de véritables données, pas des en-têtes de colonnes telles que «réseau».
+-   Le contenu du fichier de données *ne doit pas inclure de en-têtes de tableau*. En d’autres termes, la première ligne du fichier de données doit être de véritables données, pas des en-têtes de colonnes telles que « réseau ».
 
--   Pour chaque colonne, le type de données peut uniquement être chaîne, nombre ou bool. Si le type de données est numérique, la valeur doit être une valeur numérique; s’il s’agit de bool, la valeur doit être égale à 0 ou 1.
+-   Pour chaque colonne, le type de données peut uniquement être chaîne, nombre ou bool. Si le type de données est numérique, la valeur doit être une valeur numérique ; s’il s’agit de bool, la valeur doit être égale à 0 ou 1.
 
 -   Pour chaque colonne, si le type de données est String, les données peuvent être vides (tout en étant tout de même séparées par un délimiteur approprié, c’est-à-dire un caractère de tabulation ou une virgule). Cela affecte simplement le champ à une valeur de chaîne vide.
 
 -   Chaque ligne doit comporter 14 colonnes. Chaque colonne doit avoir le type de données indiqué dans le tableau suivant, et les colonnes doivent être dans l’ordre indiqué dans le tableau.
 
-_Tableau 5: création d’une structure de fichier_
+_Tableau 5 : création d’une structure de fichier_
 
 | Nom de la colonne        | Type de données | Exemple                   | Aide    |
 |--------------------|-----------|---------------------------|-------------|
@@ -658,11 +657,11 @@ _Tableau 5: création d’une structure de fichier_
 
 Vous pouvez utiliser le Super-réseautage, couramment appelé routage entre domaines (CIDR, Classless Inter-Domain Routing) au lieu de définir chaque sous-réseau. Un *super-réseau* est une combinaison de plusieurs sous-réseaux partageant un seul préfixe de routage. Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse superréseau. Le Super-réseautage est pris en charge, mais nous ne recommandons pas son utilisation.
 
-Par exemple, le bâtiment marketing de contoso se compose des sous-réseaux suivants:
+Par exemple, le bâtiment marketing de contoso se compose des sous-réseaux suivants :
 
 -   10.1.0.0/24-premier étage
 -   10.1.1.0/24-second étage
--   10.1.2.0/24: troisième étage
+-   10.1.2.0/24 : troisième étage
 -   10.1.3.0/24-quatrième étage
 
 Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l’adresse de super-réseau (dans cet exemple, 10.1.0.0/22).
@@ -670,7 +669,7 @@ Au lieu d’ajouter une entrée pour chaque sous-réseau, vous pouvez utiliser l
 -   Réseau = 10.1.0.0
 -   Plage de réseaux = 22
 
-Voici quelques éléments à prendre en compte avant d’implémenter le super-réseau:
+Voici quelques éléments à prendre en compte avant d’implémenter le super-réseau :
 
 -   Le Super-réseautage ne peut être utilisé que dans un mappage de sous-réseau doté d’un masque de 8 bits à 28 bits.
 
@@ -685,19 +684,19 @@ Voici quelques éléments à prendre en compte avant d’implémenter le super-r
 
 #### <a name="vpn"></a>VPN
 
-Les données de qualité de l’expertise que les clients envoient à Office 365 (qui est l’endroit où les données bord sont sources) incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Il existe deux approches permettant d’accueillir les sous-réseaux VPN dans le fichier de construction des informations:
+Les données de qualité de l’expertise que les clients envoient à Office 365 (qui est l’endroit où les données bord sont sources) incluent un indicateur VPN. BORD le verra comme le premier VPN et les deuxièmes réseaux VPN. Toutefois, cet indicateur repose sur la création d’un rapport de fournisseurs de réseau privé virtuel (VPN) sur Windows, qui s’est inscrit sur une carte d’accès à distance. Les fournisseurs de réseaux VPN n’inscrivent pas correctement les cartes d’accès distant. Pour cette raison, il est possible que vous ne puissiez pas utiliser les filtres de requête VPN intégrés. Il existe deux approches permettant d’accueillir les sous-réseaux VPN dans le fichier de construction des informations :
 
-- Définissez un **nom de réseau** en utilisant le texte «VPN» dans ce champ pour les sous-réseaux VPN.
+- Définissez un **nom de réseau** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux VPN.
 
   ![Capture d’écran de rapport QCD montrant un VPN utilisant le nom du réseau](media/qerguide-image-vpnnetworkname.png)
 
   _Figure 12-VPN utilisant le nom du réseau_
 
-- Définissez un **nom de bâtiment** en utilisant le texte «VPN» dans ce champ pour les sous-réseaux VPN.
+- Définissez un **nom de bâtiment** en utilisant le texte « VPN » dans ce champ pour les sous-réseaux VPN.
 
   ![Capture d’écran de rapport QCD montrant un VPN utilisant le nom de bâtiment](media/qerguide-image-vpnbuildingname.png)
 
-  _Figure 13: VPN avec nom de bâtiment_
+  _Figure 13 : VPN avec nom de bâtiment_
 
 > [!IMPORTANT]
 > Certaines implémentations de réseau privé virtuel n’indiquent pas précisément les informations de sous-réseau. Si cela se produit dans votre création de rapports, nous vous conseillons de faire en sorte que lorsque vous ajoutez un sous-réseau VPN au fichier de bâtiment, au lieu d’une entrée pour le sous-réseau, ajoutez des entrées distinctes pour chaque adresse dans le sous-réseau VPN en tant que réseau 32 différent. Chaque ligne peut avoir les mêmes métadonnées de bâtiment. Par exemple, au lieu d’une ligne pour 172.16.18.0/24, vous disposez de lignes 253, avec une ligne pour chaque adresse de 172.16.18.1/32 à 172.16.18.254/32, inclusive.
@@ -716,7 +715,7 @@ Le tableau de bord des rapports de synthèse de bord inclut une page de **télé
 
    ![Capture d’écran de la boîte de dialogue qui s’affiche lorsque les données sont en cours de téléchargement](media/qerguide-image-tenantdataupload.png)
 
-   _Figure 14: menu télécharger les données du client_
+   _Figure 14 : menu télécharger les données du client_
 
 3. Si c’est la première fois que vous visitez bord, vous serez invité à télécharger les données de bâtiment. Vous pouvez sélectionner **Télécharger maintenant** pour accéder rapidement à la page **téléchargement de données du client** .
 
@@ -749,7 +748,7 @@ Lors du rassemblement des informations de construction et de sous-réseau, les a
 
 #### <a name="adding-net-new-subnets"></a>Ajouter de nouveaux sous-réseaux net
 
-Il peut arriver que vous deviez ajouter des sous-réseaux de nouveaux réseaux aux bord qui n’étaient pas à l’origine dans la topologie de votre réseau. Pour ajouter de nouveaux sous-réseaux à un réseau, procédez comme suit dans le portail de chargement des données du client bord:
+Il peut arriver que vous deviez ajouter des sous-réseaux de nouveaux réseaux aux bord qui n’étaient pas à l’origine dans la topologie de votre réseau. Pour ajouter de nouveaux sous-réseaux à un réseau, procédez comme suit dans le portail de chargement des données du client bord :
 
 1.  Modifiez le fichier de construction d’origine et indiquez une date de fin au moins un jour avant l’acquisition des sous-réseaux.
 2.  Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
@@ -758,7 +757,7 @@ Il peut arriver que vous deviez ajouter des sous-réseaux de nouveaux réseaux a
 
 #### <a name="updating-the-current-building-file"></a>Mise à jour du fichier de construction actuel
 
-Si un fichier de création est déjà chargé mais que vous devez ajouter des sous-réseaux manquants, procédez comme suit dans le portail de chargement des données du client bord:
+Si un fichier de création est déjà chargé mais que vous devez ajouter des sous-réseaux manquants, procédez comme suit dans le portail de chargement des données du client bord :
 
 1.  Téléchargez le fichier d’origine, si vous n’avez pas encore de copie à jour.
 2.  Supprimez le fichier actif dans bord.
@@ -787,7 +786,7 @@ Pour nous, il peut être difficile de mapper les sous-réseaux de votre organisa
 
 #### <a name="cqd-tools"></a>Outils bord
 
-Ces outils sont basés sur PowerShell et peuvent tirer parti des sites et services Active Directory (AD) et des services Microsoft DHCP pour vous aider à préremplir votre fichier de construction.  Ces outils peuvent vous aider à effectuer les tâches suivantes:
+Ces outils sont basés sur PowerShell et peuvent tirer parti des sites et services Active Directory (AD) et des services Microsoft DHCP pour vous aider à préremplir votre fichier de construction.  Ces outils peuvent vous aider à effectuer les tâches suivantes :
 
 1.  Interrogez les sites et services d’annonces et créez un fichier d’immeuble en fonction des informations contenues dans.
 2.  Interrogez un serveur ou un serveur DHCP Microsoft pour extraire des informations de sous-réseau et créer automatiquement un fichier de bâtiment.
@@ -828,17 +827,17 @@ Pour ouvrir le centre de messages, dans le centre d’administration 365 Microso
 
 ![Capture d’écran du centre de messages montrant les trois derniers messages publiés](media/qerguide-image-messagecentercard.png)
 
-_Figure 18: carte du centre de messages_
+_Figure 18 : carte du centre de messages_
 
 Vous pouvez également utiliser l' [application administration d’Office 365](https://go.microsoft.com/fwlink/p/?linkid=627216) sur votre appareil mobile pour afficher le centre de messages, qui est un excellent moyen de rester informé grâce aux notifications de transmission. Pour plus d’informations, consultez [cet article](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
 
 ## <a name="reliability-investigations"></a>Investigations de fiabilité
 
-La première étape pour améliorer la qualité consiste à évaluer l’état de la fiabilité au sein de l’organisation. Dans la mesure où la fiabilité est essentielle pour une utilisation positive de l’utilisateur, nous commençons par les deux composants qui mesurent la fiabilité:
+La première étape pour améliorer la qualité consiste à évaluer l’état de la fiabilité au sein de l’organisation. Dans la mesure où la fiabilité est essentielle pour une utilisation positive de l’utilisateur, nous commençons par les deux composants qui mesurent la fiabilité :
 
-1.  **Échecs de configuration:** L’appel n’a pas pu être établi.
+1.  **Échecs de configuration :** L’appel n’a pas pu être établi.
 
-2.  **Échecs de la suppression:** L’appel a été établi et arrêté de manière inattendue.
+2.  **Échecs de la suppression :** L’appel a été établi et arrêté de manière inattendue.
 
 Dans cette section, nous allons aborder les méthodes permettant d’identifier les deux domaines.
 
@@ -862,15 +861,15 @@ _Figure 19-échec de la configuration du flux audio_
 
 ##### <a name="analysis"></a>Étude
 
-Ce rapport vous permet de répondre aux questions suivantes et de déterminer la marche à suivre suivante:
+Ce rapport vous permet de répondre aux questions suivantes et de déterminer la marche à suivre suivante :
 
--   Quel est le pourcentage d’échec de configuration du total d’appels pour le mois en cours?
+-   Quel est le pourcentage d’échec de configuration du total d’appels pour le mois en cours ?
 
--   Est-ce que le pourcentage d’échec de configuration d’un appel inférieur ou au-dessus de la mesure cible définie?
+-   Est-ce que le pourcentage d’échec de configuration d’un appel inférieur ou au-dessus de la mesure cible définie ?
 
--   Le problème est-il pire ou supérieur au mois précédent?
+-   Le problème est-il pire ou supérieur au mois précédent ?
 
--   La tendance de l’échec augmente-t-elle, elle est constante ou dégressive?
+-   La tendance de l’échec augmente-t-elle, elle est constante ou dégressive ?
 
 Quelles que soient les réponses précédentes, prenez le temps de rechercher davantage en utilisant les sous-rapports compagnons pour rechercher des bâtiments ou sous-réseaux individuels susceptibles de nécessiter une correction. Même si le taux d’échec global est peut-être inférieur à la métrique cible, les taux d’échec pour un ou plusieurs bâtiments ou réseaux peuvent être supérieurs à la métrique cible et avoir besoin d’une étude.
 
@@ -888,13 +887,13 @@ _Figure 20-échecs de configuration audio par sous-réseau_
 
 ##### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
-Si vous avez reçu une alerte de diagnostic «les restrictions du pare-feu sont à l’origine des échecs de configuration des appels» ou «l’inspection de paquets approfondie est à l’origine des échecs de configuration des appels», concentrez-vous les efforts de correction sur ces sous-réseaux identifiés d’abord. L’alerte comporte des sous-réseaux identifiés qui ont une incidence négative sur la fiabilité des appels. Vous pouvez utiliser les rapports d’échecs de configuration disponibles dans la section fiabilité pour faciliter la correction.
+Si vous avez reçu une alerte de diagnostic « les restrictions du pare-feu sont à l’origine des échecs de configuration des appels » ou « l’inspection de paquets approfondie est à l’origine des échecs de configuration des appels », concentrez-vous les efforts de correction sur ces sous-réseaux identifiés d’abord. L’alerte comporte des sous-réseaux identifiés qui ont une incidence négative sur la fiabilité des appels. Vous pouvez utiliser les rapports d’échecs de configuration disponibles dans la section fiabilité pour faciliter la correction.
 
 ##### <a name="remediation"></a>Remediation 
 
 Focalisez-vous sur votre première action de correction sur les bâtiments ou sous-réseaux présentant le plus grand nombre d’échecs. Cela a un impact sur l’utilisation de l’utilisateur et de l’aide pour réduire rapidement le taux d’échecs de configuration des appels de l’organisation. Le tableau suivant répertorie les deux raisons pour lesquelles les échecs de configuration ont été signalés par bord.
 
-_Tableau 7: raisons de l’échec de configuration d’un appel_
+_Tableau 7 : raisons de l’échec de configuration d’un appel_
 
 | Raison de l’échec de configuration d’un appel       | Cause classique                    |
 |----------------------------------|----------------------------------|
@@ -908,7 +907,7 @@ _Tableau 8-étapes suivantes pour la mise à jour de l’échec de configuration
 
 |      Remediation      |                                                                                                                                                                                                                                                                                                                                                                   Aide                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configurer un ou plusieurs pare-feu | Travaillez avec votre équipe réseau et vérifiez la configuration de votre pare-feu par rapport à [la liste d’adresses IP d’Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les [sous-réseaux](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) et ports de média sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (indiqués ci-dessous) sont ouverts dans le pare-feu. La priorité du protocole UDP doit être donnée, car TCP est considéré comme un protocole de restauration automatique pour le partage d’écran audio, vidéo et vidéo, et son utilisation affectera la qualité de l’appel. Le partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478 – 3481</li><ul> |
+| Configurer un ou plusieurs pare-feu | Travaillez avec votre équipe réseau et vérifiez la configuration de votre pare-feu par rapport à [la liste d’adresses IP d’Office 365](https://aka.ms/o365ips).<br><br>Vérifiez que les [sous-réseaux](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) et ports de média sont inclus dans les règles de pare-feu. <br><br>Vérifiez que les ports nécessaires (indiqués ci-dessous) sont ouverts dans le pare-feu. La priorité du protocole UDP doit être donnée, car TCP est considéré comme un protocole de restauration automatique pour le partage d’écran audio, vidéo et vidéo, et son utilisation affectera la qualité de l’appel. Le partage d’application RDP hérité utilise TCP uniquement.<br><ul><li>**TCP :** port 443</li><li>**UDP :** ports 3478 – 3481</li><ul> |
 |        Vérifier         |                                                                                                                                                                                                                                                                 Utilisez l' [outil Microsoft Network Assessment](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier la connectivité du bâtiment ou du sous-réseau affecté à l’aide de la fonction de vérification de la connectivité.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Ignorer les échecs
@@ -921,16 +920,16 @@ Ce rapport affiche le volume total de flux audio, d’échecs de remise au total
 
 ![Graphique montrant le pourcentage de flux supprimés](media/qerguide-image-droppedstreamrate.png)
 
-_Figure 21: débit de rejet de flux_
+_Figure 21 : débit de rejet de flux_
 
 ##### <a name="analysis"></a>Étude
 
-En utilisant ce type de rapport, vous pouvez répondre aux questions suivantes:
+En utilisant ce type de rapport, vous pouvez répondre aux questions suivantes :
 
--   Quel est le taux d’échec de la remise actuelle?
--   Le taux d’échec de la chute est-il inférieur à la valeur cible définie?
--   Le problème est-il pire ou supérieur au mois précédent?
--   La tendance de l’échec augmente-t-elle, elle est constante ou dégressive?
+-   Quel est le taux d’échec de la remise actuelle ?
+-   Le taux d’échec de la chute est-il inférieur à la valeur cible définie ?
+-   Le problème est-il pire ou supérieur au mois précédent ?
+-   La tendance de l’échec augmente-t-elle, elle est constante ou dégressive ?
 
 Quelles que soient les réponses aux questions ci-dessus, prenez le temps de rechercher les bâtiments ou réseaux susceptibles de nécessiter une correction à l’aide de sous-rapports. Même si le taux d’échec de la suppression globale peut être inférieur à la métrique cible, le taux d’échec de la suppression d’un ou de plusieurs bâtiments ou réseaux peut se trouver au-dessus de la métrique cible et avoir besoin d’une étude.
 
@@ -944,13 +943,13 @@ Les échecs signalés ici indiquent que l’appel a été interrompu de manière
 
 ![Rapport indiquant le nombre et le pourcentage de perte d’échecs](media/qerguide-image-dropfailuresbysubnet.png)
 
-_Figure 22: rejeter les échecs par sous-réseau_
+_Figure 22 : rejeter les échecs par sous-réseau_
 
 ##### <a name="remediation"></a>Remediation
 
 L’utilisation des rapports de tableau inclus vous permet d’isoler les zones de problèmes du réseau où le taux de remise est supérieur à la mesure cible que vous avez définie. Focalisez-vous sur votre première action de correction sur les bâtiments ou sous-réseaux qui présentent le nombre total de flux de flux, pour apporter le plus grand impact.
 
-Causes fréquentes des rejets d’appel:
+Causes fréquentes des rejets d’appel :
 
 -   Sortie Internet sous-configurée
 -   Aucun QoS configuré sur les réseaux contraintes
@@ -967,9 +966,9 @@ _Tableau 9-étapes suivantes pour la mise à jour de la remise d’appel_
 
 | Remediation                              | Aide                      |
 |------------------------------------------|-------------------------------|
-| **Réseau/Internet**                         | **Encombrement**: collaborez avec votre équipe réseau pour contrôler la bande passante sur des bâtiments/sous-réseaux spécifiques pour vérifier qu’il y a des problèmes de surutilisation. Si vous confirmez la congestion du réseau, envisagez d’augmenter la bande passante pour la création ou l’application de QoS. Utilisez les rapports de synthèse de l' [État qualité](#quality-investigations) de la qualité incluse pour passer en revue les sous-réseaux de problèmes afin de résoudre les problèmes de gigue, de latence et de perte de paquets, car ils précèdent souvent un flux interrompu.<br><br>**Qualité**de service (QoS): si la bande passante augmente ou n’est pas adaptée, envisagez d’implémenter QoS. Cet outil est très efficace pour gérer le trafic congestionné et peut garantir que les paquets multimédias du réseau géré sont classés par priorité au-dessus du trafic non multimédia. Par ailleurs, s’il n’y a pas de justification évidente de la bande passante, envisagez les solutions suivantes:<ul><li>[Conseils QoS de Microsoft teams](qos-in-teams.md)</li></ul><br>**Effectuer une évaluation de la disponibilité du réseau**: une évaluation du réseau fournit des détails sur l’utilisation de la bande passante attendue, sur la gestion de la bande passante et des changements réseau, ainsi que sur les pratiques recommandées pour les équipes et Skype entreprise. En utilisant le tableau précédent comme source, vous disposez d’une liste de bâtiments ou de sous-réseaux qui constituent un excellent choix pour une analyse.<ul><li>[Évaluation de la compatibilité réseau de Microsoft teams](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Outil Microsoft Network Assessment:** Cet outil vous permet de tester les performances du réseau de manière simple et de déterminer l’efficacité du réseau pour un appel en équipe ou Skype entreprise online. L’outil vous permet d’évaluer les performances d’un sous-réseau et de vérifier la préparation du réseau par rapport [aux exigences](https://aka.ms/performancerequirements)de performances de Microsoft.<ul><li>[Télécharger l’outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
+| **Réseau/Internet**                         | **Encombrement**: collaborez avec votre équipe réseau pour contrôler la bande passante sur des bâtiments/sous-réseaux spécifiques pour vérifier qu’il y a des problèmes de surutilisation. Si vous confirmez la congestion du réseau, envisagez d’augmenter la bande passante pour la création ou l’application de QoS. Utilisez les rapports de synthèse de l' [État qualité](#quality-investigations) de la qualité incluse pour passer en revue les sous-réseaux de problèmes afin de résoudre les problèmes de gigue, de latence et de perte de paquets, car ils précèdent souvent un flux interrompu.<br><br>**Qualité**de service (QoS) : si la bande passante augmente ou n’est pas adaptée, envisagez d’implémenter QoS. Cet outil est très efficace pour gérer le trafic congestionné et peut garantir que les paquets multimédias du réseau géré sont classés par priorité au-dessus du trafic non multimédia. Par ailleurs, s’il n’y a pas de justification évidente de la bande passante, envisagez les solutions suivantes :<ul><li>[Conseils QoS de Microsoft teams](qos-in-teams.md)</li></ul><br>**Effectuer une évaluation de la disponibilité du réseau**: une évaluation du réseau fournit des détails sur l’utilisation de la bande passante attendue, sur la gestion de la bande passante et des changements réseau, ainsi que sur les pratiques recommandées pour les équipes et Skype entreprise. En utilisant le tableau précédent comme source, vous disposez d’une liste de bâtiments ou de sous-réseaux qui constituent un excellent choix pour une analyse.<ul><li>[Évaluation de la compatibilité réseau de Microsoft teams](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Outil Microsoft Network Assessment :** Cet outil vous permet de tester les performances du réseau de manière simple et de déterminer l’efficacité du réseau pour un appel en équipe ou Skype entreprise online. L’outil vous permet d’évaluer les performances d’un sous-réseau et de vérifier la préparation du réseau par rapport [aux exigences](https://aka.ms/performancerequirements)de performances de Microsoft.<ul><li>[Télécharger l’outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul> |
 | **Clients (Skype entreprise Online uniquement)** | Certains clients plus anciens présentent des problèmes liés à la fiabilité des médias connus. Passez en revue les rapports d’analyse des appels de plusieurs utilisateurs concernés, ou créez un rapport de table de version de client personnalisée dans bord filtré sur des bâtiments ou sous-réseaux spécifiques avec la mesure% d’échec de l’appel. Les informations ci-dessous vous aideront à comprendre s’il existe une relation entre les chutes d’appel dans ce bâtiment spécifique et une version spécifique du client.     |
-| **Appareils**                                  | Nous recommandons que les utilisateurs qui rencontrent des problèmes de mise en place (ou d’appels médiocres en général) puissent utiliser des appareils intégrés [](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) pour être mis en service en tant que source potentielle de qualité médiocre et de fiabilité. |
+| **Appareils**                                  | Nous recommandons que les utilisateurs qui rencontrent des problèmes de mise en place (ou d’appels médiocres en général) puissent utiliser des appareils intégrés [pour être](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) mis en service en tant que source potentielle de qualité médiocre et de fiabilité. |
 | **Comportement des utilisateurs**                            | Si vous déterminez que le problème n’est pas lié au réseau, aux appareils ou aux clients, envisagez de développer une stratégie d’adoption des utilisateurs pour éduquer les utilisateurs et les quitter. Les équipes plus intelligentes et les utilisateurs de Skype entreprise auront une meilleure expérience utilisateur pour tous les participants à la réunion. Un utilisateur qui met son ordinateur portable en veille (en fermant le capot) sans quitter la réunion sera considéré comme une chute d’appel inattendue.   |
 
 ## <a name="quality-investigations"></a>Examens de qualité
@@ -977,7 +976,7 @@ _Tableau 9-étapes suivantes pour la mise à jour de la remise d’appel_
 L’étape suivante permettant d’évaluer l’état de la qualité audio au sein de l’Organisation consiste à identifier le taux de transmission médiocre (V.Q.P.R.D.), le TCP et l’utilisation du proxy. Il est important de garder à l’esprit que les données de bord ne vous fournissent pas de raison initiale précise, mais qu’il vous suffit de vous présenter à l’origine de problèmes potentiels pour commencer une conversation de collaboration avec les équipes appropriées en matière d’activités de correction. 
 
 > [!NOTE]
-> Tous les rapports inclus dans les modèles ne sont pas abordés dans ce guide; Toutefois, les méthodes d’enquête expliquées ci-dessous seront toujours applicables pour ces rapports. Pour plus d’informations, reportez-vous à la description du rapport individuel. 
+> Tous les rapports inclus dans les modèles ne sont pas abordés dans ce guide ; Toutefois, les méthodes d’enquête expliquées ci-dessous seront toujours applicables pour ces rapports. Pour plus d’informations, reportez-vous à la description du rapport individuel. 
 
 ### <a name="quality"></a>Supérieure
 
@@ -987,7 +986,7 @@ Pour évaluer le pourcentage de flux médiocres, utilisez les rapports qualité.
 
 #### <a name="quality-trend-analysis"></a>Analyse des tendances de qualité
 
-Les rapports de tendance affichent des informations de qualité dans le temps et permettent d’identifier et de comprendre les tendances de qualité dans chaque domaine d’intérêt. Comme indiqué plus haut, il existe des arbres de rapport inclus dans les modèles pour examiner la qualité; Conférences, appels RTC à deux parties, VPN et salles de réunion. Dans le cadre de l’analyse de la qualité, le processus d’investigation est le même. Néanmoins, nous vous conseillons d’abord commencer par les conférences, car toute amélioration apportée à la qualité de la Conférence affectera également tous les autres aspects. 
+Les rapports de tendance affichent des informations de qualité dans le temps et permettent d’identifier et de comprendre les tendances de qualité dans chaque domaine d’intérêt. Comme indiqué plus haut, il existe des arbres de rapport inclus dans les modèles pour examiner la qualité ; Conférences, appels RTC à deux parties, VPN et salles de réunion. Dans le cadre de l’analyse de la qualité, le processus d’investigation est le même. Néanmoins, nous vous conseillons d’abord commencer par les conférences, car toute amélioration apportée à la qualité de la Conférence affectera également tous les autres aspects. 
 
 > [!Note]
 > L’examen des salles de réunion et de la fonction d’appel RTC et des salles de réunion est semblable à l’examen des conférences. Le focalisation est d’isloate des bâtiments ou des sous-réseaux présentant une qualité médiocre et d’identifier les raisons de la qualité médiocre.
@@ -1001,12 +1000,12 @@ _Figure 23-qualité audio-conférences_
 
 ##### <a name="investigation"></a>Procédure
 
-À l’aide de ces rapports, vous pouvez répondre aux questions suivantes:
+À l’aide de ces rapports, vous pouvez répondre aux questions suivantes :
 
--   Quel est le nombre total de V.Q.P.R.D. pour le mois en cours?
--   Le V.Q.P.R.D. est-il inférieur à la métrique cible définie?
--   Le V.L.Q.P.R.D. est-il pire ou mieux que le mois précédent?
--   La tendance du V.Q.P.R.D. augmente-t-elle, elle est constante ou décroissante?
+-   Quel est le nombre total de V.Q.P.R.D. pour le mois en cours ?
+-   Le V.Q.P.R.D. est-il inférieur à la métrique cible définie ?
+-   Le V.L.Q.P.R.D. est-il pire ou mieux que le mois précédent ?
+-   La tendance du V.Q.P.R.D. augmente-t-elle, elle est constante ou décroissante ?
 
 Quelles que soient les réponses aux questions ci-dessus, prenez le temps de rechercher en utilisant les sous-rapports pour rechercher tout bâtiment ou sous-réseau susceptible d’avoir besoin d’une étude. Même si le V.Q.P.R.D. est peut-être inférieur à la métrique cible, le V.Q.P.R.D. d’un ou de plusieurs bâtiments ou réseaux est supérieur à la métrique et nécessite une correction.
 
@@ -1014,7 +1013,7 @@ Quelles que soient les réponses aux questions ci-dessus, prenez le temps de rec
 
 Les rapports de synthèse qualité vous fournissent des informations plus détaillées sur les flux considérés comme médiocres et aident à isoler les zones de problèmes sur le réseau géré.
 
-Bien que les dimensions utilisées soient légèrement différentes entre le rapport, chaque rapport inclut des mesures pour les flux totaux, le nombre total de flux médiocres, le V.Q.P.R.D. et la qualité médiocre. Des rapports ont été créés pour chaque domaine d’intérêt: les conférences, les appels PSTN, les appels RTC et les salles de réunion. Le modèle réseau géré inclut des rapports supplémentaires qui vous permettent de tirer parti des informations d’emplacement téléchargées par le biais du fichier de construction.
+Bien que les dimensions utilisées soient légèrement différentes entre le rapport, chaque rapport inclut des mesures pour les flux totaux, le nombre total de flux médiocres, le V.Q.P.R.D. et la qualité médiocre. Des rapports ont été créés pour chaque domaine d’intérêt : les conférences, les appels PSTN, les appels RTC et les salles de réunion. Le modèle réseau géré inclut des rapports supplémentaires qui vous permettent de tirer parti des informations d’emplacement téléchargées par le biais du fichier de construction.
 
 > [!NOTE]
 > Veillez à ajuster le filtre mois en cours au mois en cours. Sélectionnez **modifier**, puis ajustez l' **année du mois** pour enregistrer le nouveau mois par défaut.
@@ -1029,13 +1028,13 @@ _Figure 24-Résumé du flux audio médiocre en créant et en sous-réseau-confé
 
 ##### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
-Si vous avez reçu une alerte de diagnostic «les appareils de salle de réunion sur les réseaux Wi-Fi entraînent une mauvaise qualité de l’appel», «incluez et hiérarchisez ces appareils dans vos efforts de correction». L’alerte comporte des salles de réunion détectées sur un réseau Wi-Fi qui contribuent activement à la mauvaise qualité des appels.
+Si vous avez reçu une alerte de diagnostic « les appareils de salle de réunion sur les réseaux Wi-Fi entraînent une mauvaise qualité de l’appel », « incluez et hiérarchisez ces appareils dans vos efforts de correction ». L’alerte comporte des salles de réunion détectées sur un réseau Wi-Fi qui contribuent activement à la mauvaise qualité des appels.
 
-Si vous recevez une alerte de diagnostic «une utilisation du VPN affecte la qualité de l’appel», recherchez une solution de tunnellisation fractionnée pour ignorer l’appareil VPN et permettre aux médias de se connecter directement au service. L’alerte a déterminé que le réseau privé virtuel affecte la qualité de l’appel.
+Si vous recevez une alerte de diagnostic « une utilisation du VPN affecte la qualité de l’appel », recherchez une solution de tunnellisation fractionnée pour ignorer l’appareil VPN et permettre aux médias de se connecter directement au service. L’alerte a déterminé que le réseau privé virtuel affecte la qualité de l’appel.
 
 ##### <a name="remediation"></a>Remediation
 
-Concentrez vos efforts de correction sur des bâtiments ou des sous-réseaux disposant du plus grand volume de flux, car cela permet d’optimiser l’impact et de faciliter l’utilisation rapide de l’utilisateur. Utilisez les mesures de gigue, de perte de paquets et de temps de boucle pour comprendre ce qui contribue à la qualité médiocre (il est possible qu’il y ait plusieurs problèmes):
+Concentrez vos efforts de correction sur des bâtiments ou des sous-réseaux disposant du plus grand volume de flux, car cela permet d’optimiser l’impact et de faciliter l’utilisation rapide de l’utilisateur. Utilisez les mesures de gigue, de perte de paquets et de temps de boucle pour comprendre ce qui contribue à la qualité médiocre (il est possible qu’il y ait plusieurs problèmes) :
 
 -   **Gigue**: les paquets multimédias arrivent à des vitesses différentes, ce qui a pour effet d’entendre un haut-parleur du son.
 -   **Perte de paquets**: les paquets multimédias sont déposés, ce qui crée l’effet de mots ou syllabes manquants.
@@ -1045,11 +1044,11 @@ Pour vous aider à examiner vos problèmes de qualité, vous pouvez tirer parti 
 
 N’oubliez pas de faire savoir au support technique que ces réseaux rencontrent des problèmes de qualité pour pouvoir trier et répondre rapidement aux appels entrants.
 
-_Tableau 10: contributeurs courants aux V.Q.P.R.D._
+_Tableau 10 : contributeurs courants aux V.Q.P.R.D._
 
 | Remediation                              | Aide                         |
 |------------------------------------------|----------------------------------|
-| **Réseaux**                                 | **Congestion**: un réseau surutilisé ou sous-approvisionné peut poser des problèmes de qualité multimédia. Collaborer avec l’équipe du réseau pour déterminer si les connexions réseau de l’utilisateur au point de sortie Internet disposent d’une bande passante suffisante pour prendre en charge le contenu multimédia. <br><br>**Effectuer une évaluation de la disponibilité du réseau**: une évaluation du réseau fournit des détails sur l’utilisation de la bande passante attendue, sur la gestion de la bande passante et des changements réseau, ainsi que sur les pratiques recommandées pour les équipes et Skype entreprise. En utilisant le tableau précédent comme source, vous disposez d’une liste de bâtiments ou de sous-réseaux qui constituent un excellent choix pour une analyse.<ul><li>[Évaluation de la compatibilité réseau de Microsoft teams](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Outil Microsoft Network Assessment:** Cet outil vous permet de tester les performances du réseau de manière simple et de déterminer l’efficacité du réseau pour un appel en équipe ou Skype entreprise online. L’outil vous permet d’évaluer les performances d’un sous-réseau et de vérifier la préparation du réseau par rapport [aux exigences](https://aka.ms/performancerequirements)de performances de Microsoft.<ul><li>[Télécharger l’outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
+| **Réseaux**                                 | **Congestion**: un réseau surutilisé ou sous-approvisionné peut poser des problèmes de qualité multimédia. Collaborer avec l’équipe du réseau pour déterminer si les connexions réseau de l’utilisateur au point de sortie Internet disposent d’une bande passante suffisante pour prendre en charge le contenu multimédia. <br><br>**Effectuer une évaluation de la disponibilité du réseau**: une évaluation du réseau fournit des détails sur l’utilisation de la bande passante attendue, sur la gestion de la bande passante et des changements réseau, ainsi que sur les pratiques recommandées pour les équipes et Skype entreprise. En utilisant le tableau précédent comme source, vous disposez d’une liste de bâtiments ou de sous-réseaux qui constituent un excellent choix pour une analyse.<ul><li>[Évaluation de la compatibilité réseau de Microsoft teams](3-envision-evaluate-my-environment.md#test-the-network)</li></ul><br>**Outil Microsoft Network Assessment :** Cet outil vous permet de tester les performances du réseau de manière simple et de déterminer l’efficacité du réseau pour un appel en équipe ou Skype entreprise online. L’outil vous permet d’évaluer les performances d’un sous-réseau et de vérifier la préparation du réseau par rapport [aux exigences](https://aka.ms/performancerequirements)de performances de Microsoft.<ul><li>[Télécharger l’outil d’évaluation du réseau](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul><br> |
 | **Qualité de service (QoS)**  | La qualité de service (QoS) est un outil reconnu qui vous permet de hiérarchiser les paquets sur un réseau encombré pour s’assurer qu’ils arrivent à leur destination intacte et à temps. Envisagez d’implémenter QoS au sein de votre organisation afin d’optimiser la qualité de l’utilisation de la bande passante. La qualité de service (QoS) vous aidera à résoudre les problèmes généralement liés aux niveaux de perte de paquets élevés et à un niveau inférieur pour les temps de scintillement et de boucle.<ul><li>[Conseils QoS de Microsoft teams](qos-in-teams.md)</li></ul> |
 | **Wi-Fi**               | Le Wi-Fi peut avoir un impact important sur la qualité des appels. Les déploiements Wi-Fi ne prennent généralement pas en considération la configuration réseau requise pour les services VoIP et sont souvent une source de mauvaise qualité. Pour plus d’informations sur l’optimisation de votre infrastructure Wi-Fi, voir [cet article sur la planification Wi-Fi](/skypeforbusiness/certification/plan-wifi).<br><br>**Pilote sans fil**: Assurez-vous que les pilotes sans fil sont à jour. Cela permet de réduire les problèmes d’utilisation médiocres liés à un pilote obsolète. Beaucoup d’organisations n’incluent pas de pilotes sans fil dans leurs cycles de correctifs, et ces pilotes peuvent être dépourvus d’une année. De nombreux problèmes sans fil sont résolus en s’assurant que les pilotes sans fil sont à jour.<br><br>**WMM**: les extensions multimédias sans fil (WMM), également appelées multimédia Wi-Fi, fournissent des fonctionnalités QoS de base aux réseaux sans fil. Les réseaux sans fil modernes doivent prendre en charge un grand nombre d’appareils. Ces appareils font concurrence de la bande passante et peuvent entraîner des problèmes de qualité pour les services VoIP, où la vitesse et la latence sont vitales. Pour obtenir des détails spécifiques sur votre fabricant sans fil et envisager d’implémenter WMM sur votre réseau sans fil, vous pouvez définir les priorités de Skype entreprise et de teams.<br><br>**Densité de points d’accès**: les points d’accès peuvent être trop éloignés ou ne pas se trouver dans un emplacement idéal. Pour réduire les interférences potentielles, placez des points d’accès supplémentaires dans des salles de conférence et dans des emplacements qui ne sont pas obstrués par des murs ou d’autres objets pour lesquels le signal Wi-Fi est faible.<br><br>**2,4 GHz et 5 GHz**: 5 GHz fournit moins d’interférences en arrière-plan et des débits plus élevés, et devraient être classés par priorité lors du déploiement de VoIP via Wi-Fi. Toutefois, les 5 GHz ne sont pas aussi puissants qu' 2,4 GHz et ne pénètrent pas facilement dans les murs. Passez en revue votre mode de construction pour déterminer la fréquence de votre choix pour la meilleure connexion. |
 |**Périphérique réseau** | Les grandes organisations peuvent avoir des centaines d’appareils répartis sur le réseau. Travaillez avec votre équipe réseau pour vous assurer que les appareils réseau de l’utilisateur sur Internet sont gérés et à jour. |
@@ -1057,7 +1056,7 @@ _Tableau 10: contributeurs courants aux V.Q.P.R.D._
 | **Clients** <br>(Skype entreprise Online uniquement) | Assurez-vous que tous les clients sont mis à jour régulièrement. |
 | **Appareils** | L’utilisation de [périphériques optimisés](https://partnersolutions.skypeforbusiness.com/solutionscatalog) peut améliorer considérablement l’expérience utilisateur. Avec tous les éléments égaux, les appareils optimisés sont conçus pour optimiser l’expérience utilisateur avec les équipes et Skype entreprise, et obtenir une qualité supérieure. |
 | **Pilote** | Les correctifs de connexion réseau (Ethernet et Wi-Fi), d’audio, de vidéo et de pilotes USB doivent faire partie intégrante de votre stratégie de gestion de correctif globale. De nombreux problèmes de qualité sont résolus en mettant à jour les pilotes. |
-| **Salles de réunion en Wi-Fi** | Nous vous recommandons vivement de se connecter au réseau en utilisant au moins une connexion Ethernet 1 Gbit/s. Les appareils de salle de réunion incluent généralement plusieurs flux audio et vidéo, ainsi que le contenu de la réunion, comme le partage d’écran, et présentent des exigences réseau plus élevées que d’autres équipes ou points de terminaison Skype entreprise. Les salles de réunion sont, par définition, des appareils fixes pour lesquels le Wi-Fi ne donne droit qu’au moment de l’installation.<br><br>Les salles de réunion doivent être traitées sans souci et attention pour garantir que l’utilisation de ces appareils est soumise à des attentes. Les problèmes de qualité liés aux salles de réunion seront généralement réaffectés rapidement, car ils sont souvent utilisés par des employés de niveau supérieur.<br><br>Le niveau de performance du Wi-Fi est souvent inférieur à celui d’une connexion câblée. Grâce à l’augmentation des politiques «mettre en place vos propres périphériques» et à la prolifération des ordinateurs portables, les points d’accès Wi-Fi sont souvent plus sollicités. Le contenu multimédia en temps réel peut ne pas être classé sur les réseaux Wi-Fi, ce qui peut entraîner des problèmes de qualité en temps réel. Cette utilisation intensive peut coïncider avec une réunion dans laquelle il peut y avoir une douzaine de personnes à la fois, chacune avec leur propre ordinateur portable et votre smartphone, connectées au même point d’accès Wi-Fi que l’appareil de salle de réunion.<br><br>Le Wi-Fi ne doit être considéré comme une solution temporaire que pour une installation mobile ou lorsque le Wi-Fi a été correctement configuré pour prendre en charge des contenus multimédias professionnels en temps réel. |
+| **Salles de réunion en Wi-Fi** | Nous vous recommandons vivement de se connecter au réseau en utilisant au moins une connexion Ethernet 1 Gbit/s. Les appareils de salle de réunion incluent généralement plusieurs flux audio et vidéo, ainsi que le contenu de la réunion, comme le partage d’écran, et présentent des exigences réseau plus élevées que d’autres équipes ou points de terminaison Skype entreprise. Les salles de réunion sont, par définition, des appareils fixes pour lesquels le Wi-Fi ne donne droit qu’au moment de l’installation.<br><br>Les salles de réunion doivent être traitées sans souci et attention pour garantir que l’utilisation de ces appareils est soumise à des attentes. Les problèmes de qualité liés aux salles de réunion seront généralement réaffectés rapidement, car ils sont souvent utilisés par des employés de niveau supérieur.<br><br>Le niveau de performance du Wi-Fi est souvent inférieur à celui d’une connexion câblée. Grâce à l’augmentation des politiques « mettre en place vos propres périphériques » et à la prolifération des ordinateurs portables, les points d’accès Wi-Fi sont souvent plus sollicités. Le contenu multimédia en temps réel peut ne pas être classé sur les réseaux Wi-Fi, ce qui peut entraîner des problèmes de qualité en temps réel. Cette utilisation intensive peut coïncider avec une réunion dans laquelle il peut y avoir une douzaine de personnes à la fois, chacune avec leur propre ordinateur portable et votre smartphone, connectées au même point d’accès Wi-Fi que l’appareil de salle de réunion.<br><br>Le Wi-Fi ne doit être considéré comme une solution temporaire que pour une installation mobile ou lorsque le Wi-Fi a été correctement configuré pour prendre en charge des contenus multimédias professionnels en temps réel. |
 
 
 ### <a name="tcp"></a>TCP
@@ -1082,12 +1081,12 @@ TCP_figure 25 – flux audio avec utilisation de TCP_
 
 ##### <a name="investigation"></a>Procédure
 
-En utilisant ce rapport, vous pouvez répondre aux questions suivantes:
+En utilisant ce rapport, vous pouvez répondre aux questions suivantes :
 
--   Quel est le volume total des flux TCP pour le mois en cours?
--   Est-il pire ou mieux que le mois précédent?
--   La tendance de l’utilisation de TCP augmente-t-elle, elle est constante ou dégressive?
--   Le V.Q.P.R.D. est-il identique au V.Q.P.R.D. global?
+-   Quel est le volume total des flux TCP pour le mois en cours ?
+-   Est-il pire ou mieux que le mois précédent ?
+-   La tendance de l’utilisation de TCP augmente-t-elle, elle est constante ou dégressive ?
+-   Le V.Q.P.R.D. est-il identique au V.Q.P.R.D. global ?
 
 Si vous remarquez que la tendance de l’utilisation de TCP augmente ou dépasse l’utilisation mensuelle normale, prenez le temps de rechercher en utilisant les sous-rapports pour rechercher des bâtiments ou des réseaux susceptibles de nécessiter une correction. Idéalement, il est préférable de disposer d’autant de sessions audio TCP que possible sur le réseau géré.
 
@@ -1097,7 +1096,7 @@ Ce rapport identifie le volume des rapports d’utilisation TCP et UDP au plus t
 
 ![État indiquant le volume de flux utilisant TCP et UDP](media/qerguide-image-tcpvsudp.png)
 
-_Figure 26: TCP et UDP-Conferencing_
+_Figure 26 : TCP et UDP-Conferencing_
 
 ##### <a name="analysis"></a>Étude
 
@@ -1115,7 +1114,7 @@ Dans les modèles bord fournis, naviguez jusqu’aux flux TCP en construisant et
 
 ![Capture d’écran de l’utilisation de TCP par bâtiment et sous-réseau](media/qerguide-image-tcpstreams.png)
 
-_Figure 27: flux TCP par bâtiment et sous-réseau-conférences_
+_Figure 27 : flux TCP par bâtiment et sous-réseau-conférences_
 
 ##### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
@@ -1132,7 +1131,7 @@ _Tableau 11-Instructions de correction pour les flux TCP par bâtiment et sous-r
 
 | Remediation        | Aide     |
 |--------------------|--------------------------------------|
-| Configuration du pare-feu | Vérifiez que les [adresses IP et adresses IP d’Office 365](https://aka.ms/o365ips) sont exclues de votre pare-feu. Pour les problèmes TCP liés aux médias, concentrez-vous sur les points suivants:<ul><li>Vérifiez que les sous-réseaux multimédias du client 13.107.64.0/18 et 52.112.0.0/14 se trouvent dans les règles de pare-feu.</li><li>Ports UDP 3478 – 3481 sont les ports multimédias requis et doivent être ouverts, sinon le client bascule à nouveau vers le port 443.</li></ul> |
+| Configuration du pare-feu | Vérifiez que les [adresses IP et adresses IP d’Office 365](https://aka.ms/o365ips) sont exclues de votre pare-feu. Pour les problèmes TCP liés aux médias, concentrez-vous sur les points suivants :<ul><li>Vérifiez que les sous-réseaux multimédias du client 13.107.64.0/18 et 52.112.0.0/14 se trouvent dans les règles de pare-feu.</li><li>Ports UDP 3478 – 3481 sont les ports multimédias requis et doivent être ouverts, sinon le client bascule à nouveau vers le port 443.</li></ul> |
 | Vérifier             | Utilisez l' [outil Microsoft Network Assessment](https://www.microsoft.com/download/details.aspx?id=53885) pour vérifier les problèmes de connectivité avec des adresses IP et des ports Office 365 spécifiques du bâtiment ou du sous-réseau concernés.    |
 
 ### <a name="http-proxy"></a>Proxy HTTP
@@ -1152,7 +1151,7 @@ Le rapport de flux proxy HTTP dans cette section du modèle ressemble beaucoup a
 
 ![Capture d’écran du rapport de flux audio qui utilise HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
-_Figure 28: flux audio avec utilisation du proxy HTTP_
+_Figure 28 : flux audio avec utilisation du proxy HTTP_
 
 ##### <a name="analysis"></a>Étude
 
@@ -1192,7 +1191,7 @@ Pour plus d’informations sur l’utilisation de proxys avec Skype entreprise O
 Cette section est axée sur les tâches de création de rapports sur les versions du client et l’utilisation des appareils certifiés. Les rapports peuvent être utilisés en mode plan pour les versions de client, le type de client, les périphériques de capture et les pilotes (microphone), les appareils de capture vidéo, les versions de pilotes et de fournisseurs Wi-Fi.
 
 > [!NOTE]
-> Tous les rapports inclus dans les modèles ne sont pas abordés dans ce guide; Toutefois, les méthodes de vérification décrites ci-dessous s’appliquent. Pour plus d’informations, reportez-vous à la description du rapport individuel.
+> Tous les rapports inclus dans les modèles ne sont pas abordés dans ce guide ; Toutefois, les méthodes de vérification décrites ci-dessous s’appliquent. Pour plus d’informations, reportez-vous à la description du rapport individuel.
 
 ### <a name="client-versions"></a>Versions de client
 
@@ -1213,11 +1212,11 @@ _Figure 30-rapport sur la version du client_
 
 #### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
-Si vous avez reçu une alerte de diagnostic «les versions clientes incorrectes incorrectes sont utilisées», concentrez-vous sur la mise à jour de ces clients. L’alerte a détecté que ces clients affectent la qualité de vos appels. Vous pouvez utiliser le rapport sur les appareils clients & (illustré ci-dessus) pour vous assurer que les clients présentant des problèmes connus ne sont plus mis à jour.
+Si vous avez reçu une alerte de diagnostic « les versions clientes incorrectes incorrectes sont utilisées », concentrez-vous sur la mise à jour de ces clients. L’alerte a détecté que ces clients affectent la qualité de vos appels. Vous pouvez utiliser le rapport sur les appareils clients & (illustré ci-dessus) pour vous assurer que les clients présentant des problèmes connus ne sont plus mis à jour.
 
 #### <a name="remediation"></a>Remediation
 
-Dans le cadre d’une expérience utilisateur de grande qualité, il est nécessaire de s’assurer que les clients gérés exécutent des versions à jour de Skype entreprise, en plus de garantir la mise à jour des pilotes audio, vidéo, réseau et USB. Cela offre plusieurs avantages: 
+Dans le cadre d’une expérience utilisateur de grande qualité, il est nécessaire de s’assurer que les clients gérés exécutent des versions à jour de Skype entreprise, en plus de garantir la mise à jour des pilotes audio, vidéo, réseau et USB. Cela offre plusieurs avantages : 
 
 -   Il est plus facile de gérer quelques versions par rapport à d’autres versions.
 -   Il offre un niveau de cohérence.
@@ -1226,13 +1225,13 @@ Dans le cadre d’une expérience utilisateur de grande qualité, il est nécess
 
 Le déploiement d’une version de client de moins de six mois permettra d’améliorer l’utilisation globale et de faciliter la gestion en réduisant le nombre de versions qui doivent être prises en charge.
 
-Si vous utilisez uniquement Office «démarrer en un clic», vous êtes automatiquement dans la fenêtre de six mois. Aucune action supplémentaire n’est requise.
+Si vous utilisez uniquement Office « démarrer en un clic », vous êtes automatiquement dans la fenêtre de six mois. Aucune action supplémentaire n’est requise.
 
 Si vous avez une combinaison des packages démarrer en un clic et du programme d’installation (MSI), vous pouvez utiliser le rapport pour vérifier que les clients MSI sont mis à jour régulièrement. Si vous remarquez que des clients sont en retard, travaillez avec l’équipe responsable de la gestion des mises à jour d’Office et assurez-vous qu’elles approuvent et déploient régulièrement des correctifs client.
 
 Il est également important de prendre en considération et de s’assurer que les pilotes réseau, vidéo, USB et audio sont également mis à jour. Il peut être facile de négliger ces pilotes et de ne pas les inclure dans la stratégie de gestion des correctifs.
 
-Pour plus d’informations sur Skype entreprise, consultez les liens ci-dessous:
+Pour plus d’informations sur Skype entreprise, consultez les liens ci-dessous :
 
 -   [Informations de publication des mises à jour d’Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Historique des mises à jour pour Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
@@ -1269,15 +1268,15 @@ _Figure 31-rapport sur les appareils (microphone)_
 
 ##### <a name="diagnostic-alert"></a>Alerte de diagnostic
 
-Si vous avez reçu une alerte de diagnostic «les pilotes audio sont à l’origine de la chute des appels», concentrez-vous sur la correction des axes stratégiques. L’alerte a détecté que les pilotes connus connus sont à l’origine de la chute des appels et qu’ils ont un impact négatif sur la fiabilité des appels. Pour obtenir de l’aide sur le processus, vous pouvez utiliser le rapport microphone-pilotes (illustré ci-dessus), qui se trouve dans la section des appareils du client &.
+Si vous avez reçu une alerte de diagnostic « les pilotes audio sont à l’origine de la chute des appels », concentrez-vous sur la correction des axes stratégiques. L’alerte a détecté que les pilotes connus connus sont à l’origine de la chute des appels et qu’ils ont un impact négatif sur la fiabilité des appels. Pour obtenir de l’aide sur le processus, vous pouvez utiliser le rapport microphone-pilotes (illustré ci-dessus), qui se trouve dans la section des appareils du client &.
 
 ##### <a name="remediation"></a>Remediation
 
-En règle générale, vous devez découvrir et sortir des appareils non certifiés et les remplacer par des appareils certifiés. Voici quelques éléments à prendre en compte lors de l’examen des rapports d’appareil:
+En règle générale, vous devez découvrir et sortir des appareils non certifiés et les remplacer par des appareils certifiés. Voici quelques éléments à prendre en compte lors de l’examen des rapports d’appareil :
 
--   Les appareils utilisent-ils une certification pour teams et Skype entreprise? 
+-   Les appareils utilisent-ils une certification pour teams et Skype entreprise ? 
 -   Vous pouvez identifier les utilisateurs d’un appareil spécifique via l' [analyse des appels](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309). Assurez-vous qu’ils disposent des pilotes les plus récents et qu’ils ne sont pas connectés par le biais d’un concentrateur ou d’une station d’accueil USB. 
--   Combien de versions différentes de différents pilotes sont utilisées? Le correctif est-il régulier? Pour garantir que les pilotes audio et vidéo, ainsi que les pilotes Wi-Fi, nous vous aiderons à éliminer ces problèmes en tant que source de problèmes de qualité et à optimiser l’utilisation de l’utilisateur.
+-   Combien de versions différentes de différents pilotes sont utilisées ? Le correctif est-il régulier ? Pour garantir que les pilotes audio et vidéo, ainsi que les pilotes Wi-Fi, nous vous aiderons à éliminer ces problèmes en tant que source de problèmes de qualité et à optimiser l’utilisation de l’utilisateur.
 
 ##### <a name="audio"></a>Audio
 
@@ -1295,13 +1294,13 @@ Les pilotes Wi-Fi doivent également être corrigés en une cadence normale et �
 
 ### <a name="office-365-network-connectivity-principles"></a>Principes de connectivité réseau d’Office 365
 
-Avant de commencer la planification de votre réseau pour la connectivité réseau à Office 365, il est important de comprendre les principes de connectivité pour gérer le trafic Office 365 en toute sécurité et obtenir les meilleures performances possibles. Les articles suivants vous aideront à comprendre les recommandations les plus récentes pour optimiser la connectivité réseau d’Office 365:
+Avant de commencer la planification de votre réseau pour la connectivité réseau à Office 365, il est important de comprendre les principes de connectivité pour gérer le trafic Office 365 en toute sécurité et obtenir les meilleures performances possibles. Les articles suivants vous aideront à comprendre les recommandations les plus récentes pour optimiser la connectivité réseau d’Office 365 :
 
 [Principes de connectivité réseau d’Office 365](https://aka.ms/pnc)
 
 ### <a name="planning-for-wi-fi"></a>Planification du Wi-Fi
 
-L’approche de la qualité et de la flexibilité de Microsoft dans les réseaux sans fil est en trois parties: de bout en bout, meilleures pratiques de déploiement et maintenance et opérations proactives. Cette présentation de la solution vous guide tout au long de ce processus pour vous permettre d’utiliser Skype entreprise sans fil pour les entreprises:
+L’approche de la qualité et de la flexibilité de Microsoft dans les réseaux sans fil est en trois parties : de bout en bout, meilleures pratiques de déploiement et maintenance et opérations proactives. Cette présentation de la solution vous guide tout au long de ce processus pour vous permettre d’utiliser Skype entreprise sans fil pour les entreprises :
 
 [Garantir une découverte sans fil de Skype entreprise pour les entreprises](https://www.microsoft.com/download/details.aspx?id=47257)
 
@@ -1313,7 +1312,7 @@ Pour plus d’informations sur les concepts de mise en réseau des équipes et d
 
 La qualité de média en temps réel (audio, vidéo et de partage d’application) sur IP est grandement affectée par la qualité de la connectivité réseau de bout en bout. Pour une qualité optimale d’équipe ou de média Skype entreprise, votre réseau doit répondre aux métriques de performance réseau suivantes.
 
-_Tableau 12: exigences de performances réseau_
+_Tableau 12 : exigences de performances réseau_
 
 | Mesure                            | Client vers Microsoft Edge           | Edge du client à Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
@@ -1352,7 +1351,7 @@ Pour plus d’informations, consultez [cet article relatif à la qualité multim
 
 ### <a name="call-analytics-support"></a>Prise en charge de l’analyse des appels
 
--   Communauté: [programme de version préliminaire de Skype entreprise](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
+-   Communauté : [programme de version préliminaire de Skype entreprise](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
 ### <a name="devices"></a>Appareils
 

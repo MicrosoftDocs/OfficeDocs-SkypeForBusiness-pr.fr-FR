@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer la messagerie vocale Cloud pour vos utilisateurs. '
-ms.openlocfilehash: 8417d8338f8ba25b9f3c92d9fc4547ed861f8b8e
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: f53ae3ac948c7b50fa2e68a3fc10cf619299fd16
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253801"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571556"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -35,7 +34,7 @@ Cet article est destiné à l' [administrateur 365 Office](https://support.offic
 > [!NOTE]
 > La messagerie vocale Cloud prend en charge le dépôt de messages vocaux uniquement dans une boîte aux lettres Exchange et ne prend pas en charge les systèmes de messagerie de tiers. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Environnements Cloud uniquement: configurer la messagerie vocale Cloud
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Environnements Cloud uniquement : configurer la messagerie vocale Cloud
 
 Pour les utilisateurs de Skype entreprise Online et des offres d’appels, la boîte vocale Cloud est automatiquement configurée et activée pour les utilisateurs lorsque vous attribuez une licence de **système téléphonique** et un numéro de téléphone à vos utilisateurs.
   
@@ -81,7 +80,7 @@ Vous pouvez régler les paramètres pour vos utilisateurs qui utilisent des stra
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Désactivation de la transcription pour votre organisation
 
-Dans la mesure où le paramètre par défaut de transcription est activé pour votre organisation, il est possible que vous souhaitiez le désactiver à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Pour cela, exécutez:
+Dans la mesure où le paramètre par défaut de transcription est activé pour votre organisation, il est possible que vous souhaitiez le désactiver à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Pour cela, exécutez :
 
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -89,7 +88,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Activer le masquage de transcription pour votre organisation
 
-Le masquage de la transcription est désactivé par défaut pour votre organisation. S’il existe une exigence de l’entreprise pour l’activer, vous pouvez activer le masquage de la transcription à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Pour cela, exécutez:
+Le masquage de la transcription est désactivé par défaut pour votre organisation. S’il existe une exigence de l’entreprise pour l’activer, vous pouvez activer le masquage de la transcription à l’aide de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Pour cela, exécutez :
 
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true

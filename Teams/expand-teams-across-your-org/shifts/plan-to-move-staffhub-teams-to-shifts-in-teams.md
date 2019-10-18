@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Obtenez des conseils pour migrer vos équipes StaffHub vers des équipes dans Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715916"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569672"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planifier le déplacement de vos équipes StaffHub vers les équipes de Microsoft teams
 
 > [!IMPORTANT]
-> À compter du 1er octobre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub ne fonctionnera pas pour tous les utilisateurs du 1er octobre 2019. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> À compter du 31 décembre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub s’arrêtera de fonctionner pour tous les utilisateurs du 31 décembre 2019. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
 
 Le passage de StaffHub à teams démarre lorsque vous commencez à planifier le changement. Pour garantir la réussite de votre déplacement vers Teams, nous avons créé un exemple de chronologie illustrant un plan de transition standard. L’exemple de chronologie décrit les activités de planification pour le déplacement et vous guide dans le passage des équipes StaffHub de votre organisation aux équipes.
 
@@ -39,10 +39,10 @@ Servez-vous de la chronologie en guise d’instructions pour planifier votre pas
 |2     |Passez en revue la documentation sur le passage de StaffHub aux équipes et aux équipes dans l’intégration         |[StaffHub à déretraiter](microsoft-staffhub-to-be-retired.md)<br><br>[Déplacez vos équipes StaffHub vers des équipes dans teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Commencer à utiliser teams](../../get-started-with-teams-quick-start.md)         |
 |3    |Activer les groupes Office 365 pour votre organisation        |[Groupes et équipes Office 365](../../Office-365-groups.md)      |
 |4    |Vérifiez que les conditions préalables sont remplies         |[Vérifier que les conditions préalables sont remplies](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
-|5   |Attribution de licences teams aux utilisateurs de StaffHub au sein de votre organisation|[Assigner des licences Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gérer l'accès des utilisateurs à Microsoft Teams](../../user-access.md)      |
+|5   |Attribution de licences teams aux utilisateurs de StaffHub au sein de votre organisation|[Assigner des licences Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gérer l’accès des utilisateurs à Microsoft Teams](../../user-access.md)      |
 |6    |Installer le module PowerShell Microsoft StaffHub        |[Installer le module PowerShell Microsoft StaffHub](install-the-staffhub-powershell-module.md)        |
 |7     |Déterminez la chronologie et identifiez les utilisateurs de StaffHub pour le déménagement aux équipes       |[Exécuter un rapport pour afficher l’utilisation effective de StaffHub](run-report-to-show-staffhub-usage.md) |
-|version8     |Identifier les utilisateurs d’StaffHub qui n’ont pas de compte Azure AD (qui s’affiche comme «inactif» dans StaffHub) et de lier un compte pour eux     |[Créer un lien vers un compte Azure AD pour les membres de l’équipe StaffHub qui n’en ont pas](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
+|version8     |Identifier les utilisateurs d’StaffHub qui n’ont pas de compte Azure AD (qui s’affiche comme « inactif » dans StaffHub) et de lier un compte pour eux     |[Créer un lien vers un compte Azure AD pour les membres de l’équipe StaffHub qui n’en ont pas](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |09    |Créer du contenu de formation pour les utilisateurs adaptés à votre organisation         |[Préparer un plan de vérification de l’utilisateur pour teams](../../upgrade-user-readiness.md)     |
 |0,10    |Communiquer aux utilisateurs de StaffHub à propos de la transition aux équipes dans teams         |[StaffHub-XXXXXXX XXXXXXX XXXXXXX XXXXXXX XXXXXXX](staffhub-to-teams-email-template.md)         |
 |27,9     |Installer les clients teams         |[Obtenir des clients pour Teams](../../get-clients.md) |

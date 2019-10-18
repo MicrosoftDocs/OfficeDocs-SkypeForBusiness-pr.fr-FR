@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Découvrez ce que vous devez savoir et faire avant de transférer des numéros de téléphone vers des équipes et comment créer une demande de transfert.
-ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: a876309f8404002a76f13913d64926132b315d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464567"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571512"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transférer les numéros de téléphone vers Office 365
 
@@ -84,7 +83,7 @@ Avant de commencer à transférer des numéros de téléphone, nous vous conseil
 
 7. Cliquez sur **Continuer**.
 
-8. Dans la **page Date de transfert** , dans **** la liste déroulante jour, sélectionnez la date, puis dans la liste déroulante **heure de début** , sélectionnez l’heure (heure de la côte est), puis cliquez sur **suivant**.
+8. Dans la **page Date de transfert** , dans la liste déroulante jour, sélectionnez la date, puis dans la liste déroulante heure de **début** , sélectionnez l’heure (heure de la côte est), puis cliquez sur **suivant**. ****
 
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
 

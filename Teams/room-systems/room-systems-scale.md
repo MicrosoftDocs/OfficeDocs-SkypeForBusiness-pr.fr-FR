@@ -11,14 +11,15 @@ ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Consultez cette rubrique pour en savoir plus sur le déploiement de salles de Microsoft teams à des déploiements à grande échelle.
-ms.openlocfilehash: 26bb864f1b3eea49eaf99b598af9b5794df824be
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428008"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573626"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de System Center Configuration Manager
 
@@ -47,7 +48,7 @@ Pour déployer des salles Microsoft teams avec Configuration Manager, vérifiez 
 
 -   Un compte d’accès réseau doit être configuré pour prendre en charge les scénarios de déploiement de nouveaux ordinateurs (de matériel vierge). Pour en savoir plus sur la configuration d’un compte d’accès réseau, voir [gérer les comptes pour accéder au contenu dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Nous vous recommandons d’activer la [prise en charge](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network)de la multidiffusion, si vous déployez en même temps la même image dans plusieurs salles de Microsoft Teams.
+-   Nous vous recommandons d’activer la [prise en charge de la multidiffusion](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si vous déployez en même temps la même image dans plusieurs salles de Microsoft Teams.
 
 ### <a name="networking-requirements"></a>Configuration réseau requise
 
@@ -83,12 +84,12 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 2.  Sélectionnez le serveur de point de distribution qui servira le déploiement de Microsoft Teams, puis sélectionnez **Propriétés**.
 
-3.  Sélectionnez l’onglet **PXE** et assurez-vous que les paramètres suivants sont activés:
+3.  Sélectionnez l’onglet **PXE** et assurez-vous que les paramètres suivants sont activés :
     -   Activer la prise en charge PXE pour les clients
     -   Autoriser ce point de distribution à répondre aux demandes PXE entrantes
     -   Activer la prise en charge d’ordinateurs non connus
 
-4.  *Facultatif:* Pour activer la prise en charge de **** la multidiffusion, sélectionnez l’onglet multidiffusion et assurez-vous que les paramètres suivants sont activés:
+4.  *Facultatif :* Pour activer la prise en charge de la multidiffusion, sélectionnez l’onglet **multidiffusion** et assurez-vous que les paramètres suivants sont activés :
     -   Autoriser la multidiffusion à envoyer des données simultanément à plusieurs clients
     -   Configurer la plage de ports UDP conformément aux recommandations de votre équipe réseau
 
@@ -111,13 +112,13 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 3.  Sélectionnez l’onglet **source de données** , puis activez l’option **déploiement de cette image de démarrage à partir du point de distribution PXE**.
 
-4.  Sélectionnez l’onglet **composants facultatifs** pour installer les composants nécessaires:
+4.  Sélectionnez l’onglet **composants facultatifs** pour installer les composants nécessaires :
 
     1.  Sélectionner l’icône d’étoile et rechercher du **code html (WinPE-HTA)**
 
     2.  Sélectionnez **OK** pour ajouter la prise en charge de l’application HTML dans l’image de démarrage.
 
-5.  *Facultatif:* Pour personnaliser l’interface de déploiement, sélectionnez l’onglet de **personnalisation** .
+5.  *Facultatif :* Pour personnaliser l’interface de déploiement, sélectionnez l’onglet de **personnalisation** .
     -   Activez le **support des commandes (tests uniquement)** si vous souhaitez accéder à une invite de commandes pendant le déploiement. Lorsque cette option est activée, vous pouvez démarrer une invite de commandes en sélectionnant **F8** à tout moment pendant le déploiement.
     -   Vous pouvez également spécifier une image d’arrière-plan personnalisée à afficher lors du déploiement. Pour définir une image, activez **l’option spécifier le fichier d’image d’arrière-plan personnalisé (chemin d’accès UNC** ), puis sélectionnez l’arrière-plan.
 
@@ -157,7 +158,7 @@ Pour plus d’informations, voir [packages et programmes dans System Center Conf
 
 Configuration Manager exige que les fichiers sources du package soient organisés dans une structure de dossiers spécifique lors de leur création initiale et de leur mise à jour.
 
-Créez la structure de dossiers suivante dans le site d’administration centrale de System Center Configuration Manager ou le site principal, ou sur un partage de serveur que vous utilisez pour héberger les fichiers sources du package:
+Créez la structure de dossiers suivante dans le site d’administration centrale de System Center Configuration Manager ou le site principal, ou sur un partage de serveur que vous utilisez pour héberger les fichiers sources du package :
 
 -   SRS v2-package de l’agent de surveillance Microsoft
 -   Package de mise à jour de SRS v2-OS
@@ -179,11 +180,11 @@ Créez la structure de dossiers suivante dans le site d’administration central
 
 1. Téléchargez l’agent de surveillance <https://go.microsoft.com/fwlink/?LinkId=828603>de.
 
-2. Extrayez le package dans le dossier **SRS v2-Microsoft Analysis agent** en ouvrant une fenêtre d’invite de commandes et en entrant **MMASetup-amd64. exe/c:** à l’invite de commandes.
+2. Extrayez le package dans le dossier **SRS v2-Microsoft Analysis agent** en ouvrant une fenêtre d’invite de commandes et en entrant **MMASetup-amd64. exe/c :** à l’invite de commandes.
 
 3. Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-4. Entrez les informations suivantes pour créer le package:
+4. Entrez les informations suivantes pour créer le package :
 
    - Nom<strong>: SRS v2-package de l’agent de surveillance Microsoft</strong>
 
@@ -223,10 +224,10 @@ Créez la structure de dossiers suivante dans le site d’administration central
 
 4. Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-5. Entrez les informations suivantes pour créer le package:
-   -   Nom: **SRS v2 – package mises à jour du système d’exploitation**
-   -   Fabricant: **Microsoft Corporation**
-   -   Version: **1.0.0**
+5. Entrez les informations suivantes pour créer le package :
+   -   Nom : **SRS v2 – package mises à jour du système d’exploitation**
+   -   Fabricant : **Microsoft Corporation**
+   -   Version : **1.0.0**
    -   Cochez la case **ce package contient les fichiers sources** , entrez le chemin d’accès au dossier des **mises à jour de SRS v2-OS** , puis sélectionnez **suivant**.
 
 6. Sélectionnez **ne pas créer de programme**, puis sélectionnez **suivant**.
@@ -237,7 +238,7 @@ Créez la structure de dossiers suivante dans le site d’administration central
 
 ### <a name="create-the-root-certificate-package-optional"></a>Créer le package de certificat racine (facultatif)
 
-Vous créez ce package pour distribuer le certificat racine pour les appareils qui ne seront pas joints à un domaine Active Directory. Créez ce package uniquement si les deux conditions suivantes s’appliquent:
+Vous créez ce package pour distribuer le certificat racine pour les appareils qui ne seront pas joints à un domaine Active Directory. Créez ce package uniquement si les deux conditions suivantes s’appliquent :
 -   Votre déploiement inclut Lync local ou Skype entreprise Server.
 -   Les unités de salles de Microsoft teams sont configurées pour fonctionner au sein d’un groupe de travail au lieu d’un membre du domaine.
 
@@ -245,10 +246,10 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 2.  Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-3.  Entrez les informations suivantes pour créer le package:
-    -   Nom: **SRS v2-package de certificat racine**
-    -   Fabricant: *nom de votre organisation*
-    -   Version: **1.0.0**
+3.  Entrez les informations suivantes pour créer le package :
+    -   Nom : **SRS v2-package de certificat racine**
+    -   Fabricant : *nom de votre organisation*
+    -   Version : **1.0.0**
     -   Activez la case à cocher **ce package contient les fichiers sources** , entrez le chemin d’accès du dossier **SRS v2 – certificat racine du package** , puis sélectionnez **suivant**.
 
 4.  Sélectionnez **ne pas créer de programme**, puis sélectionnez **suivant**.
@@ -265,10 +266,10 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 3.  Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-4.  Entrez les informations suivantes pour créer le package:
-    -   Nom: **SRS v2-package d’application SRS**
-    -   Fabricant: **Microsoft Corporation**
-    -   Version: **3.1.104.0** (entrez la version du fichier d’installation téléchargé)
+4.  Entrez les informations suivantes pour créer le package :
+    -   Nom : **SRS v2-package d’application SRS**
+    -   Fabricant : **Microsoft Corporation**
+    -   Version : **3.1.104.0** (entrez la version du fichier d’installation téléchargé)
     -   Cochez la case **ce package contient les fichiers sources** , entrez le chemin d’accès au dossier **SRS v2 – package d’application SRS** , puis sélectionnez **suivant**.
 5.  Sélectionnez **ne pas créer de programme**, puis sélectionnez **suivant**.
 
@@ -370,13 +371,13 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
     ```
 3.  Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-4.  Entrez les informations suivantes pour créer le package:
+4.  Entrez les informations suivantes pour créer le package :
 
-    -   Nom: **SRS v2-Set-package SRSComputerName**
+    -   Nom : **SRS v2-Set-package SRSComputerName**
 
-    -   Fabricant: **Microsoft Corporation**
+    -   Fabricant : **Microsoft Corporation**
 
-    -   Version: **1.0.0**
+    -   Version : **1.0.0**
 
     -   Cochez la case **ce package contient les fichiers sources** , entrez le chemin d’accès au dossier **SRS v2-Set-SRSComputerName package** , puis sélectionnez **suivant**.
 
@@ -444,10 +445,10 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
    ```
 3. Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-4. Entrez les informations suivantes pour créer le package:
-   -   Nom: **SRS v2-package Sysprep**
-   -   Fabricant: **Microsoft Corporation**
-   -   Version: **1.0.0**
+4. Entrez les informations suivantes pour créer le package :
+   -   Nom : **SRS v2-package Sysprep**
+   -   Fabricant : **Microsoft Corporation**
+   -   Version : **1.0.0**
    -   Cochez la case **ce package contient les fichiers sources** , entrez le chemin d’accès au dossier **SRS v2 – package Sysprep** , puis sélectionnez **suivant**.
 5. Sélectionnez **ne pas créer de programme**, puis sélectionnez **suivant**.
 
@@ -459,7 +460,7 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 1.  Obtenez un média Windows 10 entreprise x64 et copiez le fichier **install. wim** dans le dossier **systèmes\\d’exploitation Windows 10 entreprise** .
 
-2.  Dans la console Configuration Manager, accédez à l’image **** systèmes d’exploitation des **systèmes** \> d’exploitation de la bibliothèque \> de **logiciels** , puis sélectionnez Ajouter une image de **système d’exploitation**.
+2.  Dans la console Configuration Manager, accédez à l’image **systèmes** \> **d’exploitation des**systèmes d’exploitation de la **bibliothèque** \> de logiciels, puis sélectionnez **Ajouter une image de système d’exploitation**.
 
 3.  Spécifiez le chemin d’accès du fichier d' **installation. wim** que vous venez de copier, puis sélectionnez **suivant**.
 
@@ -479,10 +480,10 @@ Les salles de Microsoft teams sont prises en charge pour surface Pro et surface 
 > Les pilotes doivent être compatibles avec la version de Windows 10 entreprise et celle du kit de déploiement de Microsoft Teams. Pour plus d’informations, reportez-vous à [la rubrique Télécharger le microprogramme et pilotes les plus récents pour les appareils surface](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) et [configurer une console](console.md).
 
 1.  Téléchargez les derniers pilotes et microprogrammes.
-    -   Pour surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
-    -   Pour surface Pro 4:<https://www.microsoft.com/download/details.aspx?id=49498>
+    -   Pour surface Pro :<https://www.microsoft.com/download/details.aspx?id=55484>
+    -   Pour surface Pro 4 :<https://www.microsoft.com/download/details.aspx?id=49498>
 
-2.  Extrayez le pilote et le microprogramme téléchargés. Ouvrez une fenêtre d’invite de commandes, puis à l’invite de commandes, entrez l’une des commandes suivantes:
+2.  Extrayez le pilote et le microprogramme téléchargés. Ouvrez une fenêtre d’invite de commandes, puis à l’invite de commandes, entrez l’une des commandes suivantes :
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\\Drivers\Surface Pro 4"`
 
@@ -490,7 +491,7 @@ Les salles de Microsoft teams sont prises en charge pour surface Pro et surface 
 
 4.  Sélectionnez **Importer tous les pilotes dans le chemin réseau suivant (UNC)**, sélectionnez le dossier source (par exemple, C\\:\\_Sources\\pilotes surface Pro), puis sélectionnez **suivant**.
 
-5.  Dans la page **spécifier les détails pour les pilotes** importés, sélectionnez tous les pilotes répertoriés, puis sélectionnez **activer ces pilotes et autoriser les ordinateurs à les installer**.
+5.  Dans la page **spécifier les détails pour les pilotes importés** , sélectionnez tous les pilotes répertoriés, puis sélectionnez **activer ces pilotes et autoriser les ordinateurs à les installer**.
 
 6.  Sélectionnez **catégories**, créez une nouvelle catégorie qui correspond au modèle de surface, sélectionnez **OK**, puis sélectionnez **suivant**.
 
@@ -513,13 +514,13 @@ Les salles de Microsoft teams sont prises en charge pour surface Pro et surface 
 
 1.  Dans la console Configuration Manager, accédez à **packages**de **gestion** \> des applications de la **bibliothèque** \> de logiciels, puis sélectionnez **créer un package**.
 
-2.  Entrez les informations suivantes pour créer le package:
+2.  Entrez les informations suivantes pour créer le package :
 
-    -   Nom: **SRS v2-configurer le package d’installation de SRS**
+    -   Nom : **SRS v2-configurer le package d’installation de SRS**
 
-    -   Fabricant: **Microsoft Corporation**
+    -   Fabricant : **Microsoft Corporation**
 
-    -   Version: **1.0.0**
+    -   Version : **1.0.0**
 
     -   Cochez la case **ce package contient les fichiers sources** , entrez le chemin d’accès au **service SRS v2-configurer le dossier d’installation de SRS** , puis sélectionnez **suivant**.
 
@@ -545,7 +546,7 @@ Tous les packages doivent être distribués aux serveurs auxquels le rôle de po
 
     4.  Sélectionnez **suivant**, puis sélectionnez **Fermer**.
 
-2.  Distribuer des packages de pilotes;
+2.  Distribuer des packages de pilotes ;
 
     1.  Dans la console Configuration Manager, accédez à **packages de pilotes**de **systèmes** \> d’exploitation des **bibliothèques** \> de logiciels. Sélectionnez tous les packages de pilotes que vous souhaitez distribuer, puis sélectionnez **distribuer le contenu**.
 
@@ -581,7 +582,7 @@ Vous utilisez les séquences de tâches avec System Center Configuration Manager
 Vous pouvez télécharger et importer facilement un exemple de séquence de tâches et le personnaliser en fonction de vos besoins.
 
 1.  [**Téléchargez**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) l’exemple de séquence de tâches et copiez le fichier zip téléchargé dans un emplacement partagé.
-2.  Dans la console Configuration Manager, sélectionnez séquences de \> **tâches**des **systèmes d’exploitation** de la **bibliothèque** \> de logiciels, puis importer la **séquence de tâches**.
+2.  Dans la console Configuration Manager, sélectionnez \> **séquences de tâches**des **systèmes d’exploitation** de la **bibliothèque** \> de logiciels, puis importer la séquence de **tâches**.
 
 3.  Sélectionnez **Parcourir**, accédez à l’emplacement du dossier partagé que vous avez utilisé à l’étape 1, sélectionnez le fichier de **déploiement de Microsoft Teams (en-US). zip** , puis sélectionnez **suivant**.
 
@@ -597,7 +598,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
     L’éditeur de séquence de tâches s’ouvre et affiche les étapes séquentielles requises pour le déploiement et la configuration d’une unité de salle Microsoft Teams.
 
-2. Parcourez chacune des étapes et effectuez les mises à jour recommandées:
+2. Parcourez chacune des étapes et effectuez les mises à jour recommandées :
 
    1. **Redémarrer dans Windows PE**: cette étape redémarre puis initialise l’ordinateur dans Windows PXE. Aucune modification n’est requise pour cette étape.
 
@@ -617,7 +618,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
    6. **Appliquer les paramètres réseau**: cette étape vous permet de spécifier un groupe de travail ou un nom de domaine Active Directory et une unité d’organisation.
       > [!NOTE]
       > Pour plus d’informations sur les actions recommandées, consultez la rubrique accès au [domaine du système de salle Skype](domain-joining-considerations.md) pour le déploiement d’unités de réunion Microsoft teams en tant que membres d’un domaine Actve
-   7. **Appliquer des axes stratégiques:** Cette étape et ses sous-étapes permettent le déploiement de pilotes de périphériques et de microprogrammes applicables en fonction du modèle de surface Pro que vous utilisez. Mettez à jour chaque étape pour spécifier le package de pilotes approprié associé au déploiement.
+   7. **Appliquer des axes stratégiques :** Cette étape et ses sous-étapes permettent le déploiement de pilotes de périphériques et de microprogrammes applicables en fonction du modèle de surface Pro que vous utilisez. Mettez à jour chaque étape pour spécifier le package de pilotes approprié associé au déploiement.
       -   Chaque package de pilotes est configuré de manière à tirer parti des filtres WMI (Windows Management Instrumentation) pour déployer les pilotes et le microprogramme appropriés en fonction de la marque et du modèle de surface Pro.
       -   Nous vous recommandons vivement de ne pas modifier la configuration de ces pilotes, sinon le déploiement risque d’échouer.
 
@@ -625,17 +626,17 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
    9. **Installer le certificat racine**: cette étape distribue le certificat racine pour les appareils non joints au domaine et est par conséquent facultatif et désactivé par défaut.
       -   Activez cette étape si vous avez besoin de déployer un certificat racine vers les unités de salles de Microsoft Teams.
-      -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **package SRS (SRS)** 64 et la redirection de votre **système de fichiers** sont sélectionnés.
+      -   Si vous n’avez pas besoin d’effectuer cette étape, vérifiez que le **package SRS (SRS)** 64 et la **redirection** de votre système de fichiers sont sélectionnés.
 
    10. **Installer et configurer l’agent de surveillance**: cette étape installe la version 64 bits de l’agent de suivi Microsoft Azure et configure l’agent pour la connexion à votre espace de travail d’analyse du journal.
        -   Cette étape est désactivée par défaut. Activez cette étape uniquement si vous envisagez d’utiliser l’agent de surveillance pour contrôler l’état de vos unités de salle Microsoft Teams.
        -   Modifiez cette étape et mettez à jour les paramètres de ligne de commande pour spécifier votre **ID d’espace de travail** et votre **espace de travail**.
        -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail de la suite de gestion des opérations et de la clé primaire, voir [configurer des périphériques de test pour la surveillance Azure](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) .
-       -   Assurez-vous que le **service SRS v2 – Microsoft Analysis agent** et désactivez la redirection de **système de fichiers 64 bits** est sélectionné.
+       -   Assurez-vous que le **service SRS v2 – Microsoft Analysis agent** et **désactivez la redirection de système de fichiers 64 bits** est sélectionné.
        -   Pour plus d’informations sur la surveillance de l’état du déploiement de Microsoft Teams, reportez-vous à la rubrique planification de la [gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-plan.md), déploiement de la [gestion des salles Microsoft](azure-monitor-deploy.md) [ Appareils de salle d’équipe avec Azure Monitor](azure-monitor-manage.md).
 
    11. **Copier les fichiers de configuration de SRS v2**: cette étape copie les fichiers d’installation et de configuration requis du kit de déploiement de Microsoft teams sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
-       -   Vérifiez que le **package d’application SRS pour le service SRS** et la désactivation de la redirection de **système de fichiers 64 bits** sont sélectionnés.
+       -   Vérifiez que le **package d’application SRS pour le service SRS** et la **désactivation de la redirection de système de fichiers 64 bits** sont sélectionnés.
 
    12. **Installation-SRSv2-OS-mises à jour**: cette étape déploie toutes les mises à jour de système d’exploitation obligatoires requises avec le déploiement de Microsoft Teams. Procédez comme suit :
        -   Cochez [la case configurer une console de salle Microsoft teams](console.md) pour afficher les mises à jour nécessaires.
@@ -652,7 +653,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
    16. **Ajouter un utilisateur Skype local**: cette étape crée le compte Skype local utilisé pour vous connecter automatiquement à Windows et lancer l’application Microsoft Teams. Il n’y a pas de package logiciel associé et aucune personnalisation n’est requise pour cette étape.
 
    17. **Installer et configurer l’application SRS**: cette étape configure l’installation de l’application Microsoft teams salles pour le prochain démarrage du système d’exploitation.
-       -   Vérifiez que le **service SRS v2 – configurer le package d’installation SRS** et désactiver la redirection de **système de fichiers 64 bits** est sélectionné.
+       -   Vérifiez que le **service SRS v2 – configurer le package d’installation SRS** et **désactiver la redirection de système de fichiers 64 bits** est sélectionné.
 
 > [!IMPORTANT]
 > Il est très important que les étapes de la séquence de tâches doivent être dans l’ordre fourni. La modification de l’ordre des étapes ou la configuration d’étapes supplémentaires peuvent interrompre le déploiement.
@@ -665,7 +666,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
 2. Sélectionnez **Parcourir** pour sélectionner collection cible pour le déploiement.
 
-3. Sélectionnez **tous les ordinateurs** inconnus, puis cliquez sur **OK**.
+3. Sélectionnez **tous les ordinateurs inconnus** , puis cliquez sur **OK**.
 
 4. Sélectionnez **Next (suivant**).
 
@@ -695,7 +696,7 @@ Une fois que vous avez terminé les séquences de tâches System Center Configur
 
 1.  Connectez l’appareil de test au réseau filaire en utilisant l’une des cartes Ethernet prises en charge ou à l’aide du Dock surface. Si la fonctionnalité de démarrage PXE n’a pas été configurée pour votre environnement, vous pouvez utiliser l’image de démarrage sur le lecteur flash USB [que vous avez créé précédemment](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) pour démarrer à partir de la clé USB et vous connecter à Configuration Manager.
 
-2.  Accédez au microprogramme et démarrez un démarrage PXE:
+2.  Accédez au microprogramme et démarrez un démarrage PXE :
 
     1.  Assurez-vous que le périphérique surface est éteint.
 
@@ -740,16 +741,16 @@ Le fichier SMSTS. log est stocké sur l’un des chemins d’accès, en fonction
 
 | **Phase de déploiement**                                                            | **Chemin du journal de séquence des tâches**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
-| WinPE, avant le format HDD                                                        | X:\\Windows\\Temp\\smstslog\\smsts. log             |
-| WinPE, après le format HDD                                                         | C:\\_SMSTaskSequence\\journaux\\Smstslog\\smsts. log    |
-| Système d’exploitation déployé avant l’installation de l’agent Configuration Manager | c:\\_SMSTaskSequence\\journaux\\Smstslog\\smsts. log    |
+| WinPE, avant le format HDD                                                        | X :\\Windows\\Temp\\smstslog\\smsts. log             |
+| WinPE, après le format HDD                                                         | C :\\_SMSTaskSequence\\journaux\\Smstslog\\smsts. log    |
+| Système d’exploitation déployé avant l’installation de l’agent Configuration Manager | c :\\_SMSTaskSequence\\journaux\\Smstslog\\smsts. log    |
 | Système d’exploitation et agent Configuration Manager déployé                   | journaux\\de CCM\\\\%\\windir% system32\\Smstslog smsts. log |
 | Exécution d’une séquence de tâches terminée                                                | % windir%\\system32\\,\\journaux\\de CCM smsts. log           |
 
 > [!TIP]
 > Vous pouvez sélectionner **F8** à tout moment au cours de la séquence de tâches pour ouvrir une console de commandes, puis accéder au fichier smsts. log.
 
-Pour résoudre les problèmes de démarrage PXE, recherchez dans les deux fichiers journaux du serveur Configuration Manager spécifiques aux actions PXE:
+Pour résoudre les problèmes de démarrage PXE, recherchez dans les deux fichiers journaux du serveur Configuration Manager spécifiques aux actions PXE :
 
 -   **Pxecontrol. log**, situé dans le répertoire des journaux d’installation de Configuration Manager
 

@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc5d5b7b97a8105fd8ecc3776479249175962d14
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26abd2a69bc8097c4f74cbc85435cda4eec00887
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483603"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563113"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gérer l'accès des utilisateurs à Microsoft Teams
 =====================================
@@ -52,11 +51,11 @@ Une licence utilisateur d’équipes peut être désactivée à tout moment. Lor
 ## <a name="manage-via-powershell"></a>Gérer via PowerShell
 
 > [!IMPORTANT]
-> Le nouveau-MsolLicenseOptions activera tous les services précédemment désactivés, à moins que explictitly identitied dans votre script personnalisé. Par exemple, si vous souhaitez laisser Exchange & Sway désactivé lors de la désactivation d’équipes, vous devez l’inlcude dans le script ou Exchange & Sway sera activé pour les utilisateurs que vous avez identifiés. Si vous souhaitez utiliser une interface utilisateur pour gérer cette fonctionnalité, voir: [outil de création de rapports et de gestion des licences Office 365-attribuer supprimer des licences en bloc](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
+> Le nouveau-MsolLicenseOptions activera tous les services précédemment désactivés, à moins que explictitly identitied dans votre script personnalisé. Par exemple, si vous souhaitez laisser Exchange & Sway désactivé lors de la désactivation d’équipes, vous devez l’inlcude dans le script ou Exchange & Sway sera activé pour les utilisateurs que vous avez identifiés. Si vous souhaitez utiliser une interface utilisateur pour gérer cette fonctionnalité, voir : [outil de création de rapports et de gestion des licences Office 365-attribuer supprimer des licences en bloc](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)
 
 L’activation et la désactivation de Teams comme licence de charge de travail via PowerShell sont effectuées comme pour n'importe quelle charge de travail. Le nom du plan de service est TEAMS1 pour Microsoft Teams. Pour GCC, le nom du plan de services est TEAMS_GOV. Pour le nom de plan de service de GCC High, le nom du plan de services est TEAMS_GCCHIGH. Pour DoD, le nom du plan de service est TEAMS_DOD (pour plus d’informations, voir [désactiver l’accès aux services avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) .)
 
-**Exemple:** Vous trouverez ci-dessous un exemple rapide de la manière dont vous allez désactiver teams pour tous les utilisateurs d’un type de licence particulier. Vous devez commencer par cette opération. Ensuite, activez Microsoft Teams individuellement pour les utilisateurs devant y avoir accès à des fins de pilote.
+**Exemple :** Vous trouverez ci-dessous un exemple rapide de la manière dont vous allez désactiver teams pour tous les utilisateurs d’un type de licence particulier. Vous devez commencer par cette opération. Ensuite, activez Microsoft Teams individuellement pour les utilisateurs devant y avoir accès à des fins de pilote.
 
 Pour afficher les types d'abonnement dont vous disposez dans votre organisation, utilisez la commande suivante :
 
@@ -66,13 +65,13 @@ Indiquez un nom pour votre forfait qui inclut le nom de votre organisation et le
 
       $acctSKU="<plan name>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
-Pour désactiver teams pour tous les utilisateurs disposant d’une licence active pour votre plan nommé, exécutez la commande suivante:
+Pour désactiver teams pour tous les utilisateurs disposant d’une licence active pour votre plan nommé, exécutez la commande suivante :
 
       Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 
 | | | |
 |---------|---------|---------|
-|![Icône représentant un point de décision](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Point de décision         |<ul><li>Quels sont les plans de votre organisation pour l’intégration d’équipes au sein de l’Organisation?  (Pilote ou ouvert)</li></ul>         |
+|![Icône représentant un point de décision](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Point de décision         |<ul><li>Quels sont les plans de votre organisation pour l’intégration d’équipes au sein de l’Organisation ?  (Pilote ou ouvert)</li></ul>         |
 |![Icône représentant les étapes suivantes](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Étapes suivantes         |<ul><li>S’il s’agit d’une intégration par le biais d’un pilote fermé, décidez si vous souhaitez le faire par le biais d’une licence ou d’une communication ciblée.</li><li>En fonction de la décision, prenez des mesures pour vous assurer que seuls les utilisateurs pilotes peuvent accéder aux équipes (si nécessaire).</li><li>Documenter les recommandations relatives aux utilisateurs qui (ou non) ont accès aux équipes.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gérer teams au niveau du client 365 Office

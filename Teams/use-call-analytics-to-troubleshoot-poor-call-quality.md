@@ -10,8 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -24,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Utilisez les détails d’analyse des appels sur les appareils, les réseaux et la connectivité pour résoudre les problèmes liés aux utilisateurs de Microsoft Teams, ainsi que les réunions et les appels Skype entreprise.
-ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548979"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568633"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
 
@@ -41,7 +40,7 @@ En tant qu’administrateur, vous bénéficiez d’un accès complet à toutes l
 
 Les spécialistes de la prise en charge des communications traitent des problèmes de qualité d’appel. Ils ne recherchent pas les problèmes liés aux réunions. En revanche, il recueille des informations connexes, puis le transmet à un ingénieur du support des communications. Les ingénieurs de support des communications voient les informations contenues dans les journaux d’appels détaillés des spécialistes du support des communications. Le tableau suivant fournit une vue d’ensemble des informations accessibles aux spécialistes de la prise en charge des communications et aux ingénieurs du support des communications lorsqu’ils utilisent la technique d’analyse des appels.
 
-Le niveau d’autorisation qui vous a été attribué détermine le type d’informations auxquelles vous avez accès dans analyse des appels:
+Le niveau d’autorisation qui vous a été attribué détermine le type d’informations auxquelles vous avez accès dans analyse des appels :
   
 - Administrateur de **service teams ou administrateur des communications**: vous avez accès à toutes les informations de l’analyse des appels et au centre d’administration Microsoft Teams.
     
@@ -86,7 +85,7 @@ Le tableau suivant répertorie les problèmes liés à la qualité des sessions 
 |:-----|:-----|:-----|
 |Configurer l’appel  <br/> |Session  <br/> |Le code d’erreur MS-diag 20-29 indique que la configuration de l’appel a échoué. L’utilisateur n’a pas pu rejoindre l’appel ou la réunion.  <br/> |
 |Appel médiocre du réseau audio  <br/> |Session  <br/> |Des problèmes liés à la qualité du réseau (par exemple, perte de paquets, gigue, dégradation NMOS, RTT ou rapport masqué) ont été détectés. Pour plus d’informations sur les conditions utilisées pour classifier les appels médiocres, reportez-vous à ce [billet de blog Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|L’appareil ne fonctionne pas  <br/> |Device  <br/> | Un appareil ne fonctionne pas correctement. Taux de fonctionnement de l’appareil hors fonctionnement: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
+|L’appareil ne fonctionne pas  <br/> |Device  <br/> | Un appareil ne fonctionne pas correctement. Taux de fonctionnement de l’appareil hors fonctionnement : <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 [Configurer l’analyse des appels](set-up-call-analytics.md)

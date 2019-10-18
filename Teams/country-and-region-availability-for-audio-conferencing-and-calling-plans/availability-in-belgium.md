@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Belgique.
-ms.openlocfilehash: f768b8bdedb86ba1e8a29335e3e411e4bebd0842
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 9800d4fd2fe9bc278d313d9e8e16dbc8bc32b058
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571124"
 ---
 # <a name="availability-in-belgium"></a>Disponibilité en Belgique
 
@@ -43,7 +42,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
-|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour:<br/><ul><li> Luxembourg</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour :<br/><ul><li> Luxembourg</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Disponibles  <br/> |
    
 ## <a name="phone-system"></a>Système téléphonique
@@ -60,8 +59,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil: <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>600 minutes pour les forfaits d’appels nationaux et internationaux</li></li> 
-|Est-il possible de passer des appels sortants vers des numéros payants?  <br/> | Non prise en charge pour le moment. <br/> |
+|Minutes disponibles pour les offres d’appels. |Il existe quatre options de plan disponibles par mois civil : <ul><li>Forfait d’appels nationaux de 120 minutes </li><li>Forfait d’appels nationaux de 240 minutes</li></li><li>Forfait d’appels nationaux de 1200 minutes </li></li><li>600 minutes pour les forfaits d’appels nationaux et internationaux</li></li> 
+|Est-il possible de passer des appels sortants vers des numéros payants ?  <br/> | Non prise en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services

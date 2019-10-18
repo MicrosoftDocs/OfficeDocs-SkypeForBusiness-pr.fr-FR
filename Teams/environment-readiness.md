@@ -12,16 +12,15 @@ description: Découvrez quelles données que vous devez rechercher lors de la v�
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0609efd8ac0286857b44996939378e57ce2702f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7988d286c7f75f880572f42793568eb083929e8e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234920"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567451"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Vérifier la préparation de votre environnement pour Microsoft Teams
 ===========================================
@@ -30,7 +29,7 @@ La transition vers le cloud varie pour chaque organisation et l'état actuel peu
 
 Les établissements d’enseignement sont fortement encouragés à [déployer School Data Sync](https://docs.microsoft.com/schooldatasync/) avant le déploiement de Microsoft Teams. School Data Sync utilise les données de la liste du SIS de votre établissement scolaire pour créer automatiquement des classes et des groupes pour Microsoft teams et d’autres applications.
 
-Pour tirer le meilleur parti de teams, votre organisation doit avoir déployé Exchange Online et SharePoint Online. Vous devez également vous assurer que votre environnement actuel est prêt pour Teams.  Pour obtenir de l’aide, consultez les liens suivants:
+Pour tirer le meilleur parti de teams, votre organisation doit avoir déployé Exchange Online et SharePoint Online. Vous devez également vous assurer que votre environnement actuel est prêt pour Teams.  Pour obtenir de l’aide, consultez les liens suivants :
 
 -   Si votre organisation n'a déployé aucune charge de travail Office 365, reportez-vous à l'article [Prise en main d'Office 365 pour les entreprises.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 

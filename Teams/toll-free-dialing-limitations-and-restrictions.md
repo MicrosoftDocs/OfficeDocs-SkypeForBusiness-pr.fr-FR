@@ -1,5 +1,5 @@
 ---
-title: Limitations et restrictions concernant la composition de numéros verts
+title: Limitations et restrictions concernant l’appel de numéros verts
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,18 +21,18 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330515"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571650"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant la composition de numéros verts
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant l’appel de numéros verts
 
 Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Après avoir sélectionné le pays ou la région, vous pouvez accéder à une page contenant le numéro de service gratuit, y compris les détails, restrictions et limites spécifiques. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
   
-Si vous êtes prêt, sélectionnez un pays ou une région:
+Si vous êtes prêt, sélectionnez un pays ou une région :
   
 ## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Sélectionnez votre pays ou région pour afficher les codes, limitations et restrictions de numérotation.
 
@@ -72,7 +71,7 @@ Si vous êtes prêt, sélectionnez un pays ou une région:
 > - [Luxembourg](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
 > - [Malaisie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [Mexique](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
-> - [Moldavie](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
+> - [Moldova](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
 > - [Monaco](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 > - [Pays-Bas](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 > - [Panama](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
@@ -101,7 +100,7 @@ Si vous êtes prêt, sélectionnez un pays ou une région:
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Voici quelques points importants dont vous devez tenir compte concernant les numéros gratuits:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Voici quelques points importants dont vous devez tenir compte concernant les numéros gratuits :
 
 - **Les numéros gratuits ne fonctionnent que dans chaque pays/région.** Par exemple, vos utilisateurs ne seront pas en mesure d’appeler un numéro gratuit australien en dehors de l’Australie.
     
@@ -114,7 +113,7 @@ Si vous êtes prêt, sélectionnez un pays ou une région:
   
 - **L’accès au téléphone fixe, fixe et mobile aux numéros sans frais sont entièrement ou partiellement limités.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
     
-- **Plan de numérotation Amérique du Nord: numéro gratuit:** Des tarifs à la minute pour le plan de numérotation des États-Unis sont déterminés par le pays d’origine. Le tarif gratuit à la minute pour les appels provenant de la carte des États-Unis et le taux défini comme «Amérique du Nord». Toutefois, les appels issus d’autres pays d’Amérique du Nord, tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
+- **Plan de numérotation Amérique du Nord : numéro gratuit :** Des tarifs à la minute pour le plan de numérotation des États-Unis sont déterminés par le pays d’origine. Le tarif gratuit à la minute pour les appels provenant de la carte des États-Unis et le taux défini comme « Amérique du Nord ». Toutefois, les appels issus d’autres pays d’Amérique du Nord, tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

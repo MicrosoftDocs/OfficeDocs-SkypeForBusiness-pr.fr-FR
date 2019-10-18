@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 ms.custom:
 - Phone System
 description: L’apparence des lignes partagées permet à l’utilisateur de choisir un délégué pour répondre à des appels ou gérer son nom.
-ms.openlocfilehash: 67708c05105b83cca80702292a1766a2224681bc
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483700"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571757"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
 L’apparence des lignes partagées fait partie de la fonctionnalité de délégation qui permet à l’utilisateur de choisir un délégué pour répondre aux appels ou gérer ses appels en son nom. Cette fonctionnalité est utile si un utilisateur dispose d’un assistant administratif qui gère régulièrement les appels de l’utilisateur. Dans le contexte de l’apparence de ligne partagée, un responsable est une personne qui autorise un délégué à passer ou recevoir des appels en son nom et un délégué peut émettre et recevoir des appels au nom d’une autre personne.
 
 > [!IMPORTANT]
-> Cette fonctionnalité n’est disponible que dans le mode déploiement d’équipes. Pour plus d’informations sur les modes de déploiement d’équipes, voir comprendre les modes de déploiement de Microsoft Teams, ainsi [que la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Cette fonctionnalité n’est disponible que dans le mode déploiement d’équipes. Pour plus d’informations sur les modes de déploiement d’équipes, voir comprendre les modes de déploiement de [Microsoft Teams, ainsi que la coexistence et l’interopérabilité de Skype entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licence requise
 
@@ -42,7 +42,7 @@ Les responsables et délégués doivent être compatibles voix entreprise. L’i
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et de l’apparence des lignes partagées
 
-Les fonctionnalités de délégation et d’affichage des lignes partagées sont des fonctionnalités utilisateur: il n’y a aucun paramètre d’administration à configurer. Pour plus d’informations sur l’utilisation de la fonctionnalité, voir [partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8) .
+Les fonctionnalités de délégation et d’affichage des lignes partagées sont des fonctionnalités utilisateur : il n’y a aucun paramètre d’administration à configurer. Pour plus d’informations sur l’utilisation de la fonctionnalité, voir [partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8) .
 
 L’administrateur client peut activer la délégation via le paramètre **TeamsCallingPolicy AllowDelegation** ou via le portail d’administration teams pour que cette fonctionnalité fonctionne. 
 

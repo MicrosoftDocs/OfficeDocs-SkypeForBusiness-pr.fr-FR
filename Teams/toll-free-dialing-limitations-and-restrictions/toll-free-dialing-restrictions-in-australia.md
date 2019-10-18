@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 9518268ab254f6c2f5fad4db664e34518b4bf3aa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f518e548c39b574a76350dd241c9672b940c0703
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241832"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570057"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Restrictions de numérotation sans frais en Australie
 
@@ -36,7 +35,7 @@ ms.locfileid: "36241832"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> |0800 XXX XXXX  <br/> |
 |Code ISO pays/région  <br/> |AU  <br/> |
 |Île/territoire couvert  <br/> |Îles Christmas, Tasmanie, Îles Cocos  <br/> |

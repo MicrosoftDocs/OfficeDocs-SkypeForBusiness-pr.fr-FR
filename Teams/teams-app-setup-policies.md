@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Apprenez-en davantage sur les stratégies de configuration des applications dans Microsoft teams et la manière de les utiliser pour épingler des applications afin de personnaliser les équipes pour les utilisateurs de votre organisation.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790908"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570291"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -172,5 +171,5 @@ Pour l’instant, les utilisateurs peuvent modifier l’ordre de leurs applicati
 Veillez à suivre les recommandations relatives au logo avant de procéder à la soumission de l’application. Pour en savoir plus, voir [liste de contrôle pour la soumission du tableau de bord du vendeur](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
  ## <a name="related-topics"></a>Voir aussi
-- [Paramètres d'administration pour les applications dans Microsoft Teams](admin-settings.md)
+- [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)
 - [Publier une application dans le catalogue d’applications client à partir du client teams](tenant-apps-catalog-teams.md)

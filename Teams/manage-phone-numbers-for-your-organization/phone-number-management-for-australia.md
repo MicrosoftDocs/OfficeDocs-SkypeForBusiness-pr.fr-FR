@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -19,15 +18,15 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone en Australie pour Microsoft Teams.
-ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: f8576f383937a9e8889a660619d169cd657d8de7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348002"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573161"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion des numéros de téléphone pour l’Australie
-Nous sommes associés en Australie avec Telstra pour l’achat et la configuration des forfaits d’appels. Telstra vend des forfaits d’appel et fournit la prise en charge pour la gestion des numéros de téléphone pour les numéros d’utilisateur et de service pour les standards automatiques et les files d’attente d'appel. Toutefois, les numéros de service et des licences pour une audioconférence seront toujours être vendus et gérées par Office 365.
+En Australie, nous nous sommes associés à Telstra pour l’achat et la mise en service des offres d’appels pour les clients possédant une adresse de facturation en Australie. Telstra vendra leurs forfaits d’appel, fournir des numéros d’utilisateur australiens et fournira une assistance pour la gestion des numéros de téléphone pour les utilisateurs et les numéros de service des standards automatiques et des files d’attente d’appels. Toutefois, les numéros de service et des licences pour une audioconférence seront toujours être vendus et gérées par Office 365.
 
 Pour plus d’informations, voir [Telstra Calling pour Office 365](https://aka.ms/TelstraVoicePlan).
 

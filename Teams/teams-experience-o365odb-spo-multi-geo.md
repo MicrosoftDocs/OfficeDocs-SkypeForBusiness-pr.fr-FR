@@ -11,16 +11,15 @@ description: Apprenez-en davantage sur l’utilisation des équipes dans un espa
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d81554517a42fd05b8f81097dc01f8dc72977c72
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cf2fac5249f2267c7813c1ba12aade279da094f3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243830"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570233"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Expérience Teams dans un client Office 365 OneDrive et SharePoint Online Multi-Géo
 ===========================================
@@ -33,6 +32,6 @@ Le site de groupe d’une équipe donné est également compatible avec plusieur
 
 Dans la mesure où une location multipoint est un client global unique, au cours des @ mentions, les utilisateurs satellites pourront voir leurs collègues du monde entier, quel que soit l’endroit où ils se trouvent. 
 
-Remarque: les conversations dans les conversations et les notes de messagerie instantanée de réunion au sein de l’interface de Teams ne prennent pas en charge la géolocalisation et ne se trouvent qu’à l’intérieur de l’emplacement central du client. En règle générale, les conversations par messagerie instantanée ne sont pas appliquées aux besoins de résidence des données.
+Remarque : les conversations dans les conversations et les notes de messagerie instantanée de réunion au sein de l’interface de Teams ne prennent pas en charge la géolocalisation et ne se trouvent qu’à l’intérieur de l’emplacement central du client. En règle générale, les conversations par messagerie instantanée ne sont pas appliquées aux besoins de résidence des données.
 
 Pour plus d’informations sur Office 365 multi-géo, voir la [page de capacités de Microsoft multi-géo](https://aka.ms/multi-geo).

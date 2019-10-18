@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des événements en direct teams tenus au sein de votre organisation.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1d60ce0e8796d038c6ea8890066c1aee5f0ec6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243701"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570189"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 
@@ -30,7 +29,7 @@ Utilisez les paramètres d’événements en direct teams pour configurer les pa
 
 Vous pouvez facilement gérer ces paramètres dans le centre d’administration Microsoft Teams. Dans le volet de navigation de gauche, accédez à la section **réunions** > en**direct des événements**. 
 
-![Capture d’écran des paramètres des événements en direct teams] (../media/teams-live-events-settings.png "Capture d’écran des paramètres d’événements en direct teams que vous pouvez configurer dans le centre d’administration Microsoft teams") 
+![Capture d’écran des paramètres des événements en direct teams](../media/teams-live-events-settings.png "Capture d’écran des paramètres d’événements en direct teams que vous pouvez configurer dans le centre d’administration Microsoft teams") 
 
 ## <a name="set-up-event-support-url"></a>Configurer l’URL du support technique des événements
 
@@ -41,7 +40,7 @@ Cette URL est présentée aux participants de l’événement en direct. Ajoutez
 1. Dans le volet de navigation de gauche, accédez à la section **réunions** > en**temps réel des événements**.
 2. Sous **URL du support technique**, entrez l’URL du support technique de votre organisation. 
 
-    ![Paramètre d’URL d’assistance pour les événements en direct dans le centre d’administration] (../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL du support technique pour les événements en direct teams")
+    ![Paramètre d’URL d’assistance pour les événements en direct dans le centre d’administration](../media/teams-live-events-settings-supporturl.png "Capture d’écran du paramètre d’URL du support technique pour les événements en direct teams")
 
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
 Exécutez la commande suivante :
@@ -56,9 +55,9 @@ Si vous avez acheté et configuré une solution SDN (Software Defined Network) o
 ### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft teams
 
 1. Dans le volet de navigation de gauche, accédez à la section **réunions** > en**temps réel des événements**.
-2. Sous **fournisseurs de distribution vidéo tiers**, procédez comme suit: 
+2. Sous **fournisseurs de distribution vidéo tiers**, procédez comme suit : 
 
-    ![Paramètres du fournisseur de distribution vidéo tiers dans le centre d’administration] (../media/teams-live-events-settings-distribution-provider.png "Capture d’écran des paramètres du fournisseur de distribution vidéo tiers pour les événements en direct")
+    ![Paramètres du fournisseur de distribution vidéo tiers dans le centre d’administration](../media/teams-live-events-settings-distribution-provider.png "Capture d’écran des paramètres du fournisseur de distribution vidéo tiers pour les événements en direct")
 
     - **Utiliser un fournisseur de distribution tiers** Activez cette activation pour activer le fournisseur de distribution vidéo tiers.
     - **Nom du fournisseur de SDN** Choisissez le fournisseur que vous utilisez.
@@ -66,7 +65,7 @@ Si vous avez acheté et configuré une solution SDN (Software Defined Network) o
     - **URL du modèle d’API SDN** Entrez l’URL du modèle d’API obtenue auprès du contact du fournisseur.
 
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
-Obtenez l’ID de licence ou le jeton d’API ainsi que le modèle d’API du contact du fournisseur, puis exécutez l’une des actions suivantes, selon le fournisseur que vous utilisez:
+Obtenez l’ID de licence ou le jeton d’API ainsi que le modèle d’API du contact du fournisseur, puis exécutez l’une des actions suivantes, selon le fournisseur que vous utilisez :
 
 **Ruche** 
 ```

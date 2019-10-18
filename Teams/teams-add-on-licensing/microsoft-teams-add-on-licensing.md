@@ -9,7 +9,6 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Apprenez-en davantage sur les licences de complément, les fonctionnalités que vous allez obtenir avec chaque licence, comment les acheter pour votre produit et comment utiliser votre opérateur existant avec eux. Vous pouvez obtenir des informations sur les tarifs et les détails de votre plan pour Office 365, les crédits de communication et les offres d’appels.
-ms.openlocfilehash: 2c2f3ecb632fda65d92b5c903c698eb9a53fa5ae
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242740"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571201"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licences de module complémentaire Microsoft Teams
 
@@ -38,7 +37,7 @@ La gestion des licences Microsoft teams est conçue pour vous offrir une marge d
 
 Pour la plupart des entreprises, l'achat d'une offre groupée de logiciels dans le cadre d'une offre d'entreprise entraîne des coûts globaux moindres. En règle générale, si vous achetez plusieurs licences de compléments individuellement au lieu d’une offre, vous risquez d’obtenir une augmentation des coûts combinés.
 
-Pour plus d’informations sur les coûts, voir l’une des rubriques suivantes:
+Pour plus d’informations sur les coûts, voir l’une des rubriques suivantes :
 
 - [Tarifs pour les conférences audio](https://products.office.com/microsoft-teams/online-meeting-solutions)
 
@@ -46,7 +45,7 @@ Pour plus d’informations sur les coûts, voir l’une des rubriques suivantes:
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quelles fonctionnalités puis-je obtenir avec des licences de complément ?
 
-En fonction de l’offre dont vous disposez, vous pouvez acheter des licences de complément pour les fonctionnalités suivantes de Microsoft teams:
+En fonction de l’offre dont vous disposez, vous pouvez acheter des licences de complément pour les fonctionnalités suivantes de Microsoft teams :
 
 |||
 |:-----|:-----|
@@ -80,7 +79,7 @@ En fonction des modules complémentaires que vous souhaitez acquérir, nous vous
 
 Consultez les détails de votre forfait sous « Options de licence en fonction de votre forfait » pour plus d’informations sur quelles licences acheter et comment consulter les prix et acheter des licences de modules complémentaires.
 
-## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>Comment puis-je utiliser mes offres d’appel existantes avec teams?
+## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>Comment puis-je utiliser mes offres d’appel existantes avec teams ?
 <a name="bkmk_existing"></a>
 <!---
 If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
