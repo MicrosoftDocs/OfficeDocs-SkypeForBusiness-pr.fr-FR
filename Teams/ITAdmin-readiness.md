@@ -10,7 +10,6 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
 f1keywords:
@@ -18,12 +17,12 @@ f1keywords:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67adf55badb30504ba55ed814c735de89fb9dc6b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483222"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563878"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -99,6 +98,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 | Planification de Réseau | [Vidéo](https://aka.ms/teams-networking) | [Support de présentation](https://aka.ms/teams-networking-deck) |
 | Vue d’ensemble de qualité appel | [Vidéo](https://aka.ms/teams-quality) | [Support de présentation](https://aka.ms/teams-quality-deck) |
 | Présentation des réunions | [Vidéo](https://aka.ms/teams-meetings-intro) | [Support de présentation](https://aka.ms/teams-meetings-intro-deck) |
+| Media |[Vidéo](https://aka.ms/media-in-teams)  | [Support de présentation](https://aka.ms/media-in-teams-deck)|
 | Événements en direct | [Vidéo](https://aka.ms/teams-live-events-session) | [Support de présentation](https://aka.ms/teams-live-events-deck) |
 | Présentation du système de téléphone | [Vidéo](https://aka.ms/teams-phone-system) | [Support de présentation](https://aka.ms/teams-phone-system-deck) |
 | Routage direct | [Vidéo](https://aka.ms/teams-direct-routing) | [Support de présentation](https://aka.ms/teams-direct-routing-deck) |
