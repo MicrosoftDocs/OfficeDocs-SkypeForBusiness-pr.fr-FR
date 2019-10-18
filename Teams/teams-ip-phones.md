@@ -7,7 +7,8 @@ ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Téléphone de bureau IP et de conférence certifiés pour Microsoft teams
-ms.openlocfilehash: 887393825d2894f97afa6f811455e349fd91d877
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427590"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570200"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Téléphones IP certifiés pour Microsoft teams
 
@@ -30,7 +31,7 @@ Le programme de certification des téléphones IP vérifie que les clients qui u
 
 ## <a name="announcing-certified-for-microsoft-teams"></a>Annonce de la certification de Microsoft teams
 
-En plus d’offrir à vos clients une gamme de téléphones IP certifiés Skype entreprise, dans le cadre du programme de certification des téléphones IP de Microsoft Teams, nous avons annoncé la disponibilité du nouveau matériel de téléphone IP qui sera certifié pour Microsoft Teams. Ce programme de certification assure une barre de meilleure qualité avec des cibles de performances et des indicateurs de qualité audio plus élevés. Les prestataires de services de téléphonie travaillent activement en fonction de cette plus grande barre et seront éligibles aux nouvelles exigences de cette année civile. Certains de nos partenaires travaillent également à la prise en charge du service Skype entreprise sur le même matériel que les téléphones IP Teams. Les avantages du téléphone IP certifié teams sont les suivants:
+En plus d’offrir à vos clients une gamme de téléphones IP certifiés Skype entreprise, dans le cadre du programme de certification des téléphones IP de Microsoft Teams, nous avons annoncé la disponibilité du nouveau matériel de téléphone IP qui sera certifié pour Microsoft Teams. Ce programme de certification assure une barre de meilleure qualité avec des cibles de performances et des indicateurs de qualité audio plus élevés. Les prestataires de services de téléphonie travaillent activement en fonction de cette plus grande barre et seront éligibles aux nouvelles exigences de cette année civile. Certains de nos partenaires travaillent également à la prise en charge du service Skype entreprise sur le même matériel que les téléphones IP Teams. Les avantages du téléphone IP certifié teams sont les suivants :
 
 - Expertise en équipe native avec intégration de bouton matériel et notifications de VOYANTs
 - Intégration de calendrier et participation à une réunion en un clic
@@ -38,7 +39,7 @@ En plus d’offrir à vos clients une gamme de téléphones IP certifiés Skype 
 
 ## <a name="currently-certified-ip-phones"></a>Téléphones IP actuellement certifiés
 
-Les téléphones suivants sont certifiés pour Microsoft teams:
+Les téléphones suivants sont certifiés pour Microsoft teams :
 
 |Modèle de téléphone|Version du microprogramme|Date de publication |
 |:---|:---|:---|
@@ -58,7 +59,7 @@ Pour déterminer la version du microprogramme [sur un appareil mobile](/Microsof
 
 Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement Office 365](/MicrosoftTeams/Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
-Pour plus d’informations sur l’obtention d’équipes, voir [Comment obtenir l’accès à Microsoft teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Pour plus d’informations sur l’obtention d’équipes, voir [Comment obtenir l’accès à Microsoft teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 * * *
 

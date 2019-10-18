@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Obtenez des informations détaillées sur les dimensions et les mesures utilisées par le tableau de bord de qualité des appels de Microsoft teams et de Skype entreprise online.
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328405"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572255"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensions et mesures disponibles dans le tableau de bord de qualité des appels
 
@@ -392,8 +393,7 @@ Les informations de dimensions sont basées en partie sur les données chargées
 | Nom du premier point de terminaison|String|Nom du produit du premier point de terminaison (Skype entreprise ou Microsoft Teams).|
 | Nom du deuxième produit de point de terminaison|String|Nom du produit du deuxième point de terminaison (Skype entreprise ou Microsoft Teams).|
 | Premier UserType|Chaîne d’énumération|Type d’utilisateur du premier point de terminaison. <br/> **Valeurs possibles :** Utilisateur, serveur, anonyme, application, RTC, boîte vocale, inconnu <br/> <br/>**Inconnu** -valeur par défaut si la valeur de usertype ne peut pas être déterminée en fonction des informations reçues. <br/>**RTC** : utilisateur PSTN. <br/>**Anonyme** -utilisateur teams ou visiteur Skype entreprise. <br/>**Application** : a bot. <br/>**Les utilisateurs d’un utilisateur AAD** peuvent être un utilisateur de Skype entreprise ou d’équipes. <br/>**Serveur** : pour les conférences, au moins un côté est un serveur. <br/>Boîte **vocale** : le point de terminaison a été répondu par le service de boîte vocale.||
-| Deuxième UserType|Chaîne d’énumération|Type d’utilisateur sur le deuxième point de terminaison. <br/> **Valeurs possibles :** Utilisateur, serveur, anonyme, application, RTC, boîte vocale, inconnu <br/> <br/>**Inconnu** -valeur par défaut si la valeur de usertype ne peut pas être déterminée en fonction des informations reçues. <br/>**RTC** : utilisateur PSTN. <br/>**Anonyme** -utilisateur teams ou visiteur Skype entreprise. <br/>**Application** : a bot. <br/>**Les utilisateurs d’un utilisateur AAD** peuvent être un utilisateur de Skype entreprise ou d’équipes. <br/>**Serveur** : pour les conférences, il s’agit d’au moins un côté serveur.
-<br/>Boîte **vocale** : le point de terminaison a été répondu par le service de boîte vocale.||
+| Deuxième UserType|Chaîne d’énumération|Type d’utilisateur sur le deuxième point de terminaison. <br/> **Valeurs possibles :** Utilisateur, serveur, anonyme, application, RTC, boîte vocale, inconnu <br/> <br/>**Inconnu** -valeur par défaut si la valeur de usertype ne peut pas être déterminée en fonction des informations reçues. <br/>**RTC** : utilisateur PSTN. <br/>**Anonyme** -utilisateur teams ou visiteur Skype entreprise. <br/>**Application** : a bot. <br/>**Les utilisateurs d’un utilisateur AAD** peuvent être un utilisateur de Skype entreprise ou d’équipes. <br/>**Serveur** : pour les conférences, il s’agit d’au moins un côté serveur. <br/>Boîte **vocale** : le point de terminaison a été répondu par le service de boîte vocale.||
 |**Datapair**|||
 | Network Connection Detail Pair  | Paire énumérée <br/>**Valeurs possibles :** <br/> wifi : wifi <br/> wifi : filaire <br/> Filaire : wifi <br/> Filaire : filaire <br/> MobileBB : MobileBB <br/> MobileBB : autre <br/> MobileBB : tunnel <br/> MobileBB : wifi <br/> MobileBB : filaire <br/> Autre : autre <br/> Autre : wifi <br/> Autre : filaire <br/> Tunnel : tunnel <br/> Tunnel : wifi <br/> Tunnel : filaire <br/> : MobileBB <br/> : Autre <br/> : Tunnel <br/> : wifi <br/> : Filaire <br/> :  | Paire de détails de connexion réseau pour le premier et le deuxième système d'extrémités.  | &bull;Le type de connectivité réseau du point de terminaison est inconnu. Cela peut se produire si l'appel n'a pas pu être établi.   |
 | User Agent Category Pair  | Paire énumérée  | Paire de catégorie de l'agent utilisateur pour le premier et le deuxième point de terminaison. <br/> **Exemple de valeur :** AV-MCU : OC  | &bull;Le type de l’agent utilisateur de point de terminaison n’est pas connu  |

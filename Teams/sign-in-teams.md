@@ -12,16 +12,15 @@ ms.reviewer: ''
 description: Se connecter à Microsoft teams à l’aide de l’authentification moderne.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242510"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563121"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
@@ -55,5 +54,5 @@ Pour vous déconnecter de teams, les utilisateurs peuvent cliquer sur leur image
 
 L’authentification moderne est disponible pour toutes les organisations qui utilisent Teams, de sorte que si les utilisateurs ne sont pas en mesure de terminer le processus, il se peut qu’il y ait un problème au niveau de votre domaine ou du compte Office 365 entreprise de votre organisation. 
 
-Pour plus d’informations, reportez-vous à la section [pourquoi je rencontre des difficultés pour me connecter à Microsoft teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+Pour plus d’informations, reportez-vous à la section [pourquoi je rencontre des difficultés pour me connecter à Microsoft teams ?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
 

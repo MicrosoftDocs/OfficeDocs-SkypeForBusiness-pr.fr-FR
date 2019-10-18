@@ -9,8 +9,7 @@ ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurez et utilisez l’analyse des appels pour identifier et résoudre les problèmes de qualité d’appel dans Skype entreprise et Microsoft Teams.
-ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432776"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571248"
 ---
 # <a name="set-up-call-analytics"></a>Configurer l’analyse des appels
 
-En tant qu’administrateur Skype entreprise Online, vous pouvez utiliser les services d’analyse des appels pour résoudre les problèmes de qualité d’appel et de connexion de Skype entreprise et Microsoft Teams. Il est possible que vous ayez besoin de configurer les fonctionnalités suivantes dans analyse d’appel:
+En tant qu’administrateur Skype entreprise Online, vous pouvez utiliser les services d’analyse des appels pour résoudre les problèmes de qualité d’appel et de connexion de Skype entreprise et Microsoft Teams. Il est possible que vous ayez besoin de configurer les fonctionnalités suivantes dans analyse d’appel :
   
 - Définissez des autorisations qui permettent à d’autres utilisateurs, tels que les agents de support technique, d’utiliser l’analyse des appels, mais empêchez-les d’accéder au reste du centre d’administration Microsoft Teams. 
     
 - Ajoutez des informations de bâtiment, de site et de client pour appeler des analyses en chargeant un fichier de données. TSV ou. csv.
     
-**L’analyse des appels est désormais disponible dans le centre d’administration Microsoft teams**. Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **historique des appels** . Pour cela, vous pouvez consulter la page de profil de l’utilisateur en effectuant l’une des opérations suivantes:
+**L’analyse des appels est désormais disponible dans le centre d’administration Microsoft teams**. Pour afficher toutes les informations d’appel et les données d’un utilisateur, utilisez l’onglet **historique des appels** . Pour cela, vous pouvez consulter la page de profil de l’utilisateur en effectuant l’une des opérations suivantes :
 
 - Recherchez l’utilisateur dans le tableau de bord.
   
@@ -65,7 +64,7 @@ Les spécialistes de la prise en charge des communications traitent des problèm
 ||Numéro de téléphone de l’appelant  <br/> |Le numéro de téléphone complet sauf les trois derniers Par exemple, 15552823 * * *.  <br/> |Le numéro de téléphone complet sauf les trois derniers Par exemple, 15552823 * * *.  <br/> |
 ||Numéro de téléphone du destinataire  <br/> |Le numéro de téléphone complet sauf les trois derniers Par exemple, 15552823 * * *.  <br/> |Le numéro de téléphone complet sauf les trois derniers Par exemple, 15552823 * * *.  <br/> |
 ||**** > Onglet**avancé** des détails des appels <br/> |Informations non affichées.  <br/> |Tous les détails indiqués, tels que les noms des appareils, l’adresse IP, le mappage de sous-réseau, etc.  <br/> |
-||**** > Onglet débogage**avancé** > **** détails des appels <br/> |Informations non affichées.  <br/> |Tous les détails indiqués, tels que les suffixes DNS et SSID.  <br/> |
+||**** > Onglet**débogage** **avancé** > détails des appels <br/> |Informations non affichées.  <br/> |Tous les détails indiqués, tels que les suffixes DNS et SSID.  <br/> |
 |**Réunions** <br/> |Noms des participants  <br/> |Uniquement le nom de l’utilisateur pour lequel l’agent a effectué la recherche. Autres participants identifiés comme utilisateurs internes ou utilisateurs externes.  <br/> |Tous les noms affichés.  <br/> |
 ||Nombre de participants  <br/> |Nombre de participants.  <br/> |Nombre de participants.  <br/> |
 ||Détails de la session  <br/> |Détails de la session accompagnés d’exceptions. Uniquement le nom de l’utilisateur pour lequel la recherche de l’agent est affichée. Autres participants identifiés comme utilisateurs internes ou utilisateurs externes. Les trois derniers chiffres du numéro de téléphone brouillés par des symboles d’astérisque.  <br/> |Détails de la session affichés. Les noms d’utilisateur et les détails de la session apparaissent. Les trois derniers chiffres du numéro de téléphone brouillés par des symboles d’astérisque.  <br/> |
@@ -79,13 +78,13 @@ Pour plus d’informations sur l’attribution de rôles d’administrateur dans
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Télécharger un fichier. TSV ou. csv pour ajouter des informations de bâtiment, de site et de client
 <a name="BKMK_UploadFiles"> </a>
 
-Vous pouvez ajouter des informations de bâtiment, de site et de client pour appeler des analyses en chargeant un fichier. csv ou. TSV. À l’aide de ces informations, l’analyse des appels permet de mapper les adresses IP aux emplacements physiques. Les agents de support technique ou vous-même trouverez ces informations utiles pour détecter les tendances en matière de problèmes d’appel. Par exemple, pourquoi de nombreux utilisateurs d’un même immeuble présentent-ils des problèmes de qualité d’appel similaires? 
+Vous pouvez ajouter des informations de bâtiment, de site et de client pour appeler des analyses en chargeant un fichier. csv ou. TSV. À l’aide de ces informations, l’analyse des appels permet de mapper les adresses IP aux emplacements physiques. Les agents de support technique ou vous-même trouverez ces informations utiles pour détecter les tendances en matière de problèmes d’appel. Par exemple, pourquoi de nombreux utilisateurs d’un même immeuble présentent-ils des problèmes de qualité d’appel similaires ? 
 
-Si vous êtes un administrateur de équipes et Skype entreprise, vous pouvez utiliser un fichier de données existant à partir du tableau de bord de qualité des appels de & de Skype entreprise. Tout d’abord, vous devez télécharger le fichier à partir du tableau de bord de qualité des appels, puis le charger pour appeler Analytics. 
+Si vous êtes un administrateur de équipes et Skype entreprise, vous pouvez utiliser un fichier de données existant à partir de l’équipe & tableau de bord de qualité des appels Skype entreprise. Tout d’abord, vous devez télécharger le fichier à partir du tableau de bord de qualité des appels, puis le charger pour appeler Analytics. 
 
-- Pour**** télécharger un fichier de données existant, accédez au centre > d' **administration Microsoft teams**de qualité > des**appels**. Dans la liste **Mes téléchargements** , cliquez sur **Télécharger** en regard du fichier souhaité.
+- Pour**Télécharger un**fichier de données existant, accédez au centre > d' **administration Microsoft teams**de**qualité** > des appels. Dans la liste **Mes téléchargements** , cliquez sur **Télécharger** en regard du fichier souhaité.
 
-- Pour télécharger le nouveau fichier, accédez à**emplacements**du **Centre** > d’administration de Microsoft Teams, puis sélectionnez charger les données d' **emplacement** ou remplacer les **données d’emplacement**.
+- Pour télécharger le nouveau fichier, accédez à > **emplacements**du **Centre d’administration de Microsoft teams**, puis sélectionnez **charger les données d’emplacement** ou remplacer les données d' **emplacement**.
   
 Si vous créez le fichier. TSV ou. csv à partir de zéro, voir [format de fichier de données client et structure du fichier de données](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   

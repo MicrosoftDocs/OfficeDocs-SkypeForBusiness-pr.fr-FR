@@ -8,19 +8,19 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Obtenez une brève présentation générale de la manière dont un invité est invité à rejoindre une équipe dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff9565cab22dd34251624a39755d322470d2eb04
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: dd21ea186b826a8284a5100e611e0ffc28712dd5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241952"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565076"
 ---
 <a name="how-a-guest-joins-a-team"></a>Comment un invité rejoint une équipe
 ========================
@@ -34,7 +34,7 @@ Voici comment un invité devient membre d'une équipe :
 
 - **Étape 1** Un propriétaire d'équipe ou un administrateur d'Office 365 [ajoute un invité à une équipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 
-- **Étape 2** L’administrateur 365 d’Office ou le propriétaire de l’équipe gère les fonctionnalités d’un invité selon les besoins: par exemple, permettant à un invité d’ajouter ou de supprimer des canaux ou de désactiver l’accès aux fichiers.
+- **Étape 2** L’administrateur 365 d’Office ou le propriétaire de l’équipe gère les fonctionnalités d’un invité selon les besoins : par exemple, permettant à un invité d’ajouter ou de supprimer des canaux ou de désactiver l’accès aux fichiers.
 
 - **Étape 3** L’invité reçoit un message de bienvenue du propriétaire de l’équipe, ainsi que des informations sur son équipe et ce à quoi vous devez vous attendre. Les utilisateurs invités disposant d’une adresse de messagerie disposant d’un compte Azure Active Directory ou d’un compte professionnel ou scolaire Office 365 peuvent accepter directement l’invitation. Si l’invité ne dispose pas encore d’un compte Microsoft associé à son adresse de messagerie, il sera invité à en créer un gratuitement. Après avoir accepté l’invitation, l’invité peut [participer aux équipes et aux canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), recevoir des messages et y répondre, [accéder aux fichiers dans des canaux](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), participer à des conversations, participer à des réunions, collaborer sur des documents, etc. 
 

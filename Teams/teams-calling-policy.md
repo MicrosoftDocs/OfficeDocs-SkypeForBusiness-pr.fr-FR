@@ -14,18 +14,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 f1keywords:
 - ms.teamsadmincenter.callingpolicies.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e97f16097a30172a2ea56eb7fc9808042055f0e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483681"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570269"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 ===================================
@@ -38,7 +37,7 @@ Suivez ces étapes pour créer une stratégie d’appel personnalisée.
 
 1. Dans le centre d’administration de Microsoft Teams, sélectionnez**politique d’appel** **vocal** > .
 2. Sélectionnez **nouvelle stratégie**.
-3. Activez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel. Toutes les sélections sont désdésactivées par défaut. ****
+3. Activez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel. Toutes les sélections sont **Désdésactivées** par défaut.
 4. Pour contrôler si les utilisateurs peuvent diriger les appels entrants vers la boîte vocale, sélectionnez **toujours activé** ou contrôlé par l' **utilisateur**. Pour empêcher le routage vers la boîte vocale, sélectionnez **toujours désactivé**.
 5. Sélectionnez **Save (enregistrer**).
 
@@ -48,7 +47,7 @@ Pour modifier une stratégie d’appel existante, procédez comme suit.
 
 1. Dans le centre d’administration de Microsoft Teams, sélectionnez**politique d’appel** **vocal** > .
 2. Cliquez sur en regard de la stratégie que vous voulez modifier, puis sélectionnez **modifier**.
-3. Activez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel. Toutes les sélections sont désdésactivées par défaut. ****
+3. Activez les fonctionnalités que vous voulez utiliser dans votre stratégie d’appel. Toutes les sélections sont **Désdésactivées** par défaut.
 4. Pour contrôler si les utilisateurs peuvent diriger les appels entrants vers la boîte vocale, sélectionnez **toujours activé** ou contrôlé par l' **utilisateur**. Pour empêcher le routage vers la boîte vocale, sélectionnez **toujours désactivé**.
 5. Sélectionnez **Save (enregistrer**).
 
@@ -80,7 +79,7 @@ Ce paramètre détermine si les appels entrants peuvent être transférés vers 
 
 ### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a>Le message vocal est disponible pour le routage des appels entrants vers les utilisateurs.
 
-Ce paramètre permet d’envoyer les appels entrants vers la boîte vocale. Les options valides sont les suivantes:
+Ce paramètre permet d’envoyer les appels entrants vers la boîte vocale. Les options valides sont les suivantes :
 
    - **Toujours activé** La boîte vocale est toujours disponible pour les appels entrants. 
    - **Toujours désactivé**  La boîte vocale n’est pas disponible pour les appels entrants. 

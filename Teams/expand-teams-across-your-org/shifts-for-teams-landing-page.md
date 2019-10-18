@@ -9,16 +9,18 @@ audience: admin
 manager: serdars
 ms.date: 03/29/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_FLW
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aef6380f7f9408692a687ceb60564a11b8867511
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: fb63e908e1331977d5da02a7c8bada11313d986c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447891"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569220"
 ---
 # <a name="shifts-for-teams"></a>Shifts pour Teams
 
@@ -55,7 +57,7 @@ Teams permet terrain aux travailleurs de votre organisation les outils dont ils 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planifier le déplacement de vos équipes StaffHub vers les équipes en équipe</h3>
+                        <h3>Planifier le déplacement de vos équipes de StaffHub vers Shifts dans Teams</h3>
                     </div>
                 </div>
             </div>

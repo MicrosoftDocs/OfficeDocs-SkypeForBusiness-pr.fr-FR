@@ -8,19 +8,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
 description: Apprenez à ajouter le domaine SMTP Microsoft teams en tant que domaine d’expéditeur autorisé dans Exchange Online pour envoyer des notifications aux membres de l’équipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc4b72e973bf6763b817c9bc4f133961cd000f7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5ae8be5c4b596b8815b8677b6214163924cbb183
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245760"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567127"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Ajouter le domaine SMTP de Microsoft Teams comme domaine de l’expéditeur accepté dans Exchange Online 
 =============================================================================
@@ -29,10 +28,10 @@ Si vous créez un groupe Office 365 dans la console d'administration ou à l'ai
 
 ![Capture d’écran d’un en-tête de message indiquant qu’un utilisateur a été ajouté à un groupe.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-Teams utilise Microsoft Exchange Online et envoie des notifications aux membres de l’équipe lorsqu’ils ont été ajoutés. La différence est le nom de domaine complet du domaine du message SMTP qui est «@email. teams.microsoft.com» pour les clients commerciaux et commerciaux et «@GCC-email.teams.com» pour les clients gouvernementaux et qui peut être intercepté par le filtrage du courrier indésirable.
+Teams utilise Microsoft Exchange Online et envoie des notifications aux membres de l’équipe lorsqu’ils ont été ajoutés. La différence est le nom de domaine complet du domaine du message SMTP qui est « @email. teams.microsoft.com » pour les clients commerciaux et commerciaux et « @GCC-email.teams.com » pour les clients gouvernementaux et qui peut être intercepté par le filtrage du courrier indésirable.
 
 ![Capture d’écran d’un en-tête de message indiquant qu’un utilisateur a été ajouté à un groupe.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
-Pour un résultat optimal et un fonctionnement transparent, envisagez d’ajouter le domaine SMTP Microsoft teams à votre liste «domaines d’expéditeur autorisés» dans votre configuration de courrier indésirable Exchange Online:
+Pour un résultat optimal et un fonctionnement transparent, envisagez d’ajouter le domaine SMTP Microsoft teams à votre liste « domaines d’expéditeur autorisés » dans votre configuration de courrier indésirable Exchange Online :
 
 ![Capture d’écran de la section autoriser les listes des paramètres de configuration du courrier indésirable](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image3.png)

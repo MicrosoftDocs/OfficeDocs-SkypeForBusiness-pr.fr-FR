@@ -1,5 +1,5 @@
 ---
-title: Recommandations en matière de décodage matériel et de pilote de codeur
+title: Recommandations concernant le pilote matériel encodeur et décodeur
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,8 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: Répertorie les combinaisons de systèmes d’exploitation, de modèles et de pilotes qui ne sont pas activées pour l’accélération matérielle en raison de problèmes de pilotes.
@@ -18,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242193"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570762"
 ---
-# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recommandations en matière de décodage matériel et de pilote de codeur
+# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recommandations concernant le pilote matériel encodeur et décodeur
 
 Microsoft prend en charge tous les décodeurs et les encodeurs à l’exception de ceux mentionnés dans cet article.
 
@@ -73,7 +72,7 @@ Les combinaisons de systèmes d’exploitation, de modèles et de pilotes suivan
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | 0x1040 |[0.0.0.0]-[9.18.13.1106] |
 |Windows 10 | ses | [10.18.13.5891] - [10.18.13.6881] |
 |Windows 10 | ses | [21.21.13.6909], [21.21.13.7570] |
-|Windows 7 | ses | [21; 21; 13; 4201] |
+|Windows 7 | ses | [21 ; 21 ; 13 ; 4201] |
 
 ## <a name="hardware-decoder-driver-recommendations---amd"></a>Recommandations en matière de pilotes de décodeurs matériels-AMD
 

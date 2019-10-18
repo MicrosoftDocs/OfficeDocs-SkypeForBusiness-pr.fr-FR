@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit le déploiement de la gestion des appareils Microsoft teams salles de manière intégrée et complète grâce à l’utilisation de moniteur Azure.
-ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 12936113a951f90bb1a3bed72f71d09f1f72ccd9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774683"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569939"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor
 
@@ -29,7 +28,7 @@ Vous pouvez configurer l’analyse du journal dans Azure Monitor pour fournir un
 
 En suivant ce guide, vous pouvez utiliser un tableau de bord tel que l’exemple ci-dessous pour obtenir des rapports d’État détaillés pour la disponibilité des appareils, l’état des applications et du matériel, et la distribution de la version de l’application Microsoft teams et du système d’exploitation.
 
-![Capture d’écran de l’exemple d’affichage analyse du journal pour les salles de Microsoft teams] (../media/Deploy-Azure-Monitor-1.png "Exemple d’affichage d’analyse du journal des salles de Microsoft teams")
+![Capture d’écran de l’exemple d’affichage analyse du journal pour les salles de Microsoft teams](../media/Deploy-Azure-Monitor-1.png "Exemple d’affichage d’analyse du journal des salles de Microsoft teams")
 
 À haut niveau, vous devez effectuer les tâches suivantes :
 
@@ -64,7 +63,7 @@ Vous devez configurer l’analyse du journal pour recueillir les journaux requis
 
 Pour configurer l’analyse du journal de sorte que les événements sur les salles de Microsoft teams soient collectés, voir [sources de données du journal des événements Windows dans Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Capture d’écran des paramètres du journal des événements] (../media/Deploy-Azure-Monitor-2.png "Paramètres du journal des événements")
+![Capture d’écran des paramètres du journal des événements](../media/Deploy-Azure-Monitor-2.png "Paramètres du journal des événements")
 
 > [!IMPORTANT]
 > Configurez les paramètres du journal des événements Windows et entrez le nom du journal des événements dans **Skype** , puis activez les cases à cocher **erreur**, **Avertissement**et **informations** .
@@ -122,7 +121,7 @@ Pour extraire vos champs personnalisés des journaux des événements capturés,
 3. Sélectionnez l’un des enregistrements, cliquez sur le bouton situé à gauche, puis démarrez l’Assistant extraction de champ.
 4. Mettez en surbrillance les données que vous souhaitez extraire du RenderedDescription et indiquez un titre de champ. Les noms des champs que vous devez utiliser sont indiqués dans le tableau 1.
 
-   ![Définition de champ personnalisé] (../media/Deploy-Azure-Monitor-4.png "Définition de champ personnalisé")
+   ![Définition de champ personnalisé](../media/Deploy-Azure-Monitor-4.png "Définition de champ personnalisé")
 
 5. Utilisez les mappages indiqués dans le *tableau 1*. L’analyse du journal ajoute automatiquement ** \_** la chaîne CF lorsque vous définissez le nouveau champ.
 
@@ -131,7 +130,7 @@ Pour extraire vos champs personnalisés des journaux des événements capturés,
 > 
 > Soyez attentif aux requêtes requises pour chaque champ personnalisé dans le tableau ci-dessous. Vous devez utiliser les requêtes appropriées pour l’analyse du journal pour extraire les valeurs de champs personnalisés.
 > 
- ![Définition de champ personnalisé] (../media/Deploy-Azure-Monitor-5.png "Définition de champ personnalisé")
+ ![Définition de champ personnalisé](../media/Deploy-Azure-Monitor-5.png "Définition de champ personnalisé")
 
 **Tableau 1**
 
@@ -412,7 +411,7 @@ Maintenant que vous avez terminé de définir des alertes. Vous pouvez définir 
 
 Lors de la génération d’une alerte, vous recevez un courrier électronique qui recense les appareils qui ont rencontré un problème au cours de la dernière heure.
 
-![Exemple de message d’alerte de moniteur Azure] (../media/Deploy-Azure-Monitor-6.png "Exemple de message d’alerte de moniteur Azure")
+![Exemple de message d’alerte de moniteur Azure](../media/Deploy-Azure-Monitor-6.png "Exemple de message d’alerte de moniteur Azure")
 
 ## <a name="configure-all-devices-for-azure-monitoring"></a>Configurer tous les appareils pour la surveillance Azure
 <a name="configure_all_devices"></a> Après avoir configuré les tableaux de bord et les alertes, vous pouvez configurer et configurer l’agent de surveillance Microsoft sur tous les appareils Microsoft teams pour terminer le déploiement de votre analyse.

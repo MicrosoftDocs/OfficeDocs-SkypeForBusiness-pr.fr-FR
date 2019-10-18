@@ -12,16 +12,15 @@ search.appverid: MET150
 description: Microsoft teams utilise les paramètres de OneDrive et SharePoint pour contrôler le partage.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d9f2060c7b87d58820cf0d90dd8e4dc556297f1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8b9eee925a61352ef23b9f7c62fbe6fd58df5122
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243158"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568688"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Partager des fichiers dans Microsoft teams
 
@@ -30,7 +29,7 @@ ms.locfileid: "36243158"
 Les fonctionnalités de partage de fichiers dans teams permettent aux utilisateurs de partager du contenu avec d’autres utilisateurs d’équipes au sein de leur organisation. Le partage dans teams repose sur les paramètres configurés dans SharePoint et OneDrive, de sorte que ce que vous configurez pour SharePoint et OneDrive contrôle le partage dans teams également.
 ![Diagramme indiquant le fonctionnement du partage de fichiers entre teams et OneDrive entreprise et SharePoint](media/sharing-files-in-teams-image1.png)
 
-Le partage d’équipes permet aux utilisateurs d’effectuer les opérations suivantes:
+Le partage d’équipes permet aux utilisateurs d’effectuer les opérations suivantes :
 
 - Partager des fichiers à partir de OneDrive.
 
@@ -46,7 +45,7 @@ Teams réduit la durée des URL SharePoint et des URL du navigateur pointant ver
 
 ## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>Configurer le partage dans OneDrive et SharePoint
 
-Pour plus d’informations sur le partage de fichiers dans OneDrive et SharePoint, notamment sur la configuration du partage et la façon d’activer ou de désactiver le partage, voir:
+Pour plus d’informations sur le partage de fichiers dans OneDrive et SharePoint, notamment sur la configuration du partage et la façon d’activer ou de désactiver le partage, voir :
 
 - [Présentation du partage externe](https://docs.microsoft.com/sharepoint/external-sharing-overview) -décrit ce qui se produit lorsque les utilisateurs partagent le partage, en fonction de ce qui est partagé et avec qui.
 
@@ -60,7 +59,7 @@ Pour plus d’informations sur le partage de fichiers dans OneDrive et SharePoin
 
 - [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](sharepoint-onedrive-interact.md)
 
-- [SharePoint et équipes: une meilleure collaboration](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+- [SharePoint et équipes : une meilleure collaboration](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
 - [Partager des fichiers et des dossiers OneDrive](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
-ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516829"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568698"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur la façon d’obtenir un plan d’appels et son c
 4. Sélectionnez le pays ou la région, puis entrez l’adresse.
 
    > [!NOTE]
-   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et à l’Espagne, il est important de comprendre qu’il est important de bien activer un numéro de téléphone dans Office 365, mais que le système d’exploitation utilisé pour acquérir le numéro doit correspondre à la zone du numéro de téléphone. codage.
+   > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre qu’il est nécessaire d’activer un numéro de téléphone dans Office 365, l’adresse définie à l’emplacement d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre au numéro de téléphone. indicatif régional.
 5. Si l’adresse est introuvable et que vous voulez modifier manuellement l’adresse, activez la case à cobesoin **modifier le formulaire d’adresse manuellement si vous ne trouvez pas l’adresse**.
 6. Cliquez sur **Enregistrer**.
     

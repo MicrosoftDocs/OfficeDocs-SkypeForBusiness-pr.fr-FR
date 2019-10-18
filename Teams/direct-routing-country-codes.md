@@ -9,16 +9,17 @@ ms.topic: reference
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: Lisez cet article pour rechercher des codes de pays de chemin d’accès multimédia pour le routage direct.
-ms.openlocfilehash: 5956f538df5aefc356e960f8eb2817602ef99884
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237456"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572211"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Itinéraires directs du pays
 
@@ -26,7 +27,7 @@ Lors du choix d’un chemin d’accès de routage pour le média, le routage dir
 
 Toutefois, dans certains cas, il est possible que le chemin multimédia par défaut ne soit pas le chemin optimal pour le média. par exemple, une adresse IP publique d’une plage américaine peut être affectée à une SBC située en Europe. 
 
-À l’aide du paramètre-MediaRelayRoutingLocationOverride avec les applets de requête New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway, vous pouvez spécifier la région préférée pour le trafic multimédia. Par exemple, la commande suivante spécifie que la région préférée est Allemagne:
+À l’aide du paramètre-MediaRelayRoutingLocationOverride avec les applets de requête New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway, vous pouvez spécifier la région préférée pour le trafic multimédia. Par exemple, la commande suivante spécifie que la région préférée est Allemagne :
 
 Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationOverride DE 
 
@@ -34,7 +35,7 @@ Notez que Microsoft recommande uniquement de définir ce paramètre si les journ
  
 ## <a name="country-code-reference-table"></a>Tableau de référence de code pays
 
-Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaRelayRoutingLocationOverride:
+Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaRelayRoutingLocationOverride :
 
 | Pays         | Codage 
 |-----------------|--------------------|

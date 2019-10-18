@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464589"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572156"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -30,18 +31,18 @@ Vous pouvez contrôler la dérivation multimédia pour chaque SBC en utilisant l
 
 Les diagrammes ci-dessous montrent la différence de flux d’appels avec et sans dérivation multimédia.
 
-Sans dérivation multimédia, quand un client effectue ou reçoit un appel, la signalisation et le flux multimédia entre le SBC, le système Microsoft Phone et le client Teams, comme indiqué dans le schéma suivant:
+Sans dérivation multimédia, quand un client effectue ou reçoit un appel, la signalisation et le flux multimédia entre le SBC, le système Microsoft Phone et le client Teams, comme indiqué dans le schéma suivant :
 
 ![Affiche la signalisation et le flux multimédia sans contournement du support multimédia](media/direct-routing-media-bypass-1.png)
 
 
-Par exemple, supposons qu’un utilisateur se trouve dans le même bâtiment ou réseau que l’SBC. Par exemple, supposons qu’un utilisateur participant à un bâtiment à Francfort effectue un appel vers un utilisateur RTC: 
+Par exemple, supposons qu’un utilisateur se trouve dans le même bâtiment ou réseau que l’SBC. Par exemple, supposons qu’un utilisateur participant à un bâtiment à Francfort effectue un appel vers un utilisateur RTC : 
 
 - **Sans dérivation multimédia**, le contenu multimédia sera transmis par l’intermédiaire d’Amsterdam ou de Dublin (sur lequel sont déployés les centres de connaissances Microsoft) et de retour vers l’SBC à Francfort. 
 
   Le centre de donnees en Europe est sélectionné, car le SBC est en Europe et Microsoft utilise le centre de donne le plus proche de l’SBC. Même si cette approche n’a aucun impact sur la qualité des appels en raison de l’optimisation du flux de trafic au sein de réseaux Microsoft dans la plupart des zones géographiques, le trafic comporte une boucle inutile.     
 
-- Par le biais du **contournement du contenu multimédia**, le média est maintenu directement entre l’utilisateur teams et l’élément SBC, comme illustré dans le schéma suivant:
+- Par le biais du **contournement du contenu multimédia**, le média est maintenu directement entre l’utilisateur teams et l’élément SBC, comme illustré dans le schéma suivant :
 
 ![Affiche le signalement et le flux multimédia avec une dérivation multimédia](media/direct-routing-media-bypass-2.png)
 
@@ -54,15 +55,15 @@ Le flux d’appels et la planification de pare-feu varient selon que l’utilisa
 
 ### <a name="call-flow-if-the-user-has-direct-access-to-the-public-ip-address-of-the-sbc"></a>Flux d’appels si l’utilisateur a un accès direct à l’adresse IP publique de l’SBC
 
-Si l’utilisateur a un accès direct à l’adresse IP publique de l’SBC, le flux des appels est le suivant:
+Si l’utilisateur a un accès direct à l’adresse IP publique de l’SBC, le flux des appels est le suivant :
 
 - Pour le contournement du média multimédia, le client teams doit avoir accès à l’adresse IP publique de la SBC même à partir d’un réseau interne. Si les médias directs ne sont pas souhaités, le média peut circuler via des relais de transport.
 
-- Il s’agit de la solution recommandée quand un utilisateur se trouve dans la même construction et/ou le même réseau que l’SBC: supprimer les composants Cloud Microsoft du chemin multimédia.
+- Il s’agit de la solution recommandée quand un utilisateur se trouve dans la même construction et/ou le même réseau que l’SBC : supprimer les composants Cloud Microsoft du chemin multimédia.
 
 - Le signalement est toujours transmis via le Cloud Microsoft.
 
-Le diagramme suivant illustre le flux d’appels lorsque la dérivation de média est activée, que le client est interne et que le client peut accéder à l’adresse IP publique de l’SBC (direct Media): 
+Le diagramme suivant illustre le flux d’appels lorsque la dérivation de média est activée, que le client est interne et que le client peut accéder à l’adresse IP publique de l’SBC (direct Media) : 
 
 - Les flèches et les valeurs numériques des chemins sont conformes à l’article [flux d’appels de Microsoft teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
@@ -108,7 +109,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation de médi
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Utilisation de processeurs multimédias et de relais de transport
 
-Il existe deux composants dans le Cloud Microsoft qui peuvent se trouver dans le chemin d’accès au média: processeurs multimédias et relais de transport. 
+Il existe deux composants dans le Cloud Microsoft qui peuvent se trouver dans le chemin d’accès au média : processeurs multimédias et relais de transport. 
 
 - Le processeur de média est un composant public qui gère le contenu multimédia en cas de non-contournement et gère le contenu multimédia pour les applications vocales.
 
@@ -118,7 +119,7 @@ Il existe deux composants dans le Cloud Microsoft qui peuvent se trouver dans le
 
    Les relais de transport peuvent être ou ne pas se trouver dans le chemin d’accès pour les appels passés (provenant de ou destinés aux utilisateurs finaux), en fonction de l’endroit où se trouve l’utilisateur et du mode de configuration du réseau.
 
-Le schéma suivant montre deux flux d’appels: l’un avec la dérivation multimédia est activée et le second avec contournement de média désactivé. Remarque le diagramme ne montre que le trafic provenant de--ou destinés aux utilisateurs finaux.  
+Le schéma suivant montre deux flux d’appels : l’un avec la dérivation multimédia est activée et le second avec contournement de média désactivé. Remarque le diagramme ne montre que le trafic provenant de--ou destinés aux utilisateurs finaux.  
 - La manette de média est un microservice dans Azure qui affecte des processeurs de média et crée des offres SDP.
 
 - Le proxy SIP est un composant qui convertit la signalisation HTTP REST utilisée dans teams pour SIP.    
@@ -134,11 +135,11 @@ Chemin multimédia pour les appels sans contournement pour les utilisateurs fina
 Dans le chemin multimédia pour les appels ignorés pour les utilisateurs finaux | Interdire | Si le client ne peut pas accéder à l’SBC sur l’adresse IP publique | 
 Dans le chemin multimédia pour les applications vocales | Toujours | Interdire | 
 Peut faire un transcodage (B2BUA)\* | Oui | Non, ne relaye le son qu’entre les points de terminaison. | 
-Nombre d’instances dans le monde et emplacement | 8 au total: 2 aux États-Unis et en ouest; 2 dans Amsterdam et Dublin; 2 à Hong Kong et Singapour; 2 au Japon (ajouté dans Q1CY2019)  | Multiples
+Nombre d’instances dans le monde et emplacement | 8 au total : 2 aux États-Unis et en ouest ; 2 dans Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon (ajouté dans Q1CY2019)  | Multiples
 
 La plage d’adresses IP est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254). 
 
-\*Explication du transcodage: 
+\*Explication du transcodage : 
 
 - Le processeur de média est B2BUA, ce qui signifie qu’il peut changer un codec (par exemple, soie du client teams vers MP et G. 711 entre MP et SBC).
 
@@ -146,7 +147,7 @@ La plage d’adresses IP est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.
 
 ### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Utilisation de relais de transport d’équipes dans des scénarios d’escalade si le protocole Trunk est configuré pour une dérivation multimédia
 
-Les relais de transport d’équipes sont toujours dans le chemin multimédia dans les scénarios suivants:
+Les relais de transport d’équipes sont toujours dans le chemin multimédia dans les scénarios suivants :
 
 - Appel transféré de 1:1 vers un appel de groupe
 - Appel vers un utilisateur d’équipes fédérées
@@ -155,11 +156,11 @@ Les relais de transport d’équipes sont toujours dans le chemin multimédia da
 Assurez-vous que votre SBC a accès aux relais de transport comme décrit ci-dessous.    
 
 
-## <a name="sip-signaling-fqdns"></a>Signalisation SIP: noms de domaine complets
+## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets
 
 Pour la signalisation SIP, les exigences en matière de nom de domaine complet et de pare-feu sont les mêmes que pour les cas sans contournement. 
 
-Le routage direct est fourni dans les environnements Office 365 suivants:
+Le routage direct est fourni dans les environnements Office 365 suivants :
 - Office 365
 - GCC Office 365
 - Office 365 (GCC High)
@@ -167,22 +168,22 @@ Le routage direct est fourni dans les environnements Office 365 suivants:
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
-Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants:
+Les points de connexion pour le routage direct sont les trois noms de domaine complets suivants :
 
 - **SIP.pstnhub.Microsoft.com** -nom de domaine complet (FQDN) global, doit d’abord être essayé. Lorsque le SBC envoie une demande pour résoudre ce nom, les serveurs DNS Microsoft Azure renvoient une adresse IP pointant vers le centre de noms principal Azure attribué à l’SBC. Cette affectation est basée sur les métriques de performance des centres de donnes et de proximité géographique de l’SBC. L’adresse IP renvoyée correspond au FQDN principal.
 
-- **sip2.pstnhub.Microsoft.com** -nom de domaine complet (FQDN): il correspond à la deuxième région de priorité.
+- **sip2.pstnhub.Microsoft.com** -nom de domaine complet (FQDN) : il correspond à la deuxième région de priorité.
 
 - nom de domaine complet (FQDN) **sip3.pstnhub.Microsoft.com** : il correspond géographiquement à la troisième région de priorité.
 
-Pour pouvoir effectuer les opérations suivantes, vous devez placer ces trois noms de domaine complets:
+Pour pouvoir effectuer les opérations suivantes, vous devez placer ces trois noms de domaine complets :
 
 - Offrir une plus meilleure version (moins chargée et la plus proche du centre de divertissement SBC attribué en interrogeant le premier nom de domaine complet).
 
 - Fournir un basculement lorsqu’une connexion à partir d’un SBC est établie à un centre de donne qui rencontre un problème temporaire. Pour plus d’informations, consultez la section mécanisme de basculement ci-dessous.
 
 
-Les noms de domaine complets **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Microsoft.com**et **sip3.pstnhub.Microsoft.com** seront résolus vers l’une des adresses IP suivantes:
+Les noms de domaine complets **SIP.pstnhub.Microsoft.com**, **sip2.pstnhub.Microsoft.com**et **sip3.pstnhub.Microsoft.com** seront résolus vers l’une des adresses IP suivantes :
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.75.24
@@ -194,11 +195,11 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 
 ### <a name="office-365-gcc-dod-environment"></a>Environnement DoD DoD dans Office 365
 
-Le point de connexion pour le routage direct est le nom de domaine complet suivant:
+Le point de connexion pour le routage direct est le nom de domaine complet suivant :
 
 **SIP.pstnhub.DoD.Teams.Microsoft.us** : FQDN global. Comme l’environnement Office 365 DoD existe uniquement dans les centres de données américains, il n’existe pas de noms de domaine complets secondaires et tertiaires.
 
-Les noms de domaine complets (FQDN) – sip.pstnhub.dod.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes:
+Les noms de domaine complets (FQDN) – sip.pstnhub.dod.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes :
 
 - 52.127.64.33
 - 52.127.68.34
@@ -207,26 +208,26 @@ Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de 
 
 ### <a name="office-365-gcc-high-environment"></a>Environnement de grande qualité dans Office 365
 
-Le point de connexion pour le routage direct est le nom de domaine complet suivant:
+Le point de connexion pour le routage direct est le nom de domaine complet suivant :
 
 **SIP.pstnhub.gov.Teams.Microsoft.us** : FQDN global. Dans la mesure où l’environnement de grande qualité n’existe qu’aux centres de données américains, il n’y a pas de noms de domaine complets secondaires et tertiaires.
 
-Les noms de domaine complets (FQDN) – sip.pstnhub.gov.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes:
+Les noms de domaine complets (FQDN) – sip.pstnhub.gov.teams.microsoft.us seront résolus vers l’une des adresses IP suivantes :
 
 - 52.127.88.59
 - 52.127.92.64
 
 Pour autoriser le trafic entrant et sortant vers et à partir de l’adresse de signalisation, vous devez ouvrir les ports pour toutes ces adresses IP sur votre pare-feu.  Si votre pare-feu prend en charge les noms DNS, le nom de domaine complet sip.pstnhub.gov.teams.microsoft.us est résolu sur toutes les adresses IP suivantes. 
 
-## <a name="sip-signaling-ports"></a>Signalisation SIP: ports
+## <a name="sip-signaling-ports"></a>Signalisation SIP : ports
 
-La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible:
+La configuration requise pour les ports est identique pour tous les environnements Office 365 dans lesquels le routage direct est disponible :
 - Office 365
 - GCC Office 365
 - Office 365 (GCC High)
 - Office 365 DoD
 
-Vous devez utiliser les ports suivants:
+Vous devez utiliser les ports suivants :
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -234,7 +235,7 @@ SIP/TLS| Proxy SIP | SBC | 1024-65535 | Définie sur l’SBC |
 | SIP/TLS | SBC | Proxy SIP | Définie sur l’SBC | 5061 |
 
 
-## <a name="media-traffic-ip-and-port-ranges"></a>Trafic multimédia: plages d’adresses IP et de ports
+## <a name="media-traffic-ip-and-port-ranges"></a>Trafic multimédia : plages d’adresses IP et de ports
 
 Le trafic multimédia entre le client SBC et teams est disponible si la connectivité directe est disponible ou par le biais de relais de transport d’équipes si le client ne peut pas accéder à l’SBC en utilisant l’adresse IP publique.
 
@@ -242,7 +243,7 @@ Le trafic multimédia entre le client SBC et teams est disponible si la connecti
 
 Le client doit avoir accès aux ports spécifiés (voir table) sur l’adresse IP publique de l’SBC. 
 
-Remarque: si le client se trouve dans un réseau interne, le média est transmis à l’adresse IP publique de l’SBC. Vous pouvez configurer Hairpinning sur votre appareil NAT de sorte que le trafic ne reste jamais sur l’équipement réseau d’entreprise.
+Remarque : si le client se trouve dans un réseau interne, le média est transmis à l’adresse IP publique de l’SBC. Vous pouvez configurer Hairpinning sur votre appareil NAT de sorte que le trafic ne reste jamais sur l’équipement réseau d’entreprise.
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -250,11 +251,11 @@ UDP/SRTP | Client | SBC | 50 000 – 50 019  | Définie sur l’SBC |
 | UDP/SRTP | SBC | Client | Définie sur l’SBC | 50 000 – 50 019  |
 
 
-Remarque: Si vous disposez d’un appareil réseau qui traduit les ports sources du client, assurez-vous que les ports traduits sont ouverts entre l’équipement réseau et l’SBC. 
+Remarque : Si vous disposez d’un appareil réseau qui traduit les ports sources du client, assurez-vous que les ports traduits sont ouverts entre l’équipement réseau et l’SBC. 
 
 ### <a name="requirements-for-using-transport-relays"></a>Configuration requise pour l’utilisation des relais de transport
 
-Les relais de transport sont dans la même plage que les processeurs de médias (pour les cas de non-contournement): 
+Les relais de transport sont dans la même plage que les processeurs de médias (pour les cas de non-contournement) : 
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Environnements Office 365 et Office 365 GCC
 
@@ -269,7 +270,7 @@ Les relais de transport sont dans la même plage que les processeurs de médias 
 - 52.127.88.0/21
 
 
-Le tableau suivant indique la plage de ports des relais de transport Teams (applicables à tous les environnements):
+Le tableau suivant indique la plage de ports des relais de transport Teams (applicables à tous les environnements) :
 
 
 | Trafic | De | À | Port source | Port de destination|
@@ -278,7 +279,7 @@ UDP/SRTP | Relais de transport | SBC | 50 000-59 999    | Définie sur l’SBC |
 | UDP/SRTP | SBC | Relais de transport | Définie sur l’SBC | 50 000 – 59 999, 3478, 3479     |
 
 
-Remarque: Microsoft recommande au moins deux ports par appel simultané sur l’SBC. Microsoft étant doté de deux versions de relais de transport, les informations suivantes sont nécessaires:
+Remarque : Microsoft recommande au moins deux ports par appel simultané sur l’SBC. Microsoft étant doté de deux versions de relais de transport, les informations suivantes sont nécessaires :
 
 - v4, qui peut uniquement utiliser la plage de ports 50 000 à 59 999
 
@@ -307,7 +308,7 @@ La plage d’adresses IP du trafic multimédia est
 
 - 52.127.88.0/21
 
-Le tableau suivant indique la portée de port des processeurs multimédias (applicables à tous les environnements):
+Le tableau suivant indique la portée de port des processeurs multimédias (applicables à tous les environnements) :
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -320,11 +321,11 @@ Si vous avez des points de terminaison Skype entreprise dans votre réseau qui u
 
 Vous pouvez créer un Trunk distinct pour ces utilisateurs et leur attribuer une stratégie de routage vocale en ligne.
 
-Étapes de configuration de haut niveau:
+Étapes de configuration de haut niveau :
 
 - Fractionnez les utilisateurs par type, selon que l’utilisateur a ou non un téléphone 3PIP.
 
-- Créez deux Trunks distinctes avec différents noms de domaine complets: l’un est activé pour la dérivation multimédia; l’autre non. 
+- Créez deux Trunks distinctes avec différents noms de domaine complets : l’un est activé pour la dérivation multimédia ; l’autre non. 
 
   Les deux Trunks pointent vers le même SBC. Les ports pour le signalement SIP TLS doivent être différents. Les ports pour le média doivent être identiques.
 
@@ -342,7 +343,7 @@ Les deux Trunks peuvent pointer sur la même SBC avec la même adresse IP publiq
 
 ![Affiche les deux liaisons peuvent pointer sur le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
 
-Pour plus d’informations sur la configuration de deux lignes sur le même SBC, voir la documentation fournie par votre fournisseur de SBC:
+Pour plus d’informations sur la configuration de deux lignes sur le même SBC, voir la documentation fournie par votre fournisseur de SBC :
 
  - [Documentation de déploiement AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Documentation relative au déploiement d’Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)

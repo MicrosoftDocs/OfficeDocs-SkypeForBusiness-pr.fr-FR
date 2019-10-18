@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767193"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564932"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -40,7 +39,7 @@ Avec Join anonyme, n’importe qui peut rejoindre la réunion en tant qu’utili
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **participants**, activez **les utilisateurs anonymes peuvent participer à une réunion**.
 
-    ![Capture d’écran des paramètres des participants pour les réunions dans le centre d’administration] (media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions teams dans le centre d’administration Microsoft teams")
+    ![Capture d’écran des paramètres des participants pour les réunions dans le centre d’administration](media/meeting-settings-participants.png "Capture d’écran des paramètres des participants pour les réunions teams dans le centre d’administration Microsoft teams")
 
 Si vous ne souhaitez pas que les utilisateurs anonymes puissent participer aux réunions planifiées par les utilisateurs de votre organisation, désactivez ce paramètre.
 
@@ -63,7 +62,7 @@ Vous pouvez personnaliser les invitations aux réunions teams selon les besoins 
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **invitation électronique**, procédez comme suit :
 
-    ![Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser] (media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions teams")
+    ![Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser](media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions teams")
 
     - **URL du logo** Entrez l’URL de stockage de votre logo.
     - **URL légale** Si votre organisation dispose d’un site Web légal auquel vous souhaitez que les personnes accèdent en cas de problèmes légaux, entrez l’URL ici.
@@ -85,7 +84,7 @@ Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir l
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **réseau**, procédez comme suit :
 
-    ![Capture d’écran des paramètres réseau pour les réunions dans le centre d’administration] (media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
+    ![Capture d’écran des paramètres réseau pour les réunions dans le centre d’administration](media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
 
     - Pour autoriser l’utilisation de la marque DSCP pour la qualité de **service (QoS), activez insérer des marqueurs de qualité de service (QoS) pour le trafic multimédia en temps réel**. Vous avez la possibilité d’utiliser des marqueurs uniquement. vous ne pouvez pas définir de marqueurs personnalisés pour chaque type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     > [!NOTE] 

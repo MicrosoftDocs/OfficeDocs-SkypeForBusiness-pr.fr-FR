@@ -10,27 +10,26 @@ audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464553"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570178"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
 Lorsque vous planifiez des événements en direct teams pour organiser des réunions de grande envergure au sein de votre organisation, vous devez prendre en compte plusieurs facteurs avant de commencer à le configurer. 
 
-## <a name="who-can-create-and-schedule-live-events"></a>Qui peut créer et planifier des événements en direct? 
+## <a name="who-can-create-and-schedule-live-events"></a>Qui peut créer et planifier des événements en direct ? 
 Les conditions préalables suivantes sont requises pour l’utilisateur pour planifier un événement en direct Teams.
 
-Les licences qui doivent être attribuées sont les suivantes:  
+Les licences qui doivent être attribuées sont les suivantes :  
 - Licence Office 365 entreprise E1, E3 ou E5, ou licence Office 365 a3 ou a5
 - Licence Microsoft teams
 - Licence Microsoft Stream
@@ -38,7 +37,7 @@ Les licences qui doivent être attribuées sont les suivantes:
 > [!IMPORTANT]
 > L’utilisateur qui crée et planifie un événement en direct doit avoir une boîte aux lettres Exchange Online.
 
-Il est important de savoir qu’une licence Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cette obligation dépend de la méthode de production utilisée:
+Il est important de savoir qu’une licence Office 365 est requise pour participer à un événement en direct en tant qu’utilisateur authentifié, mais cette obligation dépend de la méthode de production utilisée :
 
 - **Pour les événements produits dans teams**  Une licence d’équipe doit être attribuée à l’utilisateur.
 - **Pour les événements produits avec une application ou un appareil externe** Une licence de flux doit être attribuée à l’utilisateur.
@@ -48,7 +47,7 @@ Il est important de savoir qu’une licence Office 365 est requise pour particip
 
 Pour plus d’informations sur les licences, voir [licences de modules complémentaires Microsoft teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-L’utilisateur doit avoir:
+L’utilisateur doit avoir :
 - Planification de réunions privées en équipes activées (*paramètre TeamsMeetingPolicy-AllowPrivateMeetingScheduling = true*).
 - Partage vidéo activé dans les réunions Teams (*paramètre TeamsMeetingPolicy-AllowIPVideo = true*).
 - Le partage d’écran est activé dans les réunions Teams (*paramètre TeamsMeetingPolicy-ScreenSharingMode = EntireScreen*).
@@ -58,7 +57,7 @@ L’utilisateur doit avoir:
 > [!IMPORTANT]
 > Les utilisateurs d’Office 365, fédérés et anonymes ne peuvent pas être invités en tant que producteurs ou présentateurs dans des événements en direct Teams. Les invités Office 365 et les utilisateurs fédérés peuvent uniquement regarder des événements en direct de manière anonyme. 
  
-## <a name="who-can-watch-live-events"></a>Qui peut regarder des événements en direct?
+## <a name="who-can-watch-live-events"></a>Qui peut regarder des événements en direct ?
 
 |**Visibilité des participants**       |**Production teams**  |**Production d’applications ou de périphériques externes**  |
 |------------------------------|-----------------|----------------------|
@@ -78,22 +77,22 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 
 |**Faculté**   |**Diffusion de réunion Skype** |**Événements produits dans teams** |**Événements produits dans une application ou un appareil externes** |
 |---------|---------|---------|---------|
-|Taille maximale du public |participants 10 000 |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
-|Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
+|Taille maximale du public |10 000 participants |10 000 participants<sup>1</sup> |10 000 participants<sup>1</sup> |
+|Durée maximale de l’événement en direct |4 heures |4 heures |4 heures |
 |Nombre maximal d’événements en direct simultanés par client Office 365 |0,15  | 0,15  | 0,15  |
 |Création d’événements en direct |   Portail de diffusion de réunion Skype |Teams, Yammer via teams | Teams, Yammer par équipe, flux |
 |Engagement public-Yammer |&#x2714; |&#x2714; (environnement intégré) |&#x2714; (environnement intégré) |
-|Engagement d’audience: Q modéré Q & A |&#x2714;  |&#x2714; |&#x2714; |
+|Engagement d’audience : Q modéré Q & A |&#x2714;  |&#x2714; |&#x2714; |
 |Client de Producer sur Windows |&#x2714; (Skype entreprise) |&#x2714; (Teams) |&#x2714; (flux, équipes via flux embed) |
 |Client de Producer sur Mac |X  | &#x2714; (Teams) |&#x2714; (flux, équipes via flux embed) |
 |Nombre de participants dans l’interface utilisateur de Producer |X  |&#x2714; (Teams) |&#x2714; (flux, équipes via flux embed) |
-|Autorise plusieurs présentateurs |&#x2714; (Skype entreprise) |&#x2714; (Teams) |S/O  |
-|Inviter un présentateur lors de la réunion |&#x2714; (Skype entreprise) |X |S/O |
-|Participation du présentateur sur le Web et le mobile |&#x2714; (Skype entreprise)  |X |S/O |
-|Personnes distantes de présentateurs & invités |&#x2714; (Skype entreprise)  | (bientôt disponible) |S/O |
-|Présentateur-accès RTC |X |&#x2714; (Teams) |S/O |
-|Présenter un écran |X |&#x2714; (Teams) |S/O |
-|Présenter une présentation PowerPoint (de partage PPT) |&#x2714; |X (atténué via le partage d’écran) |S/O |
+|Autorise plusieurs présentateurs |&#x2714; (Skype entreprise) |&#x2714; (Teams) |N/D  |
+|Inviter un présentateur lors de la réunion |&#x2714; (Skype entreprise) |X |N/D |
+|Participation du présentateur sur le Web et le mobile |&#x2714; (Skype entreprise)  |X |N/D |
+|Personnes distantes de présentateurs & invités |&#x2714; (Skype entreprise)  | (bientôt disponible) |N/D |
+|Présentateur-accès RTC |X |&#x2714; (Teams) |N/D |
+|Présenter un écran |X |&#x2714; (Teams) |N/D |
+|Présenter une présentation PowerPoint (de partage PPT) |&#x2714; |X (atténué via le partage d’écran) |N/D |
 |Enregistrement d’une réunion basée sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
 |Publier automatiquement l’enregistrement dans le flux |X |X |&#x2714; |
 |Légendes et sous-titres dynamiques |&#x2714; |&#x2714; |X |
@@ -101,7 +100,7 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Contrôles de participants DVR (pause, rembobinage) |&#x2714; |&#x2714; |&#x2714; |
 |Support technique de eCDN partenaire |&#x2714; (Hive, Kollective, RAMP) |&#x2714; (Hive, Kollective, RAMP) |&#x2714; (Hive, Kollective, RAMP) |
 |Rapport de présence après diffusion pour les producteurs |&#x2714; |&#x2714; |X |
-|Analyse d’un sentiment d’audience: vote en direct & sondages |&#x2714; (Microsoft Pulse) |X |X |
+|Analyse d’un sentiment d’audience : vote en direct & sondages |&#x2714; (Microsoft Pulse) |X |X |
 
 <sup>1</sup> les limites définies peuvent être modifiées.
 
@@ -115,11 +114,11 @@ Vous pouvez utiliser des événements en direct teams dans plusieurs régions da
 - Amérique
 - Europe/Afrique
 - Asie-Pacifique
-- Go local Canada
+- Accédez au Canada local, en Inde, en Australie, au Japon, au Royaume-Uni
 
 **Exclusions et considérations**
-- Rendez-vous **locales:** Le Royaume-Uni et les autres équipes ne sont pas pris en charge pour le moment.
-- **Chine:** Les membres de l’équipe et les participants ne seront pas en mesure d’utiliser les événements teams Live car Azure CDN n’est pas accessible en Chine. Pour contourner ce problème, vous pouvez utiliser une connexion VPN d’entreprise, qui obtient le client connecté au CDN via le réseau d’entreprise du client.
+- **Rendez-vous locales :** Les versions locales de teams Go, en dehors de celles indiquées ci-dessus, ne sont pas actuellement prises en charge.
+- **Chine :** Les membres de l’équipe et les participants ne seront pas en mesure d’utiliser les événements teams Live car Azure CDN n’est pas accessible en Chine. Pour contourner ce problème, vous pouvez utiliser une connexion VPN d’entreprise, qui obtient le client connecté au CDN via le réseau d’entreprise du client.
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [configurer pour les événements en direct teams](set-up-for-teams-live-events.md).

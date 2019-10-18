@@ -11,33 +11,30 @@ audience: admin
 description: Les modèles vous permettent d’envoyer des courriers électroniques aux utilisateurs lors de la mise en œuvre de fonctionnalités vocales Cloud dans teams ou Skype entreprise.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237199"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567705"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Simplification de l’adoption par les utilisateurs de votre nouveau système téléphonique en ligne
 
 Un téléphone peut être une ligne de vie d’un utilisateur. Le passage d’un système téléphonique traditionnel à un système téléphonique en ligne représente une modification importante du mode de fonctionnement des utilisateurs et peut affecter la productivité. Le temps d’informer, de guider et de prendre en charge les utilisateurs par le biais de ce changement peut vous aider à garantir une utilisation positive et à optimiser votre retour sur investissement.
 
-Cet article contient des modèles de courrier personnalisables permettant d’informer les utilisateurs de leur nouveau système téléphonique. Personnalisez et envoyez les messages électroniques appropriés pour les aligner sur votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections à des fins de personnalisation simplifiées, mais nous vous recommandons d’ajouter une messagerie spécifique à l’Organisation pour rendre l’annonce la plus pertinente pour vos utilisateurs. Le cas échéant, remplacez toutes les références à «teams» par «Skype entreprise».
+Cet article contient des modèles de courrier personnalisables permettant d’informer les utilisateurs de leur nouveau système téléphonique. Personnalisez et envoyez les messages électroniques appropriés pour les aligner sur votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections à des fins de personnalisation simplifiées, mais nous vous recommandons d’ajouter une messagerie spécifique à l’Organisation pour rendre l’annonce la plus pertinente pour vos utilisateurs. Le cas échéant, remplacez toutes les références à « teams » par « Skype entreprise ».
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>E-mail numéro 1: envoi de trois semaines avant le lancement
+## <a name="email-number-1-send-three-weeks-before-launch"></a>E-mail numéro 1 : envoi de trois semaines avant le lancement
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 IMPORTANT ANNOUNCEMENT about your office desk phone
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ```
 Instant messaging and online meetings have become a common way to communicate
@@ -94,15 +91,15 @@ If you have questions concerning this change, contact <INSERT NAME/EMAIL>.
 <INSERT NAME OF EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-2-send-one-week-before-launch"></a>E-mail numéro 2: envoi d’une semaine avant le lancement
+## <a name="email-number-2-send-one-week-before-launch"></a>E-mail numéro 2 : envoi d’une semaine avant le lancement
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 ACTION REQUESTED: Are you ready for your new phone system?
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ```
 Your new phone calling capabilities are almost here. As explained in our initial
@@ -138,15 +135,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>Adresse e-mail numéro 3: envoyer lors du lancement le jour
+## <a name="email-number-3-send-on-launch-day"></a>Adresse e-mail numéro 3 : envoyer lors du lancement le jour
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 IMPORTANT NOTICE: Your new phone system is live
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ```
 Welcome to your new phone system. Your Microsoft Teams application
@@ -175,15 +172,15 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>Adresse de messagerie numéro 4: envoi de deux semaines après le lancement
+## <a name="email-number-4-send-two-weeks-after-launch"></a>Adresse de messagerie numéro 4 : envoi de deux semaines après le lancement
 
-Ligne d’objet:
+Ligne d’objet :
 
 ```
 FEEDBACK REQUESTED: Your new phone system
 ```
 
-Corps du message électronique:
+Corps du message électronique :
 
 ```
 It's been a few weeks since you started using Microsoft Teams to

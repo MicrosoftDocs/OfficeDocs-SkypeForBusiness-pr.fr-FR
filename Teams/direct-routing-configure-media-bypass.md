@@ -9,26 +9,27 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur la configuration du contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: d3991973932ec3ced2ef1a365a7060e2d9449f40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2931194783e2055c468ec2d7ad1286b9fe1940ae
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237480"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572233"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
 Avant de configurer la dérivation de médias avec le routage direct, assurez-vous d’avoir un [plan de lecture pour la dérivation de média avec le routage direct](direct-routing-plan-media-bypass.md).
 
-Pour activer le contournement du contenu multimédia, les conditions suivantes doivent être remplies:
+Pour activer le contournement du contenu multimédia, les conditions suivantes doivent être remplies :
 
 1.  Assurez-vous que le fournisseur de votre contrôleur de bordure de session (SBC) prend en charge la méthode de contournement du contenu multimédia et fournit des instructions sur la configuration du contournement sur la SBC. Reportez-vous à la page de certification pour en savoir plus sur les éléments SBCs, qui prennent en charge la contournement du support technique et des instructions.
 
-2.  Vous devez activer la dérivation multimédia sur le Trunk en utilisant la commande suivante: **Set-CSOnlinePSTNGateway-identity <sbc_FQDN>-MediaBypass $true**.
+2.  Vous devez activer la dérivation multimédia sur le Trunk en utilisant la commande suivante : **Set-CSOnlinePSTNGateway-identity <sbc_FQDN>-MediaBypass $true**.
 
 3.  Vérifiez que les ports requis sont ouverts. 
 
@@ -45,7 +46,7 @@ Vous pouvez basculer tous les utilisateurs à la fois ou vous pouvez implémente
 
 ![Migrer entre des Trunks non ignorés et des Trunks compatibles avec le contournement du réseau.](media/direct-routing-media-bypass-8.png)
 
-Pour obtenir des instructions sur la façon de configurer les Trunks et de procéder à la migration, consultez la documentation de votre fournisseur de SBC:
+Pour obtenir des instructions sur la façon de configurer les Trunks et de procéder à la migration, consultez la documentation de votre fournisseur de SBC :
 
 - [Documentation de déploiement AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Documentation relative au déploiement d’Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)

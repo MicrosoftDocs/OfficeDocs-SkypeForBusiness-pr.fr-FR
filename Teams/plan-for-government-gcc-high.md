@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46d4edb3b5345fcd2267716968a2987c96259efb
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435205"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573283"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 Government-déploiements de niveau supérieur
 
@@ -50,7 +49,7 @@ La [Description du service fédéral des États-Unis d’Office 365](https://doc
 
 |    |     |
 |-----------|------------|
-| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si le service public de Microsoft 365 est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions d’éligibilité.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si le service public de Microsoft 365 est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions d’éligibilité.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government-GCC High est uniquement disponible aux États-Unis. Les clients de l’administration non américaine peuvent opter pour un certain nombre de [forfaits Office 365 Government](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -85,7 +84,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Organigramme | Disponibles |
 | | Interactive | Disponibles |
 | | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Disponibles |
-| Teams | Message du canal | Disponibles |
+| Équipes | Message du canal | Disponibles |
 | | Fichiers de canal | Disponibles |
 | | Onglet OneNote | Sur le backlog du secteur public |
 | | Envoyer un canal par courrier électronique | Non disponibles |

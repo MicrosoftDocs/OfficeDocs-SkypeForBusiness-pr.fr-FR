@@ -11,7 +11,6 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 43ddad059b0028d7d79bc5e5f2430148e463d9be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb37794cbf034c05c6e0bd856fbd42695ee508b5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235168"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570820"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrictions de numérotation gratuit en Inde
 
@@ -37,14 +36,14 @@ ms.locfileid: "36235168"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> |000 800 XXX XXXX  <br/> |
 |Code ISO pays/région  <br/> |ECHERCHER  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité de ligne filaire/fixe  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Accès disponible sur les réseaux suivants: en boucle mobile, BSNL-Fixed (toutes les régions mais Bhopal), Vodafone, IDEA/piment (toutes les régions mais Punjab piment), MTS Inde/Shyam (fixe), &amp; MTNL-fixe mobile, dépendance (toutes les régions, mais Ahmedabad, Bhopal, Bhuneswer Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixe &amp; postpaiement), Tata DoCoMo, HFCL Infotel/ping mobile, S-à-un mobile, Uninor, Videocon mobile, BSNL-mobile, Bharti/Airtel Network.  <br/> Access non disponible sur les réseaux suivants: TTSL (prépayé), Etisalat DB Telecom et Jio.  <br/> |
+|Commentaires, restrictions et problèmes d’accès  <br/> |Accès disponible sur les réseaux suivants : en boucle mobile, BSNL-Fixed (toutes les régions mais Bhopal), Vodafone, IDEA/piment (toutes les régions mais Punjab piment), MTS Inde/Shyam (fixe), &amp; MTNL-fixe mobile, dépendance (toutes les régions, mais Ahmedabad, Bhopal, Bhuneswer Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixe &amp; postpaiement), Tata DoCoMo, HFCL Infotel/ping mobile, S-à-un mobile, Uninor, Videocon mobile, BSNL-mobile, Bharti/Airtel Network.  <br/> Access non disponible sur les réseaux suivants : TTSL (prépayé), Etisalat DB Telecom et Jio.  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)

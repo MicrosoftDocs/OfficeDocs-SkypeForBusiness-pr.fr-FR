@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 62e97d88c21b773f2dd8eb33b5fe8d8bdcf705f3
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: c1f924b86ef4236e6ecef2cf5d4a156a5ee6d8b5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34335133"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573020"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>Restrictions de numérotation gratuit au Chili
 
@@ -37,7 +36,7 @@ ms.locfileid: "34335133"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |
 |Code ISO pays/région  <br/> |CL  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |

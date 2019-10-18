@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment utiliser le rapport utilisation Teams dans le centre d’administration de Microsoft Teams pour obtenir une vue d’ensemble de l’activité des équipes dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439571"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570971"
 ---
 # <a name="microsoft-teams-usage-report"></a>Rapport d’utilisation de Microsoft Teams
 
@@ -31,7 +30,7 @@ Le rapport de l’utilisation Teams dans le centre d’administration de Microso
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez utilisation des **équipes**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
-    ![Rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec les légendes](../media/teams-reports-teams-usage-with-callouts.png "du rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec légendes")
+    ![Rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec légendes](../media/teams-reports-teams-usage-with-callouts.png "Rapport sur l’utilisation de Microsoft teams dans le centre d’administration teams avec légendes")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 

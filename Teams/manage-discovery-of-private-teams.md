@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à contrôler si les équipes privées peuvent être détectées par les utilisateurs de Microsoft teams par le biais de suggestions dans la Galerie d’équipe et les résultats de recherche.
-ms.openlocfilehash: 0c75d0e08290b12cf658b2a84eef609e2d15dc86
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588206"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571999"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gérer la découverte des équipes privées dans Microsoft Teams
 
@@ -31,7 +30,7 @@ Les administrateurs et les propriétaires d’équipe peuvent contrôler si des 
 
 ## <a name="overview-of-public-teams-private-teams-and-discovery-in-teams"></a>Vue d’ensemble des équipes publiques, des équipes privées et de la découverte dans teams
 
-La plupart des organisations ont les types d’équipes suivants: équipes publiques, équipes privées détectable et équipes privées non détectablees.
+La plupart des organisations ont les types d’équipes suivants : équipes publiques, équipes privées détectable et équipes privées non détectablees.
 
 ![Capture d’écran de la Galerie d’équipes](media/private-team-discovery-team-gallery.png)
 
@@ -65,7 +64,7 @@ Dans Microsoft Teams, accédez à l’équipe privée, cliquez sur **plus d’op
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
-Utilisez l’applet de connexion **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** pour désactiver ou activer le paramètre de découverte pour une équipe privée existante. Voici un exemple illustrant comment rendre une équipe plus détectable:
+Utilisez l’applet de connexion **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** pour désactiver ou activer le paramètre de découverte pour une équipe privée existante. Voici un exemple illustrant comment rendre une équipe plus détectable :
 ```
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```

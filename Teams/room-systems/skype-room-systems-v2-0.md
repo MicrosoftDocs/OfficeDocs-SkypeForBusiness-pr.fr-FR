@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Cet article décrit les considérations relatives à la planification pour le déploiement de Microsoft Teams, la nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775105"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573582"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier les salles de Microsoft teams
 
@@ -29,7 +30,7 @@ Vous trouverez ci-dessous des informations sur la planification de l’approche 
 
 Microsoft teams Room fournit une interface de réunion complète qui permet d’offrir une vidéo HD, du contenu audio et du partage de contenu à des réunions de toutes tailles, de petites zones de Huddle à des salles de conférence de grande taille.
 
-![Une console, un microphone et un grand écran montés sur le mur d’une salle de conférence montrent les éléments d’un exemple de configuration des salles de Microsoft Teams.] (../media/room-systems-image1.png "Une console, un microphone et un grand écran montés sur le mur d’une salle de conférence montrent les éléments d’un exemple de configuration des salles de Microsoft Teams.")
+![Une console, un microphone et un grand écran montés sur le mur d’une salle de conférence montrent les éléments d’un exemple de configuration des salles de Microsoft Teams.](../media/room-systems-image1.png "Une console, un microphone et un grand écran montés sur le mur d’une salle de conférence montrent les éléments d’un exemple de configuration des salles de Microsoft Teams.")
 
 Le [Centre d’aide de Microsoft teams vous](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) permet d’en savoir plus sur Microsoft teams et de la manière dont il peut ajouter de la valeur dans le cadre de votre déploiement. Par ailleurs, nous vous recommandons de suivre cette [vidéo de présentation](https://youtu.be/tNey5KZVCl0). 
 
@@ -65,7 +66,7 @@ Utilisez l’approche décrite ci-dessous pour vous guider dans votre déploieme
 
 Commencez par comprendre les salles de conférence dont vous avez besoin et comment vous conformer ce qui vous convient le mieux, puis parcourez la sélection et la mise en œuvre de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et adoption des utilisateurs et développement d’opérations et de procédures de maintenance.
 
-![Commencez par comprendre ce que vous avez et votre vision qui vous convient le mieux, puis parcourez la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et de l’adoption des utilisateurs, et développement d’opérations et de procédures de maintenance.] (../media/room-systems-image2.png "Commencez par comprendre ce que vous avez et votre vision qui vous convient le mieux, puis parcourez la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et de l’adoption des utilisateurs, et développement d’opérations et de procédures de maintenance.")
+![Commencez par comprendre ce dont vous avez besoin et votre vision qui vous convient, puis passez en revue la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et de l’adoption des utilisateurs, et le développement procédures et opérations de maintenance.](../media/room-systems-image2.png "Commencez par comprendre ce dont vous avez besoin et votre vision qui vous convient, puis passez en revue la sélection et le déploiement de l’équipement dont vous avez besoin, la configuration et le déploiement de votre service, la gestion des modifications et de l’adoption des utilisateurs, et le développement procédures et opérations de maintenance.")
 
 Vous devrez peut-être coordonner ces activités entre plusieurs équipes. Nous vous proposons une vue d’ensemble des principales activités que vous devez aborder, ainsi que des suggestions pour les équipes qui participent en général au déploiement et à la gestion des systèmes de salle de conférence, pour vous aider à déterminer les personnes avec lesquelles vous avez besoin de travailler.
 

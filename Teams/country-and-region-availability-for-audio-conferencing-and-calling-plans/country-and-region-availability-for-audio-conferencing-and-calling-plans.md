@@ -11,7 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour vérifier la présence de services d’audioconférence, de système téléphonique, de plans d’appel, de crédits de communications et si les numéros de téléphone gratuits et payants sont disponibles ou non.
-ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774652"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573084"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -89,11 +89,11 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Lettonie](availability-in-latvia.md)
 > - [Lituanie](availability-in-lithuania.md)
 > - [Luxembourg](availability-in-luxembourg.md)
-> - [Macédoine](availability-in-macedonia.md)
+> - [Macédoine du Nord](availability-in-macedonia.md)
 > - [Malaisie](availability-in-malaysia.md)
 > - [Malte](availability-in-malta.md)
 > - [Mexique](availability-in-mexico.md)
-> - [Moldavie](availability-in-moldova.md)
+> - [Moldova](availability-in-moldova.md)
 > - [Monaco](availability-in-monaco.md)
 > - [Maroc](availability-in-morocco.md)
 > - [Pays-Bas](availability-in-the-netherlands.md)
@@ -182,7 +182,7 @@ Grâce au système téléphonique, vous pouvez créer des standards automatiques
 
 Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une région, ainsi que les services disponibles.
 
-### <a name="calling-plans"></a>Offres d'appels
+### <a name="calling-plans"></a>Forfaits d’appel
 Outre le système téléphonique, les plans d’appels permettent aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez d’abord obtenir un numéro de téléphone d’utilisateur (abonné) (pas un numéro de service) pour l’attribuer à l’utilisateur, puis lui affecter un plan d’appels. Il existe deux types de forfaits d’appel disponibles : **national** et **national et international**. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](../calling-plan-landing-page.md) .
 
 Vous pouvez également consulter les [licences de système téléphonique et de plans d’appel](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour obtenir des informations sur les licences.

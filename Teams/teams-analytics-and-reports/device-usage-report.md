@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez comment utiliser le rapport d’utilisation de Microsoft teams dans le centre d’administration de Microsoft teams pour savoir comment les utilisateurs de votre organisation se connectent à Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: c961b6c5897d0c494d0461a3533cae63fa613d41
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131624"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568396"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
@@ -31,7 +30,7 @@ Le rapport utilisation des appareils teams dans le centre d’administration Mic
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l’onglet **afficher les rapports** , sous **rapport**, sélectionnez **utilisation des appareils teams**.
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
-    ![Capture d’écran du rapport sur l’utilisation des appareils teams dans le centre d’administration teams avec légendes] (../media/teams-reports-device-usage-with-callouts.png "Capture d’écran du rapport sur l’utilisation des appareils teams dans le centre d’administration teams avec légendes")
+    ![Capture d’écran du rapport sur l’utilisation des appareils teams dans le centre d’administration teams avec légendes](../media/teams-reports-device-usage-with-callouts.png "Capture d’écran du rapport sur l’utilisation des appareils teams dans le centre d’administration teams avec légendes")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 

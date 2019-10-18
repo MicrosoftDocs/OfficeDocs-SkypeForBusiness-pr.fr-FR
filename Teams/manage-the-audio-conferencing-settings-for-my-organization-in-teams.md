@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Cette section explique la procédure d’attribution d’une licence de conférence rendez-vous et d’un ID de conférence Microsoft Teams à un utilisateur, ainsi que les autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7cb0e76771563305ce98445818c77364b0849845
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793195"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570574"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -44,7 +43,7 @@ Il peut être plus simple pour vous d'afficher tous les paramètres de conféren
   
 1. Connectez-vous à Microsoft 365 à l’aide de votre compte professionnel ou scolaire.
     
-2. Dans le volet de navigation de gauche du **Centre d’administration Microsoft 365**, accédez à **** > utilisateurs**actifs**, puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
+2. Dans le volet de navigation de gauche du **Centre d’administration Microsoft 365**, **accédez à** > utilisateurs**actifs**, puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
     
     > [!NOTE]
     > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**.  
@@ -79,9 +78,9 @@ Pour des informations complémentaires, consultez la rubrique [Microsoft Teams P
 
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
-2. Sous **audioconférence**, cliquez sur réinitialisation de l' **ID de conférence**.  
+2. Sous **audioconférence**, cliquez sur **réinitialisation**de l’ID de conférence.  
 
-3. Dans la fenêtre de réinitialisation de l' **ID de conférence?** , cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
+3. Dans la fenêtre de **réinitialisation de l’ID de conférence ?** , cliquez sur **Réinitialiser**. Un ID de conférence sera créé automatiquement et un message électronique sera envoyé à l’utilisateur avec le nouvel ID de conférence, si l’envoi de courrier électronique à vos utilisateurs est activé. Il est activé par défaut.
 
 Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md).
   
@@ -124,7 +123,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
 
 4. Cliquez sur **Enregistrer**.
     
-Reportez-vous [à la rubrique définition des numéros de téléphone inclus dans](set-the-phone-numbers-included-on-invites-in-teams.md)les invitations.
+Reportez-vous [à la rubrique définition des numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md).
   
   
 ## <a name="choose-audio-conferencing-bridge-settings"></a>Sélectionnez Paramètres du pont de conférence audio
@@ -141,7 +140,7 @@ Reportez-vous [à la rubrique définition des numéros de téléphone inclus dan
 
     Cette option est activée par défaut. Si vous désactivez cette option, les utilisateurs qui ont déjà rejoint la réunion par défaut ne sont pas avertis lorsqu’une personne entre ou quitte la réunion.
 
-4. Sous **type d’annonce d’entrée/sortie**, **** sélectionnez tonalités ou **noms ou numéros de téléphone**. 
+4. Sous **type d’annonce d’entrée/sortie**, sélectionnez **tonalités** ou **noms ou numéros de téléphone**. 
 
     Si vous choisissez des **noms ou des numéros de téléphone**, vous pouvez également choisir d’activer ou de désactiver **la demande aux appelants d’enregistrer leur nom avant de participer à la réunion**. 
 

@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Découvrez comment créer et configurer des zones, des sites et des sous-réseaux réseau pour le routage direct.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f6f6f1e74cc50b37ade03e97106d2befe36a6dd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245105"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570698"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
@@ -69,7 +67,7 @@ Utilisez l’applet de nouvelle applet de [nouveau-CsTenantNetworkSubnet](https:
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site réseau de Delhi et entre le sous-réseau 2001:4898: E8:25:844e: 926f: 85AD: DD8E et le site du réseau Hyderabad.
+Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site réseau de Delhi et entre le sous-réseau 2001:4898 : E8:25:844e : 926f : 85AD : DD8E et le site du réseau Hyderabad.
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
@@ -78,7 +76,7 @@ Le tableau suivant montre les sous-réseaux définis dans cet exemple.
 
 ||Site 1 |Site 2 |
 |---------|---------|---------|
-|ID de sous-réseau   |    192.168.0.0     |  2001:4898: E8:25:844e: 926f: 85AD: DD8E     |
+|ID de sous-réseau   |    192.168.0.0     |  2001:4898 : E8:25:844e : 926f : 85AD : DD8E     |
 |Réseau  |     24    |   120      |
 |ID de site  | Site (Delhi) | Site 2 (Hyderabad) |
 
@@ -86,7 +84,7 @@ Pour plusieurs sous-réseaux, vous pouvez importer un fichier CSV à l’aide d�
 ```
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
-Dans cet exemple, le fichier CSV ressemble à ceci:
+Dans cet exemple, le fichier CSV ressemble à ceci :
 ```
 Identity, Mask, SiteID 
 172.11.12.0, 24, Redmond 

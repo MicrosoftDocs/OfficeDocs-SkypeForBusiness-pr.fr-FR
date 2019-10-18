@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Ce tableau permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone aux Pays-Bas pour Microsoft Teams.
-ms.openlocfilehash: 5108f816a3716a317be4f95cdbdf7634fab4f9c7
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 74801ef2f6f5202679a064b1a63528d81c56869e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347954"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573117"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gestion des numéros de téléphone pour les Pays-Bas
 

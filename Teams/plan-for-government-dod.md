@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435216"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573294"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan pour les déploiements Microsoft 365 Government-DoD
 
@@ -50,7 +49,7 @@ La [Description du service fédéral des États-Unis d’Office 365](https://doc
 
 |    |     |
 |-----------|------------|
-| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez si Microsoft 365 Government-DoD est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions d’éligibilité.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez si Microsoft 365 Government-DoD est approprié pour votre organisation.</li><li>Vérifiez que votre organisation répond aux conditions d’éligibilité.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government-DoD est uniquement disponible aux États-Unis. Les clients de l’administration non américaine peuvent opter pour un certain nombre de [forfaits Office 365 Government](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -85,7 +84,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Organigramme | Disponibles |
 | | Interactive | Disponibles |
 | | Interopérabilité (équipes 1:1-conversation Skype entreprise) | Sur le backlog du secteur public |
-| Teams | Message du canal | Disponibles |
+| Équipes | Message du canal | Disponibles |
 | | Fichiers de canal | Disponibles |
 | | Onglet OneNote | Sur le backlog du secteur public |
 | | Envoyer un canal par courrier électronique | Non disponibles |

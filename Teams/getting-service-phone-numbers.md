@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: 0ffcb07a649c8fc82b3c5a6139f9692263961ef2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 831bfc30feccca06fbfa9414e92d6dc5a957cb40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494657"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569552"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtention de numéros de téléphone de service
 
@@ -35,7 +34,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 > [!NOTE]
 > Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-Vous pouvez obtenir des numéros de service à utiliser avec Skype entreprise et Microsoft teams de deux manières:
+Vous pouvez obtenir des numéros de service à utiliser avec Skype entreprise et Microsoft teams de deux manières :
   
 - Obtenez de nouveaux numéros à partir d’Office 365.
     
@@ -52,12 +51,12 @@ Vous pouvez obtenir des numéros de service à utiliser avec Skype entreprise et
     
 2. Accédez au **Centre** > d’administration**et** > à l'**administrateur Skype hérité**.
     
-3. Dans**** le volet de navigation de gauche, sélectionnez numéros > de**téléphone** **vocaux** > , puis cliquez sur **nouveaux numéros de service**.
+3. Dans le volet de navigation de**gauche, sélectionnez****numéros** > de téléphone **vocaux** > , puis cliquez sur **nouveaux numéros de service**.
     
     > [!IMPORTANT] 
     > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Skype entreprise, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
     
-4. Dans la page **ajouter de nouveaux numéros de service** , sélectionnez les options suivantes:
+4. Dans la page **ajouter de nouveaux numéros de service** , sélectionnez les options suivantes :
     
    - **Pays/Région**
     

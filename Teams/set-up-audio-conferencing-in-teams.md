@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
-ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062418"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571259"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft teams
 
@@ -76,7 +76,7 @@ Une fois que vous obtenez les numéros de téléphone payants et/ou gratuits pou
 
 Pour attribuer un nouveau numéro de téléphone à votre pont de conférence audio, procédez comme suit.
 
-![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise:**
+![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise à l' **aide du centre d’administration Skype entreprise :**
 
  1. Accédez au**portail**d'**administration** > **** > du centre > d' **administration Microsoft 365**.
  2. Sélectionnez les**numéros de téléphone** **vocaux** > .
@@ -121,7 +121,7 @@ Si vous avez besoin de plus de détails, consultez [Sélectionner Microsoft en t
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Étape 8 : Configuration des invitations aux réunions (facultatif)
 <a name="__top"> </a>
  
-Les numéros d’accès définis pour l’utilisateur sont automatiquement ajoutés aux invitations aux réunions envoyées aux participants à la réunion. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise si vous le souhaitez. Voir [personnaliser](meeting-settings-in-teams.md#customize-meeting-invitations)les invitations aux réunions.
+Les numéros d’accès définis pour l’utilisateur sont automatiquement ajoutés aux invitations aux réunions envoyées aux participants à la réunion. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise si vous le souhaitez. Voir [personnaliser les invitations aux réunions](meeting-settings-in-teams.md#customize-meeting-invitations).
    
 ## <a name="related-topics"></a>Rubriques connexes
 

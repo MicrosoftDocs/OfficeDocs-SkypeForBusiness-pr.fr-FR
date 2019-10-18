@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Découvrez comment planifier le routage en fonction de l’emplacement pour le routage direct.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245116"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570687"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -32,14 +30,14 @@ ms.locfileid: "36245116"
 
 Dans certains pays et certaines régions, il est illégal d’ignorer le fournisseur de réseau téléphonique commuté (PSTN) pour réduire les frais d’appel longue distance. Cet article décrit comment utiliser le routage basé sur l’emplacement pour limiter le recours au contournement pour les utilisateurs de Microsoft teams en fonction de leur emplacement géographique. Cet article s’applique uniquement au routage direct du système téléphonique.
 
-Vous trouverez ci-dessous un aperçu du routage et des recommandations en fonction de l’emplacement pour vous aider à planifier la mise en route. Lorsque vous êtes prêt à appliquer et activer le routage selon l’emplacement, voir:
+Vous trouverez ci-dessous un aperçu du routage et des recommandations en fonction de l’emplacement pour vous aider à planifier la mise en route. Lorsque vous êtes prêt à appliquer et activer le routage selon l’emplacement, voir :
 - [Déploiement des paramètres réseau pour le routage de géolocalisation](location-based-routing-configure-network-settings.md)
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
 
 Le routage basé sur l’emplacement est une fonctionnalité qui vous permet de limiter le contournement payant en fonction de la stratégie et de l’emplacement géographique de l’utilisateur au moment d’un appel RTC entrant ou sortant. 
 
-Lorsqu’un utilisateur de teams est activé pour le routage géolocalisation, les conditions suivantes s’appliquent:
-- Pour passer un appel RTC sortant, l’une des conditions suivantes doit être remplie:
+Lorsqu’un utilisateur de teams est activé pour le routage géolocalisation, les conditions suivantes s’appliquent :
+- Pour passer un appel RTC sortant, l’une des conditions suivantes doit être remplie :
     - Le point de terminaison de l’utilisateur se trouve dans un site réseau activé pour le routage de géolocalisation et pour les appels sortants via la passerelle correspondante activée pour le routage sur site. 
     - Le point de terminaison de l’utilisateur se trouve dans un site réseau qui n’est pas activé pour le routage de géolocalisation et pour les appels sortants via une passerelle qui n’est pas activée pour le routage sur site.
 
@@ -61,7 +59,7 @@ Vous devez appliquer le routage sur site aux utilisateurs, aux sites réseau et 
 
 Comme mentionné plus haut, le routage basé sur l’emplacement s’applique uniquement aux utilisateurs qui sont configurés pour le routage direct. Le routage basé sur l’emplacement ne s’applique pas aux utilisateurs qui sont configurés pour le plan d’appels. Les utilisateurs doivent être activés pour le routage basé sur l’emplacement s’ils sont soumis à une restriction de contournement par le biais du contournement, qui contrôle les conditions dans lesquelles ils peuvent émettre et recevoir des appels RTC et la passerelle RTC qui peut être utilisée. Lorsqu’un utilisateur qui est autorisé à utiliser le routage de géolocalisation est situé sur un site activé pour le routage sur la base de l’emplacement, l’utilisateur doit appeler une passerelle basée sur l’emplacement connectée au site. 
 
-Le routage en fonction de l’emplacement fonctionne en déterminant la localisation actuelle de l’utilisateur en fonction de l’adresse IP du point de terminaison d’équipe de l’utilisateur et en appliquant les règles en conséquence. L’emplacement d’un utilisateur qui est activé pour le routage par emplacement peut être classé comme suit: 
+Le routage en fonction de l’emplacement fonctionne en déterminant la localisation actuelle de l’utilisateur en fonction de l’adresse IP du point de terminaison d’équipe de l’utilisateur et en appliquant les règles en conséquence. L’emplacement d’un utilisateur qui est activé pour le routage par emplacement peut être classé comme suit : 
 - **L’utilisateur se trouve sur le même site activé pour le routage sur l’emplacement que sur la passerelle RTC, où il a été attribué.**<br>Dans ce scénario, l’utilisateur se trouve dans un site réseau connu activé pour le routage par emplacement et le numéro de téléphone à l’intérieur de l’utilisateur s’arrête sur une passerelle PSTN qui se trouve sur le même site réseau. Par exemple, l’utilisateur se trouve au bureau. 
 - **L’utilisateur se trouve sur un autre site activé pour le routage de l’emplacement non associé à la passerelle RTC et son inattribution.**<br>Dans ce scénario, l’utilisateur se trouve dans un site réseau connu activé pour le routage géolocalisation et ce site n’est pas associé à la passerelle RTC dans laquelle le numéro de l’utilisateur a été attribué. Par exemple, l’utilisateur se déplace vers un autre bureau.  
 - **L’utilisateur se trouve sur un site interne qui n’est pas activé pour le routage par emplacement.** <br>Dans ce scénario, l’utilisateur se trouve dans un site réseau interne connu qui n’est pas activé pour le routage par emplacement. 
@@ -89,7 +87,7 @@ Cette section décrit les différents scénarios de limitation du recours au con
 
 Le diagramme suivant présente les restrictions activées par le routage par emplacement dans chaque scénario. Les utilisateurs, les sites réseau et les passerelles activés pour le routage géolocalisation sont entourés d’une bordure. Utilisez le diagramme comme guide pour mieux comprendre le fonctionnement du routage basé sur l’emplacement dans chaque scénario.  
 
-![Diagramme illustrant des scénarios de routage sur site] (media/lbr-direct-routing.png "Diagramme illustrant des scénarios de routage sur site")
+![Diagramme illustrant des scénarios de routage sur site](media/lbr-direct-routing.png "Diagramme illustrant des scénarios de routage sur site")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Un utilisateur d’équipes place un appel sortant vers le RTC
 
@@ -130,7 +128,7 @@ En comparaison, les utilisateurs activés pour le routage géolocalisation peuve
 
 Lorsqu’un point de terminaison PSTN est impliqué, le routage géolocalisation analyse si un ou les deux utilisateurs sont activés pour le routage de l’emplacement et détermine si l’appel doit être transféré ou transféré en fonction de l’emplacement des deux points de terminaison. 
  
-Le transfert d’appel nécessite que l’utilisateur à l’origine de l’appel ne réponde pas lors du transfert d’appel. Cela signifie que les appels peuvent être transférés même si User1 ne se trouve pas à un emplacement pour recevoir des appels entrants (le tableau suivant: le message d' [équipe reçoit un appel entrant de la part du RTC](#teams-user-receives-an-inbound-call-from-the-pstn) ) et les appels ne peuvent pas être transférés si User1 ne peut pas recevoir l’appel entrant. 
+Le transfert d’appel nécessite que l’utilisateur à l’origine de l’appel ne réponde pas lors du transfert d’appel. Cela signifie que les appels peuvent être transférés même si User1 ne se trouve pas à un emplacement pour recevoir des appels entrants (le tableau suivant : le message d' [équipe reçoit un appel entrant de la part du RTC](#teams-user-receives-an-inbound-call-from-the-pstn) ) et les appels ne peuvent pas être transférés si User1 ne peut pas recevoir l’appel entrant. 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>Utilisateur non activé pour le routage par emplacement
 
@@ -217,9 +215,9 @@ Le renvoi vers la boîte vocale est également autorisé.
 
 ### <a name="delegation"></a>Délégation
 
-Un utilisateur d’équipes peut choisir des délégués qui peuvent émettre et recevoir des appels en son nom. Les fonctionnalités de délégation dans teams sont affectées par le routage géolocalisation comme suit: 
+Un utilisateur d’équipes peut choisir des délégués qui peuvent émettre et recevoir des appels en son nom. Les fonctionnalités de délégation dans teams sont affectées par le routage géolocalisation comme suit : 
 - Pour les appels sortants à partir d’un délégué activé pour le routage de l’emplacement pour le compte d’un déléguer, les mêmes règles s’appliquent. Le routage des appels dépend de la stratégie d’autorisation des appels du délégué, de la stratégie de routage de la voix et de l’emplacement. Pour plus d’informations, reportez-vous [à la section l’utilisateur de teams place un appel sortant vers le RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
-- Pour les appels RTC entrants vers un déléguer, les mêmes règles de routage basées sur l’emplacement qui s’appliquent au transfert d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, reportez-vous à la section utilisateurs d’équipes transfère ou transfère un appel vers [un autre utilisateur](#teams-user-transfers-or-forwards-call-to-another-teams-user)de teams, [teams transfère ou transfère un appel vers un point de terminaison PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)et [sonnerie simultanée](#simultaneous-ringing). Lorsqu’un délégué définit un point de terminaison PSTN en tant que cible de sonnerie simultanée, la stratégie de routage vocal du délégué est utilisée pour diriger l’appel vers le RTC. 
+- Pour les appels RTC entrants vers un déléguer, les mêmes règles de routage basées sur l’emplacement qui s’appliquent au transfert d’appel ou à la sonnerie simultanée à d’autres utilisateurs s’appliquent également aux délégués. Pour plus d’informations, reportez-vous à la section utilisateurs d’équipes transfère ou transfère un appel vers [un autre utilisateur de teams](#teams-user-transfers-or-forwards-call-to-another-teams-user), [teams transfère ou transfère un appel vers un point de terminaison PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)et [sonnerie simultanée](#simultaneous-ringing). Lorsqu’un délégué définit un point de terminaison PSTN en tant que cible de sonnerie simultanée, la stratégie de routage vocal du délégué est utilisée pour diriger l’appel vers le RTC. 
 - Pour la délégation, il est recommandé de faire figurer la personne qui a délégué le message sur le même site réseau. 
 
 ## <a name="other-planning-considerations"></a>Autres considérations de planification
@@ -234,7 +232,7 @@ Les sous-réseaux IPv4 et IPv6 sont pris en charge, cependant, le protocole IPv6
 
 ### <a name="client-support-for-location-based-routing"></a>Prise en charge du routage d’emplacement par le client
 
-Les clients teams suivants sont pris en charge:
+Les clients teams suivants sont pris en charge :
 - Clients de bureau Teams (Windows et Mac)
 - Clients mobiles Teams (iOS et Android)
 - Téléphones IP teams
@@ -243,7 +241,7 @@ Le client Web teams et les clients Skype entreprise ne sont pas pris en charge.
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>Fonctionnalités non prises en charge par le routage géodépendant
 
-Le routage basé sur l’emplacement n’est pas applicable aux types d’interactions suivants. Le routage basé sur l’emplacement n’est pas appliqué lorsque les points de terminaison d’équipes interagissent avec les points de terminaison RTC dans les scénarios suivants: 
+Le routage basé sur l’emplacement n’est pas applicable aux types d’interactions suivants. Le routage basé sur l’emplacement n’est pas appliqué lorsque les points de terminaison d’équipes interagissent avec les points de terminaison RTC dans les scénarios suivants : 
 - Parcage d’appel ou récupération des appels via le parcage d’appels 
 - Un utilisateur Skype entreprise sur site ou un utilisateur de Skype entreprise Online appelle un utilisateur de teams  
 

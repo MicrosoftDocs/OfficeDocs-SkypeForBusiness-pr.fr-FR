@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Découvrez les problèmes liés aux caractères spéciaux dans les noms de stratégies et ce que vous pouvez faire pour résoudre ce problème.
-ms.openlocfilehash: 03858de420cf77f8a8088f86c8c5feae5828c21a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298601"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568655"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?
 
@@ -39,8 +38,8 @@ Si vous disposez d’une stratégie contenant des caractères spéciaux, vous de
 
 ## <a name="to-remove-special-characters"></a>Pour supprimer des caractères spéciaux
 
-**Étape 1: créer une connexion à distance avec PowerShell.** 
-Si ce n’est déjà fait, configurez [votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) .
+**Étape 1 : créer une connexion à distance avec PowerShell.** 
+Si ce n’est déjà fait, [configurez votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) .
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -49,7 +48,7 @@ Si ce n’est déjà fait, configurez [votre ordinateur pour Windows PowerShell]
 ```
 
 
-**Étape 2: obtenir les paramètres de l’ancienne stratégie et capturer la sortie.**
+**Étape 2 : obtenir les paramètres de l’ancienne stratégie et capturer la sortie.**
 
 > [!NOTE]
 > Cet exemple s’utilise pour une stratégie de [messagerie](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  Les étapes sont identiques pour les autres types de stratégies, mais vous devez utiliser l’applet de cmdlet correcte. 
@@ -59,22 +58,22 @@ Si ce n’est déjà fait, configurez [votre ordinateur pour Windows PowerShell]
   ```
 
 
-**Étape 3: créer une nouvelle stratégie.**
+**Étape 3 : créer une nouvelle stratégie.**
 
 Vous pouvez créer une nouvelle stratégie avec le même paramètre à l’aide du centre d’administration Microsoft teams ou de PowerShell.
 
-L’exécution de cette opération entraîne la création d’une stratégie pour vous, mais vous devrez ajouter les paramètres appropriés en vérifiant [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , puis en exécutant celle-ci:
+L’exécution de cette opération entraîne la création d’une stratégie pour vous, mais vous devrez ajouter les paramètres appropriés en vérifiant [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) , puis en exécutant celle-ci :
 
   ```
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
-**Étape 4: affecter la stratégie.**
+**Étape 4 : affecter la stratégie.**
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 Pour plus d’informations sur cette cmdlet, voir [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
 
-**Étape 5: supprimer l’ancienne stratégie.**
+**Étape 5 : supprimer l’ancienne stratégie.**
 
 Cette opération a pour effet de supprimer l’ancienne stratégie qui contient les caractères spéciaux.
   ```
@@ -82,7 +81,7 @@ Cette opération a pour effet de supprimer l’ancienne stratégie qui contient 
   ```
 Pour plus d’informations sur cette cmdlet, voir [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
-Si cette commande aboutit, vous avez terminé. Si la commande ci-dessus renvoie une erreur, c’est parce que l’ancienne stratégie est affectée aux utilisateurs et que vous devez les exécuter pour supprimer tous les utilisateurs assignés de la stratégie:
+Si cette commande aboutit, vous avez terminé. Si la commande ci-dessus renvoie une erreur, c’est parce que l’ancienne stratégie est affectée aux utilisateurs et que vous devez les exécuter pour supprimer tous les utilisateurs assignés de la stratégie :
 
 ```
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
@@ -91,7 +90,7 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :
     
-  - [Pourquoi avez-vous besoin d’utiliser Office 365 PowerShell?](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Pourquoi avez-vous besoin d’utiliser Office 365 PowerShell ?](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

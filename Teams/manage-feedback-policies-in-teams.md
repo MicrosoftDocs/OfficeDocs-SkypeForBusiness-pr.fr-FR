@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715817"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570632"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -31,7 +30,7 @@ Les utilisateurs de votre organisation peuvent envoyer des commentaires sur team
 
 **Fonctionnalité envoyer des commentaires**
 
-Les utilisateurs peuvent **vous** > envoyer des commentaires et des suggestions aux équipes pour nous en accédant aux**Commentaires** dans Teams. Les données envoyées par le biais de **Commentaires** sont considérées comme des «données de support» dans votre contrat 365 Office, y compris des informations qui seraient considérées comme «données client» ou «données personnelles».
+Les utilisateurs peuvent **vous** > envoyer des commentaires et des suggestions aux équipes pour nous en accédant aux**Commentaires** dans Teams. Les données envoyées par le biais de **Commentaires** sont considérées comme des « données de support » dans votre contrat 365 Office, y compris des informations qui seraient considérées comme « données client » ou « données personnelles ».
 
 ![Capture d’écran de l’option envoyer des commentaires dans Microsoft teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -51,14 +50,14 @@ Par exemple, supposons que vous souhaitiez permettre à tous les utilisateurs de
 
 Vous pouvez utiliser l’applet **de nouvelle applet de nouveau-CsTeamsFeedbackPolicy** , * [disponible ici](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, pour créer une stratégie personnalisée et l’applet de passe **Grant-CsTeamsFeedbackPolicy** pour l’attribuer à un ou plusieurs utilisateurs ou groupes d’utilisateurs, comme un groupe de sécurité ou Groupe de distribution.
 
-Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants:
+Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
- - **Envoyer des commentaires**: définissez le paramètre **userInitiatedMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée pour formuler des commentaires. Le fait de définir **** le paramètre sur Disabled désactive la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne peuvent pas envoyer de commentaires.
- - **Enquêtes**: définissez le paramètre **receiveSurveysMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée à la réception de l’enquête. Pour que les utilisateurs reçoivent l’enquête et leur permettent de les refuser, définissez le paramètre sur **enabledUserOverride**. Dans Microsoft Teams, les utilisateurs peuvent accéder aux **paramètres** > de**confidentialité** et décider s’ils souhaitent participer aux enquêtes. La définition du paramètre **** sur Disabled entraîne la désactivation de la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne recevront pas l’enquête.
+ - **Envoyer des commentaires**: définissez le paramètre **userInitiatedMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée pour formuler des commentaires. Le fait de définir le paramètre sur **Disabled** désactive la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne peuvent pas envoyer de commentaires.
+ - **Enquêtes**: définissez le paramètre **receiveSurveysMode** sur **Enabled** pour autoriser les utilisateurs auxquels une stratégie est affectée à la réception de l’enquête. Pour que les utilisateurs reçoivent l’enquête et leur permettent de les refuser, définissez le paramètre sur **enabledUserOverride**. Dans Microsoft Teams, les utilisateurs peuvent accéder aux **paramètres** > de**confidentialité** et décider s’ils souhaitent participer aux enquêtes. La définition du paramètre sur **Disabled** entraîne la désactivation de la fonctionnalité et les utilisateurs qui ont reçu la stratégie ne recevront pas l’enquête.
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
 
-Dans cet exemple, nous créons une stratégie de commentaires appelée nouvelle politique de commentaires sur les employés et nous désactivons la **** possibilité de faire part de vos commentaires et de l’enquête.
+Dans cet exemple, nous créons une stratégie de commentaires appelée nouvelle politique de commentaires sur les employés et nous désactivons la possibilité de faire part **de vos commentaires et de** l’enquête.
 
 ```
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled

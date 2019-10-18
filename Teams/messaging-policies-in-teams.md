@@ -7,7 +7,8 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861863"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569275"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -35,7 +36,7 @@ Par défaut, la création d’une stratégie nommée global (au niveau de l’or
 
 Vous pouvez facilement gérer les stratégies de messagerie dans le centre d’administrationhttp://admin.teams.microsoft.com) de Microsoft Teams (en vous connectant avec des informations d’identification d’administrateur et en choisissant **stratégies de messagerie** dans le volet de navigation gauche. Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, sélectionnez la ligne **global (par défaut de l’organisation)** , puis apportez les modifications souhaitées. Pour créer une stratégie de messagerie personnalisée, sélectionnez **nouvelle stratégie**, attribuez un nom à la nouvelle stratégie, puis sélectionnez vos paramètres. Lorsque vous avez fin, cliquez sur **Enregistrer** .
 
-Par exemple, imaginons que vous vouliez vérifier que les messages envoyés ne sont pas supprimés ou modifiés. Vous pouvez créer une stratégie personnalisée nommée «conserver les messages envoyés» et désactiver les paramètres suivants:
+Par exemple, imaginons que vous vouliez vérifier que les messages envoyés ne sont pas supprimés ou modifiés. Vous pouvez créer une stratégie personnalisée nommée « conserver les messages envoyés » et désactiver les paramètres suivants :
 
 - Les propriétaires peuvent supprimer des messages envoyés
 - Les utilisateurs peuvent supprimer des messages envoyés
@@ -52,9 +53,9 @@ Si vous créez une stratégie de messagerie personnalisée, celle-ci est activé
 
 Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez chacun d’eux en cliquant à gauche du nom de l’utilisateur, puis sélectionnez **modifier les paramètres**. Dans le volet **modifier les paramètres** , sous stratégie de **messagerie**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**.
 
-Vous pouvez également affecter une stratégie de messagerie à un ou plusieurs utilisateurs comme suit:
+Vous pouvez également affecter une stratégie de messagerie à un ou plusieurs utilisateurs comme suit :
 
-1. Accédez**** au **Centre** > d’administration Microsoft Teams.
+1. Accédez > au **Centre d’administration Microsoft teams****.**
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -67,14 +68,14 @@ Vous pouvez également affecter une stratégie de messagerie à un ou plusieurs 
 
 ## <a name="messaging-policy-settings"></a>Paramètres de la stratégie de messagerie
 
-Utilisez les paramètres suivants pour modifier la stratégie de messagerie générale ou créer une nouvelle stratégie personnalisée:
+Utilisez les paramètres suivants pour modifier la stratégie de messagerie générale ou créer une nouvelle stratégie personnalisée :
 
 - **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer les messages que les utilisateurs ont envoyés dans une conversation.
 - **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
 - **Confirmations de lecture** Les confirmations de lecture permettent à l’expéditeur d’un message de recevoir une notification lors de la lecture du message par le destinataire dans 1:1 et les discussions de groupe de 20 personnes ou moins. Les confirmations de lecture des messages ne s’importent pas incertainement quant à la lecture des messages et à l’amélioration de la communication d’équipe.  
     - **Contrôle utilisateur** Cela signifie que les utilisateurs décident d’activer ou de désactiver les confirmations de lecture. Le paramètre par défaut de l’application est activé. Les utilisateurs peuvent alors le désactiver. 
-    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. Sachez que lors de l’utilisation du paramètre **on pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée «global (organisation par défaut)») ou d’avoir toutes les stratégies de messagerie dans le client utilise les mêmes paramètres pour les accusés de réception. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
+    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. Sachez que lors de l’utilisation du paramètre **on pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée « global (organisation par défaut) ») ou d’avoir toutes les stratégies de messagerie dans le client utilise les mêmes paramètres pour les accusés de réception. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
     - **Désactivé pour tous** Cela signifie que la fonctionnalité est désactivée et que personne ne dispose d’une confirmation de lecture dans le client. 
 <a name="bkchat"> </a>
 
@@ -86,7 +87,7 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
     - **Strictement**  Cela signifie que vos utilisateurs seront en mesure d’insérer des Giphys dans les discussions, mais qu’ils seront strictement limités aux contenus adultes.
 - **Utiliser mèmes dans les conversations** Si vous activez cette fonction, les utilisateurs peuvent inclure des mèmes dans les conversations par messagerie instantanée avec d’autres personnes. 
 - **Utiliser les autocollants dans les conversations** Si vous activez cette fonction, les utilisateurs peuvent inclure des autocollants dans les conversations par messagerie instantanée avec d’autres personnes.
-- **Autoriser** les aperçus d’URL Utilisez ce paramètre pour activer ou désactiver l’aperçu d’URL automatique dans les messages.
+- **Autoriser les aperçus d’URL** Utilisez ce paramètre pour activer ou désactiver l’aperçu d’URL automatique dans les messages.
 - **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels pour Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activez ce paramètre pour permettre aux utilisateurs d’afficher des messages dans le lecteur immersif Microsoft. Le lecteur immersif est un outil d’apprentissage qui offre une interface de lecture plein écran pour améliorer la lisibilité du texte.
 - **Les utilisateurs peuvent envoyer des notifications de <a name="urgent-message">priorité</a> ** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité indiquent aux utilisateurs toutes les 2 minutes pour une période de 20 minutes ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit reçu et agi en temps opportun.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]

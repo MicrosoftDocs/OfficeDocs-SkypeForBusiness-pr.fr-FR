@@ -8,15 +8,16 @@ audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: Consultez cette rubrique pour découvrir comment migrer des appareils de système de salle Lync pour utiliser le logiciel de salle Microsoft Teams.
-ms.openlocfilehash: c98d2081c29967c033d705082b4ebbffbd42b3ea
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427958"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573659"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migration de périphériques LRS (Lync Room System) vers des salles Microsoft teams
 
@@ -24,11 +25,11 @@ Les appareils LRS (Lync Room System) avec le logiciel Skype Room System version 
 
 Le logiciel de salle Microsoft teams fonctionne avec Microsoft teams en plus de Skype entreprise Server et services en ligne pour les réunions et les appels sur tous les appareils Microsoft teams compatibles pris en charge.
 
-Vos appareils existants **** continuent à fonctionner après la fin de la prise en charge des logiciels de la version v1 du système de salle Skype. Toutefois, si ce logiciel rencontre un bogue logiciel qui nécessite Microsoft pour publier un correctif, il ne sera pas pris en charge. SRS v1 utilise TLS 1.0/1,1 qui sera déconseillé par Microsoft dans le futur. Vous pouvez en savoir plus sur la [préparation de la désapprobation TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). La prise en charge de TLS 1,2 par Microsoft teams est prise en charge jusqu’au 31 octobre 2018. Les clients locaux Skype entreprise ne peuvent pas désactiver TLS 1.0/1.1 tant que Microsoft Teams ne annonce pas la prise en charge de TLS 1,2, quelles que soient les recommandations générales relatives à la désactivation de TLS 1.0/1.1.
+Vos **appareils existants** continuent à fonctionner après la fin de la prise en charge des logiciels de la version v1 du système de salle Skype. Toutefois, si ce logiciel rencontre un bogue logiciel qui nécessite Microsoft pour publier un correctif, il ne sera pas pris en charge. SRS v1 utilise TLS 1.0/1,1 qui sera déconseillé par Microsoft dans le futur. Vous pouvez en savoir plus sur la [préparation de la désapprobation TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). La prise en charge de TLS 1,2 par Microsoft teams est prise en charge jusqu’au 31 octobre 2018. Les clients locaux Skype entreprise ne peuvent pas désactiver TLS 1.0/1.1 tant que Microsoft Teams ne annonce pas la prise en charge de TLS 1,2, quelles que soient les recommandations générales relatives à la désactivation de TLS 1.0/1.1.
 
-## <a name="which-devices-are-affected"></a>Quels appareils sont concernés?
+## <a name="which-devices-are-affected"></a>Quels appareils sont concernés ?
 
-Voici la liste des appareils concernés par ce changement:
+Voici la liste des appareils concernés par ce changement :
 
 - Crestron RL
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
@@ -49,10 +50,10 @@ Les clients Crestron RL2 (également désignés sous le nom de Crestron RL200) p
 
 ### <a name="smart-room-systems-upgrade"></a>Mise à niveau des systèmes de salle intelligente
 
-Pour les clients intelligents de LRS, à l’exception du programme d’échange de matériel Crestron, intelligent consiste également à proposer une solution de mise à niveau vers Microsoft Teams. Cette mise à niveau sera fournie par SMART Technologies Inc. au client en vertu du support technique. Veuillez en savoir plus à [](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)ce propos.
+Pour les clients intelligents de LRS, à l’exception du programme d’échange de matériel Crestron, intelligent consiste également à proposer une solution de mise à niveau vers Microsoft Teams. Cette mise à niveau sera fournie par SMART Technologies Inc. au client en vertu du support technique. Veuillez en savoir plus à [ce propos.](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)
 
 
-## <a name="what-should-you-do"></a>Que faire?
+## <a name="what-should-you-do"></a>Que faire ?
 
 Nous vous conseillons de planifier la mise à jour des périphériques du système de salle Lync vers les salles de votre application avant TLS 1.0/1.1 à l’aide des options de mise à niveau mentionnées ci-dessus. Par ailleurs, vous pouvez également envisager de remplacer des appareils existants par de nouveaux appareils certifiés pour les salles Microsoft Teams. Pour plus d’informations, consultez la section [périphériques de salle](https://aka.ms/roomdevices) et prenez en revue la [Configuration requise pour Microsoft teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 

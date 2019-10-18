@@ -12,16 +12,15 @@ description: Liste actuelle des problèmes connus pour les stratégies de réten
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b13fc5347338b28c877b224f758c79513e379391
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8a7dd5bac7c82814befab66247b1bfa8cf4943f6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243607"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569961"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problèmes connus pour les stratégies de rétention dans Microsoft Teams
 
@@ -31,7 +30,7 @@ Vous trouverez ci-après des problèmes connus liés aux stratégies de rétenti
 
 - Sous choisir les utilisateurs dans la ligne d’emplacement de conversation de l’équipe, il est possible que les utilisateurs invités et non-boîte aux lettres apparaissent. Les stratégies de rétention ne sont pas destinées à être définies pour les invités et nous travaillons à la suppression de celles-ci dans la liste.
 
-- L’Assistant ELC (Exchange Life cycle Assistant) s’exécute quotidiennement, mais il dispose d’un SLA de 7 jours. Par conséquent, il est possible que, si vous disposez d’une stratégie de rétention teams pour supprimer des éléments de plus de 60 jours, ces éléments peuvent persister pendant 67 jours maximum. Ce n’est pas une nouvelle situation: elle suit le modèle Exchange. Dans la plupart des cas, il n’y a aucun retard.
+- L’Assistant ELC (Exchange Life cycle Assistant) s’exécute quotidiennement, mais il dispose d’un SLA de 7 jours. Par conséquent, il est possible que, si vous disposez d’une stratégie de rétention teams pour supprimer des éléments de plus de 60 jours, ces éléments peuvent persister pendant 67 jours maximum. Ce n’est pas une nouvelle situation : elle suit le modèle Exchange. Dans la plupart des cas, il n’y a aucun retard.
 
 
 | | | |

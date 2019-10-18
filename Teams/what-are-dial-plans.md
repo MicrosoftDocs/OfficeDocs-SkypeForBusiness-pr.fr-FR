@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Découvrez les types de plan d’appels de numérotation (RTC) disponibles dans Office 365 et comment en choisir un pour votre organisation.  '
-ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7a7f736ab701f2e87e29ee2a33b4cfbebccd7c21
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483967"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568563"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
@@ -34,13 +33,13 @@ Un plan de numérotation est un jeu nommé de règles de normalisation qui conve
 
 Un plan de numérotation se compose d’une ou de plusieurs règles de normalisation qui définissent la façon dont les numéros de téléphone exprimés dans différents formats sont convertis dans un autre format. La même chaîne de numérotation peut être interprétée et traduite différemment selon le plan de numérotation, donc selon le plan de numérotation affecté à un utilisateur donné, le même numéro peut être traduit et routé différemment.
 
-Consultez [créer et gérer les plans](create-and-manage-dial-plans.md) de numérotation pour créer et gérer les plans de numérotation client.
+Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer les plans de numérotation client.
 
 ## <a name="tenant-dial-plan-scope"></a>Étendue du plan de numérotation client
 
-L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les étendues sont différentes de celles d’un déploiement local de Skype entreprise Server. Les clients obtiennent le plan de numérotation approprié via les paramètres de mise en service fournis automatiquement lorsque les utilisateurs se connectent à teams ou à Skype entreprise online. En tant qu'administrateur, vous pouvez gérer et attribuer les niveaux d'étendue des plans de numérotation en utilisant une session PowerShell à distance.
+L’étendue d’un plan de numérotation détermine le niveau hiérarchique auquel le plan de numérotation peut être appliqué. Les étendues sont différentes de celles d’un déploiement local de Skype entreprise Server. Les clients obtiennent le plan de numérotation approprié via les paramètres de mise en service fournis automatiquement lorsque les utilisateurs se connectent à teams ou à Skype entreprise online. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation à l’aide de Remote PowerShell.
 
-Dans teams et Skype entreprise Online, il existe deux types de plans de numérotation: l’étendue du service et le client (qui est destiné à votre organisation). Un plan de numérotation de service est défini pour chaque pays ou région où le système téléphonique Office 365 est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation d’Office 365 attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
+Dans teams et Skype entreprise Online, il existe deux types de plans de numérotation : l’étendue du service et le client (qui est destiné à votre organisation). Un plan de numérotation de service est défini pour chaque pays ou région où le système téléphonique Office 365 est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation d’Office 365 attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Par conséquent, il n’est pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client tels qu’ils existent déjà dans le plan de numérotation des pays de service.
 
 Les plans de numérotation client peuvent être encore répartis dans deux étendues : l'étendue client ou l'étendue utilisateur. Si un client définit et attribue un plan de numérotation étendu à un utilisateur, cet utilisateur sera alors approvisionné avec un plan de numérotation efficace constitué du plan de numérotation de son pays de service et du plan de numérotation utilisateur qui lui est attribué. Si un client définit un plan de numérotation étendu au client mais n'attribue pas de plan de numérotation étendu à un utilisateur, cet utilisateur sera alors approvisionné avec un plan de numérotation efficace constitué du plan de numérotation de son pays de service et du plan de numérotation client.
 
@@ -56,7 +55,7 @@ Voici les différents plans de numérotation efficace possibles :
 
  **Utilisateur du client-service** Si un plan de numérotation utilisateur d’un client est défini et attribué à un utilisateur, celui-ci reçoit un plan de numérotation efficace, composé du plan de numérotation des utilisateurs de clients fusionnés et du plan de numérotation pays du service associé à son emplacement d’utilisation d’Office 365.
 
-Consultez [créer et gérer les plans](create-and-manage-dial-plans.md) de numérotation pour créer vos plans de numérotation client.
+Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer vos plans de numérotation client.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planification des plans de numérotation utilisateur
 
@@ -91,7 +90,7 @@ Vous pouvez spécifier un préfixe d'accès extérieur de 1 à 4 caractères (#,
 > [!NOTE]
 > Si vous spécifiez un préfixe d'accès extérieur, vous n'avez pas besoin de créer une règle de normalisation supplémentaire pour vous adapter au préfixe. 
 
-Consultez [créer et gérer les plans](create-and-manage-dial-plans.md) de numérotation pour créer vos plans de numérotation client.
+Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer vos plans de numérotation client.
 
 ## <a name="normalization-rules"></a>Règles de normalisation
 
@@ -109,7 +108,7 @@ Les règles de normalisation utilisent les expressions régulières du .NET Fram
 
 Pour plus d’informations sur l’utilisation des expressions régulières du .NET Framework, consultez la rubrique [expressions régulières du .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Consultez [créer et gérer les plans](create-and-manage-dial-plans.md) de numérotation pour créer et gérer des règles de normalisation pour vos plans de numérotation client.
+Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer des règles de normalisation pour vos plans de numérotation client.
 
 ### <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 

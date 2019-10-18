@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: efb747afa468718b43aa7c38a14675a5bf4737cd
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: cf55b55f15d61763ba2e8e712718142eb8d184d8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330035"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569744"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovenia"></a>Restrictions de numérotation gratuit en Slovénie
 
@@ -37,7 +36,7 @@ ms.locfileid: "34330035"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> |0 800 800XX  <br/> |
 |Code ISO pays/région  <br/> |SI  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |

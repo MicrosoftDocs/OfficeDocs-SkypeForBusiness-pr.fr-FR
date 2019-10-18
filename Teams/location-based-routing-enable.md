@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Apprenez à activer le routage en fonction de l’emplacement pour le routage direct.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245127"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572021"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -32,7 +30,7 @@ Avant de suivre les étapes décrites dans cet article, assurez-vous d’avoir l
 
 Cet article explique comment activer le routage sur la base de l’emplacement pour le routage direct. Après le déploiement du routage direct du système téléphonique et la configuration des zones, des sites et des sous-réseaux, vous pouvez activer le routage par emplacement. Pour suivre les étapes décrites dans cet article, vous devez être familiarisé avec les applets de méthode PowerShell. Pour en savoir plus, voir [vue d’ensemble de PowerShell teams](teams-powershell-overview.md).
 
- Vous devez activer le routage par emplacement pour les éléments suivants:
+ Vous devez activer le routage par emplacement pour les éléments suivants :
 - Utilisateurs
 - Sites réseau
 - Configurations des passerelles
@@ -55,7 +53,7 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
-    Lorsque vous attribuez des utilisations RTC à une stratégie de routage vocale, effectuez l’une des opérations suivantes:
+    Lorsque vous attribuez des utilisations RTC à une stratégie de routage vocale, effectuez l’une des opérations suivantes :
     - Utiliser les utilisations RTC associées aux itinéraires vocaux qui utilisent une passerelle PSTN locale au site
     - Utilisez les utilisations RTC associées aux itinéraires vocaux qui utilisent une passerelle RTC située dans une région où les restrictions de routage basées sur les emplacements ne sont pas nécessaires.
 
@@ -93,7 +91,7 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
     ||Site 1 (Delhi)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
 |Nom du site    |Site 1 (Delhi)    |Site 2 (Hyderabad)   
-    |EnableLocationBasedRouting    |True    |True    |
+    |EnableLocationBasedRouting    |Vrai    |Vrai    |
     |Sous-réseaux     |Sous-réseau 1 (Delhi)     |Sous-réseau 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Activer le routage basé sur l’emplacement pour les passerelles
@@ -139,14 +137,14 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 
     Les points de terminaison connectés à des systèmes qui ne routent pas les appels vers le RTC (par exemple, un PBX) présentent des restrictions similaires pour le routage de l’emplacement. Cela signifie que ces utilisateurs peuvent passer et recevoir des appels vers et depuis les utilisateurs Teams, quel que soit l’emplacement de l’utilisateur. Ils peuvent également passer et recevoir des appels vers et à partir d’autres systèmes qui ne routent pas les appels vers le réseau PSTN (par exemple, un point de terminaison connecté à un autre système PBX), quel que soit le site du réseau auquel le système est associé. Tous les appels entrants, les appels sortants, les transferts d’appel et le transfert d’appel qui impliquent des points de terminaison RTC sont soumis à des conditions de routage basées sur l’emplacement. Ces appels doivent uniquement utiliser des passerelles RTC définies comme locales pour de tels systèmes. 
 
-    Le tableau suivant montre la configuration de la passerelle de quatre passerelles sur deux sites réseau différents: deux connectés à des passerelles RTC et deux connectés aux systèmes PBX. 
+    Le tableau suivant montre la configuration de la passerelle de quatre passerelles sur deux sites réseau différents : deux connectés à des passerelles RTC et deux connectés aux systèmes PBX. 
 
     ||GatewaySiteLbrEnabled   |NetworkSiteID  |
     |---------|---------|---------|
-    |PstnGateway: passerelle 1 DEL-GW    |    True     |   Site 1 (Delhi)      |
-    |PstnGateway: passerelle 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
-    |PstnGateway: passerelle 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
-    |PstnGateway: passerelle 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
+    |PstnGateway : passerelle 1 DEL-GW    |    Vrai     |   Site 1 (Delhi)      |
+    |PstnGateway : passerelle 2 HYD-GW     |   Vrai      |      Site 2 (Hyderabad)   |
+    |PstnGateway : passerelle 3 DEL-PBX    |    False     |     Site 1 (Delhi)    |
+    |PstnGateway : passerelle 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>Activer le routage par emplacement pour les stratégies d’appel
 

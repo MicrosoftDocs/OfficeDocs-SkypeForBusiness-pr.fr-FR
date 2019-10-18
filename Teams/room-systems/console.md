@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
-ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493053"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569906"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console de salle Microsoft teams
 
@@ -39,7 +38,7 @@ Vous devez effectuer cette procédure uniquement si les comptes Microsoft teams 
 ## <a name="prepare-the-installation-media"></a>Préparer le support d’installation
 <a name="Prep_Media"> </a>
 
-L’installation de l’application Microsoft teams salle console nécessite un périphérique de stockage USB doté d’au moins 32 Go de capacité. Il n’y a pas d’autres fichiers sur l’appareil; tout fichier existant sur le stockage USB sera perdu.
+L’installation de l’application Microsoft teams salle console nécessite un périphérique de stockage USB doté d’au moins 32 Go de capacité. Il n’y a pas d’autres fichiers sur l’appareil ; tout fichier existant sur le stockage USB sera perdu.
   
 > [!NOTE]
 > L’impossibilité de créer votre support d’installation de Microsoft Teams (en vertu de ces instructions) peut entraîner un comportement inattendu.
@@ -55,7 +54,7 @@ L’installation de l’application Microsoft teams salle console nécessite un 
 > [!TIP]
 > Chaque fois que le script CreateSrsMedia. ps1 démarre, la sortie écran inclut le nom d’un fichier journal ou d’une transcription de la session. Si vous rencontrez des problèmes lors de l’exécution du script, assurez-vous qu’une copie de cette transcription est disponible lors de la demande d’assistance. 
 
-Le script CreateSrsMedia. ps1 automatise les tâches suivantes:
+Le script CreateSrsMedia. ps1 automatise les tâches suivantes :
 
 1. Téléchargez la dernière version du programme d’installation MSI pour les salles de Microsoft Teams.
 2. Déterminez la version de Windows que l’utilisateur doit fournir. Les versions les plus récentes sont susceptibles de ne pas être testées et prises en charge pour une utilisation avec des appareils Microsoft Teams.
@@ -80,7 +79,7 @@ Vous devez maintenant appliquer le média de configuration que vous avez créé.
 
 4. Branchez le disque de configuration USB dans l’appareil cible.
 
-5. Démarrez sur le disque de configuration USB. Reportez-vous aux instructions de fabricant. S’il s’agit d’un appareil cible, utilisez les étapes suivantes pour démarrer l’installation sur le disque de configuration USB:
+5. Démarrez sur le disque de configuration USB. Reportez-vous aux instructions de fabricant. S’il s’agit d’un appareil cible, utilisez les étapes suivantes pour démarrer l’installation sur le disque de configuration USB :
 
     a. Appuyez de façon prolongée sur le bouton du volume (-).
 
@@ -118,7 +117,7 @@ Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentReg
     
 7. Sélectionnez la langue que vous souhaitez ajouter.
     
-8. Sélectionnez la langue que vous venez d’ajouter à la liste «langues».
+8. Sélectionnez la langue que vous venez d’ajouter à la liste « langues ».
     
 9. Sélectionnez **Définir par défaut**.
     
@@ -147,7 +146,7 @@ Après l’installation de Windows, l’application console de Microsoft teams s
     
 2. Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.
     
-3. Sous «configurer le domaine», définissez le FQDN du serveur Skype entreprise. Si le domaine SIP de Skype entreprise est différent de celui du domaine Exchange de l’utilisateur, entrez le domaine Exchange dans ce champ.
+3. Sous « configurer le domaine », définissez le FQDN du serveur Skype entreprise. Si le domaine SIP de Skype entreprise est différent de celui du domaine Exchange de l’utilisateur, entrez le domaine Exchange dans ce champ.
     
 4. Cliquez sur **Suivant**.
     
@@ -174,7 +173,7 @@ Dans l’application Microsoft teams de Microsoft Teams, l’application doit co
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Installer un certificat d’autorité de certification privée sur la console
 <a name="Certs"> </a>
 
-La console Microsoft teams salles doit faire confiance aux certificats utilisés par les serveurs auxquels elle est connectée. Dans un environnement O365, cette opération est effectuée de manière automatique, car ces serveurs utilisent des autorités de certification publiques automatiquement approuvées par Windows 10. Dans le cas où l’autorité de certification est privée, par exemple un déploiement local avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à la console de Microsoft teams:
+La console Microsoft teams salles doit faire confiance aux certificats utilisés par les serveurs auxquels elle est connectée. Dans un environnement O365, cette opération est effectuée de manière automatique, car ces serveurs utilisent des autorités de certification publiques automatiquement approuvées par Windows 10. Dans le cas où l’autorité de certification est privée, par exemple un déploiement local avec Active Directory et l’autorité de certification Windows, vous pouvez ajouter le certificat à la console de Microsoft teams :
   
 - Vous pouvez joindre la console à Active Directory et ajoutera automatiquement les certificats requis pour les autorités de certification publiées dans Active Directory (option de déploiement normale).
     
@@ -209,7 +208,7 @@ Vous pouvez joindre des consoles de Microsoft teams à votre domaine. Les consol
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-Par exemple, si votre domaine complet est redmond.corp.microsoft.com et que vous voulez que les consoles de Microsoft teams se trouvent dans une UO «Microsoft teams» qui est un enfant d’une unité d’organisation «Resources», la commande sera:
+Par exemple, si votre domaine complet est redmond.corp.microsoft.com et que vous voulez que les consoles de Microsoft teams se trouvent dans une UO « Microsoft teams » qui est un enfant d’une unité d’organisation « Resources », la commande sera :
   
 ```
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
@@ -220,7 +219,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 ## <a name="microsoft-teams-rooms-deployment-checklist"></a>Liste de vérification de déploiement de Microsoft teams
 <a name="Checklist"> </a>
 
-Utilisez la liste de vérification suivante tout en effectuant une vérification finale, la console et tous ses périphériques sont entièrement configurés:
+Utilisez la liste de vérification suivante tout en effectuant une vérification finale, la console et tous ses périphériques sont entièrement configurés :
   
 **Paramètres de l’application**
 

@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Les connecteurs permettent à votre équipe de rester informée en fournissant directement à votre canal du contenu et des mises à jour provenant des services que vous utilisez fréquemment.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8235ce9eb950df0c04ab41949500a640376e612
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245207"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563854"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams
 =======================================================
@@ -55,7 +54,7 @@ Pour l’instant, vous pouvez ajouter des connecteurs à l’aide des clients de
 <a name="develop-custom-connectors"></a>Développer des connecteurs personnalisés
 -----------------------------
 
-Il est très facile de développer des connecteurs personnalisés qui peuvent être intégrés à vos applications métier. Pour créer un point de terminaison d' **** un canal qui collecte des données à partir de n’importe quelle application à l’aide de méthodes http post, vous pouvez utiliser le connecteur webhook intégré.
+Il est très facile de développer des connecteurs personnalisés qui peuvent être intégrés à vos applications métier. Pour créer un point de terminaison d’un canal qui collecte des données à partir de n’importe quelle application à l’aide de méthodes HTTP post, vous pouvez utiliser le connecteur **webhook** intégré.
 
 1. Ajoutez le **webhook entrant** comme tout autre connecteur.
 

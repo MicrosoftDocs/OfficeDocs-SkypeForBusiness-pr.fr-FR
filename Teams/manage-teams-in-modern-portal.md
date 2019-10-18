@@ -13,28 +13,27 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8937827cb5e3fa80e9ebae93d9958be2cf0f38
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286230"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571933"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer teams dans le centre d’administration Microsoft teams
 ==========================================
 
 ## <a name="overview"></a>Vue d’ensemble
 
-En tant qu’administrateur, il est possible que vous deviez afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction, comme affecter des propriétaires à des équipes propriétaires. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft teams PowerShell et le centre d’administration Microsoft Teams. Pour pouvoir bénéficier d’une administration complète de ces deux ensembles d’outils, assurez-vous que vous disposez de l’un des rôles suivants:
+En tant qu’administrateur, il est possible que vous deviez afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction, comme affecter des propriétaires à des équipes propriétaires. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft teams PowerShell et le centre d’administration Microsoft Teams. Pour pouvoir bénéficier d’une administration complète de ces deux ensembles d’outils, assurez-vous que vous disposez de l’un des rôles suivants :
 
 - Administrateur général
 - Administrateur du service Teams
 
-Pour en savoir plus sur les rôles d’administrateur dans équipes, [Utilisez les rôles d’administrateur de Microsoft teams pour gérer teams](using-admin-roles.md), et apprenez-en davantage sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la référence des cmdlets de [Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
+Pour en savoir plus sur les rôles d’administrateur dans équipes, [Utilisez les rôles d’administrateur de Microsoft teams pour gérer teams](using-admin-roles.md), et apprenez-en davantage sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la [référence des cmdlets de Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
 Cet article fournit une vue d’ensemble des outils de gestion pour teams dans le centre d’administration Microsoft Teams.
 
@@ -44,11 +43,11 @@ Les outils de gestion pour teams se trouvent sous le nœud **équipes** dans le 
 
 ![Capture d’écran de la grille de vue d’ensemble de teams](media/manage-teams-in-modern-portal-grid.png)  
 
-La grille affiche les propriétés suivantes:
+La grille affiche les propriétés suivantes :
 
 - **Nom de l’équipe**
 - **Canaux** : nombre de canaux de l’équipe, y compris le canal général par défaut.
-- **Membres** d’une équipe: nombre total d’utilisateurs, y compris les propriétaires, invités et membres de votre client.
+- **Membres** d’une équipe : nombre total d’utilisateurs, y compris les propriétaires, invités et membres de votre client.
 - **Propriétaires** -nombre de propriétaires pour cette équipe.
 - **Invités** -nombre d’utilisateurs invités d’Azure Active Directory B2B membres de cette équipe.
 - **Protection de la vie privée** -le groupe de AccessTypes 365 Office.
@@ -78,11 +77,11 @@ La suppression d’une équipe consiste à supprimer de l’équipe et au groupe
 
 ### <a name="search"></a>Rechercher
 
-La recherche prend actuellement en charge la chaîne «commence par» et recherche le champ nom de l' **équipe** .
+La recherche prend actuellement en charge la chaîne « commence par » et recherche le champ nom de l' **équipe** .
 
 ## <a name="team-profile"></a>Profil d’équipe
 
-Vous pouvez accéder à la page de profil d’équipe de n’importe quelle équipe à partir de la grille de vue d’ensemble des équipes en cliquant sur le nom de l’équipe. La page de profil de l’équipe montre les membres, les propriétaires et les invités qui appartiennent à l’équipe (et à son groupe Office 365), ainsi que les canaux et les paramètres de l’équipe. À partir de la page de profil d’équipe, vous pouvez:
+Vous pouvez accéder à la page de profil d’équipe de n’importe quelle équipe à partir de la grille de vue d’ensemble des équipes en cliquant sur le nom de l’équipe. La page de profil de l’équipe montre les membres, les propriétaires et les invités qui appartiennent à l’équipe (et à son groupe Office 365), ainsi que les canaux et les paramètres de l’équipe. À partir de la page de profil d’équipe, vous pouvez :
 
 - Ajoutez ou supprimez des membres et des propriétaires.
 - Ajoutez ou supprimez des canaux (Notez que vous ne pouvez pas supprimer le canal général).
@@ -92,7 +91,7 @@ Vous pouvez accéder à la page de profil d’équipe de n’importe quelle équ
 
 ## <a name="making-changes-to-teams"></a>Modification d’équipes
 
-Dans la page de profil de l’équipe, vous pouvez modifier les éléments suivants d’une équipe:
+Dans la page de profil de l’équipe, vous pouvez modifier les éléments suivants d’une équipe :
 
 - **Membres** : ajoutez ou supprimez des membres et promouvez ou abaissez les propriétaires.
 - **Canaux** : ajoutez de nouveaux canaux, puis modifiez ou supprimez des canaux existants. N’oubliez pas que vous ne pouvez pas supprimer le canal général par défaut.
@@ -107,13 +106,13 @@ Les modifications que vous apportez à une équipe sont enregistrées. Si vous m
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-**Problème: les équipes n’apparaissent pas dans la grille de vue d’ensemble de l’équipe**
+**Problème : les équipes n’apparaissent pas dans la grille de vue d’ensemble de l’équipe**
 
 Certaines de vos équipes ne figurent pas dans la liste des équipes de la grille de vue d’ensemble de teams.
 
 **Cause**: ce problème se produit lorsque l’équipe a été incorrectement (ou pas encore) profilée par le système qui peut entraîner une propriété manquante pour qu’elle soit reconnue.
 
-**Résolution: définissez manuellement la propriété sur la valeur correcte via MS Graph.**
+**Résolution : définissez manuellement la propriété sur la valeur correcte via MS Graph.**
 
 Remplacez **{GroupID}** dans la requête pour le GroupID réel en question, que vous pouvez obtenir par le biais d’Exchange Online PowerShell avec l’applet de requête **«[Get-unifiedgrouphttps](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** , qui est l’attribut «**ExternalDirectoryObjectId**».
 
@@ -121,9 +120,9 @@ Remplacez **{GroupID}** dans la requête pour le GroupID réel en question, que 
 
 2. Connectez-vous à l’Explorateur de graphiques dans le menu de gauche.
 
-3. Modifiez la ligne de requête en: PATCH > > https://graph.microsoft.com/v1.0/groups/{groupid}.
+3. Modifiez la ligne de requête en : PATCH > > https://graph.microsoft.com/v1.0/groups/{groupid}.
 
-4. Ajoutez la valeur suivante dans le corps de la requête: {"resourceProvisioningOptions": ["équipe"]}.
+4. Ajoutez la valeur suivante dans le corps de la requête : {"resourceProvisioningOptions" : ["équipe"]}.
 
 5. Exécuter la requête en haut à droite.
 

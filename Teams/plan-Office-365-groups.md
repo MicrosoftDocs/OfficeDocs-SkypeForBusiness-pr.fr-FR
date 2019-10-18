@@ -12,16 +12,15 @@ description: Découvrez les décisions que vous devez prendre lors de la planifi
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23525181de02cfe8498aa68db5c6c34e9feaded
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 741ed07971d4db69e8cd05581082f0b041cc2ac7
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237432"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567842"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier les groupes Office 365 lors de la création d'équipes dans Microsoft Teams
 ==========================================================
@@ -45,7 +44,7 @@ Toute stratégie de noms de groupes d'Office 365 Groups définie par votre admi
 
 Pour plus d'informations, consultez la rubrique [Stratégie de nom de groupes Office 365 dans Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
-Les articles suivants sont l’endroit idéal pour trouver le contenu de préparation et d’adoption de vos groupes Office 365:
+Les articles suivants sont l’endroit idéal pour trouver le contenu de préparation et d’adoption de vos groupes Office 365 :
 
 -   [Tirer le meilleur avec groupes Office 365 dans Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 

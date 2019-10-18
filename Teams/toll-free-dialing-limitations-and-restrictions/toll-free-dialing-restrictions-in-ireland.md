@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 45dffa4f03aa1fda046cdb49eafda4115dee4c42
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: 5d757e522d343ba18fb8322044934f6b8ed4d3bc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334902"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568182"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Restrictions de numérotation gratuit en Irlande
 
@@ -37,7 +36,7 @@ ms.locfileid: "34334902"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> |1 800 XXX XXX  <br/> |
 |Code ISO pays/région  <br/> |IE  <br/> |
 |Île/territoire couvert  <br/> |Toutes les îles situées au large de la République d'Irlande sont couvertes.  <br/> |

@@ -12,16 +12,15 @@ description: Implémenter la qualité de service (QoS) pour les clients Microsof
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 28e6664fa43819493e5b9e02d182bcec44f00905
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246195"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572562"
 ---
 # <a name="set-qos-on-windows-clients"></a>Définir la qualité de service sur les clients Windows
 
@@ -38,7 +37,7 @@ Type de trafic multimédia| Plage de ports sources du client |Protocole|Valeur D
 
 Dans la mesure du possible, vous pouvez configurer les paramètres de QoS basée sur une stratégie au sein d’un objet de stratégie de groupe. Les étapes suivantes sont similaires à la [configuration de plages de ports et d’une politique de qualité de service pour vos clients sur Skype entreprise Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), qui comporte des informations supplémentaires qui peuvent ne pas être nécessaires.
 
-Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 liés à un domaine, vous devez d’abord vous connecter à un ordinateur sur lequel est installée la gestion des stratégies de groupe. Ouvrez gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur outils d’administration, cliquez sur gestion des stratégies de groupe), puis procédez comme suit:
+Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 liés à un domaine, vous devez d’abord vous connecter à un ordinateur sur lequel est installée la gestion des stratégies de groupe. Ouvrez gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur outils d’administration, cliquez sur gestion des stratégies de groupe), puis procédez comme suit :
 
 1. Dans gestion des stratégies de groupe, recherchez le conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs clients se trouvent dans une unité d’organisation nommée **clients**, la nouvelle stratégie doit être créée dans l’unité d’organisation cliente.
 
@@ -58,11 +57,11 @@ Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 liés à un
 
 9. Dans la page 4, sélectionnez **TCP et UDP** dans la liste déroulante **Sélectionner le protocole que cette stratégie de QoS applique à** . TCP (Transmission Control Protocol) et UDP (User Datagram Protocol) sont les deux protocoles réseau les plus fréquemment utilisés.
 
-10. Sous le titre **Spécifiez le numéro de port source**, sélectionnez **à partir de ce port ou plage de sources**. Dans la zone texte de l’accompagnement, tapez la plage de ports réservée aux transmissions audio. Par exemple, si vous avez réservé ports 50000 via ports 50019 pour le trafic audio, entrez la plage de ports à l’aide du format suivant: **50000:50019**. Cliquez sur **Terminer**.
+10. Sous le titre **Spécifiez le numéro de port source**, sélectionnez **à partir de ce port ou plage de sources**. Dans la zone texte de l’accompagnement, tapez la plage de ports réservée aux transmissions audio. Par exemple, si vous avez réservé ports 50000 via ports 50019 pour le trafic audio, entrez la plage de ports à l’aide du format suivant : **50000:50019**. Cliquez sur **Terminer**.
 
 11. Répétez les étapes 5-10 pour créer des stratégies pour la vidéo et le partage de bureau et d’application
 
-Les nouvelles stratégies que vous avez créées ne prennent effet qu’après la réactualisation de la stratégie de groupe sur les ordinateurs clients. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en procédant comme suit:
+Les nouvelles stratégies que vous avez créées ne prennent effet qu’après la réactualisation de la stratégie de groupe sur les ordinateurs clients. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en procédant comme suit :
 
 1. Sur chaque ordinateur sur lequel vous souhaitez actualiser une stratégie de groupe, ouvrez une console de commandes. Vérifiez que la console de commandes est définie sur Exécuter en tant qu’administrateur.
 
@@ -78,23 +77,23 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
 
 1. Ouvrez une console de commandes. Vérifiez que la console de commandes est définie sur Exécuter en tant qu’administrateur.
 
-2. À l’invite de commandes, entrez:
+2. À l’invite de commandes, entrez :
 
    ``` powershell
    gpresult /R > gp.txt
    ```
 
-   Cette opération génère un rapport et l’envoie à un fichier texte nommé GP. txt. Vous pouvez également entrer la commande suivante pour générer les mêmes données dans un rapport HTML plus lisible nommé GP. html:
+   Cette opération génère un rapport et l’envoie à un fichier texte nommé GP. txt. Vous pouvez également entrer la commande suivante pour générer les mêmes données dans un rapport HTML plus lisible nommé GP. html :
 
    ``` powershell
    gpresult /H >gp.html
    ```
 
-   ![Capture d’écran de la fenêtre de console exécutant la commande Gpresult.] (media/Qos-in-Teams-Image3.png "Capture d’écran de la fenêtre de console exécutant la commande Gpresult.")
+   ![Capture d’écran de la fenêtre de console exécutant la commande Gpresult.](media/Qos-in-Teams-Image3.png "Capture d’écran de la fenêtre de console exécutant la commande Gpresult.")
 
 3. Dans le fichier généré, recherchez le titre **appliqué objets de stratégie de groupe** , puis vérifiez que les noms des objets de stratégie de groupe créés précédemment figurent dans la liste des stratégies appliquées.
 
-4. Ouvrez l’éditeur du Registre et rendez-vous sur:
+4. Ouvrez l’éditeur du Registre et rendez-vous sur :
 
    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 

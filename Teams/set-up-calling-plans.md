@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,21 +21,21 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494705"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571237"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
 Les appels vers d’autres utilisateurs Skype entreprise sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, vous pouvez obtenir une offre d’appels nationaux ou un plan d’appels internationaux dans Office 365. C’est facile à configurer pour votre entreprise. 
 
-## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1: déterminer si les offres d’appels sont disponibles dans votre pays ou région
+## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1 : déterminer si les offres d’appels sont disponibles dans votre pays ou région
 Accédez à [disponibilité du pays et de la région pour les offres de conférence et d’appels audio](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) et sélectionnez votre pays ou votre région pour obtenir des informations de disponibilité sur les offres d’appels, ainsi que des informations sur les services d’audioconférence, le système téléphonique, le numéro payant et gratuit. numéros et crédits de communication.
   
-## <a name="step-2-buy-and-assign-licenses"></a>Étape 2: acheter et attribuer des licences
+## <a name="step-2-buy-and-assign-licenses"></a>Étape 2 : acheter et attribuer des licences
 1. Si le système téléphonique dans Office 365 n’est pas inclus dans votre plan, il est possible que vous deviez acheter des licences de complément de **système téléphonique** . Une fois que vous avez des licences de **système téléphonique** , vous pouvez acheter [des plans d’appel pour Office 365](calling-plans-for-office-365.md). Reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), et achetez des licences et des offres. 
     
     > [!TIP]
@@ -44,7 +43,7 @@ Accédez à [disponibilité du pays et de la région pour les offres de confére
   
 2. Tout d’abord, affectez les licences, puis affectez un plan d’appels aux personnes de votre organisation. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
     
-## <a name="step-3-get-phone-numbers"></a>Étape 3: obtenir des numéros de téléphone
+## <a name="step-3-get-phone-numbers"></a>Étape 3 : obtenir des numéros de téléphone
 Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 - **Utilisez le centre d’administration Skype entreprise.** Dans certains pays ou régions, vous pouvez obtenir des numéros pour vos utilisateurs à l’aide du centre d’administration de Skype entreprise, reportez-vous à la rubrique [obtention de numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
@@ -53,7 +52,7 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Skype entreprise, ou vous aurez besoin de numéros de téléphone ou indicatifs spécifiques. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
-## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Étape 4: ajouter les adresses de secours et les emplacements d’urgence pour votre organisation
+## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Étape 4 : ajouter les adresses de secours et les emplacements d’urgence pour votre organisation
 <a name="bkmk_add_addresses"></a> Une adresse de secours doit être associée à un numéro de téléphone. une telle situation peut varier d’un pays à l’autre. Aux États-Unis par exemple, vous devez associer une adresse d'urgence lorsque vous attribuez le numéro de téléphone à l'utilisateur. Au Royaume-Uni, vous devez associer une adresse d'urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone à partir d'Office 365 ou que vous les transférez à partir de votre fournisseur de services actuel. 
 
 **Pour ajouter une adresse de secours pour votre organisation**
@@ -69,14 +68,14 @@ Dans le centre d’administration de Skype entreprise, accédez à**emplacements
 Dans le centre d’administration de Skype entreprise, accédez à**emplacements** > de secours **vocaux** > ,**Ajouter une nouvelle adresse**. Pour plus d’informations, reportez-vous à [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
     
-## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Étape 5: affecter une adresse de secours et un numéro de téléphone à un utilisateur
+## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Étape 5 : affecter une adresse de secours et un numéro de téléphone à un utilisateur
 <a name="bkmk_add_addresses"></a> Lorsque vous configurez des forfaits d’appels dans Office 365, vous devez attribuer un numéro de téléphone et une adresse d’urgence à chacun de vos utilisateurs. L'adresse de secours doit être créée avant l'attribution d'un numéro de téléphone à un utilisateur. 
 
 **Pour ajouter une adresse d’urgence pour un utilisateur** 
 
 ![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-Dans le centre d’administration de Skype entreprise, accédez **** > à l'**emplacement** > **** d’urgence des**utilisateurs** > vocaux à l’emplacement d’urgence**affecter le numéro** > . Pour plus d’informations, voir [affecter ou modifier une adresse d’urgence pour un utilisateur](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
+Dans le centre d’administration de Skype entreprise, accédez **à l'** > **emplacement** > d’urgence des**utilisateurs** > vocaux à**l’emplacement d'** urgence**affecter le numéro** > . Pour plus d’informations, voir [affecter ou modifier une adresse d’urgence pour un utilisateur](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
    > [!NOTE]
    > Vous pouvez également affecter une adresse d’urgence lorsque vous affectez un numéro de téléphone.
@@ -85,14 +84,14 @@ Dans le centre d’administration de Skype entreprise, accédez **** > à l'**em
 
 ![Icône illustrant le logo](media/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-Dans le centre d’administration de Skype entreprise, sélectionnez **** > **utilisateurs** > vocaux vocaux et attribuez un**numéro** > de**changement**. Pour plus d’informations, reportez-vous à la section [affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
+Dans le centre d’administration de Skype entreprise, sélectionnez **** > **utilisateurs** > vocaux vocaux et**attribuez un numéro** > de**changement**. Pour plus d’informations, reportez-vous à la section [affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 
-## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Étape 6: informer vos utilisateurs de leurs nouveaux numéros de téléphone
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Étape 6 : informer vos utilisateurs de leurs nouveaux numéros de téléphone
 <a name="bkmk_add_addresses"> </a>
 
 Nous vous recommandons d'envoyer un courrier ou d'utiliser le moyen de communication préféré de votre entreprise pour communiquer leurs nouveaux numéros de téléphone aux utilisateurs. 
 
-Pour pouvoir voir ce numéro de téléphone dans son application **Skype entreprise** , procédez comme suit:
+Pour pouvoir voir ce numéro de téléphone dans son application **Skype entreprise** , procédez comme suit :
   
 1. Connectez-vous à Skype Entreprise sur votre Bureau.
     

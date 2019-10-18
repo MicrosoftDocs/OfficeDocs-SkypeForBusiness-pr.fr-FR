@@ -1,5 +1,5 @@
 ---
-title: " Application des patients et DMP interface d’intégration DSTU2"
+title: Application patients et interface DSTU2 d’intégration DMI
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,292 +8,294 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Intégration de Patients d’équipes Microsoft app DMI
-ms.openlocfilehash: 85fd90fb338f8b19762dc9433fa1dc281f3cedff
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Intégration du DMI de l’application Microsoft teams
+ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33643093"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570368"
 ---
-# <a name="dstu2-interface-specification"></a>Spécification d’interface DSTU2
+# <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Configuration ou la reconfiguration d’un serveur FHIR pour fonctionner avec l’application Microsoft équipes Patients, vous devez comprendre les données de l’application doit accéder. Le serveur FHIR doit prendre en charge les demandes POST à l’aide de groupes pour les ressources suivantes :
+La configuration ou la reconfiguration d’un serveur FHIR pour l’utilisation de l’application Microsoft teams patients nécessite une compréhension des données auxquelles l’application doit accéder. Le serveur FHIR doit prendre en charge les demandes POST à l’aide de bottes pour les ressources suivantes :
 
 - [Patient](#patient)
-- [Observation](#observation)
+- [Déterminée](#observation)
 - [Condition](#condition)
-- [Rencontrez](#encounter)
-- [INTOLÉRANCE allergies](#allergyintolerance)
-- [Couverture](#coverage)
+- [Connaître](#encounter)
+- [Intolérance des allergies](#allergyintolerance)
+- [Articles](#coverage)
 - [Ordre de médication](#medication-order)
 - [Emplacement](#location)
 
 > [!NOTE]
-> La ressource Patient est la ressource obligatoire uniquement (sans laquelle l’application chargera pas du tout. Toutefois, il est recommandé que le partenaire de mettre en œuvre la prise en charge de toutes les ressources mentionnées ci-dessus par les spécifications indiquées ci-dessous pour la meilleure expérience utilisateur final avec l’application de Patients équipes Microsoft.
+> La ressource patient est la seule ressource obligatoire (sans que l’application ne se charge du tout. Néanmoins, nous vous conseillons de mettre en œuvre la prise en charge de toutes les ressources mentionnées ci-dessus pour une utilisation optimale de l’application Microsoft teams pour les utilisateurs finaux.
 
-Requêtes à partir de l’application Microsoft équipes Patients pour plusieurs ressources publier un lot (BATCH) des demandes à l’URL du serveur FHIR. Le serveur traite chaque demande et renvoie un ensemble de ressources correspondant à chaque demande. Pour plus d’informations et des exemples, voir [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction).
+Les requêtes à partir de l’application patients de Microsoft teams pour plusieurs ressources ont une offre groupée (lot) de requêtes à l’URL du serveur FHIR. Le serveur traite chaque demande et renvoie un ensemble de ressources correspondant à chaque demande. Pour plus d’informations et d’exemples [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction), voir.
 
-Toutes les ressources FHIR suivantes doivent être accessibles par référence de ressource direct.
+Toutes les ressources FHIR suivantes doivent être accessibles par référence directe aux ressources.
 
-## <a name="conformance-minimum-required-field-set"></a>La valeur de champ obligatoire minimale de mise en conformité
+## <a name="conformance-minimum-required-field-set"></a>Jeu de champs requis de conformité
 
- Le serveur FHIR doit implémenter la déclaration de conformité pour avoir un résumé concrètes de ses fonctionnalités. Nous pensons que les paramètres d’un serveur de FHIR DSTU2 ci-dessous :
+ Le serveur FHIR doit mettre en œuvre la déclaration de conformité afin d’avoir une synthèse factuelle de ses capacités. Nous attendons les paramètres ci-dessous dans un DSTU2 FHIR Server :
 
-1. REST
-   1. Mode
+1. LAISSER
+   1. Veille
    2. Interaction
-   3. Ressource : Type
-   4. Sécurité : [Extension pour les URI OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (notre code requiert cette option pour comprendre de quelle version nous devons de tableau croisé dynamique pour qu’il prend en charge plusieurs versions).
+   3. Ressource : type
+   4. Sécurité : [extension pour les URI OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
+2. FhirVersion (notre code nécessite une telle mesure pour savoir quelle version nous devons faire pivoter à mesure que nous prenons en charge plusieurs versions.)
 
-Voir [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="patient"></a>Patient
 
-Voici les champs obligatoires minimales, qui sont un sous-ensemble des champs [profil patient Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) :
+Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble des champs du [Profil du patient Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) :
 
-1. Name.Family
-2. Name.Given
-3. Sexe
-4. Date de naissance
+1. Name. Family
+2. Nom. fourni
+3. Public
+4. Anniversaire
 5. NRM (identificateur)
 
-Outre les champs Argonaut, pour une expérience utilisateur satisfaisante l’application de Patients lit également les champs suivants :
+Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients lit également les champs suivants :
 
-1. Name.Use
-2. Name.Prefix
-3. CareProvider (ce guide de référence sur la ressource Patient doit inclure les champs d’affichage dans l’exemple suivant.)
+1. Name. use
+2. Nom. préfixe
+3. CareProvider (cette référence sur la ressource patient doit inclure les champs d’affichage illustrés dans l’exemple suivant.)
 
 * * *
 
-    Demande : GET <fhir-server>/Patient/<patient-id>
+    Demande : obtenez <fhir-Server>/patient/<patient-ID>
     
-    Réponse : {« resourceType » : « Patient », « id » : « <patient-id>, ».
+    Réponse : {"resourceType" : "patient", "ID" : "<patient-ID>",.
       .
       .
-      « name » : [{« utiliser » : « officiel », « préfixe » : [« Mr »], « famille » : [« Chau »], « attribué » : [« Hugh »]}], « identificateur » : [{« utiliser » : « officiel », « type » : {« codage » : [{« système » : «http://hl7.org/fhir/v2/0203», « code » : « MR »}]}, « valeur » : « 1234567 »}], « sexe » : « masculin », « date de naissance » : « 1957-06-05 «, « careProvider » : [{« affichage » : « Jane Doe »}],}
+      "nom" : [{"utilisation" : "officiel", "préfixe" : ["Mr"], "famille" : ["Chau"], "fourni" : ["Hugh"]}], "identificateur" : [{"use" : "Official", "type" : {"Coding" : [{"System" : "http://hl7.org/fhir/v2/0203", "code" : "Mr"}]), "valeur" : "1234567"}), "sexe" : "mâle", "DateNaissance" : "1957-06-05 "," careProvider " : [{" Display " :" Jane Dupont "}],}
 
 * * *
 
-Une recherche de ressource utilise la méthode POST /Patient/_search et les paramètres suivants :
+Une recherche de ressource utilise la méthode POST sur/patient/_search et les paramètres suivants :
 
 1. ID
-2. famille : contient = (recherche tous les patients dont le nom de famille contient la valeur).
-3. donnée =\<substring>
-4. nom =\<substring>
-5. date de naissance =(exact match)
-6. \_Count (nombre maximal de résultats qui doit être retourné) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés à la suite de la recherche, et \_count utilisera le PatientsApp pour limiter le nombre d’enregistrements renvoyés.
-7. identificateur =\<mrn>
+2. famille : contient = (recherche les patients dont le nom de famille contient la valeur.)
+3. fourni =\<sous-chaîne>
+4. name =\<sous-chaîne>
+5. DateNaissance = (correspondance exacte)
+6. \_nombre (nombre maximal de résultats à renvoyer) <br> La réponse doit contenir le nombre total d’enregistrements renvoyés comme résultat de la recherche, et \_le nombre sera utilisé par le PatientsApp pour limiter le nombre d’enregistrements renvoyés.
+7. identifiant =\<NRM>
 
-L’objectif doit être en mesure de recherche et filtrage d’un patient par les éléments suivants :
+L’objectif est de pouvoir Rechercher et filtrer un patient en procédant comme suit :
 
-- ID : Il s’agit de l’ID de ressource a toutes les ressources de FHIR.
-- NRM : Il s’agit de l’identificateur pour le patient personnel savez réel. Nous savons que ce NRM est basé sur le type d’identificateur à l’intérieur de la ressource de l’identificateur dans FHIR
+- ID : il s’agit de l’ID de ressource dont se trouve chaque ressource dans FHIR.
+- NRM : il s’agit de l’identificateur réel du patient que le personnel expérimenté connaîtait. Nous comprenons que ce NRM est basé sur le type d’identificateur figurant à l’intérieur de la ressource d’identificateur dans FHIR
 - Nom
-- Date de naissance
+- Anniversaire
 
-Voir l’exemple suivant de cet appel.
+Pour plus d’informations, reportez-vous à l’exemple suivant.
 
 * * *
 
-    Requête : Corps de la demande POST <fhir-server>/Patient/_search : donnée = hugh&family = chau
+    Request : POST <fhir-Server> le corps de la requête/patient/_search : fourni = Hugh&Family = Chau
     
-    Réponse : {« resourceType » : « Regroupent », « id » : « <bundle-id>, ».
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>",.
       .
       .
-      « entry » : [{« ressource » : {« resourceType » : « Patient », « id » : « <patient-id> », « nom » : [{« texte » : « Hugh Chau », « famille » : [« Chau »], « attribué » : [« Hugh »]}], « sexe » : « masculin », « date de naissance » : « 1957-06-05 »}, « search » : {« mode » : « correspond à »}}]}
+      "entrée" : [{"ressource" : {"resourceType" : "patient", "ID" : "ID patient-ID>", "nom" : [{"texte" : "Hugh Chau", "<famille" : [Chau "]," nom " : [" Hugh "]}]," sexe " :" mâle "," DateNaissance " :" 1957-06-05 "}," recherche " : {" mode " :" match "}})}
 
 * * *
 
-Voir [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) plus d’informations sur ce jeu de champs, voir.
 
-## <a name="observation"></a>Observation
+## <a name="observation"></a>Déterminée
 
-Voici les champs obligatoires minimales, qui sont un sous-ensemble du profil Argonaut signes essentielles :
+Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble du profil de signes vitaux de Argonaut :
 
- 1. Effet (date heure ou période)
- 2. Code.Coding.Code
- 3. ValueQuantity.Value
+ 1. Effective (heure de date ou période)
+ 2. Code. Coding. code
+ 3. ValueQuantity. Value
 
-Outre les champs Argonaut, pour une expérience utilisateur satisfaisante l’application de Patients lit également les champs suivants :
+Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients lit également les champs suivants :
 
- 1. Code.Coding.Display
- 2. ValueQuantity.Unit
+ 1. Code. Coding. Display
+ 2. ValueQuantity. Unit
 
-Si vous utilisez des observations composant, la même logique s’applique pour observation de chaque composant.
+S’il s’agit d’une observation de composant, la même logique s’applique à chaque composant d’observation.
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<id patient\>
-2. tri : desc =\<champ ex. date\>
+1. patient =\<Réf patient\>
+2. Trier : DESC =\<champ ex. période\>
 
-L’objectif doit être en mesure de récupérer les signes vital le plus récent pour un patient, [VitalSigns.DSTU.saz] (observation ?).
+L’objectif est de pouvoir récupérer les derniers signes vitaux pour un patient, [VitalSigns. DSTU. saz] (observation ?).
 
 * * *
 
-    Demande : Obtenir <fhir-server>/Observation ? patient = <patient-id>&_sort:desc = date&category = vitale signes
+    Demande : obtenez <fhir-Server>/observation ? patient =<patient-ID>&_sort :d Échap = date&catégorie = vitaux-signes
     
-    Réponse : {« resourceType » : « Regroupent », « id » : « <bundle-id> », « type » : « searchset », « total » : 20, « entry » : [{« ressource » : {« resourceType » : « Observation », « id » : « <resource-id> », « catégorie » : {« codage » : [{code » : « vitale signes »}],}, « code » : { » codage » : [{« système » : «http://loinc.org», « code » : « 39156-5 », « affichage » : « IMC »}],}, « effectiveDateTime » : « 2009-12-01 », « valueQuantity » : {« valeur » : 34.4, « unité » : « kg/m2 », « système » : «http://unitsofmeasure.org», « code » : « kg/m2 »}},},.
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "tapez" : "searchset", "total" : 20, "entry" : [{"ressource" : {"resourceType" : "observation", "ID" : "<-id de ressource", "category" : {"code" : {{code "=" le code "> =" " : [{" système " :"http://loinc.org"," code " :" 39156-5 "," Display " :" BMI "}),}," effectiveDateTime " :" 2009-12-01 "," valueQuantity " : {" value " : 34,4," Unit " :" kg/m2 "," système " :"http://unitsofmeasure.org"," code " :" kg/m2 "}},}.
         .
         .
       ] }
 
 * * *
 
-Voir [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="condition"></a>Condition
 
-Voici les champs obligatoires minimales, qui sont un sous-ensemble du [profil de condition Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du [profil de condition Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html):
 
-1. Code.Coding[0]. Affichage
+1. Code. Coding [0]. 3D
 
-Outre les champs Argonaut, pour une expérience utilisateur satisfaisante l’application de Patients permettre également lire les champs suivants :
+Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients peut également lire les champs suivants :
 
 1. Date d’enregistrement
-2. Niveau de gravité
+2. Minimal
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<id> patient
-2. _count =\<results> max
+1. patient =\<ID du patient>
+2. _count =\<résultats Max>
 
-Consultez l’exemple de cet appel suivant :
+Pour plus d’informations, reportez-vous à l’exemple suivant :
 
 * * *
 
-    Demande : Obtenir <fhir-server>/Condition ? patient = <patient-id>&_count = 10
+    Demande : obtenez <fhir-Server>/condition ? patient =<patient-ID>&_count = 10
     
-    Réponse : {« resourceType » : « Regroupent », « id » : « <bundle-id> », « type » : « searchset », « total » : 1, « entry » : [{« ressource » : {« resourceType » : « Condition », « id » : « <resource-id> », « code » : {« codage » : [{               « système » : «http://snomed.info/sct», « code » : « 386033004 », « afficher » : « NEUROPATHIE (nerf) »}]}, « dateRecorded » : « 2018-09-17 », « severity » : {« codage » : [{ » le système cadratin » : «http://snomed.info/sct», « code » : « 24484000 », « afficher » : « Grave »}]}},}]}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entrée" : "=", "ID" : "<-ID>", "code" : {"codage" : [{».               "système" : "http://snomed.info/sct", "code" : "386033004", "Display" : "neuropathie (dommage nerveux)"}]}, "dateRecorded" : "2018-09-17", "gravité" : {"codage" : [{"syst em " :"http://snomed.info/sct"," code " :" 24484000 "," Display " :" sévère "}]}}})}
 
 * * *
 
-Voir [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) plus d’informations sur ce jeu de champs, voir.
 
-## <a name="encounter"></a>Rencontrez
+## <a name="encounter"></a>Connaître
 
-Voici les champs obligatoires minimales, qui sont un sous-ensemble des champs « doit avoir » profil nous rencontrer principaux :
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble des champs du profil de rencontre du cœur américain « doivent avoir » des champs :
 
 1. État
-2. Type [0]. Codage [0]. Affichage
+2. Tapez [0]. Code [0]. 3D
 
-En outre, les champs suivants à partir du profil de nous rencontrer principaux » doivent prendre en charge » de champs
+De plus, les champs suivants provenant des champs du profil « doit prendre en charge » sont les suivants :
 
-1. Period.Start
-2. Emplacement [0]. Location.Display
+1. Période. début
+2. Emplacement [0]. Emplacement. Display
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<id> patient
-2. _sort:DESC =\<champ ex. date>
-3. _count =\<results> max
+1. patient =\<ID du patient>
+2. _sort : DESC =\<champ ex. Date>
+3. _count =\<résultats Max>
 
-L’objectif est de pouvoir récupérer l’emplacement connu dernier du patient. Chaque fait référence à une ressource d’emplacement. La référence comprennent également champ d’affichage de l’emplacement. Voir l’exemple suivant de cet appel.
+L’objectif est de pouvoir récupérer le dernier emplacement connu du patient. Chaque rencontre fait référence à une ressource d’emplacement. La référence inclut également le champ d’affichage de l’emplacement. Pour plus d’informations, reportez-vous à l’exemple suivant.
 * * *
 
-    Demande : Obtenir <fhir-server>/rencontre ? patient = <patient-id>&_sort:desc = date&_count = 1
+    Demande : obtenez <fhir-Server>/Encounter ? patient =<patient-ID>&_sort :d Échap = date&_count = 1
     
-    Réponse : {« resourceType » : « Groupement », « type » : « searchset », « total » : 1, « entry » : [{« ressource » : {« resourceType » : « Rencontrer », « id » : « <resource-id> », « identificateur » : [{« utiliser » : « officiel », « valeur » : «<id>»}], « status » : « a », « type » : [{« codage » : [{« affichage » : « Rendez-vous »}],}], « patients » : {« référence » : « Patient/<patient-id> »}, « période » : {« Démarrer » : « 17/09/2018 1:00:00 PM »}, « emplacement » : [{              « emplacement » : {« affichage » : « Cours pratique – ENT »},}]}}]}
+    Réponse : {"ResourceType" : "bundle", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"ResourceType" : "rencontre", "identifiant" : "<-ID>", "identificateur" : [{"utiliser" : "officiel", "valeur" : "<id>"}], "État" : "incomplet", "type" : [{"codage" : [{"Display" : "rendez-vous"}]), "patient" : {"référence" : "patient/<patient-ID>"}, "période" : {"09/17/2018 1:00:00 PM"}, "lieu" : [{              "location" : {"Display" : "Clinic-ENT"}})}
 
 * * *
 
-Voir [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
-Voici les champs obligatoires minimales, qui sont un sous-ensemble du profil Argonaut AllergyIntolerance :
+Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble du profil Argonaut AllergyIntolerance :
 
-1. Code.Text
-2. Code.Coding[0]. Affichage
+1. Code. Text
+2. Code. Coding [0]. 3D
 3. État
 
-Outre les champs Argonaut, pour une expérience utilisateur satisfaisante l’application de Patients lit également les champs suivants :
+Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients lit également les champs suivants :
 
 1. RecordedDate
-2. Note.Text
-3. Réaction [.]. Substance.Text
-4. Réaction [.]. Manifestation [.]. Texte
-5. Text.Div
+2. Remarque. Text
+3. Réaction [...]. Substance. texte
+4. Réaction [...]. Manifeste [...]. Synthèse
+5. Text. div
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. Patient = \<id> patient
+1. Patient = \<ID du patient>
 
-Consultez l’exemple de cet appel suivant :
+Pour plus d’informations, reportez-vous à l’exemple suivant :
 
 * * *
 
-    Demande : Obtenir <fhir-server>/AllergyIntolerance ? patient = <patient-id>
+    Demande : obtenez <fhir-Server>/AllergyIntolerance ? patient =<patient-ID>
     
-    Réponse : {« resourceType » : « Regroupent », « id » : « <bundle-id> », « type » : « searchset », « total » : 1, « entry » : [{« ressource » : {« resourceType » : « AllergyIntolerance », « id » : « <resource-id> », « recordedDate » : « 2018-09-17T07:00:00.00 0Z », « substance » : {« texte » : « Cajou »}, « status » : « confirmée », « réaction » : [{« substance » : {« texte » : « écrou cajou allergisants extraire produit Injectable »}, manifestati » sur » : [{« texte » : « Réaction Anaphylactic »}]}]}}]}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType", "AllergyIntolerance", "ID" : "<-ID>", "recordedDate" : "2 17T07. 0Z "," substance " : {" texte " :" Cashew écrous "}," État " :" confirmé "," réaction " : [{" substance " : {" texte " :" Cashew d’extraction allergique d’écrou "}," manifestati sur " : [{" texte " :" réaction anaphylactic "}]}
 
 * * *
 
-Voir [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="medication-order"></a>Ordre de médication
 
-Voici les champs obligatoires minimales, qui sont un sous-ensemble du profil Argonaut MedicationOrder :
+Il s’agit des champs obligatoires minimum, qui sont un sous-ensemble du profil Argonaut MedicationOrder :
 
 1. DateWritten
-2. Prescriber.Display
-3. Medication.Display (si référence)
-4. Medication.Text (si concept)
+2. Ordonnateur. Display
+3. Médication. Display (Si référence)
+4. Medication. Text (si concept)
 
-Outre les champs Argonaut, pour une expérience utilisateur satisfaisante l’application de Patients permettre également lire les champs suivants :
+Outre les champs Argonaut, pour une bonne utilisation de l’utilisateur, l’application patients peut également lire les champs suivants :
 
 1. DateEnded
-2. DosageInstruction.Text
-3. Text.Div
+2. DosageInstruction. Text
+3. Text. div
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<id> patient
-2. _count =\<results> max
+1. patient =\<ID du patient>
+2. _count =\<résultats Max>
 
-Consultez l’exemple de cet appel suivant :
+Pour plus d’informations, reportez-vous à l’exemple suivant :
 
 * * *
 
-    Demande : Obtenir <fhir-server>/MedicationOrder ? patient = <patient-id>&_count = 10
+    Demande : obtenez <fhir-Server>/MedicationOrder ? patient =<patient-ID>&_count = 10
     
-    Réponse : {« resourceType » : « Regroupent », « id » : « <bundle-id> », « type » : « searchset », « total » : 1, « entry » : [{« ressource » : {« resourceType » : « MedicationOrder », « id » : « <resource-id> », « dateWritten » : « 2018-09-17 », « medi cationCodeableConcept » : {« texte » : « Lisinopril 20 MG orale Tablet »}, « prescriber » : {« affichage » : « Jane Doe »}, « dosageInstruction » : [{« texte » : « 1 jour »}]}}]}
+    Réponse : {"resourceType" : "bundle", "ID" : "<-ID>", "type", "searchset", "total" : 1, "entry" : "MedicationOrder", "ID" : "<-ID>", "dateWritten" : "2018-09-17", "Medi cationCodeableConcept " : {" texte " :" Lisinopril 20 MG de tablette orale "}," ordonnateur " : {" Display " :" Jane Dupont "}," dosageInstruction " : [{" Text " :" 1 quotidiennement "}]}})}
 
 * * *  
 
-Voir [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) plus d’informations sur ce jeu de champs, voir.
 
-## <a name="coverage"></a>Couverture
+## <a name="coverage"></a>Articles
 
-Voici les champs obligatoires minimales, non couverts par les profils Argonaut soit nous principaux :
+Il s’agit des champs requis au minimum, qui ne sont pas couverts par les profils Argonaut ou les profils américains suivants :
 
-1. Organismes payeurs
+1. Payor
 
 Une recherche de ressource utilise la méthode GET et les paramètres suivants :
 
-1. patient =\<id> patient
+1. patient =\<ID du patient>
 
-Consultez l’exemple de cet appel suivant :
+Pour plus d’informations, reportez-vous à l’exemple suivant :
 
 * * *
 
-    Demande : Obtenir une <fhir-server>/couverture ? patient = <patient-id>
+    Demande : obtenez <fhir-Server>/Coverage ? patient =<patient-ID>
     
-    Réponse : {« resourceType » : « Groupement », « type » : « searchset », « total » : 1, « entry » : [{« ressource » : {« resourceType » : « Couverture », « id » : « <resource-id> », « plan » : « No principal d’assurance », « abonné » : {« référence » : « Patient / <patient-id> »}}}]}
+    Réponse : {"resourceType" : "bundle", "type" : "searchset", "total" : 1, "entrée" : [{"ressource" : {"resourceType" : "couverture", "ID" : "<-> ID de ressource", "plan" : "aucune assurance principale", "abonné" : {"référence" ID de <patient> "}}}}
 
 * * *
 
-Voir [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) plus d’informations sur ce jeu de champs, voir.
 
 ## <a name="location"></a>Lieu
 
-Cette ressource est uniquement utilisée comme une référence à la ressource de [rencontrer](#encounter) .
+Cette ressource est uniquement utilisée comme référence sur la ressource de [rencontre](#encounter) .
 
-Voir [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) pour plus de détails sur ce champ défini.
+Pour [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) plus d’informations sur ce jeu de champs, voir.

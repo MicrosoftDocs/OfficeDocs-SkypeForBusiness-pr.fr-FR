@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,20 +20,20 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir le statut de vos demandes de transfert et découvrir les différentes actions que vous pouvez effectuer. '
-ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34abd630740d654e640818270047d850f34efa2a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298975"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568519"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>Quel est le statut de mes commandes port dans Teams ?
 
-Vous pouvez voir le statut de votre demande de transfert en accédant à l'**ancien** > **** > **** **Centre** > d’administration Microsoft Teams. Chaque statut de la demande de transfert s’affiche dans la colonne **État** . Si vous avez besoin d’aide, [Contactez le support technique pour les produits pour les entreprises-aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+Vous pouvez voir le statut de votre demande de transfert en accédant à l'**** > ******ancien** > Centre > d' **administration Microsoft teams**. Chaque statut de la demande de transfert s’affiche dans la colonne **État** . Si vous avez besoin d’aide, [Contactez le support technique pour les produits pour les entreprises-aide de l’administrateur](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 Le tableau suivant répertorie les statuts des commandes de port, ainsi que les actions que vous pouvez effectuer, si nécessaire.
 
-|**État**|**Pouvez-vous afficher la demande?**|**Pouvez-vous modifier la demande?**|**Pouvez-vous annuler la demande?**|**Pouvez-vous supprimer la demande?**|**Description**|
+|**État**|**Pouvez-vous afficher la demande ?**|**Pouvez-vous modifier la demande ?**|**Pouvez-vous annuler la demande ?**|**Pouvez-vous supprimer la demande ?**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Production** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |L’administrateur a créé la demande, qui a été reçue par Microsoft.  <br/> |
 |**Contact de l’opérateur** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La demande a été reçue et approuvée par Microsoft et nous travaillons avec l’opérateur de perte pour être approuvé.  <br/> |

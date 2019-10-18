@@ -1,5 +1,5 @@
 ---
-title: Quels sont les emplacements d’urgence, les lieux et le routage des appels ?
+title: Que sont les emplacements, les lieux et le routage d’appel d’urgence ?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez les emplacements d’urgence, les lieux et le routage des appels d’urgence, et la manière de les planifier et de les affecter à vos utilisateurs. '
-ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396401"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568552"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a>Quels sont les emplacements d’urgence, les lieux et le routage des appels ?
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>Que sont les emplacements, les lieux et le routage d’appel d’urgence ?
 
 Lorsque vous configurez des plans d’appel, vous devez attribuer un emplacement d’urgence à chaque numéro de téléphone lorsque vous récupérez le numéro de téléphone ou que vous l’attribuez à un utilisateur pour prendre en charge les appels d’urgence. Pour pouvoir affecter un emplacement d’urgence à un numéro de téléphone, vous devez ajouter et valider un emplacement d’urgence. La validation vérifie que l’emplacement d’urgence est reconnu et qu’il est dans un format approprié qui peut être utilisé par les services de réponse d’urgence. Si vous le souhaitez, vous pouvez ajouter un emplacement au sein de l’emplacement d’urgence afin de fournir un emplacement plus précis pour l’utilisateur. Par exemple, il peut s’agir d’un étage, d’une aile ou d’un bureau lié à un emplacement d’urgence spécifique. Bien qu’il soit possible de valider les emplacements d’urgence, les lieux ne le sont pas.
   

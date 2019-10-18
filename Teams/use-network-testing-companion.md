@@ -1,5 +1,5 @@
 ---
-title: Utiliser le compagnon de tests réseau
+title: Utiliser l’Assistant test réseau
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -18,14 +17,14 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236631"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568602"
 ---
-<a name="use-the-network-testing-companion"></a>Utiliser le compagnon de tests réseau
+<a name="use-the-network-testing-companion"></a>Utiliser l’Assistant test réseau
 =================================
 
 Le [compagnon de test du réseau](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) Skype entreprise et Microsoft teams vous permet de tester facilement la qualité de votre réseau et votre connexion à Skype entreprise Online ou Microsoft Teams. Vous pouvez facilement interpréter les résultats et les partager avec les administrateurs réseau pour accéder à des informations sur les problèmes de réseau potentiels.

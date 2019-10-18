@@ -15,28 +15,27 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a75acd23f818615630ff4f6ca9e1890ae87cc9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483184"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567146"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
 Cet article va vous aider à préparer le réseau de votre organisation à la qualité de service (QoS) dans Microsoft Teams. Si vous prenez en charge un groupe de nombreux utilisateurs et qu’ils rencontrent des problèmes mentionnés ci-dessous, vous devez probablement implémenter QoS. Une petite entreprise avec peu d’utilisateurs peut ne pas avoir besoin de la qualité de service (QoS), mais même celle-ci peut être utile.
 
-La qualité de service (QoS) est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour «couper ligne» devant le trafic moins sensible (comme le téléchargement d’une nouvelle application, où une seconde supplémentaire à télécharger n’est pas très importante). La fonction QoS identifie et marque tous les paquets en flux temps réel (à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, plus d’informations sur celles-ci sont disponibles), ce qui permet à votre réseau de transmettre des flux vocaux, vidéo et de partage d’écran. partie dédiée de la bande passante réseau.
+La qualité de service (QoS) est un moyen d’autoriser le trafic réseau en temps réel (par exemple, les flux vocaux ou vidéo) qui est sensible aux retards de réseau pour « couper ligne » devant le trafic moins sensible (comme le téléchargement d’une nouvelle application, où une seconde supplémentaire à télécharger n’est pas très importante). La fonction QoS identifie et marque tous les paquets en flux temps réel (à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée listes de contrôle d’accès basée sur le port, plus d’informations sur celles-ci sont disponibles), ce qui permet à votre réseau de transmettre des flux vocaux, vidéo et de partage d’écran. partie dédiée de la bande passante réseau.
 
-Sans la qualité de service (QoS), vous risquez de rencontrer les problèmes de qualité suivants dans les fonctionnalités audio et vidéo:
+Sans la qualité de service (QoS), vous risquez de rencontrer les problèmes de qualité suivants dans les fonctionnalités audio et vidéo :
 
-- Gigue: paquets multimédias entrants à des tarifs différents, qui peuvent entraîner l’absence de mots ou de syllabes dans les appels.
-- Perte de paquets: paquets rejetés, qui peuvent également entraîner une baisse de la qualité de la voix et des difficultés à comprendre la parole.
-- Durée de l’aller-retour retardé (RTT): les paquets multimédias prenaient un temps considérable pour joindre leurs destinataires, ce qui a pour effet de retarder les utilisateurs.
+- Gigue : paquets multimédias entrants à des tarifs différents, qui peuvent entraîner l’absence de mots ou de syllabes dans les appels.
+- Perte de paquets : paquets rejetés, qui peuvent également entraîner une baisse de la qualité de la voix et des difficultés à comprendre la parole.
+- Durée de l’aller-retour retardé (RTT) : les paquets multimédias prenaient un temps considérable pour joindre leurs destinataires, ce qui a pour effet de retarder les utilisateurs.
 
 Le moyen le plus complexe de traiter ces problèmes consiste à augmenter la taille des connexions de données, à la fois en interne et hors Internet. Étant donné qu’il s’agit souvent de coûts, la fonction QoS fournit un moyen de gérer plus efficacement les ressources que vous avez au lieu d’ajouter de nouvelles ressources. Pour résoudre les problèmes de qualité d’utilisation de la qualité de service (QoS) sur l’ensemble de l’implémentation, ajoutez une connectivité uniquement si nécessaire.
 
@@ -44,7 +43,7 @@ Pour que la qualité de service (QoS) s’applique, vous devez appliquer des par
 
 _Figure 1. Relation entre les réseaux d’une organisation et les services 365 Office_
 
-![Illustration de la relation entre les réseaux et les services] (media/Qos-in-Teams-Image1.png "Relation entre les réseaux d’une organisation et les services 365 Office: le réseau local et les appareils se connectent à un réseau d’interconnexion, qui à son tour est connecté aux services d’audioconférence et de voix sur le Cloud Office 365.")
+![Illustration de la relation entre les réseaux et les services](media/Qos-in-Teams-Image1.png "Relation entre les réseaux d’une organisation et les services 365 Office : le réseau local et les appareils se connectent à un réseau d’interconnexion, qui à son tour est connecté aux services d’audioconférence et de voix sur le Cloud Office 365.")
 
 Dans la plupart des cas, le réseau qui se connecte à votre entreprise avec le Cloud sera un réseau non géré dans lequel vous ne pourrez pas définir de manière fiable les options de QoS. L’un des choix disponibles pour l’adresse QoS de bout en bout est [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mais nous vous recommandons tout de même d’implémenter QoS sur votre réseau local pour le trafic entrant et sortant. Cela permettra d’augmenter la qualité des charges de travail de communication en temps réel pendant votre déploiement et de soulager chokepoints.
 
@@ -70,9 +69,9 @@ Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l
 
 _Figure 2. Exemples de files d’attente QoS_
 
-![Illustration des files d’attente de QoS et de la Division de bande passante] (media/Qos-in-Teams-Image2.png "La bande passante disponible totale est divisée en plusieurs files d’attente (audio, vidéo, etc.) auxquelles des priorités différentes sont affectées.")
+![Illustration des files d’attente de QoS et de la Division de bande passante](media/Qos-in-Teams-Image2.png "La bande passante disponible totale est divisée en plusieurs files d’attente (audio, vidéo, etc.) auxquelles des priorités différentes sont affectées.")
 
-Une simple analogie est que la qualité de service (QoS) crée des «couloirs Carpool» dans votre réseau de données de sorte que certains types de données ne soient jamais ou ne rencontrent pas de temps. Une fois que vous avez créé ces couloirs, vous pouvez ajuster leur taille relative et gérer davantage efficacement la bande passante de connexion que vous utilisez, tout en offrant aux utilisateurs de votre organisation des expériences de niveau professionnel.
+Une simple analogie est que la qualité de service (QoS) crée des « couloirs Carpool » dans votre réseau de données de sorte que certains types de données ne soient jamais ou ne rencontrent pas de temps. Une fois que vous avez créé ces couloirs, vous pouvez ajuster leur taille relative et gérer davantage efficacement la bande passante de connexion que vous utilisez, tout en offrant aux utilisateurs de votre organisation des expériences de niveau professionnel.
 
 ## <a name="select-a-qos-implementation-method"></a>Sélectionner une méthode d’implémentation de QoS
 
@@ -102,7 +101,7 @@ Une fois tous les appareils du réseau utilisant les mêmes classifications, mar
 
 La valeur DSCP indique à une connexion réseau configurée quelle priorité définir un paquet ou un flux, si la marque DSCP est affectée par des clients ou le réseau lui-même en fonction des paramètres de la liste de contrôle d’accès. Chaque charge de travail multimédia obtient sa propre valeur DSCP unique (d’autres services peuvent permettre aux charges de travail de partager un marquage DSCP, teams n’est pas) et une plage de port définie et séparée utilisée pour chaque type de média. Dans d’autres environnements, il est possible qu’une stratégie QoS existe en place, ce qui vous permet de déterminer la priorité des charges de travail réseau.
 
-La taille relative des plages de port pour différentes charges de travail en flux continu en temps réel définit le prorata de la bande passante disponible totale dédiée à cette charge de travail. Pour revenir à notre analogie initiale plus ancienne: une lettre portant le cachet «messagerie» peut être prélevée dans une heure à l’aéroport le plus proche, tandis qu’un petit emballage marqué «courrier en nombre» peut patienter pendant une journée avant de voyager sur terre sur une série de camions.
+La taille relative des plages de port pour différentes charges de travail en flux continu en temps réel définit le prorata de la bande passante disponible totale dédiée à cette charge de travail. Pour revenir à notre analogie initiale plus ancienne : une lettre portant le cachet « messagerie » peut être prélevée dans une heure à l’aéroport le plus proche, tandis qu’un petit emballage marqué « courrier en nombre » peut patienter pendant une journée avant de voyager sur terre sur une série de camions.
 
 Le tableau suivant répertorie les marquages DSCP requis et les plages de ports multimédias correspondant aux suggestions utilisées par teams et ExpressRoute. Ces plages peuvent servir de bon point de départ pour les clients qui ne sont pas certain de ce qu’ils peuvent utiliser dans leur propre environnement. Pour des informations complémentaire, consultez les [Exigences de qualité de service d’ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
@@ -115,7 +114,7 @@ _Plages de port initiales recommandées_
 |Partage d’écran ou d’application| 50,040 – 50059|TCP/UDP|19|Transfert assuré (AF21)|
 ||||||
 
-Tenez compte des points suivants lorsque vous utilisez les paramètres suivants:
+Tenez compte des points suivants lorsque vous utilisez les paramètres suivants :
 
 - Si vous envisagez d’implémenter ExpressRoute à l’avenir et que vous n’avez pas encore implémenté QoS, nous vous conseillons de suivre les recommandations de sorte que les valeurs DSCP soient les mêmes entre l’expéditeur et le destinataire.
 - Tous les clients, notamment les appareils mobiles et les équipes Teams, utiliseront ces plages de ports et seront touchés par toute stratégie DSCP implémentée qui utilise ces plages de ports sources. Les seuls clients qui continuent à utiliser les ports dynamiques sont les clients basés sur le navigateur (autrement dit, les clients qui permettent aux participants de rejoindre des réunions à l’aide de leur navigateur).
@@ -131,28 +130,28 @@ Si vous avez déjà déployé Skype entreprise Online, notamment le balisage QoS
 
 ## <a name="qos-implementation-steps"></a>Étapes d’implémentation de QoS
 
-À un niveau élevé, l’implémentation de QoS nécessite les étapes suivantes:
+À un niveau élevé, l’implémentation de QoS nécessite les étapes suivantes :
 
 1. [Vérifier que votre réseau est prêt](#verify-your-network-is-ready)
 2. [Sélectionner une méthode d’implémentation de QoS](#select-a-qos-implementation-method)
 3. [Choisir les plages de port initiales pour chaque type de média](#choose-initial-port-ranges-for-each-media-type)
-4. Mettre en œuvre des paramètres de QoS:
+4. Mettre en œuvre des paramètres de QoS :
    1. Sur les clients utilisant un objet de stratégie de groupe pour [définir les plages de port de périphériques client et les marques](QoS-in-Teams-clients.md)
    2. Sur les routeurs (voir la documentation du fabricant) ou sur d’autres appareils réseau. Il s’agit de listes de Contrã’le de niveau de service, ou simplement de définir des files d’attente de QoS et des marques DSCP.
 
       > [!IMPORTANT]
-      > Nous vous recommandons d’implémenter ces stratégies de QoS à l’aide des ports sources du client et d’une adresse IP source et de destination «tout.» Le trafic multimédia entrant et sortant est alors détecté sur le réseau interne.  
+      > Nous vous recommandons d’implémenter ces stratégies de QoS à l’aide des ports sources du client et d’une adresse IP source et de destination « tout. » Le trafic multimédia entrant et sortant est alors détecté sur le réseau interne.  
 
    3. Dans le [Centre d’administration teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 5. [Validez l’implémentation QoS](#validate-the-qos-implementation) en analysant le trafic des équipes sur le réseau.
 
-Lorsque vous préparez la mise en œuvre de la qualité de service (QoS), gardez à l’esprit les recommandations suivantes:
+Lorsque vous préparez la mise en œuvre de la qualité de service (QoS), gardez à l’esprit les recommandations suivantes :
 
 - Le chemin d’accès le plus rapide à Office 365 est préférable.
 - La fermeture des ports entraîne uniquement une dégradation de la qualité.
 - Tout obstacle, tel qu’un proxy, n’est pas recommandé.
-- Limiter le nombre de tronçons:
-  - Client vers Edge réseau: 3 à 5 tronçons.
+- Limiter le nombre de tronçons :
+  - Client vers Edge réseau : 3 à 5 tronçons.
   - Fournisseur de services Internet pour Microsoft Network Edge – 3 tronçons
   - Destination réseau Microsoft de destination finale-sans pertinence
 
@@ -183,11 +182,11 @@ Moniteur réseau est un outil que vous pouvez [Télécharger auprès de Microsof
 
 3. Arrêtez la capture.
 
-4. Dans le champ **filtre d’affichage** , utilisez l’adresse IP source du PC à l’origine de l’appel et affinez le filtre en définissant la valeur DSCP 46 (hex 0x2E) comme critère de recherche, comme le montre l’exemple suivant:
+4. Dans le champ **filtre d’affichage** , utilisez l’adresse IP source du PC à l’origine de l’appel et affinez le filtre en définissant la valeur DSCP 46 (hex 0x2E) comme critère de recherche, comme le montre l’exemple suivant :
 
-    Source = = «192.168.137.201» et IPv4. DifferentiatedServicesField = = 0x2E
+    Source = = « 192.168.137.201 » et IPv4. DifferentiatedServicesField = = 0x2E
 
-    ![Filtres de capture d’écran de la boîte de dialogue Filtre d’affichage.] (media/Qos-in-Teams-Image4.png "La boîte de dialogue Filtre d’affichage du moniteur réseau, montrant les filtres à appliquer.")
+    ![Filtres de capture d’écran de la boîte de dialogue Filtre d’affichage.](media/Qos-in-Teams-Image4.png "La boîte de dialogue Filtre d’affichage du moniteur réseau, montrant les filtres à appliquer.")
 
 5. Sélectionnez **appliquer** pour activer le filtre.
 
@@ -195,7 +194,7 @@ Moniteur réseau est un outil que vous pouvez [Télécharger auprès de Microsof
 
 7. Dans la fenêtre **Détails du cadre** , développez l’élément de liste IPv4 et notez la valeur à la fin de la ligne qui commence par **DSCP**.
 
-    ![Capture d’écran montrant les paramètres DSCP dans la boîte de dialogue Détails du cadre.] (media/Qos-in-Teams-Image5.png "La boîte de dialogue Détails du cadre dans le moniteur réseau, en surlignant les paramètres DSCP.")
+    ![Capture d’écran montrant les paramètres DSCP dans la boîte de dialogue Détails du cadre.](media/Qos-in-Teams-Image5.png "La boîte de dialogue Détails du cadre dans le moniteur réseau, en surlignant les paramètres DSCP.")
 
 Dans cet exemple, la valeur DSCP est définie sur 46. C’est correct, car le port source utilisé est 50019, ce qui indique qu’il s’agit d’une charge de travail vocale.
 
@@ -203,7 +202,7 @@ Répétez la procédure de vérification pour chaque charge de travail marquée 
 
 ## <a name="more-information"></a>Plus d’informations
 
-[Vidéo: planification du réseau](https://aka.ms/teams-networking)
+[Vidéo : planification du réseau](https://aka.ms/teams-networking)
 
 [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
 

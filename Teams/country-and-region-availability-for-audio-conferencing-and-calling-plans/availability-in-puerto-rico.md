@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour Porto Rico.
-ms.openlocfilehash: 4432d8ce71fb15656948ceeae186c7d782159832
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1e3606e48a235d3208d429581b23ce2b78bf03c2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331363"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562823"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilité à Puerto Rico
 
@@ -61,7 +60,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
 |Minutes disponibles pour les forfaits d'appels  <br/> |3000 minutes nationales ou 600 minutes internationales (en fonction de ce qui arrive en premier par mois civil). Appels nationaux aux États-Unis comprend les appels vers les États-Unis 50 et Porto Rico. Les utilisateurs affectés de l’emplacement d’utilisation des licences des États-Unis et/ou Porto Rico partagent la même réserve de minutes.  <br/> |
-|Est-il possible de passer des appels sortants vers des numéros payants? <br/> | Non prise en charge pour le moment. <br/> |
+|Est-il possible de passer des appels sortants vers des numéros payants ? <br/> | Non prise en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Numéros payants et gratuits pour les services

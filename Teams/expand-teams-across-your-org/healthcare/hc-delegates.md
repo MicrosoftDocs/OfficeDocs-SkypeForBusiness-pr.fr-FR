@@ -1,5 +1,5 @@
 ---
-title: Délégation de message
+title: Délégation de messages
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,21 +8,23 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Un utilisateur peut définir explicitement un autre utilisateur comme délégué dans son message d’État.
-ms.openlocfilehash: cc9895ec639589ec260a03b0a1828ccf2a4eb9b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232346"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570357"
 ---
-# <a name="message-delegation"></a>Délégation de message
+# <a name="message-delegation"></a>Délégation de messages
 
-Un utilisateur peut déjà définir son état sur absent (e) ou ne pas déranger, et fournir un texte personnalisé. La fonctionnalité de délégation des messages fonctionne comme suit:
+Un utilisateur peut déjà définir son état sur absent (e) ou ne pas déranger, et fournir un texte personnalisé. La fonctionnalité de délégation des messages fonctionne comme suit :
 
 1. Un utilisateur @username mention d’un autre utilisateur dans une partie d’un message de statut de texte, ce qui A pour effet de signaler qu’il s’agit de personnes indisponibles pour le contacter à la place, contactez le @username utilisateur mentionné.
 2. La personne qui a été désignée comme délégué est avertie qu’elle a été désignée comme délégué.
@@ -32,13 +34,13 @@ Il s’agit d’un processus initialisé par l’utilisateur dans le client et a
 
 ## <a name="delegation-use-scenario-in-healthcare"></a>Scénario d’utilisation de délégation dans la santé
 
-*Exemple d’utilisation sans définir de délégués:*  Dr. Franco Piccio est en communication téléphonique au service de radiologie. Il reçoit un appel individuel urgent et doit s’éloigner pendant quelques heures. Il demande à l’un de ses homologues du service de radiologie, Dr. Lena Ehrle, de s’en informer pendant qu’il a disparu. Il a émis par le biais de son radiomessagerie pour le Dr. Ehrle, qui écoute les messages urgents et les télécommandes sur le téléavertisseur et y réponde au nom de Dr. Piccio en plus de ses responsabilités actuelles. Les autres membres de l’équipe risquent de ne pas se rendre compte que la délégation informelle s’est déroulée et que le prêt est en conflit avec le patient.
+*Exemple d’utilisation sans définir de délégués :*  Dr. Franco Piccio est en communication téléphonique au service de radiologie. Il reçoit un appel individuel urgent et doit s’éloigner pendant quelques heures. Il demande à l’un de ses homologues du service de radiologie, Dr. Lena Ehrle, de s’en informer pendant qu’il a disparu. Il a émis par le biais de son radiomessagerie pour le Dr. Ehrle, qui écoute les messages urgents et les télécommandes sur le téléavertisseur et y réponde au nom de Dr. Piccio en plus de ses responsabilités actuelles. Les autres membres de l’équipe risquent de ne pas se rendre compte que la délégation informelle s’est déroulée et que le prêt est en conflit avec le patient.
 
-*Exemple d’utilisation avec de définir des délégués:* Dr. Franco Piccio est en communication téléphonique au service de radiologie. Il reçoit un appel individuel urgent et doit s’éloigner pendant quelques heures. Il demande l’un de ses pairs au service de radiologie, le Dr. Lena Ehrle pour s’en informer pendant qu’il a disparu. Il change son message de statut personnalisé pour qu’il ressemble à ce qui suit: «je ne suis pas disponible pendant quelques heures. Veuillez contacter @DrEhrle pour toute urgence.»  Les autres membres de l’équipe peuvent être conscients que la délégation s’est produite lors de la tentative de contact de la fonction de Piccio. Le léger risque de confusion avec les soins d’un patient.
+*Exemple d’utilisation avec de définir des délégués :* Dr. Franco Piccio est en communication téléphonique au service de radiologie. Il reçoit un appel individuel urgent et doit s’éloigner pendant quelques heures. Il demande l’un de ses pairs au service de radiologie, le Dr. Lena Ehrle pour s’en informer pendant qu’il a disparu. Il change son message de statut personnalisé pour qu’il ressemble à ce qui suit : «je ne suis pas disponible pendant quelques heures. Veuillez contacter @DrEhrle pour toute urgence.»  Les autres membres de l’équipe peuvent être conscients que la délégation s’est produite lors de la tentative de contact de la fonction de Piccio. Le léger risque de confusion avec les soins d’un patient.
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Impact des modes de coexistence sur l’état de l’utilisateur dans le client teams
 
-Les administrateurs doivent savoir que les comportements de la délégation et des notes d’État dépendent en partie du mode de coexistence d’un utilisateur. Ce tableau présente les possibilités suivantes:
+Les administrateurs doivent savoir que les comportements de la délégation et des notes d’État dépendent en partie du mode de coexistence d’un utilisateur. Ce tableau présente les possibilités suivantes :
 
 |Mode de coexistence | Comportement attendu|
 |---|---|

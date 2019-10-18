@@ -8,8 +8,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328330"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569994"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classification des flux dans le tableau de bord de qualité des appels
 
@@ -41,7 +40,7 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 
 |Mesure|Condition|Explication|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Dégradation moyenne de la note moyenne d'opinion réseau pour le flux. Le niveau de perte et de scintillation du réseau a affecté la qualité audio de la réception.|
+|Audio Degradation Avg|> 1,0|Dégradation moyenne d’avis du réseau pour le flux. Le niveau de perte et de scintillation du réseau a affecté la qualité audio de la réception.|
 |Round Trip|> 500|Temps moyen de propagation du réseau en boucle arrondi, calculé en millisecondes. Détails disponibles dans [le document rfc3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|> 0,1|Taux moyen de perte de paquets pour le flux.|
 |Jitter|> 30|Gigue moyenne pour le flux, en millisecondes.|
@@ -55,7 +54,7 @@ Un flux vidéo est marqué comme _bon_ ou _médiocre_ en fonction de la valeur d
 |N° d’étape|Mesure|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les trames récupérées à partir d’une perte du réseau.|
-|deuxième|Video Frame Rate Avg|< 7|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
+|2|Video Frame Rate Avg|< 7|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
 |3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
 |  |  |  |  |  |  |  |
 
@@ -66,7 +65,7 @@ Un flux VBSS est marqué comme _bon_ ou _médiocre_ en fonction de la valeur de 
 |N° d’étape |Mesure |Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les trames récupérées à partir d’une perte du réseau.|
-|deuxième|Video Frame Rate Avg|< 2|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
+|2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
 |3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
 | |  | | | |  ||
 

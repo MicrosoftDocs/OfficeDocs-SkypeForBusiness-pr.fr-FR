@@ -10,7 +10,6 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
-ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391440"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564965"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -164,7 +163,7 @@ Examinons l’exemple suivant.
 |Utilisateur |Stratégie de réunion  |Autoriser l’enregistrement Cloud |
 |---------|---------|---------|
 |Daniela | Globale   | False |
-|Amanda | Location1MeetingPolicy | True|
+|Amanda | Location1MeetingPolicy | Vrai|
 |Jean (utilisateur externe) | Non applicable | Non applicable|
 
 Les réunions organisées par Daniela ne peuvent pas être enregistrées et Amanda, qui dispose du paramètre de stratégie activé, ne peut pas enregistrer des réunions organisées par Daniela. Les réunions organisées par Amanda peuvent être enregistrées, mais, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peuvent pas enregistrer des réunions organisées par Amanda.
@@ -181,7 +180,7 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser la vidéo IP |
 |---------|---------|---------|
-|Daniela   | Globale   | True        |
+|Daniela   | Globale   | Vrai        |
 |Amanda    | Location1MeetingPolicy        | False      |
 
 Les réunions hébergées par Daniela permettre l’activation de la vidéo. Daniela pouvez rejoindre la réunion et activer la vidéo. Amanda ne peut pas activer la vidéo pendant la réunion Daniela, car la politique d’Amanda est définie sur ne pas autoriser la vidéo. Amanda peut voir les vidéos partagées par d’autres participants à la réunion.
@@ -259,7 +258,7 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser les participants à céder ou demander le contrôle |
 |---------|---------|---------|
-|Daniela   | Globale   | True       |
+|Daniela   | Globale   | Vrai       |
 |Babek    | Location1MeetingPolicy        | False   |
 
 Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée à d’autres participants à une réunion organisée par Babek que Babek ne peut pas céder le contrôle à d’autres participants.
@@ -283,7 +282,7 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser le partage PowerPoint |
 |---------|---------|---------|
-|Daniela   | Globale   | True       |
+|Daniela   | Globale   | Vrai       |
 |Amanda   | Location1MeetingPolicy        | False   |
 
 Amanda ne peut pas partager des diapositives PowerPoint dans les réunions, même si elle est l’organisateur de la réunion. Daniela peut partager des diapositives PowerPoint, même si la réunion est organisée par Amanda. Amanda peut afficher les diapositives PowerPoint partagées par d’autres participants à la réunion, même si elles ne peuvent pas partager des diapositives PowerPoint.
@@ -296,7 +295,7 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser le tableau blanc|
 |---------|---------|---------|
-|Daniela   | Globale   | True       |
+|Daniela   | Globale   | Vrai       |
 |Amanda   | Location1MeetingPolicy        | False   |
 
 Amanda ne peut pas partager le tableau blanc dans une réunion, même s’il s’agit de l’organisateur de la réunion. Daniela peut partager le tableau blanc même si une réunion est organisée par Amanda.  
@@ -309,7 +308,7 @@ Examinons l’exemple suivant.
 
 |Utilisateur |Stratégie de réunion  |Autoriser les notes partagées |
 |---------|---------|---------|
-|Daniela   | Globale   | True       |
+|Daniela   | Globale   | Vrai       |
 |Amanda   | Location1MeetingPolicy | False |
 
 Daniela peut prendre des notes dans les réunions d’Amanda et qu’Amanda ne peut prendre des notes pendant une réunion.
@@ -355,7 +354,7 @@ Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lor
 
 |Autoriser les personnes anonymes à commencer une réunion  |Admettre automatiquement des personnes |Comportement de jointure des personnes anonymes |
 |---------|---------|---------|
-|True    | Tout le monde      | Rejoindre directement         |
+|Vrai    | Tout le monde      | Rejoindre directement         |
 |   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
 |   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
 |False    | Tout le monde        | Rejoindre directement        |
@@ -366,7 +365,7 @@ Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lor
 
 |Autoriser les personnes anonymes à commencer une réunion |Admettre automatiquement des personnes  |Comportement de jointure des personnes anonymes |
 |---------|---------|---------|
-|True    | Tout le monde      | Rejoindre directement         |
+|Vrai    | Tout le monde      | Rejoindre directement         |
 |   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
 |   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
 |False    | Tout le monde        | Patienter dans la salle d’attente. Les utilisateurs sont automatiquement admis lorsque le premier utilisateur authentifié rejoint la réunion.        |
@@ -381,7 +380,7 @@ Voici le comportement de participation des personnes qui se connectent par tél�
 
 |Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Accepter automatiquement les utilisateurs  |Comportement de connexion des personnes qui se connectent |
 |---------|---------|---------|
-|True    | Tout le monde      | Rejoindre directement         |
+|Vrai    | Tout le monde      | Rejoindre directement         |
 |   | Tout le monde dans votre organisation       | Rejoindre directement        |
 |   | Tout le monde au sein de votre organisation et organisations fédérées       | Rejoindre directement         |
 |False    | Tout le monde        | Rejoindre directement        |

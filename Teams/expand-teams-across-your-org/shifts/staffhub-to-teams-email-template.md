@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Utilisez ce modèle de courrier pour communiquer aux utilisateurs de votre organisation la transition de Microsoft StaffHub vers Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebe9db78b1f210d1ebf96ca4bbd2552372a6a1cf
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36716129"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569653"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>StaffHub vers équipes exemples de courrier électronique aux utilisateurs
 
 > [!IMPORTANT]
-> À compter du 1er octobre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub ne fonctionnera pas pour tous les utilisateurs du 1er octobre 2019. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> À compter du 31 décembre 2019, Microsoft StaffHub sera supprimé. Nous développons des fonctionnalités StaffHub dans Microsoft Teams. Aujourd’hui, teams inclut l’application Shifts pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées dans le temps. StaffHub s’arrêtera de fonctionner pour tous les utilisateurs du 31 décembre 2019. Tout utilisateur essayant d’ouvrir StaffHub verra s’afficher un message lui indiquant de télécharger Teams. Pour en savoir plus, consultez la rubrique [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
 
 Pour vous assurer que le passage de StaffHub aux équipes est réussi, nous avons créé un modèle de courrier électronique que vous pouvez utiliser pour communiquer les changements aux utilisateurs de votre organisation. Utilisez-le dans le cadre de votre stratégie d’intégration de manière à informer vos utilisateurs des mutations et de la transition vers les équipes, et aider à favoriser l’adoption au sein de votre organisation.
 
@@ -58,5 +58,5 @@ Si vous avez besoin d’une aide immédiate, &lt;Contactez le support&gt;techniq
 
 ## <a name="related-topics"></a>Voir aussi
 
-- [Planifier le déplacement de vos équipes StaffHub vers les équipes en équipe](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
+- [Planifier le déplacement de vos équipes de StaffHub vers Shifts dans Teams](plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 - [Faire passer vos équipes de Microsoft StaffHub vers Shifts dans Teams](move-staffhub-teams-to-shifts-in-teams.md)

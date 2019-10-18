@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Le tableau suivant vous permet de trouver des informations sur l’utilisation et la gestion des numéros de téléphone au Canada pour Microsoft Teams.
-ms.openlocfilehash: 833d0e494474c16114373501b0a23883847cc9f3
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 667dfd3b68c1317e086c7c790732b7a90da074d5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347851"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573150"
 ---
 # <a name="phone-number-management-for-canada"></a>Gestion des numéros de téléphone pour le Canada
 
@@ -38,7 +37,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |:---   |:---    |
 | Obtenez de nouveaux numéros de téléphone d’utilisateur qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams.  <br/>   | Téléchargez un des formulaires suivants : <br/> [Demande de nouveaux numéros de téléphone pour le Canada (numéros d'utilisateur et de service) (v.1.0) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(en-ca).pdf?raw=true) <br/>[Demande de nouveaux numéros de téléphone pour le Canada (numéros d'utilisateur et de service) (v.1.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true)  <br/> <br>Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/>        
 | Obtenez de nouveaux numéros de téléphone de service qui ne sont pas répertoriés dans le centre d’administration Microsoft Teams. <br/> | Pour les numéros de service situés hors des États-Unis, [Téléchargez ce formulaire](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)et remplissez-le et [envoyez-](mailto:ptneu@microsoft.com)le. |
-|Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation (LOA) pour le Canada (numéros d’utilisateur et de service) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/> [Courrier d'autorisation (LOA) pour le Canada (numéros d'utilisateur et de service) (v.1.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true) <br/> [Lettre d’autorisation (LOA) pour le Canada (numéros gratuits) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/>[Courrier d'autorisation (LOA) pour le Canada (numéros gratuits) (v.1.1) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf?raw=true)<br/> <br>**Remarque:** Si vous essayez d’obtenir plus de 999 abonné ou numéro de téléphone utilisateur, vous devez renseigner une lettre d’autorisation (LOA) et nous l’envoyer. Pour plus d'informations, reportez-vous à la rubrique [Transférer des numéros de téléphone vers Office 365](../transfer-phone-numbers-to-office-365.md). <br/> <br>Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/> |
+|Obtenez des numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez un des formulaires suivants : <br/> [Lettre d’autorisation (LOA) pour le Canada (numéros d’utilisateur et de service) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/> [Courrier d'autorisation (LOA) pour le Canada (numéros d'utilisateur et de service) (v.1.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true) <br/> [Lettre d’autorisation (LOA) pour le Canada (numéros gratuits) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/>[Courrier d'autorisation (LOA) pour le Canada (numéros gratuits) (v.1.1) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf?raw=true)<br/> <br>**Remarque :** Si vous essayez d’obtenir plus de 999 abonné ou numéro de téléphone utilisateur, vous devez renseigner une lettre d’autorisation (LOA) et nous l’envoyer. Pour plus d'informations, reportez-vous à la rubrique [Transférer des numéros de téléphone vers Office 365](../transfer-phone-numbers-to-office-365.md). <br/> <br>Remplissez-le et [envoyez-le-nous](mailto:ptn@microsoft.com).  <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/>                                 | [Envoyez-nous](mailto:ptn@microsoft.com) votre code confidentiel et la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. Pour configurer un code confidentiel, cliquez [ici](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Transférez les numéros d’une organisation Office 365 à une autre.  <br/>               | [Envoyez-nous](mailto:ptn@microsoft.com) la liste des numéros de téléphone d'utilisateur (d'abonné) que vous souhaitez transférer avec le code confidentiel de l'organisation source depuis laquelle vous souhaitez transférer les numéros. Pour configurer un code confidentiel, cliquez [ici](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 

@@ -12,22 +12,21 @@ description: Découvrez comment utiliser Groupes Office 365 et les adhésions d
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9734404e767e9769a44a09fa7afe22bf251e4ba7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fff9b4165770afa61c6f89fb83088a37b221f677
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245167"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563862"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Groupes Office 365 et Microsoft teams
 =====================================
 
 > [!Tip]
-> Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (Azure AD), les groupes Office 365, Exchange, SharePoint et OneDrive entreprise: [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
+> Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (Azure AD), les groupes Office 365, Exchange, SharePoint et OneDrive entreprise : [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
 
 Le groupe Office 365 est le service d’appartenance à plusieurs applications d’Office 365. Au niveau de base, un groupe Office 365 est un objet dans Azure Active Directory avec une liste de membres et un couplage lâche aux charges de travail associées, y compris un site d’équipe SharePoint, un groupe Yammer, des ressources de boîte aux lettres Exchange partagées, le planificateur, Power BI et OneNote. Vous pouvez ajouter ou supprimer des personnes dans le groupe comme vous le feriez pour n’importe quel autre objet de sécurité en groupe dans Active Directory.
 
@@ -38,7 +37,7 @@ Ne manquez pas les [groupes d’affiches dans Microsoft 365 pour les architectes
 <a name="how-office-365-groups-work"></a>Fonctionnement des groupes Office 365
 --------------------------
 
-Lorsque vous créez une équipe, sur le système principal, vous créez un groupe Office 365 et la bibliothèque de documents SharePoint associée et un bloc-notes OneNote, ainsi que des liens vers d’autres applications Cloud Office 365. Si la personne qui crée l’équipe est le propriétaire d’un groupe public ou privé Office 365 existant, elle peut ajouter des fonctionnalités d’équipe au groupe si elle a moins de 5000 personnes et qu’elle n’a jamais été ajoutée à Teams. Cela crée un canal **général** par défaut dans lequel se trouvent les messages de discussion, les documents, OneNote et les autres objets. Le principe d’affichage de la bibliothèque de documents du canal permettra d’afficher le dossier **général** représentant le canal dans l’équipe. Plus important encore, si vous créez votre propre structure de dossiers au sein d’une bibliothèque de documents, **celle-ci n’est pas propagée** aux équipes en tant que canal; pour l’instant, seules les équipes sont acheminées vers SharePoint.
+Lorsque vous créez une équipe, sur le système principal, vous créez un groupe Office 365 et la bibliothèque de documents SharePoint associée et un bloc-notes OneNote, ainsi que des liens vers d’autres applications Cloud Office 365. Si la personne qui crée l’équipe est le propriétaire d’un groupe public ou privé Office 365 existant, elle peut ajouter des fonctionnalités d’équipe au groupe si elle a moins de 5000 personnes et qu’elle n’a jamais été ajoutée à Teams. Cela crée un canal **général** par défaut dans lequel se trouvent les messages de discussion, les documents, OneNote et les autres objets. Le principe d’affichage de la bibliothèque de documents du canal permettra d’afficher le dossier **général** représentant le canal dans l’équipe. Plus important encore, si vous créez votre propre structure de dossiers au sein d’une bibliothèque de documents, **celle-ci n’est pas propagée** aux équipes en tant que canal ; pour l’instant, seules les équipes sont acheminées vers SharePoint.
 
 > [!NOTE]
 > Sur la base des commentaires des clients, les nouveaux groupes Office 365 générés suite à la création d’une équipe dans Microsoft Teams ne s’afficheront plus dans Outlook par défaut. Pour les clients souhaitant continuer à utiliser le comportement d’affichage de ces groupes dans Outlook, une cmdlet PowerShell Exchange Online sera fournie, ce qui peut permettre au groupe d’avoir accès à l’environnement Outlook. Les groupes créés via Outlook et les versions ultérieures sont activés pour les équipes continuent à apparaître dans Outlook et Teams. Cette mise à jour sera déployée progressivement entre Outlook et teams dans les prochains mois.

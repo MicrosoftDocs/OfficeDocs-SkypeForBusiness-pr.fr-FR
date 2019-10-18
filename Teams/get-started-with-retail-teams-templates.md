@@ -9,7 +9,6 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les modèles teams pour créer des structures d’équipe conçues pour les besoins des détaillants.
@@ -17,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 2688425d28d1118cc6fa3338e0724dfa92c3c88c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767100"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569607"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Prise en main des modèles Teams de vente au détail 
 

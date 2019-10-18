@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Découvrez comment utiliser le rapport d’utilisation RTC de Microsoft teams dans le centre d’administration de Microsoft teams pour avoir une vue d’ensemble de l’utilisation des fonctionnalités d’appel et de l’audioconférence au sein de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3674759844cc268fc503f4f617e0d18d16914593
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 89d33f15401d25767c905f16e38d93744d7929c3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131684"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570565"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Rapport utilisation RTC de Microsoft teams
 
@@ -35,9 +34,9 @@ L’onglet **forfaits** d’appels affiche des informations telles que le nombre
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
-### <a name="calling-plans"></a>Offres d'appels
+### <a name="calling-plans"></a>Forfaits d’appel
 
-![Capture d’écran du rapport sur l’utilisation RTC des plans d’appel dans le centre d’administration] (../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Rapport d’utilisation RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
+![Capture d’écran du rapport sur l’utilisation RTC des plans d’appel dans le centre d’administration](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Rapport d’utilisation RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
 
 |Légende |Description  |
 |--------|-------------|
@@ -52,7 +51,7 @@ L’onglet **forfaits** d’appels affiche des informations telles que le nombre
 
 ### <a name="direct-routing"></a>Routage direct
 
-![Capture d’écran du rapport de rapport d’utilisation RTC du routage direct dans le centre d’administration] (../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Capture d’écran du rapport sur l’utilisation RTC du routage direct dans le centre d’administration Microsoft teams avec des légendes numérotées")
+![Capture d’écran du rapport de rapport d’utilisation RTC du routage direct dans le centre d’administration](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Capture d’écran du rapport sur l’utilisation RTC du routage direct dans le centre d’administration Microsoft teams avec des légendes numérotées")
 
 |Légende |Description  |
 |--------|-------------|

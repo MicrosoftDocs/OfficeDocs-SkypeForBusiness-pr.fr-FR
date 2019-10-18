@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Pour connaître le nombre de minutes consommées au cours du mois en cours au sein de votre organisation, voir utiliser le rapport sur les pools RTC de Microsoft teams dans le centre d’administration Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 900d847b5b0978ca2bfdccd4788a828a32f2ee3b
-ms.sourcegitcommit: 3ce40094a58509b69376b941b151c9d1c8538654
+ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428338"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568387"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Rapport de pools de minutes RTC de Microsoft teams
 
@@ -30,7 +29,7 @@ Le rapport pools de minutes RTC dans le centre d’administration Microsoft team
 
 Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l' **onglet Afficher les rapports** , sous **rapport**, sélectionnez **pools de minutes RTC**, puis cliquez sur exécuter un **rapport**.
 
-![Capture d’écran du rapport équipes RTC minutes RTC dans la](../media/teams-reports-pstn-minute-pools-with-callouts.png "capture d’écran du centre d’administration du rapport équipes RTC minutes dans le centre d’administration Microsoft teams avec des légendes numérotées")
+![Capture d’écran du rapport équipes RTC minutes dans le centre d’administration](../media/teams-reports-pstn-minute-pools-with-callouts.png "Capture d’écran du rapport équipes RTC minutes RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 

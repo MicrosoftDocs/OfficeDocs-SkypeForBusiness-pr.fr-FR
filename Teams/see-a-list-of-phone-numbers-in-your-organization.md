@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment utiliser le centre d’administration de Microsoft teams pour afficher la liste de tous les numéros de téléphone de votre organisation ainsi que les numéros attribués aux utilisateurs ou non attribués.
-ms.openlocfilehash: c167902c1f012f48ddcdbea00d4219b264f7b3e6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348834"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571432"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -45,7 +45,7 @@ Il existe différents types de numéros de téléphone que vous pouvez affecter 
 
 3. Pour afficher les numéros de téléphone affectés, reportez-vous à la colonne **État** .
 
-4. Pour filtrer l’affichage, cliquez sur l’icône de filtre. Dans le volet de **filtre** , vous pouvez utiliser la liste déroulante pour filtrer l’affichage en procédant comme suit:
+4. Pour filtrer l’affichage, cliquez sur l’icône de filtre. Dans le volet de **filtre** , vous pouvez utiliser la liste déroulante pour filtrer l’affichage en procédant comme suit :
 
    - **Plage de nombres** définie. Vous pouvez effectuer une recherche à l’aide du numéro le plus petit ou du numéro le plus élevé.
 
@@ -91,7 +91,7 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
     > [!IMPORTANT]
     > Pour que l’option **voix** s’affiche dans le volet de navigation gauche du centre d’administration de Microsoft Teams, vous devez d’abord acheter au moins une licence **entreprise E5**, une licence de composant additionnel du **système téléphonique** ou une licence du composant additionnel **audioconférence** .
 
-3. Cliquez sur l’icône de filtre pour filtrer l’affichage par **État d’activation** sur lequel vous pouvez filtrer:
+3. Cliquez sur l’icône de filtre pour filtrer l’affichage par **État d’activation** sur lequel vous pouvez filtrer :
 
    - **Réactivé**
 

@@ -11,22 +11,21 @@ description: Les administrateurs peuvent utiliser le MSI Teams pour déployer en
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2354c28916af3c1c0be47848ee7bd2a72bf278
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0b80b82a89fc162e33263c784480f619dcd5cf32
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238665"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567959"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 =================================
 
 > [!Tip]
-> Regardez la session suivante pour en savoir plus sur les avantages du client de bureau Windows, sur son planning et son déploiement: client de [Bureau Windows teams](https://aka.ms/teams-clients)
+> Regardez la session suivante pour en savoir plus sur les avantages du client de bureau Windows, sur son planning et son déploiement : client de [Bureau Windows teams](https://aka.ms/teams-clients)
 
 Pour utiliser System Center Configuration Manager, ou une stratégie de groupe ou tout mécanisme de distribution tiers pour un déploiement large, Microsoft a fourni des fichiers MSI ( [32-bits](https://aka.ms/teams32bitmsi) et [64-bit](https://aka.ms/teams64bitmsi)) que les administrateurs peuvent utiliser pour le déploiement en bloc d’équipes et sélectionner utilisateurs ou ordinateurs. Les administrateurs peuvent utiliser ces fichiers pour déployer à distance des équipes de sorte que les utilisateurs n’aient pas à télécharger manuellement l’application Teams. Lorsque le déploiement est déployé, teams démarre automatiquement pour tous les utilisateurs qui se connectent à cet ordinateur. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-launch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, de sorte que tous les nouveaux utilisateurs de l’ordinateur bénéficient également de ce déploiement. 
 
@@ -85,7 +84,7 @@ Voici le processus de déploiement de l’application de bureau Teams. Pour obte
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Procédure de nettoyage et de redéploiement
 
-Si un utilisateur désinstalle teams de son profil utilisateur, le programme d’installation MSI effectue le suivi de la désinstallation de l’application teams par l’utilisateur et n’installe plus teams pour ce profil utilisateur. Pour redéployer teams pour cet utilisateur sur un ordinateur particulier sur lequel il a été désinstallé, procédez comme suit:
+Si un utilisateur désinstalle teams de son profil utilisateur, le programme d’installation MSI effectue le suivi de la désinstallation de l’application teams par l’utilisateur et n’installe plus teams pour ce profil utilisateur. Pour redéployer teams pour cet utilisateur sur un ordinateur particulier sur lequel il a été désinstallé, procédez comme suit :
 
 1. Désinstaller l’application teams installée pour chaque profil utilisateur. 
 2. Après la désinstallation, supprimez le répertoire de manière récursive sous%localappdata%\Microsoft\Teams\.
@@ -96,7 +95,7 @@ Si un utilisateur désinstalle teams de son profil utilisateur, le programme d�
 
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Désactiver le lancement automatique pour le programme d’installation MSI
 
-Le comportement par défaut de MSI consiste à installer le client teams dès qu’un utilisateur se connecte, puis à démarrer automatiquement Teams. Vous pouvez modifier ce comportement avec les paramètres ci-dessous comme suit:
+Le comportement par défaut de MSI consiste à installer le client teams dès qu’un utilisateur se connecte, puis à démarrer automatiquement Teams. Vous pouvez modifier ce comportement avec les paramètres ci-dessous comme suit :
 
 - Quand un utilisateur se connecte à Windows, teams est installé avec le MSI
 - Toutefois, le client Teams ne démarre pas tant que l’utilisateur n’a pas démarré les équipes manuellement

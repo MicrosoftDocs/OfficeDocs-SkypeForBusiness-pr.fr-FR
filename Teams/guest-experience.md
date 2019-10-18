@@ -12,16 +12,16 @@ search.appverid: MET150
 description: Découvrez la fonctionnalité Microsoft Teams disponible pour les utilisateurs invités.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434658"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563474"
 ---
 <a name="what-the-guest-experience-is-like"></a>À quoi ressemble l'expérience des invités
 =================================
@@ -32,7 +32,7 @@ Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de 
     
 Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Comme le montre la capture d’écran suivante d’une équipe, une bannière indique « cette équipe a des invités » et une étiquette « (invité) » apparaît en regard du nom de chaque invité.
     
-![Capture d’écran illustrant les notifications de bannière utilisateurs invités](media/guest-experience-image2.png "capture d’écran montrant une partie du canal marketing de Northwind Traders avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le INVITÉ Word en regard de son nom.")
+![Capture d’écran illustrant des notifications de bannière aux utilisateurs invités](media/guest-experience-image2.png "La capture d’écran montre une partie du canal marketing de Northwind Traders, avec la notification dans la bannière supérieure indiquant que l’équipe a des invités et des utilisateurs identifiés par le mot « GUEST » à côté de leur nom.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparaison entre le membre d’équipe et les fonctionnalités d’invité
 

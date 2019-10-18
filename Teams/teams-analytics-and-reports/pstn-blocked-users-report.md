@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Découvrez comment utiliser le rapport sur les utilisateurs bloqués RTC dans le centre d’administration de Microsoft teams pour obtenir une vue d’ensemble des utilisateurs de teams de votre organisation qui ne peuvent pas passer d’appels RTC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7bfff166eec388247b65760c3338cb892984f3
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131676"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564896"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Rapport sur les utilisateurs bloqués RTC de Microsoft teams
 
@@ -30,7 +29,7 @@ Le rapport sur les utilisateurs bloqués RTC dans le centre d’administration M
 
 Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **analyse &** > rapports d'**utilisation**des rapports. Dans l' **onglet Afficher les rapports** , sous **rapport**, sélectionnez **utilisateurs bloqués RTC**, puis cliquez sur **exécuter un rapport**.
 
-![Capture d’écran du rapport de rapport sur les utilisateurs bloqués RTC dans le centre d’administration] (../media/teams-reports-pstn-blocked-users-with-callouts.png "Capture d’écran du rapport sur les utilisateurs bloqués RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
+![Capture d’écran du rapport de rapport sur les utilisateurs bloqués RTC dans le centre d’administration](../media/teams-reports-pstn-blocked-users-with-callouts.png "Capture d’écran du rapport sur les utilisateurs bloqués RTC dans le centre d’administration Microsoft teams avec des légendes numérotées")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 

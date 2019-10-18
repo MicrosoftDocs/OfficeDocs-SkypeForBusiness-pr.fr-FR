@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et comment les réinitialiser dans Microsoft Teams. '
-ms.openlocfilehash: 010cad72b999dffc9083f48e5f0ffbf9674e9b11
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 778e9841d3a355597b4b048d79bb62a144eed349
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344525"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568355"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -56,7 +56,7 @@ Les réunions peuvent commencer lorsqu'un utilisateur authentifié les rejoint e
 
 ## <a name="what-else-should-you-know-about-pins"></a>Que devez-vous savoir d'autre sur les codes confidentiels ?
 
-- Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Après la réinitialisation de votre code confidentiel par un administrateur, le code confidentiel sera répertorié comme suit:
+- Pour des raisons de sécurité, le code confidentiel n'est affiché qu'une fois à l'administrateur lors de la réinitialisation du code confidentiel. Après la réinitialisation de votre code confidentiel par un administrateur, le code confidentiel sera répertorié comme suit :
     
 - L’envoi automatique de courriers électroniques à des utilisateurs est activé par défaut, et les utilisateurs reçoivent un message électronique contenant leur code confidentiel lorsqu’ils sont activés pour les conférences audio ou lorsque le code confidentiel est réinitialisé. Mais si vous avez désactivé l’envoi automatique de courriers électroniques, un message de réinitialisation du code confidentiel n’est pas envoyé à l’utilisateur et vous devrez lui envoyer manuellement les informations sur le code confidentiel.
     
@@ -84,4 +84,4 @@ Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Micros
   
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)
+[Réinitialiser l’ID de conférence d’un utilisateur](reset-a-conference-id-for-a-user-in-teams.md)

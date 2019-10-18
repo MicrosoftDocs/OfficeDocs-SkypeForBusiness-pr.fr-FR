@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131511"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571592"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
 > Les téléphones ordinaires ne prennent pas en charge la messagerie vocale.
 
-En règle générale, un téléphone commun est placé dans une zone telle que la salle d’attente ou une autre zone qui est disponible pour de nombreux utilisateurs pour passer un appel; par exemple, une zone de réception, une salle d’attente ou un téléphone de conférence. Les téléphones communs sont configurés en tant que périphériques plutôt qu’en tant qu’utilisateurs et peuvent se connecter automatiquement à un réseau.
+En règle générale, un téléphone commun est placé dans une zone telle que la salle d’attente ou une autre zone qui est disponible pour de nombreux utilisateurs pour passer un appel ; par exemple, une zone de réception, une salle d’attente ou un téléphone de conférence. Les téléphones communs sont configurés en tant que périphériques plutôt qu’en tant qu’utilisateurs et peuvent se connecter automatiquement à un réseau.
 
 Dans la procédure ci-dessous, nous allons vous aider à configurer un compte pour le système téléphonique afin de déployer des téléphones de zone commune pour votre organisation. Pour une interface de salle de réunion plus complète, y compris l’audioconférence, envisagez d’acheter une licence de salle de réunion dédiée avec un appareil de salle de réunion. 
 
@@ -55,23 +53,23 @@ Pour commencer, il vous suffit d’acheter une licence d’appel d’en-tête et
 
 Pour plus d’informations sur les licences, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-La licence de téléphone commune prend en charge les éléments suivants: 
+La licence de téléphone commune prend en charge les éléments suivants : 
 
 
 |   |  Téléphone de zone commune  |
 |---------|---------|
-|Skype Entreprise |   &#x2714; |
+|Skype Entreprise |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
 |Systèmes téléphoniques |    &#x2714; |
-|Audioconférence, |       &#x2718; &sup1;  |
-|Microsoft Intune |        &#x2718; &sup2; |
+|Audioconférence, |       &#x2718; &sup1 ;  |
+|Microsoft Intune |        &#x2718; &sup2 ; |
 |Disponibilité dans le monde entier |    &#x2714; |
 |Disponibilité du canal |    AE, EAS, CSP, GCC, EES, Web direct  |
 |      |         |
 
-&sup1; Les téléphones ordinaires peuvent participer à des conférences audio par le biais d’un numéro de connexion fourni par l’organisateur de la réunion.
+&sup1 ; Les téléphones ordinaires peuvent participer à des conférences audio par le biais d’un numéro de connexion fourni par l’organisateur de la réunion.
 
-&sup2; Non disponible dans les nuages souverains  
+&sup2 ; Non disponible dans les nuages souverains  
 
 
 
@@ -79,11 +77,11 @@ La licence de téléphone commune prend en charge les éléments suivants:
 
 1. Dans le centre d’administration 365 de Microsoft, accédez à **utilisateurs** > **actifs utilisateurs** > **Ajouter un utilisateur**.
 
-2. Entrez un nom d’utilisateur tel que «main» pour le prénom et «réception» pour le second nom.
+2. Entrez un nom d’utilisateur tel que « main » pour le prénom et « réception » pour le second nom.
 
-3. Entrez un nom d’affichage s’il n’en génère pas une de la façon suivante: «réception principale».
+3. Entrez un nom d’affichage s’il n’en génère pas une de la façon suivante : « réception principale ».
 
-4. Entrez un nom d’utilisateur (par exemple, «MainReception» ou «Mainlobby»).
+4. Entrez un nom d’utilisateur (par exemple, « MainReception » ou « Mainlobby »).
 
 5. Pour les téléphones portables courants, il est possible que vous deviez définir un mot de passe manuellement ou utiliser le même mot de passe pour tous les téléphones de votre zone commune. Par ailleurs, vous pouvez penser à décocher la case **faire en sorte que l’utilisateur modifie son mot de passe lors de la première connexion** .
 
@@ -97,13 +95,13 @@ Pour plus d’informations, reportez-vous à [Ajouter un utilisateur](https://do
 
 Utilisez le centre d’administration Skype entreprise pour attribuer un numéro à l’utilisateur.
 
-1. Dans le centre d’administration Microsoft 365, **Sélectionnez centres** > d’administration**teams &** > **portail hérité**de Skype.
+1. Dans le centre d’administration Microsoft 365, sélectionnez **centres** > d’administration**teams &** > **portail hérité**de Skype.
 
 2. Dans le centre d’administration de Skype entreprise, sélectionnez**numéros de téléphone** **vocaux** > .
 
 3.  Sélectionnez un numéro dans la liste des numéros de téléphone et cliquez sur **Attribuer**.
 
-4. Dans la **** page assigner, dans la zone utilisateur vocal, tapez le nom de l’utilisateur qui utilisera le téléphone, puis sélectionnez l’utilisateur dans la liste déroulante **Sélectionner un utilisateur vocal** .
+4. Dans la page **assigner** , dans la zone utilisateur vocal, tapez le nom de l’utilisateur qui utilisera le téléphone, puis sélectionnez l’utilisateur dans la liste déroulante **Sélectionner un utilisateur vocal** .
 
 5. Pendant que vous êtes là, vous devrez ajouter une adresse d’urgence. Sélectionnez **Rechercher par ville**, **Rechercher par Description**ou **Rechercher par emplacement** dans la liste déroulante, puis entrez la ville, la description ou l’emplacement dans la zone de texte. Lorsque vous effectuez une recherche, recherchez sous **Sélectionner une adresse de secours** pour choisir celle qui vous convient.
 
@@ -116,6 +114,6 @@ Utilisez le centre d’administration Skype entreprise pour attribuer un numéro
 
 Pour plus d’informations, reportez-vous à [la rubrique réception des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Vous pouvez également utiliser votre numéro de téléphone avec un autre opérateur et le transférer vers Office 365. Pour plus d’inverser, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Vous pouvez également utiliser votre numéro de téléphone avec un autre opérateur et le transférer vers Office 365. [Pour plus d’inverser, voir transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
 
 

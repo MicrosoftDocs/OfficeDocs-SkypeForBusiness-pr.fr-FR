@@ -1,5 +1,5 @@
 ---
-title: Afficher les analyses interéquipe et par équipe dans teams
+title: Afficher les analyses interéquipes et par équipe dans Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,19 +10,18 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Apprenez-en davantage sur l’analyse interéquipe et l’analyse par équipe dans Teams, ce qui permet aux utilisateurs de voir les données d’utilisation des équipes dont ils sont membres.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978770"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569702"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Afficher les analyses interéquipe et par équipe dans teams
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Afficher les analyses interéquipes et par équipe dans Teams
 
 Dans Microsoft Teams, les utilisateurs peuvent afficher les données d’analyse d’équipes dont ils sont membres ou propriétaires. Ces informations fournissent aux utilisateurs des informations détaillées sur les modèles d’utilisation et l’activité dans leurs équipes. Ils peuvent afficher des données, comme le nombre d’utilisateurs actifs, d’invités et de messages dans chaque équipe.
 

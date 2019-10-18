@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et par ville, et spécifier la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: 59f97e3e2aa7a1c68d4727a06ac0e4f897f9e6b3
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: b3e7c93fd2759beed7588bda49d0326f018a4ab8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348836"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573436"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
@@ -50,7 +50,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 
 3. Dans la page **Sélectionner un emplacement et une quantité** , sélectionnez un emplacement dans la liste déroulante **pays ou région** .
 
-4. Sélectionnez un type de nombre dans la liste déroulante **type** de numérotation.
+4. Sélectionnez un type de nombre dans la liste déroulante **type de numérotation** .
 
 5. Dans la zone **emplacement** , tapez le nom de la ville où se trouve l’utilisateur, puis sélectionnez l’emplacement dans la liste. Cliquez sur **Ajouter un emplacement** si l’emplacement souhaité n’apparaît pas dans la liste.
 

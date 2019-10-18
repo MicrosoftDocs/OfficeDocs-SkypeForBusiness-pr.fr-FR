@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ce20d72ff7d4d797c8e0689472cd483c5f06036b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588190"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571490"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Essayer ou acheter les audioconférences dans Office 365 pour Skype pour Microsoft Teams.
 
@@ -37,7 +36,7 @@ Il vous suffit de configurer l’audioconférence pour les personnes qui envisag
 
 Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1: acheter et affecter des licences de conférence audio
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1 : acheter et affecter des licences de conférence audio
 
 Pour effectuer ces étapes, vous devez être administrateur [général ou administrateur de facturation](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
 
@@ -47,7 +46,7 @@ Pour effectuer ces étapes, vous devez être administrateur [général ou admini
     
 2. Obtenir vos licences d’**Audioconférence**. Si vous souhaitez :
 
-   - **Testez-le** avant de procéder à l’achat: vous pouvez vous inscrire à une version d’évaluation gratuite d’Office 365 entreprise E5 incluant des conférences audio. Voir l’[Essai d’Office 365 Entreprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Testez-le** avant de procéder à l’achat : vous pouvez vous inscrire à une version d’évaluation gratuite d’Office 365 entreprise E5 incluant des conférences audio. Voir l’[Essai d’Office 365 Entreprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
    - **Acheter**: consultez la rubrique [licences de compléments Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -63,7 +62,7 @@ Si vous êtes un client Volume et Gestion des licences, vous pouvez obtenir des 
     
 2. Obtenir vos licences d’**Audioconférence**. Afin d’acquérir des licences de facturation à la minute, veuillez contactez votre responsable de compte.
     
-3. Configurez des [crédits de communication pour votre](set-up-communications-credits-for-your-organization.md) Organisation pour votre organisation. Pour configurer les crédits de communication, consulter [Que sont les crédits de communication ?](what-are-communications-credits.md)
+3. [Configurez des crédits de communication pour votre](set-up-communications-credits-for-your-organization.md) Organisation pour votre organisation. Pour configurer les crédits de communication, consulter [Que sont les crédits de communication ?](what-are-communications-credits.md)
     
     > [!IMPORTANT]
     > Si les crédits de communication n’ont pas été configurés, l’audioconférence ne fonctionnera pour aucun des utilisateurs avec des licences de facturation à la minute.
@@ -83,7 +82,7 @@ Si des utilisateurs sont activés avec un fournisseur de services d’audioconf�
 
 Les étapes suivantes sont **facultatives**, mais un grand nombre d’administrateurs préfèrent les effectuer :
 
-1. [Personnaliser](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations)les invitations aux réunions. Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
+1. [Personnaliser les invitations aux réunions](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
 
 2. [Définissez les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites-in-teams.md). Il s’agit du numéro de téléphone qui s’affichera dans la réunion planifiée par un utilisateur.
 

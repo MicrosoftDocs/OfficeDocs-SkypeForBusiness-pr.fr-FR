@@ -12,21 +12,20 @@ search.appverid: MET150
 description: Découvrez l'interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams, comme le stockage de fichiers de conversation privée, et la relation entre l'équipe, le canal et la bibliothèque de documents.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28a4a968fc9e478c3a13fb38acd1019221b5dcb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232277"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567119"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 
 > [!Tip]
-> Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (AAD), les groupes Office 365, Exchange, SharePoint et OneDrive entreprise: [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
+> Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (AAD), les groupes Office 365, Exchange, SharePoint et OneDrive entreprise : [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
 
 Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online, et chaque canal d'une équipe reçoit un dossier dans la bibliothèque de documents par défaut du site de l'équipe. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité de fichier définies dans SharePoint sont automatiquement appliquées à Teams.
 
@@ -49,7 +48,7 @@ Pour chaque équipe, un site SharePoint et le dossier par défaut **Documents pa
 > Vous ne pouvez pas remplacer le site SharePoint par défaut ni la bibliothèque de documents par une autre pour le moment. Vous nous avez signalé que vous le souhaitiez, et nous y réfléchissons. Consultez la [Feuille de route de Teams](https://aka.ms/teamsroadmap) ou [Teams UserVoice](https://aka.ms/TeamsUserVoice) pour rester informé des fonctionnalités à venir.
 
 > [!TIP]
-> Pour ajouter un onglet à votre équipe qui est lié à une page de site SharePoint existante ou à votre bibliothèque de documents SharePoint existante:
+> Pour ajouter un onglet à votre équipe qui est lié à une page de site SharePoint existante ou à votre bibliothèque de documents SharePoint existante :
 > 1. Sélectionnez le signe plus à côté des onglets.
 > 2. Sélectionnez **SharePoint** pour une page de site SharePoint ou une **bibliothèque de documents** existante pour une bibliothèque de documents existante.
 > 3. Sélectionnez la page ou la bibliothèque de documents appropriée.
@@ -62,11 +61,11 @@ Pour chaque utilisateur, le dossier OneDrive **Fichiers de conversation Microsof
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
 
-L’onglet **fichiers** de teams ressemble étroitement à la vue documents SharePoint. Dans l’onglet **fichiers** , les utilisateurs peuvent:
+L’onglet **fichiers** de teams ressemble étroitement à la vue documents SharePoint. Dans l’onglet **fichiers** , les utilisateurs peuvent :
 
 - Voir d’autres options dans le menu **nouveau** fichier.
 - Synchroniser des fichiers sur leur disque local.
-- Dans le menu **tous les documents** , passez du mode **** **liste** au mode **vignettes** .
+- Dans le **menu tous les documents** , passez du mode liste **au mode** **vignettes** . ****
 - Identifiez les fichiers qui nécessitent d’être attentifs ou qui ont des logiciels malveillants.
 - Déterminez immédiatement s’il s’agit d’un fichier en lecture seule ou extrait.
 - Extraire et archiver des fichiers.
@@ -82,7 +81,7 @@ SharePoint et OneDrive disposent d’un paramètre d’administrateur pour spéc
 
 ## <a name="more-information"></a>Plus d’informations
 
-Pour plus d’informations sur le fonctionnement de SharePoint avec Teams, reportez-vous à la rubrique [SharePoint et équipes: meilleure combinaison](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+Pour plus d’informations sur le fonctionnement de SharePoint avec Teams, reportez-vous à la rubrique [SharePoint et équipes : meilleure combinaison](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
 Pour en savoir plus sur l’interface utilisateur pour les invités dans Microsoft Teams, prenez connaissance de [l’interface utilisateur](guest-experience.md).
 

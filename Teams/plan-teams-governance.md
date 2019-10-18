@@ -12,23 +12,22 @@ description: Apprenez-en davantage sur la planification de l’implémentation d
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237694"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573250"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
 Teams propose un ensemble complet d’outils permettant d’implémenter les fonctionnalités de gouvernance dont votre organisation peut avoir besoin. Cet article indique aux professionnels de l’informatique les personnes qui ont besoin des questions qui vous permettent de déterminer les besoins en matière de gouvernance et comment les respecter. 
 
 > [!Tip] 
-> Regardez la session suivante pour en savoir plus sur la gouvernance dans Microsoft teams: [gouvernance, gestion et cycle de vie dans Microsoft teams](https://aka.ms/teams-governance)
+> Regardez la session suivante pour en savoir plus sur la gouvernance dans Microsoft teams : [gouvernance, gestion et cycle de vie dans Microsoft teams](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Création de groupes et d’équipes, attribution de noms, classification et accès invité
 
@@ -38,7 +37,7 @@ Votre organisation peut nécessiter l’implémentation de contrôles stricts su
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Points de décision|<ul><li>Votre organisation nécessite-t-elle une convention d’affectation des noms spécifique pour teams?</li><li>Les créateurs d’équipe doivent-ils pouvoir attribuer des classifications spécifiques à l’organisation à teams?</li><li>Avez-vous besoin de limiter la possibilité d’ajouter des invités à des équipes par équipe?</li><li>Votre organisation nécessite-t-elle de limiter les utilisateurs pouvant créer des équipes?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |Points de décision|<ul><li>Votre organisation nécessite-t-elle une convention d’affectation des noms spécifique pour teams ?</li><li>Les créateurs d’équipe doivent-ils pouvoir attribuer des classifications spécifiques à l’organisation à teams ?</li><li>Avez-vous besoin de limiter la possibilité d’ajouter des invités à des équipes par équipe ?</li><li>Votre organisation nécessite-t-elle de limiter les utilisateurs pouvant créer des équipes ?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Étapes suivantes|<ul><li>Documentez les exigences de votre organisation concernant la création d’équipe, l’attribution de noms, la classification et l’accès invité.</li><li>Prévoyez de mettre en œuvre ces exigences dans le cadre de votre déploiement d’équipes.</li><li>Communiquez et publiez vos stratégies afin d’informer les utilisateurs des équipes du comportement qu’ils peuvent attendre.</li></ul>|
 
 > [!TIP]
@@ -61,7 +60,7 @@ Votre organisation peut nécessiter l’implémentation de contrôles stricts su
 
 #### <a name="additional-information"></a>Informations supplémentaires
 
-Après avoir déterminé vos exigences, vous pouvez les implémenter à l’aide des contrôles Azure AD. Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir:
+Après avoir déterminé vos exigences, vous pouvez les implémenter à l’aide des contrôles Azure AD. Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir :
 
 - [Applets de contrôle Azure Active Directory pour la configuration des paramètres de groupe](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
@@ -76,8 +75,8 @@ Votre organisation a peut-être besoin d’exigences supplémentaires pour défi
 
 |           |            |
 |-----------|------------|
-| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Votre organisation nécessite-t-elle la spécification d’une date d’expiration pour teams?</li><li>Votre organisation nécessite-t-elle des stratégies spécifiques de rétention des données?</li><li>Votre organisation peut-elle être amenée à pouvoir archiver des équipes inactives pour conserver le contenu en lecture seule?</li></ul>|
-| ![Icône illustrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les exigences de votre organisation en matière d’expiration d’équipe, de conservation des données et d’archivage.</li><li>Prévoyez de mettre en œuvre ces exigences dans le cadre de votre déploiement d’équipes.</li><li>Communiquez et publiez vos stratégies afin d’informer les utilisateurs des équipes du comportement qu’ils peuvent attendre.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Votre organisation nécessite-t-elle la spécification d’une date d’expiration pour teams ?</li><li>Votre organisation nécessite-t-elle des stratégies spécifiques de rétention des données ?</li><li>Votre organisation peut-elle être amenée à pouvoir archiver des équipes inactives pour conserver le contenu en lecture seule ?</li></ul>|
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les exigences de votre organisation en matière d’expiration d’équipe, de conservation des données et d’archivage.</li><li>Prévoyez de mettre en œuvre ces exigences dans le cadre de votre déploiement d’équipes.</li><li>Communiquez et publiez vos stratégies afin d’informer les utilisateurs des équipes du comportement qu’ils peuvent attendre.</li></ul>|
 
 > [!TIP]
 > Le tableau suivant vous permet de capturer les exigences de votre organisation.
@@ -93,11 +92,11 @@ Votre organisation a peut-être besoin d’exigences supplémentaires pour défi
 
 #### <a name="additional-information"></a>Informations supplémentaires
 
-Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir:
+Pour obtenir des conseils techniques sur la mise en œuvre de ces paramètres, voir :
 
 - [Configurer l’expiration des groupes Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
-- [Configurez les stratégies](retention-policies.md)de rétention Teams.
+- [Configurez les stratégies de rétention teams](retention-policies.md).
 
 - [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
@@ -109,14 +108,14 @@ Un autre aspect important de la gouvernance et de la gestion de la durée de vie
 
 |         |         |
 |---------|---------|
-| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Votre organisation nécessite-t-elle des limitations d’équipes pour l’ensemble de votre client?</li><li>Votre organisation nécessite-t-elle des fonctionnalités de limitation d’équipes pour des utilisateurs spécifiques?</li></ul>|
-| ![Icône illustrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les exigences de votre organisation concernant la limitation des fonctionnalités d’équipes au niveau du client et de l’utilisateur.</li><li>Prévoyez de mettre en œuvre vos exigences spécifiques dans le cadre de votre déploiement d’équipes.</li><li>Communiquez et publiez vos stratégies afin d’informer les utilisateurs des équipes du comportement qu’ils peuvent attendre.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Votre organisation nécessite-t-elle des limitations d’équipes pour l’ensemble de votre client ?</li><li>Votre organisation nécessite-t-elle des fonctionnalités de limitation d’équipes pour des utilisateurs spécifiques ?</li></ul>|
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les exigences de votre organisation concernant la limitation des fonctionnalités d’équipes au niveau du client et de l’utilisateur.</li><li>Prévoyez de mettre en œuvre vos exigences spécifiques dans le cadre de votre déploiement d’équipes.</li><li>Communiquez et publiez vos stratégies afin d’informer les utilisateurs des équipes du comportement qu’ils peuvent attendre.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Zones principales de la gestion des fonctionnalités de Microsoft teams
 
 Teams fournit des fonctionnalités granulaires pour contrôler les fonctionnalités d’événement, de réunion, d’appel et de messagerie instantanée, etc., à l’aide de stratégies. Des stratégies différentes peuvent être appliquées à tous les utilisateurs par défaut ou par utilisateur selon les besoins de votre organisation. 
 
-Pour obtenir la liste détaillée de tous les paramètres, y compris des recommandations techniques sur la manière de les implémenter dans votre organisation, consultez les articles suivants:
+Pour obtenir la liste détaillée de tous les paramètres, y compris des recommandations techniques sur la manière de les implémenter dans votre organisation, consultez les articles suivants :
 
 - [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
 - [Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)

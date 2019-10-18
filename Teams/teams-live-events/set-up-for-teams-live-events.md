@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Découvrez les étapes nécessaires à la configuration des événements en direct dans Teams, y compris la préparation de votre réseau, l’attribution de licences, l’utilisation de stratégies pour activer les fonctionnalités d’événement en direct et la planification pour les utilisateurs et la configuration d’un fournisseur de distribution tiers.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047070"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570156"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -53,7 +52,7 @@ Les stratégies d’événements dynamiques permettent de contrôler les utilisa
 
     Voici les paramètres que vous pouvez modifier pour répondre aux besoins de votre organisation.
 
-    Capture ![d’écran de l’écran des paramètres de stratégie d’événements en temps réel](../media/teams-live-events-policies.png "des paramètres de stratégie d’événements en direct dans le centre d’administration Microsoft teams") 
+    ![Capture d’écran des paramètres de stratégie d’événements en temps réel](../media/teams-live-events-policies.png "Capture d’écran des paramètres de stratégie d’événements en temps réel dans le centre d’administration Microsoft teams") 
 
 |Paramètre  |Description  |
 |---------|---------|

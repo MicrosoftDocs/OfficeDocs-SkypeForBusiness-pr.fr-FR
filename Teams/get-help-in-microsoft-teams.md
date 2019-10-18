@@ -9,19 +9,18 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: Découvrez toutes les méthodes pour obtenir de l’aide dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245902"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565288"
 ---
 <a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
 ============================================
@@ -36,8 +35,8 @@ Teams fournit une prise en charge linguistique localisée pour le contenu d’ai
 
  - **Vidéos** : notre contenu vidéo à la demande permet aux utilisateurs d’effectuer des tâches spécifiques en toute rapidité. Comme nous offrons en continu de nouvelles vidéos, consultez-les fréquemment. Un accès Internet est nécessaire, bien évidemment. 
 
- - **** Nouveautés - 
-   Notes de publication périodiques pour les utilisateurs et les propriétaires d’équipe concernant les fonctionnalités des équipes nouvelles ou mises à jour.
+ - **Nouvelles** - 
+   notes de publication périodiques pour les utilisateurs et les propriétaires d’équipe à propos des nouvelles fonctionnalités ou mises à jour des équipes.
 
  - **Partager une idée** : nous souhaitons toujours vous entendre sur la manière d’améliorer Teams. Cette option vous permet d’accéder à notre forum de commentaires sur les produits, où vous pouvez envoyer de nouvelles demandes de fonctionnalité ou voter sur des demandes existantes. Nous recherchons constamment ces informations à mesure que nous prévoyons de nouvelles fonctionnalités. 
 

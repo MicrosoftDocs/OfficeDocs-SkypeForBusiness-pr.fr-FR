@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 2e96ffbe159a89648e0ff219d8e0ba085664fc01
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 23db850cef33072d010fe87ed0081c1ce30aeb2f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330259"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565277"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>Restrictions de numérotation gratuit au Kenya
 
@@ -37,14 +36,14 @@ ms.locfileid: "34330259"
 
 |**Détails**|**Description**|
 |:-----|:-----|
-|Est-ce que l’appel gratuit est disponible?  <br/> |Oui  <br/> |
+|Est-ce que l’appel gratuit est disponible ?  <br/> |Oui  <br/> |
 |Format (s) de numérotation  <br/> | 0 800 7XX XXX <br/> |
 |Code ISO pays/région  <br/> |KE  <br/> |
 |Île/territoire couvert  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité de ligne filaire/fixe  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
-|Commentaires, restrictions et problèmes d’accès  <br/> |Accès réseau fixe: Safaricom et Airtel. Accès au réseau mobile: Safaricom, Airtel et orange.  <br/> |
+|Commentaires, restrictions et problèmes d’accès  <br/> |Accès réseau fixe : Safaricom et Airtel. Accès au réseau mobile : Safaricom, Airtel et orange.  <br/> |
    
 ## <a name="related-topics"></a>Voir aussi
 
