@@ -1,22 +1,22 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Skype Entreprise
+title: Skype Entreprise
 ms.reviewer: ''
 ms.author: kenwith
 manager: serdars
 author: kenwith
 description: Skype Entreprise
 ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "35418375"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype Entreprise</h1>
+        <h1>Skype Entreprise</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
