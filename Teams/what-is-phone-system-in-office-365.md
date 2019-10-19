@@ -20,10 +20,10 @@ ms.custom:
 - Phone System
 description: 'En savoir plus sur ce que votre système téléphonique peut faire pour vous. '
 ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37568530"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
@@ -70,7 +70,7 @@ Les offres d’appels (nationales et internationales) sont disponibles dans des 
 
 Si vous êtes prêt à commencer, reportez-vous à [configuration du système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

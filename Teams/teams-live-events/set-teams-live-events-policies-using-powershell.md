@@ -16,10 +16,10 @@ description: Exemples d’utilisation de PowerShell pour définir des stratégie
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37570167"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Utiliser PowerShell pour définir les stratégies d’événements en direct dans Microsoft Teams
@@ -138,7 +138,7 @@ Définissez la stratégie globale pour activer les légendes dynamiques et les s
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)
 
 

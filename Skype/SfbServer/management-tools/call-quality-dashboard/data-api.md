@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Résumé: en savoir plus sur l’API prorata de tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: f74f581a3d46ba7cf75daf92df5ade16dab510d0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 016cc1be9f5cd5506f8ee7d8ddbe2765e0015ffd
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274799"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36571918"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de données pour le tableau de bord de qualité des appels (bord) dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le prorata d’API du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** En savoir plus sur l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’API de données fournit un accès par programmation pour le tableau de bord de qualité des appels pour Skype entreprise Server.
   
@@ -42,7 +42,7 @@ Les opérations REST sont comprises dans le tableau suivant.
    
  **Prise en charge du partage de ressources intersession pour l’API de données**
   
-API de données prend en charge le partage de ressources à l’origine. CORS est une fonctionnalité HTTP qui permet à une application Web exécutée sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs Web mettent en œuvre une restriction [](https://www.w3.org/Security/wiki/Same_Origin_Policy) de sécurité connue sous le nom de stratégie de même origine qui empêche une page Web d’appeler des API dans un domaine différent. CORS fournit un moyen sécurisé pour permettre à un domaine (domaine d’origine) d’appeler des API dans un autre domaine. Pour plus d’informations sur l’affichage de l’une des [caractéristiques](https://www.w3.org/TR/cors/) de cors.
+API de données prend en charge le partage de ressources à l’origine. CORS est une fonctionnalité HTTP qui permet à une application Web exécutée sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs Web mettent en œuvre une restriction de sécurité connue sous le nom de stratégie de [même origine qui](https://www.w3.org/Security/wiki/Same_Origin_Policy) empêche une page Web d’appeler des API dans un domaine différent. CORS fournit un moyen sécurisé pour permettre à un domaine (domaine d’origine) d’appeler des API dans un autre domaine. Pour plus d’informations sur l’affichage de l’une des [caractéristiques](https://www.w3.org/TR/cors/) de cors.
   
  **Activation de l’API CORS pour les données**
   

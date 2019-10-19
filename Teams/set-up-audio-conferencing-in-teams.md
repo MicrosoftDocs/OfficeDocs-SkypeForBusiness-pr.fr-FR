@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
 ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571259"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft teams

@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37396420"
 ---
-![Diagramme de parcours de mise à niveau, mettant en évidence](media/upgrade-banner-deployment.png "les phases de déploiement et d’implémentation du parcours de la mise à niveau, en mettant l’accent sur l’étape de déploiement et d’implémentation")
+![Diagramme de parcours de mise à niveau, mise en évidence du déploiement et de l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")
 
 Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau. Avant de continuer, confirmez que vous avez terminé les activités suivantes :
 

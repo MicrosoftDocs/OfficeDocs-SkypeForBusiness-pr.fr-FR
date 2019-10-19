@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Résumé : Découvrez comment configurer votre infrastructure 2015 de Skype entreprise Server pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790891"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824547"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gestion de Skype Entreprise Server 2015 à l’aide d’un pack d’administration SCOM
  
@@ -85,7 +85,7 @@ Le pack d’analyse de Skype entreprise Server 2015 inclut les fichiers suivants
 
 Les fonctionnalités suivantes sont nouvelles dans les packs d’administration 2015 de Skype entreprise Server.
 
-- **Modifications de la [mise à jour 2019 de juin](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Certaines alertes comportent des caractères spéciaux supprimés. Dans certains cas, des caractères spéciaux interfèrent à la fonctionnalité de notification de canal de commandes SCOM.
+- **Modification de la [mise à jour 2019 de septembre](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Certaines alertes comportent des caractères spéciaux supprimés. Dans certains cas, des caractères spéciaux interfèrent à la fonctionnalité de notification de canal de commandes SCOM.
 
 - **Découverte automatique pour la connexion au client** Les applications clientes qui se connectent à Skype entreprise Server 2015 découvrent souvent automatiquement le serveur pour s’y connecter. Les transactions synthétiques prennent maintenant en charge la vérification de la configuration appropriée de la découverte automatique.
     
@@ -127,7 +127,7 @@ Les packs d’administration de Skype entreprise Server 2015 garantissent une me
 |Transactions synthétiques prises en charge pour l’inscription, la présence et les contacts|||
 |:-----|:-----|:-----|
 |1  <br/> |Inscription (connexion de l’utilisateur)  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
-|2  <br/> |Service de carnet d’adresses (téléchargement de fichier)  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
+|deuxième  <br/> |Service de carnet d’adresses (téléchargement de fichier)  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |3  <br/> |Recherche web du carnet d’adresses  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |4  <br/> |Présence  <br/> |Disponible Lync Server 2010 et les versions ultérieures  <br/> |
 |5  <br/> |Magasin de contacts unifié  <br/> |Disponible Lync Server 2013 et les versions ultérieures  <br/> |

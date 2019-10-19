@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
 ms.openlocfilehash: 385aabbf0a3c17abd9a9a22dfdb810720ca76660
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37434854"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019

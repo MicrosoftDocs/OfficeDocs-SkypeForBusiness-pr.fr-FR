@@ -21,10 +21,10 @@ f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
 ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37517042"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconférence dans Office 365
@@ -93,7 +93,7 @@ Les numéros de téléphone de l’audioconférence dédiée sont des numéros d
 ## <a name="how-do-you-set-it-up"></a>Comment procéder ?
 Après avoir décidé de configurer l’audioconférence pour vos utilisateurs, reportez-vous à la rubrique [configurer l’audioconférence pour Microsoft teams](set-up-audio-conferencing-in-teams.md) ou [configurer l’audioconférence pour Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) pour connaître les étapes à suivre.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

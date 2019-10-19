@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
-description: 'Résumé: en savoir plus sur la configuration système requise pour Edge Server dans Skype entreprise Server.'
+description: 'Résumé : en savoir plus sur la configuration système requise pour Edge Server dans Skype entreprise Server.'
 ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "34277145"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Configuration requise pour le serveur Edge dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur la configuration système requise pour serveur Edge dans Skype entreprise Server.
+**Résumé :** En savoir plus sur la configuration système requise pour serveur Edge dans Skype entreprise Server.
   
 Dans le cadre de votre déploiement de serveur Edge Skype entreprise Server, voici ce que vous devez faire pour le ou les serveurs qui se trouvent dans l’environnement proprement dit, ainsi que pour planifier la structure de l’environnement. Pour plus d’informations sur la topologie, DNS, les certificats et les aspects de l’infrastructure, consultez la documentation se rapportant aux exigences en matière d’environnement.
   
@@ -41,14 +41,14 @@ Tout en gardant ceci à l’esprit, voici les composants qui vous permettront de
     
 - [Directors](system-requirements.md#Directors) (composants facultatifs qui, s’ils sont inclus, se trouvent sur votre réseau interne) ;
     
-- [Équilibreurs de charge](system-requirements.md#LoadBalancers) (vous pouvez avoir l’équilibrage de charge DNS ou un équilibreur de charge matérielle (HLB), mais pour un serveur Edge unique, cela n’est pas nécessaire.
+- [Équilibreurs de charge](system-requirements.md#LoadBalancers) (vous pouvez disposer de l’équilibrage de charge DNS ou d’un équilibreur de charge matérielle (HLB), mais pour un serveur Edge unique, cela n’est pas nécessaire.
     
 Ces composants sont décrits plus en détails ci-après :
   
 ### <a name="edge-servers"></a>Serveurs Edge
 <a name="EdgeServers"> </a>
 
-Il s’agit des serveurs Skype entreprise déployés dans votre environnement de périmètre. Son rôle est d’envoyer et de recevoir du trafic réseau à des utilisateurs externes pour les services offerts par votre déploiement interne de Skype entreprise Server. Pour effectuer cette opération, chaque serveur Edge s’exécute comme suit:
+Il s’agit des serveurs Skype entreprise déployés dans votre environnement de périmètre. Son rôle est d’envoyer et de recevoir du trafic réseau à des utilisateurs externes pour les services offerts par votre déploiement interne de Skype entreprise Server. Pour effectuer cette opération, chaque serveur Edge s’exécute comme suit :
   
 - **Service Edge d’accès**: fournit un point de connexion unique et approuvé pour le trafic SIP (Session Initiation Protocol) entrant et sortant.
     
@@ -69,7 +69,7 @@ Les utilisateurs externes autorisés peuvent utiliser votre serveur Edge pour vo
 ### <a name="reverse-proxies"></a>Proxys inverses
 <a name="ReverseProxies"> </a>
 
-Un serveur proxy inverse (RP) ne possède pas de rôle Skype entreprise Server, mais est un composant essentiel d’un déploiement de serveur Edge. Un proxy inverse permet aux utilisateurs externes d’effectuer les opérations suivantes:
+Un serveur proxy inverse (RP) ne possède pas de rôle Skype entreprise Server, mais est un composant essentiel d’un déploiement de serveur Edge. Un proxy inverse permet aux utilisateurs externes d’effectuer les opérations suivantes :
   
 - de participer à des réunions ou à des conférences à distance via des URL simples ;
     
@@ -89,7 +89,7 @@ Et pour les appareils mobiles :
     
 - Il permet d’activer les notifications de transmission d’Office 365 sur les appareils mobiles.
     
-[Pour](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) plus d’informations, consultez nos recommandations en matière de proxy inverse. Par conséquent, votre proxy inverse:
+[Pour](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) plus d’informations, consultez nos recommandations en matière de proxy inverse. Par conséquent, votre proxy inverse :
   
 - utiliser la sécurité TLS (Transport Layer Security) mise en œuvre dans votre environnement via les certificats publics pour se connecter aux services web externes publiés du :
     
@@ -101,7 +101,7 @@ Et pour les appareils mobiles :
     
 - publier un site web hébergé en interne à l’aide d’un nom de domaine complet ;
     
-- publier tout le contenu du site web hébergé. Par défaut, vous pouvez utiliser la ** / **directive *, qui est reconnue par la plupart des serveurs Web, «publier tout le contenu sur le serveur Web». Vous pouvez également modifier la directive (par exemple, * */Uwca/\\* * *), ce qui signifie «publier tout le contenu sous le répertoire virtuel Ucwa».
+- publier tout le contenu du site web hébergé. Par défaut, vous pouvez utiliser la ** / **directive *, qui est reconnue par la plupart des serveurs Web, « publier tout le contenu sur le serveur Web ». Vous pouvez également modifier la directive (par exemple, * */Uwca/\\* * *), ce qui signifie « publier tout le contenu sous le répertoire virtuel Ucwa ».
     
 - exiger des connexions TLS avec les clients qui demandent du contenu à partir de votre site web publié ;
     
@@ -136,7 +136,7 @@ Pourquoi est-ce important ? Dans le cadre d’un réalisateur, il est important
 ### <a name="load-balancers"></a>Équilibreurs de charge matérielle
 <a name="LoadBalancers"> </a>
 
-La topologie de périphérie consolidée de Skype entreprise Server est optimisée pour l’équilibrage de charge DNS pour les nouveaux déploiements et nous vous recommandons de procéder comme suit. Si vous avez besoin d’une haute disponibilité, nous vous recommandons d’utiliser un équilibrage de charge matérielle pour une situation spécifique:
+La topologie de périphérie consolidée de Skype entreprise Server est optimisée pour l’équilibrage de charge DNS pour les nouveaux déploiements et nous vous recommandons de procéder comme suit. Si vous avez besoin d’une haute disponibilité, nous vous recommandons d’utiliser un équilibrage de charge matérielle pour une situation spécifique :
   
 - Exchange UM pour les utilisateurs distants utilisant la messagerie unifiée Exchange **avant** Exchange 2013.
     
@@ -148,7 +148,7 @@ La topologie de périphérie consolidée de Skype entreprise Server est optimis�
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>Configuration requise pour le service d’équilibrage de la charge matérielle pour les serveurs Edge serveur Edge exécutant le service Edge A/V
 
-Pour tout serveur Edge exécutant le service Edge A/V, vous devez disposer des éléments suivants:
+Pour tout serveur Edge exécutant le service Edge A/V, vous devez disposer des éléments suivants :
   
 - Désactivez le nagling TCP pour les ports 443 interne et externe. Le nagling est le processus qui consiste à combiner plusieurs petits paquets en un seul paquet plus volumineux afin de rendre la transmission plus efficace.
     
@@ -191,13 +191,13 @@ Si vous déployez des appareils mobiles, votre équilibreur de charge matériell
 > [!IMPORTANT]
 > Les programmes d’équilibrage de charge matérielle F5 possèdent une fonctionnalité appelée OneConnect qui permet de veiller à ce que la charge de chaque requête au sein d’une connexion TCP soit individuellement équilibrée. Si vous déployez des appareils mobiles, veillez à ce que le fournisseur de votre équilibreur de charge matérielle prenne en charge la même fonctionnalité. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security). F5 est en mesure de vous fournir les paramètres spécifiques, si nécessaire. 
   
-Voici la configuration requise pour HLB pour le directeur (facultatif) et les services Web de pool frontal (requis):
+Voici la configuration requise pour HLB pour le directeur (facultatif) et les services Web de pool frontal (requis) :
   
 - Pour vos VIP de services Web internes, définissez persistance de Source_addr (port interne 80, 443) sur votre HLB. Dans le cas de Skype entreprise Server, la persistance de Source_addr implique que plusieurs connexions venant d’une seule adresse IP sont toujours envoyées à un serveur pour conserver l’état de la session.
     
 - Utilisez un délai d’inactivité TCP de 1 800 secondes.
     
-- Sur le pare-feu entre votre proxy inverse et le HLB du pool de sauts suivant, créez une règle pour autoriser https: trafic sur le port 4443, de votre proxy inverse vers votre HLB. L’équilibreur de charge matérielle doit être configuré pour écouter sur les ports 80, 443 et 4443.
+- Sur le pare-feu entre votre proxy inverse et le HLB du pool de sauts suivant, créez une règle pour autoriser https : trafic sur le port 4443, de votre proxy inverse vers votre HLB. L’équilibreur de charge matérielle doit être configuré pour écouter sur les ports 80, 443 et 4443.
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>Synthèse des conditions requises en matière d’affinité par l’équilibreur de charge matérielle
 

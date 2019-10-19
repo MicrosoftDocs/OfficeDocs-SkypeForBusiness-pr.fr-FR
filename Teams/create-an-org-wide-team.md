@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516649"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
@@ -27,7 +27,7 @@ Les équipes à l’échelle de l’organisation offrent une méthode automatiqu
 
 Grâce aux équipes au sein de l’organisation, les administrateurs généraux peuvent facilement créer une équipe publique qui collecte les informations de tous les utilisateurs au sein de l’organisation et met à jour l’appartenance avec Active Directory à mesure que les utilisateurs rejoignent et quittent l’organisation. Seuls les administrateurs généraux peuvent créer des équipes à l’échelle de l’organisation et actuellement une équipe à l’échelle de l’organisation est limitée aux organisations ne disposant pas de plus de 5 000 utilisateurs. Il existe également une limite de cinq équipes au sein de l’organisation par client. Si ces conditions sont remplies, les administrateurs généraux pourront voir l’échelle de l' **organisation** en tant qu’option lors de la création **d’une équipe à partir de zéro lors de** la création d’une équipe. 
 
-![Capture d’écran de l’option à l’échelle de l’organisation de création d’une](media/create-org-wide-team.png "capture d’écran d’équipe à l’échelle de l’Organisation pour la création d’une équipe à l’échelle de l'") Organisation
+![Capture d’écran de l’option de création d’une équipe à l’échelle de l’Organisation](media/create-org-wide-team.png "Capture d’écran de l’option de création d’une équipe à l’échelle de l’Organisation")
 
 Lorsque vous créez une équipe à l’échelle de l’organisation, tous les administrateurs globaux sont ajoutés en tant que propriétaires d’équipe, et tous les utilisateurs actifs sont ajoutés en tant que membres de l’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se connecte à Teams, l’utilisateur reçoit une licence d’évaluation de Cloud Computing Microsoft Teams. Pour en savoir plus sur la licence d’évaluation, voir [gérer l’offre d’évaluation de Cloud Computing teams](iw-trial-teams.md). 
 

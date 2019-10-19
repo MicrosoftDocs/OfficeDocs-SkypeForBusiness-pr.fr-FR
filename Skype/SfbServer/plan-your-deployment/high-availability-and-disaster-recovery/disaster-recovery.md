@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Dans le cadre d’une reprise après sinistre, Skype entreprise Server propose le jumelage de pools avec basculement en cas de panne du pool.
-ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297504"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341930"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Reprise après sinistre de la liste frontale dans Skype entreprise Server
  
@@ -56,7 +56,7 @@ Pour le basculement de pool et la restauration de pool, le but à atteindre pour
   
 Pour le basculement de pool et la restauration de pool, le but à atteindre pour la perte de données maximale admissible (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est arrêté à 10:00 AM et que le RPO est de 5 minutes, les données écrites dans le pool entre 9:55 AM Il est possible que la 10:00 A n’ayant pas été répliquée vers le pool de sauvegarde et qu’elle soit perdue.
   
-Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites. Ces chiffres sont mesurés pour un pool avec 40 000 utilisateurs actifs et 200 000 utilisateurs activés pour Lync par rapport à un modèle utilisateur prédéfini pour lequel il n’y a pas de journal des travaux en souffrance dans la réplication des données. Ces chiffres peuvent changer en fonction du test et de la validation des performances.
+Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites. Ces numéros sont mesurés pour une réserve avec des utilisateurs actifs de 40 000 et de 200 000 actuellement activés pour Skype entreprise par rapport à un modèle utilisateur prédéfini où il n’y a pas de backlog dans la réplication des données. Ces chiffres peuvent changer en fonction du test et de la validation des performances.
   
 ## <a name="central-management-store-failover"></a>Basculement du magasin central de gestion
 

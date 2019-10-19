@@ -20,10 +20,10 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36483410"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
@@ -157,7 +157,7 @@ Les offres d’adoption peuvent être simples à complexes, en fonction de votre
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Démarrer</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Démarrage</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Prise en main</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Présentation des équipes et des canaux</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Créer votre première équipe</a></p>
@@ -177,7 +177,7 @@ Les offres d’adoption peuvent être simples à complexes, en fonction de votre
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Entraîne</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Expérimentation</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Créer votre programme de champions</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Démarrage rapide de la gouvernance</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Définir des scénarios d’utilisation</a></p>
@@ -198,7 +198,7 @@ Les offres d’adoption peuvent être simples à complexes, en fonction de votre
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Nuances</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">´Mise à l’échelle</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Définir le résultat et le succès</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimiser les commentaires et la création de rapports</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Faire connaître et implémenter une formation</a></p>

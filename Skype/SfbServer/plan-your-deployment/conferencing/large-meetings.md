@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: 'Résumé: cette rubrique vous présente les meilleures pratiques en matière de mise en œuvre et de gestion de grandes réunions dans Skype entreprise Server.'
-ms.openlocfilehash: 0ed044a811d4a482690be13c8626f93089aa24a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : cette rubrique vous présente les meilleures pratiques en matière de mise en œuvre et de gestion de grandes réunions dans Skype entreprise Server.'
+ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277320"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34696042"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande envergure dans Skype entreprise Server
  
-**Résumé:** Consultez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion de grandes réunions dans Skype entreprise Server.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion de grandes réunions dans Skype entreprise Server.
   
-La taille des réunions prises en charge par Skype entreprise Server varie selon que les conférences sont hébergées sur un pool partagé ou dédié: n’importe où dans les participants 250 d’un pool partagé à 1000 participants sur un pool dédié. 
+La taille des réunions prises en charge par Skype entreprise Server varie selon que les conférences sont hébergées sur un pool partagé ou dédié : n’importe où dans les participants 250 d’un pool partagé à 1000 participants sur un pool dédié. 
   
 > [!NOTE]
 > Cette rubrique décrit les meilleures pratiques en matière de réunions importantes prises en charge par Skype entreprise Server. Si votre organisation nécessite des capacités de réunion plus importantes, vous devez envisager de mettre en place un environnement hybride qui tire parti de la diffusion de réunion Skype, un nouveau service en ligne intégré à Office 365. 
 
 > [!NOTE]
-> La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à des réunions en ligne comptant jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype exige que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec un client Office 365 de production. Un client en ligne doit être installé au préalable pour tous les utilisateurs. Si vous êtes intéressé par le déploiement d’une solution hybride qui peut tirer parti de la diffusion de réunion Skype, reportez-vous à [la rubrique qu’est-ce qu’une diffusion de réunion Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) et configurez [votre déploiement local pour la diffusion de réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
+> La diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à des réunions en ligne comptant jusqu’à 10 000 participants. L’utilisation de la diffusion de réunion Skype exige que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec un client Office 365 de production. Un client en ligne doit être installé au préalable pour tous les utilisateurs. Si vous êtes intéressé par le déploiement d’une solution hybride qui peut tirer parti de la diffusion de réunion Skype, reportez-vous à [la rubrique qu’est-ce qu’une diffusion de réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et [configurez votre déploiement local pour la diffusion de réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Les grandes réunions possèdent généralement les caractéristiques suivantes :
   
@@ -128,7 +128,7 @@ La planification d’une grande réunion implique de suivre la procédure suivan
 
 Une fois que l’équipe de support des grandes réunions qui traite la demande s’est assurée qu’aucune autre réunion n’est prévue à l’heure demandée, elle planifie la réunion dans le pool des grandes réunions. 
   
-Pour garantir une meilleure utilisation de l’utilisateur, il est important de planifier la grande réunion avec les niveaux d’accès et les paramètres de réunion adaptés aux besoins de l’organisateur de la réunion. Prenez en compte les paramètres de planification suivants configurés dans les options de réunion de Skype entreprise:
+Pour garantir une meilleure utilisation de l’utilisateur, il est important de planifier la grande réunion avec les niveaux d’accès et les paramètres de réunion adaptés aux besoins de l’organisateur de la réunion. Prenez en compte les paramètres de planification suivants configurés dans les options de réunion de Skype entreprise :
   
 - Utilisez un nouvel espace de réunion pour chaque grande réunion au lieu de réutiliser l’espace de réunion dédié. 
     
@@ -189,13 +189,23 @@ Créez une stratégie de conférence spécifique aux grandes réunions, puis aff
 > [!NOTE]
 > La prise en charge des réunions de grande envergure dans Skype entreprise Server nécessite la définition du paramètre **AllowLargeMeetings** sur true. Lorsque ce paramètre est défini sur true, l’expérience Skype entreprise est optimisée pour les réunions en plus grande envergure lorsque les utilisateurs rejoignent la réunion. En particulier, dans une grande réunion, Skype entreprise ne verra pas la première ou la mise à jour de la liste des participants à la réunion complète, qui est un goulet d’étranglement du client et de Skype entreprise Server. Skype entreprise n’affiche que les informations relatives à l’utilisateur et à la liste des présentateurs de la réunion. Skype entreprise affiche le nombre total de participants au cours des réunions de grande envergure.
 
-Le paramètre-AllowLargeMeetings $true entraîne ce qui suit: · Masque la liste des participants. · Désactive les erreurs dans la fenêtre de messagerie instantanée.
-· Désactive la vidéo à plusieurs.
-· Désactive la possibilité de promouvoir un participant au présentateur. Vous devez planifier avant et déclarer tous les présentateurs avant la réunion.
-· Désactive la possibilité d’activer le son pour les participants individuels.
-· Désactive la possibilité d’appliquer la fonctionnalité verrouiller les actualités vidéo aux participants.
-· La fonction d’appel RTC n’est pas en mesure d’activer le son avec * 6, car l’assistance virtuelle individuelle qui est responsable des commandes DTMF dans les réunions actives de grande envergure est manquante.
-· Si le présentateur ou l’organisateur planifie une réunion où tout le monde doit être coupé en premier («muet tout»), les utilisateurs PSTN seront désactivés pendant l’appel et ne seront pas en mesure d’activer le son.
+Le paramètre **$true AllowLargeMeetings** entraîne les opérations suivantes :
+
+- Masque la liste des participants. 
+
+- Désactive les erreurs dans la fenêtre de messagerie instantanée.
+
+- Désactive la vidéo à plusieurs.
+
+- Désactive la possibilité de promouvoir un participant au présentateur. Vous devez planifier avant et déclarer tous les présentateurs avant la réunion.
+
+- Désactive la possibilité d’activer le son pour les participants individuels.
+
+- Désactive la possibilité d’appliquer la fonctionnalité verrouiller les actualités vidéo aux participants.
+
+- La fonction d’appel RTC n’est pas en mesure de réactiver le son à l’aide de 6, car l’assistance virtuelle personnelle qui est responsable des commandes DTMF dans les réunions actives de grande envergure est manquante.
+
+- Si le présentateur ou l’organisateur planifie une réunion où tout le monde doit être coupé en premier (« muet tout »), les utilisateurs PSTN seront désactivés pendant l’appel et ne seront pas en mesure d’activer le son.
 
 À l’exception du paramètre **Taille maximale de la réunion**, tous les autres paramètres de stratégie de conférence spécifiés ici sont nécessaires pour désactiver les fonctions de conférence qui ne sont pas nécessaires pour les grandes réunions.
   

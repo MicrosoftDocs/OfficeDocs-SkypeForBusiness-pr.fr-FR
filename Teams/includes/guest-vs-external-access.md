@@ -1,4 +1,4 @@
-L’accès externe (Fédération) et l’accès invité sont différents:
+L’accès externe (Fédération) et l’accès invité sont différents :
 
 - L’accès invité accorde une autorisation d’accès à une personne. L’accès externe accorde l’autorisation d’accès à l’intégralité d’un domaine.
 

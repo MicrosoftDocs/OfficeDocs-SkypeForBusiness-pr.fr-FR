@@ -15,10 +15,10 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype entreprise Server 2015 inclut des mesures de reprise après sinistre en vous permettant de jumeler les pools front-end situés dans deux centres de données.
 ms.openlocfilehash: bb89116d1cedf4eea5e888c0b8021b009688324f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "34274253"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)

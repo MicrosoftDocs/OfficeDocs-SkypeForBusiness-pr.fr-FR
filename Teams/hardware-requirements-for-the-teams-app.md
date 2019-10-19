@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
+ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565068"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37590137"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -57,17 +57,23 @@ ms.locfileid: "37565068"
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application teams sur les appareils mobiles
 
-Vous pouvez utiliser Microsoft teams sur les plateformes mobiles suivantes :
+Vous pouvez utiliser teams sur les plateformes mobiles suivantes :
 
-- Android-nécessite Android 4,4 ou version ultérieure
+- Android-nécessite Android 5,0 ou une version ultérieure. Compatible avec les téléphones et tablettes Android.
 
-- iOS : nécessite iOS 10,0 ou une version ultérieure. Compatible avec les iPhone, iPad et iPod effleure.
+  La prise en charge est limitée aux quatre dernières versions d’Android. Lorsqu’une nouvelle version majeure d’Android est publiée, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
+
+- iOS : nécessite iOS 10,0 ou une version ultérieure. Compatible avec les iPhone, iPad et iPod effleure. 
+
+  La prise en charge est limitée aux deux dernières versions principales d’iOS. Lorsqu’une nouvelle version majeure d’iOS est publiée, la nouvelle version d’iOS et la version précédente sont officiellement prises en charge.
+
+Pour une utilisation optimale de Microsoft Teams, utilisez la dernière version d’iOS et Android.
 
 ## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Configuration matérielle requise pour l’application teams dans un environnement VDI (Virtual Desktop Infrastructure)
 
 Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 - [Obtenir des applications teams](get-clients.md)
 - [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)

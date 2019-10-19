@@ -19,10 +19,10 @@ description: Apprenez à utiliser les différents rôles d’administration pour
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 89463b2bc36dc1886fdf595105290d67dcd10d66
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37568588"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams
@@ -71,7 +71,7 @@ Pour afficher la liste complète des cmdlets actuellement disponibles pour un r�
    c. Utilisez **Get-Module** pour identifier le nom de la session importée (le nom sera généré de manière aléatoire).<br>
 3. Utiliser **Get-Command-** <*nom du module ci-dessus*> pour identifier toutes les applets de commande disponibles
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 
 - [Vue d’ensemble de Microsoft teams PowerShell](teams-powershell-overview.md)
 - [Microsoft teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)

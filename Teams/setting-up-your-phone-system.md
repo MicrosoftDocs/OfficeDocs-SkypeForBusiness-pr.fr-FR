@@ -20,10 +20,10 @@ ms.custom:
 - Phone System
 description: 'Apprenez à configurer votre système téléphonique (PBX Cloud) pour votre organisation. '
 ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571534"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
@@ -275,7 +275,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 **Pour plus d’informations sur l’attribution de licences Communications crédits, voir [configurer les Communications crédits pour votre organisation](set-up-communications-credits-for-your-organization.md).**
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
