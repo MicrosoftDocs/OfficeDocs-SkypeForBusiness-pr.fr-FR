@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484014"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570723"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Formation dirigée par un instructeur pour Microsoft Teams</h1>
-Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams. Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. D’autres possibilités de formation, notamment les versions à la demande de formation en direct, consultez notre <a href="https://docs.microsoft.com/microsoftteams/enduser-training">formation à la demande aux utilisateurs finaux</a>.<br><br>Cliquez sur une session ci-dessous pour vous inscrire.
+Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams. Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. Pour afficher nos cours de formation à votre rythme, consultez notre <a href="https://aka.ms/TeamsOnDemand">formation pour les utilisateurs finaux à la demande</a>.<br><br>Cliquez sur une session ci-dessous pour vous inscrire.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -144,8 +143,8 @@ Microsoft a le plaisir d’héberger une série de classes de formation gratuite
                     </div>
                     <div class="cardText">
                         <h3>Teams pour le secteur public américain (GCC)</h3>
-                        <p>Rejoignez-nous pour une présentation interactive de Teams dans Office 365 GCC montrant les meilleures pratiques en matière de collaboration.</p>
-                    <p><i>Public : professionnels de l’informatique, utilisateurs finaux</i></p>
+                        <p>Rejoignez-nous pour une présentation interactive de Teams dans Office 365 GCC montrant les meilleures pratiques en matière de collaboration.</p>
+                    <p><i>Public : tout le monde</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ Microsoft a le plaisir d’héberger une série de classes de formation gratuite
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams pour les employés de terrain</h3>
-                        <p>Apprenez-en davantage sur les fonctionnalités de Teams destinées aux employés de terrain.</p>
+                        <h3>Découvrir comment utiliser les applications dans Teams</h3>
+                        <p>Apprenez comment améliorer le travail d’équipe avec les applications.</p>
                         <p><i>Public : utilisateurs finaux</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ Microsoft a le plaisir d’héberger une série de classes de formation gratuite
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams pour les employés de terrain</h3>
+                        <p>Apprenez-en davantage sur les fonctionnalités de Teams destinées aux employés de terrain.</p>
+                        <p><i>Public : utilisateurs finaux</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>
