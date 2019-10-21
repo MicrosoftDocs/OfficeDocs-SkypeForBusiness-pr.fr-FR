@@ -12,16 +12,15 @@ description: Venez en apprendre plus sur comment créer vos premiers canaux et �
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c70a6c7d344c656ab559031a369033774ef25dd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a2dd779097119050e6aa9671b6f8ad248c9165d1
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245880"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569596"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer vos premiers canaux et équipes dans Microsoft Teams
 
@@ -63,7 +62,7 @@ Sur le côté gauche de l’écran de Teams, cliquez sur **Équipes**, puis, en 
 
 Une fois que vous avez créé l’équipe, invitez des personnes à la rejoindre. Vous pouvez ajouter des utilisateurs individuels, des groupes et même des groupes complets de contacts (anciennement appelés des « listes de distribution »). 
 
-![Capture d’écran d’un exemple d’équipe avec le nom et la description de l’équipe] (media/get-started-with-teams-create-team.png "Capture d’écran d’un exemple d’équipe avec le nom et la description de l’équipe") 
+![Capture d’écran d’un exemple d’équipe, affichant le nom de l’équipe et une description](media/get-started-with-teams-create-team.png "Capture d’écran d’un exemple d’équipe Découvrir Teams, montrant le nom de l’équipe et la description") 
 
 ### <a name="add-a-team-owner"></a>Ajouter un propriétaire à l’équipe
 Recherchez l’équipe que vous avez créée, cliquez sur **Plus options ˙˙˙** > **Gérer l’équipe**. Accédez à l’onglet **Membres**. Recherchez les personnes que vous voulez désigner comme propriétaires de l’équipe. Sous **Rôle**, cliquez sur **Propriétaire**.
@@ -71,7 +70,7 @@ Recherchez l’équipe que vous avez créée, cliquez sur **Plus options ˙˙˙*
 ### <a name="create-a-channel-in-a-team"></a>Créer un canal dans une équipe
 Recherchez l’équipe que vous avez créée, puis cliquez sur **Autres options...** > **Ajouter un canal**. Vous pouvez également cliquer sur **Gérer l’équipe** et ajouter un canal dans l’onglet **Canaux**. 
 
-![Capture d’écran des otions disponibles quand vous cliquez sur Plus d’options] (media/get-started-with-teams-add-channel.png "Capture d’écran des options Ajouter un canal, Gérer l’équipe et autres options disponibles lorsque vous cliquez sur Plus d’options pour une équipe") 
+![Capture d’écran des options disponibles lorsque vous cliquez sur Options supplémentaires](media/get-started-with-teams-add-channel.png "Capture d’écran des options Ajouter un canal, Gérer l’équipe et autres options disponibles lorsque vous cliquez sur Plus d’options pour une équipe") 
 
 Donnez un nom descriptif au canal pour que les utilisateurs puissent facilement comprendre l’objectif du canal. 
 
@@ -79,7 +78,7 @@ En tant qu’un propriétaire d’une équipe, vous pouvez automatiquement nomme
 
 Voici un exemple du canal « Comment...? » dans l’équipe « Découvrir Teams », montrant des onglets épinglés avec des liens vers des pages Web Teams, des&ndash; vidéos de formation Teams, le centre d’assistance Teams et des liens de téléchargement Teams. 
 
-![Capture d’écran des onglets épinglés dans l’équipe exemple] (media/get-started-with-teams-add-tabs.png "Capture d’écran des onglets épinglés dans l’équipe exemple Découvrir Teams.") 
+![Capture d’écran d’onglets épinglés à l’exemple d’équipe](media/get-started-with-teams-add-tabs.png "Capture d’écran des onglets épinglés dans l’exemple d’équipe Découvrir Teams.") 
 
 ## <a name="next-steps"></a>Étapes suivantes
 Accédez à [Intégrer les premiers utilisateurs](get-started-with-teams-onboard-early-adopters.md).
