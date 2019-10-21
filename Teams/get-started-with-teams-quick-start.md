@@ -12,16 +12,15 @@ description: Commencer à utiliser Microsoft Teams en déployant vos premières 
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0607544da01d6dce094f64684a717d2704acee4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 62e7b361f47c802e626821a2d3c97bc20e7c933f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241594"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569574"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Prise en main de Microsoft Teams
 
@@ -30,7 +29,7 @@ Pour commencer rapidement avec Teams, nous vous recommandons de créer deux ou t
 
 Teams vous permet de mettre rapidement sur pied une équipe avec du personnel interne ou externe à votre organisation, de discuter avec d’autres personnes pour lancer des conversations rapides et inclusives, de partager et co-créer en toute sécurité des documents et de coopérer sur des projets. Vous pouvez personnaliser Teams en ajoutant des accès pratiques à des notes partagées, des pages web et des applications. Utiliser les réunions et des appels pour collaborer en temps réel où que se trouvent les utilisateurs. Teams simplifiera votre accès aux services Office 365 et à des applications tierces, pour être le nouveau centre de gravité de vos besoins de communication et de collaboration. Encouragez vos premiers utilisateurs à installer les applications mobiles et de bureau pour une meilleure expérience et pour recevoir des commentaires plus précis.
 
-![Capture d’écran montrant l’interface utilisateur des clients de bureau et mobiles] (media/get-started-microsoft-teams.png "Capture d’écran montrant le client de bureau Teams et l’interface utilisateur du client mobile" ) 
+![Capture d’écran affichant les interfaces de l’utilisateur client mobile et de bureau](media/get-started-microsoft-teams.png "Capture d’écran affichant les interfaces de l’utilisateur client mobile et de bureau" ) 
 
 Voici comment mettre en place votre première série d’équipes et canaux pour que les premiers utilisateurs puisse discuter, partager des fichiers et collaborer.
 

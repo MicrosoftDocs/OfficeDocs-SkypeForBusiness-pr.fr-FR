@@ -12,16 +12,15 @@ description: Venez en apprendre plus sur les options de création de rapports di
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae59765eabf25ee608b897e1468df30b1fa49450
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8700802f0f307ef474bde602c813da404a7c82bd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245891"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569585"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent Teams et quelle est leur expérience avec Teams. Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et, avec les commentaires des utilisateurs, vous donne la perspective nécessaire pour procéder au déploiement à plus large échelle et savoir où hiérarchiser les efforts de formation et de communication.
@@ -41,7 +40,7 @@ Pour afficher ces rapports, vous devez être un administrateur général dans Of
 
 - **Rapport d’utilisation Teams**: ce rapport vous donne une vue d’ensemble de l’utilisation dans Teams, y compris le nombre total d’utilisateurs actifs et de canaux et le nombre d’utilisateurs actifs, de canaux, d’invités et de messages dans chaque équipe. 
 
-    ![Capture d’écran d’un Rapport d’utilisation Teams](media/teams-reports-teams-usage.png "Capture d’écran du rapport d’utilisation Teams dans le centre d’administration de Microsoft Teams")     
+    ![Capture d’écran d’un rapport d’utilisation Teams](media/teams-reports-teams-usage.png "Capture d’écran du rapport d’utilisation Teams dans le centre d’administration de Microsoft Teams")     
 - **Rapport d’activité des utilisateurs Teams**: ce rapport montre les types d’activités des utilisateurs, par exemple, combien de personnes communiquent par le biais d’appels personne à personne, de messages de canal et de messages par conversation privée. 
 
     ![Capture d’écran d’un rapport d’activité des utilisateurs Teams](media/teams-reports-user-activity.png "Capture d’écran du rapport d’activité des utilisateurs Teams dans le centre d’administration de Microsoft Teams") 
