@@ -347,6 +347,7 @@
 #### [Basculement de jonction sur les appels sortants](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Indicatifs de pays pour le chemin d’accès au média](direct-routing-country-codes.md)
 #### [Script PowerShell pour tester les connexions au contrôleur SBC](sip-tester-powershell-script.md)
+#### [Gérer les notifications d’appels](direct-routing-call-notifications.md)
 
 ## Numéros de téléphone
 ### [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -809,6 +810,7 @@
 ### [Recommandations concernant le pilote matériel encodeur et décodeur](hardware-decoders-and-encoders.md)
 ### [Installer Teams avec MSI](msi-deployment.md)
 ### [Activer Teams dans votre organisation](Office-365-set-up.md)
+### [Fichiers et dossiers Teams à exclure de l’analyse antivirus](teams-files-folders-antivirus-perf.md)
 ### [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams pour une infrastructure bureau virtualisée(VDI)](teams-for-vdi.md)
 ### [Déployer Teams pour Surface Hub](teams-surface-hub.md)
