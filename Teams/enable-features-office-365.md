@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715925"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616071"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -98,11 +97,22 @@ Basculez ce paramètre sur **Activé** pour activer les recherches d’annuaire 
 Vous pouvez utiliser ces paramètres pour configurer la manière dont vos utilisateurs feront la transition de Skype Entreprise vers Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Mode de coexistence
-Vous pouvez spécifier un mode de coexistence : **Teams uniquement**, **Îles** (Teams et Skype Entreprise coexisteront), ou ** Skype Entreprise uniquement**. Le mode de coexistence que vous choisissez détermine le routage des appels et conversations entrants et l’application qui est utilisée par l’utilisateur pour initialiser des conversations et appels ou pour planifier des réunions. Pour plus d’informations sur les modes de coexistence, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Vous pouvez spécifier un mode de coexistence : 
+
+- **Teams uniquement**
+- **Îles ** (Teams et Skype Entreprise coexisteront)
+- **Skype Entreprise uniquement**
+- **Skype Entreprise avec Teams pour la collaboration** (les utilisateurs participent à des conversations, reçoivent des appels, et planifient des réunions dans Skype Entreprise, mais utilisent Teams pour la collaboration en groupe)
+- **Skype Entreprise avec Teams pour la collaboration et les réunions** (les utilisateurs participent à des conversations, reçoivent des appels dans Skype Entreprise, mais utilisent Teams pour la collaboration en groupe et la planification des réunions)
+
+Le mode de coexistence que vous choisissez détermine le routage des appels et conversations entrants et l’application qui est utilisée par l’utilisateur pour initialiser des conversations et appels ou pour planifier des réunions. Pour plus d’informations sur les modes de coexistence, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Préférences d’application
 
 Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/fr-FR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
+
+Vous pouvez également sélectionner l’option Télécharger l’application Teams en arrière-plan pour les utilisateurs Skype Entreprise.  Par défaut, le paramètre est défini sur Activé. Lorsque ce paramètre est activé, l’application Teams est téléchargée en arrière-plan pour les utilisateurs de l’application Skype Entreprise sur PC Windows. Cela se produit si le mode de coexistence pour l’utilisateur est Teams uniquement, ou si une notification de mise à niveau en attente est activée dans l’application Skype Entreprise.
+
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 

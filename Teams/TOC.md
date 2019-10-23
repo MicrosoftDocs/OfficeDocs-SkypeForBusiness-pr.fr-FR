@@ -28,6 +28,7 @@
 ## [Gérer les stratégies de messagerie](messaging-policies-in-teams.md)
 ## [Présence des utilisateurs dans Teams](presence-admins.md)
 ## [Afficher les analyses interéquipes et par équipe dans Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [Renouvellement et expiration d’une équipe](team-expiration-renewal.md)
 ## [Archiver ou supprimer une équipe](archive-or-delete-a-team.md)
 
 
