@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570302"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664971"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -48,7 +48,7 @@ Utilisez les paramètres de l’application à l’échelle de l’Organisation 
 
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à > **stratégies d’autorisations**des **applications teams**.
 2. Sélectionnez **paramètres à l’échelle de l’organisation**. Vous pouvez alors configurer les paramètres de votre choix dans le panneau. 
-    ![Capture d’écran de la nouvelle stratégie d’autorisation d’application](media/app-permission-policies-org-wide-settings.png)
+    ![Capture d’écran des paramètres d’application à l’échelle de l’Organisation](media/app-permission-policies-org-wide-settings.png)
 3. Sous **applications tierces**, désactivez ou activez ces paramètres pour contrôler l’accès aux applications tierces :
 
     - **Autorisez des applications tierces ou personnalisées dans teams**: ce contrôle si les utilisateurs peuvent utiliser des applications tierces ou personnalisées.
@@ -174,5 +174,5 @@ Le portail hérité autorisait le contrôle des applications au niveau de l’or
 
 Pour les stratégies d’autorisation d’application attribuées à des utilisateurs spécifiques, si une application dotée d’une fonctionnalité de robot ou de connecteur a été autorisée et bloquée et si l’application est alors autorisée uniquement pour certains utilisateurs dans un contexte partagé, les membres d’une conversation de groupe ou d’un canal ne disposant pas de l’autorisation sur cette application  peut afficher l’historique des messages et les messages publiés par le robot ou le connecteur, mais ne peut pas interagir avec celui-ci.
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Sujets associés
 - [Paramètres d’administration pour les applications dans Microsoft Teams](admin-settings.md)

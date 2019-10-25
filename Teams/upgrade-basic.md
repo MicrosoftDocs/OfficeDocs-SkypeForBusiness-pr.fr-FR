@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31aa30401f345d58c4c30cffbc89c618ea94b0cb
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483956"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664945"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -38,16 +38,16 @@ Ces dix étapes simples permettent de tout ce dont vous avez besoin pour effectu
 > [!IMPORTANT]
 > La mise à niveau de Skype entreprise Online sera annulée le 31 juillet 2021. Après cela, le service Skype entreprise Online ne sera plus accessible ou n’est plus pris en charge. Pour optimiser la réalisation des avantages et garantir que votre organisation dispose du moment approprié pour mettre en œuvre la mise à niveau, nous vous encourageons à commencer votre trajet vers Microsoft teams dès aujourd’hui.
 
-Qu’arrive-t-il à Skype entreprise après la mise à niveau? Une fois vos utilisateurs mis à niveau en équipes (mode**teams uniquement** ):
+Qu’arrive-t-il à Skype entreprise après la mise à niveau ? Une fois vos utilisateurs mis à niveau en équipes (mode**teams uniquement** ) :
 
 - Le client Skype entreprise est désactivé, et les discussions et les appels sont redirigés vers Teams. Notez que le client ne sera pas désinstallé sur son ordinateur de bureau.
-- Toutes les réunions Skype entreprise planifiées avant la mise à niveau fonctionnent comme prévu, mais toutes les nouvelles réunions sont planifiées dans Teams.
+- Toutes les réunions Skype entreprise planifiées avant la mise à niveau fonctionnent comme prévu, mais toutes les nouvelles réunions sont planifiées dans Teams. Le plug-in Skype entreprise ne sera plus disponible dans Outlook. 
 - Si les utilisateurs essaient de se connecter à Skype entreprise, ils reçoivent une notification de leur client qu’ils ont été mis à niveau vers Teams.
 - Les utilisateurs doivent désinstaller manuellement le client Skype entreprise sur leur appareil mobile.
 
 Pour plus d’informations sur la mise à niveau, consultez notre [Forum aux questions](https://aka.ms/SkypeToTeams-FAQ) .
 
-Vous ne connaissez pas les équipes? [Apprenez-en davantage sur la façon dont les équipes](https://products.office.com/microsoft-teams/group-chat-software) réunissent les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en fournissant un seul Hub pour le travail en équipe dans Office 365.
+Vous ne connaissez pas les équipes ? [Apprenez-en davantage sur la façon dont les équipes](https://products.office.com/microsoft-teams/group-chat-software) réunissent les conversations, les réunions, les fichiers, les applications Office et les intégrations tierces, en fournissant un seul Hub pour le travail en équipe dans Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -57,11 +57,11 @@ Vous ne connaissez pas les équipes? [Apprenez-en davantage sur la façon dont l
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Les leaders sont responsables du succès de l’entreprise; n’hésitez pas à nous en informer sur les changements technologiques. Dans la mesure où il est possible que tout le monde ne reçois ou ne lisent pas les notifications de mise à niveau, vous devez indiquer à vos parties prenantes (par exemple, PDG, professionnels de l’informatique, marketing et responsables du support technique) avant de commencer à planifier votre mise à niveau.
+Les leaders sont responsables du succès de l’entreprise ; n’hésitez pas à nous en informer sur les changements technologiques. Dans la mesure où il est possible que tout le monde ne reçois ou ne lisent pas les notifications de mise à niveau, vous devez indiquer à vos parties prenantes (par exemple, PDG, professionnels de l’informatique, marketing et responsables du support technique) avant de commencer à planifier votre mise à niveau.
 
 **Ressources**
 
-- [Exemple de message électronique: communication avec les parties prenantes](upgrade-emails-surveys.md#step-1-email)
+- [Exemple de message électronique : communication avec les parties prenantes](upgrade-emails-surveys.md#step-1-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -73,7 +73,7 @@ Les leaders sont responsables du succès de l’entreprise; n’hésitez pas à 
 
 *(Environ quatre à six semaines avant la mise à niveau)*
 
-Teams propose des fonctionnalités Skype entreprise compatibles (par exemple, la messagerie instantanée, les réunions, etc.). En tant que concentrateur véritable pour le travail en équipe, teams permet aux groupes de travail de gérer les projets, les fichiers, les conversations et les applications en un seul endroit. Déterminez le mode d’utilisation des équipes par votre organisation et configurez votre environnement en vue de sa réussite.
+Teams propose des fonctionnalités Skype entreprise compatibles (par exemple, la messagerie instantanée, les réunions, etc.). En tant que concentrateur véritable pour le travail en équipe, teams permet aux groupes de travail de gérer les projets, les fichiers, les conversations et les applications en un seul endroit. Par défaut, Teams est activé pour toutes les organisations. Déterminez le mode d’utilisation des équipes par votre organisation et configurez votre environnement en vue de sa réussite. 
 
 > [!Note]
 > En tant que client Skype entreprise existant, votre infrastructure réseau actuelle est probablement déjà configurée pour Teams. Pour confirmer cela, vous pouvez suivre les instructions complètes de planification technique associées au ci-dessous (facultatif).
@@ -81,9 +81,7 @@ Teams propose des fonctionnalités Skype entreprise compatibles (par exemple, la
 **Ressources**
 
 - [Présentation de Teams](Teams-overview.md)
-- [En savoir plus sur les équipes et les canaux](teams-channels-overview.md)
-- [Planification technique complète](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Gérer Microsoft Teams Rooms](https://aka.ms/MTRDocs)
+- Commencer à utiliser Microsoft Teams (get-started-with-teams-quick-start.md)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -119,7 +117,7 @@ Le rendez-vous d’un avis suffisant pour vos utilisateurs lui permettra d’avo
 **Ressources**
 
 - [Gérer les paramètres de Microsoft Teams pour votre organisation](enable-features-office-365.md)
-- [Exemple de message électronique: annonce aux utilisateurs de Skype entreprise](upgrade-emails-surveys.md#step-4-email)
+- [Exemple de message électronique : annonce aux utilisateurs de Skype entreprise](upgrade-emails-surveys.md#step-4-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -151,7 +149,7 @@ Les utilisateurs ont occupé leurs responsabilités quotidiennes. Les rappels de
 
 **Ressources**
 
-- [Exemple de message électronique: rappeler aux utilisateurs de commencer à utiliser teams](upgrade-emails-surveys.md#step-6-email)
+- [Exemple de message électronique : rappeler aux utilisateurs de commencer à utiliser teams](upgrade-emails-surveys.md#step-6-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -170,7 +168,7 @@ Nous vous recommandons d’avoir effectué une mise à niveau de tout le monde, 
 **Ressources**
 
 - [Configuration de vos paramètres de coexistence et de mise à niveau](setting-your-coexistence-and-upgrade-settings.md)
-- [Exemple de courrier: Bienvenue des utilisateurs dans teams](upgrade-emails-surveys.md#step-7-email)
+- [Exemple de courrier : Bienvenue des utilisateurs dans teams](upgrade-emails-surveys.md#step-7-email)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -202,7 +200,7 @@ La satisfaction des employés peut influer sur la productivité, la conservation
 
 **Ressources**
 
-- [Exemple de courrier: utiliser des utilisateurs](upgrade-emails-surveys.md#step-9-email)et des [enquêtes utilisateur](upgrade-emails-surveys.md#step-9-surveys)
+- [Exemple de courrier : utiliser des utilisateurs](upgrade-emails-surveys.md#step-9-email)et des [enquêtes utilisateur](upgrade-emails-surveys.md#step-9-surveys)
 
 [Retour au début](#about-upgrade-basic)
 
@@ -218,6 +216,6 @@ Lorsque les utilisateurs ont l’habitude d’utiliser la messagerie instantané
 
 **Ressources**
 
-- [Exemple de courrier: encourager les utilisateurs à découvrir les équipes](upgrade-emails-surveys.md#step-10-email)
+- [Exemple de courrier : encourager les utilisateurs à découvrir les équipes](upgrade-emails-surveys.md#step-10-email)
 
 [Retour au début](#about-upgrade-basic)
