@@ -3,40 +3,6 @@
 
 
 
-## <a name="week-of-september-16-2019"></a>Semaine du 16 septembre 2019
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 9/16/2019 | [Formation à Microsoft Teams pour les administrateurs](/MicrosoftTeams/itadmin-readiness) | modifié |
-| 9/16/2019 | [Gérer les stratégies d’application personnalisée et les paramètres dans Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modifié |
-| 9/17/2019 | [Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](/MicrosoftTeams/room-systems/xml-config-file) | modifié |
-| 9/17/2019 | [Exemple petite entreprise-configurer un standard automatique](/MicrosoftTeams/tutorial-org-aa) | modifié |
-| 9/17/2019 | [Prendre des décisions pour le service de systèmes téléphoniques avec forfaits d’appels -Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | modifié |
-| 9/17/2019 | [Créer une file d’attente d’appel](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
-| 9/17/2019 | [Configurer le routage direct](/MicrosoftTeams/direct-routing-configure) | modifié |
-| 9/17/2019 | [Routage direct via le système téléphonique](/MicrosoftTeams/direct-routing-landing-page) | modifié |
-| 9/17/2019 | [Contrôler et dépanner le routage direct](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modifié |
-| 9/17/2019 | [Gérer l'offre d’évaluation de cloud commercial Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | modifié |
-| 9/17/2019 | [FAQ : stratégies de conservation dans Microsoft Teams](/MicrosoftTeams/retention-policies-faq) | modifié |
-| 9/17/2019 | [Stratégies de conservation dans Microsoft Teams](/MicrosoftTeams/retention-policies) | modifié |
-| 9/18/2019 | [Gestion des licences Office 365 pour Microsoft Teams](/MicrosoftTeams/office-365-licensing) | modifié |
-| 9/18/2019 | [Choisir un parcours pour planifier le déploiement à l’échelle de votre organisation de Microsoft Teams](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | modifié |
-| 9/18/2019 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
-| 9/18/2019 | [Planifier des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modifié |
-| 9/18/2019 | [Langues pour la messagerie vocale accueil et des messages](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | modifié |
-| 9/18/2019 | [Office 365 Business Premium ](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | modifié |
-| 9/19/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
-| 9/19/2019 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
-| 9/19/2019 | [Activer la traduction de messages en ligne dans Microsoft teams](/MicrosoftTeams/inline-message-translation-teams) | modifié |
-| 9/19/2019 | [Configurer des événements en direct dans Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modifié |
-| 9/20/2019 | [Interaction entre Exchange et Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modifié |
-| 9/20/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
-| 9/20/2019 | [Présence des utilisateurs dans Teams](/MicrosoftTeams/presence-admins) | modifié |
-| 9/20/2019 | [Microsoft Teams \| Mise à niveau, Mode îles, Stratégie d’interopérabilité, uniquement](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modifié |
-| 9/20/2019 | [Équipes dans 30](/MicrosoftTeams/teams-in-30-workshops) | modifié |
-
-
 ## <a name="week-of-september-23-2019"></a>Semaine du 23 septembre 2019
 
 
@@ -196,11 +162,11 @@
 | 10/15/2019 | [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modifié |
 | 10/15/2019 | [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modifié |
 | 10/15/2019 | [Assigner des licences Teams](/MicrosoftTeams/assign-teams-licenses) | modifié |
-| 10/15/2019 | [Questions fréquentes à propos de l'audioconférence](/MicrosoftTeams/audio-conferencing-common-questions) | modifié |
+| 10/15/2019 | [Questions fréquentes à propos de l’audioconférence](/MicrosoftTeams/audio-conferencing-common-questions) | modifié |
 | 10/15/2019 | [Audioconférence dans Office 365](/MicrosoftTeams/audio-conferencing-in-office-365) | modifié |
 | 10/15/2019 | [Audioconférence en paiement à la minute](/MicrosoftTeams/audio-conferencing-pay-per-minute) | modifié |
 | 10/15/2019 | [Avantage de l’abonnement conférence audio « Appel sortant » / « M’appeler au »](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modifié |
-| 10/15/2019 | [Langues prises en charge pour les conférences audio](/MicrosoftTeams/audio-conferencing-supported-languages) | modifié |
+| 10/15/2019 | [Langues prises en charge pour l’audioconférence](/MicrosoftTeams/audio-conferencing-supported-languages) | modifié |
 | 10/15/2019 | [Vidéos : Audioconférence dans Microsoft Teams](/MicrosoftTeams/audio-conferencing-videos) | modifié |
 | 10/15/2019 | [Audioconférence avec routage direct pour GCCH et DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | modifié |
 | 10/15/2019 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
@@ -215,12 +181,12 @@
 | 10/15/2019 | [Forfaits d’appel dans Office 365](/MicrosoftTeams/calling-plans-for-office-365) | modifié |
 | 10/15/2019 | [Créer une stratégie de gestion des modifications pour Microsoft Teams](/MicrosoftTeams/change-management-strategy) | modifié |
 | 10/15/2019 | [Modifier la langue par défaut des messages d'accueil et des courriers électroniques](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | modifié |
-| 10/15/2019 | [Modifier les numéros de téléphone de votre pont d'audioconférence](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modifié |
+| 10/15/2019 | [Modifier les numéros de téléphone de votre pont d’audioconférence](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | modifié |
 | 10/15/2019 | [Modifier les paramètres d’un pont d’audioconférence.](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | modifié |
 | 10/15/2019 | [Enregistrement de réunion cloud Teams](/MicrosoftTeams/cloud-recording) | modifié |
 | 10/15/2019 | [Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | modifié |
 | 10/15/2019 | [Interopérabilité de la vidéo cloud de Microsoft Teams](/MicrosoftTeams/cloud-video-interop) | modifié |
-| 10/15/2019 | [Appel vocal dans le nuage dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Modifié le |
+| 10/15/2019 | [Appel vocal dans le nuage dans Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | modifié |
 | 10/15/2019 | [Forfaits d’appels dans Office 365 : Code de conduite pour le Royaume-Uni (U.K.)](/MicrosoftTeams/code-of-practice-for-the-united-kingdom-u-k) | modifié |
 | 10/15/2019 | [Coexistence avec Skype Entreprise](/MicrosoftTeams/coexistence-chat-calls-presence) | modifié |
 | 10/15/2019 | [Forfaits d’appels dans Office 365 Code de traitement de plainte pour le Royaume-Uni (U.K.)](/MicrosoftTeams/complaint-handling-code-for-the-united-kingdom-u-k) | modifié |
@@ -247,7 +213,7 @@
 | 10/17/2019 | [Comment mettre en place Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | modifié |
 | 10/17/2019 | [Formation à Microsoft Teams pour les administrateurs](/MicrosoftTeams/itadmin-readiness) | modifié |
 | 10/17/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
-| 10/17/2019 | [URL et plages d’adresses IP Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | Modifié le |
+| 10/17/2019 | [URL et plages d’adresses IP Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | modifié |
 | 10/17/2019 | [Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams](/MicrosoftTeams/office-365-custom-connectors) | modifié |
 | 10/17/2019 | [Groupes Office 365 et Microsoft Teams](/MicrosoftTeams/office-365-groups) | modifié |
 | 10/17/2019 | [Gestion des licences Office 365 pour Microsoft Teams](/MicrosoftTeams/office-365-licensing) | modifié |
@@ -563,7 +529,7 @@
 | 10/17/2019 | [Envoyer à un utilisateur par courrier électronique ses informations d’audioconférence dans Microsoft Teams](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams). | modifié |
 | 10/17/2019 | [Vérifier l’état du service Microsoft Teams](/MicrosoftTeams/service-health) | modifié |
 | 10/17/2019 | [Définir les langues de standard automatique pour l’audioconférence dans Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | modifié |
-| 10/17/2019 | [Définir l’ID d’appelant pour un utilisateur](/MicrosoftTeams/set-the-caller-id-for-a-user) | modifié |
+| 10/17/2019 | [Définir l’ID de l’appelant pour un utilisateur](/MicrosoftTeams/set-the-caller-id-for-a-user) | modifié |
 | 10/17/2019 | [Définir les numéros de téléphone inclus sur les invitations dans Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams). | modifié |
 | 10/17/2019 | [Définir la longueur du code confidentiel pour les réunions d'audioconférence dans Microsoft Teams](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | modifié |
 | 10/17/2019 | [Configurer Audioconférence pour Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modifié |
@@ -590,7 +556,7 @@
 | 10/17/2019 | [Licences de module complémentaire Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | modifié |
 | 10/17/2019 | [Office 365 Business Premium ](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | modifié |
 | 10/17/2019 | [Plans Office 365 Enterprise E1 et E3 ](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3) | modifié |
-| 10/17/2019 | [Office 365 Entreprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing) | modifié |
+| 10/17/2019 | [Office 365 Entreprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing) | modifié |
 | 10/17/2019 | [Office 365 Entreprise E5 sans Audioconférence](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing) | modifié |
 | 10/17/2019 | [Office 365 ProPlus](/MicrosoftTeams/teams-add-on-licensing/office-365-premium-pro-plus) | modifié |
 | 10/17/2019 | [Notifications de priorité dans la messagerie teams](/MicrosoftTeams/teams-add-on-licensing/pri-message) | modifié |
@@ -602,3 +568,17 @@
 | 10/17/2019 | [Rapport de pools de minutes RTC de Microsoft teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | modifié |
 | 10/17/2019 | [Rapport utilisation RTC de Microsoft teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modifié |
 | 10/18/2019 | [Configuration matérielle requise pour l’application Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
+
+
+## <a name="week-of-october-21-2019"></a>Semaine du 21 octobre 2019
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 10/21/2019 | [Gérer les paramètres de Microsoft Teams pour votre organisation](/MicrosoftTeams/enable-features-office-365) | modifié |
+| 10/21/2019 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
+| 10/21/2019 | [Utiliser les rôles d’administrateur de Microsoft teams pour gérer teams](/MicrosoftTeams/using-admin-roles) | modifié |
+| 10/24/2019 | [Guide de démarrage rapide de terrain Worker](/MicrosoftTeams/firstline-workers-quickstart) | modifié |
+| 10/24/2019 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
+| 10/24/2019 | [Liste de vérification de mise à niveau\| Mise à niveau de Skype Entreprise vers Teams \| Étapes de base](/MicrosoftTeams/upgrade-basic) | modifié |
+| 10/24/2019 | [FAQ : mise à niveau de Skype entreprise vers Microsoft teams](/MicrosoftTeams/faq-journey) | modifié |
