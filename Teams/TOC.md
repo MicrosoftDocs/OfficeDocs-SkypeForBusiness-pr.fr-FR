@@ -266,12 +266,6 @@
 
 
 
-
-
-
-
-
-
 ## [Interopérabilité de la vidéo cloud](cloud-video-interop.md)
 
 ## Événements en direct
@@ -660,15 +654,16 @@
 ## [Déclassement de Skype Entreprise Online](skype-for-business-online-retirement.md)
 ## [FAQ](FAQ-journey.md)
 
-## En savoir plus la coexistence
+## Bibliothèque technique
+### [Conseils sur la mise à niveau pour les administrateurs informatiques](upgrade-to-teams-on-prem-overview.md)
 ### [Migration et interopérabilité avec Skype Entreprise](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistence avec Skype Entreprise](coexistence-chat-calls-presence.md)
 ### [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
-#       
-#        
+
 
 <!-- ============================================================ -->
-
+#       
+#    
 # Connectivité hybride 
 
 ## [Planifier une connectivité hybride](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
