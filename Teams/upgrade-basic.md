@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664945"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749282"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>Mise à niveau de base
+
+<a name="about-upgrade-basic"></a>
 
 Conçu pour des organisations plus petites ou celles utilisant Skype entreprise Online pour la messagerie instantanée (discussion) et les réunions uniquement, la liste de contrôle de mise à niveau de base est un plan d’action accéléré incluant les activités principales et recommandées et les ressources associées à l’implémentation d’une transition réussie de Skype entreprise vers Teams.
 
@@ -81,7 +81,7 @@ Teams propose des fonctionnalités Skype entreprise compatibles (par exemple, la
 **Ressources**
 
 - [Présentation de Teams](Teams-overview.md)
-- Commencer à utiliser Microsoft Teams (get-started-with-teams-quick-start.md)
+- [Prise en main de Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [Retour au début](#about-upgrade-basic)
 

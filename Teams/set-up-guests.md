@@ -3,7 +3,6 @@ title: Activation ou désactivation de l’accès invité à Microsoft teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,38 +17,36 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186c83b82c396a21fe0098a561bcd4db13370140
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37566033"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753349"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activation ou désactivation de l’accès invité à Microsoft teams
 ===================================================
 
-En tant qu'administrateur d'Office 365, vous devez activer la fonctionnalité Invité pour que vous ou les utilisateurs de votre organisation (notamment les propriétaires d'équipe) puissiez ajouter des invités.
+Par défaut, l’accès invité est désactivé. En tant qu’administrateur 365 Office, vous devez activer l’accès invité pour les équipes pour que l’administrateur ou les propriétaires d’équipes puissent ajouter des invités. Pour activer l’accès invité, utilisez la [liste de contrôle d’accès invité](guest-access-checklist.md). 
 
-Les paramètres d'invité sont définis dans Azure Active Directory. Il faut environ 2 à 24 heures pour que les modifications prennent effet dans votre organisation Office 365. Si un utilisateur voit le message « Contactez votre administrateur » lorsqu'il essaye d'ajouter un invité à son équipe, il est probable que la fonctionnalité d'invité ne soit pas activée ou que les paramètres ne sont pas encore actifs.
+Après avoir activé l’accès invité, l’application des modifications prend 2-24 heures. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, il est probable que l’accès invité n’ait pas été activé ou que les paramètres ne soient pas encore effectifs.
 
 > [!IMPORTANT]
-> Pour activer l’expérience complète de la fonctionnalité d’accès invité, il est important de comprendre la dépendance des autorisations principales entre Microsfot Teams, Azure Active Directory et Office 365. Pour plus d'informations, reportez-vous à la rubrique [Autoriser l’accès invité dans Microsoft Teams](Teams-dependencies.md).
+> L’activation de l’accès invité dépend des paramètres dans Azure Active Directory, Office 365, SharePoint Online et Teams. Pour plus d’informations, voir [autoriser l’accès invité dans Microsoft teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Accès invité et accès externe (fédération)
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration de Microsoft Teams
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurer l’accès invité dans le centre d’administration teams
 
 1.  Se connecter au centre d’administration de Microsoft Teams.
 
 2.  Sélectionnez **paramètres Org-wide** > **accès invité**.
 
-3. Mettre le bouton bascule**Autoriser l’accès invité dans Microsoft Teams** sur **On**.
+3. Définissez **autoriser l’accès invité dans Microsoft teams** **sur activé**.
 
     ![Bouton Autoriser l’accès invité sur On ](media/set-up-guests-image1.png)
 
-4.  Mettre les boutons bascules sous **Appel**, **Réunion**, et **Messagerie** sur **On** ou **Off**, en fonction de la fonctionnalité que vous voulez autoriser pour les utilisateurs invités.
+4.  Sous **appel**, **réunion**et **messagerie**, sélectionnez **activé** ou **désactivé** pour chaque fonctionnalité, en fonction de ce que vous voulez autoriser pour les utilisateurs invités.
 
     - **Passer des appels privés** : mettre ce paramètre sur **On** pour permettre aux invités d’effectuer des appels privés.
     - **Autoriser IP vidéo** : mettre ce paramètre sur**On** pour permettre aux invités d’utiliser la vidéo dans leurs appels et réunions.
@@ -73,45 +70,16 @@ Les paramètres d'invité sont définis dans Azure Active Directory. Il faut e
 5.  Cliquez sur **Enregistrer**.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Utiliser PowerShell pour activer ou désactiver l’accès invité
+Lire [Utiliser PowerShell pour activer ou désactiver l’accès invité](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.  Télécharger le module PowerShell Skype Entreprise Online à partir de https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.  Connecter une session PowerShell à un point de terminaison Skype Entreprise Online.
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  Vérifier votre configuration et si `AllowGuestUser` est `$False`, utilisez l’applet de commande [Ensemble CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) défini sur `$True`.
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-Vous pouvez désormais avoir des utilisateurs invités dans Teams pour votre organisation.
-
-## <a name="more-information"></a>Plus d’informations
-
-Regardez la vidéo suivante pour plus de détails à propos de l'accès invité.
+## <a name="video-adding-guests-in-teams"></a>Vidéo : ajout d’invités dans teams
 
 |  |  |
 |---------|---------|
 | Ajout d'invités dans Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a>Accès externe (Fédération) et accès invité
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
