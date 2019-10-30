@@ -17,17 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e8a77a6d03735769e61f679126b3a5aac7f70e3
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37563608"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772358"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
 
-Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS et Windows Phone). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
+Microsoft teams est disponible pour les clients de bureau (Windows, Mac et Linux), Web et mobiles (Android et iOS). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
 
 > [!NOTE]
 > À compter du 29 novembre 2018, vous ne pourrez plus utiliser l’application Microsoft Teams pour Windows 10 S (Preview) disponible auprès du Microsoft Store. Au lieu de cela, vous pouvez désormais télécharger et installer le client de bureau teams sur des appareils exécutant le mode Windows 10 S. Pour télécharger le client de bureau, accédez [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)à. Les versions MSI du client de bureau Teams ne sont pas encore disponibles pour les appareils exécutant le mode Windows 10 S.
@@ -40,13 +40,13 @@ Microsoft Teams dispose de clients Web, de bureau (Windows et Mac) et mobiles (
 > [!Tip]
 > Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
 
-Le client de bureau Microsoft teams est une application autonome qui est également [disponible dans Office 365 ProPlus](https://docs.microsoft.com/en-us/deployoffice/teams-install). Teams est disponible pour Windows (7 +), dans les versions 32 bits et 64 bits et macOS (10.10 +). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. 
+Le client de bureau Microsoft teams est une application autonome qui est également [disponible dans Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams est disponible pour Windows (7 +), versions 32-bit et 64 bits, macOS (10.10 +) et Linux (programme `.deb`Debian, gestionnaire `.rpm`de package Red Hat). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. Sur Linux, les responsables de package tels que apt et yum essaient d’installer une configuration requise pour vous. Néanmoins, si ce n’est pas le cas, vous devez installer la configuration requise avant d’installer teams sur Linux.
 
 Les clients de bureau fournissent la prise en charge de communications en temps réel (audio, vidéo, et partage de contenu) pour les réunions d'équipe, les appels de groupes et les appels en tête-à-tête.
 
 Les clients de bureau peuvent être téléchargés et installés par les utilisateurs finaux directement à partir de [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) s'ils disposent des autorisations locales appropriées (les droits d'administration ne sont pas requis pour installer le client Teams sur un PC, mais le sont pour un Mac).
 
-Les administrateurs informatiques peuvent utiliser la méthode de leur choix pour distribuer les fichiers d'installation sur les ordinateurs de leur organisation telle que System Center Configuration Manager (Windows) ou Jamf Pro (macOS). Pour obtenir le package MSI de distribution Windows, voir [installer Microsoft Teams à l’aide de MSI](msi-deployment.md).  
+Les administrateurs informatiques peuvent choisir la méthode de distribution des fichiers d’installation sur les ordinateurs de leur organisation. Quelques exemples incluent System Center Configuration Manager (Windows) ou JAMF Pro (macOS). Pour obtenir le package MSI de distribution Windows, voir [installer Microsoft Teams à l’aide de MSI](msi-deployment.md).  
 
 > [!NOTE]
 > La distribution du client via ces systèmes sert uniquement à l'installation initiale des clients Microsoft Teams, non pour les mises à jour futures.
@@ -99,6 +99,30 @@ Les administrateurs informatiques peuvent utiliser le déploiement géré de Tea
 
 > [!NOTE]
 > Si vous rencontrez des problèmes en installant le PKG, faites-le nous savoir. Dans la section **Commentaires** à la fin de cet article, cliquez sur **Adresser un commentaire**.
+
+### <a name="linux"></a>*
+
+Les utilisateurs Linux peuvent installer teams à `.deb` l’aide d’un package Debian ou `.rpm`d’un package Red Hat. 
+
+[!NOTE] Microsoft teams sur un client Linux est disponible en version d’évaluation limitée. Signaler des bogues à l’aide `Report a Problem` du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
+
+#### <a name="install-teams-using-deb-package"></a>Installation d’équipes à l’aide d’une DEB
+
+1. Téléchargez le package à https://aka.ms/getteamspartir de.
+2. Installez l’une des options suivantes :  
+    - Ouvrez le package à l’aide de l’outil logiciel Ubuntu et passez par le processus d’installation de l’application Linux auto-guidée.
+    - Ou, si vous aimez le terminal, tapez :`sudo apt install **teams download file**`
+
+Vous pouvez lancer des équipes par le biais d’activités ou `Teams`par le biais d’un terminal en tapant. 
+
+#### <a name="install-teams-using-rpm-package"></a>Installer teams à l’aide du package RPM
+
+1. Téléchargez le package à https://aka.ms/getteamspartir de.
+2. Installez l’une des options suivantes :
+    - Ouvrez le package à l’aide de l’outil de gestion des packages Red Hat et passez en revue le processus d’installation de l’application Linux auto-guidée.
+    - Ou, si vous aimez le terminal, tapez :`sudo yum install **teams download file**`
+
+Vous pouvez lancer des équipes par le biais d’activités ou `Teams`par le biais d’un terminal en tapant.
 
 <a name="web-client"></a>Client Web 
 ----------

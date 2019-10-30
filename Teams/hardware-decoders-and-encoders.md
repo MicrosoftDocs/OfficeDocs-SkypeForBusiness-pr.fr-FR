@@ -16,13 +16,13 @@ description: Répertorie les combinaisons de systèmes d’exploitation, de mod�
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
-- MicrOperating systemoft Teams
-ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+- Microsoft Teams
+ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570762"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772597"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recommandations concernant le pilote matériel encodeur et décodeur
 
@@ -137,6 +137,6 @@ Les combinaisons de systèmes d’exploitation, de modèles et de pilotes suivan
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | ses | [15.201.1101.0] |
 |Windows 7/Windows 8/Windows 8.1/Windows 10 | ses | [21.19.137.1] |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Configuration matérielle requise pour l’application Teams](hardware-requirements-for-the-teams-app.md)

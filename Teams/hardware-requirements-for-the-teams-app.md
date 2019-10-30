@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
-ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590137"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772348"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -54,6 +54,21 @@ ms.locfileid: "37590137"
 |Vidéo  |    Webcam compatible     |
 |Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
 |Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.|
+
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Configuration matérielle requise pour l’application de bureau teams sur un Linux
+
+|**Composant**|**Condition requise**  |
+|---------|---------|
+|Ordinateur et processeur    | Minimum 1,6 GHz (ou plus) (32 bits ou 64 bits).        |
+|Mémoire     |    2,0 GO DE MÉMOIRE VIVE (RAM)     |
+|Disque dur    | 3,0 Go d’espace disque disponible        |
+|Display    |   résolution d’écran 1024 x 768 |
+|Matériel vidéo |  Minimum de 128 Mo de mémoire graphique
+|Système d’exploitation  | Distribution Linux capable d’installer une DEB, une ancre ou un RPM. |
+|Vidéo    |  Caméra vidéo USB 2,0       |
+|Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
+|Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
+|Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application teams sur les appareils mobiles
 

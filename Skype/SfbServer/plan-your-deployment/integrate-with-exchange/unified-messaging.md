@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
-description: 'Résumé: reportez-vous à cette rubrique pour planifier l’intégration de Skype entreprise Server à Exchange 2013 ou 2016.'
-ms.openlocfilehash: 3b71dd740440aeab37919bb94ef98eaeb83d4d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : reportez-vous à cette rubrique pour planifier l’intégration de Skype entreprise Server à Exchange 2013 ou 2016.'
+ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297343"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772617"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planification de l’intégration de la messagerie unifiée Exchange à Skype Entreprise
 
-**Résumé:** Consultez cette rubrique lors de la planification de l’intégration de Skype entreprise Server à Exchange 2013 ou 2016.
+**Résumé :** Consultez cette rubrique lors de la planification de l’intégration de Skype entreprise Server à Exchange 2013 ou 2016.
 
 Skype entreprise Server prend en charge l’intégration à la messagerie unifiée Exchange (UM) pour combiner la boîte vocale et la messagerie électronique en une seule infrastructure de messagerie. Dans Exchange, la messagerie unifiée Exchange (MU) est l’un des rôles serveur Exchange que vous pouvez installer et configurer.
 
@@ -31,12 +31,11 @@ Dans Microsoft Exchange Server 2013 et 2016, la messagerie unifiée Exchange s�
 > La messagerie unifiée Exchange reste disponible dans Skype entreprise Server 2019 lorsque vous intégrez Skype entreprise 2019 avec Exchange 2013 ou Exchange 2016. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie unifiée Exchange est mise en évidence dans les fonctionnalités de messagerie vocale et de standard automatique Cloud.  Pour plus d’informations, reportez-vous à la rubrique [planifier le service de messagerie vocale Cloud](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) et [planifier la migration de Skype entreprise Server et Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) .
 
 
-Pour que ces fonctionnalités soient prises en charge dans un déploiement Exchange UM local, vous devez exécuter l’une des opérations suivantes:
+Pour que ces fonctionnalités soient prises en charge dans un déploiement Exchange UM local, vous devez exécuter l’une des opérations suivantes :
 
 - Microsoft Exchange Server 2010 ou le dernier Service Pack (Skype entreprise Server 2015 uniquement)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019 (Skype entreprise Server 2019 uniquement)
 
 > [!NOTE]
 > La messagerie unifiée Exchange telle qu’auparavant connue n’est plus disponible dans Skype entreprise Server 2019, qui utilise le système téléphonique pour enregistrer les messages vocaux, puis laisser l’enregistrement dans la boîte aux lettres Exchange d’un utilisateur. Pour plus d’informations, voir [planifier le service de messagerie vocale Cloud](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
@@ -70,7 +69,7 @@ Pour plus d’informations sur les composants de messagerie unifiée Exchange da
 
 Vous pouvez déployer Skype entreprise Server et Exchange Unified Messaging (UM) dans la même forêt ou dans plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes d’intégration Exchange pour chaque forêt Exchange UM. Par ailleurs, vous devez configurer chaque forêt Microsoft Exchange pour approuver la forêt de Skype entreprise Server et la forêt serveur Skype entreprise pour faire confiance à chaque forêt Exchange UM. Outre cette approbation de forêt, les paramètres de messagerie unifiée Exchange pour tous les utilisateurs doivent être définis sur les objets utilisateur dans la forêt Skype entreprise Server.
 
-Skype entreprise Server prend en charge les topologies suivantes pour l’intégration à la messagerie unifiée Exchange:
+Skype entreprise Server prend en charge les topologies suivantes pour l’intégration à la messagerie unifiée Exchange :
 
 - Forêt unique
 
@@ -94,7 +93,7 @@ Les instructions ci-dessous sont des directives et des pratiques recommandées �
 
 - Collaborez avec les administrateurs Exchange pour confirmer les tâches que chacun effectuera afin de garantir une intégration réussie en toute transparence.
 
-- Déployez les rôles de serveur de boîte aux lettres Exchange dans chaque forêt de messagerie unifiée Exchange dans laquelle vous souhaitez autoriser les utilisateurs pour la messagerie unifiée Exchange. Pour plus d’informations sur l’installation des rôles du serveur Exchange, voir la documentation Microsoft Exchange Server 2013.
+- Déployez les rôles de serveur de boîte aux lettres Exchange dans chaque forêt de messagerie unifiée Exchange dans laquelle vous souhaitez autoriser les utilisateurs pour la messagerie unifiée Exchange. Pour plus d’informations sur l’installation des rôles du serveur Exchange, voir la documentation du serveur Microsoft Exchange.
 
     > [!IMPORTANT]
     > Lorsque la messagerie unifiée (MU) Exchange est installée, elle est configurée pour utiliser un certificat auto-signé. Le certificat auto-signé ne permet pas à Skype entreprise Server et à la messagerie unifiée Exchange de s’approuver mutuellement, ce qui signifie qu’il est nécessaire de demander un certificat distinct auprès d’une autorité de certification approuvée par les deux serveurs.
@@ -121,7 +120,7 @@ Les configurations de l’exemple ci-dessous fournissent la résistance à la me
 Dans l’exemple 1, les serveurs de messagerie unifiée Exchange 1 et 2 sont activés dans le centre de données Tukwila, et les serveurs de messagerie unifiée Exchange 3 et 4 sont activés dans le centre de données Dublin. En cas de défaillance de la messagerie unifiée Exchange dans Tukwila, les enregistrements DNS A pour les serveurs 1 et 2 doivent être configurés de manière à pointer respectivement vers les serveurs 3 et 4. En cas de défaillance de la messagerie unifiée Exchange dans Dublin, les enregistrements DNS A pour les serveurs 3 et 4 doivent être configurés de manière à pointer respectivement vers les serveurs 1 et 2.
 
 > [!NOTE]
-> Par exemple, vous devez également attribuer l’un des certificats suivants sur chaque serveur de messagerie unifiée Exchange: utilisez un certificat avec un caractère générique dans le nom de remplacement de l’objet, ou placez le nom de domaine complet (FQDN) de chacun des quatre serveurs de messagerie unifiée Exchange sur le SAN.
+> Par exemple, vous devez également attribuer l’un des certificats suivants sur chaque serveur de messagerie unifiée Exchange : utilisez un certificat avec un caractère générique dans le nom de remplacement de l’objet, ou placez le nom de domaine complet (FQDN) de chacun des quatre serveurs de messagerie unifiée Exchange sur le SAN.
 
 **Exemple 2 : résistance de la messagerie unifiée Exchange**
 
@@ -131,7 +130,7 @@ Dans l’exemple 2, dans des conditions de fonctionnement normales, les serveur
 
 Pour plus d’informations sur l’activation ou la désactivation de la messagerie unifiée sur Exchange 2013, voir intégration de la messagerie [unifiée Exchange 2013 avec Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=265372). Les informations fournies s’appliquent également à Skype entreprise Server.
 
-Pour plus d’informations sur l’activation ou la désactivation de la messagerie unifiée sur Microsoft Exchange Server 2010, voir:
+Pour plus d’informations sur l’activation ou la désactivation de la messagerie unifiée sur Microsoft Exchange Server 2010, voir :
 
 - [Activer la messagerie unifiée sur Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 

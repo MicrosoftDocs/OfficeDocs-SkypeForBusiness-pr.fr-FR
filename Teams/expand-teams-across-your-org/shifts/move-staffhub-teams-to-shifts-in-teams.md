@@ -2,7 +2,7 @@
 title: Déplacer vos équipes de Microsoft StaffHub vers Shifts dans Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569681"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775083"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams
 
@@ -109,17 +109,29 @@ Ces utilisateurs ont des comptes inactifs et indiquent l’état d’utilisateur
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>Obtenir la liste de tous les comptes inactifs dans StaffHub teams
 
-Exécutez la commande suivante pour obtenir la liste de tous les comptes inactifs dans StaffHub teams et exporter la liste dans un fichier CSV.
+Pour obtenir la liste de tous les comptes inactifs dans StaffHub Teams, exécutez les commandes suivantes, puis exportez la liste dans un fichier CSV. Chaque commande doit être exécutée séparément.
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>Lier le compte
@@ -255,6 +267,7 @@ Exécutez la commande suivante pour obtenir la liste de toutes les équipes de S
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -295,6 +308,7 @@ Après avoir créé le fichier CSV, exécutez ce qui suit pour déplacer les éq
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -322,7 +336,9 @@ Exécutez la commande suivante pour obtenir plus d’informations sur les erreur
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 
@@ -354,7 +370,7 @@ Exécutez la commande suivante pour ajouter le dossier général à SharePoint, 
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 - [Comment mettre en place Microsoft Teams](../../How-to-roll-out-teams.md)
 - [Fin de parcours pour Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 - [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)

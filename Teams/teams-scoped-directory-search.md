@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 094d83f8f6b21fc5e820235b91fa14820f6b407e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fca0feadf29ce83a8a6867f0e00b06fc0426a203
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570112"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772332"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -56,4 +56,5 @@ Pour plus d’informations sur l’utilisation des stratégies de carnet d’adr
     ![Recherche dans l’annuaire dans l’étendue dans le centre d’administration Microsoft teams](media/teams-scoped-directory-search-image1.png)
 
 
-
+> [!IMPORTANT]
+> La réplication de ce changement peut durer jusqu’à 24 heures.
