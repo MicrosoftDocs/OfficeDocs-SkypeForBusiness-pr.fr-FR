@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec les modèles Teams pour les organismes de santé
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570346"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886437"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
@@ -48,6 +48,17 @@ Le modèle d’hôpital est destiné à la communication et à la collaboration 
 |Type de modèle de base |baseTemplateId |Canaux de modèles de base|
 |:--- |:---|:---|
 |Healthcare-hôpital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Annonces\* <br> Conformément\* <br> Privatives de Troie <br> Ressources humaines <br> Pharmaceutiques |
+| | |  |
+
+\*Favoris automatique 
+
+## <a name="care-coordination-template"></a>Modèle de coordination de soins
+
+Le modèle de coordination de soins a pour but de faciliter la communication au sein d’une équipe de soins pour le patient, avec quelques exemples, notamment les équipes interdisciplinaires et pluridisciplinaires. Dans le cadre de notre application pour les patients propriétaires, le préchargement de ce modèle est intégré au canal général. Avec l’application patients, vous pouvez organiser des listes de patients et leurs valeurs associées et vitales, ce qui peut être utile pour les scénarios d’arrondi et de gestion du patient. 
+
+|Type de modèle de base |baseTemplateId |Canaux de modèles de base|
+|:--- |:---|:---|
+|Coordination des soins de santé | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Révision du post-traitement\* <br> Tâches\* <br> Formation\* |
 | | |  |
 
 \*Favoris automatique 

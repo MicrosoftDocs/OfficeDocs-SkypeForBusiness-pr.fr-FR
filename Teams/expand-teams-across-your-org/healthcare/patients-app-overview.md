@@ -14,14 +14,14 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749556"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885498"
 ---
-# <a name="patients-app-overview"></a>Vue d’ensemble de l’application patients
+# <a name="patients-app-overview"></a>Présentation de l’application Patients
 
 L’application patients est une application Microsoft teams Store disponible pour tous les utilisateurs d’Teams. L’application permet aux équipes de soins du patient constituée de personnes cliniques (par exemple, infirmières, médecins, travailleurs sociaux) d’organiser et de réviser des listes de patients dans le cas de scénarios allant de segments et de réunions d’équipes interdisciplinaires à la surveillance générale du patient.   
 
@@ -44,6 +44,30 @@ Pour plus d’informations sur la façon de préparer votre environnement pour l
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="frequently-asked-questions-faq"></a>Forum aux questions (FAQ)
+
+**Emplacement de stockage des données de l’application patients**
+
+Toutes les données entrées par les utilisateurs finaux dans l’application patients, y compris le schéma de colonne/champ, les données réelles entrées dans la liste et les éléments de liste (par exemple, patients), sont stockées dans l’infrastructure Exchange Online sécurisée et conforme. Toutes les données sont stockées dans la boîte aux lettres de groupe associée à l’équipe. Cette architecture permet à l’application patients de répondre facilement aux informations de résidence, au support technique du cloud public (bientôt disponible) et aux autres fonctionnalités de conformité et de protection des informations telles que la prise en charge de eDiscovery. L’application patients fonctionne dans le cadre d’une équipe. Vous devrez installer une instance de l’application par équipe.
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**Où puis-je obtenir l’application patients ?**
+
+Si l’application patients est activée pour son organisation par son administrateur, tout utilisateur final peut accéder à l’App Store et ajouter l’application patients à une équipe dont il est membre. Pour plus d’informations, consultez [gérer les stratégies de configuration des applications dans Microsoft teams](../../teams-app-setup-policies.md).
+
+**Est-ce que je peux avoir plusieurs instances de l’application patients dans une équipe, car c’est la façon dont ma sortie fonctionne ?**
+
+Pour l’instant, vous ne pouvez installer qu’une seule instance de l’application patients pour une équipe donnée, et uniquement dans le canal général. Néanmoins, au sein de l’application, plusieurs listes peuvent être créées pour gérer des scénarios de canaux multiples ou d’isolation/séparation. Par défaut, tous les membres de l’équipe ont accès à l’onglet patients dans le canal général. 
+
+**Puis-je exporter toutes les données de l’application patients ?**
+Pas pour l’instant, mais cette fonctionnalité sera bientôt disponible. 
+
+**Dans la mesure où cette application prend en charge l’utilisation de PHI, est-ce que le contrôle empêche tout accès non autorisé ou conformité aux réglementations ?**
+
+Oui, c’est. Chaque action de l’interface utilisateur exécutée par un utilisateur de Microsoft teams sur l’application patients est auditée et disponible dans le centre de sécurité et conformité. Les détails sont décrits dans [cet article.](patients-audit.md)
+
+
+## <a name="related-topics"></a>Voir aussi
 
 [Intégration des dossiers médicaux électroniques dans Microsoft Teams](patients-app.md)

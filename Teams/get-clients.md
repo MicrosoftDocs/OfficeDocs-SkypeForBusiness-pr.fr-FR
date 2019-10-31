@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87737aae65493652f3b87de6bbd1369d6982526
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772358"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886427"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 ===========================
@@ -104,11 +104,12 @@ Les administrateurs informatiques peuvent utiliser le déploiement géré de Tea
 
 Les utilisateurs Linux peuvent installer teams à `.deb` l’aide d’un package Debian ou `.rpm`d’un package Red Hat. 
 
-[!NOTE] Microsoft teams sur un client Linux est disponible en version d’évaluation limitée. Signaler des bogues à l’aide `Report a Problem` du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
+> [!NOTE] 
+> Microsoft teams sur un client Linux est disponible en version d’évaluation limitée. Signaler des bogues à l’aide `Report a Problem` du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
 
 #### <a name="install-teams-using-deb-package"></a>Installation d’équipes à l’aide d’une DEB
 
-1. Téléchargez le package à https://aka.ms/getteamspartir de.
+1. Téléchargez le package à https://aka.ms/getteamspartir de. (Le client Linux est en version d’évaluation limitée et sera bientôt lancé. Si vous ne voyez pas le client Linux sur la page téléchargements, cela signifie qu’il n’a pas encore été lancé.)
 2. Installez l’une des options suivantes :  
     - Ouvrez le package à l’aide de l’outil logiciel Ubuntu et passez par le processus d’installation de l’application Linux auto-guidée.
     - Ou, si vous aimez le terminal, tapez :`sudo apt install **teams download file**`
@@ -117,7 +118,7 @@ Vous pouvez lancer des équipes par le biais d’activités ou `Teams`par le bia
 
 #### <a name="install-teams-using-rpm-package"></a>Installer teams à l’aide du package RPM
 
-1. Téléchargez le package à https://aka.ms/getteamspartir de.
+1. Téléchargez le package à https://aka.ms/getteamspartir de. (Le client Linux est en version d’évaluation limitée et sera bientôt lancé. Si vous ne voyez pas le client Linux sur la page téléchargements, cela signifie qu’il n’a pas encore été lancé.)
 2. Installez l’une des options suivantes :
     - Ouvrez le package à l’aide de l’outil de gestion des packages Red Hat et passez en revue le processus d’installation de l’application Linux auto-guidée.
     - Ou, si vous aimez le terminal, tapez :`sudo yum install **teams download file**`
