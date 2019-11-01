@@ -21,30 +21,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez les emplacements d’urgence, les lieux et le routage des appels d’urgence, et la manière de les planifier et de les affecter à vos utilisateurs. '
-ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
+ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568552"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37901903"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>Que sont les emplacements, les lieux et le routage d’appel d’urgence ?
 
-Lorsque vous configurez des plans d’appel, vous devez attribuer un emplacement d’urgence à chaque numéro de téléphone lorsque vous récupérez le numéro de téléphone ou que vous l’attribuez à un utilisateur pour prendre en charge les appels d’urgence. Pour pouvoir affecter un emplacement d’urgence à un numéro de téléphone, vous devez ajouter et valider un emplacement d’urgence. La validation vérifie que l’emplacement d’urgence est reconnu et qu’il est dans un format approprié qui peut être utilisé par les services de réponse d’urgence. Si vous le souhaitez, vous pouvez ajouter un emplacement au sein de l’emplacement d’urgence afin de fournir un emplacement plus précis pour l’utilisateur. Par exemple, il peut s’agir d’un étage, d’une aile ou d’un bureau lié à un emplacement d’urgence spécifique. Bien qu’il soit possible de valider les emplacements d’urgence, les lieux ne le sont pas.
+Lorsque vous configurez des plans d’appel, vous devez attribuer un emplacement d’urgence à chaque numéro de téléphone lorsque vous obtenez le numéro de téléphone ou lorsque vous l’attribuez à un utilisateur afin de prendre en charge les appels d’urgence. Pour pouvoir affecter un emplacement d’urgence à un numéro de téléphone, vous devez ajouter et valider un emplacement d’urgence. La validation vérifie que l’emplacement d’urgence est reconnu et qu’il est dans un format approprié qui peut être utilisé par les services de réponse d’urgence. Si vous le souhaitez, vous pouvez ajouter un emplacement au sein de l’emplacement d’urgence afin de fournir un emplacement plus précis pour l’utilisateur. Par exemple, il peut s’agir d’un étage, d’une aile ou d’un bureau lié à un emplacement d’urgence spécifique. Bien qu’il soit possible de valider les emplacements d’urgence, les lieux ne le sont pas.
   
 ## <a name="what-are-emergency-locations"></a>Que sont les emplacements d'urgence ?
 
-Un emplacement d’urgence est requis pour les numéros de téléphone actifs et lorsqu’il est requis dépend du pays/de la région. Aux États-Unis, un emplacement d’urgence est requis lorsque le numéro est attribué à un utilisateur. Dans d’autres pays (par exemple, en Europe, au Moyen-Orient et en Afrique), un emplacement d’urgence est requis lorsque vous recevez le numéro de téléphone d’Office 365 ou lorsqu’il est transféré à partir d’un autre fournisseur ou opérateur de services.
+Un emplacement d’urgence est requis pour les numéros de téléphone actifs et lorsqu’il est requis dépend du pays/de la région. Aux États-Unis, un emplacement d’urgence est requis lorsque le numéro est attribué à un utilisateur. Pour les autres pays (par exemple, en Europe, Moyen Orient et Afrique (EMEA), un emplacement d’urgence est requis lorsque vous recevez le numéro de téléphone d’une équipe ou d’un autre fournisseur ou opérateur de services vers Teams.
   
-Un emplacement d’urgence pourra être appelé adresse postale, adresse postale ou adresse physique. Il s’agit de l’adresse postale ou rue d’un lieu d’activité pour votre organisation. Par exemple, l’adresse *12345 North rue, Redmond, WA 98052* est utilisée pour diriger les appels d’urgence vers les autorités de répartition compétentes et pour faciliter la localisation de l’appelant d’urgence. Il est probable que vous ayez besoin de plus d’un emplacement d’urgence si votre entreprise possède plusieurs emplacements d’entreprise physiques.
+Un emplacement d’urgence pourra être appelé adresse postale, adresse postale ou adresse physique avec l’emplacement facultatif. Il s’agit de l’adresse postale ou rue d’un lieu d’activité pour votre organisation. Par exemple, l’adresse *12345 North rue, Redmond, WA 98052* est utilisée pour diriger les appels d’urgence vers les autorités de répartition compétentes et pour faciliter la localisation de l’appelant d’urgence. Il est probable que vous ayez besoin de plus d’un emplacement d’urgence si votre entreprise possède plusieurs emplacements d’entreprise physiques.
   
-La validation d’un emplacement d’urgence implique de s’assurer qu’il est légitime et correctement mis en forme pour les services de réponse d’urgence. Il est possible d’ajouter et d’enregistrer un emplacement d’urgence qui n’est pas validé, mais seuls les emplacements validés peuvent être associés à un utilisateur. Après validation et enregistrement d’un emplacement d’urgence, vous pouvez l’affecter à un utilisateur. Pour modifier un emplacement d’urgence enregistré et validé, vous devez en créer un autre.
+La validation d’une adresse de secours implique de vérifier qu’elle est légitime et correctement mise en forme pour les services de réponse d’urgence. Il est possible d’ajouter et d’enregistrer un emplacement d’urgence qui n’est pas validé, mais seuls les emplacements validés peuvent être associés à un utilisateur. Après validation et enregistrement d’un emplacement d’urgence, vous pouvez l’affecter à un utilisateur. Pour modifier un emplacement d’urgence enregistré et validé, vous devez en créer un autre.
   
 ## <a name="what-are-places"></a>Emplacements géographiques
 
-Une place est associée à un emplacement d’urgence pour fournir un emplacement plus précis au sein d’un bâtiment. Il s’agit généralement d’un étage, d’une aile de bâtiment ou d’un numéro de bureau à l’endroit où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité de lieux associés à un emplacement d’urgence. 
+Une place est associée à un emplacement d’urgence pour fournir un emplacement plus précis au sein d’un bâtiment. Il s’agit généralement d’un étage, d’une aile de bâtiment ou d’un numéro de bureau à l’endroit où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité de lieux associés à une adresse de secours.
   
-Lorsque vous affectez un emplacement d’urgence à un utilisateur, il s’agit en fait d’un ID d’emplacement qui est référencé lors de l’affectation de l’emplacement. L’ID d’emplacement inclut l’emplacement de secours référencé (rue ou adresse postale). Par défaut, un emplacement d’urgence est inclus dans les cas où les lieux de construction ne sont pas nécessaires.
+Lorsque vous affectez un emplacement d’urgence à un utilisateur, il s’agit en fait d’un ID d’emplacement qui est référencé lors de l’affectation de l’emplacement. L’ID d’emplacement inclut l’adresse de secours référencée (rue ou adresse postale). Par défaut, un emplacement d’urgence est inclus dans les cas où les lieux de construction ne sont pas nécessaires.
   
 ## <a name="what-is-emergency-call-routing"></a>Qu'est-ce que le routage d'appel d'urgence ?
 
