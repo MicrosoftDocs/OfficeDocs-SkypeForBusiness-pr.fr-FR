@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez les emplacements d’urgence, les lieux et le routage des appels d’urgence, et la manière de les planifier et de les affecter à vos utilisateurs. '
-ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
-ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
+ms.openlocfilehash: 4dbfe8d2a10c24ae66967030007328d2b9422e34
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37901903"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925385"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>Que sont les emplacements, les lieux et le routage d’appel d’urgence ?
 
@@ -59,7 +59,7 @@ Les emplacements d’urgence et les emplacements d’urgence sont utilisés lors
     > [!IMPORTANT]
     > La validation d’une rue ou d’une adresse postale implique de vérifier qu’elle est légitime et correctement mise en forme. Il est possible qu’une adresse de secours partiellement correcte (par exemple, le nom de la ville, par exemple) puisse rester valide. Le processus de validation utilise toutes les parties d’une adresse donnée pour déterminer s’il contient suffisamment d’informations pour acheminer l’appel vers le centre de répartition d’urgence approprié. Si tel est le cas, il sera renvoyé comme validé et peut être attribué à un numéro de téléphone.
   
-3. **Obtenez des numéros de téléphone**. L’étape suivante consiste à obtenir des numéros de téléphone pour vos utilisateurs. À cet effet, vous pouvez obtenir de nouveaux numéros de téléphone auprès d'Office 365 ou en « portant » ou en transférant vos numéros de téléphone existants vers Office 365. Pour consulter les étapes complètes, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+3. **Obtenez des numéros de téléphone**. L’étape suivante consiste à obtenir des numéros de téléphone pour vos utilisateurs. À cet effet, vous pouvez obtenir de nouveaux numéros de téléphone auprès d'Office 365 ou en « portant » ou en transférant vos numéros de téléphone existants vers Office 365. Pour consulter les étapes complètes, voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
     
 4. **Attribution de numéros de téléphone**. La dernière étape consiste à permettre aux utilisateurs de passer et de recevoir des appels téléphoniques. Vous devez donc attribuer un numéro de téléphone à chaque utilisateur. Pour attribuer un numéro de téléphone, reportez-vous à la section [affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 

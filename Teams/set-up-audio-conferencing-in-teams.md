@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer des conférences rendez-vous ou audio pour les personnes de votre entreprise qui ont besoin d’utiliser un téléphone pour participer à des conférences téléphoniques. '
-ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571259"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925365"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft teams
 
@@ -65,7 +65,7 @@ Pour les audioconférences, vous ne pouvez pas utiliser les numéros de téléph
   
 - **Utiliser le centre d’administration Microsoft teams**. Dans certains pays ou régions, vous pouvez obtenir des numéros de service pour vos ponts de conférence à l’aide du centre d’administration Microsoft Teams. Voir [réception des numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
     
-- **Transférez vos numéros de service existants**. Pour porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel vers Office 365. Vous pouvez consulter [Transfert des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
+- **Transférez vos numéros de service existants**. Pour porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel vers Office 365. Pour plus d’informations sur la façon de procéder, voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros**. Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de service à l’aide du centre d’administration Microsoft teams ou vous aurez besoin de numéros de téléphone spécifiques ou d’indicatifs régionaux. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
     

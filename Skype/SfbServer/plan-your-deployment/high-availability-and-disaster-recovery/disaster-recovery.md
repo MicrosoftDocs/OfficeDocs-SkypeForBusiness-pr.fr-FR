@@ -12,10 +12,10 @@ ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Dans le cadre d’une reprise après sinistre, Skype entreprise Server propose le jumelage de pools avec basculement en cas de panne du pool.
 ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37341930"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Reprise après sinistre de la liste frontale dans Skype entreprise Server

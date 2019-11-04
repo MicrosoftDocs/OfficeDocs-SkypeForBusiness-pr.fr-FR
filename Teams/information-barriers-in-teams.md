@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885528"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931802"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -27,7 +27,7 @@ Les barrières en informations sont des stratégies qu’un administrateur peut 
 > [!NOTE]
 > - Les groupes de barrière d’information ne peuvent pas être créés entre des clients.
 > - L’utilisation de robots pour ajouter des utilisateurs n’est pas prise en charge dans la version 1.
-> - Les barrières d’information version 1 ne comprennent pas la prise en charge de SharePoint et OneDrive entreprise. Nous travaillons à l’activation de la fonctionnalité dans SharePoint et communiquerons dès qu’elle sera disponible.
+> - Nouveauté : la prise en charge de la protection des informations pour un site SharePoint connecté à teams est désormais en préversion privée. Pour participer à une préversion privée, cliquez [ici](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) . .
 
 Les stratégies de barrage d’information empêchent également les recherches et la découverte. En d’autres termes, si vous essayez de communiquer avec une personne sans communiquer, vous ne trouverez pas cet utilisateur dans le sélecteur de personnes.
 
@@ -76,45 +76,37 @@ S’il existe une discussion existante ou une autre communication entre les util
 - **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et aucune communication avec le groupe ne sera acceptés. L’utilisateur peut toujours voir d’anciennes conversations (qui sont en lecture seule), mais ne peut pas voir ou participer à d’autres conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations. 
 - **Équipe** : les utilisateurs qui ont été supprimés du groupe sont supprimés de l’équipe et ne seront pas en mesure d’afficher ou de participer à des conversations existantes ou nouvelles.
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>Que peuvent faire les utilisateurs si un autre utilisateur est bloqué ?
 
 Pour le moment, les utilisateurs ont connaissance des éléments suivants si une stratégie de protection des informations bloque un autre utilisateur :
 
-- **Onglet contacts** : un utilisateur A pu voir certains utilisateurs bloqués sous l’onglet **personnes** . L’utilisateur peut sélectionner les utilisateurs bloqués.
-- **Onglet activité** : si un utilisateur accède à l’onglet **activité** d’un utilisateur bloqué, aucun billet ne s’affiche. (L’onglet **activité** affiche uniquement les billets de canal et il n’y a pas de canaux courants entre les deux utilisateurs.)
-- **Organigrammes : si** un utilisateur accède à un organigramme sur lequel un utilisateur bloqué apparaît, il verra l’utilisateur bloqué sur le graphique et peut cliquer sur actions dans le graphique, mais les actions (comme les appels) ne seront pas transmises.
-- **Carte contacts** : si un utilisateur participe à une conversation et est bloqué par la suite, les autres utilisateurs peuvent toujours voir la carte de personnes pour l’utilisateur bloqué. Toutes les actions figurant sur la carte (par exemple, les appels et les discussions) seront disponibles, mais pas les actions.
-- **Contacts suggérés** : dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs), les utilisateurs peuvent voir tous les contacts suggérés (y compris les utilisateurs bloqués). Toutefois, si un utilisateur clique sur le nom d’un utilisateur bloqué pour ouvrir le volet de conversation, le message est bloqué.
-- **Contacts de chat** : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts de la messagerie instantanée.
-- **Appels de contact** : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts appels et les actions telles que les appels et la messagerie apparaissent, mais lorsque l’utilisateur tente d’appeler ou d’envoyer un message à l’utilisateur bloqué, l’appel ou le message ne sera pas envoyé.
-- **Migration de Skype vers les équipes** : au cours d’une migration Skype entreprise vers Teams, tous les utilisateurs, même ceux qui ont été bloqués par des politiques de barrage d’information, sont migrés vers Teams, puis seront gérés comme décrit ci-dessus.
-
-Bientôt disponible : les utilisateurs seront en mesure de procéder comme suit si une stratégie de protection des informations bloque un autre utilisateur :
-
 - **Onglet contacts** : un utilisateur ne peut pas voir les utilisateurs bloqués sous l’onglet **personnes** .
+- **Sélecteur de personnes** -les utilisateurs bloqués ne seront pas visibles dans le sélecteur de personnes.
 - **Onglet activité** : si un utilisateur accède à l’onglet **activité** d’un utilisateur bloqué, aucun billet ne s’affiche. (L’onglet **activité** affiche uniquement les billets de canal et il n’y a pas de canaux courants entre les deux utilisateurs.)
 - **Organigrammes : si** un utilisateur accède à un organigramme sur lequel un utilisateur bloqué s’affiche, l’utilisateur bloqué n’apparaît pas dans l’organigramme et un message d’erreur s’affiche à la place.
 - **Carte contacts** : si un utilisateur participe à une conversation et que l’utilisateur est bloqué par la suite, les autres utilisateurs verront s’afficher un message d’erreur au lieu de la carte contacts lorsqu’ils placent le pointeur sur le nom de l’utilisateur bloqué. Les actions figurant sur la carte (par exemple, appels et discussions) ne sont pas disponibles.
 - **Suggestions de contacts** : les utilisateurs bloqués n’apparaissent pas dans la liste des contacts suggérés (liste de contacts initiale qui s’affiche pour les nouveaux utilisateurs).
-- **Contacts de chat** : un utilisateur ne peut pas voir les utilisateurs bloqués dans la liste des contacts de la messagerie instantanée.
+- **Contacts de chat** : un utilisateur peut voir les utilisateurs bloqués dans la liste de contacts, mais les utilisateurs bloqués sont identifiés et la seule action que l’utilisateur peut effectuer est de les supprimer. L’utilisateur peut également cliquer dessus pour afficher sa ancienne conversation.
 - **Appels** de contact : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts appels, mais les utilisateurs bloqués seront identifiés et la seule action qu’il peut effectuer est de les supprimer.
 - **Migration de Skype vers les équipes** : au cours d’une migration Skype entreprise vers Teams, tous les utilisateurs, même ceux qui ont été bloqués par des politiques de barrage d’information, sont migrés vers Teams, puis seront gérés comme décrit ci-dessus.
 
+
+
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
-Les barrières d’information sont désormais disponibles et sont incluses dans les abonnements, tels que :
+Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à l’équipe pour l’interface des fichiers. L’accès à ce site SharePoint et aux fichiers respecte la stratégie IB de l’organisation, c’est-à-dire que seuls les utilisateurs pour lesquels le segment IB correspond à une stratégie IB sont autorisés à y accéder. Même au moment du partage de fichiers, la stratégie IB est honorée.
 
-- Microsoft 365 E5
-- Office 365 E5
-- Conformité avancée Office 365
-- Microsoft 365 E5 conformité
+Par exemple : dans contoso Bank Corporation, l’utilisateur’Sesha@contosobank.onmicrosoft.com’appartient au segment bancaire d’investissement et l’utilisateur’Nikita@contosobank.onmicrosoft.com’appartient à un avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments. Lorsque l’utilisateur Sesha crée une équipe pour un segment de services d’investissement, l’équipe et le site SharePoint qui la replaceront ne seront accessibles qu’aux utilisateurs de segments bancaires d’investissement. L’utilisateur Nikita ne peut pas accéder à ce site, même s’il possède le lien de site.
 
-Pour plus d’informations, y compris les offres et les tarifs, voir [solutions de conformité](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Pour plus d’informations, y compris les offres et les tarifs, voir recommandations en matière de [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+
 
 ## <a name="more-information"></a>Plus d’informations
 
 - Pour en savoir plus sur les barrières d’information, voir [barrières d’information](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Pour configurer des stratégies de barrière des informations, consultez [définir des stratégies pour les barrières d’informations](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- Pour configurer des stratégies de barrière des informations, consultez [définir des stratégies pour les barrières d’information](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 - Pour modifier ou supprimer des stratégies de protection des informations, voir [modifier ou supprimer des stratégies de barrage des informations](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+

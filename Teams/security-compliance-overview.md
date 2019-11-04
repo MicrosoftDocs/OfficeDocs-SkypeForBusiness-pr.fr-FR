@@ -18,10 +18,10 @@ f1keywords:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37568055"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
@@ -162,6 +162,6 @@ En tant que client Office 365, vous possédez et contrôlez vos données. Micro
 
 Pour en savoir plus sur nos informations de confiance et de sécurité, consultez le centre de gestion de la [confidentialité de Microsoft](https://microsoft.com/trustcenter). Teams suit les mêmes recommandations et principes que le centre de gestion de la confidentialité Microsoft.
 
-<a name="related-topics"></a>Sujets associés
+<a name="related-topics"></a>Voir aussi
 ----------------------
 [Liens de sécurité Office 365 ATP](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)

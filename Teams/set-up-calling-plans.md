@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: d52fbfdf3dd4c2fe7b3097db5cd4f97aa8013910
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37571237"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925315"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
@@ -48,7 +48,7 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 - **Utilisez le centre d’administration Skype entreprise.** Dans certains pays ou régions, vous pouvez obtenir des numéros pour vos utilisateurs à l’aide du centre d’administration de Skype entreprise, reportez-vous à la rubrique [obtention de numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
     
-- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel vers Office 365. Pour plus d’informations sur la façon de procéder, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
+- **Portage de vos numéros existants.** Vous pouvez porter ou transférer des numéros existants de votre fournisseur de services ou de l’opérateur de téléphonie actuel vers Office 365. Pour plus d’informations sur la façon de procéder, voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gérer des numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .  
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne serez pas en mesure d’obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Skype entreprise, ou vous aurez besoin de numéros de téléphone ou indicatifs spécifiques. Dans ce cas, vous devez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 

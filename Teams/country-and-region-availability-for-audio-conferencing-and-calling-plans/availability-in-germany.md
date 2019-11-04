@@ -25,10 +25,10 @@ ms.custom:
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles en Allemagne.
 ms.openlocfilehash: a10fc7e69f63842aa67ee208b1f27528debb956d
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569881"
 ---
 # <a name="availability-in-germany"></a>Disponibilité en Allemagne

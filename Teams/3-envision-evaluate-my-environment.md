@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516015"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925075"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -42,7 +42,7 @@ Vous devez incorporer ces informations dans le registre de risques.
 
 Dans le cadre de votre découverte environnementale, incluez toutes les informations relatives à l’utilisation de l’utilisateur final, par exemple, l’évaluation de la compatibilité des PC et des appareils mobiles pour la prise en charge de l’audioconférence et du système téléphonique pour les appels de plan d’utilisation pour les entreprises. configuration logicielle requise.
 
-La découverte environnementale peut également vous indiquer si vous avez besoin de [transférer des numéros de téléphone vers Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+La découverte environnementale peut également vous indiquer si vous avez besoin de [transférer des numéros de téléphone vers Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 Le fait de savoir que cela aidera votre organisation à ajuster son plan de projet en conséquence et à préparer les informations nécessaires au transfert de numéro. Vous pouvez utiliser la [découverte environnementale pour le lancement de Microsoft teams](environmental-discovery-for-microsoft-teams-rollout.md) pour effectuer une découverte environnementale.
 
 <table>
@@ -74,7 +74,7 @@ Utilisez les considérations suivantes pour évaluer la préparation de votre or
 
 Teams utilise une technologie audio et vidéo (codecs) pouvant s’adapter à la plupart des conditions de réseau. Pour garantir des performances optimales et cohérentes, vous devez préparer votre réseau pour Teams.
 
-![Diagramme décrivant les trois composants du diagramme de qualité](media/evaluate-my-environment-image1.png "qui décrivent les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Avec le focus du réseau.")
+![Diagramme décrivant les trois composantes de la qualité](media/evaluate-my-environment-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Avec le focus du réseau.")
 
 ## <a name="key-takeaways"></a>Points clés
 

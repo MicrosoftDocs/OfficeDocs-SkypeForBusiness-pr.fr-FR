@@ -15,12 +15,12 @@ ms.collection:
 description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c7b5d619812284bc60aab7bcc2dbea6e9ec0173
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565038"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931622"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
@@ -61,4 +61,4 @@ Une fois les utilisateurs inscrits pour la MFA, lors de leur prochaine connexion
 |Type de client  |Options de deuxième facteur de MFA disponibles  |Remarques  |
 |---------|---------|---------|
 |**Dans le cloud uniquement**     |MFA pour Office 365 <ul><li>Appel téléphonique</li><li>SMS</li><li>Notification d'application mobile</li><li>Code vérification d'application mobile</li></ul>        |[Planification de l'authentification multifacteur pour les déploiements Office 365](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>MFA pour Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Note : D'autres solutions MFA sont disponibles auprès des [fournisseurs d'identité compatibles avec la fédération Azure AD](https://go.microsoft.com/fwlink/p/?LinkId=510953)         |
+|**Configuration hybride (modèle d'identité synchronisée ou fédérée)**     |<ul><li>MFA pour Office 365</li><li>Module MFA pour Azure (services ADFS intégrés)</li><li>Carte à puce virtuelle ou physique (services ADFS intégrés)</li></ul>         |Remarque : des solutions MFA supplémentaires sont disponibles avec les [documents de compatibilité des fournisseurs d’identité Azure ad](https://www.microsoft.com/en-us/download/details.aspx?id=56843)         |

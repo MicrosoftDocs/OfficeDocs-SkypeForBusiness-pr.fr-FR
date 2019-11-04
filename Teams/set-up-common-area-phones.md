@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Apprenez à configurer des téléphones communs pour les couloirs, les zones de réception et les salles de conférence. '
-ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571592"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925305"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -61,7 +61,7 @@ La licence de téléphone commune prend en charge les éléments suivants :
 |Skype Entreprise |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
 |Systèmes téléphoniques |    &#x2714; |
-|Audioconférence, |       &#x2718; &sup1 ;  |
+|Audioconférence |       &#x2718; &sup1 ;  |
 |Microsoft Intune |        &#x2718; &sup2 ; |
 |Disponibilité dans le monde entier |    &#x2714; |
 |Disponibilité du canal |    AE, EAS, CSP, GCC, EES, Web direct  |
@@ -114,6 +114,6 @@ Utilisez le centre d’administration Skype entreprise pour attribuer un numéro
 
 Pour plus d’informations, reportez-vous à [la rubrique réception des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Vous pouvez également utiliser votre numéro de téléphone avec un autre opérateur et le transférer vers Office 365. [Pour plus d’inverser, voir transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Vous pouvez également utiliser votre numéro de téléphone avec un autre opérateur et le transférer vers Office 365. Voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 

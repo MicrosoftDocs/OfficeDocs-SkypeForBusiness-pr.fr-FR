@@ -18,10 +18,10 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
 ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569275"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
@@ -98,5 +98,5 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Sur les appareils mobiles, afficher les canaux préférés au-dessus des discussions récentes** Activez ce paramètre pour déplacer les canaux favoris vers le haut de l’écran de l’appareil mobile de sorte qu’il ne soit pas nécessaire de faire défiler les canaux pour les retrouver. 
 - **Autoriser un utilisateur à supprimer des utilisateurs d’une conversation de groupe** Activez ce paramètre pour permettre à un utilisateur de supprimer d’autres utilisateurs d’une discussion de groupe. Cette fonctionnalité vous permet de poursuivre une conversation avec un groupe de personnes plus petit sans perdre l’historique de vos conversations.
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 [Stratégies de réunion dans teams](meeting-policies-in-teams.md)

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Page d’accueil de plan d’appels
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d27169d5f65fb693ce49453f7e7c965f867198ad
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516998"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925585"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Quelle forfait d’appels vous convient le mieux ? 
 
@@ -56,7 +56,7 @@ Mes utilisateurs ont-ils chacun un numéro de téléphone à composer directe | 
 
 ### <a name="transfer-phone-numbers-to-office-365"></a>Transférer les numéros de téléphone vers Office 365
 
-Il est facile de transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous transférez vos numéros de téléphone vers Teams, Microsoft deviendra votre fournisseur de services et vous facturera ces numéros de téléphone. Pour plus d’informations, consultez la rubrique [transfert de numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Il est facile de transférer vos numéros de téléphone de votre fournisseur de services actuel vers Teams. Lorsque vous transférez vos numéros de téléphone vers Teams, Microsoft deviendra votre fournisseur de services et vous facturera ces numéros de téléphone. Pour plus d’informations, consultez la section [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>Numéros de téléphone et emplacements d'urgence

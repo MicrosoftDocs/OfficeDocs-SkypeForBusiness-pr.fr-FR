@@ -17,19 +17,19 @@ description: Votre équipe ou administrateur informatique peut configurer l’ac
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 071bb1523a0840a798edfe030a1dd52362695df2
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753529"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925045"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gérer les accès externes dans Microsoft teams
 ======================================================
 
 L’accès externe permet aux utilisateurs d’équipes externes d’un domaine entier de rechercher, appeler, discuter et organiser des réunions en équipe. Vous pouvez également utiliser l’accès externe pour communiquer avec des utilisateurs externes qui continuent à utiliser Skype entreprise (en ligne ou en local) et Skype (disponible en première 2020).
 
-Si vous souhaitez que les utilisateurs externes aient accès à des équipes et des canaux, l’accès invité peut être une meilleure solution. Pour plus d’informations sur les différences entre accès externe et accès invité, voir [comparaison des accès externes et invités](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+Si vous voulez que les utilisateurs externes aient accès aux équipes et aux canaux, l’accès invité sera sans doute préférable. Pour plus d’informations sur les différences entre accès externe et accès invité, voir [comparaison des accès externes et invités](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Utilisez les accès externes dans les cas suivants :
   
@@ -132,7 +132,6 @@ Demandez à l’administrateur de l’organisation de procéder comme suit :
 |Autorisez les **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs de Skype entreprise Online** à partir d’une autre organisation Office 365.    | Vos utilisateurs de Skype entreprise Online peuvent communiquer avec des utilisateurs de Skype entreprise Online au sein d’une autre organisation si vos utilisateurs sont dans l’un des modes de mise à niveau suivants : îles, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings ; les utilisateurs de Skype entreprise Online de l’organisation se trouvent dans l’un des modes de mise à niveau suivants : îles, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>Activez l’option les **utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe. Par ailleurs, l’administrateur de l’organisation d’autres équipes effectue les mêmes opérations.|
 |Autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs de Skype entreprise** à partir d’une organisation locale.     |Vos utilisateurs de Skype entreprise Online peuvent communiquer avec des utilisateurs de Skype entreprise à partir d’une organisation locale si vos utilisateurs sont dans l’un des modes de mise à niveau suivants : îles, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings ; les utilisateurs de Skype entreprise Online de l’organisation se trouvent dans l’un des modes de mise à niveau suivants : îles, SfBOnly, SfBWIthTeamsCollab, SfBWithTeamsCollabAndMeetings.<br><br>Activez l’option les **utilisateurs peuvent communiquer avec les utilisateurs de Skype entreprise et équipes** dans l’accès externe. Par ailleurs, l’administrateur de l’organisation d’autres équipes effectue les mêmes opérations.|
 |Autoriser vos **utilisateurs de Skype entreprise Online** à communiquer avec des **utilisateurs de Skype** (à l’intérieur ou à l’extérieur de votre organisation).   |Activez les **utilisateurs de Skype entreprise pour communiquer avec les utilisateurs de Skype** à l’aide d’un paramètre d’accès externe.|
-|Permettre **aux utilisateurs** de votre organisation de communiquer avec des **utilisateurs gratuits** de l’extérieur de votre organisation. | Pour plus d’informations sur le fonctionnement de la version gratuite de teams avec l’accès externe, voir [différences entre Microsoft teams et Microsoft teams gratuit](https://support.office.com/article/differences-between-microsoft-teams-and-microsoft-teams-free-0b69cf39-eb52-49af-b255-60d46fdf8a9c).|
 
 > [!IMPORTANT]
 > Vous n’avez pas besoin d’ajouter des **domaines Skype** comme domaines autorisés pour permettre aux utilisateurs d’équipes ou de Skype entreprise Online de communiquer avec des utilisateurs de Skype à l’intérieur ou à l’extérieur de votre organisation. Tous les **domaines Skype** sont autorisés, ce qui signifie que tous les domaines sont considérés comme autorisés.
@@ -143,6 +142,6 @@ Demandez à l’administrateur de l’organisation de procéder comme suit :
 
 Pour en savoir plus sur la différence entre accès externe et accès invité, voir [communiquer avec des utilisateurs d’autres organisations](communicate-with-users-from-other-organizations.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Interface de conversation native pour les utilisateurs externes (fédérés)](native-chat-for-external-users.md)

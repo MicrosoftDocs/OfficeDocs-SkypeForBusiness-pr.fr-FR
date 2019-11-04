@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les conseils nécessaires pour porter vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886960"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925195"
 ---
 # <a name="more-information-about-porting"></a>Plus d’informations sur le portage
 
 Vous trouverez ci-dessous des informations supplémentaires sur le portage de vos numéros de téléphone vers Microsoft Teams.
 
-Pour obtenir des instructions détaillées complètes, reportez-vous à la section transférer des numéros de téléphone vers Teams.
+Pour obtenir des instructions détaillées complètes, reportez-vous à la section [transférer des numéros de téléphone vers teams](transfer-phone-numbers-to-teams.md).
 
 Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez l’aide de l' [assistance téléphonique PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
@@ -106,11 +106,11 @@ Lorsque vous envoyez une demande de transfert, vous devez utiliser un fichier CS
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>Comment puis-je voir l’état de mon ordre de transfert ?
 
-Quel est le statut de vos demandes de transfert ?
+[Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 
 ## <a name="related-topics"></a>Voir aussi
 
-- Qu’est-ce qu’une demande de transfert ?
+- [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)

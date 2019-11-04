@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez les standards automatiques du Cloud et comment les utiliser.
-ms.openlocfilehash: 88a9282bc6f16d0fae5f2753b9f6612728eaf9dd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d326b707ff94d9d30e26f6da31f12588b083872e
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568541"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924885"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
@@ -230,7 +230,7 @@ Pour configurer un standard automatique et les options de menu, sélectionnez [c
 
 Vous pouvez affecter un numéro de service ou un numéro hybride au compte de ressources lié au standard automatique (ou à plusieurs comptes de ressources si plusieurs numéros de téléphone sont requis). Pour plus d’informations, voir [planifier le routage direct](direct-routing-plan.md) .
 
-Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéros de service gratuits ou payants existants. Dès lors que vous recevez les numéros de service gratuits ou payants, ils s’affichent dans les**numéros de téléphone****vocaux** > du **Centre** > d’administration Skype entreprise. Le **type numérique** est répertorié en tant que **service-sans numéro**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) ou, si vous voulez effectuer un virement et un numéro de service existant, voir [transférer des numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéros de service gratuits ou payants existants. Dès lors que vous recevez les numéros de service gratuits ou payants, ils s’affichent dans les**numéros de téléphone****vocaux** > du **Centre** > d’administration Skype entreprise. Le **type numérique** est répertorié en tant que **service-sans numéro**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers) ou, si vous voulez effectuer un virement et un numéro de service, voir [transférer des numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
   
 > [!NOTE]
 > Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour savoir comment procéder, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Page d’accueil du déploiement de la voix Cloud dans teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515831"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925575"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Appel vocal dans le nuage dans Microsoft Teams
 
@@ -44,7 +44,7 @@ Les articles suivants fournissent des informations supplémentaires sur le dépl
 - [Système téléphonique avec forfaits d’appels](calling-plan-landing-page.md)
 - [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Déploiement de la fonctionnalité vocale cloud](cloud-voice-deployment.md)
-- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Détails sur les solutions téléphoniques Microsoft Telephony](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Pour en savoir plus sur le système téléphonique, voir la session suivante : [Présentation du système téléphonique dans Microsoft teams](https://aka.ms/teams-phone-system)
 
 
@@ -112,7 +112,7 @@ Microsoft est doté de deux types de numéros de téléphone disponibles : des 
 | :------------|:-------|
 | Quels sont les emplacements des utilisateurs qui ont besoin de nouveaux numéros de téléphone de Microsoft ? | Pour plus d’informations sur l’affichage des numéros de téléphone, voir [gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) et [obtenir des numéros de téléphone pour vos utilisateurs](getting-phone-numbers-for-your-users.md). 
 | Quel type de numéro de téléphone (abonné ou service) ai-je besoin ? | Pour vous aider à choisir le type de numéro de téléphone dont vous avez besoin, voir [différents types de numéros de téléphone utilisés pour les offres d’appels](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-Comment puis-je porter des numéros de téléphone existants vers Office 365 ?|Pour plus d’informations, consultez la rubrique [transfert de numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md).
+Comment puis-je porter des numéros de téléphone existants vers teams ?|Pour plus d’informations, reportez-vous à la section [transférer des numéros de téléphone vers Microsoft teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 |||
 
 ### <a name="dial-plans"></a>Plan de numérotation
@@ -134,7 +134,7 @@ Les files d’attente d’appels Cloud incluent des messages d’accueil qui son
 
 |Posez-vous la question|Action |
 |:------------|:-------|
-| Mon organisation a-t-elle besoin d’une file d’attente d’appels ? | Pour plus d’informations, reportez-vous à la rubrique [création d’une file d’attente d’appels Cloud](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) et [configuration de votre système téléphonique](setting-up-your-phone-system.md). |
+| Mon organisation a-t-elle besoin d’une file d’attente d’appels ? | Pour plus d’informations, reportez-vous à la rubrique [création d’une file d’attente d’appels Cloud](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) et [configuration de votre système téléphonique](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Standards automatiques
 
@@ -149,8 +149,8 @@ Les standards automatiques du Cloud peuvent être utilisés pour créer un syst�
 Pour plus d’informations sur les appareils pris en charge, voir les rubriques suivantes :
 
 - [Gérer vos périphériques dans Microsoft Teams](device-management.md)
-- [Téléphones IP](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Périphériques audio et vidéo USB](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Communications intelligentes pour les appareils](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [Téléphones IP](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Périphériques audio et vidéo USB](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Communications intelligentes pour les appareils](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

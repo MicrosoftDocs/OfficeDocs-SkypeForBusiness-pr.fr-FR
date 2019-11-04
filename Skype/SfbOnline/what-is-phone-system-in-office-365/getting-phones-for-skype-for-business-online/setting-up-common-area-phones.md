@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour les téléphones communs.
-ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792454"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924895"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -36,8 +36,8 @@ La première chose à faire est de confirmer que vous avez :
 - acheté une licence de téléphone de zone commune et un Forfait d'appels.
 - recherché et acheté des téléphones approuvés (voir la liste [ici](deploying-skype-for-business-online-phones.md)).
 - Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Polycom VVX téléphones**: accédez à **** > l’application**État** > de la**plateforme** > **principale**de l'**application** > .
-  - **Numéros**de téléphone Yealink: accédez à Status ( **statut** ) sur l’écran principal.
+  - **Polycom VVX téléphones**: **accédez à l'** > **application État** > de la**plateforme** > **principale**de l'**application** > .
+  - **Numéros**de téléphone Yealink : accédez à **Status (statut** ) sur l’écran principal.
   - **Téléphones AudioCodes**: accédez à l'**État** > de la**version du microprogramme** du **menu** > dans l’écran d’accueil.
   - **Téléphones Lync Phone Edition (LPE)**: accédez à**informations** sur le système de **menus** > dans l’écran d’accueil.
 
@@ -97,7 +97,7 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 Pour plus de détails, reportez-vous à la section [Obtenir des numéros de téléphone pour vos utilisateurs](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Sachez que vous pouvez également prendre le numéro de téléphone que vous avez avec un autre opérateur et le « *Porter* » ou le transférer sur Office 365. Reportez-vous à la section [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
+Sachez que vous pouvez également prendre le numéro de téléphone que vous avez avec un autre opérateur et le « *Porter* » ou le transférer sur Office 365. Reportez-vous à la section [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Étape 4 - Configuration de votre téléphone
 

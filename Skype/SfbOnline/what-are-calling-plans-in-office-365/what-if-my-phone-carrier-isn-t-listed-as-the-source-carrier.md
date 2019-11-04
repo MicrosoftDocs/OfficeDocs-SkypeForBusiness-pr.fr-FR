@@ -21,22 +21,22 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Apprenez à faire si votre opérateur n’est pas répertorié dans Skype entreprise. '
-ms.openlocfilehash: e882a376c8f7b0baf07c42e71c03a84acc16b4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d1a9c70ffce63ee1a7ff437cb7157c5b8b5aeab
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290805"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924915"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Qu’en est-il si mon opérateur de téléphonie n’est pas répertorié en tant qu’opérateur source ?
 
 C’est un peu plus confus lorsque vous constatez que le nom de votre transporteur ne figure pas dans la liste. Dans la plupart des cas, si le fournisseur ou opérateur de services est différent, il est probable que les numéros de téléphone que vous transférez appartiennent à un autre fournisseur ou opérateur de services. Il peut arriver que le fournisseur de services ou l’opérateur qui est répertorié puisse être différent de votre fournisseur de services actuel car votre fournisseur de services actuel peut travailler avec un fournisseur de services tiers. 
   
-Par exemple:
+Par exemple :
   
 - Si vous transférez un numéro de votre opérateur Skype entreprise, le niveau3 peut apparaître.
     
-  **Pour obtenir des instructions complètes détaillées, consultez la rubrique [transférer des numéros de téléphone vers Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **Pour obtenir des instructions détaillées complètes, reportez-vous à la section [transférer des numéros de téléphone vers teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
 
     > [!NOTE]
     > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
