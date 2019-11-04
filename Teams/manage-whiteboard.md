@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571911"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925175"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft teams
 ==========================================
@@ -31,21 +31,7 @@ Le tableau blanc collaboratif Microsoft est une toile numérique qui vous permet
 
 Les utilisateurs peuvent partager un tableau blanc pour le mettre à la disposition de tous les participants d’une réunion Teams. Ce même tableau blanc est disponible simultanément dans toutes les applications de tableau blanc collaboratif sur Windows 10, iOS et l’application Web.
 
-## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>Activer ou désactiver l’application tableau blanc collaboratif
-
-Pour activer ou désactiver l’application Web tableau blanc collaboratif, procédez comme suit :
-
-1. Accédez au centre d’administration 365 Microsoft.
-
-2. Accédez à **Paramètres** > **Services et compléments**.
-
-3. Dans la page de **& de service compléments** , faites défiler vers le bas, puis sélectionnez **tableau blanc**.
-
-4. Pour activer l’application tableau blanc collaboratif, dans le volet **tableau blanc collaboratif** , **activez ou désactivez l’option Activer ou désactiver le tableau blanc pour l’ensemble de votre organisation** **.**
-
-    Pour désactiver l’application tableau blanc collaboratif, dans le volet **tableau blanc collaboratif** , **activez ou désactivez l’option Activer ou désactiver le tableau blanc pour l’ensemble de votre organisation** **.**
-
-5. Cliquez sur **Enregistrer**.
+Pour activer ou désactiver l’application tableau blanc collaboratif, voir [activer le tableau blanc collaboratif Microsoft pour votre organisation](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Gardez à l’esprit que ce paramètre active ou désactive le tableau blanc pour l’ensemble de votre organisation, et pas seulement pour les équipes.
 
 ## <a name="whiteboard-on-surface-hub"></a>Tableau blanc sur surface Hub
 

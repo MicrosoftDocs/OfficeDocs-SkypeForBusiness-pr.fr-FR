@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: ''
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
 ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37616087"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
@@ -137,13 +137,13 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | Virtual | Fonctionnalités de l’appelant  | Détection de silence   |  | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : un administrateur peut configurer une règle de niveau de service pour marquer la boîte vocale comme protégée | O | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer la durée limite d’enregistrement  |     | O | Y    |
-| Virtual | Client-fonctionnalités d’administration | Changer le délai de détection du silence    |  | N/D    | Y    |
+| Virtual | Client-fonctionnalités d’administration | Changer le délai de détection du silence    |  | S/O    | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer le nombre d’échecs d’entrée | CVM : préprogrammé sur 3 | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Changer la langue par défaut |  | O | Y    |
 | Virtual | Client-fonctionnalités d’administration | Activer/désactiver la transcription |  | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Activer/désactiver les notifications d’appel manqué |  | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l’aperçu de messagerie vocale    |  | Y | Y    |
-| Virtual | Client-fonctionnalités d’administration | Personnaliser un message texte pour les utilisateurs activés|  | N/D    | Y    |
+| Virtual | Client-fonctionnalités d’administration | Personnaliser un message texte pour les utilisateurs activés|  | S/O    | Y    |
 | Virtual | Client-fonctionnalités d’administration | Masquage d’inconvenances de transcription|  | O | N    |
 | Virtual | Client-fonctionnalités d’administration | Politique de messagerie vocale    |   | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | Y    |
