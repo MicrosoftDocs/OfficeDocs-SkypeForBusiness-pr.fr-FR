@@ -16,6 +16,7 @@
 
 # Conversations, équipes, canaux et applications
 ## [Planifier votre déploiement](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Utiliser Advisor pour les équipes pour déployer des équipes](use-advisor-teams-roll-out.md)
 ## [Vue d’ensemble des équipes et des canaux](teams-channels-overview.md)
 ## [Affecter des propriétaires d’équipe et des membres dans Teams](assign-roles-permissions.md)
 ## [Présentation de l’appartenance dynamique pour les équipes](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [Afficher la liste des numéros de téléphone de votre organisation](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Obtention de numéros de téléphone de service](getting-service-phone-numbers.md)
-### [Transférer les numéros de téléphone vers Office 365](transfer-phone-numbers-to-office-365.md)
-### [Transfert des questions fréquemment posées numéros de téléphone](transferring-phone-numbers-common-questions.md)
+### Transfert de numéros de téléphone
+#### [Qu’est-ce qu’une demande de transfert ?](phone-number-calling-plans/port-order-overview.md)
+#### [Transférer les numéros de téléphone vers des équipes](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [Envoyer manuellement une demande de transfert](phone-number-calling-plans/manually-submit-port-order.md)
+#### [Quel est le statut de vos demandes de transfert ?](phone-number-calling-plans/port-order-status.md)
 
 ## Routage des appels
 ### [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
