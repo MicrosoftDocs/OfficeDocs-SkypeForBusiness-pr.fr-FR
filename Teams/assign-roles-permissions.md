@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6757f7200535dc8fb687915ec033712b2654723b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37516444"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968065"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 =================================================
@@ -38,9 +38,12 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 |          **Quitter une équipe**           |    Oui     |     Oui     |
 |  **Modifier le nom/la description d'une équipe**   |    Oui     |     Non      |
 |          **Supprimer l’équipe**          |    Oui     |     Non      |
-|          **Ajouter un canal**          |    Oui     |    Oui<sup>2</sup>|
-| **Modifier le nom/la description d'un canal** |    Oui     |    Oui<sup>2</sup>|
-|        **Supprimer un canal**         |    Oui     |    Oui<sup>2</sup>|
+|          **Ajouter un canal standard**          |    Oui     |    Oui<sup>2</sup>|
+| **Modifier le nom ou la description du canal standard** |    Oui     |    Oui<sup>2</sup>|
+|        **Supprimer un canal standard**         |    Oui     |    Oui<sup>2</sup>|
+|          ***Ajouter un canal privé**          |    Oui     |    Oui<sup>2</sup>|
+| ***Modifier le nom ou la description du canal privé** |    Non     |    N/A|
+|        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |
 |           **Ajouter des onglets**            |    Oui     |    Oui<sup>2</sup>|
@@ -48,10 +51,12 @@ Le tableau ci-après présente les différences d'autorisations entre un propri�
 |           **Ajouter des bots**            |    Oui     |    Oui<sup>2</sup>|
 
 <sup>1</sup> les propriétaires des équipes peuvent créer des équipes, sauf s’ils sont restreints. [Autorisations pour créer des équipes](#permissions-to-create-teams) ci-dessous.<br>
-><sup>2</sup> un propriétaire peut désactiver ces éléments au niveau de l’équipe, auquel cas les membres ne peuvent pas y accéder.<br>
+<sup>2</sup> un propriétaire peut désactiver ces éléments au niveau de l’équipe, auquel cas les membres ne peuvent pas y accéder.<br>
 <sup>3</sup> après avoir ajouté un membre à une équipe, un propriétaire peut également promouvoir un membre au statut de propriétaire. Il est également possible pour un propriétaire d’abaisser leur propre état pour un membre.<br>
 <sup>4</sup> les membres de Teams peuvent ajouter d’autres membres à une équipe publique.<br>
 <sup>5</sup> un membre d’équipe ne peut pas ajouter directement des membres à une équipe privée, ils peuvent demander qu’une personne soit ajoutée à une équipe dont ils sont déjà membres. Lorsqu’un membre demande l’ajout d»une personne à une équipe, les propriétaires des équipes reçoivent une alerte de demande en attente qu’ils peuvent accepter ou refuser.
+
+* Pour en savoir plus sur les autorisations de canaux privés, voir [canaux privés dans teams](private-channels.md).
 
 > [!NOTE]
 > Les propriétaires peuvent faire des propriétaires d’autres membres dans l’option **afficher les équipes** . Une équipe peut compter 100 propriétaires maximum. Nous vous recommandons d’avoir au moins quelques propriétaires pour vous aider à gérer l’équipe. Cela permet également d’éviter les groupes orphelins si un propriétaire unique quitte votre organisation. Pour plus d'informations sur les groupes orphelins, reportez-vous à l'article [Attribuer un nouveau propriétaire à un groupe orphelin](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).

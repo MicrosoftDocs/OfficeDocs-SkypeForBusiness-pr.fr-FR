@@ -3,7 +3,6 @@ title: Placer un utilisateur ou une équipe Microsoft Teams en conservation lé
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,12 +13,12 @@ search.appverid: MET150
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe6418162d95ebfb14665e004c3aeb508c3baaf4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564986"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968035"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 ==================================================
@@ -29,10 +28,11 @@ Pour placer un utilisateur ou une équipe en conservation légale, accédez au [
 > [!NOTE]
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
 
+> [!NOTE]
+> Nous ne prenons pas encore en charge la configuration pour la conservation légale de messages de canal privé. Le blocage légal des fichiers partagés dans les canaux privés est pris en charge.
+
 > [!IMPORTANT]
 > Lorsqu’un utilisateur ou un groupe est suspendu, toutes les copies de messages sont conservées. Exemple : Clay a publié un message dans un canal, puis l'a modifié. Dans un scénario de conservation, les deux copies du message sont conservées. Sans la conservation légale, seul le dernier message est conservé.
-
-
 
 Dans la figure ci-après, Clay est impliqué dans une enquête. Clay est membre de l'équipe Brokers-Dealers.
 

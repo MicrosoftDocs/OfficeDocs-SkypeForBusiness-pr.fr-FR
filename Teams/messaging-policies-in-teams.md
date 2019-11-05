@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569275"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968235"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -34,7 +34,7 @@ Par défaut, la création d’une stratégie nommée global (au niveau de l’or
 
 ## <a name="change-or-create-a-messaging-policy"></a>Modification ou création d’une stratégie de messagerie
 
-Vous pouvez facilement gérer les stratégies de messagerie dans le centre d’administrationhttp://admin.teams.microsoft.com) de Microsoft Teams (en vous connectant avec des informations d’identification d’administrateur et en choisissant **stratégies de messagerie** dans le volet de navigation gauche. Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, sélectionnez la ligne **global (par défaut de l’organisation)** , puis apportez les modifications souhaitées. Pour créer une stratégie de messagerie personnalisée, sélectionnez **nouvelle stratégie**, attribuez un nom à la nouvelle stratégie, puis sélectionnez vos paramètres. Lorsque vous avez fin, cliquez sur **Enregistrer** .
+Vous pouvez facilement gérer les stratégies de messagerie dans le centre d’administrationhttps://admin.teams.microsoft.com) de Microsoft Teams (en vous connectant avec des informations d’identification d’administrateur et en choisissant **stratégies de messagerie** dans le volet de navigation gauche. Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, sélectionnez la ligne **global (par défaut de l’organisation)** , puis apportez les modifications souhaitées. Pour créer une stratégie de messagerie personnalisée, sélectionnez **nouvelle stratégie**, attribuez un nom à la nouvelle stratégie, puis sélectionnez vos paramètres. Lorsque vous avez fin, cliquez sur **Enregistrer** .
 
 Par exemple, imaginons que vous vouliez vérifier que les messages envoyés ne sont pas supprimés ou modifiés. Vous pouvez créer une stratégie personnalisée nommée « conserver les messages envoyés » et désactiver les paramètres suivants :
 
@@ -97,6 +97,9 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
     - **Désactivé** Cela signifie que les utilisateurs ne peuvent pas créer de messages vocaux dans des conversations ou des canaux.  
 - **Sur les appareils mobiles, afficher les canaux préférés au-dessus des discussions récentes** Activez ce paramètre pour déplacer les canaux favoris vers le haut de l’écran de l’appareil mobile de sorte qu’il ne soit pas nécessaire de faire défiler les canaux pour les retrouver. 
 - **Autoriser un utilisateur à supprimer des utilisateurs d’une conversation de groupe** Activez ce paramètre pour permettre à un utilisateur de supprimer d’autres utilisateurs d’une discussion de groupe. Cette fonctionnalité vous permet de poursuivre une conversation avec un groupe de personnes plus petit sans perdre l’historique de vos conversations.
+
+> [!NOTE]
+> Certains de ces paramètres, tels que l’utilisation de Giphys, peuvent également être configurés au niveau de l’équipe par les propriétaires d’équipe et au niveau du canal privé par les propriétaires de canaux privés.
 
 ### <a name="related-topics"></a>Voir aussi
 [Stratégies de réunion dans teams](meeting-policies-in-teams.md)

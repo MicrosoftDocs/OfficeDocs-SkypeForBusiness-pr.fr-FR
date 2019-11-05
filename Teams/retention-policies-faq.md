@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569972"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968305"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>FAQ : stratégies de conservation dans Microsoft Teams
+
+> [!NOTE]
+> Nous ne prenons pas encore en charge la configuration de la conservation des messages de canal privé. La conservation des fichiers partagés dans des canaux privés est prise en charge.
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Quels types de stratégies puis-je configurer dans les stratégies de rétention et comment les utiliser ?
 
@@ -40,7 +43,7 @@ Oui, c’est. Si vous créez une stratégie de rétention pour supprimer des don
 
 ### <a name="what-is-the-default-retention-policy"></a>Qu’est-ce que la stratégie de rétention par défaut ? 
 
-Par défaut, les données de chat, de canal et de fichiers de teams sont conservées définitivement. Un utilisateur peut supprimer un message, mais en l’absence de stratégies de rétention, les données de teams sont toujours archivées dans les boîtes aux lettres Exchange Online (utilisateur et groupe) et restent là pour la découverte électronique. 
+Par défaut, les données de chat, de canal et de fichiers de teams sont conservées définitivement.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Puis-je cibler des groupes d’utilisateurs ou d’équipes dans une stratégie ? 
 

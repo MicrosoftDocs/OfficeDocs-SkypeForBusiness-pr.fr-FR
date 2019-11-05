@@ -3,44 +3,46 @@ title: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Découvrez l'interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams, comme le stockage de fichiers de conversation privée, et la relation entre l'équipe, le canal et la bibliothèque de documents.
+description: Découvrez comment les fichiers de conversation privée sont stockés dans SharePoint Online et OneDrive entreprise, tels que les fichiers de conversation privée et la relation entre les équipes, les canaux standard et la bibliothèque de documents.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37567119"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968245"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
 
 > [!Tip]
 > Regardez la session suivante pour découvrir comment les équipes interagissent avec Azure Active Directory (AAD), les groupes Office 365, Exchange, SharePoint et OneDrive entreprise : [notions de bases de Microsoft teams](https://aka.ms/teams-foundations)
 
-Dans Microsoft Teams, chaque équipe dispose d'un site dans SharePoint Online, et chaque canal d'une équipe reçoit un dossier dans la bibliothèque de documents par défaut du site de l'équipe. Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité de fichier définies dans SharePoint sont automatiquement appliquées à Teams.
+Dans Microsoft Teams, chaque équipe dispose d’un site d’équipe dans SharePoint Online et chaque canal standard d’une équipe obtient un dossier au sein de la bibliothèque de documents du site d’équipe par défaut. Les fichiers partagés au sein d’une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et les options de sécurité des fichiers définies dans SharePoint sont automatiquement reflétées dans Teams.
+
+> [!NOTE]
+> Cet article s’applique uniquement aux canaux standard. L’architecture des canaux privés est différente des canaux standard. Chaque canal privé dispose de sa propre collection de sites SharePoint séparée du site d’équipe parent. Pour en savoir plus, voir [canaux privés dans Microsoft teams](private-channels.md).
 
 Les fichiers de conversation privée sont stockés dans le dossier OneDrive Entreprise de l'envoyeur et les autorisations sont automatiquement accordées à tous les participants dans le cadre du processus de partage de fichiers.
 
-Si les utilisateurs ne sont pas assignés et activés pour les licences SharePoint Online, ils n’ont pas de stockage OneDrive entreprise dans Office 365. Le partage de fichiers continuera à fonctionner dans les canaux, mais les utilisateurs ne seront pas en mesure de partager des fichiers dans les conversations sans espace de stockage OneDrive entreprise dans Office 365.
+Si les utilisateurs ne sont pas assignés et activés pour les licences SharePoint Online, ils n’ont pas de stockage OneDrive entreprise dans Office 365. Le partage de fichiers continue de fonctionner dans les canaux standard, mais les utilisateurs ne peuvent pas partager des fichiers dans les conversations sans espace de stockage OneDrive entreprise dans Office 365.
 
 En stockant les fichiers dans la bibliothèque de documents SharePoint Online et dans OneDrive Entreprise, toutes les règles de conformité configurées au niveau du client seront appliquées. 
 
 > [!NOTE]
 > Pour le moment, l’intégration avec SharePoint local n’est pas prise en charge par Microsoft Teams.
 
-Voici un exemple de relations entre une équipe, un canal et une bibliothèque de documents.
+Voici un exemple de relations entre l’équipe, le canal standard et la bibliothèque de documents.
 
-Pour chaque équipe, un site SharePoint et le dossier par défaut **Documents partagés** sont créés. Chaque canal, y compris le canal **Général** par défaut de l'équipe, dispose d'un dossier dans le dossier **Documents partagés**.
+Pour chaque équipe, un site SharePoint est créé et le dossier **documents partagés** est le dossier par défaut créé pour l’équipe. Chaque canal standard, y compris le canal **général** (canal par défaut de chaque équipe), possède un dossier dans **documents partagés**.
 
 ![Diagramme de dossiers de documents partagés dans SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 

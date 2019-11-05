@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37564432"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968055"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour mieux comprendre la conversation, les équipes, les canaux et les applications dans Teams. Ensuite, accédez à la fenêtre de [conversation, d’équipes, de canaux & les applications dans teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir la liste des décisions importantes pour le déploiement d’équipes.
@@ -38,15 +38,13 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 - **Teams** regroupe des personnes, du contenu et des outils autour d'un projet ou d'une tâche spécifique au sein d'une organisation.
 
     - Teams peut être créé pour être privé, accessible uniquement aux utilisateurs invités.
-
     - Teams peut également être créé pour être publique et ouvert à tous les utilisateurs d’une organisation (jusqu'à 5000 membres).
     
     Une équipe est conçue pour réunir un groupe de personnes qui travaillent étroitement ensemble pour atteindre leurs objectifs. Les équipes peuvent être dynamiques pour un travail de projet (lancer un produit ou créer un centre de crise numérique par exemple) et être courantes, pour refléter la structure interne de votre organisation (services et bureaux par exemple). Les conversations, les fichiers et les notes ne sont visibles que pour les membres de l’équipe.
 
 - Les **canaux** sont des sections dédiées dans une équipe pour stocker des conversations organisées par sujets, projets et disciplines spécifiques ; à votre équipe de décider ! Les fichiers que vous partagez dans un canal (sous l’onglet fichiers) sont stockés dans SharePoint. Pour en savoir plus, voir [comment SharePoint Online et OneDrive entreprise interagissent avec teams](SharePoint-OneDrive-interact.md).
 
-    - Les canaux d’équipe sont des lieux où tous les membres de l’équipe peuvent avoir des conversations. Les discussions privées ne sont visibles que par les membres de la discussion (et les fichiers que vous partagez dans une discussion sont stockés dans OneDrive entreprise). 
-
+    - Les canaux sont des lieux où les conversations se produisent et la façon dont le travail est réellement réalisé. Les canaux peuvent être ouverts à tous les membres de l’équipe ou, si vous avez besoin d’un plus grand nombre de participants, ils peuvent être privés. Les canaux standard sont destinés aux conversations que [tous les membres](private-channels.md) d’une équipe peuvent participer et qui limitent la communication à un sous-ensemble de personnes d’une équipe.
     - Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour en savoir plus, reportez-vous à la rubrique [applications, robots, & connecteurs dans teams](deploy-apps-microsoft-teams-landing-page.md).
 
 Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
@@ -73,9 +71,9 @@ De plus, si la modération est configurée, les propriétaires d’équipe et le
 
 **Paramètres d’équipe** 
 
-Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image de l’équipe, de définir les autorisations entre les membres pour créer des canaux, ajouter des onglets et connecteurs, @mentionner toute l’équipe ou le canal et l’utilisation de fichiers GIF, autocollants et mèmes. 
+Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter une image d’équipe et de définir des autorisations pour les membres d’une équipe pour la création de canaux standard et [privés](private-channels.md), l’ajout d’onglets et de connecteurs, @mentioning l’ensemble de l’équipe ou du canal, et l’utilisation d’images gif, d’autocollants et de mèmess.
 
-Prenez trois minutes à examiner cette vidéo guide de déplacement pour les propriétaires d’équipe : 
+Prenez trois minutes à examiner cette vidéo guide de déplacement pour les propriétaires d’équipe :
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 

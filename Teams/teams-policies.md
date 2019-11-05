@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570134"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968275"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft teams
 
@@ -46,8 +46,8 @@ Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie
     ![Capture d’écran des paramètres de stratégie d’équipe](media/teams-policies.png)
 4. Choisissez les paramètres de votre choix :
 
-- [**Découvrir les équipes privées**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): activez ce paramètre pour autoriser les utilisateurs à découvrir les équipes privées dans les résultats de la recherche et dans la Galerie d’équipes.
-- [**Créer des canaux privés**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): activez ce paramètre pour autoriser les utilisateurs à créer des canaux privés.
+- **Découvrir les équipes privées**:<a name="discoverteams"> </a> activez ce paramètre pour autoriser les utilisateurs à découvrir les équipes privées dans les résultats de la recherche et dans la Galerie d’équipes.
+- **Créer des canaux privés**: <a name="createchannels"> </a>activez ce paramètre pour autoriser les utilisateurs à créer des canaux privés.
 
 5. Cliquez sur **Enregistrer**.
 
@@ -105,3 +105,4 @@ En fonction du nombre de membres du groupe, cette commande risque de prendre que
 ## <a name="related-topics"></a>Voir aussi
 
 - [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
+- [Canaux privés dans teams](private-channels.md)

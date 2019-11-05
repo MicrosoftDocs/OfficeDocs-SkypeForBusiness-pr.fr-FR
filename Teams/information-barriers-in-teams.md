@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931802"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968255"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -27,7 +27,8 @@ Les barrières en informations sont des stratégies qu’un administrateur peut 
 > [!NOTE]
 > - Les groupes de barrière d’information ne peuvent pas être créés entre des clients.
 > - L’utilisation de robots pour ajouter des utilisateurs n’est pas prise en charge dans la version 1.
-> - Nouveauté : la prise en charge de la protection des informations pour un site SharePoint connecté à teams est désormais en préversion privée. Pour participer à une préversion privée, cliquez [ici](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) . .
+> - Les canaux privés sont conformes aux stratégies de barrière des informations que vous configurez.
+> - Nouveauté : la prise en charge de la protection des informations pour un site SharePoint connecté à teams est désormais en préversion privée. Cliquez [ici](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) pour participer à la préversion privée.
 
 Les stratégies de barrage d’information empêchent également les recherches et la découverte. En d’autres termes, si vous essayez de communiquer avec une personne sans communiquer, vous ne trouverez pas cet utilisateur dans le sélecteur de personnes.
 

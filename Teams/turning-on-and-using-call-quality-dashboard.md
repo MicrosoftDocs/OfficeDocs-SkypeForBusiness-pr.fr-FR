@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: a83ebe08ac7cc754cadd59bffa71117f473b470b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568508"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972485"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -60,7 +60,7 @@ BORD version 3 fournit un tableau de bord bord en temps réel (latence proche de
 - Versions du client : Affichez la session et les comptes des utilisateurs pour chaque version du client, ou explorez les noms d’utilisateurs pour chaque version du client. Les filtres prédéfinis pour le type produit et client permettent de focaliser les versions sur des clients spécifiques.
 - Points de terminaison : affiche les points de terminaison d’ordinateur mappés au PC/Mac. Affiche la qualité agrégée par création/modèle. Le mappage des données est semblable à la génération de données.
 
-La version 3 fournit également la prise en charge de RBAC, en cas d’EUII l’accès n’est pas disponible.  
+La prise en charge du RBAC bord Advanced (v3) est également prise en charge par le biais de l’accès EUII.  
 
 Un administrateur peut gérer Skype entreprise Server 2019 (pas seulement Skype entreprise Online et Microsoft Teams) via bord version 3. Pour cela, vous devez disposer d’une implémentation hybride et de l’utilisation du connecteur de données d’appel. Pour plus d’informations, reportez-vous à la section [plan des données d’appel](/SkypeForBusiness/hybrid/plan-call-data-connector) .
 
@@ -84,7 +84,7 @@ BORD version 1 a fourni les fonctionnalités suivantes aux administrateurs 2015 
 
 ## <a name="cqd-near-real-time-nrt-data"></a>BORD de données en temps réel (NRT)
 
-BORD v3 utilise un flux de données quasiment en temps réel. Les enregistrements d’appels sont disponibles sur le portail bord dans un délai de 30 minutes après la fin de l’appel. Les enregistrements d’appels à partir du pipeline NRT sont uniquement disponibles pendant quelques mois avant d’être supprimés du jeu de données. BORDx, XXXXXXXXX, xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx. Les requêtes sur les portails v2 et v3 pour les données de la période d’archivage produisent les mêmes résultats. Les requêtes de données v2 et v3 pour les données NRT et les périodes d’informations d’identification de NRT sont différentes.
+Advanced bord (v3, publiée le 2019 novembre) utilise un flux de données en temps réel. Les enregistrements d’appels sont disponibles sur le portail bord dans un délai de 30 minutes après la fin de l’appel. Les enregistrements d’appels à partir du pipeline NRT sont uniquement disponibles pendant quelques mois avant d’être supprimés du jeu de données. BORDx, XXXXXXXXX, xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx. Les requêtes sur les portails v2 et v3 pour les données de la période d’archivage produisent les mêmes résultats. Les requêtes de données v2 et v3 pour les données NRT et les périodes d’informations d’identification de NRT sont différentes.
 
 ### <a name="piieuii-data"></a>Données personnelles/EUII
 
@@ -170,24 +170,24 @@ Après vous être connecté, une fois activé, le tableau de bord de qualité de
 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
-<!-- Siunies, this isn't very clear, it doesn't call out v1 and v2. unsure how to elaborate for v3, please comment -->
+
 BORD-XX XXXXXXX XXXXXXX XXXXXXX XXXXXXX xxxxxxxxx XXXXXXXXX. Les différences entre les éditions sont résumées ici :
   
 |Fonctionnalité|Rapports de synthèse|Rapports détaillés|
 |:--- |:--- |:--- |
 |Métrique du partage d’application | Non | Oui |
-|Support des informations sur le bâtiment du client | Oui | Oui |
+|Support des informations sur le bâtiment du client | Oui | Oui  |
 |Support technique des informations de point de terminaison client | Uniquement dans <span>CQD.Teams.Microsoft.com<span/> | Uniquement dans <span>CQD.Teams.Microsoft.com<span/> |
 |Prise en charge de l’analyse approfondie   | Non   | Oui   |
 |Mesures de fiabilité des médias   | Non   | Oui   |
-|Rapports prêts à l’emploi   | Oui   | Oui   |
-|Présentation des rapports   | Oui   | Oui   |
+|Rapports prêts à l’emploi   | Oui   | Oui    |
+|Présentation des rapports   | Oui   | Oui    |
 |Ensemble de rapports par utilisateur   | Non   | Oui   |
 |Personnalisation d’un ensemble de rapports (ajout, suppression, modification des rapports)   | Non   | Oui   |
 |Métriques de partage d’écran vidéo   | Non   | Oui   |
 |Métriques vidéo   | Non   | Oui   |
 |Volume de données disponible   | 6 derniers mois   | 6 derniers mois   |
-|Données de Microsoft teams   | Oui   | Oui   |
+|Données de Microsoft teams   | Oui   | Oui    |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>Rapports prêts à l’emploi
@@ -211,7 +211,7 @@ Les quatre onglets sont les suivants :
 - **SLA de qualité vocale** : fournit des informations sur les appels inclus dans le contrat de service de qualité vocale de Skype entreprise online.
 
 > [!NOTE]
-> BORD version 3 fonctionne avec Microsoft Teams, Skype entreprise Online et Skype entreprise Server. Pour utiliser bord avec Skype entreprise Server 2019, vous devez [configurer un connecteur de données d’appel](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). Pour commencer, voir [connecteur des données d’appel](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/plan-call-data-connector) .
+> BORD version 3 fonctionne avec Microsoft Teams, Skype entreprise Online et Skype entreprise Server. Pour utiliser bord avec Skype entreprise Server 2019, vous devez [configurer un connecteur de données d’appel](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). Pour commencer, voir [connecteur des données d’appel](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) .
 
 - Qualité des appels par région :
 
@@ -453,6 +453,6 @@ Lorsque vous comparez des données pour ces deux services :
 
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
-[Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)

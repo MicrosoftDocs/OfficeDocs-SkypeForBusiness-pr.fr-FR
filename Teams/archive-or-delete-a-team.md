@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515913"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968265"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 ===========================================
 
-Au fil du temps, une équipe créée dans Microsoft teams peut ne pas être utilisée ou vous voudrez peut-être archiver ou supprimer une équipe à la fin d’un projet. Si vous êtes un administrateur de Microsoft Teams, suivez les étapes décrites dans cet article pour archiver ou supprimer une équipe qui n’est plus nécessaire. Lorsque vous archivez une équipe, toutes les activités correspondant à celle-ci sont interrompues, mais vous pouvez toujours ajouter ou supprimer des membres et mettre à jour les rôles, et vous pouvez toujours afficher toutes les activités de l’équipe dans les canaux, les fichiers et les conversations. Lorsque vous supprimez une équipe, l’activité de l’équipe dans les canaux, les fichiers et les discussions associées est également supprimée.
+Au fil du temps, une équipe créée dans Microsoft teams peut ne pas être utilisée ou vous voudrez peut-être archiver ou supprimer une équipe à la fin d’un projet. Si vous êtes un administrateur de Microsoft Teams, suivez les étapes décrites dans cet article pour archiver ou supprimer une équipe qui n’est plus nécessaire.
+
+Lorsque vous archivez une équipe, toutes les activités pour cette équipe cessent. L’archivage d’une équipe Archive également les canaux privés de l’équipe et les collections de sites qui lui sont associées.  Toutefois, vous pouvez toujours ajouter ou supprimer des membres et mettre à jour les rôles, et vous pouvez toujours afficher toutes les activités de l’équipe dans les canaux, fichiers et discussions standard et privés.
+
+Lorsque vous supprimez une équipe, l’activité d’une équipe dans des canaux standard et privés (et collections de sites associées), des fichiers et des discussions est également supprimée.
 
 > [!IMPORTANT]
 > Les équipes archivées peuvent être réactivées, mais vous ne pouvez pas annuler la suppression directe d’une équipe qui a été supprimée. Envisagez d’archiver d’abord l’équipe et de différer la suppression jusqu’à ce que vous soyez sûr que vous n’avez plus besoin de l’équipe.
@@ -63,7 +67,9 @@ Si l’équipe ne sera pas tenue à l’avenir, vous pouvez la supprimer au lieu
 
 ## <a name="restore-a-deleted-team"></a>Restaurer une équipe supprimée
 
-Pour restaurer une équipe supprimée en restaurant le groupe Office 365 associé à l’équipe, procédez comme suit. Par défaut, un groupe Office 365 supprimé est conservé pendant 30 jours. Ce délai de 30 jours est appelé « suppression conditionnelle », car vous pouvez restaurer le groupe. Pour en savoir plus, voir [restaurer un groupe Office 365 supprimé](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Pour restaurer une équipe supprimée en restaurant le groupe Office 365 associé à l’équipe, procédez comme suit. Restauration du groupe Office 365 pour une équipe, restaure le contenu de l’équipe, y compris les onglets, les canaux standard et les canaux privés et les collections de sites associées.
+
+Par défaut, un groupe Office 365 supprimé est conservé pendant 30 jours. Ce délai de 30 jours est appelé « suppression conditionnelle », car vous pouvez restaurer le groupe. Pour en savoir plus, voir [restaurer un groupe Office 365 supprimé](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Installer le module AzureADPreview
 
