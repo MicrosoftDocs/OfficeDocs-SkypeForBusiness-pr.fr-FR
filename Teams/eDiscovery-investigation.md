@@ -3,7 +3,6 @@ title: Mener une recherche eDiscovery de contenu dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/12/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,34 +13,90 @@ search.appverid: MET150
 description: Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42a9f9cc011d050e540eef3ff87d9cd839cc2819
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 27dac8bd72eaac581022431c3786b0f7487d137c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564031"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968045"
 ---
-<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a><span data-ttu-id="276bf-103">Mener une recherche eDiscovery de contenu dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="276bf-103">Conduct an eDiscovery investigation of content in Microsoft Teams</span></span>
+<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a><span data-ttu-id="88714-103">Mener une recherche eDiscovery de contenu dans Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="88714-103">Conduct an eDiscovery investigation of content in Microsoft Teams</span></span>
 ============================
 
-<span data-ttu-id="276bf-104">Les grandes entreprises sont souvent exposées à des actions juridiques à forte pénalité qui demandent la soumission de toutes les informations stockées électroniquement (ESI).</span><span class="sxs-lookup"><span data-stu-id="276bf-104">Large Enterprises are often exposed to high penalty legal proceedings that demand submission of all Electronically Stored Information (ESI).</span></span>
+<span data-ttu-id="88714-104">Les grandes entreprises sont souvent exposées à des actions juridiques à forte pénalité qui demandent la soumission de toutes les informations stockées électroniquement (ESI).</span><span class="sxs-lookup"><span data-stu-id="88714-104">Large Enterprises are often exposed to high penalty legal proceedings that demand submission of all Electronically Stored Information (ESI).</span></span>
 
-<span data-ttu-id="276bf-p101">Toutes les équipes 1:1 ou les discussions de groupe sont journalisées dans les boîtes aux lettres des utilisateurs correspondants, et tous les messages des canaux sont journalisés dans la boîte aux lettres du groupe représentant l’équipe. Les fichiers téléchargés sont décrits dans la fonctionnalité eDiscovery pour SharePoint Online et OneDrive entreprise.</span><span class="sxs-lookup"><span data-stu-id="276bf-p101">All Teams 1:1 or group chats are journaled through to the respective users’ mailboxes, and all channel messages are journaled through to the group mailbox representing the team. Files uploaded are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.</span></span>
+<span data-ttu-id="88714-p101">Toutes les équipes 1:1 ou les discussions de groupe sont journalisées dans les boîtes aux lettres des utilisateurs correspondants, et tous les messages des canaux standard sont journalisés dans la boîte aux lettres du groupe représentant l’équipe. Les fichiers téléchargés dans les canaux standard sont décrits sous la fonctionnalité eDiscovery pour SharePoint Online et OneDrive entreprise.</span><span class="sxs-lookup"><span data-stu-id="88714-p101">All Teams 1:1 or group chats are journaled through to the respective users’ mailboxes, and all standard channel messages are journaled through to the group mailbox representing the team. Files uploaded in standard channels are covered under the eDiscovery functionality for SharePoint Online and OneDrive for Business.</span></span>
 
-1.  <span data-ttu-id="276bf-107">Pour effectuer une analyse eDiscovery avec le contenu Microsoft Teams, reportez-vous à l’étape 1 de [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) lien.</span><span class="sxs-lookup"><span data-stu-id="276bf-107">To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [this](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.</span></span>
+> [!NOTE]
+> <span data-ttu-id="88714-107">la découverte électronique des messages et fichiers dans des [canaux privés](private-channels.md) ne fonctionne pas de la même manière que dans les canaux standard.</span><span class="sxs-lookup"><span data-stu-id="88714-107">eDiscovery of messages and files in [private channels](private-channels.md) work differently than in standard channels.</span></span> <span data-ttu-id="88714-108">Pour en savoir plus, voir [découverte électronique des canaux privés](#ediscovery-of-private-channels).</span><span class="sxs-lookup"><span data-stu-id="88714-108">To learn more, see [eDiscovery of private channels](#ediscovery-of-private-channels).</span></span>
 
-2.  <span data-ttu-id="276bf-108">Les données de Microsoft teams s’affichent sous forme de messages instantanés ou de conversations dans la sortie d’exportation eDiscovery d’Excel et vous pouvez les monter. PST dans Outlook pour afficher ces messages après l’exportation.</span><span class="sxs-lookup"><span data-stu-id="276bf-108">Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output, and you can mount the .PST in Outlook to view those messages post export.</span></span>
+1.  <span data-ttu-id="88714-109">Pour effectuer une analyse eDiscovery avec le contenu Microsoft Teams, reportez-vous à l’étape 1 de [ce](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) lien.</span><span class="sxs-lookup"><span data-stu-id="88714-109">To conduct an eDiscovery investigation with Microsoft Teams content, review step 1 in [this](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.</span></span>
 
-    <span data-ttu-id="276bf-p102">Lors du montage du. PST pour l’équipe, Notez que toutes les conversations sont conservées dans le dossier de discussion d’équipe sous historique des conversations. Le titre du message s’aligne sur l’équipe et le canal. À partir de la consultation de l’image ci-dessous, vous pouvez voir ce message de Bob qui a affiché le canal Project 7 de l’équipe des spécifications de fabrication.</span><span class="sxs-lookup"><span data-stu-id="276bf-p102">When mounting the .PST for the Team, note that all conversations are kept in the Team Chat folder under Conversation History. The title of the message aligns to Team and Channel. From reviewing the image below, you can see this message from Bob who messaged the Project 7 channel of the Manufacturing Specs team.</span></span>
+2.  <span data-ttu-id="88714-110">Les données de Microsoft teams s’affichent sous forme de messages instantanés ou de conversations dans la sortie d’exportation eDiscovery d’Excel et vous pouvez les monter. PST dans Outlook pour afficher ces messages après l’exportation.</span><span class="sxs-lookup"><span data-stu-id="88714-110">Microsoft Teams data will appear as IM or Conversations in the Excel eDiscovery export output, and you can mount the .PST in Outlook to view those messages post export.</span></span>
+
+    <span data-ttu-id="88714-111">Lors du montage du. PST pour l’équipe, Notez que toutes les conversations sont conservées dans le dossier de discussion d’équipe sous historique des conversations.</span><span class="sxs-lookup"><span data-stu-id="88714-111">When mounting the .PST for the Team, note that all conversations are kept in the Team Chat folder under Conversation History.</span></span> <span data-ttu-id="88714-112">Le titre du message s’aligne sur l’équipe et le canal.</span><span class="sxs-lookup"><span data-stu-id="88714-112">The title of the message aligns to Team and Channel.</span></span> <span data-ttu-id="88714-113">À partir de la consultation de l’image ci-dessous, vous pouvez voir ce message de Bob qui a affiché le canal Project 7 standard de l’équipe des spécifications de fabrication.</span><span class="sxs-lookup"><span data-stu-id="88714-113">From reviewing the image below, you can see this message from Bob who messaged the Project 7 standard channel of the Manufacturing Specs team.</span></span>
 
     ![Capture d’écran d’un dossier de discussion d’équipe dans la boîte aux lettres d’un utilisateur dans Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-3.  <span data-ttu-id="276bf-113">Pour afficher les conversations privées dans la boîte aux lettres d'un utilisateur, accédez au dossier Conversation de l'équipe sous l'historique des conversations.</span><span class="sxs-lookup"><span data-stu-id="276bf-113">To see private chats in a user’s Mailbox, they are also located inside the Team Chat folder under Conversation History.</span></span>
+3.  <span data-ttu-id="88714-115">Pour afficher des discussions privées dans la boîte aux lettres d’un utilisateur, celles-ci se trouvent également dans le dossier de conversation d’équipe sous historique des conversations.</span><span class="sxs-lookup"><span data-stu-id="88714-115">To see private chats in a user’s mailbox, they are also located inside the Team Chat folder under Conversation History.</span></span>
 
-## <a name="ediscovery-of-guest-to-guest-chats"></a><span data-ttu-id="276bf-114">Découverte électronique des discussions entre invités</span><span class="sxs-lookup"><span data-stu-id="276bf-114">eDiscovery of guest-to-guest chats</span></span>
+## <a name="ediscovery-of-guest-to-guest-chats"></a><span data-ttu-id="88714-116">Découverte électronique des discussions entre invités</span><span class="sxs-lookup"><span data-stu-id="88714-116">eDiscovery of guest-to-guest chats</span></span>
 
-<span data-ttu-id="276bf-115">Sans boîte aux lettres, les discussions invitées invitées (1xNs dans lesquelles il n’y a pas d’utilisateurs privés) ne sont pas indexées et ne sont pas incluses dans eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="276bf-115">Without a mailbox, guest-to-guest chats (1xN chats in which there are no home tenant users) would not be indexed, and as a result, would not be included in eDiscovery.</span></span> <span data-ttu-id="276bf-116">Pour faciliter l’eDiscovery pour les discussions invitées, une boîte aux lettres Cloud (ou une boîte aux lettres fantôme) est créée pour le stockage des données 1xN.</span><span class="sxs-lookup"><span data-stu-id="276bf-116">To facilitate eDiscovery for guest-to-guest chats, a cloud-based mailbox (or phantom mailbox) is created to store the 1xN data.</span></span> <span data-ttu-id="276bf-117">Une fois que les données de chat de l’équipe sont stockées dans la boîte aux lettres dans le Cloud, celles-ci sont indexées pour la découverte électronique et la recherche de contenu de conformité.</span><span class="sxs-lookup"><span data-stu-id="276bf-117">After the Teams chat data is stored in the cloud-based mailbox, it is indexed for eDiscovery and compliance content search.</span></span>
+<span data-ttu-id="88714-117">Sans boîte aux lettres, les discussions invitées invitées (1xNs dans lesquelles il n’y a pas d’utilisateurs privés) ne sont pas indexées et ne sont pas incluses dans eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="88714-117">Without a mailbox, guest-to-guest chats (1xN chats in which there are no home tenant users) would not be indexed, and as a result, would not be included in eDiscovery.</span></span> <span data-ttu-id="88714-118">Pour faciliter l’eDiscovery pour les discussions invitées, une boîte aux lettres Cloud (ou une boîte aux lettres fantôme) est créée pour le stockage des données 1xN.</span><span class="sxs-lookup"><span data-stu-id="88714-118">To facilitate eDiscovery for guest-to-guest chats, a cloud-based mailbox (or phantom mailbox) is created to store the 1xN data.</span></span> <span data-ttu-id="88714-119">Une fois que les données de chat de l’équipe sont stockées dans la boîte aux lettres dans le Cloud, celles-ci sont indexées pour la découverte électronique et la recherche de contenu de conformité.</span><span class="sxs-lookup"><span data-stu-id="88714-119">After the Teams chat data is stored in the cloud-based mailbox, it is indexed for eDiscovery and compliance content search.</span></span>
 
-<span data-ttu-id="276bf-118">L’illustration suivante décrit le fonctionnement de eDiscovery pour les discussions invitées dans lesquelles il n’y a pas de boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="276bf-118">The following illustration shows how eDiscovery works for guest-to-guest chats in which there isn’t a mailbox.</span></span>
+<span data-ttu-id="88714-120">L’illustration suivante décrit le fonctionnement de eDiscovery pour les discussions invitées dans lesquelles il n’y a pas de boîte aux lettres.</span><span class="sxs-lookup"><span data-stu-id="88714-120">The following illustration shows how eDiscovery works for guest-to-guest chats in which there isn’t a mailbox.</span></span>
 
 ![invité-à-invité-discussions-avec non-boîte aux lettres](media/conduct-an-ediscovery-investigation-of-content-in-microsoft-teams-image2.png)
+
+## <a name="ediscovery-of-private-channels"></a><span data-ttu-id="88714-122">Découverte électronique des canaux privés</span><span class="sxs-lookup"><span data-stu-id="88714-122">eDiscovery of private channels</span></span>
+
+<span data-ttu-id="88714-123">Les enregistrements de messages envoyés dans un canal privé sont remis à la boîte aux lettres de tous les membres du canal privé plutôt qu’à une boîte aux lettres de groupe.</span><span class="sxs-lookup"><span data-stu-id="88714-123">Records for messages sent in a private channel are delivered to the mailbox of all private channel members, rather than to a group mailbox.</span></span> <span data-ttu-id="88714-124">Les titres des enregistrements sont mis en forme pour indiquer le canal privé depuis lequel ils ont été envoyés.</span><span class="sxs-lookup"><span data-stu-id="88714-124">The titles of the records are formatted to indicate which private channel they were sent from.</span></span>
+
+<span data-ttu-id="88714-125">Étant donné que chaque canal privé dispose de sa propre collection de sites SharePoint séparée du site d’équipe parent, les fichiers d’un canal privé sont gérés indépendamment de l’équipe parente.</span><span class="sxs-lookup"><span data-stu-id="88714-125">Because each private channel has its own SharePoint site collection that's separate from the parent team site, files in a private channel are managed independently of the parent team.</span></span>
+
+<span data-ttu-id="88714-126">Microsoft Teams ne prend pas en charge la découverte électronique d’un seul canal, de sorte que l’ensemble de l’équipe doit être recherché.</span><span class="sxs-lookup"><span data-stu-id="88714-126">Teams doesn't support eDiscovery of a single channel, so the whole team must be searched.</span></span> <span data-ttu-id="88714-127">Pour effectuer une recherche eDiscovery du contenu d’un canal privé, effectuez une recherche sur l’équipe, la collection de sites associée au canal privé (pour inclure les fichiers) et les boîtes aux lettres des membres du canal privé (pour inclure des messages).</span><span class="sxs-lookup"><span data-stu-id="88714-127">To perform an eDiscovery search of content in a private channel, search across the team, the site collection associated with the private channel (to include files), and mailboxes of private channel members (to include messages).</span></span>
+
+<span data-ttu-id="88714-128">Procédez comme suit pour identifier les fichiers et les messages d’un canal privé à inclure dans votre recherche eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="88714-128">Use the following steps to identify files and messages in a private channel to include in  your eDiscovery search.</span></span>
+
+### <a name="include-private-channel-files-in-an-ediscovery-search"></a><span data-ttu-id="88714-129">Inclusion de fichiers de canal privé dans une recherche eDiscovery</span><span class="sxs-lookup"><span data-stu-id="88714-129">Include private channel files in an eDiscovery search</span></span>
+
+<span data-ttu-id="88714-130">Avant d’effectuer cette procédure, installez [SharePoint Online Management Shell et connectez-vous à SharePoint](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)online.</span><span class="sxs-lookup"><span data-stu-id="88714-130">Before you perform these steps, install the [SharePoint Online Management Shell and connect to  SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).</span></span>
+
+1. <span data-ttu-id="88714-131">Exécutez la commande suivante pour obtenir la liste de toutes les collections de sites SharePoint associées à des canaux privés au sein de l’équipe.</span><span class="sxs-lookup"><span data-stu-id="88714-131">Run the following to get a list of all SharePoint site collections associated with private channels in the team.</span></span>
+
+    ```
+    Get-SPOSite
+    ```
+2. <span data-ttu-id="88714-132">Exécutez le script PowerShell suivant pour obtenir la liste de toutes les URL de collection de sites SharePoint associées aux canaux privés de l’équipe et de l’ID du groupe d’équipe parent.</span><span class="sxs-lookup"><span data-stu-id="88714-132">Run the following PowerShell script to get a list of all SharePoint site collection URLs associated with private channels in the team and the parent team group ID.</span></span>
+
+    ```
+    $sites = get-sposite -template "teamchannel#0"
+    foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
+    ```
+3. <span data-ttu-id="88714-133">Pour chaque ID d’équipe ou de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents, où $groupID est l’ID de groupe de l’équipe.</span><span class="sxs-lookup"><span data-stu-id="88714-133">For each team or group ID, run the following PowerShell script to identify all relevant private channel sites, where $groupID is the group ID of the team.</span></span>
+
+    ```
+    $sites = get-sposite -template "teamchannel#0"
+    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
+    ```
+
+### <a name="include-private-channel-messages-in-an-ediscovery-search"></a><span data-ttu-id="88714-134">Inclure des messages de canal privé dans une recherche eDiscovery</span><span class="sxs-lookup"><span data-stu-id="88714-134">Include private channel messages in an eDiscovery search</span></span>
+
+<span data-ttu-id="88714-135">Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dernière version du module teams PowerShell](teams-powershell-overview.md) .</span><span class="sxs-lookup"><span data-stu-id="88714-135">Before you perform these steps, make sure you have the [latest version of the Teams PowerShell module](teams-powershell-overview.md) installed.</span></span>
+
+1. <span data-ttu-id="88714-136">Exécutez la commande suivante pour obtenir la liste des canaux privés de l’équipe.</span><span class="sxs-lookup"><span data-stu-id="88714-136">Run the following to get a list of private channels in the team.</span></span>
+
+    ```
+    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    ```
+2. <span data-ttu-id="88714-137">Exécutez la commande suivante pour obtenir la liste des membres du canal privé.</span><span class="sxs-lookup"><span data-stu-id="88714-137">Run the following to get a list of private channel members.</span></span>
+
+    ```
+    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    ```
+3. <span data-ttu-id="88714-138">Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche eDiscovery.</span><span class="sxs-lookup"><span data-stu-id="88714-138">Include the mailboxes of all members from each private channel in the team as part of your eDiscovery search query.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="88714-139">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="88714-139">Related topics</span></span>
+
+- [<span data-ttu-id="88714-140">Aperçu de Teams PowerShell</span><span class="sxs-lookup"><span data-stu-id="88714-140">Teams PowerShell Overview</span></span>](teams-powershell-overview.md)
