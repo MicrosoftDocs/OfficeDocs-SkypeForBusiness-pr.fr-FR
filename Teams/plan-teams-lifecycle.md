@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf965386ce471458ed47edb0083d2b6f18b4ba8a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573239"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913041"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -205,3 +205,6 @@ Pour des informations sur la configuration des stratégies d’expiration et de 
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Définissez à quoi ressemble la fin de la durée de vie d’une équipe.</li><li>Décidez si le contenu de l’équipe doit rester disponible ou non, et pendant combien de temps.</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les meilleures pratiques et les leçons apprises.</li><li>Archivez les données si nécessaire.</li></ul>|
 
+## <a name="related-topics"></a>Rubriques connexes
+
+[Démarrage rapide de la gouvernance pour Teams](teams-adoption-governance-quick-start.md)
