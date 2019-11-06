@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772348"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979707"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -64,7 +64,7 @@ ms.locfileid: "37772348"
 |Disque dur    | 3,0 Go d’espace disque disponible        |
 |Display    |   résolution d’écran 1024 x 768 |
 |Matériel vidéo |  Minimum de 128 Mo de mémoire graphique
-|Système d’exploitation  | Distribution Linux capable d’installer une DEB, une ancre ou un RPM. |
+|Système d’exploitation  | Distribution Linux capable d’installer une DEB ou RPM. |
 |Vidéo    |  Caméra vidéo USB 2,0       |
 |Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
 |Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
@@ -88,7 +88,7 @@ Pour une utilisation optimale de Microsoft Teams, utilisez la dernière version 
 
 Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Rubriques connexes
 - [Obtenir des applications teams](get-clients.md)
 - [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)
