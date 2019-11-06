@@ -1,7 +1,7 @@
 ---
 title: Effectuer une mise à niveau vers Microsoft teams | Introduction aux équipes Skype entreprise
-author: lanachin
-ms.author: v-lanac
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,32 +16,42 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f0e387be6b8dbb4d543b872330377e8fb695d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235885"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "36437560"
 ---
-<span data-ttu-id="d73a6-103">![Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation] (media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")</span><span class="sxs-lookup"><span data-stu-id="d73a6-103">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
+<span data-ttu-id="f5c7d-103">![Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de la mise à niveau, mettant l’accent sur l’étape de déploiement et d’implémentation")</span><span class="sxs-lookup"><span data-stu-id="f5c7d-103">![Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage](media/upgrade-banner-deployment.png "Stages of the upgrade journey, with emphasis on the Deployment and Implementation stage")</span></span>
 
-<span data-ttu-id="d73a6-104">Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="d73a6-104">This article is part of Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="d73a6-105">Avant de continuer, confirmez que vous avez terminé les activités suivantes:</span><span class="sxs-lookup"><span data-stu-id="d73a6-105">Before proceeding, confirm that you’ve completed the following activities:</span></span>
+<span data-ttu-id="f5c7d-104">Cet article fait partie de l’étape de déploiement et d’implémentation de votre parcours de mise à niveau.</span><span class="sxs-lookup"><span data-stu-id="f5c7d-104">This article is part of the Deployment and Implementation stage of your upgrade journey.</span></span> <span data-ttu-id="f5c7d-105">Avant de continuer, confirmez que vous avez terminé les activités suivantes :</span><span class="sxs-lookup"><span data-stu-id="f5c7d-105">Before proceeding, confirm that you’ve completed the following activities:</span></span>
 
-- [<span data-ttu-id="d73a6-106">Inscription des parties prenantes du projet</span><span class="sxs-lookup"><span data-stu-id="d73a6-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
-- [<span data-ttu-id="d73a6-107">Définition de l’objectif de votre projet</span><span class="sxs-lookup"><span data-stu-id="d73a6-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
-- [<span data-ttu-id="d73a6-108">Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes</span><span class="sxs-lookup"><span data-stu-id="d73a6-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
-- [<span data-ttu-id="d73a6-109">Choix de votre mise à niveau</span><span class="sxs-lookup"><span data-stu-id="d73a6-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [<span data-ttu-id="d73a6-110">Préparé votre environnement</span><span class="sxs-lookup"><span data-stu-id="d73a6-110">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [<span data-ttu-id="d73a6-111">Préparé votre organisation</span><span class="sxs-lookup"><span data-stu-id="d73a6-111">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
-- [<span data-ttu-id="d73a6-112">A mené une pilote</span><span class="sxs-lookup"><span data-stu-id="d73a6-112">Conducted a pilot</span></span>](https://aka.ms/SkypeToTeams-Pilot)
+- [<span data-ttu-id="f5c7d-106">Inscription des parties prenantes du projet</span><span class="sxs-lookup"><span data-stu-id="f5c7d-106">Enlisted your project stakeholders</span></span>](upgrade-enlist-stakeholders.md)
+- [<span data-ttu-id="f5c7d-107">Définition de l’objectif de votre projet</span><span class="sxs-lookup"><span data-stu-id="f5c7d-107">Defined your project scope</span></span>](https://aka.ms/SkypetoTeams-Scope)
+- [<span data-ttu-id="f5c7d-108">Compréhension de la coexistence et de l’interopérabilité de Skype entreprise et équipes</span><span class="sxs-lookup"><span data-stu-id="f5c7d-108">Understood coexistence and interoperability of Skype for Business and Teams</span></span>](https://aka.ms/SkypeToTeams-Coexist)
+- [<span data-ttu-id="f5c7d-109">Choix de votre mise à niveau</span><span class="sxs-lookup"><span data-stu-id="f5c7d-109">Chosen your upgrade journey</span></span>](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [<span data-ttu-id="f5c7d-110">Préparé votre environnement</span><span class="sxs-lookup"><span data-stu-id="f5c7d-110">Prepared your environment</span></span>](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [<span data-ttu-id="f5c7d-111">Préparé votre organisation</span><span class="sxs-lookup"><span data-stu-id="f5c7d-111">Prepared your organization</span></span>](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="perform-your-upgrade-to-teams"></a><span data-ttu-id="d73a6-113">Effectuer une mise à niveau vers teams</span><span class="sxs-lookup"><span data-stu-id="d73a6-113">Perform your upgrade to Teams</span></span>
 
-<span data-ttu-id="d73a6-114">Choisissez votre parcours de mise à niveau en fonction du déploiement actuel de Skype entreprise:</span><span class="sxs-lookup"><span data-stu-id="d73a6-114">Choose your upgrade journey based on your current deployment of Skype for Business:</span></span>
 
-- [<span data-ttu-id="d73a6-115">Mise à niveau de Skype Entreprise Online vers Teams</span><span class="sxs-lookup"><span data-stu-id="d73a6-115">Upgrade from Skype for Business Online to Teams</span></span>](https://aka.ms/SkypeToTeams-UpgradeOnline)
-- [<span data-ttu-id="d73a6-116">Mise à niveau de Skype entreprise hybride vers teams</span><span class="sxs-lookup"><span data-stu-id="d73a6-116">Upgrade from Skype for Business hybrid to Teams</span></span>](https://aka.ms/SkypeToTeams-UpgradeHybrid)
-- [<span data-ttu-id="d73a6-117">Mise à niveau de Skype entreprise local vers teams</span><span class="sxs-lookup"><span data-stu-id="d73a6-117">Upgrade from Skype for Business on-premises to Teams</span></span>](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+
+# <a name="overview"></a><span data-ttu-id="f5c7d-112">Vue d’ensemble</span><span class="sxs-lookup"><span data-stu-id="f5c7d-112">Overview</span></span>
+
+<span data-ttu-id="f5c7d-113">Les étapes à suivre pour effectuer la mise à niveau vers teams dépendent de votre déploiement actuel de Skype entreprise :</span><span class="sxs-lookup"><span data-stu-id="f5c7d-113">The steps you take to perform your upgrade to Teams depends on your current deployment of Skype for Business:</span></span>
+
+1. <span data-ttu-id="f5c7d-114">Avant de procéder à la mise à niveau, veillez à effectuer une mise à niveau [pilote d’utilisateur](pilot-essentials.md).</span><span class="sxs-lookup"><span data-stu-id="f5c7d-114">Before beginning your upgrade, be sure you [conduct a user pilot](pilot-essentials.md).</span></span>
+
+2.  <span data-ttu-id="f5c7d-115">En suivant votre environnement actuel, choisissez votre point de départ :</span><span class="sxs-lookup"><span data-stu-id="f5c7d-115">Next, based on your current environment, choose your starting point:</span></span>  
+
+    - <span data-ttu-id="f5c7d-116">**Si vous effectuez une mise à niveau de Skype entreprise Online vers teams**, suivez les étapes de la procédure de [mise à niveau de Skype entreprise Online vers teams](https://aka.ms/SkypeToTeams-UpgradeOnline).</span><span class="sxs-lookup"><span data-stu-id="f5c7d-116">**If you are upgrading from Skype for Business Online to Teams**, follow the steps in [Upgrade from Skype for Business Online to Teams](https://aka.ms/SkypeToTeams-UpgradeOnline).</span></span>
+
+    -  <span data-ttu-id="f5c7d-117">**Si vous effectuez une mise à niveau à partir d’un environnement local Skype entreprise**, vous devez effectuer des étapes supplémentaires pour configurer la connectivité entre votre environnement local et votre environnement en ligne avant de déplacer vos utilisateurs vers Teams.</span><span class="sxs-lookup"><span data-stu-id="f5c7d-117">**If you are upgrading from a Skype for Business on-premises environment**, you'll need to perform some extra steps to set up connectivity between your on-premises and online environments before you move your users to Teams.</span></span> <span data-ttu-id="f5c7d-118">Pour plus d’informations, reportez-vous à la rubrique [mise à niveau de Skype entreprise sur site vers teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).</span><span class="sxs-lookup"><span data-stu-id="f5c7d-118">For more information, see [Upgrade Skype for Business on-premises to Teams](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md).</span></span>
+
+
+
+
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
