@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées sur la désactivation de l’environnement hybride dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962051"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010577"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Désactiver l’environnement hybride pour terminer la migration vers le Cloud
 
@@ -47,8 +47,8 @@ Le DNS externe de l’Organisation pour l’organisation locale doit être mis �
 
     |Type d’enregistrement|Nom|TTL (Durée de vie)|Value (Valeur)|
     |---|---|---|---|
-    |SRV|_sipfederationtls. _ TCP|3600|100 1 5061 sipfed. online. Lync. <span>com|
-    |SRV|_sip._tls|3600|100 1 443 sipdir. online. Lync. <span>com|
+    |SRV|_sipfederationtls. _tcp|3600|100 1 5061 sipfed. online. Lync. <span>com|
+    |SRV|_sip. _tls|3600|100 1 443 sipdir. online. Lync. <span>com|
     |CNAME| lyncdiscover|   3600|   webdir. online. Lync. <span>com|
     |CNAME| sip|    3600|   sipdir. online. Lync. <span>com|
     |CNAME| satisfaction|   3600|   webdir. online. Lync. <span>com|
@@ -61,9 +61,8 @@ La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShe
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.  *Désactivez la fonctionnalité sur local pour communiquer avec Office 365.*  
-La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShell locale.  Si vous avez déjà importé une session Skype entreprise Online, démarrez une nouvelle session Skype entreprise PowerShell comme suit :
-
+3.  *Désactivez la fonctionnalité locale pour communiquer avec Office 365.*  
+La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShell locale :
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,13 +71,13 @@ La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShe
 
 Les administrateurs peuvent gérer les utilisateurs qui ont été précédemment déplacés d’un serveur Skype entreprise local vers le Cloud, même après la désactivation du déploiement local. Il existe deux possibilités :
 
-- L’utilisateur n’a pas de valeur pour lineURI en local avant le déplacement. 
+- L’utilisateur n’a pas de valeur pour LineURI en local avant le déplacement. 
 
   Dans ce cas, vous pouvez modifier le LineURI à l’aide des paramètres-onpremLineUri de la [cmdlet Set-Csuser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) dans le module Skype entreprise Online PowerShell.
 
-- L’utilisateur avait une lineURI locale avant le déplacement (vraisemblablement parce que l’utilisateur a été activé pour voix entreprise). 
+- L’utilisateur avait une LineURI locale avant le déplacement (vraisemblablement parce que l’utilisateur a été activé pour voix entreprise). 
 
-  Si vous souhaitez modifier le lineURI, vous devez le faire dans l’annuaire Active Directory local et laisser la valeur circuler dans Azure AD. Il n’est pas nécessaire d’utiliser Skype entreprise Server sur site. Au lieu de cela, cet attribut, msRTCSIP-Line, peut être modifié directement dans l’annuaire Active Directory local, à l’aide du composant logiciel enfichable MMC utilisateurs et ordinateurs Active Directory, ou à l’aide de PowerShell. Si vous utilisez le composant logiciel enfichable MMC, ouvrez la page Propriétés de l’utilisateur, cliquez sur l’onglet Éditeur d’attributs, puis recherchez msRTCSIP-Line.
+  Si vous souhaitez modifier le LineURI, vous devez le faire dans l’annuaire Active Directory local et laisser la valeur circuler dans Azure AD. Il n’est pas nécessaire d’utiliser Skype entreprise Server sur site. Au lieu de cela, cet attribut, msRTCSIP-Line, peut être modifié directement dans l’annuaire Active Directory local, à l’aide du composant logiciel enfichable MMC utilisateurs et ordinateurs Active Directory, ou à l’aide de PowerShell. Si vous utilisez le composant logiciel enfichable MMC, ouvrez la page Propriétés de l’utilisateur, cliquez sur l’onglet Éditeur d’attributs, puis recherchez msRTCSIP-Line.
 
   ![Outil utilisateurs et ordinateurs Active Directory](../media/disable-hybrid-1.png)
 

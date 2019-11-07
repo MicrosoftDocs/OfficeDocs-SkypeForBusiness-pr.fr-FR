@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Bahreïn.
-ms.openlocfilehash: 72831036ec6a3aa020b5381c78bfc06f8fc74c48
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c4c9f0f51193296b7ee6131e08cf3c2625896f1
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570798"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010607"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilité au Bahreïn
 
@@ -41,7 +41,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Oui, pour : <br/><ul><li>Manama</ul>Si vous souhaitez obtenir des numéros de téléphone dédiés, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    

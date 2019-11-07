@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573216"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010597"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -28,6 +28,8 @@ Les informations de présence font partie du profil d’un utilisateur de Micros
 
 > [!IMPORTANT]
 > Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution : pour voir la présence dans Outlook (et les autres applications Office), Skype entreprise doit être installé, même si vous exécutez teams en mode **équipes uniquement** . Microsoft est courant du problème et travaille activement au développement d’un correctif.
+
+La présence d’équipes dans Outlook est prise en charge sur l’application de bureau Outlook 2013 et les versions ultérieures.
 
 ## <a name="presence-states-in-teams"></a>États de présence dans teams
 
@@ -54,7 +56,7 @@ Les statuts de présence des utilisateurs disponibles dans teams sont les suivan
 || ![Cercle violet avec flèche, indiquant qu’il n’est pas du tout le Bureau](media/Presence_OOF.png) Absent (e) du Bureau|
 |||
  
-Les utilisateurs peuvent définir manuellement leur état de présence actuel sur certaines options, et leur état est reflété par tous les autres utilisateurs. Des informations supplémentaires sur la présence d’un utilisateur sont également mises à jour automatiquement. Les modifications dépendent de l’activité des utilisateurs (disponible, absent (e), des États du calendrier Outlook (dans une réunion) ou des États des applications Teams (en cours de présentation) pour les États en retrait dans la liste.
+Les utilisateurs peuvent définir manuellement leur état de présence actuel sur certaines options, et leur état est reflété par tous les autres utilisateurs. Des informations supplémentaires sur la présence d’un utilisateur sont également mises à jour automatiquement. Les modifications dépendent de l’activité des utilisateurs (disponible, absent (e), des États du calendrier Outlook (dans une réunion) ou des États des applications Teams (en cours de présentation) pour les États en retrait dans la liste. 
 
 Il y a un délai d’inactivité de 15 minutes, après lequel l’état de présence actuel est remis à absent (e).
 
