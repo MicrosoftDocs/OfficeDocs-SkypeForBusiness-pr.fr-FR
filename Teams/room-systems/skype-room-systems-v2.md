@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573571"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038733"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
@@ -38,7 +38,7 @@ Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les a
 |Skype Entreprise |&#x2714;|
 |Microsoft Teams|  &#x2714;|
 |Systèmes téléphoniques|  &#x2714;|
-|Audioconférence,|&#x2714; &sup1 ;|
+|Audioconférence|&#x2714; &sup1 ;|
 |Microsoft Intune|&#x2714;|  
 |Disponibilité dans le monde entier | &#x2714; &sup2 ;|
 |Disponibilité du canal | AE, EAS, CSP, <br/>Web direct |
@@ -60,8 +60,8 @@ Le tableau suivant répertorie les fonctionnalités disponibles dans Microsoft T
 |  | Vous avez Microsoft teams ou Skype entreprise Online <br/> Voici les compléments que vous devez acheter :   |Vous avez Skype entreprise Server 2015/2019 (local ou hybride). <br/> Voici les compléments que vous devez acheter :|
 |:-----|:-----|:-----|
 |Rejoindre une réunion planifiée  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  |
-|Créer une réunion ad hoc | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Créer une réunion impromptue et passer un appel sortant vers des numéros de téléphone depuis une réunion |  Référence SKU de salle de réunion |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Lancer une réunion ad hoc | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Lancer une réunion ad hoc et passer un appel sortant vers des numéros de téléphone depuis une réunion |  Référence SKU de salle de réunion |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
 |Donnez un numéro de téléphone à la salle et transmettez ou recevez des appels depuis la salle ou participez à une conférence audio par le biais d’un numéro de téléphone.  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
 |Gérer votre appareil de salle avec Microsoft Intune |Référence SKU de salle de réunion  |Abonnement Microsoft Intune avec [le GPM sur site](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
 | |||
