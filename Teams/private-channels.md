@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969382"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077427"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft teams
 
@@ -112,11 +112,11 @@ Le tableau ci-après décrit les actions que les propriétaires, membres et invi
 |Modifier les paramètres|Non|N/D|N/D|Oui|Non|Non|
 |Gérer les onglets et les applications|Non|N/D|N/D|Yes<sup>4</sup>|Oui<sup>5</sup>|Non|
 
-<sup>1</sup> En supposant que vous, l’administrateur, configuré, autorise l’utilisateur à créer des canaux privés.<br>
-<sup>2</sup> Chaque équipe dispose d’un paramètre que les propriétaires d’équipe peuvent activer ou désactiver pour autoriser les membres de l’équipe à créer des canaux privés. Les propriétaires d’équipe peuvent toujours créer des canaux privés.<br>
-<sup>3</sup> En supposant que le propriétaire du canal privé n’est pas le dernier propriétaire du canal. <br>
-<sup>4</sup> Nécessite que l’équipe dispose d’une application installée pour pouvoir l’utiliser sur un canal privé.<br>
-<sup>5</sup> Les propriétaires de canal privé peuvent configurer cela.
+<sup>1</sup> en supposant que vous, l’administrateur, configuré, autorise l’utilisateur à créer des canaux privés.<br>
+<sup>2</sup> chaque équipe dispose d’un paramètre que les propriétaires d’équipe peuvent activer ou désactiver pour autoriser les membres de l’équipe à créer des canaux privés. Les propriétaires d’équipe peuvent toujours créer des canaux privés.<br>
+<sup>3</sup> en supposant que le propriétaire du canal privé n’est pas le dernier propriétaire du canal. <br>
+<sup>4</sup> nécessite que l’équipe dispose d’une application installée pour pouvoir l’utiliser sur un canal privé.<br>
+<sup>5</sup> les propriétaires de canal privé peuvent configurer cet affichage.
 
 ### <a name="manage-private-channel-membership-and-settings"></a>Gérer l’appartenance aux canaux privés et les paramètres
 
@@ -132,7 +132,7 @@ Pour obtenir des instructions sur la gestion du cycle de vie des canaux privés 
 
 ## <a name="private-channel-sharepoint-sites"></a>Sites SharePoint de canal privé
 
-Chaque canal privé dispose d’une collection de sites SharePoint optimisée pour le partage de fichiers et la mise en service rapide. La collection de sites séparée est de garantir que l’accès aux fichiers de canal privé est limité uniquement aux membres du canal privé par rapport au site d’équipe où les propriétaires d’équipe ont accès à toutes les ressources au sein de la collection de sites. Ces collections de sites sont créées à l’aide d’une bibliothèque de documents par défaut, et peuvent être facilement améliorées dans une collection de sites complète via l' [interface de gestion de site](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque collection de sites est créée dans la même zone géographique que la collection de sites de l’équipe parente. Ces sites légers possèdent un ID de modèle personnalisé, « TEAMCHANNEL # 0 », pour faciliter la gestion via PowerShell et l’API Graph.
+Chaque canal privé dispose de sa propre collection de sites SharePoint optimisée pour le partage de fichiers et la mise en service rapide. La collection de sites séparée est de garantir que l’accès aux fichiers de canal privé est limité uniquement aux membres du canal privé par rapport au site d’équipe où les propriétaires d’équipe ont accès à toutes les ressources au sein de la collection de sites. Ces collections de sites sont créées à l’aide d’une bibliothèque de documents par défaut, et peuvent être facilement améliorées dans une collection de sites complète via l' [interface de gestion de site](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Chaque collection de sites est créée dans la même zone géographique que la collection de sites de l’équipe parente. Ces sites légers possèdent un ID de modèle personnalisé, « TEAMCHANNEL # 0 », pour faciliter la gestion via PowerShell et l’API Graph.
 
 Pour prendre en charge un plus grand nombre de collections de sites par client, la limite est passée de 500 000 à 2 millions. Une collection de sites de canal privé synchronise la classification des données et hérite des autorisations d’accès invité de la collection de sites de l’équipe parente.  L’appartenance au propriétaire de la collection de sites et aux groupes de membres reste synchronisée avec l’appartenance du canal privé au sein d’Teams. Toute modification apportée à l’appartenance des groupes de propriétaires ou de membres dans SharePoint Online sera automatiquement enregistrée en tant qu’appartenance au canal privé dans les quatre heures. Dans les scénarios où certains utilisateurs ont besoin d’accéder à des documents sans avoir besoin d’accéder à des messages de canal privé, ajoutez-les au groupe visiteurs sur le site ou à un nouveau groupe qui est différent des propriétaires et des membres.
 
@@ -151,7 +151,7 @@ Si un bloc-notes existant est ajouté en tant qu’onglet à un canal privé, l�
 - Par défaut, tout le monde n’a pas accès au bloc-notes. En effet, ils ne peuvent pas avoir accès à l’emplacement de l’hébergement du bloc-notes, par exemple le site SharePoint d’un autre équipe.
 - Les utilisateurs qui ne sont pas membres du canal privé peuvent afficher le bloc-notes.  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

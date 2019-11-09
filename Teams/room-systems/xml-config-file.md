@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: Cet article décrit la gestion à distance des paramètres par défaut utilisés par un appareil Microsoft Teams, y compris l’application d’un thème personnalisé.
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573461"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074616"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML
 
@@ -60,7 +60,7 @@ Tout éditeur de texte peut être utilisé pour créer un fichier de paramètres
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ Si la valeur d’une variable est d’un type incorrect, les éléments ne sont 
 |\<ContentCameraEnhancement>  | &#x2777; booléenne | |Lorsque la valeur est définie sur true (valeur par défaut), l’image de l’appareil photo de contenu est améliorée de façon numérique : le bord du tableau blanc est détecté et un zoom approprié est sélectionné, les lignes d’entrée manuscrite sont améliorées et la personne qui rédige le tableau blanc devient transparente.  <br><br> Valeur définie sur false si vous envisagez d’envoyer un flux vidéo brut aux participants d’une réunion pour les espaces dans lesquels un tableau blanc n’est pas dessiné à l’aide d’un stylet et, à la place, la caméra est utilisée pour afficher les notes collantes, les affiches ou tout autre contenu multimédia.  |
 | \<Thèmes\>  |Conteneur |Première &#x2776;  |L’une des fonctionnalités qui peuvent être appliquées à un fichier XML est un thème personnalisé pour votre organisation. Vous pouvez spécifier un nom de thème, une image d’arrière-plan et une couleur. |
 |\<ThemeName\> |&#x2778; de chaîne  || Permet d'identifier le thème sur le client. Les options pour le nom du thème sont Par défaut, un des thèmes prédéfinis fournis ou Personnalisé. <br/>  Les noms de thème personnalisés utilisent toujours le nom *personnalisé*. L’interface utilisateur du client peut être définie sur la console par défaut ou l’une des présélections, mais l’utilisation d’un thème personnalisé doit être définie à distance par un administrateur. <br/>  Les thèmes prédéfinis sont les suivants :  <br/>  Par défaut <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Pour désactiver le thème actuel, utilisez « aucun thème » pour l’ThemeName.  |
-|\<CustomThemeImageUrl\> |&#x2778; de chaîne  ||Requis pour un thème personnalisé, sinon facultatif.   |Pour plus d’informations sur l’image de thème personnalisé, voir la section [images de thème personnalisées](xml-config-file.md#Themes) .
+|\<CustomThemeImageUrl\> |&#x2778; de chaîne  ||Requis pour un thème personnalisé, sinon facultatif. Entrez uniquement le nom du fichier.   |Pour plus d’informations sur l’image de thème personnalisé, voir la section [images de thème personnalisées](xml-config-file.md#Themes) .
 |\<CustomThemeColor\> |Conteneur ||Conteneur pour les \<valeurs\>RedComponent \<,\>GreenComponent et \<BlueComponent\> . Ces valeurs sont requises pour un thème personnalisé. |
 |\<RedComponent\> |Octet (0-255) ||Représente le composant de la couleur rouge. |
 |\<GreenComponent\> |Octet (0-255) ||Représente le composant de la couleur verte. |
@@ -150,7 +150,7 @@ Pour trouver le chemin d’accès de l’instance :
 
 ## <a name="see-also"></a>Voir aussi
 
-[Webcams de contenu](content-camera.md)
+[Caméras de contenu](content-camera.md)
 
 [Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)
 

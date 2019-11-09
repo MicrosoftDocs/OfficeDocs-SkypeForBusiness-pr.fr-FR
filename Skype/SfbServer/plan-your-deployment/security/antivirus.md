@@ -11,22 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Vue d’ensemble de l’interopérabilité avec le scanner antivirus avec Skype entreprise Server.
-ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 69fb02d04f27b7444a3b8cadaacafc05654a1c9f
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296972"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074626"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions de l’analyse antivirus pour Skype entreprise Server
 
 Vue d’ensemble de l’interopérabilité avec le scanner antivirus avec Skype entreprise Server.
-
-Cet article contient des recommandations susceptibles de permettre à un administrateur de déterminer la cause d’une instabilité éventuelle sur un ordinateur exécutant une version prise en charge de Microsoft Windows lorsqu’il est utilisé avec un logiciel antivirus dans un domaine Active Directory environnement ou dans un environnement d’entreprise géré.
-
-Nous vous recommandons d’appliquer provisoirement ces procédures pour évaluer un système. Si les recommandations contenues dans cet article vous aideront à améliorer les performances ou la stabilité du système, contactez le fabricant de votre logiciel antivirus pour obtenir des instructions ou une version mise à jour du logiciel antivirus.
-
-Cet article contient des informations pour vous aider à réduire les paramètres de sécurité ou pour désactiver temporairement les fonctionnalités de sécurité sur un ordinateur. Vous pouvez apporter ces modifications afin de comprendre la nature d’un problème spécifique. Avant de procéder à ces modifications, nous vous recommandons d’évaluer les risques associés à l’implémentation de cette solution de contournement dans votre environnement particulier. Si vous implémentez cette solution de contournement, prenez toutes les mesures supplémentaires appropriées pour protéger l’ordinateur des fichiers qui ne sont plus analysés par votre logiciel antivirus.
 
 Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnement de Skype entreprise Server, vous devez exclure des processus spécifiques et des annuaires pour chaque rôle serveur ou serveur Skype entreprise Server sur lequel vous exécutez un scanneur antivirus. Vous devez exclure les processus et les répertoires suivants :
 
@@ -36,7 +30,7 @@ Pour vous assurer que le scanner antivirus n’interagit pas avec le fonctionnem
 > [!IMPORTANT]
 > Notez que certains programmes antivirus peuvent avoir besoin de chemins d’accès absolus, non relatifs, pour leur liste d’exclusions.
 
-- Processus du serveur Skype entreprise:
+- Processus du serveur Skype entreprise :
 
   - ABServer.exe
 
