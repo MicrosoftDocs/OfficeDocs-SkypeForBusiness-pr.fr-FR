@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Apprenez-en davantage sur la recherche de contenu dans Microsoft teams et la recherche de conversations de canal à partir d’Exchange, de téléchargements de fichiers et de modifications de SharePoint et de modifications de OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968285"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231155"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 =====================================
@@ -30,7 +31,7 @@ La recherche de contenu fournit un moyen de rechercher des informations sur Micr
 
 Pour en savoir plus, voir [recherche de contenu dans Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-Par exemple, l’utilisation de la **recherche de contenu** par rapport aux spécifications de fabrication et de la boîte aux lettres du site SharePoint, vous pouvez effectuer des recherches sur des conversations par canal standard d’Exchange, des téléchargements de fichiers et des modifications de SharePoint Online. et OneNote change.
+Par exemple, l’utilisation de la **recherche de contenu** par rapport aux spécifications de fabrication dans le site SharePoint, vous pouvez effectuer des recherches sur des conversations par canal standard d’Exchange, des téléchargements de fichiers et des modifications de SharePoint Online, et des modifications de OneNote.
 
 Vous pouvez également ajouter des critères de requête à la **recherche de contenu** pour affiner les résultats renvoyés. Dans l’exemple ci-dessus, vous pouvez chercher le contenu dans lequel les mots clés «**New Factory specs »** étaient utilisés.
 

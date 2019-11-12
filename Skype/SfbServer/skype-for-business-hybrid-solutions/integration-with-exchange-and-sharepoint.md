@@ -1,5 +1,5 @@
 ---
-title: Intégration à Exchange et SharePoint
+title: Intégration avec Exchange et SharePoint
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -15,19 +15,20 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
-description: 'Résumé: en savoir plus sur l’intégration de Skype entreprise Server 2015 à Exchange et SharePoint.'
-ms.openlocfilehash: fa4e6d93dd1538dbeafdb05998c4f57482e0f4f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’intégration de Skype entreprise Server 2015 à Exchange et SharePoint.'
+ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294312"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231145"
 ---
-# <a name="integration-with-exchange-and-sharepoint"></a>Intégration à Exchange et SharePoint
+# <a name="integration-with-exchange-and-sharepoint"></a>Intégration avec Exchange et SharePoint
 
-**Résumé:** En savoir plus sur l’intégration de Skype entreprise Server 2015 à Exchange et SharePoint.
+**Résumé :** En savoir plus sur l’intégration de Skype entreprise Server 2015 à Exchange et SharePoint.
 
 Vous pouvez configurer les déploiements de Skype entreprise Server 2015 à des fins d’intégration avec Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 et SharePoint Server, en local et en ligne. Sauf indication contraire, les fonctionnalités affichées dans le tableau ci-dessous sont prises en charge avec tous les clients. Pour plus d’informations sur la prise en charge du client, reportez-vous à la rubrique [comparaison des fonctionnalités du client de bureau pour Skype entreprise](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) et comparaison des clients Skype entreprise Online aux [clients de Skype entreprise Online](https://go.microsoft.com/fwlink/p/?LinkId=281902).
 
