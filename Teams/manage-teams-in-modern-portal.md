@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571933"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290934"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer teams dans le centre d’administration Microsoft teams
 ==========================================
 
 ## <a name="overview"></a>Vue d’ensemble
+
+Cet article fournit une vue d’ensemble des outils de gestion pour teams dans le centre d’administration Microsoft Teams. Commencez par regarder cette courte vidéo (3 minutes) :
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 En tant qu’administrateur, il est possible que vous deviez afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction, comme affecter des propriétaires à des équipes propriétaires. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft teams PowerShell et le centre d’administration Microsoft Teams. Pour pouvoir bénéficier d’une administration complète de ces deux ensembles d’outils, assurez-vous que vous disposez de l’un des rôles suivants :
 
@@ -35,7 +39,7 @@ En tant qu’administrateur, il est possible que vous deviez afficher ou mettre 
 
 Pour en savoir plus sur les rôles d’administrateur dans équipes, [Utilisez les rôles d’administrateur de Microsoft teams pour gérer teams](using-admin-roles.md), et apprenez-en davantage sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la [référence des cmdlets de Microsoft teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
-Cet article fournit une vue d’ensemble des outils de gestion pour teams dans le centre d’administration Microsoft Teams.
+
 
 ## <a name="teams-overview-grid"></a>Grille de vue d’ensemble des équipes
 
@@ -69,7 +73,7 @@ Pour modifier les paramètres spécifiques d’une équipe ou d’un groupe, sé
 
 ### <a name="archive"></a>Archivage
 
-Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équipe en mode lecture seule dans Teams. En tant qu’administrateur, vous pouvez archiver et désarchiver des équipes au nom de votre organisation dans le centre d’administration. 
+Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équipe en mode lecture seule dans Teams. En tant qu’administrateur, vous pouvez archiver et désinstaller des équipes au nom de votre organisation dans le centre d’administration. 
 
 ### <a name="delete"></a>Annuler
 
@@ -116,7 +120,7 @@ Certaines de vos équipes ne figurent pas dans la liste des équipes de la grill
 
 Remplacez **{GroupID}** dans la requête pour le GroupID réel en question, que vous pouvez obtenir par le biais d’Exchange Online PowerShell avec l’applet de requête **«[Get-unifiedgrouphttps](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** , qui est l’attribut «**ExternalDirectoryObjectId**».
 
-1. [Explorateur de graphiques](https://developer.microsoft.com/en-us/graph/graph-explorer)Access.
+1. [Explorateur de graphiques](https://developer.microsoft.com/graph/graph-explorer)Access.
 
 2. Connectez-vous à l’Explorateur de graphiques dans le menu de gauche.
 

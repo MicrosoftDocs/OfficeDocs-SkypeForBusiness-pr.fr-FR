@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568377"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290974"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -62,15 +62,17 @@ Ce guide est également destiné à être utilisé par le ou les champions quali
 
 Avant d’utiliser ce guide, assurez-vous que vous disposez des [rôles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de client appropriés pour pouvoir accéder à bord.
 
--   **Rôle d’administrateur général Office 365** 
+-   **Administrateur général d’Office 365** 
 
--   **Rôle d’administrateur Skype entreprise** 
+-   **Administrateur Skype entreprise** 
 
--   **Rôle d’administrateur de service teams** 
+-   **Administrateur du service Teams** 
 
--   **Rôle d’ingénieur du support des communications teams** 
+-   **Administrateur des communications Teams** 
 
--   **Rôle du spécialiste de la prise en charge des communications teams** 
+-   **Ingénieur du support technique pour les communications Teams** 
+
+-   **Spécialiste du support des communications teams** 
 
 Vous pouvez également affecter le rôle suivant à un compte d’utilisateur Office 365 pour autoriser l’accès aux fonctions de création de rapports uniquement.
 
@@ -265,9 +267,6 @@ Pour des formations et des ressources plus détaillées, voir l' [annexe](#other
 
 Le tableau de bord de qualité des appels (bord) vous permet de mieux comprendre la qualité des appels passés à l’aide d’équipes et de services Skype entreprise. BORD est conçu pour aider les administrateurs de Skype entreprise et équipes et les ingénieurs réseau à optimiser le réseau et à se familiariser avec la qualité, la fiabilité et l’interface utilisateur. BORD examine la télémétrie globale d’une entreprise dans laquelle les modèles globaux peuvent devenir évidents, ce qui permet aux membres du personnel de passer des examens éclairés et de planifier des activités de correction pour optimiser l’impact. BORD fournit des rapports de mesures qui fournissent des indications sur la qualité générale, la fiabilité et l’utilisation de l’utilisateur.
 
-> [!Note]
-> BORD ne contient pas d’informations d’identification personnelle. Les informations d’identification personnelle sont des informations qui peuvent être utilisées en tant que telles ou des informations permettant d’identifier, de contacter ou de rechercher une seule personne, ou d’identifier une personne en contexte.
-
 Ce guide va vous aider à comprendre les principaux concepts de bord pour vous aider à optimiser l’impact que vous pouvez apporter pour améliorer l’utilisation de teams ou de Skype entreprise online. Vous trouverez d’autres ressources bord dans l' [annexe](#other-resources).
 
 ### <a name="expectations-using-cqd"></a>Attentes avec bord
@@ -277,18 +276,15 @@ BORD, même s’il est utile pour analyser des tendances et des sous-réseaux, n
 -   BORD ne fournit pas la cause racine de chaque scénario.
 -   BORD ne contient pas les flux de votre système téléphonique ou de conférence audio.
 -   BORD appelle des zones pour une étude plus approfondie en fonction des tendances.
--   BORD ne contient aucune identification d’identification personnelle.
 
 ### <a name="report-editions"></a>Éditions de rapport
 
-Il existe deux éditions de rapport dans bord Online : Summary et detailed. Utilisez le menu déroulant situé dans la barre bleue située en haut de l’écran pour ouvrir une édition de rapport. Le nom de l’édition de rapport sélectionnée apparaît en haut de l’écran.
+Il existe deux éditions de rapport dans bord Online : Summary et detailed. Utilisez le menu déroulant situé dans la barre située en haut de l’écran pour ouvrir une édition de rapport. Le nom de l’édition de rapport sélectionnée apparaît en haut de l’écran.
 
 -   Les rapports de synthèse sont statiques et ne peuvent pas être modifiés, téléchargés ou exportés. 
 -   Les rapports détaillés sont entièrement personnalisables et peuvent être téléchargés dans un fichier CSV, exporté ou cloné.
 
 Pour une description complète de la différence entre les deux éditions, voir [cet article](turning-on-and-using-call-quality-dashboard.md).
-
-![Capture d’écran du menu déroulant avec les rapports de synthèse sélectionnés](media/qerguide-image-reportcategories.png)
 
 _Figure 4 : catégories de rapports bord_
 
@@ -363,7 +359,7 @@ BORD pouvez créer des rapports sur les équipes et la télémétrie de Skype en
 
 Pour modifier la page rapports de synthèse de sorte qu’il ne s’affiche que dans teams ou Skype entreprise, sélectionnez le menu déroulant **filtre du produit** en haut de l’écran, puis sélectionnez le produit souhaité.
 
-![Capture d’écran du menu déroulant affichant les options de filtre](media/qerguide-image-productfilter.png)
+![Capture d’écran du menu déroulant affichant les options de filtrage](media/qerguide-image-productfilter.png)
 
 _Figure 5 : sélectionner un filtre produit_
 
@@ -801,36 +797,6 @@ Le planificateur de réseaux détermine et organise vos exigences réseau pour l
 
 Même si le planificateur de réseaux n’automatise pas entièrement le processus de mappage de bâtiment, une fois que les informations réseau sont entrées dans le planificateur réseau, il peut être exporté vers un fichier de construction prêt pour le chargement.
 
-## <a name="diagnostic-alerts"></a>Alertes de diagnostic
-
-Microsoft surveille de manière proactive la télémétrie de bord pour créer des alertes de diagnostic pour les problèmes connus qui affectent de manière négative l’utilisation de l’utilisateur. Ces alertes sont ensuite automatiquement transmises à l’administrateur du service via le centre de messages. Le tableau suivant répertorie les alertes de diagnostic affichées dans le centre de messages, ainsi que des liens vers des informations supplémentaires.
-
-_Tableau 6-alertes de diagnostic_
-
-| Informer                                                                | Plus d’informations             |
-|----------------------------------------------------------------------|------------------------------|
-| Les versions clientes inefficaces connues sont utilisées                   | [Versions de client](#client-versions)              |
-| Les pilotes audio sont à l’origine de chutes d’appel                                 | [Appareils](#devices)                      |
-| Les restrictions du pare-feu sont à l’origine des échecs de configuration des appels         | [Investigations d’échecs de configuration](#setup-failure-investigations) |
-| L’inspection approfondie des paquets entraîne des échecs de configuration des appels                | [Investigations d’échecs de configuration](#setup-failure-investigations) |
-| Les appareils de salle de réunion sur les réseaux Wi-Fi sont à l’origine d’une mauvaise qualité d’appel | [Examens de qualité](#quality-investigations)       |
-| Le trafic UDP est limité, ce qui cause une mauvaise qualité d’appel         | [TCP](#tcp)                          |
-| L’utilisation du VPN affecte la qualité de l’appel                                  | [Examens de qualité](#quality-investigations)       |
-
-
-### <a name="message-center"></a>Centre de messages
-
-Le centre de messages vous alerte sur les nouvelles mises à jour, fonctionnalités ou problèmes. Le centre de messages est disponible dans le centre d’administration 365 Microsoft pour les administrateurs de services. Chaque article fournit une vue d’ensemble de la façon dont la mise à jour, la fonctionnalité ou le problème affecte vos utilisateurs et fournit des liens vers des informations plus détaillées.
-
-Pour ouvrir le centre de messages, dans le centre d’administration 365 Microsoft, accédez au**Centre de messages**d' **intégrité** > ou sélectionnez la carte du centre de messages dans le tableau de bord de **départ** . Le tableau de bord affiche les trois derniers messages publiés et des liens vers la page complète du centre de messages.
- 
-
-![Capture d’écran du centre de messages montrant les trois derniers messages publiés](media/qerguide-image-messagecentercard.png)
-
-_Figure 18 : carte du centre de messages_
-
-Vous pouvez également utiliser l' [application administration d’Office 365](https://go.microsoft.com/fwlink/p/?linkid=627216) sur votre appareil mobile pour afficher le centre de messages, qui est un excellent moyen de rester informé grâce aux notifications de transmission. Pour plus d’informations, consultez [cet article](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
-
 ## <a name="reliability-investigations"></a>Investigations de fiabilité
 
 La première étape pour améliorer la qualité consiste à évaluer l’état de la fiabilité au sein de l’organisation. Dans la mesure où la fiabilité est essentielle pour une utilisation positive de l’utilisateur, nous commençons par les deux composants qui mesurent la fiabilité :
@@ -884,10 +850,6 @@ Ce rapport de synthèse permet de détecter et d’isoler tout bâtiment ou rés
 ![Capture d’écran montrant les échecs de configuration](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figure 20-échecs de configuration audio par sous-réseau_
-
-##### <a name="diagnostic-alert"></a>Alerte de diagnostic
-
-Si vous avez reçu une alerte de diagnostic « les restrictions du pare-feu sont à l’origine des échecs de configuration des appels » ou « l’inspection de paquets approfondie est à l’origine des échecs de configuration des appels », concentrez-vous les efforts de correction sur ces sous-réseaux identifiés d’abord. L’alerte comporte des sous-réseaux identifiés qui ont une incidence négative sur la fiabilité des appels. Vous pouvez utiliser les rapports d’échecs de configuration disponibles dans la section fiabilité pour faciliter la correction.
 
 ##### <a name="remediation"></a>Remediation 
 
@@ -956,7 +918,7 @@ Causes fréquentes des rejets d’appel :
 -   Versions de client plus anciennes
 -   Comportement des utilisateurs
 
-Après avoir détecté votre problème, vous pouvez utiliser l' [analyse des appels](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) pour passer en revue les utilisateurs de ce bâtiment pour des problèmes spécifiques. L’analyse des appels comporte des données d’identification personnelle qui peuvent être utiles pour isoler davantage les raisons potentielles des échecs de remise.
+Après avoir détecté votre problème, vous pouvez utiliser l' [analyse des appels](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) pour passer en revue les utilisateurs de ce bâtiment pour des problèmes spécifiques. L’analyse des appels contient des données d’identification personnelle supplémentaires et peut s’avérer utile pour identifier les raisons potentielles des échecs de remise.
 
 Quelle que soit la prochaine étape, il est recommandé de faire savoir au support technique qu’un problème a été détecté dans les bâtiments ou sous-réseaux spécifiques. De cette façon, ils peuvent rapidement répondre aux appels entrants et trier les utilisateurs plus efficacement. Les utilisateurs avec indicateur peuvent ensuite être notifiés à l’équipe d’ingénierie pour de plus amples examens.
 
@@ -1022,15 +984,9 @@ Bien que les dimensions utilisées soient légèrement différentes entre le rap
 > Les sous-réseaux courants sont difficiles à trier en raison de leur utilisation massive. Un rapport séparé qui affiche l’adresse IP publique du client (deuxième adresse IP locale réflexive) a été ajouté au modèle tous les réseaux pour faciliter la conversion des bureaux qui utilisent des réseaux communs.
 
 
-![Capture d’écran illustrant le résumé du flux audio médiocre](media/qerguide-image-poorqualitysummary.png)
+![Capture d’écran montrant le résumé du flux audio médiocre](media/qerguide-image-poorqualitysummary.png)
 
 _Figure 24-Résumé du flux audio médiocre en créant et en sous-réseau-conférences_
-
-##### <a name="diagnostic-alert"></a>Alerte de diagnostic
-
-Si vous avez reçu une alerte de diagnostic « les appareils de salle de réunion sur les réseaux Wi-Fi entraînent une mauvaise qualité de l’appel », « incluez et hiérarchisez ces appareils dans vos efforts de correction ». L’alerte comporte des salles de réunion détectées sur un réseau Wi-Fi qui contribuent activement à la mauvaise qualité des appels.
-
-Si vous recevez une alerte de diagnostic « une utilisation du VPN affecte la qualité de l’appel », recherchez une solution de tunnellisation fractionnée pour ignorer l’appareil VPN et permettre aux médias de se connecter directement au service. L’alerte a déterminé que le réseau privé virtuel affecte la qualité de l’appel.
 
 ##### <a name="remediation"></a>Remediation
 
@@ -1116,10 +1072,6 @@ Dans les modèles bord fournis, naviguez jusqu’aux flux TCP en construisant et
 
 _Figure 27 : flux TCP par bâtiment et sous-réseau-conférences_
 
-##### <a name="diagnostic-alert"></a>Alerte de diagnostic
-
-Si vous avez reçu une alerte de diagnostic "le trafic UDP est limité, ce qui engendre une mauvaise qualité de l’appel," insistez sur vos efforts de correction TCP sur ces sous-réseaux pour la première fois. L’alerte a identifié des sous-réseaux pour lesquels l’utilisation du protocole TCP affecte la qualité de l’appel.
-
 ##### <a name="remediation"></a>Remediation
 
 Ce rapport identifie les bâtiments et sous-réseaux spécifiques qui contribuent au volume de l’utilisation du protocole TCP. Un rapport supplémentaire est également fourni pour identifier l’adresse IP Microsoft Relay utilisée dans l’appel afin d’isoler les règles de pare-feu manquantes. Concentrez vos efforts de correction sur les bâtiments qui présentent le volume le plus élevé de flux TCP pour optimiser l’impact.
@@ -1159,7 +1111,7 @@ Vous voulez voir le plus petit flux multimédia HTTP possible. Si des flux trave
 
 Si votre organisation ne comporte qu’un seul proxy Internet, vérifiez les [URL d’Office 365 appropriées et les exclusions de plages d’adresses IP](https://aka.ms/o365ips). S’il existe plusieurs proxy Internet au sein de votre organisation, utilisez le sous-rapport HTTP pour isoler le bâtiment ou le sous-réseau concerné.
 
-Pour les organisations qui ne peuvent pas ignorer le proxy, assurez-vous que le client Skype entreprise est configuré de manière à se connecter correctement lorsqu’il est situé derrière un proxy, comme indiqué dans l’article [Skype entreprise doit utiliser un serveur proxy pour se connecter au lieu d’essayer directement connexion](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
+S’il s’agit d’organisations qui ne peuvent pas ignorer le proxy, assurez-vous que le client Skype entreprise est configuré de manière à se connecter correctement lorsqu’il se trouve derrière un proxy, comme indiqué dans l’article [Skype entreprise doit utiliser un serveur proxy pour se connecter au lieu d’essayer une connexion directe](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
 
 #### <a name="http-proxy-investigations"></a>Examens du proxy HTTP
@@ -1209,10 +1161,6 @@ Les rapports de cet espace se concentrent sur l’identification des versions du
 ![Capture d’écran du rapport client et périphériques](media/qerguide-image-clientversionreport.png)
 
 _Figure 30-rapport sur la version du client_
-
-#### <a name="diagnostic-alert"></a>Alerte de diagnostic
-
-Si vous avez reçu une alerte de diagnostic « les versions clientes incorrectes incorrectes sont utilisées », concentrez-vous sur la mise à jour de ces clients. L’alerte a détecté que ces clients affectent la qualité de vos appels. Vous pouvez utiliser le rapport sur les appareils clients & (illustré ci-dessus) pour vous assurer que les clients présentant des problèmes connus ne sont plus mis à jour.
 
 #### <a name="remediation"></a>Remediation
 
@@ -1265,10 +1213,6 @@ Les rapports de périphériques permettent d’évaluer l’utilisation de l’a
 ![Capture d’écran du rapport périphériques (microphone)](media/qerguide-image-devicesmicrophone.png)
 
 _Figure 31-rapport sur les appareils (microphone)_
-
-##### <a name="diagnostic-alert"></a>Alerte de diagnostic
-
-Si vous avez reçu une alerte de diagnostic « les pilotes audio sont à l’origine de la chute des appels », concentrez-vous sur la correction des axes stratégiques. L’alerte a détecté que les pilotes connus connus sont à l’origine de la chute des appels et qu’ils ont un impact négatif sur la fiabilité des appels. Pour obtenir de l’aide sur le processus, vous pouvez utiliser le rapport microphone-pilotes (illustré ci-dessus), qui se trouve dans la section des appareils du client &.
 
 ##### <a name="remediation"></a>Remediation
 

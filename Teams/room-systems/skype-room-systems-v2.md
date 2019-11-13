@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077417"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290924"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
@@ -37,7 +37,7 @@ Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les a
 |:--- |:---: |
 |Skype Entreprise |&#x2714;|
 |Microsoft Teams|  &#x2714;|
-|Systèmes téléphoniques|  &#x2714;|
+|Système téléphonique|  &#x2714;|
 |Audioconférence|&#x2714; &sup1 ;|
 |Microsoft Intune|&#x2714;|  
 |Disponibilité dans le monde entier | &#x2714; &sup2 ;|

@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: 9173108fa6c7047e7e10e45b59d8038cf2d3446e
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 20575670fb9c462fd9cfa7bb0b424b8fcde4c68c
+ms.sourcegitcommit: 4ddd2323ca4902ac68f01c90abbf21ee1d4da160
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38001353"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38303178"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
@@ -74,10 +74,12 @@ Les salles de Microsoft teams s’adaptent à différentes tailles de pièces en
   |[Logitech appuyé](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 Go |128 GO |
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 GO|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 GO |
-  |||||
+  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 GO |
+  ||||||
 
-  > [!NOTE]
-  > Les processeurs Core M3 ne sont pas pris en charge.
+
+> [!NOTE]
+> Les processeurs Core M3 ne sont pas pris en charge.
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Versions de micrologiciel certifiées pour les périphériques USB audio et vidéo
 
@@ -97,6 +99,7 @@ Ces appareils sont disponibles sur [aka.ms/teamsdevices](https://aka.ms/teamsdev
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   |  1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
+|[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
 |[Polycom trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
@@ -105,8 +108,9 @@ Ces appareils sont disponibles sur [aka.ms/teamsdevices](https://aka.ms/teamsdev
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC 1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
+|[Yealink CP900](https://www.yealink.com/products_150.html) | 100.20.0.29|  
 |[Biamp Tesira AVB VT4 fixe audio](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micro TeamConnect plafond 2 Sennheiser](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP : 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> EX-UBT : 3.12.0.15 |  |
-||||
+||||||
 
 &Dagger;Les clients peuvent choisir l’interface Dante ou le commutateur réseau recommandée par biamp/Sennheiser pour ce bundle.
 
@@ -131,7 +135,7 @@ Le tableau suivant fournit des recommandations pour les périphériques en fonct
 |:-----|:-----|:-----|:-----|:-----|
 |**Focus** <br/> 10' x 9'   |2 – 4  |1,5 m  |Logitech Connect  |Les périphériques Logitech Connect incluent une caméra qui doit être positionnée au premier plan de la salle (et non au centre de tableaux) pour capturer les participants de la réunion locale. |
 |**Petite** <br/> 16' x 16'  |4 à 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |Le volume de lecture peut être limité pour les salles de grande taille.  |
-|**Moyenne** <br/> 18' x 20'  |6 – 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. <br/> En règle générale, il est possible de faire en sorte qu’il soit possible de disposer de microphones de satellites. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
+|**Moyenne** <br/> 18' x 20'  |6 – 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Les périphériques Logitech MeetUp comprennent une caméra. Ils doivent donc être placés à l’avant de la salle (pas au centre de la table) pour capturer les participants locaux à la réunion. <br/> En règle générale, il est possible de faire en sorte qu’il soit possible de disposer de microphones de satellites. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
 |**Grande** <br/> 15' x 32'  |12-16  |3 m <br/> Cette distance s’applique également à la surface couverte par chaque micro-satellite connecté.  |Logitech Group + microphones satellitaires <br/> Polycom Trio+ microphones satellitaires <br/> Polycom CX5100 + microphones satellitaires <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + microphones satellitaires  |Tous les périphériques audio répertoriés dans cette ligne prennent en charge les options de microphone satellite. <br/> CX5100 inclut une caméra 360 de niveau intégré pour que l’appareil puisse être placé au centre de la table. <br/> SP 220 MS doit être utilisé dans une configuration en chaîne.  |
 
 **Périphériques vidéo certifiés Microsoft teams**
