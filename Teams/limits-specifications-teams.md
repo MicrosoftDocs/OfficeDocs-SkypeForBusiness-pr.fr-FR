@@ -11,15 +11,16 @@ description: En savoir plus sur les limites, spécifications et autres configura
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- SPO_Content
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615981"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231095"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -109,6 +110,10 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 |Événements en direct simultanés dans un client Office 365 | 15 |
 
 Pour plus d’informations sur les événements en direct et pour voir une comparaison entre les événements en direct Teams et la diffusion de réunion Skype, accédez à [événements en direct Teams et diffusion de réunion Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+## <a name="presence-in-outlook"></a>Présence dans Outlook
+
+La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures. Pour en savoir plus sur la présence dans Teams, voir [Présence de l’utilisateur dans Teams](presence-admins.md).
 
 ## <a name="storage"></a>Stockage
 
