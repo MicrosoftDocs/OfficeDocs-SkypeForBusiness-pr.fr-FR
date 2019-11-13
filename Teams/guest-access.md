@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a0bba0c8893ee706061b989f95d4e22619fa4f9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753279"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290854"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 ======================================
@@ -75,6 +75,7 @@ L’expérience des invités comporte des limitations de par sa conception. Assu
 - Rechercher une équipe
 - Télécharger des fichiers dans une conversation de personne à personne
 - Les invités peuvent toujours rechercher et trouver des utilisateurs (à l’extérieur de leur équipe) s’ils connaissent l’ID d’e-mail complet de l’utilisateur. Pour empêcher cela, les administrateurs informatiques peuvent utiliser des modèles tels que [la recherche étendue dans l’annuaire](teams-scoped-directory-search.md) qui ont la possibilité de restreindre les invités à leur propre LAG virtuelle.
+- Pour l’instant, Teams prend uniquement en charge les types d’États 1 et 2 des utilisateurs invités [définis par Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
 Pour consulter la liste complète de ce qu’un invité peut et ne peut pas faire dans Teams, voir tableau [comparaison des fonctionnalités des membres d’équipe et des invités](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Pour en savoir plus sur l’accès invité au niveau Office 365, lisez [Ajout d’invités à des groupes Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
