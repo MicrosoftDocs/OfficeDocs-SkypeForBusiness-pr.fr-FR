@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Recherchez et gérez les mises à jour de Skype entreprise Server ou de Lync 2013. Utilisez les liens pour obtenir plus d’informations et télécharger les mises à jour.
-ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "35746448"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311219"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 
@@ -24,12 +24,12 @@ La page Web _téléchargements et mises à jour Skype entreprise_ qui s’affich
 
 - [Mises à jour du client Skype entreprise](sfb-client-updates.md) contenant les sections suivantes :
     - [Mises à jour du client Skype Entreprise 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Mises à jour du client Skype Entreprise 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Mises à jour du client Skype Entreprise sur Mac](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
-    - [Mises à jour du client Lync 2013](sfb-client-updates.md#lync-2013-client-updates)
+    - [Mises à jour du client Skype Entreprise 2015](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Mises à jour du client Skype Entreprise sur Mac](sfb-client-updates.md)
+    - [Mises à jour du client Lync 2013](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
         - [Mises à jour de Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
         - [Clients Lync Phone Edition dans le Centre de téléchargement](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
-        - [Logiciel d’évaluation de Lync Basic 2013](sfb-client-updates.md#trial-software)
+        - [Logiciel d’évaluation de Lync Basic 2013](sfb-client-updates.md)
     - [Mises à jour du client Lync pour Mac 2011](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Mises à jour du client Lync 2010](sfb-client-updates.md#lync-2010-client-updates)
         - [Mises à jour de Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
@@ -52,4 +52,4 @@ La page Web _téléchargements et mises à jour Skype entreprise_ qui s’affich
         - [Group Chat](sfb-server-updates.md#group-chat)
         - [Logiciel d’évaluation](sfb-server-updates.md#trial-software)
     - [Informations complémentaires](sfb-server-updates.md#additional-information)
-    - [Sujets associés](sfb-server-updates.md#related-topics)
+    - [Voir aussi](sfb-server-updates.md#related-topics)

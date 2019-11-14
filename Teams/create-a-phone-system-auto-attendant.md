@@ -1,7 +1,7 @@
 ---
 title: Configurer un standard automatique dans le cloud
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972475"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318139"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -103,7 +103,7 @@ Vous pouvez définir l’opérateur de plusieurs manières :
 
 <a name="timezone"> </a>
 
-![Icône du numéro 3, une légende dans le](media/teamscallout3.png) **fuseau horaire** de capture d’écran précédent vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire.
+![Icône du numéro 3, une légende dans le](media/teamscallout3.png) **fuseau horaire** de capture d’écran précédent vous devez définir le fuseau horaire pour votre standard automatique. Ce paramètre peut être identique à celui de l’adresse principale répertoriée pour votre organisation ou à un fuseau horaire différent. Chaque standard automatique peut avoir un fuseau horaire différent. Les heures d’ouverture définies pour le standard automatique utilisent également ce fuseau horaire. Veillez à définir le fuseau horaire approprié pour éviter les incohérences entre les heures d’entreprise, car certaines régions ne disposent pas de l’heure d’été. 
 
 * * *
 
@@ -231,7 +231,7 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 >- Un standard automatique peut être configuré pour composer par nom ou par numéro de poste, mais pas les deux.
 
 > [!NOTE]
-> Si vous souhaitez utiliser les fonctions **numéroter par nom** et **numéro de poste par** , vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu s’ils connaissent l’extension de l’utilisateur et définir cette option sur Transférez l’appel vers un standard automatique activé pour composer par extension.
+> Si vous voulez utiliser les fonctions **numérotation par nom** et **numéro de poste par numéro** , vous pouvez créer le standard automatique principal (activé pour la **numérotation par nom**) qui invite les appelants à choisir une option de menu si elles connaissent l’extension de l’utilisateur et définir cette option pour transférer l’appel vers un standard automatique activé pour la numérotation par poste.
 
 * * *
 
@@ -249,7 +249,7 @@ Lorsque vous avez terminé vos sélections, vous pouvez cliquer sur **suivant** 
 - Étendue de numérotation
 - Comptes de ressources
 
-Dans la mesure où votre standard automatique est requis pour disposer d’un compte de ressources, vous pouvez passer à la page du **compte de ressources** et associer un compte de ressources que vous avez déjà configuré, ou créer un compte de ressource et l’associer à l’auto. attendant, comme décrit dans [gérer les comptes de ressources dans Microsoft teams](manage-resource-accounts.md). Vous ne serez pas en mesure d’utiliser ce standard automatique tant qu’il n’a pas été associé à un compte de ressources. pour cela, cliquez sur le bouton **suivant** en bas de l’écran, puis cliquez sur **comptes de ressources** dans le volet de navigation de gauche pour accéder directement à la page comptes de ressources et associez le standard automatique à un compte de ressources.
+Dans la mesure où votre standard automatique est requis pour disposer d’un compte de ressources, vous pouvez passer à la page du **compte de ressources** et associer un compte de ressources que vous avez déjà configuré, ou créer un compte de ressource et l’associer au standard automatique comme décrit dans [gérer les comptes de ressources dans Microsoft teams](manage-resource-accounts.md). Vous ne serez pas en mesure d’utiliser ce standard automatique tant qu’il n’a pas été associé à un compte de ressources. pour cela, cliquez sur le bouton **suivant** en bas de l’écran, puis cliquez sur **comptes de ressources** dans le volet de navigation de gauche pour accéder directement à la page comptes de ressources et associez le standard automatique à un compte de ressources.
 
 #### <a name="advanced-settings-optional"></a>Advanced Settings (facultatif)
 
@@ -273,7 +273,7 @@ Au départ, les heures d’ouverture sont définies pour commencer à 12:00 AM e
 
 ![Icône du numéro 3 ; une légende dans la capture d’écran](media/teamscallout3.png) précédente sélectionnez **effacer toutes les heures** pour effacer entièrement le planning. Si vous sélectionnez cette option et que vous ne souhaitez pas utiliser les heures non configurées, utilisez cette option uniquement si vous voulez recommencer entièrement les heures d’activité.
 
-![Icône du numéro 4, une légende dans l’icône précédent de](media/teamscallout4.png)![la capture d’écran, une légende dans la capture d’écran](media/teamscallout5.png) précédente pour personnaliser l’heure de début ou de fin d’un jour de la semaine, cliquez sur au **début** ou à la **fin** de l’heure que vous voulez réinitialiser et Sélectionnez la nouvelle heure dans la liste qui s’affiche.   La liste permet de sélectionner des heures d’ouverture par intervalle de 15 minutes, et les heures d’ouverture sélectionnées ici dépendent du fuseau horaire que vous avez défini dans la page **informations générales** .
+![Icône du numéro 4, une légende dans l’icône précédent de](media/teamscallout4.png)![la capture d’écran, une légende dans la capture d’écran](media/teamscallout5.png) précédente pour personnaliser l’heure de début ou de fin d’un jour de la semaine, cliquez sur au **début ou à** la fin de l’heure de début et de **fin** de la liste qui s’affiche.   La liste permet de sélectionner des heures d’ouverture par intervalle de 15 minutes, et les heures d’ouverture sélectionnées ici dépendent du fuseau horaire que vous avez défini dans la page **informations générales** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ Vous pouvez ajouter jusqu'à 20 congés planifiés pour chaque standard automati
 
 Le nom d’un flux d’appels de vacances peut contenir jusqu’à 64 caractères et doit être unique pour l’organisation. Par exemple, vous ne pouvez pas avoir deux flux d’appels de vacances nommés « Thanksgiving » dans la même organisation. Le standard automatique peut faire un flux d’appels pour chaque jour férié que vous avez configuré, mais il se peut que vous souhaitiez disposer d’un ensemble de comportements communs qui n’est pas une formule de salutation personnalisée.
 
-![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente les options d' [Accueil](#call-flow) disponibles pour un flux d’appels de vacances sont les mêmes que celles disponibles pendant les heures d’activité. Les **actions** effectuées après le message d’accueil sont également similaires, sauf que les seules actions disponibles sont la **déconnexion** ou la **redirection vers**, et lorsque vous sélectionnez l’option **Rediriger vers** , l’opérateur n’est pas l’un des choix disponibles. . Vous ne pouvez pas définir un menu spécifique à un flux de vacances.
+![Icône du numéro 3, une légende dans la capture d’écran](media/teamscallout3.png) précédente les options d' [Accueil](#call-flow) disponibles pour un flux d’appels de vacances sont les mêmes que celles disponibles pendant les heures d’activité. Les **actions** effectuées après le message d’accueil sont également similaires, sauf que les seules actions disponibles sont la **déconnexion** ou la **redirection vers**, et lorsque vous sélectionnez l’option **Rediriger vers** , l’opérateur n’est pas l’un des choix disponibles. Vous ne pouvez pas définir un menu spécifique à un flux de vacances.
 
 > [!NOTE]
 > Par défaut, tous les appels reçus pendant une période de vacances sont définis pour **déconnecter** après le message d’accueil (le cas échéant), vous devez donc spécifier une redirection si vous souhaitez un comportement personnalisé.
@@ -414,11 +414,11 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
   - [Présentation de Windows PowerShell et Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple pour apporter des changements de paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Gérer Office 365 avec Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Gérer Office 365 avec Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[Nouvelle CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[Nouvelle CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
 

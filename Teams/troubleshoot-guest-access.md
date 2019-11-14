@@ -15,12 +15,12 @@ description: Obtenez de l’aide pour résoudre les problèmes liés à l’acc�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754360"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311259"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résoudre les problèmes liés à l’accès invité dans Microsoft teams
 ======================================================
@@ -45,8 +45,11 @@ Si vous rencontrez des erreurs de gestion des licences, veillez à lire les [rec
 - Les licences invité sont comptabilisées au niveau de l’organisation d’invitation. Tenez compte de ce qui suit lorsque vous calculez le nombre de licences dont vous avez besoin.
 - Les licences sont comptabilisées au niveau de votre organisation, que les invités invités proviennent d’un autre client Office 365 ou utilisent leurs adresses de messagerie personnelles.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="support-for-b2b-user-types"></a>Prise en charge des types d’utilisateurs B2B
+Actuellement Teams ne prend en charge que les types d’utilisateurs invités de l’État 1 et de l’état 2 [, tels qu’ils sont définis par Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
-[Accès invité dans teams](guest-access.md)
+## <a name="related-topics"></a>Voir aussi
+
+[Accès invité dans Teams](guest-access.md)
 
 

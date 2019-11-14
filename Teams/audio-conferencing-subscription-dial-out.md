@@ -20,18 +20,22 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Les clients disposent d’une fonctionnalité de numérotation supplémentaire qui prendra fin le 30 novembre 2019.  À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois à l’un des pays/régions comme décrit dans le présent document. '
-ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515880"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311269"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Abonnement à la conférence audio « dial-out »/«appelez-moi au
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft teams et audioconférence RTC Skype entreprise
 
 Les clients disposent d’une [fonctionnalité de numérotation](complimentary-dial-out-period.md) supplémentaire qui prendra fin le 30 novembre 2019. À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois, qui peuvent être utilisées pour appeler des numéros non surtaxés dans n’importe quel pays dans le cadre de ce document. La taille du pool de minutes de numérotation des clients est basée sur des licences *attribuées* et non sur des licences achetées. Cette prestation s’applique uniquement aux licences d' *abonnements mensuels* de conférences audio et ne s’étend pas aux licences payantes de l’audioconférence. 
+
+> [!NOTE]
+> La fin de la période de numérotation complémentaire n’aura pas lieu le 30 novembre 2019 pour les pays dans lesquels l’abonnement à la conférence audio est disponible, mais nous ne proposons pas actuellement la possibilité de configurer des crédits de communication. Il s’agit de pays suivants : Russie, Corée du Sud et Taïwan.
+
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audioconférence « appeler » à partir d’une réunion & "m’appeler à" détails "
 
@@ -56,7 +60,7 @@ Pour les clients adoptant notre service d’audioconférence, Microsoft est en m
 
 ## <a name="how-are-minute-pools-calculated"></a>Comment calculer les pools de minutes ?
 
-Prenons l’exemple suivant. Un client a acheté des licences de l’abonnement à l’audioconférence 115 et dispose de 10 utilisateurs aux États-Unis, 100 utilisateurs au Royaume-Uni et 5 utilisateurs au Zimbabwe, tous ayant reçu une licence d’abonnement de services d’audioconférence. Tous les utilisateurs d' 115 partagent un pool de (115 utilisateurs x 60 min = 6 900 conférences de numérotation par mois civil) pour passer des appels sortants vers des numéros non surtaxés dans n’importe quel pays, *quel que* soit l’endroit où l’organisateur de la réunion est licencié ou physique repéré. Par exemple, un organisateur de la réunion du Zimbabwe sera en mesure de passer d’un pays à l’autre dans la limite du pool de minutes. 
+Prenons l’exemple suivant. Un client a acheté des licences de l’abonnement à l’audioconférence 115 et dispose de 10 utilisateurs aux États-Unis, 100 utilisateurs au Royaume-Uni et 5 utilisateurs au Zimbabwe, tous ayant reçu une licence d’abonnement de services d’audioconférence. Tous les utilisateurs d' 115 partagent un pool de (115 utilisateurs x 60 min = 6 900 conférences rendez-vous par mois calendaire) pour passer des appels sortants vers des numéros non surtaxés dans n’importe quel pays, *quelle que* soit l’emplacement de la réunion ou de l’organisateur de la réunion. Par exemple, un organisateur de la réunion du Zimbabwe sera en mesure de passer d’un pays à l’autre dans la limite du pool de minutes. 
 
 - Tous les appels sortants de plus de 6 900 minutes par mois civil sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination. (Remarque : le client doit configurer le [crédit de communications](what-are-communications-credits.md) et affecter la licence de crédits de communication à l’organisateur de la réunion.)
 - Tous les appels sortants vers des destinations qui ne sont pas dans la zone une liste de pays sont facturés à la minute à l’aide de crédits de communication au tarif publié vers cette destination à l’organisateur de la réunion).

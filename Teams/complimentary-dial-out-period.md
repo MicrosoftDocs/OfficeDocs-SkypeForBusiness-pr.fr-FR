@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Les clients peuvent utiliser le plan d’appel d’Office 365 et la fonction de conférence rendez-vous d’Office 365 comme il est autorisé dans les conditions d’utilisation des services RTC de Skype entreprise Online et Microsoft Teams.
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516896"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311229"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -37,6 +37,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### <a name="end-of-complimentary-dial-out-period"></a>Fin de la période de numérotation
 
 À compter du 1er décembre 2019, la fonction de numérotation de l’appel sortant s’arrêtera. Pour [en savoir plus, voir abonnement à la fonction de conférence](audio-conferencing-subscription-dial-out.md) rendez-vous et appelez-moi. 
+
+Ce changement n’intervient pas pour les pays dans lesquels l’abonnement à la conférence audio est disponible, mais nous ne proposons pas actuellement la possibilité de configurer des crédits de communication. Il s’agit de pays suivants : Russie, Corée du Sud et Taïwan.
 
 ### <a name="complimentary-dial-out-period-details"></a>Détails de la période de numérotation gratuite
 
