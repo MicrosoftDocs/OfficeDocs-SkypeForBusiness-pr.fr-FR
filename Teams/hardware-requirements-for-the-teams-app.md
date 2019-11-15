@@ -17,14 +17,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282f6f7295fe7763462a9298719466033aa335a4
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979707"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638704"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
+
+Toutes les exigences des sections suivantes s’appliquent à l’application de bureau teams et à l’application Web Teams.
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Configuration matérielle requise pour l’application de bureau teams sur un PC Windows
 
@@ -88,7 +90,7 @@ Pour une utilisation optimale de Microsoft Teams, utilisez la dernière version 
 
 Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Rubriques connexes
+### <a name="related-topics"></a>Voir aussi
 - [Obtenir des applications teams](get-clients.md)
 - [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)

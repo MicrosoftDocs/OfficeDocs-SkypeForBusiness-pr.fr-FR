@@ -16,21 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 8e0e96b05aff2d1c0e54bf6f1edb33f9b91aad6d
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290934"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627030"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer teams dans le centre d’administration Microsoft teams
 ==========================================
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Cet article fournit une vue d’ensemble des outils de gestion pour teams dans le centre d’administration Microsoft Teams. Commencez par regarder cette courte vidéo (3 minutes) :
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+Cet article fournit une vue d’ensemble des outils de gestion pour teams dans le centre d’administration Microsoft Teams.
 
 En tant qu’administrateur, il est possible que vous deviez afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction, comme affecter des propriétaires à des équipes propriétaires. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft teams PowerShell et le centre d’administration Microsoft Teams. Pour pouvoir bénéficier d’une administration complète de ces deux ensembles d’outils, assurez-vous que vous disposez de l’un des rôles suivants :
 

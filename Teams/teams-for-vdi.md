@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 450fd98d65d092f3cbc684e4efd90691b5e389a1
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570222"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638804"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -165,6 +165,9 @@ L’application teams a été validée sur les principaux fournisseurs de soluti
 
 ### <a name="virtual-machine-requirements"></a>Configuration requise pour les machines virtuelles
 
+> [!NOTE]
+> Les conditions suivantes s’appliquent à l’application de bureau teams et à l’application Web Teams.
+
 En ce qui concerne les diverses charges de travail et les besoins des utilisateurs dans un environnement virtualisé, voici la configuration minimale recommandée pour les ordinateurs virtuels.
 
 |Paramètre  |Action  |
@@ -214,7 +217,7 @@ Vous trouverez ci-après des problèmes connus et des limitations applicables au
     - Le recours aux stratégies décrites dans cet article affecte la possibilité d’utiliser les fonctionnalités d’appel et de réunion, qui varient en fonction des autres stratégies, peuvent affecter d’autres utilisateurs au sein de votre organisation. Si les utilisateurs de votre organisation utilisent des clients non-VDI, vous pouvez choisir de ne pas appliquer les stratégies.  
 
 - **Participation à des appels et des réunions créées par d’autres utilisateurs**: bien que les stratégies restreignent les utilisateurs de la création de réunions, elles peuvent quand même participer à des réunions lorsqu’un autre utilisateur les appelle à partir de la réunion. Lors de ces réunions, la capacité de l’utilisateur à partager la vidéo, utiliser le tableau blanc et les autres fonctionnalités selon que vous avez désactivé ces fonctionnalités à l’aide de TeamsMeetingPolicy.  
-- **Contenu mis en cache**: si l’environnement virtuel dans lequel teams est en cours d’exécution n’est pas permanent (et si les données sont nettoyées à la fin de chaque session utilisateur), les utilisateurs peuvent remarquer une dégradation des performances en raison de l’actualisation du contenu, que l’utilisateur ait accédé ou non. contenu d’une session précédente.
+- **Contenu mis en cache**: si l’environnement virtuel dans lequel teams est en cours d’exécution n’est pas permanent (et si les données sont nettoyées à la fin de chaque session utilisateur), les utilisateurs peuvent remarquer une dégradation des performances en raison de l’actualisation du contenu, que l’utilisateur ait consulté le même contenu dans une session précédente.
 - **Mises à jour du client**: teams sur VDI n’est pas automatiquement mis à jour avec l’installation de MSI par ordinateur. Vous devez mettre à jour l’image de l’ordinateur virtuel en installant un nouveau MSI comme décrit dans la section [installer teams sur VDI](#install-teams-on-vdi) . Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
 - **Environnement d’utilisation : l'** environnement d’utilisation des équipes dans un environnement VDI est différent d’un environnement non-VDI. Il y a des différences en raison des paramètres de stratégie et de la prise en charge des fonctionnalités dans l’environnement.
 

@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563321"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626980"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -36,9 +35,11 @@ Le complément de réunion équipes est automatiquement installé pour les utili
 ![Capture d’écran du complément réunion teams sur le ruban Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Pour pouvoir exécuter le fichier Regsvr32. exe, le complément réunion teams doit être installé sur l’ordinateur.
 > - Si le complément Réunion Teams n'apparaît pas, demandez aux utilisateurs de fermer Outlook et Teams, de redémarrer d'abord le client Teams, de se connecter à Teams puis de redémarrer le client Outlook, dans cet ordre spécifique.
 > - Les utilisateurs de Windows 7 doivent installer la [mise à jour du runtime C universel dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour que le complément réunion teams fonctionne.
-> - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément réunions teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) . 
+> - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément de réunion teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complément réunion teams dans Outlook pour Mac
 
@@ -99,10 +100,10 @@ Lorsque les utilisateurs qui se trouvent dans le mode îlot planifient une réun
 | Mode de coexistence dans le centre d’administration teams | Fournisseur de réunions par défaut dans Outlook Mobile |
 | --------------------------------------|---------------------------------------------|
 | Archipels | Skype Entreprise |
-| Skype entreprise uniquement | Skype Entreprise |
+| Skype Entreprise uniquement | Skype Entreprise |
 | Collaboration avec teams dans Skype entreprise | Skype Entreprise |
 | Skype entreprise avec collaboration et réunions en équipe | Équipes |
-| Équipes uniquement | Équipes |
+| Teams uniquement | Équipes |
 
 ## <a name="other-considerations"></a>Autres considérations à prendre en compte
 
@@ -123,7 +124,7 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 - Vérifiez que le nom du compte utilisateur connecté ne contienne pas d’espaces. (Il s’agit d’un problème connu qui sera corrigé dans une prochaine mise à jour.)
 - Vérifiez que l’authentification unique de Yammer ne soit pas activée.
 
-Si votre administrateur a configuré Microsoft Exchange pour [contrôler l’accès à Exchange Web Server (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un délégué ne sera pas en mesure de planifier une réunion teams de la part du responsable. La solution de cette configuration est en développement et sera publiée prochainement. 
+Si votre administrateur a configuré Microsoft Exchange pour [contrôler l’accès à Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un délégué ne sera pas en mesure de planifier une réunion teams de la part du responsable. La solution de cette configuration est en développement et sera publiée prochainement. 
 
 Pour des orientations générales sur la procédure de désactivation des compléments, consultez la rubrique [Afficher, gérer et installer des compléments dans les programmes Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

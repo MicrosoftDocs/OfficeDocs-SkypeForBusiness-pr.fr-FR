@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 822483d1475d083ef18213e94d438d5c2a4eb48c
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570145"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638834"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Que sont les événements en direct Microsoft Teams ?
 
@@ -73,7 +73,7 @@ La plateforme de flux d’événements en direct se compose des éléments suiva
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Réseau de distribution de contenu d’entreprise (eCDN)
 L’objectif de eCDN est de prendre le contenu vidéo à partir d’Internet et de distribuer le contenu au sein de votre entreprise, sans affecter les performances du réseau. Vous pouvez utiliser l’un des partenaires eCDN certifiés suivants pour optimiser votre réseau en ce qui concerne les événements dynamiques organisés au sein de votre organisation :
 - [Ruche](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](http://www.kollective.com)
+- [Kollective](https://kollective.com/microsoft-pilot/)
 - [Renforcement](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Compétences des participants 
