@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: Recherchez et gérez les mises à jour de Skype entreprise Server ou de Lync 2013. Utilisez les liens pour obtenir plus d’informations et télécharger les mises à jour.
 ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38311219"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise

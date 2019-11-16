@@ -15,10 +15,10 @@ appliesto:
 - Microsoft Teams
 description: Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier que leurs produits fonctionnent avec un routage direct.
 ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572244"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct

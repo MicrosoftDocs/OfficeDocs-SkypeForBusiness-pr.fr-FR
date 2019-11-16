@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Considérations relatives à la planification du déploiement des salles de Microsoft Teams, et déploiement et gestion du système.
 ms.openlocfilehash: fb628ba4011a7f738d7082ae8281aa990a82b66b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "36428044"
 ---
 <h2>Salles Microsoft Teams</h2>
@@ -60,7 +60,7 @@ ms.locfileid: "36428044"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Offre</h3>
+                        <h3>Plan</h3>
                     </div>
                 </div>
             </div>

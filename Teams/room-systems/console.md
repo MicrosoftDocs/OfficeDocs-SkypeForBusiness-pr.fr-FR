@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
-ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569906"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675772"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console de salle Microsoft teams
 
@@ -99,7 +99,7 @@ Une fois le système arrêté, il est sûr de supprimer le disque de configurati
 Dans la mise à jour du créateur, vous devez utiliser le script ApplyCurrentRegionAndLanguage. ps1 dans les scénarios dans lesquels la sélection de la langue implicite ne fournit pas à l’utilisateur la langue réelle de l’application (par exemple, l’application de la console peut se trouver en français, mais ce service est disponible en anglais).
   
 > [!NOTE]
-> Les instructions suivantes ne fonctionnent pas pour les consoles créées à l’aide de la mise à jour du créateur Windows. Les systèmes traditionnels/inactifs qui n’ont pas été configurés à l’aide du système multimédia avec le nouveau système de mise en service ne seront pas en mesure d’utiliser ces instructions, mais ne peuvent pas en souffrir du problème initial qui nécessite cette intervention manuelle (édition anniversaire vous permet de choisir langue de l’application explicitement dans le cadre de la configuration).
+> Les instructions suivantes ne fonctionnent pas pour les consoles créées à l’aide de la mise à jour du créateur Windows. Les systèmes traditionnels/inactifs qui n’ont pas été configurés à l’aide de médias avec le nouveau système de mise en service ne seront pas en mesure d’utiliser ces instructions, mais qui ne font pas partie du problème initial qui nécessite cette intervention manuelle (édition anniversaire).
   
 ### <a name="to-apply-your-desired-language"></a>Pour appliquer la langue de votre choix
 
@@ -142,7 +142,7 @@ La langue souhaitée est désormais appliquée à la console Microsoft teams sal
 
 Après l’installation de Windows, l’application console de Microsoft teams se trouve dans le processus de configuration initial lors du démarrage suivant ou si l’option/reboot a été choisie.
   
-1. L’écran Compte d’utilisateur apparaît. Entrez l’adresse de connexion de Skype (au format user @ domain) du compte de la salle à utiliser avec la console.
+1. L’écran Compte d’utilisateur apparaît. Entrez l’adresse de connexion de Skype (en user@domain format) du compte de la salle à utiliser avec la console.
     
 2. Saisissez le mot de passe du compte de la salle dé réunion, puis saisissez-le à nouveau à des fins de vérification.
     
@@ -162,7 +162,7 @@ Après l’installation de Windows, l’application console de Microsoft teams s
     
 6. Cliquez sur **Terminer**.
     
-Dans l’application Microsoft teams de Microsoft Teams, l’application doit commencer immédiatement à se connecter à Skype entreprise Server avec les informations d’identification entrées ci-dessus, et doit également commencer à synchroniser son calendrier avec Exchange en utilisant ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application console, voir l' [aide de Microsoft teams](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Dans l’application Microsoft teams de Microsoft Teams, l’application doit commencer immédiatement à se connecter à Skype entreprise Server avec les informations d’identification entrées ci-dessus, et doit également commencer à synchroniser son calendrier avec Exchange en utilisant ces mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application console, voir l' [aide de Microsoft teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Les salles de Microsoft teams sont basées sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application console de Microsoft Teams ne démarre pas après la procédure de configuration initiale, sauf si le matériel de la console est détecté. Pour les solutions basées sur les périphériques de surface, l’apparence de surface Pro doit être connectée au matériel d’accueil associé pour réussir ce contrôle.

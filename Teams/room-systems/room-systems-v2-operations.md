@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573604"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675338"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -25,7 +25,7 @@ Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous 
   
 Microsoft teams est la solution de conférence la plus récente de Microsoft conçue pour transformer votre salle de réunion en une expérience riche et collaborative. Les utilisateurs apprécieront l’interface familière de Microsoft teams ou Skype entreprise et les administrateurs informatiques apprécieront une application de réunion Skype facilement déployée et gérée dans Windows 10. Les salles de Microsoft teams sont conçues pour exploiter les équipements existants tels que les écrans LCD pour faciliter l’installation de Microsoft teams ou de Skype entreprise dans votre salle de réunion.
   
-Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la [gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-plan.md), [déploiement](azure-monitor-deploy.md) [ Appareils de salle Microsoft teams avec Azure Monitor](azure-monitor-deploy.md). Vous pouvez également [gérer les paramètres de la console de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md), qui inclut l’application d’un thème d’affichage personnalisé. 
+Dans le cadre de la configuration supplémentaire, la gestion à distance est possible à l’aide de l’outil Moniteur Microsoft Azure, comme décrit dans la rubrique planification de la gestion [](azure-monitor-deploy.md)des [salles de](azure-monitor-plan.md)Microsoft teams avec Azure Monitor, déploiement de la gestion de [Microsoft teams pour](azure-monitor-deploy.md)Microsoft teams Vous pouvez également [gérer les paramètres de la console de Microsoft teams à distance à l’aide d’un fichier de configuration XML](xml-config-file.md), qui inclut l’application d’un thème d’affichage personnalisé. 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Collecte de journaux sur les salles de Microsoft teams
 <a name="Logs"> </a>
@@ -44,7 +44,7 @@ Les journaux seront en sortie sous forme de fichier ZIP dans c:\rigel.
 Configurez l’écran d’affichage en mode étendu. Cela permet de s’assurer que l’interface utilisateur de la console n’est pas dupliquée sur cet écran lorsque vous allumez le mode d’affichage.
   
 > [!NOTE]
-> Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  Selon la station d’accueil ou la console sélectionnée (qui n’est pas compatible avec le format CEC, consultez la documentation du support technique), un contrôleur tel qu’une connexion [HD-RX-201-C-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) à partir d’Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron peut être nécessaire pour activer l’option souhaitée. fonctionnement. 
+> Si vous souhaitez qu’un écran de façade de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source quitte le mode veille, certaines conditions doivent être remplies. Cette fonctionnalité n’est pas disponible, mais elle est prise en charge par le logiciel de salle Microsoft teams ; Une télévision grand public utilisée comme devant l’écran de la salle doit prendre en charge la fonctionnalité de contrôle Consumer Electronics (CEC) de l’interface HDMI.  Selon le Dock ou la console sélectionné (qui n’est pas pris en charge par le CEC, voir documentation du fabricant), un contrôleur tel qu’une connexion [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron peut être nécessaire pour activer le comportement souhaité. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Réinitialisation des salles de Microsoft Teams (restauration d’usine)
 <a name="Reset"> </a>
@@ -167,7 +167,7 @@ Par défaut, Microsoft teams services tente de se connecter au Windows Store pou
   
 Par défaut, Microsoft teams se connecte à Windows Update pour extraire les mises à jour du microprogramme du système d’exploitation et du périphérique USB, et les installe en dehors des heures d’activité configurées. Vous pouvez configurer les heures d’ouverture en vous connectant au compte administrateur et en exécutant l’application Paramètres.
   
-Si vous souhaitez gérer les mises à jour manuellement et ne parvenez pas à suivre les procédures normales de la [Boutique Microsoft pour les entreprises](https://businessstore.microsoft.com/store) afin de [distribuer des applications hors connexion](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), vous pouvez acquérir le fichier AppX approprié et les dépendances du [Kit de déploiement](https://go.microsoft.com/fwlink/?linkid=851168) (de les instructions de [configuration d’une console de salle Microsoft teams](console.md)) qui peuvent être utilisées avec SCCM. Le kit de déploiement est en retard sur le Windows Store, il se peut donc que la version ne corresponde pas toujours à la version la plus récente.
+Si vous souhaitez gérer les mises à jour manuellement et ne parvenez pas à suivre les procédures normales de la [Boutique Microsoft pour les entreprises](https://businessstore.microsoft.com/store) afin de [distribuer des applications hors connexion](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), vous pouvez acquérir le fichier AppX approprié et les dépendances du [Kit de déploiement](https://go.microsoft.com/fwlink/?linkid=851168) (consultez les instructions de [configuration d’une console Microsoft teams](console.md)) qui peuvent être utilisées avec SCCM. Le kit de déploiement est en retard sur le Windows Store, il se peut donc que la version ne corresponde pas toujours à la version la plus récente.
   
 ### <a name="to-update-using-powershell"></a>Pour effectuer une mise à jour à l’aide de PowerShell
 

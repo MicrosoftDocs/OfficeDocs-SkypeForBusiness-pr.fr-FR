@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Cet article explique comment utiliser l’outil de récupération pour les salles de Microsoft Teams, que vous utiliseriez pour mettre à jour un système obsolète dans un État pris en charge.
-ms.openlocfilehash: 04fd6b4b0786cffb4f1bb050a7b0bbdac8e2e653
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: bc35dc744dac5f04d537f023e790bc89c2c649d0
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573648"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675348"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
  
@@ -65,6 +65,6 @@ Vous devrez également installer [KB4089848](http://download.windowsupdate.com/d
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
  
-[Aide Microsoft Teams Rooms](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)

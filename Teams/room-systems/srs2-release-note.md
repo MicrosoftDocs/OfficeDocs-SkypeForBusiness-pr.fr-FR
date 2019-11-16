@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Cet article présente les améliorations cumulatives apportées aux salles de Microsoft Teams.
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573527"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676112"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -225,7 +225,7 @@ Présenté dans cette mise à jour :
 Présenté dans cette mise à jour :
 
 - Prise en charge du matériel de votre station de [Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
-- Prise en charge de [Logitech brio](https://www.logitech.com/en-us/product/brio)
+- Prise en charge de [Logitech brio](https://www.logitech.com/product/brio)
 - Résout un problème dans lequel les écrans (console et avant-salle) ne sont pas disponibles en mode veille lorsqu’il n’y a aucune activité dans la salle.
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
@@ -297,7 +297,7 @@ Présenté dans cette mise à jour :
 <a name="See"> </a> 
 ## <a name="see-also"></a>Voir aussi
 
-[Aide Microsoft Teams Rooms](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Préparer votre environnement](srs-v2-prep.md)
 

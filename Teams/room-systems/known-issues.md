@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, par fonctionnalité spécifique.
-ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d740cce8960e16e04fffc55bf96b46e3128a0c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571388"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675428"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -37,14 +37,14 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams Rooms, 
 
 | Titre du problème |  Comportement\/Symptôme | Solution connue | Article Ko |
 |  ---        |      ---             |   ---            | --- |
-|Clavier virtuel manquant   | Le clavier virtuel n’apparaît pas lorsque vous devez entrer des informations dans Microsoft Teams Rooms. Ce problème se produit après l’installation de Windows 10 Creators Update (version 1703) soit sur le Surface Pro 4, sur lequel Microsoft Teams Rooms est en cours d’exécution. | Pour contourner ce problème, ouvrez manuellement le clavier virtuel. Pour cela, procédez comme suit :<br><br> **1.** fois et maintenez la touche de la barre des tâches, puis sur le bouton**Afficher le clavier tactile de diaporama**. Une icône clavier doit apparaître sur le côté droit de la barre des tâches. <br><br> **2.** Appuyez sur l’icône du clavier pour ouvrir le clavier virtuel. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Clavier virtuel manquant   | Le clavier virtuel n’apparaît pas lorsque vous devez entrer des informations dans Microsoft Teams Rooms. Ce problème se produit après l’installation de Windows 10 Creators Update (version 1703) soit sur le Surface Pro 4, sur lequel Microsoft Teams Rooms est en cours d’exécution. | Pour contourner ce problème, ouvrez manuellement le clavier virtuel. Pour cela, procédez comme suit :<br><br> **1.** fois et maintenez la touche de la barre des tâches, puis sur le bouton**Afficher le clavier tactile de diaporama**. Une icône clavier doit apparaître sur le côté droit de la barre des tâches. <br><br> **2.** Appuyez sur l’icône du clavier pour ouvrir le clavier virtuel. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Matériel
 
 | Titre du problème |  Comportement\/Symptôme | Solution connue | Article Ko |
 |  ---        |      ---             |   ---            |   --- |
-| Moniteurs non détectés | Lorsque vous exécutez Microsoft Teams Rooms sur un appareil Surface Pro (modèle 2017), les moniteurs ne sont pas détectés. |  Maintenez le bouton marche du Surface Pro pendant 20 ou plusieurs secondes. Lorsque vous effectuez cette opération, l’appareil redémarre et efface le cache de graphiques. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| Moniteurs non détectés | Lorsque vous exécutez Microsoft Teams Rooms sur un appareil Surface Pro (modèle 2017), les moniteurs ne sont pas détectés. |  Maintenez le bouton marche du Surface Pro pendant 20 ou plusieurs secondes. Lorsque vous effectuez cette opération, l’appareil redémarre et efface le cache de graphiques. |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>Limitations et comportements prévus
@@ -75,6 +75,6 @@ Windows 10 1903 n’est pas encore disponible sur les appareils Microsoft teams 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Voir aussi
 
-[Aide Microsoft Teams Rooms](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)

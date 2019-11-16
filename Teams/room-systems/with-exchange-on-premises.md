@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: c361b6f09bd3acbdf6d8448d168798306cc49ff8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573505"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675408"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 
@@ -103,10 +103,10 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 
 ### <a name="assign-an-office-365-license"></a>Affectation d’une licence Office 365
 
-1. Se connecter à Azure Active Directory. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSONLINE,) 1,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Se connecter à Azure Active Directory. Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSONLINE,) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge. 
+   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge. 
 
 2. Le compte d’appareil doit avoir une licence Office 365 valide ou Exchange et Microsoft Teams ne fonctionneront pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des références SKU disponibles.
 

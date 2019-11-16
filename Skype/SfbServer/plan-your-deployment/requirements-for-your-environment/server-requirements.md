@@ -16,10 +16,10 @@ ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : Préparez vos serveurs Skype entreprise Server 2015 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les exigences système et recommandations sont disponibles pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
 ms.openlocfilehash: 3ca52a6d7a61a3f6b06985bf507461fe9285e337
-ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/14/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38626990"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015

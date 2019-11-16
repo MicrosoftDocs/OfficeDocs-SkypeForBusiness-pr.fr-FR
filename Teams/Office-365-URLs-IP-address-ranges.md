@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5fc8d5bc41f7cf7a28140b30dd4a488c05b9b876
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37563870"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URL et plages d'adresses IP Office 365
@@ -32,4 +32,4 @@ L'expérience d'appels et de réunions Teams est basée sur l'infrastructure clo
 
 Pour toutes les charges de travail Office 365, la méthode de connexion aux services Teams recommandée consiste à contourner le proxy de transfert lorsque cela est possible. Lorsqu’un serveur proxy est situé entre un client et les centres de données Office 365, le média peut être forcé sur TCP au lieu d’UDP, ce qui aurait une incidence sur la qualité du média. Téléchargez les fichiers PAC de modèle de proxy qui peuvent être utilisés pour configurer le contournement du trafic dans [Gestion des points de terminaison Office 365](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
 
-Si votre réseau et vos stratégies de sécurité nécessitent le trafic d’Office 365 pour circuler par le biais d’un serveur proxy, assurez-vous que les exigences ci-dessus sont déjà satisfaites avant de déployer teams en production (révisez les [serveurs proxy pour teams ou Skype entreprise Online](proxy-servers-for-skype-for-business-online.md) . pour obtenir de l’aide).
+Si votre réseau et vos stratégies de sécurité nécessitent le trafic d’Office 365 pour circuler par le biais d’un serveur proxy, assurez-vous que les exigences ci-dessus sont déjà satisfaites avant de déployer des équipes en production (révisez les [serveurs proxy pour teams ou Skype entreprise Online](proxy-servers-for-skype-for-business-online.md) pour obtenir des conseils).

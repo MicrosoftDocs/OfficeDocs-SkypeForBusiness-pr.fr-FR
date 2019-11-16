@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft teams avec Office 365.
-ms.openlocfilehash: 253f25de30d105361f53eeb34d3b6c78e6d41fa2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573483"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675438"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer des Salles Microsoft Teams avec Office 365 ProPlus
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
 
      - Compte : ProjectRigel01@contoso.onmicrosoft.com
 
-     - Mot de passe du compte : P @ $ $W 0rd5959
+     - Mot de passe du compte : P@ $ $W 0rd5959
 
      ``` PowerShell
      New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
@@ -74,7 +74,7 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     Dans cet exemple, le compte de la boîte aux lettres de salle existante possède la valeur alias ProjectRigel02 et définit le mot de passe sur 9898P @ $ $W 0rd. Notez que le compte sera ProjectRigel02@contoso.onmicrosoft.com en raison de la valeur de l’alias existant.
+     Dans cet exemple, le compte de la boîte aux lettres de salle existante possède la valeur alias ProjectRigel02 et le mot de passe est défini sur 9898P@ $ $W 0rd. Notez que le compte sera ProjectRigel02@contoso.onmicrosoft.com en raison de la valeur de l’alias existant.
 
      ``` PowerShell
      Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
@@ -107,10 +107,10 @@ Pour plus d’informations sur les offres Skype entreprise Online, reportez-vous
 
    Pour obtenir une syntaxe détaillée et des informations relatives aux paramètres, voir [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
-4. Connectez-vous à MS Online PowerShell pour créer des paramètres Active Directory `Connect-MsolService -Credential $cred` en exécutant l’applet de contrôle PowerShell.   Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSONLINE,) 1,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+4. Connectez-vous à MS Online PowerShell pour créer des paramètres Active Directory `Connect-MsolService -Credential $cred` en exécutant l’applet de contrôle PowerShell.   Pour plus d’informations sur Active Directory, voir [Azure ActiveDirectory (MSONLINE,) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge. 
+   > [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) n’est pas pris en charge. 
 
 5. Si vous ne souhaitez pas que le mot de passe expire, utilisez la syntaxe suivante :
 
@@ -205,7 +205,7 @@ Après avoir suivi les étapes ci-dessous pour activer votre compte Microsoft te
 
 4. Cliquez sur l’option **Licences**.
 
-5. Dans la section **attribuer des licences** , vous devez sélectionner Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), en fonction de votre licence et de ce que vous avez choisi pour l’entreprise. Vous devez utiliser une licence de plan 3 Si vous souhaitez utiliser PBX Cloud sur les salles de Microsoft Teams. Vous aurez au moins besoin de CloudPBX pour la connectivité vocale. Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC. Pour plus d’informations, consultez la rubrique [licences Microsoft teams](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+5. Dans la section **attribuer des licences** , vous devez sélectionner Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), en fonction de votre licence et de ce que vous avez choisi pour l’entreprise. Vous devez utiliser une licence de plan 3 Si vous souhaitez utiliser PBX Cloud sur les salles de Microsoft Teams. Vous aurez au moins besoin de CloudPBX pour la connectivité vocale. Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC. Pour plus d’informations, consultez la rubrique [licences Microsoft teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 6. Cliquez sur **Enregistrer** pour terminer la tâche.
 

@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0b80b82a89fc162e33263c784480f619dcd5cf32
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37567959"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
@@ -27,7 +27,7 @@ ms.locfileid: "37567959"
 > [!Tip]
 > Regardez la session suivante pour en savoir plus sur les avantages du client de bureau Windows, sur son planning et son déploiement : client de [Bureau Windows teams](https://aka.ms/teams-clients)
 
-Pour utiliser System Center Configuration Manager, ou une stratégie de groupe ou tout mécanisme de distribution tiers pour un déploiement large, Microsoft a fourni des fichiers MSI ( [32-bits](https://aka.ms/teams32bitmsi) et [64-bit](https://aka.ms/teams64bitmsi)) que les administrateurs peuvent utiliser pour le déploiement en bloc d’équipes et sélectionner utilisateurs ou ordinateurs. Les administrateurs peuvent utiliser ces fichiers pour déployer à distance des équipes de sorte que les utilisateurs n’aient pas à télécharger manuellement l’application Teams. Lorsque le déploiement est déployé, teams démarre automatiquement pour tous les utilisateurs qui se connectent à cet ordinateur. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-launch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, de sorte que tous les nouveaux utilisateurs de l’ordinateur bénéficient également de ce déploiement. 
+Pour utiliser System Center Configuration Manager, ou une stratégie de groupe, ou tout mécanisme de distribution tiers pour un déploiement large, Microsoft a fourni des fichiers MSI ( [32-bits](https://aka.ms/teams32bitmsi) et [64-bit](https://aka.ms/teams64bitmsi)) que les administrateurs peuvent utiliser pour le déploiement en bloc d’équipes pour sélectionner des utilisateurs ou des ordinateurs. Les administrateurs peuvent utiliser ces fichiers pour déployer à distance des équipes de sorte que les utilisateurs n’aient pas à télécharger manuellement l’application Teams. Lorsque le déploiement est déployé, teams démarre automatiquement pour tous les utilisateurs qui se connectent à cet ordinateur. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-launch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, de sorte que tous les nouveaux utilisateurs de l’ordinateur bénéficient également de ce déploiement. 
 
 Les équipes peuvent également être incluses dans un déploiement d’Office 365 ProPlus. Pour plus d’informations, reportez-vous à la rubrique [déploiement de Microsoft teams avec Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
  

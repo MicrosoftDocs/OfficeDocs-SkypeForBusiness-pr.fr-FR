@@ -1,7 +1,7 @@
 ---
 title: Téléphones pour Microsoft Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: reference
@@ -14,16 +14,16 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 958836bb3a959b077d0032f58d6b8f287bee407c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573308"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675388"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
-Microsoft teams prend en charge un portefeuille de téléphones de bureau pour les utilisateurs qui ont besoin d’une interface téléphonique classique. Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams. Pour obtenir les informations les plus récentes sur les équipes certifiées d’équipes, accédez à [teams Marketplace](http://office.com/teamsdevices).
+Microsoft teams prend en charge un portefeuille de téléphones de bureau pour les utilisateurs qui ont besoin d’une interface téléphonique classique. Cet article présente la liste des téléphones certifiés pour Microsoft teams ainsi que les fonctionnalités prises en charge par les téléphones certifiés pour Microsoft Teams. Pour obtenir les informations les plus récentes sur les équipes certifiées d’équipes, accédez à [teams Marketplace](https://office.com/teamsdevices).
 
 ## <a name="teams-certified-ip-phones"></a>Téléphones IP certifiés Microsoft teams
 
@@ -139,12 +139,12 @@ Vous pouvez vérifier la version minimale du microprogramme sur la page de conne
 
 ## <a name="required-licenses"></a>Licences requises
 
-Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement Office 365](Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/en-us/microsoft-teams/voice-calling)disponibles.
+Les licences Microsoft teams peuvent être achetées dans le cadre de leur [abonnement Office 365](Office-365-licensing.md). Pour en savoir plus sur les licences requises pour l’utilisation de Microsoft teams sur des téléphones, voir [licences de système téléphonique](https://products.office.com/microsoft-teams/voice-calling)disponibles.
 
 Pour plus d’informations sur l’obtention d’équipes, voir [Comment obtenir l’accès à Microsoft teams ?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="see-also"></a>Voir aussi
 
-[Marketplace teams](http://office.com/teamsdevices)
+[Marketplace teams](https://office.com/teamsdevices)
 
 [Téléphones IP certifiés pour Microsoft teams](teams-ip-phones.md)

@@ -14,10 +14,10 @@ description: Découvrez comment ajouter des robots dans Microsoft teams pour les
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516160"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Ajouter des robots pour les discussions personnelles, les discussions de groupe et les canaux dans Microsoft teams

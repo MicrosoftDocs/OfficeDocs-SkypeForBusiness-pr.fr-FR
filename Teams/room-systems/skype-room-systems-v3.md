@@ -1,7 +1,7 @@
 ---
 title: Présentation de la gestion des salles de Microsoft teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
@@ -13,12 +13,12 @@ ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Présentation de la gestion des salles de Microsoft Teams.
-ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cff0b300dc6cc9f3c15e21163554571d49e6540c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573560"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675812"
 ---
 # <a name="management-overview"></a>Vue d’ensemble de la gestion
 
@@ -43,7 +43,7 @@ Les informations relatives à l’état de l’application Microsoft teams salle
 |Gestion de l'\> alimentation-sur le ca, éteindre l’écran après 10 minutes  <br/> Gestion de l'\> alimentation-sur le secteur, jamais mettre le système en veille  <br/> |Activation de l’affichage et de la réactivation des salles de Microsoft teams  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou équivalent signifie la désactivation de l’expiration du mot de passe sur le compte local. Si vous n’effectuez pas cette opération, le compte Skype ne parviendra pas à se connecter en signalant l’expiration d’un mot de passe. Note que ceci aura un impact sur tous les comptes locaux sur l’ordinateur, et par conséquent, cet échec entraînera aussi l’éventuelle expiration du compte administratif.  <br/> |Active le compte Skype avec lequel toujours se connecter  <br/> |
 
-Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+Pour transférer des fichiers à l’aide de stratégies de groupe, voir [configurer un élément de fichier](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gestion distante à l’aide de PowerShell
 <a name="RemotePS"> </a>
@@ -83,7 +83,7 @@ Pour plus d’informations sur la résolution des problèmes et le mode administ
 
 ## <a name="see-also"></a>Voir aussi
 
-[Aide Microsoft Teams Rooms](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Plan pour les salles de Microsoft teams](skype-room-systems-v2-0.md)
 

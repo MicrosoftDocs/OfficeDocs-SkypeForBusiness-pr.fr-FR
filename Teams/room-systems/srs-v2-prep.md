@@ -13,12 +13,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Cet article décrit les préparations d’infrastructure pour le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: ada7a7f018d5fb3882a686505488998763c33faf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7bc3b7791edf88fd6882b67cdaa7d9b65e87741
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573549"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675802"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -53,7 +53,7 @@ Pour fonctionner correctement, l’appareil de salle Microsoft teams doit avoir 
 - Accès à votre instance Active Directory ou Azure Active Directory (Azure AD), ainsi qu’à vos serveurs Microsoft Exchange et Skype Entreprise.
 - Accès à un serveur pouvant fournir une adresse IP à l’aide du protocole DHCP. Les salles de Microsoft Teams ne peuvent pas être configurées à l’aide d’une adresse IP statique.
 - Accès aux ports HTTP 80 et 443.
-- Ports TCP et UDP configurés conformément aux [exigences relatives aux ports et aux protocoles pour les serveurs](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) pour les versions locales de Skype entreprise Server, les [URL et les plages d’adresses IP d’Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) pour Microsoft teams ou Skype entreprise Online implémentations.
+- Ports TCP et UDP configurés comme décrit dans la section exigences relatives aux [ports et aux protocoles pour les serveurs](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) pour les versions locales de Skype entreprise Server ou les [URL et plages d’adresses IP d’Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) pour les implémentations de Microsoft teams ou de Skype entreprise online.
 
 > [!IMPORTANT]
 > Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
@@ -75,7 +75,7 @@ Vous installerez les certificats comme vous le feriez pour tout autre client Win
 Les salles de Microsoft teams sont conçues pour hériter des paramètres de proxy du système d’exploitation Windows. Accédez au système d’exploitation Windows de la manière suivante :
   
 1. Dans l’interface utilisateur de Microsoft Teams, cliquez sur l’icône d’engrenage paramètres dans laquelle vous serez invité à entrer le mot de passe d’administrateur local sur l’appareil (le mot de passe par défaut est **marketing**).
-2. Appuyez sur **paramètres** , puis appuyez sur le bouton **accéder à Windows** , puis sur le bouton **accéder à l’administrateur** , puis cliquez sur le bouton **administrateur** (si l’ordinateur est joint à un domaine **, sélectionnez autre utilisateur,** puis utilisez .\Admin comme nom d’utilisateur.
+2. Pour ce faire, appuyez sur **paramètres** , puis appuyez sur le bouton **accéder à Windows** , puis appuyez sur le bouton **se connecter à l’administrateur** , puis cliquez sur le bouton **administrateur** (si le nom de l’ordinateur est joint à un domaine **, sélectionnez autre utilisateur,** puis utilisez .\Admin comme nom d’utilisateur).
 3. Dans la zone de recherche en bas à gauche du texte de la zone de **recherche** , appuyez sur l’écran ou cliquez avec le bouton droit et sélectionnez **exécuter en tant qu’administrateur**.
 4. Cliquez sur le dossier HKEY_USERS (vous verrez une liste de SID de l’utilisateur d’ordinateur), assurez-vous que le dossier racine HKEY_USERS est sélectionné.
        
@@ -84,7 +84,7 @@ Les salles de Microsoft teams sont conçues pour hériter des paramètres de pro
 
 7. Vous serez invité à entrer un nom de clé pour votre nouvelle ruche. Entrez dans Skype (les paramètres de registre de l’utilisateur Skype apparaissent désormais).
  
-8. Ouvrez la clé Skype et accédez à paramètres de HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet et vérifiez que les paramètres suivants sont renseignés : 
+8. Ouvrez la clé Skype et naviguez jusqu’à HKEY_USERS paramètres \Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet, puis vérifiez que les paramètres suivants sont renseignés : 
     
     `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
@@ -108,15 +108,15 @@ Pour utiliser cette application, vous devez être en mesure de vous connecter au
 
 |Objectif|Source ou informations d’identification|Port source|Destination|CDN|ExpressRoute pour Office 365|Adresse IP de destination|Port de destination|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Authentification et identité  <br/> |Voir [identité et authentification dans Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Portail et services partagés  <br/> |Voir [portail et services partagés Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
-|Signalisation SIP  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Conférence web avec connexions PSOM (Persistent Shared Object Model)  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Téléchargements HTTPS  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|Audio  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 000-50019  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
-|Vidéo  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
-|Partage de bureau  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50 000-59 999  <br/> |
-|Notifications Push pour Lync Mobile 2010 sur des appareils iOS. Cela n’est pas nécessaire pour appareils mobiles Android, Nokia Symbian ou Windows Phone.  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Authentification et identité  <br/> |Voir [identité et authentification dans Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|Portail et services partagés  <br/> |Voir [portail et services partagés Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|Signalisation SIP  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|Conférence web avec connexions PSOM (Persistent Shared Object Model)  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|Téléchargements HTTPS  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
+|Audio  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 000-50019  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
+|Vidéo  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 020-50039  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, UDP 3478, TCP/UDP 50 000-59 999  <br/> |
+|Partage de bureau  <br/> |Ordinateur client ou utilisateur connecté  <br/> |TCP/UDP 50 040-50059  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443, 50 000-59 999  <br/> |
+|Notifications Push pour Lync Mobile 2010 sur des appareils iOS. Cela n’est pas nécessaire pour appareils mobiles Android, Nokia Symbian ou Windows Phone.  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |\*. contoso.com  <br/> |Non  <br/> |Oui  <br/> |[Plages d’adresses IP de Skype entreprise](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Télémétrie Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
 |Conseils rapides pour les clients Skype  <br/> |Ordinateur client ou utilisateur connecté  <br/> |Ports éphémères  <br/> |quicktips.skypeforbusiness.com  <br/> |Non  <br/> |Non  <br/> |N/A  <br/> |TCP 443  <br/> |
 

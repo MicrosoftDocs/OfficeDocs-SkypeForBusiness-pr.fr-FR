@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
 ms.openlocfilehash: 9becadff51cef15527b35dd3fa58c32273c1f3b8
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "38311239"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
