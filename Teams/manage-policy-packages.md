@@ -3,7 +3,7 @@ title: Gérer les packages de stratégie dans Microsoft teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972435"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679824"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -41,12 +41,13 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Package Education_PrimaryStudent    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants principaux.|
 |Package Education_SecondaryStudent    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants secondaires.         |
 |Package Education_HigherEducationStudent    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants de plus grande éducation.|
+|Package SmallMediumBusiness_BusinessVoice    |Crée une stratégie de configuration d’application qui inclut les applications pour une interface vocale professionnelle.|
 
 > [!NOTE]
 > Comme nous allons ajouter d’autres packages de stratégie dans les futures versions de teams, vous pouvez consulter les informations les plus récentes.  
 
 Chaque stratégie individuelle dispose du nom du package de stratégie, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
-Par exemple, lorsque vous attribuez le package de stratégie Education_Teacher à des enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie dans le package.
+Par exemple, lorsque vous attribuez le package de stratégie de Education_Teacher aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie dans le package.
 
 ![Capture d’écran du package de stratégie Education_Teacher](media/policy-packages-education_teacher.png)
 
@@ -101,3 +102,7 @@ Vous pouvez modifier les paramètres d’une stratégie par le biais de la page 
 **Vous recevez un message d’erreur lorsque vous attribuez un package de stratégie**
 
 Cela risque de se produire si une ou plusieurs stratégies du package n’ont pas été créées ou appliquées. Réattribuez-le à vos utilisateurs. Le renouvellement de l’opération résout généralement ce problème.
+
+## <a name="related-topics"></a>Voir aussi
+
+[Packages de stratégie de Microsoft teams pour les administrateurs EDU](policy-packages-edu.md)
