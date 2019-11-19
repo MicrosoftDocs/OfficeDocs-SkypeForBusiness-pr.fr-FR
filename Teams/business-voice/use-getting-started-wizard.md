@@ -15,21 +15,21 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972195"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653530"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Utilisation de l’Assistant Mise en route pour configurer Business Voice
 
 L’Assistant Mise en route pour Microsoft 365 Business Voice est un moyen simple et rapide de commencer à recevoir et à passer des appels téléphoniques dans Microsoft Teams. Si vous êtes une petite entreprise qui démarre, l’Assistant peut vous aider à configurer en quelques minutes les numéros de téléphone, les menus d’appel, les messages d’accueil et bien plus encore. Si vous êtes une grande entreprise disposant d’une solution de téléphonie établie, l’Assistant peut vous aider à configurer un pilote Business Voice pour l’essayer avec quelques utilisateurs avant de l’étendre à tous. Quelle que soit votre situation, vous pouvez commencer à utiliser Business Voice dès que l’Assistant a terminé !
 
-Nous vous conseillons de lire cet article avant de démarrer l’Assistant. Lorsque vous êtes prêt, vous pouvez ouvrir l’Assistant à partir du [Centre d’administration Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage). Veillez à vous connecter avec le compte que vous avez utilisé pour créer votre abonnement ou avec un autre compte d’administrateur général.
+Nous vous conseillons de lire cet article avant de démarrer l’Assistant. Lorsque vous êtes prêt, vous pouvez ouvrir l’Assistant en sélectionnant **Prise en main** sur la page [Prise en main de Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice). Veillez à vous connecter avec le compte que vous avez utilisé pour créer votre abonnement ou avec un autre compte d’administrateur général.
 
 > [!IMPORTANT]
-> Business Voice est actuellement disponible au Canada et au Royaume-Uni. D’autres pays et régions s’ajouteront à la liste en 2020.
+> Business Voice est actuellement disponible au Canada et au Royaume-Uni. Il sera proposé dans d’autres pays et régions en 2020.
 >
 > Microsoft Teams et Business Voice fonctionnent uniquement lorsque les boîtes aux lettres de vos utilisateurs se trouvent dans Microsoft 365.  Nous ne prenons pas en charge les boîtes aux lettres situées sur un serveur Exchange local.
 
@@ -56,7 +56,7 @@ Pour en savoir plus, reportez-vous à la page [Que sont les emplacements, les ad
 
 <table>
     <tr>
-        <td>Outre la configuration d’un nouveau numéro de téléphone local, vous pouvez choisir d’acheter un numéro gratuit ou de porter un numéro existant vers Microsoft 365. Si vous optez pour la configuration d’un numéro gratuit, vous devez acheter un forfait d’appels. Si vous voulez porter un numéro vers Microsoft 365, vous avez la possibilité de le faire dans le [Centre d’administration Teams](https://admin.teams.microsoft.com) une fois l’Assistant terminé.
+        <td>Outre la configuration d’un nouveau numéro de téléphone local, vous pouvez choisir d’acheter un numéro gratuit ou de porter un numéro existant vers Microsoft 365. Si vous optez pour la configuration d’un numéro gratuit, vous devez acheter un forfait d’appels. Si vous voulez porter un ou plusieurs numéros vers Microsoft 365, vous avez la possibilité de le faire dans le [Centre d’administration Teams](https://admin.teams.microsoft.com) une fois l’Assistant terminé.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>
@@ -64,7 +64,7 @@ Pour en savoir plus, reportez-vous à la page [Que sont les emplacements, les ad
 </table>
 
 > [!IMPORTANT]
-> Si vous choisissez de porter un numéro de téléphone existant vers Microsoft 365, un numéro de téléphone temporaire s’affiche tout de même dans l’Assistant. Ceci est normal. Une fois l’exécution de l’Assistant et le processus de portage terminés, le numéro de téléphone temporaire est remplacé par votre numéro.
+> Si vous choisissez de porter un ou plusieurs numéros de téléphone existants vers Microsoft 365, un numéro de téléphone temporaire s’affiche tout de même dans l’Assistant. Ceci est normal. Une fois l’exécution de l’Assistant et le processus de portage terminés, le numéro de téléphone temporaire est remplacé par votre numéro.
 
 ## <a name="assigning-licenses-to-users"></a>Attribution de licences aux utilisateurs
 
@@ -96,12 +96,15 @@ Pour en savoir plus, reportez-vous à la page [Que sont les emplacements, les ad
 <table>
     <tr>
         <td>Vous pouvez transférer tous les appels à un utilisateur spécifique, ou vous pouvez configurer un menu d’appel dans lequel sélectionner des options. Si vous créez un menu d’appel, vous pouvez spécifier les options qu’un appelant peut sélectionner en appuyant sur une touche du téléphone ou en énonçant l’option via la commande vocale. Chaque option de menu peut être transférée à un utilisateur. <br>
-Vous pouvez choisir de charger un fichier audio (MP3 ou WAV) d’une taille maximale de 5 Mo qui fournit des instructions à l’appelant, ou saisir les instructions à la place. Microsoft 365 utilisera la conversion de texte par synthèse vocale pour lire les instructions à l’appelant. Il se peut que vous deviez orthographier les mots de façon phonétique pour que la prononciation soit correcte.
+        Vous pouvez choisir de charger un fichier audio (MP3 ou WAV) d’une taille maximale de 5 Mo qui fournit des instructions à l’appelant, ou saisir les instructions à la place. Microsoft 365 utilisera la conversion de texte par synthèse vocale pour lire les instructions à l’appelant. Il se peut que vous deviez orthographier les mots de façon phonétique pour que la prononciation soit correcte.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> L’Assistant Prise en main vous permet de configurer un menu d’appel simple pour devenir rapidement opérationnel. Si vous avez plusieurs numéros de téléphone sur lesquels vous voulez configurer les menus d’appel ou si vous voulez configurer des menus d’appel plus complexes (également appelés standards automatiques), vous pouvez le faire en suivant les étapes décrites dans [Configurer un standard automatique dans le Cloud](set-up-auto-attendants.md) une fois l’Assistant terminé.
 
 <table>
     <tr>

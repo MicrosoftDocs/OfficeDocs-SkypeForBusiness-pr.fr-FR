@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973213"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653540"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>Comment puis-je préparer mes utilisateurs pour Business Voice ?
 
@@ -51,7 +51,7 @@ Pour afficher tous les appareils pris en charge par Teams, consultez la [boutiqu
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>Configurer les messages d'accueil de messagerie vocale et d'autres fonctions Business Voice
 
-Tout comme les téléphones classiques, vous pouvez configurer les messages d'accueil de messagerie vocale, le transfert d’appel, choix des sonneries, et bien plus encore. Toutes les fonctionnalités pouvant être configurées par les utilisateurs se trouvent dans l’application Teams dans**Paramètres**. Ils peuvent obtenir de l’aide sur la configuration de ces fonctionnalités en consultant [Gérer vos paramètres d’appel dans Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Tout comme les téléphones classiques, vous pouvez configurer les messages d'accueil de messagerie vocale, le transfert d’appel, choix des sonneries, et bien plus encore. Tous les éléments configurables par les utilisateurs sont accessibles dans l’application Teams par un clic sur leur image de profil en haut à droite de Teams, puis par le menu **Paramètres** > **Appels**. Ils peuvent obtenir de l’aide sur la configuration de ces fonctionnalités en consultant [Gérer vos paramètres d’appel dans Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Découvrez les fonctionnalités de Microsoft Teams et Business Voice
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972275"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653550"
 ---
 # <a name="check-your-internet-connection"></a>Vérifiez votre connexion Internet
 
@@ -32,8 +32,8 @@ Pour appliquer cette procédure, vous devez disposer d’un client avec l’un d
 * Office 365 Business Premium
 * Office 365 E1
 * Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
+* Office 365 F1
+* Microsoft 365 A1
 * Microsoft 365 A3
 * Microsoft 365 E3
 * Microsoft 365 Business
@@ -57,17 +57,17 @@ Avant de commencer, vous devez disposer des informations suivantes :
 Procédez comme suit :
 
 1. Ouvrez un navigateur, accédez à https://admin.teams.microsoft.com et connectez-vous à l’aide d’un compte disposant des autorisations d’administrateur général. Le compte que vous avez utilisé pour vous inscrire à Office 365 dispose de ces autorisations.
-1. Ouvrez **Paramètres à l’échelle de l’organisation**, puis sélectionnez **Planificateur de réseau**.
+1. Ouvrez **Planification**, puis sélectionnez **Planificateur de réseau**.
 1. Sous **Plans réseau**, sélectionnez **Ajouter**. Donnez un nom à votre plan, puis sélectionnez **Appliquer**. Votre plan réseau doit se présenter comme suit :
 
     ![Écran principal du Planificateur de réseau](../media/network-planner-main.png)
 1. Cliquez sur le nom de votre plan réseau (**Bureau principal** dans l’image ci-dessus).
 1. Sur la page suivante, sélectionnez **Ajouter un site réseau** dans l’onglet **Sites réseau**.
-1. Renseignez les informations suivantes, puis sélectionnez **Enregistrer**.
+1. Renseignez uniquement les champs indiqués dans la capture d’écran ci-dessous, puis sélectionnez **Enregistrer**. Laissez les autres champs vides dans cet écran, et ne sélectionnez pas les options **ExpressRoute** ou **connecté au réseau étendu**.
 
     ![Informations sur le site du Planificateur de réseau](../media/network-planner-site-info.png)
 1. Dans l’onglet **Rapport**, sélectionnez **Démarrer un rapport**.
-1. Renseignez les informations suivantes, puis sélectionnez **Générer un rapport**.
+1. Renseignez les informations suivantes, puis sélectionnez **Générer un rapport** pour créer un rapport indiquant les exigences en matière de bande passante pour Teams. Nous allons vous montrer comment lire le rapport dans la section suivante.
 
     ![Informations sur le rapport du Planificateur de réseau](../media/network-planner-report-info.png)
 
