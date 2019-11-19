@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675368"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696814"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
-Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
+Les salles de Microsoft teams sont mises à niveau en fonction de la taille et de l’utilisation de votre grande variété de périphériques audio et vidéo certifiés. En sélectionnant le périphérique et la console à droite, combinés avec des micros, des haut-parleurs, des appareils photo et des écrans adaptés à l’espace, vous pouvez déployer des salles de Microsoft teams dans des espaces de n’importe quelle taille à partir de très petits Huddle vers le haut dans les espaces de conférences très volumineux. et des salles de  Le jeu complet de tous les périphériques audio et vidéo certifiés disponibles qui peuvent être utilisés pour configurer votre salle est disponible dans la [Galerie de périphériques](https://products.office.com/microsoft-teams/across-devices).
+
+Cet article décrit la configuration requise pour le déploiement et la configuration des appareils pour la prise en charge des salles de Microsoft Teams.
 
 Votre déploiement implique la création d’un compte comme décrit dans la rubrique [déploiement de salles de Microsoft teams](room-systems-v2.md) et configuration de consoles de réunion, comme décrit dans [la rubrique Configurer une console Microsoft teams](console.md).
 
@@ -31,34 +33,18 @@ Vous pouvez également consulter les rubriques suivantes :
 - [Options de licence basées sur votre plan : salles de Microsoft teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Les salles de Microsoft teams sont conçues pour une utilisation avec Microsoft Teams, Skype entreprise Server 2019, Skype entreprise Server 2015 ou Skype entreprise online.
+> Les salles de Microsoft teams se connectent à Microsoft Teams, à Skype entreprise Server 2019, à Skype entreprise Server 2015 ou à Skype entreprise Online et pourront participer à des réunions hébergées par l’un de ces services.
 >
-> Les plateformes antérieures comme Lync Server 2013 ne sont pas censées fonctionner avec les salles Microsoft Teams. Les salles de Microsoft Teams ne sont pas prises en charge dans Office 365 géré par 21Vianet ou dans les environnements GCC, GCC-High ou DoD.
+> Les plates-formes précédentes comme Lync Server 2013 ne sont pas prises en charge par Microsoft teams salles. Les salles de Microsoft Teams ne sont pas prises en charge dans Office 365 géré par 21Vianet ou dans les environnements GCC-High ou DoD.
 >
 > Si vous disposez d’un serveur Exchange locaux, Microsoft teams salles nécessite l’utilisation de Exchange Server 2013 SP1 ou version ultérieure.
 
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
+Un déploiement de matériel inclut une sélection d’un système de salle Microsoft Teams, associé à des périphériques audio et vidéo certifiés, ainsi qu’une solution de câblage permettant d’intégrer ces périphériques ensemble.  Ces options sont décrites dans cet article.
 
-Les salles de Microsoft teams s’adaptent à différentes tailles de pièces en utilisant différents périphériques audio et vidéo en fonction de la taille de la pièce. Le matériel répertorié dans cet article prend en charge les modes de réunion Skype et Teams. Les périphériques audio et vidéo se connectent à des salles Microsoft teams via une connexion USB ou HDMI sur l’appareil d’ancrage. Vous avez également besoin des éléments suivants :
+**Systèmes de salle Microsoft teams pris en charge**
 
-- Un disque USB de 32 Go ou plus que vous configurez comme média d’installation Windows pour Windows 10 entreprise.
-- Une des tablettes ou consoles suivantes :
-
-  **Tablettes prises en charge**
-
-  |Tablette|Processeur|RAM|Disque|
-  |:-----|:-----|:-----|:-----|
-  |Surface Pro 6| Core i5 |16 Go ou 8 Go |128 Go ou plus |
-  |Surface Pro </br>(5e génération) |Core i5 |8 Go ou 4 Go |128 Go ou plus |
-  |Surface Pro 4 |Core i5 |8 Go ou 4 Go |128 Go ou plus |
-
-- Une des options de station d accueil suivantes pour fixer une tablette sur la table de la salle de réunion.
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **Autres consoles Microsoft teams salles prises en charge**
+Tous les appareils et ensembles de pièces Microsoft teams actuels sont disponibles dans l’ensemble de [produits systèmes de salle](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |Console|Processeur|RAM|Disque|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ Les salles de Microsoft teams s’adaptent à différentes tailles de pièces en
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 GO |
   ||||||
 
-
 > [!NOTE]
-> Les processeurs Core M3 ne sont pas pris en charge.
+> - Les processeurs Core M3 ne sont pas pris en charge.
+> - Vous avez besoin d’un lecteur USB de 32 Go ou supérieur configuré comme support amorçable d’installation Windows pour Windows 10 entreprise.
+
+**Tablettes surface Pro prises en charge pour les systèmes de type ancrage**
+
+  |Tablette|Processeur|RAM|Disque|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Core i5 |16 Go ou 8 Go |128 Go ou plus |
+  |Surface Pro </br>(5e génération) |Core i5 |8 Go ou 4 Go |128 Go ou plus |
+  |Surface Pro 4 |Core i5 |8 Go ou 4 Go |128 Go ou plus |
+
+- Une des options de station d accueil suivantes pour fixer une tablette sur la table de la salle de réunion.
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR Series](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Versions de micrologiciel certifiées pour les périphériques USB audio et vidéo
 
-Ces appareils sont disponibles sur [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+Ces appareils sont disponibles dans le [système de salle Showcase](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) et [https://office.com/teamsdevices](https://office.com/teamsdevices).
 
 |Périphérique de salle Microsoft teams|Version du microprogramme certifié | Caméra prenant en charge l’utilisation de l’appareil photo|
 |:--- |:--- | :--- |

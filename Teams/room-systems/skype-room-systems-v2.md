@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: e02a59d4b1ec99872fd544ab4828e609a1e3ea80
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290924"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702325"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
@@ -50,7 +50,7 @@ Microsoft dispose d’une référence (SKU) dédiée pour les réunions et les a
 
 
 > [!NOTE]
-> Si vous utilisez actuellement E1, E3, E4, E5 avec l’offre Skype entreprise autonome 1 ou Skype entreprise plan 2 ou Skype entreprise plan 2 avec audioconférence ou avec un système téléphonique Office 365 et un plan d’appel, les appels continuent de fonctionner. Néanmoins, vous devez envisager de migrer vers un modèle de gestion de licences plus simple dans le tableau ci-dessus après l’expiration des licences actuelles. 
+> Si vous utilisez actuellement E1, E3, E4, E5 avec Skype entreprise plan 2 avec audioconférence ou avec un système téléphonique Office 365 et un plan d’appels, ceux-ci continuent de fonctionner. Néanmoins, vous devez envisager de migrer vers un modèle de gestion de licences plus simple dans le tableau ci-dessus après l’expiration des licences actuelles.  
 
 > [!IMPORTANT]
 > Si vous utilisez le plan 2 de Skype entreprise, vous ne pouvez utiliser que le mode Skype entreprise uniquement en mode Skype entreprise, ce qui signifie que toutes vos réunions seront des réunions Skype entreprise. Pour pouvoir activer la salle de réunion pour les réunions Microsoft Teams, nous vous recommandons d’acheter la licence de salle Microsoft. 

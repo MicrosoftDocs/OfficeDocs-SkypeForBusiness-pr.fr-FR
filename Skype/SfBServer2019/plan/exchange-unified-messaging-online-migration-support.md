@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616087"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702305"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -23,7 +23,7 @@ Dans le rapport de l' [annonce](https://blogs.technet.microsoft.com/exchange/201
  
 ExchUMO est déployé par des clients pour la boîte vocale, le standard automatique, la file d’attente des appels et les services d’intégration de télécopie. Microsoft envisage d’aider les clients à migrer sur des services de système téléphonique qui prennent déjà en charge des milliers de clients sur Skype entreprise Online et Microsoft Teams. 
 
-La boîte vocale est essentiellement une migration pilotée par Microsoft ; le besoin d’administration et/ou l’investissement peuvent être requis pour un sous-ensemble de clients. Le standard automatique est une migration gérée par l’administrateur. vous devez recréer les arborescences de standard automatique ExchUMO existantes dans le service Cloud du standard automatique Cloud. Les clients qui accèdent à n’importe quelle fonction ExchUMO avec un système PBX tiers ne migrent pas vers les services Cloud de Skype, car ils ne prennent pas en charge les systèmes PBX tiers. Un plan de mise hors service du support technique tiers a été annoncé dans [ce blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), et les clients dans ce modèle de déploiement pourront migrer leurs utilisateurs vers l’une des plateformes ou services de communications unifiées de Microsoft ou acquérir un message vocal et/ou automatique tiers. solution de surveillance pour ces utilisateurs. L’intégration de télécopie n’est pas prise en charge dans les services Cloud. les clients devront migrer vers une solution tierce.
+La boîte vocale est essentiellement une migration pilotée par Microsoft ; le besoin d’administration et/ou l’investissement peuvent être requis pour un sous-ensemble de clients. Le standard automatique est une migration gérée par l’administrateur. vous devez recréer les arborescences de standard automatique ExchUMO existantes dans le service Cloud du standard automatique Cloud. Les clients qui accèdent à n’importe quelle fonction ExchUMO avec un système PBX tiers ne migrent pas vers les services Cloud de Skype, car ils ne prennent pas en charge les systèmes PBX tiers. Un plan de mise hors service du support technique tiers a été annoncé dans [ce blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), et les clients dans ce modèle de déploiement pourront migrer leurs utilisateurs vers l’une des plateformes ou services de communications unifiées de Microsoft ou acquérir une solution de messagerie vocale et/ou de standard automatique tierce pour ces utilisateurs. L’intégration de télécopie n’est pas prise en charge dans les services Cloud. les clients devront migrer vers une solution tierce.
 
 ### <a name="who-is-affected"></a>Qui est concerné ?
 
@@ -156,7 +156,7 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 | INFORMATISÉ | Fonctionnalités de service | Prise en charge de plusieurs langues | Détails de la langue :https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Transférer vers l’opérateur, CQ ou un utilisateur |  | Y | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Transfert vers le numéro RTC en interne (RNL)  |  | Y | Y    |
-| INFORMATISÉ | Fonctionnalités de service | Transférer vers le numéro RTC en externe  |  | Q3CY19 | Y    |
+| INFORMATISÉ | Fonctionnalités de service | Transférer vers le numéro RTC en externe  |  | Section Voir les problèmes connus ci-dessous | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Heures d’ouverture |  | Y | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Options de menu | Options de menu IVR  | Y | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Attribution d’un numéro PSTN Cloud à AA |  | O | N    |
@@ -210,6 +210,15 @@ Les nouveaux utilisateurs Skype entreprise seront automatiquement configurés po
 Pour en savoir plus sur les standards automatiques, reportez-vous à [la rubrique Configuration d’un standard automatique Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
 
 #### <a name="known-issues"></a>Problèmes connus
+
+**Transfert d’appel standard automatique vers PSTN** Les clients sont invités à configurer une solution de contournement provisoire pour répondre aux exigences du transfert d’un appel de standard automatique vers un numéro PSTN externe, ou vers une instance de RGS. 
+ 
+Un problème a été identifié lors de l’assurance qualité avec la fonction de transfert vers le numéro RTC, qui n’est pas corrigée dans le temps pour permettre aux clients de mettre fin à la migration du service Exchange UMO avant la date de départ prévue du 1er février 2020. Pour contourner ce problème, les administrateurs peuvent transférer des appelants de standard automatique vers un utilisateur virtuel local disposant d’un paramètre de renvoi d’appel actif vers le numéro de téléphone RTC ou le numéro de téléphone RGS souhaité. 
+ 
+Durée attendue
+- Il n’est pas nécessaire de accorder une licence à l’utilisateur virtuel, car il s’agit d’une solution de contournement. 
+- Les administrateurs peuvent manipuler l’identification de l’appelant que le destinataire RTC verra en attribuant le numéro souhaité à l’utilisateur virtuel ou en utilisant les fonctionnalités de manipulation des chiffres de l’SBC. 
+- Les appelants PSTN ne seront pas retardés pendant le transfert d’appel et pourront voir l’identification de l’appelant du standard automatique une fois le transfert terminé.  
 
 **Boîte aux lettres partagée :** Une boîte aux lettres partagée configurée à l’aide de la messagerie unifiée Exchange Online continuera à recevoir des messages après avoir été déplacée vers CVM et sera toujours accessible aux utilisateurs via Outlook. Toutefois, l’accès pour modifier les messages de salutation de ces boîtes aux lettres ne sera pas disponible une fois migré vers CVM. Les clients dotés de boîtes aux lettres partagées qui sont utilisés pour la capture automatique doivent utiliser les 2019 fonctionnalités de boîte aux lettres partagées et de files d’attente de mise en attente de l’assistance
   

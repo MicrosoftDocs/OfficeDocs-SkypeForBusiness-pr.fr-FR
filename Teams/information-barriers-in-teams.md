@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: En savoir plus sur les barrières relatives aux informations et leurs répercussions sur Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968255"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696824"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Obstacles liés à l’information dans Microsoft teams
 
@@ -74,7 +74,7 @@ Lorsque l’administrateur de la stratégie de protection des informations appor
 S’il existe une discussion existante ou une autre communication entre les utilisateurs et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées. 
 
 - **chat 1:1** : si la communication entre les deux utilisateurs n’est plus autorisée (si une communication bloquante est appliquée à l’un ou les deux utilisateurs), une communication supplémentaire est bloquée et la conversation par messagerie instantanée devient en lecture seule.
-- **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et aucune communication avec le groupe ne sera acceptés. L’utilisateur peut toujours voir d’anciennes conversations (qui sont en lecture seule), mais ne peut pas voir ou participer à d’autres conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations. 
+- **Discussions de groupe** : si la communication entre un utilisateur et le groupe n’est plus autorisée (par exemple, si un utilisateur change de travail), l’utilisateur ainsi que les autres utilisateurs qui enfreignent la politique peuvent être supprimés des discussions de groupe et les communications avec le groupe ne sont pas autorisées. L’utilisateur peut toujours voir d’anciennes conversations (qui sont en lecture seule), mais ne peut pas voir ou participer à d’autres conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la discussion de groupe. Ils peuvent toujours voir d’anciennes conversations. 
 - **Équipe** : les utilisateurs qui ont été supprimés du groupe sont supprimés de l’équipe et ne seront pas en mesure d’afficher ou de participer à des conversations existantes ou nouvelles.
 
 
@@ -92,16 +92,15 @@ Pour le moment, les utilisateurs ont connaissance des éléments suivants si une
 - **Appels** de contact : un utilisateur peut voir les utilisateurs bloqués dans la liste des contacts appels, mais les utilisateurs bloqués seront identifiés et la seule action qu’il peut effectuer est de les supprimer.
 - **Migration de Skype vers les équipes** : au cours d’une migration Skype entreprise vers Teams, tous les utilisateurs, même ceux qui ont été bloqués par des politiques de barrage d’information, sont migrés vers Teams, puis seront gérés comme décrit ci-dessus.
 
-
-
-## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
-
+## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>Les fichiers et les expériences de site SharePoint connectés à teams respectent-elles la politique IB ?
+ 
 Lors de la création d’une équipe, un site SharePoint est approvisionné et associé à l’équipe pour l’interface des fichiers. L’accès à ce site SharePoint et aux fichiers respecte la stratégie IB de l’organisation, c’est-à-dire que seuls les utilisateurs pour lesquels le segment IB correspond à une stratégie IB sont autorisés à y accéder. Même au moment du partage de fichiers, la stratégie IB est honorée.
 
 Par exemple : dans contoso Bank Corporation, l’utilisateur’Sesha@contosobank.onmicrosoft.com’appartient au segment bancaire d’investissement et l’utilisateur’Nikita@contosobank.onmicrosoft.com’appartient à un avis de segment. La stratégie IB de l’organisation bloque la communication et la collaboration entre ces deux segments. Lorsque l’utilisateur Sesha crée une équipe pour un segment de services d’investissement, l’équipe et le site SharePoint qui la replaceront ne seront accessibles qu’aux utilisateurs de segments bancaires d’investissement. L’utilisateur Nikita ne peut pas accéder à ce site, même s’il possède le lien de site.
 
-Pour plus d’informations, y compris les offres et les tarifs, voir recommandations en matière de [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
+Pour plus d’informations, y compris les offres et les tarifs, voir recommandations en matière de [licences](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## <a name="more-information"></a>Plus d’informations
 

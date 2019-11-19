@@ -1,7 +1,7 @@
 ---
 title: Démarrage avec les modèles Teams pour les organismes de santé
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Démarrage avec les modèles Teams pour les organismes de santé
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886437"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702315"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Démarrage avec les modèles Teams pour les organismes de santé
 
@@ -43,7 +43,7 @@ Le modèle à l’envers est destiné à la communication et à la collaboration
 
 ## <a name="hospital-template"></a>Modèle d’hôpital
 
-Le modèle d’hôpital est destiné à la communication et à la collaboration entre divers services, modules et services d’un hôpital. Inclus dans ce modèle sont des canaux opérationnels, y compris les *annonces*, la *privative*d’emploi et la *pharmacie*, mais nous proposons également un script ci-dessous qui étend le modèle à un large éventail de services supplémentaires ou canaux centrés sur les spécialisations que vous pouvez ajouter, supprimer ou modifier selon vos besoins. Par exemple, si vous avez un service *Endocrinology* , mais que vous n’avez pas besoin d’un canal pour *Ophthalmology*, le script peut être adapté pour inclure un canal *Endocrinology* et supprimer le canal *Ophthalmology* . Nous vous conseillons de ne pas ajouter de favoris automatique pour ces canaux spécialisés ou les canaux à l’envers. En général, les utilisateurs favoris sont les canaux qu’ils recherchent.
+Le modèle d’hôpital est destiné à la communication et à la collaboration entre divers services, modules et services d’un hôpital. Il s’agit de nombreux canaux opérationnels, y compris les *annonces*, la *privative*d’emploi et la *pharmacie*, mais nous proposons également un script ci-dessous qui étend le modèle à un large éventail de canaux centrés sur des services ou des spécialisations, que vous pouvez ajouter, supprimer ou modifier selon vos souhaits. Par exemple, si vous avez un service *Endocrinology* , mais que vous n’avez pas besoin d’un canal pour *Ophthalmology*, le script peut être adapté pour inclure un canal *Endocrinology* et supprimer le canal *Ophthalmology* . Nous vous conseillons de ne pas ajouter de favoris automatique pour ces canaux spécialisés ou les canaux à l’envers. En général, les utilisateurs favoris sont les canaux qu’ils recherchent.
 
 |Type de modèle de base |baseTemplateId |Canaux de modèles de base|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ Le modèle d’hôpital est destiné à la communication et à la collaboration 
 
 \*Favoris automatique 
 
-## <a name="care-coordination-template"></a>Modèle de coordination de soins
-
-Le modèle de coordination de soins a pour but de faciliter la communication au sein d’une équipe de soins pour le patient, avec quelques exemples, notamment les équipes interdisciplinaires et pluridisciplinaires. Dans le cadre de notre application pour les patients propriétaires, le préchargement de ce modèle est intégré au canal général. Avec l’application patients, vous pouvez organiser des listes de patients et leurs valeurs associées et vitales, ce qui peut être utile pour les scénarios d’arrondi et de gestion du patient. 
-
-|Type de modèle de base |baseTemplateId |Canaux de modèles de base|
-|:--- |:---|:---|
-|Coordination des soins de santé | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Révision du post-traitement\* <br> Tâches\* <br> Formation\* |
-| | |  |
-
-\*Favoris automatique 
-
 ## <a name="how-to-use-first-party-templates"></a>Utilisation de modèles de première partie
 
-Pour utiliser ces modèles, il suffit de changer la propriété « template@odata.bind » dans le corps de la requête de « standard » en TemplateIDs ci-dessus.  Pour plus d’informations sur le déploiement de modèles d’équipe, voir l’article Microsoft Graph sur la [création d’une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Pour utiliser ces modèles, il vous suffit de changer la propriété « template@odata. bind » dans le corps de la requête de « standard » vers le TemplateIDs ci-dessus.  Pour plus d’informations sur le déploiement de modèles d’équipe, voir l’article Microsoft Graph sur la [création d’une équipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Les canaux du modèle sont automatiquement créés sous l’onglet général.
