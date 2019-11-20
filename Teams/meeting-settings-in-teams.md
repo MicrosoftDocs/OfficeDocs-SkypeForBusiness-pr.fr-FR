@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564932"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746447"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -32,7 +32,8 @@ En tant qu’administrateur, vous pouvez utiliser les paramètres de réunion d�
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Autoriser les utilisateurs anonymes à participer à des réunions
 
-Avec Join anonyme, n’importe qui peut rejoindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion.
+Avec Join anonyme, n’importe qui peut rejoindre la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion. Pour en savoir plus, voir [participer à une réunion sans compte teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+
 
 ![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
@@ -84,7 +85,7 @@ Si vous utilisez la qualité de service [(QoS)](qos-in-teams.md) pour définir l
 1. Dans le volet de navigation gauche, accédez à paramètres de la**réunion** **réunions** > .
 2. Sous **réseau**, procédez comme suit :
 
-    ![Capture d’écran des paramètres réseau pour les réunions dans le centre d’administration](media/meeting-settings-network.png "Capture d’écran de la page Paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
+    ![Capture d’écran des paramètres réseau pour les réunions dans le centre d’administration](media/meeting-settings-network.png "Capture d’écran de la section paramètres du réseau pour les réunions teams dans le centre d’administration Microsoft teams")
 
     - Pour autoriser l’utilisation de la marque DSCP pour la qualité de **service (QoS), activez insérer des marqueurs de qualité de service (QoS) pour le trafic multimédia en temps réel**. Vous avez la possibilité d’utiliser des marqueurs uniquement. vous ne pouvez pas définir de marqueurs personnalisés pour chaque type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     > [!NOTE] 

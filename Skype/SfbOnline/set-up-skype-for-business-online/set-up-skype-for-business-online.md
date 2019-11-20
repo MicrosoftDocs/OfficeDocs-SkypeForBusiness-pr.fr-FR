@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Familiarisez-vous avec la configuration de votre domaine, des utilisateurs, de la messagerie instantanée et de la présence de votre organisation pour l’installation de Skype entreprise. Apprenez-en plus sur la configuration de l’audioconférence, du système téléphonique et des plans d’appel et de la diffusion de réunion Skype. '
-ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ffa82896bcc17127a2125bd37fea7ce03b227516
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792619"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746317"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -59,9 +59,7 @@ Skype Entreprise Online fait partie de la suite de services Office 365. Pour con
 
     ![Exemple de courrier électronique de bienvenue que vous recevez après vous être inscrit à Skype Entreprise Online. Il contient votre identifiant utilisateur Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Connectez-vous au centre d’administration, puis entrez votre ID utilisateur et votre mot de passe Office 365. Après vous être connecté, vous verrez le centre d’administration Microsoft 365:
-
-    ![Exemple illustrant le centre d’administration lorsque vous disposez d’une offre Skype entreprise online.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+2. Connectez-vous au [Centre d’administration](https://admin.microsoft.com) , puis entrez votre ID utilisateur et votre mot de passe Office 365. 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. Configuration de votre domaine et de vos utilisateurs
 <a name="bkmk_users"> </a>

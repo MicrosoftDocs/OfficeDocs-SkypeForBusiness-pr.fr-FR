@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793243"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746307"
 ---
 # <a name="activity-report"></a>Rapport d'activités
 
-Le nouveau tableau de bord **Rapports** d'Office 365 vous donne une vue d'ensemble de l'activité de tous les produits Office 365 dans votre organisation. Elle vous permet d’explorer les rapports individuels au niveau du produit afin d’améliorer la précision des activités dans chaque produit. Par exemple, le rapport **activité Skype entreprise** vous permet de visualiser le nombre d’utilisateurs qui utilisent des sessions d’égal à égal ou de conférences organisées ou qui participent à des sessions de conférence. 
+Le tableau de bord des **rapports** 365 Office affiche la vue d’ensemble des activités sur les produits Office 365 au sein de votre organisation. Elle vous permet d’explorer les rapports individuels au niveau du produit afin d’améliorer la précision des activités dans chaque produit. Par exemple, le rapport **activité Skype entreprise** vous permet de visualiser le nombre d’utilisateurs qui utilisent des sessions d’égal à égal ou de conférences organisées ou qui participent à des sessions de conférence. 
 
 Pour plus d’informations, consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
   
@@ -41,12 +41,8 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
-2. Sur la page **utilisation** , cliquez sur **activité Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche ou cliquez sur le widget **activité Skype entreprise** .
-    
-     ![Skype for Business DashBoard Widget.](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > En fonction de l’abonnement Office 365 que vous avez disponible, tous les produits et les rapports présentés dans cet article ne seront peut-être pas disponibles. 
+2. Sur la **page utilisation** , sélectionnez**activité** **Skype entreprise** > dans la **liste Sélectionner un rapport** située sur la gauche ou cliquez sur le widget **activité Skype entreprise** .
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpréter le rapport d'activité Skype Entreprise
 
@@ -82,7 +78,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 ***
 ![Nombre 7](../images/sfbcallout7.png)<br/>
 Le tableau montre une répartition de toutes les activités de conférences par utilisateur. Ce contrôle montre tous les utilisateurs qui disposent de Skype entreprise et leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires au tableau.
-* **** Nom d’utilisateur est le nom de l’utilisateur.
+* **Nom d’utilisateur est le** nom de l’utilisateur.
 * **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
   > [!NOTE]
   > Le rapport activité d’un utilisateur supprimé reste affiché tant qu’il a été concédé sous licence à un certain moment au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.

@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer le cycle de vie des canaux privés au sein de votre organisation.
-ms.openlocfilehash: 0f2a1f9fc4921ae12092655102d4a442fd653df3
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077407"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714480"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft teams
 
 Vous trouverez ci-dessous les conseils nécessaires pour gérer le cycle de vie des [canaux privés](private-channels.md) au sein de votre organisation.
 
 > [!IMPORTANT]
-> Si vous utilisez les étapes PowerShell de cet article pour gérer des canaux privés, vous devez installer et utiliser la version la plus récente du module PowerShell teams de la Galerie de tests PowerShell. Pour plus d’informations sur la procédure à suivre, voir [installer le dernier module PowerShell teams dans la Galerie de tests PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). La dernière version publique disponible du module teams PowerShell (actuellement [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) ne prend pas en charge la gestion des canaux privés.
+> Si vous utilisez les étapes PowerShell de cet article pour gérer des canaux privés, vous devez installer et utiliser la version la plus récente du module PowerShell teams de la Galerie de tests PowerShell. Pour plus d’informations sur la procédure à suivre, voir [installer le dernier module PowerShell teams dans la Galerie de tests PowerShell](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery). La dernière version publique disponible du module teams PowerShell (actuellement [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) ne prend pas en charge la gestion des canaux privés.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Définir si les membres d’une équipe peuvent créer des canaux privés
 
@@ -292,7 +292,7 @@ Vous pouvez essayer ces commandes via l' [Explorateur de graphiques](https://dev
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>Installer le dernier module PowerShell teams à partir de la Galerie de tests PowerShell
 
-La dernière version publique disponible du module teams PowerShell (actuellement [1.0.2](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.2)) ne prend pas en charge la gestion des canaux privés. Procédez comme suit pour installer la dernière version du module PowerShell teams avec prise en charge de canal privé (actuellement 1.0.18) à partir de la Galerie de tests PowerShell.
+La dernière version publique disponible du module teams PowerShell (actuellement [1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)) ne prend pas en charge la gestion des canaux privés. Procédez comme suit pour installer la dernière version du module PowerShell teams avec prise en charge de canal privé (actuellement 1.0.18) à partir de la Galerie de tests PowerShell.
 
 > [!NOTE]
 > N’installez pas le module PowerShell teams à partir de la Galerie de tests PowerShell côte à côte avec une version du module dans la Galerie PowerShell publique. Procédez comme suit pour désinstaller d’abord le module PowerShell teams dans la Galerie PowerShell public, puis installez la dernière version du module à partir de la Galerie de tests PowerShell.
@@ -342,7 +342,7 @@ Si vous avez déjà installé le module teams PowerShell à partir de la Galerie
     Get-Module -Name MicrosoftTeams
     ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Utiliser l’API Microsoft Graph pour travailler avec des équipes](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)

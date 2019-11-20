@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571581"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714240"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
-Vous devez configurer les crédits de communications si vous souhaitez utiliser des numéros gratuits avec Skype pour Business et Teams Microsoft. Par ailleurs, nous vous conseillons de configurer des crédits de communication pour vos forfaits d’appels (nationaux ou internationaux) et les utilisateurs de l’audioconférence qui ont besoin d’être en mesure de passer des appels vers **n’importe quelle destination**. De nombreux pays ou régions sont inclus, mais certaines destinations peuvent ne pas être incluses dans les abonnements de votre plan d’appel ou de votre audioconférence. Si vous ne configurez pas la facturation du crédit de communications et attribuez une licence de **crédits de communication** à vos utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel ou de votre plan de visioconférence dans votre pays/région), ces utilisateurs ne sera pas en mesure de passer des appels ou d’appeler des réunions de conférence audio. Vous pouvez obtenir plus d’informations, y compris des montants de financement recommandés, en lisant [qu’est-ce que les crédits de communication ?](what-are-communications-credits.md)
+Vous devez configurer les crédits de communications si vous souhaitez utiliser des numéros gratuits avec Skype pour Business et Teams Microsoft. Par ailleurs, nous vous conseillons de configurer des crédits de communication pour vos forfaits d’appels (nationaux ou internationaux) et les utilisateurs de l’audioconférence qui ont besoin d’être en mesure de passer des appels vers **n’importe quelle destination**. De nombreux pays ou régions sont inclus, mais certaines destinations peuvent ne pas être incluses dans les abonnements de votre plan d’appel ou de votre audioconférence. Si vous ne configurez pas la facturation et attribuez une licence de **crédit** à vos utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel ou de votre plan de visioconférence dans votre pays/région), les utilisateurs ne seront pas en mesure de passer des appels ou des appels sortants à partir des réunions de conférence audio. Vous pouvez obtenir plus d’informations, y compris des montants de financement recommandés, en lisant [qu’est-ce que les crédits de communication ?](what-are-communications-credits.md)
   
 > [!NOTE]
 > Pour connaitre le coût, [voir les tarifs ici](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
@@ -44,10 +44,10 @@ Pour ce faire, **vous devez affecter une licence d’audioconférence ou de syst
     
     Après avoir affecté cette licence, vous devez configurer l’audioconférence. Pour obtenir des instructions détaillées, reportez-vous à [essayer ou acheter l’audioconférence dans Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Attribution d’un **système téléphonique** et d’une licence de plan d’appel national ou national et international à vos utilisateurs. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
+- Attribution d’un **système téléphonique** et d’une licence de plan d’appel **national ou national et international** à vos utilisateurs. Voir [attribuer des licences Microsoft teams](assign-teams-licenses.md).
     
     > [!NOTE]
-    > Même si ce n’est pas le cas pour les crédits de communication, vous devez également affecter une licence de plan d' **appel national** ou **national et international** .
+    > Même si cela n’est pas obligatoire pour les crédits de communication, vous devez également affecter une licence de plan d' **appel national** ou **national et international** .
   
     Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, consultez la rubrique [configurer les offres d’appels](set-up-calling-plans.md).
     
@@ -55,7 +55,7 @@ Pour plus d’informations, reportez-vous à la rubrique [licences de complémen
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Étape 2 : configurer les crédits de communication pour votre organisation
 
-1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
+1. Connectez-vous au nouveau portail Office 365 à l’aide de votre compte professionnel ou scolaire.
     
 2. Dans le volet de navigation de gauche du centre d’administration 365 de Microsoft, accédez à **facturation** > **abonnements** > **Ajouter des abonnements**.
 
@@ -113,7 +113,7 @@ Vous pouvez également consulter des informations en vous [connectant au centre 
   
 Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

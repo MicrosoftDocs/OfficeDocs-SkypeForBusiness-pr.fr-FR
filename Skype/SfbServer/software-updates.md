@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Recherchez et gérez les mises à jour de Skype entreprise Server ou de Lync 2013. Utilisez les liens pour obtenir plus d’informations et télécharger les mises à jour.
-ms.openlocfilehash: 99eadfcc708d13adc7c07d787d58ccb815c7daae
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 858ea89d70e52a78e1750c2036a229deef828f13
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38311219"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746437"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 
@@ -24,9 +24,9 @@ La page Web _téléchargements et mises à jour Skype entreprise_ qui s’affich
 
 - [Mises à jour du client Skype entreprise](sfb-client-updates.md) contenant les sections suivantes :
     - [Mises à jour du client Skype Entreprise 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Mises à jour du client Skype Entreprise 2015](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Mises à jour du client Skype Entreprise 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Mises à jour du client Skype Entreprise sur Mac](sfb-client-updates.md)
-    - [Mises à jour du client Lync 2013](sfb-client-updates.md#skype-for-business-2015-lync-2013-client-updates)
+    - [Mises à jour du client Lync 2013](sfb-client-updates.md)
         - [Mises à jour de Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
         - [Clients Lync Phone Edition dans le Centre de téléchargement](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Logiciel d’évaluation de Lync Basic 2013](sfb-client-updates.md)

@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793157"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746297"
 ---
 # <a name="conference-participant-activity-report"></a>Rapport d'activités de participant à la conférence
 
@@ -41,12 +41,8 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
-2. Sur la page **utilisation** , cliquez sur activité de participation à des **conférences Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de participation à des conférences Skype entreprise** dans la liste **activité Skype entreprise** .
+2. Sur la page **utilisation** , sélectionnez**activité de participation** à **des conférences Skype entreprise** > dans la **liste Sélectionner un rapport** située sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de participation à des conférences Skype entreprise** dans la liste **activité Skype entreprise** .
     
-     ![Option de menu activité de participation à des conférences Skype sélectionnée](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > En fonction de l'abonnement Office 365 que vous avez souscrit, tous les rapports sur les produits et les activités présentés dans cet article ne seront peut-être pas disponibles. 
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpréter le rapport d'activité de participation à des conférences Skype Entreprise
 
@@ -64,7 +60,7 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 ***
 ![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif **Utilisateurs** pour comprendre les tendances d'utilisation et afficher le nombre total d'utilisateurs uniques qui ont participé aux conférences qui se sont tenues dans votre organisation. Cela vous indiquera le nombre total d'utilisateurs ainsi que les types de conférences utilisant la **messagerie instantanée**, l' **audio/vidéo**, le **partage d'applications**, le **web** et les **conférences rendez-vous ou les mises en conférences téléphoniques tierces** qui ont été organisées. 
 ***
-!["Nombre 5"](../images/sfbcallout5.png)<br/>Utiliser les données d’un graphique interactif sur le graphique **minutes** pour comprendre les tendances d’utilisation et pour connaître le nombre de minutes utilisées par les utilisateurs lors de l’organisation d’une conférence à l’aide de la fonction audio fournisseurs. Cela vous indiquera le nombre total de minutes **audio/vidéo** qui ont été utilisées pendant les conférences pour lesquelles il y a eu des participants.
+!["Nombre 5"](../images/sfbcallout5.png)<br/>Utilisez les données d’un graphique interactif sur le graphique **minutes** pour bien comprendre les tendances d’utilisation et pour connaître le nombre de minutes utilisées par les utilisateurs lors de l’organisation d’une conférence à l’aide de l’audio/vidéo, de la fonction d’appel entrant et de la fonction d’appel sortant par Microsoft comme fournisseur de services d’audioconférence. Cela vous indiquera le nombre total de minutes **audio/vidéo** qui ont été utilisées pendant les conférences pour lesquelles il y a eu des participants.
 ***
 ![Numéro 6](../images/sfbcallout6.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. For example, on the **Activity** chart, click or tap **IM**, **Audio/video**, **Application sharing**, **Web**, and **Dial-in/out - 3rd party** to see only the info related to each one. Changing this selection doesn't change the info in the grid table.  
 ***
@@ -77,7 +73,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 ***
 ![Nombre 8](../images/sfbcallout8.png)<br/>Le tableau vous présente une répartition par utilisateur des activités de conférence. Il vous indique tous les utilisateurs auxquels est attribué Skype Entreprise et les conférences auxquelles ils ont participé. Vous pouvez ajouter des colonnes supplémentaires au tableau.
 *    **Nom d'utilisateur** est le nom de l'utilisateur. 
-*    **Supprimé** indique que la licence de l'utilisateur a été supprimée. <br/> <br/> **Remarque:**  Le rapport activité d’un utilisateur supprimé reste affiché tant qu’il a été concédé sous licence à un certain moment au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.   <br/><br/> 
+*    **Supprimé** indique que la licence de l'utilisateur a été supprimée. <br/> <br/> **Remarque :**  Le rapport activité d’un utilisateur supprimé reste affiché tant qu’il a été concédé sous licence à un certain moment au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.   <br/><br/> 
 *    La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée. 
 *    **Dernière date d'activité (UTC)** est la dernière date d'activité (UTC) pour cet utilisateur.
 *    **Messagerie instantanée** indique le nombre total de conférences de messagerie instantanée pour lesquelles il y a eu des participants. 
@@ -87,7 +83,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 *    **Rendez-vous ou mises en conférence tierces** indique le nombre total de conférences rendez-vous ou de mises en conférence qui ont été organisées en utilisant un fournisseur de services d'audioconférence tiers. 
 *    **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo pour lesquelles il y a eu des participants. 
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **«Comment puis-je masquer les détails au niveau utilisateur?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **« Comment puis-je masquer les détails au niveau utilisateur ?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton d’exportation des rapports de Skype entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***

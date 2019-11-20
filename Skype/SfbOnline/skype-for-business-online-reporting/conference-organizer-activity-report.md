@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e93b77859c601131efae69b6ef30199accf031e7
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793185"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746327"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
@@ -41,12 +41,7 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
-2. Dans la page **utilisation** , cliquez sur activité de l' **organisateur de conférences Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de l’organisateur de conférences Skype entreprise** dans la liste **activité Skype entreprise** .
-    
-     ![Menu pour les rapports Skype avec activité de l’organisateur de conférences professionnels en surbrillance](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > En fonction de l'abonnement Office 365 que vous avez souscrit, tous les rapports sur les produits et les activités présentés dans cet article ne seront peut-être pas disponibles. 
+2. Dans la page **utilisation** , sélectionnez**activité d’organisateur de conférences** **Skype entreprise** >dans la **liste Sélectionner un rapport** sur la gauche. Ou cliquez sur le widget **activité Skype entreprise** , puis cliquez sur **activité de l’organisateur de conférences Skype entreprise** dans la liste **activité Skype entreprise** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpréter le rapport d'organisateur de conférences Skype Entreprise
 
@@ -97,7 +92,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 * **Minutes en appels entrants avec Microsoft** indique le nombre total de minutes d’appels entrants utilisés lors de réunions organisées avec Microsoft comme fournisseur de services d’audioconférence. 
 * **Minutes** d’appels sortants de Microsoft indique le nombre total de minutes d’appels sortants utilisés lors de réunions organisées avec Microsoft comme fournisseur de services d’audioconférence. 
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **«Comment puis-je masquer les détails au niveau utilisateur?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **« Comment puis-je masquer les détails au niveau utilisateur ?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton d’exportation des rapports de Skype entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***

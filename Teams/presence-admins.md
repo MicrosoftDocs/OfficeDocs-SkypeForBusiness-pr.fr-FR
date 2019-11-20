@@ -3,7 +3,6 @@ title: Présence des utilisateurs dans Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010597"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714490"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -29,7 +28,7 @@ Les informations de présence font partie du profil d’un utilisateur de Micros
 > [!IMPORTANT]
 > Si vous désinstallez le client Skype Entreprise après qu'un utilisateur a été déplacé en mode **Teams uniquement**, la présence cesse de fonctionner dans Outlook et les autres applications Office. La présence fonctionne correctement dans Teams. Solution : pour voir la présence dans Outlook (et les autres applications Office), Skype entreprise doit être installé, même si vous exécutez teams en mode **équipes uniquement** . Microsoft est courant du problème et travaille activement au développement d’un correctif.
 
-La présence d’équipes dans Outlook est prise en charge sur l’application de bureau Outlook 2013 et les versions ultérieures.
+La présence de Teams dans Outlook est prise en charge dans l’application de bureau Outlook 2013 et les versions ultérieures.
 
 ## <a name="presence-states-in-teams"></a>États de présence dans teams
 
@@ -56,11 +55,13 @@ Les statuts de présence des utilisateurs disponibles dans teams sont les suivan
 || ![Cercle violet avec flèche, indiquant qu’il n’est pas du tout le Bureau](media/Presence_OOF.png) Absent (e) du Bureau|
 |||
  
-Les utilisateurs peuvent définir manuellement leur état de présence actuel sur certaines options, et leur état est reflété par tous les autres utilisateurs. Des informations supplémentaires sur la présence d’un utilisateur sont également mises à jour automatiquement. Les modifications dépendent de l’activité des utilisateurs (disponible, absent (e), des États du calendrier Outlook (dans une réunion) ou des États des applications Teams (en cours de présentation) pour les États en retrait dans la liste. 
+Les utilisateurs peuvent définir manuellement leur état de présence actuel sur certaines options, et leur état est reflété par tous les autres utilisateurs. Des informations supplémentaires sur la présence d’un utilisateur sont également mises à jour automatiquement. Les modifications dépendent de l’activité des utilisateurs (disponible, absent (e), des États du calendrier Outlook (dans une réunion) ou des États des applications Teams (en cours de présentation) pour les États en retrait dans la liste. Il y a un délai d’inactivité de 15 minutes, après lequel l’état de présence actuel est remis à absent (e).
 
-Il y a un délai d’inactivité de 15 minutes, après lequel l’état de présence actuel est remis à absent (e).
+Les utilisateurs reçoivent tous les messages de discussion qui leur sont envoyés dans Teams, quel que soit leur état de présence. Si un utilisateur est hors connexion lorsque quelqu’un lui envoie un message, le message de conversation s’affiche dans teams lors de la prochaine connexion de l’utilisateur. Si un utilisateur est dans un État ne pas déranger, il continue à afficher des messages instantanés, mais une bannière de notification s’affiche.
 
-Les utilisateurs peuvent spécifier qui peut se bloquer (c’est-à-dire les contacter malgré un État ne pas déranger). Ces paramètres sont disponibles dans le client Teams.
+Les utilisateurs reçoivent les appels dans tous les pays, à l’exception des États ne pas déranger, dans lesquels les appels entrants sont remis à leur boîte vocale. Si le destinataire a bloqué l’appelant, l’appel ne sera pas remis et l’appelant verra la présence du destinataire hors connexion.
+
+Les utilisateurs peuvent ajouter des personnes à leur liste d’accès prioritaire en accédant à **paramètres** > **confidentialité** dans Teams. Les personnes disposant d’un accès prioritaire peuvent contacter l’utilisateur, même si celui-ci est dans un État ne pas déranger.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Paramètres d’administration dans teams par rapport à Skype entreprise
 

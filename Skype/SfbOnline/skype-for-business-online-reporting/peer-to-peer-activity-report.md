@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792649"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746337"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
@@ -43,13 +43,8 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 1. Accédez au centre d’administration > **** > **l’utilisation**des rapports.
     
-2. Dans la page **utilisation** , cliquez sur **activité d’égal à égal Skype entreprise** dans la **liste Sélectionner un rapport** située sur la gauche. Vous pouvez cliquer sur le widget **activité Skype entreprise** , puis sur **activité d’égal à égal Skype entreprise** dans la liste **activité Skype entreprise** .
-    
-     ![Option de menu d’égal à égal Skype sélectionnée](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > En fonction de l'abonnement Office 365 que vous avez souscrit, tous les rapports sur les produits et les activités présentés dans cet article ne seront peut-être pas disponibles. 
-  
+2. Dans la **page utilisation** , sélectionnez**activité d’égal à égal** **Skype entreprise** > dans la **liste Sélectionner un rapport** sur la gauche. Vous pouvez cliquer sur le widget **activité Skype entreprise** , puis sur **activité d’égal à égal Skype entreprise** dans la liste **activité Skype entreprise** .
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpréter le rapport d'activité P2P Skype Entreprise
 
 Vous pouvez obtenir un aperçu de l'activité P2P Skype Entreprise en consultant les graphiques **Activité**, **Utilisateurs** et **Minutes**.
@@ -82,7 +77,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 ***
 ![Nombre 8](../images/sfbcallout8.png)<br/>Le tableau présente une répartition par utilisateur des activités P2P. Il vous indique tous les utilisateurs auxquels Skype Entreprise a été affecté ainsi que leurs activités P2P. Vous pouvez ajouter des colonnes supplémentaires dans ce tableau.
 *    **Nom d'utilisateur** est le nom de l'utilisateur.
-*    **Supprimé** indique que la licence de l'utilisateur a été supprimée. <br/> <br/> **Remarque:**  Le rapport activité d’un utilisateur supprimé reste affiché tant qu’il a été concédé sous licence à un certain moment au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.  <br/><br/>
+*    **Supprimé** indique que la licence de l'utilisateur a été supprimée. <br/> <br/> **Remarque :**  Le rapport activité d’un utilisateur supprimé reste affiché tant qu’il a été concédé sous licence à un certain moment au cours de la période sélectionnée. La colonne **Supprimé** vous permet d'observer que l'utilisateur n'est peut-être plus actif, mais a contribué aux données du rapport.  <br/><br/>
 *    La **date de suppression** correspond à la date à laquelle la licence de l'utilisateur a été supprimée. 
 *    **Dernière date d'activité (UTC)** est la dernière date d'activité (UTC) pour cet utilisateur.
 *    **Messagerie instantanée** indique le nombre total de sessions P2P utilisées par l'utilisateur.
@@ -93,7 +88,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 *    **Minutes audio** indique le nombre total de minutes audio utilisées dans votre organisation. 
 *    **Minutes vidéo** indique le nombre total de minutes vidéo utilisées dans votre organisation. 
 
-Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **«Comment puis-je masquer les détails au niveau utilisateur?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Si les stratégies de votre organisation vous empêchent d’afficher des rapports dans lesquels les informations utilisateur sont identifiables, vous pouvez modifier le paramètre de confidentialité pour tous ces rapports. Consultez la section **« Comment puis-je masquer les détails au niveau utilisateur ?** » dans les [rapports d’activité du centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Numéro 9](../images/sfbcallout9.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Bouton d’exportation des rapports de Skype entreprise.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer.
 ***
