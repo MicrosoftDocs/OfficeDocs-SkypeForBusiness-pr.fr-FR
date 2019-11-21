@@ -15,12 +15,12 @@ ms.collection:
 description: Découvrez les différents modèles d'identité dans Microsoft Teams tels que Identité de cloud, Identité synchronisée, et Identité fédérée. Ce document contient également des informations sur l'authentification multifacteur.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931622"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753351"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modèles d’identité et authentification dans Microsoft Teams
 ==========================================
@@ -55,7 +55,7 @@ Les plans Office 365 prennent en charge l'authentification multifacteur (MFA) q
 
 L’authentification multifacteur est prise en charge avec n’importe quel plan Office 365 incluant Microsoft Teams. Les offres d’abonnement à Office 365 qui incluent Microsoft teams sont décrites plus loin dans la section gestion des licences ci-dessous.
 
-Une fois les utilisateurs inscrits pour la MFA, lors de leur prochaine connexion, un message les invitera à configurer leur deuxième facteur d'authentification. Méthodes d'authentification prises en charge :
+Lorsque les utilisateurs sont inscrits pour l’authentification multifacteur, la prochaine fois qu’un utilisateur se connecte, il verra un message lui demandant de configurer son deuxième facteur d’authentification. Les méthodes d’authentification prises en charge sont les suivantes :
 
 
 |Type de client  |Options de deuxième facteur de MFA disponibles  |Remarques  |

@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: L’apparence des lignes partagées permet à l’utilisateur de choisir un délégué pour répondre à des appels ou gérer son nom.
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571757"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753421"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -36,9 +36,9 @@ L’apparence des lignes partagées fait partie de la fonctionnalité de délég
 
 ## <a name="license-required"></a>Licence requise
 
-Un utilisateur doit être un utilisateur de voix entreprise pour être délégué ou configuré délégation et permettre à d’autres personnes de passer ou de recevoir des appels en son nom.
+Un utilisateur doit être doté d’un système téléphonique avec connectivité PSTN (licence de plan d’appel ou OnlineVoiceRoutingPolicy de routage directe) pour être délégué ou configuré délégation et permettre à d’autres personnes de passer ou de recevoir des appels en son nom.
 
-Les responsables et délégués doivent être compatibles voix entreprise. L’interface de ligne partagée fait partie de la délégation et ne nécessite pas de licence supplémentaire. Pour plus d’informations sur le modèle de gestion des licences, voir gestion [des licences Office 365 pour Microsoft teams](office-365-licensing.md).
+Les responsables et délégués doivent disposer d’un système téléphonique avec connectivité PSTN (licence de plan d’appel ou OnlineVoiceRoutingPolicy de routage directe). L’interface de ligne partagée fait partie de la délégation et est incluse dans le système téléphonique. Pour plus d’informations sur le modèle de gestion des licences, voir gestion [des licences Office 365 pour Microsoft teams](office-365-licensing.md).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuration de la délégation et de l’apparence des lignes partagées
 
@@ -72,6 +72,6 @@ Les responsables peuvent ajouter jusqu’à 25 délégués et des délégués pe
  
 Si le délégué et la personne qui ne se trouvent pas dans le même emplacement géographique, c’est le fournisseur RTC qu’il est autorisé à afficher l’identification de l’appelant à partir d’un autre emplacement géographique pour un appel délégué (au nom de). 
  
-## <a name="more-information"></a>Plus d’informations
+## <a name="more-information"></a>More information
 
 [Partager une ligne téléphonique avec un délégué](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
