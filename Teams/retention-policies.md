@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 6779e9b0fa236b1c239f9e6aa56d97e9437fb422
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968325"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793520"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
 
@@ -28,7 +28,7 @@ Les conversations d’équipes sont permanentes et conservées définitivement p
 > [!NOTE]
 > Nous ne prenons pas encore en charge la configuration de la conservation des messages de canal privé. La conservation des fichiers partagés dans des canaux privés est prise en charge.
 
-Pour gérer les stratégies de rétention aux équipes, utilisez les paramètres et les applets de la section sécurité du centre de sécurité & conformité d’Office 365 sous**rétention**de la **gouvernance** > des données.
+Pour gérer les stratégies de rétention aux équipes, utilisez les paramètres et les applets de la section sécurité du centre de sécurité & conformité d’Office 365 sous**rétention**de la **gouvernance** > des informations.
 
 Les stratégies de rétention teams prennent en charge : 
     
@@ -41,7 +41,7 @@ Les stratégies de rétention Teams ne sont pas encore prises en charge :
 - Les stratégies de rétention avancées ne s’appliquent pas aux emplacements discussions et équipes des messages de canal
 - Durée de moins de 30 jours
 
-Les administrateurs peuvent configurer des stratégies de rétention distinctes pour les discussions privées d’équipes (1:1 ou 1 : nombreux messages de discussion) et équipes de canal. Dans de nombreux cas, une entreprise considère qu’il s’agit d’une plus grande responsabilité par le biais de messages de canal, qui sont généralement davantage des conversations relatives au projet. Définissez ces stratégies dans le centre de sécurité & conformité, **** > **rétention**de la gouvernance des données. Activez les **messages du canal équipes** et les **discussions d’équipe** , puis définissez les stratégies de rétention pour ces emplacements (également illustrées ci-dessous). 
+Les administrateurs peuvent configurer des stratégies de rétention distinctes pour les discussions privées d’équipes (1:1 ou 1 : nombreux messages de discussion) et équipes de canal. Dans de nombreux cas, une entreprise considère qu’il s’agit d’une plus grande responsabilité par le biais de messages de canal, qui sont généralement davantage des conversations relatives au projet. Définissez ces stratégies dans le centre de sécurité & conformité, **** > **rétention**de la gouvernance des informations. Activez les **messages du canal équipes** et les **discussions d’équipe** , puis définissez les stratégies de rétention pour ces emplacements (également illustrées ci-dessous). 
 
 Lorsque vous activez **les messages de canal teams**, vous pouvez spécifier les équipes auxquelles s’applique cette stratégie. Par exemple, pour les équipes X, Y et Z, l’administrateur peut définir les stratégies de suppression pour 1 an (en les sélectionnant individuellement) et appliquer une stratégie de suppression de 3 ans au reste des équipes. 
 

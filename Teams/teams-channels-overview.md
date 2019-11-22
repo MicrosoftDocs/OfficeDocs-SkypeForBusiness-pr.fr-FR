@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968055"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793390"
 ---
 > [!NOTE]
 > Passez en revue les informations suivantes pour mieux comprendre la conversation, les équipes, les canaux et les applications dans Teams. Ensuite, accédez à la fenêtre de [conversation, d’équipes, de canaux & les applications dans teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) pour parcourir la liste des décisions importantes pour le déploiement d’équipes.
@@ -46,6 +46,8 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
 
     - Les canaux sont des lieux où les conversations se produisent et la façon dont le travail est réellement réalisé. Les canaux peuvent être ouverts à tous les membres de l’équipe ou, si vous avez besoin d’un plus grand nombre de participants, ils peuvent être privés. Les canaux standard sont destinés aux conversations que [tous les membres](private-channels.md) d’une équipe peuvent participer et qui limitent la communication à un sous-ensemble de personnes d’une équipe.
     - Les canaux sont particulièrement utiles lorsque des applications incluant des onglets, des connecteurs et des robots y sont ajoutés, qui apportent une valeur ajoutée pour les membres de l’équipe. Pour en savoir plus, reportez-vous à la rubrique [applications, robots, & connecteurs dans teams](deploy-apps-microsoft-teams-landing-page.md).
+    
+Pour obtenir de l’aide sur les équipes et les canaux, voir [équipes et canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
 

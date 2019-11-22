@@ -18,16 +18,16 @@ f1keywords:
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573364"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793480"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le planificateur de réseaux pour Microsoft teams
 
-Le planificateur de réseaux est un nouvel outil disponible dans le centre d’administration Teams. Ce service est disponible en accédant au**Planificateur de réseaux**des **paramètres** > de l’organisation. En quelques étapes seulement, le planificateur de réseaux peut vous aider à déterminer et organiser les exigences réseau pour la connexion des utilisateurs Microsoft teams au sein de votre organisation. Lorsque vous fournissez les informations relatives à votre réseau et à l’utilisation des équipes, le planificateur réseau calcule la configuration requise pour le déploiement d’équipes et de la voix Cloud dans les emplacements physiques de votre organisation.
+Le planificateur de réseaux est un nouvel outil disponible dans le centre d’administration Teams. Vous pouvez le trouver en accédant **à** > Planner**Network Planner**. En quelques étapes seulement, le planificateur de réseaux peut vous aider à déterminer et organiser les exigences réseau pour la connexion des utilisateurs Microsoft teams au sein de votre organisation. Lorsque vous fournissez les informations relatives à votre réseau et à l’utilisation des équipes, le planificateur réseau calcule la configuration requise pour le déploiement d’équipes et de la voix Cloud dans les emplacements physiques de votre organisation.
 
 ![Capture d’écran du planificateur de réseaux](media/network-planner.png)
 

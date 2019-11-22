@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Cet article décrit la prise en charge du cycle de vie des salles Microsoft Teams.
-ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: a76fc10b2348b1ecd89a8beabc30c104e32ec13c
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675792"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793510"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Prise en charge de la version de l’application Microsoft teams
  
@@ -51,6 +51,7 @@ Le tableau suivant indique les versions recommandées et prises en charge de Win
 
 |Version  |Date de disponibilité   |État du support de Microsoft teams   |Version d’application minimum de Microsoft teams | Build recommandée du système d’exploitation  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |En cours de validation, <br/>Déconseillé|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |&#x2780; prises en charge, <br/>Recommandation  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Ignoré <br/>Déconseillé &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Pris en charge                             |4.1.22.0 |17134,191|

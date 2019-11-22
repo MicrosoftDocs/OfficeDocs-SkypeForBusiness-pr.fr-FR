@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570079"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793530"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publier des applications dans le catalogue d’applications client Microsoft teams
 =======================================================
@@ -45,13 +45,13 @@ Un package d’application teams est créé à l’aide de [teams App Studio](ht
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Accédez au catalogue des applications clientes.
 
-Démarrez le client Microsoft Teams, puis connectez-vous à l’aide de vos informations d’identification d’administrateur de service global ou Teams. À partir de Microsoft teams Store, sélectionnez la nouvelle section intitulée pour votre organisation spécifique (dans cet exemple, contoso). Les utilisateurs de votre organisation peuvent afficher les applications dans le catalogue et les installer pour les équipes dont ils sont membres.
+Démarrez le client Microsoft Teams, puis connectez-vous à l’aide de vos informations d’identification d’administrateur de service global ou Teams. Sélectionnez **applications** dans la partie gauche de l’application, puis sélectionnez la nouvelle section intitulée pour votre organisation spécifique (dans cet exemple, contoso). Les utilisateurs de votre organisation peuvent afficher les applications dans le catalogue et les installer pour les équipes dont ils sont membres.
 
 ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Ajouter une application au catalogue d’applications locataire
 
-1. Dans le Windows Store, sélectionnez **Télécharger un** > **chargement d’application personnalisé pour Contoso**.
+1. Dans la page **applications** , sélectionnez **Télécharger un** > **chargement d’application personnalisé pour Contoso**.
 
     ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ L’application sera révisée vers la version 2,0. Vous pouvez également suppr
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Utiliser le portail d’administration Office 365 pour gérer le catalogue des applications clientes
 
-Si vous avez des applications qui nécessitent des correctifs, vous pouvez désactiver temporairement les applications par le biais du portail d’administration Office 365. Sélectionnez **paramètres** > **services & compléments** > **Microsoft teams**. Outre les paramètres précédents, il existe désormais une section consacrée aux applications de votre entreprise. Vous pouvez sélectionner les applications que vous souhaitez activer ou désactiver.
+Si vous avez des applications qui nécessitent des corrections de bogues, vous pouvez désactiver temporairement les applications par le biais du > Centre d’administration 365 de Microsoft **teams** > , ainsi que les**stratégies d’autorisations** **applications** >  > <le nom de la stratégie, par exemple, « global (par défaut de l’organisation par défaut) » > les **applications clientes** > bloquer certaines applications et ajouter votre application à la liste.
 
 ![Capture d’écran du magasin d’applications teams montrant le catalogue d’applications.](media/private-app-store-teams-image05.png)
 
