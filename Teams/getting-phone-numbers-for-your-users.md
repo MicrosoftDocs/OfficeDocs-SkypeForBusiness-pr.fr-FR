@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros et transférer des numéros existants pour les équipes, et montrer les changements à vos utilisateurs. '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925285"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209200"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -45,7 +45,7 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
 
 ![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
     
-1. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **obtenir de nouveaux numéros**.
+1. Dans le volet de navigation de gauche, sélectionnez**numéros de téléphone** **vocaux** > , puis cliquez sur **Ajouter**.
 2. Entrez un nom pour la commande et, si vous le souhaitez, ajoutez une description.
 3. Sur la page emplacement et quantité, procédez comme suit :
     1. Dans **pays ou région**, sélectionnez un pays ou une région.
@@ -75,7 +75,7 @@ Dans le volet de navigation de gauche, accédez à**numéros de téléphone** **
     
 - Une fois que vous avez obtenu vos numéros de téléphone, vous devez attribuer un numéro à chacun de vos utilisateurs. Voir [affecter, modifier ou supprimer le numéro de téléphone d’un utilisateur](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- Vous pouvez utiliser la page **numéros de téléphone** dans le centre d’administration de Microsoft teams pour afficher la liste des numéros de téléphone disponibles dans la colonne numéro de **téléphone** , vérifier si le numéro de téléphone a été affecté dans la colonne **statut** et afficher l’emplacement du dossier Numéro de téléphone dans la colonne **emplacement** . 
+- Vous pouvez utiliser la page **numéros de téléphone** dans le centre d’administration de Microsoft teams pour afficher la liste des numéros de téléphone disponibles dans la colonne numéro de **téléphone** , vérifier si le numéro de téléphone a été affecté dans la colonne **statut** et afficher l’emplacement du numéro de téléphone dans la colonne **emplacement** . 
 
 > [!NOTE]
 > Si vous avez besoin d’obtenir plus de numéros de téléphone, [Contactez l’assistance téléphonique PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

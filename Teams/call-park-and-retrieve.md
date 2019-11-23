@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Utiliser le parc d’appels et la récupération pour mettre un appel en attente dans le service équipes du Cloud.
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517028"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209180"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -99,7 +99,7 @@ Si les utilisateurs ne peuvent pas voir le bouton parc ou récupérer :
 Si un utilisateur tente de récupérer un appel et échoue, vérifiez les points suivants :
 
 - Vérifier que l’utilisateur utilise le client teams ou un appareil/téléphone compatible teams
-- Regroupement : est-ce que l’utilisateur est membre du groupe de parc d’appels ?
+- Regroupement : il s’agit de l’utilisateur membre du groupe de parc d’appels, qui est basé sur le fait que la même stratégie de parc d’appels d’équipes est affectée. 
 - Mode île : le parc d’appels et la récupération ne sont pas disponibles en mode îlot d’équipe.
 - L’appel a déjà été récupéré ou arrêté.
 

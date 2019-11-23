@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c897a0833510689e8bd1100db5fdd3803d5fdc92
-ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
+ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753371"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209090"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -36,7 +36,7 @@ Microsoft teams est disponible pour les clients de bureau (Windows, Mac et Linux
 
 ## <a name="desktop-client"></a>Client de bureau 
 
-> [!Tip]
+> [!TIP]
 > Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
 
 Le client de bureau Microsoft teams est une application autonome qui est également [disponible dans Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams est disponible pour Windows (7 +), versions 32-bit et 64 bits, macOS (10.10 +) et Linux (au `.deb` `.rpm` format.). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. Sur Linux, les responsables de package tels que apt et yum essaient d’installer une configuration requise pour vous. Néanmoins, si ce n’est pas le cas, vous devez installer la configuration requise avant d’installer teams sur Linux.
@@ -171,10 +171,9 @@ Aucune option n'est actuellement disponible pour les administrateurs informatiqu
 
 Cet exemple de script qui doit s’exécuter sur des ordinateurs clients dans le contexte d’un compte d’administrateur élevé, crée une nouvelle règle de pare-feu entrant pour chaque dossier utilisateur trouvé dans c:\users. Lorsque Teams détecte cette règle, il permet d’empêcher l’application Teams d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs passent leur premier appel à partir de Teams. 
 
-```
-
+```powershell
 <#
-.Synopsis
+.SYNOPSIS
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
@@ -186,15 +185,11 @@ Cet exemple de script qui doit s’exécuter sur des ordinateurs clients dans le
 #Requires -Version 3
 
 $users = Get-ChildItem (Join-Path -Path $env:SystemDrive -ChildPath 'Users') -Exclude 'Public', 'ADMINI~*'
-if ($users.Length -gt 0)
-{
-    foreach ($user in $users)
-    {
+if ($null -ne $users) {
+    foreach ($user in $users) {
         $progPath = Join-Path -Path $user.FullName -ChildPath "AppData\Local\Microsoft\Teams\Current\Teams.exe"
-        if (Test-Path $progPath)
-        {
-            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue))
-            {
+        if (Test-Path $progPath) {
+            if (-not (Get-NetFirewallApplicationFilter -Program $progPath -ErrorAction SilentlyContinue)) {
                 $ruleName = "Teams.exe for user $($user.Name)"
                 "UDP", "TCP" | ForEach-Object { New-NetFirewallRule -DisplayName $ruleName -Direction Inbound -Profile Domain -Program $progPath -Action Allow -Protocol $_ }
                 Clear-Variable ruleName
@@ -203,5 +198,4 @@ if ($users.Length -gt 0)
         Clear-Variable progPath
     }
 }
-
 ```

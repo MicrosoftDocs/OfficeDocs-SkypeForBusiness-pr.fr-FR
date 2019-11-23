@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez comment utiliser les onglets intégrés et personnalisés pour inclure des fonctionnalités telles des conversations, des fichiers, des mappages, et plus encore.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516436"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209110"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Utiliser les onglets intégrés et personnalisés dans Microsoft Teams
 ==================================================
@@ -53,9 +53,9 @@ Les propriétaires et membres d'équipe peuvent ajouter d'autres onglets à un c
 
 ## <a name="develop-custom-tabs"></a>Développer des onglets personnalisés
 
-Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à teams ou partager avec le reste de la communauté. [Pour contrôler l’accès à votre onglet personnalisé](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) , vous pouvez configurer les groupes Office 365 appropriés.
+Outre les onglets intégrés, vous pouvez concevoir et développer vos propres onglets pour les intégrer à teams ou partager avec le reste de la communauté. [Pour contrôler l’accès à votre onglet personnalisé](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) , vous pouvez configurer les groupes Office 365 appropriés.
 
-Microsoft Developer’s Network fournit des [exemples](https://go.microsoft.com/fwlink/?linkid=855787) de code développés par Microsoft, que vous pouvez télécharger et [des instructions détaillées](https://go.microsoft.com/fwlink/?linkid=855786) pour la création et la création de vos propres onglets.
+Microsoft Developer’s Network fournit des [exemples](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) de code développés par Microsoft, que vous pouvez télécharger et [des instructions détaillées](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) pour la création et la création de vos propres onglets.
 
 ![Capture d'écran d'un onglet personnalisé d'exemple dans Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 
