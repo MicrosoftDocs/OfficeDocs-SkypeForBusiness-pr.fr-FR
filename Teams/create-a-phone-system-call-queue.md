@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: fc7cc9558036d30d388a279ac155fe6382e611a8
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37972495"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211952"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -105,7 +105,7 @@ Pour commencer à utiliser les files d’attente d’appels, il est important de
 
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Étape 2 : Obtient ou transfère des numéros de service gratuits ou payants
 
-Pour pouvoir créer et configurer vos files d’attente d’appels, vous devez obtenir ou transférer vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu les numéros**** > **de téléphone de** > service gratuits ou payants, ils s’affichent dans le centre > d' **administration Microsoft teams**et le **type de numéro** apparaît comme suit :**** **Service : numéro gratuit**. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou pour transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Pour pouvoir créer et configurer vos files d’attente d’appels, vous devez obtenir ou transférer vos numéros de service gratuits ou payants existants. Une fois que vous avez obtenu**les numéros de** téléphone de service gratuits ou payants, ils s’affichent dans les >**numéros** > de téléphone > **vocaux** > du **Centre d’administration Microsoft teams**et le **type de numéro** est répertorié en tant que **service,** gratuit. Pour obtenir vos numéros de service, reportez-vous à la rubrique [obtention de numéros de service](getting-service-phone-numbers.md) ou, si vous souhaitez transférer un numéro de service existant, reportez-vous à la section transférer des [numéros de téléphone vers Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 > [!NOTE]
 > Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour plus d’informations sur la [gestion des numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , voir gérer les numéros de téléphone situés en dehors des États-Unis.
@@ -222,6 +222,10 @@ Pour accéder à l’option d’annulation, les agents peuvent procéder comme s
 
     > [!NOTE]
     > Les agents qui utilisent des applications ou des points de terminaison autres que le bureau Skype entreprise peuvent accéder à l’option d’annulation [https://aka.ms/cqsettings](https://aka.ms/cqsettings)du portail des paramètres utilisateur.
+    >
+    > Si les agents se trouvent dans des clients de bureau Microsoft Teams, ils peuvent refuser l’appel en utilisant les paramètres d’appel. 
+
+![capture d’écran des paramètres d’appel en annulation](media/create-a-phone-system-call-queue-image1.png)
 
 ![Icône du numéro 2 qui référence une légende dans le](media/sfbcallout2.png)
 **paramètre alerte** de l’agent de capture d’écran précédent
@@ -321,7 +325,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
   - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

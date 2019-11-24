@@ -17,12 +17,12 @@ description: Découvrez comment gérer les appareils utilisés avec les équipes
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 06b85012adbf0967889e74fb5765b02c9b2ea18f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972455"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39211951"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "37972455"
 En tant qu’administrateur, vous gérez tous les appareils utilisés avec les équipes de votre organisation à partir du centre d’administration Microsoft Teams. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation, et effectuer des tâches telles que la mise à jour, le redémarrage et l’analyse des diagnostics pour les appareils. Vous pouvez également créer des profils de configuration et les affecter à un appareil ou à un groupe d’appareils. 
 
 ## <a name="what-devices-can-you-manage"></a>Quels appareils pouvez-vous gérer ?
-Les appareils doivent être certifiés pour les équipes et inscrits dans Teams. Un appareil est automatiquement inscrit la première fois qu’un utilisateur se connecte à teams sur l’appareil. Pour obtenir la liste des appareils certifiés gérables, reportez-vous à la section [conférences](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) téléphoniques et [téléphones de bureau](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
+Les appareils doivent être certifiés pour les équipes et inscrits dans Teams. Un appareil est automatiquement inscrit la première fois qu’un utilisateur se connecte à teams sur l’appareil. Pour obtenir la liste des appareils certifiés gérables, reportez-vous à la section [conférences](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16) téléphoniques et [téléphones de bureau](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34).
 
 > [!NOTE]
 > Si vous avez Microsoft Intune, les appareils sont automatiquement inscrits dans Intune. Après l’inscription d’un appareil, la conformité de l’appareil est confirmée et les stratégies d’accès conditionnel sont appliquées à l’appareil. 
