@@ -18,18 +18,18 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Utilisez Advisor for Teams (préversion) pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: 13c76c61a99869459c0dabcffedc45e06f6fd42e
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931812"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209190"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Microsoft Teams. Il évalue l’environnement de votre client Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams. Advisor for Teams crée ensuite une équipe de gestion des services (dans Teams), avec des canaux pour chaque charge de travail à déployer. Chaque charge de travail de l’équipe de gestion des services s’accompagne d’un plan complet du Planificateur qui comprend toutes les tâches de déploiement pour chaque charge de travail.  Ce plan du Planificateur vous permet d’affecter des tâches aux différentes personnes responsables de chaque phase du déploiement, à savoir le responsable du projet, les administrateurs de Teams et Office 365, les personnes en charge du support technique et votre équipe d’adoption et de préparation des utilisateurs. Chaque tâche de déploiement contient toutes les ressources et tous les conseils dont vous avez besoin pour la mener à bien.
+Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Microsoft Teams. Il évalue l’environnement de votre client Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams. Advisor for Teams crée ensuite une équipe Déploiement (dans Teams) avec des canaux pour chaque charge de travail à déployer. Chaque charge de travail de l’équipe Déploiement s’accompagne d’un plan complet du Planificateur qui comprend toutes les tâches de déploiement pour chaque charge de travail.  Ce plan du Planificateur vous permet d’affecter des tâches aux différentes personnes responsables de chaque phase du déploiement, à savoir le responsable du projet, les administrateurs de Teams et Office 365, les personnes en charge du support technique et votre équipe d’adoption et de préparation des utilisateurs. Chaque tâche de déploiement contient toutes les ressources et tous les conseils dont vous avez besoin pour la mener à bien.
 
 Advisor for Teams fait partie intégrante du [Centre d’administration Teams](https://admin.teams.microsoft.com). Pour commencer à utiliser Advisor for Teams, cliquez sur le bouton **Start** (Démarrer) dans le widget **Deploying Teams workload** (Déploiement de charge de travail Teams) situé dans le tableau de bord. Vous pouvez aussi accéder à **Planning** (Planification) > **Advisor** (Conseiller).
 
@@ -40,7 +40,7 @@ Advisor for Teams fait partie intégrante du [Centre d’administration Teams](h
 
 Vous n’avez pas besoin d’être administrateur de Teams pour utiliser Advisor for Teams. Toutes les personnes de votre organisation peuvent l’utiliser. Nous avons créé des autorisations spéciales pour permettre aux utilisateurs non administrateurs d’accéder à Advisor for Teams, même si ce conseiller figure dans le Centre d’administration Teams. En revanche, vous DEVEZ être administrateur de Teams, administrateur du service Teams ou administrateur général pour pouvoir ouvrir les évaluations de la préparation du client.
 
-À la première utilisation d’Advisor for Teams, une équipe de gestion des services est créée automatiquement dans Teams. Des canaux sont ajoutés pour chaque charge de travail que vous voulez déployer. 
+À la première utilisation de Advisor for Teams, une équipe déploiement sera créée automatiquement dans Teams. Des canaux sont ajoutés pour chaque charge de travail que vous voulez déployer. 
 
 
 ## <a name="available-advisor-for-teams-plans"></a>Plans Advisor for Teams disponibles
@@ -90,20 +90,20 @@ Chaque plan comprend une évaluation de la préparation du client dont vous pouv
 
 
 ### <a name="advisor-bot"></a>Bot Advisor
-Après avoir créé votre équipe de gestion des services, le bot Advisor affiche le message suivant.
+Une fois l’équipe déploiement créée, le bot Advisor affiche le message suivant.
 
->**Bienvenue dans votre équipe de gestion des services pour Microsoft Teams !**
+>**Bienvenue dans votre équipe déploiement pour Microsoft Teams !**
 >  
 >La finalité de cette équipe est de vous accompagner tout au long du déploiement de Teams dans votre organisation en mettant à votre disposition toutes les ressources dont vous avez besoin et en dotant l’équipe du projet d’un espace de collaboration. À chaque canal créé avec Advisor for Teams correspondent un plan du Planificateur étape par étape ainsi que d’autres ressources, comme une enquête utilisateurs Forms qui peut être utilisée tout au long de votre déploiement. Vous pouvez à tout moment revenir en arrière et examiner l’évaluation de la préparation du client ou ajouter d’autres plans de charge de travail à partir du Centre d’administration Teams. 
 > 
 >**Appel à l’action** 
 >- Si vous débutez avec Teams ou le Planificateur, consultez la [visite guidée Teams](https://teamsdemo.office.com/) et regardez les [vidéos de démarrage rapide du Planificateur](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
->- Retrouvez l’équipe de gestion des services dans Teams. Sélectionnez le canal de votre charge de travail (par exemple, Conversations, équipes, canaux et applications), puis sélectionnez l’onglet **Planificateur** pour commencer.
+>- Retrouvez l’équipe déploiement dans Teams. Sélectionnez le canal de votre charge de travail (par exemple, Conversations, équipes, canaux et applications), puis sélectionnez l’onglet **Planificateur** pour commencer.
 > 
 >Pour en savoir plus sur Advisor for Teams, consultez [Utiliser Advisor for Teams pour déployer Microsoft Teams](use-advisor-teams-roll-out.md).
 >
 > [!IMPORTANT]
-> Le bot Advisor for Teams sert uniquement à envoyer un message de bienvenue à votre équipe de gestion des services. Il ne recueille pas de données.
+> Le bot Advisor for Teams sert uniquement à envoyer un message de bienvenue à votre équipe déploiement. Il ne recueille pas de données.
 
 > [!IMPORTANT]
 > Le bot Advisor for Teams est activé par défaut. Ne le désactivez pas si vous utilisez ou envisagez d’utiliser Advisor for Teams.
@@ -113,30 +113,30 @@ Après avoir créé votre équipe de gestion des services, le bot Advisor affich
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Quelles sont les conditions d’octroi de licences pour Advisor for Teams ?
 Il n’existe pas de conditions d’octroi de licences particulières, outre la nécessité de disposer d’une licence Teams.
 
-### <a name="can-i-delete-the-service-management-team"></a>Puis-je supprimer l’équipe de gestion des services ?
-Une fois que votre équipe de gestion des services a été créée par Advisor for Teams, vous pouvez la gérer comme n’importe quelle autre équipe (et donc la supprimer). Notez cependant que si vous ne supprimez pas l’équipe à partir du Centre d’administration Teams, l’équipe sera présentée comme existante.
+### <a name="can-i-delete-the-deployment-team"></a>Puis-je supprimer l’équipe déploiement ?
+Une fois que votre équipe déploiement a été créée par Advisor for Teams, vous pouvez la gérer comme n’importe quelle autre équipe (et donc la supprimer). Notez cependant que si vous ne supprimez pas l’équipe à partir du Centre d’administration Teams, l’équipe sera présentée comme existante.
 
-### <a name="can-i-add-or-remove-channels-in-the-service-management-team"></a>Puis-je ajouter ou supprimer des canaux dans l’équipe de gestion des services ?
-Oui. Une fois que l’équipe de gestion des services est créée, vous pouvez gérer les canaux comme n’importe quelle autre équipe.
+### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Puis-je ajouter ou supprimer des canaux dans l’équipe déploiement ?
+Oui. Une fois l’équipe déploiement créée, vous pouvez gérer les canaux comme n’importe quelle autre équipe.
 
-### <a name="can-i-add-or-remove-project-team-members-in-the-service-management-team"></a>Puis-je ajouter ou supprimer des membres de l’équipe du projet dans l’équipe de gestion des services ?
-Oui. Une fois que l’équipe de gestion des services est créée, vous pouvez la gérer comme n’importe quelle autre équipe.
+### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>Puis-je ajouter ou supprimer des membres de l’équipe du projet dans l’équipe déploiement ?
+Oui. Une fois l’équipe déploiement créée, vous pouvez la gérer comme n’importe quelle autre équipe.
 
 ### <a name="can-i-modify-the-planner-plans"></a>Puis-je modifier les plans du Planificateur ?
-Oui. Une fois que votre équipe de gestion des services a été créée par Advisor for Teams, vous devez mettre à jour le plan du Planificateur de façon à optimiser le déploiement de Teams. Vous pouvez tout modifier (compartiments, tâches, détails des tâches) comme n’importe quel autre plan du Planificateur.
+Oui. Une fois que votre équipe déploiement a été créée par Advisor for Teams, vous devez mettre à jour le plan du Planificateur de façon à optimiser le déploiement de Teams. Vous pouvez tout modifier (compartiments, tâches, détails des tâches) comme n’importe quel autre plan du Planificateur.
 
 
 ### <a name="can-i-modify-the-forms-survey"></a>Puis-je modifier l’enquête Forms ?
-Oui, une fois que votre équipe de gestion des services a été créée par Advisor for Teams, vous pouvez modifier l’enquête Forms selon vos besoins.
+Oui, après création de votre équipe déploiement par Advisor for Teams, vous pouvez modifier l’enquête Forms selon vos besoins.
 
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Quelles informations Advisor for Teams recueille-t-il sur mon organisation ?
 Advisor for Teams vous demande l’autorisation de recueillir des données autres que des informations d’identification d’utilisateur final. Les informations recueillies se présentent sous forme de données de télémétrie qui permettent à Microsoft de déterminer la contribution d’Advisor for Teams au succès de ses clients ainsi que les points susceptibles d’être améliorés. Ces mêmes données servent à identifier les possibilités pour Microsoft de collaborer de manière proactive avec votre organisation pour faciliter le déploiement.
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Puis-je utiliser Advisor for Teams avec FastTrack ?
-Oui, FastTrack met à profit Advisor for Teams pour tous les clients désireux de déployer Teams. Ils peuvent vous aider dans le cadre de la configuration initiale de votre équipe de gestion des services avec Advisor for Teams (si nécessaire) et offrent un support à la demande sur des questions spécifiques pendant votre déploiement de Teams.
+Oui, FastTrack met à profit Advisor for Teams pour tous les clients désireux de déployer Teams. Ils peuvent vous aider dans le cadre de la configuration initiale de votre équipe déploiement avec Advisor for Teams (si nécessaire) et offrent un support à la demande sur des questions spécifiques pendant le déploiement de Teams.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Puis-je utiliser Advisor for Teams avec un partenaire ?
-Oui, vous pouvez utiliser Advisor for Teams même si vous déployez Teams avec le concours d’un partenaire de déploiement. Si votre partenaire est un fournisseur de solutions Cloud et gère votre client en votre nom, il peut utiliser Advisor for Teams pour créer votre équipe de gestion des services et vous aider à exécuter le projet global. De plus, vous pouvez collaborer avec n’importe quel partenaire et ajouter des personnes à votre équipe de gestion des services en tant qu’invités, ce qui leur permettra de participer en tant que membre à part entière de l’équipe du projet.
+Oui, vous pouvez utiliser Advisor for Teams même si vous déployez Teams avec le concours d’un partenaire de déploiement. Si votre partenaire est un fournisseur de solutions cloud et gère votre client en votre nom, il peut utiliser Advisor for Teams pour créer votre équipe déploiement et vous aider à exécuter le projet total. De plus, vous pouvez collaborer avec n’importe quel partenaire et ajouter des personnes à votre équipe déploiement en tant qu’invités, ce qui leur permettra de participer en tant que membre à part entière de l’équipe du projet.
 
 ### <a name="how-do-i-use-planner"></a>Comment utiliser le Planificateur ?
 Consultez l’[aide du Planificateur Microsoft](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) et les [vidéos de démarrage rapide du Planificateur](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
