@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: Consultez cette rubrique pour en savoir plus sur le déploiement de salles de Microsoft teams à des déploiements à grande échelle.
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573626"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218031"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de System Center Configuration Manager
 
@@ -633,7 +650,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
        -   Modifiez cette étape et mettez à jour les paramètres de ligne de commande pour spécifier votre **ID d’espace de travail** et votre **espace de travail**.
        -   Pour plus d’informations sur l’obtention de l’ID d’espace de travail de la suite de gestion des opérations et de la clé primaire, voir [configurer des périphériques de test pour la surveillance Azure](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) .
        -   Assurez-vous que le **service SRS v2 – Microsoft Analysis agent** et **désactivez la redirection de système de fichiers 64 bits** est sélectionné.
-       -   Pour plus d’informations sur la surveillance de l’état du déploiement de Microsoft Teams, reportez-vous à la rubrique planification de la [gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-plan.md), déploiement de la [gestion des salles Microsoft](azure-monitor-deploy.md) [ Appareils de salle d’équipe avec Azure Monitor](azure-monitor-manage.md).
+       -   Pour plus d’informations sur la surveillance de l’état du déploiement de Microsoft Teams, reportez-vous à la rubrique planification de la [gestion des salles de Microsoft teams avec](azure-monitor-plan.md)Azure Monitor, déploiement de la [gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-deploy.md) et [gestion des appareils Microsoft teams avec Azure Monitor](azure-monitor-manage.md).
 
    11. **Copier les fichiers de configuration de SRS v2**: cette étape copie les fichiers d’installation et de configuration requis du kit de déploiement de Microsoft teams sur le disque dur local. Aucune personnalisation n’est requise pour cette étape.
        -   Vérifiez que le **package d’application SRS pour le service SRS** et la **désactivation de la redirection de système de fichiers 64 bits** sont sélectionnés.

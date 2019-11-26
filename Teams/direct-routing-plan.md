@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572145"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257473"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -264,7 +264,7 @@ Le tableau ci-dessous résume les relations entre les centres de donneaux princi
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Trafic multimédia : plages de ports
-Notez que les conditions suivantes s’appliquent si vous souhaitez déployer le routage direct sans dérivation multimédia. Pour connaître la configuration requise pour le pare-feu, consultez [la rubrique planification pour le contournement du média avec le routage direct](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+Notez que les conditions suivantes s’appliquent si vous souhaitez déployer le routage direct sans dérivation multimédia. Pour connaître la configuration requise pour le pare-feu, consultez [la rubrique planification pour le contournement du média avec le routage direct](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
 
 
 
@@ -287,9 +287,8 @@ Le tableau suivant indique la portée de port des processeurs multimédias :
 
 |**Trafic**|**De**|**À**|**Port source**|**Port de destination**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processeur de média|SBC|49 152 – 53 247|Définie sur l’SBC|
-|UDP/SRTP|SBC|Processeur de média|Définie sur l’SBC|49 152 – 53 247|
-|
+|UDP/SRTP|Processeur de média|SBC|49152 – 53247|Définie sur l’SBC|
+|UDP/SRTP|SBC|Processeur de média|Définie sur l’SBC|49152 – 53247|
 
   > [!NOTE]
   > Microsoft recommande au moins deux ports par appel simultané sur l’SBC.

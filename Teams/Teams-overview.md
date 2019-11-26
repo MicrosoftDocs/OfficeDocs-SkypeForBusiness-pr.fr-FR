@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290844"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209060"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à commencer avec Teams, commencez avec [Comment mettre en place Teams](How-to-roll-out-teams.md).
@@ -83,7 +83,7 @@ Lorsque vous choisissez les applications et services Office 365 que vous allez 
 
 - **OneDrive Entreprise** pour stocker des fichiers et les partager avec les personnes qu'un utilisateur invite. Le contenu qu'un utilisateur enregistre dans OneDrive Entreprise est privé jusqu’à ce qu’il le partage avec d’autres personnes, ce qui en fait la meilleure option pour stocker les documents personnels et d’ébauche qui ne sont pas destinés ou prêts à être partagés.
 
-- **Yammer** pour connecter les personnes de l’organisation. Proposez des initiatives à l’échelle de l’entreprise, partagez les meilleures pratiques et créez des communautés autour de sujets d’intérêt, domaines ou pratiques communs. Échangez des idées pour favoriser des discussions ouvertes avec les personnes de l’entreprise.
+- **Yammer** pour connecter les personnes de l’organisation. Proposez des initiatives à l’échelle de l’entreprise, partagez les meilleures pratiques et créez des communautés autour de sujets d’intérêt ou de domaines de prédilection communs. Échangez des idées pour favoriser des discussions ouvertes avec les personnes de l’entreprise.
 
 - Les **applications Office** sont tous les outils familiers que les personnes connaissent et utilisent régulièrement, incluant Word, Excel, PowerPoint et OneNote. 
 

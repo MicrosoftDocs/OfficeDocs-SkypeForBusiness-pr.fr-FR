@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Pour plus d’informations sur l’utilisation de la méthode de contournement multimédia avec le routage direct du système téléphonique, lisez cette rubrique.
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572156"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257483"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -145,15 +145,15 @@ La plage d’adresses IP est 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.
 
 - Les relais de transport ne sont pas B2BUA, ce qui signifie que le codec n’est jamais changé entre le client et l’SBC, même si le trafic est transmis via des relais.
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Utilisation de relais de transport d’équipes dans des scénarios d’escalade si le protocole Trunk est configuré pour une dérivation multimédia
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Utilisation de médias multimédias teams si Trunk est configuré pour la dérivation multimédia
 
-Les relais de transport d’équipes sont toujours dans le chemin multimédia dans les scénarios suivants :
+Les processeurs multimédias teams sont toujours insérés dans le chemin multimédia dans les cas suivants :
 
 - Appel transféré de 1:1 vers un appel de groupe
 - Appel vers un utilisateur d’équipes fédérées
 - Appel transféré ou transféré vers un utilisateur Skype entreprise
 
-Assurez-vous que votre SBC a accès aux relais de transport comme décrit ci-dessous.    
+Assurez-vous que votre SBC a accès aux processeurs multimédias et aux plages de relais de transport comme décrit ci-dessous.    
 
 
 ## <a name="sip-signaling-fqdns"></a>Signalisation SIP : noms de domaine complets
@@ -243,7 +243,7 @@ Le trafic multimédia entre le client SBC et teams est disponible si la connecti
 
 Le client doit avoir accès aux ports spécifiés (voir table) sur l’adresse IP publique de l’SBC. 
 
-Remarque : si le client se trouve dans un réseau interne, le média est transmis à l’adresse IP publique de l’SBC. Vous pouvez configurer Hairpinning sur votre appareil NAT de sorte que le trafic ne reste jamais sur l’équipement réseau d’entreprise.
+Remarque : si le client se trouve dans un réseau interne, le média est transmis à l’adresse IP publique de l’SBC. Vous pouvez configurer l’épinglage des cheveux sur votre appareil NAT pour que le trafic ne reste jamais sur l’équipement réseau d’entreprise.
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
