@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies de routage des appels d’urgence pour la fonctionnalité de E911 dynamique dans Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570653"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615804"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "37570653"
 
 Si vous avez déployé le routage direct du système téléphonique au sein de votre organisation, vous pouvez utiliser les stratégies d’acheminement des appels d’urgence de Microsoft teams pour configurer les numéros d’urgence et spécifier le mode de routage des appels d’urgence. Une stratégie d’acheminement des appels d’urgence détermine si les services d’urgence améliorés sont activés pour les utilisateurs auxquels la stratégie est affectée, les numéros utilisés pour appeler les services d’urgence (par exemple, 911 aux États-Unis) et comment les appels vers les services d’urgence sont routés.
 
-Vous gérez les stratégies d’acheminement des appels d’urgence en accédant à**stratégies d’urgence** **vocale** > dans le centre d’administration Microsoft teams ou à l’aide de Windows PowerShell. Elles peuvent être attribuées à des utilisateurs et des [sites réseau](location-based-routing-terminology.md).
+Vous gérez les stratégies d’acheminement des appels d’urgence en accédant à**stratégies d’urgence** **vocale** > dans le centre d’administration Microsoft teams ou à l’aide de Windows PowerShell. Elles peuvent être attribuées à des utilisateurs et des [sites réseau](cloud-voice-network-settings.md).
 
 Pour les utilisateurs, vous pouvez utiliser la stratégie globale par défaut de l’organisation ou créer et attribuer des stratégies personnalisées. Les utilisateurs bénéficieront automatiquement de la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Gardez à l’esprit que vous pouvez modifier les paramètres de la stratégie globale, mais que vous ne pouvez pas les renommer ou les supprimer. Pour les sites réseau, vous créez et attribuez des stratégies personnalisées.
 

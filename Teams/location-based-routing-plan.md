@@ -3,7 +3,6 @@ title: Planifier le routage géodépendant pour le routage direct
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570687"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615814"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planifier le routage géodépendant pour le routage direct
 
@@ -49,7 +48,7 @@ Lorsqu’un utilisateur de teams est activé pour le routage géolocalisation, l
 
 Le routage basé sur l’emplacement utilise les mêmes zones de réseau, de site et de sous-réseau que celles utilisées par Skype entreprise Server. Lorsque le contournement du péage est limité à un emplacement, un administrateur associe chaque sous-réseau IP et chaque passerelle PSTN pour cet emplacement à un site réseau. L’emplacement d’un utilisateur est déterminé par le sous-réseau IP auquel sont connectés les points de terminaison teams de l’utilisateur au moment de l’appel RTC. Un utilisateur peut avoir plusieurs clients teams situés sur différents sites, dans lesquels le routage de l’emplacement selon l’emplacement applique le routage de chaque client séparément selon l’emplacement de son point de terminaison. 
 
-Pour vous familiariser avec la terminologie du réseau utilisée dans cet article, voir [terminologie du routage basée sur l’emplacement](location-based-routing-terminology.md).
+Pour vous familiariser avec la terminologie du réseau utilisée dans cet article, consultez la rubrique [paramètres réseau pour les fonctionnalités vocales dans teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Appliquer le routage par emplacement
 
@@ -72,7 +71,7 @@ Les sites réseau doivent être activés pour le routage basé sur l’emplaceme
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Appliquer le routage géolocalisation sur la passerelle RTC 
 
-Les passerelles sont associées à des sites pour déterminer à quel emplacement un utilisateur est autorisé à utiliser le routage sur l’emplacement pour passer ou recevoir un appel RTC. Les passerelles doivent être activées pour le routage par emplacement pour s’assurer qu’elles sont soumises à des restrictions de contournement de type et ne peuvent pas être utilisées par les utilisateurs qui ne sont pas autorisés à utiliser le routage par emplacement. La même passerelle peut être associée à plusieurs sites et peut être configurée pour être activée pour le routage au niveau de l’emplacement ou non activée pour le routage par emplacement, en fonction du site. 
+Les passerelles sont associées à des sites pour déterminer à quel emplacement un utilisateur est autorisé à utiliser le routage sur l’emplacement pour passer ou recevoir un appel RTC. Les passerelles doivent être activées pour le routage par emplacement pour s’assurer qu’elles sont soumises à des restrictions de contournement de type et ne peuvent pas être utilisées par les utilisateurs qui ne sont pas autorisés à utiliser le routage par emplacement. La même passerelle peut être associée à plusieurs sites et peut être configurée pour être activée pour le routage au niveau de l’emplacement ou non activée pour le routage par emplacement, en fonction du site.
 
 ## <a name="scenarios-for-location-based-routing"></a>Scénarios de routage géodépendant
 
@@ -250,8 +249,10 @@ Le routage basé sur l’emplacement n’est pas applicable aux types d’intera
 Un utilisateur de routage basé sur l’emplacement à l’aide d’un appel RTC n’est pas autorisé à démarrer une conférence avec un autre utilisateur ou numéro RTC. La connexion aux standards automatiques ou aux files d’attente d’appels est autorisée. Si l’utilisateur dispose d’une licence de conférence, l’utilisateur doit commencer une conférence avec les utilisateurs concernés et appeler le RTC via le pont de conférence pour démarrer une conférence téléphonique.  
 
 ## <a name="next-steps"></a>Étapes suivantes
+
 Accédez à [configurer les paramètres réseau pour le routage selon l’emplacement](location-based-routing-configure-network-settings.md).
 
-### <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Voir aussi
+
 - [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
-- [Terminologie du routage géodépendant](location-based-routing-terminology.md)
+- [Paramètres réseau pour les fonctionnalités vocales de Cloud dans teams](cloud-voice-network-settings.md)
