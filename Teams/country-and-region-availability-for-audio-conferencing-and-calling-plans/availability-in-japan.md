@@ -24,21 +24,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Japon.
-ms.openlocfilehash: 47e86841f26ff5ac31cbffcf1965efc299007830
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8607d2d8df9bda17d725784413751e268ba7ec70
+ms.sourcegitcommit: 2fa1ac1c23804749fb1e16af3d6fb191f0f20784
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571691"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631974"
 ---
 # <a name="availability-in-japan"></a>Disponibilité au Japon
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ou renseignez-vous sur la disponibilité des forfaits d'appels et d'audioconférence selon les régions et les pays.
 
 Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Japon.
-
-> [!IMPORTANT]
-> L’utilisation de SoftBank pour les appels au Japon n’est actuellement disponible que pour les premiers décideurs (EA).
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
