@@ -114,7 +114,8 @@
 ## [Gérer les paramètres de réunions](meeting-settings-in-teams.md)
 ## [Messages électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Autoriser les utilisateurs à enregistrer leur nom lorsqu’ils rejoignent une réunion](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-## [Activer ou désactiver les annonces d’entrée et de sortie de réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Activer ou désactiver les annonces d’entrée et de sortie des réunions](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Réunions Teams sur les navigateurs non pris en charge](unsupported-browsers.md)
 ## [Configurer le partage de bureau dans Teams](configure-desktop-sharing.md)
 ## [Enregistrement de réunion cloud Teams](cloud-recording.md)
 ## [Utiliser le complément Réunion Teams dans Outlook](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [Configurer un contrôleur de frontière de session pour plusieurs clients](direct-routing-sbc-multiple-tenants.md)
 ### [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
 ### Routage géodépendant
-#### [Terminologie du routage géodépendant](location-based-routing-terminology.md)
 #### [Planifier le routage géodépendant pour le routage direct](location-based-routing-plan.md)
 #### [Configurer les paramètres de réseau pour le routage géodépendant](location-based-routing-configure-network-settings.md)
 #### [Activer le routage géodépendant pour le routage direct](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 ### [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 ### [Ajouter et mettre à jour les étiquettes de rapport](learn-more-about-site-upload.md)
+
+## Paramètres réseau et topologie
+### [Paramètres réseau pour les fonctionnalités voix Cloud](cloud-voice-network-settings.md)
+### [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)
+
 ## Appel d’urgence
-### [Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)
+### [Vue d’ensemble](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)
 ### Gérer les adresses d’urgence
-#### [Que sont les emplacements, les lieux et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 #### [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 #### [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)

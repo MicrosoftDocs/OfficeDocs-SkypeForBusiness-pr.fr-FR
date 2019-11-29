@@ -13,17 +13,17 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
+ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570723"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621272"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Formation dirigée par un instructeur pour Microsoft Teams</h1>
-Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams. Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. Pour afficher nos cours de formation à votre rythme, consultez notre <a href="https://aka.ms/TeamsOnDemand">formation pour les utilisateurs finaux à la demande</a>.<br><br>Cliquez sur une session ci-dessous pour vous inscrire.
+Microsoft a le plaisir d’héberger une série de classes de formation gratuites en ligne. Elles sont conçues pour aider à vous mettre en marche avec Teams.  Si vous êtes un décideur d’entreprise, d’administration, un professionnel de l’informatique ou utilisateur final, vous trouverez une classe adaptée à vos besoins. Vous ne savez pas par où commencer ? Passez notre <a href="https://aka.ms/TeamsKnowledgeCheck">vérification des connaissances Teams</a>. Rejoignez-nous pour découvrir Teams en action, obtenir des réponses à vos questions et interagir avec nos instructeurs en direct. Pour afficher nos cours de formation à votre rythme, consultez notre <a href="https://aka.ms/TeamsOnDemand">formation pour les utilisateurs finaux à la demande</a>.<br><br>Cliquez sur une session ci-dessous pour vous inscrire.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
