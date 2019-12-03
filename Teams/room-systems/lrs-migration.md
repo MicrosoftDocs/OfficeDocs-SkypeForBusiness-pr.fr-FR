@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Consultez cette rubrique pour découvrir comment migrer des appareils de système de salle Lync pour utiliser le logiciel de salle Microsoft Teams.
-ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675358"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669272"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migration de périphériques LRS (Lync Room System) vers des salles Microsoft teams
 
@@ -25,7 +25,7 @@ Les appareils LRS (Lync Room System) avec le logiciel Skype Room System version 
 
 Le logiciel de salle Microsoft teams fonctionne avec Microsoft teams en plus de Skype entreprise Server et services en ligne pour les réunions et les appels sur tous les appareils Microsoft teams compatibles pris en charge.
 
-Vos **appareils existants** continuent à fonctionner après la fin de la prise en charge des logiciels de la version v1 du système de salle Skype. Toutefois, si ce logiciel rencontre un bogue logiciel qui nécessite Microsoft pour publier un correctif, il ne sera pas pris en charge. SRS v1 utilise TLS 1.0/1,1 qui sera déconseillé par Microsoft dans le futur. Vous pouvez en savoir plus sur la [préparation de la désapprobation TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). La prise en charge de TLS 1,2 par Microsoft teams est prise en charge jusqu’au 31 octobre 2018. Les clients locaux Skype entreprise ne peuvent pas désactiver TLS 1.0/1.1 tant que Microsoft Teams ne annonce pas la prise en charge de TLS 1,2, quelles que soient les recommandations générales relatives à la désactivation de TLS 1.0/1.1.
+Vos **appareils existants** continuent à fonctionner après la fin de la prise en charge des logiciels de la version v1 du système de salle Skype. Toutefois, si ce logiciel rencontre un bogue logiciel qui nécessite Microsoft pour publier un correctif, il ne sera pas pris en charge. SRS v1 utilise TLS 1.0/1,1 qui sera déconseillé par Microsoft dans le futur. Vous pouvez en savoir plus sur la [préparation de la désapprobation TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
 
 ## <a name="which-devices-are-affected"></a>Quels appareils sont concernés ?
 
@@ -57,8 +57,6 @@ Pour les clients intelligents de LRS, à l’exception du programme d’échange
 
 Nous vous conseillons de planifier la mise à jour des périphériques du système de salle Lync vers les salles de votre application avant TLS 1.0/1.1 à l’aide des options de mise à niveau mentionnées ci-dessus. Par ailleurs, vous pouvez également envisager de remplacer des appareils existants par de nouveaux appareils certifiés pour les salles Microsoft Teams. Pour plus d’informations, consultez la section [périphériques de salle](https://aka.ms/roomdevices) et prenez en revue la [Configuration requise pour Microsoft teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
-> [!NOTE]
-> La fonctionnalité d’interaction et de tableau blanc n’est pas encore prise en charge dans Microsoft Teams. La prise en charge des entrées et des tableaux blancs est actuellement prévue pour les salles Microsoft teams et sera ajoutée à 2019.
 
 > [!NOTE]
 > Le logiciel de salles de Microsoft teams prend en charge le protocole TLS 1,2 au 14 décembre 2018 avec la version 4.0.64.0. Pour les clients sur site, l’activation de la communication via TLS 1,2 pour les salles Microsoft teams nécessite Skype entreprise Server 2015 cumulative Update 9 (CU9) ou Skype entreprise Server 2019 cumulative update 1 (CU1). Le changement ne devrait pas affecter les clients de Skype entreprise Online, car les modifications apportées au client sont conformes et en amont.

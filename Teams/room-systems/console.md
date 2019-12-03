@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit la configuration de la console salles de Microsoft teams et de ses périphériques.
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675772"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665437"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console de salle Microsoft teams
 
@@ -45,6 +45,9 @@ L’installation de l’application Microsoft teams salle console nécessite un 
 
 > [!NOTE]
 > Le processus ci-dessous consiste à créer un support d’installation pour l’image des nouveaux appareils Microsoft Teams. Par défaut, les appareils existants sont automatiquement mis à jour à partir de Windows Update et du Windows Store.
+
+> [!IMPORTANT]
+> Sur un ordinateur Windows 10, le média d’installation de Microsoft teams se trouve sur la même version ou une version ultérieure.
   
 1. Téléchargez le [script CreateSrsMedia. ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
