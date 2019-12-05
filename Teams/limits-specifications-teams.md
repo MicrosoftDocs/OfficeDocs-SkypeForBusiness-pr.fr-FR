@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231095"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679234"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -38,12 +38,13 @@ Cet article présente certaines limites, spécifications et autres configuration
 |Nombre d’équipes qu’un administrateur général peut créer        |  500 000   |
 |Nombre d’équipes que peut avoir un client Office 365    | 500,000&sup2;     |
 |Nombre de canaux par équipe    | 200 (y compris les canaux supprimés)&sup3;         |
+|Nombre de canaux privés par équipe    |30|
 
 & sup1 ; N’importe quel objet dans Azure Active Directory compte dans cette limite. Les administrateurs généraux sont exempts de cette limite, comme les applications appelant Microsoft Graph en utilisant des[autorisations d’application](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2;Cette limite inclut les équipes archivées.
+&sup2; Cette limite inclut les équipes archivées.
 
-&sup3;Les canaux supprimés peuvent être restaurés dans un délai de 30 jours. Pendant ces 30 jours, un canal supprimé continue d’être pris en compte dans la limite des 200 canaux par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de façon définitive et le canal n’est plus pris en compte dans la limite des 200 canaux par équipe.
+&sup3; Les canaux supprimés peuvent être restaurés dans un délai de 30 jours. Pendant ces 30 jours, un canal supprimé continue d’être pris en compte dans la limite des 200 canaux par équipe. Après 30 jours, un canal supprimé et son contenu sont supprimés de façon définitive et le canal n’est plus pris en compte dans la limite des 200 canaux par équipe.
 
 ## <a name="messaging"></a>Messagerie
 
@@ -58,9 +59,9 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 |Nombre de personnes dans une conversation privée<sup>1</sup>  | 100    |
 |Nombre de pièces jointes<sup>2</sup>  |10     |
 
-<sup>1</sup>Si plus de 20 personnes sont présentes dans une conversation, les fonctionnalités de conversation suivantes sont désactivées : réponses automatiques d’Outlook et messages d’état de Teams, indicateur de saisie, appels vidéo et audio, partage, confirmations de lecture.
+<sup>1</sup> Si plus de 1 personnes sont présentes dans une conversation, les fonctionnalités de conversation suivantes sont désactivées : réponses automatiques d’Outlook et messages d’état de Teams, indicateur de saisie, appels vidéo et audio, partage, confirmations de lecture.
 
-<sup>2</sup>Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
+<sup>2</sup> Si le nombre de pièces jointes dépasse cette limite, un message d’erreur s’affiche.
 
 ### <a name="emailing-a-channel"></a>Envoi d’un message électronique à un canal
 
@@ -73,9 +74,9 @@ Les conversations de Teams fonctionnent sur un serveur principal Microsoft Excha
 |Taille de chaque pièce jointe | Inférieur à 10 Mo |
 |Nombre d’images incorporées<sup>2</sup> |50   |
 
-<sup>1</sup>Si le message excède cette limite, un aperçu du message est généré et l’utilisateur est invité à télécharger et à afficher le message d’origine à partir du lien fourni.
+<sup>1</sup> Si le message excède cette limite, un aperçu du message est généré et l’utilisateur est invité à télécharger et à afficher le message d’origine à partir du lien fourni.
 
-<sup>2</sup>Si le nombre de pièces jointes ou d’images dépasse cette limite, un message d’erreur s’affiche.
+<sup>2</sup> Si le nombre de pièces jointes ou d’images dépasse cette limite, un message d’erreur s’affiche.
 
 Pour plus d’informations, voir [Limites d’Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
