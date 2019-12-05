@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lisez cet article pour rechercher des codes de pays de chemin d’accès multimédia pour le routage direct.
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572211"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837566"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Itinéraires directs du pays
 
@@ -46,7 +46,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre-MediaR
 | Les Samoa américaines  | PLUS |
 | Andorre         | AD |
 | Angola          | AO |
-| Anguilla        | & |
+| Anguilla        | Aï |
 | Antarctique      | CAPTURE | 
 | Antigua-et-Barbuda | GA |
 | Argentine       | AR |

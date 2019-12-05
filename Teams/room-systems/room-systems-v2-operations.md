@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675338"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842476"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -49,10 +49,10 @@ Configurez l’écran d’affichage en mode étendu. Cela permet de s’assurer 
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Réinitialisation des salles de Microsoft Teams (restauration d’usine)
 <a name="Reset"> </a>
 
-Si Microsoft Teams ne fonctionne pas correctement, il peut être utile d’effectuer une réinitialisation d’usine. Pour cela, vous pouvez utiliser l’application paramètres dans l’onglet **récupération** . sous **réinitialiser ce PC**, sélectionnez **commencer**, puis **supprimez tout**. Suivez les invites restantes pour réinitialiser l’appareil.
-  
+Si Microsoft Teams ne fonctionne pas correctement, il peut être utile d’effectuer une réinitialisation d’usine. Pour ce faire, utilisez l' [outil de récupération de salle de Microsoft teams](recovery-tool.md) , puis suivez les instructions de restauration d’usine.
+
 > [!NOTE]
-> Il existe un problème connu pour lequel les salles de Microsoft teams peuvent être désactivées si l’option **conserver mes fichiers-supprime des applications et des paramètres, mais** que vous avez sélectionné l’option conservation de vos fichiers personnels lors du processus de réinitialisation de Windows. N’utilisez _pas_ cette option.
+> Il existe un problème connu pour lequel les salles de Microsoft teams peuvent être désactivées si l’option **conserver mes fichiers-supprime des applications et des paramètres, mais** que vous avez sélectionné l’option conservation de vos fichiers personnels lors du processus de réinitialisation de Windows. N’utilisez *pas* cette option.
   
 ## <a name="supported-remote-options"></a>Options distantes prises en charge
 <a name="RemoteOptions"> </a>

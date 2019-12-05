@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour de Skype entreprise Server 2015/2019 et de Lync 2013 au même endroit. Utilisez les liens sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 86a08c798d04942dd517664bbfed0f67ba8ddc46
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714130"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837506"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -30,6 +30,7 @@ KB 4470124 est le maître d’opérations principal de Skype entreprise Server 2
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:--- |:--- |:--- |
+|Mise à jour cumulative 2 de Skype entreprise Server 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 décembre |
 |Correctif 1 pour Skype entreprise Server 2019 cumulative 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 septembre |
 |Mise à jour cumulative 1 Skype entreprise Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 juillet |
 | | | |
@@ -61,7 +62,7 @@ KB 4470124 est le maître d’opérations principal de Skype entreprise Server 2
 |Mise à jour cumulative 5 pour Skype entreprise Server 2015, serveur frontal et serveur Edge  |[Article 4012621](https://support.microsoft.com/kb/4012621) |Mai 2017 |
 |Mise à jour cumulative 4 Hotfix 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[KB 3207506](https://support.microsoft.com/kb/3207506) |Février 2017 |
 |Mise à jour cumulative 4 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3199093](https://support.microsoft.com/kb/3199093) |Novembre 2017 |
-|Mise à jour cumulative 3 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3149227](https://support.microsoft.com/kb/3149227) |Juin 2016 |
+|Mise à jour cumulative 3 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3149227](https://support.microsoft.com/kb/3149227) |juin 2016 |
 |Mise à jour cumulative 2 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3134260](https://support.microsoft.com/kb/3134260) |Mars 2016 |
 |Mise à jour cumulative 1 pour Skype entreprise Server 2015, serveur frontal et serveur Edge |[Article 3097645](https://support.microsoft.com/kb/3097645) |Novembre 2015 |
 |Mise à jour cumulative de Skype Entreprise Server 2015, composants principaux |[KB 3098601](https://support.microsoft.com/kb/3098601) |Septembre 2015 |

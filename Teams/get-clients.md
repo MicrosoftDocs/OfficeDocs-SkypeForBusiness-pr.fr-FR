@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 112ded66b0edb3dd3bd2251663a1081cea8889b6
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
+ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209090"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831597"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -102,6 +102,11 @@ Les administrateurs informatiques peuvent utiliser le déploiement géré de Tea
 ### <a name="linux"></a>*
 
 Les utilisateurs seront en mesure d’installer des packages Linux `.deb` natifs dans et `.rpm` formats.
+L’installation du package de DEB ou RPM installe automatiquement le référentiel de package.
+- DEB`https://packages.microsoft.com/repos/ms-teams stable main`
+- MINUTE`https://packages.microsoft.com/yumrepos/ms-teams` 
+
+La clé de signature permettant d’activer la mise à jour automatique à l’aide du gestionnaire de package du système est automatiquement installée. Il est toutefois également disponible à l’adresse suivante :https://packages.microsoft.com/keys/microsoft.asc)(. Microsoft teams est fourni chaque mois et si le référentiel a été correctement installé, le gestionnaire de package système doit gérer la mise à jour automatique de la même manière que les autres packages sur le système.
 
 > [!NOTE] 
 > Microsoft teams sur un client Linux est disponible en version d’évaluation limitée. Signaler des bogues à l’aide `Report a Problem` du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
