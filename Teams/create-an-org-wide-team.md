@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516649"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871720"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -81,3 +81,7 @@ S’il ne s’agit pas d’une option, vous pouvez utiliser PowerShell pour cré
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-org-wide-team"></a>Est-il possible de convertir une équipe existante en équipe au sein de l’Organisation ?
 
 Les administrateurs généraux peuvent convertir une équipe existante en équipe au sein de l’organisation en la modifiant dans le client Teams. Accédez au nom de l’équipe, cliquez sur **autres options** > **modifier l’équipe**.
+
+## <a name="see-also"></a>Voir aussi
+
+Regardez une vidéo sur la [création d’une équipe à l’échelle de l’entreprise dans Microsoft teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).

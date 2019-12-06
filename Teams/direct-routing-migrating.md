@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: 9fb644c938c61fd9dd1c78362ad90bfe855e97ec
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37572178"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871710"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -89,6 +89,8 @@ Nous vous recommandons de supprimer les informations sur le routage des communic
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> Si un CsVoiceRoutingPolicy global est configuré, il est recommandé de supprimer les utilisations RTC associées à cette stratégie globale. 
+
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration à partir du système téléphonique Office 365 avec une connectivité PSTN en local via Cloud Connector Edition 
 
 Pour plus d’informations sur la migration à partir du système téléphonique avec une connectivité PSTN en local via Cloud Connector, voir :

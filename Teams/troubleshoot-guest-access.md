@@ -15,18 +15,18 @@ description: Obtenez de l’aide pour résoudre les problèmes liés à l’acc�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311259"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871730"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résoudre les problèmes liés à l’accès invité dans Microsoft teams
 ======================================================
 
 > [!IMPORTANT]
-> Il est possible que les modifications ne prennent effet qu'après 24 heures. 
+> Il est possible que vous deviez attendre 24 heures pour que vos modifications soient prises en compte. 
 
 
 - Pour vérifier les problèmes de prise en charge de l’accès invité dans Microsoft Teams, voir [résolution des](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)problèmes liés aux équipes.
