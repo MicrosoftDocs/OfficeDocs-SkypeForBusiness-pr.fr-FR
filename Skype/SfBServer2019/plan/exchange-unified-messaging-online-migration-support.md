@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842466"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890578"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -99,7 +99,7 @@ Microsoft a identifié de nombreux déploiements de clients qui utilisent des fo
 
 ## <a name="auto-attendant-migration-guidelines"></a>Instructions de migration de standard automatique
 
-Les administrateurs de clients d’Office 365 sont obligés de recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Microsoft Cloud et de basculer leurs numéros de téléphone local vers eux avant le 1er février 2020, c’est-à-dire lorsque le service Exchange UMO sera hors. Il s’agit de la recommandations permettant de migrer et de tester correctement de nouveaux standards automatiques du Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique Exchange um pour les scripts de migration du standard automatique](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) dans le Cloud afin de simplifier la migration en bloc des standards automatiques.
+Les administrateurs de clients d’Office 365 sont obligés de recréer leurs standards automatiques de messagerie unifiée Exchange dans le service de standard automatique Microsoft Cloud et de basculer leurs numéros de téléphone local vers eux avant le 28 février 2020, c’est-à-dire lorsque le service Exchange UMO sera hors. Il s’agit de la recommandations permettant de migrer et de tester correctement de nouveaux standards automatiques du Cloud. Si vous avez un grand nombre de standards automatiques, vous pouvez utiliser le [standard automatique Exchange um pour les scripts de migration du standard automatique](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) dans le Cloud afin de simplifier la migration en bloc des standards automatiques.
 
 ### <a name="setup"></a>Installation
 

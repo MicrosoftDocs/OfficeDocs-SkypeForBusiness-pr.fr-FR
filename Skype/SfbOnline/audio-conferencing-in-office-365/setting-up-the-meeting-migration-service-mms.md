@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Le service de migration de réunion (MMS) est un service qui s’exécute en arrière-plan et qui met automatiquement à jour les réunions Skype entreprise et Microsoft teams pour les utilisateurs. MMS est conçu pour éviter aux utilisateurs d’exécuter l’outil de migration de réunion pour mettre à jour leurs réunions Skype entreprise et Microsoft Teams.
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772278"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890528"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utiliser le service de migration de réunion (MMS)
 
@@ -128,7 +128,7 @@ Outre la migration automatique de réunion, les administrateurs peuvent déclenc
 **SourceMeetingType:**
 - Utilisation `SourceMeetingType SfB` indique que seules les réunions Skype entreprise (locales ou en ligne) doivent être mises à jour.
 - L' `SourceMeetingType Teams` utilisation indique que seules les réunions d’équipes doivent être mises à jour.
-- L' `SourceMeetingType All` utilisation indique que les réunions d’entreprise et les réunions teams Skype doivent être mises à jour. Il s’agit de la valeur par défaut de SourceMeetingType.
+- Ce `SourceMeetingType All` qui signifie que les réunions Skype entreprise et équipes doivent être mises à jour. Il s’agit de la valeur par défaut de SourceMeetingType.
     
 
 L’exemple ci-dessous montre comment lancer la migration de réunion pour les utilisateurs de ashaw@contoso.com de sorte que toutes les réunions soient déplacées vers teams :
@@ -208,7 +208,7 @@ Si MMS est activé au sein de l’organisation et que vous voulez vérifier qu�
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
