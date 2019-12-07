@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563878"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886181"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -91,6 +90,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 | Module | Vidéo | Présentation PowerPoint |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft mécanique-teams Essentials pour canal YouTube informatique](https://aka.ms/MicrosoftTeamsforIT) | [Vidéo : notions de base de teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vidéo : déployer & configurer teams-Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 minutes)  ||
 | Structures-composants principaux | [Vidéo](https://aka.ms/teams-foundations) | [Support de présentation](https://aka.ms/teams-foundations-deck) |
 | Client de Bureau Windows | [Vidéo](https://aka.ms/teams-clients) | [Support de présentation](https://aka.ms/teams-clients-deck) |
 | Gouvernance, gestion et de cycle de vie | [Vidéo](https://aka.ms/teams-governance) | [Support de présentation](https://aka.ms/teams-governance-deck) |
