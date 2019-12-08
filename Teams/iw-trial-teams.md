@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679304"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871690"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
@@ -27,7 +27,7 @@ ms.locfileid: "39679304"
 L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. 
 
 > [!IMPORTANT]
-> L’essai cloud commercial de Microsoft Teams a été mis à jour pour inclure des plans de service additionnel pour accroître la fonctionnalité de Teams et est désormais possédé et contrôlé par l’administrateur de facturation de votre organisation. Ceci facilite la gestion de la version d’évaluation et permet de la rendre cohérente avec les autres offres Microsoft 365. 
+> L’essai du cloud commercial Microsoft Teams est remplacée par Microsoft Teams exploratoire à partir du 2020 janvier. Pour en savoir plus sur cette nouvelle offre, consultez [Gérer la licence exploratoire Teams](teams-exploratory.md).
 
 ## <a name="whats-in-the-offer"></a>Nouveautés dans l’application Power BI
 
