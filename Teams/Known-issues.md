@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78e5a420bdadf7417388aef48679b28e438aeec4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563886"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919156"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -37,7 +37,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/fr-FR/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Personnaliser la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|La stratégie EAF dans le kit de ressources pour une expérience de migration améliorée (EMET) peut identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. <br/> |Un problème a été identifié avec le sandbox Chromium, la stratégie de filtrage de l’accès à la table d’exportation des adresses (EAF) dans le kit de ressources pour une expérience de migration améliorée (EMET) et dans la protection avancée contre les menaces Windows Defender (ATP) pouvant identifier de manière incorrecte les optimisations du sandbox Chromium comme des menaces. Cela entraîne un fonctionnement incorrect de Teams.  <br/> | Pour résoudre ce problème, désactivez EAF pour Teams. Vous trouverez plus d'informations sur le problème dans les [Directives d’atténuation EMET](https://support.microsoft.com/fr-FR/help/2909257/emet-mitigations-guidelines) Pour des informations complémentaires sur Windows Defender ATP et la stratégie EAF, reportez-vous à la rubrique [Activer la protection contre les attaques](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -51,7 +51,7 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
-|L’[accès conditionnel](https://docs.microsoft.com/fr-FR/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, des restrictions d’adresse IP ou de navigateur), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
+|L’[accès conditionnel](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) peut ne pas fonctionner lors de l’utilisation de l’onglet « Site web » dans l’application de bureau.<br/> |Si un site web, tel qu’un portail intranet, est doté de stratégies d’accès conditionnel (par exemple, des restrictions d’adresse IP ou de navigateur), le site web peut ne pas s’afficher sous forme d’onglet dans Teams dans l’application de bureau. <br/> |Utilisez Teams dans un navigateur plutôt que dans l’application de bureau.  <br/> |01/07/18  <br/> |
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
@@ -173,7 +173,45 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |:-----|:-----|:-----|:-----|
 |Wiki non créé pour les canaux créés par les invités  <br/> |Lorsqu'un invité crée un nouveau canal, l'onglet **Wiki** n'est pas créé. Il n'existe pas de méthode pour joindre manuellement un onglet **Wiki** au canal. <br/> |Aucune solution.  <br/> |20/09/2017  <br/>|
 
-## <a name="meetings"></a>Réunions
+## <a name="linux"></a>Linux
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|AutoStart sur Linux ne fonctionne pas. <br/> |AutoStart sur Linux ne démarre pas l’application Teams. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Écran blanc lors de la reprise à partir de veille/suspension. <br/> |Lorsque votre ordinateur sort de veille ou de mode suspension, il peut y avoir un changement de réseau (en particulier lorsque l’ordinateur est connecté à un réseau privé virtuel avant d’être mis en veille/suspendu) et cela prend du temps pour que l’ordinateur récupère la connexion. La combinaison de ces éléments peut entraîner l’affichage d’un écran blanc pour Teams. <br/> |Redémarrer le client Teams peut aider.  <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Curseur manquant lors du partage de l’écran. <br/> |Pendant le partage de l’écran, l’autre partie ne voit pas le curseur de la personne qui partage l’écran. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Problème d’exécution en parallèle avec VMWare Workstation. <br/> |L’application Teams rencontre des problèmes lors de l’exécution en parallèle de VMWare Workstation. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Notifications KDE créent une nouvelle barre des tâches.<br/> |La notification sur KDE crée une nouvelle fenêtre dans la barre des tâches. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Les gestionnaires de package n’affichent pas ChangeList. <br/> |Le gestionnaire de package n’affiche pas ChangeList. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de démarrer le client Teams en mode hors connexion. <br/> |Impossible de démarrer Teams hors connexion dans le client Linux. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Paramètres des appareils pendant les réunions. <br/> |Lorsque vous vous trouvez dans une réunion et modifiez les paramètres de l’appareil, l’indicateur du microphone n’enregistre aucun élément récupéré. <br/> | <br/> |05/12/19  <br/>|
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Impossible de fermer l’application Teams à l’aide du clavier. <br/> |Impossible de fermer l’application Teams à l’aide de la `$mod + shift + q` par défaut ou en cliquant sur le bouton Fermer dans l’application. <br/> | <br/> |05/12/19  <br/>|
+
+## <a name="meetings"></a>Meetings
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
