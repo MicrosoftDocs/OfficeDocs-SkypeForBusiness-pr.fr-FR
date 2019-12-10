@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907155bea3b73252006f17a512a96123da4153e4
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290954"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886245"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -31,7 +31,9 @@ Pour commencer, regardez notre courte vidéo sur les conversations, équipes et 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*Nouveautés en novembre 2019*: vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour vous aider à déployer Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.
+*Nouveautés de novembre 2019*
+ - Vous pouvez désormais [utiliser Advisor pour Teams (préversion) pour faciliter le déploiement de Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams. Il évalue votre environnement Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.
+ - [Les indispensables de Microsoft Teams pour les canaux IT YouTube](https://aka.ms/MicrosoftTeamsforIT), y compris les vidéos courtes (8-10 minutes) qui montrent comment déployer, configurer et gérer Teams.
 
 > [!TIP]
 > Nous vous recommandons d’inclure nos applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, bots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
