@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de teams au sein de votre organisation.
-ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517008"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919368"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’identification d’appelant dans Microsoft teams
 
@@ -44,7 +44,7 @@ Vous pouvez modifier la stratégie globale ou créer et attribuer une stratégie
 4. À partir de cet emplacement, sélectionnez les paramètres de votre choix :
 
     - **Bloquer l’ID d’appelant entrant**: activez ce paramètre pour bloquer l’identification de l’appelant lors de l’affichage d’appels entrants.
-    - **Les utilisateurs peuvent ignorer la stratégie d’ID d’appelant**: activez ce paramètre pour permettre aux utilisateurs de remplacer les paramètres de la stratégie. Cela signifie que les utilisateurs peuvent choisir d’afficher leur ID d’appelant ou bloquer l’ID d’appelant d’un appel entrant.
+    - **Les utilisateurs peuvent ignorer la stratégie d’ID d’appelant**: activez ce paramètre pour permettre aux utilisateurs de remplacer les paramètres de la stratégie concernant l’affichage de leur numéro pour les appelants. Cela signifie que les utilisateurs peuvent décider d’afficher leur ID d’appelant.
     - **Remplacer l’identification**de l’appelant : définissez l’ID de l’appelant à afficher pour les utilisateurs en sélectionnant l’une des options suivantes :
 
         - **Numéro de**l’utilisateur : affiche le numéro de l’utilisateur. 

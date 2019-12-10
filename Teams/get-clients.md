@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 993b01e1ba362b6990c65f067ff2d63d921a1916
-ms.sourcegitcommit: 9d5a83dcb3d86f37cd7714ca92b197696681748b
+ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831597"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919146"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -109,7 +109,8 @@ L’installation du package de DEB ou RPM installe automatiquement le référent
 La clé de signature permettant d’activer la mise à jour automatique à l’aide du gestionnaire de package du système est automatiquement installée. Il est toutefois également disponible à l’adresse suivante :https://packages.microsoft.com/keys/microsoft.asc)(. Microsoft teams est fourni chaque mois et si le référentiel a été correctement installé, le gestionnaire de package système doit gérer la mise à jour automatique de la même manière que les autres packages sur le système.
 
 > [!NOTE] 
-> Microsoft teams sur un client Linux est disponible en version d’évaluation limitée. Signaler des bogues à l’aide `Report a Problem` du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
+> Si vous trouvez un bogue, envoyez- `Report a Problem` le à l’aide du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
+> Pour la prise en charge de Microsoft teams pour Linux, vous pouvez utiliser le canal de support du forumhttps://docs.microsoft.com/answers/topics/teams.htmlLinux sur Microsoft Q&A) []. N’hésitez pas à `teams-linux` utiliser la balise lors de la publication de questions. 
 
 #### <a name="install-teams-using-deb-package"></a>Installation d’équipes à l’aide d’une DEB
 

@@ -10,24 +10,25 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f51d443444c439d2d2e453805542282d8f55b7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c808c8a44a649a37f6d13d31538dd08797d56b24
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240946"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909450"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Applications, robots et connecteurs dans Microsoft Teams
 
 Les applications vous permettent de rechercher du contenu à partir de vos services favoris et de les partager directement dans Teams. Elles vous aident à effectuer des actions telles qu’épingler des services en haut d’un canal, de mener une conversation avec des robots, ou de partager et attribuer des tâches. Pour en savoir plus, voir [Vue d’ensemble sur les applications dans Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Nous vous recommandons d’inclure nos applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres applications, robots et connecteurs pour favoriser l’adoption des services Teams.
+
+Vous avez également la possibilité de créer vos propres applications personnalisées. Pour plus d’informations, consultez notre [documentation sur les développeurs](/microsoftteams/platform/overview).
 
 ## <a name="apps-deployment-decisions"></a>Décisions liées au déploiement des applications
 

@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Utilisez Advisor for Teams (préversion) pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209190"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909470"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
@@ -35,6 +35,8 @@ Advisor for Teams fait partie intégrante du [Centre d’administration Teams](h
 
 > [!IMPORTANT]
 > Advisor for Teams n’est pas disponible pour Microsoft 365 Government – Déploiements GCC High ou DoD.
+
+Consultez la rubrique sur Advisor for Teams dans cette vidéo d’[introduction sur le déploiement et la configuration de Teams](https://youtu.be/o2mlsUubIO4?t=44) (Advisor for Teams est traité à 0:50-3:15 minutes).
 
 ## <a name="using-advisor-for-teams-preview"></a>Utilisation d’Advisor for Teams (préversion)
 

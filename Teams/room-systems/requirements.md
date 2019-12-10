@@ -12,12 +12,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Cet article présente la configuration requise pour la prise en charge des salles de Microsoft Teams.
-ms.openlocfilehash: d0740146629a25ed5c8ccf72ac9977a7285764c4
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 7ee793ed806a99257e7941b7da0c14a3fb285111
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890588"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909440"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Configuration requise pour Microsoft teams
 
@@ -104,6 +104,7 @@ Ces appareils sont disponibles dans le [système de salle Showcase](https://prod
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
 |[Sennheiser SP30](https://en-us.sennheiser.com/sp-30)   |2.1.52  |
+|[Sennheiser SP30T](https://en-us.sennheiser.com/sp-30)  |3.2.63  |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
