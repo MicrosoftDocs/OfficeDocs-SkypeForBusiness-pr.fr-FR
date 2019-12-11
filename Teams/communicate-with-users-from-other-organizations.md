@@ -15,12 +15,12 @@ description: Découvrez comment communiquer avec des utilisateurs d’autres org
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665447"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966767"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams
 ======================================================
@@ -84,9 +84,9 @@ Si vous êtes prêt à activer l’accès invité au sein de votre organisation,
 <sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et soit connecté en tant qu’invité au client invité.<br>
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> La conversation externe (fédérée) est 1:1 uniquement.<br>
-<sup>4</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. *Ceci est une préversion ou une fonctionnalité d'une publication anticipée.*
+<sup>4</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Accès externe dans Teams](manage-external-access.md)
 

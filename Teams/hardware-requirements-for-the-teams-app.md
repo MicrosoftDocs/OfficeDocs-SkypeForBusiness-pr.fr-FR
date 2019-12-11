@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
-ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
+ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38670191"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966707"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -71,14 +71,8 @@ Toutes les exigences des sections suivantes s’appliquent à l’application de
 |Appareils    |   Caméra, micro et haut-parleurs pour ordinateur portable standard    | 
 |Audio    |  Micro et haut-parleurs compatibles, casque avec micro ou appareil équivalent       |
 |Appels et réunions vidéo | Pour une meilleure expérience des appels vidéo et des réunions en ligne, nous vous recommandons d’utiliser un ordinateur équipé d’un processeur cadencé à 2,0 GHz et d’une RAM 4,0 Go (ou une version ultérieure). L’effet de brouillage facultatif mon arrière-plan nécessite un processeur doté d’une prise en 2013 charge de la version 2 de AVX2 Voir recommandations en matière de périphériques d’encodage [et de décodage matériel](hardware-decoders-and-encoders.md) pour obtenir une liste de décodeurs et d’encodeurs non pris en charge.
-|Distributions Linux prises en charge | Ubuntu 16,04 LTS *, 18,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation CentOS 8
+|Distributions Linux prises en charge | Ubuntu 16,04 LTS, 18,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation CentOS 8
 
-* Étapes prérequises pour l’installation sur Ubuntu 16,04 LTS, qui ajoute un référentiel avec les versions plus récentes de libc + + (et compilateur, etc.) et met à jour libc + + :
-```
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get upgrade
-```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Configuration matérielle requise pour l’application teams sur les appareils mobiles
 

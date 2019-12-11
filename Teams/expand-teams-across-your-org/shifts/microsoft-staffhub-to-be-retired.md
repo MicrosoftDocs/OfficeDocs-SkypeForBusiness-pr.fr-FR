@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568707"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961599"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Fin de parcours pour Microsoft StaffHub
 
@@ -28,7 +28,7 @@ ms.locfileid: "37568707"
 
 Ces modifications font partie de nos efforts continus pour permettre à tous les employés possédant Microsoft 365. Avec les fonctionnalités de terrain travailleurs désormais disponibles en équipe, tous les employés de votre organisation pourront utiliser teams pour rationaliser leur journée de travail, collaborer avec des collègues et accéder à des informations et à l’expertise pour leur permettre de travailler efficacement.
 
-## <a name="frequently-asked-questions"></a>Forum aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 ### <a name="about-staffhub-retirement"></a>À propos du retrait de StaffHub
 
@@ -64,14 +64,7 @@ Dans Microsoft Teams, l’application équipes est un outil de gestion des calen
 
 #### <a name="which-plans-is-shifts-available-in"></a>Quelles offres sont disponibles dans ?
 
-Le changement est disponible dans le cadre d’équipes dans les offres suivantes sans frais supplémentaires :
-
-- Office 365 Business Premium 
-- Office 365 entreprise F1, E1, E3, E5
-- Office 365 pour l’éducation
-- Microsoft 365 F1, E1, E3, E5
-
-Pour plus d’informations, voir [disponibilité des équipes](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Le changement est disponible dans toutes les références de l’entreprise, où teams est disponible.
 
 #### <a name="how-do-i-get-shifts"></a>Comment obtenir le changement de poste ? 
 

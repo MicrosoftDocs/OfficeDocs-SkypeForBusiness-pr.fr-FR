@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890601"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966777"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -131,7 +131,7 @@ Pour en savoir plus sur teams et Office 365 ProPlus, voir [Comment exclure des �
     - [version 32 bits](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
     - [version 64 bits](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    La version minimum de l’application de bureau teams requise est la version 1.2.00.31357.
+    La version minimum de l’application de bureau teams requise est la version 1.2.00.31357. (Le blocage RTC n’est pas pris en charge dans les versions antérieures)
 
 2. Installez le MSI sur la machine virtuelle VDI en exécutant l’une des commandes suivantes :
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568718"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961609"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams
 
@@ -37,9 +37,7 @@ Il est important de savoir que les Shifts ne prennent actuellement pas en charge
 
 ## <a name="availability-of-shifts"></a>Disponibilité des équipes
 
-Le changement est disponible dans tous les abonnements Office 365 incluant Teams, à quelques exceptions près. Les exceptions sont les États-Unis et les équipes de la communauté. Les Shifts ne sont pas disponibles dans Office 365 pour le gouvernement américain ou les services d’équipes gratuites.
-
-Pour en savoir plus sur la gestion des licences pour les équipes, y compris la liste des abonnements Office 365 qui incluent Teams, voir gestion [des licences office 365 pour teams](../../Office-365-licensing.md).
+Le changement est disponible dans toutes les références de l’entreprise, où teams est disponible.
 
 ## <a name="location-of-shifts-data"></a>Emplacement des données de décalage
 

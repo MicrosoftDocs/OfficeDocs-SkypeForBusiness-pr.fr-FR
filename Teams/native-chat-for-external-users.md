@@ -12,17 +12,15 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Apprenez-en davantage sur l’interface de chat d’équipe native pour les utilisateurs de Microsoft Teams (fédéré) disponibles entre les utilisateurs externes lorsque les deux utilisateurs sont en mode de mise à niveau TeamsOnly.
-ms.openlocfilehash: a7a66693bbff98aa707c369a9da08d0ccfe48f69
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 572087d86672294b566cd99365599dbead1aa3e7
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754340"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966757"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Une interface utilisateur native pour les discussions pour les utilisateurs externes de Microsoft teams
 ======================================
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Lorsqu’un utilisateur de Microsoft teams discute avec un utilisateur externe (fédéré), l’interface de conversation est limitée au texte. Toutefois, si votre client teams et celui de l’utilisateur externe se trouvent dans le mode de mise à niveau de TeamsOnly, vous pouvez avoir une « expérience de conversation en équipe native » qui inclut une mise en forme enrichie, @mentions et d’autres fonctionnalités de conversation. En d’autres termes, vous pouvez utiliser la même expérience de conversation d’équipe 1:1 avec les utilisateurs externes éligibles, comme vous le faites avec les utilisateurs de votre organisation. Les discussions d’équipe natives avec des utilisateurs externes sont toujours limitées aux discussions 1:1 uniquement (les utilisateurs externes ne peuvent pas faire des discussions de groupe).
 
@@ -47,6 +45,6 @@ Si vous avez une conversation d’équipe native avec un utilisateur externe et 
 Si teams recherche une ancienne conversation textuelle uniquement avec cet utilisateur externe, il le réutilisera. Dans le cas contraire, teams crée une discussion de texte uniquement.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer l’accès externe dans teams](manage-external-access.md)
