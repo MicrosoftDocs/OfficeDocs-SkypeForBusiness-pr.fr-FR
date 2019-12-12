@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer les stratégies de routage des appels d’urgence pour la fonctionnalité de E911 dynamique dans Microsoft Teams.
+description: Découvrez comment utiliser et gérer les stratégies d’acheminement des appels d’urgence dans Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
+ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615804"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39986955"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Si vous avez déployé le routage direct du système téléphonique au sein de votre organisation, vous pouvez utiliser les stratégies d’acheminement des appels d’urgence de Microsoft teams pour configurer les numéros d’urgence et spécifier le mode de routage des appels d’urgence. Une stratégie d’acheminement des appels d’urgence détermine si les services d’urgence améliorés sont activés pour les utilisateurs auxquels la stratégie est affectée, les numéros utilisés pour appeler les services d’urgence (par exemple, 911 aux États-Unis) et comment les appels vers les services d’urgence sont routés.
 
@@ -45,6 +43,8 @@ Si vous avez affecté une stratégie d’acheminement des appels d’urgence à 
 4. Pour activer des services d’urgence avancés, activez l' **avancée services d’urgence**. Lorsque les services d’urgence améliorés sont activés, teams récupère les informations de stratégie et d’emplacement du service et inclut ces informations dans le cadre de l’appel d’urgence.
 5. Définissez un ou plusieurs numéros d’urgence. Pour cela, sous **numéros d’urgence**, procédez comme suit :
     1. **Chaîne de numérotation d’urgence**: entrez la chaîne de numérotation d’urgence. Cette chaîne de numérotation indique qu’un appel est un appel d’urgence.
+        > [!NOTE]
+        > Pour le routage direct, nous faisons en sorte que les clients teams envoient les appels d’urgence en utilisant le signe « + » en face de la chaîne de numérotation d’urgence. Tant que la transition ne s’est pas terminée, le modèle d’itinéraire vocal correspondant à une chaîne de numérotation d’urgence doit garantir la prise de correspondances pour les chaînes qui contiennent et ne possèdent pas de « + », comme 911 et + 911. Par exemple, ^\+? 911 ou. *.
     2. **Masque de numérotation d’urgence**: pour chaque numéro d’urgence, vous pouvez spécifier zéro ou plusieurs masques de numérotation d’urgence. Un masque de numérotation correspond au numéro que vous souhaitez traduire dans la valeur de la chaîne de numérotation d’urgence. Cela permet d’appeler d’autres numéros d’urgence et de toujours avoir accès aux services d’urgence. <br>Par exemple, vous ajoutez 112 comme masque de numérotation d’urgence, qui est le numéro de service d’urgence pour la plupart des services d’Europe et 911 comme chaîne de numérotation d’urgence. Un utilisateur de teams d’Europe qui ne sait pas que 911 correspond au numéro d’urgence aux États-Unis et lorsqu’il appelle 112, l’appel est effectué à 911. Pour définir plusieurs masques de numérotation, séparez chaque valeur par un point-virgule. Par exemple, 112 ; 212.
     3. **Utilisation PSTN**: sélectionnez l’utilisation de réseau téléphonique commuté (RTC). L’utilisation RTC est utilisée pour déterminer le type d’itinéraire utilisé pour diriger les appels d’urgence des utilisateurs autorisés à les utiliser. L’itinéraire associé à cette utilisation doit pointer vers un Trunk SIP dédié aux appels d’urgence ou à une passerelle ELIN (Emergency Identification Number) qui route les appels d’urgence vers le point de réponse de sécurité publique le plus proche (PSAPI).
 
@@ -128,7 +128,7 @@ Cet exemple montre comment assigner une stratégie appelée politique de routage
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer les stratégies d’appel d’urgence dans teams](manage-emergency-calling-policies.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

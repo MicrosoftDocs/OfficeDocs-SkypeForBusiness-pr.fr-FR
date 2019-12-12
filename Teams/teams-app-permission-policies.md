@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
+ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664971"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39984534"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -130,7 +130,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Attribuez à tous les utilisateurs du groupe une stratégie d’autorisation d’application particulière. Dans cet exemple, il s’agit de la stratégie d’autorisation d’application HR.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
