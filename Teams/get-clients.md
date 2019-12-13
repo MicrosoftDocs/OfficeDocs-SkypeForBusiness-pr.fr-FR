@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919146"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002238"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -99,7 +99,7 @@ Les administrateurs informatiques peuvent utiliser le déploiement géré de Tea
 > [!NOTE]
 > Si vous rencontrez des problèmes en installant le PKG, faites-le nous savoir. Dans la section **Commentaires** à la fin de cet article, cliquez sur **Adresser un commentaire**.
 
-### <a name="linux"></a>*
+### <a name="linux"></a>Linux
 
 Les utilisateurs seront en mesure d’installer des packages Linux `.deb` natifs dans et `.rpm` formats.
 L’installation du package de DEB ou RPM installe automatiquement le référentiel de package.
@@ -110,7 +110,7 @@ La clé de signature permettant d’activer la mise à jour automatique à l’a
 
 > [!NOTE] 
 > Si vous trouvez un bogue, envoyez- `Report a Problem` le à l’aide du client. Pour connaître les problèmes connus, voir [problèmes connus](Known-issues.md).
-> Pour la prise en charge de Microsoft teams pour Linux, vous pouvez utiliser le canal de support du forumhttps://docs.microsoft.com/answers/topics/teams.htmlLinux sur Microsoft Q&A) []. N’hésitez pas à `teams-linux` utiliser la balise lors de la publication de questions. 
+> Pour la prise en charge d’teams pour Linux, vous pouvez utiliser le [canal de support du Forum Linux sur Microsoft Q&A](https://docs.microsoft.com/answers/topics/teams.html). N’hésitez pas à `teams-linux` utiliser la balise lors de la publication de questions. 
 
 #### <a name="install-teams-using-deb-package"></a>Installation d’équipes à l’aide d’une DEB
 
