@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des canaux privés dans Microsoft Teams.
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077427"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020048"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft teams
 
@@ -140,6 +140,12 @@ Teams gère le cycle de vie de la collection de sites SharePoint du canal privé
 
 Si un canal privé ou une équipe contenant un canal privé est restauré, les collections de sites y sont restaurées. Si une collection de sites de canal privé est restaurée et qu’elle se trouve au-delà de la fenêtre de suppression du canal privé de 30 jours, la collection de sites opère en tant que collection de sites autonome.
 
+## <a name="private-channel-message-compliance-records"></a>Enregistrements de conformité des messages de canal privé
+
+Les enregistrements de messages envoyés dans un canal privé sont remis à la boîte aux lettres de tous les membres du canal privé plutôt qu’à une boîte aux lettres de groupe. Les titres des enregistrements sont mis en forme pour indiquer le canal privé depuis lequel ils ont été envoyés.
+
+Pour plus d’informations sur l’exécution d’une recherche eDiscovery sur des messages de canal privé, voir [découverte électronique des canaux privés](ediscovery-investigation.md#ediscovery-of-private-channels).
+
 ## <a name="considerations-around-access-in-private-channels"></a>Considérations relatives à l’accès dans les canaux privés
 
 Lors de la création d’un bloc-notes OneNote dans un canal privé, les utilisateurs supplémentaires peuvent toujours accéder au bloc-notes, car le comportement est identique à celui de partage d’accès à tout autre élément d’un site SharePoint de canal privé avec un utilisateur.
@@ -151,7 +157,7 @@ Si un bloc-notes existant est ajouté en tant qu’onglet à un canal privé, l�
 - Par défaut, tout le monde n’a pas accès au bloc-notes. En effet, ils ne peuvent pas avoir accès à l’emplacement de l’hébergement du bloc-notes, par exemple le site SharePoint d’un autre équipe.
 - Les utilisateurs qui ne sont pas membres du canal privé peuvent afficher le bloc-notes.  
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Présentation des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

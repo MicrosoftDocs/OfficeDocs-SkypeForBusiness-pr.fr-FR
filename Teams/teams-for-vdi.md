@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966777"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020058"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -68,12 +68,14 @@ Vous pouvez télécharger la dernière version des applications virtuelles et de
 
 Pour obtenir les dernières exigences relatives au serveur et au client, consultez [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>Installer l’application de bureau teams sur VDI
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installation ou mise à jour de l’application de bureau teams sur VDI
 
 Vous pouvez déployer l’application de bureau teams pour VDI à l’aide d’une installation par ordinateur ou d’une installation par utilisateur à l’aide du package MSI. Le choix de l’approche à utiliser varie selon que vous utilisez une configuration persistante ou non persistante et que vous avez besoin de fonctionnalités de votre organisation.
 Pour une configuration persistante dédiée, l’une d’elles fonctionnerait.  Toutefois, dans le cas d’une configuration non persistante, l’installation par machine est nécessaire pour que teams fonctionne efficacement. Voir la section [configuration non persistante](#non-persistent-setup) .
 
 Sur une installation par ordinateur, les mises à jour automatiques sont désactivées. Cela signifie que pour mettre à jour l’application Teams, vous devez désinstaller la version actuelle pour mettre à jour vers une version plus récente. Dans le cas d’une installation par utilisateur, les mises à jour automatiques sont activées. Pour la plupart des déploiements d’infrastructure VDI, nous vous conseillons de déployer des équipes via une installation par ordinateur.
+
+Pour effectuer une mise à jour vers la version la plus récente d’Teams, commencez par la procédure de désinstallation suivie du déploiement de la dernière version d’Teams.
 
 Pour que l’optimisation de l’utilisation des services AUDIOVISUELs dans les environnements VDI fonctionne correctement, le point de terminaison client léger doit avoir accès à Internet. Si l’accès à Internet n’est pas disponible au point de terminaison client léger, le démarrage de l’optimisation échoue. Cela signifie que l’utilisateur se trouve dans un État multimédia non optimisé.
 
@@ -93,7 +95,7 @@ Voici la configuration minimale recommandée pour les ordinateurs virtuels.
 
 Dans une configuration non persistante, les modifications du système d’exploitation local des utilisateurs ne sont pas conservées lorsque les utilisateurs se déconnectent. Ces paramètres sont fréquemment partagés par des sessions multi-utilisateurs. La configuration de l’ordinateur virtuel varie en fonction du nombre d’utilisateurs et des ressources de zone physiques disponibles.
 
-Dans le cas d’une configuration non persistante, l’application de bureau teams doit être installée par ordinateur vers l’image Golden. Pour en savoir plus, voir la section [installer l’application de bureau teams sur VDI](#install-the-teams-desktop-app-on-vdi) . Cela garantit un lancement efficace de l’application teams lors d’une session utilisateur. L’utilisation de teams avec une configuration non persistante nécessite également un gestionnaire de mise en cache de profil pour une synchronisation des données d’exécution teams efficace. Cela permet de s’assurer que les informations spécifiques à l’utilisateur (par exemple, les données utilisateur, le profil et les paramètres) sont mises en cache lors de la session utilisateur.  Il existe plusieurs solutions de gestionnaire de mise en cache disponibles. Par exemple, [FSLogix](https://docs.microsoft.com/fslogix/overview). Pour obtenir des instructions de configuration spécifiques, contactez le fournisseur du gestionnaire de cache.
+Dans le cas d’une configuration non persistante, l’application de bureau teams doit être installée par ordinateur vers l’image Golden. Pour en savoir plus, voir la section [installer ou mettre à jour l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Cela garantit un lancement efficace de l’application teams lors d’une session utilisateur. L’utilisation de teams avec une configuration non persistante nécessite également un gestionnaire de mise en cache de profil pour une synchronisation des données d’exécution teams efficace. Cela permet de s’assurer que les informations spécifiques à l’utilisateur (par exemple, les données utilisateur, le profil et les paramètres) sont mises en cache lors de la session utilisateur.  Il existe plusieurs solutions de gestionnaire de mise en cache disponibles. Par exemple, [FSLogix](https://docs.microsoft.com/fslogix/overview). Pour obtenir des instructions de configuration spécifiques, contactez le fournisseur du gestionnaire de cache.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Liste d’exclusions de contenu mise en cache dans teams pour une configuration non persistante
 
@@ -110,11 +112,11 @@ Prenez en compte les points suivants lorsque vous déployez teams avec Office 36
 
 Avant de déployer des équipes via Office 365 ProPlus, vous devez commencer par désinstaller toutes les applications d’équipe déjà existantes si elles ont été déployées à l’aide d’une installation par ordinateur.
 
-Teams via Office 365 ProPlus est installé par utilisateur. Pour en savoir plus, voir la section [installation de l’application de bureau teams sur VDI](#install-the-teams-desktop-app-on-vdi) .
+Teams via Office 365 ProPlus est installé par utilisateur. Pour en savoir plus, voir la section [installation ou mise à jour de l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>Déploiement d’équipes via les mises à jour d’Office 365 ProPlus
 
-Des équipes sont également ajoutées aux installations d’Office 365 ProPlus existantes. Dans la mesure où Office 365 ProPlus installe uniquement les équipes par utilisateur, voir la section [installation de l’application de bureau teams sur VDI](#install-the-teams-desktop-app-on-vdi) .
+Des équipes sont également ajoutées aux installations d’Office 365 ProPlus existantes. Dans la mesure où Office 365 ProPlus installe uniquement les équipes par utilisateur, voir la section [installation ou mise à jour de l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Utilisation de teams avec une installation par ordinateur et Office 365 ProPlus
 
@@ -331,7 +333,8 @@ Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégie
 
 ### <a name="client-deployment-installation-and-setup"></a>Déploiement de clients, installation et configuration
 
-- Dans le cas d’une installation par ordinateur, teams sur VDI n’est pas automatiquement mis à jour de la même manière que les clients teams de l’infrastructure non VDI. Vous devez mettre à jour l’image de l’ordinateur virtuel en installant un nouveau MSI comme décrit dans la section [installation de l’application de bureau teams sur VDI](#install-the-teams-desktop-app-on-vdi) . Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
+- Dans le cas d’une installation par ordinateur, teams sur VDI n’est pas automatiquement mis à jour de la même manière que les clients teams de l’infrastructure non VDI. Vous devez mettre à jour l’image de l’ordinateur virtuel en installant un nouveau MSI comme décrit dans la section [installation ou mise à jour de l’application de bureau teams sur VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
+- Teams doit être déployée par l’utilisateur ou par machine. Le déploiement d’équipes pour le déploiement simultané par utilisateur et par ordinateur n’est pas pris en charge.  Pour effectuer une migration à partir de l’une ou l’autre de ces modes par poste de passe, suivez la procédure de désinstallation et redéployez en mode.
 - Pour le moment, les clients MacOs et Linux ne sont pas pris en charge par Citrix.
 - Citrix ne prend pas en charge l’utilisation de proxys HTTP explicites définis sur un point de terminaison. 
 
@@ -358,7 +361,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
