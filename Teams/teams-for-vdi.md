@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020058"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069345"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour une infrastructure bureau virtualisée(VDI)
 
@@ -128,12 +128,12 @@ Pour en savoir plus sur teams et Office 365 ProPlus, voir [Comment exclure des �
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Déploiement de l’application de bureau teams sur l’ordinateur virtuel
 
-1. Téléchargez le package MSI teams qui correspond à votre système d’exploitation VM VDI en utilisant l’un des liens suivants.
+1. Téléchargez le package MSI teams qui correspond à votre système d’exploitation VM VDI en utilisant l’un des liens suivants :
 
-    - [version 32 bits](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [version 64 bits](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [version 32 bits](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [version 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    La version minimum de l’application de bureau teams requise est la version 1.2.00.31357. (Le blocage RTC n’est pas pris en charge dans les versions antérieures)
+    La version minimum de l’application de bureau teams requise est la version 1.2.00.31357. (La conservation RTC n’est pas prise en charge dans les versions antérieures.)
 
 2. Installez le MSI sur la machine virtuelle VDI en exécutant l’une des commandes suivantes :
 
@@ -155,14 +155,13 @@ Pour en savoir plus sur teams et Office 365 ProPlus, voir [Comment exclure des �
  
         La prochaine session interactive de connexion démarre teams et demande des informations d’identification.
 
-3. Désinstaller le MSI de l’ordinateur virtuel VDI 
+3. Désinstaller le MSI de l’ordinateur virtuel VDI. 
 
-    Il existe deux façons de désinstaller Teams.  
+    Il existe deux façons de désinstaller teams :  
   
     - Script PowerShell (recommandé) : vous pouvez utiliser ce [script PowerShell](scripts/powershell-script-teams-deployment-clean-up.md) pour nettoyer les équipes des utilisateurs ou des ordinateurs cibles. Il doit être exécuté pour chaque utilisateur sur un ordinateur ciblé. 
     
-    - Ligne de commande : cette approche supprime Teams, mais empêche la réinstallation de teams.  
-    Exécutez la commande suivante :
+    - Ligne de commande : cette approche supprime Teams, mais empêche la réinstallation de teams. Exécutez la commande suivante :
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -218,7 +217,7 @@ Si vous effectuez une migration à partir de Skype entreprise sur VDI vers teams
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Équipes sur le navigateur Chrome et l’application de bureau teams pour VDI
 
-Les équipes sur le navigateur Chrome ne fournissent pas de remplacement pour l’application de bureau teams pour une infrastructure VDI avec optimisation AV. L’utilisation des discussions et de la collaboration fonctionne comme prévu. Lorsque le contenu multimédia est requis, certaines expériences peuvent ne pas répondre aux attentes des utilisateurs dans le navigateur Chrome.
+Les équipes sur le navigateur Chrome ne fournissent pas de remplacement pour l’application de bureau teams pour une infrastructure VDI avec optimisation AV. L’utilisation des discussions et de la collaboration fonctionne comme prévu. Lorsque le contenu multimédia est requis, certaines expériences peuvent ne pas répondre aux attentes des utilisateurs dans le navigateur Chrome :
 
 - L’interface de diffusion audio et vidéo n’est pas idéale. Les utilisateurs peuvent être retardés ou de réduire la qualité.
 - Les paramètres de l’appareil ne sont pas disponibles dans les paramètres du navigateur.
@@ -361,7 +360,7 @@ Pour les problèmes connus des équipes qui ne sont pas liés à l’infrastruct
 
 Pour plus d’informations sur la résolution des problèmes liés à la fonction VDA et CWA, voir [ce site Web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installation de Microsoft teams à l’aide de MSI](msi-deployment.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

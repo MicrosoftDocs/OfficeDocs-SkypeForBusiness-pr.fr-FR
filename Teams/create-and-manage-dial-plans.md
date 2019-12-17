@@ -13,65 +13,97 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Découvrez comment créer des plans de numérotation téléphonique (appels RTC) dans Office 365 et comment les gérer. '
-ms.openlocfilehash: 3b96c2f504096b3f77c7080feda1dac982f46e9c
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+description: Découvrez comment créer et gérer les plans de numérotation des appels RTC et comment les gérer.
+ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516671"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069435"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
-Une fois que vous avez planifié le plan de numérotation pour votre organisation et que vous avez effectué toutes les règles de normalisation qui doivent être créées pour le routage des appels, vous devez utiliser Windows PowerShell pour créer les plans de numérotation et apporter des modifications de paramètres.
-  
-> [!NOTE]
-> Le centre d’administration Skype entreprise ne peut pas être utilisé pour créer et gérer les plans de numérotation. 
-  
-## <a name="verifying-and-starting-remote-powershell"></a>Vérification et démarrage de la session PowerShell distante
+Une fois que vous avez planifié les plans de numérotation pour votre organisation et que vous avez défini toutes les règles de normalisation qui doivent être créées pour le routage des appels, vous pouvez créer les plans de numérotation. Vous pouvez utiliser le centre d’administration Microsoft teams ou Windows PowerShell pour créer et gérer les plans de numérotation.  
 
- **Vérifiez que vous exécutez la version 3.0 ou une version ultérieure de Windows PowerShell**
+## <a name="using-the-microsoft-teams-admin-center"></a>Utilisation du centre d’administration Microsoft teams
+
+### <a name="create-a-dial-plan"></a>Créer un plan de numérotation
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au**plan de numérotation** **vocale** > .
+2. Cliquez sur **Ajouter**, puis entrez un nom et une description pour le plan de numérotation.
+    ![Capture d’écran montrant la page Ajouter pour la création d’un plan de numérotation](media/create-dial-plan.png)
+3. Sous **Détails du plan de numérotation**, spécifiez un préfixe de numérotation externe si les utilisateurs doivent composer au moins un chiffre de début supplémentaire (par exemple, 9) pour obtenir une ligne externe. Pour ce faire :
+    1. Dans la zone **préfixe de numérotation externe** , entrez un préfixe de numérotation externe. Le préfixe peut comporter jusqu’à 4 caractères (#, * et 0-9).
+    2. Activez la **numérotation de l’appareil optimisé**. Si vous spécifiez un préfixe de numérotation externe, vous devez également activer ce paramètre pour appliquer le préfixe de sorte que les appels puissent être effectués en dehors de votre organisation.
+4. Sous **règles de normalisation**, configurez et associez une ou plusieurs [règles de normalisation](what-are-dial-plans.md#normalization-rules) pour le plan de numérotation. Au moins une règle de normalisation doit être associée à chaque plan de numérotation.  Pour cela, effectuez une ou plusieurs des opérations suivantes :
+    - Pour créer une règle de normalisation et l’associer au plan de numérotation, cliquez sur **Ajouter**, puis définissez la règle.
+    - Pour modifier une règle de normalisation déjà associée au plan de numérotation, sélectionnez la règle en cliquant à gauche du nom de la règle, puis cliquez sur **modifier**. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
+    - Pour supprimer une règle de normalisation du plan de numérotation, sélectionnez la règle en cliquant à gauche du nom de la règle, puis cliquez sur **supprimer**.
+5. Organisez les règles de normalisation dans l’ordre de votre choix. Cliquez sur **monter** ou **descendre** pour modifier la position des règles dans la liste.
+
+    > [!NOTE]
+    > Teams parcourt la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro numéroté. Si vous avez configuré un plan de numérotation de manière à ce qu’un numéro composé puisse correspondre à plusieurs règles de normalisation, assurez-vous que les règles les plus restrictives sont triées au-dessus des règles les moins strictes.
+
+6. Cliquez sur **Enregistrer**.
+7. Si vous voulez tester le plan de numérotation, sous **tester le plan de numérotation**, entrez un numéro de téléphone, puis cliquez sur **tester**.
+
+### <a name="edit-a-dial-plan"></a>Modifier un plan de numérotation
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au**plan de numérotation** **vocale** > .
+2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation, puis cliquez sur **modifier**.
+3. Apportez les modifications souhaitées, puis cliquez sur **Enregistrer**.
+
+### <a name="add-users-to-a-dial-plan"></a>Ajouter des utilisateurs à un plan de numérotation
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez au**plan de numérotation** **vocale** > .
+2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation.
+3. Sélectionnez **gérer les utilisateurs**.
+4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+5. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **appliquer**.
+
+## <a name="using-powershell"></a>Utiliser PowerShell
   
-1. Pour vérifier que vous exécutez la version 3.0 ou une version ultérieure : **Menu Démarrer** > **Windows PowerShell**.
+### <a name="verify-and-start-remote-powershell"></a>Vérifier et Démarrer PowerShell distant
+
+ **Vérifiez que vous exécutez la version 3,0 ou une version ultérieure de Windows PowerShell**
+  
+1. Pour vérifier que vous exécutez la version 3,0 ou une version ultérieure : **menu** > démarrer**Windows PowerShell**.
     
 2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
     
-3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
+3. Si vous n’avez pas la version 3,0 ou une version ultérieure, téléchargez et installez les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
     
-4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
+4. Vous devez également installer le module Windows PowerShell pour Skype entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype entreprise online. Vous pouvez télécharger ce module, qui est uniquement pris en charge sur les ordinateurs 64 bits, dans le [module Windows PowerShell pour Skype entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez l’ordinateur si vous y êtes invité.
     
-Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+Pour en savoir plus, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
   
  **Démarrez une session Windows PowerShell**
   
-1. From the **Start Menu** > **Windows PowerShell**.
+1. Cliquez sur **Démarrer** > **Windows PowerShell**.
     
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
     
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
   
-> 
->   ```
->     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
->     $credential = Get-Credential
->     $session = New-CsOnlineSession -Credential $credential
->     Import-PSSession $session
->   ```
 
-Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [à vous connecter à Skype entreprise Online à l’aide de Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+    ```
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+    ```
   
-## <a name="creating-and-managing-your-dial-plans"></a>Création et gestion de vos plans de numérotation
+### <a name="create-and-manage-your-dial-plans"></a>Création et gestion de vos plans de numérotation
 
 Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et gérer les plans de numérotation client.
   
-### <a name="using-single-cmdlets"></a>Utilisation d’applets de applet uniques
+#### <a name="using-single-cmdlets"></a>Utilisation d’applets de applet uniques
 
 - Pour créer un plan de numérotation, exécutez :
     
@@ -79,7 +111,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [New-rubrique Remove](https://technet.microsoft.com/library/mt775026.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [New-rubrique Remove](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
     
 - Pour modifier les paramètres d’un plan de numérotation existant, exécutez :
     
@@ -88,7 +120,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Set-rubrique Remove](https://technet.microsoft.com/library/mt775023.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Set-rubrique Remove](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).
     
 - Pour ajouter des utilisateurs à un plan de numérotation, exécutez :
     
@@ -96,7 +128,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Grant-rubrique Remove](https://technet.microsoft.com/library/mt775021.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Grant-rubrique Remove](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
     
 - Pour afficher les paramètres d’un plan de numérotation, exécutez :
     
@@ -104,7 +136,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Get-rubrique Remove](https://technet.microsoft.com/library/mt775024.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Get-rubrique Remove](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
     
 - Pour supprimer un plan de numérotation, exécutez :
     
@@ -112,7 +144,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Remove-rubrique Remove](https://technet.microsoft.com/library/mt775020.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Remove-rubrique Remove](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
     
 - Pour afficher les paramètres du plan de numérotation efficace, exécutez :
     
@@ -120,7 +152,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).
     
 - Pour tester les paramètres efficaces d’un plan de numérotation, exécutez :
     
@@ -128,9 +160,9 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).
+    Pour obtenir d’autres exemples et des paramètres, consultez la rubrique [test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
     
-### <a name="using-a-powershell-script"></a>Utilisation d’un script PowerShell
+#### <a name="using-a-powershell-script"></a>Utilisation d’un script PowerShell
 
 Exécutez l’opération suivante pour supprimer une règle de normalisation associée à un plan de numérotation client sans avoir à supprimer d’abord le plan de numérotation client :
 ```
@@ -148,7 +180,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 Exécutez cette commande pour supprimer la règle de normalisation suivante du plan de numérotation client existant nommé RedmondDialPlan.
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
-Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Exécutez la commande suivante lorsque vous voulez également examiner les règles de normalisation existantes, déterminer celle que vous voulez supprimer, puis utiliser son index pour la supprimer. Le tableau de règles de normalisation commence par l’index 0. Nous voulons supprimer la règle de normalisation à 3 chiffres, afin qu’il s’agit de l’index 1.
@@ -167,17 +199,17 @@ Translation         : +14255551$1
 Name                : NR12
 IsInternalExtension : False
 
-$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
+$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Exécutez l’outil pour rechercher tous les utilisateurs disposant d’un plan de numérotation client RedmondDialPlan.
   
 ```
-Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
+Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Exécutez cette opération pour supprimer PolicyName pour tous les utilisateurs qui disposent de HostingProvider sipfed.online.lync.com.
+Exécutez cette opération pour supprimer les TenantDialPlan attribués de tous les utilisateurs disposant d’un HostingProvider de sipfed.online.lync.com.
 ```
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -196,42 +228,23 @@ Exécutez cette opération pour créer le plan de numérotation client.
   
 ```
 $DPFileName = "dialplan.xml"
-$DP = Import-Clixml $DPFileName
+$dp = Import-Clixml $DPFileName
 $NormRules = @()
 ForEach($nr in $dp.NormalizationRules)
 {
- $id1 = "Global/" +$nr.Name
-$nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation  -IsInternalExtension $nr.IsInternalExtension -InMemory
-$NormRules += $nr2
+ $id1 = "Global/" + $nr.Name
+ $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation -IsInternalExtension $nr.IsInternalExtension -InMemory
+ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell ?
+    
+## <a name="related-topics"></a>Voir aussi
 
-- Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l'aide d'un point d'administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
-    
-  - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
-    
-  - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-  - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## <a name="related-topics"></a>Rubriques connexes
-[Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
-
-[Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-
-[Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
-
-[Skype Entreprise Online : étiquette d'exclusion de responsabilité pour les appels d'urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 
+- [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
+- [Questions fréquentes à propos du transfert de numéros de téléphone](transferring-phone-numbers-common-questions.md)
+- [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
+- [Libellé d’exclusion d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Aperçu de Teams PowerShell](teams-powershell-overview.md)

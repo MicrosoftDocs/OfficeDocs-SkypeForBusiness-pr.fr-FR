@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318139"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070221"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -218,9 +218,8 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 **Numérotation par nom** Si vous activez cette option, les appelants peuvent rechercher des personnes dans votre organisation à l’aide de la **numérotation par nom**. Il parle du nom de l’utilisateur et de la reconnaissance vocale à l’utilisateur. Vous pouvez définir qui est et non inclus dans ces services dans la page de portée de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et est disponible avec la numérotation par nom.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Composer par poste** (cette fonctionnalité d’aperçu n’est pas encore disponible pour le grand public) si vous activez cette option, les appelants peuvent communiquer avec les utilisateurs de votre organisation en entrant leur numéro de poste. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
+**Composer par poste** Si vous activez cette option, les appelants peuvent se connecter aux utilisateurs de votre organisation en entrant leur numéro de poste. Vous pouvez sélectionner les utilisateurs qui sont répertoriés comme étant disponibles ou qui ne sont pas disponibles pour **composer par poste** dans la page d’étendue de numérotation facultative. Tout utilisateur en ligne disposant d’une licence de système téléphonique ou d’un utilisateur hébergé sur site utilisant Skype entreprise Server est éligible et peut être trouvé avec la numérotation par poste.
 
 > [!IMPORTANT]
 > Notez ce qui suit :

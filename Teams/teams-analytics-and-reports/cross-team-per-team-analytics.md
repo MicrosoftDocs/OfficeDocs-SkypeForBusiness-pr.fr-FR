@@ -14,12 +14,12 @@ MS.collection:
 description: Apprenez-en davantage sur l’analyse interéquipe et l’analyse par équipe dans Teams, ce qui permet aux utilisateurs de voir les données d’utilisation des équipes dont ils sont membres.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37569702"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069445"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Afficher les analyses interéquipes et par équipe dans Teams
 
@@ -39,7 +39,7 @@ L’analyse par équipe donne aux utilisateurs une vue plus granulaire des donn�
     |Option |Description  |
     |--------|-------------|
     |**Nom**   |Nom de l’équipe. |
-    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs dans l’équipe et courbe de tendance de l’activité de l’équipe pendant la période spécifiée.
+    |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs dans l’équipe et courbe de tendance de l’activité de l’équipe pendant la période spécifiée. Nous définissons 
     |**Personnes**   |Nombre total de personnes de l’équipe pendant la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Personnes**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
     |**Contenus**   |Nombre de messages uniques publiés dans la conversation d’équipe pendant la période spécifiée. |
@@ -59,6 +59,9 @@ L’analyse par équipe donne aux utilisateurs une vue plus granulaire des donn�
     |**Rôle**   |Nombre d’utilisateurs de l’équipe par rôle, y compris les propriétaires d’équipes, les membres de l’équipe et les invités.|
     |Graphique **utilisateurs actifs**  |Nombre d’utilisateurs actifs de l’équipe par date. Pointez sur le point d’une date donnée pour afficher le nombre d’utilisateurs actifs à cette date.|
     |Graphique **messages**  |Nombre de messages uniques publiés dans une conversation d’équipe par date. Pointez sur le point d’une date donnée pour afficher le nombre de messages uniques publiés à cette date.|
+    
+> [!NOTE]
+> Nous définissons les utilisateurs actifs lorsque les utilisateurs effectuent une action intentionnelle dans le client de bureau, le client mobile et le client Web. Les exemples d’une action intentionnelle incluent le démarrage d’une discussion, le passage d’un appel, le partage d’un fichier, la modification d’un document dans Teams, la participation à une réunion, etc. Nous Répartissez les actions passives, telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. Nous allons également dédupliquer toutes les actions sur un seul IDENTIFIant utilisateur.
 
 ## <a name="related-topics"></a>Voir aussi
 

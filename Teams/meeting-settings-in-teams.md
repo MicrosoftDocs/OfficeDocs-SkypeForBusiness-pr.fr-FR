@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Découvrez comment gérer les paramètres des réunions d’équipes planifiées par les utilisateurs au sein de votre organisation.
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746447"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069455"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -52,7 +52,7 @@ Vous pouvez personnaliser les invitations aux réunions teams selon les besoins 
 
 1. Créez une image de plus de 188 pixels de large par 30 pixels de hauteur (c’est assez petit).
 2. Enregistrez l’image au format JPG ou PNG.
-3. Stockez l’image dans un emplacement central accessible par tous les membres de votre organisation, par exemple un partage réseau.
+3. Stockez l’image dans un emplacement accessible à tous les destinataires de l’invitation (par exemple, un site Web public).
 
     Vous pouvez désormais l’ajouter aux invitations aux réunions. Voir les étapes suivantes.
 

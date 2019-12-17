@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Découvrez les actions à entreprendre et le moment opportun pour mener une recherche eDiscovery, par exemple lorsque vous devez soumettre toutes les informations stockées électroniquement dans le cadre d'une procédure juridique.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231115"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069185"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 ============================
@@ -42,6 +42,8 @@ Toutes les équipes 1:1 ou les discussions de groupe sont journalisées dans les
 3.  Pour afficher des discussions privées dans la boîte aux lettres d’un utilisateur, celles-ci se trouvent également dans le dossier de conversation d’équipe sous historique des conversations.
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>Découverte électronique des discussions entre invités
+
+Pour l’instant, dans le cas où seuls les invités participent à 1:1 ou 1 : N chat, nous ne prenons pas en charge la découverte électronique de ces messages. 
 
 Sans boîte aux lettres, les discussions invitées invitées (1xNs dans lesquelles il n’y a pas d’utilisateurs privés) ne sont pas indexées et ne sont pas incluses dans eDiscovery. Pour faciliter l’eDiscovery pour les discussions invitées, une boîte aux lettres Cloud (ou une boîte aux lettres fantôme) est créée pour le stockage des données 1xN. Une fois que les données de chat de l’équipe sont stockées dans la boîte aux lettres dans le Cloud, celles-ci sont indexées pour la découverte électronique et la recherche de contenu de conformité.
 

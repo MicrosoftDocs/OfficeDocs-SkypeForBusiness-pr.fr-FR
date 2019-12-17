@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Cet article présente les améliorations cumulatives apportées aux salles de Microsoft Teams.
-ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
-ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
+ms.openlocfilehash: 222a4737085c7201c3452ed9735cb5bee5689ff1
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39987857"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069315"
 ---
 # <a name="release-notes"></a>Notes de publication
 
@@ -27,7 +27,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 |Communiquer |Publié sur <br/> Microsoft Store |
 |--- |--- |
-|4.3.21.0 |12/09/2019 |
+|4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -58,7 +58,7 @@ Cet article présente les améliorations cumulatives apportées aux salles de Mi
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Présentation de la fonctionnalité salles de Microsoft teams et résolution des problèmes
 
-### <a name="43210-12092019"></a>4.3.21.0 (12/09/2019)
+### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
 
 Présenté dans cette mise à jour :
 
@@ -66,7 +66,7 @@ Présenté dans cette mise à jour :
 - Rafraîchissement de l’interface utilisateur des paramètres d’administration des appareils avec l’ajout de la configuration d’appareil sous l’onglet à propos
 - Contrôle de la salle à nouveau dans l’écran principal
 - Référence SKU de salle de réunion disponible dans GCC
-- Prise en charge de l’appareil photo de contenu pour le système surface Pro 
+- Prise en charge de l’appareil photo de contenu pour le système surface Pro (build d’application requise minimum : 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 

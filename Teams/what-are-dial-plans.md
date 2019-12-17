@@ -19,12 +19,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Apprenez-en davantage sur les types de plans d’appel d’appels RTC disponibles avec les équipes et en choisissant une pour votre organisation.  '
-ms.openlocfilehash: f23dd2797f70b41a4bed8fd3ddc4bf467dd459db
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919287"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069325"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
@@ -38,7 +38,7 @@ Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-p
 
 L’étendue d’un plan de numérotation détermine le niveau hiérarchique auquel le plan de numérotation peut être appliqué. Les clients obtiennent le plan de numérotation approprié via les paramètres de mise en service fournis automatiquement lorsque les utilisateurs se connectent à Teams. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation à l’aide du centre d’administration Microsoft teams ou de PowerShell distant.
 
-Dans Teams, il existe deux types de plans de numérotation : à l’étendue du service et à l’étendue du client (qui est destiné à votre organisation. Un plan de numérotation à portée de service est défini pour chaque pays ou région où le système téléphonique est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
+Dans Teams, il existe deux types de plans de numérotation : à l’étendue du service et dans le cadre de votre organisation. Un plan de numérotation à portée de service est défini pour chaque pays ou région où le système téléphonique est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
 
 Les plans de numérotation client peuvent être divisés en deux étendues : le client-étendue ou l’étendue utilisateur. Si un client définit et attribue un plan de numérotation d’étendue utilisateur, il est configuré avec un plan de numérotation efficace du plan de numérotation de l’utilisateur et le plan de numérotation de l’utilisateur affecté. Si un client définit un plan de numérotation de niveau client et qu’il n’affecte pas de plan de numérotation, il est mis en place avec un plan de numérotation efficace du plan de numérotation de l’utilisateur et du plan de numérotation client.
 
@@ -68,7 +68,6 @@ Pour planifier des plans de numérotation personnalisés, procédez comme suit :
 
 - **Étape 4** Développez un modèle d'appellation des plans de numérotation à l'échelle de votre organisation. Adopter un modèle d'appellation standard à toute une organisation permet de s'assurer de la cohérence d'un système et facilite la maintenance et les mises à jour.
 
-Le [FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) dispose de ressources supplémentaires et de partenaires qui peuvent vous aider à implémenter des plans de numérotation client.
 
 ## <a name="creating-your-new-tenant-dial-plan"></a>Créer votre plan de numérotation client
 
@@ -76,7 +75,7 @@ Lorsque vous créez un nouveau plan de numérotation client, vous devez entrer l
 
 ### <a name="name-and-simple-name"></a>Nom et Nom simplifié
 
-Pour les plans de numérotation des utilisateurs, vous devez spécifier un nom descriptif identifiant les utilisateurs pour lesquels le plan de numérotation sera attribué. Le nom simple de plan de numérotation est déjà rempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simplifié est modifiable, ce qui vous permet de créer une convention d'appellation plus descriptive pour vos plans de numérotation. La valeur du Nom simplifié ne peut être vide et doit être unique. Les meilleures pratiques suggèrent de développer une convention d'appellation pour l'ensemble de votre organisation et d'utiliser systématiquement cette convention pour tous les sites et tous les utilisateurs.
+Pour les plans de numérotation des utilisateurs, vous devez spécifier un nom descriptif identifiant les utilisateurs auxquels le plan de numérotation sera attribué. Le nom simple de plan de numérotation est déjà rempli avec une chaîne dérivée du nom du plan de numérotation. Le champ Nom simplifié est modifiable, ce qui vous permet de créer une convention d'appellation plus descriptive pour vos plans de numérotation. La valeur du Nom simplifié ne peut être vide et doit être unique. Les meilleures pratiques suggèrent de développer une convention d'appellation pour l'ensemble de votre organisation et d'utiliser systématiquement cette convention pour tous les sites et tous les utilisateurs.
 
 ### <a name="description"></a>Description
 
@@ -97,16 +96,16 @@ Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-p
 
 Les règles de normalisation définissent comment les numéros de téléphone exprimés dans des formats variés doivent être convertis. Une chaîne de numérotation identique peut être interprétée et convertie différemment en fonction du pays d'où elle est composée. Des règles de normalisation peuvent être nécessaires si des utilisateurs ont besoin de composer des numéros extérieurs ou des numéros internes abrégés.
 
-Vous devez attribuer une ou plusieurs règles de normalisation au plan de numérotation. Les règles de normalisation sont mises en correspondance de haut en bas, de sorte que l’ordre dans lequel elles apparaissent dans un plan de numérotation client est important. Par exemple, si un plan de numérotation client possède 10 règles de normalisation, la logique de correspondance d'un numéro composé sera vérifiée en commençant par la première règle de normalisation, puis, en lʼabsence de correspondance, par la seconde, etc. Si une correspondance est trouvée, cette règle est utilisée et les autres règles définies ne sont pas vérifiées. Dans un plan de numérotation client donné, il peut y avoir jusqu'à 25 règles de normalisation.
+Vous devez attribuer une ou plusieurs règles de normalisation au plan de numérotation. Les règles de normalisation sont mises en correspondance de haut en bas, de sorte que l’ordre dans lequel elles apparaissent dans un plan de numérotation client est important. Par exemple, si un plan de numérotation client possède 10 règles de normalisation, la logique de correspondance d'un numéro composé sera vérifiée en commençant par la première règle de normalisation, puis, en lʼabsence de correspondance, par la seconde, etc. Si une correspondance est trouvée, cette règle est utilisée et les autres règles définies ne sont pas vérifiées. Un plan de numérotation client peut contenir un maximum de règles de normalisation 50.
 
 ### <a name="determining-the-required-normalization-rules"></a>Déterminer les règles de normalisation requises
 
-Puisque tout plan de numérotation client est fusionné de manière efficace avec le plan de numérotation du pays de service d'un utilisateur, il est logique d'évaluer les règles de normalisation de celui-ci afin de déterminer quelles sont les règles de normalisation du plan de numérotation client nécessaires. L'applet de commande **Get-CsEffectiveTenantDialPlan** peut être utilisée à cet effet. Cette applet de commande utilise l'identité d'un utilisateur comme paramètre d'entrée et indique en retour toutes les règles de normalisation appliquées à cet utilisateur.
+Dans la mesure où tout plan de numérotation client est fusionné efficacement avec le plan de numérotation du pays d’un utilisateur donné, il est probable que les règles de normalisation de votre plan de numérotation pays doivent être évaluées pour déterminer les règles de normalisation du plan de numérotation client nécessaires. L'applet de commande **Get-CsEffectiveTenantDialPlan** peut être utilisée à cet effet. Cette applet de commande utilise l'identité d'un utilisateur comme paramètre d'entrée et indique en retour toutes les règles de normalisation appliquées à cet utilisateur.
 
 ### <a name="creating-normalization-rules"></a>Créer des règles de normalisation
 <a name="createrule"> </a> <a name="regularexpression"> </a>
 
-Les règles de normalisation utilisent les expressions régulières du .NET Framework pour spécifier les schémas de correspondance numérique que le serveur utilise pour convertir des chaînes de numérotation dans un format E.164 afin d'effectuer une recherche inversée de numéro. Les règles de normalisation peuvent être créées en spécifiant lʼexpression régulière de la correspondance et la conversion à effectuer lorsquʼune correspondance est trouvée. Quand vous avez terminé, vous pouvez entrer un numéro test pour vérifier que la règle de normalisation fonctionne correctement.
+Les règles de normalisation utilisent des expressions régulières du .NET Framework pour spécifier les modèles de correspondance numérique que le serveur utilise pour convertir les chaînes de numérotation au format E. 164. Les règles de normalisation peuvent être créées en spécifiant lʼexpression régulière de la correspondance et la conversion à effectuer lorsquʼune correspondance est trouvée. Quand vous avez terminé, vous pouvez entrer un numéro test pour vérifier que la règle de normalisation fonctionne correctement.
 
 Pour plus d’informations sur l’utilisation des expressions régulières du .NET Framework, consultez la rubrique [expressions régulières du .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e4228210fa7b6d9518fa060b2bdd555f434ed6f2
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573272"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069305"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan pour Microsoft 365 Government-déploiements de GCC
 
@@ -89,7 +89,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Envoyer un canal par courrier électronique | Non disponibles |
 | | Ajouter un membre | Disponibles |
 | | Accès invité | Disponibles |
-| Réunions | Programmer une réunion | Disponibles |
+| Meetings | Programmer une réunion | Disponibles |
 | | Rejoindre une réunion | Disponibles |
 | | Réunion VoIP | Disponibles |
 | | Partage de Bureau | Disponibles |
@@ -100,7 +100,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Notes de réunion | Disponibles |
 | | Événements en direct | Disponibles |
 | | Réunions fédérées | Disponibles |
-| | Prise en charge de surface Hub | Non disponibles |
+| | Prise en charge de surface Hub | Disponibles |
 | Appels | Contacts | Disponibles |
 | | Des | Disponibles |
 | | Messagerie vocale | Disponibles |
@@ -125,7 +125,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Standard automatique de l’Organisation | Disponibles |
 | | Skype grand public-service d’appel d’équipe | Disponibles |
 | Fichiers | Dernier | Disponibles |
-| | Microsoft Teams | Disponibles |
+| | Microsoft Teams | Disponibles |
 | Enregistrer | Magasin d’applications | Sur le backlog du secteur public |
 | Rechercher | Contenus | Disponibles |
 | | Personnes | Disponibles |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515972"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069195"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’interface de mes utilisateurs
 
@@ -41,7 +41,7 @@ L’un des principaux avantages de teams est que le client est automatiquement m
 
 Comme vous pouvez le voir dans le diagramme ci-dessous, les points de terminaison constituent un bloc de construction important pour offrir une qualité optimale aux utilisateurs.
 
-![Diagramme décrivant les trois composants du diagramme de qualité](media/plan-my-users-experience-image1.png "qui décrivent les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
+![Diagramme décrivant les trois composantes de la qualité](media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composantes de la qualité et la façon dont la gestion de service empiète sur les trois composants. Le focus est axé sur les points de terminaison.")
 
 Les points de terminaison teams peuvent s’exécuter sur de nombreux appareils, notamment les PC, Mac, tablettes et appareils mobiles. Une partie de l’expérience n’englobe pas uniquement le périphérique, mais le mode de connexion de l’utilisateur à l’appareil (par exemple, à l’aide du micro/haut-parleur intégré du périphérique, de confortables ou d’un casque optimisé). L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 
@@ -106,7 +106,9 @@ Un exercice de mappage personne à appareil devrait être effectué dans le cadr
 Une fois que vous avez sélectionné les appareils, incluez-les dans le plan d'essai pilote pour la validation finale. Tirez parti des sondages pendant le projet pilote pour recueillir des commentaires afin de vous assurer que la stratégie de votre appareil est optimale.
 
 > [!NOTE]
-> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher des périphériques certifiés dans le cadre de ce programme, voir [périphériques USB certifiés pour](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) le catalogue de solutions Skype entreprise.
+> Pour l'instant, nous vous recommandons d'utiliser des appareils audio certifiés dans le cadre du programme de certification Skype Entreprise. Pour rechercher des périphériques certifiés dans le cadre de ce programme, voir les appareils [Microsoft teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices) et les [périphériques audio et vidéo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Décider de la stratégie d’appareil globale de votre organisation pour les expériences utilisateur et salle de réunion.</li></ul></td></tr>

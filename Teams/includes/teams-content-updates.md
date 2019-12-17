@@ -3,53 +3,6 @@
 
 
 
-## <a name="week-of-november-04-2019"></a>Semaine du 4 novembre 2004, 2019
-
-
-| Publié le |Titre de la rubrique | Modification |
-|------|------------|--------|
-| 11/4/2019 | [Gérer vos applications métier dans Microsoft teams](/MicrosoftTeams/manage-your-lob-apps) | modifié |
-| 11/4/2019 | [Partager des fichiers dans Microsoft teams](/MicrosoftTeams/sharing-files-in-teams) | modifié |
-| 11/4/2019 | [Activer et utiliser le tableau de bord de qualité des appels](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modifié |
-| 11/4/2019 | [Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | modifié |
-| 11/4/2019 | [Archiver ou supprimer une équipe dans Microsoft Teams](/MicrosoftTeams/archive-or-delete-a-team) | modifié |
-| 11/4/2019 | [Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](/MicrosoftTeams/assign-roles-permissions) | modifié |
-| 11/4/2019 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
-| 11/4/2019 | [Meilleurs pratiques d'organisation d'équipe dans Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | modifié |
-| 11/4/2019 | [Utiliser la recherche de contenu dans Microsoft Teams](/MicrosoftTeams/content-search) | modifié |
-| 11/4/2019 | [Mener une enquête eDiscovery du contenu dans Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | modifié |
-| 11/4/2019 | [Prise en main des modèles Teams](/MicrosoftTeams/get-started-with-teams-templates) | modifié |
-| 11/4/2019 | [Obstacles liés à l’information dans Microsoft teams](/MicrosoftTeams/information-barriers-in-teams) | modifié |
-| 11/4/2019 | [Mettre un utilisateur de Microsoft Teams ou de l’équipe en conservation légale](/MicrosoftTeams/legal-hold) | modifié |
-| 11/4/2019 | [Gérer les stratégies de messagerie dans Teams](/MicrosoftTeams/messaging-policies-in-teams) | modifié |
-| 11/4/2019 | [FAQ : stratégies de conservation dans Microsoft Teams](/MicrosoftTeams/retention-policies-faq) | modifié |
-| 11/4/2019 | [Problèmes connus pour les stratégies de rétention dans Microsoft Teams](/MicrosoftTeams/retention-policies-known-issues) | modifié |
-| 11/4/2019 | [Stratégies de conservation dans Microsoft Teams](/MicrosoftTeams/retention-policies) | modifié |
-| 11/4/2019 | [Présentation de la sécurité et de la conformité dans Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | modifié |
-| 11/4/2019 | [Présentation des équipes et des canaux dans Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modifié |
-| 11/4/2019 | [Gérer les stratégies d’équipes dans Microsoft teams](/MicrosoftTeams/teams-policies) | modifié |
-| 11/4/2019 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
-| 11/5/2019 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
-| 11/5/2019 | [Configuration matérielle requise pour l’application Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
-| 11/5/2019 | [Déploiement de salles de Microsoft teams avec Exchange Online](/MicrosoftTeams/room-systems/with-exchange-online) | modifié |
-| 11/5/2019 | Partager des fichiers dans Microsoft teams | supprimé |
-| 11/5/2019 | [Activer et utiliser le tableau de bord de qualité des appels](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modifié |
-| 11/5/2019 | [Application patients pour les administrateurs teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | modifié |
-| 11/5/2019 | [Configuration requise pour Microsoft teams](/MicrosoftTeams/room-systems/requirements) | modifié |
-| 11/6/2019 | [Disponibilité au Bahreïn](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | modifié |
-| 11/6/2019 | [Limites et spécifications de Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modifié |
-| 11/6/2019 | [Présence des utilisateurs dans Teams](/MicrosoftTeams/presence-admins) | modifié |
-| 11/6/2019 | [Effectuer une mise à niveau vers teams à partir d’un déploiement local de Skype entreprise-Microsoft teams](/MicrosoftTeams/upgrade-to-teams-on-prem-overview) | modifié |
-| 11/6/2019 | [Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](/MicrosoftTeams/room-systems/content-camera) | modifié |
-| 11/7/2019 | [Gérer les packages de stratégie dans Microsoft teams](/MicrosoftTeams/manage-policy-packages) | modifié |
-| 11/7/2019 | [Licences Salles Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | modifié |
-| 11/8/2019 | [Routage direct via le système téléphonique](/MicrosoftTeams/direct-routing-call-notifications) | modifié |
-| 11/8/2019 | [Gérer les paramètres de la console salles de Microsoft teams à distance à l’aide d’un fichier de configuration XML](/MicrosoftTeams/room-systems/xml-config-file) | modifié |
-| 11/8/2019 | [Gérer le cycle de vie des canaux privés dans Microsoft teams](/MicrosoftTeams/private-channels-life-cycle-management) | modifié |
-| 11/8/2019 | [Canaux privés dans Microsoft teams](/MicrosoftTeams/private-channels) | modifié |
-| 11/8/2019 | [Licences Salles Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | modifié |
-
-
 ## <a name="week-of-november-11-2019"></a>Semaine du 11 novembre 2019
 
 
@@ -196,3 +149,50 @@
 | 12/6/2019 | [Formation Microsoft Teams](/MicrosoftTeams/training-microsoft-teams-landing-page) | modifié |
 | 12/6/2019 | [Configuration requise pour Microsoft teams](/MicrosoftTeams/room-systems/requirements) | modifié |
 | 12/6/2019 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+
+
+## <a name="week-of-december-09-2019"></a>Semaine du 9 décembre 2019
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 12/9/2019 | [Utiliser des connecteurs Office 365 et personnalisés dans Microsoft Teams](/MicrosoftTeams/office-365-custom-connectors) | modifié |
+| 12/9/2019 | Ajouter des bots à des conversations et des canaux privés dans Microsoft Teams | supprimé |
+| 12/9/2019 | [Utiliser les onglets intégrés et personnalisés dans Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | modifié |
+| 12/9/2019 | [Applications, robots et connecteurs dans Microsoft Teams](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | modifié |
+| 12/9/2019 | [Utiliser l’outil de récupération de Microsoft Teams Rooms](/MicrosoftTeams/room-systems/recovery-tool) | modifié |
+| 12/9/2019 | [Configuration requise pour Microsoft teams](/MicrosoftTeams/room-systems/requirements) | modifié |
+| 12/9/2019 | [Utiliser Advisor for Teams (préversion) pour faciliter le déploiement de Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modifié |
+| 12/9/2019 | [Problèmes connus concernant Microsoft Teams](/MicrosoftTeams/known-issues) | modifié |
+| 12/9/2019 | [Gérer les stratégies d’identification d’appelant dans Microsoft teams](/MicrosoftTeams/caller-id-policies) | modifié |
+| 12/9/2019 | [Créer et gérer les plans de numérotation](/MicrosoftTeams/create-and-manage-dial-plans) | modifié |
+| 12/9/2019 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
+| 12/9/2019 | Introduction à la mise à \| niveau Pro pour Microsoft teams | supprimé |
+| 12/9/2019 | [Qu’est-ce que les plans de numérotation ?](/MicrosoftTeams/what-are-dial-plans) | modifié |
+| 12/10/2019 | [Gérer l’application Shifts pour votre organisation dans Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
+| 12/10/2019 | [Fin de parcours pour Microsoft StaffHub](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | modifié |
+| 12/10/2019 | [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modifié |
+| 12/10/2019 | [Configuration matérielle requise pour l’application Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
+| 12/10/2019 | [Une interface utilisateur native pour les discussions pour les utilisateurs externes de Microsoft teams](/MicrosoftTeams/native-chat-for-external-users) | modifié |
+| 12/10/2019 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 12/11/2019 | [Gérer les stratégies d’autorisation d’application dans Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modifié |
+| 12/11/2019 | [Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | modifié |
+| 12/11/2019 | [Gérer les stratégies d’appel d’urgence dans Microsoft teams](/MicrosoftTeams/manage-emergency-calling-policies) | modifié |
+| 12/11/2019 | [Notes de publication](/MicrosoftTeams/room-systems/srs2-release-note) | modifié |
+| 12/12/2019 | [Gérer les stratégies d’identification d’appelant dans Microsoft teams](/MicrosoftTeams/caller-id-policies) | modifié |
+| 12/12/2019 | [Gérer les stratégies d’acheminement des appels d’urgence dans Microsoft teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | modifié |
+| 12/12/2019 | [Gérer les stratégies d’appel d’urgence dans Microsoft teams](/MicrosoftTeams/manage-emergency-calling-policies) | modifié |
+| 12/12/2019 | [Gérer les stratégies de commentaires dans Microsoft teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | modifié |
+| 12/12/2019 | [Installer Microsoft Teams à l’aide de MSI, via SCCM](/MicrosoftTeams/msi-deployment) | modifié |
+| 12/12/2019 | [Étiquettes de confidentialité de Microsoft teams](/MicrosoftTeams/sensitivity-labels) | modifié |
+| 12/12/2019 | [Gérer les stratégies de mise en application dans Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | modifié |
+| 12/12/2019 | [Gérer les stratégies d’équipes dans Microsoft teams](/MicrosoftTeams/teams-policies) | modifié |
+| 12/12/2019 | [Configurer le routage direct](/MicrosoftTeams/direct-routing-configure) | modifié |
+| 12/12/2019 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
+| 12/13/2019 | [Interaction entre Exchange et Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modifié |
+| 12/13/2019 | [Autoriser l'accès invité dans Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modifié |
+| 12/13/2019 | [Configurer le routage direct](/MicrosoftTeams/direct-routing-configure) | modifié |
+| 12/13/2019 | [Configuration matérielle requise pour l’application Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
+| 12/13/2019 | [Canaux privés dans Microsoft teams](/MicrosoftTeams/private-channels) | modifié |
+| 12/13/2019 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
+| 12/13/2019 | [Utiliser Advisor for Teams (préversion) pour faciliter le déploiement de Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modifié |
