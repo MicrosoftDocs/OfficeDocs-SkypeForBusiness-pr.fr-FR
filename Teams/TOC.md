@@ -289,21 +289,26 @@
 
 
 # Voix Cloud 
+
 ## [Planifier votre déploiement](cloud-voice-landing-page.md)
+
 ## Système téléphonique
 ### [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 ### [Voici les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
 ### [Configurer le système téléphonique](setting-up-your-phone-system.md)
 ### [Configurer les téléphones de partie commune](set-up-common-area-phones.md)
+
 ### Messagerie vocale
 #### [Configurer la Messagerie vocale cloud](set-up-phone-system-voicemail.md)
 #### [Modifier la langue par défaut de la messagerie vocale](change-the-default-language-for-greetings-and-emails.md)
 #### [Langues pour la messagerie vocale accueil et des messages](languages-for-voicemail-greetings-and-messages.md)
+
 ### ID de l’appelant
 #### [Utilisation d’un ID d’appelant dans votre organisation](how-can-caller-id-be-used-in-your-organization.md)
 #### [Gérer les stratégies d’ID de l’appelant](caller-id-policies.md)
 #### [Définir l’ID de l’appelant pour un utilisateur](set-the-caller-id-for-a-user.md)
 #### [Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel](more-about-calling-line-id-and-calling-party-name.md)
+
 ### Standards automatiques et files d’attente d’appels 
 #### [Les standards cloud automatiques, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
 #### [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
@@ -312,6 +317,7 @@
 #### [Gérer les comptes de ressources dans Microsoft Teams](manage-resource-accounts.md)
 #### [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
 #### [Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams](answer-auto-attendant-and-call-queue-calls.md)
+
 ### [Parcage d’appel et récupération](call-park-and-retrieve.md)
 ### [Partage d’appel et prise d’appel de groupe](call-sharing-and-group-call-pickup.md)
 ### [Stratégie d’Appel](teams-calling-policy.md)
@@ -353,7 +359,12 @@
 #### [Indicatifs de pays pour le chemin d’accès au média](direct-routing-country-codes.md)
 #### [Script PowerShell pour tester les connexions au contrôleur SBC](sip-tester-powershell-script.md)
 #### [Gérer les notifications d’appels](direct-routing-call-notifications.md)
+#### Protocoles
+##### [Définitions et normes RFC](direct-routing-protocols.md)
+##### [Protocole SIP](direct-routing-protocols-SIP.md)
+##### [Protocoles de média](direct-routing-protocols-media.md)
 #### [Configurer le robot de rappel](direct-routing-ringback-bot.md)
+
 
 ## Numéros de téléphone
 ### [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
