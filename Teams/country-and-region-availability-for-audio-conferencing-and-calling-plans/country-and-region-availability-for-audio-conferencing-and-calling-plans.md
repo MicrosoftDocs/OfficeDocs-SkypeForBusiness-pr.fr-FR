@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour vérifier la présence de services d’audioconférence, de système téléphonique, de plans d’appel, de crédits de communications et si les numéros de téléphone gratuits et payants sont disponibles ou non.
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573084"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741388"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -39,21 +39,26 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Sélectionnez votre pays ou région pour voir ce qui est disponible pour votre organisation
 
 > [!div class="op_single_selector"]
-> - [Algérie](availability-in-algeria.md)    
+> - [Algérie](availability-in-algeria.md)
+> - [Antigua-et-Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentine](availability-in-argentina.md)
 > - [Australie](availability-in-australia.md)
 > - [Autriche](availability-in-austria.md)
+> - [Bahamas](availability-in-the-bahamas.md)
 > - [Bahreïn](availability-in-bahrain.md)
+> - [Barbade](availability-in-barbados.md)
 > - [Bélarus](availability-in-belarus.md)
 > - [Belgique](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Bénin](availability-in-benin.md)
+> - [Les Bermudes](availability-in-bermuda.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](availability-in-bosniaherzegovina.md)
 > - [Brésil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgarie](availability-in-bulgaria.md)
 > - [Cambodge](availability-in-cambodia.md)
 > - [Canada](availability-in-canada.md)
+> - [Cayman Islands](availability-in-the-cayman-islands.md)
 > - [Chili](availability-in-chile.md)
 > - [Chine](availability-in-china.md)
 > - [Colombie](availability-in-colombia.md)
@@ -62,6 +67,7 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Chypre](availability-in-cyprus.md)
 > - [République Tchèque](availability-in-the-czech-republic.md)
 > - [Danemark](availability-in-denmark.md)
+> - [Dominique](availability-in-dominica.md)
 > - [République dominicaine](availability-in-the-dominican-republic.md)
 > - [Équateur](availability-in-ecuador.md)
 > - [Égypte](availability-in-egypt.md)
@@ -73,14 +79,17 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Allemagne](availability-in-germany.md)
 > - [Ghana](availability-in-ghana.md)
 > - [Grèce](availability-in-greece.md)
+> - [Grenade](availability-in-grenada.md)
+> - [Guam](availability-in-guam.md)
 > - [Honduras](availability-in-honduras.md)
-> - [Hong Kong](availability-in-hong-kong.md)
+> - [Hong Kong (R.A.S.)](availability-in-hong-kong.md)
 > - [Hongrie](availability-in-hungary.md)
 > - [Inde](availability-in-india.md)
 > - [Indonésie](availability-in-indonesia.md)
 > - [Irlande](availability-in-ireland.md)
 > - [Israël](availability-in-israel.md)
 > - [Italie](availability-in-italy.md)
+> - [Jamaïque](availability-in-jamaica.md)
 > - [Japon](availability-in-japan.md)
 > - [Jordanie](availability-in-jordan.md)
 > - [Kazakhstan](availability-in-kazakhstan.md)
@@ -112,6 +121,8 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Qatar](availability-in-qatar.md)
 > - [Roumanie](availability-in-romania.md)
 > - [Russie](availability-in-russia.md)
+> - [Saint-Christophe-et-Niévès](availability-in-saint-kitts-and-nevis.md)
+> - [Sainte Lucie](availability-in-saint-lucia.md)
 > - [Arabie saoudite](availability-in-saudi-arabia.md)
 > - [Serbie](availability-in-serbia.md)
 > - [Singapour](availability-in-singapore.md)
@@ -136,7 +147,7 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul disponibilité du pays/](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)de la région dans le Cloud Voice**.
+**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul disponibilité du pays/](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)de la région dans le Cloud Voice**.
 
 ***
 
@@ -188,7 +199,7 @@ Outre le système téléphonique, les plans d’appels permettent aux utilisateu
 Vous pouvez également consulter les [licences de système téléphonique et de plans d’appel](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour obtenir des informations sur les licences.
 
 > [!NOTE]
-> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365** > **et** **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le centre d’administration **Microsoft 365 centrer**. 
+> Le pays ou la région est en fonction de l’emplacement de la licence de l’utilisateur dans le > **** Centre d' **administration Microsoft 365**et **non** de l’adresse de facturation figurant sous le profil de l' **organisation** dans le **Centre d’administration Microsoft 365**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Numéros de téléphone gratuits et payants pour les services
 

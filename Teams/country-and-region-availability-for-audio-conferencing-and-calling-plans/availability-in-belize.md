@@ -3,7 +3,7 @@ title: Disponibilité à Belize
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Belize.
-ms.openlocfilehash: 0a0f1de71a64c0bd9c1cd11cd7570442626a5073
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571113"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741348"
 ---
 # <a name="availability-in-belize"></a>Disponibilité à Belize
 
@@ -41,7 +41,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui, [payez à la minute](../audio-conferencing-pay-per-minute.md) uniquement <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
@@ -50,7 +50,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Le système téléphonique est-il disponible à l'achat ?  <br/> |Oui  <br/> |
-| Standards automatiques <br/> |Disponibles  <br/> |
+|Standards automatiques <br/> |Disponibles  <br/> |
 |Files d'attente des appels  <br/> |Disponibles  <br/> |
 |Messagerie vocale  <br/> |Disponibles  <br/> |
    
@@ -76,7 +76,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les crédits de communication sont-ils disponibles ?  <br/> |Non  <br/> |
+|Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   

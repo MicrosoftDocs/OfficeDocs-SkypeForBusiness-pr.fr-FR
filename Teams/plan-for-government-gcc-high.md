@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 12ef34ed9a4602f747b706c08586ecfe5854dcf4
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573283"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744858"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan pour Microsoft 365 Government-déploiements de niveau supérieur
 
@@ -40,7 +40,7 @@ Le secteur public de Microsoft 365-GCC High fournit une conformité aux exigence
 
 Vous pouvez en savoir plus sur le gouvernement Microsoft 365 pour les clients du secteur public d' [Office 365](https://products.office.com/government/compare-office-365-government-plans), y compris sur les [conditions d’éligibilité](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-La [Description du service fédéral des États-Unis d’Office 365](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) décrit les avantages de la plateforme, qui sont centrés sur les exigences en matière de conformité aux États-Unis.
+La [Description du service fédéral des États-Unis d’Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) décrit les avantages de la plateforme, qui sont centrés sur les exigences en matière de conformité aux États-Unis.
 
 
 > [!Tip]
@@ -90,7 +90,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Envoyer un canal par courrier électronique | Non disponibles |
 | | Ajouter un membre | Disponibles |
 | | Accès invité | Sur le backlog du secteur public |
-| Réunions | Programmer une réunion | Disponibles |
+| Meetings | Programmer une réunion | Disponibles |
 | | Rejoindre une réunion | Disponibles |
 | | Réunion VoIP | Disponibles |
 | | Partage de Bureau | Disponibles |
@@ -109,7 +109,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Skype pour les entreprises : appel d’équipes | Disponibles |
 | | Forfaits d'appels | Non disponible |
 | | Audioconférence (en permettant aux participants à la réunion de se connecter via PSTN) | Disponibles |
-| | Routage direct du système Microsoft Phone | Sur le backlog du secteur public |
+| | Routage direct du système Microsoft Phone | Disponibles |
 | | Salle d’attente pour les appelants PSTN | Sur le backlog du secteur public |
 | | File d’attente d’appels | Sur le backlog du secteur public |
 | | Prise en charge du patron et du délégué | Sur le backlog du secteur public |
@@ -126,7 +126,7 @@ Pour répondre aux besoins de nos clients du cloud public, il existe quelques di
 | | Standard automatique de l’Organisation | Sur le backlog du secteur public |
 | | Skype grand public-service d’appel d’équipe | Non disponibles |
 | Fichiers | Dernier | Disponibles |
-| | Microsoft Teams | Disponibles |
+| | Microsoft Teams | Disponibles |
 | Enregistrer | Magasin d’applications | Non disponibles |
 | Rechercher | Contenus | Disponibles |
 | | Personnes | Disponibles |

@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564965"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744868"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -95,7 +95,7 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 ## <a name="meeting-policy-settings---general"></a>Paramètres de la stratégie de réunion-général
 
 - [Autoriser la Conférence maintenant dans les canaux](#allow-meet-now-in-channels)
-- [Autoriser une conférence privée (bientôt disponible)](#allow-private-meet-now-coming-soon)
+- [Autoriser la conférence privée](#allow-private-meet-now)
 - [Autoriser le complément Outlook](#allow-the-outlook-add-in)
 - [Autoriser la planification des réunions de canal](#allow-channel-meeting-scheduling)
 - [Autoriser la planification de réunions privées](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 ![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>Autoriser une conférence privée (bientôt disponible)
+### <a name="allow-private-meet-now"></a>Autoriser la conférence privée
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  
 
@@ -138,7 +138,7 @@ Remarque : Si vous désactivez l’option **autoriser la planification de réun
 
 - [Autoriser la transcription](#allow-transcription)
 - [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
-- [Autoriser la vidéo IP](#allow-ip-video)
+- [Autoriser la vidéo sur IP](#allow-ip-video)
 - [Taux d’échantillonnage du support (Ko)](#media-bit-rate-kbs)
 - [Activer les légendes dynamiques (Preview)](#enable-live-captions-preview)
 
@@ -170,7 +170,7 @@ Les réunions organisées par Daniela ne peuvent pas être enregistrées et Aman
 
 Pour en savoir plus sur l’enregistrement d’une réunion dans le Cloud, voir [enregistrement de réunion Cloud teams](cloud-recording.md).
 
-### <a name="allow-ip-video"></a>Autoriser la vidéo IP
+### <a name="allow-ip-video"></a>Autoriser la vidéo sur IP
 
 Il s’agit d’une combinaison d’une stratégie par l’organisateur et par utilisateur. La vidéo est un composant clé pour les réunions. Dans certaines organisations, les administrateurs peuvent souhaiter davantage de contrôle sur les réunions des utilisateurs en vidéo. Ce paramètre détermine si la vidéo peut être activée dans les réunions hébergées par un utilisateur et dans les appels 1:1 et les appels de groupe démarrés par un utilisateur. Réunions organisées par un utilisateur pour lequel cette stratégie est activée, autorisez le partage vidéo pendant la réunion par les participants de la réunion, si la stratégie est également activée pour les participants à la réunion. Les participants à la réunion pour lesquels aucune stratégie n’est affectée (par exemple, des participants anonymes ou fédérés) héritent de la stratégie de l’organisateur de la réunion.
 
@@ -387,8 +387,6 @@ Voici le comportement de participation des personnes qui se connectent par tél�
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
 |   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-
-[Article complet](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>Voir aussi
 [Stratégies de messagerie dans teams](messaging-policies-in-teams.md)

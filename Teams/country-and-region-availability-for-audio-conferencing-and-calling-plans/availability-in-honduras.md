@@ -3,7 +3,7 @@ title: Disponibilité en Honduras
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.assetid: 3662b214-5798-458d-8dcd-0bd563ad01fd
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Honduras.
-ms.openlocfilehash: 0b02b165fbce211a6b9d92e59ecf2bf67a256aa5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 666e162de569aefb163a137e30926cf5b30a6a38
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568429"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741098"
 ---
 # <a name="availability-in-honduras"></a>Disponibilité en Honduras
 
@@ -41,7 +41,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui, [payez à la minute](../audio-conferencing-pay-per-minute.md) uniquement  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
@@ -66,9 +66,9 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Tegucigalpa ([à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Tegucigalpa <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui <br/> |
+|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -76,7 +76,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les crédits de communication sont-ils disponibles ?  <br/> |Non  <br/> |
+|Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
