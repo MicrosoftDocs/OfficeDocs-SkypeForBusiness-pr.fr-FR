@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Vous pouvez décider d'utiliser des pools frontaux couplés pour assurer une protection en cas de récupération d’urgence, bien que ceci ne soit pas nécessaire.
-ms.openlocfilehash: 4aa24c3a5150efbea87cd3837aca9216f047b11e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240034"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "39254393"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déploiement de pools frontaux couplés pour une reprise après sinistre dans Skype entreprise Server
  
@@ -39,25 +39,27 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
     
 6. Utilisez le générateur de topologie pour publier la topologie.
     
-7. Si les deux pools n’étaient pas déjà déployés, déployez-les maintenant pour terminer la configuration. Vous pouvez ignorer les deux dernières étapes de cette procédure.
+7. Si les deux pools n’étaient pas déjà déployés, déployez-les maintenant pour terminer la configuration. Vous pouvez ignorer les étapes finales de cette procédure.
     
-    Cependant, si les pools étaient déjà déployés avant de définir la relation de paire, vous devez procéder aux deux dernières étapes suivantes.
+    Toutefois, si les pools ont déjà été déployés avant de définir la relation couplée, vous devez effectuer les étapes finales suivantes.
     
 8. Sur chaque serveur frontal des deux pools, exécutez la commande suivante :
     
    ```
-   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
     Cela permet de configurer les autres services requis pour un fonctionnement correct du jumelage de sauvegarde.
     
-9. À partir d’une invite de commandes de Skype entreprise Server Management Shell, exécutez la commande suivante: 
+9. Une fois que le programme d’amorçage a terminé l’installation des composants requis pour le jumelage des copies de sauvegarde sur chaque serveur frontal dans les deux pools, veillez à réappliquer toute mise à jour cumulative déjà appliquée sur ces serveurs frontaux dans les deux pools, puis continuez. à l’étape suivante.
+
+10. À partir d’une invite de commandes de Skype entreprise Server Management Shell, exécutez la commande suivante : 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-10. Forcez la synchronisation des données d’utilisateur et de conférence entre les deux pools, à l’aide des applets de commande suivantes :
+11. Forcez la synchronisation de l’utilisateur et des données de conférences de ces deux groupes avec les applets de commande suivantes :
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>

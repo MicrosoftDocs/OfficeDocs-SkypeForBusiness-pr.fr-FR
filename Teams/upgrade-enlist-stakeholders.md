@@ -16,30 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e248d0cc92cea65fe8eb3b4a2c05f70b4c11c124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236453"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "36437626"
 ---
-![Illustration illustrant l’état des parties prenantes du parcours de mise à niveau] (media/upgrade-banner-stakeholders.png "Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project")
+![Illustration illustrant l’état des parties prenantes du parcours de mise à niveau](media/upgrade-banner-stakeholders.png "Étapes du parcours de la mise à niveau, en insistant sur le rassemblement de votre équipe de parties prenantes de Project")
 
 Cet article fait partie de l’étape parties prenantes dans le cadre de votre mise à niveau de votre projet.
 
+
 # <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
-À partir de la mise en œuvre des livrables du projet dans le code de responsabilité, vos parties prenantes ont la maîtrise du succès de votre projet. Il existe deux groupes de parties prenantes que vous pouvez affecter: (1) une _Coalition_ de parrainage incluant des dirigeants et des dirigeants de projet qui présentent un intérêt et une influence sur le succès du projet, et (2) l' _équipe du projet_, composée du personnes chargées de garantir la compatibilité technique et des utilisateurs, qui effectueront les différentes tâches du plan de projet. Le thread commun entre ces deux groupes est le _responsable de projet_, qui permet de s’assurer que les tâches de projet sont achevées en prévision et signale l’état du projet sur la coalition.
+À partir de la mise en œuvre des livrables du projet dans le code de responsabilité, vos parties prenantes ont la maîtrise du succès de votre projet. Deux groupes de parties prenantes sont à votre disposition : (1) une _coalition de parrainage_ incluant des dirigeants et des dirigeants de projet qui ont un intérêt et une influence sur le succès du projet, et (2) l' _équipe de projet_, composée des personnes chargées de la gestion des utilisateurs et des tâches, qui effectuent les diverses tâches du plan de projet. Le thread commun entre ces deux groupes est le _responsable de projet_, qui permet de s’assurer que les tâches de projet sont achevées en prévision et signale l’état du projet sur la coalition.
 
 > [!Tip]
 > Prenez le temps d’identifier le sponsor de la direction idéale, une personne qui peut vous aider à définir la tonalité de votre projet, des prospects par exemple, et à faire en sorte que les autres soient responsables. Il doit s’agir d’un directeur ou d’une direction qui est compétente pour le projet et la vision. Ils doivent également être les décideurs finaux lors de la suppression des blocs-majuscules et de la résolution des conflits afin de préserver le temps et le budget du projet.
 
-Vous pouvez également créer un Comité de direction. Des projets de grande envergure ou plus complexes finissent par «trop de cuisiniers dans la cuisine», ce qui se traduit par une déconnexion entre les groupes parties prenantes. Pour ces projets, vous souhaiterez peut-être créer une Commission de direction. Le Comité d’orientation est responsable de la prise de décision, de la surveillance stratégique, de la prise en charge des initiatives du projet et, si nécessaire, de la suppression des bloqueurs. Vous trouverez davantage d’informations sur l’implémentation d’un Comité de direction dans le [Guide du Comité d’orientation](https://aka.ms/SteeringCommittee).
+Vous pouvez également créer un Comité de direction. Des projets de grande envergure ou plus complexes finissent par « trop de cuisiniers dans la cuisine », ce qui se traduit par une déconnexion entre les groupes parties prenantes. Pour ces projets, vous souhaiterez peut-être créer une Commission de direction. Le Comité d’orientation est responsable de la prise de décision, de la surveillance stratégique, de la prise en charge des initiatives du projet et, si nécessaire, de la suppression des bloqueurs. Vous trouverez davantage d’informations sur l’implémentation d’un Comité de direction dans le [Guide du Comité d’orientation](https://aka.ms/SteeringCommittee).
 
 | | |
 |---|---|
-| ![Icône représentant des points de décision](media/audio_conferencing_image7.png) <br/>Points de décision | <ul><li>Qui est le plus approprié pour vous servir de votre équipe de parties prenantes pour ce projet?</li></ul> |
-| ![Icône illustrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Envisagez l’objectif de votre projet et attribuez les parties prenantes concernées.</li><li>Vous trouverez ci-dessous le tableau ci-dessous, mais cette liste n’est pas exhaustive.<br><strong>Extrem</strong><br>Construisez une matrice responsable-consulté [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) pour mieux distinguer les personnes qui seront tenues responsables de celles qui doivent simplement être tenues informées dans une zone spécifique du projet.</li> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision | <ul><li>Qui est le plus approprié pour vous servir de votre équipe de parties prenantes pour ce projet ?</li></ul> |
+| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Envisagez l’objectif de votre projet et attribuez les parties prenantes concernées.</li><li>Vous trouverez ci-dessous le tableau ci-dessous, mais cette liste n’est pas exhaustive.<br><strong>Extrem</strong><br>Construisez une matrice responsable-consulté [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) pour mieux distinguer les personnes qui seront tenues responsables de celles qui doivent simplement être tenues informées dans une zone spécifique du projet.</li> |
 | <li>Décidez si vous souhaitez créer un Comité de direction et attribuez les rôles appropriés.</li></ul> | |
 
 | Rôles | Centres |
@@ -57,7 +58,7 @@ Vous pouvez également créer un Comité de direction. Des projets de grande env
 | Prospect de communications synchrones | Possède des outils de présence tels que les discussions, les réunions et les appels |
 | Prospect de collaboration asynchrone | Possède des outils asynchrones tels que SharePoint, OneDrive, etc. |
 | Directeur de la téléphonie | Fournit des informations de conception et de mise en œuvre de la téléphonie |
-| Propriétaire du service/champion de qualité | Est propriétaire du fonctionnement des équipes, y compris la qualité de l’interface utilisateur; |
+| Propriétaire du service/champion de qualité | Est propriétaire du fonctionnement des équipes, y compris la qualité de l’interface utilisateur ; |
 | Prospect pour ordinateur de bureau et appareils | Fournit des entrées aux clients, appareils et applications de bureau. |
 | Administrateur informatique/client | Garantir la disponibilité du réseau et les configurations du portail Office 365 |
 | Responsable du support | Gère la préparation de votre support technique |
@@ -65,4 +66,4 @@ Vous pouvez également créer un Comité de direction. Des projets de grande env
 | Prospect marketing | Conception et mise en œuvre de campagnes de communication |
 | Responsable de formation | Conception et mise en œuvre des plans de formation |
 
-Après avoir recueilli les parties prenantes, passez à l’étape suivante: [définir l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope).
+Après avoir recueilli les parties prenantes, passez à l’étape suivante : [définir l’étendue de votre projet](https://aka.ms/SkypetoTeams-Scope).
