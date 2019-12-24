@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890578"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854089"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -157,13 +157,13 @@ Nous vous conseillons vivement de commencer l’installation de vos nouveaux sta
 | Virtual | Fonctionnalités de l’appelant  | Détection de silence   |  | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Messagerie vocale protégée au niveau du serveur    | Client : un administrateur peut configurer une règle de niveau de service pour marquer la boîte vocale comme protégée | O | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer la durée limite d’enregistrement  |     | Y | Y    |
-| Virtual | Client-fonctionnalités d’administration | Changer le délai de détection du silence    |  | S/O    | Y    |
+| Virtual | Client-fonctionnalités d’administration | Changer le délai de détection du silence    |  | N/A    | Y    |
 | Virtual | Client-fonctionnalités d’administration | Changer le nombre d’échecs d’entrée | CVM : préprogrammé sur 3 | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Changer la langue par défaut |  | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Activer/désactiver la transcription |  | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Activer/désactiver les notifications d’appel manqué |  | N | O    |
 | Virtual | Client-fonctionnalités d’administration | Aider Microsoft à améliorer l’aperçu de messagerie vocale    |  | Y | Y    |
-| Virtual | Client-fonctionnalités d’administration | Personnaliser un message texte pour les utilisateurs activés|  | S/O    | Y    |
+| Virtual | Client-fonctionnalités d’administration | Personnaliser un message texte pour les utilisateurs activés|  | N/A    | Y    |
 | Virtual | Client-fonctionnalités d’administration | Masquage d’inconvenances de transcription|  | O | N    |
 | Virtual | Client-fonctionnalités d’administration | Politique de messagerie vocale    |   | Y | Y    |
 | Virtual | Client-fonctionnalités d’administration | Administration du portail Web   |  | CY19   | Y    |
@@ -185,7 +185,7 @@ Nous vous conseillons vivement de commencer l’installation de vos nouveaux sta
 | INFORMATISÉ | Fonctionnalités de service | Traitement après heures-heures et jours fériés  |  | Y | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Message d’accueil personnalisé utilisant conversion de texte par synthèse vocale  |  | Y | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Numéro de téléphone   | Accès à un utilisateur en composant son poste  | Y   | Y    |
-| INFORMATISÉ | Fonctionnalités de service | Boîte aux lettres pour AA pour lequel les appelants doivent laisser un message    |  | CY19   | Y    |
+| INFORMATISÉ | Fonctionnalités de service | Boîte aux lettres pour AA pour lequel les appelants doivent laisser un message    |  | Y   | Y    |
 | INFORMATISÉ | Fonctionnalités de service | Attributions de numéros PSTN multiples à un AA|  | Y | Y    |
 | INFORMATISÉ | Client-fonctionnalités d’administration | Administration du portail Web   |  | O | N    |
 | INFORMATISÉ | Client-fonctionnalités d’administration | Cmdlets PowerShell  |  | Y | Y    |
