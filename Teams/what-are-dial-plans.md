@@ -19,26 +19,26 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Apprenez-en davantage sur les types de plans d’appel d’appels RTC disponibles avec les équipes et en choisissant une pour votre organisation.  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069325"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891213"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
 Un plan de numérotation est un jeu nommé de règles de normalisation qui convertissent les numéros de téléphones appelés par un utilisateur individuel dans un autre format (typiquement E.164) pour l'autorisation et le routage des appels.
 
-Un plan de numérotation se compose d’une ou de plusieurs règles de normalisation qui définissent la façon dont les numéros de téléphone exprimés dans différents formats sont convertis dans un autre format. La même chaîne de numérotation peut être interprétée et traduite différemment selon le plan de numérotation, donc selon le plan de numérotation affecté à un utilisateur donné, le même numéro peut être traduit et routé différemment.
+Un plan de numérotation se compose d’une ou de plusieurs règles de normalisation qui définissent la façon dont les numéros de téléphone exprimés dans différents formats sont convertis dans un autre format. La même chaîne de numérotation peut être interprétée et traduite différemment selon le plan de numérotation, donc selon le plan de numérotation affecté à un utilisateur donné, le même numéro peut être traduit et routé différemment. Il peut y avoir au maximum un plan de numérotation client 1 000.
 
 Consultez [créer et gérer les plans de numérotation](create-and-manage-dial-plans.md) pour créer et gérer les plans de numérotation client.
 
 ## <a name="tenant-dial-plan-scope"></a>Étendue du plan de numérotation client
 
-L’étendue d’un plan de numérotation détermine le niveau hiérarchique auquel le plan de numérotation peut être appliqué. Les clients obtiennent le plan de numérotation approprié via les paramètres de mise en service fournis automatiquement lorsque les utilisateurs se connectent à Teams. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation à l’aide du centre d’administration Microsoft teams ou de PowerShell distant.
+L'étendue d'un plan de numérotation détermine le niveau hiérarchique auquel celui-ci est appliqué. Les clients obtiennent le plan de numérotation approprié via les paramètres de mise en service fournis automatiquement lorsque les utilisateurs se connectent à Teams. En tant qu’administrateur, vous pouvez gérer et affecter des niveaux d’étendue de plan de numérotation à l’aide du centre d’administration Microsoft teams ou de PowerShell distant.
 
-Dans Teams, il existe deux types de plans de numérotation : à l’étendue du service et dans le cadre de votre organisation. Un plan de numérotation à portée de service est défini pour chaque pays ou région où le système téléphonique est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Il nʼest donc pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client car elles peuvent déjà exister dans le plan de numérotation du pays de service.
+Dans Teams, il existe deux types de plans de numérotation : à l’étendue du service et dans le cadre de votre organisation. Un plan de numérotation à portée de service est défini pour chaque pays ou région où le système téléphonique est disponible. Un plan de numérotation pays correspondant au lieu d’utilisation attribué à l’utilisateur est automatiquement affecté à chaque utilisateur. Vous ne pouvez pas modifier le plan de numérotation des pays de service, mais vous pouvez créer des plans de numérotation de locataire pour compléter le plan de numérotation pays. À mesure que les clients sont approvisionnés, ils obtiennent un plan de numérotation efficace, qui est une combinaison du plan de numérotation national des services et du plan de numérotation client de portée appropriée. Par conséquent, il n’est pas nécessaire de définir toutes les règles de normalisation dans les plans de numérotation client tels qu’ils existent déjà dans le plan de numérotation des pays de service.
 
 Les plans de numérotation client peuvent être divisés en deux étendues : le client-étendue ou l’étendue utilisateur. Si un client définit et attribue un plan de numérotation d’étendue utilisateur, il est configuré avec un plan de numérotation efficace du plan de numérotation de l’utilisateur et le plan de numérotation de l’utilisateur affecté. Si un client définit un plan de numérotation de niveau client et qu’il n’affecte pas de plan de numérotation, il est mis en place avec un plan de numérotation efficace du plan de numérotation de l’utilisateur et du plan de numérotation client.
 
