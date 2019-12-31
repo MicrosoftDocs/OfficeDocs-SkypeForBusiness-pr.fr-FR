@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles de Microsoft teams dans un environnement hybride avec Exchange sur site.
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675408"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910052"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déploiement de salles de Microsoft teams avec Exchange en local
 
@@ -44,11 +44,11 @@ Si vous déployez des salles Microsoft teams avec Exchange en local, vous utilis
 
   - Vous devez disposer de Skype entreprise Online (plan 2) ou d’une version ultérieure dans votre plan Office 365. Le plan doit prendre en charge la fonctionnalité de conférence.
   
-  - - Si vous avez besoin d’une voix entreprise (RTC) avec des fournisseurs de service de téléphonie pour Microsoft Teams, vous avez besoin de Skype entreprise Online (plan 3).
+  - Si vous avez besoin d’une voix entreprise (RTC) avec des fournisseurs de service de téléphonie pour Microsoft Teams, vous avez besoin de Skype entreprise Online (plan 3).
   
-  - - Les utilisateurs de votre client doivent avoir des boîtes aux lettres Exchange.
+  - Les utilisateurs de votre client doivent avoir des boîtes aux lettres Exchange.
   
-  - - Votre compte Microsoft teams Room nécessite une licence Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), mais elle ne nécessite pas de licence Exchange Online.
+  - Votre compte Microsoft teams Room nécessite une licence Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), mais elle ne nécessite pas de licence Exchange Online.
 
 - Affectez une licence Skype entreprise Server à votre compte Microsoft teams Room.
 
@@ -144,9 +144,9 @@ PowerShell Skype entreprise Online permet de gérer les services de Microsoft te
 
 2. Obtenez l’adresse SIP du compte :
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. Pour activer votre compte Microsoft teams Room, exécutez la commande suivante :
 
