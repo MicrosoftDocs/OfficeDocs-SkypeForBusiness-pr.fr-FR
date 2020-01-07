@@ -3,7 +3,7 @@ title: Disponibilité en Moldavie
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 9143517690dc1c06ff4d2fd16d36ca57ce245e11
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f59b511498f43e459f9d5d9b920b852f8af4d5e9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571061"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952427"
 ---
 # <a name="availability-in-moldova"></a>Disponibilité en Moldavie
 
@@ -40,7 +40,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui, [payez à la minute](../audio-conferencing-pay-per-minute.md) uniquement  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non  <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> |Nécessite des crédits de communication  <br/> |
    
@@ -75,7 +75,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les crédits de communication sont-ils disponibles ?  <br/> |Non  <br/> |
+|Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   

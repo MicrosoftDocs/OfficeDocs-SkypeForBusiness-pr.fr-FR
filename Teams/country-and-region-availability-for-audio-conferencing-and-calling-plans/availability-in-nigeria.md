@@ -3,7 +3,7 @@ title: Disponibilité au Nigeria
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Nigeria.
-ms.openlocfilehash: 1488ca5e87ace3d54314ae159fc22c9d74d6c13d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6d2ce0d1aef4ce991f7adbef441707d828fd9a82
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571014"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952397"
 ---
 # <a name="availability-in-nigeria"></a>Disponibilité au Nigeria
 
@@ -40,7 +40,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|L'audioconférence est-elle disponible à l'achat ?  <br/> |Non  <br/> |
+|L'audioconférence est-elle disponible à l'achat ?  <br/> |Oui, [payez à la minute](../audio-conferencing-pay-per-minute.md) uniquement  <br/> |
 |Les numéros de téléphone sont-ils attribués automatiquement pour l'audioconférence ?  <br/> |Non <br/> |
 |Fonction de numérotation à l'aide de la fonctionnalité M'appeler  <br/> | Nécessite des crédits de communication <br/> |
    
@@ -65,8 +65,8 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | , Lagos ([à la demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | , Lagos <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Le numéro gratuit disponible est-il disponible ?  <br/> |Non  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone gratuits et payants pour les conférences audio, les standards automatiques et les files d’attente, voir [obtention des numéros de téléphone de service pour Skype entreprise et Microsoft teams](/microsoftteams/getting-service-phone-numbers).
@@ -75,7 +75,7 @@ Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibl
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Les crédits de communication sont-ils disponibles ?  <br/> |Non  <br/> |
+|Les crédits de communication sont-ils disponibles ?  <br/> |Oui  <br/> |
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   

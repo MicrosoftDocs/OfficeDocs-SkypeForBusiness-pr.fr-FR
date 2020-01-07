@@ -1,6 +1,5 @@
 ---
 title: Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Vous pouvez sélectionner un pays ou une région pour vérifier la présence de services d’audioconférence, de système téléphonique, de plans d’appel, de crédits de communications et si les numéros de téléphone gratuits et payants sont disponibles ou non.
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741388"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952437"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -51,14 +50,14 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Belgique](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Bénin](availability-in-benin.md)
-> - [Les Bermudes](availability-in-bermuda.md)
+> - [Bermudes](availability-in-bermuda.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](availability-in-bosniaherzegovina.md)
 > - [Brésil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgarie](availability-in-bulgaria.md)
 > - [Cambodge](availability-in-cambodia.md)
 > - [Canada](availability-in-canada.md)
-> - [Cayman Islands](availability-in-the-cayman-islands.md)
+> - [Îles Caïmans](availability-in-the-cayman-islands.md)
 > - [Chili](availability-in-chile.md)
 > - [Chine](availability-in-china.md)
 > - [Colombie](availability-in-colombia.md)
@@ -121,8 +120,8 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Qatar](availability-in-qatar.md)
 > - [Roumanie](availability-in-romania.md)
 > - [Russie](availability-in-russia.md)
-> - [Saint-Christophe-et-Niévès](availability-in-saint-kitts-and-nevis.md)
-> - [Sainte Lucie](availability-in-saint-lucia.md)
+> - [Saint-Kitts-et-Nevis](availability-in-saint-kitts-and-nevis.md)
+> - [Sainte-Lucie](availability-in-saint-lucia.md)
 > - [Arabie saoudite](availability-in-saudi-arabia.md)
 > - [Serbie](availability-in-serbia.md)
 > - [Singapour](availability-in-singapore.md)
@@ -147,7 +146,7 @@ Vous pouvez sélectionner un pays ou une région pour découvrir les fonctionnal
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul disponibilité du pays/](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)de la région dans le Cloud Voice**.
+**Si vous recherchez une feuille de calcul avec tous les pays et régions, téléchargez et enregistrez la [feuille de calcul disponibilité du pays/](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)de la région dans le Cloud Voice**.
 
 ***
 

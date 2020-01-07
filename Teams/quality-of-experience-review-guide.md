@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290974"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952807"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -83,7 +83,7 @@ Vous pouvez également affecter le rôle suivant à un compte d’utilisateur Of
 Lorsque vous discutez de la qualité dans équipes et Skype entreprise, il est important de définir le terme pour parvenir à une connaissance commune. La qualité définie ici est une combinaison de métriques de service et d’une interface utilisateur.
 
 <!-- Note: need to update graphic-->
-![Illustration des métriques du service et de l’utilisation de l’utilisateur](media/qerguide-image-whatisquality.png "Sles métriques du ervice sont composées de médiocres taux de flux, de fiabilité, de points de terminaison/de périphériques et de versions clientes. L’utilisation de l’utilisateur est composée de la perception de la qualité du service par l’utilisateur.»)
+![Illustration des métriques du service et de l’utilisation de l’utilisateur](media/qerguide-image-whatisquality.png "Les métriques de service sont composées de faible rapport de flux, de fiabilité, de points de terminaison/de périphériques et de versions clientes. L’utilisation de l’utilisateur est composée de la perception de la qualité du service par l’utilisateur.")
 
 _Figure 2 : qu’est-ce que la qualité ?_
 
@@ -225,7 +225,7 @@ Le graphique suivant décrit les tâches que vous devez exécuter pour chaque ca
 La première fois que vous effectuez ces tâches, la première fois que vous effectuez cette opération, il est préférable de valider les configurations de déploiement pour la plupart des itérations. Après avoir atteint l’état souhaité en remplissant les cibles que vous avez définies, l’exécution de ces tâches vous aidera à gérer cet État.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Liste des tâches hebdomadaires par catégorie de qualité](media/qerguide-image-tasks.png "LIST de tâches hebdomadaires par catégorie de qualité ")
+![Liste des tâches hebdomadaires par catégorie de qualité](media/qerguide-image-tasks.png "Liste des tâches hebdomadaires par catégorie de qualité")
 
 #### <a name="service-management-tasks"></a>Tâches de gestion des services
 
@@ -323,7 +323,7 @@ Certains rapports bord requièrent l’inclusion d’un filtre pour votre ID de 
 
 2. Ouvrez une fenêtre de commande Azure PowerShell et exécutez le script suivant en entrant vos informations d’identification Office 365 lorsque vous y êtes invité : 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ Certains rapports bord requièrent l’inclusion d’un filtre pour votre ID de 
 
 2. Exécutez la commande suivante :
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _Figure 5 : sélectionner un filtre produit_
 
 Pour filtrer tous les rapports détaillés, dans la barre de navigation, ajoutez le code suivant à la fin de l’URL :
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ L’exclusion des données fédérées des rapports bord est utile lorsque vous 
 
 Pour implémenter un filtre d’URL, dans la barre d’adresses du navigateur, ajoutez le code suivant à la fin de l’URL :
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ Example
 
 Pour filtrer les rapports pour teams ou Skype entreprise, ajoutez le code suivant à la fin de l’URL :
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
