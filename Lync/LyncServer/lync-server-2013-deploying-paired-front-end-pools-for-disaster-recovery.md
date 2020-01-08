@@ -10,12 +10,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78c0d6b266f6401c9ba48bfe38ee54b7b4281717
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831528"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34831528"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Vous pouvez facilement déployer la topologie de reprise après sinistre des pools front-end couplés à l’aide du générateur de topologie.
 
@@ -49,7 +49,7 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
 
 4.  Dans la zone située en dessous de **Pool de stockage associé**, sélectionnez le pool que vous voulez jumeler à celui-ci. Seuls les pools existants qui ne sont pas déjà jumelés avec un autre pool peuvent être choisis.
     
-    ![36080581-db76-497d-bf9e-f02b39574d0e] (images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
+    ![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
 
 5.  Sélectionnez **Basculement et restauration automatiques pour Voice**, puis cliquez sur **OK **.
     
@@ -62,32 +62,32 @@ Vous pouvez facilement déployer la topologie de reprise après sinistre des poo
     Cependant, si les pools étaient déjà déployés avant de définir la relation de paire, vous devez procéder aux deux dernières étapes suivantes.
 
 8.  Sur chaque serveur frontal des deux pools, exécutez la commande suivante :
-    
-        <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
-    
+    ```console
+    <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
+    ```
     Cela permet de configurer les autres services requis pour un fonctionnement correct du jumelage de sauvegarde.
 
-9.  À partir d’une invite de commandes de Lync Server Management Shell, exécutez la commande suivante:
-    
-        Start-CsWindowsService -Name LYNCBACKUP
-
+9.  À partir d’une invite de commandes de Lync Server Management Shell, exécutez la commande suivante :
+    ```powershell
+    Start-CsWindowsService -Name LYNCBACKUP
+    ```
 10. Forcez la synchronisation des données d’utilisateur et de conférence entre les deux pools, à l’aide des applets de commande suivantes :
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
     La synchronisation des données peut durer un certain temps. Vous pouvez utiliser les applets de commande suivantes pour vérifier l’état. Assurez-vous que l’état de synchronisation dans les deux sens est stable.
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
        ```
     
-       ```
+       ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN>
        ```
 

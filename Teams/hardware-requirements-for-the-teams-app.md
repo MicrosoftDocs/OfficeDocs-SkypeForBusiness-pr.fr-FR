@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019958"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970962"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Configuration matérielle requise pour l’application Microsoft Teams
 
@@ -78,11 +78,11 @@ Toutes les exigences des sections suivantes s’appliquent à l’application de
 
 Vous pouvez utiliser teams sur les plateformes mobiles suivantes :
 
-- Android-nécessite Android 5,0 ou une version ultérieure. Compatible avec les téléphones et tablettes Android.
+- Android : compatible avec les téléphones et tablettes Android.
 
   La prise en charge est limitée aux quatre dernières versions d’Android. Lorsqu’une nouvelle version majeure d’Android est publiée, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
 
-- iOS : nécessite iOS 10,0 ou une version ultérieure. Compatible avec les iPhone, iPad et iPod effleure. 
+- iOS : compatible avec les iPhone, iPad et iPod effleure. 
 
   La prise en charge est limitée aux deux dernières versions principales d’iOS. Lorsqu’une nouvelle version majeure d’iOS est publiée, la nouvelle version d’iOS et la version précédente sont officiellement prises en charge.
 
@@ -92,7 +92,7 @@ Pour une utilisation optimale de Microsoft Teams, utilisez la dernière version 
 
 Pour plus d’attentes concernant l’exécution d’équipes dans un environnement virtualisé, voir [teams pour l’infrastructure de bureau virtualisé](teams-for-vdi.md) . 
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 - [Obtenir des applications teams](get-clients.md)
 - [Microsoft teams sur les appareils mobiles](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
 - [Installation de l’application Microsoft teams à l’aide d’un fichier MSI](msi-deployment.md)

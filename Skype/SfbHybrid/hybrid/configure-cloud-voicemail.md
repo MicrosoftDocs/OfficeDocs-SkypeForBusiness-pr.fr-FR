@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour l’implémentation de la messagerie vocale en nuage pour les utilisateurs hébergés sur Skype entreprise Server.
-ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616068"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963002"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
 
@@ -64,7 +64,7 @@ Vous configurez la messagerie vocale Cloud en tant que fournisseur d’hébergem
 Par exemple, dans Skype entreprise Management Shell, l’applet de commande suivante configure la messagerie vocale du Cloud en tant que fournisseur d’hébergement :
 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -74,7 +74,7 @@ Pour vous assurer que la messagerie vocale de votre organisation est acheminée 
 
 Pour modifier la stratégie globale, exécutez la commande suivante dans Skype entreprise Server Management Shell après avoir mis à jour votre organisation et TenantID :
 
-```
+```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
@@ -88,7 +88,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 Pour vous assurer qu’une stratégie de messagerie vocale hébergée a été correctement créée, exécutez la commande suivante :
 
-```
+```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
@@ -99,7 +99,7 @@ Par défaut, la stratégie de messagerie vocale hébergée globale est affectée
 Par exemple, la commande suivante attribue une stratégie de messagerie vocale hébergée non globale à un utilisateur :
 
 
-```
+```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 

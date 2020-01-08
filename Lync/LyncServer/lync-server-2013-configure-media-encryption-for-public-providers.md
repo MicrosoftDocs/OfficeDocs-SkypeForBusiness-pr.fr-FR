@@ -10,12 +10,12 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1496bda01456593066efd212241e3d930f1e2cc6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 270035730b8268c56b1730d8c212e90c8a9f1a30
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838348"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,23 +33,23 @@ ms.locfileid: "34838348"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-12-12_
+_**Dernière modification de la rubrique :** 2014-12-12_
 
-Si vous implémentez une Fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez modifier deux paramètres: le niveau de chiffrement de Lync Server et la stratégie EnablePublicCloudAccess. Par défaut, le niveau de cryptage est défini sur obligatoire. Vous devez définir ce paramètre sur pris en charge. Si la stratégie EnablePublicCloudAccess est définie sur false, elle doit être définie sur **true**. Vous pouvez le faire à partir de Lync Server Management Shell.
+Si vous implémentez une Fédération audio/vidéo (A/V) avec Windows Live Messenger, vous devez modifier deux paramètres : le niveau de chiffrement de Lync Server et la stratégie EnablePublicCloudAccess. Par défaut, le niveau de cryptage est défini sur obligatoire. Vous devez définir ce paramètre sur pris en charge. Si la stratégie EnablePublicCloudAccess est définie sur false, elle doit être définie sur **true**. Vous pouvez le faire à partir de Lync Server Management Shell.
 
 <div>
 
 ## <a name="configure-federation-for-windows-live"></a>Configurer la Fédération pour Windows Live
 
-1.  Démarrez Lync Server Management Shell sur le serveur frontal: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell sur le serveur frontal : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  À l’invite de commandes, tapez les commandes suivantes:
+2.  À l’invite de commandes, tapez les commandes suivantes :
     
-       ```
+       ```powershell
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
        ```
     
-       ```
+       ```powershell
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
        ```
     

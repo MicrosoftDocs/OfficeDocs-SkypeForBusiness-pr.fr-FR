@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: déploiement de Lync Web App'
+title: 'Lync Server 2013 : déploiement de Lync Web App'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca2a0d2da0b10b8e60df8489b8cc0a584cd70e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c355be1c1709cede9c032d59790d6beefb337ff6
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831543"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34831543"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-18_
+_**Dernière modification de la rubrique :** 2013-07-18_
 
 Lync Web App est un client Web Internet Information Services (IIS) qui s’installe avec Lync Server 2013 et est activé par défaut. Aucune étape supplémentaire n’est nécessaire pour activer Lync Web App sur le serveur ou déployer le client Web auprès des utilisateurs. Dès qu’un utilisateur clique sur l’URL d’une réunion, mais que le client 2013 Lync n’est pas installé, l’utilisateur est invité à rejoindre la réunion à l’aide de la version la plus récente de Lync Web App.
 
@@ -78,28 +78,28 @@ La version 2013 de Lync Server de Lync Web App prend en charge l’authentificat
 
 1.  Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, consultez le Guide de déploiement de services ADFS (Active Directory Federation Services) 2,0 à l’adresse<http://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Créez des certificats pour AD FS. Pour plus d’informations, reportez-vous à la section «certificats de serveur de Fédération» de la rubrique plan pour et déployer AD FS [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)pour une utilisation avec une connexion unique à l’adresse.
+2.  Créez des certificats pour AD FS. Pour plus d’informations, reportez-vous à la section « certificats de serveur de Fédération » de la rubrique plan pour et déployer AD FS [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)pour une utilisation avec une connexion unique à l’adresse.
 
-3.  À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+3.  À partir de l’interface de ligne de commande Windows PowerShell, exécutez la commande suivante :
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Établissez un partenariat en exécutant la commande suivante :
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  Définissez les règles de partie de confiance suivantes :
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuration de la Fédération avec Lync Online'
+title: 'Lync Server 2013 : configuration de la Fédération avec Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d690b21614ec416d82834761772cee05ee16f26e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee7cf175e2ca46a54f3c6505fe5f94b69120763
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838369"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34838369"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-08-15_
+_**Dernière modification de la rubrique :** 2016-08-15_
 
 Suivez les étapes décrites dans cette section pour configurer l’interopérabilité entre votre déploiement local et Skype entreprise online.
 
@@ -43,13 +43,13 @@ Suivez les étapes décrites dans cette section pour configurer l’interopérab
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Configurer votre service Edge local pour la Fédération avec Skype entreprise Online
 
-La Fédération permet aux utilisateurs de votre déploiement local de communiquer avec les utilisateurs d’Office 365 au sein de votre organisation. Pour configurer la Fédération, exécutez les applets de commande suivantes:
+La Fédération permet aux utilisateurs de votre déploiement local de communiquer avec les utilisateurs d’Office 365 au sein de votre organisation. Pour configurer la Fédération, exécutez les applets de commande suivantes :
 
-   ```
+   ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
    ```
 
-   ```
+   ```powershell
     New-CSHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
    ```
 
@@ -65,27 +65,27 @@ Une adresse SIP (Session Initiation Protocol) est un identificateur unique pour
 
 Move-CsUser : HostedMigration fault: Error=(510), Description=(Le client de cet utilisateur n’est pas activé pour l’espace d’adressage SIP partagé.)
 
-Pour configurer un espace d’adressage SIP partagé, établissez une session PowerShell distante avec Skype entreprise Online, puis exécutez l’applet de commande suivante:
-
-    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
-
-Pour établir une session PowerShell distante avec Skype entreprise Online, vous devez d’abord installer le module Skype entreprise Online pour Windows PowerShell, que vous pouvez consulter: [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
+Pour configurer un espace d’adressage SIP partagé, établissez une session PowerShell distante avec Skype entreprise Online, puis exécutez l’applet de commande suivante :
+```powershell
+Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
+```
+Pour établir une session PowerShell distante avec Skype entreprise Online, vous devez d’abord installer le module Skype entreprise Online pour Windows PowerShell, que vous pouvez consulter : [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911).
 
 Après avoir installé le module, vous pouvez établir une session distante avec les applets de commande suivantes :
 
-   ```
+   ```powershell
     Import-Module LyncOnlineConnector
    ```
 
-   ```
+   ```powershell
     $cred = Get-Credential
    ``` 
 
-   ```
+   ```powershell
     $CSSession = New-CsOnlineSession -Credential $cred
    ```
 
-   ```
+   ```powershell
     Import-PSSession $CSSession -AllowClobber
    ```
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuration de la messagerie unifiée sur Microsoft Exchange'
+title: 'Lync Server 2013 : configuration de la messagerie unifiée sur Microsoft Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34838327"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-24_
+_**Dernière modification de la rubrique :** 2013-02-24_
 
 Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un serveur Microsoft Exchange pour une utilisation avec la voix entreprise.
 
@@ -62,17 +62,17 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     </div>
     
-    Si vous utilisez Exchange Management Shell, tapez:
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    Si vous utilisez Exchange Management Shell, tapez :
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     Pour plus d’informations, consultez :
     
-      - Pour Office Communications Server 2007, voir la section «création d’un plan de numérotation URI SIP de [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) messagerie unifiée» dans et «nouvelle-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)aide d’Exchange 2007».
+      - Pour Office Communications Server 2007, voir la section « création d’un plan de numérotation URI SIP de [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) messagerie unifiée » dans et « nouvelle-UMDialplan : [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)aide d’Exchange 2007 ».
     
-      - Pour Exchange 2010, voir «créer un plan de numérotation de [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) messagerie unifiée» à et «nouvelle-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)aide d’Exchange 2010» à l’adresse.
+      - Pour Exchange 2010, voir « créer un plan de numérotation de [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) messagerie unifiée » à et « nouvelle-UMDialplan : [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)aide d’Exchange 2010 » à l’adresse.
     
-      - Pour Exchange 2013, voir «messagerie unifiée» [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
+      - Pour Exchange 2013, voir « messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
     
     <div>
     
@@ -83,19 +83,19 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     </div>
 
-2.  Exécutez l’applet de commande suivante pour obtenir le nom de domaine complet (FQDN) de chaque plan de numérotation de messagerie unifiée:
+2.  Exécutez l’applet de commande suivante pour obtenir le nom de domaine complet (FQDN) de chaque plan de numérotation de messagerie unifiée :
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
     Pour plus d’informations, consultez :
     
-      - Pour Exchange 2007, voir «Get-UMDialplan: aide Exchange 2007» à [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)l’adresse.
+      - Pour Exchange 2007, voir « Get-UMDialplan : aide Exchange 2007 » à [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)l’adresse.
     
-      - Pour Exchange 2010, voir «Get-UMDialplan: aide Exchange 2010» à [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)l’adresse.
+      - Pour Exchange 2010, voir « Get-UMDialplan : aide Exchange 2010 » à [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)l’adresse.
     
-      - Pour Exchange 2013, voir «messagerie unifiée» [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
+      - Pour Exchange 2013, voir « messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
 
 3.  Enregistrez le nom du plan de numérotation de chaque plan de numérotation de messagerie unifiée. En fonction de votre version d’Exchange Server, il est possible que vous deviez utiliser le nom de domaine complet (FQDN) de chaque nom de plan de numérotation ultérieurement pour le nom du plan de numérotation de votre plan de numérotation de messagerie unifiée correspondant aux noms de plan de numérotation.
     
@@ -108,23 +108,23 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     </div>
 
-4.  Ajoutez le plan de numérotation au serveur exécutant la messagerie unifiée Exchange en procédant comme suit:
+4.  Ajoutez le plan de numérotation au serveur exécutant la messagerie unifiée Exchange en procédant comme suit :
     
       - Si vous choisissez d’utiliser la console de gestion Exchange, vous pouvez ajouter le plan de numérotation à partir de la feuille de propriétés du serveur. Pour obtenir des instructions spécifiques, consultez la documentation du produit Exchange Server.
         
-        Pour Exchange 2007, voir la section «Comment ajouter un serveur de messagerie unifiée à un [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)plan de numérotation» à l’adresse.
+        Pour Exchange 2007, voir la section « Comment ajouter un serveur de messagerie unifiée à un [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)plan de numérotation » à l’adresse.
         
-        Pour Exchange 2010, voir «afficher ou configurer les propriétés d’un serveur de messagerie unifiée» [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).
+        Pour Exchange 2010, voir « afficher ou configurer les propriétés d’un serveur de messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682).
         
-        Pour Exchange 2013, voir «messagerie unifiée» [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
+        Pour Exchange 2013, voir « messagerie unifiée » [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)à l’adresse.
     
-      - Si vous utilisez Exchange Management Shell, exécutez la commande suivante pour chaque serveur Exchange UM:
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+      - Si vous utilisez Exchange Management Shell, exécutez la commande suivante pour chaque serveur Exchange UM :
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -134,14 +134,14 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     </div>
 
-5.  Naviguez \<jusqu’à scripts\>\\d’annuaire d’installation Exchange, puis, si Exchange est déployé dans une seule forêt, tapez:
-    
-        exchucutil.ps1
-    
-    Ou, si Exchange est déployé dans plusieurs forêts, tapez:
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+5.  Naviguez \<jusqu’à scripts\>\\d’annuaire d’installation Exchange, puis, si Exchange est déployé dans une seule forêt, tapez :
+    ```console
+    exchucutil.ps1
+    ```
+    Ou, si Exchange est déployé dans plusieurs forêts, tapez :
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     où FQDN de forêt spécifie la forêt dans laquelle le serveur Lync est déployé.
     
     Si vous avez un ou plusieurs plans de numérotation de messagerie unifiée associés à plusieurs passerelles IP, passez à l’étape 6. Si vos plans de numérotation sont associés à une seule passerelle IP, ignorez l’étape 6.
@@ -170,18 +170,18 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
 
     > [!IMPORTANT]  
-    > Lors de la sélection de la passerelle IP de MU pour autoriser les appels sortants, choisissez celle qui est susceptible de gérer le plus de trafic. N’autorisez pas le trafic sortant par le biais d’une passerelle IP qui se connecte à un pool de directeurs serveur Lync. Evitez également les pools dans un autre site central ou un site de succursale. Vous pouvez utiliser l’une des méthodes suivantes pour empêcher les appels sortants de traverser une passerelle IP:
+    > Lors de la sélection de la passerelle IP de MU pour autoriser les appels sortants, choisissez celle qui est susceptible de gérer le plus de trafic. N’autorisez pas le trafic sortant par le biais d’une passerelle IP qui se connecte à un pool de directeurs serveur Lync. Evitez également les pools dans un autre site central ou un site de succursale. Vous pouvez utiliser l’une des méthodes suivantes pour empêcher les appels sortants de traverser une passerelle IP :
 
     
     </div>
     
-      - Si vous utilisez Exchange Management Shell, désactivez chaque passerelle IP en exécutant la commande suivante:
+      - Si vous utilisez Exchange Management Shell, désactivez chaque passerelle IP en exécutant la commande suivante :
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
+        Pour Exchange 2007, voir « Set-UMIPGateway : aide d’Exchange 2007 » [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)à l’adresse.
         
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
-        Pour Exchange 2007, voir «Set-UMIPGateway: aide d’Exchange 2007» [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)à l’adresse.
-        
-        Pour Exchange 2010, voir «Set-UMIPGateway: aide d’Exchange 2010» [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)à l’adresse.
+        Pour Exchange 2010, voir « Set-UMIPGateway : aide d’Exchange 2010 » [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)à l’adresse.
     
       - Si vous utilisez la console de gestion Exchange, désactivez la case à cocher **autoriser les appels sortants via cette passerelle IP** .
     
@@ -205,13 +205,14 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     Pour plus d’informations, consultez :
     
-      - Pour Exchange 2007, voir "nouvelle-UMAutoAttendant: aide d’Exchange 2007" [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)à l’adresse.
+      - Pour Exchange 2007, voir "nouvelle-UMAutoAttendant : aide d’Exchange 2007" [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)à l’adresse.
     
-      - Pour Exchange 2010, voir "nouvelle-UMAutoAttendant: aide d’Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)à l’adresse.
+      - Pour Exchange 2010, voir "nouvelle-UMAutoAttendant : aide d’Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)à l’adresse.
     
     Pour chaque utilisateur, l’étape suivante doit être effectuée lorsque vous avez activé les utilisateurs de Lync Server pour voix entreprise et que vous connaissez leurs URI SIP.
 
@@ -226,13 +227,14 @@ Cette rubrique décrit comment configurer la messagerie unifiée Exchange sur un
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     Pour plus d’informations, consultez :
     
-      - Pour Exchange 2007, voir la section «Activer-UMMailbox: aide Exchange 2007 [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)» à l’adresse.
+      - Pour Exchange 2007, voir la section « Activer-UMMailbox : aide Exchange 2007 [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)» à l’adresse.
     
-      - Pour Exchange 2010, voir la section «Activer-UMMailbox: aide Exchange 2010 [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)» à l’adresse.
+      - Pour Exchange 2010, voir la section « Activer-UMMailbox : aide Exchange 2010 [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)» à l’adresse.
 
 </div>
 

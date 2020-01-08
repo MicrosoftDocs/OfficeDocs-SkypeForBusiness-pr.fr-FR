@@ -11,12 +11,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d48e08854b3c7aa66ca0f40224131b2785533e5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e114d3f18e482c11a8e83c9d4308f3c5712932c
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233238"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +34,7 @@ ms.locfileid: "36233238"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Après avoir effectué une migration vers Microsoft Lync Server 2013, vous devez effectuer quelques tâches pour configurer Lync Server 2013 de manière à utiliser System Center Operations Manager.
 
@@ -58,11 +58,11 @@ Vous trouverez ci-dessous des instructions pour chacune de ces tâches.
 
 2.  Dans la ligne de commande, tapez ce qui suit :
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
        ```
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
        ```
     

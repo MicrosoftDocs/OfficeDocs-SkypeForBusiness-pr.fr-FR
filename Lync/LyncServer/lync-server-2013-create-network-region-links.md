@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: création de liens de région réseau'
+title: 'Lync Server 2013 : création de liens de région réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7715aa258c56e98789f12d3c057047d947fd3c51
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c0f21f599b8afa4f9f31ec16aad82e305c8a08e
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831833"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +33,11 @@ ms.locfileid: "34831833"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Au sein d’un réseau, les régions sont liées par une connectivité au réseau étendu physique. Un *lien de région réseau* crée un lien entre deux régions configurées pour le contrôle d’admission des appels (CAC) et définit les limites de bande passante pour le trafic audio et vidéo entre ces régions.
 
-Pour plus d’informations sur l’utilisation des liaisons de région réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des liaisons de région réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)
 
@@ -47,21 +47,21 @@ Pour plus d’informations sur l’utilisation des liaisons de région réseau, 
 
   - [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
 
-L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens de région est limité par la bande passante WAN, comme décrit dans la table informations sur la bande passante liée à la région dans l' [exemple: rassemblement de vos exigences de contrôle d’admission des appels dans la section Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) de la documentation de planification.
+L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens de région est limité par la bande passante WAN, comme décrit dans la table informations sur la bande passante liée à la région dans l' [exemple : rassemblement de vos exigences de contrôle d’admission des appels dans la section Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) de la documentation de planification.
 
 <div>
 
 ## <a name="to-create-network-region-links-by-using-lync-server-management-shell"></a>Pour créer des liaisons de région réseau à l’aide de Lync Server Management Shell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande New-CsNetworkRegionLink pour créer des liens de région et appliquer des profils de stratégie de bande passante appropriés. Par exemple, exécutez :
     
-      ```
+      ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
       ```
     
-      ```
+      ```powershell
         New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
       ```
 

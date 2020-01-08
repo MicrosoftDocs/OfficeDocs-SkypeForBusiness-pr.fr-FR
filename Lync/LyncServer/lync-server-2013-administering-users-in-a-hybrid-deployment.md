@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: administration des utilisateurs dans un déploiement hybride'
+title: 'Lync Server 2013 : administration des utilisateurs dans un déploiement hybride'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dd4f53eaa611d130291b1a42c798a8d5589968c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7804aacb226d06fbf239939658b6592d438a84f9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839020"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34839020"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-29_
+_**Dernière modification de la rubrique :** 2014-05-29_
 
 Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utilisateurs migrés vers Lync Online à l’aide des fonctionnalités de gestion des utilisateurs disponibles sur le portail en ligne Microsoft Office 365. Vous devez vous connecter à l’aide d’un compte d’administrateur client pour effectuer des tâches d’administration.
 
@@ -51,13 +51,13 @@ Vous pouvez gérer les paramètres utilisateur et les stratégies pour les utili
 
 </div>
 
-  - Pour déplacer un utilisateur de Lync Online vers Lync local, exécutez les applets de commande suivantes:
+  - Pour déplacer un utilisateur de Lync Online vers Lync local, exécutez les applets de commande suivantes :
     
-       ```
+       ```PowerShell
         $cred=Get-Credential
        ```
     
-       ```
+       ```PowerShell
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 

@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002238"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970972"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams 
 
@@ -144,9 +144,9 @@ Les applications mobiles Microsoft Teams sont disponibles pour Android et iOS et
 
 Les plateformes mobiles prises en charge pour les applications mobiles Microsoft Teams sont les suivantes :
 
--   **Android**: 5,0 ou version ultérieure
+-   **Android**: le support est limité aux quatre dernières versions d’Android. Lorsqu’une nouvelle version majeure d’Android est publiée, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
 
--   **iOS**:  10.0 ou version ultérieure
+-   **iOS**: le support est limité aux deux dernières versions principales d’iOS. Lorsqu’une nouvelle version majeure d’iOS est publiée, la nouvelle version d’iOS et la version précédente sont officiellement prises en charge.
 
 > [!NOTE]
 > La version mobile doit être disponible au public pour que Teams fonctionne comme prévu.

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuration de l’authentification passive'
+title: 'Lync Server 2013 : configuration de l’authentification passive'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c85bd20222a5fa70d052b21f62d0c19c76eea46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590a196ca0e34c0c063b10703c7edd131eb82c50
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +33,15 @@ ms.locfileid: "34838195"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-11_
+_**Dernière modification de la rubrique :** 2013-07-11_
 
-La section suivante décrit comment configurer Lync Server 2013 avec des mises à jour cumulatives: 2013 juillet pour prendre en charge l’authentification passive. Une fois activé, les utilisateurs de Lync qui sont activés pour l’authentification à deux facteurs seront obligés d’utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour se connecter à l’aide de la 2013 Lync avec des mises à jour cumulatives: client 2013 de juillet.
+La section suivante décrit comment configurer Lync Server 2013 avec des mises à jour cumulatives : 2013 juillet pour prendre en charge l’authentification passive. Une fois activé, les utilisateurs de Lync qui sont activés pour l’authentification à deux facteurs seront obligés d’utiliser une carte à puce physique ou virtuelle et un code confidentiel valide pour se connecter à l’aide de la 2013 Lync avec des mises à jour cumulatives : client 2013 de juillet.
 
 <div class="">
 
 
 > [!NOTE]  
-> Il est vivement recommandé que les clients activent l’authentification passive pour les services Serveur d’inscriptions et web au niveau du service. Si l’authentification passive est activée pour le Bureau d’enregistrement et les services Web au niveau global, il est probable que les échecs d’authentification à l’échelle de l’organisation s’affichent pour les utilisateurs qui ne se connectent pas à la 2013 Lync avec des mises à jour cumulatives: client de bureau du client de juillet 2013.
+> Il est vivement recommandé que les clients activent l’authentification passive pour les services Serveur d’inscriptions et web au niveau du service. Si l’authentification passive est activée pour le Bureau d’enregistrement et les services Web au niveau global, il est probable que les échecs d’authentification à l’échelle de l’organisation s’affichent pour les utilisateurs qui ne se connectent pas à la 2013 Lync avec des mises à jour cumulatives : client de bureau du client de juillet 2013.
 
 
 
@@ -55,14 +55,15 @@ La procédure ci-dessous décrit la création d’une configuration de service w
 
 **Pour créer une configuration de service web personnalisée**
 
-1.  Connectez-vous à votre Lync Server 2013 avec des mises à jour cumulatives: serveur frontal 2013 juillet à l’aide d’un compte d’administrateur Lync.
+1.  Connectez-vous à votre Lync Server 2013 avec des mises à jour cumulatives : serveur frontal 2013 juillet à l’aide d’un compte d’administrateur Lync.
 
 2.  Lancez Lync Server 2013 Management Shell.
 
-3.  À partir de la ligne de commande de Lync Server Management Shell, créez une nouvelle configuration de service Web pour chaque directeur, pool d’entreprise et serveur Standard Edition qui sera activé pour l’authentification passive en exécutant la commande suivante:
-    
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-    
+3.  À partir de la ligne de commande de Lync Server Management Shell, créez une nouvelle configuration de service Web pour chaque directeur, pool d’entreprise et serveur Standard Edition qui sera activé pour l’authentification passive en exécutant la commande suivante :
+    ```powershell
+    New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
+
     <div class="">
     
 
@@ -73,17 +74,17 @@ La procédure ci-dessous décrit la création d’une configuration de service w
     </div>
 
 4.  Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :
-    
-        Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-
-5.  Pour les clients, l’authentification passive est la méthode d’authentification la moins privilégiée pour l’authentification de ticket web. Pour tous les directeurs, les pools d’entreprise et les serveurs Standard Edition qui seront activés pour l’authentification passive, tous les autres types d’authentification doivent être désactivés dans Lync Web services en exécutant la commande suivante:
-    
-        Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-
-6.  Vérifiez que tous les autres types d’authentification ont été désactivés en exécutant la commande suivante:
-    
-        Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-
+     ```powershell
+     Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+     ```
+5.  Pour les clients, l’authentification passive est la méthode d’authentification la moins privilégiée pour l’authentification de ticket web. Pour tous les directeurs, les pools d’entreprise et les serveurs Standard Edition qui seront activés pour l’authentification passive, tous les autres types d’authentification doivent être désactivés dans Lync Web services en exécutant la commande suivante :
+    ```powershell
+    Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+     ```
+6.  Vérifiez que tous les autres types d’authentification ont été désactivés en exécutant la commande suivante :
+    ```powershell
+    Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+     ```
 </div>
 
 <div>
@@ -96,23 +97,23 @@ La procédure ci-dessous décrit la création d’une configuration de proxy per
 
 **Pour créer une configuration de proxy personnalisée**
 
-1.  À partir de la ligne de commande de Lync Server Management Shell, créez une nouvelle configuration de proxy pour chaque 2013 de Lync Server avec des mises à jour cumulatives: le pool de périphériques de juillet 2013, le pool d’entreprise et le serveur Standard Edition, qui seront activés pour l’authentification passive en exécutant le commandes suivantes:
+1.  À partir de la ligne de commande de Lync Server Management Shell, créez une nouvelle configuration de proxy pour chaque 2013 de Lync Server avec des mises à jour cumulatives : le pool de périphériques de juillet 2013, le pool d’entreprise et le serveur Standard Edition, qui seront activés pour l’authentification passive en exécutant le commandes suivantes :
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
 2.  Vérifiez que tous les autres types d’authentification proxy ont été désactivés correctement en exécutant la commande suivante :
-    
-        Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
+    ```powershell
+    Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-
+     ```
 </div>
 
 </div>

@@ -10,12 +10,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c706f9fdd8932456a9f1617e55dc9231dbd6a84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb755f7e7b814d4ca643bd04ddfc0241b4d96d60
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838754"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34838754"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-04-18_
+_**Dernière modification de la rubrique :** 2017-04-18_
 
 Pour effectuer cette procédure, vous devez être connecté en tant qu’utilisateur membre du groupe RTCUniversalServerAdmins.
 
@@ -45,27 +45,27 @@ Après avoir créé le compte Kerberos, vous devez l’attribuer à un site. Il 
 
 1.  En tant que membre du groupe RTCUniversalServerAdmins, connectez-vous à un ordinateur du domaine exécutant Lync Server 2013 ou sur un ordinateur sur lequel les outils d’administration sont installés.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  À partir de la ligne de commande, exécutez les deux commandes suivantes:
+3.  À partir de la ligne de commande, exécutez les deux commandes suivantes :
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
        ```          
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
     Par exemple :
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
        ```
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
@@ -73,15 +73,16 @@ Après avoir créé le compte Kerberos, vous devez l’attribuer à un site. Il 
     
 
     > [!NOTE]  
-    > Vous devez spécifier le paramètre UserAccount en utilisant le format domaine\utilisateur. Le format user @ domain. extension n’est pas pris en charge pour référencer les objets ordinateur créés à des fins d’authentification Kerberos.
+    > Vous devez spécifier le paramètre UserAccount en utilisant le format domaine\utilisateur. Le format User@Domain. extension n’est pas pris en charge pour référencer les objets ordinateur créés à des fins d’authentification Kerberos.
 
     
     </div>
 
-4.  **Facultatif**: il est possible que vous ayez configuré un nom de domaine complet (FQDN) de remplacement pour vos services Web, en fonction [du changement d’URL des services Web dans Lync Server 2013](lync-server-2013-change-the-web-services-url.md). Si tel est le cas, vous devez ajouter un SPN pour ce nom de domaine complet. Par exemple, si le nom de domaine complet était WebServices. contoso. local, vous exécuterez:
+4.  **Facultatif**: il est possible que vous ayez configuré un nom de domaine complet (FQDN) de remplacement pour vos services Web, en fonction [du changement d’URL des services Web dans Lync Server 2013](lync-server-2013-change-the-web-services-url.md). Si tel est le cas, vous devez ajouter un SPN pour ce nom de domaine complet. Par exemple, si le nom de domaine complet était WebServices. contoso. local, vous exécuterez :
     
-        setspn -S http/webservices.contoso.local kerbauth
-
+    ```console
+    setspn -S http/webservices.contoso.local kerbauth
+    ```
 5.     
     <div class="">
     

@@ -10,12 +10,12 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fd9f07b979f89a28b6fa545f3a43009402f4ed1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: deac68fb5f20066632bc48a9e9b6244a9bd34fe9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831741"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34831741"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-06-16_
+_**Dernière modification de la rubrique :** 2016-06-16_
 
 La séparation des rôles et des responsabilités entre les administrateurs du serveur et les administrateurs SQL Server peut entraîner des retards de l’implémentation. Lync Server 2013 utilise le contrôle de contrôle d’accès basé sur les rôles (RBAC) pour limiter ces difficultés. Dans certains cas, l’administrateur SQL Server doit gérer l’installation de bases de données sur le serveur SQL Server en dehors de RBAC. Lync Server 2013 Management Shell permet à l’administrateur SQL Server d’exécuter des cmdlets Windows PowerShell conçues pour configurer les bases de données avec les données et les fichiers journaux appropriés. Pour plus d’informations, reportez-vous à la section [autorisations de déploiement pour SQL Server dans Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
@@ -59,7 +59,7 @@ La séparation des rôles et des responsabilités entre les administrateurs du s
 
 </div>
 
-Pour l’installation de bases de données, **install-CsDatabase** utilise trois méthodes principales de placement des bases de données sur le serveur SQL Server préparé:
+Pour l’installation de bases de données, **install-CsDatabase** utilise trois méthodes principales de placement des bases de données sur le serveur SQL Server préparé :
 
   - Exécutez **install-CsDatabase** sans DatabasePaths ou UseDefaultSqlPath. L’applet de connexion utilise un algorithme intégré pour déterminer le meilleur emplacement pour les fichiers journaux et les fichiers de données. L’algorithme fonctionne uniquement pour les implémentations SQL Server autonomes.
 
@@ -75,17 +75,17 @@ Pour l’installation de bases de données, **install-CsDatabase** utilise trois
 
 1.  Sur n’importe quel ordinateur, connectez-vous avec des informations d’identification d’administrateur pour créer les bases de données sur le serveur SQL Server. Pour plus d’informations, reportez-vous à la section [autorisations de déploiement pour SQL Server dans Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Ouvrez Lync Server 2013 Management Shell. Si vous n’avez pas ajusté la stratégie d’exécution pour Windows PowerShell, vous devez ajuster la stratégie pour autoriser l’exécution des scripts Windows PowerShell. Pour plus d’informations, consultez la section «examen de [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)la stratégie d’exécution».
+2.  Ouvrez Lync Server 2013 Management Shell. Si vous n’avez pas ajusté la stratégie d’exécution pour Windows PowerShell, vous devez ajuster la stratégie pour autoriser l’exécution des scripts Windows PowerShell. Pour plus d’informations, consultez la section « examen de [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)la stratégie d’exécution ».
 
 3.  Utilisez l’applet de passe **install-CsDatabase** pour installer le centre de gestion central.
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
        ```
     
@@ -100,10 +100,10 @@ Pour l’installation de bases de données, **install-CsDatabase** utilise trois
 
 4.  **Install-CsDatabase – DatabasePaths** peut utiliser jusqu’à six paramètres de chemin d’accès, chacun définissant les chemins d’accès pour les lecteurs tels qu’ils sont définis dans les données SQL Server et l’emplacement des fichiers journaux. Conformément aux règles logiques de la configuration de la base de données dans Lync Server 2013, les lecteurs sont analysés en compartiments de deux, quatre ou six. En fonction de votre configuration SQL Server et du nombre de compartiments, vous fournissez deux chemins d’accès, quatre chemins d’accès ou six chemins.
     
-    Si vous avez trois lecteurs, le journal est prioritaire et les fichiers de données sont distribués après. Exemple pour un serveur SQL Server configuré sur six lecteurs:
-    
-        Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
-
+    Si vous avez trois lecteurs, le journal est prioritaire et les fichiers de données sont distribués après. Exemple pour un serveur SQL Server configuré sur six lecteurs :
+    ```powershell
+    Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
 5.  À l’issue de l’installation de la base de données, vous pouvez fermer Lync Server 2013 Management Shell ou procéder à l’installation des bases de données configurées Lync Server 2013 définies dans le générateur de topologie.
 
 </div>
@@ -129,12 +129,12 @@ Pour l’installation de bases de données, **install-CsDatabase** utilise trois
 
 4.  Utilisez l’applet de cmdlet **install-CsDatabase** pour installer les bases de données configurées du générateur de topologie.
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
        ```
@@ -173,51 +173,50 @@ Pour l’installation de bases de données, **install-CsDatabase** utilise trois
 
 4.  Utilisez l’applet de passe **install-CsDatabase** avec le paramètre DatabasePathMap et une table de hachage PowerShell pour installer les bases de données configurées du générateur de topologie.
 
-5.  Dans l’exemple de code, les chemins d’accès définis pour les bases de données peuvent être déterminés de façon granulaire en utilisant le paramètre – DatabasePathMap et une table de hachage définie comme suit (l’exemple\\utilise «c: CSData» pour tous les fichiers de base de données (\\ . mdf) et «c: CSLogFiles "pour tous les fichiers journaux (. ldf). Le dossier sera créé selon les besoins par l’installation-CsDatabase):
-    
-        $pathmap = @{
-        "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
-        "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
-        "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
-        }
-        Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
-
+5.  Dans l’exemple de code, les chemins d’accès définis pour les bases de données peuvent être déterminés de façon granulaire en utilisant le paramètre – DatabasePathMap et une table de hachage définie comme suit (l’exemple\\utilise « c : CSData » pour tous les fichiers de base de données (\\. mdf) et « c : CSLogFiles » pour tous les fichiers du journal (. ldf). Le dossier sera créé selon les besoins par l’installation-CsDatabase) :
+    ```powershell
+    $pathmap = @{
+    "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
+    "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
+    "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
+    }
+    Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
+    ```
 6.  Dans la mesure où les fichiers de base de données et les fichiers journaux sont explicitement nommés avec leur emplacement sur le serveur de base de données de destination, vous pouvez définir des emplacements spécifiques pour la base de données et l’emplacement du journal de chaque type de service. L’exemple ci-dessous place les bases de données pour chaque type de service spécifique sur des disques distincts et les fichiers journaux associés sur un autre. Par exemple :
     
-      - Toutes les bases de données RTC en «\\D: RTCDatabase»
+      - Toutes les bases de données RTC en «\\D : RTCDatabase »
     
-      - Tous les fichiers journaux RTC comme suit:\\«E: RTCLogs»
+      - Tous les fichiers journaux RTC comme suit :\\« E : RTCLogs »
     
-      - Toutes les bases de données du Windows Store en\\"F: CPSDatabases"
+      - Toutes les bases de données du Windows Store en\\"F : CPSDatabases"
     
-      - Toutes les journaux de l’application Store sur\\«G: CPSLogs»
+      - Toutes les journaux de l’application Store sur\\« G : CPSLogs »
     
-      - Toutes les bases de données du magasin de Response Group\\en «H: RGSDatabases»
+      - Toutes les bases de données du magasin de Response Group\\en « H : RGSDatabases »
     
-      - Tous les journaux du magasin de réponse à «\\I: RGSLogs»
+      - Tous les journaux du magasin de réponse à «\\I : RGSLogs »
     
-      - Toutes les bases de données du magasin d’adresses en\\«J: ABSDatabases»
+      - Toutes les bases de données du magasin d’adresses en\\« J : ABSDatabases »
     
-      - Tous les fichiers journaux du magasin d’adresses en «\\K: ABSLogs»
+      - Tous les fichiers journaux du magasin d’adresses en «\\K : ABSLogs »
     
-      - Toutes les bases de données de l’archivage du\\magasin sur «L: ArchivingDatabases»
+      - Toutes les bases de données de l’archivage du\\magasin sur « L : ArchivingDatabases »
     
-      - Tous les journaux d’archivage de la boutique\\sur «M: ArchivingLogs»
+      - Tous les journaux d’archivage de la boutique\\sur « M : ArchivingLogs »
     
-      - Toutes les bases de données de magasin de l'\\analyse sur «N: MonitoringDatabases»
+      - Toutes les bases de données de magasin de l'\\analyse sur « N : MonitoringDatabases »
     
-      - Toutes les analyses des fichiers journaux du magasin dans\\«O: MonitoringLogfiles»
+      - Toutes les analyses des fichiers journaux du magasin dans\\« O : MonitoringLogfiles »
     
     <!-- end list -->
     
-    ``` 
-    
+    ```powershell    
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="D:\RTCDatabase";"BackendStore:BlobStore:LogPath"="E:\RTCLogs"
     "BackendStore:RtcSharedDatabase:DbPath"="D:\RTCDatabase";"BackendStore:RtcSharedDatabase:LogPath"="E:\RTCLogs"

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées pour mettre à jour le certificat de serveur Edge dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: 1c3aaa8859db530ceccbebc68ae76f21e8d4a77f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52ab646387acb6901798f215f9677f16978e87fb
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160519"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963052"
 ---
 # <a name="update-the-edge-certificate"></a>Mettre à jour le certificat de serveur Edge
 
@@ -32,13 +32,13 @@ La mise à jour du certificat de serveur Edge est l’étape essentielle pour s�
 
 L’autre nom de l’objet (SAN) du certificat sur tous les serveurs Edge de l’environnement local doit être mis à jour pour inclure tous les domaines SIP existant dans le client pur en ligne (à<span> l’exclusion des onmicrosoft. domaines com), au format «SIP. \<> de domaine».  Dans notre exemple, il s’agit de SIP. OriginalCompany. <span>com. Cette étape est essentielle avant de migrer des utilisateurs vers le Cloud.
 
-**Étapes :**
+**Comme**
 
 1.  Obtenir un nouveau certificat de serveur Edge externe pour le serveur Edge qui dispose de toutes les entrées existantes, ainsi que des entrées supplémentaires dans le SAN pour tous les domaines SIP dans l’environnement Cloud (à l’exception des domaines *. onmicrosoft.com) au format «SIP. <DomainName>».
-2.  Installez le certificat localement sur chaque serveur Edge et affectez-le au service Edge Skype sur chaque service Edge.  Pour obtenir la procédure détaillée, voir la section «certificats d’interface Edge externe» dans [Deploy Edge service dans Skype for Business Server 2015](https://technet.microsoft.com/en-us/library/dn951368.aspx).
-3.  Redémarrez le service Edge sur chaque serveur Edge. Vous pouvez effectuer cette opération pour une zone unique avec les commandes PowerShell suivantes:
+2.  Installez le certificat localement sur chaque serveur Edge et affectez-le au service Edge Skype sur chaque service Edge.  Pour obtenir la procédure détaillée, voir la section « certificats d’interface Edge externe » dans [Deploy Edge service dans Skype for Business Server 2015](https://technet.microsoft.com/library/dn951368.aspx).
+3.  Redémarrez le service Edge sur chaque serveur Edge. Vous pouvez effectuer cette opération pour une zone unique avec les commandes PowerShell suivantes :
 
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     Start-CsWindowsService
     ```

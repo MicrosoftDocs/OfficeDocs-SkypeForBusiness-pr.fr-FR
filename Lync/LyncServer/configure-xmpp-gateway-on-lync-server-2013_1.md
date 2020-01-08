@@ -11,12 +11,12 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e972b8729126615a375f4d82f4c378a71642a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 185a52322ad0eea681e9a3318787921d9c49453a
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233248"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +34,7 @@ ms.locfileid: "36233248"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Lorsque vous configurez des stratégies pour la prise en charge des partenaires fédérés du protocole de messagerie extensible et de présence, les stratégies s’appliquent aux utilisateurs des domaines fédérés de XMPP, mais pas aux utilisateurs de services de messagerie instantanée SIP (Session Initiation Protocol). (par exemple, Windows Live) ou domaines fédérés SIP. Vous configurez un partenaire fédéré de XMPP pour chaque domaine fédéré XMPP que vous voulez autoriser vos utilisateurs à ajouter des contacts et à communiquer avec eux. Une fois les stratégies en place, des tâches supplémentaires incluent la configuration des certificats de passerelle XMPP, le déploiement de la passerelle de Lync Server 2013 XMPP et la mise à jour des enregistrements DNS pour la passerelle XMPP.
 
@@ -42,7 +42,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 ## <a name="configure-xmpp-gateway-certificates-on-the-lync-server-2013-edge-server"></a>Configurer des certificats de passerelle XMPP sur le serveur Edge Lync Server 2013
 
-1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
+1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
     
     <div class=" ">
     
@@ -63,7 +63,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 6.  Dans la page **spécifier un modèle de certificat secondaire** , pour utiliser un modèle autre que le modèle par défaut du serveur Web, activez la case à cocher utiliser un autre **modèle de certificat pour l’autorité de certification sélectionnée** .
 
-7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit:
+7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit :
     
     1.  Dans **nom convivial**, tapez un nom d’affichage pour le certificat.
     
@@ -79,7 +79,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 11. Dans la page Configuration du protocole **SIP sur le nom de l’objet** , activez la case à cocher Domain pour ajouter un SIP. \<entrée\> sipdomain dans la liste noms de remplacement de l’objet.
 
-12. Dans la page configurez d’autres **noms d’objet** , spécifiez d’autres noms d’objet obligatoires.
+12. Dans la page **configurez** d’autres noms d’objet, spécifiez d’autres noms d’objet obligatoires.
     
     <div class=" ">
     
@@ -98,13 +98,13 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 16. Copiez le fichier de demande et envoyez-le à votre autorité de certification publique.
 
-17. Après avoir reçu, importé et attribué le certificat public, vous devez arrêter et redémarrer les services Edge Server. Pour cela, entrez dans la console de gestion de Lync Server:
+17. Après avoir reçu, importé et attribué le certificat public, vous devez arrêter et redémarrer les services Edge Server. Pour cela, entrez dans la console de gestion de Lync Server :
     
-       ```
+       ```console
         Stop-CsWindowsService
        ```
     
-       ```
+       ```console
         Start-CsWindowsService
        ```
 
@@ -120,7 +120,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 3.  Pour créer une nouvelle configuration, cliquez sur **nouveau**.
 
-4.  Définissez les paramètres suivants:
+4.  Définissez les paramètres suivants :
 
 5.  **Domaine principal (**     obligatoire). Le domaine principal est le domaine de base du partenaire XMPP. Par exemple, vous devez entrer **fabrikam.com** pour le nom de domaine de partenaire XMPP. Il s’agit d’une entrée obligatoire.
 
@@ -128,9 +128,9 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 7.  **Domaines supplémentaires les**   domaines supplémentaires sont des domaines qui font partie du domaine de votre partenaire XMPP qui doivent être inclus dans le cadre de la communication XMPP autorisée. Par exemple, si le domaine principal est **fabrikam.com**, vous répertoriez tous les autres domaines sous fabrikam.com que vous communiquerez par le biais de la fonction XMPP.
 
-8.  **Type**   de partenaire **** le paramètre est obligatoire. Vous devez choisir l’une des options suivantes pour décrire et mettre en œuvre les contacts qui peuvent être ajoutés. Vous pouvez sélectionner l’une des opérations suivantes:
+8.  **Type**   de partenaire **le paramètre** est obligatoire. Vous devez choisir l’une des options suivantes pour décrire et mettre en œuvre les contacts qui peuvent être ajoutés. Vous pouvez sélectionner l’une des opérations suivantes :
     
-      - **Fédéré** Un type de partenaire **fédéré** représente un niveau élevé de confiance entre le déploiement de Lync Server et le partenaire XMPP.Ce type de partenariat est recommandé pour la Fédération avec des serveurs XMPP au sein de la même entreprise ou pour lesquels une relation professionnelle est établie.Les contacts XMPP dans les partenaires fédérés peuvent:
+      - **Fédéré** Un type de partenaire **fédéré** représente un niveau élevé de confiance entre le déploiement de Lync Server et le partenaire XMPP.Ce type de partenariat est recommandé pour la Fédération avec des serveurs XMPP au sein de la même entreprise ou pour lesquels une relation professionnelle est établie.Les contacts XMPP dans les partenaires fédérés peuvent :
         
         1.  Ajoutez des contacts Lync et consultez leur statut de présence sans autorisation expresse de l’utilisateur Lync.
         
@@ -142,7 +142,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
     
       - **Public non vérifié** Un partenaire non **vérifié public** est un fournisseur XMPP public qui n’est pas approuvé pour vérifier l’identité de ses utilisateurs.Les utilisateurs de XMPP sur des réseaux publics non vérifiés ne peuvent pas communiquer avec des utilisateurs de Lync, sauf si l’utilisateur de Lync les a expressément autorisés en les ajoutant à la liste des contacts.Les utilisateurs de XMPP sur les réseaux publics non vérifiés ne voient jamais les notes d’état des utilisateurs Lync.Ce paramètre est recommandé pour toutes les fédérations avec les fournisseurs XMPP publics tels que Google Talk.
 
-9.  **Type de connexion:** Définit les différentes règles et paramètres de dialback.
+9.  **Type de connexion :** Définit les différentes règles et paramètres de dialback.
     
       - **La négociation**   TLS définit les règles de négociation TLS. Un service XMPP peut nécessiter le protocole TLS, peut rendre TLS facultatif ou vous définissez que TLS n’est pas pris en charge. Le choix de l’option facultative quitte le service XMPP pour une décision de demande obligatoire. Pour afficher tous les paramètres et détails possibles relatifs aux négociations SASL, TLS et Dialback, y compris les configurations d’erreur non valides et connues, voir [paramètres de négociation des partenaires fédérés de XMPP dans Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)
         
@@ -176,7 +176,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 ## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Mettre à jour les enregistrements DNS pour Lync Server 2013 passerelle XMPP
 
-1.  Pour configurer DNS pour la Fédération XMPP, ajoutez l’enregistrement SRV suivant à votre DNS externe:\_XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet d’accès du serveur Edge, avec une valeur de port de 5269.
+1.  Pour configurer DNS pour la Fédération XMPP, ajoutez l’enregistrement SRV suivant à votre DNS externe :\_XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet d’accès du serveur Edge, avec une valeur de port de 5269.
 
 </div>
 

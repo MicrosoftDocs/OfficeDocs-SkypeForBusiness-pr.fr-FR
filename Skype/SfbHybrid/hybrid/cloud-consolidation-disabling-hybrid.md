@@ -1,5 +1,5 @@
 ---
-title: Désactiver l’environnement hybride pour terminer la migration vers le Cloud
+title: Désactiver le mode hybride pour terminer la migration vers le cloud
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe inclut des étapes détaillées sur la désactivation de l’environnement hybride dans le cadre de la consolidation du Cloud pour teams et Skype entreprise.
-ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010577"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963072"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Désactiver l’environnement hybride pour terminer la migration vers le Cloud
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Désactiver le mode hybride pour terminer la migration vers le cloud
 
-Après avoir déplacé tous les utilisateurs de l’organisation locale vers le Cloud, vous pouvez mettre hors service le déploiement Skype entreprise sur site. Outre la suppression d’un matériel, une étape essentielle consiste à séparer de manière logique ce déploiement sur site d’Office 365 en désactivant l’environnement hybride. La désactivation de l’environnement hybride se compose de trois étapes :
+Après avoir déplacé tous les utilisateurs de l’environnement local vers le cloud, vous pouvez mettre hors service le déploiement de Skype Entreprise local. En plus de supprimer du matériel, une étape critique est de séparer logiquement ce déploiement local d’Office 365 en désactivant l’environnement hybride. La désactivation de l’environnement hybride se compose de trois étapes :
 
-1. Mettez à jour les enregistrements DNS pour qu’ils pointent vers Office 365.
+1. Mettre à jour les enregistrements DNS pour qu'ils pointent vers Office 365.
 
-2. Désactivez le domaine fractionné dans le client Office 365.
+2. Désactiver le domaine divisé dans le client Office 365.
 
 3. Désactivez la fonctionnalité en local pour communiquer avec Office 365.
 
@@ -57,13 +57,13 @@ Le DNS externe de l’Organisation pour l’organisation locale doit être mis �
 2.  *Désactivez l’espace d’adressage SIP partagé dans le client Office 365.*
 La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShell de Skype entreprise online.
 
-    ```
+    ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
 3.  *Désactivez la fonctionnalité locale pour communiquer avec Office 365.*  
 La commande ci-dessous doit être exécutée à partir d’une fenêtre PowerShell locale :
-```
+```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
