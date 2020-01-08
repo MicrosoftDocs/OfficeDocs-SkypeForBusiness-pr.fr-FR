@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver la possibilité pour des appelants anonymes de se joindre aux réunions dans le centre d’administration Skype entreprise ou à l’aide d’un script PowerShell. '
-ms.openlocfilehash: 1cdcbd2f610c3d60ba2fb4e554823d410fd4ae8f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: cfc15835906fbc400830783777027ed7ca1f4e59
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792639"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962492"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Skype Entreprise Online
 
@@ -57,21 +57,21 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
   
 - Exécutez la commande suivante : 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Si vous souhaitez réinitialiser le code confidentiel, reportez-vous à la rubrique réinitialisation [du code confidentiel de l’audioconférence](reset-the-audio-conferencing-pin.md).
+- Si vous souhaitez réinitialiser le code confidentiel, reportez-vous à [la rubrique réinitialisation du code confidentiel de l’audioconférence](reset-the-audio-conferencing-pin.md).
     
-- Si l’accès anonyme ou ne nécessite pas un code confidentiel pour démarrer une réunion, est désactivé:
+- Si l’accès anonyme ou ne nécessite pas un code confidentiel pour démarrer une réunion, est désactivé :
     
-  - Si la réunion n’a pas commencé (il n’y a pas encore de compte dans la réunion): un appelant sera invité s’il s’agit de l’organisateur; s’il répond oui, il est invité à entrer son code confidentiel et, après avoir entré son code confidentiel, la réunion démarre et l’utilisateur se connecte à la réunion.
+  - Si la réunion n’a pas commencé (il n’y a pas encore de compte dans la réunion) : un appelant sera invité s’il s’agit de l’organisateur ; s’il répond oui, il est invité à entrer son code confidentiel et, après avoir entré son code confidentiel, la réunion démarre et l’utilisateur se connecte à la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
-- Si vous avez accès anonyme ou si vous n’avez pas besoin d’un code confidentiel pour démarrer une réunion, est activé:
+- Si vous avez accès anonyme ou si vous n’avez pas besoin d’un code confidentiel pour démarrer une réunion, est activé :
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
@@ -87,7 +87,7 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'En savoir plus sur les informations envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence rendez-vous dans Skype entreprise online. '
-ms.openlocfilehash: 4f1916778985012754cc436f37e76f0097dd49e9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8a0ecc27e3184b8258db7e094beb9f3c4b64796d
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792434"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962722"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype entreprise Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "35792434"
 
 Des courriers électroniques seront automatiquement envoyés aux utilisateurs qui sont [activés pour les conférences audio](set-up-audio-conferencing.md) en utilisant Microsoft comme fournisseur de services d’audioconférence.
   
-Par défaut, il existe quatre types de messages électroniques qui seront envoyés aux utilisateurs qui sont activés pour les conférences audio. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. L’audioconférence dans Office 365 envoie un message électronique aux messages électroniques de vos utilisateurs dans les cas suivants:
+Par défaut, il existe quatre types de messages électroniques qui seront envoyés aux utilisateurs qui sont activés pour les conférences audio. Toutefois, si vous voulez limiter le nombre de messages électroniques envoyés aux utilisateurs, vous pouvez désactiver cette option. L’audioconférence dans Office 365 envoie un message électronique aux messages électroniques de vos utilisateurs dans les cas suivants :
   
 - **Une licence d’audioconférence lui est affectée ou lorsque vous modifiez le fournisseur de services d’audioconférence pour Microsoft.**
     
@@ -86,7 +86,7 @@ Par défaut, il existe quatre types de messages électroniques qui seront envoy�
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Modifier les courriers électroniques qui leur sont envoyés
 
-Vous pouvez modifier le message électronique qui est envoyé automatiquement aux utilisateurs, notamment l’adresse de courrier et le nom d’affichage qui est inclus dans les informations *de contact de* . Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de l’applet [de passe Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Pour modifier l’adresse de messagerie qui envoie le message électronique aux utilisateurs, vous devez:
+Vous pouvez modifier le message électronique qui est envoyé automatiquement aux utilisateurs, notamment l’adresse de courrier et le nom d’affichage qui est inclus dans les informations *de contact de* . Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de l’applet [de passe Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Pour modifier l’adresse de messagerie qui envoie le message électronique aux utilisateurs, vous devez :
   
 - entrer l'adresse électronique dans le paramètre À _SendEmailFromAddress_;
     
@@ -94,9 +94,9 @@ Vous pouvez modifier le message électronique qui est envoyé automatiquement au
     
 - Définissez le paramètre _SendEmailOverride_ sur _true_.
     
-Vous pouvez apporter des modifications aux courriers électroniques envoyés aux utilisateurs, comme l’adresse électronique d’envoi du courrier électronique et le nom d’affichage pour le message électronique, en exécutant:
+Vous pouvez apporter des modifications aux courriers électroniques envoyés aux utilisateurs, comme l’adresse électronique d’envoi du courrier électronique et le nom d’affichage pour le message électronique, en exécutant :
   
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -126,7 +126,7 @@ Par défaut, les courriers électroniques seront envoyés à vos utilisateurs, m
   
 1. Pour désactiver l'envoi de courrier électronique à tous vos utilisateurs, exécutez la commande suivante :
     
-   ```
+   ```PowerShell
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 

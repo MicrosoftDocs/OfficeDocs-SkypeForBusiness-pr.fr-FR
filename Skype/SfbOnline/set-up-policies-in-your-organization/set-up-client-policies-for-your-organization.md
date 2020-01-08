@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Les stratégies de client permettent d'identifier les fonctionnalités de Skype Entreprise Online mises à la disposition des utilisateurs. Par exemple, vous pouvez octroyer à certains utilisateurs le droit de transférer des fichiers tout en refusant ce droit à d'autres utilisateurs.
-ms.openlocfilehash: c765f26aa1fe6ac1f041773a8aedb0ff48b52db8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d43094e8fbdbb25276b617f005cd71ce859d1362
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792494"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962562"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Configurer les stratégies client pour votre organisation
 
@@ -44,11 +44,11 @@ Vous pouvez configurer les paramètres de stratégie de client lors de la créat
     
 2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
     
-3. If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Restart your computer when you are prompted.
+3. Si vous n’avez pas la version 3,0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
-    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
@@ -59,78 +59,78 @@ Vous pouvez configurer les paramètres de stratégie de client lors de la créat
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Désactiver les émoticônes et des notifications de présence et empêcher l’enregistrement des messages instantanés
 
-- Pour créer une stratégie pour ces paramètres, exécutez:
+- Pour créer une stratégie pour ces paramètres, exécutez :
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
-- Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez:
+- Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) pour appliquer les paramètres à vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) pour appliquer les paramètres à vos utilisateurs.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Activer l'interactivité des URL ou des liens hypertextes dans les messages instantanés
 
-- Pour créer une stratégie pour ces paramètres, exécutez:
+- Pour créer une stratégie pour ces paramètres, exécutez :
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
-- Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez:
+- Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) pour appliquer les paramètres à vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) pour appliquer les paramètres à vos utilisateurs.
   
 ### <a name="prevent-showing-recent-contacts"></a>Bloquer l'affichage des contacts récents
 
-- Pour créer une stratégie pour ces paramètres, exécutez:
+- Pour créer une stratégie pour ces paramètres, exécutez :
   > 
-  > ```
+  > ```PowerShell
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  En savoir plus sur l’applet de [nouvelle cmdlet New-CsClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
-- Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez:
+- Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  En savoir plus sur l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
-  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) pour appliquer les paramètres à vos utilisateurs.
+  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) pour appliquer les paramètres à vos utilisateurs.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
@@ -140,7 +140,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de de
     
   - [Six raisons d’utiliser Windows PowerShell pour gérer Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Learn about these advantages in the following topics:
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez les avantages suivants dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion d'Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 18792e87b83f9ee69030a6d83fecdbb9513c6f73
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: deaafe36948a6fe3a7eb9eaaf49295c37f627595
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432602"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962732"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Affectation de Microsoft en tant que fournisseur d’audioconférence
 
@@ -65,7 +65,7 @@ Pour gagner du temps ou automatiser cette opération, vous pouvez utiliser le sc
 > When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. You should save this information before changing the provider. 
 
   
-Pour remplacer le fournisseur par Microsoft pour un petit nombre d’utilisateurs, vous pouvez utiliser l’applet de passe [Enable-csonlinedialinconferencinguser n’affiche](https://technet.microsoft.com/en-us/library/mt243813.aspx) .
+Pour remplacer le fournisseur par Microsoft pour un petit nombre d’utilisateurs, vous pouvez utiliser l’applet de passe [Enable-csonlinedialinconferencinguser n’affiche](https://technet.microsoft.com/library/mt243813.aspx) .
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Utilisation d'un script Windows PowerShell pour un grand nombre d'utilisateurs
@@ -77,27 +77,27 @@ Vous pouvez enregistrer le script suivant dans un fichier script PowerShell et l
 
 **Exemple 1 :** vous pouvez exécuter ce script en fournissant la liste des utilisateurs que vous souhaitez mettre à jour.
    
-  ```
+  ```PowerShell
 Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
 **Exemple 2 :** vous pouvez exécuter ce script en fournissant un fichier .csv contenant l'adresse électronique (alias) de chaque utilisateur que vous souhaitez mettre à jour.
    
-  ```
+  ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Exemple 3:** Dans cet exemple, vous pouvez utiliser ce script pour remplacer le fournisseur de services d’audioconférence par interappel (ou un autre fournisseur) par **Microsoft** pour un grand nombre d’utilisateurs de votre organisation.
+**Exemple 3 :** Dans cet exemple, vous pouvez utiliser ce script pour remplacer le fournisseur de services d’audioconférence par interappel (ou un autre fournisseur) par **Microsoft** pour un grand nombre d’utilisateurs de votre organisation.
     
-  ```
+  ```PowerShell
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
   Voici le script :
 
-  ```
+  ```PowerShell
   <#
   .SYNOPSIS
 

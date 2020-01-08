@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 02c7258ebc316d5e08c77698e18935eb51b5b43d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: cd107de8b253ca2c5adfe1b23ed8484f152a5f5e
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998812"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962982"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft teams
 
@@ -89,20 +89,20 @@ Dans cet exemple, nous affectons une stratégie équipes appelée politique équ
 > Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenez la GroupObjectId du groupe en particulier.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```
 Obtenez les membres du groupe spécifié.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Attribuez à tous les utilisateurs du groupe une stratégie d’équipe particulière. Dans cet exemple, il s’agit de la stratégie d’équipes marketing.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer la découverte des équipes privées dans Teams](manage-discovery-of-private-teams.md)
 - [Canaux privés dans teams](private-channels.md)

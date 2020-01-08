@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez ce que vous devez savoir sur les codes confidentiels et la manière de les réinitialiser dans Skype entreprise online. '
-ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792277"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962692"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Réinitialiser le code confidentiel de l’audioconférence dans Skype entreprise Online
 
@@ -81,7 +81,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Vous pouvez définir le code confidentiel pour Amos Marbel en exécutant :
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
@@ -91,7 +91,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -104,4 +104,4 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
   
 ## <a name="related-topics"></a>Voir aussi
 
-[Réinitialiser l'ID de conférence d'un utilisateur](reset-a-conference-id-for-a-user.md)
+[Réinitialiser l’ID de conférence d’un utilisateur](reset-a-conference-id-for-a-user.md)

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Le service de migration de réunion (MMS) est un service qui s’exécute en arrière-plan et qui met automatiquement à jour les réunions Skype entreprise et Microsoft teams pour les utilisateurs. MMS est conçu pour éviter aux utilisateurs d’exécuter l’outil de migration de réunion pour mettre à jour leurs réunions Skype entreprise et Microsoft Teams.
-ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 187e1e7dbedc57249c2e2cc3c60ea4c365f470c1
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890528"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962542"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utiliser le service de migration de réunion (MMS)
 
@@ -133,7 +133,7 @@ Outre la migration automatique de réunion, les administrateurs peuvent déclenc
 
 L’exemple ci-dessous montre comment lancer la migration de réunion pour les utilisateurs de ashaw@contoso.com de sorte que toutes les réunions soient déplacées vers teams :
 
-```
+```PowerShell
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
 ```
 
@@ -149,7 +149,7 @@ Vous pouvez utiliser `Get-CsMeetingMigrationStatus` l’applet de contrôle pour
 
 - Pour obtenir une synthèse de l’état de toutes les migrations MMS, exécutez la commande suivante qui fournit une vue tabulaire de tous les États de migration :
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 
     State      UserCount
@@ -161,19 +161,19 @@ Vous pouvez utiliser `Get-CsMeetingMigrationStatus` l’applet de contrôle pour
     ```
 - Pour obtenir des informations complètes sur toutes les migrations au cours d’une période donnée `StartTime` , `EndTime` utilisez les paramètres et. Par exemple, la commande suivante renverra des informations complètes sur toutes les migrations effectuées du 1er octobre 2018 au 8 octobre 2018.
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -StartTime "10/1/2018" -EndTime "10/8/2018"
     ```
 - Pour vérifier l’état de la migration pour un utilisateur spécifique, utilisez `Identity` le paramètre. Ainsi, la commande suivante permet d'obtenir le statut de l'utilisateur ashaw@contoso.com :
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
 Si vous voyez une migration en échec, prenez les mesures nécessaires pour résoudre ces problèmes le plus rapidement possible, car les utilisateurs ne seront pas en mesure de se connecter aux réunions organisées par ces utilisateurs tant que vous ne les aurez pas résolues. Si `Get-CsMeetingMigrationStatus` une migration a été effectuée en état d’échec, procédez comme suit :
  
 1. Identifiez les utilisateurs concernés. Exécutez la commande suivante pour obtenir la liste des utilisateurs concernés, ainsi que l'erreur spécifique signalée :
 
-    ```
+    ```PowerShell
     Get-CsMeetingMigrationStatus| Where {$_.State -eq "Failed"}| Format-Table UserPrincipalName, LastMessage
     ```
 2. Pour chaque utilisateur concerné, exécutez l’outil de migration de réunion pour migrer manuellement leurs réunions.
@@ -194,17 +194,17 @@ La messagerie MMS est activée par défaut pour toutes les organisations, mais e
 Par exemple, vous souhaiterez peut-être migrer manuellement toutes les réunions ou désactiver temporairement MMS tout en apportant des modifications importantes aux paramètres de conférence audio de votre organisation.
 
 Pour savoir si le MMS est activé pour votre organisation, exécutez la commande suivante. MMS est activé si le `MeetingMigrationEnabled` paramètre est `$true`.
-```
+```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
 Pour activer ou désactiver entièrement MMS, utilisez la `Set-CsTenantMigrationConfiguration` commande. Par exemple, pour désactiver MMS, exécutez la commande suivante :
 
-```
+```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
 Si MMS est activé au sein de l’organisation et que vous voulez vérifier qu’il est activé pour les mises à jour de l’audioconférence, vérifiez `AutomaticallyMigrateUserMeetings` la valeur du paramètre dans `Get-CsOnlineDialInConferencingTenantSettings`le champ sortie de. Pour activer ou désactiver MMS pour les conférences audio, `Set-CsOnlineDialInConferencingTenantSettings`utilisez. Par exemple, pour désactiver MMS pour les conférences audio, exécutez la commande suivante :
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 

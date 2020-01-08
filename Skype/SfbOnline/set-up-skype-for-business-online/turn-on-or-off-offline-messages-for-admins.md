@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 85e8378c41f3d2398982bacee3c568291903ccce
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3e083f7bf0d4f83ba5e904452721eaa92ed9e652
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792993"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962832"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
@@ -35,7 +35,7 @@ Pour les messages hors connexion, il est important de savoir que :
 
 - Les messages hors connexion seront envoyés dans la boîte aux lettres de l’utilisateur, et l’utilisateur est averti dès qu’il se connecte à Skype entreprise.
 
-- Si le statut du destinataire du message est défini sur **ne pas** déranger ou en **Présentation**, il recevra un message manqué, envoyé par le client Skype entreprise du destinataire.
+- Si le statut du destinataire du message est défini sur **ne pas déranger** ou en **Présentation**, il recevra un message manqué, envoyé par le client Skype entreprise du destinataire.
 
 Pour plus d’informations, reportez-vous à la rubrique [utilisation de la messagerie hors connexion dans Skype entreprise](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
 
@@ -53,7 +53,7 @@ Pour plus d’informations, reportez-vous à la rubrique [utilisation de la mess
 
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
 
-Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
 ## #
 
@@ -67,32 +67,32 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
 
 >
-  ```
+  ```PowerShell
   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
   ```
 
-Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## <a name="turning-on-or-off-offline-im"></a>Activation ou désactivation de la messagerie instantanée hors connexion
 
 > [!NOTE]
-> Les messages hors connexion ne sont disponibles **que** dans la dernière version du client «démarrer en un clic» de Skype entreprise et ne sont pas disponibles lorsqu’une version antérieure de Skype entreprise est utilisée ou qu’un fichier *. msi a été utilisé pour installer le client Skype entreprise.
+> Les messages hors connexion ne sont disponibles **que** dans la dernière version du client « démarrer en un clic » de Skype entreprise et ne sont pas disponibles lorsqu’une version antérieure de Skype entreprise est utilisée ou qu’un fichier *. msi a été utilisé pour installer le client Skype entreprise.
 
 Pour activer ou désactiver les messages hors connexion pour les utilisateurs de votre organisation qui envoient `True` des `False`messages hors connexion, définissez _EnableIMAutoArchiving_ sur ou. Par défaut, ce paramètre est défini `True`sur.
 
 Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
 Pour activer ou désactiver les messages hors connexion pour les utilisateurs qui envoient des `True` messages `False`hors connexion, définissez _EnableIMAutoArchiving_ sur ou. Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou en créer une comme dans l’exemple ci-dessous.
 
 
-  ```
+  ```PowerShell
   New-CsClientPolicy -Identity OfflineIM
   Set-CsClientPolicy -Identity OfflineIM -EnableIMAutoArchiving $False
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
@@ -114,9 +114,9 @@ Pour activer ou désactiver les messages hors connexion pour les utilisateurs qu
 
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7f86f114601bf4e1658a65b5a8d6520c2785e1c
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792152"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962512"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Définir la liste des numéros de téléphone inclus sur invite dans Skype Entreprise Online
 
@@ -55,7 +55,7 @@ A conferencing bridge gives you a set of dial-in phone numbers for your organiza
     
     ![Indique les utilisateurs au niveau du centre d’administration Skype Entreprise](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
-4. Sélectionnez les utilisateurs que vous souhaitez modifier:
+4. Sélectionnez les utilisateurs que vous souhaitez modifier :
     
    - Pour sélectionner un seul utilisateur, sélectionnez le nom de l’utilisateur.
     
@@ -100,7 +100,7 @@ By default, when you change a user's conferencing settings, an email is sent to 
     
     Pour modifier le numéro gratuit par défaut pour un utilisateur, exécutez ce qui suit :
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
@@ -109,35 +109,35 @@ By default, when you change a user's conferencing settings, an email is sent to 
     > [!NOTE]
     > Pour rechercher le BridgeID, utilisez l’applet **de passe Get-CsOnlineDialInConferencingBridge** .
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - Pour définir le numéro gratuit par défaut pour tous les utilisateurs ne disposant pas de l’une de + 18005551234, exécutez:
+  - Pour définir le numéro gratuit par défaut pour tous les utilisateurs ne disposant pas de l’une de + 18005551234, exécutez :
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui disposent de + 18005551234 comme numéro gratuit par défaut de + 18005551239, exécutez la commande suivante:
+  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui disposent de + 18005551234 comme numéro gratuit par défaut de + 18005551239, exécutez la commande suivante :
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés aux États-Unis sur 18005551234, exécutez:
+  - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés aux États-Unis sur 18005551234, exécutez :
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Vous voulez en savoir plus sur Windows PowerShell ?
 - Windows PowerShell permet de gérer les utilisateurs et ce qu’ils sont autorisés ou non à faire. Avec Windows PowerShell, vous pouvez gérer Office 365 et Skype Entreprise Online à l’aide d’un point d’administration central qui peut simplifier votre travail quotidien, lorsque vous devez effectuer plusieurs tâches. Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Learn about these advantages in the following topics:
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez les avantages suivants dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion d’Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

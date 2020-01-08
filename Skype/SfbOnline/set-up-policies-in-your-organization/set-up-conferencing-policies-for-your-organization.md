@@ -18,18 +18,18 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
-ms.openlocfilehash: d20b1a39f83a875d255a812fd86160445691ae2f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a30af18ea18251ff4cc099459083e7df23ba6378
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792474"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962482"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurer les stratégies de conférence pour votre organisation
 
 La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer.
   
-Il est important de garder le contrôle sur les conférences et les paramètres de conférence. Dans certains cas, il peut y avoir des problèmes de sécurité: par défaut, tout le monde, y compris les utilisateurs non authentifiés, peut participer aux réunions et enregistrer les diapositives ou documents distribuées lors de ces réunions. Par ailleurs, il peut y avoir des problèmes légaux occasionnels. Par exemple, les participants à la réunion peuvent par défaut faire des annotations sur le contenu partagé. Toutefois, ces annotations ne sont pas enregistrées lors de l’archivage de la réunion. Si votre organisation est tenue de conserver une trace de toutes les communications électroniques, il peut être préférable de désactiver les annotations. 
+Il est important de garder le contrôle sur les conférences et les paramètres de conférence. Dans certains cas, il peut y avoir des problèmes de sécurité : par défaut, tout le monde, y compris les utilisateurs non authentifiés, peut participer aux réunions et enregistrer les diapositives ou documents distribuées lors de ces réunions. Par ailleurs, il peut y avoir des problèmes légaux occasionnels. Par exemple, les participants à la réunion peuvent par défaut faire des annotations sur le contenu partagé. Toutefois, ces annotations ne sont pas enregistrées lors de l’archivage de la réunion. Si votre organisation est tenue de conserver une trace de toutes les communications électroniques, il peut être préférable de désactiver les annotations. 
   
 Dans Skype entreprise Online, les conférences sont gérées à l’aide de stratégies de conférence. Les stratégies de conférence déterminent les fonctionnalités qui peuvent être utilisées dans une conférence, y compris le nombre de fois que la Conférence peut inclure les appels audio et vidéo IP vers le nombre maximal de personnes qui peuvent participer à une réunion. Les stratégies de conférence peuvent être configurées au niveau de l’étendue globale ou par utilisateur. Cela fournit aux administrateurs une souplesse énorme pour décider quelles fonctionnalités seront mises à la disposition des utilisateurs.
   
@@ -48,11 +48,11 @@ Vous pouvez configurer les paramètres de stratégie lors de la création d’un
     
 2. Consultez la version en entrant  _Get-Host_ dans la fenêtre **Windows PowerShell**.
     
-3. Si vous n'utilisez pas la version 3.0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
+3. Si vous n’avez pas la version 3,0 ou une version ultérieure, vous devez télécharger et installer les mises à jour de Windows PowerShell. Pour télécharger et mettre à jour Windows PowerShell vers la version 4,0, voir [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) . Redémarrez votre ordinateur lorsque vous y êtes invité.
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
-    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
@@ -63,70 +63,70 @@ Vous pouvez configurer les paramètres de stratégie lors de la création d’un
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquer les transferts de fichiers et le partage de bureau pendant les réunions
 
-- Pour créer une stratégie pour ces paramètres, exécutez:
+- Pour créer une stratégie pour ces paramètres, exécutez :
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
   > ```
-  > En savoir plus sur l’applet de [nouvelle cmdlet New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
+  > En savoir plus sur l’applet de [nouvelle cmdlet New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
-- Pour permettre à tous les utilisateurs de votre organisation d’avoir la nouvelle stratégie créée, exécutez:
+- Pour permettre à tous les utilisateurs de votre organisation d’avoir la nouvelle stratégie créée, exécutez :
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
   > ```
-  > En savoir plus sur l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
+  > En savoir plus sur l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
-  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer les paramètres à vos utilisateurs.
+  Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) pour appliquer les paramètres à vos utilisateurs.
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquer l’enregistrement des conférences et les participants aux réunions anonymes
 
-- Pour créer une stratégie pour ces paramètres, exécutez: 
+- Pour créer une stratégie pour ces paramètres, exécutez : 
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
   > ```
-  > En savoir plus sur l’applet de [nouvelle cmdlet New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
+  > En savoir plus sur l’applet de [nouvelle cmdlet New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
-- Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez:
+- Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
   > 
-  > ```
+  > ```PowerShell
   >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
   > ```
-  > En savoir plus sur l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
+  > En savoir plus sur l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com//library/mt779156.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer les paramètres à vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) pour appliquer les paramètres à vos utilisateurs.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Empêcher les participants anonymes d'enregistrer les réunions et les utilisateurs externes d'enregistrer le contenu des réunions
 
-- Pour créer une stratégie pour ces paramètres, exécutez:  
+- Pour créer une stratégie pour ces paramètres, exécutez :  
   > 
-  > ```
+  > ```PowerShell
   > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
   > ```
-  > En savoir plus sur l’applet de [nouvelle cmdlet New-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779148.aspx) .
+  > En savoir plus sur l’applet de [nouvelle cmdlet New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
-- Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez:
+- Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
 >   ```
 
-En savoir plus sur l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) .
+En savoir plus sur l’applet de passe [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
-Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779157.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe[Grant-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/mt779156.aspx) pour appliquer les paramètres à vos utilisateurs.
+Si vous avez déjà créé une stratégie, vous pouvez utiliser l’applet de demande [Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) pour modifier la stratégie existante, puis utiliser l’applet de passe[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) pour appliquer les paramètres à vos utilisateurs.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 

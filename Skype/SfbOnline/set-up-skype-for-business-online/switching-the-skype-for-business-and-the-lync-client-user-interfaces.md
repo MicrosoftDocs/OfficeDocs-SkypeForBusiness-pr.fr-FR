@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221508"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962882"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Basculement entre les interfaces utilisateur des clients Skype Entreprise et Lync
 
@@ -43,7 +43,7 @@ Le module Windows PowerShell pour Skype Entreprise Online permet de créer une s
 > [!IMPORTANT]
 > Le paramètre de stratégie  _Global_ pour le changement d'interface utilisateur ne s'applique pas à un utilisateur pour lequel une stratégie personnalisée est déjà appliquée. Pour pouvoir modifier l'interface utilisateur, vous devez exécuter les opérations suivantes pour chaque utilisateur qui possède une stratégie personnalisée :
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -52,27 +52,27 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 Pour permettre à tous les utilisateurs de votre organisation d'utiliser le client Skype Entreprise, ouvrez la session PowerShell distante et tapez les informations suivantes :
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 Si vous définissez la stratégie actuelle, vous verrez :
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell : SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 Pour permettre à tous les utilisateurs de votre organisation d'utiliser le client Skype Entreprise (Lync), ouvrez la session PowerShell distante et tapez les informations suivantes : 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
 Si vous définissez la stratégie actuelle, vous verrez :
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell : SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 Pour permettre à un seul utilisateur de votre organisation d'utiliser le client Skype Entreprise, ouvrez la session PowerShell distante et tapez les informations suivantes :
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -82,7 +82,7 @@ Si vous définissez la stratégie actuelle, vous verrez :
   
 Pour permettre à un seul utilisateur de votre organisation d'utiliser le client Skype Entreprise (Lync), ouvrez la session PowerShell distante et tapez les informations suivantes :
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -93,7 +93,7 @@ Si vous définissez la stratégie actuelle, vous verrez :
 Pour permettre à plusieurs utilisateurs de votre organisation d'utiliser le client Skype Entreprise, ouvrez la session PowerShell distante et tapez les informations suivantes :
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -101,7 +101,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Pour permettre à plusieurs utilisateurs de votre organisation d'utiliser le client Skype Entreprise (Lync), ouvrez la session PowerShell distante et tapez les informations suivantes :
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -109,13 +109,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Pour permettre à un groupe d'utilisateurs de votre organisation d'utiliser le client Skype Entreprise, ouvrez la session PowerShell distante et tapez les informations suivantes :
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 Pour permettre à un groupe d'utilisateurs de votre organisation d'utiliser le client Skype Entreprise (Lync), ouvrez la session PowerShell distante et tapez les informations suivantes :
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -172,7 +172,7 @@ Pour prendre en main Windows PowerShell, consultez ces rubriques :
     
 ## <a name="first-launch-client-behaviors"></a>Comportements client au premier lancement
 
-Par défaut, lorsque les utilisateurs lancent Skype entreprise pour la première fois, l’interface utilisateur de Skype entreprise est toujours visible, même si vous avez sélectionné l’environnement du client Lync en définissant la stratégie client sur l’environnement client Lync`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`() comme décrit dessus. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
+Par défaut, lorsque les utilisateurs lancent Skype entreprise pour la première fois, l’interface utilisateur de Skype entreprise est toujours visible, même si vous avez sélectionné l’environnement du client Lync en définissant la stratégie client sur l’environnement client Lync`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`() comme décrit précédemment. Après quelques minutes, les utilisateurs sont invités à passer en mode Lync.
   
 Si vous souhaitez afficher l'interface utilisateur Lync lorsque les utilisateurs lancent le client Skype Entreprise pour la première fois, suivez cette procédure avant le premier démarrage du client après la mise à jour :
   
@@ -188,13 +188,13 @@ Si vous souhaitez afficher l'interface utilisateur Lync lorsque les utilisateurs
     
     [HKEY_CURRENT_USER\\logiciel\\Microsoft\\Office\\Lync]
     
-    "CanSharePptInCollab" = dword: 00000001
+    "CanSharePptInCollab" = dword : 00000001
     
-    "CanShareOneNoteInCollab" = dword: 00000001
+    "CanShareOneNoteInCollab" = dword : 00000001
     
-    "CanAppShareInCollab" = dword: 00000001
+    "CanAppShareInCollab" = dword : 00000001
     
-    "EnableSkypeUI" = hex: 00 00 00 00 00 00
+    "EnableSkypeUI" = hex : 00 00 00 00 00 00
     
 L'interface utilisateur de Lync s'affiche maintenant lorsque les utilisateurs lancent le client Skype Entreprise pour la première fois.
   
@@ -214,7 +214,7 @@ Si vous ne voulez pas que vos utilisateurs puissent accéder au didacticiel, vou
   
 Dans la clé **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]**, créez une valeur **DWORD (32 bit)**. Le **nom de la valeur** doit être **TutorialFeatureEnabled** et les **données de valeur** doivent être définies sur **0**.
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -277,10 +277,10 @@ Ensuite, vous devez lier l'objet GPO créé au groupe d'utilisateurs auquel vous
     
 Vous pouvez également vérifier que l'objet de stratégie de groupe a mis à jour le registre sur l'ordinateur de l'utilisateur en examinant le registre. Ouvrez l'Éditeur du registre et accédez à la clé **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]**. Si l'objet GPO a mis à jour correctement le registre, la valeur nommée EnableSkypeUI s'affiche avec la valeur 0.
   
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

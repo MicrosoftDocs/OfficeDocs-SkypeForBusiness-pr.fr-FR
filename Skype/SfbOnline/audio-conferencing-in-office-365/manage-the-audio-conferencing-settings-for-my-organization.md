@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Pour plus d’informations, reportez-vous à la rubrique Skype entreprise Online: affectation d’une licence de conférence rendez-vous et d’un ID de conférence à un utilisateur et aux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: 'Pour plus d’informations, reportez-vous à la rubrique Skype entreprise Online : affectation d’une licence de conférence rendez-vous et d’un ID de conférence à un utilisateur et aux autres paramètres de conférence rendez-vous. '
+ms.openlocfilehash: f5597ae2b857569b7890d81577e4fd4252da5106
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792317"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962702"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -38,13 +38,13 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 ## <a name="assign-an-audio-conferencing-license"></a>Affectation d’une licence de conférence audio
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences à l’aide du **Centre d’administration Skype entreprise**. Vous devez utiliser le centre d’administration Microsoft 365. Consultez [Attribuer des licences Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Vous ne pouvez pas attribuer de licences à l’aide du **Centre d’administration Skype entreprise**. Vous devez utiliser le centre d’administration Microsoft 365. Consultez la rubrique [affectation de licences Skype entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Pour attribuer une licence à un utilisateur**
 
 1. Connectez-vous à Office 365 à l'aide de votre compte professionnel ou scolaire.
 
-2. Dans le volet de navigation de gauche du centre d’administration **** > , accédez à utilisateurs**actifs**, puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
+2. Dans le volet de navigation de gauche du **Centre d’administration, accédez à** > utilisateurs**actifs**, puis sélectionnez le ou les utilisateurs dans la liste des utilisateurs disponibles.
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -54,7 +54,7 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. Si tel est le cas, déconnectez-vous du centre d’administration ou appuyez sur CTRL + F5 pour actualiser la fenêtre du navigateur.
+> Dès lors que vous attribuez la licence, il est possible que Microsoft n’apparaisse pas dans la liste en tant que fournisseur de services d’audioconférence. Si tel est le cas, déconnectez-vous du centre d’administration ou appuyez sur CTRL + F5 pour actualiser la fenêtre du navigateur.
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Activer ou désactiver les messages électroniques envoyés aux utilisateurs de l’audioconférence
 
@@ -79,7 +79,7 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 
 - Utilisation de Windows PowerShell
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
@@ -89,7 +89,7 @@ Il peut être préférable d’afficher tous les paramètres de conférence audi
 
 Modification des coordonnées de l'expéditeur dans les messages électroniques envoyés aux utilisateurs[](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)
 
-- Entrez l’adresse de messagerie dans le paramètre _à sendemailfromaddress;_ .
+- Entrez l’adresse de messagerie dans le paramètre _à sendemailfromaddress ;_ .
 
 - entrer le nom d'affichage associé à l'adresse électronique dans le paramètre  _SendEmailFromDisplayName_.
 
@@ -97,7 +97,7 @@ Modification des coordonnées de l'expéditeur dans les messages électroniques 
 
 Vous pouvez apporter des modifications aux courriers électroniques envoyés aux utilisateurs, notamment l'adresse électronique d'envoi du courrier électronique ou le nom d'affichage associé à l'adresse électronique en exécutant :
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -166,7 +166,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
 
 5. Cliquez sur **Enregistrer**.
 
-Reportez-vous [à la rubrique définition des numéros de téléphone inclus dans](set-the-phone-numbers-included-on-invites.md)les invitations.
+Reportez-vous [à la rubrique définition des numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites.md).
 
 
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>Choix des paramètres de pont d'audioconférence
@@ -180,7 +180,7 @@ Reportez-vous [à la rubrique définition des numéros de téléphone inclus dan
 
 3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
 
-4. Sous **satisfaction**de la réunion, sélectionnez les actions suivantes:
+4. Sous **satisfaction**de la réunion, sélectionnez les actions suivantes :
 
    - Sous **Expérience de participation à une réunion**, sélectionnez les actions suivantes :
 
@@ -271,45 +271,45 @@ There are several settings that you can manage at the organization level using W
 
 Pour en savoir plus sur chaque applet de commande, reportez-vous à la rubrique [Applets de commande Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=627324).
 
-Voici les paramètres au niveau de l’Organisation:
+Voici les paramètres au niveau de l’Organisation :
 
 - **Configuration des notifications d’entrée/de sortie** La valeur par défaut est _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
   ```
 
 - **Définition de l’enregistrement des noms** La valeur par défaut est _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
 - **Définition de la longueur du code confidentiel** La valeur par défaut est 5.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
 - **Définition seulement des réunions téléphoniques à partir d’un téléphone** La valeur par défaut _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
 - **Définition de savoir s’il faut envoyer un message électronique aux utilisateurs** La valeur par défaut est _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
 - **Définition de savoir s’il faut envoyer un message électronique à partir d’un compte différent** La valeur par défaut est _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
 - **Définition de l’adresse de messagerie De qui est envoyée aux utilisateurs** La valeur par défaut est _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
 - **Définition du nom d'affichage du message électronique qui est envoyé aux utilisateurs** La valeur par défaut est _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
@@ -320,7 +320,7 @@ Voici les paramètres au niveau de l’Organisation:
 
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration uniquement, par exemple pour modifier les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration uniquement, par exemple pour modifier les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes :
 
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

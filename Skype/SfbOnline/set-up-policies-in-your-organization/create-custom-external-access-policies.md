@@ -18,26 +18,26 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype entreprise Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, dans lesquelles vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinies qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: 7f3edac77af8d9948ef7118c0f94b1ec9c3ae6c1
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792484"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962502"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d'accès externe personnalisées
 
-Skype entreprise Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, dans lesquelles vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinies qui peuvent couvrir la plupart des scénarios. Il s’agit des éléments suivants:
+Skype entreprise Online vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, dans lesquelles vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinies qui peuvent couvrir la plupart des scénarios. Il s’agit des éléments suivants :
   
-- Aucun accès public fédéré ou Skype (_balise: NoFederationAndPIC_ )
+- Aucun accès public fédéré ou Skype (_balise : NoFederationAndPIC_ )
     
-- Accès fédéré uniquement (_balise: FederationOnly_ )
+- Accès fédéré uniquement (_balise : FederationOnly_ )
     
 - Accès fédéré et au grand public (_FederationAndPICDefault_)
     
-Les stratégies externes personnalisées vous permettent de créer des stratégies supplémentaires qui ne sont pas couvertes par les paramètres ci-dessus. Lorsque la stratégie a été créée, vous devez définir tous les paramètres requis et ne pouvez pas les modifier plus tard. La création de stratégies personnalisées vous permet de contrôler les fonctionnalités telles que l’accès au grand public Skype ou une stratégie de désactivation de l’audio et de la vidéo dans le cloud public, qui n’était pas couvert par des paramètres prédéfinis. Les stratégies d’accès externe personnalisé suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Vous pouvez en savoir plus sur ces paramètres [](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Les stratégies externes personnalisées vous permettent de créer des stratégies supplémentaires qui ne sont pas couvertes par les paramètres ci-dessus. Lorsque la stratégie a été créée, vous devez définir tous les paramètres requis et ne pouvez pas les modifier plus tard. La création de stratégies personnalisées vous permet de contrôler les fonctionnalités telles que l’accès au grand public Skype ou une stratégie de désactivation de l’audio et de la vidéo dans le cloud public, qui n’était pas couvert par des paramètres prédéfinis. Les stratégies d’accès externe personnalisé suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Vous pouvez en savoir plus sur [ces paramètres.](https://technet.microsoft.com/library/mt228132.aspx)
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge d' 2016 de l’application Skype entreprise pour une utilisation compatible. La version minimum suivante du client «démarrer en un clic» Skype entreprise 2016 est requise:
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge d' 2016 de l’application Skype entreprise pour une utilisation compatible. La version minimum suivante du client « démarrer en un clic » Skype entreprise 2016 est requise :
   
 |**Type**|**Date de publication**|**Version**|**Appui**|
 |:-----|:-----|:-----|:-----|
@@ -60,7 +60,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d' 2016
     
 4. Vous devrez également installer le module Windows PowerShell pour Skype Entreprise Online qui vous permet de créer une session Windows PowerShell distante qui se connecte à Skype Entreprise Online. Ce module, pris en charge uniquement sur les ordinateurs 64 bits, peut être téléchargé sur le centre de téléchargement de Microsoft à la page [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688). Redémarrez votre ordinateur si vous y êtes invité.
     
-    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Démarrez une session Windows PowerShell**
     
@@ -71,26 +71,26 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge d' 2016
     > [!NOTE]
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Pour plus d’informations sur le démarrage de Windows PowerShell, voir [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurer votre ordinateur pour Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Créer une stratégie d’accès externe personnalisée pour un utilisateur
 
-Pour cela, exécutez:
+Pour cela, exécutez :
   
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
 >   ```
 > 
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
 >   ```
 

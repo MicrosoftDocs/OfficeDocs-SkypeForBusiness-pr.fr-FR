@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010627"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963082"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Mise à niveau de Skype entreprise vers &mdash; teams pour les administrateurs informatiques
 
@@ -148,25 +148,25 @@ Les utilisateurs disposant d’un compte Skype entreprise sur site hébergé sur
 
 Contrairement aux autres stratégies, il n’est pas possible de créer de nouvelles instances de TeamsUpgradePolicy dans Office 365. Toutes les instances existantes sont intégrées au service.  (Notez que le mode est une propriété dans TeamsUpgradePolicy, plutôt que le nom d’une instance de stratégie.) Dans certains cas, mais pas dans tous les cas, le nom de l’instance de stratégie est le même que le mode. En particulier, pour affecter le mode TeamsOnly à un utilisateur, vous devez attribuer l’instance « UpgradeToTeams » de TeamsUpgradePolicy à cet utilisateur. Pour afficher une liste de toutes les instances, vous pouvez exécuter la commande suivante :
 
-```
+```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 ```
 
 Pour mettre à niveau un utilisateur en ligne vers le mode TeamsOnly, attribuez l’instance « UpgradeToTeams » : 
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
 Pour passer d’un utilisateur Skype entreprise local au mode TeamsOnly, utilisez Move-CsUser dans l’ensemble d’outils local :
 
-```
+```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
 ```
 
 Pour modifier le mode de tous les utilisateurs du client, à l’exception de ceux qui ont une autorisation explicite par utilisateur (prioritaire), exécutez la commande suivante :
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 ```
 
@@ -185,13 +185,13 @@ Si vos utilisateurs sont familiaux dans Skype entreprise Online, il vous suffit 
 
 Si vos utilisateurs sont hébergés dans Skype entreprise Server en local, vous devez utiliser l’ensemble d’outils local et vous aurez besoin de Skype entreprise Server 2019 ou CU8 pour Skype entreprise Server 2015. Dans la fenêtre PowerShell locale, créez une nouvelle instance de TeamsUpgradePolicy avec NotifySfbUsers = true :
 
-```
+```PowerShell
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
 Ensuite, à l’aide de la même fenêtre PowerShell locale, attribuez cette nouvelle stratégie aux utilisateurs souhaités :
 
-```
+```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
 
@@ -249,7 +249,7 @@ Voici les commandes clés :
 
 1. Définissez la valeur par défaut du client sur mode SfbWithTeamsCollab comme suit :
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
    ```
 
@@ -257,13 +257,13 @@ Voici les commandes clés :
 
    - Si l’utilisateur est déjà connecté :
 
-     ```
+     ```PowerShell
      Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $username 
      ```
 
    - Si l’utilisateur se trouve en local :
 
-     ```
+     ```PowerShell
      Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
      ```
 
@@ -290,7 +290,7 @@ Si certains utilisateurs de votre organisation utilisent activement teams en mod
 
 2. Pour chaque utilisateur d’équipe actif trouvé à l’étape 1, attribuez-lui le mode îlots dans Remote PowerShell. Cela vous permet d’accéder à l’étape suivante et de ne pas modifier l’interface utilisateur.  
 
-   ```
+   ```PowerShell
    $users=get-content “C:\MyPath\users.txt” 
     foreach ($user in $users){ 
     Grant-CsTeamsUpgradePolicy -identity $user -PolicyName Islands} 
@@ -298,7 +298,7 @@ Si certains utilisateurs de votre organisation utilisent activement teams en mod
 
 3. Définissez la stratégie à l’échelle du client sur SfbWithTeamsCollab :
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
@@ -306,13 +306,13 @@ Si certains utilisateurs de votre organisation utilisent activement teams en mod
 
    Pour les utilisateurs hébergés dans Skype entreprise Online :  
 
-   ```
+   ```PowerShell
    Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName UpgradeToTeams 
    ```
 
    Pour les utilisateurs hébergés dans Skype entreprise Server en local :  
 
-   ```
+   ```PowerShell
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
@@ -438,7 +438,7 @@ Qu’il s’agisse de l’utilisation d’un routage direct ou d’un plan d’a
 
 - Si un utilisateur TeamsOnly existant ou Skype entreprise Online dispose d’une licence de système téléphonique, le EV est activé par défaut.  C’est également le cas si un utilisateur local est déplacé vers le Cloud avant d’affecter la licence du système téléphonique. Dans les deux cas, l’administrateur doit spécifier l’applet de commande suivante : 
 
-  ```
+  ```PowerShell
   Set-CsUser -EnterpriseVoiceEnabled $True 
   ```
 
@@ -446,14 +446,14 @@ Qu’il s’agisse de l’utilisation d’un routage direct ou d’un plan d’a
 
 Cette section résume le comportement qui peut être rencontré lors de l’exécution d’équipes et de clients Skype entreprise au sein d’une même organisation, indépendamment du mode et de la méthode de mise à niveau utilisée :
 
-- [Réunions](#meetings)
+- [Meetings](#meetings)
 - [Interopérabilité](#interoperability)
 - [Conversations teams-interopérabilité et threads natifs](#teams-conversations---interop-versus-native-threads)
 - [Présence](#presence)
 - [Fédération](#federation)
 - [Contacts](#contacts)
 
-### <a name="meetings"></a>Réunions
+### <a name="meetings"></a>Meetings
 
 Quels que soient leur mode, les utilisateurs peuvent toujours participer à n’importe quel type de réunion auxquelles ils sont invités, qu’il s’agisse de Skype entreprise ou d’équipes.  Toutefois, les utilisateurs doivent rejoindre la réunion avec un client correspondant qui correspond au type de la réunion :
 

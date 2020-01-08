@@ -20,26 +20,26 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un message électronique contenant leurs informations de conférence audio dans Skype entreprise online.
-ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 08e1f67f042d9497854f6d96643ff41e9bf528ed
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792267"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962572"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoi d’un courrier électronique à un utilisateur avec ses informations de conférence audio dans Skype entreprise Online
 
 > [!Note]
 > Pour plus d’informations sur l’envoi d’informations sur l’audioconférence aux utilisateurs de Microsoft Teams, voir [Envoyer un courrier électronique à un utilisateur avec ses informations de conférence audio dans Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams).
 
-Les utilisateurs de Skype entreprise peuvent parfois avoir besoin de leur envoyer leurs informations de conférence audio. Pour cela, vous pouvez utiliser le **Centre d’administration Skype entreprise** et cliquer sur **Envoyer les informations sur la Conférence par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, celui-ci contient toutes les informations sur les conférences audio, notamment:
+Les utilisateurs de Skype entreprise peuvent parfois avoir besoin de leur envoyer leurs informations de conférence audio. Pour cela, vous pouvez utiliser le **Centre d’administration Skype entreprise** et cliquer sur **Envoyer les informations sur la Conférence par courrier électronique** sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, celui-ci contient toutes les informations sur les conférences audio, notamment :
   
 - Le numéro de téléphone de conférence ou le numéro de téléphone à composer pour l'utilisateur.
     
 - L'ID de conférence de l'utilisateur.
     
    
-Voici un exemple du courrier électronique envoyé:
+Voici un exemple du courrier électronique envoyé :
   
 ![Courrier électronique de conférence rendez-vous](../images/audio-conferencing-info.png)
 
@@ -67,7 +67,7 @@ Voici un exemple du courrier électronique envoyé:
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
-- Plusieurs messages électroniques sont envoyés aux utilisateurs de votre organisation après leur activation pour l’audioconférence:
+- Plusieurs messages électroniques sont envoyés aux utilisateurs de votre organisation après leur activation pour l’audioconférence :
     
   - Lorsqu’une licence de **conférence audio** leur est affectée.
     
@@ -81,9 +81,9 @@ Voici un exemple du courrier électronique envoyé:
     
   - Lorsque Microsoft devient le fournisseur de services d’audioconférence pour un utilisateur.
     
-- Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de l’applet [de passe Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) . Pour modifier l’adresse de messagerie qui envoie le message électronique aux utilisateurs, vous devez:
+- Par défaut, l’expéditeur des messages électroniques provient d’Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell et de l’applet [de passe Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=708983) . Pour modifier l’adresse de messagerie qui envoie le message électronique aux utilisateurs, vous devez :
     
-  - Entrez l’adresse de messagerie dans le paramètre À sendemailfromaddress;.
+  - Entrez l’adresse de messagerie dans le paramètre À sendemailfromaddress ;.
     
   - Définissez le paramètre SendEmailOverride à True.
     
@@ -98,9 +98,9 @@ Voici un exemple du courrier électronique envoyé:
 
 - Pour gagner du temps ou automatiser ce processus, vous pouvez utiliser l'applet de commande [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
-    Pour envoyer à l’utilisateur un message électronique contenant ses informations de conférence audio, exécutez la commande suivante:
+    Pour envoyer à l’utilisateur un message électronique contenant ses informations de conférence audio, exécutez la commande suivante :
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
