@@ -18,37 +18,37 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Utilisez Windows PowerShell et les applets de connexion Get-CsTenant et Get-CsTenantLicensingConfiguration pour obtenir des informations sur votre client Skype entreprise online.
-ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284689"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989229"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="bbfc6-103">Gestion des organisations Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="bbfc6-103">Manage Skype for Business Online organizations</span></span>
+# <a name="manage-skype-for-business-online-organizations"></a><span data-ttu-id="0be05-103">Gestion des organisations Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="0be05-103">Manage Skype for Business Online organizations</span></span>
 
-<span data-ttu-id="bbfc6-104">Vous pouvez trouver des informations sur votre client Skype entreprise Online à l’aide des applets de connexion **Get-CsTenant** et **Get-CsTenantLicensingConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="bbfc6-104">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
+<span data-ttu-id="0be05-104">Vous pouvez trouver des informations sur votre client Skype entreprise Online à l’aide des applets de connexion **Get-CsTenant** et **Get-CsTenantLicensingConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="0be05-104">You can find information about your Skype for Business Online tenant by using the **Get-CsTenant** and **Get-CsTenantLicensingConfiguration** cmdlets.</span></span>
   
-## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="bbfc6-105">Gestion des locataires Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="bbfc6-105">Manage Skype for Business Online tenants</span></span>
+## <a name="manage-skype-for-business-online-tenants"></a><span data-ttu-id="0be05-105">Gestion des locataires Skype entreprise Online</span><span class="sxs-lookup"><span data-stu-id="0be05-105">Manage Skype for Business Online tenants</span></span>
 
-<span data-ttu-id="bbfc6-106">Pour renvoyer des informations sur votre client Skype entreprise Online, appelez l’applet de connexion [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sans aucun paramètre supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="bbfc6-106">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.</span></span>
+<span data-ttu-id="0be05-106">Pour renvoyer des informations sur votre client Skype entreprise Online, appelez l’applet de connexion [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sans aucun paramètre supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="0be05-106">To return information about your Skype for Business Online tenant, call the [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) cmdlet without any additional parameters.</span></span>
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
-<span data-ttu-id="bbfc6-107">Pour renvoyer uniquement le nom du client et l’ID, utilisez la commande suivante.</span><span class="sxs-lookup"><span data-stu-id="bbfc6-107">To return just the tenant name and ID, use this command.</span></span>
+<span data-ttu-id="0be05-107">Pour renvoyer uniquement le nom du client et l’ID, utilisez la commande suivante.</span><span class="sxs-lookup"><span data-stu-id="0be05-107">To return just the tenant name and ID, use this command.</span></span>
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-<span data-ttu-id="bbfc6-108">La valeur du paramètre _IDClient_ est requise lors de l’exécution de cmdlets telles que [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) et [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span><span class="sxs-lookup"><span data-stu-id="bbfc6-108">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) and [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span></span>
+<span data-ttu-id="0be05-108">La valeur du paramètre _IDClient_ est requise lors de l’exécution de cmdlets telles que [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) et [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span><span class="sxs-lookup"><span data-stu-id="0be05-108">The value of the  _TenantID_ parameter is required when running cmdlets such as [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) and [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).</span></span>
   
-<span data-ttu-id="bbfc6-109">Pour savoir si des informations de licence pour le client spécifié sont disponibles dans le centre d’administration Skype entreprise Online, utilisez l’applet de connexion [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .</span><span class="sxs-lookup"><span data-stu-id="bbfc6-109">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.</span></span>
+<span data-ttu-id="0be05-109">Pour savoir si des informations de licence pour le client spécifié sont disponibles dans le centre d’administration Skype entreprise Online, utilisez l’applet de connexion [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .</span><span class="sxs-lookup"><span data-stu-id="0be05-109">To find information about whether licensing information for the specified tenant is available in the Skype for Business Online admin center, use the [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) cmdlet.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="bbfc6-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bbfc6-110">Related topics</span></span>
-[<span data-ttu-id="bbfc6-111">Configurer votre ordinateur pour la gestion de Skype entreprise Online à l’aide de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="bbfc6-111">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a><span data-ttu-id="0be05-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0be05-110">Related topics</span></span>
+[<span data-ttu-id="0be05-111">Configurer votre ordinateur pour la gestion de Skype entreprise Online à l’aide de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0be05-111">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
 
   
  
