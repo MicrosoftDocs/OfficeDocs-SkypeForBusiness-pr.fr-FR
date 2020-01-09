@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de messagerie dans Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Apprenez-en davantage sur les stratégies de messagerie et leur utilisation pour contrôler la messagerie vocale dans Teams.
-ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968235"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991559"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gérer les stratégies de messagerie dans Teams
 
@@ -73,9 +73,9 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Les propriétaires peuvent supprimer des messages envoyés**  Utilisez ce paramètre pour permettre aux propriétaires de supprimer les messages que les utilisateurs ont envoyés dans une conversation.
 - **Les utilisateurs peuvent supprimer des messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de supprimer les messages qu’ils ont envoyés dans une conversation.
 - **Les utilisateurs peuvent modifier les messages envoyés** Utilisez ce paramètre pour permettre aux utilisateurs de modifier les messages qu’ils ont envoyés dans une conversation.
-- **Confirmations de lecture** Les confirmations de lecture permettent à l’expéditeur d’un message de recevoir une notification lors de la lecture du message par le destinataire dans 1:1 et les discussions de groupe de 20 personnes ou moins. Les confirmations de lecture des messages ne s’importent pas incertainement quant à la lecture des messages et à l’amélioration de la communication d’équipe.  
+- **Confirmations de lecture** Les confirmations de lecture permettent à l’expéditeur d’un message de recevoir une notification lors de la lecture du message par le destinataire dans 1:1 et les discussions de groupe de 20 personnes ou moins. Les confirmations de lecture des messages ne s’importent pas incertainement quant à la lecture des messages et à l’amélioration de la communication d’équipe. Veuillez noter que les confirmations de lecture ne sont pas capturées dans les rapports eDiscovery.  
     - **Contrôle utilisateur** Cela signifie que les utilisateurs décident d’activer ou de désactiver les confirmations de lecture. Le paramètre par défaut de l’application est activé. Les utilisateurs peuvent alors le désactiver. 
-    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. Sachez que lors de l’utilisation du paramètre **on pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est de n’avoir qu’une seule stratégie de messagerie pour l’ensemble du client (par défaut, la stratégie par défaut nommée « global (organisation par défaut) ») ou d’avoir toutes les stratégies de messagerie dans le client utilise les mêmes paramètres pour les accusés de réception. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
+    - **Activé pour tout le monde** Cela signifie que tout le monde au sein du client dispose de la fonctionnalité, sans option pour le désactiver. Sachez que lors de l’utilisation du paramètre **activé pour tout le monde** , la seule façon de définir les accusés de réception pour l’ensemble du client est d’avoir une seule stratégie de messagerie pour l’ensemble du client (la stratégie par défaut nommée « global (organisation par défaut) ») ou de faire en sorte que toutes les stratégies de messagerie du client utilisent les mêmes paramètres pour les reçus. La fonctionnalité accusés de lecture est particulièrement efficace lorsque la fonctionnalité est activée **pour tout le monde**.
     - **Désactivé pour tous** Cela signifie que la fonctionnalité est désactivée et que personne ne dispose d’une confirmation de lecture dans le client. 
 <a name="bkchat"> </a>
 
@@ -91,10 +91,10 @@ Utilisez les paramètres suivants pour modifier la stratégie de messagerie gén
 - **Permettre aux utilisateurs de traduire des messages** Activez ce paramètre pour permettre aux utilisateurs de traduire automatiquement des messages de teams dans la langue spécifiée par leurs paramètres de langue personnels pour Office 365.
 - **Autoriser le lecteur immersif à afficher les messages** Activez ce paramètre pour permettre aux utilisateurs d’afficher des messages dans le lecteur immersif Microsoft. Le lecteur immersif est un outil d’apprentissage qui offre une interface de lecture plein écran pour améliorer la lisibilité du texte.
 - **Les utilisateurs peuvent envoyer des notifications de <a name="urgent-message">priorité</a> ** Si vous activez cette fonction, les utilisateurs peuvent envoyer un message qui utilise les notifications de priorité. Les notifications de priorité indiquent aux utilisateurs toutes les 2 minutes pour une période de 20 minutes ou jusqu’à ce que les messages soient sélectionnés et lus par le destinataire, ce qui maximise la probabilité que le message soit reçu et agi en temps opportun.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Creation de messages vocaux** 
-    - **Autorisé dans les conversations et les canaux** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les conversations et les canaux.
-    - **Accordé uniquement aux conversations** Cela signifie que les utilisateurs peuvent laisser des messages vocaux dans les conversations, mais pas dans les canaux.
-    - **Désactivé** Cela signifie que les utilisateurs ne peuvent pas créer de messages vocaux dans des conversations ou des canaux.  
+- **Création de messages audio** -important : les messages audio ne sont pas capturés dans la création de rapports eDiscovery. 
+    - **Autorisé dans les conversations et les canaux** Cela signifie que les utilisateurs peuvent laisser des messages audio dans les conversations et les canaux.
+    - **Accordé uniquement aux conversations** Cela signifie que les utilisateurs peuvent laisser des messages audio dans les discussions, mais pas dans les canaux.
+    - **Désactivé** Cela signifie que les utilisateurs ne peuvent pas créer de messages audio dans des conversations ou des canaux.  
 - **Sur les appareils mobiles, afficher les canaux préférés au-dessus des discussions récentes** Activez ce paramètre pour déplacer les canaux favoris vers le haut de l’écran de l’appareil mobile de sorte qu’il ne soit pas nécessaire de faire défiler les canaux pour les retrouver. 
 - **Autoriser un utilisateur à supprimer des utilisateurs d’une conversation de groupe** Activez ce paramètre pour permettre à un utilisateur de supprimer d’autres utilisateurs d’une discussion de groupe. Cette fonctionnalité vous permet de poursuivre une conversation avec un groupe de personnes plus petit sans perdre l’historique de vos conversations.
 

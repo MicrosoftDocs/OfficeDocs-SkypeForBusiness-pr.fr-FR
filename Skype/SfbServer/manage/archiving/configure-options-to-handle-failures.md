@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Résumé: Découvrez comment bloquer des sessions de messagerie instantanée et de conférence en cas de panne du serveur Skype entreprise qui empêcherait l’archivage.'
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment bloquer des sessions de messagerie instantanée et de conférence en cas de panne du serveur Skype entreprise qui empêcherait l’archivage.'
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286238"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992751"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les échecs dans Skype entreprise Server
 
-**Résumé:** Découvrez comment bloquer des sessions de messagerie instantanée et de conférence en cas de panne du serveur Skype entreprise qui empêcherait l’archivage.
+**Résumé :** Découvrez comment bloquer des sessions de messagerie instantanée et de conférence en cas de panne du serveur Skype entreprise qui empêcherait l’archivage.
   
 Dans le cas où l’archivage est requis pour votre organisation, vous pouvez bloquer des sessions de messagerie instantanée et de conférence en cas de panne du serveur Skype entreprise qui empêcherait l’archivage. Cet état est parfois appelé « mode critique ». Par exemple, en cas de problème au niveau du service de stockage, la messagerie instantanée peut être bloquée pour les utilisateurs dont l’archivage des communications est activé. La récupération des sessions de messagerie instantanée et de conférence est effectuée automatiquement après la correction des échecs. 
   
@@ -43,15 +43,15 @@ Pour préciser si des sessions de communication sont autorisées en cas de panne
 
 Vous pouvez également spécifier si les sessions de communication doivent être autorisées en cas d’échec qui empêcherait l’archivage à l’aide de la cmdlet **Set-CsArchivingConfiguration** avec le paramètre BlockOnArchiveFailure.
   
-Par exemple, la commande suivante désactive les communications dans le cas d’une erreur d’archivage:
+Par exemple, la commande suivante désactive les communications dans le cas d’une erreur d’archivage :
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 La commande suivante active les communications en cas de panne d’archivage :
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

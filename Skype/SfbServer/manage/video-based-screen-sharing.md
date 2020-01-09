@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Informations de planification et de configuration de Skype entreprise Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 00c699f9a26d82506bd13fefe0e6f3e53f7b86bf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548994"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992391"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Partage d’écran vidéo pour Skype Entreprise Server 
  
-Le partage d’écran vidéo (VbSS) dans Skype entreprise Server 2015 est désormais disponible en téléchargement: [Skype entreprise server 2015 cumulative update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS est inclus dans Skype entreprise Server 2019.
+Le partage d’écran vidéo (VbSS) dans Skype entreprise Server 2015 est désormais disponible en téléchargement : [Skype entreprise server 2015 cumulative update KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS est inclus dans Skype entreprise Server 2019.
   
 Le partage d’écran vidéo, ou VbSS, a grandi depuis le partage d’écran Lync. La différence entre VbSS et le partage d'écran traditionnel réside dans les protocoles sous-jacents utilisés et dans ce qu'ils permettent de réaliser. Le partage d'écran utilise le protocole RDP (Remote Desktop Protocol), qui est parfait pour créer des centaines de sessions un-à-un entre plusieurs ordinateurs individuels. Une nouvelle technologie, VbSS, utilisera le protocole User Datagram Protocol (UDP).
   
@@ -115,9 +115,9 @@ La bande passante pour VbSS est :
    
 ## <a name="clients-and-servers-support"></a>Clients et serveurs pris en charge
 
-Le partage d’écran vidéo nécessite Skype entreprise Server 2015 CU3 ou une version ultérieure, ainsi qu’une version actuelle des clients de prise en charge répertoriés dans [les fonctionnalités du client mobile](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) . [](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) 
+Le partage d’écran vidéo nécessite Skype entreprise Server 2015 CU3 ou une version ultérieure, ainsi qu’une version actuelle des clients de prise [en charge](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)répertoriés dans [les fonctionnalités du client mobile](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) . 
   
-Dans certains cas, le partage d’écran va basculer vers RDP, comme suit:
+Dans certains cas, le partage d’écran va basculer vers RDP, comme suit :
   
 - Si votre compte est hébergé dans un environnement où l'ASMCU n'est pas conforme à la version minimale prenant en charge VbSS.
 - Si une personne qui utilise une ancienne version du client Skype entreprise rejoint votre session (par exemple, toute personne utilisant une version de client Windows inférieure à 16.0.6330.1000, des appareils système de salle Skype entreprise ou des applications mobiles Skype entreprise). 
@@ -139,15 +139,15 @@ Une fois que vous avez installé la mise à jour cumulative 3 de Skype entrepris
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>Comment désactiver la fonctionnalité VbSS pour des utilisateurs :
 
-- Vous pouvez affecter une stratégie de l’utilisateur qui n’autorise pas les utilisateurs à VbSS en exécutant cette cmdlet dans la console de gestion Skype entreprise (remplacez [PolicyName] par la stratégie que vous voulez appliquer à cette fin):
+- Vous pouvez affecter une stratégie de l’utilisateur qui n’autorise pas les utilisateurs à VbSS en exécutant cette cmdlet dans la console de gestion Skype entreprise (remplacez [PolicyName] par la stratégie que vous voulez appliquer à cette fin) :
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - Vous pouvez également mettre à jour la stratégie de conférence globale qui affectera l'ensemble des utilisateurs sans avoir attribué une stratégie :
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -155,7 +155,7 @@ Une fois que vous avez installé la mise à jour cumulative 3 de Skype entrepris
     
 - Si vous souhaitez désactiver complètement VbSS, exécutez la commande suivante :
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -166,15 +166,15 @@ Une fois que vous avez installé la mise à jour cumulative 3 de Skype entrepris
   
 ### <a name="how-to-enable-users-to-use-vbss"></a>Comment activer la fonctionnalité VbSS pour des utilisateurs :
 
-- Vous pouvez assigner une stratégie d’utilisateur spécifique qui permet à VbSS d’utiliser des VbSS en exécutant cette cmdlet dans la console de gestion Skype entreprise (remplacez [PolicyName] par la stratégie que vous avez utilisée pour cela):
+- Vous pouvez assigner une stratégie d’utilisateur spécifique qui permet à VbSS d’utiliser des VbSS en exécutant cette cmdlet dans la console de gestion Skype entreprise (remplacez [PolicyName] par la stratégie que vous avez utilisée pour cela) :
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - Vous pouvez également mettre à jour la stratégie de conférence globale qui affectera l'ensemble des utilisateurs sans avoir attribué une stratégie :
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -182,7 +182,7 @@ Une fois que vous avez installé la mise à jour cumulative 3 de Skype entrepris
     
 - Si vous souhaitez rétablir VbSS après l'avoir désactivé (la fonctionnalité est activée par défaut), vous pouvez exécuter la commande suivante :
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 

@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Résumé: Découvrez comment gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype entreprise Server.'
-ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences rendez-vous dans Skype entreprise Server.'
+ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280354"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992291"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les stratégies de PIN pour les conférences rendez-vous dans Skype entreprise Server
  
-**Résumé:** Apprenez à gérer les stratégies de code confidentiel pour la Conférence rendez-vous dans Skype entreprise Server.
+**Résumé :** Apprenez à gérer les stratégies de code confidentiel pour la Conférence rendez-vous dans Skype entreprise Server.
   
 Les utilisateurs de Skype entreprise Server qui disposent des informations d’identification AD DS (Active Directory Domain Services) de votre organisation peuvent participer à des conférences rendez-vous en utilisant un code confidentiel (PIN) pour les utilisateurs authentifiés. La stratégie de code confidentiel définit le fonctionnement des codes confidentiels d’accès aux conférences rendez-vous.
   
@@ -47,7 +47,7 @@ Vous pouvez afficher des informations sur les stratégies de code confidentiel e
 
 Pour afficher des informations sur les stratégies de code confidentiel, utilisez l’applet de commande **Get-CsPinPolicy**. Par exemple, la commande suivante retourne les informations relatives à une seule stratégie de code confidentiel dont l’identité est site:Redmond:.
   
-```
+```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
@@ -92,7 +92,7 @@ Pour modifier la stratégie globale de code confidentiel de conférence rendez-v
   
 La commande suivante retourne la valeur de MinPasswordLength de toutes les stratégies de code confidentiel configurées pour être utilisées dans l’organisation. Pour y parvenir, la commande appelle d’abord l’applet de commande **Get-CsPinPolicy**, sans aucun paramètre, afin de récupérer une collection de toutes les stratégies de code confidentiel existantes. Cette collection est ensuite redirigée vers l’applet de commande **Set-CsPinPolicy** qui modifie la valeur de la propriété MinPasswordLength pour chaque stratégie de la collection.
   
-```
+```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
@@ -143,7 +143,7 @@ Pour créer une stratégie de code confidentiel au niveau utilisateur ou site, u
   
 La commande ci-dessous crée une stratégie de code confidentiel dont l’identité est site:Redmond. Cette commande inclut un seul paramètre facultatif, MinPasswordLength, qui permet de définir la propriété MinPasswordLength sur 7. Toutes les propriétés de stratégie restantes seront configurées au moyen des valeurs par défaut.
   
-```
+```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
@@ -173,7 +173,7 @@ Pour modifier la stratégie de code confidentiel de conférence rendez-vous, uti
   
 La commande ci-dessous modifie la stratégie de code confidentiel affectée au site de Redmond. Dans ce cas, la commande modifie la valeur de la propriété MinPasswordLength sur 10, ce qui signifie que les nouveaux codes confidentiels devront contenir au moins 10 chiffres.
   
-```
+```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
@@ -199,7 +199,7 @@ Pour supprimer une stratégie de code confidentiel au niveau utilisateur ou site
   
 La commande ci-dessous supprime toutes les stratégies de code confidentiel configurées dans l’étendue de site. Pour ce faire, utilisez l’applet de commande **Get-CsPinPolicy** avec le paramètre Filter pour renvoyer une collection de toutes les stratégies ayant une identité qui commence par les caractères « site: ». Cette collection est ensuite redirigée vers l’applet de commande **Remove-CsPinPolicy** qui supprime chaque stratégie de la collection :
   
-```
+```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 

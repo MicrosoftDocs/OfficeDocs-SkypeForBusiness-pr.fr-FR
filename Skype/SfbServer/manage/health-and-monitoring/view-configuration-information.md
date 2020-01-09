@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
-description: 'Résumé: Découvrez comment utiliser l’enregistrement des détails des appels (CDR) dans Skype entreprise Server.'
-ms.openlocfilehash: e0aed0c26672b83cb223ba763eb6224025d68118
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment utiliser l’enregistrement des détails des appels (CDR) dans Skype entreprise Server.'
+ms.openlocfilehash: 976f61ac98cb02a0cd69750a581bfa5190156ff7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279647"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991679"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Afficher les informations de configuration de CDR dans Skype entreprise Server
  
-**Résumé:** Découvrez comment utiliser l’enregistrement des détails des appels dans Skype entreprise Server.
+**Résumé :** Découvrez comment utiliser l’enregistrement des détails des appels dans Skype entreprise Server.
   
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
   
@@ -33,13 +33,13 @@ Lorsque vous installez Skype entreprise Server, une collection globale unique de
     
 ## <a name="viewing-cdr-configuration-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de configuration de CDR à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez afficher les paramètres de configuration de CDR à l’aide de Windows PowerShell et de l’applet de cmdlet Get-CsCdrConfiguration. Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez afficher les paramètres de configuration de CDR à l’aide de Windows PowerShell et de l’applet de cmdlet Get-CsCdrConfiguration. Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
   
 ### <a name="to-view-cdr-configuration-information"></a>Pour afficher les informations de configuration d’enregistrement des détails des appels
 
-- Pour afficher des informations sur les paramètres de configuration de votre CDR, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+- Pour afficher des informations sur les paramètres de configuration de votre CDR, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration
   ```
 

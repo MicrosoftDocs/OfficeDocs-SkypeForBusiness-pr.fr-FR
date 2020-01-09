@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après le déplacement de vos utilisateurs vers les pools 2019 de Skype entreprise Server, vous pouvez migrer vos groupes de réponse. La migration de Response Groups inclut la copie de groupes d’agents, de files d’attente, de flux de travail, de fichiers audio et de déplacements de groupe de réponses de l’ancien déploiement vers le pool Skype entreprise Server 2019. Après avoir migré vos groupes de réponses héritées, les appels vers les groupes de réponse sont gérés par l’application Response Group dans le pool Skype entreprise Server 2019. Les appels de Response Groups ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237969"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991109"
 ---
 # <a name="migrate-response-groups"></a>Migrer des groupes Response Group
 
@@ -53,17 +53,17 @@ La procédure suivante pour la migration de configurations de groupe de réponse
 
 1. Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalServerAdmins ou disposant d’autorisations et de droits d’administrateur équivalents.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez :
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
     Par exemple :
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
@@ -87,17 +87,17 @@ La procédure suivante pour la migration de configurations de groupe de réponse
 
 1. Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui est membre du rôle CsViewOnlyAdministrator.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
-    Pour plus d’informations sur les applets de commande suivantes, exécutez:
+    Pour plus d’informations sur les applets de commande suivantes, exécutez :
     
-   ```
+   ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
 3. Exécutez :
     
-   ```
+   ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
@@ -105,7 +105,7 @@ La procédure suivante pour la migration de configurations de groupe de réponse
     
 5. Exécutez :
     
-   ```
+   ```PowerShell
    Get-CsRgsQueue
    ```
 
@@ -113,7 +113,7 @@ La procédure suivante pour la migration de configurations de groupe de réponse
     
 7. Exécutez :
     
-   ```
+   ```PowerShell
    Get-CsRgsWorkflow
    ```
 

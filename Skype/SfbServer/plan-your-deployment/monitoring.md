@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
-description: 'Résumé: reportez-vous à cette rubrique pour planifier le service de surveillance dans Skype entreprise Server.'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : reportez-vous à cette rubrique pour planifier le service de surveillance dans Skype entreprise Server.'
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297280"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991779"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planifier l’analyse dans Skype entreprise Server
 
-**Résumé:** Consultez cette rubrique lors de la planification du service de surveillance dans Skype entreprise Server.
+**Résumé :** Consultez cette rubrique lors de la planification du service de surveillance dans Skype entreprise Server.
 
 Le service de surveillance de Skype entreprise Server offre aux administrateurs la possibilité de recueillir des données d’utilisation et de qualité pour les sessions de communication qui interviennent au sein de leur organisation, ce qui leur permet d’identifier les tendances et les problèmes. Le contrôle permanent de votre déploiement vous permet de détecter les problèmes de manière précoce et de garantir la satisfaction des utilisateurs de votre organisation.
 
@@ -28,7 +28,7 @@ L’analyse dans Skype entreprise Server ne nécessite pas de rôle serveur dist
 ## <a name="basics-about-monitoring"></a>Informations de base sur la surveillance
 <a name="Basics"> </a>
 
-Une session est un terme générique permettant de se connecter à un utilisateur:
+Une session est un terme générique permettant de se connecter à un utilisateur :
 
 - Une conférence
 
@@ -37,9 +37,9 @@ Une session est un terme générique permettant de se connecter à un utilisateu
 - un autre utilisateur via une conversation P2P (comme la messagerie instantanée ou un appel audio).
 
 > [!NOTE]
-> Skype entreprise Server effectue le suivi des informations relatives à chaque session: qui a appelé qui; Quels points de terminaison utilisés dans la session; durée de la session, Quelle a été la qualité perçue de la session; et ainsi de suite. Skype entreprise Server n’enregistre et ne stocke pas l’appel réel. Qui inclut des sessions de messagerie instantanée: bien que Skype entreprise Server enregistre des informations sur les sessions de messagerie instantanée, il ne conserve aucun enregistrement de chaque message instantané envoyé lors de la session.
+> Skype entreprise Server effectue le suivi des informations relatives à chaque session : qui a appelé qui ; Quels points de terminaison utilisés dans la session ; durée de la session, Quelle a été la qualité perçue de la session ; et ainsi de suite. Skype entreprise Server n’enregistre et ne stocke pas l’appel réel. Qui inclut des sessions de messagerie instantanée : bien que Skype entreprise Server enregistre des informations sur les sessions de messagerie instantanée, il ne conserve aucun enregistrement de chaque message instantané envoyé lors de la session.
 
-Les informations de base collectées par Skype entreprise Server pour chaque session peuvent être utilisées pour:
+Les informations de base collectées par Skype entreprise Server pour chaque session peuvent être utilisées pour :
 
 - Analyse **du retour sur investissement** . Les administrateurs peuvent comparer les données d’utilisation à des données similaires collectées pour leur système de téléphonie précédent afin d’afficher une économie de coûts et de justifier le déploiement de Skype entreprise Server.
 
@@ -63,33 +63,33 @@ Le contrôle fournit également un mécanisme permettant aux points de terminais
 ## <a name="define-your-requirements-for-monitoring"></a>Définition de la configuration requise pour la surveillance
 <a name="requirements"> </a>
 
-Il existe toujours plusieurs problèmes clés qui doivent être résolus avant de commencer l’installation et la configuration de Skype entreprise Server:
+Il existe toujours plusieurs problèmes clés qui doivent être résolus avant de commencer l’installation et la configuration de Skype entreprise Server :
 
  **Quand souhaitez-vous installer la surveillance ?** Vous pouvez installer et configurer le contrôle en même temps que Skype entreprise Server. l’Assistant Déploiement de Skype entreprise Server vous permet d’associer votre pool frontal à une base de données de surveillance lors de l’installation. Vous pouvez également installer la surveillance après l’installation de Skype entreprise Server. pour cela, vous pouvez utiliser le générateur de topologie pour associer vos pools et serveurs frontaux à une base de données de surveillance, puis publier la topologie révisée.
 
-N’oubliez pas que SQL Server doit être installé et configuré avant que vous ne procédiez au déploiement et à la configuration de la fonctionnalité de surveillance. Toutefois, il vous suffit de déployer SQL Server proprement dit; les bases de données de surveillance seront créées pour vous lorsque vous publierez votre topologie de Skype entreprise Server.
+N’oubliez pas que SQL Server doit être installé et configuré avant que vous ne procédiez au déploiement et à la configuration de la fonctionnalité de surveillance. Toutefois, il vous suffit de déployer SQL Server proprement dit ; les bases de données de surveillance seront créées pour vous lorsque vous publierez votre topologie de Skype entreprise Server.
 
- **Quels types de données voulez-vous contrôler?** Skype entreprise Server vous permet de surveiller deux types de données généraux: les appels d’information sur les appels et les données de qualité des appels. L’enregistrement des détails des appels vous permet d’effectuer le suivi de l’utilisation des fonctionnalités de Skype entreprise Server telles que les appels téléphoniques VoIP (voix sur IP). messagerie instantanée; transferts de fichiers; conférences audio/vidéo (A/V); et des sessions de partage d’application. Ces informations vous aideront à déterminer quelles sont les fonctionnalités de Skype entreprise Server utilisées (et celles qui ne le sont pas), ainsi que des informations sur l’utilisation de ces fonctionnalités. Les données QoE vous permettent de conserver un enregistrement de la qualité des appels audio et vidéo passés dans votre organisation, tout en vous informant sur le nombre de paquets réseau perdus, le bruit de fond et le montant de « gigue » (différences de retard des paquets).
+ **Quels types de données voulez-vous contrôler ?** Skype entreprise Server vous permet de surveiller deux types de données généraux : les appels d’information sur les appels et les données de qualité des appels. L’enregistrement des détails des appels vous permet d’effectuer le suivi de l’utilisation des fonctionnalités de Skype entreprise Server telles que les appels téléphoniques VoIP (voix sur IP). messagerie instantanée ; transferts de fichiers ; conférences audio/vidéo (A/V); et des sessions de partage d’application. Ces informations vous aideront à déterminer quelles sont les fonctionnalités de Skype entreprise Server utilisées (et celles qui ne le sont pas), ainsi que des informations sur l’utilisation de ces fonctionnalités. Les données QoE vous permettent de conserver un enregistrement de la qualité des appels audio et vidéo passés dans votre organisation, tout en vous informant sur le nombre de paquets réseau perdus, le bruit de fond et le montant de « gigue » (différences de retard des paquets).
 
 Si vous choisissez d’activer l’analyse dans Skype entreprise Server, vous pouvez activer le contrôle CDR et la surveillance QoE, ou vous pouvez choisir d’activer un seul type d’analyse tout en laissant le nouveau type désactivé. Par exemple, supposons que vos utilisateurs se servent uniquement de la messagerie instantanée et du transfert de fichier, et ne passent pas d’appels audio ou vidéo. Dans ce cas, l’activation de la surveillance QoE s’avère superflue. De même, Skype entreprise Server vous permet d’activer et de désactiver facilement la surveillance après le déploiement de la surveillance. Par exemple, il est possible que vous choisissiez de déployer la surveillance tout en laissant la surveillance QoE désactivée dans un premier temps. Si vos utilisateurs commencent à rencontrer des problèmes avec les appels audio et vidéo, vous pouvez alors activer la surveillance QoE et utiliser ces données pour vous aider à identifier et résoudre ces problèmes.
 
 Il n’y a aucun avantage particulier (ou inconvénient) d’installer la surveillance en même temps que Skype entreprise Server et de procéder à la surveillance après l’installation de Skype entreprise Server. Pour garder à l’esprit que, avant d’installer la surveillance, vous devez sélectionner un ordinateur pour héberger le magasin principal de surveillance, et une version prise en charge de SQL Server doit être installée et configurée sur cet ordinateur pour que cet ordinateur puisse être utilisé pour l’analyse . Si vous avez déjà installé SQL Server sur un ordinateur et que cet ordinateur est prêt à l’emploi, vous pouvez installer la surveillance en même temps que Skype entreprise Server. Si vous ne disposez pas d’un ordinateur principal, vous pouvez procéder à l’installation de Skype entreprise Server seul, puis installer la surveillance chaque fois que l’ordinateur principal est prêt à l’emploi.
 
- **Combien de bases de données d’analyse du serveur principal avez-vous besoin?** Il a été estimé qu’une base de données colocalisée pour la surveillance et l’archivage pouvait prendre en charge des utilisateurs de 240 000 Skype entreprise Server. De plus, une base de données de surveillance unique peut être utilisée par plusieurs pools front-end. Si vous avez trois pools front-end dans votre organisation, vous pouvez associer ces trois pools au même magasin principal.
+ **Combien de bases de données d’analyse du serveur principal avez-vous besoin ?** Il a été estimé qu’une base de données colocalisée pour la surveillance et l’archivage pouvait prendre en charge des utilisateurs de 240 000 Skype entreprise Server. De plus, une base de données de surveillance unique peut être utilisée par plusieurs pools front-end. Si vous avez trois pools front-end dans votre organisation, vous pouvez associer ces trois pools au même magasin principal.
 
 Pour de nombreuses organisations, la capacité de base de données ne sera pas un facteur décisif pour la détermination du nombre de bases de données de surveillance principales requises. Il semblerait plutôt que la vitesse du réseau soit un point important. Supposons que vous possédez trois pools frontaux, mais qu’un de ses pools est situé sur une connexion réseau lente. Dans ce cas, vous voudrez probablement utiliser deux bases de données de surveillance : une pour les deux pools dotés d’une bonne connexion réseau et une pour le pool situé sur la connexion réseau lente.
 
 Vous devez également tenir compte du serveur Skype entreprise Server qui prend en charge l’utilisation de bases de données en miroir. La « mise en miroir de base de données » permet de conserver simultanément deux copies d’une base de données, se trouvant chacune sur un serveur différent. À chaque fois que des données sont écrites sur la base de données primaire, elles sont également écrites sur la base de données miroir. Si la base de données principale doit échouer ou devenir indisponible, vous pouvez basculer vers la base de données miroir en utilisant une commande PowerShell unique de Skype entreprise Server. Par exemple :
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 
 Cela est important pour la planification, car la mise en miroir nécessite de doubler le nombre requis de bases de données : en plus de chaque base de données primaire vous aurez besoin d’une deuxième base de données pour servir de miroir.
 
- **Vos sites Skype entreprise Server nécessitent-ils leurs propres configurations de surveillance personnalisées?** Lorsque vous installez Skype entreprise Server, vous devez également installer des collections globales des paramètres de configuration CDR et QoE; ces collections globales vous permettent d’appliquer les mêmes paramètres de CDR et QoE à votre organisation entière. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
+ **Vos sites Skype entreprise Server nécessitent-ils leurs propres configurations de surveillance personnalisées ?** Lorsque vous installez Skype entreprise Server, vous devez également installer des collections globales des paramètres de configuration CDR et QoE ; ces collections globales vous permettent d’appliquer les mêmes paramètres de CDR et QoE à votre organisation entière. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
-Cependant, il peut aussi arriver que vous souhaitiez appliquer différents paramètres à différents sites. Par exemple, vous pouvez vouloir utiliser les surveillances CDR et QoE pour votre site de Redmond, mais seulement la surveillance CDR pour votre site de Dublin. De même, vous pouvez avoir besoin de conserver les données de surveillance pendant 60 jours pour le site de Redmond, mais seulement pendant 30 jours pour le site de Dublin. Skype entreprise Server vous permet de créer des collections distinctes de paramètres de configuration de CDR et QoE sur l’étendue du site; qui vous permet de gérer chaque site différemment. Cela vous permet de gérer différemment chaque site (cela inclut l’activation et la désactivation de la surveillance, ainsi que la configuration des paramètres de gestion tels que la durée de conservation des données.)
+Cependant, il peut aussi arriver que vous souhaitiez appliquer différents paramètres à différents sites. Par exemple, vous pouvez vouloir utiliser les surveillances CDR et QoE pour votre site de Redmond, mais seulement la surveillance CDR pour votre site de Dublin. De même, vous pouvez avoir besoin de conserver les données de surveillance pendant 60 jours pour le site de Redmond, mais seulement pendant 30 jours pour le site de Dublin. Skype entreprise Server vous permet de créer des collections distinctes de paramètres de configuration de CDR et QoE sur l’étendue du site ; qui vous permet de gérer chaque site différemment. Cela vous permet de gérer différemment chaque site (cela inclut l’activation et la désactivation de la surveillance, ainsi que la configuration des paramètres de gestion tels que la durée de conservation des données.)
 
 Remarquez que vous pouvez prendre cette décision avant de déployer la surveillance ou après. Par exemple, vous pouvez déployer la surveillance puis gérer l’intégralité de l’organisation en utilisant les paramètres globaux. Si vous changez d’avis, vous pouvez créer une collection distincte de paramètres pour le site de Redmond, puis utiliser ces paramètres pour gérer la surveillance pour Redmond (les paramètres appliqués sur l’étendue Site sont toujours prioritaires sur les paramètres appliqués sur l’étendue Global). Si vous changez encore d’avis, vous pouvez simplement supprimer les paramètres de configuration appliqués au site de Redmond. Lorsqu’une collection de paramètres de site est supprimée, la collection de paramètres globale sera automatiquement appliquée à ce site.
 

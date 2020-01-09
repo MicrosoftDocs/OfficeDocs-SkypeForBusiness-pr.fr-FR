@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Résumé: Découvrez comment supprimer une configuration d’archivage dans Skype entreprise Server.'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment supprimer une configuration d’archivage dans Skype entreprise Server.'
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286196"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992371"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Suppression d’une configuration de l’archivage dans Skype entreprise Server
 
-**Résumé:** Découvrez comment supprimer une configuration d’archivage dans Skype entreprise Server.
+**Résumé :** Découvrez comment supprimer une configuration d’archivage dans Skype entreprise Server.
   
 Vous pouvez supprimer une configuration de site ou une configuration de pool, mais vous ne pouvez pas supprimer la configuration globale. Si vous supprimez la configuration globale, ses valeurs par défaut sont automatiquement rétablies.
   
@@ -46,25 +46,25 @@ Vous pouvez également supprimer une configuration de l’archivage à l’aide 
   
 Par exemple, la commande suivante supprime les paramètres de la configuration d’archivage appliquées au site Redmond. Lorsqu’une stratégie configurée au niveau de l’étendue Site est supprimée, les utilisateurs précédemment gérés par cette stratégie utilisent automatiquement à la place la stratégie d’archivage globale :
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 La commande suivante supprime tous les paramètres de configuration d’archivage appliqués à l’étendue du service :
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 La commande suivante supprime tous les paramètres de configuration d’archivage là où l’archivage Exchange a été désactivé :
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 Vous pouvez également utiliser l’applet de commande **Remove-CsArchivingConfiguration** pour rétablir les valeurs par défaut des paramètres globaux. Par exemple, supposons que vous avez activé l’archivage d’une session de messagerie instantanée au niveau global ; la commande suivante rétablit la valeur par défaut None, ce qui désactive l’archivage au niveau global :
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 

@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: La migration des numéros d’accès rendez-vous dans Skype entreprise Server 2019 nécessite l’exécution de l’applet de connexion Move-CsApplicationEndpoint pour migrer les objets de contact. Lors de l’installation héritée et de la période de coexistence 2019 de Skype entreprise Server, les numéros d’accès rendez-vous créés dans Skype entreprise Server 2019 se comportent de la même manière que les numéros d’accès entrants que vous créez dans l’installation héritée, comme décrit dans cet zone.
-ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238045"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991139"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrer les numéros d’accès entrant
 
 La migration des numéros d’accès rendez-vous dans Skype entreprise Server 2019 nécessite l’exécution de l’applet de connexion **Move-CsApplicationEndpoint** pour migrer les objets de contact. Lors de l’installation héritée et de la période de coexistence 2019 de Skype entreprise Server, les numéros d’accès rendez-vous créés dans Skype entreprise Server 2019 se comportent de la même manière que les numéros d’accès entrants que vous créez dans l’installation héritée, comme décrit dans cet zone. 
 
-Les numéros d’accès rendez-vous créés lors de l’installation de Skype entreprise Server 2019 ou que vous avez créés dans Skype entreprise Server 2019 avant, pendant ou après la migration, présentent les caractéristiques suivantes:
+Les numéros d’accès rendez-vous créés lors de l’installation de Skype entreprise Server 2019 ou que vous avez créés dans Skype entreprise Server 2019 avant, pendant ou après la migration, présentent les caractéristiques suivantes :
 
 - N’apparaissent pas dans les invitations aux réunions Office Communications Server 2007 R2 et la page numéro d’accès rendez-vous.
 
@@ -46,11 +46,11 @@ Vous devez mettre fin à la migration des numéros d’accès rendez-vous qui po
 
 ## <a name="to-identify-and-move-dial-in-access-numbers"></a>Pour identifier et déplacer les numéros d’accès rendez-vous
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
-2. Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Skype entreprise Server 2019, à partir de la ligne de commande exécutée: 
+2. Pour déplacer chaque numéro d’accès entrant vers un pool hébergé sur Skype entreprise Server 2019, à partir de la ligne de commande exécutée : 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
@@ -81,9 +81,9 @@ Vous devez mettre fin à la migration des numéros d’accès rendez-vous qui po
 
 1. Ouvrez Skype entreprise Server Management Shell.
 
-2. Pour rétablir tous les numéros d’accès pour les conférences rendez-vous transférés, à partir de la ligne de commande:
+2. Pour rétablir tous les numéros d’accès pour les conférences rendez-vous transférés, à partir de la ligne de commande :
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 

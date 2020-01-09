@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-description: 'Résumé: en savoir plus sur le rapport sur l’inscription des utilisateurs dans Skype entreprise Server.'
-ms.openlocfilehash: efdb701a61f527e3dd56c1f1e0662f3f1b7f0f8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport sur l’inscription des utilisateurs dans Skype entreprise Server.'
+ms.openlocfilehash: 721d0b814a970ccb32df8eb83251099d8cb4801d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279668"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991689"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Rapport sur l’inscription des utilisateurs dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport sur l’inscription des utilisateurs dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport sur l’inscription des utilisateurs dans Skype entreprise Server.
   
 Le rapport sur l’inscription des utilisateurs donne un aperçu de l’activité de connexion des utilisateurs, en particulier des informations sur le nombre d’utilisateurs connectés à Skype entreprise Server pendant une période spécifiée (horaire, quotidienne, hebdomadaire, mensuel). N’oubliez pas que le rapport vous indique uniquement le nombre de personnes qui ont ouvert une session. Il ne vous apprend pas qui a ouvert une session. Les rapports d’analyse ne fournissent pas d’informations sur les utilisateurs spécifiques utilisant Skype entreprise Server (et ceux qui ne le sont pas). Vous pouvez toutefois obtenir des informations approximatives sur les utilisateurs à l’aide du rapport d’activité de l’utilisateur.
   
@@ -33,7 +33,7 @@ Vous ne pouvez accéder au rapport d’enregistrement de l’utilisateur qu’à
   
 ## <a name="making-the-best-use-of-the-user-registration-report"></a>Utilisation optimale du rapport d’enregistrement de l’utilisateur
 
-Une fois que vous avez déployé Skype entreprise Server, l’une des questions fréquemment posées est la suivante: Comment savoir si mes utilisateurs utilisent réellement cette nouvelle technologie? Même s’il est quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si des utilisateurs utilisent ou non Skype entreprise Server, vous devez effectuer deux opérations. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique le nombre d’utilisateurs distincts connectés à Skype entreprise Server.
+Une fois que vous avez déployé Skype entreprise Server, l’une des questions fréquemment posées est la suivante : Comment savoir si mes utilisateurs utilisent réellement cette nouvelle technologie ? Même s’il est quelque peu limité à cet égard, le rapport d’enregistrement de l’utilisateur peut vous aider à répondre à cette question. Pour déterminer si des utilisateurs utilisent ou non Skype entreprise Server, vous devez effectuer deux opérations. Récupérez d’abord la valeur de la mesure Utilisateurs uniques par ouverture de session dans le rapport d’enregistrement de l’utilisateur. Cette valeur indique le nombre d’utilisateurs distincts connectés à Skype entreprise Server.
   
 Par comparaison, la métrique total des ouvertures de session indique le nombre total de fois où tout le monde s’est connecté à Skype entreprise Server. Par exemple, supposons que Ken Myer s’est connecté à Skype entreprise Server cinq fois par jour. Dans ce cas, cinq ouvertures de session distinctes sont comptabilisées pour Ken Myer dans la mesure Nombre total d’ouvertures de session, mais une seule ouverture de session est comptabilisée dans la mesure Utilisateurs uniques par ouverture de session. De même, il n’est pas rare qu’un utilisateur ouvre une session sur plusieurs périphériques ou depuis plusieurs emplacements. Par exemple, l’utilisateur peut se connecter à l’aide d’un ordinateur de bureau, d’un ordinateur portable ou d’un téléphone IP qui se connecte automatiquement à Skype entreprise Server. Dans cet exemple, nous avons un utilisateur unique avec trois ouvertures de session.
   
@@ -49,9 +49,9 @@ Pour mieux expliquer la différence entre le nombre total d’ouvertures de sess
    
 Notez qu’il y a cinq ouvertures de session au total, mais qu’il n’y a que deux utilisateurs uniques par ouverture de session : Ken Myer (qui a ouvert une session trois fois) et Pilar Ackerman (qui a ouvert une session deux fois). Cela illustre la différence entre les ouvertures de session et les utilisateurs uniques par ouverture de session.
   
-En plus de connaître le nombre d’ouvertures de session uniques, vous devez connaître le nombre total d’utilisateurs qui ont été activés pour Skype entreprise Server. Cette valeur peut être récupérée en ouvrant Skype entreprise Server Management Shell et en exécutant la commande Windows PowerShell suivante:
+En plus de connaître le nombre d’ouvertures de session uniques, vous devez connaître le nombre total d’utilisateurs qui ont été activés pour Skype entreprise Server. Cette valeur peut être récupérée en ouvrant Skype entreprise Server Management Shell et en exécutant la commande Windows PowerShell suivante :
   
-```
+```PowerShell
 (Get-CsUser).Count
 ```
 
@@ -60,7 +60,7 @@ Si la commande précédente renvoie une valeur de 1 236 et que la métrique des 
 > [!CAUTION]
 > Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Cela signifie que vous avez réellement reçu des utilisateurs de 1 000 connectés à Skype entreprise Server, ce qui signifie que plus près de 80% de vos utilisateurs ont été connectés. 
   
-Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La métrique utilisateurs actifs uniques indique le nombre d’utilisateurs uniques qui ont réellement utilisé Skype entreprise Server: ils ont effectué un appel téléphonique, ils ont rejoint une réunion Skype entreprise Server ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, car Skype entreprise Server peut être configuré pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, il est possible que vous disposiez d’un grand nombre d’utilisateurs qui se connectent automatiquement à Skype entreprise lorsqu’ils se connectent à Windows tous les jours, mais qu’ils n’utilisent jamais réellement Skype entreprise Server pendant ce laps de temps.
+Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La métrique utilisateurs actifs uniques indique le nombre d’utilisateurs uniques qui ont réellement utilisé Skype entreprise Server : ils ont effectué un appel téléphonique, ils ont rejoint une réunion Skype entreprise Server ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, car Skype entreprise Server peut être configuré pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, il est possible que vous disposiez d’un grand nombre d’utilisateurs qui se connectent automatiquement à Skype entreprise lorsqu’ils se connectent à Windows tous les jours, mais qu’ils n’utilisent jamais réellement Skype entreprise Server pendant ce laps de temps.
   
 La métrique unique des utilisateurs actifs fournit également des données plus significatives au sein d’une organisation dans laquelle les utilisateurs ne ferment pas de fenêtre à la fin de la journée. Au lieu de cela, ils verrouillent simplement leur ordinateur et laissent fonctionner Windows et Skype entreprise. Dans ce cas, vous pouvez vous retrouver avec un nombre d’ouvertures de session par jour très restreint, car vos utilisateurs ont ouvert leur session plusieurs jours auparavant et ne l’ont jamais fermée. Toutefois, les utilisateurs actifs uniques vous indiquent si les utilisateurs utilisent activement Skype entreprise ou un autre client Skype entreprise Server.
   

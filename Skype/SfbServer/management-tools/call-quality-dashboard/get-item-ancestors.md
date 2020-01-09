@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 'Résumé: en savoir plus sur l’opération obtenir les ancêtres de l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 77fb5f46ada278bcb172a51620317182fe5d61b0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’opération obtenir les ancêtres de l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: c82ae699cab0bf812f281fc2f2ad54323bcf8f7f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274729"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992681"
 ---
 # <a name="get-item-ancestors"></a>Obtenir les ancêtres d’élément
  
-**Résumé:** En savoir plus sur l’opération obtenir les ancêtres de l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** En savoir plus sur l’opération obtenir les ancêtres de l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération obtenir les ancêtres de l’élément fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
@@ -47,7 +47,7 @@ Obtenir les ancêtres renvoie les ancêtres d’éléments spécifiques du réf�
   
  Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
-```
+```json
 [{
 "item1": 1653,
 "item2": 0,

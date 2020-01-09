@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Vous pouvez déplacer plusieurs utilisateurs de votre liste héritée vers votre pool de pilotes Skype entreprise Server 2019 à l’aide de Skype entreprise Server 2019 le panneau de configuration ou de Skype entreprise Server 2019 Management Shell.
-ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244571"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988949"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Déplacer plusieurs utilisateurs vers le pool de pilotes
 
@@ -57,7 +57,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre liste héritée vers votre
     
 2. Dans la ligne de commande, tapez les informations suivantes et remplacez **User1** et **utilisateur2** par des noms d’utilisateur spécifiques que vous voulez déplacer, puis remplacez **pool_FQDN** par le nom du pool de destination. Dans cet exemple, nous allons déplacer les utilisateurs de Hao Chen et Katie Jordanie. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -65,7 +65,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre liste héritée vers votre
   
 3. Dans la ligne de commande, tapez ce qui suit : 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
@@ -82,7 +82,7 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés vers le pool hérit�
     
 2. Dans la ligne de commande, tapez ce qui suit : 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -90,7 +90,7 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés vers le pool hérit�
   
 3. Exécutez **Get-Csuser** pour l’un des utilisateurs pilote. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 

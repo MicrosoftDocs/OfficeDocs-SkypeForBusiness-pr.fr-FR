@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 'Résumé: verrouillez ou déverrouillez le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.'
-ms.openlocfilehash: 600ddcb507c7cb0074a651580c684590fa283602
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : verrouillez ou déverrouillez le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.'
+ms.openlocfilehash: bbf082fd85780972387cf014573e22996a9edcf0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294278"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992311"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Verrouillage ou déverrouillage d’un code confidentiel d’utilisateur dans Skype entreprise Server
  
-**Résumé:** Verrouiller ou déverrouiller le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.
+**Résumé :** Verrouiller ou déverrouiller le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.
   
 Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateur à partir de la section **utilisateurs** du panneau de configuration Skype entreprise Server.
   
@@ -88,13 +88,13 @@ Vous pouvez verrouiller ou déverrouiller le code confidentiel d’un utilisateu
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Verrouillage et déverrouillage des épingles d’utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-Vous pouvez verrouiller et déverrouiller des épingles d’utilisateurs à l’aide de Windows PowerShell et des applets de CsClientPin et de verrouillage-CsClientPin. Vous pouvez exécuter ces applets de commande à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez verrouiller et déverrouiller des épingles d’utilisateurs à l’aide de Windows PowerShell et des applets de CsClientPin et de verrouillage-CsClientPin. Vous pouvez exécuter ces applets de commande à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
   
 ### <a name="to-lock-a-user-pin"></a>Pour verrouiller le code confidentiel d’un utilisateur
 
 - Pour verrouiller le code confidentiel d’un utilisateur, utilisez l’applet de passe Lock-CsClientPin. Par exemple :
     
-  ```
+  ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
   ```
 
@@ -102,7 +102,7 @@ Vous pouvez verrouiller et déverrouiller des épingles d’utilisateurs à l’
 
 - Pour déverrouiller le code confidentiel d’un utilisateur, utilisez l’applet de la cmdlet Unlock-CsClientPin. Par exemple :
     
-  ```
+  ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 

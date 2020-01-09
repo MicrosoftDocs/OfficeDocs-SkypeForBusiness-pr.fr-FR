@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Résumé: Découvrez comment afficher les stratégies de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: 1f1545761838cf176abd88fa12abd9ef5a1d8136
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment afficher les stratégies de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: 7ea7b5cb9ba54fcf26e5f37b79320466c19d1050
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280319"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992189"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Afficher les stratégies de conférence dans Skype entreprise Server
  
-**Résumé:** Découvrez comment afficher les stratégies de conférence dans Skype entreprise Server.
+**Résumé :** Découvrez comment afficher les stratégies de conférence dans Skype entreprise Server.
   
 Vous pouvez afficher les stratégies de conférence en utilisant le panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
@@ -43,7 +43,7 @@ Vous pouvez afficher les stratégies de conférence en utilisant le panneau de c
 
 Pour afficher les stratégies de conférence, utilisez l’applet de commande **Get-Cs ConferencingPolicy** :
   
-```
+```PowerShell
 Get-CsConferencingPolicy
 ```
 

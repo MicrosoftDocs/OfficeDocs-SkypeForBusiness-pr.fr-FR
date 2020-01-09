@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 'Résumé: Découvrez comment gérer la suppression définitive des données archivées pour Skype entreprise Server.'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer la suppression définitive des données archivées pour Skype entreprise Server.'
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278390"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991609"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gestion de la suppression de données archivées dans Skype entreprise Server
 
-**Résumé:** Découvrez comment gérer la suppression définitive des données archivées pour Skype entreprise Server.
+**Résumé :** Découvrez comment gérer la suppression définitive des données archivées pour Skype entreprise Server.
   
 La base de données d’archivage n’est pas destinée à la conservation longue durée, et Skype entreprise Server ne fournit pas de solution de découverte électronique pour les données archivées, de sorte que les données doivent être déplacées vers un autre stockage. Skype entreprise Server fournit un outil d’exportation de session que vous pouvez utiliser pour exporter des données archivées dans les transcriptions de recherche. Vous devez définir quand exécuter la purge des données archivées et exportées. 
   
@@ -57,26 +57,26 @@ Vous pouvez gérer la purge des données archivées à l’aide des applets de c
     
 La commande suivante, permet de purger toutes les données archivées, par exemple. Après l’exécution de la commande, Skype entreprise Server efface tous les enregistrements d’archivage antérieurs à la valeur spécifiée pour le paramètre KeepArchivingDataForDays. 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 La commande suivante limite la purge aux enregistrements archivés qui ont été exportés dans un fichier de données (à l’aide de l’applet de commande **Export-CSArchivingData**). Vous devez également définir le paramètre PurgeExportedArchivesOnly sur True ($True) :
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-Après l’exécution de la commande, Skype entreprise Server purge uniquement les enregistrements qui répondent aux deux critères suivants: 1) dont la valeur est antérieure à celle spécifiée pour le paramètre KeepArchivingDataForDays. et 2) elles ont été exportées à l’aide de l’applet de passe **Export-CsArchivingData** .
+Après l’exécution de la commande, Skype entreprise Server purge uniquement les enregistrements qui répondent aux deux critères suivants : 1) dont la valeur est antérieure à celle spécifiée pour le paramètre KeepArchivingDataForDays. et 2) elles ont été exportées à l’aide de l’applet de passe **Export-CsArchivingData** .
   
 Pour désactiver la purge automatique des enregistrements archivés, définissez le paramètre EnablePurging sur False ($False) :
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 L’exemple suivant utilise l’applet de commande **Invoke-CsArchivingDatabasePurge** pour purger tous les enregistrements de plus de 24 heures de la base de données d’archivage sur ATL-SQL-001.contoso.com. Pour garantir la suppression de tous les enregistrements, y compris les enregistrements qui n’ont pas été exportés, le paramètre PurgeExportedArchivesOnly est défini sur False ($False) :
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

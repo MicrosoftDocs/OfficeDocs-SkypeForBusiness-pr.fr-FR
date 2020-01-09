@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à une réunion détecte le client déjà installé sur l’ordinateur de l’utilisateur. Si un client est déjà installé, ce client ouvre et joint la réunion. Si un client n’est pas installé, l’application Web s’ouvre par défaut.
-ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239325"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989559"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configuration de la page de participation à une réunion
 
@@ -31,19 +31,19 @@ Vous pouvez modifier le comportement de la page de participation à une réunion
    
 ### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>Pour configurer la page de participation à une réunion à l’aide de Skype entreprise Server 2019 Management Shell
 
-1. Démarrez Skype entreprise Server 2019 Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server 2019 Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server 2019**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande suivante : 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
     Ce cmdlet renvoie les paramètres de configuration de service Web.
     
-3. Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, reportez-vous à la documentation de [Skype entreprise Server Management Shell](../../SfbServer/manage/management-shell.md) ):
+3. Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, reportez-vous à la documentation de [Skype entreprise Server Management Shell](../../SfbServer/manage/management-shell.md) ) :
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 

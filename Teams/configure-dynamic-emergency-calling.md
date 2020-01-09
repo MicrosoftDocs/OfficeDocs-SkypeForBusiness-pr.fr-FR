@@ -1,5 +1,5 @@
 ---
-title: Configurer les appels d’urgence dynamiques
+title: Configurer un appel d’urgence dynamique
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,15 +11,15 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
-description: Configurer les appels d’urgence dynamiques
+description: Configurer un appel d’urgence dynamique
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615854"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992089"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur les appels d’urgence, notamment des information
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les paramètres réseau pour les fonctionnalités vocales sur le Cloud](cloud-voice-network-settings.md)
-- [Gérer la topologie de votre réseau pour les fonctionnalités vocales de Cloud](manage-your-network-topology.md)
+- [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)
 
 
 ## <a name="supported-clients"></a>Clients pris en charge
@@ -164,25 +164,25 @@ La stratégie TeamsEmergencyCallRouting s’applique uniquement au routage direc
 
 Par exemple, pour activer un utilisateur spécifique pour la notification du support technique, utilisez la commande suivante :
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 Pour attribuer une stratégie nommée « Stratégie d’appel d’urgence contoso 1 » au site 1, utilisez la commande suivante :
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 Pour permettre à un utilisateur de routage direct spécifique d’appeler des services d’urgence, utilisez la commande suivante :
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 Pour attribuer une stratégie nommée « routage des appels d’urgence de contoso New York » vers le site 1, utilisez la commande suivante :
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -204,5 +204,5 @@ Certains fournisseurs de service de routage d’urgence (ERSPs) aux États-Unis 
 - [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Affectation ou modification d’un emplacement d’urgence pour votre utilisateur](assign-change-emergency-location-user.md)
-- [Paramètres réseau pour les fonctionnalités vocales sur le Cloud](cloud-voice-network-settings.md)
-- [Gérer la topologie de votre réseau pour les fonctionnalités vocales de Cloud](manage-your-network-topology.md)
+- [Paramètres réseau pour les fonctionnalités voix Cloud](cloud-voice-network-settings.md)
+- [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)

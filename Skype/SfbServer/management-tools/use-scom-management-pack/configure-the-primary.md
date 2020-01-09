@@ -11,21 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
-description: 'Résumé: configurez votre serveur de gestion principal, installez System Center Operations Manager et importez les modules de gestion pour Skype entreprise Server 2015.'
-ms.openlocfilehash: a89ee8ca7c7f5601d9219ef49643adc2ebf99883
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : configurez votre serveur de gestion principal, installez System Center Operations Manager et importez les modules de gestion pour Skype entreprise Server 2015.'
+ms.openlocfilehash: adee7ef72e6b59854e2b458aa33fdb4880923eed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277670"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992461"
 ---
 # <a name="configure-the-primary-management-server"></a>Configuration du serveur d’administration principal
 
-**Résumé:** Configurer votre serveur de gestion principal, installer System Center Operations Manager et importer des modules de gestion pour Skype entreprise Server 2015.
+**Résumé :** Configurer votre serveur de gestion principal, installer System Center Operations Manager et importer des modules de gestion pour Skype entreprise Server 2015.
 
 Pour tirer pleinement parti des nouvelles fonctionnalités de surveillance de l’intégrité intégrées à Skype entreprise Server 2015, vous devez d’abord désigner un ordinateur pour agir en tant que serveur d’administration principal. Vous devez ensuite installer System Center Operations Manager 2012 SP1 ou R2 ou System Center Operations Manager 2007 R2 sur cet ordinateur. Par ailleurs, vous devez commencer par installer une version prise en charge de SQL Server pour pouvoir fonctionner en tant que base de données principale Operations Manager.
 
-Lorsque vous installez System Center Operations Manager, vous devez installer tous les composants de ce produit, y compris:
+Lorsque vous installez System Center Operations Manager, vous devez installer tous les composants de ce produit, y compris :
 
 - Base de données opérationnelle
 
@@ -54,14 +54,14 @@ Gardez à l’esprit que vous ne pouvez avoir qu’un seul serveur de gestion ra
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Importation de packs d’administration Skype Entreprise Server 2015
 
-Vous pouvez développer les fonctionnalités de System Center Operations Manager en installant des packs d’administration (logiciels qui déterminent les éléments que System Center Operations Manager peut surveiller, la façon dont ces éléments doivent être surveillés et la façon dont les alertes doivent être déclenchées et relat. Skype entreprise Server 2015 inclut deux packs d’administration System Center Operations Manager qui fournissent les fonctionnalités suivantes:
+Vous pouvez développer les fonctionnalités de System Center Operations Manager en installant des packs d’administration (logiciels qui déterminent les éléments que System Center Operations Manager peut surveiller, la façon dont ces éléments doivent être surveillés et la façon dont les alertes doivent être déclenchées et relat. Skype entreprise Server 2015 inclut deux packs d’administration System Center Operations Manager qui fournissent les fonctionnalités suivantes :
 
-- **Composant et Pack de gestion des utilisateurs** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) effectue le suivi des problèmes liés à Skype entreprise Server enregistrés dans les journaux d’événements, inscrits par des compteurs de performance ou enregistrés dans les bases de données d’enregistrements des détails des appels ou de la qualité des appels. Pour les problèmes critiques, System Center Operations Manager peut être configuré pour notifier immédiatement les administrateurs par courrier électronique, message instantané ou messagerie SMS. (SMS ou service de messagerie courte est la technologie utilisée pour envoyer des messages texte d’un appareil mobile à un autre.)
+- **Le Pack de gestion des utilisateurs et des composants** (Microsoft.ls.2015.Monitoring.ComponentAndUser.MP) permet de suivre les problèmes liés à Skype entreprise Server enregistrés dans les journaux des événements, inscrits par des compteurs de performance ou enregistrés dans les bases de données d’enregistrements des détails des appels ou de qualité des appels. Pour les problèmes critiques, System Center Operations Manager peut être configuré pour notifier immédiatement les administrateurs par courrier électronique, message instantané ou messagerie SMS. (SMS ou service de messagerie courte est la technologie utilisée pour envoyer des messages texte d’un appareil mobile à un autre.)
 
     > [!NOTE]
     >  Pour plus d’informations sur la configuration de la notification Operations Manager, consultez la rubrique Configuration de la [notification](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **Pack d’administration de la surveillance active** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) teste de manière proactive les composants clés de Skype entreprise Server comme la connexion au système, l’échange de messages instantanés ou l’appel d’appels vers un téléphone situé sur le réseau téléphonique public commuté (RTC). ). Ces tests sont effectués à l’aide des cmdlets de transaction synthétique de Skype entreprise Server. Par exemple, l’applet de **contrôle test-CsIM** est utilisée pour simuler une conversation par messagerie instantanée entre deux utilisateurs de test. En cas d’échec de cette conversation, une alerte est générée.
+- **Le pack d’administration de l’analyseur actif** (Microsoft.ls.2015.Monitoring.ActiveMonitoring.MP) vérifie de manière proactive les principaux composants de Skype entreprise Server, comme la connexion au système, l’échange de messages instantanés ou l’appel d’appels vers un téléphone figurant sur le réseau téléphonique public commuté (RTC). Ces tests sont effectués à l’aide des cmdlets de transaction synthétique de Skype entreprise Server. Par exemple, l’applet de **contrôle test-CsIM** est utilisée pour simuler une conversation par messagerie instantanée entre deux utilisateurs de test. En cas d’échec de cette conversation, une alerte est générée.
 
 L’importation des packs d’administration est une étape cruciale. S’ils ne sont pas importés, vous ne serez pas en mesure d’utiliser Operations Manager pour surveiller les événements Skype Entreprise Server ni exécuter les transactions synthétiques Skype Entreprise Server.
 
@@ -102,12 +102,12 @@ En général, il est plus facile d’importer les packs d’administration avec 
 
 2. Dans l’interpréteur de commandes, tapez la commande suivante à l’invite de commandes, en utilisant le chemin d’accès réel à votre copie du fichier Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp, puis appuyez sur Entrée :
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
    ```
 
 3. Une fois le premier pack d’administration importé, répétez la procédure à l’aide du chemin vers votre copie du fichier Microsoft.LS.2015.Monitoring.ComponentAndUser.mp :
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
    ```

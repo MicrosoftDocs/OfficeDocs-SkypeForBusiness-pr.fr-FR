@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 'Résumé: Découvrez la procédure d’obtention d’un utilisateur, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 6c38bb2db2bef1a21dfc5c4791de7a163c57ff5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez la procédure d’obtention d’un utilisateur, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 09dcbbaeaae98ed7b01f3d710cfda23aa5fa986f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274596"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992621"
 ---
 # <a name="get-user"></a>Obtenir un utilisateur
  
-**Résumé:** En savoir plus sur l’opération obtenir l’utilisateur, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** En savoir plus sur l’opération obtenir l’utilisateur, qui fait partie du service utilisateur. Le service d’utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération obtenir les utilisateurs fait partie du service utilisateur dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
@@ -46,7 +46,7 @@ Obtenir renvoie un enregistrement utilisateur du référentiel.
   
  Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
-```
+```json
 {
 "userId": 0,
 "loginName": "system",
@@ -54,7 +54,7 @@ Obtenir renvoie un enregistrement utilisateur du référentiel.
 }
 ```
 
- ** ID de l’utilisateur.
+ *ID de* l’utilisateur.
   
  *LoginName* -identification de l’utilisateur externe pour les utilisateurs normaux. Si l’authentification Windows est utilisée pour authentifier les utilisateurs, il peut s’agir d’un nom de domaine complet (FQDN) de l’utilisateur.
   

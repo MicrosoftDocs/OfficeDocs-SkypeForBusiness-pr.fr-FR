@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Résumé: Découvrez comment créer des paramètres de configuration de réunion dans Skype entreprise Server.'
-ms.openlocfilehash: 3d4f986b850b309d50967da9126b8b4eea08a166
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment créer des paramètres de configuration de réunion dans Skype entreprise Server.'
+ms.openlocfilehash: bcf32d3e250a3bc8b29d34e4c2fd56173dcfd5a6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293843"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991879"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de réunion dans Skype entreprise Server
  
-**Résumé:** Découvrez comment créer des paramètres de configuration de réunion dans Skype entreprise Server.
+**Résumé :** Découvrez comment créer des paramètres de configuration de réunion dans Skype entreprise Server.
   
 Vous pouvez créer des paramètres de configuration de la réunion à l’aide du panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
@@ -69,7 +69,7 @@ Pour créer des paramètres de configuration de réunion, utilisez l’applet de
   
 La commande ci-dessous crée un ensemble de paramètres de configuration de réunion pour le site de Redmond :
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
@@ -77,13 +77,13 @@ Comme aucun paramètre (autre que le paramètre d’identité obligatoire) n’e
   
 Pour créer des paramètres qui utilisent différentes valeurs de propriété, incluez simplement le paramètre et la valeur de paramètre appropriés. Par exemple, pour créer une collection de paramètres de configuration de réunion qui, par défaut, admet tout le monde à une réunion comme présentateur, utilisez une commande semblable à la suivante :
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
 Plusieurs valeurs de propriété peuvent être définies en incluant plusieurs paramètres. Par exemple, la commande suivante admet tout le monde à une réunion comme présentateur et force aussi les utilisateurs RTC à attendre dans la salle d’attente jusqu’à ce qu’ils soient officiellement admis à la réunion :
   
-```
+```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 

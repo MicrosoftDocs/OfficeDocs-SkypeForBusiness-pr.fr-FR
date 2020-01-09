@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Utilisez Windows PowerShell et les applets de connexion Get-CsTenant et Get-CsTenantLicensingConfiguration pour obtenir des informations sur votre client Skype entreprise online.
-ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284689"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989229"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gestion des organisations Skype entreprise Online
 
@@ -33,13 +33,13 @@ Vous pouvez trouver des informations sur votre client Skype entreprise Online à
 
 Pour renvoyer des informations sur votre client Skype entreprise Online, appelez l’applet de connexion [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sans aucun paramètre supplémentaire.
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
 Pour renvoyer uniquement le nom du client et l’ID, utilisez la commande suivante.
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 

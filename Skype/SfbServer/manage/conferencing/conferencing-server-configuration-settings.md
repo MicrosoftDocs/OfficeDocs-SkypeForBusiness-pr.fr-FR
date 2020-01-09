@@ -9,27 +9,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Résumé: Découvrez comment gérer les paramètres de configuration de serveur de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer les paramètres de configuration de serveur de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288998"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991899"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du serveur de conférence dans Skype entreprise Server
  
-**Résumé:** Découvrez comment gérer les paramètres de configuration de serveur de conférence dans Skype entreprise Server.
+**Résumé :** Découvrez comment gérer les paramètres de configuration de serveur de conférence dans Skype entreprise Server.
   
 Cette rubrique décrit comment gérer paramètres de configuration de conférence. Pour plus d’informations sur la planification et le déploiement de conférences, voir [planifier les conférences dans Skype entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) et [déployer des conférences dans Skype entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Les paramètres de configuration de conférences déterminent des éléments tels que la taille maximale autorisée pour le contenu et les documents de la réunion. quantité maximale de bande passante pour le service de conférence de partage d’application; limites de stockage et périodes d’expiration; URL des téléchargements internes et externes du client pris en charge; pointe vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence; les ports utilisés pour le partage d’application, le son du client, le transfert de fichiers et le trafic multimédia. Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres peuvent être définis à l’aide de Skype entreprise Server Management Shell.
+Les paramètres de configuration de conférences déterminent des éléments tels que la taille maximale autorisée pour le contenu et les documents de la réunion. quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL des téléchargements internes et externes du client pris en charge ; pointe vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; les ports utilisés pour le partage d’application, le son du client, le transfert de fichiers et le trafic multimédia. Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres peuvent être définis à l’aide de Skype entreprise Server Management Shell.
   
-Lorsque vous installez Skype entreprise Server, le système vous propose une collection unique de paramètres de configuration de conférence (collection globale). Si vous devez créer des paramètres personnalisés pour un site ou un service, vous pouvez le faire à l’aide de l’applet **de nouvelle cmdlet New-CsConferencingConfiguration** . Notez que les nouveaux paramètres peuvent être appliqués uniquement à l’étendue du site ou du service; vous ne pouvez pas créer de nouvelle collection globale de paramètres de configuration de conférence, mais vous pouvez modifier la collection globale à l’aide de l’applet de passe **Set-CsConferencingConfiguration** . De plus, le service ou le site ne peut pas héberger plus d’une collection de paramètres. Si vous tentez de créer de nouveaux paramètres pour le site de Redmond et que le site de Redmond héberge déjà une collection de paramètres de configuration des conférences, votre commande échoue.
+Lorsque vous installez Skype entreprise Server, le système vous propose une collection unique de paramètres de configuration de conférence (collection globale). Si vous devez créer des paramètres personnalisés pour un site ou un service, vous pouvez le faire à l’aide de l’applet **de nouvelle cmdlet New-CsConferencingConfiguration** . Notez que les nouveaux paramètres peuvent être appliqués uniquement à l’étendue du site ou du service ; vous ne pouvez pas créer de nouvelle collection globale de paramètres de configuration de conférence, mais vous pouvez modifier la collection globale à l’aide de l’applet de passe **Set-CsConferencingConfiguration** . De plus, le service ou le site ne peut pas héberger plus d’une collection de paramètres. Si vous tentez de créer de nouveaux paramètres pour le site de Redmond et que le site de Redmond héberge déjà une collection de paramètres de configuration des conférences, votre commande échoue.
   
 ## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Gestion des paramètres de configuration des conférences à l’aide de Skype entreprise Server Management Shell
 
-Pour gérer les paramètres de configuration des conférences à l’aide de Skype entreprise Server Management Shell, utilisez les applets de commande suivantes:
+Pour gérer les paramètres de configuration des conférences à l’aide de Skype entreprise Server Management Shell, utilisez les applets de commande suivantes :
   
 **Paramètres de configuration de conférence**
 
@@ -42,7 +42,7 @@ Pour gérer les paramètres de configuration des conférences à l’aide de Sky
    
 La commande ci-dessous crée une collection de paramètres de configuration de conférence pour le site Redmond (site:Redmond). Dans cet exemple, un paramètre supplémentaire a été inclus (Organization). Celui-ci définit la valeur de la propriété Organization sur Litwareinc : 
   
-```
+```PowerShell
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 ```
 
@@ -56,7 +56,7 @@ Une fois la collection créée, la deuxième commande définit la valeur de la p
   
 Enfin, la troisième commande utilise l’applet de commande **Set-CsConferencingConfiguration** pour appliquer les nouveaux paramètres au site Redmond :
   
-```
+```PowerShell
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x

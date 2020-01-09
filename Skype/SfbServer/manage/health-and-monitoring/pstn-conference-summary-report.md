@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Résumé: en savoir plus sur le rapport de synthèse des conférences RTC dans Skype entreprise Server.'
-ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport de synthèse des conférences RTC dans Skype entreprise Server.'
+ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279983"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992159"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse des conférences RTC dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport synthèse des conférences RTC dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport synthèse des conférences RTC dans Skype entreprise Server.
   
 Dans Skype entreprise Server, une conférence RTC est une conférence dans laquelle au moins un participant compose un numéro à l’aide d’un téléphone commuté (réseau téléphonique public commuté). (Un téléphone RTC est un téléphone mobile, un téléphone mobile ou un autre téléphone qui n’utilise pas le protocole voix sur IP.) Même s’il est appelé conférences RTC dans les rapports de surveillance, ces conférences peuvent être plus fréquemment appelées conférences rendez-vous.
   
@@ -33,9 +33,9 @@ Le rapport de synthèse de conférence RTC est accessible uniquement à partir d
 
 Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs rendez-vous, comparez la valeur de la métrique du total des conférences RTC à la métrique du total de conférences trouvée sur le [rapport synthèse de la Conférence dans Skype entreprise Server](conference-summary-report.md).
   
-Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez rapidement vérifier les stratégies de conférences (le cas échéant) permettre aux utilisateurs de planifier des conférences RTC en exécutant la commande suivante à partir de Skype entreprise Server Management Shell:
+Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez rapidement vérifier les stratégies de conférences (le cas échéant) permettre aux utilisateurs de planifier des conférences RTC en exécutant la commande suivante à partir de Skype entreprise Server Management Shell :
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 
