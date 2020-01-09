@@ -9,83 +9,83 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Résumé: Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.'
-ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.'
+ms.openlocfilehash: 8542c31050cf4ca9383c22b39c83b28309d3ea32
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299971"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992731"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a><span data-ttu-id="5ec8c-103">Créer une nouvelle stratégie d’archivage dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="5ec8c-103">Create a new archiving policy in Skype for Business Server</span></span>
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a><span data-ttu-id="b2dc3-103">Créer une nouvelle stratégie d’archivage dans Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="b2dc3-103">Create a new archiving policy in Skype for Business Server</span></span>
 
-<span data-ttu-id="5ec8c-104">**Résumé:** Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-104">**Summary:** Learn how to create a new archiving policy for Skype for Business Server.</span></span>
+<span data-ttu-id="b2dc3-104">**Résumé :** Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-104">**Summary:** Learn how to create a new archiving policy for Skype for Business Server.</span></span>
   
-<span data-ttu-id="5ec8c-105">Vous pouvez créer de nouvelles stratégies d’archivage à l’aide du panneau de configuration ou des applets de commande de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-105">You can create new archiving policies by using the Control Panel or by using Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="b2dc3-105">Vous pouvez créer de nouvelles stratégies d’archivage à l’aide du panneau de configuration ou des applets de commande de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-105">You can create new archiving policies by using the Control Panel or by using Windows PowerShell cmdlets.</span></span>
   
-## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a><span data-ttu-id="5ec8c-106">Créer une nouvelle stratégie d’archivage à l’aide du panneau de configuration</span><span class="sxs-lookup"><span data-stu-id="5ec8c-106">Create a new archiving policy by using the Control Panel</span></span>
+## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a><span data-ttu-id="b2dc3-106">Créer une nouvelle stratégie d’archivage à l’aide du panneau de configuration</span><span class="sxs-lookup"><span data-stu-id="b2dc3-106">Create a new archiving policy by using the Control Panel</span></span>
 
-<span data-ttu-id="5ec8c-107">Pour créer une nouvelle stratégie d’archivage à l’aide du panneau de configuration :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-107">To create a new archiving policy by using the Control Panel:</span></span>
+<span data-ttu-id="b2dc3-107">Pour créer une nouvelle stratégie d’archivage à l’aide du panneau de configuration :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-107">To create a new archiving policy by using the Control Panel:</span></span>
   
-1. <span data-ttu-id="5ec8c-108">À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-108">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
+1. <span data-ttu-id="b2dc3-108">À partir d’un compte d’utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-108">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
     
-2. <span data-ttu-id="5ec8c-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="b2dc3-109">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-109">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="5ec8c-110">Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie**d’archivage.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-110">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
+3. <span data-ttu-id="b2dc3-110">Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-110">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Policy**.</span></span>
     
-4. <span data-ttu-id="5ec8c-111">Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-111">Click **New**, and then do one of the following:</span></span> 
+4. <span data-ttu-id="b2dc3-111">Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-111">Click **New**, and then do one of the following:</span></span> 
     
-   - <span data-ttu-id="5ec8c-112">Pour créer une stratégie d’archivage au niveau du site, cliquez sur **Stratégie de site**, puis, dans **Sélectionner un site**, cliquez sur le site auquel la stratégie doit être appliquée.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-112">To create a site-level archiving policy, click **Site policy**, and then, in **Select a site**, click the site to which the policy is to be applied.</span></span>
+   - <span data-ttu-id="b2dc3-112">Pour créer une stratégie d’archivage au niveau du site, cliquez sur **Stratégie de site**, puis, dans **Sélectionner un site**, cliquez sur le site auquel la stratégie doit être appliquée.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-112">To create a site-level archiving policy, click **Site policy**, and then, in **Select a site**, click the site to which the policy is to be applied.</span></span>
     
-   - <span data-ttu-id="5ec8c-113">Pour créer une stratégie d’archivage au niveau de l’utilisateur, cliquez sur **Stratégie de l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-113">To create a user-level archiving policy, click **User policy**.</span></span>
+   - <span data-ttu-id="b2dc3-113">Pour créer une stratégie d’archivage au niveau de l’utilisateur, cliquez sur **Stratégie de l’utilisateur**.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-113">To create a user-level archiving policy, click **User policy**.</span></span>
     
-5. <span data-ttu-id="5ec8c-114">Dans **Nouvelle stratégie d’archivage**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-114">In **New Archiving Policy**, do the following:</span></span>
+5. <span data-ttu-id="b2dc3-114">Dans **Nouvelle stratégie d’archivage**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-114">In **New Archiving Policy**, do the following:</span></span>
     
-   - <span data-ttu-id="5ec8c-115">Dans **Nom**, spécifiez un nom pour la nouvelle stratégie (par exemple, externalContoso).</span><span class="sxs-lookup"><span data-stu-id="5ec8c-115">In **Name**, specify a name for the new policy (for example, externalContoso).</span></span>
+   - <span data-ttu-id="b2dc3-115">Dans **Nom**, spécifiez un nom pour la nouvelle stratégie (par exemple, externalContoso).</span><span class="sxs-lookup"><span data-stu-id="b2dc3-115">In **Name**, specify a name for the new policy (for example, externalContoso).</span></span>
     
-   - <span data-ttu-id="5ec8c-116">Dans **Description**, entrez des informations décrivant la stratégie (par exemple, stratégie d’archivage des utilisateurs externes pour Contoso).</span><span class="sxs-lookup"><span data-stu-id="5ec8c-116">In **Description**, provide details about what the policy is (for example, External user archiving policy for Contoso).</span></span>
+   - <span data-ttu-id="b2dc3-116">Dans **Description**, entrez des informations décrivant la stratégie (par exemple, stratégie d’archivage des utilisateurs externes pour Contoso).</span><span class="sxs-lookup"><span data-stu-id="b2dc3-116">In **Description**, provide details about what the policy is (for example, External user archiving policy for Contoso).</span></span>
     
-   - <span data-ttu-id="5ec8c-117">Pour contrôler l’archivage des communications avec les utilisateurs internes, activez ou désactivez la case à cocher **Archiver les communications internes**.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-117">To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.</span></span>
+   - <span data-ttu-id="b2dc3-117">Pour contrôler l’archivage des communications avec les utilisateurs internes, activez ou désactivez la case à cocher **Archiver les communications internes**.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-117">To control archiving of communications with internal users, select or clear the **Archive internal communications** check box.</span></span>
     
-   - <span data-ttu-id="5ec8c-118">Pour contrôler l’archivage des communications avec les utilisateurs externes, activez ou désactivez la case à cocher **Archiver les communications externes**.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-118">To control archiving of communications with external users, select or clear the **Archive external communications** check box.</span></span>
+   - <span data-ttu-id="b2dc3-118">Pour contrôler l’archivage des communications avec les utilisateurs externes, activez ou désactivez la case à cocher **Archiver les communications externes**.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-118">To control archiving of communications with external users, select or clear the **Archive external communications** check box.</span></span>
     
-6. <span data-ttu-id="5ec8c-119">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-119">Click **Commit**.</span></span>
+6. <span data-ttu-id="b2dc3-119">Cliquez sur **Valider**.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-119">Click **Commit**.</span></span>
     
     > [!IMPORTANT]
-    > <span data-ttu-id="5ec8c-120">Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-120">The settings of a user policy only apply to the specific users and user groups to which you apply the policy.</span></span> <span data-ttu-id="5ec8c-121">Pour plus d’informations, reportez-vous [à appliquer une stratégie d’archivage aux utilisateurs de Skype entreprise Server](apply-a-policy-to-users.md).</span><span class="sxs-lookup"><span data-stu-id="5ec8c-121">For details, see [Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md).</span></span> 
+    > <span data-ttu-id="b2dc3-120">Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-120">The settings of a user policy only apply to the specific users and user groups to which you apply the policy.</span></span> <span data-ttu-id="b2dc3-121">Pour plus d’informations, reportez-vous [à appliquer une stratégie d’archivage aux utilisateurs de Skype entreprise Server](apply-a-policy-to-users.md).</span><span class="sxs-lookup"><span data-stu-id="b2dc3-121">For details, see [Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md).</span></span> 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a><span data-ttu-id="5ec8c-122">Créer une nouvelle stratégie d’archivage à l’aide de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5ec8c-122">Create a new archiving policy by using Windows PowerShell</span></span>
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a><span data-ttu-id="b2dc3-122">Créer une nouvelle stratégie d’archivage à l’aide de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b2dc3-122">Create a new archiving policy by using Windows PowerShell</span></span>
 
-<span data-ttu-id="5ec8c-123">Vous pouvez également créer de nouvelles stratégies d’archivage à l’aide de l’applet de commande **New-CsArchivingPolicy** de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-123">You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="5ec8c-124">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de [nouvelle-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="5ec8c-124">For more information, see the help topic for the [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="b2dc3-123">Vous pouvez également créer de nouvelles stratégies d’archivage à l’aide de l’applet de commande **New-CsArchivingPolicy** de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-123">You can also create new archiving policies by using the Windows PowerShell **New-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="b2dc3-124">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de [nouvelle-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="b2dc3-124">For more information, see the help topic for the [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) cmdlet.</span></span>
   
-### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a><span data-ttu-id="5ec8c-125">Pour créer une nouvelle stratégie d’archivage au niveau du site :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-125">To create a new archiving policy at the site level</span></span>
+### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a><span data-ttu-id="b2dc3-125">Pour créer une nouvelle stratégie d’archivage au niveau du site :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-125">To create a new archiving policy at the site level</span></span>
 
-<span data-ttu-id="5ec8c-126">Cette commande crée une stratégie d’archivage pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-126">This command creates a new archiving policy for the Redmond site:</span></span>
+<span data-ttu-id="b2dc3-126">Cette commande crée une stratégie d’archivage pour le site Redmond :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-126">This command creates a new archiving policy for the Redmond site:</span></span>
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
-### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a><span data-ttu-id="5ec8c-127">Pour créer une nouvelle stratégie d’archivage au niveau de chaque utilisateur :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-127">To create a new archiving policy at the per-user level</span></span>
+### <a name="to-create-a-new-archiving-policy-at-the-per-user-level"></a><span data-ttu-id="b2dc3-127">Pour créer une nouvelle stratégie d’archivage au niveau de chaque utilisateur :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-127">To create a new archiving policy at the per-user level</span></span>
 
-<span data-ttu-id="5ec8c-128">Pour créer une stratégie d’archivage au niveau de l’étendue Utilisateur, il vous suffit de spécifier une identité unique lors de la création de la stratégie :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-128">To create a new archiving policy at the per-user level, simply specify a unique Identity when creating the policy:</span></span>
+<span data-ttu-id="b2dc3-128">Pour créer une stratégie d’archivage au niveau de l’étendue Utilisateur, il vous suffit de spécifier une identité unique lors de la création de la stratégie :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-128">To create a new archiving policy at the per-user level, simply specify a unique Identity when creating the policy:</span></span>
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a><span data-ttu-id="5ec8c-129">Pour créer une nouvelle stratégie d’archivage qui permet d’archiver des sessions de communication interne</span><span class="sxs-lookup"><span data-stu-id="5ec8c-129">To create a new archiving policy that enables archiving of internal communication sessions</span></span>
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a><span data-ttu-id="b2dc3-129">Pour créer une nouvelle stratégie d’archivage qui permet d’archiver des sessions de communication interne</span><span class="sxs-lookup"><span data-stu-id="b2dc3-129">To create a new archiving policy that enables archiving of internal communication sessions</span></span>
 
-<span data-ttu-id="5ec8c-130">Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire Identity) n’a été spécifié dans les commandes précédentes, les nouvelles stratégies utilisent les valeurs par défaut pour toutes leurs propriétés.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-130">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding commands, the new policies will use the default values for all their properties.</span></span> <span data-ttu-id="5ec8c-131">Pour créer des stratégies qui utilisent des valeurs de propriétés distinctes, il vous suffit d’inclure le paramètre et la valeur de paramètre appropriés.</span><span class="sxs-lookup"><span data-stu-id="5ec8c-131">To create policies that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="5ec8c-132">Par exemple, la commande suivante crée une stratégie d’archivage qui permet l’archivage des sessions de messagerie instantanée internes:</span><span class="sxs-lookup"><span data-stu-id="5ec8c-132">For example, the following command creates an archiving policy that permits archiving of internal instant messaging sessions:</span></span> 
+<span data-ttu-id="b2dc3-130">Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire Identity) n’a été spécifié dans les commandes précédentes, les nouvelles stratégies utilisent les valeurs par défaut pour toutes leurs propriétés.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-130">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding commands, the new policies will use the default values for all their properties.</span></span> <span data-ttu-id="b2dc3-131">Pour créer des stratégies qui utilisent des valeurs de propriétés distinctes, il vous suffit d’inclure le paramètre et la valeur de paramètre appropriés.</span><span class="sxs-lookup"><span data-stu-id="b2dc3-131">To create policies that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="b2dc3-132">Par exemple, la commande suivante crée une stratégie d’archivage qui permet l’archivage des sessions de messagerie instantanée internes :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-132">For example, the following command creates an archiving policy that permits archiving of internal instant messaging sessions:</span></span> 
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a><span data-ttu-id="5ec8c-133">Pour créer une nouvelle stratégie d’archivage qui permet d’archiver des sessions de communication interne et externe</span><span class="sxs-lookup"><span data-stu-id="5ec8c-133">To create a new archiving policy that enables archiving of both internal and external communication sessions</span></span>
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-both-internal-and-external-communication-sessions"></a><span data-ttu-id="b2dc3-133">Pour créer une nouvelle stratégie d’archivage qui permet d’archiver des sessions de communication interne et externe</span><span class="sxs-lookup"><span data-stu-id="b2dc3-133">To create a new archiving policy that enables archiving of both internal and external communication sessions</span></span>
 
-<span data-ttu-id="5ec8c-p104">Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande permet de configurer la nouvelle stratégie visant à archiver les sessions de messagerie instantanée internes et externes :</span><span class="sxs-lookup"><span data-stu-id="5ec8c-p104">Multiple property values can be modified by including multiple parameters. For example, this command configures the new policy to archive both internal and external instant messaging sessions:</span></span>
+<span data-ttu-id="b2dc3-p104">Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande permet de configurer la nouvelle stratégie visant à archiver les sessions de messagerie instantanée internes et externes :</span><span class="sxs-lookup"><span data-stu-id="b2dc3-p104">Multiple property values can be modified by including multiple parameters. For example, this command configures the new policy to archive both internal and external instant messaging sessions:</span></span>
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 ```
