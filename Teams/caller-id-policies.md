@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft teams pour modifier ou bloquer l’ID d’appelant des utilisateurs de teams au sein de votre organisation.
-ms.openlocfilehash: 8a8e235c1adf24e5a11b0b62e7542d5fcae194be
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: aed6e3cbe2053ddc16b049608247f56705626249
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998822"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992884"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’identification d’appelant dans Microsoft teams
 
@@ -95,20 +95,20 @@ Dans cet exemple, nous affectons une stratégie de capot d’appelant personnali
 > Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenez la GroupObjectId du groupe en particulier.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Support"
 ```
 Obtenez les membres du groupe spécifié.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Attribuez à tous les utilisateurs du groupe une stratégie d’ID d’appelant particulière. Dans cet exemple, la stratégie d’ID d’appelant est prise en charge.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Caller ID Policy" -Identity $_.UserPrincipalName}
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
- ## <a name="related-topics"></a>Sujets associés
+ ## <a name="related-topics"></a>Voir aussi
 
 - [Nouveau-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 

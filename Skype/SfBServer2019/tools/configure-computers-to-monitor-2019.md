@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé: Installez les fichiers de l’agent Operations Manager dans l’ordinateur 2019 de Skype entreprise Server à surveiller, puis configurez l’ordinateur pour qu’il serve de proxy de centre système.'
-ms.openlocfilehash: ae5e1c2ab3d8eb17449c391ea321cfb44272368f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Installez les fichiers de l’agent Operations Manager dans l’ordinateur 2019 de Skype entreprise Server à surveiller, puis configurez l’ordinateur pour qu’il serve de proxy de centre système.'
+ms.openlocfilehash: 4d4abd3f28831ffe386470f1a91c34a3ac0568b9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284052"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989039"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configuration des ordinateurs Skype Entreprise Server qui seront surveillés
 
-**Résumé:** Installez les fichiers de l’agent Operations Manager dans l’ordinateur 2019 de Skype entreprise Server à surveiller, puis configurez l’ordinateur pour qu’il serve de proxy de centre système.
+**Résumé :** Installez les fichiers de l’agent Operations Manager dans l’ordinateur 2019 de Skype entreprise Server à surveiller, puis configurez l’ordinateur pour qu’il serve de proxy de centre système.
 
 Chaque ordinateur Skype entreprise Server 2019 que vous souhaitez surveiller doit être en mesure de signaler son existence au serveur de gestion. Pour cela, vous devez installer les fichiers d’agent Operations Manager sur chacun des ordinateurs à surveiller. Une fois les fichiers d’agent installés, vous devez configurer l’ordinateur de sorte qu’il assume la fonction de proxy System Center. Assurez-vous d’avoir installé et configuré Skype entreprise Server sur ces ordinateurs avant de procéder à ces procédures.
 
@@ -43,7 +43,7 @@ Si vous déployez un agent à l’un de ces emplacements, vous devrez également
 
 5. Dans la page Configuration du groupe d’administration, sélectionnez **Spécifier les informations du groupe d’administration**, puis cliquez sur **Suivant**.
 
-6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe d’administration Operations Manager dans la zone **nom du groupe de gestion** , puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, ATL-SCOM-001) sur le serveur de **gestion. **Box. Si vous avez modifié le numéro de port utilisé par Operations Manager, tapez le nouveau numéro de port dans la zone **Port de serveur d’administration**. Sinon, laissez la valeur par défaut sur 5723, puis cliquez sur **Suivant**.
+6. Dans la page Configuration du groupe de gestion, tapez le nom de votre groupe d’administration Operations Manager dans la zone **nom du groupe de gestion** , puis tapez le nom d’hôte de votre serveur Operations Manager (par exemple, ATL-SCOM-001) dans la zone serveur de **gestion** . Si vous avez modifié le numéro de port utilisé par Operations Manager, tapez le nouveau numéro de port dans la zone **Port de serveur d’administration**. Sinon, laissez la valeur par défaut sur 5723, puis cliquez sur **Suivant**.
 
 7. Dans la page Compte d’action d’agent, sélectionnez **Système local**, puis cliquez sur **Suivant**.
 
@@ -56,7 +56,7 @@ Si vous déployez un agent à l’un de ces emplacements, vous devrez également
 11. Cliquez sur **Quitter**.
 
 Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer**, sur **tous les programmes**, sur **System Center Operations Manager 2012**, puis sur **Operations 2012 Manager Shell**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+```PowerShell
 Get-SCOMAgent
 ```
 
@@ -64,7 +64,7 @@ Une liste de tous vos agents Operations Manager apparaît.
 ## <a name="configuring-the-skype-for-business-server-computer-to-participate-in-system-center-discovery"></a>Configuration de l’ordinateur Skype Entreprise Server pour la participation à la découverte de System Center
 <a name="watcher_node_outside"> </a>
 
-Pour vous assurer que votre nouvel agent Skype entreprise Server est impliqué dans le processus de découverte de System Center Operations Manager, vous devez effectuer la procédure suivante sur chaque ordinateur sur lequel la console System Center Operations Manager a été installée:
+Pour vous assurer que votre nouvel agent Skype entreprise Server est impliqué dans le processus de découverte de System Center Operations Manager, vous devez effectuer la procédure suivante sur chaque ordinateur sur lequel la console System Center Operations Manager a été installée :
 
 1. Sous l’onglet Administration, cliquez sur **Géré par agent**.
 
@@ -74,7 +74,7 @@ Pour vous assurer que votre nouvel agent Skype entreprise Server est impliqué d
 
 4. Vérifiez qu’aucun événement d’erreur n’a été enregistré dans le journal des événements Operations Manager.
 
-5. Sur l’ordinateur sur lequel l’agent est passé avec succès, la liste «géré par l’agent» s’affiche, dans la liste «gestion en attente», cliquez sur le nom de l’ordinateur et approuvez-le.
+5. Sur l’ordinateur sur lequel l’agent est passé avec succès, la liste « géré par l’agent » s’affiche, dans la liste « gestion en attente », cliquez sur le nom de l’ordinateur et approuvez-le.
 
 6. Cliquez avec le bouton droit sur le nom de l’ordinateur, puis cliquez sur **Propriétés**. Dans la boîte de dialogue Propriétés, sous l’onglet Sécurité, sélectionnez **Autoriser cet agent à agir en tant que proxy et découvrir des objets gérés sur d’autres ordinateurs**, puis cliquez sur **OK**.
 

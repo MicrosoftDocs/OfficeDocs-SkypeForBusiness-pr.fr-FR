@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Résumé: Découvrez comment créer des stratégies de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: 078c80af0304c796bd3935200764a9ce6e13585b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304011"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991889"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype entreprise Server
  
-**Résumé:** Découvrez comment créer des stratégies de conférence dans Skype entreprise Server.
+**Résumé :** Découvrez comment créer des stratégies de conférence dans Skype entreprise Server.
   
 Vous pouvez créer des stratégies de conférence en utilisant le panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
@@ -120,7 +120,7 @@ Pour créer des stratégies de conférence, utilisez l’applet de commande **Ne
   
 L’exemple suivant crée une nouvelle stratégie de conférence avec le SalesConferencingPolicy d’identité. Cette stratégie utilise toutes les valeurs par défaut d’une stratégie de conférence, à l’exception de la valeur suivante : MaxMeetingSize. Dans cet exemple, la taille maximale d’une réunion sera définie sur 50 plutôt que sur 250, soit la valeur par défaut :
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

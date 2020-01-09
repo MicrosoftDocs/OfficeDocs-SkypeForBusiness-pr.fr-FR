@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Résumé: Découvrez comment Bienvenue les utilisateurs à la Conférence rendez-vous dans Skype entreprise Server.'
-ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment Bienvenue les utilisateurs à la Conférence rendez-vous dans Skype entreprise Server.'
+ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280305"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992831"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un courrier de bienvenue aux utilisateurs d’appels entrants dans Skype entreprise Server
  
-**Résumé:** Découvrez comment accueillir des utilisateurs dans la Conférence rendez-vous dans Skype entreprise Server.
+**Résumé :** Découvrez comment accueillir des utilisateurs dans la Conférence rendez-vous dans Skype entreprise Server.
   
 Après avoir configuré les conférences rendez-vous et les tests pour vérifier qu’ils fonctionnent correctement, vous devez définir des codes confidentiels (pin) d’identification personnels pour les utilisateurs et informer les utilisateurs de la disponibilité de cette fonctionnalité. Vous pouvez inclure des instructions d’introduction telles que le code confidentiel initial et le lien vers la page Web des paramètres de conférence rendez-vous. 
   
@@ -35,11 +35,11 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez la commande suivante dans l’invite de commandes :
     
-   ```
+   ```PowerShell
    Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
    -From <email address of sender> [-Subject <subject for email message>]
    [-UserEmailAddress <destination email address>]
@@ -58,14 +58,14 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
     
 L’exemple ci-dessous illustre la création d’un code confidentiel, puis l’envoi d’un message électronique de bienvenue à Bob de la part de Marco. Il utilise le texte du message électronique enregistré dans le modèle par défaut et crée le message électronique au format HTML. L’objet par défaut est « Bienvenue dans les conférences rendez-vous » :
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
 L’exemple ci-dessous illustre la création forcée du code confidentiel « 383042650 » pour Bob, même s’il en possède déjà un, puis l’envoi d’un message électronique de bienvenue à Bob de la part de Marco. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le message électronique est envoyé avec le protocole SSL (Secure Sockets Layer) :
   
-```
+```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
 -Pin "383042650" -Force

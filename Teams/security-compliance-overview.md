@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968175"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988799"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ Microsoft Teams est conçu sur le cloud d'entreprise à très grande échelle O
 
 Teams est conforme à la norme de niveau D. Cela inclut les normes suivantes : ISO 27001, ISO 27018, SSAE16 SOC 1 et SOC 2, HIPAA et des clauses de modèle européen (CMUE). Dans l’infrastructure de conformité Microsoft, Microsoft classifie les applications et services Office 365 en quatre catégories. Chaque catégorie est définie par des engagements de conformité spécifiques qui doivent être satisfaits pour un service Office 365 ou un service Microsoft associé qui doit être répertorié dans cette catégorie.
 
-Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf). Teams prend également en charge la conformité à la Cloud Security Alliance.
+Les services qui appartiennent aux catégories de conformité C et D, et qui se soumettent à des conditions de conformité applicables au secteur sont activés par défaut. Les services qui appartiennent aux catégories A et B sont dotés de commandes qui permettent leur activation ou désactivation au niveau de toute l'organisation. Pour obtenir plus d'informations, consultez le document sur le [cadre de conformité aux normes et réglementations du secteur](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams prend également en charge la conformité à la Cloud Security Alliance.
 
 Teams applique également l’authentification à deux facteurs à l’échelle de l’organisation et au niveau de l’organisation, de l’authentification unique via Active Directory et du chiffrement des données en transit et au repos. Les fichiers sont stockés dans SharePoint et sont sauvegardés par le chiffrement SharePoint. Les notes sont stockées dans OneNote et sont représentées par un chiffrement OneNote. Les données OneNote sont stockées dans le site SharePoint de l’équipe. L’onglet wiki peut également être utilisé pour la capture d’une note et son contenu est également stocké dans le site SharePoint de l’équipe.
 
@@ -44,7 +44,7 @@ Pour en savoir plus sur la sécurité et la conformité d’Office 365, voir [co
 
 ## <a name="auditing-and-reporting"></a>Audit et rapports
 
-La recherche dans le journal d’audit s’ouvre directement dans la & Centre de sécurité et de conformité Office 365 et expose les capacités de définir des alertes et/ou de signaler un événement d’audit en mettant à disposition les informations d’identification et/ou de rapport sur l’événement de charge de travail d’administration barre d’audit illimitée. Toutes les données du journal d’audit sont disponibles pour la configuration des alertes dans le centre de sécurité & conformité Office 365, ainsi que pour le filtrage et l’exportation pour une analyse plus approfondie. Pour en savoir plus sur la façon d’effectuer une recherche dans le journal d’audit dans le centre de sécurité & conformité Office 365, consultez le [lien](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) suivant. 
+La recherche dans le journal d’audit s’ouvre directement dans la & Centre de sécurité et de conformité Office 365 et expose les possibilités de définir des alertes et/ou de signaler des événements d’audit en mettant à disposition les informations d’identification et/ou d’état d’un événement spécifique de charge de travail à l’aide d’une chronologie d’audit illimitée. Toutes les données du journal d’audit sont disponibles pour la configuration des alertes dans le centre de sécurité & conformité Office 365, ainsi que pour le filtrage et l’exportation pour une analyse plus approfondie. Pour en savoir plus sur la façon d’effectuer une recherche dans le journal d’audit dans le centre de sécurité & conformité Office 365, consultez le [lien](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) suivant. 
 
 ## <a name="compliance-content-search"></a>Recherche de contenu de conformité
 
@@ -79,7 +79,7 @@ Les clients peuvent tirer parti d’une découverte électronique inaltérable o
 
 ## <a name="legal-hold"></a>Conservation légale
 
-Au cours d’un litige, il est souvent nécessaire que toutes les données associées à un utilisateur ou à une équipe soient conservées sauvegardé manière inaltérable pour pouvoir être utilisées comme preuves du cas. Pour cela, il suffit de placer un utilisateur (boîte aux lettres d’utilisateur) ou une équipe en attente de conservation légale. Lorsqu’une équipe au sein de teams est placée sur place (sous-ensemble de la boîte aux lettres ou de la collection de sites par le biais de requêtes ciblées ou de contenu filtré) ou de conservation de litige (boîte aux lettres entière ou collection de sites), la conservation est placée sur la boîte aux lettres du groupe. Ainsi, même si les utilisateurs finaux suppriment ou modifient des messages de canal qui sont intégrés à la boîte aux lettres de groupe, les copies immuables de ce contenu sont conservées et disponibles dans la recherche eDiscovery. Les conservations légales sont généralement appliquées dans le contexte d'un cas eDiscovery. Consultez [cet](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) article d’aide pour en savoir plus sur la conservation et la conservation dans le centre de sécurité & conformité Office 365. 
+Au cours d’un litige, il est souvent nécessaire que toutes les données associées à un utilisateur ou à une équipe soient conservées comme inaltérables pour pouvoir être utilisées comme preuves de la casse. Pour cela, il suffit de placer un utilisateur (boîte aux lettres d’utilisateur) ou une équipe en attente de conservation légale. Lorsqu’une équipe au sein de teams est placée sur place (sous-ensemble de la boîte aux lettres ou de la collection de sites par le biais de requêtes ciblées ou de contenu filtré) ou de conservation de litige (boîte aux lettres entière ou collection de sites), la conservation est placée sur la boîte aux lettres du groupe. Ainsi, même si les utilisateurs finaux suppriment ou modifient des messages de canal qui sont intégrés à la boîte aux lettres de groupe, les copies immuables de ce contenu sont conservées et disponibles dans la recherche eDiscovery. Les conservations légales sont généralement appliquées dans le contexte d'un cas eDiscovery. Consultez [cet](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) article d’aide pour en savoir plus sur la conservation et la conservation dans le centre de sécurité & conformité Office 365. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Architecture de protection des informations de Microsoft Teams. 
 

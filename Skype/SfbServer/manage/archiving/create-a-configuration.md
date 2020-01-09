@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 'Résumé: Découvrez comment créer une configuration d’archivage pour Skype entreprise Server.'
-ms.openlocfilehash: 58d817cea4c1caceff37bd132cd4f5a61445cdb0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype entreprise Server.'
+ms.openlocfilehash: bd2a139e7321542e3b13259ebc2ec1e4ba731caf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286217"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992741"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype entreprise Server
 
-**Résumé:** Découvrez comment créer une configuration d’archivage pour Skype entreprise Server.
+**Résumé :** Découvrez comment créer une configuration d’archivage pour Skype entreprise Server.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurer les options d’archivage à l’aide du panneau de configuration
 
@@ -65,7 +65,7 @@ Vous pouvez aussi configurer des options d’archivage pour un site ou un pool s
   
 La commande suivante crée une collection de paramètres de configuration d’archivage pour le site Redmond :
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
@@ -73,13 +73,13 @@ Comme aucun paramètre (autre que celui obligatoire sur l’identité) n’a ét
   
 Pour créer des paramètres qui utilisent des valeurs de propriété différentes, il suffit d’inclure le paramètre et la valeur de paramètre appropriés. L’exemple suivant crée une collection de paramètres de configuration d’archivage qui, par défaut, autorise uniquement l’archivage des sessions de messagerie instantanée :
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 ```
 
 Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande configure les nouveaux paramètres pour archiver les sessions de messagerie instantanée et pour bloquer la messagerie du service d’archivage afin de le rendre non disponible :
   
-```
+```PowerShell
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 

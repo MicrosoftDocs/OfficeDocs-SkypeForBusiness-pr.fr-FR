@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
-description: 'Résumé: configuration de l’authentification à deux facteurs dans Skype entreprise Server.'
-ms.openlocfilehash: 91a8929b89a584b116f1c7ec9313daa2fe679fd0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : configuration de l’authentification à deux facteurs dans Skype entreprise Server.'
+ms.openlocfilehash: 768ee9c2697523eff6922f20fd610554e32c1f7c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283839"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992331"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs dans Skype entreprise Server
 
-**Résumé:** Configurer l’authentification à deux facteurs dans Skype entreprise Server.
+**Résumé :** Configurer l’authentification à deux facteurs dans Skype entreprise Server.
 
 Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir [activation de l’authentification multifacteur Office 365 pour les administrateurs en ligne](https://go.microsoft.com/fwlink/p/?LinkId=313332)
 
@@ -78,7 +78,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée 
 
 5. Ouvrez la console de gestion du module de plateforme sécurisée en exécutant la commande suivante :
 
-  ```
+  ```console
   Tpm.msc
   ```
 
@@ -91,7 +91,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée 
 
 8. Dans l’invite de commandes, créez une carte à puce virtuelle à l’aide de la commande suivante :
 
-  ```
+  ```console
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
@@ -100,7 +100,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme sécurisée 
 
 9. Dans l’invite de commandes, ouvrez la console de gestion de l’ordinateur en exécutant la commande suivante :
 
-  ```
+  ```console
   CompMgmt.msc
   ```
 
@@ -164,12 +164,12 @@ Pour plus d’informations sur l’inscription au nom des utilisateurs en tant q
 10. Lorsque vous y êtes invité, entrez le code confidentiel utilisé pour créer la carte à puce virtuelle.
 
     > [!NOTE]
-    > La valeur du code confidentiel de carte à puce virtuelle par défaut est «12345678».
+    > La valeur du code confidentiel de carte à puce virtuelle par défaut est « 12345678 ».
 
 11. Une fois le certificat émis, cliquez sur **Installer ce certificat** pour terminer la procédure d’inscription.
 
     > [!NOTE]
-    >  Si votre demande de certificat échoue avec l’erreur «ce navigateur Web ne prend pas en charge la génération de demandes de certificat», il existe trois façons de résoudre le problème:
+    >  Si votre demande de certificat échoue avec l’erreur « ce navigateur Web ne prend pas en charge la génération de demandes de certificat », il existe trois façons de résoudre le problème :
 
         a. Enable Compatibility View in Internet Explorer
         b. Enable the Turn on Intranet settings option in Internet Explorer
@@ -190,13 +190,13 @@ Cette section décrit la configuration d’Active Directory Federation Services 
 
 3. À partir de la ligne de commande Windows PowerShell, exécutez la commande suivante :
 
-  ```
+  ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
   ```
 
 4. Établissez un partenariat avec chaque serveur pour lequel l’authentification passive sera activée, en exécutant la commande ci-dessous, en remplaçant le nom du serveur propre à votre déploiement :
 
-  ```
+  ```PowerShell
   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -208,22 +208,22 @@ Cette section décrit la configuration d’Active Directory Federation Services 
 
 8. Créez et affectez une règle d’autorisation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
 
-  ```
+  ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
 9. Créez et affectez une règle de transformation d’émission pour votre relation d’approbation de la partie de confiance à l’aide de Windows PowerShell en exécutant les commandes suivantes :
 
-  ```
+  ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
@@ -241,7 +241,7 @@ Deux types d’authentifications peuvent être configurés pour permettre à AD 
 
 - Authentification de client TLS (Transport Layer Security)
 
-L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentifications 2,0 d’AD FS, voir [ad fs 2,0: Comment changer le type d’authentification locale](https://go.microsoft.com/fwlink/p/?LinkId=313384).
+L’authentification basée sur les formulaires permet de développer une page web permettant aux utilisateurs de s’authentifier à l’aide de leur nom d’utilisateur et de leur mot de passe ou de leur carte à puce et de leur code confidentiel. Cette rubrique décrit la mise en œuvre de l’authentification de client TLS (Transport Layer Security) avec AD FS 2.0. Pour plus d’informations sur les types d’authentifications 2,0 d’AD FS, voir [ad fs 2,0 : Comment changer le type d’authentification locale](https://go.microsoft.com/fwlink/p/?LinkId=313384).
 
 ### <a name="to-configure-ad-fs-20-to-support-client-authentication"></a>Pour configurer AD FS 2.0 pour prendre en charge l’authentification du client
 
@@ -269,7 +269,7 @@ L’authentification basée sur les formulaires permet de développer une page w
 
 11. Redémarrez IIS en exécutant la commande suivante :
 
-  ```
+  ```console
   IISReset /Restart /NoForce
   ```
 
@@ -290,9 +290,9 @@ La procédure ci-dessous décrit la création d’une configuration de service w
 
 2. Lancez Skype entreprise Server Management Shell.
 
-3. À partir de la ligne de commande de Skype entreprise Server Management Shell, créez une nouvelle configuration de service Web pour chaque directeur, pool d’entreprise et serveur Standard Edition qui sera activé pour l’authentification passive en exécutant la commande suivante:
+3. À partir de la ligne de commande de Skype entreprise Server Management Shell, créez une nouvelle configuration de service Web pour chaque directeur, pool d’entreprise et serveur Standard Edition qui sera activé pour l’authentification passive en exécutant la commande suivante :
 
-  ```
+  ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -301,19 +301,19 @@ La procédure ci-dessous décrit la création d’une configuration de service w
 
 4. Vérifiez que les valeurs UseWsFedPassiveAuth et WsFedPassiveMetadataUri ont été définies correctement en exécutant la commande suivante :
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. Pour les clients, l’authentification passive est la méthode d’authentification la moins privilégiée pour l’authentification de ticket web. Pour tous les directeurs, les pools d’entreprise et les serveurs Standard Edition qui seront activés pour l’authentification passive, tous les autres types d’authentification doivent être désactivés dans Skype entreprise Web services en exécutant l’applet de commande suivante:
+5. Pour les clients, l’authentification passive est la méthode d’authentification la moins privilégiée pour l’authentification de ticket web. Pour tous les directeurs, les pools d’entreprise et les serveurs Standard Edition qui seront activés pour l’authentification passive, tous les autres types d’authentification doivent être désactivés dans Skype entreprise Web services en exécutant l’applet de commande suivante :
 
-  ```
+  ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
 6. Vérifiez que tous les autres types d’authentification ont été désactivés correctement en exécutant l’applet de commande suivante :
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
   ```
 
@@ -325,19 +325,19 @@ La procédure ci-dessous décrit la création d’une configuration de proxy per
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>Pour créer une configuration de proxy personnalisée
 
-1. À partir de la ligne de commande de l’interpréteur de commandes de Skype entreprise Server Management Shell, créez une nouvelle configuration de proxy pour chaque pool de périphériques de type «pool d’entreprise» et serveur standard pour l’authentification passive en exécutant ce qui suit: disponibles
+1. À partir de la ligne de commande de l’interpréteur de commandes de Skype entreprise Server Management Shell, créez une nouvelle configuration de proxy pour chaque pool de périphériques de type « pool d’entreprise » et serveur standard pour l’authentification passive en exécutant ce qui suit : disponibles
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. Vérifiez que tous les autres types d’authentification proxy ont été désactivés correctement en exécutant la commande suivante :
 
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 

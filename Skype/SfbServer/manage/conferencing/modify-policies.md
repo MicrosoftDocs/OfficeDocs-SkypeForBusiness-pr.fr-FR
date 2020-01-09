@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: 'Résumé: Découvrez comment modifier les stratégies de conférence dans Skype entreprise Server.'
-ms.openlocfilehash: b2c192948f0119a70f031c1c2bbe5de8e776c2f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment modifier les stratégies de conférence dans Skype entreprise Server.'
+ms.openlocfilehash: 9cfb13436a01439a8d5ea152ca1d8ac543bc0e88
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280410"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991809"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modification des stratégies de conférence dans Skype entreprise Server
  
-**Résumé:** Découvrez comment modifier les stratégies de conférence dans Skype entreprise Server.
+**Résumé :** Découvrez comment modifier les stratégies de conférence dans Skype entreprise Server.
   
 Vous pouvez modifier les stratégies de conférence en utilisant le panneau de configuration Skype entreprise Server ou en utilisant Skype entreprise Server Management Shell.
   
@@ -43,7 +43,7 @@ Pour modifier les stratégies de conférence, utilisez l’applet **de passe Set
   
 L’exemple qui suit modifie une valeur de propriété de la stratégie de conférence SalesConferencingPolicy. La commande définit la valeur de la propriété AllowConferenceRecording sur False :
   
-```
+```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 

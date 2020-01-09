@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871710"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992581"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur la migration à partir du système téléphonique
 
 Nous vous recommandons de supprimer les informations sur le routage des communications vocales précédemment configurées comme suit :
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > Si un CsVoiceRoutingPolicy global est configuré, il est recommandé de supprimer les utilisations RTC associées à cette stratégie globale. 
@@ -101,7 +101,7 @@ Pour plus d’informations sur la migration à partir du système téléphonique
 
 Nous vous recommandons de supprimer les informations sur le routage des communications vocales précédemment configurées comme suit :
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

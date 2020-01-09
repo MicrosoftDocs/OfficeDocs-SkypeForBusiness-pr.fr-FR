@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 'Résumé: Découvrez comment activer la qualité de l’utilisation (QoE) dans Skype entreprise Server.'
-ms.openlocfilehash: 90110c5664e80ac1d4f9d382c20e0fd58d9ce134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment activer la qualité de l’utilisation (QoE) dans Skype entreprise Server.'
+ms.openlocfilehash: 0a05266ed88b9d476ca787f1d32b91727e90475c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305709"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992934"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Profitez d’une qualité d’expertise dans Skype entreprise Server
 
-**Résumé:** Découvrez comment activer la qualité de l’utilisation (QoE) dans Skype entreprise Server.
+**Résumé :** Découvrez comment activer la qualité de l’utilisation (QoE) dans Skype entreprise Server.
 
 La qualité de l’expérience (QoE) enregistre des données numériques qui indiquent la qualité du média, ainsi que les informations sur les participants, les noms des appareils, les pilotes, les adresses IP et les types de point de terminaison impliqués dans les appels et les sessions. Pour plus d’informations, voir [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) dans la documentation de planification.
 
@@ -40,13 +40,13 @@ Procédez comme suit pour activer la QoE dans toute l’entreprise ou dans chacu
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Activation de QoE à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez activer le QoE en utilisant Windows PowerShell et l’applet **de cmdlet Set-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez activer le QoE en utilisant Windows PowerShell et l’applet **de cmdlet Set-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>Pour activer la qualité de l’expérience pour un emplacement
 
  Pour activer la qualité de l’expérience, définissez le paramètre EnableQoE sur True ($True).
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
   ```
 
@@ -54,7 +54,7 @@ Vous pouvez activer le QoE en utilisant Windows PowerShell et l’applet **de cm
 
  Pour désactiver la qualité de l’expérience, définissez le paramètre EnableQoE sur False ($False). Ceci ne désinstalle pas la surveillance, mais suspend la collecte et le stockage des données de qualité de l’expérience.
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -62,7 +62,7 @@ Vous pouvez activer le QoE en utilisant Windows PowerShell et l’applet **de cm
 
  Cette commande active la qualité de l’expérience pour tous les paramètres de configuration QoE actuellement utilisés dans votre organisation.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 

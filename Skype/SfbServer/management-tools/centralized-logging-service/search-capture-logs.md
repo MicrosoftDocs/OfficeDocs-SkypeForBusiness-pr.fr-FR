@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
-description: 'Résumé: Découvrez comment rechercher et lire les journaux de capture du service de journalisation centralisé dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 81bf539c6a06c52354db23bbeea97fb9525cbbd5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment rechercher et lire les journaux de capture du service de journalisation centralisé dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 563f2c5e08da0830c3bd03e562d0d94052fa359b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274372"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991449"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Recherche dans les journaux de capture créés par le service de journalisation centralisée dans Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment rechercher et lire les journaux de capture du service de journalisation centralisé dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment rechercher et lire les journaux de capture du service de journalisation centralisé dans Skype entreprise Server 2015.
   
-Les fonctionnalités de recherche du service de journalisation centralisée sont utiles et puissantes pour les raisons suivantes: 
+Les fonctionnalités de recherche du service de journalisation centralisée sont utiles et puissantes pour les raisons suivantes : 
   
 - Vos recherches et les résultats sont exécutés sur un seul ordinateur, un pool, un site ou une étendue globale, en fonction des critères que vous définissez.
     
@@ -37,15 +37,15 @@ Après chaque recherche, l’applet de commande **Sync-CsClsLogging** est exécu
   
 Pour tirer le meilleur parti du service de journalisation centralisé, vous devez comprendre comment configurer la recherche pour renvoyer uniquement les messages de suivi des journaux d’ordinateur et de pool pertinents pour le problème que vous recherchez. aspects
   
-Pour exécuter les fonctions de recherche du service de journalisation centralisées à l’aide de Skype entreprise Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé. Il contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels est affectée cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype entreprise Server Management Shell ou de l’invite Windows PowerShell:
+Pour exécuter les fonctions de recherche du service de journalisation centralisées à l’aide de Skype entreprise Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé. Il contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels est affectée cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype entreprise Server Management Shell ou de l’invite Windows PowerShell :
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Par exemple :
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -53,11 +53,11 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Pour effectuer une recherche de base à l’aide du service de journalisation centralisé
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Assurez-vous que le scénario AlwaysOn s’exécute dans votre déploiement au niveau de l’étendue globale, puis tapez ce qui suit dans une invite de commandes :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
    ```
 
@@ -66,27 +66,27 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
   
 Par exemple :
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
 ### <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>Pour effectuer une recherche de base sur un pool ou un ordinateur à l’aide du service de journalisation centralisé
 
-1. Pour limiter la recherche à un pool ou ordinateur spécifique, utilisez le paramètre-Computers avec l’ordinateur défini par un nom complet de l’ordinateur, placé entre guillemets et séparés par une virgule comme suit:
+1. Pour limiter la recherche à un pool ou ordinateur spécifique, utilisez le paramètre-Computers avec l’ordinateur défini par un nom complet de l’ordinateur, placé entre guillemets et séparés par une virgule comme suit :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
    ```
 
 Par exemple :
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
   ```
 
 2. Pour rechercher plusieurs ordinateurs, tapez le nom de plusieurs ordinateurs en les entourant de guillemets et en les séparant par une virgule, comme suit :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Computers "fe01.contoso.net", "fe02.contoso.net", "fe03.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
    ```
 
@@ -94,7 +94,7 @@ Par exemple :
     
     Par exemple :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -102,19 +102,19 @@ Par exemple :
     
     Par exemple :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>Pour exécuter une recherche à l’aide des paramètres d’heure
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Par défaut, l’heure de début pour les paramètres temporels d’une recherche est définie sur 25 minutes avant les cinq minutes après l’heure où vous lancez la recherche. En d’autres mots, si nous effectuons une recherche à 16 h 00 00, la recherche s’étendra alors de 15 h 35 00 à 16 h 05 00. Si vous avez besoin d’effectuer une recherche dans 60 minutes ou 3 heures avant la date actuelle, utilisez le paramètre-StartTime et définissez la date et l’heure pour indiquer l’heure de début de la recherche. 
     
     Par exemple, en utilisant-StartTime et-heure_fin pour définir une plage de dates et de heures, vous pouvez définir une recherche entre 8 AM et 9 AM sur 11/20/2012 de votre liste de choix. Vous pouvez configurer le chemin d’accès de sortie de manière à écrire les résultats dans un fichier nommé c:\logfile.txt comme suit :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
@@ -125,7 +125,7 @@ Par exemple :
     
 Par exemple :
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
@@ -139,43 +139,43 @@ Par exemple :
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Pour exécuter une recherche avancée à l’aide d’autres critères et options de correspondance
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Pour exécuter une commande visant à collecter les suivis pour des composants en particulier, tapez ce qui suit :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components <components to search on> -OutputFilePath <fully qualified path to output logs>
    ```
 
 Exemple :
     
-  ```
+  ```PowerShell
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
   ```
 
 La recherche obtenue renvoie toutes les entrées de journaux qui possèdent des composants de suivi pour SIPStack, S4 et UserServices sur tous les ordinateurs et pools de votre déploiement au cours des 30 dernières minutes.
     
-3. Pour limiter la recherche avec les mêmes composants uniquement au pool frontal nommé pool01.contoso.net, tapez:
+3. Pour limiter la recherche avec les mêmes composants uniquement au pool frontal nommé pool01.contoso.net, tapez :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 4. La logique de recherche par défaut pour les commandes comprenant plusieurs paramètres utilise l’opérateur logique OR avec chacun des paramètres définis. Vous pouvez modifier ce comportement en spécifiant le paramètre **-MatchAll** . Pour ce faire, tapez ce qui suit :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -CallId "d0af828e49fa4dcb99f5f80223a634bc" -Components "SIPStack","S4","UserServices" -MatchAll -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 5. Si vos scénarios sont définis de manière à s’exécuter constamment (par exemple AlwaysOn) ou si vous avez défini un scénario à long terme, les journaux peuvent s’étendre de l’ordinateur local au partage de fichiers. Pour définir le partage de fichiers, utilisez le paramètre CacheFileNetworkFolder à l’aide de New-CsClsConfiguration pour créer une nouvelle configuration ou modifiez une configuration existante avec Set-CsClsConfiguration. Si vous ne souhaitez pas que la recherche englobe le partage de fichiers dans la collection des journaux à parcourir, utilisez le paramètre SkipNetworkLogs comme suit :
     
-   ```
+   ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
    ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Lire les journaux de capture à partir du Service de journalisation centralisée
 
-Vous pouvez bénéficier de l’avantage réel du service de journalisation centralisé après avoir exécuté la recherche et disposer d’un fichier que vous pouvez utiliser pour effectuer le suivi d’un problème signalé. Il existe plusieurs façons de lire le fichier. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad. exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil comme Snooper. exe, conçu pour lire et analyser la sortie de la journalisation à partir du service de journalisation centralisé. La fonction Snoop est incluse dans les outils de débogage disponibles en téléchargement séparé. Vous pouvez télécharger les outils de débogage [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257)ici:. Lorsque vous installez les outils de débogage, des raccourcis courts et des éléments de menu ne sont pas créés. Après l’installation des outils de débogage, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Skype entreprise Server Management Shell, puis accédez au répertoire (emplacement par défaut) C:\Program Files\Skype entreprise Server 2015 \ débogage. Double-cliquez sur Snoop. exe ou tapez Snoop. exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Skype entreprise Server Management Shell.
+Vous pouvez bénéficier de l’avantage réel du service de journalisation centralisé après avoir exécuté la recherche et disposer d’un fichier que vous pouvez utiliser pour effectuer le suivi d’un problème signalé. Il existe plusieurs façons de lire le fichier. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad. exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil comme Snooper. exe, conçu pour lire et analyser la sortie de la journalisation à partir du service de journalisation centralisé. La fonction Snoop est incluse dans les outils de débogage disponibles en téléchargement séparé. Vous pouvez télécharger les outils de débogage [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257)ici :. Lorsque vous installez les outils de débogage, des raccourcis courts et des éléments de menu ne sont pas créés. Après l’installation des outils de débogage, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Skype entreprise Server Management Shell, puis accédez au répertoire (emplacement par défaut) C:\Program Files\Skype entreprise Server 2015 \ débogage. Double-cliquez sur Snoop. exe ou tapez Snoop. exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Skype entreprise Server Management Shell.
   
 > [!IMPORTANT]
 > Cette rubrique n’a pas pour objectif de détailler et de discuter des techniques de résolution des problèmes. Le dépannage et les processus associés constituent un sujet complexe. Pour plus d’informations sur la résolution des problèmes de base liés à la résolution des problèmes liés à la résolution [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003)des problèmes de charge de travail, voir le kit de ressources Microsoft Lync Server 2010 Les processus et procédures s’appliquent toujours à Skype entreprise Server 2015. 
@@ -199,7 +199,7 @@ Vous pouvez bénéficier de l’avantage réel du service de journalisation cent
 3. Cliquez sur **Flux des appels**.
     
 > [!NOTE]
-> Si vous cliquez sur un message ou une trace qui ne fait pas partie d’un flux d’appels, le diagramme ne s’affichera pas et un message de statut s’affichera en bas de Snooping indiquant «ce message n’est pas éligible pour callfow». Choisissez un autre message ou une trace et le flux d’appels s’affichera si le message ou la trace fait partie d’un flux d’appels. 
+> Si vous cliquez sur un message ou une trace qui ne fait pas partie d’un flux d’appels, le diagramme ne s’affichera pas et un message de statut s’affichera en bas de Snooping indiquant « ce message n’est pas éligible pour callfow ». Choisissez un autre message ou une trace et le flux d’appels s’affichera si le message ou la trace fait partie d’un flux d’appels. 
   
 4. Parcourez les messages ou lignes de trace et vérifiez si le diagramme de flux des appels est mis à jour ou modifié pour afficher un nouveau diagramme.
     

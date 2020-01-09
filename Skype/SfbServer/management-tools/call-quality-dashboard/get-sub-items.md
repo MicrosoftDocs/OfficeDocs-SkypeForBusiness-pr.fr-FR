@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 'Résumé: Découvrez l’opération obtenir les sous-éléments, qui fait partie du service d’éléments. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez l’opération obtenir les sous-éléments, qui fait partie du service d’éléments. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 75fc4fcd331925c224d8dfb72c681d25e3485eb6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274659"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992651"
 ---
 # <a name="get-sub-items"></a>Obtenir des sous-éléments
  
-**Résumé:** En savoir plus sur l’opération obtenir les sous-éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** En savoir plus sur l’opération obtenir les sous-éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération obtenir des sous-éléments fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
@@ -50,7 +50,7 @@ L’option obtenir des sous-éléments renvoie les sous-éléments d’un élém
 > [!NOTE]
 > Un tableau d’objet Item est retourné. 
   
-```
+```json
 [{
 "itemId": 1653,
 "userId": 0,
@@ -65,9 +65,9 @@ L’option obtenir des sous-éléments renvoie les sous-éléments d’un élém
 
 L’objet Item renvoyé par une opération de sous-éléments contient uniquement les trois champs suivants. 
   
- ** ID de l’élément.
+ ID *de l'* élément.
   
- ** ID d’utilisateur de l’utilisateur propriétaire de cet élément.
+ ID *d’utilisateur de* l’utilisateur propriétaire de cet élément.
   
  *tapez* le type du contenu. Ce champ est défini par les applications.
   

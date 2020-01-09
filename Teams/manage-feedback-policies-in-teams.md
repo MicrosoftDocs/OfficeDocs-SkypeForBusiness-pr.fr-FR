@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler si les utilisateurs teams de votre organisation peuvent envoyer des commentaires sur teams à Microsoft.
-ms.openlocfilehash: 1322023eb7644b84544ac8ca44fba0a63c6b868d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 78a6f0856d8b973ecfa1c8af52ee50480be0e838
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998832"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991419"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft teams
 
@@ -59,7 +59,7 @@ Pour désactiver et activer les fonctionnalités, définissez les paramètres su
 
 Dans cet exemple, nous créons une stratégie de commentaires appelée nouvelle politique de commentaires sur les employés et nous désactivons la possibilité de faire part **de vos commentaires et de** l’enquête.
 
-```
+```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
@@ -69,7 +69,7 @@ New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMod
 
 Dans cet exemple, nous affectons une stratégie personnalisée nommée nouvelle stratégie de commentaires d’embauche à un utilisateur nommé User1.
 
-```
+```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 ### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>Assigner une stratégie de commentaires personnalisée aux utilisateurs d’un groupe
@@ -79,19 +79,19 @@ Vous pouvez assigner une stratégie de commentaires personnalisée à plusieurs 
 Dans cet exemple, nous affectons un exemple de stratégie de commentaires personnalisé appelé nouvelle stratégie de commentaires d’embauche à tous les utilisateurs du groupe contoso New HiRes.  
 
 Obtenez la GroupObjectId du groupe en particulier.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso New Hires"
 ```
 Obtenez les membres du groupe spécifié.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Attribuez à tous les utilisateurs du groupe une stratégie de commentaires particulière. Dans cet exemple, il s’agit de la nouvelle politique de commentaires sur les employés.
-```
+```PowerShell
 $members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

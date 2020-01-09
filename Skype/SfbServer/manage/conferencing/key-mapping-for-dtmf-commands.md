@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Résumé: Découvrez comment gérer le mappage des clés des commandes DTMF (multifrequency multi-tonalité) dans Skype entreprise Server.'
-ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer le mappage des clés des commandes DTMF (multifrequency multi-tonalité) dans Skype entreprise Server.'
+ms.openlocfilehash: 3bab799bb116d0ded48002eb91898ffc1587543c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283759"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991819"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gérer les mappages de clés pour les commandes DTMF dans Skype entreprise Server
  
-**Résumé:** Découvrez comment gérer le mappage des clés des commandes DTMF (multifrequency multifrequency) dans Skype entreprise Server.
+**Résumé :** Découvrez comment gérer le mappage des clés des commandes DTMF (multifrequency multifrequency) dans Skype entreprise Server.
   
 Les utilisateurs de conférences rendez-vous peuvent appuyer sur les touches du clavier téléphonique pour exécuter des commandes de numérotation en fréquences vocales (DTMF). Les commandes DTMF permettent aux utilisateurs qui prennent part à une conférence de contrôler les paramètres de conférence (tels que l’activation et la désactivation de leur micro ou le verrouillage et le déverrouillage de la conférence) à l’aide du clavier de leur téléphone. 
   
-Pour gérer les clés utilisées pour les commandes DTMF, utilisez Skype entreprise Server Management Shell avec la commande **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**et ** Cmdlets New-CsDialinConferencingDtmfConfiguration** .
+Pour gérer les clés utilisées pour les commandes DTMF, utilisez Skype entreprise Server Management Shell avec les applets de commande **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**et **New-CsDialinConferencingDtmfConfiguration** .
   
 Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site sont prioritaires sur les paramètres globaux. 
 
@@ -31,17 +31,17 @@ Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins  ou du rôle Cs-ServerAdministrator  ou CsAdministrator.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour afficher les paramètres DTMF utilisés pour la conférence rendez-vous, exécutez la commande ci-dessous dans l’invite de commandes :
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
 4. Pour modifier les paramètres DTMF utilisés pour la conférence rendez-vous, exécutez l’applet de commande ci-dessous et spécifiez la touche sur laquelle appuyer pour chaque option à modifier :
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
    [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
    [-CommandCharacter <* (default) | #>] [-EnableDisableAnnouncementsCommand <default key is 9>]
@@ -53,7 +53,7 @@ Lorsque vous créez des paramètres DTMF pour des sites, les paramètres de site
     
 Dans cet exemple, la touche enfoncée pour activer ou désactiver les annonces est permutée avec la touche enfoncée pour activer ou désactiver le micro de tous les participants. Comme aucune identité n’est spécifiée, ces modifications s’appliquent aux paramètres DTMF globaux :
   
-```
+```PowerShell
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 

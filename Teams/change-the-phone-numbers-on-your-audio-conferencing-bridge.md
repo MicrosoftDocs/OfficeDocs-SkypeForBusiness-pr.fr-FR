@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a37f1d90fc0c960d1e3c1f7ddf4424b3aaec6f98
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516962"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992871"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
 Lorsque vous achetez des licences de **conférence audio** , Microsoft héberge votre pont de conférence audio pour votre organisation. Le pont de conférence rend les numéros de téléphone d’accès à partir de différents emplacements de sorte que les organisateurs de la réunion et les participants puissent les utiliser pour participer à des réunions Skype entreprise ou Microsoft teams à l’aide d’un téléphone.
   
-Outre les numéros de téléphone déjà attribués à votre pont de conférence, vous pouvez [obtenir des numéros de service supplémentaires](/microsoftteams/getting-service-phone-numbers) (numéro payant et numéro gratuit utilisés pour les conférences audio) à partir d’autres emplacements, puis les affecter à la Conférence de conférence pour pouvoir développez la couverture de vos utilisateurs.
+Outre les numéros de téléphone déjà attribués à votre pont de conférence, vous pouvez [obtenir des numéros de service supplémentaires](/microsoftteams/getting-service-phone-numbers) (numéro payant et numéro gratuit utilisés pour les conférences audio) à partir d’autres emplacements, puis les affecter à la Conférence de conférence pour développer la couverture de vos utilisateurs.
   
 > [!NOTE]
 > Pour être en mesure d’affecter/retirer un numéro de téléphone à un pont de conférence, le numéro de téléphone doit être un numéro de*service*. Vous pouvez voir le type de numéro qu’il contient en accédant **aux** > **numéros de téléphone** dans le portail hérité et en regardant dans la colonne **type de nombre** . Les crédits de communication d’Office 365 doivent d’abord être configurés pour permettre aux utilisateurs de se connecter au pont sur un numéro gratuit.
@@ -85,13 +85,13 @@ Si vous avez mis à jour les numéros de téléphone par défaut qui sont inlcud
   
 - Exécutez le service de migration de réunion (MMS) pour les utilisateurs qui ont modifié leurs numéros de téléphone par défaut à l’étape 2. Pour cela, exécutez la commande suivante :
 
-```
+```PowerShell
     Start-CsExMeetingMigration user@contoso.com
 ```
 
 - Vous pouvez également afficher le statut de migration des réunions. Toutes les réunions seront replanifiées lorsque plus aucune opération ne sera définie sur  *En attente*  ou *En cours*  .
 
-```
+```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -108,7 +108,7 @@ Dans le cas de ces trois premières étapes, vous devrez démarrer Windows Power
 
 Remplacez le numéro gratuit par défaut pour tous les utilisateurs dont le numéro doit être non affecté par défaut et commencez le processus de replanification de leurs réunions. Pour cela, exécutez la commande suivante :
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
@@ -123,7 +123,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
 
 Toutes les réunions seront replanifiées lorsque aucune opération n’est en *attente* ou en *cours* .
 
-```
+```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
@@ -170,7 +170,7 @@ Pour en savoir plus, voir [Se connecter à tous les services Office 365 dans une
 2. Dans la fenêtre **Windows PowerShell**, connectez-vous à votre organisation Office 365 en exécutant :
 
 >
-  ```
+  ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -189,7 +189,7 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les appl
 
   - Pour modifier le numéro gratuit par défaut pour un utilisateur, exécutez ce qui suit :
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   80045551234
   ```
 
@@ -200,19 +200,19 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les appl
 
   - Pour définir le numéro gratuit par défaut pour tous les utilisateurs qui n'en ont pas sur 8005551234, exécutez ce qui suit :
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - Pour remplacer le numéro gratuit par défaut 8005551234 pour tous les utilisateurs qui l'utilisent par 8005551239 et replanifier leurs réunions de manière automatique, exécutez ce qui suit :
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
   - Pour définir le numéro gratuit par défaut de tous les utilisateurs situés aux États-Unis sur 8005551234 et replanifier leurs réunions de manière automatique, exécutez ce qui suit :
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
@@ -226,14 +226,14 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les appl
 Vous voulez annuler l’affectation d’un numéro, mais le bouton est grisé et, si ce n’est pas le cas dans hoovering, vous êtes redirigé vers contacter le support technique avec le message suivant : _«les numéros par défaut ou les numéros partagés peuvent ́t pas être attribués par le pont. Pour retirer des numéros payants, veuillez contacter le service clientèle._
 
 Pour obtenir des informations supplémentaires sur le ou les ponts, exécutez la commande PowerShell suivante :
-```
+```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
 Le résultat, à l’instar des informations telles que l’identité, le nom et la région, doit également contenir le DefaultServiceNumber.
 
 **Par exemple**, pour annuler l’affectation, le DefaultServiceNumber « 8005551234 »
-```
+```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
 ```
 

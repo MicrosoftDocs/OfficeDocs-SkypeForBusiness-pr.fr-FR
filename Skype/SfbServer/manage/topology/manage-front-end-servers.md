@@ -9,13 +9,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 'Résumé: Découvrez comment ajouter, supprimer ou mettre à jour les serveurs frontaux dans Skype entreprise Server.'
-ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment ajouter, supprimer ou mettre à jour les serveurs frontaux dans Skype entreprise Server.'
+ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275156"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991529"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Gérer les serveurs frontaux dans Skype entreprise Server
  
@@ -37,7 +37,7 @@ Vous pouvez utiliser la procédure suivante lors de l’ajout ou de la suppressi
 
 1. Si vous supprimez un serveur frontal, vous devez d’abord arrêter de nouvelles connexions sur ces serveurs. Pour ce faire, vous pouvez utiliser l’applet de commande suivante :
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -51,9 +51,9 @@ Vous pouvez utiliser la procédure suivante lors de l’ajout ou de la suppressi
   > [!NOTE]
 > Par ailleurs, lorsque vous ajoutez ou supprimez un serveur au pool, vous devez exécuter l’Assistant Déploiement de Skype entreprise Server sur chaque ordinateur ajouté ou supprimé pour plus d’informations, reportez-vous à la rubrique [installation de Skype entreprise Server sur les serveurs dans la topologie](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server) .
   
-4. Si vous avez modifié le nombre de serveurs dans votre pool frontal de l’une des manières suivantes, reconfigurez le pool avec en tapant l’applet de commande suivante: Reset-CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
+4. Si vous avez modifié le nombre de serveurs dans votre pool frontal de l’une des manières suivantes, reconfigurez le pool avec en tapant l’applet de commande suivante : Reset-CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -67,7 +67,7 @@ Vous pouvez utiliser la procédure suivante lors de l’ajout ou de la suppressi
     
 5. Redémarrez le pool en tapant l’applet de commande suivante
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -79,19 +79,19 @@ Lorsque vous mettez à jour les serveurs dans une liste frontale, vous devez uti
 
 1. Tapez l’applet de commande suivante :
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      si cet applet indique qu’il manque des réplicas, exécutez l’applet de commande suivant pour récupérer le pool avant d’appliquer des correctifs.
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. Sur le premier serveur à « corriger », exécutez l’applet de commande suivant :
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -101,7 +101,7 @@ Lorsque vous mettez à jour les serveurs dans une liste frontale, vous devez uti
     
 4. Sur le serveur mis à niveau, exécutez l’applet de commande suivante :
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

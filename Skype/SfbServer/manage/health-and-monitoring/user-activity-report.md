@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 'Résumé: en savoir plus sur le rapport d’activité des utilisateurs dans Skype entreprise Server.'
-ms.openlocfilehash: b9dabdec0bf038ff7068e9bba40543cbd02d183e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport d’activité des utilisateurs dans Skype entreprise Server.'
+ms.openlocfilehash: 1940b28886b4bf48f5396689f6f7a5069482adc8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279675"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991699"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Rapport activité de l’utilisateur dans Skype entreprise Server
 
-**Résumé:** En savoir plus sur le rapport d’activité des utilisateurs dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport d’activité des utilisateurs dans Skype entreprise Server.
 
 Le rapport d’activité de l’utilisateur fournit une liste détaillée des sessions P2P et des sessions de conférence exécutées par vos utilisateurs au cours d’une période donnée. Contrairement à la plupart des rapports de surveillance, le rapport d’activité de l’utilisateur lie chaque appel à des utilisateurs individuels. Par exemple, les sessions P2P spécifient les URI SIP de la personne à l’origine de l’appel (utilisateur d’origine) et celles de la personne qui a été appelée (utilisateur de destination). Si vous développez les informations sur une conférence, vous obtiendrez la liste de tous les participants à la conférence, ainsi que leur rôle à cette occasion.
 
@@ -48,7 +48,7 @@ Le rapport d’activité de l’utilisateur est accessible via la page d’accue
 Même si le rapport d’activité de l’utilisateur contient des informations utiles, il peut parfois être difficile de les rechercher. Par exemple, toutes les activités de l’utilisateur qui interviennent au cours d’une période donnée apparaissent dans le rapport d’activité de l’utilisateur. en d’autres termes, le rapport comporte des informations sur les utilisateurs qui ont réellement utilisé Skype entreprise Server d’une certaine façon.
 
 > [!NOTE]
-> Techniquement, il est possible que certaines activités de l’utilisateur ne soient pas enregistrées: bien que Skype entreprise Server s’efforce de conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel ait été effectué sans que les informations relatives à l’appel soient écrites sur le bases. Skype entreprise Server est conçu pour donner un aspect très précis, mais pas forcément parfait pour l’utilisation de Skype entreprise Server. (Le fait qu’il n’y a aucune garantie que 100% de tous les appels sont enregistrés explique pourquoi le contrôle de Skype entreprise Server ne doit pas être utilisé comme système de facturation.) Deuxièmement, un rapport de contrôle ne peut afficher que des enregistrements 1 000. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données. 
+> Techniquement, il est possible que certaines activités de l’utilisateur ne soient pas enregistrées : bien que Skype entreprise Server s’efforce de conserver des informations sur tous les appels téléphoniques, il est possible qu’un appel ait été effectué sans que les informations relatives à l’appel soient écrites sur le bases. Skype entreprise Server est conçu pour donner un aspect très précis, mais pas forcément parfait pour l’utilisation de Skype entreprise Server. (Le fait qu’il n’y a aucune garantie que 100% de tous les appels sont enregistrés explique pourquoi le contrôle de Skype entreprise Server ne doit pas être utilisé comme système de facturation.) Deuxièmement, un rapport de contrôle ne peut afficher que des enregistrements 1 000. Ainsi, selon le volume d’activité de vos utilisateurs et la période considérée, votre requête risque de ne pas renvoyer toutes les données effectivement stockées dans la base de données. 
 
 - Quels sont les utilisateurs qui ont utilisé le système au cours de cette période ?
 
@@ -56,15 +56,15 @@ Même si le rapport d’activité de l’utilisateur contient des informations u
 
 - Les utilisateurs qui passent le plus grand nombre d’appels sont-ils aussi ceux qui participent le plus aux sessions de messagerie instantanée ?
 
-Si vous avez besoin de répondre à ce type de question, vous pouvez exporter les données récupérées par les rapports de surveillance dans une feuille de calcul Excel. Vous pouvez alors vous servir de cette feuille de calcul et/ou d’un fichier de valeurs séparées par des virgules (CSV) pour analyser les données de façon plus poussée que dans le rapport d’activité de l’utilisateur. Par exemple, supposons que vous ayez exporté les données du rapport dans Excel, puis dans un fichier CSV. À ce stade, vous pouvez importer les données à partir du. Fichier CSV vers Windows PowerShell en utilisant une commande similaire à celle-ci:
+Si vous avez besoin de répondre à ce type de question, vous pouvez exporter les données récupérées par les rapports de surveillance dans une feuille de calcul Excel. Vous pouvez alors vous servir de cette feuille de calcul et/ou d’un fichier de valeurs séparées par des virgules (CSV) pour analyser les données de façon plus poussée que dans le rapport d’activité de l’utilisateur. Par exemple, supposons que vous ayez exporté les données du rapport dans Excel, puis dans un fichier CSV. À ce stade, vous pouvez importer les données à partir du. Fichier CSV vers Windows PowerShell en utilisant une commande similaire à celle-ci :
 
-```
+```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
 Une fois les données importées, vous pouvez utiliser des commandes Windows PowerShell simples pour répondre à vos questions. Par exemple, cette commande renvoie une liste d’utilisateurs uniques qui ont fait office d’expéditeur (« From user ») dans au moins une session :
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name
 ```
 
@@ -82,7 +82,7 @@ Pilar.Ackerman@litwareinc.com
 
 Cette commande dresse la liste des utilisateurs individuels (en fonction du nombre total de sessions auxquelles ils ont participé) :
 
-```
+```PowerShell
 $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
@@ -100,7 +100,7 @@ Count    Name
 
 Cette commande limite les sessions recensées dans le rapport à celles qui incluaient la modalité audio :
 
-```
+```PowerShell
 $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 ```
 
@@ -120,7 +120,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 | **De** <br/>             | Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 17/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 13/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>                                                      |
 | **À** <br/>               | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 17/07/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 13/07/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>                                                             |
 | **Type d’activité** <br/>    | Type d’activité. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Égal à égal <br/>  Conférence <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Modalité** <br/>         | La modalité disponible varie selon le type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner mi. Transfert de fichier; Partage d’application; Téléphonique ou la vidéo comme modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner messagerie instantanée, conférence web, partage d’application; conférence audio/vidéo ou téléconférence.  <br/>                                                                                                                                                                                                                                            |
+| **Modalité** <br/>         | La modalité disponible varie selon le type d’activité sélectionné. Si le type d’activité est pair à pair, vous pouvez sélectionner mi. Transfert de fichier ; Partage d’application ; Téléphonique ou la vidéo comme modalité.  <br/> Si le type d’activité est Conférence, vous pouvez sélectionner messagerie instantanée, conférence web, partage d’application; conférence audio/vidéo ou téléconférence.  <br/>                                                                                                                                                                                                                                            |
 | **Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut sur Ne pas déranger, les appels passés à cet utilisateur échouent. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
 | **Préfixe URI de l’utilisateur** <br/>  | Adresse SIP pour l’utilisateur. Pour afficher exclusivement les enregistrements de l’utilisateur Ken Myer, vous devez entrer l’adresse SIP de Ken Myer. Par exemple :  <br/> sip:kenmyer@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 

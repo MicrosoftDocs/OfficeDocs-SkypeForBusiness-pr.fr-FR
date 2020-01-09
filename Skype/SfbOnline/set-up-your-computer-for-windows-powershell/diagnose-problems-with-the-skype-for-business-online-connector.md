@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour se connecter à Skype entreprise Online, y compris les erreurs d’importation-module, d’interpréteur de commande et d’autorisation.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615971"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991309"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
@@ -51,7 +51,7 @@ Cette rubrique fournit des informations pour vous aider à diagnostiquer et rés
     
 
 > [!IMPORTANT]
-> Par défaut, les sessions PowerShell expirent après 60 minutes. Pour vous reconnecter, vous devez fermer la session et lancer une nouvelle session PowerShell. Une nouvelle version de [Skype entreprise Online, module Windows PowerShell (2046,123-publié 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), a été lancée récemment et inclut une nouvelle applet de contrôle appelée **Enable-CsOnlineSessionForReconnection** qui atténue les 60 minutes. problème de délai d’expiration.
+> Par défaut, les sessions PowerShell expirent après 60 minutes. Pour vous reconnecter, vous devez fermer la session et lancer une nouvelle session PowerShell. Une nouvelle version de [Skype entreprise Online, module Windows PowerShell (2046,123-publié 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), a été lancée récemment et inclut une nouvelle applet de contrôle appelée **Enable-CsOnlineSessionForReconnection** qui atténue le délai de 60 minutes.
 > La session PowerShell se reconnecte et s’authentifie, ce qui permet de la réutiliser sans avoir à lancer une nouvelle instance pour s’y reconnecter.
 
 
@@ -61,10 +61,10 @@ Cette rubrique fournit des informations pour vous aider à diagnostiquer et rés
 
 La stratégie d’exécution PowerShell vous permet de déterminer les fichiers de configuration qui peuvent être chargés dans la console PowerShell et les scripts qu’un utilisateur peut exécuter à partir de cette console. Le module Skype entreprise Online Connector ne peut pas être importé au minimum tant que la stratégie d’exécution n’a pas été définie sur RemoteSigned. Si ce n’est pas le cas, vous recevrez le message d’erreur suivant lorsque vous essayez d’importer le module :
   
-- **Erreur**: <em>import-module : fichier C :\\Program Files\\fichiers\\communs Microsoft Lync Server 2013\\\\LyncOnlineConnector\\LyncOnlineConnectorStartup. psm1 ne peut pas être chargé en exécutant la fonction scripts est désactivée sur ce système. Pour plus d’informations, consultez about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170à l’adresse.</em>
+- **Erreur**: <em>import-module : fichier C :\\Program Files\\fichiers\\communs Microsoft Lync Server 2013\\modules\\LyncOnlineConnector\\LyncOnlineConnectorStartup. psm1 ne peut pas être chargé car l’exécution de scripts est désactivée sur ce système. Pour plus d’informations, consultez about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170à l’adresse.</em>
 
 - **Résolution** Pour résoudre ce problème, démarrez PowerShell en tant qu’administrateur, puis exécutez la commande suivante :
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Pour plus d’informations sur la stratégie d’exécution, voir [à propos des stratégies d’exécution](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -93,11 +93,11 @@ Il existe généralement trois raisons pour lesquelles votre tentative de connex
   - **Erreur**: *Get-CsWebTicket : échec de connexion aux serveurs d’ID Live. Assurez-vous que l’option proxy est activée ou que l’ordinateur dispose d’une connexion réseau à des serveurs d’ID Live.*
 
 - **Solution**: il est souvent possible que l’Assistant de connexion de Microsoft Online Services ne s’exécute pas. Vous pouvez vérifier l’état de ce service en exécutant la commande suivante à partir de l’invite PowerShell : 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Si le service n’est pas en cours d’exécution, démarrez le service à l’aide de la commande suivante :
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 
@@ -160,7 +160,7 @@ Bien que les administrateurs aient autant de connexions simultanées qu’un cli
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous avez terminé d’utiliser une session Skype entreprise Online, nous vous recommandons d’utiliser l’applet de commande **Remove-PSSession** pour mettre fin à la session. Cela vous permettra d’éviter ce problème.  
  
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Configurer votre ordinateur pour la gestion de Skype entreprise Online à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

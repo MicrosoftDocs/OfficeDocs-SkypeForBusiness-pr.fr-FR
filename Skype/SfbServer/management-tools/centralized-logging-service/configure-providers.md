@@ -11,29 +11,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
-description: 'Résumé: Découvrez comment configurer des fournisseurs de scénarios pour le service de journalisation centralisé dans Skype entreprise Server 2015.'
-ms.openlocfilehash: a9987d99b2caf00acc92de92a8d997845ad8f921
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment configurer des fournisseurs de scénarios pour le service de journalisation centralisé dans Skype entreprise Server 2015.'
+ms.openlocfilehash: dcfa16ffa00e81153172570e67020cf287350cd9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274449"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991469"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configuration des fournisseurs pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  
-**Résumé:** Apprenez à configurer les fournisseurs de scénarios pour le service de journalisation centralisé dans Skype entreprise Server 2015.
+**Résumé :** Apprenez à configurer les fournisseurs de scénarios pour le service de journalisation centralisé dans Skype entreprise Server 2015.
   
-Les concepts et la configuration des fournisseurs dans le service de journalisation centralisé sont les plus importants à comprendre. Theproviders mappez directement aux composants du rôle serveur Skype entreprise Server dans le modèle de suivi de Skype entreprise Server. Le fournisseur définit les composants d’une 2015 Skype entreprise Server qui sera tracée, le type de messages (par exemple, irrécupérable, d’erreur ou d’avertissement) à collecter et les indicateurs (par exemple, TF_Connection ou TF_Diag). Les fournisseurs sont les composants traçables de chaque rôle serveur Skype entreprise Server. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
+Les concepts et la configuration des fournisseurs dans le service de journalisation centralisé sont les plus importants à comprendre. Theproviders mappez directement aux composants du rôle serveur Skype entreprise Server dans le modèle de suivi de Skype entreprise Server. Le fournisseur définit les composants d’une 2015 Skype entreprise Server qui sera tracée, le type de messages (par exemple, irrécupérable, erreur ou avertissement) à collecter et les indicateurs (par exemple, TF_Connection ou TF_Diag). Les fournisseurs sont les composants traçables de chaque rôle serveur Skype entreprise Server. À l’aide de fournisseurs, vous définissez le niveau et le type de suivi sur les composants (par exemple, S4, SIPStack, Messagerie instantanée et Présence). Le fournisseur défini est utilisé dans un scénario pour regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique.
   
 Pour exécuter les fonctions de service de journalisation centralisées à l’aide de Skype entreprise Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype entreprise Server Management Shell ou Windows PowerShell demandant
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Exemple :
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -44,25 +44,25 @@ Le reste de cette rubrique met l’accent sur la définition des fournisseurs, l
   
 Au lieu de vous demander de vous plonger dans les détails des fournisseurs, le service de journalisation centralisé fournit un certain nombre de scénarios déjà définis pour vous. Les scénarios fournis couvrent la grande majorité des problèmes que vous êtes susceptible de rencontrer. Dans de rares cas, vous devrez créer et définir des fournisseurs et les affecter à des scénarios. Nous vous recommandons fortement de vous familiariser avec chacun des scénarios fournis avant d’étudier la nécessité de créer de nouveaux scénarios et de nouveaux fournisseurs. Bien que des informations sur la création de fournisseurs sont données ici pour vous familiariser avec la façon dont les scénarios utilisent les éléments des fournisseurs pour collecter des informations de suivi, aucun détail sur les fournisseurs eux-mêmes n’est fourni pour le moment. 
   
-Introduction dans le [service de journalisation centralisée de Skype entreprise 2015](centralized-logging-service.md), les principaux éléments de la définition d’un fournisseur pour une utilisation dans un scénario sont les suivants:
+Introduction dans le [service de journalisation centralisée de Skype entreprise 2015](centralized-logging-service.md), les principaux éléments de la définition d’un fournisseur pour une utilisation dans un scénario sont les suivants :
   
 - **Fournisseurs** Si vous avez l’habitude d’utiliser OCSLogger, les fournisseurs sont les composants que vous choisissez pour indiquer à OCSLogger ce sur quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec l’utilisation de OCSLogger, les fournisseurs sont des composants spécifiques au rôle serveur pour lesquels le service de journalisation centralisé peut collecter des journaux. Dans le cas d’un service de journalisation centralisé, le CLSAgent est la partie architecturale du service de journalisation centralisé qui effectue le suivi des composants que vous définissez dans la configuration des fournisseurs.
     
-- **Niveaux** de journalisation OCSLogger vous a permis de choisir un certain nombre de niveaux de détail pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisé et des scénarios, et est définie par le paramètre de **type** . Vous avez le choix entre les valeurs suivantes :
+- **Niveaux de journalisation** OCSLogger vous a permis de choisir un certain nombre de niveaux de détail pour les données collectées. Cette fonctionnalité fait partie intégrante du service de journalisation centralisé et des scénarios, et est définie par le paramètre de **type** . Vous avez le choix entre les valeurs suivantes :
     
   - **All (tous** ) Collecte les messages de suivi de type irrécupérable, erreur, avertissement, commentaires et informations de débogage du journal du fournisseur défini.
     
-  - **Erreur irrécupérable** Recueille uniquement les messages de suivi définis comme «irrécupérables».
+  - **Erreur irrécupérable** Recueille uniquement les messages de suivi définis comme « irrécupérables ».
     
-  - **Erreur** Recueille uniquement les messages de suivi définis comme «erreur» ou «irrécupérable».
+  - **Erreur** Recueille uniquement les messages de suivi définis comme « erreur » ou « irrécupérable ».
     
-  - **Avertissement** Recueille uniquement les messages de suivi de type «avertissement», «erreur» et «irrécupérable».
+  - **Avertissement** Recueille uniquement les messages de suivi de type « avertissement », « erreur » et « irrécupérable ».
     
   - **Infos** Recueille uniquement les messages de suivi qui indiquent un message d’information pour le fournisseur défini, ainsi que les messages d’avertissement ou d’erreur irrécupérable.
     
   - **Commentaires** Recueille tous les messages de suivi de type irrécupérable, erreur, avertissement et détaillé pour le fournisseur défini.
     
-  - **** Le débogage est essentiellement un équivalent de «All», qui rassemble les traces de type irrécupérable, erreur, avertissement, informations, détaillé et débogage du fournisseur défini.
+  - Le **débogage** est essentiellement un équivalent de « All », qui rassemble les traces de type irrécupérable, erreur, avertissement, informations, détaillé et débogage du fournisseur défini.
     
 - **Indicateurs** OCSLogger a fourni l’option de sélection d’indicateurs pour chaque fournisseur définissant le type d’informations que vous pouvez récupérer dans les fichiers de suivi. Vous pouvez choisir les indicateurs suivants selon le fournisseur :
     
@@ -80,23 +80,23 @@ Introduction dans le [service de journalisation centralisée de Skype entreprise
     
 ### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>Pour consulter des informations sur les fournisseurs de scénarios de service de journalisation centralisée existants
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Pour examiner la configuration de fournisseurs existants, tapez ce qui suit :
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity <scope and scenario name>
    ```
 
     Par exemple, pour examiner des informations sur l’Intendant Conférence global, tapez :
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
     La commande affiche une liste de fournisseurs avec les indicateurs, paramètres et composants associés. Si les informations affichées ne sont pas suffisantes ou si la liste est trop longue pour le format de liste Windows PowerShell par défaut, vous pouvez afficher des informations supplémentaires en définissant une autre méthode de sortie. Pour cela, tapez :
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
    ```
 
@@ -104,40 +104,40 @@ Introduction dans le [service de journalisation centralisée de Skype entreprise
     
 ### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>Pour définir un nouveau fournisseur de scénarios de service de journalisation centralisée
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Un fournisseur de scénario se compose d’un composant à suivre, d’indicateurs à utiliser et d’un niveau de détail à collecter. Pour cela, tapez :
     
-   ```
+   ```PowerShell
    $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
    ```
 
     Par exemple, une définition de fournisseur de suivi qui définit ce qu’il faut collecter à partir du fournisseur Lyss et à quel niveau de détail ressemble à ceci :
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
-Le niveau de données collecte les messages d’erreur, d’avertissement et d’erreur irrécupérable. Les indicateurs utilisés sont tous ceux définis pour le fournisseur Lyss et incluent TF_Connection, TF_Diag et TF_Protocol. une fois la variable $LyssProvider définie, vous pouvez l’utiliser avec l’applet **de nouvelle cmdlet New-CsClsScenario** pour collecter des traces du fournisseur de services de Lyss. Pour terminer la création du fournisseur et son affectation à un nouveau scénario, tapez :
+Le niveau de données collecte les messages d’erreur, d’avertissement et d’erreur irrécupérable. Les indicateurs utilisés sont tous ceux définis pour le fournisseur Lyss et incluent TF_Connection, TF_Diag et TF_Protocol. une fois la variable $LyssProvider définie, vous pouvez l’utiliser avec l’applet **de nouvelle cmdlet New-CsClsScenario** pour collecter des traces du fournisseur de Lyss. Pour terminer la création du fournisseur et son affectation à un nouveau scénario, tapez :
 
-```
+```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
 Où $LyssProvider est la variable qui contient le scénario défini créé avec **New-CsClsProvider**.
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>Pour modifier un fournisseur de scénarios de service de journalisation centralisé existant
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Pour mettre à jour ou modifier la configuration d’un fournisseur existant, tapez :
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
    ```
 
     Vous pouvez ensuite mettre à jour le scénario pour affecter le fournisseur en tapant ce qui suit :
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
@@ -147,34 +147,34 @@ Où $LyssProvider est la variable qui contient le scénario défini créé avec 
   
 Si vous souhaitez ajouter des fournisseurs supplémentaires à ce scénario, tapez ce qui suit :
 
-```
+```PowerShell
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
 Où chaque fournisseur défini avec la directive Add a déjà été défini à l’aide du processus **New-CsClsProvider**.
 ### <a name="to-remove-a-scenario-provider"></a>Pour supprimer un fournisseur de scénario
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
-2. Les applets de commande fournies vous permettent de mettre à jour des fournisseurs existants et de créer de nouveaux fournisseurs. Pour supprimer un fournisseur, vous devez utiliser la directive Replace pour le paramètre Provider pour **Set-CsClsScenario**. La seule façon de supprimer complètement un fournisseur est de le remplacer par un fournisseur redéfini du même nom et d’utiliser la directive Update. Par exemple, le fournisseur LyssProvider est défini comme suit : WPP comme type de journal, Debug comme niveau, et TF_CONNECTION et TF_DIAG comme indicateurs. Vous devez remplacer les indicateurs par «All». Pour modifier le fournisseur, tapez ce qui suit :
+2. Les applets de commande fournies vous permettent de mettre à jour des fournisseurs existants et de créer de nouveaux fournisseurs. Pour supprimer un fournisseur, vous devez utiliser la directive Replace pour le paramètre Provider pour **Set-CsClsScenario**. La seule façon de supprimer complètement un fournisseur est de le remplacer par un fournisseur redéfini du même nom et d’utiliser la directive Update. Par exemple, le fournisseur LyssProvider est défini comme suit : WPP comme type de journal, Debug comme niveau, et TF_CONNECTION et TF_DIAG comme indicateurs. Vous devez remplacer les indicateurs par « All ». Pour modifier le fournisseur, tapez ce qui suit :
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
    ```
 
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
    ```
 
 3. Si vous souhaitez supprimer complètement un scénario et les fournisseurs associés à celui-ci, tapez ce qui suit :
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <scope and name of scenario>
    ```
 
     Exemple :
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
    ```
 

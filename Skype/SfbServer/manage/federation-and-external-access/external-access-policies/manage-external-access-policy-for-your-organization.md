@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après le déploiement d’un ou plusieurs serveurs Edge, vous devez activer les types d’accès externe qui seront pris en charge pour votre organisation.
-ms.openlocfilehash: 014077fb331bc33933d0c673771f7765b9341570
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1f9798907f70893601a5dfe05b5045e484911e0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280116"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991749"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Gestion de la stratégie d’accès externe pour l’organisation
 
@@ -34,10 +34,10 @@ Par défaut, il n’y a pas de stratégies configurées pour prendre en charge l
 
 
 > [!IMPORTANT]  
-> Les paramètres de stratégie appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de Skype entreprise Server est le suivant: la stratégie de l’utilisateur (la plus influence) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
+> Les paramètres de stratégie appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de Skype entreprise Server est le suivant : la stratégie de l’utilisateur (la plus influence) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
 
 
-Ces options incluent les types d’accès externes suivants:
+Ces options incluent les types d’accès externes suivants :
 
   - **Activer les communications avec les utilisateurs**   fédérés activez cette fonction si vous souhaitez prendre en charge l’accès des utilisateurs aux domaines partenaires fédérés. Ce paramètre configure la possibilité pour les utilisateurs de communiquer avec d’autres domaines fédérés SIP, ainsi que des fournisseurs hébergés tels que Microsoft Office 365. 
 
@@ -48,7 +48,7 @@ Ces options incluent les types d’accès externes suivants:
    
 
 > [!NOTE]  
-> Outre l’activation de la prise en charge de l’accès des utilisateurs externes, vous devez également configurer des stratégies pour contrôler l’utilisation de l’accès des utilisateurs externes au sein de votre organisation avant de pouvoir accéder aux utilisateurs externes. Pour plus d’informations sur la création, la configuration et l’application de stratégies pour l’accès des utilisateurs externes, voir [activer ou désactiver l’accès des utilisateurs](../access-edge/enable-or-disable-remote-user-access.md)distants.
+> Outre l’activation de la prise en charge de l’accès des utilisateurs externes, vous devez également configurer des stratégies pour contrôler l’utilisation de l’accès des utilisateurs externes au sein de votre organisation avant de pouvoir accéder aux utilisateurs externes. Pour plus d’informations sur la création, la configuration et l’application de stratégies pour l’accès des utilisateurs externes, voir [activer ou désactiver l’accès des utilisateurs distants](../access-edge/enable-or-disable-remote-user-access.md).
 
 
 
@@ -56,13 +56,13 @@ Ces options incluent les types d’accès externes suivants:
 
   - Vous pouvez afficher les stratégies d’accès externe à l’aide de Skype entreprise Server Management Shell et de l’applet **de passe Get-CsExternalAccessPolicy** . Vous pouvez exécuter cette applet de commande dans Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. 
     
-    Pour afficher des informations sur les stratégies d’accès externe, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+    Pour afficher des informations sur les stratégies d’accès externe, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
     `Get-CsExternalAccessPolicy`
     
     Cette commande renvoie le type d’informations suivant :
     
-    ```
+    ```console
     Identity                          : Global
     Description                       :
     EnableFederationAccess            : False

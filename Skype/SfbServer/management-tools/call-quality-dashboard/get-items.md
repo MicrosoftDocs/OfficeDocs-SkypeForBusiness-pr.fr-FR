@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: 'Résumé: en savoir plus sur l’opération obtenir des éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’opération obtenir des éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: be93e16750c1a977a6bc3cfc9651e78a043ef563
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274701"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992661"
 ---
 # <a name="get-items"></a>Obtenir des éléments
  
-**Résumé:** En savoir plus sur l’opération obtenir les éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** En savoir plus sur l’opération obtenir les éléments, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération obtenir les éléments fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
@@ -49,7 +49,7 @@ Get renvoie tous les éléments du référentiel.
 > [!NOTE]
 > Un tableau d’objets Item est retourné. Pour plus d’informations sur l’objet élément, voir obtenir un élément. 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,

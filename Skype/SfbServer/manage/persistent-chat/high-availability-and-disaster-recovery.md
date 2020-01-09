@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
-description: 'Résumé: Découvrez comment gérer l’utilisation du serveur Chat permanent et de la reprise après sinistre dans Skype entreprise Server 2015.'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : Découvrez comment gérer l’utilisation du serveur Chat permanent et de la reprise après sinistre dans Skype entreprise Server 2015.'
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418704"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991979"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion de la haute disponibilité et de la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment gérer la haute disponibilité et la reprise après sinistre du serveur Chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment gérer la haute disponibilité et la reprise après sinistre du serveur Chat permanent dans Skype entreprise Server 2015.
   
-Cette rubrique décrit la procédure de basculement et de basculement du serveur de conversation permanent. Avant de lire ce sujet, veillez à lire [plan pour une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent dans Skype entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) et à [configurer une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent dans Skype pour Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+Cette rubrique décrit la procédure de basculement et de basculement du serveur de conversation permanent. Avant de lire ce sujet, veillez à lire [plan pour une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) et à [configurer une haute disponibilité et une reprise après sinistre pour le serveur de chat permanent dans skype entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
 > La conversation permanente est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. La même fonctionnalité est disponible dans Microsoft Teams. Pour plus d’informations, reportez-vous à la rubrique mise [en route de Microsoft teams](/microsoftteams/upgrade-start-here). Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs qui ont besoin de cette fonctionnalité pour teams ou continuer à utiliser Skype entreprise Server 2015. 
@@ -31,7 +31,7 @@ Cette rubrique décrit la procédure de basculement et de basculement du serveur
 
 Le basculement pour le serveur de chat permanent est conçu pour être essentiellement un processus manuel.
   
-La procédure de basculement repose sur l’hypothèse que le centre de données secondaire est opérationnel et qu’il est en cours d’exécution, mais les services serveur de chat permanent dans lesquels réside la base de données de chat permanent principal sont entièrement indisponibles, y compris les suivantes:
+La procédure de basculement repose sur l’hypothèse que le centre de données secondaire est opérationnel et qu’il est en cours d’exécution, mais les services serveur de chat permanent dans lesquels réside la base de données de chat permanent principal sont entièrement indisponibles, y compris les suivantes :
   
 - La base de données principale de chat serveur et la base de données miroir du serveur de chat permanent sont inversées.
     
@@ -55,13 +55,13 @@ Basculer vers un serveur de conversation permanente :
     
    - Utilisez la commande suivante pour annuler la copie des journaux de transaction :
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
 2. Copiez tous les fichiers de sauvegarde non copiés se trouvant sur le partage de sauvegarde vers le dossier de destination de la copie du serveur de sauvegarde.
     
-3. Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, reportez-vous [à la rubrique Procédure: appliquer une sauvegarde du journal des transactions (Transact-SQL)](https://go.microsoft.com/fwlink/p/?linkid=247428).
+3. Appliquez dans l’ordre toutes les sauvegardes du journal des transactions non appliquées à la base de données secondaire. Pour plus d’informations, reportez-vous [à la rubrique Procédure : appliquer une sauvegarde du journal des transactions (Transact-SQL)](https://go.microsoft.com/fwlink/p/?linkid=247428).
     
 4. Mettez en ligne la base de données mgc de sauvegarde. Dans la fenêtre de requête ouverte à l’étape 1b, procédez comme suit :
     
@@ -75,7 +75,7 @@ Basculer vers un serveur de conversation permanente :
     
    - **restaurer la base de données mgc avec récupération**.
     
-5. Dans Skype entreprise Server Management Shell, utilisez la commande **Set-CsPersistentChatState-Identity "service: ATL-CS-001.litwareinc.com"-PoolState FailedOver** pour basculer vers la base de données de sauvegarde MGC. Veillez à remplacer le nom de domaine complet de votre pool de conversation permanente par atl-cs-001.litwareinc.com.
+5. Dans Skype entreprise Server Management Shell, utilisez la commande **Set-CsPersistentChatState-Identity "service : ATL-CS-001.litwareinc.com"-PoolState FailedOver** pour basculer vers la base de données de sauvegarde MGC. Veillez à remplacer le nom de domaine complet de votre pool de conversation permanente par atl-cs-001.litwareinc.com.
     
     La base de données mgc de sauvegarde est désormais la base de données principale.
     
@@ -168,9 +168,9 @@ Ces étapes visent à récupérer la configuration telle qu’elle existait avan
     > [!IMPORTANT]
     > Tous les serveurs actifs doivent être situés au sein du même centre de données que celui de la nouvelle base de données primaire, ou dans un centre de données avec une connexion à latence faible/bande passante élevée à la base de données. 
   
-Pour restaurer le pool à son état normal, exécutez la commande Windows PowerShell suivante:
+Pour restaurer le pool à son état normal, exécutez la commande Windows PowerShell suivante :
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

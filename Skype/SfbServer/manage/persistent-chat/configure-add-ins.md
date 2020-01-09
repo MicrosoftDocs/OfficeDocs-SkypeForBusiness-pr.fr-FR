@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: 'Résumé: Découvrez comment configurer des compléments pour les salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 4614387149eb264d5c59ca7a0642408093312a18
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : Découvrez comment configurer des compléments pour les salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: c7243184f273704335dda3c8709de17e767f6b51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417952"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992109"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configuration des compléments des salles de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment configurer des compléments pour les salles de conversation serveur Chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment configurer des compléments pour les salles de conversation serveur Chat permanent dans Skype entreprise Server 2015.
   
 Les compléments servent à étendre l’expérience dans la salle en associant des URL à des salles de conversation. Ces URL apparaissent dans le volet d’extensibilité de conversation client. Un complément classique peut inclure une URL pointant vers une application Silverlight qui intercepte quand un code d’action est publié dans une salle de conversation et affiche l’historique des actions dans le volet extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément servant à inclure un contexte partagé, comme « Tête de liste » ou « Sujet du jour ».
   
@@ -69,9 +69,9 @@ Vous pouvez configurer des compléments pour les salles de conversation en utili
 
 Vous pouvez créer un nouveau complément à l’aide de l’applet **de nouvelle cmdlet New-CsPersistentChatAddin** .
   
-Par exemple, la commande suivante crée un nouveau complément (avec le nom ITPersistentChatAddin) pour le pool atl-cs-001.contoso.com. Le paramètre URL et la valeur http://atl-cs-001.contoso.com/itchat de paramètre spécifient l’emplacement de la page Web du complément:
+Par exemple, la commande suivante crée un nouveau complément (avec le nom ITPersistentChatAddin) pour le pool atl-cs-001.contoso.com. Le paramètre URL et la valeur http://atl-cs-001.contoso.com/itchat de paramètre spécifient l’emplacement de la page Web du complément :
   
-```
+```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
 ```
 
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 Vous pouvez configurer les paramètres d’un complément existant en utilisant l’applet de commande **Set-CsPersistentChatAddIn**. Par exemple, la commande suivante modifie l’URL affecté au complément Conversation permanente ITPersistentChatAddin. Dans le cas présent, l’URL est remplacée parhttp://atl-cs-001.contoso.com/itchat2:
   
-```
+```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
 ```
 
@@ -87,7 +87,7 @@ Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddi
 
 Vous pouvez obtenir des informations sur les compléments en utilisant l’applet de commande **Get-CsPersistentChatAddin**. Par exemple, la commande suivante retourne des informations sur tous les compléments Conversation permanente à utiliser dans l’organisation :
   
-```
+```PowerShell
 Get-CsPersistentChatAddin
 ```
 
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 Vous pouvez supprimer un complément à l’aide de l’applet de passe **Remove-CsPersistentChatAddIn** . Par exemple, la commande suivante supprime le complément Conversation permanente ITChatAddin trouvé dans le pool atl-cs-001.contoso.com :
   
-```
+```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"
 ```
 

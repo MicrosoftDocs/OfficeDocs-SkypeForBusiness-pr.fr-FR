@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Apprenez à afficher l’état du service, à démarrer et arrêter des services, et à empêcher les sessions pour les services.
-ms.openlocfilehash: c3c0ad3a61543caf7866582413a67968c4c1c2d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275149"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991519"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gestion des services dans Skype entreprise Server
 
@@ -32,9 +32,9 @@ Le panneau de configuration Skype entreprise Server vous permet d’afficher la 
 1. À partir d’un compte d’utilisateur affecté à un des rôles d’administration prédéfinis pour Skype entreprise Server, connectez-vous à n’importe quel ordinateur dans votre déploiement interne. Pour plus d’informations, reportez-vous à la rubrique [contrôle d’accès basé sur les rôles (RBAC) pour Skype entreprise Server](../../plan-your-deployment/security/role-based-access-control-rbac.md).
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Skype entreprise Server, voir [installer et ouvrir les outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**. 
-4. Dans la page État, effectuez l’une des opérations suivantes selon vos besoins:
+4. Dans la page État, effectuez l’une des opérations suivantes selon vos besoins :
     - Triez la liste en cliquant sur l’en-tête de la colonne **ordinateur**, **pool**ou **site** , puis en cliquant sur la flèche vers le haut ou la flèche vers le bas.
-    - Cliquez **** sur Actualiser pour afficher la liste la plus à jour.
+    - Cliquez sur **Actualiser** pour afficher la liste la plus à jour.
     - Recherchez un ordinateur en particulier en tapant le nom de l’ordinateur dans le champ de recherche.
    
 ## <a name="view-the-status-of-services-running-on-a-computer-in-skype-for-business"></a>Affichage de l’état des services en cours d’exécution sur un ordinateur dans Skype entreprise
@@ -45,7 +45,7 @@ Servez-vous du panneau de configuration Skype entreprise Server pour afficher to
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Skype entreprise Server, voir [installer et ouvrir les outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
 3. Dans la barre de navigation de gauche, cliquez sur **Topology**.
 4. Dans la page État, triez ou effectuez une recherche dans la liste, si nécessaire, pour trouver l’ordinateur qui vous intéresse, puis cliquez sur le nom de l’ordinateur.
-5. Effectuez l’une des opérations suivantes:
+5. Effectuez l’une des opérations suivantes :
     - Pour afficher le dernier état des services en cours d’exécution sur l’ordinateur, cliquez sur **obtenir l’état du service**.
     - Pour afficher une liste de services spécifiques en cours d’exécution sur l’ordinateur et l’état de chaque service, cliquez sur **Propriétés**, puis sur **Fermer** pour revenir à la liste.
 
@@ -55,13 +55,13 @@ Vous pouvez également afficher l’état du service à l’aide de Windows Powe
 
 **Pour afficher l’état du service**
 
-Pour afficher l’état du service sur un ordinateur, tapez une commande similaire à celle qui suit dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+Pour afficher l’état du service sur un ordinateur, tapez une commande similaire à celle qui suit dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
 
 `Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
 
 Cette commande renvoie le type d’informations suivant :
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running
@@ -81,7 +81,7 @@ Servez-vous du panneau de configuration Skype entreprise Server pour démarrer o
 
 ### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Démarrer ou arrêter tous les services Skype entreprise Server sur un ordinateur
 
-1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. . Vous pouvez déterminer si vous avez reçu le rôle CsServerAdministrator ou CsAdministrator RBAC en exécutant une commande semblable à ce qui suit:
+1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. . Vous pouvez déterminer si vous avez reçu le rôle CsServerAdministrator ou CsAdministrator RBAC en exécutant une commande semblable à ce qui suit :
 
     `Get-CsAdminRoleAssignment -Identity "kenmyer"`
 
@@ -112,7 +112,7 @@ Le panneau de configuration Skype pour les entreprises vous permet d’éviter d
 
 1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Skype entreprise Server. .
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration Skype entreprise Server, voir [installer et ouvrir les outils d’administration](../../management-tools/install-and-open-administrative-tools.md).
-3. Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+3. Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 4. Dans la page État, triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services pour lesquels vous voulez éviter de nouvelles sessions, puis cliquez dessus.
 5. Cliquez sur **action**.
 6. Cliquez sur **empêcher de nouvelles sessions pour tous les services**.

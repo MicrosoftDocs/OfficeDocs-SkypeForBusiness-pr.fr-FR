@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Résumé: en savoir plus sur le tableau de bord de surveillance dans Skype entreprise Server.'
-ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le tableau de bord de surveillance dans Skype entreprise Server.'
+ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279927"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992029"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Utilisation du tableau de bord de surveillance dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le tableau de bord de surveillance dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le tableau de bord de surveillance dans Skype entreprise Server.
   
 Le tableau de bord de suivi fournit aux administrateurs un aperçu rapide de l’intégrité du système et de l’utilisation du système de Skype entreprise Server. Le tableau de bord est conçu pour afficher une vue agrégée des mesures système clés, et ce en affichant soit :
   
@@ -29,9 +29,9 @@ Le tableau de bord de suivi fournit aux administrateurs un aperçu rapide de l�
     
 - Les totaux du mois, et les totaux de la tendance des six mois précédents (pour l’utilisation du système uniquement).
     
-Notez que vous pouvez utiliser l’applet de contrôle [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) pour renvoyer l’URL utilisée pour accéder aux rapports de surveillance de Skype entreprise Server:
+Notez que vous pouvez utiliser l’applet de contrôle [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) pour renvoyer l’URL utilisée pour accéder aux rapports de surveillance de Skype entreprise Server :
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 

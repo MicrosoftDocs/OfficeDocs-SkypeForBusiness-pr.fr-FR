@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Résumé: en savoir plus sur l’opération Get User Setting, qui fait partie du service de paramètres utilisateur. Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’opération Get User Setting, qui fait partie du service de paramètres utilisateur. Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 168e61aaebb47cb087e77cbd18e3e6edfd987227
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274652"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992641"
 ---
 # <a name="get-user-setting"></a>Obtention d’un paramètre utilisateur
  
-**Résumé:** Apprenez-en davantage sur l’opération Get User Setting, qui fait partie du service de paramètres utilisateur. Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Apprenez-en davantage sur l’opération Get User Setting, qui fait partie du service de paramètres utilisateur. Le service de paramètres utilisateur fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération Get User Setting fait partie du service de paramètres utilisateur de l’API du référentiel pour le tableau de bord de qualité des appels.
   
@@ -47,7 +47,7 @@ Le paramètre Get est un paramètre utilisateur unique.
   
  Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
-```
+```json
 {
 "userId": 6,
 "key": "ShowDescriptions",
@@ -55,9 +55,9 @@ Le paramètre Get est un paramètre utilisateur unique.
 }
 ```
 
- ** ID de l’utilisateur.
+ *ID de* l’utilisateur.
   
- ** clé du paramètre.
+ *clé du* paramètre.
   
  valeur *valeur* du paramètre.
   

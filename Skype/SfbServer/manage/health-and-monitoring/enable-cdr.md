@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Résumé : Découvrez comment activer les enregistrements d’enregistrements des détails des appels dans Skype entreprise Server.'
-ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 3474a82bfc9ed8e8bad954bb91346989d9181465
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767056"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992944"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Activer l’enregistrement des détails des appels dans Skype entreprise Server
 
@@ -49,7 +49,7 @@ Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **
 
  Pour désactiver l’enregistrement des détails des appels, attribuez au paramètre EnableCDR la valeur True ($True).
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
@@ -57,7 +57,7 @@ Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **
 
  Pour désactiver l’enregistrement des détails des appels, attribuez au paramètre EnableCDR la valeur False ($False). Cette désactivation n’a pas pour effet de désinstaller la surveillance ; il interrompt la collecte et le stockage des données d’enregistrement des détails des appels.
 
-  ```
+  ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -65,7 +65,7 @@ Vous pouvez activer le CDR à l’aide de Windows PowerShell et de l’applet **
 
  Cette commande active l’enregistrement des détails des appels pour tous les paramètres de configuration de l’enregistrement des détails des appels utilisés dans votre organisation.
 
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 

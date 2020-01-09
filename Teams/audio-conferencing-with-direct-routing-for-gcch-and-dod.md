@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Découvrez comment utiliser les fonctionnalités d’audioconférence avec le routage direct dans les environnements GCCH et DoD.
-ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516734"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992894"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconférence avec routage direct pour GCC High et DoD
 
@@ -64,12 +64,12 @@ Les numéros de téléphone à composer sont les numéros de téléphone associ�
 
 Vous pouvez utiliser l’applet de demande PowerShell New-csHybridTelephoneNumber pour définir des numéros de téléphone de service dans votre client, qui peuvent être utilisés pour acheminer les appels vers le service de visioconférence via le routage direct. 
 
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 Par exemple :
-  ```
+  ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
   ```
 
@@ -77,13 +77,13 @@ Par exemple :
 
 Vous pouvez affecter des numéros de service à votre pont de conférence audio de votre organisation à l’aide de l’applet de méthode PowerShell Register-Csonlinedialinconferencingservicenumberhttp.
 
-  ```
+  ```PowerShell
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
 Vous pouvez voir l’ID de votre pont de conférence audio à l’aide de Get-CsOnlineDialInConferencingBridge. Par exemple :
 
-  ```
+  ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```

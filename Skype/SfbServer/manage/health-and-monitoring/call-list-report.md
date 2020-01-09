@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Résumé: en savoir plus sur l’application Response Group dans Skype entreprise Server.'
-ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’application Response Group dans Skype entreprise Server.'
+ms.openlocfilehash: 2d372f7b57909ee2b926dbf0a8333df5904df0c3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289335"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992059"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport de liste des appels de Response Group dans Skype entreprise Server
 
-**Résumé:** En savoir plus sur l’application Response Group dans Skype entreprise Server.
+**Résumé :** En savoir plus sur l’application Response Group dans Skype entreprise Server.
 
 L’application Response Group permet à Skype entreprise Server de répondre aux appels téléphoniques et de les acheminer en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone de votre support technique, Skype entreprise Server peut automatiquement diriger l’appel vers le premier agent de support technique disponible. Par ailleurs, Skype entreprise Server peut poser une série de questions (en appuyant sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Tapez 3 Si vous rencontrez des problèmes de réseau. puis Routez l’appel vers l’agent de support technique le plus approprié en fonction de la réponse à ces questions.
 
@@ -67,7 +67,7 @@ Si vous souhaitez obtenir la réponse à une question telle que « Quel est le 
 
 Par exemple, si vous avez enregistré les données dans un fichier nommé C:\Data\Response_Group_Call_List_Report.csv, vous pouvez utiliser la commande suivante pour renvoyer le nombre total d’appels reçus pour chaque flux de travail mentionné dans le rapport :
 
-```
+```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Découvrez comment créer et gérer les plans de numérotation des appels RTC et comment les gérer.
-ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: c9623073cd5660a67bc2ba77b9c07a356d636520
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069435"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991659"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -92,7 +92,7 @@ Pour en savoir plus, voir [se connecter à tous les services Office 365 dans une
     > Vous devez seulement exécuter la commande **Import-Module** la première fois que vous utilisez le module Windows PowerShell pour Skype Entreprise Online.
   
 
-    ```
+    ```PowerShell
     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
@@ -107,7 +107,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 
 - Pour créer un plan de numérotation, exécutez :
     
-  ```
+  ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
@@ -115,7 +115,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     
 - Pour modifier les paramètres d’un plan de numérotation existant, exécutez :
     
-  ```
+  ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
@@ -124,7 +124,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     
 - Pour ajouter des utilisateurs à un plan de numérotation, exécutez :
     
-  ```
+  ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
@@ -132,7 +132,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     
 - Pour afficher les paramètres d’un plan de numérotation, exécutez :
     
-  ```
+  ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
@@ -140,7 +140,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     
 - Pour supprimer un plan de numérotation, exécutez :
     
-  ```
+  ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
@@ -148,7 +148,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     
 - Pour afficher les paramètres du plan de numérotation efficace, exécutez :
     
-  ```
+  ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
@@ -156,7 +156,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
     
 - Pour tester les paramètres efficaces d’un plan de numérotation, exécutez :
     
-  ```
+  ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
@@ -165,7 +165,7 @@ Vous pouvez utiliser une cmdlet unique ou un script PowerShell pour créer et g�
 #### <a name="using-a-powershell-script"></a>Utilisation d’un script PowerShell
 
 Exécutez l’opération suivante pour supprimer une règle de normalisation associée à un plan de numérotation client sans avoir à supprimer d’abord le plan de numérotation client :
-```
+```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 (Get-CsTenantDialPlan -Identity RedmondDialPlan).NormalizationRules
@@ -173,19 +173,19 @@ $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
 Exécutez l’outil pour ajouter la règle de normalisation suivante au plan de numérotation client existant nommé RedmondDialPlan.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
 Exécutez cette commande pour supprimer la règle de normalisation suivante du plan de numérotation client existant nommé RedmondDialPlan.
-```
+```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
 Exécutez la commande suivante lorsque vous voulez également examiner les règles de normalisation existantes, déterminer celle que vous voulez supprimer, puis utiliser son index pour la supprimer. Le tableau de règles de normalisation commence par l’index 0. Nous voulons supprimer la règle de normalisation à 3 chiffres, afin qu’il s’agit de l’index 1.
   
-```
+```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
 Description         : 4-digit
 Pattern             : ^(\\d{4})$
@@ -205,12 +205,12 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 
 Exécutez l’outil pour rechercher tous les utilisateurs disposant d’un plan de numérotation client RedmondDialPlan.
   
-```
+```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
 Exécutez cette opération pour supprimer les TenantDialPlan attribués de tous les utilisateurs disposant d’un HostingProvider de sipfed.online.lync.com.
-```
+```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
@@ -218,7 +218,7 @@ Exécutez ces derniers pour ajouter le plan de numérotation local existant inti
   
 Exécutez cet enregistrement pour enregistrer le plan de numérotation local au fichier. Xml.
   
-```
+```PowerShell
 $DPName = "OPDP1"
 $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
@@ -226,7 +226,7 @@ Get-CsDialplan $DPName | Export-Clixml $DPFileName
 
 Exécutez cette opération pour créer le plan de numérotation client.
   
-```
+```PowerShell
 $DPFileName = "dialplan.xml"
 $dp = Import-Clixml $DPFileName
 $NormRules = @()

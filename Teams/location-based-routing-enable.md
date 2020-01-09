@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 615848be1f91f80b0afd06c1eaa44a4f9d7b4f63
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 48fbd1477194b7523b65ec527686b7304f0c37b2
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615794"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992019"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -39,16 +39,16 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 
 1. Utilisez l’applet de commande [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) pour définir les utilisations PSTN. Pour les utilisations multiples, séparez chaque utilisation par une virgule.
 
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
     Par exemple :
-    ```
+    ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
 2. Utilisez l’applet de commande [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) pour créer une stratégie de routage vocal et associer l’utilisateur aux utilisations RTC appropriées.
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
     ```
     
@@ -58,7 +58,7 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 
     Dans cet exemple, nous créons deux nouvelles stratégies de routage vocal et affectons des utilisations PSTN. 
 
-    ```
+    ```PowerShell
     New-CsOnlineVoiceRoutingPolicy -Identity "DelhiVoiceRoutingPolicy" -Description "Delhi voice routing policy" -OnlinePstnUsages "Long Distance" 
     New-CsOnlineVoiceRoutingPolicy -Identity "HyderabadVoiceRoutingPolicy" -Description " Hyderabad voice routing policy" -OnlinePstnUsages "Long Distance", "Local", "Internal" 
     ```
@@ -70,18 +70,18 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
     |Utilisations RTC en ligne  |Longue distance  |Longue distance, local, interne  |
 
 3. Utilisez l’applet de contrôle [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) pour associer des stratégies de routage vocal en ligne aux utilisateurs qui ont besoin de restrictions de routage.
-    ```
+    ```PowerShell
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>Activer le routage par emplacement pour les sites réseau
 1.  Utilisez l’applet de connexion [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer le routage par emplacement et associer des stratégies de routage de messagerie à vos sites réseau qui doivent appliquer des restrictions de routage.
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     Dans cet exemple, nous activons le routage en fonction de l’emplacement pour le site de Delhi et le site Hyderabad. 
 
-    ```
+    ```PowerShell
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
@@ -96,13 +96,13 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 ## <a name="enable-location-based-routing-for-gateways"></a>Activer le routage basé sur l’emplacement pour les passerelles
 1. Utilisez l’applet de nouvelle applet de [CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) pour créer une configuration de passerelle pour chaque passerelle ou site réseau. 
 
-    ```
+    ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
     ```
     Si plusieurs passerelles sont associées à un système (par exemple, passerelle ou PBX), modifiez chaque passerelle pour activer les restrictions de routage basées sur l’emplacement. 
 
     Dans cet exemple, nous créons une configuration de passerelle pour chaque passerelle. 
-    ```
+    ```PowerShell
     New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Pour plus d’informations, consultez [configurer le routage direct](direct-routing-configure.md).
@@ -111,18 +111,18 @@ Cet article explique comment activer le routage sur la base de l’emplacement p
 
     Activez le routage par emplacement vers des passerelles qui acheminent les appels vers les passerelles RTC qui routent les appels vers le RTC et associez le site réseau où se trouve la passerelle.
 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
     Dans cet exemple, nous activons le routage en fonction de l’emplacement pour chaque passerelle associée aux passerelles RTC dans les sites Delhi et Hyderabad. 
-    ```
+    ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
     ```
     N’activez pas le routage basé sur l’emplacement pour les passerelles qui ne routent pas les appels vers le RTC. Toutefois, vous devez toujours associer la passerelle au site réseau où se trouve le système. En effet, les restrictions de routage basées sur l’emplacement doivent être appliquées pour les appels RTC atteignant des points de terminaison qui sont connectés par le biais de cette passerelle. Dans cet exemple, le routage basé sur l’emplacement n’est pas activé pour chaque passerelle associée aux systèmes PBX dans les sites Delhi et Hyderabad.
 
-    ```
+    ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 
  
     Identity: sbc.contoso.com 
@@ -151,12 +151,12 @@ Pour appliquer le routage de géolocalisation pour des utilisateurs spécifiques
 
 Utilisez l’applet de passe [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) pour activer le routage géolocalisation en prévenant le contournement du numéro RTC.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 Dans cet exemple, nous empêcherons le contournement du numéro de téléphone PSTN aux politiques d’appel de la fonction utilisateur1. 
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 

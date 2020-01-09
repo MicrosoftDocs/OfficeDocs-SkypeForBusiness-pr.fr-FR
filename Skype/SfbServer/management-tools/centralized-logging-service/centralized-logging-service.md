@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
-description: 'Résumé: en savoir plus sur les composants et les paramètres de configuration du service de journalisation centralisé dans Skype entreprise Server 2015.'
-ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur les composants et les paramètres de configuration du service de journalisation centralisé dans Skype entreprise Server 2015.'
+ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274512"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992601"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée pour Skype Entreprise 2015
  
-**Résumé:** En savoir plus sur les composants de service et les paramètres de configuration pour le service de journalisation centralisé dans Skype entreprise Server 2015.
+**Résumé :** En savoir plus sur les composants de service et les paramètres de configuration pour le service de journalisation centralisé dans Skype entreprise Server 2015.
   
-Le service de journalisation centralisé peut: 
+Le service de journalisation centralisé peut : 
   
 - Démarrez ou arrêtez la journalisation sur un ou plusieurs ordinateurs et pools avec une seule commande à partir d’un emplacement centralisé.
     
@@ -36,17 +36,17 @@ Le service de journalisation centralisé peut:
   - Utiliser un fournisseur existant ou créer un nouveau fournisseur. Aprovider définit ce que la session de journalisation collecte, le niveau de détail, les composants à suivre et les indicateurs appliqués.
     
     > [!TIP]
-    >  Si vous avez l’habitude d’utiliser OCSLogger, termproviders fait référence à la collection de **composants** (par exemple, S4, SIPStack), un **type** de journalisation (par exemple, WPP, EventLog ou journal d’information d’IIS), un **niveau de suivi** (par exemple, tous, détaillé, débogage) et **indicateurs** (par exemple, TF_COMPONENT, TF_DIAG). Ces éléments sont définis dans le fournisseur (une variable Windows PowerShell) et transférés dans la commande service de journalisation centralisée.
+    >  Si vous avez l’habitude d’utiliser OCSLogger, termproviders fait référence à la collection de **composants** (par exemple, S4, SIPStack), un **type de journalisation** (par exemple, WPP, EventLog ou journal d’information d’IIS), un **niveau de suivi** (par exemple, tous, détaillés, débogage) et des **indicateurs** (par exemple, TF_COMPONENT TF_DIAG). Ces éléments sont définis dans le fournisseur (une variable Windows PowerShell) et transférés dans la commande service de journalisation centralisée.
   
   - Configurez les journaux pour des ordinateurs et des groupes spécifiques.
     
   - Définir lʼétendue de la session de journalisation à partir des options **Site** (pour exécuter des captures de journalisation sur des ordinateurs de ce site uniquement), ou **Global** (pour exécuter des captures de journalisation sur tous les ordinateurs du déploiement).
     
-Le service de journalisation centralisé est un outil puissant qui vous permet de résoudre les problèmes de performances, d’une analyse de cause racine aux problèmes de performances. Tous les exemples sont affichés avec Skype entreprise Server Management Shell. Vous pouvez obtenir de l’aide pour l’outil de ligne de commande par le biais de l’outil proprement dit, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. L’utilisation de Skype entreprise Server Management Shell vous permet d’accéder à un ensemble de fonctionnalités plus volumineux et beaucoup plus configurable; il devrait donc toujours s’avérer votre premier choix. 
+Le service de journalisation centralisé est un outil puissant qui vous permet de résoudre les problèmes de performances, d’une analyse de cause racine aux problèmes de performances. Tous les exemples sont affichés avec Skype entreprise Server Management Shell. Vous pouvez obtenir de l’aide pour l’outil de ligne de commande par le biais de l’outil proprement dit, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. L’utilisation de Skype entreprise Server Management Shell vous permet d’accéder à un ensemble de fonctionnalités plus volumineux et beaucoup plus configurable ; il devrait donc toujours s’avérer votre premier choix. 
   
 ## <a name="logging-service-components"></a>Composants du service de journalisation
 
- Le service de journalisation centralisé s’exécute sur tous les serveurs dans votre déploiement et est constitué des agents et services suivants:
+ Le service de journalisation centralisé s’exécute sur tous les serveurs dans votre déploiement et est constitué des agents et services suivants :
   
 - Le ClsAgent agent de connexion centralisé s’exécute sur tous les ordinateurs sur lesquels Skype entreprise Server est déployé. Il écoute (sur les ports **TCP 50001-50003**) les commandes de CLSCONTROLLER sur WCF et renvoie les réponses au contrôleur. Il gère les sessions du journal (Démarrer/arrêter/mettre à jour), ainsi que les journaux de recherche. Il exécute également des opérations de nettoyage telles que lʼarchivage et la purge de journaux. 
     
@@ -65,7 +65,7 @@ ClsAgent maintient un fichier d’index de tous les fichiers .CACHE dont il disp
   
 Les fichiers journaux résultants peuvent être lus et analysés à l’aide de divers outils, notamment **Snooper.exe** et tout outil capable de lire un fichier texte, tel que **Notepad.exe**. Snooper. exe fait partie des outils de débogage de Skype entreprise Server 2015 et est disponible en [Téléchargement](https://go.microsoft.com/fwlink/p/?LinkId=285257)sur le Web.
   
-Comme OCSLogger, le service de journalisation centralisé dispose de plusieurs composants à suivre, et fournit des options permettant de sélectionner des indicateurs, tels que TF_COMPONENT et TF_DIAG. Le service de journalisation centralisé conserve également les options de niveau de journalisation de OCSLogger.
+Comme OCSLogger, le service de journalisation centralisé dispose de plusieurs composants à suivre, et fournit des options permettant de sélectionner des indicateurs, tels que les TF_COMPONENT et les TF_DIAG. Le service de journalisation centralisé conserve également les options de niveau de journalisation de OCSLogger.
   
 L’avantage le plus important de l’utilisation de Skype entreprise Server Management Shell par le biais de l’interface de ligne de commande ClsController est que vous pouvez configurer et définir de nouveaux scénarios à l’aide de fournisseurs sélectionnés qui ciblent l’espace problématique, les indicateurs personnalisés et les niveaux de connexion. Les scénarios accessibles à ClsController se limitent à ceux définis pour l’exécutable.
   
@@ -91,16 +91,16 @@ Le service de journalisation centralisé est configuré pour définir ce que le 
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>Pour afficher la configuration actuelle du service de journalisation centralisée
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Tapez ce qui suit dans une invite de ligne de commande :
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
     > [!TIP]
-    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration renvoyés par la définition `-Identity` et une étendue, par exemple, «site: Redmond» pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez canaler la sortie dans une autre applet de cmdlet Windows PowerShell. Par exemple, pour obtenir des informations sur les scénarios définis dans la configuration du site «Redmond», tapez:`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Vous pouvez réduire ou développer l’étendue des paramètres de configuration renvoyés par la définition `-Identity` et une étendue, par exemple, « site : Redmond » pour renvoyer uniquement le CsClsConfiguration pour le site Redmond. Si vous souhaitez obtenir des détails sur une partie donnée de la configuration, vous pouvez canaler la sortie dans une autre applet de cmdlet Windows PowerShell. Par exemple, pour obtenir des informations sur les scénarios définis dans la configuration du site « Redmond », tapez :`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Exemple de sortie de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Résumé: Découvrez comment gérer les numéros d’accès à une conférence rendez-vous dans Skype entreprise Server.'
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment gérer les numéros d’accès à une conférence rendez-vous dans Skype entreprise Server.'
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289033"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991919"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gestion des numéros d’accès pour les conférences rendez-vous dans Skype entreprise Server
  
-**Résumé:** Découvrez comment gérer les numéros d’accès à une conférence rendez-vous dans Skype entreprise Server.
+**Résumé :** Découvrez comment gérer les numéros d’accès à une conférence rendez-vous dans Skype entreprise Server.
   
 Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros s’affichent dans les invitations à une réunion et sur la page web des paramètres de configuration des conférences rendez-vous. 
   
@@ -45,9 +45,9 @@ Vous pouvez afficher les numéros d’accès à une conférence rendez-vous à l
 
 Pour afficher des informations sur des numéros d’accès à des conférences rendez-vous, utilisez l’applet de commande **Get-Cs DialInConferencingAccessNumber**.
   
-La commande suivante renvoie une collection de tous les numéros d’accès à une conférence rendez-vous configurés pour une utilisation au sein de l’Organisation: 
+La commande suivante renvoie une collection de tous les numéros d’accès à une conférence rendez-vous configurés pour une utilisation au sein de l’Organisation : 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Pour modifier des numéros d’accès aux conférences rendez-vous, utilisez l�
   
 La commande ci-dessous modifie la propriété DisplayName pour le numéro d’accès de conférence rendez-vous avec la propriété Identity sip:RedmondDialIn@litwareinc.com. Dans cet exemple, le nom complet est défini sur « Redmond Dial-In Access Number » :
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 Dans l’exemple ci-dessous, le numéro d’accès de conférence rendez-vous avec la propriété Identity sip:RedmondDialIn@litwareinc.com est modifié pour inclure deux régions : Redmond et Seattle. Pour cela, le paramètre Region est appelé, suivi des deux régions (deux valeurs de chaînes séparées par une virgule). Notez que cette commande échouera si les deux régions, Redmond et Seattle, ne sont pas déjà définies dans des plans de numérotation.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Pour supprimer un numéro d’accès de conférence rendez-vous, utilisez l’ap
   
 La commande ci-dessous permet de supprimer le numéro d’accès de conférence rendez-vous doté de l’ID sip:RedmondDialInAccess@litwareinc.com :
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 La commande ci-dessous permet de supprimer tous les numéros d’accès de conférence rendez-vous associés à la région Northwest :
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 La commande ci-dessous permet de supprimer tous les numéros d’accès de conférence rendez-vous où l’italien est la langue principale :
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

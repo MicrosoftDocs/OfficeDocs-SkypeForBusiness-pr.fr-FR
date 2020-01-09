@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Résumé: définissez le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.'
-ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : définissez le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.'
+ms.openlocfilehash: 83d1aae54d6e8be4f31b5bd27b6a568d6d88db1e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297581"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992281"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Définir le code confidentiel de conférence rendez-vous d’un utilisateur dans Skype entreprise Server
  
-**Résumé:** Définissez le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.
+**Résumé :** Définissez le code confidentiel de conférence rendez-vous d’un utilisateur pour Skype entreprise Server.
   
 Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur de Skype entreprise Server avec des informations d’identification de services de domaine Active Directory (AD DS) nécessite un code confidentiel (PIN). Si un utilisateur oublie le code confidentiel de conférence rendez-vous ou n’a pas défini le code confidentiel à l’aide de Skype entreprise Server, vous pouvez définir le code confidentiel de l’utilisateur dans le panneau de configuration Skype entreprise Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
   
@@ -79,13 +79,13 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Attribution d’un code confidentiel utilisateur à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server. 
+Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server. 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Affectation automatique d’un code confidentiel à un utilisateur
 
 La commande ci-dessous affecte un code confidentiel à l’utilisateur Ken Myer. Dans la mesure où le paramètre code confidentiel n’est pas inclus, Skype entreprise Server génère et affecte automatiquement le numéro de broche.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
@@ -93,7 +93,7 @@ La commande ci-dessous affecte un code confidentiel à l’utilisateur Ken Myer.
 
 Cette commande utilise le paramètre de code confidentiel pour affecter le code confidentiel 121989 à l’utilisateur Ken Myer.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 

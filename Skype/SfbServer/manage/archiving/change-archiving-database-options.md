@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 'Résumé: Découvrez comment modifier les options de base de données d’archivage de Skype entreprise Server.'
-ms.openlocfilehash: 56aa29ef185176ce3b080572723c566455731dc4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment modifier les options de base de données d’archivage de Skype entreprise Server.'
+ms.openlocfilehash: 3e7ae30e012464b6d1f72e323dd60ad397e7430d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299985"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992761"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Modification des options de base de données d’archivage dans Skype entreprise Server
 
-**Résumé:** Découvrez comment modifier les options de base de données d’archivage de Skype entreprise Server.
+**Résumé :** Découvrez comment modifier les options de base de données d’archivage de Skype entreprise Server.
   
-Si vous déployez l’archivage à l’aide du stockage SQL Server pour l’archivage pour l’un de vos utilisateurs, vous pouvez effectuer les modifications suivantes du stockage de la base de données:
+Si vous déployez l’archivage à l’aide du stockage SQL Server pour l’archivage pour l’un de vos utilisateurs, vous pouvez effectuer les modifications suivantes du stockage de la base de données :
   
 - Utilisez une autre base de données SQL Server pour l’archivage du stockage. Il s’agit de la base de données d’archivage principale et de la base de données que vous utilisez pour la mise en miroir SQL Server.
     
@@ -34,7 +34,7 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
 1. Sur un ordinateur exécutant Skype entreprise Server ou sur lequel sont installés les outils d’administration de Skype entreprise Server, connectez-vous à l’aide d’un compte membre du groupe utilisateurs locaux (ou d’un compte possédant des droits d’utilisateur similaires).
     
     > [!NOTE]
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un composant à la topologie, vous devez utiliser un compte membre du groupe **administrateurs de domaine** et de la **RTCUniversalSer. verAdmins** et qui dispose des autorisations de contrôle total (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le stockage de fichiers Skype entreprise Server (c’est-à-dire que le générateur de topologie peut configurer le contrôle d’accès discrétionnaire requis des listes (DACL) ou un compte avec des droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe utilisateurs locaux, mais pour publier une topologie, qui est nécessaire pour ajouter un composant à la topologie. vous devez utiliser un compte membre du groupe **administrateurs de domaine** et du groupe **RTCUniversalServerAdmins** et ayant les autorisations contrôle total (lecture, écriture et modification) sur le partage de fichiers que vous utilisez pour le stockage de fichiers Skype entreprise Server (autrement dit, le générateur de topologie peut configurer le contrôle d’accès discrétionnaire requis). des listes (DACL) ou un compte avec des droits équivalents.
   
 2. Démarrer le générateur de topologie.
     
@@ -56,7 +56,7 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
     
      - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser.
     
-     - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit:
+     - Pour spécifier un nouveau SQL Server Store, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , procédez comme suit :
     
        - Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau SQL Server Store.
     
@@ -66,9 +66,9 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
     
    - Pour ajouter le magasin SQL Server ou choisir un autre magasin SQL Server existant pour la mise en miroir, sélectionnez **Activer la mise en miroir du magasin SQL Server**, puis procédez comme suit :
     
-     - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante archivage de **SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
+     - Pour utiliser un magasin SQL Server existant pour la mise en miroir, dans la zone de liste déroulante **archivage de SQL Server Store** , cliquez sur le nom du magasin SQL Server que vous voulez utiliser pour la mise en miroir.
     
-     - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes:
+     - Pour spécifier un nouveau magasin SQL Server pour la mise en miroir, cliquez sur **nouveau**puis, dans la boîte de dialogue **définir un nouveau SQL Server Store** , effectuez l’une des opérations suivantes :
     
        a. Dans **nom de domaine complet SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur SQL sur lequel vous souhaitez créer le nouveau SQL Server Store.
     
@@ -76,7 +76,7 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
     
        c. Si l’instance SQL Server spécifiée se trouve dans une relation de mise en miroir, activez la case à cocher **cette instance SQL est dans une relation en miroir** , puis, dans numéro de port **en miroir**, spécifiez le numéro de port.
     
-   - Si vous activez la mise en miroir SQL Server et voulez ajouter ou modifier un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server principal et des instances miroir), sélectionnez le **témoin de mise en miroir SQL Server. activez l’option reprise automatique** , puis effectuez l’une des opérations suivantes:
+   - Si vous activez la mise en miroir SQL Server et voulez ajouter ou modifier un témoin de mise en miroir SQL Server (troisième instance SQL Server distincte capable de détecter l’état du serveur SQL Server principal et des instances miroir), activez la case à cocher **utiliser le témoin de mise en miroir SQL Server pour activer le basculement automatique** , puis effectuez l’une des opérations suivantes :
     
       a. Dans **FQDN SQL Server**, spécifiez le nom de domaine complet (FQDN) du serveur sur lequel vous souhaitez créer le nouveau témoin de mise en miroir SQL Server.
     
@@ -98,9 +98,9 @@ Pour effectuer l’une de ces modifications, vous devez exécuter le générateu
 
 Dans la plupart des cas, vous n’aurez pas à changer l’emplacement de cette base de données d’archivage qui est indiqué lorsque vous installez le serveur d’archivage. Cependant, en cas de panne matérielle ou d’un autre problème, vous pouvez faire pointer le serveur d’archivage sur une nouvelle base de données à l’aide de l’applet de commande **Set-CsArchivingServer**.
   
-Dans l’exemple suivant, l’emplacement de la base de données d’archivage du serveur d’archivage ArchivingServer: ATL-CS-001.contoso.com est modifié. Dans cet exemple, la nouvelle base de données se trouve sur ArchivingDatabase:atl-sql-001.contoso.com :
+Dans l’exemple suivant, l’emplacement de la base de données d’archivage du serveur d’archivage ArchivingServer : ATL-CS-001.contoso.com est modifié. Dans cet exemple, la nouvelle base de données se trouve sur ArchivingDatabase:atl-sql-001.contoso.com :
   
-```
+```PowerShell
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"
 ```
 

@@ -9,13 +9,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: 'Résumé: Découvrez comment ajouter des bases de données Skype entreprise Server à un groupe de disponibilité AlwaysOn existant et en savoir plus sur les étapes supplémentaires nécessaires après le correctif ou la mise à niveau d’un serveur principal qui fait partie d’un groupe de disponibilité AlwaysOn dans Skype pour Business Server.'
-ms.openlocfilehash: c6d8877448a68aa2331f3c290170418f6dca08ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment ajouter des bases de données Skype entreprise Server à un groupe de disponibilité AlwaysOn existant et en savoir plus sur les étapes supplémentaires nécessaires après le correctif ou la mise à niveau d’un serveur principal qui fait partie d’un groupe de disponibilité AlwaysOn dans Skype pour Business Server.'
+ms.openlocfilehash: 221964eb7d8dfcbb0303a0e1148de4fcef6cec51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275184"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991539"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Gérer des bases de données à l’aide d’un groupe de disponibilité AlwaysOn dans Skype entreprise Server
 
@@ -43,9 +43,9 @@ Après avoir corrigé un serveur principal qui fait partie d’un groupe de disp
 
 1. Installez la mise à jour sur votre serveur ou vos serveurs Skype entreprise.
     
-2. Exécutez la commande PowerShell suivante dans votre shell de gestion de Skype entreprise (connectez-vous à l’aide d’un compte qui a été approprié pour appliquer les modifications aux bases de données SQL AlwaysOn) comme suit:
+2. Exécutez la commande PowerShell suivante dans votre shell de gestion de Skype entreprise (connectez-vous à l’aide d’un compte qui a été approprié pour appliquer les modifications aux bases de données SQL AlwaysOn) comme suit :
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 

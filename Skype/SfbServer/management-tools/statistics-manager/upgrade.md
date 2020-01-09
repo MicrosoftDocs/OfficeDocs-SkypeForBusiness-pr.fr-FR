@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Résumé: cette rubrique vous explique comment mettre à niveau le gestionnaire de statistiques pour Skype entreprise Server.'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : cette rubrique vous explique comment mettre à niveau le gestionnaire de statistiques pour Skype entreprise Server.'
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299722"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992501"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du gestionnaire de statistiques pour Skype Entreprise Server
  
-**Résumé:** Pour plus d’informations sur la mise à niveau du gestionnaire de statistiques pour Skype entreprise Server, voir la rubrique.
+**Résumé :** Pour plus d’informations sur la mise à niveau du gestionnaire de statistiques pour Skype entreprise Server, voir la rubrique.
   
 Cette rubrique décrit la mise à niveau d’une installation de Statistics Manager pour Skype entreprise Server, un outil puissant qui vous permet d’afficher les données d’intégrité et de performances de Skype entreprise Server en temps réel. Vous pouvez interroger les données de performances sur des centaines de serveurs à des intervalles de quelques secondes et afficher les résultats instantanément sur le site Web de Gestionnaire de Statistiques. 
   
@@ -50,7 +50,7 @@ Le script collecte les informations concernant votre certificat actuel ainsi que
     
 2. Ouvrez une fenêtre d’administration PowerShell. Mettez à niveau l’écouteur :
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -65,7 +65,7 @@ Le script collecte les informations concernant votre certificat actuel ainsi que
     
 4. Ouvrez une fenêtre d’administration PowerShell. Mettez à niveau le site web :
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ Le script collecte les informations concernant votre certificat actuel ainsi que
     
 8. Ouvrez une fenêtre d’administration PowerShell. Mettez à niveau l’agent :
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

@@ -13,20 +13,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Lorsque vous configurez des stratégies pour prendre en charge les communications avec les partenaires fédérés, les stratégies s’appliquent aux utilisateurs des domaines fédérés. '
-ms.openlocfilehash: 00552dfd6e2cb92d1bd50cb851bfb8324122c5ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280165"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991759"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Skype entreprise Server
 
-Lorsque vous configurez des stratégies pour prendre en charge les communications avec les partenaires fédérés, les stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs de domaines fédérés peuvent collaborer avec vos utilisateurs de Skype entreprise Server. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies aux niveaux global, site et utilisateur. Les paramètres de stratégie de Skype entreprise Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de Skype entreprise Server est le suivant: la stratégie de l’utilisateur (la plus influence) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
+Lorsque vous configurez des stratégies pour prendre en charge les communications avec les partenaires fédérés, les stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs de domaines fédérés peuvent collaborer avec vos utilisateurs de Skype entreprise Server. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies aux niveaux global, site et utilisateur. Les paramètres de stratégie de Skype entreprise Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de Skype entreprise Server est le suivant : la stratégie de l’utilisateur (la plus influence) remplace une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
 
 
 > [!NOTE]  
-> Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs fédérés, même si vous n’avez pas activé la Fédération pour votre organisation. Toutefois, les stratégies que vous configurez ne s’appliquent que lorsque la Fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la Fédération, voir [activation ou désactivation de l’accès des utilisateurs](../access-edge/enable-or-disable-remote-user-access.md)distants.  Par ailleurs, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs fédérés, la stratégie s’applique uniquement aux utilisateurs qui sont activés pour Skype entreprise Server et qui sont configurés pour utiliser cette stratégie.
+> Vous pouvez configurer des stratégies pour contrôler l’accès des utilisateurs fédérés, même si vous n’avez pas activé la Fédération pour votre organisation. Toutefois, les stratégies que vous configurez ne s’appliquent que lorsque la Fédération est activée pour votre organisation. Pour plus d’informations sur l’activation de la Fédération, voir [activation ou désactivation de l’accès des utilisateurs distants](../access-edge/enable-or-disable-remote-user-access.md).  Par ailleurs, si vous spécifiez une stratégie utilisateur pour contrôler l’accès des utilisateurs fédérés, la stratégie s’applique uniquement aux utilisateurs qui sont activés pour Skype entreprise Server et qui sont configurés pour utiliser cette stratégie.
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Pour configurer une stratégie afin de prendre en charge l’accès par des utilisateurs de domaines fédérés
@@ -37,7 +37,7 @@ Lorsque vous configurez des stratégies pour prendre en charge les communication
 
 3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
 
-4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes:
+4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes :
     
       - Pour configurer la stratégie globale de manière à prendre en charge l’accès des utilisateurs fédérés, cliquez sur la stratégie globale, cliquez sur **modifier**, puis sur **afficher les détails**.
     
@@ -65,34 +65,34 @@ S’il s’agit d’une stratégie de l’utilisateur, vous devez également app
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Skype pour entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2.  Démarrez Skype pour entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
-3.  Dans Skype entreprise Server Management Shell, tapez ce qui suit:
+3.  Dans Skype entreprise Server Management Shell, tapez ce qui suit :
     
-    ```
+    ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
     ```
        
 
     > [!TIP]  
-    > Le paramètre «EnablePublicCloudAudioVideoAccess» ne possède pas de sélection correspondante dans le panneau de configuration Skype entreprise Server
+    > Le paramètre « EnablePublicCloudAudioVideoAccess » ne possède pas de sélection correspondante dans le panneau de configuration Skype entreprise Server
 
 
 ## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour créer une stratégie à l’aide de Windows PowerShell afin de prendre en charge l’accès par les utilisateurs de domaines fédérés
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft Skype entreprise Server**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
-3.  Dans Skype entreprise Server Management Shell, tapez ce qui suit:
+3.  Dans Skype entreprise Server Management Shell, tapez ce qui suit :
     
-    ```
+    ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     ```
     
-    Exemple de création d’une nouvelle stratégie de site:
+    Exemple de création d’une nouvelle stratégie de site :
     
-    ```
+    ```PowerShell
     New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
 
@@ -105,15 +105,15 @@ S’il s’agit d’une stratégie de l’utilisateur, vous devez également app
     
     `Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>`
     
-    Voici un exemple de réinitialisation de la stratégie globale (la stratégie globale peut uniquement avoir supprimé son paramètre. La stratégie ne peut pas être supprimée):
+    Voici un exemple de réinitialisation de la stratégie globale (la stratégie globale peut uniquement avoir supprimé son paramètre. La stratégie ne peut pas être supprimée) :
     
     `Remove-CsExternalAccessPolicy -Identity global`
     
-    Pour supprimer une stratégie de site, tapez:
+    Pour supprimer une stratégie de site, tapez :
     
     `Remove-CsExternalAccessPolicy -Identity site:Redmond` 
     
-    Supprime la stratégie de site Redmond. Pour supprimer une stratégie d’utilisateur nommée UserEAPPolicy, tapez:
+    Supprime la stratégie de site Redmond. Pour supprimer une stratégie d’utilisateur nommée UserEAPPolicy, tapez :
     
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 

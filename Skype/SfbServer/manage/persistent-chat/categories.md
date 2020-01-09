@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
-description: 'Résumé: Découvrez comment gérer les catégories serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : Découvrez comment gérer les catégories serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417938"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991999"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des catégories sur un serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment gérer les catégories de serveurs de chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment gérer les catégories de serveurs de chat permanent dans Skype entreprise Server 2015.
   
 Une catégorie est une structure logique permettant d’organiser des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès (ACL) pour contrôler les utilisateurs et groupes d’utilisateurs qui peuvent créer des salles de conversation ou y participer. Les catégories de salle de conversation contiennent des salles de conversation, mais pas d’autres catégories. Chaque catégorie décrit son contenu avec des métadonnées, telles que nom et description. La catégorie dispose de propriétés qui peuvent être définies pour contrôler le comportement des salles de conversation qui en dépendent. par exemple, si les salles de conversation autorisent les invitations ou les téléchargements de fichiers ou contiennent l’historique de vos conversations. 
   
@@ -61,17 +61,17 @@ Vous pouvez configurer et gérer les catégories en utilisant le Panneau de conf
     
    - Dans **Description**, indiquez une description détaillée de la catégorie de salle (par exemple, « catégorie de salle pour Contoso »).
     
-   - Pour déterminer si les invitations peuvent être activées pour des salles de conversation qui appartiennent à cette catégorie, activez ou désactivez la case à cocher **activer** les invitations. Si cette option est sélectionnée, les salles de cette catégorie peuvent avoir des invitations activées ou désactivées; Si cette option est désactivée, les salles de cette catégorie ne peuvent pas avoir d’invitations. Si une salle est dotée d’invitations à l’ajout d’un nouveau membre, ce dernier reçoit une notification de la nouvelle salle dans le client de chat permanent.
+   - Pour déterminer si les invitations peuvent être activées pour des salles de conversation qui appartiennent à cette catégorie, activez ou désactivez la case à cocher **activer les invitations** . Si cette option est sélectionnée, les salles de cette catégorie peuvent avoir des invitations activées ou désactivées ; Si cette option est désactivée, les salles de cette catégorie ne peuvent pas avoir d’invitations. Si une salle est dotée d’invitations à l’ajout d’un nouveau membre, ce dernier reçoit une notification de la nouvelle salle dans le client de chat permanent.
     
    - Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si elle est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
     
-   - Pour contrôler l’historique des conversations, cochez ou décochez la case **activer l’historique des conversations** . Si cette option est sélectionnée, les conversations de la salle deviennent permanentes; dans le cas contraire, les messages ne sont pas conservés. Si la conformité est activée, les discussions sur place seront enregistrées en conformité, mais les utilisateurs ne seront pas en mesure d’accéder à d’anciens messages. Cette option peut être utilisée pour les salles destinées à des réunions ad hoc en temps réel, qui n’ont pas besoin de l’historique des discussions pour être persistants.
+   - Pour contrôler l’historique des conversations, cochez ou décochez la case **activer l’historique des conversations** . Si cette option est sélectionnée, les conversations de la salle deviennent permanentes ; dans le cas contraire, les messages ne sont pas conservés. Si la conformité est activée, les discussions sur place seront enregistrées en conformité, mais les utilisateurs ne seront pas en mesure d’accéder à d’anciens messages. Cette option peut être utilisée pour les salles destinées à des réunions ad hoc en temps réel, qui n’ont pas besoin de l’historique des discussions pour être persistants.
     
 7. Dans **Modifier la catégorie**, procédez comme suit :
     
-   - Dans **appartenance**, dans la section **membres autorisés** , ajoutez ou supprimez des utilisateurs et d’autres principaux services de domaine Active Directory (utilisateurs, groupes de distribution, unités organisationnelles, etc.) qui sont autorisés à être ajoutés en tant que membres de salles de conversation. appartenant à la catégorie. Les principaux autorisés par une catégorie peuvent rechercher les salles dans la catégorie (sauf si la salle est masquée ; dans ce cas, seuls les membres de la salle peuvent la rechercher dans l’annuaire).
+   - Dans **appartenance**, dans la section **membres autorisés** , ajoutez ou supprimez des utilisateurs et d’autres principaux services de domaine Active Directory (utilisateurs, groupes de distribution, unités d’organisation, etc.) qui sont autorisés à être ajoutés en tant que membres de salles de conversation appartenant à la catégorie. Les principaux autorisés par une catégorie peuvent rechercher les salles dans la catégorie (sauf si la salle est masquée ; dans ce cas, seuls les membres de la salle peuvent la rechercher dans l’annuaire).
     
-   - Dans **appartenance**(membership), dans la section **membres refusés** , ajoutez ou supprimez des utilisateurs et d’autres entités Active Directory associées aux membres refusés à partir de la salle.
+   - Dans **appartenance (membership**), dans la section **membres refusés** , ajoutez ou supprimez des utilisateurs et d’autres entités Active Directory associées aux membres refusés à partir de la salle.
     
    - Dans **appartenance**, dans la section **créateurs** , ajoutez ou supprimez des utilisateurs et d’autres entités Active Directory associées à des créateurs pour la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
     
@@ -109,7 +109,7 @@ Pour des informations complètes sur la syntaxe des applets de commande, notamme
 
 Vous pouvez créer une nouvelle catégorie en utilisant l’applet de commande **New-CsPersistentChatCategory**. Par exemple, la commande suivante crée une nouvelle catégorie nommée HelpDesk dans le pool atl-cs-001.contoso.com. Dans cet exemple, le chargement de fichiers est autorisé :
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -117,9 +117,9 @@ New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-00
 
 Vous pouvez configurer une catégorie existante en utilisant l’applet de commande **Set-CsPersistentCategory**.
   
-Par exemple, la commande suivante spécifie que User1 est un AllowedMember et un créateur, alors que Utilisateur2 ne peut pas accéder aux salles de la catégorie:
+Par exemple, la commande suivante spécifie que User1 est un AllowedMember et un créateur, alors que Utilisateur2 ne peut pas accéder aux salles de la catégorie :
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 Vous pouvez obtenir des informations sur les catégories en utilisant l’applet de commande **Get-CsPersistentChatCategory**. Par exemple, la commande suivante retourne des informations pour toutes les catégories de conversation permanente de l’organisation :
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 Vous pouvez supprimer une catégorie en utilisant l’applet de commande **Remove-CsPersistentChatCategory**. Avant de supprimer une catégorie, vous devez soit supprimer toutes les salles de conversation qui en dépendent, soit déplacer les salles de conversation vers une nouvelle catégorie. Par exemple, la commande suivante supprime la catégorie ayant l’identité « atl-cs-001.contoso.com\helpdesk » :
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

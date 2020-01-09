@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Après avoir supprimé un pool frontal ou reconfiguré le pool pour utiliser une autre base de données, vous pouvez supprimer les bases de données SQL Server qui ont hébergé les données du pool. Utilisez les procédures suivantes pour supprimer les définitions du générateur de topologie, puis supprimez la base de données et les fichiers journaux du serveur de base de données.
-ms.openlocfilehash: d22a90401bdfa4a2897a18805e8b9c588892c5fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f26cf1f93abb8538c068a4ab2d6f81c9c36d759d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241562"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989089"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Suppression de la base de données SQL Server pour un pool frontal
 
@@ -34,17 +34,17 @@ Après avoir supprimé un pool frontal ou reconfiguré le pool pour utiliser une
     
 2. Ouvrez Skype entreprise Server Management Shell.
     
-3. Pour supprimer la base de données du magasin utilisateur de la liste, tapez:
+3. Pour supprimer la base de données du magasin utilisateur de la liste, tapez :
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
     Où _ \<FQDN\> _ est le nom de domaine complet (FQDN) du serveur de base de données _ \<et\> l’instance_ est l’instance de base de données nommée (autrement dit, le cas échéant). 
     
-4. Pour supprimer la base de données du magasin d’applications de réserve, tapez:
+4. Pour supprimer la base de données du magasin d’applications de réserve, tapez :
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

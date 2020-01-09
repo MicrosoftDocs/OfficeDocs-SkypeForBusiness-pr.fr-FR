@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 4a14c7cbca85be266347cd6777ea1108cc63d065
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231255"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992841"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Déplacer vos équipes Microsoft StaffHub vers des équipes dans Microsoft teams
 
@@ -112,7 +112,7 @@ Ces utilisateurs ont des comptes inactifs et indiquent l’état d’utilisateur
 
 Pour obtenir la liste de tous les comptes inactifs dans StaffHub Teams, exécutez les commandes suivantes, puis exportez la liste dans un fichier CSV. Chaque commande doit être exécutée séparément.
 
-```
+```PowerShell
 $InvitedUsersObject = @()
 
 $StaffHubTeams = Get-StaffHubTeamsForTenant
@@ -190,18 +190,18 @@ Pour déplacer une équipe StaffHub à la fois, procédez comme suit. Nous recom
 
 Exécutez la commande suivante pour déplacer une équipe StaffHub.
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
 Example
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 Voici un exemple de réponse que vous obtenez lorsque vous envoyez une demande de migration d’une équipe StaffHub vers Teams.
 
-```
+```output
  jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ---------------------------------------    ----------------------------------------    ---------------------------          
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
@@ -209,18 +209,18 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c070847
 
 Pour vérifier l’état d’une demande de déplacement, exécutez la commande suivante.
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
 Example
 
-```
+```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
 ```
 
 Voici un exemple de réponse que vous obtenez lorsqu’un déplacement est en cours.
 
-```
+```output
 jobId                                     status       teamId                                     isO365GroupCreated  Error
 ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
 JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
@@ -240,13 +240,13 @@ Téléchargez et installez [SharePoint Online Management Shell](https://www.micr
 
 Utilisez l’applet de [connexion Connect-PnPOnline](https://docs.microsoft.com/powershell/module/sharepoint-pnp/connect-pnponline?view=sharepoint-ps) pour vous connecter au site d’équipe SharePoint Online.
 
-```
+```PowerShell
 Connect-PnPOnline -Url https://<sharepoint URL>/sites/<Group Name>  
 ```
 
 Pour chaque fichier que vous souhaitez déplacer de StaffHub vers Teams, utilisez l’applet de passe [Move-PnPFile](https://docs.microsoft.com/powershell/module/sharepoint-pnp/move-pnpfile) pour déplacer le fichier.
 
-```
+```PowerShell
 Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name>" -TargetUrl "/sites/<Group Name>/Shared Documents/General/<File Name>" 
 ```
 
@@ -266,7 +266,7 @@ Suivez ces étapes pour déplacer en bloc StaffHub Teams. Vous pouvez choisir de
 
 Exécutez la commande suivante pour obtenir la liste de toutes les équipes de StaffHub au sein de votre organisation.
 
-```
+```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
@@ -274,7 +274,7 @@ $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 
 Ensuite, exécutez la commande suivante pour déplacer toutes les équipes.
 
-```
+```PowerShell
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -282,7 +282,7 @@ Voici un exemple de réponse.
 
 Dans le cas d’une équipe qui a déjà été déplacée vers teams ou qui existe déjà dans Teams, le jobId sera « nul », car il n’est pas nécessaire de soumettre une demande de transfert à cette équipe.
 
-```
+```output
 jobId                                      teamId                                      teamAlreadyInMicrosofteams  
 ----------------------------------------   -----------------------------------------   --------------------------         
 null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
@@ -293,7 +293,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 
 Exécutez la commande suivante pour obtenir la liste de tous les ID d’équipe StaffHub au sein de votre organisation.
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
@@ -307,7 +307,7 @@ Voici un exemple de mise en forme du fichier CSV.
 
 Après avoir créé le fichier CSV, exécutez ce qui suit pour déplacer les équipes que vous avez spécifiées dans le fichier CSV.
 
-```
+```PowerShell
 $StaffHubTeams = Import-Csv .\teams.csv
 
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
@@ -317,7 +317,7 @@ foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 
 Exécutez la commande suivante pour obtenir la liste de toutes les équipes dans les équipes de votre organisation. 
 
-```
+```PowerShell
 Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 ```
 
@@ -335,7 +335,7 @@ Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles
 
 Exécutez la commande suivante pour obtenir plus d’informations sur les erreurs de « défaillance » qui se produisent lorsque vous tentez de déplacer une équipe :
 
-```
+```PowerShell
 Move-StaffHubTeam -TeamId <TeamId>
 
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
@@ -347,7 +347,7 @@ Vous verrez l’un des statuts suivants renvoyés : réussite, échec, inprogre
 
 Si « Failure » est retourné, exécutez la commande suivante pour obtenir plus d’informations sur l’erreur :
 
-```
+```PowerShell
 $res.Result.Error.Innererror
 ```
 
@@ -367,7 +367,7 @@ Cela risque de se produire si vous essayez de déplacer des fichiers dans un gro
 
 Exécutez la commande suivante pour ajouter le dossier général à SharePoint, puis réessayez :
 
-  ```
+  ```PowerShell
   Add-PnPFolder -Name General -Folder 'Shared Documents'
   ```  
 

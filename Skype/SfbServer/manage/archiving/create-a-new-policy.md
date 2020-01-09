@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Résumé: Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.'
-ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.'
+ms.openlocfilehash: 8542c31050cf4ca9383c22b39c83b28309d3ea32
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299971"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992731"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Créer une nouvelle stratégie d’archivage dans Skype entreprise Server
 
-**Résumé:** Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.
+**Résumé :** Découvrez comment créer une nouvelle stratégie d’archivage pour Skype entreprise Server.
   
 Vous pouvez créer de nouvelles stratégies d’archivage à l’aide du panneau de configuration ou des applets de commande de Windows PowerShell.
   
@@ -31,7 +31,7 @@ Pour créer une nouvelle stratégie d’archivage à l’aide du panneau de conf
     
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration Skype entreprise Server. 
     
-3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie**d’archivage.
+3. Dans la barre de navigation gauche, cliquez sur **surveillance et archivage**, puis cliquez sur **stratégie d’archivage**.
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes : 
     
@@ -62,7 +62,7 @@ Vous pouvez également créer de nouvelles stratégies d’archivage à l’aide
 
 Cette commande crée une stratégie d’archivage pour le site Redmond :
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond"
 ```
 
@@ -70,15 +70,15 @@ New-CsArchivingPolicy -Identity "site:Redmond"
 
 Pour créer une stratégie d’archivage au niveau de l’étendue Utilisateur, il vous suffit de spécifier une identité unique lors de la création de la stratégie :
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
 ### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Pour créer une nouvelle stratégie d’archivage qui permet d’archiver des sessions de communication interne
 
-Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire Identity) n’a été spécifié dans les commandes précédentes, les nouvelles stratégies utilisent les valeurs par défaut pour toutes leurs propriétés. Pour créer des stratégies qui utilisent des valeurs de propriétés distinctes, il vous suffit d’inclure le paramètre et la valeur de paramètre appropriés. Par exemple, la commande suivante crée une stratégie d’archivage qui permet l’archivage des sessions de messagerie instantanée internes: 
+Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire Identity) n’a été spécifié dans les commandes précédentes, les nouvelles stratégies utilisent les valeurs par défaut pour toutes leurs propriétés. Pour créer des stratégies qui utilisent des valeurs de propriétés distinctes, il vous suffit d’inclure le paramètre et la valeur de paramètre appropriés. Par exemple, la commande suivante crée une stratégie d’archivage qui permet l’archivage des sessions de messagerie instantanée internes : 
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 ```
 
@@ -86,6 +86,6 @@ New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True
 
 Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande permet de configurer la nouvelle stratégie visant à archiver les sessions de messagerie instantanée internes et externes :
   
-```
+```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True -ArchiveExternal $True
 ```

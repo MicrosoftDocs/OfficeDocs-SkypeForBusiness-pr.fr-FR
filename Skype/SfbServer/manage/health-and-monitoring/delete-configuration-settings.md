@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: 'Résumé: Découvrez comment supprimer des paramètres de configuration de CDR dans Skype entreprise Server.'
-ms.openlocfilehash: 91ee9676b3087c5b125c6cfe935f706bbfb22812
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment supprimer des paramètres de configuration de CDR dans Skype entreprise Server.'
+ms.openlocfilehash: 16b797fb59e16038411c722ce064e14ab756cdfa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305831"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992431"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Suppression d’une collection de paramètres de configuration de CDR dans Skype entreprise Server
  
-**Résumé:** Découvrez comment supprimer des paramètres de configuration de CDR dans Skype entreprise Server.
+**Résumé :** Découvrez comment supprimer des paramètres de configuration de CDR dans Skype entreprise Server.
   
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
   
 Lorsque vous installez Skype entreprise Server, une collection globale unique de paramètres de configuration de CDR est créée pour vous. Les administrateurs peuvent également créer des collections de paramètres personnalisés pouvant être appliquées aux sites individuels. Par conception, les paramètres configurés sur l’étendue Site sont prioritaires sur les paramètres configurés sur l’étendue Global. Si vous supprimez les paramètres sur l’étendue Site, les enregistrements des détails des appels seront gérés dans ce site en utilisant les paramètres globaux.
   
-Notez que vous pouvez également «supprimer» les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la suppression par défaut est activée dans une collection de paramètres de configuration CDR. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
+Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la suppression par défaut est activée dans une collection de paramètres de configuration CDR. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
   
 Vous pouvez supprimer des paramètres de configuration de CDR en utilisant le panneau de configuration Skype entreprise Server ou l’applet de commande [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) .
   
@@ -41,13 +41,13 @@ Vous pouvez supprimer des paramètres de configuration de CDR en utilisant le pa
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de CDR à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez supprimer des paramètres de configuration de l’enregistrement des détails des appels à l’aide de Windows PowerShell et de l’applet de contrôle **Remove-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez supprimer des paramètres de configuration de l’enregistrement des détails des appels à l’aide de Windows PowerShell et de l’applet de contrôle **Remove-CsCdrConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Pour supprimer une collection spécifique de paramètres de configuration CDR
 
  Cette commande supprime les paramètres de configuration CDR appliqués au site Redmond :
     
-  ```
+  ```PowerShell
   Remove-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -55,15 +55,15 @@ Vous pouvez supprimer des paramètres de configuration de l’enregistrement des
 
  Cette commande supprime tous les paramètres de configuration CDR appliqués au niveau du site :
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
-  ```
+  ```PowerShell
 
-### <a name="to-remove-all-the-cdr-configuration-settings-that-disable-call-detail-recording"></a>Pour supprimer tous les paramètres de configuration CDR qui désactivent l’enregistrement des détails des appels
+### To remove all the CDR configuration settings that disable call detail recording
 
- Cette commande supprime tous les paramètres de configuration CDR pour lesquels l’enregistrement des détails des appels a été désactivé :
+ This command removes all the CDR configuration settings where Call Detail recording has been disabled:
     
-  ```
+  ```PowerShell
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 

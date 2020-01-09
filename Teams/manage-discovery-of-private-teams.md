@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Apprenez à contrôler si les équipes privées peuvent être détectées par les utilisateurs de Microsoft teams par le biais de suggestions dans la Galerie d’équipe et les résultats de recherche.
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571999"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992009"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gérer la découverte des équipes privées dans Microsoft Teams
 
@@ -65,7 +65,7 @@ Dans Microsoft Teams, accédez à l’équipe privée, cliquez sur **plus d’op
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
 Utilisez l’applet de connexion **[Set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** pour désactiver ou activer le paramètre de découverte pour une équipe privée existante. Voici un exemple illustrant comment rendre une équipe plus détectable :
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 Vous pouvez utiliser cette applet de cmdlet dans un script pour définir le paramètre de découverte des équipes privées existantes en bloc.
@@ -79,7 +79,7 @@ Définissez le paramètre **AllowPrivateTeamDiscovery** sur **true** pour autori
 Par défaut, **AllowPrivateTeamDiscovery** est défini sur **true** pour tous les utilisateurs au sein d’une organisation.
 
 Dans cet exemple, nous créons une stratégie nommée VendorPolicy qui empêche les utilisateurs de découvrir toutes les équipes privées découvertes, puis nous affectons la stratégie à un utilisateur nommé vendoruser1.
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39961609"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992541"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Shifts pour votre organisation dans Microsoft Teams
 
@@ -87,15 +87,15 @@ Dans cet exemple, nous affectons la stratégie de configuration de l’applicati
 > Assurez-vous d’abord de vous connecter au module Azure Active Directory PowerShell pour Graph et au module PowerShell Skype entreprise en suivant les étapes décrites dans l’article [se connecter à tous les services Office 365 dans une seule fenêtre Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenez la GroupObjectId du groupe en particulier.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
 Obtenez les membres du groupe spécifié.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Assignez tous les utilisateurs du groupe à la stratégie de configuration de l’application FirstlineWorker.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 En fonction du nombre de membres du groupe, cette commande risque de prendre quelques minutes.

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Résumé: Lisez cette rubrique pour résoudre les problèmes liés à votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.'
-ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes liés à votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.'
+ms.openlocfilehash: 7d9ea061453998f2df01cd2ec31e792600697ee1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299694"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992511"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Dépannage du gestionnaire de statistiques pour Skype Entreprise Server
  
-**Résumé:** Consultez cette rubrique pour dépanner votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.
+**Résumé :** Consultez cette rubrique pour dépanner votre déploiement du gestionnaire de statistiques pour Skype entreprise Server.
   
 Cette rubrique explique comment résoudre les problèmes de déploiement de votre gestionnaire de statistiques en décrivant des événements que vous pouvez rencontrer dans le journal des événements de l’application, ainsi que les actions appropriées pour corriger l’événement. Cette rubrique contient les sections suivantes :
   
@@ -39,13 +39,13 @@ Cette rubrique explique comment résoudre les problèmes de déploiement de votr
     
     L’agent s’exécute à l’intérieur d’un objet de traitement Windows pour limiter automatiquement son encombrement mémoire. Si l’agent ne démarre pas et si ces entrées d’événements apparaissent dans le journal d’événements, l’objet de traitement n’a pas pu être instancié sur le serveur. Pour contourner ce problème, la limite maximale de la mémoire peut être supprimée en modifiant une valeur dans le fichier de configuration :
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Recherchez «MaxProcessMemoryMB» et attribuez la valeur «0» comme suit:
+    Recherchez « MaxProcessMemoryMB » et attribuez la valeur « 0 » comme suit :
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 

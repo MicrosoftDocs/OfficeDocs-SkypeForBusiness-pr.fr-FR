@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en tant que magasin de fichiers pour votre déploiement de Skype entreprise Server ou si vous devez apporter d’autres modifications pour rendre le stockage de fichiers actuel indisponible, vous devez tout d’abord créer un nouveau partage. Ensuite, procédez comme suit :'
-ms.openlocfilehash: c37a811bc04ab8ef6f69ef823cf30e28209e9821
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ae09d2415b24a4337edbee3c66e8b9a8bd2009a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275142"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991509"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Déplacer les données du magasin de fichiers vers un nouveau magasin de fichiers dans Skype entreprise Server
 
@@ -43,7 +43,7 @@ Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en
 
 5. Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-6. Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
+6. Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Skype entreprise Server**, puis sur **Générateur de topologie Skype entreprise Server**.
 
 7. Sélectionnez un serveur ou un pool qui utilise le magasin de fichiers et procédez comme suit :
 
@@ -64,11 +64,11 @@ Si vous avez besoin de supprimer le serveur de fichiers agissant actuellement en
 
 9. Publiez la topologie, vérifiez l’état de la connexion, puis exécutez l’Assistant Déploiement de Skype entreprise Server selon vos besoins. Pour plus d’informations, reportez-vous à la section [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
-10. Démarrez une invite de commandes: cliquez sur **Démarrer**, sur **exécuter**, puis tapez cmd. exe.
+10. Démarrez une invite de commandes : cliquez sur **Démarrer**, sur **exécuter**, puis tapez cmd. exe.
 
 11. Dans la ligne de commande, tapez ce qui suit :
 
-     ```
+     ```console
      Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
 
      ```

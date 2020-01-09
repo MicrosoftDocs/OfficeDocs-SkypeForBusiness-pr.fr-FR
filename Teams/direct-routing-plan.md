@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Consultez cette rubrique pour découvrir comment le routage direct du système Microsoft Phone vous permet de connecter un contrôleur de bordure de session pris en charge par le client (SBC) au système Microsoft Phone.
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257473"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995114"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -116,6 +116,14 @@ Le mélange d’un plan d’appel et de la connectivité de routage directe pour
 Pour plus d’informations sur les licences de système téléphonique, voir [tirer le meilleur parti d’Office avec les options de](https://products.office.com/compare-all-microsoft-office-products?tab=2) Plan Office 365 et [Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
 Pour plus d’informations sur la gestion des licences de système téléphonique, voir [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+
+## <a name="supported-end-points"></a>Points de terminaison pris en charge 
+
+Vous pouvez utiliser comme point de terminaison :
+- Tout teams cleintg. 
+- Numéros [de téléphone communs pour les zones plese pour configurer la licence de téléphone commune de Microsoft teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones). Remarque vous n’avez pas besoin d’une licence de plan d’appel lorsque vous définissez le téléphone commun avec le routage direct.
+- Téléphones 3PIP Skype entreprise. Pour savoir comment [utiliser le service de téléphone skype entreprise (3PIP), consultez l’aide de Microsoft teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
 
 ## <a name="sbc-domain-names"></a>Noms de domaine SBC
 

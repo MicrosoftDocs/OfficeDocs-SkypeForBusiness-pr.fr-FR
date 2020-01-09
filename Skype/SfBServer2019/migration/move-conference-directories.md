@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour chaque annuaire de conférences de votre pool hérité.
-ms.openlocfilehash: cc989e752e69db31f338b493c403b8b8d4c252cc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237736"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988939"
 ---
 # <a name="move-conference-directories"></a>Déplacement des annuaires de conférences
 
@@ -24,41 +24,41 @@ Avant de désaffecter un pool, vous devez effectuer la procédure suivante pour 
 
 1. Ouvrez Skype entreprise Server Management Shell.
     
-2. Pour obtenir l’identité des annuaires de conférences au sein de votre organisation, exécutez la commande suivante:
+2. Pour obtenir l’identité des annuaires de conférences au sein de votre organisation, exécutez la commande suivante :
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory
    ```
 
-    La commande précédente renvoie tous les annuaires de conférences de votre organisation. Pour cette raison, il est possible que vous souhaitiez limiter les résultats au pool en cours de désactivation. Par exemple, si vous désaffectez le pool avec le nom de domaine complet (FQDN) pool01.contoso.net, utilisez cette commande pour limiter les données renvoyées aux annuaires de conférences à partir du pool:
+    La commande précédente renvoie tous les annuaires de conférences de votre organisation. Pour cette raison, il est possible que vous souhaitiez limiter les résultats au pool en cours de désactivation. Par exemple, si vous désaffectez le pool avec le nom de domaine complet (FQDN) pool01.contoso.net, utilisez cette commande pour limiter les données renvoyées aux annuaires de conférences à partir du pool :
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
     Cette commande renvoie uniquement les répertoires de conférences dans lesquels la propriété ServiceID contient le nom de domaine complet pool01.contoso.net.
     
-3. Pour déplacer des répertoires de conférence, exécutez la commande suivante pour chaque annuaire de conférences de la liste:
+3. Pour déplacer des répertoires de conférence, exécutez la commande suivante pour chaque annuaire de conférences de la liste :
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    Par exemple, pour déplacer l’annuaire de conférences 3, utilisez cette commande en spécifiant un pool Skype entreprise Server 2019 en tant que TargetPool:
+    Par exemple, pour déplacer l’annuaire de conférences 3, utilisez cette commande en spécifiant un pool Skype entreprise Server 2019 en tant que TargetPool :
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
-    Si vous souhaitez déplacer tous les répertoires de conférence sur un pool, utilisez une commande similaire à ce qui suit:
+    Si vous souhaitez déplacer tous les répertoires de conférence sur un pool, utilisez une commande similaire à ce qui suit :
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-Télécharger la désinstallation de l' [ancien et](https://go.microsoft.com/fwlink/p/?linkId=246227) de la suppression de rôles de serveur pour obtenir des instructions complètes et détaillées sur la mise en service des pools hérités.
+Télécharger la [désinstallation de l’ancien et](https://go.microsoft.com/fwlink/p/?linkId=246227) de la suppression de rôles de serveur pour obtenir des instructions complètes et détaillées sur la mise en service des pools hérités.
   
-Lorsque vous déplacez des répertoires de conférence, vous pouvez rencontrer l’erreur suivante:
+Lorsque vous déplacez des répertoires de conférence, vous pouvez rencontrer l’erreur suivante :
   
 ```
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment configurer les paramètres réseau pour les fonctionnalités vocales de Microsoft Teams.
-ms.openlocfilehash: 72fb40b31b7881f550800bad5a2d2fca304431ae
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 87cdf39e03999a9e249b7ec40af7ea2ad8612e69
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615894"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991639"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gérer la topologie de votre réseau pour les fonctionnalités vocales de Microsoft teams
 
@@ -84,12 +84,12 @@ Pour suivre les étapes décrites dans cette section, vous devez vous familiaris
 
  Utilisez l’applet de nouvelle applet de [nouveau-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) pour définir des régions du réseau. Notez que le paramètre RegionID est un nom logique qui représente la géographie de la région et qu’il n’y a pas de dépendances ni&gt; de restrictions et que le paramètre d’ID de site CentralSite &lt;est facultatif.
 
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 Dans cet exemple, nous créons une région réseau nommée Inde.
-```
+```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
@@ -99,11 +99,11 @@ Voir également [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershel
 
 Utilisez l’applet de nouvelle applet de [CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) pour définir des sites réseau. Chaque site réseau doit être associé à une région réseau.
 
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 Dans cet exemple, nous créons deux nouveaux sites réseau, Delhi et Hyderabad, dans la région Inde.
-```
+```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
@@ -120,13 +120,13 @@ Voir également [Set-CsTenantNetworkRegion](https://docs.microsoft.com/powershel
 
 Utilisez l’applet de nouvelle applet de [nouveau-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) pour définir des sous-réseaux réseau et les associer aux sites du réseau. Chaque sous-réseau ne peut être associé qu’à un seul site.
 
-```
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
 Dans cet exemple, nous créons une association entre le sous-réseau 192.168.0.0 et le site réseau de Delhi et entre le sous-réseau 2001:4898 : E8:25:844e : 926f : 85AD : DD8E et le site du réseau Hyderabad.
-```
 
+```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
 
@@ -140,11 +140,11 @@ Le tableau suivant montre les sous-réseaux définis dans cet exemple.
 |ID de site  | Site (Delhi) | Site 2 (Hyderabad) |
 
 Pour plusieurs sous-réseaux, vous pouvez importer un fichier CSV à l’aide d’un script comme celui-ci.
-```
+```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 Dans cet exemple, le fichier CSV ressemble à ceci :
-```
+```output
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -157,11 +157,11 @@ Voir également [Set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powershe
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Définir des sous-réseaux externes (adresses IP de confiance externes)
 
 Utilisez l’applet de nouvelle applet de [nouveau-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) pour définir des sous-réseaux externes et les affecter au client. Vous pouvez définir un nombre illimité de sous-réseaux externes pour un client.
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Par exemple :
-```
+```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 

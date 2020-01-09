@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: 'Résumé: gérez les paramètres de configuration des services Web dans Skype entreprise Server.'
-ms.openlocfilehash: b2a7f287c9386c89d132e03e96aa25e9472f7008
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : gérez les paramètres de configuration des services Web dans Skype entreprise Server.'
+ms.openlocfilehash: 383b85e156dfdbc6af7606da49d4cf89bf655698
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297574"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991929"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration des services Web dans Skype entreprise Server
  
-**Résumé:** Gérer les paramètres de configuration des services Web dans Skype entreprise Server.
+**Résumé :** Gérer les paramètres de configuration des services Web dans Skype entreprise Server.
   
 Vous pouvez utiliser la page de **service Web** pour configurer les méthodes d’authentification pour l’accès à Skype entreprise Server et aux services Web.
   
@@ -100,13 +100,13 @@ Pour supprimer les paramètres de configuration des services web, procédez comm
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Supprimer des paramètres de configuration de service Web à l’aide des applets de cmdlet Windows PowerShell
 
-Vous pouvez supprimer des paramètres de configuration de service Web à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsWebServiceConfiguration** . Vous pouvez exécuter cette applet de commande dans Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez supprimer des paramètres de configuration de service Web à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsWebServiceConfiguration** . Vous pouvez exécuter cette applet de commande dans Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration des services web
 
 - La commande ci-dessous supprime les paramètres de sécurité des services web appliqués au site de Redmond :
     
-  ```
+  ```PowerShell
   Remove-CsWebServiceConfiguration -Identity "site:Redmond"
   ```
 
@@ -114,7 +114,7 @@ Vous pouvez supprimer des paramètres de configuration de service Web à l’aid
 
 La commande ci-dessous supprime tous les paramètres de sécurité des services web appliqués à l’étendue des services :
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
   ```
 
@@ -122,7 +122,7 @@ La commande ci-dessous supprime tous les paramètres de sécurité des services 
 
 La commande ci-dessous supprime tous les paramètres de sécurité des services web qui autorisent l’authentification des certificats :
     
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 

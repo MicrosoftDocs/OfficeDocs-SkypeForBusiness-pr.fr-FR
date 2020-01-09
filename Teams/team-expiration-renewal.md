@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abhisgu
+ms.reviewer: abgupta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 description: Apprenez-en davantage sur l’expiration et le renouvellement d’une équipe et l’utilisation de la stratégie d’expiration de groupe Office 365 pour nettoyer automatiquement les équipes inutilisées dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fd7dfdececc9a490ff930bdba9948e9196c74f2
-ms.sourcegitcommit: fc7d5e812873b648b374eef23d02c914a56b51d1
+ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608721"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992811"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement de l’équipe dans Microsoft teams
 

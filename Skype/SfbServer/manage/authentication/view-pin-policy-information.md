@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
-description: 'Résumé: Affichez les informations de stratégie de code confidentiel d’un utilisateur pour Skype entreprise Server.'
-ms.openlocfilehash: 5f6269b766748d5027c0a8182dd027754cd5cc00
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Affichez les informations de stratégie de code confidentiel d’un utilisateur pour Skype entreprise Server.'
+ms.openlocfilehash: c61c55f97abc661558089c1d26ee4f5537fcf36b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297588"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991949"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Afficher les informations de stratégie de code confidentiel dans Skype entreprise Server
  
-**Résumé:** Afficher les informations de stratégie de code confidentiel d’un utilisateur pour Skype entreprise Server.
+**Résumé :** Afficher les informations de stratégie de code confidentiel d’un utilisateur pour Skype entreprise Server.
   
 Vous pouvez utiliser l’onglet **stratégie de code confidentiel** pour afficher l’authentification par code confidentiel (pin) des utilisateurs qui se connectent à Skype entreprise avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
   
@@ -38,13 +38,13 @@ Suivez cette procédure pour modifier une stratégie de code confidentiel au niv
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>Affichage de stratégies de code confidentiel à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez également afficher les stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de cmdlet Get-CsPinPolicy. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez également afficher les stratégies de code confidentiel à l’aide de Windows PowerShell et de l’applet de cmdlet Get-CsPinPolicy. Cette applet de commande peut être exécutée à partir de Skype entreprise Server Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
   
 ### <a name="to-view-pin-policies"></a>Pour afficher les stratégies de code confidentiel
 
-Pour afficher des informations sur toutes les stratégies de code confidentiel, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+Pour afficher des informations sur toutes les stratégies de code confidentiel, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy
   ```
 

@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: 'Résumé: Découvrez comment supprimer des paramètres de qualité de l’utilisation (QoE) dans Skype entreprise Server.'
-ms.openlocfilehash: 4b521afd85a97550b27f320b9e49c5439e431681
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez comment supprimer des paramètres de qualité de l’utilisation (QoE) dans Skype entreprise Server.'
+ms.openlocfilehash: 134ebe39f41ca051db4ff79eafb094dcc929b5e8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305800"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992421"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Supprimer les paramètres de configuration de qualité de l’interface dans Skype entreprise Server
  
-**Résumé:** Découvrez comment supprimer des paramètres de qualité de l’utilisation (QoE) dans Skype entreprise Server.
+**Résumé :** Découvrez comment supprimer des paramètres de qualité de l’utilisation (QoE) dans Skype entreprise Server.
   
 Les mesures de la qualité de l’expérience (QoE) effectuent le suivi de la qualité des appels audio et vidéo dans votre organisation, y compris le nombre de paquets réseau perdus, le bruit de fond et le montant de « gigue » (différences de retard des paquets). Ces mesures sont stockées dans une base de données distincte des autres données (telles que les enregistrements des détails des appels), ce qui permet d’activer et de désactiver l’enregistrement QoE indépendamment de l’enregistrement des autres données.
   
 Lorsque vous installez Skype entreprise Server, une collection globale unique de paramètres de configuration QoE est créée pour vous. Les administrateurs peuvent également créer des collections de paramètres personnalisés pouvant être appliquées aux sites individuels. Par conception, les paramètres configurés sur l’étendue Site sont prioritaires sur les paramètres configurés sur l’étendue Global. Si vous supprimez les paramètres sur l’étendue Site, la QoE sera gérée dans ce site en utilisant les paramètres globaux.
   
-Notez que vous pouvez également «supprimer» les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la purge est activée par défaut dans une collection de paramètres de configuration QoE. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
+Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la purge est activée par défaut dans une collection de paramètres de configuration QoE. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
   
 Vous pouvez supprimer les paramètres de configuration QoE en utilisant le panneau de configuration Skype entreprise Server ou en utilisant l’applet de commande [Remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps) .
   
@@ -43,13 +43,13 @@ Vous pouvez supprimer les paramètres de configuration QoE en utilisant le panne
     
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration QoE à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez supprimer des paramètres de configuration QoE à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [«démarrage rapide: gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell»](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
+Vous pouvez supprimer des paramètres de configuration QoE à l’aide de Windows PowerShell et de l’applet de passe **Remove-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Skype entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype entreprise Server, voir l’article sur le blog [« démarrage rapide : gestion de Microsoft Lync Server 2010 à l’aide de Remote PowerShell »](https://go.microsoft.com/fwlink/p/?linkId=255876). Le processus est le même dans Skype entreprise Server.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>Pour supprimer une collection spécifiée de paramètres de configuration QoE
 
  Cette commande supprime les paramètres de configuration QoE appliqués au site Redmond :
     
-  ```
+  ```PowerShell
   Remove-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -57,7 +57,7 @@ Vous pouvez supprimer des paramètres de configuration QoE à l’aide de Window
 
  Cette commande supprime tous les paramètres de configuration QoE appliqués à l’étendue Site :
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration -Filter "site:*" | Remove-CsQoEConfiguration
   ```
 
@@ -65,7 +65,7 @@ Vous pouvez supprimer des paramètres de configuration QoE à l’aide de Window
 
  Cette commande supprime tous les paramètres de configuration QoE lorsque le suivi QoE est désactivé :
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 

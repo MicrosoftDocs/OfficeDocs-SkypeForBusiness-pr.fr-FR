@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
-description: 'Résumé: en savoir plus sur l’opération obtenir un élément qui fait partie du service d’article. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: bfd5015603ac73fb48c4e30635cf8ae0fb14bf13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur l’opération obtenir un élément qui fait partie du service d’article. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 208ad3d1852ab58b7fcd0d01eeb440097328f733
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274715"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992671"
 ---
 # <a name="get-item"></a>Obtenir un élément
  
-**Résumé:** En savoir plus sur l’opération obtenir l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** En savoir plus sur l’opération obtenir l’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API du référentiel pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
   
 L’opération obtenir l’élément fait partie du service d’élément dans l’API du référentiel pour le tableau de bord de qualité des appels.
   
@@ -46,7 +46,7 @@ Obtient l’élément renvoie un élément spécifique du référentiel.
   
  Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON.
   
-```
+```json
 {
 "itemId": 1652,
 "userId": 0,
@@ -56,9 +56,9 @@ Obtient l’élément renvoie un élément spécifique du référentiel.
 }
 ```
 
- ** ID de l’élément.
+ ID *de l'* élément.
   
- ** ID d’utilisateur de l’utilisateur propriétaire de cet élément.
+ ID *d’utilisateur de* l’utilisateur propriétaire de cet élément.
   
  *content* : contenu spécifique à l’application.
   

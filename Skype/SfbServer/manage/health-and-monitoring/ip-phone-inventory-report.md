@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Résumé: en savoir plus sur le rapport sur l’inventaire des téléphones IP dans Skype entreprise Server.'
-ms.openlocfilehash: 8d7d7be6b5a677f3df33ebf2e0bb01f31b76eac9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur le rapport sur l’inventaire des téléphones IP dans Skype entreprise Server.'
+ms.openlocfilehash: 51d4a3a7cbd4bf856efa93ae04c25accc5415796
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305667"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992169"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Rapport d’inventaire des téléphones IP dans Skype entreprise Server
  
-**Résumé:** En savoir plus sur le rapport sur l’inventaire des téléphones IP dans Skype entreprise Server.
+**Résumé :** En savoir plus sur le rapport sur l’inventaire des téléphones IP dans Skype entreprise Server.
   
 Le Rapport d’inventaire de téléphonie IP fournit des informations sur les téléphones IP en cours d’utilisation dans votre organisation. Il offre une liste détaillée des téléphones IP qui ont été utilisées durant la période de rapport spécifiée. Entre autres choses, il permet aux administrateurs de savoir s’il existe des téléphones obsolètes qui doivent être remplacés. Il peut également les alerter quant à la présence de téléphones coûteux rarement utilisés. Ce type d’informations peut être précieux dans le cadre de l’achat de nouveaux téléphones ou de la redistribution des téléphones existants (par exemple, il peut être demandé à un utilisateur qui n’utilise son téléphone coûteux que très rarement de l’échanger avec un autre utilisateur qui utilise le sien beaucoup plus fréquemment).
   
@@ -40,7 +40,7 @@ Le Rapport d’inventaire de téléphonie IP est accessible à partir de la page
 
 Si seules les informations d’utilisation d’un type de téléphone spécifique vous intéressent (par exemple, « Quelle est la fréquence d’utilisation des téléphones Polycom CX600 ? »), vous pouvez obtenir ces informations directement grâce au Rapport d’inventaire de téléphonie IP en filtrant ce type de téléphone spécifique. En revanche, si vous souhaitez obtenir des données de synthèse pour tous vos téléphones (combien de personnes utilisent un Polycom CX600, combien utilisent un LG-Nortel IP8540, et ainsi de suite), vous devrez exporter les données et utiliser une autre application (telle que Windows PowerShell) pour effectuer ce type d’analyse. Supposez, par exemple, que vous exportez les données vers un fichier de valeurs séparées par des virgules (C:\Data\IP_Phone_Inventory_Report.csv). Dans ce cas, vous pourriez utiliser les deux commandes suivantes pour obtenir des données de synthèse pour tous vos téléphones :
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 ```
@@ -65,7 +65,7 @@ Count    Name
 
 De mêmes, ces deux commandes indiquent quels téléphones se sont connectés au système mais n’ont jamais été utilisés pour effectuer un appel (la valeur de la métrique Dernière activité est vierge, ce qui indique l’absence de dernière activité) :
   
-```
+```PowerShell
 $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
 $phones | Where-Object {$_."Last activity" -eq ""}
 ```

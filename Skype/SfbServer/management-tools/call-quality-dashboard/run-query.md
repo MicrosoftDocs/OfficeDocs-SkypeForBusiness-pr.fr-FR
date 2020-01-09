@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Résumé: Découvrez l’opération exécuter une requête, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
-ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : Découvrez l’opération exécuter une requête, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.'
+ms.openlocfilehash: 8d31ea4c597ea3353fdd5da3e863938aababe819
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274561"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991399"
 ---
 # <a name="run-query"></a>Exécuter la requête
 
-**Résumé:** Apprenez-en davantage sur l’opération exécuter une requête, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
+**Résumé :** Apprenez-en davantage sur l’opération exécuter une requête, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le tableau de bord de qualité des appels est un outil pour Skype entreprise Server.
 
 L’opération exécuter la requête fait partie de l’API de données du tableau de bord de qualité des appels.
 
@@ -39,7 +39,7 @@ L’opération exécuter une requête permet d’exécuter une requête sur le c
 
  Le corps de la **requête** est un exemple de charge utile de requête dans JSON. Il contient des dimensions, des filtres et des mesures nécessaires pour une requête.
 
-```
+```json
 {
 "Filters": [{
 "DataModelName": "[StartDate].[Month]",
@@ -88,7 +88,7 @@ L’opération exécuter une requête permet d’exécuter une requête sur le c
 
  Le corps de la **réponse** : Voici un exemple de charge utile de réponse dans JSON. Elle contient une table de données qui contient les données, elle contient également une méta-données, qui indique le temps d’exécution des requêtes et si les données proviennent du cache.
 
-```
+```json
 {
 "ExecutionTime": "00:00:00.2102630",
 "DataResult": [["September 2014",
@@ -123,6 +123,6 @@ L’opération exécuter une requête permet d’exécuter une requête sur le c
 
  *Durée d’exécution* : temps total nécessaire au serveur pour renvoyer les données. Cela risque de ne pas impliquer le cache.
 
- *Résultat* de la requête: résultat de la requête. Il s’agit d’un tableau à deux dimensions contenant toutes les permutations des membres des dimensions et chaque élément contenant les noms de membres des dimensions, ainsi que les valeurs agrégées des mesures spécifiées.
+ *Résultat* de la requête : résultat de la requête. Il s’agit d’un tableau à deux dimensions contenant toutes les permutations des membres des dimensions et chaque élément contenant les noms de membres des dimensions, ainsi que les valeurs agrégées des mesures spécifiées.
 
  Le *résultat provient du cache* -pour les Diagnostics. Indique si le résultat provient du cache ou du cube QoE.

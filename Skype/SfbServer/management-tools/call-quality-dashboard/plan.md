@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328436"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991409"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype entreprise Server 
  
@@ -284,11 +284,11 @@ Vous trouverez ci-après les services de rôles IIS requis (dans l’ordre hiér
   
 Pour installer ces exigences via PowerShell, exécutez la commande suivante :
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ Pour obtenir de l’aide supplémentaire sur l’installation et la configuratio
 
 Trois comptes de service de domaine sont recommandés selon le principe des privilèges minimum : 
   
-- L’un d’eux comporte déjà un principal de sécurité de la connexion à la base de données de la fonction QoE Metrics (avec des privilèges db_datareader) et un principal de sécurité de connexion dans l’instance d’archive SQL Server d’archive (nécessaire pour créer un objet serveur lié lors de l’installation). Ce compte sera utilisé pour exécuter l’étape « données d’archive QoE » du travail de l’agent SQL Server.
+- L’un d’eux comporte déjà un principal de sécurité de la connexion à la base de données de la base de données de niveau de service (avec les privilèges de db_datareader) et un principal de sécurité de connexion dans l’instance d’archive SQL Server QoE (nécessaire pour créer un objet de serveur lié lors de l’installation). Ce compte sera utilisé pour exécuter l’étape « données d’archive QoE » du travail de l’agent SQL Server.
     
 - Il s’agit d’un outil qui sera utilisé pour exécuter l’étape « traiter le cube » du travail de l’agent SQL Server. Le programme d’installation crée un principal de sécurité de connexion dans la base de données d’archive QoE (avec privilèges de lecture et d’écriture) et crée également un membre du rôle QoE (avec le privilège contrôle total) pour le cube.
     

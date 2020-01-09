@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Vous pouvez utiliser les procédures décrites dans cette section pour modifier des propriétés de compte d’utilisateur individuelles.
-ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: eca88717d0b81ddd7c27fc140df9bdbf7590c5c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991429"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser des propriétés de compte d’utilisateur pour Skype entreprise Server
  
 Vous pouvez utiliser les procédures décrites dans cette section pour modifier des propriétés de compte d’utilisateur individuelles.
   
-Deux opérations de base peuvent être effectuées au niveau utilisateur individuel:
+Deux opérations de base peuvent être effectuées au niveau utilisateur individuel :
   
 - [Configurer les options de téléphonie pour un compte d’utilisateur spécifique](customize-properties.md#Tel_Op)
     
@@ -32,7 +32,7 @@ Deux opérations de base peuvent être effectuées au niveau utilisateur individ
 
 Vous pouvez personnaliser les paramètres de téléphonie pour un utilisateur spécifique (tant que l’utilisateur individuel a été activé pour Skype entreprise Server et l’Organisation prend en charge la téléphonie).
   
-Les options de téléphonie de l’utilisateur Skype entreprise Server incluent les éléments suivants:
+Les options de téléphonie de l’utilisateur Skype entreprise Server incluent les éléments suivants :
   
 - **Audio/vidéo désactivé** L’utilisateur ne peut pas passer d’appels à l’aide de l’audio et de la vidéo.
     
@@ -50,19 +50,19 @@ Pour plus d’informations sur la configuration de la téléphonie pour une orga
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher. **.
+4. Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur souhaité, puis cliquez sur **Rechercher**.
     
 5. Dans la table, cliquez sur le compte d’utilisateur que vous voulez modifier.
     
 6. Dans le menu **édition** , cliquez sur **modifier**.
     
-7. En **téléphonie**, procédez comme suit:
+7. En **téléphonie**, procédez comme suit :
     
    - Pour désactiver les appels audio et vidéo pour l’utilisateur, cliquez sur **audio/vidéo désactivé**.
     
    - Pour activer les communications audio de PC à ordinateur pour l’utilisateur, mais pas le contrôle d’appel distant ni la voix entreprise, cliquez sur **PC à PC uniquement**. Spécifiez une valeur pour **URI ligne** pour le téléphone utilisée par l’utilisateur pour les communications audio de PC à PC.
     
-   - Pour acheminer les appels téléphoniques de l’utilisateur à l’aide de l’infrastructure Skype entreprise conformément à la classe de la politique de service, y compris la communication audio de PC à PC, cliquez sur **voix entreprise**. Dans **URI de ligne**, spécifiez le numéro de téléphone d’entreprise voix. Dans **politique de plan** de numérotation et de **stratégie vocale**, spécifiez les stratégies appropriées pour l’utilisateur. Pour spécifier les règles de normalisation pour la traduction des numéros de téléphone numérotés par l’utilisateur au format E. 164, sélectionnez le profil d’emplacement approprié dans la **politique d’emplacement**.
+   - Pour acheminer les appels téléphoniques de l’utilisateur à l’aide de l’infrastructure Skype entreprise conformément à la classe de la politique de service, y compris la communication audio de PC à PC, cliquez sur **voix entreprise**. Dans **URI de ligne**, spécifiez le numéro de téléphone d’entreprise voix. Dans **politique de plan de numérotation** et de **stratégie vocale**, spécifiez les stratégies appropriées pour l’utilisateur. Pour spécifier les règles de normalisation pour la traduction des numéros de téléphone numérotés par l’utilisateur au format E. 164, sélectionnez le profil d’emplacement approprié dans la **politique d’emplacement**.
     
    - Pour activer le contrôle d’appel distant, qui permet aux utilisateurs de contrôler leur ligne téléphonique de bureau dans Skype entreprise Server afin de passer des appels de PC à PC et des appels de PC à téléphone, cliquez sur **contrôle d’appel distant**. Dans **URI de ligne**, spécifiez le numéro de téléphone du contrôle d’appel distant. Pour le routage des appels, l’utilisateur doit avoir un téléphone de bureau et une connexion PBX (Private Branch Exchange).
     
@@ -82,7 +82,7 @@ Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour at
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher. **. 
+4. Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur souhaité, puis cliquez sur **Rechercher**. 
     
 5. Dans le tableau, sélectionnez un utilisateur ou des utilisateurs spécifiques dans la liste. 
     
@@ -142,17 +142,17 @@ Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour at
   
 ### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Pour déplacer des utilisateurs d’un pool à un autre à l’aide des cmdlets Windows PowerShell
 
-1. En fonction de la manière dont vous exécutez les commandes Windows PowerShell (c’est-à-dire, localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administrateur de Skype entreprise Server appropriés comme suit:
+1. En fonction de la manière dont vous exécutez les commandes Windows PowerShell (c’est-à-dire, localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administrateur de Skype entreprise Server appropriés comme suit :
     
-   a. Si vous exécutez les commandes sur l’ordinateur local (par exemple, si vous vous connectez directement à un serveur frontal): Connectez-vous à l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec la configuration nécessaire. droits d’utilisateur, tels que décrits dans **autorisations de configuration de délégué**.
+   a. Si vous exécutez les commandes sur l’ordinateur local (par exemple, si vous vous connectez directement à un serveur frontal) : Connectez-vous à l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique **autorisations de configuration de délégué**.
     
-   b. Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, si vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition): à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou à CsAdministrator pour vous connecter à n’importe quel ordinateur dans votre déploiement interne.
+   b. Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, si vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition) : à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou à CsAdministrator pour vous connecter à n’importe quel ordinateur dans votre déploiement interne.
     
-2. Démarrer Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrer Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
-3. Pour déplacer des utilisateurs uniques, utilisez l’applet de passe Move-CsUser en procédant comme suit:
+3. Pour déplacer des utilisateurs uniques, utilisez l’applet de passe Move-CsUser en procédant comme suit :
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -160,13 +160,13 @@ Vous pouvez utiliser le panneau de configuration Skype entreprise Server pour at
     
 4. Pour déplacer un grand nombre d’utilisateurs, utilisez des filtres avec l’applet de passe **Get-Csuser** et transmettez le jeu d’utilisateurs obtenu à **Move-Csuser**:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
-    Les commandes combinées de **Get-Csuser** et **Move-Csuser** peuvent être à l’origine:
+    Les commandes combinées de **Get-Csuser** et **Move-Csuser** peuvent être à l’origine :
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

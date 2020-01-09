@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 'Résumé: Découvrez comment gérer des salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
-ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 'Résumé : Découvrez comment gérer des salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.'
+ms.openlocfilehash: cbced7f62a4684e5541e35b5985b7e93cc7d3e66
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417945"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992119"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des salles de conversation sur un serveur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé:** Découvrez comment gérer des salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.
+**Résumé :** Découvrez comment gérer des salles de conversation serveur de chat permanent dans Skype entreprise Server 2015.
   
 La création et la gestion des salles de conversation est beaucoup plus facile en cas d’utilisation pertinente des catégories. Une catégorie définit qui peut créer des salles de conversation ou y participer. Avant de tenter de gérer des salles de conversation, veillez à lire les [catégories de discussion, les salles de conversation et les rôles d’utilisateur persistants dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) et à [gérer les catégories dans le serveur Chat permanent dans skype entreprise Server 2015](categories.md).
   
@@ -29,7 +29,7 @@ La création et la gestion des salles de conversation est beaucoup plus facile e
 
 Vous pouvez configurer et gérer des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell, ou à l’aide du client Skype entreprise si vous êtes membre de la salle de conversation. Cette rubrique explique comment gérer les salles de conversation en utilisant l’interface de ligne de commande Windows PowerShell. Si vous voulez gérer des salles de conversation à l’aide du client Skype entreprise, voir l’aide du client. 
   
-Les salles de conversation peuvent être l’un des deux types suivants: normal et Auditorium. Une salle de conversation normale permet à tous les membres de publier et de lire des messages. Un auditorium est un type de salle de conversation où seuls les présentateurs peuvent publier, mais où tout le monde peut lire.
+Les salles de conversation peuvent être l’un des deux types suivants : normal et Auditorium. Une salle de conversation normale permet à tous les membres de publier et de lire des messages. Un auditorium est un type de salle de conversation où seuls les présentateurs peuvent publier, mais où tout le monde peut lire.
   
 Les rôles utilisateur déterminent qui peut accéder aux salles de conversation et les gérer, comme suit :
   
@@ -69,7 +69,7 @@ Utilisez l’applet de commande **New-CsPersistentChatRoom** pour créer des sal
     
 - Addin. Permet d’associer un complément précédemment configuré avec une salle de conversation, ce qui permet aux membres de voir le contenu d’URL tout en participant.
     
-Outre les paramètres ci-dessus, l’applet de passe **Set-CsPersistentChatRoom** vous permet d’affecter les utilisateurs à la salle de conversation comme suit:
+Outre les paramètres ci-dessus, l’applet de passe **Set-CsPersistentChatRoom** vous permet d’affecter les utilisateurs à la salle de conversation comme suit :
   
 - Members. Configure les membres de la salle de conversation. Vous pouvez ajouter ou supprimer des membres individuellement ou par groupe en utilisant une seule applet de commande en spécifiant l’adresse SIP des utilisateurs. Pour permettre aux utilisateurs d’être ajoutés par lot, des unités d’organisation ou des groupes de distribution Active Directory peuvent aussi être spécifiés.
     
@@ -83,11 +83,11 @@ Outre les paramètres ci-dessus, l’applet de passe **Set-CsPersistentChatRoom*
 
 Vous pouvez créer une nouvelle salle en utilisant l’applet de commande **New-CsPersistentChatRoom**. Par exemple, la commande suivante crée une nouvelle salle de conversation nommée ITChatRoom dans le pool atl-cs-001.contoso.com. Dans cet exemple, la salle de conversation est ajoutée à la catégorie IT :
   
-```
+```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**Remarque:** PersistentChatPoolFqdn n’est pas nécessaire si l’une des conditions suivantes est vraie: 
+**Remarque :** PersistentChatPoolFqdn n’est pas nécessaire si l’une des conditions suivantes est vraie : 
   
 - Il n’y a qu’un seul pool de serveurs de chat permanent.
     
@@ -97,9 +97,9 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>Configurer une salle existante
 
-Vous pouvez configurer une salle existante à l’aide de l’applet de passe **Set-CsPersistentChatRoom** . Par exemple, la commande suivante affecte User1 en tant que membre et présentateur, et Utilisateur2 en tant que responsable, dans la salle d’Auditorium testCat:
+Vous pouvez configurer une salle existante à l’aide de l’applet de passe **Set-CsPersistentChatRoom** . Par exemple, la commande suivante affecte User1 en tant que membre et présentateur, et Utilisateur2 en tant que responsable, dans la salle d’Auditorium testCat :
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
 Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
@@ -107,13 +107,13 @@ Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.co
 
  L’exemple suivant ajoute tous les utilisateurs de l’unité d’organisation NorthAmericaUsers dans Active Directory à la salle de conversation NorthAmerica :
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=contoso,DC=com"}
 ```
 
 L’exemple suivant ajoute tous les membres du groupe de distribution Finance à la même salle de conversation :
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=contoso,DC=com"}
 ```
 
@@ -125,15 +125,15 @@ Si l’historique de la salle de conversation persiste, le contenu est conservé
   
 Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés. En tant qu’administrateur, vous pouvez activer une salle qui a été désactivée, et vous n’avez pas besoin de recréer manuellement les paramètres.
   
-Vous pouvez désactiver une salle à l’aide de l’applet de passe **Set-CsPersistentChatRoom** et définir le paramètre disabled sur true:
+Vous pouvez désactiver une salle à l’aide de l’applet de passe **Set-CsPersistentChatRoom** et définir le paramètre disabled sur true :
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
 ```
 
 Pour activer une salle de conversation, définissez le paramètre Disabled sur False :
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
@@ -143,7 +143,7 @@ Pour obtenir des informations sur les salles configurées à utiliser au sein de
   
 La commande suivante renvoie des informations relatives à toutes les salles de configuration configurées pour une utilisation dans votre organisation :
   
-```
+```PowerShell
 Get-CsPersistentChatRoom
 ```
 
@@ -151,7 +151,7 @@ Get-CsPersistentChatRoom
 
 Vous pouvez supprimer un contenu d’une salle en utilisant l’applet de commande **Clear-CsPersistentChatRoom**. Par exemple, la commande suivante supprime tout le contenu de la salle de conversation permanente ITChatRoom qui a été ajouté à la salle jusqu’au 1er mars 2015 inclus :
   
-```
+```PowerShell
 Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDate "3/1/2015"
 ```
 
@@ -159,13 +159,13 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 Vous pouvez supprimer un ou plusieurs messages dans la base de données de conversation permanente et, le cas échéant, remplacer le message par un message par défaut ou un message fourni par l’administrateur, en utilisant l’applet de commande **Remove-CsPersistentChatMessage**. Par exemple, la commande suivante supprime tous les messages de la salle de conversation ITChatRoom qui étaient publiés par l’utilisateur kenmyer@contoso.com :
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
 ```
 
 L’exemple suivant remplace tous les messages supprimés par une note indiquant que le message n’est plus disponible :
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com" -ReplaceMessage "This message is no longer available."
 ```
 
@@ -175,7 +175,7 @@ Vous pouvez supprimer une salle en utilisant l’applet de commande **Remove-CsP
   
 Par exemple, la commande suivante supprime la salle de conversation RedmondChatRoom :
   
-```
+```PowerShell
 Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"
 ```
 

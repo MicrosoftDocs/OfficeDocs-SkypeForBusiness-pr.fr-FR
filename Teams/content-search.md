@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Apprenez-en davantage sur la recherche de contenu dans Microsoft teams et la recherche de conversations de canal à partir d’Exchange, de téléchargements de fichiers et de modifications de SharePoint et de modifications de OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231155"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991079"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 =====================================
@@ -54,18 +54,18 @@ Avant d’effectuer cette procédure, installez [SharePoint Online Management Sh
 
 1. Exécutez la commande suivante pour obtenir la liste de toutes les collections de sites SharePoint associées à des canaux privés au sein de l’équipe.
 
-    ```
+    ```PowerShell
     Get-SPOSite
     ```
 2. Exécutez le script PowerShell suivant pour obtenir la liste de toutes les URL de collection de sites SharePoint associées aux canaux privés de l’équipe et de l’ID du groupe d’équipe parent.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
 3. Pour chaque ID d’équipe ou de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents.
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
@@ -77,12 +77,12 @@ Avant d’effectuer cette procédure, vérifiez que vous avez installé la [dern
 
 1. Exécutez la commande suivante pour obtenir la liste des canaux privés de l’équipe.
 
-    ```
+    ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
 2. Exécutez la commande suivante pour obtenir la liste des membres du canal privé.
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans le cadre de votre requête de recherche de contenu.

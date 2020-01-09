@@ -9,27 +9,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Résumé: en savoir plus sur la fonction taux d’appel de Skype entreprise Server.'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : en savoir plus sur la fonction taux d’appel de Skype entreprise Server.'
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279857"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991739"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Évaluer mon appel dans Skype entreprise Server
 
-**Résumé:** En savoir plus sur la fonction taux d’appel dans Skype entreprise Server.
+**Résumé :** En savoir plus sur la fonction taux d’appel dans Skype entreprise Server.
 
 Le taux de l’appel est une nouvelle fonctionnalité de Skype entreprise 2015 et 2016 clients sur Windows, qui offre aux entreprises un moyen de faire part de leurs commentaires auprès des utilisateurs finaux.
 
-Le taux de fenêtre d’appel offre un système d’évaluation «Star» et des jetons prédéfinis pour les appels audio et vidéo. De plus, les administrateurs peuvent activer un champ personnalisé pour fournir des commentaires.
+Le taux de fenêtre d’appel offre un système d’évaluation « Star » et des jetons prédéfinis pour les appels audio et vidéo. De plus, les administrateurs peuvent activer un champ personnalisé pour fournir des commentaires.
 
 Les données Évaluer mon appel qui sont collectées ne sont pas incluses dans un rapport de surveillance existant mais font l’objet d’un rapport de surveillance distinct. Les données sont collectées dans des tables SQL accessibles en exécutant des requêtes SQL.
 
 ## <a name="rate-my-call-prerequisites"></a>Configuration requise pour Évaluer mon appel
 
-Pour que les utilisateurs de votre déploiement Skype entreprise Server puissent accéder à la fonctionnalité taux d’appel, l’ensemble des composants suivants doit être déployé et configuré:
+Pour que les utilisateurs de votre déploiement Skype entreprise Server puissent accéder à la fonctionnalité taux d’appel, l’ensemble des composants suivants doit être déployé et configuré :
 
 -  Vous devez avoir installé Skype entreprise Server (version 9160 ou une version ultérieure).
 
@@ -43,7 +43,7 @@ Pour que les utilisateurs de votre déploiement Skype entreprise Server puissent
 
 ## <a name="configure-rate-my-call"></a>Configurer Évaluer mon appel
 
-La fonctionnalité taux d’appel est activée par défaut dans la stratégie client avec les paramètres suivants:
+La fonctionnalité taux d’appel est activée par défaut dans la stratégie client avec les paramètres suivants :
 
 - Évaluer le pourcentage d’affichage de votre appel-10%
 
@@ -51,7 +51,7 @@ La fonctionnalité taux d’appel est activée par défaut dans la stratégie cl
 
 Il n’y a aucune action requise pour activer la fonctionnalité de base, mais si vous souhaitez un retour personnalisé, vous devez l’activer séparément. L’applet de commande Windows PowerShell suivante est un exemple d’activation d’un retour d’utilisateur final personnalisé et de la modification de l’intervalle de 10% en 80%.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -68,7 +68,7 @@ Les définitions de jetons sont codées ainsi :
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
+|deuxième  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |Écho  <br/> |
@@ -114,7 +114,7 @@ Les requêtes SQL suivantes sont utilisables :
 
  **Audio**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **Video**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 Les derniers clients Skype entreprise indiquent de nouveaux ID de jetons de\> problèmes (100) qui risquent de ne pas figurer dans votre [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, vous pouvez exécuter la commande SQL suivante sur la base de données d’analyse à l’aide de Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées dans le [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),
