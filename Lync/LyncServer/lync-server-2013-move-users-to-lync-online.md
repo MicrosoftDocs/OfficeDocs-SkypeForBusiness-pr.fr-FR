@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: déplacer des utilisateurs vers Lync Online'
+title: 'Lync Server 2013 : déplacer des utilisateurs vers Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826660"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991369"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +33,9 @@ ms.locfileid: "34826660"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-29_
+_**Dernière modification de la rubrique :** 2014-05-29_
 
-Avant de commencer à migrer des utilisateurs vers Lync Online, il est recommandé de sauvegarder les données utilisateur associées aux comptes à déplacer. Les données utilisateur ne sont pas toutes déplacées avec le compte d’utilisateur. Pour plus d’informations, reportez-vous à [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013: données](lync-server-2013-backup-and-restoration-requirements-data.md).
+Avant de commencer à migrer des utilisateurs vers Lync Online, il est recommandé de sauvegarder les données utilisateur associées aux comptes à déplacer. Les données utilisateur ne sont pas toutes déplacées avec le compte d’utilisateur. Pour plus d’informations, reportez-vous à [Configuration requise pour la sauvegarde et la restauration dans Lync Server 2013 : données](lync-server-2013-backup-and-restoration-requirements-data.md).
 
 <div>
 
@@ -53,15 +53,15 @@ Avant de commencer à déplacer des utilisateurs vers Lync Online, vous souhaite
 
 Pour déplacer un utilisateur sur site vers votre client Lync Online, exécutez les applets de commande suivantes dans Lync Server Management Shell, à l’aide des informations d’identification d’administrateur de votre client Microsoft Office 365. Remplacez « nomutilisateur@contoso.com » par les informations de l’utilisateur à déplacer.
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-Le format de l’URL spécifiée pour le paramètre **hostedmigrationoverrideurl doit correspondre** doit être l’URL du pool sur lequel le service de migration hébergé est en cours d’exécution, au format\<suivant:\>nom de domaine complet du pool https:///HostedMigration/ hostedmigrationService. svc.
+Le format de l’URL spécifiée pour le paramètre **hostedmigrationoverrideurl doit correspondre** doit être l’URL du pool sur lequel le service de migration hébergé est en cours d’exécution, au format\<suivant :\>nom de domaine complet du pool https:///HostedMigration/hostedmigrationService.svc.
 
 Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du Panneau de configuration Lync Online correspondant à votre compte client Office 365.
 

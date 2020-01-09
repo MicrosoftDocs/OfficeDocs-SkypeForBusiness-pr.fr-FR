@@ -10,12 +10,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846837"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992049"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34846837"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-03_
+_**Dernière modification de la rubrique :** 2012-12-03_
 
 Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serveur Edge pour la Fédération XMPP. Pour cela, procédez comme suit.
 
@@ -51,7 +51,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 5.  Dans configurer les composants serveur Lync, cliquez sur suivant. L’écran de synthèse indique les actions à mesure qu’elles sont exécutées. Lorsque le déploiement est effectué, cliquez sur Afficher le journal pour afficher les fichiers journaux disponibles. Cliquez sur Terminer pour terminer le déploiement.
 
-6.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l’étape 3: demandez, installez ou attribuez des certificats, cliquez de nouveau sur Exécuter.
+6.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l’étape 3 : demandez, installez ou attribuez des certificats, cliquez de nouveau sur Exécuter.
     
     <div class=" ">
     
@@ -107,17 +107,17 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 21. Copiez le fichier de demande et envoyez-le à votre autorité de certification publique.
 
-22. Après avoir reçu, importé et attribué le certificat public, vous devez arrêter et redémarrer les services Edge Server. Pour cela, entrez dans la console de gestion de Lync Server:
+22. Après avoir reçu, importé et attribué le certificat public, vous devez arrêter et redémarrer les services Edge Server. Pour cela, entrez dans la console de gestion de Lync Server :
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
-23. Pour configurer le système DNS pour la Fédération XMPP, ajoutez l’enregistrement SRV suivant à DNS\_externe: XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet d’accès du serveur Edge, avec une valeur de port de 5269. Par ailleurs, vous configurez un enregistrement hôte «A» (par exemple, xmpp.contoso.com) qui pointe vers l’adresse IP du serveur Edge d’accès.
+23. Pour configurer le système DNS pour la Fédération XMPP, ajoutez l’enregistrement SRV suivant à DNS\_externe : XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet d’accès du serveur Edge, avec une valeur de port de 5269. Par ailleurs, vous configurez un enregistrement hôte « A » (par exemple, xmpp.contoso.com) qui pointe vers l’adresse IP du serveur Edge d’accès.
     
     <div class=" ">
     
@@ -128,43 +128,43 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
     
     </div>
 
-24. Configurez une nouvelle stratégie d’accès externe pour permettre à tous les utilisateurs d’ouvrir Lync Server Management Shell sur le front end et de taper:
+24. Configurez une nouvelle stratégie d’accès externe pour permettre à tous les utilisateurs d’ouvrir Lync Server Management Shell sur le front end et de taper :
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
-    Activez l’accès XMPP pour les utilisateurs externes en entrant:
+    Activez l’accès XMPP pour les utilisateurs externes en entrant :
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
-25. Sur le serveur Edge sur lequel est déployé le proxy XMPP, ouvrez une invite de commandes ou une interface de ligne de commande™ Windows PowerShell, puis tapez les informations suivantes:
+25. Sur le serveur Edge sur lequel est déployé le proxy XMPP, ouvrez une invite de commandes ou une interface de ligne de commande™ Windows PowerShell, puis tapez les informations suivantes :
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     
-    La commande **netstat-ano** est une commande de statistiques réseau, les paramètres-port de type **ano** indiquant que netstat affiche toutes les connexions et les ports d’écoute, l’adresse et les ports sont affichés sous la forme d’une forme numérique et que l’ID du processus propriétaire est associé. avec chaque connexion. Le caractère **|** définit un canal sur la commande suivante, **findstr**ou rechercher une chaîne. Le nombre 5269 et 23456 transmis à FINDSTR en tant que paramètre indiquent à findstr d’effectuer une recherche dans la sortie de netstat pour les chaînes 5269 et 23456. Si XMPP est configuré correctement, le résultat des commandes doit avoir pour effet d’écouter les connexions d’écoute et de connexion établie, à la fois sur les interfaces externes (port 5269) et internes (port 23456) du serveur Edge.
+    La commande **netstat-ano** est une commande statistiques réseau, les paramètres **-ano** , qui affiche la totalité des connexions et des ports d’écoute, l’adresse et les ports sont affichés sous la forme d’une forme numérique et que l’ID du processus propriétaire est associé à chaque connexion. Le caractère **|** définit un canal sur la commande suivante, **findstr**ou rechercher une chaîne. Le nombre 5269 et 23456 transmis à FINDSTR en tant que paramètre indiquent à findstr d’effectuer une recherche dans la sortie de netstat pour les chaînes 5269 et 23456. Si XMPP est configuré correctement, le résultat des commandes doit avoir pour effet d’écouter les connexions d’écoute et de connexion établie, à la fois sur les interfaces externes (port 5269) et internes (port 23456) du serveur Edge.
     
-    Si les commandes ne renvoient pas de ports établis ou en écoute sur 5269 et 23456, vérifiez les points suivants:
+    Si les commandes ne renvoient pas de ports établis ou en écoute sur 5269 et 23456, vérifiez les points suivants :
 
 </div>
 
@@ -172,7 +172,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 ## <a name="troubleshooting-xmpp-federation"></a>Résoudre les problèmes de Fédération XMPP
 
-1.  Pour déterminer si le proxy XMPP est en cours d’exécution, procédez comme suit:
+1.  Pour déterminer si le proxy XMPP est en cours d’exécution, procédez comme suit :
 
 2.  Ouvrez une session sur le serveur Edge qui exécute le service proxy XMPP en tant que membre du groupe de l’administrateur local.
 
@@ -188,7 +188,7 @@ Pour déployer le proxy XMPP sur le serveur Edge, vous devez configurer le serve
 
 7.  Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-8.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+8.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 9.  Dans le générateur de topologie, sélectionnez le site pour le routage de Fédération XMPP et l’avis pour vérifier que l’affectation de l’itinéraire de la **Fédération de site** pour la **Fédération XMPP** indique votre serveur Edge ou votre pool Edge en tant qu’attribution de l’itinéraire de Fédération XMPP sélectionnée.
     

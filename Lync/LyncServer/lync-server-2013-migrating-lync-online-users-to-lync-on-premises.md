@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: migration des utilisateurs Lync Online vers Lync local'
+title: 'Lync Server 2013 : migration des utilisateurs Lync Online vers Lync local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d33888069b00eaf8a4d743f1e6ed3937d7a442bc
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 47fb8d24a2bb112ab07d35097414141b9eaaa606
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857490"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +33,7 @@ ms.locfileid: "34857490"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-11-13_
+_**Dernière modification de la rubrique :** 2015-11-13_
 
 <div class="">
 
@@ -55,17 +55,17 @@ _**Dernière modification de la rubrique:** 2015-11-13_
     
       - Pour permettre à vos utilisateurs d’utiliser l’authentification unique pour Lync Online, installez les services ADFS ( <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Active Directory Federation Services).
     
-      - Sur votre déploiement local, dans Lync Server Management Shell, entrez les applets de commande suivantes pour créer le fournisseur d’hébergement pour Lync Online:
+      - Sur votre déploiement local, dans Lync Server Management Shell, entrez les applets de commande suivantes pour créer le fournisseur d’hébergement pour Lync Online :
         
-           ```
+           ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
            ```
         
-           ```
+           ```PowerShell
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
-2.  Vérifiez que, sur votre serveur Edge local, vous disposez de la chaîne de certificats qui permet de se connecter à Lync Online, comme indiqué dans le tableau suivant. Vous pouvez télécharger cette chaîne à l’adresse suivante:https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
+2.  Vérifiez que, sur votre serveur Edge local, vous disposez de la chaîne de certificats qui permet de se connecter à Lync Online, comme indiqué dans le tableau suivant. Vous pouvez télécharger cette chaîne à l’adresse suivante :https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
 
 
     <table>
@@ -111,7 +111,7 @@ _**Dernière modification de la rubrique:** 2015-11-13_
 
 4.  Exécutez DirSync pour synchroniser les utilisateurs Lync Online avec les utilisateurs Lync locaux mis à jour.
 
-5.  Mettez à jour les enregistrements DNS pour acheminer l’ensemble du trafic SIP vers Lync local:
+5.  Mettez à jour les enregistrements DNS pour acheminer l’ensemble du trafic SIP vers Lync local :
     
       - Mettez à jour **lyncdiscover.contoso.com**  Un enregistrement pour pointer vers le nom de domaine complet (FQDN) du serveur proxy inverse local.
     
@@ -127,11 +127,11 @@ _**Dernière modification de la rubrique:** 2015-11-13_
     
     Pour déplacer un seul utilisateur, tapez ce qui suit :
     
-       ```
+       ```PowerShell
        $cred = Get-Credential
        ```
     
-       ```
+       ```PowerShell
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
@@ -139,7 +139,7 @@ _**Dernière modification de la rubrique:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Le format de l’URL spécifiée pour le paramètre **hostedmigrationoverrideurl doit correspondre** doit être l’URL du pool sur lequel le service de migration hébergé est en cours d’exécution, au format suivant: *nom de domaine complet\<\>du pool https:///HostedMigration/ hostedmigrationService. svc*.
+    Le format de l’URL spécifiée pour le paramètre **hostedmigrationoverrideurl doit correspondre** doit être l’URL du pool sur lequel le service de migration hébergé est en cours d’exécution, au format suivant : *nom de domaine complet\<\>https:///HostedMigration/hostedmigrationService.svc*.
     
     Vous pouvez déterminer l’URL du service de migration hébergée en affichant l’URL du Panneau de configuration Lync Online correspondant à votre compte client Office 365.
     
@@ -214,8 +214,8 @@ _**Dernière modification de la rubrique:** 2015-11-13_
     <tr class="odd">
     <td><p>msRTCSIP-UserEnabled</p></td>
     <td><p>Activé</p></td>
-    <td><p>True</p></td>
-    <td><p>True</p></td>
+    <td><p>Vrai</p></td>
+    <td><p>Vrai</p></td>
     </tr>
     </tbody>
     </table>
@@ -225,7 +225,7 @@ _**Dernière modification de la rubrique:** 2015-11-13_
     
     Notez que les réunions planifiées ne sont pas déplacées de Lync Online vers Lync local. Les utilisateurs doivent replanifier ces réunions après les avoir déplacées.
     
-    Une fois que les enregistrements DNS sont mis à jour et que tous les utilisateurs sont dirigés vers le site, l’attribut HostingProvider indique à l’utilisateur de Lync d’utiliser des enregistrements SRV ou de le diriger vers le fournisseur en ligne «sipfed.online.lync.com».
+    Une fois que les enregistrements DNS sont mis à jour et que tous les utilisateurs sont dirigés vers le site, l’attribut HostingProvider indique à l’utilisateur de Lync d’utiliser des enregistrements SRV ou de le diriger vers le fournisseur en ligne « sipfed.online.lync.com ».
 
 </div>
 

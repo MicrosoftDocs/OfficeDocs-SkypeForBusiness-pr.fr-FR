@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013; Créer des itinéraires de réseau interrégion
+title: Lync Server 2013 ; Créer des itinéraires de réseau interrégion
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -11,12 +11,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eff2c1dd75258451002a41e0f284c4ad05c9728
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9d234d959f434e9e2b96850add488ecd4eac952c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235056"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,13 +34,13 @@ ms.locfileid: "36235056"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-20_
+_**Dernière modification de la rubrique :** 2012-10-20_
 
 Un *itinéraire réseau interrégional* définit l’itinéraire entre deux régions du réseau. Chaque paire de zones réseau dans le déploiement de votre contrôle d’admission des appels nécessite un itinéraire réseau interrégional. Cela permet à chaque région réseau incluse dans le déploiement d’accéder à toute autre région.
 
 Lorsque les liaisons de zone définissent des limitations de bande passante pour les connexions entre les régions, un itinéraire interrégional détermine le chemin d’accès lié que la connexion traverse d’une région à l’autre.
 
-Pour plus d’informations sur l’utilisation des itinéraires réseau interrégional, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des itinéraires réseau interrégional, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
@@ -50,25 +50,25 @@ Pour plus d’informations sur l’utilisation des itinéraires réseau interré
 
   - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-Dans l’exemple de topologie, des itinéraires réseau interrégion doivent être définis pour chacune des paires de trois régions: Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC.
+Dans l’exemple de topologie, des itinéraires réseau interrégion doivent être définis pour chacune des paires de trois régions : Amérique du Nord/EMEA, EMEA/APAC et Amérique du Nord/APAC.
 
 <div>
 
 ## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>Pour créer des itinéraires réseau interrégion à l’aide de Lync Server Management Shell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande **New-CsNetworkInterRegionRoute** pour définir les itinéraires nécessaires. Par exemple, exécutez :
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
        ```
     

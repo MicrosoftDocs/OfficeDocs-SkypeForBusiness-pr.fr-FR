@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: mise à jour-CsAddressBook pour la gestion du carnet d’adresses'
+title: 'Lync Server 2013 : mise à jour-CsAddressBook pour la gestion du carnet d’adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22923d0227c75ee6f2055d4a2ac350a6df6b37bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7e10f9d52d9e4090601330cad44d5da03e69540
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846470"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +33,9 @@ ms.locfileid: "34846470"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Update-CsAddressBook localement: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
+Qui peut exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Update-CsAddressBook localement : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
@@ -53,11 +53,11 @@ L’applet de commande Update-CsAddressBook remplace la commande ABServer **. ex
 
 Par exemple :
 
-   ```
+   ```PowerShell
     Update-CsAddressBook
    ```
 
-   ```
+   ```PowerShell
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
    ```
 

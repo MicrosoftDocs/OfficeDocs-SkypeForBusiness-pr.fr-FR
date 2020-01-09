@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: premières étapes avant de commencer à migrer des utilisateurs de Lync Online vers Lync local'
+title: 'Lync Server 2013 : premières étapes avant de commencer à migrer des utilisateurs de Lync Online vers Lync local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,12 +10,12 @@ ms:contentKeyID: 62258123
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e278fcb1e63c1db1334e625765d65d5d556e934
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac0377c12cbda0d6080ecfe9b8e64fae08cbed59
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831142"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +33,9 @@ ms.locfileid: "34831142"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-08_
+_**Dernière modification de la rubrique :** 2014-05-08_
 
-Avant de commencer à déplacer des utilisateurs de Lync Online vers votre environnement local, assurez-vous que les conditions suivantes sont remplies:
+Avant de commencer à déplacer des utilisateurs de Lync Online vers votre environnement local, assurez-vous que les conditions suivantes sont remplies :
 
   - Votre environnement Lync Server local doit être entièrement déployé et validé. Pour plus d’informations, reportez-vous à [déploiement de Lync Server 2013](lync-server-2013-deploying-lync-server.md).
 
@@ -43,21 +43,21 @@ Avant de commencer à déplacer des utilisateurs de Lync Online vers votre envir
     
     Pour ce faire, vous devez d’abord installer le module Lync Online pour Windows PowerShell que vous trouverez ici [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911):.
     
-    Après avoir installé le module, vous pouvez établir une session distante en tapant les applets de commande suivantes dans Lync Server Management Shell:
+    Après avoir installé le module, vous pouvez établir une session distante en tapant les applets de commande suivantes dans Lync Server Management Shell :
     
-       ```
+       ```PowerShell
         Import-Module LyncOnlineConnector
        ```  
     
-       ```
+       ```PowerShell
         $cred = Get-Credential
        ``` 
     
-       ```
+       ```PowerShell
         $CSSession = New-CsOnlineSession -Credential $cred
        ```
     
-       ```
+       ```PowerShell
         Import-PSSession $CSSession -AllowClobber
        ```
     
@@ -65,7 +65,7 @@ Avant de commencer à déplacer des utilisateurs de Lync Online vers votre envir
   
     Pour plus d’informations sur l’utilisation du module Lync Online PowerShell, reportez-vous à la rubrique [utilisation de Windows PowerShell pour gérer Lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-  - Votre Lync Online doit être configuré pour l’espace d’adressage SIP partagé. Pour ce faire, commencez par commencer une session PowerShell distante avec Lync Online. Ensuite, exécutez l’applet de commande suivante:
+  - Votre Lync Online doit être configuré pour l’espace d’adressage SIP partagé. Pour ce faire, commencez par commencer une session PowerShell distante avec Lync Online. Ensuite, exécutez l’applet de commande suivante :
     
         Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 
