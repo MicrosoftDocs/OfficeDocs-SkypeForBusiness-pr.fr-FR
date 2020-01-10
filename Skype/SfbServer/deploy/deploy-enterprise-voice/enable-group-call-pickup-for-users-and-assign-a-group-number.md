@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Autorisez les utilisateurs à obtenir des appels de groupe dans Skype entreprise Server Voice et attribuez un numéro de groupe.
-ms.openlocfilehash: 78bdd78bf7e5bb3a9438a60b54a89664d22666ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8ded9fbf7e9a9c8034684c1477c6aad92bfc9e5f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240347"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002544"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Activez le prélèvement d’appel de groupe pour les utilisateurs et attribuez un numéro de groupe dans Skype entreprise.
 
@@ -36,13 +36,13 @@ Dès lors que vous ajoutez des numéros de groupe de cueillette d’appel à la 
 
 2. À partir de la ligne de commande, exécutez la commande suivante :
 
-   ```
+   ```console
    SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
    ```
 
     Par exemple, pour assigner le numéro de groupe 199 à un utilisateur, procédez comme suit :
 
-   ```
+   ```console
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 

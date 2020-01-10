@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
-description: 'Résumé: Découvrez comment tester les paramètres de configuration du Trunk SIP à l’aide de Skype entreprise Server Management Shell.'
-ms.openlocfilehash: 1ef034f0b1de187e472fc3049573e9453e5a9505
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment tester les paramètres de configuration du Trunk SIP à l’aide de Skype entreprise Server Management Shell.'
+ms.openlocfilehash: 7f0d4f4046a5bffbde4267b5de8ae651a35a2add
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240107"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001974"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Tester les paramètres de configuration du Trunk SIP dans Skype entreprise Server
  
-**Résumé:** Découvrez comment tester les paramètres de configuration du Trunk SIP à l’aide de Skype entreprise Server Management Shell.
+**Résumé :** Découvrez comment tester les paramètres de configuration du Trunk SIP à l’aide de Skype entreprise Server Management Shell.
   
 Les paramètres de configuration de jonction SIP (Session Initiation Protocol) définissent la relation et les possibilités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (RTC), un autocommutateur privé IP (PBX) ou le contrôleur SBC (Session Border Controller) du côté fournisseur de services. Ces paramètres spécifient, par exemple :
   
@@ -41,7 +41,7 @@ Les paramètres de configuration de jonction peuvent uniquement être testés à
 
 - Cette commande vérifie que les paramètres de configuration de jonction pour le site Redmond peuvent convertir correctement le numéro composé 4255551212.
     
-  ```
+  ```powershell
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
   Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
   ```

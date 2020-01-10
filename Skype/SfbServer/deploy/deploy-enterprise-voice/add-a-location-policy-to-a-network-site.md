@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Attribuez des stratégies d’emplacement E9-1-1 aux sites réseau dans Skype entreprise Server Voice.
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233866"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001424"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Ajouter une stratégie d’emplacement à un site réseau dans Skype entreprise Server
  
@@ -27,7 +27,7 @@ Attribuez des stratégies d’emplacement E9-1-1 aux sites réseau dans Skype en
   
 Les exemples suivants montrent comment ajouter la stratégie d’emplacement de **Redmond** définie dans [créer des stratégies d’emplacement dans Skype entreprise Server](create-location-policies.md) à un site réseau existant et comment créer un site réseau qui utilise la politique de localisation de **Redmond** .
   
-Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
   
 - **New-CsNetworkSite**
     
@@ -39,25 +39,25 @@ Pour plus d’informations sur l’utilisation des sites réseau, voir la docume
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>Pour affecter une stratégie d’emplacement à un site réseau existant
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez les applets de commande suivantes pour modifier un site réseau existant.
     
     Affectez la stratégie d’emplacement balisée **Redmond** à un site réseau existant appelé **Redmond**.
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>Pour affecter une stratégie d’emplacement à un nouveau site réseau
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande suivante pour créer un nouveau site réseau.
     
     Créez un site réseau dans la région réseau et affectez la stratégie d’emplacement balisée **Redmond**.
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

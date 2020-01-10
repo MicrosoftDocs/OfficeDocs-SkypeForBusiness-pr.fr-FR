@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Pour plus d’informations sur la procédure de déploiement d’une dérivation multimédia avec la version 2,0 et les versions ultérieures, voir la rubrique.
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287544"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003484"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Contournement du déploiement multimédia dans la version Cloud Connector
  
@@ -31,19 +31,19 @@ Bypass Media permet à un client d’envoyer des contenus multimédias directeme
 
 Pour activer la déviation du trafic multimédia, vous devez configurer le nom DNS du service web de déviation du trafic multimédia et activer la déviation du trafic multimédia dans la configuration de client. Le service web de déviation du trafic multimédia se déploie automatiquement sur chaque serveur de médiation. Un administrateur de client doit choisir un nom pour un service de voix hybride (site) et ce nom doit provenir d'un domaine SIP inscrit pour la voix hybride. Le nom du service doit être identique sur tous les appareils Cloud Connector et sur tous les sites RTC, quel que soit l’emplacement du client. Le service web doit être disponible uniquement en interne sur le réseau.
   
-Un administrateur client doit configurer un enregistrement DNS A dans la production interne Active Directory. Si vous disposez d’un environnement multisite complexe, reportez-vous à l’exemple [ci-dessous: enregistrements DNS du site Web bypass dans les environnements multisites complexes](deploy-media-bypass-in-cloud-connector.md#Example). L'enregistrement DNS doit uniquement résoudre les clients du réseau interne, il ne doit pas résoudre les clients du réseau externe.
+Un administrateur client doit configurer un enregistrement DNS A dans la production interne Active Directory. Si vous disposez d’un environnement multisite complexe, reportez-vous à l’exemple [ci-dessous : enregistrements DNS du site Web bypass dans les environnements multisites complexes](deploy-media-bypass-in-cloud-connector.md#Example). L'enregistrement DNS doit uniquement résoudre les clients du réseau interne, il ne doit pas résoudre les clients du réseau externe.
   
 Après avoir configuré le DNS, connectez-vous à Skype Entreprise Online en utilisant PowerShell à distance avec les informations d'identification d'administrateur Skype Entreprise. Pour plus d’informations, voir [configurer votre ordinateur pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 Dans la session PowerShell, entrez les commandes suivantes pour activer la déviation du trafic multimédia :
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Activer la déviation du trafic multimédia en deux étapes. L'applet de commande New-CsNetworkMedia n'enregistre pas immédiatement la nouvelle configuration, elle crée uniquement les paramètres en mémoire. L'objet créé par cette applet de commande doit être enregistré vers une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, reportez-vous à la section [exemple: Media Bypass site Web Records dans les environnements multisites complexes](deploy-media-bypass-in-cloud-connector.md#Example).
+Activer la déviation du trafic multimédia en deux étapes. L'applet de commande New-CsNetworkMedia n'enregistre pas immédiatement la nouvelle configuration, elle crée uniquement les paramètres en mémoire. L'objet créé par cette applet de commande doit être enregistré vers une variable, puis affecté à la propriété MediaBypassSettings de la configuration réseau. Pour plus d’informations, reportez-vous à la section [exemple : Media Bypass site Web Records dans les environnements multisites complexes](deploy-media-bypass-in-cloud-connector.md#Example).
   
 La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24 heures, c'est pourquoi Microsoft vous recommande d'exécuter les commandes nécessaires avant d'activer les utilisateurs.
   
@@ -51,20 +51,20 @@ La réplication entre les composants locaux et en ligne peut prendre jusqu'à 24
 
 Vous pouvez vérifier les paramètres de déviation du trafic multimédia comme suit.  
   
-Pour vérifier la réplication en ligne vers votre pool de clients, exécutez la commande suivante dans PowerShell distant:
+Pour vérifier la réplication en ligne vers votre pool de clients, exécutez la commande suivante dans PowerShell distant :
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 Pour vérifier la réplication locale, connectez-vous aux serveurs de médiation Cloud Connector, exécutez la commande suivante dans PowerShell et confirmez que enabled = true et AlwaysBypass = true
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Pour vérifier les paramètres du client, déconnectez-vous du client Skype entreprise, reconnectez-vous, puis vérifiez que le client a reçu l’URL du service comme suit:
+Pour vérifier les paramètres du client, déconnectez-vous du client Skype entreprise, reconnectez-vous, puis vérifiez que le client a reçu l’URL du service comme suit :
   
 1. Ouvrez %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
@@ -74,7 +74,7 @@ Pour vérifier les paramètres du client, déconnectez-vous du client Skype entr
 
 Les administrateurs clients peuvent modifier le nom DNS du service web en exécutant l'applet de commande suivante :
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -85,14 +85,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 Ce scénario peut être utile pour la résolution des problèmes et la maintenance. Pour désactiver le service, exécutez les applets de commande suivantes :
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Après avoir effectué la modification, la réplication de toutes les modifications sur tous les Cloud Connectors peut prendre du temps. Pour vérifier l’état de la réplication, exécutez l’applet de commande suivante dans PowerShell sur les serveurs de médiation Cloud Connector: 
+Après avoir effectué la modification, la réplication de toutes les modifications sur tous les Cloud Connectors peut prendre du temps. Pour vérifier l’état de la réplication, exécutez l’applet de commande suivante dans PowerShell sur les serveurs de médiation Cloud Connector : 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -102,7 +102,7 @@ Lorsque les modifications sont répliquées, le service web sur le serveur de m�
 
 Pour désactiver la déviation du trafic multimédia de façon permanente, un administrateur client doit exécuter les commandes suivantes : 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
@@ -119,9 +119,9 @@ Pour plus d’informations sur les stratégies DNS de Windows 2016, voir [utilis
   
 Voici un exemple de configuration pour une entreprise avec plusieurs sites utilisant une stratégie DNS de gestion du trafic basée sur la géolocalisation de Windows Server 2016.
   
-Le nom du service de contournement est «hybridvoice.adatum.biz».
+Le nom du service de contournement est « hybridvoice.adatum.biz ».
   
-Le site d’Amsterdam comporte quatre appareils Cloud Connector déployés avec les adresses IP du serveur de médiation suivantes:
+Le site d’Amsterdam comporte quatre appareils Cloud Connector déployés avec les adresses IP du serveur de médiation suivantes :
   
 - 192.168.1.45
     
@@ -131,7 +131,7 @@ Le site d’Amsterdam comporte quatre appareils Cloud Connector déployés avec 
     
 - 192.168.1.48
     
-Le site de Seattle comporte trois appareils Cloud Connector déployés avec les adresses IP du serveur de médiation suivantes:
+Le site de Seattle comporte trois appareils Cloud Connector déployés avec les adresses IP du serveur de médiation suivantes :
   
 - 10.10.1.8
     

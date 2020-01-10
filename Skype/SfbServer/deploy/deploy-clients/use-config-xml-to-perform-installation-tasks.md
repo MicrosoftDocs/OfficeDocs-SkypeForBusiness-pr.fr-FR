@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Résumé : comment utiliser le fichier Config.xml pour fournir des instructions d’installation supplémentaires.'
-ms.openlocfilehash: 31ee6c663822c2dab59a21fe5ca80c71cb81abf8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d561e4f6e3213ae7dff160b9b43e02f26ecc0522
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234821"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002934"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Utiliser config. xml pour effectuer des tâches d’installation dans les clients Skype entreprise
 
@@ -37,7 +37,7 @@ Même si l’outil de personnalisation Office est le principal outil pour l’in
 
 Nous vous recommandons d’utiliser le fichier config. xml pour configurer l’installation silencieuse de Skype entreprise. 
 
-Par défaut, le fichier config. XML qui est stocké dans le dossier de produit principal (par exemple, \ _Product_). WW) envoie le programme d’installation de ce produit. Par exemple, le fichier config. xml dans le dossier suivant installe Skype entreprise:
+Par défaut, le fichier config. XML qui est stocké dans le dossier de produit principal (par exemple, \ _Product_). WW) envoie le programme d’installation de ce produit. Par exemple, le fichier config. xml dans le dossier suivant installe Skype entreprise :
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les éléments config. xml fréquemment utilisés
 | **Élément**              | **Description**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync (cela fonctionne pour les clients Skype Entreprise)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui inclut les composants partagés qui interfèrent avec Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui inclut les composants partagés qui interfèrent avec Outlook : <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Display  <br/>           | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice = "Yes"                                                                                                                                                                                |
 | Journalisation  <br/>           | Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants : <br/>  Type = "désactivé"                                                                                                                                                                                       |
 | Paramètre  <br/>           | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Définition de l’ID = " *nom*" (le nom de la propriété du programme d’installation de Windows)  <br/>  Value = " *value*" (valeur à attribuer à la propriété)  <br/>                                                             |
@@ -57,7 +57,7 @@ Le tableau suivant répertorie les éléments config. xml fréquemment utilisés
 
 L’exemple suivant montre un fichier config. xml pour une installation silencieuse standard du client Skype entreprise. 
 
-```
+```xml
 <Configuration Product="Lync"> 
   <OptionState Id="LOBiMain" State="Absent" Children="Force" /> 
   <Display Level="None" CompletionNotice="No" AcceptEula="Yes" /> 
@@ -75,7 +75,7 @@ Des informations détaillées sur l’utilisation du fichier config. xml pour ef
 
 2. Recherchez les lignes qui contiennent les éléments à modifier.
 
-3. Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les séparateurs de commentaires, «\<!--» et «--\>». Par exemple, utilisez la syntaxe suivante :
+3. Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les séparateurs de commentaires, «\<!-- » et « --\>». Par exemple, utilisez la syntaxe suivante :
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

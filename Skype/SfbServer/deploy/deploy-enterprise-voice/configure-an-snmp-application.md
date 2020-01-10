@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Configurer une application SNMP pour qu’elle fonctionne avec E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: 2462c7af4473f8c29cf0e068ddc86b391d7e1df2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5941a7fee85b486577df4c79848274528ddab952
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233720"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001374"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurer une application SNMP dans Skype entreprise Server
  
@@ -34,11 +34,11 @@ Si une application SNMP est installée et que le service des informations de gé
   
 ### <a name="to-configure-the-snmp-application-url"></a>Pour configurer l’URL de l’application SNMP
 
-1.  Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1.  Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande suivante pour configurer l’URL de l’application SNMP. 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 

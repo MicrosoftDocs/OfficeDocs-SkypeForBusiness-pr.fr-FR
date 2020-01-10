@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Découvrez comment activer le système téléphonique dans les services vocaux Office 365 pour vos utilisateurs Skype entreprise.
-ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 902d2e1bad76c8275bfc8f4ce7ec7b4243b8572a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287502"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003464"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Activation des utilisateurs pour la version en ligne de Voix Entreprise et le Système téléphonique dans la messagerie vocale Office 365
  
@@ -42,13 +42,13 @@ Pour permettre à un utilisateur de système téléphonique dans Office 365 de v
     
 3. Tapez la commande ci-dessous, puis appuyez sur Entrée :
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. Tapez la commande ci-dessous, puis appuyez sur Entrée :
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -58,13 +58,13 @@ Pour permettre à un utilisateur de système téléphonique dans Office 365 de v
     
 6. Dans la fenêtre PowerShell, tapez la commande ci-dessous, puis appuyez sur Entrée :
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. Importez la session en tapant l’applet de commande suivante :
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -72,13 +72,13 @@ Pour permettre à un utilisateur de système téléphonique dans Office 365 de v
     
 8. Utilisez l’applet de commande Set-CsUser pour affecter les propriétés $EnterpriseVoiceEnabled et $HostedVoiceMail à votre utilisateur comme suit :
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     Par exemple :
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -112,9 +112,9 @@ Vous pouvez affecter des plans de numérotation par utilisateur avec Windows Pow
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Pour affecter un plan de numérotation par utilisateur à un seul utilisateur
 
-- Utilisez l’applet de connexion [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour attribuer le plan de numérotation de l’utilisateur RedmondDialPlan à l’utilisateur Ken Myer:
+- Utilisez l’applet de connexion [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour attribuer le plan de numérotation de l’utilisateur RedmondDialPlan à l’utilisateur Ken Myer :
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -122,7 +122,7 @@ Vous pouvez affecter des plans de numérotation par utilisateur avec Windows Pow
 
 - La commande suivante affecte le plan de numérotation par utilisateur RedmondDialPlan à tous les utilisateurs qui travaillent dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, consultez la documentation de l’applet de commande [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -133,7 +133,7 @@ Vous pouvez affecter des plans de numérotation par utilisateur avec Windows Pow
 
 - Utilisez l’applet de connexion [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) pour annuler l’affectation d’un plan de numérotation par utilisateur précédemment attribué à Ken Myer. Une fois l’affectation du plan de numérotation par utilisateur annulée, Ken Myer sera géré automatiquement à l’aide du plan de numérotation global ou du plan de numérotation à l’échelle du service affecté à son serveur d’inscriptions ou à sa passerelle PSTN. Un plan de numérotation à l’échelle du service est prioritaire par rapport à tout plan de numérotation global.
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -148,9 +148,9 @@ Système téléphonique dans Office 365 les utilisateurs doivent disposer d’un
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Pour affecter une stratégie de routage des communications vocales par utilisateur à un seul utilisateur
 
-- Utilisez l’applet de passe [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage vocale par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer:
+- Utilisez l’applet de passe [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) pour affecter la stratégie de routage vocale par utilisateur RedmondVoiceRoutingPolicy à l’utilisateur Ken Myer :
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -158,7 +158,7 @@ Système téléphonique dans Office 365 les utilisateurs doivent disposer d’un
 
 - La commande suivante affecte la stratégie de routage des communications vocales par utilisateur RedmondVoiceRoutingPolicy à tous les utilisateurs travaillant dans la ville de Redmond. Pour plus d’informations sur le paramètre LdapFilter utilisé dans cette commande, voir [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -169,7 +169,7 @@ Système téléphonique dans Office 365 les utilisateurs doivent disposer d’un
 
 - Utilisez la fonction Grant-CsVoiceRoutingPolicy pour retirer toutes les stratégies de routage vocal par utilisateur précédemment affectées à Ken Myer. Une fois l’affectation de la stratégie de routage des communications vocales par utilisateur annulée, Ken Myer sera automatiquement géré à l’aide de la stratégie globale de routage des communications vocales.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

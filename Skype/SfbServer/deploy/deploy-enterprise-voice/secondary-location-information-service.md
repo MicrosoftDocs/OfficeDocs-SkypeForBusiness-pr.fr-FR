@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Configurez une base de données de source d’emplacement secondaire (SLS) pour E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: 47dd4015cde79536323cee3edc04ed546459a3f0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1743a4c5f49fcc01fe2f0878c596e0d1bb530621
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240164"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001994"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configurer un service d’information d’emplacement secondaire dans Skype entreprise Server
  
@@ -29,11 +29,11 @@ Skype entreprise Server fournit une interface de service Web que vous pouvez uti
   
 ### <a name="to-configure-a-secondary-location-database"></a>Pour configurer une base de données d’emplacements secondaires
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande ci-dessous pour configurer l’URL de l’emplacement de la base de données d’emplacements secondaires. 
     
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 

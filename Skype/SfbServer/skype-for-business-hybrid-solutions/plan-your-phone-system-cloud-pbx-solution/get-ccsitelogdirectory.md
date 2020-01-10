@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: 'L’applet de commande Get-CcSiteLogDirectory montre l’annuaire actuel où les journaux de niveau de site de la version Cloud Connector de Skype Entreprise sont conservés. '
-ms.openlocfilehash: bc47c2ea2d81e70538305daa98f97a35cf3d9e0a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a03c4c0cc3e993fb5e1426f3f27f76a68d081c26
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287285"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003354"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
@@ -24,7 +24,7 @@ L’applet de commande Get-CcSiteLogDirectory montre l’annuaire actuel où les
   
 Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 
@@ -37,9 +37,9 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant montre le dossier actuel dans lequel sont stockés les fichiers journaux pour le site Cloud Connector:
+L’exemple suivant montre le dossier actuel dans lequel sont stockés les fichiers journaux pour le site Cloud Connector :
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 

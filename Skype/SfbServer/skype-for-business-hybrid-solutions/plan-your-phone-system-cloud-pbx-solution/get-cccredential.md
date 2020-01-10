@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'L’applet de commande Get-CcCredential renvoie les informations du déploiement de la version Cloud Connector de Skype Entreprise. '
-ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287334"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003384"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -24,7 +24,7 @@ L’applet de commande Get-CcCredential renvoie les informations du déploiement
   
 Avec la version 2,0 et les versions ultérieures, vous pouvez également utiliser le paramètre-DisplayPassword pour afficher les mots de passe relatifs à TenantAdmin, DomainAdmin et VMAdmin.
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 L’exemple suivant renvoie les informations de l’administrateur de domaine du domaine de la machine virtuelle de Cloud Connector :
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
@@ -48,7 +48,7 @@ L’applet de commande Get-CcCredential renvoie une instance de l’objet System
   
 Si vous souhaitez obtenir le texte en clair du mot de passe de l’administrateur du domaine, assurez-vous que le mot de passe est enregistré par votre compte de connexion sur le serveur hôte, puis ouvrez une console PowerShell en tant qu’administrateur et exécutez le script suivant :
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);
@@ -62,7 +62,7 @@ Write-Host $text
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Obligatoire  <br/> | System.String <br/> | La valeur AccountType peut être l’une des valeurs suivantes : <br/>  VmAdmin: l’administrateur local des machines virtuelles du Cloud Connector. <br/>  DomainAdmin : L’administrateur de domaine du domaine de machine virtuelle de Cloud Connector. <br/>  SafeModeAdmin : SafeModeAdmin du contrôleur de domaine de machine virtuelle de Cloud Connector. <br/>  ExternalCert : Compte du certificat externe installé sur le serveur Edge. <br/>  TenantAdmin : Administrateur du client O365. <br/> |
+| AccountType <br/> |Obligatoire  <br/> | System.String <br/> | La valeur AccountType peut être l’une des valeurs suivantes : <br/>  VmAdmin : l’administrateur local des machines virtuelles du Cloud Connector. <br/>  DomainAdmin : L’administrateur de domaine du domaine de machine virtuelle de Cloud Connector. <br/>  SafeModeAdmin : SafeModeAdmin du contrôleur de domaine de machine virtuelle de Cloud Connector. <br/>  ExternalCert : Compte du certificat externe installé sur le serveur Edge. <br/>  TenantAdmin : Administrateur du client O365. <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

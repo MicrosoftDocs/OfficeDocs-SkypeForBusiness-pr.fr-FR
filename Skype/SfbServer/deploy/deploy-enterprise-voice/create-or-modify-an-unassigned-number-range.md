@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créer, modifier ou supprimer des plages de numéros non attribués pour l’application d’annonce dans Skype entreprise Server Voice. Cela affecte le traitement des appels à des numéros non attribués.
-ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c52cbf8e281307ad75023f3edc8b4ec1d77f4b42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233224"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001664"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Création ou modification d’une plage de numéros non affectées dans Skype entreprise Server
  
@@ -62,7 +62,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
     
    - Si le numéro de début ou de fin de plage inclut un numéro de poste, les numéros de début et de fin de plage doivent inclure un poste, et le numéro d’extension doit être le même pour les numéros de début et de fin de plage.
     
-   - Le numéro doit correspondre à l’expression régulière (tel:)? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?. Cela signifie que le numéro peut commencer par la chaîne «tel:» (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
+   - Le numéro doit correspondre à l’expression régulière (tel :) ? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Cela signifie que le numéro peut commencer par la chaîne « tel : » (si vous ne spécifiez pas cette chaîne, elle sera automatiquement ajoutée pour vous), un signe plus (+) et un chiffre 1 à 9. Le numéro de téléphone peut comporter jusqu’à 17 chiffres et peut être suivi d’un poste au format ;ext= suivi du numéro de poste.
     
 6. Dans **Service d’annonce**, effectuez l’une des opérations suivantes : 
     
@@ -91,7 +91,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
 
 1. Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans **autorisations de configuration de délégué**.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Utilisez **New-CsUnassignedNumber** pour créer une plage de numéros non attribués. Utilisez **Set-CsUnassignedNumber** pour modifier une plage de numéros non attribués existante.
     
@@ -102,31 +102,31 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
     
    - Pour créer une plage de numéros pour un service Annonces, exécutez :
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
      ```
 
    - Ou pour créer une plage de numéros pour le standard automatique de messagerie unifiée Exchange, exécutez :
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
      ```
 
      Exemple :
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
      ```
 
      Ou
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
      L’exemple suivant montre comment modifier les numéros d’une plage de numéros non attribués existante :
     
-     ```
+     ```powershell
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
      ```
 
@@ -150,17 +150,17 @@ Utilisez l’une des procédures suivantes pour configurer des plages de nombres
 
 1. Ouvrez une session sur l’ordinateur sur lequel Skype entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires tels que décrits dans **autorisations de configuration de délégué**.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Dans la ligne de commande, tapez :
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
    ```
 
     Par exemple :
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "Unassigned range 1"
    ```
 

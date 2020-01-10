@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: L’applet de connexion Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde de l’autorité de certification dans le dossier autorité de certification sous le répertoire de partage du site pour Skype entreprise version Cloud Connector.
-ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7036633eaf092130fc6e4acaebda39d04ff17df
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287089"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003294"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-L’applet de connexion Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde du&lt;service&gt;de l’autorité de certification «SiteRootDirectory \CA\SfB CCE. p12» dans le dossier ca sous le répertoire de partage de site pour Skype entreprise Cloud Connector Express. 
+L’applet de connexion Remove-CcCertificationAuthorityFile supprime le fichier de sauvegarde du&lt;service&gt;de l’autorité de certification « SiteRootDirectory \CA\SfB CCE. p12 » dans le dossier ca sous le répertoire de partage de site pour Skype entreprise version Cloud Connector. 
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -35,9 +35,9 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-Dans l’exemple suivant, le fichier de sauvegarde du service&lt;de&gt;l’autorité de certification «SiteRootDirectory \CA\SfB CCE. P12» est supprimé dans le dossier ca sous le répertoire de partage du site:
+Dans l’exemple suivant, le fichier de sauvegarde du service&lt;de&gt;l’autorité de certification « SiteRootDirectory \CA\SfB CCE. P12 » est supprimé dans le dossier ca sous le répertoire de partage du site :
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 

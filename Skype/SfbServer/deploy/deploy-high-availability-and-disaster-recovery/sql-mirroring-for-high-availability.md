@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir package de mise à jour cumulative 9 pour SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 61f479adaf5c93833ece65b9781e635d16d696cd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 19f315d643ea5b9379445bf7571e49e7d658f5ab
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240007"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003584"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déploiement de la mise en miroir SQL pour la haute disponibilité du serveur principal dans Skype entreprise Server 2015
 
@@ -50,7 +50,7 @@ Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en 
 > Le recours au générateur de topologie ou aux cmdlets pour configurer et supprimer la mise en miroir SQL est uniquement pris en charge lorsque les serveurs principal, miroir et témoin (le cas échéant) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, reportez-vous à votre documentation SQL Server.
 
 > [!IMPORTANT]
-> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.  > pour un changement de mise en miroir (par exemple, la modification de l’emplacement d’un miroir), vous devez utiliser le générateur de topologie pour effectuer les trois étapes suivantes:
+> Dès lors que vous apportez une modification à une relation de mise en miroir d’une base de données principale, vous devez redémarrer tous les serveurs frontaux du pool.  > pour un changement de mise en miroir (par exemple, la modification de l’emplacement d’un miroir), vous devez utiliser le générateur de topologie pour effectuer les trois étapes suivantes :
 
 1. Supprimez la mise en miroir de l’ancien serveur miroir.
 
@@ -125,15 +125,15 @@ Gardez les points suivants à l’esprit lorsque vous configurez la mise en miro
 
 Le moyen le plus simple de définir la mise en miroir consiste à utiliser le générateur de topologies, mais vous pouvez également le faire à l’aide de cmdlets.
 
-1. Ouvrez une fenêtre Skype entreprise Server 2015 Management Shell et exécutez l’applet de commande suivante:
+1. Ouvrez une fenêtre Skype entreprise Server 2015 Management Shell et exécutez l’applet de commande suivante :
 
-   ```
+   ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
    ```
 
     Par exemple :
 
-   ```
+   ```powershell
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
@@ -249,13 +249,13 @@ Le moyen le plus simple de définir la mise en miroir consiste à utiliser le g�
 
 Pour supprimer la mise en miroir SQL d’un pool dans le générateur de topologie, vous devez d’abord utiliser une applet de commande pour supprimer le miroir dans SQL Server. Vous pouvez ensuite utiliser le générateur de topologie pour supprimer le miroir de la topologie. Pour supprimer le miroir dans SQL Server, utilisez l’applet de commande suivante :
 
-```
+```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
 Par exemple, pour supprimer la mise en miroir et ignorer les bases de données pour les bases de données User, tapez ce qui suit :
 
-```
+```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
@@ -279,9 +279,9 @@ Utilisez cette procédure si vous devez supprimer le témoin d’une configurati
 
 3. Publiez la topologie.
 
-    Après avoir publié la topologie, le générateur de topologie vous verrez un message qui inclut les éléments suivants:
+    Après avoir publié la topologie, le générateur de topologie vous verrez un message qui inclut les éléments suivants :
 
-   ```
+   ```console
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 

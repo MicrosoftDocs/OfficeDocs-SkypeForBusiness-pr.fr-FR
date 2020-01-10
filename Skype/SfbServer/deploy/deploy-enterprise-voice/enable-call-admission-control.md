@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Activez le contrôle d’admission des appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: a1a2259c754af0275e473e6c0d175039450cecf7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e88c0e87f9c920420ce2091ac2d75d04db6ca98f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240494"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002564"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Activer le contrôle d’admission des appels dans Skype entreprise Server
  
@@ -29,17 +29,17 @@ Une fois que vous avez configuré vos paramètres réseau pour le déploiement d
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>Pour activer le contrôle d’admission des appels à l’aide de Skype entreprise Server Management Shell
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande Set-CsNetworkConfiguration pour activer le contrôle d’admission des appels dans votre réseau. Par exemple, exécutez :
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
     Si vous souhaitez désactiver le contrôle d’admission des appels dans votre réseau, exécutez la commande suivante :
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 

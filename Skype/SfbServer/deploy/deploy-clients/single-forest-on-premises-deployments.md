@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Consultez cette rubrique pour découvrir comment déployer Skype Room System dans la forêt unique d’un environnement local.
-ms.openlocfilehash: 2d73ee2313088c653f4362139cb431e55d92015b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 091500e1abc1a5e65bb060793aca0d5babe9fb35
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775262"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002944"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Déploiements locaux d’une forêt Skype Room System unique
  
@@ -31,13 +31,13 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
   
 1. Exécutez la commande PowerShell Exchange Management suivante :
     
-   ```
+   ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 2. Si vous prévoyez de créer une nouvelle boîte aux lettres, exécutez la commande suivante pour une organisation Exchange locale à forêt unique :
     
-   ```
+   ```powershell
    New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
@@ -45,7 +45,7 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
     
 3. Configurez le compte pour résoudre automatiquement les conflits en acceptant/rejetant des réunions. Les comptes de salle de conférence dotés du système de salle Skype dans Exchange peuvent être gérés par des personnes, mais notez qu’une réunion ne s’affiche pas dans le calendrier de l’écran d’accueil de Skype Room.
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
    ```
 
@@ -53,11 +53,11 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
     
    Pour rappeler aux organisateurs de la réunion de mettre en ligne une réunion Skype entreprise en ligne dans Outlook, exécutez la commande suivante pour configurer un alerte pour le nouveau compte : 
     
-   ```
+   ```powershell
    Set-Mailbox -Identity LRS01@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a Lync Meeting to take advantage of the enhanced meeting experience from LRS"
    ```
 4. Utilisez les commandes suivantes pour configurer des chaînes localisées. Si cela est requis par votre organisation, vous pouvez également ajouter des traductions personnalisées : 
-   ```
+   ```powershell
    $Temp = Get-Mailbox  LRS01@ contoso.com 
    $Temp.MailTipTranslations += "ES: Spanish translation of the message"
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
@@ -65,7 +65,7 @@ Pour utiliser un compte de boîte aux lettres de ressources (par exemple, LRS-01
 
 5. Facultatif : configurer le texte d’acceptation d’une réunion qui fournit aux utilisateurs des informations sur la salle de réunion Skype entreprise et ce à quoi vous pouvez vous attendre lorsqu’ils organisent et joignez des réunions. 
     
-   ```
+   ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
    ```
 
@@ -77,7 +77,7 @@ Par conséquent, si le compte est désactivé, vous devez l’activer dans Activ
   
 1. Dans Active Directory, exécutez la commande suivante pour activer la connexion au compte : 
     
-   ```
+   ```powershell
    Set-ADAccountPassword -Identity LRS01
    ```
 
@@ -85,7 +85,7 @@ Par conséquent, si le compte est désactivé, vous devez l’activer dans Activ
     
 2. Une fois le mot de passe configuré, exécutez la commande suivante pour activer le compte : 
     
-   ```
+   ```powershell
    Enable-ADAccount -Identity LRS01
    ```
 
@@ -100,18 +100,18 @@ Une fois que vous avez créé un compte de boîte aux lettres de ressources pour
   
 1. Exécutez la commande suivante pour activer le compte système de salle Skype dans un pool de serveurs Skype entreprise :
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
    ```
 
 2. Optional: Allow this account to make and receive PSTN phone calls by enabling the account for Enterprise Voice. La voix entreprise n’est pas requise pour les systèmes de salle Skype, mais si vous ne l’activez pas pour Enterprise Voice, le client système de salle Skype ne sera pas en mesure de fournir les fonctionnalités de numérotation RTC :
     
-   ```
+   ```powershell
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
    ```
 
 > [!NOTE]
-> Si vous activez Enterprise Voice pour le compte de la salle de conférence du système de salle Skype, assurez-vous de configurer une stratégie vocale restreinte adaptée à votre organisation. Si la salle de réunion Skype entreprise est une ressource publiquement disponible, n’importe qui peut l’utiliser pour rejoindre une réunion, planifiée ou ponctuelle. Après avoir rejoint une réunion, la personne peut appeler n’importe quel numéro. Dans Skype entreprise Server, la fonction de conférence rendez-vous de conférences utilise la politique vocale de l’utilisateur, dans le cas présent, le compte système de salle Skype utilisé pour rejoindre la réunion. Dans les versions précédentes de Lync Server, la stratégie vocale de l’organisateur est utilisée. Par conséquent, si un utilisateur d’une version antérieure de Lync Server planifie une salle de réunion et invite le compte de la salle de réunion Skype, tout le monde peut utiliser la salle de réunion Skype entreprise pour accéder à la réunion et peut composer un numéro national/régional ou international. nombre, tant que l’organisateur peut composer le numéro. 
+> Si vous activez Enterprise Voice pour le compte de la salle de conférence du système de salle Skype, assurez-vous de configurer une stratégie vocale restreinte adaptée à votre organisation. Si la salle de réunion Skype entreprise est une ressource publiquement disponible, n’importe qui peut l’utiliser pour rejoindre une réunion, planifiée ou ponctuelle. Après avoir rejoint une réunion, la personne peut appeler n’importe quel numéro. Dans Skype entreprise Server, la fonction de conférence rendez-vous de conférences utilise la politique vocale de l’utilisateur, dans le cas présent, le compte système de salle Skype utilisé pour rejoindre la réunion. Dans les versions précédentes de Lync Server, la stratégie vocale de l’organisateur est utilisée. Par conséquent, si un utilisateur d’une version antérieure de Lync Server planifie une salle de réunion et invite le compte de la salle de réunion Skype, tout le monde peut utiliser la salle de réunion Skype entreprise pour rejoindre la réunion et peut composer le numéro de téléphone national/régional ou international, à condition que l’organisateur puisse composer le numéro. 
   
 

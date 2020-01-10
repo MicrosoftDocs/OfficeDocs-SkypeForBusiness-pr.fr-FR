@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: L’applet de commande Set-CcSiteDirectory définit le répertoire dans lequel les fichiers de configuration de niveau site pour la version Cloud Connector de Skype Entreprise sont conservés. Le dossier contient les fichiers de configuration de base de VHD et Cloud Connector.
-ms.openlocfilehash: d2627da8bcd2cae5e388571457f4d6d9eb6813c9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0cc8d2a66adb831ea2d85381902eb9d3df7ba6a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286963"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003194"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -24,7 +24,7 @@ L’applet de commande Set-CcSiteDirectory définit le répertoire dans lequel l
   
 Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
   
-```
+```powershell
 Set-CcSiteDirectory [[-Path] <string>]
 ```
 
@@ -33,9 +33,9 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant définit le répertoire racine du site \\sur SiteShare\CloudConnector:
+L’exemple suivant définit le répertoire racine du site \\sur SiteShare\CloudConnector :
   
-```
+```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ```
 

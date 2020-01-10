@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processus de déploiement et étapes pour le groupe réponse dans Skype entreprise Server voix entreprise.
-ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233298"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001184"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processus de déploiement pour Response Group dans Skype entreprise
 
@@ -41,11 +41,11 @@ Pour configurer les groupes Response Group, vous devez être membre d’au moins
 |**CsViewOnlyAdministrator** <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |
 
 > [!NOTE]
-> **(1)** un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié. Un administrateur ou membre du groupe Active Directory délégué disposant des autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, administrateur, opérateurs de compte) doit ajouter un objet utilisateur au groupe de sécurité ou au groupe de la liste de contrôle pour l’utilisateur. Utilisez les fonctions indiquées. **(2)** uniquement pour les flux de travail attribués par le CsResponseGroupAdministrator à CsResponseGroupManager. **(3)** un responsable de groupe de réponse peut affecter un autre membre de CsResponseGroupManager à un flux de travail géré par le responsable actuel. **(4)** CsViewOnlyAdministrator ne peut exécuter que des applets de action de verbe «Get».
+> **(1)** un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié. Un administrateur ou membre du groupe Active Directory délégué disposant des autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, administrateur, opérateurs de compte) doit ajouter un objet utilisateur au groupe de sécurité ou au groupe de la liste de contrôle pour l’utilisateur. Utilisez les fonctions indiquées. **(2)** uniquement pour les flux de travail attribués par le CsResponseGroupAdministrator à CsResponseGroupManager. **(3)** un responsable de groupe de réponse peut affecter un autre membre de CsResponseGroupManager à un flux de travail géré par le responsable actuel. **(4)** CsViewOnlyAdministrator ne peut exécuter que des applets de action de verbe « Get ».
 
 ## <a name="response-group-configuration-prerequisites"></a>Conditions préalables à la configuration de Response Group
 
-Response Group nécessite les composants suivants:
+Response Group nécessite les composants suivants :
 
 - service d’application
 
@@ -59,7 +59,7 @@ Response Group nécessite les composants suivants:
 
 Tous ces composants sont installés par défaut lorsque vous déployez Enterprise Voice.
 
-Vous devrez peut-être effectuer les tâches suivantes avant de configurer Response Group:
+Vous devrez peut-être effectuer les tâches suivantes avant de configurer Response Group :
 
 - Activez les utilisateurs pour Lync Server 2013 et voix entreprise.
 
@@ -75,7 +75,7 @@ La première étape de la configuration d’un groupe de réponse consiste à cr
 
 Cette section ne vous concerne que si votre organisation doit se conformer aux normes FIPS (Federal Information Processing Standard).
 
-Pour respecter les normes FIPS, vous devez modifier le fichier d’application Web.config afin d’utiliser un autre algorithme de chiffrement une fois les services web installés. Vous devez préciser qu’ASP.NET utilise l’algorithme de chiffrement triple 3DES (Triple Data Encryption Standard) pour traiter les données d’état d’affichage. Dans le cas d’une application de groupe de réponse, cette exigence s’applique à l’outil de configuration de Response Group et à la console de connexion et de connexion de l’agent. Pour plus d’informations sur cette configuration requise, voir l’article de la base de connaissances Microsoft 911722, «vous pouvez recevoir un message d’erreur lorsque vous accédez à des pages Web ASP.NET dont ViewState est activé après la mise [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)à niveau de ASP.net 1,1 vers ASP.NET 2,0» à l’adresse.
+Pour respecter les normes FIPS, vous devez modifier le fichier d’application Web.config afin d’utiliser un autre algorithme de chiffrement une fois les services web installés. Vous devez préciser qu’ASP.NET utilise l’algorithme de chiffrement triple 3DES (Triple Data Encryption Standard) pour traiter les données d’état d’affichage. Dans le cas d’une application de groupe de réponse, cette exigence s’applique à l’outil de configuration de Response Group et à la console de connexion et de connexion de l’agent. Pour plus d’informations sur cette configuration requise, voir l’article de la base de connaissances Microsoft 911722, « vous pouvez recevoir un message d’erreur lorsque vous accédez à des pages Web ASP.NET dont ViewState est activé après la mise [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)à niveau de ASP.net 1,1 vers ASP.NET 2,0 » à l’adresse.
 
 Pour modifier le fichier Web.config, procédez comme suit :
 
@@ -83,17 +83,17 @@ Pour modifier le fichier Web.config, procédez comme suit :
 
 2. Dans le fichier Web. config, recherchez la `<system.web>` section.
 
-3. Ajoutez la section `<machineKey>` suivante dans la `<system.web>` section:
+3. Ajoutez la section `<machineKey>` suivante dans la `<system.web>` section :
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
 4. Enregistrez le fichier Web.config.
 
-5. Redémarrez le service Internet Information Services (IIS) en exécutant la commande suivante à l’invite de commandes:
+5. Redémarrez le service Internet Information Services (IIS) en exécutant la commande suivante à l’invite de commandes :
 
-   ```
+   ```console
    iisreset
    ```
 
@@ -116,11 +116,11 @@ Pour assurer une prise en charge des caractères Yi, Meng ou Zang, vous devez mo
 
 - dbo.Workflows
 
-Pour SQL Server 2008 R2 et SQL Server 2012, utilisez le classement Latin_General_100 (accent sensible). Si vous utilisez ce classement, certains noms d’objet ne dépendent pas des minuscules/majuscules.
+Pour SQL Server 2008 R2 et SQL Server 2012, utilisez le classement Latin_General_100 (accent sur les majuscules). Si vous utilisez ce classement, certains noms d’objet ne dépendent pas des minuscules/majuscules.
 
-Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir la section [«utilisation de SQL Server Management Studio»](https://go.microsoft.com/fwlink/p/?linkId=196184). Pour modifier le classement, procédez comme suit :
+Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Management Studio. Pour plus d’informations sur l’utilisation de cet outil, voir la section [« utilisation de SQL Server Management Studio »](https://go.microsoft.com/fwlink/p/?linkId=196184). Pour modifier le classement, procédez comme suit :
 
-1. Assurez-vous que SQL Server Management Studio est configuré de manière à autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, reportez-vous à [la boîte de dialogue «Enregistrer (non autorisé)»](https://go.microsoft.com/fwlink/p/?linkId=196186). Pour plus d’informations sur la définition d’un assemblage de colonnes, voir [la section «Procédure: définir l’assemblage de colonnes (Visual Database Tools)»](https://go.microsoft.com/fwlink/p/?linkId=196185).
+1. Assurez-vous que SQL Server Management Studio est configuré de manière à autoriser les modifications nécessaires à la recréation des tables. Pour plus d’informations, reportez-vous à [la boîte de dialogue « Enregistrer (non autorisé) »](https://go.microsoft.com/fwlink/p/?linkId=196186). Pour plus d’informations sur la définition d’un assemblage de colonnes, voir [la section « Procédure : définir l’assemblage de colonnes (Visual Database Tools) »](https://go.microsoft.com/fwlink/p/?linkId=196185).
 
 2. À l’aide de Microsoft SQL Server Management Studio, connectez-vous à la base de données Rgsconfig.
 
@@ -135,7 +135,7 @@ Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Manageme
 |**Phase**|**Étapes**|**Autorisations**|**Documentation de déploiement**|
 |:-----|:-----|:-----|:-----|
 |Permettre aux utilisateurs de Skype entreprise et voix entreprise  <br/> |Autorisez les utilisateurs qui seront agents de Skype entreprise et voix entreprise. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En général, les utilisateurs sont activés pour Skype entreprise lors du déploiement du serveur Enterprise Edition ou Standard Edition Server. Les utilisateurs sont activés pour voix entreprise pendant le déploiement de voix entreprise.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Enable or Disable Users for Lync Server 2013 Preview](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx) <br/> [Activer les utilisateurs pour voix entreprise dans Skype entreprise Server](enable-users-for-enterprise-voice.md) <br/> |
-|Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail  <br/> |1. Utilisez le panneau de configuration Skype entreprise Server ou Skype entreprise Server Management Shell pour effectuer les opérations suivantes:  <br/> a. Créez et configurez des groupes d’agents.  <br/> b. Créez et configurez des files d’attente.  <br/> 2. Si vous le souhaitez, vous pouvez utiliser Skype entreprise Server Management Shell pour créer des heures et des jours fériés prédéfinis.  <br/> 3. à l’aide de l’outil de configuration de Response Group ou de Skype entreprise Server Management Shell, vous pouvez créer des flux de travail (groupes de recherche ou flux d’appels de réponse vocale interactifs), y compris des heures et des jours fériés personnalisés.  <br/> Vous pouvez accéder à l’outil de configuration de Response Group par le biais du panneau de configuration Skype entreprise Server.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [Facultatif Définir des heures d’activité de groupe de réponse dans Skype entreprise](optional-define-response-group-business-hours.md) <br/> [Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise](optional-define-response-group-holiday-sets.md) <br/> [Conception et création de flux de travail de groupe de réponse dans Skype entreprise](designing-and-creating-response-group-workflows.md) <br/> |
+|Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail  <br/> |1. Utilisez le panneau de configuration Skype entreprise Server ou Skype entreprise Server Management Shell pour effectuer les opérations suivantes :  <br/> a. Créez et configurez des groupes d’agents.  <br/> b. Créez et configurez des files d’attente.  <br/> 2. Si vous le souhaitez, vous pouvez utiliser Skype entreprise Server Management Shell pour créer des heures et des jours fériés prédéfinis.  <br/> 3. à l’aide de l’outil de configuration de Response Group ou de Skype entreprise Server Management Shell, vous pouvez créer des flux de travail (groupes de recherche ou flux d’appels de réponse vocale interactifs), y compris des heures et des jours fériés personnalisés.  <br/> Vous pouvez accéder à l’outil de configuration de Response Group par le biais du panneau de configuration Skype entreprise Server.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Create Response Group Agent Groups](https://technet.microsoft.com/library/2a80de17-ead0-46e8-8a27-7a4e233dbde0.aspx) <br/> [Create Response Group Queues](https://technet.microsoft.com/library/49cb86c7-2cfd-4a53-8408-d407475174ed.aspx) <br/> [Facultatif Définir des heures d’activité de groupe de réponse dans Skype entreprise](optional-define-response-group-business-hours.md) <br/> [Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise](optional-define-response-group-holiday-sets.md) <br/> [Conception et création de flux de travail de groupe de réponse dans Skype entreprise](designing-and-creating-response-group-workflows.md) <br/> |
 |(Facultatif) Personnaliser les paramètres au niveau de l’application  <br/> |Utilisez Skype entreprise Server Management Shell pour personnaliser la configuration par défaut de l’utilisation de la musique, le fichier audio de musique par défaut, la période de grâce aux retours de l’agent et la configuration du contexte d’appel.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gestion des paramètres du groupe de réponse au niveau de l’application dans Skype entreprise](managing-application-level-response-group-settings.md) <br/> |
 |(Facultatif) Déléguer la gestion des groupes Response Group  <br/> |Affectez aux utilisateurs le rôle CsResponseGroupManager pour déléguer la configuration de Response groups. Les responsables de groupe de réponse peuvent alors configurer les groupes de réponse qui leur sont attribués.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planning for Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx) <br/> |
 |Vérifier votre déploiement Response Group  <br/> |Testez la réponse aux appels des flux de travail de votre groupe de recherche et de votre système de réponse vocale interactive pour vérifier que la configuration fonctionne comme prévu.  <br/> |-  <br/> |-  <br/> |

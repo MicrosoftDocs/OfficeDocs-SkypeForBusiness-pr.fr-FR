@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: L’applet de connexion Enter-CcUpdate prépare le serveur hôte Cloud Connector Skype entreprise pour le processus de mise à jour en le plaçant en mode de maintenance. L’application arrête immédiatement tous les services, fin des appels en cours et rejette tout nouvel appel.
-ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 694faf7f03fb672ec61ee97db08fb61bcf0dc532
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34740057"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003454"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
 L’applet de connexion Enter-CcUpdate prépare le serveur hôte Cloud Connector Skype entreprise pour le processus de mise à jour en le plaçant en mode de maintenance. L’application arrête immédiatement tous les services, fin des appels en cours et rejette tout nouvel appel.
   
-```
+```powershell
 Enter-CcUpdate
 ```
 
@@ -37,7 +37,7 @@ Aucun
 
 L’exemple suivant prépare l’appliance au processus de mise à jour en entrant en mode maintenance.
   
-```
+```powershell
 Enter-CcUpdate 
 ```
 

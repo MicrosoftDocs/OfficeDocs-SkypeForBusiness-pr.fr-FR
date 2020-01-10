@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
-description: 'Résumé: configurez le rôle serveur d’interopérabilité vidéo (a) dans Skype entreprise Server.'
-ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : configurez le rôle serveur d’interopérabilité vidéo (a) dans Skype entreprise Server.'
+ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235680"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003054"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurer le serveur Video Interop dans Skype entreprise Server
  
-**Résumé:** Configurez le rôle serveur d’interopérabilité vidéo (a) dans Skype entreprise Server.
+**Résumé :** Configurez le rôle serveur d’interopérabilité vidéo (a) dans Skype entreprise Server.
   
  Configurez les paramètres qui seront associés aux Trunks vidéo à l’aide de Windows PowerShell. Une configuration de Trunk vidéo avec étendue globale est créée une fois le service à l’aide de l’installation. Cette configuration de Trunk vidéo est appliquée par le biais de tous les Trunks qui n’ont pas de configuration de Trunk vidéo avec une étendue plus spécifique. Notez que la configuration de Trunk vidéo est une collection de paramètres applicables aux Trunks vidéo.
   
@@ -32,33 +32,33 @@ Un plan de numérotation avec étendue globale est créé par déploiement de Sk
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Configurer l’utilisation de Windows PowerShell
 
-1. Créez une nouvelle configuration de Trunk vidéo (collection de paramètres) à utiliser sur le Trunk entre le directeur des communications unifiées (CallManager ou CUCM), à l’aide de l’applet de commande Windows PowerShell suivante:
+1. Créez une nouvelle configuration de Trunk vidéo (collection de paramètres) à utiliser sur le Trunk entre le directeur des communications unifiées (CallManager ou CUCM), à l’aide de l’applet de commande Windows PowerShell suivante :
     
-   ```
+   ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    S’il existe déjà un Trunk vidéo qui doit être modifié, utilisez l’applet de commande Windows PowerShell suivante:
+    S’il existe déjà un Trunk vidéo qui doit être modifié, utilisez l’applet de commande Windows PowerShell suivante :
     
-   ```
+   ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
-    Pour afficher les paramètres associés à une configuration de Trunk vidéo particulière, utilisez l’applet de commande Windows PowerShell suivante:
+    Pour afficher les paramètres associés à une configuration de Trunk vidéo particulière, utilisez l’applet de commande Windows PowerShell suivante :
     
-   ```
+   ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
     Pour supprimer une configuration de Trunk vidéo particulière, utilisez l’applet de commande Windows PowerShell suivante (Notez que la configuration de Trunk vidéo avec étendue globale) est appliquée si une configuration de Trunk vidéo de niveau supérieur n’est pas spécifiquement définie pour un Trunk particulier.
     
-   ```
+   ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
-2. Établissez un plan de numérotation à associer au Trunk, à l’aide des applets de commande Windows PowerShell suivantes:
+2. Établissez un plan de numérotation à associer au Trunk, à l’aide des applets de commande Windows PowerShell suivantes :
     
-   ```
+   ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
    New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
    Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"
@@ -82,7 +82,7 @@ Les applets de décision Windows PowerShell pour la configuration de Trunk vidé
   
  **EnableSessionTimer** Ce paramètre active ou désactive les minuteurs de session à l’extrémité de chaque boîte de dialogue SIP associée au Trunk vidéo SIP. La valeur par défaut est **False**.
   
- **ForwardErrorCorrectionType** Ce paramètre est utilisé pour déterminer si la correction d’erreur de transfert (FEC) pour les flux vidéo doit être appliquée sur la jambe entre le serveur Video Interop et une passerelle vidéo. La définition de ForwardErrorCorrectionType sur «None» désactive la fonction FEC entre et la passerelle vidéo/VTC. La définition de ForwardErrorCorrectionType sur «Cisco» autorise la compatibilité FEC avec les passerelles vidéo de Cisco, telles que Cisco Unified Communications Manager (CUCM). La valeur par défaut est **Aucun**.
+ **ForwardErrorCorrectionType** Ce paramètre est utilisé pour déterminer si la correction d’erreur de transfert (FEC) pour les flux vidéo doit être appliquée sur la jambe entre le serveur Video Interop et une passerelle vidéo. La définition de ForwardErrorCorrectionType sur « None » désactive la fonction FEC entre et la passerelle vidéo/VTC. La définition de ForwardErrorCorrectionType sur « Cisco » autorise la compatibilité FEC avec les passerelles vidéo de Cisco, telles que Cisco Unified Communications Manager (CUCM). La valeur par défaut est **Aucun**.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,19 +12,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 'Résumé: Découvrez comment déployer des serveurs Edge dans votre environnement Skype entreprise Server.'
-ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment déployer des serveurs Edge dans votre environnement Skype entreprise Server.'
+ms.openlocfilehash: e912e4c0b75781805a0e691bc81794119f62fe9c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233883"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001444"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Déploiement de serveurs Edge dans Skype entreprise Server
  
-**Résumé:** Découvrez comment déployer des serveurs Edge dans votre environnement Skype entreprise Server.
+**Résumé :** Découvrez comment déployer des serveurs Edge dans votre environnement Skype entreprise Server.
   
-Les sections suivantes décrivent les étapes devant être suivies après le déploiement de Skype entreprise Server pour les déploiements de [serveur Edge dans la documentation de Skype entreprise Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Les étapes de déploiement sont les suivantes :
+Les sections suivantes décrivent les étapes devant être suivies après le déploiement de Skype entreprise Server [pour les déploiements de serveur Edge dans la documentation de Skype entreprise Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . Les étapes de déploiement sont les suivantes :
   
 - Interfaces réseau
     
@@ -45,7 +45,7 @@ Comme indiqué dans la rubrique planification, vous allez configurer votre inter
     > [!NOTE]
     > Les sous-réseaux interne et externe ne doivent pas être routables entre eux. 
   
-2. Sur votre interface externe, vous configurez l' **une** des options suivantes:
+2. Sur votre interface externe, vous configurez l' **une** des options suivantes :
     
    a. Trois adresses IP statiques sur le sous-réseau de périmètre externe et pointez la passerelle par défaut vers l’interface interne du pare-feu externe. Configurez les paramètres DNS de l’adaptateur de façon à ce qu’ils pointent vers une paire de serveurs DNS de périmètre.
     
@@ -62,7 +62,7 @@ Comme indiqué dans la rubrique planification, vous allez configurer votre inter
     > [!NOTE]
     > Les sous-réseaux interne et externe ne doivent pas être routables entre eux. 
   
-2. Sur votre interface externe, vous configurez l' **une** des options suivantes:
+2. Sur votre interface externe, vous configurez l' **une** des options suivantes :
     
    a. Trois adresses IP statiques du sous-réseau de périmètre externe. Vous devez également configurer la passerelle par défaut sur l’interface externe (par exemple, pour définir le routeur Internet ou le pare-feu externe comme passerelle par défaut). Configurez les paramètres DNS de l’adaptateur de manière à ce qu’ils pointent vers un serveur DNS externe, idéalement une paire de serveurs DNS externes.
     
@@ -117,15 +117,15 @@ Pour plus d’informations, consultez la documentation de planification des cert
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ma. Connectez-vous à Skype entreprise Server dans votre réseau interne en tant que membre du groupe administrateurs locaux.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;point. Ouvrez le **menu Démarrer**, puis **Exécutez** (ou effectuez une **recherche** et **exécution** ), puis tapez les informations suivantes:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;point. Ouvrez le **menu Démarrer**, puis **Exécutez** (ou effectuez une **recherche** et **exécution** ), puis tapez les informations suivantes :
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Par exemple:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Par exemple :
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
@@ -185,7 +185,7 @@ Pour plus d’informations, consultez la documentation de planification des cert
     
 ### <a name="3-create-the-certificate-request"></a>3. création de la demande de certificat
 
-&nbsp;&nbsp;&nbsp;un. Ouvrez une session sur l’un de vos serveurs Edge, démarrez l’Assistant Déploiement, **** puis cliquez sur **exécuter** (ou **exécuter à nouveau**, si vous avez déjà exécuté cet Assistant) dans l’Assistant déploiement.
+&nbsp;&nbsp;&nbsp;un. Ouvrez une session sur l’un de vos serveurs Edge, démarrez l’Assistant Déploiement, puis **cliquez sur** **exécuter** (ou **exécuter à nouveau**, si vous avez déjà exécuté cet Assistant) dans l’Assistant déploiement.
     
 &nbsp;&nbsp;&nbsp;p. Dans la page **Demande de certificat**, assurez-vous que l’option **Certificat Edge interne** est sélectionnée, puis cliquez sur **Demande**.
     
@@ -290,7 +290,7 @@ Pour plus d’informations, consultez la documentation de planification des cert
     
 &nbsp;&nbsp;&nbsp;touche. Dans la page de fin de l’Assistant, cliquez sur **Terminer**.
     
-&nbsp;&nbsp;&nbsp;grand. Une fois que vous avez terminé cette procédure, il est préférable d’ouvrir le composant logiciel enfichable Certificats MMC sur chaque serveur Edge, de développer l’option **certificats (ordinateur local)**, d’augmenter la qualité de service, de cliquer sur **certificats**et de vérifier que le bord interne **** le certificat est répertorié dans le volet Détails.
+&nbsp;&nbsp;&nbsp;grand. Une fois que vous avez terminé cette procédure, il est conseillé d’ouvrir le composant logiciel enfichable Certificats MMC sur chaque serveur Edge, de développer l’option **certificats (ordinateur local)**, de développer **personnel**, de cliquer sur **certificats**et de vérifier que le certificat de bord interne figure dans le volet Détails.
     
 ### <a name="external-edge-interface-certificates"></a>Certificats d’interface externe de serveur Edge
 
@@ -423,16 +423,16 @@ Pour plus d’informations, consultez la documentation de planification des cert
     
 &nbsp;&nbsp;&nbsp;touche. Dans la page de fin de l’Assistant, cliquez sur **Terminer**.
     
-&nbsp;&nbsp;&nbsp;grand. Une fois que vous avez terminé cette procédure, il est préférable d’ouvrir le composant logiciel enfichable Certificats MMC sur chaque serveur, d’étendre les **certificats (ordinateur local)**, de développer la **catégorie personnel**, de cliquer sur **certificats**et de vérifier que le bord interne le certificat est répertorié dans le volet Détails.
+&nbsp;&nbsp;&nbsp;grand. Une fois que vous avez terminé cette procédure, il est préférable d’ouvrir le composant logiciel enfichable Certificats MMC sur chaque serveur, de développer **certificats (ordinateur local)**, de **personnaliser**le mode de certification, de cliquer sur **certificats**et de vérifier que le certificat de bord interne figure dans le volet Détails.
     
    > [!NOTE]
    > Vous devez également configurer les certificats pour votre serveur de proxy inverse. 
   
 ## <a name="starting-the-edge-servers"></a>Démarrage des serveurs de périphérie
 
-Une fois l’installation terminée, vous devez démarrer les services sur chaque serveur Edge dans votre déploiement:
+Une fois l’installation terminée, vous devez démarrer les services sur chaque serveur Edge dans votre déploiement :
   
-1. Sur chaque serveur Edge, dans l' **Assistant Déploiement**, en regard de l' **étape 4: démarrer les services**, cliquez sur **exécuter**.
+1. Sur chaque serveur Edge, dans l' **Assistant Déploiement**, en regard de l' **étape 4 : démarrer les services**, cliquez sur **exécuter**.
     
 2. Dans la page **Démarrer les services Skype entreprise Server** , examinez la liste des services, puis cliquez sur **suivant** pour démarrer les services.
     

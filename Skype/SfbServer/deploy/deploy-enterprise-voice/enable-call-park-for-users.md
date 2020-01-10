@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Autorisez les utilisateurs à utiliser le parc d’appels dans Skype entreprise Server Voice.
-ms.openlocfilehash: 797b17cb3d9482d9059bedcbbc347c3dd592e478
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240374"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002554"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Activer le parc d’appels pour les utilisateurs de Skype entreprise
  
@@ -49,17 +49,17 @@ Vous pouvez activer le parc d’appels au niveau de l’étendue globale, ou à 
 
 1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle d’administrateur CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez :
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    Par exemple, pour activer le parc d’appels pour la stratégie vocale globale par défaut:
+    Par exemple, pour activer le parc d’appels pour la stratégie vocale globale par défaut :
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 

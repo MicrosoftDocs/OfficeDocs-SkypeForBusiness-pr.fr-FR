@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Pour plus d’informations sur la configuration des stratégies de géolocalisation Enhanced Emergency service (E9-1-1), consultez cette rubrique dans Skype entreprise Server Voice.
-ms.openlocfilehash: 24bcd891bd30a007411fd2436219c4c10ead0c24
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b7511de949e1c67fdf7a828d06826d22826f5694
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233495"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000874"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Créer des stratégies d’emplacement dans Skype entreprise Server
 
@@ -55,25 +55,25 @@ Pour plus d’informations, reportez-vous à la section [planifier des politique
 
 ### <a name="to-create-location-policies"></a>Pour créer des stratégies d’emplacement
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
     > [!NOTE]
     > CsLocationPolicy échouera si le paramètre pour **PstnUsage** ne figure pas déjà dans la liste Global de PstnUsages.
 
 2. Si vous le souhaitez, exécutez l’applet de commande ci-dessous pour modifier la stratégie d’emplacement globale :
 
-   ```
+   ```powershell
    Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
    ```
 
 3. Pour créer une stratégie d’emplacement avec balise, exécutez l’opération ci-dessous.
 
-   ```
+   ```powershell
    New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
    ```
 
 4. Exécutez l’applet de commande ci-dessous pour appliquer la stratégie d’emplacement avec balise créée lors de l’étape 3 à une stratégie d’utilisateur.
 
-   ```
+   ```powershell
    (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
    ```

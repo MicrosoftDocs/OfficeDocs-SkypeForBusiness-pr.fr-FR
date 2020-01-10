@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Créez ou modifiez une file d’attente de Response Group dans Skype entreprise Server Voice.
-ms.openlocfilehash: b58ec9065eea1cc2dd8686b07ea798ac71c460fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9027c239c92c7c04b9de8b5579d7ebb73069b1a3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233453"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001704"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Création ou modification d’une file d’attente dans Skype entreprise
  
@@ -69,9 +69,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP: * \<\>nom_utilisateur*@ *\<\> nom_domaine* (pour par exemple, sip:bob@contoso.com).
+   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : * \<nom d'\>utilisateur*@ *\<nom_domaine\> * (par exemple, SIP :Bob@contoso.com).
     
-   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone dans le format SIP: * \<numéro\>*@ *\<NomDomaine\>* (par exemple, SIP:+14255550121@contoso.com).
+   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone dans le format SIP : * \<numéro\>*@ *\<nom_domaine\> * (par exemple, SIP :+14255550121@contoso.com).
     
    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP _ \<:\>nom d'_@ _\<utilisateur NomDomaine\>_.
     
@@ -87,9 +87,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP: * \<\>nom_utilisateur*@ *\<\> nom_domaine* (pour par exemple, sip:bob@contoso.com).
+   - Pour transférer l’appel vers la messagerie vocale, cliquez sur **transférer vers la messagerie vocale**, puis dans le champ **adresse SIP** , tapez une adresse de messagerie vocale au format SIP : * \<nom d'\>utilisateur*@ *\<nom_domaine\> * (par exemple, SIP :Bob@contoso.com).
     
-   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone dans le format SIP: * \<numéro\>*@ *\<NomDomaine\>* (par exemple, SIP:+14255550121@contoso.com).
+   - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **transférer vers le numéro de téléphone**, puis dans le champ **adresse SIP** , tapez le numéro de téléphone dans le format SIP : * \<numéro\>*@ *\<nom_domaine\> * (par exemple, SIP :+14255550121@contoso.com).
     
    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **transférer vers l’adresse SIP**, puis dans le champ **adresse SIP** , tapez l’URI de l’utilisateur au format SIP _ \<:\>nom d'_@ _\<utilisateur NomDomaine\>_.
     
@@ -104,17 +104,17 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     > [!NOTE]
     > Si vous êtes l’un des responsables des groupes Response Group délégués d’un flux de travail géré, vous pouvez créer ou modifier des groupes d’agents et des files d’attente, puis affecter des groupes d’agents à des files d’attente. 
   
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Créez le message à lire lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Par exemple :
     
-   ```
+   ```console
    "All agents are currently busy. Please call back later."
    ```
 
@@ -123,7 +123,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
   
 4. Définissez l’action à exécuter lorsque le seuil d’expiration de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -132,19 +132,19 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
   
     Par exemple :
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
    ```
 
 5. Créez le message à lire lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Par exemple :
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
@@ -153,7 +153,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
   
 6. Définissez l’action à exécuter lorsque le seuil de saturation de la file d’attente est atteint, puis enregistrez-le dans une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -162,19 +162,19 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
   
     Par exemple :
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
 7. Récupérez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
 8. Obtenez l’identité du groupe d’agents à affecter à la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
    ```
 
@@ -183,19 +183,19 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
   
 9. Créez la file d’attente. À partir de la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
    ```
 
    Exemple :
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
 10. Vérifiez que la file d’attente est créée. Exécutez la commande suivante :
     
-    ```
+    ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 

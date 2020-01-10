@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: L’applet de commande Stop-CcLogging interrompt la création de journaux d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: dcc62e8ec772912a8275f5321a6c91e28dde8c25
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4528f7c1458093874f59f347585a736666a9ea08
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286935"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003164"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
 L’applet de commande Stop-CcLogging interrompt la création de journaux d'appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
   
-```
+```powershell
 Stop-CcLogging [-RemoveCache]
 ```
 
@@ -33,7 +33,7 @@ Stop-CcLogging [-RemoveCache]
 
 L’exemple suivant interrompt la création de journaux d'appels entrants et sortants :  
   
-```
+```powershell
 Stop-CcLogging
 ```
 
@@ -41,7 +41,7 @@ Stop-CcLogging
 
 L’exemple suivant interrompt la création de journaux d'appels entrants et sortants et nettoie les fichiers en mémoire :
   
-```
+```powershell
 Stop-CcLogging -RemoveCache
 ```
 

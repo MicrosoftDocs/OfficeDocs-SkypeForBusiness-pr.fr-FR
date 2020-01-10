@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Découvrez comment mettre à niveau le déploiement de votre édition Cloud Connector.
-ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c340b7325c95d25212c9c1f77f9379a25708cea8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286626"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002044"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
@@ -51,7 +51,7 @@ La mise à jour automatique nécessite le fonctionnement du service de connecteu
     
   - Téléchargez le fichier .msi de la nouvelle version.  
     
-  - Désinstaller l’ancien fichier MSI; Installez le nouveau fichier msi.
+  - Désinstaller l’ancien fichier MSI ; Installez le nouveau fichier msi.
     
   - Téléchargez la nouvelle version de Skype entreprise bits.
     
@@ -62,7 +62,7 @@ La mise à jour automatique nécessite le fonctionnement du service de connecteu
   - Nettoyez l’ancienne appliance puis basculez la connexion réseau vers la nouvelle appliance.
     
 > [!NOTE]
->  Lors de la mise à jour d’un connecteur Cloud vers une nouvelle version, il est possible que les applets de construction Cloud Connector ne soient pas mises à jour. Cela peut se produire, par exemple, si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique. Pour charger les applets de commande mises à jour, vous pouvez effectuer l’une des opérations suivantes: > Fermez PowerShell sur le périphérique Cloud Connector, puis rouvrez PowerShell. > ou vous pouvez exécuter import-module CloudConnector-force.
+>  Lors de la mise à jour d’un connecteur Cloud vers une nouvelle version, il est possible que les applets de construction Cloud Connector ne soient pas mises à jour. Cela peut se produire, par exemple, si une fenêtre PowerShell reste ouverte lors de la mise à jour automatique. Pour charger les applets de commande mises à jour, vous pouvez effectuer l’une des opérations suivantes : > Fermez PowerShell sur le périphérique Cloud Connector, puis rouvrez PowerShell. > ou, vous pouvez exécuter import-module CloudConnector-force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Mise à niveau d’un site unique vers une nouvelle version
 <a name="BKMK_Upgrade"> </a>
@@ -77,33 +77,33 @@ Si le site comporte un seul équipement que vous souhaitez mettre à niveau, pro
     
 4. Démarrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour enregistrer l’appliance actuelle :
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 5. Exécutez l’applet de commande suivante pour télécharger la dernière version :
     
-   ```
+   ```powershell
    Start-CcDownload
    ```
 
 6. Exécutez l’applet de commande suivante pour démarrer l’installation :  
     
-   ```
+   ```powershell
    Install-CcAppliance -Upgrade
    ```
 
 7. Exécutez l’applet de commande suivante pour activer le nouveau déploiement et désactiver la version précédente :
     
-   ```
+   ```powershell
    Switch-CcVersion
    ```
 
 Si le site comporte plusieurs équipements, suivez la procédure précédente pour les mettre à niveau l’un après l’autre.
   
-Si vous voulez mettre à jour les informations d’identification de l’administrateur de domaine, de l’administrateur de l’ordinateur virtuel, de l’administrateur du mode sans échec et de l’administrateur client, vous pouvez exécuter l’applet de connexion avec le paramètre _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification:
+Si vous voulez mettre à jour les informations d’identification de l’administrateur de domaine, de l’administrateur de l’ordinateur virtuel, de l’administrateur du mode sans échec et de l’administrateur client, vous pouvez exécuter l’applet de connexion avec le paramètre _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification :
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -111,7 +111,7 @@ Puis, lors de la mise à niveau vers la nouvelle version, vous serez invité à 
   
 Si vous souhaitez réinitialiser uniquement les informations d’identification d’administrateur de clients, exécutez l’applet de commande suivante :
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 

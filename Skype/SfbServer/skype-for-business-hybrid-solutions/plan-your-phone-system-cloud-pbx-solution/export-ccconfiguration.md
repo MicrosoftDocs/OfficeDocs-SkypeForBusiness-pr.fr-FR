@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Exporte la configuration de Skype entreprise version Cloud Connector vers un fichier local sur le serveur hôte Cloud Connector Skype entreprise.
-ms.openlocfilehash: 7548b2fba602364d98c7540607660ccc57710654
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cb3ea5a48c4e8911dc94526f85a517082d057b6e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287418"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003434"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
 Exporte la configuration de Skype entreprise version Cloud Connector vers un fichier local sur le serveur hôte Cloud Connector Skype entreprise.
   
-```
+```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 
 L’exemple suivant définit le paramètre path pour le chemin d’accès complet au fichier et exporte les configurations vers ce fichier.
   
-```
+```powershell
 Export-CcConfiguration -Path "C:\test\CloudConnector.ini" 
 ```
 

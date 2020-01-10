@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Cet article vous guide dans la procédure de configuration d’une installation de Skype entreprise Server existante pour utiliser le service de mobilité et permettre à vos appareils mobiles de profiter des fonctionnalités de mobilité de Skype entreprise Server.
-ms.openlocfilehash: 910e23e8aec18d36c3a7e4bda9e97828fb498802
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3e39c354fd77d7ac36e3a4c36ed7e36e1d8ffbbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234573"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002864"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déploiement et configuration de la mobilité pour Skype entreprise Server  
  
@@ -41,7 +41,7 @@ Toutes les sections suivantes comprennent des étapes qui impliquent que vous ay
 ## <a name="create-dns-records"></a>Créer des enregistrements DNS
 <a name="CreateDNSRec"> </a>
 
-Vous pouvez déjà disposer de ces éléments dans le cadre de votre environnement Skype entreprise Server, mais vous devez créer les enregistrements suivants pour que la découverte automatique fonctionne:
+Vous pouvez déjà disposer de ces éléments dans le cadre de votre environnement Skype entreprise Server, mais vous devez créer les enregistrements suivants pour que la découverte automatique fonctionne :
   
 - un enregistrement DNS interne afin de prendre en charge les utilisateurs mobiles qui se connectent depuis le réseau de votre organisation ;
     
@@ -140,7 +140,7 @@ Ces enregistrements sont soit des enregistrements de noms (d'hôte) A, soit des 
 ## <a name="modify-certificates"></a>Modifier les certificats
 <a name="ModCerts"> </a>
 
-Si vous avez des questions sur la planification des certificats, nous avons documenté le [projet dans notre plan de mobilité pour Skype entreprise Server](../plan-your-deployment/mobility.md) . Une fois que vous avez examiné ce qui suit, nous vous guidons à travers les étapes suivantes:
+Si vous avez des questions sur la planification des certificats, nous avons documenté le [projet dans notre plan de mobilité pour Skype entreprise Server](../plan-your-deployment/mobility.md) . Une fois que vous avez examiné ce qui suit, nous vous guidons à travers les étapes suivantes :
   
 - Dois-je obtenir de nouveaux certificats ?
     
@@ -158,7 +158,7 @@ Si vous avez des questions sur la planification des certificats, nous avons docu
     
 3. Vous devrez absolument savoir quels certificats ont été affectés avant de pouvoir ajouter un certificat mis à jour. À partir de la ligne de commande, saisissez ce qui suit :
     
-   ```
+   ```powershell
    Get-CsCertificate
    ```
 
@@ -168,35 +168,35 @@ Si vous avez des questions sur la planification des certificats, nous avons docu
     
 ### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>Demander un nouveau certificat ou de nouveaux certificats auprès de votre autorité de certification (CA)
 
-1. Après avoir vérifié les entrées SAN dont vous disposez, vous savez que vous avez un **certificat unique** (la vérification ayant été effectuée en suivant la procédure décrite précédemment) et vous savez que vous ne disposez pas de toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée auprès de votre autorité de certification. Ouvrez votre PowerShell Skype entreprise Server:
+1. Après avoir vérifié les entrées SAN dont vous disposez, vous savez que vous avez un **certificat unique** (la vérification ayant été effectuée en suivant la procédure décrite précédemment) et vous savez que vous ne disposez pas de toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée auprès de votre autorité de certification. Ouvrez votre PowerShell Skype entreprise Server :
     
    - Pour un SAN de service de découverte automatique (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - À présent, si vous avez plusieurs domaines SIP, vous ne pouvez pas utiliser le paramètre AllSipDomain comme dans l’exemple ci-dessus. Vous devrez plutôt utiliser le paramètre DomainName. De plus, lorsque vous utilisez le paramètre DomainName, vous devez définir le nom de domaine complet pour les enregistrements lyncdiscoverinternal et lyncdiscover. En voici un exemple (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-2. Ou, après avoir vérifié les entrées SAN dont vous disposez, vous savez que vous avez **plusieurs certificats** qui ne disposent pas de toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée auprès de votre autorité de certification. Ouvrez votre PowerShell Skype entreprise Server:
+2. Ou, après avoir vérifié les entrées SAN dont vous disposez, vous savez que vous avez **plusieurs certificats** qui ne disposent pas de toutes les entrées dont vous avez besoin. Une nouvelle demande de certificat doit être effectuée auprès de votre autorité de certification. Ouvrez votre PowerShell Skype entreprise Server :
     
    - Pour un SAN de service de découverte automatique (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
    - À présent, si vous avez plusieurs domaines SIP, vous ne pouvez pas utiliser le paramètre AllSipDomain comme dans l’exemple ci-dessus. Vous devrez plutôt utiliser le paramètre DomainName. De plus, lorsque vous utilisez le paramètre DomainName, vous devez définir le nom de domaine complet pour les enregistrements lyncdiscoverinternal et lyncdiscover. En voici des exemples (en remplaçant le paramètre -Ca par votre propre chemin d'accès à l'autorité de certification) :
     
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-   ```
+   ```powershell
    Request-CsCertificate -New -Type WebServicesExternal -Ca dc\myca -DomainName "Lyncdiscover.contoso.com, Lyncdiscover.contoso.net" -verbose
    ```
 
@@ -208,13 +208,13 @@ Si vous avez des questions sur la planification des certificats, nous avons docu
     
   - Si vous disposez d'un certificat unique pour tout (les thumbprints sont identiques), vous devez procéder comme suit :
     
-  ```
+  ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
   ```
 
   - Si vous disposez de plusieurs certificats (les thumbprints sont tous différents), procédez plutôt comme suit :
     
-  ```
+  ```powershell
   Set-CsCertificate -Type Default -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesInternal -Thumbprint <certificate thumbprint>
   Set-CsCertificate -Type WebServicesExternal -Thumbprint <certificate thumbprint>
@@ -301,13 +301,13 @@ Deux points essentiels doivent être pris en compte :
     
    - **Nom** : le nom de votre règle.
     
-   - **Action**de la règle: dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez un autre proxy inverse.
+   - **Action**de la règle : dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez un autre proxy inverse.
     
    - La règle ou l'option de **Publication** que vous choisissez doit être **un seul site web ou équilibrage de charge**.
     
    - Choisissez l'option **SSL** pour l'accès externe.
     
-   - Vous devez publier un chemin pour la **publication interne**et entrer le nom de domaine complet (FQDN) pour les services Web externes sur le solde de charge de votre pool frontal (ou le nom de domaine complet (FQDN) du pool de directeurs si vous en avez un), par exemple sfb_ pool01. contoso. local.
+   - Vous aurez besoin de publier un chemin pour la **publication interne**, puis entrez le nom de domaine complet (FQDN) pour les services Web externes sur le solde de charge de votre pool frontal (ou le nom de domaine complet du solde de charge du pool de réalisateur si vous en avez un); par exemple, sfb_pool01. contoso. local.
     
    - Vous devez taper ** / *** pour le chemin d’accès à publier, mais vous devez également **transférer l’en-tête d’hôte d’origine**.
     
@@ -347,13 +347,13 @@ Deux points essentiels doivent être pris en compte :
     
    - **Nom** : le nom de votre règle.
     
-   - **Action**de la règle: dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez un autre proxy inverse.
+   - **Action**de la règle : dans ce cas, il s’agit d’une règle d' **autorisation** , que vous laissez un autre proxy inverse.
     
    - La règle ou l'option de **Publication** que vous choisissez doit être **un seul site web ou équilibrage de charge**.
     
    - Une **connexion non sécurisée est nécessaire pour se connecter au serveur web publié ou à la batterie de serveurs**.
     
-   - Vous devez publier un chemin pour la **publication interne**et entrer le nom de domaine complet (FQDN) de l' **adresse VIP** de l’équilibrage de charge de votre pool frontal, par exemple, sfb_pool01. contoso. local.
+   - Vous devez publier un chemin pour la **publication interne**et entrer le nom de domaine complet (FQDN) de l' **adresse VIP** de l’équilibrage de charge de votre pool frontal, par exemple sfb_pool01. contoso. local.
     
    - Vous devez taper ** / *** pour le chemin d’accès à publier, mais vous devez également **transférer l’en-tête d’hôte d’origine**.
     
@@ -390,15 +390,15 @@ Pour permettre aux clients mobiles de découvrir où est localisé un utilisateu
   
 1. Ouvrez Skype entreprise Server Management Shell.
     
-2. Pour obtenir la valeur de l’attribut **ProxyFQDN** pour votre environnement Skype entreprise Server, procédez comme suit:
+2. Pour obtenir la valeur de l’attribut **ProxyFQDN** pour votre environnement Skype entreprise Server, procédez comme suit :
     
-   ```
+   ```powershell
    Get-CsHostingProvider
    ```
 
 3. Puis, toujours dans la fenêtre de shell, exécutez :
     
-   ```
+   ```powershell
    Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
    ```
 
@@ -422,13 +422,13 @@ Pour les clients Lync Server 2010 sur Skype entreprise Server 2015, vous devez e
     
 3. Dans la ligne de commande, saisissez :
     
-   ```
+   ```powershell
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
    Il est également possible de définir des informations d’identification dans un script et de les transmettre à l'applet de commande de test. Un exemple est fourni ci-dessous.
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $testuser1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -447,13 +447,13 @@ Pour les clients Lync Server 2010 sur Skype entreprise Server 2015, vous devez e
     
 3. Dans la ligne de commande, saisissez :
     
-   ```
+   ```powershell
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
    Il est également possible de définir des informations d’identification dans un script et de les transmettre à l'applet de commande de test. Un exemple est fourni ci-dessous.
     
-   ```
+   ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
    $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
    $tuc1 = New-Object Management.Automation.PSCredential("contoso\UserName1", $passwd1)
@@ -466,9 +466,9 @@ Pour examiner en détail les procédures de commande, vous pouvez consulter [Tes
 ## <a name="configure-for-push-notifications"></a>Configurer les notifications push
 <a name="ConfigPush"> </a>
 
-Les notifications push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l'application Skype ou Lync est inactive. Que sont les notifications de transmission? Ce sont des alertes pour des événements, comme des invitations de messagerie instantanée nouvelles ou manquées, ou un message vocal reçu. Le service de mobilité Skype entreprise Server envoie ces notifications au service de notification Poussée dans le Cloud de Skype entreprise Server, qui envoie les notifications au service de notifications de transmission de Microsoft (MSNS) pour les utilisateurs de Windows Phone.
+Les notifications push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l'application Skype ou Lync est inactive. Que sont les notifications de transmission ? Ce sont des alertes pour des événements, comme des invitations de messagerie instantanée nouvelles ou manquées, ou un message vocal reçu. Le service de mobilité Skype entreprise Server envoie ces notifications au service de notification Poussée dans le Cloud de Skype entreprise Server, qui envoie les notifications au service de notifications de transmission de Microsoft (MSNS) pour les utilisateurs de Windows Phone.
   
-Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais si vous disposez d’un serveur Skype entreprise, vous devez effectuer les opérations suivantes:
+Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais si vous disposez d’un serveur Skype entreprise, vous devez effectuer les opérations suivantes :
   
 - Pour un serveur Edge Skype entreprise Server, ajoutez un nouveau fournisseur d’hébergement, Microsoft Skype entreprise Online, puis configurez la Fédération des fournisseurs d’hébergement entre votre organisation et Skype entreprise online.
     
@@ -484,13 +484,13 @@ Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais 
     
 3. Ajoutez un fournisseur d’hébergement en ligne Skype entreprise Server.
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity <unique identifier for hosting provider> -Enabled $True -ProxyFQDN <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
    ```
 
    Par exemple :
     
-   ```
+   ```powershell
    New-CsHostingProvider -Identity "SkypeOnline" -Enabled $True -ProxyFQDN "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
    ```
 
@@ -499,7 +499,7 @@ Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais 
   
 4. Configurez la Fédération des fournisseurs d’hébergement entre votre organisation et le service de notifications de transmission de Skype entreprise online. Dans la ligne de commande, tapez :
     
-   ```
+   ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
    ```
 
@@ -511,13 +511,13 @@ Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais 
     
 3. Activer les notifications push :
     
-   ```
+   ```powershell
    Set-CsPushNotificationConfiguration -EnableMicrosoftPushNotificationService $True
    ```
 
 4. Activer la fédération :
      
-   ```
+   ```powershell
    Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
    ```
 
@@ -529,25 +529,25 @@ Cette fonctionnalité n’est pas modifiée à partir de Lync Server 2013, mais 
     
 3. Testez la configuration de la fédération :
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
    ```
 
     Par exemple :
     
-   ```
+   ```powershell
    Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
    ```
 
 4. Testez vos notifications push
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
    ```
 
     Par exemple :
     
-   ```
+   ```powershell
    Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
    ```
 
@@ -558,7 +558,7 @@ Skype entreprise Server vous permet de déterminer qui peut utiliser votre servi
   
 Les fonctionnalités de mobilité, d’appel via le bureau et les fonctions VoIP et vidéo sont toutes activées par défaut. Les paramètres pour exiger WiFi pour VoIP et pour la vidéo sont désactivés. Un administrateur a la capacité de modifier ces paramètres, soit de manière globale, soit par site ou par utilisateur.
   
-Pour pouvoir utiliser les fonctionnalités de mobilité et l’appel via le bureau, les utilisateurs doivent être:
+Pour pouvoir utiliser les fonctionnalités de mobilité et l’appel via le bureau, les utilisateurs doivent être :
   
 - Activé pour Skype entreprise Server
     
@@ -581,9 +581,9 @@ Pour pouvoir utiliser la fonctionnalité d'Appel via le Bureau, les utilisateurs
     
 2. Démarrez **Skype entreprise Server Management Shell**.
     
-3. Désactivez l’accès à la mobilité et aux appels via le mode de fonctionnement global en entrant:
+3. Désactivez l’accès à la mobilité et aux appels via le mode de fonctionnement global en entrant :
     
-   ```
+   ```powershell
    Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
    ```
 
@@ -600,7 +600,7 @@ Pour pouvoir utiliser la fonctionnalité d'Appel via le Bureau, les utilisateurs
     
 3. Vous pouvez créer une stratégie au niveau du site, désactiver les fonctionnalités VoIP et vidéo et activer l'option Exiger WiFi pour l'audio IP et Exiger WiFi pour la vidéo IP par site.
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
@@ -614,14 +614,14 @@ Pour pouvoir utiliser la fonctionnalité d'Appel via le Bureau, les utilisateurs
     
 3. Créez des stratégies de mobilité au niveau utilisateur, puis désactivez la mobilité et les appels via votre bureau. Tapez :
     
-   ```
+   ```powershell
    New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
    ```
 
     Autre exemple avec échantillons de données :
     
-   ```
+   ```powershell
    New-CsMobilityPolicy "tag:disableOutsideVoice" -EnableOutsideVoice $False
    Grant-CsMobilityPolicy -Identity MobileUser1@contoso.com -PolicyName tag:disableOutsideVoice
    ```

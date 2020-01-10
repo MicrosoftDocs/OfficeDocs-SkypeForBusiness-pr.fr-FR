@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez les facteurs à prendre en compte avant de configurer des événements en direct dans Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570178"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001264"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planifier des événements en direct dans Microsoft Teams
 
@@ -55,7 +55,7 @@ L’utilisateur doit avoir :
 - Autorisations de création d’événements en direct dans le flux (pour la production d’applications ou de périphériques externes).
 
 > [!IMPORTANT]
-> Les utilisateurs d’Office 365, fédérés et anonymes ne peuvent pas être invités en tant que producteurs ou présentateurs dans des événements en direct Teams. Les invités Office 365 et les utilisateurs fédérés peuvent uniquement regarder des événements en direct de manière anonyme. 
+> Les utilisateurs anonymes non authentifiés ne peuvent pas être invités en tant que producteurs ou présentateurs dans des événements en direct Teams. 
  
 ## <a name="who-can-watch-live-events"></a>Qui peut regarder des événements en direct ?
 
@@ -86,13 +86,13 @@ Le tableau suivant met en évidence les fonctionnalités principales et les fonc
 |Client de Producer sur Windows |&#x2714; (Skype entreprise) |&#x2714; (Teams) |&#x2714; (flux, équipes via flux embed) |
 |Client de Producer sur Mac |X  | &#x2714; (Teams) |&#x2714; (flux, équipes via flux embed) |
 |Nombre de participants dans l’interface utilisateur de Producer |X  |&#x2714; (Teams) |&#x2714; (flux, équipes via flux embed) |
-|Autorise plusieurs présentateurs |&#x2714; (Skype entreprise) |&#x2714; (Teams) |N/D  |
-|Inviter un présentateur lors de la réunion |&#x2714; (Skype entreprise) |X |N/D |
-|Participation du présentateur sur le Web et le mobile |&#x2714; (Skype entreprise)  |X |N/D |
-|Personnes distantes de présentateurs & invités |&#x2714; (Skype entreprise)  | (bientôt disponible) |N/D |
-|Présentateur-accès RTC |X |&#x2714; (Teams) |N/D |
-|Présenter un écran |X |&#x2714; (Teams) |N/D |
-|Présenter une présentation PowerPoint (de partage PPT) |&#x2714; |X (atténué via le partage d’écran) |N/D |
+|Autorise plusieurs présentateurs |&#x2714; (Skype entreprise) |&#x2714; (Teams) |N/A  |
+|Inviter un présentateur lors de la réunion |&#x2714; (Skype entreprise) |X |N/A |
+|Participation du présentateur sur le Web et le mobile |&#x2714; (Skype entreprise)  |X |N/A |
+|Personnes distantes de présentateurs & invités |&#x2714; (Skype entreprise)  | (bientôt disponible) |N/A |
+|Présentateur-accès RTC |X |&#x2714; (Teams) |N/A |
+|Présenter un écran |X |&#x2714; (Teams) |N/A |
+|Présenter une présentation PowerPoint (de partage PPT) |&#x2714; |X (atténué via le partage d’écran) |N/A |
 |Enregistrement d’une réunion basée sur le Cloud |&#x2714; |&#x2714; |&#x2714; |
 |Publier automatiquement l’enregistrement dans le flux |X |X |&#x2714; |
 |Légendes et sous-titres dynamiques |&#x2714; |&#x2714; |X |

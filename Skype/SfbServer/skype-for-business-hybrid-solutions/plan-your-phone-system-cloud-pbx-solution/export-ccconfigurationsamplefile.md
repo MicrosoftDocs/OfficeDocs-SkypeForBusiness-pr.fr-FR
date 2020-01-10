@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modèle de configuration (.ini) de la version Cloud Connector de Skype Entreprise vers l’annuaire d’appliances d’une appliance de Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
-ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b62d5d7ffa9e8f10aeae509201c5aa0a1e7fa0a4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287378"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003424"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -24,7 +24,7 @@ L’applet de commande Export-CcConfigurationSampleFile exporte un fichier modè
   
 Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -37,16 +37,16 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant permet de télécharger un exemple de fichier de configuration à partir du site Microsoft et de l’écrire dans le répertoire de l’application du dispositif Cloud Connector:
+L’exemple suivant permet de télécharger un exemple de fichier de configuration à partir du site Microsoft et de l’écrire dans le répertoire de l’application du dispositif Cloud Connector :
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-La version actuelle de Cloud Connector nécessite que vous fournissiez plusieurs paramètres dans le fichier. ini; par exemple, des paramètres tels que les adresses IP d’ordinateurs virtuels pour les composants Cloud Connector, les noms de composants, les paramètres de passerelle, etc.
+La version actuelle de Cloud Connector nécessite que vous fournissiez plusieurs paramètres dans le fichier. ini ; par exemple, des paramètres tels que les adresses IP d’ordinateurs virtuels pour les composants Cloud Connector, les noms de composants, les paramètres de passerelle, etc.
   
 Lors de l’exécution de cette applet de connexion sur l’ordinateur hôte du Cloud Connector, télécharge un exemple de fichier. ini contenant des exemples de configuration du site Microsoft. L’applet de connexion écrit le fichier dans le répertoire de l’application Cloud Connector. L’annuaire d’appliances est précisé en utilisant l’applet de commande Set-CcApplianceDirectory cmdlet.
   

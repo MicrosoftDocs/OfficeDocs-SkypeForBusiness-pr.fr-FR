@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972485"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005171"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -35,11 +35,13 @@ Apprenez à configurer votre organisation Office 365 pour utiliser le tableau de
   
 Le tableau de bord de qualité des appels (bord) vous permet d’obtenir des renseignements sur la qualité des appels passés à l’aide de Microsoft teams et des services Skype entreprise online. Cette rubrique décrit la procédure de démarrage de la collecte de données que vous pouvez utiliser pour résoudre les problèmes de qualité d’appel.
 
-Pour l’instant, les versions 3 et bord version 2 bord sont disponibles pour une utilisation. BORD v3 est disponible à <span>https://cqd.teams.microsoft.com</span>l’adresse. Connectez-vous à l’aide de vos informations d’identification d’administrateur de Microsoft Teams.
+Pour l’instant, les fonctionnalités avancées bord et bord sont disponibles pour une utilisation. Advanced bord est disponible à <span>https://cqd.teams.microsoft.com</span>l’adresse. Nouvelle URL sauf si vous êtes connecté à l’aide de vos informations d’identification d’administrateur.
 
 ## <a name="latest-changes-and-updates"></a>Dernières modifications et mises à jour
 
-BORD version 3 fournit un tableau de bord bord en temps réel (latence proche de 30 minutes) et utilise les informations d’identification de l’utilisateur final (EUII), ce qui permet aux administrateurs d’effectuer un zoom avant sur le niveau utilisateur. Il existe également des rapports d’interactivité permettant de prendre en charge de nouveaux scénarios, tels que :
+
+La mise à jour bord (à compter du 1er novembre 2019) fournit un tableau de bord bord en temps réel proche. Les données bord sont désormais disponibles en moyenne dans 30 minutes (par rapport au bord précédent qui est en moyenne de 24 heures).  Le bord mis à jour utilise les informations d’identification de l’utilisateur final (EUII), ce qui permet aux administrateurs de descendre et de zoomer sur le niveau utilisateur. Il existe également des rapports d’interactivité permettant de prendre en charge de nouveaux scénarios, tels que :
+
 
 - Qualité des appels par région :
   - date par région
@@ -387,11 +389,11 @@ BORD utilise un fichier de données de point de terminaison. Les valeurs de colo
 
   **Ordre des champs :**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Ligne d’exemple :**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+' 1409W3534, fabricant 123, Fabrikam Model 123, ordinateur portable, ordinateur portable 2018, balise de ressources 5678, achat 2018
 
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
 
@@ -453,6 +455,6 @@ Lorsque vous comparez des données pour ces deux services :
 
 [Configurer l'analyse des appels Skype Entreprise](set-up-call-analytics.md)
 
-[Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Tableau de bord Analyse des appels et Qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md)

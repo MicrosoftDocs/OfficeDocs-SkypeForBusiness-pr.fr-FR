@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Créer ou modifier des ensembles de jours fériés de Response Group dans Skype entreprise Server Voice.
-ms.openlocfilehash: 617966828e39aae1ffbbfe10a7452d9d40117a84
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9dd9467a40f45d7252e92d9628d8678adbce3184
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240406"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003094"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Facultatif Définir des jeux de vacances de groupe de réponse dans Skype entreprise
  
@@ -31,23 +31,23 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour chaque congé que vous souhaitez définir, exécutez :
     
-   ```
+   ```powershell
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
     Pour créer la période de congés contenant les congés définis, exécutez :
     
-   ```
+   ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
     L’exemple ci-dessous présente une période de congés incluant deux congés :
     
-   ```
+   ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
    $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2018 12:00 AM" -EndDate "7/5/2018 12:00 AM" 
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)

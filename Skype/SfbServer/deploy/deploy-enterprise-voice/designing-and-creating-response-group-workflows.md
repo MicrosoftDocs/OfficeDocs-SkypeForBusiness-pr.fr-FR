@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Créez et créez des flux de travail de groupe de réponse dans Skype entreprise Server Voice. Les flux de travail de groupe de recherche et les flux de travail interactifs sont tous les deux couverts.
-ms.openlocfilehash: 9e056070bb01b5ee3cc7f32a8f9d07520fcb2030
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5b48816a3eb528a1ff96097c135697d8f9cb22d8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240524"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002584"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Conception et création de flux de travail de groupe de réponse dans Skype entreprise
 
@@ -47,7 +47,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 5. Dans le champ de recherche **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
-    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant\<l'\>URL suivante: https://webPoolFqdn/RgsConfig.
+    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant\<l'\>URL suivante : https://webPoolFqdn/RgsConfig.
 
 6. Effectuez l’une des actions suivantes :
 
@@ -89,7 +89,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 14. Facultatif Dans **Description**, tapez une description pour le flux de travail tel que vous souhaitez qu’il apparaisse sur la carte de visite dans Skype entreprise.
 
-15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit:
+15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit :
 
     a. Tapez l’URI SIP (Session Initiation Protocol) d’un responsable pour ce flux de travail, puis cliquez sur **Ajouter**.
 
@@ -202,17 +202,17 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
 3. Créez l’invite à exécuter pour le message de bienvenue, et enregistrez-la dans une variable. Dans la ligne de commande, exécutez la commande suivante :
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
     Exemple :
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
    ```
 
@@ -221,7 +221,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 4. Obtenez l’identité de la file d’attente ou demandez où les appels seront dirigés. Dans la ligne de commande, exécutez la commande suivante :
 
-   ```
+   ```powershell
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
@@ -229,7 +229,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 5. Définissez l’action par défaut à effectuer lorsqu’un flux de travail est ouvert pendant les heures ouvrées et enregistrez-la dans une variable. Dans la ligne de commande, exécutez la commande suivante :
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
    ```
 
@@ -238,7 +238,7 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
     Exemple :
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
@@ -248,19 +248,19 @@ Un flux de travail définit également des paramètres, comme un message d’acc
 
 8. Récupérez le nom du service pour le service du groupe de réponses du serveur Lync et attribuez-le à une variable. Dans la ligne de commande, exécutez la commande suivante :
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Créez ou modifiez le flux de travail. Pour créer un flux de travail, utilisez **New-CsRgsWorkflow**. Pour modifier un flux de travail, utilisez **Set-CsRgsWorkflow**. Dans la ligne de commande, tapez :
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     Par exemple :
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
    ```
 
@@ -359,7 +359,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 - Parlez dans la langue de l’appelant. Évitez le langage emprunté. Parlez naturellement.
 
-- Écrivez des invites efficaces. Supprimez toutes les options inutiles. Structurez les informations de sorte que la réponse attendue de l’appelant soit à la fin de la phrase. Par exemple, «pour communiquer avec l’équipe commerciale, appuyez sur 1».
+- Écrivez des invites efficaces. Supprimez toutes les options inutiles. Structurez les informations de sorte que la réponse attendue de l’appelant soit à la fin de la phrase. Par exemple, « pour communiquer avec l’équipe commerciale, appuyez sur 1 ».
 
 - Rendez les réponses vocales conviviales pour l’appelant. Par exemple, si vous spécifiez des réponses vocales et DTMF, utilisez, par exemple : « Pour parler à l’équipe commerciale, appuyez sur 1 ou dites commercial. »
 
@@ -380,7 +380,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 5. Dans le champ de recherche **Sélectionner un service**, tapez entièrement ou partiellement le nom du service **ApplicationServer** qui héberge le flux de travail à créer ou à modifier. Dans la liste des services obtenus, cliquez sur le service de votre choix, puis sur **OK**.
 
     > [!NOTE]
-    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant\<l'\>URL suivante: https://webPoolFqdn/RgsConfig.
+    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant\<l'\>URL suivante : https://webPoolFqdn/RgsConfig.
 
 6. Effectuez l’une des actions suivantes :
 
@@ -411,7 +411,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 11. Dans **Nom d’affichage**, tapez le nom que vous souhaitez afficher pour le flux de travail (par exemple, Sales IVR Response Group).
 
     > [!NOTE]
-    > N’incluez pas les\<caractères «»\>ou «» dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : **RGS Presence Watcher** ou **Service d’annonce**.
+    > N’incluez pas les\<caractères « »\>ou « » dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : **RGS Presence Watcher** ou **Service d’annonce**.
 
 12. Dans **Numéro de téléphone**, tapez l’URI de ligne pour le groupe Response Group (par exemple, +14255550165).
 
@@ -419,7 +419,7 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 14. Facultatif Dans **Description**, tapez une description pour le flux de travail que vous souhaitez voir apparaître sur la carte de visite dans Skype entreprise.
 
-15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit:
+15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit :
 
     a. Tapez l’URI SIP (Session Initiation Protocol) d’un responsable pour ce flux de travail, puis cliquez sur **Ajouter**.
 
@@ -562,79 +562,79 @@ La liste ci-dessous décrit certaines meilleures pratiques lorsque vous concevez
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
 
 3. Extrayez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. Un flux de travail interactif nécessite au moins deux files d’attente et plusieurs groupes d’agents. Commencez par créer les groupes d’agents. Exécutez le code suivant :
 
-   ```
+   ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
 5. Créez des files d’attente. Exécutez :
 
-   ```
+   ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
 6. Créez la première invite Response Group. Exécutez le code suivant :
 
-   ```
+   ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
 7. Créez ensuite l’action à effectuer après l’invite. Exécutez le code suivant :
 
-   ```
+   ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
 8. Créez la première réponse Response Group. Exécutez le code suivant :
 
-   ```
+   ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
 9. Créez maintenant les deuxièmes invite, action d’appel et réponse. Créez d’abord l’invite. Exécutez le code suivant :
 
-   ```
+   ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
 10. Créez la deuxième action d’appel. Exécutez le code suivant :
 
-    ```
+    ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
 11. Créez la deuxième réponse Response Group. Exécutez le code suivant :
 
-    ```
+    ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
 12. Créez l’invite de niveau supérieur. Exécutez :
 
-    ```
+    ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
 13. Créez la question de niveau supérieur. Exécutez :
 
-    ```
+    ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
 14. Créez maintenant le flux de travail. Exécutez :
 
-    ```
+    ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
     $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     ```

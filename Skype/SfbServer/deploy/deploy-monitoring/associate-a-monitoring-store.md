@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: 'Résumé: Découvrez comment associer des regroupements front-end à un magasin de surveillance utilisé par Skype entreprise Server.'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment associer des regroupements front-end à un magasin de surveillance utilisé par Skype entreprise Server.'
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239990"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001224"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associez un magasin d’analyse à un pool frontal dans Skype entreprise Server 
-**Résumé:** Découvrez comment associer des regroupements front-end à un magasin d’analyse utilisé par Skype entreprise Server.
+**Résumé :** Découvrez comment associer des regroupements front-end à un magasin d’analyse utilisé par Skype entreprise Server.
   
 Dans Skype entreprise Server, la surveillance des données ne peut être collectée que sur les pools frontaux qui ont été associés à un magasin de surveillance, une tâche généralement réalisée lors de la définition d’un pool frontal dans le générateur de topologie.
   
@@ -44,7 +44,7 @@ Vous pouvez également associer un pool frontal existant à un nouveau magasin d
     
 7. Dans la boîte de dialogue **Modifier les propriétés**, cliquez sur **OK**.
     
-Après avoir associé le magasin d’analyse au pool frontal, vous devez publier la nouvelle topologie pour que les modifications prennent effet. Pour publier votre nouvelle topologie, suivez les étapes suivantes dans le générateur de topologie:
+Après avoir associé le magasin d’analyse au pool frontal, vous devez publier la nouvelle topologie pour que les modifications prennent effet. Pour publier votre nouvelle topologie, suivez les étapes suivantes dans le générateur de topologie :
   
 1. Cliquez sur **Action**, pointez sur **Topologie**, puis cliquez sur **Publier**.
     
@@ -52,9 +52,9 @@ Après avoir associé le magasin d’analyse au pool frontal, vous devez publier
     
 3. Dans la page **Assistant Publication terminé**, cliquez sur **Terminer**.
     
-Après avoir publié la topologie, vous pouvez installer la base de données d’analyse sur l’ordinateur qui va héberger le magasin d’analyse. La base de données de surveillance peut être installée à l’aide de Skype entreprise Server Management Shell et de Windows PowerShell. Pour installer la base de données en local (c’est-à-dire pour installer la base de données sur le même ordinateur que vous exécutez Skype entreprise Server Management Shell), démarrez Management Shell sur l’ordinateur approprié, puis tapez la commande suivante et appuyez sur entrée:
+Après avoir publié la topologie, vous pouvez installer la base de données d’analyse sur l’ordinateur qui va héberger le magasin d’analyse. La base de données de surveillance peut être installée à l’aide de Skype entreprise Server Management Shell et de Windows PowerShell. Pour installer la base de données en local (c’est-à-dire pour installer la base de données sur le même ordinateur que vous exécutez Skype entreprise Server Management Shell), démarrez Management Shell sur l’ordinateur approprié, puis tapez la commande suivante et appuyez sur entrée :
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,7 +64,7 @@ Pour installer la base de données sur un ordinateur distant (c’est-à-dire, u
   
 Par exemple, cette commande permet d’installer la base de données d’analyse sur l’ordinateur atl-sql-001.litwareinc.com :
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 
@@ -74,14 +74,14 @@ Vous pouvez également installer la base de données de surveillance en exécuta
     
 2. Dans l’Assistant Déploiement, cliquez sur **installer ou mettre à jour le système Skype entreprise Server**.
     
-3. Sur la page **déployer** , sous **étape 2: configurer ou supprimer les composants Skype entreprise Server**, cliquez de **nouveau sur exécuter**.
+3. Sur la page **déployer** , sous **étape 2 : configurer ou supprimer les composants Skype entreprise Server**, cliquez de **nouveau sur exécuter**.
     
 4. Dans l’Assistant Configuration des composants du serveur Skype entreprise, sur la page **configurer les composants du serveur Skype entreprise** , cliquez sur **suivant**.
     
-5. Dans la page spécifiez le **chemin d’accès à MSIS** , tapez le chemin d’accès au fichier OCSCore. msi (fichier inclus dans votre support d’installation de Skype entreprise Server), puis cliquez sur **suivant**.
+5. Dans la page **Spécifiez le chemin d’accès à MSIS** , tapez le chemin d’accès au fichier OCSCore. msi (fichier inclus dans votre support d’installation de Skype entreprise Server), puis cliquez sur **suivant**.
     
 6. Dans la page **Exécution de commandes**, cliquez sur **Terminer**.
     
-Pour vous assurer que tous les services requis de Skype entreprise Server ont démarré, cliquez sur **exécuter** sous le titre **étape 4: démarrer les services** dans la page de **déploiement**
+Pour vous assurer que tous les services requis de Skype entreprise Server ont démarré, cliquez sur **exécuter** sous le titre **étape 4 : démarrer les services** dans la page de **déploiement**
   
 

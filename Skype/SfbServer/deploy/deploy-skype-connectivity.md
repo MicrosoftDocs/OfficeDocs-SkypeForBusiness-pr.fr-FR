@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: 'Résumé: Découvrez comment connecter Skype entreprise Server à Skype grand public. Également connu sous le nom de connectivité Skype.'
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 'Résumé : Découvrez comment connecter Skype entreprise Server à Skype grand public. Également connu sous le nom de connectivité Skype.'
+ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464599"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003074"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déploiement de la connectivité Skype dans Skype entreprise Server
 
-**Résumé:** Découvrez comment vous connecter à Skype entreprise Server avec le grand public Skype. Également connu sous le nom de connectivité Skype.
+**Résumé :** Découvrez comment vous connecter à Skype entreprise Server avec le grand public Skype. Également connu sous le nom de connectivité Skype.
   
 Cet article décrit le déploiement de la connectivité Skype.
   
@@ -32,15 +32,15 @@ Skype Connectivity offre aux utilisateurs Skype entreprise la possibilité de re
 
 La fonctionnalité Recherche dans l’annuaire Skype permet aux utilisateurs de Skype Entreprise de rechercher des contacts Skype. La fonctionnalité de recherche permet aux utilisateurs de rechercher des utilisateurs comme suit :
   
-- **Recherche par nom d’affichage, exemple «Jean Dupont»** -cela peut retourner de nombreux résultats, afin que vous ne trouviez pas ce que vous recherchez.
+- **Recherche par nom d’affichage, exemple « Jean Dupont »** -cela peut retourner de nombreux résultats, afin que vous ne trouviez pas ce que vous recherchez.
     
-- **Rechercher par nom d’affichage plus emplacement, exemple «John Doe à Barcelone»** -cela a pour effet de limiter considérablement les résultats de la recherche.
+- **Rechercher par nom d’affichage plus emplacement, exemple « John Doe à Barcelone »** -cela a pour effet de limiter considérablement les résultats de la recherche.
     
-- La **recherche par courrier électronique, par exemple «JohnDoe@outlook.com»,** renvoie un résultat dans la plupart des cas. celui qui correspond exactement à l’adresse électronique spécifiée. Mais si le même e-mail est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
+- La **recherche par courrier électronique, par exemple « JohnDoe@outlook.com »,** renvoie un résultat dans la plupart des cas. celui qui correspond exactement à l’adresse électronique spécifiée. Mais si le même e-mail est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
     
-- **Recherche par numéro de téléphone, exemple «123-123-1234»** -cela devrait renvoyer un résultat dans la plupart des cas; celle qui correspond exactement au téléphone spécifié. Le numéro de téléphone doit inclure le code du pays (à savoir, 1-xxx-yyy-zzzz). Si le même numéro de téléphone est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
+- **Recherche par numéro de téléphone, exemple « 123-123-1234 »** -cela devrait renvoyer un résultat dans la plupart des cas ; celle qui correspond exactement au téléphone spécifié. Le numéro de téléphone doit inclure le code du pays (à savoir, 1-xxx-yyy-zzzz). Si le même numéro de téléphone est associé à plusieurs comptes, plusieurs résultats peuvent être retournés.
     
-- La **recherche par pseudo Skype, par exemple «JohnDoe1456»** , si la correspondance exacte est trouvée, il sera renvoyé comme premier résultat. D’autres correspondances possibles peuvent être renvoyées.
+- La **recherche par pseudo Skype, par exemple « JohnDoe1456 »** , si la correspondance exacte est trouvée, il sera renvoyé comme premier résultat. D’autres correspondances possibles peuvent être renvoyées.
     
     > [!NOTE]
     > La recherche dans l’annuaire Skype doit pouvoir communiquer avec les adresses IP suivantes sur le port 443 : 104.40.75.246, 23.101.135.34 et 40.113.86.19. 
@@ -77,7 +77,7 @@ La connectivité Skype est également une fonctionnalité de Skype Entreprise On
   
 Pour Office 365 Moyenne Entreprise, Office 365 Entreprise, Office 365 Éducation et Office 365 pour le Secteur public : connectez-vous au portail Office 365 et accédez au centre d’administration Skype Entreprise. Accédez à Communications externes. Sous Fournisseurs de service de messagerie instantanée publique, cliquez sur Activer. Pour contrôler l’accès utilisateur individuel à la connectivité Skype, vous pouvez le faire en modifiant les paramètres de communication externe des utilisateurs individuels.
   
-Pour Office 365 petite entreprise Premium: Connectez-vous à Office 365, puis accédez à \> paramètres \> du service d’administration messagerie instantanée, réunions et conférences. Activez les communications externes. Le commutateur Communications externes active la connectivité Skype et les communications avec les autres organisations qui utilisent Skype Entreprise.
+Pour Office 365 petite entreprise Premium : Connectez-vous à Office 365, puis accédez à \> paramètres \> du service d’administration messagerie instantanée, réunions et conférences. Activez les communications externes. Le commutateur Communications externes active la connectivité Skype et les communications avec les autres organisations qui utilisent Skype Entreprise.
   
 Pour plus d’informations sur l’administration de Skype Entreprise Online, voir :
   
@@ -105,7 +105,7 @@ La communication entre le déploiement de Skype entreprise local et les utilisat
 > [!NOTE]
 > Aucune action n’est nécessaire pour la plupart des clients, y compris tous les déploiements qui se fédérer dans Skype entreprise online.
   
-Les déploiements sur site sont requis pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’il héberge. Les recommandations sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit résoudre par la requête DNS SRV en un nom de domaine complet (FQDN) de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine «contoso.com»:
+Les déploiements sur site sont requis pour publier un enregistrement SRV DNS de Fédération pour chaque domaine qu’il héberge. Les recommandations sont disponibles dans la [planification DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Chaque domaine doit résoudre par la requête DNS SRV en un nom de domaine complet (FQDN) de serveur Edge qui répond à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
 
 |**Noms de domaine complets valides**|**Commentaire**|
 |:-----|:-----|
@@ -120,19 +120,19 @@ Pour plus d’informations sur les certificats externes, reportez-vous à la rub
 
 #### <a name="faqs"></a>Questions
 
-**Pourquoi le site Web de mise en service est-il arrêté?**
-Le mécanisme de mise en service de messagerie instantanée (im) public qui a été déployé dans 2006 ne peut plus être utilisé et sera arrêté sur 8/15/2019. Au lieu de cela, la Fédération publique doit supposer le même modèle de Fédération utilisé par Skype entreprise Online, connu sous le nom de «découverte de partenaire», qui permet de détecter publiquement un déploiement local par son ou ses enregistrements SRV DNS de Fédération.
+**Pourquoi le site Web de mise en service est-il arrêté ?**
+Le mécanisme de mise en service de messagerie instantanée (im) public qui a été déployé dans 2006 ne peut plus être utilisé et sera arrêté sur 8/15/2019. Au lieu de cela, la Fédération publique doit supposer le même modèle de Fédération utilisé par Skype entreprise Online, connu sous le nom de « découverte de partenaire », qui permet de détecter publiquement un déploiement local par son ou ses enregistrements SRV DNS de Fédération.
 
-**Cette modification signifie-t-elle que la Fédération de messagerie instantanée publique est déconseillée?**
+**Cette modification signifie-t-elle que la Fédération de messagerie instantanée publique est déconseillée ?**
 Non. La Fédération de messagerie instantanée publique restera prise en charge pendant plusieurs années, sans doute que le produit local Skype entreprise n’atteint la fin de vie.
 
 **Notre entreprise est dotée d’une relation hybride (espace d’adresse partagée) avec Skype entreprise online.**
 Non, puisque vous vous êtes déjà connecté à Skype entreprise Online, cette modification n’aura aucun effet.
  
-**Ce changement signifie-t-il que notre entreprise doit activer la Fédération avec Skype entreprise Online?**
+**Ce changement signifie-t-il que notre entreprise doit activer la Fédération avec Skype entreprise Online ?**
 Non. Si les paramètres de proxy de votre serveur Edge n’autorisent pas la Fédération avec le fournisseur d’hébergement Skype entreprise Online (sipfed.online.lync.com), cette modification n’a pas d’incidence sur celle-ci. Toutefois, les mêmes exigences DNS et de certificats qui s’appliquent à la Fédération avec Skype entreprise Online s’appliquent également à la Fédération avec les utilisateurs de Skype.
  
-**Notre entreprise est volumineuse et ne peut pas modifier sa configuration latérale en raison de la réglementation et de la conformité, etc. que faire?**
+**Notre entreprise est volumineuse et ne peut pas modifier sa configuration latérale en raison de la réglementation et de la conformité, etc. que faire ?**
 Toutes les organisations locales qui ne peuvent pas modifier la configuration de votre serveur de périmètre comme indiqué doivent communiquer au support technique le plus tôt possible.
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Activation de la fédération et de la connectivité PIC (Public IM Connectivity)
@@ -187,14 +187,14 @@ Vous pouvez également configurer la connectivité Skype à l’aide uniquement 
     
 2. Exécutez les deux commandes suivantes :
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > Si vous ne disposez pas encore d’un fournisseur PIC dans votre environnement et que vous créez un nouvel environnement PIC, vous n’avez pas besoin d’exécuter l’applet de commande Remove-CsPublicProvider.  
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
@@ -202,15 +202,15 @@ Vous pouvez également configurer la connectivité Skype à l’aide uniquement 
     
    - ProxyFqdn : emplacement du serveur Edge de fédération Skype (détenu/géré par Microsoft)
     
-   - IconURL: icône utilisée par le &amp; client Skype entreprise de Lync pour identifier visuellement les contacts Skype
+   - IconURL : icône utilisée par le &amp; client Skype entreprise de Lync pour identifier visuellement les contacts Skype
     
-   - NameDecorationRoutingDomain et NameDecorationExcludedDomainList: le fait de les configurer permet aux utilisateurs d’entrer sur le MSAs de Skype sans avoir besoin de se familiariser avec les domaines «décorer» et non Microsoft avec «msn.com». Cela évite d’avoir à taper «User (contoso. com) @msn. com» pour tous les domaines qui ne figurent pas dans le ExcludedDomainList. Le client Skype Entreprise formate automatiquement le compte Microsoft si le domaine ne figure PAS dans la liste Exclus. Nous avons ajouté les domaines de compte Microsoft les plus courants à la liste exclus.
+   - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : le fait de les configurer permet aux utilisateurs d’entrer sur le MSAs de Skype sans avoir besoin de se familiariser avec les domaines « décorer » et non Microsoft avec « msn.com ». Cela évite d’avoir à taper « User (contoso. com) @msn. com » pour tous les domaines qui ne figurent pas dans le ExcludedDomainList. Le client Skype Entreprise formate automatiquement le compte Microsoft si le domaine ne figure PAS dans la liste Exclus. Nous avons ajouté les domaines de compte Microsoft les plus courants à la liste exclus.
     
      > [!NOTE]
      > Il est nécessaire de supprimer le fournisseur public puis de le rajouter en cas de nouvelles modifications. Aucune modification sur place n’est admise. 
   
      > [!NOTE]
-     > Ajouté dans Lync Server 2013 CU5 &amp; le client de bureau Lync dans Office 2013 SP1, le NameDecorationRoutingDomain et NameDecorationExcludedDomainList d’améliorer la situation dans laquelle les utilisateurs de Lync ajoutent des contacts Skype nécessaires pour «décorer» des domaines non Microsoft vers Identifiez-les et acheminez-les vers Skype (format: utilisateur (contoso. com) @msn. com). Ces nouveaux paramètres autorisent la mise en forme automatique de l’adresse dans la boîte de dialogue «Ajouter un contact Skype» avec le NameDecorationRoutingDomain (qui doit être défini sur msn.com) s’il ne contient pas les domaines du NameDecorationExcludedDomainList ( pour l’instant, nous pouvons prendre en charge msn.com, live.com, Hotmail.com, outlook.com). 
+     > Ajouté dans Lync Server 2013 CU5 &amp; le client de bureau Lync dans Office 2013 SP1, le NameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorer la situation dans laquelle les utilisateurs de Lync qui ajoutent des contacts Skype ont besoin de « décorer » des domaines non Microsoft pour les identifier et les acheminer vers Skype (format : utilisateur (contoso. com) @msn. com). Ces nouveaux paramètres autorisent la mise en forme automatique de l’adresse dans la boîte de dialogue « Ajouter un contact Skype » avec le NameDecorationRoutingDomain (qui doit être défini sur msn.com) s’il ne contient pas les domaines du NameDecorationExcludedDomainList ( pour l’instant, nous pouvons prendre en charge msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. À partir d’un client Skype Entreprise, les utilisateurs peuvent maintenant rechercher et ajouter un utilisateur Skype.
     
@@ -231,10 +231,10 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
   
 |**Client**|**Recherche dans l’annuaire Skype et ajout de contacts**|**Skype A/V, interopérabilité avec la messagerie instantanée**|
 |:-----|:-----|:-----|
-|Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |
+|Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |
 |Skype Entreprise sur Mac  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2013  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
-|Lync Web App - en ligne et sur site  <br/> |N/A   <br/> |N/A   <br/> |
+|Lync Web App - en ligne et sur site  <br/> |N/D  <br/> |N/D  <br/> |
 |Lync Mobile - Windows Phone  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Mobile - Android  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
 |Lync Mobile - iOS  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
@@ -242,7 +242,7 @@ Le tableau ci-dessous décrit l’état d’interopérabilité entre la dernièr
 |Lync Modern App (Windows 8.1)  <br/> |Oui  <br/> |Oui  <br/> |
 |Lync Mac 2011  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
 |Lync Desktop 2010  <br/> |Ajout possible (pas de recherche)  <br/> |Oui  <br/> |
-|Lync Phone Edition  <br/> |N/A   <br/> |N/A   <br/> |
+|Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |
 |Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
    
 

@@ -12,17 +12,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Résumé: Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype entreprise Server.'
-ms.openlocfilehash: b20877f805cb0357f6038a822962ad6eb9cdd5e1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype entreprise Server.'
+ms.openlocfilehash: c625656f1686b6e72be2f0223d6560464bb9e7bc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233906"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001474"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie Edge pour Skype entreprise Server
  
-**Résumé:** Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype entreprise Server.
+**Résumé :** Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype entreprise Server.
   
 Le générateur de topologie est l’outil que vous devez utiliser pour créer votre topologie de serveur Edge, comme pour n’importe quel composant topologique pour Skype entreprise Server. Avant de suivre les étapes ci-dessous, vous devrez configurer au moins un pool frontal ou un serveur Standard Edition Server.
   
@@ -43,7 +43,7 @@ Cet article couvre les rubriques suivantes :
     
 ## <a name="build-your-edge-server-topology"></a>Créer votre topologie de serveur Edge
 
-La première étape de déploiement consiste à créer votre topologie de serveur Edge Skype entreprise Server, composée de l’une des trois options suivantes:
+La première étape de déploiement consiste à créer votre topologie de serveur Edge Skype entreprise Server, composée de l’une des trois options suivantes :
   
 - Serveur Edge unique
     
@@ -61,7 +61,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
 3. Dans l’arborescence de la console, développez le site sur lequel vous voulez déployer le serveur Edge.
     
-4. Cliquez avec le bouton droit sur pools de **bords**, puis cliquez sur **nouvelle réserve de périphérie**.
+4. Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle réserve de périphérie**.
     
 5. Cliquez sur **suivant** dans l’écran **définir un nouveau pool de bords** .
     
@@ -109,7 +109,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
 14. Dans l’écran **Associate front end** , vous devez spécifier une ou plusieurs grappes internes, y compris des pools front end et des serveurs Standard Edition, à associer à ce serveur Edge. Il suffit de sélectionner les noms des pools internes que vous souhaitez utiliser pour communiquer avec les utilisateurs externes pris en charge. Cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Pour garder à l’esprit les points suivants: si vos pools internes ou serveurs autonomes utilisent déjà un autre serveur Edge Skype entreprise Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome dans cette situation, un message d’avertissement s’affiche pour vous informer sur l’autre serveur Edge et vous pouvez décider si vous voulez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
+    > Pour garder à l’esprit les points suivants : si vos pools internes ou serveurs autonomes utilisent déjà un autre serveur Edge Skype entreprise Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome dans cette situation, un message d’avertissement s’affiche pour vous informer sur l’autre serveur Edge et vous pouvez décider si vous voulez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
   
 15. Cliquez sur **Terminer** dans l’écran suivant.
     
@@ -123,11 +123,11 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
 3. Dans l’arborescence de la console, développez le site sur lequel vous voulez déployer le serveur Edge.
     
-4. Cliquez avec le bouton droit sur pools de **bords**, puis cliquez sur **nouvelle réserve de périphérie**.
+4. Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle réserve de périphérie**.
     
 5. Cliquez sur **suivant** dans l’écran **définir un nouveau pool de bords** .
     
-6. Dans l’écran **définir le nom de** domaine complet (FQDN) du pool de bords, tapez le nom de domaine complet (FQDN) interne que le pool **** de périphériques va utiliser, puis cliquez sur **suivant** lorsque vous avez fini.
+6. Dans l’écran **définir le nom de** domaine complet (FQDN) du pool de bords, tapez le nom de domaine complet (FQDN) interne que le pool de périphériques va utiliser, **puis cliquez sur** **suivant** lorsque vous avez fini.
     
 7. Dans l’écran **Sélectionner les fonctionnalités**, vous disposez de plusieurs options :
     
@@ -177,7 +177,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
 17. Dans l’écran **Associate front end** , vous devez spécifier une ou plusieurs grappes internes, y compris des pools d’éditions frontales et des pools d’éditions standard, à associer à ce serveur Edge. Il suffit de sélectionner les noms des pools internes que vous souhaitez utiliser pour communiquer avec les utilisateurs externes pris en charge. Cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Pour garder à l’esprit les points suivants: si vos pools internes ou serveurs autonomes utilisent déjà un autre serveur Edge Skype entreprise Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome dans cette situation, un message d’avertissement s’affiche pour vous informer sur l’autre serveur Edge et vous pouvez décider si vous voulez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
+    > Pour garder à l’esprit les points suivants : si vos pools internes ou serveurs autonomes utilisent déjà un autre serveur Edge Skype entreprise Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome dans cette situation, un message d’avertissement s’affiche pour vous informer sur l’autre serveur Edge et vous pouvez décider si vous voulez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
   
 18. Cliquez sur **Terminer** dans l’écran suivant.
     
@@ -191,11 +191,11 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
     
 3. Dans l’arborescence de la console, développez le site sur lequel vous voulez déployer le serveur Edge.
     
-4. Cliquez avec le bouton droit sur pools de **bords**, puis cliquez sur **nouvelle réserve de périphérie**.
+4. Cliquez avec le bouton droit sur **pools de bords**, puis cliquez sur **nouvelle réserve de périphérie**.
     
 5. Cliquez sur **suivant** dans l’écran **définir un nouveau pool de bords** .
     
-6. Dans l’écran **définir le nom de** domaine complet (FQDN) du pool de bords, tapez le nom de domaine complet (FQDN) interne que le pool **** de périphériques va utiliser, puis cliquez sur **suivant** lorsque vous avez fini.
+6. Dans l’écran **définir le nom de** domaine complet (FQDN) du pool de bords, tapez le nom de domaine complet (FQDN) interne que le pool de périphériques va utiliser, **puis cliquez sur** **suivant** lorsque vous avez fini.
     
 7. Dans l’écran **Sélectionner les fonctionnalités**, vous disposez de plusieurs options :
     
@@ -246,7 +246,7 @@ Si vous ne savez pas ce dont vous avez besoin, prenez un moment pour consulter l
 16. Dans l’écran **Associate front end** , vous devez spécifier une ou plusieurs grappes internes, y compris des pools d’éditions frontales et des pools d’éditions standard, à associer à ce serveur Edge. Il suffit de sélectionner les noms des pools internes que vous souhaitez utiliser pour communiquer avec les utilisateurs externes pris en charge. Cliquez sur **Suivant**.
     
     > [!NOTE]
-    > Pour garder à l’esprit les points suivants: si vos pools internes ou serveurs autonomes utilisent déjà un autre serveur Edge Skype entreprise Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome dans cette situation, un message d’avertissement s’affiche pour vous informer sur l’autre serveur Edge et vous pouvez décider si vous voulez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
+    > Pour garder à l’esprit les points suivants : si vos pools internes ou serveurs autonomes utilisent déjà un autre serveur Edge Skype entreprise Server, ils ne peuvent pas avoir plusieurs associations. Si vous choisissez un pool interne ou un serveur autonome dans cette situation, un message d’avertissement s’affiche pour vous informer sur l’autre serveur Edge et vous pouvez décider si vous voulez continuer ou non. Si vous poursuivez avec cette nouvelle association, la connexion à l’autre serveur Edge s’arrête. 
   
 17. Cliquez sur **Terminer** dans l’écran suivant.
     
@@ -276,9 +276,9 @@ Pour que le déploiement réussisse, l’Assistant Déploiement de Skype entrepr
   
 1. Démarrez **Skype entreprise Server Management Shell**.
     
-2. Dans **Skype entreprise Server Management Shell**, exécutez la commande suivante:
+2. Dans **Skype entreprise Server Management Shell**, exécutez la commande suivante :
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 

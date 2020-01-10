@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
 description: Renvoie la version de l’application Cloud Connector. Get-CCVersion ne peut être utilisé que sur l’ordinateur hôte de Cloud Connector.
-ms.openlocfilehash: b002b4a9f0cae34a2cdd7b8817e86a3e4ec2eb9a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a7d50bbcd01dc80fe3e2202286c1adc1b5d5f9bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287250"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003344"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
 Renvoie la version de l’application Cloud Connector. Get-CCVersion ne peut être utilisé que sur l’ordinateur hôte de Cloud Connector.
   
-```
+```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 ```
 
@@ -41,17 +41,17 @@ Retourne la version de l’application Cloud Connector basée sur les scripts Po
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant montre la version Cloud Connector du script en cours d’exécution dans votre console PowerShell ouverte:
+L’exemple suivant montre la version Cloud Connector du script en cours d’exécution dans votre console PowerShell ouverte :
   
-```
+```powershell
 Get-CcVersion
 ```
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant montre la version Cloud Connector du binaire en cours d’exécution déployée sur les machines virtuelles. Vous pouvez voir la version dans les noms des machines virtuelles exécutées dans Hyper-v Manager:
+L’exemple suivant montre la version Cloud Connector du binaire en cours d’exécution déployée sur les machines virtuelles. Vous pouvez voir la version dans les noms des machines virtuelles exécutées dans Hyper-v Manager :
   
-```
+```powershell
 Get-CCVersion -VersionType RunningBits
 ```
 

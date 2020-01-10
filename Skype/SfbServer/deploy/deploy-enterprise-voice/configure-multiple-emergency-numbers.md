@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Pour découvrir comment configurer plusieurs numéros d’urgence dans Skype entreprise Server, reportez-vous à cette rubrique.
-ms.openlocfilehash: 184a0060ed2383a652928356ab2999aa55b3d7bd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0a16536799024085afcce07d6a2a9a0e4c899e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233696"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001314"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configuration de plusieurs numéros d’urgence dans Skype entreprise
 
@@ -35,31 +35,31 @@ Pour configurer plusieurs numéros d’urgence, vous utilisez l’applet de nouv
 
 La commande suivante permet de créer un numéro d'urgence avec la chaîne de numérotation 911 à l'aide de l'applet de commande New-CsEmergency :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 ```
 
 La commande suivante permet d'associer le numéro à la stratégie d'emplacement en spécifiant les paramètres EmergencyNumbers dans l'applet de commande Set-CsLocationPolicy :
 
-```
+```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a} 
 ```
 
 Dans l'exemple suivant, un numéro d'urgence est créé à l'aide d'un masque d'appel unique, le 112 :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
 ```
 
-La commande suivante crée un numéro d’urgence avec plusieurs masques de numérotation:
+La commande suivante crée un numéro d’urgence avec plusieurs masques de numérotation :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 ```
 
 Dans l'exemple suivant, plusieurs numéros d'urgence sont ajoutés avec différents masques d'appel, puis associés aux numéros d'urgence avec la stratégie d'emplacement spécifiée :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 > $b = New-CsEmergencyNumber -DialString 500 -DialMask 501;502
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b} 
@@ -67,7 +67,7 @@ Dans l'exemple suivant, plusieurs numéros d'urgence sont ajoutés avec différe
 
 Dans l'exemple suivant, plusieurs numéros d'urgence destinés aux organismes de soin de santé utilisant 911 et 450 sont configurés :  
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 > $b = New-CsEmergencyNumber -DialString 450
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
@@ -75,7 +75,7 @@ Dans l'exemple suivant, plusieurs numéros d'urgence destinés aux organismes de
 
 Dans l'exemple suivant, plusieurs numéros d'urgence sont configurés pour la ville de Londres :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 999 -DialMask 144
 > $b = New-CsEmergencyNumber -DialString 112 -DialMask 911;117;118
 > Set-CsLocationPolicy -Identity London -EmergencyNumbers @{add=$a,$b}
@@ -83,7 +83,7 @@ Dans l'exemple suivant, plusieurs numéros d'urgence sont configurés pour la vi
 
 Dans l'exemple suivant, plusieurs numéros d'urgence sont configurés pour l'Inde :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
 > $b = New-CsEmergencyNumber -DialString 101 
 > $c = New-CsEmergencyNumber -DialString 102 
@@ -92,7 +92,7 @@ Dans l'exemple suivant, plusieurs numéros d'urgence sont configurés pour l'Ind
 
 Dans l'exemple suivant, une entrée existante est supprimée avec la chaîne de numérotation 911 et les masques d'appel 112 et 999 :
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a} 
 ```

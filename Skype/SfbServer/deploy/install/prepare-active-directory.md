@@ -14,17 +14,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: 'Résumé: Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: 85bd8d45cee1144ef355f0a9b0491d24529d6ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
+ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245286"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000884"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype entreprise Server
  
-**Résumé:** Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Résumé :** Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du [Centre d’évaluation Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Skype entreprise Server fonctionne étroitement avec Active Directory. Vous devez préparer le domaine Active Directory pour qu’il fonctionne avec Skype entreprise Server. Ce processus est réalisé dans l’Assistant Déploiement et n’est effectué qu’une seule fois pour le domaine. Ceci est dû au fait que le processus crée des groupes et modifie le domaine et vous n’avez besoin d’effectuer cette opération qu’une seule fois. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez suivre les étapes 6,7 et 8 dans l’ordre et après avoir effectué les étapes 1 à 5, comme expliqué dans le diagramme. La préparation d’Active Directory est étape 4 sur 8. Pour plus d’informations sur la planification d’Active Directory, reportez-vous à la section [configuration environnementale requise pour Skype entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
@@ -51,7 +51,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
 2. Ouvrez l’Assistant Déploiement de Skype entreprise Server.
     
     > [!TIP]
-    > Si vous souhaitez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur AD DS qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans Domain, contoso. local, les fichiers journaux se trouvent dans: C:\Users\Administrator.Contoso\AppData\Local\Temp. 
+    > Si vous souhaitez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur AD DS qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans Domain, contoso. local, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp. 
   
 3. Cliquez sur le lien **Préparer Active Directory**.
     
@@ -97,7 +97,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     
     h. Tapez la commande Get-CsAdForest, puis appuyez sur **entrée**.
     
-    ma. S’il s’agit de **LC_FORESTSETTINGS_STATE_READY**, la forêt a bien été préparée, comme indiqué dans l’illustration.
+    ma. Si le résultat est **LC_FORESTSETTINGS_STATE_READY**, la forêt a été préparée avec succès, comme indiqué dans l’illustration.
     
      ![Vérification de la réplication de forêt.](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
@@ -131,7 +131,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
     
     b. Utilisez la commande Get-CsAdDomain pour vérifier la réplication au sein du domaine.
     
-   ```
+   ```powershell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
@@ -140,7 +140,7 @@ Regardez en vidéo les étapes pour **préparer Active Directory** :
   
     Exemple d’exécution de la commande pour le domaine contoso.local :
     
-   ```
+   ```powershell
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
    ```
 

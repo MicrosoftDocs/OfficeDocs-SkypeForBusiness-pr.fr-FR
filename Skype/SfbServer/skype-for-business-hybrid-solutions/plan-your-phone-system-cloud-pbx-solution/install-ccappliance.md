@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: "	L'applet de commande Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, notamment les machines virtuelles de l’AD, du magasin central de gestion, du serveur de médiation et du serveur Edge, sur le serveur hôte. "
-ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cccf500c6506c8ba3459631d5c823940907ad213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287271"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003324"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
 	L'applet de commande Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, notamment les machines virtuelles de l’AD, du magasin central de gestion, du serveur de médiation et du serveur Edge, sur le serveur hôte.  
   
-```
+```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
@@ -33,25 +33,25 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 ### <a name="example-1"></a>Exemple 1
 
-Dans l’exemple suivant, une nouvelle application de connecteur Cloud est installée sur le serveur hôte:
+Dans l’exemple suivant, une nouvelle application de connecteur Cloud est installée sur le serveur hôte :
   
-```
+```powershell
 Install-CcAppliance
 ```
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant met à niveau le Cloud Connector vers la version la plus récente:
+L’exemple suivant met à niveau le Cloud Connector vers la version la plus récente :
   
-```
+```powershell
 Install-CcAppliance -Upgrade
 ```
 
 ### <a name="example-3"></a>Exemple 3
 
-Dans l’exemple suivant, toutes les informations d’identification Cloud Connector sont supprimées sur le serveur hôte, inviter l’utilisateur à spécifier de nouveau toutes les informations d’identification, puis installe Cloud Connector:
+Dans l’exemple suivant, toutes les informations d’identification Cloud Connector sont supprimées sur le serveur hôte, inviter l’utilisateur à spécifier de nouveau toutes les informations d’identification, puis installe Cloud Connector :
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -59,7 +59,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 L'exempe suivant affiche toutes les étapes de déploiement dans la console PowerShell :
   
-```
+```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
@@ -67,9 +67,9 @@ Le paramètre ShowStepsOnly est uniquement dédié à la résolution de problèm
   
 ### <a name="example-5"></a>Exemple 5
 
-L’exemple suivant crée des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Les fichiers de configuration sont enregistrés \<dans\>le\\dossier\>ApplianceRoot \Instances <Version-default\ExportedConfig sur le serveur hôte:
+L’exemple suivant crée des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Les fichiers de configuration sont enregistrés \<dans\>le\\ dossier ApplianceRoot\>\Instances<version-default\ExportedConfig sur le serveur hôte :
   
-```
+```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
@@ -79,7 +79,7 @@ Pour déterminer la racine de l’appliance, exécutez l’applet de commande Ge
 
 Dans l’exemple suivant, Cloud Connector exécute les étapes 1,2 et 3 de déploiement pour créer des commutateurs virtuels, une machine virtuelle AD et installer le service de domaine sur le serveur AD. Il passe l’étape si elle a déjà été exécutée :
   
-```
+```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 

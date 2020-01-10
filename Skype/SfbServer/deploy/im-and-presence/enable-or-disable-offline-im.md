@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Apprenez à activer ou désactiver la messagerie instantanée hors connexion dans Skype entreprise Server.
-ms.openlocfilehash: 363f7c54d682dc619417a8d9601c7beafc8283c6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 02056618aff8a2dcaa6edc2023b67ad38aa9f314
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235546"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003044"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Activation ou désactivation de la messagerie instantanée hors connexion dans Skype entreprise Server
  
@@ -34,7 +34,7 @@ La fonction de messagerie instantanée hors connexion est une fonctionnalité c�
     
 2. Exécutez la commande suivante pour activer la messagerie instantanée hors ligne.
     
-   ```
+   ```powershell
    Set-CsImConfiguration -EnableOfflineIM $True
    ```
 
@@ -43,7 +43,7 @@ La fonction de messagerie instantanée hors connexion est une fonctionnalité c�
   
 3. Exécutez la commande suivante pour confirmer la possibilité de stocker les messages instantanés en mode hors connexion est défini.
     
-   ```
+   ```powershell
    Get-CsImConfiguration
    ```
 
@@ -57,7 +57,7 @@ Les messages hors ligne envoyés à partir d'une organisation fédérée seront 
   
 ## <a name="troubleshooting"></a>Identification et résolution des problèmes
 
-Le délai d’envoi d’un message hors connexion lors de la sélection et du traitement d’un message hors connexion est de deux minutes. Si les messages hors connexion ne peuvent pas être traités, ils s’affichent dans l’annuaire suivant: 
+Le délai d’envoi d’un message hors connexion lors de la sélection et du traitement d’un message hors connexion est de deux minutes. Si les messages hors connexion ne peuvent pas être traités, ils s’affichent dans l’annuaire suivant : 
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: 'Résumé: cette rubrique vous explique comment configurer les conférences rendez-vous dans Skype entreprise Server.'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment configurer les conférences rendez-vous dans Skype entreprise Server.'
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234138"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002924"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer les conférences rendez-vous dans Skype entreprise Server
  
-**Résumé:** Pour plus d’informations sur la configuration des conférences rendez-vous dans Skype entreprise Server, reportez-vous à la rubrique.
+**Résumé :** Pour plus d’informations sur la configuration des conférences rendez-vous dans Skype entreprise Server, reportez-vous à la rubrique.
   
-Une fois que vous avez créé une topologie incluant la charge de travail de conférence et une conférence rendez-vous sélectionnée, vous devez effectuer des étapes supplémentaires pour configurer la Conférence rendez-vous. Avant de lire ce sujet, assurez-vous d’avoir lu [plan pour la Conférence rendez-vous dans Skype entreprise Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), la [Configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), et l' [organigramme et la liste de vérification de déploiement pour Conférence](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)rendez-vous. 
+Une fois que vous avez créé une topologie incluant la charge de travail de conférence et une conférence rendez-vous sélectionnée, vous devez effectuer des étapes supplémentaires pour configurer la Conférence rendez-vous. Avant de lire ce sujet, assurez-vous d’avoir lu [plan pour la Conférence rendez-vous dans Skype entreprise Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), la [Configuration matérielle et logicielle requise pour les conférences dans Skype entreprise Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), et le [diagramme de flux et la liste de vérification de déploiement pour les conférences](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)rendez-vous. 
   
 Pour configurer la conférence rendez-vous, vous devez effectuer les tâches suivantes :
   
@@ -79,17 +79,17 @@ Utilisez l’applet de commande **Get-CsDialPlan** pour vérifier qu’une régi
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Exécutez la commande suivante dans l’invite de commandes :
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    Par exemple :
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -103,17 +103,17 @@ Pour plus d’informations, consultez la rubrique [Get-CsDialPlan](https://docs.
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour tous les plans de numérotation ne comportant pas de région de conférence rendez-vous, exécutez :
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    Exemple :
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 

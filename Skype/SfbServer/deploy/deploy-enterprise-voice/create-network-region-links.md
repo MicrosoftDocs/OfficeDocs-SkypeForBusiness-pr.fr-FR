@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Créer ou modifier des liens de région réseau qui sont utilisés par le contrôle d’admission des appels voix entreprise dans Skype entreprise Server.
-ms.openlocfilehash: 2b2eb99fa59125c93d97b902b6fbaad122ffdcdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c40488c3cbb4d5116f9b242bb198ba20f13bd58
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233474"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001734"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Création de liens vers les régions de réseau dans Skype entreprise Server
  
@@ -27,19 +27,19 @@ Créer ou modifier des liens de région réseau qui sont utilisés par le contr�
   
 Au sein d’un réseau, les régions sont liées par une connectivité au réseau étendu physique. Un lien de région réseau crée un lien entre deux régions configurées pour le contrôle d’admission des appels et définit les restrictions de bande passante sur le trafic audio et vidéo entre ces régions.
   
-L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens de région est limité par la bande passante WAN, comme décrit dans la table des informations de bande passante pour les liaisons de zone, comme [le montre l’exemple ci-dessous: collecter les exigences de contrôle d’admission des appels dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+L’exemple de topologie possède un lien entre les régions Amérique du Nord et APAC, ainsi qu’un lien entre les régions EMEA et APAC. Chacun de ces liens de région est limité par la bande passante WAN, comme décrit dans la table des informations de bande passante pour les liaisons de zone, comme [le montre l’exemple ci-dessous : collecter les exigences de contrôle d’admission des appels dans Skype entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Pour créer des liaisons de région réseau à l’aide de Skype entreprise Server Management Shell
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande New-CsNetworkRegionLink pour créer des liens de région et appliquer des profils de stratégie de bande passante appropriés. Par exemple, exécutez :
     
-   ```
+   ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID NA-EMEA-LINK -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -BWPolicyProfileID 50Mb_Link
    ```
 
-   ```
+   ```powershell
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 

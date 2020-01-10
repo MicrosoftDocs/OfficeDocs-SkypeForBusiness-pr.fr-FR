@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créez ou modifiez un groupe d’agents dans Response Group dans Skype entreprise Server Voice.
-ms.openlocfilehash: 09a49acfe1fe86ffa3c1bce3d6ed889c8666a7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a919c1a25f3f4aa5a2d8648d782ea329f1e70d60
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233325"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001684"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype entreprise
  
@@ -72,7 +72,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
   
 9. Dans **Méthode de routage**, sélectionnez la méthode de transmission des appels aux agents dans le groupe, comme suit :
     
-   - Pour vous permettre d’appeler tout d’abord l’agent qui est resté inactif le plus longtemps (a été **disponible** ou inactif dans Skype entreprise le plus longtemps), cliquez sur plus **longtemps**. **** 
+   - Pour vous permettre d’appeler tout d’abord l’agent qui est resté inactif le plus longtemps (a été **disponible** ou **inactif** dans Skype entreprise le plus longtemps), cliquez sur plus **longtemps**. 
     
    - Pour qu’un nouvel appel soit présenté simultanément à tous les agents disponibles, cliquez sur **Parallèle**. L’appel est envoyé au premier agent qui l’accepte.
     
@@ -119,17 +119,17 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Utilisez **New-CsRgsAgentGroup** pour créer un groupe d’agents. Utilisez **Set-CsRgsAgentGroup** pour modifier un groupe d’agents existant. Dans la ligne de commande, exécutez la commande suivante :
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
    ```
 
     Exemple :
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
    ```
 
@@ -138,7 +138,7 @@ Pour créer ou modifier un groupe d’agents, utilisez l’une des procédures c
   
 4. Confirmez la création du groupe d’agents. Exécutez :
     
-   ```
+   ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 

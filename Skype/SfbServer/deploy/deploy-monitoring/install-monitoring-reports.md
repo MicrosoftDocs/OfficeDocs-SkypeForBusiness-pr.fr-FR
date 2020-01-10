@@ -9,17 +9,17 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: 'Résumé: Découvrez comment installer un service qui générera des rapports d’analyse dans Skype entreprise Server.'
-ms.openlocfilehash: 765c7a13b965b8701de6bc70782a9d7a8963a429
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment installer un service qui générera des rapports d’analyse dans Skype entreprise Server.'
+ms.openlocfilehash: 4a2d10e8025b2107da8a0b5c3866faf210b77ada
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239980"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001164"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installer des rapports de surveillance dans Skype entreprise Server
  
-**Résumé:** Découvrez comment installer un service qui générera des rapports d’analyse dans Skype entreprise Server.
+**Résumé :** Découvrez comment installer un service qui générera des rapports d’analyse dans Skype entreprise Server.
   
 Les rapports de surveillance de Skype entreprise Server vous fournissent des informations sur la qualité et la quantité des sessions de communication qui interviennent au sein de votre organisation. 
   
@@ -30,11 +30,11 @@ Les rapports d’analyse ne sont pas automatiquement installés lors de l’inst
 > [!NOTE]
 > Il est recommandé d’installer les rapports de surveillance sur le même ordinateur que celui sur lequel la base de données de surveillance est installée. Cela simplifie le processus d’attribution des autorisations d’accès aux rapports : l’installation des rapports de surveillance sur l’ordinateur qui héberge le magasin d’analyse signifie qu’il n’est pas nécessaire de configurer les autorisations qui permettent à une base de données sur un premier ordinateur d’interagir avec le service Reporting Services exécuté sur un autre ordinateur. 
   
-Les rapports de surveillance de Skype entreprise Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les inscriptions des utilisateurs, l’application de groupe de réponse, etc. Pour la version 2013, les rapports de surveillance de Skype entreprise Server incluent un certain nombre d’améliorations:
+Les rapports de surveillance de Skype entreprise Server incluent plus de 30 rapports conçus pour fournir des informations détaillées sur les conférences, les sessions de messagerie instantanée d’égal à égal, les inscriptions des utilisateurs, l’application de groupe de réponse, etc. Pour la version 2013, les rapports de surveillance de Skype entreprise Server incluent un certain nombre d’améliorations :
   
 - **Nouveaux rapports de qualité de la voix**. Ces nouveaux rapports incluent le [rapport Comparaison de qualité multimédia dans Skype entreprise Server](../../manage/health-and-monitoring/comparison.md), qui compare la qualité entre les différents types d’appels (par exemple, entre les appels câblés et les appels sans fil). le [rapport de temps de participation à la Conférence dans Skype entreprise Server](../../manage/health-and-monitoring/join-time-report.md)vous donne des informations sur la durée nécessaire pour permettre aux utilisateurs de participer à une conférence. 
     
-- **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** le [rapport synthèse sur la qualité multimédia de Skype entreprise Server](../../manage/health-and-monitoring/summary.md) vous permet d’analyser les appels vidéo et de partage d’application, tandis que le [rapport sur les performances du serveur dans Skype entreprise Server](../../manage/health-and-monitoring/server-performance.md) indique les performances des serveurs qui les génèrent. invoqu. Les métriques de partage d’application et de vidéo sont également signalées par le [rapport détaillé de la session d’égal à égal dans Skype entreprise Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) et le [rapport Détails de la Conférence dans Skype entreprise Server](../../manage/health-and-monitoring/detail-report.md).
+- **Rapports améliorés pour l’analyse et la résolution des problèmes des sessions de partage vidéo et d’application.** le [rapport synthèse sur la qualité multimédia de Skype entreprise Server](../../manage/health-and-monitoring/summary.md) vous permet d’analyser les appels vidéo et de partage d’application, tandis que le [rapport sur les performances du serveur dans Skype entreprise Server](../../manage/health-and-monitoring/server-performance.md) fournit des détails sur les performances des serveurs qui génèrent ces appels. Les métriques de partage d’application et de vidéo sont également signalées par le [rapport détaillé de la session d’égal à égal dans Skype entreprise Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) et le [rapport Détails de la Conférence dans Skype entreprise Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Performances améliorées des rapports**. Ces améliorations incluent un temps de réponse et d’extraction des données plus court, ainsi qu’une navigation plus rapide et plus facile dans les rapports.
     
@@ -43,7 +43,7 @@ D’autres informations sur chaque rapport sont disponibles dans la documentatio
 > [!NOTE]
 > Il existe un autre rapport-sous-état d’appels QoE-fourni dans Skype entreprise Server. Toutefois, ce rapport est principalement destiné à un usage interne et non à un accès direct. 
   
-Il existe deux façons d’installer des rapports d’analyse de Skype entreprise Server: vous pouvez utiliser l’Assistant Déploiement de Skype entreprise Server ou utiliser un script Windows PowerShell inclus dans les fichiers d’installation de Skype entreprise Server. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
+Il existe deux façons d’installer des rapports d’analyse de Skype entreprise Server : vous pouvez utiliser l’Assistant Déploiement de Skype entreprise Server ou utiliser un script Windows PowerShell inclus dans les fichiers d’installation de Skype entreprise Server. Quelle que doit la méthode utilisée pour installer les rapports, vous devez d’abord vous assurer que vous :
   
 - avez le droit d’ajouter un rôle de base de données à un compte d’utilisateur dans la base de données de surveillance ;
     
@@ -65,9 +65,9 @@ Pour installer les rapports de surveillance à l’aide de l’Assistant Déploi
     
 6. Dans la page **Exécution de commandes**, cliquez sur **Terminer**.
     
-La surveillance des rapports peut également être installée à partir de Skype entreprise Server Management Shell en exécutant le script DeployReports. ps1; Ce script Windows PowerShell est disponible dans le \<dossier installation Location\>\Skype pour Business Server 2015 \ Deployment\Setup. Pour installer des rapports d’analyse à l’aide de DeployReports. ps1, tapez une commande semblable à la suivante à l’invite Management Shell:
+La surveillance des rapports peut également être installée à partir de Skype entreprise Server Management Shell en exécutant le script DeployReports. ps1 ; Ce script Windows PowerShell est disponible dans le \<dossier installation Location\>\Skype pour Business Server 2015 \ Deployment\Setup. Pour installer des rapports d’analyse à l’aide de DeployReports. ps1, tapez une commande semblable à la suivante à l’invite Management Shell :
   
-```
+```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
 ```
 
@@ -83,7 +83,7 @@ Les paramètres utilisés dans la commande précédente sont décrits dans le ta
    
 Une fois les rapports de surveillance installés, vous devez utiliser l’applet de commande Set-CsReportingConfiguration pour configurer l’URL utilisée pour accéder à ces rapports. Cette tâche peut être exécutée à partir de Skype entreprise Server Management Shell en exécutant la commande Windows PowerShell suivante. Notez qu’il est recommandé, mais pas obligatoire, d’utiliser le protocole HTTPS pour configurer l’URL des rapports :
   
-```
+```powershell
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'
 ```
 

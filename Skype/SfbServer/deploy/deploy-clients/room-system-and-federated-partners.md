@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Consultez cette rubrique pour obtenir plus d’informations sur la façon de configurer Skype Room System pour Skype Entreprise pour les entreprises partenaires fédérées.
-ms.openlocfilehash: 7bf67a910b2c0d73cf3e068e9524500804ca87f4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775273"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002994"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Partenaires fédérés de Skype Room System et Skype Entreprise
  
@@ -27,7 +27,7 @@ Le système de salle Skype repose sur le lien participer à une réunion Skype e
   
 La raison de cette limitation est qu’Outlook et Microsoft Exchange n’utilisent pas de méthode spéciale pour regrouper des informations lorsque des messages sont envoyés sur Internet. Cette méthode, appelée format Transport Neutral Encapsulation (TNEF), est désactivée par défaut pour les messages d’une organisation Exchange envoyés en externe. Pour qu’un lien de participation à une réunion apparaisse dans un système de salle Skype distant, l’organisation d’expédition doit activer TNEF en utilisant la commande suivante :
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```

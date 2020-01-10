@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: Permet d’importer la configuration de Skype entreprise version Cloud Connector à partir d’un fichier local sur le serveur hôte du Cloud Connector.
-ms.openlocfilehash: 3e165250b5158513aa683770d5eb1768c0e1e29c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287278"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003334"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
 Permet d’importer la configuration de Skype entreprise version Cloud Connector à partir d’un fichier local sur le serveur hôte du Cloud Connector.
   
-```
+```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
 ```
 
@@ -31,9 +31,9 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>Exemple 1
 
-Dans l’exemple suivant, la CloudConnector. ini est copiée à partir de l’annuaire d’application de l’instance Cloud Connector vers l’annuaire%SystemDrive%\ProgramData\CloudConnector:
+Dans l’exemple suivant, la CloudConnector. ini est copiée à partir de l’annuaire d’application de l’instance Cloud Connector vers l’annuaire%SystemDrive%\ProgramData\CloudConnector :
   
-```
+```powershell
 Import-CcConfiguration
 ```
 

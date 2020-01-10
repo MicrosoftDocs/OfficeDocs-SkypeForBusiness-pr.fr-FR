@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 'Résumé: Découvrez comment permettre aux utilisateurs d’émettre et de recevoir des appels à l’aide d’Enterprise Voice dans Skype entreprise Server.'
-ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment permettre aux utilisateurs d’émettre et de recevoir des appels à l’aide d’Enterprise Voice dans Skype entreprise Server.'
+ms.openlocfilehash: 441b7a5705268dedea1feb87e01a48d0ef68b32c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240330"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002524"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour voix entreprise dans Skype entreprise Server
  
-**Résumé:** Découvrez comment permettre aux utilisateurs d’émettre et de recevoir des appels à l’aide d’Enterprise Voice dans Skype entreprise Server.
+**Résumé :** Découvrez comment permettre aux utilisateurs d’émettre et de recevoir des appels à l’aide d’Enterprise Voice dans Skype entreprise Server.
   
-Après avoir déployé une voix d’entreprise ou un appel par le biais de votre entreprise, vous pouvez utiliser les procédures suivantes pour permettre à un utilisateur d’effectuer des appels à l’aide de la voix entreprise:
+Après avoir déployé une voix d’entreprise ou un appel par le biais de votre entreprise, vous pouvez utiliser les procédures suivantes pour permettre à un utilisateur d’effectuer des appels à l’aide de la voix entreprise :
   
 > [!NOTE]
 > Parmi les procédures ci-dessous, seules les premières peuvent être effectuées à l’aide du panneau de configuration Skype entreprise Server. Pour les procédures restantes, vous pouvez uniquement utiliser Skype entreprise Server Management Shell. 
@@ -59,23 +59,23 @@ Après avoir déployé une voix d’entreprise ou un appel par le biais de votre
 Pour terminer l’activation d’un utilisateur pour voix entreprise, assurez-vous que l’utilisateur dispose d’une stratégie vocale et d’un plan de numérotation, qu’il s’agisse de global (attribué par défaut) ou d’utilisateur. Par défaut, tous les utilisateurs se voient attribuer une stratégie vocale globale et un plan de numérotation. S’il existe une stratégie de voix ou un plan de numérotation au niveau du site sur lequel un compte d’utilisateur est hébergé, cette stratégie de site s’applique automatiquement à l’utilisateur. Pour appliquer une stratégie de voix ou un plan de numérotation à un utilisateur, vous devez exécuter les applets de commande **Grant-CsVoicePolicy** et **Grant-CsDialPlan**. Pour plus d’informations, reportez-vous aux procédures suivantes de cette rubrique.
 ## <a name="voice-policy-assignment"></a>Affectation d’une stratégie de voix
 
-Les stratégies de voix globale et de niveau site sont automatiquement affectées à tous les comptes d’utilisateurs activés pour Enterprise Voice. Vous pouvez également créer des stratégies de voix qui s’appliquent à des utilisateurs ou à des groupes spécifiques. Ces stratégies utilisateur doivent être affectées explicitement à des utilisateurs ou à des groupes. Si vous souhaitez utiliser la politique globale ou vocale pour tous les utilisateurs qui sont activés pour voix entreprise, vous pouvez ignorer cette section et poursuivre la section [affectation de plan](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) de numérotation plus loin dans cette rubrique.
+Les stratégies de voix globale et de niveau site sont automatiquement affectées à tous les comptes d’utilisateurs activés pour Enterprise Voice. Vous pouvez également créer des stratégies de voix qui s’appliquent à des utilisateurs ou à des groupes spécifiques. Ces stratégies utilisateur doivent être affectées explicitement à des utilisateurs ou à des groupes. Si vous souhaitez utiliser la politique globale ou vocale pour tous les utilisateurs qui sont activés pour voix entreprise, vous pouvez ignorer cette section et poursuivre la section [affectation de plan de numérotation](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) plus loin dans cette rubrique.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Pour affecter une stratégie de voix spécifique à l’utilisateur
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour affecter une stratégie de voix utilisateur existante à un utilisateur, exécutez la commande suivante dans l’invite de commandes :
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Par exemple :
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
@@ -90,17 +90,17 @@ Pour achever la configuration de compte d’utilisateur pour les utilisateurs d�
 
 1. À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
     
-2. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+2. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 3. Pour affecter un plan de numérotation spécifique à un utilisateur, exécutez la commande suivante dans l’invite de commandes :
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Exemple :
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 

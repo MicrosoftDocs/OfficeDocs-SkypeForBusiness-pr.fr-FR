@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Créer des stratégies réseau intersites, qui sont utilisées par le système de contrôle d’admission des appels voix entreprise dans Skype entreprise Server.
-ms.openlocfilehash: ac03057de5b6e25e2b9de812f0d53ae02811d456
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce1826a1205216791f056a46fa625d26e0362f1f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233481"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001744"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies d’intersite réseau dans Skype entreprise Server
  
@@ -34,11 +34,11 @@ Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien
   
 ### <a name="to-create-a-network-inter-site-policy"></a>Pour créer une stratégie réseau intersite
 
-1. Démarrez Skype entreprise Server Management Shell: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
+1. Démarrez Skype entreprise Server Management Shell : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Skype entreprise 2015**, puis cliquez sur **Skype entreprise Server Management Shell**.
     
 2. Exécutez l’applet de commande New-CsNetworkInterSitePolicy pour créer des stratégies réseau intersite et appliquer un profil de stratégie de bande passante approprié pour deux sites qui présentent un lien d’accès direct. Par exemple, exécutez :
     
-   ```
+   ```powershell
    New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
    ```
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070221"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005174"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -162,6 +162,11 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
   > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server.
 
   - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé au service.
+  - Boîte **vocale** Sélectionnez le groupe Office 365 représentant les utilisateurs de votre organisation qui ont besoin d’accéder à cette boîte vocale. C’est ici que vous pouvez également activer la transcription de la boîte vocale. Nécessite un groupe Office 365.
+
+  > [!NOTE]
+> Les messages vocaux envoyés aux utilisateurs à partir du compte de messagerie vocale de ce standard automatique ne sont pas accessibles dans Teams. Ils seront envoyés par courrier électronique.
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 - **Opérateur** Si un opérateur est déjà configuré, l’option est automatiquement mappée à la clé 0, mais peut également être supprimée ou réaffectée à une autre clé. L’appelant qui sélectionne cette option est envoyé à l’opérateur désigné. Si l’opérateur n’est pas défini sur une touche, la commande vocale « opérateur » est également désactivée. 
 - Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server. L’utilisateur doit disposer d’une licence de système téléphonique activée pour les offres d’appels voix entreprise ou affectées dans Office 365. Recherchez la personne dans le champ **Rechercher par nom** .
 
-  - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé à l’application.
+- **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé à l’application.
+
+- Boîte **vocale** Sélectionnez le groupe Office 365 représentant les utilisateurs de votre organisation qui ont besoin d’accéder à cette boîte vocale. C’est ici que vous pouvez également activer la transcription de la boîte vocale. Nécessite un groupe Office 365.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

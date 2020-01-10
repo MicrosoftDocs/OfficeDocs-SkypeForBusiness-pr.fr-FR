@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer les options occupées dans Skype entreprise Server.
-ms.openlocfilehash: a0fd235d5db645035ac9a6344c233dfe12a78b7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 45779af0410dcadd1b5fe8e3988905e88acd9213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240309"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002514"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer les options Occupé pour Skype Entreprise Server
 
@@ -38,7 +38,7 @@ Pour plus d'informations sur la fonctionnalité Busy Options, reportez-vous à l
 
 ## <a name="install"></a>Installation 
 
-Vérifiez que vous avez installé la dernière version de Skype entreprise Server et que vous avez installé le correctif le plus récent. Pour ce faire, commencez par arrêter tous les services, puis exécutez le programme d’installation de la mise à jour de Skype entreprise Server comme suit:
+Vérifiez que vous avez installé la dernière version de Skype entreprise Server et que vous avez installé le correctif le plus récent. Pour ce faire, commencez par arrêter tous les services, puis exécutez le programme d’installation de la mise à jour de Skype entreprise Server comme suit :
 
 1. Exécutez la commande Stop-CsWindowsService.
 
@@ -48,50 +48,50 @@ Vérifiez que vous avez installé la dernière version de Skype entreprise Serve
 
 Le programme d’installation déploiera la version la plus récente de l’application Busy Options mais l’application n’est pas activée par défaut. Pour l'activer, procédez de la manière suivante :
 
-1. Exécutez l’applet de commande [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) pour activer globalement les options Busy comme le montre l’exemple suivant:
+1. Exécutez l’applet de commande [Set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) pour activer globalement les options Busy comme le montre l’exemple suivant :
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
 2. Si une stratégie de voix est en place sur le site, activez ensuite Busy Options pour la stratégie de voix de la manière suivante :
 
-    Tout d’abord, exécutez [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) pour récupérer le nom du site:
+    Tout d’abord, exécutez [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) pour récupérer le nom du site :
 
-   ```
+   ```powershell
    Get-CsSite
    ```
 
-    Utilisez la valeur d’identité (par exemple: site: Redmond1) récupérée à partir de Get-CsSite pour récupérer la stratégie de voix du site comme suit:
+    Utilisez la valeur d’identité (par exemple : site : Redmond1) récupérée à partir de Get-CsSite pour récupérer la stratégie de voix du site comme suit :
 
-   ```
+   ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
     Si une stratégie de voix existe pour le site, exécutez la commande suivante :
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
-3. Ensuite, exécutez l’applet de commande [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) pour ajouter des options occupées à la liste des applications serveur, comme le montre l’exemple suivant:
+3. Ensuite, exécutez l’applet de commande [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) pour ajouter des options occupées à la liste des applications serveur, comme le montre l’exemple suivant :
 
-   ```
+   ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
     > Vous devez remplacer% FQDN% par le nom de domaine complet d’un pool spécifique.
 
-4. Ensuite, exécutez l’applet de commande [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) pour mettre à jour les rôles de contrôle d’accès basés sur les rôles (RBAC) pour les applets de commande d’options occupées comme illustré dans l’exemple suivant:
+4. Ensuite, exécutez l’applet de commande [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) pour mettre à jour les rôles de contrôle d’accès basés sur les rôles (RBAC) pour les applets de commande d’options occupées comme illustré dans l’exemple suivant :
 
-   ```
+   ```powershell
    Update-CsAdminRole
    ```
 
 5. Pour finir, démarrez les services Windows de Skype entreprise Server sur tous les serveurs frontaux de tous les pools pour lesquels les options occupées ont été installées et activées en exécutant la commande [Démarrer-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
 
-   ```
+   ```powershell
    Start-CsWindowsService
    ```
 
@@ -101,25 +101,25 @@ Pour configurer la fonctionnalité Busy Options, utilisez l'applet de commande [
 
 Par exemple, la commande suivante configure la fonctionnalité Busy Options pour l'utilisateur « Ken Myer ». Dans cette configuration, les appels vers « Ken Myer » seront retournés avec une tonalité d’occupation lorsqu'il sera déjà en communication :
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 Dans l'exemple suivant, la commande configure la fonctionnalité Busy Options pour l'utilisateur « Chrystal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Chrystal Velasquez » seront transférés vers la messagerie vocale lorsqu'elle sera déjà en communication :
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Vous pouvez récupérer les informations relatives à la configuration de Busy Options à l'aide de l'applet de commande [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). L’exemple suivant retourne le paramètre d’options Busy pour «KenMyer@Contoso.com»:
+Vous pouvez récupérer les informations relatives à la configuration de Busy Options à l'aide de l'applet de commande [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). L’exemple suivant retourne le paramètre d’options Busy pour « KenMyer@Contoso.com » :
 
-```
+```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
 Vous pouvez supprimer Busy Options à l'aide de l'applet de commande [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). La commande suivante supprime la fonctionnalité Busy Options pour « Ken Myer » :
 
-```
+```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
@@ -129,7 +129,7 @@ Pour plus d’informations sur les applets de passe que vous utilisez pour confi
 
 Pour activer la journalisation pour la fonctionnalité Busy Options à l'aide de Centralized Logging Service, indiquez ce qui suit :
 
-```
+```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
 $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar

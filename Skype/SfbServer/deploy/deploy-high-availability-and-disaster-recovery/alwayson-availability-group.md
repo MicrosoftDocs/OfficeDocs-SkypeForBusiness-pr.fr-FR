@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déploiement (installation) d’un groupe toujours disponible dans le déploiement de Skype entreprise Server.
-ms.openlocfilehash: 2cfc75aecd53a82e146feefd944134a4695c21fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240125"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002914"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déploiement d’un groupe toujours disponible sur un serveur principal dans Skype entreprise Server
  
@@ -136,9 +136,9 @@ Le mode de déploiement d’un programme AG dépend du mode de déploiement dans
     
    - Ouvrez SQL Server Management Studio, puis accédez à la AG. Faites-le basculer vers un réplica secondaire.
     
-   - Ouvrez Skype entreprise Server Management Shell et tapez l’applet de commande suivante pour créer les connexions SQL sur ce réplica:
+   - Ouvrez Skype entreprise Server Management Shell et tapez l’applet de commande suivante pour créer les connexions SQL sur ce réplica :
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -152,13 +152,13 @@ Le mode de déploiement d’un programme AG dépend du mode de déploiement dans
   
 1. Basculez toutes les données du miroir vers le nœud principal en ouvrant Skype entreprise Server Management Shell et en tapant l’applet de commande suivante.
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     Répétez cette applet de commande pour chaque type de base de données dans le pool. Vous pouvez utiliser l’applet de commande ci-dessous pour trouver tous les types de bases de données stockées dans ce pool.
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -294,9 +294,9 @@ Le mode de déploiement d’un programme AG dépend du mode de déploiement dans
     
     - Ouvrez SQL Server Management Studio, puis accédez à la AG. Faites-le basculer vers un réplica secondaire.
     
-    - Ouvrez Skype entreprise Server Management Shell et tapez l’applet de commande suivante pour créer les connexions SQL sur ce réplica:
+    - Ouvrez Skype entreprise Server Management Shell et tapez l’applet de commande suivante pour créer les connexions SQL sur ce réplica :
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -376,7 +376,7 @@ Le mode de déploiement d’un programme AG dépend du mode de déploiement dans
     
      N’incluez pas les bases de données de chat **reportserver**, **ReportServerTempDB**ou permanentes dans la AG, car elles ne sont pas prises en charge dans ce scénario. Vous pouvez inclure toutes les autres bases de données Skype entreprise Server du AG.
     
-   - Dans la page **spécifier** des réplicas, cliquez sur l’onglet **fac-similés** . Cliquez ensuite sur le bouton **Ajouter** des réplicas, puis connectez-vous aux autres instances SQL que vous avez jointes en tant que nœuds du WSFC.
+   - Dans la page **spécifier des réplicas** , cliquez sur l’onglet **fac-similés** . Cliquez ensuite sur le bouton **Ajouter des réplicas** , puis connectez-vous aux autres instances SQL que vous avez jointes en tant que nœuds du WSFC.
     
    - Pour chaque instance, sélectionnez les options **Basculement automatique** et **Validation synchrone**. Ne sélectionnez pas l’option **Secondaire lisible**.
     
@@ -426,9 +426,9 @@ Le mode de déploiement d’un programme AG dépend du mode de déploiement dans
     
     - Ouvrez SQL Server Management Studio, puis accédez à la AG. Faites-le basculer vers un réplica secondaire.
     
-    - Ouvrez Skype entreprise Server Management Shell et tapez l’applet de commande suivante pour créer les connexions SQL sur ce réplica:
+    - Ouvrez Skype entreprise Server Management Shell et tapez l’applet de commande suivante pour créer les connexions SQL sur ce réplica :
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 

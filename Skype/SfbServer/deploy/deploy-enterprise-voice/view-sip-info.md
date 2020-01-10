@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Résumé: Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.'
-ms.openlocfilehash: 3d8ad70428926c26445c6556544a5a363de12f5c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.'
+ms.openlocfilehash: 366e03c1a3ceef345a52bca6e038c9311fcc3003
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239942"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001124"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Afficher des informations sur les circuits SIP individuels dans Skype entreprise Server
  
-**Résumé:** Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.
+**Résumé :** Découvrez comment afficher des informations sur les ISL SIP dans Skype entreprise Server.
   
 Les circuits SIP sont utilisés pour connecter le réseau téléphonique commuté de Skype entreprise Server à l’aide du réseau téléphonique public commuté (RTC). Dans la version précédente du produit, les Trunks permettaient le routage des appels sortants d’un serveur de médiation vers une passerelle RTC et chaque passerelle était limitée à un seul Trunk. Par conséquent, une passerelle RTC et un Trunk SIP étaient essentiellement identiques. Pour les administrateurs, cela signifie qu’ils pouvaient afficher les informations relatives à une ligne SIP individuelle en consultant les informations relatives à la passerelle RTC associée.
   
@@ -33,7 +33,7 @@ Dans Skype entreprise Server, il est désormais possible d’attribuer plusieurs
 
 - La commande suivante retourne des informations relatives à toutes les jonctions SIP utilisées dans votre organisation :
     
-  ```
+  ```powershell
   Get-CsTrunk
   ```
 
@@ -41,7 +41,7 @@ Dans Skype entreprise Server, il est désormais possible d’attribuer plusieurs
 
 - La commande suivante retourne uniquement les informations relatives à la jonction SIP ayant l’identité PstnGateway 192.168.0.240 :
     
-  ```
+  ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
@@ -49,6 +49,6 @@ Dans Skype entreprise Server, il est désormais possible d’attribuer plusieurs
 
 - Dans cet exemple, les informations relatives à toutes les jonctions SIP affectées au pool atl-cs-001.litwareinc.com sont retournées :
     
-  ```
+  ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```

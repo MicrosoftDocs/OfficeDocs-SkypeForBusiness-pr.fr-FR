@@ -14,17 +14,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 'Résumé: Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour:.'
-ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
+ms.openlocfilehash: 47713c0283c5908605abec31913e104963aea2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235241"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001014"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Création d’un partage de fichiers dans Skype entreprise Server
  
-**Résumé:** Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour:.
+**Résumé :** Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)Microsoft pour :.
   
 Pour pouvoir échanger des fichiers, Skype entreprise Server a besoin d’un partage de fichiers. La création d’un partage de fichiers est l’étape 2 sur 8 du processus d’installation de Skype entreprise Server. Vous pouvez effectuer les étapes 1 à 5 dans n’importe quel ordre. Cependant, vous devez exécuter les étapes 6, 7 et 8 dans l’ordre, et après les étapes 1 à 5 comme indiqué sur le diagramme. Pour plus d’informations sur la planification du partage de fichiers, voir la [Configuration requise pour Skype entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [serveur requise pour skype entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
@@ -62,12 +62,13 @@ Regardez la vidéo des étapes pour **créer un partage de fichiers** :
      ![Partage d’onglets pour partager des dossiers.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
 > [!NOTE]
->Si le magasin de fichiers est hébergé sur un partage DFS, le message d’avertissement suivant est reçu:
+>Si le magasin de fichiers est hébergé sur un partage DFS, le message d’avertissement suivant est reçu :
 
-AVERTISSEMENT: impossible d’accéder aux autorisations de partage\\<domain>\<pour «partager>».
+AVERTISSEMENT : impossible d’accéder aux autorisations de partage\\<domain>\<pour « partager> ».
 
 >Cela peut se produire si vous n’êtes pas administrateur sur le serveur de fichiers ou s’il s’agit d’un partage du système de fichiers DFS. Si les autorisations de partage ont déjà été configurées, cet avertissement peut être ignoré. S’il s’agit d’un nouveau partage, reportez-vous à la documentation pour plus d’informations sur la configuration manuelle des autorisations de partage.
 
->En raison de l’incapacité d’accéder aux autorisations de partage sur un partage DFS, Skype entreprise Server ne peut pas définir explicitement les groupes sur le partage de fichiers. Pour vous assurer que les composants de Skype entreprise Server peuvent accéder au partage de fichiers avec les autorisations appropriées, assurez-vous que les groupes RTC suivants sont ajoutés en plus des autorisations de partage de niveau supérieur.
-
-RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
+>En raison de l’incapacité d’accéder aux autorisations de partage sur un partage DFS, Skype entreprise Server ne peut pas définir explicitement les groupes sur le partage de fichiers. Pour vous assurer que les composants de Skype entreprise Server peuvent accéder au partage de fichiers avec les autorisations appropriées, assurez-vous que les groupes RTC suivants sont ajoutés avec les autorisations de partage de niveau lecture et modification en plus des administrateurs locaux avec le partage de contrôle total. attribué.
+* RTCHSUniversalServices
+* RTCComponentUniversalServices
+* RTCUniversalServerAdmins

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Consultez cette rubrique pour découvrir comment joindre un appareil PC Skype Room System à votre domaine.
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774662"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003514"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Remarques relatives à la jonction du domaine Skype Room System
  
@@ -53,7 +53,7 @@ Vous pouvez rejoindre le PC de l’application Skype Room sur le domaine Active 
     
 Si vous envisagez de joindre les machines de votre système de salle Skype à votre domaine, dans le cas d’une UO involontaire qui n’est pas disponible pour les objets de stratégie de groupe, assurez-vous de rejoindre l’UO correcte. Vous pouvez utiliser l’applet de commande suivante depuis l’ordinateur système de salle Skype pour rejoindre l’UO correcte et ne pas recevoir d’objets de stratégie de groupe qui peuvent bloquer la fonctionnalité LRS. Contactez votre administrateur système ou partenaire OEM pour exécuter ces applets de commande :
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password

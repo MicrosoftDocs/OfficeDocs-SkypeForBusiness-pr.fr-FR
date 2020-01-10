@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069375"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003314"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
@@ -39,7 +39,7 @@ Vous pouvez vous familiariser avec les différents types de modes disponibles en
 
 ![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
 
-1. Dans le volet de navigation de gauche, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation. 
+1. Dans le [Centre d’administration de Microsoft teams](https://admin.teams.microsoft.com/), dans le volet de navigation de gauche, accédez à**mise à niveau des équipes** **des paramètres** > à l’échelle de l’organisation. 
 
 2. En haut de la page **mise à niveau de teams** , apportez les modifications suivantes, le cas échéant.
     - Définissez le mode de **coexistence** .

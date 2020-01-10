@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
-description: 'Résumé: intégrez Skype entreprise Server et Outlook Web App.'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : intégrez Skype entreprise Server et Outlook Web App.'
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244208"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002874"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurer l’intégration entre Skype entreprise Server et Outlook Web App
 
-**Résumé:** Intégrez Skype entreprise Server et Outlook Web App.
+**Résumé :** Intégrez Skype entreprise Server et Outlook Web App.
 
-Les clients utilisant un déploiement local de Skype entreprise Server peuvent configurer l’interopérabilité avec Microsoft Outlook Web App dans Microsoft Exchange Online dans un mode de déploiement hybride. Les fonctionnalités d’interopérabilité comprennent l’ouverture de session unique, l’intégration de la messagerie instantanée et de la présence dans l’interface d’Outlook Web App. Pour activer cette intégration, vous devez configurer le serveur de périphérie dans votre déploiement de Skype entreprise Server sur site en effectuant les tâches suivantes:
+Les clients utilisant un déploiement local de Skype entreprise Server peuvent configurer l’interopérabilité avec Microsoft Outlook Web App dans Microsoft Exchange Online dans un mode de déploiement hybride. Les fonctionnalités d’interopérabilité comprennent l’ouverture de session unique, l’intégration de la messagerie instantanée et de la présence dans l’interface d’Outlook Web App. Pour activer cette intégration, vous devez configurer le serveur de périphérie dans votre déploiement de Skype entreprise Server sur site en effectuant les tâches suivantes :
 
 - configurer un espace d’adressage SIP partagé ;
 
@@ -35,9 +35,9 @@ Les clients utilisant un déploiement local de Skype entreprise Server peuvent c
 
 Pour intégrer Skype entreprise Server sur site à Exchange Online, vous devez configurer un espace d’adressage SIP partagé. Le même espace d’adresse de domaine SIP est pris en charge par Skype entreprise Server et le service Exchange Online.
 
-À l’aide de Skype entreprise Server Management Shell, configurez le serveur Edge pour la Fédération en exécutant l’applet de commande **Set-CSAccessEdgeConfiguration** en utilisant les paramètres présentés dans l’exemple suivant:
+À l’aide de Skype entreprise Server Management Shell, configurez le serveur Edge pour la Fédération en exécutant l’applet de commande **Set-CSAccessEdgeConfiguration** en utilisant les paramètres présentés dans l’exemple suivant :
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -47,14 +47,14 @@ Pour plus d’informations sur l’utilisation de Skype entreprise Server Manage
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Configurer un fournisseur d’hébergement sur le serveur Edge.
 
-À l’aide de Skype entreprise Server Management Shell, configurez un fournisseur d’hébergement sur le serveur Edge en exécutant l’applet **de commande New-CsHostingProvider** en utilisant les paramètres dans l’exemple suivant:
+À l’aide de Skype entreprise Server Management Shell, configurez un fournisseur d’hébergement sur le serveur Edge en exécutant l’applet **de commande New-CsHostingProvider** en utilisant les paramètres dans l’exemple suivant :
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
 > [!NOTE]
-> Si vous utilisez Office 365 activé par 21Vianet en Chine, remplacez dans cet exemple la valeur du paramètre ProxyFqdn (« exap.um.outlook.com ») par le FQDN du service activé par 21Vianet: « exap.um.partner.outlook.cn ». Si vous utilisez la fonction de haut-parleurs d’Office 365, remplacez la valeur du paramètre ProxyFqdn dans cet exemple («exap.um.outlook.com») par le nom de domaine complet («exap.um.office365.us»).
+> Si vous utilisez Office 365 activé par 21Vianet en Chine, remplacez dans cet exemple la valeur du paramètre ProxyFqdn (« exap.um.outlook.com ») par le FQDN du service activé par 21Vianet: « exap.um.partner.outlook.cn ». Si vous utilisez la fonction de haut-parleurs d’Office 365, remplacez la valeur du paramètre ProxyFqdn dans cet exemple (« exap.um.outlook.com ») par le nom de domaine complet (« exap.um.office365.us »).
 
 - **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez (par exemple, « Exchange Online »). Les valeurs qui contiennent des espaces doivent être placées entre guillemets doubles.
 
@@ -74,16 +74,16 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 Les modifications que vous avez apportées à l’aide des applets de passe dans les sections précédentes s’appliquent automatiquement au serveur Edge et prennent généralement moins d’une minute de réplication. Vous pouvez valider l’état de la réplication, puis vérifier qu’elles ont été appliquées à votre serveur Edge en utilisant les applets de commande suivantes.
 
-Pour vérifier les mises à jour de réplication, sur un serveur interne à votre déploiement de Skype entreprise Server, exécutez l’applet de commande suivante:
+Pour vérifier les mises à jour de réplication, sur un serveur interne à votre déploiement de Skype entreprise Server, exécutez l’applet de commande suivante :
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 Vérifiez si la valeur UpToDate s’affiche TRUE pour tous les réplicas.
 
-Pour confirmer l’application des modifications, sur le serveur Edge, exécutez l’applet de commande suivante:
+Pour confirmer l’application des modifications, sur le serveur Edge, exécutez l’applet de commande suivante :
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 Vérifiez si les informations affichées correspondent aux modifications validées au cours des étapes précédentes.

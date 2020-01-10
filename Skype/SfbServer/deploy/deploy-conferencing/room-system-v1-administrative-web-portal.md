@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Le portail Web d’administration de Skype entreprise Server v1 (SRS v1, auparavant appelé système de salle Lync) est un portail Web que les organisations peuvent utiliser pour gérer leurs salles de conférence de systèmes de salle Skype. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour contrôler l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Ils peuvent également collecter à distance des informations de diagnostic pour surveiller l’intégrité des salles de conférence.
-ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234173"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002884"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déploiement du portail Web d’administration de SRS v1 dans Skype entreprise Server
 
@@ -84,9 +84,9 @@ Télécharger le [portail Web d’administration des systèmes de salle Skype Mi
 
 Pour installer le portail Web d’administration de SRS v1, procédez comme suit.
 
-1. Configurez le port d’application fiable en exécutant l’applet de commande suivante dans Skype entreprise Server Management Shell:
+1. Configurez le port d’application fiable en exécutant l’applet de commande suivante dans Skype entreprise Server Management Shell :
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -96,21 +96,21 @@ Pour installer le portail Web d’administration de SRS v1, procédez comme sui
 
     %Program Files%\Skype for Business Server 2015\Web Components\Meeting Room Portal\Int\Handler\
 
-4. Dans le fichier Web. config, remplacez PortalUserName par le nom d’utilisateur créé à l’étape 2 de la section «[configurer votre environnement pour le portail Web d’administration SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)» (le nom recommandé dans l’étape est LRSApp):
+4. Dans le fichier Web. config, remplacez PortalUserName par le nom d’utilisateur créé à l’étape 2 de la section «[configurer votre environnement pour le portail Web d’administration SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)» (le nom recommandé dans l’étape est LRSApp) :
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. Comme le portail d’administration de SRS v1 est une application approuvée, vous n’avez pas besoin d’indiquer le mot de passe dans la configuration du portail. Si cet utilisateur utilise un autre serveur d’inscriptions que le serveur d’inscriptions local, vous devez le spécifier en ajoutant la ligne suivante dans le fichier Web.Config : 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. Si le port utilisé n’est pas le port 5061, ajoutez la ligne suivante dans le fichier Web.Config : 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -178,7 +178,7 @@ Dans la section Paramètres, vous pouvez définir le mot de passe, le libellé d
 
 #### <a name="details"></a>Détails
 
-La section Détails fournit une synthèse en lecture seule des paramètres de la salle de SRS, notamment: l’heure de la dernière actualisation; réunion suivante; dernières mises à jour, maintenance et calibrage; paramètres de haut-parleur, micro et sonnerie par défaut; version9.0.2 URI SIP; nombre d’écrans et de détails relatifs à chaque écran; État et activité.
+La section Détails fournit une synthèse en lecture seule des paramètres de la salle de SRS, notamment : l’heure de la dernière actualisation ; réunion suivante ; dernières mises à jour, maintenance et calibrage ; paramètres de haut-parleur, micro et sonnerie par défaut ; version9.0.2 URI SIP ; nombre d’écrans et de détails relatifs à chaque écran ; État et activité.
 
 ![Affichage détaillé du portail d’administration Lync Room System](../../media/LRS_AdminPortal_Detail_view.png)
 
@@ -209,11 +209,11 @@ Pour effectuer une opération de gestion en bloc, sélectionnez les salles à su
 
 ### <a name="frequently-asked-questions"></a>Forum aux questions
 
-#### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Pourquoi ne puis-je pas me connecter au portail Web d’administration?
+#### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Pourquoi ne puis-je pas me connecter au portail Web d’administration ?
 
 Lorsque vous ouvrez https://localhost/lrsla page de connexion, vous pouvez voir la page de connexion, mais si vous entrez vos informations d’identification, vous ne pourrez pas vous connecter. Dans ce cas, vous devez ouvrir https://FQDNofFEserver/SRS pour vous connecter au portail Web d’administration.
 
-#### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir SRS v1 dans le portail Web d’administration?
+#### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir SRS v1 dans le portail Web d’administration ?
 
 - Assurez-vous que votre déploiement comporte des comptes SRS et qu’ils ont été créés selon les recommandations de déploiement du portail Web d’administration de SRS. Assurez-vous que les comptes SRS sont approvisionnés à l’aide de Enable-CsMeetingRoom, et non d’Enable-CsUser, sur le serveur Skype entreprise.
 
@@ -221,7 +221,7 @@ Lorsque vous ouvrez https://localhost/lrsla page de connexion, vous pouvez voir 
 
 - Si vous avez créé des comptes SRS et que vous ne les voyez pas sur le portail Web d’administration, collectez les journaux clients à l’aide de Fiddler, copiez également le journal de la console à partir des outils de développement du navigateur et envoyez-les à votre contact d’assistance pour SRS. Vous pouvez également modifier la valeur de niveau du suivi dans le fichier Web.config pour obtenir un journal plus détaillé.
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--
@@ -234,17 +234,17 @@ Lorsque vous ouvrez https://localhost/lrsla page de connexion, vous pouvez voir 
   </system.diagnostics>
   ```
 
-#### <a name="why-cant-i-see-the-status-of-srs-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir l’état de SRS dans le portail Web d’administration?
+#### <a name="why-cant-i-see-the-status-of-srs-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir l’état de SRS dans le portail Web d’administration ?
 
 - Assurez-vous que le compte d’utilisateur LRSApp est activé pour SIP.
 
 - Si vous rencontrez encore des problèmes, collectez le fichier **trace. log** dans le système SRS à\, partir de D:\Tracing\LRSAdminLogs, puis envoyez-le à votre contact du support SRS.
 
-#### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir les menus de gestion en bloc pour le service SRS dans le portail Web d’administration?
+#### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>Pourquoi ne puis-je pas voir les menus de gestion en bloc pour le service SRS dans le portail Web d’administration ?
 
 Assurez-vous que le compte d’utilisateur LRSApp est compatible SIP et fait partie du groupe de sécurité LRSPowerUserAdminsGroup.
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>Le portail Web d’administration de SRS v1 fonctionne-t-il avec les salles de Microsoft teams?
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>Le portail Web d’administration de SRS v1 fonctionne-t-il avec les salles de Microsoft teams ?
 
 Non
 

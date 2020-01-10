@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: 'L’applet de connexion de restauration des informations d’identification cc: restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector.'
-ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'L’applet de connexion de restauration des informations d’identification cc : restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector.'
+ms.openlocfilehash: adac3f0b9ca6cf392b537a9c5d0f2095021c7120
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287082"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003244"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-L’applet de connexion de restauration des informations d’identification cc: restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector. 
+L’applet de connexion de restauration des informations d’identification cc : restaure toutes les informations d’identification du déploiement actuel de Skype entreprise version Cloud Connector. 
   
 Cette cmdlet s’applique à Skype entreprise version Cloud Connector 2,1.
   
-```
+```powershell
 Restore-CcCredentials 
 ```
 
@@ -46,9 +46,9 @@ Aucun.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant restaure toutes les informations d’identification du déploiement actuel du connecteur Cloud:
+L’exemple suivant restaure toutes les informations d’identification du déploiement actuel du connecteur Cloud :
   
-```
+```powershell
     PS C:\>Restore-CcCredentials
 ```
 

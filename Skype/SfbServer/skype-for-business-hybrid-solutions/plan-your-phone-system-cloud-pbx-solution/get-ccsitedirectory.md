@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel sont actuellement conservés les fichiers de configuration de niveau site. Le dossier contient les fichiers d’installation de base de VHD et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres applications d’un site Cloud Connector.
-ms.openlocfilehash: e0b8a793f0210535a726b0bed19f240bf8b30dd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 095776a680fbbcc8c43a8f99700b357175010b5a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287299"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003364"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -24,7 +24,7 @@ L’applet de commande Get-CcSiteDirectory affiche le répertoire dans lequel so
   
 Cette applet de commande s’applique à Cloud Connector 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 
@@ -37,9 +37,9 @@ Aucun
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant montre le dossier actuel dans lequel se trouvent les fichiers de configuration et d’ordinateurs virtuels des composants Cloud Connector:
+L’exemple suivant montre le dossier actuel dans lequel se trouvent les fichiers de configuration et d’ordinateurs virtuels des composants Cloud Connector :
   
-```
+```powershell
 Get-CcSiteDirectory
 ```
 

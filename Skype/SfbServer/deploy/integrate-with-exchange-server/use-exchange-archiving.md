@@ -11,24 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
-description: 'Résumé: configurez les transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : configurez les transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.'
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244150"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003564"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configuration de Skype entreprise Server pour l’utilisation de l’archivage Exchange Server
 
-**Résumé:** Configurer des transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.
+**Résumé :** Configurer des transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype entreprise Server.
 
 Skype entreprise Server donne aux administrateurs la possibilité de recourir à des transcriptions de messagerie instantanée et de conférence Web archivées sur la boîte aux lettres Exchange Server 2016 ou Exchange Server 2013 plutôt que sur une base de données SQL Server. Si vous activez cette option, les transcriptions sont écrites dans le dossier Purges de la boîte aux lettres de l’utilisateur. Il s’agit d’un dossier masqué qui se trouve dans le dossier Purges. Même si ce dossier n’est pas visible par les utilisateurs finaux, le dossier est indexé par le moteur de recherche Exchange et peut être détecté à l’aide de la recherche de boîte aux lettres Exchange et/ou de Microsoft SharePoint Server 2013. Étant donné que les informations sont stockées dans le même dossier que celui utilisé par la fonctionnalité de conservation inaltérable Exchange (responsable de l’archivage des messages électroniques et d’autres communications Exchange), les administrateurs peuvent utiliser un seul outil pour rechercher toutes les communications électroniques archivées pour a Il.
 
 > [!IMPORTANT]
-> Vous devez désactiver l’historique des conversations pour en désactiver complètement l’archivage. Pour plus d’informations, reportez-vous aux rubriques suivantes: [gestion de l’archivage des communications internes et externes dans Skype entreprise Server](https://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [nouvelles-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)et [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps).
+> Vous devez désactiver l’historique des conversations pour en désactiver complètement l’archivage. Pour plus d’informations, reportez-vous aux rubriques suivantes : [gestion de l’archivage des communications internes et externes dans Skype entreprise Server](https://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [nouvelles-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)et [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps).
 
-Afin d’archiver les transcriptions sur Exchange Server, vous devez commencer par configurer l’authentification de serveur à serveur entre Skype entreprise Server et Exchange Server. Une fois l’authentification de serveur à serveur en place, vous pouvez effectuer les tâches suivantes dans Skype entreprise Server (Notez que, en fonction de votre installation et de la configuration, vous n’aurez peut-être pas besoin d’effectuer toutes les tâches suivantes):
+Afin d’archiver les transcriptions sur Exchange Server, vous devez commencer par configurer l’authentification de serveur à serveur entre Skype entreprise Server et Exchange Server. Une fois l’authentification de serveur à serveur en place, vous pouvez effectuer les tâches suivantes dans Skype entreprise Server (Notez que, en fonction de votre installation et de la configuration, vous n’aurez peut-être pas besoin d’effectuer toutes les tâches suivantes) :
 
 1. Activez l’archivage Exchange en modifiant vos paramètres de configuration de l’archivage de Skype entreprise Server. Cette étape est nécessaire pour tous les déploiements.
 
@@ -36,7 +36,7 @@ Afin d’archiver les transcriptions sur Exchange Server, vous devez commencer p
 
 3. Configurez la propriété ExchangeArchivingPolicy pour chaque utilisateur. Cette étape est uniquement requise si Skype entreprise Server et Exchange Server sont situés dans différentes forêts.
 
-## <a name="step-1-enabling-exchange-archiving"></a>Étape 1: activation de l’archivage Exchange
+## <a name="step-1-enabling-exchange-archiving"></a>Étape 1 : activation de l’archivage Exchange
 
 L’archivage dans Skype entreprise Server est essentiellement géré à l’aide des paramètres de configuration de l’archivage. Lorsque vous installez Skype entreprise Server, une collection globale unique de ces paramètres vous est attribuée. (Les administrateurs peuvent éventuellement créer de nouvelles collections de paramètres d’archivage à l’étendue du site.) Par défaut, l’archivage n’est pas activé dans les paramètres globaux et l’archivage Exchange est activé dans ces paramètres. Pour pouvoir utiliser l’archivage Exchange, les administrateurs doivent configurer les propriétés EnableArchiving et EnableExchangeArchiving dans les paramètres de configuration suivants. La propriété EnableArchiving peut avoir l’une des trois valeurs suivantes :
 
@@ -46,20 +46,20 @@ L’archivage dans Skype entreprise Server est essentiellement géré à l’aid
 
 - **ImAndWebConf**. À la fois les transcriptions de messages instantanés et celles de conférences web sont archivées. Si l’archivage Exchange est activé, ces transcriptions seront archivées dans Exchange Server. Si l’archivage Exchange est désactivé, ces transcriptions sont archivées dans Skype entreprise Server.
 
-La propriété EnableExchangeArchiving est une valeur booléenne: définissez EnableExchangeArchiving sur true ($True) pour activer l’archivage Exchange ou définissez EnableExchangeArchiving sur false ($False) pour désactiver l’archivage Exchange. Par exemple, la commande suivante permet d’archiver des transcriptions de la messagerie instantanée et d’archiver Exchange:
+La propriété EnableExchangeArchiving est une valeur booléenne : définissez EnableExchangeArchiving sur true ($True) pour activer l’archivage Exchange ou définissez EnableExchangeArchiving sur false ($False) pour désactiver l’archivage Exchange. Par exemple, la commande suivante permet d’archiver des transcriptions de la messagerie instantanée et d’archiver Exchange :
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
-Pour désactiver l’archivage Exchange, utilisez une commande similaire à ce qui suit, qui permet l’archivage des messages instantanés, mais désactive l’archivage dans Exchange (en d’autres termes, les transcriptions sont archivées dans Skype entreprise Server):
+Pour désactiver l’archivage Exchange, utilisez une commande similaire à ce qui suit, qui permet l’archivage des messages instantanés, mais désactive l’archivage dans Exchange (en d’autres termes, les transcriptions sont archivées dans Skype entreprise Server) :
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
 > [!NOTE]
-> Si la propriété EnableArchiving est définie sur «None», Skype entreprise Server n’archivera pas de messages instantanés et de transcriptions de conférences Web. Dans ce cas, le serveur ignorera simplement la valeur configurée pour EnableExchangeArchiving.
+> Si la propriété EnableArchiving est définie sur « None », Skype entreprise Server n’archivera pas de messages instantanés et de transcriptions de conférences Web. Dans ce cas, le serveur ignorera simplement la valeur configurée pour EnableExchangeArchiving.
 
 L’archivage Exchange peut également être activé (ou désactivé) à l’aide de Skype entreprise Server. Pour ce faire, procédez de la manière suivante :
 
@@ -80,7 +80,7 @@ Si Skype entreprise Server et Exchange Server résident dans différentes forêt
 
 ## <a name="step-2-enabling-the-archiving-of-internal-andor-external-communications"></a>Étape 2 : activation de l’archivage des communications internes et/ou externes
 
-Une fois que vous avez activé l’archivage (et l’archivage Exchange), vous devez modifier les stratégies d’archivage appropriées pour vous assurer que les sessions utilisateur sont bien archivées. Notez que l’activation de l’archivage (étape 1) n’entraîne pas le lancement de Skype entreprise Server lors de l’archivage de messages instantanés et de transcriptions de conférences Web. Vous devez utiliser les stratégies d’archivage pour activer l’archivage interne et/ou externe. Lorsque vous installez Skype entreprise Server, vous installez également une stratégie d’archivage globale unique contenant deux propriétés:
+Une fois que vous avez activé l’archivage (et l’archivage Exchange), vous devez modifier les stratégies d’archivage appropriées pour vous assurer que les sessions utilisateur sont bien archivées. Notez que l’activation de l’archivage (étape 1) n’entraîne pas le lancement de Skype entreprise Server lors de l’archivage de messages instantanés et de transcriptions de conférences Web. Vous devez utiliser les stratégies d’archivage pour activer l’archivage interne et/ou externe. Lorsque vous installez Skype entreprise Server, vous installez également une stratégie d’archivage globale unique contenant deux propriétés :
 
 - **ArchiveInternal**. Quand cette propriété a la valeur Vrai ($True), indique que les sessions de communication interne (celles qui impliquent uniquement des utilisateurs disposant d’un compte Active Directory dans votre organisation) seront archivées.
 
@@ -88,19 +88,19 @@ Une fois que vous avez activé l’archivage (et l’archivage Exchange), vous d
 
 Par défaut, ces deux propriétés ont la valeur Faux, ce qui signifie que ni les sessions de communication interne, ni les sessions de communication externe ne sont archivées. Pour modifier la stratégie globale, vous pouvez utiliser Skype entreprise Server Management Shell et l’applet de passe Set-CsArchivingPolicy. Cette commande permet d’archiver à la fois les sessions de communication interne et externe :
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Vous pouvez également utiliser New-CsArchivingPolicy pour créer une stratégie au niveau du site ou par utilisateur. Par exemple, la commande suivante crée une stratégie d’archivage par utilisateur appelée RedmondArchivingPolicy :
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Si vous créez une stratégie par utilisateur, vous devrez affecter cette stratégie aux utilisateurs appropriés. Par exemple :
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -118,15 +118,15 @@ Si Skype entreprise Server et Exchange Server se trouvent dans différentes for�
 
 4. **ArchivingToExchange**. Indique que les transcriptions de la messagerie instantanée et des conférences Web de l’utilisateur doivent être archivées sur Exchange, quels que soient les paramètres de conservation inaltérable qui ont (ou non) été attribués à la boîte aux lettres de l’utilisateur.
 
-Par exemple, pour configurer un compte d’utilisateur afin que les transcriptions de la messagerie instantanée et des conférences Web soient toujours archivées sur Exchange, vous pouvez utiliser une commande similaire à celle de Skype entreprise Server Management Shell:
+Par exemple, pour configurer un compte d’utilisateur afin que les transcriptions de la messagerie instantanée et des conférences Web soient toujours archivées sur Exchange, vous pouvez utiliser une commande similaire à celle de Skype entreprise Server Management Shell :
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 Si vous souhaitez définir la même stratégie d’archivage pour un groupe d’utilisateurs (par exemple, tous les utilisateurs hébergés sur un pool de serveurs d’inscriptions), vous pouvez utiliser une commande similaire à la suivante :
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ Notez que vous devez utiliser Skype entreprise Server Management Shell (et Windo
 
 Si vous voulez afficher la liste de tous les utilisateurs auxquels une stratégie spécifique a été attribuée, vous pouvez utiliser une commande semblable à la suivante, qui renvoie le nom d’affichage Active Directory de tous les utilisateurs dont la propriété ExchangeArchivingPolicy a la valeur Uninitialized :
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 De même, cette commande renvoie le nom d’affichage des utilisateurs dont la propriété ExchangeArchivingPolicy n’a pas la valeur UseLyncArchivingPolicy :
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'L’applet de commande Uninstall-CcAppliance désinstalle l’exécution de l’appliance de la version Cloud Connector de Skype Entreprise à partir du serveur hôte. '
-ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286893"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003144"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 L’applet de commande Uninstall-CcAppliance désinstalle l’exécution de l’appliance de la version Cloud Connector de Skype Entreprise à partir du serveur hôte.  
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -31,25 +31,25 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 ### <a name="example-1"></a>Exemple 1
 
-Dans l’exemple suivant, l’appareil Cloud Connector est vidé et désinstallé du serveur hôte:
+Dans l’exemple suivant, l’appareil Cloud Connector est vidé et désinstallé du serveur hôte :
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple qui suit draine et force la désinstallation de l’application Cloud Connector sur le serveur hôte même si le processus de drainage a échoué:
+L’exemple qui suit draine et force la désinstallation de l’application Cloud Connector sur le serveur hôte même si le processus de drainage a échoué :
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
 ### <a name="example-3"></a>Exemple 3
 
-Dans l’exemple suivant, la version de sauvegarde du connecteur Cloud est désinstallée sans confirmation de l’utilisateur:
+Dans l’exemple suivant, la version de sauvegarde du connecteur Cloud est désinstallée sans confirmation de l’utilisateur :
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 

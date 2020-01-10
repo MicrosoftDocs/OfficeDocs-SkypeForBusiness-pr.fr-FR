@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: En savoir plus sur le déploiement d’un seul site RTC dans la version Cloud Connector.
-ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a2cc8933276bc85b19ee79559ca4bcf9e88a079f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287362"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001024"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
@@ -31,7 +31,7 @@ Vous pouvez déployer Skype entreprise version Cloud Connector avec ou sans pris
 
 Pour déployer la première appliance sur un site, ouvrez une console PowerShell en tant qu'administrateur et exécutez l'applet de commande suivante afin d'inscrire l'appliance :
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Dans la version 2,0 et les versions ultérieures, suivez également les instruct
   
 Pour commencer l'installation, ouvrez une console PowerShell en tant qu'administrateur et exécutez l'applet de commande suivante :
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -55,24 +55,24 @@ Vous pouvez développer un site de connecteur Cloud existant pour prendre en cha
     
 2. N'exécutez l'applet de commande suivante que sur le serveur hôte nouvellement ajouté pour mettre les informations de topologie à jour dans votre configuration de client Office 365. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l'applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. Mettez la topologie à jour sur les appliances existantes en exécutant l'applet de commande suivante sur chaque serveur hôte. N'exécutez l'applet de commande que sur les appliances existantes.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. N'exécutez l'applet de commande suivante que sur les serveurs hôtes nouvellement ajoutés. N'exécutez pas cet applet de commande sur l'appliance existante. Si vous souhaitez ajouter plusieurs appliances en même temps, exécutez l'applet de commande sur chaque serveur hôte nouvellement ajouté un par un :
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
 > [!NOTE]
-> Si le chemin d’accès du dossier local de l’annuaire de sites est défini, vous devez définir un partage de fichiers pour ce dossier et utiliser un chemin d’accès UNC pour l’annuaire de sites sur la nouvelle appliance. Vous pouvez faire en sorte que le premier annuaire du site du matériel soit associé au chemin d’accès local ou qu’il utilise le chemin UNC du partage dans le même dossier. Si l’emplacement de l’annuaire de sites partagés change, tous les appareils précédemment installés doivent être désinstallés puis réinstallés. > important: le mot de passe du compte CceService et du compte CABackupFile doit être le même sur toutes les applications déployées dans le site, de sorte que les appareils puissent accéder au partage de l’annuaire de sites et au fichier de sauvegarde de l’autorité de certification crypté dans l’annuaire de sites. 
+> Si le chemin d’accès du dossier local de l’annuaire de sites est défini, vous devez définir un partage de fichiers pour ce dossier et utiliser un chemin d’accès UNC pour l’annuaire de sites sur la nouvelle appliance. Vous pouvez faire en sorte que le premier annuaire du site du matériel soit associé au chemin d’accès local ou qu’il utilise le chemin UNC du partage dans le même dossier. Si l’emplacement de l’annuaire de sites partagés change, tous les appareils précédemment installés doivent être désinstallés puis réinstallés. > important : le mot de passe du compte CceService et du compte CABackupFile doit être le même sur toutes les applications déployées dans le site, de sorte que les appareils puissent accéder au partage de l’annuaire de sites et au fichier de sauvegarde de l’autorité de certification crypté dans l’annuaire de sites. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Supprimer une appliance d'un site existant
 
@@ -80,13 +80,13 @@ Pour supprimer une appliance d'un site existant :
   
 1. N'exécutez l'applet de commande suivante que sur les serveurs hôtes à supprimer du site pour mettre les informations de topologie à jour dans votre configuration de client Office 365.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. N'exécutez l'applet de commande suivante que sur les serveurs hôtes à partir desquels vous souhaitez supprimer tous les ordinateurs virtuels de l'appliance.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

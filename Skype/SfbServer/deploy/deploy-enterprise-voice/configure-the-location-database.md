@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurer, peupler et publier la base de données de localisation E9-1-1 dans Skype entreprise Server Voice.
-ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: 1e972e78af1a83e68c2d28d0f636128b7c339cf2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038703"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001304"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurer la base de données de localisation dans Skype entreprise Server
  
@@ -56,52 +56,52 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
 
 1. Exécutez l’applet de commande ci-dessous pour ajouter un emplacement de sous-réseau à la base de données d’emplacements.
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     Pour les passerelles ELIN, insérez l’ELIN dans le champ CompanyName. Vous pouvez inclure plusieurs ELIN. Par exemple :
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     Vous pouvez également exécuter les applets de commande et utiliser le fichier « subnets.csv » pour pour mettre à jour par lot les emplacements de sous-réseau.
     
-   ```
+   ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
 2. Exécutez l’applet de commande ci-dessous pour ajouter des emplacements sans fil à la base de données d’emplacements.
     
-   ```
+   ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
    Vous pouvez également exécuter les applets de commande ci-dessous et utiliser le fichier « waps.csv » pour mettre à jour par lot les emplacements sans-fil.
     
-   ```
+   ```powershell
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
 3. Exécutez l’applet de commande ci-dessous pour ajouter des emplacements de commutateur à la base de données d’emplacements.
     
-   ```
+   ```powershell
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    Vous pouvez également exécuter les applets de commande ci-dessous et utiliser le fichier « switches.csv » pour mettre à jour par lot les emplacements de commutateur.
     
-   ```
+   ```powershell
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
 4. Exécutez l’applet de commande ci-dessous pour ajouter des emplacements de port à la base de données d’emplacements.
     
-   ```
+   ```powershell
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
@@ -109,7 +109,7 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
     
    Vous pouvez également exécuter les applets de commande ci-dessous et utiliser le fichier « ports.csv » pour mettre à jour par lot les emplacements de port.
     
-   ```
+   ```powershell
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
@@ -122,14 +122,14 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
     
 2. Exécutez les applets de commande ci-dessous pour configurer la connexion du fournisseur de service d’urgence.
     
-   ```
+   ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
 3. Exécutez l’applet de commande ci-dessous pour valider les adresses de la base de données des emplacements.
     
-   ```
+   ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
@@ -147,7 +147,7 @@ Si vous utilisez des passerelles ELIN, vous devez également charger les numér
     
 - Exécutez l’applet de commande ci-dessous pour publier la base de données d’emplacements.
     
-  ```
+  ```powershell
   Publish-CsLisConfiguration
   ```
 

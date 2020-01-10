@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: 'Résumé: Découvrez comment activer la fonctionnalité liste de contacts intelligents dans le client Skype entreprise.'
-ms.openlocfilehash: 17981e13c239241f050704b7c98593f95a29ab27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment activer la fonctionnalité liste de contacts intelligents dans le client Skype entreprise.'
+ms.openlocfilehash: 4c867232fd07131666033dc48ff9930dcdf6dccb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234236"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002684"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurer une liste de contacts dynamiques dans les clients Skype entreprise
 
-**Résumé:** Découvrez comment activer la fonctionnalité liste de contacts dynamiques dans le client Skype entreprise.
+**Résumé :** Découvrez comment activer la fonctionnalité liste de contacts dynamiques dans le client Skype entreprise.
 
 La fonctionnalité de liste de contacts dynamiques permet de remplir automatiquement les listes de contacts pour vos utilisateurs finaux. Dès lors que vous utilisez Skype entreprise pour la première fois, vos utilisateurs voient automatiquement le responsable et les autres membres de leur équipe. Cette fonctionnalité est activée par défaut pour les utilisateurs d’Office 365, mais vous devez activer explicitement cette fonctionnalité pour vos utilisateurs locaux en configurant le paramètre de stratégie client.
 
 Lors de la configuration de cette fonctionnalité, rappelez-vous des points suivants :
 
-- Les utilisateurs de plus de 13 ans sont automatiquement ajoutés à la liste des contacts dynamiques dans l’ordre suivant:
+- Les utilisateurs de plus de 13 ans sont automatiquement ajoutés à la liste des contacts dynamiques dans l’ordre suivant :
 
   1. Responsable
 
@@ -51,21 +51,21 @@ Pour activer les fonctionnalités d’une liste de contacts dynamiques pour vos 
 
 ### <a name="create-a-policy-entry-to-enable-smart-contacts-list"></a>Créez une entrée de stratégie pour activer la liste de contacts dynamiques.
 
-Pour créer une entrée de stratégie permettant d’activer la fonctionnalité liste de contacts dynamiques, utilisez l’applet [de commande New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) avec l’option EnableClientAutoPopulateWithTeam comme suit:
+Pour créer une entrée de stratégie permettant d’activer la fonctionnalité liste de contacts dynamiques, utilisez l’applet [de commande New-CsClientPolicyEntry](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) avec l’option EnableClientAutoPopulateWithTeam comme suit :
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
 ```
 
-Ensuite, utilisez l’applet de passe [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) pour écrire les modifications apportées à la stratégie globale comme suit:
+Ensuite, utilisez l’applet de passe [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps) pour écrire les modifications apportées à la stratégie globale comme suit :
 
-```
+```powershell
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```
 
 Vous pouvez éventuellement créer une stratégie pour désactiver le balisage automatique, comme suit :
 
-```
+```powershell
 $x=New-CsClientPolicyEntry -Name TagContactsInClientAutoPopulatedGroup -Value $False
 Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 ```

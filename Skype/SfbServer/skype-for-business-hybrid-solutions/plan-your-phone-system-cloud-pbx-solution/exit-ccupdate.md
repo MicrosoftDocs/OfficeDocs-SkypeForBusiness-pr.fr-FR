@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
 description: 'L’applet de commande Exit-CcUpdate effectue un mode maintenance de la mise à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise. '
-ms.openlocfilehash: b3558a81e1d4bc6c833cca157c2b31f2f252b595
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f79023c50e951e6678abdccc29b12cb30a329dfc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287425"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003444"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
@@ -24,7 +24,7 @@ L’applet de commande Exit-CcUpdate effectue un mode maintenance de la mise à 
   
 Cette applet de commande s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2. 
   
-```
+```powershell
 Exit-CcUpdate
 ```
 
@@ -39,7 +39,7 @@ Aucun
 
 La commande suivante remet l’appliance en mode production :  
   
-```
+```powershell
 Exit-CcUpdate
 ```
 

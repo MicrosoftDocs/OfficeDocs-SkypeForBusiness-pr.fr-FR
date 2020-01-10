@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Consultez cette rubrique pour trouver des exemples de scripts pour la mise en service de comptes Skype Room System.
-ms.openlocfilehash: 77aa3a621cbc1220b71782f2067c8923cad31e5f
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b2a6d0ce02e233492ac04a198c2bf2220f4de998
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775343"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003004"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuration de la salle Skype Room System
  
@@ -25,7 +25,7 @@ Cette section présente des exemples de scripts qui peuvent être utilisés pour
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Exemple de script de configuration : Skype entreprise et Exchange Server (local)
 
-```
+```powershell
 # On Exchange 
 Set-Mailbox -Identity confroom@contoso.com -MailTip "This room is equipped with Lync Meeting Room (LRS), please make it a 
 Lync Meeting to take advantage of enhanced meeting experience from LRS"
@@ -49,7 +49,7 @@ Assurez-vous que vous avez passé en revue les conditions préalables suivantes 
     
 - Redémarrez si nécessaire
     
-```
+```powershell
 # Note you have to enter each command one at a time and update any bold fields for your environment
 $rm="LyncRoom"
 $org='YourTenantName.onmicrosoft.com'

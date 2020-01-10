@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Apprenez à configurer l’intégration du connecteur Cloud à votre client Office 365.
-ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ed9437026ddbae07aadbe81585886ed0cb5cb0cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508809"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002854"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -69,7 +69,7 @@ Pour configurer une connectivité hybride entre le déploiement de Skype entrepr
   
 L’applet de commande définit le FQDN externe du serveur Edge d’accès. Dans la première des commandes, le \<nom de domaine complet\> du périmètre d’accès externe doit être celui du rôle de périmètre d’accès SIP. Par défaut, il doit s’agir du\<nom\>d’accès du domaine.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
@@ -107,7 +107,7 @@ Après avoir ajouté vos utilisateurs à Office 365, activez leurs comptes pour 
   
 - Affectez la stratégie à votre utilisateur et configurez le numéro de téléphone professionnel de l’utilisateur, que vous spécifiez avec la valeur du paramètre **Identity** :
     
-  ```
+  ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
@@ -116,7 +116,7 @@ Après avoir ajouté vos utilisateurs à Office 365, activez leurs comptes pour 
   
 Vous pouvez ensuite vérifier que les utilisateurs ont été ajoutés et activés grâce au script suivant :
   
-```
+```powershell
 # Input the user name you want to verify
 $user = Get-CsOnlineUser <User name>
 
@@ -134,7 +134,7 @@ Vous devrez décider d'autoriser ou non les utilisateurs à passer des appels in
   
 Pour désactiver les appels internationaux au niveau de l’utilisateur, exécutez l’applet de commande suivante dans PowerShell de Skype Entreprise Online :
   
-```
+```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
@@ -144,7 +144,7 @@ Pour réactiver les appels internationaux en fonction de la manière dont elle a
 
 Utilisez PowerShell en client distant pour affecter un site aux utilisateurs, même si vous avez déployé un site unique. Pour plus d’informations sur l’établissement d’une session PowerShell distante, voir : [configurer votre ordinateur pour Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
-```
+```powershell
 # Set the site to users
 Set-CsUserPstnSettings -Identity <User Name> -HybridPstnSite <PSTN Site Name>
 
@@ -168,19 +168,19 @@ Lorsqu’un appel P2P est transféré vers une conférence RTC, le serveur de co
     Utilisez le domaine SIP par défaut de Cloud Connector (le premier domaine SIP du fichier. ini) en tant que domaine de l’utilisateur.
     
     Veuillez noter que l’attribution de licence est uniquement requise pour la propagation de l’utilisateur dans l’annuaire Skype entreprise online. Attribution d’une licence Office 365 (par exemple, E5) au compte que vous créez, autorisant jusqu’à une heure pour que les modifications soient propagées, vérifiez que les comptes d’utilisateurs ont été correctement configurés pour le répertoire Skype entreprise Online en exécutant l’applet de commande suivante, puis supprimez le licence de ce compte.
-    ```
+    ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. Démarrez une session de connexion distante Azure AD à un client à l’aide de vos informations d’identification d’administrateur général ou d’utilisateur, puis exécutez l’applet de commande suivante pour définir le service pour le compte d’utilisateur Azure AD configuré à l’étape 1 sur « HybridMediationServer » :
 
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Démarrez une session PowerShell à distance avec Skype entreprise à l’aide de vos informations d’identification d’administrateur de clients Skype entreprise, puis exécutez l’applet de commande suivante pour définir le nom de domaine complet \<\> du serveur de médiation avec le nom complet de l’utilisateur pour le compte que vous avez créé à l’étape 1 :
+3. Démarrez une session PowerShell distante Skype entreprise à l’aide de vos informations d’identification d’administrateur de clients Skype entreprise, puis exécutez l’applet de commande suivante pour définir le nom de domaine complet du serveur \<de\> médiation et du client Edge pour ce compte d’utilisateur, en remplaçant DisplayName par le nom complet de l’utilisateur pour le compte que vous avez créé à l’étape 1 :
     
-   ```
+   ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Pour plus d’informations sur le déploiement de votre système de salle Skype dans un environnement hybride, lisez cette rubrique.
-ms.openlocfilehash: 80e7efaf5fe3705e052d40606ea5944527d43a61
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f6364f7bb96ddf2b25aaaef2a341fce5b71372f5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774955"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003494"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Déploiements hybrides de Skype Room System
 
@@ -29,7 +29,7 @@ Pour des raisons d’illustration, nous utilisons LyncSample.com pour le domaine
   
 1. Pour créer une boîte aux lettres de ressources dans le centre d’administration Exchange (LyncSample.ccsctp.net), connectez-vous à Exchange Online Management Shell comme décrit dans la rubrique mise en service d’Exchange Online.
     
-   ```
+   ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
@@ -52,7 +52,7 @@ Pour des raisons d’illustration, nous utilisons LyncSample.com pour le domaine
     
 6. Activez le compte système de salle Skype pour Skype entreprise en exécutant l’applet de commande suivante sur Skype entreprise Management Shell :
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
    Set-CsMeetingRoom -Identity lrstest5@LyncSample.com -EnterpriseVoiceEnabled $true
    ```

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenez des informations sur la version Cloud Connector de Skype Entreprise, un ensemble de machines virtuelles (VM) qui met en œuvre une connectivité PSTN locale avec un système téléphonique d'Office 365 (Cloud PBX).
-ms.openlocfilehash: 1ef79cc9d50e21dc8b3376901638cd4f34e03f62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b95c1cca24b6faac8a6cf2807b6af324fdc57bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287012"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002274"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planification pour Skype Entreprise, version Cloud Connector
 
@@ -48,9 +48,9 @@ Par exemple, imaginons que votre entreprise possède un centre d'appels sophisti
 
 Cloud Connector se chargera du routage entre les utilisateurs hébergés localement et ceux hébergés en ligne, et vous pouvez choisir d'utiliser votre propre fournisseur PSTN avec le système téléphonique d'Office 365.
 
-Prenez en compte les points suivants lorsque vous planifiez le déploiement de votre édition Cloud Connector:
+Prenez en compte les points suivants lorsque vous planifiez le déploiement de votre édition Cloud Connector :
 
-- Pour utiliser le Cloud Connector pour tirer parti des solutions vocales Cloud, vous devez vous inscrire à un client Office 365 qui inclut un système téléphonique dans Office 365. Si vous n’avez pas encore de client Office 365, vous pouvez découvrir comment vous inscrire ici: [Office 365 pour les entreprises](https://products.office.com/en-us/business/office). Notez que vous devez vous inscrire à un plan incluant Skype entreprise online.
+- Pour utiliser le Cloud Connector pour tirer parti des solutions vocales Cloud, vous devez vous inscrire à un client Office 365 qui inclut un système téléphonique dans Office 365. Si vous n’avez pas encore de client Office 365, vous pouvez découvrir comment vous inscrire ici : [Office 365 pour les entreprises](https://products.office.com/en-us/business/office). Notez que vous devez vous inscrire à un plan incluant Skype entreprise online.
 
 - Pour enregistrer les appareils Cloud Connector avec le service Skype entreprise Online et pour exécuter diverses cmdlets, le Cloud Connector 2,0 et les versions ultérieures requièrent un compte Office 365 dédié avec les droits d’administrateur de clients Skype entreprise. Les versions de Cloud Connector antérieures à 2.0 requièrent un compte Office 365 dédié disposant des droits d'administrateur client global.
 
@@ -103,9 +103,9 @@ Avec la version Cloud Connector, vous déployez un ensemble de machines virtuell
 
 ![Composants de la version Cloud Connector](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
-Les composants Cloud Connector fournissent les fonctionnalités suivantes:
+Les composants Cloud Connector fournissent les fonctionnalités suivantes :
 
-- **Composante latérale** -la communication entre la topologie locale et les services en ligne traverse le composant Edge, qui inclut les composants suivants:
+- **Composante latérale** -la communication entre la topologie locale et les services en ligne traverse le composant Edge, qui inclut les composants suivants :
 
   - **Accès Edge** : fournit le routage SIP entre le déploiement local et Skype entreprise online.
 
@@ -121,7 +121,7 @@ Les composants Cloud Connector fournissent les fonctionnalités suivantes:
 
 - **Réplica de la Banque centrale de gestion (CMS)** : synchronise les informations de configuration du MCG global sur le serveur de rôles CMS.
 
-- **Contrôleur de domaine** : services de domaine Active Directory du Cloud Connector pour stocker tous les paramètres globaux et groupes nécessaires au déploiement des composants Cloud Connector. Une seule forêt sera créée pour chaque appareil de connecteur Cloud. Le contrôleur de domaine ne doit pas avoir de connexions avec l’annuaire Active Directory de production. Les services Active Directory incluent:
+- **Contrôleur de domaine** : services de domaine Active Directory du Cloud Connector pour stocker tous les paramètres globaux et groupes nécessaires au déploiement des composants Cloud Connector. Une seule forêt sera créée pour chaque appareil de connecteur Cloud. Le contrôleur de domaine ne doit pas avoir de connexions avec l’annuaire Active Directory de production. Les services Active Directory incluent :
 
   - Services de domaine Active Directory
 
@@ -142,7 +142,7 @@ Dans le cadre de cet article, nous les appellerons « sites PSTN ». Un site R
 
 Cette rubrique présente les sites PSTN. Pour plus d'informations sur la planification de vos sites PSTN, reportez-vous à la rubrique [Plan for Cloud Connector Edition PSTN sites](plan-for-cloud-connector-edition-pstn-sites.md).
 
-Vous pouvez déployer les topologies de connecteur Cloud suivantes:
+Vous pouvez déployer les topologies de connecteur Cloud suivantes :
 
 - Une seule application Cloud Connector Edition par site PSTN. Cette topologie n'est recommandée que pour les évaluations car elle ne fournit pas de haute disponibilité.
 
@@ -154,7 +154,7 @@ Lors de la planification de votre topologie, tenez compte des points suivants :
 
 - Avec le Cloud Connector 2,0 et les versions ultérieures, un site PSTN peut comporter jusqu’à 16 appareils de connexion Cloud. Les versions antérieures prennent en charge jusqu'à 4 appliances par site.
 
-- Il existe deux types de configuration matérielle testés avec Cloud Connector:
+- Il existe deux types de configuration matérielle testés avec Cloud Connector :
 
   - La plus grande version est capable de traiter un large volume d'appels simultanés et est prise en charge dans tous les types d'environnements de production.
 
@@ -208,7 +208,7 @@ Une configuration à plusieurs sites PSTN permet également de fournir une conn
 ## <a name="requirements-for-deployment"></a>Configuration requise pour le déploiement
 <a name="BKMK_Requirements"> </a>
 
-Avant de déployer l’édition Cloud Connector, assurez-vous d’avoir les éléments suivants pour votre environnement:
+Avant de déployer l’édition Cloud Connector, assurez-vous d’avoir les éléments suivants pour votre environnement :
 
 - **Pour l’ordinateur hôte-** Les VM sur le Cloud Connector doivent être déployées sur un matériel dédié exécutant Windows Server 2012 R2 Datacenter Edition (English) avec le rôle Hyper-V activé.
 
@@ -228,7 +228,7 @@ Avant de déployer l’édition Cloud Connector, assurez-vous d’avoir les él�
 
   - Trois cartes réseau 1 Gbits/s RJ45 haut débit
 
-- Si vous choisissez de déployer la version réduite de l’édition Cloud Connector qui prend en charge jusqu’à 50 appels simultanés, vous aurez besoin des éléments suivants:
+- Si vous choisissez de déployer la version réduite de l’édition Cloud Connector qui prend en charge jusqu’à 50 appels simultanés, vous aurez besoin des éléments suivants :
 
   - Intel i7 4790 quad core avec Intel 4600 Graphics (pas besoin de carte graphique haut de gamme)
 
@@ -240,13 +240,13 @@ Avant de déployer l’édition Cloud Connector, assurez-vous d’avoir les él�
 
 - Si un serveur proxy est requis sur un ordinateur hôte à des fins de navigation sur Internet, appliquez les modifications de configuration suivantes :
 
-  - Pour ignorer le proxy, spécifiez les paramètres de proxy WinHTTP définis avec votre serveur proxy et une liste de contournement incluant le «192.168.213. \*«réseau utilisé par les services de gestion des connecteurs Cloud et sous-réseau Corpnet Skype entreprise tels qu’ils sont définis dans votre fichier CloudConnector. ini. Sinon, la connectivité de la gestion échouera et empêchera le déploiement et la récupération automatique de Cloud Connector. Voici un exemple de commande de configuration de WinHTTP: netsh WinHTTP Set proxy "10.10.10.175:8080" Bypass-List =\*". local; 1. \*; 172,20. \*; 192.168.218. \*'\<local\>".
+  - Pour ignorer le proxy, spécifiez les paramètres de proxy WinHTTP définis avec votre serveur proxy et une liste de contournement incluant le «192.168.213. \*«réseau utilisé par les services de gestion des connecteurs Cloud et sous-réseau Corpnet Skype entreprise tels qu’ils sont définis dans votre fichier CloudConnector. ini. Sinon, la connectivité de la gestion échouera et empêchera le déploiement et la récupération automatique de Cloud Connector. Voici un exemple de commande de configuration de WinHTTP : netsh WinHTTP Set proxy "10.10.10.175:8080" Bypass-List =\*". local ; 1. \*; 172,20. \*; 192.168.218. \*'\<local\>".
 
   - Spécifiez les paramètres proxy par ordinateur au lieu de les spécifier par utilisateur. Dans le cas contraire, les téléchargements de connecteur Cloud échoueront. Vous pouvez spécifier des paramètres proxy par ordinateur en modifiant le registre ou via le paramètre de stratégie de groupe comme suit :
 
-  - **Registre:** Paramètres HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet] ProxySettingsPerUser DWORD: 00000000
+  - **Registre :** HKEY_LOCAL_MACHINE paramètres \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet] ProxySettingsPerUser DWORD : 00000000
 
-  - **Stratégie de groupe:** Modèles\>\>d’administration ordinateur composants\> Windows Internet Explorer: définir les paramètres de proxy par ordinateur (plutôt que par utilisateur)
+  - **Stratégie de groupe :** Modèles\>\>d’administration ordinateur composants\> Windows Internet Explorer : définir les paramètres de proxy par ordinateur (plutôt que par utilisateur)
 
 - Système PBX/jonction ou SBC/passerelle qualifié (un minimum de deux passerelles est recommandé).
 
@@ -258,7 +258,7 @@ Avant de déployer l’édition Cloud Connector, assurez-vous d’avoir les él�
 
 - Enregistrements DNS externes définis dans le fichier CloudConnector.ini inclus dans le package d'installation :
 
-  - Enregistrement DNS externe pour le service Edge d’accès du composant Edge; par exemple, AP.\<Domain Name\>. Vous aurez besoin d'un enregistrement par site PSTN. Cet enregistrement doit contenir les adresses IP de tous les Edges de ce site.
+  - Enregistrement DNS externe pour le service Edge d’accès du composant Edge ; par exemple, AP.\<Domain Name\>. Vous aurez besoin d'un enregistrement par site PSTN. Cet enregistrement doit contenir les adresses IP de tous les Edges de ce site.
 
 - Un client Office 365 avec les enregistrements DNS et SRV requis créés.
 
@@ -298,7 +298,7 @@ Avant de commencer votre déploiement, vous devez déterminer sa taille, les dom
 
 - Assurez-vous que le matériel requis pour la prise en charge des quatre VM s’installe pour chaque édition Cloud Connector.
 
-Pour chaque site PSTN que vous envisagez de déployer, vous devez:
+Pour chaque site PSTN que vous envisagez de déployer, vous devez :
 
 - Créer des noms pour tous les composants de chaque matériel de connecteur Cloud (voir [déterminer les paramètres de déploiement](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)).
 
@@ -313,7 +313,7 @@ Pour chaque site PSTN que vous envisagez de déployer, vous devez:
 
 Lors de la définition des plages de ports multimédias, gardez les points suivants à l'esprit :
 
-- Les clients utilisent toujours la plage de ports 50000 à 50019 pour le trafic multimédia: cette gamme est prédéfinie dans Skype entreprise Online et ne peut pas être modifiée.
+- Les clients utilisent toujours la plage de ports 50000 à 50019 pour le trafic multimédia : cette gamme est prédéfinie dans Skype entreprise Online et ne peut pas être modifiée.
 
 - Le composant de médiation utilise, par défaut, la plage de ports comprise entre 49 152 et 57 500 pour le trafic multimédia. Toutefois, la connexion est établie par le biais d’un pare-feu interne et, pour des raisons de sécurité, vous pouvez limiter cette portée de port dans votre topologie. Vous devrez compter jusqu'à 4 ports par appel. Si vous souhaitez limiter le nombre de ports entre le composant de médiation et la passerelle PSTN, vous devrez également configurer la plage de ports correspondante sur la passerelle.
 
@@ -352,7 +352,7 @@ Ce tableau indique les ports et les plages de ports permettant la communication 
 
 \*Il s’agit de la plage de port par défaut sur le composant de médiation. Pour obtenir un flux d'appels optimal, quatre ports par appel sont nécessaires.
 
-\*\*Ce port doit être configuré sur la passerelle SBC/PSTN; par exemple, 5060. Vous pouvez configurer d’autres ports sur votre passerelle SBC/PSTN.
+\*\*Ce port doit être configuré sur la passerelle SBC/PSTN ; par exemple, 5060. Vous pouvez configurer d’autres ports sur votre passerelle SBC/PSTN.
 
 \*\*\*Notez que vous pouvez également limiter la portée de port de votre SBC/passerelle si le fabricant SBC/passerelle l’autorise.
 
@@ -360,19 +360,19 @@ Pour des raisons de sécurité, vous pouvez limiter la plage de ports pour le co
 
 Par exemple, la commande suivante permet de limiter le nombre de ports que le composant de médiation utilisera pour le trafic multimédia vers 50 000-51 000 pour le son (en entrée et en sortie). Avec cette configuration, le composant de médiation pourra traiter 250 appels simultanés. Notez que vous souhaiterez peut-être également limiter cette plage sur la passerelle SBC/PSTN :
 
-```
+```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
-Pour récupérer le nom du composant de médiation et voir les ports par défaut, vous pouvez utiliser l’applet de passe [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) en procédant comme suit:
+Pour récupérer le nom du composant de médiation et voir les ports par défaut, vous pouvez utiliser l’applet de passe [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) en procédant comme suit :
 
-```
+```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 ```
 
 Le tableau suivant répertorie les ports et les plages de ports permettant de permettre la communication entre le composant Edge du connecteur Cloud et le pare-feu externe. Ce tableau indique la configuration minimale recommandée.
 
-Dans le cas présent, tout le trafic multimédia vers Internet est acheminé via le bord en ligne comme suit: point de terminaison\>de l’utilisateur:\>connecteur Edge-Cloud en ligne:
+Dans le cas présent, tout le trafic multimédia vers Internet est acheminé via le bord en ligne comme suit : point de terminaison\>de l’utilisateur :\>connecteur Edge-Cloud en ligne :
 
 **Pare-feu externe - configuration minimale**
 
@@ -425,15 +425,15 @@ L’ordinateur hôte doit être en mesure d’accéder aux ressources externes p
 
 Si des règles plus restrictives sont nécessaires, consultez les URL suivantes sur liste blanche :
 
-- [URL](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) de la liste de révocation de certificats dans [les URL et plages d’adresses IP 365 Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [URL de la liste de révocation de certificats](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) dans [les URL et plages d’adresses IP 365 Office](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [configuration d’un pare-feu pour les mises à jour logicielles](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update : [configuration d’un pare-feu pour les mises à jour logicielles](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
 - PowerShell d’administration de Skype entreprise Online \*:. online.Lync.com
 
     Si une exclusion de proxy est nécessaire pour cette destination, vous devrez l'ajouter à la liste de contournement WinHTTP.
 
-- Mise à jour du connecteur Cloud: [https://go.microsoft.com](https://go.microsoft.com)Centre de [Téléchargement](https://aka.ms/CloudConnectorInstaller), et[https://download.microsoft.com](https://download.microsoft.com)
+- Mise à jour du connecteur Cloud : [https://go.microsoft.com](https://go.microsoft.com)Centre de [Téléchargement](https://aka.ms/CloudConnectorInstaller), et[https://download.microsoft.com](https://download.microsoft.com)
 
 ### <a name="dns-name-resolution-for-the-edge-component"></a>Résolution des noms DNS pour le composant Edge
 <a name="BKMB_Ports"> </a>
@@ -474,41 +474,41 @@ Lorsque vous configurez les informations de la passerelle, gardez à l'esprit le
 
 |**Paramètres de site**|**Description**|**Remarques**|
 |:-----|:-----|:-----|
-|Nom de domaine de la machine virtuelle  <br/> |Nom de domaine pour les composants internes du Cloud Connector. Ce domaine doit être différent du domaine de production. Il peut s'agir du même nom sur toutes les appliances de Cloud Connector.  <br/> Nom dans le fichier. ini: «VirtualMachineDomain»  <br/> |.domaine local recommandé.   <br/> |
-|Nom du contrôleur de domaine Cloud Connector  <br/> |Nom du contrôleur de domaine.   <br/> Nom dans le fichier. ini: "NomServeur"  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Contrôleur de domaine IP/réseau du Cloud Connector  <br/> |Adresse IP du contrôleur de domaine.   <br/> Nom dans le fichier. ini: "IP"  <br/> ||
-|Noms de domaine complet des services en ligne O365  <br/> |Doit être la valeur par défaut dans la plupart des cas pour l’instance O365 dans le monde.  <br/> Nom dans le fichier. ini: «OnlineSipFederationFqdn»  <br/> ||
-|SiteName  <br/> |Nom du site Skype entreprise; par exemple, Seattle.  <br/> Nom dans le fichier. ini: "SiteName"  <br/> Pour la version 1.4.1 et les suivantes, le nom du site doit être différent pour chaque site, et le nom doit correspondre au site PSTN, s'il existe, défini dans Office 365. Notez que les sites PSTN sont automatiquement créés au moment de l'inscription de la première appliance dans un site.  <br/> ||
+|Nom de domaine de la machine virtuelle  <br/> |Nom de domaine pour les composants internes du Cloud Connector. Ce domaine doit être différent du domaine de production. Il peut s'agir du même nom sur toutes les appliances de Cloud Connector.  <br/> Nom dans le fichier. ini : « VirtualMachineDomain »  <br/> |.domaine local recommandé.   <br/> |
+|Nom du contrôleur de domaine Cloud Connector  <br/> |Nom du contrôleur de domaine.   <br/> Nom dans le fichier. ini : "NomServeur"  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Contrôleur de domaine IP/réseau du Cloud Connector  <br/> |Adresse IP du contrôleur de domaine.   <br/> Nom dans le fichier. ini : "IP"  <br/> ||
+|Noms de domaine complet des services en ligne O365  <br/> |Doit être la valeur par défaut dans la plupart des cas pour l’instance O365 dans le monde.  <br/> Nom dans le fichier. ini : « OnlineSipFederationFqdn »  <br/> ||
+|SiteName  <br/> |Nom du site Skype entreprise ; par exemple, Seattle.  <br/> Nom dans le fichier. ini : "SiteName"  <br/> Pour la version 1.4.1 et les suivantes, le nom du site doit être différent pour chaque site, et le nom doit correspondre au site PSTN, s'il existe, défini dans Office 365. Notez que les sites PSTN sont automatiquement créés au moment de l'inscription de la première appliance dans un site.  <br/> ||
 |HardwareType  <br/> Version 1.4.1 et suivantes  <br/> |Type de matériel. La valeur par défaut est Normal. Vous pouvez également la définir sur Minimum.  <br/> ||
-|Indicatif du pays  <br/> |Indicatif du pays/de la région pour la numérotation.  <br/> Nom dans le fichier. ini: "CountryCode"  <br/> ||
-|Ville  <br/> |Ville (facultatif).  <br/> Nom dans le fichier. ini: "City"  <br/> ||
-|État  <br/> |État (facultatif).  <br/> Nom dans le fichier. ini: «état»  <br/> ||
-|Adresse IP des machines virtuelles de base  <br/> |Adresse IP de l’ordinateur virtuel de base temporaire qui sera utilisée pour créer le VHDX pour toutes les machines virtuelles de connexion Cloud. Cette IP doit se trouver dans le même sous-réseau de réseau de périmètre d'entreprise défini dans l'étape suivante et requiert un accès Internet. Veillez à définir la passerelle par défaut et le DNS d'entreprise routable à Internet.  <br/> Nom dans le fichier. ini: «BaseVMIP»  <br/> ||
+|Indicatif du pays  <br/> |Indicatif du pays/de la région pour la numérotation.  <br/> Nom dans le fichier. ini : "CountryCode"  <br/> ||
+|Ville  <br/> |Ville (facultatif).  <br/> Nom dans le fichier. ini : "City"  <br/> ||
+|État  <br/> |État (facultatif).  <br/> Nom dans le fichier. ini : « état »  <br/> ||
+|Adresse IP des machines virtuelles de base  <br/> |Adresse IP de l’ordinateur virtuel de base temporaire qui sera utilisée pour créer le VHDX pour toutes les machines virtuelles de connexion Cloud. Cette IP doit se trouver dans le même sous-réseau de réseau de périmètre d'entreprise défini dans l'étape suivante et requiert un accès Internet. Veillez à définir la passerelle par défaut et le DNS d'entreprise routable à Internet.  <br/> Nom dans le fichier. ini : « BaseVMIP »  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> Version 1.4.1 et suivantes  <br/> |L'adresse des services de mises à jour de serveur Windows (WSUS), un serveur intranet qui héberge les mises à jour depuis Microsoft Update.  <br/> Vous pouvez ne rien écrire si vous n'avez pas besoin de WSUS.   <br/> ||
-|Masque de sous-réseau pour réseau interne  <br/> |Le connecteur Cloud configure un réseau IP pour les communications internes entre les composants Cloud Connector. Edge doit également être connecté à un autre sous-réseau qui permet la connexion à Internet.  <br/> Nommez le fichier. ini: «CorpnetIPPrefixLength» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Masque de sous-réseau pour réseau externe   <br/> |Pour le réseau externe du composant Edge.  <br/> Nommez le fichier. ini: «InternetIPPrefix» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Nom du commutateur pour réseau interne  <br/> |Nom du commutateur qui sera utilisé pour le réseau interne du connecteur Cloud.  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini: «CorpnetSwitchName» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Nom du commutateur pour réseau externe  <br/> |Nom du commutateur qui sera utilisé pour le réseau de connexion Cloud externe.  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini: «InternetSwitchName» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Passerelle par défaut pour le réseau interne  <br/> |Cette passerelle doit permettre l’accès à Internet (Internet requiert également la définition du serveur DNS) et sera configuré sur les interfaces internes des composants Cloud Connector.  <br/> Nommez le fichier. ini: «CorpnetDefaultGateway» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Passerelle par défaut pour l'interface externe du composant Edge  <br/> |Sera configurée sur l'interface externe du composant Edge.  <br/> Nommez le fichier. ini: «InternetDefaultGateway» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Serveur DNS pour réseau interne  <br/> |Sera configuré sur l'interface interne de la machine virtuelle temporaire. Doit fournir une résolution de noms pour les noms Internet. Si aucun serveur DNS n'est fourni, la connexion à Internet sera impossible et le déploiement ne s'achèvera pas.  <br/> Nommez le fichier. ini: «CorpnetDNSIPAddress» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Serveur DNS pour interface externe du composant Edge  <br/> |Sera configuré sur l'interface externe du serveur Edge.  <br/> Nommez le fichier. ini: «InternetDNSIPAddress» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Nom du commutateur de gestion  <br/> |Le commutateur de gestion est un commutateur temporaire qui sera créé automatiquement et utilisé pour la configuration de Cloud Connector lors du déploiement. Il sera également déconnecté automatiquement après le déploiement. Il doit s’agir d’un sous-réseau différent de tout autre réseau utilisé dans Cloud Connector.  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini: «ManagementSwitchName» sous «paramètres pour un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Masque de sous-réseau/adresse du sous-réseau de gestion  <br/> |Le sous-réseau de gestion est un sous-réseau temporaire qui sera créé automatiquement et utilisé pour la configuration de Cloud Connector pendant le déploiement. Il sera également déconnecté automatiquement après le déploiement. Il doit s’agir d’un sous-réseau différent de tout autre réseau utilisé dans Cloud Connector.  <br/> Les noms figurant dans le fichier. ini: «ManagementIPPrefix» et «ManagementIPPrefixLength» sous «paramètres d’un pool de réseaux d’ordinateurs virtuels».  <br/> ||
-|Ordinateur de magasin de gestion central (CMS)  <br/> |Nom de domaine complet unique utilisé pour le magasin central de gestion (CMS). Le nom du domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom dans le fichier. ini: «ServerName» sous «paramètres pour le service de gestion central principal  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> (Nom du pool CMS = Nom du serveur)  <br/> |
-|Adresse IP de la machine du magasin central de gestion  <br/> |Adresse IP du serveur CMS (interne dans le réseau de périmètre).  <br/> Nom dans le fichier INI: «IP» sous paramètres pour le service de gestion central principal  <br/> ||
-|Nom du partage de fichiers   <br/> |Nom de partage de fichiers à créer sur le serveur CMS pour les données de réplication Skype entreprise (par exemple, CmsFileStore).  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini: «CmsFileStore» sous «paramètres pour le service de gestion central principal».  <br/> ||
-|Nom du pool de composants de médiation  <br/> |Nom du pool du composant de médiation. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nommez le fichier. ini: «PoolName» sous «paramètres pour un pool de serveurs de médiation».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Nom du composant de médiation  <br/> |Nom du composant de médiation 1. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom dans le fichier. ini: "ServerName" sous "paramètres pour un pool de serveurs de médiation"  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Adresse IP de l’ordinateur du composant de médiation  <br/> |Protocole corpnet IP interne pour le composant de médiation (interne dans le réseau de périmètre).  <br/> Nom dans le fichier. ini: «IP» sous les paramètres d’un pool de serveurs de médiation  <br/> ||
-|Nom interne du pool du serveur Edge  <br/> |Nom du pool du composant Edge. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nommez le fichier. ini: «InternalPoolName» sous «paramètres pour un pool de serveurs Edge».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Nom interne du serveur Edge  <br/> |Nom du composant Edge. Entrez un nom Netbios uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.   <br/> Nommez le fichier. ini: «InternalServerName» sous «paramètres pour un pool de serveurs Edge».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Adresse IP interne du serveur Edge   <br/> |Adresse IP du réseau de périmètre interne du composant Edge pour communiquer avec d’autres composants du Cloud Connector.  <br/> Nommez le fichier. ini: «InternalServerIPs» sous «paramètres pour un pool de serveurs Edge».  <br/> ||
-|Nom externe du pool d'accès  <br/> |Nom du serveur Edge d'accès, par exemple, AP. Ce nom doit correspondre au nom indiqué pour le certificat SSL. Entrez un nom Netbios uniquement. Le nom de domaine SIP sera utilisé pour générer le nom de domaine complet. Un nom de pool externe est utilisé pour tous les composants Edge du pool. Un pool d’accès Edge est requis par site PSTN.  <br/> Nommez le fichier. ini: «ExternalSIPPoolName» sous «paramètres pour un pool de serveurs Edge».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> le "SIP" est réservé et ne peut donc pas être utilisé comme nom.  <br/> Le nom de domaine complet généré doit correspondre au nom fourni pour le certificat SSL.   <br/> |
-|Adresse IP externe de Edge d’accès  <br/> |Adresse IP externe du composant Edge: adresse IP publique si aucune traduction d’adresses réseau n’est disponible, ou adresse IP traduite (spécifiez les deux adresses si mapped).  <br/> Nommez le fichier. ini: «ExternalSIPIPs» sous «paramètres pour un pool de serveurs Edge».  <br/> ||
-|Nom du serveur relais multimédia  <br/> |Nom du serveur Edge du serveur relais multimédia audio/vidéo, par exemple, MR. Un seul nom de pool externe sera utilisé pour tous les composants Edge d'un pool. Un pool de relais de média Edge est requis par site PSTN.  <br/> Nommez le fichier. ini: «ExternalMRFQDNPoolName» sous «paramètres pour un pool de serveurs Edge».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
-|Adresse IP externe du Edge du relais multimédia  <br/> |Pour le moment, une seule adresse IP est prise en charge, de sorte qu’il s’agisse d’une adresse IP d’accès public ou d’une adresse IP mappée (spécifiez les deux adresses si mappée). Il peut s’agir d’une adresse identique à l’adresse IP externe du composant Edge. Remarque Si Edge se trouve derrière la traduction d’adresses réseau, vous devez également spécifier la valeur du paramètre Next.  <br/> Nommez le fichier. ini: «ExternalMRIPs» sous «paramètres pour un pool de serveurs Edge».  <br/> ||
-|Adresse IP externe du Edge du relais multimédia (si le bord se trouve derrière la NAT)  <br/> |Si votre Edge est protégé par une traduction d'adresse réseau, vous devez également spécifier l'adresse publique du périphérique NAT.  <br/> Nommez le fichier. ini: «ExternalMRPublicIPs» sous «paramètres pour un pool de serveurs Edge».  <br/> ||
+|Masque de sous-réseau pour réseau interne  <br/> |Le connecteur Cloud configure un réseau IP pour les communications internes entre les composants Cloud Connector. Edge doit également être connecté à un autre sous-réseau qui permet la connexion à Internet.  <br/> Nommez le fichier. ini : « CorpnetIPPrefixLength » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Masque de sous-réseau pour réseau externe   <br/> |Pour le réseau externe du composant Edge.  <br/> Nommez le fichier. ini : « InternetIPPrefix » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Nom du commutateur pour réseau interne  <br/> |Nom du commutateur qui sera utilisé pour le réseau interne du connecteur Cloud.  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini : « CorpnetSwitchName » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Nom du commutateur pour réseau externe  <br/> |Nom du commutateur qui sera utilisé pour le réseau de connexion Cloud externe.  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini : « InternetSwitchName » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Passerelle par défaut pour le réseau interne  <br/> |Cette passerelle doit permettre l’accès à Internet (Internet requiert également la définition du serveur DNS) et sera configuré sur les interfaces internes des composants Cloud Connector.  <br/> Nommez le fichier. ini : « CorpnetDefaultGateway » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Passerelle par défaut pour l'interface externe du composant Edge  <br/> |Sera configurée sur l'interface externe du composant Edge.  <br/> Nommez le fichier. ini : « InternetDefaultGateway » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Serveur DNS pour réseau interne  <br/> |Sera configuré sur l'interface interne de la machine virtuelle temporaire. Doit fournir une résolution de noms pour les noms Internet. Si aucun serveur DNS n'est fourni, la connexion à Internet sera impossible et le déploiement ne s'achèvera pas.  <br/> Nommez le fichier. ini : « CorpnetDNSIPAddress » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Serveur DNS pour interface externe du composant Edge  <br/> |Sera configuré sur l'interface externe du serveur Edge.  <br/> Nommez le fichier. ini : « InternetDNSIPAddress » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Nom du commutateur de gestion  <br/> |Le commutateur de gestion est un commutateur temporaire qui sera créé automatiquement et utilisé pour la configuration de Cloud Connector lors du déploiement. Il sera également déconnecté automatiquement après le déploiement. Il doit s’agir d’un sous-réseau différent de tout autre réseau utilisé dans Cloud Connector.  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini : « ManagementSwitchName » sous « paramètres pour un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Masque de sous-réseau/adresse du sous-réseau de gestion  <br/> |Le sous-réseau de gestion est un sous-réseau temporaire qui sera créé automatiquement et utilisé pour la configuration de Cloud Connector pendant le déploiement. Il sera également déconnecté automatiquement après le déploiement. Il doit s’agir d’un sous-réseau différent de tout autre réseau utilisé dans Cloud Connector.  <br/> Les noms figurant dans le fichier. ini : « ManagementIPPrefix » et « ManagementIPPrefixLength » sous « paramètres d’un pool de réseaux d’ordinateurs virtuels ».  <br/> ||
+|Ordinateur de magasin de gestion central (CMS)  <br/> |Nom de domaine complet unique utilisé pour le magasin central de gestion (CMS). Le nom du domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom dans le fichier. ini : « ServerName » sous «paramètres pour le service de gestion central principal  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> (Nom du pool CMS = Nom du serveur)  <br/> |
+|Adresse IP de la machine du magasin central de gestion  <br/> |Adresse IP du serveur CMS (interne dans le réseau de périmètre).  <br/> Nom dans le fichier INI : « IP » sous paramètres pour le service de gestion central principal  <br/> ||
+|Nom du partage de fichiers   <br/> |Nom de partage de fichiers à créer sur le serveur CMS pour les données de réplication Skype entreprise (par exemple, CmsFileStore).  <br/> Dans la plupart des cas, la valeur suggérée par défaut peut être utilisée.  <br/> Nommez le fichier. ini : « CmsFileStore » sous « paramètres pour le service de gestion central principal ».  <br/> ||
+|Nom du pool de composants de médiation  <br/> |Nom du pool du composant de médiation. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nommez le fichier. ini : « PoolName » sous « paramètres pour un pool de serveurs de médiation ».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Nom du composant de médiation  <br/> |Nom du composant de médiation 1. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nom dans le fichier. ini : "ServerName" sous "paramètres pour un pool de serveurs de médiation"  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Adresse IP de l’ordinateur du composant de médiation  <br/> |Protocole corpnet IP interne pour le composant de médiation (interne dans le réseau de périmètre).  <br/> Nom dans le fichier. ini : « IP » sous les paramètres d’un pool de serveurs de médiation  <br/> ||
+|Nom interne du pool du serveur Edge  <br/> |Nom du pool du composant Edge. Entrez le nom NETBIOS uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.  <br/> Nommez le fichier. ini : « InternalPoolName » sous « paramètres pour un pool de serveurs Edge ».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Nom interne du serveur Edge  <br/> |Nom du composant Edge. Entrez un nom Netbios uniquement. Le nom de domaine AD sera utilisé pour générer le nom de domaine complet.   <br/> Nommez le fichier. ini : « InternalServerName » sous « paramètres pour un pool de serveurs Edge ».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Adresse IP interne du serveur Edge   <br/> |Adresse IP du réseau de périmètre interne du composant Edge pour communiquer avec d’autres composants du Cloud Connector.  <br/> Nommez le fichier. ini : « InternalServerIPs » sous « paramètres pour un pool de serveurs Edge ».  <br/> ||
+|Nom externe du pool d'accès  <br/> |Nom du serveur Edge d'accès, par exemple, AP. Ce nom doit correspondre au nom indiqué pour le certificat SSL. Entrez un nom Netbios uniquement. Le nom de domaine SIP sera utilisé pour générer le nom de domaine complet. Un nom de pool externe est utilisé pour tous les composants Edge du pool. Un pool d’accès Edge est requis par site PSTN.  <br/> Nommez le fichier. ini : « ExternalSIPPoolName » sous « paramètres pour un pool de serveurs Edge ».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> le "SIP" est réservé et ne peut donc pas être utilisé comme nom.  <br/> Le nom de domaine complet généré doit correspondre au nom fourni pour le certificat SSL.   <br/> |
+|Adresse IP externe de Edge d’accès  <br/> |Adresse IP externe du composant Edge : adresse IP publique si aucune traduction d’adresses réseau n’est disponible, ou adresse IP traduite (spécifiez les deux adresses si mapped).  <br/> Nommez le fichier. ini : « ExternalSIPIPs » sous « paramètres pour un pool de serveurs Edge ».  <br/> ||
+|Nom du serveur relais multimédia  <br/> |Nom du serveur Edge du serveur relais multimédia audio/vidéo, par exemple, MR. Un seul nom de pool externe sera utilisé pour tous les composants Edge d'un pool. Un pool de relais de média Edge est requis par site PSTN.  <br/> Nommez le fichier. ini : « ExternalMRFQDNPoolName » sous « paramètres pour un pool de serveurs Edge ».  <br/> |Doit faire 15 caractères ou moins. Entrez le nom NETBIOS uniquement.  <br/> |
+|Adresse IP externe du Edge du relais multimédia  <br/> |Pour le moment, une seule adresse IP est prise en charge, de sorte qu’il s’agisse d’une adresse IP d’accès public ou d’une adresse IP mappée (spécifiez les deux adresses si mappée). Il peut s’agir d’une adresse identique à l’adresse IP externe du composant Edge. Remarque Si Edge se trouve derrière la traduction d’adresses réseau, vous devez également spécifier la valeur du paramètre Next.  <br/> Nommez le fichier. ini : « ExternalMRIPs » sous « paramètres pour un pool de serveurs Edge ».  <br/> ||
+|Adresse IP externe du Edge du relais multimédia (si le bord se trouve derrière la NAT)  <br/> |Si votre Edge est protégé par une traduction d'adresse réseau, vous devez également spécifier l'adresse publique du périphérique NAT.  <br/> Nommez le fichier. ini : « ExternalMRPublicIPs » sous « paramètres pour un pool de serveurs Edge ».  <br/> ||
 |La marque et le modèle de la passerelle vocale 1  <br/> |Indiquez la marque et le modèle de la passerelle SBC/vocale. Notez que vous pouvez connecter un appareil ou un Trunk SIP à partir de la liste des [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)appareils testés à l’adresse.  <br/> ||
 |La marque et le modèle de la passerelle vocale 2 (copier cette ligne si vous avez plus de 2 passerelles)  <br/> |Indiquez la marque et le modèle de la passerelle vocale. Notez que vous pouvez connecter un appareil à partir de la liste des appareils [https://technet.Microsoft.com/UCOIP](https://technet.Microsoft.com/UCOIP)testés à l’adresse.  <br/> ||
 |Nom de la passerelle vocale 1  <br/> |Utilisé pour générer le nom de domaine complet de la machine avec le domaine AD. Nécessaire si TLS est utilisé entre le composant de médiation et la passerelle vocale. Si vous n’avez pas l’intention d’utiliser le nom de domaine complet (par exemple, le protocole TLS n’est pas obligatoire ou si la passerelle vocale ne prend pas en charge la connexion à l’aide du nom de domaine complet)  <br/> ||
@@ -516,10 +516,10 @@ Lorsque vous configurez les informations de la passerelle, gardez à l'esprit le
 |Adresse IP de la passerelle vocale 1  <br/> |Adresse IP de la passerelle vocale.  <br/> ||
 |Adresse IP de la passerelle vocale 2 (copier cette ligne si vous avez plus de 2 passerelles)  <br/> |Adresse IP de la passerelle vocale.  <br/> ||
 |Passerelle vocale 1 port # (copier cette ligne si vous avez plus de 2 passerelles)  <br/> |Port écouté par la jonction SIP de la passerelle vocale, par exemple, 5 060.  <br/> ||
-|Numéro de port de la passerelle vocale 2  <br/> |Port écouté par la jonction SIP de la passerelle vocale, par exemple, 5 060.  <br/> ||
+|Port de la passerelle vocale 2 #  <br/> |Port écouté par la jonction SIP de la passerelle vocale, par exemple, 5 060.  <br/> ||
 |Protocole SIP passerelle 1 pour le trafic SIP  <br/> |TCP ou TLS.  <br/> ||
 |Protocole protocole 2 de passerelle vocale pour le trafic SIP (copier cette ligne si vous avez plus de 2 passerelles)  <br/> |TCP ou TLS.  <br/> ||
-|Plage de ports multimédias externes pour le trafic à destination et en provenance du composant Edge  <br/> |Plage de ports TCP/UDP pour le trafic multimédia à destination et en provenance de l'interface externe du composant Edge. Doit toujours commencer à 50 000. Pour plus d’informations, reportez-vous à la section «ports et protocoles».  <br/> |50000 - 59 999  <br/> |
+|Plage de ports multimédias externes pour le trafic à destination et en provenance du composant Edge  <br/> |Plage de ports TCP/UDP pour le trafic multimédia à destination et en provenance de l'interface externe du composant Edge. Doit toujours commencer à 50 000. Pour plus d’informations, reportez-vous à la section « ports et protocoles ».  <br/> |50000 - 59 999  <br/> |
 |Plage de port multimédia permettant de communiquer avec le composant de médiation via le pare-feu interne  <br/> |Plage de ports UDP que le composant de médiation utilisera pour communiquer avec les clients et les passerelles (Recommendation 4 ports par appel).  <br/> ||
 |Plage de port multimédia pour communiquer avec le client Skype entreprise via un pare-feu interne  <br/> |Ne peut pas être modifiée en raison de la planification. Les ports doivent être ouverts dans le pare-feu interne pour pouvoir communiquer entre les clients Skype entreprise à l’intérieur du réseau interne et le composant de médiation.  <br/> |50 000 à 50 019  <br/> |
 |Mot de passe du certificat public  <br/> |Doit être indiqué dans le script.  <br/> ||
@@ -528,11 +528,11 @@ Lorsque vous configurez les informations de la passerelle, gardez à l'esprit le
 |Mot de passe administrateur des machines virtuelles  <br/> Version 1.4.2 uniquement  <br/> |Utilisé pour configurer le réseau de gestion lors du déploiement.  <br/> Le nom d'utilisateur est Administrator. Vous ne pouvez pas le modifier.   <br/> ||
 |CABackupFile  <br/> Version 2.0 et ultérieures  <br/> |Utilisé pour l’enregistrement du service d’autorité de certification du serveur Active Directory dans un fichier lors du déploiement de plusieurs appareils dans un site Cloud Connector. Assurez-vous d'utiliser le même mot de passe pour toutes les appliances sur un même site Cloud Connector afin d'importer correctement le fichier de sauvegarde AC vers une nouvelle appliance.  <br/> ||
 |CCEService  <br/> Version 2.0 et ultérieures  <br/> |Utilisé pour le service de gestion Cloud Connector ; nécessite l'accès à l'annuaire de site Cloud Connector. Assurez-vous d'utiliser le même mot de passe pour toutes les appliances sur un même site Cloud Connector.   <br/> ||
-|Administrateur client Office 365  <br/> | Le compte est utilisé par Cloud Connector pour mettre à jour et gérer les paramètres du client pour Cloud Connector : <br/>  Version 2,0 et versions ultérieures: informations d’identification pour un compte Office 365 dédié avec des droits d’administrateur Skype entreprise. <br/>  Version antérieure à 2.0 : informations d'identification d'un compte Office 365 dédié disposant des droits d'administrateur client global. <br/> ||
+|Administrateur client Office 365  <br/> | Le compte est utilisé par Cloud Connector pour mettre à jour et gérer les paramètres du client pour Cloud Connector : <br/>  Version 2,0 et versions ultérieures : informations d’identification pour un compte Office 365 dédié avec des droits d’administrateur Skype entreprise. <br/>  Version antérieure à 2.0 : informations d'identification d'un compte Office 365 dédié disposant des droits d'administrateur client global. <br/> ||
 |Activer la prise en charge de REFER.  <br/> |Cela déterminera si la prise en charge de SIP REFER est activée ou désactivée sur la configuration de la jonction de votre IP/système PBX. La valeur par défaut est True. Si votre passerelle IP/PBX prend en charge la prise en charge de REFER, veuillez laisser la valeur True. Dans le cas contraire, cette valeur doit être redéfinie sur False. Si vous n’êtes pas sûr que votre passerelle prenne en charge le renvoi de votre adresse, veuillez consulter les [PBX et passerelles IP qualifiés](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
-|EnableFastFailoverTimer  <br/> Version 2.0 et ultérieures  <br/> |Avec la valeur par défaut «true», si la passerelle ne répond pas aux appels sortants, elle sera routée vers la passerelle disponible suivante; s’il n’y a pas de lignes supplémentaires, l’appel est automatiquement interrompu.  <br/> Cependant, dans une organisation dont les réseaux et les réponses de la passerelle sont lents, ou lorsque la procédure d'établissement d'appel dépasse les 10 secondes, cela peut entraîner l'abandon inutile des appels.  <br/> Lorsque des appels sont passés vers certains pays, par exemple les Émirats arabes unis ou l'Afghanistan, la procédure d'établissement d'appel peut prendre plus de 10 secondes. Si vous rencontrez ces problèmes, vous devrez modifier la valeur en « False ». N'oubliez pas de modifier le paramètre correspondant sur le SBC ou la passerelle connecté(e).  <br/> Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « True ».  <br/> ||
-|ForwardCallHistory  <br/> Version 2.0 et ultérieures  <br/> | Ce paramètre est utilisé pour les en-têtes SIP utilisés pour signaler l'appelant initial dans des scénarios de sonnerie simultanée et de transfert d'appel. Définir le paramètre sur « True » entraîne l'activation de deux en-têtes SIP :<br/>  History-Info <br/>  Referred-By <br/>  L’en-tête History-Info est utilisé pour redéfinir le ciblage des demandes SIP et «proposer (s) un mécanisme standard pour capturer les informations de l’historique des demandes afin d’offrir une large gamme de services pour les réseaux et les utilisateurs finaux» ([RFC 4244-Section 1,1](http://www.ietf.org/rfc/rfc4244.txt)). En ce qui concerne les interfaces de jonction de Cloud Connector, elles sont utilisées dans des scénarios de sonnerie simultanée et de transfert d'appel.  <br/>  Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « False ».<br/> ||
-|Transfert PAI  <br/> Version 2.0 et ultérieures  <br/> |PAI est une extension privée de SIP qui permet aux serveurs SIP de déclarer l'identité des utilisateurs authentifiés. Pour le fournisseur de jonction SIP, PAI peut être utilisé à des fins de facturation, dans les cas où les en-têtes History-Info et Referred-By sont absents. Lorsque l’option Forward-assertion-Identity est activée dans la configuration, le serveur de médiation transfère les en-têtes &amp; PAI à partir du Cloud Connector sur le Trunk SIP sur le réseau SIP. Le serveur de médiation va transférer les en-têtes PAI avec &amp; les numéros E. 164 de l’URI a uniquement reçus sur le Trunk SIP du Cloud Connector. Le serveur de médiation transférera également tout en-tête Privacy reçu dans l'une des directions. Si la requête SIP envoyée par le serveur de médiation inclut un en-tête de confidentialité de la forme «confidentialité: ID» conjointement avec l’en-tête PAI, l’identité affirmée doit rester privée en dehors du domaine d’approbation du réseau.  <br/> Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « False ».  <br/> ||
+|EnableFastFailoverTimer  <br/> Version 2.0 et ultérieures  <br/> |Avec la valeur par défaut « true », si la passerelle ne répond pas aux appels sortants, elle sera routée vers la passerelle disponible suivante ; s’il n’y a pas de lignes supplémentaires, l’appel est automatiquement interrompu.  <br/> Cependant, dans une organisation dont les réseaux et les réponses de la passerelle sont lents, ou lorsque la procédure d'établissement d'appel dépasse les 10 secondes, cela peut entraîner l'abandon inutile des appels.  <br/> Lorsque des appels sont passés vers certains pays, par exemple les Émirats arabes unis ou l'Afghanistan, la procédure d'établissement d'appel peut prendre plus de 10 secondes. Si vous rencontrez ces problèmes, vous devrez modifier la valeur en « False ». N'oubliez pas de modifier le paramètre correspondant sur le SBC ou la passerelle connecté(e).  <br/> Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « True ».  <br/> ||
+|ForwardCallHistory  <br/> Version 2.0 et ultérieures  <br/> | Ce paramètre est utilisé pour les en-têtes SIP utilisés pour signaler l'appelant initial dans des scénarios de sonnerie simultanée et de transfert d'appel. Définir le paramètre sur « True » entraîne l'activation de deux en-têtes SIP :<br/>  History-Info <br/>  Referred-By <br/>  L’en-tête History-Info est utilisé pour redéfinir le ciblage des demandes SIP et « proposer (s) un mécanisme standard pour capturer les informations de l’historique des demandes afin d’offrir une large gamme de services pour les réseaux et les utilisateurs finaux » ([RFC 4244-Section 1,1](http://www.ietf.org/rfc/rfc4244.txt)). En ce qui concerne les interfaces de jonction de Cloud Connector, elles sont utilisées dans des scénarios de sonnerie simultanée et de transfert d'appel.  <br/>  Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « False ».<br/> ||
+|Transfert PAI  <br/> Version 2.0 et ultérieures  <br/> |PAI est une extension privée de SIP qui permet aux serveurs SIP de déclarer l'identité des utilisateurs authentifiés. Pour le fournisseur de jonction SIP, PAI peut être utilisé à des fins de facturation, dans les cas où les en-têtes History-Info et Referred-By sont absents. Lorsque l’option Forward-assertion-Identity est activée dans la configuration, le serveur de médiation transfère les en-têtes &amp; PAI à partir du Cloud Connector sur le Trunk SIP sur le réseau SIP. Le serveur de médiation va transférer les en-têtes PAI avec &amp; les numéros E. 164 de l’URI a uniquement reçus sur le Trunk SIP du Cloud Connector. Le serveur de médiation transférera également tout en-tête Privacy reçu dans l'une des directions. Si la requête SIP envoyée par le serveur de médiation inclut un en-tête de confidentialité de la forme « confidentialité : ID » conjointement avec l’en-tête PAI, l’identité affirmée doit rester privée en dehors du domaine d’approbation du réseau.  <br/> Les valeurs peuvent être « True » ou « False ». La valeur par défaut est « False ».  <br/> ||
 
 ### <a name="certificate-requirements"></a>Exigences en matière de certificats
 <a name="BKMK_Certs"> </a>
@@ -599,15 +599,15 @@ Le Cloud Connector nécessite l’utilisation d’un plan de numérotation en li
 ## <a name="high-availability-considerations"></a>Considérations relatives à la haute disponibilité
 <a name="BKMK_HA"> </a>
 
-Lorsque vous déployez l’édition Cloud Connector pour une disponibilité élevée, vous déployez au moins deux applications qui servent de sauvegarde. Chaque application se compose de quatre composants: Edge, Mediation, Central Management Store (CMS) et Domain Controller.
+Lorsque vous déployez l’édition Cloud Connector pour une disponibilité élevée, vous déployez au moins deux applications qui servent de sauvegarde. Chaque application se compose de quatre composants : Edge, Mediation, Central Management Store (CMS) et Domain Controller.
 
-En règle générale, si un composant au sein d’une appliance est en panne, l’édition Cloud Connector peut continuer à gérer les appels, mais vous devez prendre en compte les éléments suivants:
+En règle générale, si un composant au sein d’une appliance est en panne, l’édition Cloud Connector peut continuer à gérer les appels, mais vous devez prendre en compte les éléments suivants :
 
 - **Mediation, CMS et les considérations relatives au composant du contrôleur de domaine**
 
     Supposons que le composant du contrôleur de domaine ou du magasin central de gestion d'une appliance ne fonctionne pas. L'appliance peut toujours traiter les appels entrants et sortants, mais si vous relancez un composant de médiation lorsque le composant du contrôleur de domaine ou du magasin central de gestion est inaccessible, la médiation ne fonctionnera pas. Vous ferez face à la même situation si vous relancez le composant du magasin central de gestion lorsque le contrôleur de domaine est en panne.
 
-    **Recommandation:** Avant de redémarrer les composants, vérifiez la disponibilité des autres composants de l’application.
+    **Recommandation :** Avant de redémarrer les composants, vérifiez la disponibilité des autres composants de l’application.
 
 - **Considérations relatives au composant Edge**
 
@@ -621,7 +621,7 @@ En règle générale, si un composant au sein d’une appliance est en panne, l�
 
      Si le composant Edge de l'appliance qui a reçu l'appel ne fonctionne pas, les appels entrants dans cette appliance ne fonctionneront pas, car le composant de médiation ne peut pas rediriger l'appel vers le composant Edge dans l'autre appliance.
 
-    **Recommandation:** Mettre en place un système de contrôle. Une fois que vous avez identifié un dysfonctionnement du composant Edge, fermez tous les composants de l’application où le composant Edge n’est pas disponible.
+    **Recommandation :** Mettre en place un système de contrôle. Une fois que vous avez identifié un dysfonctionnement du composant Edge, fermez tous les composants de l’application où le composant Edge n’est pas disponible.
 
 ## <a name="cloud-connector-media-flow"></a>Trafic multimédia de Cloud Connector
 <a name="BKMK_MediaFlow"> </a>

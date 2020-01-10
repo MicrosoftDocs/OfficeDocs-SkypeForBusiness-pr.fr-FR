@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Apprenez-en davantage sur la préparation de votre appareil Cloud Connector pour le déploiement et l’utilisation avec le système téléphonique dans Office 365 (Cloud PBX).
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286998"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001944"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appliance Cloud Connector
 
@@ -41,7 +41,7 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Téléchargement du programme d’installation de Skype Entreprise, version Cloud Connector
 
-1. Sur le serveur hôte sur lequel s’exécutent les VM de connexion Cloud, téléchargez les [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)fichiers d’installation:. 
+1. Sur le serveur hôte sur lequel s’exécutent les VM de connexion Cloud, téléchargez les [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)fichiers d’installation :. 
 
     > [!IMPORTANT]
     > Le serveur hôte doit pouvoir accéder à Internet lors de l’installation de Cloud Connector, car des fichiers supplémentaires sont téléchargés pendant cette opération. 
@@ -52,9 +52,9 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>Vérification de l’installation et configuration de l’environnement
 
-1. Ouvrez une console PowerShell en tant qu’administrateur, puis vérifiez que les applets de commande Skype entreprise version Cloud Connector sont disponibles à l’aide de l’applet de commande suivante:
+1. Ouvrez une console PowerShell en tant qu’administrateur, puis vérifiez que les applets de commande Skype entreprise version Cloud Connector sont disponibles à l’aide de l’applet de commande suivante :
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
     Vous trouverez l’emplacement de l’**Annuaire de sites** à l’aide de l’applet de commande suivante :
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,7 +78,7 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
      Pour définir l’**Annuaire de sites** sur un emplacement différent de celui par défaut, exécutez l’applet de commande suivante :
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -90,13 +90,13 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
     Pour rechercher l’emplacement de l’**Annuaire de sites** exécutez l’applet de commande suivante :
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     Pour définir le **répertoire d'équipements** vers un emplacement différent de celui par défaut, exécutez l’applet de commande suivante :
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
 - Pour définir le chemin d’accès au certificat Edge externe, notamment le nom du fichier, exécutez l’applet de commande suivante. Par exemple : C:\certs\cce\ap.contoso.com.pfx. Le certificat doit contenir des clés privées.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -123,9 +123,9 @@ Cette rubrique décrit comment obtenir les fichiers d’installation de la versi
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définition du chemin d’accès pour le certificat externe de la passerelle RTC/SBC
 
-Si vous utilisez TLS entre le serveur de médiation et la passerelle RTC/SBC, exécutez l’applet de commande suivante pour configurer le chemin d’accès, notamment le nom de fichier vers le certificat passerelle. Par exemple: C:\certs\cce\sbc.contoso.com.cer. Le certificat doit contenir l’AC racine et la chaîne intermédiaire pour le certificat assigné à la passerelle :
+Si vous utilisez TLS entre le serveur de médiation et la passerelle RTC/SBC, exécutez l’applet de commande suivante pour configurer le chemin d’accès, notamment le nom de fichier vers le certificat passerelle. Par exemple : C:\certs\cce\sbc.contoso.com.cer. Le certificat doit contenir l’AC racine et la chaîne intermédiaire pour le certificat assigné à la passerelle :
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -140,7 +140,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
     Sélectionnez **Permettre au système d’exploitation de gestion de partager cette carte réseau** pour le commutateur virtuel.
 
-3. Créer un commutateur virtuel externe et le lier à la carte réseau physique routée vers Internet:
+3. Créer un commutateur virtuel externe et le lier à la carte réseau physique routée vers Internet :
 
     Dé-sélectionnez **autoriser la gestion du système d’exploitation pour partager cette carte réseau** pour ce commutateur virtuel.
 
@@ -154,7 +154,7 @@ Préparez le fichier CloudConnector. ini en utilisant les informations que vous 
 
 Pour mettre à jour le fichier, exécutez d’abord l’applet de commande suivante pour obtenir l’exemple de modèle (CloudConnector.Sample.ini) :
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -173,9 +173,9 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
 
 - **ServerName :** Le nom de serveur ne doit pas contenir le nom de domaine et se limiter à 15 caractères. 
 
-- **HardwareType:** Si vous ne définissez pas ou ne laissez pas la valeur null, la valeur par défaut **normale** est utilisée. Utilisez **normal** si vous envisagez de déployer la version plus grande de Cloud Connector pour prendre en charge les appels simultanés 500 par ordinateur hôte comme décrit dans la section [plan de Skype entreprise version Cloud Connector](plan-skype-for-business-cloud-connector-edition.md). Utilisez **Minimum** pour un déploiement moins développé qui prend en charge 50 appels simultanés.
+- **HardwareType :** Si vous ne définissez pas ou ne laissez pas la valeur null, la valeur par défaut **normale** est utilisée. Utilisez **normal** si vous envisagez de déployer la version plus grande de Cloud Connector pour prendre en charge les appels simultanés 500 par ordinateur hôte comme décrit dans la section [plan de Skype entreprise version Cloud Connector](plan-skype-for-business-cloud-connector-edition.md). Utilisez **Minimum** pour un déploiement moins développé qui prend en charge 50 appels simultanés.
 
-- **Commutateurs virtuels Internet/corpnet/gestion:**: ajoutez le nom des commutateurs virtuels que vous avez créés. Pour le commutateur virtuel de gestion, conservez la valeur par défaut. Le script de déploiement va créer le commutateur virtuel de gestion au début du déploiement et le supprimer à la fin du déploiement.
+- **Commutateurs virtuels Internet/corpnet/gestion :**: ajoutez le nom des commutateurs virtuels que vous avez créés. Pour le commutateur virtuel de gestion, conservez la valeur par défaut. Le script de déploiement va créer le commutateur virtuel de gestion au début du déploiement et le supprimer à la fin du déploiement.
 
 - **ManagementIPPrefix :** le paramètre ManagementIPPrefix dans la section Réseau doit être un sous-réseau différent des autres IP internes. Par exemple, comme la valeur par défaut l’indique, ManagementIPPrefix est 192.168.213.0, tandis que AD IPAddress est 192.168.0.238.
 
@@ -205,7 +205,7 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
 
 - **Adresses IP externes :**
 
-  - Pour une adresse IP publique de MR: spécifiez ExternalMRIPs pour les non-NAT ou ExternalMRPublicIPs pour tar.
+  - Pour une adresse IP publique de MR : spécifiez ExternalMRIPs pour les non-NAT ou ExternalMRPublicIPs pour tar.
 
   - ExternalSIPIPs et ExternalMRIPs peuvent être identiques.
 
@@ -227,7 +227,7 @@ Lors de la mise à jour du fichier .ini, tenez compte des points suivants :
 
 Exécutez l’applet de commande suivante pour télécharger les fichiers BITS et d’informations de version vers l’**Annuaire de sites **:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Avant de réaliser cette étape, assurez-vous que le commutateur réseau d’ent
 
 Démarrez une console PowerShell en tant qu’administrateur et exécutez l’applet de commande suivante pour convertir l’image ISO en disque dur virtuel (VHD) :
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -264,7 +264,7 @@ Spécifiez le chemin d’accès complet, y compris le nom du fichier, à l’ima
 Le fichier de disque dur virtuel créé est stocké dans le dossier \Bits\VHD de l' **Annuaire de sites** . Vous pouvez obtenir le chemin d’accès à l’**Annuaire de sites** en exécutant **Get-CcSiteDirectory**.
 
 > [!IMPORTANT]
-> Par défaut, les paramètres proxy ne sont pas configurés dans la machine virtuelle de base. Si un proxy est requis dans votre environnement réseau pour mettre à jour l’ordinateur virtuel par le biais de Windows Update, vous devez ajouter le commutateur-PauseBeforeUpdate lorsque vous exécutez «convert-CcIsoToVhdx». Le script est suspendu avant Windows Update et vous aurez la possibilité de configurer manuellement un proxy sur la machine virtuelle. Une fois le proxy installé et que la machine virtuelle peut accéder à Internet, vous pouvez reprendre le script pour effectuer les étapes restantes. 
+> Par défaut, les paramètres proxy ne sont pas configurés dans la machine virtuelle de base. Si un proxy est requis dans votre environnement réseau pour mettre à jour l’ordinateur virtuel par le biais de Windows Update, vous devez ajouter le commutateur-PauseBeforeUpdate lorsque vous exécutez « convert-CcIsoToVhdx ». Le script est suspendu avant Windows Update et vous aurez la possibilité de configurer manuellement un proxy sur la machine virtuelle. Une fois le proxy installé et que la machine virtuelle peut accéder à Internet, vous pouvez reprendre le script pour effectuer les étapes restantes. 
 
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>Création de VHD pour un déploiement multisite
 
@@ -278,13 +278,13 @@ Si vous effectuez un déploiement multisite, il n’est pas nécessaire de conve
 
 Les scripts PowerShell fournis requièrent que la stratégie d’exécution soit définie sur RemoteSigned. Pour consulter le paramètre actuel, ouvrez une console PowerShell en tant qu’administrateur, puis exécutez l’applet de commande suivante :
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 Si elle n’est pas définie sur « RemoteSigned », exécutez l’applet de commande suivante pour la modifier :
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
@@ -307,7 +307,7 @@ Le compte CceService est créé lors du déplacement de Skype Entreprise, versi
 
 Un client Office 365 avec Skype entreprise Online et un système téléphonique dans Office 365 est requis. Assurez-vous que votre client est configuré et configuré avant d’utiliser Cloud Connector.
 
-Certaines étapes d’installation d’Office 365 requièrent l’utilisation de Remote Remote PowerShell (TRPS) pour configurer votre client Office 365. **Il doit être installé sur le serveur hôte**. Vous pouvez télécharger le module Skype entreprise Online pour PowerShell depuis: [Skype entreprise Online, module Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Certaines étapes d’installation d’Office 365 requièrent l’utilisation de Remote Remote PowerShell (TRPS) pour configurer votre client Office 365. **Il doit être installé sur le serveur hôte**. Vous pouvez télécharger le module Skype entreprise Online pour PowerShell depuis : [Skype entreprise Online, module Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
 Créer un compte d’administrateur Skype entreprise dédié pour la gestion en ligne du Cloud Connector, par exemple CceOnlineManagmentAdministrator. Ce compte sera utilisé pour ajouter ou supprimer un équipement, activer ou désactiver une mise à jour de SE automatique, activer ou désactiver la mise à jour automatique de fichiers binaires. Définissez le mot de passe de ce compte pour qu’il n’expire jamais ; ainsi vous n’aurez jamais à le modifier pour le service.
 

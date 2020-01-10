@@ -12,23 +12,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Résumé: Découvrez comment déployer un appel via le travail dans Skype entreprise Server pour tout ou partie de vos utilisateurs.'
-ms.openlocfilehash: d1c55e44cae944664a51eaddb2ad54e758d4f52c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment déployer un appel via le travail dans Skype entreprise Server pour tout ou partie de vos utilisateurs.'
+ms.openlocfilehash: d989c05b6b2b3e01a3a96e66133ec314029329e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234253"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002704"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déploiement d’un appel via le travail dans Skype entreprise Server
  
-**Résumé:** Découvrez comment déployer un appel via votre travail dans Skype entreprise Server pour tout ou partie de vos utilisateurs.
+**Résumé :** Découvrez comment déployer un appel via votre travail dans Skype entreprise Server pour tout ou partie de vos utilisateurs.
   
 Suivez ces étapes pour déployer l’appel via le Bureau pour vos utilisateurs. Les considérations en matière de planification sont décrites dans la rubrique [planifier un appel via le travail dans Skype entreprise Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Dans les versions précédentes du contrôle d’appel distant de Lync Server est une fonctionnalité qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype entreprise Server, cette fonction a été remplacée par un appel via le travail. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Prérequis pour les appels via le Bureau
 
-L’appel par le biais de l’utilisation utilise Unified Communications Web API (UCWA), qui est automatiquement installé sur tous les serveurs frontaux Skype entreprise Server. Pour permettre aux utilisateurs d’effectuer des appels par le biais de leur bureau, vous devez également disposer de la configuration requise suivante: 
+L’appel par le biais de l’utilisation utilise Unified Communications Web API (UCWA), qui est automatiquement installé sur tous les serveurs frontaux Skype entreprise Server. Pour permettre aux utilisateurs d’effectuer des appels par le biais de leur bureau, vous devez également disposer de la configuration requise suivante : 
   
 - Un serveur de médiation doit être déployé par le biais d’un serveur frontal ou d’un rôle autonome. Vous devez également déployer une passerelle IP-PBX.
     
@@ -58,13 +58,13 @@ Une fois les conditions préalables remplies, procédez comme suit :
 
 - Saisissez l’applet de commande suivant
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     Par exemple, l’applet de commande suivant définit le numéro de téléphone global sur 1-555-123-4567.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -72,13 +72,13 @@ Une fois les conditions préalables remplies, procédez comme suit :
 
 - Saisissez l’applet de commande suivant
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Par exemple, l’applet de commande suivante crée un appel via une stratégie de bureau appelée ContosoUser1CvWP, exige que l’utilisateur utilise un numéro de rappel d’administration et définit ce numéro de rappel sur 1-555-789-1234.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -86,13 +86,13 @@ Une fois les conditions préalables remplies, procédez comme suit :
 
 - Saisissez l’applet de commande suivant
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Par exemple, l’applet de commande suivante affecte l’appel via la stratégie de bureau «ContosoUser1CvWP» à l’utilisateur nommé **ContosoUser1**.
+    Par exemple, l’applet de commande suivante affecte l’appel via la stratégie de bureau « ContosoUser1CvWP » à l’utilisateur nommé **ContosoUser1**.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

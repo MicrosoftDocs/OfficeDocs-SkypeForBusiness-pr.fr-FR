@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 'Résumé: Découvrez comment afficher les enregistrements d’utilisation de la Conférence RTC à l’aide du panneau de configuration Skype entreprise Server ou de Skype entreprise Server Management Shell.'
-ms.openlocfilehash: bbc9b7f174ff4b6710009af47dbdcd20e12334d4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : Découvrez comment afficher les enregistrements d’utilisation de la Conférence RTC à l’aide du panneau de configuration Skype entreprise Server ou de Skype entreprise Server Management Shell.'
+ms.openlocfilehash: 96a96898bf728b4f05ba473bc750635e41be19fa
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239999"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002724"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Afficher les enregistrements d’utilisation RTC dans Skype entreprise
 
-**Résumé:** Découvrez comment afficher les enregistrements d’utilisation RTC à l’aide du panneau de configuration Skype entreprise Server ou de Skype entreprise Server Management Shell.
+**Résumé :** Découvrez comment afficher les enregistrements d’utilisation RTC à l’aide du panneau de configuration Skype entreprise Server ou de Skype entreprise Server Management Shell.
 
 Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spécifie une classe d’appel (interne, local ou longue distance) qui peut être utilisée par différents utilisateurs ou groupes d’utilisateurs dans une organisation. Pour plus d’informations, reportez-vous à la rubrique [PSTN Usage Records](https://technet.microsoft.com/library/b5f624aa-abe8-455b-a8e3-c228be230463.aspx) de la documentation de planification.
 
@@ -40,9 +40,9 @@ Un enregistrement d’utilisation du réseau téléphonique commuté (RTC) spéc
 
 ### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Pour afficher les informations d’utilisation RTC à l’aide des applets de commande Skype entreprise Server Management Shell
 
-- Pour afficher des informations sur l’ensemble de vos utilisations RTC, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée:
+- Pour afficher des informations sur l’ensemble de vos utilisations RTC, tapez la commande suivante dans Skype entreprise Server Management Shell, puis appuyez sur entrée :
 
-  ```
+  ```powershell
   Get-CsPstnUsage
   ```
 

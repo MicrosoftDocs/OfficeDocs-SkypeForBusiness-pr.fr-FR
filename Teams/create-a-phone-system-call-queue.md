@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211952"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005172"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -36,6 +36,7 @@ Les files d’attente d’appels Cloud peuvent fournir :
 - Musique pendant que les personnes sont en attente.
 - La redirection des appels vers des téléopérateurs dans des listes de distribution et des groupes de sécurité à extension messagerie.
 - Définir des paramètres différents, tels que la taille maximale de la file d’attente, le délai d’expiration et les options de traitement des appels.
+- Boîte vocale partagée permettant aux appelants de laisser un message à une organisation.
 
 Vous pouvez associer un numéro de téléphone à une file d’attente d’appels à l’aide d’un [compte de ressources](manage-resource-accounts.md). Une file d’attente d’appels peut être numérotée directement ou consultée par une sélection dans un standard automatique.
 
@@ -165,9 +166,11 @@ Vous pouvez charger un fichier audio (formats. wav,. mp3 ou. WMA).
 
 ### <a name="select-the-call-answering-options"></a>Sélectionner les options de répondeur automatique
 
-![Capture d’écran des options de répondeur automatique avec des légendes numérotées](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Capture d’écran des options de répondeur automatique](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
+Pour ajouter des agents directement, sans les ajouter à un groupe, cliquez sur **Ajouter des utilisateurs**. Placez les agents individuels dans l’ordre dans lequel vous souhaitez qu’ils reçoivent l’appel. Vous pouvez ajouter jusqu’à 20 agents individuels (pour ajouter plus de 20, les placer dans un groupe).
+
+Les appels sont d’abord routés vers des agents individuels, puis vers les agents en groupes. 
 
 Vous pouvez sélectionner jusqu’à 200 opérateurs d’appel qui appartiennent à l’une des listes de diffusion ou groupes suivantes :
 

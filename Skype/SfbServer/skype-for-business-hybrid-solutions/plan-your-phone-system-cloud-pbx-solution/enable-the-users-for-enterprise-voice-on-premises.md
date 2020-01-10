@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Pour qu’un utilisateur utilise le système téléphonique dans Office 365 (PBX Cloud), vous devez d’abord l’activer pour voix entreprise et lui attribuer un numéro de téléphone. Pour ce faire, vous devez utiliser votre déploiement local alors que l’utilisateur est toujours hébergé dans le déploiement local.
-ms.openlocfilehash: fdd405d84cddcfe805063287b8330ccea43397de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8bf8720896aa8115cb24d3b632b4ae576f466bcc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287509"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003474"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Permettre aux utilisateurs d’utiliser la voix entreprise en local
  
@@ -52,25 +52,25 @@ Pour qu’un utilisateur utilise le système téléphonique dans Office 365 (PBX
 
 Dans certains cas, vous devrez peut-être modifier la façon d’activer les utilisateurs pour Voix Entreprise de sorte qu’ils puissent passer et recevoir des appels de manière appropriée. Si votre déploiement comporte des utilisateurs qui répondent aux conditions suivantes, suivez les étapes décrites dans la procédure d’activation de l’utilisateur pour voix entreprise.
   
-- Si un utilisateur est créé dans votre annonce locale et qu’elle est synchronisée avec Skype entreprise Online sans être activée pour Skype entreprise ou pour Enterprise Voice et ne disposant pas d’un LineURI, exécutez les applets de commande suivantes pour chaque utilisateur concerné, en remplaçant les valeurs de < C0 > <b1></b1> avec des valeurs réelles pour votre environnement:
+- Si un utilisateur est créé dans votre annonce locale et qu’elle est synchronisée avec Skype entreprise Online sans être activée pour Skype entreprise ou pour voix entreprise et que vous n’avez pas de jeu LineURI, exécutez les applets de commande suivantes pour chaque utilisateur concerné, en remplaçant \< \> les valeurs par les valeurs réelles pour votre environnement :
     
-  ```
+  ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
   ```
 
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Si un utilisateur est déjà activé pour Skype entreprise en local, mais qu’il n’a pas été activé pour voix entreprise ou qu’il n’a pas été affecté à une LineURI avant d’être déplacé dans Skype entreprise Online, exécutez l’applet de commande suivante pour chaque utilisateur:
+- Si un utilisateur est déjà activé pour Skype entreprise en local, mais qu’il n’a pas été activé pour voix entreprise ou qu’il n’a pas été affecté à une LineURI avant d’être déplacé dans Skype entreprise Online, exécutez l’applet de commande suivante pour chaque utilisateur :
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Si un utilisateur est déjà activé dans Skype entreprise sur site, mais n’est pas activé pour voix entreprise, même s’il a déjà reçu une LineURI, exécutez l’applet de commande suivante pour chaque utilisateur concerné:
+- Si un utilisateur est déjà activé dans Skype entreprise sur site, mais n’est pas activé pour voix entreprise, même s’il a déjà reçu une LineURI, exécutez l’applet de commande suivante pour chaque utilisateur concerné :
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
 

@@ -9,17 +9,17 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
-description: 'Résumé: cette rubrique vous explique comment configurer l’utilisation du client pour les utilisateurs de Skype entreprise.'
-ms.openlocfilehash: ea1d38693291ebfa7d7cc4f8893b0aa6ec1c0d83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 'Résumé : cette rubrique vous explique comment configurer l’utilisation du client pour les utilisateurs de Skype entreprise.'
+ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234451"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003534"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurer l’interface client avec Skype entreprise 2015
  
-**Résumé:** Pour plus d’informations sur la configuration de l’utilisation du client pour les utilisateurs de Skype entreprise 2015, lisez cette rubrique.
+**Résumé :** Pour plus d’informations sur la configuration de l’utilisation du client pour les utilisateurs de Skype entreprise 2015, lisez cette rubrique.
   
 Skype entreprise 2015 offre une nouvelle interface utilisateur qui repose sur l’utilisation des produits Skype. Outre l’ensemble des fonctionnalités de Lync, Skype entreprise fournit de nouvelles fonctionnalités avec des contrôles simplifiés et des icônes familières. Pour plus d’informations sur la nouvelle interface client, reportez-vous à la rubrique [découvrir Skype entreprise](https://go.microsoft.com/fwlink/?LinkId=529022).
   
@@ -29,47 +29,47 @@ Skype entreprise Server prend en charge la nouvelle interface client Skype entre
 > Si votre organisation utilise à la fois Skype entreprise Server et Lync Server, l’interface client par défaut varie en fonction des versions de serveur et des paramètres d’interface utilisateur. Lorsque les utilisateurs lancent Skype entreprise pour la première fois, l’interface utilisateur de Skype entreprise est toujours affichée, même si vous avez sélectionné l’interface du client Lync. Après plusieurs minutes, l’utilisateur est invité à basculer vers le mode Lync. Pour plus d’informations, voir **Comportements client au premier lancement** dans la suite de cette rubrique.
   
 > [!NOTE]
-> L’interface du client 2013 de Lync n’est pas disponible pour les versions clientes d’Skype entreprise 2016 ou ultérieures. Avant de configurer votre environnement client pour qu’il utilise le client 2013 Lync, vérifiez la version du client pour vous assurer qu’il ne commence pas par le numéro 16; par exemple: 16. x.x.x. 
+> L’interface du client 2013 de Lync n’est pas disponible pour les versions clientes d’Skype entreprise 2016 ou ultérieures. Avant de configurer votre environnement client pour qu’il utilise le client 2013 Lync, vérifiez la version du client pour vous assurer qu’il ne commence pas par le numéro 16 ; par exemple : 16. x.x.x. 
   
 ## <a name="configure-the-client-experience"></a>Configurer l’expérience client
 
 Vous pouvez spécifier l’expérience client des utilisateurs de votre organisation en utilisant l’applet de commande **Set-CSClientPolicy** avec le paramètre EnableSkypeUI :
   
-```
+```powershell
 Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 ```
 
 où XdsIdentity renvoie à la stratégie globale ou à une stratégie de site nommé.
   
-La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs de votre organisation concernés par la politique globale (n’oubliez pas que les stratégies de site ou d’utilisateur remplacent la stratégie globale): 
+La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs de votre organisation concernés par la politique globale (n’oubliez pas que les stratégies de site ou d’utilisateur remplacent la stratégie globale) : 
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
-La commande suivante sélectionne l’interface du client Lync pour tous les utilisateurs de votre organisation concernés par la stratégie globale:
+La commande suivante sélectionne l’interface du client Lync pour tous les utilisateurs de votre organisation concernés par la stratégie globale :
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
-La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs du site de Redmond:
+La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs du site de Redmond :
   
-```
+```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-Si vous voulez configurer l’utilisation du client pour des utilisateurs spécifiques au sein de votre organisation, vous pouvez créer une nouvelle stratégie d’utilisateur à l’aide de l’applet **de nouvelle** applet de CsClientPolicy, puis affecter la stratégie à des utilisateurs spécifiques à l’aide de l’applet de passe **CsClientPolicy** applet.
+Si vous voulez configurer l’utilisation du client pour des utilisateurs spécifiques au sein de votre organisation, vous pouvez créer une stratégie d’utilisateur à l’aide de l’applet **de nouvelle applet de nouvelle-CsClientPolicy** , puis affecter la stratégie à des utilisateurs spécifiques à l’aide de l’applet de passe **Grant-CsClientPolicy** .
   
-Par exemple, la commande suivante crée une nouvelle stratégie client, SalesClientUI, qui sélectionne l’interface du client Skype entreprise:
+Par exemple, la commande suivante crée une nouvelle stratégie client, SalesClientUI, qui sélectionne l’interface du client Skype entreprise :
   
-```
+```powershell
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 ```
 
 La commande suivante affecte la stratégie, SalesClientUI, à tous les membres du service commercial :
   
-```
+```powershell
 Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName SalesClientUI
 ```
 
@@ -117,7 +117,7 @@ Dans la clé **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, créez
   
 Lync
   
-```
+```console
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -130,26 +130,26 @@ Si votre organisation utilise à la fois Skype entreprise Server et Lync Server 
 
 |**Version du serveur**|**Paramètre EnableSkypeUI**|**Expérience client**|
 |:-----|:-----|:-----|
-|Skype entreprise Server |Par défaut  <br/> |Skype Entreprise  <br/> |
-|Skype entreprise Server  |True  <br/> |Skype Entreprise  <br/> |
+|Skype entreprise Server |Par défaut  <br/> |Skype Entreprise  <br/> |
+|Skype entreprise Server  |Vrai  <br/> |Skype Entreprise  <br/> |
 |Skype entreprise Server  |False  <br/> |Utilisateur invité à basculer vers le mode Lync (l’utilisateur peut basculer vers Skype entreprise plus tard si vous modifiez le paramètre de l’interface utilisateur en $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |Par défaut  <br/> |Utilisateur invité à basculer vers le mode Lync (l’utilisateur peut basculer vers Skype entreprise plus tard si vous modifiez le paramètre de l’interface utilisateur en $true)  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |True  <br/> |Skype Entreprise  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |Vrai  <br/> |Skype Entreprise  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |False  <br/> |Utilisateur invité à basculer vers le mode Lync (l’utilisateur peut basculer vers Skype entreprise plus tard si vous modifiez le paramètre de l’interface utilisateur en $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sans correctifs)  <br/> |Par défaut  <br/> |Utilisateur invité à basculer vers le mode Lync (l’utilisateur ne peut pas basculer vers Skype entreprise plus tard)  <br/> |
    
-Le tableau suivant indique l’environnement client lorsque l’administrateur modifie le paramètre initial de l’interface utilisateur de Skype:
+Le tableau suivant indique l’environnement client lorsque l’administrateur modifie le paramètre initial de l’interface utilisateur de Skype :
   
 
 |**Version du serveur**|**Paramètre EnableSkypeUI**|**Interface utilisateur du client = Lync**|**UI client = Skype Entreprise**|
 |:-----|:-----|:-----|:-----|
-|Skype entreprise Server |True  <br/> |Utilisateur invité à basculer sur Skype entreprise  <br/> |Skype Entreprise  <br/> |
+|Skype entreprise Server |Vrai  <br/> |Utilisateur invité à basculer sur Skype entreprise  <br/> |Skype Entreprise  <br/> |
 |Skype entreprise Server |False  <br/> |Mode Lync  <br/> |Utilisateur invité à basculer vers le mode Lync  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |True  <br/> |Utilisateur invité à basculer sur Skype entreprise  <br/> |Skype Entreprise  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |Vrai  <br/> |Utilisateur invité à basculer sur Skype entreprise  <br/> |Skype Entreprise  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)  <br/> |False  <br/> |Mode Lync  <br/> |Utilisateur invité à basculer vers le mode Lync  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sans correctifs)  <br/> |Par défaut  <br/> |Mode Lync (possibilité de basculer vers Skype entreprise)  <br/> |Mode Lync (possibilité de basculer vers Skype entreprise)  <br/> |
    
-Les versions de correctif requises pour gérer la configuration du client Skype entreprise sont les suivantes:
+Les versions de correctif requises pour gérer la configuration du client Skype entreprise sont les suivantes :
   
 - Mise à jour cumulative de Lync Server 2010-février 2015 (4.0.7577.710) pour Lync Server 2010. Pour plus d’informations, voir [mises à jour pour Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
@@ -200,7 +200,7 @@ Ensuite, vous devez lier l’objet GPO créé au groupe d’utilisateurs auquel 
     
 3. Sur l'ordinateur de l'utilisateur cible, ouvrez une invite de commandes et tapez la commande suivante :
        
-```
+```console
 gpupdate /target:user
 ```
 

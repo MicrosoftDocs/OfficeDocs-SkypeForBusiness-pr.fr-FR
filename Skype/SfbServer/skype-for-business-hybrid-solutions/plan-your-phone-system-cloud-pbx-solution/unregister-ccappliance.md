@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: L’applet de commande Unregister-CcAppliance annule l’inscription de l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site RTC dans la configuration client en ligne.
-ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2bd8f3a3ef4ac2b29ab9e7d766836d7a3555c0f4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286872"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003134"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 L’applet de commande Unregister-CcAppliance annule l’inscription de l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site RTC dans la configuration client en ligne.
   
-```
+```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 L’exemple suivant annule l’inscription d’une appliance actuelle à partir de la configuration client en ligne :
   
-```
+```powershell
 Unregister-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Unregister-CcAppliance
 
 L’exemple suivant vérifie la configuration d’annulation d’inscription sans connexion à une configuration client en ligne :
   
-```
+```powershell
 Unregister-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Unregister-CcAppliance -Local
 
 L’exemple suivant annule l’inscription de l’appliance actuelle avec le nom « Appliance1 » vers le site RTC « Site1 » :
   
-```
+```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

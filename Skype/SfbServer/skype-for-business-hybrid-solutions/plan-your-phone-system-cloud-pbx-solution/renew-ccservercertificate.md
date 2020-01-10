@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: L’applet de commande Renew-CcServerCertificate renouvelle les certificats pour la version Cloud Connector de Skype Entreprise lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été remplacée par Update-CcServerCertificate dans Cloud Connector 2,0 et versions ultérieures.
-ms.openlocfilehash: 611eeb648c88411afa5d74cc7564703a5e37e9bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 47f2bbefa6510ae49e2e4a3ddc321e288dee266e
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287061"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003264"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
 L’applet de commande Renew-CcServerCertificate renouvelle les certificats pour la version Cloud Connector de Skype Entreprise lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été remplacée par Update-CcServerCertificate dans Cloud Connector 2,0 et versions ultérieures. 
   
-```
+```powershell
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -33,7 +33,7 @@ Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 L’exemple suivant renouvelle les certificats pour le magasin central de gestion, le serveur de médiation et le serveur Edge lorsque les certificats sont sur le point d’expirer ou qu’ils ont déjà expiré :
   
-```
+```powershell
 Renew-CcServerCertificate
 ```
 
@@ -41,7 +41,7 @@ Renew-CcServerCertificate
 
 L’exemple suivant renouvelle les certificats pour le serveur de médiation et le serveur Edge lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré :
   
-```
+```powershell
 Renew-CcServerCertificate-Roles @("MS", "Edge")
 ```
 
