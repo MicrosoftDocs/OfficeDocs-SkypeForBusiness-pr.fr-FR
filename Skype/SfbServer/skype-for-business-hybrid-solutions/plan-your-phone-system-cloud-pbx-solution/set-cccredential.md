@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'L’applet de commande Set-CcCredential définit les informations du déploiement de la version Cloud Connector de Skype Entreprise.  '
-ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286977"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003214"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -24,7 +24,7 @@ L’applet de commande Set-CcCredential définit les informations du déploiemen
   
 Avec le Cloud Connector version 2,0 et les versions ultérieures, cette applet de contrôle peut également définir les informations de compte de l’administrateur de l’ordinateur virtuel et de l’administrateur du domaine.
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 L’exemple suivant spécifie le nom et le mot de passe du compte de l’administrateur de client :
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 
@@ -49,7 +49,7 @@ L’applet de commande Set-CcCredential définit le nom et le mot de passe du co
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Obligatoire <br/> |System.String  <br/> | La valeur du paramètre doit être «TenantAdmin», «VmAdmin» ou «DomainAdmin». <br/> |
+| AccountType <br/> | Obligatoire <br/> |System.String  <br/> | La valeur du paramètre doit être « TenantAdmin », « VmAdmin » ou « DomainAdmin ». <br/> |
    
 ## <a name="input-types"></a>Types d’entrées
 <a name="InputTypes"> </a>

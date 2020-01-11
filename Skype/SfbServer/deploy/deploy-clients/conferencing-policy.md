@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Consultez cette rubrique pour découvrir comment attribuer des stratégies de conférence pour Skype Room System.
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775367"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003544"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  
@@ -46,8 +46,8 @@ La stratégie de conférence attribuée au compte système de salle Skype doit p
 |EnableAppDesktopSharing  <br/> |Bureau  <br/> |A un impact sur les sessions de tableau blanc de la réunion Skype dans le système de salle Skype  <br/> |
 |AllowConferenceRecording  <br/> |FAUX  <br/> |Non applicable pour les systèmes de salle Skype. Lorsqu’elle est définie comme TRUE, un interlocuteur distant peut enregistrer  <br/> |
 |EnableP2PRecording  <br/> |FAUX  <br/> |Non applicable pour les systèmes de salle Skype. Lorsqu’elle est définie comme TRUE, un interlocuteur distant peut enregistrer  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |S/O  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |S/O  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
 |EnableP2PVideo  <br/> |VRAI  <br/> |Permet au client de votre système de salle Skype de participer à des sessions d’égal à égal vidéo.  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |N/A  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |A un impact sur les sessions de tableau blanc de la réunion Skype dans le système de salle Skype  <br/> |
@@ -71,7 +71,7 @@ Le système de salle Skype demande aux utilisateurs de s’authentifier quand il
   
 La commande suivante permet aux administrateurs d’exiger une authentification pour toutes les réunions, y compris les réunions non restreintes : 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

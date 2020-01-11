@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été remplacée par Update-CcCACertificate dans Cloud Connector 2,0 et versions ultérieures.
-ms.openlocfilehash: f1e376b5b944468ec5bf508c6221a099a83d4804
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287103"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003274"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
 L’applet de commande Renew-CcCACertificate renouvelle le certificat de l’AC racine de Skype Entreprise, version Cloud Connector, qui est sur le point d’expirer ou qui a déjà expiré. Cette commande a été remplacée par Update-CcCACertificate dans Cloud Connector 2,0 et versions ultérieures.
   
-```
+```powershell
 Renew-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Aucun
 
 L’exemple suivant renouvelle le certificat de l’AC racine ::   
   
-```
+```powershell
 Renew-CcCACertificate 
 ```
 
