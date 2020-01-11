@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022289"
+ms.locfileid: "41023418"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -176,15 +176,7 @@ Deux options s’offrent à vous pour créer un utilisateur dans Office 365. Tou
 
 Si votre déploiement de Skype entreprise Online co-existe avec Skype entreprise 2015 ou Lync 2010/2013 local, la seule option prise en charge consiste à créer l’utilisateur dans Active Directory local et à synchroniser l’utilisateur dans le Cloud (option 1). 
 
-Licences requises : 
-
-- Office 365 entreprise E3 (y compris marketing Plan2, Exchange Plan2 et Teams) + Téléphone
-- Office 365 entreprise E5 (y compris marketing Plan2, Exchange Plan2, équipes et système téléphonique) 
-
-Licences facultatives : 
-
-- Forfait d’appels 
-- Audioconférence, 
+Pour plus d’informations sur la gestion des licences, voir gestion des [licences et autres exigences](direct-routing-plan.md#licensing-and-other-requirements) dans [planifier le routage direct](direct-routing-plan.md).
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Vérifier que l’utilisateur est bien immobilier dans Skype entreprise Online 
 

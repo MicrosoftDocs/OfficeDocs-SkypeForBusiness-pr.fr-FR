@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952597"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023388"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
 
@@ -81,14 +81,21 @@ Si un utilisateur désinstalle teams de son profil utilisateur, le programme d�
 > [!TIP]
 > Vous pouvez utiliser le script de [nettoyage du déploiement de Microsoft teams](scripts/Powershell-script-teams-deployment-clean-up.md) pour effectuer les étapes 1 et 2 via SCCM.
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>Désactiver le lancement automatique pour le programme d’installation MSI
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Empêcher les équipes de démarrer automatiquement après l’installation
 
-Le comportement par défaut de MSI consiste à installer le client teams dès qu’un utilisateur se connecte, puis à démarrer automatiquement Teams. Vous pouvez modifier ce comportement avec les paramètres ci-dessous comme suit :
+Le comportement par défaut de l’application MSI consiste à installer l’application teams dès qu’un utilisateur se connecte, puis à démarrer automatiquement Teams. Si vous ne souhaitez pas que Microsoft teams démarre automatiquement une fois qu’il est installé, vous pouvez utiliser une stratégie de groupe pour définir un paramètre de stratégie ou désactiver le lancement automatique pour le programme d’installation MSI.
 
-- Quand un utilisateur se connecte à Windows, teams est installé avec le MSI
-- Toutefois, le client Teams ne démarre pas tant que l’utilisateur n’a pas démarré les équipes manuellement
-- Un raccourci pour démarrer teams sera ajouté au bureau de l’utilisateur.
-- Lorsque l’utilisateur se connecte, il démarre automatiquement.
+#### <a name="use-group-policy-recommended"></a>Utiliser une stratégie de groupe (recommandée)
+
+Activez le paramètre **empêcher le démarrage automatique de Microsoft teams après l’installation** . Vous pouvez trouver ce paramètre de stratégie dans User Configuration administration\onedrive Templates\Microsoft Teams. Il s’agit de la méthode recommandée, car vous pouvez activer ou désactiver le paramètre de stratégie conformément aux besoins de votre organisation.
+
+Lorsque vous activez ce paramètre de stratégie avant l’installation d’Teams, Teams ne démarre pas automatiquement lorsque les utilisateurs se connectent à Windows. Dès qu’un utilisateur se connecte à teams pour la première fois, teams s’ouvre automatiquement lors de la prochaine connexion de l’utilisateur.
+
+Pour en savoir plus, voir [utiliser une stratégie de groupe pour empêcher les équipes de démarrer automatiquement après l’installation](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>Désactiver le lancement automatique pour le programme d’installation MSI
+
+Vous pouvez désactiver le lancement automatique du programme d’installation MSI en utilisant le paramètre **options = « noAutoStart = true »** comme suit.  
 
 Pour la version 32 bits
 ```PowerShell
@@ -98,6 +105,8 @@ Pour la version 64 bits
 ```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
+
+Lorsqu’un utilisateur se connecte à Windows, teams est installé avec le MSI et un raccourci pour démarrer teams est ajouté au bureau de l’utilisateur. Les équipes ne commencent pas tant que l’utilisateur n’a pas démarré teams manuellement. Après le démarrage manuel des équipes par l’utilisateur, teams démarre automatiquement chaque fois que l’utilisateur se connecte.
 
 > [!Note]
 > Si vous exécutez manuellement le MSI, veillez à l’exécuter avec des autorisations élevées. Même si vous l’exécutez en tant qu’administrateur, vous n’avez pas à le faire à l’aide de privilèges élevés, le programme d’installation ne peut pas configurer l’option permettant de désactiver le démarrage automatique.
