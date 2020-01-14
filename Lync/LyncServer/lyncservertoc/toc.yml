@@ -440,7 +440,7 @@
                 - name: Configuration de la copie des journaux de transaction SQL Server pour la base de données principale du serveur de conversation permanente
                   href: ../lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md
                 - name: Définition de la copie des journaux de transaction SQL Server entre la base de données miroir principale et la base de données secondaire de copie des journaux de transaction
-                  href: ../lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md
+                  href: ../lync-server-2013-set-up-log-shipping-secondary-database.md
             - name: Résistance de sites métropolitains Lync Server 2010
               href: ../lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md
         - name: Planification de la gérabilité et de la virtualisation
@@ -610,7 +610,7 @@
                   href: ../lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                   items:
                     - name: 'Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau'
-                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
+                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md
                     - name: 'Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau'
                       href: ../lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                     - name: 'Résumé DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau'
@@ -2744,7 +2744,7 @@
                   href: ../migration-process.md
                 - name: Phases de migration
                   href: ../migration-phases.md
-            - name: 'Étape 1: planifier la migration à partir de Lync Server 2010'
+            - name: "Étape 1\_: planifier la migration à partir de Lync Server 2010"
               href: ../phase-1-plan-your-migration-from-lync-server-2010.md
               items:
                 - name: Migration des utilisateurs
@@ -2774,7 +2774,7 @@
                   href: ../configure-clients-for-migration.md
                 - name: Vérification de l’environnement Lync Server 2010
                   href: ../verify-lync-server-2010-environment.md
-            - name: 'Étape 3: déployer le pool de pilotes de Lync Server 2013'
+            - name: "Étape 3\_: déployer le pool de pilotes de Lync Server 2013"
               href: ../phase-3-deploy-lync-server-2013-pilot-pool.md
               items:
                 - name: Préparation d’Active Directory pour Lync Server
@@ -2789,7 +2789,7 @@
                   href: ../connect-pilot-pool-to-legacy-edge-servers.md
                 - name: Configuration des certificats et des stratégies d’accès de passerelle XMPP
                   href: ../configure-xmpp-gateway-access-policies-and-certificates.md
-            - name: 'Étape 4: déplacer les utilisateurs de test vers le pool de pilotes'
+            - name: "Étape 4\_: déplacer les utilisateurs de test vers le pool de pilotes"
               href: ../phase-4-move-test-users-to-the-pilot-pool.md
               items:
                 - name: Affichage des utilisateurs actuels dans le pool Lync Server 2010
@@ -2800,7 +2800,7 @@
                   href: ../move-a-single-user-to-the-pilot-pool.md
                 - name: Déplacer plusieurs utilisateurs vers le pool de pilotes
                   href: ../move-multiple-users-to-the-pilot-pool.md
-            - name: 'Étape 5: ajouter le serveur Edge Lync Server 2013 au pool de pilotes'
+            - name: "Étape 5\_: ajouter le serveur Edge Lync Server 2013 au pool de pilotes"
               href: ../phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
                 - name: Déploiement d’un serveur Edge pilote
@@ -2894,7 +2894,7 @@
                   href: ../migration-process_1.md
                 - name: Phases de migration
                   href: ../migration-phases_1.md
-            - name: 'Étape 1: planifier la migration à partir d’Office Communications Server 2007 R2'
+            - name: "Étape 1\_: planifier la migration à partir d’Office Communications Server 2007 R2"
               href: ../phase-1-plan-your-migration-from-office-communications-server-2007-r2.md
               items:
                 - name: Migration des utilisateurs
@@ -2922,7 +2922,7 @@
                   href: ../configure-clients-for-migration_1.md
                 - name: Vérification de l’environnement Office Communications Server 2007 R2
                   href: ../verify-office-communications-server-2007-r2-environment.md
-            - name: 'Étape 3: déployer le pool de pilotes de Lync Server 2013'
+            - name: "Étape 3\_: déployer le pool de pilotes de Lync Server 2013"
               href: ../phase-3-deploy-lync-server-2013-pilot-pool_1.md
               items:
                 - name: Préparer Active Directory pour Lync Server 2013
@@ -2933,7 +2933,7 @@
                   href: ../deploy-lync-server-2013-pilot-pool_1.md
                 - name: Vérification de la coexistence du pool pilote avec le pool hérité
                   href: ../verify-pilot-pool-coexistence-with-legacy-pool_1.md
-            - name: 'Étape 4: fusionner les topologies'
+            - name: "Étape 4\_: fusionner les topologies"
               href: ../phase-4-merge-topologies.md
               items:
                 - name: Installer le package de compatibilité descendante WMI
@@ -2944,7 +2944,7 @@
                   href: ../import-policies-and-settings.md
                 - name: Vérifier les informations de topologie
                   href: ../verify-topology-information.md
-            - name: 'Étape 5: configurer le pool de pilotes'
+            - name: "Étape 5\_: configurer le pool de pilotes"
               href: ../phase-5-configure-the-pilot-pool.md
               items:
                 - name: Connexion du pool pilote aux serveurs Edge hérités
@@ -2955,7 +2955,7 @@
                   href: ../verify-configuration-settings_1.md
                 - name: Configuration des certificats et des stratégies d’accès de passerelle XMPP
                   href: ../configure-xmpp-gateway-access-policies-and-certificates_1.md
-            - name: 'Étape 6: déplacer les utilisateurs vers le pool de pilotes'
+            - name: "Étape 6\_: déplacer les utilisateurs vers le pool de pilotes"
               href: ../phase-6-move-users-to-the-pilot-pool.md
               items:
                 - name: Vérifier que la réplication utilisateur est terminée
@@ -2964,14 +2964,14 @@
                   href: ../move-a-single-user-to-the-pilot-pool_1.md
                 - name: Déplacer plusieurs utilisateurs vers le pool de pilotes
                   href: ../move-multiple-users-to-the-pilot-pool_1.md
-            - name: 'Étape 7: ajouter le serveur Edge Lync Server 2013 au pool de pilotes'
+            - name: "Étape 7\_: ajouter le serveur Edge Lync Server 2013 au pool de pilotes"
               href: ../phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md
               items:
                 - name: Déploiement d’un serveur Edge pilote
                   href: ../deploy-pilot-edge-server_1.md
                 - name: Valider la réplication des paramètres de configuration
                   href: ../validate-replication-of-configuration-settings.md
-            - name: 'Phase 8: basculer entre le déploiement pilote et la production'
+            - name: "Phase 8\_: basculer entre le déploiement pilote et la production"
               href: ../phase-8-move-from-pilot-deployment-into-production.md
               items:
                 - name: Configuration des itinéraires de fédération et du trafic multimédia
@@ -2980,7 +2980,7 @@
                   href: ../move-remaining-users-to-lync-server-2013_1.md
                 - name: Configurer la passerelle XMPP sur Lync Server 2013
                   href: ../configure-xmpp-gateway-on-lync-server-2013_1.md
-            - name: 'Phase 9: effectuer les tâches postérieures à la migration'
+            - name: "Phase 9\_: effectuer les tâches postérieures à la migration"
               href: ../phase-9-complete-post-migration-tasks.md
               items:
                 - name: Migrer des groupes Response Group
@@ -3017,7 +3017,7 @@
                   href: ../move-exchange-unified-messaging-contact-objects.md
                 - name: Vérifier que tous les objets de contact Exchange UM sont supprimés du pool hérité
                   href: ../verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md
-            - name: 'Étape 10: désaffecter le site hérité'
+            - name: "Étape 10\_: désaffecter le site hérité"
               href: ../phase-10-decommission-legacy-site.md
               items:
                 - name: Déplacer des répertoires de conférences
@@ -3029,7 +3029,7 @@
                 - name: Supprimer BackCompatSite
                   href: ../remove-backcompatsite.md
         - name: "Migration de Lync Server\_2010, conversation de groupe ou de la conversation de groupe Office Communications Server\_2007 R2 vers Lync Server\_2013, serveur de conversation permanente"
-          href: ../migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md
+          href: ../migrate-to-lync-server-2013-persistent-chat-server.md
           items:
             - name: Scénario de migration standard - Haut niveau
               href: ../standard-migration-scenario-high-level.md
@@ -3959,9 +3959,9 @@
               href: ../lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md
               items:
                 - name: Création d’une stratégie d’archivage pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou des utilisateurs spécifiques
-                  href: ../lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md
+                  href: ../lync-server-2013-create-archiving-policy-sites-users.md
                 - name: 'Modification d’une stratégie d’archivage pour activer ou désactiver l’archivage des communications internes ou externes pour votre organisation, certains sites ou des utilisateurs'
-                  href: ../lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md
+                  href: ../lync-server-2013-change-archiving-policy-org-sites-users.md
                 - name: Appliquer une stratégie d’archivage aux utilisateurs
                   href: ../lync-server-2013-applying-an-archiving-policy-to-users.md
                 - name: Configuration de stratégies d’archivage lors de l’utilisation de l’intégration Exchange Server
@@ -3978,7 +3978,7 @@
                 - name: Activation ou désactivation de la suppression de données archivées
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: Activation ou désactivation du mode critique pour bloquer ou autoriser les sessions de messagerie instantanée et de conférence Web en cas d’échec de l’archivage
-                  href: ../lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md
+                  href: ../lync-server-2013-enable-disable-critical-mode.md
                 - name: Activation ou désactivation de l’envoi d’une notification d’exclusion relative à l’archivage aux partenaires fédérés
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Activation ou désactivation de l’intégration avec le stockage Exchange
@@ -4145,9 +4145,9 @@
                   href: ../lync-server-2013-viewing-network-interface-information.md
             - name: Empêcher les nouvelles connexions à Lync Server pour la maintenance du serveur
               href: ../lync-server-2013-prevent-new-connections-to-lync-server-for-server-maintenance.md
-            - name: 'Affiche: méthodologie de qualité d’appel Lync'
+            - name: "Affiche\_: méthodologie de qualité d’appel Lync"
               href: ../lync-server-2013-poster-lync-call-quality-methodology.md
-            - name: 'Affiche: indicateurs d’intégrité clés'
+            - name: "Affiche\_: indicateurs d’intégrité clés"
               href: ../lync-server-2013-poster-key-health-indicators.md
         - name: Gestion du service Enhanced 9-1-1 et du service d’emplacement
           href: ../lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md
@@ -4258,9 +4258,9 @@
             - name: Préparation de la sauvegarde et de la restauration de Lync Server
               href: ../lync-server-2013-preparing-for-lync-server-backup-and-restoration.md
               items:
-                - name: 'Exigences en matière de sauvegarde et de restauration: données'
+                - name: "Exigences en matière de sauvegarde et de restauration\_: données"
                   href: ../lync-server-2013-backup-and-restoration-requirements-data.md
-                - name: 'Exigences en matière de sauvegarde et de restauration: outils et autorisations'
+                - name: "Exigences en matière de sauvegarde et de restauration\_: outils et autorisations"
                   href: ../lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md
                 - name: Présentation du processus de sauvegarde et de restauration
                   href: ../lync-server-2013-backup-and-restoration-process-overview.md
