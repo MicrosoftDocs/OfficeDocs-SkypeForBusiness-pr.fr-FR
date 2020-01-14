@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Résumé : installez et configurez les nœuds d’observation pour les transactions synthétiques de Skype entreprise Server.'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992441"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104483"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Installation et configuration des nœuds observateurs
  
@@ -192,7 +192,7 @@ Une fois que l’exécution de cette commande est terminée et que l’applicati
 Enable-CsTopology
 ```
 
-Après l’exécution de l’applet de commande Enable-Cs Topology, redémarrez l’ordinateur.
+Le compte d’ordinateur de nœud d’observation nécessite la possibilité d’interroger CMS pour certaines transactions synthétiques. Pour activer cette fonctionnalité, ajoutez le compte d’ordinateur du nœud d’observation au groupe de sécurité RTCUniversalReadOnlyAdmins. Lorsque la réplication publicitaire s’est produite, redémarrez l’ordinateur.
   
 Pour vérifier que la nouvelle application fiable a été créée, tapez les informations suivantes à l’invite de l’application Skype entreprise Server Management Shell :
   

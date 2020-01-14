@@ -1,5 +1,5 @@
 ---
-title: Rapport d'utilisation RTC
+title: Rapport d'utilisation du réseau téléphonique commuté
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793079"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111448"
 ---
-# <a name="pstn-usage-report"></a>Rapport d'utilisation RTC
+# <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
 La nouvelle zone **rapports** du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Le rapport sur les **détails d'utilisation PSTN de Skype Entreprise** vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation RTC de l’audioconférence, y compris le coût de l’appel, afin de comprendre l’utilisation et les détails de facturation pour déterminer l’utilisation au sein de votre organisation.
   
@@ -40,7 +40,7 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-- Accédez au centre d’administration > **** > Centre d’administration Skype entreprise-**rapports** >  > **Centre d’administration Skype entreprise**-**Détails d’utilisation PSTN**.
+- Accédez au centre d' **administration >** > Centre d’administration Skype entreprise-**rapports** >  > **Centre d’administration Skype entreprise**-**Détails d’utilisation PSTN**.
     
     > [!NOTE]
     > En fonction de l'abonnement Office 365 que vous avez souscrit, tous les produits et les rapports présentés dans cet article ne seront peut-être pas disponibles. 
@@ -60,23 +60,23 @@ Voici une illustration du rapport.
 *    **Numéro de téléphone** correspond au numéro de téléphone skype entreprise qui a reçu l’appel d’appels entrants ou du numéro numéroté pour les appels sortants.
 *    **Emplacement** de l’utilisateur est le pays ou la région où se trouve l’utilisateur.
 *    **ID** de l’appelant correspond au numéro de téléphone (ID d’appelant) de l’appelant pour les appels entrants, le numéro à partir duquel provient l’appel ou le numéro Skype entreprise à partir duquel il a été émis pour les appels sortants.
-*    **Type d’appel** indique si l’appel était un appel RTC entrant ou sortant ainsi que le type d’appel passé par un utilisateur ou une conférence audio. Les types d’appels que vous pouvez voir: 
+*    **Type d’appel** indique si l’appel était un appel RTC entrant ou sortant ainsi que le type d’appel passé par un utilisateur ou une conférence audio. Les types d’appels que vous pouvez voir : 
 
      **Types d’appels de plan d’appels** 
      *    **user_in** (l’utilisateur a reçu un appel RTC entrant) 
-     *    **user_out** (l’utilisateur a placé un appel RTC sortant) 
+     *    **user_out** (l’utilisateur a passé un appel RTC sortant) 
      *    **user_out_conf** (l’utilisateur a ajouté 2 personnes ou plus de participants PSTN à l’appel, par exemple une conférence téléphonique à trois directions) 
      *    **user_out_transfer** (l’utilisateur a transféré l’appel vers un numéro PSTN) 
      *    **user_out_forwarding** (l’utilisateur a transféré l’appel vers un numéro PSTN)
 
      **Types d’appels de conférence audio**
      *    **conf_in** (appel entrant vers le pont de conférence audio) 
-     *    **conf_out** (un appel sortant provenant généralement de l’audioconférence pour ajouter un numéro PSTN à la Conférence)
+     *    **conf_out** (un appel sortant du pont d’audioconférence pour ajouter un numéro PSTN à la Conférence)
 
      **Applications de communication unifiée (UCAP)** 
-     *    **ucap_in** (un appel RTC entrant vers l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels); 
-     *    **ucap_out** (un appel RTC sortant depuis l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels)
-     *    **Remarque:** Les appels transférés vers un utilisateur à partir de l’application de communications unifiées, tels qu’un standard automatique ou une file d’attente d’appels, n’apparaissent pas dans le rapport d’utilisation RTC, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le centre d’administration de Skype entreprise, sous «outils > analyse des appels Skype entreprise» et rechercher en fonction du nom d’utilisateur ou de l’adresse SIP en corrélation avec l’appel par date/heure et/ou CLID d’origine (ID de ligne d’appel). 
+     *    **ucap_in** (un appel RTC entrant vers l’application de communications unifiées, tel que le standard automatique ou la file d’attente d’appels) 
+     *    **ucap_out** (appel RTC sortant depuis l’application de communications unifiées, comme standard automatique ou file d’attente d’appels)
+     *    **Remarque :** Les appels transférés vers un utilisateur à partir de l’application de communications unifiées, tels qu’un standard automatique ou une file d’attente d’appels, n’apparaissent pas dans le rapport d’utilisation RTC, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le centre d’administration de Skype entreprise, sous « outils > analyse des appels Skype entreprise » et rechercher en fonction du nom d’utilisateur ou de l’adresse SIP en corrélation avec l’appel par date/heure et/ou CLID d’origine (ID de ligne d’appel). 
 *     
      **National/international** vous indique si l’appel qui a été placé était considéré comme national (dans un pays ou une région) ou international (à l’extérieur d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
 *    **Composé composé** est le nom de la destination du pays/de la région qui est numérotée comme France, Allemagne ou les États-Unis. 
@@ -86,28 +86,26 @@ Voici une illustration du rapport.
 *    **ConfID** est l’ID de conférence de la conférence audio. 
 *    **Débit** est le montant d’argent ou le coût de l’appel débité sur votre compte. 
 *    **Devise** correspond au type de devise utilisé pour calculer le coût de l’appel. 
-*    **Capability** est la licence utilisée pour l’appel. Les types de licence qui peuvent s’afficher sont les suivants: 
+*    **Capability** est la licence utilisée pour l’appel. Les types de licence qui peuvent s’afficher sont les suivants : 
      *    **MCOPSTNPP** -crédits de communication <br/> **MCOPSTN1** -forfait d’appels nationaux (3000 min US/1200 min Europe) 
      *    **MCOPSTN2** -forfait d’appels internationaux 
      *    **MCOPSTN5** -forfait d’appels nationaux (forfait d’appels min 120) 
-     *    **MCOPSTN6** -forfait d’appels nationaux (forfait d’appels min 240) Remarque: disponibilité limitée
+     *    **MCOPSTN6** -forfait d’appels nationaux (forfait d’appels min 240) Remarque : disponibilité limitée
      *    **MCOMEETADD** -audioconférence
      *    **MCOMEETACPEA** -audioconférence à la minute
 > [!NOTE]
-> Pour inclure uniquement les appels payants à la minute qui ne sont pas inclus dans votre abonnement d’appel ou de conférence, filtrez le rapport avec la fonctionnalité «MCOPSTNPP». Cette opération permet de fournir un élément de tous les appels à la minute.  Pour les conférences audio à la minute, filtrez en fonction de «MCOMEETACPEA» au lieu de «MCOPSTNPP».  
+> Pour inclure uniquement les appels payants à la minute qui ne sont pas inclus dans votre abonnement d’appel ou de conférence, filtrez le rapport avec la fonctionnalité « MCOPSTNPP ». Cette opération permet de fournir un élément de tous les appels à la minute.  Pour les conférences audio à la minute, filtrez en fonction de « MCOMEETACPEA » au lieu de « MCOPSTNPP ».  
 ***
 > [!NOTE]
-> Vous pouvez également voir «aucune donnée» dans certains champs. «Aucune donnée» signifie que le champ n’est pas applicable au type d’appel ou à la fonctionnalité. 
+> Vous pouvez également voir « aucune donnée » dans certains champs. « Aucune donnée » signifie que le champ n’est pas applicable au type d’appel ou à la fonctionnalité. 
 ***
 > [!NOTE]
 > Si vous avez un plan d’appels Telstra, vous ne verrez pas les enregistrements des détails des appels dans le rapport d’utilisation PSTN. Veuillez contacter Telstra pour obtenir les exigences de votre rapport. 
 ***
 ![Numéro 2](../images/sfbcallout2.png)<br/>Cliquez pour déplacer une colonne vers **Pour regrouper les informations autour d'une colonne en particulier, faites glisser et déplacez l'en-tête de la colonne ici** si vous souhaitez visualiser toutes les données regroupées dans une ou plusieurs colonnes.
  ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel délimité par des TABULATIONs en cliquant ou en appuyant sur le bouton **Exporter vers Excel** . Vous pouvez exporter des données vers un an à partir de la date actuelle.<br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![Nombre 3](../images/sfbcallout3.png)<br/>Vous pouvez également exporter les données du rapport vers un fichier Excel délimité par des VIRGULEs en cliquant ou en appuyant sur le bouton **Exporter vers Excel** . Vous pouvez exporter des données vers un an au maximum à partir de la date actuelle, sauf si la règle de conservation des données est interdite pour 12 mois.<br/><br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer directement dans le tableau du rapport. 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
 - [Rapport d’activité Skype entreprise](activity-report.md) Vous pouvez visualiser le nombre d’organisations, de participations et de sessions d’égal à égal de conférences par utilisateur.

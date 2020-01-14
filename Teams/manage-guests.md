@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Les administrateurs informatiques peuvent ajouter des invités au niveau du client, définir et gérer les stratégies d'utilisateurs invités et les autorisations, déterminer quels utilisateurs peuvent convier des invités et extraire des rapports sur l'activité des utilisateurs invités.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753289"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111358"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gérer l'accès invité dans Microsoft Teams
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753289"
 > [!IMPORTANT]
 > Il est possible que vous deviez attendre 24 heures pour que vos modifications soient prises en compte. 
 
-**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans tous les abonnements Office 365 Business Premium, Office 365 entreprise et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
+**Guest** est un type d’utilisateur dans Microsoft Teams, inclus dans tous les abonnements Office 365 Business Premium, Office 365 entreprise, Office 365 Business Essentials et Office 365 éducation. Aucune licence Office 365 supplémentaire n'est requise. En savoir plus sur la gestion des [licences d’accès invité](#guest-access-licensing-limits) ci-dessous.
 
 L'accès invité de Teams est un paramètre de niveau client et est désactivé par défaut. Pour plus d’informations sur l’activation de l’accès invité, voir Activation ou désactivation de l' [accès invité aux équipes](set-up-guests.md)ou utilisation de la liste de vérification de l' [accès invité](guest-access-checklist.md) pour vous guider dans la procédure d’installation.
 
@@ -47,7 +47,7 @@ Vous pouvez utiliser le portail Azure Active Directory (Azure AD) pour gérer le
 
 ## <a name="guest-access-licensing-limits"></a>Limites de licence d’accès invité
 
-Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Toutefois, le nombre total d’invités qui peuvent être ajoutés à votre client est basé sur ce qui est autorisé par votre licence Azure AD (généralement 5 invités par utilisateur sous licence). Pour plus d’informations, reportez-vous à la rubrique [licences de collaboration Azure ad B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Teams ne limite pas le nombre d’invités que vous pouvez ajouter. Toutefois, le nombre total d’invités pouvant être ajoutés à votre client dépend de ce que votre licence Azure AD autorise (généralement 5 invités par utilisateur sous licence). Pour plus d’informations, consultez l’article [Affectation de licences Azure Active Directory B2B Collaboration](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 En raison de ces limitations de licence (et pour garder votre client à jour), vous devez examiner régulièrement l’accès invité pour identifier les utilisateurs qui ont accès sans avoir besoin d’y accéder. Vous pouvez utiliser Azure AD pour créer une révision d’accès pour les membres du groupe ou les utilisateurs assignés à une application. La création d’avis périodiques peut vous permettre de gagner du temps. Si vous avez besoin de vérifier régulièrement les utilisateurs qui ont accès à une application ou qui sont membres d’un groupe, vous pouvez définir la fréquence de ces avis. 
 
@@ -64,7 +64,7 @@ Les avis sur l’accès sont disponibles avec l’édition Premium d’Azure AD,
 Pour les paramètres d’accès invité dans Azure Active Directory, il faut 2-24 heures pour que les modifications prennent effet au sein de votre organisation Office 365. Si un utilisateur voit le message « contactez votre administrateur » lorsqu’il essaye d’ajouter un invité à son équipe, c’est probablement parce que la fonction invité n’a pas été activée ou que les paramètres ne sont pas encore effectifs. Pour obtenir de l’aide sur les problèmes de configuration de l’accès invité, voir [résoudre les problèmes d’accès invité dans teams](troubleshoot-guest-access.md).
 
   
-## <a name="external-access-federation-vs-guest-access"></a>Accès externe (Fédération) et accès invité
+## <a name="external-access-federation-vs-guest-access"></a>Accès externe (fédération) et accès invité
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

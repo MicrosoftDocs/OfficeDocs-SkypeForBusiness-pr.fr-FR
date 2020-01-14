@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Résumé : Préparez vos serveurs et votre infrastructure de domaine Skype entreprise Server 2019 à ce sujet. Matériel, système d’exploitation, bases de données, logiciels, toutes les configurations requises et recommandations en matière de certificat, de partage de fichiers et d’Active Directory, sont là pour garantir la réussite de l’installation et du déploiement de votre batterie de serveurs.'
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988809"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111378"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Configuration système requise pour Skype entreprise Server 2019
  
@@ -92,7 +92,7 @@ Lorsque le matériel est en place, vous devez utiliser le système d’exploitat
 |Windows Server 2016 <br/> ||
 ||
    
-Tout ce qui n’est pas le cas des systèmes d’exploitation mentionnés ici ne fonctionne pas correctement ; Veuillez ne pas essayer pour l’installation de Skype entreprise Server 2019. Par exemple, l’option Server Core n’est pas répertoriée et n’est donc pas prise en charge.
+Tout ce qui n’est pas le cas des systèmes d’exploitation mentionnés ici ne fonctionne pas correctement ; Veuillez ne pas essayer pour l’installation de Skype entreprise Server 2019. Par exemple, l’option Server Core n’est pas répertoriée et n’est donc pas prise en charge.  Remarque : la mise à niveau sur place du système d’exploitation n’est pas prise en charge avec Lync Server 2013.  Vous devez déployer un pool distinct et migrer les utilisateurs vers le nouveau pool en utilisant un système d’exploitation différent.
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ Vous devrez peut-être installer ou configurer certains éléments pour n’impo
 |**Logiciel/rôle**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous les serveurs Skype entreprise Server requièrent l’installation de Windows PowerShell 3,0.  <br/> • Cela doit être installé par défaut avec Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** qui est installée en tant que fonctionnalité Windows, dans le **Gestionnaire de serveur**, aucun téléchargement n’est nécessaire. <br/> • Vous devez vous assurer que, lorsque vous installez cette fonction ou qu’elle est déjà installée et que vous la Vérifiez, l’option d' **activation http** est également activée et installée, comme suit : <br/> ![Capture d’écran présentant l’option Activation HTTP des fonctionnalités .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’Activation HTTP puisse être installée. C’est normal ; Cliquez sur OK et continuez. Si vous ne parvenez pas à afficher cette fenêtre contextuelle, vous pouvez supposer que les éléments suivants sont déjà installés et déplacés.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Le service Skype entreprise Server nécessite Microsoft .NET Framework 4,7 ou 4,8, donc vous devez probablement le mettre à jour. La mise à jour est disponible [ici](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) .<br/> |
+|Microsoft .NET Framework  <br/> |Services WCF est une **fonctionnalité** qui est installée en tant que fonctionnalité Windows, dans le **Gestionnaire de serveur**, aucun téléchargement n’est nécessaire. <br/> • Vous devez vous assurer que, lorsque vous installez cette fonction ou qu’elle est déjà installée et que vous la Vérifiez, l’option d' **activation http** est également activée et installée, comme suit : <br/> ![Capture d’écran présentant l’option Activation HTTP des fonctionnalités .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre contextuelle supplémentaire indiquant que d’autres éléments doivent être installés pour que l’Activation HTTP puisse être installée. C’est normal ; Cliquez sur OK et continuez. Si vous ne parvenez pas à afficher cette fenêtre contextuelle, vous pouvez supposer que les éléments suivants sont déjà installés et déplacés.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Le service Skype entreprise Server nécessite Microsoft .NET Framework 4,7 ou 4,8, donc vous devez probablement le mettre à jour. La mise à jour est disponible [ici](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) .<br/> |
 |Media Foundation  <br/> |Pour Windows Server 2016, le runtime du format Windows Media s’installe avec Microsoft Media Foundation.  <br/> Tous les serveurs front-end et les serveurs Standard Edition utilisés pour les conférences requièrent l’exécution du format Windows Media Runtime pour exécuter les fichiers Windows Media audio (. WMA) que les applications de parc d’appels, d’annonce et de groupe de réponse sont lues pour les annonces et la musique.  <br/> |
 |Windows Identity Foundation  <br/> |Nous avons besoin de Windows Identity Foundation 3,5 pour prendre en charge les scénarios d’authentification de serveur à serveur pour Skype entreprise Server 2019.  <br/> • Pour Windows Server 2016, vous n’avez rien à télécharger. Ouvrez le **Gestionnaire de serveur** et accédez à l’**Assistant Ajout de rôles et de fonctionnalités**. **Windows Identity Foundation 3.5** est listé sous la section **Fonctionnalités**. S’il est sélectionné, c’est bien. Dans le cas contraire, sélectionnez-le, puis cliquez sur **suivant** pour atteindre le bouton **installer** . <br/> |
 |Outils d’administration de serveur distant  <br/> |Outils d’administration de rôles : outils AD DS et AD LDS  <br/> |
@@ -273,7 +273,7 @@ Le niveau de fonctionnalité du domaine de tout domaine sur lequel vous déploye
     
 Pouvez-vous avoir des contrôleurs de domaine en lecture seule dans ces environnements ? Bien sûr, tant qu’il existe également des contrôleurs de domaine accessibles en écriture.
   
-Il est important de savoir que Skype entreprise Server 2019 ne prend pas en charge les domaines à mention unique. Que sont-ils ? Si vous avez un domaine racine appelé contoso. local, cela va être bien. Si vous avez un domaine racine appelé simplement local, il n’y a pas de fonctionnement et il n’est pas pris en charge en conséquence. Ce article de la [base de connaissances](https://support.microsoft.com/kb/300684/en-us)contient quelques informations supplémentaires.
+Il est important de savoir que Skype entreprise Server 2019 ne prend pas en charge les domaines à mention unique. Que sont-ils ? Si vous avez un domaine racine appelé contoso. local, cela va être bien. Si vous avez un domaine racine appelé simplement local, il n’y a pas de fonctionnement et il n’est pas pris en charge en conséquence. Ce article de la [base de connaissances](https://support.microsoft.com/kb/300684/)contient quelques informations supplémentaires.
   
 Skype entreprise Server 2019 ne supporte pas non plus le changement de nom de domaines. Si vous devez vraiment renommer votre domaine, vous devez désinstaller Skype entreprise Server 2019, effectuer le changement de nom de domaine, puis réinstaller Skype entreprise Server 2019.
   
@@ -541,7 +541,7 @@ Ce SAN doit être attribué au certificat qui est affecté à l’écouteur SSL 
 
 Skype entreprise Server 2019 peut utiliser le même partage de fichiers pour tout le stockage de fichiers. Gardez à l’esprit ce qui suit :
   
-- Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau de stockage SAN (Storage Area Network), dont un système de fichiers distribués (DFS) et sur une solution RAID (Redundant Array Of Independent Disks) pour les magasins de fichiers. Pour plus d’informations sur le système de fichiers DFS pour Windows Server 2012, consultez [cette page DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Un partage de fichiers doit se trouver sur un stockage DAS (Direct Attached Storage) ou un réseau de stockage SAN (Storage Area Network), dont un système de fichiers distribués (DFS) et sur une solution RAID (Redundant Array Of Independent Disks) pour les magasins de fichiers. Pour plus d’informations sur le système de fichiers DFS pour Windows Server 2012, consultez [cette page DFS](https://technet.microsoft.com/library/jj127250.aspx).
     
 - Nous vous recommandons d’utiliser un cluster partagé pour le partage de fichiers. Si vous utilisez déjà une version de Windows Server 2012 ou version ultérieure
 

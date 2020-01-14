@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuring Persistent Chat Server for high availability and disaster recovery
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205364(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ205364(v=OCS.15)
 ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c42edb14102b9bbf91b06804c365980a6e19345
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9ceda51485b0f4f9fde33a9499ca05998176b3
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838191"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-persistent-chat-server-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Configuration d’un serveur de conversation permanente pour la haute disponibilité et la récupération d’urgence dans Lync Server 2013
 
@@ -33,7 +33,7 @@ ms.locfileid: "34838191"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Le serveur Lync Server 2013, les services de chat permanent utilisent une configuration de *pool ambitieuse* pour la récupération d’urgence. Un pool étiré est un pool qui comporte des ordinateurs qui sont répartis entre deux centres de données physiques, mais qui se trouvent au sein d’un seul site de serveur Lync logique.
 
@@ -51,7 +51,7 @@ Le serveur Lync Server 2013, les services de chat permanent utilisent une config
 
   - [Configuration de la copie des journaux de transaction SQL Server dans Lync Server 2013 pour la base de données principale du serveur de conversation permanente](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md)
 
-  - [Définition de la copie des journaux de transaction SQL Server entre la base de données miroir principale et la base de données secondaire de copie des journaux de transaction dans Lync Server 2013](lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md)
+  - [Définition de la copie des journaux de transaction SQL Server entre la base de données miroir principale et la base de données secondaire de copie des journaux de transaction dans Lync Server 2013](lync-server-2013-set-up-log-shipping-secondary-database.md)
 
 </div>
 

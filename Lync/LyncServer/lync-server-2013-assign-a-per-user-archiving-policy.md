@@ -1,21 +1,21 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie d’archivage par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie d’archivage par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111578"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Affecter une stratégie d’archivage par utilisateur dans Lync Server 2013
 
@@ -28,7 +28,7 @@ Le déploiement d’une ou plusieurs stratégies d’archivage par utilisateur e
 
 Après avoir créé au moins une stratégie d’archivage par utilisateur, suivez les procédures décrites dans cette rubrique pour affecter la stratégie qui détermine de manière appropriée si les communications internes d’un utilisateur particulier ou les deux sont archivées par le serveur.
 
-Pour plus d’informations sur la création de stratégies d’archivage par utilisateur, reportez-vous à la rubrique [création d’une stratégie d’archivage dans Lync Server 2013 pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou des utilisateurs spécifiques](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+Pour plus d’informations sur la création de stratégies d’archivage par utilisateur, reportez-vous à la rubrique [création d’une stratégie d’archivage dans Lync Server 2013 pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou des utilisateurs spécifiques](lync-server-2013-create-archiving-policy-sites-users.md).
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>Pour attribuer une stratégie d’archivage par utilisateur
 
@@ -69,7 +69,7 @@ Pour plus d’informations sur la création de stratégies d’archivage par uti
 
 
 
-7.  Dans **affecter des stratégies**, sous **stratégie**d’archivage, effectuez l’une des opérations suivantes:
+7.  Dans **affecter des stratégies**, sous **stratégie d’archivage**, effectuez l’une des opérations suivantes :
     
 
     > [!NOTE]  
@@ -78,7 +78,7 @@ Pour plus d’informations sur la création de stratégies d’archivage par uti
     
       - Autorisez Lync Server 2013 à choisir automatiquement la stratégie de niveau global ou, s’il est défini, la stratégie au niveau du site.
     
-      - Cliquez sur le nom d’une stratégie d’archivage par utilisateur que vous avez précédemment définie dans la page **stratégie** d’archivage.
+      - Cliquez sur le nom d’une stratégie d’archivage par utilisateur que vous avez précédemment définie dans la page **stratégie d’archivage** .
         
 
         > [!TIP]  
@@ -90,7 +90,7 @@ Pour plus d’informations sur la création de stratégies d’archivage par uti
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie d’archivage par utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-Vous pouvez attribuer des stratégies d’archivage par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsArchivingPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez attribuer des stratégies d’archivage par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsArchivingPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>Pour attribuer une stratégie d’archivage par utilisateur à un utilisateur unique
 
@@ -100,7 +100,7 @@ Vous pouvez attribuer des stratégies d’archivage par utilisateur à l’aide 
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>Pour attribuer une stratégie d’archivage par utilisateur à plusieurs utilisateurs
 
-  - Cette commande affecte le RedmondArchivingPolicy de stratégie d’archivage par utilisateur à tous les utilisateurs disposant de comptes hébergés sur le pool d’inscriptions atl-cs-001.litwareinc.com. Pour plus d’informations sur le paramètre de filtre utilisé dans cette commande, consultez la documentation de l’applet de commande [Get-Csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
+  - Cette commande affecte le RedmondArchivingPolicy de stratégie d’archivage par utilisateur à tous les utilisateurs disposant de comptes hébergés sur le pool d’inscriptions atl-cs-001.litwareinc.com. Pour plus d’informations sur le paramètre de filtre utilisé dans cette commande, consultez la documentation de l’applet de commande [Get-Csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ Vous pouvez attribuer des stratégies d’archivage par utilisateur à l’aide 
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .
+Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Grant-CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) .
 
 ## <a name="see-also"></a>Voir aussi
 
 
-[Création d’une stratégie d’archivage dans Lync Server 2013 pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou des utilisateurs spécifiques](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Création d’une stratégie d’archivage dans Lync Server 2013 pour activer ou désactiver l’archivage des communications internes ou externes pour des sites ou des utilisateurs spécifiques](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Attribution de stratégies par utilisateur dans Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)

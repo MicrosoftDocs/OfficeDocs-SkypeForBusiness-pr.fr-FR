@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Consultez cette rubrique pour plus d’informations sur le déploiement de salles Microsoft teams avec Office 365.
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675438"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104473"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Déployer des Salles Microsoft Teams avec Office 365 ProPlus
 
@@ -205,7 +205,7 @@ Après avoir suivi les étapes ci-dessous pour activer votre compte Microsoft te
 
 4. Cliquez sur l’option **Licences**.
 
-5. Dans la section **attribuer des licences** , vous devez sélectionner Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), en fonction de votre licence et de ce que vous avez choisi pour l’entreprise. Vous devez utiliser une licence de plan 3 Si vous souhaitez utiliser PBX Cloud sur les salles de Microsoft Teams. Vous aurez au moins besoin de CloudPBX pour la connectivité vocale. Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC. Pour plus d’informations, consultez la rubrique [licences Microsoft teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+5. Dans la section **attribuer des licences** , vous devez sélectionner Skype entreprise Online (plan 2) ou Skype entreprise Online (plan 3), en fonction de votre licence et de ce que vous avez choisi pour l’entreprise. Vous devez utiliser une licence de plan 3 Si vous souhaitez utiliser PBX Cloud sur les salles de Microsoft Teams. Vous aurez au moins besoin de CloudPBX pour la connectivité vocale. Puis, configurez la voix hybride ou la fonction d’appel RTC sur la méthode de connectivité RTC. Pour plus d’informations, consultez la rubrique [licences Microsoft teams](skype-room-systems-v2.md)
 
 6. Cliquez sur **Enregistrer** pour terminer la tâche.
 
@@ -263,4 +263,4 @@ Pour la validation, vous devriez être en mesure d’utiliser n’importe quel c
 
 [Gérer Microsoft Teams Rooms](skype-room-systems-v2.md)
 
-[Gestion des licences Microsoft teams](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Gestion des licences Microsoft teams](skype-room-systems-v2.md)

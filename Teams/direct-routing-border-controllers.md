@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier que leurs produits fonctionnent avec un routage direct.
-ms.openlocfilehash: 6953828ce3b97598a0173bc344bf7d43d7fe8097
-ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
+ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995104"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111748"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -50,11 +50,11 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20 a. 250  |    |    |    
 |                                                                                                                     | SBC-9000  |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |  Intrado ERS <br>Intrado EGW |   Non |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |   Intrado ERS <br>Intrado EGW  | Non   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |  Intrado ERS <br>Intrado EGW    |Non|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |   Intrado ERS <br>Intrado EGW  |  Non  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |   Intrado ERS <br>Intrado EGW |   Non |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Intrado ERS <br>Intrado EGW |   Non |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Intrado ERS <br>Intrado EGW  | Non   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Intrado ERS <br>Intrado EGW    |Non|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Intrado ERS <br>Intrado EGW  |  Non  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Intrado ERS <br>Intrado EGW |   Non |    
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Intrado ERS <br>Intrado EGW   |  Pending  |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Intrado ERS <br>Intrado EGW  |  Pending  |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |  Intrado ERS <br>Intrado EGW   |  Pending  |    

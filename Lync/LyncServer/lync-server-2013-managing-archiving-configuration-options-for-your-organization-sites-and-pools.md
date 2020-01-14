@@ -1,27 +1,27 @@
 ---
-title: 'Lync Server 2013: gestion des options de configuration de l’archivage pour votre organisation, vos sites et vos pools'
+title: 'Lync Server 2013 : gestion des options de configuration de l’archivage pour votre organisation, vos sites et vos pools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 TOCTitle: Managing Archiving configuration options for your organization, sites, and pools
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204802(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204802(v=OCS.15)
 ms:contentKeyID: 48183830
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10efbf23a503364de7034651d94ced43a8d7b750
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d27ea110c345be8963c5b3be3fa8b761e1b3727
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828207"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-archiving-configuration-options-in-lync-server-2013-for-your-organization-sites-and-pools"></a>Gestion des options de configuration de l’archivage dans Lync Server 2013 pour votre organisation, vos sites et vos pools
 
@@ -33,15 +33,15 @@ ms.locfileid: "34828207"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour spécifier la façon dont l’archivage est implémenté. Cela inclut les configurations d’archivage suivantes:
+Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour spécifier la façon dont l’archivage est implémenté. Cela inclut les configurations d’archivage suivantes :
 
   - Configuration globale créée par défaut lors du déploiement de Lync Server 2013.
 
   - Configurations facultatives de niveau de site et de niveau groupe que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des groupes spécifiques.
 
-Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la page **configuration** de l’archivage du groupe **archivage et surveillance** pour gérer les configurations au niveau global, au niveau du site et au niveau du pool. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, déploiement documentation ou documentation sur les opérations.
+Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la page Configuration de l' **archivage** du groupe **archivage et surveillance** pour gérer les configurations au niveau global, au niveau du site et au niveau du pool. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou les opérations.
 
 <div>
 
@@ -55,9 +55,9 @@ Vous définissez initialement des configurations d’archivage lors du déploiem
 
 **Pour afficher les informations de configuration de l’archivage à l’aide des cmdlets Windows PowerShell**
 
-  - Vous pouvez afficher les informations de configuration de l’archivage à l’aide de Windows PowerShell et de l’applet **de cmdlet Get-CsArchivingConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+  - Vous pouvez afficher les informations de configuration de l’archivage à l’aide de Windows PowerShell et de l’applet **de cmdlet Get-CsArchivingConfiguration** . Vous pouvez exécuter cette applet de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
     
-    Dans Lync Server Management Shell, utilisez la commande suivante pour afficher les informations relatives à l’ensemble de vos paramètres de configuration de l’archivage:
+    Dans Lync Server Management Shell, utilisez la commande suivante pour afficher les informations relatives à l’ensemble de vos paramètres de configuration de l’archivage :
     
         Get-CsArchivingConfiguration
 
@@ -71,7 +71,7 @@ Vous définissez initialement des configurations d’archivage lors du déploiem
 
   - [Activation ou désactivation de la suppression de données archivées dans Lync Server 2013](lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md)
 
-  - [Activation ou désactivation du mode critique dans Lync Server 2013 pour bloquer ou autoriser des sessions de messagerie instantanée et de conférence Web en cas d’échec de l’archivage](lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md)
+  - [Activation ou désactivation du mode critique dans Lync Server 2013 pour bloquer ou autoriser des sessions de messagerie instantanée et de conférence Web en cas d’échec de l’archivage](lync-server-2013-enable-disable-critical-mode.md)
 
   - [Activation ou désactivation de l’envoi d’une notification d’exclusion relative à l’archivage aux partenaires fédérés dans Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 

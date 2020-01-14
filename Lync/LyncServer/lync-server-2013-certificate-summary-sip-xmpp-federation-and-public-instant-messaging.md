@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618372(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ618372(v=OCS.15)
 ms:contentKeyID: 49105659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6dccb46b9f2b6d934f1cd0960bb11a369fb585ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aede53e06493fab89a843ccc2de543aed7f05dae
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838623"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Résumé du certificat-SIP, Fédération de XMPP et messagerie instantanée publique dans Lync Server 2013
 
@@ -33,7 +33,7 @@ ms.locfileid: "34838623"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-15_
+_**Dernière modification de la rubrique :** 2013-03-15_
 
 Les certificats dont vous avez besoin pour la Fédération avec Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server seront généralement satisfaits par les certificats que vous configurez, demandez et attribuez à votre serveur Edge.
 
@@ -41,7 +41,7 @@ Les exigences en matière de certificats pour l’activation et la définition d
 
 Pour configurer des certificats pour la connectivité de messagerie instantanée publique, Notez qu’il n’y a rien d’autre que d’autres types de Fédération SIP ou même des certificats de serveur Edge standard, à l’exception que America Online (AOL) nécessite le ou les certificats (en dans le cas d’un pool de bords, le cas échéant, il s’agit de l’utilisation de l’utilisation améliorée du client. L’utilisation améliorée de l’utilisation du client est un ajout du certificat, qui fait partie du certificat public externe affecté à votre serveur Edge.
 
-Pour vérifier que vous remplissez les conditions requises pour les certificats pour le déploiement de Microsoft Edge Server, reportez-vous aux rubriques indiquées dans la section **Voir aussi**.
+Pour vérifier que vous remplissez les conditions requises pour les certificats pour le déploiement de Microsoft Edge Server, **reportez-** vous aux rubriques indiquées dans la section Voir aussi.
 
 <div>
 
@@ -92,7 +92,7 @@ Pour vérifier que vous remplissez les conditions requises pour les certificats 
 > Pour prendre en charge l’espace de noms fabrikam.com XMPP
 
 </td>
-<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces du serveur Edge externe pour les éléments suivants:</p>
+<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces du serveur Edge externe pour les éléments suivants :</p>
 <ul>
 <li><p>Service Edge d’accès</p></li>
 <li><p>Service Edge de conférence web</p></li>
@@ -124,7 +124,7 @@ Pour vérifier que vous remplissez les conditions requises pour les certificats 
 [Planification des certificats de serveur Edge dans Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
 [Résumé des certificats - Serveur Edge unique consolidé avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
 [Résumé des certificats - Serveur Edge unique consolidé avec adresses IP publiques dans Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
-[Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
+[Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)  
 [Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec des adresses IP publiques dans Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
 [Résumé des certificats - Serveur Edge consolidé mis à l’échelle avec des équilibreurs de charge matérielle dans Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
   

@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744868"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111708"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -262,6 +262,9 @@ Examinons l’exemple suivant.
 |Babek    | Location1MeetingPolicy        | False   |
 
 Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée à d’autres participants à une réunion organisée par Babek que Babek ne peut pas céder le contrôle à d’autres participants.
+
+> [!NOTE]
+> Pour donner et prendre le contrôle du contenu partagé lors du partage, les deux parties doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsque l’une des parties exécute une équipe dans un navigateur. Le problème est dû à une limitation technique que nous prévoyons d’y remédier. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à céder ou demander le contrôle
 

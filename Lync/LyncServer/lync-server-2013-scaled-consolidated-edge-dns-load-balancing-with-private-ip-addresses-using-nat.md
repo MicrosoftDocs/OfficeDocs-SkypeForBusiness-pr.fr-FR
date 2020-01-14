@@ -10,18 +10,18 @@ ms:contentKeyID: 48185369
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ccae081e80b61be767dfbdc82664ff90d4dfabd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0650e156dca03ac5024dfe4f3045a0d8f155643
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822264"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013
 
@@ -33,11 +33,11 @@ ms.locfileid: "34822264"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Dans la topologie de pool de serveurs Edge, deux serveurs Edge ou plus sont déployés en tant que pool équilibré dans le réseau de périmètre du centre de données. Le service d’équilibrage de la charge DNS (Domain Name System) est utilisé pour le trafic vers les interfaces d’arête externe et interne.
 
-Si votre organisation a besoin d’une prise en charge pour plus de 15 000 connexions client de service Edge, 1 000 les connexions clientes de service de conférence rendez-vous actives Lync Server Web ou 500 de sessions A/V ou d’une haute disponibilité du serveur Edge est important , cette topologie présente les avantages de l’évolutivité et de la prise en charge du basculement.
+Si votre organisation a besoin d’une prise en charge pour plus de 15 000 connexions client de service Edge, 1 000 les connexions clientes de service de conférence rendez-vous actives Lync Server Web ou 500 de sessions A/V parallèles, et/ou une haute disponibilité du serveur Edge est importante, cette topologie présente les avantages de l’évolutivité et de la prise en charge du basculement.
 
 La figure ne montre pas les directeurs, un rôle serveur facultatif déployé sur le réseau interne entre les serveurs de périphérie et vos pools ou serveurs. Pour plus d’informations sur la topologie des directeurs, voir [composants requis pour le directeur dans Lync Server 2013](lync-server-2013-components-required-for-the-director.md). La figure représente une seule doublure inverse.
 
@@ -67,7 +67,7 @@ Il existe des technologies de traduction d’adresses réseau (NAT) pour IPv6 qu
 
 </div>
 
-![899546d4-2eef-44D2-8317-51c5f699cd2a] (images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "899546d4-2eef-44D2-8317-51c5f699cd2a")
+![899546d4-2eef-44d2-8317-51c5f699cd2a](images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "899546d4-2eef-44d2-8317-51c5f699cd2a")
 
 <div>
 
@@ -83,7 +83,7 @@ Il existe des technologies de traduction d’adresses réseau (NAT) pour IPv6 qu
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Résumé des certificats - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)
 
   - [Résumé des enregistrements DNS - Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS avec adresses IP privées avec la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 

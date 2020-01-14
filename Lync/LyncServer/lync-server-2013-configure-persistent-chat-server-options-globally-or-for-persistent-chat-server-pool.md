@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configure Persistent Chat Server options globally or for Persistent Chat Server pool
 ms:assetid: 1e8d5245-cd58-4aad-9a1c-35b24189bc40
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204731(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204731(v=OCS.15)
 ms:contentKeyID: 48183581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed79d1144c1ccb7abeac8dcf7d1f4d44c63e93e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fedd0d1adb4149c3dc2ea41c5321259f571524f
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838355"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool-in-lync-server-2013"></a>Configuration des options de serveur de conversation permanente au niveau global ou pour un pool de serveurs de conversation permanente dans Lync Server 2013
 
@@ -33,9 +33,9 @@ ms.locfileid: "34838355"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
-Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la section **configuration permanente** de conversation de la page de **conversation permanente** pour configurer les paramètres de conversation permanente dans le monde entier, à l’endroit où ils s’appliquent à tous les pools de serveurs de chat permanent ou à un service spécifique. Pool de serveurs de chat permanent.
+Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la section **configuration permanente** de conversation de la page de **conversation permanente** pour configurer les paramètres de conversation permanente dans le monde entier, à l’endroit où ils s’appliquent à tous les pools de serveurs de chat permanent ou à un pool de serveurs de chat permanent spécifique.
 
 <div>
 

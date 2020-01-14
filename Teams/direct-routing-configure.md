@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Apprenez à configurer le routage direct du système Microsoft Phone.
-ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023418"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111728"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -453,7 +453,7 @@ Le tableau suivant récapitule les concepteurs d’utilisation et les itinérair
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Exemple de politique de routage vocale pour les bois des utilisateurs de Jean
 
-Les étapes à suivre pour créer une utilisation PSTN « international », un itinéraire vocal « international », « stratégie de routage vocale » n’est pas soumis à des restrictions», puis l’affecter à l’utilisateur « Jean bois » est le suivant.
+Les étapes à suivre pour créer une utilisation PSTN « international », un itinéraire vocal « international », « stratégie de routage vocale » n’est pas soumis à des restrictions», puis l’affecter à l’utilisateur « Jean bois » est le suivant.   
 
 
 **Étape 1**: créer une utilisation PSTN internationale. 
