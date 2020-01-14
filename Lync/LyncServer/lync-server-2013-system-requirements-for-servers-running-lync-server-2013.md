@@ -10,20 +10,22 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad30b9687c9566adb7936612e71ae9f41e69095
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301cd234e2218fc806423a9ffe9beb49994402f2
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846706"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104493"
 ---
+# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Configuration système requise pour les serveurs exécutant Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-servers-running-lync-server-2013"></a>Configuration système requise pour les serveurs exécutant Lync Server 2013
+
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846706"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-07-24_
+_**Dernière modification de la rubrique :** 2014-07-24_
 
 <div>
 
@@ -63,7 +65,7 @@ Les serveurs exécutant Lync Server 2013 Enterprise Edition sont destinés aux g
 
 </div>
 
-Les éditions standard du serveur et Enterprise Edition peuvent utiliser l’une des méthodes suivantes:
+Les éditions standard du serveur et Enterprise Edition peuvent utiliser l’une des méthodes suivantes :
 
   - Windows Server 2008 R2 SP1 ou le dernier Service Pack
 
@@ -73,11 +75,13 @@ Les éditions standard du serveur et Enterprise Edition peuvent utiliser l’une
 
 Installez le logiciel du système d’exploitation sur le serveur frontal Standard Edition Server ou Enterprise Edition. Appliquez toutes les mises à jour afin de faire en sorte que le système d’exploitation dispose de la dernière mise à jour et du niveau de mise à jour requis conformément aux normes de votre organisation. Pour plus d’informations sur la configuration requise, reportez-vous à la [prise en charge des systèmes d’exploitation serveur et outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) dans la documentation relative à la prise en charge.
 
+> [!NOTE] La mise à niveau sur place du système d’exploitation n’est pas prise en charge avec Lync Server 2013.  Vous devez déployer un pool distinct et migrer les utilisateurs vers le nouveau pool avec un autre système d’exploitation.
+
 <div>
 
 
 > [!NOTE]  
-> Pour que Lync Server 2013 fonctionne sur Windows Server 2012 R2, il est possible que vous deviez modifier la valeur d’une clé de Registre dans Windows Server. Ce changement est susceptible d’être nécessaire pour le bon fonctionnement des certificats et permettre aux clients de s’inscrire à des appareils distants. Pour plus d’informations, <A class=uri href="http://support.microsoft.com/kb/2901554">http://support.microsoft.com/kb/2901554</A>reportez-vous à.
+> Pour que Lync Server 2013 fonctionne sur Windows Server 2012 R2, il est possible que vous deviez modifier la valeur d’une clé de Registre dans Windows Server. Ce changement est susceptible d’être nécessaire pour le bon fonctionnement des certificats et permettre aux clients de s’inscrire à des appareils distants. Pour plus d’informations, <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>reportez-vous à.
 
 
 
