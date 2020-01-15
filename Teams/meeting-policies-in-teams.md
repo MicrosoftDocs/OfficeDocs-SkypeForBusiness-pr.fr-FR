@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111708"
+ms.locfileid: "41120395"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -120,7 +120,7 @@ Si vous désactivez cette fonctionnalité, les utilisateurs ne sont pas en mesur
 
 ### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions de canal
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à cocher, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il lancera une réunion dans un canal d’équipe et l’option **Sélectionner un canal pour** la réunion ne sera pas disponible pour l’utilisateur lors de la planification d’une réunion à partir de réunions en équipe.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à costar, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il démarrera une réunion dans un canal équipes et l’option **Ajouter un canal** est désactivée pour les utilisateurs dans Teams.
 
 ![Capture d’écran montrant l’option planifier une réunion dans teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier des réunions privées dans Teams. Une réunion est privée lorsque celle-ci n’est pas publiée sur un canal d’une équipe.
 
-Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, l’option **planifier une réunion** ne sera pas disponible et les utilisateurs ne seront pas en mesure de planifier des réunions dans Teams.
+Remarque : Si vous désactivez l’option **autoriser la planification de réunions privées** et **autoriser la planification**des réunions de canal, les options **Ajouter les participants nécessaires** et **Ajouter un canal** sont désactivées pour les utilisateurs de Microsoft Teams.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,8 +263,10 @@ Examinons l’exemple suivant.
 
 Daniela pouvez donner le contrôle de l’ordinateur ou de la fenêtre partagée à d’autres participants à une réunion organisée par Babek que Babek ne peut pas céder le contrôle à d’autres participants.
 
+Pour utiliser PowerShell afin de contrôler les personnes qui peuvent donner le contrôle ou accepter des demandes de contrôle, utilisez l’applet de commande AllowParticipantGiveRequestControl.
+
 > [!NOTE]
-> Pour donner et prendre le contrôle du contenu partagé lors du partage, les deux parties doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsque l’une des parties exécute une équipe dans un navigateur. Le problème est dû à une limitation technique que nous prévoyons d’y remédier. 
+> Pour donner et prendre le contrôle du contenu partagé lors du partage, les deux parties doivent utiliser le client de bureau Teams. Le contrôle n’est pas pris en charge lorsqu'une des parties exécute Teams dans un navigateur. Il s'agit d'une limitation technique que nous nous efforçons de résoudre. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à céder ou demander le contrôle
 
@@ -276,6 +278,8 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les 
    - Utilisateur fédéré  
 
 Si les utilisateurs fédérés peuvent donner le contrôle à des utilisateurs externes lorsque le partage est contrôlé, le paramètre **autoriser un participant externe à attribuer ou demander un contrôle** au sein de leur organisation.
+
+Pour utiliser PowerShell pour contrôler si les participants externes peuvent donner le contrôle ou accepter des demandes de contrôle, utilisez l’applet de commande AllowExternalParticipantGiveRequestControl.
 
 ### <a name="allow-powerpoint-sharing"></a>Autoriser le partage PowerPoint
 
