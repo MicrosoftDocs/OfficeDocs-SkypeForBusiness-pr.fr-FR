@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 87fda86d1dbe09858c3850dc92ee5085666d8ba7
+ms.sourcegitcommit: 52d924e654909a2017ce42ba9d1b4bbc3efa9262
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38679824"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41205291"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft teams
 
@@ -37,19 +37,20 @@ Teams inclut actuellement les packages de stratégie suivants.
 
 |**Nom du package**  |**Description** |
 |---------|---------|
-|Package Education_Teacher     |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux enseignants.      |
-|Package Education_PrimaryStudent    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants principaux.|
-|Package Education_SecondaryStudent    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants secondaires.         |
-|Package Education_HigherEducationStudent    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants de plus grande éducation.|
-|Package SmallMediumBusiness_BusinessVoice    |Crée une stratégie de configuration d’application qui inclut les applications pour une interface vocale professionnelle.|
+|Éducation (étudiant de grande éducation)    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants de plus grande éducation.|
+|Éducation (étudiant primaire)   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants principaux.|
+|Éducation (étudiant d’école secondaire)    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux étudiants secondaires.         |
+|Éducation (enseignant)    |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux enseignants.      |
+|Voix professionnelle |Crée une stratégie de configuration d’application qui inclut les applications pour une interface vocale professionnelle.|
+|Officier de sûreté public   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique au sein de votre organisation.|
 
 > [!NOTE]
 > Comme nous allons ajouter d’autres packages de stratégie dans les futures versions de teams, vous pouvez consulter les informations les plus récentes.  
 
 Chaque stratégie individuelle dispose du nom du package de stratégie, ce qui vous permet d’identifier facilement les stratégies liées à un package de stratégie.
-Par exemple, lorsque vous attribuez le package de stratégie de Education_Teacher aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie dans le package.
+Par exemple, lorsque vous attribuez le package de stratégie éducation (enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie dans le package.
 
-![Capture d’écran du package de stratégie Education_Teacher](media/policy-packages-education_teacher.png)
+![Capture d’écran du package de stratégie éducation (enseignant)](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>Utiliser des packages de stratégie
 
@@ -105,4 +106,4 @@ Cela risque de se produire si une ou plusieurs stratégies du package n’ont pa
 
 ## <a name="related-topics"></a>Voir aussi
 
-[Packages de stratégie de Microsoft teams pour les administrateurs EDU](policy-packages-edu.md)
+[Packages de stratégie Microsoft Teams pour les administrateurs dans l’éducation](policy-packages-edu.md)
