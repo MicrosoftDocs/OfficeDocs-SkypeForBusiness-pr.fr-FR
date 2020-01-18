@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019968"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230314"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaction entre Exchange et Microsoft Teams
 
@@ -43,8 +43,8 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 
 | La boîte aux lettres de l'utilisateur est hébergée dans : | eDiscovery| Conservation&nbsp;légale | Rétention| Gestion des équipes et des canaux |Créer et afficher des réunions dans Microsoft teams| Modifier une image de profil utilisateur | Historique des appels | Gérer les contacts | Accéder aux contacts Outlook | Messagerie vocale |Ajouter et configurer des connecteurs|Ajouter et configurer des onglets|Ajouter et configurer des bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |
-|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui |Oui|
+|**Exchange Online**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui |Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui |
+|**vNext Exchange Online dédié**|Oui <sup>2</sup>|Oui <sup>2</sup>|Oui |Oui |Oui |Oui |Oui |Oui |Oui, <sup>7</sup>|Oui |Oui |Oui |Oui|
 |**Exchange Online dédié– hérité** (Synchronisation avec Azure AD requise)|Oui <sup>2</sup>|Oui <sup>, 3</sup>|Oui <sup>, 4|Oui|Non|Non|Oui|Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
 |**Exchange sur site** (synchronisation avec Azure ad requise)|Oui <sup>2</sup>| Oui <sup>, 3</sup> |Oui <sup>, 4|Oui|Oui (Exchange 2016 CU3 +)|Oui (Exchange 2016 CU3 +)|Oui |Oui|Non|Oui <sup>, 5|Oui <sup>, 6|Oui |Oui |
 
@@ -60,8 +60,7 @@ Le tableau suivant fournit une référence rapide utile à la disponibilité des
 
 <sup>6</sup> si l’un des propriétaires d’une équipe peut ajouter des connecteurs, tous les autres membres de cette équipe pourront y parvenir, même si leurs boîtes aux lettres sont hébergées sur site.
 
-
-Informations complémentaires :
+<sup>7</sup> uniquement les contacts dans le dossier contacts par défaut. L’accès à d’autres dossiers ou sous-dossiers de contacts n’est pas pris en charge.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Configuration requise pour tirer le meilleur parti de Microsoft teams
 

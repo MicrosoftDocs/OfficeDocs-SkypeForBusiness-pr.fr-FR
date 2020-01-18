@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions pour l’implémentation de la messagerie vocale en nuage pour les utilisateurs hébergés sur Skype entreprise Server.
-ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963002"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230354"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service de messagerie vocale Cloud pour les utilisateurs locaux
 
@@ -36,7 +36,7 @@ La configuration de la messagerie vocale Cloud implique les tâches suivantes :
 
 2.  Assurez-vous que vous avez configuré la connectivité hybride comme décrit dans [plan Hybrid Connectivity](plan-hybrid-connectivity.md) et [configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configurez le service de messagerie vocale Cloud en tant que fournisseur d’hébergement sur le serveur Edge](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) , comme décrit dans cet article.
+3.  [Configurez le service de messagerie vocale Cloud en tant que fournisseur d’hébergement sur le serveur Edge](#configure-cloud-voicemail-as-the-hosting-provider) , comme décrit dans cet article.
 
 4.  [Configurez une stratégie de messagerie vocale hébergée](#configure-a-hosted-voicemail-policy) comme décrit dans cet article.
 
@@ -45,7 +45,7 @@ La configuration de la messagerie vocale Cloud implique les tâches suivantes :
 6.  [Activez un utilisateur pour la messagerie vocale Cloud](#enable-a-user-for-cloud-voicemail) comme décrit dans cet article.
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server"></a>Configuration de la messagerie vocale sur le Cloud en tant que fournisseur d’hébergement sur le serveur Edge 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Configuration de la messagerie vocale sur le Cloud en tant que fournisseur d’hébergement 
 
 Vous configurez la messagerie vocale Cloud en tant que fournisseur d’hébergement sur un serveur frontal à l’aide de la cmdlet New-CsHostingProvider avec les paramètres suivants :
 
