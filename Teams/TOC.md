@@ -244,7 +244,6 @@
 ### [Partage d’appel et prise d’appel de groupe](call-sharing-and-group-call-pickup.md)
 ### [Stratégie d’Appel](teams-calling-policy.md)
 ### [Mode partage de lignes](shared-line-appearance.md)
-### [Comprendre comment les utilisateurs peuvent bloquer les appels PSTN pour les clients Teams](block-pstn-calls-on-Teams-clients.md)
 
 
 ## Forfaits d’appel
