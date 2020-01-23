@@ -15,23 +15,26 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fd0b9386206d14f8ff1a1c03ee4312671b9a0a5
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ac0835e92232a77f524af5b601fc9f59881e3450
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972065"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268670"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Ressources pour les partenaires vocaux Microsoft 365
 
-Utilisez cet article pour diriger des recommandations et des ressources techniques permettant de planifier, de déployer et de prendre en charge Microsoft 365 Business Voice.  L’article se concentre principalement sur la voix et les appels d’entreprise.  Avant de déployer la voix professionnelle, vous devez disposer d’une base dans le déploiement et la prise en charge de Microsoft Teams.  
-Il s’agit d’une ressource concise pour la fourniture d’une assistance technique et d’un service d’assistance technique qui vous permet de consulter les nouveautés de la voix.  Utilisez ce guide pour vous aider à développer vos connaissances sur le son de votre entreprise, ainsi que les principes de base du déploiement et de la prise en charge de la voix commerciale.
+Utilisez cet article pour faciliter le déploiement et la prise en charge de Microsoft 365 Business Voice. L’article se concentre sur voix et appels commerciaux.
+
+Avant de déployer la voix professionnelle, vous devez disposer d’une base dans le déploiement et la prise en charge de Microsoft Teams.
+
+Cet article est une ressource concise pour le personnel de support technique et de support technique qui est une nouveauté de Business Voice. Utilisez ces ressources pour développer vos connaissances de la voix commerciale, y compris les notions de base du déploiement et de la prise en charge.
 
 - [Conseils pratiques de Microsoft teams](../cloud-voice-landing-page.md)
 - [Pré-évaluation et planification](../3-envision-evaluate-my-environment.md)
-- [Déployer](../3-onboard-deploy-my-service.md)
-- [Activités](../1-drive-value-operate-my-service.md)
+- [Deployment](../3-onboard-deploy-my-service.md)
+- [Opération](../1-drive-value-operate-my-service.md)
 - [Support](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
 - [Résolution des problèmes](../connectivity-issues.md)
 - [Offres d’assistance pour les partenaires](https://partner.microsoft.com/support/partnersupport)
-- [Fournisseur de services Microsoft teams](https://aka.ms/teamsserviceproviderguide)
+- [Guide du prestataire de services teams](https://aka.ms/teamsserviceproviderguide)

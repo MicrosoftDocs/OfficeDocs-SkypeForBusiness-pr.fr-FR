@@ -1,0 +1,49 @@
+---
+title: Gérer les appareils de salle Microsoft teams avec Azure Monitor
+ms.author: v-lanac
+author: lanachin
+ms.reviewer: sohailta
+manager: serdars
+audience: ITPro
+ms.topic: article
+ms.service: msteams
+localization_priority: Normal
+ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
+ms.collection:
+- M365-collaboration
+description: Cet article explique comment gérer les appareils de salles de Microsoft teams de manière intégrée à l’aide d’Azure Monitor.
+ms.openlocfilehash: 33132d7d72498fd01a156ce28114d1e584d6760c
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268917"
+---
+# <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Gérer les appareils de salle Microsoft teams avec Azure Monitor
+
+Cet article explique comment gérer les appareils de salles de Microsoft teams de manière intégrée à l’aide d’Azure Monitor.
+
+Vous pouvez configurer le moniteur Azure pour fournir une télémétrie de base pour vous aider à gérer les appareils de salle de réunion Skype. Pour plus d’informations, reportez-vous à la rubrique planification de la [gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-plan.md) et déploiement de la [gestion de Microsoft teams](azure-monitor-deploy.md) Comme votre solution de gestion est mature, vous pouvez utiliser des données supplémentaires et des fonctionnalités de gestion pour créer une vue plus détaillée des performances de l’appareil.
+
+## <a name="understand-the-log-entries"></a>Comprendre les entrées de journal
+
+Les descriptions d’événement suivantes sont insérées dans le champ de description du journal des événements toutes les cinq minutes, lorsque l’application Microsoft teams pièces enregistre les informations correspondantes dans le journal des événements Windows. L’agent de surveillance Microsoft transmet ces enregistrements pour consigner les données d’analyse dans Azure Monitor, qui les analyse dans le tableau de bord que vous avez créé lors du déploiement de la [gestion de Microsoft teams avec Azure Monitor](azure-monitor-deploy.md). Le tableau de bord vous permet d’accéder à des entrées de journal individuelles pour déterminer les cours d’action le cas échéant.
+
+Les ID d’événement 2000 et 3000 indiquent que l’appareil en question fonctionne comme prévu. Les ID d’événement 2001 et 3001 indiquent qu’un problème a été détecté. L’ID d’événement 4000 peut nécessiter une action s’il s’est affiché plus fréquemment que prévu, par rapport à un planning de référence que vous avez défini ou à d’autres appareils déployés dans votre organisation.
+
+Comprendre ces descriptions d'événements vous permet d'être rapidement informé(e) des problèmes et de disposer d'un point de départ pour le dépannage.
+
+| Niveau&nbsp;de&nbsp;l’ID d’événement|Comportement&nbsp;de l’événement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Description&nbsp;de l’événement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:---    |:---   |:---  |
+| 2000  <br> Information | Il s'agit d'un événement de pulsation sain. Toutes les cinq minutes, Microsoft teams salles vérifie qu’il est connecté à Microsoft teams ou à Skype entreprise et qu’il dispose d’une connexion réseau et Exchange. <br> Si les 3 facteurs sont vrais, il écrit l’ID d’événement 2000 dans le journal des événements toutes les cinq minutes jusqu’à ce que l’appareil soit déconnecté ou qu’une ou plusieurs de ces conditions ne soient plus satisfaites. | {"Description" : "la pulsation est saine.", "ResourceState" : "sain", "NomOpération" : "Heartbeat", "OperationResult" : "réussite", "système d’exploitation" : "Windows 10", "OSVersion", "10.0.14393.693", "alias"<span></span>: "alias @contoso. com", "DisplayName" : "nom d’affichage", "", "", "10.10.10.10" <br><br> Dans cet exemple, toutes les conditions de pulsation étaient remplies et l’appareil de salle Microsoft teams a été marqué comme sain. S'il y avait eu des erreurs, l'application aurait enregistré à la place l'ID d'événement 2001. |
+| 2001  <br> Erreur | Il s'agit d'un événement d'erreur d'application. Toutes les cinq minutes, Microsoft teams salles vérifie qu’il est connecté à Microsoft teams ou à Skype entreprise avec une connectivité réseau et Exchange. Si un ou plusieurs facteurs n’ont pas la valeur true, l’élément EventID 2001 est écrit dans le journal des événements toutes les cinq minutes jusqu’à ce que l’appareil soit déconnecté ou que toutes les conditions soient remplies une nouvelle fois.  | {"Description" :"Network status : Healthy. Exchange status : Connected. **Signin status: Unhealthy.** "," ResourceState " :" Failed "," NomOpération " :" Heartbeat "," OperationResult " :" fail "," OS " :" Windows 10 "," OSVersion " :" 10.0.14393.693 "," alias " :" "," "," nom complet "," " Adresseipv6 " :" adresse IP V6 "} <br><br>  Dans cet exemple, Microsoft teams salles a déterminé que la connexion réseau est saine et que l’application a été connectée à Exchange, mais la partie en gras indique que l’application n’est pas connectée. Il peut s'agir d'un problème de configuration au niveau de l'appareil ou de l'hôte.  <br> <br> Le statut du réseau est correct ou défectueux. Si le statut est défectueux, il est possible que vous ayez un problème réseau ou que l’appareil ait été débranché (mais que vous ayez probablement des erreurs Exchange et Microsoft teams ou Skype entreprise).  <br><br> L’État Exchange s’affiche sous la forme d’une connexion connectée ou de l’un des éléments suivants : déconnecté, connexion, AutodiscoveryError (l’erreur la plus fréquemment affichée), GeneralError ou ServerVersionNotSupported. S’il s’agit de l’État connexion, patientez jusqu’à ce que le message d’état d’intégrité suivant soit envoyé, pour les autres erreurs, reportez-vous à un administrateur ayant une connaissance de la résolution des problèmes Exchange.  <br><br>  L’état de la connexion (indiquant que l’application est connectée) s’affiche de façon correcte ou incorrecte. Si l'état est Défectueux, envoyez un technicien pour examiner le problème de plus près. |
+| 3000  <br> Information | Cet événement vérifie qu’une vérification matérielle s’est produite et qu’elle est saine. Toutes les cinq minutes qu’une équipe Microsoft teams vérifie que les composants matériels configurés tels que l’affichage de la salle, le micro, les haut-parleurs et la caméra sont connectés et opérationnels. Si tous les composants sont sains, il écrit EventID 3000 dans le journal des événements. Cet événement est écrit toutes les cinq minutes, sauf s’il y a un problème avec un appareil connecté.  <br> | {"Description" : "HardwareCheckEngine est sain.", "ResourceState" : "sain", "NomOpération" : "HardwareCheckEngine", "OperationResult" : "réussite", "système d’exploitation" : "Windows 10", "" : "10.0.14393.693", "alias" :<span></span>"alias @contoso. com", "DisplayName" : "nom d’affichage", "", "", ""  <br><br> Dans cet exemple, tous les contrôles du matériel ont réussi. S’il y a eu des erreurs, l’application enregistre l’ID d’événement 3001 à la place. |
+| 3001  <br> Événement d’erreur  | Il s'agit d'un événement d'erreur de matériel. L’application Microsoft teams salles dispose d’un processus qui vérifie l’état des composants matériels connectés (avant la salle, le micro, le haut-parleur, l’appareil photo) toutes les 5 minutes. Si un ou plusieurs des composants sont défectueux, il écrit EventID 3001 dans le journal des événements. Cet événement est écrit toutes les cinq minutes jusqu’à ce que le problème lié à l’appareil soit résolu.   | {"Description" : " **État d’affichage de la salle" : mauvais état.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. État de l’appareil photo : sain. "," ResourceState " :" insalubrité "," NomOpération " :" HardwareCheckEngine "," OperationResult " :" fail "," OS " :" Windows 10 "," OSVersion " :" 10.0.14393.1198 "," alias " :<span></span>" alias @contoso. com "," DisplayName "," "," "," "," "," "," "," 10.10.10.10 " <br><br>  Les périphériques matériels sont indiqués comme étant sains ou défectueux. <br> Dans cet exemple, deux écrans à l'avant de la salle sont connectés et aucun des deux n'est disponible actuellement. Le statut du microphone de la Conférence est défectueux, ce qui peut avoir plusieurs causes possibles. Étant donné que la dernière ressource n'a pas réussi le contrôle, l'état de celle-ci est indiqué comme étant Défectueux. Envoyez un technicien pour examiner le problème de plus près. |
+| 4000  <br> Information  <br> | Il s'agit d'un événement de redémarrage de l'application. À chaque redémarrage de l'application, elle enregistre cet événement dans le journal des événements Windows.  <br> | {"Description" : "redémarrages de l’application", "ResourceState" : "sain", "NomOpération" : "Restart", "OperationResult" : "Pass", "OS" : "Windows 10", "OSVersion", "10.0.14393.693", "alias"<span></span>: "alias @domain. com", "DisplayName" : "nom complet", "", "", "", "" <br><br> L’application risque de redémarrer pour différentes raisons. Comparez la fréquence de redémarrage des appareils au même bâtiment et dans différents immeubles. Gardez à l’esprit que les problèmes connus tels que les fluctuations de puissance et les échecs de l’infrastructure.|
+
+## <a name="see-also"></a>Voir aussi
+ 
+
+[Planifier la gestion des salles de Microsoft teams avec Azure Monitor](azure-monitor-plan.md)
+
+[Déploiement de la gestion de salles de Microsoft teams avec Azure Monitor](azure-monitor-deploy.md)
