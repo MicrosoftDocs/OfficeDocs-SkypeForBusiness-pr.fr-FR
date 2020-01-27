@@ -18,61 +18,61 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'En savoir plus sur ce que votre système téléphonique peut faire pour vous. '
-ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+description: En savoir plus sur ce que votre système téléphonique peut faire pour vous.
+ms.openlocfilehash: 78183c8b72af3ab713bea4b10ded4033f667ef1d
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069395"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554211"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Système téléphonique dans Office 365
 
-Le **système téléphonique** est la technologie Microsoft permettant d’activer le contrôle d’appel et les fonctionnalités PBX dans le cloud Office 365 avec Skype entreprise Online et Microsoft Teams. Le système téléphonique vous permet de remplacer votre système PBX existant par un ensemble de fonctionnalités fournies par Office 365 qui est étroitement intégré à votre environnement Cloud. Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md).
-  
-Grâce au système téléphonique, les utilisateurs peuvent utiliser Skype entreprise Online et Microsoft teams pour passer et recevoir des appels, transférer des appels, activer ou désactiver les appels. Utilisateurs du système téléphonique vous pouvez cliquer sur un nom dans le carnet d’adresses, et Skype entreprise ou Microsoft teams appelle cette personne. Pour passer et recevoir des appels, les utilisateurs du système téléphonique peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP compatibles avec Skype entreprise et Microsoft Teams. Les administrateurs de système téléphonique peuvent gérer les options d’appel et les paramètres à partir de la même console utilisée pour la messagerie, la collaboration, etc.
-  
-Avec les systèmes PBX traditionnels, les appels entre les utilisateurs de votre organisation sont gérés en interne au sein du système téléphonique et ne sont jamais dirigés vers PSTN. Cela concerne les appels entre les utilisateurs de votre organisation qui se trouvent dans des zones géographiques différentes, en supprimant les coûts de grande distance de ces appels internes.
-  
-Pour activer les appels vers des téléphones fixes et mobiles, le système téléphonique peut être connecté au RTC de l’une des deux manières suivantes :
-  
-- Acheter une offre d’appels (domestique ou nationale et internationale) pour Office 365. Voir le [système téléphonique et les offres d’appels](calling-plan-landing-page.md)
+Un système PBX (Private Branch Exchange) est un système téléphonique au sein d’une entreprise. Le système téléphonique dans Office 365 offre des fonctionnalités PBX, mais sans l’équipement compliqué et difficile. 
 
-- Utiliser une connectivité PSTN locale, où les logiciels en local se connectent à votre infrastructure de téléphonie existante. Voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Le système téléphonique vous permet de remplacer votre système PBX local existant par un ensemble de fonctionnalités fournies par Office 365 qui est étroitement intégré à votre environnement Cloud. Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md).
 
-## <a name="more-about-calling-plans"></a>En savoir plus sur les offres d’appels
+## <a name="phone-system-technology"></a>Technologie du système téléphonique
 
-L’utilisation d’un module complémentaire de plan d’appel au téléphone dans Office 365 permet une connectivité PSTN pour les appels vers des téléphones fixes et mobiles dans le monde entier (en fonction du niveau de service sous licence). Vos utilisateurs sont hébergés dans le Cloud et activés pour le système téléphonique avec le module complémentaire Plan d’appel fourni par Microsoft. Les plans d’appel ne nécessitent pas de déploiement local du serveur. Les plans d’appel fonctionnent uniquement avec le système téléphonique dans Office 365, et vous ne pouvez pas utiliser d’offres d’appels avec un autre système PBX.
-
-![Diagramme topologique montrant le PBX Cloud avec la fonction d’appel RTC](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
-
-Étant donné que les offres d’appels fonctionnent dans Office 365, il s’agit d’une offre tout-Cloud qui ne nécessite pas de déploiement local du serveur. Vous avez le choix d’utiliser un plan d’appels nationaux ou internationaux, qui est attribué à chaque utilisateur à qui vous voulez passer des appels. [Vous voulez en savoir plus ?](calling-plan-landing-page.md)
+Le système téléphonique permet le contrôle des appels et des fonctionnalités PBX dans le Cloud Office 365 avec Microsoft teams et Skype entreprise online. 
   
-Les utilisateurs hébergés dans Skype entreprise Online ou Microsoft teams dans Office 365 ont accès aux services vocaux Office 365. Microsoft fournit à la fois des services d’appels et RTC, et peut même fournir ou transférer les numéros de téléphone de vos utilisateurs.
+Grâce au système téléphonique, les utilisateurs peuvent utiliser teams ou Skype entreprise Online pour passer et recevoir des appels, transférer des appels, activer ou désactiver les appels. Utilisateurs du système téléphonique vous pouvez cliquer sur un nom dans le carnet d’adresses, puis placer les équipes ou les appels Skype entreprise Online de cette personne. Pour passer et recevoir des appels, les utilisateurs du système téléphonique peuvent utiliser leurs appareils mobiles, un casque avec un ordinateur portable ou un PC, ou l’un des nombreux téléphones IP compatibles avec teams et Skype entreprise online. Les administrateurs de système téléphonique peuvent gérer les options d’appel et les paramètres à partir de la même console utilisée pour la messagerie, la collaboration, etc.
   
-Les forfaits d’appels dans Office 365 vous permettent de rechercher, d’acquérir et d’affecter des numéros de téléphone aux utilisateurs de votre organisation afin que les utilisateurs puissent passer et recevoir des appels téléphoniques avec des personnes internes et externes à votre organisation.
+Les appels entre les utilisateurs de votre organisation sont gérés en interne au sein du système téléphonique et ne sont jamais dirigés vers le réseau téléphonique public commuté (RTC). Cela concerne les appels entre les utilisateurs de votre organisation qui se trouvent dans des zones géographiques différentes, en supprimant les coûts de grande distance de ces appels internes.
+
+Pour les appels hors de votre organisation, Microsoft fournit plusieurs options pour connecter le système téléphonique au réseau téléphonique public commuté (RTC).
+
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Se connecter au réseau téléphonique public commuté (RTC)
   
-Tout type d’entreprise utilisez un numéro de téléphone qui permet aux utilisateurs d’envoyer et de recevoir des appels vocaux est une condition importante pour les entreprises. Les numéros de téléphone sont souvent utilisés pour identifier les utilisateurs et permettre la communication entre organisations. Les utilisateurs disposant de numéros de téléphone peuvent effectuer des appels vocaux sur tous les appareils Skype entreprise et Microsoft Teams, y compris les téléphones VoIP, les PC et les appareils mobiles.
+Le système téléphonique peut être connecté au RTC de l’une des deux manières suivantes :
+  
+- Achetez un forfait d’appels Microsoft (national ou national et international) pour Office 365. Le forfait d’appel Microsoft est une solution tout-en-un-Cloud avec Microsoft comme opérateur PSTN. Pour plus d’informations, consultez la section [système téléphonique et forfaits d’appels](calling-plan-landing-page.md).
 
-Les offres d’appels (nationales et internationales) sont disponibles dans des régions géographiques spécifiques mais en augmentation. Vérifiez la [disponibilité](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) dans votre pays ou région.
+- Utilisez votre infrastructure de téléphonie existante pour une connectivité PSTN locale.
 
-**Êtes-vous prêt à commencer ?**  Pour configurer vos plans d’appel pour vos utilisateurs, consultez la rubrique [configurer les offres d’appels](set-up-calling-plans.md).  
+  Pour les utilisateurs de Microsoft Teams, vous pouvez connecter votre infrastructure de téléphonie locale au système téléphonique en utilisant le routage direct. Pour plus d’informations, voir [routage direct du système téléphonique](direct-routing-landing-page.md).
+
+  Pour plus d’informations sur toutes les solutions de téléphonie Microsoft, voir [solutions de téléphonie Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## <a name="phone-system-with-services"></a>Système téléphonique avec services
 
- Le système téléphonique peut également être utilisé pour les services et la boîte vocale :
+ Le système téléphonique peut être utilisé pour les services et la messagerie vocale, par exemple :
 
-- **Standards automatiques**  Système téléphonique dans Office 365 les standards automatiques peuvent être utilisés pour créer un système de menus pour votre organisation, qui permet aux appelants externes et internes de se déplacer dans un système de menu afin de localiser et de transférer les appels vers des utilisateurs ou services de la société au sein de votre organisation. Voir [qu’est-ce que les standards automatiques Cloud ?](what-are-phone-system-auto-attendants.md)
+- **Standards automatiques** : les standards automatiques peuvent être utilisés pour créer un système de menus pour votre organisation, qui permet aux appelants externes et internes de se déplacer dans le système pour localiser et transférer des appels vers des utilisateurs ou services de l’entreprise au sein de votre organisation. Voir [qu’est-ce que les standards automatiques Cloud ?](what-are-phone-system-auto-attendants.md)
 
-- **Files d’attente d’appels**  Grâce au système téléphonique, vous pouvez créer des messages d’accueil de la file d’attente qui sont utilisés lorsque quelqu’un vous appelle pour appeler un numéro de téléphone pour votre organisation. Cela inclut la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui appellent écoutent de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation. Voir [créer une file d’attente des appels Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Files d’attente** d’appels : les messages d’accueil de la file d’attente peuvent être utilisés lorsque quelqu’un appelle un numéro de téléphone pour votre organisation. Ces messages d’accueil incluent la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher le prochain agent d’appel disponible pour gérer l’appel alors que les personnes qui appellent écoutent de la musique pendant l’attente. Vous pouvez créer des files d’attente d’appels uniques ou multiples pour votre organisation. Voir [créer une file d’attente des appels Cloud](create-a-phone-system-call-queue.md).
 
-- Boîte **vocale** Lorsque vous disposez d’une licence de système téléphonique pour un utilisateur, celui-ci est en mesure d’obtenir la boîte vocale qui a été laissée par les appelants. Le message vocal Cloud est configuré automatiquement et approvisionné pour les utilisateurs lorsque vous attribuez une licence de système téléphonique et un numéro de téléphone. Voir [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
+- Boîte **vocale** : lorsque vous disposez d’une licence de système téléphonique pour un utilisateur, celui-ci est en mesure d’obtenir la boîte vocale laissée par les appelants. Le message vocal Cloud est configuré automatiquement et approvisionné pour les utilisateurs lorsque vous attribuez une licence de système téléphonique et un numéro de téléphone. Voir [configurer la messagerie vocale Cloud](set-up-phone-system-voicemail.md).
 
-Si vous êtes prêt à commencer, reportez-vous à [configuration du système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
+Pour plus d’informations sur les fonctionnalités, voir [Voici ce que vous pouvez obtenir avec le système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md). Si vous êtes prêt à commencer, reportez-vous à [la rubrique Configuration de système téléphonique au sein de votre organisation](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Voir aussi
 
+- [Fonctionnalités du système téléphonique](here-s-what-you-get-with-phone-system.md)
+- [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)
+- [Configurer le système téléphonique](setting-up-your-phone-system.md)
+- [Quelle forfait d’appels vous convient le mieux ?](calling-plan-landing-page.md)
+- [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 - [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-- [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Différents types de numéros de téléphone utilisés pour les appels d’offre](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Obtention des téléphones pour Skype Entreprise Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
+

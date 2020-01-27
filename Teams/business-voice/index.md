@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Téléphonie Microsoft 365 pour les PME
 description: Découvrez comment planifier, déployer et utiliser Téléphonie Microsoft 365 pour les PME.
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972335"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268680"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Ressources pour Téléphonie Microsoft 365 pour les PME</h1>
-        <P>Découvrez comment planifier, configurer et utiliser Téléphonie Microsoft 365 pour les PME au sein de votre organisation. Téléphonie pour les PME permet aux petites et moyennes entreprises de configurer facilement un système téléphonique souple et performant en évitant les frais et la complexité liés aux solutions internes. </p>
+        <P>Découvrez comment planifier, configurer et utiliser Téléphonie Microsoft 365 pour les PME au sein de votre organisation. Téléphonie pour les PME permet aux petites et moyennes entreprises de configurer facilement un système téléphonique souple et performant en évitant les frais et la complexité liés aux solutions internes.</p>
         <P></p>
         <ul class="pivots">
             <li>

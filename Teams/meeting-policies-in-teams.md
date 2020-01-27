@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120395"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554341"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
@@ -105,10 +105,10 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal.
 
 ![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>Autoriser la conférence privée
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  
+
 
 ### <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
@@ -140,7 +140,6 @@ Remarque : Si vous désactivez l’option **autoriser la planification de réun
 - [Autoriser l’enregistrement Cloud](#allow-cloud-recording)
 - [Autoriser la vidéo sur IP](#allow-ip-video)
 - [Taux d’échantillonnage du support (Ko)](#media-bit-rate-kbs)
-- [Activer les légendes dynamiques (Preview)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Autoriser la transcription
 
@@ -197,20 +196,6 @@ S’il n’y a pas assez de bande passante pour une réunion, un message s’aff
 
 Pour les réunions qui ont besoin d’une vidéo de qualité optimale, telle que les réunions du tableau PDG et les événements en direct, nous vous conseillons de définir une bande passante de 10 Mbps. Même si l’expérience maximale est définie, la pile multimédia de teams s’adapte à des conditions de bande passante insuffisantes lorsque certaines conditions réseau sont détectées, en fonction du scénario. 
 
-### <a name="enable-live-captions-preview"></a>Activer les légendes dynamiques (Preview)
-
-Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une réunion. Ce paramètre détermine si l’option **activer les légendes dynamiques** est disponible pour permettre à l’utilisateur d’activer et de désactiver les légendes dynamiques lors des réunions que l’utilisateur attend.  
-
-![Capture d’écran montrant l’option Activer les légendes dynamiques](media/meeting-policies-live-captions.png)
-
-|Définition de la valeur |Comportement  |
-|---------|---------|
-|**Désactivé et l’utilisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement (**...**) pour l’activer. Il s’agit du paramètre par défaut. |
-|**Désactivé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur ne dispose pas de l’option pour l’activer.          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de la stratégie de réunion-partage de contenu
 
 - [Mode de partage d’écran](#screen-sharing-mode)
@@ -219,7 +204,6 @@ Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une
 - [Autoriser le partage PowerPoint](#allow-powerpoint-sharing)
 - [Autoriser le tableau blanc](#allow-whiteboard)
 - [Autoriser les notes partagées](#allow-shared-notes)
-- [Autoriser la discussion en réunion (bientôt disponible)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>Mode de partage d’écran
 
@@ -320,19 +304,16 @@ Examinons l’exemple suivant.
 
 Daniela peut prendre des notes dans les réunions d’Amanda et qu’Amanda ne peut prendre des notes pendant une réunion.
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>Autoriser la discussion en réunion (bientôt disponible)
-
-Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur. 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>Paramètres de la stratégie de réunion-participants & invités
 
 Ces paramètres contrôlent les participants à la réunion qui attendent dans la salle d’attente avant d’être admis à la réunion et le niveau de participation qui leur est accordé lors d’une réunion.
 
 - [Admettre automatiquement des personnes](#automatically-admit-people)
 - [Autoriser les personnes anonymes à commencer une réunion](#allow-anonymous-people-to-start-a-meeting)
-- [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby)
+- [Autoriser la conférence privée](#allow-private-meet-now)
+- [Activer les légendes dynamiques](#enable-live-captions)
+- [Autoriser la discussion dans les réunions](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Les options de participation à une réunion varient en fonction des paramètres de chaque groupe équipes et de la méthode de connexion. Si votre groupe comporte une audioconférence et qu’elle est utilisée pour se connecter, voir [audioconférence dans Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si ce n’est pas le cas, reportez-vous à la rubrique [participer à une réunion dans teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -379,7 +360,7 @@ Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lor
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
 |   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>Autorisez les utilisateurs rendez-vous à ignorer la salle d’attente (bientôt disponible)
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
 Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** .
 
@@ -394,6 +375,29 @@ Voici le comportement de participation des personnes qui se connectent par tél�
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
 |   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
+### <a name="allow-private-meet-now"></a>Autoriser la conférence privée
+
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc. 
+
+### <a name="enable-live-captions"></a>Activer les légendes dynamiques
+
+Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une réunion. Ce paramètre détermine si l’option **activer les légendes dynamiques** est disponible pour permettre à l’utilisateur d’activer et de désactiver les légendes dynamiques lors des réunions que l’utilisateur attend.  
+
+![Capture d’écran montrant l’option Activer les légendes dynamiques](media/meeting-policies-live-captions.png)
+
+|Définition de la valeur |Comportement  |
+|---------|---------|
+|**Désactivé et l’utilisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement (**...**) pour l’activer. Il s’agit du paramètre par défaut. |
+|**Désactivé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur ne dispose pas de l’option pour l’activer.          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>Autoriser la discussion dans les réunions
+
+Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur. 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Voir aussi
 [Stratégies de messagerie dans teams](messaging-policies-in-teams.md)

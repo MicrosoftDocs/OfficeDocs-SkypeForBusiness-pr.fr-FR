@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871690"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554221"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gérer l’offre d’essai du cloud commercial Microsoft Teams
 =======================================================
 
-L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation. 
+L’essai du cloud commercial Microsoft Teams offre aux utilisateurs d’Office 365 de votre entreprise qui ne sont pas titulaires d’une licence Microsoft Teams la possibilité de bénéficier d’une période d’évaluation d’un an du produit. Les administrateurs peuvent activer ou désactiver cette fonctionnalité pour les utilisateurs de leur organisation.
 
 > [!IMPORTANT]
 > L’essai du cloud commercial Microsoft Teams est remplacée par Microsoft Teams exploratoire à partir du 2020 janvier. Pour en savoir plus sur cette nouvelle offre, consultez [Gérer la licence exploratoire Teams](teams-exploratory.md).
@@ -78,13 +78,13 @@ Les administrateurs peuvent désactiver la possibilité pour les utilisateurs fi
 
 Vous pouvez désactiver la possibilité pour un utilisateur d’installer des applications et services à l’essai.
 
-1. Dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home), accédez à **Paramètres** > **Services et compléments** > **Applications et services propriétaires**.
+1. Dans le [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home), accédez à **Paramètres** > **Paramètres**, sélectionnez **Services**, puis choisissez **Services et applications propriétés de l'utilisateur**.
 
-    ![Capture d’écran de la page Services et compléments dans le Centre d’administration](media/iw-trial-enable-1.png)
+    ![Capture d’écran de la page Services dans le Centre d’administration](media/iw-trial-services.png)
 
-2. Désactivez **Laisser les utilisateurs installer les applications et services à l’essai**.
+2. Désactivez la cache à cocher **Permettre aux utilisateurs d'installer les applications et services à l’essai**.
 
-    ![Capture d’écran de la page des applications et services appartenant à l’utilisateur dans le Centre d’administration](media/iw-trial-enable-2.png)
+    ![Capture d’écran de la page des applications et services appartenant à l’utilisateur dans le Centre d’administration](media/iw-trial-user-owned-apps-services.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Gérer la disponibilité d’une version d’évaluation pour un utilisateur disposant d’une licence incluant Teams
@@ -119,8 +119,8 @@ Pour désactiver la licence d’évaluation :
 
     ![Capture d’écran du paramètre de licence d’évaluation de Teams dans le volet Licences](media/iW-trial-enable-4.png)
     
->[!Note]
->Le bouton bascule de Version d’évaluation de Microsoft Teams apparaît une fois que le premier utilisateur s’est inscrit à l’évaluation dans l’organisation.
+    >[!Note]
+    >Le bouton bascule de Version d’évaluation de Microsoft Teams apparaît une fois que le premier utilisateur s’est inscrit à l’évaluation dans l’organisation.
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Gérer Teams pour les utilisateurs qui possèdent la licence d’évaluation
 

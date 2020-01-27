@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Résumé : Découvrez comment préparer votre domaine Active Directory pour l’installation de Skype entreprise Server. Télécharger une version d’évaluation gratuite de Skype entreprise Server à partir du centre d’évaluation https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft pour :.'
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000884"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554051"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Préparer Active Directory pour Skype entreprise Server
  
@@ -35,7 +35,7 @@ Skype entreprise Server fonctionne étroitement avec Active Directory. Vous deve
 Skype entreprise Server est étroitement intégré avec les services de domaine Active Directory (AD DS). Pour que Skype entreprise Server puisse être installé pour la première fois, Active Directory doit être préparé. Section de l’Assistant Déploiement intitulée **Préparer Active Directory** prépare l’environnement Active Directory pour une utilisation avec Skype entreprise Server.
   
 > [!NOTE]
-> Skype entreprise Server utilise (AD DS) pour suivre et communiquer avec tous les serveurs d’une topologie. Chaque serveur doit être joint au domaine de sorte que Skype entreprise Server puisse fonctionner correctement. 
+> Skype entreprise Server utilise (AD DS) pour suivre et communiquer avec tous les serveurs d’une topologie. La plupart de ces serveurs doivent être joints au domaine de sorte que Skype entreprise Server puisse fonctionner correctement. Gardez à l’esprit que les serveurs tels que Edge ou proxy inverse ne doivent pas être joints au domaine.
   
 > [!IMPORTANT]
 > La procédure Préparer Active Directory ne doit être effectuée qu’une seule fois pour chaque domaine du déploiement. 
