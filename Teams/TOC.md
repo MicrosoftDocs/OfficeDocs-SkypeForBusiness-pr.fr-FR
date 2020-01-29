@@ -692,6 +692,7 @@
 ### [Installer Teams avec MSI](msi-deployment.md)
 ### [Activer Teams dans votre organisation](Office-365-set-up.md)
 ### [Fichiers et dossiers Teams à exclure de l’analyse antivirus](teams-files-folders-antivirus-perf.md)
+### [Utilisation de la mémoire par Microsoft Teams](teams-memory-usage-perf.md)
 ### [URL et plages d’adresses IP Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams pour une infrastructure bureau virtualisée(VDI)](teams-for-vdi.md)
 ### [Déployer Teams pour Surface Hub](teams-surface-hub.md)
