@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Pour en savoir plus sur la gestion des salles de Microsoft Teams, reportez-vous à la rubrique nouvelle génération de systèmes de salle Skype.
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268914"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628660"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Maintenance et opérations des salles de Microsoft teams 
  
@@ -61,9 +61,9 @@ Le tableau suivant récapitule les opérations distantes possibles et les métho
 
 |Groupe de travail |Aucun domaine joint|Domaine joint|
 |:-----|:-----|:-----|
-|Redémarrer  <br/> |Bureau distant  <br/> Powershell distant  <br/> |Bureau à distance (nécessite une configuration supplémentaire)  <br/> PowerShell distant (nécessite une configuration supplémentaire)  <br/> SCCM  <br/> |
+|Redémarrer  <br/> |Bureau distant  <br/> Powershell distant  <br/> |Bureau à distance (nécessite une configuration supplémentaire)  <br/> PowerShell distant (nécessite une configuration supplémentaire)  <br/> Configuration Manager  <br/> |
 |Mise à jour du SE  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|Mise à jour de l';application  <br/> |	Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
+|Mise à jour de l';application  <br/> |	Windows Store  <br/> |	Windows Store  <br/> Configuration Manager  <br/> |
 |Configuration du compte Skype  <br/> |Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
 |Accès aux journaux  <br/> |	Actuellement pas pris en charge  <br/> |	Actuellement pas pris en charge  <br/> |
    
@@ -166,7 +166,7 @@ Par défaut, Microsoft teams services tente de se connecter au Windows Store pou
   
 Par défaut, Microsoft teams se connecte à Windows Update pour extraire les mises à jour du microprogramme du système d’exploitation et du périphérique USB, et les installe en dehors des heures d’activité configurées. Vous pouvez configurer les heures d’ouverture en vous connectant au compte administrateur et en exécutant l’application Paramètres.
   
-Si vous souhaitez gérer les mises à jour manuellement et ne parvenez pas à suivre les procédures normales de la [Boutique Microsoft pour les entreprises](https://businessstore.microsoft.com/store) afin de [distribuer des applications hors connexion](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), vous pouvez acquérir le fichier AppX approprié et les dépendances du [Kit de déploiement](https://go.microsoft.com/fwlink/?linkid=851168) (consultez les instructions de [configuration d’une console Microsoft teams](console.md)) qui peuvent être utilisées avec SCCM. Le kit de déploiement est en retard sur le Windows Store, il se peut donc que la version ne corresponde pas toujours à la version la plus récente.
+Si vous souhaitez gérer les mises à jour manuellement et ne parvenez pas à suivre les procédures normales de la [Boutique Microsoft pour les entreprises](https://businessstore.microsoft.com/store) afin de [distribuer des applications hors connexion](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), vous pouvez acquérir le fichier AppX approprié et les dépendances du [Kit de déploiement](https://go.microsoft.com/fwlink/?linkid=851168) (consultez les instructions de [configuration d’une console Microsoft teams](console.md)) qui peuvent être utilisées avec Configuration Manager. Le kit de déploiement est en retard sur le Windows Store, il se peut donc que la version ne corresponde pas toujours à la version la plus récente.
   
 ### <a name="to-update-using-powershell"></a>Pour effectuer une mise à jour à l’aide de PowerShell
 

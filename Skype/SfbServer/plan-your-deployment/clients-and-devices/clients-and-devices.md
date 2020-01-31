@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : clients et applications pris en charge pour Skype Entreprise.'
-ms.openlocfilehash: bda5ca2a9694b87e3bc8a6684770e7efcfc224d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1ee70e39595d5891736dcd4e4830a9a7ef67213
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277439"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628270"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier des clients et des appareils
 
@@ -91,26 +91,26 @@ Si votre organisation a acheté les licences appropriées, choisissez le client 
 
 Vos utilisateurs peuvent installer le client pour eux-mêmes depuis [Télécharger Skype entreprise sur tous vos appareils](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). Le client est également installé quand les utilisateurs installent Office 365 sur Windows. Si certains de vos utilisateurs disposent d’un Mac, ils disposeront d’un ensemble de fonctionnalités différent tel qu’il est décrit dans les sections précédentes.
 
-Certaines fonctions disponibles avec Skype entreprise Server 2015 ne sont pas disponibles dans Skype entreprise Online ou Skype entreprise Server 2019, voir [limitations de compte d’utilisateur en ligne ou hybride pour 2015](desktop-feature-comparison.md#Online-Hybrid) ou les [limitations de compte d’utilisateur en ligne et hybride pour 2019 ](desktop-feature-comparison.md#Online-Hybrid)pour des spécificités. Les administrateurs de Skype entreprise Online peuvent consulter la rubrique [Description du service Skype entreprise Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) pour plus d’informations sur les différentes offres disponibles.
+Certaines fonctions disponibles avec Skype entreprise Server 2015 ne sont pas disponibles dans Skype entreprise Online ou dans Skype entreprise Server 2019, voir [limitations de compte d’utilisateur en ligne ou hybride pour 2015](desktop-feature-comparison.md#Online-Hybrid) ou les [limitations de compte d’utilisateur en ligne et hybride pour 2019](desktop-feature-comparison.md#Online-Hybrid) pour des spécificités. Les administrateurs de Skype entreprise Online peuvent consulter la rubrique [Description du service Skype entreprise Online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) pour plus d’informations sur les différentes offres disponibles.
 
  Avant de déployer ou de procéder à la mise à niveau vers Skype entreprise, vérifiez quels clients sont déjà utilisés au sein de votre organisation. Utilisez la [fonction de comparaison de clients de bureau pour Skype entreprise](desktop-feature-comparison.md) pour comprendre l’impact du support technique sur ces clients. Cela peut vous aider à communiquer les modifications aux utilisateurs, opérer le processus de déploiement et bien comprendre les avantages de la mise à niveau vers le dernier client.
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>Méthodes de déploiement du client pour vos utilisateurs
 <a name="BK_User_Deploy"> </a>
 
-Les programmes d’installation de client sont disponibles pour les programmes d’installation de type MSI et démarrer en un clic. Le client Skype entreprise: la stratégie de maintenance peut affecter vos choix et vous devez donc comprendre les points suivants:
+Les programmes d’installation de client sont disponibles pour les programmes d’installation de type MSI et démarrer en un clic. Le client Skype entreprise : la stratégie de maintenance peut affecter vos choix et vous devez donc comprendre les points suivants :
 
 - En général, Skype entreprise n’ajoute pas de nouvelles fonctionnalités aux clients déjà disponibles
 
 - En général, Skype entreprise ne prévoit pas d’expédier de nouvelles fonctionnalités dans le MSI Skype entreprise après sa publication initiale. Les améliorations MSI entre chaque sortie concerneront principalement la qualité/sécurité.
 
-- Le programme d’installation «démarrer en un clic» de Skype entreprise 2019 est disponible dans le programme d’installation «démarrer en un clic» Skype entreprise.
+- Le programme d’installation « démarrer en un clic » de Skype entreprise 2019 est disponible dans le programme d’installation « démarrer en un clic » Skype entreprise.
 
 Vous pouvez effectuer un déploiement personnalisé du client comme décrit dans [personnaliser l’installation du client Windows dans Skype entreprise Server](../../deploy/deploy-clients/customize-windows-client-installation.md). Les méthodes d’installation sont décrites en détail dans la rubrique [déploiement de clients pour Skype entreprise Server](../../deploy/deploy-clients/deploy-clients.md)
 
 ### <a name="click-to-run"></a>Démarrer en un clic
 
-La technologie «démarrer en un clic» est une technologie de diffusion en continu et de virtualisation Microsoft qui vous permet d’installer et de mettre à jour des produits Office, dont Skype entreprise. Ces fonctionnalités de diffusion en continu et de virtualisation reposent sur les technologies de Microsoft Application Virtualization (App-V). Démarrer en un clic possède les avantages suivants :
+La technologie « démarrer en un clic » est une technologie de diffusion en continu et de virtualisation Microsoft qui vous permet d’installer et de mettre à jour des produits Office, dont Skype entreprise. Ces fonctionnalités de diffusion en continu et de virtualisation reposent sur les technologies de Microsoft Application Virtualization (App-V). Démarrer en un clic possède les avantages suivants :
 
 - Installation en flux continu de la suite Office induisant une durée d’installation courte
 
@@ -124,20 +124,20 @@ La technologie «démarrer en un clic» est une technologie de diffusion en cont
 
 Vous pouvez utiliser l' [outil déploiement d’Office](https://www.microsoft.com/en-us/download/details.aspx?id=49117) pour ce type de programme d’installation.
 
-Les versions de client de base et complètes (avec le choix de versions 32 et 64 bits) sont disponibles à l’aide d’un programme d’installation «démarrer en un clic», vos utilisateurs peuvent télécharger [Skype entreprise sur tous vos appareils](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3).
+Les versions de client de base et complètes (avec le choix de versions 32 et 64 bits) sont disponibles à l’aide d’un programme d’installation « démarrer en un clic », vos utilisateurs peuvent télécharger [Skype entreprise sur tous vos appareils](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3).
 
 ### <a name="msi"></a>MSI
 
-MSI est une méthode d’installation plus classique, utilisée sur les clients Skype entreprise 2015 et 2016. Elle vous permet d’installer manuellement les mises à jour et les correctifs, d’utiliser le programme de licence en volume et d’activation, et est personnalisable par le biais de l' [outil de personnalisation Office](https://www.microsoft.com/en-us/download/details.aspx?id=49030). Vous pouvez distribuer des clients en appliquant des stratégies de groupe, à l’aide de System Center Configuration Manager ou en utilisant un outil tiers.
+MSI est une méthode d’installation plus classique, utilisée sur les clients Skype entreprise 2015 et 2016. Elle vous permet d’installer manuellement les mises à jour et les correctifs, d’utiliser le programme de licence en volume et d’activation, et est personnalisable par le biais de l' [outil de personnalisation Office](https://www.microsoft.com/en-us/download/details.aspx?id=49030). Vous pouvez distribuer des clients en appliquant des stratégies de groupe, à l’aide du gestionnaire de configuration de points de terminaison Microsoft ou d’un outil tiers.
 
 
 
 ## <a name="legacy-clients"></a>Clients existants
 <a name="Legacy"> </a>
 
-Skype entreprise Server 2019 et Skype entreprise Online prennent en charge les clients suivants: Skype entreprise 2016, Skype entreprise 2015, Lync 2013.
+Skype entreprise Server 2019 et Skype entreprise Online prennent en charge les clients suivants : Skype entreprise 2016, Skype entreprise 2015, Lync 2013.
 
-Skype entreprise Server 2015 prend en charge les clients suivants: Lync 2013, Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les [tableaux de comparaison des clients pour Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) et les [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype entreprise Server 2015 prend en charge les clients suivants : Lync 2013, Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les [tableaux de comparaison des clients pour Lync server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) et les [tableaux de comparaison des clients pour Lync Server 2010](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Configuration requise pour le client

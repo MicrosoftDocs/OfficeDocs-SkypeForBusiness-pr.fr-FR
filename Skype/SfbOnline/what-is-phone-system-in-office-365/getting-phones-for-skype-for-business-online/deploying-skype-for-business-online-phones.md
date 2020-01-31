@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour des téléphones Skype entreprise online.
-ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10562165547a27bb8a2903e7f11f3c547cca1b1e
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432584"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628380"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -69,7 +69,7 @@ Check the firmware version on your phones. For:
 > [!NOTE]
 > Polycom firmware prior to 5.5.1.X had a manufacturer-specific device-lock mechanism that is replaced with a Skype for Business implementation "Phone-Lock." Upgrading a phone from 5.4.X.X that was secured with "Device-Lock" to 5.5.1.X with "Phone-Lock" won't inherit the PIN code from "Device-Lock," which can leave the phone unsecured. Users who have activated "Device-Lock" need to enable the following Polycom Device Profile parameter to give users control of time of upgrade (lync.deviceUpdate.popUpSK.enabled=1). 
   
-Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
+Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
   
 ![Capture d’écran montrant le déploiement de téléphones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -86,13 +86,13 @@ Vous pouvez également gérer les mises à jour du microprogramme à l'aide d'un
 > [!CAUTION]
 > Veillez à disposer d'une seule autorité de mise à jour pour l'appareil (mise à jour intrabande ou serveur de provisionnement tiers) pour éviter toute boucle de mise à jour. 
   
-### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>Étape 5: paramètres du téléphone de configuration et d’infrastructure
+### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>Étape 5 : paramètres du téléphone de configuration et d’infrastructure
 
-Vous pouvez configurer les options et stratégies téléphoniques les plus utilisées à l'aide d'applets de commande Windows PowerShell de gestion intrabande pour Skype Entreprise. Consultez le lien [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) pour plus de détails sur ces paramètres.
+Vous pouvez configurer les options et stratégies téléphoniques les plus utilisées à l'aide d'applets de commande Windows PowerShell de gestion intrabande pour Skype Entreprise. Consultez le lien [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) pour plus de détails sur ces paramètres.
   
 Pour la planification de l’infrastructure réseau, voir [infrastructure d’opérations Skype](https://www.skypeoperationsframework.com/).
   
-### <a name="step-6---preparing-for-users-to-sign-in"></a>Étape 6: préparation de la connexion des utilisateurs
+### <a name="step-6---preparing-for-users-to-sign-in"></a>Étape 6 : préparation de la connexion des utilisateurs
 
 To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
@@ -100,11 +100,11 @@ Pour en savoir plus sur les offres d’appel, consultez la documentation relativ
   
 - Les **options de connexion** disponibles pour les utilisateurs Online sont les suivantes :
     
-  - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront:
+  - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront :
     
      ![Capture d’écran montrant la connexion de téléphones Polycom](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
-  - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront:
+  - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront :
     
      ![Capture d’écran montrant la connexion de téléphones Yealink.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
@@ -126,21 +126,21 @@ Pour en savoir plus sur les offres d’appel, consultez la documentation relativ
   
 - **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
-  - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront:
+  - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront :
     
      ![Capture d’écran montrant les instructions Polycom](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
-  - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront:
+  - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront :
     
      ![Capture d’écran montrant les instructions de Yealink](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
-  - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront:
+  - Les utilisateurs de téléphones **Polycom VVX 5xx/6xx** verront :
     
      ![Capture d’écran montrant le code Polycom expiré](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
-  - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront:
+  - Les utilisateurs de téléphones **YEALINK VVX t48g/t46g verront** verront :
     
      ![Capture d’écran montrant le code Yealink expiré](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
@@ -152,7 +152,7 @@ Pour en savoir plus sur les offres d’appel, consultez la documentation relativ
     
      ![Capture d’écran montrant le code de saisie sur l’écran de connexion](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    Vérifiez que le site indique «[nom du fabricant du téléphone] **téléphone certifié Skype entreprise**» et cliquez sur **Continuer**.
+    Vérifiez que le site indique « [nom du fabricant du téléphone] **téléphone certifié Skype entreprise**» et cliquez sur **Continuer**.
     
      ![Capture d’écran montrant la vérification du nom](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
@@ -184,7 +184,7 @@ Pour en savoir plus sur les offres d’appel, consultez la documentation relativ
     
 - **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign the user out or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
     
-    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. Pour plus d’informations sur ces paramètres [, voir Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) .
+    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. Pour plus d’informations sur ces paramètres [, voir Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) .
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Étape 7 : si vous disposez du couplage d'appareil et de Better Together over Ethernet (BToE) (facultatif)
 <a name="BK_BTOE"> </a>
@@ -205,7 +205,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
     
      ![Capture d’écran montrant la connexion à un PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant disponible en cliquant sur les liens ci-dessous. Pour une expérience utilisateur optimale, vous pouvez distribuer et installer le logiciel BToE à l'aide d'une solution de distribution d'administrateur, telle que System Center Configuration Manager (SCCM). Pour obtenir de l'aide pour utiliser SCCM, reportez-vous à la page [Packages et programmes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant à partir des liens ci-dessous. Pour une meilleure expérience utilisateur, vous pouvez distribuer et installer le logiciel BToE à l’aide d’une solution de distribution d’administration telle que Microsoft Endpoint Configuration Manager. Pour obtenir de l’aide sur la Configuration Manager, voir [packages et programmes dans Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
     
    - [Site de téléchargement du logiciel BToE Polycom](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -213,7 +213,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
     
    - [Téléchargement du logiciel BToE pour AudioCodes](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. The server setting for BToE is set to **Enabled** and **Auto mode** by default. To change those settings, see [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+3. The server setting for BToE is set to **Enabled** and **Auto mode** by default. To change those settings, see [Set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx).
     
 > [!NOTE]
 > BToE n'est actuellement pas disponible sur les plates-formes Mac et VDI. 

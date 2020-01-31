@@ -1,5 +1,5 @@
 ---
-title: Déploiement de salles de Microsoft teams à l’aide de System Center Configuration Manager
+title: Déploiement de salles de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -30,18 +30,18 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: fe6ea140f15c5234117aabe6612e0190e47ddc4d
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268933"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628640"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Déploiement de salles de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager
 
-Cet article vous fournit toutes les informations nécessaires pour créer les déploiements de Microsoft Teams.
+Cet article vous donne accès à toutes les informations nécessaires pour créer vos déploiements Microsoft teams salle à l’aide de Microsoft Endpoint Configuration Manager.
 
-À l’aide des méthodes simples d’utilisation fournies par System Center Configuration Manager, vous pouvez déployer le système d’exploitation et d’autres applications sur plusieurs appareils cibles.
+Grâce aux méthodes simples à utiliser fournies par Configuration Manager, vous pouvez déployer le système d’exploitation et d’autres applications sur plusieurs appareils cibles.
 
 Utilisez l’approche illustrée ci-dessous pour vous guider dans votre configuration du gestionnaire de configuration et personnaliser les packages et les scripts fournis dans ces conseils selon les besoins de votre organisation.
 
@@ -54,17 +54,17 @@ Utilisez l’approche illustrée ci-dessous pour vous guider dans votre configur
 
 Pour déployer des salles Microsoft teams avec Configuration Manager, vérifiez que vous remplissez les conditions préalables et requises suivantes.
 
-### <a name="system-center-configuration-manager-requirements"></a>Configuration requise pour System Center Configuration Manager
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Configuration requise pour Microsoft Endpoint Manager
 
--   La version de System Center Configuration Manager doit être au minimum 1706 ou une version ultérieure. Nous vous recommandons d’utiliser 1710 ou une version ultérieure. Pour en savoir plus sur les versions de Windows 10 prises en charge par Configuration Manager, voir [prise en charge de Windows 10 dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) .
+-   La version de Microsoft Endpoint Manager doit être au minimum 1706 ou une version ultérieure. Nous vous recommandons d’utiliser 1710 ou une version ultérieure. Pour en savoir plus sur les versions de Windows 10 prises en charge par Configuration Manager, voir [prise en charge de Windows 10 dans Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) .
 
--   Une version prise en charge de kit de déploiement et d’évaluation Windows (ADK) pour Windows 10 doit être installée. Découvrez les versions de [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) que vous pouvez utiliser avec différentes versions de Configuration Manager et assurez-vous que votre déploiement inclut la version correcte.
+-   Une version prise en charge de kit de déploiement et d’évaluation Windows (ADK) pour Windows 10 doit être installée. Découvrez les versions de [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) que vous pouvez utiliser avec différentes versions de Configuration Manager et assurez-vous que votre déploiement inclut la version correcte.
 
--   Les serveurs de systèmes de site doivent avoir reçu le rôle de point de distribution et les images de démarrage doivent être activées pour la [prise en charge de l’environnement d’exécution prédémarrage (PXE)](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) pour permettre les déploiements initiés par le réseau. Si la prise en charge de PXE n’est pas activée, vous pouvez utiliser un [média amorçable](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) pour vos déploiements.
+-   Les serveurs de systèmes de site doivent avoir reçu le rôle de point de distribution et les images de démarrage doivent être activées pour la [prise en charge de l’environnement d’exécution prédémarrage (PXE)](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) pour permettre les déploiements initiés par le réseau. Si la prise en charge de PXE n’est pas activée, vous pouvez utiliser un [média amorçable](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) pour vos déploiements.
 
--   Un compte d’accès réseau doit être configuré pour prendre en charge les scénarios de déploiement de nouveaux ordinateurs (de matériel vierge). Pour en savoir plus sur la configuration d’un compte d’accès réseau, voir [gérer les comptes pour accéder au contenu dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+-   Un compte d’accès réseau doit être configuré pour prendre en charge les scénarios de déploiement de nouveaux ordinateurs (de matériel vierge). Pour en savoir plus sur la configuration d’un compte d’accès réseau, voir [comptes utilisés dans Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Nous vous recommandons d’activer la [prise en charge de la multidiffusion](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si vous déployez en même temps la même image dans plusieurs salles de Microsoft Teams.
+-   Nous vous recommandons d’activer la [prise en charge de la multidiffusion](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si vous déployez en même temps la même image dans plusieurs salles de Microsoft Teams.
 
 ### <a name="networking-requirements"></a>Configuration réseau requise
 
@@ -73,14 +73,14 @@ Pour déployer des salles Microsoft teams avec Configuration Manager, vérifiez 
     > [!NOTE]
     > La durée du bail DHCP doit être définie sur une valeur supérieure à la durée du déploiement d’image. Dans le cas contraire, le déploiement risque d’échouer.
 
--   Votre réseau, notamment les commutateurs et les réseaux locaux virtuels (VLAN), doit être configuré pour prendre en charge PXE. Pour plus d’informations sur l’assistance IP et la configuration PXE, reportez-vous à la rubrique fournisseur de votre réseau. Par ailleurs, vous pouvez utiliser un [média amorçable](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) pour vos déploiements si la prise en charge de PXE n’est pas activée.
+-   Votre réseau, notamment les commutateurs et les réseaux locaux virtuels (VLAN), doit être configuré pour prendre en charge PXE. Pour plus d’informations sur l’assistance IP et la configuration PXE, reportez-vous à la rubrique fournisseur de votre réseau. Par ailleurs, vous pouvez utiliser un [média amorçable](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) pour vos déploiements si la prise en charge de PXE n’est pas activée.
 
     > [!NOTE]
     > Pour les appareils surface Pro, le démarrage à partir du réseau (démarrage PXE) est uniquement pris en charge lorsque vous utilisez une carte Ethernet ou une station d’accueil de Microsoft. Les cartes Ethernet tierces ne prennent pas en charge le démarrage PXE avec surface Pro. Pour plus d’informations, reportez-vous à la rubrique [cartes Ethernet et déploiement de surface](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) .
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>Configurer System Center Configuration Manager pour le déploiement du système d’exploitation
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Configurer le gestionnaire de configuration de point de terminaison Microsoft pour le déploiement du système d’exploitation
 
-Cet article part du principe que vous disposez déjà d’un déploiement de System Center Configuration Manager correct et que vous n’avez pas d’informations détaillées sur les étapes nécessaires au déploiement et à la configuration de Configuration Manager à partir de zéro. La [documentation et les instructions de configuration](https://docs.microsoft.com/sccm/) de System Center Configuration Manager constituent une formidable ressource. Nous vous recommandons de commencer avec ces ressources si vous n’avez pas encore déployé Configuration Manager.
+Cet article part du principe que vous disposez déjà d’un déploiement bon du gestionnaire de configuration et que vous n’avez pas d’informations détaillées sur les étapes nécessaires au déploiement et à la configuration de Configuration Manager à partir de zéro. La [documentation et les instructions de configuration](https://docs.microsoft.com/configmgr/) de Microsoft Endpoint Configuration Manager constituent une formidable ressource. Nous vous recommandons de commencer avec ces ressources si vous n’avez pas encore déployé Configuration Manager.
 
 Utilisez les instructions suivantes pour vérifier que les fonctionnalités de déploiement du système d’exploitation sont correctement configurées.
 
@@ -90,7 +90,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 2.  Recherchez les mises à jour installées et applicables qui n’ont pas encore été installées.
 
-3.  Consultez la [prise en charge de Windows 10 dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client). Si vous devez mettre à niveau votre déploiement, sélectionnez la mise à jour que vous voulez installer, puis sélectionnez **Télécharger**.
+3.  Consultez la [prise en charge de Windows 10 dans Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); Si vous devez mettre à niveau votre déploiement, sélectionnez la mise à jour que vous voulez installer, puis sélectionnez **Télécharger**.
 
 4.  Une fois le téléchargement terminé, sélectionnez la mise à jour, puis cliquez sur **installer le Pack de mise à jour**.
 
@@ -118,7 +118,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 3.  Sélectionnez l’onglet **compte d’accès au réseau** . Configurez un ou plusieurs comptes, puis sélectionnez **OK**.
 
 > [!NOTE]
-> Les comptes n’ont pas besoin de droits spéciaux, à l’exception de l' **accès à cet ordinateur à partir du réseau** , directement sur le serveur du point de distribution. Un compte d’utilisateur de domaine générique est approprié. Pour plus d’informations, voir [gérer les comptes pour accéder au contenu dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+> Les comptes n’ont pas besoin de droits spéciaux, à l’exception de l' **accès à cet ordinateur à partir du réseau** , directement sur le serveur du point de distribution. Un compte d’utilisateur de domaine générique est approprié. Pour plus d’informations, consultez [comptes utilisés dans Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### <a name="configure-a-boot-image"></a>Configurer une image de démarrage
 
@@ -140,15 +140,15 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 6.  Lorsque vous y êtes invité, sélectionnez **Oui** et distribuez l’image de démarrage mise à jour aux points de distribution.
 
-Pour plus d’informations, voir [gérer les images de démarrage à l’aide de System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
+Pour plus d’informations, voir [gérer les images de démarrage avec Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images).
 
 > [!NOTE]
-> Vous pouvez créer un média USB amorçable pour lancer des déploiements de séquence de tâches de Configuration Manager pour les environnements n’ayant pas de prise en charge PXE. Le média amorçable contient uniquement l’image de démarrage, les commandes de prédémarrage facultatives et les fichiers requis, ainsi que les fichiers binaires de configuration pour la prise en charge du démarrage dans Windows PE et la connexion à Configuration Manager pour le reste du processus de déploiement. Pour plus d’informations, reportez-vous [à la rubrique Création d’un média amorçable](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
+> Vous pouvez créer un média USB amorçable pour lancer des déploiements de séquence de tâches de Configuration Manager pour les environnements n’ayant pas de prise en charge PXE. Le média amorçable contient uniquement l’image de démarrage, les commandes de prédémarrage facultatives et les fichiers requis, ainsi que les fichiers binaires de configuration pour la prise en charge du démarrage dans Windows PE et la connexion à Configuration Manager pour le reste du processus de déploiement. Pour plus d’informations, consultez [créer un média amorçable](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Créer des packages de Configuration Manager
 
 > [!IMPORTANT]
-> La version de système d’exploitation requise pour chaque version du programme d’installation de SRS change avec chaque version MSI. Pour déterminer la meilleure version du système d’exploitation pour un fichier MSI donné, exécutez le script de configuration de la console une seule fois. Pour plus d’informations, reportez-vous à la rubrique [déploiement de salles Microsoft teams à l’aide de System Center Configuration Manager](rooms-scale.md).
+> La version de système d’exploitation requise pour chaque version du programme d’installation de SRS change avec chaque version MSI. Pour déterminer la meilleure version du système d’exploitation pour un fichier MSI donné, exécutez le script de configuration de la console une seule fois. Pour en savoir plus, voir [déployer des salles de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager](rooms-scale.md).
 
 Configuration Manager nécessite un certain nombre de packages pour déployer et configurer les unités de salles de Microsoft Teams.
 
@@ -168,13 +168,13 @@ Vous avez besoin de créer et de configurer les packages suivants, puis de les d
 | Surface Pro                          | Package de pilotes         | Package pour les pilotes de périphériques et le microprogramme pour Microsoft surface Pro                     |
 | Surface Pro 4                        | Package de pilotes         | Package pour les pilotes de périphériques et le microprogramme pour Microsoft surface Pro 4                   |
 
-Pour plus d’informations, voir [packages et programmes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+Pour plus d’informations, voir [packages et programmes dans Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
 ### <a name="create-folders-for-the-package-source-files"></a>Créer des dossiers pour les fichiers source du package
 
 Configuration Manager exige que les fichiers sources du package soient organisés dans une structure de dossiers spécifique lors de leur création initiale et de leur mise à jour.
 
-Créez la structure de dossiers suivante dans le site d’administration centrale de System Center Configuration Manager ou le site principal, ou sur un partage de serveur que vous utilisez pour héberger les fichiers sources du package :
+Créez la structure de dossiers suivante dans le site d’administration centrale de Microsoft Endpoint Manager ou le site principal, ou sur un partage serveur que vous utilisez pour héberger les fichiers sources du package :
 
 -   SRS v2-package de l’agent de surveillance Microsoft
 -   Package de mise à jour de SRS v2-OS
@@ -486,7 +486,7 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 6.  Sélectionnez **Fermer**.
 
-Pour plus d’informations, voir [gérer les images du système d’exploitation à l’aide de System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
+Pour plus d’informations, voir [gérer les images du système d’exploitation avec Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images).
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Créer des packages de pilotes de périphériques de surface Pro
 
@@ -524,7 +524,7 @@ Les salles de Microsoft teams sont prises en charge pour surface Pro et surface 
 12. Déplacez tous les pilotes importés dans le dossier nouvellement créé pour faciliter la navigation et l’utilisation.
 
 > [!NOTE]
-> Répétez ces étapes pour les autres modèles surface Pro que vous avez peut-être. Pour plus d’informations, voir [gérer les pilotes dans System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+> Répétez ces étapes pour les autres modèles surface Pro que vous avez peut-être. Pour plus d’informations, voir [gérer les pilotes dans Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers).
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>Créer un package de configuration de Microsoft teams
 
@@ -591,7 +591,7 @@ Tous les packages doivent être distribués aux serveurs auxquels le rôle de po
 
 ## <a name="configuration-manager-task-sequences"></a>Séquences de tâches de Configuration Manager
 
-Vous utilisez les séquences de tâches avec System Center Configuration Manager pour automatiser les étapes de déploiement d’une image de système d’exploitation sur un ordinateur de destination. Pour déployer une unité de salle Microsoft teams de manière automatisée, vous devez créer une séquence de tâches qui fait référence à l’image de démarrage utilisée pour démarrer l’ordinateur de destination Microsoft Teams, l’image du système d’exploitation Windows 10 entreprise que vous voulez installer, et les autres autres contenus supplémentaires, tels que d’autres applications ou mises à jour logicielles.
+Les séquences de tâches à l’aide de Configuration Manager vous permettent d’automatiser la procédure de déploiement d’une image de système d’exploitation sur un ordinateur de destination. Pour déployer une unité de salle Microsoft teams de manière automatisée, vous devez créer une séquence de tâches qui fait référence à l’image de démarrage utilisée pour démarrer l’ordinateur de destination Microsoft Teams, l’image du système d’exploitation Windows 10 entreprise que vous voulez installer, et les autres autres contenus supplémentaires, tels que d’autres applications ou mises à jour logicielles.
 
 ### <a name="import-the-sample-task-sequence"></a>Importer la séquence de tâches d’exemple
 
@@ -708,9 +708,9 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 <a name="validate-and-troubleshoot-the-solution"></a>Valider et dépanner la solution
 --------------------------------------
 
-Une fois que vous avez terminé les séquences de tâches System Center Configuration Manager, vous devez effectuer une opération de test pour vérifier que la séquence de tâches peut déployer et configurer des unités de Microsoft Teams.
+Une fois que vous avez terminé les séquences de tâches Microsoft Endpoint Manager, vous devez effectuer une exécution de test pour vérifier que la séquence de tâches peut déployer et configurer des unités de Microsoft Teams.
 
-1.  Connectez l’appareil de test au réseau filaire en utilisant l’une des cartes Ethernet prises en charge ou à l’aide du Dock surface. Si la fonctionnalité de démarrage PXE n’a pas été configurée pour votre environnement, vous pouvez utiliser l’image de démarrage sur le lecteur flash USB [que vous avez créé précédemment](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) pour démarrer à partir de la clé USB et vous connecter à Configuration Manager.
+1.  Connectez l’appareil de test au réseau filaire en utilisant l’une des cartes Ethernet prises en charge ou à l’aide du Dock surface. Si la fonctionnalité de démarrage PXE n’a pas été configurée pour votre environnement, vous pouvez utiliser l’image de démarrage sur le lecteur flash USB [que vous avez créé précédemment](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) pour démarrer à partir de la clé USB et vous connecter à Configuration Manager.
 
 2.  Accédez au microprogramme et démarrez un démarrage PXE :
 
@@ -772,4 +772,4 @@ Pour résoudre les problèmes de démarrage PXE, recherchez dans les deux fichie
 
 -   **SMSPXE. log**, situé dans le répertoire des journaux du point de gestion de Configuration Manager
 
-Pour obtenir la liste complète des fichiers journaux que vous pouvez utiliser pour résoudre les problèmes de l’installation de votre gestionnaire de configuration, voir [fichiers journaux dans System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
+Pour obtenir la liste complète des fichiers journaux que vous pouvez utiliser pour résoudre les problèmes de votre installation du gestionnaire de configuration, consultez la [Référence du fichier journal](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)du gestionnaire de points de terminaison Microsoft.

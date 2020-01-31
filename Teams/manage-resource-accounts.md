@@ -1,7 +1,7 @@
 ---
 title: Gérer les comptes de ressource dans Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: En savoir plus sur la gestion des comptes de ressources dans Microsoft teams
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925465"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628360"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -107,24 +107,34 @@ Après avoir acheté une licence de système téléphonique, le centre d’admin
 
 ![Capture d’écran de la page comptes de ressources](media/r-a-master.png)
 
-![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/sfbcallout1.png)
+![Icône du numéro 1 qui référence une légende dans la capture d’écran précédente](media/teamscallout1.png)
 
-Pour créer un compte de ressource, cliquez sur **+ nouveau compte**. Dans la fenêtre qui s’affiche, indiquez le nom d’affichage et le nom d’utilisateur du compte de ressource (le nom de domaine doit remplir automatiquement), puis cliquez sur **Enregistrer**.
+Pour créer un compte de ressource, cliquez sur **+ Ajouter**. Dans la fenêtre qui s’affiche, indiquez le **nom d’affichage**, le nom **d’utilisateur** (le nom de domaine doit remplir automatiquement) et le **type de compte de ressources** pour le compte de ressource. Le type de compte de ressource peut être de type **standard automatique** ou **file d’attente d’appels** , en fonction de l’application que vous voulez associer au compte de ressources. Lorsque vous êtes prêt, cliquez sur **Enregistrer**.
 
 ![Capture d’écran des options de nouveau compte de ressources](media/res-acct.png)
 
 Ensuite, appliquez une licence au compte de ressources dans le centre d’administration O365, comme décrit dans la section [attribuer des licences aux utilisateurs dans Office 365 pour les entreprises](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) .
 
-### <a name="edit-resource-account-name"></a>Modifier le nom du compte de la ressource
+### <a name="edit-resource-account"></a>Modifier le compte de ressources 
 
-![Icône du numéro 2, qui référence une légende dans la capture d'](media/sfbcallout2.png) écran précédente, vous pouvez modifier le nom d’affichage du compte de la ressource à l’aide de l’option **modifier** . Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Icône du numéro 2, qui référence une légende dans la capture d'](media/teamscallout2.png) écran précédente, vous pouvez modifier le **nom d’affichage** du compte de ressources et le type de compte de **ressources** à l’aide de l’option **modifier** . Lorsque vous avez fin, cliquez sur **Enregistrer** .
+
 ![Capture d’écran de l’option modifier le compte de ressources](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Attribution/désaffectation des numéros de téléphone et services
 
-![Icône du numéro 3, qui référence une légende dans la capture d'](media/sfbcallout3.png) écran précédente une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour affecter un numéro de service au compte de ressource ou affecter la ressource compte vers une file d’attente d’appels ou un standard automatique qui existe déjà. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si la file d’attente d’appels ou le standard automatique doit toujours être créé, vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .
+![Icône du numéro 3, qui référence une légende dans la capture d'](media/teamscallout3.png) écran précédente une fois que vous avez créé le compte de ressources et attribué la licence, vous pouvez cliquer sur **affecter/annuler** pour attribuer un numéro de service au compte de ressource, définir le type de numéro de téléphone ou affecter le compte de ressource à un standard automatique ou une file d’attente d’appels existante. L’attribution d’un numéro d’acheminement direct peut être réalisé à l’aide d’une cmdlet uniquement. Si vous n’avez pas encore créé la file d’attente d’appels ou le standard automatique que vous allez associer au compte de ressources, laissez ce champ vide. Vous pouvez lier le compte de ressources lors de sa création. Lorsque vous avez fin, cliquez sur **Enregistrer** .
+
+Les options disponibles pour le **type de numéro de téléphone** sont les suivantes :
+
+- Aucun
+- Online
+- Numéro gratuit
+- Sur site
+
+![Capture d’écran des options d’attribution/de désaffectation](media/r-a-assign.png)
 
 Pour affecter un routage direct ou un numéro hybride à un compte de ressource, vous devez utiliser PowerShell, reportez-vous à la section suivante.
 
@@ -134,11 +144,11 @@ Pour affecter un routage direct ou un numéro hybride à un compte de ressource,
 > [!IMPORTANT]
 > Un numéro de téléphone n’est pas attribué directement au standard automatique ou à la file d’attente d’appels, mais plutôt au compte de ressources associé au standard automatique ou à la file d’attente d’appels.
 
-![Capture d’écran des options d’attribution/de désaffectation](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Modifier un compte de ressource existant pour utiliser une licence utilisateur virtuel
 
-Si vous décidez de basculer entre les licences sur votre compte de ressources existant d’une licence de système téléphonique vers une licence utilisateur virtuel, vous devez acquérir la licence utilisateur virtuel gratuite, puis suivre les étapes liées dans le centre d’administration Microsoft 365 pour [déplacer des utilisateurs vers un abonnement différent](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+Si vous décidez de basculer entre les licences sur votre compte de ressources existant d’une licence de système téléphonique vers une licence utilisateur virtuel, vous devez acquérir la licence utilisateur virtuel gratuite, puis suivre les étapes liées dans le centre d’administration Microsoft 365 pour [déplacer des utilisateurs vers un autre abonnement](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Supprimez toujours une licence de système téléphonique complet et attribuez-la à la licence utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications du compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressources risque de ne plus fonctionner comme prévu. Si tel est le cas, nous vous recommandons de créer un compte de ressources pour la licence d’utilisateur virtuel et de supprimer le compte de ressource endommagé. 
@@ -149,7 +159,7 @@ Selon que votre compte de ressources se trouve en ligne ou sur Skype entreprise 
 
 - Les exemples de cmdlets PowerShell suivants illustrent la création d’un compte de ressource hébergé en ligne à l’aide [de New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
 
-- Pour les comptes de ressources hébergés sur Skype entreprise Server 2019 qui peuvent être utilisés avec les files d’attente d’appels Cloud et les standards automatiques Cloud, voir [configurer des files d’attente d’appels](/skypeforbusiness/hybrid/configure-call-queue.md) Cloud ou [configurer les standards automatiques du Cloud](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Les implémentations hybrides (numéros hébergés sur le routage direct) utilisent [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
+- Pour les comptes de ressources hébergés sur Skype entreprise Server 2019 qui peuvent être utilisés avec les files d’attente d’appels Cloud et les standards automatiques Cloud, voir [configurer des files d’attente d’appels](/skypeforbusiness/hybrid/configure-call-queue.md) Cloud ou [configurer les standards automatiques du Cloud](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Les implémentations hybrides (numéros d’hébergement sur le routage direct) sont configurées à l’aide de l’applet de nouvelle applet de [CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) sur un serveur Skype entreprise Server 2019 local.
 
 L’ID d’application que vous devez utiliser lors de la création des instances d’application est le suivant :
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des informations sur les dernières mises à jour des versions perpétuelles de Skype Entreprise 2016 pour les clients Entreprise 2015 et Lync 2013
-ms.openlocfilehash: 70a99da3d3e8c9c6cdbff5d68cdb7fe8c255ca3d
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 717a1235622a8c2356797a765cd4d292ce0c68e6
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069385"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580911"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -44,6 +44,7 @@ La compatibilité de Skype Entreprise avec Office 365 et votre environnement l
 
 |Nom du package|Numéro d’article de la base de connaissances|Date de publication|
 |:---  |:---  |:---  |
+|Mise à jour de Skype Entreprise 2016 |[KB 4484133](https://support.microsoft.com/kb/4484133) | 2019 décembre|
 |Mise à jour de Skype Entreprise 2016 |[KB 4484102](https://support.microsoft.com/kb/4484102) | 2019 d’octobre|
 |Mise à jour de Skype Entreprise 2016 |[KB 4475577](https://support.microsoft.com/kb/4475577) | 2019 septembre|
 |Mise à jour de Skype Entreprise 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | 2019 d’août|

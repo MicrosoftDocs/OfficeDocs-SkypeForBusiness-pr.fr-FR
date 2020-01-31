@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Application patients pour les administrateurs teams
-ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259063"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634837"
 ---
 # <a name="patients-app-overview"></a>Présentation de l’application Patients
 
@@ -28,8 +28,8 @@ L’application patients est une application Microsoft teams Store disponible po
 
 L’application possède deux modes :
 
-- Le mode connecté EMR qui se connecte à EMRs via FHIR. L’application en mode connecté EMR reste en version privée prédéfinie, et les utilisateurs intéressés ou les administrateurs peuvent demander l’accès à l’application en déplaçant le message électronique de Microsoft sur teamsforhealthcare@service.microsoft.com contenant des informations sur leur client Office 365.
-- Le mode manuel qui permet aux équipes de soins d’ajouter/de mettre en place des informations relatives aux patients manuellement. L’application est disponible dans le magasin d’applications teams pour permettre aux utilisateurs finaux de télécharger par défaut une version d’évaluation publique. L’application peut être limitée à certaines sections d’utilisateurs à l’aide [de stratégies de configuration d’applications dans Microsoft teams](../../teams-app-setup-policies.md)
+- Le mode connecté EMR qui se connecte à EMRs via FHIR. L’application en mode connecté EMR reste en version privée prédéfinie, et les utilisateurs intéressés ou les administrateurs peuvent demander l’accès à l’application en déplaçant le message électronique de Microsoft sur [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) contenant des informations sur leur client Office 365.
+- Le mode manuel qui permet aux équipes de soins d’ajouter/de mettre en place des informations relatives aux patients manuellement. L’application est disponible dans le magasin d’applications teams pour que les utilisateurs finaux puissent télécharger la version privée préversion. L’application peut être limitée à certaines sections d’utilisateurs à l’aide de [stratégies de configuration d’application](../../teams-app-setup-policies.md) dans Teams. Pour pouvoir accéder à l’application, votre client doit faire partie du programme d’adoption de technologie (TAP). Envoyez-nous un e-mail à [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) pour démarrer le processus de demande d’accès.
 
 ## <a name="usage-example"></a>Exemple d’utilisation
 

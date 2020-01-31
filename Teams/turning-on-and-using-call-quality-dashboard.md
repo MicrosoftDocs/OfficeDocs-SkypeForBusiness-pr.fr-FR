@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Découvrez comment activer et utiliser le tableau de bord de qualité des appels et obtenir des rapports de synthèse sur la qualité des appels. '
-ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41005171"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41619978"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activation et utilisation du tableau de bord de qualité des appels pour Microsoft teams et Skype entreprise Online
 
@@ -188,13 +188,15 @@ BORD-XX XXXXXXX XXXXXXX XXXXXXX XXXXXXX xxxxxxxxx XXXXXXXXX. Les différences en
 |Personnalisation d’un ensemble de rapports (ajout, suppression, modification des rapports)   | Non   | Oui   |
 |Métriques de partage d’écran vidéo   | Non   | Oui   |
 |Métriques vidéo   | Non   | Oui   |
-|Volume de données disponible   | 6 derniers mois   | 6 derniers mois   |
+|Volume de données disponible   | 12 derniers mois   | 12 derniers mois   |
 |Données de Microsoft teams   | Oui   | Oui    |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>Rapports prêts à l’emploi
 
 Toutes les éditions de bord fournissent une nouvelle expertise qui vous permet d’appeler des indicateurs de qualité sans avoir à créer de nouveaux rapports. Une fois que les données sont traitées au serveur principal, vous pouvez afficher les données de qualité d’appel dans les rapports.
+
+Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et enregistrer vos données bord.
   
 ### <a name="overview-reports"></a>Présentation des rapports
 
@@ -395,6 +397,17 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 ' 1409W3534, fabricant 123, Fabrikam Model 123, ordinateur portable, ordinateur portable 2018, balise de ressources 5678, achat 2018
 
+## <a name="migrate-reports-from-previous-version-of-cqd"></a>Migrer des rapports à partir d’une version précédente de bord
+
+Si vous avez créé des rapports ou téléchargé des fichiers de données client (mappage) sur bord pour Skype entreprisehttps://cqd.lync.com) (et que vous voulez les migrer vers bordhttps://cqd.teams.microsoft.com)pour Teams (, procédez comme suit :
+
+1.  Accédez à [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) l’ensemble de rapports que vous souhaitez exporter, puis recherchez-le. 
+2.  Placez le pointeur de la souris sur le rapport et, sur le « ... » , sélectionnez **exporter l’arborescence du rapport**. Enregistrez le fichier d’exportation.
+3.  Accédez à [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) l’emplacement où vous souhaitez importer les rapports, puis recherchez-le.
+4.  Dans les liens de gauche, cliquez sur **Importer** , puis sélectionnez le fichier exporté. 
+5.  Après l’importation des rapports, le message suivant s’affiche : «l’importation du rapport a réussi. Le nouveau rapport a été ajouté à la fin de l’ensemble de rapports.» 
+
+
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
 
 Si vous souhaitez créer un rapport spécifique qui porte sur une dimension des données de telle sorte que les rapports détaillés fournis ne le sont pas, créez un rapport personnalisé.
@@ -445,7 +458,17 @@ Lorsque vous comparez des données pour ces deux services :
   - Filaire : wifi
   - Réseau d’entreprise : réseau domestique
   
+### <a name="why-cant-i-see-euii-in-cqd"></a>Pourquoi ne puis-je pas voir EUII dans bord ?
 
+Ces rôles d’administrateur peuvent accéder à bord, mais ils ne peuvent pas afficher EUII (informations d’identification de l’utilisateur final) :
+- Lecteur de rapports Office 365
+- Spécialiste du support des communications teams
+
+Pour en savoir plus sur les rôles qui peuvent accéder à bord, y compris les [rôles d’attribution de EUII-lecture des rôles pour accéder à bord](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Pourquoi des informations Skype entreprise s’afficheront dans bord lorsque j’ai filtré uniquement pour les équipes ?
+
+Lorsque vous filtrez les équipes uniquement dans les rapports bord (isTeams = 1), vous filtrez tous les appels dans lesquels le *premier point de terminaison* est Teams. Si le *deuxième point de terminaison* est Skype entreprise, ces informations apparaissent dans votre rapport bord.
 
 ## <a name="related-topics"></a>Voir aussi
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement de salles de Microsoft Teams.
-ms.openlocfilehash: abe9b49febe313bb3b8d503b31562d6ae99128a0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268891"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628260"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -133,7 +133,8 @@ Lors de la planification du déploiement des salles de Microsoft Teams, vous ave
 |-------------------------|-----------------------|   
 |Déploiement d’un petit nombre d’appareils de salle Microsoft Teams (<10). | Si vous utilisez des salles de Microsoft teams sous la forme de surface Pro, suivez les [instructions d’installation d’une installation par appareil](console.md). [Cette vidéo pratique vous guide tout au long du processus.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si vous utilisez une solution intégrée, déployez en utilisant l’image du fournisseur et configurez les paramètres selon les besoins. |
 | Déploiement entre 10 et 50 appareils à partir d’un seul fournisseur.     | Créez une image WIM, interrompez votre travail après [l’étape 6 dans les instructions](console.md), puis capturez une image de distribution à utiliser avec votre technologie de distribution de clonage.    |
-| Déploiement de plus de 50 équipements de salles de Microsoft Teams, déploiement de périphériques auprès de plusieurs fournisseurs ou demandant des agents spécifiques à une organisation dans le cadre du déploiement. | Utilisez une plateforme de build et de distribution de logiciels basée sur une séquence de tâches, telle que [System Center Configuration Manager](rooms-scale.md).  |
+| Déploiement de plus de 50 équipements de salles de Microsoft Teams, déploiement de périphériques auprès de plusieurs fournisseurs ou demandant des agents spécifiques à une organisation dans le cadre du déploiement. | Utilisez une plateforme de build et de distribution de logiciels basée sur une séquence de tâches, telle que [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
+
 
 **Conseil professionnel** -chaque salle de Microsoft teams doit avoir un nom de machine valide et unique sur votre réseau. De nombreux systèmes de surveillance et d’alerte indiquent le nom de l’ordinateur comme identificateur de clé, il est donc important de mettre en place une convention d’affectation de noms pour les déploiements Microsoft teams comme nécessitant une action. Par exemple, il se peut que vous utilisiez un modèle de MTR-nom de la*salle* de*site*-(MTR-lon-Curie). 
 

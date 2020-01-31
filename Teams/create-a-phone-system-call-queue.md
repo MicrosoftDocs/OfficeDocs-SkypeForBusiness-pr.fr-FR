@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: be307c79330e324c7a5673cc4e636bf311f96289
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41557858"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41619995"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -202,9 +202,9 @@ Les agents d’appel sélectionnés doivent être :
 **Méthode de routage** Vous pouvez choisir **standard**, **série**ou **tourniquet** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 
 - Le routage de l' **attendant** entraîne le premier appel dans la file d’attente pour sonner tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
-- **Routage en série** les appels entrants sonnent un par un, au début de la liste des agents d’appel. Les agents ne peuvent pas être commandés dans la liste des agents d’appel. Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
+- **Routage en série** les appels entrants sonnent chacun d’eux, du début de la liste des agents d’appel. Les agents ne peuvent pas être commandés dans la liste des agents d’appel. Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
   > [!NOTE]
-  > Le routage en série ignorera les agents qui sont **hors ligne**, ont défini leur présence sur **ne pas déranger**ou a **refusé** d’obtenir des appels à partir de cette file d’attente.
+  > Avec le routage en série, pour les agents qui sont **hors ligne** ou qui ont défini leur présence sur **ne pas déranger**, l’appel est routé vers ces utilisateurs et ne parvient pas à se connecter à l’utilisateur indisponible, le routage vers l’agent suivant dans la liste des agents. Ce n’est pas le cas si l’agent **a désactivé** la réception des appels à partir de la file d’attente d’appels. Pour réduire l’intervalle de temps pendant lequel les appels sont acheminés vers l’agent suivant en ligne, le temps des alertes d’agent peut être réduit.
 - **Tourniquet de tourniquet** qui achemine les appels entrants de telle sorte que chaque agent d’appel obtient le même nombre d’appels à partir de la file d’attente. Cela pourrait être souhaitable dans un environnement de ventes entrantes pour garantir l’égalité des chances entre tous les agents d’appel.
 
 ### <a name="select-an-agent-opt-out-option"></a>Sélectionner une option d’annulation d’agent

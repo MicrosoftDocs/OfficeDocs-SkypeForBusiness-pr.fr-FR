@@ -1,5 +1,5 @@
 ---
-title: Installer Microsoft Teams à l’aide de MSI, via SCCM
+title: Installation de Microsoft teams à l’aide de MSI via Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233273"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628130"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>Installer Microsoft Teams à l’aide de MSI
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installation de Microsoft teams à l’aide de Microsoft Endpoint Configuration Manager
 
 > [!Tip]
 > Regardez la session suivante pour en savoir plus sur les avantages du client de bureau Windows, sur son planning et son déploiement : client de [Bureau Windows teams](https://aka.ms/teams-clients)
 
-Pour utiliser System Center Configuration Manager, ou une stratégie de groupe, ou tout mécanisme de distribution tiers pour un déploiement large, Microsoft a fourni des fichiers MSI (32-bits et 64-bit) que les administrateurs peuvent utiliser pour le déploiement en bloc d’équipes pour sélectionner des utilisateurs ou des ordinateurs. Les administrateurs peuvent utiliser ces fichiers pour déployer à distance des équipes de sorte que les utilisateurs n’aient pas à télécharger manuellement l’application Teams. Lorsque le déploiement est déployé, teams démarre automatiquement pour tous les utilisateurs qui se connectent à cet ordinateur. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-launch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, de sorte que tous les nouveaux utilisateurs de l’ordinateur bénéficient également de ce déploiement.
+Pour utiliser le gestionnaire de configuration de points de terminaison de Microsoft, ou une stratégie de groupe ou tout mécanisme de distribution tiers pour un déploiement global, Microsoft a fourni des fichiers MSI (32-bits et 64 bits) que les administrateurs peuvent utiliser pour le déploiement en bloc d’équipes pour sélectionner des utilisateurs ou ordinateurs. Les administrateurs peuvent utiliser ces fichiers pour déployer à distance des équipes de sorte que les utilisateurs n’aient pas à télécharger manuellement l’application Teams. Lorsque le déploiement est déployé, teams démarre automatiquement pour tous les utilisateurs qui se connectent à cet ordinateur. (Vous pouvez désactiver le lancement automatique après l’installation de l’application. [Voir ci-dessous](#disable-auto-launch-for-the-msi-installer).) Nous vous recommandons de déployer le package sur l’ordinateur, de sorte que tous les nouveaux utilisateurs de l’ordinateur bénéficient également de ce déploiement.
 
 Voici les liens vers les fichiers MSI :
 
@@ -41,7 +41,7 @@ Voici les liens vers les fichiers MSI :
 Les équipes peuvent également être incluses dans un déploiement d’Office 365 ProPlus. Pour plus d’informations, reportez-vous à la rubrique [déploiement de Microsoft teams avec Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Pour en savoir plus sur SCCM, voir [Présentation de System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
+> Pour en savoir plus sur le gestionnaire de configuration de points de terminaison Microsoft, voir [qu’est-ce que Configuration Manager ?](https://docs.microsoft.com/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Procédure de déploiement (recommandée)
 
@@ -80,7 +80,7 @@ Si un utilisateur désinstalle teams de son profil utilisateur, le programme d�
 3. Redéployez le package MSI sur cet ordinateur particulier.
 
 > [!TIP]
-> Vous pouvez utiliser le script de [nettoyage du déploiement de Microsoft teams](scripts/powershell-script-teams-deployment-clean-up.md) pour effectuer les étapes 1 et 2 via SCCM.
+> Vous pouvez utiliser le script de [nettoyage du déploiement de Microsoft teams](scripts/Powershell-script-teams-deployment-clean-up.md) pour effectuer les étapes 1 et 2 via Configuration Manager.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Empêcher les équipes de démarrer automatiquement après l’installation
 

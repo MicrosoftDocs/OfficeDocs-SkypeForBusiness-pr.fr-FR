@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment empêcher ou autoriser ou empêcher les appelants anonymes à participer à une réunion depuis le Centre d’administration de Teams. '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570005"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580841"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams
 
@@ -40,7 +40,7 @@ Un code confidentiel n'est pas nécessaire pour l'organisateur de la réunion si
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Empêcher ou autoriser les appelants anonymes à participer à une réunion
 
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**. 
 
@@ -48,11 +48,11 @@ Un code confidentiel n'est pas nécessaire pour l'organisateur de la réunion si
 
 3. En regard de l’option **Audioconférence**, cliquez sur **Modifier**.
 
-4. Dans le volet **Audioconférence**, activez ou désactivez l’option **Unauthenticated callers can be the first person in a meeting** (Les appelants non authentifiés peuvent être la première personne dans une réunion).
+4. Dans le volet **audioconférence Conferencing** , vous pouvez activer ou désactiver **les appelants**rendez-vous dans une réunion.
     
-4. Cliquez sur **Enregistrer**. 
+4. Cliquez sur **Appliquer**. 
 
-**Utiliser Windows PowerShell**
+**Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
   
 Pour des informations complémentaires, consultez la rubrique [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
 

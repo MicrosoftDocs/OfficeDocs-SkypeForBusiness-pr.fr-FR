@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft retraite le service Exchange Unified Messaging Online (ExchUMO) en février 2020. Cet article récapitule ce que les clients concernés doivent savoir et ce qu’ils doivent faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854089"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628670"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
@@ -233,7 +233,7 @@ Pour en savoir plus sur les standards automatiques, reportez-vous à [la rubriqu
 
 **Transfert d’appel standard automatique vers PSTN** Les clients sont invités à configurer une solution de contournement provisoire pour répondre aux exigences du transfert d’un appel de standard automatique vers un numéro PSTN externe, ou vers une instance de RGS. 
  
-Un problème a été identifié lors de l’assurance qualité avec la fonction de transfert vers le numéro RTC, qui n’est pas corrigée dans le temps pour permettre aux clients de mettre fin à la migration du service Exchange UMO avant la date de départ prévue du 1er février 2020. Pour contourner ce problème, les administrateurs peuvent transférer des appelants de standard automatique vers un utilisateur virtuel local disposant d’un paramètre de renvoi d’appel actif vers le numéro de téléphone RTC ou le numéro de téléphone RGS souhaité. 
+Un problème a été identifié lors de l’assurance qualité avec la fonction de transfert vers le numéro RTC, qui n’est pas corrigée dans le temps pour permettre aux clients de mettre fin à la migration du service Exchange UMO avant la date de départ prévue du 28 février 2020. Pour contourner ce problème, les administrateurs peuvent transférer des appelants de standard automatique vers un utilisateur virtuel local disposant d’un paramètre de renvoi d’appel actif vers le numéro de téléphone RTC ou le numéro de téléphone RGS souhaité. 
  
 Durée attendue
 - Il n’est pas nécessaire de accorder une licence à l’utilisateur virtuel, car il s’agit d’une solution de contournement. 

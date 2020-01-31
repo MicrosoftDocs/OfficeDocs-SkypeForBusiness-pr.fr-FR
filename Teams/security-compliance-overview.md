@@ -3,7 +3,6 @@ title: Présentation de la sécurité et de la conformité dans Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
@@ -17,19 +16,21 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 8e0f6424770e2a0ccbe7367d2786949ef4ef2f6d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165614"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573640"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Présentation de la sécurité et de la conformité dans Microsoft Teams
 ======================================================
 
 Microsoft Teams est conçu sur le cloud d'entreprise à très grande échelle Office 365, fournissant à nos clients les fonctionnalités de sécurité avancée et de conformité qu'ils attendent.
 
-Pour une brève introduction (12:42 min) pour la sécurité et la conformité des équipes, regardez cette vidéo : [Microsoft teams Essentials pour le service informatique : sécurité et conformité](https://youtu.be/91lHNKVVvQ4).
+Ne manquez pas cette vidéo sur la sécurité et la conformité :
+- [Microsoft teams Essentials : sécurité et conformité](https://youtu.be/91lHNKVVvQ4) (12:42 min)
+- [Contrôles Microsoft teams pour la sécurité et la conformité](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
 
 Teams est conforme à la norme de niveau D. Cela inclut les normes suivantes : ISO 27001, ISO 27018, SSAE16 SOC 1 et SOC 2, HIPAA et des clauses de modèle européen (CMUE). Dans l’infrastructure de conformité Microsoft, Microsoft classifie les applications et services Office 365 en quatre catégories. Chaque catégorie est définie par des engagements de conformité spécifiques qui doivent être satisfaits pour un service Office 365 ou un service Microsoft associé qui doit être répertorié dans cette catégorie.
 

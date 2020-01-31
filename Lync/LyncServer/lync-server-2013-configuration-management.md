@@ -1,27 +1,27 @@
 ---
-title: 'Lync Server 2013: gestion de la configuration'
+title: 'Lync Server 2013 : gestion de la configuration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838473"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Gestion de la configuration dans Lync Server 2013
 
@@ -33,9 +33,9 @@ ms.locfileid: "34838473"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-05-15_
+_**Dernière modification de la rubrique :** 2015-05-15_
 
-La gestion de la configuration est le processus d’enregistrement et de suivi des ressources matérielles et logicielles, ainsi que des informations sur la configuration du système. Il est généralement utilisé pour effectuer le suivi des licences logicielles, de mettre à jour une build matérielle et logicielle standard pour les ordinateurs et serveurs clients et de définir des normes d’appellation pour les nouveaux ordinateurs. La gestion de la configuration couvre généralement les catégories suivantes:
+La gestion de la configuration est le processus d’enregistrement et de suivi des ressources matérielles et logicielles, ainsi que des informations sur la configuration du système. Il est généralement utilisé pour effectuer le suivi des licences logicielles, de mettre à jour une build matérielle et logicielle standard pour les ordinateurs et serveurs clients et de définir des normes d’appellation pour les nouveaux ordinateurs. La gestion de la configuration couvre généralement les catégories suivantes :
 
   - **Matériel**   cette catégorie effectue le suivi des éléments d’un équipement dont dispose l’organisation informatique, l’emplacement de l’équipement et qui utilise des équipements. Grâce à ces informations, une organisation est en mesure de planifier et de budgétiser les mises à jour, de mettre à jour les builds matérielles standard, de signaler la valeur des ressources informatiques à des fins comptables et d’éviter le vol.
 
@@ -53,7 +53,7 @@ La gestion de la configuration est le processus d’enregistrement et de suivi d
 
 Lorsque vous déterminez les éléments qui doivent être gérés, implémentez la gestion de la configuration en collectant des données et en rapportant des données. Pour les petites entreprises, l’approche la plus simple consiste à collecter les données manuellement (nombre et modèle d’ordinateurs clients, de systèmes d’exploitation, de logiciels installés) et de les enregistrer dans un document Office Word ou Office Excel. Pour les systèmes plus volumineux, plus complexes et en perpétuelle évolution, la découverte des ressources et la collecte des informations détaillées doit être automatisée. Déterminez les informations pertinentes pour votre organisation et enregistrez-les dans une base de données.
 
-La base de données de gestion de la configuration est un outil utile pour le personnel d’assistance et la gestion des domaines suivants:
+La base de données de gestion de la configuration est un outil utile pour le personnel d’assistance et la gestion des domaines suivants :
 
   - **Audits de sécurité**   la base de données vous permet d’identifier les serveurs exécutant Lync Server et les systèmes d’ordinateur client pour lesquels des correctifs ont été appliqués ou qui n’ont pas pu installer un service pack ou les dernières mises à jour antivirus.
 
@@ -61,7 +61,7 @@ La base de données de gestion de la configuration est un outil utile pour le pe
 
   - **Informations de configuration**   si vous conservez une liste à jour de tous les paramètres qui ont été modifiés par défaut, vous serez en mesure de résoudre les problèmes de manière rapide et plus efficace.
 
-  - **Planification des mises à jour**   si un avis de capacité révèle que de l’espace de stockage supplémentaire est requis sur les serveurs de base de données Lync, il est important de savoir si chaque serveur possède un contrôleur RAID interne. Si tel est le cas, sont-ils le même modèle? Est-ce que le nombre de disques est déjà installé? La base de données de gestion de la configuration indique le type de disque qui peut être installé, le numéro et le chemin de mise à niveau dans chaque cas.
+  - **Planification des mises à jour**   si un avis de capacité révèle que de l’espace de stockage supplémentaire est requis sur les serveurs de base de données Lync, il est important de savoir si chaque serveur possède un contrôleur RAID interne. Si tel est le cas, sont-ils le même modèle ? Est-ce que le nombre de disques est déjà installé ? La base de données de gestion de la configuration indique le type de disque qui peut être installé, le numéro et le chemin de mise à niveau dans chaque cas.
 
 </div>
 
@@ -73,7 +73,7 @@ De nombreux outils permettent de détecter, d’auditer et de signaler des resso
 
   - **Scripts automatisés**   vous pouvez écrire des scripts simples pour signaler des éléments tels que le système d’exploitation, le niveau du Service Pack et la présence de logiciels sur un ensemble spécifique d’ordinateurs. Vous pouvez écrire ces scripts dans la configuration requise exacte d’une organisation. Toutefois, le nombre requis de scripts et leur complexité peuvent compliquer la création et la gestion des scripts.
 
-  - **Outils automatisés**   en fonction de la taille de votre entreprise et des besoins de votre organisation, vous pouvez envisager d’utiliser des outils automatisés. Les outils tels que System Center Configuration Manager contiennent des modèles de rapports standard (comme le niveau de Service Pack) et vous permettent également de créer des rapports personnalisés, par exemple pour une application personnalisée. System Center Configuration Manager peut également être utilisé pour signaler les configurations matérielles et logicielles.
+  - **Outils automatisés**   en fonction de la taille de votre entreprise et des besoins de votre organisation, vous pouvez envisager d’utiliser des outils automatisés. Les outils tels que Microsoft Endpoint Configuration Manager contiennent des modèles de rapports standard (par exemple, le niveau de Service Pack) et vous permettent également de créer des rapports personnalisés, par exemple pour une application personnalisée. Le gestionnaire de configuration de point de terminaison Microsoft peut également être utilisé pour signaler des configurations matérielle et logicielle.
 
 </div>
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714490"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580921"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -39,7 +39,7 @@ Les statuts de présence des utilisateurs disponibles dans teams sont les suivan
 | ![Coche verte unie, indiquant présence disponible](media/Presence_Available.png) Disponibles|![Coche verte unie, indiquant présence disponible](media/Presence_Available.png) Disponibles|
 || ![Ouvrir la coche verte indique qu’il est disponible](media/Presence_Available_OOF.png) Disponible, absent (e) du Bureau |
 |  ![Cercle rouge Uni, indiquant occupé](media/Presence_Busy.png) Très |  ![Cercle rouge Uni, indiquant occupé](media/Presence_Busy.png) Très  |
-|| ![Cercle rouge Uni, indiquant bien occupé lors d’un appel](media/Presence_Busy.png) En communication|
+|| ![Cercle rouge Uni, indiquant bien occupé lors d’un appel](media/Presence_Busy.png) Lors d’un appel|
 || ![Cercle rouge Uni, indiquant bien occupé lors d’une réunion](media/Presence_Busy.png) En réunion |
 || ![Ouvrir un cercle rouge, indique occupé](media/Presence_Busy_OOF.png) En communication, absent (e) du Bureau|
 |  ![Cercle rouge avec une ligne blanche indiquant ne pas déranger](media/Presence_DND.png) Ne pas déranger ||

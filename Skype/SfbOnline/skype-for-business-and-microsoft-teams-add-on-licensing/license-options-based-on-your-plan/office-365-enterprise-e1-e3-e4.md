@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792881"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573630"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
@@ -40,6 +40,8 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 |**Messagerie vocale cloud** <br/> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
 |**Forfaits d’appel** <br/> |1. Module complémentaire **Système téléphonique** <br/> 2. [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez l’acquérir qu’après avoir acheté le complément **Système téléphonique**. <br/> |
    
+ > [!IMPORTANT]
+ > Les licences Office 365 E4 ont été officiellement supprimées. Pour plus d’informations, consultez [les informations importantes pour les clients d’Office 365 entreprise E4](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) .
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clients E1 et E3 : comment connaître les prix et procéder à l'achat
 <a name="bkmk_buypremium"> </a>
@@ -55,11 +57,11 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 ### <a name="partners-how-to-see-prices-and-buy"></a>Partenaire : Comment connaître les prix et procéder à l'achat
 <a name="bkmk_partners"> </a>
 
-The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio Conferencing** add-ons:
+L'offre E3 est comprise dans votre abonnement Action Pack. Pour acheter des modules complémentaires **Système téléphonique** et **Conférence** :
 
-1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
+1. Achetez un siège de E3 sur notre [site Web de marketing](https://go.microsoft.com/fwlink/?LinkId=24393). Choisissez l'option d'ajout du siège à votre client actuel.
 
-2. Connectez-vous au centre d’administration et accédez à > **modules complémentaires**abonnements de **facturation** > ****.
+2. Connectez-vous au centre d’administration et accédez à**modules complémentaires****abonnements** > de **facturation** > .
 
     Les prix et l’option permettant d’acheter des modules complémentaires de services d' **audioconférence** et de **système téléphonique** apparaissent désormais.
 
@@ -70,6 +72,6 @@ Dans certains cas, l’option d’achat de compléments Skype entreprise n’app
 
 - **Vous avez acheté Office 365 Business Premium par l'entremise de GoDaddy**. Dans ce cas, vous ne pouvez pas acheter de compléments de licence Skype Entreprise. Vous devez basculer vers l’offre E3 (ce que GoDaddy ne vend pas), puis vous pouvez l’acheter. [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Votre abonnement est mensuel, non annuel**. Dans certains cas, les clients ayant souscrit un engagement mensuel ne peuvent pas acheter de compléments (il s’agit d’un mode de paiement différent du mode de paiement, qui peut être mensuel). Il s’agit d’un problème connu qui est résolu. [Contacter le support Office 365 pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Gestion des mises à jour Windows pour les salles de Microsoft teams
-ms.openlocfilehash: 87aab8b4c0d299b682f450d6d53ace33fc7a464b
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be3555507b0c9a8967b444b96e8c6e4af8f35fbf
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268929"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628560"
 ---
 # <a name="manage-windows-updates"></a>Gérer les mises à jour Windows
 
@@ -36,13 +36,13 @@ Les mises à jour de Windows peuvent être gérées comme décrit dans les secti
 
 - [Mises à jour Windows pour](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) le téléchargement d’une entreprise
 - Les mises à jour sont téléchargées à partir de Windows Update ou de votre WSUS, mais avec des retards configurés au-delà de la date de publication initiale.
-- Vous pouvez utiliser plusieurs UO ou des stratégies filtrées pour créer des « anneaux » de déploiement, où les administrateurs peuvent spécifier les appareils qui installent les mises à jour de qualité et celles qui s’y trouvent. La fiabilité et les performances peuvent être testées sur un sous-ensemble de systèmes avant de déployer des mises à jour au sein de l’ensemble du déploiement, sans la surcharge de la gestion des mises à jour Windows dans SCCM.
+- Vous pouvez utiliser plusieurs UO ou des stratégies filtrées pour créer des « anneaux » de déploiement, où les administrateurs peuvent spécifier les appareils qui installent les mises à jour de qualité et celles qui s’y trouvent. La fiabilité et les performances peuvent être testées sur un sous-ensemble de systèmes avant de déployer des mises à jour au sein de l’ensemble du déploiement, sans la surcharge de la gestion des mises à jour Windows dans Configuration Manager.
 - Les mises à jour de WSUS et Windows pour l’entreprise peuvent être [configurées en même temps](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si vous souhaitez disposer de la gestion de la bande passante et du contrôle des mises à jour de Windows pour les entreprises.
 - Mises à jour de fonctionnalités. Voir les notes suivantes.
 
-## <a name="wsussccm"></a>WSUS/SCCM
+## <a name="wsusconfiguration-manager"></a>WSUS/Configuration Manager
 
-- Téléchargement de [WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+- Téléchargement de [WSUS/Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - Comme Windows Update pour les entreprises, mais avec l’option supplémentaire de ciblage des Ko spécifiques dans chaque « anneau » ou le déploiement complet. Chaque mise à jour peut être déployée et testée individuellement à la place, plutôt que d’utiliser un délai unique.
 - Mises à jour de fonctionnalités. Voir les notes suivantes.
 
@@ -52,4 +52,4 @@ Contrairement aux mises à jour de qualité et non différées, les mises à jou
 
 Les fonctions salles de Microsoft Teams, « prédéfinis », qui ne permettent pas l’installation d’une mise à jour Windows ou le redémarrage automatique d’un appareil pour une mise à jour Windows. Les systèmes téléchargent une mise à jour et attendent le prochain redémarrage pour l’installer. À moins qu’une personne ne la redémarre manuellement, l’installation ne se produit qu’après un redémarrage automatique. Les mises à jour Windows doivent être transparentes dans la salle, et l’opération normale ne doit jamais être interrompue par des mises à jour Windows.
 
-Si vous choisissez de joindre des domaines, utilisez SCCM ou WSUS. Soyez particulièrement attentif aux politiques ou aux actions qui engendrent une mise à jour de l’appareil ou un redémarrage forcé pendant les heures d’activité. Les systèmes de votre déploiement ne doivent pas redémarrer lors de l’utilisation d’une alerte ou d’une alerte sur les mises à jour Windows sur l’interface utilisateur pendant les heures d’utilisation ; examinez votre configuration si ce comportement se produit.
+Si vous choisissez de joindre des domaines, utilisez le gestionnaire de configuration de point de terminaison Microsoft ou WSUS. Soyez particulièrement attentif aux politiques ou aux actions qui engendrent une mise à jour de l’appareil ou un redémarrage forcé pendant les heures d’activité. Les systèmes de votre déploiement ne doivent pas redémarrer lors de l’utilisation d’une alerte ou d’une alerte sur les mises à jour Windows sur l’interface utilisateur pendant les heures d’utilisation ; examinez votre configuration si ce comportement se produit.

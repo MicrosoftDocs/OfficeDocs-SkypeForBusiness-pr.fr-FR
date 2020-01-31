@@ -14,34 +14,34 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier que leurs produits fonctionnent avec un routage direct.
-ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111748"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634867"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
 Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier leurs SBC pour une utilisation avec un routage direct. 
 
-Avec chaque fournisseur, Microsoft : 
+Microsoft travaille avec chaque fournisseur pour : 
 
-- Collabore avec les fournisseurs SBC sur leurs protocoles d'interconnexion SIP.
-- Mène des tests intensifs via un laboratoire tiers ; seuls les périphériques qui passent les tests sont certifiés. 
-- Mène des tests quotidiens avec tous les périphériques certifiés en environnements de production et de préproduction. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés. 
-- Dispose d'une procédure de support commun avec les fournisseurs SBC.
+- Travaillez conjointement avec les protocoles d’interconnexion SIP.
+- Effectuez des tests intensifs à l’aide d’un laboratoire tiers. Seuls les appareils qui passent les tests sont certifiés. 
+- Exécutez des tests quotidiens avec tous les appareils certifiés en environnement de production et de pré-production. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés. 
+- Établissez un processus d’assistance conjointe avec les fournisseurs de SBC.
 
 
   > [!NOTE]
-  > Microsoft ne prend en charge un système téléphonique que si un ou plusieurs périphériques certifiés sont connectés en routage direct. Microsoft se réserve le droit de rejeter les cas de support où un périphérique non certifié est connecté au système téléphonique en routage direct. 
+  > Microsoft ne prend en charge que le système téléphonique s’il est connecté par le biais du routage direct. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. 
 
 Le tableau suivant reprend les périphériques certifiés pour le routage direct. 
 
-[En savoir plus sur le routage direct](https://aka.ms/dr). Si vous avez des questions sur le programme de certification des SBC pour le routage direct, envoyez un e-mail à l'adresse drsbccertification@microsoft.com
+[En savoir plus sur le routage direct](https://aka.ms/dr). Si vous avez des questions sur le programme de certification de SBC pour le routage direct, contactez drsbccertification@microsoft.com.
 
 
-|                                                       Fournisseur                                                        |       Product       | Contournement autre que média | Contournement de média | Version du logiciel | Vaidated avec les fournisseurs E911 | ELIN compatible
+|                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version du logiciel | Validé auprès des fournisseurs de E911 | ELIN compatible
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [CodesAudio](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |
@@ -55,9 +55,9 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Intrado ERS <br>Intrado EGW    |Non|    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Intrado ERS <br>Intrado EGW  |  Non  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Intrado ERS <br>Intrado EGW |   Non |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Intrado ERS <br>Intrado EGW   |  Pending  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Intrado ERS <br>Intrado EGW  |  Pending  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |  Intrado ERS <br>Intrado EGW   |  Pending  |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (Build 537)     |  Intrado ERS <br>Intrado EGW   |  Pending  |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (Build 537)     |  Intrado ERS <br>Intrado EGW  |  Pending  |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (Build 216)    |  Intrado ERS <br>Intrado EGW   |  Pending  |    
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pending    |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
@@ -67,4 +67,4 @@ Le tableau suivant reprend les périphériques certifiés pour le routage direct
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
-Pour nous envoyer des commentaires sur des produits sur Teams, par exemple des idées de nouvelles fonctionnalités, consultez le site [UserVoice](https://microsoftteams.uservoice.com) Notez la certification accordée à une version majeure. Cela signifie que le microprogramme avec n’importe quel numéro dans le microprogramme SBC après la version principale est pris en charge.
+Pour nous faire part de vos commentaires sur les équipes, par exemple des idées de nouvelles fonctionnalités, voir [UserVoice](https://microsoftteams.uservoice.com) Notez la certification accordée à une version majeure. Cela signifie que le microprogramme avec n’importe quel numéro dans le microprogramme SBC après la version principale est pris en charge.

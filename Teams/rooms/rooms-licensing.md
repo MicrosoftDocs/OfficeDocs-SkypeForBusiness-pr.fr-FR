@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les fonctionnalités disponibles dans les salles de Microsoft Teams. '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268885"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628250"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Mise à jour des licences salle de réunion teams
 
@@ -66,7 +66,7 @@ Le tableau suivant répertorie les fonctionnalités disponibles dans Microsoft T
 |Lancer une réunion ad hoc | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
 |Lancer une réunion ad hoc et passer un appel sortant vers des numéros de téléphone depuis une réunion |  Référence SKU de salle de réunion |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
 |Donnez un numéro de téléphone à la salle et transmettez ou recevez des appels depuis la salle ou participez à une conférence audio par le biais d’un numéro de téléphone.  | Référence SKU de salle de réunion  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
-|Gérer votre appareil de salle avec Microsoft Intune |Référence SKU de salle de réunion  |Abonnement Microsoft Intune avec [le GPM sur site](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|Gérer votre appareil de salle avec Microsoft Intune |Référence SKU de salle de réunion  |Abonnement Microsoft Intune avec [le GPM local](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
 > [!NOTE]

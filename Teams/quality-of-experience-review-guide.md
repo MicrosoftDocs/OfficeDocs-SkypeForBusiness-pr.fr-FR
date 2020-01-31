@@ -3,7 +3,6 @@ title: Guide d’Analyse de la Qualité d’Expérience pour Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952807"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580901"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -58,25 +57,28 @@ Ce guide est destiné à être utilisé par les parties prenantes des partenaire
 
 Ce guide est également destiné à être utilisé par le ou les champions qualité désignés. Pour plus d’informations, reportez-vous à [la section rôle d’expert qualité](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## <a name="prerequisites"></a>Conditions requises
+## <a name="assign-roles-for-accessing-cqd"></a>Affecter des rôles pour accéder à bord
 
 Avant d’utiliser ce guide, assurez-vous que vous disposez des [rôles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de client appropriés pour pouvoir accéder à bord.
 
--   **Administrateur général d’Office 365** 
+Le tableau suivant vous montre les différents rôles possibles dans bord :
 
--   **Administrateur Skype entreprise** 
 
--   **Administrateur du service Teams** 
+|  |Afficher les rapports  |Afficher les champs de EUII  |Créer des rapports  |Télécharger les données de bâtiment  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Administrateur général d’Office 365     |Oui          |Oui          |Oui          |Oui          |
+|Administrateur du service Teams     |Oui          |Oui          |Oui          |Oui          |
+|Administrateur des communications Teams     |Oui          |Oui          |Oui          |Oui          |
+|Ingénieur du support technique pour les communications Teams     |Oui          |Oui          |Oui         |Non         |
+|Spécialiste du support des communications teams     |Oui         |Non         |Oui         |Non         |
+|Administrateur Skype entreprise     |Oui          |Oui          |Oui          |Oui          |
+|Lecteur global Azure AD |Oui          |Oui          |Oui         |Non         |
+|Office 365-rapports sur le lecteur<sup>1</sup>     |Oui         |Non         |Oui         |Non         |
 
--   **Administrateur des communications Teams** 
+<sup>1</sup> en plus de lire des rapports bord, le lecteur de rapports d' 365 Office peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration et les rapports du [Pack de contenu adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
--   **Ingénieur du support technique pour les communications Teams** 
-
--   **Spécialiste du support des communications teams** 
-
-Vous pouvez également affecter le rôle suivant à un compte d’utilisateur Office 365 pour autoriser l’accès aux fonctions de création de rapports uniquement.
-
--   **Lecteur de rapports :** Peut afficher tous les [rapports d’activité](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) dans le centre d’administration, tous les rapports du [Pack de contenu Adoption de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)et les rapports bord.
+> [!NOTE]
+> Si vous ne voyez pas EUII (informations d’identification de l’utilisateur final) et que vous disposez de l’un des rôles qui vous permettent d’accéder à ces informations, gardez à l’esprit que bord ne conserve EUII pendant 30 jours. Les éléments datant de plus de 30 jours sont supprimés.
 
 ## <a name="what-is-quality"></a>Qu’est-ce que la qualité ?
 
@@ -285,6 +287,8 @@ Il existe deux éditions de rapport dans bord Online : Summary et detailed. Uti
 -   Les rapports détaillés sont entièrement personnalisables et peuvent être téléchargés dans un fichier CSV, exporté ou cloné.
 
 Pour une description complète de la différence entre les deux éditions, voir [cet article](turning-on-and-using-call-quality-dashboard.md).
+
+Nouveauté de janvier 2020 : [Télécharger les modèles de requête Power bi pour bord](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Modèles Power BI personnalisables que vous pouvez utiliser pour analyser et enregistrer vos données bord.
 
 _Figure 4 : catégories de rapports bord_
 

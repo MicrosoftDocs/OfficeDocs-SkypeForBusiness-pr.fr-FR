@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626980"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573620"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 =======================================
@@ -40,10 +40,9 @@ Le complément de réunion équipes est automatiquement installé pour les utili
 > - Les utilisateurs de Windows 7 doivent installer la [mise à jour du runtime C universel dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour que le complément réunion teams fonctionne.
 > - Si vous utilisez une installation d’Office Outlook à partir du Microsoft Store, le complément de réunion teams n’est pas pris en charge. Les utilisateurs qui ont besoin de ce complément sont invités à installer la version « démarrer en un clic » d’Office, comme décrit dans l’article [Office sur Windows 10 en mode S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complément réunion teams dans Outlook pour Mac
 
-Le bouton réunion teams dans Outlook pour Mac s’affiche dans le ruban d’Outlook pour Mac si Outlook exécute la version de production 16.24.414.0 et les versions ultérieures.
+Le bouton réunion teams dans Outlook pour Mac s’affiche dans le ruban d’Outlook pour Mac si Outlook exécute la version de production 16.24.414.0 et les versions ultérieures et est activé avec un abonnement client Office 365.
 
 Les coordonnées de la réunion (le lien de participation aux équipes et les numéros de connexion) seront ajoutés à l’invitation à la réunion une fois que l’utilisateur a cliqué sur **Envoyer**.  
 
