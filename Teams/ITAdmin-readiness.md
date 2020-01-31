@@ -16,12 +16,12 @@ f1keywords:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165604"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573610"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
@@ -90,7 +90,7 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 | Module | Vidéo | Présentation PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft mécanique-teams Essentials pour canal YouTube informatique](https://aka.ms/MicrosoftTeamsforIT) | [Vidéo : notions de base de teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vidéo : déployer & configurer teams-Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 minutes)  <br>[Vidéo : sécurité et conformité](https://youtu.be/91lHNKVVvQ4) (12:42 min)||
+| [Microsoft mécanique-teams Essentials pour canal YouTube informatique](https://aka.ms/MicrosoftTeamsforIT) | [Vidéo : notions de base de teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vidéo : déployer & configurer teams-Intro](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 minutes)  <br>[Vidéo : sécurité et conformité](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Vidéo : contrôles d’équipe pour la sécurité et la conformité](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Structures-composants principaux | [Vidéo](https://aka.ms/teams-foundations) | [Support de présentation](https://aka.ms/teams-foundations-deck) |
 | Client de Bureau Windows | [Vidéo](https://aka.ms/teams-clients) | [Support de présentation](https://aka.ms/teams-clients-deck) |
 | Gouvernance, gestion et de cycle de vie | [Vidéo](https://aka.ms/teams-governance) | [Support de présentation](https://aka.ms/teams-governance-deck) |
