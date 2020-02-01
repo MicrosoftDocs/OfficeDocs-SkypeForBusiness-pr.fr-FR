@@ -124,7 +124,7 @@ ms.locfileid: "41268680"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Ressources destinées aux partenaires</h3>
-                                                <P><a href="/partner-center" target="_blank">Obtenir Microsoft 365 Business auprès de l’Espace partenaires</a></p>
+                                                <P><a href="/partner-center" target="_blank">Accédez à l’Espace partenaires pour obtenir Microsoft 365 Business</a></p>
                                                 <P><a href="https://www.microsoft.com/microsoft-365/partners/businessvoice" target="_blank">Téléphonie Microsoft 365 pour les PME pour les partenaires</a></p>
                                                 <p><a href="partner-resources.md" target="_blank">Ressources d’aide pour les partenaires Téléphonie Microsoft 365 pour les PME</a>
                                             </div>

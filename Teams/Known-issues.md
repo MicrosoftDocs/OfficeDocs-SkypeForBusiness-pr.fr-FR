@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Liste actuelle des problèmes connus pour l'application client et l'expérience administrateur de Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990649"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628530"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problèmes connus pour Microsoft Teams
 
@@ -312,6 +312,14 @@ Cet article répertorie les problèmes connus concernant Microsoft Teams, par f
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|
 |Intégration du Planificateur Teams avec le Planificateur en ligne <br/> |Les paquets de tâches dans le Planificateur ne s’affichent pas dans l’expérience en ligne du Planificateur.  <br/> |Aucune solution. <br/> |28/02/2017  <br/>|
+
+
+|**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
+|:-----|:-----|:-----|:-----|
+|Intégration du Planificateur Teams avec le Planificateur en ligne <br/> |Les propriétaires ne peuvent pas créer de plan à partir d’une équipe créée à l'aide d’un groupe Office 365 existant.  <br/> |Accordez au membre les autorisations d'un propriétaire de groupe. <br/> |14/01/20  <br/>|
+
+
+
 
 |**Intitulé du problème**|**Comportement / Symptôme**|**Solution**|**Date de découverte**|
 |:-----|:-----|:-----|:-----|

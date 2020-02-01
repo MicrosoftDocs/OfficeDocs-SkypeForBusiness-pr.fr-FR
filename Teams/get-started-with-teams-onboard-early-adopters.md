@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1f92914a3f02fe85c478d5b6974a28ce9cc3a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c859ea669d8c8dfcc0813059a29e4d95df4fd09b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570313"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628720"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
 
@@ -54,7 +54,7 @@ Accédez à : [Teams pour Windows](#teams-for-windows) | [Teams pour Mac](#team
 Le client de bureau Teams assure aux utilisateurs de Windows et Mac la meilleure expérience générale possible. Pour plus d’informations, voir [Obtenez des clients pour Teams (client de bureau)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) et [Configurations matérielles requises pour l’application Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> En tant qu’administrateur, vous pouvez choisir la méthode de distribution des fichiers d’installation sur les ordinateurs dans votre organisation, tels que System Center Configuration Manager (Windows) ou Jamf Pro (macOS).
+> En tant qu’administrateur, vous pouvez choisir la méthode de distribution des fichiers d’installation sur les ordinateurs dans votre organisation, tels que Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS).
 
 #### <a name="teams-for-windows"></a>Teams pour Windows 
 Pour installer le client de bureau Windows, le plus simple consiste à :

@@ -20,68 +20,70 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Apprenez à gérer les paramètres de la stratégie de réunion dans Teams.
-ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: 9199be5eced7faee3e72f7b94c1f9e3be3c9573c
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554341"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41649098"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans teams
 
 ::: zone target="docs"
-Les stratégies de réunion sont utilisées pour contrôler les fonctionnalités qui sont disponibles pour les réunions planifiées par les utilisateurs de votre organisation. Lorsque vous créez une stratégie et apportez les modifications souhaitées, vous pouvez attribuer des utilisateurs à la stratégie. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en [utilisant PowerShell](teams-powershell-overview.md).
+Les stratégies de réunion sont utilisées pour contrôler les fonctionnalités qui sont disponibles pour les réunions planifiées par les utilisateurs de votre organisation. Lorsque vous créez une stratégie et apportez les modifications souhaitées, vous pouvez attribuer des utilisateurs à la stratégie. Vous gérez les stratégies de réunion dans le centre d’administration Microsoft teams ou en utilisant [PowerShell](teams-powershell-overview.md).
 
 Vous pouvez mettre en œuvre des stratégies comme suit, ce qui a un impact sur l’interface de réunion pour les utilisateurs avant le début d’une réunion, pendant une réunion ou après une réunion.
 
 |Type d’implémentation  |Description  |
 |---------|---------|
 |Par organisateur    |Lorsque vous implémentez une stratégie par organisateur, tous les participants à la réunion héritent de la stratégie de l’organisateur. Par exemple, l' **admission automatique de personnes** est une stratégie par organisateur et détermine si les utilisateurs rejoignent directement la réunion ou s’il attend dans la salle d’attente pour les réunions planifiées par l’utilisateur qui dispose de la stratégie.          |
-|Par utilisateur    |Lorsque vous implémentez une stratégie par utilisateur, seule la stratégie par utilisateur s’applique pour limiter certaines fonctionnalités pour les participants de la réunion ou de l’organisateur. Par exemple, l’autorisation de l’utilisation de la **fonction Conférence maintenant** est une stratégie par utilisateur.     |
-|Par organisateur et par utilisateur     |Lorsque vous implémentez une combinaison d’une stratégie par utilisateur et par utilisateur, certaines fonctionnalités sont limitées pour les participants à la réunion en fonction de leur politique et de la stratégie de l’organisateur. Par exemple, **l’autorisation de l’enregistrement Cloud** est une stratégie par utilisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants à démarrer et arrêter un enregistrement. 
+|Par utilisateur    |Lorsque vous implémentez une stratégie par utilisateur, seule la stratégie par utilisateur s’applique pour limiter certaines fonctionnalités pour les participants de la réunion ou de l’organisateur. Par exemple, **l’autorisation de la fonction « Conférence maintenant » dans les canaux** est une stratégie par utilisateur.     |
+|Par organisateur et par utilisateur     |Lorsque vous implémentez une combinaison d’une stratégie par utilisateur et par utilisateur, certaines fonctionnalités sont limitées pour les participants à la réunion en fonction de leur politique et de la stratégie de l’organisateur. Par exemple, **l’autorisation de l’enregistrement Cloud** est une stratégie par utilisateur et par utilisateur. Activez ce paramètre pour autoriser l’organisateur de la réunion et les participants à démarrer et arrêter un enregistrement.
 
-Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent cette stratégie de réunion. Vous pouvez modifier cette stratégie ou en créer une ou plusieurs, et leur affecter des utilisateurs. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui disposeront de ces paramètres. 
+Par défaut, la création d’une stratégie nommée global (au niveau de l’organisation par défaut) est créée. Par défaut, tous les utilisateurs de votre organisation reçoivent la stratégie de réunion globale. Vous pouvez y apporter des modifications ou créer une ou plusieurs stratégies personnalisées et leur affecter des utilisateurs. Les utilisateurs bénéficieront de la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. Lorsque vous créez une stratégie personnalisée, vous pouvez autoriser ou empêcher l’accès à certaines fonctionnalités à vos utilisateurs, puis les affecter à un ou plusieurs utilisateurs qui disposeront de ces paramètres.
 
 ## <a name="change-or-create-a-meeting-policy"></a>Modification ou création d’une stratégie de réunion
 
-Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams >**politiques**des **réunions** > . Sélectionnez une stratégie dans la liste ou sélectionnez **nouvelle stratégie**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
+Pour modifier ou créer une stratégie de réunion, accédez au centre d’administration Microsoft teams >**politiques**des **réunions** > . Sélectionnez une stratégie dans la liste ou cliquez sur **Ajouter**. Si vous créez une nouvelle stratégie, ajoutez un nom et une description. Le nom ne peut pas contenir des caractères spéciaux ou comporter plus de 64 caractères. Choisissez vos paramètres, puis sélectionnez **Enregistrer**.
 
 Par exemple, imaginons que vous disposiez d’un certain nombre d’utilisateurs et que vous voulez limiter la bande passante nécessaire à la réunion. Vous pouvez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
 
 Sous **Audio & vidéo**:
-- Désactiver l’enregistrement dans le Cloud
-- Désactiver l’option autoriser la vidéo IP
+- Désactiver l’enregistrement dans le Cloud.
+- Désactivez l’option autoriser la vidéo IP.
 
 Sous **partage de contenu**:
-- Désactiver le mode de partage d’écran
-- Désactiver le tableau blanc
-- Désactiver les notes partagées
+- Désactiver le mode de partage d’écran.
+- Désactivez l’option autoriser le tableau blanc.
+- Désactivez autoriser les notes partagées.
 
 Affectez ensuite la stratégie aux utilisateurs.
 
-> [!NOTE] 
-> Un utilisateur ne peut être associé qu’à une seule stratégie de réunion à la fois. 
+> [!NOTE]
+> Un utilisateur ne peut être associé qu’à une seule stratégie de réunion à la fois.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Attribuer une stratégie de réunion aux utilisateurs
 
-Si vous appliquez une stratégie à un utilisateur, sélectionnez **utilisateurs** dans le volet de navigation gauche, puis cliquez sur le nom complet de l’utilisateur. Dans la page de l’utilisateur, en regard de **stratégies affectées**, sélectionnez **modifier**. Dans le volet **modifier les stratégies d’utilisateur** , sous **stratégie de réunion**, sélectionnez la stratégie de réunion dans la liste déroulante, puis sélectionnez **Enregistrer**. Vous pouvez également attribuer des stratégies à partir de la liste des utilisateurs. Pour cela, sélectionnez l’utilisateur en cliquant à gauche du nom complet de l’utilisateur. Sélectionnez **modifier les paramètres**. Dans le volet **modifier les paramètres** , sous **stratégie de réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**. 
- 
-Si vous appliquez une stratégie à plusieurs utilisateurs, sélectionnez **utilisateurs** dans le volet de navigation gauche, puis sélectionnez chaque utilisateur en cliquant à gauche du nom de l’utilisateur, puis cliquez sur **modifier les paramètres**. Dans le volet **modifier les paramètres** , sous stratégie de **réunion**, sélectionnez la stratégie dans la liste déroulante, puis sélectionnez **Enregistrer**.
- 
-Vous pouvez également affecter une stratégie de réunion à un ou plusieurs utilisateurs comme suit :
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, accédez à **utilisateurs**, puis cliquez sur l’utilisateur.
+2. Sélectionnez l’utilisateur en cliquant à gauche du nom de l’utilisateur, puis sur **modifier les paramètres**.
+3. Sous **stratégie de réunion**, sélectionnez la stratégie que vous voulez attribuer, puis cliquez sur **appliquer**.
 
-1. **** > Accédez au centre > d' **administration Microsoft teams****stratégies de réunion**.
+Pour attribuer une stratégie à plusieurs utilisateurs à la fois, voir [modifier les paramètres utilisateur d’équipes en bloc](edit-user-settings-in-bulk.md).
+
+Vous pouvez également effectuer les opérations suivantes :
+
+1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, **accédez à** > **stratégies de réunion**.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **gérer les utilisateurs**.
 4. Dans le volet **gérer les utilisateurs** , recherchez l’utilisateur par nom complet ou par nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer**.
- 
-> [!NOTE] 
+
+> [!NOTE]
 > Vous ne pouvez pas supprimer une stratégie s’il est affecté à des utilisateurs. Vous devez d’abord affecter une stratégie différente à tous les utilisateurs concernés, puis supprimer la stratégie d’origine.
- 
+
 ## <a name="meeting-policy-settings"></a>Paramètres de la stratégie de réunion
 
-Lorsque vous sélectionnez une stratégie existante dans la page stratégies de la **réunion** ou sélectionnez **nouvelle stratégie** pour ajouter une nouvelle stratégie, vous pouvez configurer les paramètres pour les éléments suivants.
+Lorsque vous sélectionnez une stratégie existante dans la page stratégies de la **réunion** ou cliquez sur **Ajouter** pour ajouter une nouvelle stratégie, vous pouvez configurer les paramètres pour les éléments suivants.
 
 - [Général](#meeting-policy-settings---general)
 - [Audio & vidéo](#meeting-policy-settings---audio--video)
@@ -95,7 +97,6 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 ## <a name="meeting-policy-settings---general"></a>Paramètres de la stratégie de réunion-général
 
 - [Autoriser la Conférence maintenant dans les canaux](#allow-meet-now-in-channels)
-- [Autoriser la conférence privée](#allow-private-meet-now)
 - [Autoriser le complément Outlook](#allow-the-outlook-add-in)
 - [Autoriser la planification des réunions de canal](#allow-channel-meeting-scheduling)
 - [Autoriser la planification de réunions privées](#allow-scheduling-private-meetings)
@@ -105,10 +106,6 @@ Lorsque vous sélectionnez une stratégie existante dans la page stratégies de 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion ad hoc dans un canal d’équipe. Si vous activez cette case à costar, lorsque l’utilisateur publie un message dans un canal d’équipe, il peut cliquer sur **Conférence maintenant** sous la zone de rédaction pour commencer une réunion ad hoc du canal.
 
 ![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
-### <a name="allow-private-meet-now"></a>Autoriser la conférence privée
-
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc.  
-
 
 ### <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
@@ -120,7 +117,7 @@ Si vous désactivez cette fonctionnalité, les utilisateurs ne sont pas en mesur
 
 ### <a name="allow-channel-meeting-scheduling"></a>Autoriser la planification des réunions de canal
 
-Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à costar, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il démarrera une réunion dans un canal équipes et l’option **Ajouter un canal** est désactivée pour les utilisateurs dans Teams.
+Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les utilisateurs peuvent planifier une réunion dans un canal d’équipe.  Si vous désactivez cette case à costar, l’option **planifier une réunion** ne sera pas disponible pour l’utilisateur lorsqu’il démarrera une réunion dans un canal d’équipe et l’option **Ajouter un canal** est désactivée pour les utilisateurs dans Teams.
 
 ![Capture d’écran montrant l’option planifier une réunion dans teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -256,10 +253,10 @@ Pour utiliser PowerShell afin de contrôler les personnes qui peuvent donner le 
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si les participants externes d’une réunion peuvent donner le contrôle de leur bureau ou fenêtre partagée aux autres participants à la réunion. Les participants externes aux réunions teams peuvent être classés comme suit :  
 
-   - Utilisateur anonyme
-   - Utilisateurs invités  
-   - Utilisateur B2B
-   - Utilisateur fédéré  
+- Utilisateur anonyme
+- Utilisateurs invités  
+- Utilisateur B2B
+- Utilisateur fédéré  
 
 Si les utilisateurs fédérés peuvent donner le contrôle à des utilisateurs externes lorsque le partage est contrôlé, le paramètre **autoriser un participant externe à attribuer ou demander un contrôle** au sein de leur organisation.
 
@@ -293,7 +290,7 @@ Amanda ne peut pas partager le tableau blanc dans une réunion, même s’il s�
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. Pour l’instant, l’onglet **notes de réunion** est uniquement pris en charge dans les réunions dont la taille est inférieure à 20 participants. 
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. Pour l’instant, l’onglet **notes de réunion** est uniquement pris en charge dans les réunions dont la taille est inférieure à 20 participants.
 
 Examinons l’exemple suivant.
 
@@ -308,15 +305,43 @@ Daniela peut prendre des notes dans les réunions d’Amanda et qu’Amanda ne p
 
 Ces paramètres contrôlent les participants à la réunion qui attendent dans la salle d’attente avant d’être admis à la réunion et le niveau de participation qui leur est accordé lors d’une réunion.
 
+- [Permettre aux utilisateurs anonymes de démarrer une réunion](#let-anonymous-people-start-a-meeting)
 - [Admettre automatiquement des personnes](#automatically-admit-people)
-- [Autoriser les personnes anonymes à commencer une réunion](#allow-anonymous-people-to-start-a-meeting)
 - [Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente](#allow-dial-in-users-to-bypass-the-lobby)
-- [Autoriser la conférence privée](#allow-private-meet-now)
+- [Autoriser la Conférence maintenant dans les réunions privées](#allow-meet-now-in-private-meetings)
 - [Activer les légendes dynamiques](#enable-live-captions)
 - [Autoriser la discussion dans les réunions](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Les options de participation à une réunion varient en fonction des paramètres de chaque groupe équipes et de la méthode de connexion. Si votre groupe comporte une audioconférence et qu’elle est utilisée pour se connecter, voir [audioconférence dans Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si ce n’est pas le cas, reportez-vous à la rubrique [participer à une réunion dans teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+
+### <a name="let-anonymous-people-start-a-meeting"></a>Permettre aux utilisateurs anonymes de démarrer une réunion
+
+Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes anonymes, y compris les utilisateurs interentreprises, et les utilisateurs fédérés, peuvent rejoindre la réunion de l’utilisateur sans qu’un utilisateur authentifié de l’organisation n’ait accès à celle-ci. 
+
+![Capture d’écran montrant un message à un utilisateur en attente](media/meeting-policies-anonymous-user-lobby.png)
+
+Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsque les utilisateurs authentifiés sont présents dans la réunion.
+
+|Permettre aux utilisateurs anonymes de démarrer une réunion  |Admettre automatiquement des personnes |Comportement de jointure des personnes anonymes |
+|---------|---------|---------|
+|Vrai    | Tout le monde      | Rejoindre directement         |
+|   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
+|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
+|False    | Tout le monde        | Rejoindre directement        |
+|   | Tout le monde dans votre organisation     | Patienter dans la salle d’attente        |
+|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
+
+Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsqu’aucun utilisateur authentifié n’est présent à la réunion.
+
+|Permettre aux utilisateurs anonymes de démarrer une réunion |Admettre automatiquement des personnes  |Comportement de jointure des personnes anonymes |
+|---------|---------|---------|
+|Vrai    | Tout le monde      | Rejoindre directement         |
+|   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
+|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
+|False    | Tout le monde        | Patienter dans la salle d’attente. Les utilisateurs sont automatiquement admis lorsque le premier utilisateur authentifié rejoint la réunion.        |
+|   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
+|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
 ### <a name="automatically-admit-people"></a>Admettre automatiquement des personnes
 
@@ -332,41 +357,13 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les
 |**Tout le monde au sein de votre organisation et organisations fédérées**     |Utilisateurs authentifiés au sein de l’organisation, y compris utilisateurs invités et utilisateurs d’organisations fédérées, joignez directement la réunion sans attendre dans la salle d’attente.  Utilisateurs anonymes et utilisateurs qui se connectent par téléphone dans la salle d’attente.   |
 |**Tout le monde dans votre organisation**    |Utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, qui rejoignent directement la réunion sans attendre dans la salle d’attente.  Utilisateurs fédérés, utilisateurs anonymes et utilisateurs qui composent le numéro de téléphone dans la salle d’attente.           |
 
-### <a name="allow-anonymous-people-to-start-a-meeting"></a>Autoriser les personnes anonymes à commencer une réunion
-
-Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes anonymes, y compris les utilisateurs interentreprises, et les utilisateurs fédérés, peuvent rejoindre la réunion de l’utilisateur sans qu’un utilisateur authentifié de l’organisation n’ait accès à celle-ci. 
-
-![Capture d’écran montrant un message à un utilisateur en attente](media/meeting-policies-anonymous-user-lobby.png)
-
-Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsque les utilisateurs authentifiés sont présents dans la réunion.
-
-|Autoriser les personnes anonymes à commencer une réunion  |Admettre automatiquement des personnes |Comportement de jointure des personnes anonymes |
-|---------|---------|---------|
-|Vrai    | Tout le monde      | Rejoindre directement         |
-|   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
-|False    | Tout le monde        | Rejoindre directement        |
-|   | Tout le monde dans votre organisation     | Patienter dans la salle d’attente        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
-
-Vous trouverez ci-dessous le comportement de jointure des personnes anonymes lorsqu’aucun utilisateur authentifié n’est présent à la réunion.
-
-|Autoriser les personnes anonymes à commencer une réunion |Admettre automatiquement des personnes  |Comportement de jointure des personnes anonymes |
-|---------|---------|---------|
-|Vrai    | Tout le monde      | Rejoindre directement         |
-|   | Tout le monde dans votre organisation       | Patienter dans la salle d’attente        |
-|   | Tout le monde au sein de votre organisation et organisations fédérées       | Patienter dans la salle d’attente         |
-|False    | Tout le monde        | Patienter dans la salle d’attente. Les utilisateurs sont automatiquement admis lorsque le premier utilisateur authentifié rejoint la réunion.        |
-|   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
-|   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
-
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente
 
 Il s’agit d’une stratégie par organisateur. Ce paramètre détermine si les personnes qui se connectent par téléphone rejoignent directement la réunion ou qu’elles patientent dans la salle d’attente, indépendamment du paramètre d' **admission automatique des personnes** .
 
 Voici le comportement de participation des personnes qui se connectent par téléphone.
 
-|Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Accepter automatiquement les utilisateurs  |Comportement de connexion des personnes qui se connectent |
+|Autoriser les utilisateurs rendez-vous à ignorer la salle d’attente  |Admettre automatiquement des personnes  |Comportement de connexion des personnes qui se connectent |
 |---------|---------|---------|
 |Vrai    | Tout le monde      | Rejoindre directement         |
 |   | Tout le monde dans votre organisation       | Rejoindre directement        |
@@ -375,7 +372,7 @@ Voici le comportement de participation des personnes qui se connectent par tél�
 |   | Tout le monde dans votre organisation     |Patienter dans la salle d’attente         |
 |   | Tout le monde au sein de votre organisation et organisations fédérées      | Patienter dans la salle d’attente         |
 
-### <a name="allow-private-meet-now"></a>Autoriser la conférence privée
+### <a name="allow-meet-now-in-private-meetings"></a>Autoriser la Conférence maintenant dans les réunions privées
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion privée ad hoc. 
 
@@ -387,17 +384,17 @@ Il s’agit d’une stratégie par utilisateur qui s’applique au cours d’une
 
 |Définition de la valeur |Comportement  |
 |---------|---------|
-|**Désactivé et l’utilisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement (**...**) pour l’activer. Il s’agit du paramètre par défaut. |
+|**Désactivé mais l’organisateur peut remplacer**     | Les légendes dynamiques ne sont pas activées automatiquement pour l’utilisateur pendant une réunion. L’utilisateur voit l’option **activer les légendes dynamiques** dans le menu débordement (**...**) pour l’activer. Il s’agit du paramètre par défaut. |
 |**Désactivé**     | Les légendes dynamiques sont désactivées pour l’utilisateur pendant une réunion. L’utilisateur ne dispose pas de l’option pour l’activer.          |
-
 
 <a name="bkcontentsharing"> </a>
 
 ### <a name="allow-chat-in-meetings"></a>Autoriser la discussion dans les réunions
 
-Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur. 
+Il s’agit d’une stratégie par organisateur. Ce paramètre indique si la conversation de réunion est autorisée lors de la réunion de l’utilisateur.
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
+
 [Stratégies de messagerie dans teams](messaging-policies-in-teams.md)

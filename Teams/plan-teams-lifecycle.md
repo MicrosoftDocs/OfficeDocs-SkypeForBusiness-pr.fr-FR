@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913041"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628370"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -55,7 +55,7 @@ Les types d’accès suivants déterminent qui peut rejoindre l’équipe :
 Les types d’utilisateurs de l’équipe déterminent le niveau de contrôle dont dispose un membre :
 
 -   Le _créateur de l’équipe_ dispose d’autorisations pour créer un groupe ou une équipe dans le répertoire. L’administrateur peut restreindre ce type d’utilisateurs à un sous-ensemble d’administrateurs ou utilisateurs. Pour plus d'informations, reportez-vous à l’article [Gérer qui peut créer des groupes Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   Un _propriétaire de l’équipe_ gère l’appartenance et les paramètres de l’équipe. Une équipe peut comporter jusqu’à 10 propriétaires.
+-   Un _propriétaire de l’équipe_ gère l’appartenance et les paramètres de l’équipe. Une équipe peut comporter jusqu’à 100 propriétaires.
 -   Un _membre de l'équipe_ est un membre de votre organisation qui participe à une équipe.
 -   Un _invité_ est un utilisateur externe à votre organisation. N’importe quelle personne ayant une adresse de messagerie peut être invitée si votre organisation a activé l’[accès invité](guest-access.md).
 
