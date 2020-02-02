@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Apprenez à configurer le système téléphonique pour les files d’attente d’appels Cloud avec Microsoft Teams.
-ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 2744a989225098b47814c53cb089de7a0ee6cfe4
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41619995"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664378"
 ---
 # <a name="create-a-cloud-call-queue"></a>Créer une file d’attente d’appels cloud
 
@@ -130,16 +130,15 @@ Dans le **Centre d’administration de Microsoft teams**, les**files d’attente
 
 * * *
 
-![Icône du numéro 1, référence une légende dans le](media/sfbcallout1.png)
+![Icône du numéro 1, référence une légende dans le](media/teamscallout1.png)
 **nom** de la capture d’écran précédente entrez un nom descriptif pour la file d’attente d’appels. Ce nom est obligatoire et peut contenir jusqu’à 64 caractères, y compris des espaces.
 
  Ce nom s’affiche dans la notification de l’appel entrant.
 
 * * *
 
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout2.png)
-
-**Ajouter des comptes** Sélectionnez un compte de ressources. Toutes les files d’attente d’appels doivent disposer d’un compte de ressources. Il n’est pas nécessaire d’avoir un numéro de téléphone payant ou gratuit pour les comptes de ressources.
+![Dans la boîte de dialogue numéro 2, fait référence à une légende](media/teamscallout2.png)
+dans la capture d’écran précédente**Ajouter des comptes** sélectionnez un compte de ressources. Toutes les files d’attente d’appels doivent disposer d’un compte de ressources. Il n’est pas nécessaire d’avoir un numéro de téléphone payant ou gratuit pour les comptes de ressources.
 
 S’il n’y figure pas, vous pouvez obtenir des numéros de service et les affecter à un compte de ressources avant de créer la file d’attente d’appels, comme décrit précédemment. Pour obtenir vos numéros de service, consultez la rubrique [obtention de numéros de téléphone de service](getting-service-phone-numbers.md). Pour plus d’informations sur l’affectation d’un numéro de téléphone, voir [gérer les comptes de ressources dans teams](manage-resource-accounts.md) .
 
@@ -152,15 +151,13 @@ S’il n’y figure pas, vous pouvez obtenir des numéros de service et les affe
 
 * * *
 
-![Icône du numéro 1, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout1.png)
-
-**Salutation** le message d’accueil facultatif joué par les personnes qui appellent le numéro de la file d’attente d’appels.
+![Icône du numéro 1, référence une légende dans la capture d’écran](media/teamscallout1.png)
+suivante**message** d’accueil facultatif pour les personnes qui appellent le numéro de la file d’attente d’appels.
 
 Vous pouvez charger un fichier audio (formats. wav,. mp3 ou. WMA).
 
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout2.png)
-
-**Attente musicale** Vous pouvez utiliser l’attente de musique par défaut fournie avec la file d’attente d’appels. Vous pouvez également charger un fichier audio au format. wav,. mp3 ou. WMA à utiliser comme votre musique personnalisée en attente.
+![Icône du numéro 2, qui fait référence à une légende dans la](media/teamscallout2.png)
+capture d’écran précédente**musique en attente** , vous pouvez utiliser la musique par défaut fournie avec la file d’attente d’appels. Vous pouvez également charger un fichier audio au format. wav,. mp3 ou. WMA à utiliser comme votre musique personnalisée en attente.
 
 * * *
 
@@ -168,9 +165,8 @@ Vous pouvez charger un fichier audio (formats. wav,. mp3 ou. WMA).
 
 ![Capture d’écran des options de répondeur automatique](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Icône du numéro 1, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout1.png)
-
-Pour ajouter des agents directement, sans les ajouter à un groupe, cliquez sur **Ajouter des utilisateurs**. Placez les agents individuels dans l’ordre dans lequel vous souhaitez qu’ils reçoivent l’appel. Vous pouvez ajouter jusqu’à 20 agents individuels (pour ajouter plus de 20, les placer dans un groupe).
+![Dans la capture d’écran du numéro 1, fait référence à une](media/teamscallout1.png)
+légende dans la capture d’écran suivante :**opérateurs et groupes** pour ajouter directement des agents, sans les ajouter à un groupe, cliquez sur **Ajouter des utilisateurs**. Placez les agents individuels dans l’ordre dans lequel vous souhaitez qu’ils reçoivent l’appel. Vous pouvez ajouter jusqu’à 20 agents individuels (pour ajouter plus de 20, les placer dans un groupe).
 
 Les appels sont d’abord routés vers des agents individuels, puis vers les agents en groupes. 
 
@@ -195,11 +191,8 @@ Les agents d’appel sélectionnés doivent être :
 
 - Si vos agents utilisent l’application Microsoft teams pour appeler des files d’attente, elles doivent être en mode TeamsOnly.
 
-![Capture d’écran du volet ajouter des agents d’appel](media/skype-for-business-add-agents-to-call-queue.png)
-
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout2.png)
-
-**Méthode de routage** Vous pouvez choisir **standard**, **série**ou **tourniquet** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
+![Icône du numéro 2, qui fait référence à une légende dans la](media/teamscallout2.png)
+**méthode de routage** de capture d’écran précédente, vous pouvez choisir l’une des options **standard**, **série**ou **tourniquet** comme méthode de distribution. Tout le reste et les files d’attente d’appels sont sélectionnés par défaut. Lorsque le routage standard est utilisé, le premier appel dans la file d’attente sonne sur tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 
 - Le routage de l' **attendant** entraîne le premier appel dans la file d’attente pour sonner tous les agents d’appel en même temps. Le premier agent d’appel pour décrocher l’appel obtient l’appel.
 - **Routage en série** les appels entrants sonnent chacun d’eux, du début de la liste des agents d’appel. Les agents ne peuvent pas être commandés dans la liste des agents d’appel. Si un agent est rejeté ou ne décroche aucun appel, l’appel sonnera sur l’agent suivant et tentera d’essayer tous les agents jusqu’à ce qu’il soit décroché.
@@ -213,9 +206,8 @@ Les agents d’appel sélectionnés doivent être :
 
 * * *
 
-![Icône du numéro 1, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout1.png)
-
-**L’agent peut refuser d'** avoir accès aux appels Vous pouvez choisir d’autoriser les agents de files d’attente d’appels à refuser d’effectuer des appels à partir d’une file d’attente particulière en activant cette option.
+![Icône du numéro 1, qui fait référence à une légende dans l'](media/teamscallout1.png)
+agent de capture d’écran précédent**peut refuser les appels** , vous pouvez choisir d’autoriser les agents de files d’attente d’appels à refuser les appels d’une file d’attente particulière en activant cette option.
 
 L’activation de cette option permet à tous les agents de cette file d’attente de démarrer ou d’arrêter de recevoir des appels à partir de la file d’attente d’appels. Vous pouvez révoquer les privilèges d’annulation de l’agent à tout moment en désactivant la case à cocher, pour que les agents le fassent automatiquement pour cette file d’attente (paramètre par défaut pour tous les agents).
 
@@ -230,9 +222,8 @@ Pour accéder à l’option d’annulation, les agents peuvent :
     >
     > Si les agents se trouvent dans des clients de bureau Microsoft Teams, ils peuvent refuser l’appel en utilisant les paramètres d’appel. 
 
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout2.png)
-
-**Paramètre d’alerte d’agent**
+![Icône du numéro 2, qui fait référence à une légende dans le](media/teamscallout2.png)
+**paramètre alerte** de l’agent de capture d’écran précédent.
 
 Cela définit la durée d’un appel de l’agent pour être averti de l’appel avant que les méthodes de routage par série ou par répétition alternées soient déplacées vers l’agent suivant.
 
@@ -246,15 +237,13 @@ Le paramètre par défaut est de 30 secondes, mais peut être configuré pour un
 
 * * *
 
-![Icône du numéro 1, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout1.png)
-
-**Nombre maximal d’appels dans la file d’attente** Utilisez cette valeur pour définir le nombre maximal d’appels qui peuvent attendre dans la file d’attente en même temps. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré selon la configuration du paramètre **lorsque le nombre maximal d’appels est atteint** ci-dessous.
+![Icône du numéro 1, qui fait référence à une légende dans la](media/teamscallout1.png)
+capture d’écran précédente pour les**appels dans la file d’attente** , utilisez cette valeur pour définir le nombre maximal d’appels qui peuvent patienter en même temps dans la file d’attente. La valeur par défaut est 50, mais elle peut varier entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré selon la configuration du paramètre **lorsque le nombre maximal d’appels est atteint** ci-dessous.
 
 * * *
 
-![Icône du numéro 2, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout2.png)
-
-**Lorsque le nombre maximum d’appels est atteint** Lorsque la file d’attente des appels atteint sa taille maximale (définie en utilisant le **nombre maximal d’appels dans la file d’attente** ), vous pouvez choisir ce qu’il advient des nouveaux appels entrants.
+![Icône du numéro 2, qui fait référence à une légende dans la](media/teamscallout2.png)
+capture d’écran précédente**lorsque le nombre maximum d’appels est atteint** lorsque la file d’attente atteint la taille maximale (définie à l’aide du paramètre **appels dans la file d’attente** ), vous pouvez choisir ce qu’il advient des nouveaux appels entrants.
 
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger vers** Lorsque vous choisissez cette option, sélectionnez l’une des options suivantes :
@@ -267,15 +256,13 @@ Le paramètre par défaut est de 30 secondes, mais peut être configuré pour un
 
 * * *
 
-![Icône du numéro 3, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout3.png)
-
-**Délai d’appel : délai d’attente maximum** Vous pouvez également décider du temps qu’un appel peut mettre en attente dans la file d’attente avant qu’il arrive à expiration, et qu’il doive être redirigé ou déconnecté. Le moment où il est redirigé dépend de la façon dont vous définissez le paramètre à la **fin de l’appel** . Vous pouvez définir une heure comprise entre 0 et 45 minutes.
+![Icône du numéro 3, qui fait référence à une légende dans la](media/teamscallout3.png)
+capture d’écran précédente**délai d’appel : temps d’attente maximum** vous pouvez également décider du temps pendant lequel un appel peut être mis en attente dans la file d’attente avant qu’elle ne soit interrompue ou déconnectée. Le moment où il est redirigé dépend de la façon dont vous définissez le paramètre à la **fin de l’appel** . Vous pouvez définir une heure comprise entre 0 et 45 minutes.
 
 La valeur Timeout peut être définie en secondes, à des intervalles de 15 secondes. Cela vous permet de manipuler le flux d’appels avec une granularité plus fine. Par exemple, vous pouvez spécifier que les appels qui ne sont pas traités par un agent dans un délai de 30 secondes s’exécutent dans un standard automatique de recherche d’annuaires.
 
-![Icône du numéro 4, qui fait référence à une légende dans la capture d’écran précédente](media/sfbcallout4.png)
-
-**Lorsque** le délai d’appel est épuisé Lorsque l’appel atteint la limite définie en fonction de la **durée pendant laquelle un appel peut patienter dans la file d’attente** , vous pouvez choisir ce qu’il advient de l’appel :
+![Icône du numéro 4, qui fait référence à une légende dans la](media/teamscallout4.png)
+capture d’écran précédente lorsque le délai d’appel est**écoulé** lorsque l’appel atteint la limite définie en fonction de la **durée pendant laquelle un appel peut patienter dans la file d’attente** , vous pouvez choisir ce qu’il advient de l’appel :
 
 - Se **déconnecter** L’appel est déconnecté.
 - **Rediriger cet appel vers** Lorsque vous choisissez cette option, vous disposez des options suivantes :
@@ -327,7 +314,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
   - [Configurer votre ordinateur pour Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les standards automatiques Cloud de Microsoft Teams.
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005174"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664325"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurer un standard automatique dans le cloud
 
@@ -162,22 +162,9 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
   > Une **personne de l’organisation** peut être un utilisateur en ligne ou un utilisateur hébergé sur site utilisant Skype entreprise Server.
 
   - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé au service.
-  - Boîte **vocale** Sélectionnez le groupe Office 365 représentant les utilisateurs de votre organisation qui ont besoin d’accéder à cette boîte vocale. C’est ici que vous pouvez également activer la transcription de la boîte vocale. Nécessite un groupe Office 365.
+  - Boîte **vocale** Sélectionnez le groupe Office 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Office 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
 
-  > [!NOTE]
-> Les messages vocaux envoyés aux utilisateurs à partir du compte de messagerie vocale de ce standard automatique ne sont pas accessibles dans Teams. Ils seront envoyés par courrier électronique.
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
 
  * * *
 
@@ -214,7 +201,9 @@ Si vous sélectionnez **déconnecter**, l’appelant est déconnecté une fois l
 
 - **Application vocale** Sélectionnez un standard automatique ou une file d’attente d’appels déjà configurée. Vous recherchez le standard automatique ou la file d’attente d’appels en utilisant le nom du compte de ressources associé à l’application.
 
-- Boîte **vocale** Sélectionnez le groupe Office 365 représentant les utilisateurs de votre organisation qui ont besoin d’accéder à cette boîte vocale. C’est ici que vous pouvez également activer la transcription de la boîte vocale. Nécessite un groupe Office 365.
+- Boîte **vocale** Sélectionnez le groupe Office 365 qui contient les utilisateurs de votre organisation qui doivent accéder à la boîte vocale reçue par ce standard automatique. Les messages vocaux sont envoyés au groupe Office 365 que vous avez spécifié. Pour accéder aux messages vocaux, les membres du groupe peuvent les ouvrir en accédant au groupe dans Outlook.
+
+    Basculez la **transcription** sur **activé** pour activer la transcription vocale des messages vocaux.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
@@ -428,7 +417,7 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des standar
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Voici les avantages du système téléphonique dans Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
