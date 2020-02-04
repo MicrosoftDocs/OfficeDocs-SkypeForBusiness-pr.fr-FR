@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer des certificats sur le serveur exécutant la messagerie unifiée Microsoft Exchange Server'
+title: 'Lync Server 2013 : configurer des certificats sur le serveur exécutant la messagerie unifiée Microsoft Exchange Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc9ed0f51b3f534d5967c7195cc39736a4ecae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d31ed8b750d0162a2c09d49ca8a350731896086
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838412"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838412"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-26_
+_**Dernière modification de la rubrique :** 2012-09-26_
 
-Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans la section [planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) dans la documentation de planification, et si vous souhaitez fournir des fonctionnalités de messagerie unifiée Exchange aux utilisateurs d’Enterprise Voice dans votre dans l’organisation, vous pouvez utiliser les procédures suivantes pour configurer le certificat sur le serveur exécutant la messagerie unifiée Exchange.
+Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans la section [planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) dans la documentation de planification, et si vous souhaitez fournir des fonctionnalités de messagerie unifiée Exchange aux utilisateurs d’entreprise Voice au sein de votre organisation, vous pouvez utiliser les procédures suivantes pour configurer le certificat sur le serveur exécutant la messagerie unifiée Exchange.
 
 <div>
 
@@ -47,7 +49,7 @@ Si vous avez déployé la messagerie unifiée Exchange, comme décrit dans la se
 
 </div>
 
-Le serveur Exchange doit être configuré avec un certificat de serveur pour pouvoir se connecter à Lync Server 2013:
+Le serveur Exchange doit être configuré avec un certificat de serveur pour pouvoir se connecter à Lync Server 2013 :
 
 1.  Téléchargez le certificat d’autorité de certification du serveur Exchange.
 
@@ -94,7 +96,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur pour pou
 
 4.  Dans la boîte de dialogue **Composant logiciel enfichable Certificats**, cliquez sur **Compte d’ordinateur**, puis sur **Suivant**.
 
-5.  Dans la boîte de dialogue **Sélectionner un ordinateur** , vérifiez que la case à cocher **ordinateur local: (l’ordinateur sur lequel cette console s’exécute)** est activée, puis cliquez sur **Terminer**.
+5.  Dans la boîte de dialogue **Sélectionner un ordinateur** , vérifiez que la case à cocher **ordinateur local : (l’ordinateur sur lequel cette console s’exécute)** est activée, puis cliquez sur **Terminer**.
 
 6.  Cliquez sur **Fermer**, puis cliquez sur **OK**.
 
@@ -128,7 +130,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur pour pou
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>Pour configurer la messagerie unifiée Exchange Server 2013 avec Lync Server
 
-1.  Pour plus d’informations, reportez-vous à la section «intégration de la messagerie unifiée Exchange 2013 à Lync Server» dans la documentation sur [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)le serveur Exchange.
+1.  Pour plus d’informations, reportez-vous à la section « intégration de la messagerie unifiée Exchange 2013 à Lync Server » dans la documentation sur [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)le serveur Exchange.
 
 </div>
 
@@ -167,7 +169,7 @@ Le serveur Exchange doit être configuré avec un certificat de serveur pour pou
 
 11. Dans la boîte de dialogue qui s’affiche, cliquez sur **Oui**.
 
-12. Vérifiez que le message «votre nouveau certificat a été correctement installé» s’affiche.
+12. Vérifiez que le message « votre nouveau certificat a été correctement installé » s’affiche.
 
 </div>
 
@@ -175,13 +177,13 @@ Le serveur Exchange doit être configuré avec un certificat de serveur pour pou
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>Pour créer un certificat sur Exchange Server 2010
 
-1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec des droits d’utilisateur appropriés. Pour plus d’informations, consultez la section «autorisations [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)d’accès client».
+1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec des droits d’utilisateur appropriés. Pour plus d’informations, consultez la section « autorisations [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)d’accès client ».
 
-2.  Pour créer le certificat, consultez les procédures suivantes:
+2.  Pour créer le certificat, consultez les procédures suivantes :
     
     1.  "Créer un nouveau certificat Exchange" à[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  «Importer un certificat Exchange» à[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  « Importer un certificat Exchange » à[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -234,9 +236,9 @@ Le serveur Exchange doit être configuré avec un certificat de serveur pour pou
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>Pour attribuer le certificat sur Exchange Server 2010
 
-1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec des droits d’utilisateur appropriés. Pour plus d’informations, consultez la section «autorisations [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)d’accès client».
+1.  Ouvrez une session sur le serveur exécutant la messagerie unifiée Exchange avec des droits d’utilisateur appropriés. Pour plus d’informations, consultez la section « autorisations [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)d’accès client ».
 
-2.  Pour obtenir la procédure d’affectation d’un certificat, voir «attribuer des services à un [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)certificat» à l’adresse.
+2.  Pour obtenir la procédure d’affectation d’un certificat, voir « attribuer des services à un [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)certificat » à l’adresse.
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Configuration requise pour Lync Server 2013: DNS (Domain Name System)'
+title: 'Configuration requise pour Lync Server 2013 : DNS (Domain Name System)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Domain Name System (DNS) requirements
 ms:assetid: 586cf18e-0080-4eb1-aee5-56843277fdfc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398386(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 771bf78f8477008345422cc61f63202c58fcdd14
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2eddf86c881875ebbe08fddd6ffa85403dda6b60
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831335"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831335"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-18_
+_**Dernière modification de la rubrique :** 2012-06-18_
 
 Pour déployer Lync Server, vous devez créer des enregistrements DNS (Domain Name System) qui autorisent la découverte de clients et de serveurs et, éventuellement, la prise en charge de la connexion automatique du client si votre organisation veut le prendre en charge.
 
-Lync Server utilise le DNS de l’une des façons suivantes:
+Lync Server utilise le DNS de l’une des façons suivantes :
 
   - Pour découvrir les serveurs internes ou les pools de communications serveur à serveur.
 

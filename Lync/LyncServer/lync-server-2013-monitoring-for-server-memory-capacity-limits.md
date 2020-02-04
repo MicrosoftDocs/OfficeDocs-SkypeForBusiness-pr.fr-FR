@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: surveillance des limites de capacité de mémoire du serveur'
+title: 'Lync Server 2013 : surveillance des limites de capacité de mémoire du serveur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring for server memory capacity limits
 ms:assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68728c85b14231644b445569857896f34abe535f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5c9746240335b1c66606da24edf6ffa2a0e7bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826730"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826730"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-12-08_
+_**Dernière modification de la rubrique :** 2016-12-08_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
@@ -55,17 +57,17 @@ Deux compteurs de performance de mobilité peuvent vous aider à déterminer vot
 
 Si la différence entre les compteurs **Nombre de sessions actives avec abonnements actifs aux informations de présence** et **Nombre de sessions actives** reste minime au fil du temps, cela signifie que la plupart des utilisateurs d’appareils mobiles disposent d’un appareil toujours connecté, tel qu’un appareil mobile Android ou Nokia (pour Mcx uniquement). Les appareils UCWA toujours connectés incluent des appareils Apple et Android exécutant des clients mobiles Lync 2013. Si le compteur **Nombre de sessions actives** est beaucoup plus élevé que le compteur **Nombre de sessions actives avec abonnements actifs aux informations de présence**, cela indique qu’un nombre plus élevé d’utilisateurs emploient un appareil à points de terminaison en arrière-plan, tel qu’un appareil Apple iOS ou Windows Phone sous Mcx. (Windows Phone est le seul client mobile Lync 2013 qui s’inscrira comme suit).
 
-Vous devez définir une limite sur le **nombre de sessions actuellement actives avec abonnements de présence actives** et compteurs de performance **actuellement nombre de sessions actives** en fonction de votre utilisation prévue, des résultats de planification de la capacité et de la surveillance en continu de Service de mobilité et autres compteurs serveur front-end. Les limites que vous définissez doivent vous permettre d’évaluer la capacité des serveurs et de déclencher des alertes quand celle-ci est dépassée.
+Vous devez définir une limite sur le **nombre de sessions actives avec abonnements de présence actives** et compteurs de performance **actuellement nombre de sessions actives** en fonction de votre utilisation prévue, des résultats de la planification de la capacité et d’une analyse continue du service de mobilité et des autres compteurs de serveur front-end. Les limites que vous définissez doivent vous permettre d’évaluer la capacité des serveurs et de déclencher des alertes quand celle-ci est dépassée.
 
 Pour déterminer les limites appropriées, vous devez d’abord déterminer la quantité de mémoire disponible sur le serveur frontal pour le service de mobilité. Surveillez les compteurs afin de déterminer le besoin de prévoir une capacité supplémentaire à l’aide de la formule suivante :
 
-Mémoire totale utilisée par le service de mobilité MCX (Mo) = 164 + (400 + 134)/ \* 1024 le **nombre de sessions actives avec les abonnements de présence actives** + 400/1024 \* (**nombre de sessions actives** actuel) ** avec les abonnements de présence actifs**)
+Mémoire totale utilisée par le service de mobilité MCX (Mo) = 164 + (400 + 134)/ \* 1024 le **nombre de sessions actives avec les abonnements de présence actives** + 400/1024 \* (nombre de**sessions actives** ) ****
 
 <div>
 
 
 > [!IMPORTANT]  
-> Le calculateur de capacités de Microsoft Lync Server 2010 est une feuille de calcul préremplie avec toutes les formules permettant à un planificateur de déterminer quelles sont les conditions requises pour les serveurs, y compris le processeur, la mémoire et le disque dur. Vous pouvez télécharger la feuille de calcul et un document associé à l’adresse suivante:<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
+> Le calculateur de capacités de Microsoft Lync Server 2010 est une feuille de calcul préremplie avec toutes les formules permettant à un planificateur de déterminer quelles sont les conditions requises pour les serveurs, y compris le processeur, la mémoire et le disque dur. Vous pouvez télécharger la feuille de calcul et un document associé à l’adresse suivante :<A href="https://go.microsoft.com/fwlink/p/?linkid=212657">https://go.microsoft.com/fwlink/p/?LinkID=212657</A>
 
 
 

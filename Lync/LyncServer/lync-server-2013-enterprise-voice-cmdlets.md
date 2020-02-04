@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: applets de applet voix entreprise'
+title: 'Lync Server 2013 : applets de applet voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enterprise Voice cmdlets
 ms:assetid: 7d7c6d94-3ead-4d99-95f7-c31b448ab9e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415658(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf902a7711625121335bc2f387301b8b9457a73c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc1c5516c80ed38839b795c92a5521be93711cad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831219"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831219"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-19_
+_**Dernière modification de la rubrique :** 2014-03-19_
 
 Voix entreprise est l’implémentation Microsoft de VoIP (Voice over IP). Les applets de connexion disponibles pour gérer les voix entreprise dans Microsoft Lync Server 2013 vous permettent de créer et de modifier les plans de numérotation (auparavant appelés profils d’emplacement), les stratégies de voix, les itinéraires et les règles de normalisation.
 
@@ -41,7 +43,7 @@ Voix entreprise est l’implémentation Microsoft de VoIP (Voice over IP). Les a
 
 ## <a name="enterprise-voice-cmdlets"></a>Cmdlets voix entreprise
 
-La plupart des tâches de gestion qui s’appliquent à voix entreprise peuvent être effectuées à partir du panneau de configuration de Lync Server. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de gestion Lync Server Management Shell ou à partir d’un script, ce qui vous permet d’automatiser certaines tâches. Voici une liste des applets de commande qui se rapportent directement à la gestion de la voix entreprise:
+La plupart des tâches de gestion qui s’appliquent à voix entreprise peuvent être effectuées à partir du panneau de configuration de Lync Server. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de gestion Lync Server Management Shell ou à partir d’un script, ce qui vous permet d’automatiser certaines tâches. Voici une liste des applets de commande qui se rapportent directement à la gestion de la voix entreprise :
 
 **[Résoudre les problèmes de cmdlet voix entreprise dans Lync Server 2013](lync-server-2013-troubleshooting-enterprise-voice-cmdlets.md)**
 

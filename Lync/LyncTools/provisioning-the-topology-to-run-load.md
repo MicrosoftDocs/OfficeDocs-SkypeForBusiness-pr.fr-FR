@@ -3,6 +3,8 @@ title: Mise en service de la topologie pour exécuter le chargement
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Provisioning the Topology to Run Load
 ms:assetid: 6fba03df-3914-4d2a-8208-e252ad993aff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945598(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 026915b4a08073e96d29b32278adc4e260eaaea4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846954"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,33 +35,33 @@ ms.locfileid: "34846954"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-04_
+_**Dernière modification de la rubrique :** 2013-02-04_
 
 <div>
 
 ## <a name="provisioning-the-topology-to-run-load"></a>Mise en service de la topologie pour exécuter le chargement
 
-Selon vos paramètres et la configuration de Lync Server 2013, il est possible que vous deviez apporter les modifications suivantes à votre environnement:
+Selon vos paramètres et la configuration de Lync Server 2013, il est possible que vous deviez apporter les modifications suivantes à votre environnement :
 
-1.  Définissez la stratégie d’exécution Windows PowerShell sur non restreinte. Pour vérifier les paramètres de stratégie d’exécution, ouvrez Lync Server Management Shell et exécutez la commande suivante:
+1.  Définissez la stratégie d’exécution Windows PowerShell sur non restreinte. Pour vérifier les paramètres de stratégie d’exécution, ouvrez Lync Server Management Shell et exécutez la commande suivante :
 
     ``` powershell
         Get-ExecutionPolicy
     ```        
 
-    Si cette commande n’a pas pour résultat la valeur Unrestricted, exécutez la commande suivante:
+    Si cette commande n’a pas pour résultat la valeur Unrestricted, exécutez la commande suivante :
 
     ``` powershell
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  Pour configurer efficacement Lync Server 2013, vous devez:
+2.  Pour configurer efficacement Lync Server 2013, vous devez :
     
       - Familiarisez-vous avec la topologie Lync Server 2013 (par exemple, les noms d’ordinateurs, les instances de service, les noms de sites et les stratégies).
     
       - Assignez certains utilisateurs qui ont été créés dans des groupes, par exemple, des groupes de recherche de Response Group (par exemple, URI SIP).
 
-3.  Pour exécuter le script à partir de la ligne de commande, vous pouvez utiliser les éléments suivants:
+3.  Pour exécuter le script à partir de la ligne de commande, vous pouvez utiliser les éléments suivants :
 
     ``` powershell
         Powershell.exe -file <path to the file>

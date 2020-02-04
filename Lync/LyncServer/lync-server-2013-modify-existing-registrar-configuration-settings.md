@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifier les paramètres de configuration du Bureau d’enregistrement existants'
+title: 'Lync Server 2013 : modifier les paramètres de configuration du Bureau d’enregistrement existants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify existing Registrar configuration settings
 ms:assetid: a8931511-3e66-49ed-a3ec-03bcd61ce1f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182566(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42629c027157c33bc9431d04d493019e4907d87b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe12f85f7ea8501f478d570612ad52cd350fdca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827003"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827003"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Vous pouvez utiliser le serveur d’inscriptions avancé pour configurer les protocoles d’authentification du serveur proxy. Pour plus d’informations sur les protocoles disponibles, voir [créer des paramètres de configuration du Bureau d’enregistrement dans Lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md).
 

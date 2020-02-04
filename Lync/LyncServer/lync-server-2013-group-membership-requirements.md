@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Exigences d’adhésion à un groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group membership requirements
 ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aed308674cc334cfb8f3d4f214ce7388ae89fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44ad8c7f6eab93f3bdcd7b73d4ae05bd3b2e25ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831123"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Le tableau suivant résume le ou les groupes auxquels une personne doit appartenir pour installer, gérer et dépanner Lync Server 2013.
 
@@ -78,7 +80,7 @@ Le tableau suivant résume le ou les groupes auxquels une personne doit apparten
 </tr>
 <tr class="even">
 <td><p><strong>TopologyBuilder</strong> -interface utilisateur pilotée par l’Assistant pour créer, afficher, ajuster et valider des topologies Lync Server 2013.</p></td>
-<td><p>Membre du groupe Administrateurs local sur l’ordinateur à partir duquel l’exécutable est exécuté pour afficher la topologie. Membre du groupe RTCUniversalServerAdmins pour modifier les paramètres de configuration. Membre du groupe RTCUniversalServerAdmins et du groupe administrateurs de domaine, ou membre du groupe RTCUniversalServerAdmins (uniquement si le groupe a reçu les autorisations de configuration du délégué), pour publier la topologie. Pour plus d’informations sur la délégation d’autorisations de configuration afin de permettre aux membres du groupe RTCUniversalServerAdmins de publier la topologie sans être membre du groupe administrateurs de domaine, voir <a href="lync-server-2013-granting-setup-permissions.md">octroi d’autorisations de configuration dans Lync Server 2013</a> dans le déploiement. accompagnant.</p></td>
+<td><p>Membre du groupe Administrateurs local sur l’ordinateur à partir duquel l’exécutable est exécuté pour afficher la topologie. Membre du groupe RTCUniversalServerAdmins pour modifier les paramètres de configuration. Membre du groupe RTCUniversalServerAdmins et du groupe administrateurs de domaine, ou membre du groupe RTCUniversalServerAdmins (uniquement si le groupe a reçu les autorisations de configuration du délégué), pour publier la topologie. Pour plus d’informations sur la délégation d’autorisations de configuration pour autoriser les membres du groupe de RTCUniversalServerAdmins à publier la topologie sans être membre du groupe administrateurs de domaine, voir <a href="lync-server-2013-granting-setup-permissions.md">octroi d’autorisations de configuration dans Lync Server 2013</a> dans la documentation de déploiement.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdminUIHost</strong> -interface utilisateur graphique basée sur le Web pour la gestion de Lync Server 2013.</p></td>
@@ -87,7 +89,7 @@ Le tableau suivant résume le ou les groupes auxquels une personne doit apparten
 <tr class="even">
 <td><p><strong>PowerShell. exe avec le module Lync Server 2013 chargé</strong> – outil d’administration de la ligne de commande avec des applets de commande spécifiques à la gestion de Lync Server 2013.</p></td>
 <td><p>Membre du groupe ou membre de CsAdministrator d’un autre rôle RBAC auquel l’applet de cmdlet spécifique a été attribuée. Pour obtenir la liste des rôles prédéfinis et des membres du cmdlet qui peuvent être exécutés, reportez-vous à la section <a href="lync-server-2013-planning-for-role-based-access-control.md">planification du contrôle d’accès basé sur les rôles dans Lync Server 2013</a> dans la documentation de planification.</p>
-<p>Ou membre d’un ou plusieurs des groupes suivants, en fonction de l’applet de commande:</p>
+<p>Ou membre d’un ou plusieurs des groupes suivants, en fonction de l’applet de commande :</p>
 <ul>
 <li><p>RTCUniversalServerAdmins</p></li>
 <li><p>RTCUniversalUserAdmins</p></li>

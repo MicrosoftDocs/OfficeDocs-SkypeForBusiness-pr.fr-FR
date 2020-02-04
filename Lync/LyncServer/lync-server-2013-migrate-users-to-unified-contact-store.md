@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Migration des utilisateurs vers le magasin de contact
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate users to unified contact store
 ms:assetid: 215a8ec1-d63e-4fdf-b73d-75aeb9dddb43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204737(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd0ec64192f1aa83eb9c076976c20a9e87ab9115
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a57ea93af90176009fff43ed4dcca9f1880a658
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827213"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827213"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-15_
+_**Dernière modification de la rubrique :** 2012-10-15_
 
-Les contacts d’un utilisateur sont automatiquement déplacés vers le serveur Exchange 2013 lorsque l’utilisateur:
+Les contacts d’un utilisateur sont automatiquement déplacés vers le serveur Exchange 2013 lorsque l’utilisateur :
 
   - une stratégie de services utilisateur dont le paramètre UcsAllowed a la valeur True a été attribuée à l’utilisateur ;
 
@@ -53,7 +55,7 @@ Déterminez si les contacts d’un utilisateur ont été transférés en utilisa
     
     Si les contacts de l’utilisateur sont stockés dans Exchange 2013, cette clé contient une valeur de InUCSMode avec une valeur de 2165.
 
-  - Exécutez l’applet de commande **Test-CsUnifiedContactStore**. Dans la ligne de commande Lync Server Management Shell, tapez:
+  - Exécutez l’applet de commande **Test-CsUnifiedContactStore**. Dans la ligne de commande Lync Server Management Shell, tapez :
     
         Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
     

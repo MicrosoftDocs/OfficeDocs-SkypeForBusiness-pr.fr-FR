@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : renforcement et protection des bases de données'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardening and protecting the databases of Lync Server 2013
 ms:assetid: 6953e721-3511-4235-b848-51bab093dc89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518330(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 265ca1058b4f3b41c5f0dbc4c5b2cdcd631fa911
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77e02a5fd0f90367f23e7b0fb314f037f7b31e45
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831093"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831093"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-12-05_
+_**Dernière modification de la rubrique :** 2013-12-05_
 
-Microsoft Lync Server 2013 dépend également de bases de données SQL Server pour le stockage des informations utilisateur, de l’état de conférences, des données d’archivage et des enregistrements des détails des appels. Vous pouvez optimiser la disponibilité des données Lync Server 2013 sur les bases de données principales de Lync Server en partitionnant les données d’application d’une façon qui améliore la tolérance de panne et simplifie la résolution des problèmes. Pour ce faire, vous pouvez partitionner les données d’application de la façon suivante:
+Microsoft Lync Server 2013 dépend également de bases de données SQL Server pour le stockage des informations utilisateur, de l’état de conférences, des données d’archivage et des enregistrements des détails des appels. Vous pouvez optimiser la disponibilité des données Lync Server 2013 sur les bases de données principales de Lync Server en partitionnant les données d’application d’une façon qui améliore la tolérance de panne et simplifie la résolution des problèmes. Pour ce faire, vous pouvez partitionner les données d’application de la façon suivante :
 
   - **L’utilisation de meilleures pratiques**   de partitionnement de serveur permet de séparer les fichiers de votre système d’exploitation, de l’application et du programme de vos fichiers de données.
 
@@ -45,11 +47,11 @@ Microsoft Lync Server 2013 dépend également de bases de données SQL Server po
 
   - **Assurez-vous que toutes les sauvegardes de données sont chiffrées et correctement gérées**   , supprimées, ou les médias de sauvegarde déplacés peuvent constituer une menace significative de la sécurité des données pour les déploiements de Lync Server 2013
 
-Sur tout serveur Lync Server 2013, à l’exception de Standard Edition Server, l’instance SQL Server Express (instance RTCLOCAL) n’est pas accessible à distance et aucune exception de pare-feu local n’est créée, à l’exception de SQL Server Express sur un serveur Standard Edition Server. Sur un serveur Standard Edition Server, la base de données principale et la Banque centrale de gestion (CMS) sont configurées pour être accessibles à distance. Pour renforcer les bases de données SQL Server, vous pouvez procéder comme suit:
+Sur tout serveur Lync Server 2013, à l’exception de Standard Edition Server, l’instance SQL Server Express (instance RTCLOCAL) n’est pas accessible à distance et aucune exception de pare-feu local n’est créée, à l’exception de SQL Server Express sur un serveur Standard Edition Server. Sur un serveur Standard Edition Server, la base de données principale et la Banque centrale de gestion (CMS) sont configurées pour être accessibles à distance. Pour renforcer les bases de données SQL Server, vous pouvez procéder comme suit :
 
   - Personnalisez le pare-feu SQL Server Express sur les serveurs Standard Edition afin de limiter l’étendue des serveurs qui peuvent accéder à distance à la base de données. Par défaut, toute adresse IP peut accéder à distance à la base de données.
 
-  - Utilisez SQL Server Configuration Manager pour spécifier les protocoles, adresses IP et ports pour l’accès distant SQL Server:
+  - Utilisez SQL Server Configuration Manager pour spécifier les protocoles, adresses IP et ports pour l’accès distant SQL Server :
     
       - Lync Server 2013 utilise le protocole TCP/IP. Il prend en charge le protocole IP version 4 (IPv4), mais pas le protocole IP version 6 (IPv6).
         
@@ -78,7 +80,7 @@ Sur tout serveur Lync Server 2013, à l’exception de Standard Edition Server, 
 
 </div>
 
-Pour plus d’informations sur les configurations personnalisées et le renforcement de bases de données SQL Server, voir l’article de blog NextHop intitulé «utilisation de Lync Server 2010 avec une configuration [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)réseau SQL Server personnalisée».
+Pour plus d’informations sur les configurations personnalisées et le renforcement de bases de données SQL Server, voir l’article de blog NextHop intitulé « utilisation de Lync Server 2010 avec une configuration [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)réseau SQL Server personnalisée ».
 
 <div>
 

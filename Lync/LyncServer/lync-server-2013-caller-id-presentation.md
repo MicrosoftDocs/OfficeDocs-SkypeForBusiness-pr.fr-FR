@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: présentation ID de l’appelant'
+title: 'Lync Server 2013 : présentation ID de l’appelant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Caller ID presentation
 ms:assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204980(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 016913ad68865f7d93512cc7383f2cfb47497ebe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2afe4682250bd6065ba368d7812dfdcd5626042e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838694"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838694"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Avec Lync Server 2010, le numéro de téléphone de la personne appelé (c’est-à-dire, le numéro de téléphone appelé) peut être converti à partir du format E. 164 vers le format de numérotation local requis par le Trunk pair (c’est-à-dire, la passerelle associée, le PBX (PBX) ou le Trunk SIP). À cet effet, vous devez définir une ou plusieurs règles de traduction pour convertir l’URI de demande avant de l’acheminer vers l’homologue de jonction.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: sauvegarde de bases de données d’archivage et de surveillance'
+title: 'Lync Server 2013 : sauvegarde de bases de données d’archivage et de surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up Archiving and Monitoring databases
 ms:assetid: c120db81-b02c-4a4c-90cd-8aca6cff64f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202188(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdc7a6c871fcb5a91b3f98e2838cb3237e945e58
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4092ddc3c86496053cc0ebbb367188490096de4f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838896"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838896"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-17_
+_**Dernière modification de la rubrique :** 2013-02-17_
 
 Si vous avez déployé l’archivage ou le contrôle, vous devez sauvegarder ces bases de données en fonction de la stratégie de sauvegarde SQL Server de votre organisation.
 

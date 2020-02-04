@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets droits d’utilisateur et autorisations'
+title: 'Lync Server 2013 : cmdlets droits d’utilisateur et autorisations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User rights and permissions cmdlets
 ms:assetid: b53aae4c-651f-4cbc-a762-ba818d63897e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab95364abf7bdd0a256f2cd8272d14ec1bc86968
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2412dc6af5153d431ff6d75177f405c00138fdaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846445"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846445"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-26_
+_**Dernière modification de la rubrique :** 2012-06-26_
 
 Les applets de commande d’autorisation de l’utilisateur servent essentiellement à gérer le contrôle d’accès basé sur les rôles (RBAC), la nouvelle technologie permettant de déléguer le contrôle administratif de Microsoft Lync Server 2013.
 
@@ -41,7 +43,7 @@ Les applets de commande d’autorisation de l’utilisateur servent essentiellem
 
 ## <a name="user-permission-cmdlets"></a>Cmdlets d’autorisation de l’utilisateur
 
-Voici une liste des applets de commande qui sont associées directement à la gestion des autorisations des utilisateurs:
+Voici une liste des applets de commande qui sont associées directement à la gestion des autorisations des utilisateurs :
 
 **Autorisations des utilisateurs**
 

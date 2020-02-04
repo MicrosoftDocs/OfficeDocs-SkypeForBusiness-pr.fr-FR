@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration technique requise pour le parcage d’a
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Call Park
 ms:assetid: 38bcf302-2b72-4492-9266-f6dc31b566e1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204818(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c03c3b99e911766d2c60eec2a5515b3750d29
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 742d6ef62068e3e6e3bbd953e078b186e86bb497
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846636"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846636"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-Cette section décrit les exigences techniques suivantes en matière de stationnement d’appel:
+Cette section décrit les exigences techniques suivantes en matière de stationnement d’appel :
 
   - Configuration matérielle requise
 
@@ -67,7 +69,7 @@ Tous les serveurs frontaux et les serveurs Standard Edition Server pour lesquels
 
 ## <a name="port-requirements"></a>Configuration requise pour les ports
 
-L’application de parc d’appels utilise le port suivant:
+L’application de parc d’appels utilise le port suivant :
 
   - **Port 5075**   utilisé pour les demandes d’écoute SIP.
 
@@ -87,7 +89,7 @@ L’application de parc d’appels utilise le port suivant:
 
 ## <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
-L’application de parc d’appels prend uniquement en charge les fichiers Windows Media audio (. WMA) pour la musique en attente. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir «Expression Encoder 4» à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé pour les fichiers de la musique de parc d’appels est l’audio multimédia 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
+L’application de parc d’appels prend uniquement en charge les fichiers Windows Media audio (. WMA) pour la musique en attente. Pour personnaliser les fichiers d’attente musicale, vous pouvez utiliser Microsoft Expression Encoder 4. Pour télécharger Expression Encoder 4, voir « Expression Encoder 4 » à l’adresse [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843). Utilisez l’outil pour convertir le fichier au format .wma. Le format recommandé pour les fichiers de la musique de parc d’appels est l’audio multimédia 9, 44 kHz, 16 bits, mono, CBR, 32 kbps.
 
 <div>
 

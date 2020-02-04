@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation du routage par emplacement'
+title: 'Lync Server 2013 : activation du routage par emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Location-Based Routing
 ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 170ca1af77a84b655e90d5587fcd101cccf83c8a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e21e1a285fa5b2129d4d0ed0b5d75e8dcee42f2f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831272"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831272"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-04-26_
+_**Dernière modification de la rubrique :** 2013-04-26_
 
-Après le déploiement d’Enterprise Voice et des régions du réseau, des sites et des sous-réseaux sont définis, vous pouvez activer le routage selon l’emplacement. Le routage basé sur l’emplacement doit être activé pour les éléments vocaux d’entreprise suivants:
+Après le déploiement d’Enterprise Voice et des régions du réseau, des sites et des sous-réseaux sont définis, vous pouvez activer le routage selon l’emplacement. Le routage basé sur l’emplacement doit être activé pour les éléments vocaux d’entreprise suivants :
 
   - Sites réseau
 
@@ -121,8 +123,8 @@ Dans cet exemple, le tableau ci-dessous illustre le routage basé sur l’emplac
 </tr>
 <tr class="even">
 <td><p>EnableLocationBasedRouting</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
+<td><p>Vrai</p></td>
 </tr>
 <tr class="odd">
 <td><p>Politique de routage de la voix</p></td>
@@ -168,14 +170,14 @@ Une fois qu’une configuration de Trunk est configurée par Trunk, vous pouvez 
 
 Pour plus d’informations, reportez-vous à [New-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsTrunkConfiguration).
 
-Dans cet exemple, le routage basé sur l’emplacement est activé pour chaque Trunk associé aux passerelles RTC dans Delhi et Hyderabad:
+Dans cet exemple, le routage basé sur l’emplacement est activé pour chaque Trunk associé aux passerelles RTC dans Delhi et Hyderabad :
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 1 DEL-GW -EnableLocationRestriction $true -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 2 HYD-GW -EnableLocationRestriction $true -NetworkSiteID "Hyderabad"
 
   
 
-N’activez pas le routage par emplacement pour les lignes qui ne routent pas les appels vers le RTC; Toutefois, vous devez toujours associer le Trunk au site réseau où se trouve le système en tant que restrictions de routage basées sur l’emplacement doivent être appliquées pour les appels RTC atteignant des points de terminaison connectés par le biais de ce Trunk. Pour cet exemple, le routage basé sur l’emplacement n’est pas activé pour chaque Trunk associé aux systèmes PBX dans Delhi et Hyderabad:
+N’activez pas le routage par emplacement pour les lignes qui ne routent pas les appels vers le RTC ; Toutefois, vous devez toujours associer le Trunk au site réseau où se trouve le système en tant que restrictions de routage basées sur l’emplacement doivent être appliquées pour les appels RTC atteignant des points de terminaison connectés par le biais de ce Trunk. Pour cet exemple, le routage basé sur l’emplacement n’est pas activé pour chaque Trunk associé aux systèmes PBX dans Delhi et Hyderabad :
 
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 3 DEL-PBX -EnableLocationRestriction $false -NetworkSiteID "Delhi"
     Set-CsTrunkConfiguration -Identity Service:PstnGateway:Trunk 4 HYD-PBX -EnableLocationRestriction $false -NetworkSiteID "Hyderabad"
@@ -183,7 +185,7 @@ N’activez pas le routage par emplacement pour les lignes qui ne routent pas le
   
 Les points de terminaison qui sont connectés à des systèmes qui ne routent pas les appels vers le RTC (par exemple, un PBX) présentent des restrictions similaires aux points de terminaison Lync pour le routage de l’emplacement. Cela signifie que ces utilisateurs seront en mesure de passer et de recevoir des appels vers et à partir de l’utilisateur Lync indépendamment de l’emplacement de l’utilisateur. Ils seront également en mesure de passer des appels de réception vers et à partir d’autres systèmes qui ne routent pas les appels vers le réseau PSTN (par exemple, un point de terminaison connecté à un autre système PBX), quel que soit le site du réseau auquel le système est associé. Tous les appels entrants, les appels sortants, les transferts d’appel et le transfert d’appel impliquant des points de terminaison RTC sont soumis à des conditions de routage basées sur l’emplacement. Ces appels doivent uniquement utiliser des passerelles RTC définies comme locales pour ces systèmes.
 
-Le tableau suivant illustre la configuration de Trunk de quatre Trunks dans deux sites réseau différents: deux connectés à des passerelles RTC et deux connectés à des systèmes PBX.
+Le tableau suivant illustre la configuration de Trunk de quatre Trunks dans deux sites réseau différents : deux connectés à des passerelles RTC et deux connectés à des systèmes PBX.
 
 
 <table>
@@ -201,22 +203,22 @@ Le tableau suivant illustre la configuration de Trunk de quatre Trunks dans deux
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PstnGateway: Trunk 1 DEL-GW</p></td>
-<td><p>True</p></td>
+<td><p>PstnGateway : Trunk 1 DEL-GW</p></td>
+<td><p>Vrai</p></td>
 <td><p>Site 1 (Delhi)</p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway: Trunk 2 HYD-GW</p></td>
-<td><p>True</p></td>
+<td><p>PstnGateway : Trunk 2 HYD-GW</p></td>
+<td><p>Vrai</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
 <tr class="odd">
-<td><p>PstnGateway: Trunk 3 DEL-PBX</p></td>
+<td><p>PstnGateway : Trunk 3 DEL-PBX</p></td>
 <td><p>False</p></td>
 <td><p>Site 1 (Delhi)</p></td>
 </tr>
 <tr class="even">
-<td><p>PstnGateway: Trunk 4 HYD-PBX</p></td>
+<td><p>PstnGateway : Trunk 4 HYD-PBX</p></td>
 <td><p>False</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
@@ -273,8 +275,8 @@ Pour cet exemple, les commandes de tableau et de Windows PowerShell suivantes il
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
+<td><p>Vrai</p></td>
 </tr>
 </tbody>
 </table>

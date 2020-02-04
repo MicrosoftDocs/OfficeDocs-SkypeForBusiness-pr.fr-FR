@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer une stratégie de version de client existante'
+title: 'Lync Server 2013 : supprimer une stratégie de version de client existante'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing client version policy
 ms:assetid: b88aaa25-97ff-4eb6-bd34-b97332cd6890
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923064(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0adc3ab47b3b441eff900c6a9202a782e524c22c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99936b495075034e6eae3f90e6dd95325bf6e2be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831622"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Si vous souhaitez supprimer une stratégie de version de client déjà configurée, vous pouvez la supprimer de Lync Server 2013 Control Panel ou de Lync Server 2013 Management Shell.
 
@@ -55,13 +57,13 @@ Si vous souhaitez supprimer une stratégie de version de client déjà configur�
 
 ## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a>Suppression de stratégies de version du client à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez supprimer des stratégies de version du client à l’aide de l’applet de contrôle **Remove-CsClientVersionPolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez supprimer des stratégies de version du client à l’aide de l’applet de contrôle **Remove-CsClientVersionPolicy** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-remove-a-specific-client-version-policy"></a>Pour supprimer une stratégie de version de client spécifique
 
-  - Cette commande supprime la stratégie de version du client appliquée au site de Redmond:
+  - Cette commande supprime la stratégie de version du client appliquée au site de Redmond :
     
         Remove-CsClientVersionPolicy -Identity site:Redmond
 
@@ -71,7 +73,7 @@ Vous pouvez supprimer des stratégies de version du client à l’aide de l’ap
 
 ## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a>Pour supprimer toutes les stratégies de version de client appliquées à l’étendue du site
 
-  - Cette commande supprime toutes les stratégies de version de client configurées sur l’étendue du site:
+  - Cette commande supprime toutes les stratégies de version de client configurées sur l’étendue du site :
     
         Get-CsClientVersionPolicy -Fiter "site:*" | Remove-CsClientVersionPolicy
 
@@ -81,7 +83,7 @@ Vous pouvez supprimer des stratégies de version du client à l’aide de l’ap
 
 ## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a>Pour supprimer les stratégies de version de client n’incluant pas d’agent utilisateur spécifique
 
-  - Cette commande supprime toutes les stratégies de version de client n’incluant pas de règle pour l’agent utilisateur de Lync pour Windows Phone (WPLync):
+  - Cette commande supprime toutes les stratégies de version de client n’incluant pas de règle pour l’agent utilisateur de Lync pour Windows Phone (WPLync) :
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 

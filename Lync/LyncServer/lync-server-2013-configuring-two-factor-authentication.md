@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de l’authentification à deux facteurs'
+title: 'Lync Server 2013 : configuration de l’authentification à deux facteurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring two-factor authentication
 ms:assetid: 66cfa755-fe79-4d0f-b267-c3fa3c8f1c74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308567(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4f3793f51b84c61fe50956d0d2f47303ed8904e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ee6bc90743e20f69579c86c565395e0375c8bb0b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838164"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838164"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-03_
+_**Dernière modification de la rubrique :** 2013-07-03_
 
 Les sections ci-dessous décrivent la procédure de configuration de l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir [activation de l’authentification multifacteur Office 365 pour les administrateurs en ligne](http://go.microsoft.com/fwlink/p/?linkid=313332)
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour les conférences Web'
+title: 'Lync Server 2013 : configuration requise pour les conférences Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Web conferencing requirements
 ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dddfd7c2fdfe6cbcefcca7533e93c3c377cceea8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 186f597c4328c8cee5085e7e599228b60c300a96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846207"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 Si vous avez choisi d’activer les conférences web, vous devez planifier les points suivants :
 
@@ -49,7 +51,7 @@ Si vous avez choisi d’activer les conférences web, vous devez planifier les p
 
 Le service de conférence Web Lync Server 2013 stocke le contenu partagé pendant les réunions du magasin de fichiers. Dans le cadre du déploiement, vous devez spécifier un partage de fichiers à utiliser comme magasin de fichiers pour le pool frontal Standard Edition Server ou Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel le partage de fichiers doit se trouver et un nom de dossier pour le nouveau partage de fichiers.Pour plus d’informations, reportez-vous à la rubrique générateur de topologies-définir le magasin de fichiers au premier plan. Le service de conférence web chiffre le contenu avant de le stocker dans le magasin de fichiers.
 
-Lync Server 2013 prend en charge l’utilisation des partages de fichiers sur le stockage en attachement direct (DAS) ou sur un réseau de stockage (réseau de stockage), y compris le système de fichiers DFS et sur un réseau redondant de disques indépendants pour les magasins de fichiers. Lorsque l’Assistant Déploiement de Lync Server a défini l’emplacement du partage de fichiers, Lync Server crée une structure de dossiers dans le partage de fichier similaire à ce qui suit:
+Lync Server 2013 prend en charge l’utilisation des partages de fichiers sur le stockage en attachement direct (DAS) ou sur un réseau de stockage (réseau de stockage), y compris le système de fichiers DFS et sur un réseau redondant de disques indépendants pour les magasins de fichiers. Lorsque l’Assistant Déploiement de Lync Server a défini l’emplacement du partage de fichiers, Lync Server crée une structure de dossiers dans le partage de fichier similaire à ce qui suit :
 
   - 1-ApplicationServer-1
 
@@ -77,7 +79,7 @@ L’administrateur doit définir des autorisations sur le partage de fichiers de
 
 </div>
 
-Vous pouvez utiliser les paramètres suivants pour gérer la façon dont le contenu est stocké pour une réunion:
+Vous pouvez utiliser les paramètres suivants pour gérer la façon dont le contenu est stocké pour une réunion :
 
   - **ContentGracePeriod**, qui se trouve dans [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), définit la durée de conservation du contenu de conférences Web sur le serveur une fois la réunion terminée.
 

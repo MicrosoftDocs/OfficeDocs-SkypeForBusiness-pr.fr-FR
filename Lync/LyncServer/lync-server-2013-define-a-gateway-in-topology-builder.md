@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: définir une passerelle dans le générateur de topologie'
+title: 'Lync Server 2013 : définir une passerelle dans le générateur de topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a gateway in Topology Builder
 ms:assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c9e57ad4e3d8c1692731bcfd4a56dc5c3d05bda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18f257648ba24930eaab0d314e34178ffd67a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831727"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
-Suivez les étapes ci-dessous pour définir un homologue ** qui vous permet d’associer un serveur de médiation afin de fournir une connectivité au réseau téléphonique commuté (PSTN) pour les utilisateurs autorisés à utiliser voix entreprise. Un hôte du serveur de médiation peut être une passerelle RTC, un PBX IP ou un contrôleur de bordure de session (SBC) pour un fournisseur de services de téléphonie Internet (ITSP) auquel vous vous connectez en configurant un Trunk SIP.
+Suivez les étapes ci-dessous pour définir un *homologue* qui vous permet d’associer un serveur de médiation afin de fournir une connectivité au réseau téléphonique commuté (PSTN) pour les utilisateurs autorisés à utiliser voix entreprise. Un hôte du serveur de médiation peut être une passerelle RTC, un PBX IP ou un contrôleur de bordure de session (SBC) pour un fournisseur de services de téléphonie Internet (ITSP) auquel vous vous connectez en configurant un Trunk SIP.
 
 <div>
 
 
 > [!NOTE]  
-> Dans cette rubrique, nous partons du principe que vous avez configuré au moins une réserve de serveurs frontaux internes ou un serveur Standard Edition Server, comme décrit dans <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">la section définir et configurer une liste frontale ou un serveur Standard Edition dans Lync Server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publiez la topologie dans lync Server 2013</A> dans la documentation de déploiement. Cette rubrique part du principe que vous avez vérifié que votre infrastructure répond aux conditions préalables décrites dans la rubrique <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">logiciels requis pour Enterprise Voice dans Lync Server 2013</A> et la <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">sécurité et configuration requise pour Enterprise Voice dans Lync. Server 2013</A>.
+> Dans cette rubrique, nous partons du principe que vous avez configuré au moins une réserve interne ou un serveur Standard Edition Server dans au moins un site central doté d’un serveur de médiation autonome ou autonome, comme décrit dans <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">la rubrique définir et configurer un pool frontal ou un serveur Standard Edition Server dans Lync server 2013</A> et <A href="lync-server-2013-publish-the-topology.md">publier la topologie dans Lync Server 2013</A> dans la documentation de déploiement. Dans cette rubrique, nous partons également du principe que vous avez vérifié que votre infrastructure répond aux conditions préalables décrites dans la rubrique <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">logiciels requis pour Enterprise Voice de Lync server 2013</A> et de <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">sécurité et configuration requise pour Enterprise Voice dans Lync Server 2013</A>.
 
 
 
@@ -51,15 +53,15 @@ Suivez les étapes ci-dessous pour définir un homologue ** qui vous permet d’
 
 ## <a name="to-define-a-peer-for-the-mediation-server"></a>Pour définir un homologue pour le serveur de médiation
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Sous Lync Server 2013, le nom de votre site, composants partagés, cliquez avec le bouton droit sur le nœud **passerelles RTC** , puis cliquez sur **nouvelle passerelle PSTN**.
     
-    ![d898c3c1-8798-4b74-8F02-b994ef3db4c1] (images/Gg425945.d898c3c1-8798-4b74-8f02-b994ef3db4c1(OCS.15).png "d898c3c1-8798-4b74-8F02-b994ef3db4c1")
+    ![d898c3c1-8798-4b74-8f02-b994ef3db4c1](images/Gg425945.d898c3c1-8798-4b74-8f02-b994ef3db4c1(OCS.15).png "d898c3c1-8798-4b74-8f02-b994ef3db4c1")
 
 3.  Dans **Définir une nouvelle passerelle IP/RTC**, tapez le nom de domaine complet ou l’adresse IP de l’homologue, puis cliquez sur **Suivant**.
     
-    ![8017ba5e-41bc-48D4-97D9-fd306cd322b8] (images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "8017ba5e-41bc-48D4-97D9-fd306cd322b8")
+    ![8017ba5e-41bc-48d4-97d9-fd306cd322b8](images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "8017ba5e-41bc-48d4-97d9-fd306cd322b8")
     
     <div>
     
@@ -72,17 +74,17 @@ Suivez les étapes ci-dessous pour définir un homologue ** qui vous permet d’
 
 4.  Définissez le mode d’écoute (IPv4 ou IPv6) de l’adresse IP de votre nouvelle passerelle RTC, puis cliquez sur **Suivant**.
     
-    ![c7fc0d12-adc8-45a7-ACA1-b376e1d2fcec] (images/Gg425945.c7fc0d12-adc8-45a7-aca1-b376e1d2fcec(OCS.15).png "c7fc0d12-adc8-45a7-ACA1-b376e1d2fcec")
+    ![c7fc0d12-adc8-45a7-aca1-b376e1d2fcec](images/Gg425945.c7fc0d12-adc8-45a7-aca1-b376e1d2fcec(OCS.15).png "c7fc0d12-adc8-45a7-aca1-b376e1d2fcec")
 
 5.  Définissez une *jonction racine* pour la passerelle RTC. Un Trunk est une connexion logique entre un serveur de médiation et une passerelle identifiée de manière unique par le tuple.
     
-    Le nom de domaine complet du serveur de médiation, port d’écoute du serveur de médiation (TLS ou TCP): adresse IP et nom de domaine complet de la passerelle
+    Le nom de domaine complet du serveur de médiation, port d’écoute du serveur de médiation (TLS ou TCP) : adresse IP et nom de domaine complet de la passerelle
     
       - Lors de la définition d’une passerelle RTC dans le générateur de topologie, vous devez définir une Trunk racine pour ajouter correctement la passerelle RTC à votre topologie.
     
       - Vous ne pouvez pas supprimer la jonction racine tant que la passerelle RTC associée n’est pas supprimée.
     
-    ![3b030757-EB35-4616-bb6b-74ee67507e3d] (images/Gg425945.3b030757-eb35-4616-bb6b-74ee67507e3d(OCS.15).png "3b030757-EB35-4616-bb6b-74ee67507e3d")
+    ![3b030757-eb35-4616-bb6b-74ee67507e3d](images/Gg425945.3b030757-eb35-4616-bb6b-74ee67507e3d(OCS.15).png "3b030757-eb35-4616-bb6b-74ee67507e3d")
 
 6.  Sous **port d’écoute pour la passerelle RTC/IP**, tapez le port d’écoute que la passerelle, le PBX ou la SBC utilisera pour les messages SIP du serveur de médiation qui sera associé au Trunk racine de la passerelle RTC. (Par défaut, les ports sont 5066 pour TCP [Transmission Control Protocol] et 5067 pour TLS [Transport Layer Security] sur une passerelle RTC, un autocommutateur privé [PBX] ou un contrôleur SBC. Sur une unité de branchement Survivable sur une succursale, les ports par défaut sont 5081 pour TCP et 5082 pour TLS.)
 

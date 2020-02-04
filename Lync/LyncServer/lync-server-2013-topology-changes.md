@@ -3,6 +3,8 @@ title: Modifications de la topologie dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topology changes
 ms:assetid: 9e40ef93-9ab0-498c-9bbf-f94584353e53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688153(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f0ea02d1643a686e16d3d1984e756a48311b421
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4453a9b5b8a5fcd60eaad1e437fd4800caddfba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846494"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 Les exigences et considérations en matière de topologie pour Lync Server 2013 diffèrent de celles des versions précédentes, comme décrit dans cette section.
 
@@ -61,13 +63,13 @@ Certains rôles de serveur déjà exécutés sur des serveurs distincts sont dé
 
   - Les extrémités frontales pour la surveillance et l’archivage sont désormais toujours colocalisées avec le serveur frontal. La surveillance et l’archivage de chacune d’elles requièrent une base de données principale distincte, qui peut être désactivée sur le même serveur que la base de données principale du pool frontal, ou hébergées sur des serveurs principaux distincts.
 
-  - Le serveur Chat permanent est désormais un rôle serveur. Dans Microsoft Lync Server 2010, le serveur de discussion de groupe était une application de confiance tierce pour Microsoft Lync Server 2010. Dans Lync Server 2013, la fonctionnalité de serveur Chat permanent est implémentée en utilisant trois rôles de serveur:
+  - Le serveur Chat permanent est désormais un rôle serveur. Dans Microsoft Lync Server 2010, le serveur de discussion de groupe était une application de confiance tierce pour Microsoft Lync Server 2010. Dans Lync Server 2013, la fonctionnalité de serveur Chat permanent est implémentée en utilisant trois rôles de serveur :
     
-      - **PersistentChatService:** Principaux services serveur de chat permanent implémentés en tant que rôle frontal
+      - **PersistentChatService :** Principaux services serveur de chat permanent implémentés en tant que rôle frontal
     
-      - **PersistentChatStore:** Rôle serveur principal
+      - **PersistentChatStore :** Rôle serveur principal
     
-      - **PersistentChatComplianceStore:** Rôle serveur principal pour la conformité de la conversation persistante
+      - **PersistentChatComplianceStore :** Rôle serveur principal pour la conformité de la conversation persistante
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Fonctionnalités non prises en charge par le routage 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capabilities not supported by Location-Based Routing
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ca2d775fc17d0919ceb31a38b242e54d37b6a55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838682"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838682"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-12_
+_**Dernière modification de la rubrique :** 2014-03-12_
 
 Le routage basé sur l’emplacement ne s’applique pas aux types d’interactions suivants. Le routage basé sur l’emplacement n’est pas appliqué lorsque les points de terminaison Lync interagissent avec les points de terminaison RTC à l’aide de ces fonctionnalités.
 
@@ -47,7 +49,7 @@ Le routage basé sur l’emplacement ne s’applique pas aux types d’interacti
 
   - Appels RTC entrants récupérés via la prise d’appel de groupe
 
-Pour appliquer les règles de routage basées sur les emplacements aux types d’interactions dans la liste suivante, vous devez activer le routage par emplacement pour les conférences:
+Pour appliquer les règles de routage basées sur les emplacements aux types d’interactions dans la liste suivante, vous devez activer le routage par emplacement pour les conférences :
 
   - Appels RTC sortants à partir des conférences
 

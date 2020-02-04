@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Démarrez ou arrêtez Lync Server services'
+title: 'Lync Server 2013 : Démarrez ou arrêtez Lync Server services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Start or stop Lync Server 2013 services
 ms:assetid: 1c70b4ec-9de5-4f7a-a3c9-c0eb76710505
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a44e0725aa622b061acc936606bdf2941050952
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a986f0bef8c41cf5113e99504369974562e294a2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846759"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846759"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-05_
+_**Dernière modification de la rubrique :** 2014-02-05_
 
 Vous pouvez utiliser le panneau de configuration de Lync Server pour démarrer ou arrêter l’exécution de tous les services Lync Server 2013 sur un ordinateur spécifique ou pour démarrer ou arrêter un service spécifique.
 
@@ -41,13 +43,13 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour démarrer o
 
 ## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>Pour démarrer ou arrêter tous les services Lync Server sur un ordinateur
 
-1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013. Vous pouvez déterminer si vous avez reçu le rôle CsServerAdministrator ou CsAdministrator RBAC en exécutant une commande semblable à ce qui suit:
+1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à n’importe quel ordinateur se trouve sur le réseau sur lequel vous avez déployé Lync Server 2013. Vous pouvez déterminer si vous avez reçu le rôle CsServerAdministrator ou CsAdministrator RBAC en exécutant une commande semblable à ce qui suit :
     
         Get-CsAdminRoleAssignment -Identity "kenmyer"
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 4.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services que vous voulez démarrer ou arrêter, puis cliquez dessus.
 
@@ -65,7 +67,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour démarrer o
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 4.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant le service que vous voulez démarrer ou arrêter, puis cliquez dessus.
 

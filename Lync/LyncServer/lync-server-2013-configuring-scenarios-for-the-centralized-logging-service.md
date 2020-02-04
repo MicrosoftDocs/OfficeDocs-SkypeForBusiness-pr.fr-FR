@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de scénarios pour le service de journalisation centralisé'
+title: 'Lync Server 2013 : configuration de scénarios pour le service de journalisation centralisé'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd3933ff81fad6947fcc4ab1ff7a7dc9ad136c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838183"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838183"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-05_
+_**Dernière modification de la rubrique :** 2014-02-05_
 
-Les scénarios définissent l’étendue (c’est-à-dire, le site, le pool ou l’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisé. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Si vous constatez qu’un scénario doit être modifié pour répondre à vos besoins en matière de résolution des problèmes et de journalisation, les outils de débogage de Lync Server 2013 vous fournissent un module Windows PowerShell intitulé *ClsController. psm1* qui contient une fonction nommée *Edit-CsClsScenario *. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Les outils de débogage de Lync Server 2013 sont téléchargés à partir du lien suivant:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Les scénarios définissent l’étendue (c’est-à-dire, le site, le pool ou l’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisé. By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence). By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition. Si vous constatez qu’un scénario doit être modifié pour répondre à vos besoins en matière de résolution des problèmes et de journalisation, les outils de débogage de Lync Server 2013 vous fournissent un module Windows PowerShell intitulé *ClsController. psm1* qui contient une fonction nommée *Edit-CsClsScenario*. The purpose of the module is to edit the properties of the named scenario. Examples of how this module works are provided in this topic. Les outils de débogage de Lync Server 2013 sont téléchargés à partir du lien suivant :[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -47,7 +49,7 @@ Les scénarios définissent l’étendue (c’est-à-dire, le site, le pool ou l
 
 </div>
 
-Pour exécuter les fonctions de service de journalisation centralisées à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé qui contient de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande, y compris les rôles RBAC personnalisés que vous avez créés vous-même, exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell:
+Pour exécuter les fonctions de service de journalisation centralisées à l’aide de Lync Server Management Shell, vous devez être membre des groupes de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC), ou un rôle RBAC personnalisé qui contient de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC attribués à cette applet de commande, y compris les rôles RBAC personnalisés que vous avez créés vous-même, exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -57,7 +59,7 @@ Exemple :
 
 Le reste de cette rubrique porte sur la façon de définir, de modifier, de supprimer un scénario, de récupérer des scénarios en cours dʼexécution et de spécifier les éléments dʼun scénario afin dʼoptimiser la résolution de problèmes. Il existe deux façons d’envoyer des commandes de service de journalisation centralisées. Vous pouvez utiliser le CLSController. exe qui se trouve par défaut dans le répertoire C\\: fichiers\\fichiers communs\\Microsoft Lync Server 2013\\CLSAgent. Vous pouvez ou utiliser Lync Server Management Shell pour exécuter les commandes Windows PowerShell. La distinction importante réside dans le fait que, lorsque vous utilisez CLSController. exe à la ligne de commande, il existe une sélection limitée de scénarios disponibles. Lorsque vous utilisez Windows PowerShell, vous pouvez définir de nouveaux scénarios à utiliser dans vos sessions de journalisation.
 
-Comme présenté dans [la vue d’ensemble du service de journalisation centralisé dans Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), les éléments d’un scénario sont les suivants:
+Comme présenté dans [la vue d’ensemble du service de journalisation centralisé dans Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), les éléments d’un scénario sont les suivants :
 
   - **Fournisseurs**   si vous êtes familiarisé avec OCSLogger, les fournisseurs sont les composants que vous choisissez pour déterminer OCSLogger ce sur quoi le moteur de suivi doit collecter les journaux. Les fournisseurs sont les mêmes composants et, dans de nombreux cas, ont le même nom que les composants dans OCSLogger. Si vous n’êtes pas familiarisé avec OCSLogger, les fournisseurs sont des composants spécifiques du rôle serveur, que le service de journalisation centralisé peut collecter dans les journaux. Pour plus d’informations sur la configuration des fournisseurs, voir [configurer des fournisseurs pour le service de journalisation centralisé dans Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
 
@@ -78,7 +80,7 @@ Comme présenté dans [la vue d’ensemble du service de journalisation centrali
 
 ## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Pour créer un scénario avec l’applet de commande New-CsClsScenario
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Pour créer un nouveau scénario pour une session de journalisation, utilisez [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) et définissez le nom du scénario (cʼest-à-dire comment il va être identifié de manière unique). Choisissez un type de format de journalisation dans WPP (cʼest-à-dire le préprocesseur de suivi Windows défini par défaut), EventLog (format de journal des événements Windows) ou IISLog (fichier au format ASCII basé sur le format de fichier journal IIS). Ensuite, définissez Level (voir la définition sous Niveaux de journalisation de cette rubrique) et Flags (voir la définition sous Indicateurs dans cette rubrique).
     
@@ -102,9 +104,9 @@ Comme présenté dans [la vue d’ensemble du service de journalisation centrali
 
 ## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>Pour créer un scénario avec plusieurs fournisseurs à l’aide de l’applet de commande New-CsClsScenario
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-2.  Vous êtes limité à deux scénarios par étendue. Cependant, le nombre de fournisseurs n’est pas limité. Dans cet exemple, supposons que vous avez créé trois fournisseurs et que vous souhaitez les affecter tous les trois au scénario que vous définissez. Les noms des variables de fournisseur sont LyssProvider, ABServerProvider et SIPStackProvider. Pour définir et affecter plusieurs fournisseurs à un scénario, tapez ce qui suit dans une invite de commandes Lync Server Management Shell ou Windows PowerShell:
+2.  Vous êtes limité à deux scénarios par étendue. Cependant, le nombre de fournisseurs n’est pas limité. Dans cet exemple, supposons que vous avez créé trois fournisseurs et que vous souhaitez les affecter tous les trois au scénario que vous définissez. Les noms des variables de fournisseur sont LyssProvider, ABServerProvider et SIPStackProvider. Pour définir et affecter plusieurs fournisseurs à un scénario, tapez ce qui suit dans une invite de commandes Lync Server Management Shell ou Windows PowerShell :
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
@@ -112,7 +114,7 @@ Comme présenté dans [la vue d’ensemble du service de journalisation centrali
     
 
     > [!NOTE]  
-    > Comme il est connu dans Windows PowerShell, la Convention de création d’une table de hachage de <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> valeurs à l' <EM></EM>aide de la création d’une table de hachage. Pour plus d’informations sur la projection dans Windows PowerShell, <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>reportez-vous à la rubrique.
+    > Comme il est connu dans Windows PowerShell, la Convention de création d’une table de hachage de <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> valeurs à l' <EM>aide de la</EM>création d’une table de hachage. Pour plus d’informations sur la projection dans Windows PowerShell, <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>reportez-vous à la rubrique.
 
     
     </div>
@@ -123,7 +125,7 @@ Comme présenté dans [la vue d’ensemble du service de journalisation centrali
 
 ## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Pour modifier un scénario existant avec l’applet de commande Set-CsClsScenario
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Vous êtes limité à deux scénarios par étendue. Vous pouvez modifier les scénarios qui s’ exécutent à tout moment, même lorsqu’une session de capture de journalisation est en cours. Si vous redéfinissez les scénarios en cours d’exécution, la session de journalisation actuelle cesse d’utiliser le scénario qui a été supprimé et utilise ensuite le nouveau scénario. Toutefois, les informations de journalisation qui ont été capturées avec le scénario supprimé sont conservées dans les journaux capturés. Pour définir un nouveau scénario, procédez comme suit (pour cela, nous partons du principe qu’un fournisseur déjà défini nommé « S4Provider » a été ajouté) :
     
@@ -151,7 +153,7 @@ Comme présenté dans [la vue d’ensemble du service de journalisation centrali
 
 ## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Pour supprimer un scénario existant avec l’applet de commande Remove-CsClsScenario
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Si vous souhaitez supprimer un scénario précédemment défini, tapez ce qui suit :
     
@@ -169,7 +171,7 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
 
 ## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>Pour charger et décharger l’applet de cmdlet Edit-CsClsScenario à l’aide du module ClsController. psm1
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
     
     <div>
     
@@ -180,7 +182,7 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
     
     </div>
 
-2.  Dans Windows PowerShell, tapez:
+2.  Dans Windows PowerShell, tapez :
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
@@ -212,7 +214,7 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
 
 ## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Pour supprimer un fournisseur existant d’un scénario avec le module Edit-ClsController
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Pour supprimer un fournisseur du scénario AlwaysOn, tapez :
     
@@ -234,7 +236,7 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
 
 ## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Pour ajouter un fournisseur à un scénario avec le module Edit-ClsController
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Pour ajouter un fournisseur au scénario AlwaysOn, tapez :
     

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets d’enregistrement centralisé'
+title: 'Lync Server 2013 : cmdlets d’enregistrement centralisé'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Centralized Logging cmdlets
 ms:assetid: 8ba5bcae-8b99-489c-9355-6e77d4ad9100
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205064(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184743
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01087b335098e34dc3066fbee31c5e6ec7995698
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 05bdedc57fca4c51351bcee351c7774c471cc821
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838666"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838666"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-08_
+_**Dernière modification de la rubrique :** 2012-10-08_
 
 Les applets de connexion centralisés permettent aux administrateurs de gérer et de configurer les fonctionnalités d’enregistrement centralisé introduites dans Microsoft Lync Server 2013. La journalisation centralisée permet aux administrateurs d’activer ou de désactiver simultanément le suivi des événements sur plusieurs ordinateurs.
 
@@ -41,7 +43,7 @@ Les applets de connexion centralisés permettent aux administrateurs de gérer e
 
 ## <a name="centralized-logging-cmdlets"></a>Cmdlets d’enregistrement centralisé
 
-Les applets de connexion centralisés de journalisation vous permettent de gérer le service de journalisation centralisé présenté dans Lync Server 2013:
+Les applets de connexion centralisés de journalisation vous permettent de gérer le service de journalisation centralisé présenté dans Lync Server 2013 :
 
 **Cmdlets d’enregistrement centralisé**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie d’emplacement par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie d’emplacement par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user location policy
 ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a387d0f603addea31bd1e3ee6b591e06a26b2c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d3a53ae779ccc6fb19bb2d16274e007b8fc405c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846939"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739394"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Affecter une stratégie d’emplacement par utilisateur dans Lync Server 2013
 
@@ -71,7 +73,7 @@ Pour plus d’informations sur la création de stratégies d’emplacement, voir
 
 
 
-7.  Dans **affecter des stratégies**, sous **stratégie d’emplacement**, effectuez l’une des opérations suivantes:
+7.  Dans **affecter des stratégies**, sous **stratégie d’emplacement**, effectuez l’une des opérations suivantes :
     
 
     > [!NOTE]  
@@ -92,7 +94,7 @@ Pour plus d’informations sur la création de stratégies d’emplacement, voir
 
 ## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Attribution d’une stratégie d’emplacement par utilisateur à l’aide des applets de cmdlet Lync Server Management Shell
 
-Vous pouvez affecter des stratégies d’emplacement par utilisateur à l’aide de l’applet de passe Grant-CsLocationPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez affecter des stratégies d’emplacement par utilisateur à l’aide de l’applet de passe Grant-CsLocationPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>Pour attribuer une stratégie d’emplacement par utilisateur à un utilisateur unique
 

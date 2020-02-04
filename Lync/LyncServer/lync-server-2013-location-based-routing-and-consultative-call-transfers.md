@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: routage par emplacement et transferts d’appel consultatifs'
+title: 'Lync Server 2013 : routage par emplacement et transferts d’appel consultatifs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830938"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830938"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-31_
+_**Dernière modification de la rubrique :** 2013-07-31_
 
 En plus d’appliquer le routage par emplacement aux réunions Lync, l’application de conférence de routage basée sur l’emplacement applique les restrictions de routage basées sur les emplacements aux points de terminaison RTC. Un transfert d’appel consultatif est un appel établi entre deux parties dans lequel une des parties transfère l’appel vers un nouvel utilisateur. Par exemple, un point de terminaison PSTN appelle l’utilisateur A (appelé Lync). Un utilisateur A détermine que l’utilisateur RTC doit être renvoyé à l’utilisateur B (utilisateur Lync). L’utilisateur A passe l’appel avec l’utilisateur PSTN en attente, et appelle l’utilisateur B. L’utilisateur B accepte de parler à l’utilisateur PSTN. L’utilisateur A transfère l’appel en attente à l’utilisateur B.
 
 **Flux des transferts d’appel consultatifs**
 
-![Routage basé sur l’emplacement pour le diagramme de conférence] (images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Routage basé sur l’emplacement pour le diagramme de conférence")
+![Diagramme Routage géodépendant pour les conférences](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Diagramme Routage géodépendant pour les conférences")
 
-Lorsqu’un utilisateur a activé le routage de géolocalisation, le transfert d’appel d’un point de terminaison PSTN (tel qu’indiqué dans la figure ci-dessus) entraîne la création de deux appels actifs, un appel entre l’utilisateur RTC et l’utilisateur de Lync et l’utilisateur Lync B. le comportement suivant est appliqué par l’application de conférence de routage basée sur l’emplacement:
+Lorsqu’un utilisateur a activé le routage de géolocalisation, le transfert d’appel d’un point de terminaison PSTN (tel qu’indiqué dans la figure ci-dessus) entraîne la création de deux appels actifs, un appel entre l’utilisateur RTC et l’utilisateur de Lync et l’utilisateur Lync B. le comportement suivant est appliqué par l’application de conférence de routage basée sur l’emplacement :
 
   - Si le routage SIP Trunk est autorisé à rediriger l’appel RTC vers le site du réseau sur lequel l’utilisateur de Lync B (c.-à-d. destination du transfert) se trouve, le transfert d’appel sera autorisé. dans le cas contraire, le transfert d’appel consultatif sera bloqué. Cette autorisation est effectuée en fonction de l’emplacement de la partie transférée sur le même site réseau que le Trunk SIP qui achemine l’appel actif vers le point de terminaison RTC.
 

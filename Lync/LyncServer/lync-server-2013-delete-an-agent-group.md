@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer un groupe d’agents'
+title: 'Lync Server 2013 : supprimer un groupe d’agents'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an agent group
 ms:assetid: df385fd1-62f4-42b7-a349-4eb38dea50c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182597(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adcdc0245f6fdd835492084fcae91389409f52c8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eb8ebde61d1ba59952741bffd14e29ae87d482f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831631"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831631"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Pour supprimer un groupe d’agents, utilisez l’une des procédures suivantes.
 
@@ -61,7 +63,7 @@ Pour supprimer un groupe d’agents, utilisez l’une des procédures suivantes.
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Dans la ligne de commande, exécutez la commande suivante :
     

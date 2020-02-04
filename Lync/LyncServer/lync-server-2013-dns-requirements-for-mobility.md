@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour la mobilité'
+title: 'Lync Server 2013 : configuration requise pour la mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for mobility
 ms:assetid: df6962bc-2a16-440e-a333-022ebd14f957
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690040(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fb933e20b8da627ad48a30802ff86c7ed95faff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc11c79c291f7db7ad9e9e3228644ee27d42e555
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831369"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831369"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-13_
+_**Dernière modification de la rubrique :** 2012-11-13_
 
 Lorsque vous déployez la fonctionnalité de mobilité de Lync Server 2013, vous pouvez utiliser les nouvelles URL disponibles avec le service de découverte automatique Microsoft Lync Server 2013 ou utiliser vos URL de services Web existantes. Si vous utilisez vos URL existantes, les utilisateurs doivent entrer manuellement les URL dans leurs paramètres d’appareil mobile. Cette option est généralement utilisée pour la résolution des problèmes. Lorsque vous utilisez les nouvelles URL, les clients mobiles peuvent automatiquement découvrir les ressources de Lync Server 2013. Lorsque vous prenez en charge la découverte automatique, vous devez ajouter de nouveaux enregistrements DNS (Domain Name System). Cette section décrit les enregistrements DNS requis pour la découverte automatique.
 
-Pour prendre en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP:
+Pour prendre en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP :
 
   - Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent au sein du réseau de votre organisation.
 
@@ -49,7 +51,7 @@ Les enregistrements DNS peuvent être des enregistrements CNAMe ou des enregistr
 
 **Enregistrements DNS internes**
 
-Vous devez créer un des enregistrements DNS internes suivants:
+Vous devez créer un des enregistrements DNS internes suivants :
 
 
 <table>
@@ -82,7 +84,7 @@ Vous devez créer un des enregistrements DNS internes suivants:
 
 **Enregistrements DNS externes**
 
-Vous devez créer un des enregistrements DNS externes suivants:
+Vous devez créer un des enregistrements DNS externes suivants :
 
 
 <table>

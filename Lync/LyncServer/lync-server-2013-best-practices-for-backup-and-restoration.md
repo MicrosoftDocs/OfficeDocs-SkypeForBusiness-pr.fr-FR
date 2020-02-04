@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: meilleures pratiques pour la sauvegarde et la restauration'
+title: 'Lync Server 2013 : meilleures pratiques pour la sauvegarde et la restauration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for backup and restoration
 ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e51f846d92f5d8cfecbbface31df6543c5c9ac23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838725"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Cette section inclut deux types de meilleures pratiques:
+Cette section inclut deux types de meilleures pratiques :
 
   - Pratiques recommandées pour la sauvegarde et la restauration.
 
@@ -45,11 +47,11 @@ Cette section inclut deux types de meilleures pratiques:
 
 ## <a name="best-practices-for-backup-and-restoration"></a>Recommandations en matière de sauvegarde et de restauration
 
-Pour faciliter votre processus de sauvegarde et de restauration, appliquez les meilleures pratiques suivantes lors de la sauvegarde ou de la restauration de vos données:
+Pour faciliter votre processus de sauvegarde et de restauration, appliquez les meilleures pratiques suivantes lors de la sauvegarde ou de la restauration de vos données :
 
   - Effectuez des sauvegardes régulières à intervalles appropriés. Le plus simple et le plus souvent utilisé dans les plannings de type et de rotation est une sauvegarde complète et nocturne de l’ensemble de la base de données SQL Server. Si une restauration est nécessaire, le processus de restauration ne nécessite qu’une seule sauvegarde et aucune donnée de jour ne doit être perdue.
 
-  - Si vous utilisez des cmdlets ou le panneau de configuration de Lync Server pour apporter des modifications de configuration, utilisez l’applet de commande **Export-CsConfiguration** pour effectuer une sauvegarde de capture instantanée du fichier de configuration de la topologie (XDS. mdf) après avoir effectué les modifications, afin de ne pas perdre les modifications si vous devez restaurer vos bases de données. Notez que cette configuration est sauvegardée au format XML et compactée sous forme de fichier ZIP.
+  - Si vous utilisez des applets de commande ou le panneau de configuration de Lync Server pour apporter des modifications de configuration, utilisez l’applet de commande **Export-CsConfiguration** pour effectuer une sauvegarde instantané du fichier de configuration de la topologie (XDS. mdf) après avoir effectué les modifications, afin de ne pas perdre les modifications si vous avez besoin de restaurer vos bases de données. Notez que cette configuration est sauvegardée au format XML et compactée sous forme de fichier ZIP.
 
   - Assurez-vous que le dossier partagé que vous envisagez d’utiliser pour la sauvegarde de Lync Server dispose de suffisamment d’espace disque pour contenir toutes les données sauvegardées.
 
@@ -73,7 +75,7 @@ La meilleure stratégie pour gérer les interruptions de service désastreuses (
 
 Si les services Lync, présentant un minimum de perturbation et d’interruption de service, sont vitaux pour votre organisation, il est recommandé de mettre en œuvre des pools de serveurs frontaux couplés, comme décrit dans la section [planification de la haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Ensuite, si l’une de ces réserves rencontre un problème, un administrateur peut basculer les utilisateurs de ce pool pour qu’ils soient desservis par l’autre réserve, avec un minimum de temps d’arrêt.
 
-Les plans de gestion des sinistres développés dans le cadre de votre stratégie de sauvegarde et de restauration doivent inclure les éléments suivants:
+Les plans de gestion des sinistres développés dans le cadre de votre stratégie de sauvegarde et de restauration doivent inclure les éléments suivants :
 
   - La conservation de votre média logiciel ainsi que des mises à jour de logiciels et de microprogrammes, facilement disponibles.
 

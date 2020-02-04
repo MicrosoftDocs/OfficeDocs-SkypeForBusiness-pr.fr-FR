@@ -1,8 +1,10 @@
 ---
-title: 'Rapport de distribution d’échec Lync Server 2013:'
+title: 'Rapport de distribution d’échec Lync Server 2013 :'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failure Distribution Report
 ms:assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06481be824f6c51975431aeea2efe27e41eadabc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5250b03aef3fb77de2cbeefa4688a150c9b4a302
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831175"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831175"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-21_
+_**Dernière modification de la rubrique :** 2012-10-21_
 
 Le rapport de répartition des défaillances classe les sessions ayant échoué selon les catégories suivantes :
 

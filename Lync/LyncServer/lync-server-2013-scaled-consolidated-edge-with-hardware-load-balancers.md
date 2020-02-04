@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Topologie Edge consolidée mise à l’échelle avec 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa5a395c8509961937af23c12763a5bf55cc326
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe027019953175c0ac6ede51a86ad3a300c2681
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822572"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822572"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-21_
+_**Dernière modification de la rubrique :** 2012-10-21_
 
 Dans la topologie de pool de bords, deux serveurs Edge ou plus sont déployés sous la forme d’un pool équilibré dans le réseau de périmètre du centre de données. Le niveau d’équilibrage de la charge matérielle est utilisé pour le trafic vers les interfaces de serveur Edge externe et interne.
 
-Si votre organisation a besoin d’une prise en charge pour plus de 15 000 connexions clientes de service Edge, 1 000 les connexions de clients de service Edge pour les conférences Web actives ou 500 de sessions de service Edge A/V, une disponibilité élevée du serveur Edge est importante, cette topologie présente les avantages de l’évolutivité et de la prise en charge du basculement.
+Si votre organisation a besoin d’une prise en charge pour plus de 15 000 connexions client de service Edge, 1 000 les connexions de clients de service Edge pour les conférences Web actives 500 ou les sessions de service Edge A/V en parallèle, et la haute disponibilité du serveur Edge est importante, cette topologie présente les avantages de l’évolutivité et de la prise en charge du basculement.
 
 La figure ne montre pas les directeurs, un rôle serveur facultatif déployé sur le réseau interne entre les serveurs de périphérie et vos pools ou serveurs. . Pour plus d’informations sur la topologie des directeurs, voir [composants requis pour le directeur dans Lync Server 2013](lync-server-2013-components-required-for-the-director.md).
 
@@ -69,11 +71,11 @@ Il existe des technologies de traduction d’adresses réseau (NAT) pour IPv6 qu
 
 **Configuration de l’équilibrage de charge matérielle**
 
-Pour plus d’informations, reportez-vous à la section «Configuration requise du système d’équilibrage de charge matérielle pour une application Microsoft Edge» dans les [composants requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
+Pour plus d’informations, reportez-vous à la section « Configuration requise du système d’équilibrage de charge matérielle pour une application Microsoft Edge » dans les [composants requis pour l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).
 
 **Topologie de frontière consolidée mise à l’échelle (équilibrage de charge matérielle)**
 
-![3a57cd0d-8de4-4ecc-A783-4dff5b3456a2] (images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-A783-4dff5b3456a2")
+![3a57cd0d-8de4-4ecc-a783-4dff5b3456a2](images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-a783-4dff5b3456a2")
 
 <div>
 

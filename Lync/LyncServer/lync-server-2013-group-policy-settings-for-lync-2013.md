@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: paramètres de stratégie de groupe pour Lync 2013'
+title: 'Lync Server 2013 : paramètres de stratégie de groupe pour Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group Policy settings for Lync 2013
 ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204924(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e075af74fd081e49daad0768a33c9769e8a633bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3023741b1b9e71d7789857c9b55fb195453ee5b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831108"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831108"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
-Dans les versions précédentes de Lync et Office Communicator, un modèle d’administration de Communicator. adm autonome était disponible pour la configuration des paramètres de stratégie de groupe client. Pour Lync 2013, les nouveaux fichiers de modèles d’administration (fichiers. admx et. adml) sont inclus avec le modèle d’administration de stratégie de groupe Office. La disponibilité des fichiers. admx et. adml de 2013 Lync vous permet de télécharger des modèles et de gérer de façon centralisée des paramètres de stratégie de groupe pour tous vos programmes Office et modules linguistiques. Pour plus d’informations, reportez-vous à la section «fichiers de modèles d’administration Office 2013 ( <http://go.microsoft.com/fwlink/p/?linkid=267516>ADMX, ADML)» dans la documentation Office 2013 à l’adresse.
+Dans les versions précédentes de Lync et Office Communicator, un modèle d’administration de Communicator. adm autonome était disponible pour la configuration des paramètres de stratégie de groupe client. Pour Lync 2013, les nouveaux fichiers de modèles d’administration (fichiers. admx et. adml) sont inclus avec le modèle d’administration de stratégie de groupe Office. La disponibilité des fichiers. admx et. adml de 2013 Lync vous permet de télécharger des modèles et de gérer de façon centralisée des paramètres de stratégie de groupe pour tous vos programmes Office et modules linguistiques. Pour plus d’informations, reportez-vous à la section « fichiers de modèles d’administration Office 2013 ( <http://go.microsoft.com/fwlink/p/?linkid=267516>ADMX, ADML) » dans la documentation Office 2013 à l’adresse.
 
 <div>
 

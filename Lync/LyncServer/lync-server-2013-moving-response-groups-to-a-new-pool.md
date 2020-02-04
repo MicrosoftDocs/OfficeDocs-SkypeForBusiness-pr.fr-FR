@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: déplacer des groupes de réponse vers un nouveau pool'
+title: 'Lync Server 2013 : déplacer des groupes de réponse vers un nouveau pool'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving response groups to a new pool
 ms:assetid: da0db765-41e5-430b-b5a7-5418ec5ff2a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205298(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e682ce99826cd5b9f2812c358e1028bfb491ddef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826688"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826688"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Lync Server 2013 introduit une nouvelle cmdlet support pour le déplacement de groupes de réponse d’un pool vers un autre, même si le nom de domaine complet (FQDN) est différent.
 
@@ -53,7 +55,7 @@ Suivez les étapes décrites dans la procédure ci-dessous pour déplacer les gr
 
 ## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>Pour déplacer des groupes de réponses vers un pool avec un nom de domaine complet différent
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exportez les groupes de réponses dans le pool de sources. Dans la ligne de commande, tapez :
     
@@ -86,7 +88,7 @@ Suivez les étapes décrites dans la procédure ci-dessous pour déplacer les gr
     
     </div>
 
-4.  Assurez-vous que l’importation réussie s’affiche avec la configuration de groupe de réponse importée en procédant comme suit:
+4.  Assurez-vous que l’importation réussie s’affiche avec la configuration de groupe de réponse importée en procédant comme suit :
     
       - Vérifiez que tous les flux de travail étaient importés. Dans la ligne de commande, tapez ce qui suit :
         

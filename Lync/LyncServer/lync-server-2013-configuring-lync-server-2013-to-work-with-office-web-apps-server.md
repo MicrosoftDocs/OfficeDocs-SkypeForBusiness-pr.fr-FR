@@ -3,6 +3,8 @@ title: Configuration de Lync Server 2013 pour fonctionner avec Office Web Apps S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to work with Office Web Apps Server
 ms:assetid: 6231e519-9010-4ff9-b5a6-b5859c2b3e11
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ba6926af243b15449c5b8baa4b29706a2ec8ade
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f3516822064d0fd42b44edb7af73b321644c36c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838238"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-04-22_
+_**Dernière modification de la rubrique :** 2013-04-22_
 
-Pour pouvoir configurer Lync Server 2013 de manière à utiliser Office Web Apps Server, Office Web Apps Server doit être déployé et configuré. Pour plus d’informations sur l’installation et la configuration d’une batterie de serveurs Office Web Apps Server, voir le Guide de mise en route d’Office Web Apps Server **et d’Office Web** apps pour plus d’informations sur l’installation et la configuration d’une batterie de serveurs Office Web Apps Server. totale.
+Pour pouvoir configurer Lync Server 2013 de manière à utiliser Office Web Apps Server, Office Web Apps Server doit être déployé et configuré. Pour plus d’informations sur l’installation et la configuration d’un serveur Office Web Apps, voir le Guide de mise en route de Office Web Apps Server **et Office** Web Apps pour plus d’informations sur l’installation et la configuration d’une batterie de serveurs Office Web Apps pour une disponibilité élevée.
 
 Après l’installation réussie d’Office Web Apps Server et la configuration correcte de votre batterie de serveurs Web, vous devez configurer Lync Server pour communiquer avec le nouveau serveur. pour ce faire, ajoutez l’URL de découverte d’Office Web Apps Server à votre topologie de serveur Lync. Pour ajouter Office Web Apps Server à votre topologie, procédez comme suit :
 

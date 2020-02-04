@@ -3,6 +3,8 @@ title: Configuration requise pour les conférences rendez-vous Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing requirements
 ms:assetid: 9aff949e-3dac-481a-be46-a180c72e8066
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398802(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2f4878e81a28b5d51726cb1f3e2dc5c7c5aa0fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c54e162aeda43730dea471732124023588e9041
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831405"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
-Avant de démarrer le processus de déploiement de Lync Server 2013, vous devez planifier les opérations suivantes:
+Avant de démarrer le processus de déploiement de Lync Server 2013, vous devez planifier les opérations suivantes :
 
   - Configuration à utiliser pour la connexion au réseau téléphonique public commuté (RTC)
 
@@ -77,7 +79,7 @@ Lors de la configuration d’un rendez-vous, vous créez des plans de numérotat
 
 Tout numéro d’accès à une conférence rendez-vous doit être associé à au moins un plan de numérotation. Régions de conférence rendez-vous associez un numéro d’accès à une conférence rendez-vous à ses plans de numérotation. Lorsque vous configurez un plan de numérotation, vous spécifiez la région de conférence rendez-vous qui s’applique au plan de numérotation. Quand vous créez le numéro d’accès à la conférence rendez-vous, vous sélectionnez les régions qui associent le numéro d’accès aux plans de numérotation appropriés.
 
-Lorsque vous créez un plan de numérotation, vous spécifiez l’étendue du plan de numérotation: étendue des utilisateurs, étendue du pool ou étendue du site. Chaque utilisateur est associé au plan de numérotation dans l’étendue la plus restreinte applicable à son cas. Par exemple, un utilisateur est affecté à un plan de numérotation de niveau utilisateur, le cas échéant. Si aucun plan de numérotation de niveau utilisateur ne s’applique, l’utilisateur est affecté à un plan de numérotation au niveau du pool. Si aucun plan de numérotation au niveau du pool ne s’applique, l’utilisateur est affecté à un plan de numérotation au niveau du site. Si aucun plan de numérotation au niveau du site ne s’applique, l’utilisateur est affecté à un plan de numérotation global.
+Lorsque vous créez un plan de numérotation, vous spécifiez l’étendue du plan de numérotation : étendue des utilisateurs, étendue du pool ou étendue du site. Chaque utilisateur est associé au plan de numérotation dans l’étendue la plus restreinte applicable à son cas. Par exemple, un utilisateur est affecté à un plan de numérotation de niveau utilisateur, le cas échéant. Si aucun plan de numérotation de niveau utilisateur ne s’applique, l’utilisateur est affecté à un plan de numérotation au niveau du pool. Si aucun plan de numérotation au niveau du pool ne s’applique, l’utilisateur est affecté à un plan de numérotation au niveau du site. Si aucun plan de numérotation au niveau du site ne s’applique, l’utilisateur est affecté à un plan de numérotation global.
 
 Avant de configurer les plans de numérotation, il est important de planifier le mode d’attribution de nom des régions et l’utilisation des régions. Les considérations suivantes s’appliquent aux régions de conférence rendez-vous :
 

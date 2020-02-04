@@ -3,6 +3,8 @@ title: Vérifier les informations de topologie
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846020"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846020"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-26_
+_**Dernière modification de la rubrique :** 2012-09-26_
 
 La première étape de vérification réussie du publipostage consiste à afficher les informations sur la topologie Office Communications Server 2007 R2 que vous avez fusionnées avec Lync Server 2013. Dans le générateur de topologie, le nœud **BackCompatSite** affiche le nom de domaine complet (FQDN) de chaque pool et serveur Office Communications Server 2007 R2.
 
@@ -56,7 +58,7 @@ La première étape de vérification réussie du publipostage consiste à affich
     
     </div>
 
-![Boîte de dialogue BackCompatSite de générateur de topologie] (images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Boîte de dialogue BackCompatSite de générateur de topologie")
+![Boîte de dialogue BackCompatSite de générateur de topologie](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Boîte de dialogue BackCompatSite de générateur de topologie")
 
 Vous pouvez également utiliser le panneau de configuration de Lync Server 2013 pour afficher votre topologie fusionnée. Dans Lync Server 2013 panneau de configuration, vous pouvez voir chaque nom de domaine complet (FQDN) de serveur, nom de domaine complet (FQDN) du pool et nom de site pour votre topologie fusionnée. Les serveurs fusionnés portent le nom de **site** **BackCompatSite**.
 
@@ -72,7 +74,7 @@ Vous pouvez également utiliser le panneau de configuration de Lync Server 2013 
 
 3.  Dans l’onglet **statut** , assurez-vous que les serveurs et les pools fusionnés apparaissent en recherchant **BackCompatSite** dans la colonne **site** .
 
-![Panneau de configuration de Lync Server avec topologie fusionnée] (images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Panneau de configuration de Lync Server avec topologie fusionnée")
+![Panneau de configuration de Lync Server avec topologie fusionnée](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Panneau de configuration de Lync Server avec topologie fusionnée")
 
 Pour afficher des détails supplémentaires sur un pool fusionné, utilisez l’applet de passe **Get-CsPool** . Outre les informations disponibles dans le générateur de topologie et le panneau de configuration de Lync Server 2013, cette applet de commande affiche les services qui s’exécutent sur le pool Lync Server 2013.
 

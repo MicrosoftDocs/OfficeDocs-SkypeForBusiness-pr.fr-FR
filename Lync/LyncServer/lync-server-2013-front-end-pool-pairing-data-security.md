@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : sécurité des données d’appariement de pools fr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End pool pairing data security
 ms:assetid: edb852b8-ea86-4948-b756-60fe6ee876d2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721930(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db1a408aecedc14162271d5def1adc2bcebdfd82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: efe51da622107183d3dbf2897a9e2a708acd78dd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831141"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831141"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-10-07_
+_**Dernière modification de la rubrique :** 2014-10-07_
 
 Le service de sauvegarde est un mécanisme de réplication des données introduit dans Lync Server 2013, qui permet de transférer les données utilisateur et le contenu de la conférence entre deux listes frontales couplées en continu sur deux centres de données à des fins de reprise après sinistre. Les données utilisateur contiennent les URI SIP de l’utilisateur ainsi que les listes de contacts et les paramètres. Le contenu de la Conférence inclut les téléchargements Microsoft PowerPoint 2010 ainsi que les tableaux blancs utilisés en conférences. À partir de la liste source, les données utilisateur et le contenu de la Conférence sont exportés à partir du stockage local, compressé et transférés vers le pool cible, où il est décompressé et importé dans le stockage local. Le service de sauvegarde part du principe que le lien de communication entre les deux centres de données est à l’intérieur du réseau d’entreprise qui est protégé d’Internet. Le chiffrement des données transférées entre les deux centres de données n’est pas crypté en natif au sein d’un protocole sécurisé tel que HTTPs. Par conséquent, il est possible d’attaquer par le biais d’une attaque par le biais du milieu interne au sein du réseau d’entreprise.
 

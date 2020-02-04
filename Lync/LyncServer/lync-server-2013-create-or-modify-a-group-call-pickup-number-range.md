@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une plage de numéros de capture d’appels de groupe'
+title: 'Lync Server 2013 : création ou modification d’une plage de numéros de capture d’appels de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a Group Call Pickup number range
 ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945627(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a82f9cdc02052bf08dba3e9529871eff2b01211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5a644cb6008976894c88de570aa9cb6530e10c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831807"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831807"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 La procédure suivante vous permet de créer ou de modifier une plage de numéros de groupe de prise d’appel dans la table des numéros d’appel parqué.
 
@@ -67,7 +69,7 @@ Les plages de numéros de groupe de prise d’appel doivent respecter les règle
 
   - Si la plage numérique commence par le caractère \* ou \#, la plage doit être supérieure à 100.
 
-  - Valeurs valides: doit correspondre à la chaîne d'\[\\\*|\#\]expression\[ normale (? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}). Cela signifie que la valeur doit être une chaîne commençant par le caractère \* ou \# par un nombre 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est \* ou \#, le caractère suivant doit être un nombre 1 à 9 (il ne peut pas être zéro). Les caractères suivants peuvent être compris entre 0 et 9 (par exemple, "\#6000", "\*92000", "\*95551212" et "915551212"). Si le premier caractère n’est \* pas \#ou, le premier caractère doit être un chiffre compris entre 1 et 9 (il ne peut pas être zéro), suivi de huit caractères au maximum (par exemple, "915551212", "41212", "300").
+  - Valeurs valides : doit correspondre à la chaîne d'\[\\\*|\#\]expression\[ normale ( ? 1-9\]\\d{0,7}) | (\[1-9\]\\d{0,8}). Cela signifie que la valeur doit être une chaîne commençant par le caractère \* ou \# par un nombre 1 à 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est \* ou \#, le caractère suivant doit être un nombre 1 à 9 (il ne peut pas être zéro). Les caractères suivants peuvent être compris entre 0 et 9 (par exemple, "\#6000", "\*92000", "\*95551212" et "915551212"). Si le premier caractère n’est \* pas \#ou, le premier caractère doit être un chiffre compris entre 1 et 9 (il ne peut pas être zéro), suivi de huit caractères au maximum (par exemple, "915551212", "41212", "300").
 
 <div>
 
@@ -75,7 +77,7 @@ Les plages de numéros de groupe de prise d’appel doivent respecter les règle
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Utilisez **New-CsCallParkOrbit** pour créer une plage de numéros de groupe de prise d’appel. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros de groupe de prise d’appel.
     

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher les détails d’un service'
+title: 'Lync Server 2013 : afficher les détails d’un service'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View details about a service
 ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182578(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65fd84ad7290f3b82130f04d8b81955f6ffb4921
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9bc8f0f9f6e0296f279cb09495a92fd9950625e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846305"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Vous pouvez utiliser le panneau de configuration de Lync Server pour afficher des détails sur chaque service en cours d’exécution sur un ordinateur spécifique de votre topologie. Vous pouvez afficher l’état de chaque service et des détails, tels que les bases de données, ports et services dépendants associés.
 
@@ -45,7 +47,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour afficher de
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 4.  Dans la page **État** , triez ou effectuez une recherche dans la liste, puis cliquez sur l’ordinateur que vous voulez afficher.
 
@@ -53,7 +55,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour afficher de
 
 6.  Dans la fenêtre **afficher les détails** de l’ordinateur, triez la liste des services, le cas échéant, puis cliquez sur le service que vous souhaitez afficher.
 
-7.  Effectuez l’une des opérations suivantes selon vos besoins:
+7.  Effectuez l’une des opérations suivantes selon vos besoins :
     
       - Pour afficher le dernier état de ce service, cliquez sur **obtenir l’état du service**.
     
