@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de la configuration requise pour les conf
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for conferencing
 ms:assetid: 5c83e268-22bf-42b2-bac3-3237b5e02e03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60193673efff29ec877626a9c5c18be23507e6fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c19269ef06fc2aa7ec19e2ede53f406b345536b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831702"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831702"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
 Lorsque vous déterminez les fonctions de conférence à déployer, vous devez tenir compte des fonctionnalités que vous souhaitez mettre à disposition de vos utilisateurs et des capacités de votre bande passante réseau. La liste des questions suivante vous guide tout au long du processus de planification des conférences pour déterminer les fonctionnalités de la Conférence que vous devez déployer en fonction de la configuration requise pour votre organisation.
 
@@ -47,7 +49,7 @@ Lorsque vous déterminez les fonctions de conférence à déployer, vous devez t
     
     Pour autoriser les utilisateurs à partager des présentations PowerPoint, vous devez configurer Office Web Apps Server. Pour plus d’informations sur la configuration d’Office Web Apps Server, reportez-vous à la rubrique [configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-  - **Souhaitez-vous activer les conférences A/V?**
+  - **Souhaitez-vous activer les conférences A/V ?**
     
     Si tel est le cas, vous devez activer les conférences pour votre liste frontale dans l’outil de planification de Lync Server 2013, ou dans le générateur de topologie. Lorsque vous activez la fonctionnalité de conférence, vous activez les conférences Web et la Conférence rendez-vous.
     
@@ -64,19 +66,19 @@ Lorsque vous déterminez les fonctions de conférence à déployer, vous devez t
     
     </div>
 
-  - **Souhaitez-vous permettre aux utilisateurs d’accéder à la partie audio des conférences lors de l’utilisation d’un téléphone RTC?**
+  - **Souhaitez-vous permettre aux utilisateurs d’accéder à la partie audio des conférences lors de l’utilisation d’un téléphone RTC ?**
     
     Si c’est le cas, déployez et activez la conférence rendez-vous. Les utilisateurs invités, à l’intérieur et à l’extérieur de votre organisation, peuvent alors participer à la partie audio des conférences par l’intermédiaire d’un téléphone RTC.
 
-  - **Souhaitez-vous autoriser les utilisateurs externes disposant de clients Lync Server 2013 à rejoindre les types de conférences que vous avez activées?**
+  - **Souhaitez-vous autoriser les utilisateurs externes disposant de clients Lync Server 2013 à rejoindre les types de conférences que vous avez activées ?**
     
-    Si tel est le cas, vous devez déployer des serveurs Edge. En autorisant la participation externe aux réunions, vous Maximisez votre investissement dans Lync Server 2013. Par exemple, les utilisateurs d’ordinateurs portables dotés de Lync Server 2013 peuvent participer à des conférences où qu’elles se trouvent: chez vous, dans l’aéroport ou sur les sites du client.
+    Si tel est le cas, vous devez déployer des serveurs Edge. En autorisant la participation externe aux réunions, vous Maximisez votre investissement dans Lync Server 2013. Par exemple, les utilisateurs d’ordinateurs portables dotés de Lync Server 2013 peuvent participer à des conférences où qu’elles se trouvent : chez vous, dans l’aéroport ou sur les sites du client.
     
     De plus, avec les serveurs de périphérie déployés, vous pouvez créer des relations fédérées avec d’autres organisations, telles que vos clients ou fournisseurs, et les utilisateurs de ces organisations pourront plus facilement collaborer avec vos utilisateurs.
     
     Pour plus d’informations sur le déploiement de serveurs Edge, voir [planification d’un accès utilisateur externe dans Lync server 2013](lync-server-2013-planning-for-external-user-access.md) et [déploiement d’un accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Pour plus d’informations sur l’activation de l’accès externe pour Office Web Apps Server, voir [publication d’Office Web Apps Server dans Lync server 2013 à l’aide d’un serveur proxy inverse](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md).
 
-  - **Souhaitez-vous contrôler les clients qui peuvent rejoindre des réunions Lync Server 2013?**
+  - **Souhaitez-vous contrôler les clients qui peuvent rejoindre des réunions Lync Server 2013 ?**
     
     Si c’est le cas, vous devez configurer la page de participation aux réunions de sorte que seules les options du client à prendre en charge soient disponibles. Chaque fois qu’un utilisateur clique sur un lien pour rejoindre une réunion planifiée, Lync Server 2013 détecte si un client est déjà installé sur l’ordinateur. Il lance alors le client par défaut et ouvre la page de participation à la réunion qui contient des liens vers d’autres clients. La page de participation à une réunion contient toujours l’option d’utilisation de Microsoft Lync Web App. Outre cette option, vous pouvez décider d’inclure ou non des liens vers Participant et les versions précédentes de Communicator. Pour plus d’informations, reportez-vous à [la rubrique Configuration de la page de participation à une réunion dans Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md).
 

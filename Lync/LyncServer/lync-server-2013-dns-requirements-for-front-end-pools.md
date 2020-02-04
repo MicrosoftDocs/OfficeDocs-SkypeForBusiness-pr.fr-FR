@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour le service DNS pour les pools front-end'
+title: 'Lync Server 2013 : configuration requise pour le service DNS pour les pools front-end'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pools
 ms:assetid: ba28919c-fbbe-4c54-8bf9-2b0cd3fa39c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03759267ea10a4eaf7046fd25390b45265e479f6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4b763f9b01e070fc434dae997bc1e2da68dcbc26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831368"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831368"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-07_
+_**Dernière modification de la rubrique :** 2012-11-07_
 
 Cette section décrit les enregistrements DNS (Domain Name System) requis pour le déploiement de la gamme frontale.
 
@@ -62,11 +64,11 @@ Le tableau suivant indique les exigences DNS pour un déploiement de pool fronta
 <td><p>Lors de l’utilisation de l’équilibrage de charge DNS et de l’équilibrage de charge matérielle, vous devez héberger (A) des enregistrements. Créer un enregistrement A interne qui résout le nom de domaine complet (FQDN) du pool frontal pour l’équilibrage de charge DNS. Créer un enregistrement d’hôte interne (A) pour les services Web internes vers l’adresse IP virtuelle (VIP) de l’équilibrage de charge. Vous devez utiliser le nom des services Web internes, tel qu’il est défini dans générateur de topologie.</p>
 <p>Par exemple, si vous utilisez à la fois l’équilibrage de charge DNS et l’équilibrage de charge matérielle, un enregistrement a pour chaque serveur frontal d’un pool pour l’équilibrage de charge DNS et un enregistrement A pour les services Web internes pointant vers l’adresse IP virtuelle de l’équilibrage de charge matérielle. :</p>
 <ul>
-<li><p>Équilibrage de charge DNS: adresse IP de Pool01.contoso.net du pool 10.10.10.5</p>
+<li><p>Équilibrage de charge DNS : adresse IP de Pool01.contoso.net du pool 10.10.10.5</p>
 <div>
 
 > [!WARNING]  
-> Chaque serveur frontal dispose également d’un enregistrement distinct:
+> Chaque serveur frontal dispose également d’un enregistrement distinct :
 
 
 </div>
@@ -76,7 +78,7 @@ Le tableau suivant indique les exigences DNS pour un déploiement de pool fronta
 <li><p>FE03.contoso.net 10.10.10.3</p></li>
 <li><p>FE04.contoso.net 10.10.10.4</p></li>
 </ol></li>
-<li><p>Équilibrage de la charge matérielle: adresse IP WebInternal.contoso.net de HLB VIP 192.168.10.5</p></li>
+<li><p>Équilibrage de la charge matérielle : adresse IP WebInternal.contoso.net de HLB VIP 192.168.10.5</p></li>
 </ul>
 <p>Tout le trafic, à l’exception du trafic HTTP/HTTPs, utilise l’enregistrement Pool01.contoso.net. Le trafic HTTP/HTTPs utilise l’adresse de services Web interne définie de 192.168.10.5</p></td>
 </tr>
@@ -94,7 +96,7 @@ Le tableau suivant indique les exigences DNS pour un déploiement de pool fronta
 </tr>
 <tr class="odd">
 <td><p>Connexion automatique au client</p></td>
-<td><p>Pour chaque domaine SIP pris en charge, un enregistrement SRV pour _sipinternaltls. _ TCP. &lt;domaine&gt; sur le port 5061 qui correspond au nom de domaine complet du pool frontal qui authentifie et redirige les demandes de connexion du client. Pour plus d’informations, voir <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">configuration DNS requise pour la connexion automatique au client dans Lync Server 2013</a>.</p></td>
+<td><p>Pour chaque domaine SIP pris en charge, un enregistrement SRV pour _sipinternaltls. _tcp. &lt;domaine&gt; sur le port 5061 qui correspond au nom de domaine complet du pool frontal qui authentifie et redirige les demandes de connexion du client. Pour plus d’informations, voir <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">configuration DNS requise pour la connexion automatique au client dans Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Découverte du service Web de mise à jour d’appareil par des appareils de communications unifiées (UC)</p></td>

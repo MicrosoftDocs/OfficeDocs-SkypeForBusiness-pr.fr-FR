@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue de session'
+title: 'Lync Server 2013 : vue de session'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Session view
 ms:assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688048(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90d6a3f066caccb20b141daa485cabea29e2352
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a153899fd484da861088a8e7672a69707e46a59
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822033"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822033"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 Le mode session stocke les informations sur les sessions contenant des enregistrements dans la base de données. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -70,7 +72,7 @@ Le mode session stocke les informations sur les sessions contenant des enregistr
 <tr class="even">
 <td><p>DialogCategory</p></td>
 <td><p>bit</p></td>
-<td><p>Catégorie de boîte de dialogue. 0 est Lync Server to Mediation Server leg; 1 est un serveur de médiation en tronçon de passerelle PSTN.</p></td>
+<td><p>Catégorie de boîte de dialogue. 0 est Lync Server to Mediation Server leg ; 1 est un serveur de médiation en tronçon de passerelle PSTN.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediationServerBypassFlag</p></td>
@@ -80,7 +82,7 @@ Le mode session stocke les informations sur les sessions contenant des enregistr
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
 <td><p>int</p></td>
-<td><p>Ce champ, s’il est présent, indique pourquoi un appel n’a pas été ignoré, même si les ID de contournement correspondent. Pour Lync Server, une seule valeur est définie:</p>
+<td><p>Ce champ, s’il est présent, indique pourquoi un appel n’a pas été ignoré, même si les ID de contournement correspondent. Pour Lync Server, une seule valeur est définie :</p>
 <p>0x0001-ID de contournement inconnu pour la carte réseau par défaut</p></td>
 </tr>
 <tr class="odd">

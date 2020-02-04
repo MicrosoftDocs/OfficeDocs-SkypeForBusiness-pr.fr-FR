@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modification d’une stratégie de code confidentiel existante'
+title: 'Lync Server 2013 : modification d’une stratégie de code confidentiel existante'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify an existing PIN policy
 ms:assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520993(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16f763ebf0d1a8b74a8370ba7b4ca4913886c612
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 19d2a3d259ee5f45241063764cfd905cbd0f0854
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827094"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827094"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-19_
+_**Dernière modification de la rubrique :** 2012-06-19_
 
 Vous pouvez utiliser l’onglet **stratégie de code confidentiel** pour fournir une authentification par code confidentiel (pin) aux utilisateurs qui se connectent à Lync 2013 avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web. Pour plus d’informations, reportez-vous à [modifier les paramètres de configuration d’un service Web existant dans Lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md).
 

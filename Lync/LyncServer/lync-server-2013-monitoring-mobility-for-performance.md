@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: surveillance de la mobilité pour les performances'
+title: 'Lync Server 2013 : surveillance de la mobilité pour les performances'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring mobility for performance
 ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690033(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3b6cbdefcb7c78f68fe8838109dea3be5b8203d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826632"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826632"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-14_
+_**Dernière modification de la rubrique :** 2013-02-14_
 
-Le service de mobilité de Lync Server (MCX) et l’API Web de communications unifiées (UCWA) augmentent la charge de serveurs frontaux et de listes frontales. Les appareils mobiles qui maintiennent une connexion au serveur, même lorsque l’application mobile est réduite (par exemple, les appareils Android et Nokia exécutant Lync 2010 mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 mobile, imposent un chargement supérieur aux appareils mettre fin à sa connexion au serveur lorsque l’application mobile est réduite; À mesure que votre utilisation mobile augmente, vous devez surveiller les performances de mobilité afin d’identifier toute nécessité d’augmentation de la capacité.
+Le service de mobilité de Lync Server (MCX) et l’API Web de communications unifiées (UCWA) augmentent la charge de serveurs frontaux et de listes frontales. Les appareils mobiles qui maintiennent une connexion au serveur, même lorsque l’application mobile est réduite (par exemple, les appareils Android et Nokia exécutant Lync 2010 mobile, ainsi que les appareils Android et Apple exécutant Lync 2013 mobile, imposent un chargement supérieur aux appareils mettre fin à sa connexion au serveur lorsque l’application mobile est réduite ; À mesure que votre utilisation mobile augmente, vous devez surveiller les performances de mobilité afin d’identifier toute nécessité d’augmentation de la capacité.
 
 Plusieurs limites influencent les performances de mobilité :
 

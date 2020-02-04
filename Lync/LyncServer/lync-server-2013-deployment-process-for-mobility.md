@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Processus de déploiement pour la mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for mobility
 ms:assetid: 5a1cebda-c14b-4ff4-9c36-f7caa868160f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690023(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dec6f1e089a9418db3d8ece1f390615226687cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6f9f7994981a860aaa02d4674d6a3248c3593d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831467"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831467"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-19_
+_**Dernière modification de la rubrique :** 2013-02-19_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013. It is noted accordingly.
 
@@ -69,7 +71,7 @@ Cette section décrit la procédure de déploiement de la fonctionnalité de mob
 </tr>
 <tr class="even">
 <td><p>Modifier les certificats</p></td>
-<td><p>Ajoutez des entrées de nom de remplacement d’objet aux certificats suivants pour prendre en charge des connexions sécurisées pour les utilisateurs mobiles:</p>
+<td><p>Ajoutez des entrées de nom de remplacement d’objet aux certificats suivants pour prendre en charge des connexions sécurisées pour les utilisateurs mobiles :</p>
 <ul>
 <li><p>Certificat de réalisateur</p></li>
 <li><p>Certificat de pool frontal</p></li>
@@ -128,7 +130,7 @@ Cette section décrit la procédure de déploiement de la fonctionnalité de mob
 </tr>
 <tr class="odd">
 <td><p>Configurer une stratégie de mobilité</p></td>
-<td><p>Utilisez l’applet de cmdlet <strong>Set-CsMobilityPolicy</strong> pour autoriser ou rejeter les éléments suivants:</p>
+<td><p>Utilisez l’applet de cmdlet <strong>Set-CsMobilityPolicy</strong> pour autoriser ou rejeter les éléments suivants :</p>
 <ul>
 <li><p>Appel via le bureau</p></li>
 <li><p>Activer les appels audio et vidéo IP</p></li>

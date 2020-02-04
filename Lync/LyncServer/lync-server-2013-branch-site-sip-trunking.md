@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: trunking SIP site de filiale'
+title: 'Lync Server 2013 : trunking SIP site de filiale'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch site SIP trunking
 ms:assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 955e920138021941db0e75832d56d06499738edd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c31f0f42a10905f784536b08f10370be9694800
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838726"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
-Dans certains cas, il est possible que vous deviez implémenter une agrégation SIP distribuée sur des sites de succursales sélectionnés. Pour déterminer si un Trunk SIP est requis pour un site de succursale, voir les informations de la mise en œuvre de l' [agrégation SIP dans Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).
+Dans certains cas, il est possible que vous deviez implémenter une agrégation SIP distribuée sur des sites de succursales sélectionnés. Pour déterminer si un Trunk SIP est requis pour un site de succursale, voir les informations de la mise en œuvre de l' [agrégation SIP dans Lync Server 2013 ?](lync-server-2013-how-do-i-implement-sip-trunking.md).
 
 Pour plus d’informations sur les options de topologie prises en charge pour le déploiement de Trunks SIP dans les sites de succursales, voir [solutions de résilience de sites de succursales dans Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).
 

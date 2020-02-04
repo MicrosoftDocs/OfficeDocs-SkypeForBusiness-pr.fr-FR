@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: inscription des utilisateurs pour l’authentification par carte à puce'
+title: 'Lync Server 2013 : inscription des utilisateurs pour l’authentification par carte à puce'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enrolling users for smart card authentication
 ms:assetid: a6445a83-a94b-423f-ba2a-12b5f84c5d75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308570(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973691
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11e74f35119a083aacd8440aec53594b8091b8e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 750e77b342b48d2c81bf05e160779ca5566f5a2f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831210"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-03_
+_**Dernière modification de la rubrique :** 2013-07-03_
 
 Deux méthodes permettent d’inscrire les utilisateurs pour l’authentification par carte à puce. La méthode la plus simple consiste à faire s’inscrire directement les utilisateurs pour l’authentification par carte à puce par l’inscription par le biais du web. La méthode la plus complexe implique d’utiliser un agent d’inscription. Cette rubrique décrit l’inscription automatique pour les certificats de carte à puce.
 

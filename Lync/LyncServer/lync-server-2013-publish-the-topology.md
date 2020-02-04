@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Publication de la topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish the topology
 ms:assetid: 3b5a744b-b3a8-4538-a55e-e2e4f72dff47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee3b14776c6cdf6ddd52ada724d3d4a6d6a245a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5760315cc60aa53a40457423c2b5402896c2a90c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823965"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823965"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-01_
+_**Dernière modification de la rubrique :** 2013-10-01_
 
 Pour publier, activer ou désactiver une topologie lors de l’ajout ou de la suppression d’un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les autorisations et les droits d’administrateur appropriés. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Pour les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
 
@@ -53,7 +55,7 @@ Après avoir défini votre topologie dans le générateur de topologie, vous dev
 
 
 > [!NOTE]  
-> Pour Enterprise Edition uniquement: pour publier la topologie, le serveur principal SQL Server doit être connecté et accessible avec des exceptions de pare-feu. Pour plus d’informations sur la spécification des exceptions de pare-feu, voir <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Présentation de la configuration requise pour le pare-feu pour SQL Server avec Lync Server 2013</A>. Pour plus d’informations sur la configuration de SQL Server, voir <A href="lync-server-2013-configure-sql-server-for-lync-server.md">configurer SQL Server pour Lync server 2013</A>.
+> Pour Enterprise Edition uniquement : pour publier la topologie, le serveur principal SQL Server doit être connecté et accessible avec des exceptions de pare-feu. Pour plus d’informations sur la spécification des exceptions de pare-feu, voir <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Présentation de la configuration requise pour le pare-feu pour SQL Server avec Lync Server 2013</A>. Pour plus d’informations sur la configuration de SQL Server, voir <A href="lync-server-2013-configure-sql-server-for-lync-server.md">configurer SQL Server pour Lync server 2013</A>.
 
 
 
@@ -63,7 +65,7 @@ Après avoir défini votre topologie dans le générateur de topologie, vous dev
 
 ## <a name="to-publish-a-topology"></a>Pour publier une topologie
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Sélectionnez cette option pour ouvrir la topologie à partir d’un fichier local. Si vous utilisez l’ordinateur sur lequel vous avez défini la topologie, il se trouve à l’emplacement où vous l’avez enregistrée aux étapes précédentes. En règle générale, il s’agit du dossier Documents de l’utilisateur qui a configuré la topologie.
 
@@ -82,7 +84,7 @@ Après avoir défini votre topologie dans le générateur de topologie, vous dev
     
     </div>
 
-6.  Vous pouvez cliquer sur **Avancé**. Les options de placement des fichiers de données avancées SQL Server vous permettent de sélectionner les options suivantes:
+6.  Vous pouvez cliquer sur **Avancé**. Les options de placement des fichiers de données avancées SQL Server vous permettent de sélectionner les options suivantes :
     
       - **Déterminez automatiquement l’emplacement du fichier de base de données** : cette option détermine les meilleures performances opérationnelles en fonction de la configuration du disque sur votre serveur SQL Server en répartissant les fichiers journaux et de données vers le meilleur emplacement.
     
@@ -92,7 +94,7 @@ Après avoir défini votre topologie dans le générateur de topologie, vous dev
 
 7.  Dans la page **Sélectionner le serveur de gestion centrale** , sélectionnez un pool frontal.
 
-8.  Vous pouvez cliquer sur **Avancé**. Les options de placement des fichiers de données avancées SQL Server vous permettent de sélectionner l’une des options suivantes:
+8.  Vous pouvez cliquer sur **Avancé**. Les options de placement des fichiers de données avancées SQL Server vous permettent de sélectionner l’une des options suivantes :
     
       - **Déterminez automatiquement l’emplacement du fichier de base de données** : cette option détermine les meilleures performances opérationnelles en fonction de la configuration du disque sur votre serveur SQL Server en répartissant les fichiers journaux et de données vers le meilleur emplacement.
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : exigences techniques pour la mobilité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for mobility
 ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac74f7e9e85829e500900e03d4b7cfedf89d1e0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4eef2cb185653446627fe6ccec2d49538e1162b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846645"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846645"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-07-24_
+_**Dernière modification de la rubrique :** 2014-07-24_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
@@ -55,7 +57,7 @@ L’exigence d’affinité de cookie dans les équilibreurs de charge matériell
 
 
 > [!IMPORTANT]  
-> Tout le trafic de service de mobilité passe par le proxy inverse, quelle que soit la position du point de départ (interne ou externe). Dans le cas d’un seul proxy inverse ou d’une batterie de serveurs proxy inverse, ou d’un appareil fournissant la fonction de proxy inverse, un problème peut se produire lorsque le trafic interne est egressing par le biais d’une interface et tente d’être entrant immédiatement dans la même interface. Cela entraîne souvent une violation d’une règle de sécurité appelée usurpation de paquets TCP ou simplement une usurpation d’identité. <EM>Épingler des cheveux</EM> (la sortie et la pénétration immédiate d’un paquet ou d’une série de paquets) doivent être autorisés pour que la mobilité puisse fonctionner. Une façon de résoudre ce problème consiste à utiliser un proxy inverse différent du pare-feu (la règle de prévention des intrusions doit toujours être appliquée au pare-feu, à des fins de sécurité). Le cheveux peut se produire à l’interface externe du proxy inverse au lieu de l’interface externe du pare-feu. Vous avez détecté l’usurpation d’identité au niveau du pare-feu et détendez la règle sur le proxy inverse, ce qui permet à l’cheveux de la mobilité requise.<BR>Pour définir le proxy inverse du comportement de cheveux (pas le pare-feu), utilisez les enregistrements CNAMe ou DNS (Domain Name System).
+> Tout le trafic de service de mobilité passe par le proxy inverse, quelle que soit la position du point de départ (interne ou externe). Dans le cas d’un seul proxy inverse ou d’une batterie de serveurs proxy inverse, ou d’un appareil fournissant la fonction de proxy inverse, un problème peut se produire lorsque le trafic interne est egressing par le biais d’une interface et tente d’être entrant immédiatement dans la même interface. Cela entraîne souvent une violation d’une règle de sécurité appelée usurpation de paquets TCP ou simplement une usurpation d’identité. Les <EM>cheveux-cheveux</EM> (sortie et pénétration immédiate d’un paquet ou d’une série de paquets) doivent être autorisés pour que la mobilité puisse fonctionner. Une façon de résoudre ce problème consiste à utiliser un proxy inverse différent du pare-feu (la règle de prévention des intrusions doit toujours être appliquée au pare-feu, à des fins de sécurité). Le cheveux peut se produire à l’interface externe du proxy inverse au lieu de l’interface externe du pare-feu. Vous avez détecté l’usurpation d’identité au niveau du pare-feu et détendez la règle sur le proxy inverse, ce qui permet à l’cheveux de la mobilité requise.<BR>Pour définir le proxy inverse du comportement de cheveux (pas le pare-feu), utilisez les enregistrements CNAMe ou DNS (Domain Name System).
 
 
 
@@ -67,7 +69,7 @@ Lync Server 2013 prend en charge les services de mobilité pour les clients mobi
 
 ## <a name="internal-and-external-dns-configuration"></a>Configuration DNS interne et externe
 
-Les services de mobilité MCX (introduits avec la mise à jour cumulative pour Lync Server 2010: novembre 2011) et UCWA (introduits dans les mises à jour cumulatives de Lync Server 2013:2013) utilisent le système de la même manière.
+Les services de mobilité MCX (introduits avec la mise à jour cumulative pour Lync Server 2010 : novembre 2011) et UCWA (introduits dans les mises à jour cumulatives de Lync Server 2013:2013) utilisent le système de la même manière.
 
 Lorsque vous utilisez la découverte automatique, les appareils mobiles utilisent le DNS pour localiser les ressources. Lors de la recherche DNS, une connexion est d’abord tentée vers le nom de domaine complet associé à l’enregistrement DNS\< interne (lyncdiscoverinternal. nom\>de domaine interne). Si une connexion ne peut pas être effectuée à l’aide de l’enregistrement DNS interne, une connexion est tentée via l’enregistrement DNS\< externe (lyncdiscover). sipdomain\>). Un appareil mobile qui est interne au réseau se connecte à l’URL du service de découverte automatique interne et un appareil mobile extérieur au réseau se connecte à l’URL du service de découverte automatique externe. Les requêtes de découverte automatique externes passent par le proxy inverse. Le service de découverte automatique Lync Server 2013 renvoie toutes les URL de services Web pour le pool de domicile de l’utilisateur, y compris les URL de service de mobilité (MCX et UCWA). Toutefois, l’URL du service de mobilité interne et l’URL du service de mobilité externe sont associées au nom de domaine complet des services Web externes. Par conséquent, qu’il s’agisse d’un appareil mobile ou d’une connexion externe, l’appareil se connecte toujours au service de mobilité Lync Server 2013 en externe via le proxy inverse.
 
@@ -85,19 +87,19 @@ Le diagramme suivant illustre le flux des requêtes Web d’applications mobiles
 
 **Flux de service de mobilité avec la découverte automatique**
 
-![cdb96424-96f2-4ABF-88d7-1d32d1010ffd] (images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4ABF-88d7-1d32d1010ffd")
+![cdb96424-96f2-4abf-88d7-1d32d1010ffd](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
 
 <div>
 
 
 > [!NOTE]  
-> Le diagramme illustre des services Web génériques. Un répertoire virtuel intitulé mobilité représente les services de mobilité MCX et/ou UCWA. Si vous n’avez pas appliqué les mises à jour cumulatives pour Lync Server 2013: février 2013, il est possible que vous n’ayez pas ou non le répertoire virtuel Ucwa défini sur vos services Web internes et externes. Vous aurez une découverte automatique d’annuaire virtuelle et vous aurez peut-être un répertoire virtuel MCX.<BR>La découverte automatique et la découverte de services fonctionnent de la même manière, quelle que soit la technologie de services de mobilité déployée.
+> Le diagramme illustre des services Web génériques. Un répertoire virtuel intitulé mobilité représente les services de mobilité MCX et/ou UCWA. Si vous n’avez pas appliqué les mises à jour cumulatives pour Lync Server 2013 : février 2013, il est possible que vous n’ayez pas ou non le répertoire virtuel Ucwa défini sur vos services Web internes et externes. Vous aurez une découverte automatique d’annuaire virtuelle et vous aurez peut-être un répertoire virtuel MCX.<BR>La découverte automatique et la découverte de services fonctionnent de la même manière, quelle que soit la technologie de services de mobilité déployée.
 
 
 
 </div>
 
-Pour prendre en charge les utilisateurs mobiles à l’intérieur et à l’extérieur du réseau d’entreprise, vos noms de domaine complets internes et externes doivent respecter certaines conditions préalables. De plus, il est possible que vous deviez respecter d’autres exigences, en fonction des fonctionnalités que vous choisissez d’implémenter:
+Pour prendre en charge les utilisateurs mobiles à l’intérieur et à l’extérieur du réseau d’entreprise, vos noms de domaine complets internes et externes doivent respecter certaines conditions préalables. De plus, il est possible que vous deviez respecter d’autres exigences, en fonction des fonctionnalités que vous choisissez d’implémenter :
 
   - Nouveaux enregistrements DNS, CNAMe ou A (hôte, s’il s’agit du protocole IPv6, AAAA) pour la découverte automatique.
 
@@ -107,7 +109,7 @@ Pour prendre en charge les utilisateurs mobiles à l’intérieur et à l’ext�
 
   - Configuration de l’équilibrage de charge matérielle du serveur frontal
 
-Votre topologie doit respecter les exigences suivantes pour prendre en charge le service de mobilité et le service de découverte automatique:
+Votre topologie doit respecter les exigences suivantes pour prendre en charge le service de mobilité et le service de découverte automatique :
 
   - Le nom de domaine complet (FQDN) du pool frontal doit être différent du FQDN Web de la liste frontale.
 
@@ -119,7 +121,7 @@ Votre topologie doit respecter les exigences suivantes pour prendre en charge le
 
   - S’il s’agit d’un utilisateur qui se trouve en dehors du réseau d’entreprise, la requête doit se trouver dans le nom de domaine complet (FQDN) Web externe de la liste du pool frontal ou du réalisateur.
 
-Si vous prenez en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP:
+Si vous prenez en charge la découverte automatique, vous devez créer les enregistrements DNS suivants pour chaque domaine SIP :
 
   - Un enregistrement DNS interne pour prendre en charge les utilisateurs mobiles qui se connectent au sein du réseau de votre organisation.
 
@@ -133,7 +135,7 @@ Les enregistrements DNS peuvent être des enregistrements CNAMe ou un (hôte, si
 
 
 > [!NOTE]  
-> Les clients d’appareils mobiles ne prennent pas en charge plusieurs certificats SSL (Secure Sockets Layer) provenant de différents domaines. Par conséquent, la redirection CNAMe vers différents domaines n’est pas prise en charge sur HTTPs. Par exemple, un enregistrement CNAMe DNS pour lyncdiscover.contoso.com qui redirige vers une adresse de director.contoso.net n’est pas pris en charge sur HTTPs. Dans le cas d’une telle topologie, un client d’appareil mobile doit utiliser HTTP pour la première demande, de sorte que la redirection CNAMe soit résolue via HTTP. Les requêtes suivantes utilisent alors HTTPs. Pour prendre en charge ce scénario, vous devez configurer votre proxy inverse avec une règle de publication Web pour le port 80 (HTTP). Pour plus d’informations, reportez-vous à la section «pour créer une règle de publication Web pour le port 80» dans <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">configuration du proxy inverse pour la mobilité dans Lync Server 2013</A>.<BR>La redirection CNAMe vers le même domaine est prise en charge sur HTTPs. Dans ce cas, le certificat du domaine de destination couvre le domaine d’origine.
+> Les clients d’appareils mobiles ne prennent pas en charge plusieurs certificats SSL (Secure Sockets Layer) provenant de différents domaines. Par conséquent, la redirection CNAMe vers différents domaines n’est pas prise en charge sur HTTPs. Par exemple, un enregistrement CNAMe DNS pour lyncdiscover.contoso.com qui redirige vers une adresse de director.contoso.net n’est pas pris en charge sur HTTPs. Dans le cas d’une telle topologie, un client d’appareil mobile doit utiliser HTTP pour la première demande, de sorte que la redirection CNAMe soit résolue via HTTP. Les requêtes suivantes utilisent alors HTTPs. Pour prendre en charge ce scénario, vous devez configurer votre proxy inverse avec une règle de publication Web pour le port 80 (HTTP). Pour plus d’informations, reportez-vous à la section « pour créer une règle de publication Web pour le port 80 » dans <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">configuration du proxy inverse pour la mobilité dans Lync Server 2013</A>.<BR>La redirection CNAMe vers le même domaine est prise en charge sur HTTPs. Dans ce cas, le certificat du domaine de destination couvre le domaine d’origine.
 
 
 
@@ -159,7 +161,7 @@ Si vous prenez en charge les notifications de transmission et que les appareils 
 
 </div>
 
-Notez que si un utilisateur est hébergé sur une unité de branchement survivant (SBA), les ports suivants sont nécessaires:
+Notez que si un utilisateur est hébergé sur une unité de branchement survivant (SBA), les ports suivants sont nécessaires :
 
   - UcwaSipExternalListeningPort nécessite le port 5088
 
@@ -201,7 +203,7 @@ Si vous envisagez de prendre en charge des clients mobiles Lync uniquement sur v
 
 ## <a name="reverse-proxy-requirements"></a>Configuration requise du proxy inverse
 
-Si vous prenez en charge la découverte automatique pour les clients mobiles Lync, vous devez mettre à jour la règle de publication actuelle comme suit:
+Si vous prenez en charge la découverte automatique pour les clients mobiles Lync, vous devez mettre à jour la règle de publication actuelle comme suit :
 
   - Si vous décidez de mettre à jour les listes d’autres noms d’objet sur les certificats proxy inverse et d’utiliser HTTPs pour la demande de service de découverte automatique initiale, vous devez mettre à jour la règle de publication Web pour lyncdiscover. \<sipdomain\>. En règle générale, ce problème est associé à la règle de publication pour l’URL des services Web externes sur le pool frontal.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Autorisation d’un utilisateur à gérer les catégo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling a user to manage categories, chat rooms, and user rights and permissions
 ms:assetid: 6c551be3-bc74-4d0e-9008-ddfabd86e940
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215876(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5be79cb3a97b403a7f61309ff8f4e6e5370d42e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4fa2c31a293f13fdca861f4183911272c55a2bad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831263"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831263"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Les membres du rôle **CsPersistentChatAdministrator** (administrateurs de discussions permanentes) peuvent accorder des droits et des autorisations du gestionnaire de la salle de conversation à d’autres utilisateurs et à eux-mêmes.
 
-Un administrateur de chat permanent peut procéder comme suit:
+Un administrateur de chat permanent peut procéder comme suit :
 
   - Créer des catégories de salles et des salles de conversation.
 

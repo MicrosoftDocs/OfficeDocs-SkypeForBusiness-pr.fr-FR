@@ -3,6 +3,8 @@ title: Créer ou modifier un ensemble de paramètres de configuration de Lync Ph
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of Lync Phone Edition configuration settings
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688086(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3012ffeeb8dd4559ee05a45dd07becefd099691
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6b3eaf347693d079ef713716c5ebd0d8c470feef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831816"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831816"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Lorsque vous installez Lync Server, vous obtenez une collection globale de paramètres Lync Phone Edition. Ces paramètres s’appliquent à tous les appareils exécutant Lync Phone Edition dans votre déploiement. Vous pouvez modifier ces paramètres à tout moment. Vous pouvez également définir une nouvelle collection de paramètres qui s’appliquent aux appareils d’un site spécifique. Les paramètres de site sont prioritaires par rapport aux paramètres globaux.
 
@@ -49,7 +51,7 @@ Les paramètres de configuration comprennent le nom de la collection, l’étend
 
 3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton navigation de **configuration d’appareil** .
 
-4.  Dans la page Configuration de l' **appareil** , effectuez l’une des opérations suivantes:
+4.  Dans la page Configuration de l' **appareil** , effectuez l’une des opérations suivantes :
     
       - Pour créer une nouvelle collection de paramètres de configuration de Lync Phone Edition, cliquez sur **nouveau**, sélectionnez un site, cliquez sur **OK**, passez en revue les paramètres par défaut et, si vous le souhaitez, apportez les modifications souhaitées.
     
@@ -72,13 +74,13 @@ Les paramètres de configuration comprennent le nom de la collection, l’étend
 
 ## <a name="creating-new-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de nouveaux paramètres de configuration de Lync Phone Edition à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez créer des paramètres de configuration de Lync Phone Edition (à l’étendue du site uniquement) à l’aide de Windows PowerShell et de l’applet **de nouvelle cmdlet New-CsUCPhoneConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez créer des paramètres de configuration de Lync Phone Edition (à l’étendue du site uniquement) à l’aide de Windows PowerShell et de l’applet **de nouvelle cmdlet New-CsUCPhoneConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-create-new-lync-phone-edition-configuration-settings-that-use-the-default-values"></a>Pour créer des paramètres de configuration de Lync Phone Edition utilisant les valeurs par défaut
 
-  - Cette commande crée un ensemble de paramètres de configuration de téléphone de UC pour le site de Redmond:
+  - Cette commande crée un ensemble de paramètres de configuration de téléphone de UC pour le site de Redmond :
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond"
     
@@ -90,7 +92,7 @@ Vous pouvez créer des paramètres de configuration de Lync Phone Edition (à l�
 
 ## <a name="to-change-a-single-property-value-when-creating-new-lync-phone-edition-configuration-settings"></a>Pour modifier une valeur de propriété unique lors de la création de nouveaux paramètres de configuration de Lync Phone Edition
 
-  - Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de téléphone de type UC qui, par défaut, nécessite le verrouillage du téléphone, utilisez une commande comme celle-ci:
+  - Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de téléphone de type UC qui, par défaut, nécessite le verrouillage du téléphone, utilisez une commande comme celle-ci :
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True
 
@@ -100,7 +102,7 @@ Vous pouvez créer des paramètres de configuration de Lync Phone Edition (à l�
 
 ## <a name="to-change-multiple-property-values-when-creating-new-lync-phone-edition-configuration-settings"></a>Pour modifier plusieurs valeurs de propriétés lors de la création de nouveaux paramètres de configuration de Lync Phone Edition
 
-  - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande applique le verrouillage du téléphone et définit la longueur minimale du code confidentiel sur 8 chiffres:
+  - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande applique le verrouillage du téléphone et définit la longueur minimale du code confidentiel sur 8 chiffres :
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 

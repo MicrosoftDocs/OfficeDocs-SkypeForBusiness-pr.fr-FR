@@ -3,6 +3,8 @@ title: Processus de migration
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process
 ms:assetid: b2bd9c76-2f4b-4d14-a5c4-157bbff75de0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205181(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba15e7fc3d190970d8c7cbc5bf7f6465286d1bc5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2771a7a8b29cf410f9da5155e8f379bd7efe0e4e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846149"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-24_
+_**Dernière modification de la rubrique :** 2012-09-24_
 
 La procédure de migration recommandée et prise en charge pour Lync Server 2013 est une procédure de migration côte à côte. Cette rubrique décrit la raison pour laquelle vous devez utiliser la migration côte à côte et inclut également des informations sur la coexistence.
 

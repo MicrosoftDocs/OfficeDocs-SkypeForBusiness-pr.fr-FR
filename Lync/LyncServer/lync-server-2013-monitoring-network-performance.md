@@ -3,6 +3,8 @@ title: 'Skype Entreprise Server 2015 : surveillance des performances du réseau
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826716"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34826716"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-04-27_
+_**Dernière modification de la rubrique :** 2016-04-27_
 
 Lync Server 2013 est une technologie de communication en temps réel dont le contenu repose essentiellement sur le réseau pour permettre la communication entre les utilisateurs (messagerie instantanée, messagerie instantanée, appels vocaux ou communication vidéo). Il est par conséquent important de surveiller les performances du réseau en continu pour garantir la meilleure utilisation possible de la modalité de communication choisie par un utilisateur.
 
-Les performances du réseau peuvent être mesurées à deux niveaux:
+Les performances du réseau peuvent être mesurées à deux niveaux :
 
-  - **Performances globales du réseau**   ce niveau de mesure des performances permet à une organisation de créer une vue de «grande image» de son réseau et est généralement implémentée par le biais de systèmes de surveillance réseau tiers. Ces systèmes recevront des données de performances et de capacité provenant de périphériques réseau distants tels que des routeurs et commutés sur le réseau pour permettre aux administrateurs de déterminer l’état d’un composant réseau donné à tout moment.
+  - **Performances globales du réseau**   ce niveau de mesure des performances permet à une organisation de créer une vue de « grande image » de son réseau et est généralement implémentée par le biais de systèmes de surveillance réseau tiers. Ces systèmes recevront des données de performances et de capacité provenant de périphériques réseau distants tels que des routeurs et commutés sur le réseau pour permettre aux administrateurs de déterminer l’état d’un composant réseau donné à tout moment.
 
-  - **Performances individuelles du serveur**   ce niveau de mesure de performance est limité à un serveur spécifique et permettra aux administrateurs d’identifier les performances du réseau d’un serveur spécifique pour vous aider à résoudre les problèmes liés aux performances spécifiques. problème ou pour évaluer les performances respectives du serveur sur une période donnée dans le cadre d’un processus de planification de capacité.
+  - **Performances individuelles du serveur**   ce niveau de mesure de performance est limité à un serveur spécifique et aide les administrateurs à évaluer les performances du réseau d’un serveur spécifique pour vous aider à résoudre un problème de performance spécifique ou pour évaluer les performances du serveur correspondant sur une période donnée dans le cadre d’un processus de planification de capacité.
 
 Vous pouvez surveiller le réseau en utilisant les outils décrits dans les sections suivantes.
 
@@ -61,7 +63,7 @@ System Center Operations Manager fournit une gestion des services de bout en bou
 
 ## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a>Les solutions de gestion de réseau de System Center Operations Manager 2012 et tierces
 
-****   Les solutions EMC Smarts pour Operations Manager vous aident à résoudre les problèmes liés aux niveaux de service. À l’aide d’EMC Solutions for Operations Manager, vous pouvez gérer et surveiller votre chaîne de services informatiques en une solution intégrée et automatisée. Vous identifierez facilement les causes racines des problèmes de performances et de disponibilité, et vous pouvez les résoudre plus rapidement pour réduire les effets et les coûts. Les principaux avantages sont les suivants:
+****   Les solutions EMC Smarts pour Operations Manager vous aident à résoudre les problèmes liés aux niveaux de service. À l’aide d’EMC Solutions for Operations Manager, vous pouvez gérer et surveiller votre chaîne de services informatiques en une solution intégrée et automatisée. Vous identifierez facilement les causes racines des problèmes de performances et de disponibilité, et vous pouvez les résoudre plus rapidement pour réduire les effets et les coûts. Les principaux avantages sont les suivants :
 
   - Une gestion avancée et facile à utiliser, qui vous permet de fournir une valeur stratégique commerciale au lieu de trier et de filtrer manuellement des alertes confuses.
 
@@ -69,7 +71,7 @@ System Center Operations Manager fournit une gestion des services de bout en bou
 
   - **Les opérations**   rationalisées évite qu’elles soient plus complexes en combinant plusieurs outils de gestion, applications et terminaux.
 
-Pour plus d’informations, consultez la page suivante:
+Pour plus d’informations, consultez la page suivante :
 
 [Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
 
@@ -81,11 +83,11 @@ Pour plus d’informations, consultez la page suivante:
 
 ## <a name="third-party-solutions"></a>Solutions tierces
 
-**Centre de gestion réseau HP (auparavant appelé HP OpenView)** Le    [Centre de gestion réseau HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) fournit une gestion intégrée des pannes et des performances permettant d’améliorer la disponibilité et les performances du réseau. Le centre de gestion réseau fait partie de la solution de gestion de réseau automatisé HP qui unifie la gestion des erreurs, des performances, de la configuration et de la gestion des modifications.
+HP Network **Management Center (anciennement HP OpenView)**   [HP Network Management Center](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) fournit une gestion intégrée des pannes et des performances pour améliorer la disponibilité et les performances du réseau. Le centre de gestion réseau fait partie de la solution de gestion de réseau automatisé HP qui unifie la gestion des erreurs, des performances, de la configuration et de la gestion des modifications.
 
-**Produits de gestion et d’automatisation du réseau Cisco**   pour l’entreprise, Cisco dispose de plusieurs produits de gestion, notamment la solution de gestion LAN CiscoWorks et le module Cisco Network Analysis pour améliorer l’efficacité opérationnelle et réduction du temps d’arrêt du réseau. Pour obtenir des données supplémentaires sur ces produits, consultez le site Web [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco à l’adresse.
+**Produits de gestion et d’automatisation du réseau Cisco**   pour l’entreprise, Cisco possède plusieurs produits de gestion disponibles, notamment la solution de gestion LAN CiscoWorks et le module Cisco Network Analysis pour vous permettre d’améliorer l’efficacité opérationnelle et de réduire les temps d’arrêt du réseau. Pour obtenir des données supplémentaires sur ces produits, consultez le site Web [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco à l’adresse.
 
-SNMP (simple Network Management Protocol) est une norme de gestion de réseau qui définit une stratégie de gestion des réseaux TCP/IP. SNMP vous permet de capturer les informations de configuration et d’État relatives au réseau, et d’envoyer les informations à un ordinateur désigné pour le suivi des événements. Ce protocole de gestion de réseau standard utilise une architecture distribuée qui inclut les éléments suivants:
+SNMP (simple Network Management Protocol) est une norme de gestion de réseau qui définit une stratégie de gestion des réseaux TCP/IP. SNMP vous permet de capturer les informations de configuration et d’État relatives au réseau, et d’envoyer les informations à un ordinateur désigné pour le suivi des événements. Ce protocole de gestion de réseau standard utilise une architecture distribuée qui inclut les éléments suivants :
 
   - Plusieurs nœuds gérés, chacun avec une entité SNMP appelé agent assurant l’accès à distance à l’instrumentation de gestion.
 
@@ -115,7 +117,7 @@ SNMP (simple Network Management Protocol) est une norme de gestion de réseau qu
 
 ## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
 
-System Center Operations Manager 2012 permettra aux administrateurs d’afficher les performances réseau de chaque serveur via le pack d’administration Windows Server 2012: le Pack de gestion du système d’exploitation Windows Server inclut un pack d’administration des performances Cela permettra aux administrateurs de surveiller les performances et l’intégrité des cartes réseau.
+System Center Operations Manager 2012 permettra aux administrateurs d’afficher les performances réseau de chaque serveur via le pack d’administration Windows Server 2012 : le Pack de gestion du système d’exploitation Windows Server inclut un pack d’administration des performances Cela permettra aux administrateurs de surveiller les performances et l’intégrité des cartes réseau.
 
 </div>
 

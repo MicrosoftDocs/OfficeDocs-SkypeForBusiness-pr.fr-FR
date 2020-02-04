@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Préparation de l’infrastructure et des systèmes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the infrastructure and systems
 ms:assetid: 1254ee38-0679-4714-b293-1050f107c158
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398205(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e724dd3b6105be3f4601c523dbbf558c91ca9f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fc49f5e246e69f600506d990ace7362d9666f1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823790"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823790"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Le déploiement de Lync Server 2013 nécessite l’utilisation du générateur de topologie pour définir et publier la conception topologique. Pour identifier les composants requis pour votre topologie, utilisez le générateur de topologie pour créer et enregistrer une conception de topologie. Avant de publier votre topologie dans le générateur de topologie, procédez comme suit:
+Le déploiement de Lync Server 2013 nécessite l’utilisation du générateur de topologie pour définir et publier la conception topologique. Pour identifier les composants requis pour votre topologie, utilisez le générateur de topologie pour créer et enregistrer une conception de topologie. Avant de publier votre topologie dans le générateur de topologie, procédez comme suit :
 
   - Obtenez et installez le matériel de chaque composant de la conception topologique que vous avez créé et enregistré à l’aide du générateur de topologie, y compris tous les ordinateurs requis (serveurs exécutant Lync Server 2013, serveurs de base de données, serveurs exécutant Internet Information Services ( IIS) et inversez les serveurs proxy, selon le cas), les cartes réseau, les équilibreurs de charge matérielle et les périphériques de stockage (par exemple, les serveurs de fichiers). Pour plus d’informations sur la définition d’une topologie spécifiant les composants nécessaires à votre déploiement, reportez-vous à la rubrique [définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Pour plus d’informations sur la configuration matérielle requise pour les serveurs, voir [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation relative à la prise en charge.
 
@@ -43,7 +45,7 @@ Le déploiement de Lync Server 2013 nécessite l’utilisation du générateur d
 
   - Configurez les services de domaine Active Directory. Pour publier et activer la topologie, vous avez besoin que les serveurs internes soient représentés par des comptes d’ordinateur dans AD DS. Pour cela, il suffit de joindre les ordinateurs à AD DS. Pour plus d’informations sur la préparation d’AD DS, voir [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
 
-  - Créer un partage de fichiers. Les serveurs Standard Edition peuvent héberger le partage de fichiers du fichier requis, lors d’un déploiement d’entreprise, le partage de fichier ne peut pas être hébergé sur le serveur frontal. Les autorisations et appartenances aux groupes requises pour le déploiement et la configuration de la liste de contrôle d’accès (ACL) sur le dossier et du partage doivent être correctement configurées pour que le générateur de topologie s’exécute correctement. Assurez-vous que la personne exécutant le générateur de topologie dispose des autorisations et des appartenances aux groupes suivantes:
+  - Créer un partage de fichiers. Les serveurs Standard Edition peuvent héberger le partage de fichiers du fichier requis, lors d’un déploiement d’entreprise, le partage de fichier ne peut pas être hébergé sur le serveur frontal. Les autorisations et appartenances aux groupes requises pour le déploiement et la configuration de la liste de contrôle d’accès (ACL) sur le dossier et du partage doivent être correctement configurées pour que le générateur de topologie s’exécute correctement. Assurez-vous que la personne exécutant le générateur de topologie dispose des autorisations et des appartenances aux groupes suivantes :
     
       - Membre du groupe administrateurs locaux
     

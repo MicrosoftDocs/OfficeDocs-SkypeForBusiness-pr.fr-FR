@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie de version de client par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie de version de client par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user client version policy
 ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182607(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bfd26aff4ae2e5d8dacf7ec145bec0e3247facf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e509427b6d2651f84b96a96c87fbe7cfd6177a7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738374"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Affecter une stratégie de version de client par utilisateur dans Lync Server 2013
 
@@ -69,7 +71,7 @@ Pour plus d’informations sur la création de stratégies de version de client 
 
 
 
-7.  Dans **affecter des stratégies**, sous **stratégie de version de client**, effectuez l’une des opérations suivantes:
+7.  Dans **affecter des stratégies**, sous **stratégie de version de client**, effectuez l’une des opérations suivantes :
     
 
     > [!NOTE]  
@@ -90,7 +92,7 @@ Pour plus d’informations sur la création de stratégies de version de client 
 
 ## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie de version de client par utilisateur à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez affecter des stratégies de version de client par utilisateur à l’aide de l’applet de contrôle Grant-CsClientVersionPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez affecter des stratégies de version de client par utilisateur à l’aide de l’applet de contrôle Grant-CsClientVersionPolicy. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>Pour attribuer une stratégie de version de client par utilisateur à un utilisateur unique
 

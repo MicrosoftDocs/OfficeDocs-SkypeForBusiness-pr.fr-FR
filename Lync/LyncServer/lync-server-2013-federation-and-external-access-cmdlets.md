@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Fédération et applets de applet de l’accès externe'
+title: 'Lync Server 2013 : Fédération et applets de applet de l’accès externe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Federation and external access cmdlets
 ms:assetid: 4a384a57-257f-47a6-98d9-54cea2c647b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc44d6d8dbd196e720d836ba8c3417e06a44c988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b206d8de27f2cdeebab5db0c125012c2a29c65b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831160"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831160"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-26_
+_**Dernière modification de la rubrique :** 2012-06-26_
 
-La Fédération et l’accès externe fournissent deux fonctionnalités importantes: la Fédération permet aux utilisateurs de communiquer avec des personnes extérieures à votre organisation, tandis que l’accès externe permet aux utilisateurs de se connecter à Microsoft Lync Server 2013 depuis l’extérieur du réseau interne. Les applets de contrôle disponibles pour la gestion de la Fédération et de l’accès externe dans Lync Server 2013 vous permettent de déterminer qui peut communiquer avec vos utilisateurs (et ne peuvent pas), et de déterminer si ces utilisateurs peuvent se connecter à Lync Server sans avoir à se connecter à l’application interne. équilibrage.
+La Fédération et l’accès externe fournissent deux fonctionnalités importantes : la Fédération permet aux utilisateurs de communiquer avec des personnes extérieures à votre organisation, tandis que l’accès externe permet aux utilisateurs de se connecter à Microsoft Lync Server 2013 depuis l’extérieur du réseau interne. Les applets de contrôle disponibles pour la gestion de la Fédération et de l’accès externe dans Lync Server 2013 vous permettent de déterminer qui peut communiquer avec vos utilisateurs (et ne peuvent pas), et de déterminer si ces utilisateurs peuvent se connecter à Lync Server sans avoir à se connecter à l’application interne. équilibrage.
 
 <div>
 
 ## <a name="federation-and-external-access-cmdlets"></a>Applets de la Fédération et accès externe
 
-La plupart des tâches de gestion qui s’appliquent à la Fédération et à l’accès externe peuvent être effectuées à partir du panneau de configuration de Lync Server. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. Voici une liste des applets de commande qui se rapportent directement à la gestion de la Fédération et de l’accès externe:
+La plupart des tâches de gestion qui s’appliquent à la Fédération et à l’accès externe peuvent être effectuées à partir du panneau de configuration de Lync Server. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. Voici une liste des applets de commande qui se rapportent directement à la gestion de la Fédération et de l’accès externe :
 
   - <span></span>  
     [Get-CsAllowedDomain](https://technet.microsoft.com/en-us/library/Gg398164(v=OCS.15))
