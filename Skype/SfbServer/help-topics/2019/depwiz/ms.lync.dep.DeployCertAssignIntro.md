@@ -6,22 +6,22 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertAssignIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour commencer à attribuer un certificat pour une utilisation dans Skype entreprise Server, cliquez sur suivant.
-ms.openlocfilehash: 6724e53e1d0ef74bf93c967082d8b84753f04be6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0ff97a373582f155d78dffcdf676090f3cd04330
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275565"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705799"
 ---
-# <a name="certificate-assignment-intro"></a><span data-ttu-id="e27b0-103">Assignation de certificat (introduction)</span><span class="sxs-lookup"><span data-stu-id="e27b0-103">Certificate Assignment (Intro)</span></span>
+# <a name="certificate-assignment-intro"></a><span data-ttu-id="f3cf9-103">Assignation de certificat (introduction)</span><span class="sxs-lookup"><span data-stu-id="f3cf9-103">Certificate Assignment (Intro)</span></span>
  
-<span data-ttu-id="e27b0-104">Pour commencer à attribuer un certificat pour une utilisation dans Skype entreprise Server, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="e27b0-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
+<span data-ttu-id="f3cf9-104">Pour commencer à attribuer un certificat pour une utilisation dans Skype entreprise Server, cliquez sur **suivant**.</span><span class="sxs-lookup"><span data-stu-id="f3cf9-104">To begin assigning a certificate for use in Skype for Business Server, click **Next**.</span></span>
   
 
