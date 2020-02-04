@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: classes et descriptions de schéma'
+title: 'Lync Server 2013 : classes et descriptions de schéma'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema classes and descriptions
 ms:assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398625(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39bd0b3ff3c99e7de731f94eda0d3775ac4bd7cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5080af0977457f5c4a75d2f121e75560b0f24524
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764932"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34822138"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="schema-classes-and-descriptions-in-lync-server-2013"></a><span data-ttu-id="82ba3-102">Descriptions et classes de schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82ba3-102">Schema classes and descriptions in Lync Server 2013</span></span>
+# <a name="schema-classes-and-descriptions-in-lync-server-2013"></a><span data-ttu-id="090db-102">Descriptions et classes de schéma dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="090db-102">Schema classes and descriptions in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,13 +35,13 @@ ms.locfileid: "34822138"
 
 <span> </span>
 
-<span data-ttu-id="82ba3-103">_**Dernière modification de la rubrique:** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="82ba3-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="090db-103">_**Dernière modification de la rubrique :** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="090db-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="82ba3-104">Cette section décrit toutes les classes de schéma utilisées par Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="82ba3-104">This section describes all the schema classes used by Lync Server 2013.</span></span>
+<span data-ttu-id="090db-104">Cette section décrit toutes les classes de schéma utilisées par Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="090db-104">This section describes all the schema classes used by Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="schema-classes-and-descriptions"></a><span data-ttu-id="82ba3-105">Classes et descriptions de schéma</span><span class="sxs-lookup"><span data-stu-id="82ba3-105">Schema Classes and Descriptions</span></span>
+## <a name="schema-classes-and-descriptions"></a><span data-ttu-id="090db-105">Classes et descriptions de schéma</span><span class="sxs-lookup"><span data-stu-id="090db-105">Schema Classes and Descriptions</span></span>
 
 
 <table>
@@ -50,316 +52,316 @@ ms.locfileid: "34822138"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="82ba3-106">Cours</span><span class="sxs-lookup"><span data-stu-id="82ba3-106">Class</span></span></th>
-<th><span data-ttu-id="82ba3-107">Description</span><span class="sxs-lookup"><span data-stu-id="82ba3-107">Description</span></span></th>
-<th><span data-ttu-id="82ba3-108">Commentaires</span><span class="sxs-lookup"><span data-stu-id="82ba3-108">Comments</span></span></th>
+<th><span data-ttu-id="090db-106">Cours</span><span class="sxs-lookup"><span data-stu-id="090db-106">Class</span></span></th>
+<th><span data-ttu-id="090db-107">Description</span><span class="sxs-lookup"><span data-stu-id="090db-107">Description</span></span></th>
+<th><span data-ttu-id="090db-108">Commentaires</span><span class="sxs-lookup"><span data-stu-id="090db-108">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-109">Mail-destinataire</span><span class="sxs-lookup"><span data-stu-id="82ba3-109">Mail-Recipient</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-110">Destinataire du message de messagerie unifiée (MU) Exchange.</span><span class="sxs-lookup"><span data-stu-id="82ba3-110">Exchange Unified Messaging (UM) email recipient.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-111">Cette classe auxiliaire est partagée avec la messagerie unifiée Exchange.</span><span class="sxs-lookup"><span data-stu-id="82ba3-111">This auxiliary class is shared with Exchange UM.</span></span></p></td>
+<td><p><span data-ttu-id="090db-109">Mail-destinataire</span><span class="sxs-lookup"><span data-stu-id="090db-109">Mail-Recipient</span></span></p></td>
+<td><p><span data-ttu-id="090db-110">Destinataire du message de messagerie unifiée (MU) Exchange.</span><span class="sxs-lookup"><span data-stu-id="090db-110">Exchange Unified Messaging (UM) email recipient.</span></span></p></td>
+<td><p><span data-ttu-id="090db-111">Cette classe auxiliaire est partagée avec la messagerie unifiée Exchange.</span><span class="sxs-lookup"><span data-stu-id="090db-111">This auxiliary class is shared with Exchange UM.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-112">msRTCSIP-ApplicationContacts</span><span class="sxs-lookup"><span data-stu-id="82ba3-112">msRTCSIP-ApplicationContacts</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-113">Cette classe est un conteneur pour plusieurs contacts d’application et ne contient pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-113">This class is a container for multiple application contacts and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-114">Nouveautés de Microsoft Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-114">New in Microsoft Office Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-112">msRTCSIP-ApplicationContacts</span><span class="sxs-lookup"><span data-stu-id="090db-112">msRTCSIP-ApplicationContacts</span></span></p></td>
+<td><p><span data-ttu-id="090db-113">Cette classe est un conteneur pour plusieurs contacts d’application et ne contient pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-113">This class is a container for multiple application contacts and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-114">Nouveautés de Microsoft Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-114">New in Microsoft Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-115">msRTCSIP-ApplicationServer</span><span class="sxs-lookup"><span data-stu-id="82ba3-115">msRTCSIP-ApplicationServer</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-116">Cette classe contient l’entrée du point de contrôle de service d’une instance de services d’application de communications unifiées (UCAS).</span><span class="sxs-lookup"><span data-stu-id="82ba3-116">This class holds the entry for the service control point for an instance of Unified Communications Application Services (UCAS).</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-117">Nouveauté d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-117">New in Office Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-115">msRTCSIP-ApplicationServer</span><span class="sxs-lookup"><span data-stu-id="090db-115">msRTCSIP-ApplicationServer</span></span></p></td>
+<td><p><span data-ttu-id="090db-116">Cette classe contient l’entrée du point de contrôle de service d’une instance de services d’application de communications unifiées (UCAS).</span><span class="sxs-lookup"><span data-stu-id="090db-116">This class holds the entry for the service control point for an instance of Unified Communications Application Services (UCAS).</span></span></p></td>
+<td><p><span data-ttu-id="090db-117">Nouveauté d’Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-117">New in Office Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-118">msRTCSIP-ApplicationServerService</span><span class="sxs-lookup"><span data-stu-id="82ba3-118">msRTCSIP-ApplicationServerService</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-119">Cette classe fournit une association d’un pool spécifique au service d’application.</span><span class="sxs-lookup"><span data-stu-id="82ba3-119">This class provides an association from a specific pool to its Application service.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-120">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-120">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-118">msRTCSIP-ApplicationServerService</span><span class="sxs-lookup"><span data-stu-id="090db-118">msRTCSIP-ApplicationServerService</span></span></p></td>
+<td><p><span data-ttu-id="090db-119">Cette classe fournit une association d’un pool spécifique au service d’application.</span><span class="sxs-lookup"><span data-stu-id="090db-119">This class provides an association from a specific pool to its Application service.</span></span></p></td>
+<td><p><span data-ttu-id="090db-120">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-120">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-121">msRTCSIP-ApplicationServerSettings</span><span class="sxs-lookup"><span data-stu-id="82ba3-121">msRTCSIP-ApplicationServerSettings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-122">Cette classe auxiliaire pour msRTCSIP-ApplicationServer contient des attributs représentant des paramètres pour les instances du service d’application.</span><span class="sxs-lookup"><span data-stu-id="82ba3-122">This auxiliary class to msRTCSIP-ApplicationServer holds attributes representing settings for instances of the Application service.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-123">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-123">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-121">msRTCSIP-ApplicationServerSettings</span><span class="sxs-lookup"><span data-stu-id="090db-121">msRTCSIP-ApplicationServerSettings</span></span></p></td>
+<td><p><span data-ttu-id="090db-122">Cette classe auxiliaire pour msRTCSIP-ApplicationServer contient des attributs représentant des paramètres pour les instances du service d’application.</span><span class="sxs-lookup"><span data-stu-id="090db-122">This auxiliary class to msRTCSIP-ApplicationServer holds attributes representing settings for instances of the Application service.</span></span></p></td>
+<td><p><span data-ttu-id="090db-123">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-123">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-124">msRTCSIP-Archive (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-124">msRTCSIP-Archive (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-125">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient tous les paramètres relatifs à l’archivage.</span><span class="sxs-lookup"><span data-stu-id="82ba3-125">This auxiliary class to msRTCSIP-GlobalContainer holds all settings related to archiving.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-126">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-126">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-124">msRTCSIP-Archive (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-124">msRTCSIP-Archive (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-125">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient tous les paramètres relatifs à l’archivage.</span><span class="sxs-lookup"><span data-stu-id="090db-125">This auxiliary class to msRTCSIP-GlobalContainer holds all settings related to archiving.</span></span></p></td>
+<td><p><span data-ttu-id="090db-126">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-126">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-127">msRTCSIP-ArchivingServer (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-127">msRTCSIP-ArchivingServer (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-128">Cette classe représente un serveur d’archivage de la messagerie instantanée unique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-128">This class represents a single instant messaging Archiving Server.</span></span> <span data-ttu-id="82ba3-129">Une instance de cette classe est créée lors de l’activation d’un ordinateur comme serveur d’archivage de messagerie instantanée, tel qu’un ordinateur sur lequel est installé le service d’archivage de la messagerie instantanée.</span><span class="sxs-lookup"><span data-stu-id="82ba3-129">An instance of this class is created when a computer is activated as an instant messaging Archiving Server, such as a computer with the Instant Messaging Archiving service installed.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-130">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-130">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-127">msRTCSIP-ArchivingServer (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-127">msRTCSIP-ArchivingServer (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-128">Cette classe représente un serveur d’archivage de la messagerie instantanée unique.</span><span class="sxs-lookup"><span data-stu-id="090db-128">This class represents a single instant messaging Archiving Server.</span></span> <span data-ttu-id="090db-129">Une instance de cette classe est créée lors de l’activation d’un ordinateur comme serveur d’archivage de messagerie instantanée, tel qu’un ordinateur sur lequel est installé le service d’archivage de la messagerie instantanée.</span><span class="sxs-lookup"><span data-stu-id="090db-129">An instance of this class is created when a computer is activated as an instant messaging Archiving Server, such as a computer with the Instant Messaging Archiving service installed.</span></span></p></td>
+<td><p><span data-ttu-id="090db-130">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-130">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-131">msRTCSIP-ConferenceDirectories</span><span class="sxs-lookup"><span data-stu-id="82ba3-131">msRTCSIP-ConferenceDirectories</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-132">Cette classe est un conteneur pour plusieurs instances de répertoires de conférences et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-132">This class is a container for multiple instances of conference directories and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-133">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-133">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-131">msRTCSIP-ConferenceDirectories</span><span class="sxs-lookup"><span data-stu-id="090db-131">msRTCSIP-ConferenceDirectories</span></span></p></td>
+<td><p><span data-ttu-id="090db-132">Cette classe est un conteneur pour plusieurs instances de répertoires de conférences et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-132">This class is a container for multiple instances of conference directories and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-133">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-133">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-134">msRTCSIP-ConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="82ba3-134">msRTCSIP-ConferenceDirectory</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-135">Cette classe comporte des attributs représentant des paramètres pour un annuaire de conférences spécifique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-135">This class holds attributes representing settings for a specific conference directory.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-136">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-136">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-134">msRTCSIP-ConferenceDirectory</span><span class="sxs-lookup"><span data-stu-id="090db-134">msRTCSIP-ConferenceDirectory</span></span></p></td>
+<td><p><span data-ttu-id="090db-135">Cette classe comporte des attributs représentant des paramètres pour un annuaire de conférences spécifique.</span><span class="sxs-lookup"><span data-stu-id="090db-135">This class holds attributes representing settings for a specific conference directory.</span></span></p></td>
+<td><p><span data-ttu-id="090db-136">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-136">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-137">msRTCSIP-ConnectionPoint</span><span class="sxs-lookup"><span data-stu-id="82ba3-137">msRTCSIP-ConnectionPoint</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-138">Point de contrôle de service générique (SCP) pour spécifier l’ordinateur comme serveur exécutant Lync Server.</span><span class="sxs-lookup"><span data-stu-id="82ba3-138">Generic service control point (SCP) to specify the computer as a server running Lync Server.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-139">Nouveautés de Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-139">New in Lync 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-137">msRTCSIP-ConnectionPoint</span><span class="sxs-lookup"><span data-stu-id="090db-137">msRTCSIP-ConnectionPoint</span></span></p></td>
+<td><p><span data-ttu-id="090db-138">Point de contrôle de service générique (SCP) pour spécifier l’ordinateur comme serveur exécutant Lync Server.</span><span class="sxs-lookup"><span data-stu-id="090db-138">Generic service control point (SCP) to specify the computer as a server running Lync Server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-139">Nouveautés de Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-139">New in Lync 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-140">msRTCSIP-DefaultCWABank</span><span class="sxs-lookup"><span data-stu-id="82ba3-140">msRTCSIP-DefaultCWABank</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-141">Cette classe auxiliaire contient les paramètres pour une banque Microsoft Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="82ba3-141">This auxiliary class holds the settings for a Microsoft Lync Web App bank.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-142">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-142">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-140">msRTCSIP-DefaultCWABank</span><span class="sxs-lookup"><span data-stu-id="090db-140">msRTCSIP-DefaultCWABank</span></span></p></td>
+<td><p><span data-ttu-id="090db-141">Cette classe auxiliaire contient les paramètres pour une banque Microsoft Lync Web App.</span><span class="sxs-lookup"><span data-stu-id="090db-141">This auxiliary class holds the settings for a Microsoft Lync Web App bank.</span></span></p></td>
+<td><p><span data-ttu-id="090db-142">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-142">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-143">msRTCSIP-Domain</span><span class="sxs-lookup"><span data-stu-id="82ba3-143">msRTCSIP-Domain</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-144">Cette classe comporte des attributs qui définissent les domaines configurés du Bureau d’enregistrement SIP.</span><span class="sxs-lookup"><span data-stu-id="82ba3-144">This class holds attributes that define the configured domains of the SIP Registrar.</span></span></p></td>
+<td><p><span data-ttu-id="090db-143">msRTCSIP-Domain</span><span class="sxs-lookup"><span data-stu-id="090db-143">msRTCSIP-Domain</span></span></p></td>
+<td><p><span data-ttu-id="090db-144">Cette classe comporte des attributs qui définissent les domaines configurés du Bureau d’enregistrement SIP.</span><span class="sxs-lookup"><span data-stu-id="090db-144">This class holds attributes that define the configured domains of the SIP Registrar.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-145">msRTCSIP-EdgeProxy</span><span class="sxs-lookup"><span data-stu-id="82ba3-145">msRTCSIP-EdgeProxy</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-146">Ce conteneur de classe représente un service Edge d’accès unique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-146">This class container represents a single Access Edge service.</span></span> <span data-ttu-id="82ba3-147">Dans la mesure où un service Edge d’accès est déployé dans le réseau de périmètre et que les clients n’autorisent pas l’accès aux services de domaine Active Directory à partir du réseau de périmètre, les instances du service Edge d’accès ne sont pas jointes au réseau Active Directory de l’intranet.</span><span class="sxs-lookup"><span data-stu-id="82ba3-147">Because an Access Edge service is deployed in the perimeter network and customers usually do not allow Active Directory Domain Services access from the perimeter network, instances of Access Edge service are not joined to the intranet’s Active Directory network.</span></span> <span data-ttu-id="82ba3-148">C’est pourquoi les proxys d’accès ne sont pas automatiquement inscrits dans AD DS.</span><span class="sxs-lookup"><span data-stu-id="82ba3-148">Therefore, Access Proxies are not automatically registered in AD DS.</span></span> <span data-ttu-id="82ba3-149">L’administrateur doit configurer manuellement l’existence de chaque instance du service Edge d’accès dans AD DS.</span><span class="sxs-lookup"><span data-stu-id="82ba3-149">The administrator must manually configure the existence of each instance of Access Edge service in AD DS.</span></span></p></td>
+<td><p><span data-ttu-id="090db-145">msRTCSIP-EdgeProxy</span><span class="sxs-lookup"><span data-stu-id="090db-145">msRTCSIP-EdgeProxy</span></span></p></td>
+<td><p><span data-ttu-id="090db-146">Ce conteneur de classe représente un service Edge d’accès unique.</span><span class="sxs-lookup"><span data-stu-id="090db-146">This class container represents a single Access Edge service.</span></span> <span data-ttu-id="090db-147">Dans la mesure où un service Edge d’accès est déployé dans le réseau de périmètre et que les clients n’autorisent pas l’accès aux services de domaine Active Directory à partir du réseau de périmètre, les instances du service Edge d’accès ne sont pas jointes au réseau Active Directory de l’intranet.</span><span class="sxs-lookup"><span data-stu-id="090db-147">Because an Access Edge service is deployed in the perimeter network and customers usually do not allow Active Directory Domain Services access from the perimeter network, instances of Access Edge service are not joined to the intranet’s Active Directory network.</span></span> <span data-ttu-id="090db-148">C’est pourquoi les proxys d’accès ne sont pas automatiquement inscrits dans AD DS.</span><span class="sxs-lookup"><span data-stu-id="090db-148">Therefore, Access Proxies are not automatically registered in AD DS.</span></span> <span data-ttu-id="090db-149">L’administrateur doit configurer manuellement l’existence de chaque instance du service Edge d’accès dans AD DS.</span><span class="sxs-lookup"><span data-stu-id="090db-149">The administrator must manually configure the existence of each instance of Access Edge service in AD DS.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-150">msRTCSIP-EnterpriseMCUSettings</span><span class="sxs-lookup"><span data-stu-id="82ba3-150">msRTCSIP-EnterpriseMCUSettings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-151">Cette classe auxiliaire est associée à msRTCSIP-MCU en tant qu’attributs représentant les paramètres des serveurs de conférence.</span><span class="sxs-lookup"><span data-stu-id="82ba3-151">This auxiliary class to msRTCSIP-MCU holds attributes representing settings for Conferencing servers.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-152">Nouveautés de Microsoft Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-152">New in Microsoft Office Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-150">msRTCSIP-EnterpriseMCUSettings</span><span class="sxs-lookup"><span data-stu-id="090db-150">msRTCSIP-EnterpriseMCUSettings</span></span></p></td>
+<td><p><span data-ttu-id="090db-151">Cette classe auxiliaire est associée à msRTCSIP-MCU en tant qu’attributs représentant les paramètres des serveurs de conférence.</span><span class="sxs-lookup"><span data-stu-id="090db-151">This auxiliary class to msRTCSIP-MCU holds attributes representing settings for Conferencing servers.</span></span></p></td>
+<td><p><span data-ttu-id="090db-152">Nouveautés de Microsoft Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-152">New in Microsoft Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-153">msRTCSIP-EnterpriseMediationServerSettings</span><span class="sxs-lookup"><span data-stu-id="82ba3-153">msRTCSIP-EnterpriseMediationServerSettings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-154">Cette classe auxiliaire pour msRTCSIP-MediationServer contient des attributs représentant les paramètres des serveurs de médiation.</span><span class="sxs-lookup"><span data-stu-id="82ba3-154">This auxiliary class to msRTCSIP-MediationServer holds attributes representing settings for Mediation Servers.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-155">Nouveautés d’Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-155">New in Office Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-153">msRTCSIP-EnterpriseMediationServerSettings</span><span class="sxs-lookup"><span data-stu-id="090db-153">msRTCSIP-EnterpriseMediationServerSettings</span></span></p></td>
+<td><p><span data-ttu-id="090db-154">Cette classe auxiliaire pour msRTCSIP-MediationServer contient des attributs représentant les paramètres des serveurs de médiation.</span><span class="sxs-lookup"><span data-stu-id="090db-154">This auxiliary class to msRTCSIP-MediationServer holds attributes representing settings for Mediation Servers.</span></span></p></td>
+<td><p><span data-ttu-id="090db-155">Nouveautés d’Office Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-155">New in Office Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-156">msRTCSIP-EnterpriseServerSettings</span><span class="sxs-lookup"><span data-stu-id="82ba3-156">msRTCSIP-EnterpriseServerSettings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-157">Cette classe auxiliaire pour msRTCSIP-Server comporte des attributs représentant les paramètres des serveurs SIP.</span><span class="sxs-lookup"><span data-stu-id="82ba3-157">This auxiliary class to msRTCSIP-Server holds attributes representing settings for SIP servers.</span></span></p></td>
+<td><p><span data-ttu-id="090db-156">msRTCSIP-EnterpriseServerSettings</span><span class="sxs-lookup"><span data-stu-id="090db-156">msRTCSIP-EnterpriseServerSettings</span></span></p></td>
+<td><p><span data-ttu-id="090db-157">Cette classe auxiliaire pour msRTCSIP-Server comporte des attributs représentant les paramètres des serveurs SIP.</span><span class="sxs-lookup"><span data-stu-id="090db-157">This auxiliary class to msRTCSIP-Server holds attributes representing settings for SIP servers.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-158">msRTCSIP-Fédération</span><span class="sxs-lookup"><span data-stu-id="82ba3-158">msRTCSIP-Federation</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-159">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient tous les paramètres liés à la Fédération.</span><span class="sxs-lookup"><span data-stu-id="82ba3-159">This auxiliary class to msRTCSIP-GlobalContainer holds all settings related to federation.</span></span></p></td>
+<td><p><span data-ttu-id="090db-158">msRTCSIP-Fédération</span><span class="sxs-lookup"><span data-stu-id="090db-158">msRTCSIP-Federation</span></span></p></td>
+<td><p><span data-ttu-id="090db-159">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient tous les paramètres liés à la Fédération.</span><span class="sxs-lookup"><span data-stu-id="090db-159">This auxiliary class to msRTCSIP-GlobalContainer holds all settings related to federation.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-160">msRTCSIP-GlobalContainer</span><span class="sxs-lookup"><span data-stu-id="82ba3-160">msRTCSIP-GlobalContainer</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-161">Cette classe comporte tous les paramètres qui s’appliquent à tout le déploiement de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="82ba3-161">This class holds all settings that apply throughout a Lync Server deployment.</span></span></p></td>
+<td><p><span data-ttu-id="090db-160">msRTCSIP-GlobalContainer</span><span class="sxs-lookup"><span data-stu-id="090db-160">msRTCSIP-GlobalContainer</span></span></p></td>
+<td><p><span data-ttu-id="090db-161">Cette classe comporte tous les paramètres qui s’appliquent à tout le déploiement de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="090db-161">This class holds all settings that apply throughout a Lync Server deployment.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-162">msRTCSIP-GlobalUserPolicy (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-162">msRTCSIP-GlobalUserPolicy (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-163">Cette classe représente une seule stratégie de réunion du serveur Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="82ba3-163">This class represents a single Office Communications Server meeting policy.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-164">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-164">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-162">msRTCSIP-GlobalUserPolicy (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-162">msRTCSIP-GlobalUserPolicy (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-163">Cette classe représente une seule stratégie de réunion du serveur Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="090db-163">This class represents a single Office Communications Server meeting policy.</span></span></p></td>
+<td><p><span data-ttu-id="090db-164">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-164">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-165">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="82ba3-165">msRTCSIP-GlobalTopologySetting</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-166">Objet du paramètre topologique global local.</span><span class="sxs-lookup"><span data-stu-id="82ba3-166">The local global topology setting object.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-167">Nouveautés de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-167">New in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-165">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="090db-165">msRTCSIP-GlobalTopologySetting</span></span></p></td>
+<td><p><span data-ttu-id="090db-166">Objet du paramètre topologique global local.</span><span class="sxs-lookup"><span data-stu-id="090db-166">The local global topology setting object.</span></span></p></td>
+<td><p><span data-ttu-id="090db-167">Nouveautés de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-167">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-168">msRTCSIP-GlobalTopologySettings</span><span class="sxs-lookup"><span data-stu-id="82ba3-168">msRTCSIP-GlobalTopologySettings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-169">Conteneur pour contenir les objets de paramètres topologique globaux.</span><span class="sxs-lookup"><span data-stu-id="82ba3-169">Container to hold global topology setting objects.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-170">Nouveautés de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-170">New in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-168">msRTCSIP-GlobalTopologySettings</span><span class="sxs-lookup"><span data-stu-id="090db-168">msRTCSIP-GlobalTopologySettings</span></span></p></td>
+<td><p><span data-ttu-id="090db-169">Conteneur pour contenir les objets de paramètres topologique globaux.</span><span class="sxs-lookup"><span data-stu-id="090db-169">Container to hold global topology setting objects.</span></span></p></td>
+<td><p><span data-ttu-id="090db-170">Nouveautés de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-170">New in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-171">msRTCSIP-LocalNormalization</span><span class="sxs-lookup"><span data-stu-id="82ba3-171">msRTCSIP-LocalNormalization</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-172">Cette classe est un conteneur qui représente une instance d’une règle de normalisation de l’emplacement.</span><span class="sxs-lookup"><span data-stu-id="82ba3-172">This class is a container that represents an instance of a location normalization rule.</span></span></p></td>
+<td><p><span data-ttu-id="090db-171">msRTCSIP-LocalNormalization</span><span class="sxs-lookup"><span data-stu-id="090db-171">msRTCSIP-LocalNormalization</span></span></p></td>
+<td><p><span data-ttu-id="090db-172">Cette classe est un conteneur qui représente une instance d’une règle de normalisation de l’emplacement.</span><span class="sxs-lookup"><span data-stu-id="090db-172">This class is a container that represents an instance of a location normalization rule.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-173">msRTCSIP-LocationContactMapping</span><span class="sxs-lookup"><span data-stu-id="82ba3-173">msRTCSIP-LocationContactMapping</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-174">Cette classe est créée par l’application de surveillance des conférences et contient des attributs permettant de classer les numéros de téléphone de conférence par région.</span><span class="sxs-lookup"><span data-stu-id="82ba3-174">This class is created by the Conferencing Attendant application and holds attributes used to categorize conference telephone numbers by region.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-175">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-175">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-173">msRTCSIP-LocationContactMapping</span><span class="sxs-lookup"><span data-stu-id="090db-173">msRTCSIP-LocationContactMapping</span></span></p></td>
+<td><p><span data-ttu-id="090db-174">Cette classe est créée par l’application de surveillance des conférences et contient des attributs permettant de classer les numéros de téléphone de conférence par région.</span><span class="sxs-lookup"><span data-stu-id="090db-174">This class is created by the Conferencing Attendant application and holds attributes used to categorize conference telephone numbers by region.</span></span></p></td>
+<td><p><span data-ttu-id="090db-175">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-175">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-176">msRTCSIP-LocationContactMappings</span><span class="sxs-lookup"><span data-stu-id="82ba3-176">msRTCSIP-LocationContactMappings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-177">Cette classe est un conteneur pour plusieurs instances de mappages de contacts d’emplacement et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-177">This class is a container for multiple instances of location contact mappings and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-178">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-178">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-176">msRTCSIP-LocationContactMappings</span><span class="sxs-lookup"><span data-stu-id="090db-176">msRTCSIP-LocationContactMappings</span></span></p></td>
+<td><p><span data-ttu-id="090db-177">Cette classe est un conteneur pour plusieurs instances de mappages de contacts d’emplacement et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-177">This class is a container for multiple instances of location contact mappings and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-178">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-178">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-179">msRTCSIP-LocationProfile</span><span class="sxs-lookup"><span data-stu-id="82ba3-179">msRTCSIP-LocationProfile</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-180">Cette classe est un conteneur qui représente un profil d’emplacement spécifique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-180">This class is a container that represents a specific location profile.</span></span></p></td>
+<td><p><span data-ttu-id="090db-179">msRTCSIP-LocationProfile</span><span class="sxs-lookup"><span data-stu-id="090db-179">msRTCSIP-LocationProfile</span></span></p></td>
+<td><p><span data-ttu-id="090db-180">Cette classe est un conteneur qui représente un profil d’emplacement spécifique.</span><span class="sxs-lookup"><span data-stu-id="090db-180">This class is a container that represents a specific location profile.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-181">msRTCSIP-LocationProfiles (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-181">msRTCSIP-LocationProfiles (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-182">Cette classe est un conteneur pour plusieurs profils d’emplacement et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-182">This class is a container for multiple location profiles and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-183">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-183">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-181">msRTCSIP-LocationProfiles (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-181">msRTCSIP-LocationProfiles (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-182">Cette classe est un conteneur pour plusieurs profils d’emplacement et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-182">This class is a container for multiple location profiles and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-183">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-183">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-184">msRTCSIP-LocalNormalizations (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-184">msRTCSIP-LocalNormalizations (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-185">Cette classe est un conteneur pour plusieurs règles de normalisation locales et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-185">This class is a container for multiple local normalization rules and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-186">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-186">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-184">msRTCSIP-LocalNormalizations (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-184">msRTCSIP-LocalNormalizations (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-185">Cette classe est un conteneur pour plusieurs règles de normalisation locales et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-185">This class is a container for multiple local normalization rules and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-186">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-186">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-187">msRTCSIP-MCU</span><span class="sxs-lookup"><span data-stu-id="82ba3-187">msRTCSIP-MCU</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-188">Cette classe représente un serveur de conférence unique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-188">This class represents a single Conferencing server.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-189">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-189">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-187">msRTCSIP-MCU</span><span class="sxs-lookup"><span data-stu-id="090db-187">msRTCSIP-MCU</span></span></p></td>
+<td><p><span data-ttu-id="090db-188">Cette classe représente un serveur de conférence unique.</span><span class="sxs-lookup"><span data-stu-id="090db-188">This class represents a single Conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-189">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-189">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-190">msRTCSIP-MCUFactories</span><span class="sxs-lookup"><span data-stu-id="82ba3-190">msRTCSIP-MCUFactories</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-191">Cette classe contient plusieurs classes msRTCSIP-MCUFactory et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-191">This class holds multiple msRTCSIP-MCUFactory classes and does not have attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-192">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-192">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-190">msRTCSIP-MCUFactories</span><span class="sxs-lookup"><span data-stu-id="090db-190">msRTCSIP-MCUFactories</span></span></p></td>
+<td><p><span data-ttu-id="090db-191">Cette classe contient plusieurs classes msRTCSIP-MCUFactory et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-191">This class holds multiple msRTCSIP-MCUFactory classes and does not have attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-192">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-192">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-193">msRTCSIP-MCUFactory</span><span class="sxs-lookup"><span data-stu-id="82ba3-193">msRTCSIP-MCUFactory</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-194">Cette classe est un conteneur qui représente une fabrique de serveurs de conférence pour un type de support unique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-194">This class is a container representing a Conferencing Server Factory for a single medium type.</span></span> <span data-ttu-id="82ba3-195">Une instance de cette classe est créée lorsque le premier serveur de conférence pour ce type et ce fournisseur spécifiques est activé.</span><span class="sxs-lookup"><span data-stu-id="82ba3-195">An instance of this class is created when the first Conferencing server for this particular type and vendor is activated.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-196">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-196">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-193">msRTCSIP-MCUFactory</span><span class="sxs-lookup"><span data-stu-id="090db-193">msRTCSIP-MCUFactory</span></span></p></td>
+<td><p><span data-ttu-id="090db-194">Cette classe est un conteneur qui représente une fabrique de serveurs de conférence pour un type de support unique.</span><span class="sxs-lookup"><span data-stu-id="090db-194">This class is a container representing a Conferencing Server Factory for a single medium type.</span></span> <span data-ttu-id="090db-195">Une instance de cette classe est créée lorsque le premier serveur de conférence pour ce type et ce fournisseur spécifiques est activé.</span><span class="sxs-lookup"><span data-stu-id="090db-195">An instance of this class is created when the first Conferencing server for this particular type and vendor is activated.</span></span></p></td>
+<td><p><span data-ttu-id="090db-196">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-196">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-197">msRTCSIP-MCUFactoryService</span><span class="sxs-lookup"><span data-stu-id="82ba3-197">msRTCSIP-MCUFactoryService</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-198">Cette classe fournit une association entre un pool spécifique et sa fabrique du serveur de conférence.</span><span class="sxs-lookup"><span data-stu-id="82ba3-198">This class provides an association from a specific pool to its Conferencing Server Factory.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-199">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-199">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-197">msRTCSIP-MCUFactoryService</span><span class="sxs-lookup"><span data-stu-id="090db-197">msRTCSIP-MCUFactoryService</span></span></p></td>
+<td><p><span data-ttu-id="090db-198">Cette classe fournit une association entre un pool spécifique et sa fabrique du serveur de conférence.</span><span class="sxs-lookup"><span data-stu-id="090db-198">This class provides an association from a specific pool to its Conferencing Server Factory.</span></span></p></td>
+<td><p><span data-ttu-id="090db-199">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-199">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-200">msRTCSIP-MediationServer</span><span class="sxs-lookup"><span data-stu-id="82ba3-200">msRTCSIP-MediationServer</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-201">Cette classe contient l’entrée du point de contrôle de service pour un serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="82ba3-201">This class holds the entry for the service control point for a Mediation Server.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-202">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-202">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-200">msRTCSIP-MediationServer</span><span class="sxs-lookup"><span data-stu-id="090db-200">msRTCSIP-MediationServer</span></span></p></td>
+<td><p><span data-ttu-id="090db-201">Cette classe contient l’entrée du point de contrôle de service pour un serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="090db-201">This class holds the entry for the service control point for a Mediation Server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-202">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-202">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-203">msRTCSIP-réunion (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-203">msRTCSIP-Meeting (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-204">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs qui représentent des paramètres de réunion configurables.</span><span class="sxs-lookup"><span data-stu-id="82ba3-204">This auxiliary class to msRTCSIP-GlobalContainer holds attributes representing configurable meeting settings.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-205">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-205">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-203">msRTCSIP-réunion (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-203">msRTCSIP-Meeting (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-204">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs qui représentent des paramètres de réunion configurables.</span><span class="sxs-lookup"><span data-stu-id="090db-204">This auxiliary class to msRTCSIP-GlobalContainer holds attributes representing configurable meeting settings.</span></span></p></td>
+<td><p><span data-ttu-id="090db-205">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-205">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-206">msRTCSIP-Mobility</span><span class="sxs-lookup"><span data-stu-id="82ba3-206">msRTCSIP-Mobility</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-207">Conteneur qui stocke les paramètres de mobilité globale.</span><span class="sxs-lookup"><span data-stu-id="82ba3-207">Container that stores the global mobility settings.</span></span></p></td>
+<td><p><span data-ttu-id="090db-206">msRTCSIP-Mobility</span><span class="sxs-lookup"><span data-stu-id="090db-206">msRTCSIP-Mobility</span></span></p></td>
+<td><p><span data-ttu-id="090db-207">Conteneur qui stocke les paramètres de mobilité globale.</span><span class="sxs-lookup"><span data-stu-id="090db-207">Container that stores the global mobility settings.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-208">msRTCSIP-MonitoringServer</span><span class="sxs-lookup"><span data-stu-id="82ba3-208">msRTCSIP-MonitoringServer</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-209">Cette classe comporte des attributs qui représentent des paramètres pour un serveur de surveillance unique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-209">This class holds attributes that represent settings for a single Monitoring Server.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-210">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="82ba3-210">New in Communications Server 2007 R2.</span></span></p></td>
+<td><p><span data-ttu-id="090db-208">msRTCSIP-MonitoringServer</span><span class="sxs-lookup"><span data-stu-id="090db-208">msRTCSIP-MonitoringServer</span></span></p></td>
+<td><p><span data-ttu-id="090db-209">Cette classe comporte des attributs qui représentent des paramètres pour un serveur de surveillance unique.</span><span class="sxs-lookup"><span data-stu-id="090db-209">This class holds attributes that represent settings for a single Monitoring Server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-210">Nouveauté de Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="090db-210">New in Communications Server 2007 R2.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-211">msRTCSIP-PhoneRoute (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-211">msRTCSIP-PhoneRoute (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-212">Cette classe est un conteneur qui représente une instance d’un itinéraire moins coûteux vers une passerelle ou un ensemble de passerelles.</span><span class="sxs-lookup"><span data-stu-id="82ba3-212">This class is a container representing an instance of a least cost route to a gateway or set of gateways.</span></span> <span data-ttu-id="82ba3-213">Ces informations sont utilisées par tous les serveurs ou les pools d’entreprise exécutant Standard Edition pour diriger les appels sortants vers le réseau téléphonique public commuté (RTC), le plus rentable.</span><span class="sxs-lookup"><span data-stu-id="82ba3-213">This information is used by all Enterprise pools or servers running Standard Edition to route outgoing calls to the public switched telephone network (PSTN) in the most cost effective way.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-214">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-214">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-211">msRTCSIP-PhoneRoute (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-211">msRTCSIP-PhoneRoute (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-212">Cette classe est un conteneur qui représente une instance d’un itinéraire moins coûteux vers une passerelle ou un ensemble de passerelles.</span><span class="sxs-lookup"><span data-stu-id="090db-212">This class is a container representing an instance of a least cost route to a gateway or set of gateways.</span></span> <span data-ttu-id="090db-213">Ces informations sont utilisées par tous les serveurs ou les pools d’entreprise exécutant Standard Edition pour diriger les appels sortants vers le réseau téléphonique public commuté (RTC), le plus rentable.</span><span class="sxs-lookup"><span data-stu-id="090db-213">This information is used by all Enterprise pools or servers running Standard Edition to route outgoing calls to the public switched telephone network (PSTN) in the most cost effective way.</span></span></p></td>
+<td><p><span data-ttu-id="090db-214">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-214">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-215">msRTCSIP-PhoneRoutes (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-215">msRTCSIP-PhoneRoutes (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-216">Cette classe est un conteneur pour plusieurs itinéraires de coûts minimum et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-216">This class is a container for multiple, least cost routes and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-217">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-217">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-215">msRTCSIP-PhoneRoutes (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-215">msRTCSIP-PhoneRoutes (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-216">Cette classe est un conteneur pour plusieurs itinéraires de coûts minimum et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-216">This class is a container for multiple, least cost routes and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-217">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-217">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-218">msRTCSIP-stratégies (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-218">msRTCSIP-Policies (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-219">Cette classe contient plusieurs classes de stratégie de serveur Lync et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-219">This class holds multiple Lync Server policy classes and does not have any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-220">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-220">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-218">msRTCSIP-stratégies (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-218">msRTCSIP-Policies (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-219">Cette classe contient plusieurs classes de stratégie de serveur Lync et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-219">This class holds multiple Lync Server policy classes and does not have any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-220">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-220">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-221">msRTCSIP-pool</span><span class="sxs-lookup"><span data-stu-id="82ba3-221">msRTCSIP-Pool</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-222">Cette classe représente un pool de serveurs Lync unique.</span><span class="sxs-lookup"><span data-stu-id="82ba3-222">This class represents a single Lync Server pool.</span></span></p></td>
+<td><p><span data-ttu-id="090db-221">msRTCSIP-pool</span><span class="sxs-lookup"><span data-stu-id="090db-221">msRTCSIP-Pool</span></span></p></td>
+<td><p><span data-ttu-id="090db-222">Cette classe représente un pool de serveurs Lync unique.</span><span class="sxs-lookup"><span data-stu-id="090db-222">This class represents a single Lync Server pool.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-223">msRTCSIP-pools</span><span class="sxs-lookup"><span data-stu-id="82ba3-223">msRTCSIP-Pools</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-224">Cette classe contient plusieurs pools de serveurs Lync et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-224">This class holds multiple Lync Server pools and does not have any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-223">msRTCSIP-pools</span><span class="sxs-lookup"><span data-stu-id="090db-223">msRTCSIP-Pools</span></span></p></td>
+<td><p><span data-ttu-id="090db-224">Cette classe contient plusieurs pools de serveurs Lync et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-224">This class holds multiple Lync Server pools and does not have any attributes itself.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-225">msRTCSIP-PoolService</span><span class="sxs-lookup"><span data-stu-id="82ba3-225">msRTCSIP-PoolService</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-226">Cette classe représente le point de contrôle pointservice du contrôle de service d’un pool.</span><span class="sxs-lookup"><span data-stu-id="82ba3-226">This class represents the service control pointservice control point of a pool.</span></span> <span data-ttu-id="82ba3-227">Les utilisateurs hébergés sur un pool disposent de leur attribut msRTCSIP-PrimaryHomeServer sur une instance de cette classe.</span><span class="sxs-lookup"><span data-stu-id="82ba3-227">Users hosted on a pool have their msRTCSIP-PrimaryHomeServer attribute point to an instance of this class.</span></span></p></td>
+<td><p><span data-ttu-id="090db-225">msRTCSIP-PoolService</span><span class="sxs-lookup"><span data-stu-id="090db-225">msRTCSIP-PoolService</span></span></p></td>
+<td><p><span data-ttu-id="090db-226">Cette classe représente le point de contrôle pointservice du contrôle de service d’un pool.</span><span class="sxs-lookup"><span data-stu-id="090db-226">This class represents the service control pointservice control point of a pool.</span></span> <span data-ttu-id="090db-227">Les utilisateurs hébergés sur un pool disposent de leur attribut msRTCSIP-PrimaryHomeServer sur une instance de cette classe.</span><span class="sxs-lookup"><span data-stu-id="090db-227">Users hosted on a pool have their msRTCSIP-PrimaryHomeServer attribute point to an instance of this class.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-228">msRTCSIP-présence</span><span class="sxs-lookup"><span data-stu-id="82ba3-228">msRTCSIP-Presence</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-229">Conteneur qui stocke les paramètres de présence globaux.</span><span class="sxs-lookup"><span data-stu-id="82ba3-229">Container that stores the global presence settings.</span></span></p></td>
+<td><p><span data-ttu-id="090db-228">msRTCSIP-présence</span><span class="sxs-lookup"><span data-stu-id="090db-228">msRTCSIP-Presence</span></span></p></td>
+<td><p><span data-ttu-id="090db-229">Conteneur qui stocke les paramètres de présence globaux.</span><span class="sxs-lookup"><span data-stu-id="090db-229">Container that stores the global presence settings.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-230">msRTCSIP-Registrar</span><span class="sxs-lookup"><span data-stu-id="82ba3-230">msRTCSIP-Registrar</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-231">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs qui représentent des paramètres utilisateur conservés par les serveurs de bureaux d’enregistrement SIP.</span><span class="sxs-lookup"><span data-stu-id="82ba3-231">This auxiliary class to msRTCSIP-GlobalContainer holds attributes representing user settings maintained by the SIP Registrar servers.</span></span></p></td>
+<td><p><span data-ttu-id="090db-230">msRTCSIP-Registrar</span><span class="sxs-lookup"><span data-stu-id="090db-230">msRTCSIP-Registrar</span></span></p></td>
+<td><p><span data-ttu-id="090db-231">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs qui représentent des paramètres utilisateur conservés par les serveurs de bureaux d’enregistrement SIP.</span><span class="sxs-lookup"><span data-stu-id="090db-231">This auxiliary class to msRTCSIP-GlobalContainer holds attributes representing user settings maintained by the SIP Registrar servers.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-232">msRTCSIP-RouteUsage (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-232">msRTCSIP-RouteUsage (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-233">Cette classe est un conteneur qui représente une instance d’utilisation de l’itinéraire du téléphone.</span><span class="sxs-lookup"><span data-stu-id="82ba3-233">This class is a container representing an instance of a phone route usage.</span></span> <span data-ttu-id="82ba3-234">Une classe d’utilisation de l’itinéraire de téléphone comporte un champ d’attribut et un champ de description.</span><span class="sxs-lookup"><span data-stu-id="82ba3-234">A phone route usage class consists of an attribute field and a description field.</span></span> <span data-ttu-id="82ba3-235">Le champ d’attribut définit un type d’utilisation.</span><span class="sxs-lookup"><span data-stu-id="82ba3-235">The attribute field defines a usage type.</span></span> <span data-ttu-id="82ba3-236">Le champ Description permet aux administrateurs de décrire l’utilisation de cet attribut dans l’itinéraire du téléphone.</span><span class="sxs-lookup"><span data-stu-id="82ba3-236">The description field allows administrators to describe the usage for this attribute in the phone route.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-237">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-237">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-232">msRTCSIP-RouteUsage (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-232">msRTCSIP-RouteUsage (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-233">Cette classe est un conteneur qui représente une instance d’utilisation de l’itinéraire du téléphone.</span><span class="sxs-lookup"><span data-stu-id="090db-233">This class is a container representing an instance of a phone route usage.</span></span> <span data-ttu-id="090db-234">Une classe d’utilisation de l’itinéraire de téléphone comporte un champ d’attribut et un champ de description.</span><span class="sxs-lookup"><span data-stu-id="090db-234">A phone route usage class consists of an attribute field and a description field.</span></span> <span data-ttu-id="090db-235">Le champ d’attribut définit un type d’utilisation.</span><span class="sxs-lookup"><span data-stu-id="090db-235">The attribute field defines a usage type.</span></span> <span data-ttu-id="090db-236">Le champ Description permet aux administrateurs de décrire l’utilisation de cet attribut dans l’itinéraire du téléphone.</span><span class="sxs-lookup"><span data-stu-id="090db-236">The description field allows administrators to describe the usage for this attribute in the phone route.</span></span></p></td>
+<td><p><span data-ttu-id="090db-237">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-237">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-238">msRTCSIP-RouteUsages (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-238">msRTCSIP-RouteUsages (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-239">Cette classe contient plusieurs instances de la classe msRTCSIP-RouteUsage et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-239">This class holds multiple instances of the msRTCSIP-RouteUsage class and does not have any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-240">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-240">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-238">msRTCSIP-RouteUsages (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-238">msRTCSIP-RouteUsages (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-239">Cette classe contient plusieurs instances de la classe msRTCSIP-RouteUsage et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-239">This class holds multiple instances of the msRTCSIP-RouteUsage class and does not have any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-240">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-240">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-241">msRTCSIP-recherche</span><span class="sxs-lookup"><span data-stu-id="82ba3-241">msRTCSIP-Search</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-242">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs qui limitent et contrôlent la portée des résultats de recherche.</span><span class="sxs-lookup"><span data-stu-id="82ba3-242">This auxiliary class to msRTCSIP-GlobalContainer holds attributes that limit and control the scope of search results.</span></span></p></td>
+<td><p><span data-ttu-id="090db-241">msRTCSIP-recherche</span><span class="sxs-lookup"><span data-stu-id="090db-241">msRTCSIP-Search</span></span></p></td>
+<td><p><span data-ttu-id="090db-242">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs qui limitent et contrôlent la portée des résultats de recherche.</span><span class="sxs-lookup"><span data-stu-id="090db-242">This auxiliary class to msRTCSIP-GlobalContainer holds attributes that limit and control the scope of search results.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-243">msRTCSIP-serveur</span><span class="sxs-lookup"><span data-stu-id="82ba3-243">msRTCSIP-Server</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-244">Cette classe représente un serveur unique exécutant Lync Server.</span><span class="sxs-lookup"><span data-stu-id="82ba3-244">This class represents a single server running Lync Server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-243">msRTCSIP-serveur</span><span class="sxs-lookup"><span data-stu-id="090db-243">msRTCSIP-Server</span></span></p></td>
+<td><p><span data-ttu-id="090db-244">Cette classe représente un serveur unique exécutant Lync Server.</span><span class="sxs-lookup"><span data-stu-id="090db-244">This class represents a single server running Lync Server.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-245">msRTCSIP-service</span><span class="sxs-lookup"><span data-stu-id="82ba3-245">msRTCSIP-Service</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-246">Cette classe contient le conteneur de paramètres globaux et les objets msRTCSIP-Domain.</span><span class="sxs-lookup"><span data-stu-id="82ba3-246">This class holds the global settings container and msRTCSIP-Domain objects.</span></span></p></td>
+<td><p><span data-ttu-id="090db-245">msRTCSIP-service</span><span class="sxs-lookup"><span data-stu-id="090db-245">msRTCSIP-Service</span></span></p></td>
+<td><p><span data-ttu-id="090db-246">Cette classe contient le conteneur de paramètres globaux et les objets msRTCSIP-Domain.</span><span class="sxs-lookup"><span data-stu-id="090db-246">This class holds the global settings container and msRTCSIP-Domain objects.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-247">msRTCSIP-TrustedMCU</span><span class="sxs-lookup"><span data-stu-id="82ba3-247">msRTCSIP-TrustedMCU</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-248">Cette classe comporte des attributs qui représentent des paramètres pour un serveur de conférence approuvé.</span><span class="sxs-lookup"><span data-stu-id="82ba3-248">This class holds attributes that represent settings for a trusted Conferencing server.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-249">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-249">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-247">msRTCSIP-TrustedMCU</span><span class="sxs-lookup"><span data-stu-id="090db-247">msRTCSIP-TrustedMCU</span></span></p></td>
+<td><p><span data-ttu-id="090db-248">Cette classe comporte des attributs qui représentent des paramètres pour un serveur de conférence approuvé.</span><span class="sxs-lookup"><span data-stu-id="090db-248">This class holds attributes that represent settings for a trusted Conferencing server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-249">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-249">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-250">msRTCSIP-TrustedMCUs</span><span class="sxs-lookup"><span data-stu-id="82ba3-250">msRTCSIP-TrustedMCUs</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-251">Cette classe contient plusieurs instances de la classe msRTCSIP-TrustedMCU et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-251">This class holds multiple instances of the msRTCSIP-TrustedMCU class and does not have any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-252">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-252">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-250">msRTCSIP-TrustedMCUs</span><span class="sxs-lookup"><span data-stu-id="090db-250">msRTCSIP-TrustedMCUs</span></span></p></td>
+<td><p><span data-ttu-id="090db-251">Cette classe contient plusieurs instances de la classe msRTCSIP-TrustedMCU et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-251">This class holds multiple instances of the msRTCSIP-TrustedMCU class and does not have any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-252">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-252">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-253">msRTCSIP-TrustedProxies</span><span class="sxs-lookup"><span data-stu-id="82ba3-253">msRTCSIP-TrustedProxies</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-254">Cette classe contient plusieurs classes msRTCSIP-TrustedProxy et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-254">This class holds multiple msRTCSIP-TrustedProxy classes and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-255">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-255">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-253">msRTCSIP-TrustedProxies</span><span class="sxs-lookup"><span data-stu-id="090db-253">msRTCSIP-TrustedProxies</span></span></p></td>
+<td><p><span data-ttu-id="090db-254">Cette classe contient plusieurs classes msRTCSIP-TrustedProxy et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-254">This class holds multiple msRTCSIP-TrustedProxy classes and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-255">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-255">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-256">msRTCSIP-TrustedProxy</span><span class="sxs-lookup"><span data-stu-id="82ba3-256">msRTCSIP-TrustedProxy</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-257">Cette classe est un conteneur qui représente un serveur exécutant Proxy Server.</span><span class="sxs-lookup"><span data-stu-id="82ba3-257">This class is a container representing a server running Proxy Server.</span></span> <span data-ttu-id="82ba3-258">Une instance de cette classe est créée lors de l’activation d’un nouveau serveur proxy sur un ordinateur joint à AD DS.</span><span class="sxs-lookup"><span data-stu-id="82ba3-258">An instance of this class is created when activating a new Proxy Server on a computer joined to AD DS.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-259">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-259">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-256">msRTCSIP-TrustedProxy</span><span class="sxs-lookup"><span data-stu-id="090db-256">msRTCSIP-TrustedProxy</span></span></p></td>
+<td><p><span data-ttu-id="090db-257">Cette classe est un conteneur qui représente un serveur exécutant Proxy Server.</span><span class="sxs-lookup"><span data-stu-id="090db-257">This class is a container representing a server running Proxy Server.</span></span> <span data-ttu-id="090db-258">Une instance de cette classe est créée lors de l’activation d’un nouveau serveur proxy sur un ordinateur joint à AD DS.</span><span class="sxs-lookup"><span data-stu-id="090db-258">An instance of this class is created when activating a new Proxy Server on a computer joined to AD DS.</span></span></p></td>
+<td><p><span data-ttu-id="090db-259">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-259">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-260">msRTCSIP-TrustedServer</span><span class="sxs-lookup"><span data-stu-id="82ba3-260">msRTCSIP-TrustedServer</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-261">Cette classe comporte des attributs qui représentent des paramètres pour un serveur de confiance.</span><span class="sxs-lookup"><span data-stu-id="82ba3-261">This class holds attributes that represent settings for a trusted server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-260">msRTCSIP-TrustedServer</span><span class="sxs-lookup"><span data-stu-id="090db-260">msRTCSIP-TrustedServer</span></span></p></td>
+<td><p><span data-ttu-id="090db-261">Cette classe comporte des attributs qui représentent des paramètres pour un serveur de confiance.</span><span class="sxs-lookup"><span data-stu-id="090db-261">This class holds attributes that represent settings for a trusted server.</span></span></p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-262">msRTCSIP-TrustedService</span><span class="sxs-lookup"><span data-stu-id="82ba3-262">msRTCSIP-TrustedService</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-263">Cette classe est un conteneur qui représente un service approuvé qui est routable à l’aide d’une adresse de l’URI de l’agent utilisateur routable (GRUU).</span><span class="sxs-lookup"><span data-stu-id="82ba3-263">This class is a container representing a trusted service that is routable using a Globally Routable User Agent URI (GRUU) address.</span></span> <span data-ttu-id="82ba3-264">Une instance de cette classe est créée lorsqu’un nouveau serveur approuvé par Lync Server est activé.</span><span class="sxs-lookup"><span data-stu-id="82ba3-264">An instance of this class is created when a new server that is trusted by Lync Server is activated.</span></span> <span data-ttu-id="82ba3-265">Ce serveur approuvé doit être joint à un domaine Active Directory.</span><span class="sxs-lookup"><span data-stu-id="82ba3-265">This trusted server must be joined to an Active Directory domain.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-266">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-266">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-262">msRTCSIP-TrustedService</span><span class="sxs-lookup"><span data-stu-id="090db-262">msRTCSIP-TrustedService</span></span></p></td>
+<td><p><span data-ttu-id="090db-263">Cette classe est un conteneur qui représente un service approuvé qui est routable à l’aide d’une adresse de l’URI de l’agent utilisateur routable (GRUU).</span><span class="sxs-lookup"><span data-stu-id="090db-263">This class is a container representing a trusted service that is routable using a Globally Routable User Agent URI (GRUU) address.</span></span> <span data-ttu-id="090db-264">Une instance de cette classe est créée lorsqu’un nouveau serveur approuvé par Lync Server est activé.</span><span class="sxs-lookup"><span data-stu-id="090db-264">An instance of this class is created when a new server that is trusted by Lync Server is activated.</span></span> <span data-ttu-id="090db-265">Ce serveur approuvé doit être joint à un domaine Active Directory.</span><span class="sxs-lookup"><span data-stu-id="090db-265">This trusted server must be joined to an Active Directory domain.</span></span></p></td>
+<td><p><span data-ttu-id="090db-266">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-266">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-267">msRTCSIP-TrustedServices</span><span class="sxs-lookup"><span data-stu-id="82ba3-267">msRTCSIP-TrustedServices</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-268">Cette classe est un conteneur pour plusieurs serveurs GRUU et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-268">This class is a container for multiple GRUU servers and does not contain any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-269">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-269">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-267">msRTCSIP-TrustedServices</span><span class="sxs-lookup"><span data-stu-id="090db-267">msRTCSIP-TrustedServices</span></span></p></td>
+<td><p><span data-ttu-id="090db-268">Cette classe est un conteneur pour plusieurs serveurs GRUU et ne contient aucun attribut lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-268">This class is a container for multiple GRUU servers and does not contain any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-269">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-269">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-270">msRTCSIP-TrustedWebComponentsServer</span><span class="sxs-lookup"><span data-stu-id="82ba3-270">msRTCSIP-TrustedWebComponentsServer</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-271">Cette classe contient des attributs qui représentent les paramètres d’un composant WebPart de confiance.</span><span class="sxs-lookup"><span data-stu-id="82ba3-271">This class holds attributes that represent the settings for a trusted web component.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-272">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-272">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-270">msRTCSIP-TrustedWebComponentsServer</span><span class="sxs-lookup"><span data-stu-id="090db-270">msRTCSIP-TrustedWebComponentsServer</span></span></p></td>
+<td><p><span data-ttu-id="090db-271">Cette classe contient des attributs qui représentent les paramètres d’un composant WebPart de confiance.</span><span class="sxs-lookup"><span data-stu-id="090db-271">This class holds attributes that represent the settings for a trusted web component.</span></span></p></td>
+<td><p><span data-ttu-id="090db-272">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-272">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-273">msRTCSIP-TrustedWebComponentsServers</span><span class="sxs-lookup"><span data-stu-id="82ba3-273">msRTCSIP-TrustedWebComponentsServers</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-274">Cette classe contient plusieurs instances de la classe msRTCSIP-TrustedWebComponentServer et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="82ba3-274">This class holds multiple instances of the msRTCSIP-TrustedWebComponentServer class and does not have any attributes itself.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-275">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-275">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-273">msRTCSIP-TrustedWebComponentsServers</span><span class="sxs-lookup"><span data-stu-id="090db-273">msRTCSIP-TrustedWebComponentsServers</span></span></p></td>
+<td><p><span data-ttu-id="090db-274">Cette classe contient plusieurs instances de la classe msRTCSIP-TrustedWebComponentServer et ne possède pas d’attributs lui-même.</span><span class="sxs-lookup"><span data-stu-id="090db-274">This class holds multiple instances of the msRTCSIP-TrustedWebComponentServer class and does not have any attributes itself.</span></span></p></td>
+<td><p><span data-ttu-id="090db-275">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-275">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-276">msRTCSIP-UnifiedCommunications (obsolète)</span><span class="sxs-lookup"><span data-stu-id="82ba3-276">msRTCSIP-UnifiedCommunications (obsolete)</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-277">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs liés aux communications unifiées.</span><span class="sxs-lookup"><span data-stu-id="82ba3-277">This auxiliary class to msRTCSIP-GlobalContainer holds attributes related to unified communications.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-278">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="82ba3-278">Obsolete in Lync Server 2010.</span></span></p></td>
+<td><p><span data-ttu-id="090db-276">msRTCSIP-UnifiedCommunications (obsolète)</span><span class="sxs-lookup"><span data-stu-id="090db-276">msRTCSIP-UnifiedCommunications (obsolete)</span></span></p></td>
+<td><p><span data-ttu-id="090db-277">Cette classe auxiliaire pour msRTCSIP-GlobalContainer contient des attributs liés aux communications unifiées.</span><span class="sxs-lookup"><span data-stu-id="090db-277">This auxiliary class to msRTCSIP-GlobalContainer holds attributes related to unified communications.</span></span></p></td>
+<td><p><span data-ttu-id="090db-278">Obsolète dans Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="090db-278">Obsolete in Lync Server 2010.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-279">msRTCSIP-webcomposants</span><span class="sxs-lookup"><span data-stu-id="82ba3-279">msRTCSIP-WebComponents</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-280">Cette classe contient le point de contrôle du contrôle de service pointservice pour Internet Information Server (IIS).</span><span class="sxs-lookup"><span data-stu-id="82ba3-280">This class holds the service control pointservice control point for Internet Information Server (IIS).</span></span> <span data-ttu-id="82ba3-281">Il identifie un serveur en tant que serveur de composants WebPart.</span><span class="sxs-lookup"><span data-stu-id="82ba3-281">It identifies a server as a web components server.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-282">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-282">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-279">msRTCSIP-webcomposants</span><span class="sxs-lookup"><span data-stu-id="090db-279">msRTCSIP-WebComponents</span></span></p></td>
+<td><p><span data-ttu-id="090db-280">Cette classe contient le point de contrôle du contrôle de service pointservice pour Internet Information Server (IIS).</span><span class="sxs-lookup"><span data-stu-id="090db-280">This class holds the service control pointservice control point for Internet Information Server (IIS).</span></span> <span data-ttu-id="090db-281">Il identifie un serveur en tant que serveur de composants WebPart.</span><span class="sxs-lookup"><span data-stu-id="090db-281">It identifies a server as a web components server.</span></span></p></td>
+<td><p><span data-ttu-id="090db-282">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-282">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="82ba3-283">msRTCSIP-WebComponentsService</span><span class="sxs-lookup"><span data-stu-id="82ba3-283">msRTCSIP-WebComponentsService</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-284">Cette classe fournit une association d’un pool spécifique aux composants Web que le pool utilisera.</span><span class="sxs-lookup"><span data-stu-id="82ba3-284">This class provides an association from a specific pool to the web components that the pool will use.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-285">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-285">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-283">msRTCSIP-WebComponentsService</span><span class="sxs-lookup"><span data-stu-id="090db-283">msRTCSIP-WebComponentsService</span></span></p></td>
+<td><p><span data-ttu-id="090db-284">Cette classe fournit une association d’un pool spécifique aux composants Web que le pool utilisera.</span><span class="sxs-lookup"><span data-stu-id="090db-284">This class provides an association from a specific pool to the web components that the pool will use.</span></span></p></td>
+<td><p><span data-ttu-id="090db-285">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-285">New in Communications Server 2007.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="82ba3-286">msRTCSIP-WebComponentSettings</span><span class="sxs-lookup"><span data-stu-id="82ba3-286">msRTCSIP-WebComponentSettings</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-287">Cette classe auxiliaire à msRTCSIP-WebComponents contient des attributs représentant les paramètres des composants WebPart.</span><span class="sxs-lookup"><span data-stu-id="82ba3-287">This auxiliary class to msRTCSIP-WebComponents holds attributes representing settings for web components.</span></span></p></td>
-<td><p><span data-ttu-id="82ba3-288">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="82ba3-288">New in Communications Server 2007.</span></span></p></td>
+<td><p><span data-ttu-id="090db-286">msRTCSIP-WebComponentSettings</span><span class="sxs-lookup"><span data-stu-id="090db-286">msRTCSIP-WebComponentSettings</span></span></p></td>
+<td><p><span data-ttu-id="090db-287">Cette classe auxiliaire à msRTCSIP-WebComponents contient des attributs représentant les paramètres des composants WebPart.</span><span class="sxs-lookup"><span data-stu-id="090db-287">This auxiliary class to msRTCSIP-WebComponents holds attributes representing settings for web components.</span></span></p></td>
+<td><p><span data-ttu-id="090db-288">Nouveautés de Communications Server 2007.</span><span class="sxs-lookup"><span data-stu-id="090db-288">New in Communications Server 2007.</span></span></p></td>
 </tr>
 </tbody>
 </table>
