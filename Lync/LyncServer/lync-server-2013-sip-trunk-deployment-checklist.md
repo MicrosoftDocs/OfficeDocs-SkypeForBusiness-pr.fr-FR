@@ -3,6 +3,8 @@ title: Liste de vérification du déploiement de la jonction SIP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SIP trunk deployment checklist
 ms:assetid: 94f4f03e-19d5-4198-92be-e4076dbb959a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398755(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7854693702f1583ccaeb2ae6d54a1c7cb9bbcbcd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ef670fc4ae9e8a9acba3277a00fc0daf6ff766b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846818"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846818"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a><span data-ttu-id="fe130-102">Liste de vérification du déploiement de la jonction SIP pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe130-102">SIP trunk deployment checklist for Lync Server 2013</span></span>
+# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a><span data-ttu-id="60584-102">Liste de vérification du déploiement de la jonction SIP pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60584-102">SIP trunk deployment checklist for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,47 +35,47 @@ ms.locfileid: "34846818"
 
 <span> </span>
 
-<span data-ttu-id="fe130-103">_**Dernière modification de la rubrique:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="fe130-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="60584-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="60584-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="fe130-104">Avant de pouvoir déployer un connecteur SIP, votre fournisseur de services et vous devez échanger des informations de connexion de base sur les points de terminaison de votre connecteur SIP correspondants.</span><span class="sxs-lookup"><span data-stu-id="fe130-104">Before you can deploy a SIP trunk, you and your service provider must exchange some basic connection information about your respective SIP trunk endpoints.</span></span>
+<span data-ttu-id="60584-104">Avant de pouvoir déployer un connecteur SIP, votre fournisseur de services et vous devez échanger des informations de connexion de base sur les points de terminaison de votre connecteur SIP correspondants.</span><span class="sxs-lookup"><span data-stu-id="60584-104">Before you can deploy a SIP trunk, you and your service provider must exchange some basic connection information about your respective SIP trunk endpoints.</span></span>
 
-<span data-ttu-id="fe130-105">Obtenez les informations suivantes pour chaque passerelle ITSP à laquelle vous voulez vous connecter:</span><span class="sxs-lookup"><span data-stu-id="fe130-105">Get the following information for each ITSP gateway that you will connect to:</span></span>
+<span data-ttu-id="60584-105">Obtenez les informations suivantes pour chaque passerelle ITSP à laquelle vous voulez vous connecter :</span><span class="sxs-lookup"><span data-stu-id="60584-105">Get the following information for each ITSP gateway that you will connect to:</span></span>
 
-  - <span data-ttu-id="fe130-106">Adresse IP</span><span class="sxs-lookup"><span data-stu-id="fe130-106">IP address</span></span>
+  - <span data-ttu-id="60584-106">Adresse IP</span><span class="sxs-lookup"><span data-stu-id="60584-106">IP address</span></span>
 
-  - <span data-ttu-id="fe130-107">Nom de domaine complet (FQDN)</span><span class="sxs-lookup"><span data-stu-id="fe130-107">Fully qualified domain name (FQDN)</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="fe130-108">Le prestataire de services pourra vous demander de vous connecter à plusieurs passerelles ITSP.</span><span class="sxs-lookup"><span data-stu-id="fe130-108">The service provider may ask you to connect to more than one ITSP gateway.</span></span> <span data-ttu-id="fe130-109">Dans ce cas, vous devez configurer une connexion entre chaque passerelle ITSP et chaque serveur de médiation de votre pool.</span><span class="sxs-lookup"><span data-stu-id="fe130-109">In that case, you must configure a connection between each ITSP gateway and each Mediation Server in your pool.</span></span>
-
-
-
-</div>
-
-<span data-ttu-id="fe130-110">Les informations que vous fournissez à votre fournisseur de services dépendent de votre type de connexion SIP Trunk:</span><span class="sxs-lookup"><span data-stu-id="fe130-110">The information you give to your service provider depends on your SIP trunk connection type:</span></span>
-
-  - <span data-ttu-id="fe130-111">Pour les connexions au changement d’étiquette multiprotocole ou au réseau privé, attribuez à l’ITSP l’adresse IP routable publique du routeur dans votre réseau de périmètre (également connu sous le nom de DMZ, zone démilitarisée et sous-réseau filtré).</span><span class="sxs-lookup"><span data-stu-id="fe130-111">For Multiprotocol Label Switching (MPLS) or private network connections, give the ITSP the publicly routable IP Address of the router in your perimeter network (also known as DMZ, demilitarized zone, and screened subnet).</span></span> <span data-ttu-id="fe130-112">Vérifiez que la passerelle ou le contrôleur de bordure de session (SBC) sur le ITSP peut joindre cette adresse.</span><span class="sxs-lookup"><span data-stu-id="fe130-112">Verify that the gateway or Session Border Controller (SBC) at the ITSP can reach this address.</span></span> <span data-ttu-id="fe130-113">Donnez également au ITSP le nom de domaine complet du serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="fe130-113">Also give the ITSP the FQDN of your Mediation Server.</span></span>
-
-  - <span data-ttu-id="fe130-114">Pour les connexions de réseau privé virtuel (VPN), attribuez l’adresse IP du serveur VPN à ITSP.</span><span class="sxs-lookup"><span data-stu-id="fe130-114">For virtual private network (VPN) connections, give the ITSP the IP address of your VPN server.</span></span>
-
-<div>
-
-## <a name="certificate-considerations"></a><span data-ttu-id="fe130-115">Considérations relatives aux certificats</span><span class="sxs-lookup"><span data-stu-id="fe130-115">Certificate Considerations</span></span>
-
-<span data-ttu-id="fe130-116">Pour déterminer si vous avez besoin d’un certificat pour le trunking SIP, contactez votre ITSP à propos du protocole pris en charge:</span><span class="sxs-lookup"><span data-stu-id="fe130-116">To determine whether you need a certificate for SIP trunking, check with your ITSP about protocol support:</span></span>
-
-1.  <span data-ttu-id="fe130-117">Si votre ITSP prend en charge le protocole TCP (Transmission Control Protocol) uniquement, vous n’avez pas besoin d’un certificat.</span><span class="sxs-lookup"><span data-stu-id="fe130-117">If your ITSP supports Transmission Control Protocol (TCP) only, you do not need a certificate.</span></span>
-
-2.  <span data-ttu-id="fe130-118">Si votre ITSP prend en charge le protocole TLS (Transport Layer Security), ITSP doit vous fournir un certificat.</span><span class="sxs-lookup"><span data-stu-id="fe130-118">If your ITSP supports Transport Layer Security (TLS), the ITSP must provide you with a certificate.</span></span>
+  - <span data-ttu-id="60584-107">Nom de domaine complet (FQDN)</span><span class="sxs-lookup"><span data-stu-id="60584-107">Fully qualified domain name (FQDN)</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="fe130-119">SIP fonctionne conjointement avec le protocole RTP (Real-Time Transport Protocol) ou SRTP (Secure Real-Time Transport Protocol), les protocoles qui gèrent les données vocales réelles dans les appels VoIP.</span><span class="sxs-lookup"><span data-stu-id="fe130-119">SIP works in conjunction with real-time transport protocol (RTP) or secure real-time transport protocol (SRTP), the protocols that manage the actual voice data in Voice over Internet Protocol (VoIP) calls.</span></span>
+> <span data-ttu-id="60584-108">Le prestataire de services pourra vous demander de vous connecter à plusieurs passerelles ITSP.</span><span class="sxs-lookup"><span data-stu-id="60584-108">The service provider may ask you to connect to more than one ITSP gateway.</span></span> <span data-ttu-id="60584-109">Dans ce cas, vous devez configurer une connexion entre chaque passerelle ITSP et chaque serveur de médiation de votre pool.</span><span class="sxs-lookup"><span data-stu-id="60584-109">In that case, you must configure a connection between each ITSP gateway and each Mediation Server in your pool.</span></span>
+
+
+
+</div>
+
+<span data-ttu-id="60584-110">Les informations que vous fournissez à votre fournisseur de services dépendent de votre type de connexion SIP Trunk :</span><span class="sxs-lookup"><span data-stu-id="60584-110">The information you give to your service provider depends on your SIP trunk connection type:</span></span>
+
+  - <span data-ttu-id="60584-111">Pour les connexions au changement d’étiquette multiprotocole ou au réseau privé, attribuez à l’ITSP l’adresse IP routable publique du routeur dans votre réseau de périmètre (également connu sous le nom de DMZ, zone démilitarisée et sous-réseau filtré).</span><span class="sxs-lookup"><span data-stu-id="60584-111">For Multiprotocol Label Switching (MPLS) or private network connections, give the ITSP the publicly routable IP Address of the router in your perimeter network (also known as DMZ, demilitarized zone, and screened subnet).</span></span> <span data-ttu-id="60584-112">Vérifiez que la passerelle ou le contrôleur de bordure de session (SBC) sur le ITSP peut joindre cette adresse.</span><span class="sxs-lookup"><span data-stu-id="60584-112">Verify that the gateway or Session Border Controller (SBC) at the ITSP can reach this address.</span></span> <span data-ttu-id="60584-113">Donnez également au ITSP le nom de domaine complet du serveur de médiation.</span><span class="sxs-lookup"><span data-stu-id="60584-113">Also give the ITSP the FQDN of your Mediation Server.</span></span>
+
+  - <span data-ttu-id="60584-114">Pour les connexions de réseau privé virtuel (VPN), attribuez l’adresse IP du serveur VPN à ITSP.</span><span class="sxs-lookup"><span data-stu-id="60584-114">For virtual private network (VPN) connections, give the ITSP the IP address of your VPN server.</span></span>
+
+<div>
+
+## <a name="certificate-considerations"></a><span data-ttu-id="60584-115">Considérations relatives aux certificats</span><span class="sxs-lookup"><span data-stu-id="60584-115">Certificate Considerations</span></span>
+
+<span data-ttu-id="60584-116">Pour déterminer si vous avez besoin d’un certificat pour le trunking SIP, contactez votre ITSP à propos du protocole pris en charge :</span><span class="sxs-lookup"><span data-stu-id="60584-116">To determine whether you need a certificate for SIP trunking, check with your ITSP about protocol support:</span></span>
+
+1.  <span data-ttu-id="60584-117">Si votre ITSP prend en charge le protocole TCP (Transmission Control Protocol) uniquement, vous n’avez pas besoin d’un certificat.</span><span class="sxs-lookup"><span data-stu-id="60584-117">If your ITSP supports Transmission Control Protocol (TCP) only, you do not need a certificate.</span></span>
+
+2.  <span data-ttu-id="60584-118">Si votre ITSP prend en charge le protocole TLS (Transport Layer Security), ITSP doit vous fournir un certificat.</span><span class="sxs-lookup"><span data-stu-id="60584-118">If your ITSP supports Transport Layer Security (TLS), the ITSP must provide you with a certificate.</span></span>
+
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="60584-119">SIP fonctionne conjointement avec le protocole RTP (Real-Time Transport Protocol) ou SRTP (Secure Real-Time Transport Protocol), les protocoles qui gèrent les données vocales réelles dans les appels VoIP.</span><span class="sxs-lookup"><span data-stu-id="60584-119">SIP works in conjunction with real-time transport protocol (RTP) or secure real-time transport protocol (SRTP), the protocols that manage the actual voice data in Voice over Internet Protocol (VoIP) calls.</span></span>
 
 
 
@@ -83,15 +85,15 @@ ms.locfileid: "34846818"
 
 <div>
 
-## <a name="deployment-process"></a><span data-ttu-id="fe130-120">Processus de déploiement</span><span class="sxs-lookup"><span data-stu-id="fe130-120">Deployment Process</span></span>
+## <a name="deployment-process"></a><span data-ttu-id="60584-120">Processus de déploiement</span><span class="sxs-lookup"><span data-stu-id="60584-120">Deployment Process</span></span>
 
-<span data-ttu-id="fe130-121">Pour implémenter le côté serveur Lync de la connexion SIP Trunk, procédez comme suit:</span><span class="sxs-lookup"><span data-stu-id="fe130-121">To implement the Lync Server side of the SIP trunk connection, follow these steps:</span></span>
+<span data-ttu-id="60584-121">Pour implémenter le côté serveur Lync de la connexion SIP Trunk, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="60584-121">To implement the Lync Server side of the SIP trunk connection, follow these steps:</span></span>
 
-1.  <span data-ttu-id="fe130-122">À l’aide du générateur de topologie de Lync Server, créez et configurez la topologie de domaine SIP.</span><span class="sxs-lookup"><span data-stu-id="fe130-122">Using the Lync Server Topology Builder, create and configure the SIP domain topology.</span></span> <span data-ttu-id="fe130-123">Pour plus d’informations, reportez-vous à la section [définir et configurer une topologie dans le générateur de topologies de Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="fe130-123">For details, see [Define and configure a topology in Topology Builder for Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) in the Deployment documentation.</span></span>
+1.  <span data-ttu-id="60584-122">À l’aide du générateur de topologie de Lync Server, créez et configurez la topologie de domaine SIP.</span><span class="sxs-lookup"><span data-stu-id="60584-122">Using the Lync Server Topology Builder, create and configure the SIP domain topology.</span></span> <span data-ttu-id="60584-123">Pour plus d’informations, reportez-vous à la section [définir et configurer une topologie dans le générateur de topologies de Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="60584-123">For details, see [Define and configure a topology in Topology Builder for Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) in the Deployment documentation.</span></span>
 
-2.  <span data-ttu-id="fe130-124">À l’aide du panneau de configuration de Lync Server, configurez le routage vocal pour le nouveau domaine SIP.</span><span class="sxs-lookup"><span data-stu-id="fe130-124">Using the Lync Server Control Panel, configure voice routing for the new SIP domain.</span></span> <span data-ttu-id="fe130-125">Pour plus d’informations, reportez-vous à la rubrique [configuration de Trunks dans Lync Server 2013](lync-server-2013-configuring-trunks.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="fe130-125">For details, see [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md) in the Deployment documentation.</span></span>
+2.  <span data-ttu-id="60584-124">À l’aide du panneau de configuration de Lync Server, configurez le routage vocal pour le nouveau domaine SIP.</span><span class="sxs-lookup"><span data-stu-id="60584-124">Using the Lync Server Control Panel, configure voice routing for the new SIP domain.</span></span> <span data-ttu-id="60584-125">Pour plus d’informations, reportez-vous à la rubrique [configuration de Trunks dans Lync Server 2013](lync-server-2013-configuring-trunks.md) dans la documentation de déploiement.</span><span class="sxs-lookup"><span data-stu-id="60584-125">For details, see [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md) in the Deployment documentation.</span></span>
 
-3.  <span data-ttu-id="fe130-126">Testez la connectivité à l’aide de l’applet de **contrôle test-CsPstnOutboundCall** .</span><span class="sxs-lookup"><span data-stu-id="fe130-126">Test connectivity by using the **Test-CsPstnOutboundCall** cmdlet.</span></span> <span data-ttu-id="fe130-127">Pour plus d’informations, reportez-vous à la documentation de Lync Server Management Shell ou à l’aide de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="fe130-127">For details, see the Lync Server Management Shell documentation or Help for Lync Server Management Shell.</span></span>
+3.  <span data-ttu-id="60584-126">Testez la connectivité à l’aide de l’applet de **contrôle test-CsPstnOutboundCall** .</span><span class="sxs-lookup"><span data-stu-id="60584-126">Test connectivity by using the **Test-CsPstnOutboundCall** cmdlet.</span></span> <span data-ttu-id="60584-127">Pour plus d’informations, reportez-vous à la documentation de Lync Server Management Shell ou à l’aide de Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="60584-127">For details, see the Lync Server Management Shell documentation or Help for Lync Server Management Shell.</span></span>
 
 </div>
 
