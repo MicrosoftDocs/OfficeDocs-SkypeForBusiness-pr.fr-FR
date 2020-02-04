@@ -3,6 +3,8 @@ title: Utiliser le BPA Analyzer pour identifier les problèmes potentiels dans v
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to identify potential issues in your deployment
 ms:assetid: 0903063c-4766-4406-92f1-dfea48f274a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591342(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 129cf51f7b7e42dae76e8902422eec4e0f56d11a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e60945f9a7ee8f8b6fe52857fd73a399725de5be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846407"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846407"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a><span data-ttu-id="641b7-102">Utiliser le BPA Analyzer pour identifier les problèmes potentiels dans votre déploiement de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="641b7-102">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>
+# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a><span data-ttu-id="80a76-102">Utiliser le BPA Analyzer pour identifier les problèmes potentiels dans votre déploiement de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80a76-102">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34846407"
 
 <span> </span>
 
-<span data-ttu-id="641b7-103">_**Dernière modification de la rubrique:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="641b7-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="80a76-103">_**Dernière modification de la rubrique :** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="80a76-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="641b7-104">Pour utiliser l’analyseur de meilleures pratiques pour analyser votre environnement Lync Server 2013, votre système doit répondre à des conditions préalables spécifiques avant de commencer l’analyse.</span><span class="sxs-lookup"><span data-stu-id="641b7-104">To use Best Practices Analyzer to scan your Lync Server 2013 environment, your system must meet specific prerequisites before you start the scan.</span></span> <span data-ttu-id="641b7-105">Après vous être assuré que votre système répond à la configuration requise, vous pouvez effectuer le processus de numérisation à l’aide de l’analyseur de recommandations.</span><span class="sxs-lookup"><span data-stu-id="641b7-105">After you ensure that your system meets the prerequisites, you can complete the scan process by using Best Practices Analyzer.</span></span>
+<span data-ttu-id="80a76-104">Pour utiliser l’analyseur de meilleures pratiques pour analyser votre environnement Lync Server 2013, votre système doit répondre à des conditions préalables spécifiques avant de commencer l’analyse.</span><span class="sxs-lookup"><span data-stu-id="80a76-104">To use Best Practices Analyzer to scan your Lync Server 2013 environment, your system must meet specific prerequisites before you start the scan.</span></span> <span data-ttu-id="80a76-105">Après vous être assuré que votre système répond à la configuration requise, vous pouvez effectuer le processus de numérisation à l’aide de l’analyseur de recommandations.</span><span class="sxs-lookup"><span data-stu-id="80a76-105">After you ensure that your system meets the prerequisites, you can complete the scan process by using Best Practices Analyzer.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="641b7-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="641b7-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="80a76-106">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="80a76-106">In This Section</span></span>
 
-  - [<span data-ttu-id="641b7-107">Conditions préalables à l’exécution de l’analyseur de meilleures pratiques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="641b7-107">Prerequisites for running Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
+  - [<span data-ttu-id="80a76-107">Conditions préalables à l’exécution de l’analyseur de meilleures pratiques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80a76-107">Prerequisites for running Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="641b7-108">Vérification des mises à jour apportées par l’analyseur de meilleures pratiques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="641b7-108">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
+  - [<span data-ttu-id="80a76-108">Vérification des mises à jour apportées par l’analyseur de meilleures pratiques dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80a76-108">Checking for updates to Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="641b7-109">Utilisation de l’analyseur de meilleures pratiques pour analyser le déploiement de Lync Server 2013 pour détecter des problèmes potentiels</span><span class="sxs-lookup"><span data-stu-id="641b7-109">Using Best Practices Analyzer to scan your Lync Server 2013 deployment for potential issues</span></span>](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
+  - [<span data-ttu-id="80a76-109">Utilisation de l’analyseur de meilleures pratiques pour analyser le déploiement de Lync Server 2013 pour détecter des problèmes potentiels</span><span class="sxs-lookup"><span data-stu-id="80a76-109">Using Best Practices Analyzer to scan your Lync Server 2013 deployment for potential issues</span></span>](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
 
 </div>
 
