@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Les clients disposent d’une fonctionnalité de numérotation supplémentaire qui prendra fin le 30 novembre 2019.  À compter du 1er décembre 2019, chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et par mois à l’un des pays/régions comme décrit dans le présent document. '
-ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311269"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695649"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Abonnement à la conférence audio « dial-out »/«appelez-moi au
 

@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
-description: 'Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes:'
-ms.openlocfilehash: f719a4c76be88dd571c551645bacd13ef22e9a19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes :'
+ms.openlocfilehash: 458e50ecc3ddd389a8e413e8f2dd368fc0f15369
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306142"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697549"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Définir les propriétés et les options de pool de conversations permanentes
  
-Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes:
+Vous pouvez configurer les options pour votre serveur de chat permanent ou le pool de serveurs de chat permanent en définissant les propriétés suivantes :
   
  **Nom d’affichage du pool de conversations permanentes**: propriété requise définissant un nom convivial qui sera affiché pour ce serveur de chat permanent ou le pool de serveurs de chat permanent.
   

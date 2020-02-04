@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.ArchivingGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 'Dans le générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant sur le serveur avec le bouton droit dans l’arborescence de la console, puis sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis sur Modifier les propriétés pour modifier l’une des options suivantes :'
-ms.openlocfilehash: 224b149dd7ff3d0a1398bf7cb644ebb259d5b949
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2de8465be3f9a650aad3dd9b44b995a7dc6a7a67
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288774"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697869"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Développeur des paramètres généraux du serveur d’archivage
  

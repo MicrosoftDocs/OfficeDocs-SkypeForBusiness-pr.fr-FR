@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: À l’issue de la publication de la topologie, l’Assistant publication est affiché.
-ms.openlocfilehash: 5822f4cf2095a91ad0a8e5429d0ed8c187a32185
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd75735df3b97c23ae78d59b4b1c7c03c2074bdc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289826"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696779"
 ---
 # <a name="publish-topology-next-step"></a>Étape ultérieure à la publication de la topologie
 

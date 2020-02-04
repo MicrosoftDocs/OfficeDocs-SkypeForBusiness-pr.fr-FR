@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.autoattendants.overview
+f1.keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Découvrez les standards automatiques du Cloud et comment les utiliser.
-ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: ab88eb27eb12e8de119b90c7d53de750384afcea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004769"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694299"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Que sont les standards automatiques Cloud ?
 
@@ -236,7 +236,7 @@ Pour attribuer un numéro de service, vous devez obtenir ou exporter vos numéro
 > [!NOTE]
 > Si vous résidez en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration de Microsoft teams pour obtenir des numéros de service. Pour savoir comment procéder, reportez-vous à la rubrique [gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Voici les avantages du système téléphonique dans Office 365](here-s-what-you-get-with-phone-system.md)
 

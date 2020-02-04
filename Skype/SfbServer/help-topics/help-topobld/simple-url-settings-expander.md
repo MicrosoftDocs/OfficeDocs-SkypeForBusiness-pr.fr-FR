@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
-description: 'Pour spécifier les éléments suivants: nouveau ou supprimer, ou pour modifier les URL simples actives, procédez comme suit:'
-ms.openlocfilehash: 26874484cb51c0a0ea8170a2478383b43cfc1b6d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour spécifier les éléments suivants : nouveau ou supprimer, ou pour modifier les URL simples actives, procédez comme suit :'
+ms.openlocfilehash: 8d26c5eaecd96ea1d4980e3f2b2a593707fe84bc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291311"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696679"
 ---
 # <a name="simple-url-settings-expander"></a>Expandeur des paramètres d’une URL simple
 
-Pour spécifier les éléments suivants: nouveau ou supprimer, ou pour modifier les URL simples actives, procédez comme suit:
+Pour spécifier les éléments suivants : nouveau ou supprimer, ou pour modifier les URL simples actives, procédez comme suit :
 
 ## <a name="simple-urls"></a>URL simples 
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserViewDialPlan
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: Que voulez-vous faire ? Cliquez sur le lien de la tâche que vous voulez effectuer.
-ms.openlocfilehash: b119e4ea75004ad78c9ac5d29a35655ad0d828d7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 84a238941062a2b6774d9c2b418d2369ef4400f9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275884"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699149"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Utilisateurs : afficher ou configurer le plan de numérotation
 

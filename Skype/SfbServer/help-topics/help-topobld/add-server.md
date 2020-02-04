@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
-description: 'Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des éléments suivants:'
-ms.openlocfilehash: 32033d7d758528fc925c5c228971c040828bd654
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des éléments suivants :'
+ms.openlocfilehash: c19aad7f55c6ebc22ee64c715700d8cc7116bccb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290505"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698039"
 ---
 # <a name="add-server"></a>Ajouter un serveur
  
-Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des éléments suivants:
+Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des éléments suivants :
   
 - Serveur frontal d’Enterprise Edition
     

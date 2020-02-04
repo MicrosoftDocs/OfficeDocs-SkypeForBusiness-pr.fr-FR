@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams proposés aux Philippines.
-ms.openlocfilehash: a32517f2de48d345d723521142a051f6af8c7d4f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 237fa3460fbf2408146444a63971da5cbff180fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570938"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694499"
 ---
 # <a name="availability-in-the-philippines"></a>Disponibilité aux Philippines
 

@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le centre d’administration Microsoft Teams. '
-ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568698"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695827"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
@@ -58,7 +59,7 @@ Pour plus d’informations sur la façon d’obtenir un plan d’appels et son c
 1. Dans le volet de navigation de gauche du centre d’administration de Microsoft Teams, cliquez sur **emplacements** > d'**urgence**.
 2. Dans la liste, sélectionnez l’emplacement que vous voulez supprimer, puis cliquez sur **supprimer** .
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 -[Quels sont les emplacements d’urgence, les lieux et le routage des appels ?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)

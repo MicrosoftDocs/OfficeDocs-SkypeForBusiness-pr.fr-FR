@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour la Jamaïque.
-ms.openlocfilehash: 2860d014eeca08627e8eb51e168eb593767291fb
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 1145bb4d1aa4cbfdc4e59218f9f0d602570ea470
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741543"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695019"
 ---
 # <a name="availability-in-jamaica"></a>Disponibilité en Jamaïque
 

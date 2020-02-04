@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponible en Chine.
-ms.openlocfilehash: 00673bc3ace28977cc1896c491c04c252ae2f68a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c24f251ac2a284a889379ac68b416edb7275fee
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570514"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695239"
 ---
 # <a name="availability-in-china"></a>Disponibilité en Chine
 

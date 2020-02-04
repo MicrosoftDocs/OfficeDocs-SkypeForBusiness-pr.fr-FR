@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Vous trouverez ci-après les services 365 Office pour Skype entreprise et Microsoft teams disponibles pour la République dominicaine.
-ms.openlocfilehash: 704d2ccd56863030896b0a034f04a6b1badab263
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 451970f70b2cee81b851b52bbd9c62ab58eb74fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571446"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694529"
 ---
 # <a name="availability-in-the-dominican-republic"></a>Disponibilité en République Dominicaine
 

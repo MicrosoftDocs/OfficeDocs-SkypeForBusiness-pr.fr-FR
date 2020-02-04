@@ -15,13 +15,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les politiques d’appel d’urgence dans Microsoft Teams.
-f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: d6dc6f58085fedadf25f80272bc55dcc7723db19
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
+ms.openlocfilehash: b339f2ef46e0d9949fb440d2ad5a6fa0dee09fe4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998792"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694370"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence dans Microsoft teams
 
@@ -122,7 +122,7 @@ L’exemple suivant montre comment affecter une stratégie appelée stratégie d
     Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
     ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les stratégies de routage des appels d’urgence dans teams](manage-emergency-call-routing-policies.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

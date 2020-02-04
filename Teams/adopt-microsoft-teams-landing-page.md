@@ -14,21 +14,21 @@ ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d534bfd865de1f12fb902b4a7ce1a2a0f5edef6a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36483410"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695699"
 ---
 # <a name="adopt-microsoft-teams"></a>Adopter Microsoft Teams
 
-S’il s’agit d’une petite entreprise, ou si vous voulez déployer des équipes à partir de la discussion, d’équipes & de canaux et de réunions, utilisez nos [guides](get-started-with-teams-quick-start.md)de démarrage rapide pour vous lancer rapidement. Si vous êtes une entreprise disposant d’une configuration Skype entreprise hybride ou locale, ou si vous voulez déployer des fonctions vocales (par exemple, des plans d’appel ou du système téléphonique Office 365), vous pouvez commencer avec nos recommandations en matière de mise en route. les instructions ci-dessous, sous **recommandations d’adoption plus approfondie**.
+S’il s’agit d’une petite entreprise, ou si vous voulez déployer des équipes à partir de la discussion, d’équipes & de canaux et de réunions, utilisez nos [guides](get-started-with-teams-quick-start.md)de démarrage rapide pour vous lancer rapidement. Si vous êtes une entreprise disposant d’une configuration Skype entreprise hybride ou locale, ou si vous voulez déployer des fonctions vocales (par exemple, des plans d’appel ou du système téléphonique Office 365), vous pouvez commencer avec nos recommandations en matière de mise en route, mais vous aurez besoin des conseils supplémentaires ci-dessous, dans des **conseils d’adoption plus approfondie**.
 
 <ul class="panelContent cardsFTitle">
     <li>

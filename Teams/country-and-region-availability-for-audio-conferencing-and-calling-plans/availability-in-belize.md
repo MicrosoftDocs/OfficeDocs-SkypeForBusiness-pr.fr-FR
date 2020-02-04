@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Belize.
-ms.openlocfilehash: 2212d4a95c8541c74c6c4706b3fabd3d271bbb1b
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 8ab8355f3d057e663f5673cbc665335f9b753b2f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741348"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695369"
 ---
 # <a name="availability-in-belize"></a>Disponibilité à Belize
 

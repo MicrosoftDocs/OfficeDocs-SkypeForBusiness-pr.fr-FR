@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
-description: 'Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end en modifiant ou en configurant les attributs suivants. La page Configuration est divisée en sections suivantes:'
-ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end en modifiant ou en configurant les attributs suivants. La page Configuration est divisée en sections suivantes :'
+ms.openlocfilehash: 1e7fa730745c3eab20288b5b4bfbb9c0d781be83
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284402"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697289"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Développeur des paramètres généraux du serveur frontal pour Lync Server 2010
 
-Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end en modifiant ou en configurant les attributs suivants. La page Configuration est divisée en sections suivantes:
+Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end en modifiant ou en configurant les attributs suivants. La page Configuration est divisée en sections suivantes :
 
  **Général**
 
@@ -41,7 +41,7 @@ Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end
 
 - Si vous avez sélectionné une conférence rendez **-vous (RTC)** , vous pouvez sélectionner l’option Conférence rendez-vous. Activez les cases à cocher pour activer les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **entreprise voix** si vous envisagez de déployer des fonctionnalités permettant à Lync Server 2013 de fonctionner comme votre système vocal par téléphone à l’aide de technologies de voix sur IP (VoIP), y compris la possibilité de déployer des téléphones portables, des lignes SIP ou du public connexion réseau téléphonique commutée à l’aide d’un serveur de médiation, de passerelles RTC et de PBX IP, en combinaison ou seule, en fonction de la conception et des exigences. Pour plus d’informations sur voix entreprise, reportez-vous à la section voix [entreprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) et [plan pour Enterprise Voice dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **entreprise voix** si vous envisagez de déployer des fonctionnalités pour permettre à Lync Server 2013 de fonctionner comme votre système de voix téléphonique à l’aide de technologies de voix sur IP (VoIP). il est possible d’utiliser une connectivité de type réseau téléphonique commuté, des passerelles RTC et un PBX IP, en combinaison ou seule, en fonction de la conception et de la configuration requise, en particulier. Pour plus d’informations sur voix entreprise, reportez-vous à la section voix [entreprise](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) et [plan pour Enterprise Voice dans Skype entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
@@ -49,7 +49,7 @@ Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end
 
 - **Magasin de fichiers**: vous sélectionnez le nom de domaine complet (FQDN) du serveur et `\\<FQDN of server>\<share name>`le partage (au format) qui servira d’emplacement de stockage de fichiers pour les fichiers partagés que Lync Server 2013 crée et utilise pour la réplication, les annuaires de conférences et autres objectifs. Pour sélectionner le magasin de fichiers dans la liste, vous devez créer un nouveau magasin de fichiers en cliquant sur **nouveau**.
 
-- Cochez la case **associer un serveur** d’archivage pour activer un serveur d’archivage pour ce serveur frontal ou une liste frontale. Après avoir coché la case, sélectionnez un serveur d’archivage existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur d’archivage.
+- Cochez la case **associer un serveur d’archivage** pour activer un serveur d’archivage pour ce serveur frontal ou une liste frontale. Après avoir coché la case, sélectionnez un serveur d’archivage existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur d’archivage.
 
 - Activez la case à cocher **associer le serveur de surveillance** pour activer un serveur de surveillance pour ce serveur frontal ou le pool frontal. Après avoir coché la case, sélectionnez un serveur de surveillance existant dans la liste ou cliquez sur **nouveau** pour créer les définitions d’un nouveau serveur de surveillance.
 
@@ -57,7 +57,7 @@ Vous pouvez modifier les propriétés du serveur frontal ou du pool de front-end
 
   **Résilience**
 
-- Activez la case à cocher **pool d’registraire de sauvegarde associé** pour sélectionner dans la liste un serveur frontal ou une liste frontale qui sera le Bureau d’enregistrement de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme bureau d’enregistrement secondaire dans le cas où le principal défaillant
+- Activez la case à cocher **pool d’registraire de sauvegarde associé** pour sélectionner dans la liste un serveur frontal ou une liste frontale qui sera le Bureau d’enregistrement de sauvegarde (c’est-à-dire, le serveur frontal ou le pool frontal désigné comme bureau d’enregistrement secondaire dans le cas où le serveur principal tombe en panne).
 
 - Si vous avez sélectionné le pool d’inscriptions de sauvegarde associé et que vous avez choisi un bureau d’enregistrement de sauvegarde, vous pouvez activer la case à cocher **reprise automatique et retour automatique pour la voix**. À présent, vous pouvez définir des propriétés numériques pour la détection de la **reprise vocale** et l' **intervalle de restauration vocale (s)**. Pour plus d’informations, consultez [planification de la résilience vocale d’entreprise](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx) .
 

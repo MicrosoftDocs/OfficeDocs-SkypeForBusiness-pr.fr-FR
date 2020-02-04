@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
 - Direct Routing
 description: En savoir plus sur les appels d’urgence, y compris des informations sur les adresses d’urgence, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: b97a14310014ea2e8271ee54f3bd6e777afa4d57
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 1e8eb5ee3f95afb08dc5f33862287fc3b3379806
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615834"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694309"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -209,7 +209,7 @@ Un TeamsEmergencyCallingPolicy peut être accordé à un compte d’utilisateur 
 Au cours d’un appel d’urgence, un support technique est retenu dans le cadre de l’appel et l’utilisateur du support technique est contrôlé en fonction du TeamsEmergencyCallingPolicy. Une discussion de groupe est lancée pour chaque membre du support technique et l’emplacement de l’appelant d’urgence est partagé par le biais d’une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du support technique peut également être appelé dans le cadre de la Conférence.
 
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage des appels d’urgence](manage-emergency-call-routing-policies.md)

@@ -7,31 +7,31 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
-description: 'Vous pouvez modifier les paramètres du serveur de périphérie ou du pool de bords en configurant les propriétés suivantes:'
-ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Vous pouvez modifier les paramètres du serveur de périphérie ou du pool de bords en configurant les propriétés suivantes :'
+ms.openlocfilehash: 78edbc8093b54474ac9f0429b5232851a5a16663
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282523"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697379"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Modifier le développeur des paramètres de l’ordinateur Edge pour Lync Server 2010
  
-Vous pouvez modifier les paramètres du serveur de périphérie ou du pool de bords en configurant les propriétés suivantes: 
+Vous pouvez modifier les paramètres du serveur de périphérie ou du pool de bords en configurant les propriétés suivantes : 
   
  **Général**
   
-- Nom de domaine **complet (FQDN**) du pool interne: il s’agit de l’identité du serveur Edge ou du pool Edge, tel que défini dans l’enregistrement DNS (Domain Name System) (A ou AAAA pour IPv6).
+- Nom de domaine **complet (FQDN**) du pool interne : il s’agit de l’identité du serveur Edge ou du pool Edge, tel que défini dans l’enregistrement DNS (Domain Name System) (A ou AAAA pour IPv6).
     
 - Sélectionnez **activer la Fédération pour ce pool Edge (port 5061)** si vous voulez activer le serveur Edge ou le pool de périphérie pour la Fédération avec d’autres partenaires de protocole d’initiation de session.
     
     > [!IMPORTANT]
-    > Vous pouvez uniquement définir un serveur Edge ou un pool Edge pour la Fédération. La configuration affichée dans la capture d’écran associée indique qu’un autre serveur Edge ou pool d’arêtes est déjà configuré pour la Fédération. L’enregistrement SRV DNS pour la Fédération (_sipfederationtls. _ TCP\< . nom\>de domaine externe) pointe vers le serveur de périphérie ou le pool de bords pour la Fédération. 
+    > Vous pouvez uniquement définir un serveur Edge ou un pool Edge pour la Fédération. La configuration affichée dans la capture d’écran associée indique qu’un autre serveur Edge ou pool d’arêtes est déjà configuré pour la Fédération. L’enregistrement SRV DNS pour la Fédération (_sipfederationtls. _tcp.\< nom\>de domaine externe) pointe vers le serveur de périphérie ou le pool de bords pour la Fédération. 
   
 - Le **port de réplication de configuration interne (https)**, par défaut sur le port TCP 4443, est le port que la copie locale (qui est locale vers la serveur Edge) du magasin de gestion central est répliquée. La copie locale du magasin de gestion central figure dans la base de données **RTCLOCAL** du serveur SQL sur chaque ordinateur. La réplication est unidirectionnelle, lancée à partir du serveur de gestion central (ou, du serveur frontal ou du pool frontal qui conserve le rôle serveur central de gestion) sur les serveurs de périphérie et est un port d’interface interne.
     
@@ -44,7 +44,7 @@ Vous pouvez modifier les paramètres du serveur de périphérie ou du pool de bo
   
   **Paramètres externes**
   
-Cette section des propriétés vous permet d’apporter des modifications aux propriétés des paramètres externes du serveur Edge ou du pool Edge. Vous pouvez modifier les propriétés suivantes:
+Cette section des propriétés vous permet d’apporter des modifications aux propriétés des paramètres externes du serveur Edge ou du pool Edge. Vous pouvez modifier les propriétés suivantes :
   
 - Activez les cases à cocher Activer les noms **de domaine complet et adresse IP pour les conférences Web et A/V** , si vous voulez attribuer des adresses IP distinctes et des noms de domaine complets à chaque service de serveur Edge.
     

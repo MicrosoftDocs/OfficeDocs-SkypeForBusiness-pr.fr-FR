@@ -15,16 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.dialplans.overview
+f1.keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Apprenez-en davantage sur les types de plans d’appel d’appels RTC disponibles avec les équipes et en choisissant une pour votre organisation.  '
-ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
-ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
+ms.openlocfilehash: a40d36b124b0bc1adbe9bc676a68a3b9c1d158ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "40891213"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694319"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
@@ -144,7 +144,7 @@ Le tableau ci-dessous illustre des exemples de règles de normalisation écrites
 > [!NOTE]
 > Les noms des règles de normalisation indiquées dans le tableau précédent n’incluent aucun espace, mais il s’agit d’une question de choix. Le premier nom du tableau, par exemple, aurait pu s'écrire « 5 digit extension » ou « 5-digit Extension » et être toujours valide.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Créer et gérer les plans de numérotation](create-and-manage-dial-plans.md)
 

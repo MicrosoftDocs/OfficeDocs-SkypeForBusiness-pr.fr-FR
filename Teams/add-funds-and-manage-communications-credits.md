@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
@@ -28,12 +28,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Découvrez comment payer pour les crédits de communication (consommation RTC) pour les services Skype entreprise et consulter les plans permettant à vos utilisateurs d’accéder à un système téléphonique continu. '
-ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 76b1281c69968164091daebff035a4c2b9bc75e1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516811"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695824"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -79,7 +79,7 @@ Vous pouvez également consulter des informations en vous [connectant au centre 
   
 Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

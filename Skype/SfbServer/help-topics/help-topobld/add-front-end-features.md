@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 description: Sélectionnez chaque fonctionnalité que vous voulez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée (IM), qui est toujours activée et ne peut pas être désélectionnée. Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que des conférences, des voix entreprise et des contrôles d’admission des appels (CAC). Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: 720f98964ff3e5847b89531fbf6bd9633825d27e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b44fb728c8910ec5016f20f154606dd7708c141e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277936"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698269"
 ---
 # <a name="add-front-end-features"></a>Ajouter des fonctionnalités frontales
 

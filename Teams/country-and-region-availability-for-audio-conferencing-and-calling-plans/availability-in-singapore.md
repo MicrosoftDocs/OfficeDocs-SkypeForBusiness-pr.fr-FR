@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour Singapour.
-ms.openlocfilehash: 1fe787be34d9bb96c005ed3ac26e4e2309da456a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8dc90878ad4a38f27d21d6a9c7cf731a9ff15cc0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572398"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694679"
 ---
 # <a name="availability-in-singapore"></a>Disponibilité à Singapour
 

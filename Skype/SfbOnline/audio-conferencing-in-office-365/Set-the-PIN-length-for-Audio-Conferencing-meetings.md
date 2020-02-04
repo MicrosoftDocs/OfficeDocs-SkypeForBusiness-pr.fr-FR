@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Découvrez les paramètres de longueur et les conditions requises pour les codes confidentiels et comment définir la longueur des réunions dans Skype Entreprise.
-ms.openlocfilehash: 4e4308eab334b37d32cbd53d047ba5fd077a1cad
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9142c78c30c56702e2892d396b5688ee120cc83e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792736"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695809"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Définir la longueur du code confidentiel pour les réunions en audioconférence dans Skype Entreprise Online
 
@@ -44,12 +45,12 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
  
 1. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation gauche, accédez à**paramètres du pont Microsoft** **Conferencing** > .
     
-2. Sous longueur du**code confidentiel**, sélectionnez le nombre de chiffres que vous voulez utiliser pour le code confidentiel, puis cliquez sur **Enregistrer**. **** > 
+2. Sous longueur du**code confidentiel**, sélectionnez le nombre de chiffres que vous voulez utiliser pour **le code confidentiel**, puis cliquez sur **Enregistrer.** > 
     
 > [!NOTE]
 > Un code confidentiel est différent d'un ID de conférence. Les ID de conférence sont utilisés par les appelants lorsqu'ils rejoignent la réunion. Ils permettent d'identifier la réunion. Le code confidentiel est utilisé pour authentifier un appelant en tant qu'organisateur de la réunion. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Vous voulez en savoir plus sur les paramètres de code confidentiel?
+## <a name="want-to-know-more-about-pin-settings"></a>Vous voulez en savoir plus sur les paramètres de code confidentiel ?
 
 - PINs can be from 4 to 12 digits; the default is 5. Numbers are only used when creating PINs. Letters and special characters aren't used.
     
@@ -69,7 +70,7 @@ The audio conferencing bridge answers a call for people who are dialing in to a 
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité qui consiste à utiliser le centre d’administration Microsoft 365, par exemple, lorsque vous modifiez les paramètres de nombreux utilisateurs en même temps. Découvrez les avantages suivants dans les rubriques suivantes : 
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

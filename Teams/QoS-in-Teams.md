@@ -11,19 +11,19 @@ audience: admin
 description: Préparez le réseau de votre organisation à la qualité de service (QoS) dans Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 83275f7fbcec60727ed75c0a56ffda113b36fd26
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567146"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695639"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Mise en œuvre de la qualité de service (QoS) dans Microsoft teams
 
@@ -65,7 +65,7 @@ Pour garantir la qualité de service (QoS), les appareils réseau doivent dispos
 
 Lorsque le trafic réseau entre dans un routeur, le trafic est placé dans une file d’attente. Si aucune stratégie de QoS n’est configurée, il n’y a qu’une seule file d’attente, et toutes les données sont traitées comme étant de type First-in, premier niveau avec la même priorité. Cela signifie que le trafic vocal (qui est très sensible aux retards) peut rester bloqué derrière le trafic pour lequel un délai de quelques millisecondes supplémentaires ne serait pas un problème.
 
-Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l’aide de l’une des nombreuses fonctionnalités de gestion de la congestion (par exemple, la mise en file d’attente de priorités de Cisco et la mise en file d’attente équitable de [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)), ainsi que des fonctionnalités de prévention de la congestion (par exemple, le niveau aléatoire au premier niveau [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)de détection).
+Lorsque vous implémentez QoS, vous définissez plusieurs files d’attente à l’aide de l’une des nombreuses fonctionnalités de gestion de la congestion (par exemple, la mise en file d’attente de priorités de Cisco et la mise en file d’attente équitable de [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)), ainsi que des fonctionnalités de prévention de la congestion (par exemple, WRED de détection de niveau aléatoire [](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
 
 _Figure 2. Exemples de files d’attente QoS_
 
@@ -77,7 +77,7 @@ Une simple analogie est que la qualité de service (QoS) crée des « couloirs 
 
 Vous pouvez implémenter QoS par le biais du balisage basée sur le port, à l’aide des listes de contrôle d’accès (ACL) sur les routeurs de votre réseau. Le balisage basé sur les ports est la méthode la plus fiable, car elle fonctionne dans les environnements Windows et Mac mixte et est la plus simple à implémenter. Les clients mobiles ne fournissent aucun mécanisme de marquage du trafic à l’aide de valeurs DSCP, de sorte qu’ils nécessitent cette méthode.  
 
-À l’aide de cette méthode, le routeur de votre réseau examine un paquet entrant et, si le paquet est arrivé à l’aide d’un certain port ou d’une plage de ports, il l’identifie comme un certain type de média et le place dans la file d’attente pour ce type, en ajoutant une marque [DSCP](https://tools.ietf.org/html/rfc2474) prédéfinie à l’adresse IP. En-tête de paquet de sorte que d’autres appareils puissent reconnaître son type de trafic et lui attribuer une priorité dans la file d’attente.
+À l’aide de cette méthode, le routeur de votre réseau examine un paquet entrant et, si le paquet est reçu à l’aide d’un certain port ou d’une plage de ports, il l’identifie en tant que type de média, et le place dans la file d’attente pour ce type, en ajoutant une marque [DSCP](https://tools.ietf.org/html/rfc2474) prédéfinie à l’en-tête de paquets IP, de manière à ce
 
 Même si cela fonctionne sur différentes plateformes, le trafic est uniquement marqué sur le périmètre du réseau WAN (et non sur l’ordinateur client) et entraîne une surcharge de gestion. Pour obtenir des instructions sur l’implémentation de cette méthode, consultez la documentation fournie par le fabricant du routeur.
 
@@ -107,11 +107,11 @@ Le tableau suivant répertorie les marquages DSCP requis et les plages de ports 
 
 _Plages de port initiales recommandées_
 
-|Type de trafic multimédia| Plage de ports sources du client |Protocole|Valeur DSCP|Classe DSCP|
+|Type de trafic média| Plage de port source du client  |Protocole|Valeur DSCP|Classe DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50000 – 50019|TCP/UDP|46|Acheminement accéléré (EF)|
-|Vidéo| 50,020 – 50039|TCP/UDP|34|Acheminement assuré (AF41)|
-|Partage d’écran ou d’application| 50,040 – 50059|TCP/UDP|19|Transfert assuré (AF21)|
+|Audio| Entre 50 000 et 50 019|TCP/UDP|46|Acheminement accéléré (EF)|
+|Vidéo| 50 020–50 039|TCP/UDP|34|Acheminement assuré (AF41)|
+|Partage d’application/d'écran| 50 040–50 059|TCP/UDP|19|Transfert garanti (AF21)|
 ||||||
 
 Tenez compte des points suivants lorsque vous utilisez les paramètres suivants :
@@ -162,7 +162,7 @@ Pour plus d’informations sur la configuration des ports de pare-feu, voir [URL
 Dans Teams, les ports sources QoS utilisés par les différentes charges de travail doivent être gérés activement et ajustés selon les besoins. Le fait de faire référence à la table dans [choisir des plages de port initiales pour chaque type de média](#choose-initial-port-ranges-for-each-media-type), les plages de port sont ajustables, mais les marques DSCP ne peuvent pas être configurées. Une fois ces paramètres implémentés, il est possible que vous ayez besoin de plus ou moins de ports pour un type de média donné. Le [tableau de bord d’analyse des appels et de qualité des appels](difference-between-call-analytics-and-call-quality-dashboard.md) doit être utilisé pour décider d’ajuster les plages de port après la mise en œuvre d’équipes et périodiquement en fonction du changement.
 
 > [!NOTE]
-> Si vous avez déjà configuré la qualité de service (QoS) sur la base des plages de ports sources et des marques DSCP pour Skype entreprise Online, la même configuration s’appliquera aux équipes et aucune modification du client ou du réseau supplémentaire au mappage ne sera requise, même si vous devrez peut-être [définir les plages utilisé dans le centre d’administration teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) pour correspondre aux informations configurées dans Skype entreprise online.
+> Si vous avez déjà configuré la qualité de service (QoS) sur la base des plages de ports sources et des marques DSCP pour Skype entreprise Online, la même configuration s’applique aux équipes et aucune modification du client ou du réseau supplémentaire n’est nécessaire, mais vous devrez peut-être [définir les plages utilisées dans le centre d’administration teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) pour correspondre aux configurations de Skype entreprise online.
 
 Si vous avez déjà déployé Skype entreprise Server en local, il est possible que vous deviez réexaminer vos stratégies de QoS et les ajuster au besoin pour correspondre aux paramètres de plage de port que vous avez vérifiés pour une utilisation optimale des utilisateurs dans Teams.
 

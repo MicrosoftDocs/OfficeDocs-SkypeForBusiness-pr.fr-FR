@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Vous trouverez ci-après les services 365 Office pour Skype entreprise et Microsoft teams disponibles pour la Grenade.
-ms.openlocfilehash: 2a5c3a4dfd997be5d2266f24c488b267ba4ac563
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: be8219847bbd3c37681d814b3012fd6a8583bf6f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741544"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695089"
 ---
 # <a name="availability-in-grenada"></a>Disponibilité en Grenade
 

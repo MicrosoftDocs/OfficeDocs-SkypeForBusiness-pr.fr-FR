@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 'Pour modifier les propriétés de l’application branche Survivable ou du serveur de succursales survivant, sous général, vous devez configurer les éléments suivants:'
-ms.openlocfilehash: e0c2aba5998b2eb4288c63fd50f47e8e8bb75033
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour modifier les propriétés de l’application branche Survivable ou du serveur de succursales survivant, sous général, vous devez configurer les éléments suivants :'
+ms.openlocfilehash: cf759acf5adda74f12c067ee679105b7d487d757
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301581"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697679"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expanseur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
  
-Pour modifier les propriétés de l’application branche Survivable ou du serveur de succursales survivant, sous **général**, vous devez configurer les éléments suivants:
+Pour modifier les propriétés de l’application branche Survivable ou du serveur de succursales survivant, sous **général**, vous devez configurer les éléments suivants :
   
 - Nom de domaine **complet**: vous entrez le nom de domaine complet de l’appareil ou du serveur de succursales survivant.
     
@@ -36,7 +36,7 @@ Pour modifier les propriétés de l’application branche Survivable ou du serve
     
 - Vous configurez des **associations** pour vous assurer que d’autres rôles de serveur sont configurés et associés à l’unité de branchement ou au serveur de succursales survivant.
     
-    **Associer un serveur** d’archivage Effectuer une sélection dans la liste du serveur d’archivage que vous voulez associer à l’appareil de succursales survivant ou à un serveur de succursales survivant
+    **Associer un serveur d’archivage** Effectuer une sélection dans la liste du serveur d’archivage que vous voulez associer à l’appareil de succursales survivant ou à un serveur de succursales survivant
     
     Cliquez sur **nouveau** si vous n’avez pas encore créé le serveur d’archivage que vous voulez associer à cette application de succursale ou de succursale Survivable.
     

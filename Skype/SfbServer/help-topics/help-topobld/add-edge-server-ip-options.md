@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
-description: 'Microsoft Lync Server 2013 vous permet de configurer des adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool Edge. Pour cela, procédez comme suit:'
-ms.openlocfilehash: de0b0e0c050721a4fb54a450db89e34f65ea7f7f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Microsoft Lync Server 2013 vous permet de configurer des adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool Edge. Pour cela, procédez comme suit :'
+ms.openlocfilehash: f6721f170bbe9a05a247d5ab79fb2cbd1cb7ccaf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293972"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698409"
 ---
 # <a name="add-edge-server-ip-options"></a>Ajouter des options IP de serveur Edge
  
-Microsoft Lync Server 2013 vous permet de configurer des adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool Edge. Pour cela, procédez comme suit:
+Microsoft Lync Server 2013 vous permet de configurer des adresses IPv4 et IPv6 pour chaque interface pour le serveur Edge et le pool Edge. Pour cela, procédez comme suit :
   
 - **Activer IPv4 sur l’interface interne**: activez la case à cocher si vous voulez appliquer une adresse IPv4 à l’interface interne du serveur Edge ou du pool de périphériques
     

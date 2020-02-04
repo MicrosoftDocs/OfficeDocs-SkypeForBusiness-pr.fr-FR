@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: 'Dans cette boîte de dialogue, vous pouvez modifier les propriétés des paramètres de la passerelle RTC du serveur de médiation. Vous définissez les paramètres suivants:'
-ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Dans cette boîte de dialogue, vous pouvez modifier les propriétés des paramètres de la passerelle RTC du serveur de médiation. Vous définissez les paramètres suivants :'
+ms.openlocfilehash: bd24c24d14e24ed7e4ce53bc30d01b2e955be6cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284388"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697279"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Développeur des paramètres du service de médiation frontal pour Lync Server 2010
  
-Dans cette boîte de dialogue, vous pouvez modifier les propriétés des paramètres de la **passerelle RTC du serveur de médiation** . Vous définissez les paramètres suivants:
+Dans cette boîte de dialogue, vous pouvez modifier les propriétés des paramètres de la **passerelle RTC du serveur de médiation** . Vous définissez les paramètres suivants :
   
 - Sélectionnez le **serveur de médiation en option activé** si vous voulez Collocate le serveur de médiation avec ce serveur frontal ou les listes frontales.
     

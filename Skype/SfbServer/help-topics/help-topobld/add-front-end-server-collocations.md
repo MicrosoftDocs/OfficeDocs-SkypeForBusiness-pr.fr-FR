@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/V est colocalisé sur le pool frontal. Vous pouvez également collocate du serveur de médiation sur le pool frontal ou vous pouvez le déployer en tant que serveur autonome. Le service de conférence A/V est toujours localisé si la Conférence est activée.
-ms.openlocfilehash: 620f76232f909a8bbeb52138cbdeec74b097b448
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d246e91549f5ff27a2e3681aae4d73c064eb67c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291636"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698209"
 ---
 # <a name="add-front-end-server-collocations"></a>Ajouter des colocalisations du serveur frontal
 
@@ -27,7 +27,7 @@ Dans le cas d’un déploiement Enterprise Edition, le service de conférence A/
 > [!NOTE]
 > Un service de conférence A/V est requis si la **Conférence** est sélectionnée dans la page **Sélectionner des fonctionnalités** . Un pool frontal Enterprise Edition utilise un service de conférence A/V colocalisé. Si l’option conférences n’a pas été sélectionnée, le service de conférence A/V Collocate ne sera pas disponible.
 
-Vous pouvez collocate le rôle de serveur de médiation sur un pool frontal Standard Edition Server ou Enterprise Edition. Si vous déployez des connexions SIP directes vers une passerelle de réseau téléphonique commuté (PSTN) qui prend en charge la fonctionnalité de contournement du contenu multimédia et l’équilibrage de charge DNS (Domain Name System), il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonome. Il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonomes, car les passerelles qualifiées sont en mesure d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool. Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie:
+Vous pouvez collocate le rôle de serveur de médiation sur un pool frontal Standard Edition Server ou Enterprise Edition. Si vous déployez des connexions SIP directes vers une passerelle de réseau téléphonique commuté (PSTN) qui prend en charge la fonctionnalité de contournement du contenu multimédia et l’équilibrage de charge DNS (Domain Name System), il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonome. Il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonomes, car les passerelles qualifiées sont en mesure d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool. Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie :
 
 - Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
 

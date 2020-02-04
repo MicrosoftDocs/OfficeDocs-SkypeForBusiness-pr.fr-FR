@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Découvrez ce dont vous avez besoin et comment les organisateurs de réunion peuvent appeler d’autres personnes avec Skype Entreprise.
-ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 392c868763c071e534daf8488baf751269792773
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306119"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695689"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Appel sortant d’une réunion Skype entreprise pour permettre à d’autres personnes de participer à celle-ci
 
@@ -55,12 +56,12 @@ Pour ajouter d’autres participants par le biais d’un appel sortant aux réun
 
 La mise en conférence n'est disponible que vers certains pays ou certaines régions. Pour obtenir la liste complète, voir [disponibilité du pays et de la région pour les offres d’appels et de services d’audioconférence](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
-## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Vous voulez en savoir plus sur les conférences audio ?
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licences de complément Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Installer Skype Entreprise](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

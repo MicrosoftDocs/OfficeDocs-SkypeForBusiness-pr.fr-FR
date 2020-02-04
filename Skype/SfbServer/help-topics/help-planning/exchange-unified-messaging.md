@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.ExchagneUM
 - ms.lync.plan.ExchagneUM
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange (MU) pour combiner la boîte vocale et la messagerie électronique en une seule infrastructure de messagerie.
-ms.openlocfilehash: 26a6abeadf80dd9392ed7d02d5b8fc8acfc90467
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd5b273c8515032db62e12ccbbd81f1110a03e37
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288584"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698859"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange Unified Messaging (Planning Tool)
 
@@ -31,6 +31,6 @@ Pour plus d’informations, consultez :
 
 - "Message unifié" à[https://go.microsoft.com/fwlink/?LinkId=285341](https://go.microsoft.com/fwlink/?LinkId=285341)
 
-- «Planification de la messagerie unifiée [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344)» à l’adresse.
+- « Planification de la messagerie unifiée [https://go.microsoft.com/fwlink/?LinkId=285344](https://go.microsoft.com/fwlink/?LinkId=285344)» à l’adresse.
 
 

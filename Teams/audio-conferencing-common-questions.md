@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Voici quelques-unes des questions les plus fréquemment posées par nos clients qui souhaitent utiliser l’audioconférence.
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516987"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695719"
 ---
 # <a name="audio-conferencing-common-questions"></a>Questions fréquentes à propos de l’audioconférence
 
@@ -90,7 +91,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Limites de Skype Entrepr
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Pourquoi les utilisateurs ont-ils commencé à recevoir des messages électroniques avec leurs informations de conférence audio ?
 
-Nous avons ajouté une nouvelle fonctionnalité qui vous permet, l' [administrateur](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), d’envoyer et de mettre à jour les informations sur les conférences audio et le code confidentiel dans un courrier électronique. Pour en savoir plus, voir [activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres de conférence audio de Microsoft teams ou d'](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) [activation ou désactivation de l’envoi de courriers lorsque les paramètres de conférence audio changent dans Skype entreprise. Connecté](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Nous avons ajouté une nouvelle fonctionnalité qui vous permet, l' [administrateur](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), d’envoyer et de mettre à jour les informations sur les conférences audio et le code confidentiel dans un courrier électronique. Pour en savoir plus sur celle-ci, y compris sur la désactivation de cette fonctionnalité, voir [activer ou désactiver l’envoi de courriers lorsque les paramètres de conférence audio changent dans Microsoft teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) ou [activez ou désactivez l’envoi de courriers lorsque les paramètres de l’audioconférence changent dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Les utilisateurs qui font partie d’un déploiement local de Skype entreprise Server peuvent-ils utiliser une audioconférence ?
 
@@ -146,9 +147,9 @@ La planification d’une réunion qui sera jointe par tous les participants à l
 
 - **Option #1**: par défaut, si l’organisateur de la réunion et tous les participants se connectent à une réunion à l’aide d’un téléphone, l’organisateur de la réunion doit entrer son code confidentiel d’audioconférence pour le démarrer. Les appelants sont invités s’ils veulent s’authentifier en tant qu’organisateur d’une réunion donnée en composant le numéro de téléphone d’une réunion en ligne. Tous les participants qui rejoignent la réunion par le biais d’une connexion avant de commencer seront placés dans la salle d’attente et écoutera de la musique en attente. Pour les réunions Skype entreprise, dès que l’organisateur le démarre en inmettant son code confidentiel de conférence audio, tous les participants à la salle d’attente seront automatiquement joints à la réunion. Pour les réunions Microsoft Teams, les participants peuvent rejoindre la réunion en fonction de la valeur du paramètre d’admission automatique des personnes dans la stratégie de réunion de l’organisateur.
 
-- **Option #2**: si le paramètre « permettre aux appelants non authentifiés d’être le premier rendez-vous d’une réunion » (désactivée par défaut) est activé pour un organisateur donné, toutes les réunions planifiées par cet utilisateur peuvent être démarrées sans que l’organisateur puisse entrer son ou code confidentiel de l’audioconférence. Lorsque ce paramètre est activé, la réunion est lancée dès que le premier participant rejoint la réunion par le biais d’un numéro de téléphone à composer et qu’elle n’est pas placée dans la salle d’attente. Pour plus d’informations, reportez-vous à [la rubrique gérer les paramètres de l’audioconférence pour un utilisateur de Microsoft teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [gérer les paramètres de l’audioconférence pour un utilisateur dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Option #2**: si le paramètre « permettre aux appelants non authentifiés d’être le premier rendez-vous d’une réunion » (désactivée par défaut) est activé pour un organisateur donné, toutes les réunions planifiées par cet utilisateur peuvent être démarrées sans que l’organisateur puisse entrer son code confidentiel de conférence audio. Lorsque ce paramètre est activé, la réunion est lancée dès que le premier participant rejoint la réunion par le biais d’un numéro de téléphone à composer et qu’elle n’est pas placée dans la salle d’attente. Pour plus d’informations, reportez-vous à [la rubrique gérer les paramètres de l’audioconférence pour un utilisateur de Microsoft teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [gérer les paramètres de l’audioconférence pour un utilisateur dans Skype entreprise Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

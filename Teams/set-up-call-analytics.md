@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Configurez et utilisez l’analyse des appels pour identifier et résoudre les problèmes de qualité d’appel dans Skype entreprise et Microsoft Teams.
-ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571248"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693939"
 ---
 # <a name="set-up-call-analytics"></a>Configurer l’analyse des appels
 
@@ -65,7 +66,7 @@ Les spécialistes de la prise en charge des communications traitent des problèm
 ||Numéro de téléphone du destinataire  <br/> |Le numéro de téléphone complet sauf les trois derniers Par exemple, 15552823 * * *.  <br/> |Le numéro de téléphone complet sauf les trois derniers Par exemple, 15552823 * * *.  <br/> |
 ||**** > Onglet**avancé** des détails des appels <br/> |Informations non affichées.  <br/> |Tous les détails indiqués, tels que les noms des appareils, l’adresse IP, le mappage de sous-réseau, etc.  <br/> |
 ||**** > Onglet**débogage** **avancé** > détails des appels <br/> |Informations non affichées.  <br/> |Tous les détails indiqués, tels que les suffixes DNS et SSID.  <br/> |
-|**Réunions** <br/> |Noms des participants  <br/> |Uniquement le nom de l’utilisateur pour lequel l’agent a effectué la recherche. Autres participants identifiés comme utilisateurs internes ou utilisateurs externes.  <br/> |Tous les noms affichés.  <br/> |
+|**Meetings** <br/> |Noms des participants  <br/> |Uniquement le nom de l’utilisateur pour lequel l’agent a effectué la recherche. Autres participants identifiés comme utilisateurs internes ou utilisateurs externes.  <br/> |Tous les noms affichés.  <br/> |
 ||Nombre de participants  <br/> |Nombre de participants.  <br/> |Nombre de participants.  <br/> |
 ||Détails de la session  <br/> |Détails de la session accompagnés d’exceptions. Uniquement le nom de l’utilisateur pour lequel la recherche de l’agent est affichée. Autres participants identifiés comme utilisateurs internes ou utilisateurs externes. Les trois derniers chiffres du numéro de téléphone brouillés par des symboles d’astérisque.  <br/> |Détails de la session affichés. Les noms d’utilisateur et les détails de la session apparaissent. Les trois derniers chiffres du numéro de téléphone brouillés par des symboles d’astérisque.  <br/> |
 ||||
@@ -88,7 +89,7 @@ Si vous êtes un administrateur de équipes et Skype entreprise, vous pouvez uti
   
 Si vous créez le fichier. TSV ou. csv à partir de zéro, voir [format de fichier de données client et structure du fichier de données](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 <a name="BKMK_UploadFiles"> </a>
 
 [Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)

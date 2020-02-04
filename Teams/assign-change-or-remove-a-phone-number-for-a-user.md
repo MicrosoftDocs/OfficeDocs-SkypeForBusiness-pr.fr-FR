@@ -15,16 +15,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Découvrez comment affecter, modifier ou supprimer un numéro de téléphone professionnel pour les utilisateurs de Microsoft Teams, afin que les entreprises et les clients externes puissent appeler.
-ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a52e8892150e94f73b76bd68aae874b50bd19a71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516874"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695729"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
@@ -41,7 +42,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Affectation d’un numéro de téléphone à un utilisateur
  
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
 1. Dans le volet de navigation de gauche, cliquez sur**numéros de téléphone** **vocaux** > .
 2. Dans la page **numéros de téléphone** , sélectionnez un numéro non attribué dans la liste, puis cliquez sur **modifier**.  
@@ -53,7 +54,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
   
 ## <a name="change-a-phone-number-for-a-user"></a>Changer le numéro de téléphone d’un utilisateur
  
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, recherchez et double-cliquez sur l’utilisateur de votre choix, cliquez sur **compte**, puis, sous **informations générales**, notez le numéro de téléphone affecté à l’utilisateur.
 2. Dans le volet de navigation de gauche, cliquez sur**numéros de téléphone** **vocaux** > .
@@ -67,7 +68,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Supprimer le numéro de téléphone d’un utilisateur
  
-![Icône illustrant le logo](media/teams-logo-30x30.png) de Microsoft teams à l' **aide du centre d’administration Microsoft teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le volet de navigation de gauche, cliquez sur **utilisateurs**, recherchez et double-cliquez sur l’utilisateur de votre choix, cliquez sur **compte**, puis, sous **informations générales**, notez le numéro de téléphone affecté à l’utilisateur.
 2. Dans le volet de navigation de gauche, cliquez sur**numéros de téléphone** **vocaux** > .
@@ -75,7 +76,7 @@ Pour plus d’informations sur la façon d’obtenir des plans d’appel dans te
 4. Dans le volet d' **édition** , sous **affecté à**, cliquez sur la **Croix (X** ) pour supprimer l’utilisateur.
 5. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

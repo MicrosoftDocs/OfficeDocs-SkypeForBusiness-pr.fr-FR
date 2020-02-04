@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.HighAvailabilityType
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype entreprise Server offre une grande disponibilité grâce à la mise en pool de serveurs, une reprise après sinistre avec le jumelage de pools, ainsi que plusieurs modes de haute disponibilité du serveur principal, y compris les groupes d’attribution de la base de données, la mise en miroir de la base de données et le basculement SQL.
-ms.openlocfilehash: 3ed1a3e5eff5d793f835c901e2cc5683da22bc77
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 31059936249aa4e691f3e6b4b467841fd66a04ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297462"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695969"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Prévoir une disponibilité élevée et une reprise après sinistre dans Skype entreprise Server
  
@@ -30,7 +30,7 @@ Comme dans les versions précédentes de Lync Server, la principale fonctionnali
   
 Skype entreprise Server fournit également des options de reprise après sinistre pour les pools front-end. Vous pouvez configurer deux pools dans des zones géographiques différentes qui jouent le rôle de sauvegardes l’un pour l’autre. Ainsi, en cas de panne d’un pool ou d’un site, le pool de sauvegarde continue à fournir un service aux utilisateurs des deux sites.
   
-Skype entreprise Server prend également en charge quatre modes de haute disponibilité pour votre serveur principal: la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de reprise AlwaysOn (ICF) et la mise en cluster de basculement SQL.
+Skype entreprise Server prend également en charge quatre modes de haute disponibilité pour votre serveur principal : la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de reprise AlwaysOn (ICF) et la mise en cluster de basculement SQL.
   
 > [!NOTE]
 > La mise en miroir SQL est disponible dans Skype entreprise Server 2015, mais n’est plus prise en charge dans Skype entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de clusters de basculement AlwaysOn (ICF) et les méthodes de regroupement de relais SQL sont préférés dans Skype entreprise Server 2019.

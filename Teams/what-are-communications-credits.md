@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568574"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694279"
 ---
 # <a name="what-are-communications-credits"></a>Qu’est-ce que les crédits de communication ?
 
@@ -55,7 +56,7 @@ Si vous vous demandez comment le coût des appels est destiné aux offres d’ap
   
 ## <a name="what-is-it"></a>Description
 
-Pour utiliser les numéros sans frais dans Skype entreprise, les crédits de communication sont requis, car ces appels sont facturés à la minute. Par ailleurs, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de votre plan d’appel et de votre audioconférence qui ont besoin d’être en mesure de se connecter à **une destination PSTN**. De nombreux pays ou régions sont inclus, mais certaines destinations peuvent ne pas être incluses dans les abonnements de votre plan d’appel ou de votre audioconférence. Si vous ne configurez pas de crédits de communication ou attribuez une licence à vos utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel, de votre plan d’audioconférence ou de votre pays/région), les utilisateurs ne seront pas en mesure de passer des appels ou d’appeler en ligne Conférences audio.
+Pour utiliser les numéros sans frais dans Skype entreprise, les crédits de communication sont requis, car ces appels sont facturés à la minute. Par ailleurs, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de votre plan d’appel et de votre audioconférence qui ont besoin d’être en mesure de se connecter à **une destination PSTN**. De nombreux pays ou régions sont inclus, mais certaines destinations peuvent ne pas être incluses dans les abonnements de votre plan d’appel ou de votre audioconférence. Si vous ne configurez pas de crédits de communication ou attribuez une licence à vos utilisateurs et que vous avez des minutes pour votre organisation (en fonction de votre forfait d’appel, de votre plan d’audioconférence ou de votre pays/région), les utilisateurs ne seront pas en mesure de passer des appels ou des appels sortants depuis des réunions de conférence audio en ligne.
   
 > [!NOTE]
 > Vous devez configurer le crédit de communications, puis attribuer une licence de crédits de communication à chaque utilisateur dans le > **** >  **Centre d’administration Microsoft 365**utilisateurs**actifs**. 
@@ -71,7 +72,7 @@ Dans**** > le **Centre** > d’administration Microsoft 365 **, vous pouvez ajou
   
 ## <a name="communications-credits"></a>Crédits de communication
 
-Chaque organisation aura une utilisation différente des offres en matière d’appels et de tarifs. You will need to get this type of usage data from your current service provider. Pour les organisations qui utilisent déjà Skype entreprise comme prestataire de services, vous pouvez obtenir des données d’utilisation en les révisant dans > le **Centre d’administration 365 Microsoft****ou dans** les rapports du >  **Centre d’administration Skype entreprise**.** **Détails de **l’utilisation RTC.**  > 
+Chaque organisation aura une utilisation différente des offres en matière d’appels et de tarifs. You will need to get this type of usage data from your current service provider. Pour les organisations qui utilisent déjà Skype entreprise comme prestataire de services, vous pouvez obtenir des données d’utilisation en les révisant dans**le centre d'** **** >  >  **administration Microsoft 365**ou dans > le **Centre d’administration Skype entreprise pour**afficher les**Détails d’utilisation PSTN**.
   
 Lorsque vous configurez des crédits de communication, vous devez examiner l’utilisation des appels pour votre organisation afin de déterminer les montants que vous devrez entrer. Ces informations sont disponibles dans le rapport **Détails de l'utilisation RTC**. Ce rapport vous permet d’exporter les enregistrements de données d’appel vers Excel et de créer des rapports personnalisés.
 
@@ -90,7 +91,7 @@ Vous pouvez consulter les offres et les tarifs en visitant l’un des liens suiv
   
 - [Forfaits d’appel](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Audioconférence](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Audioconférence,](https://go.microsoft.com/fwlink/?linkid=799762)
     
 - [Système téléphonique](https://go.microsoft.com/fwlink/?linkid=799763 )
     
@@ -98,7 +99,7 @@ Vous pouvez également consulter des informations sur les tarifs en vous [connec
   
 Pour afficher le tableau de la licence ou des licences dont vous avez besoin pour chaque fonctionnalité, reportez-vous à la rubrique [licences de complément Microsoft teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapport d'utilisation de la conférence RTC Skype Entreprise](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
 
   
