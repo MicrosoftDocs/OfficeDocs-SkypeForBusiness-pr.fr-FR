@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration requise pour le plug-in Lync VDI'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync VDI plug-in prerequisites
 ms:assetid: da25a976-7624-4dfc-b332-9c4db4ee78da
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205304(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae32480e5a3dbfbdfc22c4dbde59c62383c9587f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 51fb0081188618b6a5ea2951968effb0d55c4af7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830920"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830920"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-03-07_
+_**Dernière modification de la rubrique :** 2017-03-07_
 
 Dans un environnement VDI (Virtual Desktop Infrastructure), les machines virtuelles et l’ordinateur local de l’utilisateur doivent respecter les exigences indiquées dans cette section.
 
@@ -41,7 +43,7 @@ Dans un environnement VDI (Virtual Desktop Infrastructure), les machines virtuel
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’installation et le déploiement de l’environnement virtualisé, voir votre fournisseur de solution de virtualisation. Pour plus d’informations sur le déploiement d’un environnement virtualisé basé sur Hyper-V et sur les services Bureau à distance, consultez les articles suivants dans la bibliothèque Microsoft TechNet: 
+> Pour plus d’informations sur l’installation et le déploiement de l’environnement virtualisé, voir votre fournisseur de solution de virtualisation. Pour plus d’informations sur le déploiement d’un environnement virtualisé basé sur Hyper-V et sur les services Bureau à distance, consultez les articles suivants dans la bibliothèque Microsoft TechNet : 
 > <UL>
 > <LI>
 > <P>Hyper-V à<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=247514">https://go.microsoft.com/fwlink/p/?linkid=247514</A></P>
@@ -52,11 +54,11 @@ Dans un environnement VDI (Virtual Desktop Infrastructure), les machines virtuel
 
 </div>
 
-Vous trouverez ci-dessous une configuration requise pour les machines virtuelles exécutées sur l’ordinateur du centre de données:
+Vous trouverez ci-dessous une configuration requise pour les machines virtuelles exécutées sur l’ordinateur du centre de données :
 
   - Les machines virtuelles doivent être configurées avec Windows 10, Windows 8,1, Windows 8, Windows 7 ou Windows Server 2008 R2 avec les derniers Service Packs.
 
-Pour l’utilisateur et l’ordinateur local de l’utilisateur, vous devez disposer des éléments suivants:
+Pour l’utilisateur et l’ordinateur local de l’utilisateur, vous devez disposer des éléments suivants :
 
   - L’utilisateur doit être hébergé sur Lync Server 2013.
 
@@ -66,7 +68,7 @@ Pour l’utilisateur et l’ordinateur local de l’utilisateur, vous devez disp
 
   - L’ordinateur local doit exécuter la version la plus récente du client de bureau à distance. Installez les dernières mises à jour du client des services Bureau à distance de Microsoft ou le dernier logiciel du client Bureau à distance de votre fournisseur de solutions de virtualisation. Pour obtenir les dernières mises à jour de services Bureau à [https://go.microsoft.com/fwlink/p/?LinkId=268032](https://go.microsoft.com/fwlink/p/?linkid=268032)distance, voir.
 
-  - Sur l’ordinateur local, les paramètres du client Bureau à distance doivent être configurés afin que le son soit lu sur l’ordinateur local et que l’enregistrement à distance soit désactivé. Pour configurer ces paramètres pour la connexion Bureau à distance dans Windows, reportez-vous à la section «pour configurer les paramètres de connexion Bureau à distance».
+  - Sur l’ordinateur local, les paramètres du client Bureau à distance doivent être configurés afin que le son soit lu sur l’ordinateur local et que l’enregistrement à distance soit désactivé. Pour configurer ces paramètres pour la connexion Bureau à distance dans Windows, reportez-vous à la section « pour configurer les paramètres de connexion Bureau à distance ».
 
 <div>
 

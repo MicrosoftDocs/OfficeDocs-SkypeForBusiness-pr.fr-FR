@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Résumé des enregistrements DNS - Serveur Edge conso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 226f0ac1c27b18ea19cc1893300ad3614130c798
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f748f8107e4d1c0da41a07285eb61e4a3149551
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831357"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,23 +35,23 @@ ms.locfileid: "34831357"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-03-09_
+_**Dernière modification de la rubrique :** 2017-03-09_
 
 Les exigences d’enregistrements DNS pour l’accès distant à Lync Server 2013 sont assez simples comparées à celles des certificats et des ports. De plus, de nombreux enregistrements sont facultatifs, en fonction de la configuration des clients exécutant Lync 2013 et de la possibilité d’activer la Fédération.
 
 Pour plus d’informations sur les exigences DNS de Lync 2013, voir [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-Pour plus d’informations sur la configuration de la configuration automatique de clients 2013 Lync si le DNS avec fractionnement n’est pas configuré, voir la section «Configuration automatique sans le service DNS partagé» dans [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Pour plus d’informations sur la configuration de la configuration automatique de clients 2013 Lync si le DNS avec fractionnement n’est pas configuré, voir la section « Configuration automatique sans le service DNS partagé » dans [déterminer les exigences DNS pour Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
 Le tableau suivant contient un résumé des enregistrements DNS requis pour la prise en charge de la topologie de périphérie unique consolidée illustrée dans la figure unique. Notez que certains enregistrements DNS sont requis uniquement pour la configuration automatique de clients 2013 Lync. Si vous envisagez d’utiliser des objets de stratégie de groupe pour configurer des clients Lync, les enregistrements associés ne sont pas nécessaires.
 
 <div>
 
-## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANT: configuration requise pour les cartes réseau du serveur Edge
+## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANT : configuration requise pour les cartes réseau du serveur Edge
 
 Pour éviter les problèmes de routage, assurez-vous qu’il y a au moins deux cartes réseau dans vos serveurs Edge et que la passerelle par défaut est définie uniquement sur l’adaptateur réseau associé à l’interface externe. Par exemple, comme illustré dans la figure dans le scénario d’arête consolidée ajusté [, l’équilibrage de charge DNS avec des adresses IP publiques dans Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md) , la passerelle par défaut pointe vers le pare-feu externe.
 
-Vous pouvez configurer deux cartes réseau sur chacun de votre serveur Edge comme suit:
+Vous pouvez configurer deux cartes réseau sur chacun de votre serveur Edge comme suit :
 
   - **Carte réseau 1-nœud 1 (interface interne)**
     
@@ -73,13 +75,13 @@ Vous pouvez configurer deux cartes réseau sur chacun de votre serveur Edge comm
     
     L’adresse IP publique du service Edge d’accès est principale avec passerelle par défaut définie sur le routeur public (131.107.155.1).
     
-    Les adresses IP privées des services Edge et de service de conférence Web sont des adresses IP supplémentaires dans la section **avancé** des propriétés de la **version 4 du protocole Internet (TCP/IPv4)** et de la **version 6 du protocole Internet (TCP/IPv6)** du **Propriétés de la connexion au réseau local** dans Windows Server.
+    Les adresses IP privées des services Edge et de service de conférence Web sont des adresses IP supplémentaires dans la section **avancé** des propriétés de **protocole IP version 4 (TCP/IPv4)** et **protocole Internet (TCP/IPv6)** des propriétés de connexion de la **zone locale** dans Windows Server.
     
     <div>
     
 
     > [!NOTE]  
-    > Il est possible, mais déconseillé, d’utiliser une seule adresse IP pour les trois interfaces de service Edge. Même si cela enregistre les adresses IP, il est nécessaire de disposer d’un numéro de port différent pour chaque service. Le numéro de port par défaut est 443/TCP, ce qui permet à la plupart des pare-feu distants d’autoriser le trafic. La modification des valeurs de port à (par exemple) 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence Web et 443/TCP pour le service Edge A/V, peut poser des problèmes pour les utilisateurs distants dans lesquels un pare-feu est derrière n’autorise pas le trafic 5061/TCP et 444/TCP. Par ailleurs, trois adresses IP distinctes simplifient la résolution des problèmes en raison de la possibilité de filtrer sur l’adresse IP.
+    > Il est possible, mais déconseillé, d’utiliser une seule adresse IP pour les trois interfaces de service Edge. Même si cela enregistre les adresses IP, il est nécessaire de disposer d’un numéro de port différent pour chaque service. Le numéro de port par défaut est 443/TCP, ce qui permet à la plupart des pare-feu distants d’autoriser le trafic. Le fait de remplacer les valeurs de port par (par exemple) 5061/TCP pour le service Edge d’accès, 444/TCP pour le service Edge de conférence Web et 443/TCP pour le service Edge A/V, peut poser des problèmes pour les utilisateurs distants dans lesquels un pare-feu est derrière n’autorise pas le trafic de 5061/TCP et 444/TCP. Par ailleurs, trois adresses IP distinctes simplifient la résolution des problèmes en raison de la possibilité de filtrer sur l’adresse IP.
 
     
     </div>
@@ -90,7 +92,7 @@ Vous pouvez configurer deux cartes réseau sur chacun de votre serveur Edge comm
     
     L’adresse IP publique du service Edge d’accès est principale avec passerelle par défaut définie sur le routeur public (131.107.155.1).
     
-    Les adresses IP privées des services Edge et de service de conférence Web sont des adresses IP supplémentaires dans la section **avancé** des propriétés de la **version 4 du protocole Internet (TCP/IPv4)** et de la **version 6 du protocole Internet (TCP/IPv6)** du **Propriétés de la connexion au réseau local** dans Windows Server.
+    Les adresses IP privées des services Edge et de service de conférence Web sont des adresses IP supplémentaires dans la section **avancé** des propriétés de **protocole IP version 4 (TCP/IPv4)** et **protocole Internet (TCP/IPv6)** des propriétés de connexion de la **zone locale** dans Windows Server.
 
 <div>
 
@@ -148,7 +150,7 @@ Vous pouvez configurer deux cartes réseau sur chacun de votre serveur Edge comm
 <td><p>DNS/SRV/5061 externes</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Interface externe du service d’accès Edge requise pour la détection automatique de DNS des partenaires fédérés connus sous le nom de «domaine SIP autorisé» (appelé Fédération avancée dans les versions précédentes). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p></td>
+<td><p>Interface externe du service d’accès Edge requise pour la détection automatique de DNS des partenaires fédérés connus sous le nom de « domaine SIP autorisé » (appelé Fédération avancée dans les versions précédentes). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p></td>
 </tr>
 <tr class="even">
 <td><p>DNS interne/A</p></td>
@@ -187,7 +189,7 @@ Vous pouvez configurer deux cartes réseau sur chacun de votre serveur Edge comm
 <td><p>DNS/SRV/5061 externes</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>L’interface externe du service d’accès Edge SIP doit être requise pour la découverte automatique du DNS de votre Fédération par le biais d’autres partenaires de Fédération potentiels, et elle est appelée «domaines SIP autorisés» (appelé Fédération avancée dans les versions précédentes).</p>
+<td><p>L’interface externe du service d’accès Edge SIP doit être requise pour la découverte automatique du DNS de votre Fédération par le biais d’autres partenaires de Fédération potentiels, et elle est appelée « domaines SIP autorisés » (appelé Fédération avancée dans les versions précédentes).</p>
 <div>
 
 > [!IMPORTANT]  

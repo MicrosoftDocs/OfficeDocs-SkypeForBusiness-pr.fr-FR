@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Déploiement du complément de réunion en ligne pour
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy the Online Meeting Add-in for Lync 2013
 ms:assetid: ce8608f6-71d4-46f1-b101-50f163916d52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398873(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ece8175be48e0d1fd49915f21370fc64f809460
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6c89c9d49754464c954c04ee0673f122848cdea
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831569"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831569"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
 Déployez le complément réunion en ligne pour Lync 2013 de sorte que les utilisateurs puissent programmer des conférences prenant en charge la Conférence rendez-vous.
 

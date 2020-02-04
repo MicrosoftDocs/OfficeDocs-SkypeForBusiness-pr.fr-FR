@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification du routage des communications vocales s
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning outbound voice routing
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5315b18e83b84980ff6d61e5385626e104a5e1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824154"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824154"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Le routage des appels sortants s’applique aux appels destinés à une passerelle du réseau téléphonique commuté (PSTN), au Trunk ou au PBX (Private Branch Exchange). Lorsqu’un utilisateur place un appel, le serveur normalise le numéro de téléphone au format E. 164, si nécessaire, et tente de correspondre à un URI SIP. Si le serveur ne parvient pas à établir de correspondance, il applique la logique de routage des appels sortants en fonction de la chaîne de numérotation fournie. Les paramètres de serveur du tableau ci-dessous permettent de configurer la logique de routage des appels sortants.
 
@@ -79,7 +81,7 @@ Le routage des appels sortants s’applique aux appels destinés à une passerel
 
 ## <a name="in-this-section"></a>Dans cette section
 
-Cette section fournit des recommandations pour la configuration des paramètres de serveur de routage des appels sortants suivants:
+Cette section fournit des recommandations pour la configuration des paramètres de serveur de routage des appels sortants suivants :
 
   - <span></span>  
     [Plans de numérotation et règles de normalisation dans Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)

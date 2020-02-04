@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: restauration des données d’analyse ou d’archivage'
+title: 'Lync Server 2013 : restauration des données d’analyse ou d’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring monitoring or archiving data
 ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 803cb6050d4230653a13f1e3e66c2a092911c509
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9621fe3c1905dbd34fd3b4da39b2562c608d6355
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822383"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822383"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-18_
+_**Dernière modification de la rubrique :** 2013-02-18_
 
 Il n’est pas nécessaire de restaurer les données de surveillance et d’archivage après un échec. Toutefois, si la surveillance et l’archivage de données sont essentielles pour votre organisation, vous pouvez restaurer les données une fois la nouvelle création de celles-ci.
 
@@ -45,13 +47,13 @@ La procédure suivante vous explique comment utiliser SQL Server Management Stud
 
 1.  Ouvrez une session sur le serveur que vous restaurez en tant que membre du groupe Administrateurs sur l’ordinateur local ou un groupe disposant de droits d’utilisateur équivalents.
 
-2.  Ouvrez SQL Server Management Studio: cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft SQL Server 2012** ou **Microsoft SQL Server 2008 R2**, puis cliquez sur **SQL Server Management Studio**.
+2.  Ouvrez SQL Server Management Studio : cliquez sur **Démarrer**, **tous les programmes**, cliquez sur **Microsoft SQL Server 2012** ou **Microsoft SQL Server 2008 R2**, puis cliquez sur **SQL Server Management Studio**.
 
 3.  Dans **connexion au serveur**, connectez-vous à l’instance SQL Server en fournissant au moins le nom du serveur et les informations d’authentification.
 
 4.  Dans l' **Explorateur d’objets**, cliquez avec le bouton droit sur **bases de données**, puis cliquez sur **restaurer la base de données**.
 
-5.  Sous **Sélectionner une page**, cliquez sur **général**, puis dans la **base de données** , sélectionnez le nom de la base de données comme suit:
+5.  Sous **Sélectionner une page**, cliquez sur **général**, puis dans la **base de données** , sélectionnez le nom de la base de données comme suit :
     
       - Pour une base de données d’archivage, sélectionnez **LcsLog**.
     
@@ -75,7 +77,7 @@ La procédure suivante vous explique comment utiliser SQL Server Management Stud
 
 2.  Vérifiez que le groupe de domaine RTCComponentUniversalServices existe en tant qu’utilisateur.
 
-3.  Si RTCComponentUniversalServices n’existe pas sous **utilisateurs**, procédez comme suit:
+3.  Si RTCComponentUniversalServices n’existe pas sous **utilisateurs**, procédez comme suit :
     
     1.  Cliquez avec le bouton droit sur **utilisateurs**, puis cliquez sur **nouvel utilisateur**.
     

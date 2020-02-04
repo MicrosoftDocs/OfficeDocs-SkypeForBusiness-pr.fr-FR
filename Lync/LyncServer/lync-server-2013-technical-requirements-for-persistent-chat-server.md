@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour le serveur de chat permanent'
+title: 'Lync Server 2013 : configuration requise pour le serveur de chat permanent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Persistent Chat Server
 ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b84f1a2932b76c8030c907463e8f0f2e93bedda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0437f56c5eb5564eb4f85809aefd181c2cbd2eaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846650"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846650"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-06_
+_**Dernière modification de la rubrique :** 2013-01-06_
 
-Chaque ordinateur qui héberge le serveur Chat permanent doit avoir accès à une topologie Lync Server 2013 existante avec les composants suivants:
+Chaque ordinateur qui héberge le serveur Chat permanent doit avoir accès à une topologie Lync Server 2013 existante avec les composants suivants :
 
   - **Serveur frontal Lync Server 2013.**  Le serveur frontal est le serveur principal pour le routage SIP (Session Initiation Protocol), qui permet de communiquer entre les ordinateurs exécutant le serveur Chat permanent et la fonctionnalité de conversation permanente possible. Avant de commencer à déployer le serveur de chat permanent, vérifiez le déploiement de Lync Server 2013 Standard Edition ou d’un pool frontal Lync Server et de tout autre ordinateur interne exécutant Lync Server, selon les besoins de votre organisation.
 
@@ -99,7 +101,7 @@ Sur le serveur de bases de données, vérifiez que l’une des applications logi
 
   - Microsoft SQL Server 2012. Pour plus d’informations sur l’installation de Microsoft SQL Server 2012, voir installer SQL Server 2012 [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
 
-  - Microsoft SQL Server 2008 R2. Pour plus d’informations sur l’installation de Microsoft SQL Server 2008 R2, voir «installation de SQL Server (SQL Server 2008 R2 [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702))» à l’adresse.
+  - Microsoft SQL Server 2008 R2. Pour plus d’informations sur l’installation de Microsoft SQL Server 2008 R2, voir « installation de SQL Server (SQL Server 2008 R2 [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702)) » à l’adresse.
 
 </div>
 

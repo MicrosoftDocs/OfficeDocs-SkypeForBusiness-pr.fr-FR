@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: menaces de sécurité courantes au sein de l’informatique moderne'
+title: 'Lync Server 2013 : menaces de sécurité courantes au sein de l’informatique moderne'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common security threats in modern day computing
 ms:assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn433220(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 99e17f9f6dbba30697c72fecf77fbff4bfbdc003
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221362"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "35221362"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-09-10_
+_**Dernière modification de la rubrique :** 2013-09-10_
 
 Dans la mesure où Lync Server 2013 est un système de communication d’entreprise, vous devez tenir compte des attaques courantes de sécurité qui pourraient affecter son infrastructure et ses communications.
 
@@ -85,7 +87,7 @@ Le protocole TURN (Traversal Using Relay NAT) n’exige pas que le trafic soi
 
 ## <a name="identity-spoofing-ip-address-spoofing"></a>Usurpation d’identité (usurpation d’adresse IP)
 
-On parle d’*usurpation d’identité* lorsqu’une personne malveillante parvient à déterminer et à utiliser l’adresse IP d’un réseau, d’un ordinateur ou d’un composant réseau, sans y avoir été autorisée. Si l’attaque réussit, l’intrus peut opérer comme s’il était l’utilisateur habituellement identifié par l’adresse IP. Dans le cadre de Microsoft Lync Server 2013, cette situation ne s’exécute que si un administrateur a réalisé les deux opérations suivantes:
+On parle d’*usurpation d’identité* lorsqu’une personne malveillante parvient à déterminer et à utiliser l’adresse IP d’un réseau, d’un ordinateur ou d’un composant réseau, sans y avoir été autorisée. Si l’attaque réussit, l’intrus peut opérer comme s’il était l’utilisateur habituellement identifié par l’adresse IP. Dans le cadre de Microsoft Lync Server 2013, cette situation ne s’exécute que si un administrateur a réalisé les deux opérations suivantes :
 
   - configuré des connexions qui prennent uniquement en charge le protocole TCP (Transmission Control Protocol), ce qui n’est pas recommandé car les communications TCP ne sont pas chiffrées ;
 

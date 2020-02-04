@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Composants utilisés par Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Response Group
 ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52ceb18c355f6d867b5b3b4485434df83683d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81275ca027971d661d3323fbfc175c51d4f4d7d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838508"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-11_
+_**Dernière modification de la rubrique :** 2012-09-11_
 
 L’application Response Group est activée automatiquement lorsque vous déployez Enterprise Voice. Cette section décrit les composants qui prennent en charge l’application Response Group.
 
@@ -41,7 +43,7 @@ L’application Response Group est activée automatiquement lorsque vous déploy
 
 ## <a name="response-group-components"></a>Composants de Response Group
 
-Les composants Microsoft Lync Server 2013 suivants prennent en charge l’application Response Group:
+Les composants Microsoft Lync Server 2013 suivants prennent en charge l’application Response Group :
 
   - ****   Le service d’application de service d’application fournit une plateforme de déploiement, d’hébergement et de gestion d’applications de communications unifiées, telles que Response Group. Le service d’application est automatiquement installé sur chaque serveur frontal d’une grappe frontale et sur tous les serveurs Standard Edition Server.
 
@@ -49,7 +51,7 @@ Les composants Microsoft Lync Server 2013 suivants prennent en charge l’applic
 
   - **Module**   linguistique un module linguistique est requis pour la prise en charge de la reconnaissance vocale et de la synthèse vocale. Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses du système de réponse vocale interactive, par exemple). Par défaut, les 26 modules linguistiques pris en charge sont installés lors du déploiement de Lync Server 2013.
 
-  - **** Les fichiers audio sont utilisés pour les messages et la musique en attente.   
+  - **Les fichiers audio sont**utilisés pour les messages et la musique en attente.   
 
   - ****   Le groupe de réponse du magasin de fichiers utilise le magasin de fichiers pour stocker des fichiers audio. Plusieurs pools de groupe de réponse peuvent utiliser la même instance du magasin de fichiers.
 
@@ -63,7 +65,7 @@ Les composants Microsoft Lync Server 2013 suivants prennent en charge l’applic
 
   - ****   Les services Web services Web sont requis pour les outils de configuration de Response Group, la console de connexion et de connexion des agents, le panneau de configuration de Lync Server et le service Web du client de Response Group.
 
-  - **Response service Web Response service**   application de groupe de réponse fournit un service Web client qui peut être utilisé par des applications tierces pour récupérer des informations sur les agents, l’appartenance à un groupe d’agents, le statut de connexion de l’agent, le statut d’appel des groupes. et les groupes qui prennent en charge les appels anonymes. Lync 2013 et Lync 2010 attendant utiliser le service Web du client de Response Group pour récupérer la liste des groupes de réponses que les agents peuvent utiliser pour effectuer des appels anonymes. Le service Web client est inclus dans le cadre de l’installation des services Web.
+  - ****   Response Group Response service Web application de Response Group fournit un service Web client qui peut être utilisé par des applications tierces pour récupérer des informations sur les agents, l’appartenance aux groupes d’agents, l’état de connexion des agents, le statut des appels pour les groupes et les groupes qui prennent en charge les appels anonymes. Lync 2013 et Lync 2010 attendant utiliser le service Web du client de Response Group pour récupérer la liste des groupes de réponses que les agents peuvent utiliser pour effectuer des appels anonymes. Le service Web client est inclus dans le cadre de l’installation des services Web.
 
 </div>
 

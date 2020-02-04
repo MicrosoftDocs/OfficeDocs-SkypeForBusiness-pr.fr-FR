@@ -3,6 +3,8 @@ title: Résumé de port-Fédération de protocoles de messagerie extensible et d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary -  Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 62e98fab-7add-4983-a3fa-dbe74e1c3849
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618371(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b36a74393a8c61d5281bb009d212ee0bb12cf0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a18129fce98b3bb9bc613f4fc752daadfb6c5ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824189"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824189"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-20_
+_**Dernière modification de la rubrique :** 2012-10-20_
 
 Les ports et protocoles définis pour le proxy d’extension de messagerie et de présence (XMPP) déployés sur le serveur Edge autorisent les communications du partenaire fédéré de XMPP au serveur Edge et permettent également la communication entre votre serveur Edge et la fonction XMPP. partenaire fédéré. Une règle est également définie pour le pare-feu à l’intérieur du serveur frontal ou du pool frontal du serveur Edge ou du pool Edge.
 

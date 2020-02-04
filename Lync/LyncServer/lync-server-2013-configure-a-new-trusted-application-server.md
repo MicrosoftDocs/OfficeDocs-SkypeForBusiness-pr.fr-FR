@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer un nouveau serveur d’applications de confiance'
+title: 'Lync Server 2013 : configurer un nouveau serveur d’applications de confiance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a new trusted application server
 ms:assetid: a7233db7-fac3-43ff-972e-3bc29a56adb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg617964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fc5a982724dd390ff97bf6dd4cad10f25572732
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dae7e02d7642fed5fea60235283eaa0d7d7e1e35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838459"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838459"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Une application fiable est une application basée sur le kit de développement logiciel (Unified Communications Managed API UCMA) 3,0 principal du SDK approuvé par Microsoft Lync Server 2013. Pour plus d’informations sur les applications UCMA, voir la documentation relative au kit de développement logiciel [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)unifié API 3,0 principal du SDK.
 
-Pour plus d’informations sur la configuration de Microsoft Outlook Web Access (OWA) et de Lync Server 2013, voir «configurer Outlook Web App et intégration de Lync Server 2010» dans la documentation Microsoft Exchange Server 2013.
+Pour plus d’informations sur la configuration de Microsoft Outlook Web Access (OWA) et de Lync Server 2013, voir « configurer Outlook Web App et intégration de Lync Server 2010 » dans la documentation Microsoft Exchange Server 2013.
 
 Pour la publication, l’activation ou la désactivation d’une topologie lors de l’ajout ou de la suppression d’un rôle de serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Admins du domaine. Il est également possible de déléguer les autorisations et les droits d’administrateur appropriés pour ajouter des rôles de serveur. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement. Pour les autres modifications de configuration, seule l’appartenance au groupe RTCUniversalServerAdmins est requise.
 
@@ -47,7 +49,7 @@ Pour la publication, l’activation ou la désactivation d’une topologie lors 
 
 1.  Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-2.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+2.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 3.  Sélectionnez **Télécharger la topologie à partir du déploiement existant**, puis cliquez sur **OK**.
 

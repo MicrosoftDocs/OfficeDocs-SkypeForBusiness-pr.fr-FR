@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Nouvelle fonctionnalité Magasin de contacts unifié'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New unified contact store feature
 ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204947(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3a10a1e55b94b118ea8d430b65d0e851c17b203
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f6ab6688a7a2d9b743843c226f2c869f18d3643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825911"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825911"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-13_
+_**Dernière modification de la rubrique :** 2012-09-13_
 
 Lync Server 2013 introduit un magasin de contacts unifié. Le magasin de contacts unifié permet aux utilisateurs de conserver toutes leurs informations de contact dans Microsoft Exchange Server 2013. Après la migration des contacts Lync des utilisateurs vers Exchange 2013, les utilisateurs peuvent accéder à leurs contacts et les gérer à partir de Lync 2013, Outlook ou Outlook Web App, et leurs favoris restent synchronisés. Par exemple, si un utilisateur ajoute un contact aux favoris dans Outlook, le contact apparaît dans le groupe favoris de Lync 2013. Les utilisateurs n’ont pas besoin de se connecter à Lync pour gérer leurs contacts à partir d’Outlook ou d’Outlook Web App.
 

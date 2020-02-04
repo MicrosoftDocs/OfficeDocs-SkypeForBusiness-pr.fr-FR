@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: tests de sécurité'
+title: 'Lync Server 2013 : tests de sécurité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security checks
 ms:assetid: 053c099f-a078-4121-bfe0-3fe5ef110b79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725205(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4a89e0e0e13c91e2a7737589fbd542455537718
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 03b9b966aaea9c74b0fbd9c0306aa559fd981419
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821858"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821858"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-18_
+_**Dernière modification de la rubrique :** 2014-08-18_
 
 Effectuez régulièrement des audits de sécurité, tels que des règles de pare-feu, des droits d’utilisateur, une appartenance de groupe, des droits de délégué, etc.
 

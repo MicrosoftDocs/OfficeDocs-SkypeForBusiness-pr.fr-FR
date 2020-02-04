@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: prérequis de sauvegarde pour le basculement de pool ABC'
+title: 'Lync Server 2013 : prérequis de sauvegarde pour le basculement de pool ABC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup prerequisites for ABC pool failover
 ms:assetid: 652046f5-6086-4592-902d-d5789581977d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7cdb228b0a748c830aa488e7b058bf8664360d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a6b5694d8eaa9467fafa8923bb97423fd6e33f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838744"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-26_
+_**Dernière modification de la rubrique :** 2013-03-26_
 
 Pour tirer le meilleur parti de l’utilisation de la procédure de basculement de pool ABC, vous devez effectuer certaines sauvegardes avant le désastre et le basculement.
 
@@ -47,7 +49,7 @@ Pour tirer le meilleur parti de l’utilisation de la procédure de basculement 
     
     En règle générale, il est recommandé d’effectuer des sauvegardes journalières, mais si vous avez un volume élevé de modifications, vous souhaiterez peut-être planifier des sauvegardes plus fréquentes. La quantité d’informations que vous pouvez perdre en cas de sinistre dépend de la fréquence de vos sauvegardes, ainsi que de la fréquence et du volume des modifications.
     
-    L’application de groupe de réponse ne peut stocker qu’un ensemble de paramètres au niveau de l’application par liste. Pour accéder à ces paramètres, vous pouvez utiliser les applets **de applet Get-CsRgsConfiguration** . Les paramètres incluent la configuration par défaut de Music-Hold en attente, le fichier audio de musique par défaut, la période de grâce à la sonnerie de l’agent et la configuration du contexte d’appel. Ces paramètres peuvent être transférés d’un pool à un autre par le biais de l’applet de commande **Import-CsRgsConfiguration** à l’aide du paramètre **ReplaceExistingSettings** , mais cette opération remplacera tout paramètre de niveau application de la destination. commun.
+    L’application de groupe de réponse ne peut stocker qu’un ensemble de paramètres au niveau de l’application par liste. Pour accéder à ces paramètres, vous pouvez utiliser les applets **de applet Get-CsRgsConfiguration** . Les paramètres incluent la configuration par défaut de Music-Hold en attente, le fichier audio de musique par défaut, la période de grâce à la sonnerie de l’agent et la configuration du contexte d’appel. Ces paramètres peuvent être transférés d’un pool à un autre par le biais de l’applet de commande **Import-CsRgsConfiguration** à l’aide du paramètre **ReplaceExistingSettings** , mais cette opération remplacera tout paramètre au niveau de l’application dans le pool de destination.
     
     <div>
     
@@ -72,7 +74,7 @@ Pour tirer le meilleur parti de l’utilisation de la procédure de basculement 
     
     </div>
 
-  - Si vous configurez des annonces dans le cadre de la fonctionnalité de voix numérique non affectées, nous vous recommandons de conserver dans un autre emplacement une copie de tout fichier audio d’origine utilisé lors de la configuration initiale. Si ce n’est pas le cas, vous pouvez obtenir une copie des fichiers audio configurés dans le magasin de fichiers du serveur ou du pool dans lequel les fichiers audio ont été importés. Ces fichiers ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et sont perdus si les fichiers téléchargés sur le pool sont endommagés, endommagés ou supprimés. Pour copier tous les fichiers audio utilisés pour configurer la fonctionnalité vocale numérique non affectée à partir du magasin de fichiers d’un serveur ou d’un pool, utilisez:
+  - Si vous configurez des annonces dans le cadre de la fonctionnalité de voix numérique non affectées, nous vous recommandons de conserver dans un autre emplacement une copie de tout fichier audio d’origine utilisé lors de la configuration initiale. Si ce n’est pas le cas, vous pouvez obtenir une copie des fichiers audio configurés dans le magasin de fichiers du serveur ou du pool dans lequel les fichiers audio ont été importés. Ces fichiers ne sont pas sauvegardés dans le cadre du processus de récupération d’urgence de Lync Server 2013 et sont perdus si les fichiers téléchargés sur le pool sont endommagés, endommagés ou supprimés. Pour copier tous les fichiers audio utilisés pour configurer la fonctionnalité vocale numérique non affectée à partir du magasin de fichiers d’un serveur ou d’un pool, utilisez :
     
         Use: Xcopy  <Source: Pool A Announcement Service File Store Path>  <Destination>
         Example Usage:  Xcopy  "<Pool A File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS"  "<Destination: Backup location>"

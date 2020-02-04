@@ -3,6 +3,8 @@ title: Configuration requise et autorisations pour la configuration de conféren
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing configuration prerequisites and permissions
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6610272c39583b70c1ab20d8271551796f65372
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831407"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831407"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
 La fonction de conférence rendez-vous est un composant facultatif de la charge de travail des conférences Lync Server 2013. Pour pouvoir configurer une conférence rendez-vous, les composants que vous devez installer peuvent être déployés lorsque vous utilisez le générateur de topologie pour concevoir votre topologie, puis configurer votre pool frontal ou votre serveur Standard Edition. Cette rubrique décrit ce que vous devez faire pour pouvoir configurer les conférences rendez-vous.
 
@@ -43,7 +45,7 @@ Cette section suppose que vous avez lu en particulier les sections de planificat
 
 ## <a name="dial-in-conferencing-configuration-prerequisites"></a>Conditions préalables à la configuration des conférences rendez-vous
 
-Les conférences rendez-vous nécessitent les composants Lync Server 2013 suivants:
+Les conférences rendez-vous nécessitent les composants Lync Server 2013 suivants :
 
   - Service d’application de communications unifiées (UCAS), désigné par *Service d’application*
 
@@ -67,7 +69,7 @@ Vous déployez ces composants lorsque vous utilisez le générateur de topologie
 
 </div>
 
-Cette section part du principe que vous avez réalisé les tâches suivantes:
+Cette section part du principe que vous avez réalisé les tâches suivantes :
 
   - Appliquez les mises à jour les plus récentes de votre environnement Office Communications Server 2007 R2, si vous effectuez une migration vers Lync Server 2013.
 
@@ -99,7 +101,7 @@ Le diagramme suivant montre les étapes que vous devez effectuer avant de config
 
 **Déploiement de conférences rendez-vous**
 
-![Diagramme de déploiement de la Conférence] rendez-vous (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagramme de déploiement de la Conférence") rendez-vous
+![Diagramme de déploiement de la Conférence rendez-vous](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagramme de déploiement de la Conférence rendez-vous")
 
 </div>
 
@@ -107,7 +109,7 @@ Le diagramme suivant montre les étapes que vous devez effectuer avant de config
 
 ## <a name="dial-in-conferencing-permissions"></a>Autorisations de conférence rendez-vous
 
-Pour configurer des conférences rendez-vous, vous devez utiliser les outils d’administration suivants:
+Pour configurer des conférences rendez-vous, vous devez utiliser les outils d’administration suivants :
 
   - Panneau de configuration de Lync Server 2013
 
@@ -115,7 +117,7 @@ Pour configurer des conférences rendez-vous, vous devez utiliser les outils d�
 
 Les outils d’administration suivants vous permettent de configurer les paramètres de conférence rendez-vous, ainsi que les plans de numérotation, les politiques et d’autres paramètres nécessaires à la Conférence rendez-vous.
 
-La configuration de la Conférence rendez-vous nécessite l’un des rôles d’administration suivants, en fonction de la tâche:
+La configuration de la Conférence rendez-vous nécessite l’un des rôles d’administration suivants, en fonction de la tâche :
 
   - **CsVoiceAdministrator**   ce rôle d’administrateur peut créer, configurer et gérer les paramètres et les stratégies relatives à la voix.
 

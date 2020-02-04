@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification du contrôle d’accès basé sur un r�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for role-based access control (RBAC)
 ms:assetid: 41204ba3-ce5b-41a8-a6c3-b444468fa328
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425917(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1771eb906685294e588e0c67b1fa8fb1f67a8b6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b89e4bdc075783d33bebcfb85398b1b627e1bf1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824091"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-01-27_
+_**Dernière modification de la rubrique :** 2015-01-27_
 
 Pour vous permettre de déléguer des tâches administratives tout en préservant la sécurité, Lync Server 2013 offre le contrôle d’accès basé sur les rôles (RBAC). Avec le RBAC, le privilège administratif est accordé en attribuant aux utilisateurs des rôles d’administration. Lync Server 2013 inclut un ensemble étendu de rôles d’administrateur intégrés, et vous permet également de créer de nouveaux rôles et de spécifier une liste personnalisée d’applets de construction pour chaque nouveau rôle. Vous pouvez également ajouter des scripts d’applets de commande aux tâches autorisées des rôles RBAC prédéfinis et personnalisés.
 
@@ -41,7 +43,7 @@ Pour vous permettre de déléguer des tâches administratives tout en préservan
 
 ## <a name="better-server-security-and-centralization"></a>Meilleure sécurité serveur et centralisation
 
-Le RBAC, l’accès et l’autorisation sont basés précisément sur le rôle de serveur Lync de l’utilisateur. Cela permet de recourir à la sécurité de «privilèges minimum», en accordant aux administrateurs et aux utilisateurs uniquement les droits nécessaires à leur travail.
+Le RBAC, l’accès et l’autorisation sont basés précisément sur le rôle de serveur Lync de l’utilisateur. Cela permet de recourir à la sécurité de « privilèges minimum », en accordant aux administrateurs et aux utilisateurs uniquement les droits nécessaires à leur travail.
 
 <div>
 
@@ -173,7 +175,7 @@ Dans l’exemple suivant, la portée utilisateur est limitée au lieu de l’ét
 
 ## <a name="creating-a-new-role"></a>Création d’un nouveau rôle
 
-Pour créer un rôle ayant accès à un ensemble d’applets de fonction qui ne figurent pas dans l’un des rôles prédéfinis, ou à un ensemble de scripts ou de modules, vous commencez par utiliser l’un des rôles prédéfinis en tant que modèle. Notez que les scripts et les modules que vous pouvez exécuter doivent être stockés dans les emplacements suivants:
+Pour créer un rôle ayant accès à un ensemble d’applets de fonction qui ne figurent pas dans l’un des rôles prédéfinis, ou à un ensemble de scripts ou de modules, vous commencez par utiliser l’un des rôles prédéfinis en tant que modèle. Notez que les scripts et les modules que vous pouvez exécuter doivent être stockés dans les emplacements suivants :
 
   - Le chemin d’accès au module Lync, qui est par\\défaut C\\: Program\\files Fichiers communs Microsoft\\Lync\\Server 2013 modules Lync
 
@@ -181,7 +183,7 @@ Pour créer un rôle ayant accès à un ensemble d’applets de fonction qui ne 
 
 Pour créer un nouveau rôle, vous devez utiliser l’applet **de nouvelle applet de nouveau-CsAdminRole** . Avant d’exécuter **New-CsAdminRole**, vous devez commencer par créer le groupe de sécurité universelle sous-jacent qui sera associé à ce rôle.
 
-Les applets de commande suivantes constituent un exemple de création d’un nouveau rôle. Ils créent un nouveau type de rôle `MyHelpDeskScriptRole`appelé. Le nouveau rôle est doté des capacités du rôle CsHelpDesk prédéfini et peut également exécuter les fonctions dans un script appelé «TestScript».
+Les applets de commande suivantes constituent un exemple de création d’un nouveau rôle. Ils créent un nouveau type de rôle `MyHelpDeskScriptRole`appelé. Le nouveau rôle est doté des capacités du rôle CsHelpDesk prédéfini et peut également exécuter les fonctions dans un script appelé « TestScript ».
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 

@@ -3,6 +3,8 @@ title: Serveur Edge consolidé mis à l’échelle, équilibrage de charge DNS a
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: 2b854f6d-3d3f-4961-a5f8-a03f47740df0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204761(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7145ae98a57523293d9d7d0d872c81a5e33e847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11da1e2b514c200ec82f1c6cb07c5c5b6cc79857
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822257"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822257"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Dans la topologie de pool de serveurs Edge, deux serveurs Edge ou plus sont déployés en tant que pool équilibré dans le réseau de périmètre du centre de données. Le service d’équilibrage de la charge DNS (Domain Name System) est utilisé pour le trafic vers les interfaces d’arête externe et interne.
 
-Si votre organisation a besoin d’une prise en charge pour plus de 15 000 connexions client de service Edge, 1 000 les connexions clientes de service de conférence rendez-vous actives Lync Server Web ou 500 de sessions A/V ou d’une haute disponibilité du serveur Edge est important , cette topologie présente les avantages de l’évolutivité et de la prise en charge du basculement.
+Si votre organisation a besoin d’une prise en charge pour plus de 15 000 connexions client de service Edge, 1 000 les connexions clientes de service de conférence rendez-vous actives Lync Server Web ou 500 de sessions A/V parallèles, et/ou une haute disponibilité du serveur Edge est importante, cette topologie présente les avantages de l’évolutivité et de la prise en charge du basculement.
 
 La figure ne montre pas les directeurs, un rôle serveur facultatif déployé sur le réseau interne entre les serveurs de périphérie et vos pools ou serveurs. Pour plus d’informations sur la topologie des directeurs, voir [composants requis pour le directeur dans Lync Server 2013](lync-server-2013-components-required-for-the-director.md). La figure représente une seule doublure inverse.
 
@@ -67,7 +69,7 @@ Il existe des technologies de traduction d’adresses réseau (NAT) pour IPv6 qu
 
 </div>
 
-![7c1e3e6b-9b1b-4ac6-B0E7-9c256dbc2537] (images/JJ204761.7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537(OCS.15).jpg "7c1e3e6b-9b1b-4ac6-B0E7-9c256dbc2537")
+![7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537](images/JJ204761.7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537(OCS.15).jpg "7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537")
 
 <div>
 

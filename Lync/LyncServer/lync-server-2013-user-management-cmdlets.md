@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de gestion des utilisateurs'
+title: 'Lync Server 2013 : cmdlets de gestion des utilisateurs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User management cmdlets
 ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398677(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a841daae6a811b6668c61ac1befca045fb73b03f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846456"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846456"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-18_
+_**Dernière modification de la rubrique :** 2013-02-18_
 
 Les applets de la gestion des utilisateurs inclus dans Microsoft Lync Server 2013 vous permettent d’activer, de désactiver et de modifier les comptes d’utilisateurs de Lync Server.
 
@@ -41,7 +43,7 @@ Les applets de la gestion des utilisateurs inclus dans Microsoft Lync Server 201
 
 ## <a name="user-management-cmdlets"></a>Cmdlets de gestion des utilisateurs
 
-La plupart des tâches de gestion applicables aux utilisateurs et aux comptes d’utilisateurs peuvent être effectuées à partir du panneau de configuration de Lync Server. Les principales exceptions sont les applets de service qui gèrent les fournisseurs de services d’audioconférence. Les tâches de gestion des utilisateurs peuvent être effectuées à l’aide des cmdlets de Lync Server Management Shell ou à partir d’un script. À l’aide d’un script, vous pouvez automatiser certaines tâches. Vous trouverez ci-dessous une liste des applets de commande qui concernent directement la gestion des utilisateurs et des comptes d’utilisateurs:
+La plupart des tâches de gestion applicables aux utilisateurs et aux comptes d’utilisateurs peuvent être effectuées à partir du panneau de configuration de Lync Server. Les principales exceptions sont les applets de service qui gèrent les fournisseurs de services d’audioconférence. Les tâches de gestion des utilisateurs peuvent être effectuées à l’aide des cmdlets de Lync Server Management Shell ou à partir d’un script. À l’aide d’un script, vous pouvez automatiser certaines tâches. Vous trouverez ci-dessous une liste des applets de commande qui concernent directement la gestion des utilisateurs et des comptes d’utilisateurs :
 
   - <span></span>  
     [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)

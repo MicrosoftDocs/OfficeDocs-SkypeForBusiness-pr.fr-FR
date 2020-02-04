@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Processus de déploiement pour l’intégration de la
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating hosted Exchange UM with Lync Server
 ms:assetid: dbec9c38-7f66-419d-b8c3-c61380052cac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6269efd85261c702c77568fac67c96034ba01a71
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b314ea3bd7a88264a72c804c7c67ed3baa819972
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831469"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831469"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-25_
+_**Dernière modification de la rubrique :** 2012-09-25_
 
-La planification efficace de l’intégration de Lync Server 2013 à la messagerie unifiée Exchange hébergée (MU) nécessite que vous prenez en compte les éléments suivants:
+La planification efficace de l’intégration de Lync Server 2013 à la messagerie unifiée Exchange hébergée (MU) nécessite que vous prenez en compte les éléments suivants :
 
   - Conditions préalables à l’intégration de Lync Server 2013 avec la messagerie unifiée Exchange hébergée
 

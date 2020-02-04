@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : tblEnumAttribute'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblEnumAttribute
 ms:assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558617(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2662f5d0ea9b55f8e3f5320b2e385157bef8bce9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846688"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846688"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 tblEnumAttribute est une table codée en dur qui contient les attributs de visibilité et de comportement qui sont utilisés dans la table de nœud.
 
@@ -108,7 +110,7 @@ tblEnumAttribute est une table codée en dur qui contient les attributs de visib
 <td><p>Notoriété.</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 <td><p>Fonctionnement.</p></td>
 </tr>
 </tbody>

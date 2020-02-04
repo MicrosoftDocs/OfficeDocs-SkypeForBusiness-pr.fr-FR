@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: déplacer des utilisateurs vers un autre pool'
+title: 'Lync Server 2013 : déplacer des utilisateurs vers un autre pool'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move users to another pool
 ms:assetid: e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb716c0b551475a53cacf09be10ffdc039f5db8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7dffa2e7651e056d9dc14b1e261134783d0fd193
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826653"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826653"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2018-02-09_
+_**Dernière modification de la rubrique :** 2018-02-09_
 
 Vous pouvez utiliser le panneau de configuration de Lync Server pour attribuer des utilisateurs à un serveur ou un pool spécifique.
 
@@ -57,7 +59,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour attribuer d
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
 
-4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur que vous souhaitez, puis cliquez sur **Rechercher. **.
+4.  Dans la boîte de dialogue **Rechercher des utilisateurs** , entrez tout ou la première partie du nom complet, prénom, nom, nom du compte de comptes de sécurité, adresse SIP ou URI (Uniform Resource Identifier) du compte d’utilisateur souhaité, puis cliquez sur **Rechercher**.
 
 5.  Dans le tableau, sélectionnez un utilisateur ou des utilisateurs spécifiques dans la liste.
 
@@ -153,15 +155,15 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour attribuer d
 
 ## <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Pour déplacer des utilisateurs d’un pool à un autre à l’aide des cmdlets Windows PowerShell
 
-1.  En fonction de la manière dont vous exécutez les commandes Windows PowerShell (autrement dit, localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administrateur de Lync Server 2013 appropriés comme suit:
+1.  En fonction de la manière dont vous exécutez les commandes Windows PowerShell (autrement dit, localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administrateur de Lync Server 2013 appropriés comme suit :
     
-    1.  Si vous exécutez les commandes sur l’ordinateur local (par exemple, si vous vous connectez directement à un serveur frontal): Connectez-vous à l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires. décrit dans [autorisations de configuration des délégués dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+    1.  Si vous exécutez les commandes sur l’ordinateur local (par exemple, si vous vous connectez directement à un serveur frontal) : Connectez-vous à l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires comme décrit dans la rubrique [autorisations de configuration de délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
     
-    2.  Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, si vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition): à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou à CsAdministrator pour vous connecter à n’importe quel ordinateur dans votre déploiement interne.
+    2.  Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, si vous ouvrez une session sur votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition) : à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou à CsAdministrator pour vous connecter à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Pour déplacer des utilisateurs uniques, utilisez l’applet de passe Move-CsUser en procédant comme suit:
+3.  Pour déplacer des utilisateurs uniques, utilisez l’applet de passe Move-CsUser en procédant comme suit :
     
         Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     
@@ -171,7 +173,7 @@ Vous pouvez utiliser le panneau de configuration de Lync Server pour attribuer d
     
         Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     
-    Les commandes combinées de **Get-Csuser** et **Move-Csuser** peuvent être à l’origine:
+    Les commandes combinées de **Get-Csuser** et **Move-Csuser** peuvent être à l’origine :
     
         Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
 

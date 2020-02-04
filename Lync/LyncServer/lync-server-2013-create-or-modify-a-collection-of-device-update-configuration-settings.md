@@ -3,6 +3,8 @@ title: Créer ou modifier un ensemble de paramètres de configuration de la mise
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of Device Update configuration settings
 ms:assetid: 3e8ce95f-a8c8-417c-b1f7-0f759a567aff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994029(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d5b53ff6e876a2c5226b6728e0ebde95d55e7ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80e550f48e37ab9c225e5a4919cbc65a13fe09e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831801"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831801"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les paramètres de configuration de la mise à jour de l’appareil peuvent être créés (uniquement à l’étendue du site) à l’aide de Windows PowerShell et de l’applet **de nouvelle** cmdlet **Set-CsDeviceUpdateConfiguration** . Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.
 
@@ -41,7 +43,7 @@ Les paramètres de configuration de la mise à jour de l’appareil peuvent êtr
 
 
 > [!NOTE]
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -54,7 +56,7 @@ Les paramètres de configuration de la mise à jour de l’appareil peuvent êtr
 
 ## <a name="to-create-device-update-configuration-settings-that-use-the-default-values"></a>Pour créer des paramètres de configuration de mise à jour d’appareils qui utilisent les valeurs par défaut
 
-  - Cette commande crée un ensemble de paramètres de configuration de la mise à jour de l’appareil pour le site de Redmond:
+  - Cette commande crée un ensemble de paramètres de configuration de la mise à jour de l’appareil pour le site de Redmond :
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond"
     
@@ -66,7 +68,7 @@ Les paramètres de configuration de la mise à jour de l’appareil peuvent êtr
 
 ## <a name="to-change-a-single-property-value-when-creating-device-update-configuration-settings"></a>Pour modifier une valeur de propriété unique lors de la création des paramètres de configuration de la mise à jour de l’appareil
 
-  - Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de la mise à jour de l’appareil qui, par défaut, supprime les anciens fichiers journaux tous les 21 jours, utilisez une commande semblable à celle-ci:
+  - Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de la mise à jour de l’appareil qui, par défaut, supprime les anciens fichiers journaux tous les 21 jours, utilisez une commande semblable à celle-ci :
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00"
 
@@ -76,7 +78,7 @@ Les paramètres de configuration de la mise à jour de l’appareil peuvent êtr
 
 ## <a name="to-change-multiple-property-values-when-creating-device-update-configuration-settings"></a>Pour modifier plusieurs valeurs de propriétés lors de la création des paramètres de configuration de la mise à jour de l’appareil
 
-  - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande définit l’intervalle de nettoyage du journal sur 21 jours et l’intervalle de vidage du journal sur 30 minutes:
+  - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande définit l’intervalle de nettoyage du journal sur 21 jours et l’intervalle de vidage du journal sur 30 minutes :
     
         New-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupInterval "21.00:00:00" -LogFlushInterval "00:30:00"
 

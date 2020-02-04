@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification de la déviation du trafic multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for media bypass
 ms:assetid: 8ac732b6-8538-4d7b-b1a9-2035e419dac2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398703(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa60b6658eca7a73e509a7f6c707c3cf48c7f16e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824644"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation.
 
@@ -47,7 +49,7 @@ La figure suivante montre des médias de base et des voies de signalisation dans
 
 **Médias et voies de signalisation avec et sans déviation du trafic multimédia**
 
-![Application de la connexion par contournement du support CAC] (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Application de la connexion par contournement du support CAC")
+![Application de connexion de contournement de média CAC vocal](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Application de connexion de contournement de média CAC vocal")
 
 En règle générale, essayez d’activer la déviation du trafic multimédia quand cela est possible.
 

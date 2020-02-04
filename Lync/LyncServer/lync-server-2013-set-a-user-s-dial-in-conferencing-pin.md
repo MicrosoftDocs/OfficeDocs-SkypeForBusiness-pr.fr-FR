@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: définir le code confidentiel de conférence rendez-vous d’un utilisateur'
+title: 'Lync Server 2013 : définir le code confidentiel de conférence rendez-vous d’un utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set a user's dial-in conferencing PIN
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520985(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 258c6e5da1dc5b78d53bbc3779d50890935d7b58
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab97b3efe350ef82527262103e9b00104990245a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822026"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822026"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-10_
+_**Dernière modification de la rubrique :** 2014-06-10_
 
 Pour participer à une conférence rendez-vous en tant qu’utilisateur authentifié, un utilisateur de Lync Server 2013 avec les informations d’identification d’AD DS (Active Directory Domain Services) nécessite un code confidentiel (PIN). Si un utilisateur oublie le code confidentiel de conférence rendez-vous ou n’a pas défini le code confidentiel à l’aide de Lync Server, vous pouvez définir le code confidentiel de l’utilisateur à partir du panneau de configuration de Lync Server. Vous pouvez générer automatiquement le code confidentiel ou en créer un manuellement.
 
@@ -117,7 +119,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
 
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Attribution d’un code confidentiel utilisateur à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez également affecter plusieurs codes confidentiels à l’aide de l’applet de commande Set-CsClientPin. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de synthèse des activités d’égal à égal'
+title: 'Lync Server 2013 : rapport de synthèse des activités d’égal à égal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Activity Summary Report
 ms:assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615041(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62bdd1203db471de770ed56cf6377d7a3c651649
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d55c3d84fe48158490473c31e9782dc63e298310
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825386"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-21_
+_**Dernière modification de la rubrique :** 2012-10-21_
 
 Le rapport de synthèse des activités P2P fournit un aperçu de vos sessions de communication d?’P2P. Une session d’égal à égal implique généralement deux utilisateurs uniquement et ne nécessite pas l’utilisation des services de conférence Lync Server. En comparaison, une conférence implique généralement plus de deux utilisateurs et nécessite l’utilisation de Microsoft Lync Server 2013 Conferencing services. L’activité de conférence est reportée sur le rapport de synthèse de conférence.
 
@@ -41,7 +43,7 @@ Le rapport de synthèse des activités P2P vous aide à répondre à des questio
 
   - Combien de messages instantanés P2P mes utilisateurs envoient-ils généralement par jour ?
 
-  - L’un de mes utilisateurs tire-t-il réellement parti des capacités de partage d’application et de transfert de fichiers de Lync Server?
+  - L’un de mes utilisateurs tire-t-il réellement parti des capacités de partage d’application et de transfert de fichiers de Lync Server ?
 
   - Les utilisateurs ont signalé que le réseau semblait lent à certains moments de la journée. Combien de minutes sont consacrées à des sessions audio et vidéo P2P durant ces périodes ?
 
@@ -49,7 +51,7 @@ Le rapport de synthèse des activités P2P vous aide à répondre à des questio
 
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Accès au rapport de synthèse des activités P2P
 
-Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Pour ouvrir le [rapport de messagerie instantanée d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-im-report.md) , cliquez sur l’une des mesures suivantes:
+Vous pouvez accéder au rapport de synthèse des activités P2P à partir de la page d’accueil des rapports de surveillance. Pour ouvrir le [rapport de messagerie instantanée d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-im-report.md) , cliquez sur l’une des mesures suivantes :
 
   - Nombre total de sessions d'égal à égal de messagerie instantanée
 

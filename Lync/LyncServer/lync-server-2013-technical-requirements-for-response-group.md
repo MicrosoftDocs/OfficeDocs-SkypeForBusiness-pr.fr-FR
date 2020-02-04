@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration technique requise pour Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Response Group
 ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b7ab381a70a8a6d69170959fbaf488982887d765
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846644"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-Cette section décrit les exigences techniques suivantes pour l’application Response Group:
+Cette section décrit les exigences techniques suivantes pour l’application Response Group :
 
   - Configuration matérielle requise
 
@@ -63,7 +65,7 @@ Comme serveur frontal, l’application de Response Group a les mêmes exigences 
 
 Si vous utilisez des fichiers Windows Media audio (. WMA) pour la musique et les annonces du groupe réponse, tous les serveurs frontaux ou les éditions standard qui exécutent l’application Response Group doivent avoir installé le runtime du format Windows Media pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime Windows Media Format Runtime est installé dans le cadre de l’expérience de bureau Windows.
 
-Pour plus d’informations sur la configuration audio requise, voir «exigences relatives au fichier audio» plus loin dans cette section.
+Pour plus d’informations sur la configuration audio requise, voir « exigences relatives au fichier audio » plus loin dans cette section.
 
 </div>
 
@@ -71,7 +73,7 @@ Pour plus d’informations sur la configuration audio requise, voir «exigences 
 
 ## <a name="port-requirements"></a>Configuration requise pour les ports
 
-L’application Response Group utilise les ports suivants:
+L’application Response Group utilise les ports suivants :
 
   - **Port 5071**   utilisé pour les demandes d’écoute SIP
 

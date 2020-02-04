@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour DNS pour la connexion automatique au client'
+title: 'Lync Server 2013 : configuration requise pour DNS pour la connexion automatique au client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for automatic client sign-in
 ms:assetid: 3bcd4bb3-a022-4ffa-b005-1a95ad2b1796
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425884(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afd8ac315222a5582bde9802c22ab7b4911ddfe3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d033621382587367630d9119c2176e976cb2c2d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831379"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831379"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-19_
+_**Dernière modification de la rubrique :** 2012-06-19_
 
 Cette section décrit les enregistrements DNS (Domain Name System) nécessaires à la connexion automatique du client. Lorsque vous déployez vos serveurs Standard Edition ou pools frontal, vous pouvez configurer vos clients de manière à utiliser la découverte automatique pour vous connecter au serveur Standard Edition Server ou au pool frontal approprié. Si vous envisagez de nécessiter la connexion manuelle de vos clients à Lync Server 2013, vous pouvez ignorer cette rubrique.
 
-Pour prendre en charge la connexion automatique au client, vous devez:
+Pour prendre en charge la connexion automatique au client, vous devez :
 
   - Désigner un serveur ou un pool unique pour distribuer et authentifier les demandes de connexion au client. Il peut s’agir d’un serveur ou d’un pool de votre organisation qui héberge des utilisateurs ou d’un serveur dédié ou d’un pool dédié à cette fin qui n’héberge aucun utilisateur. Pour une disponibilité élevée, nous vous recommandons de désigner un pool frontal pour cette fonction.
 
@@ -79,12 +81,12 @@ Le tableau suivant montre quelques exemples d’enregistrements nécessaires pou
 <tr class="odd">
 <td><p>pool01.contoso.com</p></td>
 <td><p>contoso.com</p></td>
-<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _ TCP. contoso. com sur le port 5061 qui correspond à pool01.contoso.com</p></td>
+<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _tcp. contoso. com sur le port 5061 qui correspond à pool01.contoso.com</p></td>
 </tr>
 <tr class="even">
 <td><p>pool01.contoso.com</p></td>
 <td><p>retail.contoso.com</p></td>
-<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _ TCP. Retail. contoso. com sur le port 5061 qui correspond à pool01.contoso.com</p></td>
+<td><p>Un enregistrement SRV pour le domaine _sipinternaltls. _tcp. Retail. contoso. com sur le port 5061 qui correspond à pool01.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
@@ -104,7 +106,7 @@ Le tableau suivant montre quelques exemples d’enregistrements nécessaires pou
 
 ## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Exemple de certificats et d’enregistrements DNS requis pour la connexion automatique au client
 
-Cet exemple utilise les mêmes noms d’exemples dans le tableau précédent. L’organisation contoso prend en charge les domaines SIP de contoso.com et retail.contoso.com, et tous les utilisateurs ont un URI SIP dans l’une des formes suivantes:
+Cet exemple utilise les mêmes noms d’exemples dans le tableau précédent. L’organisation contoso prend en charge les domaines SIP de contoso.com et retail.contoso.com, et tous les utilisateurs ont un URI SIP dans l’une des formes suivantes :
 
   - \<@retail\>utilisateur. contoso.com
 

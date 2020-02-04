@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Déplacement d’utilisateurs vers Voix Entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1127bd0c767da7f02df8aefb30fda41a64bd353a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f0a7d71d42d8551a51028afec209e795941d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826737"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34826737"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Si vous déplacez les utilisateurs à partir d’une infrastructure de téléphonie PBX existante vers Enterprise Voice, le processus de déploiement comporte certaines étapes qui ne font pas partie du processus de planification déjà décrit dans [planification pour Enterprise Voice dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md). Pour plus d’informations sur la migration des utilisateurs d’un déploiement voix entreprise antérieur, voir les documents de migration inclus dans votre support d’installation.
 
-Le processus de déplacement des utilisateurs à partir d’une infrastructure de téléphonie existante vers Enterprise Voice comprend les étapes suivantes:
+Le processus de déplacement des utilisateurs à partir d’une infrastructure de téléphonie existante vers Enterprise Voice comprend les étapes suivantes :
 
 1.  Spécifiez les numéros de téléphone principaux.
 
@@ -61,7 +63,7 @@ Cette rubrique décrit la planification nécessaire pour chacune de ces étapes.
 
 Voix entreprise intègre la voix à d’autres médias de messagerie, de telle sorte qu’une fois qu’un appel entrant arrive sur le serveur, le serveur mappe le numéro à l’URI SIP de l’utilisateur, puis dévie l’appel à tous les points de terminaison client associés à cet URI SIP. Ce processus nécessite que chaque utilisateur soit associé à un numéro de téléphone principal.
 
-Le numéro de téléphone principal doit être:
+Le numéro de téléphone principal doit être :
 
   - Globalement unique ou, dans le cas d’extensions internes, uniques au sein de l’entreprise.
 
@@ -73,7 +75,7 @@ Le champ **numéro de téléphone** de l’onglet **général** de la boîte de 
 
 Certains utilisateurs ont des exigences spéciales (par exemple, un dirigeant qui veut que tous les appels entrants soient acheminés par l’intermédiaire d’un assistant administratif), mais ces exceptions doivent être limitées uniquement aux personnes qui ont besoin d’être claires et critiques.
 
-Après avoir choisi un numéro principal, il doit être:
+Après avoir choisi un numéro principal, il doit être :
 
   - Normalisé au format E. 164, dans la mesure du possible.
 
@@ -98,23 +100,23 @@ Lorsque de nombreux numéros de téléphone doivent être traités, un script pe
 
   - Si votre organisation conserve tous les numéros de téléphone dans les services de domaine Active Directory (AD FS) dans un format unique et si ce format est E. 164, votre script doit uniquement écrire chaque numéro de téléphone principal dans l’attribut **msRTCSIP-Line** .
 
-  - Si votre organisation conserve tous les numéros de téléphone dans les services de domaine Active Directory (AD FS) dans un format unique, mais ce format n’est pas E. 164, votre script doit définir une règle de normalisation appropriée pour convertir les numéros de téléphone principal de leur format existant. pour E. 164 avant de les écrire dans l’attribut **msRTCSIP-Line** .
+  - Si votre organisation conserve tous les numéros de téléphone dans les services de domaine Active Directory (AD FS) dans un format unique, mais qu’il ne s’agit pas de E. 164, votre script doit définir une règle de normalisation appropriée pour convertir les numéros de téléphone principal de leur format existant en E. 164 avant de les écrire dans l’attribut **msRTCSIP-Line** .
 
-  - Si votre organisation n’applique pas un format standard pour les numéros de téléphone dans les services de domaine Active Directory (AD FS), votre script doit définir des règles de normalisation appropriées pour convertir les numéros de téléphone principal de leurs différents formats vers E. 164 Compliance. écriture des numéros de téléphone principaux pour l’attribut **msRTCSIP-Line** .
+  - Si votre organisation n’applique pas un format standard pour les numéros de téléphone dans les services de domaine Active Directory (AD FS), votre script doit définir des règles de normalisation appropriées pour **convertir les numéros** de téléphone principal de leurs différents formats en E. 164.
 
-Votre script devra également insérer le préfixe **tel:** avant chaque numéro principal avant de l’écrire dans l’attribut **msRTCSIP-Line** .
+Votre script devra également insérer le préfixe **tel :** avant chaque numéro principal avant de l’écrire dans l’attribut **msRTCSIP-Line** .
 
-Le format attendu du numéro spécifié dans cet attribut est le suivant:
+Le format attendu du numéro spécifié dans cet attribut est le suivant :
 
-  - Tel: + 14255550100; ext = 50100.
+  - Tel : + 14255550100 ; ext = 50100.
 
-  - Tel: 5550100 (pour les extensions uniques à l’échelle de l’entreprise)
+  - Tel : 5550100 (pour les extensions uniques à l’échelle de l’entreprise)
     
     <div>
     
 
     > [!IMPORTANT]  
-    > La normalisation réalisée par le service de carnet d’adresses (ABS) ne remplace pas ou n’entraîne aucune nécessité de normaliser le numéro de téléphone principal de chaque utilisateur dans les services de domaine Active Directory, car l’ABS n’a pas accès aux services de domaine Active Directory (AD DS) et par conséquent, il est impossible de copier des numéros principaux vers l’attribut <STRONG>msRTCSIP-Line</STRONG> .
+    > La normalisation réalisée par le service de carnet d’adresses (ABS) ne remplace pas ou n’entraîne pas la nécessité de normaliser le numéro de téléphone principal de chaque utilisateur dans les services de domaine Active Directory, car ABS n’a pas accès aux services de domaine Active Directory (AD DS) et ne peut donc pas copier les numéros principaux vers l’attribut <STRONG>msRTCSIP-Line</STRONG> .
 
     
     </div>
@@ -169,7 +171,7 @@ Les utilisateurs qui étaient autrefois hébergés sur un système PBX classique
 
 ## <a name="step-7-move-users-to-exchange-unified-messaging-recommended"></a>Étape 7. Déplacer des utilisateurs vers la messagerie unifiée Exchange (recommandé)
 
-Le déplacement des utilisateurs vers la messagerie unifiée Exchange se compose des tâches suivantes:
+Le déplacement des utilisateurs vers la messagerie unifiée Exchange se compose des tâches suivantes :
 
   - Configurez la messagerie unifiée Exchange et Lync Server pour collaborer.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie de conférence par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie de conférence par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user conferencing policy
 ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dbeb129ef58c6993d1cd919b03d7417d35b439a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d43bf1663a475bed93985b2257eefaaa07ff8c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738364"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Affecter une stratégie de conférence par utilisateur dans Lync Server 2013
 
@@ -71,7 +73,7 @@ Pour plus d’informations sur la création de stratégies de conférence, voir 
 
 
 
-7.  Dans **affecter des stratégies**, sous **stratégie de conférence**, effectuez l’une des opérations suivantes:
+7.  Dans **affecter des stratégies**, sous **stratégie de conférence**, effectuez l’une des opérations suivantes :
     
 
     > [!NOTE]  
@@ -92,7 +94,7 @@ Pour plus d’informations sur la création de stratégies de conférence, voir 
 
 ## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie de conférence par utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-Les stratégies de conférence par utilisateur peuvent être affectées à l’aide de Windows PowerShell et de l’applet de passe Grant-CsConferencingPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Les stratégies de conférence par utilisateur peuvent être affectées à l’aide de Windows PowerShell et de l’applet de passe Grant-CsConferencingPolicy. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>Pour attribuer une stratégie de conférence par utilisateur à un utilisateur unique
 

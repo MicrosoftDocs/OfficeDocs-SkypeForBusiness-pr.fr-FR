@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: démarrage de Lync à partir d’une autre application'
+title: 'Lync Server 2013 : démarrage de Lync à partir d’une autre application'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Starting Lync from another application
 ms:assetid: 573b30b1-6590-4b24-8e96-a41be57cb0ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35e2d28a8083a7e7f1e693ddf55c5cfe3e758e96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846761"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Vous pouvez utiliser des paramètres de ligne de commande pour démarrer rapidement Lync 2013. Par exemple, si un utilisateur clique sur un numéro de téléphone dans une autre application, l’application peut démarrer une instance de Lync 2013 et lancer un appel vers ce numéro.
 
@@ -66,7 +68,7 @@ Le tableau suivant répertorie les paramètres disponibles.
 </tr>
 <tr class="even">
 <td><p>callto</p></td>
-<td><p>Tel:, SIP: ou URI tel de type</p></td>
+<td><p>Tel :, SIP : ou URI tel de type</p></td>
 <td><p>Ouvre la fenêtre de conversation pour un appel audio sans composer le numéro spécifié.</p></td>
 </tr>
 <tr class="odd">
@@ -77,7 +79,7 @@ Le tableau suivant répertorie les paramètres disponibles.
 <tr class="even">
 <td><p>Quels</p></td>
 <td><p>URI SIP</p></td>
-<td><p>Si Lync 2013 est configuré pour utiliser le protocole TLS (Transport Layer Security), fonctionne exactement comme pour SIP:. Si TLS n’est pas utilisé, affiche une boîte de dialogue informant l’utilisateur qu’un niveau de sécurité supérieur est requis.</p></td>
+<td><p>Si Lync 2013 est configuré pour utiliser le protocole TLS (Transport Layer Security), fonctionne exactement comme pour SIP :. Si TLS n’est pas utilisé, affiche une boîte de dialogue informant l’utilisateur qu’un niveau de sécurité supérieur est requis.</p></td>
 </tr>
 <tr class="odd">
 <td><p>donne</p></td>
@@ -111,11 +113,11 @@ Le tableau suivant contient des exemples de ces paramètres de ligne de commande
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tel: + 14255550101</p></td>
+<td><p>Tel : + 14255550101</p></td>
 <td><p>Ouvre une seule vue de téléphone avec + 14255550101.</p></td>
 </tr>
 <tr class="even">
-<td><p>Callto: tel: + 14255550101</p></td>
+<td><p>Callto : tel : + 14255550101</p></td>
 <td><p>Ouvre une seule vue de téléphone avec + 14255550101.</p></td>
 </tr>
 <tr class="odd">
@@ -127,7 +129,7 @@ Le tableau suivant contient des exemples de ces paramètres de ligne de commande
 <td><p>Ouvre une fenêtre de conversation avec kazuto@litwareinc.com.</p></td>
 </tr>
 <tr class="odd">
-<td><p>conf: SIP:https://meet.contoso.com/kazuto/7322994</p></td>
+<td><p>conf : SIP :https://meet.contoso.com/kazuto/7322994</p></td>
 <td><p>Ouvre une fenêtre de conversation et affiche les options de participation à une réunion audio.</p></td>
 </tr>
 </tbody>

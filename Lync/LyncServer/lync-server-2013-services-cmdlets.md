@@ -1,8 +1,10 @@
 ---
-title: 'Cmdlets Lync Server 2013: services'
+title: 'Cmdlets Lync Server 2013 : services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Services cmdlets
 ms:assetid: 82cb9dbc-6c75-4dd0-900b-b8b2989c481d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415659(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db13b3c4c481fd912a133c00973779a280d79991
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d71336440b4816942ca24782683f17c24e889b1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821956"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821956"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
 Les applets de configuration de serveur et de rôle serveur fourni avec Microsoft Lync Server 2013 vous permettent de renvoyer des informations sur les différents composants installés dans le cadre de votre déploiement de Lync Server 2013. De plus, ces applets de commande permettent d’arrêter et de démarrer facilement vos services Lync Server.
 
@@ -41,7 +43,7 @@ Les applets de configuration de serveur et de rôle serveur fourni avec Microsof
 
 ## <a name="services-cmdlets"></a>Cmdlets services
 
-La liste suivante répertorie les applets de commande qui concernent directement la gestion des services:
+La liste suivante répertorie les applets de commande qui concernent directement la gestion des services :
 
 **Services**
 

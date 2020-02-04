@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion des fournisseurs fédérés SIP pour l’orga
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage SIP federated providers for your organization
 ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a5716c6f5af1674e2d597c25b7476154af2fbc3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18d6fc2b4b5487e3900fc6f7a6a6fe7d63fbe3df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828235"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34828235"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
 
-Pour configurer la prise en charge des utilisateurs de fournisseurs fédérés SIP, vous devez procéder comme suit:
+Pour configurer la prise en charge des utilisateurs de fournisseurs fédérés SIP, vous devez procéder comme suit :
 
   - Configuration d’une ou plusieurs stratégies d’accès des utilisateurs externes pour la prise en charge de la communication avec les contacts du fournisseur fédéré SIP
 

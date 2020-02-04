@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: plans de numérotation et règles de normalisation'
+title: 'Lync Server 2013 : plans de numérotation et règles de normalisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial plans and normalization rules
 ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d399c49db109a7bac1a1cd3ac430280cb70f665
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4f1cc8221281502487a8f58e1562674432ea29d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831420"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831420"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Un plan de numérotation est un ensemble nommé de règles de normalisation qui convertissent des numéros de téléphone pour un emplacement, un utilisateur individuel ou un objet contact nommé, en un format standard (E.164) à des fins d’autorisation téléphonique et de routage des appels.
 
@@ -59,13 +61,13 @@ Les clients obtiennent les niveaux d’étendue du plan de numérotation via les
 
 Les niveaux d’étendue du plan de numérotation sont définis comme suit :
 
-  - **Plan de numérotation utilisateur:** Peuvent être attribués à des utilisateurs, des groupes ou des objets de contact individuels. Les applications vocales peuvent chercher un plan de numérotation par utilisateur lors de la réception d’un appel avec le contexte du téléphone défini sur la valeur par défaut de l’utilisateur. Dans le cadre de l’attribution d’un plan de numérotation, un objet contact est considéré comme un utilisateur individuel.
+  - **Plan de numérotation utilisateur :** Peuvent être attribués à des utilisateurs, des groupes ou des objets de contact individuels. Les applications vocales peuvent chercher un plan de numérotation par utilisateur lors de la réception d’un appel avec le contexte du téléphone défini sur la valeur par défaut de l’utilisateur. Dans le cadre de l’attribution d’un plan de numérotation, un objet contact est considéré comme un utilisateur individuel.
 
-  - Plan de numérotation de la **liste:** Peut être créé au niveau de service pour n’importe quelle passerelle PSTN ou bureau d’enregistrement dans votre topologie. Pour définir un plan de numérotation de groupe, vous devez spécifier le service spécifique (passerelle PSTN ou pool de bureau d’enregistrement) auquel s’applique le plan de numérotation.
+  - **Plan de numérotation de la liste :** Peut être créé au niveau de service pour n’importe quelle passerelle PSTN ou bureau d’enregistrement dans votre topologie. Pour définir un plan de numérotation de groupe, vous devez spécifier le service spécifique (passerelle PSTN ou pool de bureau d’enregistrement) auquel s’applique le plan de numérotation.
 
-  - **Plan de numérotation de site:** Peuvent être créés pour un site entier, à l’exception de tous les utilisateurs, groupes ou objets de contact auxquels un plan de numérotation de groupe ou un plan de numérotation est attribué. Pour définir un plan de numérotation de site, vous devez spécifier le site auquel s’applique le plan de numérotation.
+  - **Plan de numérotation de site :** Peuvent être créés pour un site entier, à l’exception de tous les utilisateurs, groupes ou objets de contact auxquels un plan de numérotation de groupe ou un plan de numérotation est attribué. Pour définir un plan de numérotation de site, vous devez spécifier le site auquel s’applique le plan de numérotation.
 
-  - **Plan de numérotation globale:** Plan de numérotation par défaut installé avec le produit. Vous pouvez modifier le plan de numérotation global, mais vous ne pouvez pas le supprimer. Ce plan de numérotation s’applique à tous les utilisateurs, à tous les groupes et aux objets de contact Enterprise Voice dans votre déploiement, sauf si vous configurez et attribuez un plan de numérotation avec une étendue plus spécifique.
+  - **Plan de numérotation globale :** Plan de numérotation par défaut installé avec le produit. Vous pouvez modifier le plan de numérotation global, mais vous ne pouvez pas le supprimer. Ce plan de numérotation s’applique à tous les utilisateurs, à tous les groupes et aux objets de contact Enterprise Voice dans votre déploiement, sauf si vous configurez et attribuez un plan de numérotation avec une étendue plus spécifique.
 
 </div>
 

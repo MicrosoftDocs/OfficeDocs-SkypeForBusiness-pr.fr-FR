@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: McuJoinsAndLeaves'
+title: 'Affichage Lync Server 2013 : McuJoinsAndLeaves'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: McuJoinsAndLeaves view
 ms:assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688088(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7592879a1c6c6cc6bbcac54fd843046b69acee83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d339df5b3b591cbf67376c36c5e0e4261c390851
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827570"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827570"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Le mode McuJoinsAndLeaves stocke les informations sur les utilisateurs qui rejoignent et laissent des informations pour un serveur de conférence. Chaque enregistrement de cette vue contient les détails de l’une des combinaisons d’un utilisateur qui rejoint ou quittent le serveur de conférence. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -125,7 +127,7 @@ Le mode McuJoinsAndLeaves stocke les informations sur les utilisateurs qui rejoi
 <tr class="odd">
 <td><p><strong>DialogId</strong></p></td>
 <td><p>varchar (775)</p></td>
-<td><p>ID de la boîte de dialogue SIP de la session. Le format est: boîte de dialogue; de-balise; à balise.</p></td>
+<td><p>ID de la boîte de dialogue SIP de la session. Le format est : boîte de dialogue ; de-balise ; à balise.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserJoinTime</strong></p></td>

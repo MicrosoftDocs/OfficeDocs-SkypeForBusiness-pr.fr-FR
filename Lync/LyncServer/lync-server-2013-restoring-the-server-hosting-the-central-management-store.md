@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: restauration du serveur qui héberge le magasin de gestion central'
+title: 'Lync Server 2013 : restauration du serveur qui héberge le magasin de gestion central'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring the server hosting the Central Management store
 ms:assetid: 3bd6c82c-07fb-4798-b8f9-e7c78a5a83d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202172(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95696c682e7acfba32e4f9a2bfd71ba988f22243
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 976f486d096f7be59e2eef74eab7b03d6cc4bab0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822446"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822446"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Le déploiement d’un serveur Lync dispose d’une banque d’administration centrale unique, dont une copie est répliquée sur chaque serveur exécutant un rôle serveur Lync Server. Cette rubrique décrit la procédure de restauration d’un serveur principal ou d’un serveur Standard Edition Server qui héberge la Banque centrale de gestion.
 
@@ -104,7 +106,7 @@ Si le serveur principal hébergeant la Banque de gestion centrale se trouve dans
         
         </div>
 
-5.  À partir d’un serveur frontal, démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+5.  À partir d’un serveur frontal, démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 6.  Recréez le magasin central de gestion. Dans la ligne de commande, tapez :
     
@@ -154,9 +156,9 @@ Si le serveur principal hébergeant la Banque de gestion centrale se trouve dans
 
 10. Si vous restaurez un serveur principal Enterprise Edition qui héberge également le MCG, ou si vous avez besoin de recréer un miroir du MCG, procédez comme suit. Dans le cas contraire, passez à l’étape 11.
     
-    Installez les bases de données autonomes en procédant comme suit:
+    Installez les bases de données autonomes en procédant comme suit :
     
-    1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+    1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
     
     2.  Cliquez sur **Télécharger la topologie à partir du déploiement existant**, puis cliquez sur **OK**.
     
@@ -188,27 +190,27 @@ Si le serveur principal hébergeant la Banque de gestion centrale se trouve dans
     
     </div>
 
-11. Si vous restaurez un serveur Standard Edition Server, recherchez le dossier d’installation ou le média de Lync Server et démarrez l’Assistant Déploiement de Lync \\Server\\situé\\à l’installation de Setup. exe amd64. exe. Utilisez l’Assistant Déploiement de Lync Server pour effectuer les opérations suivantes:
+11. Si vous restaurez un serveur Standard Edition Server, recherchez le dossier d’installation ou le média de Lync Server et démarrez l’Assistant Déploiement de Lync \\Server\\situé\\à l’installation de Setup. exe amd64. exe. Utilisez l’Assistant Déploiement de Lync Server pour effectuer les opérations suivantes :
     
-    1.  Exécutez l' **étape 1: installer le magasin de configuration local** pour installer les fichiers de configuration locaux.
+    1.  Exécutez l' **étape 1 : installer le magasin de configuration local** pour installer les fichiers de configuration locaux.
     
-    2.  Exécutez l' **étape 2: configurer ou supprimer les composants serveur Lync** pour installer les rôles serveur de Lync Server.
+    2.  Exécutez l' **étape 2 : configurer ou supprimer les composants serveur Lync** pour installer les rôles serveur de Lync Server.
     
-    3.  Exécutez l' **étape 3: demandez, installez ou attribuez des certificats** pour attribuer les certificats.
+    3.  Exécutez l' **étape 3 : demandez, installez ou attribuez des certificats** pour attribuer les certificats.
     
-    4.  Exécutez l' **étape 4: démarrer des services** pour démarrer des services sur le serveur.
+    4.  Exécutez l' **étape 4 : démarrer des services** pour démarrer des services sur le serveur.
     
     Pour plus d’informations sur l’exécution de l’Assistant Déploiement, voir la documentation de déploiement pour le rôle de serveur que vous restaurez.
 
-12. Restaurez les données utilisateur en procédant comme suit:
+12. Restaurez les données utilisateur en procédant comme suit :
     
     1.  Copiez ExportedUserData. zip de\\ $Backup dans un répertoire local.
     
-    2.  Avant de restaurer les données utilisateur, vous devez arrêter les services Lync. Pour ce faire, tapez:
+    2.  Avant de restaurer les données utilisateur, vous devez arrêter les services Lync. Pour ce faire, tapez :
         
             Stop-CsWindowsService
     
-    3.  Pour restaurer les données utilisateur, à partir de la ligne de commande, tapez:
+    3.  Pour restaurer les données utilisateur, à partir de la ligne de commande, tapez :
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
@@ -216,7 +218,7 @@ Si le serveur principal hébergeant la Banque de gestion centrale se trouve dans
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     
-    4.  Redémarrez les services Lync en entrant:
+    4.  Redémarrez les services Lync en entrant :
         
             Start-CsWindowsService
 

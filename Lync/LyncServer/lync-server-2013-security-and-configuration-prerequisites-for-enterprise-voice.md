@@ -3,6 +3,8 @@ title: Conditions préalables requises de configuration et de sécurité pour Vo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security and configuration prerequisites for Enterprise Voice
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398221(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d06cdb4c679d1a40eb5c6fa0e8cf837ec8d2e332
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822054"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822054"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Vérifiez que votre infrastructure répond à la configuration requise en matière de sécurité, de configuration utilisateur et de matériel spécifique.
 
@@ -87,7 +89,7 @@ Si vous venez de déployer la charge de travail voix entreprise pour le moment, 
 
 
 > [!NOTE]
-> Pour obtenir des exemples de numéros de téléphone principaux requis pour le déploiement d’Enterprise Voice, voir les <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et les règles de normalisation dans la section Lync server 2013</A> des plans de numérotation et des <A href="lync-server-2013-dial-plans-and-normalization-rules.md">règles de normalisation dans Lync Server 2013</A> dans la documentation de planification.
+> Pour obtenir des exemples de numéros de téléphone principaux requis pour le déploiement d’Enterprise Voice, voir les <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et les règles de normalisation dans la section Lync server 2013</A> des <A href="lync-server-2013-dial-plans-and-normalization-rules.md">plans de numérotation et des règles de normalisation dans Lync Server 2013</A> dans la documentation de planification.
 
 
 
@@ -97,11 +99,11 @@ Si vous venez de déployer la charge de travail voix entreprise pour le moment, 
 
 <div>
 
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes: installation de fichiers ou configuration de la connectivité PSTN
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Étapes suivantes : installation de fichiers ou configuration de la connectivité PSTN
 
-Après vérification de la configuration logicielle et environnementale requise pour Enterprise Voice, vous pouvez utiliser le contenu suivant:
+Après vérification de la configuration logicielle et environnementale requise pour Enterprise Voice, vous pouvez utiliser le contenu suivant :
 
-  - Installez le serveur de médiation, comme décrit dans la rubrique [installer les fichiers pour le serveur de médiation dans Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mais uniquement si vous voulez déployer un serveur ou un pool de médiation autonome, car les serveurs de médiation sont installés dans le cadre du pool frontal ou du standard Processus de déploiement d’édition Server lorsque vous avez localisé le processus.
+  - Installez le serveur de médiation, comme décrit dans [la rubrique installer les fichiers pour le serveur de médiation dans Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mais uniquement si vous voulez déployer un serveur ou un pool de médiation autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement de l’application frontale ou du pool frontal.
 
   - Vous pouvez aussi commencer à configurer des paramètres pour acheminer les appels pour les utilisateurs d’Enterprise Voice, comme décrit dans la rubrique [Configuration des Trunks dans Lync Server 2013](lync-server-2013-configuring-trunks.md).
 

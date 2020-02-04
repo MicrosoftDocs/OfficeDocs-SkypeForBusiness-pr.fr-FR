@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Topologies Active Directory prises en charge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e4aca368f6ea7d5b31a1cfe74273dfbd42a6594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846736"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846736"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-10-02_
+_**Dernière modification de la rubrique :** 2014-10-02_
 
-Lync Server 2013 prend en charge les mêmes topologies de services de domaine Active Directory que Microsoft Lync Server 2010 et Microsoft Office Communications Server 2007 R2. Les topologies suivantes sont prises en charge:
+Lync Server 2013 prend en charge les mêmes topologies de services de domaine Active Directory que Microsoft Lync Server 2010 et Microsoft Office Communications Server 2007 R2. Les topologies suivantes sont prises en charge :
 
   - Forêt unique avec domaine unique
 
@@ -53,7 +55,7 @@ La figure suivante identifie les icônes utilisées dans les illustrations de ce
 
 **Clé pour les illustrations topologiques**
 
-![Clé pour les illustrations topologiques] (images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Clé pour les illustrations topologiques")
+![Clé pour les illustrations topologiques](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Clé pour les illustrations topologiques")
 
 <div>
 
@@ -65,7 +67,7 @@ La figure suivante illustre un déploiement de serveur Lync dans une topologie A
 
 **Topologie à domaine unique**
 
-![Topologie de domaine unique] (images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologie de domaine unique")
+![Topologie à domaine unique](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologie à domaine unique")
 
 </div>
 
@@ -75,7 +77,7 @@ La figure suivante illustre un déploiement de serveur Lync dans une topologie A
 
 Une autre topologie Active Directory prise en charge par Lync Server est une forêt unique composée d’un domaine racine et d’un ou plusieurs domaines enfants. Dans ce type de topologie Active Directory, le domaine dans lequel vous créez des utilisateurs peut être différent de celui dans lequel vous déployez Lync Server. Toutefois, si vous déployez un pool frontal, vous devez déployer tous les serveurs frontaux dans le pool au sein d’un domaine unique. La prise en charge de Lync Server pour les groupes d’administrateurs Windows universelle autorise une administration entre domaines.
 
-La figure suivante illustre un déploiement au sein d’une seule forêt avec plusieurs domaines. Dans cette figure, une icône utilisateur affiche le domaine dans lequel le compte d’utilisateur est hébergé et la flèche pointe vers le domaine dans lequel réside le pool de serveurs Lync. Les comptes d’utilisateurs incluent les éléments suivants:
+La figure suivante illustre un déploiement au sein d’une seule forêt avec plusieurs domaines. Dans cette figure, une icône utilisateur affiche le domaine dans lequel le compte d’utilisateur est hébergé et la flèche pointe vers le domaine dans lequel réside le pool de serveurs Lync. Les comptes d’utilisateurs incluent les éléments suivants :
 
   - Comptes d’utilisateurs au sein du même domaine que le pool de serveurs Lync
 
@@ -85,7 +87,7 @@ La figure suivante illustre un déploiement au sein d’une seule forêt avec pl
 
 **Forêt unique avec plusieurs domaines**
 
-![Forêt unique avec plusieurs domaines] (images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Forêt unique avec plusieurs domaines")
+![Forêt unique avec plusieurs domaines](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Forêt unique avec plusieurs domaines")
 
 </div>
 
@@ -95,7 +97,7 @@ La figure suivante illustre un déploiement au sein d’une seule forêt avec pl
 
 Une topologie à plusieurs arborescences de forêts se compose de deux domaines ou plus qui définissent des structures d’arborescence indépendantes et des espaces de noms Active Directory distincts.
 
-La figure suivante illustre une seule forêt avec plusieurs arborescences. Dans cette figure, une icône d’utilisateur affiche le domaine dans lequel le compte d’utilisateur est hébergé, une ligne pleine pointe vers un pool de serveurs Lync résidant au sein d’un même domaine ou d’un autre domaine et un trait en pointillés vers Lync Server pool se trouvant dans une autre arborescence. Les comptes d’utilisateurs incluent les éléments suivants:
+La figure suivante illustre une seule forêt avec plusieurs arborescences. Dans cette figure, une icône d’utilisateur affiche le domaine dans lequel le compte d’utilisateur est hébergé, une ligne pleine pointe vers un pool de serveurs Lync résidant au sein d’un même domaine ou d’un autre domaine et un trait en pointillés vers Lync Server pool se trouvant dans une autre arborescence. Les comptes d’utilisateurs incluent les éléments suivants :
 
   - Comptes d’utilisateurs au sein du même domaine que le pool de serveurs Lync
 
@@ -105,7 +107,7 @@ La figure suivante illustre une seule forêt avec plusieurs arborescences. Dans 
 
 **Forêt unique avec plusieurs arborescences**
 
-![Forêt unique avec plusieurs arborescences] (images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Forêt unique avec plusieurs arborescences")
+![Forêt unique avec plusieurs arborescences](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Forêt unique avec plusieurs arborescences")
 
 </div>
 
@@ -113,9 +115,9 @@ La figure suivante illustre une seule forêt avec plusieurs arborescences. Dans 
 
 ## <a name="multiple-forests-central-forest"></a>Forêts multiples, forêt centrale
 
-Lync Server prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Les topologies de forêt centralisées utilisent les objets de contact dans la forêt centrale pour représenter les utilisateurs dans les autres forêts. La forêt centrale héberge également les comptes d’utilisateurs pour tous les utilisateurs de cette forêt. Un produit de synchronisation d’annuaires, tel que Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateurs dans Organisation: lorsqu’un nouveau compte d’utilisateur est créé dans l’une des forêts ou qu’un compte d’utilisateur est supprimé d’une forêt, le produit de synchronisation d’annuaires synchronise le contact correspondant dans la forêt centrale.
+Lync Server prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Les topologies de forêt centralisées utilisent les objets de contact dans la forêt centrale pour représenter les utilisateurs dans les autres forêts. La forêt centrale héberge également les comptes d’utilisateurs pour tous les utilisateurs de cette forêt. Un produit de synchronisation d’annuaires, tel que Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 ou Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gère le cycle de vie des comptes d’utilisateurs dans Organisation : lorsqu’un nouveau compte d’utilisateur est créé dans l’une des forêts ou qu’un compte d’utilisateur est supprimé d’une forêt, le produit de synchronisation d’annuaires synchronise le contact correspondant dans la forêt centrale.
 
-Une forêt centrale offre les avantages suivants:
+Une forêt centrale offre les avantages suivants :
 
   - Les serveurs exécutant Lync Server sont centralisés au sein d’une même forêt.
 
@@ -129,7 +131,7 @@ La figure suivante illustre une topologie de forêt centrale. Dans cette figure,
 
 **Topologie de forêt centrale**
 
-![Topologie de forêt centrale] (images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologie de forêt centrale")
+![Topologie de forêt centrale](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologie de forêt centrale")
 
 </div>
 
@@ -147,7 +149,7 @@ Le diagramme suivant illustre une topologie de forêt de ressources.
 
 **Topologie de forêt de ressources**
 
-![Topologie de la forêt de ressources Active Directory] (images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologie de la forêt de ressources Active Directory")
+![Topologie de la forêt de ressources Active Directory](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologie de la forêt de ressources Active Directory")
 
 </div>
 

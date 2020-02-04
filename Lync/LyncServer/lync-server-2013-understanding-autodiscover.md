@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: présentation de la découverte automatique'
+title: 'Lync Server 2013 : présentation de la découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Autodiscover
 ms:assetid: d70a15b7-750b-4e0f-9a7f-0254d6d486c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae8a4965674952cfa5822c24e887ed4d5a02b798
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9d885654f9222ce3d3e9fb7b03e9b388f0ca0a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846472"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846472"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-06-03_
+_**Dernière modification de la rubrique :** 2013-06-03_
 
 Le service de découverte automatique de Lync Server 2013 est une fonctionnalité introduite dans Microsoft Lync Server 2010 dans le cadre de la mise à jour cumulative pour Lync Server 2010:2011. Outre les correctifs, cette mise à jour cumulative a fourni une prise en charge pour les clients Lync mobile et Lync 2013.
 
@@ -57,7 +59,7 @@ La meilleure façon de comprendre le document de réponse de découverte automat
 
 
 > [!NOTE]  
-> Le service Web de découverte automatique Lync est défini dans les <STRONG>protocoles Microsoft Office</STRONG> dans la section <STRONG>spécifications ouvertes</STRONG> de la bibliothèque <STRONG>Microsoft Developer Network</STRONG> (MSDN). Pour plus d’informations, reportez-vous au document de spécification complet «protocole de service Web <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>de découverte automatique» dans:. Pour plus d’informations sur l’authentification, voir «protocole de service Web <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>d’authentification OC» à l’adresse.
+> Le service Web de découverte automatique Lync est défini dans les <STRONG>protocoles Microsoft Office</STRONG> dans la section <STRONG>spécifications ouvertes</STRONG> de la bibliothèque <STRONG>Microsoft Developer Network</STRONG> (MSDN). Pour plus d’informations, reportez-vous au document de spécification complet « protocole de service Web <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>de découverte automatique » dans :. Pour plus d’informations sur l’authentification, voir « protocole de service Web <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>d’authentification OC » à l’adresse.
 
 
 
@@ -69,7 +71,7 @@ La meilleure façon de comprendre le document de réponse de découverte automat
 
 La réponse renvoyée lors de l’envoi de la demande de découverte automatique est identique pour un client interne ou externe. Certains paramètres qui sont compatibles avec la localisation peuvent changer. Si une requête client est reçue alors que le pool réel est différent de celui qui a été contacté, le groupe de ressources de famille de l’utilisateur est défini pour cet utilisateur. Un collègue dont le compte utilisateur se trouve sur un autre groupe, mais qui se connecte à partir du même bureau, obtiendrait une réponse légèrement différente. La réponse indique le serveur frontal ou le pool frontal approprié pour cet utilisateur.
 
-Exemple de document de réponse de découverte automatique:
+Exemple de document de réponse de découverte automatique :
 
     <AutodiscoverResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AccessLocation="External">
        <User>
@@ -99,7 +101,7 @@ Exemple de document de réponse de découverte automatique:
 
 ## <a name="autodiscover-response-document-details"></a>Détails du document de réponse automatique
 
-Le document de réponse de découverte automatique peut être dans l’un des deux formats proposés. Le format par défaut est JSON (JavaScript Object Notation). Le format autre est le document XML (Extensible Markup Language). Le code XML est utilisé pour cet exemple. La requête et la réponse sont prévisibles, car le document est doté d’un schéma défini qui détermine le format. La ligne du document qui décrit le schéma utilisé est la première ligne de la requête ou de la réponse:
+Le document de réponse de découverte automatique peut être dans l’un des deux formats proposés. Le format par défaut est JSON (JavaScript Object Notation). Le format autre est le document XML (Extensible Markup Language). Le code XML est utilisé pour cet exemple. La requête et la réponse sont prévisibles, car le document est doté d’un schéma défini qui détermine le format. La ligne du document qui décrit le schéma utilisé est la première ligne de la requête ou de la réponse :
 
     <AutodiscoverResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AccessLocation="External">
 
@@ -151,7 +153,7 @@ Le `WebScheduler` jeton fait référence aux URL relatives à l’accès client 
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
-`Internal/Mcx`et `External/Mcx` sont les emplacements des services de mobilité, introduits dans une mise à jour cumulative pour Lync Server 2010: novembre 2011. Ces références seront toujours utilisées par Lync 2010 mobile sur tous les appareils pris en charge. Le service MCX est installé dans le cadre du processus de déploiement de vos services Web de déploiement de Lync Server 2013 internes.
+`Internal/Mcx`et `External/Mcx` sont les emplacements des services de mobilité, introduits dans une mise à jour cumulative pour Lync Server 2010 : novembre 2011. Ces références seront toujours utilisées par Lync 2010 mobile sur tous les appareils pris en charge. Le service MCX est installé dans le cadre du processus de déploiement de vos services Web de déploiement de Lync Server 2013 internes.
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Préparation des services de domaine Active Director
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing a locked-down Active Directory Domain Services
 ms:assetid: 68bde963-3fa3-4102-88d6-ac931c1dd2d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398492(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 482c5a59c6dc53fc712db7e77430367dd9c37af5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d589fbc6b7d31b38bc788ba9851edf4386294ea
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823937"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34823937"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-05-14_
+_**Dernière modification de la rubrique :** 2012-05-14_
 
 Les organisations verrouillent souvent les services de domaine Active Directory pour réduire les risques liés à la sécurité. Toutefois, un environnement Active Directory verrouillé peut limiter les autorisations requises par Lync Server 2013. La préparation correcte d’un environnement Active Directory verrouillé pour Lync Server 2013 implique quelques considérations et étapes supplémentaires.
 
-Il existe deux méthodes courantes pour lesquelles les autorisations sont limitées dans un environnement Active Directory verrouillé:
+Il existe deux méthodes courantes pour lesquelles les autorisations sont limitées dans un environnement Active Directory verrouillé :
 
   - Les entrées de contrôle d’accès des utilisateurs authentifiées (ACE) sont supprimées des conteneurs.
 

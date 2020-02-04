@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification de la capacité pour le serveur de chat permanent'
+title: 'Lync Server 2013 : planification de la capacité pour le serveur de chat permanent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dde4bcb499e38e729850f06bb08590bf537696e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34838704"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Le serveur de chat permanent peut exécuter une discussion en temps réel avec plusieurs utilisateurs, qui peut être persistante lors de la récupération et de la recherche ultérieures. À la différence de la messagerie instantanée de groupe enregistrée dans la boîte aux lettres d’un utilisateur si l’historique des conversations est configuré, une session serveur de chat permanent reste ouverte plus longtemps et le contenu est enregistré sur un serveur, ainsi que les messages, les fichiers, les URL et les autres données faisant partie d’un conversation en cours.
 
 La planification de la capacité est une partie importante de la préparation du déploiement d’un serveur de chat permanent. Cette rubrique fournit des détails sur les topologies du serveur de chat permanent prises en charge et les tables de planification de capacité que vous pouvez utiliser pour déterminer la meilleure configuration pour votre déploiement. Il explique également comment gérer au mieux les déploiements de serveurs de chat permanent qui nécessitent une plus grande capacité aux heures de pointe.
 
-Pour télécharger le serveur Chat permanent, voir «Microsoft Lync Server 13 persistent Chat Server [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)» à l’adresse.
+Pour télécharger le serveur Chat permanent, voir « Microsoft Lync Server 13 persistent Chat Server [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)» à l’adresse.
 
 Pour plus d’informations sur l’installation d’un serveur de chat permanent, voir [installer le serveur Chat permanent dans Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) et [configurer le serveur Chat permanent dans Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) dans la documentation de déploiement.
 
@@ -82,7 +84,7 @@ La figure suivante montre tous les composants obligatoires et facultatifs d’un
 
 **Serveur de chat permanent unique**
 
-![Topologie de serveur unique avec service de conformité] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie de serveur unique avec service de conformité")
+![Topologie de serveur unique avec service de conformité](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie de serveur unique avec service de conformité")
 
 </div>
 
@@ -96,7 +98,7 @@ La figure suivante montre tous les composants d’une topologie multiserveur ave
 
 **Plusieurs serveurs de chat permanent**
 
-![Topologie de plusieurs serveurs] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie de plusieurs serveurs")
+![Topologie de plusieurs serveurs](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie de plusieurs serveurs")
 
 Dans le cas d’un déploiement sur un serveur de chat permanent à quatre serveurs, où les utilisateurs de 80 000 peuvent se connecter à un serveur et utiliser une conversation permanente, le chargement est distribué de façon égale auprès des utilisateurs 20 000 par serveur. Si un serveur devient indisponible, les utilisateurs qui se connectent à ce serveur perdront leur accès au serveur Chat permanent. Ces utilisateurs déconnectés sont alors automatiquement transférés vers les serveurs restants jusqu’à ce que le serveur indisponible soit restauré. En fonction de la quantité de trafic de chat permanent sur le réseau, ce transfert peut prendre quelques minutes ou plus. Étant donné que chacun des serveurs restants peut héberger autant d’utilisateurs qu' 30 000, nous vous recommandons de restaurer le serveur non disponible aussi rapidement que possible pour éviter les problèmes de performances. Dans le cas contraire, vous pouvez rendre un autre serveur de chat permanent disponible via le générateur de topologie ou la cmdlet Windows PowerShell **Set-CsPersistentChatActiveServer**.
 
@@ -130,7 +132,7 @@ Utilisez l’exemple de tableau suivant pour déterminer le nombre d’utilisate
 </tr>
 <tr class="even">
 <td><p>Instances de service de chat permanent</p></td>
-<td><p><em>8 (4 doit être inactif; seul un maximum de 4 peut être actif)</em></p></td>
+<td><p><em>8 (4 doit être inactif ; seul un maximum de 4 peut être actif)</em></p></td>
 </tr>
 <tr class="odd">
 <td><p>Utilisateurs actifs connectés</p></td>
@@ -148,7 +150,7 @@ Utilisez l’exemple de tableau suivant pour déterminer le nombre d’utilisate
 </table>
 
 
-Dans l’exemple ci-dessus, le plan doit prendre en charge le nombre maximal d’utilisateurs pouvant être conservés par le serveur de chat permanent: quatre serveurs/instances du service de chat permanent (peuvent comporter 4 serveurs plus passifs pour une disponibilité élevée et reprise après sinistre) et 20 000 utilisateurs par serveur, pour un total de 80 000 utilisateurs actifs.
+Dans l’exemple ci-dessus, le plan doit prendre en charge le nombre maximal d’utilisateurs pouvant être conservés par un serveur de chat permanent : quatre serveurs/instances du service de chat permanent (peuvent comporter 4 serveurs plus passifs pour une disponibilité élevée et une reprise après sinistre) et 20 000 utilisateurs par serveur, pour un total de 80 000 utilisateurs actifs.
 
 </div>
 
@@ -380,7 +382,7 @@ L’exemple de tableau suivant peut vous aider à planifier la gestion de l’ac
 
 Dans l’exemple ci-dessus, lorsque vous déployez les serveurs de chat permanent conformément aux recommandations recommandées, les utilisateurs peuvent gérer jusqu’à 80 000 utilisateurs actifs sur un pool de quatre serveurs avec conformité activée.
 
-Cet exemple indique les catégories des salles de conversation : petite (30 utilisateurs actifs à tout moment), moyenne (150 utilisateurs actifs) et grande (16 000 utilisateurs actifs). Le nombre de salles de conversation d’une taille précise est calculé en fonction du nombre total de:
+Cet exemple indique les catégories des salles de conversation : petite (30 utilisateurs actifs à tout moment), moyenne (150 utilisateurs actifs) et grande (16 000 utilisateurs actifs). Le nombre de salles de conversation d’une taille précise est calculé en fonction du nombre total de :
 
   - D’utilisateurs actifs dans le système
 
@@ -597,11 +599,11 @@ Le tableau suivant décrit le modèle utilisateur pour le serveur de chat perman
 </tr>
 <tr class="even">
 <td><p>Nombre total de moyennes salles de conversation par utilisateur</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 <tr class="odd">
 <td><p>Nombre total de grandes salles de conversation par utilisateur</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 <tr class="even">
 <td><p>Nombre de salles jointes par utilisateur</p></td>

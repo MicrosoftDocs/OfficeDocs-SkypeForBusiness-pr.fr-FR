@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Déploiement d’une conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying conferencing
 ms:assetid: 8ef31d46-a1e6-43d2-b1ad-80f159cc5eed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733728
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcb1dd42bff918120edaec6ca51bc89d21e53127
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a81b46d7bbc3c0652d2352577c11877c44b36608
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831554"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831554"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-27_
+_**Dernière modification de la rubrique :** 2012-09-27_
 
 Cette section décrit comment configurer le composant WebPart conférences et Office Web Apps Server.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour la sauvegarde et la restauration: outils et autorisations'
+title: 'Lync Server 2013 : configuration requise pour la sauvegarde et la restauration : outils et autorisations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Backup and restoration requirements: tools and permissions'
 ms:assetid: 35ec2e33-f33e-4f84-9e64-6550fd78aa52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202171(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53128d99abfd438c174b98544889781b5f29b57b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea5e4ce57e61be50bfd1e2a78529830b4a40e3ed
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838751"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34838751"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Configurations requises pour la sauvegarde et la restauration dans Lync Server 2013: outils et autorisations
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Configurations requises pour la sauvegarde et la restauration dans Lync Server 2013 : outils et autorisations
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838751"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-17_
+_**Dernière modification de la rubrique :** 2013-02-17_
 
 Cette rubrique identifie les outils que vous pouvez utiliser pour sauvegarder et restaurer Lync Server 2013, les autorisations dont vous avez besoin et si vous pouvez exécuter des commandes à distance ou localement. Ce sujet décrit en particulier les outils fournis avec Lync Server pour la sauvegarde et la restauration.
 
@@ -52,8 +54,8 @@ Pour sauvegarder Lync Server, utilisez les outils identifiés dans le tableau su
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pour sauvegarder ce problème, procédez comme suit:</th>
-<th>Utilisez cet outil ou cette applet de applet:</th>
+<th>Pour sauvegarder ce problème, procédez comme suit :</th>
+<th>Utilisez cet outil ou cette applet de applet :</th>
 </tr>
 </thead>
 <tbody>
@@ -87,7 +89,7 @@ Pour sauvegarder Lync Server, utilisez les outils identifiés dans le tableau su
 <td><p>Procédures de sauvegarde SQL Server ou Export-CsPersistentChatData. Export-CsPersistentChatData exporte les données de conversation persistante dans un fichier.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Tous les magasins de fichiers: magasin de fichiers Lync Server et magasin de fichiers d’archivage</p>
+<td><p>Tous les magasins de fichiers : magasin de fichiers Lync Server et magasin de fichiers d’archivage</p>
 <div>
 
 > [!NOTE]  
@@ -118,8 +120,8 @@ Pour restaurer Lync Server, utilisez les outils figurant dans le tableau suivant
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pour:</th>
-<th>Utilisez cet outil ou cette applet de applet:</th>
+<th>Pour ce faire :</th>
+<th>Utilisez cet outil ou cette applet de applet :</th>
 </tr>
 </thead>
 <tbody>
@@ -136,7 +138,7 @@ Pour restaurer Lync Server, utilisez les outils figurant dans le tableau suivant
 <td><p>Outil standard de gestion du système de fichiers, tel que Robocopy</p></td>
 </tr>
 <tr class="odd">
-<td><p>Recréer des bases de données vides et définir des autorisations pour les éléments suivants:</p>
+<td><p>Recréer des bases de données vides et définir des autorisations pour les éléments suivants :</p>
 <ul>
 <li><p>magasin central de gestion</p></li>
 <li><p>serveur principal</p></li>
@@ -201,10 +203,10 @@ Pour restaurer Lync Server, utilisez les outils figurant dans le tableau suivant
 </div></td>
 </tr>
 <tr class="even">
-<td><p>Restaurez les bases de données suivantes:</p>
+<td><p>Restaurez les bases de données suivantes :</p>
 <ul>
 <li><p>Archivage de la base de données (LcsLog. mdf)</p></li>
-<li><p>Surveiller des bases de données: base de données d’enregistrement des détails des appels (LcsCDR. mdf) et base de données QoE (QoEMetrics. mdf)</p></li>
+<li><p>Surveiller des bases de données : base de données d’enregistrement des détails des appels (LcsCDR. mdf) et base de données QoE (QoEMetrics. mdf)</p></li>
 </ul></td>
 <td><p>Outils de gestion de base de données SQL Server</p></td>
 </tr>

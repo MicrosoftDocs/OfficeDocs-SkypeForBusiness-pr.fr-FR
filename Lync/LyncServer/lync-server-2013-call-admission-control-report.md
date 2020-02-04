@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de contrôle d’admission des appels'
+title: 'Lync Server 2013 : rapport de contrôle d’admission des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Admission Control Report
 ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f31159742757b7ef8b6889b7961bad747b1f6d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff036a27149db4360a938fe2ce9d63c2718f4d94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838718"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838718"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-29_
+_**Dernière modification de la rubrique :** 2012-06-29_
 
 Le rapport du contrôle d’admission des appels fournit des informations sur les sessions P2P et de conférence menées avec des restrictions mises en place par le contrôle d’admission des appels. Le contrôle d’admission des appels, présenté dans Microsoft Lync Server 2010, permet aux administrateurs d’autoriser (ou non) les sessions de communication en fonction de contraintes de bande passante. Par exemple, les administrateurs peuvent créer des stratégies qui imposent une quantité limite de bande passante disponible pour les appels vocaux et vidéo. Si cette limite est atteinte, aucun nouvel appel vocal ou vidéo ne peut être effectué tant que l’un des appels en cours n’est pas terminé et que les ressources réseau requises ne sont pas libérées.
 

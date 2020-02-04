@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modification du diagramme de configuration réseau'
+title: 'Lync Server 2013 : modification du diagramme de configuration réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the network configuration diagram
 ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2772cad1d1a16aa0363b1ab50d0bcaadacb91a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831319"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 La majeure partie du travail qu’un concepteur effectue dans l’outil de planification de Lync Server 2013 (en anglais) consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le réseau de tâches. Les informations entrées dans cette page sont incluses dans les rapports et autres informations contenus dans l’outil de planification.
 
-![Diagramme du réseau d’outils de planification] (images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Diagramme du réseau d’outils de planification")
+![Diagramme du réseau d’outils de planification](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Diagramme du réseau d’outils de planification")
 
 L’outil de planification crée un diagramme de réseau avec le texte par défaut pour les adresses IP et les noms de domaine complets.
 

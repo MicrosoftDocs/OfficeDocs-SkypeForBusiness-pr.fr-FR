@@ -3,6 +3,8 @@ title: Topologie de référence de Lync Server 2013 utilisée dans les grandes o
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for large organizations with multiple data centers
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d9edde5ab097f3244919d6dd2c572b4a1dc112
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823832"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823832"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 La prise en charge de la topologie de référence pour une grande organisation disposant de multiples centres de données est conçue pour toute taille d’entreprise dotée de plusieurs sites centraux. La topologie exacte du diagramme suivant est prévue pour une organisation comportant 50 000 utilisateurs, dont 20 000 sur le site central A, 20 000 sur le site central B et un total de 10 000 sur le site central C et les sites de succursale. Le type de topologie illustré dans ce diagramme peut convenir à toutes les organisations, quel que soit le nombre d’utilisateurs.
 
@@ -43,19 +45,19 @@ Cette topologie est présentée dans de nombreux diagrammes, avec tout d’abord
 
 **Vue d’ensemble de la topologie de référence pour les grandes organisations disposant de plusieurs centres de données**
 
-![Topologie de référence pour plusieurs centres de données] (images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topologie de référence pour plusieurs centres de données")
+![Topologie de référence pour différents centres de données](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topologie de référence pour différents centres de données")
 
 **Topologie de référence pour les grandes organisations : vue détaillée du site central A**
 
-![dab33f19-e77b-42da-9047-858fb9851264] (images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
+![dab33f19-e77b-42da-9047-858fb9851264](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **Topologie de référence pour les grandes organisations : vue détaillée du site central B**
 
-![5ccaf1d4-BD53-4cb7-96fe-723147334e7f] (images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-BD53-4cb7-96fe-723147334e7f")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **Topologie de référence pour les grandes organisations : vue détaillée du site central C**
 
-![7238ca40-340c-491f-B497-ddc2665dadb6] (images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-B497-ddc2665dadb6")
+![7238ca40-340c-491f-b497-ddc2665dadb6](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
   - **Les pools front-end sont couplés pour permettre une reprise après sinistre.**    Les pools front-end sur le site A et le site B sont associés entre eux pour fournir une prise en charge de la reprise après sinistre. Si le pool au niveau d’un site est en échec, l’administrateur peut basculer sur les utilisateurs de ce site vers le pool frontal associé sur l’autre site, avec un minimum d’interruption de service pour les utilisateurs. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. Pour plus d’informations, reportez-vous à [planification d’une haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
@@ -69,7 +71,7 @@ Cette topologie est présentée dans de nombreux diagrammes, avec tout d’abord
 
   - **Le fait de surveiller et d’archiver**cette organisation a déployé la surveillance et l’archivage.    Lorsque vous déployez ces deux fonctionnalités, elles s’exécutent sur chaque serveur frontal. Les bases de données pour ces fonctionnalités peuvent être colocalisées avec la base de données principale ou se trouver sur un serveur distinct. Cette organisation a disposé ces bases de données sur un serveur distinct des serveurs principaux, dans le site central B. Ces bases de données reçoivent les données de surveillance et d’archivage en provenance des serveurs frontaux dans tous les sites.
 
-  - **Options de déploiement d’un site de succursale.**    Cette organisation a réellement plus de 50 branches, dont trois uniquement sont affichées dans les diagrammes détaillés. Les sites de succursale 1 et 3 ne disposent pas d’une liaison WAN fiable vers le site central, de sorte qu’ils disposent de périphériques succursales Survivables déployés pour fournir les services téléphoniques en cas de panne du lien WAN vers le site central. Le site de succursale 2 possède toutefois une liaison WAN résiliente, de sorte que vous n’avez besoin que d’une passerelle réseau téléphonique commuté (RTC). La passerelle RTC déployée prend en charge la fonctionnalité de contournement du contenu multimédia; donc aucun serveur d’intermédiation n’est requis pour la succursale. Pour plus d’informations sur la sélection des éléments à installer sur un site de succursale, voir [planification de la résilience vocale d’entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) dans la documentation de planification.
+  - **Options de déploiement d’un site de succursale.**    Cette organisation a réellement plus de 50 branches, dont trois uniquement sont affichées dans les diagrammes détaillés. Les sites de succursale 1 et 3 ne disposent pas d’une liaison WAN fiable vers le site central, de sorte qu’ils disposent de périphériques succursales Survivables déployés pour fournir les services téléphoniques en cas de panne du lien WAN vers le site central. Le site de succursale 2 possède toutefois une liaison WAN résiliente, de sorte que vous n’avez besoin que d’une passerelle réseau téléphonique commuté (RTC). La passerelle RTC déployée prend en charge la fonctionnalité de contournement du contenu multimédia ; donc aucun serveur d’intermédiation n’est requis pour la succursale. Pour plus d’informations sur la sélection des éléments à installer sur un site de succursale, voir [planification de la résilience vocale d’entreprise dans Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) dans la documentation de planification.
 
   - **Serveur de médiation et de trunking SIP.**    Notez que sur le site central B, le serveur de médiation n’est pas colocalisé avec les serveurs frontaux. En effet, un serveur de médiation autonome est préférable sur les sites qui utilisent une jonction SIP. Dans la plupart des autres cas, nous recommandons de colocaliser le serveur de médiation avec le serveur frontal. Pour plus d’informations sur les topologies du serveur de médiation, voir [composants et topologies du serveur de médiation dans Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) dans la documentation de planification.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création ou modification d’un flux de travail inte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify an interactive workflow
 ms:assetid: bc7bb1bc-bf6a-4636-ae93-c56fa22613fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205213(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ede826df74d63270afe2ea3f4e992cdcddbbe412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eec10d1d9c3281485078b2d7823978c429ea1be3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838071"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-09-11_
+_**Dernière modification de la rubrique :** 2013-09-11_
 
 Pour créer ou modifier un flux de travail interactif, utilisez l’une des procédures suivantes.
 
@@ -41,7 +43,7 @@ Pour créer ou modifier un flux de travail interactif, utilisez l’une des proc
 
 
 > [!NOTE]  
-> Vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration de Response Group pour créer et modifier des flux de travail interactifs. Vous pouvez accéder à l’outil de configuration de Response Group à partir du panneau de configuration de Lync Server ou en ouvrant la page Web directement à partir d’un navigateur Web en tapant l’URL suivante: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
+> Vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration de Response Group pour créer et modifier des flux de travail interactifs. Vous pouvez accéder à l’outil de configuration de Response Group à partir du panneau de configuration de Lync Server ou en ouvrant la page Web directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
 
 
 
@@ -65,7 +67,7 @@ Pour créer ou modifier un flux de travail interactif, utilisez l’une des proc
     
 
     > [!NOTE]  
-    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant l’URL suivante: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
+    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
 
     
     </div>
@@ -126,7 +128,7 @@ Pour créer ou modifier un flux de travail interactif, utilisez l’une des proc
     
 
     > [!NOTE]  
-    > N’incluez pas les&lt;caractères «»&gt;ou «» dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : RGS Presence Watcher ou Service d’annonce.
+    > N’incluez pas les&lt;caractères « »&gt;ou « » dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : RGS Presence Watcher ou Service d’annonce.
 
     
     </div>
@@ -137,7 +139,7 @@ Pour créer ou modifier un flux de travail interactif, utilisez l’une des proc
 
 14. Facultatif Dans **Description**, tapez une description pour le flux de travail que vous souhaitez voir apparaître sur la carte de visite dans le client Lync.
 
-15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit:
+15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit :
     
     1.  Tapez l’URI SIP (Session Initiation Protocol) d’un responsable pour ce flux de travail, puis cliquez sur **Ajouter**.
     
@@ -386,7 +388,7 @@ Pour créer ou modifier un flux de travail interactif, utilisez l’une des proc
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Extrayez le nom de service du service Response Group et affectez-le à une variable. À partir de la ligne de commande, exécutez la commande suivante :
     

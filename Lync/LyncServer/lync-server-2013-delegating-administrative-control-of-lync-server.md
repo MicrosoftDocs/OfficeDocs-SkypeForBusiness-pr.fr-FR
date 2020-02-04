@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Délégation du contrôle administratif de Lync Serve
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delegating administrative control of Lync Server 2013
 ms:assetid: 0f378eff-8ef4-4c60-9fd2-67d7ee259ef8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520951(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2acecec7a4b6543bb5dd22720af7a3f9aab62137
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 134d5a4abae1173cc1d74cecb876951cea6d72c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831665"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831665"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Dans Lync Server 2013, les tâches d’administration sont déléguées aux utilisateurs à l’aide de la nouvelle fonctionnalité de contrôle d’accès basée sur les rôles (RBAC). Lorsque vous installez Lync Server, un certain nombre de rôles RBAC sont créés pour vous. Ces rôles correspondent aux groupes de sécurité universelles dans les services de domaine Active Directory. Par exemple, le rôle RBAC CsHelpDesk correspond au groupe CsHelpDesk figurant dans le conteneur utilisateurs dans les services de domaine Active Directory (AD FS). Par ailleurs, chaque rôle RBAC est associé à un ensemble de cmdlets Windows PowerShell Lync Server. Ces applets de contrôle représentent les tâches qui peuvent être effectuées par les utilisateurs auxquels le rôle RBAC donné a été attribué. Par exemple, le rôle CsHelpDesk a été affecté aux cmdlets Lock-CsClientPin et UnlockCsClientPin. Cela signifie que les utilisateurs qui ont été attribués au rôle CsHelpDesk peuvent verrouiller ou déverrouiller des numéros de broche d’utilisateur. Toutefois, le rôle CsHelpDesk n’a pas été affecté à l’applet de nouvelle applet de nouveau CsVoicePolicy. Cela signifie que les utilisateurs qui ont été affectés au rôle CsHelpDesk ne peuvent pas créer de nouvelles stratégies vocales.
 
@@ -41,13 +43,13 @@ Dans Lync Server 2013, les tâches d’administration sont déléguées aux util
 
 ## <a name="viewing-information-about-rbac-roles"></a>Affichage d’informations sur les rôles RBAC
 
-Vous pouvez récupérer des informations de base sur vos rôles RBAC en exécutant la commande suivante à partir de Lync Server Management Shell:
+Vous pouvez récupérer des informations de base sur vos rôles RBAC en exécutant la commande suivante à partir de Lync Server Management Shell :
 
     Get-CsAdminRole
 
 Gardez à l’esprit que l’identité du rôle RBAC (par exemple, CsVoiceAdministrator) est associée à un groupe de sécurité figurant dans le conteneur utilisateurs dans les services de domaine Active Directory (AD DS).
 
-Pour afficher une liste des applets de commande attribuées à un rôle, utilisez une commande semblable à celle-ci:
+Pour afficher une liste des applets de commande attribuées à un rôle, utilisez une commande semblable à celle-ci :
 
     Get-CsAdminRole -Identity "CsHelpDesk" | Select-Object -ExpandProperty Cmdlets
 
@@ -57,7 +59,7 @@ Pour afficher une liste des applets de commande attribuées à un rôle, utilise
 
 ## <a name="assigning-an-rbac-role-to-a-user"></a>Attribution d’un rôle RBAC à un utilisateur
 
-Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe de sécurité Active Directory approprié. Par exemple, pour affecter le rôle CsLocationAdministrator à un utilisateur, vous devez ajouter cet utilisateur au groupe CsLocationAdministrator. Pour cela, procédez comme suit:
+Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe de sécurité Active Directory approprié. Par exemple, pour affecter le rôle CsLocationAdministrator à un utilisateur, vous devez ajouter cet utilisateur au groupe CsLocationAdministrator. Pour cela, procédez comme suit :
 
 **Pour affecter un utilisateur à un groupe de sécurité**
 
@@ -75,7 +77,7 @@ Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe
 
 7.  Dans la boîte de dialogue **Propriétés** , cliquez sur **OK**.
 
-Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de contrôle [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) , en transmettant l’applet de contrôle sAMAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez la commande suivante à partir de Lync Server Management Shell:
+Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de contrôle [Get-CsAdminRoleAssignment](https://docs.microsoft.com/powershell/module/skype/Get-CsAdminRoleAssignment) , en transmettant l’applet de contrôle sAMAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez la commande suivante à partir de Lync Server Management Shell :
 
     Get-CsAdminRoleAssignment  -Identity "kenmyer"
 

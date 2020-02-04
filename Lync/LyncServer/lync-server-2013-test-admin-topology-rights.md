@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: tester les droits du topologie d’administrateur'
+title: 'Lync Server 2013 : tester les droits du topologie d’administrateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin topology rights
 ms:assetid: 0c03b7fd-449a-47ad-8263-ce811164cbce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 365c879678ff3fd51dcaaf89d4b2593eccf645f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3681a3328f0e1e659377947919bbfc782f1fea7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846618"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846618"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-12-08_
+_**Dernière modification de la rubrique :** 2016-12-08_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2016-12-08_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsSetupPermission. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsSetupPermission. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsSetupPermission&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -84,7 +86,7 @@ L’applet de contrôle test-CsSetupPermission vérifie que les autorisations re
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Pour déterminer si des autorisations de configuration sont affectées pour un conteneur Active Directory, appelez l’applet de contrôle test-CsSetupPermission. Spécifiez le nom unique du conteneur à vérifier. Par exemple, cette commande vérifie les autorisations de configuration sur le conteneur ou = CsServers, DC = litwareinc, DC = com:
+Pour déterminer si des autorisations de configuration sont affectées pour un conteneur Active Directory, appelez l’applet de contrôle test-CsSetupPermission. Spécifiez le nom unique du conteneur à vérifier. Par exemple, cette commande vérifie les autorisations de configuration sur le conteneur ou = CsServers, DC = litwareinc, DC = com :
 
     Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"
 
@@ -96,21 +98,21 @@ Pour plus d’informations, consultez la rubrique d’aide de l’applet de [con
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si test-CsSetupPermission détermine que les autorisations requises ont déjà été définies sur un conteneur Active Directory, l’applet de contrôle renverra la valeur true:
+Si test-CsSetupPermission détermine que les autorisations requises ont déjà été définies sur un conteneur Active Directory, l’applet de contrôle renverra la valeur true :
 
-True
+Vrai
 
 Si les autorisations ne sont pas définies, testez-CsSetupPermission renverra la valeur false. Notez que cette valeur est généralement incluse dans de nombreux messages d’avertissement. Par exemple :
 
-AVERTISSEMENT: entrée de contrôle d’accès (ACE) ATL-cs\\-001 RTCUniversalServerAdmins; Verte ExtendedRight; Néant Néant 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
+AVERTISSEMENT : entrée de contrôle d’accès (ACE) ATL-cs\\-001 RTCUniversalServerAdmins ; Verte ExtendedRight; Néant Néant 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
 
-AVERTISSEMENT: les entrées de contrôle d’accès (ACE) sur l’objet «CN = ordinateurs, DC = litwareinc, DC = com» ne sont pas prêtes.
+AVERTISSEMENT : les entrées de contrôle d’accès (ACE) sur l’objet « CN = ordinateurs, DC = litwareinc, DC = com » ne sont pas prêtes.
 
 False
 
-AVERTISSEMENT: le traitement des «tests-CsSetupPermission» s’est terminé avec des avertissements. des avertissements "2" ont été enregistrés lors de cette exécution.
+AVERTISSEMENT : le traitement des « tests-CsSetupPermission » s’est terminé avec des avertissements. des avertissements "2" ont été enregistrés lors de cette exécution.
 
-AVERTISSEMENT: des résultats détaillés sont disponibles à l’adresse\\suivante\\:\\«\\C\\:\\Users admin AppData Local Temp test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118. html».
+AVERTISSEMENT : des résultats détaillés sont disponibles à l’adresse\\suivante\\:\\«\\C\\:\\Users admin AppData Local Temp test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118. html ».
 
 </div>
 
@@ -118,7 +120,7 @@ AVERTISSEMENT: des résultats détaillés sont disponibles à l’adresse\\suiva
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Même s’il existe des exceptions rares, en cas de test-CsSetupPermission, cela signifie que les autorisations de configuration ne sont pas affectées pour le conteneur Active Directory spécifié. Ces autorisations peuvent être affectées à l’aide de l’applet de passe Grant-CsSetupPermission. Par exemple, cette commande accorde des autorisations de configuration au conteneur ordinateurs dans le domaine litwareinc.com:
+Même s’il existe des exceptions rares, en cas de test-CsSetupPermission, cela signifie que les autorisations de configuration ne sont pas affectées pour le conteneur Active Directory spécifié. Ces autorisations peuvent être affectées à l’aide de l’applet de passe Grant-CsSetupPermission. Par exemple, cette commande accorde des autorisations de configuration au conteneur ordinateurs dans le domaine litwareinc.com :
 
     Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"
 

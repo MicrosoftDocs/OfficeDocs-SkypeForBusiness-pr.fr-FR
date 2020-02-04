@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: désactivation de la contournement de média réseau'
+title: 'Lync Server 2013 : désactivation de la contournement de média réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling network media bypass
 ms:assetid: 936d2678-d712-4589-b172-b5793013652f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688141(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9bfab9fbf8174a1124a45681098196c84ac5444
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0457281a743d317e17a5fd0728e1a747b4d88271
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831377"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757608"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831377"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-15_
+_**Dernière modification de la rubrique :** 2012-10-15_
 
 Les paramètres de contournement de média s’appliquent globalement dans le déploiement de Microsoft Lync Server 2013. Bypass Media accepte les appels pour ignorer le serveur de médiation. Pour plus d’informations sur l’utilisation du contournement du contenu multimédia, voir [planification d’une dérivation multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) dans la section planification. Vous pouvez désactiver la dérivation multimédia du panneau de configuration de Lync Server. Pour plus d’informations sur l’activation et la configuration du contournement du son, voir [activation du contournement de média réseau dans Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
 

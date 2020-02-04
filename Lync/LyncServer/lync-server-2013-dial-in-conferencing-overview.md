@@ -3,6 +3,8 @@ title: Présentation de la Conférence rendez-vous dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing overview
 ms:assetid: 6e581cef-960a-4730-8b22-91b2129d34e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398524(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 820c880d44a1ecede139a8d3caddf3f6c40e65a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a126e7e1ee61f48ff8857553b7677abf813a25e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831406"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831406"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
 Si votre organisation a des utilisateurs qui ont besoin de participer à des conférences en local Lync Server 2013 lorsqu’elles ne sont pas en mesure d’accéder à un ordinateur, vous pouvez déployer la Conférence rendez-vous pour pouvoir participer à la Conférence en utilisant un téléphone commuté public. téléphone réseau (RTC).
 
@@ -55,7 +57,7 @@ Les conférences doivent être activées pour l’accès rendez-vous dans la str
 
   - Un ou plusieurs numéros d’accès PSTN.
 
-  - Un lien vers une page de paramètres de conférence rendez-vous, qui contient la liste complète des numéros d’accès avec les langues associées; un emplacement de création, de réinitialisation et de déblocage des numéros d’identification personnels. ainsi que d’autres informations, telles que les contrôles DTMF (multifrequency Multitone).
+  - Un lien vers une page de paramètres de conférence rendez-vous, qui contient la liste complète des numéros d’accès avec les langues associées ; un emplacement de création, de réinitialisation et de déblocage des numéros d’identification personnels. ainsi que d’autres informations, telles que les contrôles DTMF (multifrequency Multitone).
 
 La fonction de conférence rendez-vous est prise en charge pour les utilisateurs d’entreprise et les utilisateurs anonymes. Les utilisateurs de l’entreprise disposent des informations d’identification de services de domaine Active Directory et de comptes Lync Server 2013 au sein de leur organisation. Les utilisateurs anonymes ne disposent pas d’informations d’identification dans votre organisation. Dans le contexte d’une conférence rendez-vous, un utilisateur d’une organisation d’un partenaire fédéré qui utilise le RTC pour se connecter à une conférence est considéré comme un utilisateur anonyme. Pour la conférence rendez-vous, contrairement aux autres contextes, les utilisateurs fédérés ne sont pas authentifiés.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des cartes réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3469e9d5fa3f7aeb45bc8f35ff692d97d09b8481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30889a6b145e7256a313c4deedafc74d99499719
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838354"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838354"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
 Vous devez assigner une ou plusieurs adresses IP à la carte réseau externe et au moins une adresse IP à la carte réseau interne.
 
-Dans les procédures suivantes, le serveur qui exécute le routage de demandes d’applications de la passerelle de gestion des menaces (TMG) 2010 ou de l’application Internet Information Server est doté de deux cartes réseau:
+Dans les procédures suivantes, le serveur qui exécute le routage de demandes d’applications de la passerelle de gestion des menaces (TMG) 2010 ou de l’application Internet Information Server est doté de deux cartes réseau :
 
   - Une carte réseau publique ou externe, qui permet aux clients qui essaient de se connecter à votre site Web (généralement sur Internet).
 
@@ -57,7 +59,7 @@ Dans les procédures suivantes, le serveur qui exécute le routage de demandes d
 
 ## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a>Pour configurer les cartes réseau sur l’ordinateur proxy inverse
 
-1.  Sur Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 Server en tant que proxy inverse, ouvrez modifier les **paramètres** de la carte en cliquant sur **Démarrer**, pointez sur **panneau**de configuration, cliquez sur **réseau. et le centre de partage**, puis en cliquant sur **modifier les paramètres**de la carte.
+1.  Sur Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 Server en tant que proxy inverse, ouvrez modifier les **paramètres** de la carte en cliquant sur **Démarrer**, pointez sur **panneau**de configuration, cliquez sur **Centre de réseaux et de partage**, puis sur **modifier les paramètres**de la carte.
 
 2.  Cliquez avec le bouton droit sur la connexion réseau externe que vous souhaitez utiliser pour l’interface externe, puis cliquez sur **Propriétés**.
 
@@ -69,7 +71,7 @@ Dans les procédures suivantes, le serveur qui exécute le routage de demandes d
     
 
     > [!NOTE]  
-    > Si le proxy inverse est déjà utilisé par d’autres applications qui utilisent HTTPs/TCP/443 (par exemple, pour la publication d’Outlook Web Access), vous devez ajouter une autre adresse IP pour pouvoir publier les services Web 2013 Lync Server sur HTTPs/TCP/443 sans interférer à l’aide des règles et des écouteurs Web existants, ou si vous avez besoin de remplacer le certificat existant par un certificat qui ajoute les nouveaux noms de domaine complets sur le nom de l’autre objet.
+    > Si le proxy inverse est déjà utilisé par d’autres applications qui utilisent HTTPs/TCP/443, par exemple, pour la publication d’Outlook Web Access, vous devez ajouter une autre adresse IP afin de publier les services Web de Lync Server 2013 sur HTTPs/TCP/443 sans interférer avec les règles et les écouteurs Web existants, ou vous devez remplacer le certificat existant par un certificat qui ajoute les nouveaux noms de domaine complets (FQDN) sur le nom de l’objet.
 
     
     </div>

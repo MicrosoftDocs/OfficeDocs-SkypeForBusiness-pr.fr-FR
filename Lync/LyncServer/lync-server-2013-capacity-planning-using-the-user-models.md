@@ -3,6 +3,8 @@ title: Planification de la capacité de Lync Server 2013 à l’aide des modèle
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b7db58e8c6f3e84f95a51ddd393ddca5ec18091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd9b3861e4c84b8df7585ad5cfbdfd5a82359282
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838690"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838690"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-01-14_
+_**Dernière modification de la rubrique :** 2014-01-14_
 
 Cette section fournit des recommandations sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans la rubrique [modèles d’utilisateur de Lync Server 2013](lync-server-2013-user-models.md).
 
@@ -136,7 +138,7 @@ Le tableau suivant résume ces recommandations.
 </tr>
 <tr class="even">
 <td><p>Un serveur de médiation</p></td>
-<td><p>Le serveur de médiation en fonction du serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante aux utilisateurs de la liste. Pour un serveur de médiation autonome, voir la section «serveur de médiation» plus loin dans cette rubrique.</p></td>
+<td><p>Le serveur de médiation en fonction du serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante aux utilisateurs de la liste. Pour un serveur de médiation autonome, voir la section « serveur de médiation » plus loin dans cette rubrique.</p></td>
 </tr>
 <tr class="odd">
 <td><p>One Standard Edition Server</p></td>
@@ -163,7 +165,7 @@ Le tableau suivant résume ces recommandations.
 
 </div>
 
-Dans un pool frontal, vous devez disposer d’un serveur frontal pour chaque 6 660 hébergé dans le pool, en partant du principe que la technologie hyperthreading est activée sur tous les serveurs du pool et que le matériel du serveur répond aux recommandations des [plateformes matérielles pour Lync. Server 2013](lync-server-2013-server-hardware-platforms.md). Le nombre maximal d’utilisateurs dans une liste frontale est de 80 000, en supposant que la technologie hyperthreading est activée sur tous les serveurs du pool. Si vous avez plus d’utilisateurs 80 000 sur un site, vous pouvez déployer plusieurs pools front-end.
+Dans une liste frontale, vous devez disposer d’un serveur frontal pour chaque 6 660 de la liste d’utilisateurs, en partant du principe que la technologie hyperthreading est activée sur tous les serveurs du pool et que le matériel du serveur satisfait aux recommandations en matière de [plateformes matérielles serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md). Le nombre maximal d’utilisateurs dans une liste frontale est de 80 000, en supposant que la technologie hyperthreading est activée sur tous les serveurs du pool. Si vous avez plus d’utilisateurs 80 000 sur un site, vous pouvez déployer plusieurs pools front-end.
 
 Lorsque vous comptez le nombre d’utilisateurs dans un pool frontal, incluez les utilisateurs sur les appareils de succursales Survivables et les serveurs de succursales Survivables dans les succursales associées à ce pool frontal.
 
@@ -175,7 +177,7 @@ Le nombre maximal d’utilisateurs dans une liste frontale est de 80 000. Le nom
 
 Dans le cas d’un pool frontal avec des utilisateurs 80 000, douze serveurs frontaux sont suffisants pour les performances, dans les déploiements standard qui suivent les [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md). Les déploiements conçus pour prendre en charge le basculement de reprise après sinistre présupposent qu’un maximum de 40 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, dans lesquels chaque pool dispose d’un serveur frontal suffisant pour répondre aux besoins des utilisateurs dans les deux pools doit être en échec. sur l’autre.
 
-Le nombre d’utilisateurs pris en charge avec une bonne performance par un pool frontal particulier peuvent différer de ces numéros pour les raisons suivantes:
+Le nombre d’utilisateurs pris en charge avec une bonne performance par un pool frontal particulier peuvent différer de ces numéros pour les raisons suivantes :
 
   - Le matériel de votre serveur frontal ne répond pas aux recommandations des [plateformes matérielles pour Lync server 2013](lync-server-2013-server-hardware-platforms.md).
 
@@ -185,7 +187,7 @@ Le nombre d’utilisateurs pris en charge avec une bonne performance par un pool
 
 
 > [!IMPORTANT]  
-> Dans Lync Server 2013, les bases de données de présence sont désormais hébergées sur des serveurs frontaux, contrairement à Lync Server 2010 où elles étaient hébergées sur le serveur principal. En d’autres termes, il n’est pas possible de violer les performances et la capacité de votre serveur frontal grâce aux recommandations indiquées dans cette section et dans les <A href="lync-server-2013-server-hardware-platforms.md">plates-formes matérielles pour Lync server 2013</A>, quel que soit le nombre d’utilisateurs hébergés par vos serveurs frontaux.
+> Dans Lync Server 2013, les bases de données de présence sont désormais hébergées sur des serveurs frontaux, contrairement à Lync Server 2010 où elles étaient hébergées sur le serveur principal. Cela signifie que les performances et la capacité du disque de vos serveurs frontaux ne doivent pas être compromises par rapport aux recommandations indiquées plus haut dans cette section et dans les <A href="lync-server-2013-server-hardware-platforms.md">plates-formes matérielles pour Lync server 2013</A>, quel que soit le nombre d’utilisateurs hébergés sur votre serveur principal.
 
 
 
@@ -218,7 +220,7 @@ Le tableau suivant indique la bande passante moyenne pour la messagerie instanta
 
 
 > [!NOTE]  
-> Pour améliorer les performances multimédias de la fonctionnalité de conférence A/V et de médiation du serveur de médiation sur votre serveur frontal, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section «améliorations apportées à l’évolutivité du côté <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>réception dans Windows Server 2008» à l’adresse. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
+> Pour améliorer les performances multimédias de la fonctionnalité de conférence A/V et de médiation du serveur de médiation sur votre serveur frontal, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur vos serveurs frontaux. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section « améliorations apportées à l’évolutivité du côté <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
 
 
 
@@ -264,7 +266,7 @@ Lorsque vous comptez le nombre d’utilisateurs pour les serveurs Edge, incluez 
 
 
 > [!NOTE]  
-> Pour améliorer les performances du service Edge de conférence A/V sur votre serveur Edge, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur les serveurs Edge. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section «améliorations apportées à l’évolutivité du côté <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>réception dans Windows Server 2008» à l’adresse. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
+> Pour améliorer les performances du service Edge de conférence A/V sur votre serveur Edge, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur les serveurs Edge. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section « améliorations apportées à l’évolutivité du côté <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
 
 
 
@@ -310,11 +312,11 @@ Si vous collocate un serveur de médiation avec un serveur frontal, le serveur d
 
 Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, dont le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP, dont vous disposez, le nombre de pairs de passerelle les contrôles, le trafic horaire occupé par le biais de ces passerelles et le pourcentage d’appels avec des éléments multimédias qui contournent le serveur de médiation.
 
-Les tableaux suivants décrivent le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en partant du principe que le matériel requis pour les serveurs de médiation répond à la configuration requise dans les [plates-formes matérielles de serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md) et ce Hyper-Threading. est activé. Pour plus d’informations sur la modularité du serveur de médiation, voir [estimation de l’utilisation de la voix et du trafic pour Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) et [recommandations de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
+Les tableaux suivants décrivent le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en partant du principe que le matériel requis pour les serveurs de médiation répond à la configuration requise dans les [plates-formes matérielles pour Lync server 2013](lync-server-2013-server-hardware-platforms.md) et que la technologie hyperthreading est activée. Pour plus d’informations sur la modularité du serveur de médiation, voir [estimation de l’utilisation de la voix et du trafic pour Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) et [recommandations de déploiement pour le serveur de médiation dans Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
 Toutes les tables suivantes présupposent que l’utilisation est résumée dans les [modèles utilisateur dans Lync Server 2013](lync-server-2013-user-models.md).
 
-### <a name="stand-alone-mediation-server-capacity-70-internal-users-30-external-users-with-non-bypass-call-capacity-media-transcoding-performed-by-mediation-server"></a>Capacité du serveur de médiation autonome: 70% des utilisateurs internes et 30% des utilisateurs externes avec la capacité de non-contournement de l’appel (transcodage de média effectué par le serveur de médiation)
+### <a name="stand-alone-mediation-server-capacity-70-internal-users-30-external-users-with-non-bypass-call-capacity-media-transcoding-performed-by-mediation-server"></a>Capacité du serveur de médiation autonome : 70% des utilisateurs internes et 30% des utilisateurs externes avec la capacité de non-contournement de l’appel (transcodage de média effectué par le serveur de médiation)
 
 <table>
 <colgroup>
@@ -394,7 +396,7 @@ Toutes les tables suivantes présupposent que l’utilisation est résumée dans
 
 
 > [!NOTE]  
-> Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur les serveurs de médiation. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section «améliorations apportées à l’évolutivité du côté <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>réception dans Windows Server 2008» à l’adresse. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
+> Pour améliorer les performances du serveur de médiation, vous devez activer la mise à l’échelle côté réception (RSS) sur les cartes réseau sur les serveurs de médiation. RSS permet la gestion en parallèle des paquets entrants par plusieurs processeurs sur le serveur. Pour plus d’informations, consultez la section « améliorations apportées à l’évolutivité du côté <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>réception dans Windows Server 2008 » à l’adresse. Pour plus d’informations sur l’activation de RSS, reportez-vous à la documentation de votre carte réseau.
 
 
 
@@ -494,17 +496,17 @@ Microsoft a utilisé le matériel décrit dans le tableau ci-dessous pour le ser
 <tr class="odd">
 <td><p>Fichier journal de la base de données d’enregistrement des détails des appels</p></td>
 <td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 <tr class="even">
 <td><p>Fichier journal de la base de données QoE</p></td>
 <td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 <tr class="odd">
 <td><p>Fichier journal de la base de données d’archivage</p></td>
 <td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>deuxième</p></td>
 </tr>
 </tbody>
 </table>

@@ -3,6 +3,8 @@ title: Utilisation de la recherche dans les journaux de capture créés par le s
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using search on capture logs created by the Centralized Logging Service
 ms:assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47b9d11713e874915fac0e4b67099ce3f7456546
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edfc176934479aef04d6850a8ebbae3b38a553a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846362"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846362"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Les fonctionnalités de recherche du service de journalisation centralisée sont utiles et puissantes pour les raisons suivantes:
+Les fonctionnalités de recherche du service de journalisation centralisée sont utiles et puissantes pour les raisons suivantes :
 
   - Vos recherches et les résultats sont exécutés sur un seul ordinateur, un pool, un site ou une étendue globale, en fonction des critères que vous définissez.
 
@@ -49,7 +51,7 @@ Après chaque recherche, l’applet de commande **Sync-CsClsLogging** est exécu
 
 Pour tirer le meilleur parti du service de journalisation centralisé, vous devez comprendre comment configurer la recherche pour renvoyer uniquement les messages de suivi des journaux d’ordinateur et de pool pertinents pour le problème que vous recherchez. aspects
 
-Pour exécuter les fonctions de recherche du service de journalisation centralisées à l’aide de Lync Server Management Shell, vous devez être membre du groupe de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC) ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette cmdlet a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell:
+Pour exécuter les fonctions de recherche du service de journalisation centralisées à l’aide de Lync Server Management Shell, vous devez être membre du groupe de sécurité CsAdministrator ou CsServerAdministrator de contrôle d’accès basé sur les rôles (RBAC) ou d’un rôle RBAC personnalisé contenant l’un de ces deux groupes. Pour renvoyer la liste de tous les rôles RBAC auxquels cette cmdlet a été affectée (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Lync Server Management Shell ou de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -63,7 +65,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 ## <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Pour effectuer une recherche de base à l’aide du service de journalisation centralisé
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Assurez-vous que le scénario AlwaysOn s’exécute dans votre déploiement au niveau de l’étendue globale, puis tapez ce qui suit dans une invite de commandes :
     
@@ -118,11 +120,11 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 ## <a name="to-run-a-search-by-using-time-parameters"></a>Pour exécuter une recherche à l’aide des paramètres d’heure
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Par défaut, l’heure de début des paramètres spécifiques d’une recherche est 30 minutes avant le moment où vous commencez la recherche. En d’autres termes, si vous lancez votre recherche sur 4:00:00 PM, la recherche effectue une recherche dans les journaux pour les ordinateurs et les groupes que vous définissez à partir de 3:30:00 PM jusqu’à 4:00:00 PM. Si vous devez effectuer une recherche 60 minutes ou 3 heures avant l’heure actuelle, utilisez le paramètre –StartTime et définissez la date et l’heure de manière à indiquer l’heure à laquelle vous souhaitez que la recherche débute.
     
-    Par exemple, en utilisant –StartTime et –EndTime pour définir une plage horaire et de dates, vous pouvez définir une recherche entre 8 h 00 00 et 9 h 00 00 le 20/11/2012 sur votre pool. Vous pouvez définir le chemin de sortie pour écrire les résultats dans un fichier nommé c\\: logfile. txt comme suit:
+    Par exemple, en utilisant –StartTime et –EndTime pour définir une plage horaire et de dates, vous pouvez définir une recherche entre 8 h 00 00 et 9 h 00 00 le 20/11/2012 sur votre pool. Vous pouvez définir le chemin de sortie pour écrire les résultats dans un fichier nommé c\\: logfile. txt comme suit :
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     
@@ -153,7 +155,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
 
 ## <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Pour exécuter une recherche avancée à l’aide d’autres critères et options de correspondance
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Pour exécuter une commande visant à collecter les suivis pour des composants en particulier, tapez ce qui suit :
     
@@ -165,7 +167,7 @@ Le reste de cette rubrique se concentre sur la définition d’une recherche en 
     
     La recherche obtenue renvoie toutes les entrées de journaux qui possèdent des composants de suivi pour SIPStack, S4 et UserServices sur tous les ordinateurs et pools de votre déploiement au cours des 30 dernières minutes.
 
-3.  Pour limiter la recherche avec les mêmes composants uniquement au pool frontal nommé pool01.contoso.net, tapez:
+3.  Pour limiter la recherche avec les mêmes composants uniquement au pool frontal nommé pool01.contoso.net, tapez :
     
         Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
 

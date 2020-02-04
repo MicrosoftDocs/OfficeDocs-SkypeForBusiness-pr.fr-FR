@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Résumé du certificat-découverte automatique'
+title: 'Lync Server 2013 : Résumé du certificat-découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Autodiscover
 ms:assetid: 16ac96bb-882a-4141-b75c-9530637548d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945616(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59c3777f9b13dc18e3e52e80120009f93c20db3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8956c8a0ed4e149f336e6670aaf5b262f1868748
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838656"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838656"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-14_
+_**Dernière modification de la rubrique :** 2013-02-14_
 
 Le service de découverte automatique de Lync Server 2013 s’exécute sur le directeur et les serveurs du pool frontal, et lorsqu’il est publié en DNS, il est possible d’utiliser les clients Lync pour localiser les services de serveur et d’utilisateur. Si vous effectuez une mise à niveau à partir de Lync Server 2010 et que vous n’avez pas déployé de mobilité, pour que les clients puissent utiliser la découverte automatique, vous devez modifier les listes de noms de remplacement du sujet du certificat sur tout directeur et serveur frontal exécutant le service de découverte automatique. Par ailleurs, il est possible que vous deviez modifier les listes nom de remplacement de l’objet sur les certificats utilisés pour les règles de publication de service Web externe sur les proxys inverses.
 
-La décision concernant l’utilisation des listes de noms de substitution sur les proxys inverse est basée sur le fait que vous publiez le service de découverte automatique sur le port 80 ou sur le port 443:
+La décision concernant l’utilisation des listes de noms de substitution sur les proxys inverse est basée sur le fait que vous publiez le service de découverte automatique sur le port 80 ou sur le port 443 :
 
   - **Publié sur le port 80**   , aucune modification de certificat n’est requise si la requête initiale au service de découverte automatique a lieu sur le port 80. En effet, les appareils mobiles exécutant Lync accèdent au proxy inverse sur le port 80 en externe, puis ils sont connectés à un serveur directeur ou frontal sur le port 8080 en interne. Pour plus d’informations, consultez la section exigences techniques de découverte automatique à l’aide de port 80» [pour la mobilité dans Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
@@ -66,7 +68,7 @@ La réémission de certificats à l’aide d’une autorité de certification in
 
 Cette rubrique décrit les noms de remplacement d’objet ajoutés requis pour le directeur, le serveur frontal et le proxy inverse. Seuls les noms d’autres noms d’objet. Reportez-vous aux sections planification pour plus d’informations sur les autres entrées des certificats. Pour plus d’informations, reportez-vous à [la rubrique scénarios pour le directeur dans Lync server 2013](lync-server-2013-scenarios-for-the-director.md), [scénarios d’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)et [scénarios de proxy inverse dans Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
 
-Les tableaux suivants définissent les entrées du SAN de découverte automatique pour le pool de directeurs, le pool frontal et le proxy inverse:
+Les tableaux suivants définissent les entrées du SAN de découverte automatique pour le pool de directeurs, le pool frontal et le proxy inverse :
 
 ### <a name="director-pool-certificate-requirements"></a>Conditions requises pour le certificat de pool de réalisateur
 

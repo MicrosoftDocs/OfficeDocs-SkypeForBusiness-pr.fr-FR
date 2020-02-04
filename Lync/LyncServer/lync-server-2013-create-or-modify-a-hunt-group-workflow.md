@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’un flux de travail de groupe de recherche'
+title: 'Lync Server 2013 : création ou modification d’un flux de travail de groupe de recherche'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a hunt group workflow
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c927b10107626c1d40c33290b30f331f660e45e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e56a93ae0be1fd6f047dc6cde724afbea7aa4064
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838072"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838072"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-09-11_
+_**Dernière modification de la rubrique :** 2013-09-11_
 
 Pour créer ou modifier un flux de travail de groupe de recherche, utilisez l’une des procédures suivantes.
 
@@ -41,7 +43,7 @@ Pour créer ou modifier un flux de travail de groupe de recherche, utilisez l’
 
 
 > [!NOTE]  
-> Vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration de Response Group pour créer et modifier des flux de travail de groupe de recherche. Vous pouvez accéder à l’outil de configuration de Response Group à partir du panneau de configuration de Lync Server ou en ouvrant la page Web directement à partir d’un navigateur Web en tapant l’URL suivante: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
+> Vous pouvez utiliser Lync Server Management Shell ou l’outil de configuration de Response Group pour créer et modifier des flux de travail de groupe de recherche. Vous pouvez accéder à l’outil de configuration de Response Group à partir du panneau de configuration de Lync Server ou en ouvrant la page Web directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
 
 
 
@@ -65,7 +67,7 @@ Pour créer ou modifier un flux de travail de groupe de recherche, utilisez l’
     
 
     > [!NOTE]  
-    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant l’URL suivante: <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
+    > L’outil de configuration de Response Group s’ouvre. Vous pouvez également ouvrir l’outil de configuration de groupe de réponse directement à partir d’un navigateur Web en tapant l’URL suivante : <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>.
 
     
     </div>
@@ -135,7 +137,7 @@ Pour créer ou modifier un flux de travail de groupe de recherche, utilisez l’
     
 
     > [!NOTE]  
-    > N’incluez pas les&lt;caractères «»&gt;ou «» dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : <STRONG>RGS Presence Watcher</STRONG> ou <STRONG>Service d’annonce</STRONG>.
+    > N’incluez pas les&lt;caractères « »&gt;ou « » dans le nom d’affichage. N’utilisez pas les noms d’affichage ci-dessous, car ils sont réservés : <STRONG>RGS Presence Watcher</STRONG> ou <STRONG>Service d’annonce</STRONG>.
 
     
     </div>
@@ -146,7 +148,7 @@ Pour créer ou modifier un flux de travail de groupe de recherche, utilisez l’
 
 14. Facultatif Dans **Description**, tapez une description pour le flux de travail tel que vous voulez qu’il apparaisse sur la carte de visite dans le client Lync.
 
-15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit:
+15. Dans **Type de flux de travail**, sélectionnez **Géré** si ce flux de travail sera géré par un responsable de groupes Response Group. Pour affecter des responsables de groupe de réponse au flux de travail, procédez comme suit :
     
     1.  Tapez l’URI SIP (Session Initiation Protocol) d’un responsable pour ce flux de travail, puis cliquez sur **Ajouter**.
     
@@ -341,7 +343,7 @@ Pour créer ou modifier un flux de travail de groupe de recherche, utilisez l’
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Créez l’invite à exécuter pour le message de bienvenue, et enregistrez-la dans une variable. Dans la ligne de commande, exécutez la commande suivante :
     

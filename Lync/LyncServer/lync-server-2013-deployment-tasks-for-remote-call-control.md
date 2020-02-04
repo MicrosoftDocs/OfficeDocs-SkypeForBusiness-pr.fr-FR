@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Tâches de déploiement du contrôle d’appel distan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63c9cba56ccedf3559b1e9f1da1ee58cc03e195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df80ebcdc879598677a037d60c9eeeee46ba5209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831456"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831456"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Cette rubrique décrit les tâches de déploiement que vous devez effectuer pour activer le contrôle d’appel distant pour les utilisateurs de votre environnement Lync Server.
 
@@ -49,11 +51,11 @@ Cette rubrique décrit les tâches de déploiement que vous devez effectuer pour
 
 <div>
 
-## <a name="step-1-install-and-configure-the-sipcsta-gateway-to-communicate-with-your-pbx"></a>Étape 1: installer et configurer la passerelle SIP/CSTA pour communiquer avec votre système PBX
+## <a name="step-1-install-and-configure-the-sipcsta-gateway-to-communicate-with-your-pbx"></a>Étape 1 : installer et configurer la passerelle SIP/CSTA pour communiquer avec votre système PBX
 
 Vous devez installer au moins une passerelle SIP/CSTA qui peut se connecter à Lync Server et au PBX (PBX) existant dans votre environnement afin de fournir aux utilisateurs des fonctionnalités de contrôle d’appel distant. Une passerelle SIP/CSTA est une passerelle entre le SIP et une application de communication prenant en charge l’ordinateur (CSTA). Qu’il s’agisse d’installer plusieurs passerelles ou une seule, chaque utilisateur peut être configuré avec une seule passerelle ou PBX. Si votre système PBX existant ne dispose pas d’une interface SIP/CSTA, assurez-vous de déployer une passerelle SIP/CSTA qui peut prendre en charge le PBX, y compris la prise en charge de protocoles de signalisation spécifiques du fabricant PBX. Pour plus d’informations sur les fonctionnalités, consultez directement chaque fournisseur.
 
-Lorsque vous êtes prêt à déployer une passerelle SIP/CSTA qui peut être intégrée à Lync Server pour le contrôle d’appel distant, contactez également le fournisseur de votre passerelle ou la documentation de la passerelle du fournisseur en ce qui concerne la syntaxe requise par la passerelle pour les informations suivantes:
+Lorsque vous êtes prêt à déployer une passerelle SIP/CSTA qui peut être intégrée à Lync Server pour le contrôle d’appel distant, contactez également le fournisseur de votre passerelle ou la documentation de la passerelle du fournisseur en ce qui concerne la syntaxe requise par la passerelle pour les informations suivantes :
 
   - URI de serveur ligne de la passerelle
 
@@ -67,9 +69,9 @@ Vous pouvez consulter les fournisseurs sur le site Web Microsoft Unified Communi
 
 <div>
 
-## <a name="step-2-configure-lync-server-to-route-csta-requests-to-the-sipcsta-gateway"></a>Étape 2: configurer Lync Server pour acheminer les demandes CSTA vers la passerelle SIP/CSTA
+## <a name="step-2-configure-lync-server-to-route-csta-requests-to-the-sipcsta-gateway"></a>Étape 2 : configurer Lync Server pour acheminer les demandes CSTA vers la passerelle SIP/CSTA
 
-Vous devez créer des itinéraires statiques sur les pools de serveurs Lync vers l’adresse de destination (URI du serveur) de toutes les passerelles SIP/CSTA de votre déploiement pour lesquelles vous souhaitez acheminer les demandes de contrôle d’appel distant. Vous devez également créer une entrée d’application fiable qui correspond à chaque adresse de destination. Lorsque vous désignez la passerelle en tant qu’application approuvée, son état de confiance s’exécute dans le cadre de l’environnement du serveur Lync, même si elle est développée par un tiers (et exécute ce qu’il est appelé *service externe* , car il s’agit d’un service qui n’est pas un partie intégrante du produit). Enfin, si Lync Server se connecte à la passerelle SIP/CSTA par le biais d’une connexion TCP (Transmission Control Protocol) au lieu d’une connexion TLS (Transport Layer Security), vous devez également définir l’adresse IP de la passerelle à l’aide du générateur de topologie.
+Vous devez créer des itinéraires statiques sur les pools de serveurs Lync vers l’adresse de destination (URI du serveur) de toutes les passerelles SIP/CSTA de votre déploiement pour lesquelles vous souhaitez acheminer les demandes de contrôle d’appel distant. Vous devez également créer une entrée d’application fiable qui correspond à chaque adresse de destination. Lorsque vous désignez la passerelle en tant qu’application approuvée, son état de confiance s’exécute dans le cadre de l’environnement Lync Server, même si elle est développée par une tierce partie (et exécute ce qu’il est désigné sous le terme de *service externe* , car il s’agit d’un service qui n’est pas intégré au produit). Enfin, si Lync Server se connecte à la passerelle SIP/CSTA par le biais d’une connexion TCP (Transmission Control Protocol) au lieu d’une connexion TLS (Transport Layer Security), vous devez également définir l’adresse IP de la passerelle à l’aide du générateur de topologie.
 
 Pour plus d’informations sur la configuration des itinéraires statiques, voir [configurer un itinéraire statique pour le contrôle d’appel distant dans Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md).
 
@@ -81,7 +83,7 @@ Pour plus d’informations sur la définition d’une adresse IP de passerelle S
 
 <div>
 
-## <a name="step-3-configure-lync-users-for-remote-call-control"></a>Étape 3: configurer les utilisateurs de Lync pour le contrôle d’appel distant
+## <a name="step-3-configure-lync-users-for-remote-call-control"></a>Étape 3 : configurer les utilisateurs de Lync pour le contrôle d’appel distant
 
 Une fois les utilisateurs activés pour Lync Server, vous pouvez utiliser le panneau de configuration de Lync Server ou Lync Server Management Shell pour les activer pour le contrôle d’appel distant. Au cours de cette étape de déploiement, vous affectez à chaque utilisateur un URI de ligne et un URI de ligne. L’URI de Line Server est l’URI SIP de la passerelle SIP/CSTA que vous envisagez d’affecter à l’utilisateur. L’URI de ligne correspond au numéro de téléphone unique attribué à l’utilisateur.
 
@@ -91,7 +93,7 @@ Pour plus d’informations sur la configuration des utilisateurs pour le contrô
 
 <div>
 
-## <a name="step-4-define-the-lync-server-phone-number-normalization-rules"></a>Étape 4: définir les règles de normalisation des numéros de téléphone de Lync Server
+## <a name="step-4-define-the-lync-server-phone-number-normalization-rules"></a>Étape 4 : définir les règles de normalisation des numéros de téléphone de Lync Server
 
 Dans les scénarios de contrôle d’appel distant, Lync Server utilise des règles de normalisation des numéros de téléphone pour convertir les numéros de téléphone reçus de la passerelle SIP/CSTA au format E. 164. Les numéros de téléphone doivent avoir le format standard pour que certaines fonctionnalités de contrôle d’appel distantes fonctionnent correctement. Le contrôle d’appel distant utilise les mêmes règles de normalisation des numéros de téléphone que celles configurées pour la normalisation des numéros de téléphone du service de carnet d’adresses, qui diffèrent des règles de normalisation des numéros de téléphone pour Enterprise Voice.
 

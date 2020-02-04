@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification de la résistance vocale du site centra
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for central site voice resiliency
 ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398347(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13195c50e88c035b0775d2958cf62cf71f7924c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbeda869c078e6adfce18088545428170b356980
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825141"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825141"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-30_
+_**Dernière modification de la rubrique :** 2013-10-30_
 
 De plus en plus d’entreprises ont plusieurs sites basés dans le monde entier. La mise à jour des services d’urgence, l’accès au support technique et la possibilité d’effectuer des tâches professionnelles critiques quand un site central est hors service est essentiel pour toute solution de résilience vocale d’entreprise. Quand un site central devient indisponible, les conditions suivantes doivent être remplies :
 
@@ -49,7 +51,7 @@ Cette rubrique décrit la solution recommandée pour sécuriser la résistance v
 
 ## <a name="architecture-and-topology"></a>Architecture et topologie
 
-La planification de la résilience vocale sur un site central nécessite une connaissance de base du rôle central joué par le Bureau d’enregistrement 2013 du serveur Lync en activant le basculement sur voix. Lync Server Registrar est un rôle serveur qui permet l’inscription et l’authentification du client et fournit les services de routage. Il se trouve avec d’autres composants sur un serveur Standard Edition, un serveur frontal, un directeur ou une branche Survivable. Un pool d’bureaux d’enregistrement est constitué de services d’enregistrement de registre en cours d’exécution sur le pool frontal et résidant sur le même site. Le pool frontal doit être équilibré. L’équilibrage de charge DNS est recommandé, mais l’équilibrage de charge matérielle est acceptable. Un client Lync Découvre le pool frontal par le biais du mécanisme de découverte suivant:
+La planification de la résilience vocale sur un site central nécessite une connaissance de base du rôle central joué par le Bureau d’enregistrement 2013 du serveur Lync en activant le basculement sur voix. Lync Server Registrar est un rôle serveur qui permet l’inscription et l’authentification du client et fournit les services de routage. Il se trouve avec d’autres composants sur un serveur Standard Edition, un serveur frontal, un directeur ou une branche Survivable. Un pool d’bureaux d’enregistrement est constitué de services d’enregistrement de registre en cours d’exécution sur le pool frontal et résidant sur le même site. Le pool frontal doit être équilibré. L’équilibrage de charge DNS est recommandé, mais l’équilibrage de charge matérielle est acceptable. Un client Lync Découvre le pool frontal par le biais du mécanisme de découverte suivant :
 
 1.  Enregistrement DNS SRV
 
@@ -84,7 +86,7 @@ La figure suivante illustre la topologie recommandée pour garantir la résilien
 
 **Topologie recommandée pour la résilience vocale d’un site central**
 
-![Topologie pour les appels vocaux de site resliency] (images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologie pour les appels vocaux de site resliency")
+![Topologie pour les appels vocaux de site resliency](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologie pour les appels vocaux de site resliency")
 
 </div>
 
@@ -116,7 +118,7 @@ Les conditions préalables et recommandations suivantes, relatives à l’implé
 
 ## <a name="dependencies"></a>Dépendances
 
-Le serveur Lync dépend de l’infrastructure et des composants logiciels suivants pour garantir la résilience vocale:
+Le serveur Lync dépend de l’infrastructure et des composants logiciels suivants pour garantir la résilience vocale :
 
 
 <table>
@@ -143,7 +145,7 @@ Le serveur Lync dépend de l’infrastructure et des composants logiciels suivan
 </tr>
 <tr class="odd">
 <td><p>Options DHCP 120</p></td>
-<td><p>Si DNS SRV n’est pas disponible, le client tente d’utiliser l’option DHCP 120 pour découvrir le serveur d’inscriptions. Pour que cette opération fonctionne, un serveur DHCP doit être configuré ou le protocole DHCP Lync Server 2013 doit être activé. Pour plus d’informations, consultez la configuration matérielle et logicielle requise pour la résilience de site pour les filiales dans la section Configuration de la résilience de <a href="lync-server-2013-branch-site-resiliency-requirements.md">site pour Lync Server 2013</a> .</p></td>
+<td><p>Si DNS SRV n’est pas disponible, le client tente d’utiliser l’option DHCP 120 pour découvrir le serveur d’inscriptions. Pour que cette opération fonctionne, un serveur DHCP doit être configuré ou le protocole DHCP Lync Server 2013 doit être activé. Pour plus d’informations, consultez la configuration matérielle et logicielle requise pour la résilience de site pour les filiales dans la section Configuration de la <a href="lync-server-2013-branch-site-resiliency-requirements.md">résilience de site pour Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation ou désactivation de l’assistance à chaud'
+title: 'Lync Server 2013 : activation ou désactivation de l’assistance à chaud'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable hot desking
 ms:assetid: 93a7fed6-f61a-4b41-9336-a8320afa87cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994057(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5d9f2d168a06b5624375dcd005da58b4d3d5fd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c56d7ae13be9afa3af7e4732242a86f4be4c458
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831288"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
-Vous pouvez configurer des téléphones communs en tant que *téléphones de bureau à chaud*. Les téléphones de bureau à chaud permettent aux utilisateurs de se connecter à leur propre compte d’utilisateur et, après leur ouverture de session, d’utiliser les fonctionnalités du serveur Lync et leurs propres paramètres de profil utilisateur. La gestion de l’accès à chaud est gérée en utilisant les stratégies client: pour activer ou désactiver la gestion de l’accès à chaud, vous devez modifier les stratégies de client utilisées par les téléphones de votre zone commune. Pour plus d’informations sur l’identification des stratégies de conférence qui ont été affectées à vos téléphones communs, voir afficher les informations sur le [téléphone de zone commune dans Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
+Vous pouvez configurer des téléphones communs en tant que *téléphones de bureau à chaud*. Les téléphones de bureau à chaud permettent aux utilisateurs de se connecter à leur propre compte d’utilisateur et, après leur ouverture de session, d’utiliser les fonctionnalités du serveur Lync et leurs propres paramètres de profil utilisateur. La gestion de l’accès à chaud est gérée en utilisant les stratégies client : pour activer ou désactiver la gestion de l’accès à chaud, vous devez modifier les stratégies de client utilisées par les téléphones de votre zone commune. Pour plus d’informations sur l’identification des stratégies de conférence qui ont été affectées à vos téléphones communs, voir afficher les informations sur le [téléphone de zone commune dans Lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
 
-Vous utilisez le paramètre EnableHotdesking de la cmdlet **New-CSClientPolicy** ou de l’applet de connexion **Set-CSClientPolicy** pour activer ou désactiver la fonction Hot Desk sur un téléphone, comme suit. Exécutez ces applets de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous utilisez le paramètre EnableHotdesking de la cmdlet **New-CSClientPolicy** ou de l’applet de connexion **Set-CSClientPolicy** pour activer ou désactiver la fonction Hot Desk sur un téléphone, comme suit. Exécutez ces applets de commande à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

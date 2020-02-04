@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la prise en charge de l’archivage'
+title: 'Lync Server 2013 : configuration de la prise en charge de l’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for Archiving
 ms:assetid: 579283fe-909c-46f2-a0c9-52ca1e7d63d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c07a0e47ee942c21116a3a278157eab103845c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1cf99fecc57f680c7da751beae1e50eab55e0dc1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838176"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838176"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Après l’ajout de l’archivage à votre topologie et la publication de la nouvelle topologie, vous devez configurer les options de mise en œuvre initiale de l’archivage dans votre déploiement, puis configurer une ou plusieurs stratégies d’archivage pour activer l’archivage pour votre déploiement et, Si vous le souhaitez, pour des sites et des utilisateurs spécifiques. Pour cela, vous pouvez utiliser le panneau de configuration de Lync Server 2013.
 

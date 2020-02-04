@@ -3,6 +3,8 @@ title: Transition d’un serveur de médiation colocalisé vers un serveur de m�
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c49b75845bb9a673872c5f08225dd6e1c96b69a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2c6a76bceb935900521859911ce5398ae2213e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846038"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846038"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Utilisez la procédure ci-dessous pour migrer votre serveur de médiation, en colocalisé sur votre serveur Standard Edition ou votre liste frontale, vers un serveur de médiation autonome pour un déploiement sur site unique.
 
@@ -45,7 +47,7 @@ Utilisez la procédure ci-dessous pour migrer votre serveur de médiation, en co
 
 2.  Dans le volet gauche, accédez à **pools de médiation**.
 
-3.  Cliquez avec le bouton droit sur pools de **médiation** et sélectionnez **nouveau serveur de médiation**.
+3.  Cliquez avec le bouton droit sur **pools de médiation** et sélectionnez **nouveau serveur de médiation**.
 
 4.  Dans la page **définir une nouvelle réserve de médiation** , indiquez le nom de domaine complet du nouveau pool de serveurs de médiation. Déterminez également si ce pool sera un serveur unique ou un pool multiserveur, puis cliquez sur **suivant**.
 

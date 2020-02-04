@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer un numéro d’accès à une conférence rendez-vous'
+title: 'Lync Server 2013 : supprimer un numéro d’accès à une conférence rendez-vous'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a dial-in conferencing access number
 ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2559b8a3e053c02a6a67ccc17ab5a1f25b46a05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d461aafd4f111484faf295bef2dd50685e41e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831648"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831648"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Pour supprimer un numéro d’accès à une conférence rendez-vous, procédez comme suit.
 
@@ -57,13 +59,13 @@ Pour supprimer un numéro d’accès à une conférence rendez-vous, procédez c
 
 ## <a name="removing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Suppression des numéros d’accès aux conférences rendez-vous à l’aide des applets de connexion Windows PowerShell
 
-Vous pouvez supprimer les numéros d’accès aux conférences rendez-vous à l’aide de Windows PowerShell et de l’applet de connexion **Remove-CsDialInConferencingAccessNumber** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez supprimer les numéros d’accès aux conférences rendez-vous à l’aide de Windows PowerShell et de l’applet de connexion **Remove-CsDialInConferencingAccessNumber** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-remove-a-specific-dial-in-conferencing-access-number"></a>Pour supprimer un numéro d’accès à une conférence rendez-vous spécifique
 
-  - Cette commande supprime le numéro d’accès à une conférence rendez-vous avec le sip:RedmondDialInAccess@litwareinc.com d’identité:
+  - Cette commande supprime le numéro d’accès à une conférence rendez-vous avec le sip :RedmondDialInAccess@litwareinc.com d’identité :
     
         Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 
@@ -73,7 +75,7 @@ Vous pouvez supprimer les numéros d’accès aux conférences rendez-vous à l�
 
 ## <a name="to-remove-all-the-dial-in-conferencing-access-numbers-assigned-to-a-specific-region"></a>Pour supprimer tous les numéros d’accès aux conférences rendez-vous affectés à une zone spécifique
 
-  - Cette commande supprime tous les numéros d’accès à une conférence rendez-vous associés à la région Nord Ouest:
+  - Cette commande supprime tous les numéros d’accès à une conférence rendez-vous associés à la région Nord Ouest :
     
         Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 
@@ -83,7 +85,7 @@ Vous pouvez supprimer les numéros d’accès aux conférences rendez-vous à l�
 
 ## <a name="to-remove-dial-in-conferencing-access-numbers-based-on-primary-language"></a>Pour supprimer les numéros d’accès à une conférence rendez-vous en fonction de la langue principale
 
-  - Cette commande supprime tous les numéros d’accès à une conférence rendez-vous dans lesquels l’italien est la langue principale:
+  - Cette commande supprime tous les numéros d’accès à une conférence rendez-vous dans lesquels l’italien est la langue principale :
     
         Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 

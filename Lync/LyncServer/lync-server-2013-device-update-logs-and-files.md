@@ -3,6 +3,8 @@ title: Fichiers et journaux de mise à jour de l’appareil Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Update logs and files
 ms:assetid: f7f822b8-0a62-4ff2-a4cb-1ab1ed7503eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994090(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a5b5e39f7720ac5c148a0d3d36a230d1cf4aa3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 170bafb3d00940995e8355c7775681c2af5fd078
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831428"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831428"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Les journaux de mise à jour de l’appareil contiennent des informations importantes que vous pouvez utiliser pour gérer et résoudre les problèmes du service Web de mise à jour de l’appareil. Vous pouvez modifier les journaux de périphériques et les mises à jour que vous ne souhaitez pas ou dont vous n’avez plus besoin. Cette section décrit comment utiliser le panneau de configuration de Lync Server ou Lync Server Management Shell pour modifier les paramètres de journalisation, effacer le journal des mises à jour de l’appareil ou supprimer les fichiers journaux du serveur.
 

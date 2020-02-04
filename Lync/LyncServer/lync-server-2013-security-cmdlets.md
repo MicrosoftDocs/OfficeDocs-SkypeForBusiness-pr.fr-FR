@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de sécurité'
+title: 'Lync Server 2013 : cmdlets de sécurité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security cmdlets
 ms:assetid: 9a6c654d-287d-434e-8d93-409f0d623f5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398799(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ede87f55754528fc7164c6d7d828eaada662e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df13c5182d97534e32f0f4d383df73985907c8f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822131"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-09_
+_**Dernière modification de la rubrique :** 2012-10-09_
 
 Les applets de vérification intégrés à Microsoft Lync Server 2013 servent essentiellement à gérer l’authentification, ainsi que les droits et les autorisations des utilisateurs. Une vaste gamme d’applets de commande est disponible pour gérer l’authentification, dont des applets de commande pour l’authentification de certificats et de codes confidentiels (PIN). De plus, un certain nombre d’applets de commande vous permettent d’utiliser la nouvelle fonctionnalité de contrôle d’accès basée sur un rôle pour déléguer le contrôle d’administration de Lync Server.
 
@@ -41,7 +43,7 @@ Les applets de vérification intégrés à Microsoft Lync Server 2013 servent es
 
 ## <a name="security-cmdlets"></a>Cmdlets de sécurité
 
-Il est possible d’effectuer de nombreuses tâches de gestion relatives aux paramètres de sécurité à partir du panneau de configuration de Lync Server. Une exception majeure est l’applet de commande d’autorisation de l’utilisateur. Toutefois, toutes les tâches de gestion de la sécurité peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. La liste suivante répertorie les applets de commande qui concernent directement la gestion des paramètres de sécurité:
+Il est possible d’effectuer de nombreuses tâches de gestion relatives aux paramètres de sécurité à partir du panneau de configuration de Lync Server. Une exception majeure est l’applet de commande d’autorisation de l’utilisateur. Toutefois, toutes les tâches de gestion de la sécurité peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. La liste suivante répertorie les applets de commande qui concernent directement la gestion des paramètres de sécurité :
 
 **[Applets de certification et d’authentification dans Lync Server 2013](lync-server-2013-certificate-and-authentication-cmdlets.md)**
 

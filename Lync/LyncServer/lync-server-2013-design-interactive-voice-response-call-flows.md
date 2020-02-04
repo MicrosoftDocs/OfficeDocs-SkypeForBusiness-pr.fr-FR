@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Conception des flux d’appels du système de répons
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Design interactive voice response call flows
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487fa3d4842ad67f3433966a08a889e454450351
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd53ac8d06ec336940abe53d7da1353faf4f9414
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831466"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831466"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-25_
+_**Dernière modification de la rubrique :** 2013-02-25_
 
 Vous pouvez utiliser la réponse vocale interactive (IVR) pour obtenir des informations des appelants et acheminer l’appel jusqu’à la file d’attente appropriée. Les paires de questions et réponses déterminent la file d’attente à utiliser. Selon la réponse de l’appelant, celui-ci entend une question de suivi ou est acheminé vers la file d’attente appropriée. Les questions du système de réponse vocale interactive, ainsi que les réponses de l’appelant sont fournies à l’agent qui prend l’appel, fournissant des informations précieuses à l’agent.
 
@@ -63,7 +65,7 @@ Les questions du système de réponse vocale interactive, ainsi que les réponse
 
 ## <a name="working-with-speech-technologies"></a>Utilisation des technologies vocales
 
-Les technologies vocales, comme la reconnaissance vocale et la conversion de texte par synthèse vocale, peuvent améliorer le produit et permettre aux gens d’accéder plus naturellement et plus efficacement aux informations. Cependant, il peut arriver que le texte spécifié ou la réponse vocale de l’utilisateur ne soit pas reconnu correctement par le moteur de synthèse vocale. Par exemple, le symbole\#«» est converti par le moteur de synthèse vocale comme terme «numérique». Ce problème peut être atténué en procédant comme suit :
+Les technologies vocales, comme la reconnaissance vocale et la conversion de texte par synthèse vocale, peuvent améliorer le produit et permettre aux gens d’accéder plus naturellement et plus efficacement aux informations. Cependant, il peut arriver que le texte spécifié ou la réponse vocale de l’utilisateur ne soit pas reconnu correctement par le moteur de synthèse vocale. Par exemple, le symbole\#« » est converti par le moteur de synthèse vocale comme terme «numérique ». Ce problème peut être atténué en procédant comme suit :
 
   - Le moteur de synthèse vocale autorise cinq tentatives de réponse. Si la réponse de l’appelant est incorrecte (autrement dit, si elle ne figure pas parmi les réponses spécifiées) ou s’il ne fournit aucune réponse, l’appelant a la possibilité de fournir la bonne réponse. L’appelant peut donner cinq réponses avant d’être déconnecté si aucune d’elles n’est correcte. Vous pouvez configurer le système de réponse vocale interactive de sorte qu’il lise un message personnalisé après chaque erreur de l’appelant. La question est répétée à chaque fois.
 
@@ -97,7 +99,7 @@ L’illustration ci-dessous montre le flux d’appels.
 
 **Flux d’appels pour un modèle interactif à un niveau**
 
-![Créer des flux d’appels à l’aide d’un REEE interactif vocal] (images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Créer des flux d’appels à l’aide d’un REEE interactif vocal")
+![Concevoir des flux d’appels à l’aide du système de réponse vocale interactive](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Concevoir des flux d’appels à l’aide du système de réponse vocale interactive")
 
 </div>
 
@@ -133,7 +135,7 @@ L’illustration ci-dessous présente le flux d’appels.
 
 **Flux d’appels pour un modèle interactif à deux niveaux**
 
-![Créer des flux d’appels à l’aide d’un REEE interactif vocal] (images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Créer des flux d’appels à l’aide d’un REEE interactif vocal")
+![Concevoir des flux d’appels à l’aide du système de réponse vocale interactive](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Concevoir des flux d’appels à l’aide du système de réponse vocale interactive")
 
 </div>
 

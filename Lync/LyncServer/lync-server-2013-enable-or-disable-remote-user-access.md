@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Activation ou désactivation de l’accès des utilis
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable remote user access
 ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a8edd8d6736d181b59579db29cc1e7244b0a750
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 476cc3b90a2fdb603303789f3f9bfceb67766f5c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831291"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les utilisateurs distants sont les utilisateurs de votre organisation qui ont une identité Active Directory persistante au sein de l’organisation. Les utilisateurs distants se connectent souvent à Lync Server depuis l’extérieur de votre réseau via un réseau privé virtuel (VPN) lorsqu’ils ne sont pas connectés au réseau de votre organisation. Les utilisateurs distants incluent des employés travaillant à la maison ou en déplacement, ainsi que d’autres travailleurs distants, tels que des fournisseurs approuvés qui ont reçu des informations d’identification d’entreprise. Si vous autorisez l’accès des utilisateurs distants pour les utilisateurs distants, les utilisateurs distants pris en charge se connectent via Internet et n’ont pas besoin de se connecter à l’aide d’un VPN pour collaborer avec des utilisateurs internes de Lync Server.
 
@@ -43,7 +45,7 @@ Pour prendre en charge l’accès des utilisateurs distants, vous devez activer 
 
 
 > [!NOTE]  
-> L’activation de l’accès des utilisateurs distants indique uniquement que vos serveurs exécutant le service Edge d’accès prennent en charge les communications avec les utilisateurs distants, mais qu’ils ne peuvent pas participer à la messagerie instantanée ou aux conférences au sein de votre organisation tant que vous n’avez pas également configuré au moins une stratégie pour gérer l’utilisation de l’accès des utilisateurs distants. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit: la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet. Pour plus d’informations sur la configuration des stratégies pour l’utilisation de l’accès des utilisateurs distants, voir <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Lync Server 2013</A>.
+> L’activation de l’accès des utilisateurs distants indique uniquement que vos serveurs exécutant le service Edge d’accès prennent en charge les communications avec les utilisateurs distants, mais qu’ils ne peuvent pas participer à la messagerie instantanée ou aux conférences au sein de votre organisation tant que vous n’avez pas également configuré au moins une stratégie pour gérer l’utilisation de l’accès des utilisateurs distants. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit : la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet. Pour plus d’informations sur la configuration des stratégies pour l’utilisation de l’accès des utilisateurs distants, voir <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">configurer des stratégies pour contrôler l’accès des utilisateurs distants dans Lync Server 2013</A>.
 
 
 
@@ -61,9 +63,9 @@ Pour prendre en charge l’accès des utilisateurs distants, vous devez activer 
 
 4.  Dans la page **configuration de Microsoft Edge** , cliquez sur **Global**, sur **modifier**, puis sur **afficher les détails**.
 
-5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes:
+5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes :
     
-      - Pour autoriser l’accès des utilisateurs distants pour votre organisation, activez la case à cocher **activer l’accès aux utilisateurs** distants.
+      - Pour autoriser l’accès des utilisateurs distants pour votre organisation, activez la case à cocher **activer l’accès aux utilisateurs distants** .
     
       - Pour désactiver l’accès des utilisateurs distants pour votre organisation, décochez la case **activer l’accès distant aux utilisateurs** .
 
@@ -77,13 +79,13 @@ Pour permettre aux utilisateurs distants de se connecter à des serveurs exécut
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès des utilisateurs distants à l’aide d’applets de commande Windows PowerShell
 
-L’accès des utilisateurs distants peut être géré à l’aide de Windows PowerShell et de l’applet de commande Set-CsAccessEdgeConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+L’accès des utilisateurs distants peut être géré à l’aide de Windows PowerShell et de l’applet de commande Set-CsAccessEdgeConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-enable-remote-user-access"></a>Pour autoriser l’accès des utilisateurs distants
 
-  - Pour autoriser l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur True ($true):
+  - Pour autoriser l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur True ($true) :
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
@@ -93,7 +95,7 @@ L’accès des utilisateurs distants peut être géré à l’aide de Windows Po
 
 ## <a name="to-disable-remote-user-access"></a>Pour désactiver l’accès des utilisateurs distants
 
-  - Pour désactiver l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur false ($false):
+  - Pour désactiver l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur false ($false) :
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 

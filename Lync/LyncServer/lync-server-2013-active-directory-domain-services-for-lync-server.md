@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: services de domaine Active Directory pour Lync Server'
+title: 'Lync Server 2013 : services de domaine Active Directory pour Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services for Lync Server 2013
 ms:assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a7dd0a5d5c6d8323abab3a8abfbc5f1025379e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ac4b4da954fd792559d2160ce457aec91cb0ac6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838963"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838963"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-13_
+_**Dernière modification de la rubrique :** 2013-11-13_
 
-Les fonctions des services de domaine Active Directory comme service d’annuaire pour Windows Server 2003, Windows Server 2008, Windows Server 2012 et les réseaux Windows Server 2012 R2. Les services de domaine Active Directory servent également de base sur l’infrastructure de sécurité de Microsoft Lync Server 2013. Cette section décrit la façon dont Lync Server 2013 utilise les services de domaine Active Directory (AD FS) pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur les extensions serveur Lync aux services de domaine Active Directory et sur la préparation de votre environnement pour les services de domaine Active Directory, voir [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) dans le déploiement accompagnant. Pour plus d’informations sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation relative à la version du système d’exploitation que vous utilisez.
+Les fonctions des services de domaine Active Directory comme service d’annuaire pour Windows Server 2003, Windows Server 2008, Windows Server 2012 et les réseaux Windows Server 2012 R2. Les services de domaine Active Directory servent également de base sur l’infrastructure de sécurité de Microsoft Lync Server 2013. Cette section décrit la façon dont Lync Server 2013 utilise les services de domaine Active Directory (AD FS) pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur les extensions serveur Lync aux services de domaine Active Directory et sur la préparation de votre environnement pour les services de domaine Active Directory, voir [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) dans la documentation de déploiement. Pour plus d’informations sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation relative à la version du système d’exploitation que vous utilisez.
 
-Lync Server 2013 utilise les services de domaine Active Directory pour stocker les éléments suivants:
+Lync Server 2013 utilise les services de domaine Active Directory pour stocker les éléments suivants :
 
   - Paramètres globaux pour lesquels tous les serveurs exécutant Lync Server 2013 dans une forêt nécessitent.
 
@@ -49,7 +51,7 @@ Lync Server 2013 utilise les services de domaine Active Directory pour stocker l
 
 ## <a name="active-directory-infrastructure"></a>Infrastructure Active Directory
 
-Les exigences en matière d’infrastructure pour Active Directory sont les suivantes:
+Les exigences en matière d’infrastructure pour Active Directory sont les suivantes :
 
   - Systèmes d’exploitation requis pour les contrôleurs de domaine
 
@@ -75,7 +77,7 @@ Pour plus d’informations, voir [Configuration requise pour l’infrastructure 
 
 </div>
 
-Lors du déploiement de Lync Server 2013, la première étape consiste à préparer les services de domaine Active Directory. La préparation des services de domaine Active Directory pour Lync Server 2013 comprend les trois étapes suivantes:
+Lors du déploiement de Lync Server 2013, la première étape consiste à préparer les services de domaine Active Directory. La préparation des services de domaine Active Directory pour Lync Server 2013 comprend les trois étapes suivantes :
 
   - **Préparer le schéma**. Cette tâche étend le schéma dans les services de domaine Active Directory pour inclure des classes et des attributs spécifiques à Lync Server 2013. Pour plus d’informations sur la préparation du schéma, voir exécution de la [préparation du schéma Active Directory dans Lync Server 2013](lync-server-2013-running-schema-preparation.md) dans la documentation de déploiement. Pour plus d’informations, reportez-vous à [migration d’Office Communications Server 2007 R2 vers Lync server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
 
@@ -99,7 +101,7 @@ Lors de la préparation de la forêt, Lync Server 2013 crée divers groupes univ
 
   - **Groupes d’infrastructure**. Ces groupes fournissent l’autorisation d’accéder à des zones spécifiques de l’infrastructure du serveur Lync. Ils fonctionnent comme des composants de groupes administratifs et vous ne devez pas les modifier ni leur ajouter directement des utilisateurs. Lors de la préparation de la forêt, des groupes de service et d’administration spécifiques sont ajoutés aux groupes d’infrastructure appropriés.
 
-Pour plus d’informations sur les groupes universels spécifiques créés lors de la préparation d’AD pour Lync Server, ainsi que les groupes de services et d’administration qui sont ajoutés aux groupes d’infrastructure, voir modifications apportées par la préparation de la [forêt dans Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) dans la Documentation de déploiement.
+Pour plus d’informations sur les groupes universels spécifiques créés lors de la préparation d’AD pour Lync Server, ainsi que les groupes de services et d’administration qui sont ajoutés aux groupes d’infrastructure, voir [modifications apportées par la préparation de la forêt dans Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) dans la documentation de déploiement.
 
 <div>
 
@@ -129,7 +131,7 @@ La préparation de la forêt crée des ACE privées et publiques et ajoute des A
 
 L’étape de préparation du domaine ajoute les entrées de contrôle d’accès (ACE) nécessaires aux groupes universels qui permettent d’héberger et de gérer les utilisateurs au sein du domaine. La préparation de domaine crée des ACE à la racine du domaine et dans trois conteneurs intégrés : Utilisateur, Ordinateurs et Contrôleurs de domaine.
 
-Pour plus d’informations sur les ACE publiques créées et ajoutées par la préparation de la forêt et la préparation du domaine, voir [modifications apportées par la préparation de la forêt dans Lync server 2013](lync-server-2013-changes-made-by-forest-preparation.md) et modifications apportées par la préparation du [domaine dans Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) dans le déploiement. accompagnant.
+Pour plus d’informations sur les ACE publiques créées et ajoutées par la préparation de la forêt et la préparation du domaine, voir [modifications apportées par la préparation de la forêt dans Lync server 2013](lync-server-2013-changes-made-by-forest-preparation.md) et [modifications apportées par la préparation du domaine dans Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) dans la documentation de déploiement.
 
 Les organisations verrouillent souvent les services de domaine Active Directory (AD DS) pour réduire les risques liés à la sécurité. Toutefois, un environnement Active Directory verrouillé peut limiter les autorisations requises par Lync Server 2013. Ceci peut inclure la suppression des ACE des conteneurs et des unités d’organisation (OU) et la désactivation de l’héritage des autorisations sur les objets Utilisateur, Contact, InetOrgPerson ou Ordinateur. Dans un environnement Active Directory verrouillé, les autorisations doivent être définies manuellement sur les conteneurs et les unités d’organisation qui en ont besoin. Pour plus d’informations, reportez-vous à la rubrique [préparation d’un service de domaine Active Directory verrouillé dans Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) dans la documentation de déploiement.
 
@@ -139,7 +141,7 @@ Les organisations verrouillent souvent les services de domaine Active Directory 
 
 ## <a name="server-information"></a>Informations du serveur
 
-Au cours de l’activation, Lync Server 2013 publie les informations du serveur aux trois emplacements suivants dans les services de domaine Active Directory (AD FS):
+Au cours de l’activation, Lync Server 2013 publie les informations du serveur aux trois emplacements suivants dans les services de domaine Active Directory (AD FS) :
 
   - Un point de connexion de service (SCP) sur chaque objet d’ordinateur Active Directory correspondant à un ordinateur physique sur lequel Lync Server 2013 est installé.
 
@@ -169,7 +171,7 @@ Chaque rôle serveur Lync Server 2013 possède un objet Active Directory corresp
 
 ## <a name="trusted-servers"></a>Serveurs approuvés
 
-Dans Lync Server 2013, les serveurs de confiance sont ceux spécifiés lors de l’exécution du générateur de topologie et de la publication de votre topologie. La topologie publiée, y compris toutes les informations du serveur, est enregistrée dans le magasin central de gestion. Seuls les serveurs définis dans le magasin central de gestion sont approuvés. Dans Lync Server 2013, un serveur approuvé est l’un des critères suivants:
+Dans Lync Server 2013, les serveurs de confiance sont ceux spécifiés lors de l’exécution du générateur de topologie et de la publication de votre topologie. La topologie publiée, y compris toutes les informations du serveur, est enregistrée dans le magasin central de gestion. Seuls les serveurs définis dans le magasin central de gestion sont approuvés. Dans Lync Server 2013, un serveur approuvé est l’un des critères suivants :
 
   - Le nom de domaine complet (FQDN) du serveur se trouve dans la topologie enregistrée dans le magasin central de gestion.
 

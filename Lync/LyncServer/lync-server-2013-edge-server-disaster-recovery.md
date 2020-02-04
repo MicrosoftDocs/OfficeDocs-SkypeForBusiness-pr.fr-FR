@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Récupération d’urgence de serveur Edge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edge Server disaster recovery
 ms:assetid: 05ec8d26-d167-4a6f-a966-a1f8873cf974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687960(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d19e5a606c3217ad7653fd4c3c885a97aafdb5ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 431b4853407b65bca2b029626cc5659490a493d3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831329"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831329"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-12_
+_**Dernière modification de la rubrique :** 2014-03-12_
 
 Comme pour les autres rôles de serveur, la meilleure façon de garantir la disponibilité de votre serveur Edge consiste à déployer plusieurs serveurs Edge dans les pools de chaque site. Si un serveur Edge est hors service, les autres serveurs du pool continuent de fournir les services Edge.
 

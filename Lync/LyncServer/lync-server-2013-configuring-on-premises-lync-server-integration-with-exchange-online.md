@@ -3,6 +3,8 @@ title: Configuration de l’intégration Lync Server locale dans Exchange Online
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring on-premises Lync Server integration with Exchange Online
 ms:assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh533880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae1ba45ace830f33b239bf2f8ead1a75fcee3417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a652fea6c54592526047e8d8b35a0bddd0ef1995
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838207"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2018-03-30_
+_**Dernière modification de la rubrique :** 2018-03-30_
 
-Les clients utilisant un déploiement local de Lync Server 2013 peuvent configurer l’interopérabilité avec Microsoft Outlook Web App dans Microsoft Exchange Online dans un mode de déploiement hybride. Les fonctionnalités d’interopérabilité comprennent l’ouverture de session unique, l’intégration de la messagerie instantanée et de la présence dans l’interface d’Outlook Web App. Pour activer cette intégration, vous devez configurer le serveur de périphérie dans votre déploiement Lync Server local en effectuant les tâches suivantes:
+Les clients utilisant un déploiement local de Lync Server 2013 peuvent configurer l’interopérabilité avec Microsoft Outlook Web App dans Microsoft Exchange Online dans un mode de déploiement hybride. Les fonctionnalités d’interopérabilité comprennent l’ouverture de session unique, l’intégration de la messagerie instantanée et de la présence dans l’interface d’Outlook Web App. Pour activer cette intégration, vous devez configurer le serveur de périphérie dans votre déploiement Lync Server local en effectuant les tâches suivantes :
 
   - configurer un espace d’adressage SIP partagé ;
 
@@ -43,7 +45,7 @@ Les clients utilisant un déploiement local de Lync Server 2013 peuvent configur
 
   - Vérification de la réplication du magasin central de gestion mis à jour
 
-Si Lync Server 2013 est intégré à Exchange Online, un utilisateur qui tente de se connecter à la messagerie instantanée à partir d’OWA est considéré comme un utilisateur distant ou externe. Dans ce scénario, l’option suivante doit être attribuée à l’utilisateur pour l’utilisation de la stratégie d’accès externe:
+Si Lync Server 2013 est intégré à Exchange Online, un utilisateur qui tente de se connecter à la messagerie instantanée à partir d’OWA est considéré comme un utilisateur distant ou externe. Dans ce scénario, l’option suivante doit être attribuée à l’utilisateur pour l’utilisation de la stratégie d’accès externe :
 
 **Activer les communications avec les utilisateurs distants**
 
@@ -57,7 +59,7 @@ Pour plus d’informations, consultez [gérer les stratégies d’accès externe
 
 Pour intégrer Lync Server 2013 local et Exchange Online, vous devez configurer un espace d’adressage SIP partagé. Le même espace d’adresse de domaine SIP est pris en charge par Lync Server et le service Exchange Online.
 
-À l’aide de Lync Server Management Shell, configurez le serveur Edge pour la Fédération en exécutant l’applet de commande **Set-CSAccessEdgeConfiguration** en utilisant les paramètres qui s’affichent dans l’exemple suivant:
+À l’aide de Lync Server Management Shell, configurez le serveur Edge pour la Fédération en exécutant l’applet de commande **Set-CSAccessEdgeConfiguration** en utilisant les paramètres qui s’affichent dans l’exemple suivant :
 
     Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -71,7 +73,7 @@ Pour plus d’informations sur l’utilisation de Lync Server Management Shell, 
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Configurer un fournisseur d’hébergement sur le serveur Edge.
 
-Utilisez Lync Server Management Shell pour configurer un fournisseur d’hébergement sur le serveur Edge. Pour cela, exécutez l’applet **de commande New-CsHostingProvider** en utilisant les paramètres dans l’exemple suivant:
+Utilisez Lync Server Management Shell pour configurer un fournisseur d’hébergement sur le serveur Edge. Pour cela, exécutez l’applet **de commande New-CsHostingProvider** en utilisant les paramètres dans l’exemple suivant :
 
     New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 
@@ -107,11 +109,11 @@ Utilisez Lync Server Management Shell pour configurer un fournisseur d’héberg
 
 Les modifications que vous avez apportées à l’aide des applets de demande dans les sections précédentes s’appliquent automatiquement au serveur Edge et prennent généralement moins d’une minute à répliquer. Vous pouvez vérifier l’état de la réplication et l’application des modifications à votre serveur Edge en utilisant les applets de commande suivantes.
 
-Pour vérifier les mises à jour de réplication sur un serveur interne dans le déploiement de Lync Server, exécutez l’applet de commande suivante:
+Pour vérifier les mises à jour de réplication sur un serveur interne dans le déploiement de Lync Server, exécutez l’applet de commande suivante :
 
     Get-CsManagementStoreReplicationStatus
 
-Pour vérifier que les modifications ont été appliquées, exécutez l’applet de commande suivante sur le serveur Edge:
+Pour vérifier que les modifications ont été appliquées, exécutez l’applet de commande suivante sur le serveur Edge :
 
     Get-CsHostingProvider -LocalStore
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Emplacement des fichiers journaux et des données SQL
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SQL Server data and log file placement
 ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398479(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a528ba7a348ebb5c8f865a795f8b1f1c1bc30cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 197141ea62307631eab206fce5403d25b4d89583
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846779"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846779"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Lors de la planification et du déploiement de Microsoft SQL Server 2012 ou Microsoft SQL Server 2008 R2 SP1 pour votre pool frontal Lync Server 2013, il est important de tenir compte du placement des données et des fichiers journaux sur les disques durs physiques pour des performances. La configuration de disque recommandée consiste à implémenter un ensemble RAID de 1 + 0 avec 6 piles. Placement de tous les fichiers de base de données et fichiers journaux utilisés par le pool frontal, et les rôles et services de serveur associés (c’est-à-dire, archivage et analyse du serveur, service de groupe de réponse de Lync Server, service de parc de serveurs Lync Server L’Assistant Déploiement génère une configuration qui a été testée pour des performances optimales. Les fichiers de base de données et leurs responsables sont décrits dans le tableau ci-dessous.
 
@@ -223,7 +225,7 @@ Dans cette rubrique, les références sont prises sur le disque et sur le jeu RA
 
 En ce qui concerne les jeux RAID, il existe plusieurs technologies RAID différentes de celles de différents fournisseurs. Par le biais de la prolifération des réseaux de zone de stockage, les jeux RAID dédiés à un seul système sont plus rares. Vous devez consulter votre fabricant de réseau ou de réseau pour déterminer la configuration qui correspond le mieux à votre disposition de disque lorsque vous configurez des performances SQL Server avec Lync Server 2013.
 
-Notez également que tous les lecteurs de disque ne sont pas créés de la même manière; d’autres sont plus performantes que d’autres. Même les lecteurs du même fabricant peuvent varier en fonction de la vitesse de rotation, de la taille du cache matériel et d’autres facteurs.
+Notez également que tous les lecteurs de disque ne sont pas créés de la même manière ; d’autres sont plus performantes que d’autres. Même les lecteurs du même fabricant peuvent varier en fonction de la vitesse de rotation, de la taille du cache matériel et d’autres facteurs.
 
 </div>
 

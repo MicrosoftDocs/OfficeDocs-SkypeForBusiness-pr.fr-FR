@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification de sous-réseaux réseau'
+title: 'Lync Server 2013 : création ou modification de sous-réseaux réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify network subnets
 ms:assetid: 1ba8c4e3-fbc7-4758-88ac-d651fef17bed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f27088b59745bac580990b3e898f485d34dcad57
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d743e5cdbe8dc7f200175b74f55b1b3d003e769
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831783"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831783"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Un sous-réseau doit être associé à un site réseau pour vous permettre de déterminer l’emplacement géographique de l’hôte appartenant à ce sous-réseau. Le panneau de configuration de Lync Server vous permet de configurer les sous-réseaux. Dans le panneau de configuration de Lync Server, vous pouvez créer, modifier ou supprimer un sous-réseau. Pour plus d’informations sur la suppression de sous-réseaux réseau, voir [Suppression de sous-réseaux réseau dans Lync Server 2013](lync-server-2013-deleting-network-subnets.md).
 

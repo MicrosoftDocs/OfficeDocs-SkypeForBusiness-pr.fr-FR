@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’une voie vocale E9-1-1'
+title: 'Lync Server 2013 : configuration d’une voie vocale E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure an E9-1-1 voice route
 ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398496(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59f4e2a6707d270f66a66663b19f975ac69961c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d40d2ee5dcb0dd7f759751bdab0d3e09f4ebc577
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838440"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757838"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838440"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-17_
+_**Dernière modification de la rubrique :** 2012-09-17_
 
 Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des communications vocales pour les appels d’urgence. Pour plus d’informations sur la création d’itinéraires vocaux, voir [créer un itinéraire vocal dans Lync Server 2013](lync-server-2013-create-a-voice-route.md). Vous pouvez définir plusieurs itinéraires si, par exemple, votre déploiement comporte une jonction SIP (Session Initiation Protocol) principale et une jonction SIP secondaire.
 
@@ -41,13 +43,13 @@ Pour déployer E9-1-1, vous devez d’abord configurer un itinéraire des commun
 
 
 > [!NOTE]  
-> Pour inclure des informations d’emplacement dans une invitation E9-1-1, vous devez configurer le Trunk SIP qui se connecte au fournisseur de services E9-1-1 pour diriger les appels d’urgence par le biais de la passerelle. Pour ce faire, définissez l’indicateur EnablePIDFLOSupport sur la cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> sur true. La valeur par défaut de EnablePIDFLOSupport est false. Par exemple:<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Il n’est pas nécessaire d’activer la réception des emplacements pour les passerelles du réseau téléphonique commuté (RTC) et les passerelles ELIN (Emergency Location Identification Number).
+> Pour inclure des informations d’emplacement dans une invitation E9-1-1, vous devez configurer le Trunk SIP qui se connecte au fournisseur de services E9-1-1 pour diriger les appels d’urgence par le biais de la passerelle. Pour ce faire, définissez l’indicateur EnablePIDFLOSupport sur la cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> sur true. La valeur par défaut de EnablePIDFLOSupport est false. Par exemple :<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>Il n’est pas nécessaire d’activer la réception des emplacements pour les passerelles du réseau téléphonique commuté (RTC) et les passerelles ELIN (Emergency Location Identification Number).
 
 
 
 </div>
 
-Pour plus d’informations sur l’utilisation des itinéraires vocaux, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des itinéraires vocaux, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - **Set-CsPstnUsage**
 
@@ -67,7 +69,7 @@ Pour plus d’informations sur l’utilisation des itinéraires vocaux, voir la 
 
 1.  Ouvrez une session sur l’ordinateur à l’aide d’un compte membre du groupe RTCUniversalServerAdmins ou du rôle d’administration CsVoiceAdministrator.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez l’applet de commande ci-dessous pour créer un enregistrement d’utilisation RTC.
     

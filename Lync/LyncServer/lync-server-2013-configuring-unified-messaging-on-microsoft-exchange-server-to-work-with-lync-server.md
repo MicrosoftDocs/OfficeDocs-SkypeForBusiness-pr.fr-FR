@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de la messagerie unifiée sur Microsoft
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Unified Messaging on Microsoft Exchange Server to work with Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398106(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 461d822862e837879f1feb2d3f980b816aae5280
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e2bc41d4fa0411c4184c0edda35d6d0cd98df9a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34838166"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-11_
+_**Dernière modification de la rubrique :** 2012-10-11_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Si vous souhaitez utiliser la messagerie unifiée Exchange pour fournir des services de réponse d’appel, Outlook Voice Access ou de standard automatique pour les utilisateurs voix entreprise, voir <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013</A> dans le planning documentation, puis suivez les instructions de cette section.
+> Si vous souhaitez utiliser la messagerie unifiée Exchange pour fournir des services de réponse d’appel, Outlook Voice Access ou de standard automatique pour les utilisateurs voix entreprise, consultez la rubrique <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">planification de l’intégration de la messagerie unifiée Exchange dans Lync Server 2013</A> dans la documentation de planification, puis suivez les instructions de cette section.
 
 
 
 </div>
 
-Pour configurer la messagerie unifiée (MU) Exchange pour qu’elle fonctionne avec la voix entreprise, vous devez effectuer les tâches suivantes:
+Pour configurer la messagerie unifiée (MU) Exchange pour qu’elle fonctionne avec la voix entreprise, vous devez effectuer les tâches suivantes :
 
   - Configurer des certificats sur le serveur exécutant les services de messagerie unifiée Exchange
     
@@ -60,7 +62,7 @@ Pour configurer la messagerie unifiée (MU) Exchange pour qu’elle fonctionne a
 
   - Créez un ou plusieurs plans de numérotation URI SIP UM, ainsi que les numéros de téléphone d’accès d’abonné, le cas échéant, puis créez les plans de numérotation de serveur Lync correspondants.
 
-  - Utilisez le script **exchucutil. ps1** pour effectuer les opérations suivantes:
+  - Utilisez le script **exchucutil. ps1** pour effectuer les opérations suivantes :
     
       - Créer des passerelles IP de messagerie unifiée.
     
@@ -78,11 +80,11 @@ Pour configurer la messagerie unifiée (MU) Exchange pour qu’elle fonctionne a
 
 ## <a name="requirements-and-recommendations"></a>Conditions requises et recommandations
 
-Avant de commencer, la documentation de cette section suppose que vous avez déployé les rôles Exchange 2013 suivants: accès client et boîte aux lettres. Dans Microsoft Exchange Server 2013, la messagerie unifiée Exchange s’exécute en tant que service sur ces serveurs.
+Avant de commencer, la documentation de cette section suppose que vous avez déployé les rôles Exchange 2013 suivants : accès client et boîte aux lettres. Dans Microsoft Exchange Server 2013, la messagerie unifiée Exchange s’exécute en tant que service sur ces serveurs.
 
 Pour plus d’informations sur le déploiement d’Exchange 2013, voir la bibliothèque TechNet Exchange 2013 sur[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
 
-Notez également ce qui suit:
+Notez également ce qui suit :
 
   - Si Exchange UM est installé dans plusieurs forêts, vous devez effectuer les étapes d’intégration d’Exchange Server pour chaque forêt de messagerie unifiée. De plus, chaque forêt de messagerie unifiée doit être configurée pour approuver la forêt dans laquelle Lync Server 2013 est déployé et la forêt dans laquelle Lync Server 2013 est déployée doit être configurée pour approuver chaque forêt de messagerie unifiée.
 
@@ -97,11 +99,11 @@ Notez également ce qui suit:
     
     </div>
 
-Les outils suivants doivent être disponibles sur chaque serveur exécutant la messagerie unifiée Exchange:
+Les outils suivants doivent être disponibles sur chaque serveur exécutant la messagerie unifiée Exchange :
 
   - Exchange Management Shell
 
-  - Le script **exchucutil. ps1**, qui effectue les tâches suivantes:
+  - Le script **exchucutil. ps1**, qui effectue les tâches suivantes :
     
       - Crée une passerelle IP de MU pour chaque serveur Lync Server 2013.
     

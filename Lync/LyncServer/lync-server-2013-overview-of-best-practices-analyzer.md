@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de la meilleure pratique Analyzer'
+title: 'Lync Server 2013 : vue d’ensemble de la meilleure pratique Analyzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Best Practices Analyzer
 ms:assetid: c5fcaa05-eb1c-4092-90ad-177b127e795b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591349(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a304f33071b8be13c61c3f930f196113ac3af6de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53e63bf6063803364a679a3cc0724ec1cbeae1a2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825687"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34825687"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-19_
+_**Dernière modification de la rubrique :** 2012-09-19_
 
 Vous pouvez utiliser Lync Server 2013, recommandée Analyzer pour identifier et résoudre les problèmes liés à votre déploiement de Lync Server 2013. L’analyseur de meilleures pratiques pour Lync Server 2013 recueille les informations de configuration des composants Lync Server 2013.
 
-Avec l’accès au réseau approprié, le meilleur analyseur de recommandations peut examiner les serveurs exécutant les services de domaine Active Directory (AD DS), la messagerie unifiée Exchange Server (MU) et Lync Server 2013. Vous pouvez utiliser le BPA Analyzer pour effectuer les opérations suivantes:
+Avec l’accès au réseau approprié, le meilleur analyseur de recommandations peut examiner les serveurs exécutant les services de domaine Active Directory (AD DS), la messagerie unifiée Exchange Server (MU) et Lync Server 2013. Vous pouvez utiliser le BPA Analyzer pour effectuer les opérations suivantes :
 
   - Effectuez des tests de manière proactive afin de vérifier que la configuration est définie conformément aux meilleures pratiques recommandées.
 
@@ -47,7 +49,7 @@ Avec l’accès au réseau approprié, le meilleur analyseur de recommandations 
 
   - Aidez-vous à résoudre les problèmes spécifiques.
 
-Le Analyzer des recommandations fournit les fonctionnalités suivantes:
+Le Analyzer des recommandations fournit les fonctionnalités suivantes :
 
   - Configuration minimale requise pour l’installation.
 

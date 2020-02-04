@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une stratégie de conférence'
+title: 'Lync Server 2013 : création ou modification d’une stratégie de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a conferencing policy
 ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 898ffb4473fadd4470ef7e1559fa3cc0c54185c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7f3dd712b94838382f6022de888383c0f47bee6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831810"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831810"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-07_
+_**Dernière modification de la rubrique :** 2013-02-07_
 
 Procédez comme suit pour créer une stratégie de niveau utilisateur ou de niveau site. Pour plus d’informations sur l’affectation d’une stratégie de niveau utilisateur à un utilisateur, voir [affecter une stratégie de conférence par utilisateur dans Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md). Pour obtenir la liste de tous les paramètres de stratégie de conférence disponibles, voir [référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
@@ -104,7 +106,7 @@ Procédez comme suit pour créer une stratégie de niveau utilisateur ou de nive
     
       - Pour interdire les transferts de fichiers, désactivez la case à cocher **Autoriser les participants à transférer des fichiers**. Par défaut, les utilisateurs peuvent transférer des fichiers.
     
-      - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour utiliser des annotations dans Shard des présentations PowerPoint, désactivez les annotations **PowerPoint**. Par défaut, les annotations sont autorisées.
+      - Pour interdire l’utilisation des annotations, désactivez la case à cocher **Activer les annotations**. Pour utiliser des annotations dans Shard des présentations PowerPoint, désactivez les **Annotations PowerPoint**. Par défaut, les annotations sont autorisées.
     
       - Pour interdire l’utilisation des sondages, désactivez la case à cocher **Activer les sondages**. Par défaut, les sondages sont autorisés.
 

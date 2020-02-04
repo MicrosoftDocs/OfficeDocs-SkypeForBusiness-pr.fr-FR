@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurations hybrides prises en charge'
+title: 'Lync Server 2013 : configurations hybrides prises en charge'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported hybrid configurations
 ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 142b86720e64fdfd071bc5cacb21e4891e3e7758
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dea28ecfcd5e6a881c1d3d1ee63f16cd4821410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846729"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846729"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-05-10_
+_**Dernière modification de la rubrique :** 2016-05-10_
 
 Vous pouvez configurer les déploiements de Lync Server 2013 pour l’intégration avec Microsoft Exchange Server 2010 et Microsoft Exchange Server 2013 et SharePoint Server, en local et en ligne. Sauf indication contraire, les fonctionnalités affichées dans le tableau ci-dessous sont prises en charge avec tous les clients. Pour plus d’informations sur la prise en charge des clients, voir [tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) et les tableaux de comparaison des clients Skype entreprise Online pour [les clients de Skype entreprise Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
 

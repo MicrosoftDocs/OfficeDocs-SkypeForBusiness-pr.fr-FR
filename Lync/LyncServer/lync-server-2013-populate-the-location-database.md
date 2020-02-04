@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: peupler la base de données d’emplacement'
+title: 'Lync Server 2013 : peupler la base de données d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824049"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824049"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-17_
+_**Dernière modification de la rubrique :** 2012-09-17_
 
 Pour localiser automatiquement des clients sur un réseau, vous devez tout d’abord remplir la base de données d’emplacements avec un *schéma de collage* réseau, qui mappe les éléments du réseau à des adresses civiles (c’est à dire, les rues). Vous pouvez utiliser des sous-réseaux, des points d’accès sans fil, des commutateurs et des ports pour définir le schéma de collage.
 
@@ -66,8 +68,8 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;description&gt;,&lt;emplacement&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt; HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Prédirectionnelle&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;ville&gt;,&lt;état&gt;,&lt;CodePostal&gt;,&lt; Pays&gt;</p></td>
+<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;description&gt;,&lt;emplacement&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,...</p>
+<p>... &lt;Prédirectionnelle&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;ville&gt;,&lt;état&gt;,&lt;CodePostal&gt;,&lt;pays&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Commutateur</strong></p></td>
@@ -80,7 +82,7 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** 
 
 Si vous ne remplissez pas la base de données d’emplacements et que **Lieu obligatoire** dans la stratégie d’emplacement est défini sur **Oui** ou sur **Clause d’exclusion de responsabilité**, le client invitera l’utilisateur à entrer manuellement un emplacement.
 
-Pour plus d’informations sur le remplissage de la base de données de localisation, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur le remplissage de la base de données de localisation, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - **Get-CsLisSubnet**
 

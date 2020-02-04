@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: processus de déploiement pour le parc d’appels'
+title: 'Lync Server 2013 : processus de déploiement pour le parc d’appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Call Park
 ms:assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398283(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bab02c8cfbf0f1ca71aff85c8a71a2bcb20ee3fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a00c354aa29a3c9a431b18a686105ab16d94c54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831480"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831480"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-25_
+_**Dernière modification de la rubrique :** 2013-02-25_
 
 Cette section fournit une vue d’ensemble des étapes de déploiement de l’application de parc d’appels. Vous devez déployer Enterprise Edition ou Standard Edition avec voix entreprise avant de configurer le parc d’appels. Les composants requis par le parc d’appels sont installés et activés lorsque vous déployez Enterprise Voice.
 
@@ -73,7 +75,7 @@ Cette section fournit une vue d’ensemble des étapes de déploiement de l’ap
 </tr>
 <tr class="even">
 <td><p>Configuration des paramètres de parcage d’appel</p></td>
-<td><p>Utilisez l’applet de cmdlet <strong>Set-CsCpsConfiguration</strong> pour configurer les paramètres du parc d’appels. Nous vous conseillons d’effectuer au moins une configuration de l’option <strong>OnTimeoutURI</strong> pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants:</p>
+<td><p>Utilisez l’applet de cmdlet <strong>Set-CsCpsConfiguration</strong> pour configurer les paramètres du parc d’appels. Nous vous conseillons d’effectuer au moins une configuration de l’option <strong>OnTimeoutURI</strong> pour configurer la destination de secours à utiliser lorsqu’un appel parqué arrive à expiration. Vous pouvez également configurer les paramètres suivants :</p>
 <ul>
 <li><p>(Facultatif) <strong>EnableMusicOnHold</strong> pour activer ou désactiver l’attente musicale.</p></li>
 <li><p>(Facultatif) <strong>MaxCallPickupAttempts</strong> pour déterminer le nombre de fois qu’un appel parqué doit sonner de nouveau sur le téléphone de destination avant d’être transféré à l’URI (Uniform Resource Identifier) de remplacement.</p></li>

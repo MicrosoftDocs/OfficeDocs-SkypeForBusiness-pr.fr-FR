@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: fonctionnalité de collecte d’appels de groupe'
+title: 'Lync Server 2013 : fonctionnalité de collecte d’appels de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Group Call Pickup feature
 ms:assetid: 59ec90d6-0ec6-4635-91f9-78a6dd02b93c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945630(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd66d9c73fbe8c537c99b81cfa6386e34244f334
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826198"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758636"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826198"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-12_
+_**Dernière modification de la rubrique :** 2013-02-12_
 
-Les mises à jour cumulatives pour Lync Server 2013: février 2013 introduisent la capture des appels de groupe comme nouvelle fonctionnalité voix entreprise. Avec la fonction d’appel de groupe, vous pouvez attribuer des utilisateurs à des groupes de sorte que d’autres utilisateurs puissent répondre aux appels entrants des utilisateurs qui se trouvent dans le groupe à partir de leur propre téléphone.
+Les mises à jour cumulatives pour Lync Server 2013 : février 2013 introduisent la capture des appels de groupe comme nouvelle fonctionnalité voix entreprise. Avec la fonction d’appel de groupe, vous pouvez attribuer des utilisateurs à des groupes de sorte que d’autres utilisateurs puissent répondre aux appels entrants des utilisateurs qui se trouvent dans le groupe à partir de leur propre téléphone.
 
 Le prélèvement d’appels de groupe est basé sur l’application de parc d’appels. Pour le prélèvement d’appels de groupe, comme avec le parc d’appels, vous pouvez définir une gamme de numéros virtuels à utiliser en tant que numéros de groupe. Un utilisateur compose le numéro de groupe pour décrocher un appel qui sonne pour un autre utilisateur du groupe.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test de Web Scheduler'
+title: 'Lync Server 2013 : test de Web Scheduler'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: beb4030a87302c8abaaba9418eaba06b831ed8d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d7dc70bad90dc4e4c94e2db273f44ed20c50ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846513"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846513"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-11-03_
+_**Dernière modification de la rubrique :** 2014-11-03_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-11-03_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsWebScheduler</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande <strong>test-CsWebScheduler</strong> . Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebScheduler&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,7 +66,7 @@ _**Dernière modification de la rubrique:** 2014-11-03_
 
 ## <a name="description"></a>Description
 
-L’applet de **contrôle test-CsWebScheduler** vous permet de déterminer si un utilisateur spécifique peut planifier une réunion à l’aide de Web Scheduler. Web Scheduler permet aux utilisateurs qui n’exécutent pas Outlook de planifier des réunions en ligne. Entre autres choses, cette nouvelle fonctionnalité (qui incorpore les fonctionnalités disponibles dans l’outil Web Scheduler inclus dans le kit de ressources Microsoft Lync Server 2010) permet aux utilisateurs d’effectuer les opérations suivantes:
+L’applet de **contrôle test-CsWebScheduler** vous permet de déterminer si un utilisateur spécifique peut planifier une réunion à l’aide de Web Scheduler. Web Scheduler permet aux utilisateurs qui n’exécutent pas Outlook de planifier des réunions en ligne. Entre autres choses, cette nouvelle fonctionnalité (qui incorpore les fonctionnalités disponibles dans l’outil Web Scheduler inclus dans le kit de ressources Microsoft Lync Server 2010) permet aux utilisateurs d’effectuer les opérations suivantes :
 
   - Planifier une nouvelle réunion en ligne.
 
@@ -92,7 +94,7 @@ Si les utilisateurs de test ne sont pas définis, la commande échoue, car il ne
 
 Les commandes indiquées dans l’exemple suivant testent la capacité d’un utilisateur spécifique (\\litwareinc kenmeyer) pour planifier une réunion en ligne à l’aide de Web Scheduler. Pour cela, la première commande de l’exemple utilise l’applet de commande **Get-Credential** pour créer un objet d’informations d’identification d’interface de ligne de commande Windows PowerShell contenant le nom et le mot de passe de l’utilisateur Ken Meyer. (Dans la mesure où le\\nom de connexion litwareinc kenmeyer est inclus en tant que paramètre, la boîte de dialogue demande d’informations d’identification Windows PowerShell nécessite uniquement que l’administrateur entre le mot de passe du compte Ken Meyer.) L’objet Credential obtenu est ensuite stocké dans une variable nommée $cred 1.
 
-La deuxième commande vérifie que l’utilisateur peut se connecter au pool atl-cs-001.litwareinc.com et planifier une réunion en ligne. Pour exécuter cette tâche, l’applet de **contrôle test-CsWebScheduler** est appelée, avec trois paramètres: TargetFqdn (nom de domaine complet du pool d’inscriptions); UserCredential (l’objet Windows PowerShell contenant les informations d’identification de l’utilisateur de Pilar Arès); et UserSipAddress (adresse SIP correspondant aux informations d’identification fournies par l’utilisateur).
+La deuxième commande vérifie que l’utilisateur peut se connecter au pool atl-cs-001.litwareinc.com et planifier une réunion en ligne. Pour exécuter cette tâche, l’applet de **contrôle test-CsWebScheduler** est appelée, avec trois paramètres : TargetFqdn (nom de domaine complet du pool d’inscriptions); UserCredential (l’objet Windows PowerShell contenant les informations d’identification de l’utilisateur de Pilar Arès); et UserSipAddress (adresse SIP correspondant aux informations d’identification fournies par l’utilisateur).
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -106,27 +108,27 @@ La deuxième commande vérifie que l’utilisateur peut se connecter au pool atl
 
 Si Web Scheduler est correctement configuré, vous recevrez une sortie similaire à celle-ci, avec la propriété Result marquée comme **réussie**:
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-URI cible: https://atl-cs-001.litwareinc.com.
+URI cible : https://atl-cs-001.litwareinc.com.
 
 litwareinc.com:443/Scheduler
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur:
+Message d’erreur :
 
 Diagnostic
 
-Si Web Scheduler n’est pas configuré correctement, le résultat est affiché en tant qu' **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic:
+Si Web Scheduler n’est pas configuré correctement, le résultat est affiché en tant qu' **échec**et des informations supplémentaires sont enregistrées dans les propriétés d’erreur et de diagnostic :
 
-AVERTISSEMENT: impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
+AVERTISSEMENT : impossible de lire le numéro de port du Bureau d’enregistrement pour le nom complet fourni
 
 nom de domaine (FQDN). Utilisation du numéro de port de bureau par défaut. Sauf
 
-System. InvalidOperationException: aucun cluster correspondant détecté dans la topologie.
+System. InvalidOperationException : aucun cluster correspondant détecté dans la topologie.
 
 dès
 
@@ -134,15 +136,15 @@ Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryR
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-URI de destination:
+URI de destination :
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur: aucun cluster correspondant détecté dans la topologie.
+Message d’erreur : aucun cluster correspondant détecté dans la topologie.
 
 Diagnostic
 
@@ -152,7 +154,7 @@ Diagnostic
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles **les tests-CsWebScheduler** peuvent échouer:
+Voici quelques raisons courantes pour lesquelles **les tests-CsWebScheduler** peuvent échouer :
 
   - Une valeur de paramètre incorrecte a été fournie. S’il est utilisé, les paramètres facultatifs doivent être correctement configurés ou le test échoue. Réexécutez la commande sans les paramètres facultatifs et déterminez si l’opération aboutit.
 

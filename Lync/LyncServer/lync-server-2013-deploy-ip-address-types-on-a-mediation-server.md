@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Déploiement des types d’adresse IP sur un serveur 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on a Mediation Server
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e629b1074f41f1e32795de391b31e8b610f88b2e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab30a2153dc7dbf5a15557f6eeaf3b6cb65f68f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831574"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-07-28_
+_**Dernière modification de la rubrique :** 2016-07-28_
 
 À l’aide du générateur de topologie, suivez les étapes décrites dans la procédure ci-dessous pour déployer des types d’adresse IP sur un serveur de médiation.
 
@@ -41,13 +43,13 @@ _**Dernière modification de la rubrique:** 2016-07-28_
 
 ## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Pour déployer des types d’adresses IP sur un serveur de médiation
 
-  - Dans le générateur de topologie, sous pools de **médiation**, cliquez avec le bouton droit sur le serveur dans une liste, puis sélectionnez **modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** dans le menu **Action**)
+  - Dans le générateur de topologie, sous **pools de médiation**, cliquez avec le bouton droit sur le serveur dans une liste, puis sélectionnez **modifier les propriétés**. (Vous pouvez également sélectionner le serveur, puis cliquer sur **Modifier les propriétés** dans le menu **Action**)
 
   - Dans la boîte de dialogue **Modifier les propriétés**, sélectionnez le type d’adresse IP à configurer. S’il s’agit d’une configuration double pile, sélectionnez **Activer IPv4** et **Activer IPv6**, comme illustré dans la figure suivante.
     
     **Boîte de dialogue Modifier les propriétés du pool de serveurs de médiation**
     
-    ![Page des propriétés générales de Lync Server avec nom de domaine complet] (images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Page des propriétés générales de Lync Server avec nom de domaine complet")
+    ![Page des propriétés générales de Lync Server avec nom de domaine complet](images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Page des propriétés générales de Lync Server avec nom de domaine complet")
     
       - **Utiliser toutes les adresses IP configurées** : sélectionnez cette option pour autoriser l’utilisation de n’importe quelle adresse IP définie sur l’ordinateur à utiliser.
         

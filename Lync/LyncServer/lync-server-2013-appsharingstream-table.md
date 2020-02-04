@@ -1,8 +1,10 @@
 ---
-title: 'Tableau Lync Server 2013: AppSharingStream'
+title: 'Tableau Lync Server 2013 : AppSharingStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AppSharingStream table
 ms:assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204808(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56f23e214ffcffad8613d413924a53ffe571883d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c00a606981ab09d370d5aac390aa244a31063f24
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838783"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838783"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-21_
+_**Dernière modification de la rubrique :** 2014-02-21_
 
 La table AppSharingStream contient des métriques de qualité d’utilisation pour les flux réseau utilisés pour le partage d’application. Ce tableau a été présenté dans Microsoft Lync Server 2013.
 
@@ -120,7 +122,7 @@ La table AppSharingStream contient des métriques de qualité d’utilisation po
 <td><p><strong>PacketLossRateMax</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Taux maximal de perte de Paquets RTP (Real-Time Transport Protocol). (La perte de paquets se produit lorsque les paquets RTP, un protocole utilisé pour transmettre des contenus audio et vidéo sur Internet, n’a pas pu atteindre leur destination.) Les taux de perte élevés sont généralement causés par une congestion; absence de bande passante; encombrement ou interférence sans fil; ou un serveur multimédia surchargé. La perte de paquets génère généralement une distorsion ou une perte de son.</p></td>
+<td><p>Taux maximal de perte de Paquets RTP (Real-Time Transport Protocol). (La perte de paquets se produit lorsque les paquets RTP, un protocole utilisé pour transmettre des contenus audio et vidéo sur Internet, n’a pas pu atteindre leur destination.) Les taux de perte élevés sont généralement causés par une congestion ; absence de bande passante ; encombrement ou interférence sans fil ; ou un serveur multimédia surchargé. La perte de paquets génère généralement une distorsion ou une perte de son.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketUtilization</strong></p></td>
@@ -162,37 +164,37 @@ La table AppSharingStream contient des métriques de qualité d’utilisation po
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Nombre total d’occurrences de rafales à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
+<td><p>Nombre total d’occurrences de rafales à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densité du Burst total unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
+<td><p>Densité du Burst total unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée totale du Burst. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
+<td><p>Durée totale du Burst. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
+<td><p>Nombre total d’occurrences de l’espacement unidirectionnel. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densité de l’intervalle total à sens unique. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
+<td><p>Densité de l’intervalle total à sens unique. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée totale de l’intervalle. Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
+<td><p>Durée totale de l’intervalle. Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendues au lieu d’un flux continu ; les intervalles indiquent les retards entre ces rafales. Cette métrique mesure le flux de données entre le client et le serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ApplicationSharingType</strong></p></td>
@@ -222,19 +224,19 @@ La table AppSharingStream contient des métriques de qualité d’utilisation po
 <td><p><strong>RDPTileProcessingLatencyBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Des occurrences de Burst dans le temps de traitement des vignettes de protocole RDP (Remote Desktop Protocol). Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</p></td>
+<td><p>Des occurrences de Burst dans le temps de traitement des vignettes de protocole RDP (Remote Desktop Protocol). Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensity</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Densité Burst du temps de traitement des vignettes du protocole RDP (Remote Desktop Protocol). Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</p></td>
+<td><p>Densité Burst du temps de traitement des vignettes du protocole RDP (Remote Desktop Protocol). Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDuration</strong></p></td>
 <td><p>float</p></td>
 <td></td>
-<td><p>Durée Burst du temps de traitement des vignettes de protocole RDP (Remote Desktop Protocol). Une transmission «Burst» est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</p></td>
+<td><p>Durée Burst du temps de traitement des vignettes de protocole RDP (Remote Desktop Protocol). Une transmission « Burst » est une transmission dans laquelle les données sont transmises en rafales inattendus plutôt qu’à un flux continu.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyGapOccurrences</strong></p></td>
@@ -661,7 +663,7 @@ La table AppSharingStream contient des métriques de qualité d’utilisation po
 <td><p>bit</p></td>
 <td></td>
 <td><p>1 signifie que le sens du flux provient de l’appelant vers l’appel.</p>
-<p>0: le sens du flux provient de l’appelant.</p></td>
+<p>0 : le sens du flux provient de l’appelant.</p></td>
 </tr>
 </tbody>
 </table>

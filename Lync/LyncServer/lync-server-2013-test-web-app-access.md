@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: accès à l’application Web de test'
+title: 'Lync Server 2013 : accès à l’application Web de test'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test Web App access
 ms:assetid: 17d67ea3-f74d-4952-ac2b-92c0dacc8014
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d118f019883bd5c0f00295bb92287c9593192a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7618bcc9a69d177950bae64354106a67721e822a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846561"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846561"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-07_
+_**Dernière modification de la rubrique :** 2014-06-07_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-06-07_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsWebApp. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsWebApp. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebApp&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,7 +80,7 @@ L’applet de contrôle test-CsWebApp peut être exécutée à l’aide d’une 
 
     Test-CsWebApp -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Pour exécuter ce contrôle à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsWebApp:
+Pour exécuter ce contrôle à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsWebApp :
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -93,33 +95,33 @@ Pour plus d’informations, consultez la rubrique d’aide de l’applet de [con
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si test-CsWebApp peut joindre les utilisateurs à leurs conférences, l’applet de contrôle renverra le résultat de test réussite:
+Si test-CsWebApp peut joindre les utilisateurs à leurs conférences, l’applet de contrôle renverra le résultat de test réussite :
 
-Nom de domaine complet cible:
+Nom de domaine complet cible :
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur:
+Message d’erreur :
 
 Diagnostic
 
-Si les utilisateurs ne peuvent pas rejoindre les conférences nécessaires, le résultat du test sera marqué comme ayant échoué. En règle générale, le test-CsWebApp signale également un message d’erreur et un diagnostic détaillés:
+Si les utilisateurs ne peuvent pas rejoindre les conférences nécessaires, le résultat du test sera marqué comme ayant échoué. En règle générale, le test-CsWebApp signale également un message d’erreur et un diagnostic détaillés :
 
-Nom de domaine complet (FQDN) cible: atl-cs-001.litwareinc.com
+Nom de domaine complet (FQDN) cible : atl-cs-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:00
+Latence : 00:00:00
 
-Message d’erreur: aucun réponse reçu pour le service de ticket Web
+Message d’erreur : aucun réponse reçu pour le service de ticket Web
 
-Diagnostic: la requête HTTP n’est pas autorisée avec le client
+Diagnostic : la requête HTTP n’est pas autorisée avec le client
 
-schéma d’authentification «NTLM». L’authentification
+schéma d’authentification « NTLM ». L’authentification
 
-l’en-tête reçu du serveur était «Negotiate, NTLM».
+l’en-tête reçu du serveur était « Negotiate, NTLM ».
 
 </div>
 
@@ -127,7 +129,7 @@ l’en-tête reçu du serveur était «Negotiate, NTLM».
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Les échecs de test-CsWebApp impliquent généralement des erreurs d’authentification des utilisateurs. Si test-CsWebApp échoue, vous devez commencer par vérifier que les utilisateurs spécifiés disposent de comptes d’utilisateurs valides et sont activés pour Lync Server. Vous pouvez récupérer les informations sur le compte à l’aide d’une commande similaire à celle-ci:
+Les échecs de test-CsWebApp impliquent généralement des erreurs d’authentification des utilisateurs. Si test-CsWebApp échoue, vous devez commencer par vérifier que les utilisateurs spécifiés disposent de comptes d’utilisateurs valides et sont activés pour Lync Server. Vous pouvez récupérer les informations sur le compte à l’aide d’une commande similaire à celle-ci :
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 

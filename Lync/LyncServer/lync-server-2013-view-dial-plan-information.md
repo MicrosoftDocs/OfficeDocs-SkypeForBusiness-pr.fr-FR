@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher les informations de plan de numérotation'
+title: 'Lync Server 2013 : afficher les informations de plan de numérotation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View dial plan information
 ms:assetid: 25ed0112-a8a7-418a-8c2c-580081be692a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be912be5bd421310b1806165db7aac744f7ab23f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a83de5daf33764dd08be9c08141d338e73a675d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846304"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846304"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Pour afficher des informations pour un plan de numérotation existant, suivez les étapes de la procédure ci-dessous. Pour créer un nouveau plan de numérotation, reportez-vous à [la rubrique créer un plan de numérotation dans Lync Server 2013](lync-server-2013-create-a-dial-plan.md).
 
@@ -64,13 +66,13 @@ Pour afficher des informations pour un plan de numérotation existant, suivez le
 
 ## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>Pour afficher les plans de numérotation à l’aide des cmdlets Windows PowerShell
 
-  - Les plans de numérotation peuvent être affichés à l’aide de l’interface de ligne de commande Windows PowerShell et de l’applet de commande **Get-CsDialPlan** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+  - Les plans de numérotation peuvent être affichés à l’aide de l’interface de ligne de commande Windows PowerShell et de l’applet de commande **Get-CsDialPlan** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
     
-    Pour afficher des informations sur l’ensemble de vos plans de numérotation, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+    Pour afficher des informations sur l’ensemble de vos plans de numérotation, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsDialPlan
     
-    Cette commande renvoie des informations similaires à ce qui suit:
+    Cette commande renvoie des informations similaires à ce qui suit :
     
         Identity                 : Global
         Description              :

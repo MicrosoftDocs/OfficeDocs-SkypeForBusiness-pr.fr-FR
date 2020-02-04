@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de synthèse des conférences'
+title: 'Lync Server 2013 : rapport de synthèse des conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Summary Report
 ms:assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184299
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dde91a25d33bac5af8b1759b1fbfc90cfb9bc0ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68858d56c47953a99928a59e5f83485ba9d305cb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838499"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838499"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-09-03_
+_**Dernière modification de la rubrique :** 2014-09-03_
 
 Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. En règle générale, une conférence implique plus de 2 utilisateurs et nécessite l’utilisation de Microsoft Lync Server 2013 Conferencing services. En comparaison, une session d’égal à égal implique généralement 2 utilisateurs et ne nécessite pas l’utilisation des services de conférence de Lync Server. Les activités d’égal à égal sont signalées sur le [rapport de synthèse des activités d’égal à égal dans Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md).
 
@@ -108,7 +110,7 @@ Le rapport de synthèse de conférence est accessible depuis la page d’accueil
 
 ## <a name="making-the-best-use-of-the-conference-summary-report"></a>Exploiter au mieux le rapport de synthèse de conférence
 
-Les valeurs totales pour la plupart des métriques utilisées sur le rapport de synthèse de la Conférence sont accessibles au bas du rapport. Faites défiler vers le bas pour afficher les valeurs telles que le nombre total de conférences organisées pendant la période spécifiée et le nombre total de personnes ayant participé à ces conférences. Une métrique qui n’est pas totalisée en bas du rapport est le nombre total d’organisateurs de conférences uniques. Pourquoi ? Voici une raison. Imaginons que vous recherchiez un mois de données. Le jour 1, vous avez obtenu 34 organisateurs de conférences uniques. le jour 2, vous avez 27 organisateurs de conférences uniques. Est-ce que cela signifie que vous avez 61 de conférences de conférences uniques depuis deux jours? Pas nécessairement. Après tout, les 27 personnes qui ont organisé des conférences le jour 2 peuvent être parmi les 34 personnes qui ont organisé des conférences le jour 1. Par exemple, dans ce rapport simple, vous remarquerez les conférences de Ken Myer et Pilar Arès programmées sur 7/7/2012 et 7/2/2012:
+Les valeurs totales pour la plupart des métriques utilisées sur le rapport de synthèse de la Conférence sont accessibles au bas du rapport. Faites défiler vers le bas pour afficher les valeurs telles que le nombre total de conférences organisées pendant la période spécifiée et le nombre total de personnes ayant participé à ces conférences. Une métrique qui n’est pas totalisée en bas du rapport est le nombre total d’organisateurs de conférences uniques. Pourquoi ? Voici une raison. Imaginons que vous recherchiez un mois de données. Le jour 1, vous avez obtenu 34 organisateurs de conférences uniques. le jour 2, vous avez 27 organisateurs de conférences uniques. Est-ce que cela signifie que vous avez 61 de conférences de conférences uniques depuis deux jours ? Pas nécessairement. Après tout, les 27 personnes qui ont organisé des conférences le jour 2 peuvent être parmi les 34 personnes qui ont organisé des conférences le jour 1. Par exemple, dans ce rapport simple, vous remarquerez les conférences de Ken Myer et Pilar Arès programmées sur 7/7/2012 et 7/2/2012 :
 
 
 <table>
@@ -276,7 +278,7 @@ Le tableau ci-dessous contient les informations fournies par le rapport de synth
 <td><p><strong>Nombre total de minutes par conférence A/V</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Nombre total de minutes consacrées à la conférence audio/vidéo.</p>
-<p>Le nombre total de minutes de conférence A/V résume l’ensemble des types de conférences audio/vidéo, y compris: conférences A/V; Conférences de messagerie instantanée; Conférences de partage d’application; Conférences de données; et conférences RTC.</p></td>
+<p>Le nombre total de minutes de conférence A/V résume l’ensemble des types de conférences audio/vidéo, y compris : conférences A/V ; Conférences de messagerie instantanée ; Conférences de partage d’application ; Conférences de données ; et conférences RTC.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre total de minutes par participant à la conférence A/V</strong></p></td>

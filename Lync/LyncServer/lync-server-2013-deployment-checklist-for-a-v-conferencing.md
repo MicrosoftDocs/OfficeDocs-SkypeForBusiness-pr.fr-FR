@@ -3,6 +3,8 @@ title: Liste de vérification de déploiement de Lync Server 2013 pour les conf�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for A/V conferencing
 ms:assetid: 6d47426f-6559-407b-9ac1-2453f0b7a2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619183(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d787cbc1e2bbefcc2cb125e64ab7143ddbd6cf2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 736719475d77f67932b350e1684b4af26ca2fbd6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831507"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831507"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
 Comme pour le déploiement de vos autres composants Lync Server 2013, le déploiement de conférences A/V nécessite l’utilisation du générateur de topologie pour créer et publier une topologie incluant des conférences.
 
@@ -88,7 +90,7 @@ Le tableau suivant fournit une vue d’ensemble des étapes nécessaires au dép
 <td><p><strong>Création de la topologie interne appropriée pour prendre en charge la conférence</strong></p></td>
 <td><p>Exécutez le générateur de topologie pour ajouter des conférences à la topologie, puis publiez la topologie.</p></td>
 <td><p>Pour définir une topologie, un compte membre du groupe Utilisateurs local</p>
-<p>Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le magasin de fichiers 2013 Lync Server (de façon à ce que le générateur de topologie puisse configurer les DACL requis)</p></td>
+<p>Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le magasin de fichiers 2013 Lync Server (de manière à ce que le générateur de topologie puisse configurer les DACL requis)</p></td>
 <td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Définissez et configurez une topologie dans le générateur de topologies de Lync Server 2013</a> dans la documentation de déploiement.</p></td>
 </tr>
 <tr class="odd">

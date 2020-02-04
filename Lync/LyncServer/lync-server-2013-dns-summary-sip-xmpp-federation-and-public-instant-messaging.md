@@ -3,6 +3,8 @@ title: DNS Summary-SIP, Fédération de XMPP et messagerie instantanée publique
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c22b38fdb9e936df8b3fd148022acdbd857cdcfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831343"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-03-09_
+_**Dernière modification de la rubrique :** 2017-03-09_
 
-Les enregistrements DNS (Domain Name System) requis pour la définition d’une Fédération auprès d’Office Communications Server ou de partenaires Lync Server sont déterminés par votre décision d’autoriser la découverte automatique de DNS de votre domaine par d’autres partenaires en perspective. Si vous publiez \_le sipfederationtls. \_TCP. * \<Nom\> de domaine SIP* Enregistrement SRV, tout autre domaine fédéré SIP peut «découvrir» votre Fédération. Vous pouvez contrôler quels domaines fédérés peuvent communiquer avec vous à l’aide des paramètres des domaines et des domaines bloqués dans le panneau de configuration de Lync Server, ou en définissant la configuration des domaines autorisés ou bloqués à l’aide de Lync Server Management Shell et du ** Obtenir**, **définir**, **nouveau**, **supprimer-CsAllowedDomain** et **-CsBlockedDomain** des cmdlets PowerShell. Pour plus d’informations sur la configuration de ces paramètres et l’utilisation des cmdlets PowerShell, voir les **Rubriques connexes** à la fin de cette rubrique.
+Les enregistrements DNS (Domain Name System) requis pour la définition d’une Fédération auprès d’Office Communications Server ou de partenaires Lync Server sont déterminés par votre décision d’autoriser la découverte automatique de DNS de votre domaine par d’autres partenaires en perspective. Si vous publiez \_le sipfederationtls. \_TCP. * \<Nom\> de domaine SIP* Enregistrement SRV, tout autre domaine fédéré SIP peut « découvrir » votre Fédération. Vous pouvez contrôler quels domaines fédérés peuvent communiquer avec vous à l’aide des paramètres des domaines et des domaines bloqués dans le panneau de configuration de Lync Server, ou en définissant la configuration des domaines autorisés ou bloqués à l’aide de Lync Server Management Shell et des applets de commande PowerShell **Get**, **Set**, **New**, **Remove-CsAllowedDomain** et **-CsBlockedDomain** PowerShell. Pour plus d’informations sur la configuration de ces paramètres et l’utilisation des cmdlets PowerShell, voir les **Rubriques connexes** à la fin de cette rubrique.
 
 La table de synthèse des enregistrements DNS représente les entrées nécessaires pour une Fédération ouverte ou détectable. Si vous ne voulez pas implémenter la découverte de la Fédération, vous pouvez décider de \_ne pas configurer le sipfederationtls. \_TCP. Enregistrement de *nom\> de domaine SIP. \<*
 
@@ -43,7 +45,7 @@ La table de synthèse des enregistrements DNS représente les entrées nécessai
 
 
 > [!IMPORTANT]
-> Il existe des scénarios spécifiques dans lesquels vous devez disposer du _sipfederationtls. _ TCP. <EM> &lt;Nom&gt; de domaine SIP</EM> Enregistrement SRV, mais vous ne souhaitez pas disposer d’une Fédération détectable. Par exemple, vous avez déployé une mobilité pour vos utilisateurs. Le système de notifications de transmission mobile Clearinghouse (PNCH) est un type spécial de Fédération qui est utilisé pour les clients mobiles Microsoft Lync sur Apple iPhone ou iPad utilisant le client mobile Lync 2010 ou Windows Phone à l’aide des clients mobiles Lync 2010 mobile ou Lync 2013. _Sipfederationtls. _ TCP. <EM> &lt;Nom&gt; de domaine SIP</EM> L’enregistrement SRV est utilisé dans le cas d’une notification de mobilité et de transmission. Pour limiter ce problème et contrôler votre détectabilité, décochez la case <STRONG>activer la découverte de domaines partenaires</STRONG> pour désactiver la découverte.
+> Il existe des scénarios spécifiques dans lesquels vous devez disposer de l' _sipfederationtls. _tcp. <EM> &lt;Nom&gt; de domaine SIP</EM> Enregistrement SRV, mais vous ne souhaitez pas disposer d’une Fédération détectable. Par exemple, vous avez déployé une mobilité pour vos utilisateurs. Le système de notifications de transmission mobile Clearinghouse (PNCH) est un type spécial de Fédération qui est utilisé pour les clients mobiles Microsoft Lync sur Apple iPhone ou iPad utilisant le client mobile Lync 2010 ou Windows Phone à l’aide des clients mobiles Lync 2010 mobile ou Lync 2013. _Sipfederationtls. _tcp. <EM> &lt;Nom&gt; de domaine SIP</EM> L’enregistrement SRV est utilisé dans le cas d’une notification de mobilité et de transmission. Pour limiter ce problème et contrôler votre détectabilité, décochez la case <STRONG>activer la découverte de domaines partenaires</STRONG> pour désactiver la découverte.
 
 
 
@@ -78,7 +80,7 @@ Lorsque vous configurez DNS (Domain Name System) pour la connectivité de messag
 <td><p>DNS/SRV/5061 externes</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>L’interface externe du service Edge d’accès est requise pour une découverte automatique de votre Fédération auprès d’autres partenaires de Fédération potentiels, et est désignée sous le nom de «domaines SIP autorisés» (appelé Fédération avancée dans les versions antérieures). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p>
+<td><p>L’interface externe du service Edge d’accès est requise pour une découverte automatique de votre Fédération auprès d’autres partenaires de Fédération potentiels, et est désignée sous le nom de « domaines SIP autorisés » (appelé Fédération avancée dans les versions antérieures). Répétez cette opération pour tous les domaines SIP pour lesquels Lync est compatible avec les utilisateurs.</p>
 
 
 

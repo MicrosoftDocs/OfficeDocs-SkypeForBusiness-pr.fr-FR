@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: ConferenceSessionDetails'
+title: 'Affichage Lync Server 2013 : ConferenceSessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceSessionDetails view
 ms:assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0432606a49766f7ea6755f5f234343ac70ca6c0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46356099c3eee20794a4198720597dc4395b563f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838498"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838498"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-12_
+_**Dernière modification de la rubrique :** 2012-11-12_
 
 Le mode ConferenceSessionDetails stocke les informations sur les sessions multiparties. Chaque enregistrement représente une seule session de conférence, qui peut correspondre soit à la session ayant le focus, soit à la session associée à un serveur de conférence particulier. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -181,7 +183,7 @@ Le mode ConferenceSessionDetails stocke les informations sur les sessions multip
 <td><p><strong>DialogId</strong></p></td>
 <td><p>varstring (LGA775)</p></td>
 <td><p>ID de boîte de dialogue SIP. Le format est</p>
-<p>:d ialog; from-tag; to-tag</p></td>
+<p>:d ialog ; from-tag ; to-tag</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReplaceDialogIdTime</strong></p></td>
@@ -196,8 +198,8 @@ Le mode ConferenceSessionDetails stocke les informations sur les sessions multip
 <tr class="odd">
 <td><p><strong>ReplacesDialogId</strong></p></td>
 <td><p>varchar (775)</p></td>
-<td><p>ID de boîte de dialogue SIP le remplacement de la session. Le format de:</p>
-<p>boîte de dialogue; à partir d’une balise</p></td>
+<td><p>ID de boîte de dialogue SIP le remplacement de la session. Le format de :</p>
+<p>boîte de dialogue ; à partir d’une balise</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsStartedByConfServer</strong></p></td>
@@ -262,15 +264,15 @@ Le mode ConferenceSessionDetails stocke les informations sur les sessions multip
 <tr class="even">
 <td><p><strong>UserFlag</strong></p></td>
 <td><p>type</p></td>
-<td><p>Indique les attributs de l’utilisateur ayant participé à la session. Les définitions d’attribut suivantes sont autorisées:</p>
+<td><p>Indique les attributs de l’utilisateur ayant participé à la session. Les définitions d’attribut suivantes sont autorisées :</p>
 <p>0x01-intégré sur le téléphone de bureau</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallFlag</strong></p></td>
 <td><p>type</p></td>
-<td><p>Indique les attributs d’appel. Les définitions d’attribut suivantes sont autorisées:</p>
+<td><p>Indique les attributs d’appel. Les définitions d’attribut suivantes sont autorisées :</p>
 <p>0x01-nouvelle tentative de Session0</p>
-<p>x02: appel passé par l’agent pour le compte d’un Response Group</p></td>
+<p>x02 : appel passé par l’agent pour le compte d’un Response Group</p></td>
 </tr>
 </tbody>
 </table>

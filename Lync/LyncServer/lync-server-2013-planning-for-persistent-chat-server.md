@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification du serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Persistent Chat Server
 ms:assetid: 57b2f574-234e-4a5a-bb78-8823369ba79e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398381(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184190
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe82f9504aa6a6fefe85e501297edf44da4ba29c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 363008c910c53f5b1b951bf57ba8663b4d4d970d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824623"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824623"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-11_
+_**Dernière modification de la rubrique :** 2012-10-11_
 
 Vous pouvez utiliser Lync Server 2013, serveur de chat permanent pour permettre à plusieurs utilisateurs de participer à des conversations dans lesquelles ils publient et accèdent au contenu de rubriques spécifiques, y compris le texte, les liens et les fichiers. Bien que les utilisateurs puissent communiquer en temps réel pendant une session, le contenu de chaque session est permanent, ce qui signifie qu’il reste disponible après la fin d’une session.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: test de l’appel d’égal à égal PSTN'
+title: 'Lync Server 2013 : test de l’appel d’égal à égal PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f120747eb50e8c1c52bb14d0a8883db8133022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846532"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846532"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-05_
+_**Dernière modification de la rubrique :** 2014-06-05_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsPstnPeerToPeerCall. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsPstnPeerToPeerCall. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPstnPeerToPeerCall&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,7 +80,7 @@ L’applet de contrôle test-CsPstnPeerToPeerCall peut être exécutée à l’a
 
 `Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com"`
 
-Pour exécuter ce contrôle à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsPstnPeerToPeerCall:
+Pour exécuter ce contrôle à l’aide de comptes d’utilisateurs réels, vous devez créer deux objets d’informations d’identification Windows PowerShell (objets contenant le nom de compte et le mot de passe) pour chaque compte. Vous devez alors inclure ces objets d’informations d’identification et les adresses SIP des deux comptes lors de l’appel de test-CsPstnPeerToPeerCall :
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,41 +94,41 @@ Pour plus d’informations, consultez la documentation d’aide de l’applet de
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si les utilisateurs spécifiés peuvent effectuer un appel d’égal à égal, vous recevrez une sortie semblable à celle-ci, avec la propriété Result marquée comme **réussie:**
+Si les utilisateurs spécifiés peuvent effectuer un appel d’égal à égal, vous recevrez une sortie semblable à celle-ci, avec la propriété Result marquée comme **réussie :**
 
-TargetFqdn: atl-cs-001.litwareinc.com
+TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat: réussite
+Résultat : réussite
 
-Latence: 00:00:06.8630376
+Latence : 00:00:06.8630376
 
 Error
 
 Diagnostic
 
-Si les utilisateurs spécifiés ne parviennent pas à effectuer un appel d’égal à égal, le résultat est affiché en tant qu’échec et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic:
+Si les utilisateurs spécifiés ne parviennent pas à effectuer un appel d’égal à égal, le résultat est affiché en tant qu’échec et des informations supplémentaires seront enregistrées dans les propriétés d’erreur et de diagnostic :
 
-TargetFqdn: atl-cs-001.litwareinc.com
+TargetFqdn : atl-cs-001.litwareinc.com
 
-Résultat: échec
+Résultat : échec
 
-Latence: 00:00:0182361
+Latence : 00:00:0182361
 
-Erreur: 403, interdit
+Erreur : 403, interdit
 
-Diagnostic: codeerreur = 12001, source = ATL-CS-001.litwareinc.com,
+Diagnostic : codeerreur = 12001, source = ATL-CS-001.litwareinc.com,
 
 Raison = la stratégie utilisateur ne contient pas l’utilisation de l’itinéraire du téléphone
 
 La sortie précédente indique que le test a échoué, car la stratégie vocale affectée à au moins un des utilisateurs spécifiés n’inclut pas une utilisation du téléphone. (Les utilisations du téléphone lient les politiques vocales aux itinéraires vocaux. Sans qu’il s’agissait d’une stratégie vocale et d’un itinéraire vocal correspondant, vous ne pouvez pas passer d’appels sur PSTN.)
 
-Si test-CsPstnPeerToPeerCall échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose:
+Si test-CsPstnPeerToPeerCall échoue, il est possible que vous souhaitiez réexécuter le test, cette fois-ci, y compris le paramètre Verbose :
 
     Test-CsPstnPeerToPeerCall -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Lorsque le paramètre Verbose est inclus, test-CsPstnPeerToPeerCall renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la possibilité de l’utilisateur spécifié de se connecter à Lync Server. Par exemple, cette sortie indique que des problèmes réseau empêchent une connexion avec le RTC:
+Lorsque le paramètre Verbose est inclus, test-CsPstnPeerToPeerCall renvoie un compte étape par étape de chaque action qu’il a effectuée lors de la vérification de la possibilité de l’utilisateur spécifié de se connecter à Lync Server. Par exemple, cette sortie indique que des problèmes réseau empêchent une connexion avec le RTC :
 
-Etablissement d’un appel vidéo audio sur’SIP: +12065551219@litwareinc.com; utilisateur = téléphone'.
+Etablissement d’un appel vidéo audio sur’SIP : + 12065551219@litwareinc. com ; utilisateur = téléphone'.
 
 Une exception «une 404 (non trouvée) a été reçue du réseau et l’opération a échoué.
 
@@ -136,23 +138,23 @@ Une exception «une 404 (non trouvée) a été reçue du réseau et l’opérati
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles les tests-CsPstnPeerToPeerCall peuvent échouer:
+Voici quelques raisons courantes pour lesquelles les tests-CsPstnPeerToPeerCall peuvent échouer :
 
-  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit:
+  - Vous avez spécifié un compte d’utilisateur qui n’est pas valide. Vous pouvez vérifier qu’un compte d’utilisateur existe en exécutant une commande semblable à ce qui suit :
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit:
+  - Le compte d’utilisateur est valide, mais le compte n’est pas activé pour Lync Server. Pour vérifier qu’un compte d’utilisateur est activé pour Lync Server, exécutez une commande semblable à ce qui suit :
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
     Si la propriété Enabled est définie sur false, cela signifie que l’utilisateur n’est actuellement pas activé pour Lync Server.
 
-  - La stratégie vocale attribuée à l’utilisateur spécifié ne dispose pas d’une utilisation PSTN valide. Vous pouvez déterminer la politique vocale affectée à un utilisateur à l’aide d’une commande similaire à celle-ci:
+  - La stratégie vocale attribuée à l’utilisateur spécifié ne dispose pas d’une utilisation PSTN valide. Vous pouvez déterminer la politique vocale affectée à un utilisateur à l’aide d’une commande similaire à celle-ci :
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object VoicePolicy
     
-    Vous pouvez ensuite déterminer les utilisations RTC qui sont affectées à cette stratégie à l’aide d’une commande similaire à ce qui suit, qui extrait des informations sur le RedmondVoicePolicy de stratégie vocale par utilisateur:
+    Vous pouvez ensuite déterminer les utilisations RTC qui sont affectées à cette stratégie à l’aide d’une commande similaire à ce qui suit, qui extrait des informations sur le RedmondVoicePolicy de stratégie vocale par utilisateur :
     
         Get-CsVoicePolicy -Identity "RedmondVoicePolicy"
 

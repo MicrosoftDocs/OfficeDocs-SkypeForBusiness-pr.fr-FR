@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de Lync Server 2013 pour qu’il foncti
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 985b2d286f65be2353c2ace0d59872f4d0fc47ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -31,7 +33,7 @@ ms.locfileid: "34838361"
 
 <div id="mainBody">
 
-_**Dernière modification de la rubrique:** 2013-04-03_
+_**Dernière modification de la rubrique :** 2013-04-03_
 
 Cette étape nécessite l’utilitaire d’intégration de la messagerie unifiée Exchange (OcsUmUtil. exe). Cet outil se trouve sur le serveur 2013 du serveur Lync dans le. \\Fichiers programme\\fichiers communs\\Microsoft Lync Server 2013\\support.
 
@@ -39,26 +41,26 @@ Cette étape nécessite l’utilitaire d’intégration de la messagerie unifié
 
 ## <a name="running-the-exchange-um-integration-utility"></a>Exécution de l’utilitaire d’intégration de la messagerie unifiée Exchange
 
-L’utilitaire d’intégration de la messagerie unifiée Exchange doit être exécuté à partir d’un compte d’utilisateur présentant les caractéristiques suivantes:
+L’utilitaire d’intégration de la messagerie unifiée Exchange doit être exécuté à partir d’un compte d’utilisateur présentant les caractéristiques suivantes :
 
   - L’appartenance aux groupes RTCUniversalServerAdmins et RtcUniversalUserAdmins (qui inclut l’autorisation de lecture des paramètres de messagerie unifiée Exchange Server);
 
   - Droits d’utilisateur au sein du domaine pour créer des objets de contact dans le conteneur d’unité d’organisation (UO) spécifié.
 
-Lorsque vous exécutez l’utilitaire d’intégration de MU Exchange, il effectue les tâches suivantes:
+Lorsque vous exécutez l’utilitaire d’intégration de MU Exchange, il effectue les tâches suivantes :
 
   - Permet de créer des objets de contact pour chaque standard automatique et numéro d’accès d’abonné qui doivent être utilisés par les utilisateurs d’Enterprise Voice.
 
   - Vérifie que le nom de chaque plan de numérotation vocale d’entreprise correspond à son contexte téléphonique de messagerie unifiée (MU) correspondant. Cette correspondance est nécessaire uniquement si le plan de numérotation de messagerie unifiée s’exécute sur une version d’Exchange *antérieure* à Exchange 2010 Service Pack 1 (SP1).
 
 > [!IMPORTANT]
-> Avant d’exécuter l’utilitaire d’intégration de la messagerie unifiée Exchange, assurez-vous que vous avez réalisé les opérations suivantes:
+> Avant d’exécuter l’utilitaire d’intégration de la messagerie unifiée Exchange, assurez-vous que vous avez réalisé les opérations suivantes :
 > <ul>
 > <li><p>Créez un ou plusieurs plans de numérotation de messagerie unifiée Exchange, comme décrit dans la documentation du produit Exchange.</p>
 > <p>Pour Microsoft Exchange Server 2010, voir &quot;créer un plan&quot; de numérotation <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>de messagerie unifiée à l’adresse.</p>
 > <p>Pour Microsoft Exchange Server 2007 Service Pack 1 (SP1), voir &quot;création d’un plan&quot; de NUMÉROTation d’URI SIP de <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>messagerie unifiée à l’adresse.</p></li>
 > <li><p>Créez un ou plusieurs plans de numérotation Lync Server correspondants, comme décrit dans la rubrique <a href="lync-server-2013-create-a-dial-plan.md">créer un plan de numérotation dans Lync Server 2013</a>.</p></li>
-> <ul><li>Si vous utilisez une version d’Exchange antérieure à Microsoft Exchange Server 2010 SP1, vous devez entrer le nom de domaine complet (FQDN) du plan de numérotation SIP correspondant dans le plan de numérotation de messagerie unifiée Exchange Server 2013. <STRONG> </STRONG>champ. Si vous utilisez Microsoft Exchange Server 2010 SP1 ou le dernier Service Pack, il n’est pas nécessaire de faire correspondre ce nom de plan de numérotation.</li></ul>
+> <ul><li>Si vous utilisez une version d’Exchange antérieure à Microsoft Exchange Server 2010 SP1, vous devez entrer le nom de domaine complet (FQDN) du plan de numérotation SIP correspondant dans le champ <STRONG>simple nom</STRONG> du plan de numérotation de Lync Server 2013. Si vous utilisez Microsoft Exchange Server 2010 SP1 ou le dernier Service Pack, il n’est pas nécessaire de faire correspondre ce nom de plan de numérotation.</li></ul>
 > <li>Créez un standard automatique et assurez-vous que le numéro d’accès d’abonné et le numéro de standard automatique sont au format E. 164.</li></ul>
 
 
@@ -74,7 +76,7 @@ Lorsque vous exécutez l’utilitaire d’intégration de MU Exchange, il effect
 
 4.  Dans la liste **plans de numérotation SIP** , sélectionnez un plan de numérotation SIP de MU pour lequel vous voulez créer des objets de contact, puis cliquez sur **Ajouter**.
 
-5.  Dans la zone **contact** , acceptez l’unité d’organisation par défaut ou cliquez sur **Parcourir** pour démarrer le **Sélecteur d’UO**. Dans la boîte de dialogue **Sélecteur d’UO** , vous pouvez sélectionner une unité d’organisation et cliquer sur **OK**, ou bien cliquer sur **créer une nouvelle** unité d’organisation pour créer une nouvelle unité d’organisation sous la racine OU dans une autre unité d’organisation du domaine (par exemple, «UO = RTC spécial, DC = fourthcoffee, DC = com») , puis cliquez sur **OK**.
+5.  Dans la zone **contact** , acceptez l’unité d’organisation par défaut ou cliquez sur **Parcourir** pour démarrer le **Sélecteur d’UO**. Dans la boîte de dialogue **Sélecteur d’UO** , vous pouvez sélectionner une unité d’organisation et cliquer sur **OK**, ou bien cliquer sur **créer une nouvelle** unité d’organisation pour créer une nouvelle unité d’organisation sous la racine OU dans une autre unité d’organisation du domaine (par exemple, « UO = RTC spécial, DC = fourthcoffee, DC = com »), puis cliquez sur **OK**.
     
     <div>
     
@@ -102,7 +104,7 @@ Lorsque vous exécutez l’utilitaire d’intégration de MU Exchange, il effect
     
 
     > [!NOTE]  
-    > Si vous tapez une nouvelle adresse SIP, celle-ci doit commencer par <STRONG>SIP:</STRONG> (c’est-À-dire «SIP:», y compris le signe deux-points).
+    > Si vous tapez une nouvelle adresse SIP, celle-ci doit commencer par <STRONG>SIP :</STRONG> (c’est-À-dire « SIP : », y compris le signe deux-points).
 
     
     </div>

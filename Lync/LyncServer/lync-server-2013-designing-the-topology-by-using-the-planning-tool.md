@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: conception de la topologie à l’aide de l’outil de planification'
+title: 'Lync Server 2013 : conception de la topologie à l’aide de l’outil de planification'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Designing the topology by using the Planning Tool
 ms:assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09cfa16103f4e6e2ebfa2327edbd330311753609
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590bfae33e12cca2e2305eab9d842f0e2f105838
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831445"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831445"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-04_
+_**Dernière modification de la rubrique :** 2013-03-04_
 
 Microsoft Lync Server 2013, outil de planification est un outil piloté par un Assistant, qui pose des questions sur la topologie Lync Server 2013 que vous concevez. L’outil de planification utilise les informations fournies, associées à des pratiques recommandées en matière de conception et de capacité topologique, pour présenter une topologie recommandée selon les réponses fournies. Vous pouvez télécharger l’outil de planification à partir du centre de[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)téléchargement Microsoft ().
 
@@ -41,7 +43,7 @@ En fin de compte, l’objectif de l’outil de planification consiste à facilit
 
 Après avoir personnalisé la topologie avec les adresses TCP/IP de l’infrastructure et les noms de domaine complets (FQDN), l’outil de planification met à votre disposition une série de rapports qui couvrent l’attribution de noms DNS (Domain Name System), les règles de pare-feu, les certificats, etc.
 
-L’outil de planification offre également la possibilité d’exporter des informations dans deux formats:
+L’outil de planification offre également la possibilité d’exporter des informations dans deux formats :
 
   - Microsoft Excel
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Routage des appels E9-1-1 avec une jonction SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Routing E9-1-1 calls by using a SIP trunk
 ms:assetid: 157753c3-fe74-4e2c-81da-ee06911d4cc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204701(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c537b66883ab786bc28e3cc808874c0fcb79b92d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 918aaf97b1567f012a2b41de7128db23aa383acb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822313"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-29_
+_**Dernière modification de la rubrique :** 2012-09-29_
 
 Se connecter à un fournisseur de services E9-1-1 éligible à l’aide d’une jonction SIP vous permet de déployer E9-1-1. Pour plus d’informations sur l’utilisation d’une passerelle ELIN pour se connecter à un fournisseur de services RTC (réseau téléphonique commuté) E9-1-1, voir [routage des appels E9-1-1 à l’aide d’une passerelle Elin dans Lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md).
 
@@ -41,9 +43,9 @@ Le diagramme suivant illustre la manière dont un appel d’urgence est achemin�
 
 **Routage des appels E9-1-1 via une jonction SIP**
 
-![Routage des appels d’urgence de Lync Server vers PSAPI] (images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Routage des appels d’urgence de Lync Server vers PSAPI")
+![Routage d’appel d’urgence de Lync Server vers PSAP](images/JJ204701.0637a9d4-2ca7-438a-8ed0-19090a4b992d(OCS.15).jpg "Routage d’appel d’urgence de Lync Server vers PSAP")
 
-Lorsqu’un appel d’urgence est passé à partir d’un client compatible Lync Server, procédez comme suit:
+Lorsqu’un appel d’urgence est passé à partir d’un client compatible Lync Server, procédez comme suit :
 
 1.  Une invitation SIP qui contient l’emplacement, le numéro de rappel de l’appelant et l’URL de notification (facultative) et le numéro de rappel de conférence sont routés vers Lync Server.
 

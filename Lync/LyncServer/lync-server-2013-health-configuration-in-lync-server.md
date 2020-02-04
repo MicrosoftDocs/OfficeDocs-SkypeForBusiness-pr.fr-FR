@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’intégrité dans Lync Server'
+title: 'Lync Server 2013 : configuration d’intégrité dans Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Health configuration in Lync Server 2013
 ms:assetid: c00a8c8e-c2d2-4557-8c42-211c7cc96550
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a719a5e8695dbbd0705aa649d72a32a2bfdc7d38
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14a4da3ec3f06dfb573ef7e9422bdd6b751db636
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831088"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Entre les différents sites Web, les Articles de la base de connaissances Microsoft et les outils du kit de ressources Lync Server, les administrateurs rencontrant des problèmes d’exécution de Lync Server ne sont jamais loin d’une solution pour résoudre ces problèmes.
 
@@ -45,13 +47,13 @@ De la même façon, les administrateurs peuvent utiliser System Center Operation
 
 
 > [!NOTE]  
-> Pour Lync Server 2013, le pack d’administration pour System Center Operations Manager est également capable de détecter les problèmes «externes» qui peuvent avoir un impact sur Lync Server. Par exemple, les administrateurs peuvent être avertis si Internet Information Services (IIS) se déconnecte, les ressources système sur un ordinateur Lync Server sont inférieures à un certain nombre de ressources ou un ordinateur serveur Lync rencontre une défaillance matérielle.
+> Pour Lync Server 2013, le pack d’administration pour System Center Operations Manager est également capable de détecter les problèmes « externes » qui peuvent avoir un impact sur Lync Server. Par exemple, les administrateurs peuvent être avertis si Internet Information Services (IIS) se déconnecte, les ressources système sur un ordinateur Lync Server sont inférieures à un certain nombre de ressources ou un ordinateur serveur Lync rencontre une défaillance matérielle.
 
 
 
 </div>
 
-La configuration de l’intégrité de Lync Server 2013 est basée sur System Center Operations Manager et sur l’utilisation des packs de gestion de Lync Server. Les packs d’administration suivants incluent un certain nombre de nouvelles fonctionnalités et améliorations, notamment:
+La configuration de l’intégrité de Lync Server 2013 est basée sur System Center Operations Manager et sur l’utilisation des packs de gestion de Lync Server. Les packs d’administration suivants incluent un certain nombre de nouvelles fonctionnalités et améliorations, notamment :
 
   - **Disponibilité des scénarios à partir de n’importe quel emplacement.** Le pack d’administration de Lync Server 2010 a présenté le concept de surveillance de la disponibilité des scénarios des utilisateurs finaux aux transactions synthétiques. Dans Lync Server 2013, ces agents ont plus de transactions synthétiques et peuvent être exécutés à partir de différents emplacements au sein de l’entreprise, d’emplacements géographiques distants en dehors de l’entreprise, d’appareils de succursale et de Lync Server 2010 les déploiements permettent d’ajouter une couverture aux déploiements de bords anciens.
 
@@ -103,7 +105,7 @@ Les packs de gestion incluent également diverses fonctionnalités qui permetten
 </table>
 
 
-Les alertes émises par le système sont classées en trois catégories générales:
+Les alertes émises par le système sont classées en trois catégories générales :
 
   - **Alertes à priorité élevée.** Ces alertes indiquent des conditions qui engendreront des interruptions de service pour de grands groupes d’utilisateurs. Par exemple, une défaillance de composant sur un seul ordinateur n’est pas une alerte de priorité élevée, car Lync Server 2013 inclut des fonctionnalités de haute disponibilité intégrées. Au lieu de cela, les alertes de priorité élevée représentent des problèmes importants» pour réactiver les administrateurs de la journée.» Les pannes détectées par les transactions synthétiques et les services hors connexion (par exemple, les conférences audio/vidéo) sont éligibles en tant qu’alertes à priorité élevée.
 

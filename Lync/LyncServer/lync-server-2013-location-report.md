@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport d’emplacement'
+title: 'Lync Server 2013 : rapport d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location Report
 ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac5ab1d077acb8f96849b4ac44911a4c90786fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4bb42f32313acd3609b21180ddaef90c53c27564
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830943"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830943"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Le rapport d’emplacement fournit des informations sur les mesures de la qualité des appels regroupées par emplacement réseau (c’est-à-dire, par sous-réseau). Si vos utilisateurs rencontrent des problèmes avec leurs appels, ce rapport peut vous aider à déterminer si ces problèmes sont étendus ou s’ils sont largement réduits à un segment de réseau donné.
 

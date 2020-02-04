@@ -3,6 +3,8 @@ title: Description de l’appartenance à la conversation permanente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Persistent Chat membership
 ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e525d93e58e73304b9d3a26248418c88b5e9ea79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2b4eb5fbe4342c1bd6bcb3bbb842e076e5863ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34846034"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
-L’accès des utilisateurs aux salles de conversation permanentes est géré par l’appartenance; les utilisateurs doivent être membres d’une salle de conversation pour pouvoir publier et lire des messages. Seuls **** les présentateurs disposant d’une affiliation désignée avec des salles de conversation peuvent utiliser la **publication sur les salles d’Auditorium**. Un auditorium est un type de salle de conversation (l’autre est **normal**), dans lequel seuls les présentateurs peuvent publier et tout le monde peut lire.
+L’accès des utilisateurs aux salles de conversation permanentes est géré par l’appartenance ; les utilisateurs doivent être membres d’une salle de conversation pour pouvoir publier et lire des messages. Seuls les **présentateurs** disposant d’une affiliation désignée avec des salles de conversation peuvent utiliser la **publication sur les salles d’Auditorium**. Un auditorium est un type de salle de conversation (l’autre est **normal**), dans lequel seuls les présentateurs peuvent publier et tout le monde peut lire.
 
-De plus, les salles de conversation permanente fonctionnent conformément aux règles d’une catégorie. Pour plus d’informations sur les catégories, voir [gérer des catégories, des salles et des compléments dans Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md), ainsi que les sections «fonctionnement de la portée de la catégorie» et «stratégies de catégorie de salle» plus loin dans cette rubrique.
+De plus, les salles de conversation permanente fonctionnent conformément aux règles d’une catégorie. Pour plus d’informations sur les catégories, voir [gérer des catégories, des salles et des compléments dans Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md), ainsi que les sections « fonctionnement de la portée de la catégorie » et « stratégies de catégorie de salle » plus loin dans cette rubrique.
 
 Un administrateur de chat permanent peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, l’administrateur de chat permanent peut configurer des principales (services de domaine Active Directory) qui peuvent être membres ou créateurs de salles de conversation d’une catégorie spécifique.
 
@@ -65,7 +67,7 @@ Le serveur Chat permanent s’appuie sur Active Directory pour le pool d’utili
 
 Une catégorie spécifie tous les utilisateurs et groupes qui peuvent être membres d’une liste d’appartenance d’une salle de conversation permanente de cette catégorie en fonction de la propriété **AllowedMembers** . Par exemple, si vous définissez le **AllowedMembers** de la catégorie sur contoso.com, vous pouvez ajouter un groupe ou un utilisateur de *contoso* en tant que membre aux salles de conversation de cette catégorie. Si vous définissez **AllowedMembers** sur une catégorie sur *ventes*, seuls les groupes et les utilisateurs de cette liste de distribution peuvent être ajoutés en tant que membres à des salles de conversation dans cette catégorie. De même, la propriété **créateurs** vous permet de contrôler qui peut créer des salles de conversation dans cette catégorie. Après la création d’une salle de conversation, tous les membres du groupe **AllowedMembers** peuvent être désignés en tant que **responsable** pour les opérations de gestion en cours sur les salles (par exemple, modifications d’appartenance et approbations).
 
-La définition de **AllowedMembers** et de **créateurs** pour une catégorie offre les avantages suivants:
+La définition de **AllowedMembers** et de **créateurs** pour une catégorie offre les avantages suivants :
 
   - Toutes les salles de conversation de cette catégorie sont liées par des limitations définies au niveau de la catégorie. Vous pouvez utiliser cela pour isoler des salles de conversation en fonction des besoins et des stratégies d’accès.
 

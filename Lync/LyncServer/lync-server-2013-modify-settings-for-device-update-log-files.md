@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifier les paramètres des fichiers journaux de mise à jour de l’appareil'
+title: 'Lync Server 2013 : modifier les paramètres des fichiers journaux de mise à jour de l’appareil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify settings for Device Update log files
 ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182554(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37002e1043f990ae1e726301b9c720af35556201
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88d75086f0532205c2897f7e86d49f50072aaa89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826884"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826884"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Vous pouvez modifier les paramètres d’enregistrement des informations de mise à jour de l’appareil dans votre organisation à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell. Le tableau suivant indique quels paramètres peuvent être modifiés et quels outils vous utilisez pour modifier les paramètres.
 
@@ -48,7 +50,7 @@ Les paramètres du journal peuvent être modifiés et appliqués globalement ou 
 <thead>
 <tr class="header">
 <th>Pour modifier</th>
-<th>Utiliser</th>
+<th>Utilisation</th>
 </tr>
 </thead>
 <tbody>
@@ -102,7 +104,7 @@ Les paramètres du journal peuvent être modifiés et appliqués globalement ou 
 
 3.  Dans la page **configuration du journal des appareils** , double-cliquez sur la configuration que vous voulez modifier.
 
-4.  Dans la boîte de dialogue **modifier les paramètres du journal** , modifiez les paramètres suivants:
+4.  Dans la boîte de dialogue **modifier les paramètres du journal** , modifiez les paramètres suivants :
     
       - **Taille maximale du fichier (octets)**   spécifie la taille maximale qu’un fichier journal peut prendre avant qu’il soit purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
     
@@ -126,7 +128,7 @@ Vous pouvez modifier les paramètres du fichier journal des mises à jour de l�
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
