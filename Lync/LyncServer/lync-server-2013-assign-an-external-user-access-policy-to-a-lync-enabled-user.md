@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Attribution d’une stratégie d’accès des utilisa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign an external user access policy to a Lync enabled user
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec487f8aacdc26f910f30a0864ecead1fdb1a745
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 523907fbf4bc4cca93be8e529b6b607b43f0ea87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838989"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34838989"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a><span data-ttu-id="4a4df-102">Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a4df-102">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>
+# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a><span data-ttu-id="5b68a-102">Attribution d’une stratégie d’accès des utilisateurs externes à un utilisateur activé pour Lync dans Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b68a-102">Assign an external user access policy to a Lync enabled user in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,41 +35,41 @@ ms.locfileid: "34838989"
 
 <span> </span>
 
-<span data-ttu-id="4a4df-103">_**Dernière modification de la rubrique:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="4a4df-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="5b68a-103">_**Dernière modification de la rubrique :** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="5b68a-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="4a4df-104">Si un utilisateur a été activé pour Lync Server, vous pouvez configurer une Fédération SIP, une Fédération d’utilisateurs distants et une connectivité de messagerie instantanée publique dans le panneau de configuration de Lync Server en appliquant les stratégies appropriées à des utilisateurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="4a4df-104">If a user has been enabled for Lync Server, you can configure SIP federation, XMPP federation, remote user access, and public instant messaging (IM) connectivity in the Lync Server Control Panel by applying the appropriate policies to specific users.</span></span> <span data-ttu-id="4a4df-105">Par exemple, si vous avez créé une stratégie pour prendre en charge l’accès des utilisateurs distants, vous devez l’appliquer à l’utilisateur pour que l’utilisateur puisse se connecter à Lync Server à partir d’un emplacement distant et collaborer avec des utilisateurs internes à partir de l’emplacement distant.</span><span class="sxs-lookup"><span data-stu-id="4a4df-105">For example, if you created a policy to support remote user access, you must apply it to the user before the user can connect to Lync Server from a remote location and collaborate with internal users from the remote location.</span></span>
+<span data-ttu-id="5b68a-104">Si un utilisateur a été activé pour Lync Server, vous pouvez configurer une Fédération SIP, une Fédération d’utilisateurs distants et une connectivité de messagerie instantanée publique dans le panneau de configuration de Lync Server en appliquant les stratégies appropriées à des utilisateurs spécifiques.</span><span class="sxs-lookup"><span data-stu-id="5b68a-104">If a user has been enabled for Lync Server, you can configure SIP federation, XMPP federation, remote user access, and public instant messaging (IM) connectivity in the Lync Server Control Panel by applying the appropriate policies to specific users.</span></span> <span data-ttu-id="5b68a-105">Par exemple, si vous avez créé une stratégie pour prendre en charge l’accès des utilisateurs distants, vous devez l’appliquer à l’utilisateur pour que l’utilisateur puisse se connecter à Lync Server à partir d’un emplacement distant et collaborer avec des utilisateurs internes à partir de l’emplacement distant.</span><span class="sxs-lookup"><span data-stu-id="5b68a-105">For example, if you created a policy to support remote user access, you must apply it to the user before the user can connect to Lync Server from a remote location and collaborate with internal users from the remote location.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4a4df-106">Pour prendre en charge l’accès utilisateur externe, vous devez activer la prise en charge de chaque type d’accès des utilisateurs externes que vous voulez prendre en charge, et configurer les stratégies et autres options appropriées pour contrôler son utilisation.</span><span class="sxs-lookup"><span data-stu-id="4a4df-106">To support external user access, you must enable support for each type of external user access you want to support, and configure the appropriate policies and other options to control its use.</span></span> <span data-ttu-id="4a4df-107">Pour plus d’informations, reportez-vous à <A href="lync-server-2013-configuring-support-for-external-user-access.md">configuration de la prise en charge de l’accès des utilisateurs externes dans Lync server 2013</A> dans la documentation de déploiement ou gestion de la <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Fédération et de l’accès externe à Lync Server 2013</A> dans la documentation sur les opérations.</span><span class="sxs-lookup"><span data-stu-id="4a4df-107">For details, see <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</A> in the Deployment documentation or <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="5b68a-106">Pour prendre en charge l’accès utilisateur externe, vous devez activer la prise en charge de chaque type d’accès des utilisateurs externes que vous voulez prendre en charge, et configurer les stratégies et autres options appropriées pour contrôler son utilisation.</span><span class="sxs-lookup"><span data-stu-id="5b68a-106">To support external user access, you must enable support for each type of external user access you want to support, and configure the appropriate policies and other options to control its use.</span></span> <span data-ttu-id="5b68a-107">Pour plus d’informations, reportez-vous à <A href="lync-server-2013-configuring-support-for-external-user-access.md">configuration de la prise en charge de l’accès des utilisateurs externes dans Lync server 2013</A> dans la documentation de déploiement ou gestion de la <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Fédération et de l’accès externe à Lync Server 2013</A> dans la documentation sur les opérations.</span><span class="sxs-lookup"><span data-stu-id="5b68a-107">For details, see <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for external user access in Lync Server 2013</A> in the Deployment documentation or <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Managing federation and external access to Lync Server 2013</A> in the Operations documentation.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="4a4df-108">Suivez la procédure décrite dans cette rubrique pour appliquer une stratégie d’accès aux utilisateurs externes précédemment créée à un ou plusieurs comptes d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="4a4df-108">Use the procedure in this topic to apply a previously created external user access policy to one or more user accounts.</span></span>
+<span data-ttu-id="5b68a-108">Suivez la procédure décrite dans cette rubrique pour appliquer une stratégie d’accès aux utilisateurs externes précédemment créée à un ou plusieurs comptes d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="5b68a-108">Use the procedure in this topic to apply a previously created external user access policy to one or more user accounts.</span></span>
 
 <div>
 
-## <a name="to-apply-an-external-user-policy-to-a-user-account"></a><span data-ttu-id="4a4df-109">Pour appliquer une stratégie d’utilisateur externe à un compte d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="4a4df-109">To apply an external user policy to a user account</span></span>
+## <a name="to-apply-an-external-user-policy-to-a-user-account"></a><span data-ttu-id="5b68a-109">Pour appliquer une stratégie d’utilisateur externe à un compte d’utilisateur</span><span class="sxs-lookup"><span data-stu-id="5b68a-109">To apply an external user policy to a user account</span></span>
 
-1.  <span data-ttu-id="4a4df-110">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="4a4df-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="5b68a-110">À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.</span><span class="sxs-lookup"><span data-stu-id="5b68a-110">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="4a4df-111">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4a4df-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4a4df-112">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="4a4df-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="5b68a-111">Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5b68a-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="5b68a-112">Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="5b68a-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="4a4df-113">Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur à configurer.</span><span class="sxs-lookup"><span data-stu-id="4a4df-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
+3.  <span data-ttu-id="5b68a-113">Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur à configurer.</span><span class="sxs-lookup"><span data-stu-id="5b68a-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
 
-4.  <span data-ttu-id="4a4df-114">Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="4a4df-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="5b68a-114">Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.</span><span class="sxs-lookup"><span data-stu-id="5b68a-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
 
-5.  <span data-ttu-id="4a4df-115">Dans **modifier l’utilisateur de Lync Server** sous **stratégie d’accès externe**, sélectionnez la stratégie d’utilisateur que vous voulez appliquer.</span><span class="sxs-lookup"><span data-stu-id="4a4df-115">In **Edit Lync Server User** under **External access policy**, select the user policy that you want to apply.</span></span>
+5.  <span data-ttu-id="5b68a-115">Dans **modifier l’utilisateur de Lync Server** sous **stratégie d’accès externe**, sélectionnez la stratégie d’utilisateur que vous voulez appliquer.</span><span class="sxs-lookup"><span data-stu-id="5b68a-115">In **Edit Lync Server User** under **External access policy**, select the user policy that you want to apply.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="4a4df-116">Les <STRONG> &lt;paramètres&gt; automatiques</STRONG> appliquent le serveur par défaut ou les paramètres de stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="4a4df-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.</span></span>
+    > <span data-ttu-id="5b68a-116">Les <STRONG> &lt;paramètres&gt; automatiques</STRONG> appliquent le serveur par défaut ou les paramètres de stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="5b68a-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default server or global policy settings.</span></span>
 
     
     </div>
@@ -76,15 +78,15 @@ ms.locfileid: "34838989"
 
 <div>
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="4a4df-117">Attribution de stratégies d’accès externe par utilisateur à l’aide des applets de cmdlet Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="4a4df-117">Assigning Per-User External Access Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="5b68a-117">Attribution de stratégies d’accès externe par utilisateur à l’aide des applets de cmdlet Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5b68a-117">Assigning Per-User External Access Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="4a4df-118">Les stratégies d’accès externe par utilisateur peuvent être affectées à l’aide de Windows PowerShell et de l’applet de passe Grant-CsExternalAccessPolicy.</span><span class="sxs-lookup"><span data-stu-id="4a4df-118">Per-user external access policies can be assigned by using Windows PowerShell and the Grant-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="4a4df-119">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4a4df-119">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="4a4df-120">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».</span><span class="sxs-lookup"><span data-stu-id="4a4df-120">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="5b68a-118">Les stratégies d’accès externe par utilisateur peuvent être affectées à l’aide de Windows PowerShell et de l’applet de passe Grant-CsExternalAccessPolicy.</span><span class="sxs-lookup"><span data-stu-id="5b68a-118">Per-user external access policies can be assigned by using Windows PowerShell and the Grant-CsExternalAccessPolicy cmdlet.</span></span> <span data-ttu-id="5b68a-119">Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="5b68a-119">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="5b68a-120">Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».</span><span class="sxs-lookup"><span data-stu-id="5b68a-120">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a><span data-ttu-id="4a4df-121">Pour attribuer une stratégie d’accès externe par utilisateur à un utilisateur unique</span><span class="sxs-lookup"><span data-stu-id="4a4df-121">To assign a per-user external access policy to a single user</span></span>
+## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a><span data-ttu-id="5b68a-121">Pour attribuer une stratégie d’accès externe par utilisateur à un utilisateur unique</span><span class="sxs-lookup"><span data-stu-id="5b68a-121">To assign a per-user external access policy to a single user</span></span>
 
-  - <span data-ttu-id="4a4df-122">Cette commande affecte le RedmondExternalAccessPolicy de stratégie d’accès externe par utilisateur à l’utilisateur Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="4a4df-122">This command assigns the per-user external access policy RedmondExternalAccessPolicy to the user Ken Myer.</span></span>
+  - <span data-ttu-id="5b68a-122">Cette commande affecte le RedmondExternalAccessPolicy de stratégie d’accès externe par utilisateur à l’utilisateur Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="5b68a-122">This command assigns the per-user external access policy RedmondExternalAccessPolicy to the user Ken Myer.</span></span>
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
 
@@ -92,9 +94,9 @@ ms.locfileid: "34838989"
 
 <div>
 
-## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a><span data-ttu-id="4a4df-123">Pour attribuer une stratégie d’accès externe par utilisateur à plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="4a4df-123">To assign a per-user external access policy to multiple users</span></span>
+## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a><span data-ttu-id="5b68a-123">Pour attribuer une stratégie d’accès externe par utilisateur à plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="5b68a-123">To assign a per-user external access policy to multiple users</span></span>
 
-  - <span data-ttu-id="4a4df-124">Cette commande affecte le USAExternalAccessPolicy de stratégie d’accès externe par utilisateur à tous les utilisateurs possédant des comptes dans l’unité d’organisation américaine d’Active Directory.</span><span class="sxs-lookup"><span data-stu-id="4a4df-124">This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory.</span></span> <span data-ttu-id="4a4df-125">Pour plus d’informations sur le paramètre de l’unité d’organisation utilisée dans cette commande, voir la documentation relative à l’applet de commande [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .</span><span class="sxs-lookup"><span data-stu-id="4a4df-125">For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet.</span></span>
+  - <span data-ttu-id="5b68a-124">Cette commande affecte le USAExternalAccessPolicy de stratégie d’accès externe par utilisateur à tous les utilisateurs possédant des comptes dans l’unité d’organisation américaine d’Active Directory.</span><span class="sxs-lookup"><span data-stu-id="5b68a-124">This command assigns the per-user external access policy USAExternalAccessPolicy to all the users who have accounts in the UnitedStates OU in Active Directory.</span></span> <span data-ttu-id="5b68a-125">Pour plus d’informations sur le paramètre de l’unité d’organisation utilisée dans cette commande, voir la documentation relative à l’applet de commande [Get-Csuser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .</span><span class="sxs-lookup"><span data-stu-id="5b68a-125">For more information on the OU parameter used in this command, see the documentation for the [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) cmdlet.</span></span>
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -102,15 +104,15 @@ ms.locfileid: "34838989"
 
 <div>
 
-## <a name="to-unassign-a-per-user-external-access-policy"></a><span data-ttu-id="4a4df-126">Pour annuler l’affectation d’une stratégie d’accès externe par utilisateur</span><span class="sxs-lookup"><span data-stu-id="4a4df-126">To unassign a per-user external access policy</span></span>
+## <a name="to-unassign-a-per-user-external-access-policy"></a><span data-ttu-id="5b68a-126">Pour annuler l’affectation d’une stratégie d’accès externe par utilisateur</span><span class="sxs-lookup"><span data-stu-id="5b68a-126">To unassign a per-user external access policy</span></span>
 
-  - <span data-ttu-id="4a4df-127">Cette commande annule l’affectation d’une stratégie d’accès externe par utilisateur précédemment affectée à Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="4a4df-127">This command unassigns any per-user external access policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="4a4df-128">Une fois l’affectation de la stratégie par utilisateur annulée, Ken Myer sera automatiquement géré en utilisant la stratégie globale ou, le cas échéant, sa stratégie de site local.</span><span class="sxs-lookup"><span data-stu-id="4a4df-128">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="4a4df-129">Une stratégie de site est prioritaire sur la stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="4a4df-129">A site policy takes precedence over the global policy.</span></span>
+  - <span data-ttu-id="5b68a-127">Cette commande annule l’affectation d’une stratégie d’accès externe par utilisateur précédemment affectée à Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="5b68a-127">This command unassigns any per-user external access policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="5b68a-128">Une fois l’affectation de la stratégie par utilisateur annulée, Ken Myer sera automatiquement géré en utilisant la stratégie globale ou, le cas échéant, sa stratégie de site local.</span><span class="sxs-lookup"><span data-stu-id="5b68a-128">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="5b68a-129">Une stratégie de site est prioritaire sur la stratégie globale.</span><span class="sxs-lookup"><span data-stu-id="5b68a-129">A site policy takes precedence over the global policy.</span></span>
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 </div>
 
-<span data-ttu-id="4a4df-130">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) .</span><span class="sxs-lookup"><span data-stu-id="4a4df-130">For more information, see the help topic for the [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.</span></span>
+<span data-ttu-id="5b68a-130">Pour plus d’informations, consultez la rubrique d’aide relative à l’applet de passe [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) .</span><span class="sxs-lookup"><span data-stu-id="5b68a-130">For more information, see the help topic for the [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) cmdlet.</span></span>
 
 </div>
 

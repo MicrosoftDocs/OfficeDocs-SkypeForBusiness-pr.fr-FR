@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the meeting join page
 ms:assetid: 036c9d03-ad95-4d63-a3d8-6cae1a8ad530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204635(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c01c2be988c94bd0bc90ed6b48702d426b42e505
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c6622eb6820857b117c16bfa9ea2065678d3b88
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233203"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728138"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +26,7 @@ ms.locfileid: "36233203"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a><span data-ttu-id="707c5-102">Configuration de la page de participation à une réunion</span><span class="sxs-lookup"><span data-stu-id="707c5-102">Configure the meeting join page</span></span>
+# <a name="configure-the-meeting-join-page"></a><span data-ttu-id="109b6-102">Configuration de la page de participation à une réunion</span><span class="sxs-lookup"><span data-stu-id="109b6-102">Configure the meeting join page</span></span>
 
 </div>
 
@@ -34,13 +36,13 @@ ms.locfileid: "36233203"
 
 <span> </span>
 
-<span data-ttu-id="707c5-103">_**Dernière modification de la rubrique:** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="707c5-103">_**Topic Last Modified:** 2012-12-14_</span></span>
+<span data-ttu-id="109b6-103">_**Dernière modification de la rubrique :** 2012-12-14_</span><span class="sxs-lookup"><span data-stu-id="109b6-103">_**Topic Last Modified:** 2012-12-14_</span></span>
 
-<span data-ttu-id="707c5-104">Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à une réunion détecte si un client 2013 Lync est déjà installé sur l’ordinateur de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="707c5-104">When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user’s computer.</span></span> <span data-ttu-id="707c5-105">Si un client est déjà installé, ce client ouvre et joint la réunion.</span><span class="sxs-lookup"><span data-stu-id="707c5-105">If a client is already installed, that client opens and joins the meeting.</span></span> <span data-ttu-id="707c5-106">Si un client n’est pas installé, la version 2013 de Lync Web App est ouverte par défaut.</span><span class="sxs-lookup"><span data-stu-id="707c5-106">If a client is not installed, by default the 2013 version of Lync Web App opens.</span></span>
+<span data-ttu-id="109b6-104">Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à une réunion détecte si un client 2013 Lync est déjà installé sur l’ordinateur de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="109b6-104">When a user clicks a meeting link in a meeting request, the meeting join page detects whether a Lync 2013 client is already installed on the user’s computer.</span></span> <span data-ttu-id="109b6-105">Si un client est déjà installé, ce client ouvre et joint la réunion.</span><span class="sxs-lookup"><span data-stu-id="109b6-105">If a client is already installed, that client opens and joins the meeting.</span></span> <span data-ttu-id="109b6-106">Si un client n’est pas installé, la version 2013 de Lync Web App est ouverte par défaut.</span><span class="sxs-lookup"><span data-stu-id="109b6-106">If a client is not installed, by default the 2013 version of Lync Web App opens.</span></span>
 
-<span data-ttu-id="707c5-107">Vous pouvez modifier le comportement de la page de participation à une réunion si vous voulez permettre aux utilisateurs de participer à des réunions avec Office Communicator 2007 R2 ou Lync 2010 attendant.</span><span class="sxs-lookup"><span data-stu-id="707c5-107">You can modify the behavior of the meeting join page if you want to allow users to join meetings with Office Communicator 2007 R2 or Lync 2010 Attendant.</span></span> <span data-ttu-id="707c5-108">Ces options de configuration ont été supprimées du panneau de configuration de Lync Server 2013, mais vous avez configuré celles-ci à l’aide de l’applet de commande CsWebServiceConfiguration.</span><span class="sxs-lookup"><span data-stu-id="707c5-108">These configuration options have been removed from the Lync Server 2013 Control Panel, but you configure them by using the CsWebServiceConfiguration cmdlet.</span></span>
+<span data-ttu-id="109b6-107">Vous pouvez modifier le comportement de la page de participation à une réunion si vous voulez permettre aux utilisateurs de participer à des réunions avec Office Communicator 2007 R2 ou Lync 2010 attendant.</span><span class="sxs-lookup"><span data-stu-id="109b6-107">You can modify the behavior of the meeting join page if you want to allow users to join meetings with Office Communicator 2007 R2 or Lync 2010 Attendant.</span></span> <span data-ttu-id="109b6-108">Ces options de configuration ont été supprimées du panneau de configuration de Lync Server 2013, mais vous avez configuré celles-ci à l’aide de l’applet de commande CsWebServiceConfiguration.</span><span class="sxs-lookup"><span data-stu-id="109b6-108">These configuration options have been removed from the Lync Server 2013 Control Panel, but you configure them by using the CsWebServiceConfiguration cmdlet.</span></span>
 
-### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a><span data-ttu-id="707c5-109">Paramètres d’CsWebServiceConfiguration de la page de participation à une réunion</span><span class="sxs-lookup"><span data-stu-id="707c5-109">Meeting Join Page CsWebServiceConfiguration Parameters</span></span>
+### <a name="meeting-join-page-cswebserviceconfiguration-parameters"></a><span data-ttu-id="109b6-109">Paramètres d’CsWebServiceConfiguration de la page de participation à une réunion</span><span class="sxs-lookup"><span data-stu-id="109b6-109">Meeting Join Page CsWebServiceConfiguration Parameters</span></span>
 
 <table>
 <colgroup>
@@ -49,18 +51,18 @@ ms.locfileid: "36233203"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="707c5-110">Paramètre CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="707c5-110">CsWebServiceConfiguration Parameter</span></span></th>
-<th><span data-ttu-id="707c5-111">Description</span><span class="sxs-lookup"><span data-stu-id="707c5-111">Description</span></span></th>
+<th><span data-ttu-id="109b6-110">Paramètre CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="109b6-110">CsWebServiceConfiguration Parameter</span></span></th>
+<th><span data-ttu-id="109b6-111">Description</span><span class="sxs-lookup"><span data-stu-id="109b6-111">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="707c5-112">ShowJoinUsingLegacyClientLink</span><span class="sxs-lookup"><span data-stu-id="707c5-112">ShowJoinUsingLegacyClientLink</span></span></p></td>
-<td><p><span data-ttu-id="707c5-113">Si elle est définie sur true, les utilisateurs qui rejoignent une réunion à l’aide d’une application client autre que Lync seront en mesure de rejoindre la réunion à l’aide d’Office Communicator 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="707c5-113">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting by using Office Communicator 2007 R2.</span></span> <span data-ttu-id="707c5-114">La valeur par défaut est False.</span><span class="sxs-lookup"><span data-stu-id="707c5-114">The default value is False.</span></span></p></td>
+<td><p><span data-ttu-id="109b6-112">ShowJoinUsingLegacyClientLink</span><span class="sxs-lookup"><span data-stu-id="109b6-112">ShowJoinUsingLegacyClientLink</span></span></p></td>
+<td><p><span data-ttu-id="109b6-113">Si elle est définie sur true, les utilisateurs qui rejoignent une réunion à l’aide d’une application client autre que Lync seront en mesure de rejoindre la réunion à l’aide d’Office Communicator 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="109b6-113">If set to True, users joining a meeting by using a client application other than Lync will be given the opportunity to join the meeting by using Office Communicator 2007 R2.</span></span> <span data-ttu-id="109b6-114">La valeur par défaut est False.</span><span class="sxs-lookup"><span data-stu-id="109b6-114">The default value is False.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="707c5-115">ShowAlternateJoinOptionsExpanded</span><span class="sxs-lookup"><span data-stu-id="707c5-115">ShowAlternateJoinOptionsExpanded</span></span></p></td>
-<td><p><span data-ttu-id="707c5-116">Lorsque cette propriété est définie sur true, d’autres options permettant de participer à une conférence en ligne (comme Office Communicator 2007 R2) seront automatiquement développées et affichées aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="707c5-116">When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users.</span></span> <span data-ttu-id="707c5-117">Lorsque ce paramètre est défini sur false (valeur par défaut), ces options sont disponibles, mais l’utilisateur doit afficher la liste des options pour eux-mêmes.</span><span class="sxs-lookup"><span data-stu-id="707c5-117">When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</span></span></p></td>
+<td><p><span data-ttu-id="109b6-115">ShowAlternateJoinOptionsExpanded</span><span class="sxs-lookup"><span data-stu-id="109b6-115">ShowAlternateJoinOptionsExpanded</span></span></p></td>
+<td><p><span data-ttu-id="109b6-116">Lorsque cette propriété est définie sur true, d’autres options permettant de participer à une conférence en ligne (comme Office Communicator 2007 R2) seront automatiquement développées et affichées aux utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="109b6-116">When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users.</span></span> <span data-ttu-id="109b6-117">Lorsque ce paramètre est défini sur false (valeur par défaut), ces options sont disponibles, mais l’utilisateur doit afficher la liste des options pour eux-mêmes.</span><span class="sxs-lookup"><span data-stu-id="109b6-117">When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -68,17 +70,17 @@ ms.locfileid: "36233203"
 
 <div>
 
-## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a><span data-ttu-id="707c5-118">Pour configurer la page de participation à une réunion à l’aide de Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="707c5-118">To configure the meeting join page by using Lync Server 2013 Management Shell</span></span>
+## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a><span data-ttu-id="109b6-118">Pour configurer la page de participation à une réunion à l’aide de Lync Server 2013 Management Shell</span><span class="sxs-lookup"><span data-stu-id="109b6-118">To configure the meeting join page by using Lync Server 2013 Management Shell</span></span>
 
-1.  <span data-ttu-id="707c5-119">Démarrez Lync Server 2013 Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="707c5-119">Start the Lync Server 2013 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="109b6-119">Démarrez Lync Server 2013 Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.</span><span class="sxs-lookup"><span data-stu-id="109b6-119">Start the Lync Server 2013 Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="707c5-120">Exécutez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="707c5-120">Run the following cmdlet:</span></span>
+2.  <span data-ttu-id="109b6-120">Exécutez l’applet de commande suivante :</span><span class="sxs-lookup"><span data-stu-id="109b6-120">Run the following cmdlet:</span></span>
     
         Get-CsWebServiceConfiguration
     
-    <span data-ttu-id="707c5-121">Ce cmdlet renvoie les paramètres de configuration de service Web.</span><span class="sxs-lookup"><span data-stu-id="707c5-121">This cmdlet returns the web service configuration settings.</span></span>
+    <span data-ttu-id="109b6-121">Ce cmdlet renvoie les paramètres de configuration de service Web.</span><span class="sxs-lookup"><span data-stu-id="109b6-121">This cmdlet returns the web service configuration settings.</span></span>
 
-3.  <span data-ttu-id="707c5-122">Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server 2013 Management Shell):</span><span class="sxs-lookup"><span data-stu-id="707c5-122">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the Lync Server 2013 Management Shell documentation):</span></span>
+3.  <span data-ttu-id="109b6-122">Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server 2013 Management Shell) :</span><span class="sxs-lookup"><span data-stu-id="109b6-122">Run the following command, with the parameters set to True or False, depending on your preference (for details about the parameters for this cmdlet, see the Lync Server 2013 Management Shell documentation):</span></span>
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

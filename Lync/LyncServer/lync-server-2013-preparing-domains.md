@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Préparation des domaines'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing domains
 ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398721(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd8c09346c8f5b562a72e77b9ba40915b480c91
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 20a6897ae45964f3f179e951916dfb6bf7180641
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991379"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "40991379"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-domains-for-lync-server-2013"></a><span data-ttu-id="c39aa-102">Préparation des domaines pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c39aa-102">Preparing domains for Lync Server 2013</span></span>
+# <a name="preparing-domains-for-lync-server-2013"></a><span data-ttu-id="bfe82-102">Préparation des domaines pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfe82-102">Preparing domains for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "40991379"
 
 <span> </span>
 
-<span data-ttu-id="c39aa-103">_**Dernière modification de la rubrique :** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="c39aa-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="bfe82-103">_**Dernière modification de la rubrique :** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="bfe82-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="c39aa-104">La préparation du domaine est l’étape finale de la préparation des services de domaine Active Directory pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c39aa-104">Domain preparation is the final step in preparing Active Directory Domain Services for Lync Server 2013.</span></span> <span data-ttu-id="c39aa-105">L’étape de préparation du domaine ajoute les entrées de contrôle d’accès (ACE) nécessaires aux groupes universels qui permettent d’héberger et de gérer les utilisateurs au sein du domaine.</span><span class="sxs-lookup"><span data-stu-id="c39aa-105">The domain preparation step adds the necessary access control entries (ACEs) to universal groups that grant permissions to host and manage users within the domain.</span></span> <span data-ttu-id="c39aa-106">La préparation de domaine crée des ACE à la racine du domaine et dans trois conteneurs intégrés : Utilisateur, Ordinateurs et Contrôleurs de domaine.</span><span class="sxs-lookup"><span data-stu-id="c39aa-106">Domain preparation creates ACEs on the domain root and three built-in containers: User, Computers, and Domain Controllers.</span></span>
+<span data-ttu-id="bfe82-104">La préparation du domaine est l’étape finale de la préparation des services de domaine Active Directory pour Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bfe82-104">Domain preparation is the final step in preparing Active Directory Domain Services for Lync Server 2013.</span></span> <span data-ttu-id="bfe82-105">L’étape de préparation du domaine ajoute les entrées de contrôle d’accès (ACE) nécessaires aux groupes universels qui permettent d’héberger et de gérer les utilisateurs au sein du domaine.</span><span class="sxs-lookup"><span data-stu-id="bfe82-105">The domain preparation step adds the necessary access control entries (ACEs) to universal groups that grant permissions to host and manage users within the domain.</span></span> <span data-ttu-id="bfe82-106">La préparation de domaine crée des ACE à la racine du domaine et dans trois conteneurs intégrés : Utilisateur, Ordinateurs et Contrôleurs de domaine.</span><span class="sxs-lookup"><span data-stu-id="bfe82-106">Domain preparation creates ACEs on the domain root and three built-in containers: User, Computers, and Domain Controllers.</span></span>
 
-<span data-ttu-id="c39aa-107">Vous pouvez exécuter une préparation de domaine sur n’importe quel ordinateur du domaine sur lequel vous déployez Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c39aa-107">You can run domain preparation on any computer in the domain where you are deploying Lync Server.</span></span> <span data-ttu-id="c39aa-108">Vous devez préparer chacun des domaines qui hébergeront Lync Server ou des utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="c39aa-108">You must prepare every domain that will host Lync Server or users.</span></span>
+<span data-ttu-id="bfe82-107">Vous pouvez exécuter une préparation de domaine sur n’importe quel ordinateur du domaine sur lequel vous déployez Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bfe82-107">You can run domain preparation on any computer in the domain where you are deploying Lync Server.</span></span> <span data-ttu-id="bfe82-108">Vous devez préparer chacun des domaines qui hébergeront Lync Server ou des utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="bfe82-108">You must prepare every domain that will host Lync Server or users.</span></span>
 
-<span data-ttu-id="c39aa-109">Si l’héritage des autorisations est désactivé ou que les autorisations des utilisateurs authentifiées sont désactivées au sein de votre organisation, vous devez effectuer des étapes supplémentaires lors de la préparation du domaine.</span><span class="sxs-lookup"><span data-stu-id="c39aa-109">If permissions inheritance is disabled or authenticated user permissions are disabled in your organization, you must perform additional steps during domain preparation.</span></span> <span data-ttu-id="c39aa-110">Pour plus d’informations, reportez-vous à [la rubrique préparation d’un service de domaine Active Directory verrouillé dans Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span><span class="sxs-lookup"><span data-stu-id="c39aa-110">For details, see [Preparing a locked-down Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span></span>
+<span data-ttu-id="bfe82-109">Si l’héritage des autorisations est désactivé ou que les autorisations des utilisateurs authentifiées sont désactivées au sein de votre organisation, vous devez effectuer des étapes supplémentaires lors de la préparation du domaine.</span><span class="sxs-lookup"><span data-stu-id="bfe82-109">If permissions inheritance is disabled or authenticated user permissions are disabled in your organization, you must perform additional steps during domain preparation.</span></span> <span data-ttu-id="bfe82-110">Pour plus d’informations, reportez-vous à [la rubrique préparation d’un service de domaine Active Directory verrouillé dans Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span><span class="sxs-lookup"><span data-stu-id="bfe82-110">For details, see [Preparing a locked-down Active Directory Domain Services in Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).</span></span>
 
-<span data-ttu-id="c39aa-111">Si votre organisation utilise des unités d’organisation au lieu des trois conteneurs intégrés (c’est-à-dire, utilisateurs, ordinateurs et contrôleurs de domaine), vous devez accorder l’accès en lecture aux UO pour le groupe utilisateurs authentifiés.</span><span class="sxs-lookup"><span data-stu-id="c39aa-111">If your organization uses organizational units (OU) instead of the three built-in containers (that is, Users, Computers, and Domain Controllers), you must grant read access to the OUs for the Authenticated Users group.</span></span> <span data-ttu-id="c39aa-112">L’accès en lecture aux conteneurs est requis pour la préparation du domaine.</span><span class="sxs-lookup"><span data-stu-id="c39aa-112">Read access to the containers is required for domain preparation.</span></span> <span data-ttu-id="c39aa-113">Si le groupe utilisateurs authentifiés ne dispose pas d’un accès en lecture à l’unité d’organisation, exécutez l’applet de commande **Grant-CsOuPermission** comme illustré dans les exemples de code suivants pour accorder des autorisations de lecture pour chaque unité d’organisation.</span><span class="sxs-lookup"><span data-stu-id="c39aa-113">If the Authenticated Users group does not have read access to the OU, run the **Grant-CsOuPermission** cmdlet as illustrated in the following code examples to grant read permissions for each OU.</span></span>
+<span data-ttu-id="bfe82-111">Si votre organisation utilise des unités d’organisation au lieu des trois conteneurs intégrés (c’est-à-dire, utilisateurs, ordinateurs et contrôleurs de domaine), vous devez accorder l’accès en lecture aux UO pour le groupe utilisateurs authentifiés.</span><span class="sxs-lookup"><span data-stu-id="bfe82-111">If your organization uses organizational units (OU) instead of the three built-in containers (that is, Users, Computers, and Domain Controllers), you must grant read access to the OUs for the Authenticated Users group.</span></span> <span data-ttu-id="bfe82-112">L’accès en lecture aux conteneurs est requis pour la préparation du domaine.</span><span class="sxs-lookup"><span data-stu-id="bfe82-112">Read access to the containers is required for domain preparation.</span></span> <span data-ttu-id="bfe82-113">Si le groupe utilisateurs authentifiés ne dispose pas d’un accès en lecture à l’unité d’organisation, exécutez l’applet de commande **Grant-CsOuPermission** comme illustré dans les exemples de code suivants pour accorder des autorisations de lecture pour chaque unité d’organisation.</span><span class="sxs-lookup"><span data-stu-id="bfe82-113">If the Authenticated Users group does not have read access to the OU, run the **Grant-CsOuPermission** cmdlet as illustrated in the following code examples to grant read permissions for each OU.</span></span>
 
    ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
@@ -51,13 +53,13 @@ ms.locfileid: "40991379"
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 
-<span data-ttu-id="c39aa-114">Pour plus d’informations sur l’applet **de connexion Grant-CsOuPermission** , voir la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="c39aa-114">For details about the **Grant-CsOuPermission** cmdlet, see the Lync Server Management Shell documentation.</span></span>
+<span data-ttu-id="bfe82-114">Pour plus d’informations sur l’applet **de connexion Grant-CsOuPermission** , voir la documentation Lync Server Management Shell.</span><span class="sxs-lookup"><span data-stu-id="bfe82-114">For details about the **Grant-CsOuPermission** cmdlet, see the Lync Server Management Shell documentation.</span></span>
 
 <div class="">
 
 
 > [!TIP]  
-> <span data-ttu-id="c39aa-115">Pour plus d’informations sur les entrées ACE créées sur la racine du domaine et dans les conteneurs utilisateurs, ordinateurs et contrôleurs de domaine, voir <A href="lync-server-2013-changes-made-by-domain-preparation.md">modifications apportées par la préparation du domaine dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="c39aa-115">For details about the ACEs created on the domain root and in the Users, Computers, and Domain Controllers containers, see <A href="lync-server-2013-changes-made-by-domain-preparation.md">Changes made by domain preparation in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="bfe82-115">Pour plus d’informations sur les entrées ACE créées sur la racine du domaine et dans les conteneurs utilisateurs, ordinateurs et contrôleurs de domaine, voir <A href="lync-server-2013-changes-made-by-domain-preparation.md">modifications apportées par la préparation du domaine dans Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="bfe82-115">For details about the ACEs created on the domain root and in the Users, Computers, and Domain Controllers containers, see <A href="lync-server-2013-changes-made-by-domain-preparation.md">Changes made by domain preparation in Lync Server 2013</A>.</span></span>
 
 
 
@@ -65,11 +67,11 @@ ms.locfileid: "40991379"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c39aa-116">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="c39aa-116">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bfe82-116">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="bfe82-116">In This Section</span></span>
 
-  - [<span data-ttu-id="c39aa-117">Exécution de la préparation du domaine pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c39aa-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)
+  - [<span data-ttu-id="bfe82-117">Exécution de la préparation du domaine pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfe82-117">Running domain preparation for Lync Server 2013</span></span>](lync-server-2013-running-domain-preparation.md)
 
-  - [<span data-ttu-id="c39aa-118">Utilisation d’applets de commande pour inverser la préparation d’un domaine pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c39aa-118">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
+  - [<span data-ttu-id="bfe82-118">Utilisation d’applets de commande pour inverser la préparation d’un domaine pour Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfe82-118">Using cmdlets to reverse domain preparation for Lync Server 2013</span></span>](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
 
 </div>
 
