@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion de l’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Lync Server 2013 Archiving
 ms:assetid: 48c6cc8c-c2c1-4534-9a8a-fd5eb738076a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520990(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88e5176ec32b5039b9351202f72ee32502959f60
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828165"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828165"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
 Lorsque vous déployez l’archivage pour votre organisation, vous spécifiez la configuration initiale lors du déploiement. Toutefois, il peut arriver que vous souhaitiez modifier le mode d’implémentation de la prise en charge de l’archivage pour la gestion quotidienne ou pour répondre à de nouvelles exigences au sein de votre organisation. Par exemple, vous pouvez avoir besoin de configurer la prise en charge de l’archivage différemment pour un site, un pool ou des utilisateurs spécifiques au sein de votre organisation. Pour les utilisateurs hébergés sur Lync Server 2013, c’est la création et la personnalisation des configurations et des stratégies d’archivage. Si vous utilisez l’intégration de Microsoft Exchange, vous devez également configurer les paramètres d’Exchange 2013. Cette section fournit des informations et des procédures pour vous permettre de modifier votre déploiement d’archivage.
 

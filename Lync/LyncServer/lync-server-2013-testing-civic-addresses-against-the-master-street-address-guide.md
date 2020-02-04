@@ -3,6 +3,8 @@ title: Test des adresses postales par rapport au guide principal des adresses
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfa4dd28ec05546366e029b6fb9fdf1c4b3ae310
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37d6aa1443dc2e062aa099237d9b25f2b33e32b2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846552"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-05_
+_**Dernière modification de la rubrique :** 2014-06-05_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-06-05_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsRegistration. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsRegistration. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisCivicAddress &quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -74,11 +76,11 @@ Si vous ajoutez le paramètre de commutateur UpdateValidationStatus à votre com
 
 ## <a name="running-the-test"></a>Exécution du test
 
-L’applet de contrôle test-CsLisCivicAddress peut être utilisée pour tester des adresses individuelles ou pour tester plusieurs adresses. Par exemple, la commande suivante teste une adresse unique située dans Redmond, WA:
+L’applet de contrôle test-CsLisCivicAddress peut être utilisée pour tester des adresses individuelles ou pour tester plusieurs adresses. Par exemple, la commande suivante teste une adresse unique située dans Redmond, WA :
 
     Test-CsLisCivicAddress -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName Main -StreetSuffix St -PostDirectional "" -City Redmond -State WA -PostalCode 98052 -Country US -UpdateValidationStatus
 
-Par comparaison, cette commande teste toutes les adresses figurant actuellement dans votre base de données LIS:
+Par comparaison, cette commande teste toutes les adresses figurant actuellement dans votre base de données LIS :
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
@@ -98,9 +100,9 @@ Test-CsLisCivicAddress rapportera la réussite ou l’échec pour les adresses f
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-Voici quelques raisons courantes pour lesquelles les tests-CsLisCivicAddress peuvent échouer:
+Voici quelques raisons courantes pour lesquelles les tests-CsLisCivicAddress peuvent échouer :
 
-  - Le fournisseur de service LIS n’est peut-être pas disponible. Vous pouvez récupérer l’URL de votre fournisseur de services LIS en exécutant l’applet de recherche Get-CsLisConfiguration:
+  - Le fournisseur de service LIS n’est peut-être pas disponible. Vous pouvez récupérer l’URL de votre fournisseur de services LIS en exécutant l’applet de recherche Get-CsLisConfiguration :
     
         Get-CsLisConfiguration 
     

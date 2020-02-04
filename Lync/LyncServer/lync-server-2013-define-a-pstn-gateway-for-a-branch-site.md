@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition d’une passerelle RTC pour un site de su
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a PSTN gateway for a branch site
 ms:assetid: 87be2fe2-1d56-4062-b430-439d4536414c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c253f82001fef4dd52e19dccb11e7ac77bb12417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831717"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Procédez comme suit sur le site central, qui contient au moins un pool frontal ou un serveur Standard Edition Server.
 
@@ -41,7 +43,7 @@ Procédez comme suit sur le site central, qui contient au moins un pool frontal 
 
 
 > [!IMPORTANT]  
-> Avant d’effectuer cette procédure, les conditions suivantes doivent être en vigueur: 
+> Avant d’effectuer cette procédure, les conditions suivantes doivent être en vigueur : 
 > <UL>
 > <LI>
 > <P>Le logiciel de&nbsp;communications Lync Server 2013 doit être configuré sur le site central.</P>
@@ -58,7 +60,7 @@ Procédez comme suit sur le site central, qui contient au moins un pool frontal 
 
 1.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server**, puis sur **Générateur de topologie de Lync Server**.
 
-2.  Dans l’arborescence de la console, développez le site central, développez **sites**de succursales, développez le nom du site de succursale pour lequel vous voulez définir une passerelle de réseau téléphonique commuté (RTC), puis développez **composants partagés**.
+2.  Dans l’arborescence de la console, développez le site central, développez **sites de succursales**, développez le nom du site de succursale pour lequel vous voulez définir une passerelle de réseau téléphonique commuté (RTC), puis développez **composants partagés**.
 
 3.  Cliquez avec le bouton droit sur **passerelles RTC**, puis cliquez sur **nouvelle passerelle IP/PSTN**.
 
@@ -87,7 +89,7 @@ Procédez comme suit sur le site central, qui contient au moins un pool frontal 
 
 </div>
 
-**Étape suivante** pour la résilience du site de succursale: [Configuration des utilisateurs pour la résilience du site de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+**Étape suivante** pour la résilience du site de succursale : [Configuration des utilisateurs pour la résilience du site de succursale dans Lync Server 2013](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
 </div>
 

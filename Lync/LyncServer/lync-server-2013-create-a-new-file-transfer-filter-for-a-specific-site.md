@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: créer un nouveau filtre de transfert de fichiers pour un site spécifique'
+title: 'Lync Server 2013 : créer un nouveau filtre de transfert de fichiers pour un site spécifique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new file transfer filter for a specific site
 ms:assetid: d0006487-5217-491c-b730-e6c551cd9825
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ddb23081acba6eb208607a0bacddb7b403468b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edaf0afabff9d212cdd3b5353a8e54840979f827
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838079"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838079"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Outre la modification du filtre global de transfert de fichiers, vous pouvez configurer des filtres de transfert de fichier personnalisés pour des sites spécifiques au sein de votre déploiement 2013 Lync Server. Pour plus d’informations sur le filtrage du transfert de fichiers, voir [configurer le transfert de fichiers et le filtrage d’URL pour la messagerie instantanée dans Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
@@ -57,7 +59,7 @@ Outre la modification du filtre global de transfert de fichiers, vous pouvez con
 
 8.  Si vous avez cliqué sur **bloquer tout**, passez à l’étape 10.
 
-9.  Si vous avez cliqué sur **bloquer des types de fichiers spécifiques**, procédez comme suit:
+9.  Si vous avez cliqué sur **bloquer des types de fichiers spécifiques**, procédez comme suit :
     
     1.  Cliquez sur **Sélectionner** pour modifier la liste par défaut des extensions de type de fichier que vous voulez bloquer.
     

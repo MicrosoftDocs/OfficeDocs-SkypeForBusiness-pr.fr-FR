@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: meilleures pratiques pour les environnements Lync Server'
+title: 'Lync Server 2013 : meilleures pratiques pour les environnements Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for Lync Server environments
 ms:assetid: b0e45d84-09c8-4d3e-aad0-bc6f34ce233b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720348(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00dbbf95990875b8366ce5a03f1d2d70e6652828
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf207f4cd0303330ccb01dc56e28b949c1df22f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838742"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838742"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-04_
+_**Dernière modification de la rubrique :** 2014-08-04_
 
-Les principes généraux suivants doivent être appliqués aux opérations en cours de votre système:
+Les principes généraux suivants doivent être appliqués aux opérations en cours de votre système :
 
   - **Comprenez et utilisez**   MOF MOF est une collection de meilleures pratiques, de principes et de modèles qui fournissent aux organisations des recommandations techniques sur la gestion des ressources informatiques, telles que les opérations quotidiennes de Lync Server 2013. Les instructions MOF suivantes vous permettent de bénéficier de la fiabilité, de la disponibilité, de la prise en charge et de la gestion des systèmes de production stratégiques pour les produits Microsoft. Pour plus d’informations, consultez [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
 
@@ -55,11 +57,11 @@ Dans le souci des utilisateurs qui ne connaissent pas encore les notions de base
 
 Les pratiques recommandées sont des recommandations fondées sur les connaissances et les compétences des informaticiens ayant gagné dans de nombreux environnements. Ils fournissent des procédures standard pour les tâches courantes que les administrateurs de votre serveur Lync doivent exécuter quotidiennement et répertorient les outils qu’ils doivent utiliser pour gérer un environnement Lync Server.
 
-Les tâches typiques pour les administrateurs Lync sont les suivantes:
+Les tâches typiques pour les administrateurs Lync sont les suivantes :
 
   - **Gestion de la capacité et**   de la disponibilité définir le mode de mesure et les mesures à prendre pour prévoir les exigences de capacité future et pour signaler la capacité, la fiabilité et la disponibilité des systèmes. Vous devez vérifier que les serveurs qui exécutent Lync Server sont dimensionnés de manière à gérer la charge sur le système et que le temps d’arrêt non planifié est maintenu conformément aux niveaux définis dans le contrat de niveau de service (SLA). Par ailleurs, vous devez mettre à niveau le matériel pour continuer à respecter les exigences définies.
 
-  - **Gestion des changements et gestion**   de la configuration: contrôle des modifications apportées aux systèmes informatiques. Il doit s’agir de tests, de commentaires sur les applications et de plans d’urgence, de la documentation relative à toutes les modifications et de l’approbation de la gestion en cas de problème. Enregistrez vos ressources logicielles et matérielles et leurs configurations.
+  - **Gestion des changements et gestion**   de la configuration : contrôle des modifications apportées aux systèmes informatiques. Il doit s’agir de tests, de commentaires sur les applications et de plans d’urgence, de la documentation relative à toutes les modifications et de l’approbation de la gestion en cas de problème. Enregistrez vos ressources logicielles et matérielles et leurs configurations.
 
   - ****   Méthodes standard d’administration du système permettant d’effectuer des tâches administratives telles que l’administration de la base de données et l’administration du site.
 
@@ -77,7 +79,7 @@ Les tâches typiques pour les administrateurs Lync sont les suivantes:
 
 ## <a name="related-sections"></a>Sections associées
 
-Pour plus d’informations, consultez les rubriques suivantes concernant les opérations système:
+Pour plus d’informations, consultez les rubriques suivantes concernant les opérations système :
 
   - [Gestion de la capacité et de la disponibilité dans Lync Server 2013](lync-server-2013-capacity-and-availability-management.md)
 

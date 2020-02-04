@@ -3,6 +3,8 @@ title: Prise en charge d’Active Directory dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory support
 ms:assetid: 28ed9ac4-586d-4803-ad45-99c4fa793f54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9be3bda71e44d0e739fce3a8d01db9cb84e2b9e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd35b9444f0ede4abc9b66ab6b5513d049df57ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838957"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838957"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-04_
+_**Dernière modification de la rubrique :** 2012-12-04_
 
-Les topologies locales services de domaine Active Directory prises en charge par Lync Server 2013 sont les suivantes:
+Les topologies locales services de domaine Active Directory prises en charge par Lync Server 2013 sont les suivantes :
 
   - Forêt unique avec domaine unique
 
@@ -51,7 +53,7 @@ Les topologies locales services de domaine Active Directory prises en charge par
 
 
 > [!NOTE]  
-> Lync Server 2013 ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé «informations sur la configuration <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>de Windows pour les domaines avec des noms DNS en une seule étiquette».
+> Lync Server 2013 ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt avec un domaine racine appelé <STRONG>contoso. local</STRONG> est prise en charge, mais un domaine racine à une seule étiquette nommé <STRONG>local</STRONG> n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé « informations sur la configuration <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>de Windows pour les domaines avec des noms DNS en une seule étiquette ».
 
 
 

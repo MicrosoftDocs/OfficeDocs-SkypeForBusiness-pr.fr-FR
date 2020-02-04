@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de l’utilisation de photos haute résolution'
+title: 'Lync Server 2013 : configuration de l’utilisation de photos haute résolution'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the use of high-resolution photos in Lync Server 2013
 ms:assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efa45f6a7e3f561e56e5563b5024c84bb5731fd7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5cb82c047491a43f2a8682d3a6688f67e76af730
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838167"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34838167"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-05_
+_**Dernière modification de la rubrique :** 2014-02-05_
 
 Microsoft Lync Server 2010 offre la possibilité aux utilisateurs d’afficher des photos de leurs contacts (et de rendre leurs propres photos accessibles à d’autres personnes). Ces photos sont généralement stockées dans le cadre de l’attribut thumbnailPhoto de l’utilisateur dans Active Directory. Après avoir placé une limitation sérieuse quant à la taille et à la résolution des photos, l’attribut thumbnailPhoto ne peut contenir qu’une photo dont la taille maximale est de 48 pixels par 48 pixels.
 
 Dans Microsoft Lync Server 2013, toutefois, les photos peuvent être stockées dans la boîte aux lettres 2013 du serveur Microsoft Exchange Server d’un utilisateur. Cela permet de redimensionner une photo de 648 pixels par 648 pixels. Par ailleurs, Exchange 2013 permet de redimensionner automatiquement ces photos pour une utilisation dans différents produits selon vos besoins. Cela donne généralement trois tailles et résolutions de photos différentes :
 
-  - 48 pixels par 48 pixels, taille utilisée pour l’attribut thumbnailPhoto Active Directory. Si vous chargez une photo dans Exchange 2013, Exchange créera automatiquement une version 48 pixels par 48 pixels de cette photo et mettre à jour l’attribut thumbnailPhoto de l’utilisateur. Notez, toutefois, que l’inverse n’est pas vrai: Si vous effectuez manuellement la mise à jour de l’attribut thumbnailPhoto dans Active Directory, la photo de la boîte aux lettres Exchange 2013 de l’utilisateur ne sera pas automatiquement mise à jour.
+  - 48 pixels par 48 pixels, taille utilisée pour l’attribut thumbnailPhoto Active Directory. Si vous chargez une photo dans Exchange 2013, Exchange créera automatiquement une version 48 pixels par 48 pixels de cette photo et mettre à jour l’attribut thumbnailPhoto de l’utilisateur. Notez, toutefois, que l’inverse n’est pas vrai : Si vous effectuez manuellement la mise à jour de l’attribut thumbnailPhoto dans Active Directory, la photo de la boîte aux lettres Exchange 2013 de l’utilisateur ne sera pas automatiquement mise à jour.
 
   - 96 pixels par 96 pixels pour une utilisation dans Microsoft Outlook 2013 Web App, Microsoft Outlook 2013, Microsoft Lync Web App et Lync 2013.
 
@@ -55,7 +57,7 @@ Dans Microsoft Lync Server 2013, toutefois, les photos peuvent être stockées d
 
 </div>
 
-Les photos haute résolution, qui sont accessibles à l’aide des services Web Exchange, peuvent être chargées par les utilisateurs exécutant Outlook 2013 Web App; les utilisateurs ne peuvent mettre à jour qu’une seule photo. En revanche, les administrateurs peuvent mettre à jour la photo de n’importe quel utilisateur à l’aide d’Exchange Management Shell et d’une série de commandes Windows PowerShell similaires à ce qui suit:
+Les photos haute résolution, qui sont accessibles à l’aide des services Web Exchange, peuvent être chargées par les utilisateurs exécutant Outlook 2013 Web App ; les utilisateurs ne peuvent mettre à jour qu’une seule photo. En revanche, les administrateurs peuvent mettre à jour la photo de n’importe quel utilisateur à l’aide d’Exchange Management Shell et d’une série de commandes Windows PowerShell similaires à ce qui suit :
 
     $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
     Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Confirm:$False

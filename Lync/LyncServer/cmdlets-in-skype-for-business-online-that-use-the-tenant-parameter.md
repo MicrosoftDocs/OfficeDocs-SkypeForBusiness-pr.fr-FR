@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use the Tenant parameter
 ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362850(v=OCS.15)
@@ -11,19 +13,19 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd58e375bcacfcb18cbc21e6ac352b8d98b56661
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 40f325c55415f97822b1e8c9d21a6d2e80e27273
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728014"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets dans Skype entreprise Online utilisant le paramètre locataire
 
  
 
 
-Lorsque vous modifiez les paramètres de votre fournisseur public, vous devez toujours fournir une identité de client; C’est vrai, même si vous n’avez qu’un seul client. Par exemple, cette commande définit Windows Live en tant que seul fournisseur public auquel les utilisateurs sont autorisés à communiquer:
+Lorsque vous modifiez les paramètres de votre fournisseur public, vous devez toujours fournir une identité de client ; C’est vrai, même si vous n’avez qu’un seul client. Par exemple, cette commande définit Windows Live en tant que seul fournisseur public auquel les utilisateurs sont autorisés à communiquer :
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
@@ -32,15 +34,15 @@ Heureusement, vous n’avez pas besoin de taper l’ID de locataire (par exemple
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Vous pouvez également effectuer cette opération dans une seule commande en récupérant l’ID de locataire, puis en canalisant cette valeur vers l’applet de commande Set-CsTenantPublicProvider:
+Vous pouvez également effectuer cette opération dans une seule commande en récupérant l’ID de locataire, puis en canalisant cette valeur vers l’applet de commande Set-CsTenantPublicProvider :
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-Vous n’avez pas besoin de spécifier l’ID de locataire lorsque vous appelez l’applet **de action Get-CsTenant** . Cette commande renvoie des informations sur votre client:
+Vous n’avez pas besoin de spécifier l’ID de locataire lorsque vous appelez l’applet **de action Get-CsTenant** . Cette commande renvoie des informations sur votre client :
 
     Get-CsTenant
 
-Les applets de commande suivantes acceptent une identité de client. Néanmoins, dans ces cas-là, le paramètre est facultatif et n’a pas besoin d’être entré lorsque vous appelez l’applet de cmdlet. Au lieu de cela, Windows PowerShell entrera efficacement l’identité du client en fonction du client Skype entreprise Online auquel vous êtes actuellement connecté:
+Les applets de commande suivantes acceptent une identité de client. Néanmoins, dans ces cas-là, le paramètre est facultatif et n’a pas besoin d’être entré lorsque vous appelez l’applet de cmdlet. Au lieu de cela, Windows PowerShell entrera efficacement l’identité du client en fonction du client Skype entreprise Online auquel vous êtes actuellement connecté :
 
   - [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))
 
@@ -54,11 +56,11 @@ Les applets de commande suivantes acceptent une identité de client. Néanmoins,
 
   - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
 
-Par exemple, vous pouvez appeler l’applet de commande **Get-CsTenantFederationConfiguration** à l’aide de la commande suivante:
+Par exemple, vous pouvez appeler l’applet de commande **Get-CsTenantFederationConfiguration** à l’aide de la commande suivante :
 
     Get-CsTenantFederationConfiguration
 
-Même si ce n’est pas obligatoire, vous pouvez inclure le paramètre locataire lors de l’appel de Get-CsTenantFederationConfiguration:
+Même si ce n’est pas obligatoire, vous pouvez inclure le paramètre locataire lors de l’appel de Get-CsTenantFederationConfiguration :
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 

@@ -3,6 +3,8 @@ title: Conférence Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing
 ms:assetid: 6129b7e0-9abd-488e-a54e-86094eb9df7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417161(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00f368a375a73eddc78b858c0d85a1bc21a1bd04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f14a9f23617c55f1c09abc4daf29b5849b3bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838471"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838471"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-11_
+_**Dernière modification de la rubrique :** 2012-09-11_
 
 Grâce à la Conférence unifiée dans Lync Server 2013, les utilisateurs peuvent collaborer, partager des informations et coordonner leurs efforts en temps réel. Tous vos utilisateurs peuvent utiliser la totalité de la collaboration, des réunions planifiées et des outils de réunion involontaires. Les fonctionnalités de visioconférence et de visioconférence peuvent être utilisées à partir de n’importe quel emplacement disposant d’une connexion Internet, et les utilisateurs en dehors d’un ordinateur peuvent participer à des conférences audio en se connectant à l’aide d’un téléphone RTC (réseau téléphonique commuté).
 
@@ -53,7 +55,7 @@ Lync simplifie l’utilisation de l’utilisateur pour les conférences vidéo e
 
 Lync Server vous permet d’ajouter facilement une vidéo à un appel téléphonique standard en un seul clic. Lorsqu’un appel vidéo ou une conférence est en plusieurs participants, chaque utilisateur peut voir la vidéo d’un maximum de cinq utilisateurs simultanément, ou un présentateur peut choisir une seule source vidéo à afficher en exclusivité par tout le monde.
 
-Vidéo haute définition (résolution 1270 x 720; rapport hauteur/largeur 16:9) et vidéo VGA (résolution 640 x 480; rapport hauteur/largeur 4:3) prises en charge pour les appels d’égal à égal entre les utilisateurs exécutant Lync sur des ordinateurs haut de gamme. La résolution affichée par chaque participant pour une seule conversation peut varier en fonction des capacités vidéo du matériel respectif de chaque utilisateur.
+Vidéo haute définition (résolution 1270 x 720 ; rapport hauteur/largeur 16:9) et vidéo VGA (résolution 640 x 480 ; rapport hauteur/largeur 4:3) prises en charge pour les appels d’égal à égal entre les utilisateurs exécutant Lync sur des ordinateurs haut de gamme. La résolution affichée par chaque participant pour une seule conversation peut varier en fonction des capacités vidéo du matériel respectif de chaque utilisateur.
 
 Les administrateurs informatiques peuvent définir des stratégies permettant de limiter ou de désactiver la vidéo haute définition ou VGA sur des clients, en fonction de la fonctionnalité de votre ordinateur, de la bande passante du réseau et de la présence d’une caméra capable de répondre à la résolution requise. Ces stratégies sont appliquées par le biais de la mise en service intrabande.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activez le prélèvement d’appel de groupe pour les utilisateurs et attribuez un numéro de groupe'
+title: 'Lync Server 2013 : activez le prélèvement d’appel de groupe pour les utilisateurs et attribuez un numéro de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Group Call Pickup for users and assign a group number
 ms:assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945650(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9523a76eb9cd23dd4c8ee531520341aaf82f508
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a5ad9bbc6f5505e5778872a568bdbc80b3f7bf91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831316"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831316"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 Après avoir ajouté des numéros de groupe de cueillette des appels à la table d’orbite du parc d’appels, vous pouvez attribuer les numéros de groupe aux utilisateurs et activer le prélèvement d’appels de groupe. Utilisez l’outil du kit de ressources de l’extension secondaire (SEFAUtil) pour attribuer des numéros de groupe et activer le choix des appels de groupe.
 

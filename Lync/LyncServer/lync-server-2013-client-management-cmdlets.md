@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de gestion du client'
+title: 'Lync Server 2013 : cmdlets de gestion du client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client management cmdlets
 ms:assetid: 0384f8ab-453d-49d6-aaa7-52439e27b7e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c40ad68a228f06c1275460a38aa1f6fbfff53f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 023b7c165d1366d42303f4b609401fcc7bbe6a1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838555"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838555"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-27_
+_**Dernière modification de la rubrique :** 2012-09-27_
 
 La gestion des clients consiste essentiellement à identifier les applications clientes (par exemple, Microsoft Lync 2013) qui seront autorisées à se connecter à Lync Server 2013 et à déterminer les fonctionnalités disponibles pour ces applications clientes après leur connexion.
 
@@ -51,7 +53,7 @@ La gestion des clients consiste essentiellement à identifier les applications c
 
 ## <a name="client-management-cmdlets"></a>Cmdlets de gestion du client
 
-La plupart des tâches de gestion qui s’appliquent à la gestion des clients peuvent être effectuées à partir du panneau de configuration de Lync Server 2013. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. À l’aide d’un script, vous pouvez automatiser certaines tâches. La liste suivante répertorie les applets de commande qui concernent directement la gestion du client:
+La plupart des tâches de gestion qui s’appliquent à la gestion des clients peuvent être effectuées à partir du panneau de configuration de Lync Server 2013. Ces mêmes tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. À l’aide d’un script, vous pouvez automatiser certaines tâches. La liste suivante répertorie les applets de commande qui concernent directement la gestion du client :
 
   - <span></span>  
     [Get-CsClientPolicy](https://technet.microsoft.com/en-us/library/Gg398830(v=OCS.15))
