@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la cueillette des appels de groupe'
+title: 'Lync Server 2013 : configuration de la cueillette des appels de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Group Call Pickup
 ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945645(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d7f82d976d3e6e2594cecafe5634edfe0b52841
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3096c468b478da365bcfa0e38fa287a5c2ab57a2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838240"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838240"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-01_
+_**Dernière modification de la rubrique :** 2013-02-01_
 
-Mise à jour cumulative pour Lync Server 2013: février 2013 présente la capture d’appel de groupe comme nouvelle fonctionnalité voix entreprise. La cueillette de groupe permet aux utilisateurs de décrocher les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de capture d’appel.
+Mise à jour cumulative pour Lync Server 2013 : février 2013 présente la capture d’appel de groupe comme nouvelle fonctionnalité voix entreprise. La cueillette de groupe permet aux utilisateurs de décrocher les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de capture d’appel.
 
 Les composants utilisés par le biais du groupe de collecte d’appels sont automatiquement installés et activés sur le serveur frontal ou le serveur Standard Edition lors du déploiement d’Enterprise Voice. Toutefois, vous devez configurer la cueillette d’appel de groupe avant qu’elle ne soit disponible pour les utilisateurs.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifier les paramètres de qualité de l’expertise'
+title: 'Lync Server 2013 : modifier les paramètres de qualité de l’expertise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify Quality of Experience settings
 ms:assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182563(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ce6041e6512714f10785cf2976727788e105f70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2cf4745f76fa4667d14c9da5ca2b4e5309767b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826870"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826870"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Par défaut, les données de qualité de l’expérience (QoE) sont vidées au bout de 60 jours. Vous pouvez utiliser les paramètres de la page **Données de qualité de l’expérience** pour conserver les données pendant une période plus longue ou plus courte. Si vous désactivez QoE, les données capturées avant que l’activation de QoE seront également purgées.
 
@@ -73,7 +75,7 @@ La procédure suivante décrit comment configurer des paramètres de vidage pour
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Spécification de la rétention QoE en utilisant des applets de cmdlet Windows PowerShell
 
-Vous pouvez créer des paramètres de rétention QoE à l’aide de Windows PowerShell et de l’applet **de cmdlet Set-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez créer des paramètres de rétention QoE à l’aide de Windows PowerShell et de l’applet **de cmdlet Set-CsQoEConfiguration** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

@@ -3,6 +3,8 @@ title: Supprimer un pool frontal ou un serveur Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Front End pool or Standard Edition server
 ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688115(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a3b08d6e8b4f0b792063b19a47889de11283c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846058"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846058"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Cette rubrique vous guide dans le processus de suppression d’un pool frontal ou d’un serveur frontal Standard Edition. Lorsque vous supprimez un pool frontal, vous supprimez chaque serveur frontal qui appartient au pool dans le cadre du processus de suppression du pool. Lorsque vous supprimez un serveur frontal Standard Edition, vous devez supprimer la définition du SQL Store du générateur de topologie.
 

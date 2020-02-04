@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition d’un Survivable Branch Appliance ou d�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Survivable Branch Appliance or Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398280(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dadaa26f6a951995906ed29ffd0615da16066928
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831719"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-07_
+_**Dernière modification de la rubrique :** 2012-10-07_
 
 Suivez cette procédure sur le site central si vous n’avez pas défini l’appareil ou le serveur de succursale Survivable lorsque vous l’avez ajouté à votre topologie.
 
@@ -43,7 +45,7 @@ Suivez cette procédure sur le site central si vous n’avez pas défini l’app
 
 1.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
-2.  Dans l’arborescence de la console, développez le site central, développez **sites**de succursales, puis développez le nom du site de succursale dans lequel vous envisagez de déployer l’application de succursale ou le serveur de succursale Survivable.
+2.  Dans l’arborescence de la console, développez le site central, développez **sites de succursales**, puis développez le nom du site de succursale dans lequel vous envisagez de déployer l’application de succursale ou le serveur de succursale Survivable.
 
 3.  Cliquez avec le bouton droit sur **périphériques survivables**, puis cliquez sur **nouvelle unité de branchement Survivable**.
     
@@ -56,13 +58,13 @@ Suivez cette procédure sur le site central si vous n’avez pas défini l’app
     
     </div>
 
-4.  Dans la boîte de dialogue **définir une branche Survivable** , **** cliquez sur nom de domaine complet, tapez le nom de domaine complet (FQDN) de l’appareil ou du serveur de succursales survivant que vous déploierez sur ce site de succursale, puis cliquez sur **suivant**.
+4.  Dans la boîte de dialogue **définir une branche Survivable** , **cliquez sur**nom de domaine complet, tapez le nom de domaine complet (FQDN) de l’appareil ou du serveur de succursales survivant que vous déploierez sur ce site de succursale, puis cliquez sur **suivant**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Si vous définissez une unité de branchement Survivable, le nom que vous entrez dans <STRONG>FQDN</STRONG> doit être le même que celui du nom de domaine complet (FQDN) <STRONG></STRONG> de l’appareil. Pour plus d’informations, reportez-vous <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">à la rubrique ajouter une application de branchement survivant à Active Directory dans Lync Server 2013</A>.
+    > Si vous définissez une unité de branchement Survivable, le nom que vous entrez dans <STRONG>FQDN</STRONG> doit être le même que celui du nom de domaine complet (FQDN) <STRONG>de l’appareil</STRONG> . Pour plus d’informations, reportez-vous <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">à la rubrique ajouter une application de branchement survivant à Active Directory dans Lync Server 2013</A>.
 
     
     </div>

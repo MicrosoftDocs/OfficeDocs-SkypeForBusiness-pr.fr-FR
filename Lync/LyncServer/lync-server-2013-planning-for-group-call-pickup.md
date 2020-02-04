@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification d’un appel de groupe'
+title: 'Lync Server 2013 : planification d’un appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Group Call Pickup
 ms:assetid: 6d306466-778f-4c6a-9b6a-35dcd0d1811e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945636(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efff375e6177b43687d19f88cca0964d6d1ea22c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c815e49b1fb60c43e93963c21b3b44c57ff31ae0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824959"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824959"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-01_
+_**Dernière modification de la rubrique :** 2013-02-01_
 
-Mise à jour cumulative pour Lync Server 2013: février 2013 présente la capture d’appel de groupe comme nouvelle fonctionnalité voix entreprise. La cueillette de groupe permet aux utilisateurs de décrocher les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de capture d’appel. Cette section comprend des informations de planification spécifiques à la cueillette de groupe.
+Mise à jour cumulative pour Lync Server 2013 : février 2013 présente la capture d’appel de groupe comme nouvelle fonctionnalité voix entreprise. La cueillette de groupe permet aux utilisateurs de décrocher les appels qui sonnent pour un autre utilisateur en composant un numéro de groupe de capture d’appel. Cette section comprend des informations de planification spécifiques à la cueillette de groupe.
 
 <div>
 

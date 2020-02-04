@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification pour les clients mobiles'
+title: 'Lync Server 2013 : planification pour les clients mobiles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for mobile clients
 ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8693c35d43ec70cbff8badd16b51d0b0c68b52fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824637"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824637"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-04-02_
+_**Dernière modification de la rubrique :** 2013-04-02_
 
 Les clients mobiles Lync 2013 offrent une présence améliorée, la messagerie instantanée, les réunions Lync et les appels vocaux et vidéo via Internet ou la connexion mobile. Pour une matrice qui recense les fonctionnalités et capacités des clients mobiles et les compare au client de bureau, voir [tableaux de comparaison des clients mobiles pour Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).
 
@@ -41,7 +43,7 @@ Les clients mobiles Lync 2013 offrent une présence améliorée, la messagerie i
 
 
 > [!NOTE]  
-> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, reportez-vous à la section «planification de clients mobiles» <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>dans la bibliothèque TechNet de Lync Server 2010 à l’adresse.
+> Lync Server 2013 prend également en charge les clients mobiles Lync 2010. Pour plus d’informations, reportez-vous à la section « planification de clients mobiles » <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>dans la bibliothèque TechNet de Lync Server 2010 à l’adresse.
 
 
 

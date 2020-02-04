@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Change voice routes to use the new Lync Server 2013 Mediation Server
 ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205162(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba933ec7c51b62e7f5008ad9f767a0695c88ebb2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36232918"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Cette procédure modifie les itinéraires vocaux pour utiliser le serveur de médiation Lync Server 2013, au lieu du serveur de médiation traditionnel d’Office Communications Server 2007 R2.
 
@@ -48,7 +50,7 @@ Cette procédure modifie les itinéraires vocaux pour utiliser le serveur de mé
 
 3.  Cliquez sur **nouveau** pour créer un nouvel itinéraire.
 
-4.  Renseignez les champs suivants:
+4.  Renseignez les champs suivants :
     
       - **Nom**: tapez un nom descriptif pour l’itinéraire vocal. Pour ce document, nous utiliserons **W15PSTNRoute**.
     

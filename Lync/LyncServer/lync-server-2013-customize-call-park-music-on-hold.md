@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: personnaliser le parc d’appels en attente de musique'
+title: 'Lync Server 2013 : personnaliser le parc d’appels en attente de musique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customize Call Park music on hold
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688031(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62983c10033ddc350b39a123c62fa31c132bb9c9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831747"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-10_
+_**Dernière modification de la rubrique :** 2012-09-10_
 
 Vous pouvez spécifier votre propre fichier audio à utiliser pour la musique en attente au lieu du fichier de musique par défaut fourni avec Lync Server 2013. Pour personnaliser l’attente musicale, utilisez l’applet de commande **Set-CsCallParkServiceMusicOnHoldFile**.
 
@@ -53,7 +55,7 @@ Vous pouvez spécifier votre propre fichier audio à utiliser pour la musique en
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     

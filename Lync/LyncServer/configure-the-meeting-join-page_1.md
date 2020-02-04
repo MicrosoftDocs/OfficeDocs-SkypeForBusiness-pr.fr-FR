@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the meeting join page
 ms:assetid: a87319b7-3124-4262-8f9d-18138870ee2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205145(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4de88d5c277cb1cef2decb8c51c1c87471dae77
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 104f5a06395de236c280d083e6211decaaa62b35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233196"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36233196"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-14_
+_**Dernière modification de la rubrique :** 2012-12-14_
 
 Lorsqu’un utilisateur clique sur un lien de réunion dans une demande de réunion, la page de participation à une réunion détecte si un client 2013 Lync est déjà installé sur l’ordinateur de l’utilisateur. Si un client est déjà installé, ce client ouvre et joint la réunion. Si un client n’est pas installé, la version 2013 de Microsoft Lync Web App est ouverte par défaut.
 
@@ -70,7 +72,7 @@ Vous pouvez modifier le comportement de la page de participation à une réunion
 
 ## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>Pour configurer la page de participation à une réunion à l’aide de Lync Server 2013 Management Shell
 
-1.  Démarrez Lync Server 2013 Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server 2013 Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande suivante :
     
@@ -78,7 +80,7 @@ Vous pouvez modifier le comportement de la page de participation à une réunion
     
     Ce cmdlet renvoie les paramètres de configuration de service Web.
 
-3.  Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server 2013 Management Shell):
+3.  Exécutez la commande suivante, avec les paramètres définis sur true ou false, en fonction de votre préférence (pour plus d’informations sur les paramètres de cette applet de commande, voir la documentation Lync Server 2013 Management Shell) :
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

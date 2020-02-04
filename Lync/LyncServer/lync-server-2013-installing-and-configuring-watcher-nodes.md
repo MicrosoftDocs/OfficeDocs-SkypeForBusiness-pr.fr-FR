@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: installation et configuration des nœuds d’observation'
+title: 'Lync Server 2013 : installation et configuration des nœuds d’observation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing and configuring watcher nodes
 ms:assetid: 61f6deea-e3ef-4468-9be8-a65705815ebb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36d466cbffff1cf1e68eefe120215895e52e7c81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89465227e351da3c69116201efe5ee4eab89eca4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831005"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831005"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-Les nœuds d' *observation* sont des ordinateurs qui exécutent périodiquement les transactions synthétiques de Lync Server. Les *transactions synthétiques* sont des cmdlets Windows PowerShell qui vérifient que les scénarios d’utilisateur final (par exemple, la possibilité de se connecter au système ou la possibilité d’échanger des messages instantanés) fonctionnent comme prévu. Pour Lync Server 2013, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant. Il existe trois types de transactions de synthèse différents indiqués dans le tableau:
+Les *nœuds d’observation* sont des ordinateurs qui exécutent périodiquement les transactions synthétiques de Lync Server. Les *transactions synthétiques* sont des cmdlets Windows PowerShell qui vérifient que les scénarios d’utilisateur final (par exemple, la possibilité de se connecter au système ou la possibilité d’échanger des messages instantanés) fonctionnent comme prévu. Pour Lync Server 2013, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant. Il existe trois types de transactions de synthèse différents indiqués dans le tableau :
 
   - **Par défaut**. Il s’agit des transactions synthétiques qui s’exécutent par défaut sur un nœud d’observateur. Lorsque vous créez un nouveau nœud d’observateur, vous avez la possibilité de spécifier les transactions synthétiques qui seront exécutées sur ce nœud. (Il s’agit de l’objet du paramètre tests utilisé par l’applet **de nouvelle cmdlet New-CsWatcherNodeConfiguration** .) Si vous n’utilisez pas le paramètre tests lors de la création du nœud d’observateur, toutes les transactions synthétiques par défaut sont exécutées et aucune des transactions synthétiques par défaut ne sera exécutée. Cela signifie, par exemple, que le nœud Watcher est configuré pour exécuter le test-CsAddressBookService, mais qu’il ne sera pas configuré pour exécuter le test de test CsExumConnectivity.
 
@@ -162,13 +164,13 @@ Vous n’avez pas besoin d’installer de nœuds FileSystemWatcher pour pouvoir 
 
 
 > [!NOTE]  
-> Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, sans avoir besoin d’utiliser, ou d’installer, Operations Manager. Pour plus d’informations sur les différentes applets de contrôle d’application CS, voir l’index des applets de contrôle <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013</A>.
+> Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, sans avoir besoin d’utiliser, ou d’installer, Operations Manager. Pour plus d’informations sur les différentes applets de contrôle d’application CS, voir l' <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">index des applets de contrôle Lync Server 2013</A>.
 
 
 
 </div>
 
-En fonction de la taille de votre déploiement, les transactions synthétiques pourraient utiliser une grande quantité de mémoire de l’ordinateur et du temps processeur. Pour cette raison, nous vous recommandons d’utiliser un ordinateur dédié en tant que nœud d’observation. Par exemple, vous ne devez pas configurer un serveur frontal pour qu’il serve de nœud d’observation. Les nœuds d’observateur doivent respecter les spécifications matérielles suivantes:
+En fonction de la taille de votre déploiement, les transactions synthétiques pourraient utiliser une grande quantité de mémoire de l’ordinateur et du temps processeur. Pour cette raison, nous vous recommandons d’utiliser un ordinateur dédié en tant que nœud d’observation. Par exemple, vous ne devez pas configurer un serveur frontal pour qu’il serve de nœud d’observation. Les nœuds d’observateur doivent respecter les spécifications matérielles suivantes :
 
 <div>
 
@@ -180,7 +182,7 @@ En fonction de la taille de votre déploiement, les transactions synthétiques p
 
 </div>
 
-Les nœuds d’observateur Lync Server 2013 pourront être déployés à l’intérieur ou à l’extérieur d’une entreprise pour vous permettre de vérifier les éléments suivants:
+Les nœuds d’observateur Lync Server 2013 pourront être déployés à l’intérieur ou à l’extérieur d’une entreprise pour vous permettre de vérifier les éléments suivants :
 
   - <span></span>  
     Connectivité avec les pools pour les utilisateurs situés dans l’entreprise
@@ -198,7 +200,7 @@ Différentes options d’authentification sont disponibles à l’intérieur et 
 
 Pour configurer un ordinateur pour qu’il serve de nœud d’observation, vous devez effectuer les étapes suivantes une fois que vous avez installé System Center Operations Manager et importé les packs d’administration de Lync Server 2013.
 
-Avant d’installer les fichiers principaux de Lync Server 2013 et les fichiers de l’agent System Center, assurez-vous que l’ordinateur de nœud d’observation répond à toutes les conditions préalables à l’installation de Lync Server 2013. Par ailleurs, les éléments suivants doivent également être installés sur l’ordinateur du nœud d’observation:
+Avant d’installer les fichiers principaux de Lync Server 2013 et les fichiers de l’agent System Center, assurez-vous que l’ordinateur de nœud d’observation répond à toutes les conditions préalables à l’installation de Lync Server 2013. Par ailleurs, les éléments suivants doivent également être installés sur l’ordinateur du nœud d’observation :
 
 
 <table>
@@ -243,7 +245,7 @@ Avant d’installer les fichiers principaux de Lync Server 2013 et les fichiers 
 
   - Windows PowerShell 3,0.
 
-Dès que toutes les conditions préalables suivantes sont remplies, vous pouvez configurer le nœud de l’observateur en procédant comme suit:
+Dès que toutes les conditions préalables suivantes sont remplies, vous pouvez configurer le nœud de l’observateur en procédant comme suit :
 
   - Installation des fichiers principaux de Lync Server 2013 sur l’ordinateur de nœud d’observation.
 

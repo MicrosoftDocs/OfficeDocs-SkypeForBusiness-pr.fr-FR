@@ -3,6 +3,8 @@ title: Créer des utilisateurs et des contacts
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839047"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839047"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Vous devez utiliser l’outil de mise en service des utilisateurs de Lync Server 2013 (UserProvisioningTool. exe) pour créer des utilisateurs et des contacts en préparation au test de charge de stress et de performance.
 
@@ -41,13 +43,13 @@ Vous trouverez ci-dessous une liste de termes et de définitions qui peuvent vou
 
   - Unité d’organisation-l’unité d’organisation Active Directory Domain Services (UO).
 
-  - Regroupement fédéré/croisé: les utilisateurs qui pourront communiquer avec des utilisateurs à partir d’autres services de messagerie instantanée, tels que le réseau MSN de services Internet, le® AOL et Yahoo\!®.
+  - Regroupement fédéré/croisé : les utilisateurs qui pourront communiquer avec des utilisateurs à partir d’autres services de messagerie instantanée, tels que le réseau MSN de services Internet, le® AOL et Yahoo\!®.
 
-  - Listes de distribution: objets dans les services de domaine Active Directory (AD FS) qui contiennent une liste des utilisateurs des services de domaine Active Directory (AD FS) utilisés pour le lancement des communications avec des groupes de personnes.
+  - Listes de distribution : objets dans les services de domaine Active Directory (AD FS) qui contiennent une liste des utilisateurs des services de domaine Active Directory (AD FS) utilisés pour le lancement des communications avec des groupes de personnes.
 
-  - Service des informations de géolocalisation: le service Lync Server 2013 qui, lorsqu’il est activé ou configuré par téléphone, autorise la récupération de l’emplacement physique pour les services Enhanced 9-1-1 (E9-1-1).
+  - Service des informations de géolocalisation : le service Lync Server 2013 qui, lorsqu’il est activé ou configuré par téléphone, autorise la récupération de l’emplacement physique pour les services Enhanced 9-1-1 (E9-1-1).
 
-  - Numéros de téléphone américains: les numéros de téléphone affectés aux utilisateurs, en plus de l’URI SIP utilisé pour le routage des appels entrants et sortants et la recherche de numéros inversés (RNL).
+  - Numéros de téléphone américains : les numéros de téléphone affectés aux utilisateurs, en plus de l’URI SIP utilisé pour le routage des appels entrants et sortants et la recherche de numéros inversés (RNL).
 
 <div>
 
@@ -77,7 +79,7 @@ Vous devez utiliser l’outil de mise en service de l’utilisateur de Lync Serv
 
 Lorsque l’outil de mise en service de l’utilisateur Lync Server s’ouvre, cliquez sur **configuration** , puis sélectionnez **charger la configuration**. Pour commencer à configurer les utilisateurs et les contacts, chargez le fichier par défaut inclus dans le package, SampleData. Xml. Cette opération préremplira les champs avec des exemples de données que vous devrez modifier pour votre système. Si vous avez un fichier XML préconfiguré qui contient déjà des paramètres personnalisés, chargez ce fichier à la place. Renseignez les champs de l’outil de mise en service de l’utilisateur Lync Server, comme décrit dans les sections suivantes.
 
-![Onglet création d’utilisateur.] (images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Onglet création d’utilisateur.")
+![Onglet création d’utilisateur.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Onglet création d’utilisateur.")
 
 Pour configurer les options du serveur, procédez comme suit.
 
@@ -149,7 +151,7 @@ Lorsque vous cliquez sur le bouton supprimer des utilisateurs, tous les paramèt
 
 L’onglet Création de contacts vous permet de spécifier les détails des contacts des utilisateurs.
 
-![Onglet Création de contacts.] (images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Onglet Création de contacts.")
+![Onglet Création de contacts.](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Onglet Création de contacts.")
 
 Pour configurer les contacts des utilisateurs, procédez comme suit.
 
@@ -176,7 +178,7 @@ Pour configurer les contacts des utilisateurs, procédez comme suit.
 
 7.  Dans l’onglet création d’utilisateur, vérifiez que les paramètres sont corrects. Le nombre d’utilisateurs pour lesquels les contacts seront créés est obtenu à partir de l’onglet création d’utilisateurs.
 
-8.  Cliquez sur créer des contacts pour commencer la création du contact. Ce processus peut prendre quelques minutes. Une fois qu’elle est terminée, une boîte de dialogue s’affiche avec le message «opération terminée correctement». Vous pouvez valider les contacts créés en vous connectant en tant qu’utilisateur créé à partir de l’onglet création d’utilisateur.
+8.  Cliquez sur créer des contacts pour commencer la création du contact. Ce processus peut prendre quelques minutes. Une fois qu’elle est terminée, une boîte de dialogue s’affiche avec le message « opération terminée correctement ». Vous pouvez valider les contacts créés en vous connectant en tant qu’utilisateur créé à partir de l’onglet création d’utilisateur.
     
     <div>
     
@@ -195,7 +197,7 @@ Pour configurer les contacts des utilisateurs, procédez comme suit.
 
 L’une des fonctionnalités de l’outil de stress et de performance de Lync Server 2013 consiste à simuler la fonctionnalité d’extension de liste de distribution dans Lync 2013. Si vous n’êtes pas en mesure d’activer l’extension DL dans UserProvisioningTool, vous pouvez ignorer cette étape.
 
-![Onglet Création de liste de distribution.] (images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Onglet Création de liste de distribution.")
+![Onglet Création de liste de distribution.](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Onglet Création de liste de distribution.")
 
 L’onglet Liste de distribution vous permet de créer des listes de distribution que l’outil de stress et de performance utilisera pour la fonctionnalité d’extension de liste de distribution. Avant de créer des listes de distribution, Lync Server 2013 doit déjà être installé. Vous devez avoir exécuté Lync Server 2013 ForestPrep. Dans le cas contraire, les attributs DL n’existent pas dans le schéma des services de domaine Active Directory et l’outil ne peut pas créer de DL.
 
@@ -225,7 +227,7 @@ Lorsque vous cliquez sur le bouton créer des listes de distribution, l’outil 
 
 L’une des fonctionnalités de l’outil de stress et de performance de Lync Server 2013 consiste à générer des fichiers de configuration factices pour le service d’information d’emplacement. En règle générale, le service des informations d’emplacement n’a pas d’impact important sur les performances sur les serveurs.
 
-![Onglet Configuration du service informations] de géolocalisation. (images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Onglet Configuration du service informations") de géolocalisation.
+![Onglet Configuration du service informations de géolocalisation.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Onglet Configuration du service informations de géolocalisation.")
 
 Si vous choisissez de tester cette fonctionnalité, vous pouvez renseigner les valeurs mentionnées dans le formulaire, puis cliquer sur le bouton générer les fichiers de configuration de LIS. Il génère des fichiers CSV nommés LIS\_subnet. csv, lis\_switchs. csv,\_lis ports. csv et lis\_WAP. csv. Vous pouvez ensuite importer ces fichiers CSV dans la base de données LIS à l’aide de l’applet de cmdlet **Set-CsLisSubnet** , de l’applet de applet Set- **CsLisSwitch** , de l’applet de passe **Set-CsLisPort** et de l’applet **de passe Set-CsWirelessAccessPoint** , respectivement.
 

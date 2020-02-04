@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: définition des éléments réseau utilisés pour déterminer l’emplacement'
+title: 'Lync Server 2013 : définition des éléments réseau utilisés pour déterminer l’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the network elements used to determine location
 ms:assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398567(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 572e7e5392390e659b52853cb47e30f696c65e91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d71d222fd6784c32ecf0228fff2f33188d2afae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831705"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831705"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
-Si vous configurez votre infrastructure de serveur Lync pour la prise en charge de la détection automatique de l’emplacement du client, vous devez commencer par déterminer les éléments réseau que vous allez utiliser pour mapper les appelants vers les emplacements. Dans Lync Server 2013, vous pouvez associer les éléments réseau Layer 2 et Layer 3 suivants à des emplacements:
+Si vous configurez votre infrastructure de serveur Lync pour la prise en charge de la détection automatique de l’emplacement du client, vous devez commencer par déterminer les éléments réseau que vous allez utiliser pour mapper les appelants vers les emplacements. Dans Lync Server 2013, vous pouvez associer les éléments réseau Layer 2 et Layer 3 suivants à des emplacements :
 
   - Adresses BSSID (Basic Service Set Identification) des points d’accès sans fil (WAP) (couche 2)
 
@@ -115,7 +117,7 @@ Pour utiliser l’adresse MAC d’un ordinateur client pour localiser un appelan
 
 
 > [!NOTE]  
-> Certaines solutions SNMP tierces peuvent prendre en charge des commutateurs d’accès non gérés; Si le commutateur qui est utilisé par le client Lync n’est pas géré et dispose d’un lien vers un commutateur de distribution géré, le commutateur géré peut signaler à l’application SNMP les adresses MAC des clients connectés au commutateur d’accès. Ces informations permettent au service d’information d’emplacement d’identifier l’emplacement de l’utilisateur. Cependant, il est possible d’affecter un seul ERL à tous les ports sur le commutateur non géré afin que la spécificité de l’emplacement soit disponible uniquement au niveau du châssis du commutateur d’accès, et non au niveau du port.
+> Certaines solutions SNMP tierces peuvent prendre en charge des commutateurs d’accès non gérés ; Si le commutateur qui est utilisé par le client Lync n’est pas géré et dispose d’un lien vers un commutateur de distribution géré, le commutateur géré peut signaler à l’application SNMP les adresses MAC des clients connectés au commutateur d’accès. Ces informations permettent au service d’information d’emplacement d’identifier l’emplacement de l’utilisateur. Cependant, il est possible d’affecter un seul ERL à tous les ports sur le commutateur non géré afin que la spécificité de l’emplacement soit disponible uniquement au niveau du châssis du commutateur d’accès, et non au niveau du port.
 
 
 

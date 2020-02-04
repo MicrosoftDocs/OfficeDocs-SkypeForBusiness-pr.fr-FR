@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration et surveillance du service de sauvegard
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring and monitoring the Backup Service
 ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205252(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66a800014b3327e83426c9f758b7d5359c1ce6c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9992f0466ceb2e01fa54cb2b2d511eeb96af755a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838285"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838285"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Vous pouvez utiliser les commandes Lync Server Management Shell suivantes pour configurer et surveiller le service de sauvegarde.
 
@@ -95,7 +97,7 @@ Exécutez l’applet de commande suivante :
 
 
 > [!NOTE]  
-> L’état de synchronisation du service de sauvegarde est défini de façon unidirectionnelle à partir d’un pool (P1) vers son pool de sauvegarde (P2). L’état de synchronisation de P1 à P2 peut être différent de celui de P2 à P1. Pour P1 à P2, le service de sauvegarde est dans un état «permanent» si toutes les modifications apportées à P1 sont entièrement répliquées dans le cadre de l’intervalle de synchronisation. Il est dans l’état «final» s’il n’y a plus de modifications à synchroniser entre P1 et P2. Les deux États indiquent une capture instantanée du service de sauvegarde au moment de l’exécution de l’applet de connexion. Cela ne signifie pas que l’état renvoyé sera le plus tard possible. En particulier, l’état «final» reste en attente uniquement si P1 ne génère aucune modification après l’exécution de l’applet de suspension. C’est vrai en cas d’échec de P1 sur P2 après que P1 est passé dans le mode lecture seule dans le cadre de la logique d’exécution d' <STRONG>Invoke-CsPoolfailover</STRONG> .
+> L’état de synchronisation du service de sauvegarde est défini de façon unidirectionnelle à partir d’un pool (P1) vers son pool de sauvegarde (P2). L’état de synchronisation de P1 à P2 peut être différent de celui de P2 à P1. Pour P1 à P2, le service de sauvegarde est dans un état « permanent » si toutes les modifications apportées à P1 sont entièrement répliquées dans le cadre de l’intervalle de synchronisation. Il est dans l’état « final » s’il n’y a plus de modifications à synchroniser entre P1 et P2. Les deux États indiquent une capture instantanée du service de sauvegarde au moment de l’exécution de l’applet de connexion. Cela ne signifie pas que l’état renvoyé sera le plus tard possible. En particulier, l’état « final » reste en attente uniquement si P1 ne génère aucune modification après l’exécution de l’applet de suspension. C’est vrai en cas d’échec de P1 sur P2 après que P1 est passé dans le mode lecture seule dans le cadre de la logique d’exécution d' <STRONG>Invoke-CsPoolfailover</STRONG> .
 
 
 

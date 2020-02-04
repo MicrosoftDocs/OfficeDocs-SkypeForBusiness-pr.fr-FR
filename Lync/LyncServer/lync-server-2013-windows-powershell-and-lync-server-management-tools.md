@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Outils de gestion de Windows PowerShell et Lync Ser
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell and Lync Server 2013 management tools
 ms:assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481130(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893869
 ms.date: 07/20/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 814253d909ff7065ccc028cf5822be7a7331a2fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dbfd15ff3c1047f04a6878b65a3d16e63bac490b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846191"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846191"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-07-20_
+_**Dernière modification de la rubrique :** 2016-07-20_
 
-Dans Microsoft Lync Server 2013, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Lync Server 2013 implémentés à l’aide de Windows PowerShell incluent les éléments suivants:
+Dans Microsoft Lync Server 2013, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell inclut un environnement de ligne de commande, des commandes spécifiques au produit et un langage de script complet. Les outils Lync Server 2013 implémentés à l’aide de Windows PowerShell incluent les éléments suivants :
 
   - **Générateur de topologie**. Le générateur de topologie vous permet de créer, d’ajuster et de publier votre topologie planifiée et de valider votre topologie avant de commencer les installations serveur. Lorsque vous installez Lync Server 2013 sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation, et le programme d’installation déploie le serveur conformément aux instructions de la topologie. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
 

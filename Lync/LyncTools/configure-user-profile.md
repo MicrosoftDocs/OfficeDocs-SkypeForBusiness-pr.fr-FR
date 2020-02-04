@@ -3,6 +3,8 @@ title: Configurer un profil utilisateur
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2441fe97bb57ffdf0f6200f1201e192bfc6bf14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839053"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839053"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2018-10-11_
+_**Dernière modification de la rubrique :** 2018-10-11_
 
 Les outils inclus dans le package d’outils de stress et de performance de Lync Server 2013 vous permettent de créer et de configurer des comptes d’utilisateurs test que vous pouvez utiliser pour effectuer des simulations de charge. Utilisez l’outil de création d’utilisateurs de Lync Server 2013 pour créer les utilisateurs. (Pour plus d’informations, consultez [créer des utilisateurs et des contacts](create-users-and-contacts.md).) Une fois les utilisateurs créés, configurez les profils utilisateur à l’aide de l’outil de configuration de chargement de Lync Server 2013.
 
@@ -61,7 +63,7 @@ Renseignez les champs de chaque onglet de l’outil de configuration de chargeme
 
 L’onglet **configuration commune** de l’outil de configuration de chargement de Lync Server 2013 est illustré dans la figure ci-dessous. Remplissez les champs de l’onglet **configuration courante** , comme décrit dans les étapes suivantes.
 
-![Onglet Configuration commune.] (images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Onglet Configuration commune.")
+![Onglet Configuration commune.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Onglet Configuration commune.")
 
 1.  Dans **nombre d’ordinateurs disponibles**, tapez ou cliquez sur le nombre d’ordinateurs que vous voulez utiliser pour exécuter LyncPerfTool. exe. Nous vous recommandons d’avoir un ordinateur pour tous les utilisateurs de 4 500 que vous allez simuler. Ce nombre peut varier si vous réduisez le niveau de charge ou si vous utilisez uniquement un sous-ensemble des fonctionnalités disponibles. (Les niveaux de charge sont définis sous l’onglet **scénarios généraux** .)
 
@@ -95,7 +97,7 @@ L’onglet **scénarios généraux** de l’outil de configuration de chargement
 
 Configurez les niveaux de charge et les paramètres pour chacun des scénarios généraux que vous souhaitez exécuter, ou laissez-le désactivé.
 
-![Onglet scénarios généraux.] (images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Onglet scénarios généraux.")
+![Onglet scénarios généraux.](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Onglet scénarios généraux.")
 
 1.  Dans la **messagerie instantanée**, qui inclut les services d’égal à égal et de conférence, spécifiez la valeur appropriée pour le niveau de charge.
     
@@ -103,7 +105,7 @@ Configurez les niveaux de charge et les paramètres pour chacun des scénarios g
     
 
     > [!NOTE]  
-    > Les valeurs de niveau de charge de tous les champs (à l' <STRONG></STRONG>exception des services d’informations de lieu) sont désactivées, <STRONG>faible</STRONG>, <STRONG>moyenne</STRONG>, <STRONG>haute</STRONG>et <STRONG>personnalisée</STRONG>. Lorsque les valeurs faible, moyenne, haute ou personnalisée sont sélectionnées, des configurations sont générées pour chaque modalité et chaque client. Élevé entraîne la génération de la valeur maximale prise en charge pour le serveur, moyenne correspond à 60% du chargement et la valeur basse correspond à 30% du chargement.
+    > Les valeurs de niveau de charge de tous les champs (à l’exception des services d’informations de lieu) sont <STRONG>désactivées</STRONG>, <STRONG>faible</STRONG>, <STRONG>moyenne</STRONG>, <STRONG>haute</STRONG>et <STRONG>personnalisée</STRONG>. Lorsque les valeurs faible, moyenne, haute ou personnalisée sont sélectionnées, des configurations sont générées pour chaque modalité et chaque client. Élevé entraîne la génération de la valeur maximale prise en charge pour le serveur, moyenne correspond à 60% du chargement et la valeur basse correspond à 30% du chargement.
 
     
     </div>
@@ -126,7 +128,7 @@ Configurez les niveaux de charge et les paramètres pour chacun des scénarios g
 
 
 > [!NOTE]  
-> Chacun des scénarios est associé à un bouton <STRONG>avancé</STRONG> qui s’affiche à côté de celui-ci, ainsi qu’un ensemble de cases à cocher permettant de définir des variations des scénarios. Moyens <STRONG>ad-hoc</STRONG> pour générer une simulation de conférences qui seront créées tout au long de l’heure. L’environnement de <STRONG>grande taille</STRONG> signifie que le scénario de conférence sera simulé. <STRONG>Externe</STRONG> signifie également simuler des utilisateurs externes.<BR>Ces boutons et cases à cocher autorisent l’accès à des valeurs propres à chaque scénario, qui modifient le comportement de l’outil de stress et de performance de Lync Server 2013 (LyncPerfTool) et permettent la personnalisation possible. Pour chaque scénario sous l’onglet <STRONG>scénarios généraux</STRONG> (à l’exception de services d’information d’emplacement), si la valeur de niveau de charge est <STRONG>personnalisé</STRONG>, le taux de conversation est calculé à l’aide du champ correspondant dans la boîte de dialogue <STRONG>avancé</STRONG> . Le nom du champ est différent selon le scénario, mais la description du champ indique le message suivant: «Remarque: ce numéro sera utilisé uniquement si personnalisé est sélectionné dans le menu déroulant.» En règle générale, les valeurs <STRONG>élevé</STRONG>, <STRONG>moyen</STRONG>et <STRONG>faible</STRONG> modifient les taux de conversation par modalité en fonction du modèle utilisateur qui est un bilan de tous les scénarios. S’il est nécessaire de modifier le niveau de charge par modalité en raison d’une différence d’utilisation prévue, nous vous recommandons d’utiliser une fréquence de conversation <STRONG>personnalisée</STRONG> .<BR>
+> Chacun des scénarios est associé à un bouton <STRONG>avancé</STRONG> qui s’affiche à côté de celui-ci, ainsi qu’un ensemble de cases à cocher permettant de définir des variations des scénarios. Moyens <STRONG>ad-hoc</STRONG> pour générer une simulation de conférences qui seront créées tout au long de l’heure. L’environnement de <STRONG>grande taille</STRONG> signifie que le scénario de conférence sera simulé. <STRONG>Externe</STRONG> signifie également simuler des utilisateurs externes.<BR>Ces boutons et cases à cocher autorisent l’accès à des valeurs propres à chaque scénario, qui modifient le comportement de l’outil de stress et de performance de Lync Server 2013 (LyncPerfTool) et permettent la personnalisation possible. Pour chaque scénario sous l’onglet <STRONG>scénarios généraux</STRONG> (à l’exception de services d’information d’emplacement), si la valeur de niveau de charge est <STRONG>personnalisé</STRONG>, le taux de conversation est calculé à l’aide du champ correspondant dans la boîte de dialogue <STRONG>avancé</STRONG> . Le nom du champ est différent selon le scénario, mais la description du champ indique le message suivant : « Remarque : ce numéro sera utilisé uniquement si personnalisé est sélectionné dans le menu déroulant. » En règle générale, les valeurs <STRONG>élevé</STRONG>, <STRONG>moyen</STRONG>et <STRONG>faible</STRONG> modifient les taux de conversation par modalité en fonction du modèle utilisateur qui est un bilan de tous les scénarios. S’il est nécessaire de modifier le niveau de charge par modalité en raison d’une différence d’utilisation prévue, nous vous recommandons d’utiliser une fréquence de conversation <STRONG>personnalisée</STRONG> .<BR>
 
 
 
@@ -142,9 +144,9 @@ L’onglet **scénarios vocaux** de l’outil de configuration de chargement de 
 
 Utilisez l’onglet **scénarios vocaux** pour configurer tous les scénarios liés à la voix.
 
-![Onglet scénarios vocaux.] (images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Onglet scénarios vocaux.")
+![Onglet scénarios vocaux.](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Onglet scénarios vocaux.")
 
-1.  Dans **VoIP**, cliquez sur le bouton **avancé** , puis spécifiez des valeurs pour les champs **PhoneAreaCode** et **LocationProfile** (plan de numérotation). Vous devez également spécifier une valeur pour le **niveau de charge**. Si le niveau de charge des passerelles **VoIP** et **RTC/PSTN** est activé, un fichier de configuration de réseau téléphonique commuté (PSTN) vers des communications unifiées (UC) est toujours généré qui simule des appels externes.
+1.  Dans **VoIP**, cliquez sur le bouton **avancé** , puis spécifiez des valeurs pour les champs **PhoneAreaCode** et **LocationProfile** (plan de numérotation). Vous devez également spécifier une valeur pour le **niveau de charge**. Si le niveau de **** charge des **passerelles VoIP et RTC/PSTN** est activé, un fichier de configuration de réseau téléphonique commuté (PSTN) vers des communications unifiées (UC) est toujours généré qui simule des appels externes.
 
 2.  Dans **passerelle UC/PSTN**, spécifiez une valeur pour niveau de charge. Si vous sélectionnez un niveau de charge différent de **désactivé**, vous devez indiquer une valeur pour le **Code de zone RTC** en cliquant sur le bouton **Ajouter** sous serveur de médiation et RTC. Vérifiez que vous disposez d’un itinéraire configuré pour ce code de zone.
     
@@ -167,7 +169,7 @@ Utilisez l’onglet **scénarios vocaux** pour configurer tous les scénarios li
 
 
 > [!NOTE]  
-> Dans chacun des scénarios, un bouton <STRONG>avancé</STRONG> est placé en regard. Ces boutons autorisent l’accès à des valeurs propres à chaque scénario, qui changeront le comportement de l’outil de stress et de performance de Lync Server 2013 (LyncPerfTool), et activez la personnalisation. Pour chaque scénario sous l’onglet <STRONG>scénarios vocaux</STRONG> , si la valeur de <STRONG>niveau de charge</STRONG> est <STRONG>personnalisée</STRONG>, le taux de conversation est calculé à l’aide du champ correspondant dans la boîte de dialogue <STRONG>avancé</STRONG> . Le nom du champ est différent selon le scénario, mais la description du champ indique le message suivant: «Remarque: ce numéro sera utilisé uniquement si personnalisé est sélectionné dans le menu déroulant.»
+> Dans chacun des scénarios, un bouton <STRONG>avancé</STRONG> est placé en regard. Ces boutons autorisent l’accès à des valeurs propres à chaque scénario, qui changeront le comportement de l’outil de stress et de performance de Lync Server 2013 (LyncPerfTool), et activez la personnalisation. Pour chaque scénario sous l’onglet <STRONG>scénarios vocaux</STRONG> , si la valeur de <STRONG>niveau de charge</STRONG> est <STRONG>personnalisée</STRONG>, le taux de conversation est calculé à l’aide du champ correspondant dans la boîte de dialogue <STRONG>avancé</STRONG> . Le nom du champ est différent selon le scénario, mais la description du champ indique le message suivant : « Remarque : ce numéro sera utilisé uniquement si personnalisé est sélectionné dans le menu déroulant. »
 
 
 
@@ -183,7 +185,7 @@ La fonction joindre est une nouvelle interface de Lync Server 2013 qui prend en 
 
 Utilisez l’onglet **joindre** pour configurer tous les scénarios liés à la portée.
 
-![Onglet joindre] (images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Onglet joindre")
+![Onglet joindre](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Onglet joindre")
 
 1.  Cliquez sur le bouton **avancé** en regard de **paramètres d’atteinte générale**. Définissez le champ **UcwaTargetServerUrl** sur l’adresse IP virtuelle du pool de réalisateurs ou le VIP du pool frontal.
 
@@ -201,7 +203,7 @@ Utilisez l’onglet **joindre** pour configurer tous les scénarios liés à la 
 
 Utilisez l’onglet **mobilité** pour configurer tous les scénarios liés à la mobilité.
 
-![Onglet mobilité.] (images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Onglet mobilité.")
+![Onglet mobilité.](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Onglet mobilité.")
 
 1.  Cliquez sur le bouton **avancé** en regard de **mobilité (UCWA)**. Définissez le champ **UcwaTargetServerUrl** sur l’adresse IP virtuelle du pool de réalisateurs ou le VIP du pool frontal.
 
@@ -225,11 +227,11 @@ Utilisez l’onglet **mobilité** pour configurer tous les scénarios liés à l
 
 L’onglet **Résumé** de l’outil de configuration de chargement de Lync Server 2013 est illustré dans la figure ci-dessous.
 
-![Onglet Résumé.] (images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Onglet Résumé.")
+![Onglet Résumé.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Onglet Résumé.")
 
-L’onglet **Résumé** indique quels utilisateurs utiliser pour chacun des scénarios. Il est possible de configurer manuellement la plage des numéros d’utilisateur en activant la case à cocher Activer la génération de plages d' **utilisateurs personnalisés** , puis en double-cliquant **** sur le scénario dans la table dont vous souhaitez personnaliser la plage d’utilisateurs. Regardez (RunClient. bat) ajoutez un délai de connexion au démarrage, afin d’inclure les retards dans les fichiers de commandes générés pour correspondre au taux de connexion. Cela peut s’avérer utile pour éviter une surcharge du serveur lors de la connexion d’un grand nombre d’utilisateurs. Cliquez sur **générer des fichiers**, puis sélectionnez le dossier dans lequel vous voulez générer la configuration. Une boîte de dialogue similaire à la figure suivante s’affichera lors de la création de vos fichiers.
+L’onglet **Résumé** indique quels utilisateurs utiliser pour chacun des scénarios. Il est possible de configurer manuellement la plage des numéros d’utilisateur en activant la case à cocher Activer la génération de plages d' **utilisateurs personnalisés** , puis en double-cliquant sur le scénario dans la table dont vous souhaitez **personnaliser la plage d’utilisateurs.** Regardez (RunClient. bat) ajoutez un délai de connexion au démarrage, afin d’inclure les retards dans les fichiers de commandes générés pour correspondre au taux de connexion. Cela peut s’avérer utile pour éviter une surcharge du serveur lors de la connexion d’un grand nombre d’utilisateurs. Cliquez sur **générer des fichiers**, puis sélectionnez le dossier dans lequel vous voulez générer la configuration. Une boîte de dialogue similaire à la figure suivante s’affichera lors de la création de vos fichiers.
 
-![Accusé de réception de la création de fichiers.] (images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Accusé de réception de la création de fichiers.")
+![Accusé de réception de la création de fichiers.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Accusé de réception de la création de fichiers.")
 
 </div>
 

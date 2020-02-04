@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Planification des conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for conferencing
 ms:assetid: 983a272a-e1b3-4d70-8f84-836b092fe526
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398781(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2aff3eef21ca150f4ad6fc9bb2358c2ac81680fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53b7813a197dd7cc3116540c605d7efbdb22a04b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824819"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824819"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-29_
+_**Dernière modification de la rubrique :** 2013-01-29_
 
-Lync Server 2013 offre de nombreuses fonctionnalités de conférence:
+Lync Server 2013 offre de nombreuses fonctionnalités de conférence :
 
   - Conférences Web, notamment la collaboration sur des documents, le partage d’application et le partage de bureau. Lync Server 2013 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu des présentations PowerPoint. Pour plus d’informations sur l’installation et la configuration d’Office Web Apps Server, reportez-vous à la rubrique [configuration de l’intégration avec Office Web Apps Server et Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
@@ -53,7 +55,7 @@ Lorsque vous déployez Lync Server 2013, serveur frontal, vous pouvez choisir de
 
 
 > [!NOTE]  
-> Si votre déploiement inclut des réunions organisées à l’aide de clients Office Communicator 2007 R2 (y compris la console Live Meeting ou le complément de conférence pour Microsoft Office Outlook), les limitations suivantes seront appliquées après leur migration vers Lync Server 2013: 
+> Si votre déploiement inclut des réunions organisées à l’aide de clients Office Communicator 2007 R2 (y compris la console Live Meeting ou le complément de conférence pour Microsoft Office Outlook), les limitations suivantes seront appliquées après leur migration vers Lync Server 2013 : 
 > <UL>
 > <LI>
 > <P>Les utilisateurs de la réunion ne seront pas en mesure d’utiliser les fonctionnalités de collaboration de données, notamment la collaboration sur des documents, le partage d’application et le partage de bureau.</P>

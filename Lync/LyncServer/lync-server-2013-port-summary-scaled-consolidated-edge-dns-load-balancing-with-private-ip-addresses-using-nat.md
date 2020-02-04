@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Résumé des enregistrements DNS - Serveur Edge conso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: a296c2af-54d4-4b4f-9795-9191baf688cb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d7e9a142e478674f4be369ace5551b2b628db83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 20071cba55551a42ea6406723bb1f9ed55853afa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824329"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824329"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-04_
+_**Dernière modification de la rubrique :** 2012-12-04_
 
 La fonctionnalité Lync Server 2013, Edge Server décrite dans cette architecture de scénario est très similaire à celle implémentée dans Lync Server 2010. Le plus notable est le port **5269 sur entrée TCP** pour le protocole XMPP (extensible Messaging and Presence Protocol). Le serveur Lync Server 2013 déploie éventuellement un proxy XMPP sur le serveur Edge ou le pool de bords et sur le serveur de passerelle XMPP sur le serveur frontal ou le pool frontal.
 
@@ -41,7 +43,7 @@ Outre IPv4, le serveur Edge prend désormais en charge le protocole IPv6. Par so
 
 **Réseau de périmètre d’entreprise pour bordure consolidée mise à l’échelle avec des adresses IP privées à l’aide de tar**
 
-![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead] (images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")
+![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")
 
 <div>
 
@@ -51,7 +53,7 @@ Il est recommandé d’ouvrir uniquement les ports requis pour la prise en charg
 
 Pour que l’accès à distance fonctionne pour tous les services Edge, il est obligatoire que le trafic SIP soit autorisé de manière bidirectionnelle, comme indiqué dans le schéma de trafic Edge entrant/sortant. Autrement dit, la messagerie SIP vers et à partir du service Edge d’accès intervient dans les fonctionnalités de messagerie instantanée, de présence, de conférence Web, audio/vidéo (A/V) et de Fédération.
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-external-interface--node-1-and-node-2-example"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle de l’équilibrage de charge DNS avec des adresses IP privées utilisant tar: interface externe-nœud 1 et nœud 2 (exemple)
+### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-external-interface--node-1-and-node-2-example"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle de l’équilibrage de charge DNS avec des adresses IP privées utilisant tar : interface externe-nœud 1 et nœud 2 (exemple)
 
 <table>
 <colgroup>
@@ -175,7 +177,7 @@ Pour que l’accès à distance fonctionne pour tous les services Edge, il est o
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-internal-interface--node-1-and-node-2-example"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle de l’équilibrage de charge DNS avec des adresses IP privées à l’aide de tar: interface interne-nœud 1 et nœud 2 (exemple)
+### <a name="firewall-summary-for-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-internal-interface--node-1-and-node-2-example"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle de l’équilibrage de charge DNS avec des adresses IP privées à l’aide de tar : interface interne-nœud 1 et nœud 2 (exemple)
 
 <table>
 <colgroup>

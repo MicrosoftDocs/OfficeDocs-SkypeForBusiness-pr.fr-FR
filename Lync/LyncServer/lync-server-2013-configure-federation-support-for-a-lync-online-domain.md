@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer la prise en charge de la Fédération pour un domaine Lync Online'
+title: 'Lync Server 2013 : configurer la prise en charge de la Fédération pour un domaine Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation support for a Lync Online domain
 ms:assetid: 19d5d5be-cd7f-47b8-b6c5-651a3191def7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202166(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d7568e3e93850301a0c37fc73ae44cf4f5a84dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f883e8d730e63788b4cbe0ccd3315f21e6fea97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838376"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838376"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Pour fédérer avec un client Microsoft Lync Online 2010, vous devez effectuer les étapes suivantes:
+Pour fédérer avec un client Microsoft Lync Online 2010, vous devez effectuer les étapes suivantes :
 
   - Configurer la prise en charge du domaine du client 2010 Lync Online (par exemple, contoso.onmicrosoft.com). Comme indiqué dans la section [Configuration requise pour la Fédération avec un client Lync Online dans Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) de cette documentation, vous devez déjà avoir activé la Fédération pour votre organisation. L’activation de la Fédération nécessite de spécifier la méthode à utiliser pour contrôler l’accès par des domaines fédérés. Si vous avez configuré votre organisation pour une utilisation de découverte, l’ajout du domaine à la liste autorisée de votre organisation est facultatif. Si vous n’avez pas activé la découverte de domaine, vous devez ajouter le nom de domaine du client Lync Online à votre liste de domaines autorisés. Vous pouvez ajouter un nom de domaine à l’aide du panneau de configuration de Lync Server ou en exécutant l’applet **de commande New-CSAllowedDomain** . Pour plus d’informations sur l’utilisation du panneau de configuration de Lync Server, y compris sur l’activation de la découverte des domaines, voir [gérer les fournisseurs fédérés SIP pour votre organisation dans Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) dans la documentation des opérations. Pour plus d’informations sur l’utilisation de l’applet de nouvelle applet de **CSAllowedDomain** pour ajouter un domaine, consultez la rubrique [New-CSAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) dans la documentation opérations.
     
@@ -63,7 +65,7 @@ Pour fédérer avec un client Microsoft Lync Online 2010, vous devez effectuer l
 
 ## <a name="to-configure-support-for-a-hosting-provider"></a>Pour configurer la prise en charge d’un fournisseur d’hébergement
 
-1.  À partir d’un serveur frontal, démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  À partir d’un serveur frontal, démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de nouvelle applet de **CsHostingProvider** pour créer et configurer le fournisseur d’hébergement. Par exemple, exécutez :
     

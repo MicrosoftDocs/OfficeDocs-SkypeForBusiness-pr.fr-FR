@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer une gamme de stationnement d’appel'
+title: 'Lync Server 2013 : supprimer une gamme de stationnement d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a Call Park orbit range
 ms:assetid: 85e9f916-062d-450d-ac0a-aeaefc0f7cdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182546(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69144e6552f9c3688c904c8522689abc8da7add2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934559f1b67c1325684ee5b477be18ed112224df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831659"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831659"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Utilisez l’une des procédures suivantes pour supprimer une gamme de stationnement d’appel.
 
@@ -61,7 +63,7 @@ Utilisez l’une des procédures suivantes pour supprimer une gamme de stationne
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Dans la ligne de commande, tapez :
     

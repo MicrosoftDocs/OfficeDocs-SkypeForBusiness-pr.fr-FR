@@ -3,6 +3,8 @@ title: Résumé des ports - Serveur Edge unique consolidé avec adresses IP priv
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b7c908d52577375f9caaab974f059ffda17fb35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a425a07bf5ff615fb4766d50f21c6467512d110e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824357"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824357"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-04-03_
+_**Dernière modification de la rubrique :** 2013-04-03_
 
 La fonctionnalité Lync Server 2013, Edge Server décrite dans cette architecture de scénario est très similaire à celle implémentée dans Lync Server 2010. Le plus notable est le port **5269 sur entrée TCP** pour le protocole XMPP (extensible Messaging and Presence Protocol). Le serveur Lync Server 2013 déploie éventuellement un proxy XMPP sur le serveur Edge ou le pool de bords et sur le serveur de passerelle XMPP sur le serveur frontal ou le pool frontal.
 
@@ -41,7 +43,7 @@ Outre IPv4, le serveur Edge prend désormais en charge le protocole IPv6. Par so
 
 **Périmètre réseau d’un serveur Edge consolidé unique avec adresse IP privée utilisant tar**
 
-![f8c144c5-e5fb-498a-823e-eb39f26b6847] (images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
+![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
 
 <div>
 
@@ -51,7 +53,7 @@ Nous vous recommandons d’ouvrir uniquement les ports requis pour la prise en c
 
 Pour que l’accès à distance fonctionne pour tous les services Edge, il est obligatoire que le trafic SIP soit autorisé de manière bidirectionnelle, comme indiqué dans le schéma de trafic Edge entrant/sortant. Autrement dit, la messagerie SIP vers et à partir du service Edge d’accès intervient dans la messagerie instantanée, la présence, les conférences Web, les appels audio/vidéo (A/V) et la Fédération.
 
-### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-external-interface"></a>Résumé du pare-feu pour une périphérie unique consolidée avec des adresses IP privées utilisant tar: interface externe
+### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-external-interface"></a>Résumé du pare-feu pour une périphérie unique consolidée avec des adresses IP privées utilisant tar : interface externe
 
 <table>
 <colgroup>
@@ -169,7 +171,7 @@ Pour que l’accès à distance fonctionne pour tous les services Edge, il est o
 </table>
 
 
-### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-internal-interface"></a>Résumé du pare-feu pour une périphérie unique consolidée avec des adresses IP privées utilisant tar: interface interne
+### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-internal-interface"></a>Résumé du pare-feu pour une périphérie unique consolidée avec des adresses IP privées utilisant tar : interface interne
 
 <table>
 <colgroup>

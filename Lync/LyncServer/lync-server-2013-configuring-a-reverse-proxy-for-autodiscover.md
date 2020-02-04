@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’un proxy inverse pour la découverte automatique'
+title: 'Lync Server 2013 : configuration d’un proxy inverse pour la découverte automatique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a reverse proxy for Autodiscover
 ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a02bf765941c7240f08fecc91d5912f31a0f2f87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838301"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-12_
+_**Dernière modification de la rubrique :** 2012-12-12_
 
 La découverte automatique et la prise en charge des clients à l’aide de la découverte automatique nécessitent la modification d’une règle de publication Web existante ou la création d’une nouvelle règle de publication Web pour le proxy inverse. La modification ou la création d’une nouvelle règle de publication ne dépend pas de la décision de mettre à jour ou de ne pas mettre à jour les listes de noms secondaires d’objet sur les certificats de proxy inverse.
 
@@ -83,7 +85,7 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
 
 8.  Dans la page Détails de la **publication interne** , dans **Path (facultatif)**, tapez ** / ** le chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine**.
 
-9.  Dans la page **Détails du nom public** , procédez comme suit:
+9.  Dans la page **Détails du nom public** , procédez comme suit :
     
       - Sous **accepter les demandes pour**, sélectionnez **ce nom de domaine**.
     
@@ -91,7 +93,7 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
     
       - Dans **path**, tapez ** / **.
 
-10. Dans la page **Sélectionner** un écouteur Web, dans **écouteur Web**, sélectionnez votre écouteur SSL existant avec le certificat public mis à jour.
+10. Dans la page **Sélectionner un écouteur** Web, dans **écouteur Web**, sélectionnez votre écouteur SSL existant avec le certificat public mis à jour.
 
 11. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, mais le client pourra s’authentifier directement**.
 
@@ -101,13 +103,13 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
 
 14. Dans la liste de règles de publication Web de Forefront TMG, double-cliquez sur la nouvelle règle que vous venez d’ajouter pour ouvrir les **Propriétés**.
 
-15. Dans l’onglet **à** , procédez comme suit:
+15. Dans l’onglet **à** , procédez comme suit :
     
       - Sélectionnez **transférer l’en-tête d’hôte d’origine au lieu du premier**.
     
       - **Les demandes de sélection semblent provenir de l’ordinateur Forefront TMG**.
 
-16. Dans l’onglet **pontage** , configurez les éléments suivants:
+16. Dans l’onglet **pontage** , configurez les éléments suivants :
     
       - Sélectionnez **serveur Web**.
     
@@ -142,9 +144,9 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
 
 3.  Dans l’onglet **nom du public** , dans **cette règle**, sélectionnez **demandes pour les sites Web suivants**.
 
-4.  Cliquez sur **Ajouter**, tapez le nom du nouveau site de découverte automatique (par exemple, «lyncdiscover.contoso.com»), puis cliquez sur **OK**.
+4.  Cliquez sur **Ajouter**, tapez le nom du nouveau site de découverte automatique (par exemple, « lyncdiscover.contoso.com »), puis cliquez sur **OK**.
 
-5.  Dans l' **** onglet écouteur, cliquez sur **Sélectionner un certificat** et attribuez le nouveau certificat aux entrées du réseau de découverte automatique ajoutées. Fermez les propriétés Listener et de publication Web.
+5.  Dans l’onglet **écouteur** , cliquez sur **Sélectionner un certificat** et attribuez le nouveau certificat aux entrées du réseau de découverte automatique ajoutées. Fermez les propriétés Listener et de publication Web.
 
 6.  Cliquez sur **appliquer** dans le volet Détails pour enregistrer les modifications et mettre à jour la configuration.
 
@@ -170,9 +172,9 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
 
 7.  Dans la page Détails de la **publication interne** , dans **nom du site interne**, tapez le nom de domaine complet des services Web interne pour votre pool frontal (par exemple, lyncpool01. contoso. local).
 
-8.  Dans la page Détails de la **publication interne** , dans **Path (facultatif)**, tapez ** / ** le chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine au lieu de celle spécifiée dans le champ nom du site interne. **.
+8.  Dans la page Détails de la **publication interne** , dans **Path (facultatif)**, tapez ** / ** le chemin d’accès du dossier à publier, puis sélectionnez **transférer l’en-tête d’hôte d’origine au lieu de celui spécifié dans le champ nom du site interne**.
 
-9.  Dans la page **Détails du nom public** , procédez comme suit:
+9.  Dans la page **Détails du nom public** , procédez comme suit :
     
       - Sous **accepter les demandes pour**, sélectionnez **ce nom de domaine**.
     
@@ -180,7 +182,7 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
     
       - Dans **path**, tapez ** / **.
 
-10. Dans la page **Sélectionner** un écouteur Web, dans **écouteur Web**, sélectionnez un écouteur Web ou utilisez l’Assistant Nouvelle définition de l’écouteur Web pour en créer un autre.
+10. Dans la page **Sélectionner un écouteur** Web, dans **écouteur Web**, sélectionnez un écouteur Web ou utilisez l’Assistant Nouvelle définition de l’écouteur Web pour en créer un autre.
 
 11. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, et le client ne peut pas s’authentifier directement**.
 
@@ -190,13 +192,13 @@ Les procédures décrites dans cette section expliquent comment créer ou modifi
 
 14. Dans la liste de règles de publication Web de Forefront TMG, double-cliquez sur la nouvelle règle que vous venez d’ajouter pour ouvrir les **Propriétés**.
 
-15. Dans l’onglet **pontage** , configurez les éléments suivants:
+15. Dans l’onglet **pontage** , configurez les éléments suivants :
     
       - Sélectionnez **serveur Web**.
     
       - Sélectionnez **Rediriger les demandes vers le port http**et tapez **8080** pour le numéro de port.
     
-      - Vérifiez que l’option rediriger les **demandes vers le port SSL** n’est pas sélectionnée.
+      - Vérifiez que l’option **Rediriger les demandes vers le port SSL** n’est pas sélectionnée.
 
 16. Cliquez sur **OK**.
 

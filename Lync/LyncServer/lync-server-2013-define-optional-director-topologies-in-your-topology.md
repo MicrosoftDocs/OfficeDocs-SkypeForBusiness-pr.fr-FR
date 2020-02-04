@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition des topologies facultatives de directeur 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define optional Director topologies in your topology
 ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398717(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 524259226b44d68367b631c2b7cef5513e0770e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86f3c78730e8c866e3838f22a1267a57bb3d237b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831716"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34831716"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Les directeurs Lync Server 2013 peuvent être des serveurs à instance unique qui peuvent être installés en tant que pool équilibré en charge de plusieurs directeurs pour une disponibilité et une capacité plus élevées. L’équilibrage de charge matérielle et l’équilibrage de charge DNS (Domain Name System) sont pris en charge. Cet article explique comment configurer l’équilibrage de charge DNS pour les pools de directeurs.
 
 Pour réussir la publication, l’activation ou la désactivation d’une topologie lors de l’ajout ou de la suppression d’un rôle serveur, vous devez être connecté en tant qu’utilisateur membre des groupes **RTCUniversalServerAdmins** et **Admins du domaine** . Vous pouvez également déléguer les droits d’administrateur et les autorisations appropriés pour ajouter des rôles de serveur. Pour plus d’informations, reportez-vous à la section [délégation des autorisations de configuration dans Lync server 2013](lync-server-2013-delegate-setup-permissions.md) dans la documentation de déploiement Standard Edition Server ou Enterprise Edition Server. Pour les autres modifications de configuration, seule l’appartenance au groupe **RTCUniversalServerAdmins** est requise.
 
-Cette rubrique décrit les étapes permettant de définir et de publier la topologie pour les deux topologies de Director:
+Cette rubrique décrit les étapes permettant de définir et de publier la topologie pour les deux topologies de Director :
 
   - Pour définir le directeur (instance unique)
 
@@ -49,21 +51,21 @@ Cette rubrique décrit les étapes permettant de définir et de publier la topol
 
 ## <a name="to-define-the-director-single-instance"></a>Pour définir le directeur (instance unique)
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans la page Bienvenue, cliquez sur **Télécharger la topologie à partir du déploiement existant**.
 
 3.  Dans la boîte de dialogue **enregistrer la topologie en tant que** , entrez le nom et l’emplacement de la copie locale de la topologie existante, puis cliquez sur **Enregistrer**.
 
-4.  Développez le site dans lequel vous envisagez d’ajouter le directeur, **** cliquez avec le bouton droit sur pools de réalisateurs, puis cliquez sur **nouvelle liste de répertoires**.
+4.  Développez le site dans lequel vous envisagez d’ajouter le directeur, cliquez avec le bouton droit sur **pools de réalisateurs**, puis cliquez sur **nouvelle liste de répertoires**.
 
-5.  Dans la boîte de dialogue **définir le nom de domaine complet du pool** de répertoires, procédez comme suit:
+5.  Dans la boîte de dialogue **définir le nom de domaine complet du pool de répertoires** , procédez comme suit :
     
       - Dans **nom de domaine complet (FQDN**) du pool, tapez le nom de domaine complet (FQDN) du pool
     
       - Cliquez sur **pool d’ordinateurs unique**, puis sur **suivant**.
 
-6.  Dans la boîte de dialogue **définir le partage de fichiers** , effectuez l’une des opérations suivantes:
+6.  Dans la boîte de dialogue **définir le partage de fichiers** , effectuez l’une des opérations suivantes :
     
     1.  Pour utiliser un partage de fichier existant, cliquez sur **utiliser un partage de fichiers déjà défini**, sélectionnez un partage de fichiers dans la liste, puis cliquez sur **suivant**.
     
@@ -106,27 +108,27 @@ Cette rubrique décrit les étapes permettant de définir et de publier la topol
 
 ## <a name="to-define-the-director-multiple-director-pool"></a>Pour définir le directeur (pool de directeurs multiples)
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans la page Bienvenue, cliquez sur **Télécharger la topologie à partir du déploiement existant**.
 
 3.  Dans la boîte de dialogue **enregistrer la topologie en tant que** , entrez le nom et l’emplacement de la copie locale de la topologie existante, puis cliquez sur **Enregistrer**.
 
-4.  Développez le site dans lequel vous envisagez d’ajouter le directeur, **** cliquez avec le bouton droit sur pools de réalisateurs, puis cliquez sur **nouvelle liste de répertoires**.
+4.  Développez le site dans lequel vous envisagez d’ajouter le directeur, cliquez avec le bouton droit sur **pools de réalisateurs**, puis cliquez sur **nouvelle liste de répertoires**.
 
-5.  Dans la boîte de dialogue **définir le nom de domaine complet du pool** de répertoires, procédez comme suit:
+5.  Dans la boîte de dialogue **définir le nom de domaine complet du pool de répertoires** , procédez comme suit :
     
       - Dans **nom de domaine complet (FQDN**) du pool, tapez le nom de domaine complet (FQDN) du pool
     
       - Cliquez sur **plusieurs pools d’ordinateurs**, puis cliquez sur **suivant**.
 
-6.  Dans la boîte de dialogue **définir les ordinateurs dans cette liste** , procédez comme suit:
+6.  Dans la boîte de dialogue **définir les ordinateurs dans cette liste** , procédez comme suit :
     
       - Spécifiez le nom de domaine complet du premier membre de la liste, puis cliquez sur **Ajouter**.
     
       - Répétez l’étape précédente pour chaque ordinateur que vous voulez ajouter. Lorsque vous avez terminé, cliquez sur **suivant**.
 
-7.  Dans la boîte de dialogue **définir le partage de fichiers** , effectuez l’une des opérations suivantes:
+7.  Dans la boîte de dialogue **définir le partage de fichiers** , effectuez l’une des opérations suivantes :
     
       - Pour utiliser un partage de fichier existant, cliquez sur **utiliser un partage de fichiers déjà défini**, sélectionnez un partage de fichiers dans la liste, puis cliquez sur **suivant**.
     

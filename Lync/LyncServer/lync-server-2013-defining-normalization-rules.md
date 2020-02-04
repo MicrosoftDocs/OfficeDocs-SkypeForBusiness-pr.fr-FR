@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de règles de normalisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining normalization rules
 ms:assetid: ed31d56c-00b5-4f72-bd9f-beb4100d441f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9406e4fa7445242ae3f112ebfb772713d9d2219c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b75883d99d218d711e9d96de7ebfd7d360972a6a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831703"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831703"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-04-22_
+_**Dernière modification de la rubrique :** 2014-04-22_
 
 Les règles de normalisation de Lync Server 2013 utilisent des expressions régulières du .NET Framework pour convertir les numéros de téléphone numérotés au format E. 164. en d’autres termes, les règles de normalisation emportent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Lync Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
 
 Pour plus d’informations sur les règles de normalisation, voir [plans de numérotation et règles de normalisation dans Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) dans la documentation de planification.
 
-Pour plus d’informations sur la façon d’écrire des expressions régulières, voir «expressions [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)régulières .NET Framework» à l’adresse.
+Pour plus d’informations sur la façon d’écrire des expressions régulières, voir « expressions [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)régulières .NET Framework » à l’adresse.
 
-Pour définir ou modifier une règle de normalisation, vous pouvez utiliser l’une des méthodes suivantes:
+Pour définir ou modifier une règle de normalisation, vous pouvez utiliser l’une des méthodes suivantes :
 
   - Utiliser l’outil **créer une règle de normalisation** pour spécifier des valeurs pour les chiffres de début, la longueur, les chiffres à supprimer et les chiffres à ajouter, puis laisser le panneau de configuration de Lync Server générer le modèle correspondant et la règle de traduction correspondants.
 

@@ -3,6 +3,8 @@ title: Prise en charge des certificats comportant des caractères génériques L
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Wildcard certificate support
 ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202161(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9422c3bebbb5fb32be88cfe5c41968207bbed2ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8a3e64dcfd16212e618a8ebe152bd2516a25b26d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846194"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846194"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-21_
+_**Dernière modification de la rubrique :** 2013-03-21_
 
 Lync Server 2013 utilise des certificats pour le chiffrement des communications et l’authentification par identité du serveur. Dans certains cas, par exemple, la publication sur le Web par le biais du proxy inverse, l’entrée de nouveau nom de l’élément de nom de domaine complet (FQDN) du serveur qui présente le service n’est pas requise. Dans ces cas, vous pouvez utiliser des certificats à l’aide d’entrées génériques pour réduire le coût d’un certificat demandé auprès d’une autorité de certification publique et réduire la complexité du processus de planification des certificats. .
 
@@ -47,7 +49,7 @@ Lync Server 2013 utilise des certificats pour le chiffrement des communications 
 
 </div>
 
-Il n’y a pas de prise en charge d’une entrée de caractère générique comme nom de sujet (également appelé nom commun ou NC) pour n’importe quel rôle. Les rôles de serveur suivants sont pris en charge lorsque vous utilisez des entrées de caractères génériques dans le SAN:
+Il n’y a pas de prise en charge d’une entrée de caractère générique comme nom de sujet (également appelé nom commun ou NC) pour n’importe quel rôle. Les rôles de serveur suivants sont pris en charge lorsque vous utilisez des entrées de caractères génériques dans le SAN :
 
   - <span></span>  
     **Proxy inverse.**    L’entrée San générique est prise en charge pour les certificats de publication d’URL simples (de conférence et de numérotation).
@@ -70,7 +72,7 @@ Il n’y a pas de prise en charge d’une entrée de caractère générique comm
   - <span></span>  
     **Exchange Unified Messaging (MU) et serveur d’accès au client Exchange Server sur le même serveur.**    Les entrées génériques du San sont prises en charge.
 
-Rôles de serveur non mentionnés dans cette rubrique:
+Rôles de serveur non mentionnés dans cette rubrique :
 
   - Rôles de serveur internes (y compris, mais sans s’y limiter, le serveur de médiation, l’archivage et la surveillance du serveur, de l’unité de branchement survivant ou du serveur de succursales survivant)
 
@@ -87,7 +89,7 @@ Rôles de serveur non mentionnés dans cette rubrique:
     
     </div>
 
-Pour plus d’informations sur les configurations de certificats, y compris l’utilisation de caractères génériques dans les certificats, voir les rubriques suivantes:
+Pour plus d’informations sur les configurations de certificats, y compris l’utilisation de caractères génériques dans les certificats, voir les rubriques suivantes :
 
   - [Exigences de certificat pour les serveurs internes dans Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)
 

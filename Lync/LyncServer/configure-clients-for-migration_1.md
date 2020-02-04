@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure clients for migration
 ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 710a5cf6cb23b91431b340c44ebe6ff2738b0822
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 84205c75da4c52aa6c90f3a501c74dd849933d9f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233067"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36233067"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-21_
+_**Dernière modification de la rubrique :** 2013-11-21_
 
 Cette rubrique contient les étapes de déploiement de client recommandées avant de procéder à la migration vers Lync Server 2013. Ces modifications de configuration doivent être apportées à Office Communications Server 2007 R2. Il est très important que vous effectuiez ces étapes avant de procéder à la migration. Pour plus d’informations, reportez-vous à la section [planification des clients et des appareils dans Lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
 
@@ -42,7 +44,7 @@ Cette rubrique contient les étapes de déploiement de client recommandées avan
 
 ## <a name="to-configure-clients-prior-to-migration"></a>Pour configurer des clients avant la migration
 
-1.  Déployez les mises à jour les plus récentes du serveur Office Communications Server 2007 R2, des clients et des appareils (HotFix):
+1.  Déployez les mises à jour les plus récentes du serveur Office Communications Server 2007 R2, des clients et des appareils (HotFix) :
     
       - [Appliquer des mises à jour d’Office Communications Server 2007 R2](apply-office-communications-server-2007-r2-updates.md)
     
@@ -72,17 +74,17 @@ Cette rubrique contient les étapes de déploiement de client recommandées avan
     <tr class="odd">
     <td><p>Lync 2013</p></td>
     <td><p>OC</p></td>
-    <td><p>15.**.. *</p></td>
+    <td><p>15.*..* *</p></td>
     </tr>
     <tr class="even">
     <td><p>Lync Web App</p></td>
     <td><p>CWA</p></td>
-    <td><p>5.**.. *</p></td>
+    <td><p>5.*..* *</p></td>
     </tr>
     <tr class="odd">
     <td><p>Lync Phone Edition</p></td>
     <td><p>OCPhone</p></td>
-    <td><p>4.**.. *</p></td>
+    <td><p>4.*..* *</p></td>
     </tr>
     </tbody>
     </table>

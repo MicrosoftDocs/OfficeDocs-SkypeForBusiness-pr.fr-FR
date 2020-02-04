@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification de sites réseau'
+title: 'Lync Server 2013 : création ou modification de sites réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying network sites
 ms:assetid: 358aa08a-c5bc-45fc-8017-19e6202f88c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520975(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bb09dfcd490d47de1bbfbbde48f538e95fc64cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4c77c343bff92e25ffc1678bc06e7a0ef05d3f96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831760"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-08_
+_**Dernière modification de la rubrique :** 2012-10-08_
 
 Les sites réseau sont les bureaux ou les emplacements configurés dans chaque région d’un contrôle d’admission des appels (CAC) ou un déploiement 9-1-1 amélioré. Vous pouvez utiliser le panneau de configuration Microsoft Lync Server 2013 pour configurer les sites et les associer à des régions. Par exemple, une région réseau pour l’Amérique du Nord peut être associée à des sites réseaux tels que Chicago, Redmond et Vancouver. Un site réseau CAC doit être créé pour chaque site au sein d’une organisation, même si ce site n’a pas de limitations de bande passante. Le panneau de configuration de Lync Server vous permet de créer, de modifier et de supprimer des sites réseau. Pour créer ou modifier un site réseau, procédez comme suit. Pour plus d’informations sur la suppression d’un site réseau existant, reportez-vous à [la rubrique Suppression d’un site réseau existant dans Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md).
 
@@ -113,7 +115,7 @@ Les sites réseau sont les bureaux ou les emplacements configurés dans chaque r
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **modifier le site** , vous pouvez modifier la description, la région, le profil de la stratégie de bande passante et la stratégie d’emplacement associées au site. Pour plus d’informations, consultez la section «pour créer un site réseau» plus haut dans cette rubrique.
+6.  Dans la page **modifier le site** , vous pouvez modifier la description, la région, le profil de la stratégie de bande passante et la stratégie d’emplacement associées au site. Pour plus d’informations, consultez la section « pour créer un site réseau » plus haut dans cette rubrique.
 
 7.  Cliquez sur **Valider**.
 

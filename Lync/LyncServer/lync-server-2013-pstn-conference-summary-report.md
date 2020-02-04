@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de synthèse des conférences RTC'
+title: 'Lync Server 2013 : rapport de synthèse des conférences RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN Conference Summary Report
 ms:assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b98628ea56fb36ec594e5ea4ff9915e9785b3cfa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823804"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823804"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Dans Microsoft Lync Server 2013, une conférence RTC est une conférence dans laquelle au moins un participant compose un numéro de téléphone à l’aide d’un téléphone RTC (réseau téléphonique commuté). (Un téléphone RTC est un téléphone mobile, un téléphone mobile ou un autre téléphone qui n’utilise pas le protocole voix sur IP.) Même s’il est appelé conférences RTC dans les rapports de surveillance, ces conférences peuvent être plus fréquemment appelées conférences rendez-vous.
 
@@ -53,7 +55,7 @@ Le rapport de synthèse de conférence RTC est accessible uniquement à partir d
 
 Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs rendez-vous, comparez la valeur de la métrique du total des conférences RTC avec la mesure du total des conférences trouvées dans le [rapport récapitulatif de la Conférence dans Lync Server 2013](lync-server-2013-conference-summary-report.md).
 
-Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez rapidement vérifier les stratégies de conférence (le cas échéant) permettre aux utilisateurs de planifier des conférences RTC en exécutant la commande suivante à partir de Lync Server Management Shell:
+Si les conférences RTC que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence affectée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences RTC, vous verrez peu de conférences RTC. Vous pouvez rapidement vérifier les stratégies de conférence (le cas échéant) permettre aux utilisateurs de planifier des conférences RTC en exécutant la commande suivante à partir de Lync Server Management Shell :
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 

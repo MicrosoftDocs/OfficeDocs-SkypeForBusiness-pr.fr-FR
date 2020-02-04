@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: préparation de la restauration de Lync Server'
+title: 'Lync Server 2013 : préparation de la restauration de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing to restore Lync Server
 ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202179(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a470a338d05436be942201e6df6a864f955ac87c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823755"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823755"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Avant de procéder à la restauration de serveurs et de bases de données après un échec, vous devez déterminer les éléments suivants:
+Avant de procéder à la restauration de serveurs et de bases de données après un échec, vous devez déterminer les éléments suivants :
 
   - Ce qui doit être restauré.
 
@@ -57,7 +59,7 @@ Cette rubrique décrit la restauration des pannes du serveur Lync qui se produis
 <thead>
 <tr class="header">
 <th>Si ce n’est pas le cas</th>
-<th>Consultez cette section:</th>
+<th>Consultez cette section :</th>
 </tr>
 </thead>
 <tbody>
@@ -111,7 +113,7 @@ Cette rubrique décrit la restauration des pannes du serveur Lync qui se produis
 
 ## <a name="gathering-hardware-software-and-tools"></a>Rassemblement de matériel, de logiciels et d’outils
 
-Lorsque vous restaurez un serveur, vous devez commencer avec un nouvel ordinateur ou nettoyer. Par ailleurs, vous devez disposer des éléments matériels et logiciels suivants:
+Lorsque vous restaurez un serveur, vous devez commencer avec un nouvel ordinateur ou nettoyer. Par ailleurs, vous devez disposer des éléments matériels et logiciels suivants :
 
   - Serveur propre ou nouveau avec le même nom de domaine complet (FQDN) que le serveur qui a échoué.
     
@@ -150,7 +152,7 @@ Lorsque vous restaurez un serveur, vous devez commencer avec un nouvel ordinateu
 
   - Programme d’installation de Lync Server 2013. L’Assistant Déploiement de Lync Server se trouve dans le dossier d’installation ou le média \\de\\Lync\\Server lors de l’installation de l’application. exe.
 
-Lors de la restauration, vous devez utiliser les outils suivants:
+Lors de la restauration, vous devez utiliser les outils suivants :
 
   - Cmdlets Lync Server Management Shell
 
@@ -168,13 +170,13 @@ Lors de la restauration, vous devez utiliser les outils suivants:
 
 ## <a name="preparing-to-restore-a-server"></a>Préparation de la restauration d’un serveur
 
-Avant de restaurer le serveur, vous devez effectuer les étapes suivantes:
+Avant de restaurer le serveur, vous devez effectuer les étapes suivantes :
 
 1.  Installez le système d’exploitation.
 
 2.  S’il s’agit d’un serveur principal, installez SQL Server 2012 ou SQL Server 2008 R2.
 
-3.  Restaurez ou réinscrivez vos certificats. Pour plus d’informations sur les certificats, voir «exigences de sauvegarde supplémentaires» dans [les exigences de sauvegarde et de restauration dans Lync Server 2013: données](lync-server-2013-backup-and-restoration-requirements-data.md).
+3.  Restaurez ou réinscrivez vos certificats. Pour plus d’informations sur les certificats, voir « exigences de sauvegarde supplémentaires » dans [les exigences de sauvegarde et de restauration dans Lync Server 2013 : données](lync-server-2013-backup-and-restoration-requirements-data.md).
 
 4.  Prenez une photo du système avant de commencer la restauration à utiliser comme point de restauration, en cas de problème de restauration.
 
@@ -190,7 +192,7 @@ Avant de restaurer le serveur, vous devez effectuer les étapes suivantes:
 
 Vérifiez que le matériel et le logiciel dont vous avez besoin pour les composants que vous envisagez de restaurer sont disponibles avant de commencer la restauration. Après avoir installé le système d’exploitation et SQL Server, la plupart des étapes de la procédure de restauration suivantes peuvent être exécutées à distance. Les exceptions sont indiquées dans les procédures.
 
-Pour plus d’informations, reportez-vous au plan de sauvegarde et de restauration de votre organisation ainsi qu’aux informations de votre dernière sauvegarde, telles que les informations figurant dans les feuilles de calcul de ce document (pour plus d’informations, reportez-vous à la rubrique [sauvegarde et restauration de feuilles de calcul pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)). disponible avant de commencer la restauration.
+Pour plus d’informations, reportez-vous au plan de sauvegarde et de restauration de votre organisation ainsi qu’aux informations de votre dernière sauvegarde, telles que les informations figurant dans les feuilles de calcul de ce document (pour plus d’informations, reportez-vous à la rubrique [sauvegarde et restauration de feuilles de calcul pour Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), disponible avant de procéder à la restauration.
 
 </div>
 

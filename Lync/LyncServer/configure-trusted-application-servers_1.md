@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 47a9e72e-566c-4c23-bec2-760a3098a974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204865(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28002e8bb060e9ac966121a419d8475b4828258
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92e7f2c808e9ea5a3e8dfbf3010715c86e02596e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233165"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36233165"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Dans un environnement mixte, si vous créez un nouveau serveur d’applications de confiance après la fusion de la topologie Office Communications Server héritée avec Lync Server 2013 et que vous définissez un nouveau serveur d’applications de confiance à l’aide du générateur de topologie, vous devez définir le pool de sauts suivant comme étant Pool Lync Server 2013. Dans un environnement fusionné, le pool Office Communications Server hérité et le pool Lync Server 2013 apparaissent dans la liste déroulante. La sélection du pool hérité n’est *pas* prise en charge.
 
@@ -52,7 +54,7 @@ Dans un environnement mixte, si vous créez un nouveau serveur d’applications 
 
 5.  Dans la page **Sélectionner le tronçon suivant** , dans la liste, sélectionnez le pool frontal de Lync Server 2013.
     
-    ![Boîte de dialogue définir un nouveau pool d’applications de confiance] (images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "Boîte de dialogue définir un nouveau pool d’applications de confiance")  
+    ![Boîte de dialogue définir un nouveau pool d’applications de confiance](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "Boîte de dialogue définir un nouveau pool d’applications de confiance")  
 
 6.  Cliquez sur **Terminer**.
 

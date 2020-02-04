@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632eed40992bfcff53072d618313afe3501431be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e1aa407fbb1d7d8a006698d30545165352386b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233231"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,9 +36,9 @@ ms.locfileid: "36233231"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-09-17_
+_**Dernière modification de la rubrique :** 2015-09-17_
 
-**Résumé:** Cette rubrique décrit comment configurer l’utilisation du client pour les utilisateurs de clients Skype entreprise dans un environnement Lync Server 2013. Vous pouvez configurer l’interface client uniquement si vous exécutez Lync Server 2013 avec la mise à jour cumulative 2014 de décembre (5.0.8308.857) ou une version ultérieure. Pour plus d’informations sur la mise à jour de Lync Server 2013, voir [mises à jour de Lync server 2013](http://go.microsoft.com/fwlink/p/?linkid=532651).
+**Résumé :** Cette rubrique décrit comment configurer l’utilisation du client pour les utilisateurs de clients Skype entreprise dans un environnement Lync Server 2013. Vous pouvez configurer l’interface client uniquement si vous exécutez Lync Server 2013 avec la mise à jour cumulative 2014 de décembre (5.0.8308.857) ou une version ultérieure. Pour plus d’informations sur la mise à jour de Lync Server 2013, voir [mises à jour de Lync server 2013](http://go.microsoft.com/fwlink/p/?linkid=532651).
 
 Skype entreprise fournit une nouvelle interface utilisateur qui repose sur l’utilisation des produits Skype. Outre l’ensemble des fonctionnalités de Lync, Skype entreprise fournit de nouvelles fonctionnalités avec des contrôles simplifiés et des icônes familières. Pour plus d’informations sur la nouvelle interface client, voir [Lync devient Skype entreprise--](http://go.microsoft.com/fwlink/?linkid=529022)nouveautés.
 
@@ -56,7 +58,7 @@ Lync Server 2013 prend en charge la nouvelle interface client Skype entreprise, 
 
 
 > [!NOTE]  
-> L’interface du client 2013 de Lync n’est pas disponible pour les versions clientes de Skype entreprise 2016. Avant de configurer votre environnement client pour qu’il utilise le client 2013 Lync, vérifiez la version du client pour vous assurer qu’il ne commence pas par le numéro 16; par exemple: 16. x.x.x.
+> L’interface du client 2013 de Lync n’est pas disponible pour les versions clientes de Skype entreprise 2016. Avant de configurer votre environnement client pour qu’il utilise le client 2013 Lync, vérifiez la version du client pour vous assurer qu’il ne commence pas par le numéro 16 ; par exemple : 16. x.x.x.
 
 
 
@@ -66,21 +68,21 @@ Lync Server 2013 prend en charge la nouvelle interface client Skype entreprise, 
 
 ## <a name="configure-the-client-experience"></a>Configure the client experience
 
-Vous pouvez spécifier l’utilisation du client que les utilisateurs de votre organisation verront à l’aide de l’applet de passe **Set-CSClientPolicy** avec le paramètre EnableSkypeUI. La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs de votre organisation concernés par la politique globale (n’oubliez pas que les stratégies de site ou d’utilisateur remplacent la stratégie globale):
+Vous pouvez spécifier l’utilisation du client que les utilisateurs de votre organisation verront à l’aide de l’applet de passe **Set-CSClientPolicy** avec le paramètre EnableSkypeUI. La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs de votre organisation concernés par la politique globale (n’oubliez pas que les stratégies de site ou d’utilisateur remplacent la stratégie globale) :
 
     Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 
-La commande suivante sélectionne l’interface du client Lync pour tous les utilisateurs de votre organisation concernés par la stratégie globale:
+La commande suivante sélectionne l’interface du client Lync pour tous les utilisateurs de votre organisation concernés par la stratégie globale :
 
     Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 
-La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs du site de Redmond:
+La commande suivante sélectionne l’interface client Skype entreprise pour tous les utilisateurs du site de Redmond :
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-Si vous voulez configurer l’utilisation du client pour des utilisateurs spécifiques au sein de votre organisation, vous pouvez créer une nouvelle stratégie d’utilisateur à l’aide de l’applet **de nouvelle** applet de CsClientPolicy, puis affecter la stratégie à des utilisateurs spécifiques à l’aide de l’applet de passe **CsClientPolicy** applet.
+Si vous voulez configurer l’utilisation du client pour des utilisateurs spécifiques au sein de votre organisation, vous pouvez créer une stratégie d’utilisateur à l’aide de l’applet **de nouvelle applet de nouvelle-CsClientPolicy** , puis affecter la stratégie à des utilisateurs spécifiques à l’aide de l’applet de passe **Grant-CsClientPolicy** .
 
-Par exemple, la commande suivante crée une nouvelle stratégie client, SalesClientUI, qui sélectionne l’interface du client Skype entreprise:
+Par exemple, la commande suivante crée une nouvelle stratégie client, SalesClientUI, qui sélectionne l’interface du client Skype entreprise :
 
     New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 
@@ -170,12 +172,12 @@ Si votre organisation utilise à la fois Skype entreprise Server Server 2015 et 
 <tr class="odd">
 <td><p>Skype Entreprise Server 2015</p></td>
 <td><p>Par défaut</p></td>
-<td><p>Skype Entreprise</p></td>
+<td><p>Skype Entreprise</p></td>
 </tr>
 <tr class="even">
 <td><p>Skype Entreprise Server 2015</p></td>
-<td><p>True</p></td>
-<td><p>Skype Entreprise</p></td>
+<td><p>Vrai</p></td>
+<td><p>Skype Entreprise</p></td>
 </tr>
 <tr class="odd">
 <td><p>Skype Entreprise Server 2015</p></td>
@@ -189,8 +191,8 @@ Si votre organisation utilise à la fois Skype entreprise Server Server 2015 et 
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)</p></td>
-<td><p>True</p></td>
-<td><p>Skype Entreprise</p></td>
+<td><p>Vrai</p></td>
+<td><p>Skype Entreprise</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)</p></td>
@@ -206,7 +208,7 @@ Si votre organisation utilise à la fois Skype entreprise Server Server 2015 et 
 </table>
 
 
-Le tableau suivant indique l’environnement client lorsque l’administrateur modifie le paramètre initial de l’interface utilisateur de Skype:
+Le tableau suivant indique l’environnement client lorsque l’administrateur modifie le paramètre initial de l’interface utilisateur de Skype :
 
 
 <table>
@@ -227,9 +229,9 @@ Le tableau suivant indique l’environnement client lorsque l’administrateur m
 <tbody>
 <tr class="odd">
 <td><p>Skype Entreprise Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
 <td><p>Utilisateur invité à basculer sur Skype entreprise</p></td>
-<td><p>Skype Entreprise</p></td>
+<td><p>Skype Entreprise</p></td>
 </tr>
 <tr class="even">
 <td><p>Skype Entreprise Server 2015</p></td>
@@ -239,9 +241,9 @@ Le tableau suivant indique l’environnement client lorsque l’administrateur m
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
 <td><p>Utilisateur invité à basculer sur Skype entreprise</p></td>
-<td><p>Skype Entreprise</p></td>
+<td><p>Skype Entreprise</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010 ou Lync Server 2013 (avec les correctifs appropriés)</p></td>
@@ -259,7 +261,7 @@ Le tableau suivant indique l’environnement client lorsque l’administrateur m
 </table>
 
 
-Les versions de correctif requises pour gérer la configuration du client Skype entreprise sont les suivantes:
+Les versions de correctif requises pour gérer la configuration du client Skype entreprise sont les suivantes :
 
   - Mise à jour cumulative de Lync Server 2010-février 2015 (4.0.7577.710) pour Lync Server 2010. Pour plus d’informations, voir [mises à jour pour Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=532771)
 

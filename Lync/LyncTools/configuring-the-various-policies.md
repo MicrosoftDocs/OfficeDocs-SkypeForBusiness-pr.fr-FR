@@ -3,6 +3,8 @@ title: Configuration de diverses stratégies
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6316a1027de963cefea6c0c76051f09cb5d33538
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839051"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-24_
+_**Dernière modification de la rubrique :** 2013-02-24_
 
 <div>
 
@@ -53,7 +55,7 @@ Consultez l’exemple de script ArchivingPolicy. ps1. Vous devez utiliser ce scr
 
 ## <a name="configuring-the-conferencing-policy"></a>Configuration de la stratégie de conférence
 
-Consultez l’exemple de script MeetingPolicy. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les applets de connexion [Web dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).
+Consultez l’exemple de script MeetingPolicy. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les [applets de connexion Web dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).
 
 </div>
 
@@ -69,7 +71,7 @@ Consultez l’exemple ContactsPolicy. ps1. Pour plus d’informations, reportez-
 
 ## <a name="configuring-the-federation-policy"></a>Configuration de la stratégie de Fédération
 
-Consultez l’exemple FederationPolicy. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide sur les applets de connexion [dans Lync server 2013](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) et les applets de connexion [et accès externe dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).
+Consultez l’exemple FederationPolicy. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide sur les applets de connexion [dans Lync server 2013](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) et les [applets de connexion et accès externe dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).
 
 </div>
 
@@ -77,7 +79,7 @@ Consultez l’exemple FederationPolicy. ps1. Pour plus d’informations, reporte
 
 ## <a name="configuring-the-call-admission-control-policy"></a>Configuration de la stratégie de contrôle d’admission des appels
 
-Consultez l’exemple BandwidthPolicy. ps1. Pour plus d’informations, reportez-vous à la vue d’ensemble de la documentation Lync Server 2013 [du contrôle d’admission des appels dans Lync server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) et l’aide de l’applet de commande pour les applets de [commande d’admission des appels dans Lync 2013 Server](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\))
+Consultez l’exemple BandwidthPolicy. ps1. Pour plus d’informations, reportez-vous à la vue d’ensemble de la documentation Lync Server 2013 [du contrôle d’admission des appels dans Lync server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) et l’aide de l’applet de commande pour les [applets de commande d’admission des appels dans Lync 2013 Server](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\))
 
 </div>
 
@@ -85,9 +87,9 @@ Consultez l’exemple BandwidthPolicy. ps1. Pour plus d’informations, reportez
 
 ## <a name="configuring-the-voice-routing-rules"></a>Configuration des règles de routage de la voix
 
-Consultez l’exemple RoutingRules. ps1. Lorsque vous configurez les règles de routage vocal, prenez note du contexte du téléphone (c’est-à-dire, du profil/location ou/SimpleName) et des indicatifs de zone externes/externes pour pouvoir les spécifier lors de la création d’utilisateurs et de la configuration d’LyncPerfTool (en particulier pour RTC et UC-RTC). Par exemple, le paramètre SimpleName dans l’appel à l’applet de commande **New-CsDialPlan** dans l’exemple RoutingRules. ps1 doit être utilisé pour la valeur LocationProfile dans l’illustration suivante de UserProfileGenerator. exe.
+Consultez l’exemple RoutingRules. ps1. Lorsque vous configurez les règles de routage de la voix, prenez note du contexte du téléphone (c’est-à-dire, du profil/location ou/SimpleName) et des indicatifs de zone externes/externes pour pouvoir les spécifier lors de la création d’utilisateurs et au cours de la configuration d’LyncPerfTool (en particulier pour PSTN-UC et Cu-RTC). Par exemple, le paramètre SimpleName dans l’appel à l’applet de commande **New-CsDialPlan** dans l’exemple RoutingRules. ps1 doit être utilisé pour la valeur LocationProfile dans l’illustration suivante de UserProfileGenerator. exe.
 
-![Exemple de règle de routage vocal.] (images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Exemple de règle de routage vocal.")
+![Exemple de règle de routage vocal.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Exemple de règle de routage vocal.")
 
 Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les [applets de connexion voix entreprise dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\))
 
@@ -99,9 +101,9 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server 201
 
 Consultez l’exemple ConferenceAutoAttendantConfiguration. ps1. Prenez note du numéro de téléphone ConferencingAutoAttendant (1121111111, par défaut), afin de pouvoir le taper dans l’outil de configuration des outils LyncPerf pour la génération de configuration.
 
-![Configuration de l’application de surveillance des conférences] (images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Configuration de l’application de surveillance des conférences")
+![Configuration de l’application de surveillance des conférences](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Configuration de l’application de surveillance des conférences")
 
-Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les applets de connexion [Web dans Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) et les [applets de service de conférence rendez-vous dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\))
+Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les [applets de connexion Web dans Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) et les [applets de service de conférence rendez-vous dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\))
 
 </div>
 
@@ -109,7 +111,7 @@ Pour plus d’informations, reportez-vous à la documentation de Lync Server 201
 
 ## <a name="configuring-lync-server-call-park-service"></a>Configuration du service de parc d’appels Lync Server
 
-Le parc d’appels est désactivé par défaut. Consultez l’exemple CallParkConfiguration. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les applets de connexion de l' [application Park dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\))
+Le parc d’appels est désactivé par défaut. Consultez l’exemple CallParkConfiguration. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les [applets de connexion de l’application Park dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\))
 
 </div>
 
@@ -119,7 +121,7 @@ Le parc d’appels est désactivé par défaut. Consultez l’exemple CallParkCo
 
 Suivez les étapes ci-dessous pour configurer le test de stress et de performance des appels d’urgence.
 
-1.  Configurez une gamme vocale pour les appels d’urgence. Voir le script RoutingRules. ps1 sous le commentaire «route de E911 vers PSTN» pour obtenir un exemple de configuration de ce routage.
+1.  Configurez une gamme vocale pour les appels d’urgence. Voir le script RoutingRules. ps1 sous le commentaire « route de E911 vers PSTN » pour obtenir un exemple de configuration de ce routage.
     
     <div>
     
@@ -132,7 +134,7 @@ Suivez les étapes ci-dessous pour configurer le test de stress et de performanc
 
 2.  Configurez les adresses en remplissant les valeurs sous l’onglet **lis** dans UserProvisioningTool, comme illustré dans la figure ci-dessous.
     
-    ![Configuration du service d’information d’emplacement.] (images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Configuration du service d’information d’emplacement.")  
+    ![Configuration du service d’information d’emplacement.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Configuration du service d’information d’emplacement.")  
 
 3.  Cliquez sur **générer les fichiers de configuration de lis**.
 
@@ -152,9 +154,9 @@ Vous devez créer tous vos utilisateurs avant d’exécuter les scripts suivants
 
 ## <a name="configuring-response-group-application"></a>Configuration de l’application Response Group
 
-Consultez l’exemple ResponseGroupConfiguration. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les applets de [demande de groupe de réponse dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)) Pour passer en revue la configuration de l’application `https://<poolfqdn>/RgsConfig/`Response Group, voir, comme illustré dans la figure ci-dessous.
+Consultez l’exemple ResponseGroupConfiguration. ps1. Pour plus d’informations, reportez-vous à la documentation de Lync Server 2013 et à l’aide de l’applet de cmdlet pour les [applets de demande de groupe de réponse dans Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)) Pour passer en revue la configuration de l’application `https://<poolfqdn>/RgsConfig/`Response Group, voir, comme illustré dans la figure ci-dessous.
 
-![Outil de configuration de Response Group.] (images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "Outil de configuration de Response Group.")
+![Outil de configuration de Response Group.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "Outil de configuration de Response Group.")
 
 </div>
 

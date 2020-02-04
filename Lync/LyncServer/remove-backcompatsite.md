@@ -3,6 +3,8 @@ title: Supprimer BackCompatSite
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove BackCompatSite
 ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6a3d1dc92e45bc99892e7827394376b6f28b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846060"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846060"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Une fois que tous les pools ont été désactivés et que tous les serveurs Edge ont été désinstallés, exécutez l’Assistant Fusion du générateur de topologie pour supprimer **BackCompatSite**.
 
@@ -43,13 +45,13 @@ Une fois que tous les pools ont été désactivés et que tous les serveurs Edge
 
 1.  Ouvrez un déploiement existant à partir du générateur de topologie.
 
-2.  Dans le menu **action** , cliquez sur fusionner la **topologie 2007 R2**.
+2.  Dans le menu **action** , cliquez sur **fusionner la topologie 2007 R2**.
 
 3.  Cliquez sur **Suivant** pour continuer.
 
 4.  Dans la page **spécifier le bord hérité** , assurez-vous que la liste des serveurs Edge est vide. S’il ne s’agit pas de la liste, appuyez sur le bouton **supprimer** pour supprimer tous les serveurs de périphérie hérités, puis cliquez sur **suivant**.
     
-    ![Assistant Fusion-topologie-définir la page de configuration du bord] (images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistant Fusion-topologie-définir la page de configuration du bord")  
+    ![Assistant Fusion-topologie-définir la page de configuration du bord](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistant Fusion-topologie-définir la page de configuration du bord")  
 
 5.  Dans la page **Specify Internal SIP port Setting** , cliquez sur **Next (suivant**).
 

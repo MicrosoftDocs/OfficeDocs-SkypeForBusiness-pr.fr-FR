@@ -3,6 +3,8 @@ title: Planification pour les conversations SIP, XMPP et la messagerie instantan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for SIP, XMPP federation, and public instant messaging
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204825(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88aa8c6f3f2f11b303a7e25eed96d5f0d7243cb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 994a1395363c28976c8bbfe325edae99e97cdc48
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824147"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34824147"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-28_
+_**Dernière modification de la rubrique :** 2013-10-28_
 
-Les serveurs Edge peuvent être configurés pour autoriser vos utilisateurs internes et externes à accéder à des contacts au niveau des organisations ou services partenaires. Les fédérations, au fur et à mesure qu’elles sont connues, peuvent fournir tout ou partie des éléments suivants aux contacts de votre organisation dans le cadre de la Fédération de partenaire ou des contacts de la Fédération du partenaire au vôtre:
+Les serveurs Edge peuvent être configurés pour autoriser vos utilisateurs internes et externes à accéder à des contacts au niveau des organisations ou services partenaires. Les fédérations, au fur et à mesure qu’elles sont connues, peuvent fournir tout ou partie des éléments suivants aux contacts de votre organisation dans le cadre de la Fédération de partenaire ou des contacts de la Fédération du partenaire au vôtre :
 
   - Messagerie instantanée et présence
 
-  - Collaboration et conférences, par exemple: conférences Web
+  - Collaboration et conférences, par exemple : conférences Web
 
   - Audioconférence, visioconférence ou les deux
 
-Dans certains cas, la communication, par exemple, la messagerie instantanée et la présence d’un contact Microsoft Lync Server 2013 et d’un protocole de messagerie extensible (XMPP), est pair à pair uniquement: vous ne pouvez prendre en charge que vous et le contact fédéré. partenaire. Dans d’autres cas, comme un serveur Lync, Lync Server 2010 vers Lync Server 2013 Federation, plusieurs participants peuvent être invités à rejoindre la conversation.
+Dans certains cas, la communication, par exemple, la messagerie instantanée et la présence d’un contact Microsoft Lync Server 2013 et d’un protocole de messagerie extensible (XMPP), est pair à pair uniquement : vous ne pouvez prendre en charge que vous et le contact fédéré. partenaire. Dans d’autres cas, comme un serveur Lync, Lync Server 2010 vers Lync Server 2013 Federation, plusieurs participants peuvent être invités à rejoindre la conversation.
 
 <div>
 
@@ -51,7 +53,7 @@ Dans certains cas, la communication, par exemple, la messagerie instantanée et 
 
 La Fédération entre Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server prend en charge les communications d’égal à égal et à plusieurs parties. Les conversations d’égal à égal peuvent être transmises à des conversations à plusieurs participants, ce qui permet de participer à des réunions ad hoc. Réunions (conférences Web ou conférences audiovisuelles) il est possible d’inclure les contacts au sein de votre organisation ainsi que les contacts des partenaires avec lesquels vous vous fédérer.
 
-La Fédération s’est d’abord affichée dans Microsoft Office Live Communications Server 2005 et prend en charge un type de Fédération unique. La Fédération directe nécessite que vous connaissiez le domaine SIP (Session Initiation Protocol) du partenaire de Fédération ainsi que le nom de domaine complet (FQDN) du serveur Edge du partenaire. Live Communications Server 2005 avec SP1 a introduit des types de Fédération supplémentaires, tous les enregistrements SRV du système de noms de domaine (DNS) requis pour la publication du serveur Edge. La terminologie de cette version était la suivante:
+La Fédération s’est d’abord affichée dans Microsoft Office Live Communications Server 2005 et prend en charge un type de Fédération unique. La Fédération directe nécessite que vous connaissiez le domaine SIP (Session Initiation Protocol) du partenaire de Fédération ainsi que le nom de domaine complet (FQDN) du serveur Edge du partenaire. Live Communications Server 2005 avec SP1 a introduit des types de Fédération supplémentaires, tous les enregistrements SRV du système de noms de domaine (DNS) requis pour la publication du serveur Edge. La terminologie de cette version était la suivante :
 
   - *Ouvrir la Fédération avancée*: accepter un nom de domaine SIP et utiliser DNS SRV pour localiser le serveur Edge du partenaire
 
@@ -61,7 +63,7 @@ La Fédération s’est d’abord affichée dans Microsoft Office Live Communica
 
   - *Liste verte du serveur*: accepter les domaines, utiliser DNS SRV pour trouver le serveur de périphérie d’un fournisseur d’hébergement ou un fournisseur de connectivité de messagerie instantanée publique
 
-Microsoft Office Communications Server 2007 a introduit un nom mis à jour pour les types de Fédération pour mieux définir ce que chaque type de Fédération a réellement accompli:
+Microsoft Office Communications Server 2007 a introduit un nom mis à jour pour les types de Fédération pour mieux définir ce que chaque type de Fédération a réellement accompli :
 
   - Ouvrir la Fédération avancée a été connu sous le nom de *domaine partenaire détecté*
 
@@ -73,14 +75,14 @@ Microsoft Office Communications Server 2007 a introduit un nom mis à jour pour 
 
 Microsoft Lync Server 2010 a introduit une définition plus restreinte du fournisseur d’hébergement conformément à Microsoft Lync Online 2010 et Microsoft Office 365, et il a également été soumis à la même liste autorisée définie par le type de Fédération de domaine autorisé.
 
-L’activation de la Fédération entre Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server fait appel aux serveurs Edge et aux proxys inverses pour appliquer les règles et domaines de partenaires autorisés que vous définissez. Du point de vue de la planification, la Fédération avec un autre serveur Lync Server et Office Communications Server nécessite les éléments suivants:
+L’activation de la Fédération entre Microsoft Lync Server 2013, Lync Server 2010 et Office Communications Server fait appel aux serveurs Edge et aux proxys inverses pour appliquer les règles et domaines de partenaires autorisés que vous définissez. Du point de vue de la planification, la Fédération avec un autre serveur Lync Server et Office Communications Server nécessite les éléments suivants :
 
   - Activez la Fédération dans le générateur de topologie. Pour plus d’informations, reportez-vous à la rubrique déploiement Configuration de la Fédération [SIP, de la Fédération XMPP et de la messagerie instantanée publique dans Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
 
-  - Déterminez la configuration requise pour la découverte de domaines fédérés:
+  - Déterminez la configuration requise pour la découverte de domaines fédérés :
     
       - <span></span>  
-        Pour la configuration manuelle de la Fédération, vous devez disposer du nom de domaine complet (FQDN) du serveur Edge du partenaire et du nom de domaine ou du nom de domaine en ligne, qui est entré dans le panneau de configuration de Lync Server, la **Fédération et l’accès externe**, **SIP Domaines fédérés**. Créez une **** stratégie ou **Modifiez** une stratégie existante pour autoriser ou bloquer des domaines en utilisant un nom de domaine complet.
+        Pour la configuration manuelle de la Fédération, vous devez disposer du nom de domaine complet (FQDN) du serveur Edge du partenaire et du nom de domaine ou du nom de domaine en ligne, qui est entré dans le panneau de configuration de Lync Server, la **Fédération et l’accès externe**, les **domaines fédérés SIP**. Créez une stratégie ou **Modifiez** une stratégie existante pour autoriser ou bloquer des domaines en **utilisant un nom** de domaine complet.
         
         <div>
         
@@ -101,20 +103,20 @@ L’activation de la Fédération entre Microsoft Lync Server 2013, Lync Server 
         </div>
     
       - <span></span>  
-        Pour la Fédération de partenaires découverte, où les partenaires peuvent découvrir votre serveur Edge, vous devez créer un enregistrement SRV dans \_votre DNS externe-sipfederationtls. \_TCP.contoso.com: qui pointe vers le port 5061 et l’hôte (A) du serveur de périphérie
+        Pour la Fédération de partenaires découverte, où les partenaires peuvent découvrir votre serveur Edge, vous devez créer un enregistrement SRV dans \_votre DNS externe-sipfederationtls. \_TCP.contoso.com : qui pointe vers le port 5061 et l’hôte (A) du serveur de périphérie
         
         <div>
         
 
         > [!IMPORTANT]
-        > Si vous prenez en charge des clients mobiles Microsoft Lync sur un appareil Windows Phone ou un Apple iPhone, iPad ou d’autres appareils Apple et que vous utilisez le service de notifications de transmission ou le service de notifications d’émission, vous devez planifier _sipfederationtls. _ TCP. &lt;Enregistrements SRV&gt; du domaine SIP pour chaque domaine SIP que vous avez des clients mobiles Lync. Android et Nokia Symbian Lync mobile n’utilisent pas de notifications de transmission et ne sont pas soumis à cette obligation.
+        > Si vous prenez en charge des clients mobiles Microsoft Lync sur un appareil Windows Phone ou un Apple iPhone, iPad ou d’autres appareils Apple et que vous utilisez le service de notifications de transmission ou le service de notifications de transmission, vous devez planifier _sipfederationtls. _tcp. &lt;Enregistrements SRV&gt; du domaine SIP pour chaque domaine SIP que vous avez des clients mobiles Lync. Android et Nokia Symbian Lync mobile n’utilisent pas de notifications de transmission et ne sont pas soumis à cette obligation.
 
         
         </div>
 
   - Configurer des stratégies d’accès des utilisateurs externes pour prendre en charge des domaines fédérés
 
-  - Ouvrez les ports de pare-feu pour le protocole SIP (Session Initiation Protocol), la conférence Web et l’audio/visuel pour accepter la ou les personnes que vous activez. Pour plus d’informations, reportez-vous à: [identification des exigences de port et de pare-feu externes pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - Ouvrez les ports de pare-feu pour le protocole SIP (Session Initiation Protocol), la conférence Web et l’audio/visuel pour accepter la ou les personnes que vous activez. Pour plus d’informations, reportez-vous à : [identification des exigences de port et de pare-feu externes pour Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
 Les informations suivantes vous permettront de définir le certificat, le port/protocole et les exigences DNS pour la Fédération avec Microsoft Lync Server 2013 et Lync Server 2010.
 
@@ -138,11 +140,11 @@ Les exigences en matière de certificats sont généralement satisfaites par le 
 
 ## <a name="public-instant-messaging-connectivity"></a>Connectivité de messagerie instantanée publique
 
-La connectivité de messagerie instantanée publique est une classe de Fédération et est configurée pour permettre à vos utilisateurs de Lync Server 2013 internes et externes d’ajouter des contacts à partir de l’un des éléments suivants:
+La connectivité de messagerie instantanée publique est une classe de Fédération et est configurée pour permettre à vos utilisateurs de Lync Server 2013 internes et externes d’ajouter des contacts à partir de l’un des éléments suivants :
 
   - Contacts Messenger
 
-  - Yahoo!\! contacts
+  - Yahoo !\! contacts
 
   - Contacts AOL (America Online)
 
@@ -152,9 +154,9 @@ La connectivité de messagerie instantanée publique est une classe de Fédérat
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre 2012, la licence de l’abonnement à l’utilisateur de la connectivité PIC (Public IM Connectivity) de Microsoft Lync n’est plus disponible pour l’achat de contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service (la date exacte doit toujours être décidée, mais pas avant le 2013 juin).</P>
+> <P>À compter du 1er septembre 2012, la licence de l’abonnement à l’utilisateur de la connectivité PIC (Public IM Connectivity) de Microsoft Lync n’est plus disponible pour l’achat de contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service (la date exacte doit toujours être décidée, mais pas avant le 2013 juin).</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par utilisateur et par mois requise pour la Fédération de Lync Server ou d’Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, qui n’est pas renouvelé.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par utilisateur et par mois requise pour la Fédération de Lync Server ou d’Office Communications Server avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, qui n’est pas renouvelé.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste, ce qui permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes par messagerie instantanée et vocale.</P></LI></UL>
 
@@ -162,7 +164,7 @@ La connectivité de messagerie instantanée publique est une classe de Fédérat
 
 </div>
 
-Cette classe de Fédération exige les considérations en matière de planification suivantes:
+Cette classe de Fédération exige les considérations en matière de planification suivantes :
 
   - Les utilisateurs de Windows Live Messenger peuvent utiliser la communication audio et vidéo d’égal à égal avec les utilisateurs de Lync Server 2013, en plus de la messagerie instantanée. Vos serveurs Edge doivent répondre à des exigences de port et de protocole spécifiques. Pour plus d’informations, reportez-vous à [la rubrique déterminer la configuration requise 2013 pour le pare-feu A](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
@@ -176,9 +178,9 @@ Cette classe de Fédération exige les considérations en matière de planificat
 
 ## <a name="extensible-messaging-and-presence-protocol-xmpp-federation"></a>Fédération des protocoles de messagerie extensible et de présence
 
-Les versions précédentes de Lync Server et d’Office Communications Server ont fourni une passerelle XMPP (extensible Messaging and Presence Protocol) qui pouvait être déployée en tant que rôle de serveur distinct pour permettre la Fédération avec des déploiements de XMPP. Dans Microsoft Lync Server 2013, la fonctionnalité XMPP peut être déployée en tant que fonctionnalité. La fonctionnalité XMPP est installée en deux parties: un proxy XMPP qui s’exécute sur le serveur Edge et la passerelle XMPP qui s’exécute sur les serveurs frontaux.
+Les versions précédentes de Lync Server et d’Office Communications Server ont fourni une passerelle XMPP (extensible Messaging and Presence Protocol) qui pouvait être déployée en tant que rôle de serveur distinct pour permettre la Fédération avec des déploiements de XMPP. Dans Microsoft Lync Server 2013, la fonctionnalité XMPP peut être déployée en tant que fonctionnalité. La fonctionnalité XMPP est installée en deux parties : un proxy XMPP qui s’exécute sur le serveur Edge et la passerelle XMPP qui s’exécute sur les serveurs frontaux.
 
-Le déploiement et la configuration de XMPP sont abordés dans le déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) que vous envisagez de prendre en charge XMPP au sein de votre organisation en définissant des règles de port et de protocole sur votre pare-feu, la configuration des certificats et l’ajout de DNS registres. Les rubriques suivantes de cette section résument les informations dont vous avez besoin pour planifier la Fédération XMPP pour votre déploiement.
+Le déploiement et la configuration de XMPP sont abordés dans le déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) , vous envisagez de prendre en charge XMPP au sein de votre organisation en définissant des règles de port et de protocole sur votre pare-feu, la configuration des certificats et l’ajout d’enregistrements DNS. Les rubriques suivantes de cette section résument les informations dont vous avez besoin pour planifier la Fédération XMPP pour votre déploiement.
 
 <div>
 

@@ -3,6 +3,8 @@ title: Migration de Lync Server 2010 vers Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration from Lync Server 2010 to Lync Server 2013
 ms:assetid: ef99d4a9-a666-4a92-9994-4d7930f70d55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4be42da09e14f91d82310258c728de4ed7976be2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c32d2679d4f31863e389735efb6660ea670b959
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846150"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-17_
+_**Dernière modification de la rubrique :** 2012-09-17_
 
 Les rubriques de cette section vous guident dans le processus de migration de Lync Server 2010 vers Lync Server 2013.
 
@@ -75,15 +77,15 @@ Ce document définit les termes indiqués dans la liste suivante.
 
   - [Avant de commencer la migration](before-you-begin-the-migration.md)
 
-  - [Étape 1: planifier la migration à partir de Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
+  - [Étape 1 : planifier la migration à partir de Lync Server 2010](phase-1-plan-your-migration-from-lync-server-2010.md)
 
   - [Étape 2 : Préparer la migration](phase-2-prepare-for-migration.md)
 
-  - [Étape 3: déployer le pool de pilotes de Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
+  - [Étape 3 : déployer le pool de pilotes de Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
-  - [Étape 4: déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md)
+  - [Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes](phase-4-move-test-users-to-the-pilot-pool.md)
 
-  - [Étape 5: ajouter le serveur Edge Lync Server 2013 au pool de pilotes](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [Étape 5 : ajouter le serveur Edge Lync Server 2013 au pool de pilotes](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
   - [Phase 6 : Transition d’un déploiement pilote vers un environnement de production](phase-6-move-from-pilot-deployment-into-production.md)
 

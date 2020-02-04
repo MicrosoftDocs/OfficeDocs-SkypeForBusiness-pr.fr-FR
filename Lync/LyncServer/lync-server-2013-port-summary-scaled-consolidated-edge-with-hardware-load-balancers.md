@@ -3,6 +3,8 @@ title: Résumé des ports - Serveur Edge consolidé mis à l’échelle avec des
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398739(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60250db155922999ce677248a41c3f4158aba466
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6260a4ad7f2717e0b4eb2446fc5b17671c3e45a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824343"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-04-27_
+_**Dernière modification de la rubrique :** 2015-04-27_
 
 La fonctionnalité Lync Server 2013, Edge Server décrite dans cette architecture de scénario est très similaire à celle implémentée dans Lync Server 2010. Le plus notable est le port **5269 sur entrée TCP** pour le protocole XMPP (extensible Messaging and Presence Protocol). Le serveur Lync Server 2013 déploie éventuellement un proxy XMPP sur le serveur Edge ou le pool de bords et sur le serveur de passerelle XMPP sur le serveur frontal ou le pool frontal.
 
@@ -41,7 +43,7 @@ Outre IPv4, le serveur Edge prend désormais en charge le protocole IPv6. Par so
 
 **Contour consolidé mis à l’échelle à l’aide de l’équilibrage de charge matérielle**
 
-![Ports et protocoles du réseau de périmètre du serveur Edge] (images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Ports et protocoles du réseau de périmètre du serveur Edge")
+![Ports et protocoles du réseau de périmètre du serveur Edge](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Ports et protocoles du réseau de périmètre du serveur Edge")
 
 <div>
 
@@ -51,7 +53,7 @@ Il est recommandé d’ouvrir uniquement les ports requis pour la prise en charg
 
 Pour que l’accès à distance fonctionne pour tous les services Edge, il est obligatoire que le trafic SIP soit autorisé de manière bidirectionnelle, comme indiqué dans le schéma de trafic Edge entrant/sortant. Autrement dit, la messagerie SIP vers et à partir du service Edge d’accès intervient dans les fonctionnalités de messagerie instantanée, de présence, de conférence Web, audio/vidéo (A/V) et de Fédération.
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-external-interface--node-1-and-node-2-example"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle: équilibrage de charge matérielle: interface externe-nœud 1 et nœud 2 (exemple)
+### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-external-interface--node-1-and-node-2-example"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle : équilibrage de charge matérielle : interface externe-nœud 1 et nœud 2 (exemple)
 
 <table>
 <colgroup>
@@ -139,7 +141,7 @@ Pour que l’accès à distance fonctionne pour tous les services Edge, il est o
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-node-1-and-node-2"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle: charge matérielle
+### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-node-1-and-node-2"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle : charge matérielle
 
 <table>
 <colgroup>
@@ -211,11 +213,11 @@ Pour que l’accès à distance fonctionne pour tous les services Edge, il est o
 
 Les équilibreurs de charge matérielle nécessitent des exigences spécifiques pour assurer la disponibilité et l’équilibrage de charge de Lync Server. La configuration requise est définie dans les tableaux et figures suivants. Les fournisseurs tiers pourront utiliser une terminologie différente pour les exigences définies ici. Il est nécessaire de mapper les exigences de Lync Server aux options et aux options de configuration fournies par le fournisseur du programme d’équilibrage de la charge matérielle.
 
-Lorsque vous configurez des équilibreurs de charge matérielle, prenez en compte les éléments suivants:
+Lorsque vous configurez des équilibreurs de charge matérielle, prenez en compte les éléments suivants :
 
   - La traduction d’adresses réseau source (SNAT) peut être configurée sur l’équilibrage de charge matérielle (HLB) pour le service Edge d’accès et le service Edge de conférence Web.
 
-  - Les données SNAT ne peuvent pas être configurées sur le service Edge A/V: le service Edge A/V doit répondre avec l’adresse réelle du serveur (et non l’adresse IP virtuelle HLB) pour une traversée simple du protocole UDP sur NAT (STUN)/Traversal à l’aide d’un NAT relais (FDÉSACTIVEZ) pour fonctionner correctement
+  - Les données SNAT ne peuvent pas être configurées sur le service Edge A/V : le service Edge A/V doit répondre avec l’adresse réelle du serveur (et non l’adresse IP virtuelle HLB) pour une traversée simple du protocole UDP sur NAT (STUN)/Traversal à l’aide d’un NAT relais (FDÉSACTIVEZ) pour fonctionner correctement
     
       - Si le client envoie une demande à l’HLB, la réponse doit être retirée du VIP HLB
     
@@ -225,7 +227,7 @@ Lorsque vous configurez des équilibreurs de charge matérielle, prenez en compt
 
   - Pour le service Edge d’accès et le service Edge de conférence Web (et l’utilisation de la traduction d’adresses réseau sur le HLB), le client contacte l’adresse VIP, l’adresse VIP remplace l’adresse IP source du client par sa propre adresse IP. L’interface du serveur adresse l’adresse d’expéditeur au VIP, l’adresse VIP modifie l’adresse source à partir de l’adresse IP de l’interface du serveur et envoie le paquet au client.
 
-  - Pour le service Edge A/V, l’adresse VIP ne doit pas modifier l’adresse IP source, et l’adresse réelle du serveur est directement renvoyée au client: vous ne pouvez pas configurer le NAT sur le HLB pour le trafic AV
+  - Pour le service Edge A/V, l’adresse VIP ne doit pas modifier l’adresse IP source, et l’adresse réelle du serveur est directement renvoyée au client : vous ne pouvez pas configurer le NAT sur le HLB pour le trafic AV
     
       - Si le client envoie une demande à l’adresse VIP de HLB, la réponse doit être retirée du VIP HLB
     
@@ -249,9 +251,9 @@ Lorsque vous configurez des équilibreurs de charge matérielle, prenez en compt
 
 </div>
 
-![Détails sur les ports et protocoles du serveur Edge] (images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "Détails sur les ports et protocoles du serveur Edge")
+![Détails des protocoles et des ports du serveur Edge](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "Détails des protocoles et des ports du serveur Edge")
 
-### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>Paramètres de port externe requis pour les bords consolidés mis à l’échelle, équilibrage de charge matérielle: IPs virtuel d’interface externe
+### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>Paramètres de port externe requis pour les bords consolidés mis à l’échelle, équilibrage de charge matérielle : IPs virtuel d’interface externe
 
 <table>
 <colgroup>
@@ -321,7 +323,7 @@ Lorsque vous configurez des équilibreurs de charge matérielle, prenez en compt
 </table>
 
 
-### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-virtual-ips"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle, équilibrage de charge matérielle: IPs virtuel d’interface
+### <a name="firewall-summary-for-scaled-consolidated-edge-hardware-load-balanced-internal-interface-virtual-ips"></a>Résumé du pare-feu pour les bords consolidés mis à l’échelle, équilibrage de charge matérielle : IPs virtuel d’interface
 
 <table>
 <colgroup>

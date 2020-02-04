@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use a user identity and the tag scope
 ms:assetid: 344a21b0-5301-4e77-853a-970bb1c11e1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362781(v=OCS.15)
@@ -11,23 +13,23 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31f6b76b6c63b39bf22f456260f084736d481513
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24c197934705a86d91e0492949aa2a9e6484f903
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233126"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727564"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>Cmdlets dans Skype entreprise Online utilisant une identité d’utilisateur et une étendue de balises
 
  
 
 
-Les applets de demande d' **autorisation-CS** (utilisées pour attribuer des stratégies aux utilisateurs) nécessitent deux identificateurs: une identité d’utilisateur (le paramètre Identity) et l’identité d’une stratégie par utilisateur (paramètre PolicyName). Par exemple, pour affecter la stratégie vocale, RedmondVoicePolicy, à l’utilisateur Ken Myer, utilisez la commande suivante:
+Les applets de demande d' **autorisation-CS** (utilisées pour attribuer des stratégies aux utilisateurs) nécessitent deux identificateurs : une identité d’utilisateur (le paramètre Identity) et l’identité d’une stratégie par utilisateur (paramètre PolicyName). Par exemple, pour affecter la stratégie vocale, RedmondVoicePolicy, à l’utilisateur Ken Myer, utilisez la commande suivante :
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-Il existe deux éléments à garder à l’esprit lors de l’attribution de stratégies aux utilisateurs. Tout d’abord, seules les stratégies par utilisateur peuvent être affectées. Vous ne pouvez pas attribuer de stratégie globale à un utilisateur. Par exemple, la commande suivante échoue:
+Il existe deux éléments à garder à l’esprit lors de l’attribution de stratégies aux utilisateurs. Tout d’abord, seules les stratégies par utilisateur peuvent être affectées. Vous ne pouvez pas attribuer de stratégie globale à un utilisateur. Par exemple, la commande suivante échoue :
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "global"
 
@@ -35,20 +37,20 @@ Cette commande échoue, car il n’est pas nécessaire d’affecter la stratégi
 
 
 > [!NOTE]  
-> Que se passe-t-il si une stratégie par utilisateur a déjà été affectée à l’utilisateur et que vous souhaitez annuler l’affectation de cette stratégie et l’utilisateur est-il géré à la place par la politique globale? Dans ce cas, vous devez commencer par utiliser la syntaxe suivante, qui annule l’affectation d’une stratégie par utilisateur en attribuant une stratégie null à l’utilisateur:<BR>Grant-CsVoicePolicy-Identity "Ken Myer"-PolicyName $Null
+> Que se passe-t-il si une stratégie par utilisateur a déjà été affectée à l’utilisateur et que vous souhaitez annuler l’affectation de cette stratégie et l’utilisateur est-il géré à la place par la politique globale ? Dans ce cas, vous devez commencer par utiliser la syntaxe suivante, qui annule l’affectation d’une stratégie par utilisateur en attribuant une stratégie null à l’utilisateur :<BR>Grant-CsVoicePolicy-Identity "Ken Myer"-PolicyName $Null
 
 
 
-Deuxièmement, gardez à l’esprit que les stratégies par utilisateur sont créées à l’étendue de la balise. Toutefois, vous pouvez omettre le **préfixe** d’indicateur lorsque vous spécifiez le nom d’une stratégie. Ces deux commandes sont identiques:
+Deuxièmement, gardez à l’esprit que les stratégies par utilisateur sont créées à l’étendue de la balise. Toutefois, vous pouvez omettre le **préfixe** d’indicateur lorsque vous spécifiez le nom d’une stratégie. Ces deux commandes sont identiques :
 
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "tag:RedmondVoicePolicy"
     Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-Si vous souhaitez renvoyer les identités pour toutes les stratégies par utilisateur (ou, au moins, toutes les stratégies par utilisateur de type spécifié, par exemple les stratégies vocales), utilisez une commande similaire à celle-ci:
+Si vous souhaitez renvoyer les identités pour toutes les stratégies par utilisateur (ou, au moins, toutes les stratégies par utilisateur de type spécifié, par exemple les stratégies vocales), utilisez une commande similaire à celle-ci :
 
     Get-CsVoicePolicy -Filter "tag:*"
 
-Les applets de commande suivantes utilisent à la fois une identité d’utilisateur et l’étendue de la balise:
+Les applets de commande suivantes utilisent à la fois une identité d’utilisateur et l’étendue de la balise :
 
   - [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/gg412942\(v=ocs.15\))
 

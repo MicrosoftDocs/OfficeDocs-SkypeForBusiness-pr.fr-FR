@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: documentation'
+title: 'Lync Server 2013 : documentation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Documentation
 ms:assetid: 5a69c0a2-0986-49c3-809c-89bc175a34ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720335(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969609
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0b54d4bc007ecdf58cfb3a472a990ffc7a51158
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6eaeb06f1d9144d0c6f28984d509b3777673e10f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831336"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831336"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-05-15_
+_**Dernière modification de la rubrique :** 2015-05-15_
 
 Le modèle MOF est composé de nombreuses fonctions de gestion de service. La documentation relative au mode d’exécution des tâches peut être partagée avec les membres de la même équipe ou avec d’autres équipes. Le mode de stockage et de partage de la documentation peut varier en fonction du type de fonction. Par exemple, les procédures d’administration du système peuvent être stockées en tant que documents Word, car elles sont susceptibles d’être imprimées et référencées fréquemment. Les informations de gestion de la configuration sont générées automatiquement et stockées dans une base de données pour faciliter la recherche et l’indexation. La documentation peut être sensible et être limitée.
 

@@ -3,6 +3,8 @@ title: Configuration requise pour l’équilibreur de charge matérielle pour Ly
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware load balancer requirements
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ656815(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d5b10a91f469bf4688de06e836e0bdeffae1112
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85ed4195d80ecc755faea74ddedb790c9f41ebfb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831091"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-05-11_
+_**Dernière modification de la rubrique :** 2015-05-11_
 
-La topologie de périphérie consolidée de Lync Server 2013 est optimisée pour l’équilibrage de charge DNS pour les nouveaux déploiements qui se fédère principalement avec d’autres organisations à l’aide de Lync Server. S’il est nécessaire de disposer d’une haute disponibilité pour l’un des scénarios suivants, un équilibreur de charge matérielle doit être utilisé sur les pools de serveurs Edge pour les éléments suivants:
+La topologie de périphérie consolidée de Lync Server 2013 est optimisée pour l’équilibrage de charge DNS pour les nouveaux déploiements qui se fédère principalement avec d’autres organisations à l’aide de Lync Server. S’il est nécessaire de disposer d’une haute disponibilité pour l’un des scénarios suivants, un équilibreur de charge matérielle doit être utilisé sur les pools de serveurs Edge pour les éléments suivants :
 
   - Fédération avec des organisations qui utilisent Office Communications Server 2007 R2 ou Office Communications Server 2007
 
@@ -73,13 +75,13 @@ La topologie de périphérie consolidée de Lync Server 2013 est optimisée pour
 
 </div>
 
-Pour savoir si votre équilibreur de charge matérielle prend en charge les fonctionnalités nécessaires requises par Lync Server 2013, voir «partenaires d’équilibrage de charge Lync [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)Server 2010» à l’adresse.
+Pour savoir si votre équilibreur de charge matérielle prend en charge les fonctionnalités nécessaires requises par Lync Server 2013, voir « partenaires d’équilibrage de charge Lync [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)Server 2010 » à l’adresse.
 
 <div>
 
 ## <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Configuration requise pour l’équilibreur de la charge matérielle des serveurs Edge exécutant le service Edge A/V
 
-Vous trouverez ci-après les exigences relatives à l’équilibrage de charge matérielle pour les serveurs Edge exécutant le service Edge A/V:
+Vous trouverez ci-après les exigences relatives à l’équilibrage de charge matérielle pour les serveurs Edge exécutant le service Edge A/V :
 
   - Désactivez le nagling TCP pour les ports 443 interne et externe. Le nagling est le processus qui consiste à combiner plusieurs petits paquets en un seul paquet plus volumineux afin de rendre la transmission plus efficace.
 
@@ -279,7 +281,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;web_mco_443_vs&gt;du pool</p>
+<td><p>&lt;web_mco_443_vs&gt;de réserve</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>Serveur frontal</p>
@@ -288,7 +290,7 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;web_mco_80_vs&gt;du pool</p>
+<td><p>&lt;web_mco_80_vs&gt;de réserve</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>Serveur frontal</p>

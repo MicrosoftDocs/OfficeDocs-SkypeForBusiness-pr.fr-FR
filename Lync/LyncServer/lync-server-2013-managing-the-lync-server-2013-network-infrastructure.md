@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion de l’infrastructure réseau Lync Server 201
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Lync Server 2013 network infrastructure
 ms:assetid: cb13456a-8f66-4595-be21-8887f30ad4eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182585(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2bd95ac0259e86f3ac8fd39a09276bffa88cfc75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c8663c5837b118bc35c889dac34196a05a76dd63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827717"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-11_
+_**Dernière modification de la rubrique :** 2014-02-11_
 
 Microsoft Lync Server 2013 inclut la prise en charge du contrôle d’admission des appels (CAC) et du contournement multimédia. Pour implémenter ces fonctionnalités, vous devez configurer un réseau de régions, de sites, de sous-réseaux, etc., afin de gérer la bande passante dans les situations où les transmissions audio et vidéo doivent être restreintes. Vous pouvez également utiliser la technologie de mise en réseau de qualité de service (QoS) pour offrir une interface utilisateur optimale pour les communications audio et vidéo.
 

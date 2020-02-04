@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Préparation des services de domaine Active Directory
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing Active Directory Domain Services for Lync Server 2013
 ms:assetid: 7e126464-5d29-4013-9c44-0ccc2fbdea0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398630(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99e1d7285d743da2270121389bbb5a510fe3b12d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da033b8b7589b5257a73d77f3cd618236a2e4747
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823895"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Avant de déployer et d’utiliser Lync Server 2013, vous devez préparer les services de domaine Active Directory en étendant le schéma, puis en créant et en configurant des objets. Les extensions de schéma ajoutent les classes et attributs Active Directory requis par Lync Server.
 

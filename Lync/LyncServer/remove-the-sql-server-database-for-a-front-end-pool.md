@@ -3,6 +3,8 @@ title: Suppression de la base de données SQL Server pour un pool frontal
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
 ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6dcbe9bcab20438d02fe489666f9b4c0c0f6d0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 853b52c6f6a06d05f106114ab6b59ebc52129fc3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846049"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846049"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Après avoir supprimé une réserve Microsoft Lync Server 2010 frontale ou reconfigurer le pool pour utiliser une autre base de données, vous pouvez supprimer les bases de données SQL Server qui ont hébergé les données du pool. Utilisez les procédures suivantes pour supprimer les définitions du générateur de topologie, puis supprimez la base de données et les fichiers journaux du serveur de base de données.
 
@@ -57,13 +59,13 @@ Après avoir supprimé une réserve Microsoft Lync Server 2010 frontale ou recon
 
 2.  Ouvrez Lync Server Management Shell
 
-3.  Pour supprimer la base de données du magasin utilisateur de la liste, tapez:
+3.  Pour supprimer la base de données du magasin utilisateur de la liste, tapez :
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
     Où \<FQDN\> est le nom de domaine complet (FQDN) du serveur de base de données \<et\> l’instance est l’instance de base de données nommée (autrement dit, le cas échéant).
 
-4.  Pour supprimer la base de données du magasin d’applications de réserve, tapez:
+4.  Pour supprimer la base de données du magasin d’applications de réserve, tapez :
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     

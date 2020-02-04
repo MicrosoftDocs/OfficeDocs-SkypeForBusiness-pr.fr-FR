@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration requise pour les services Internet (IIS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Internet Information Services (IIS) requirements
 ms:assetid: 4f57a605-a8a9-4c5a-9a18-05ecb3d9ab6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcb0350178a19a75ac821a452ef90e10da297677
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830958"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-19_
+_**Dernière modification de la rubrique :** 2012-06-19_
 
 Plusieurs composants de Lync Server 2013 requièrent Internet Information Services (IIS). Cette rubrique décrit les fonctionnalités IIS spécifiques nécessaires à la prise en charge de Lync Server. Les rubriques de cette section décrivent la configuration requise pour les composants spécifiques pour IIS.
 
@@ -105,7 +107,7 @@ Lorsque le rôle serveur Web (IIS) est activé sur Windows Server 2008, différe
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="sûreté" alt="security" />Note de sécurité :</th>
 </tr>
 </thead>
 <tbody>

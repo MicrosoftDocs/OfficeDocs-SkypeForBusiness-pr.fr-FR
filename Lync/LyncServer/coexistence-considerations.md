@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Coexistence considerations
 ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205131(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc2889a11f6cc0afaecd7adf35bc16075011fef9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e53c57b90a85024ed5375129ce23c6ff0060edc4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233084"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,11 +36,11 @@ ms.locfileid: "36233084"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
 Après la migration, vous n’aurez qu’un seul Lync Server 2013, le pool de serveurs de conversation permanent et vous pourrez désactiver votre déploiement hérité.
 
-Avant la fin de la migration et avant d’avoir désactivé entièrement le déploiement de votre serveur de discussion de groupe actuel, il est possible que vous disposiez de l’un des déploiements suivants:
+Avant la fin de la migration et avant d’avoir désactivé entièrement le déploiement de votre serveur de discussion de groupe actuel, il est possible que vous disposiez de l’un des déploiements suivants :
 
   - Lync Server 2013, pool de serveurs de chat permanent, qui doit être hébergé sur un pool 2013 serveur Lync.
 

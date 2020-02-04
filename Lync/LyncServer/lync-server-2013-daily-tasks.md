@@ -3,6 +3,8 @@ title: 'Skype Entreprise Server 2015 : tâches quotidiennes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Daily tasks
 ms:assetid: f7a5f99e-5d2b-445d-9ba1-cbfcfeff16ae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720351(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4375b11511d3b2c88222ea36575c18ca6fcc7dfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831736"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831736"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-01-26_
+_**Dernière modification de la rubrique :** 2015-01-26_
 
 Pour garantir la disponibilité et la fiabilité du déploiement de Lync Server 2013, vous devez faire partie du moniteur de routine quotidienne et des éléments de test qui sont très importants pour le fonctionnement du système, y compris la plateforme physique, le système d’exploitation et tout service important de Lync Server 2013. La maintenance préventive et la surveillance proactive vous permettent d’identifier les erreurs potentielles et les problèmes susceptibles d’affecter le déploiement de Lync Server 2013.
 

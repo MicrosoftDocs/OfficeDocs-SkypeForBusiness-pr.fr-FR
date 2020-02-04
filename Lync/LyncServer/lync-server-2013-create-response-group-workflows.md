@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création des flux de travail Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Response Group workflows
 ms:assetid: 41272258-728d-42bd-b4d4-2a499734c720
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ba7d989d1733645c7055fb64d6b790212e15e16
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9aa76d218564e04048a07db7592ffc5ea4046a71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831765"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831765"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 Un flux de travail définit le comportement d’un appel, du déclenchement de la sonnerie du téléphone jusqu’au moment où une personne répond à l’appel. Le flux de travail spécifie la file d’attente à utiliser pour la mise en attente de l’appel et indique la méthode de routage à appliquer aux groupes de recherche ou les questions et les réponses à utiliser pour les groupes Response Group interactifs. Un flux de travail définit également des paramètres, comme un message d’accueil, l’attente musicale, les heures de bureau et les congés.
 

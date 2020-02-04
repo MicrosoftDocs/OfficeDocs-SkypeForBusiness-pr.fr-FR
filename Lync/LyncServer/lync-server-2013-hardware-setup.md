@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration matérielle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware setup
 ms:assetid: 37a9f295-cde3-4beb-9a6a-2580082798ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2d05db28ffa61ea25dbb237c388c37a87ac5a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6831ba5f8d2afea7bddbd0c26ab4cebb2cff44f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831086"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831086"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Pour configurer le matériel et d’autres composants requis dans l’infrastructure dont vous avez besoin pour implémenter votre topologie, avant de publier votre topologie dans le générateur de topologie, procédez comme suit:
+Pour configurer le matériel et d’autres composants requis dans l’infrastructure dont vous avez besoin pour implémenter votre topologie, avant de publier votre topologie dans le générateur de topologie, procédez comme suit :
 
   - Installez le matériel de chaque composant de la conception topologique que vous avez créé et enregistré à l’aide du générateur de topologie, y compris tous les ordinateurs requis (serveurs exécutant Lync Server 2013, serveurs de base de données, serveurs exécutant Internet Information Services (IIS) et inversez les serveurs proxy, selon le cas), cartes réseau, équilibreurs de charge matérielle et périphériques de stockage (par exemple, serveurs de fichiers). Vérifiez que vous avez suivi les recommandations en matière de nombre et de vitesse pour les cartes réseau. Si vous utilisez des équilibreurs de charge matérielle, assurez-vous que vous disposez des informations appropriées du fournisseur pour les configurer pour une utilisation avec Lync Server 2013. Si vous utilisez un serveur de fichiers ou un autre serveur pour mettre en place le partage de fichiers requis par Lync Server, assurez-vous que le serveur est disponible et qu’il est prêt pour la configuration du partage de fichiers. Pour plus d’informations sur la définition d’une topologie spécifiant les composants nécessaires à votre déploiement, reportez-vous à la rubrique [définition et configuration de la topologie dans Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md). Pour plus d’informations sur la configuration matérielle requise pour les serveurs, voir [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md) dans la documentation relative à la prise en charge.
 
@@ -58,7 +60,7 @@ Pour configurer le matériel et d’autres composants requis dans l’infrastruc
 
   - Installer et configurer l’équilibrage de charge matérielle pour les services Web. Après le déploiement de l’équilibrage de charge DNS (Domain Name System), vous devez également utiliser des équilibreurs de charge matérielle pour ces pools, mais uniquement pour le trafic HTTP/HTTPs. L’équilibrage de charge matérielle est utilisé pour le trafic HTTPs des clients sur les ports 443 et 80. Même si vous avez encore besoin d’équilibreurs de charge matérielle pour ces pools, leur configuration et leur administration seront essentiellement destinées au trafic HTTP/HTTPs, que les administrateurs des équilibreurs de charge matérielle sont habitués.
 
-Une fois toutes les tâches de préparation effectuées comme décrit dans cette rubrique, vous devez également procéder comme suit:
+Une fois toutes les tâches de préparation effectuées comme décrit dans cette rubrique, vous devez également procéder comme suit :
 
   - [Installation des systèmes d’exploitaition et des logiciels prérequis sur les serveurs pour Lync Server 2013](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 

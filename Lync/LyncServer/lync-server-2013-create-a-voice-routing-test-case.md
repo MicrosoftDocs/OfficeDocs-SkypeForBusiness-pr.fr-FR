@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création d’un cas de test de routage des communica
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a voice routing test case
 ms:assetid: 43a07a5b-2f20-462a-81e5-d628c18391e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a98e8b9400b0a268474429ad464b1aef7bbbe56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c706064cbe7319d3cb485b0bb1ecf6d34902edde
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831856"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831856"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-07_
+_**Dernière modification de la rubrique :** 2014-02-07_
 
 <div>
 
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-02-07_
 
 6.  Dans **numéro composé à tester**, entrez le numéro de téléphone que vous voulez utiliser pour tester la configuration de routage que vous spécifiez pour ce cas de test. En fonction du plan de numérotation, de l’itinéraire et de la stratégie vocale, ce numéro est normalisé et affiché en sortie.
 
-7.  Dans la liste **plan** de numérotation, sélectionnez le plan de numérotation à utiliser lors de l’exécution du test. Par défaut est le plan de numérotation global.
+7.  Dans la liste **plan de numérotation** , sélectionnez le plan de numérotation à utiliser lors de l’exécution du test. Par défaut est le plan de numérotation global.
 
 8.  Dans la liste de la **stratégie vocale** , sélectionnez la stratégie vocale à utiliser lors de l’exécution du test. La valeur par défaut est la stratégie de voix globale.
 
@@ -78,7 +80,7 @@ _**Dernière modification de la rubrique:** 2014-02-07_
     
     </div>
     
-    Si le plan de numérotation qui est utilisé dans le test normalise les numéros de téléphone qui commencent par un signe plus (par exemple, + 12065551219), ce plan peut entraîner l’échec du test de routage de la voix. (Le plan de numérotation et l’itinéraire vocal fonctionneront; en fait, test-CsDialPlan réussit. Toutefois, le test de routage vocal peut échouer.) Il s’agit d’éléments à garder à l’esprit lors du test des itinéraires vocaux.
+    Si le plan de numérotation qui est utilisé dans le test normalise les numéros de téléphone qui commencent par un signe plus (par exemple, + 12065551219), ce plan peut entraîner l’échec du test de routage de la voix. (Le plan de numérotation et l’itinéraire vocal fonctionneront ; en fait, test-CsDialPlan réussit. Toutefois, le test de routage vocal peut échouer.) Il s’agit d’éléments à garder à l’esprit lors du test des itinéraires vocaux.
 
 </div>
 

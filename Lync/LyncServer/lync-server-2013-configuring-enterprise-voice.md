@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’Enterprise Voice'
+title: 'Lync Server 2013 : configuration d’Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Enterprise Voice
 ms:assetid: 7df179fa-d3a2-4b23-a433-b750aedf980b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994041(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e46bd64efd8aa2eb6e1aead17083aa8593c8544
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838260"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838260"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-12_
+_**Dernière modification de la rubrique :** 2013-03-12_
 
-Pour déployer Enterprise Voice, vous devez configurer les éléments suivants:
+Pour déployer Enterprise Voice, vous devez configurer les éléments suivants :
 
   - Créer un Trunk
 

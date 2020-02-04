@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration et affectation de stratégies d’archivage'
+title: 'Lync Server 2013 : configuration et affectation de stratégies d’archivage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring and assigning Archiving policies
 ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8b3b4f1f9465684d7c9139b8cd548caacf91c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d8cfb5b446456d99750529d883172ed3cb56e3e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838289"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838289"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
-Dans Lync Server 2013, vous utilisez des stratégies pour activer et désactiver l’archivage des communications internes et des communications externes pour les utilisateurs hébergés sur Lync Server 2013. Cela inclut les stratégies d’archivage suivantes:
+Dans Lync Server 2013, vous utilisez des stratégies pour activer et désactiver l’archivage des communications internes et des communications externes pour les utilisateurs hébergés sur Lync Server 2013. Cela inclut les stratégies d’archivage suivantes :
 
   - Stratégie globale créée par défaut lors du déploiement de Lync Server 2013.
 
   - Stratégies de niveau de site et de niveau utilisateur facultatives que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des utilisateurs spécifiques.
 
-Vous définissez initialement des stratégies d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des stratégies après le déploiement. Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la page de **stratégie** d’archivage du groupe **archivage et surveillance** pour gérer les stratégies au niveau global, au niveau du site et au niveau de l’utilisateur.
+Vous définissez initialement des stratégies d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des stratégies après le déploiement. Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la page de **stratégie d’archivage** du groupe **archivage et surveillance** pour gérer les stratégies au niveau global, au niveau du site et au niveau de l’utilisateur.
 
 <div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: définition de la stratégie d’emplacement'
+title: 'Lync Server 2013 : définition de la stratégie d’emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the location policy
 ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831710"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 Chaque stratégie d’emplacement renferme les informations suivantes :
 
@@ -79,7 +81,7 @@ Chaque stratégie d’emplacement renferme les informations suivantes :
     
 
     > [!NOTE]  
-    > Si votre organisation n’utilise pas un préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute «+» à la chaîne 911 avant d’envoyer l’appel vers le routage sortant sur un serveur de pool Lync. le "+" sera automatiquement ajouté par le client Lync en raison de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation appropriée qui élimine le préfixe d’accès externe et ajoute le signe «+». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur&nbsp;compose 9 911 pour passer un appel d’urgence, le client utilise sa stratégie de plan de numérotation pour normaliser cette opération sur + 911 avant que le numéro composé soit évalué par les itinéraires dans l’emplacement de l’appelant. tournage.
+    > Si votre organisation n’utilise pas un préfixe d’accès aux lignes externes, vous n’avez pas besoin de créer une règle de normalisation de plan de numérotation correspondante qui ajoute « + » à la chaîne 911 avant d’envoyer l’appel vers le routage sortant sur un serveur de pool Lync. le "+" sera automatiquement ajouté par le client Lync en raison de la stratégie d’emplacement. Toutefois, si votre site utilise un préfixe d’accès externe, vous devez ajouter une règle de normalisation à la stratégie de plan de numérotation appropriée qui élimine le préfixe d’accès externe et ajoute le signe « + ». Par exemple, si votre emplacement utilise un préfixe d’accès externe de 9 et qu’un utilisateur&nbsp;compose 9 911 pour passer un appel d’urgence, le client utilise sa stratégie de plan de numérotation pour la normalisation de + 911 avant que le numéro numéroté ne soit évalué par les itinéraires dans le profil d’emplacement de l’appelant.
 
     
     </div>
@@ -87,7 +89,7 @@ Chaque stratégie d’emplacement renferme les informations suivantes :
 <!-- end list -->
 
   - **Masques de chaînes de numérotation d’urgence**  
-    Liste séparée par des virgules des chaînes de numérotation traduites dans la chaîne de numérotation de **secours**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des services d’Europe. Un utilisateur de Lync à partir de l’Europe peut ne pas savoir que 911 est le numéro d’urgence des États-Unis et peut 112 composer le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de "+" devant chaque numéro et, si vous utilisez des codes d’accès de ligne externe, assurez-vous que la stratégie de plan de numérotation de l’utilisateur dispose de règles de normalisation pour supprimer le code d’accès.
+    Liste séparée par des virgules des chaînes de numérotation traduites dans la **chaîne de numérotation de secours**spécifiée. Par exemple, vous souhaiterez peut-être ajouter 112, qui est le numéro de service d’urgence pour la plupart des services d’Europe. Un utilisateur de Lync à partir de l’Europe peut ne pas savoir que 911 est le numéro d’urgence des États-Unis et peut 112 composer le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de "+" devant chaque numéro et, si vous utilisez des codes d’accès de ligne externe, assurez-vous que la stratégie de plan de numérotation de l’utilisateur dispose de règles de normalisation pour supprimer le code d’accès.
 
 <!-- end list -->
 

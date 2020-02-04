@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: personnalisation de l’installation d’un client'
+title: 'Lync Server 2013 : personnalisation de l’installation d’un client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customizing client installation
 ms:assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204934(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd099f5d57174eb02733abd70bb99a91679a1328
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce9491e48d107d01f86d18e8154331ef3ae7e478
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831748"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831748"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
-Les administrateurs d’entreprise peuvent personnaliser l’installation d’Office 2013 de Windows Installer (. msi) en utilisant les méthodes décrites dans cette section. Dans la mesure où il n’y a pas d’options de personnalisation, l’outil peut utiliser une combinaison de ces méthodes dans votre déploiement Lync 2013. Au minimum, vous pouvez utiliser les outils décrits dans les sections suivantes:
+Les administrateurs d’entreprise peuvent personnaliser l’installation d’Office 2013 de Windows Installer (. msi) en utilisant les méthodes décrites dans cette section. Dans la mesure où il n’y a pas d’options de personnalisation, l’outil peut utiliser une combinaison de ces méthodes dans votre déploiement Lync 2013. Au minimum, vous pouvez utiliser les outils décrits dans les sections suivantes :
 
   - [À l’aide de l’outil de personnalisation Office (OPO) dans Lync Server 2013](lync-server-2013-using-the-office-customization-tool-oct.md) pour personnaliser les options et fonctionnalités de configuration pour Lync et d’autres programmes Office.
 

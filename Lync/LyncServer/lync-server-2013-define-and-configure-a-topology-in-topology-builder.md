@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition et configuration d’une topologie dans l
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a topology in Topology Builder
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398788(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee952eef30fc50f30448c98956899c3a1a06dc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 876651b0d0c5ed33d4e82429822585de4a2b8579
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831708"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 L’exécution du générateur de topologie pour définir une nouvelle topologie ou la modification d’une topologie existante ne nécessite pas d’appartenance à un administrateur local ou à un groupe de domaine privilégié. Le générateur de topologie vous guide au cours des étapes nécessaires à la définition de votre topologie pour une liste frontale Enterprise Edition ou une édition standard, en fonction de vos besoins en matière de configuration.
 
@@ -43,7 +45,7 @@ Vous devez utiliser le générateur de topologie pour achever et publier la topo
 
 ## <a name="to-define-a-topology"></a>Pour définir une topologie
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans le générateur de topologie, sélectionnez **nouvelle topologie**. Vous êtes invité à entrer un emplacement et un nom de fichier pour l’enregistrement de la topologie. Donnez un nom significatif au fichier de topologie et acceptez l’extension par défaut de. tbxml. Cliquez sur **OK**.
 

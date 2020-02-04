@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification de la connectivité PSTN'
+title: 'Lync Server 2013 : planification de la connectivité PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for PSTN connectivity
 ms:assetid: 280f684a-740a-443d-8ecf-574241382a42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425749(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d64089661b5d185362a8e47128e9a890b03edfd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec12aa5e579aed30e61c7cd34eab444e807c628f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824581"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34824581"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
-Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (RTC) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas être informés de la technologie sous-jacente: du point de vue de l’utilisateur, un appel entre l’infrastructure voix entreprise et le RTC devrait paraître un appel téléphonique.
+Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (RTC) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas être informés de la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure voix entreprise et le RTC devrait paraître un appel téléphonique.
 
-Lync Server 2013 fournit une connectivité PSTN fiable et évolutive en utilisant les options suivantes:
+Lync Server 2013 fournit une connectivité PSTN fiable et évolutive en utilisant les options suivantes :
 
   - Les **jonctions SIP** vers un fournisseur de services de téléphonie Internet (ITSP)
 
@@ -55,7 +57,7 @@ Selon la taille, la couverture géographique et l’infrastructure vocale exista
 
   - [Connexions SIP directes dans Lync Server 2013](lync-server-2013-direct-sip-connections.md)
 
-  - [M:N Trunk dans Lync Server 2013](lync-server-2013-m-n-trunk.md)
+  - [M :N Trunk dans Lync Server 2013](lync-server-2013-m-n-trunk.md)
 
   - [Règles de traduction dans Lync Server 2013](lync-server-2013-translation-rules.md)
 

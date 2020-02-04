@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: M:N Trunk'
+title: 'Lync Server 2013 : M :N Trunk'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: M:N trunk
 ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4485380d6de5d247511b863761fcf7c75d38a29b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34830916"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mn-trunk-in-lync-server-2013"></a>M:N Trunk dans Lync Server 2013
+# <a name="mn-trunk-in-lync-server-2013"></a>M :N Trunk dans Lync Server 2013
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830916"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
-Lync Server 2013 prend en charge une plus grande souplesse dans la définition d’un Trunk pour le routage des appels à partir des versions précédentes. Un Trunk est une association logique entre un serveur de médiation et un numéro de port d’écoute avec une passerelle et un numéro de port d’écoute. Cela implique plusieurs facteurs: un serveur de médiation peut avoir plusieurs Trunks vers la même passerelle; un serveur de médiation peut avoir plusieurs Trunks pour différentes passerelles. à l’inverse, une passerelle peut avoir plusieurs Trunks pour différents serveurs de médiation.
+Lync Server 2013 prend en charge une plus grande souplesse dans la définition d’un Trunk pour le routage des appels à partir des versions précédentes. Un Trunk est une association logique entre un serveur de médiation et un numéro de port d’écoute avec une passerelle et un numéro de port d’écoute. Cela implique plusieurs facteurs : un serveur de médiation peut avoir plusieurs Trunks vers la même passerelle ; un serveur de médiation peut avoir plusieurs Trunks pour différentes passerelles. à l’inverse, une passerelle peut avoir plusieurs Trunks pour différents serveurs de médiation.
 
-Un Trunk racine est toujours requis pour être créé lors de l’ajout d’une passerelle à la topologie Lync à l’aide du générateur de topologie. Le nombre de passerelles qu’un serveur de médiation peut gérer dépend de la capacité de traitement du serveur pendant les heures de pointe. Si vous déployez un serveur de médiation sur du matériel qui dépasse la configuration minimale requise pour Lync Server 2013, comme décrit dans la section [matériel pris en charge pour Lync server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge, puis l’estimation du nombre de non-contournement actif appels un serveur de médiation autonome peut gérer plus d’un appel 1000. Lorsqu’il est déployé sur du matériel et répondez à ces spécifications, le serveur de médiation doit procéder au transcodage, mais continuer à acheminer les appels pour plusieurs passerelles, même si les passerelles ne prennent pas en charge la dérivation multimédia.
+Un Trunk racine est toujours requis pour être créé lors de l’ajout d’une passerelle à la topologie Lync à l’aide du générateur de topologie. Le nombre de passerelles qu’un serveur de médiation peut gérer dépend de la capacité de traitement du serveur pendant les heures de pointe. Si vous déployez un serveur de médiation sur du matériel qui dépasse la configuration minimale requise pour Lync Server 2013, comme décrit dans la section [matériel pris en charge pour Lync server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge, l’estimation du nombre d’appels de non-contournement actifs qu’un serveur de médiation autonome peut gérer est approximativement 1000 appels. Lorsqu’il est déployé sur du matériel et répondez à ces spécifications, le serveur de médiation doit procéder au transcodage, mais continuer à acheminer les appels pour plusieurs passerelles, même si les passerelles ne prennent pas en charge la dérivation multimédia.
 
 Lors de la définition d’un itinéraire d’appel, vous spécifiez les Trunks associés à cet itinéraire, mais vous ne spécifiez pas les serveurs de médiation associés à cet itinéraire. À la place, vous utilisez le générateur de topologie pour associer des Trunks aux serveurs de médiation. En d’autres termes, le routage détermine le Trunk à utiliser pour un appel et, par la suite, le serveur de médiation associé à cette ligne envoie le signalement pour cet appel.
 
-Le serveur de médiation peut être déployé en tant que pool. ce pool peut être colocalisé avec un pool frontal ou déployé en tant que pool autonome. Lorsqu’un serveur de médiation est colocalisé avec un pool frontal, la taille du pool peut être 12 (la limite de la taille du pool d’inscriptions). Grâce à ces nouvelles fonctionnalités, la flexibilité et la souplesse de déploiement pour les serveurs de médiation peuvent être associées, mais ils nécessitent des fonctionnalités associées dans les entités homologues suivantes:
+Le serveur de médiation peut être déployé en tant que pool. ce pool peut être colocalisé avec un pool frontal ou déployé en tant que pool autonome. Lorsqu’un serveur de médiation est colocalisé avec un pool frontal, la taille du pool peut être 12 (la limite de la taille du pool d’inscriptions). Grâce à ces nouvelles fonctionnalités, la flexibilité et la souplesse de déploiement pour les serveurs de médiation peuvent être associées, mais ils nécessitent des fonctionnalités associées dans les entités homologues suivantes :
 
   - **Passerelle RTC.** Une passerelle éligible de Lync Server 2013 doit implémenter l’équilibrage de charge DNS, ce qui permet à une passerelle RTC (réseau téléphonique commuté) qualifiée d’un équilibreur de charge d’un pool de serveurs de médiation, et donc de répartir les appels sur le pool.
 

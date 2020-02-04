@@ -3,6 +3,8 @@ title: Préparation de l’installation des serveurs sur le réseau de périmèt
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for installation of servers in the perimeter network
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398416(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8474ea56062a89952001850b1a78fd86f5843cc1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823881"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34823881"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Avant de configurer les composants Edge Server, vous devez vous assurer que les ordinateurs que vous configurez répondent à la configuration système requise et que vous avez effectué les étapes prérequises pour le déploiement des composants du serveur Edge.
 
-Avant de commencer, reportez-vous aux rubriques suivantes de la documentation de planification pour l’architecture de référence que vous souhaitez déployer:
+Avant de commencer, reportez-vous aux rubriques suivantes de la documentation de planification pour l’architecture de référence que vous souhaitez déployer :
 
   - [Serveur Edge consolidé unique avec des adresses IP privées et la conversion d’adresses réseau dans Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 

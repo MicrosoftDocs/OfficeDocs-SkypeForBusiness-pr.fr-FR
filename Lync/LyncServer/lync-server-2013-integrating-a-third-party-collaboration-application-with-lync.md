@@ -3,6 +3,8 @@ title: Intégration d’une application de collaboration tierce avec Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating a third-party collaboration application with Lync
 ms:assetid: 00b9312c-b0c8-4f79-8b76-05b2d820e197
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398068(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0b56fabbc1bd341e3ba2c5fe535d147c09335b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 82b95f79202cbf96568b98dcb802e97bf4ca2d32
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830983"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Vous pouvez intégrer Lync 2013 à toute application de collaboration en ligne tierce en ajoutant des informations sur l’application au registre. Vous pouvez utiliser Lync 2013 pour démarrer des sessions de conférence de données hébergées sur un serveur interne, un service basé sur Internet, ou les deux. La session de collaboration ou de conférence de données peut être démarrée à partir de la liste de contacts ou à partir d’une conversation par messagerie instantanée, audio ou vidéo. Lync 2013 agit uniquement comme véhicule pour le démarrage de l’application. Toutes les conversations Lync 2013 existantes restent actives après le démarrage de la session de collaboration en ligne.
 
@@ -43,7 +45,7 @@ Les sections suivantes décrivent comment intégrer Lync 2013 aux applications d
 
 ## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Intégration d’une application de collaboration basée sur Internet avec Lync 2013
 
-En règle générale, les étapes nécessaires à l’intégration d’une application de collaboration tierce sont les suivantes:
+En règle générale, les étapes nécessaires à l’intégration d’une application de collaboration tierce sont les suivantes :
 
 1.  Des informations sur l’application sont ajoutées au registre.
 
@@ -53,7 +55,7 @@ En règle générale, les étapes nécessaires à l’intégration d’une appli
 
 4.  Les participants acceptent l’invitation et l’application de collaboration est démarrée sur l’ordinateur de chaque personne. Lync 2013 utilise le registre pour déterminer quelle application de collaboration utiliser, puis démarre cette application en utilisant les paramètres inclus dans le message appINVITE.
 
-Le tableau suivant décrit les entrées de Registre requises pour intégrer une application de collaboration basée sur Internet avec Lync 2013. Ces entrées sont placées dans le registre à l’emplacement suivant:
+Le tableau suivant décrit les entrées de Registre requises pour intégrer une application de collaboration basée sur Internet avec Lync 2013. Ces entrées sont placées dans le registre à l’emplacement suivant :
 
   - HKEY\_logiciel\_\\de\\l’ordinateur\\local\\Microsoft\\Office\\15,0\\les\\paramètres des applications Lync sessionmanager
 
@@ -154,7 +156,7 @@ Le tableau suivant décrit les entrées de Registre correspondant aux paramètre
 </table>
 
 
-Les exemples de paramètres de registre suivants intègrent le client de collaboration adatum avec Lync 2013:
+Les exemples de paramètres de registre suivants intègrent le client de collaboration adatum avec Lync 2013 :
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]
@@ -182,7 +184,7 @@ Les exemples de paramètres de registre suivants intègrent le client de collabo
 
 ## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Intégration d’une application de collaboration basée sur le serveur avec Lync 2013
 
-Les paramètres permettant d’ajouter des commandes pour le démarrage d’une application de collaboration serveur à partir de Lync 2013 sont similaires à ceux décrits dans la section précédente, intégration d’une application de collaboration basée sur Internet avec Lync 2013. Toutefois, le OriginatorPath n’est pas obligatoire et certaines valeurs sont modifiées. Les entrées de Registre sont placées à l’emplacement suivant:
+Les paramètres permettant d’ajouter des commandes pour le démarrage d’une application de collaboration serveur à partir de Lync 2013 sont similaires à ceux décrits dans la section précédente, intégration d’une application de collaboration basée sur Internet avec Lync 2013. Toutefois, le OriginatorPath n’est pas obligatoire et certaines valeurs sont modifiées. Les entrées de Registre sont placées à l’emplacement suivant :
 
   - HKEY\_logiciel\_\\de\\l’ordinateur\\local\\Microsoft\\Office\\15,0\\les\\paramètres des applications Lync sessionmanager
 
@@ -246,7 +248,7 @@ Les paramètres permettant d’ajouter des commandes pour le démarrage d’une 
 </table>
 
 
-L’exemple suivant ajoute des commandes pour démarrer le client de collaboration adatum à partir de Lync 2013:
+L’exemple suivant ajoute des commandes pour démarrer le client de collaboration adatum à partir de Lync 2013 :
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]

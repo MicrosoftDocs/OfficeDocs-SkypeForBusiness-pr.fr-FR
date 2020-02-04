@@ -3,6 +3,8 @@ title: Présentation de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Introduction to Lync Server
 ms:assetid: 99dd6b65-e591-421f-852b-ee9fe9588998
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df182c8d58d6f1e60b164fbb28299945f6a8cba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8879bd2f3638df17215b7b8f0ee4a12c751277f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830967"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 Lync Server 2013 et son logiciel client, comme Lync 2013, permettent aux utilisateurs de se connecter de nouvelles manières et de rester connectés, quel que soit leur emplacement physique. Lync et Lync Server s’associent aux différentes manières dont les personnes communiquent dans une seule interface client, sont déployées en tant que plateforme unifiée et sont administrées par le biais d’une infrastructure de gestion unique.
 
@@ -55,21 +57,21 @@ Ce tableau et les sections suivantes décrivent les principaux Jeux de fonctionn
 <tr class="odd">
 <td><p>Messagerie instantanée et présence</p></td>
 <td><p>La messagerie instantanée et la présence permettent aux utilisateurs de les retrouver et de communiquer efficacement.</p>
-<p>La messagerie instantanée fournit une plate-forme de messagerie instantanée avec l’historique des conversations et prend en charge la connectivité de messagerie instantanée publique aux utilisateurs de réseaux de messagerie instantanée publics comme MSN/Windows Live, Yahoo!, AOL et Google Talk.</p>
+<p>La messagerie instantanée fournit une plate-forme de messagerie instantanée avec l’historique des conversations et prend en charge la connectivité de messagerie instantanée publique aux utilisateurs de réseaux de messagerie instantanée publics comme MSN/Windows Live, Yahoo !, AOL et Google Talk.</p>
 <div>
 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 
 
 </div>
-<p>La présence établit et affiche la disponibilité et la volonté personnelles d’un utilisateur pour communiquer par le biais de l’utilisation d’États courants tels que <strong>disponible</strong> ou <strong>occupé</strong>, ainsi que d’États plus détaillés, par exemple, <strong>revenir en arrière</strong> et <strong>ne pas déranger </strong>. Ces informations de présence complètes permettent aux utilisateurs d’apporter immédiatement des choix de communication efficaces.</p></td>
+<p>La présence établit et affiche la disponibilité et la volonté personnelles d’un utilisateur pour communiquer par le biais de l’utilisation d’États courants tels que <strong>disponible</strong> ou <strong>occupé</strong>, ainsi que d’États plus détaillés, par exemple, en <strong>retour</strong> et <strong>ne pas déranger</strong>. Ces informations de présence complètes permettent aux utilisateurs d’apporter immédiatement des choix de communication efficaces.</p></td>
 </tr>
 <tr class="even">
 <td><p>Conférence</p></td>
@@ -105,7 +107,7 @@ Ce tableau et les sections suivantes décrivent les principaux Jeux de fonctionn
 </tr>
 <tr class="even">
 <td><p>Gestion simple</p></td>
-<td><p>Après le déploiement de Lync Server, les outils de gestion puissants et rationalisés suivants sont proposés:</p>
+<td><p>Après le déploiement de Lync Server, les outils de gestion puissants et rationalisés suivants sont proposés :</p>
 <ul>
 <li><p>Gestion centralisée de la configuration, qui vous permet de gérer les modifications de manière centralisée et de les répliquer rapidement dans l’ensemble du déploiement.</p></li>
 <li><p>Panneau de configuration de Lync Server, interface utilisateur Web pour administrateurs. Grâce à cette interface utilisateur basée sur le Web, les administrateurs du serveur Lync peuvent gérer leurs systèmes depuis n’importe où sur le réseau d’entreprise, sans qu’aucun logiciel de gestion spécialisé n’ait été installé sur leur ordinateur.</p></li>
