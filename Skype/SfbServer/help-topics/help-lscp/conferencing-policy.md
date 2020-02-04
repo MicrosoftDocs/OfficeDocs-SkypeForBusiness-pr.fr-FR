@@ -7,30 +7,30 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 8ac4bb4f33cecef97e3299a993fc21e81af8ad1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6649471efd9d8d592de1e9395fd6eba8eadb9e23
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286079"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700419"
 ---
 # <a name="conferencing-policy"></a>Stratégie de conférence
 
 La stratégie de conférence définit les fonctionnalités que les utilisateurs peuvent utiliser pendant une conférence (également appelée réunion).
 
-Les stratégies de conférence incluent la stratégie globale et, si vous le souhaitez, une ou plusieurs stratégies de site et d’utilisateur:
+Les stratégies de conférence incluent la stratégie globale et, si vous le souhaitez, une ou plusieurs stratégies de site et d’utilisateur :
 
-- **Politique globale:** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
+- **Politique globale :** La stratégie globale est créée par défaut. Vous pouvez modifier la stratégie globale sans pouvoir la supprimer. Si vous tentez de supprimer la stratégie globale, tous les paramètres sont réinitialisés aux valeurs par défaut.
 
-- **Stratégies de site (facultatif):** Vous pouvez créer une ou plusieurs stratégies de conférences de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
+- **Stratégies de site (facultatif) :** Vous pouvez créer une ou plusieurs stratégies de conférences de site qui s’appliquent à un site spécifique. Les stratégies de site remplacent la stratégie globale.
 
-- **Stratégies utilisateur (facultatif):** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
+- **Stratégies utilisateur (facultatif) :** Vous pouvez créer une ou plusieurs stratégies de conférence utilisateur qui s’appliquent à un utilisateur ou à un groupe d’utilisateurs spécifiques. Les stratégies utilisateur remplacent la stratégie globale et les stratégies de site.
 
 La page **stratégie de conférence** affiche la liste de toutes les stratégies de conférence définies pour votre organisation.
 
@@ -61,7 +61,7 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Nom** Identifie la stratégie de conférence.
 
-- **Scope** Identifie l’étendue de la stratégie de conférence: global, site ou utilisateur.
+- **Scope** Identifie l’étendue de la stratégie de conférence : global, site ou utilisateur.
 
 - **Collaboration** sur les données Activé si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.
 

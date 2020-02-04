@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft publie régulièrement un nouvel ensemble de mises à jour du microprogramme de l’appareil pour Skype entreprise Phone Edition, que vous pouvez importer sur vos serveurs et distribuer à des utilisateurs. Vous pouvez obtenir les dernières mises à jour de l’appareil en accédant à la page aide et support sur le site Web de Microsoft et en recherchant forPhone Edition. Téléchargez le package de mise à jour le plus récent et extrayez les fichiers dans un dossier sur l’ordinateur sur lequel les mises à jour doivent être téléchargées. Une fois les fichiers extraits, vous pouvez utiliser l’applet de commande Import-CsDeviceUpdate pour importer les règles de mise à jour des périphériques présentes dans le fichier CAB extrait (nommé UCUpdates.cab). Pour plus d’informations, voir Import-CsDeviceUpdate.
-ms.openlocfilehash: b387a24d88ab0b65c3df43a8ca5dd25d582a4827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 066564a315fdda57e33ad62f8abfe8e5dbe931e1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285924"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700239"
 ---
 # <a name="device-update"></a>Mise à jour de l'appareil
 
@@ -43,13 +43,13 @@ Dans la page **Mise à jour du périphérique**, vous pouvez effectuer les tâch
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Modifier** Vous pouvez utiliser cette option pour effectuer les opérations suivantes:
+- **Modifier** Vous pouvez utiliser cette option pour effectuer les opérations suivantes :
 
   - **Tout sélectionner** Cette option sélectionne toutes les mises à jour de périphériques dans la liste.
 
   - **Supprimer** Cette option supprime toutes les mises à jour de périphériques sélectionnées.
 
-- **Action** Vous pouvez sélectionner une ou plusieurs mises à jour dans la liste et effectuer les opérations suivantes:
+- **Action** Vous pouvez sélectionner une ou plusieurs mises à jour dans la liste et effectuer les opérations suivantes :
 
   - **Annuler les mises à jour en attente** Cette option empêche le déploiement de la mise à jour sélectionnée sur les appareils de votre organisation.
 

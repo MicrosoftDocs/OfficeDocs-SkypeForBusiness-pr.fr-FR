@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: En plus de spécifier la version de clients que vous voulez prendre en charge dans votre environnement, vous pouvez également spécifier une action par défaut pour les clients qui n’ont pas encore de stratégie de version définie. Cela vous permet de limiter les versions de client utilisées dans votre environnement, qui peuvent vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions de client.
-ms.openlocfilehash: 3f223cbf90f76aab38cdb443d96dabd3d7797079
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46969857647a51dd092e3131dd3c24b71b810a2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300027"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700439"
 ---
 # <a name="client-version-configuration"></a>Configuration de version du client
 
@@ -43,7 +43,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
 - **Nouvelle** Vous pouvez créer une configuration de version de client pour un site particulier.
 
-- **Modifier** Vous pouvez modifier les options de n’importe quelle stratégie de version du client. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options de n’importe quelle stratégie de version du client. Cette option vous permet d’effectuer les opérations suivantes :
 
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options de configuration d’une version de client.
 

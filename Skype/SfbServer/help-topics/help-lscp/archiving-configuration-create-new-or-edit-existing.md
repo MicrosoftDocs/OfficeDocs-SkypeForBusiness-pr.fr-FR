@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Vous utilisez des configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et, éventuellement, une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: d40750069d34cb274342c1f5aab5d8191f90a334
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8b860e2a2604f013dbb4b3dcccedc39602ae29f1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299875"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700599"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’un archivage ou modification d’un archivage existant
  
@@ -34,7 +34,7 @@ Vous utilisez des configurations d’archivage pour contrôler les options d’a
 > La configuration de l’archivage s’applique aux utilisateurs hébergés sur Skype entreprise Server et, si vous activez l' 2013 option d’intégration de Microsoft Exchange pour le stockage des données d’archivage dans Microsoft Exchange, aux utilisateurs hébergés sur Exchange 2013. Toutefois, certaines options sont implémentées légèrement différemment pour les utilisateurs hébergés sur Exchange 2013, comme décrit dans la section suivante. 
   
 Pour configurer les paramètres pour une configuration d’archivage nouvelle ou existante, spécifiez les options suivantes :
-- **Nom** Chaque configuration de l’archivage nécessite un nom. Le nom est déterminé par le type de configuration que vous ajoutez ou modifiez:
+- **Nom** Chaque configuration de l’archivage nécessite un nom. Le nom est déterminé par le type de configuration que vous ajoutez ou modifiez :
     
   - **Configuration globale** Le nom par défaut est global. Par exemple, « Organisation Contoso d’Amérique du Nord".
     
@@ -44,7 +44,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
 - **Description** Facultatif. Vous pouvez l’utiliser pour fournir des informations supplémentaires, telles que la portée ou l’utilisation de la configuration. Par exemple, la coordination avec les services juridiques d’autres sites.
     
-- **Paramètre** d’archivage Les options disponibles sont les suivantes:
+- **Paramètre d’archivage** Les options disponibles sont les suivantes :
     
   - **Archiver les sessions de messagerie instantanée**
     
@@ -52,7 +52,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
   - **Désactiver l’archivage**
     
-- **Bloquer des sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage** Les échecs incluent les éléments suivants:
+- **Bloquer des sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage** Les échecs incluent les éléments suivants :
     
   - **Message instantané** un échec peut s’agir d’une base de données complète ou d’un problème lié au service de stockage. Dans ce cas, la messagerie instantanée est bloquée pour les utilisateurs activés pour l’archivage.
     
@@ -62,7 +62,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
 - **Intégration de Microsoft Exchange** Sélectionnez cette option si vous avez des utilisateurs hébergés sur Exchange 2013. Avec cette option, Exchange 2013 est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées sur le blocage sur place. Si tous vos utilisateurs sont hébergés sur Exchange 2013, vous n’avez pas besoin de configurer des bases de données SQL Server distinctes pour le stockage des données d’archivage.
     
-- **Activer la suppression définitive des données d’archivage** Sélectionnez cette option pour activer la purge et spécifier les options de purge, qui incluent les éléments suivants:
+- **Activer la suppression définitive des données d’archivage** Sélectionnez cette option pour activer la purge et spécifier les options de purge, qui incluent les éléments suivants :
     
   - Vidage après un nombre spécifique de jours que vous spécifiez.
     
@@ -71,5 +71,5 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     > [!NOTE]
     > Si vous activez l’intégration de Microsoft Exchange, le vidage pour les utilisateurs hébergés sur Exchange 2013 et avec leurs boîtes aux lettres placées sur la conservation inaltérable est contrôlé par Exchange. La seule exception est pour les fichiers de conférence qui sont stockés sur le partage de fichiers de Lync Server. Ces fichiers ne sont purgés à partir du partage de fichiers qu’une fois que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option de purge des données après l’exportation des données d’archivage ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
   
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration d’Exchange, voir [planification de l’archivage dans Skype entreprise server 2015](../../plan-your-deployment/archiving/archiving.md), déploiement de l’archivage [pour skype entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et gestion de l' [archivage dans Skype pour Business Server 2015](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration d’Exchange, voir [planification de l’archivage dans Skype entreprise server 2015](../../plan-your-deployment/archiving/archiving.md), déploiement de l’archivage [pour skype entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et [gestion de l’archivage dans Skype entreprise Server 2015](../../manage/archiving/archiving.md).
 

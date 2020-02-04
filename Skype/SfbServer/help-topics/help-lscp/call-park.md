@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Lorsqu’un appel est engagé, il est transféré vers un numéro temporaire pour lequel l’appel est maintenu jusqu’à ce qu’une personne le récupère ou qu’il arrive à expiration. Vous devez configurer un tableau avec les plages de numéros d’extension que vous réservez pour les appels en stationnement. Ces postes doivent être des postes virtuels (autrement dit, des postes auxquels aucun utilisateur ni téléphone n’est affecté). Chaque liste qui exécute l’application de parc d’appels peut avoir une ou plusieurs plages d’extensions. Ces plages doivent être globalement uniques dans votre déploiement.
-ms.openlocfilehash: 2b29591ac0173310caf2513db5d27b53142e9ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a7417ab525f8471b730dc177a993c3458750a3f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299896"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700299"
 ---
 # <a name="call-park"></a>parcage d’appel
 

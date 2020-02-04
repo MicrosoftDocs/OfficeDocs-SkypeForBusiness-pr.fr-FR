@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: Vous pouvez spécifier la version des clients pris en charge dans votre environnement. Quand deux clients exécutant des versions distinctes interagissent, les fonctionnalités disponibles pour l’un des clients peuvent être restreintes par les fonctions de l’autre client. Pour tirer le meilleur parti des fonctionnalités incluses dans Skype entreprise Server 2015 et améliorer l’environnement utilisateur global, vous pouvez utiliser le filtre de version de client pour restreindre les versions de client utilisées dans votre environnement. Le filtre de version du client vous permet également de réduire les coûts associés à la prise en charge de différentes versions du client.
-ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53fe5e7636d95dcbb620b2d89714d8e6609ffaa4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300006"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700399"
 ---
 # <a name="client-version-policy"></a>Stratégie de version du client
 
@@ -41,7 +41,7 @@ Dans la page **Stratégie de version du client**, vous pouvez effectuer les tâc
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Nouvelle** Vous pouvez créer une ou plusieurs des stratégies de version de client suivantes:
+- **Nouvelle** Vous pouvez créer une ou plusieurs des stratégies de version de client suivantes :
 
   - Stratégie de site
 
@@ -49,7 +49,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
   - Stratégie utilisateur
 
-- **Modifier** Vous pouvez modifier les options de n’importe quelle stratégie de version du client. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options de n’importe quelle stratégie de version du client. Cette option vous permet d’effectuer les opérations suivantes :
 
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour une stratégie de version de client.
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe Conversation permanente pour gérer les stratégies au niveau utilisateur, site, pool ou global, y compris pour configurer la stratégie globale par défaut et créer une ou plusieurs autres stratégies utilisateur et de site pour votre déploiement. Si un utilisateur est activé pour le serveur Chat permanent par stratégie, l’environnement serveur Chat permanent apparaît dans le client.
-ms.openlocfilehash: ed4e8bbcb0856156148f459435b5cec857e9e223
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf7a534a13b1bccf98fcae1929c17494a0a5a138
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294171"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699909"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Stratégie de conversation permanente – Page principale
  
@@ -86,7 +86,7 @@ La configuration de la stratégie de site remplace la stratégie globale, unique
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>Pour créer une stratégie utilisateur pour la discussion permanente
 
-Le panneau de configuration Skype entreprise Server vous permet de définir des stratégies utilisateur qui peuvent être affectées à **** des utilisateurs.
+Le panneau de configuration Skype entreprise Server vous permet de **définir des stratégies**utilisateur qui peuvent être affectées à des utilisateurs.
   
 La stratégie utilisateur remplace les stratégies globales et de site, mais uniquement pour les utilisateurs spécifiques auxquels la stratégie utilisateur est affectée.
   

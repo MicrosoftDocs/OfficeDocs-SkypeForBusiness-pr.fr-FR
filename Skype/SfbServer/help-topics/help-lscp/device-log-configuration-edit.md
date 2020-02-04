@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Vous pouvez ajouter une configuration du journal de périphériques à la page modifier le paramètre du journal qui détermine la taille maximale du cache, la taille maximale du fichier journal ou la durée de conservation du fichier journal avant sa suppression définitive. Vous pouvez modifier ces paramètres en fonction de la configuration requise de votre organisation.
-ms.openlocfilehash: 51804fb420c940494017cde86f3f8c62bd335424
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 069548626972f8daf73f1863ec08f302bf20e082
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285959"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700309"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration du fichier journal du périphérique : modifier
  
@@ -29,7 +29,7 @@ Vous pouvez ajouter une configuration du journal de périphériques à la page *
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Dans la page **modifier le paramètre journal** , vous pouvez effectuer les tâches suivantes:
+Dans la page **modifier le paramètre journal** , vous pouvez effectuer les tâches suivantes :
   
 - Ajoutez une configuration du journal de périphériques globalement ou pour un site particulier.
     

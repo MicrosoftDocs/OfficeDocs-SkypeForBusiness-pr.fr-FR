@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: Pour commencer l’installation de Skype entreprise Server 2015, vous devez préparer le schéma des services de domaine Active Directory, la forêt et les domaines qui hébergeront les serveurs et les utilisateurs. L’Assistant Déploiement de Skype entreprise Server vous guidera tout au long des étapes requises pour préparer Active Directory, en commençant par le schéma puis dans la préparation de la forêt. Après confirmation de la réussite de la réplication Active Directory, vous préparez chacun des domaines qui hébergeront des utilisateurs ou des serveurs.
-ms.openlocfilehash: a7b908bb1c6194e1b6d9b12a90d250d09815ea5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a184e67b7cb87eca95556495ab32f4ded97aaf14
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283752"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700759"
 ---
 # <a name="prepare-active-directory"></a>Préparer Active Directory
 
