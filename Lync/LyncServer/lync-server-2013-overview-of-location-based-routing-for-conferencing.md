@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de l’acheminement en fonction de l’emplacement pour les conférences'
+title: 'Lync Server 2013 : vue d’ensemble de l’acheminement en fonction de l’emplacement pour les conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Location-Based Routing for conferencing
 ms:assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362815(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895a89ee59edaf973ae5194658c4cdf12564542e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: adb103d1f2314e033d9ef0958dd05a7648012bde
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825435"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755518"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34825435"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-19_
+_**Dernière modification de la rubrique :** 2013-07-19_
 
 L’application de conférence de routage basée sur l’emplacement fournit aux conférences Lync un mécanisme de prévention du contournement du numéro RTC. L’application surveille les conférences actives et applique les restrictions de routage basées sur l’emplacement en fonction de l’emplacement des utilisateurs de Lync qui participent.
 
-L’application de conférence de routage basée sur l’emplacement détermine si le routage en fonction de l’emplacement doit être appliqué sur une réunion Lync si les critères suivants sont satisfaits:
+L’application de conférence de routage basée sur l’emplacement détermine si le routage en fonction de l’emplacement doit être appliqué sur une réunion Lync si les critères suivants sont satisfaits :
 
   - L’organisateur de la réunion est activé pour le routage par emplacement. Les restrictions de routage basées sur les emplacements ne s’appliquent qu’aux conférences organisées par des utilisateurs qui sont configurés pour le routage selon l’emplacement.
 
@@ -45,7 +47,7 @@ L’application de conférence de routage basée sur l’emplacement détermine 
 
   - Le site réseau sur lequel la passerelle PSTN utilisée pour relier la conférence au réseau téléphonique commuté est localisée, de même que les sites réseau depuis lesquels les organisateurs et les participants se connectent.
 
-L’application de conférence de routage basée sur l’emplacement empêche la participation d’utilisateurs Lync et de points de terminaison RTC de différents sites réseau à la même conférence. Si l’organisateur d’une réunion est activé pour le routage sur l’emplacement, l’application de conférence applique les restrictions suivantes:
+L’application de conférence de routage basée sur l’emplacement empêche la participation d’utilisateurs Lync et de points de terminaison RTC de différents sites réseau à la même conférence. Si l’organisateur d’une réunion est activé pour le routage sur l’emplacement, l’application de conférence applique les restrictions suivantes :
 
   - Les points de terminaison qui peuvent participer à une réunion Lync varient en fonction des points de terminaison qui ont déjà rejoint la Conférence, et cette restriction s’ajuste en tant que points de terminaison joints et de nouveaux points de terminaison rejoindre la Conférence. Si les organisateurs et les participants se connectent à une réunion Lync à partir du même site réseau, un point de terminaison PSTN, un autre participant du même site réseau, un autre participant d’un site réseau différent ou un participant d’un site réseau inconnu est autorisé à affiliation.
 
@@ -102,7 +104,7 @@ Ces restrictions de routage basées sur l’emplacement des conférences sont r�
 </table>
 
 
-Vous trouverez ci-après des caractéristiques supplémentaires de l’application de conférence de routage basée sur l’emplacement:
+Vous trouverez ci-après des caractéristiques supplémentaires de l’application de conférence de routage basée sur l’emplacement :
 
   - Lorsqu’un utilisateur ne peut pas participer à une conférence en fonction de restrictions de routage basées sur l’emplacement, les utilisateurs qui participent à la Conférence seront rejetés et son client Lync signalera que l’appel n’a pas abouti ou a pris fin.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de contournement de média'
+title: 'Lync Server 2013 : vue d’ensemble de contournement de média'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of media bypass
 ms:assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412740(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184924
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a04bc9dfa250bc399f10a56ef58f78462044f5cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 84c70cae521deebecf30e7c8ec6505b18e9842fa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825414"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825414"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 La dérivation de média est utile lorsque vous voulez réduire le nombre de serveurs de médiation déployés. En règle générale, un pool de serveurs de médiation est déployé sur un site central et contrôle les passerelles dans les sites de succursales. L’activation de la déviation du trafic multimédia permet aux médias de passer des appels PSTN (réseau téléphonique commuté) depuis des clients situés sur les sites de succursale directement par les passerelles de ces sites. Les itinéraires d’appels sortants de Lync Server 2013 et les stratégies voix entreprise doivent être correctement configurés pour que les appels RTC de clients sur un site de succursale soient routés vers la passerelle appropriée.
 

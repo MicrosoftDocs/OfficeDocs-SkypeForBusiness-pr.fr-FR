@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Publication de la topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish your topology
 ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd542db6acedbec75e475045ae2ace6d63d5469
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bd80b5b3dfdb71a054c7600a06e892f1396f048
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823664"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823664"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Chaque fois que vous utilisez le générateur de topologie pour générer votre topologie, vous devez publier la topologie sur une base de données dans la Banque centrale de gestion pour que les données puissent être utilisées pour le déploiement de Lync Server 2013. Utilisez la procédure suivante pour publier votre topologie.
 
@@ -41,7 +43,7 @@ Chaque fois que vous utilisez le générateur de topologie pour générer votre 
 
 ## <a name="to-publish-the-topology"></a>Pour publier la topologie
 
-1.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+1.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
 2.  Dans le générateur de topologie, dans l’arborescence de la console, cliquez avec le bouton droit sur **Lync 2013**, puis cliquez sur **topologie de publication**.
 
@@ -51,7 +53,7 @@ Chaque fois que vous utilisez le générateur de topologie pour générer votre 
 
 5.  Dans la page **Créer d’autres bases de données**, cliquez sur **Suivant**.
 
-6.  Lorsque l’état indique la création réussie de la base de données, procédez comme suit:
+6.  Lorsque l’état indique la création réussie de la base de données, procédez comme suit :
     
       - Pour afficher le journal, cliquez sur **Afficher le journal**.
     

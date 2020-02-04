@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création d’une configuration de l’archivage pour gérer l’archivage de sites ou de groupes spécifiques'
+title: 'Lync Server 2013 : création d’une configuration de l’archivage pour gérer l’archivage de sites ou de groupes spécifiques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating an Archiving configuration to manage Archiving for specific sites or pools
 ms:assetid: c5c864a6-96c7-4bbb-ab7c-61eb1744246c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39ff0add99f41e31ad585b58112146a7f52cc1b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b0495a15d19adba9ac21fb7817347a16b78bc13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831769"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762742"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34831769"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
-Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour contrôler l’implémentation de l’archivage dans votre déploiement. Cela inclut les configurations d’archivage suivantes:
+Dans Lync Server 2013 panneau de configuration, vous utilisez des configurations d’archivage pour contrôler l’implémentation de l’archivage dans votre déploiement. Cela inclut les configurations d’archivage suivantes :
 
   - Configuration globale créée par défaut lors du déploiement de Lync Server 2013.
 
   - Configurations facultatives de niveau de site et de niveau groupe que vous pouvez créer et utiliser pour spécifier la façon dont l’archivage est implémenté pour des sites ou des groupes spécifiques.
 
-Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, déploiement documentation ou documentation sur les opérations.
+Vous définissez initialement des configurations d’archivage lors du déploiement de l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Pour plus d’informations sur l’implémentation des configurations d’archivage, notamment les options que vous pouvez spécifier et la hiérarchie des configurations d’archivage, voir fonctionnement [de l’archivage dans Lync Server 2013](lync-server-2013-how-archiving-works.md) dans la documentation de planification, la documentation de déploiement ou les opérations.
 
 <div>
 
@@ -97,7 +99,7 @@ Vous définissez initialement des configurations d’archivage lors du déploiem
 
 ## <a name="creating-archiving-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de paramètres de configuration de l’archivage à l’aide d’applets de cmdlet Windows PowerShell
 
-Les paramètres de configuration de l’archivage peuvent être créés à l’aide de Windows PowerShell et de l’applet de nouvelle cmdlet New-CsArchivingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Les paramètres de configuration de l’archivage peuvent être créés à l’aide de Windows PowerShell et de l’applet de nouvelle cmdlet New-CsArchivingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
@@ -113,7 +115,7 @@ Les paramètres de configuration de l’archivage peuvent être créés à l’a
 
 ## <a name="to-create-a-new-collection-of-archiving-configuration-settings-that-only-allow-im-archiving"></a>Pour créer une collection de paramètres de configuration de l’archivage qui autorise uniquement l’archivage des messages instantanés
 
-  - Comme aucun paramètre (autre que celui obligatoire sur l’identité) n’a été précisé dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés. Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de l’archivage qui, par défaut, autorise l’archivage des sessions de messagerie instantanée, utilisez uniquement une commande comme celle-ci:
+  - Comme aucun paramètre (autre que celui obligatoire sur l’identité) n’a été précisé dans la commande précédente, la nouvelle collection de paramètres de configuration utilise les valeurs par défaut pour toutes ses propriétés. Pour créer des paramètres qui font appel à d’autres valeurs de propriétés, incluez simplement le paramètre approprié et sa valeur. Par exemple, pour créer un ensemble de paramètres de configuration de l’archivage qui, par défaut, autorise l’archivage des sessions de messagerie instantanée, utilisez uniquement une commande comme celle-ci :
     
         New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de synthèse sur la qualité multimédia'
+title: 'Lync Server 2013 : rapport de synthèse sur la qualité multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Summary Report
 ms:assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615012(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c967c6d6b120c73cb933281d4edb17be1868900
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6980168a2d509bc32b9aa48f30167bca8721fef2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827493"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827493"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-06-29_
+_**Dernière modification de la rubrique :** 2016-06-29_
 
 Le rapport de synthèse de la qualité des médias permet d’analyser la qualité des appels au sein de votre organisation : ce rapport fournit des mesures d’appel de qualité de l’expérience (QoE) détaillées décomposées selon les catégories suivantes :
 
@@ -53,7 +55,7 @@ Le rapport de synthèse de la qualité des médias permet d’analyser la qualit
 
 Quand vous ouvrez le rapport pour la première fois, une synthèse des informations pour chaque catégorie s’affiche. Sans quitter le rapport, vous pouvez développer chaque catégorie pour afficher des sous-catégories, comme les appels passés à partir d’Office Communicator 2007 R2 vers Lync 2013. Vous pouvez développer également ces sous-catégories pour afficher des détails sur chaque appel passé dans cette sous-catégorie.
 
-Dans Microsoft Lync Server 2013, le rapport synthèse qualité multimédia répartit les données en trois types d’appels: les appels audio, les appels vidéo et les appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
+Dans Microsoft Lync Server 2013, le rapport synthèse qualité multimédia répartit les données en trois types d’appels : les appels audio, les appels vidéo et les appels de partage d’application. Chaque type d’appel correspond à une section du rapport, et dispose d’un ensemble personnalisé de mesures des appels.
 
 Le rapport de synthèse de la qualité des médias vous permet d’appliquer des filtres pour comparer la qualité des appels entre les appels câblés et les appels sans fil, les appels internes et externes, les appels VPN et non VPN.
 
@@ -61,7 +63,7 @@ Le rapport de synthèse de la qualité des médias vous permet d’appliquer des
 
 ## <a name="accessing-the-media-quality-summary-report"></a>Accès au rapport de synthèse de la qualité des médias
 
-Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes:
+Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez explorer le rapport de la [liste d’appels dans Lync Server 2013](lync-server-2013-call-list-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Volume d’appels
 

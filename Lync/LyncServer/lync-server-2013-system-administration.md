@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: administration du système'
+title: 'Lync Server 2013 : administration du système'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System administration
 ms:assetid: 063eb962-b96a-4699-8579-bb7125112df4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720318(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d62526daf43308b4ed38538e5ea16e15b271fc9a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e10f0d340ec0d291d0b184b8649f8f132683e08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846714"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-18_
+_**Dernière modification de la rubrique :** 2014-08-18_
 
 L’administration du système inclut les tâches d’administration quotidiennes, planifiées et à la demande, qui sont nécessaires pour maintenir le fonctionnement du système informatique en toute transparence. En règle générale, les tâches d’administration système sont couvertes par des procédures écrites. Ces procédures permettent de vérifier que les mêmes outils et méthodes standard sont utilisés par tous les membres du personnel de support technique.
 
@@ -55,7 +57,7 @@ Le diagramme suivant illustre le processus de résolution des problèmes de syst
 
 **Organigramme de résolution des problèmes système**
 
-![Organigramme de résolution des problèmes système] (images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Organigramme de résolution des problèmes système")
+![Organigramme de dépannage du système](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Organigramme de dépannage du système")
 
   - **Pour classer et**   définir la priorité de cette tâche, le service d’assistance est généralement exécuté. Par exemple, un problème est susceptible d’être regroupé en tant que problème logiciel ou en cas de problème de matériel. Le problème est ensuite acheminé vers l’équipe de support technique appropriée pour examen. Les règles de détermination de la priorité d’un problème, ainsi que le temps de réponse et le temps de résolution, sont généralement définis dans le contrat SLA.
 

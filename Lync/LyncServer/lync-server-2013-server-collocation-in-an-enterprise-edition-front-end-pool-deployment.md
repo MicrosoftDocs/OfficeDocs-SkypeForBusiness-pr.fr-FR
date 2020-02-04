@@ -3,6 +3,8 @@ title: Colocalisation de serveur Lync Server 2013 lors d’un déploiement de po
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server collocation in an Enterprise Edition Front End pool deployment
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398102(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6947d732cf17cc053e48596ffd310f5df3b11636
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ad549c614fc14b74126a7e81e0223ad584e68141
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822019"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822019"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-11_
+_**Dernière modification de la rubrique :** 2013-11-11_
 
 Cette section décrit les rôles de serveur, les bases de données et les partages de fichiers que vous pouvez collocate dans un déploiement de pool frontal Lync Server 2013.
 
@@ -45,7 +47,7 @@ Dans Lync Server 2013, le service de conférence A/V, le service de médiation, 
 
 Vous pouvez collocate un serveur d’applications de confiance auprès du serveur frontal.
 
-Les rôles serveur suivants doivent être déployés sur un autre ordinateur:
+Les rôles serveur suivants doivent être déployés sur un autre ordinateur :
 
   - directeur
 
@@ -63,7 +65,7 @@ Vous ne pouvez pas collocate le rôle serveur de chat permanent avec le serveur 
 
 ## <a name="databases"></a>Bases de données
 
-Vous pouvez collocater les bases de données suivantes sur le même serveur de base de données:
+Vous pouvez collocater les bases de données suivantes sur le même serveur de base de données :
 
   - Base de données principale
 
@@ -75,7 +77,7 @@ Vous pouvez collocater les bases de données suivantes sur le même serveur de b
 
   - Base de données de compatibilité des conversations permanentes
 
-Vous pouvez collocate tout ou partie de ces bases de données dans une instance unique de SQL Server ou utiliser une instance distincte de SQL Server pour chacune d’elles, avec les limitations suivantes:
+Vous pouvez collocate tout ou partie de ces bases de données dans une instance unique de SQL Server ou utiliser une instance distincte de SQL Server pour chacune d’elles, avec les limitations suivantes :
 
   - Chaque instance de SQL Server peut contenir uniquement une seule base de données principale, une base de données de surveillance unique, une base de données d’archivage unique, une seule base de données de chat permanent et une seule et même base de données de conformité des conversations permanentes.
 
@@ -109,7 +111,7 @@ Vous pouvez collocate un partage de fichiers avec les bases de données, comme d
 
 ## <a name="file-share"></a>Partage de fichiers
 
-Le partage de fichiers peut être un serveur distinct ou être colocalisé sur le même serveur que tout ou partie des éléments suivants:
+Le partage de fichiers peut être un serveur distinct ou être colocalisé sur le même serveur que tout ou partie des éléments suivants :
 
   - Serveur de base de données, y compris le serveur principal d’un pool frontal Enterprise Edition
 

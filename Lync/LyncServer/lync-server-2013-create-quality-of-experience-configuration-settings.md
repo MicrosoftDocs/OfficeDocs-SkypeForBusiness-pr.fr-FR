@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: créer des paramètres de configuration de qualité d’expertise'
+title: 'Lync Server 2013 : créer des paramètres de configuration de qualité d’expertise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Quality of Experience configuration settings
 ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 947fb50c057fdcc04fe7d1b30d25bc8f5a5f4a02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f651da026dcf73253eaccada14332a7f2f5c1f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831777"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34831777"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les mesures de la qualité de l’expérience (QoE) effectuent le suivi de la qualité des appels audio et vidéo dans votre organisation, y compris le nombre de paquets réseau perdus, le bruit de fond et le montant de « gigue » (différences de retard des paquets). Ces mesures sont stockées dans une base de données distincte des autres données (telles que les enregistrements des détails des appels), ce qui permet d’activer et de désactiver l’enregistrement QoE indépendamment de l’enregistrement des autres données.
 
 Lorsque vous installez Microsoft Lync Server 2013, une collection globale unique de paramètres de configuration QoE est créée pour vous. Les administrateurs peuvent aussi créer des paramètres personnalisés sur l’étendue du site. Chaque fois que ces paramètres d’étendue de site sont utilisés, ils prennent la priorité sur les paramètres globaux. Par exemple, si vous créez des paramètres pour l’étendue du site de Redmond, ces paramètres (au lieu des paramètres globaux) servent alors à gérer QoE à Redmond.
 
-Les paramètres de configuration QoE peuvent être créés à l’aide du panneau de configuration de Lync Server ou de l’applet [de commande New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) . Si vous utilisez le panneau de configuration de Lync Server pour créer des paramètres, les options suivantes sont disponibles:
+Les paramètres de configuration QoE peuvent être créés à l’aide du panneau de configuration de Lync Server ou de l’applet [de commande New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsQoEConfiguration) . Si vous utilisez le panneau de configuration de Lync Server pour créer des paramètres, les options suivantes sont disponibles :
 
 
 <table>
@@ -120,7 +122,7 @@ Les paramètres de configuration QoE peuvent être créés à l’aide du pannea
 
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de paramètres de configuration QoE à l’aide d’applets de cmdlet Windows PowerShell
 
-Vous pouvez créer des paramètres de configuration QoE à l’aide de Windows PowerShell et de l’applet de nouvelle applet de nouveau-CsQoEConfiguration. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez créer des paramètres de configuration QoE à l’aide de Windows PowerShell et de l’applet de nouvelle applet de nouveau-CsQoEConfiguration. Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

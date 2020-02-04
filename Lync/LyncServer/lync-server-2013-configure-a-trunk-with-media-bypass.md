@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’une Trunk avec dérivation multimédia'
+title: 'Lync Server 2013 : configuration d’une Trunk avec dérivation multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trunk with media bypass
 ms:assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398792(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41f5f254dfd3ad63d3f6390f16837c777bd02a91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16c12a5d8cff03f8d5755b5a2b54a6ff4dcf8399
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838491"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838491"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-07_
+_**Dernière modification de la rubrique :** 2014-02-07_
 
 Pour configurer une jonction avec l’option de déviation du trafic multimédia activée, procédez comme suit. Pour configurer un Trunk with Media Bypass Disabled, voir [configurer un Trunk sans dérivation multimédia dans Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md). La dérivation de média est utile lorsque vous voulez réduire le nombre de serveurs de médiation déployés. En règle générale, un pool de serveurs de médiation est déployé sur un site central et contrôle les passerelles dans les sites de succursales. L’activation de la déviation du trafic multimédia permet aux médias de passer des appels PSTN (réseau téléphonique commuté) depuis des clients situés sur les sites de succursale directement par les passerelles de ces sites. Les itinéraires d’appels sortants de Lync Server 2013 et les stratégies voix entreprise doivent être correctement configurés pour que les appels RTC de clients sur un site de succursale soient routés vers la passerelle appropriée.
 
@@ -69,9 +71,9 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
     
       - Cliquez sur **Nouvelle**, puis sélectionnez une étendue pour la nouvelle configuration de jonction :
         
-          - **Trunk de site:** Choisissez le site pour cette configuration de Trunk dans **Sélectionner un site**, puis cliquez sur **OK**. Notez que si une configuration de Trunk a déjà été créée pour un site, ce site n’apparaît pas dans **Sélectionner un site**. Cette configuration de Trunk est appliquée à tous les Trunks du site.
+          - **Trunk de site :** Choisissez le site pour cette configuration de Trunk dans **Sélectionner un site**, puis cliquez sur **OK**. Notez que si une configuration de Trunk a déjà été créée pour un site, ce site n’apparaît pas dans **Sélectionner un site**. Cette configuration de Trunk est appliquée à tous les Trunks du site.
         
-          - **Trunk de réserve:** Sélectionnez le nom du Trunk auquel cette configuration de Trunk s’applique. Ce Trunk peut être le Trunk racine ou d’éventuelles liaisons supplémentaires définies dans le générateur de topologie. Dans **Sélectionner un service**, cliquez sur **OK**. Notez que si une configuration de Trunk a déjà été créée pour une ligne particulière, le Trunk n’apparaît pas dans **Sélectionner un service**.
+          - **Trunk de réserve :** Sélectionnez le nom du Trunk auquel cette configuration de Trunk s’applique. Ce Trunk peut être le Trunk racine ou d’éventuelles liaisons supplémentaires définies dans le générateur de topologie. Dans **Sélectionner un service**, cliquez sur **OK**. Notez que si une configuration de Trunk a déjà été créée pour une ligne particulière, le Trunk n’apparaît pas dans **Sélectionner un service**.
     
     <div>
     
@@ -95,11 +97,11 @@ Une configuration de jonction, décrite ci-dessous, regroupe un ensemble de para
 
 6.  Sélectionnez l’une des options de **Niveau de prise en charge du chiffrement** :
     
-      - **Obligatoire:** Le chiffrement SRTP (Secure Real-Time Transport Protocol) doit être utilisé pour protéger le trafic entre le serveur de médiation et la passerelle ou le PBX (Private Branch Exchange).
+      - **Obligatoire :** Le chiffrement SRTP (Secure Real-Time Transport Protocol) doit être utilisé pour protéger le trafic entre le serveur de médiation et la passerelle ou le PBX (Private Branch Exchange).
     
-      - **Facultatif:** Le chiffrement SRTP est utilisé si le prestataire de services ou le fabricant du matériel le prend en charge.
+      - **Facultatif :** Le chiffrement SRTP est utilisé si le prestataire de services ou le fabricant du matériel le prend en charge.
     
-      - **Non pris en charge:** Le chiffrement SRTP n’est pas pris en charge par le fabricant du fournisseur de services ou de l’équipement et ne sera donc pas utilisé.
+      - **Non pris en charge :** Le chiffrement SRTP n’est pas pris en charge par le fabricant du fournisseur de services ou de l’équipement et ne sera donc pas utilisé.
 
 7.  Activez la case à cocher **Activer la déviation du trafic multimédia** si vous souhaitez que le trafic multimédia contourne le serveur de médiation pour être traité par l’homologue de jonction.
     

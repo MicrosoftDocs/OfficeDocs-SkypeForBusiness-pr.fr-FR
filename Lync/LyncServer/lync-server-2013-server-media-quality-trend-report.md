@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de tendance de qualité multimédia Server'
+title: 'Lync Server 2013 : rapport de tendance de qualité multimédia Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server Media Quality Trend Report
 ms:assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc60cd4c0d8d00fa67a5fe77ca70e61058191baa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4efb7e2f29c1da75a81f4df4ec586c396d77d3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821872"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821872"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-12_
+_**Dernière modification de la rubrique :** 2012-11-12_
 
 Le rapport de tendances de la qualité Media Media fournit un moyen de comparer graphiquement les performances d’une qualité d’appel, par exemple le volume des appels, le pourcentage d’appels médiocres, la perte de paquets et l’instabilité. Cela permet d’identifier plus facilement les serveurs dont les performances sont médiocres, les serveurs qui sont sous-utilisés ou sur-utilisés.
 
@@ -43,7 +45,7 @@ Le rapport de tendances de la qualité Media Media fournit un moyen de comparer 
 
 Le rapport de tendance générale de la qualité des médias serveur est accessible à partir de l’un des rapports suivants :
 
-  - [Rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la mesure de tendance)
+  - [Rapport sur les performances du serveur dans Lync Server 2013](lync-server-2013-server-performance-report.md) (en cliquant sur la métrique de Trend)
 
   - [Rapport Détails des appels dans Lync Server 2013](lync-server-2013-call-detail-report.md) (en cliquant sur la métrique du serveur Edge A/V). Si l’appelant ou l’appelé est un serveur, vous pouvez également accéder au rapport de tendance de la qualité des médias serveur en cliquant sur le nom du point de terminaison.)
 

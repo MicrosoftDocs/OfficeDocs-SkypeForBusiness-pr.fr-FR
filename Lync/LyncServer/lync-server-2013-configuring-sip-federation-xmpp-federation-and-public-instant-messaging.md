@@ -3,6 +3,8 @@ title: Configuration des fédérations SIP et XMPP et de la messagerie instantan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring SIP federation, XMPP federation and public instant messaging
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205134(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82e154347c0a77dd4367678fefd518b1abf2fc7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 45abe0b4c32cf236912ad1a0e39f842653817e59
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838180"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 La Fédération, la connectivité de messagerie instantanée publique et le protocole XMPP (extensible Messaging and Presence Protocol) définissent une catégorie différente d’utilisateurs externes – utilisateurs fédérés. Les utilisateurs d’un déploiement de déploiement de Lync Server ou de déploiement XMPP peuvent avoir accès à un ensemble de services limité et être authentifiés par le déploiement externe. Les utilisateurs distants sont membres de votre déploiement Lync Server et ont accès à tous les services proposés par votre déploiement.
 
@@ -41,13 +43,13 @@ La Fédération, la connectivité de messagerie instantanée publique et le prot
 
 
 > [!NOTE]
-> Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.
+> Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.
 
 
 
 </div>
 
-La connectivité de messagerie instantanée publique est un type spécial de Fédération qui permet à un client du serveur Lync d’accéder aux fournisseurs de messagerie instantanée publics à l’aide de la 2013 Lync. Les partenaires de connectivité de messagerie instantanée publics actuels sont les suivants:
+La connectivité de messagerie instantanée publique est un type spécial de Fédération qui permet à un client du serveur Lync d’accéder aux fournisseurs de messagerie instantanée publics à l’aide de la 2013 Lync. Les partenaires de connectivité de messagerie instantanée publics actuels sont les suivants :
 
   - <span></span>  
     America Online
@@ -56,9 +58,9 @@ La connectivité de messagerie instantanée publique est un type spécial de Fé
     Windows Live
 
   - <span></span>  
-    Yahoo!\!
+    Yahoo !\!
 
-Une configuration de connectivité de messagerie instantanée publique permet aux utilisateurs de Lync d’accéder aux utilisateurs de la connectivité de messagerie instantanée publique de la façon suivante:
+Une configuration de connectivité de messagerie instantanée publique permet aux utilisateurs de Lync d’accéder aux utilisateurs de la connectivité de messagerie instantanée publique de la façon suivante :
 
   - Messagerie instantanée et présence
 
@@ -68,13 +70,13 @@ Une configuration de connectivité de messagerie instantanée publique permet au
 
   - Appels audio et vidéo avec les utilisateurs de Windows Live
 
-Lync Server Federation définit un accord entre le déploiement de votre serveur Lync et d’autres déploiements Office Communications Server 2007 R2 ou Lync Server. Une configuration fédérée de Lync Server permet aux utilisateurs de Lync d’accéder aux utilisateurs fédérés en procédant comme suit:
+Lync Server Federation définit un accord entre le déploiement de votre serveur Lync et d’autres déploiements Office Communications Server 2007 R2 ou Lync Server. Une configuration fédérée de Lync Server permet aux utilisateurs de Lync d’accéder aux utilisateurs fédérés en procédant comme suit :
 
   - Messagerie instantanée et présence
 
   - Création de contacts fédérés dans le client Lync
 
-La Fédération XMPP définit un déploiement externe en fonction du protocole de messagerie eXtensible et de présence. Une configuration XMPP permet aux utilisateurs de Lync d’accéder aux utilisateurs de domaine XMPP autorisés en procédant comme suit:
+La Fédération XMPP définit un déploiement externe en fonction du protocole de messagerie eXtensible et de présence. Une configuration XMPP permet aux utilisateurs de Lync d’accéder aux utilisateurs de domaine XMPP autorisés en procédant comme suit :
 
   - Messagerie instantanée et présence-personne à personne uniquement
 

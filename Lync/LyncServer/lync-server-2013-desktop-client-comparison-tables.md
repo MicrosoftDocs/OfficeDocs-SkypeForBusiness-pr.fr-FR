@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: tableau de comparaison des clients de bureau'
+title: 'Lync Server 2013 : tableau de comparaison des clients de bureau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Desktop client comparison tables
 ms:assetid: 34e24103-aec7-4471-a155-933b6fb83c95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bb1313e320b78bf22964bc0a35a6d8c07e9733
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 74d3f54ff5239bf157fa8988f8de71f9d8355790
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762492"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831508"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2018-01-23_
+_**Dernière modification de la rubrique :** 2018-01-23_
 
-Les tableaux suivants comparent les fonctionnalités et capacités des clients 2013 Lync dans les catégories suivantes:
+Les tableaux suivants comparent les fonctionnalités et capacités des clients 2013 Lync dans les catégories suivantes :
 
   - Prise en charge de la présence avancée
 
@@ -73,7 +75,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 > <LI>
 > <P>Pour plus d’informations sur les offres d’abonnement à Skype entreprise Online, reportez-vous <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>à la rubrique Description du service Skype entreprise Online à l’adresse.</P>
 > <LI>
-> <P>Lync Server 2013 prend en charge les clients suivants précédemment disponibles: Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients, voir la version 2010 de Lync des tableaux de <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>comparaison des clients à l’adresse.</P>
+> <P>Lync Server 2013 prend en charge les clients suivants précédemment disponibles : Lync 2010, Lync 2010 mobile, Lync Phone Edition et Lync 2010 attendant. Pour plus d’informations sur ces clients, voir la version 2010 de Lync des tableaux de <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>comparaison des clients à l’adresse.</P>
 > <LI>
 > <P>Le client Lync 2013 prend en charge l’audio et la vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Pour plus d’informations sur les fonctionnalités 2013 de Lync dans un environnement VDI, voir <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">technologies de virtualisation prises en charge et limitations connues dans Lync Server 2013</A>.</P></LI></UL>
 
@@ -1719,7 +1721,7 @@ Les tableaux suivants indiquent les fonctionnalités disponibles pour les utilis
 
 ## <a name="basic-client-limitations"></a>Limitations du client de base
 
-Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base:
+Les fonctionnalités suivantes sont disponibles avec le client complet et ne sont pas disponibles avec le client de base :
 
   - Gérer les paramètres d'appel d'équipe
 
@@ -1745,17 +1747,17 @@ Les fonctionnalités suivantes sont disponibles avec le client complet et ne son
 
 ## <a name="online-or-hybrid-user-account-limitations"></a>Limitations relatives aux comptes d’utilisateurs en ligne ou hybrides
 
-Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet:
+Les comptes d’utilisateur peuvent exister en ligne ou en local, ce qui affectera les fonctionnalités disponibles pour cet utilisateur. Les utilisateurs disposant d’un compte dans Skype entreprise Online ne pourront pas accéder aux fonctions suivantes, même avec le client complet :
 
-  - Présence améliorée: utiliser une photo de n’importe quel site public pour mon image
+  - Présence améliorée : utiliser une photo de n’importe quel site public pour mon image
 
-  - Contacts: recherche de Response Groups
+  - Contacts : recherche de Response Groups
 
-  - Prise en charge de la messagerie instantanée: intégration des discussions permanentes (discussion de groupe)
+  - Prise en charge de la messagerie instantanée : intégration des discussions permanentes (discussion de groupe)
 
-  - Prise en charge de la messagerie instantanée: remonter une salle de conversation permanente vers une réunion en un clic
+  - Prise en charge de la messagerie instantanée : remonter une salle de conversation permanente vers une réunion en un clic
 
-  - Utilisateurs externes: diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
+  - Utilisateurs externes : diriger des appels à deux ou plusieurs parties avec des utilisateurs externes
 
 </div>
 

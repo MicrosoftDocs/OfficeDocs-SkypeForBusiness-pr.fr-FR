@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Stratégies de messagerie vocale hébergées'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted voice mail policies
 ms:assetid: d62a35ed-cbe2-4f06-86b4-e192c18435c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398932(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23f5fa67a34d479bbc5b9d5c9bf55071b187c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 811f975868dad7bc0fcf6d5a2867ca2f3b81cd59
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831062"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Une *stratégie de messagerie vocale hébergée* fournit des informations à l’application de routage de l’ExUM de Lync Server 2013 sur l’emplacement de routage des appels pour les utilisateurs dont la boîte aux lettres est située sur un service Exchange hébergé.
 
@@ -51,7 +53,7 @@ Une *stratégie de messagerie vocale hébergée* fournit des informations à l�
 
 ## <a name="hosted-voice-mail-policy-scope"></a>Étendue de la stratégie de messagerie vocale hébergée
 
-L’étendue de la stratégie de messagerie vocale hébergée détermine le niveau hiérarchique auquel la stratégie s’applique. Vous pouvez configurer des stratégies de messagerie vocale hébergées avec les niveaux d’étendue suivants:
+L’étendue de la stratégie de messagerie vocale hébergée détermine le niveau hiérarchique auquel la stratégie s’applique. Vous pouvez configurer des stratégies de messagerie vocale hébergées avec les niveaux d’étendue suivants :
 
   - La stratégie *globale* peut potentiellement affecter tous les utilisateurs dans le déploiement de Lync Server 2013. Si un utilisateur est autorisé à utiliser l’accès à la messagerie unifiée Exchange hébergé sans avoir reçu une stratégie individuelle et qu’aucune stratégie de site ne lui a été attribuée, la politique globale s’applique. La stratégie globale est installée avec Lync Server 2013. Vous pouvez le modifier en fonction de vos besoins, mais vous ne pouvez pas le renommer ou le supprimer.
 
@@ -75,9 +77,9 @@ L’étendue de la stratégie de messagerie vocale hébergée détermine le nive
 
 ## <a name="hosted-voice-mail-policy-attributes"></a>Attributs de la stratégie de messagerie vocale hébergée
 
-Une stratégie de messagerie vocale définit les deux attributs insérés par l’application de routage Lync Server 2013 dans l’URI de requête d’un message d’invitation qui est envoyé à l’implémentation de MU Exchange hébergée:
+Une stratégie de messagerie vocale définit les deux attributs insérés par l’application de routage Lync Server 2013 dans l’URI de requête d’un message d’invitation qui est envoyé à l’implémentation de MU Exchange hébergée :
 
-  - **Destination:** Nom de domaine complet (FQDN) du service de messagerie unifiée Exchange hébergé. Cette valeur est utilisée par le serveur Edge Lync Server local à des fins de routage.
+  - **Destination :** Nom de domaine complet (FQDN) du service de messagerie unifiée Exchange hébergé. Cette valeur est utilisée par le serveur Edge Lync Server local à des fins de routage.
     
     <div>
     
@@ -88,7 +90,7 @@ Une stratégie de messagerie vocale définit les deux attributs insérés par l�
     
     </div>
 
-  - **Organisation:** Nom de domaine complet (FQDN) du client sur le service de messagerie unifiée Exchange hébergé qui héberge les boîtes aux lettres des utilisateurs de Lync Server 2013. Une stratégie de messagerie vocale peut contenir plusieurs organisations. S’il s’agit de plusieurs organisations, cet attribut doit être une liste séparée par des virgules des clients du serveur Exchange qui se trouvent à l’origine de vos boîtes aux lettres d’utilisateur Lync Server 2013.
+  - **Organisation :** Nom de domaine complet (FQDN) du client sur le service de messagerie unifiée Exchange hébergé qui héberge les boîtes aux lettres des utilisateurs de Lync Server 2013. Une stratégie de messagerie vocale peut contenir plusieurs organisations. S’il s’agit de plusieurs organisations, cet attribut doit être une liste séparée par des virgules des clients du serveur Exchange qui se trouvent à l’origine de vos boîtes aux lettres d’utilisateur Lync Server 2013.
 
 <div>
 
@@ -100,7 +102,7 @@ Une stratégie de messagerie vocale définit les deux attributs insérés par l�
 
 </div>
 
-Pour plus d’informations sur la gestion des stratégies de messagerie vocale hébergée, consultez la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur la gestion des stratégies de messagerie vocale hébergée, consultez la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - Nouveau-CsHostedVoicemailPolicy
 
@@ -116,7 +118,7 @@ Pour plus d’informations sur la gestion des stratégies de messagerie vocale h
 
 Si votre stratégie de messagerie vocale hébergée est définie avec une étendue par utilisateur, vous devez l’attribuer explicitement. Vous pouvez exécuter l’applet de passe Grant-CsHostedVoicemailPolicy pour affecter la stratégie à des utilisateurs ou groupes individuels.
 
-Pour plus d’informations sur l’attribution ou la suppression d’une stratégie de messagerie vocale hébergée par utilisateur, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’attribution ou la suppression d’une stratégie de messagerie vocale hébergée par utilisateur, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - Grant-CsHostedVoicemailPolicy
 

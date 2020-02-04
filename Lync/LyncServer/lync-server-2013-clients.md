@@ -3,6 +3,8 @@ title: Clients Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients for Lync Server
 ms:assetid: e143ce9b-3624-4066-942d-6c86ad99be91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0012719827a79b92a699a642c3518db6b4c7c222
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b74341cca1d66309cecf405fda92ce944995ec53
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838564"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838564"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-01-23_
+_**Dernière modification de la rubrique :** 2014-01-23_
 
 Lync Server 2013 prend en charge plusieurs types de logiciels clients que vous pouvez déployer pour les utilisateurs de votre organisation, notamment les logiciels clients installés sur un ordinateur, les clients Web et les appareils mobiles. Cette rubrique décrit les clients que vous pouvez utiliser. Pour obtenir une comparaison détaillée des fonctionnalités fournies par les clients Lync Server 2013, voir les [tableaux de comparaison des clients pour Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
@@ -87,7 +89,7 @@ Lync 2013 Basic est un client téléchargeable destiné aux clients disposant d�
 
 ## <a name="lync-windows-store-app"></a>Application Lync du Windows Store
 
-L’application Lync du Windows Store est une application Lync optimisée pour l’interaction pour Windows 8,1, Windows 8 et Windows RT. Les utilisateurs peuvent télécharger l’application par le biais du Windows Store en recherchant «Lync». Pour plus d’informations, reportez-vous à la rubrique [tableau de comparaison client pour Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md), [Configuration requise pour l’application Lync du Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)et [déploiement de l’application Lync du windows Store dans Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md).
+L’application Lync du Windows Store est une application Lync optimisée pour l’interaction pour Windows 8,1, Windows 8 et Windows RT. Les utilisateurs peuvent télécharger l’application par le biais du Windows Store en recherchant « Lync ». Pour plus d’informations, reportez-vous à la rubrique [tableau de comparaison client pour Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md), [Configuration requise pour l’application Lync du Windows Store pour Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)et [déploiement de l’application Lync du windows Store dans Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md).
 
 </div>
 
@@ -107,7 +109,7 @@ Lync Server 2013 prend en charge les clients suivants dans les versions antérie
 
   - **Lync 2010**   Lync 2010 fournit une expérience complète pour le bureau, comme la messagerie instantanée, la présence améliorée, la voix, la vidéo, le partage et la téléphonie. Toutefois, aucune des nouvelles fonctionnalités introduites dans Lync Server 2013 ne sera disponible tant que le client de l’utilisateur n’a pas été mis à niveau vers Lync 2013.
 
-  - **Lync 2010 mobile**   Lync Server 2013 prend en charge toutes les applications mobiles Microsoft Lync 2010. Microsoft Lync 2010 mobile fournit la messagerie instantanée, la présence améliorée et la téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un téléphone exécutant une édition professionnelle de Windows Mobile. Vous pouvez indiquer à vos utilisateurs d’installer Microsoft Lync 2010 mobile en les redirigeant vers l’application Marketplace sur leur téléphone mobile. Pour plus d’informations, consultez la section «planification des clients mobiles» dans la documentation [http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)Lync Server 2010 à l’adresse.
+  - **Lync 2010 mobile**   Lync Server 2013 prend en charge toutes les applications mobiles Microsoft Lync 2010. Microsoft Lync 2010 mobile fournit la messagerie instantanée, la présence améliorée et la téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un téléphone exécutant une édition professionnelle de Windows Mobile. Vous pouvez indiquer à vos utilisateurs d’installer Microsoft Lync 2010 mobile en les redirigeant vers l’application Marketplace sur leur téléphone mobile. Pour plus d’informations, consultez la section « planification des clients mobiles » dans la documentation [http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)Lync Server 2010 à l’adresse.
 
   - ****   Le logiciel Lync Phone Edition Lync Phone Edition pour les téléphones IP intelligents (par exemple, les téléphones connectés à USB) n’a pas été mis à jour pour Lync Server 2013. Lync Phone Edition continue d’être pris en charge dans le cas du placement et de la réception d’appels, de la présence améliorée et des fonctionnalités audio du client pour les conférences.
 

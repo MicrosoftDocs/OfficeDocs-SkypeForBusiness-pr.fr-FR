@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control XMPP federated user access
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552446(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ec90a1b079935713ce6f13e7b74763e7004dedf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc79a915d0735f87c0852dff0ba4228b1e391fd8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838343"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
 
@@ -59,7 +61,7 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
 
-4.  Dans la page de **stratégie d’accès externe** , procédez comme suit pour la stratégie globale:
+4.  Dans la page de **stratégie d’accès externe** , procédez comme suit pour la stratégie globale :
 
 5.  Cliquez sur la stratégie globale, sur **modifier**, puis sur Afficher les détails.
 
@@ -111,13 +113,13 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Dans Lync Server Management Shell, tapez ce qui suit:
+3.  Dans Lync Server Management Shell, tapez ce qui suit :
     
         Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false>
     
-    Un exemple de commande qui définit la stratégie globale pour l’accès utilisateur fédéré à vrai (activé) et à l’accès au domaine XMPP sur vrai (activé):
+    Un exemple de commande qui définit la stratégie globale pour l’accès utilisateur fédéré à vrai (activé) et à l’accès au domaine XMPP sur vrai (activé) :
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true
 
@@ -129,13 +131,13 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Dans Lync Server Management Shell, tapez ce qui suit:
+3.  Dans Lync Server Management Shell, tapez ce qui suit :
     
         New-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false>
     
-    Commande d’exemple qui définira une stratégie de site pour le site de Redmond pour l’accès des utilisateurs fédérés à l’accès au domaine activé et XMPP sur activé:
+    Commande d’exemple qui définira une stratégie de site pour le site de Redmond pour l’accès des utilisateurs fédérés à l’accès au domaine activé et XMPP sur activé :
     
         New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true
 
@@ -147,17 +149,17 @@ Lorsque vous configurez des stratégies pour la prise en charge des partenaires 
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Dans Lync Server Management Shell, tapez ce qui suit:
+3.  Dans Lync Server Management Shell, tapez ce qui suit :
     
         Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>
     
-    Voici un exemple de commande qui supprimera une stratégie de l’utilisateur:
+    Voici un exemple de commande qui supprimera une stratégie de l’utilisateur :
     
         Remove-CsExternalAccessPolicy -Identity EAPUserPolicySetXMPP
 
-4.  Par exemple, la commande suivante réinitialise la stratégie globale sur les valeurs par défaut:
+4.  Par exemple, la commande suivante réinitialise la stratégie globale sur les valeurs par défaut :
     
         Remove-CsExternalAccessPolicy -Identity global
 

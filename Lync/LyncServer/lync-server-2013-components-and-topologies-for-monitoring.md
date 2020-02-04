@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Composants et topologies pour la surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for monitoring
 ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0c848b3c404bc9bce3b54d6ed52157d1b9da679
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76e857d0c80793f61b8e60686cc9455d27bb9f95
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838515"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838515"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-05_
+_**Dernière modification de la rubrique :** 2012-09-05_
 
-Dans la mesure où les agents de collection de données unifiées sont automatiquement installés et activés sur chaque serveur frontal, vous n’avez pas besoin de configurer un serveur pour agir en tant que serveur de surveillance; chaque serveur frontal fonctionne déjà en tant que serveur de surveillance. Toutefois, vous devrez installer et configurer une base de données pour qu’elle serve de magasin de données principal pour vos données de surveillance. Microsoft Lync Server 2013 peut utiliser les bases de données suivantes comme magasin principal de surveillance:
+Dans la mesure où les agents de collection de données unifiées sont automatiquement installés et activés sur chaque serveur frontal, vous n’avez pas besoin de configurer un serveur pour agir en tant que serveur de surveillance ; chaque serveur frontal fonctionne déjà en tant que serveur de surveillance. Toutefois, vous devrez installer et configurer une base de données pour qu’elle serve de magasin de données principal pour vos données de surveillance. Microsoft Lync Server 2013 peut utiliser les bases de données suivantes comme magasin principal de surveillance :
 
   - Microsoft SQL Server 2008 R2 Enterprise Edition
 
@@ -47,7 +49,7 @@ Dans la mesure où les agents de collection de données unifiées sont automatiq
 
 Notez que vous devez utiliser les éditions 64 bits de ces bases de données. les versions 32 bits de SQL Server ne peuvent pas être utilisées comme magasin principal pour le contrôle. De même, Lync Server 2013 ne prend pas en charge les éditions Express de SQL Server 2008 ou SQL Server 2012. Pour plus d’informations sur la configuration requise de base de données pour Lync Server 2013, voir la rubrique [prise en charge des logiciels de base de données dans Lync server 2013](lync-server-2013-database-software-support.md) dans le Guide de prise en charge de lync Server 2013.
 
-N’oubliez pas que SQL Server doit être installé et configuré avant que vous ne procédiez au déploiement et à la configuration de la fonctionnalité de surveillance. Toutefois, il vous suffit de déployer SQL Server proprement dit; vous n’avez pas besoin de configurer les bases de données de surveillance à l’avance. Au lieu de cela, celles-ci sont automatiquement créées lors de la publication de la topologie de votre serveur Lync.
+N’oubliez pas que SQL Server doit être installé et configuré avant que vous ne procédiez au déploiement et à la configuration de la fonctionnalité de surveillance. Toutefois, il vous suffit de déployer SQL Server proprement dit ; vous n’avez pas besoin de configurer les bases de données de surveillance à l’avance. Au lieu de cela, celles-ci sont automatiquement créées lors de la publication de la topologie de votre serveur Lync.
 
 Les données d’analyse peuvent utiliser la même instance SQL Server que d’autres types de données. Généralement, la base de données des enregistrements des détails des appels (LcsCdr) et la base de données de qualité de l’expérience (QoEMetrics) utilisent la même instance SQL ; par ailleurs, ces deux bases de données utilisent souvent la même instance SQL que la base de données d’archivage (LcsLog). La seule limitation réelle concernant les instances SQL Server est que chaque instance SQL Server est limitée à :
 

@@ -3,6 +3,8 @@ title: Messagerie instantanée et présence dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IM and presence
 ms:assetid: 6a93ae95-3b64-410b-ab72-74dea232f065
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417162(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18eb3d4a7fa5daaa59817d2eefde7af3a8e3f494
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57f57d4fae488a7d4946a0adb1f8350d02114a7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831037"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831037"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 La messagerie instantanée et la présence sont automatiquement installés dans n’importe quel déploiement de Lync Server.
 
-Les informations de *présence* permettent aux utilisateurs d’aborder les collègues au moment le plus opportun avec le bon moyen de communication, afin d’améliorer l’environnement de bureau. La présence d’un utilisateur est une collection d’informations qui inclut la disponibilité, la volonté de communiquer, des notes supplémentaires (par exemple, l’emplacement et le statut) et la façon dont l’utilisateur peut être contacté. La présence est améliorée dans Lync Server avec des images, des informations de géolocalisation et un ensemble complet d’États de présence incluant «arrêt du fonctionnement», «ne pas déranger» et «revenir de nouveau», en plus des États de base tels que «disponible», «occupé» et «en réunion». Les administrateurs peuvent également définir des États de présence spécifiques de l’organisation.
+Les informations de *présence* permettent aux utilisateurs d’aborder les collègues au moment le plus opportun avec le bon moyen de communication, afin d’améliorer l’environnement de bureau. La présence d’un utilisateur est une collection d’informations qui inclut la disponibilité, la volonté de communiquer, des notes supplémentaires (par exemple, l’emplacement et le statut) et la façon dont l’utilisateur peut être contacté. La présence est améliorée dans Lync Server avec des images, des informations de géolocalisation et un ensemble complet d’États de présence incluant « arrêt du fonctionnement », « ne pas déranger » et « revenir de nouveau », en plus des États de base tels que « disponible », « occupé » et « en réunion ». Les administrateurs peuvent également définir des États de présence spécifiques de l’organisation.
 
 La gestion des contacts et les options d’accès des utilisateurs permettent aux utilisateurs de contrôler les informations qu’ils peuvent afficher. Les utilisateurs peuvent définir différents niveaux de contacts, qui peuvent chacun afficher différents niveaux d’informations de présence.
 
@@ -53,9 +55,9 @@ Avec la messagerie instantanée dans Lync Server, les utilisateurs peuvent s’�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 

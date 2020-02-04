@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Instructions de déploiement de Voix Entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 221c09fc5dadda267baad35f4784c22cc4f3c9c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831494"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Cette rubrique décrit les conditions préalables et d’autres recommandations à prendre en compte lors de la planification du déploiement de Lync Server 2013 et de la charge de travail voix entreprise.
 
@@ -41,7 +43,7 @@ Cette rubrique décrit les conditions préalables et d’autres recommandations 
 
 ## <a name="deployment-prerequisites"></a>Prérequis de déploiement
 
-Pour une qualité optimale lors du déploiement d’Enterprise Voice, assurez-vous que votre infrastructure, réseau et systèmes informatiques répondent aux conditions préalables suivantes:
+Pour une qualité optimale lors du déploiement d’Enterprise Voice, assurez-vous que votre infrastructure, réseau et systèmes informatiques répondent aux conditions préalables suivantes :
 
   - Lync Server 2013 Standard Edition ou Enterprise Edition est installé et opérationnel sur votre réseau.
 
@@ -57,7 +59,7 @@ Pour une qualité optimale lors du déploiement d’Enterprise Voice, assurez-vo
     
 
     > [!NOTE]  
-    > Lync Server prend en charge les numéros E. 164 et les numéros de numérotation à l’intérieur non directs. Les nombres non-did peuvent être représentés au format <STRONG> &lt;E. 164&gt;; ext =&lt;extension&gt; </STRONG> ou sous la forme d’une chaîne de chiffres, ce qui exige que l’extension privée soit unique dans l’entreprise. Par exemple, un nombre privé d' 1001 peut être représenté sous la forme <STRONG>+ 1425550100; ext = 1001</STRONG>ou As <STRONG>1001</STRONG>. S’il est représenté en tant que <STRONG>1001</STRONG>, il est possible que ce numéro privé soit unique au sein de l’entreprise.
+    > Lync Server prend en charge les numéros E. 164 et les numéros de numérotation à l’intérieur non directs. Les nombres non-did peuvent être représentés au format <STRONG> &lt;E. 164&gt;; ext =&lt;extension&gt; </STRONG> ou sous la forme d’une chaîne de chiffres, ce qui exige que l’extension privée soit unique dans l’entreprise. Par exemple, un nombre privé d' 1001 peut être représenté sous la forme <STRONG>+ 1425550100 ; ext = 1001</STRONG>ou As <STRONG>1001</STRONG>. S’il est représenté en tant que <STRONG>1001</STRONG>, il est possible que ce numéro privé soit unique au sein de l’entreprise.
 
     
     </div>
@@ -68,11 +70,11 @@ Pour une qualité optimale lors du déploiement d’Enterprise Voice, assurez-vo
 
   - Le déploiement et la configuration de l’infrastructure à clé managée (MKI) s’effectue à l’aide d’une infrastructure de certification (CA) Microsoft ou tierce.
 
-  - Chaque ordinateur sur lequel vous installez le serveur de médiation doit être:
+  - Chaque ordinateur sur lequel vous installez le serveur de médiation doit être :
     
       - Serveur membre d’un domaine et préparé pour les services de domaine Active Directory (AD FS). Pour les procédures de préparation des services de domaine Active Directory, voir [préparation des services de domaine Active Directory pour Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) dans la documentation de déploiement.
     
-      - Exécutant l’un des systèmes d’exploitation suivants:
+      - Exécutant l’un des systèmes d’exploitation suivants :
         
           - <span></span>  
             Version 64 bits du système d’exploitation Windows Server 2008 standard
@@ -112,7 +114,7 @@ Pour les emplacements où vous installez un client vocal (par exemple, un PC ex�
 
 ## <a name="emergency-calls-and-multi-line-telephone-systems"></a>Appels d’urgence et systèmes téléphoniques multilignes
 
-L’utilisation d’un système téléphonique multiligne (MLTS) peut être soumise à une loi américaine ou fédérale américaine ou aux lois d’autres pays/régions qui nécessitent le MLTS pour fournir le numéro de téléphone, l’extension et/ou l’emplacement physique d’un appelant aux services d’urgence en vigueur. l’appelant est soumis aux services d’urgence (par exemple, lorsque vous composez un numéro d’accès d’urgence tel que 911 ou 999). Dans cette version, Lync Server peut être configuré pour fournir l’emplacement physique d’un appelant à un fournisseur de services d’urgence, comme décrit dans la rubrique [planification des services d’urgence (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). La conformité avec la législation MLTS est la seule responsabilité de l’acquéreur de périphériques Lync Server, Lync et Lync Phone Edition.
+L’utilisation d’un système téléphonique multiligne (MLTS) peut être soumise à une loi américaine ou fédérale des États-Unis ou aux lois d’autres pays/régions qui requièrent que le MLTS fournisse le numéro de téléphone, l’extension et/ou l’emplacement physique d’un appelant aux services d’urgence en vigueur lors de la mise en place d’un appelant aux services d’urgence (par exemple, 999 911 lorsque Dans cette version, Lync Server peut être configuré pour fournir l’emplacement physique d’un appelant à un fournisseur de services d’urgence, comme décrit dans la rubrique [planification des services d’urgence (E9-1-1) dans Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). La conformité avec la législation MLTS est la seule responsabilité de l’acquéreur de périphériques Lync Server, Lync et Lync Phone Edition.
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: planification pour voix entreprise'
+title: 'Lync Server 2013 : planification pour voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Enterprise Voice
 ms:assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185959
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29732d1690e1934f811df6fc448596e987205791
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 83b0ec944ad857ffccb419cf9ed36fbca92306c8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824847"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41753254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34824847"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-01_
+_**Dernière modification de la rubrique :** 2013-11-01_
 
 Le processus de déploiement d’Enterprise Voice dépend de votre topologie existante, de l’infrastructure et de la fonctionnalité voix entreprise que vous voulez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
 

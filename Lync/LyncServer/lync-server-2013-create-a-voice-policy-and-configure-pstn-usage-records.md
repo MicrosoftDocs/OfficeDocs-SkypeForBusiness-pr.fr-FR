@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création d’une stratégie vocale et configuration des enregistrements d’utilisation RTC'
+title: 'Lync Server 2013 : création d’une stratégie vocale et configuration des enregistrements d’utilisation RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a voice policy and configure PSTN usage records
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c11eafa265bf2ba20e8a68a84231092dcb01ffa3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80537aabe132f1b83714d42244409224ca53f72d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838078"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838078"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Suivez ces étapes si vous voulez créer une nouvelle politique vocale. Pour modifier une stratégie vocale, voir [modifier une stratégie vocale et configurer les enregistrements d’utilisation RTC dans Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md) pour la procédure.
 
@@ -171,7 +173,7 @@ Suivez ces étapes si vous voulez créer une nouvelle politique vocale. Pour mod
     
 
     > [!IMPORTANT]  
-    > L’ordre dans lequel les enregistrements d’utilisation RTC apparaissent dans la stratégie vocale est significatif. Lync Server parcourt la liste du haut vers le bas. Nous vous recommandons d’organiser la liste en fonction de la fréquence d’utilisation, par exemple: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > L’ordre dans lequel les enregistrements d’utilisation RTC apparaissent dans la stratégie vocale est significatif. Lync Server parcourt la liste du haut vers le bas. Nous vous recommandons d’organiser la liste en fonction de la fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
     
     </div>

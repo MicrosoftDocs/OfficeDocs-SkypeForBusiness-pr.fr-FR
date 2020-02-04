@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: composants et topologies pour le serveur de chat permanent'
+title: 'Lync Server 2013 : composants et topologies pour le serveur de chat permanent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ae22b2afed27109fb6e2c514211293cef42a46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838526"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Le serveur Chat permanent prend en charge les configurations à serveur unique et les configurations à plusieurs serveurs. Le serveur de chat permanent peut également être exécuté sur un serveur Lync Server 2013 Standard Edition Server. Ces configurations se composent des topologies et composants serveur de chat permanent suivants.
 
@@ -41,9 +43,9 @@ Le serveur Chat permanent prend en charge les configurations à serveur unique e
 
 ## <a name="persistent-chat-server-components"></a>Composants serveur de chat permanent
 
-Pour installer la dernière version de Chat Server, vous devez disposer des éléments suivants:
+Pour installer la dernière version de Chat Server, vous devez disposer des éléments suivants :
 
-  - Un ou plusieurs ordinateurs exécutant un serveur Chat permanent et fournissant les services suivants:
+  - Un ou plusieurs ordinateurs exécutant un serveur Chat permanent et fournissant les services suivants :
     
       - Service Chat permanent
     
@@ -73,7 +75,7 @@ Pour installer la dernière version de Chat Server, vous devez disposer des él�
 
 Pour administrer le serveur de chat permanent depuis un autre ordinateur (par exemple, une console d’administration), utilisez le panneau de configuration de Lync Server sur l’ordinateur. Cet ordinateur doit ensuite être déployé dans un domaine AD FS (Active Directory Domain Services), avec au moins un serveur de catalogue global dans la racine de la forêt.
 
-Pour plus d’informations sur les configurations matérielles et logicielles requises pour le serveur de chat permanent, voir [configuration logicielle requise pour le serveur de chat permanent dans Lync server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md), et [logiciels et infrastructure du serveur. la prise en charge de Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) dans la documentation relative à la prise en charge.
+Pour plus d’informations sur les configurations matérielles et logicielles requises pour le serveur de chat permanent, voir [configuration logicielle requise pour le serveur de chat permanent dans Lync server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [matériel compatible pour Lync Server 2013](lync-server-2013-supported-hardware.md)et [prise en charge de l’infrastructure et des logiciels serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) dans la documentation relative à la prise en charge.
 
 </div>
 
@@ -99,11 +101,11 @@ Pour Lync Server 2013 Enterprise Edition, les serveurs de chat permanent ne peuv
 
 </div>
 
-Si vous collocate la base de données de chat permanent avec la base de données principale, vous pouvez utiliser une instance unique de SQL Server pour tout ou partie des bases de données, ou vous pouvez utiliser une instance distincte de SQL Server pour chaque base de données, avec la limite suivante:
+Si vous collocate la base de données de chat permanent avec la base de données principale, vous pouvez utiliser une instance unique de SQL Server pour tout ou partie des bases de données, ou vous pouvez utiliser une instance distincte de SQL Server pour chaque base de données, avec la limite suivante :
 
   - Chaque instance de SQL Server peut contenir uniquement une seule base de données principale et une seule base de données de conversation permanente.
 
-Pour plus d’informations sur la colocalisation de tous les rôles de serveur et bases de données, voir prise en charge de la colocalisation du [serveur dans Lync server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de prise en charge.
+Pour plus d’informations sur la colocalisation de tous les rôles de serveur et bases de données, voir [prise en charge de la colocalisation du serveur dans Lync server 2013](lync-server-2013-supported-server-collocation.md) dans la documentation de prise en charge.
 
 </div>
 
@@ -111,7 +113,7 @@ Pour plus d’informations sur la colocalisation de tous les rôles de serveur e
 
 ## <a name="persistent-chat-server-topologies"></a>Topologies serveur de chat permanent
 
-Le serveur Chat permanent prend en charge les topologies suivantes:
+Le serveur Chat permanent prend en charge les topologies suivantes :
 
   - Lync Server 2013 Enterprise Edition serveur unique de chat serveur serveur principal
 
@@ -153,7 +155,7 @@ La figure suivante montre tous les composants obligatoires et facultatifs d’un
 
 **Serveur de chat permanent unique**
 
-![Topologie de serveur unique avec service de conformité] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie de serveur unique avec service de conformité")
+![Topologie de serveur unique avec service de conformité](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologie de serveur unique avec service de conformité")
 
 </div>
 
@@ -167,7 +169,7 @@ La figure suivante montre tous les composants d’une topologie multiserveur ave
 
 **Plusieurs serveurs de chat permanent**
 
-![Topologie de plusieurs serveurs] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie de plusieurs serveurs")
+![Topologie de plusieurs serveurs](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologie de plusieurs serveurs")
 
 Les topologies à plusieurs serveurs permettent de regrouper les fonctionnalités des serveurs. Dans un pool de serveurs, les services de chat permanent communiquent et partagent des données. Par exemple, l’historique des discussions publié à l’origine dans un service de chat permanent est disponible à partir de n’importe quel service de chat permanent du système. Un service de chat permanent peut accéder à un fichier téléchargé par le biais d’un service de chat permanent. Les utilisateurs peuvent se connecter à différents serveurs front-end serveur de chat permanent et communiquer entre eux.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: concepts communs aux conférences'
+title: 'Lync Server 2013 : concepts communs aux conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common conferencing concepts
 ms:assetid: a21d4987-1c0a-44c8-8a39-9c17ffb57f3c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688158(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 240415ccdf8c0ab9be2eaf10304973b62c302c79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91d21526cfcd6d2c78cd67660136e8f7600d1841
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838538"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838538"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-19_
+_**Dernière modification de la rubrique :** 2012-09-19_
 
 Plusieurs concepts sont communs à tous les types de conférences. Celles-ci sont décrites dans les sections suivantes.
 
@@ -67,7 +69,7 @@ La fonctionnalité analyse du serveur peut capturer les enregistrements des dét
 
 Vous pouvez considérablement augmenter les avantages de votre investissement dans les conférences Lync Server 2013 en permettant aux utilisateurs externes de participer également à des conférences lors de leur invitation. Exemples d’utilisateurs externes :
 
-  - **Utilisateurs**   distants les utilisateurs de votre organisation qui travaillent à l’extérieur de votre pare-feu et qui utilisent leur ordinateur portable ou d’autres appareils Lync Server 2013.
+  - **Utilisateurs distants**   les utilisateurs de votre organisation qui travaillent à l’extérieur de votre pare-feu et qui utilisent leur ordinateur portable ou d’autres appareils Lync Server 2013.
 
   - **Utilisateurs fédérés utilisateurs**   de sociétés qui travaillent également sur Lync Server 2013. Pour autoriser vos utilisateurs à communiquer facilement avec ces utilisateurs externes, créez des relations fédérées avec ces entreprises.
 
@@ -83,7 +85,7 @@ Par ailleurs, si vous déployez des serveurs de périphérie, vous pouvez permet
 
 ## <a name="compatibility-among-meeting-types-and-client-versions"></a>Compatibilité entre les types de réunion et les versions de client
 
-Si vous envisagez d’utiliser Lync Server 2013 avec des versions antérieures d’Office Communications Server et de ses clients, vous devez tenir compte des éléments suivants:
+Si vous envisagez d’utiliser Lync Server 2013 avec des versions antérieures d’Office Communications Server et de ses clients, vous devez tenir compte des éléments suivants :
 
   - Les utilisateurs de Lync Server 2013 ne peuvent pas planifier de conférences en temps réel, ni modifier une réunion migrée de ce type.
 

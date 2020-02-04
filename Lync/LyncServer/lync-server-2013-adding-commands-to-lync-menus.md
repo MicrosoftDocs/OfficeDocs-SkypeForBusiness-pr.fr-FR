@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: ajout de commandes aux menus Lync'
+title: 'Lync Server 2013 : ajout de commandes aux menus Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding commands to Lync menus
 ms:assetid: a8443bc2-e234-4022-870a-00700f38b1ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412788(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dfb79a985791e6994d8409339d12b12e1146ec5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1cbce99116159d119eaa604b7000764913b3cbe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838936"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838936"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-04-11_
+_**Dernière modification de la rubrique :** 2016-04-11_
 
 Vous pouvez ajouter des commandes personnalisées aux menus de Lync 2013 et transmettre l’URI (Uniform Resource Identifier) SIP de l’utilisateur actuel et des contacts sélectionnés à l’application qui démarre la commande personnalisée.
 
-Les commandes personnalisées que vous ajoutez peuvent apparaître dans un ou plusieurs des menus suivants:
+Les commandes personnalisées que vous ajoutez peuvent apparaître dans un ou plusieurs des menus suivants :
 
   - Menu Outils, dans la barre de menus de la fenêtre principale de Lync
 
@@ -49,13 +51,13 @@ Les commandes personnalisées que vous ajoutez peuvent apparaître dans un ou pl
 
   - Menu options dans une carte de visite
 
-Vous pouvez définir des commandes personnalisées pour deux types d’applications (applications qui effectuent l’une des opérations suivantes:
+Vous pouvez définir des commandes personnalisées pour deux types d’applications (applications qui effectuent l’une des opérations suivantes :
 
   - S’applique uniquement à l’utilisateur actuel et est démarré sur l’ordinateur local.
 
   - Impliquez des utilisateurs supplémentaires, tels qu’un programme de collaboration en ligne, qui doivent être démarrés sur l’ordinateur de chaque utilisateur.
 
-La commande personnalisée peut être appelée de l’une des façons suivantes:
+La commande personnalisée peut être appelée de l’une des façons suivantes :
 
   - Sélectionnez un ou plusieurs utilisateurs, puis choisissez la commande personnalisée.
 
@@ -65,7 +67,7 @@ La commande personnalisée peut être appelée de l’une des façons suivantes:
 
 ## <a name="to-add-a-custom-command"></a>Pour ajouter une commande personnalisée
 
-Utilisez les paramètres de Registre du tableau suivant pour ajouter une commande aux menus. Ces entrées sont placées dans le registre à l’un des emplacements suivants:
+Utilisez les paramètres de Registre du tableau suivant pour ajouter une commande aux menus. Ces entrées sont placées dans le registre à l’un des emplacements suivants :
 
   - Pour le système d’exploitation\_32\_bits\\:\\HKEY\\logiciel\\de\\l'\\ordinateur\\local Microsoft Office 15,0 des applications Lync sessionmanager
 
@@ -144,7 +146,7 @@ Utilisez les paramètres de Registre du tableau suivant pour ajouter une command
 </table>
 
 
-Par exemple, l’éditeur du Registre suivant (. REG) affiche les résultats de l’ajout d’un élément de menu du gestionnaire de contacts commerciaux contoso au menu actions dans la fenêtre de conversation:
+Par exemple, l’éditeur du Registre suivant (. REG) affiche les résultats de l’ajout d’un élément de menu du gestionnaire de contacts commerciaux contoso au menu actions dans la fenêtre de conversation :
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
@@ -162,7 +164,7 @@ Par exemple, l’éditeur du Registre suivant (. REG) affiche les résultats de 
 
 ## <a name="to-access-a-custom-command"></a>Pour accéder à une commande personnalisée
 
-Pour accéder à une commande personnalisée après l’avoir ajoutée, effectuez l’une des opérations suivantes, en fonction des valeurs ExtensibleMenu que vous définissez:
+Pour accéder à une commande personnalisée après l’avoir ajoutée, effectuez l’une des opérations suivantes, en fonction des valeurs ExtensibleMenu que vous définissez :
 
   - **MainWindowActions**   dans la fenêtre principale de Lync, cliquez sur **Outils**, puis sur votre commande personnalisée.
 

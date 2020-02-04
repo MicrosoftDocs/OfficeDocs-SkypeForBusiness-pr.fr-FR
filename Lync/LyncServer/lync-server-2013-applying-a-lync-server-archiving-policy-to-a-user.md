@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: application d’une stratégie d’archivage Lync Server à un utilisateur'
+title: 'Lync Server 2013 : application d’une stratégie d’archivage Lync Server à un utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Applying a Lync Server Archiving policy to a user
 ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 295f1a0370372d937b07a38eab51cd43d0ef9f5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c7b82fd0d42aa6a34533f6b5005e15edd2aa5cbd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846914"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846914"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
 Après la création d’une stratégie d’utilisateur Lync Server, vous devez l’appliquer à des utilisateurs ou groupes d’utilisateurs qui sont hébergés sur Lync Server 2013 avant de pouvoir prendre effet. Pour plus d’informations sur la création de stratégies utilisateur pour des utilisateurs spécifiques, voir [création et configuration des stratégies utilisateur pour l’archivage dans Lync Server 2013](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md) dans la documentation de déploiement.
 
@@ -61,7 +63,7 @@ Pour plus d’informations sur le fonctionnement des stratégies d’archivage, 
 
 4.  Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
 
-5.  Dans **modifier l’utilisateur de Lync Server** sous **stratégie**d’archivage, sélectionnez la stratégie d’utilisateur d’archivage que vous voulez appliquer.
+5.  Dans **modifier l’utilisateur de Lync Server** sous **stratégie d’archivage**, sélectionnez la stratégie d’utilisateur d’archivage que vous voulez appliquer.
     
     <div>
     

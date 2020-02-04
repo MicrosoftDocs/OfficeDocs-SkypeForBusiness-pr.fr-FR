@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Certificats requis pour l’accès des utilisateurs e
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7e7a0802cee8b91e18eaf50e5c2c3942ca54308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1b6495dbad5350f94873099985922f1adc198f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34838662"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-03-29_
+_**Dernière modification de la rubrique :** 2016-03-29_
 
 Le logiciel de communications Microsoft Lync Server 2013 prend en charge l’utilisation d’un certificat public unique pour les interfaces externes d’accès et de conférence Web, ainsi que le service d’authentification A/V. L’interface interne Edge utilise généralement un certificat privé émis par une autorité de certification interne, mais peut également utiliser un certificat public, à condition qu’il émane d’une autorité de certification publique de confiance. Le proxy inverse dans votre déploiement utilise un certificat public et chiffre la communication à partir du proxy inverse vers les clients et du proxy inverse vers les serveurs internes en utilisant HTTP (c’est-à-dire, Transport Layer Security sur HTTP).
 
-Vous trouverez ci-après les exigences relatives au certificat public utilisé pour les interfaces externes d’accès et de conférence Web, ainsi que le service d’authentification A/V:
+Vous trouverez ci-après les exigences relatives au certificat public utilisé pour les interfaces externes d’accès et de conférence Web, ainsi que le service d’authentification A/V :
 
-  - Le certificat doit être émis par une autorité de certification publique approuvée prenant en charge le nom alternatif de l’objet. Pour plus d’informations, reportez-vous à l’article 929395 de la base de connaissances Microsoft «partenaires de certification de [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)communications unifiées pour Exchange Server et pour Communications Server».
+  - Le certificat doit être émis par une autorité de certification publique approuvée prenant en charge le nom alternatif de l’objet. Pour plus d’informations, reportez-vous à l’article 929395 de la base de connaissances Microsoft « partenaires de certification de [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)communications unifiées pour Exchange Server et pour Communications Server ».
 
   - Si le certificat doit être utilisé sur un pool de bords, il doit être créé en tant qu’exportable, avec le même certificat utilisé sur chaque serveur Edge du pool de bords. La configuration requise pour une clé privée interportée est utilisée dans le cadre du service d’authentification A/V, qui doit utiliser la même clé privée sur tous les serveurs Edge du pool.
 
@@ -56,7 +58,7 @@ Vous trouverez ci-après les exigences relatives au certificat public utilisé p
     
     </div>
 
-  - La liste autre nom de l’objet contient les noms de domaine complets des éléments suivants:
+  - La liste autre nom de l’objet contient les noms de domaine complets des éléments suivants :
     
       - L’interface externe du service Edge d’accès ou l’adresse VIP d’équilibrage de charge matérielle (par exemple, sip.contoso.com).
         
@@ -84,9 +86,9 @@ Vous trouverez ci-après les exigences relatives au certificat public utilisé p
     
     </div>
 
-Si vous déployez plusieurs serveurs Edge équilibrés sur un site, le certificat de service d’authentification A/V qui est installé sur chaque serveur Edge doit être issu de la même autorité de certification et doit utiliser la même clé privée. Notez que la clé privée du certificat doit être exportable, qu’elle soit utilisée ou non sur un serveur Edge ou sur de nombreux serveurs Edge. Elle doit également être exportée si vous demandez le certificat à partir de n’importe quel ordinateur autre que le serveur Edge. Dans la mesure où le service d’authentification A/V n’utilise pas le nom du sujet ou l’autre nom de l’objet, vous pouvez réutiliser le certificat de bord d’accès tant que le nom de l’objet et le nom de l’objet autre nom doivent être satisfaits pour le bord d’accès et le bord de conférence Web. la clé privée du certificat est alors exportable.
+Si vous déployez plusieurs serveurs Edge équilibrés sur un site, le certificat de service d’authentification A/V qui est installé sur chaque serveur Edge doit être issu de la même autorité de certification et doit utiliser la même clé privée. Notez que la clé privée du certificat doit être exportable, qu’elle soit utilisée ou non sur un serveur Edge ou sur de nombreux serveurs Edge. Elle doit également être exportée si vous demandez le certificat à partir de n’importe quel ordinateur autre que le serveur Edge. Dans la mesure où le service d’authentification A/V n’utilise pas le nom du sujet ou l’autre nom de l’objet, vous pouvez réutiliser le certificat de point d’accès tant que le nom de l’objet et le nom de l’autre sujet doivent être satisfaits pour le bord d’accès et le Edge de conférence Web, et si la clé privée du certificat est exportable.
 
-Les conditions requises pour le certificat privé (ou public) utilisé pour l’interface interne latérale sont les suivantes:
+Les conditions requises pour le certificat privé (ou public) utilisé pour l’interface interne latérale sont les suivantes :
 
   - Le certificat peut être émis par une autorité de certification interne ou par un certificat public approuvé.
 
@@ -94,7 +96,7 @@ Les conditions requises pour le certificat privé (ou public) utilisé pour l’
 
   - Il n’y a pas besoin d’une autre liste de noms d’objet.
 
-Le proxy inverse dans vos demandes de services de déploiement pour:
+Le proxy inverse dans vos demandes de services de déploiement pour :
 
   - Accès des utilisateurs externes au contenu de la réunion pour les réunions
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table VoipDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VoipDetails table
 ms:assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398566(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7879f5dc7d5b884dfc2d3777ed4fa800978a3cff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f13087202b15cf9b25f0c32741c396c48f628908
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846217"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846217"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Chaque enregistrement 1 2 représente un appel vers un tiers, dont au moins un utilisateur est une VoIP.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activer les utilisateurs pour voix entreprise'
+title: 'Lync Server 2013 : activer les utilisateurs pour voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable users for Enterprise Voice
 ms:assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d94b2ad348bc1d086716deed2beef0dcfbe78e2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b851c8807e12456c600b2ca176b0fa5a834f0d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831285"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831285"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Après avoir installé les fichiers pour un ou plusieurs serveurs de médiation, configuré le routage des appels sortants et éventuellement une ou plusieurs fonctionnalités avancées de voix entreprise, vous pouvez utiliser les procédures suivantes pour permettre à un utilisateur d’effectuer des appels à l’aide d’Enterprise Voice:
+Après avoir installé les fichiers pour un ou plusieurs serveurs de médiation, configuré le routage des appels sortants et éventuellement une ou plusieurs fonctionnalités avancées de voix entreprise, vous pouvez utiliser les procédures suivantes pour permettre à un utilisateur d’effectuer des appels à l’aide d’Enterprise Voice :
 
 <div>
 
@@ -93,7 +95,7 @@ Les stratégies de voix globale et de niveau site sont automatiquement affectée
 
 1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Pour affecter une stratégie de voix utilisateur existante à un utilisateur, exécutez la commande suivante dans l’invite de commandes :
     
@@ -125,7 +127,7 @@ Pour achever la configuration de compte d’utilisateur pour les utilisateurs d�
 
 1.  À partir d’un compte d’utilisateur auquel est affecté le rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Pour affecter un plan de numérotation spécifique à un utilisateur, exécutez la commande suivante dans l’invite de commandes :
     

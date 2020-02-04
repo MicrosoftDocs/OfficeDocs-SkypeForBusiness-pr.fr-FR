@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: applets de applet de téléphone et périphériques'
+title: 'Lync Server 2013 : applets de applet de téléphone et périphériques'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Phones and devices cmdlets
 ms:assetid: 6ebeba4b-43ce-4a31-9060-50d249b7564c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415657(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67162d9d3c800040817fa26f1ab65788f2d4e995
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5e698c23c87f679302c6612bec138bcbae39f71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825169"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-28_
+_**Dernière modification de la rubrique :** 2012-06-28_
 
 Microsoft Lync Server 2013 fournit un certain nombre d’applets de soulignements qui vous permettent de gérer les téléphones et autres appareils matériels. Cela inclut les téléphones VoIP (voix sur IP). des téléphones communs (par exemple, un téléphone dans une salle d’attente, une cafétéria ou un autre emplacement public); et même des téléphones analogiques, des téléphones qui ne peuvent pas exécuter Lync Phone Edition.
 

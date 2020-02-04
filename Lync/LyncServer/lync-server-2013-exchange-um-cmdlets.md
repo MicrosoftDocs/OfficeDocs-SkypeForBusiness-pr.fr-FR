@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de messagerie unifiée Exchange'
+title: 'Lync Server 2013 : cmdlets de messagerie unifiée Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exchange UM cmdlets
 ms:assetid: 32922b9f-590d-41cc-ba57-9ed5f1caa814
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e4c530095b69e8aadd07ad37e3fbe4a46b361a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cc9d63189d66e6e5255ca7c0d34a717cc2eb514
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831189"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831189"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-26_
+_**Dernière modification de la rubrique :** 2012-06-26_
 
 Microsoft Lync Server 2013 collabore avec la messagerie unifiée Exchange pour implémenter le standard automatique et l’accès de l’abonné pour la messagerie vocale hébergée. Ces fonctionnalités peuvent être gérées par le biais de cmdlets dans Lync Server Management Shell.
 

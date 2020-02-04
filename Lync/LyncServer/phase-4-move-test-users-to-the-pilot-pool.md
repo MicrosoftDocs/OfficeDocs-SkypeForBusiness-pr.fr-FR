@@ -1,8 +1,10 @@
 ---
-title: 'Étape 4: déplacer les utilisateurs de test vers le pool de pilotes'
+title: 'Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 4: Move test users to the pilot pool'
 ms:assetid: 5825dcc5-b2ce-45e2-81b9-f8e90d77c23f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204912(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8b765bc7e34422bd652c479560de6bbace27e0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1c6f69a46b7f2f0b4cdcc1d6e20b0bdc68bfd82b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846104"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846104"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Étape 4: déplacer les utilisateurs de test vers le pool de pilotes
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Étape 4 : déplacer les utilisateurs de test vers le pool de pilotes
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846104"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-26_
+_**Dernière modification de la rubrique :** 2012-09-26_
 
-Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Lync Server 2013 à l’aide des deux méthodes suivantes: le panneau de configuration de Lync Server et Lync Server Management Shell. Les rubriques de cette section décrivent les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Lync Server 2013 d’un déploiement pilote vers un déploiement de niveau production.
+Vous pouvez déplacer un ou plusieurs utilisateurs vers votre nouveau déploiement de Microsoft Lync Server 2013 à l’aide des deux méthodes suivantes : le panneau de configuration de Lync Server et Lync Server Management Shell. Les rubriques de cette section décrivent les tâches que vous devez effectuer au cours du déploiement pilote, ainsi que avant de migrer votre déploiement de Lync Server 2013 d’un déploiement pilote vers un déploiement de niveau production.
 
 <div>
 

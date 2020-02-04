@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: (facultatif) définir les jeux de jours fériés de Response Group'
+title: 'Lync Server 2013 : (facultatif) définir les jeux de jours fériés de Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Define Response Group holiday sets
 ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688063(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ca58b3e2c17ea70e9af7a9eba48df8582b1485c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825715"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825715"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-07_
+_**Dernière modification de la rubrique :** 2014-02-07_
 
 Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés, qui s’applique à un groupe Response Group.
 
@@ -53,7 +55,7 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre de l’un des rôles d’administration prédéfinis prenant en charge Response Group.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Pour chaque congé que vous souhaitez définir, exécutez :
     

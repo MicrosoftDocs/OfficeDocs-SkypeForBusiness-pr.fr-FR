@@ -3,6 +3,8 @@ title: Configuration des paramètres de l’enregistrement des détails des appe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring call detail recording and Quality of Experience settings
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67c9759faad4ed96cdf65d8bd22c5778512933de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838281"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838281"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-17_
+_**Dernière modification de la rubrique :** 2012-10-17_
 
-Après avoir associé un magasin de surveillance avec un pool frontal, vous pouvez configurer le magasin de surveillance, puis installer et configurer SQL Server Reporting Services et surveiller des rapports pour gérer l’enregistrement des détails des appels (CDR) et la qualité de l’expérimentation. surveiller à l’aide de Lync Server Management Shell. Les applets de contrôle Lync Server Management Shell vous permettent d’activer et de désactiver la surveillance des CDR et/ou QoE pour un site particulier ou pour votre déploiement complet de Lync Server. pour ce faire, vous pouvez utiliser une commande aussi simple que celle-ci:
+Après avoir associé un magasin de surveillance avec un pool frontal, vous pouvez configurer le magasin de surveillance, puis installer et configurer SQL Server Reporting Services et surveiller des rapports pour gérer l’enregistrement des détails des appels (CDR) et la qualité de l’expérimentation. surveiller à l’aide de Lync Server Management Shell. Les applets de contrôle Lync Server Management Shell vous permettent d’activer et de désactiver la surveillance des CDR et/ou QoE pour un site particulier ou pour votre déploiement complet de Lync Server. pour ce faire, vous pouvez utiliser une commande aussi simple que celle-ci :
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
@@ -59,12 +61,12 @@ Lorsque vous installez Microsoft Lync Server 2013, vous devez également install
 <tr class="odd">
 <td><p>EnableCDR</p></td>
 <td><p>Indique si l’enregistrement des détails des appels est activé ou non. Si la valeur est True, tous les enregistrements CDR sont collectés et enregistrés dans la base de données de surveillance.</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
 <td><p>Indique si les enregistrements des détails des appels doivent être périodiquement supprimés de la base de données. Si la valeur est définie sur True, les enregistrements sont supprimés après la période spécifiée par les propriétés KeepCallDetailForDays (pour les enregistrements CDR) et KeepErrorReportForDays (pour les erreurs CDR). Si la valeur est définie sur False, les enregistrements CDR sont conservés indéfiniment.</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepCallDetailForDays</p></td>
@@ -74,7 +76,7 @@ Lorsque vous installez Microsoft Lync Server 2013, vous devez également install
 </tr>
 <tr class="even">
 <td><p>KeepErrorReportForDays</p></td>
-<td><p>Indique le nombre de jours de conservation des rapports d’erreurs CDR; tout rapport antérieur au nombre de jours spécifié sera automatiquement supprimé. Les rapports d’erreur CDR sont des rapports de diagnostic téléchargés par des applications clientes comme Microsoft Lync 2013.</p>
+<td><p>Indique le nombre de jours de conservation des rapports d’erreurs CDR ; tout rapport antérieur au nombre de jours spécifié sera automatiquement supprimé. Les rapports d’erreur CDR sont des rapports de diagnostic téléchargés par des applications clientes comme Microsoft Lync 2013.</p>
 <p>Vous pouvez définir cette propriété sur n’importe quelle valeur entière comprise entre 1 et 2 562.</p></td>
 <td><p>60 jours</p></td>
 </tr>
@@ -102,7 +104,7 @@ De même, les valeurs par défaut pour les paramètres de la qualité de l’exp
 <tr class="odd">
 <td><p>EnableQoE</p></td>
 <td><p>Indique si la surveillance QoE est activée ou non. Si la valeur est True, tous les enregistrements QoE sont collectés et enregistrés dans la base de données de surveillance.</p></td>
-<td><p>True</p></td>
+<td><p>Vrai</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
@@ -119,7 +121,7 @@ De même, les valeurs par défaut pour les paramètres de la qualité de l’exp
 </table>
 
 
-Si vous devez modifier ces paramètres globaux, vous pouvez pour cela utiliser les applets de commande Set-CsCdrConfiguration et Set-CsQoEConfiguration. Par exemple, cette commande (exécutée à partir de Lync Server Management Shell) désactive le contrôle CDR au niveau de l’étendue globale. pour ce faire, définissez la propriété EnableCDR sur false ($False):
+Si vous devez modifier ces paramètres globaux, vous pouvez pour cela utiliser les applets de commande Set-CsCdrConfiguration et Set-CsQoEConfiguration. Par exemple, cette commande (exécutée à partir de Lync Server Management Shell) désactive le contrôle CDR au niveau de l’étendue globale. pour ce faire, définissez la propriété EnableCDR sur false ($False) :
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 
@@ -141,7 +143,7 @@ Pour créer de nouveaux paramètres QoE pour un site, il suffit d’utiliser une
 
     New-CsQoEConfiguration -Identity "site:Redmond" -KeepQoEDataForDays 15
 
-Pour plus d’informations, tapez les commandes suivantes dans Lync Server Management Shell:
+Pour plus d’informations, tapez les commandes suivantes dans Lync Server Management Shell :
 
     Get-Help New-CsCdrConfiguration | more
     Get-Help Set-CsCdrConfiguration | more

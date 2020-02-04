@@ -1,8 +1,10 @@
 ---
-title: 'Tableau Lync Server 2013: AppSharingMetricsThreshold'
+title: 'Tableau Lync Server 2013 : AppSharingMetricsThreshold'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AppSharingMetricsThreshold table
 ms:assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205018(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0f8dc1dac3dc7a9ec362473221d36191dd7dd0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e247f83b00d226024f9fc671f2d744f1ee7fdf0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846930"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846930"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-12-08_
+_**Dernière modification de la rubrique :** 2015-12-08_
 
 La table AppSharingMetricsThreshold contient des valeurs optimales et acceptables pour la qualité de mesure d’utilisation utilisée avec le partage d’application. Ces seuils sont utilisés pour déterminer si l’utilisation du partage d’application doit être considérée comme médiocre.
 
@@ -76,15 +78,15 @@ Ce tableau a été présenté dans Microsoft Lync Server 2013.
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotalOptimal</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
-<td><p>Taux de pourcentage optimal pour les vignettes «abîmées» permettant de classer une qualité de partage d’application. Cette valeur correspond au pourcentage du contenu du partageur n’ayant pas atteint la visionneuse. Le contenu est susceptible d’être ignoré (ou abîmé) lorsque le partage annule les vignettes à partir de la source graphique ou que les vignettes ASMCU ignorent les vignettes du partage respectivement. La valeur par défaut est 11%.</p></td>
+<td><p>Taux de pourcentage optimal pour les vignettes « abîmées » permettant de classer une qualité de partage d’application. Cette valeur correspond au pourcentage du contenu du partageur n’ayant pas atteint la visionneuse. Le contenu est susceptible d’être ignoré (ou abîmé) lorsque le partage annule les vignettes à partir de la source graphique ou que les vignettes ASMCU ignorent les vignettes du partage respectivement. La valeur par défaut est 11%.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentTotalAcceptable</strong></p></td>
-<td><p>décimale (5; 2)</p></td>
+<td><p>décimale (5 ; 2)</p></td>
 <td></td>
-<td><p>taux de cceptable pour les vignettes «abîmées» permettant de classer une qualité de partage d’application. Cette valeur correspond au pourcentage du contenu du partageur n’ayant pas atteint la visionneuse. Le contenu est susceptible d’être ignoré (ou abîmé) lorsque le partage annule les vignettes à partir de la source graphique ou que les vignettes ASMCU ignorent les vignettes du partage respectivement. La valeur par défaut est 36%.</p></td>
+<td><p>taux de cceptable pour les vignettes « abîmées » permettant de classer une qualité de partage d’application. Cette valeur correspond au pourcentage du contenu du partageur n’ayant pas atteint la visionneuse. Le contenu est susceptible d’être ignoré (ou abîmé) lorsque le partage annule les vignettes à partir de la source graphique ou que les vignettes ASMCU ignorent les vignettes du partage respectivement. La valeur par défaut est 36%.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalOptimal</strong></p></td>

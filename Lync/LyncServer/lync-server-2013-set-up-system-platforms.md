@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des plateformes système'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up system platforms
 ms:assetid: 2e72e49d-2737-4b5b-8c0a-60f6ecb15bf1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204783(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 317bfe0efed0417d49cc59dc8f6e7ad3bcca7d7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bb714cf9da27e968a4e02e8d822ab8e597f654d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821907"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34821907"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Avant de démarrer le déploiement du serveur de chat permanent, vous devez installer le système d’exploitation requis sur le matériel qui répond à la configuration système requise sur les serveurs:
+Avant de démarrer le déploiement du serveur de chat permanent, vous devez installer le système d’exploitation requis sur le matériel qui répond à la configuration système requise sur les serveurs :
 
 Pour plus d’informations sur le matériel pris en charge pour les serveurs exécutant Lync Server 2013, les serveurs de base de données et les serveurs de fichiers, voir [matériel compatible pour Lync server 2013](lync-server-2013-supported-hardware.md) dans la documentation de prise en charge. Pour plus d’informations sur les systèmes d’exploitation et les logiciels de base de données pris en charge, voir [prise en charge des logiciels et de l’infrastructure du serveur dans Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) dans la documentation de support technique. Pour plus d’informations sur la configuration requise pour Windows Update, voir [prise en charge supplémentaire du serveur et configuration requise dans Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) dans la documentation relative à la prise en charge.
 

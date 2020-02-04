@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation de l’outil de personnalisation Office (OPO)'
+title: 'Lync Server 2013 : utilisation de l’outil de personnalisation Office (OPO)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Office Customization Tool (OCT)
 ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204748(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd9c101b9098f9a5a6ac6088740c067039921b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846352"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846352"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 L’outil de personnalisation Office fait partie du programme d’installation et est recommandé pour de nombreuses personnalisations. Grâce à cet outil, personnalisez Office et enregistrez vos personnalisations dans un fichier .msp de personnalisation de l’installation. Placez ensuite le fichier dans le dossier Updates sur le point d’installation réseau. Lorsque vous installez Office, le programme d’installation cherche un fichier de personnalisation de l’installation dans le dossier Updates et applique les personnalisations. Le dossier mises à jour peut être utilisé uniquement pour déployer des mises à jour logicielles lors d’une installation initiale d’Office 2013.
 
@@ -41,9 +43,9 @@ L’outil de personnalisation Office fait partie du programme d’installation e
 
 `\\server\share\Office15\setup.exe /admin`
 
-Les administrateurs utilisent l’outil de personnalisation Office pour créer un fichier .msp de personnalisation de l’installation. Comme dans Microsoft Office 2010 OCT, les administrateurs peuvent personnaliser les domaines suivants:
+Les administrateurs utilisent l’outil de personnalisation Office pour créer un fichier .msp de personnalisation de l’installation. Comme dans Microsoft Office 2010 OCT, les administrateurs peuvent personnaliser les domaines suivants :
 
-  - **Configuration** Spécifie l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, les sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage et les versions antérieures d’Office à supprimer, ainsi que les programmes personnalisés à exécuter pendant installation, paramètres de sécurité et propriétés de l’installation.
+  - **Configuration** Spécifie l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, les sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage et les versions antérieures d’Office à supprimer, ainsi que les programmes personnalisés à exécuter lors de l’installation, les paramètres de sécurité et les propriétés d’installation.
 
   - **Fonctionnalités** Permet de configurer les paramètres utilisateur et de personnaliser le mode d’installation des fonctionnalités d’Office. Les administrateurs peuvent utiliser l’outil de personnalisation Office pour spécifier les valeurs par défaut initiales des paramètres de l’application Office pour les utilisateurs. Ces derniers peuvent modifier la plupart des paramètres après l’installation.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Vérification de la réplication de schéma'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying schema replication
 ms:assetid: ad01a7cf-aa79-4648-ba5a-a7a09172db36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412822(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d115738a4f22cb7795c2eb5a00ac642fbe43fc77
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7ea90012c116bb66caf16313d930c6f05db4413
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846328"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846328"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 Avant de procéder à la préparation de la forêt, vérifiez manuellement que celle-ci a été répliquée.
 
@@ -49,7 +51,7 @@ Avant de procéder à la préparation de la forêt, vérifiez manuellement que c
     
 
     > [!TIP]  
-    > Vous pouvez également exécuter adsied <STRONG>. msc</STRONG> à partir de la ligne de commande.
+    > Vous pouvez également exécuter <STRONG>adsied. msc</STRONG> à partir de la ligne de commande.
 
     
     </div>

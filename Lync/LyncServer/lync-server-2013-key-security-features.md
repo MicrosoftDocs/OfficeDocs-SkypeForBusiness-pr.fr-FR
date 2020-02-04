@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: principales fonctionnalités de sécurité'
+title: 'Lync Server 2013 : principales fonctionnalités de sécurité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a6d9e23442cb127f0f08849e18f1d63bae76d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55d59a6978b90db82ccf899df90b05c739e71a57
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830960"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-18_
+_**Dernière modification de la rubrique :** 2013-07-18_
 
 Lync Server 2013 inclut plusieurs fonctionnalités de sécurité, notamment l’authentification de serveur à serveur, le contrôle d’accès basé sur un rôle et le stockage centralisé des données de configuration.
 
@@ -99,7 +101,7 @@ Microsoft Lync Server 2013 fournit un contrôle d’accès basé sur les rôles 
 
 ## <a name="network-address-translation-nat"></a>Traduction d’adresses réseau (NAT)
 
-Lync Server 2013 ne prend pas en charge l’utilisation de la traduction d’adresses réseau (NAT) sur l’interface interne du serveur Edge, mais il prend en charge le placement de l’interface externe du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V derrière un routeur ou pare-feu qui exécute la traduction d’adresses réseau (NAT) pour les topologies de serveur de périphérie unique et à l’échelle. S’il y a plusieurs serveurs Edge utilisant un programme d’équilibrage de la charge matérielle, ils ne peuvent pas utiliser la traduction d’adresses réseau. Si plusieurs serveurs Edge utilisent la traduction d’adresses réseau sur leurs interfaces externes, l’équilibrage de la charge DNS (Domain Name System) est requise. L’utilisation de l’équilibrage de la charge DNS vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, reportez-vous à la[planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+Lync Server 2013 ne prend pas en charge l’utilisation de la traduction d’adresses réseau (NAT) sur l’interface interne du serveur Edge, mais il prend en charge la mise à niveau de l’interface externe du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V d’un routeur ou d’un pare-feu qui effectue une traduction d’adresses réseau (NAT) pour les S’il y a plusieurs serveurs Edge utilisant un programme d’équilibrage de la charge matérielle, ils ne peuvent pas utiliser la traduction d’adresses réseau. Si plusieurs serveurs Edge utilisent la traduction d’adresses réseau sur leurs interfaces externes, l’équilibrage de la charge DNS (Domain Name System) est requise. L’utilisation de l’équilibrage de la charge DNS vous permet de réduire le nombre d’adresses IP publiques par serveur Edge dans un pool de serveurs Edge. Pour plus d’informations, reportez-vous à la[planification de l’accès des utilisateurs externes dans Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
 <div>
 
@@ -131,7 +133,7 @@ Lync Server 2013 est conçu et développé conformément au cycle de vie de dév
 
   - **Digne de confiance**par défaut, les communications réseau dans Lync Server 2013 sont chiffrées.    Dans la mesure où tous les serveurs utilisent des certificats et l’authentification Kerberos, TLS, Secure Real-Time Transport Protocol (SRTP) et d’autres techniques de cryptage standard de l’industrie, y compris le chiffrement AES (Advanced Encryption Standard) 128 bits, tout en Lync Les données du serveur sont protégées sur le réseau. De plus, le contrôle d’accès basé sur les rôles permet de déployer des serveurs exécutant Lync Server 2013 de sorte que chaque rôle de serveur exécute uniquement les services et que seules les autorisations associées à ces services soient appropriées pour le rôle serveur.
 
-  - **Fiable par le déploiement**   toutes les informations de la documentation Lync Server 2013 incluent des pratiques recommandées et des recommandations pour vous aider à déterminer et à configurer les niveaux de sécurité optimaux pour votre déploiement et évaluer les risques liés à l’activation de la sécurité par défaut. Options.
+  - **Digne de confiance en**   ce qui concerne la documentation Lync Server 2013 comporte des pratiques recommandées et des recommandations pour vous aider à déterminer et configurer les niveaux de sécurité optimaux pour votre déploiement et à évaluer les risques liés à l’activation des options non par défaut.
 
 </div>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: suppression de liens de région réseau'
+title: 'Lync Server 2013 : suppression de liens de région réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting network region links
 ms:assetid: 839273cd-d23f-4b38-84e6-d2dc972f49cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688114(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a097626f6e5eb5de8e3503baab0f1ab9ce462549
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 158537f2473beba686daa51c5384a45f01432320
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831582"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763022"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831582"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Vous pouvez configurer des liens entre deux régions réseau dans le cadre de la commande d’admission des appels (CAC). Les régions d’un réseau sont liées par le biais de la connectivité du réseau étendu (WAN) physique. Le panneau de configuration de Lync Server vous permet de supprimer un lien existant entre deux zones du réseau. Pour plus d’informations sur la création ou la modification du lien de région de réseau, voir [configuration de liens de région réseau dans Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
 

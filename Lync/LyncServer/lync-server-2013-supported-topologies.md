@@ -3,6 +3,8 @@ title: Topologies prises en charge dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported topologies
 ms:assetid: 3475d430-0394-491b-a09b-ba85bd62be70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425833(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 295d0cfc212fcf09b9752c43e918861f49ec7a88
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f200cde348d1fbdc931daa25abef28aec804a1b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34846733"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-01-14_
+_**Dernière modification de la rubrique :** 2014-01-14_
 
 Lync Server 2013 prend en charge le déploiement de sites en local au sein d’une organisation et l’intégration de déploiements sur site à des déploiements Lync Online, un déploiement hybride. Dans un déploiement hybride, certains utilisateurs sont hébergés sur site et certains utilisateurs sont hébergés en ligne.
 
 Pour les déploiements sur site, Lync Server 2013 prend en charge le déploiement d’un ou de plusieurs sites qui peuvent être mis à l’échelle afin de répondre aux exigences d’emplacement et de haute disponibilité. Vous pouvez structurer ces sites et leurs composants conformément aux exigences d’accès et de résilience de votre organisation.
 
-Un déploiement local de Lync Server 2013 se compose des éléments suivants:
+Un déploiement local de Lync Server 2013 se compose des éléments suivants :
 
-  - Votre déploiement doit inclure au moins un site central (également appelé centre de données). Chaque site central doit contenir au moins un pool frontal Enterprise Edition ou un serveur Standard Edition Server. Il s’agit des éléments suivants:
+  - Votre déploiement doit inclure au moins un site central (également appelé centre de données). Chaque site central doit contenir au moins un pool frontal Enterprise Edition ou un serveur Standard Edition Server. Il s’agit des éléments suivants :
     
       - Pool frontal Enterprise Edition, qui se compose d’un ou de plusieurs serveurs frontaux (en général, au moins deux serveurs frontaux pour l’évolutivité) et d’un serveur principal séparé. Un pool frontal peut contenir un maximum de 12 serveurs frontaux. L’équilibrage de charge est requis pour plusieurs serveurs front-end. Pour le trafic SIP, nous vous recommandons d’utiliser l’équilibrage de charge DNS, mais l’équilibrage de charge matérielle est également pris en charge. Si vous utilisez l’équilibrage de charge DNS pour le trafic SIP, vous avez encore besoin d’un équilibreur de charge matérielle pour le trafic HTTP. Nous recommandons la mise en miroir SQL Server pour une haute disponibilité des bases de données. La base de données principale nécessite une instance distincte, mais vous pouvez collocate la base de données d’archivage, la base de données de surveillance, la base de données de conversation permanente et la base de données de conformité aux conversations permanentes. Lync Server 2013 prend en charge l’utilisation d’un cluster partagé pour les partages de fichiers dans votre déploiement. Pour plus d’informations sur les exigences de stockage de base de données, voir [prise en charge de logiciels de base de données dans Lync Server 2013](lync-server-2013-database-software-support.md). Pour plus d’informations sur les exigences en matière de stockage de fichiers, voir [prise en charge du stockage de fichiers dans Lync Server 2013](lync-server-2013-file-storage-support.md).
         
@@ -74,7 +76,7 @@ Cette section décrit les sites et composants d’un déploiement 2013 de Lync S
 
 ## <a name="central-site-topologies-and-components-on-premises"></a>Topologies et composants de site central (en local)
 
-Même si une topologie de site central doit inclure un pool frontal ou un serveur Standard Edition Server standard, chaque site central peut également contenir les éléments suivants:
+Même si une topologie de site central doit inclure un pool frontal ou un serveur Standard Edition Server standard, chaque site central peut également contenir les éléments suivants :
 
   - Plusieurs listes frontales qui peuvent se trouver dans le même domaine ou dans des domaines différents. Toutefois, tous les serveurs frontaux dans une liste frontale et le serveur principal pour ce pool doivent se trouver dans le même domaine.
 
@@ -106,7 +108,7 @@ Même si une topologie de site central doit inclure un pool frontal ou un serveu
 
 </div>
 
-Toutes les listes frontales et les serveurs Standard Edition Server que vous déployez sur un site central partagent l’une des options suivantes:
+Toutes les listes frontales et les serveurs Standard Edition Server que vous déployez sur un site central partagent l’une des options suivantes :
 
   - Pool de directeurs ou de réalisateurs
 
@@ -132,7 +134,7 @@ Toutes les listes frontales et les serveurs Standard Edition Server que vous dé
 
 </div>
 
-Les sites centraux multiples peuvent également partager les éléments suivants du déploiement dans un site central:
+Les sites centraux multiples peuvent également partager les éléments suivants du déploiement dans un site central :
 
   - Serveur de médiation autonome ou pool
 
@@ -158,7 +160,7 @@ Pour plus d’informations sur les rôles et les fonctionnalités du serveur Lyn
 
 Pour obtenir un résumé de la prise en charge de la prise en charge des serveurs Lync Server 2013, voir [prise en charge des serveurs dans Lync server 2013](lync-server-2013-supported-server-collocation.md).
 
-Outre les rôles de serveur et les fonctionnalités abordés dans cette section, Lync Server 2013 comporte des composants et des options supplémentaires, qui peuvent inclure tout ou partie des éléments suivants:
+Outre les rôles de serveur et les fonctionnalités abordés dans cette section, Lync Server 2013 comporte des composants et des options supplémentaires, qui peuvent inclure tout ou partie des éléments suivants :
 
   - Pare-feu
 
@@ -182,7 +184,7 @@ Pour plus d’informations sur l’ensemble des fonctionnalités, composants et 
 
 ## <a name="branch-site-topologies-and-components-on-premises"></a>Composants et topologies de site de succursale (sur site)
 
-Un site de filiale est associé à un site central et chaque application de succursale Survivable dans un site de filiale est associée à un pool frontal Enterprise Edition ou un serveur Standard Edition Server dans le site central associé. Les sites de succursale dépendent du site central pour la plupart de leurs fonctionnalités, de sorte que les composants d’un site de succursale contiennent uniquement les éléments suivants:
+Un site de filiale est associé à un site central et chaque application de succursale Survivable dans un site de filiale est associée à un pool frontal Enterprise Edition ou un serveur Standard Edition Server dans le site central associé. Les sites de succursale dépendent du site central pour la plupart de leurs fonctionnalités, de sorte que les composants d’un site de succursale contiennent uniquement les éléments suivants :
 
   - Une unité de branchement survivant qui combine une passerelle de réseau téléphonique commuté (PSTN) et certaines fonctionnalités de Lync Server. Un serveur de médiation peut être colocalisé avec l’instance du Bureau d’enregistrement sur l’appareil de succursale survivant et vous pouvez déployer un serveur de médiation autonome ou un pool de serveurs de médiation.
 

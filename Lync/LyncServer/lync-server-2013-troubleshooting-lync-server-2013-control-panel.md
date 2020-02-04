@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: résolution des problèmes du panneau de configuration de Lync Server 2013'
+title: 'Lync Server 2013 : résolution des problèmes du panneau de configuration de Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting Lync Server 2013 Control Panel
 ms:assetid: 54e7ab57-34ce-4a07-bcc9-643379eb4eb7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 943f2ab5f0fe808d1bf5e10cf8b451ac1df2575b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff82a1e63a064d0053fc77614d6a9b5fa818c23e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846484"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846484"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-07-28_
+_**Dernière modification de la rubrique :** 2016-07-28_
 
 Cette rubrique fournit des informations et des procédures qui peuvent vous aider à résoudre les problèmes d’accès à Lync Server 2013 panneau de configuration.
 
@@ -63,7 +65,7 @@ Si le navigateur Internet est configuré pour utiliser un serveur proxy, assurez
 
 ## <a name="dns-record-and-certificate-requirements-for-the-administrative-access-url"></a>Exigences relatives aux enregistrements DNS et aux certificats pour l’URL d’accès administratif
 
-Si vous avez configuré une URL simple permettant d’accéder au panneau de configuration de Lync Server, assurez-vous également de configurer l’enregistrement de ressources (A) hôte DNS (Domain Name System) et le certificat nécessaires pour utiliser cette URL d’accès administratif. Si vous modifiez l’URL de base à tout moment, assurez-vous que la modification est répercutée dans l’enregistrement DNS approprié et le certificat et que vous exécutez le fichier *Enable-CsComputer* sur chaque réalisateur et serveur frontal pour inscrire la modification. Pour plus d’informations, reportez-vous aux rubriques suivantes dans la documentation de planification:
+Si vous avez configuré une URL simple permettant d’accéder au panneau de configuration de Lync Server, assurez-vous également de configurer l’enregistrement de ressources (A) hôte DNS (Domain Name System) et le certificat nécessaires pour utiliser cette URL d’accès administratif. Si vous modifiez l’URL de base à tout moment, assurez-vous que la modification est répercutée dans l’enregistrement DNS approprié et le certificat et que vous exécutez le fichier *Enable-CsComputer* sur chaque réalisateur et serveur frontal pour inscrire la modification. Pour plus d’informations, reportez-vous aux rubriques suivantes dans la documentation de planification :
 
   - [Planification des URL simples dans Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
 

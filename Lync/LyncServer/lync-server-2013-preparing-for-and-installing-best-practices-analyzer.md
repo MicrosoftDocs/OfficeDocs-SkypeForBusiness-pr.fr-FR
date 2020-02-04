@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: préparation et installation des meilleures pratiques Analyzer'
+title: 'Lync Server 2013 : préparation et installation des meilleures pratiques Analyzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for and installing Best Practices Analyzer
 ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591347(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58d1d2f86b579bfb0259c8ad3e4b26b051b47a8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f5992b45d8930bac880f66422d10ddbd4b94f18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823923"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823923"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
 Pour effectuer les tâches décrites dans cette rubrique, vous devez être connecté en tant que membre du groupe administrateurs.
 
@@ -41,7 +43,7 @@ Pour effectuer les tâches décrites dans cette rubrique, vous devez être conne
 
 ## <a name="system-requirements-for-best-practices-analyzer-installation"></a>Configuration système requise pour l’installation de l’analyseur de meilleures pratiques
 
-Pour exécuter Lync Server 2013, le protocole recommandé Analyzer pour analyser votre environnement, l’ordinateur doit exécuter une édition 64 bits d’un des systèmes d’exploitation suivants:
+Pour exécuter Lync Server 2013, le protocole recommandé Analyzer pour analyser votre environnement, l’ordinateur doit exécuter une édition 64 bits d’un des systèmes d’exploitation suivants :
 
   - Système d’exploitation standard de Windows Server 2008 R2 avec Service Pack 1 (SP1)
 
@@ -65,7 +67,7 @@ Pour exécuter Lync Server 2013, le protocole recommandé Analyzer pour analyser
 
   - Système d’exploitation Windows 7
 
-L’ordinateur doit également exécuter les éléments suivants:
+L’ordinateur doit également exécuter les éléments suivants :
 
   - Microsoft .NET Framework 4,5. Pour Lync Server 2013, vous devez installer manuellement l’édition 64 bits de Microsoft .NET Framework 4,5 sur le serveur avant de procéder à l’installation de Lync Server 2013.
 

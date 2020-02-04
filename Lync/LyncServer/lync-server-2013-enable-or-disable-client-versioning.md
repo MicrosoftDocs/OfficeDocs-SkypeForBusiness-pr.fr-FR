@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activer ou désactiver le contrôle de version du client'
+title: 'Lync Server 2013 : activer ou désactiver le contrôle de version du client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable client versioning
 ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898475(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a0f6e5306e30baca3c2a8178a0d979f82d55481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f413df3ec1d35438155492a32d9fdff449aec3c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831301"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Les paramètres de configuration de la version du client permettent d’activer ou de désactiver le contrôle de version du client, globalement ou pour des sites spécifiques. La configuration de la version du client global s’installe avec Lync Server 2013 et est utilisée pour activer ou désactiver le contrôle de version du client pour le déploiement complet du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version de client en vigueur sont prises en compte lorsque les utilisateurs essaient de se connecter. Vous pouvez désactiver la configuration de la version du client global si vous ne souhaitez pas que le contrôle de version du client se produise. Vous pouvez activer ou désactiver le contrôle de version du client via le panneau de configuration de Lync Server 2013 ou Lync Server 2013 Management Shell.
 
@@ -69,7 +71,7 @@ Les paramètres de configuration de la version du client permettent d’activer 
 
 ## <a name="enabling-or-disabling-client-versioning-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation du contrôle de version du client à l’aide des cmdlets Windows PowerShell
 
-Vous pouvez activer ou désactiver le contrôle de version du client à l’aide de l’applet **de contrôle Set-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez activer ou désactiver le contrôle de version du client à l’aide de l’applet **de contrôle Set-CsClientVersionConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 

@@ -3,6 +3,8 @@ title: Configuration des paramètres généraux de déviation du trafic multimé
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd070e6380a896548b851ac7d3472cd86eeba75b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac820c444f894aabf060c06d6f034f7d92b696c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757748"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34838359"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 <div>
 
 
 > [!NOTE]
-> Cette rubrique part du principe que vous avez déjà configuré le contournement multimédia pour toutes les connexions de Trunk du serveur de médiation à un homologue (une passerelle RTC (réseau téléphonique commuté), un PBX IP ou un contrôleur de bordure de session (SBC) sur un service de téléphonie sur Internet. Fournisseur (ITSP) pour un site ou un service spécifique pour lequel vous souhaitez que le média ignore le serveur de médiation.<BR>Cette rubrique part du principe que vous avez défini tous les sites centraux et les sites de succursale dans le générateur de topologie de telle sorte qu’ils correspondent à la région du réseau, au site réseau et à la configuration de sous-réseau que vous avez exécutées conformément aux étapes de la rubrique <A href="lync-server-2013-create-or-modify-a-network-region.md">créer ou modifier une région réseau dans Lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">créez ou modifiez un site réseau dans lync Server 2013</A>, puis <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">associez un sous-réseau à un site réseau dans Lync Server 2013</A>. S’il ne correspond pas, l’action de contournement du support n’aboutira pas.
+> Cette rubrique part du principe que vous avez déjà configuré le contournement multimédia pour toutes les connexions de Trunk du serveur de médiation à un homologue (une passerelle RTC (réseau téléphonique commuté), un PBX IP ou un contrôleur de bordure de session (SBC) sur un service de téléphonie sur Internet. Fournisseur (ITSP) pour un site ou un service spécifique pour lequel vous souhaitez que le média ignore le serveur de médiation.<BR>Cette rubrique part du principe que vous avez défini des sites centraux et des sites de succursales dans le générateur de topologie d’une façon qui correspond à la région réseau, au site réseau et à la configuration de sous-réseau que vous avez exécutées conformément aux étapes décrites dans la rubrique <A href="lync-server-2013-create-or-modify-a-network-region.md">créer ou modifier une région réseau dans Lync server</A> <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">2013</A> <A href="lync-server-2013-create-or-modify-a-network-site.md">2013</A>2013 S’il ne correspond pas, l’action de contournement du support n’aboutira pas.
 
 
 
 </div>
 
-Outre l’activation de l’exclusion de médias pour les connexions de Trunk individuelles associées à un homologue, vous devez également configurer des paramètres globaux. Si vous suivez les étapes décrites dans cette rubrique pour configurer des paramètres globaux pour la dérivation de médias, il est supposé que l’une ou les deux situations suivantes affectent votre configuration:
+Outre l’activation de l’exclusion de médias pour les connexions de Trunk individuelles associées à un homologue, vous devez également configurer des paramètres globaux. Si vous suivez les étapes décrites dans cette rubrique pour configurer des paramètres globaux pour la dérivation de médias, il est supposé que l’une ou les deux situations suivantes affectent votre configuration :
 
   - Vous *ne disposez pas* de la bonne connectivité entre les points de terminaison Lync Server et les homologues pour lesquels vous avez configuré une contournement multimédia sur la connexion Trunk.
 
@@ -55,7 +57,7 @@ Outre l’activation de l’exclusion de médias pour les connexions de Trunk in
     
 
     > [!NOTE]
-    > Pour plus d’informations sur les considérations relatives aux contrôles d’admission des appels et au contournement du contenu multimédia, voir la section «contrôle d’admission des appels de connexions RTC» dans le <A href="lync-server-2013-media-bypass-and-mediation-server.md">serveur de contournement de média et le serveur de médiation de Lync server 2013</A> dans la documentation de planification.
+    > Pour plus d’informations sur les considérations relatives aux contrôles d’admission des appels et au contournement du contenu multimédia, voir la section « contrôle d’admission des appels de connexions RTC » dans le <A href="lync-server-2013-media-bypass-and-mediation-server.md">serveur de contournement de média et le serveur de médiation de Lync server 2013</A> dans la documentation de planification.
 
     
     </div>

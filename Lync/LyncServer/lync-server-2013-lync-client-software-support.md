@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: support du logiciel client Lync'
+title: 'Lync Server 2013 : support du logiciel client Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client software support
 ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d11037f6a70d99b5e49958e72c1847912f1fff3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c17f30b05141e9b47ce09685ff18cd166c195f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830932"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830932"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-02-25_
+_**Dernière modification de la rubrique :** 2016-02-25_
 
 Cette section résume le support logiciel pour Lync 2013 et le complément réunion en ligne pour Lync 2013.
 
@@ -122,9 +124,9 @@ Cette section résume le support logiciel pour Lync 2013 et le complément réun
 
 Lync 2013 est disponible uniquement pour Windows. Toutefois, Lync Server 2013 prend en charge les clients suivants sur des ordinateurs exécutant Mac OS 10.5.8 ou les derniers Service Packs ou versions de version (Intel) (le système d’exploitation Mac OS 10,9 n’est pas pris en charge pour le moment). Pour plus d’informations sur les fonctionnalités prises en charge, voir [tableaux de comparaison des clients pour Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Lync pour Mac 2011 (voir «Guide de déploiement de Lync pour Mac 2011 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)» à l’adresse)
+  - Microsoft Lync pour Mac 2011 (voir « Guide de déploiement de Lync pour Mac 2011 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)» à l’adresse)
 
-  - Microsoft Communicator pour Mac 2011 (voir «Guide de déploiement de Communicator pour Mac 2011» à [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)l’adresse)
+  - Microsoft Communicator pour Mac 2011 (voir « Guide de déploiement de Communicator pour Mac 2011 » à [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)l’adresse)
 
 </div>
 
@@ -154,7 +156,7 @@ Les clients Lync Server 2013 prennent en charge l’intégration à différentes
 
 ## <a name="using-mandatory-profiles"></a>Utilisation de profils obligatoires
 
-Si les utilisateurs envisagent d’utiliser les fonctionnalités de conférence 2013 de Lync, ils ne doivent pas utiliser les profils obligatoires des services de domaine Active Directory pour se connecter au client Lync 2013. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour les conférences Lync 2013 ne peuvent pas être enregistrées dans le profil. Pour plus d’informations, reportez-vous à l’article 2552221 de la base de connaissances Microsoft «échec de la fonctionnalité de conférence Lync 2010 lorsque [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)l’utilisateur est connecté à l’aide d’un profil utilisateur obligatoire».
+Si les utilisateurs envisagent d’utiliser les fonctionnalités de conférence 2013 de Lync, ils ne doivent pas utiliser les profils obligatoires des services de domaine Active Directory pour se connecter au client Lync 2013. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour les conférences Lync 2013 ne peuvent pas être enregistrées dans le profil. Pour plus d’informations, reportez-vous à l’article 2552221 de la base de connaissances Microsoft « échec de la fonctionnalité de conférence Lync 2010 lorsque [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)l’utilisateur est connecté à l’aide d’un profil utilisateur obligatoire ».
 
 </div>
 

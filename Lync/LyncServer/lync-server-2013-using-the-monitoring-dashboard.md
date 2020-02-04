@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation du tableau de bord de surveillance'
+title: 'Lync Server 2013 : utilisation du tableau de bord de surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Monitoring Dashboard
 ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50c5a435baf9ef6b2ef24e235270326507b68789
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 929d0fbc650a7b067d86738e5ded176a15c511f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846353"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846353"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-05_
+_**Dernière modification de la rubrique :** 2014-02-05_
 
 Le tableau de bord de suivi fournit aux administrateurs un aperçu rapide de leur état d’intégrité système et de l’utilisation du système Microsoft Lync Server 2013. Le tableau de bord est conçu pour afficher une vue agrégée des mesures système clés, et ce en affichant soit :
 
@@ -43,7 +45,7 @@ Le tableau de bord de suivi fournit aux administrateurs un aperçu rapide de leu
 
   - Les totaux du mois, et les totaux de la tendance des six mois précédents (pour l’utilisation du système uniquement).
 
-Notez que vous pouvez utiliser l’applet de contrôle [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) pour renvoyer l’URL utilisée pour accéder aux rapports d’analyse Lync Server 2013:
+Notez que vous pouvez utiliser l’applet de contrôle [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) pour renvoyer l’URL utilisée pour accéder aux rapports d’analyse Lync Server 2013 :
 
     Get-CsReportingConfiguration
 

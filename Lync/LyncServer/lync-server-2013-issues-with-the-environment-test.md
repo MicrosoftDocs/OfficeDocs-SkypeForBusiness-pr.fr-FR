@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: problèmes liés au test de l’environnement'
+title: 'Lync Server 2013 : problèmes liés au test de l’environnement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Issues with the environment test
 ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ed158c598b9dc5596df23cb845f0adac4c6fed3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65803ff396a9615787291de2d728fe63f3350d0b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830952"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34830952"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
-Le mode d’analyse des pratiques recommandées vous permet de vérifier que votre environnement Lync Server 2013 est une configuration prise en charge. Dans le cadre de la vérification des services de domaine Active Directory (AD FS), l’analyseur des recommandations est le suivant:
+Le mode d’analyse des pratiques recommandées vous permet de vérifier que votre environnement Lync Server 2013 est une configuration prise en charge. Dans le cadre de la vérification des services de domaine Active Directory (AD FS), l’analyseur des recommandations est le suivant :
 
   - Vérifie la forêt et la préparation du schéma des services de domaine Active Directory.
 

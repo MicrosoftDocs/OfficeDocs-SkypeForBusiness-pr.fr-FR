@@ -3,6 +3,8 @@ title: Test de l’évolutivité de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scalability testing
 ms:assetid: bf41bac6-d4ec-4de6-9a44-a82d01a87279
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205226(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f454ad3d78affb7106bcd0e750adae13624d9c9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d702b0a197e6e81fbc6833ca58968a10d8dd3fff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822271"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Lync Server 2013 fournit l’infrastructure de serveur pour toutes les communications en temps réel de Lync Server, notamment la messagerie instantanée (mi) et la présence, la Conférence et la voix entreprise. Cela inclut toutes les fonctionnalités qui utilisent les ressources matérielles d’un pool Lync Server 2013 et, par conséquent, affectent les performances et l’évolutivité. Toutes les organisations n’utilisent pas toutes les fonctionnalités de manière égale.
 
-Par exemple, certaines organisations peuvent utiliser la vidéo dans les conférences de manière très importante alors que d’autres peuvent avoir peu ou pas d’utilisation de la vidéo. Certaines organisations préfèrent le partage de diapositives PowerPoint au partage d’application, tandis que d’autres préfèrent. Les organisations qui déploient une voix entreprise peuvent ou ne peuvent pas utiliser énormément l’application Response Group. La plupart des organisations déploient des serveurs de contrôle, mais pas la plupart d’entre eux déploient des serveurs d’archivage. De plus, les organisations n’ont pas toutes les mêmes infrastructures, notamment les capacités matérielles, les capacités du réseau, ainsi que le nombre de pools et de tailles de pools déployés. La diversité des fonctionnalités et de l’infrastructure repose sur le défi des tests d’évolutivité: il n’est pas possible de simuler toutes les combinaisons possibles de fonctionnalités et d’infrastructures.
+Par exemple, certaines organisations peuvent utiliser la vidéo dans les conférences de manière très importante alors que d’autres peuvent avoir peu ou pas d’utilisation de la vidéo. Certaines organisations préfèrent le partage de diapositives PowerPoint au partage d’application, tandis que d’autres préfèrent. Les organisations qui déploient une voix entreprise peuvent ou ne peuvent pas utiliser énormément l’application Response Group. La plupart des organisations déploient des serveurs de contrôle, mais pas la plupart d’entre eux déploient des serveurs d’archivage. De plus, les organisations n’ont pas toutes les mêmes infrastructures, notamment les capacités matérielles, les capacités du réseau, ainsi que le nombre de pools et de tailles de pools déployés. La diversité des fonctionnalités et de l’infrastructure repose sur le défi des tests d’évolutivité : il n’est pas possible de simuler toutes les combinaisons possibles de fonctionnalités et d’infrastructures.
 
 Pour déterminer la prise en charge de l’évolutivité de Lync Server, nous effectuons des tests en utilisant toutes les fonctionnalités du serveur Lync en même temps, en fonction d’un modèle d’utilisation moyenne (modèle utilisateur). Pour déterminer un modèle utilisateur approprié pour des charges de travail Lync Server, nous analysons de nombreux points de données, notamment les enquêtes de clients, les commentaires du programme d’amélioration du produit de Microsoft, les données d’utilisation de Lync Server du département informatique interne de Microsoft. et données extraites de notre service Live Meeting. Dans de nombreux cas, le modèle utilisateur a une polarisation pour des charges plus lourdes afin de fournir une marge confortable pour l’utilisation au sein d’une organisation.
 

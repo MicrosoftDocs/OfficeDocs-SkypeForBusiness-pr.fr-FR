@@ -3,6 +3,8 @@ title: Prise en charge de l’intégration de la messagerie unifiée Exchange h�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Support for hosted Exchange UM integration
 ms:assetid: c7573ec3-013c-48d9-b59b-2a5427e6da35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398821(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56ba107c9a782acb15ccd8d57f82cf567f2b75e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24139ad5294bf908a85b797300397fa8b2ac9140
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846750"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34846750"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 L’application de routage ExUM Lync Server 2013 prend en charge l’intégration à la messagerie unifiée Exchange dans un environnement local dans lequel Lync Server 2013 et la messagerie unifiée Exchange sont tous deux installés localement au sein de votre entreprise, ou dans avec la messagerie unifiée Exchange hébergée par un fournisseur de services, comme indiqué dans le schéma suivant.
 
-![Déploiement de la messagerie unifiée Exchange Server en local] (images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
+![Déploiement de la messagerie unifiée Exchange Server en local](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Déploiement de la messagerie unifiée Exchange Server en local")
 
-Les modes suivants sont pris en charge:
+Les modes suivants sont pris en charge :
 
   - **Le mode**   local Lync Server 2013 et Exchange um sont tous deux déployés sur des serveurs locaux au sein de votre entreprise.
 

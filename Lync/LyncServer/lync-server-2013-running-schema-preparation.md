@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Exécution de la préparation du schéma'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running schema preparation
 ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412729(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b743e5ef93b14279f5f2f16cb70241617a0c8f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06b02981e9baa589801839c8fd8c871ae35b0dde
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822537"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822537"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 Vous pouvez utiliser le programme d’installation ou les applets de contrôle Lync Server Management Shell pour préparer le schéma Active Directory. L’applet de contrôle qui étend le schéma Active Directory est **install-CsAdServerSchema**.
 
@@ -41,7 +43,7 @@ Vous pouvez utiliser le programme d’installation ou les applets de contrôle L
 
 
 > [!NOTE]  
-> L’applet de commande de préparation du schéma (<STRONG>install-CsAdServerSchema</STRONG>) doit accéder au maître de schéma, qui nécessite que le service Registre distant soit en cours d’exécution et que la clé de Registre à distance soit activée. Si le service Registre distant ne peut pas être activé sur le maître de schéma, vous pouvez exécuter l’applet de commande localement sur le maître de schéma. Pour plus d’informations sur l’accès à distance du Registre, voir l’article de la base de connaissances Microsoft 314837, «comment gérer <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>l’accès distant au registre».
+> L’applet de commande de préparation du schéma (<STRONG>install-CsAdServerSchema</STRONG>) doit accéder au maître de schéma, qui nécessite que le service Registre distant soit en cours d’exécution et que la clé de Registre à distance soit activée. Si le service Registre distant ne peut pas être activé sur le maître de schéma, vous pouvez exécuter l’applet de commande localement sur le maître de schéma. Pour plus d’informations sur l’accès à distance du Registre, voir l’article de la base de connaissances Microsoft 314837, « comment gérer <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>l’accès distant au registre ».
 
 
 
@@ -59,7 +61,7 @@ Après avoir terminé la préparation du schéma, vérifiez manuellement que la 
 
 3.  Si vous êtes invité à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
 
-4.  La boîte de dialogue de configuration de Lync Server 2013 vous invite à entrer un emplacement d’installation des fichiers du serveur Lync. Choisissez l’emplacement par défaut **** ou naviguez jusqu’à l’emplacement de votre choix, puis cliquez sur **installer**.
+4.  La boîte de dialogue de configuration de Lync Server 2013 vous invite à entrer un emplacement d’installation des fichiers du serveur Lync. Choisissez l’emplacement par défaut ou **Naviguez** jusqu’à l’emplacement de votre choix, puis cliquez sur **installer**.
 
 5.  Sur la page contrat de licence, activez la case à cocher **J’accepte les termes du contrat de licence**, puis cliquez sur **OK**.
 
@@ -67,7 +69,7 @@ Après avoir terminé la préparation du schéma, vérifiez manuellement que la 
 
 7.  Lorsque l’Assistant déploiement est prêt, cliquez sur **Préparer Active Directory**et attendez que l’état du déploiement soit déterminé.
 
-8.  À l' **étape 1: préparer le schéma**, cliquez sur **exécuter**.
+8.  À l' **étape 1 : préparer le schéma**, cliquez sur **exécuter**.
 
 9.  Sur la page **préparer le schéma** , cliquez sur **suivant**.
 
@@ -87,17 +89,17 @@ Après avoir terminé la préparation du schéma, vérifiez manuellement que la 
 
 1.  Ouvrez une session sur un ordinateur de la forêt en tant que membre du groupe administrateurs de schéma et avec des droits d’administrateur sur le maître de schéma.
 
-2.  Installez les composants principaux de Lync Server comme suit:
+2.  Installez les composants principaux de Lync Server comme suit :
     
     1.  À partir du dossier d’installation ou du média de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Lync Server.
     
     2.  Si vous êtes invité à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
     
-    3.  La boîte de dialogue de configuration de Lync Server 2013 vous invite à entrer un emplacement d’installation des fichiers du serveur Lync. Choisissez l’emplacement par défaut **** ou naviguez jusqu’à l’emplacement de votre choix, puis cliquez sur **installer**.
+    3.  La boîte de dialogue de configuration de Lync Server 2013 vous invite à entrer un emplacement d’installation des fichiers du serveur Lync. Choisissez l’emplacement par défaut ou **Naviguez** jusqu’à l’emplacement de votre choix, puis cliquez sur **installer**.
     
     4.  Sur la page contrat de licence, activez la case à cocher **J’accepte les termes du contrat de licence**, puis cliquez sur **OK**. Le programme d’installation installe les composants principaux de Lync Server 2013.
 
-3.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 4.  Exécutez :
     

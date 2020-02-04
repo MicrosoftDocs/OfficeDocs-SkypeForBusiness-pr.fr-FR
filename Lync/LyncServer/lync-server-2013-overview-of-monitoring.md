@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de la surveillance'
+title: 'Lync Server 2013 : vue d’ensemble de la surveillance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of monitoring
 ms:assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204937(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88bfb8170b2334c322c612628daa1f8b9db2473c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27826948f9206c6053b166d901145ed6785a0189
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825421"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825421"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-05_
+_**Dernière modification de la rubrique :** 2012-09-05_
 
-Dans Microsoft Lync Server 2013, le contrôle permet de collecter les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent. Une session est un terme générique qui couvre la connexion d’un utilisateur à:
+Dans Microsoft Lync Server 2013, le contrôle permet de collecter les informations d’utilisation et les données de qualité d’utilisation (QoE) sur les sessions de communication auxquelles les utilisateurs participent. Une session est un terme générique qui couvre la connexion d’un utilisateur à :
 
   - Conférence
 
@@ -47,13 +49,13 @@ Dans Microsoft Lync Server 2013, le contrôle permet de collecter les informatio
 
 
 > [!NOTE]  
-> Lync Server 2013 effectue le suivi des informations relatives à chaque session: qui a appelé qui; Quels points de terminaison utilisés dans la session; durée de la session, Quelle a été la qualité perçue de la session; et ainsi de suite. Toutefois, Lync Server n’enregistre et ne stocke pas l’appel réel. Qui inclut également des sessions de messagerie instantanée: bien que Lync Server enregistre des informations sur les sessions de messagerie instantanée, il ne conserve aucun enregistrement de chaque message instantané envoyé lors de la session.
+> Lync Server 2013 effectue le suivi des informations relatives à chaque session : qui a appelé qui ; Quels points de terminaison utilisés dans la session ; durée de la session, Quelle a été la qualité perçue de la session ; et ainsi de suite. Toutefois, Lync Server n’enregistre et ne stocke pas l’appel réel. Qui inclut également des sessions de messagerie instantanée : bien que Lync Server enregistre des informations sur les sessions de messagerie instantanée, il ne conserve aucun enregistrement de chaque message instantané envoyé lors de la session.
 
 
 
 </div>
 
-Les informations détaillées des appels collectées par Lync Server peuvent être utilisées pour n’importe quel nombre d’usages, y compris:
+Les informations détaillées des appels collectées par Lync Server peuvent être utilisées pour n’importe quel nombre d’usages, y compris :
 
   - **Retour sur investissement**. Les administrateurs peuvent comparer les données d’utilisation collectées par Monitoring Server à des données similaires collectées pour leur précédent système de téléphonie afin d’afficher des économies de coûts et de justifier le déploiement de Lync Server.
 
@@ -73,7 +75,7 @@ En plus de ces informations de base, le serveur de surveillance fournit égaleme
 
 À la fin de chaque appel, des points de terminaison compatibles SIP transmettent automatiquement ces informations au serveur frontal qui facilite l’appel. Aucune opération n’est nécessaire pour que les points de terminaison transmettent ces informations ; ce comportement est intégré au protocole SIP. Cependant, si vous souhaitez collecter et stocker ces informations, vous devez installer et activer la surveillance. Si vous installez et activez la surveillance, les informations relatives aux appels sont collectées par des agents exécutés sur le serveur frontal et relayées à une paire de bases de données SQL Server.
 
-Notez que le processus d’installation et de configuration de la surveillance a été simplifié dans Lync Server 2013. Dans les versions antérieures du logiciel, la surveillance nécessitait un rôle serveur de surveillance distinct, qui signifiait en général un autre ordinateur mis en réserve pour une utilisation comme serveur de surveillance. Par le biais de Lync Server 2013, le rôle serveur de surveillance a été supprimé. Au lieu de cela, le service de surveillance (qui se présente sous la forme d’agents de collection de données unifiées) a été colocalisé sur tous les serveurs frontaux. Vous avez au moins deux avantages principaux. Colocalisation du service de surveillance:
+Notez que le processus d’installation et de configuration de la surveillance a été simplifié dans Lync Server 2013. Dans les versions antérieures du logiciel, la surveillance nécessitait un rôle serveur de surveillance distinct, qui signifiait en général un autre ordinateur mis en réserve pour une utilisation comme serveur de surveillance. Par le biais de Lync Server 2013, le rôle serveur de surveillance a été supprimé. Au lieu de cela, le service de surveillance (qui se présente sous la forme d’agents de collection de données unifiées) a été colocalisé sur tous les serveurs frontaux. Vous avez au moins deux avantages principaux. Colocalisation du service de surveillance :
 
   - Réduit le nombre de rôles de serveur requis lors de l’implémentation de Lync Server 2013. Le fait de décrémenter le rôle du serveur de surveillance permet également de réduire les coûts en éliminant le besoin de mettre à jour les serveurs dédiés pour la surveillance.
 

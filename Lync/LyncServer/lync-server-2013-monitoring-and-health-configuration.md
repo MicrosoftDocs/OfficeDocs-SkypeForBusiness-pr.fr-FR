@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: surveillance et configuration de l’intégrité'
+title: 'Lync Server 2013 : surveillance et configuration de l’intégrité'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring and health configuration
 ms:assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520950(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3f9e1dfc41b07e5e9279de96de0ae258f2f561a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99b554b419a1f0b672caac867a1e3d4caabdae1e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826772"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826772"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 Les rubriques de cette section fournissent des procédures pas à pas relatives à la surveillance et aux tâches de configuration de l’intégrité que vous pouvez effectuer dans Lync Server 2013 Server Control Panel et Lync Server 2013 Management Shell.
 

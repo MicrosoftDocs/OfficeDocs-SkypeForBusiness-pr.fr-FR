@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table Dialogs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dialogs table
 ms:assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425954(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a25ae1d298f1cf5908c4669a78485491fadd617d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 326ecac8df81eeba11ed29ff9f1968b681cdb98f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831393"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831393"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Le tableau boîtes de dialogue est une table de prise en charge qui contient les informations sur DialogIDs pour les sessions d’égal à égal.
 
@@ -58,7 +60,7 @@ Le tableau boîtes de dialogue est une table de prise en charge qui contient les
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>DateHeure</p></td>
 <td><p>Principal</p></td>
-<td><p>Durée de la demande de session; utilisé conjointement avec SessionIDSeq pour identifier une session de manière unique.</p></td>
+<td><p>Durée de la demande de session ; utilisé conjointement avec SessionIDSeq pour identifier une session de manière unique.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
@@ -76,9 +78,9 @@ Le tableau boîtes de dialogue est une table de prise en charge qui contient les
 <td><p><strong>ExternalId</strong></p></td>
 <td><p>varbinary (LGA775)</p></td>
 <td><p> </p></td>
-<td><p>ID de boîte de dialogue SIP, enregistré en tant que fichier binaire. Le format du binaire est le suivant:</p>
-<p>boîte de dialogue; à partir d’une balise</p>
-<p>Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante:</p>
+<td><p>ID de boîte de dialogue SIP, enregistré en tant que fichier binaire. Le format du binaire est le suivant :</p>
+<p>boîte de dialogue ; à partir d’une balise</p>
+<p>Vous pouvez convertir ces données en format texte à l’aide de la syntaxe suivante :</p>
 <p><code>cast(cast(ExternalId as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

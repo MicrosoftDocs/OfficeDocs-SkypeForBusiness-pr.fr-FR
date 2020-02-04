@@ -3,6 +3,8 @@ title: Configurer l’accès utilisateur pour la Fédération avec un client Lyn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure user access for federation with a Lync Online customer
 ms:assetid: 72cb1153-73b6-4da2-b5c3-de6e7aa642a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202177(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1e85c725f9194c2862b59bbbac25b903f2be894
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d83ea228d7cf9a6354117d62dc92c6fcbc55ac56
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838306"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838306"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Vous devez configurer les comptes d’utilisateurs de tous les utilisateurs de votre organisation pour qu’ils puissent communiquer avec des partenaires fédérés. Cette configuration est appliquée à tous les partenaires fédérés, y compris aux domaines de clients 2010 Microsoft Lync Online avec lesquels vous prenez en charge la Fédération. Pour plus d’informations sur la configuration de la prise en charge de la Fédération pour les comptes d’utilisateurs, voir [configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) et [attribuer une stratégie d’accès utilisateur externe à un utilisateur compatible Lync dans Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) dans les opérations. accompagnant.
+Vous devez configurer les comptes d’utilisateurs de tous les utilisateurs de votre organisation pour qu’ils puissent communiquer avec des partenaires fédérés. Cette configuration est appliquée à tous les partenaires fédérés, y compris aux domaines de clients 2010 Microsoft Lync Online avec lesquels vous prenez en charge la Fédération. Pour plus d’informations sur la configuration de la prise en charge de la Fédération pour les comptes d’utilisateurs, reportez-vous à la rubrique [configuration de stratégies pour contrôler l’accès des utilisateurs fédérés dans Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) et [attribuer une stratégie d’accès utilisateur externe à un utilisateur de Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) dans la documentation sur les opérations.
 
 </div>
 

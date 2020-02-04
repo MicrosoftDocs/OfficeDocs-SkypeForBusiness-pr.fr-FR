@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Nouveautés pour les clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: What's new for clients
 ms:assetid: 5c144677-4d58-4fc3-8445-74b76c9fcf07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204933(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf37f68d0ea11e17a799956f285d8ca82eb2a27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f938ccc4e4a040307a7cf86a8084353c480cfdca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846198"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846198"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-19_
+_**Dernière modification de la rubrique :** 2013-02-19_
 
 Microsoft Lync 2013 dispose d’une interface utilisateur repensée et de nouvelles fonctionnalités importantes. Pour les administrateurs, le client est désormais inclus dans le programme d’installation d’Office, offrant ainsi une approche plus rationalisée pour le déploiement d’Office et la personnalisation des clients au sein de votre organisation.
 
@@ -41,7 +43,7 @@ Microsoft Lync 2013 dispose d’une interface utilisateur repensée et de nouvel
 
 
 > [!NOTE]  
-> Pour obtenir un affichage illustré des mises à jour de l’interface utilisateur de Lync 2013, voir «Nouveautés de Lync 2013 <A href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</A>».
+> Pour obtenir un affichage illustré des mises à jour de l’interface utilisateur de Lync 2013, voir « Nouveautés de Lync 2013 <A href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</A>».
 
 
 
@@ -53,7 +55,7 @@ Microsoft Lync 2013 dispose d’une interface utilisateur repensée et de nouvel
 
 Le client Lync 2013 et le complément réunion en ligne pour Lync 2013, qui prend en charge la gestion de la réunion à partir du client de messagerie et de collaboration Outlook, sont désormais inclus dans le programme d’installation d’Office 2013.
 
-Dans les versions précédentes de Lync et Office Communicator, vous pouvez utiliser les propriétés Windows Installer pour personnaliser et contrôler l’installation d’Office. Dans la mesure où Lync 2013 est intégré au programme d’installation d’Office, vous pouvez utiliser les méthodes suivantes pour personnaliser le programme d’installation de Lync 2013:
+Dans les versions précédentes de Lync et Office Communicator, vous pouvez utiliser les propriétés Windows Installer pour personnaliser et contrôler l’installation d’Office. Dans la mesure où Lync 2013 est intégré au programme d’installation d’Office, vous pouvez utiliser les méthodes suivantes pour personnaliser le programme d’installation de Lync 2013 :
 
   - Utilisation de l’outil de personnalisation Office
 
@@ -101,9 +103,9 @@ Le complément réunion en ligne pour Lync 2013 inclut la personnalisation d’i
 
 ## <a name="virtual-desktop-infrastructure-plug-in"></a>Plug-in d’infrastructure de bureau virtuel
 
-Le client Lync 2013 prend désormais en charge l’audio et la vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Un utilisateur peut connecter un périphérique audio ou vidéo (par exemple, un casque ou un appareil photo) à l’ordinateur local (par exemple, un client léger ou un ordinateur réaffecté). L’utilisateur peut se connecter à la machine virtuelle, se connecter au client 2013 Lync qui s’exécute sur l’ordinateur virtuel et participer à une communication audio et vidéo en temps réel, comme si le client s’exécute localement. Les fonctionnalités suivantes sont prises en charge dans un environnement de bureau virtuel:
+Le client Lync 2013 prend désormais en charge l’audio et la vidéo dans un environnement VDI (Virtual Desktop Infrastructure). Un utilisateur peut connecter un périphérique audio ou vidéo (par exemple, un casque ou un appareil photo) à l’ordinateur local (par exemple, un client léger ou un ordinateur réaffecté). L’utilisateur peut se connecter à la machine virtuelle, se connecter au client 2013 Lync qui s’exécute sur l’ordinateur virtuel et participer à une communication audio et vidéo en temps réel, comme si le client s’exécute localement. Les fonctionnalités suivantes sont prises en charge dans un environnement de bureau virtuel :
 
-  - Intégration d’appareil pour l’audio et la vidéo, notamment les suivantes:
+  - Intégration d’appareil pour l’audio et la vidéo, notamment les suivantes :
     
       - Contrôles d’appel à partir de l’appareil
     
@@ -131,7 +133,7 @@ Plusieurs nouvelles fonctions améliorent considérablement l’interface vidéo
 
   - La vidéo haute définition est désormais prise en charge dans des appels à deux ou des conférences multiparties. Les utilisateurs peuvent bénéficier de résolutions jusqu’à HD 1080P.
 
-  - Les participants peuvent faire votre choix parmi les différentes dispositions de la réunion: le mode Galerie affiche les images et les vidéos de tous les participants. Vue présentateur affiche le contenu de la réunion et uniquement la vidéo ou l’image du présentateur actuel. Le mode présentation affiche uniquement le contenu de la réunion. Affichage Compact affiche uniquement les contrôles de la réunion.
+  - Les participants peuvent faire votre choix parmi les différentes dispositions de la réunion : le mode Galerie affiche les images et les vidéos de tous les participants. Vue présentateur affiche le contenu de la réunion et uniquement la vidéo ou l’image du présentateur actuel. Le mode présentation affiche uniquement le contenu de la réunion. Affichage Compact affiche uniquement les contrôles de la réunion.
 
   - Grâce à la nouvelle fonctionnalité Galerie, les participants peuvent voir plusieurs flux vidéo en même temps. Si la Conférence compte plus de cinq participants, les flux vidéo des seuls participants les plus actifs apparaissent dans la ligne supérieure, et les images des autres participants.
 

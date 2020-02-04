@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: exécuter des tests de routage de voix informels'
+title: 'Lync Server 2013 : exécuter des tests de routage de voix informels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run informal voice routing tests
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b47394f595926fe37df9a0809380ed96fa1dec66
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822299"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765072"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822299"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-08-07_
+_**Dernière modification de la rubrique :** 2012-08-07_
 
 Vous pouvez utiliser la boîte de dialogue **créer des informations de cas de test de routage de voix** pour exécuter des tests informels avant de créer un cas de test réel. Lorsque vous êtes satisfait du résultat d’un test, vous pouvez l’enregistrer comme un cas de test formel.
 
@@ -51,7 +53,7 @@ Vous pouvez utiliser la boîte de dialogue **créer des informations de cas de t
 
 5.  Dans le champ **numéro composé** , entrez le numéro de téléphone que vous voulez utiliser pour ce test. Ce numéro sera normalisé et affiché dans le champ **nombre normalisé** du volet **résultats** .
 
-6.  Dans la liste **plan** de numérotation, sélectionnez le plan de numérotation à utiliser pour tester le numéro numéroté. Par défaut est le plan de numérotation global.
+6.  Dans la liste **plan de numérotation** , sélectionnez le plan de numérotation à utiliser pour tester le numéro numéroté. Par défaut est le plan de numérotation global.
     
     Lors de l’exécution du test, la première règle de normalisation de ce plan de numérotation qui correspond au numéro composé sera affichée dans le champ **règle de normalisation** du volet **résultats** .
 
@@ -83,14 +85,14 @@ Vous pouvez utiliser la boîte de dialogue **créer des informations de cas de t
         
 
         > [!NOTE]  
-        > Les valeurs des résultats de test permettent de préremplir les champs de la boîte de dialogue <STRONG>enregistrer les informations de cas de test</STRONG> de l’acheminement du message, comme suit: 
+        > Les valeurs des résultats de test permettent de préremplir les champs de la boîte de dialogue Enregistrer les informations de cas de test de l' <STRONG>acheminement du message</STRONG> , comme suit : 
         > <UL>
         > <LI>
         > <P>La <STRONG>traduction attendue</STRONG> est préremplie avec la valeur du champ <STRONG>nombre normalisé</STRONG> .</P>
         > <LI>
         > <P>Le champ <STRONG>route attendu</STRONG> est pré-rempli avec la valeur du <STRONG>premier champ itinéraire</STRONG> .</P>
         > <LI>
-        > <P>L' <STRONG>enregistrement d’utilisation RTC attendu</STRONG> est pré-rempli avec la valeur du premier champ d' <STRONG>utilisation PSTN</STRONG> .</P></LI></UL>Si les correspondances pour une de ces valeurs n’ont pas été trouvées lors de la série de tests, le champ correspondant est vide dans la boîte de dialogue <STRONG>enregistrer les informations de cas de test</STRONG> de l’acheminement du message.
+        > <P>L' <STRONG>enregistrement d’utilisation RTC attendu</STRONG> est pré-rempli avec la valeur du premier champ d' <STRONG>utilisation PSTN</STRONG> .</P></LI></UL>Si les correspondances pour une de ces valeurs n’ont pas été trouvées lors de la série de tests, le champ correspondant est vide dans la boîte de dialogue Enregistrer les informations de cas de test de l' <STRONG>acheminement du message</STRONG> .
 
         
         </div>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: paramètres réseau pour les fonctionnalités avancées de voix entreprise'
+title: 'Lync Server 2013 : paramètres réseau pour les fonctionnalités avancées de voix entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network settings for the advanced Enterprise Voice features
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d633d111e9df09cde57b91f32f4592b7f80c9f26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765875"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826506"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
-Lync Server comporte trois fonctionnalités avancées de voix entreprise: contrôle d’admission des appels (CAC), services d’urgence (E9-1-1) et contournement de média. Ces fonctionnalités partagent certaines exigences de configuration pour les zones du réseau, les sites réseau et l’Association de chaque sous-réseau dans la topologie du serveur Lync avec un site réseau. Pour plus d’informations sur la planification du déploiement de ces fonctionnalités, voir:
+Lync Server comporte trois fonctionnalités avancées de voix entreprise : contrôle d’admission des appels (CAC), services d’urgence (E9-1-1) et contournement de média. Ces fonctionnalités partagent certaines exigences de configuration pour les zones du réseau, les sites réseau et l’Association de chaque sous-réseau dans la topologie du serveur Lync avec un site réseau. Pour plus d’informations sur la planification du déploiement de ces fonctionnalités, voir :
 
   - [Planification du contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
@@ -65,11 +67,11 @@ Une région réseau est un concentrateur réseau ou un segment réseau principal
 
 Le CAC nécessite que toutes les régions du réseau aient un site central Lync Server associé qui gère le trafic multimédia au sein de la région (autrement dit, il prend des décisions basées sur les stratégies que vous avez configurées en ce qui concerne l’existence ou non d’une session audio ou vidéo en temps réel). être établi). Les sites Lync Server central ne représentent pas des emplacements géographiques, mais plutôt des groupes logiques de serveurs configurés en tant que pool ou ensemble de pools. Pour plus d’informations sur les sites centraux, voir [topologies de référence dans Lync Server 2013](lync-server-2013-reference-topologies.md) dans la documentation de planification. Voir également [topologies prises en charge dans Lync Server 2013](lync-server-2013-supported-topologies.md) dans la documentation sur la prise en charge.
 
-Pour configurer une région réseau, vous pouvez utiliser l’onglet **régions** dans la section **Configuration réseau** du panneau de configuration de Lync Server ou exécuter le **nouveau-CsNetworkRegion** ou **Set-CsNetworkRegion** Lync Server Management Shell. applets. Pour obtenir des instructions, consultez la rubrique [créer ou modifier une région réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.
+Pour configurer une région réseau, vous pouvez utiliser l’onglet **régions** de la section **Configuration réseau** du panneau de configuration de Lync Server ou exécuter les applets de commande **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Lync Server Management Shell. Pour obtenir des instructions, consultez la rubrique [créer ou modifier une région réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.
 
 Les mêmes définitions de zones réseau sont partagées par les trois fonctions vocales d’entreprise avancées. Si vous avez créé des régions réseau pour une fonctionnalité, vous n’avez pas besoin d’en créer de nouvelles pour les autres fonctionnalités. Cependant, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le système E9-1-1 (qui ne nécessite pas de site central associé) et que vous déployez ultérieurement le contrôle d’admission des appels, vous devez modifier chacune des définitions de région réseau pour spécifier un site central.
 
-Pour associer un site central Lync Server à une région réseau, vous spécifiez le nom du site central, soit à l’aide de la section **Configuration réseau** du panneau de configuration de Lync Server, soit en exécutant le **nouveau-CsNetworkRegion** ou **Set-CsNetworkRegion **Cmdlets Lync Server Management Shell. Pour obtenir des instructions, consultez la rubrique [créer ou modifier une région réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.
+Pour associer un site central Lync Server à une région réseau, vous spécifiez le nom du site central, soit à l’aide de la section **Configuration réseau** du panneau de configuration de Lync Server, soit en exécutant les applets de commande **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Lync Server Management Shell. Pour obtenir des instructions, consultez la rubrique [créer ou modifier une région réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-region.md) dans la documentation de déploiement, ou consultez la documentation Lync Server Management Shell.
 
 </div>
 
@@ -89,7 +91,7 @@ Un site réseau représente un emplacement géographique, tel qu’une succursal
 
 </div>
 
-Pour configurer un site réseau en l’associant à une région du réseau, vous pouvez utiliser la section **Configuration réseau** du panneau de configuration de Lync Server ou exécuter Lync Server Management Shell **New-CsNetworkSite** ou **Set-CsNetworkSite** applets. Pour plus d’informations, reportez-vous à [créer ou modifier un site réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-site.md) dans la documentation de déploiement, ou vous référer à la documentation Lync Server Management Shell.
+Pour configurer un site réseau et l’associer à une région du réseau, vous pouvez utiliser la section **Configuration réseau** du panneau de configuration de Lync Server ou exécuter les applets de commande **New-CsNetworkSite** ou **Set-CsNetworkSite** de Lync Server Management Shell. Pour plus d’informations, reportez-vous à [créer ou modifier un site réseau dans Lync server 2013](lync-server-2013-create-or-modify-a-network-site.md) dans la documentation de déploiement, ou vous référer à la documentation Lync Server Management Shell.
 
 </div>
 

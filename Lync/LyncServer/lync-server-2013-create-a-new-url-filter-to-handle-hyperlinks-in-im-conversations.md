@@ -3,6 +3,8 @@ title: Créer un nouveau filtre d’URL pour gérer les liens hypertexte dans le
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new URL filter to handle hyperlinks in IM conversations
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182590(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f8f9a06dd80f87f2758269ddd2d468aeae2014d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a7f6cd39034dbc3114f5b89fb15d252b71149762
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838081"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838081"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-26_
+_**Dernière modification de la rubrique :** 2012-09-26_
 
 Outre la modification du filtre d’URL global, vous pouvez configurer des filtres d’URL personnalisés pour des sites individuels au sein de votre déploiement 2013 Lync Server. Pour plus d’informations sur le filtrage d’URL, voir [configuration du transfert de fichiers et du filtrage d’URL pour la messagerie instantanée dans Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 

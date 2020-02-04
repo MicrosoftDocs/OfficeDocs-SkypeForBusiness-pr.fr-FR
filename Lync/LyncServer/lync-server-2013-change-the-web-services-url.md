@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifier l’URL des services Web'
+title: 'Lync Server 2013 : modifier l’URL des services Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335c73a56da1d8b9a28e7089a7cc2238724a322b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934e448f48413df2938deab8a0d08389cfad37bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838620"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838620"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-11-16_
+_**Dernière modification de la rubrique :** 2015-11-16_
 
 Lorsque vous configurez vos pools frontaux et les serveurs Standard Edition, vous avez la possibilité de configurer un nom de domaine complet (FQDN) externe et des ports associés. Si vous n’avez pas configuré cette URL lors de l’exécution de l’Assistant Déploiement de Lync Server, vous devez configurer vos paramètres manuellement. En règle générale, un administrateur n’a pas besoin de modifier ces paramètres, car il s’agit des ports recommandés et par défaut.
 
@@ -47,7 +49,7 @@ Lorsque vous configurez vos pools frontaux et les serveurs Standard Edition, vou
 
 </div>
 
-![Modifier les paramètres du pool de services Web] (images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Modifier les paramètres du pool de services Web")
+![Modifier les paramètres du pool de services Web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Modifier les paramètres du pool de services Web")
 
 <div>
 
@@ -55,9 +57,9 @@ Lorsque vous configurez vos pools frontaux et les serveurs Standard Edition, vou
 
 1.  Ouvrez une session sur l’ordinateur sur lequel le générateur de topologie est installé en tant que membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins.
 
-2.  Démarrer le générateur de topologie: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
+2.  Démarrer le générateur de topologie : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Générateur de topologie de Lync Server**.
 
-3.  Dans le générateur de topologie, dans l’arborescence de la console sous **serveurs front end Standard Edition**, regroupements **front**end et pools d' **annuaires**, sélectionnez le nom du pool. Cliquez avec le bouton droit sur le nom, cliquez sur **modifier les propriétés**, puis cliquez sur **services Web**.
+3.  Dans le générateur de topologie, dans l’arborescence de la console sous **serveurs front end Standard Edition**, **regroupements front**end et **pools d’annuaires**, sélectionnez le nom du pool. Cliquez avec le bouton droit sur le nom, cliquez sur **modifier les propriétés**, puis cliquez sur **services Web**.
 
 4.  Ajoutez ou modifiez le **nom de domaine complet des services Web externes**, puis cliquez sur **OK**.
     
@@ -76,7 +78,7 @@ Lorsque vous configurez vos pools frontaux et les serveurs Standard Edition, vou
 
 7.  Dans l’arborescence de la console, cliquez sur **Lync Server 2013**, puis, dans le volet **actions** , cliquez sur nouvelle **topologie de publication**.
 
-Quelques exigences sont à prendre en compte lorsque vous configurez les ports d’écoute et de publication:
+Quelques exigences sont à prendre en compte lorsque vous configurez les ports d’écoute et de publication :
 
   - Le port Listening indiqué est celui qui est configuré pour Internet Information Server (IIS) sur chaque serveur frontal.
 

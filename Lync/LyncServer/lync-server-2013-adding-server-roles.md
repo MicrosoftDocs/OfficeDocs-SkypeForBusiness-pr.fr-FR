@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Ajout de rôles serveur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding server roles
 ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412794(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3954fd59431341e917a3bf39dc9790d66cf56312
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838924"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838924"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-19_
+_**Dernière modification de la rubrique :** 2012-06-19_
 
 Après avoir activé votre déploiement initial, vous pouvez ajouter des rôles serveur supplémentaires pour Lync Server 2013, tel qu’un directeur ou un serveur de médiation autonome.
 

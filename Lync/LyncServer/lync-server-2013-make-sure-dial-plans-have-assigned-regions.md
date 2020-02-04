@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Vérification de l’affectation des régions aux pla
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Make sure dial plans have assigned regions
 ms:assetid: 3da3a907-0dbf-4440-b12f-370f94dd4c17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425903(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75c5aa91470accf0f25478b9233e1efb90357251
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd8790671157b823464a3b4b594ea8428a888f46
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828368"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828368"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2010-11-02_
+_**Dernière modification de la rubrique :** 2010-11-02_
 
 Les plans de numérotation qui sont utilisés pour les conférences rendez-vous doivent disposer d’une **région de conférence** rendez-vous pour associer les numéros d’accès aux conférences rendez-vous au plan de numérotation approprié. Lorsque vous créez un plan de numérotation, vous spécifiez la région de conférence rendez-vous qui s’applique au plan de numérotation. Lorsque vous créez le numéro d’accès à une conférence rendez-vous, vous sélectionnez les régions qui associent le numéro d’accès aux plans de numérotation appropriés.
 
@@ -47,7 +49,7 @@ Utilisez l’applet de connexion **Get-CsDialPlan** pour vérifier si la région
 
 1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez la commande suivante dans l’invite de commandes :
     
@@ -69,7 +71,7 @@ Utilisez l’applet de connexion **Get-CsDialPlan** pour vérifier si la région
 
 1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre du rôle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Pour tous les plans de numérotation ne comportant pas de région de conférence rendez-vous, exécutez :
     

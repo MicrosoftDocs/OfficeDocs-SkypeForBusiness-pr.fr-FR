@@ -3,6 +3,8 @@ title: Conditions requises
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites
 ms:assetid: 48016bea-be3b-4ba5-8df8-d8ad4d9243d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945592(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e74603ed20fe144ca89d3ac13bc00fef0e7d6ac3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 394f73c83f1981e4c4ee1528c1623f6424d2a85a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846955"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846955"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-19_
+_**Dernière modification de la rubrique :** 2013-02-19_
 
 Il existe différentes exigences matérielles, logicielles et de configuration du système requises pour exécuter l’outil de stress et de performance de Lync Server 2013.
 
@@ -41,7 +43,7 @@ Il existe différentes exigences matérielles, logicielles et de configuration d
 
 ## <a name="client-hardware-requirements"></a>Configuration matérielle requise pour le client
 
-Pour exécuter l’outil de stress et de performance Lync Server 2013 sur votre déploiement Lync Server 2013, pour tous les utilisateurs de 4 500 dont le chargement doit être simulé, vous devez disposer d’au moins un ordinateur dédié qui répond à la configuration minimale requise suivante:
+Pour exécuter l’outil de stress et de performance Lync Server 2013 sur votre déploiement Lync Server 2013, pour tous les utilisateurs de 4 500 dont le chargement doit être simulé, vous devez disposer d’au moins un ordinateur dédié qui répond à la configuration minimale requise suivante :
 
   - carte réseau 1 gigabit
 
@@ -55,13 +57,13 @@ Pour exécuter l’outil de stress et de performance Lync Server 2013 sur votre 
 
 ## <a name="client-software-requirements"></a>Configuration logicielle requise pour le client
 
-Pour exécuter l’outil de stress et de performance Lync Server 2013 sur votre déploiement Lync Server 2013, les systèmes d’exploitation pris en charge sont les suivants:
+Pour exécuter l’outil de stress et de performance Lync Server 2013 sur votre déploiement Lync Server 2013, les systèmes d’exploitation pris en charge sont les suivants :
 
   - Système d’exploitation Windows Server 2012
 
   - Système d’exploitation Windows Server 2008 (64-bit Edition)
 
-Votre ordinateur client doit présenter la configuration logicielle requise suivante:
+Votre ordinateur client doit présenter la configuration logicielle requise suivante :
 
   - [Microsoft .NET Framework 4,5](http://go.microsoft.com/fwlink/?linkid=143212) Runtime doit être installé sur votre ordinateur.
 
@@ -87,7 +89,7 @@ Votre ordinateur client doit présenter la configuration logicielle requise suiv
 
 ## <a name="configuration-requirements"></a>Configuration requise
 
-Les ordinateurs exécutant l’outil de stress et de performances de Lync Server 2013 doivent être configurés conformément à la configuration requise suivante:
+Les ordinateurs exécutant l’outil de stress et de performances de Lync Server 2013 doivent être configurés conformément à la configuration requise suivante :
 
 1.  Vous devez être connecté en tant que membre du groupe Domain ou admins locaux.
 

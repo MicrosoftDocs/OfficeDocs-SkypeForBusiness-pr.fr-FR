@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table Roles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roles table
 ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12ed7ed4a6f152ce103e3e100bf14918cf945345
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822306"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822306"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 La table rôles est une table statique qui contient la liste des rôles de conférence possibles, tels que participant et présentateur.
 
@@ -64,7 +66,7 @@ La table rôles est une table statique qui contient la liste des rôles de conf�
 <td><p><strong>Rôle</strong></p></td>
 <td><p>nvarchar(256)</p></td>
 <td></td>
-<td><p>Valeurs autorisées:</p>
+<td><p>Valeurs autorisées :</p>
 <ul>
 <li><p>0-Inconnu</p></li>
 <li><p>1-présentateur</p></li>

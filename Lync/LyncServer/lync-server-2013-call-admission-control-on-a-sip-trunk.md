@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Contrôle d’admission des appels sur une jonction S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control on a SIP trunk
 ms:assetid: 7eada098-3d47-4be2-839f-8f87d582efe8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398632(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36734aa67e350b6c6f5ea5e9da57ce47f57e3d46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab8196070bbb7992aed915cf188d67e95912524a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838710"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-22_
+_**Dernière modification de la rubrique :** 2012-09-22_
 
 Pour déployer le contrôle d’admission des appels sur une jonction SIP, vous créez un site réseau pour représenter le fournisseur de services de téléphonie Internet (ITSP). Pour appliquer la stratégie de bande passante sur la jonction SIP, vous créez une stratégie intersite entre le site réseau dans votre entreprise et le site réseau créé pour représenter le fournisseur de services de téléphonie Internet.
 
@@ -41,7 +43,7 @@ La figure suivante montre un exemple de déploiement du contrôle d’admission 
 
 **Configuration du contrôle d’admission des appels sur une jonction SIP (Session Initiation Protocol)**
 
-![Diagramme] d’intermission de contrôle d’admission des appels (images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Diagramme") d’intermission de contrôle d’admission des appels
+![Diagramme de jonction SIP de Contrôle d’admission des appels](images/Gg398632.276c0d8f-1dd5-4883-8499-c202399ddbe9(OCS.15).jpg "Diagramme de jonction SIP de Contrôle d’admission des appels")
 
 Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous devrez exécuter les tâches suivantes pendant le déploiement du contrôle d’admission des appels :
 

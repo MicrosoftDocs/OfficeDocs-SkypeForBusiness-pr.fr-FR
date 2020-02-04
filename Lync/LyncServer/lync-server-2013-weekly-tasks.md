@@ -3,6 +3,8 @@ title: 'Skype Entreprise Server 2015 : tâches hebdomadaires'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Weekly tasks
 ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d3128780c456c3f38f306d31f258ce903eb50a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b973d5d69e6e4609a1dff3029b0ad0b05ec3a936
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846200"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846200"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2015-08-17_
+_**Dernière modification de la rubrique :** 2015-08-17_
 
 Les tâches hebdomadaires sont généralement liées à la collecte et à l’analyse des journaux et des rapports.
 
@@ -61,7 +63,7 @@ Votre organisation doit définir des stratégies et des procédures pour les rap
 
 ## <a name="incident-reports"></a>Rapports d’incident
 
-Effectuez un audit hebdomadaire des rapports d’incident de votre organisation liés à Lync Server. Ce contrôle doit inclure ce qui suit:
+Effectuez un audit hebdomadaire des rapports d’incident de votre organisation liés à Lync Server. Ce contrôle doit inclure ce qui suit :
 
   - Les incidents les plus fréquents générés, résolus et en attente.
 
@@ -79,7 +81,7 @@ Dans la mesure où le système de suivi des incidents de votre organisation est 
 
 ## <a name="check-iis-logs-and-performance"></a>Vérifier les journaux et performances d’IIS
 
-Effectuez une analyse hebdomadaire des journaux et des performances de Internet Information Services (IIS). Pour plus d’informations sur la façon de surveiller les journaux et performances d’IIS, voir [vue d’ensemble de la journalisation des événements Windows Server 2003 Internet Information Services (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). L’avis doit inclure ce qui suit:
+Effectuez une analyse hebdomadaire des journaux et des performances de Internet Information Services (IIS). Pour plus d’informations sur la façon de surveiller les journaux et performances d’IIS, voir [vue d’ensemble de la journalisation des événements Windows Server 2003 Internet Information Services (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). L’avis doit inclure ce qui suit :
 
   - Les compteurs du cache de service Web pour surveiller le cache de service WWW.
 
@@ -95,11 +97,11 @@ Effectuez une analyse hebdomadaire des journaux et des performances de Internet 
 
 1.  Ouvrez Lync Server 2013.
 
-2.  Dans l’arborescence de la console, développez le nœud de la forêt, développez pools d' **entreprise**, puis cliquez sur le pool pour lequel vous voulez générer un rapport de base de données.
+2.  Dans l’arborescence de la console, développez le nœud de la forêt, développez **pools d’entreprise**, puis cliquez sur le pool pour lequel vous voulez générer un rapport de base de données.
 
 3.  Dans le volet Détails, cliquez sur l’onglet **base de données** .
 
-4.  Sous l’onglet **base de données** , procédez comme suit:
+4.  Sous l’onglet **base de données** , procédez comme suit :
     
     1.  Pour afficher le nom de la base de données, développez **paramètres généraux**, puis affichez le nom de la base de données.
     
@@ -123,11 +125,11 @@ Identifiez de nouveaux service packs, Hotfix ou mises à jour. Le cas échéant,
 
 ## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>Exécuter l’analyseur de meilleures pratiques Lync Server 2013
 
-L’outil Analyseur de meilleures pratiques de Lync Server 2013 est un outil de diagnostic qui collecte des informations de configuration et détermine si la configuration est définie conformément aux meilleures pratiques Microsoft. La documentation relative à cet outil se trouve dans l’analyseur de [meilleures pratiques de Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md).
+L’outil Analyseur de meilleures pratiques de Lync Server 2013 est un outil de diagnostic qui collecte des informations de configuration et détermine si la configuration est définie conformément aux meilleures pratiques Microsoft. La documentation relative à cet outil se trouve dans l' [Analyseur de meilleures pratiques de Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md).
 
 L’outil compare les données de configuration de votre déploiement à un ensemble de règles prédéfinies pour Lync Server et signale les problèmes potentiels. Pour chaque problème signalé, l’outil fournit la configuration actuelle dans l’environnement Lync Server et la configuration recommandée.
 
-Avec l’accès au réseau approprié, l’outil peut examiner votre annuaire publicitaire et les serveurs qui exécutent Lync Server 2013 pour effectuer les opérations suivantes:
+Avec l’accès au réseau approprié, l’outil peut examiner votre annuaire publicitaire et les serveurs qui exécutent Lync Server 2013 pour effectuer les opérations suivantes :
 
   - Procéder de manière proactive pour vérifier que la configuration est définie conformément aux meilleures pratiques recommandées
 
@@ -171,11 +173,11 @@ Obtenez et passez en revue les rapports du Pack de gestion et de la qualité de 
 
 1.  Ouvrez Lync Server 2013.
 
-2.  Dans l’arborescence de la console, développez le nœud de la forêt, développez pools d' **entreprise**, puis cliquez sur le pool pour lequel vous voulez générer un rapport de base de données.
+2.  Dans l’arborescence de la console, développez le nœud de la forêt, développez **pools d’entreprise**, puis cliquez sur le pool pour lequel vous voulez générer un rapport de base de données.
 
 3.  Dans le volet Détails, cliquez sur l’onglet **base de données** .
 
-4.  Sous l’onglet **base de données** , procédez comme suit:
+4.  Sous l’onglet **base de données** , procédez comme suit :
     
     1.  Pour afficher le nom de la base de données, développez **paramètres généraux**, puis affichez le nom de la base de données.
     
@@ -203,23 +205,23 @@ Pour chaque pool d’entreprise, les administrateurs peuvent utiliser l’onglet
 <tbody>
 <tr class="odd">
 <td><p>Rapports récapitulatifs des utilisateurs</p></td>
-<td><p>DbAnalyze/v/Report: diag [/SqlServer: value]</p>
+<td><p>DbAnalyze/v/Report : diag [/SqlServer : value]</p>
 <p>Cette section contient des informations agrégées sur les utilisateurs d’un pool, comme le nombre d’utilisateurs activés, le nombre moyen de contacts par utilisateur et le nombre d’utilisateurs pour des fonctionnalités spécifiques.</p>
-<p>Lors de l’utilisation de ces rapports, les informations suivantes pourront vous être utiles:</p>
+<p>Lors de l’utilisation de ces rapports, les informations suivantes pourront vous être utiles :</p>
 <ul>
 <li><p>Un utilisateur activé est un utilisateur qui est activé pour Lync Server 2013 à l’aide du composant logiciel enfichable utilisateurs et ordinateurs Active Directory.</p></li>
 <li><p>Un utilisateur actif est un utilisateur qui est connecté ou inscrit.</p></li>
-<li><p>Les rapports de synthèse fournissent également un ensemble d’informations statistiques sur les contacts. Ces statistiques sont valides uniquement pour la population d’utilisateurs qui se sont connectés au moins une fois et qui ont au moins un contact. Par conséquent, vous ne verrez généralement pas un nombre minimum de contacts de 0. En raison de ce comportement, si un utilisateur n’a pas de contacts (mais est actif, en ce qu’il est inscrit), il &lt;est&gt; possible que vous voyiez: vide pour certains champs de statistiques.</p></li>
+<li><p>Les rapports de synthèse fournissent également un ensemble d’informations statistiques sur les contacts. Ces statistiques sont valides uniquement pour la population d’utilisateurs qui se sont connectés au moins une fois et qui ont au moins un contact. Par conséquent, vous ne verrez généralement pas un nombre minimum de contacts de 0. En raison de ce comportement, si un utilisateur n’a pas de contacts (mais est actif, en ce qu’il est inscrit), il &lt;est&gt; possible que vous voyiez : vide pour certains champs de statistiques.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Rapports par utilisateur</p></td>
-<td><p>DbAnalyze/v/Report: Disk [/SqlServer: value]</p>
+<td><p>DbAnalyze/v/Report : Disk [/SqlServer : value]</p>
 <p>Contrairement aux rapports de synthèse qui sont calculés sur une population d’utilisateurs, il s’agit de rapports relatifs à un utilisateur spécifique.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Rapports récapitulatifs de la Conférence</p></td>
-<td><p>DbAnalyze/v/Report: conf [/SqlServer: value]</p>
+<td><p>DbAnalyze/v/Report : conf [/SqlServer : value]</p>
 <p>Cette section contient des informations agrégées sur les statistiques de synthèse de conférences du pool, comme le nombre de conférences actives et le nombre total de participants.</p></td>
 </tr>
 </tbody>
@@ -240,7 +242,7 @@ L’outil effectue les opérations suivantes :
 
   - permet de planifier la capacité plus efficacement et de traiter la capacité de bande passante affectée aux diverses liaisons par itération.
 
-L’analyseur d’utilisation de la bande passante peut générer des trace graphiques de capacités de bande passante et de rapports d’utilisation. Ils sont les suivants:
+L’analyseur d’utilisation de la bande passante peut générer des trace graphiques de capacités de bande passante et de rapports d’utilisation. Ils sont les suivants :
 
   - liaisons de réseau étendu au sein du réseau d’entreprise ;
 
@@ -252,7 +254,7 @@ L’analyseur d’utilisation de la bande passante peut générer des trace grap
 
   - Filtrer sur des liens WAN ayant atteint des niveaux critiques (une utilisation de bande passante supérieure à 90% de la capacité de bande passante de la liaison WAN);
 
-  - Filtré par type de liaison WAN: liens de site réseau, liens interrégionés et liens à l’intérieur d’un site
+  - Filtré par type de liaison WAN : liens de site réseau, liens interrégionés et liens à l’intérieur d’un site
 
   - filtrage par région réseau.
 

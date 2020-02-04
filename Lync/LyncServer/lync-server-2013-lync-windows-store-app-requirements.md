@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour l’application Lync du Windows Store'
+title: 'Lync Server 2013 : configuration requise pour l’application Lync du Windows Store'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Windows Store app requirements
 ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ823129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 806fb7a71232492be7ef01474136817b7808111e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cc1ab2b397111cef1040592f29a11d55e5f1f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828424"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-12-03_
+_**Dernière modification de la rubrique :** 2013-12-03_
 
 Les organisations disposant d’un déploiement local de Lync Server doivent respecter les exigences suivantes pour prendre en charge l’application Lync du Windows Store.
 
@@ -41,7 +43,7 @@ Les organisations disposant d’un déploiement local de Lync Server doivent res
 
 
 > [!NOTE]  
-> Pour Lync Server 2010, exécutez la mise à jour cumulative pour Lync Server 2010:2012 février (disponible à l’adresse suivante <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp: kbid = 2670352</A>) ou version ultérieure sur tous les serveurs. Pour permettre aux utilisateurs de participer à des réunions, effectuez la mise à jour cumulative pour Lync Server 2010: octobre 2012 (disponible à l’adresse suivante <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp: kbid = 2737915</A>) sur les serveurs.
+> Pour Lync Server 2010, exécutez la mise à jour cumulative pour Lync Server 2010:2012 février (disponible à l’adresse suivante <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> http://go.microsoft.com/fwlink/?linkid=3052&amp: kbid = 2670352</A>) ou version ultérieure sur tous les serveurs. Pour permettre aux utilisateurs de participer à des réunions, effectuez la mise à jour cumulative pour Lync Server 2010 : octobre 2012 (disponible à l’adresse suivante <A class=uri href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> http://go.microsoft.com/fwlink/?linkid=3052&amp: kbid = 2737915</A>) sur les serveurs.
 
 
 

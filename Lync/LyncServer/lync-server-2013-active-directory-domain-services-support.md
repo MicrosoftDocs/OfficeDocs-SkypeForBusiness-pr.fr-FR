@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Prise en charge des services de domaine Active Direct
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services support
 ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b264abefb1234892df355fee123dd6ce68b4dfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 32e1bce2546512900efb0b5ecd1256a97adde41e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838960"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-07_
+_**Dernière modification de la rubrique :** 2013-11-07_
 
-Lync Server 2013 utilise le magasin central de gestion pour stocker les données de configuration pour les serveurs et les services, au lieu de s’appuyer sur les services de domaine Active Directory (AD FS) pour ces informations, comme précédemment. Lync Server 2013 enregistre toujours les éléments suivants dans AD DS:
+Lync Server 2013 utilise le magasin central de gestion pour stocker les données de configuration pour les serveurs et les services, au lieu de s’appuyer sur les services de domaine Active Directory (AD FS) pour ces informations, comme précédemment. Lync Server 2013 enregistre toujours les éléments suivants dans AD DS :
 
   - **Extensions de schéma**
     
@@ -43,7 +45,7 @@ Lync Server 2013 utilise le magasin central de gestion pour stocker les données
     
       - Extensions pour les classes Lync Server 2010 et Office Communications Server 2007 R2 pour garantir la compatibilité descendante avec les versions prises en charge précédentes
 
-  - **Data (données** ) (stocké dans le schéma étendu de Lync Server 2013 et dans les classes existantes)
+  - **Données** (stockées dans le schéma étendu de Lync Server 2013 et dans les classes existantes)
     
       - URI SIP de l’utilisateur et autres paramètres utilisateur
     
@@ -61,7 +63,7 @@ Cette section décrit la configuration requise pour la prise en charge des servi
 
 ## <a name="supported-domain-controller-operating-systems"></a>Systèmes d’exploitation de contrôleur de domaine pris en charge
 
-Lync Server 2013 prend en charge les contrôleurs de domaine exécutant les systèmes d’exploitation suivants:
+Lync Server 2013 prend en charge les contrôleurs de domaine exécutant les systèmes d’exploitation suivants :
 
   - Système d’exploitation Windows Server 2012 R2
 
@@ -101,7 +103,7 @@ Lync Server 2013 prend en charge les déploiements des services de domaine Activ
 
 ## <a name="domain-names"></a>Noms de domaine
 
-Le serveur Lync ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt avec un domaine racine appelé **contoso. local** est prise en charge, mais un domaine racine nommé **local** n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé «informations sur la configuration [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)de Windows pour les domaines avec des noms DNS en une seule étiquette».
+Le serveur Lync ne prend pas en charge les domaines à étiquette unique. Par exemple, une forêt avec un domaine racine appelé **contoso. local** est prise en charge, mais un domaine racine nommé **local** n’est pas pris en charge. Pour plus d’informations, reportez-vous à l’article 300684 de la base de connaissances Microsoft, intitulé « informations sur la configuration [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)de Windows pour les domaines avec des noms DNS en une seule étiquette ».
 
 <div>
 

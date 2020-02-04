@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configurer la contournement multimédia pour ignorer toujours le serveur de médiation'
+title: 'Lync Server 2013 : configurer la contournement multimédia pour ignorer toujours le serveur de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass to always bypass the Mediation Server
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aca094110036692c5ac5327b166a3f81e4b769f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0023fba32b24243dc4bf2a12659700ace6dea91a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838349"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838349"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-25_
+_**Dernière modification de la rubrique :** 2013-02-25_
 
 <div>
 

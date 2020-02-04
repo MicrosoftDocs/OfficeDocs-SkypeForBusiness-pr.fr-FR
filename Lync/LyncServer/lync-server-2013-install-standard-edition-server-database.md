@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Installation de la base de données de serveur Standa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Standard Edition server database
 ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398167(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cad6f67dbf1bfff1ee16dbd7455b02d904aac0d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63f2ef304b1a603203d09f260b8d3c7c46e23ccf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831000"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831000"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 La configuration d’un serveur Standard Edition Server en tant que serveur unique dans votre infrastructure qui est identique à celle d’autres installations de serveur dans le cadre de l' **Assistant Déploiement** est une sélection spécifique à la configuration du serveur initial.
 
@@ -62,7 +64,7 @@ La configuration d’un serveur Standard Edition Server en tant que serveur uniq
 
 6.  Dans la page Assistant Déploiement de Lync Server, cliquez sur **installer le générateur de topologie** si vous n’avez pas encore installé les outils d’administration. Pour en savoir plus, voir [installer les outils d’administration de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md).
 
-7.  Vérifiez que la case à cocher «préparer Active Directory» et «préparer le premier serveur Standard Edition» et «installer le générateur de topologie» est activée.
+7.  Vérifiez que la case à cocher « préparer Active Directory » et « préparer le premier serveur Standard Edition » et « installer le générateur de topologie » est activée.
 
 </div>
 

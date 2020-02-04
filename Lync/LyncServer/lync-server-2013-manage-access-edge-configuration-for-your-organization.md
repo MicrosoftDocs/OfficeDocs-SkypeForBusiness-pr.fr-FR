@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Gestion de la configuration du serveur Edge d’accè
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Access Edge Configuration for your organization
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05d2bcca7836bd451b2535fb02c350facd7fc1bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4739599f92b9189a208e1bb320a53b82d66a3a9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830915"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Il s’agit d’une documentation préliminaire susceptible d’être modifiée. Des rubriques vides sont incluses sous forme d’espaces réservés.
 
@@ -51,7 +53,7 @@ Ces options incluent les types d’accès suivants qui peuvent être configurés
 
   - **Activer l’accès**   des utilisateurs distants activez cette option si vous souhaitez que les utilisateurs de votre organisation qui se trouvent en dehors de votre pare-feu (par exemple, des télétravailleurs et des utilisateurs qui voyagent) puissent se connecter à Lync Server. Pour plus d’informations, voir [activer ou désactiver l’accès des utilisateurs distants dans Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
 
-  - **Permettre aux utilisateurs anonymes d’accéder aux conférences**   activez cette option si vous souhaitez que les utilisateurs internes invitent des utilisateurs externes anonymes à des conférences qu’ils organisent. L’activation de ce paramètre n’autorise que les utilisateurs anonymes pour les conférences. Pour configurer l’utilisation des conférences et les options qui déterminent la façon dont les utilisateurs peuvent faire des conférences et l’inclusion d’utilisateurs anonymes, voir les détails de la rubrique [créer ou modifier l’interface utilisateur des conférences pour un site ou des utilisateurs](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) et [ Référence des paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+  - **Permettre aux utilisateurs anonymes d’accéder aux conférences**   activez cette option si vous souhaitez que les utilisateurs internes invitent des utilisateurs externes anonymes à des conférences qu’ils organisent. L’activation de ce paramètre n’autorise que les utilisateurs anonymes pour les conférences. Pour configurer l’utilisation des conférences et les options qui déterminent la façon dont les utilisateurs peuvent effectuer des conférences et l’inclusion d’utilisateurs anonymes, reportez-vous aux détails de la rubrique [créer ou modifier l’interface utilisateur des conférences pour un site ou des utilisateurs](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) et des [paramètres de stratégie de conférence pour Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
 <div>
 
@@ -65,9 +67,9 @@ Ces options incluent les types d’accès suivants qui peuvent être configurés
 
 **Affichage des informations de configuration de bord d’accès à l’aide des cmdlets Windows PowerShell**
 
-  - Les informations de configuration de Microsoft Edge peuvent être consultées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsAccessEdgeConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+  - Les informations de configuration de Microsoft Edge peuvent être consultées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsAccessEdgeConfiguration** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
     
-    Pour afficher des informations sur l’ensemble des paramètres de configuration de Microsoft Edge, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+    Pour afficher des informations sur l’ensemble des paramètres de configuration de Microsoft Edge, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsAccessEdgeConfiguration
     

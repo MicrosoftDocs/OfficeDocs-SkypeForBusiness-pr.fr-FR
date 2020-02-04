@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration du directeur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up the Director
 ms:assetid: 408b76f7-6fdd-4e50-8a3e-e87db12c1394
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18de0fe7b06bbeed714aca444e75086fba9579e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58d0b309e87dddb621d6c3a90b16b6c2e02845df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846867"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846867"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-05_
+_**Dernière modification de la rubrique :** 2014-05-05_
 
 Si vous autorisez l’accès pour les utilisateurs externes en déployant des serveurs Edge, il est possible de déployer un réalisateur. Un directeur est un serveur exécutant Microsoft Lync Server 2013 qui authentifie les demandes des utilisateurs, mais ne possède pas de compte d’utilisateur. Ce n’est pas une condition requise, mais elle est très utile si vous avez des problèmes de performances et souhaitez rationaliser les demandes d’authentification. Si vous décidez qu’il s’agit d’une bonne idée de votre organisation, les étapes de configuration d’un directeur ou d’un pool de réalisateurs sont similaires à la configuration d’un pool d’entreprise frontal Enterprise Edition ou d’un serveur Standard Edition Server. Après avoir défini votre ou vos réalisateurs dans le générateur de topologie, vous devez effectuer les étapes décrites dans cette section.
 

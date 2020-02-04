@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Appels entrants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Incoming calls
 ms:assetid: 65b9c1b4-6af7-4527-8c33-22c4442bd209
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994038(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c007fbaec317a8e9d9d374ea62dafcab6c7a63f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e70e5a489cbfa581c666374e6535b898727e1fdc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831015"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831015"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-09_
+_**Dernière modification de la rubrique :** 2013-03-09_
 
 Le routage des appels entrants vers les utilisateurs activés pour le routage par emplacement dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté comme suit. Si un utilisateur dispose d’un appel entrant à un point de terminaison situé dans un site réseau de routage de géolocalisation et que le point de terminaison se trouve sur le même site réseau que la passerelle RTC, l’appel est routé. Si un utilisateur dispose d’un appel entrant vers un point de terminaison situé dans un site réseau compatible avec le routage d’emplacement et que le point de terminaison se trouve dans un autre site réseau que la passerelle RTC, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a pas de points de terminaison situés dans le même site réseau que la passerelle RTC à partir de laquelle l’appel entrant provient, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel manqué est envoyée à la personne appelée.
 

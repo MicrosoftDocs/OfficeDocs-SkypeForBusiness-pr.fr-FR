@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer une règle de stratégie de version de client existante'
+title: 'Lync Server 2013 : supprimer une règle de stratégie de version de client existante'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing client version policy rule
 ms:assetid: 2fe351c4-d78b-47d5-af49-d47ee5e0fe42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675352
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: daad18b29a9c6b124093c1770da0db9c19757b2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ad64a77e8244bf1eb2073a5d62edcb30e41eb20
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831623"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831623"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-21_
+_**Dernière modification de la rubrique :** 2013-01-21_
 
 Une stratégie de version de client est composée d’un ensemble de règles de stratégie de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques. Vous pouvez supprimer des règles individuelles d’une stratégie de version de client à partir de Lync Server 2013 Control Panel.
 

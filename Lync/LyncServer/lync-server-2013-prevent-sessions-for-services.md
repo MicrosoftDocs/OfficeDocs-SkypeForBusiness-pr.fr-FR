@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: empêcher les sessions pour les services'
+title: 'Lync Server 2013 : empêcher les sessions pour les services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prevent sessions for services
 ms:assetid: 977dcc5c-2aac-48ef-86a1-a8d47b4d9e74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182553(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8d22b74168c784d6a5e19c3ffc32b9e275040b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc90e58fecf5e386600ca91cf764dbb50f9d76c7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823552"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Le panneau de configuration de Lync Server vous permet d’empêcher les nouvelles sessions de tous les services Lync Server 2013 en cours d’exécution sur un ordinateur spécifique ou d’empêcher de nouvelles sessions pour un service 2013 serveur Lync spécifique.
 
@@ -45,7 +47,7 @@ Le panneau de configuration de Lync Server vous permet d’empêcher les nouvell
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 4.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant les services pour lesquels vous voulez éviter de nouvelles sessions, puis cliquez dessus.
 
@@ -63,7 +65,7 @@ Le panneau de configuration de Lync Server vous permet d’empêcher les nouvell
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le panneau de configuration de Lync Server. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le panneau de configuration de Lync Server, voir [ouvrir les outils d’administration de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur Status ( **statut**).
+3.  Dans la barre de navigation de gauche, cliquez sur **Topology** , puis sur **Status (statut**).
 
 4.  Dans la page **État** , triez ou effectuez une recherche dans la liste selon vos besoins pour trouver l’ordinateur exécutant le service que vous voulez démarrer ou arrêter, puis cliquez dessus.
 

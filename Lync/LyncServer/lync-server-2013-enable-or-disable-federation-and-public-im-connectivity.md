@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Activation ou désactivation de la fédération et de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34831305"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-06-24_
+_**Dernière modification de la rubrique :** 2013-06-24_
 
 La prise en charge de la Fédération est requise pour permettre aux utilisateurs disposant d’un compte auprès d’un client ou d’une organisation de partenaire approuvés, notamment des domaines de partenariat et des utilisateurs de fournisseurs de messagerie instantanée publics que vous prenez en charge, pour collaborer avec des utilisateurs dans votre société. La Fédération est également requise pour l’utilisation d’un fournisseur de services Exchange hébergés pour fournir des messages vocaux aux utilisateurs vocaux d’entreprise dont la boîte aux lettres est située sur un service Exchange hébergé tel que Microsoft Exchange Online. Lorsque vous établissez une relation d’approbation avec ces domaines externes, vous pouvez autoriser des utilisateurs dans ces domaines à accéder à votre déploiement et participer aux communications de Lync Server. Cette relation d’approbation est appelée Fédération et ne dépend pas d’une relation d’approbation Active Directory ou n’est pas liée.
 
-Pour prendre en charge l’accès par des utilisateurs de domaines fédérés, vous devez activer la Fédération. Si vous activez la Fédération pour votre organisation, vous devez également spécifier si vous voulez implémenter les options suivantes:
+Pour prendre en charge l’accès par des utilisateurs de domaines fédérés, vous devez activer la Fédération. Si vous activez la Fédération pour votre organisation, vous devez également spécifier si vous voulez implémenter les options suivantes :
 
-  - **Activer la découverte**   de domaine partenaire si vous activez cette option, Lync Server utilise des enregistrements DNS (Domain Name System) pour essayer de détecter les domaines qui ne sont pas répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant de la découverte fédérée partenaires et limiter ou bloquer ce trafic en fonction du niveau de confiance, de la quantité de trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est activé uniquement pour les utilisateurs des domaines que vous incluez dans la liste des domaines autorisés. Si vous sélectionnez cette option, vous pouvez spécifier que les domaines individuels doivent être bloqués ou autorisés, y compris limiter l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations sur le contrôle d’accès par des domaines fédérés, voir [configurer la prise en charge des domaines externes autorisés dans Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+  - **Activez la découverte**   de domaine partenaire si vous activez cette option, Lync Server utilise des enregistrements DNS (Domain Name System) pour essayer de découvrir les domaines qui ne sont pas répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant des partenaires fédérés détectés et en limitant ou en bloquant ce trafic en fonction du niveau de confiance, du trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est activé uniquement pour les utilisateurs des domaines que vous incluez dans la liste des domaines autorisés. Si vous sélectionnez cette option, vous pouvez spécifier que les domaines individuels doivent être bloqués ou autorisés, y compris limiter l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations sur le contrôle d’accès par des domaines fédérés, voir [configurer la prise en charge des domaines externes autorisés dans Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
 
   - **Envoyer une exclusion de responsabilité à l’archivage pour les partenaires**     fédérés vous recevez des notifications de non-responsabilité pour les partenaires fédérés dans lesquels l’archivage de votre déploiement est en place. Si vous prise en charge de l’archivage des communications externes avec les domaines de partenaires fédérés, vous devez activer la notification d’exclusion de responsabilité de l’archivage pour avertir les partenaires de l’archivage de leurs messages.
 
@@ -67,13 +69,13 @@ Si vous souhaitez par la suite empêcher l’accès temporaire ou définitive au
 
 4.  Dans la page **configuration de Microsoft Edge** , cliquez sur **Global**, sur **modifier**, puis sur **afficher les détails**.
 
-5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes:
+5.  Dans **modification de la configuration d’Access Edge**, effectuez l’une des opérations suivantes :
     
       - Pour autoriser l’accès des utilisateurs fédérés pour votre organisation, activez la case à cocher **activer les communications avec les utilisateurs fédérés** .
     
       - Pour désactiver l’accès des utilisateurs fédérés pour votre organisation, décochez la case **activer les communications avec les utilisateurs fédérés** .
 
-6.  Si vous avez activé la case à cocher **activer les communications avec les utilisateurs fédérés** , procédez comme suit:
+6.  Si vous avez activé la case à cocher **activer les communications avec les utilisateurs fédérés** , procédez comme suit :
     
     1.  Si vous voulez prendre en charge la découverte automatique des domaines partenaires, activez la case à cocher **activer la découverte de domaines partenaires** .
     
@@ -89,13 +91,13 @@ Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs d
 
 ## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la connectivité de Fédération et de messagerie instantanée publique à l’aide d’applets de cmdlet Windows PowerShell
 
-La connectivité de Fédération et de messagerie instantanée publique peut également être gérée à l’aide de Windows PowerShell et de l’applet de connexion Set-CsAccessEdgeConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+La connectivité de Fédération et de messagerie instantanée publique peut également être gérée à l’aide de Windows PowerShell et de l’applet de connexion Set-CsAccessEdgeConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la connectivité de Fédération et de messagerie instantanée publique
 
-  - Pour activer la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur True ($true):
+  - Pour activer la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur True ($true) :
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -105,7 +107,7 @@ La connectivité de Fédération et de messagerie instantanée publique peut ég
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>Pour désactiver la connectivité de Fédération et de messagerie instantanée publique
 
-  - Pour désactiver la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur false ($false):
+  - Pour désactiver la connectivité de Fédération et de messagerie instantanée publique, définissez la valeur de la propriété **AllowFederatedUsers** sur false ($false) :
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

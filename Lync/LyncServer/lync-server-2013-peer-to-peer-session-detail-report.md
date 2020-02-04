@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport détaillé sur la session d’égal à égal'
+title: 'Lync Server 2013 : rapport détaillé sur la session d’égal à égal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Session Detail Report
 ms:assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558659(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec73febb248a8b61979c0aad2df6977c9feccb91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825400"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825400"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-06_
+_**Dernière modification de la rubrique :** 2012-06-06_
 
 Le rapport détaillé de session P2P renvoie des informations détaillées sur une session P2P. Par exemple, si vous sélectionnez une session de messagerie instantanée, le rapport indique le nombre de messages envoyés par chacun des deux utilisateurs dans la session.
 

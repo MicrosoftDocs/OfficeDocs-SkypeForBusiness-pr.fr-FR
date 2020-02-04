@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : renforcement et protection des serveurs et des appli
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardening and protecting servers and applications for Lync Server 2013
 ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518331(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00fea9bd192dedaf16567209798f12c7bff23e6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831090"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831090"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-12-05_
+_**Dernière modification de la rubrique :** 2013-12-05_
 
 Vous devez renforcer et protéger votre système d’exploitation et vos applications conformément aux meilleures pratiques pour ce composant spécifique. Cette section explique comment renforcer les serveurs d’applications et utiliser une stratégie de groupe pour implémenter les verrouillages de sécurité.
 
@@ -59,7 +61,7 @@ Pour les serveurs d’applications, le système d’exploitation et l’applicat
 
 ## <a name="securing-virtual-servers"></a>Sécurisation des serveurs virtuels
 
-Les instantanés du serveur virtuel contiennent des copies des disques de données du serveur et contiennent également des vidages de données en mémoire, qui peuvent contenir des données de chiffrement sensibles susceptibles de provoquer des attaques. Pour les serveurs de production implémentés à l’aide de la virtualisation, il est recommandé de désactiver toutes les captures d’instantanés serveur ou de les gérer de manière très contrôlée. Pour plus d’informations sur la sécurisation des serveurs virtuels Hyper-V, voir le guide sur [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)la sécurité Hyper-v sur le:.
+Les instantanés du serveur virtuel contiennent des copies des disques de données du serveur et contiennent également des vidages de données en mémoire, qui peuvent contenir des données de chiffrement sensibles susceptibles de provoquer des attaques. Pour les serveurs de production implémentés à l’aide de la virtualisation, il est recommandé de désactiver toutes les captures d’instantanés serveur ou de les gérer de manière très contrôlée. Pour plus d’informations sur la sécurisation des serveurs virtuels Hyper-V, voir le guide sur [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)la sécurité Hyper-v sur le :.
 
 </div>
 
@@ -67,7 +69,7 @@ Les instantanés du serveur virtuel contiennent des copies des disques de donné
 
 ## <a name="group-policy"></a>Stratégie de groupe
 
-Dans Windows Server 2008 et Windows Server 2008 R2, la stratégie de groupe fournit la gestion de la configuration de bureau basée sur un annuaire. Vous pouvez utiliser une stratégie de groupe pour implémenter les verrouillages de sécurité en définissant des paramètres d’ordinateur et d’utilisateur au sein d’un objet de stratégie de groupe pour les éléments suivants:
+Dans Windows Server 2008 et Windows Server 2008 R2, la stratégie de groupe fournit la gestion de la configuration de bureau basée sur un annuaire. Vous pouvez utiliser une stratégie de groupe pour implémenter les verrouillages de sécurité en définissant des paramètres d’ordinateur et d’utilisateur au sein d’un objet de stratégie de groupe pour les éléments suivants :
 
   - Stratégies basées sur le registre
 

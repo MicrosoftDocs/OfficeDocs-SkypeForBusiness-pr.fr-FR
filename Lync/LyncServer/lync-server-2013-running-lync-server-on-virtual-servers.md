@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: exécution de Lync Server sur des serveurs virtuels'
+title: 'Lync Server 2013 : exécution de Lync Server sur des serveurs virtuels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running Lync Server on virtual servers
 ms:assetid: e83c0f7f-88ec-434f-b35e-adedec3c318a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399035(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30bc7d2bfebc74e07b48c3912861ca89fd54798a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29f63a2a965e38dacc9b0992092d05498814034e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822236"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-03-13_
+_**Dernière modification de la rubrique :** 2014-03-13_
 
 Lync Server 2013 prend en charge des topologies de virtualisation qui prennent en charge toutes les charges de travail de serveur Lync, notamment la messagerie instantanée (mi) et la présence, les conférences, les voix d’entreprise, la surveillance, l’archivage et la discussion permanente. Notez que les performances du serveur Lync sur les topologies virtuelles peuvent varier considérablement en fonction de la durée de travail utilisée, du nombre d’utilisateurs et du matériel hôte. Pour obtenir des instructions détaillées sur l’exécution de Lync Server 2013 sur des serveurs virtuels, voir le livre blanc [planification d’un déploiement de Lync server 2013 sur des serveurs virtuels](http://www.microsoft.com/en-us/download/details.aspx?id=41936).
 

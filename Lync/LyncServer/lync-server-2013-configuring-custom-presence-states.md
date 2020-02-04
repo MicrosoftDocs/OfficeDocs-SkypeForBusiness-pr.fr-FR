@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration des États de présence personnalisés'
+title: 'Lync Server 2013 : configuration des États de présence personnalisés'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring custom presence states
 ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c69f7a5b32b4ad0dd31f8be118aa2f2173ff3e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838274"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-10_
+_**Dernière modification de la rubrique :** 2013-01-10_
 
 Pour définir des États de présence personnalisés dans Lync 2013, créez un fichier de configuration de présence XML personnalisé, puis spécifiez son emplacement à l’aide des applets de technologie Lync Server Management Shell **New-CSClientPolicy** ou **Set-CSClientPolicy** avec le paramètre CustomStateURL.
 
-Les fichiers de configuration sont dotés des propriétés suivantes:
+Les fichiers de configuration sont dotés des propriétés suivantes :
 
   - Les statuts de présence personnalisés peuvent être configurés avec les indicateurs de présence disponible, occupé et ne pas déranger.
 
@@ -53,15 +55,15 @@ Les fichiers de configuration sont dotés des propriétés suivantes:
 
 
 > [!NOTE]  
-> Même si cette option n’est pas recommandée dans un environnement de production, vous pouvez tester un fichier de configuration situé sur un partage de fichiers non HTTPs à l’aide du paramètre de Registre EnableSIPHighSecurityMode pour désactiver le mode haute sécurité SIP sur le client. Vous pouvez ensuite utiliser le paramètre de Registre CustomStateURL pour spécifier un emplacement non HTTP pour le fichier de configuration. Notez que Lync 2013 respecte les paramètres de registre de Lync 2010, mais la ruche du registre a été mise à jour. Vous pouvez créer les paramètres de Registre comme suit: 
+> Même si cette option n’est pas recommandée dans un environnement de production, vous pouvez tester un fichier de configuration situé sur un partage de fichiers non HTTPs à l’aide du paramètre de Registre EnableSIPHighSecurityMode pour désactiver le mode haute sécurité SIP sur le client. Vous pouvez ensuite utiliser le paramètre de Registre CustomStateURL pour spécifier un emplacement non HTTP pour le fichier de configuration. Notez que Lync 2013 respecte les paramètres de registre de Lync 2010, mais la ruche du registre a été mise à jour. Vous pouvez créer les paramètres de Registre comme suit : 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
-> <P>Type: DWORD</P>
-> <P>Données de la valeur: 0</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>Type : DWORD</P>
+> <P>Données de la valeur : 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
-> <P>Type: chaîne (REG_SZ)</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>Tapez chaîne (REG_SZ).</P>
 > <P>Données de la valeur (exemples)\\: file://lspool. Corp. contoso. com\LSFileShare\ClientConfigFolder\Presence.xml ou file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.Xml</P></LI></UL>
 
 
@@ -74,7 +76,7 @@ Localisez votre état de présence personnalisé en spécifiant un ou plusieurs 
 
 ## <a name="to-add-custom-presence-states-to-lync-2013"></a>Pour ajouter des États de présence personnalisés à Lync 2013
 
-1.  Créez un fichier de configuration XML qui utilise le format de l’exemple suivant:
+1.  Créez un fichier de configuration XML qui utilise le format de l’exemple suivant :
     
         <?xml version="1.0"?>
         <customStates xmlns="http://schemas.microsoft.com/09/2009/communicator/customStates">
@@ -99,9 +101,9 @@ Localisez votre état de présence personnalisé en spécifiant un ou plusieurs 
 
 2.  Enregistrez le fichier de configuration XML sur un serveur Web avec HTTPs activé. Dans cet exemple, le fichier est nommé Presence. xml et enregistré à l’emplacement https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml.
 
-3.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-4.  Dans Lync Server Management Shell, définissez l’emplacement de votre fichier de configuration XML à l’aide d’une commande similaire à ce qui suit:
+4.  Dans Lync Server Management Shell, définissez l’emplacement de votre fichier de configuration XML à l’aide d’une commande similaire à ce qui suit :
     
         New-CsClientPolicy -Identity ContosoCustomStates 
         -CustomStateURL "https://lspool.corp.contoso.com/ClientConfigFolder/CustomPresence.xml"
@@ -118,7 +120,7 @@ Pour plus d’informations, reportez-vous à [New-CsClientPolicy](https://docs.m
 > <LI>
 > <P>Par défaut, la mise à&nbsp;jour des stratégies client et des paramètres de Lync Server 2013 toutes les trois heures.</P>
 > <LI>
-> <P>Si vous voulez continuer à utiliser les paramètres de stratégie de groupe des versions précédentes, telles que CustomStateURL, Lync 2013 reconnaîtra les paramètres s’ils se trouvent dans la nouvelle ruche du registre de la stratégie (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). En revanche, les stratégies de client serveur sont prioritaires.</P></LI></UL>
+> <P>Si vous voulez continuer à utiliser les paramètres de stratégie de groupe des versions précédentes, telles que CustomStateURL, Lync 2013 reconnaîtra les paramètres s’ils se trouvent dans la nouvelle ruche du registre de la stratégie (HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync). En revanche, les stratégies de client serveur sont prioritaires.</P></LI></UL>
 
 
 

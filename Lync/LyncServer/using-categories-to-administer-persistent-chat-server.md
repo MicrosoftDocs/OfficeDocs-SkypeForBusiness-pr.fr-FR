@@ -3,6 +3,8 @@ title: Utilisation des catégories pour administrer le serveur de conversation p
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
 ms:assetid: dfcb3ad1-da90-467e-b08c-f4e68673b7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398988(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fed28ecc7c2698f4b320729c68de9c5d56b435b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52e56f776969ece55f71355ed7f184dd6dd46a91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846030"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846030"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-01_
+_**Dernière modification de la rubrique :** 2013-10-01_
 
 Le déploiement de votre serveur Chat permanent peut accueillir de nombreux salles de conversation permanentes concomitantes. Les salles de conversation peuvent être organisées sous forme d’ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations en fonction de leur objectif professionnel et facilite la délégation de l’administration et la simplification de la gestion.
 
@@ -41,7 +43,7 @@ Le déploiement de votre serveur Chat permanent peut accueillir de nombreux sall
 
 
 > [!NOTE]  
-> Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur des ordinateurs exécutant une conversation permanente (client Lync) pour l’utilisateur, les administrateurs de chat permanent (dans le rôle <STRONG>cspersistentchatadministrator</STRONG> ) doivent utiliser le panneau de configuration de Lync Server ou Cmdlets Windows PowerShell pour créer ou gérer des catégories.
+> Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur des ordinateurs exécutant une conversation permanente (client Lync) pour l’utilisateur, les administrateurs de chat permanent (dans le rôle <STRONG>cspersistentchatadministrator</STRONG> ) doivent utiliser le panneau de configuration de Lync Server ou les applets de commande Windows PowerShell pour créer ou gérer des catégories.
 
 
 

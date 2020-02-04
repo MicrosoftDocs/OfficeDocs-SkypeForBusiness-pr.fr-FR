@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: informations de planification pour les réunions'
+title: 'Lync Server 2013 : informations de planification pour les réunions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scheduling details
 ms:assetid: 39ca6fff-2c15-4347-9f1f-6c8687a39a49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204823(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f027aac5372865bfb2803e19591dadaa1aca4805
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4a0f85e93588e725e825fee22a8c2e95b74095b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822250"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764952"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822250"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Une fois que l’équipe de support des grandes réunions qui traite la demande s’est assurée qu’aucune autre réunion n’est prévue à l’heure demandée, elle planifie la réunion dans le pool des grandes réunions. Utilisez le complément réunion en ligne pour Lync qui est installé avec le client Lync Server 2013 pour exécuter cette tâche, en utilisant les informations d’identification d’un utilisateur qui a activé le serveur Lync dans le pool de réunions volumineux dédié.
 
-Pour assurer la meilleure expérience utilisateur possible, il est important de planifier les grandes réunions avec les niveaux d’accès et les paramètres de réunion appropriés, en fonction des besoins de l’organisateur de la réunion. Nous vous recommandons d’utiliser les paramètres de planification suivants configurés dans les options de réunion Lync:
+Pour assurer la meilleure expérience utilisateur possible, il est important de planifier les grandes réunions avec les niveaux d’accès et les paramètres de réunion appropriés, en fonction des besoins de l’organisateur de la réunion. Nous vous recommandons d’utiliser les paramètres de planification suivants configurés dans les options de réunion Lync :
 
   - Utilisez un nouvel espace de réunion pour chaque grande réunion au lieu de réutiliser l’espace de réunion dédié.
 
@@ -94,7 +96,7 @@ Pour assurer la meilleure expérience utilisateur possible, il est important de 
 
 La figure suivante illustre les paramètres recommandés pour le complément réunion en ligne pour Lync.
 
-![54e4e70d-06b0-45CD-8d94-bab649cd5dc0] (images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45CD-8d94-bab649cd5dc0")
+![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")
 
 </div>
 

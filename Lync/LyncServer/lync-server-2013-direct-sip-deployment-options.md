@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Options de déploiement SIP direct'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP deployment options
 ms:assetid: 84691944-03f2-4a89-9f2b-1ab3d7f388cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 277b64346dc17815438f2ac34da58f36d2b150f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e88dd5a576e467fbca25e9f467bd168fd6401d17
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831395"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831395"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Cette rubrique fournit des exemples de topologies pour le déploiement de connexions SIP directes.
 
@@ -45,11 +47,11 @@ Cette rubrique fournit des exemples de topologies pour le déploiement de connex
 
 ## <a name="lync-server-stand-alone"></a>Serveur Lync autonome
 
-Si votre organisation utilise l’un des déploiements décrits dans cette section, vous pouvez utiliser Lync Server 2013 comme seule solution de téléphonie pour une partie ou l’ensemble d’une organisation. Cette section décrit en détail les déploiements suivants:
+Si votre organisation utilise l’un des déploiements décrits dans cette section, vous pouvez utiliser Lync Server 2013 comme seule solution de téléphonie pour une partie ou l’ensemble d’une organisation. Cette section décrit en détail les déploiements suivants :
 
-  - **Déploiement incrémentiel:** Cette option part du principe que vous disposez d’une infrastructure PBX (Private Branch Exchange) existante et que vous envisagez d’introduire une voix entreprise de façon incrémentielle pour des groupes ou équipes plus petits au sein de votre organisation.
+  - **Déploiement incrémentiel :** Cette option part du principe que vous disposez d’une infrastructure PBX (Private Branch Exchange) existante et que vous envisagez d’introduire une voix entreprise de façon incrémentielle pour des groupes ou équipes plus petits au sein de votre organisation.
 
-  - **Déploiement de Lync Server VoIP uniquement:** cette option suppose que vous envisagez le déploiement d’Enterprise Voice sur un site ne disposant pas d’une infrastructure de téléphonie classique.
+  - **Déploiement de Lync Server VoIP uniquement :** cette option suppose que vous envisagez le déploiement d’Enterprise Voice sur un site ne disposant pas d’une infrastructure de téléphonie classique.
 
 <div>
 
@@ -63,7 +65,7 @@ La figure suivante illustre la topologie générique pour le déploiement de la 
 
 **Option de déploiement incrémental**
 
-![Diagramme d’option de migration départemental] (images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagramme d’option de migration départemental")
+![Diagramme d’option de migration départementale](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagramme d’option de migration départementale")
 
 <div>
 
@@ -87,7 +89,7 @@ La figure suivante illustre la topologie générique pour le déploiement de la 
 
 Dans cette topologie, les services ou groupes de travail sélectionnés sont activés pour voix entreprise. Une passerelle RTC relie le groupe de travail VoIP au système PBX. Les utilisateurs qui sont activés pour voix entreprise, y compris les travailleurs distants, communiquent sur le réseau IP. Les appels d’utilisateurs vocaux d’entreprise vers le RTC et aux collègues qui ne sont pas activés pour voix entreprise sont routés vers la passerelle RTC appropriée. Les appels provenant de collègues qui se trouvent toujours sur le système PBX ou à partir des appelants sur le RTC sont routés vers la passerelle RTC, qui transfère les appels vers Lync Server pour le routage.
 
-Il existe deux configurations recommandées pour la connexion de voix entreprise à une infrastructure PBX existante pour l’interopérabilité: voix entreprise derrière le PBX et voix entreprise en face du PBX.
+Il existe deux configurations recommandées pour la connexion de voix entreprise à une infrastructure PBX existante pour l’interopérabilité : voix entreprise derrière le PBX et voix entreprise en face du PBX.
 
 <div>
 
@@ -159,7 +161,7 @@ La figure suivante illustre une topologie classique pour un déploiement VoIP un
 
 **Option de déploiement VoIP uniquement**
 
-![Option de déploiement Greenfidle] (images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Option de déploiement Greenfidle")
+![Option de déploiement dans un environnement vierge](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Option de déploiement dans un environnement vierge")
 
 <div>
 

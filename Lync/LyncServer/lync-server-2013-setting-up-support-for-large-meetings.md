@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la prise en charge des réunions de grande envergure'
+title: 'Lync Server 2013 : configuration de la prise en charge des réunions de grande envergure'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up support for large meetings
 ms:assetid: 8e22d34b-b395-408d-9d48-8f2a3abe9513
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03196c705253320e31e2483cc89b2aca386ff1af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0e8331c28d5bd06e6a3f7d9dab2fba7db334cd00
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846846"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846846"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-12_
+_**Dernière modification de la rubrique :** 2014-05-12_
 
 La prise en charge de grandes réunions d’un maximum de 1000 utilisateurs nécessite la création d’une topologie appropriée, la mise en œuvre de matériels et de logiciels requis et la configuration de l’environnement de manière appropriée.
 
@@ -49,7 +51,7 @@ La gestion d’un pool avec deux serveurs frontaux nécessite une attention part
 
 De plus, si vous voulez fournir la sauvegarde de récupération d’urgence et le basculement pour le pool utilisé pour les grandes réunions, vous pouvez l’associer à un autre pool dédié configuré de la même façon dans d’autres centres de données. Pour plus d’informations, reportez-vous à [planification d’une haute disponibilité et reprise après sinistre dans Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-![Configuration du pool de réunions volumineux] (images/JJ205074.ee00e1c0-c3b2-464d-aa89-a1e877cd034d(OCS.15).jpg "Configuration du pool de réunions volumineux")
+![Configuration de pool de grandes réunions](images/JJ205074.ee00e1c0-c3b2-464d-aa89-a1e877cd034d(OCS.15).jpg "Configuration de pool de grandes réunions")
 
 Autres éléments pour la topologie :
 
@@ -69,7 +71,7 @@ Autres éléments pour la topologie :
 
 La configuration matérielle requise pour les serveurs d’un pool de réunion volumineux dédié est identique à celle de vos autres serveurs Lync Server 2013. Pour plus d’informations sur la configuration matérielle requise, voir «[plateformes matérielles serveur pour Lync Server 2013](lync-server-2013-server-hardware-platforms.md).
 
-Les serveurs d’un pool de réunion dédié volumineux doivent respecter toutes les exigences logicielles de Lync Server 2013. Pour plus d’informations sur la configuration logicielle requise, veuillez consulter la documentation suivante:
+Les serveurs d’un pool de réunion dédié volumineux doivent respecter toutes les exigences logicielles de Lync Server 2013. Pour plus d’informations sur la configuration logicielle requise, veuillez consulter la documentation suivante :
 
   - [Prise en charge du système d’exploitation pour le serveur et les outils dans Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 

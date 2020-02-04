@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: afficher des informations sur l’application fiable'
+title: 'Lync Server 2013 : afficher des informations sur l’application fiable'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trusted application information
 ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34846282"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
-Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsTrustedApplication** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez afficher des informations sur vos applications approuvées à l’aide de Windows PowerShell et de l’applet **de passe Get-CsTrustedApplication** . Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-view-trusted-applications"></a>Pour afficher des applications approuvées
 
-  - Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée:
+  - Pour afficher toutes vos applications approuvées, tapez la commande suivante dans Lync Server Management Shell, puis appuyez sur entrée :
     
         Get-CsConferenceDisclaimer
     
-    Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable:
+    Cette commande renvoie des informations similaires à ce qui suit pour chaque application fiable :
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com

@@ -3,6 +3,8 @@ title: Restauration du pool Edge utilisé pour la fédération XMPP ou Lync Serv
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back the Edge pool used for Lync Server federation or XMPP federation
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721897(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d75e4dbe8265050d30620b0ecbdd1992b480106e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 98fec3082c172cc9e31d931d1c64ef3eaeccd04b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831186"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831186"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Après un échec de remise du pool de frontière d’hébergement de la Fédération, utilisez la procédure suivante pour restaurer le routage de Fédération de Lync Server et/ou l’itinéraire de Fédération XMPP pour qu’il utilise de nouveau ce pool de périphéries restauré.
 
@@ -43,13 +45,13 @@ Après un échec de remise du pool de frontière d’hébergement de la Fédéra
 
 1.  Sur le pool Edge qui est désormais disponible, démarrez les services Edge.
 
-2.  Si vous souhaitez restaurer l’itinéraire de Fédération de Lync Server pour utiliser le serveur de périphérie restauré, procédez comme suit:
+2.  Si vous souhaitez restaurer l’itinéraire de Fédération de Lync Server pour utiliser le serveur de périphérie restauré, procédez comme suit :
     
-      - Sur un serveur frontal, ouvrez le générateur de topologie. Développez pools de **bords**, puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge actuellement configuré pour la Fédération. Sélectionnez **modifier les propriétés**.
+      - Sur un serveur frontal, ouvrez le générateur de topologie. Développez **pools de bords**, puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge actuellement configuré pour la Fédération. Sélectionnez **modifier les propriétés**.
     
       - Dans **modifier les propriétés** sous **général**, décochez **la case Activer la Fédération pour ce pool de périphériques (port 5061)**. Cliquez sur **OK**.
     
-      - Développez pools de **bords**, puis cliquez avec le bouton droit sur le serveur Edge d’origine ou sur le pool de serveurs Edge que vous souhaitez utiliser pour la Fédération. Sélectionnez **modifier les propriétés**.
+      - Développez **pools de bords**, puis cliquez avec le bouton droit sur le serveur Edge d’origine ou sur le pool de serveurs Edge que vous souhaitez utiliser pour la Fédération. Sélectionnez **modifier les propriétés**.
     
       - Dans **modifier les propriétés** sous **général**, sélectionnez **activer la Fédération pour ce pool Edge (port 5061)**. Cliquez sur **OK**.
     
@@ -59,9 +61,9 @@ Après un échec de remise du pool de frontière d’hébergement de la Fédéra
     
       - Dans configurer les composants serveur Lync, cliquez sur **suivant**. L’écran de synthèse indique les actions à mesure qu’elles sont exécutées. Lorsque le déploiement est effectué, cliquez sur **afficher le journal** pour afficher les fichiers journaux disponibles. Cliquez sur **Terminer** pour terminer le déploiement.
 
-3.  Si vous souhaitez restaurer l’itinéraire de la Fédération XMPP de manière à utiliser le serveur de périphérie de restauration, procédez comme suit:
+3.  Si vous souhaitez restaurer l’itinéraire de la Fédération XMPP de manière à utiliser le serveur de périphérie de restauration, procédez comme suit :
     
-      - Exécutez l’applet de commande suivante pour rediriger l’itinéraire de Fédération XMPP vers le pool Edge qui hébergera maintenant la Fédération de XMPP (dans cet exemple, EdgeServer1):
+      - Exécutez l’applet de commande suivante pour rediriger l’itinéraire de Fédération XMPP vers le pool Edge qui hébergera maintenant la Fédération de XMPP (dans cet exemple, EdgeServer1) :
         
             Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
         

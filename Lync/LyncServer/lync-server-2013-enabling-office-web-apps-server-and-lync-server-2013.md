@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Activation d’Office Web Apps Server et Lync Server�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Office Web Apps Server and Lync Server 2013
 ms:assetid: 3370ab55-9949-4f32-b88b-5cffed6aaad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204792(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a88a9a1649d8842c9c2c4a1f55aefcfc7853e05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37715182ba704f71bad463044ec9b47cea8f777b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831246"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831246"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-08-19_
+_**Dernière modification de la rubrique :** 2016-08-19_
 
 Lync Server 2013 utilise Office Web Apps Server pour gérer les présentations PowerPoint. Pour plus d’informations sur les avantages de cette approche, voir [vue d’ensemble de conférences Web dans Lync Server 2013](lync-server-2013-web-conferencing-overview.md).
 
-Pour pouvoir utiliser ces nouvelles fonctionnalités, les administrateurs doivent installer Office Web Apps Server et configurer Lync Server 2013 pour communiquer avec Office Web Apps Server. Cette documentation fournit des informations sur la configuration de Lync Server 2013 pour fonctionner avec Office Web Apps Server. La documentation fournie ne fournit pas d’informations sur l’installation d’Office Web Apps Server proprement dit; Pour plus d’informations, consultez le site Web de déploiement de Microsoft <http://go.microsoft.com/fwlink/p/?linkid=257525>Office Web Apps à l’adresse. Ce guide inclut des informations complètes relatives à la configuration requise pour Office Web Apps Server. Notez qu’Office Web Apps Server doit être installé sur un ordinateur autonome qui n’exécute pas Lync Server, Microsoft SQL Server ou une autre application serveur. (Vous ne devez pas avoir installé une version de Microsoft Office sur cet ordinateur.) Tout ordinateur utilisé pour exécuter Office Web Apps Server doit également disposer d’un ensemble spécifique de logiciels installés (y compris .NET Framework 4,5 et Windows PowerShell 3,0). ces conditions, ainsi que des informations sur la configuration des certificats et d’Internet Information Services (IIS), sont décrites en détail dans le site Web de déploiement <http://go.microsoft.com/fwlink/p/?linkid=257525>de Microsoft Office Web Apps à l’adresse.
+Pour pouvoir utiliser ces nouvelles fonctionnalités, les administrateurs doivent installer Office Web Apps Server et configurer Lync Server 2013 pour communiquer avec Office Web Apps Server. Cette documentation fournit des informations sur la configuration de Lync Server 2013 pour fonctionner avec Office Web Apps Server. La documentation fournie ne fournit pas d’informations sur l’installation d’Office Web Apps Server proprement dit ; Pour plus d’informations, consultez le site Web de déploiement de Microsoft <http://go.microsoft.com/fwlink/p/?linkid=257525>Office Web Apps à l’adresse. Ce guide inclut des informations complètes relatives à la configuration requise pour Office Web Apps Server. Notez qu’Office Web Apps Server doit être installé sur un ordinateur autonome qui n’exécute pas Lync Server, Microsoft SQL Server ou une autre application serveur. (Vous ne devez pas avoir installé une version de Microsoft Office sur cet ordinateur.) Tout ordinateur utilisé pour exécuter Office Web Apps Server doit également disposer d’un ensemble spécifique de logiciels installés (y compris .NET Framework 4,5 et Windows PowerShell 3,0). ces conditions, ainsi que des informations sur la configuration des certificats et d’Internet Information Services (IIS), sont décrites en détail dans le site Web de déploiement <http://go.microsoft.com/fwlink/p/?linkid=257525>de Microsoft Office Web Apps à l’adresse.
 
 <div>
 
@@ -49,7 +51,7 @@ Pour pouvoir utiliser ces nouvelles fonctionnalités, les administrateurs doiven
 
 </div>
 
-Ce document aborde les thèmes suivants:
+Ce document aborde les thèmes suivants :
 
   - [Configuration de Lync Server 2013 pour fonctionner avec Office Web Apps Server](lync-server-2013-configuring-lync-server-2013-to-work-with-office-web-apps-server.md)
 

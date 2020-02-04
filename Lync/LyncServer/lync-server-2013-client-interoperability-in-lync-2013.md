@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Interopérabilité des clients dans Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ccc6239ffa0216e36839a7e58b510d8c8c3240
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838580"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838580"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-03-04_
+_**Dernière modification de la rubrique :** 2016-03-04_
 
 Cette rubrique explique la possibilité pour les clients Microsoft Lync Server 2013 de cohabiter et d’interagir avec les clients provenant de versions antérieures de Lync Server et d’Office Communications Server.
 
@@ -150,7 +152,7 @@ Le tableau ci-dessous indique les combinaisons prises en charge par les versions
 
 4Synthèse les fonctionnalités de présence et de messagerie instantanée d’Office Communicator 2007 R2 sont compatibles avec Lync Server 2013, mais pas les fonctionnalités de conférence. Lors de la migration à partir d’Office Communications Server 2007 R2, Office Communicator 2007 R2 est approprié pour l’interopérabilité de la présence et de la messagerie instantanée, mais les utilisateurs doivent utiliser Lync Web App 2013 pour participer aux réunions Lync Server 2013.
 
-5 pour plus d’limitations, voir la section «assistance technique pour les clients Lync 2013 dans les réunions Lync Server 2010» plus loin dans cette rubrique.
+5 pour plus d’limitations, voir la section « assistance technique pour les clients Lync 2013 dans les réunions Lync Server 2010 » plus loin dans cette rubrique.
 
 </div>
 
@@ -265,11 +267,11 @@ Le tableau suivant compare la disponibilité des fonctionnalités dans les sessi
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
-<td><p>Oui1</p></td>
+<td><p>Oui 1</p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p>Messagerie instantanée publique (AOL, Yahoo!)</p></td>
+<td><p>Messagerie instantanée publique (AOL, Yahoo !)</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td></td>
@@ -296,9 +298,9 @@ Le tableau suivant compare la disponibilité des fonctionnalités dans les sessi
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre 2012, la licence de l’abonnement à l’utilisateur de la connectivité PIC (Public IM Connectivity) de Microsoft Lync n’est plus disponible pour l’achat de contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre 2012, la licence de l’abonnement à l’utilisateur de la connectivité PIC (Public IM Connectivity) de Microsoft Lync n’est plus disponible pour l’achat de contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par utilisateur et par mois requise pour la Fédération de Lync Server ou d’Office Communications Server avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, qui n’est pas renouvelé.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par utilisateur et par mois requise pour la Fédération de Lync Server ou d’Office Communications Server avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, qui n’est pas renouvelé.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste, ce qui permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes par messagerie instantanée et vocale.</P></LI></UL>
 
@@ -324,7 +326,7 @@ Le tableau suivant compare la disponibilité des fonctionnalités dans les sessi
 
 ## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a>Prise en charge des fonctionnalités de conférence pour les clients Lync 2013 dans les réunions Lync Server 2010
 
-Lorsque des utilisateurs rejoignent des réunions Lync Server 2010 avec un client Lync 2013, ils ont accès aux fonctionnalités du client Lync 2013 avec les exceptions suivantes:
+Lorsque des utilisateurs rejoignent des réunions Lync Server 2010 avec un client Lync 2013, ils ont accès aux fonctionnalités du client Lync 2013 avec les exceptions suivantes :
 
   - Dans les options de gestion des **participants** accessibles en pointant sur l’icône personnes dans la fenêtre de la réunion, l’option **aucun message instantané** ne fonctionne pas.
 
@@ -448,7 +450,7 @@ Dans les réunions Lync Server 2013, certaines fonctions de conférence sont pri
 
 La prise en charge du serveur pour les divers compléments de planification est cohérente avec la compatibilité entre les versions serveur et client. En général, les compléments de planification suivants sont pris en charge sur Lync Server 2013. Toutefois, les versions précédentes des compléments ne fournissent pas de nouvelles fonctionnalités de complément Lync 2013, comme l’option permettant de désactiver l’audio et la vidéo de tous les participants lors de la réunion.
 
-  - **Le complément réunion en ligne pour Lync 2013**   fournit les mêmes fonctionnalités que le complément réunion en ligne pour Lync 2010, ainsi que l’ajout de contrôles de désactivation des participants, qui permettent aux organisateurs de la réunion de programmer des conférences qui ont désactivé le son et la vidéo des participants. définie. Les administrateurs peuvent également personnaliser les invitations aux réunions de l’organisation en ajoutant un logo personnalisé, une URL d’assistance, une URL d’exclusion de responsabilité ou un texte de pied de page personnalisé.
+  - **Le complément réunion en ligne pour Lync 2013**   fournit les mêmes fonctionnalités que le complément réunion en ligne pour Lync 2010, ainsi que l’ajout de contrôles d’activation du son pour les participants, qui permettent aux organisateurs de la réunion de programmer des conférences qui présentent le son et la vidéo en sourdine par défaut. Les administrateurs peuvent également personnaliser les invitations aux réunions de l’organisation en ajoutant un logo personnalisé, une URL d’assistance, une URL d’exclusion de responsabilité ou un texte de pied de page personnalisé.
 
   - **Le complément réunion en ligne pour Lync 2010**   fournit une planification pour les réunions Lync et supprime la possibilité de planifier des conférences Office Live Meeting.
 

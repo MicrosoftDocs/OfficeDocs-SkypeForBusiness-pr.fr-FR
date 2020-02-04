@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: options de contournement global de médias'
+title: 'Lync Server 2013 : options de contournement global de médias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Global media bypass options
 ms:assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ebe39b6faeffd36f0dfc9e25959fe7a0b356153
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 653c47cd993bac8ada899f62fa3be6700cd34c33
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831128"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831128"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 <div>
 
@@ -61,9 +63,9 @@ Cette rubrique décrit l’utilisation conjointe du panneau de configuration de 
 
 <div>
 
-## <a name="next-steps-choose-global-media-bypass-settings"></a>Étapes suivantes: sélectionner les paramètres globaux de contournement du média
+## <a name="next-steps-choose-global-media-bypass-settings"></a>Étapes suivantes : sélectionner les paramètres globaux de contournement du média
 
-Une fois que vous avez activé la contournement multimédia sur une connexion de Trunk à un homologue pour des sites ou services spécifiques, utilisez le contenu suivant:
+Une fois que vous avez activé la contournement multimédia sur une connexion de Trunk à un homologue pour des sites ou services spécifiques, utilisez le contenu suivant :
 
   - Activez toujours la dérivation multimédia, comme décrit dans la rubrique [configurer la contournement multimédia dans Lync Server 2013 pour ignorer toujours le serveur de médiation](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md).
 

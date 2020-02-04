@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : tblSkippedAffiliations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblSkippedAffiliations
 ms:assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558611(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06269ede55a46757f78595d7573f3cd77414d1d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846660"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846660"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (généralement en raison des erreurs d’accès aux services de domaine Active Directory).
 
@@ -62,7 +64,7 @@ tblSkippedAffiliations contient les affiliations qui n’ont pas pu être lues (
 <td><p>affDescription</p></td>
 <td><p>nvarchar (256), pas null</p></td>
 <td><p>Chaîne identifiant l’affiliation.</p>
-<p>Le format est: GUID: {0} URI: {1} &gt; ID:{2}</p></td>
+<p>Le format est : GUID : {0} URI : {1} &gt; ID :{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>updatedBy</p></td>

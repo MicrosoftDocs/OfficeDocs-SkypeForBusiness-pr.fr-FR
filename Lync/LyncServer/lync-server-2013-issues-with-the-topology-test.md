@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: problèmes liés au test de topologie'
+title: 'Lync Server 2013 : problèmes liés au test de topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Issues with the topology test
 ms:assetid: 821e8916-7b5d-4f64-8fb0-e5cc392ec1bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205045(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d416aac6460870ab14d5296bcc6c7944ecf699e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830954"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830954"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 À l’instar de l’applet **de contrôle test-CsTopology** , le meilleur analyseur de pratique vous offre la possibilité de vérifier que Lync Server 2013 fonctionne correctement à un niveau global. Par défaut, l’analyseur de meilleures pratiques, à l’instar de l’applet de contrôle, vérifie l’intégralité de votre infrastructure Lync Server 2013, en vérifiant que les services requis sont en cours d’exécution et que les droits d’utilisateur et les autorisations appropriés ont été définis pour ces services et pour le universel. groupes de sécurité créés lors de l’installation de Lync Server 2013.
 
@@ -57,7 +59,7 @@ Si le test de topologie a détecté des problèmes avec votre topologie, ces pro
 
 Lorsque vous apportez des modifications à votre topologie, celles-ci ne s’appliquent que lorsque vous les avez publiées et activées. Vous devez utiliser le générateur de topologie pour apporter des changements de topologie. Après avoir apporté des modifications, vous pouvez publier et activer ces modifications à l’aide du générateur de topologie.
 
-Lorsque vous publiez les modifications, les nouvelles informations (par exemple, un nouveau site ou un nouveau rôle serveur) sont écrites dans le magasin de gestion central. Toutefois, ces nouveaux objets (ou les modifications que vous avez apportées) ne rejoignent pas immédiatement votre topologie. Les objets rejoignent votre topologie uniquement lors de l’activation de la topologie mise à jour. Si vous sélectionnez l’option publier dans le générateur de topologie, les deux étapes suivantes se produisent: les modifications sont publiées (c’est-à-dire qu’elles sont écrites dans le magasin de gestion central), puis la nouvelle topologie est activée.
+Lorsque vous publiez les modifications, les nouvelles informations (par exemple, un nouveau site ou un nouveau rôle serveur) sont écrites dans le magasin de gestion central. Toutefois, ces nouveaux objets (ou les modifications que vous avez apportées) ne rejoignent pas immédiatement votre topologie. Les objets rejoignent votre topologie uniquement lors de l’activation de la topologie mise à jour. Si vous sélectionnez l’option publier dans le générateur de topologie, les deux étapes suivantes se produisent : les modifications sont publiées (c’est-à-dire qu’elles sont écrites dans le magasin de gestion central), puis la nouvelle topologie est activée.
 
 Par défaut, les membres du groupe RTCUniversalServerAdmins sont autorisés à exécuter l’applet de cmdlet **publishe-CsTopology** et l’applet de passe **Enable-CsTopology** . Toutefois, si vous n’avez pas encore délégué d’autorisations d’installation, vous devez être connecté en tant qu’administrateur de domaine pour exécuter la **fonction de publication-CsTopology**. Pour permettre à RTCUniversalServerAdmins de faire réellement appel à l’applet de contrôle **Publisher-CsTopology** , vous devez exécuter l’applet de contrôle **Grant-CsSetupPermission** dans chaque conteneur Active Directory contenant des ordinateurs exécutant des services serveur Lync. Pour permettre à RTCUniversalServerAdmins d’utiliser l’applet de contrôle **Enable-CsTopology** , vous devez exécuter l’applet **de contrôle Set-CsSetupPermission** sur chaque conteneur services de domaine Active Directory qui contient les ordinateurs exécutant Lync Server services. Notez que cela s’applique à l’activation et la publication d’une topologie à l’aide du générateur de topologie. Si vous n’avez pas d’autorisations déléguées à l’aide de **Set-CsSetupPermission**, seul un administrateur de domaine peut activer et publier une topologie via le générateur de topologie.
 

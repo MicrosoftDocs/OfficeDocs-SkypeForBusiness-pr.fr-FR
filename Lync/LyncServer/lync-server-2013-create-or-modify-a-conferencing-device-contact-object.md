@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’un objet de contact de périphérique de conférence'
+title: 'Lync Server 2013 : création ou modification d’un objet de contact de périphérique de conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a conferencing device Contact object
 ms:assetid: 62ed64be-379c-417d-9453-511881cf5604
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994035(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b468b2338d115e7b646c28fd4d0b310b6e132d79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831808"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831808"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-02_
+_**Dernière modification de la rubrique :** 2013-10-02_
 
 Pour créer un objet de salle de conférence, commencez par créer un compte d’utilisateur Active Directory pour représenter l’appareil. Vous pouvez ensuite utiliser l’applet de passe **Enable-CsMeetingRoom** pour permettre au compte de fonctionner en tant qu’appareil de conférence. Si vous devez modifier les propriétés d’un appareil de conférence existant, utilisez l’applet de passe **Set-CsMeetingRoom** .
 
@@ -43,7 +45,7 @@ Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -66,7 +68,7 @@ Ces applets de commande peuvent être exécutées à partir de Lync Server 2013 
 
 ## <a name="modifying-a-conferencing-device"></a>Modification d’un appareil de conférence
 
-  - Pour modifier les valeurs de propriétés d’un appareil de conférence existant, utilisez l’applet de passe **Set-CsMeetingRoom** . Par exemple, la commande suivante met à jour le numéro de téléphone (LineUri) associé à un appareil de conférence:
+  - Pour modifier les valeurs de propriétés d’un appareil de conférence existant, utilisez l’applet de passe **Set-CsMeetingRoom** . Par exemple, la commande suivante met à jour le numéro de téléphone (LineUri) associé à un appareil de conférence :
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 

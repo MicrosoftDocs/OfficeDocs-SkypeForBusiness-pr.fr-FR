@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble du service de journalisation centralisé'
+title: 'Lync Server 2013 : vue d’ensemble du service de journalisation centralisé'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Centralized Logging Service
 ms:assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688145(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647e6b1e5797b3936dc1fef6023c85ce4baf68b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1460699b6516ab4e510c9715b2464ce442466faa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825442"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34825442"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
-Le service de journalisation centralisé a pour but de fournir un moyen de contrôler la collecte de données, avec une étendue générale ou étroite. Vous pouvez recueillir des données à partir de tous les serveurs dans le déploiement de façon simultanée, définir des éléments spécifiques pour suivre, définir des indicateurs de trace et retourner des résultats de recherche à partir d’un ordinateur unique ou d’une agrégation de toutes les données de tous les serveurs. Le service de journalisation centralisé s’exécute sur tous les serveurs dans votre déploiement. L’architecture du service de journalisation centralisé est composée des agents et services suivants:
+Le service de journalisation centralisé a pour but de fournir un moyen de contrôler la collecte de données, avec une étendue générale ou étroite. Vous pouvez recueillir des données à partir de tous les serveurs dans le déploiement de façon simultanée, définir des éléments spécifiques pour suivre, définir des indicateurs de trace et retourner des résultats de recherche à partir d’un ordinateur unique ou d’une agrégation de toutes les données de tous les serveurs. Le service de journalisation centralisé s’exécute sur tous les serveurs dans votre déploiement. L’architecture du service de journalisation centralisé est composée des agents et services suivants :
 
-  - *Agent de service de journalisation centralisé*   ClsAgent. exe est l’exécutable du service qui communique avec le contrôleur et reçoit les commandes émises par l’administrateur. L’agent s’exécute en tant que service sur chaque ordinateur Lync Server. Lorsque l’agent reçoit une commande, il exécute la commande, envoie des messages aux composants définis pour le suivi et écrit les journaux de suivi sur le disque. Il lit également les journaux de suivi pour son ordinateur et renvoie les données de suivi au contrôleur lorsque cela est demandé. Le ClsAgent écoute les commandes sur les ports suivants: **tcp 50001**, **TCP 50002**et **TCP 50003**.
+  - *Agent de service de journalisation centralisé*   ClsAgent. exe est l’exécutable du service qui communique avec le contrôleur et reçoit les commandes émises par l’administrateur. L’agent s’exécute en tant que service sur chaque ordinateur Lync Server. Lorsque l’agent reçoit une commande, il exécute la commande, envoie des messages aux composants définis pour le suivi et écrit les journaux de suivi sur le disque. Il lit également les journaux de suivi pour son ordinateur et renvoie les données de suivi au contrôleur lorsque cela est demandé. Le ClsAgent écoute les commandes sur les ports suivants : **tcp 50001**, **TCP 50002**et **TCP 50003**.
 
-  - *Contrôleur de service de journalisation centralisé*   ClsControllerLib. dll est le moteur d’exécution de commandes pour Lync Server Management Shell et ClsController. exe. CLSControllerLib. dll envoie des commandes de démarrage, d’arrêt, de vidage et de recherche à ClsAgent. Lorsque les commandes de recherche sont envoyées, les journaux obtenus sont renvoyés à ClsControllerLib. dll et agrégés. Le contrôleur est chargé d’envoyer des commandes à l’agent, de recevoir l’état de ces commandes et de gérer les données du fichier du journal de recherche tel qu’il est renvoyé par tous les agents sur n’importe quel ordinateur dans l’étendue de la recherche, puis de regrouper les données du journal dans un ordre significatif et indiqué. jeu de sorties. Les informations des rubriques suivantes portent sur l’utilisation de Lync Server Management Shell. ClsController. exe est limité à un sous-ensemble des fonctions et fonctions disponibles dans Lync Server Management Shell. Pour obtenir de l’aide sur ClsController. exe, accédez à la `ClsController` ligne de commande en tapant dans\\le répertoire\\par défaut\\C: fichiers fichiers\\communs Microsoft Lync Server 2013 ClsAgent.
+  - *Contrôleur de service de journalisation centralisé*   ClsControllerLib. dll est le moteur d’exécution de commandes pour Lync Server Management Shell et ClsController. exe. CLSControllerLib. dll envoie des commandes de démarrage, d’arrêt, de vidage et de recherche à ClsAgent. Lorsque les commandes de recherche sont envoyées, les journaux obtenus sont renvoyés à ClsControllerLib. dll et agrégés. Le contrôleur est chargé d’envoyer des commandes à l’agent, de recevoir l’état de ces commandes et de gérer les données du fichier du journal de recherche tel qu’il est renvoyé par tous les agents sur n’importe quel ordinateur dans l’étendue de la recherche, puis de regrouper les données du journal dans un ordre significatif et indiqué. jeu de sorties. Les informations des rubriques suivantes portent sur l’utilisation de Lync Server Management Shell. ClsController. exe est limité à un sous-ensemble des fonctions et fonctions disponibles dans Lync Server Management Shell. Pour obtenir de l’aide sur ClsController. exe, accédez à la `ClsController` ligne de commande en tapant dans\\le répertoire\\par défaut\\C : fichiers fichiers\\communs Microsoft Lync Server 2013 ClsAgent.
 
 **Communications entre ClsController et ClsAgent**
 
-![Relation entre CLSController et CLSAgent.] (images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "Relation entre CLSController et CLSAgent.")
+![Relation entre CLSController et CLSAgent.](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "Relation entre CLSController et CLSAgent.")
 
 Vous émettez des commandes à l’aide de l’interface de ligne de commande Windows Server ou de Lync Server Management Shell. Les commandes sont exécutées sur lʼordinateur auquel vous êtes connecté et envoyées au ClsAgent localement ou à dʼautres ordinateurs et pools dans votre déploiement.
 
@@ -87,7 +89,7 @@ Lorsqu’un problème survient, démarrez un second scénario en rapport avec le
 
 
 > [!TIP]  
-> Lorsque vous avez présenté un scénario de problème dans Lync Server, commencez par vous demander «que dois-je savoir déjà à propos du problème». Si vous quantifiez les limites du problème, vous pouvez éliminer une partie importante des entités opérationnelles de Lync Server.<BR>Considérez un exemple de scénario dans lequel vous savez que les utilisateurs n’obtiennent pas de résultats à jour lors de la recherche d’un contact. Il n’est pas possible de rechercher les problèmes liés aux composants multimédias, à la voix entreprise, aux conférences et à un certain nombre d’autres composants. Vous ignorez peut-être toutefois où réside réellement le problème : sur le client ou du côté serveur ? Les contacts sont collectés auprès d’Active Directory par le réplicateur d’utilisateurs et remis au client par le biais du serveur du carnet d’adresses. ABServer obtient ses mises à jour à partir de la base de données RTC (où elles ont été écrites par le réplicateur d’utilisateurs) et les rassemble dans des fichiers de carnet d’adresses, par défaut à 01h30. Les clients du serveur Lync récupèrent le nouveau carnet d’adresses sur une planification aléatoire. Étant donné que vous savez le fonctionnement du processus, vous pouvez limiter votre recherche à la cause potentielle d’un problème lié aux données collectées auprès d’Active Directory par le réplicateur d’utilisateurs, l’élément absent ne récupérant pas les fichiers du carnet d’adresses, ou les clients non Téléchargement du fichier du carnet d’adresses.
+> Lorsque vous avez présenté un scénario de problème dans Lync Server, commencez par vous demander « que dois-je savoir déjà à propos du problème ». Si vous quantifiez les limites du problème, vous pouvez éliminer une partie importante des entités opérationnelles de Lync Server.<BR>Considérez un exemple de scénario dans lequel vous savez que les utilisateurs n’obtiennent pas de résultats à jour lors de la recherche d’un contact. Il n’est pas possible de rechercher les problèmes liés aux composants multimédias, à la voix entreprise, aux conférences et à un certain nombre d’autres composants. Vous ignorez peut-être toutefois où réside réellement le problème : sur le client ou du côté serveur ? Les contacts sont collectés auprès d’Active Directory par le réplicateur d’utilisateurs et remis au client par le biais du serveur du carnet d’adresses. ABServer obtient ses mises à jour à partir de la base de données RTC (où elles ont été écrites par le réplicateur d’utilisateurs) et les rassemble dans des fichiers de carnet d’adresses, par défaut à 01h30. Les clients du serveur Lync récupèrent le nouveau carnet d’adresses sur une planification aléatoire. Étant donné que vous savez le fonctionnement du processus, vous pouvez limiter votre recherche à la cause potentielle d’un problème lié aux données collectées auprès d’Active Directory par le réplicateur d’utilisateurs, l’élément absent ne récupérant pas les fichiers du carnet d’adresses, ou les clients non Téléchargement du fichier du carnet d’adresses.
 
 
 

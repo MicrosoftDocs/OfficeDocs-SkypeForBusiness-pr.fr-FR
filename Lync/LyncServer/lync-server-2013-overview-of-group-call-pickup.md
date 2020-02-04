@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de la prise d’appel de groupe'
+title: 'Lync Server 2013 : vue d’ensemble de la prise d’appel de groupe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Group Call Pickup
 ms:assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 132d987b7d8007873a27cd74aacfc11e0c882c39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0efc85b28a689b43d024d9996211a70dcd91cee0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825477"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825477"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-12_
+_**Dernière modification de la rubrique :** 2013-02-12_
 
-Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013: février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone. Cette nouvelle fonctionnalité améliore la disponibilité de la ligne d’un utilisateur en permettant à d’autres utilisateurs de répondre à un appel entrant en composant un numéro de groupe. Lors du déploiement de la prise d’appel de groupe, le nombre d’appels entrants vers la messagerie vocale peut être considérablement réduit, ce qui est particulièrement utile pour les appels provenant de clients extérieurs à votre organisation.
+Le prélèvement d’appels de groupe, une nouvelle fonctionnalité dans les mises à jour cumulatives de Lync Server 2013 : février 2013, permet aux utilisateurs de répondre aux appels entrants de leurs collègues à partir de leur propre téléphone. Cette nouvelle fonctionnalité améliore la disponibilité de la ligne d’un utilisateur en permettant à d’autres utilisateurs de répondre à un appel entrant en composant un numéro de groupe. Lors du déploiement de la prise d’appel de groupe, le nombre d’appels entrants vers la messagerie vocale peut être considérablement réduit, ce qui est particulièrement utile pour les appels provenant de clients extérieurs à votre organisation.
 
 La fonctionnalité de cueillette des appels de groupe est conçue en particulier pour les unités d’entreprise dans les environnements Office ouverts. Les appels entrants n’entraînent pas de perturbation, car ils sonnent uniquement sur le poste de leur destinataire. Toutefois, les autres utilisateurs qui entendent la sonnerie peuvent prendre l’appel en composant simplement le numéro de groupe.
 
@@ -79,7 +81,7 @@ Si un utilisateur compose un numéro de groupe de prise d’appel pour répondre
 
 Les paramètres de sonnerie simultanée fonctionnent pour les utilisateurs qui bénéficient de la prise d’appel de groupe. Autrement dit, un appel passé à un utilisateur disposant d’un appel de groupe sonne pour toutes les destinations configurées et un autre utilisateur peut répondre à l’appel. Toutefois, cette règle ne s’applique pas si l’utilisateur configure une sonnerie simultanée pour appeler tous les membres de l’équipe.
 
-La cueillette de groupe ne peut pas être utilisée pour répondre aux types d’appel suivants:
+La cueillette de groupe ne peut pas être utilisée pour répondre aux types d’appel suivants :
 
   - Appels à destination d’une ligne privée
 

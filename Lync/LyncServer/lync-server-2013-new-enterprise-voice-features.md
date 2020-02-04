@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Nouvelles fonctionnalités Voix Entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Enterprise Voice features
 ms:assetid: db0ad7b9-e469-4c29-89d9-52fed018ef08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc59c00b859977e2d3b1a33af0454411d03fefdf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 92c1c264b9ffa5459962b2b6e915ea0fef2cf775
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826387"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826387"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-05-01_
+_**Dernière modification de la rubrique :** 2013-05-01_
 
 Lync Server 2013 introduit de nouvelles fonctionnalités de routage et de gestion des appels qui améliorent la voix entreprise.
 
@@ -41,7 +43,7 @@ Lync Server 2013 prend en charge plusieurs Trunks entre serveurs de médiation e
 
 Microsoft Lync Server 2013 apporte des améliorations aux domaines du renvoi d’appel, de la sonnerie simultanée, de la gestion de la messagerie vocale et de la présentation de l’identification de l’appelant. Ces fonctionnalités enrichissent l’interface vocale d’entreprise.
 
-Lync Server 2013 introduit les nouvelles améliorations suivantes dans voix entreprise:
+Lync Server 2013 introduit les nouvelles améliorations suivantes dans voix entreprise :
 
   - [Nouvelles fonctionnalités d’appel dans Lync Server 2013](lync-server-2013-new-call-features.md)
 

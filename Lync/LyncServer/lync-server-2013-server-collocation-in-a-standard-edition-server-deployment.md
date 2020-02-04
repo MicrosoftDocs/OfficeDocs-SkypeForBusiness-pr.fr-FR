@@ -3,6 +3,8 @@ title: Colocalisation de serveur Lync Server 2013 lors d’un déploiement de se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server collocation in a Standard Edition server deployment
 ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183314
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 950f2ab06a146ec99ef9ebb2ecbc64c885c82d70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fa25655fd9bdd2551e10d1fbbf0de617b89be64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821963"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764882"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821963"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-20_
+_**Dernière modification de la rubrique :** 2013-01-20_
 
 Cette section décrit les rôles de serveur, les bases de données et les partages de fichiers que vous pouvez collocate dans un déploiement Lync Server 2013 Standard Edition Server.
 
@@ -45,7 +47,7 @@ Dans Lync Server 2013, le service de conférence A/V, le service de médiation, 
 
 Vous pouvez collocate un serveur d’applications de confiance auprès d’un serveur Standard Edition Server.
 
-Les rôles serveur suivants doivent être déployés sur un autre ordinateur:
+Les rôles serveur suivants doivent être déployés sur un autre ordinateur :
 
   - directeur
 
@@ -63,7 +65,7 @@ Les rôles serveur suivants doivent être déployés sur un autre ordinateur:
 
 Par défaut, la base de données principale SQL Server Express est colocalisée sur le serveur Standard Edition Server. Vous ne pouvez pas le déplacer vers un autre ordinateur. En revanche, vous ne pouvez pas collocate d’autres bases de données sur un serveur Standard Edition Server. Si vous choisissez de déployer le serveur de chat permanent sur un serveur Standard Edition Server, vous pouvez collocate la base de données de chat permanent et la base de données de conformité des conversations permanentes sur le même serveur Standard Edition Server.
 
-Vous pouvez collocater les bases de données suivantes sur un serveur de base de données unique:
+Vous pouvez collocater les bases de données suivantes sur un serveur de base de données unique :
 
   - base de données de surveillance
 
@@ -71,7 +73,7 @@ Vous pouvez collocater les bases de données suivantes sur un serveur de base de
 
   - Une base de données principale pour une liste frontale Enterprise Edition
 
-Vous pouvez collocate tout ou partie de ces bases de données dans une instance SQL unique ou utiliser des instances SQL distinctes pour chacune d’elles, avec les limitations suivantes:
+Vous pouvez collocate tout ou partie de ces bases de données dans une instance SQL unique ou utiliser des instances SQL distinctes pour chacune d’elles, avec les limitations suivantes :
 
   - Chaque instance SQL ne peut contenir qu’une seule base de données principale (pour un pool frontal Enterprise Edition), une base de données de surveillance unique, une base de données d’archivage unique, une base de données de chat permanent unique et une seule base de données de conformité des conversations permanentes.
 
@@ -105,7 +107,7 @@ Vous pouvez collocate un partage de fichiers avec les bases de données, comme d
 
 ## <a name="file-shares"></a>Partages de fichiers
 
-Le partage de fichiers peut être un serveur distinct ou être colocalisé sur le même serveur que tout ou partie des éléments suivants:
+Le partage de fichiers peut être un serveur distinct ou être colocalisé sur le même serveur que tout ou partie des éléments suivants :
 
   - Serveur de base de données, y compris le serveur principal d’un pool frontal Enterprise Edition
 

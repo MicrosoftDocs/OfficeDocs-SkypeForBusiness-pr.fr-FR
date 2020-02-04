@@ -1,8 +1,10 @@
 ---
-title: 'Affichage Lync Server 2013: SessionDetails'
+title: 'Affichage Lync Server 2013 : SessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionDetails view
 ms:assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721924(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bd3902fd35679366e905c04e99ff1e72b2ece86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fabf7ae963240f6a2b14ac8c3db272e0cb06091c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822089"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822089"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou un autre type de session. Cet affichage a été présenté dans Microsoft Lync Server 2013.
 
@@ -195,8 +197,8 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 <tr class="odd">
 <td><p><strong>DialogId</strong></p></td>
 <td><p>varchar (775)</p></td>
-<td><p>ID de boîte de dialogue SIP. Le format est le suivant:</p>
-<p>boîte de dialogue; à partir d’une balise</p></td>
+<td><p>ID de boîte de dialogue SIP. Le format est le suivant :</p>
+<p>boîte de dialogue ; à partir d’une balise</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Corrélation</strong></p></td>
@@ -216,8 +218,8 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 <tr class="odd">
 <td><p><strong>ReplacesDialogId</strong></p></td>
 <td><p>varchar (775)</p></td>
-<td><p>ID de boîte de dialogue SIP le remplacement de la session. Le format est le suivant:</p>
-<p>boîte de dialogue; à partir d’une balise</p></td>
+<td><p>ID de boîte de dialogue SIP le remplacement de la session. Le format est le suivant :</p>
+<p>boîte de dialogue ; à partir d’une balise</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseTime</strong></p></td>
@@ -277,19 +279,19 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 <tr class="odd">
 <td><p><strong>FromUserFlag</strong></p></td>
 <td><p>type</p></td>
-<td><p>Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées:</p>
+<td><p>Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées :</p>
 <p>0x01-intégré sur le téléphone de bureau</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToUserFlag</strong></p></td>
 <td><p>type</p></td>
-<td><p>Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées:</p>
+<td><p>Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attribut suivantes sont autorisées :</p>
 <p>0x01-intégré sur le téléphone de bureau</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallFlag</strong></p></td>
 <td><p>type</p></td>
-<td><p>Indique les attributs d’appel. Les définitions d’attribut suivantes sont autorisées:</p>
+<td><p>Indique les attributs d’appel. Les définitions d’attribut suivantes sont autorisées :</p>
 <p>0x01-nouvelle tentative de session</p>
 <p>0x02-appel émis par l’agent pour le compte d’un groupe de réponse</p></td>
 </tr>

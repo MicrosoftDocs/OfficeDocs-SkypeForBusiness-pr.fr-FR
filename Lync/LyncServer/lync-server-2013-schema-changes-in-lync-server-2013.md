@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: modifications de schéma dans Lync Server 2013'
+title: 'Lync Server 2013 : modifications de schéma dans Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema changes in Lync Server 2013
 ms:assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398944(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bbe1c08b7d03042be2c03511103bfa4e43d39d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54a3fd5f18785a649803cc6f9a0a56d7b98a2ee6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821998"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34821998"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Avant de déployer et d’utiliser Lync Server 2013, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Lync Server 2013.
 
-Lync Server 2013 nécessite plusieurs classes et attributs, et modifie quelques classes et attributs existants. Par ailleurs, de nombreuses informations de configuration pour Lync Server 2013 sont stockées dans le magasin de gestion central plutôt que dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Lync Server 2013:
+Lync Server 2013 nécessite plusieurs classes et attributs, et modifie quelques classes et attributs existants. Par ailleurs, de nombreuses informations de configuration pour Lync Server 2013 sont stockées dans le magasin de gestion central plutôt que dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Lync Server 2013 :
 
   - **Extensions de schéma**:
     
@@ -47,7 +49,7 @@ Lync Server 2013 nécessite plusieurs classes et attributs, et modifie quelques 
 
 <!-- end list -->
 
-  - **Data (données** ) (stockés dans le schéma étendu de Lync Server et dans les classes de schéma existantes):
+  - **Données** (stockées dans le schéma étendu de Lync Server et dans les classes de schéma existantes) :
     
       - URL (Uniform Resource Identifier) de l’utilisateur SIP et autres paramètres utilisateur
     
@@ -123,26 +125,26 @@ Le tableau suivant décrit les classes Active Directory modifiées par Lync Serv
 <tbody>
 <tr class="odd">
 <td><p>Utilisateur</p></td>
-<td><p>Ajouter: mayContain</p>
-<p>Ajouter: mayContain</p></td>
+<td><p>Ajouter : mayContain</p>
+<p>Ajouter : mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
 <td><p>Locuteur</p></td>
-<td><p>Ajouter: mayContain</p>
-<p>Ajouter: mayContain</p></td>
+<td><p>Ajouter : mayContain</p>
+<p>Ajouter : mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mail-destinataire</p></td>
-<td><p>Ajouter: mayContain</p></td>
+<td><p>Ajouter : mayContain</p></td>
 <td><p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>Ajouter: mayContain</p></td>
+<td><p>Ajouter : mayContain</p></td>
 <td><p>msRTCSIP-MirrorBackEndServer</p></td>
 </tr>
 </tbody>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: prise en charge de l’intégration d’Exchange et de SharePoint'
+title: 'Lync Server 2013 : prise en charge de l’intégration d’Exchange et de SharePoint'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exchange and SharePoint integration support
 ms:assetid: 72bf8aa5-55b1-4851-8a59-c96bf85d215a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205005(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c4d378337643adf79557bd4bbb649a01948de27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 198df79f63415affa4fb9b41d55265b58ae00a8a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831192"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756258"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831192"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-01-18_
+_**Dernière modification de la rubrique :** 2017-01-18_
 
-Lync Server 2013 et Lync 2013 peuvent communiquer en toute sécurité avec d’autres applications et produits serveur, y compris Office 2013, Exchange Server 2013, Exchange Server 2016 et SharePoint, si vous intégrez ces produits. L’intégration de Lync Server 2013 et d’Office offre aux utilisateurs un accès in-context aux fonctionnalités de messagerie instantanée, de présence et de conférence de Lync. Les utilisateurs d’Office peuvent accéder aux fonctionnalités de Lync à partir du client de messagerie et de collaboration Outlook 2013 et d’autres programmes Office ou à partir d’une page SharePoint. Les utilisateurs peuvent également afficher un enregistrement des conversations Lync dans le dossier historique des conversations Outlook. Lorsqu’il est intégré à Exchange 2013, Exchange 2016 ou Exchange Online, Lync Server 2013 prend également en charge les éléments suivants:
+Lync Server 2013 et Lync 2013 peuvent communiquer en toute sécurité avec d’autres applications et produits serveur, y compris Office 2013, Exchange Server 2013, Exchange Server 2016 et SharePoint, si vous intégrez ces produits. L’intégration de Lync Server 2013 et d’Office offre aux utilisateurs un accès in-context aux fonctionnalités de messagerie instantanée, de présence et de conférence de Lync. Les utilisateurs d’Office peuvent accéder aux fonctionnalités de Lync à partir du client de messagerie et de collaboration Outlook 2013 et d’autres programmes Office ou à partir d’une page SharePoint. Les utilisateurs peuvent également afficher un enregistrement des conversations Lync dans le dossier historique des conversations Outlook. Lorsqu’il est intégré à Exchange 2013, Exchange 2016 ou Exchange Online, Lync Server 2013 prend également en charge les éléments suivants :
 
   - Magasin de contacts unifié, qui permet aux utilisateurs de stocker toutes les informations de contact dans Exchange ou Exchange Online de sorte que les informations soient disponibles dans le monde entier via Lync 2013, Exchange, Outlook et Outlook Web App.
 
@@ -55,7 +57,7 @@ Lync Server 2013 et Lync 2013 peuvent communiquer en toute sécurité avec d’a
 
 L’intégration de Lync Server 2013 à Exchange Server et SharePoint Server nécessite une authentification de serveur à serveur entre les serveurs exécutant Lync Server 2013, Exchange Server et SharePoint Server. Lync Server 2013 prend en charge le protocole OAuth (autorisation d’ouverture) pour l’authentification et l’autorisation de serveur à serveur. Dans le cas d’une authentification serveur à serveur locale entre deux serveurs Microsoft, il est inutile d’utiliser un serveur Token tiers. Lync Server 2013, Exchange Server et SharePoint Server disposent d’un serveur à jetons intégré qui peut être utilisé à des fins d’authentification. Par exemple, Lync Server 2013 peut émettre et signer un jeton de sécurité en soi et utiliser ce jeton lors de la communication avec Exchange. Dans le cas présent, il est inutile d’utiliser un serveur jeton tiers.
 
-Lync Server 2013 prend en charge les deux scénarios d’authentification de serveur à serveur. Il s’agit notamment de la configuration de l’authentification de serveur à serveur entre les éléments suivants:
+Lync Server 2013 prend en charge les deux scénarios d’authentification de serveur à serveur. Il s’agit notamment de la configuration de l’authentification de serveur à serveur entre les éléments suivants :
 
   - Une installation locale de Lync Server 2013 et une installation locale d’Exchange Server 2013, Exchange Server 2016 et/ou SharePoint Server.
 

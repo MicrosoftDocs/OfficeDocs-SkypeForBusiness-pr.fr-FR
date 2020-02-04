@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table ConferenceSessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceSessionDetails table
 ms:assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412741(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c5aaa3ec022be18ad54cc8a24b8410c23faf799
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61da586f3ecaf215b3bb636a80141ba8aaa19f18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838495"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Chaque enregistrement représente une seule session de conférence, qui peut correspondre soit à la session ayant le focus, soit à la session associée à un serveur de conférence particulier.
 
@@ -58,7 +60,7 @@ Chaque enregistrement représente une seule session de conférence, qui peut cor
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>Valeur</p></td>
 <td><p>Etranger principal</p></td>
-<td><p>Durée de la demande de session; utilisé conjointement avec <strong>SessionIdSeq</strong> pour identifier de manière unique une session de conférence. Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</p></td>
+<td><p>Durée de la demande de session ; utilisé conjointement avec <strong>SessionIdSeq</strong> pour identifier de manière unique une session de conférence. Pour plus d’informations, voir le <a href="lync-server-2013-dialogs-table.md">tableau des boîtes de dialogue dans Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
@@ -228,7 +230,7 @@ Chaque enregistrement représente une seule session de conférence, qui peut cor
 <td><p><strong>UserFlag</strong></p></td>
 <td><p>type</p></td>
 <td></td>
-<td><p>Un ensemble de bits indiquant les attributs de l’utilisateur. Les définitions d’attribut suivantes apparaissent:</p>
+<td><p>Un ensemble de bits indiquant les attributs de l’utilisateur. Les définitions d’attribut suivantes apparaissent :</p>
 <ul>
 <li><p>Intégré au téléphone de bureau-1</p></li>
 </ul></td>
@@ -237,7 +239,7 @@ Chaque enregistrement représente une seule session de conférence, qui peut cor
 <td><p><strong>CallFlag</strong></p></td>
 <td><p>type</p></td>
 <td></td>
-<td><p>Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent:</p>
+<td><p>Un ensemble de bits qui indique les attributs d’appel. Les définitions d’attribut suivantes apparaissent :</p>
 <ul>
 <li><p>Nouvelle tentative de session-1</p></li>
 </ul></td>

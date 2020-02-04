@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de l’environnement Lync Server hybride'
+title: 'Lync Server 2013 : vue d’ensemble de l’environnement Lync Server hybride'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Lync Server 2013 hybrid environment
 ms:assetid: 0d16ec3a-28f0-4483-96e7-8e68f30398fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204669(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0420e4aaded9f5ae90d26c4cbdc176e7fb4c6bb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825323"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825323"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-28_
+_**Dernière modification de la rubrique :** 2014-05-28_
 
 L’environnement hybride Lync Server 2013 fait référence à un déploiement dans lequel certains utilisateurs sont hébergés sur le serveur Lync Server 2013 local et d’autres utilisateurs hébergés sur Lync Online, mais les utilisateurs partagent le même domaine, tel que user@contoso.com.
 

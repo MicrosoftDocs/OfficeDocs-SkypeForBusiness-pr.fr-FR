@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Prise en charge du système d’exploitation pour le 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server and tools operating system support
 ms:assetid: b65a0956-f90d-48d0-ac61-558e67339084
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412883(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a19ae4b69eb261a9d23d767dcd3847d8986847b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f20648d3512914be3c8a32eb61389618eb17abd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822061"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822061"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-12-01_
+_**Dernière modification de la rubrique :** 2014-12-01_
 
 Lync Server 2013 est disponible uniquement en 64 bits, qui nécessite une application matérielle 64 bits et des éditions 64 bits de Windows Server. Cela signifie que tous les rôles serveur et ordinateurs exécutant les outils d’administration Lync Server 2013 exécutent un système d’exploitation 64-bit Edition.
 
@@ -41,7 +43,7 @@ Lync Server 2013 est disponible uniquement en 64 bits, qui nécessite une applic
 
 ## <a name="operating-systems-for-server-roles"></a>Systèmes d’exploitation pour rôles de serveur
 
-Lync Server 2013 prend en charge les éditions 64 bits des systèmes d’exploitation suivants pour tous les rôles de serveur dans Lync Server 2013:
+Lync Server 2013 prend en charge les éditions 64 bits des systèmes d’exploitation suivants pour tous les rôles de serveur dans Lync Server 2013 :
 
   - Le système d’exploitation standard Windows Server 2008 R2 avec Service Pack 1 (SP1) standard (requis) ou le dernier Service Pack (recommandé)
 
@@ -53,9 +55,9 @@ Lync Server 2013 prend en charge les éditions 64 bits des systèmes d’exploit
 
   - Système d’exploitation Windows Server 2012 Datacenter
 
-  - Les systèmes d’exploitation Windows Server 2012 R2 sont pris en charge avec les mises à jour cumulatives pour Lync Server 2013: octobre 2013.
+  - Les systèmes d’exploitation Windows Server 2012 R2 sont pris en charge avec les mises à jour cumulatives pour Lync Server 2013 : octobre 2013.
 
-Lync Server 2013 n’est pas pris en charge sur les éléments suivants:
+Lync Server 2013 n’est pas pris en charge sur les éléments suivants :
 
   - Option d’installation du serveur principal de Windows Server 2008 R2 ou Windows Server 2012
 

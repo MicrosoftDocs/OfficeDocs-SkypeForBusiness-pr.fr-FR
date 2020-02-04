@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Vue d’ensemble de la préparation des services de d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Active Directory Domain Services preparation
 ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398869(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26636846ce7b985a33af3175d51798c4c12c5ea7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d51d0fec8f36749f52acf3272bf83dee3170da8f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825820"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825820"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-29_
+_**Dernière modification de la rubrique :** 2012-10-29_
 
 Pour préparer les services de domaine Active Directory pour votre déploiement Lync Server 2013, vous devez effectuer trois étapes dans un ordre spécifique.
 
@@ -105,7 +107,7 @@ Le tableau suivant décrit les étapes nécessaires pour préparer AD DS pour Ly
 
 <div id="sectionSection0" class="section">
 
-Lync Server 2013, comme Lync Server 2010, stocke une grande partie des informations de configuration dans le magasin central de gestion plutôt que dans AD DS, comme dans le cas d’Office Communications Server 2007 R2. Toutefois, les informations suivantes sont stockées dans AD DS:
+Lync Server 2013, comme Lync Server 2010, stocke une grande partie des informations de configuration dans le magasin central de gestion plutôt que dans AD DS, comme dans le cas d’Office Communications Server 2007 R2. Toutefois, les informations suivantes sont stockées dans AD DS :
 
   - **Extensions de schéma**:
     
@@ -115,7 +117,7 @@ Lync Server 2013, comme Lync Server 2010, stocke une grande partie des informati
 
 <!-- end list -->
 
-  - **Data (données** ) (stockés dans le schéma étendu de Lync Server et dans les classes de schéma existantes):
+  - **Données** (stockées dans le schéma étendu de Lync Server et dans les classes de schéma existantes) :
     
       - URL (Uniform Resource Identifier) de l’utilisateur SIP et autres paramètres utilisateur
     

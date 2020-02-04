@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: activation ou désactivation d’une application serveur Microsoft SIP Processing Language (MSPL)'
+title: 'Lync Server 2013 : activation ou désactivation d’une application serveur Microsoft SIP Processing Language (MSPL)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable a Microsoft SIP Processing Language (MSPL) server application
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182573(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da7ff3379f0e32166ceb263e1dbda46117b6984a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 12fb1160742898b65b14ea17bc10a9c6ed56c780
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831302"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831302"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Le panneau de configuration de Lync Server vous permet d’activer ou de désactiver les applications serveur MSPL (Microsoft SIP Processing Language) qui s’exécutent dans votre environnement Lync Server 2013. Ces applications sont des applications uniquement basées sur des scripts qui utilisent un langage de script au lieu de l’API Microsoft Lync 2013 preview.
 

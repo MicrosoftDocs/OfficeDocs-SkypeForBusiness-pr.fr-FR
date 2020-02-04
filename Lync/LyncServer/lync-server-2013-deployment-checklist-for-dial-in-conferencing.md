@@ -3,6 +3,8 @@ title: Liste de vérification du déploiement pour la conférence rendez-vous da
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for dial-in conferencing
 ms:assetid: 9c8d3ebe-0d70-4a61-9bd0-522286cddd9a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412726(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44591676d69b5fb4ac3d66ce0e18718389a0c189
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edf496dcb24c021246bfbb6e7a5ef7b3a3a5acc1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831520"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831520"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-10-03_
+_**Dernière modification de la rubrique :** 2014-10-03_
 
 Les composants requis pour les conférences rendez-vous sont déployés lorsque vous déployez la charge de travail de conférence. Pour pouvoir configurer les conférences rendez-vous, vous devez déployer l’entreprise voix ou un serveur de médiation et une passerelle de réseau téléphonique commuté (RTC).
 
@@ -86,13 +88,13 @@ Toutes les étapes décrites dans le tableau ci-dessous doivent être effectuée
 <p>Administrateur</p></td>
 <td><ul>
 <li><p><a href="lync-server-2013-deploying-lync-server.md">Déploiement de Lync Server 2013</a></p></li>
-<li><p>Pour créer un pool de serveurs de médiation autonome: <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">déploiement de serveurs de médiation et définition d’homologues dans Lync Server 2013</a></p></li>
+<li><p>Pour créer un pool de serveurs de médiation autonome : <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">déploiement de serveurs de médiation et définition d’homologues dans Lync Server 2013</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Configure dial plans</strong></p></td>
 <td><p>Un plan de numérotation est un ensemble de règles de normalisation des numéros de téléphone qui convertit des numéros de téléphone composés depuis un emplacement spécifique à un format standard (E.164) unique à des fins d’autorisation téléphonique et de routage des appels. Le même numéro de téléphone composé depuis différents emplacements peut, en fonction des plans de numérotation concernés, être résolu en différents numéros E.164, conformément à chaque emplacement. Si vous déployez Enterprise Voice, vous configurez des plans de numérotation dans le cadre de ce déploiement et vous devez vous assurer que les plans de numérotation sont également compatibles avec les conférences rendez-vous. Si vous ne déployez pas Enterprise Voice, vous devez configurer des plans de numérotation pour les conférences rendez-vous.</p>
-<p>Utilisez le panneau de configuration de Lync Server 2013 ou Lync Server Management Shell pour configurer les plans de numérotation comme suit:</p>
+<p>Utilisez le panneau de configuration de Lync Server 2013 ou Lync Server Management Shell pour configurer les plans de numérotation comme suit :</p>
 <ol>
 <li><p>Créez un ou plusieurs plans de numérotation pour le routage des numéros de téléphone d’accès entrant.</p></li>
 <li><p>Attribuez un plan de numérotation par défaut à chaque pool. Définissez la <strong>Région de la conférence rendez-vous</strong> sur l’emplacement géographique auquel le plan de numérotation s’applique. La région associe le plan de numérotation aux numéros d’accès entrant.</p></li>
@@ -190,7 +192,7 @@ Toutes les étapes décrites dans le tableau ci-dessous doivent être effectuée
 </tr>
 <tr class="even">
 <td><p><strong>Configuration des paramètres des comptes d’utilisateurs</strong></p></td>
-<td><p>Utilisez le panneau de configuration de Lync Server 2013 ou Lync Server Management Shell pour configurer l’URI de la <strong>ligne</strong> téléphonique en tant que numéro de téléphone normalisé unique (par exemple, tel: + 14255550200).</p></td>
+<td><p>Utilisez le panneau de configuration de Lync Server 2013 ou Lync Server Management Shell pour configurer l’URI de la <strong>ligne</strong> téléphonique en tant que numéro de téléphone normalisé unique (par exemple, tel : + 14255550200).</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsAdministrator</p>
 <p>CsUserAdministrator</p></td>
@@ -200,7 +202,7 @@ Toutes les étapes décrites dans le tableau ci-dessous doivent être effectuée
 <td><p>(Recommandé) Configurer des répertoires de conférence</p></td>
 <td><p>Utilisez l’applet de commande <strong>New-CsConferenceDirectory</strong> pour créer un répertoire de conférence tous les 999 utilisateurs dans le pool.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Configuration requise pour les conférences rendez-vous dans Lync Server 2013</a> <a href="recommended-create-conference-directories.md">(Recommandé) création de répertoires de conférences</a></p></td>
+<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Conditions requises pour les conférences rendez-vous dans Lync Server 2013</a> <a href="recommended-create-conference-directories.md">(recommandé) créer des répertoires de conférences</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>(Facultatif) Accueillir les utilisateurs à la conférence rendez-vous et définir le code confidentiel initial</strong></p></td>

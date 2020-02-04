@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: tâches au besoin'
+title: 'Lync Server 2013 : tâches au besoin'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: As-needed tasks
 ms:assetid: b66bc6fe-f138-4cf4-ba7f-aee9a3e0497e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722431(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e96fd6e73e043c5ea7c476f939b3a3e06eadbdfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 344512a1dd4db44b8290efdcc726275b4a6898de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838760"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34838760"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-18_
+_**Dernière modification de la rubrique :** 2014-08-18_
 
-Effectuez les tâches suivantes si nécessaire. Ils sont souvent couverts par des procédures standard:
+Effectuez les tâches suivantes si nécessaire. Ils sont souvent couverts par des procédures standard :
 
   - **Contrôle total   ** de la sécurité Vous pouvez effectuer ce contrôle régulièrement, en réponse à une mise à niveau ou une nouvelle conception du système de messagerie, ou en réponse à une faille de sécurité lancée (ou réussie). Cette procédure est susceptible de nécessiter des analyses de port sur les serveurs et les pare-feu, d’audit des correctifs de sécurité et de tests de pénétration de tiers.
 
-  - **Remplacer les certificats concernant pour**   expirer vérification le certificat de serveur Lync est l’une des tâches hebdomadaires normales et dans le cadre de la procédure qu’un administrateur doit avoir un enregistrement de la date d’expiration de tous les certificats. Cet enregistrement permet à un administrateur de créer une notification lorsqu’un certificat particulier est sur le lieu d’avoir expiré et remplacé selon les besoins.
+  - **Remplacer les certificats concernant pour expirer**   vérification le certificat de serveur Lync est l’une des tâches hebdomadaires normales et dans le cadre de la procédure qu’un administrateur doit avoir un enregistrement de la date d’expiration de tous les certificats. Cet enregistrement permet à un administrateur de créer une notification lorsqu’un certificat particulier est sur le lieu d’avoir expiré et remplacé selon les besoins.
 
   - ****   Mise à jour des résultats de performance mettez à jour les références de performance suite à une mise à niveau ou modification de la configuration. Votre organisation peut utiliser des plannings de référence pour mesurer les changements de performances et détecter les problèmes qui affectent les performances du système.
 
-  - **La gestion**   de la configuration initiale du pool d’entreprise, des serveurs Standard Edition et de tout autre serveur dans l’environnement de votre organisation, s’est effectuée lors du déploiement de chaque serveur. La gestion après le déploiement de serveurs et de pools pour les serveurs Standard Edition et les pools d’entreprise inclut les tâches suivantes:
+  - **La gestion**   de la configuration initiale du pool d’entreprise, des serveurs Standard Edition et de tout autre serveur dans l’environnement de votre organisation, s’est effectuée lors du déploiement de chaque serveur. La gestion après le déploiement de serveurs et de pools pour les serveurs Standard Edition et les pools d’entreprise inclut les tâches suivantes :
     
       - Gestion des serveurs frontaux
     
@@ -73,7 +75,7 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent couverts par de
     
       - Configuration de l’archivage, de l’enregistrement des détails des appels et de la conformité aux réunions
 
-  - ****   Gestion en continu de la connectivité Edge Server les serveurs et les paramètres requis pour fournir une connectivité externe incluent les éléments suivants:
+  - ****   Gestion en continu de la connectivité Edge Server les serveurs et les paramètres requis pour fournir une connectivité externe incluent les éléments suivants :
     
       - Gestion de la connectivité entre les serveurs internes et les serveurs Edge
     
@@ -81,13 +83,13 @@ Effectuez les tâches suivantes si nécessaire. Ils sont souvent couverts par de
     
       - Gestion de l’accès des partenaires fédérés
 
-  - **L’administration du carnet d'**   adresses qui administre les serveurs du carnet d’adresses inclut les éléments suivants:
+  - **L’administration du carnet d'**   adresses qui administre les serveurs du carnet d’adresses inclut les éléments suivants :
     
       - Configuration de la normalisation du téléphone du serveur du carnet d’adresses
     
       - Gestion du serveur du carnet d’adresses à partir de la ligne de commande
 
-  - ****   La gestion des comptes d’utilisateur pour la gestion des comptes d’utilisateurs comprend les éléments suivants:
+  - ****   La gestion des comptes d’utilisateur pour la gestion des comptes d’utilisateurs comprend les éléments suivants :
     
       - Activation de comptes d’utilisateur pour Lync Server
     
@@ -107,7 +109,7 @@ Dans la mesure où l’outil journalisation génère des fichiers journaux (sur 
 
 Pour afficher et analyser les messages de protocole
 
-Dans l’outil journalisation, une fois que vous avez terminé la session de débogage, cliquez sur analyse des fichiers journaux pour afficher les fichiers journaux à l’aide de l’outil de vérification de l’utilisation. Vous pouvez analyser les journaux de protocole pour les composants suivants:
+Dans l’outil journalisation, une fois que vous avez terminé la session de débogage, cliquez sur analyse des fichiers journaux pour afficher les fichiers journaux à l’aide de l’outil de vérification de l’utilisation. Vous pouvez analyser les journaux de protocole pour les composants suivants :
 
   - Lync Server SipStack (SIP)
 
@@ -137,11 +139,11 @@ Pour vous aider à organiser les performances des tâches au besoin, voir liste 
 
 ## <a name="backup-and-restore-policies-or-configuration-settings"></a>Backup (and Restore) ou paramètres de configuration
 
-Lync Server 2013 vous permet de sauvegarder et de restaurer tout le système. IIF vous voulez sauvegarder (et peut-être restaurer une seule action) une seule stratégie ou une collection unique de paramètres de configuration, récupérer la stratégie appropriée, puis canalr cet objet vers l’applet de passe Export-Clixml, qui enregistre les informations de stratégie sous forme de fichier XML:
+Lync Server 2013 vous permet de sauvegarder et de restaurer tout le système. IIF vous voulez sauvegarder (et peut-être restaurer une seule action) une seule stratégie ou une collection unique de paramètres de configuration, récupérer la stratégie appropriée, puis canalr cet objet vers l’applet de passe Export-Clixml, qui enregistre les informations de stratégie sous forme de fichier XML :
 
 `Get-CsClientPolicy -Identity "RedmondClientPolicy" | Export-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 
-Vous pouvez maintenant tester RedmondClientPolicy et modifier de nombreux paramètres. Si vous préférez procéder à la restauration de l’ancienne stratégie, entrez:
+Vous pouvez maintenant tester RedmondClientPolicy et modifier de nombreux paramètres. Si vous préférez procéder à la restauration de l’ancienne stratégie, entrez :
 
 `$x = Import-Clixml -Path C:\Backup\RedmondClientPolicy.xml`
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation de config. xml pour effectuer des tâches d’installation'
+title: 'Lync Server 2013 : utilisation de config. xml pour effectuer des tâches d’installation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Config.xml to perform installation tasks
 ms:assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3fb6f4c77375781b6c5d767087ad61f3ec6401b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b6e037f2c69e963e8ca5963a71dabe80f9c75fd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846388"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846388"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 Même si l’outil de personnalisation Office est le principal outil pour l’installation personnalisée, les administrateurs peuvent utiliser le fichier Config.xml pour spécifier des instructions d’installation non disponibles dans cet outil. Les personnalisations ci-dessous ne peuvent être effectuées qu’avec le fichier Config.xml :
 
@@ -51,7 +53,7 @@ Même si l’outil de personnalisation Office est le principal outil pour l’in
 
 Nous vous recommandons d’utiliser le fichier config. xml pour configurer l’installation silencieuse de Lync 2013.
 
-Par défaut, le fichier config. XML qui est stocké dans le dossier de produit principal (par \\exemple, produit). WW) envoie le programme d’installation de ce produit. Par exemple, le fichier config. xml dans le dossier suivant installe Lync 2013:
+Par défaut, le fichier config. XML qui est stocké dans le dossier de produit principal (par \\exemple, produit). WW) envoie le programme d’installation de ce produit. Par exemple, le fichier config. xml dans le dossier suivant installe Lync 2013 :
 
   - \\\\partage\\\\serveur Lync15\\Lync. WW \\config. Xml
 
@@ -73,11 +75,11 @@ Le tableau suivant répertorie les éléments config. xml fréquemment utilisés
 <tbody>
 <tr class="odd">
 <td><p>Configuration</p></td>
-<td><p>Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple: Product = Lync</p></td>
+<td><p>Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product = Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>OptionState</p></td>
-<td><p>Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui inclut les composants partagés qui interfèrent avec Outlook 2010:</p>
+<td><p>Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées lors de l’installation. Utilisez les attributs suivants pour empêcher l’installation de Business Connectivity Services, qui inclut les composants partagés qui interfèrent avec Outlook 2010 :</p>
 <ul>
 <li><p>ID =&quot;LOBiMain&quot;</p></li>
 <li><p>État =&quot;absent&quot;</p></li>
@@ -139,7 +141,7 @@ Des informations détaillées sur l’utilisation du fichier config. xml pour ef
 
 2.  Recherchez les lignes qui contiennent les éléments à modifier.
 
-3.  Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les séparateurs de commentaires, «\<\!--» et «--\>». Par exemple, utilisez la syntaxe suivante :
+3.  Modifiez l’entrée de l’élément avec les options automatisées que vous voulez utiliser. Veillez à supprimer les séparateurs de commentaires, «\<\!-- » et « --\>». Par exemple, utilisez la syntaxe suivante :
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration du routage géodépendant'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Location-Based Routing
 ms:assetid: 63cdc474-e80f-43b1-a237-9d9ed673300a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994036(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a682f6b550f982f929a83bc8c2f430e89b9452fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0e82ae8a0dd9961bfeb9d2a513cb77b0affb2c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838243"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838243"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-12_
+_**Dernière modification de la rubrique :** 2013-03-12_
 
 Lync Server 2013 CU1, le routage selon l’emplacement est une fonctionnalité de voix entreprise. Le routage basé sur l’emplacement est une fonctionnalité de gestion des appels qui contrôle le routage des appels par Lync Server 2013 CU1. Il applique des restrictions sur la façon dont les appels peuvent être routés vers des destinations PBX ou PSTN en fonction de l’emplacement de l’appelant Lync. Le routage basé sur l’emplacement applique des règles d’autorisation d’appel aux appels RTC en fonction de l’emplacement réseau de l’appelant. L’emplacement de l’appelant est déterminé en fonction du site réseau associé au sous-réseau sur lequel est connecté l’appelant. La configuration du routage par emplacement nécessite d’abord le déploiement de voix entreprise et la configuration des régions, sites et sous-réseaux réseau. Cela permet de configurer la Fondation pour l’activation du routage par emplacement.
 
@@ -41,7 +43,7 @@ Avant de déployer le routage basé sur l’emplacement, vous devez d’abord d�
 
 Cette section vous guide dans la configuration du routage basé sur l’emplacement à l’aide de l’exemple suivant.
 
-![Exemple de routage en fonction de l’emplacement voix entreprise] (images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Exemple de routage en fonction de l’emplacement voix entreprise")
+![Exemple de routage en fonction de l’emplacement voix entreprise](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Exemple de routage en fonction de l’emplacement voix entreprise")
 
   
 Le tableau suivant représente les utilisateurs définis dans cet exemple.

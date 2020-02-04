@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : (Facultatif) Accueil des utilisateurs dans les confé
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Welcome users to dial-in conferencing
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df3defde18a01ed09ac529ba9b289749f28c4cdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27abf5da520f1c5befd3a477783bc3f9ae67e1b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825813"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755658"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825813"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-30_
+_**Dernière modification de la rubrique :** 2012-09-30_
 
 Après avoir configuré les conférences rendez-vous et les tests pour vérifier qu’ils fonctionnent correctement, vous devez définir des codes confidentiels (pin) pour les utilisateurs et informer les utilisateurs de la disponibilité de la fonctionnalité, y compris des instructions d’introduction telles que comme code confidentiel initial et le lien vers la page Web des paramètres de conférence rendez-vous. Cette étape est facultative. En règle générale, vous utilisez l’applet de connexion **Set-CsClientPin** pour réinitialiser des épingles, mais vous pouvez utiliser la procédure décrite dans cette rubrique pour la première fois si vous voulez envoyer un message de bienvenue aux informations. Si vous ne souhaitez pas envoyer ce message, utilisez plutôt **Set-CsClientPin**.
 
@@ -47,7 +49,7 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
 
 1.  Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez la commande suivante dans l’invite de commandes :
     
@@ -71,16 +73,16 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
         Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
         -From "marco@contoso.com"
     
-    Cet exemple crée un nouveau code confidentiel, puis envoie un courrier de bienvenue de Marco à Bob. Il utilise le texte du message électronique enregistré dans le modèle par défaut et crée le message électronique au format HTML. Le sujet par défaut est «bienvenue dans la conférence téléphonique».
+    Cet exemple crée un nouveau code confidentiel, puis envoie un courrier de bienvenue de Marco à Bob. Il utilise le texte du message électronique enregistré dans le modèle par défaut et crée le message électronique au format HTML. Le sujet par défaut est « bienvenue dans la conférence téléphonique ».
     
-    Autre exemple:
+    Autre exemple :
     
         Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
         -From "marco@contoso.com" -Subject "Your new dial-in conferencing PIN"
         -Pin "383042650" -Force
         -Credential Admin@contoso.com -UseSsl
     
-    Cet exemple force un nouveau code secret dont la valeur est «383042650» pour Bob, même si Bob possédait un code confidentiel existant, puis envoie un courrier de bienvenue de Marco à Bob. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le message est envoyé à l’aide du protocole SSL (Secure Sockets Layer).
+    Cet exemple force un nouveau code secret dont la valeur est « 383042650 » pour Bob, même si Bob possédait un code confidentiel existant, puis envoie un courrier de bienvenue de Marco à Bob. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le message est envoyé à l’aide du protocole SSL (Secure Sockets Layer).
 
 </div>
 

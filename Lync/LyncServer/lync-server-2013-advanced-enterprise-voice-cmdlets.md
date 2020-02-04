@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets voix avancée entreprise'
+title: 'Lync Server 2013 : cmdlets voix avancée entreprise'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Advanced Enterprise Voice cmdlets
 ms:assetid: 247179fb-1c66-4edb-8401-1c1aad189062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183637
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbe524cafa29dedcde62229bece52144898cbf06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2eb83fe91f9c1f2cc0a79adc1232a051534e22e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34839028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34839028"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-04-12_
+_**Dernière modification de la rubrique :** 2016-04-12_
 
 Lorsque vous implémentez Enterprise Voice dans votre organisation, vous pouvez également implémenter des fonctionnalités et applications supplémentaires permettant d’améliorer l’efficacité de l’utilisateur et l’efficacité de votre organisation. Ces fonctionnalités incluent le contrôle d’admission des appels, les appels d’urgence 9-1-1 (E9-1-1) et les paramètres de configuration de média.
 
@@ -41,7 +43,7 @@ Lorsque vous implémentez Enterprise Voice dans votre organisation, vous pouvez 
 
 ## <a name="advanced-enterprise-voice-cmdlets"></a>Cmdlets voix entreprise avancées
 
-Les listes suivantes contiennent des applets de commande qui vous permettent de gérer les fonctionnalités avancées d’un déploiement voix entreprise:
+Les listes suivantes contiennent des applets de commande qui vous permettent de gérer les fonctionnalités avancées d’un déploiement voix entreprise :
 
 **[Applets de commande de contrôle d’admission des appels dans Lync Server 2013](lync-server-2013-call-admission-control-cmdlets.md)**
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Get-CsAddressBookConfiguration pour la gestion du carnet d’adresses'
+title: 'Lync Server 2013 : Get-CsAddressBookConfiguration pour la gestion du carnet d’adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsAddressBookConfiguration for Address Book management
 ms:assetid: bd62f916-caf3-4e10-ada4-631bbb331ef1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429721(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185264
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32cf7be49d38db8f0b5b520247830f65cac5a3c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30a9f29ee4842b11c503e913d1e80e97e2dab274
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831133"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831133"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsAddressBookConfiguration localement: RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
+Qui peut exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsAddressBookConfiguration localement : RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsAddressBookConfiguration"}
 
@@ -45,7 +47,7 @@ Par exemple :
 
     Get-CsAddressBookConfiguration -Identity site:Redmond
 
-Le regroupement de fonctionnalités de Get-CsAddressBookConfiguration et de Set-CsAddressBookConfiguration permet à l’administrateur de définir les configurations à modifier, puis d’appliquer les modifications. Par exemple, l’Association suivante:
+Le regroupement de fonctionnalités de Get-CsAddressBookConfiguration et de Set-CsAddressBookConfiguration permet à l’administrateur de définir les configurations à modifier, puis d’appliquer les modifications. Par exemple, l’Association suivante :
 
     Get-CsAddressBookConfiguration -Filter site:* | Set-CsAddressBookConfiguration -RunTimeOfDay 23:00
 

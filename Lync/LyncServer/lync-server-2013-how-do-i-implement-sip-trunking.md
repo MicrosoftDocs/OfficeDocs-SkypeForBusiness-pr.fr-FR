@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Implémentation d’une jonction SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How do I implement SIP trunking?
 ms:assetid: 273a22b1-8a4c-4187-acf8-c57d5c6598ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425743(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c14375f9e0b7f3a7615c11ddaca2bc6c46ec72f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de621d7508b69dd3adc3babf487406825f3a93f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831067"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831067"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-18_
+_**Dernière modification de la rubrique :** 2013-03-18_
 
 Pour implémenter le trunking SIP, vous devez Router la connexion à l’aide d’un serveur de médiation, qui fait office de proxy pour les sessions de communication entre les clients Lync Server 2013 et le fournisseur de service, et transcode le média, si nécessaire.
 
@@ -61,7 +63,7 @@ Pour plus d’informations sur les serveurs de médiation, voir [composant serve
 
 La jonction SIP distribuée n’est requise que dans les cas suivants :
 
-  - Le site de succursale nécessite une connectivité téléphonique plus Survivable (par exemple, si le réseau étendu monte en panne). Cette obligation doit être analysée pour chaque site de succursale; Il est possible que certaines de vos succursales nécessitent une redondance et un basculement, alors que d’autres ne le sont pas.
+  - Le site de succursale nécessite une connectivité téléphonique plus Survivable (par exemple, si le réseau étendu monte en panne). Cette obligation doit être analysée pour chaque site de succursale ; Il est possible que certaines de vos succursales nécessitent une redondance et un basculement, alors que d’autres ne le sont pas.
 
   - La résilience est requise entre deux sites centraux. Vous devez vous assurer qu’un Trunk SIP s’arrête sur chaque site central. Par exemple, si vous avez des sites centraux de Dublin et Tukwila et que vous utilisez uniquement le Trunk SIP d’un site, si le Trunk s’arrête, les utilisateurs du site ne peuvent pas passer d’appels RTC.
 
@@ -69,7 +71,7 @@ La jonction SIP distribuée n’est requise que dans les cas suivants :
 
 En fonction de l’emplacement géographique des sites et de la quantité de trafic que vous prévoyez au sein de votre entreprise, il est possible que vous ne souhaitiez pas acheminer tous les utilisateurs par le biais du réseau SIP central ou vous pouvez choisir de router des utilisateurs via une ligne SIP sur leur site de succursale. Pour vous aider à établir vos besoins, répondez aux questions suivantes :
 
-  - Quel est le niveau de chaque site (c’est-à-dire le nombre d’utilisateurs activés pour Enterprise Voice)?
+  - Quel est le niveau de chaque site (c’est-à-dire le nombre d’utilisateurs activés pour Enterprise Voice) ?
 
   - Quels numéros de Sélection directe à l’arrivée (SDA) reçoivent le plus grand nombre d’appels sur chaque site ?
 
@@ -91,7 +93,7 @@ La décision d’opter pour une jonction SIP centralisée ou distribuée doit ê
 
 ## <a name="supported-sip-trunking-connection-types"></a>Types de connexion de jonction SIP pris en charge
 
-Lync Server prend en charge les types de connexion suivants pour le trunking SIP:
+Lync Server prend en charge les types de connexion suivants pour le trunking SIP :
 
   - Le réseau privé MPLS (Multiprotocol Label Switching) dirige et transporte les données d’un nœud du réseau vers le suivant. La bande passante d’un réseau MPLS est partagée avec d’autres abonnés et un libellé est attribué à chaque paquet de données pour distinguer les données d’un abonné de celles d’un autre. Ce type de connexion ne requiert pas de réseau privé virtuel (VPN). Un des inconvénients possibles est que le trafic IP excessif peut interférer avec le trafic VoIP à moins qu’une priorité soit affectée au trafic VoIP.
 
@@ -139,7 +141,7 @@ Bande passante de jonction SIP maximale = Nbre max. d’appels simultanés (64 K
 
 ## <a name="codec-support"></a>Prise en charge de codec
 
-Lync Server 2013 ne prend en charge que les codecs suivants:
+Lync Server 2013 ne prend en charge que les codecs suivants :
 
   - G.711 a-law (utilisé principalement en dehors de l’Amérique du Nord)
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gérer la collecte d’appels de groupe lors de la récupération d’urgence'
+title: 'Lync Server 2013 : gérer la collecte d’appels de groupe lors de la récupération d’urgence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Group Call Pickup during disaster recovery
 ms:assetid: 2d32f19f-c649-4a72-a4fb-edd338e3a7cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945618(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bed21a672dfecab4c3cc8d828fd40f52bd82a363
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 45ebe93ebc1711f49d4578a2a5d908104ca2a411
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828361"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-30_
+_**Dernière modification de la rubrique :** 2013-01-30_
 
 Lorsqu’un pool frontal devient indisponible en raison d’un incident imprévu, le service n’a pas pu être placé sur le pool de sauvegarde. Pendant le basculement vers le pool de sauvegarde, les utilisateurs sont redirigés vers le pool de sauvegarde et sont en mode de résilience. Dans le mode de résilience, les utilisateurs ne peuvent pas capter les appels d’autres utilisateurs ou avoir leurs appels sélectionnés par d’autres utilisateurs. Lorsque le basculement est terminé, l’utilisateur peut à nouveau utiliser le prélèvement d’appel de groupe, comme d’habitude.
 
@@ -77,57 +79,57 @@ Le tableau suivant résume la fonction de découverte des appels de groupe lors 
 <tbody>
 <tr class="odd">
 <td><p>Nouveaux appels</p></td>
-<td><p><strong>Pendant le processus de basculement:</strong></p>
+<td><p><strong>Pendant le processus de basculement :</strong></p>
 <ul>
 <li><p>Le prélèvement d’appels de groupe n’est pas disponible pour les utilisateurs en mode de résilience</p></li>
 </ul>
-<p><strong>Après le basculement complet:</strong></p>
+<p><strong>Après le basculement complet :</strong></p>
 <ul>
 <li><p>Le choix d’appel de groupe est disponible lorsque les utilisateurs ont des plages de résilience et de groupe redirigées vers le pool de sauvegarde</p></li>
 </ul></td>
-<td><p><strong>Pendant le processus de restauration automatique:</strong></p>
+<td><p><strong>Pendant le processus de restauration automatique :</strong></p>
 <ul>
 <li><p>Le prélèvement d’appels de groupe n’est pas disponible pour les utilisateurs en mode de résilience</p></li>
 </ul>
-<p><strong>Après la restauration automatique:</strong></p>
+<p><strong>Après la restauration automatique :</strong></p>
 <ul>
 <li><p>Le prélèvement d’appel de groupe est disponible lorsque les utilisateurs ont des plages de résilience et de redirection des appels de groupe redirigés vers le pool principal</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Appels dans la file d’attente de cueillette des appels de groupe</p></td>
-<td><p><strong>Pendant le processus de basculement:</strong></p>
+<td><p><strong>Pendant le processus de basculement :</strong></p>
 <ul>
 <li><p>Les appels dans la file d’attente ne peuvent pas être traités par le biais du prélèvement d’appels de groupe.</p></li>
 </ul>
-<p><strong>Après le basculement complet:</strong></p>
+<p><strong>Après le basculement complet :</strong></p>
 <ul>
 <li><p>Aucun appel dans cet État</p></li>
 </ul></td>
-<td><p><strong>Pendant le processus de restauration automatique:</strong></p>
+<td><p><strong>Pendant le processus de restauration automatique :</strong></p>
 <ul>
 <li><p>Les appels dans la file d’attente ne peuvent pas être traités par le biais du prélèvement d’appels de groupe.</p></li>
 </ul>
-<p><strong>Après la restauration automatique:</strong></p>
+<p><strong>Après la restauration automatique :</strong></p>
 <ul>
 <li><p>Les appels dans la file d’attente ne peuvent pas être traités par le biais du prélèvement d’appels de groupe.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Appel établi</p></td>
-<td><p><strong>Pendant le processus de basculement:</strong></p>
+<td><p><strong>Pendant le processus de basculement :</strong></p>
 <ul>
 <li><p>Appels Restez connectés</p></li>
 </ul>
-<p><strong>Après le basculement complet:</strong></p>
+<p><strong>Après le basculement complet :</strong></p>
 <ul>
 <li><p>Appels Restez connectés</p></li>
 </ul></td>
-<td><p><strong>Pendant le processus de restauration automatique:</strong></p>
+<td><p><strong>Pendant le processus de restauration automatique :</strong></p>
 <ul>
 <li><p>Appels Restez connectés</p></li>
 </ul>
-<p><strong>Après la restauration automatique:</strong></p>
+<p><strong>Après la restauration automatique :</strong></p>
 <ul>
 <li><p>Appels Restez connectés</p></li>
 </ul></td>

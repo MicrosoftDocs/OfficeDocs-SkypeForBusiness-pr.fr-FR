@@ -3,6 +3,8 @@ title: Afficher des applications de serveur MSPL (Microsoft SIP Processing Langu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Microsoft SIP Processing Language (MSPL) server applications
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182575(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2a8aea4b412d2d744c42d659d2414a93c8435e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63c1ce638e6bc9509c8faf46b39989b366f610a0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846295"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34846295"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-09-26_
+_**Dernière modification de la rubrique :** 2014-09-26_
 
 Une application serveur Microsoft SIP Processing Language (MSPL) est une application de script uniquement qui utilise un langage de script au lieu de l’API 2010 Microsoft Lync. MSPL fournit un contrôle plus précis sur le filtrage et les comportements de proxy, en plus d’une installation permettant de distribuer des messages spécifiques aux applications SIP en fonction des transactions. Le MSPL est utilisé spécifiquement pour filtrer et acheminer les messages SIP. Les applications MSPL s’exécutent dans le même processus que le module UserServices, tandis qu’un programme basé sur l’API 2010 Lync s’exécute dans un processus distinct.
 
 Vous pouvez utiliser la page de l' **application serveur** dans le groupe **topologie** du panneau de configuration de Lync Server pour afficher une liste des applications serveur MSPL qui s’exécutent sur des serveurs frontaux dans votre environnement Lync Server 2013. La liste affiche les scripts disponibles pour chaque liste, ainsi que leur activation ou leur importance critique. Les scripts s’exécutent dans l’ordre dans lequel ils apparaissent.
 
-Ces scripts incluent les éléments suivants:
+Ces scripts incluent les éléments suivants :
 
   - ClientVersionFilter fournit à l’administrateur un moyen de spécifier la version des clients pris en charge par un pool. Le filtre de version du client vérifie la version du client et peut soit empêcher le client de se connecter, soit en présenter un message indiquant qu’il utilise un client qui n’est pas pris en charge. Le filtre de version du client peut également être configuré pour afficher un message destiné à l’utilisateur, qui contient l’URL de la version téléchargeable la plus récente du client.
 
@@ -67,7 +69,7 @@ Ces scripts incluent les éléments suivants:
 
   - Les proxys AcpRouting invitent les demandes destinées au fournisseur de services d’audioconférence à la passerelle du fournisseur de services d’audioconférence.
 
-Les scripts qui s’exécutent sur des serveurs Edge incluent les éléments suivants:
+Les scripts qui s’exécutent sur des serveurs Edge incluent les éléments suivants :
 
   - IIMFilter
 

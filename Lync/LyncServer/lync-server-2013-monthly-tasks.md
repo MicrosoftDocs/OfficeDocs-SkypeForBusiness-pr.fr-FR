@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: tâches mensuelles'
+title: 'Lync Server 2013 : tâches mensuelles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monthly tasks
 ms:assetid: d991f894-f15b-4596-b305-a08a2f6aa296
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720350(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d16ce3a1ce85e8527ee10d4fb45b4d9a66121b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826618"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826618"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-18_
+_**Dernière modification de la rubrique :** 2014-08-18_
 
 Les tâches mensuelles visent à garantir l’intégrité du système à long terme.
 
@@ -41,7 +43,7 @@ Les tâches mensuelles visent à garantir l’intégrité du système à long te
 
 ## <a name="in-this-section"></a>Dans cette section
 
-Les tâches suivantes doivent être effectuées sur une base mensuelle:
+Les tâches suivantes doivent être effectuées sur une base mensuelle :
 
   - [Afficher l’état des paramètres globaux pour une forêt dans Lync Server 2013](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 

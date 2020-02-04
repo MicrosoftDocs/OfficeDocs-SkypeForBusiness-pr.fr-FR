@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : tblComplianceData'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblComplianceData
 ms:assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 044a57645a8c49ea74ec4e003f9e12720d0b2268
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 48516f307a084d30fde06a03548119e0ada34d6a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846689"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846689"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 tblComplianceData contient les événements de conformité qui n’ont pas encore été traités par la carte de conformité.
 
@@ -66,15 +68,15 @@ tblComplianceData contient les événements de conformité qui n’ont pas encor
 <tr class="odd">
 <td><p>cmplType</p></td>
 <td><p>ent, non null</p></td>
-<td><p>Type d’événement de conformité:</p>
+<td><p>Type d’événement de conformité :</p>
 <ul>
-<li><p>1: conversation</p></li>
-<li><p>2: discussions</p></li>
-<li><p>3: Téléchargement de fichier</p></li>
-<li><p>4: Téléchargement de fichier</p></li>
-<li><p>9: transfert de fichier provisoire</p></li>
-<li><p>10: suppression d’une discussion (avec remplacer)</p></li>
-<li><p>11: suppression de conversation</p></li>
+<li><p>1 : conversation</p></li>
+<li><p>2 : discussions</p></li>
+<li><p>3 : Téléchargement de fichier</p></li>
+<li><p>4 : Téléchargement de fichier</p></li>
+<li><p>9 : transfert de fichier provisoire</p></li>
+<li><p>10 : suppression d’une discussion (avec remplacer)</p></li>
+<li><p>11 : suppression de conversation</p></li>
 </ul></td>
 </tr>
 <tr class="even">

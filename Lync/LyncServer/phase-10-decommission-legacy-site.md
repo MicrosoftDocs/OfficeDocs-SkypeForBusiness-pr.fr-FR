@@ -1,8 +1,10 @@
 ---
-title: 'Étape 10: désaffecter le site hérité'
+title: 'Étape 10 : désaffecter le site hérité'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 10: Decommission legacy site'
 ms:assetid: d591a310-3b5c-4092-b19e-0349616e40df
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205300(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a04054c158f1c97f5090328e1277dcdb63b1d823
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8110d41e5f6436bfdbecc64fe07d514b5d0538ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846124"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34846124"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-10-decommission-legacy-site"></a>Étape 10: désaffecter le site hérité
+# <a name="phase-10-decommission-legacy-site"></a>Étape 10 : désaffecter le site hérité
 
 </div>
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846124"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-16_
+_**Dernière modification de la rubrique :** 2012-10-16_
 
 Les rubriques suivantes fournissent des recommandations en matière de mise en service de pools, et de désactivation et de suppression de serveurs et de pools à partir d’un déploiement hérité d’Office Communications Server 2007 R2. Toutes les procédures indiquées dans cette section ne sont pas obligatoires. Lisez les informations contenues dans ces rubriques pour déterminer la procédure de désactivation à utiliser.
 

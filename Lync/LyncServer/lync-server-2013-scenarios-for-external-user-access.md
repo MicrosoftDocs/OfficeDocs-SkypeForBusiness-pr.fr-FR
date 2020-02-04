@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Scénarios d’accès des utilisateurs externes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for external user access
 ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eab8323744615dc3f5d0b68f4325fbfb85bf911e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822327"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822327"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Si vous fournissez un accès utilisateur externe pour Lync Server 2013, vous devez déployer au moins un serveur Edge et un proxy inverse dans votre réseau de périmètre. Le cas échéant, vous pouvez déployer un réalisateur ou un pool de réalisateurs dans votre réseau interne.
 
@@ -43,9 +45,9 @@ Cette section définit les scénarios pour les déploiements de serveurs de pér
 
 **Processus de sélection de scénario de déploiement de serveur Edge**
 
-![Exemple de diagramme de flux de déploiement] (images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Exemple de diagramme de flux de déploiement")
+![Exemple d’organigramme de déploiement](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Exemple d’organigramme de déploiement")
 
-En utilisant ce processus, vous pouvez planifier la configuration de toutes les fonctionnalités potentielles que vous envisagez de déployer pour vos utilisateurs. Toutefois, vous pouvez ajouter des services de Fédération et de mobilité après avoir déployé le serveur de périphérie et avoir confirmé l’opération correcte avant d’ajouter d’autres fonctionnalités. Le processus d’ajout de fonctionnalités à un déploiement de serveur Edge existant est abordé dans la section déploiement. Pour plus d’informations sur le déploiement, reportez-vous à la section déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en incluant la planification de ces fonctionnalités lors du processus de planification initial. ce qui vous permet d’acquérir les certificats et de configurer les exigences DNS et de port/protocole à l’avance.
+En utilisant ce processus, vous pouvez planifier la configuration de toutes les fonctionnalités potentielles que vous envisagez de déployer pour vos utilisateurs. Toutefois, vous pouvez ajouter des services de Fédération et de mobilité après avoir déployé le serveur de périphérie et avoir confirmé l’opération correcte avant d’ajouter d’autres fonctionnalités. Le processus d’ajout de fonctionnalités à un déploiement de serveur Edge existant est abordé dans la section déploiement. Pour plus d’informations sur le déploiement, reportez-vous à la rubrique déploiement d’un [accès utilisateur externe dans Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en incluant la planification de ces fonctionnalités au cours du processus de planification initial, vous pouvez préparer les exigences de DNS, de pare-feu et de certificat pour les fonctionnalités ajoutées, qui vous permettent d’acquérir les certificats et de configurer les exigences relatives au DNS et au port/
 
 <div>
 
@@ -61,7 +63,7 @@ En utilisant ce processus, vous pouvez planifier la configuration de toutes les 
 
 
 > [!NOTE]  
-> Tous les services Edge s’exécutent sur chaque serveur Edge. Les services ne peuvent pas être partagés entre deux serveurs d’arête différents. Si vous déployez un pool de périphérie pour une extensibilité, tous les services Edge sont déployés sur chaque serveur Edge du pool. XMPP Federation, Office Communications Server et Lync Server Federation, la connectivité de messagerie instantanée publique et la mobilité du client sont des services supplémentaires qui peuvent être déployés après le déploiement de votre premier serveur Edge ou pool d’arêtes. Les services de mobilité sont une fonctionnalité qui utilise le proxy inverse. L’installation des services de mobilité n’ajoute pas de fonctionnalités à vos serveurs Edge, mais nécessite une reconfiguration de votre proxy inverse. La colonne objectif de l' <STRONG>installation</STRONG> qui répertorie ces fonctionnalités fournit des recommandations en matière de planification dans la colonne associée sous la <STRONG>section planification du serveur de périphérie</STRONG> pour planifier les fonctionnalités en cours de déploiement lorsque les serveurs Edge sont installés et configurés.
+> Tous les services Edge s’exécutent sur chaque serveur Edge. Les services ne peuvent pas être partagés entre deux serveurs d’arête différents. Si vous déployez un pool de périphérie pour une extensibilité, tous les services Edge sont déployés sur chaque serveur Edge du pool. XMPP Federation, Office Communications Server et Lync Server Federation, la connectivité de messagerie instantanée publique et la mobilité du client sont des services supplémentaires qui peuvent être déployés après le déploiement de votre premier serveur Edge ou pool d’arêtes. Les services de mobilité sont une fonctionnalité qui utilise le proxy inverse. L’installation des services de mobilité n’ajoute pas de fonctionnalités à vos serveurs Edge, mais nécessite une reconfiguration de votre proxy inverse. La colonne objectif de l' <STRONG>installation</STRONG> qui répertorie ces fonctionnalités fournit des recommandations en matière de planification dans la colonne associée sous la <STRONG>section planification du serveur de périmètre</STRONG> pour vous permettre de planifier les fonctionnalités en cours de déploiement lorsque les serveurs de périphérie sont installés et configurés.
 
 
 

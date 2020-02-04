@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble du contrôle d’admission des appels'
+title: 'Lync Server 2013 : vue d’ensemble du contrôle d’admission des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of call admission control
 ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cba1a83ce64fa575cf5de724d5dd215fcb459c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b38fbb1ae1e209e5b5332e896d806d1ca24975
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825841"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34825841"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-22_
+_**Dernière modification de la rubrique :** 2012-09-22_
 
-Les communications en temps réel sont sensibles à la latence et à la perte de paquets qui peuvent se produire sur des réseaux encombrés. Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies. La conception CAC de Lync Server 2013 propose quatre attributs principaux:
+Les communications en temps réel sont sensibles à la latence et à la perte de paquets qui peuvent se produire sur des réseaux encombrés. Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies. La conception CAC de Lync Server 2013 propose quatre attributs principaux :
 
   - Le contrôle d’admission des appels est simple à déployer et à gérer sans recours à un équipement supplémentaire, tel que des routeurs configurés spécialement.
 
@@ -109,7 +111,7 @@ Le contrôle d’admission des appels n’est pas appliqué aux utilisateurs dis
 
 ## <a name="call-admission-control-of-pstn-connections"></a>Contrôle d’admission des appels des connexions RTC
 
-Le contrôle d’admission des appels est applicable sur le serveur de médiation, qu’il s’agisse d’un réseau IP/PBX, d’une passerelle PSTN ou d’une connexion SIP. Dans la mesure où le serveur de médiation est un agent utilisateur dorsal (B2BUA), il arrête le média. Il a deux côtés de connexion: le côté connecté à Lync Server et un côté passerelle, qui est connecté à des passerelles RTC, des PBX IP/PBX ou des lignes SIP. Pour plus d’informations sur les connexions RTC, voir [planification de la connectivité PSTN dans Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md).
+Le contrôle d’admission des appels est applicable sur le serveur de médiation, qu’il s’agisse d’un réseau IP/PBX, d’une passerelle PSTN ou d’une connexion SIP. Dans la mesure où le serveur de médiation est un agent utilisateur dorsal (B2BUA), il arrête le média. Il a deux côtés de connexion : le côté connecté à Lync Server et un côté passerelle, qui est connecté à des passerelles RTC, des PBX IP/PBX ou des lignes SIP. Pour plus d’informations sur les connexions RTC, voir [planification de la connectivité PSTN dans Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md).
 
 Le CAC peut être appliqué sur les deux côtés du serveur de médiation, sauf si la dérivation multimédia est activée. Si l’option de contournement du contenu multimédia est activée, le trafic multimédia ne traverse pas le serveur de médiation mais est transmis directement entre le client et la passerelle Lync. Dans ce cas, le contrôle d’admission des appels n’est pas nécessaire. Pour plus d’informations, reportez-vous à la section [planification de la dérivation multimédia dans Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
 
@@ -117,7 +119,7 @@ La figure suivante illustre la façon dont le contrôle d’admission des appels
 
 **Application du contrôle d’admission des appels sur des connexions RTC**
 
-![Application de la connexion par contournement du support CAC] (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Application de la connexion par contournement du support CAC")
+![Application de connexion de contournement de média CAC vocal](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Application de connexion de contournement de média CAC vocal")
 
 </div>
 
@@ -131,7 +133,7 @@ Le contrôle d’admission des appels ne peut pas être activé sur des points d
 
 **Application de CAC sur différentes versions de Lync Server**
 
-![Diagramme de comparaison de version CAC] (images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Diagramme de comparaison de version CAC")
+![Diagramme de comparaison de version CAC](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Diagramme de comparaison de version CAC")
 
 </div>
 

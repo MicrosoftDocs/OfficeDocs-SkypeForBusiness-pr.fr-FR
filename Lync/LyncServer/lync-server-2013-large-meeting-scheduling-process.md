@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: processus de planification de grande réunion'
+title: 'Lync Server 2013 : processus de planification de grande réunion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Large-meeting scheduling process
 ms:assetid: de267458-885f-4176-a8d7-1a218e67640e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185639
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af97cdbd07603c420780a92fbbe0a03c8a4d0520
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2cfe26b70db612249ca840c86b41fb3d60db663
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830946"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34830946"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Étant donné qu’une seule grande réunion à la fois est prise en charge sur le pool de réunions important, nous vous recommandons d’implémenter un processus de planification de réunion volumineux pour éviter les conflits de réunion importants. L’objectif du processus de planification consiste à faciliter la configuration des réunions de grande envergure. Cette fonctionnalité n’est pas fournie directement par les clients Lync Server ou Lync Server. Le recours au le système de tickets du support de votre organisation, le cas échéant, est l’une des méthodes disponibles pour mettre en œuvre cette procédure.
 
-Pour les organisateurs de réunion de grande taille, la planification d’une réunion importante implique les étapes suivantes:
+Pour les organisateurs de réunion de grande taille, la planification d’une réunion importante implique les étapes suivantes :
 
 1.  Outre la liste de présentateurs, l’organisateur de réunion ou le délégué détermine l’heure, la durée et la taille d’une prochaine réunion. Si la taille de réunion prévue dépasse 250 utilisateurs ou pour garantir la meilleure expérience pour une réunion de moins de 250 utilisateurs, l’organisateur ou le délégué envoie une demande pour une grande réunion.
 
@@ -49,7 +51,7 @@ Pour les organisateurs de réunion de grande taille, la planification d’une r�
     
     La figure suivante illustre un flux de travail de demande et d’approbation standard pour planifier des réunions de grande taille.
     
-    ![5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d] (images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d")  
+    ![5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d](images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d")  
 
 </div>
 

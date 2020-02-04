@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des stratégies de contrôle d’accès
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control federated user access
 ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184180
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fb009561c36395ee31a49986f2db0103cbe096b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e1aeb1b29637fd3f4a8add770470069e8b4a6eb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838347"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838347"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-05_
+_**Dernière modification de la rubrique :** 2014-02-05_
 
-Lorsque vous configurez des stratégies pour prendre en charge les communications avec les partenaires fédérés, les stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs de domaines fédérés peuvent collaborer avec vos utilisateurs de Lync Server 2013. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies aux niveaux global, site et utilisateur. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit: la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
+Lorsque vous configurez des stratégies pour prendre en charge les communications avec les partenaires fédérés, les stratégies s’appliquent aux utilisateurs des domaines fédérés. Vous pouvez configurer une ou plusieurs stratégies d’accès des utilisateurs externes pour contrôler si les utilisateurs de domaines fédérés peuvent collaborer avec vos utilisateurs de Lync Server 2013. Pour contrôler l’accès des utilisateurs fédérés, vous pouvez configurer des stratégies aux niveaux global, site et utilisateur. Les paramètres de stratégie Lync Server appliqués à un niveau de stratégie peuvent remplacer les paramètres appliqués à un autre niveau de stratégie. Le niveau de priorité de la stratégie de serveur Lync est défini comme suit : la stratégie d’utilisateur (la plus influence) a pour effet de remplacer une stratégie de site, puis une stratégie de site remplace une stratégie globale (moins l’influence). Cela signifie que le paramètre de stratégie est plus proche de l’objet affecté par la stratégie, plus l’influence sur l’objet.
 
 <div>
 
@@ -57,7 +59,7 @@ Lorsque vous configurez des stratégies pour prendre en charge les communication
 
 3.  Dans la barre de navigation de gauche, cliquez sur **accès utilisateur externe**, puis sur **stratégie d’accès externe**.
 
-4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes:
+4.  Dans la page de **stratégie d’accès externe** , effectuez l’une des opérations suivantes :
     
       - Pour configurer la stratégie globale de manière à prendre en charge l’accès des utilisateurs fédérés, cliquez sur la stratégie globale, cliquez sur **modifier**, puis sur **afficher les détails**.
     
@@ -89,13 +91,13 @@ S’il s’agit d’une stratégie de l’utilisateur, vous devez également app
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Dans Lync Server Management Shell, tapez ce qui suit:
+3.  Dans Lync Server Management Shell, tapez ce qui suit :
     
         Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    Un exemple de commande qui définit la stratégie globale pour l’accès utilisateur fédéré à activé, l’accès au domaine de XMPP à activé, l’accès des utilisateurs distants à activé, l’accès du fournisseur public à activé, et autorise l’utilisation de l’audio et de la vidéo pour les fournisseurs publics qui le prennent en charge:
+    Un exemple de commande qui définit la stratégie globale pour l’accès utilisateur fédéré à activé, l’accès au domaine de XMPP à activé, l’accès des utilisateurs distants à activé, l’accès du fournisseur public à activé, et autorise l’utilisation de l’audio et de la vidéo pour les fournisseurs publics qui le prennent en charge :
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     
@@ -103,7 +105,7 @@ S’il s’agit d’une stratégie de l’utilisateur, vous devez également app
     
 
     > [!TIP]  
-    > Le paramètre «EnablePublicCloudAudioVideoAccess» ne possède pas de sélection correspondante dans le panneau de configuration de Lync Server
+    > Le paramètre « EnablePublicCloudAudioVideoAccess » ne possède pas de sélection correspondante dans le panneau de configuration de Lync Server
 
     
     </div>
@@ -116,13 +118,13 @@ S’il s’agit d’une stratégie de l’utilisateur, vous devez également app
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou doté de droits d’utilisateur équivalents), ou affectées au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur dans votre déploiement interne.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
-3.  Dans Lync Server Management Shell, tapez ce qui suit:
+3.  Dans Lync Server Management Shell, tapez ce qui suit :
     
         New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     
-    Exemple de création d’une nouvelle stratégie de site:
+    Exemple de création d’une nouvelle stratégie de site :
     
         New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
 
@@ -138,15 +140,15 @@ S’il s’agit d’une stratégie de l’utilisateur, vous devez également app
     
         Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy> 
     
-    Voici un exemple de réinitialisation de la stratégie globale (la stratégie globale peut uniquement avoir supprimé son paramètre. La stratégie ne peut pas être supprimée):
+    Voici un exemple de réinitialisation de la stratégie globale (la stratégie globale peut uniquement avoir supprimé son paramètre. La stratégie ne peut pas être supprimée) :
     
         Remove-CsExternalAccessPolicy -Identity global 
     
-    Pour supprimer une stratégie de site, tapez:
+    Pour supprimer une stratégie de site, tapez :
     
         Remove-CsExternalAccessPolicy -Identity site:Redmond 
     
-    Supprime la stratégie de site Redmond. Pour supprimer une stratégie d’utilisateur nommée UserEAPPolicy, tapez:
+    Supprime la stratégie de site Redmond. Pour supprimer une stratégie d’utilisateur nommée UserEAPPolicy, tapez :
     
         Remove-CsExternalAccessPolicy -Identity UserEAPPolicy
 

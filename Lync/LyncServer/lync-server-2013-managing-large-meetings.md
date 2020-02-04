@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion de grandes réunions'
+title: 'Lync Server 2013 : gestion de grandes réunions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing large meetings
 ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205177(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c27057f6b8c29078231deedb5fe4492965e89bec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eb8a83edc6dc049d5c333a2c1b4bec19f60afd45
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827962"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827962"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Après avoir configuré un pool dédié pour les conférences de grande envergure, vous pouvez prendre des mesures pour vous assurer que les grandes réunions hébergées dans le pool fournissent la meilleure utilisation de l’utilisateur. Les rubriques de cette section fournissent des détails sur la façon d’organiser et de gérer des réunions de grande envergure.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Fonctionnalités de résistance de site de succursale
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency features
 ms:assetid: 8e3feda5-9a38-4e3c-b808-af29f19c5eb9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398715(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e452dc297a79525b587d13aa58ed1e1270d41aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a490de36322914235346cbc141784aab2c24f2ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838737"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838737"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-02-10_
+_**Dernière modification de la rubrique :** 2014-02-10_
 
 Si vous fournissez la résistance des sites de succursale et que la connexion de réseau étendu d’un site de succursale à un site central échoue si ce dernier est inaccessible, les fonctionnalités vocales suivantes seront encore disponibles :
 
@@ -58,7 +60,7 @@ Si vous fournissez la résistance des sites de succursale et que la connexion de
 
   - Authentification et autorisations des utilisateurs
 
-Les fonctionnalités suivantes ne seront disponibles que si votre solution de résilience est un déploiement de Lync Server à une échelle complète sur le site de la succursale:
+Les fonctionnalités suivantes ne seront disponibles que si votre solution de résilience est un déploiement de Lync Server à une échelle complète sur le site de la succursale :
 
   - Messagerie instantanée, conférence A/V et web
 

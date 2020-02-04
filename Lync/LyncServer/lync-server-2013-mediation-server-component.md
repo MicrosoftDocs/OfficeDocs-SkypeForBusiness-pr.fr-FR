@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: composant du serveur de médiation'
+title: 'Lync Server 2013 : composant du serveur de médiation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mediation Server component
 ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 363b277003d7ca1581475ec7c1197bb0f60ccfaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827227"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766075"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827227"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-21_
+_**Dernière modification de la rubrique :** 2012-09-21_
 
 Si vous déployez la charge de travail voix entreprise, vous devez déployer Lync Server 2013, serveur de médiation. Cette section décrit les fonctionnalités de base, les dépendances, les topologies de base et les recommandations en matière de planification.
 
@@ -45,7 +47,7 @@ Le serveur de médiation est colocalisé par défaut avec le serveur frontal. Le
 
 Si vous déployez des connexions SIP directes vers une passerelle RTC qualifiée qui prend en charge le contournement du contenu multimédia et l’équilibrage de charge DNS, vous n’avez pas besoin d’un pool de serveurs de médiation autonome. Il n’est pas nécessaire de disposer d’un pool de serveurs de médiation autonomes, car les passerelles qualifiées sont en mesure d’équilibrer la charge DNS vers un pool de serveurs de médiation et ils peuvent recevoir le trafic de n’importe quel serveur de médiation dans un pool.
 
-Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie:
+Nous vous recommandons également de collocate le serveur de médiation sur un pool frontal lorsque vous avez déployé des PBX IP ou de vous connecter à un contrôleur de bordure de session du fournisseur de téléphonie Internet (SBC), à condition que l’une des conditions suivantes soit remplie :
 
   - Le PBX IP ou le SBC est configuré pour recevoir le trafic de n’importe quel serveur de médiation dans le pool et peut acheminer le trafic uniformément vers tous les serveurs de médiation du pool.
 
@@ -53,7 +55,7 @@ Nous vous recommandons également de collocate le serveur de médiation sur un p
 
 Vous pouvez utiliser l’outil de planification de Microsoft Lync Server 2013 pour déterminer si le pool frontal sur lequel vous souhaitez collocate le serveur de médiation peut gérer le chargement. Si votre environnement ne peut pas répondre à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
 
-Les principales fonctions du serveur de médiation sont les suivantes:
+Les principales fonctions du serveur de médiation sont les suivantes :
 
   - Le chiffrement et le déchiffrement de SRTP du côté serveur Lync
 
@@ -71,7 +73,7 @@ La figure suivante illustre les protocoles de signalisation et de média utilis�
 
 **Protocoles de signalisation et de données multimédias utilisés par le serveur de médiation**
 
-![Diagramme des protocoles du serveur de médiation] (images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagramme des protocoles du serveur de médiation")
+![Diagramme de protocoles de serveur de médiation](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagramme de protocoles de serveur de médiation")
 
 <div>
 
@@ -87,7 +89,7 @@ La figure suivante illustre les protocoles de signalisation et de média utilis�
 
 ## <a name="in-this-section"></a>Dans cette section
 
-  - [M:N Trunk dans Lync Server 2013](lync-server-2013-m-n-trunk.md)
+  - [M :N Trunk dans Lync Server 2013](lync-server-2013-m-n-trunk.md)
 
   - [Contrôle d’admission des appels et serveur de médiation dans Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)
 

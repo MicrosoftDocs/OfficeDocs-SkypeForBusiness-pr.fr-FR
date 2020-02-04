@@ -3,6 +3,8 @@ title: Prise en charge du matériel de périphérique dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device hardware support
 ms:assetid: ba07ca91-32b4-49cf-801c-47a2d1d96e18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da92e5f8d37ae5112ccea2d2b33f7f2b0186dfcf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea720eda982ab20333e56de268085a706ab2cdc7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831434"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831434"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-12-14_
+_**Dernière modification de la rubrique :** 2012-12-14_
 
 Des configurations matérielles spécifiques doivent être en place avant le déploiement de téléphones IP et d’appareils analogiques.
 
@@ -41,7 +43,7 @@ Sur les téléphones IP exécutant Lync Phone Edition, le protocole de découver
 
 Pour activer LLDP-MED, l’administrateur doit activer LLDP en utilisant la fenêtre console de basculement et définir la stratégie réseau LLDP-MED avec l’ID VLAN valide.
 
-De plus, si votre déploiement inclut des appareils analogiques, vous devez configurer la passerelle analogique pour utiliser Lync Server et la passerelle doit être l’un des éléments suivants:
+De plus, si votre déploiement inclut des appareils analogiques, vous devez configurer la passerelle analogique pour utiliser Lync Server et la passerelle doit être l’un des éléments suivants :
 
   - Un adaptateur de téléphone analogique (ATA)
 
@@ -51,7 +53,7 @@ De plus, si votre déploiement inclut des appareils analogiques, vous devez conf
 
   - Une unité de branchement Survivable qui inclut une passerelle RTC qui communique avec un disque ATA
 
-Pour plus d’informations sur la configuration d’une passerelle analogique, voir la section «planification de [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) déploiement de périphériques analogiques» dans la bibliothèque TechNet de Lync Server 2010. (Les appareils analogiques fonctionnent de la même manière dans Lync Server 2013 que dans Lync Server 2010.)
+Pour plus d’informations sur la configuration d’une passerelle analogique, voir la section « planification de [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) déploiement de périphériques analogiques » dans la bibliothèque TechNet de Lync Server 2010. (Les appareils analogiques fonctionnent de la même manière dans Lync Server 2013 que dans Lync Server 2010.)
 
 <div>
 

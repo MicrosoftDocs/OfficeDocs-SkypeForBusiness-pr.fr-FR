@@ -3,6 +3,8 @@ title: Rôles serveur Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server roles
 ms:assetid: 7137fc06-fca2-4e5f-9db5-10c7c29a788c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398536(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35b8c5b052defcdc1d60ef9900c283f9f50b3809
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b22115bf137c388fd6cd15103ac882056affa4f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822222"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822222"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 Chaque serveur exécutant Lync Server exécute un ou plusieurs *rôles serveur*. Un rôle serveur est un ensemble défini de fonctionnalités de Lync Server fournies par ce serveur. Vous n’avez pas besoin de déployer tous les rôles de serveur disponibles dans votre réseau. Installez seulement ceux qui contiennent la fonctionnalité voulue.
 
-Même si vous n’êtes pas familiarisé avec les rôles de serveur dans Lync Server, l’outil de planification peut vous guider vers la solution la plus adaptée aux serveurs que vous devez déployer, en fonction des fonctionnalités que vous souhaitez. Cette section fournit une vue d’ensemble des rôles de serveur et des fonctionnalités générales qu’ils fournissent:
+Même si vous n’êtes pas familiarisé avec les rôles de serveur dans Lync Server, l’outil de planification peut vous guider vers la solution la plus adaptée aux serveurs que vous devez déployer, en fonction des fonctionnalités que vous souhaitez. Cette section fournit une vue d’ensemble des rôles de serveur et des fonctionnalités générales qu’ils fournissent :
 
   - Serveur Standard Edition
 
@@ -77,7 +79,7 @@ Dans Lync Server Enterprise Edition, le serveur frontal est le rôle serveur pri
 
 Un *pool frontal* est un ensemble de serveurs frontaux configurés de façon identique, ce qui collabore pour fournir des services à un groupe d’utilisateurs communs. Un pool de plusieurs serveurs exécutant le même rôle fournit l’extensibilité et la fonction de basculement.
 
-Le serveur frontal inclut les éléments suivants:
+Le serveur frontal inclut les éléments suivants :
 
   - Authentification et inscription des utilisateurs
 
@@ -133,9 +135,9 @@ Edge Server permet à vos utilisateurs de communiquer et de collaborer avec des 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+> <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
 > <LI>
-> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+> <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
 > <LI>
 > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 

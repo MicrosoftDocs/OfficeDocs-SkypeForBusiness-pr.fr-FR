@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une plage de stationnement d’appel'
+title: 'Lync Server 2013 : création ou modification d’une plage de stationnement d’appel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a Call Park orbit range
 ms:assetid: 549ec118-eee5-4333-9416-80929ec057e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398361(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04f759c0bb5c33991c961dbe4a2790c50df1f098
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf215caacd0e380a14429bd2d34791048878fc96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831819"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831819"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l’une des procédures ci-dessous.
 
@@ -78,7 +80,7 @@ Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l�
     > <LI>
     > <P>Si la plage d’orbites commence par le caractère * ou #, la plage doit être supérieure à 100.</P>
     > <LI>
-    > <P>Valeurs valides: doit correspondre à la chaîne\*d’expression régulière 1-9] \d{0,7}) | ([1-9] \d{0,8}). Par conséquent, chaque valeur doit être une chaîne commençant par le caractère * ou # ou par un nombre compris entre 1 et 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est * ou #, le caractère qui suit doit être un nombre compris entre 1 et 9 (pas zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9 (par exemple, "#6000", "*92000", "* 95551212" et "915551212"). Si le premier caractère n’est pas * ou #, il doit être un nombre de 1 à 9 (pas de zéro) suivi de huit caractères maximum, chacun étant un nombre de 0 à 9 (par exemple : « 915551212 », « 41212 », « 300 »).</P>
+    > <P>Valeurs valides : doit correspondre à la chaîne\*d’expression régulière 1-9] \d{0,7}) | ([1-9] \d{0,8}). Par conséquent, chaque valeur doit être une chaîne commençant par le caractère * ou # ou par un nombre compris entre 1 et 9 (le premier caractère ne peut pas être zéro). Si le premier caractère est * ou #, le caractère qui suit doit être un nombre compris entre 1 et 9 (pas zéro). Les caractères suivants peuvent être n’importe quelle valeur comprise entre 0 et 9 (par exemple, "#6000", "*92000", "* 95551212" et "915551212"). Si le premier caractère n’est pas * ou #, il doit être un nombre de 1 à 9 (pas de zéro) suivi de huit caractères maximum, chacun étant un nombre de 0 à 9 (par exemple : « 915551212 », « 41212 », « 300 »).</P>
     > <LI>
     > <P>Il ne doit pas y avoir plus de 50 000 orbites par pool. Chaque plage d’orbites comporte en général un maximum de 100 orbites. Mais les plages peuvent comporter jusqu’à 10 000 orbites. Par exemple, au lieu de spécifier « 7 000 000 » comme numéro de début et « 8 000 000 » comme numéro de fin, spécifiez « 7 000 000 » comme numéro de début et « 7 000 100 » comme numéro de fin.</P></LI></UL>
 
@@ -97,7 +99,7 @@ Pour créer ou modifier une plage d’orbites de parcage d’appel, utilisez l�
 
 1.  Ouvrez une session sur l’ordinateur sur lequel Lync Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans la rubrique [autorisations de configuration du délégué dans Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Utilisez **New-CsCallParkOrbit** pour créer une plage de numéros d’orbite. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros d’orbite.
     

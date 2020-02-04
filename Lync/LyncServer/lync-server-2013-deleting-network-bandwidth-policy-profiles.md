@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: suppression des profils de stratégie de bande passante réseau'
+title: 'Lync Server 2013 : suppression des profils de stratégie de bande passante réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting network bandwidth policy profiles
 ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688050(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c33f781e8818dbefa3dc37b3f17c789099e6add
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2d01bdea6efb632d95a15c631715e9ebe0c9a3bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831581"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831581"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Dans le cadre du contrôle d’admission des appels (CAC), une stratégie de bande passante est utilisée pour définir des limitations de bande passante pour certaines modalités. Dans Microsoft Lync Server 2013, seules les modalités d’audio et de vidéo peuvent être affectées par des limitations de bande passante. Vous pouvez définir les limites générales de bande passante et les limites de session. Vous pouvez utiliser le panneau de configuration de Lync Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Utilisez les procédures suivantes pour supprimer un profil de stratégie de bande passante réseau. Pour plus d’informations sur la création et la modification d’un profil de stratégie de bande passante réseau, voir [création ou modification des profils de stratégie de bande passante dans Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).
 

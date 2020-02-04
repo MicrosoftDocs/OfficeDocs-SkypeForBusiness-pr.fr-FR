@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets d’applications de confiance'
+title: 'Lync Server 2013 : cmdlets d’applications de confiance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Trusted applications cmdlets
 ms:assetid: 4d6ae0dc-e3e0-4519-8b74-9e941dea21e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415652(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8738855f7784e5586659eb80a4a42e5de43adf00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 878ce959b10c6868f415ec86d717de590b9c8c29
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846478"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846478"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-20_
+_**Dernière modification de la rubrique :** 2012-06-20_
 
 Une application fiable est une application développée par une tierce partie qui dispose d’un État approuvé qui s’exécute dans le cadre de Microsoft Lync Server 2013, mais qui n’est pas une partie intégrante du produit. Lync Server 2013 fournit des cmdlets qui peuvent être utilisées pour configurer et gérer des applications approuvées.
 

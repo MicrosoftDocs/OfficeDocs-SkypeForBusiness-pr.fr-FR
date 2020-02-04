@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: tester les autorisations d’administrateur'
+title: 'Lync Server 2013 : tester les autorisations d’administrateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin permissions
 ms:assetid: 5dda3efd-0f84-4848-819e-87b1551066b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969607
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3da940b30822a5cfcc1fed302ff3db1f34bd8380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4543501d668b61bbb90073c80c4e85373341d93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846622"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-08-18_
+_**Dernière modification de la rubrique :** 2014-08-18_
 
 
 <table>
@@ -53,7 +55,7 @@ _**Dernière modification de la rubrique:** 2014-08-18_
 <tr class="odd">
 <td><p>Autorisations requises</p></td>
 <td><p>Lorsque l’application est exécutée localement à l’aide de Lync Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.</p>
-<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsOUPermission. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell:</p>
+<p>Lors de l’exécution à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui ont l’autorisation d’exécuter l’applet de commande test-CsOUPermission. Pour afficher la liste de tous les rôles RBAC qui peuvent utiliser cette applet de commande, exécutez la commande suivante à partir de l’invite Windows PowerShell :</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsOUPermission&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -78,11 +80,11 @@ Pour plus d’informations sur les autorisations d’UO, voir l’article l' [h�
 
 ## <a name="running-the-test"></a>Exécution du test
 
-Pour vérifier que les autorisations de gestion sont définies sur un conteneur, exécutez l’applet de cmdlet Test-CsOUPermission suivie du nom unique du conteneur et du type d’autorisations que vous vérifiez. Par exemple, cette commande vérifie si les autorisations des utilisateurs sont définies sur l’unité d’organisation UO = Redmond, DC = litwareinc, DC = com:
+Pour vérifier que les autorisations de gestion sont définies sur un conteneur, exécutez l’applet de cmdlet Test-CsOUPermission suivie du nom unique du conteneur et du type d’autorisations que vous vérifiez. Par exemple, cette commande vérifie si les autorisations des utilisateurs sont définies sur l’unité d’organisation UO = Redmond, DC = litwareinc, DC = com :
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"
 
-Pour vérifier plusieurs autorisations en utilisant une seule commande, placez chaque type d’autorisation entre guillemets, puis séparez-les par des virgules. Par exemple, la commande suivante vérifie les autorisations de l’utilisateur, de l’ordinateur et des contacts:
+Pour vérifier plusieurs autorisations en utilisant une seule commande, placez chaque type d’autorisation entre guillemets, puis séparez-les par des virgules. Par exemple, la commande suivante vérifie les autorisations de l’utilisateur, de l’ordinateur et des contacts :
 
     Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "computer", "contact"
 
@@ -94,21 +96,21 @@ Pour plus d’informations, consultez la rubrique d’aide de l’applet de [con
 
 ## <a name="determining-success-or-failure"></a>Détermination du succès ou de l’échec
 
-Si les autorisations requises ont déjà été définies, test-CsOUPermission renvoie une réponse en un mot:
+Si les autorisations requises ont déjà été définies, test-CsOUPermission renvoie une réponse en un mot :
 
-True
+Vrai
 
 Si les autorisations requises ne sont pas définies, test-CsOUPermission renvoie la valeur false. Il se peut que vous deviez rechercher un moment pour trouver cette valeur. En général, il est intégré à plusieurs avertissements. Par exemple :
 
-AVERTISSEMENT: entrée de contrôle d’accès (ACE) ATL-cs\\-001 RTCUniversalUserReadOnlyGroup; verte ReadProperty; ContainerInherit; Descendants; bf967aba-0de6-11D0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4
+AVERTISSEMENT : entrée de contrôle d’accès (ACE) ATL-cs\\-001 RTCUniversalUserReadOnlyGroup ; verte ReadProperty; ContainerInherit; Descendants ; bf967aba-0de6-11D0-00aa003049e2 ; d819615a-3b9b-4738-b47e-f1bd8ee3aea4
 
-AVERTISSEMENT: les entrées de contrôle d’accès (ACE) sur l’objet «UO = AmeriqueduNord, DC = ATL-cs\\-001 DC = litwareinc, DC = com» ne sont pas prêtes.
+AVERTISSEMENT : les entrées de contrôle d’accès (ACE) sur l’objet « UO = AmeriqueduNord, DC = ATL-cs\\-001 DC = litwareinc, DC = com » ne sont pas prêtes.
 
 False
 
-AVERTISSEMENT: le traitement des «tests-CsOUPermission» s’est terminé avec des avertissements. des avertissements "2" ont été enregistrés lors de cette exécution.
+AVERTISSEMENT : le traitement des « tests-CsOUPermission » s’est terminé avec des avertissements. des avertissements "2" ont été enregistrés lors de cette exécution.
 
-AVERTISSEMENT: des résultats détaillés sont disponibles à l’adresse\\«\\C\\:\\Users\\admin AppData\\test-CsOUPermission-5d7a89af-f854-4A9C-87E3-69e37e58de. html».
+AVERTISSEMENT : des résultats détaillés sont disponibles à l’adresse\\«\\C\\:\\Users\\admin AppData\\test-CsOUPermission-5d7a89af-f854-4A9C-87E3-69e37e58de. html ».
 
 </div>
 
@@ -116,7 +118,7 @@ AVERTISSEMENT: des résultats détaillés sont disponibles à l’adresse\\«\\C
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Raisons pour lesquelles le test peut avoir échoué
 
-En cas d’échec du test-CsOUPermission, cela signifie généralement que l’autorisation spécifiée n’a pas été affectée au groupe RTCUniversalUserAdmins. Vous pouvez résoudre ce problème et affecter les autorisations requises à l’aide de l’applet de passe Grant-CsOUPermission. Par exemple, cette commande fournit les autorisations d’UO pour les utilisateurs, les contacts et inetOrgPersons au groupe RTCUniversalUserAdmins:
+En cas d’échec du test-CsOUPermission, cela signifie généralement que l’autorisation spécifiée n’a pas été affectée au groupe RTCUniversalUserAdmins. Vous pouvez résoudre ce problème et affecter les autorisations requises à l’aide de l’applet de passe Grant-CsOUPermission. Par exemple, cette commande fournit les autorisations d’UO pour les utilisateurs, les contacts et inetOrgPersons au groupe RTCUniversalUserAdmins :
 
     Grant-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user", "contact", "inetOrgPerson"
 

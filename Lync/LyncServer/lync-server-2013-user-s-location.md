@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Emplacement de l’utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User's location
 ms:assetid: ce57941d-086b-448e-8ada-c7d636a2a1c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994073(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e9eac8fce71d99e0817c57841e2539ed6423f2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9754b75b941944a445da33750190b9347aeb9313
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846435"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846435"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-09_
+_**Dernière modification de la rubrique :** 2013-03-09_
 
 Le routage basé sur géolocalisation exploite les mêmes régions, sites et sous-réseaux tels qu’ils sont définis dans Lync Server utilisé par E9-1-1, CAC et Media bypass pour appliquer des restrictions de routage des appels pour empêcher le contournement du numéro RTC. L’emplacement d’un utilisateur est déterminé par le sous-réseau IP du ou des points de terminaison Lync de l’utilisateur qui sont connectés. Chaque sous-réseau IP est associé à un site réseau, regroupé au sein de régions réseau définies par l’administrateur. Le routage géodépendant est appliqué sur la base du site réseau de l’utilisateur.
 

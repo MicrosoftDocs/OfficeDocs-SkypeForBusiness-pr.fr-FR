@@ -3,6 +3,8 @@ title: Utilisation de l’interface utilisateur de Lync Server 2013 lors de l’
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User experience during pool failure
 ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca33dc8f77ac697b7eea9cc89fee9aa401318566
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e6506ac67415ca19b33ee968d698d0ed574df8d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846443"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846443"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-03_
+_**Dernière modification de la rubrique :** 2012-10-03_
 
 En cas d’échec de la liste, tous les utilisateurs du pool affecté sont obligés de se déconnecter, puis de se connecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. Dans le mode de résilience, les utilisateurs ne peuvent pas effectuer de tâches qui entraîneraient un changement permanent sur Lync Server, comme l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
 

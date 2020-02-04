@@ -3,6 +3,8 @@ title: Résumé des certificats - Serveur Edge consolidé mis à l’échelle av
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 894a9f3e-7cba-4915-8fdf-e52f2f25126f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398692(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccba3f1facf8d687f4448efc7aeff053f50b3be7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8251e13c04555d135991646a04a113a8f86e927
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838631"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34838631"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Microsoft Lync Server 2013 utilise des certificats pour authentifier mutuellement d’autres serveurs et pour chiffrer les données du serveur vers le client et le serveur. Les certificats nécessitent une correspondance de nom des enregistrements DNS (Domain Name System) associés aux serveurs et du nom de l’objet (SN) et du nom de l’objet du certificat. Pour mapper correctement les serveurs, les enregistrements DNS et les entrées de certificat, vous devez planifier soigneusement les noms de domaines complets du serveur prévus inscrits dans DNS et les entrées SN et SAN sur le certificat.
 
-Le certificat attribué aux interfaces externes du serveur Edge est demandé auprès d’une autorité de certification (CA) publique. Les autorités de certification publiques ayant démontré le succès de la fourniture de certificats aux fins de communications unifiées sont indiquées dans [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)l’article suivant:. Lors de la demande du certificat, vous pouvez utiliser la demande de certificat générée par l’Assistant Déploiement de Lync Server ou créer la requête manuellement ou par un processus fourni par l’autorité de certification publique. Lorsque vous attribuez le certificat, le certificat est attribué à l’interface du service Edge d’accès, à l’interface du service Edge de conférence Web et au service d’authentification audio/vidéo. Le service d’authentification audio/vidéo ne doit pas être confondu avec le service Edge A/V, qui n’utilise pas de certificat pour chiffrer les flux audio et vidéo. L’interface du serveur Edge interne peut utiliser un certificat provenant d’une autorité de certification interne (à votre organisation) ou d’un certificat d’une autorité de certification publique. Le certificat d’interface interne utilise uniquement le SN et n’a pas besoin ou n’utilise pas d’entrées du SAN.
+Le certificat attribué aux interfaces externes du serveur Edge est demandé auprès d’une autorité de certification (CA) publique. Les autorités de certification publiques ayant démontré le succès de la fourniture de certificats aux fins de communications unifiées sont indiquées dans [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)l’article suivant :. Lors de la demande du certificat, vous pouvez utiliser la demande de certificat générée par l’Assistant Déploiement de Lync Server ou créer la requête manuellement ou par un processus fourni par l’autorité de certification publique. Lorsque vous attribuez le certificat, le certificat est attribué à l’interface du service Edge d’accès, à l’interface du service Edge de conférence Web et au service d’authentification audio/vidéo. Le service d’authentification audio/vidéo ne doit pas être confondu avec le service Edge A/V, qui n’utilise pas de certificat pour chiffrer les flux audio et vidéo. L’interface du serveur Edge interne peut utiliser un certificat provenant d’une autorité de certification interne (à votre organisation) ou d’un certificat d’une autorité de certification publique. Le certificat d’interface interne utilise uniquement le SN et n’a pas besoin ou n’utilise pas d’entrées du SAN.
 
 <div>
 
@@ -123,7 +125,7 @@ Le certificat attribué aux interfaces externes du serveur Edge est demandé aup
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces de bord externe pour:</p>
+<td><p>Le certificat doit faire partir d’une autorité de certification publique et doit disposer de l’utilisation de l’utilisation améliorée de l’utilisation du serveur et de l’utilisation améliorée de la messagerie instantanée pour le client. Le certificat est attribué aux interfaces de bord externe pour :</p>
 <ul>
 <li><p>Service Edge d’accès</p></li>
 <li><p>Service Edge de conférence web</p></li>

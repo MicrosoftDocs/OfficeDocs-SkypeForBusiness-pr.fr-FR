@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Liste de vérification du déploiement pour le serveu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Persistent Chat Server
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e539a1aa6883863228aaab19ddaa38300ae45591
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80122534739d443dedaeeb203ab09da94cb0067
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831506"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-16_
+_**Dernière modification de la rubrique :** 2012-10-16_
 
 Le déploiement de Lync Server 2013, de chat permanent serveur nécessite que vous le déployiez dans l’ordre approprié et que vous ayez effectué toutes les étapes de déploiement requises.
 
@@ -73,14 +75,14 @@ Le tableau suivant répertorie les étapes de base de déploiement d’un serveu
 <td><p><strong>Installer le matériel et les logiciels prérequis</strong></p></td>
 <td><p>Sur le matériel conforme à la configuration système requise, installez ce qui suit :</p>
 <ul>
-<li><p>Sur les serveurs front-end serveur Chat permanent:</p></li>
+<li><p>Sur les serveurs front-end serveur Chat permanent :</p></li>
 </ul>
 <ul>
 <li><p>Un système d’exploitation conforme à la configuration système requise</p></li>
 <li><p>Configuration logicielle requise pour les ordinateurs exécutant Lync Server 2013</p></li>
 <li><p>Serveur SQL Server sur le serveur qui héberge la base de données de serveur Chat permanent</p></li>
 </ul>
-<p>Si la conformité du serveur Chat permanent est requise:</p>
+<p>Si la conformité du serveur Chat permanent est requise :</p>
 <ul>
 <li><p>Serveur SQL Server sur le serveur qui héberge la base de données de compatibilité serveur Chat permanent</p></li>
 </ul></td>
@@ -92,7 +94,7 @@ Le tableau suivant répertorie les étapes de base de déploiement d’un serveu
 </tr>
 <tr class="even">
 <td><p><strong>Créer la topologie interne appropriée pour prendre en charge le serveur de chat permanent (et éventuellement la conformité avec la conversation permanente)</strong></p></td>
-<td><p>Exécutez le générateur de topologie pour ajouter un pool de serveurs de chat permanent à votre topologie:</p>
+<td><p>Exécutez le générateur de topologie pour ajouter un pool de serveurs de chat permanent à votre topologie :</p>
 <ul>
 <li><p>Ajouter des composants serveur de chat permanent à la topologie</p></li>
 <li><p>Créer une base de données SQL Server pour le magasin serveur Chat permanent (et un serveur SQL de sauvegarde pour la récupération d’urgence)</p></li>
@@ -107,12 +109,12 @@ Le tableau suivant répertorie les étapes de base de déploiement d’un serveu
 </ul>
 <p>Si vous installez le serveur Chat permanent sur l’édition standard, le nom de domaine complet (FQDN) du pool de serveurs de chat permanent doit correspondre au serveur Standard Edition Server, et les bases de données SQL Server sont colocalisées sur l’instance SQL Server Express sur le standard. Serveur édition</p></td>
 <td><p>Pour définir une topologie, un compte membre du groupe Utilisateurs local</p>
-<p>Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et l’utilisateur doit également disposer des autorisations de contrôle total (lecture/écriture/modification) sur le magasin de fichiers Lync pour les fichiers du serveur de chat permanent (de sorte que cette topologie Le générateur peut configurer les DACL nécessaires.</p></td>
+<p>Pour publier la topologie, un compte membre du groupe administrateurs de domaine et du groupe RTCUniversalServerAdmins et l’utilisateur doit également disposer des autorisations de contrôle total (lecture/écriture/modification) sur le magasin de fichiers Lync pour les fichiers du serveur de chat permanent (de sorte que le générateur de topologie puisse configurer les DACL requis).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Ajouter un serveur de chat permanent à votre déploiement dans Lync Server 2013</a> dans la documentation de déploiement</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Déployer un serveur de conversation permanente</strong></p></td>
-<td><p>Exécutez le programme d’installation de Lync Server sur tous les ordinateurs exécutant la fonction de chat permanent serveur. La configuration du serveur de chat permanent est intégrée à l’Assistant Déploiement de Lync Server 2013, qui fournit les instructions suivantes:</p>
+<td><p>Exécutez le programme d’installation de Lync Server sur tous les ordinateurs exécutant la fonction de chat permanent serveur. La configuration du serveur de chat permanent est intégrée à l’Assistant Déploiement de Lync Server 2013, qui fournit les instructions suivantes :</p>
 <ul>
 <li><p>Déployer le magasin de gestion local</p></li>
 <li><p>Installer les services serveur de chat permanent</p></li>

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de Windows 8 pour les cartes à puce virtuelles'
+title: 'Lync Server 2013 : configuration de Windows 8 pour les cartes à puce virtuelles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Windows 8 for Virtual Smart Cards
 ms:assetid: 4916c167-4ee3-4f3e-b65c-33e588595112
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e177e5f9786b103c086630984be849c320801a82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6298f7aa6a500a71c0b3732dd2f3d180e7192d3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838151"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838151"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-03_
+_**Dernière modification de la rubrique :** 2013-07-03_
 
 Le coût de mise en œuvre est l’un des facteurs à prendre en compte dans le cadre du déploiement de l’authentification à deux facteurs et de la technologie de carte à puce. Windows 8 fournit un certain nombre de nouvelles fonctionnalités de sécurité et l’une des nouvelles fonctionnalités les plus intéressantes est la prise en charge des cartes à puce virtuelles.
 

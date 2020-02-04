@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Octroi d’autorisations'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Granting permissions
 ms:assetid: d1c9ea66-bd07-480e-99a0-011108f97e42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61c8afde42a231124648824fbf8fbae07b0beedc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfdf804fc9052ac69b383d0f8cd3321222e79a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831117"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831117"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-15_
+_**Dernière modification de la rubrique :** 2012-10-15_
 
-Dans le cas de l’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique (UO), ce qui permet aux membres du groupe RTCUniversalServerAdmins dans cette UO d’installer Lync Server 2013 dans le domaine spécifié. Lorsque vous accordez des autorisations sur une unité d’organisation, les autorisations suivantes sont octroyées:
+Dans le cas de l’installation, vous pouvez accorder des autorisations au groupe universel RTCUniversalServerAdmins pour une unité d’organisation Active Directory spécifique (UO), ce qui permet aux membres du groupe RTCUniversalServerAdmins dans cette UO d’installer Lync Server 2013 dans le domaine spécifié. Lorsque vous accordez des autorisations sur une unité d’organisation, les autorisations suivantes sont octroyées :
 
   - Suit
 

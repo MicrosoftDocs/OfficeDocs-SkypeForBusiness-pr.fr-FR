@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: utilisation des rapports d’analyse'
+title: 'Lync Server 2013 : utilisation des rapports d’analyse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Monitoring Reports
 ms:assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558662(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b7c1e70a47e3f3043215e1d16e1f01bfec4b677
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846372"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846372"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-21_
+_**Dernière modification de la rubrique :** 2012-10-21_
 
 Lync Server 2013 inclut un ensemble de rapports standard publiés par le service Microsoft SQL Server Reporting. Ces rapports, accessibles avec un navigateur web, fournissent des informations d’utilisation, de diagnostic d’appel et de qualité du média basées sur les enregistrements CDR (Enregistrement des détails des appels) et les enregistrements QoE (qualité de l’expérience) qui sont stockés dans les bases de données CDR et QoE.
 

@@ -3,6 +3,8 @@ title: Service de synthèse DNS-extensibilité du protocole de messagerie et de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618368(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff58998ef9114baeb7dc7c6462ca0ebaae114f10
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 941996ea1167cf9baeee05567a00c71ea5ed4baa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831347"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831347"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-04-08_
+_**Dernière modification de la rubrique :** 2014-04-08_
 
 Pour configurer le protocole XMPP (extensible Messaging and Presence Protocol) pour votre déploiement, vous devez créer deux enregistrements DNS (Domain Name System) dans un serveur DNS externe qui résoudra les enregistrements au service Edge d’accès de votre serveur Edge ou de votre pool Edge.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: applets de service de rôles et de services serveur'
+title: 'Lync Server 2013 : applets de service de rôles et de services serveur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server roles and services cmdlets
 ms:assetid: ff3561de-043e-4071-88f7-8de3cded52f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415683(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0504a98403c32d068034c9b5588cbe7cf1bda091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f59ff1b76b2381c611f07f09bbdaabcdc5e4a69b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822096"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822096"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-29_
+_**Dernière modification de la rubrique :** 2013-07-29_
 
 De nombreux composants Microsoft Lync Server 2013 s’exécutent en tant que rôles serveur ou services. Lync Server 2013 est fourni avec un certain nombre d’applets de fonction qui vous permettent de gérer ces rôles et services de serveur.
 
@@ -41,7 +43,7 @@ De nombreux composants Microsoft Lync Server 2013 s’exécutent en tant que rô
 
 ## <a name="server-roles-and-services-cmdlets"></a>Applets de service et rôles de serveur
 
-La plupart des tâches de gestion qui s’appliquent aux rôles de serveurs et de services peuvent être effectuées à partir du panneau de configuration de Lync Server. Par exemple, vous pouvez gérer les paramètres du serveur d’archivage, mais pas les paramètres de serveur du carnet d’adresses à l’aide du panneau de configuration de Lync Server. Toutefois, toutes ces tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. Vous trouverez ci-dessous une liste des applets de commande qui concernent directement la gestion des rôles et services serveur:
+La plupart des tâches de gestion qui s’appliquent aux rôles de serveurs et de services peuvent être effectuées à partir du panneau de configuration de Lync Server. Par exemple, vous pouvez gérer les paramètres du serveur d’archivage, mais pas les paramètres de serveur du carnet d’adresses à l’aide du panneau de configuration de Lync Server. Toutefois, toutes ces tâches peuvent être effectuées à l’aide d’applets de interface de Lync Server Management Shell ou à partir d’un script. l’utilisation d’un script vous permet d’automatiser certaines tâches. Vous trouverez ci-dessous une liste des applets de commande qui concernent directement la gestion des rôles et services serveur :
 
 **[Cmdlets du serveur du carnet d’adresses dans Lync Server 2013](lync-server-2013-address-book-server-cmdlets.md)**
 

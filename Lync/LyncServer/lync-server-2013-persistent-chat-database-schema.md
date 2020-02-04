@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Schéma de base de données de conversation permanent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Persistent Chat database schema
 ms:assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f35b1551b1ef7f228c70cbb76e748eae5e7cf59
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825190"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34825190"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-18_
+_**Dernière modification de la rubrique :** 2012-09-18_
 
 Ce document décrit le schéma de la base de données de chat persistante dans le logiciel de communication de Lync Server 2013.
 
-La base de données de chat permanent fait référence à la base de données qui correspond à l' **PersistentChatStore** de rôles de serveur principal Lync Server 2013 (qui correspond à la base de données MGC) et **PersistentChatComplianceStore** (qui correspond au mgccomp base de données). L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.
+La base de données de chat permanent fait référence à la base de données qui correspond à l' **PersistentChatStore** de rôles de serveur principal Lync Server 2013 (qui correspond à la base de données MGC) et **PersistentChatComplianceStore** (qui correspond à la base de données mgccomp). L’objectif de la publication de ce schéma consiste à vous permettre de créer des requêtes et d’accéder à des informations sur la création de rapports utiles sur l’utilisation des discussions, des salles actives, les principaux bureaux d’information, etc.
 
 <div>
 
@@ -49,7 +51,7 @@ La base de données de chat permanent fait référence à la base de données qu
 
 </div>
 
-Suivez ces meilleures pratiques:
+Suivez ces meilleures pratiques :
 
   - Aucune sélection\* //est prise en charge, car la liste de colonnes peut grandir.
 

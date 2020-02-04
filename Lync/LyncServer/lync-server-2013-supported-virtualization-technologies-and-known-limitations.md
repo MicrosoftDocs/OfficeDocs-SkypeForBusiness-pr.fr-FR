@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Technologies de virtualisation prises en charge et li
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported virtualization technologies and known limitations
 ms:assetid: 6d3d749d-e840-4c05-afae-d6e69e7616aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b5c99151be45f70d1d95fa0a89835ebb6f7d352
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cf513e9dee4e6a27708c8882519099c825f903f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731644"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846725"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2017-02-06_
+_**Dernière modification de la rubrique :** 2017-02-06_
 
 Le plug-in Lync VDI autorise les appels audio et vidéo pour les technologies de virtualisation prises en charge. Cette opération étend les fonctionnalités de Microsoft Lync Server 2010 dans le livre blanc [sur la virtualisation du client dans Microsoft lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) . Conformément aux réglementations téléphoniques standard, la prise en charge pour E911 est également incluse. Les sections suivantes décrivent les technologies de virtualisation prises en charge par le plug-in Lync VDI et les limitations de fonctionnalités connues.
 
@@ -43,9 +45,9 @@ Le plug-in Lync VDI autorise les appels audio et vidéo pour les technologies de
 
 Le plug-in Lync VDI prend en charge l’accès complet au bureau virtuel dans le scénario de bureau virtuel personnel, mais pas dans le scénario de session Bureau à distance. Ces scénarios peuvent être décrits comme suit :
 
-  - **Pris en charge: les bureaux virtuels personnalisés ou l’infrastructure de bureau virtuelle.**    Dans ce scénario, chaque utilisateur se connecte à un bureau virtuel personnalisable et est en mesure d’enregistrer des fichiers sur le bureau qui persistent dans toutes les sessions. Les services Bureau à distance de Microsoft, le mode d’affichage horizontal de VMware et Citrix XenDesktop sont des implémentations qui ont été testées pour Lync. Pour plus d’informations sur les environnements VDI spécifiques aux fournisseurs et sur le matériel client testés par Microsoft, voir [infrastructure Qualified pour Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
+  - **Pris en charge : les bureaux virtuels personnalisés ou l’infrastructure de bureau virtuelle.**    Dans ce scénario, chaque utilisateur se connecte à un bureau virtuel personnalisable et est en mesure d’enregistrer des fichiers sur le bureau qui persistent dans toutes les sessions. Les services Bureau à distance de Microsoft, le mode d’affichage horizontal de VMware et Citrix XenDesktop sont des implémentations qui ont été testées pour Lync. Pour plus d’informations sur les environnements VDI spécifiques aux fournisseurs et sur le matériel client testés par Microsoft, voir [infrastructure Qualified pour Microsoft Lync](https://go.microsoft.com/fwlink/?linkid=313435).
 
-  - **Non pris en charge: sessions de bureau à distance.**    Dans ce scénario, chaque utilisateur se connecte à une session de bureau virtuel générique qui ne peut pas être personnalisée. Les exemples d’implémentations incluent les sessions Bureau à distance de Microsoft (RDSH) et Citrix XenApp combiné à Citrix Receiver.
+  - **Non pris en charge : sessions de bureau à distance.**    Dans ce scénario, chaque utilisateur se connecte à une session de bureau virtuel générique qui ne peut pas être personnalisée. Les exemples d’implémentations incluent les sessions Bureau à distance de Microsoft (RDSH) et Citrix XenApp combiné à Citrix Receiver.
 
 Le plug-in Lync VDI ne prend pas en charge les autres technologies de virtualisation, telles que la virtualisation de l’application, qui permet d’utiliser une application sans avoir besoin d’installer entièrement l’application en local. Les exemples d’implémentations incluent Citrix XenApp et Microsoft Application Virtualization (App-V). Les modes de diffusion en continu d’application, de mise à distance d’application et de virtualisation mixte (par exemple, mise à distance d’application dans une mise à distance de bureau complet) ne sont pas pris en charge.
 
@@ -57,7 +59,7 @@ Pour autoriser l’extensibilité, le plug-in Lync VDI a été conçu pour utili
 
 ## <a name="known-feature-limitations"></a>Limitations de fonctionnalité connues
 
-Vous trouverez ci-après des limitations connues lorsque vous utilisez Lync 2013 dans un environnement VDI:
+Vous trouverez ci-après des limitations connues lorsque vous utilisez Lync 2013 dans un environnement VDI :
 
   - La prise en charge des fonctionnalités de délégation d’appel et d’anonymisation de l’agent de Response Group est limitée.
 

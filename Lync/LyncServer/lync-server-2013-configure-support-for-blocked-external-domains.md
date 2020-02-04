@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de la prise en charge pour les domaines
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure support for blocked external domains
 ms:assetid: 49103138-e1ab-42bf-91aa-57cf23bbf260
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619176(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08191e8600f5e247ba6b4a358557ea3def0a1756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fe73985687e7a1d6fcd2bbf615127c0757a5307
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838320"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838320"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-08_
+_**Dernière modification de la rubrique :** 2012-09-08_
 
 Si vous avez configuré la prise en charge des partenaires fédérés, vous pouvez gérer les domaines qui seront bloqués par votre organisation. Si cette option est activée, la liste des domaines bloqués fera office de liste de blocage (liste d’entrées explicites qui ne seront pas autorisées) et sera appliquée dans découverte de domaine fédéré. Pour plus d’informations, voir [activer ou désactiver la découverte des partenaires de Fédération dans Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md).
 
@@ -51,7 +53,7 @@ Bloquer un ou plusieurs domaines externes pour vous connecter à votre organisat
 
 4.  Cliquez sur **domaines fédérés**, sur **nouveau**, puis sur **domaine bloqué**.
 
-5.  Dans **nouveaux domaines fédérés**, procédez comme suit:
+5.  Dans **nouveaux domaines fédérés**, procédez comme suit :
     
       - Dans **nom de domaine (ou nom de domaine complet)**, tapez le nom du domaine de partenaire fédéré que vous souhaitez bloquer.
         

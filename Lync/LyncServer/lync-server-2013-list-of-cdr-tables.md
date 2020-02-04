@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Liste des tables d’enregistrement des détails de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of CDR tables
 ms:assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1ac043d144e73d8e1b40ca717e278619e053fdc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b0c620eaf6b54a89604071a18f445d20816178bf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830949"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830949"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-18_
+_**Dernière modification de la rubrique :** 2012-10-18_
 
 Le schéma de base de données d’enregistrement des détails des appels (CDR) se compose des tableaux suivants.
 
@@ -379,7 +381,7 @@ Le schéma de base de données d’enregistrement des détails des appels (CDR) 
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-calltype-table.md">Table CallType dans Lync Server 2013</a></p></td>
-<td><p>Stocke des informations sur les types de l’appel (par exemple, «audio», «messages instantanés», «audio et vidéo» et «partage d’application»).</p></td>
+<td><p>Stocke des informations sur les types de l’appel (par exemple, « audio », « messages instantanés », « audio et vidéo » et « partage d’application »).</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-errorcategory-table.md">Table ErrorCategory dans Lync Server 2013</a></p></td>

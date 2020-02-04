@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: gestion du contrôle d’admission des appels'
+title: 'Lync Server 2013 : gestion du contrôle d’admission des appels'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing call admission control
 ms:assetid: b0bd4783-6f47-408d-b010-2e30f9bc1770
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65b45ee414a1087bbfb6a5e3a774dedc074cd992
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828151"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34828151"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies. Utilisez les procédures suivantes pour gérer différentes fonctionnalités CAC pour votre environnement Lync Server 2013.
 

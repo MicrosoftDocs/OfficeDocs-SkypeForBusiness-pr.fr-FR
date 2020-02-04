@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Chemins de migration de serveurs et scénarios de coe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported server migration paths and coexistence scenarios
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425764(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33b2ce878fef53f444e3834e8b1cd40286c24b0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1b16b0c92954c004aa04b9cc665786badb9bf632
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846740"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846740"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-16_
+_**Dernière modification de la rubrique :** 2012-10-16_
 
-Lync Server 2013 prend en charge la migration de l’un des éléments suivants:
+Lync Server 2013 prend en charge la migration de l’un des éléments suivants :
 
   - Microsoft Lync Server 2010
 
@@ -49,14 +51,14 @@ La migration à partir d’un environnement exécutant ces deux versions précé
 
 La migration de tous les rôles serveur et topologies Lync Server est prise en charge. Vous pouvez effectuer une migration d’une topologie vers une autre topologie, y compris de Standard Edition Server vers Enterprise Edition Server.
 
-Lync Server 2013 ne prend en charge que la méthode de migration suivante:
+Lync Server 2013 ne prend en charge que la méthode de migration suivante :
 
   - <span></span>  
     **Migration côte à côte.** Dans la migration côte à côte, Lync Server 2013 est déployé parallèlement à un déploiement Microsoft Lync Server 2010 ou Office Communications Server 2007 R2, puis transférez des opérations vers les nouveaux serveurs et déplacez les utilisateurs vers Lync Server 2013. Cette méthode nécessite des plateformes serveur supplémentaires, notamment du matériel et du logiciel, lors de la migration, et les noms de systèmes et de pools sont différents dans la nouvelle configuration. S’il est nécessaire de revenir à la version précédente, vous pouvez basculer les opérations sur les serveurs précédents.
 
 La migration dans les forêts de services de domaine Active Directory n’est pas prise en charge.
 
-Le chemin de migration recommandé est une approche progressive. Pour plus d’informations sur la migration à partir d’une version précédente, y compris la mise à l’exécution appropriée du déploiement des composants, voir les rubriques suivantes dans la documentation relative à la migration:
+Le chemin de migration recommandé est une approche progressive. Pour plus d’informations sur la migration à partir d’une version précédente, y compris la mise à l’exécution appropriée du déploiement des composants, voir les rubriques suivantes dans la documentation relative à la migration :
 
   - [Migration de Lync Server 2010 vers Lync Server 2013](migration-from-lync-server-2010-to-lync-server-2013.md)
 
@@ -78,7 +80,7 @@ Dans le cadre d’une migration par phases dans laquelle un déploiement de Lync
 
 Vous devez utiliser des ordinateurs distincts et distincts exécutant Microsoft SQL Server 2008 R2 ou Microsoft SQL Server 2012 pour vos instances de base de données Lync Server 2013. Vous ne pouvez pas utiliser la même instance de SQL Server pour une liste frontale Lync Server 2013 que vous utilisez pour une liste frontale Lync Server 2010 ou Office Communications Server 2007 R2. Si vous définissez et configurez Lync Server 2013 dans le générateur de topologie pour un déploiement qui dispose déjà de Lync Server 2010 ou d’Office Communications Server 2007 R2, le générateur de topologie n’autorise pas la définition d’une instance de Lync Server 2013 déjà utilisée dans la topologie.
 
-Le générateur de topologie affiche le message suivant pour vous signaler ce problème: «le nom de domaine \[complet SQL Server du\] serveur contient déjà un rôle d’hébergement d’instances SQL».
+Le générateur de topologie affiche le message suivant pour vous signaler ce problème : « le nom de domaine \[complet SQL Server du\] serveur contient déjà un rôle d’hébergement d’instances SQL ».
 
 <div>
 
@@ -90,7 +92,7 @@ Le générateur de topologie affiche le message suivant pour vous signaler ce pr
 
 </div>
 
-Pour plus d’informations sur les exigences spécifiques de coexistence et sur la coexistence et la migration de Lync Server 2010 ou d’Office Communications Server 2007 R2 et Lync Server 2013, voir [migration de Lync server 2010 vers Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) et [ Migration d’Office Communications Server 2007 R2 vers Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) dans la documentation de migration. Pour plus d’informations sur la prise en charge des versions mixtes pour les clients, voir [clients pris en charge dans Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).
+Pour plus d’informations sur les exigences de coexistence et sur les autres détails relatifs à la coexistence et à la migration de Lync Server 2010 ou d’Office Communications Server 2007 R2 et Lync Server 2013, reportez-vous à la rubrique [migration de Lync server 2010 vers Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) et [migration à partir d’Office Communications Server 2007 R2 vers Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) dans la documentation de migration. Pour plus d’informations sur la prise en charge des versions mixtes pour les clients, voir [clients pris en charge dans Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Exécution de la préparation du domaine'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running domain preparation
 ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16fdd01b15fe5858129300c3a9f2f26c3d3de672
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 408dea780b4136f86ffed30d199d1d0ee63d6821
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822278"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765062"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34822278"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-04-16_
+_**Dernière modification de la rubrique :** 2013-04-16_
 
 Vous pouvez utiliser les applets de applet de configuration ou Lync Server Management Shell pour préparer les domaines. L’applet de cmdlet qui prépare un domaine est **Enable-CsAdDomain**.
 
@@ -67,17 +69,17 @@ La préparation du domaine est l’étape finale de la préparation des services
 
 1.  Ouvrez une session sur n’importe quel serveur du domaine en tant que membre du groupe Domain Admins.
 
-2.  Installez les composants principaux de Lync Server comme suit:
+2.  Installez les composants principaux de Lync Server comme suit :
     
     1.  À partir du dossier d’installation ou du média de Lync Server 2013, exécutez Setup. exe pour démarrer l’Assistant Déploiement de Lync Server.
     
     2.  Si vous êtes invité à installer le package redistribuable Microsoft Visual C++, cliquez sur **Oui**.
     
-    3.  La boîte de dialogue de configuration de Lync Server 2013 vous invite à entrer un emplacement d’installation des fichiers du serveur Lync. Choisissez l’emplacement par défaut **** ou naviguez jusqu’à l’emplacement de votre choix, puis cliquez sur **installer**.
+    3.  La boîte de dialogue de configuration de Lync Server 2013 vous invite à entrer un emplacement d’installation des fichiers du serveur Lync. Choisissez l’emplacement par défaut ou **Naviguez** jusqu’à l’emplacement de votre choix, puis cliquez sur **installer**.
     
     4.  Sur la page contrat de licence, activez la case à cocher **J’accepte les termes du contrat de licence**, puis cliquez sur **OK**. Le programme d’installation installe les composants principaux de Lync Server 2013.
 
-3.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+3.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 4.  Exécutez :
     

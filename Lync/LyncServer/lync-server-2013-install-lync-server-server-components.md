@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Installation des composants serveur Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server server components
 ms:assetid: 186aed6e-7adf-4a92-9f2e-f9a4de5ff202
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398239(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895047715bfa632970adbabb20311d8c68182499
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f039f9363469663410f08f078a3b7e17a170075
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831001"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831001"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-05_
+_**Dernière modification de la rubrique :** 2014-05-05_
 
 Avant d’effectuer cette procédure, vérifiez que vous êtes connecté au serveur à l’aide d’un compte d’utilisateur de domaine qui est un administrateur local et un membre du groupe RTCUniversalReadOnlyAdmins dans Active Directory.
 
@@ -47,9 +49,9 @@ L’Assistant Déploiement de Lync Server est utilisé pour installer les compos
 
 2.  Cliquez sur **installer ou mettre à jour le système de Lync Server**.
 
-3.  Dans l’Assistant Déploiement, confirmez que l' **étape 1: installer le magasin de configuration local** est une coche verte, ce qui signifie que ce serveur possède une copie locale du Store correctement installée. Si ce n’est pas le cas, vous devez installer le magasin de configuration local sur le serveur. Suivez les étapes décrites dans [installer le magasin de configuration local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) , puis revenez ici.
+3.  Dans l’Assistant Déploiement, confirmez que l' **étape 1 : installer le magasin de configuration local** est une coche verte, ce qui signifie que ce serveur possède une copie locale du Store correctement installée. Si ce n’est pas le cas, vous devez installer le magasin de configuration local sur le serveur. Suivez les étapes décrites dans [installer le magasin de configuration local dans Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) , puis revenez ici.
 
-4.  Lorsque vous êtes prêt à installer les composants Lync Server 2013 sur votre serveur, cliquez sur **exécuter** en regard de l' **étape 2: configurer ou supprimer les composants Lync Server**.
+4.  Lorsque vous êtes prêt à installer les composants Lync Server 2013 sur votre serveur, cliquez sur **exécuter** en regard de l' **étape 2 : configurer ou supprimer les composants Lync Server**.
 
 5.  Sur la page **configurer les composants Lync Server** , cliquez sur **suivant** pour configurer les composants comme définis dans votre topologie publiée.
 

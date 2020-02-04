@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: attributs et descriptions de schéma'
+title: 'Lync Server 2013 : attributs et descriptions de schéma'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema attributes and descriptions
 ms:assetid: b009df76-9c22-471d-b57a-bda009a98261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185083
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc18b4b074302ba3c233670f21fd8479bbd0b0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 72da4adb0f660604dba7f20c9ddc333425086df2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34822642"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
 Cette section décrit tous les attributs de schéma utilisés par Lync Server 2013. Pour les classes associées à des attributs, voir [attributs de schéma par classe dans Lync Server 2013](lync-server-2013-schema-attributes-by-class.md). Pour obtenir la liste des classes et attributs qui sont des nouveautés de Lync Server 2013, voir [modifications de schéma dans Lync server 2013](lync-server-2013-schema-changes-in-lync-server-2013.md).
 
-Les attributs qui sont des paires liées sont spécifiés en tant que liens de renvoi ou liens d’arrière-plan. Un attribut qui fait référence à un autre objet est un lien de transfert; l’attribut de l’autre objet qui fait référence au premier objet est un lien précédent. Les liens de renvoi peuvent être mis à jour de façon à être en lecture seule.
+Les attributs qui sont des paires liées sont spécifiés en tant que liens de renvoi ou liens d’arrière-plan. Un attribut qui fait référence à un autre objet est un lien de transfert ; l’attribut de l’autre objet qui fait référence au premier objet est un lien précédent. Les liens de renvoi peuvent être mis à jour de façon à être en lecture seule.
 
-Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque paramètre est représenté par un bit et la valeur décimale affichée représente la position en bits. Les positions de bits commencent par le bit 0. Par exemple, 1 (binaire) est du bit 0 défini et 10000 (binaire) est le bit 4 défini. Chaque bit représente une propriété. Voici quelques exemples:
+Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque paramètre est représenté par un bit et la valeur décimale affichée représente la position en bits. Les positions de bits commencent par le bit 0. Par exemple, 1 (binaire) est du bit 0 défini et 10000 (binaire) est le bit 4 défini. Chaque bit représente une propriété. Voici quelques exemples :
 
   - 10000 (binaire) a une valeur décimale de 16 (c’est-à-dire que le bit 4 est défini).
 
   - 100 millions (binaire) a une valeur décimale de 256 (c’est-à-dire que le bit 8 est défini).
 
-  - 1100 (binaire) a une valeur décimale de 12 (autrement dit, les bits 2 et 3 sont définis; les propriétés représentées par les deux bits sont activées).
+  - 1100 (binaire) a une valeur décimale de 12 (autrement dit, les bits 2 et 3 sont définis ; les propriétés représentées par les deux bits sont activées).
 
-  - 1111000001 (binaire) a une valeur décimale de 961 (autrement dit, les bits 0, 6, 7, 8 et 9 sont définis; les propriétés de chacun de ces bits sont activées).
+  - 1111000001 (binaire) a une valeur décimale de 961 (autrement dit, les bits 0, 6, 7, 8 et 9 sont définis ; les propriétés de chacun de ces bits sont activées).
 
 <div id="sectionSection0" class="section">
 
@@ -137,36 +139,36 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-ArchiveDefaultFlags (obsolète)</p></td>
-<td><p>Cet attribut spécifie la valeur par défaut globale dans la limite de la forêt pour l’archivage de toutes les communications utilisateur. Cette opération est appliquée par la couche agent d’archivage. La plage de valeurs de cet attribut est la suivante:</p>
+<td><p>Cet attribut spécifie la valeur par défaut globale dans la limite de la forêt pour l’archivage de toutes les communications utilisateur. Cette opération est appliquée par la couche agent d’archivage. La plage de valeurs de cet attribut est la suivante :</p>
 <ul>
 <li><p><strong>Vrai</strong>: archiver tous les utilisateurs</p></li>
 <li><p><strong>False</strong>: ne pas archiver tous les utilisateurs</p></li>
 </ul>
 <p>Cet attribut contrôle globalement, au sein de la frontière de la forêt, le mode d’archivage des communications utilisateur au sein d’un réseau interne.</p>
 <p><strong>Comportement 2005 de Live Communications Server (désormais obsolète)</strong></p>
-<p>La plage de valeurs de cet attribut est la suivante:</p>
+<p>La plage de valeurs de cet attribut est la suivante :</p>
 <ul>
-<li><p>0: archiver le corps du message [bit 0]</p></li>
-<li><p>1: ne pas archiver le corps du message [bit 0]</p></li>
+<li><p>0 : archiver le corps du message [bit 0]</p></li>
+<li><p>1 : ne pas archiver le corps du message [bit 0]</p></li>
 </ul>
 <p><strong>Comportement 2007 d’Office Communications Server</strong></p>
-<p>La plage de valeurs de cet attribut est la suivante:</p>
+<p>La plage de valeurs de cet attribut est la suivante :</p>
 <ul>
-<li><p>0: ArchiveFederationDefaultWithoutBody (obsolète)</p></li>
-<li><p>1-2: ArchiveInternalCommunications</p></li>
-<li><p>3-4: ArchiveFederatedCommunications</p></li>
-<li><p>5: RecordPresenceRegistrations</p></li>
-<li><p>6: RecordIMCallDetails</p></li>
-<li><p>7: RecordGroupIMCallDetails</p></li>
-<li><p>8: RecordFileTransferInstances</p></li>
-<li><p>9: RecordAudioCallDetails</p></li>
-<li><p>10: RecordVideoCallDetails</p></li>
-<li><p>11: RecordRemoteAssistanceCallDetails</p></li>
-<li><p>12: RecordApplicationSharingDetails</p></li>
-<li><p>13: RecordMeetingInstantiations</p></li>
-<li><p>14: RecordMeetingJoins</p></li>
-<li><p>15: RecordDataJoins</p></li>
-<li><p>16: RecordAVJoins</p></li>
+<li><p>0 : ArchiveFederationDefaultWithoutBody (obsolète)</p></li>
+<li><p>1-2 : ArchiveInternalCommunications</p></li>
+<li><p>3-4 : ArchiveFederatedCommunications</p></li>
+<li><p>5 : RecordPresenceRegistrations</p></li>
+<li><p>6 : RecordIMCallDetails</p></li>
+<li><p>7 : RecordGroupIMCallDetails</p></li>
+<li><p>8 : RecordFileTransferInstances</p></li>
+<li><p>9 : RecordAudioCallDetails</p></li>
+<li><p>10 : RecordVideoCallDetails</p></li>
+<li><p>11 : RecordRemoteAssistanceCallDetails</p></li>
+<li><p>12 : RecordApplicationSharingDetails</p></li>
+<li><p>13 : RecordMeetingInstantiations</p></li>
+<li><p>14 : RecordMeetingJoins</p></li>
+<li><p>15 : RecordDataJoins</p></li>
+<li><p>16 : RecordAVJoins</p></li>
 </ul></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -186,21 +188,21 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-ArchivingEnabled</p></td>
 <td><p>Cet attribut est un entier utilisé comme champ de bits pour contrôler si les communications d’un utilisateur unique doivent être archivées. Ce contrôle est appliqué par la couche de l’agent d’archivage. Il est marqué pour la réplication de catalogue global.</p>
-<p>L’objectif de cet attribut est spécifique à un utilisateur ou à un contact unique. Les valeurs valides (et positions de bits associées) dans Lync Server sont les suivantes:</p>
+<p>L’objectif de cet attribut est spécifique à un utilisateur ou à un contact unique. Les valeurs valides (et positions de bits associées) dans Lync Server sont les suivantes :</p>
 <ul>
-<li><p>0: do not Archive (aucun jeu de bits)</p></li>
-<li><p>1: retrait (position de bit 0)</p></li>
-<li><p>2: obsolète (position de bit 1)</p></li>
-<li><p>4: archiver des communications internes (position binaire 2)</p></li>
-<li><p>8: archiver des communications fédérées (position binaire 3)</p></li>
+<li><p>0 : do not Archive (aucun jeu de bits)</p></li>
+<li><p>1 : retrait (position de bit 0)</p></li>
+<li><p>2 : obsolète (position de bit 1)</p></li>
+<li><p>4 : archiver des communications internes (position binaire 2)</p></li>
+<li><p>8 : archiver des communications fédérées (position binaire 3)</p></li>
 </ul>
-<p>Les valeurs précédemment valides dans Live Communications Server 2005 sont les suivantes:</p>
+<p>Les valeurs précédemment valides dans Live Communications Server 2005 sont les suivantes :</p>
 <ul>
-<li><p>0: utilisez la valeur par défaut définie par <strong>msRTCSIP-ArchiveDefault</strong> et <strong>msRTCSIP-ArchiveFederation</strong> dans cet ordre de priorité:</p>
+<li><p>0 : utilisez la valeur par défaut définie par <strong>msRTCSIP-ArchiveDefault</strong> et <strong>msRTCSIP-ArchiveFederation</strong> dans cet ordre de priorité :</p>
 <ul>
-<li><p>1: Archive</p></li>
-<li><p>2: ne pas archiver</p></li>
-<li><p>3: archiver sans le corps du message</p></li>
+<li><p>1 : Archive</p></li>
+<li><p>2 : ne pas archiver</p></li>
+<li><p>3 : archiver sans le corps du message</p></li>
 </ul></li>
 </ul></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p></td>
@@ -212,13 +214,13 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-ArchivingServerVersion (obsolète)</p></td>
-<td><p>Cet attribut définit la version du service d’archivage. Il s’agit d’un monotonously qui augmente de manière à chaque publication officielle du produit. Les valeurs possibles sont les suivantes:</p>
+<td><p>Cet attribut définit la version du service d’archivage. Il s’agit d’un monotonously qui augmente de manière à chaque publication officielle du produit. Les valeurs possibles sont les suivantes :</p>
 <ul>
-<li><p>Non défini: Live Communications Server 2003</p>
+<li><p>Non défini : Live Communications Server 2003</p>
 <p>                 Live Communications Server 2005</p>
 <p>                 Live Communications Server 2005 avec SP1</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
+<li><p>3 : Office Communications Server 2007</p></li>
+<li><p>4 : Office Communications Server 2007 R2</p></li>
 </ul></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -262,7 +264,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-DefaultLocationProfileLink (obsolète)</p></td>
 <td><p>Cet attribut à valeur unique contient le nom unique (DN) d’un objet de classe de profil d’emplacement qui lui est affecté.</p>
-<p>Lien suivant: <strong>ID de lien 11036</strong></p>
+<p>Lien suivant : <strong>ID de lien 11036</strong></p>
 <p>Le lien inverse correspondant est <strong>msRTCSIP-ServerReferenceBL</strong>.</p></td>
 <td><p>Obsolète dans Lync Server 2010.</p></td>
 </tr>
@@ -340,7 +342,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <div>
 
 > [!NOTE]  
-> Live Communications Server 2003 ne prend pas en charge les demandes BENOTIFY. Pour interagir avec des applications serveur écrites à l’aide de l’API serveur Live Communications Server 2003 exécutée sur Live Communications Server 2005 et des serveurs tiers, les demandes BENOTIFY peuvent être désactivées <STRONG></STRONG>en définissant la valeur sur false. BENOTIFY ne fait actuellement pas partie du processus de normalisation SIP de l’IETF (Internet Engineering Task Force).
+> Live Communications Server 2003 ne prend pas en charge les demandes BENOTIFY. Pour interagir avec des applications serveur écrites à l’aide de l’API serveur Live Communications Server 2003 exécutée sur Live Communications Server 2005 et des serveurs tiers, les demandes BENOTIFY peuvent être désactivées en définissant la valeur sur <STRONG>false</STRONG>. BENOTIFY ne fait actuellement pas partie du processus de normalisation SIP de l’IETF (Internet Engineering Task Force).
 
 
 </div></td>
@@ -350,17 +352,17 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-EnableFederation (obsolète)</p></td>
 <td><p>Cet attribut est un commutateur global utilisé par les administrateurs informatiques pour déterminer si les utilisateurs sont autorisés à communiquer avec des utilisateurs d’autres organisations. Il permet à un administrateur de remplacer l’attribut <strong>FederationEnabled</strong> d’un utilisateur individuel. Cet attribut peut vous aider à protéger le réseau interne contre les attaques via Internet qui peuvent être causées par des vers, des virus ou des attaques ciblées au niveau de l’entreprise.</p>
-<p>Les valeurs valides (et positions de bits associées) sont les suivantes:</p>
+<p>Les valeurs valides (et positions de bits associées) sont les suivantes :</p>
 <ul>
-<li><p>1: activé pour la connectivité PIC (Public IM Connectivity)</p></li>
-<li><p>2: réservé (position binaire 1)</p></li>
-<li><p>4: réservé (position binaire 2)</p></li>
-<li><p>8: réservé (position binaire 3)</p></li>
-<li><p>16: le contrôle d’appel distant a été activé [téléphonie] (position bit 4)</p></li>
-<li><p>64: AllowOrganizeMeetingWithAnonymousParticipants (permettre aux utilisateurs d’inviter des utilisateurs anonymes à des réunions (position de bit 6)</p></li>
-<li><p>128: UCEnabled (permettre aux utilisateurs pour les communications unifiées) (position binaire 7)</p></li>
-<li><p>256: EnabledForEnhancedPresence (activer l’utilisateur pour la connectivité de messagerie instantanée publique) (position de bit 8)</p></li>
-<li><p>512: RemoteCallControlDualMode (position binaire 9)</p></li>
+<li><p>1 : activé pour la connectivité PIC (Public IM Connectivity)</p></li>
+<li><p>2 : réservé (position binaire 1)</p></li>
+<li><p>4 : réservé (position binaire 2)</p></li>
+<li><p>8 : réservé (position binaire 3)</p></li>
+<li><p>16 : le contrôle d’appel distant a été activé [téléphonie] (position bit 4)</p></li>
+<li><p>64 : AllowOrganizeMeetingWithAnonymousParticipants (permettre aux utilisateurs d’inviter des utilisateurs anonymes à des réunions (position de bit 6)</p></li>
+<li><p>128 : UCEnabled (permettre aux utilisateurs pour les communications unifiées) (position binaire 7)</p></li>
+<li><p>256 : EnabledForEnhancedPresence (activer l’utilisateur pour la connectivité de messagerie instantanée publique) (position de bit 8)</p></li>
+<li><p>512 : RemoteCallControlDualMode (position binaire 9)</p></li>
 </ul></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -389,7 +391,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-FrontEndServers</p></td>
 <td><p>Cet attribut est une liste à plusieurs valeurs des noms de domaine de tous les serveurs Enterprise Edition associés à un pool.</p>
-<p>Lien précédent: <strong>ID de lien 11023</strong></p>
+<p>Lien précédent : <strong>ID de lien 11023</strong></p>
 <p>Le lien transférer correspondant à ce lien précédent est <strong>msRTCSIP-PoolAddress</strong>.</p></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p></td>
 </tr>
@@ -400,7 +402,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalSettingsData (obsolète)</p></td>
-<td><p>Cet attribut stocke les paires nom: valeur. Le nom déjà défini: paire de valeurs correspond au paramètre <strong>autoriser l’interrogation pour la présence</strong> .</p></td>
+<td><p>Cet attribut stocke les paires nom : valeur. Le nom déjà défini : paire de valeurs correspond au paramètre <strong>autoriser l’interrogation pour la présence</strong> .</p></td>
 <td><p>Obsolète dans Lync Server 2010.</p></td>
 </tr>
 <tr class="odd">
@@ -457,7 +459,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-LocalNormalizationLinks (obsolète)</p></td>
 <td><p>Cet attribut à valeurs multiples contient une liste de noms uniques (ND) de normalisation locale associés à ce profil d’emplacement. Le type de cet attribut est un fichier binaire DN. Il existe une relation un-à-plusieurs entre le profil d’emplacement et les règles de normalisation locales. Le classement de la liste du DNs de normalisation local doit être maintenu dans l’ordre indiqué par l’administrateur. La conservation de l’ordre est gérée par la partie binaire du fichier binaire du DN, qui spécifie l’index de l’ordre.</p>
-<p>Lien suivant: <strong>ID de lien 11034</strong></p>
+<p>Lien suivant : <strong>ID de lien 11034</strong></p>
 <p>Le lien précédent correspondant à cet attribut de lien suivant est <strong>msRTCSIP-LocationProfileBL</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -476,7 +478,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-locationProfileBL (obsolète)</p></td>
 <td><p>Cet attribut à valeurs multiples contient une liste de noms uniques de profils d’emplacements. Cet attribut spécifie le lien précédent vers un ou plusieurs profils d’emplacement.</p>
-<p>Lien précédent: <strong>ID de lien 11035</strong></p>
+<p>Lien précédent : <strong>ID de lien 11035</strong></p>
 <p>Cet attribut correspond à la liaison suivante <strong>msRTCSIP-LocalNormalizationLinks</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -536,13 +538,13 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <td><p>msRTCSIP-MCUFactoryAddress</p></td>
 <td><p>Cet attribut est un attribut de point de contrôle de service sous la classe ordinateur qui spécifie un lien vers une fabrique de contrôle multipoint (MCU) auquel il appartient. Ce point et cet attribut de contrôle de service est créé pour chaque MCU Microsoft. Chaque MCU Microsoft doit trouver le serveur principal du pool auquel il appartient, afin de récupérer les paramètres au niveau du pool.</p>
 <p>La valeur de cet attribut est le nom unique (DN) de la fabrique MCU. Il s’agit d’un attribut à valeur unique qui est marqué pour la réplication de catalogue global.</p>
-<p>Lien suivant: <strong>ID de lien 11026</strong></p>
+<p>Lien suivant : <strong>ID de lien 11026</strong></p>
 <p>Le lien précédent correspondant à cet attribut de lien suivant est <strong>msRTCSIP-MCUServers</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MCUFactoryData</p></td>
-<td><p>Il s’agit d’un attribut réservé multichaîne. Les paramètres stockés dans cet attribut sont représentés par des paires name = value. Nom actuellement défini = paires de valeurs:</p>
+<td><p>Il s’agit d’un attribut réservé multichaîne. Les paramètres stockés dans cet attribut sont représentés par des paires name = value. Nom actuellement défini = paires de valeurs :</p>
 <ul>
 <li><p>FactoryURL = &lt;URL&gt;</p></li>
 </ul></td>
@@ -551,7 +553,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-MCUFactoryPath</p></td>
 <td><p>Il s’agit d’un attribut à valeur unique qui contient le nom unique (DN) d’une fabrique MCU unique associée à un pool.</p>
-<p>Lien suivant: <strong>ID de lien 11024</strong></p>
+<p>Lien suivant : <strong>ID de lien 11024</strong></p>
 <p>Le lien précédent correspondant à cet attribut de lien suivant est <strong>msRTCSIP-PoolAddresses</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
@@ -563,14 +565,14 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-MCUServers</p></td>
 <td><p>Cet attribut est une liste à plusieurs valeurs de noms uniques (DN). Cet attribut contient la liste de tous les serveurs MCU du même type et fournisseur associé à cette fabrique MCU. La valeur valide de chaque segment est de 63 caractères. la valeur valide pour le nom de domaine complet est de 255 caractères.</p>
-<p>Lien précédent: ID de lien 11027</p>
+<p>Lien précédent : ID de lien 11027</p>
 <p>Le lien transférer correspondant à ce lien précédent est <strong>msRTCSIP-MCUFactoryAddress</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MCUType</p></td>
 <td><p>Cet attribut est une chaîne à valeur unique qui spécifie le média que la MCU peut gérer.</p>
-<p>Les types valides pris en charge sont les suivants:</p>
+<p>Les types valides pris en charge sont les suivants :</p>
 <ul>
 <li><p>répond</p></li>
 <li><p>audio-vidéo</p></li>
@@ -587,12 +589,12 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-MeetingFlags (obsolète)</p></td>
 <td><p>Cet attribut définit différentes options de réunion qui sont activées globalement pour tous les utilisateurs ou objets de contact. Cet attribut est une valeur de masque de bits de type entier.</p>
-<p>Les valeurs valides (et positions de bits associées) sont les suivantes:</p>
+<p>Les valeurs valides (et positions de bits associées) sont les suivantes :</p>
 <ul>
-<li><p>0: AllowOrganizeMeetingWithAnonymousParticipants est défini sur aucun (ne pas autoriser les utilisateurs à inviter des utilisateurs anonymes à des réunions) (aucun bit)</p></li>
-<li><p>4: AllowOrganizeMeetingWithAnonymousParticipants est tout le monde (permettre à tous les utilisateurs d’inviter des utilisateurs anonymes à des réunions) (position de bit 2)</p></li>
-<li><p>8: AllowOrganizeMeetingWithAnonymousParticipants est UsePerUserSetting (permet aux utilisateurs d’inviter des utilisateurs anonymes à des réunions en fonction de leur paramètre par utilisateur) (position de bit 3)</p></li>
-<li><p>16: UserPerUserMeetingPolicy (la stratégie de réunion est définie par l’utilisateur) (position binaire 4)</p></li>
+<li><p>0 : AllowOrganizeMeetingWithAnonymousParticipants est défini sur aucun (ne pas autoriser les utilisateurs à inviter des utilisateurs anonymes à des réunions) (aucun bit)</p></li>
+<li><p>4 : AllowOrganizeMeetingWithAnonymousParticipants est tout le monde (permettre à tous les utilisateurs d’inviter des utilisateurs anonymes à des réunions) (position de bit 2)</p></li>
+<li><p>8 : AllowOrganizeMeetingWithAnonymousParticipants est UsePerUserSetting (permet aux utilisateurs d’inviter des utilisateurs anonymes à des réunions en fonction de leur paramètre par utilisateur) (position de bit 3)</p></li>
+<li><p>16 : UserPerUserMeetingPolicy (la stratégie de réunion est définie par l’utilisateur) (position binaire 4)</p></li>
 </ul></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -644,17 +646,17 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-OptionFlags</p></td>
 <td><p>Cet attribut spécifie les options qui sont activées pour l’objet utilisateur ou contact. Cet attribut est une valeur de masquage de type binaire de type entier. Chaque option est représentée par un bit. Cet attribut est marqué pour la réplication de catalogue global.</p>
-<p>Les valeurs valides (et positions de bits associées) sont les suivantes:</p>
+<p>Les valeurs valides (et positions de bits associées) sont les suivantes :</p>
 <ul>
-<li><p>1: activé pour la connectivité de messagerie instantanée publique (position de bit 0)</p></li>
-<li><p>2: réservé (position binaire 1)</p></li>
-<li><p>4: réservé (position binaire 2)</p></li>
-<li><p>8: réservé (position binaire 3)</p></li>
-<li><p>16: le contrôle d’appel distant a été activé [téléphonie] (position bit 4)</p></li>
-<li><p>64: AllowOrganizeMeetingWithAnonymousParticipants (permettre aux utilisateurs d’inviter des utilisateurs anonymes à des réunions (position de bit 6)</p></li>
-<li><p>128: UCEnabled (permettre aux utilisateurs pour les communications unifiées) (position bit 7)</p></li>
-<li><p>256: EnabledForEnhancedPresence (activer l’utilisateur pour la connectivité de messagerie instantanée publique) (position de bit 8)</p></li>
-<li><p>512: RemoteCallControlDualMode (position binaire 9)</p></li>
+<li><p>1 : activé pour la connectivité de messagerie instantanée publique (position de bit 0)</p></li>
+<li><p>2 : réservé (position binaire 1)</p></li>
+<li><p>4 : réservé (position binaire 2)</p></li>
+<li><p>8 : réservé (position binaire 3)</p></li>
+<li><p>16 : le contrôle d’appel distant a été activé [téléphonie] (position bit 4)</p></li>
+<li><p>64 : AllowOrganizeMeetingWithAnonymousParticipants (permettre aux utilisateurs d’inviter des utilisateurs anonymes à des réunions (position de bit 6)</p></li>
+<li><p>128 : UCEnabled (permettre aux utilisateurs pour les communications unifiées) (position bit 7)</p></li>
+<li><p>256 : EnabledForEnhancedPresence (activer l’utilisateur pour la connectivité de messagerie instantanée publique) (position de bit 8)</p></li>
+<li><p>512 : RemoteCallControlDualMode (position binaire 9)</p></li>
 </ul></td>
 <td><p>Nouveautés de Live Communications Server 2005 avec SP1.</p></td>
 </tr>
@@ -677,7 +679,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-PhoneRouteBL (obsolète)</p></td>
 <td><p>Cet attribut à valeurs multiples contient une liste de noms uniques d’itinéraires téléphoniques. Cet attribut spécifie le lien précédent vers un ou plusieurs itinéraires téléphoniques.</p>
-<p>Lien précédent: <strong>ID de lien 11033</strong></p>
+<p>Lien précédent : <strong>ID de lien 11033</strong></p>
 <p>Cet attribut correspond à la liaison suivante <strong>msRTCSIP-RouteUsageLinks</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
@@ -701,7 +703,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-PolicyContent (obsolète)</p></td>
 <td><p>Cet attribut est une chaîne Unicode à valeur unique. Cet attribut de chaîne contient la définition de la stratégie au format XML. La définition de schéma XML est courante dans les différents types de stratégies, seuls les paramètres sont différents pour chaque type de stratégie.</p>
-<p>La définition de schéma XML (XSD) est définie comme suit:</p>
+<p>La définition de schéma XML (XSD) est définie comme suit :</p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;xs:schema id=&quot;instance&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;
   &lt;xs:element name=&quot;instance&quot; msdata:IsDataSet=&quot;true&quot;&gt;
@@ -731,7 +733,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-PolicyType (obsolète)</p></td>
-<td><p>Cet attribut de chaîne Unicode à valeur unique contient le type de stratégie. Les types de stratégie valides sont les suivants:</p>
+<td><p>Cet attribut de chaîne Unicode à valeur unique contient le type de stratégie. Les types de stratégie valides sont les suivants :</p>
 <ul>
 <li><p>répond</p></li>
 <li><p>téléphonie</p></li>
@@ -743,14 +745,14 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <td><p>msRTCSIP-PoolAddress</p></td>
 <td><p>Cet attribut spécifie un lien vers le pool auquel appartient un ordinateur. Cet attribut est défini, que l’ordinateur exécute l’édition standard ou l’édition Enterprise de Lync Server. Cet attribut est marqué pour la réplication de catalogue global.</p>
 <p>La valeur valide est le nom de domaine du pool.</p>
-<p>Lien suivant: <strong>ID de lien 11022</strong></p>
+<p>Lien suivant : <strong>ID de lien 11022</strong></p>
 <p>Le lien précédent correspondant à cet attribut de lien suivant est <strong>msRTCSIP-FrontEndServers</strong>.</p></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-PoolAddresses</p></td>
 <td><p>Il s’agit d’un attribut à valeurs multiples qui contient une liste de noms uniques (DN) de pools avec lesquels la fabrique MCU est associée.</p>
-<p>Lien précédent: <strong>ID de lien 11025</strong></p>
+<p>Lien précédent : <strong>ID de lien 11025</strong></p>
 <p>Le lien transférer correspondant à ce lien précédent est <strong>msRTCSIP-MCUFactoryPath</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
@@ -774,42 +776,42 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-PoolFunctionality</p></td>
 <td><p>Liste à plusieurs valeurs des noms de domaine de tous les serveurs Lync Server Enterprise Edition associés à un pool. Cet attribut de type entier détermine si le pool est compatible avec la messagerie instantanée (mi) et la présence et les réunions.</p>
-<p>Les types de valeurs valides possibles sont les suivants:</p>
+<p>Les types de valeurs valides possibles sont les suivants :</p>
 <ul>
-<li><p>Non défini: service de messagerie instantanée et de présence (Live Communications Server 2005 et 2003)</p></li>
-<li><p>1: service de messagerie instantanée et de présence (Lync Server)</p></li>
-<li><p>2: messagerie instantanée, présence et service de réunion (Lync Server)</p></li>
+<li><p>Non défini : service de messagerie instantanée et de présence (Live Communications Server 2005 et 2003)</p></li>
+<li><p>1 : service de messagerie instantanée et de présence (Lync Server)</p></li>
+<li><p>2 : messagerie instantanée, présence et service de réunion (Lync Server)</p></li>
 </ul></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-PoolType</p></td>
 <td><p>Cet attribut spécifie si un pool de serveurs exécute Standard Edition Server ou Server Enterprise Edition Server. Cet attribut est une valeur de masquage de type binaire de type entier. Chaque option est représentée par un bit.</p>
-<p>Les valeurs valides (et positions de bits associées) sont les suivantes:</p>
+<p>Les valeurs valides (et positions de bits associées) sont les suivantes :</p>
 <ul>
-<li><p>1: Standard Edition Server, hébergement des utilisateurs (position de bit 0)</p></li>
-<li><p>2: serveur Enterprise Edition, hébergement des utilisateurs (position binaire 1)</p></li>
-<li><p>4: Standard Edition Server et applications hébergées (position binaire 2)</p></li>
-<li><p>8: serveur Enterprise Edition, applications d’hébergement (position de bit 3)</p></li>
+<li><p>1 : Standard Edition Server, hébergement des utilisateurs (position de bit 0)</p></li>
+<li><p>2 : serveur Enterprise Edition, hébergement des utilisateurs (position binaire 1)</p></li>
+<li><p>4 : Standard Edition Server et applications hébergées (position binaire 2)</p></li>
+<li><p>8 : serveur Enterprise Edition, applications d’hébergement (position de bit 3)</p></li>
 </ul>
-<p>Dans la mesure où Lync Server ne prend pas en charge les pools hébergeant uniquement des applications, les seules valeurs valides sont les suivantes:</p>
+<p>Dans la mesure où Lync Server ne prend pas en charge les pools hébergeant uniquement des applications, les seules valeurs valides sont les suivantes :</p>
 <ul>
-<li><p>5: Standard Edition Server, hébergement des utilisateurs et des applications (positions de bit 0 et 2)</p></li>
-<li><p>10: serveur Enterprise Edition, héberge les utilisateurs et les applications (emplacements des points 1 et 3)</p></li>
+<li><p>5 : Standard Edition Server, hébergement des utilisateurs et des applications (positions de bit 0 et 2)</p></li>
+<li><p>10 : serveur Enterprise Edition, héberge les utilisateurs et les applications (emplacements des points 1 et 3)</p></li>
 </ul></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-PoolVersion</p></td>
 <td><p>Cet attribut définit la version du pool. Il s’agit d’un type entier qui est incrémenté avec chaque version de produit majeure.</p>
-<p>Les types de valeurs valides possibles sont les suivants:</p>
+<p>Les types de valeurs valides possibles sont les suivants :</p>
 <ul>
-<li><p>0: Live Communications Server 2003</p></li>
-<li><p>1: Live Communications Server 2005</p></li>
-<li><p>2: Live Communications Server 2005 avec SP1</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
-<li><p>5: Lync Server 2010</p></li>
+<li><p>0 : Live Communications Server 2003</p></li>
+<li><p>1 : Live Communications Server 2005</p></li>
+<li><p>2 : Live Communications Server 2005 avec SP1</p></li>
+<li><p>3 : Office Communications Server 2007</p></li>
+<li><p>4 : Office Communications Server 2007 R2</p></li>
+<li><p>5 : Lync Server 2010</p></li>
 </ul></td>
 <td><p>Live Communications Server 2005 avec SP1.</p></td>
 </tr>
@@ -846,14 +848,14 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-RouteUsageAttribute (obsolète)</p></td>
-<td><p>Cet attribut de chaîne UNICODE à valeur unique définit un attribut qui qualifie l’utilisation pour un itinéraire téléphonique. La sélection d’un itinéraire de téléphone est déterminée en fonction de deux éléments: l’attribut utilisation attribué à l’itinéraire du téléphone et les attributs d’utilisation de stratégie autorisés de l’appelant. Le premier itinéraire téléphonique avec un attribut utilisation qui correspond à l’utilisation autorisée de l’appelant est sélectionné.</p></td>
+<td><p>Cet attribut de chaîne UNICODE à valeur unique définit un attribut qui qualifie l’utilisation pour un itinéraire téléphonique. La sélection d’un itinéraire de téléphone est déterminée en fonction de deux éléments : l’attribut utilisation attribué à l’itinéraire du téléphone et les attributs d’utilisation de stratégie autorisés de l’appelant. Le premier itinéraire téléphonique avec un attribut utilisation qui correspond à l’utilisation autorisée de l’appelant est sélectionné.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
 <p>Obsolète dans Lync Server 2010.</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-RouteUsageLinks (obsolète)</p></td>
 <td><p>Cet attribut de nom unique (DN) à valeurs multiples contient une liste des noms uniques de l’itinéraire.</p>
-<p>Lien suivant: <strong>ID de lien 11032</strong></p>
+<p>Lien suivant : <strong>ID de lien 11032</strong></p>
 <p>Cet attribut est un lien de transfert vers la liaison de renvoi correspondante de <strong>msRTCSIP-PhoneRouteBL</strong>.</p></td>
 <td><p>Obsolète dans Lync Server 2010.</p></td>
 </tr>
@@ -897,7 +899,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-ServerReferenceBL (obsolète)</p></td>
 <td><p>Cet attribut à valeurs multiples contient une liste de noms uniques. Ces noms uniques sont des liens de retour qui font référence à d’autres objets serveur qui peuvent être affectés à un profil d’emplacement par défaut.</p>
-<p>Lien précédent: <strong>ID de lien 11037</strong></p>
+<p>Lien précédent : <strong>ID de lien 11037</strong></p>
 <p>Le lien transférer correspondant à ce lien précédent est <strong>msRTCSIP-DefaultLocationProfileLink</strong>.</p>
 <p>Cet attribut de lien précédent fait référence uniquement aux pools et aux serveurs de médiation.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p>
@@ -906,31 +908,31 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-ServerVersion</p></td>
 <td><p>Cet attribut définit les informations de version du serveur. Ce numéro de version s’applique à tous les rôles de serveur. Il s’agit d’un entier monotonously croissant qui s’incrémente avec chaque publication officielle du produit.</p>
-<p>Les valeurs valides possibles sont les suivantes:</p>
+<p>Les valeurs valides possibles sont les suivantes :</p>
 <ul>
-<li><p>Non défini: Live Communications Server 2003</p>
+<li><p>Non défini : Live Communications Server 2003</p>
 <p>                 Live Communications Server 2005</p>
 <p>                 Live Communications Server 2005 avec SP1</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
-<li><p>5: Lync Server 2010</p></li>
-<li><p>6: Lync Server 2013</p></li>
+<li><p>3 : Office Communications Server 2007</p></li>
+<li><p>4 : Office Communications Server 2007 R2</p></li>
+<li><p>5 : Lync Server 2010</p></li>
+<li><p>6 : Lync Server 2013</p></li>
 </ul></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-SourceObjectType</p></td>
-<td><p>Cet attribut à une seule valeur de type entier spécifie le type d’objet sur lequel pointe <strong>MSDS-SourceObjectDN</strong> , comme suit:</p>
+<td><p>Cet attribut à une seule valeur de type entier spécifie le type d’objet sur lequel pointe <strong>MSDS-SourceObjectDN</strong> , comme suit :</p>
 <ul>
-<li><p>null | 0x00000001: représente un objet utilisateur principal du serveur Windows NT d’une autre forêt</p></li>
-<li><p>Les attributs suivants représentent un type de groupe à partir d’une autre forêt pour l’extension du groupe de distribution:</p>
+<li><p>null | 0x00000001 : représente un objet utilisateur principal du serveur Windows NT d’une autre forêt</p></li>
+<li><p>Les attributs suivants représentent un type de groupe à partir d’une autre forêt pour l’extension du groupe de distribution :</p>
 <ul>
-<li><p>0x00000002: ADS_GROUP_TYPE_GLOBAL_GROUP</p></li>
-<li><p>0x00000004: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</p></li>
-<li><p>0x00000004: ADS_GROUP_TYPE_LOCAL_GROUP</p></li>
-<li><p>0x00000008: ADS_GROUP_TYPE_UNIVERSAL_GROUP</p></li>
-<li><p>0x80000000: ADS_GROUP_TYPE_SECURITY_ENABLED</p></li>
-<li><p>0x90000000: représente un objet de standard automatique ou d’accès d’abonné de la même forêt ou d’une autre forêt.</p></li>
+<li><p>0x00000002 : ADS_GROUP_TYPE_GLOBAL_GROUP</p></li>
+<li><p>0x00000004 : ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP</p></li>
+<li><p>0x00000004 : ADS_GROUP_TYPE_LOCAL_GROUP</p></li>
+<li><p>0x00000008 : ADS_GROUP_TYPE_UNIVERSAL_GROUP</p></li>
+<li><p>0x80000000 : ADS_GROUP_TYPE_SECURITY_ENABLED</p></li>
+<li><p>0x90000000 : représente un objet de standard automatique ou d’accès d’abonné de la même forêt ou d’une autre forêt.</p></li>
 </ul></li>
 </ul></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
@@ -1001,14 +1003,14 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-TrustedServerVersion</p></td>
 <td><p>Cet attribut spécifie le numéro de version d’un serveur dans la liste des serveurs approuvés.</p>
-<p>Les valeurs valides possibles sont les suivantes:</p>
+<p>Les valeurs valides possibles sont les suivantes :</p>
 <ul>
-<li><p>NULL: Live Communications Server 2003</p></li>
-<li><p>2: Live Communications Server 2005</p></li>
-<li><p>3: Office Communications Server 2007</p></li>
-<li><p>4: Office Communications Server 2007 R2</p></li>
-<li><p>5: Lync Server 2010</p></li>
-<li><p>6: Lync Server 2013</p></li>
+<li><p>NULL : Live Communications Server 2003</p></li>
+<li><p>2 : Live Communications Server 2005</p></li>
+<li><p>3 : Office Communications Server 2007</p></li>
+<li><p>4 : Office Communications Server 2007 R2</p></li>
+<li><p>5 : Lync Server 2010</p></li>
+<li><p>6 : Lync Server 2013</p></li>
 </ul></td>
 <td><p>Nouveautés de Live Communications Server 2005.</p></td>
 </tr>
@@ -1031,7 +1033,7 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-TrustedServiceType</p></td>
 <td><p>Cet attribut est une valeur de chaîne qui définit le type de service GRUU qu’il représente.</p>
-<p>Les types de services GRUU valides sont les suivants:</p>
+<p>Les types de services GRUU valides sont les suivants :</p>
 <ul>
 <li><p>Le serveur de médiation</p></li>
 <li><p>Passerelle</p></li>
@@ -1054,9 +1056,9 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-UCFlags (obsolète)</p></td>
 <td><p>Cet attribut définit différentes options de communications unifiées qui sont activées globalement pour tous les objets utilisateur ou contact. Cet attribut est une valeur de masque de bits de type entier. Chaque option est représentée par la présence d’un bit.</p>
-<p>La valeur valide possible (et la position de bit associée) sont les suivantes:</p>
+<p>La valeur valide possible (et la position de bit associée) sont les suivantes :</p>
 <ul>
-<li><p>4: UsePerUserUCPolicy (position binaire 2)</p></li>
+<li><p>4 : UsePerUserUCPolicy (position binaire 2)</p></li>
 </ul>
 <p>Lorsque ce bit est défini, la stratégie de Cu est définie par l’utilisateur.</p></td>
 <td><p>Obsolète dans Lync Server 2010.</p></td>
@@ -1096,11 +1098,11 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="odd">
 <td><p>msRTCSIP-UserPolicy</p></td>
 <td><p>Il s’agit d’un attribut à valeurs multiples contenant une liste de noms uniques avec des valeurs binaires (DN_WITH_BINARY) pointant vers des stratégies utilisateur globales de différents types. La partie binaire indique le type de stratégie auquel la partie du DN pointe.</p>
-<p>Les valeurs binaires valides sont les suivantes:</p>
+<p>Les valeurs binaires valides sont les suivantes :</p>
 <ul>
-<li><p>0x00000001: stratégie de réunion</p></li>
-<li><p>0x00000002: stratégie d’UC</p></li>
-<li><p>0x00000005: politique de présence</p></li>
+<li><p>0x00000001 : stratégie de réunion</p></li>
+<li><p>0x00000002 : stratégie d’UC</p></li>
+<li><p>0x00000005 : politique de présence</p></li>
 </ul></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
@@ -1117,14 +1119,14 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 <tr class="even">
 <td><p>msRTCSIP-WebComponentsPoolAddress</p></td>
 <td><p>Cet attribut à valeur unique pointe vers le pool ou le serveur Standard Edition auquel appartiennent les composants Web.</p>
-<p>Lien suivant: <strong>ID de lien 11028</strong></p>
+<p>Lien suivant : <strong>ID de lien 11028</strong></p>
 <p>Le lien précédent correspondant à cet attribut de lien suivant est <strong>msRTCSIP-WebComponentsServers</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-WebComponentsServers</p></td>
 <td><p>Cet attribut est une liste à plusieurs valeurs de noms uniques. Cet attribut contient la liste de tous les serveurs Web associés à ce pool.</p>
-<p>Lien précédent: <strong>ID de lien 11029</strong></p>
+<p>Lien précédent : <strong>ID de lien 11029</strong></p>
 <p>Le lien transférer correspondant à ce lien précédent est <strong>msRTCSIP-WebComponentsPoolAddress</strong>.</p></td>
 <td><p>Nouveautés d’Office Communications Server 2007.</p></td>
 </tr>
@@ -1146,8 +1148,8 @@ Certains attributs ont une valeur de masque de bits. Pour ces attributs, chaque 
 </tr>
 <tr class="odd">
 <td><p>ProxyAddresses</p></td>
-<td><p>Cet attribut multivaleur Active Directory existant fait partie du schéma Active Directory de base introduit dans Windows 2000. Cet attribut contient les différentes adresses x400, X500 et SMTP de l’adresse de messagerie de l’utilisateur. Dans Live Communications Server 2003 et versions ultérieures, l’URI SIP de l’utilisateur est ajouté à cette liste &quot;à l'&quot; aide de la balise SIP:.</p>
-<p>Les applications suivantes recherchent l’URI SIP de l’utilisateur à partir de cet attribut:</p>
+<td><p>Cet attribut multivaleur Active Directory existant fait partie du schéma Active Directory de base introduit dans Windows 2000. Cet attribut contient les différentes adresses x400, X500 et SMTP de l’adresse de messagerie de l’utilisateur. Dans Live Communications Server 2003 et versions ultérieures, l’URI SIP de l’utilisateur est ajouté à cette liste &quot;à l'&quot; aide de la balise SIP :.</p>
+<p>Les applications suivantes recherchent l’URI SIP de l’utilisateur à partir de cet attribut :</p>
 <ul>
 <li><p>Client de messagerie et de collaboration de Microsoft Office Outlook 2003</p></li>
 <li><p>Microsoft Office SharePoint Server 2007</p></li>

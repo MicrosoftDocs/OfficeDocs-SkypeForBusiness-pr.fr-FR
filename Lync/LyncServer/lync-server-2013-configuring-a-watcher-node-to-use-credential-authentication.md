@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration d’un nœud FileSystemWatcher pour utiliser l’authentification des informations d’identification'
+title: 'Lync Server 2013 : configuration d’un nœud FileSystemWatcher pour utiliser l’authentification des informations d’identification'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a watcher node to use credential authentication
 ms:assetid: 032e33f3-9483-42e6-a33c-347eb6779597
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204632(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3746042e0fbf6c7342dd19085f563440b26bb0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d0fa67c4ef2688035471d2290ead78123f73239
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838299"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763408"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838299"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-20_
+_**Dernière modification de la rubrique :** 2012-10-20_
 
-Si votre ordinateur de nœud de l’observateur se trouve en dehors du réseau de périmètre, vous devez suivre une procédure légèrement différente pour configurer le nœud de l’observateur pour qu’il exécute des transactions synthétiques. Plus précisément, il est préférable de ne pas créer de pool d’applications fiable et d’application fiable, et vous devez installer un certificat qui permet au nœud d’observation d’envoyer des alertes à un ordinateur à l’intérieur du réseau de périmètre. Cela signifie que vous devez effectuer deux tâches distinctes:
+Si votre ordinateur de nœud de l’observateur se trouve en dehors du réseau de périmètre, vous devez suivre une procédure légèrement différente pour configurer le nœud de l’observateur pour qu’il exécute des transactions synthétiques. Plus précisément, il est préférable de ne pas créer de pool d’applications fiable et d’application fiable, et vous devez installer un certificat qui permet au nœud d’observation d’envoyer des alertes à un ordinateur à l’intérieur du réseau de périmètre. Cela signifie que vous devez effectuer deux tâches distinctes :
 
   - Mettre à jour l’appartenance au groupe d’administrateurs en lecture seule local de l’ordinateur
 
@@ -45,7 +47,7 @@ Si votre ordinateur de nœud de l’observateur se trouve en dehors du réseau d
 
 ## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a>Mise à jour de l’appartenance au groupe d’administrateurs en lecture seule locale RTC
 
-Si votre nœud FileSystemWatcher se trouve en dehors du réseau de périmètre, vous devez ajouter le compte de service réseau au groupe d’administrateurs en lecture seule locale RTC sur l’ordinateur de nœud d’observation. Pour cela, suivez la procédure ci-dessous sur le nœud d’observation:
+Si votre nœud FileSystemWatcher se trouve en dehors du réseau de périmètre, vous devez ajouter le compte de service réseau au groupe d’administrateurs en lecture seule locale RTC sur l’ordinateur de nœud d’observation. Pour cela, suivez la procédure ci-dessous sur le nœud d’observation :
 
 1.  Cliquez sur **Démarrer**, cliquez avec le bouton droit sur **ordinateur**, puis cliquez sur **gérer**.
 
@@ -71,7 +73,7 @@ Redémarrez l’ordinateur de nœud observateur.
 
 ## <a name="installing-the-watcher-node-configuration-files"></a>Installation des fichiers de configuration de nœud d’observation
 
-Après le redémarrage de l’ordinateur de nœud d’observateur, l’étape suivante consiste à exécuter le fichier Watchernode. msi. Pour exécuter ce fichier, ouvrez Lync Server 2013 Management Shell en cliquant sur **Démarrer**, puis sur **tous les programmes**, sur **Lync Server 2013**et sur **Lync Server Management Shell**. Dans Lync Server Management Shell, tapez la commande suivante, puis appuyez sur entrée (Vérifiez et spécifiez le chemin d’accès réel à votre copie de Watchernode. msi):
+Après le redémarrage de l’ordinateur de nœud d’observateur, l’étape suivante consiste à exécuter le fichier Watchernode. msi. Pour exécuter ce fichier, ouvrez Lync Server 2013 Management Shell en cliquant sur **Démarrer**, puis sur **tous les programmes**, sur **Lync Server 2013**et sur **Lync Server Management Shell**. Dans Lync Server Management Shell, tapez la commande suivante, puis appuyez sur entrée (Vérifiez et spécifiez le chemin d’accès réel à votre copie de Watchernode. msi) :
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 

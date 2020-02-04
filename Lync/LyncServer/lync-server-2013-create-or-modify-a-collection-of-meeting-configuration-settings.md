@@ -3,6 +3,8 @@ title: Créer ou modifier un ensemble de paramètres de configuration de réunio
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of meeting configuration settings
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b948d5aded2447e5319378a613fdf474c3e5450
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a5f80066a68b45e062a351478bea93a5c2e8fd0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831814"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831814"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Vous pouvez utiliser les paramètres de la page Configuration de la réunion pour définir diverses caractéristiques de l’utilisation de la réunion. Par défaut, les paramètres globaux définissent l’interface de participation. Vous pouvez également créer des paramètres de participation à une réunion au niveau du site et du pool. Si vous créez des paramètres au niveau du pool, ceux-ci s’appliquent à toutes les réunions hébergées par ce pool. Si vous ne créez pas de paramètres au niveau du pool, les paramètres définis au niveau du site s’appliquent, s’ils existent. Si aucun paramètre n’a été défini au niveau du site, les paramètres globaux s’appliquent à l’ensemble des réunions.
 
@@ -112,13 +114,13 @@ Vous pouvez utiliser les paramètres de la page Configuration de la réunion pou
 
 ## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création de nouveaux paramètres de configuration de réunion à l’aide d’applets de cmdlet Windows PowerShell
 
-Il est possible de créer des paramètres de configuration de réunion (à l’étendue du site uniquement) à l’aide de Windows PowerShell et de l’applet de nouvelle cmdlet New-CsMeetingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Il est possible de créer des paramètres de configuration de réunion (à l’étendue du site uniquement) à l’aide de Windows PowerShell et de l’applet de nouvelle cmdlet New-CsMeetingConfiguration. Cette applet de commande peut être exécutée à partir de Lync Server 2013 Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 <div>
 
 ## <a name="to-create-meeting-configuration-settings-that-use-the-default-values"></a>Pour créer des paramètres de configuration de réunion qui utilisent les valeurs par défaut
 
-  - Cette commande crée un ensemble de paramètres de configuration de réunion pour le site de Redmond:
+  - Cette commande crée un ensemble de paramètres de configuration de réunion pour le site de Redmond :
     
         New-CsMeetingConfiguration -Identity "site:Redmond"
     
@@ -140,7 +142,7 @@ Il est possible de créer des paramètres de configuration de réunion (à l’�
 
 ## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>Pour modifier plusieurs valeurs de propriétés lors de la création des paramètres de configuration de réunion
 
-  - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande admet tout le monde dans une réunion en tant que présentateur et force les utilisateurs RTC à patienter dans la salle d’attente jusqu’à ce qu’ils soient officiellement admis à la réunion:
+  - Vous pouvez modifier plusieurs valeurs de propriétés en incluant plusieurs paramètres. Par exemple, cette commande admet tout le monde dans une réunion en tant que présentateur et force les utilisateurs RTC à patienter dans la salle d’attente jusqu’à ce qu’ils soient officiellement admis à la réunion :
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 

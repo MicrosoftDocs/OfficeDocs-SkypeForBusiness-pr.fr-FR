@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de la configuration requise pour les appe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for emergency calls
 ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53543d815519dc440ba038999e5fc531173551f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: beb4b1e196a95d19a06c502cc9aeb989d6806b06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831695"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831695"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-06_
+_**Dernière modification de la rubrique :** 2012-06-06_
 
 Avant de commencer un déploiement de Microsoft Lync Server 2013 E9-1-1, vous devez d’abord répondre aux questions détaillées des sections suivantes. La planification dont vous avez besoin dépend du type de solution E9-1-1 que vous choisissez de déployer : fournisseur de services E9-1-1 de jonction SIP ou numéro ELIN (Emergency Location Identification Number). Le tableau ci-dessous identifie les sections du document de planification à consulter pour chacune de ces solutions.
 

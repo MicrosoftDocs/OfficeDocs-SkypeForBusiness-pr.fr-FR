@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Get-CsService pour la gestion du carnet d’adresses'
+title: 'Lync Server 2013 : Get-CsService pour la gestion du carnet d’adresses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsService for Address Book management
 ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cfa9bd42bb29ca32ab27dc64d2ee9a111abab8d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831136"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34831136"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Qui peut exécuter cette applet de commande: par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsService localement: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell:
+Qui peut exécuter cette applet de commande : par défaut, les membres des groupes suivants sont autorisés à exécuter l’applet de commande Get-CsService localement : RTCUniversalUserAdmins, RTCUniversalServerAdmins. Pour renvoyer la liste de tous les rôles de contrôle d’accès basés sur des rôles (RBAC) affectés à cette applet de commande (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Windows PowerShell :
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
@@ -45,37 +47,37 @@ Par exemple :
 
     Get-CsService -PoolFqdn "fe01.contoso.net" -WebServer
 
-Cette applet de commande renvoie ce qui suit:
+Cette applet de commande renvoie ce qui suit :
 
-Identité: serveur:pool01. contoso. net
+Identité : serveur :pool01. contoso. net
 
-:DC01:%. contoso. net
+:DC01 :%. contoso. net
 
-UserServer: UserServer:pool01. contoso. net
+UserServer : UserServer :pool01. contoso. net
 
-PrimaryHttpPort: 80
+PrimaryHttpPort : 80
 
-PrimaryHttpsPort: 443
+PrimaryHttpsPort : 443
 
-ExternalHttpPort: 8080
+ExternalHttpPort : 8080
 
-ExternalHttpsPort: 4443
+ExternalHttpsPort : 4443
 
-PublishedPrimaryHttpPort: 80
+PublishedPrimaryHttpPort : 80
 
-PublishedPrimaryHttpsPort: 443
+PublishedPrimaryHttpsPort : 443
 
-PublishedExternalHttpPort: 80
+PublishedExternalHttpPort : 80
 
-PublishedExternalHttpsPort: 443
+PublishedExternalHttpsPort : 443
 
-ReachPrimaryPsomServerPort: 8060
+ReachPrimaryPsomServerPort : 8060
 
-ReachExternalPsomServerPort: 8061
+ReachExternalPsomServerPort : 8061
 
-AppSharingPortStart: 49152
+AppSharingPortStart : 49152
 
-AppSharingPortCount: 16383
+AppSharingPortCount : 16383
 
 LIServiceInternalUri :https://internalweb.contoso.net/locationinformation/liservice.svc
 
@@ -123,21 +125,21 @@ WebTicketExternalUri :https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
 WebTicketInternalUri :https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
-ExternalFqdn: csweb.contoso.com
+ExternalFqdn : csweb.contoso.com
 
-InternalFqdn: internalweb.contoso.net
+InternalFqdn : internalweb.contoso.net
 
-DependentServiceList: {Registrar:pool01. contoso. net ConferencingServer:pool01. contoso. net}
+DependentServiceList : {Registrar :pool01. contoso. net ConferencingServer :pool01. contoso. net}
 
-ServiceId: 1-WebServices-1
+ServiceId : 1-WebServices-1
 
-SiteId: site: Redmond
+SiteId : site : Redmond
 
-PoolFqdn: pool01.contoso.net
+PoolFqdn : pool01.contoso.net
 
-Version: 5
+Version : 5
 
-Rôle: webserver
+Rôle : webserver
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Modifications apportées dans Lync Server affectant l
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes in Lync Server 2013 that affect Edge Server planning
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d13b40430455c87a60c0fadc20980df5a8aa1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73eda15acbce7eb4b47a0a52602776e8fc830b0e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838612"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838612"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-22_
+_**Dernière modification de la rubrique :** 2012-10-22_
 
 Lync Server 2013 introduit de nouvelles fonctionnalités qui étendent les fonctionnalités et méthodes de communication pour vos utilisateurs. Par ailleurs, Lync Server 2013 introduit des modifications apportées aux services existants pour améliorer l’intégration et l’extension des services disponibles pour votre organisation. Vous trouverez ci-dessous un résumé des modifications qui peuvent affecter votre planification et le déploiement de Lync Server 2013 Edge Server services.
 
@@ -43,7 +45,7 @@ Lync Server 2013 introduit de nouvelles fonctionnalités qui étendent les fonct
 
 Lync Server 2013 prend en charge l’adressage IPv6 pour tous les services Edge Server. Si vous avez fourni des adresses IPv6 pour les interfaces via une configuration dans Windows Server, vous pouvez utiliser des adresses IPv6 dans votre configuration de serveur Edge via la configuration d’adresse IP dans le générateur de topologie. Par ailleurs, le protocole XMPP (extensible Messaging and Presence Protocol) prend en charge le protocole IPv6. Aucune configuration supplémentaire n’est requise. Si le protocole IPv6 est configuré dans la topologie, XMPP utilisera le protocole IPv6 (le cas échéant).
 
-La configuration requise pour la prise en charge du protocole IPv6 dans Lync Server 2013 consiste à créer des enregistrements DNS pour les enregistrements qui doivent être identifiés et résolus à une adresse IPv6. Le DNS IPv6 utilise des enregistrements d’hôte définis comme **aaaa** et appelé «quadruple A». Les autres types d’enregistrements sont conformes aux équivalents IPv4.
+La configuration requise pour la prise en charge du protocole IPv6 dans Lync Server 2013 consiste à créer des enregistrements DNS pour les enregistrements qui doivent être identifiés et résolus à une adresse IPv6. Le DNS IPv6 utilise des enregistrements d’hôte définis comme **aaaa** et appelé « quadruple A ». Les autres types d’enregistrements sont conformes aux équivalents IPv4.
 
 </div>
 
@@ -113,7 +115,7 @@ Pour plus d’informations sur l’affinité basée sur les cookies dans Lync Se
 
 ## <a name="autodiscover-enhancements"></a>Améliorations apportées à la découverte automatique
 
-La fonctionnalité de découverte automatique de Lync Server 2013 permet aux clients de trouver des fonctionnalités supplémentaires mises à disposition pour la communication. La découverte automatique a été introduite pour la première fois dans la mise à jour cumulative pour Lync Server 2010:2011 novembre pour mobilité et Microsoft Lync 2010 mobile. La fonctionnalité de découverte automatique (également connue sous le nom d’enregistrement DNS LyncDiscover et LyncDiscoverInternal) permet aux clients de rechercher et d’utiliser les services de mobilité (pour les clients mobiles Microsoft Lync 2010), Microsoft Lync Web App et Lync Web Scheduler, ainsi que communications avec Microsoft Exchange Server et SharePoint Server. La découverte automatique est installée normalement dans le cadre de l’installation et du déploiement de vos serveurs d’infrastructure et Lync Server 2013. Le générateur de topologie et l’Assistant Déploiement de Lync Server éliminent la plupart des tâches de configuration requises dans la mise à jour cumulative pour Lync Server 2010: novembre 2011.
+La fonctionnalité de découverte automatique de Lync Server 2013 permet aux clients de trouver des fonctionnalités supplémentaires mises à disposition pour la communication. La découverte automatique a été introduite pour la première fois dans la mise à jour cumulative pour Lync Server 2010:2011 novembre pour mobilité et Microsoft Lync 2010 mobile. La fonctionnalité de découverte automatique (également connue sous le nom d’enregistrement DNS LyncDiscover et LyncDiscoverInternal) permet aux clients de rechercher et d’utiliser les services de mobilité (pour les clients mobiles Microsoft Lync 2010), Microsoft Lync Web App et Lync Web Scheduler, ainsi que communications avec Microsoft Exchange Server et SharePoint Server. La découverte automatique est installée normalement dans le cadre de l’installation et du déploiement de vos serveurs d’infrastructure et Lync Server 2013. Le générateur de topologie et l’Assistant Déploiement de Lync Server éliminent la plupart des tâches de configuration requises dans la mise à jour cumulative pour Lync Server 2010 : novembre 2011.
 
 </div>
 
@@ -121,7 +123,7 @@ La fonctionnalité de découverte automatique de Lync Server 2013 permet aux cli
 
 ## <a name="services-for-mobile-clients"></a>Services pour les clients mobiles
 
-Introduction à la mise à jour cumulative pour Lync Server 2010 2011: les services de mobilité de Lync Server 2013 permettent des téléphones mobiles exécutant des appareils mobiles et tablettes Lync utilisant des appareils mobiles Apple iOS, Android, Windows Phone ou Nokia. activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence. De plus, les appareils mobiles prennent en charge certaines fonctionnalités vocales d’entreprise, par exemple, cliquer pour participer à une conférence, appeler par le biais de votre bureau, joindre un numéro de téléphone unique et envoyer une notification d’appel manqué.
+Introduction à la mise à jour cumulative pour Lync Server 2010 2011 : les services de mobilité de Lync Server 2013 permettent des téléphones mobiles exécutant des appareils mobiles et tablettes Lync utilisant des appareils mobiles Apple iOS, Android, Windows Phone ou Nokia. activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence. De plus, les appareils mobiles prennent en charge certaines fonctionnalités vocales d’entreprise, par exemple, cliquer pour participer à une conférence, appeler par le biais de votre bureau, joindre un numéro de téléphone unique et envoyer une notification d’appel manqué.
 
 <div>
 

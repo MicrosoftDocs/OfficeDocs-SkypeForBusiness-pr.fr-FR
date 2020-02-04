@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Prise en charge des infrastructures et des logiciels 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server software and infrastructure support
 ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e3df5a7c37c1b03cd5ce838721b6ef00fad9547
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821984"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34821984"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-29_
+_**Dernière modification de la rubrique :** 2012-06-29_
 
 Le support logiciel pour les composants serveur, y compris tous les rôles et l’espace de stockage de Lync Server 2013 Server inclut les systèmes d’exploitation pris en charge, le logiciel de base de données, le logiciel d’infrastructure et d’autres logiciels requis pour prendre en charge des fonctionnalités spécifiques. Il inclut également la virtualisation des composants serveur.
 

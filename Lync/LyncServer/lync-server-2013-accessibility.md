@@ -3,6 +3,8 @@ title: Accessibilité de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838974"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-10-09_
+_**Dernière modification de la rubrique :** 2014-10-09_
 
 Microsoft s’engage à faciliter l’utilisation de ses produits et services par tous les utilisateurs. Les sections suivantes fournissent des informations sur les fonctionnalités, les produits et les services qui vous permettent de rendre Lync Server 2013 plus accessible aux personnes souffrant de handicaps.
 
@@ -41,13 +43,13 @@ Microsoft s’engage à faciliter l’utilisation de ses produits et services pa
 
 ## <a name="accessibility-features-of-lync-server-2013"></a>Fonctionnalités d’accessibilité de Lync Server 2013
 
-Les fonctionnalités suivantes de Lync Server 2013 permettent d’améliorer l’accessibilité pour les personnes atteintes de handicaps:
+Les fonctionnalités suivantes de Lync Server 2013 permettent d’améliorer l’accessibilité pour les personnes atteintes de handicaps :
 
   - Raccourcis clavier
 
   - Texte de substitution pour les illustrations
 
-De plus, les fonctionnalités et outils d’accessibilité de Windows peuvent être utiles pour les utilisateurs du serveur Lync présentant un handicap. Les changements de taille et de couleur de Windows PowerShell fournissent des options d’accessibilité lors de l’utilisation de Lync Server Management Shell. Pour plus d’informations sur les options d’accessibilité de Windows PowerShell, voir «accessibilité dans Windows PowerShell 2,0» [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)dans la bibliothèque TechNet à l’adresse.
+De plus, les fonctionnalités et outils d’accessibilité de Windows peuvent être utiles pour les utilisateurs du serveur Lync présentant un handicap. Les changements de taille et de couleur de Windows PowerShell fournissent des options d’accessibilité lors de l’utilisation de Lync Server Management Shell. Pour plus d’informations sur les options d’accessibilité de Windows PowerShell, voir « accessibilité dans Windows PowerShell 2,0 » [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)dans la bibliothèque TechNet à l’adresse.
 
 </div>
 
@@ -154,7 +156,7 @@ Les sections suivantes fournissent des informations sur les fonctionnalités, le
 
 
 > [!NOTE]  
-> Les informations contenues dans cette section s’appliquent uniquement aux utilisateurs qui ont réservé aux produits Microsoft aux États-Unis. Si vous avez obtenu ce produit hors des États-Unis, vous pouvez utiliser la carte d’informations des filiales fournie avec votre logiciel ou visiter le site Web <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> accessibilité de Microsoft pour obtenir la liste des numéros de téléphone et des adresses du support Microsoft. services. Vous pouvez contacter votre filiale pour savoir si le type de produits et services décrits dans cette section est disponible dans votre région. Pour en savoir plus sur les fonctionnalités d’accessibilité incluses dans les produits Microsoft, consultez le site Web d’accessibilité dans les produits Microsoft.
+> Les informations contenues dans cette section s’appliquent uniquement aux utilisateurs qui ont réservé aux produits Microsoft aux États-Unis. Si vous avez obtenu ce produit hors des États-Unis, vous pouvez utiliser la carte informations sur les filiales fournie avec votre logiciel ou visiter le site Web <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> accessibilité de Microsoft pour obtenir la liste des numéros de téléphone et des adresses des services de support technique Microsoft. Vous pouvez contacter votre filiale pour savoir si le type de produits et services décrits dans cette section est disponible dans votre région. Pour en savoir plus sur les fonctionnalités d’accessibilité incluses dans les produits Microsoft, consultez le site Web d’accessibilité dans les produits Microsoft.
 
 
 
@@ -194,8 +196,8 @@ De plus, vous pouvez obtenir des publications Microsoft supplémentaires auprès
 <td><p>Enregistrement pour la Dyslexic &amp; aveugle, Inc.</p>
 <p>20 Roszel Road route</p>
 <p>Princeton, NJ 08540</p>
-<p>Numéro de téléphone depuis les États-Unis: (800) 221-4792</p>
-<p>Site Web: enregistrement pour le &amp; Dyslexic-Dyslexic à<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
+<p>Numéro de téléphone depuis les États-Unis : (800) 221-4792</p>
+<p>Site Web : enregistrement pour le &amp; Dyslexic-Dyslexic à<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -211,13 +213,13 @@ Microsoft veut offrir la meilleure qualité possible à tous nos clients, y comp
 
 [Contacter Answer Desk](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-Ligne téléphonique directe: 1-800-936-5900
+Ligne téléphonique directe : 1-800-936-5900
 
-TTY: 1-800-892-5234
+TTY : 1-800-892-5234
 
-Jours de semaine: 17:00 -9 H (Heure du Pacifique)
+Jours de semaine : 17:00 -9 H (Heure du Pacifique)
 
-Week-end: 6 AM -15:00 (Heure du Pacifique)
+Week-end : 6 AM -15:00 (Heure du Pacifique)
 
 </div>
 
@@ -225,7 +227,7 @@ Week-end: 6 AM -15:00 (Heure du Pacifique)
 
 ## <a name="customer-service-for-people-with-hearing-impairments"></a>Service clientèle pour les personnes malentendantes
 
-Si vous êtes sourd ou malentendant, un service télétexte/téléscripteur (TTY/TDD) vous permet d’accéder à toute la gamme des services clientèles et de support technique de Microsoft:
+Si vous êtes sourd ou malentendant, un service télétexte/téléscripteur (TTY/TDD) vous permet d’accéder à toute la gamme des services clientèles et de support technique de Microsoft :
 
   - Pour le service clientèle, contactez Microsoft Sales Information Center au (800) 892-5234 entre 6:30 AM et 5:30 P.M. Heure du Pacifique, lundi au vendredi, à l’exception des jours fériés.
 

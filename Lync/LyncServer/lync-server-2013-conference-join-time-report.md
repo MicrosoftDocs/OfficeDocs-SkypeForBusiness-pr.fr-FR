@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport de temps de participation à la Conférence'
+title: 'Lync Server 2013 : rapport de temps de participation à la Conférence'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Join Time Report
 ms:assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205344(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fac854b9e296d744473593562f32430c6e21fc87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cce80d3c61e94752423c70de9827d41243da7119
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838493"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838493"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-04-23_
+_**Dernière modification de la rubrique :** 2014-04-23_
 
 Le résumé des heures d’arrivée aux conférences vous permet de déterminer le temps nécessaire à vos utilisateurs pour rejoindre une conférence. Le rapport indique le temps nécessaire moyen (en millisecondes) et fournit également une répartition montrant combien d’utilisateurs ont pu rejoindre la conférence en 2 secondes ou moins, combien ont nécessité entre 2 et 5 secondes, etc.
 

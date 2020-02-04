@@ -3,6 +3,8 @@ title: Vérifier que la réplication utilisateur est terminée
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify user replication has completed
 ms:assetid: 119e9896-45e5-4f8b-af43-7b09360ada0b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204680(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e96d3231fbbfe9ce9062e948e6b60de6521720e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bed93912b62e323186a902fb717548c16b405299
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846019"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846019"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-17_
+_**Dernière modification de la rubrique :** 2012-09-17_
 
 Lorsque vous exécutez l’applet de contrôle **Move-Csuser** , il est possible que vous constatiez un échec en raison du fait que les informations utilisateur entre les services de domaine Active Directory (AD DS) et celles de Lync Server 2013 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service Réplicateur d’utilisateurs de Lync Server 2013 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le pool 2013 Server. Le processus de synchronisation initiale du service Réplicateur d’utilisateurs de Lync Server 2013 se produit lorsque le serveur frontal de Lync Server 2013 est démarré pour la première fois. Après cela, la synchronisation est alors basée sur l’intervalle du réplicateur d’utilisateurs. Suivez les étapes ci-dessous pour vérifier que la réplication des utilisateurs a abouti avant d’exécuter l’applet **de commande Move-Csuser** .
 

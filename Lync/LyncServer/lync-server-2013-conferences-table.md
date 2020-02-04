@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Table Conferences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferences table
 ms:assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185340
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17cbadaf18fa36ca55f7755b5e679e564163a207
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c5464d3161a52a31fddb1322c82181d6e7a97fe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838485"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838485"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Chaque enregistrement de cette table contient les détails des appels sur une conférence.
 
@@ -76,7 +78,7 @@ Chaque enregistrement de cette table contient les détails des appels sur une co
 <td><p><strong>ConfInstance</strong></p></td>
 <td><p>identificateur</p></td>
 <td><p> </p></td>
-<td><p>Utile pour les conférences récurrentes; chaque instance d’une conférence périodique a le même <strong>ConferenceUri</strong>, mais aura un autre <strong>ConfInstance</strong>.</p></td>
+<td><p>Utile pour les conférences récurrentes ; chaque instance d’une conférence périodique a le même <strong>ConferenceUri</strong>, mais aura un autre <strong>ConfInstance</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceStartTime</strong></p></td>

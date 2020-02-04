@@ -3,6 +3,8 @@ title: Configuration requise pour les serveurs frontaux, la messagerie instantan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Front End Servers, instant messaging, and presence
 ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398269(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e44afce7a81e6bbef3f8d1d61dacfe5b64b26d10
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b3fd89dfe950ccc6c36f014acdf525664096b40f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846640"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34846640"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-18_
+_**Dernière modification de la rubrique :** 2012-09-18_
 
-La messagerie instantanée et la présence s’exécutent en permanence sur les pools des serveurs frontaux Enterprise Edition et Standard Edition. Pour plus d’informations sur les matériels, systèmes d’exploitation et logiciels de base de données pris en charge, voir les rubriques suivantes:
+La messagerie instantanée et la présence s’exécutent en permanence sur les pools des serveurs frontaux Enterprise Edition et Standard Edition. Pour plus d’informations sur les matériels, systèmes d’exploitation et logiciels de base de données pris en charge, voir les rubriques suivantes :
 
   - [Matériel pris en charge pour Lync Server 2013](lync-server-2013-supported-hardware.md)
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: examen du rapport DNS'
+title: 'Lync Server 2013 : examen du rapport DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the DNS Report
 ms:assetid: 453cd63d-229a-4c4c-96c0-4571733398a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbcc152935e71df630fa693c88f9db2858807136
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d12aba3d7b8d1bdd01bce1b0bce805c5d982b5c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822404"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822404"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Le rapport DNS, qui fait partie du rapport Administrateur, détaille toutes les entrées recommandées et connues pour le système DNS (Domain Name System) dans les réseaux internes, de périmètre et externes. Si le concepteur a effectué des modifications au diagramme de réseau et que toutes les adresses IP et tous les noms de domaine complets (FQDN) sont définis à leurs valeurs de production, le rapport DNS fournit une excellente ressource de configuration. Ce rapport peut également faire office de document de dépannage opérationnel.
 
-![Rapport d’administration DNS] (images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "Rapport d’administration DNS")
+![Rapport d’administration DNS](images/Gg558641.9dd1e810-ddc7-4816-a806-4239baf9ec51(OCS.15).jpg "Rapport d’administration DNS")
 
 Votre équipe de gestion DNS doit vérifier le rapport DNS minutieusement, afin de s’assurer qu’il ne contient aucune erreur susceptible de créer des problèmes lors du déploiement ou de compliquer une session de dépannage.
 

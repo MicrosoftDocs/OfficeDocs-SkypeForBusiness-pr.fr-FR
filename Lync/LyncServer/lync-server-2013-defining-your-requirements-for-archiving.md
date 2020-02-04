@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Définition de la configuration requise pour l’arch
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Archiving
 ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205276(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75ed62d577cc6b382509f83e53088973e16b6827
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3cee7269620a9525456e40604ae3f1d1c2cf33d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34831714"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-09_
+_**Dernière modification de la rubrique :** 2012-10-09_
 
 Si votre organisation doit suivre des règles de conformité, vous pouvez déployer l’archivage pour activer la prise en charge de l’archivage pour les conférences de messagerie instantanée et de conférence de Lync Server 2013. Pour plus d’informations sur le type de contenu qui peut être archivé, voir [vue d’ensemble de l’archivage dans Lync Server 2013](lync-server-2013-overview-of-archiving.md) dans la documentation de planification.
 
-Pour implémenter l’archivage, vous devez d’abord décider comment répondre aux besoins de votre organisation en matière d’archivage. Pour cela, vous devez déterminer les éléments suivants:
+Pour implémenter l’archivage, vous devez d’abord décider comment répondre aux besoins de votre organisation en matière d’archivage. Pour cela, vous devez déterminer les éléments suivants :
 
   - **Moment du déploiement de l’archivage**. Vous pouvez déployer l’archivage dans le cadre de votre déploiement initial de Lync Server 2013 ou vous pouvez l’ajouter à un déploiement existant. Vous pouvez déployer l’archivage à l’aide du générateur de topologie pour l’ajouter à votre topologie, puis en publiant la topologie.
 
@@ -64,7 +66,7 @@ Pour implémenter l’archivage, vous devez d’abord décider comment répondre
 
   - **Si vous souhaitez utiliser l’intégration de Microsoft Exchange**. Cette option intègre le stockage d’archivage auprès de votre espace de stockage 2013 Exchange, de sorte que vos données archivées Lync Server et les données archivées d’Exchange 2013 soient stockées conjointement dans Exchange. Vous pouvez utiliser l’intégration de Microsoft Exchange pour le stockage des données d’archivage pour les utilisateurs hébergés sur Exchange 2013, si leurs boîtes aux lettres ont été placées dans la conservation inaltérable. Si vous n’avez pas de déploiement Exchange 2013 ou si vous préférez ne pas l’intégrer, ou si vous avez des utilisateurs de Lync qui ne sont pas hébergés sur Exchange 2013, vous pouvez déployer des bases de données d’archivage distinctes en utilisant SQL Server pour stocker des données archivées à partir de Lync communications. Vous pouvez configurer l’option intégration de Microsoft Exchange au niveau global, au niveau du site et au niveau du pool. Par défaut, l’intégration de Microsoft Exchange n’est pas activée.
 
-  - **Le mode de gestion des données archivées**; La base de données d’archivage n’est pas destinée à la conservation longue durée et Lync Server 2013 ne fournit pas de solution de découverte électronique pour les données archivées, de sorte que les données doivent être déplacées vers un autre stockage. Lync Server fournit un outil d’exportation de session que vous pouvez utiliser pour exporter des données archivées et qui crée des transcriptions sur les données archivées. Pour la stratégie globale et pour chaque site et stratégie d’utilisateur que vous créez, vous pouvez activer la purge des données et spécifier l’une des options suivantes:
+  - **Le mode de gestion des données archivées**; La base de données d’archivage n’est pas destinée à la conservation longue durée et Lync Server 2013 ne fournit pas de solution de découverte électronique pour les données archivées, de sorte que les données doivent être déplacées vers un autre stockage. Lync Server fournit un outil d’exportation de session que vous pouvez utiliser pour exporter des données archivées et qui crée des transcriptions sur les données archivées. Pour la stratégie globale et pour chaque site et stratégie d’utilisateur que vous créez, vous pouvez activer la purge des données et spécifier l’une des options suivantes :
     
       - Purgez les données d’archivage exportées et les données d’archivage stockées après un nombre spécifique de jours. Le nombre de jours minimum que vous pouvez spécifier est d’un jour. Le nombre maximal de jours que vous pouvez spécifier est de 2562 jours.
     
@@ -72,9 +74,9 @@ Pour implémenter l’archivage, vous devez d’abord décider comment répondre
     
     Vous pouvez configurer cette option au niveau global, au niveau du site et au niveau du pool. Par défaut, la suppression définitive n’est pas activée.
 
-Vous pouvez contrôler l’archivage en utilisant les méthodes suivantes:
+Vous pouvez contrôler l’archivage en utilisant les méthodes suivantes :
 
-  - **Stratégies**d’archivage. Pour activer et désactiver l’archivage des communications internes et externes, vous devez utiliser une ou plusieurs stratégies d’archivage. Par défaut, aucun archivage n’est activé. Vous pouvez activer ou désactiver l’archivage des communications internes, des communications externes ou les deux dans votre déploiement à l’aide de la stratégie globale par défaut. Vous ne pouvez pas supprimer la politique globale. Vous pouvez spécifier une ou plusieurs stratégies de site facultatives pour activer ou désactiver l’archivage des communications internes et externes pour des sites spécifiques. Vous pouvez également spécifier une ou plusieurs stratégies utilisateur pour activer ou désactiver l’archivage pour des utilisateurs spécifiques et des groupes d’utilisateurs. Les stratégies de niveau utilisateur remplacent les stratégies de site. Les stratégies de niveau de site remplacent les stratégies de niveau global. Les stratégies de niveau utilisateur sont implémentées uniquement pour les utilisateurs spécifiques qui sont configurés pour utiliser cette stratégie. Les messages instantanés et les conférences de groupe ne sont archivés que si une stratégie pour au moins l’un des participants est configurée pour activer l’archivage.
+  - **Stratégies d’archivage**. Pour activer et désactiver l’archivage des communications internes et externes, vous devez utiliser une ou plusieurs stratégies d’archivage. Par défaut, aucun archivage n’est activé. Vous pouvez activer ou désactiver l’archivage des communications internes, des communications externes ou les deux dans votre déploiement à l’aide de la stratégie globale par défaut. Vous ne pouvez pas supprimer la politique globale. Vous pouvez spécifier une ou plusieurs stratégies de site facultatives pour activer ou désactiver l’archivage des communications internes et externes pour des sites spécifiques. Vous pouvez également spécifier une ou plusieurs stratégies utilisateur pour activer ou désactiver l’archivage pour des utilisateurs spécifiques et des groupes d’utilisateurs. Les stratégies de niveau utilisateur remplacent les stratégies de site. Les stratégies de niveau de site remplacent les stratégies de niveau global. Les stratégies de niveau utilisateur sont implémentées uniquement pour les utilisateurs spécifiques qui sont configurés pour utiliser cette stratégie. Les messages instantanés et les conférences de groupe ne sont archivés que si une stratégie pour au moins l’un des participants est configurée pour activer l’archivage.
     
     <div>
     
@@ -85,7 +87,7 @@ Vous pouvez contrôler l’archivage en utilisant les méthodes suivantes:
     
     </div>
 
-  - **Configurations**d’archivage. Vous pouvez utiliser une ou plusieurs configurations d’archivage pour spécifier la plupart des options d’archivage décrites précédemment dans cette rubrique, à l’exception de l’archivage des communications internes et externes (configurées à l’aide de stratégies d’archivage, comme décrit dans la section puce précédente). La configuration de l’archivage inclut la configuration globale par défaut et les configurations de site et de pool facultatives. Vous ne pouvez pas supprimer la configuration globale. Les configurations au niveau du pool remplacent les configurations au niveau du site. Les configurations de niveau de site remplacent la configuration de niveau global.
+  - **Configurations d’archivage**. Vous pouvez utiliser une ou plusieurs configurations d’archivage pour spécifier la plupart des options d’archivage décrites précédemment dans cette rubrique, à l’exception de l’archivage des communications internes et externes (configurées à l’aide de stratégies d’archivage, comme décrit dans la section puce précédente). La configuration de l’archivage inclut la configuration globale par défaut et les configurations de site et de pool facultatives. Vous ne pouvez pas supprimer la configuration globale. Les configurations au niveau du pool remplacent les configurations au niveau du site. Les configurations de niveau de site remplacent la configuration de niveau global.
 
 Dans le cadre de votre analyse requise, vous devez déterminer la configuration de la configuration de l’archivage global et de la stratégie d’archivage globale. Vous devez également définir vos exigences pour toutes les configurations de l’archivage au niveau du site, les configurations d’archivage au niveau du groupe, les stratégies d’archivage au niveau du site et les stratégies d’archivage au niveau utilisateur.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: vue d’ensemble de l’application Response Group'
+title: 'Lync Server 2013 : vue d’ensemble de l’application Response Group'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Response Group application
 ms:assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398513(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b523a05509b0043effb8cb2b761d7ee06fd36751
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2b01181296a42f786a4739b5ec59d775212baaf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825428"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34825428"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-11_
+_**Dernière modification de la rubrique :** 2012-09-11_
 
 Quand un appelant appelle un Response Group, l’appel est acheminé vers un agent en fonction du groupe de recherche ou des réponses de l’appelant aux questions du système de réponse vocale interactive. L’application Response Group utilise des méthodes de routage de groupe de réponse standard pour acheminer l’appel vers le prochain agent disponible. Les méthodes de routage des appels incluent le routage de série, de longue durée, parallèle, de tourniquet cyclique et le routage de l’attendant (c’est-à-dire que tous les agents sont appelés en même temps pour chaque appel entrant, quelle que soit leur présence actuelle). Si aucun agent n’est disponible, l’appel est mis en file d’attente jusqu’à ce qu’un agent se libère. Quand il est en file d’attente, l’appelant entend de la musique jusqu’à ce qu’un agent accepte l’appel. S’il s’agit d’une file d’attente complète ou si l’appel est interrompu dans la file d’attente, l’appelant peut entendre un message, puis être déconnecté ou transféré vers une autre destination. Quand un agent accepte l’appel, l’appelant peut dans certains cas voir l’identité de l’agent, selon la façon dont l’administrateur configure le groupe de réponses. Les agents peuvent être formels, c’est-à-dire qu’ils doivent se connecter au groupe avant de pouvoir accepter les appels y étant acheminés, ou informels, c’est-à-dire qu’ils n’ont pas besoin de se connecter ou déconnecter du groupe pour accepter les appels.
 
@@ -57,7 +59,7 @@ Quand un appelant appelle un Response Group, l’appel est acheminé vers un age
 
 </div>
 
-Dans Lync Server 2013, deux rôles de gestion sont disponibles pour gérer les groupes de réponse: responsable du groupe de réponse et administrateur du groupe de réponse. Les administrateurs de groupe de réponse peuvent gérer tout aspect de n’importe quel Response Group. Les responsables de groupe de réponse peuvent uniquement gérer certains aspects, et uniquement pour les groupes de réponse qu’ils possèdent. Le nouveau rôle de responsable peut vous aider à réduire les coûts d’administration, car vous pouvez déléguer des responsabilités limitées pour des groupes de réponse spécifiques à n’importe quel utilisateur qui est activé pour voix entreprise.
+Dans Lync Server 2013, deux rôles de gestion sont disponibles pour gérer les groupes de réponse : responsable du groupe de réponse et administrateur du groupe de réponse. Les administrateurs de groupe de réponse peuvent gérer tout aspect de n’importe quel Response Group. Les responsables de groupe de réponse peuvent uniquement gérer certains aspects, et uniquement pour les groupes de réponse qu’ils possèdent. Le nouveau rôle de responsable peut vous aider à réduire les coûts d’administration, car vous pouvez déléguer des responsabilités limitées pour des groupes de réponse spécifiques à n’importe quel utilisateur qui est activé pour voix entreprise.
 
 Pour prendre en charge le rôle de nouveau directeur, l’application Response Group de Lync Server 2013 introduit un **type de flux de travail de type** géré ou non géré. Le tableau ci-dessous décrit les groupes Response Group gérés et non gérés.
 

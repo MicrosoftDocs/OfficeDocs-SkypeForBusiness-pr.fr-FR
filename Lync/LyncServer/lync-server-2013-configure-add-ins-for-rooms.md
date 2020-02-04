@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration des compléments pour les salles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure add-ins for rooms
 ms:assetid: 4eeaf19e-8369-4f6f-af65-a283cf7daa1c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204878(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eb6525f67f22e09c4bf7ea40f575b3981e9a55c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8389f72394be26057eb12560c054bd5292b528f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838441"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Dans Lync Server 2013 panneau de configuration, vous pouvez utiliser la section **complément** de la page de **conversation permanente** pour associer des URL à des salles de conversation permanentes. Ces URL apparaissent dans le client 2013 Lync dans la salle de conversation du volet extensibilité de la conversation. Un administrateur doit ajouter des compléments à la liste des compléments enregistrés, et les responsables de salles de conversation ou créateurs doivent associer des salles à un des compléments enregistrés avant que les utilisateurs puissent voir cette mise à niveau dans leur client Lync 2013.
 

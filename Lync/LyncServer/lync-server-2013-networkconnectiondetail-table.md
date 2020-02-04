@@ -1,8 +1,10 @@
 ---
-title: 'Tableau Lync Server 2013: NetworkConnectionDetail'
+title: 'Tableau Lync Server 2013 : NetworkConnectionDetail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: NetworkConnectionDetail table
 ms:assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205185(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 281e2d87088a56fdf46c045171772df00b1d9cf6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826422"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34826422"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-02_
+_**Dernière modification de la rubrique :** 2012-10-02_
 
 La table NetworkConnectionDetail associe les types de connexion réseau aux identificateurs de connexion réseau utilisés ailleurs dans la base de données de qualité de l’utilisation. Ce tableau a été présenté dans Microsoft Lync Server 2013.
 

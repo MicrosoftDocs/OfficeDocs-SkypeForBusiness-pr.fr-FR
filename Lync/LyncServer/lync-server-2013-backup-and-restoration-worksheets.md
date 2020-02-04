@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: feuilles de calcul de sauvegarde et de restauration'
+title: 'Lync Server 2013 : feuilles de calcul de sauvegarde et de restauration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and restoration worksheets
 ms:assetid: 26c78155-0306-41ac-845b-7ad58000a1d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202169(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ca10b848dfa1f6cf53724b364cf53b1fc0fad90
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 390d6289daf8075c873e90319642f0e74b61d835
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838747"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-18_
+_**Dernière modification de la rubrique :** 2013-02-18_
 
 Le plan de sauvegarde et de restauration de votre organisation doit contenir des détails sur la façon dont et quand vous sauvegardez des données et des paramètres. Vous pouvez utiliser les feuilles de calcul présentées ici pour documenter ces informations pour votre déploiement spécifique et pour les besoins en matière de sauvegarde et de restauration de votre organisation.
 
@@ -75,7 +77,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <th>Outil de sauvegarde de base de données</th>
 <th>Jeu de sauvegarde</th>
 <th>Destination de la sauvegarde</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +136,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 </table>
 
 
-Aucune sauvegarde ou restauration requise pour les bases de données suivantes:
+Aucune sauvegarde ou restauration requise pour les bases de données suivantes :
 
   - Rtcdyn. Les données utilisateur temporaires de cette base de données ne sont pas nécessaires à la restauration du service.
 
@@ -174,7 +176,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <th>Outil de sauvegarde du système de fichiers</th>
 <th>Partage de fichiers à sauvegarder *</th>
 <th>Destination de la sauvegarde</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -219,7 +221,7 @@ Utilisez le tableau suivant pour enregistrer les informations dont vous avez bes
 <th>Outil de sauvegarde</th>
 <th>Nom du fichier de configuration (. Xml)</th>
 <th>Emplacement de sauvegarde</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>

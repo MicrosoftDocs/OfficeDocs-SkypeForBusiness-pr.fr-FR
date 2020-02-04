@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Fonctionnalités de la messagerie unifiée intégrée
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Features of integrated Unified Messaging and Lync Server
 ms:assetid: 094f549d-fccc-43ab-9f39-6ddd18130915
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398144(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5dc6396bd78977d099e650f14ae1a0b4b46c54e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 69726c614df344c76b06cf68e4d844c0514af7dd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831159"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Lync Server 2013, voix entreprise utilise l’infrastructure de messagerie unifiée Exchange pour fournir des réponses aux appels, des notifications d’appel, l’accès vocal (y compris la messagerie vocale) et des services de standard automatique.
 
@@ -67,7 +69,7 @@ Le standard automatique est une fonctionnalité de MU Exchange qui peut être ut
 
 ## <a name="fax-services"></a>Services de télécopie
 
-La messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, reportez-vous à la section «messagerie [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)unifiée» dans la documentation Microsoft Exchange Server à l’adresse.
+La messagerie unifiée Exchange inclut des fonctionnalités de télécopie, qui permettent aux utilisateurs de recevoir des télécopies entrantes dans leurs boîtes aux lettres Exchange. Pour plus d’informations, reportez-vous à la section « messagerie [http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)unifiée » dans la documentation Microsoft Exchange Server à l’adresse.
 
 <div>
 

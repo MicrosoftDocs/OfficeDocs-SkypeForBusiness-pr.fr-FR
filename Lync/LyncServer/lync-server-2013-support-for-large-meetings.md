@@ -3,6 +3,8 @@ title: Prise en charge des réunions importantes dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Support for large meetings
 ms:assetid: 8f0446d5-1ed9-4ea0-bb97-6c062a98a1eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205090(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c98166b42f48e328809960279b9934b87670101b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d6a8da2c58cc650fa0d2ddb7fe71ba62b4b29af9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846748"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846748"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-01_
+_**Dernière modification de la rubrique :** 2012-10-01_
 
 Lync Server 2013 peut prendre en charge des réunions comportant jusqu’à 1000 participants à l’aide d’une conférence audio/vidéo (A/V), y compris le partage de présentations PowerPoint. Cette prise en charge nécessite un pool dédié configuré pour prendre en charge de grandes réunions et géré pour n’héberger qu’une seule grande réunion à la fois.
 

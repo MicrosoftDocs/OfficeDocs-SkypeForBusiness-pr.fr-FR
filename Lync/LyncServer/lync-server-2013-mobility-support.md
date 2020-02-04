@@ -3,6 +3,8 @@ title: Prise en charge de la mobilité dans Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility support
 ms:assetid: 4a401502-9e17-40d0-a1bd-870ff1fa5b63
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204858(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184029
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d09b2700f31894a8fc1bb805c19a2f959b043cbd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7872852810eac15049dc8cec5a7cac3f36b60e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826982"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34826982"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-29_
+_**Dernière modification de la rubrique :** 2012-06-29_
 
-Avec la mobilité Lync Server 2013, les utilisateurs ont accès à la fonctionnalité Lync 2013 sur leurs appareils mobiles. Les appareils mobiles pris en charge sont les suivants:
+Avec la mobilité Lync Server 2013, les utilisateurs ont accès à la fonctionnalité Lync 2013 sur leurs appareils mobiles. Les appareils mobiles pris en charge sont les suivants :
 
   - Appareils Apple iOS pris en charge
 

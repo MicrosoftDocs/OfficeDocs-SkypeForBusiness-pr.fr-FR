@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuraton de la prise en charge des domaines exter
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure support for allowed external domains
 ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfab1a41f39d975d2920bdf97ea601618277f35a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31aa2ab9db9ffccd3acda90e9651dfad20b85e96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838326"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838326"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Si vous avez configuré la prise en charge des partenaires fédérés, vous pouvez gérer les domaines spécifiques qu’il est possible de fédérer avec votre organisation. Vous pouvez configurer un ou plusieurs domaines externes spécifiques en tant que domaines fédérés autorisés. Pour ce faire, ajoutez chaque domaine à la liste des domaines autorisés. Même si la découverte des partenaires est activée pour votre organisation, procédez comme suit si le domaine est un partenaire fédéré qui peut avoir besoin de communiquer avec plus de 1 000 ou si vous avez besoin d’envoyer plus de 20 messages par seconde. Si la découverte de partenaire n’est pas activée pour votre organisation, seuls les utilisateurs de domaines externes que vous ajoutez à la liste des domaines autorisés peuvent participer à la messagerie instantanée et à la Conférence avec les utilisateurs de votre organisation. Si vous souhaitez limiter l’accès d’un domaine fédéré à un serveur spécifique exécutant le service Edge d’accès du partenaire fédéré, vous pouvez spécifier le nom de domaine du serveur exécutant le service Edge d’accès pour chaque domaine dans la liste des domaines autorisés.
 
@@ -59,7 +61,7 @@ Si vous avez configuré la prise en charge des partenaires fédérés, vous pouv
 
 4.  Sur la page **domaines fédérés** , cliquez sur **nouveau**, puis cliquez sur **domaine autorisé**.
 
-5.  Dans **nouveaux domaines fédérés**, procédez comme suit:
+5.  Dans **nouveaux domaines fédérés**, procédez comme suit :
     
       - Dans **nom de domaine (ou nom de domaine complet)**, tapez le nom du domaine du partenaire fédéré.
         

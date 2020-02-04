@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Procédure de basculement ABC vers un pool frontal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End pool ABC failover procedure
 ms:assetid: 67763ad3-6796-45eb-a486-901f21ac1a95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87b6cb610d153374f6f4c9ba8a3c2798c50b88ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edf3d12aa519ab7746ccec92998995ed463aa9be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831149"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-22_
+_**Dernière modification de la rubrique :** 2014-05-22_
 
 Procédez comme suit pour effectuer la procédure de basculement ABC. Cette procédure contient une description de haut niveau de chaque étape, suivie de commandes et d’applets de commande à exécuter pour chaque étape.
 
@@ -51,13 +53,13 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
         
         Si le champ Identity du CMS actif pointe vers le nom de domaine complet (FQDN) du pool A, vous devez commencer par suivre les étapes 2 et 3 de cette procédure pour basculer d’abord sur le serveur de gestion central. Dans le cas contraire, passez à l’étape 4.
 
-2.  Basculez le CMS vers le pool B en mode de récupération d’urgence en exécutant l’applet de commande suivante:
+2.  Basculez le CMS vers le pool B en mode de récupération d’urgence en exécutant l’applet de commande suivante :
     
         Invoke-CsManagementServerFailover -BackupSqlServerFqdn <Pool B BE FQDN> -BackupSqlInstanceName <Pool B BE instance name> [-BackupMirrorSqlServerFqdn <Pool B Mirror BE FQDN> -BackupMirrorSqlInstanceName <Pool B Mirror BE Instance name>] -Force -Verbose
     
     Après cela, nous vous recommandons de déplacer le MCG du pool B vers un autre pool couplé existant pour une résilience supplémentaire. Pour plus d’informations, reportez-vous à [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/Move-CsManagementServer)..
 
-3.  Si le regroupement A contient le MCG, importez la configuration de LIS de la liste de la base de données LIS de pool A (LIS. mdf). Cela ne fonctionnera que si vous sauvegardez vos données LIS de façon régulière. Pour importer la configuration de LIS, exécutez les applets de commande suivantes:
+3.  Si le regroupement A contient le MCG, importez la configuration de LIS de la liste de la base de données LIS de pool A (LIS. mdf). Cela ne fonctionnera que si vous sauvegardez vos données LIS de façon régulière. Pour importer la configuration de LIS, exécutez les applets de commande suivantes :
     
         Import-CsLisConfiguration -FileName <String> 
         Publish-CsLisConfiguration
@@ -100,11 +102,11 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
         
         Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<Pool B FQDN>" -Owner "service:ApplicationServer:<Pool A FQDN>"
 
-6.  Pour les numéros non attribués, déplacez les plages de numéros non affectées qui utilisent «annonce» en tant que service d’annonce sélectionné du pool A à pool B. Pour cela, procédez comme suit:
+6.  Pour les numéros non attribués, déplacez les plages de numéros non affectées qui utilisent « annonce » en tant que service d’annonce sélectionné du pool A à pool B. Pour cela, procédez comme suit :
     
       - Recréez toutes les annonces qui ont été déployées dans le pool A du pool B. Si des fichiers audio étaient utilisés lors du déploiement des annonces dans le pool A, ces fichiers seront nécessaires pour recréer les annonces dans le pool B. Pour recréer les annonces dans le pool B, utilisez les applets de nouvelle applet de **CsAnnouncement** , avec le pool b en tant que service parent.
     
-      - Reciblez toutes les plages de numéros non attribués ciblant une annonce dans le pool A aux nouvelles annonces déployées dans le pool B. Exécutez l’applet de commande suivante pour chaque plage de numéros non attribués ciblant une annonce de groupe A:
+      - Reciblez toutes les plages de numéros non attribués ciblant une annonce dans le pool A aux nouvelles annonces déployées dans le pool B. Exécutez l’applet de commande suivante pour chaque plage de numéros non attribués ciblant une annonce de groupe A :
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool B FQDN>" -AnnouncementName "<New Announcement in pool B>"
     
@@ -112,12 +114,12 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
     
 
     > [!NOTE]  
-    > Cette étape n’est pas requise pour les plages de nombres non affectées qui utilisent le service d’annonce «Exchange UM».
+    > Cette étape n’est pas requise pour les plages de nombres non affectées qui utilisent le service d’annonce « Exchange UM ».
 
     
     </div>
 
-7.  Basculez le pool A vers le pool B en mode de reprise après sinistre (DR) en exécutant l’applet de commande suivante:
+7.  Basculez le pool A vers le pool B en mode de reprise après sinistre (DR) en exécutant l’applet de commande suivante :
     
         Invoke-CsPoolFailover -PoolFqdn <Pool A FQDN> -DisasterMode
 
@@ -125,30 +127,30 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
     
     Notez que cette étape peut être effectuée en même temps que les étapes 5 et 6.
 
-9.  Faites en sorte que les utilisateurs hébergés sur le pool A puissent accéder au pool C en exécutant l’applet de commande suivante:
+9.  Faites en sorte que les utilisateurs hébergés sur le pool A puissent accéder au pool C en exécutant l’applet de commande suivante :
     
         Get-csuser -Filter {RegistrarPool -eq "<Pool A FQDN>"} | Move-CsUser -Target <Pool C FQDN> -Force
     
     À ce stade, les utilisateurs hébergés sur le pool A commenceront à utiliser une panne de service. Cette interruption continuera jusqu’à l’étape 16, à partir de laquelle les services de pointage sont démarrés sur le pool C.
 
-10. Forcez le répertoire de conférences du groupe A à déplacer vers le pool C en exécutant l’applet de commande suivante:
+10. Forcez le répertoire de conférences du groupe A à déplacer vers le pool C en exécutant l’applet de commande suivante :
     
         Move-CsConferenceDirectory -Identity <Conference Directory ID of Pool A> -TargetPool <Pool C FQDN> -Force
 
-11. Forcez l’objet de contact de la Conférence automatique (CAA) à passer du pool A au pool C en exécutant l’applet de commande suivante:
+11. Forcez l’objet de contact de la Conférence automatique (CAA) à passer du pool A au pool C en exécutant l’applet de commande suivante :
     
         Move-csApplicationEndpoint -Identity "<Pool A CAA Uri>" -targetApplicationPool <Pool C FQDN> -force
 
 12. Copier le contenu d’une conférence du pool B vers le pool C.
 
-13. Exportez les données utilisateur à partir du pool B et importez les données utilisateur dans le pool C en exécutant les applets de commande suivantes:
+13. Exportez les données utilisateur à partir du pool B et importez les données utilisateur dans le pool C en exécutant les applets de commande suivantes :
     
         Export-CsUserData -PoolFqdn <Pool B Fqdn> -FileName <String>
         Import-CsUserData -PoolFqdn <Pool C Fqdn> -FileName <String>
 
 14. Restaurez les données d’application du parc d’appels sauvegardés à partir du pool A dans le pool C et attribuez-leur les plages d’orbites du pool A au pool C.
     
-      - Vous pouvez réattribuer une plage d’orbites du pool A au pool C à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell. Pour Lync Server Management Shell, exécutez l’applet de commande suivante pour chaque plage d’orbite de parc d’appels affectée au pool A (Notez que le paramètre Identity fait référence à des plages d’orbite de parking qui appartiennent au pool A):
+      - Vous pouvez réattribuer une plage d’orbites du pool A au pool C à l’aide du panneau de configuration de Lync Server ou de Lync Server Management Shell. Pour Lync Server Management Shell, exécutez l’applet de commande suivante pour chaque plage d’orbite de parc d’appels affectée au pool A (Notez que le paramètre Identity fait référence à des plages d’orbite de parking qui appartiennent au pool A) :
         
             Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Pool C FQDN>"
     
@@ -166,13 +168,13 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
     
       - Dans le générateur de topologie, modifiez le pool de conversation permanente de manière à ce qu’il pointe vers le pool C comme tronçon suivant. Pour ce faire, cliquez avec le bouton droit de la touche dans la liste de conversations permanentes, cliquez sur l’onglet **général** , puis tapez le nom du pool C dans le **pool de sauts suivant**.
     
-      - Démarrez les services sur le pool C en exécutant l’applet de commande suivante:
+      - Démarrez les services sur le pool C en exécutant l’applet de commande suivante :
         
             Start-csWindowsService
     
     À ce stade, l’interruption du service se termine pour les utilisateurs initialement hébergés sur le pool A.
 
-16. Exportez les flux de travail du service de groupe de réponse de Lync Server du pool B possédé par le pool A pour l’importation dans le pool C en exécutant l’applet de commande suivante:
+16. Exportez les flux de travail du service de groupe de réponse de Lync Server du pool B possédé par le pool A pour l’importation dans le pool C en exécutant l’applet de commande suivante :
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<Pool B FQDN>" -Owner "service:ApplicationServer:<Pool A FQDN>" -FileName "C:\RgsExportPrimaryUpdated.zip" 
 
@@ -213,7 +215,7 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
     
       - Recréer dans le pool C toutes les annonces qui ont été recréées à partir du pool A dans le pool B. Si des fichiers audio étaient utilisés lors du déploiement des annonces à déplacer, vous devrez utiliser ces fichiers pour recréer les annonces dans le pool C. Pour recréer les annonces dans le pool C, utilisez les applets de nouvelle applet de **nouvelle-CsAnnouncement** , avec le service parent du pool c.
     
-      - Reciblez le pool C toutes les plages de numéros non attribuées qui ont été reciblées du pool A vers le pool B. Exécutez l’applet de commande suivante pour chaque plage de nombres non affectée qui doit être reciblée:
+      - Reciblez le pool C toutes les plages de numéros non attribuées qui ont été reciblées du pool A vers le pool B. Exécutez l’applet de commande suivante pour chaque plage de nombres non affectée qui doit être reciblée :
         
             Set-CsUnassignedNumber -Identity "<Range Name>" -AnnouncementService "<Pool C FQDN>" -AnnouncementName "<New Announcement in pool C>"
     
@@ -223,22 +225,22 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
         
 
         > [!NOTE]  
-        > Cette étape n’est pas requise pour les plages de nombres non affectées qui utilisent le service d’annonce «UM Exchange».
+        > Cette étape n’est pas requise pour les plages de nombres non affectées qui utilisent le service d’annonce « UM Exchange ».
 
         
         </div>
 
-21. Nettoyez les données utilisateur du pool A dans le pool B en exécutant l’applet de commande suivante:
+21. Nettoyez les données utilisateur du pool A dans le pool B en exécutant l’applet de commande suivante :
     
         Remove-CsUserStoreBackupData -PoolFqdn <Pool B FQDN> -Verbose
 
-22. Procédez comme suit dans le générateur de topologie:
+22. Procédez comme suit dans le générateur de topologie :
     
       - Découpler le pool A et le pool B Supprimez ensuite le regroupement A de la topologie et publiez-le. Pour ce faire :
         
           - Dans le générateur de topologie, cliquez avec le bouton droit sur le pool B, puis cliquez sur **modifier les propriétés**.
         
-          - Cliquez **** sur résilience dans le volet gauche.
+          - Cliquez sur **résilience** dans le volet gauche.
         
           - Dans la zone située en dessous de **pool de sauvegarde associé**, sélectionnez Pool C. Notez que la zone de sélection de pool de sauvegarde associée affiche le pool a pour la première fois, car le pool B a été précédemment associé au pool.
         
@@ -250,46 +252,46 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
         
           - Publiez la topologie.
 
-23. Exécutez l’application de démarrage sur le pool C pour installer l’application de service de sauvegarde, puis démarrez l’application de service de sauvegarde en exécutant la commande suivante à partir du dossier de déploiement sur un ordinateur local dans le pool C:
+23. Exécutez l’application de démarrage sur le pool C pour installer l’application de service de sauvegarde, puis démarrez l’application de service de sauvegarde en exécutant la commande suivante à partir du dossier de déploiement sur un ordinateur local dans le pool C :
     
         Run "%SYSTEMROOT%\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe"
         Start-CsWindowsService -name LyncBackup
 
-24. Redémarrez l’application de service de sauvegarde sur le pool B en exécutant les applets de commande suivantes:
+24. Redémarrez l’application de service de sauvegarde sur le pool B en exécutant les applets de commande suivantes :
     
         Stop-CsWindowsService -name LyncBackup
         Start-CsWindowsService -name LyncBackup
 
-25. S’il s’agit d’un pool standard édition (SE) et du pool B de CMS, installez la base de données CMS manuellement sur le pool C en exécutant l’applet de commande suivante:
+25. S’il s’agit d’un pool standard édition (SE) et du pool B de CMS, installez la base de données CMS manuellement sur le pool C en exécutant l’applet de commande suivante :
     
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <Pool C FQDN> -SqlInstanceName rtc
 
-26. Invoquez le service de sauvegarde pour synchroniser les anciens contenus de conférences du pool B vers le pool C qui a été généré avant de jumeler les paires B et C, et pour synchroniser le nouveau contenu de conférences du pool C vers le pool B qui a été généré après le démarrage du pool C et avant le jumelage entre B et C. Pour cela, exécutez les applets de commande suivantes:
+26. Invoquez le service de sauvegarde pour synchroniser les anciens contenus de conférences du pool B vers le pool C qui a été généré avant de jumeler les paires B et C, et pour synchroniser le nouveau contenu de conférences du pool C vers le pool B qui a été généré après le démarrage du pool C et avant le jumelage entre B et C. Pour cela, exécutez les applets de commande suivantes :
     
         Invoke-CsBackupServiceSync -PoolFqdn <Pool C FQDN>
         Invoke-CsBackupServiceSync -PoolFqdn <Pool B FQDN>
 
-27. Pour chaque appareil de branchement Survivable X associé au pool A:
+27. Pour chaque appareil de branchement Survivable X associé au pool A :
     
-      - Arrêtez l’argument SBA X en exécutant l’applet de commande suivante:
+      - Arrêtez l’argument SBA X en exécutant l’applet de commande suivante :
         
             Stop-CsWindowsService
     
-      - Créez un fichier contenant une liste d’utilisateurs hébergés sur SBA X. La liste sera nécessaire lorsque les utilisateurs seront redirigés vers SBA X à l’étape 30. Pour cela, exécutez l’applet de commande suivante:
+      - Créez un fichier contenant une liste d’utilisateurs hébergés sur SBA X. La liste sera nécessaire lorsque les utilisateurs seront redirigés vers SBA X à l’étape 30. Pour cela, exécutez l’applet de commande suivante :
         
             Get-CsUser -Filter {RegistrarPool -eq "<SBA X FQDN>"} | Export-Csv d:\sbaxusers.txt
     
-      - Faites en sorte que les utilisateurs hébergés sur SBA X soient déplacés vers le pool C en exécutant l’applet de commande suivante:
+      - Faites en sorte que les utilisateurs hébergés sur SBA X soient déplacés vers le pool C en exécutant l’applet de commande suivante :
         
             Get-CsUser -Filter {RegistrarPool -eq "<SBA X FQDN>"} | Move-CsUser -Target <Pool C FQDN> -Force -Verbose
     
-      - Mettez à jour les données de ces utilisateurs en exécutant d’abord les applets de commande suivantes:
+      - Mettez à jour les données de ces utilisateurs en exécutant d’abord les applets de commande suivantes :
         
             Convert-csUserData -InputFile <Data file exported from PoolB> -OutputFile c:\Logs\ExportedUserData.xml -TargetVersionLync2010 
             $a=get-csuser -Filter {RegistrarPool -eq "FQDN of SBA X"} | select SipAddress
             foreach($x in $a) {$x.SipAddress.Substring(4) >> users.txt}
         
-        Puis exécutez le script suivant:
+        Puis exécutez le script suivant :
         
             $users=gc c:\logs\users.txt
             foreach ($user in $users)
@@ -306,15 +308,15 @@ Pour exécuter les applets de cmdlet, ouvrez Lync Server Management Shell à l�
         
         </div>
 
-28. Dans le générateur de topologie, pour chaque SBA X précédemment associé au pool A, procédez comme suit:
+28. Dans le générateur de topologie, pour chaque SBA X précédemment associé au pool A, procédez comme suit :
     
       - Remplacez l’Association par le pool C. Pour cela, cliquez sur le site de la succursale, développez le nœud périphériques et périphériques Survivables, puis cliquez sur **appareil de branchement Survivable**. Sélectionnez ensuite le pool **frontal, le pool de services d’utilisateurs** auquel cette application de branche Survivable sera connectée en tant que Pool C, puis cliquez sur **suivant**.
     
       - Publiez la topologie. Pour ce faire, dans l’arborescence de la console, cliquez avec le bouton droit sur la nouvelle **application branche Survivable**, cliquez sur **Topology**, puis sur **publier**.
 
-29. Pour chaque SBA X désormais associé au pool C:
+29. Pour chaque SBA X désormais associé au pool C :
     
-      - Démarrez SBA X en exécutant l’applet de commande suivante sur l’unité de commande Survivable:
+      - Démarrez SBA X en exécutant l’applet de commande suivante sur l’unité de commande Survivable :
         
             Start-CsWindowsService
     

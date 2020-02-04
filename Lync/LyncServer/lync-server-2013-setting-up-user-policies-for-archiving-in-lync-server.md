@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de stratégies utilisateur pour l’archivage dans Lync Server'
+title: 'Lync Server 2013 : configuration de stratégies utilisateur pour l’archivage dans Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up user policies for Archiving in Lync Server
 ms:assetid: 22d6cc76-6b5c-4a8c-bb8a-7996450ec085
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204742(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3921956949f38390277328495398970203993377
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fa8f377c2a78275419c7d4906a51a9550864b8ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846828"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846828"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-10_
+_**Dernière modification de la rubrique :** 2012-10-10_
 
 L’activation ou la désactivation de l’archivage pour des utilisateurs spécifiques hébergés sur Lync Server 2013 nécessite la création et la configuration d’une ou plusieurs stratégies utilisateur, puis l’application de la stratégie appropriée à des utilisateurs ou groupes d’utilisateurs spécifiques. Les stratégies utilisateur remplacent les stratégies de site et globales, mais uniquement pour les utilisateurs hébergés sur Lync Server 2013.
 

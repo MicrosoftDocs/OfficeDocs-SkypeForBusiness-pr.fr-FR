@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: applets de applet de contournement multimédia'
+title: 'Lync Server 2013 : applets de applet de contournement multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass cmdlets
 ms:assetid: c3463dd2-2372-41b5-8b49-cbe5c2261b6f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415674(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47414dc07b0d26169df9c678283317c3f6c9c7a5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827486"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41761960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34827486"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-03-21_
+_**Dernière modification de la rubrique :** 2012-03-21_
 
 La dérivation multimédia désigne la suppression du serveur de médiation du chemin multimédia dans la mesure du possible pour les appels dont le signalement traverse le serveur de médiation.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration de la messagerie unifiée Microsoft Exchange Server 2013 pour Lync Server 2013'
+title: 'Lync Server 2013 : configuration de la messagerie unifiée Microsoft Exchange Server 2013 pour Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687983(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e1d2bac84183e6cc274d6bb297c17401b3ff7f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 367f4cc517771f51d7a1452293ad9803075d285f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,18 +35,18 @@ ms.locfileid: "34838210"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-04_
+_**Dernière modification de la rubrique :** 2013-02-04_
 
-Microsoft Lync Server 2013 vous permet d’utiliser les messages vocaux stockés dans Microsoft Exchange Server 2013. ces messages vocaux apparaissent alors sous forme de courriers dans les boîtes de réception de vos utilisateurs. Cette fonctionnalité est également disponible dans les éditions 2010 de Lync Server et Exchange; Toutefois, le processus de configuration de ce «message unifié» a été simplifié dans les éditions 2013 grâce à l’introduction du composant routeur de messagerie unifiée. Ce composant est installé sur le serveur d’accès au client Exchange 2013, et tous les appels à la messagerie unifiée Exchange (par exemple, un message vocal) sont d’abord acheminés via le routeur d’appel, puis redirigés vers le serveur de boîte aux lettres approprié.
+Microsoft Lync Server 2013 vous permet d’utiliser les messages vocaux stockés dans Microsoft Exchange Server 2013. ces messages vocaux apparaissent alors sous forme de courriers dans les boîtes de réception de vos utilisateurs. Cette fonctionnalité est également disponible dans les éditions 2010 de Lync Server et Exchange ; Toutefois, le processus de configuration de ce « message unifié » a été simplifié dans les éditions 2013 grâce à l’introduction du composant routeur de messagerie unifiée. Ce composant est installé sur le serveur d’accès au client Exchange 2013, et tous les appels à la messagerie unifiée Exchange (par exemple, un message vocal) sont d’abord acheminés via le routeur d’appel, puis redirigés vers le serveur de boîte aux lettres approprié.
 
-Si vous avez déjà configuré l’authentification de serveur à serveur entre Lync Server 2013 et Exchange 2013, vous pouvez configurer la messagerie unifiée. Pour ce faire, vous devez commencer par créer et affecter un nouveau plan de numérotation de messagerie unifiée sur votre serveur Exchange. Par exemple, ces deux commandes (exécutées à partir d’Exchange Management Shell) configurent un nouveau plan de numérotation à 3 chiffres pour Exchange:
+Si vous avez déjà configuré l’authentification de serveur à serveur entre Lync Server 2013 et Exchange 2013, vous pouvez configurer la messagerie unifiée. Pour ce faire, vous devez commencer par créer et affecter un nouveau plan de numérotation de messagerie unifiée sur votre serveur Exchange. Par exemple, ces deux commandes (exécutées à partir d’Exchange Management Shell) configurent un nouveau plan de numérotation à 3 chiffres pour Exchange :
 
     New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
     Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 
 Dans la première commande de cet exemple, le paramètre VoIPSecurity et la valeur « Secured » du paramètre indiquent que le canal de signalisation est chiffré à l’aide du protocole TLS (Transport Layer Security). La valeur « SipName » de URIType indique que les messages seront envoyés et reçus à l’aide du protocole SIP et la valeur 1 de CountryOrRegionCode signifie que le plan de numérotation s’applique aux États-Unis.
 
-Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryOrRegionGroups indique quels groupes régionaux peuvent être utilisés avec ce plan de numérotation. La valeur de paramètre «Anywhere\*,\*,\*» définit les éléments suivants:
+Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryOrRegionGroups indique quels groupes régionaux peuvent être utilisés avec ce plan de numérotation. La valeur de paramètre « Anywhere\*,\*,\*» définit les éléments suivants :
 
   - Nom du groupe (« Anywhere »)
 
@@ -64,11 +66,11 @@ Dans la seconde commande, la valeur transmise au paramètre ConfiguredInCountryO
 
 </div>
 
-Après avoir créé et configuré le nouveau plan de numérotation, vous devez ajouter le nouveau plan de numérotation à votre serveur de messagerie unifiée, puis modifier le mode de démarrage de ce serveur. en particulier, vous devez définir le mode de démarrage sur «Dual». Vous pouvez effectuer les deux tâches suivantes à partir d’Exchange Management Shell:
+Après avoir créé et configuré le nouveau plan de numérotation, vous devez ajouter le nouveau plan de numérotation à votre serveur de messagerie unifiée, puis modifier le mode de démarrage de ce serveur. en particulier, vous devez définir le mode de démarrage sur « Dual ». Vous pouvez effectuer les deux tâches suivantes à partir d’Exchange Management Shell :
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-Après avoir configuré le serveur de messagerie unifiée, vous devez exécuter l’applet de certification Enable-ExchangeCertificate pour vous assurer que votre certificat Exchange est appliqué au service de messagerie unifiée:
+Après avoir configuré le serveur de messagerie unifiée, vous devez exécuter l’applet de certification Enable-ExchangeCertificate pour vous assurer que votre certificat Exchange est appliqué au service de messagerie unifiée :
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 
@@ -91,7 +93,7 @@ Vous pouvez également activer un utilisateur pour la messagerie unifiée en uti
 
 Dans la commande précédente, le paramètre Extensions représente le numéro de poste de l’utilisateur. Dans cet exemple, le numéro de poste de l’utilisateur est le 100.
 
-Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Vous pouvez vérifier que l’utilisateur peut se connecter à la messagerie unifiée Exchange en exécutant l’applet de connexion [test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) à partir de Lync Server Management Shell:
+Une fois sa boîte aux lettres activée, l’utilisateur kenmyer@litwareinc.com doit être en mesure d’utiliser la messagerie unifiée Exchange. Vous pouvez vérifier que l’utilisateur peut se connecter à la messagerie unifiée Exchange en exécutant l’applet de connexion [test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) à partir de Lync Server Management Shell :
 
     $credential = Get-Credential "litwareinc\kenmyer"
     

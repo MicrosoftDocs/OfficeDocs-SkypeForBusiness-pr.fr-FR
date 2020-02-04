@@ -3,6 +3,8 @@ title: Migrer des groupes Response Group
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate response groups
 ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60a5bb2b2124b84adeb6a494f6f33ce867f7d416
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23ef26b86b1de3fa7f9656cdb2ea82bb7a220948
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34846166"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-09-23_
+_**Dernière modification de la rubrique :** 2013-09-23_
 
 Après avoir déplacé vos utilisateurs vers les pools Lync Server 2013, vous pouvez migrer vos groupes de réponse. La migration de groupes de réponse inclut la copie de groupes d’agents, de files d’attente, de flux de travail, de fichiers audio et de déplacements de groupe de réponses de l’ancien déploiement au pool Lync Server 2013. Après la migration de vos groupes de réponse hérités, les appels vers les groupes de réponse sont gérés par l’application Response Group dans le pool Lync Server 2013. Les appels de Response Groups ne sont plus gérés par le pool hérité.
 
@@ -107,7 +109,7 @@ La procédure suivante pour la migration de configurations de groupe de réponse
 
 1.  Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalServerAdmins ou disposant d’autorisations et de droits d’administrateur équivalents.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 3.  Exécutez :
     
@@ -145,9 +147,9 @@ La procédure suivante pour la migration de configurations de groupe de réponse
 
 1.  Ouvrez une session sur l’ordinateur avec un compte membre du groupe RTCUniversalReadOnlyAdmins ou qui est membre du rôle CsViewOnlyAdministrator.
 
-2.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+2.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
     
-    Pour plus d’informations sur les applets de commande suivantes, exécutez:
+    Pour plus d’informations sur les applets de commande suivantes, exécutez :
     
         Get-Help <cmdlet name> -Detailed
 
