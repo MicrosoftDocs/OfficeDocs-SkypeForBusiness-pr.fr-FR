@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Back up systems and data
 ms:assetid: d61fddc1-98d4-4577-a371-33f9e221288c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205303(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f67f47670ad39ebd44360f488432e7a383b63fea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b3d5354cda17b574a686dbb9e942491041d8f794
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232883"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36232883"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-18_
+_**Dernière modification de la rubrique :** 2012-09-18_
 
 Avant de commencer la migration vers Lync Server 2013, nous vous recommandons vivement d’effectuer une sauvegarde complète du système et de documenter votre système existant, y compris un inventaire des comptes d’utilisateurs hébergés sur chaque liste, afin que vous puissiez revenir à Lync Server 2010 le cas échéant. C’est nécessaire. Plusieurs outils et programmes sont disponibles pour la sauvegarde et la restauration de données, de paramètres et de systèmes.
 

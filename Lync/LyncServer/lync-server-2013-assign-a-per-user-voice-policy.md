@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie vocale par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie vocale par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user voice policy
 ms:assetid: 9ee47ee7-1030-43b8-a4dc-bf685ea24659
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688155(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e74bebc202a9e8d9fbc7b925c14bbe030e4c577
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c3818ae60cd9ae3e8537bf17bee01508e32dfa26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723404"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>Affecter une stratégie vocale par utilisateur dans Lync Server 2013
 
@@ -44,7 +46,7 @@ Les stratégies de voix globale et de niveau site sont automatiquement affectée
 
 ## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie vocale par utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-Vous pouvez affecter des stratégies vocales par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsVoicePolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez affecter des stratégies vocales par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsVoicePolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>Pour attribuer une stratégie vocale par utilisateur à un utilisateur unique
 

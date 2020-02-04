@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: configuration requise pour le routage sur site pour les conférences'
+title: 'Lync Server 2013 : configuration requise pour le routage sur site pour les conférences'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for Location-Based Routing for conferencing
 ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362806(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 925b71497012d7e6ed9c19042a079a7b30630c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac57a32476d80ab1aca5d2ad0928e2862a4c8558
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823321"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-07-19_
+_**Dernière modification de la rubrique :** 2013-07-19_
 
-Voici les exigences requises pour l’installation et la configuration de l’application de conférence de routage basée sur l’emplacement:
+Voici les exigences requises pour l’installation et la configuration de l’application de conférence de routage basée sur l’emplacement :
 
   - La mise à jour cumulative 2 Lync Server 2013 doit être déployée sur tous les serveurs ou pools de votre topologie.
 
@@ -119,7 +121,7 @@ Le tableau suivant identifie la combinaison de rôles et de versions du serveur 
 
 ## <a name="supported-clients"></a>Clients pris en charge
 
-Les clients Lync prenant en charge le routage par emplacement des réunions Lync sont les mêmes que ceux prenant en charge le routage sur l’emplacement Lync Server 2013. Pour plus d’informations, consultez [prise en charge des clients et du serveur pour le routage](lync-server-2013-client-and-server-support-for-location-based-routing.md)géolocalisation.
+Les clients Lync prenant en charge le routage par emplacement des réunions Lync sont les mêmes que ceux prenant en charge le routage sur l’emplacement Lync Server 2013. Pour plus d’informations, consultez [prise en charge des clients et du serveur pour le routage géolocalisation](lync-server-2013-client-and-server-support-for-location-based-routing.md).
 
 </div>
 
@@ -129,11 +131,11 @@ Les clients Lync prenant en charge le routage par emplacement des réunions Lync
 
 L’application de conférence de routage basée sur l’emplacement nécessite le déploiement de serveurs de médiation autonomes pour appliquer les restrictions de routage basées sur les emplacements aux transferts d’appel consultatif.
 
-Pour appliquer le routage des appels de consultation selon l’emplacement, le serveur de médiation doit être associé à un seul homologue du serveur de médiation (par exemple, PBX, passerelle SIP, etc.) dans les régions réseau où le routage de l’emplacement est requis. Si d’autres homologues du serveur de médiation sont déployés dans la même région réseau, l’homologue du serveur de médiation doit être associé à un serveur de médiation différent. Cette obligation est détaillée comme suit:
+Pour appliquer le routage des appels de consultation selon l’emplacement, le serveur de médiation doit être associé à un seul homologue du serveur de médiation (par exemple, PBX, passerelle SIP, etc.) dans les régions réseau où le routage de l’emplacement est requis. Si d’autres homologues du serveur de médiation sont déployés dans la même région réseau, l’homologue du serveur de médiation doit être associé à un serveur de médiation différent. Cette obligation est détaillée comme suit :
 
   - Serveur de médiation unique par plusieurs homologues du serveur de médiation lorsque le transfert d’un appel consultatif est acheminé vers un homologue du serveur de médiation par le biais d’un serveur de médiation configuré avec plusieurs ISL SIP pour plusieurs homologues (PBX et passerelles), le Conseil le transfert d’appel est bloqué pour empêcher le contournement du protocole RTC si le transfert d’appel est autorisé par le biais de lignes SIP, mais rejeté par d’autres ISL SIP.
     
-    Par exemple, dans le cas d’un serveur de médiation unique qui dessert un homologue du serveur de médiation de la passerelle RTC et un homologue du serveur de médiation PBX, le comportement suivant est observé:
+    Par exemple, dans le cas d’un serveur de médiation unique qui dessert un homologue du serveur de médiation de la passerelle RTC et un homologue du serveur de médiation PBX, le comportement suivant est observé :
     
       - Lorsqu’un utilisateur Lync à partir d’un site donné (par exemple, le site 1) tente de transférer un appel avec un point de terminaison RTC à un utilisateur Lync à partir d’un site différent (par exemple, site 2) par le biais du transfert de consultation, l’appel n’est pas autorisé à éviter le contournement du numéro RTC.
     
@@ -143,7 +145,7 @@ Pour appliquer le routage des appels de consultation selon l’emplacement, le s
     
     Lorsque le transfert consultatif est ciblé auprès d’un homologue de serveur de médiation, le transfert de la consultation est évalué par rapport à l’homologue du serveur de médiation unique desservi par le serveur de médiation. L’appel sera interdit ou autorisé en fonction de son potentiel dans le cadre du contournement du numéro RTC, quels que soient les autres homologues du site dans le cadre de leur service par des serveurs de médiation distincts.
     
-    Par exemple, dans le cas d’un serveur de médiation distinct prenant en service un homologue de serveur de médiation de passerelle RTC et un homologue de serveur de médiation PBX, le comportement suivant est observé:
+    Par exemple, dans le cas d’un serveur de médiation distinct prenant en service un homologue de serveur de médiation de passerelle RTC et un homologue de serveur de médiation PBX, le comportement suivant est observé :
     
       - Lorsqu’un utilisateur Lync à partir d’un site donné (par exemple, le site 1) tente de transférer un appel avec un point de terminaison RTC à un utilisateur Lync à partir d’un site différent (par exemple, site 2) par le biais du transfert de consultation, l’appel n’est pas autorisé à éviter le contournement du numéro RTC.
     
@@ -155,7 +157,7 @@ Pour appliquer le routage des appels de consultation selon l’emplacement, le s
 
 ## <a name="capabilities-not-supported-by-the-location-based-routing-conferencing-application"></a>Fonctionnalités non prises en charge par l’application de conférence de routage basée sur l’emplacement
 
-Les fonctionnalités suivantes ne sont pas prises en charge par l’application de conférence de routage basée sur l’emplacement:
+Les fonctionnalités suivantes ne sont pas prises en charge par l’application de conférence de routage basée sur l’emplacement :
 
   - Conférence rendez-vous. Le routage en fonction de l’emplacement ne peut pas être appliqué pour la Conférence rendez-vous. Toute demande d’accès à une conférence donnée n’est pas limitée par le routage de l’emplacement, même si l’organisateur de la Conférence est un utilisateur de Lync prenant en charge le routage de l’emplacement.
 

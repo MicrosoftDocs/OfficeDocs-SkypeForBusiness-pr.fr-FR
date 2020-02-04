@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une règle de stratégie de version de client'
+title: 'Lync Server 2013 : création ou modification d’une règle de stratégie de version de client'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a new client version policy rule
 ms:assetid: 6f879d99-8401-41e0-a562-195c890d63ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa5f9074f928a9bec20ca275487806b790a0226b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 442341c51ef6477f72fb9e88cdea5fe7fc527aa8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831785"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831785"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-01-21_
+_**Dernière modification de la rubrique :** 2013-01-21_
 
 Les règles de stratégie de version du client définissent les actions qui doivent être effectuées lorsque les utilisateurs essaient de se connecter à l’aide de clients et de versions client spécifiques. Vous pouvez créer ou modifier des règles individuelles pour une stratégie de version de client à partir du panneau de configuration de Lync Server 2013.
 
@@ -53,7 +55,7 @@ Les règles de stratégie de version du client définissent les actions qui doiv
 
 1.  [Créez ou modifiez une nouvelle stratégie de version de client dans Lync server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) avec le panneau de configuration de Lync Server.
 
-2.  Dans la page **modifier la stratégie de version du client** , effectuez l’une des opérations suivantes:
+2.  Dans la page **modifier la stratégie de version du client** , effectuez l’une des opérations suivantes :
     
       - Cliquez sur **nouveau** pour créer une règle de version de client.
     
@@ -70,7 +72,7 @@ Les règles de stratégie de version du client définissent les actions qui doiv
 
 3.  Dans **agent utilisateur**, sélectionnez un type de client.
 
-4.  Sous **numéro de version**, procédez comme suit:
+4.  Sous **numéro de version**, procédez comme suit :
     
       - Dans **version principale**, tapez le numéro qui correspond à la version majeure du client.
     
@@ -89,7 +91,7 @@ Les règles de stratégie de version du client définissent les actions qui doiv
     
     </div>
 
-5.  Pour spécifier l’opération correspondante pour la version du client spécifiée dans les étapes précédentes, dans **opération de comparaison**, cliquez sur l’une des options suivantes:
+5.  Pour spécifier l’opération correspondante pour la version du client spécifiée dans les étapes précédentes, dans **opération de comparaison**, cliquez sur l’une des options suivantes :
     
       - **Identique à**
     
@@ -103,7 +105,7 @@ Les règles de stratégie de version du client définissent les actions qui doiv
     
       - **Postérieur ou simultané**
 
-6.  Pour spécifier l’action à exécuter lorsque les critères spécifiés dans les étapes précédentes sont remplis, cliquez sur l’une **** des options suivantes:
+6.  Pour spécifier l’action à exécuter lorsque les critères spécifiés dans les étapes précédentes sont remplis, **cliquez sur l'** une des options suivantes :
     
       - Pour permettre au client de se connecter, cliquez sur **autoriser**.
     

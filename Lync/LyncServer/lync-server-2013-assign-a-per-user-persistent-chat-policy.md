@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie de discussion persistante par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie de discussion persistante par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user Persistent Chat policy
 ms:assetid: e22168f2-fde1-4f0a-b194-1fc881436822
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733842
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 081e6724f5df2389a8ef89e83b2df91b49a1b991
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 616a171d4aedcc6014ddea3c5993a097d410a5e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846899"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722824"
 ---
 # <a name="assign-a-per-user-persistent-chat-policy-in-lync-server-2013"></a>Assigner une stratégie de discussion persistante par utilisateur dans Lync Server 2013
 
@@ -63,7 +65,7 @@ Vous pouvez assigner une stratégie de discussion persistante par utilisateur à
 
 
 
-7.  Dans **affecter des stratégies**, sous **stratégie de conversation persistante**, effectuez l’une des opérations suivantes:
+7.  Dans **affecter des stratégies**, sous **stratégie de conversation persistante**, effectuez l’une des opérations suivantes :
     
 
     > [!NOTE]  
@@ -84,7 +86,7 @@ Vous pouvez assigner une stratégie de discussion persistante par utilisateur à
 
 ## <a name="assigning-a-per-user-persistent-chat-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie de chat permanent par utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-Vous pouvez également attribuer des stratégies de chat permanent par utilisateur à l’aide de l’applet de passe **Grant-CsPersistentChatPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez également attribuer des stratégies de chat permanent par utilisateur à l’aide de l’applet de passe **Grant-CsPersistentChatPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-persistent-chat-policy-to-a-single-user"></a>Pour attribuer une stratégie de discussion persistante par utilisateur à un utilisateur unique
 

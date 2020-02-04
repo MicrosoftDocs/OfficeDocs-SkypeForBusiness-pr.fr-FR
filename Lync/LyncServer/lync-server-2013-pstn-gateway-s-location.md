@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Emplacement de la passerelle RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateway's location
 ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994031(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803940
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b897d9ce438844cde7617bb7c3e1dae086605f09
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5d15589f37b18015f91e3717e19415d5ade6b6c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823545"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,17 +35,17 @@ ms.locfileid: "34823545"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-03-09_
+_**Dernière modification de la rubrique :** 2013-03-09_
 
 Les appels routés via des passerelles RTC et des PBX peuvent nécessiter des limitations de routage basées sur l’emplacement selon l’emplacement de ces systèmes. Le routage basé sur l’emplacement peut être activé en fonction du niveau de granularité par Trunk.
 
-Le routage basé sur l’emplacement présente l’ensemble de règles suivant lorsqu’il est activé sur un Trunk:
+Le routage basé sur l’emplacement présente l’ensemble de règles suivant lorsqu’il est activé sur un Trunk :
 
   - Lorsque le routage basé sur l’emplacement est activé sur une base par Trunk, les règles définies sur ce Trunk s’appliquent uniquement aux appels routés via ce Trunk.
 
   - Pour éviter les péages RTC dans lesquels les appels proviennent d’un site réseau différent du site du réseau sur lequel se trouve la passerelle RTC, le routage de géolocalisation présente l’Association d’un site réseau à un Trunk donné. Cela permet de définir le site réseau qui permet l’acheminement des appels vers une jonction donnée.
 
-Les types de Trunk peuvent être activés pour le routage selon l’emplacement de deux manières:
+Les types de Trunk peuvent être activés pour le routage selon l’emplacement de deux manières :
 
   - La jonction est définie pour une passerelle RTC qui fait sortir les appels vers le réseau téléphonique commuté (RTC). Les appels entrants pris en charge par une jonction de ce type sont acheminés uniquement vers les points de terminaison situés au sein du même site réseau que la jonction.
 

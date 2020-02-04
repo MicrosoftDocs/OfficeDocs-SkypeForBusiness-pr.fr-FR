@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: accès aux données d’analyse'
+title: 'Lync Server 2013 : accès aux données d’analyse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessing monitoring data
 ms:assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688116(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45f6033c927a0d0c27b139d889c5fb0b0d9d4825
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 609963f3248d5bdd1c50eac45b74c188ab2e6c56
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838973"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-05_
+_**Dernière modification de la rubrique :** 2012-09-05_
 
 Les données de surveillance sont stockées dans deux bases de données SQL Server: LcsCdr pour les données d’enregistrement de détails des appels et QoEMetrics pour les données de qualité de l’expérience. Ces deux bases de données n’ont rien de particulier, les données qu’elles contiennent sont accessibles avec les outils que vous utilisez habituellement pour accéder à et analyser des données SQL Server.
 

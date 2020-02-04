@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création ou modification d’un site réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a network site
 ms:assetid: 14e24856-9996-4da4-9f31-300940bdf5aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398218(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1afb986f88af11ee2020b760e0a6d65aabed838c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ed721a48b12a497b25d58e7ebb65ff3a91980904
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831804"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831804"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-24_
+_**Dernière modification de la rubrique :** 2013-02-24_
 
 Les déploiements de contrôle d’admission des appels (CAC), de E9-1-1 et de contournement de média multimédias dépendent de la configuration des *sites réseau* qui sont définis dans et qui sont toujours associés à une région réseau. Un site réseau représente une succursale, un ensemble de bâtiments ou un campus. Les sites réseau représentent des collections de sous-réseaux avec une bande passante similaire.
 
@@ -43,7 +45,7 @@ Pour créer ou modifier des sites réseau, utilisez les procédures suivantes. P
 
 
 > [!NOTE]  
-> Le cas échéant, vous trouverez des exemples et des exigences spécifiques pour les sites réseau en ce qui concerne une fonctionnalité vocale avancée dans la documentation de déploiement pour chaque fonctionnalité: 
+> Le cas échéant, vous trouverez des exemples et des exigences spécifiques pour les sites réseau en ce qui concerne une fonctionnalité vocale avancée dans la documentation de déploiement pour chaque fonctionnalité : 
 > <UL>
 > <LI>
 > <P><A href="lync-server-2013-configure-network-sites-for-cac.md">Configurer les sites réseau pour le CAC dans Lync Server 2013</A></P></LI></UL>
@@ -52,7 +54,7 @@ Pour créer ou modifier des sites réseau, utilisez les procédures suivantes. P
 
 </div>
 
-Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des sites réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)
 
@@ -72,7 +74,7 @@ Créez une région réseau qui peut être utilisée par le contrôle d’admissi
 
 ## <a name="to-create-a-network-site-by-using-management-shell"></a>Pour créer un site réseau à l’aide de Management Shell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande New-CsNetworkSite pour créer des sites réseau :
     
@@ -155,7 +157,7 @@ Modification d’une région réseau qui peut être utilisée par le contrôle d
 
 ## <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande Set-CsNetworkSite pour modifier des sites réseau :
     

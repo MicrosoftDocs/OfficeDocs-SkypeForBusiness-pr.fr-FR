@@ -3,6 +3,8 @@ title: Créer ou modifier une règle de traduction à l’aide de l’outil cré
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a translation rule by using the Build a Translation Rule tool
 ms:assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06f498af25dfd851bd2950ce08d5c66179b95ebc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d45ca4e04146a175ec2782aa798ac27559fce495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831782"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831782"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-05_
+_**Dernière modification de la rubrique :** 2012-10-05_
 
 Suivez ces étapes si vous voulez définir une règle de traduction en entrant un ensemble de valeurs dans l’outil **créer une règle de traduction** et en activant le panneau de configuration de Lync Server pour générer le modèle de correspondance et la règle de traduction correspondants pour vous. Vous pouvez également écrire manuellement une expression régulière pour définir le modèle correspondant et la règle de traduction. Pour plus d’informations, reportez-vous à [créer ou modifier une règle de traduction manuellement dans Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md).
 

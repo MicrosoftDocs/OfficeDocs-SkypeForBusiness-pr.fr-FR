@@ -3,6 +3,8 @@ title: Topologie de référence de Lync Server 2013 pour les organisations de ta
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4c29107a6ca3d33e76708be9eec07297eeaf93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824042"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,13 +35,13 @@ ms.locfileid: "34824042"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-07_
+_**Dernière modification de la rubrique :** 2013-10-07_
 
 La topologie de référence avec haute disponibilité et centre de données unique est conçue pour une entreprise de taille petite ou moyenne dotée d’un site central. La topologie exacte présentée dans le diagramme suivant est destinée à une organisation de 20 000 utilisateurs.
 
 **Topologie de référence pour des organisations de taille moyenne**
 
-![Topologie de référence pour un diagramme du centre de données] (images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Topologie de référence pour un diagramme du centre de données")
+![Diagramme de topologie de référence pour un seul centre de données](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Diagramme de topologie de référence pour un seul centre de données")
 
   - **Pour permettre à d’autres utilisateurs d’ajouter d’autres serveurs frontaux.**    La topologie exacte de ce diagramme est composée de trois serveurs frontaux pour fournir une prise en charge des utilisateurs de 20 000. Si vous avez un seul site central et des utilisateurs supplémentaires, vous pouvez simplement ajouter davantage de serveurs frontaux dans le pool. Le nombre maximal d’utilisateurs par pool est 80 000, avec douze serveurs frontaux.
     
@@ -53,9 +55,9 @@ La topologie de référence avec haute disponibilité et centre de données uniq
 
   - **Options de base de données du serveur surveillées.**    Cette organisation a déployé une analyse pour garantir la qualité des appels vocaux d’entreprise et des conférences A/V. La surveillance est déployée sur chaque serveur frontal et la base de données de surveillance est colocalisée avec les serveurs principaux. Nous prenons également en charge les topologies dans lesquelles la base de données de surveillance est située sur un serveur distinct.
 
-  - **Haute disponibilité du serveur Edge**    Dans cet exemple d’organisation avec des utilisateurs de 20 000, un seul serveur Edge serait suffisant pour les performances. Néanmoins, il existe un pool de deux serveurs Edge déployés pour offrir une disponibilité élevée.
+  - **Haute disponibilité**    du serveur Edge dans cet exemple d’organisation avec les utilisateurs de 20 000, un seul serveur Edge serait suffisant pour les performances. Néanmoins, il existe un pool de deux serveurs Edge déployés pour offrir une disponibilité élevée.
 
-  - **Options de déploiement d’un site de succursale.**    L’organisation de cette topologie dispose d’Enterprise Voice déployé comme solution vocale. Le site de succursale 1 ne possède pas de lien réseau étendu (WAN) sur le site central, de sorte qu’il dispose d’une unité de branchement Survivable déployée pour gérer de nombreuses fonctionnalités de Lync Server en cas de panne du lien WAN vers le site central. Le site de succursale 2 possède toutefois une liaison WAN résiliente, de sorte qu’il n’est pas nécessaire de disposer d’une passerelle RTC (réseau téléphonique commuté). La passerelle RTC déployée prend en charge la fonctionnalité de contournement du contenu multimédia; donc aucun serveur d’intermédiation n’est requis au niveau du site de succursale 2. Pour plus d’informations sur la décision de déploiement sur un site de succursale, voir [planification de la résilience vocale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) dans la documentation de planification.
+  - **Options de déploiement d’un site de succursale.**    L’organisation de cette topologie dispose d’Enterprise Voice déployé comme solution vocale. Le site de succursale 1 ne possède pas de lien réseau étendu (WAN) sur le site central, de sorte qu’il dispose d’une unité de branchement Survivable déployée pour gérer de nombreuses fonctionnalités de Lync Server en cas de panne du lien WAN vers le site central. Le site de succursale 2 possède toutefois une liaison WAN résiliente, de sorte qu’il n’est pas nécessaire de disposer d’une passerelle RTC (réseau téléphonique commuté). La passerelle RTC déployée prend en charge la fonctionnalité de contournement du contenu multimédia ; donc aucun serveur d’intermédiation n’est requis au niveau du site de succursale 2. Pour plus d’informations sur la décision de déploiement sur un site de succursale, voir [planification de la résilience vocale dans Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) dans la documentation de planification.
 
   - **Équilibrage de charge DNS.**    Le pool frontal andEdge serveur, l’équilibrage de charge DNS du trafic SIP déployé. Cela vous évite de devoir recourir à un appareil d’équilibrage de charge pour les serveurs Edge et cela réduit significativement la configuration et la maintenance des appareils d’équilibrage de charge pour les autres pools, car les appareils d’équilibrage de charge sont uniquement nécessaires pour le trafic HTTP. Pour plus d’informations sur l’équilibrage de charge DNS, voir [équilibrage de charge DNS dans Lync Server 2013](lync-server-2013-dns-load-balancing.md) dans la documentation de planification.
 
@@ -73,7 +75,7 @@ La topologie de référence avec haute disponibilité et centre de données uniq
     
       - Si un partenaire, un fournisseur ou une organisation cliente utilise également Lync Server, vous pouvez créer une *relation fédérée* avec cette organisation. Le déploiement de votre serveur Lync reconnaît alors les utilisateurs de cette organisation fédérée pour une meilleure collaboration.
     
-      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publique, y compris tout ou partie des éléments suivants:\!Windows Live, AOL, Yahoo et Google Talk. Une licence distincte peut être nécessaire pour la connectivité de messagerie instantanée publique avec ces services.
+      - Vos utilisateurs peuvent échanger des messages instantanés avec des utilisateurs de services de messagerie instantanée publique, y compris tout ou partie des éléments suivants :\!Windows Live, AOL, Yahoo et Google Talk. Une licence distincte peut être nécessaire pour la connectivité de messagerie instantanée publique avec ces services.
         
         <div>
         
@@ -81,9 +83,9 @@ La topologie de référence avec haute disponibilité et centre de données uniq
         > [!IMPORTANT]  
         > <UL>
         > <LI>
-        > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity («PIC USL») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
+        > <P>À compter du 1er septembre, 2012, le contrat de licence de l’utilisateur Microsoft Lync Public IM Connectivity (« PIC USL ») ne sera plus disponible à l’achat pour les contrats de nouveau ou de renouvellement. Les clients disposant de licences actives seront en mesure de continuer à fédérer avec Yahoo ! Messenger jusqu’à la date d’arrêt du service. Date de fin de vie du 2014 juin pour AOL et Yahoo ! a été annoncé. Pour plus d’informations, voir <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">prise en charge de la connectivité de messagerie instantanée publique dans Lync Server 2013</A>.</P>
         > <LI>
-        > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo!, le contrat sous-jacent pour lequel le son est arrêté.</P>
+        > <P>La fonction USL (PIC) est une licence d’abonnement par mois qui est requise pour que Lync Server ou Office Communications Server se fédérer avec Yahoo ! Messenger. La capacité de Microsoft à fournir ce service est subordonné à la prise en charge de Yahoo !, le contrat sous-jacent pour lequel le son est arrêté.</P>
         > <LI>
         > <P>Plus que jamais, Lync est un outil puissant de connexion entre organisations et de personnes dans le monde entier. La Fédération avec Windows Live Messenger ne nécessite aucune licence d’utilisateur/appareil supplémentaire au-delà de la CAL standard Lync. Skype Federation sera ajouté à cette liste et permettra aux utilisateurs de Lync de joindre des centaines de millions de personnes à la messagerie instantanée et à la voix.</P></LI></UL>
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: qualité de l’expertise (QoE)'
+title: 'Lync Server 2013 : qualité de l’expertise (QoE)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Quality of Experience (QoE)
 ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687963(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2501293a8c8b0fce27ad6495c33b45fbf380594f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 28ebdc40c4747d0ec2c3f97a3d39d07b9366e39a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823909"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823909"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
 La qualité de l’expérience (QoE) enregistre des données numériques qui indiquent la qualité du média, ainsi que les informations sur les participants, les noms des appareils, les pilotes, les adresses IP et les types de point de terminaison impliqués dans les appels et les sessions. Lorsque vous installez Lync Server 2013, vous devez également installer une collection prédéfinie de paramètres de configuration globale pour QoE. Consultez les rubriques de cette section pour configurer les paramètres QoE.
 

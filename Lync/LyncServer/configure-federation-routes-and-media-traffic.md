@@ -3,6 +3,8 @@ title: Configuration des itinéraires de fédération et du trafic multimédia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838097"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-15_
+_**Dernière modification de la rubrique :** 2012-10-15_
 
 La Fédération est une relation d’approbation entre au moins deux domaines SIP, qui permet aux utilisateurs d’organisations distinctes de communiquer au sein des frontières du réseau. Après avoir effectué une migration vers votre pool de pilotes de Lync Server 2013, vous devez effectuer une transition de l’itinéraire de Fédération de vos serveurs Edge Lync Server 2010 vers l’itinéraire de Fédération de votre serveur Edge Lync Server 2013.
 
@@ -83,7 +85,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 5.  Sous **affectation**de l’itinéraire de Fédération de site, décochez la case **activer la Fédération SIP** pour désactiver le routage de Fédération par le biais de l’environnement 2010 hérité de Lync Server.
     
-    ![Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération")
+    ![Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page itinéraire de Fédération")
 
 6.  Cliquez sur **OK** pour fermer la page modifier les propriétés.
 
@@ -99,7 +101,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Pour configurer le serveur de périphérie traditionnel en tant que serveur Edge non fédéré
 
-1.  Dans le volet gauche, accédez au nœud **Lync Server 2010** , puis au nœud Pools de **bords** .
+1.  Dans le volet gauche, accédez au nœud **Lync Server 2010** , puis au nœud **pools de bords** .
 
 2.  Cliquez avec le bouton droit sur le serveur Edge, puis cliquez sur **modifier les propriétés**.
 
@@ -107,7 +109,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 4.  Décochez la case **activer la Fédération pour ce pool Edge (port 5061)** , puis sélectionnez **OK** pour fermer la page.
     
-    ![Modifier les propriétés, général, effacer la Fédération d’activation] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Modifier les propriétés, général, effacer la Fédération d’activation")
+    ![Modifier les propriétés, général, effacer la Fédération d’activation](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Modifier les propriétés, général, effacer la Fédération d’activation")
 
 5.  Dans le menu **action** , cliquez sur **publier la topologie**, puis sur **suivant**.
 
@@ -115,7 +117,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 7.  Vérifiez que la Fédération pour le serveur de périphérie antérieur est désactivée.
     
-    ![Générateur de topologie, pool de périphériques, Fédération désactivé] (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Générateur de topologie, pool de périphériques, Fédération désactivé")
+    ![Générateur de topologie, pool de périphériques, Fédération désactivé](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Générateur de topologie, pool de périphériques, Fédération désactivé")
 
 </div>
 
@@ -145,7 +147,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 4.  Sélectionnez l’entrée de la case à cocher **activer la Fédération pour ce pool Edge (port 5061)** , puis cliquez sur **OK** pour fermer la page.
     
-    ![Boîte de dialogue Modifier les propriétés, page général] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")
+    ![Boîte de dialogue Modifier les propriétés, page général](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")
 
 5.  Dans le menu **action** , cliquez sur **publier la topologie**, puis sur **suivant**.
 
@@ -153,7 +155,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 7.  Vérifier la **Fédération (le port 5061)** est défini sur **activé**.
     
-    ![Générateur de topologie, pool de périphériques, Fédération activée] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Générateur de topologie, pool de périphériques, Fédération activée")
+    ![Générateur de topologie, pool de périphériques, Fédération activée](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Générateur de topologie, pool de périphériques, Fédération activée")
 
 </div>
 
@@ -167,7 +169,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 3.  Dans la page **général** , sous **sélection du tronçon suivant**, sélectionnez dans la liste déroulante le pool Lync Server 2013.
     
-    ![Boîte de dialogue Modifier les propriétés, page saut suivant] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page saut suivant")
+    ![Boîte de dialogue Modifier les propriétés, page saut suivant](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page saut suivant")
 
 4.  Cliquez sur **OK** pour fermer la page modifier les propriétés.
 
@@ -187,7 +189,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 3.  Dans la section **associations** , activez la case à cocher **associer le pool Edge (pour les composants multimédias)** .
     
-    ![Modification des propriétés, général et pool de périphérie] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Modification des propriétés, général et pool de périphérie")
+    ![Modification des propriétés, général et pool de périphérie](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Modification des propriétés, général et pool de périphérie")
 
 4.  Dans la zone de liste déroulante, sélectionnez le serveur Edge Lync Server 2013.
 
@@ -214,7 +216,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 3.  Dans la page **général** , assurez-vous que le paramètre **activer la Fédération pour ce pool Edge (port 5061)** est coché.
     
-    ![Boîte de dialogue Modifier les propriétés, page général] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")
+    ![Boîte de dialogue Modifier les propriétés, page général](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, page général")
 
 4.  Cliquez sur **OK** pour fermer la page modifier les propriétés.
 
@@ -226,7 +228,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
 
 8.  Sous **affectation**de l’itinéraire de la Fédération de sites, sélectionnez **activer la Fédération SIP**, puis dans la liste, sélectionnez le serveur Edge Lync Server 2013.
     
-    ![Modifier les propriétés, page itinéraire de Fédération] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Modifier les propriétés, page itinéraire de Fédération")
+    ![Modifier les propriétés, page itinéraire de Fédération](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Modifier les propriétés, page itinéraire de Fédération")
 
 9.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
     
@@ -248,7 +250,7 @@ Pour effectuer un déploiement sur un site, procédez comme suit pour migrer l�
     
 
     > [!NOTE]  
-    > Le message suivant risque de s’afficher:<BR><STRONG>AVERTISSEMENT: la topologie comporte plus d’un serveur Edge fédéré. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la Fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge approprié. Si vous voulez déployer plusieurs serveurs de périphérie de Fédération de manière à être actifs dans le cadre de la migration (autrement dit, qu’il ne s’agit pas d’un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Lync Server. Vérifiez que l’enregistrement SRV DNS externe recense tous les serveurs Edge compatibles avec la Fédération.</STRONG><BR>Cet avertissement est attendu et peut être ignoré en toute sécurité.
+    > Le message suivant risque de s’afficher :<BR><STRONG>AVERTISSEMENT : la topologie comporte plus d’un serveur Edge fédéré. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait utilisé activement pour la Fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge approprié. Si vous voulez déployer plusieurs serveurs de périphérie de Fédération de manière à être actifs dans le cadre de la migration (autrement dit, qu’il ne s’agit pas d’un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Lync Server. Vérifiez que l’enregistrement SRV DNS externe recense tous les serveurs Edge compatibles avec la Fédération.</STRONG><BR>Cet avertissement est attendu et peut être ignoré en toute sécurité.
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration requise pour le service de découverte 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Autodiscover service requirements
 ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690012(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea9d9be05561d200696a5ad0256c0d5424cf9b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 777d70b20a51e5408fe9d9248028c3dbcaebeba2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838898"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838898"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-25_
+_**Dernière modification de la rubrique :** 2013-02-25_
 
 Le service de découverte automatique Microsoft Lync Server 2013 s’exécute sur le directeur et les serveurs du pool frontal, et lorsqu’il est publié en DNS, il est possible d’utiliser les appareils mobiles exécutant Lync mobile pour localiser les services de mobilité. Pour que les appareils mobiles exécutant Lync mobile puissent bénéficier de la découverte automatique, vous devez modifier les listes de noms de remplacement de l’objet du certificat sur tout directeur et serveur frontal exécutant le service de découverte automatique. Par ailleurs, il est possible que vous deviez modifier les listes nom de remplacement de l’objet sur les certificats utilisés pour les règles de publication de service Web externe sur les proxys inverses.
 
 Pour plus d’informations sur les entrées de nom alternatif requises pour les directeurs, les serveurs frontaux et les proxys inversés, voir [configuration technique requise pour la mobilité dans Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md) pour la planification de la mobilité.
 
-La décision concernant l’utilisation des listes de noms secondaires d’objet sur les proxys inversés est basée sur le fait que vous publiez le service de découverte automatique sur le port 80 ou sur le port 443:
+La décision concernant l’utilisation des listes de noms secondaires d’objet sur les proxys inversés est basée sur le fait que vous publiez le service de découverte automatique sur le port 80 ou sur le port 443 :
 
-  - **Publié sur le port 80**   , aucune modification de certificat n’est requise si la requête initiale au service de découverte automatique a lieu sur le port 80. En effet, les appareils mobiles exécutant Lync accèderont au proxy inverse sur le port 80 en externe, puis seront redirigés vers un serveur directeur ou frontal sur le port 8080 en interne. Pour plus d’informations, voir la section «découverte automatique du processus avec le port 80» plus loin dans cette rubrique.
+  - **Publié sur le port 80**   , aucune modification de certificat n’est requise si la requête initiale au service de découverte automatique a lieu sur le port 80. En effet, les appareils mobiles exécutant Lync accèderont au proxy inverse sur le port 80 en externe, puis seront redirigés vers un serveur directeur ou frontal sur le port 8080 en interne. Pour plus d’informations, voir la section « découverte automatique du processus avec le port 80 » plus loin dans cette rubrique.
 
   - **Publié sur le port 443**   la liste autre nom de l’objet sur les certificats utilisés par la règle de publication des services Web externes doit contenir un *lyncdiscover.\< entrée\> sipdomain* pour chaque domaine SIP au sein de votre organisation.
 
@@ -75,12 +77,12 @@ Par exemple, supposons qu’un client mobile exécutant Lync mobile est configur
     
 
     > [!NOTE]  
-    > Si le serveur Web cible possède un certificat qui ne possède pas de valeur correspondante pour lyncdiscover.contoso.com en tant que valeur de la liste autre nom d’objet:<BR>un serveur&nbsp;&nbsp;&nbsp;. Web répond avec un «serveur Hello» et aucun certificat.<BR>b.&nbsp;&nbsp;&nbsp;l’appareil mobile exécutant Lync mobile met immédiatement fin à la session.<BR>Si le serveur Web cible possède un certificat qui inclut lyncdiscover.contoso.com comme valeur de liste autre nom d’objet:<BR>un serveur&nbsp;&nbsp;&nbsp;. Web répond avec un «serveur Hello» et un certificat.<BR>b.&nbsp;&nbsp;&nbsp;l’appareil mobile exécutant Lync mobile valide le certificat et termine le transfert.
+    > Si le serveur Web cible possède un certificat qui ne possède pas de valeur correspondante pour lyncdiscover.contoso.com en tant que valeur de la liste autre nom d’objet :<BR>un serveur&nbsp;&nbsp;&nbsp;. Web répond avec un « serveur Hello » et aucun certificat.<BR>b.&nbsp;&nbsp;&nbsp;l’appareil mobile exécutant Lync mobile met immédiatement fin à la session.<BR>Si le serveur Web cible possède un certificat qui inclut lyncdiscover.contoso.com comme valeur de liste autre nom d’objet :<BR>un serveur&nbsp;&nbsp;&nbsp;. Web répond avec un « serveur Hello » et un certificat.<BR>b.&nbsp;&nbsp;&nbsp;l’appareil mobile exécutant Lync mobile valide le certificat et termine le transfert.
 
     
     </div>
 
-Pour prendre en charge une connexion initiale au service de découverte automatique à l’aide du port 80 sur votre serveur proxy inverse, vous pouvez créer une règle de publication http similaire à cet exemple pour une règle de publication Web de proxy 2010 inverse:
+Pour prendre en charge une connexion initiale au service de découverte automatique à l’aide du port 80 sur votre serveur proxy inverse, vous pouvez créer une règle de publication http similaire à cet exemple pour une règle de publication Web de proxy 2010 inverse :
 
 1.  Créer une nouvelle règle de publication Web (par exemple, **découverte automatique de Lync Server (http)**).
 
@@ -100,7 +102,7 @@ Pour prendre en charge une connexion initiale au service de découverte automati
 
 Un espace d’adressage SIP partagé, également connu sous le nom de *domaine fractionné*, ou *déploiement hybride* est une configuration dans laquelle les utilisateurs sont déployés dans un déploiement local et un environnement en ligne. Le résultat escompté consiste à disposer d’un utilisateur, où qu’il se trouve (en local ou en ligne), à se connecter au déploiement et à être redirigé vers son emplacement du serveur d’origine. Pour ce faire, la fonctionnalité de découverte automatique de Microsoft Lync Server 2013 est utilisée pour rediriger l’utilisateur en ligne vers la topologie en ligne. Pour ce faire, vous configurez l’URL (Uniform Resource Locator) de découverte automatique à l’aide de Lync Server Management Shell et des applets **de cmdlet Get-CsHostingProvider** et **Set-CsHostingProvider**.
 
-Vous devrez collecter et enregistrer les attributs déployés suivants:
+Vous devrez collecter et enregistrer les attributs déployés suivants :
 
   - À partir de Lync Server Management Shell, tapez
     

@@ -3,6 +3,8 @@ title: Déploiement de clients Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 clients
 ms:assetid: 508e5dfa-588b-4289-81ce-2043c2d79e04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204883(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ec7be51358e73824c322461a3e27a163dc1bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffc6ee3831968c34bcdb501fcdf543626546e2c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838831"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838831"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
-Après avoir migré des utilisateurs vers Lync Server 2013, procédez comme suit:
+Après avoir migré des utilisateurs vers Lync Server 2013, procédez comme suit :
 
 1.  Utilisez le filtre de version du client sur le nouveau serveur Lync Server 2013 pour autoriser uniquement les clients sur lesquels les mises à jour les plus récentes sont installées pour la connexion.
 

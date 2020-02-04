@@ -3,6 +3,8 @@ title: Publication d’Office Web Apps Server avec un serveur proxy inverse
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68ae51dba366282d7d3a5668b1358042a29917
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823706"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34823706"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-25_
+_**Dernière modification de la rubrique :** 2013-02-25_
 
 Si vous souhaitez que les utilisateurs externes (c’est-à-dire, les utilisateurs qui se connectent à partir de l’extérieur du pare-feu de votre organisation) puissent accéder aux présentations PowerPoint sur Office Web Apps Server, vous devrez utiliser Office Web Apps Server et un serveur proxy inverse tel que Microsoft Forefront Passerelle de gestion des menaces. Par ailleurs, vous devrez créer et configurer une règle de publication de site Web. Cette règle permet de garantir que les utilisateurs sont en mesure de se connecter au serveur. Si vous n’avez pas besoin de fournir un accès aux utilisateurs externes, vous n’avez pas besoin de configurer une règle de publication de site Web.
 
-Pour configurer une règle de publication sur un site Web dans la passerelle gestion des menaces de Forefront, procédez comme suit:
+Pour configurer une règle de publication sur un site Web dans la passerelle gestion des menaces de Forefront, procédez comme suit :
 
 1.  Cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Forefront TMG**, puis sur gestion de **Forefront TMG**.
 
@@ -65,13 +67,13 @@ Pour configurer une règle de publication sur un site Web dans la passerelle ges
 
 13. Dans la page **sécurité de connexion client** , sélectionnez **exiger des connexions SSL sécurisées avec les clients** , puis cliquez sur **suivant**.
 
-14. Dans la **page adresses IP** de l’écouteur Web, sélectionnez **externe**, sélectionnez **interne**, puis cliquez sur **suivant**.
+14. Dans la page **adresses IP de l’écouteur Web** , sélectionnez **externe**, sélectionnez **interne**, puis cliquez sur **suivant**.
 
-15. Sur la page **certificats SSL** de l’écouteur, sélectionnez **utiliser un certificat unique pour ce détecteur de site Web** , puis cliquez sur **Sélectionner un certificat**.
+15. Sur la page **certificats SSL de l’écouteur** , sélectionnez **utiliser un certificat unique pour ce détecteur de site Web** , puis cliquez sur **Sélectionner un certificat**.
 
 16. Dans la boîte de dialogue **Sélectionner un certificat** , sélectionnez le certificat que vous voulez utiliser pour ce détecteur Web, puis cliquez sur **Sélectionner**.
 
-17. Sur la page **certificats SSL** de l’écouteur, cliquez sur **suivant**.
+17. Sur la page **certificats SSL de l’écouteur** , cliquez sur **suivant**.
 
 18. Dans la page **paramètres d’authentification** , sélectionnez **aucune authentification** dans la liste déroulante **Sélectionner la façon dont les clients fournissent des informations d’identification à l’aide de la liste déroulante Sélectionner la façon dont les clients doivent fournir des informations d’identification à** la ****
 
@@ -81,7 +83,7 @@ Pour configurer une règle de publication sur un site Web dans la passerelle ges
 
 21. Dans la page **Sélectionner un écouteur Web** , cliquez sur **suivant**.
 
-22. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, mais le client pourra s’authentifier directement** dans la liste déroulante **Sélectionner la méthode utilisée par Forefront TMG pour s’authentifier dans la liste déroulante du serveur Web publié** , puis cliquez sur **suivant. **.
+22. Dans la page **délégation d’authentification** , sélectionnez **aucune délégation, mais le client pourra s’authentifier directement** dans la liste déroulante **Sélectionner la méthode utilisée par Forefront TMG pour s’authentifier dans la** liste déroulante du serveur Web publié, puis cliquez sur **suivant**.
 
 23. Dans la page **ensembles d’utilisateurs** , vérifiez que les jeux d’utilisateurs appropriés apparaissent. Par défaut, il s’agit de l’utilisateur **tous les utilisateurs** définis. Cliquez sur **Ajouter** pour ajouter d’autres jeux d’utilisateurs que vous avez éventuellement définis. Lorsque vous avez terminé, cliquez sur **suivant**.
 

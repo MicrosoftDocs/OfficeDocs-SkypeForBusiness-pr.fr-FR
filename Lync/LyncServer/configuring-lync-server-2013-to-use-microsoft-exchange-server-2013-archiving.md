@@ -3,6 +3,8 @@ title: Configuration de Lync Server 2013 pour l’utilisation de l’archivage M
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to use Exchange Server 2013 archiving
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679896(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3f8ab22ed23adbce2d6cbd6ccbf1f378476ff00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b163b0ce3324455f8a80eca7be5c1423b302a3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838844"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838844"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-06-24_
+_**Dernière modification de la rubrique :** 2014-06-24_
 
 Microsoft Lync Server 2013 donne aux administrateurs la possibilité d’archiver les transcriptions de la messagerie instantanée et des conférences Web dans la boîte aux lettres de 2013 l’utilisateur au lieu d’une base de données SQL Server. Si vous activez cette option, les transcriptions sont écrites dans le dossier Purges de la boîte aux lettres de l’utilisateur. Il s’agit d’un dossier masqué qui se trouve dans le dossier Purges. Même si ce dossier n’est pas visible par les utilisateurs finaux, le dossier est indexé par le moteur de recherche Exchange et peut être détecté à l’aide de la recherche de boîte aux lettres Exchange et/ou de Microsoft SharePoint Server 2013. Étant donné que les informations sont stockées dans le même dossier que celui utilisé par la fonctionnalité de conservation inaltérable Exchange (responsable de l’archivage des messages électroniques et d’autres communications Exchange), les administrateurs peuvent utiliser un seul outil pour rechercher toutes les communications électroniques archivées pour a Il.
 
@@ -41,13 +43,13 @@ Microsoft Lync Server 2013 donne aux administrateurs la possibilité d’archive
 
 
 > [!IMPORTANT]  
-> Pour désactiver complètement l’archivage des conversations Lync, vous devez également désactiver l’historique des conversations Lync. Pour plus d’informations, consultez les rubriques suivantes: <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">gestion de l’archivage des communications internes et externes dans Lync Server 2013</A>, <A href="https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>et <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>.
+> Pour désactiver complètement l’archivage des conversations Lync, vous devez également désactiver l’historique des conversations Lync. Pour plus d’informations, consultez les rubriques suivantes : <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">gestion de l’archivage des communications internes et externes dans Lync Server 2013</A>, <A href="https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy">New-CsClientPolicy</A>et <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">Set-CsClientPolicy</A>.
 
 
 
 </div>
 
-Afin d’archiver les transcriptions dans Exchange 2013, vous devez commencer par configurer l’authentification de serveur à serveur entre les deux serveurs. Une fois l’authentification de serveur à serveur mise en place, vous pouvez effectuer les tâches suivantes dans Microsoft Lync Server 2013 (Notez que, en fonction de votre installation et de la configuration, il est possible que vous n’ayez pas à effectuer toutes les tâches suivantes):
+Afin d’archiver les transcriptions dans Exchange 2013, vous devez commencer par configurer l’authentification de serveur à serveur entre les deux serveurs. Une fois l’authentification de serveur à serveur mise en place, vous pouvez effectuer les tâches suivantes dans Microsoft Lync Server 2013 (Notez que, en fonction de votre installation et de la configuration, il est possible que vous n’ayez pas à effectuer toutes les tâches suivantes) :
 
 1.  Activez l’archivage Exchange en modifiant vos paramètres de configuration de l’archivage de Lync Server. Cette étape est nécessaire pour tous les déploiements.
 
@@ -57,7 +59,7 @@ Afin d’archiver les transcriptions dans Exchange 2013, vous devez commencer pa
 
 <div>
 
-## <a name="step-1-enabling-exchange-archiving"></a>Étape 1: activation de l’archivage Exchange
+## <a name="step-1-enabling-exchange-archiving"></a>Étape 1 : activation de l’archivage Exchange
 
 L’archivage dans Lync Server est essentiellement géré à l’aide des paramètres de configuration de l’archivage. Lorsque vous installez Lync Server 2013, une collection globale unique de ces paramètres vous est attribuée automatiquement. (Les administrateurs peuvent éventuellement créer de nouvelles collections de paramètres d’archivage à l’étendue du site.) Par défaut, l’archivage n’est pas activé dans les paramètres globaux et l’archivage Exchange est activé dans ces paramètres. Pour pouvoir utiliser les administrateurs d’archivage Exchange, vous devez configurer les propriétés EnableArchiving et EnableExchangeArchiving dans les paramètres de configuration suivants. La propriété EnableArchiving peut avoir l’une des trois valeurs suivantes :
 
@@ -67,11 +69,11 @@ L’archivage dans Lync Server est essentiellement géré à l’aide des param�
 
   - **ImAndWebConf**. À la fois les transcriptions de messages instantanés et celles de conférences web sont archivées. Si l’archivage Exchange est activé, ces transcriptions seront archivées dans Exchange 2013. Dans le cas contraire, les transcriptions seront archivées sur Lync Server.
 
-La propriété EnableExchangeArchiving est une valeur booléenne: définissez EnableExchangeArchiving sur true ($True) pour activer l’archivage Exchange ou définissez EnableExchangeArchiving sur false ($False) pour désactiver l’archivage Exchange. Par exemple, la commande suivante permet d’archiver des transcriptions de la messagerie instantanée et d’archiver Exchange:
+La propriété EnableExchangeArchiving est une valeur booléenne : définissez EnableExchangeArchiving sur true ($True) pour activer l’archivage Exchange ou définissez EnableExchangeArchiving sur false ($False) pour désactiver l’archivage Exchange. Par exemple, la commande suivante permet d’archiver des transcriptions de la messagerie instantanée et d’archiver Exchange :
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 
-Pour désactiver l’archivage Exchange, utilisez une commande similaire à ce qui suit, qui permet l’archivage des messages instantanés, mais désactive l’archivage dans Exchange (en d’autres termes, les transcriptions sont archivées sur Lync Server):
+Pour désactiver l’archivage Exchange, utilisez une commande similaire à ce qui suit, qui permet l’archivage des messages instantanés, mais désactive l’archivage dans Exchange (en d’autres termes, les transcriptions sont archivées sur Lync Server) :
 
     Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 
@@ -115,7 +117,7 @@ Si Lync Server 2013 et Exchange 2013 se trouvent dans différentes forêts, l’
 
 ## <a name="step-2-enabling-the-archiving-of-internal-andor-external-communications"></a>Étape 2 : activation de l’archivage des communications internes et/ou externes
 
-Une fois que vous avez activé l’archivage (et l’archivage Exchange), vous devez modifier les stratégies d’archivage appropriées pour vous assurer que les sessions utilisateur sont bien archivées. Notez que l’activation de l’archivage (étape 1) n’entraîne pas l’archivage de Lync Server lors de l’archivage de messages instantanés et de transcriptions de conférences Web. Vous devez utiliser les stratégies d’archivage pour activer l’archivage interne et/ou externe. Lorsque vous installez Lync Server 2013, vous devez également installer une seule stratégie d’archivage globale qui contient deux propriétés:
+Une fois que vous avez activé l’archivage (et l’archivage Exchange), vous devez modifier les stratégies d’archivage appropriées pour vous assurer que les sessions utilisateur sont bien archivées. Notez que l’activation de l’archivage (étape 1) n’entraîne pas l’archivage de Lync Server lors de l’archivage de messages instantanés et de transcriptions de conférences Web. Vous devez utiliser les stratégies d’archivage pour activer l’archivage interne et/ou externe. Lorsque vous installez Lync Server 2013, vous devez également installer une seule stratégie d’archivage globale qui contient deux propriétés :
 
   - **ArchiveInternal**. Quand cette propriété a la valeur Vrai ($True), indique que les sessions de communication interne (celles qui impliquent uniquement des utilisateurs disposant d’un compte Active Directory dans votre organisation) seront archivées.
 
@@ -141,7 +143,7 @@ Les stratégies d’archivage peuvent également être gérées à l’aide du p
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>Étape 3 : configuration de la propriété ExchangeArchivingPolicy
 
-Si Lync Server 2013 et Exchange 2013 se trouvent dans différentes forêts, il n’y a pas assez d’activation de l’archivage Exchange dans les paramètres de configuration de l’archivage; les transcriptions de messagerie instantanée et de conférence Web ne sont pas archivées dans Exchange. À la place, vous devez également configurer la propriété ExchangeArchivingPolicy sur chacun des comptes d’utilisateurs de Lync Server pertinents. Cette propriété peut avoir l’une des valeurs suivantes :
+Si Lync Server 2013 et Exchange 2013 se trouvent dans différentes forêts, il n’y a pas assez d’activation de l’archivage Exchange dans les paramètres de configuration de l’archivage ; les transcriptions de messagerie instantanée et de conférence Web ne sont pas archivées dans Exchange. À la place, vous devez également configurer la propriété ExchangeArchivingPolicy sur chacun des comptes d’utilisateurs de Lync Server pertinents. Cette propriété peut avoir l’une des valeurs suivantes :
 
 1.  Non initialisée. Indique que l’archivage sera basé sur les paramètres de conservation inaltérable configurés pour la boîte aux lettres Exchange de l’utilisateur. Si la conservation inaltérable n’a pas été activée sur la boîte aux lettres de l’utilisateur, l’utilisateur aura ses transcriptions de messagerie et de conférence Web archivées dans Lync Server.
 
@@ -151,7 +153,7 @@ Si Lync Server 2013 et Exchange 2013 se trouvent dans différentes forêts, il n
 
 4.  **ArchivingToExchange**. Indique que les transcriptions de la messagerie instantanée et des conférences Web de l’utilisateur doivent être archivées sur Exchange, quels que soient les paramètres de conservation inaltérable qui ont (ou non) été attribués à la boîte aux lettres de l’utilisateur.
 
-Par exemple, pour configurer un compte d’utilisateur afin que les transcriptions de la messagerie instantanée et des conférences Web soient toujours archivées sur Exchange, vous pouvez utiliser une commande similaire à celle de Lync Server Management Shell:
+Par exemple, pour configurer un compte d’utilisateur afin que les transcriptions de la messagerie instantanée et des conférences Web soient toujours archivées sur Exchange, vous pouvez utiliser une commande similaire à celle de Lync Server Management Shell :
 
     Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 

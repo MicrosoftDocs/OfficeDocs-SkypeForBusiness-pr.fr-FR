@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: création ou modification d’une région réseau'
+title: 'Lync Server 2013 : création ou modification d’une région réseau'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a network region
 ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412933(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21a9b7a8adbb4ca4c0853aa7013662433701201d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75011a28567da8a6e386c42f272ee1510b8ceddc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831795"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831795"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-19_
+_**Dernière modification de la rubrique :** 2012-10-19_
 
 Les *régions réseau* sont les concentrateurs réseau ou les dorsales utilisés dans la configuration de contrôle d’admission des appels, de E9-1-1 et de contournement de média. Utilisez les procédures suivantes pour créer ou modifier des régions réseau. Par exemple, si vous avez déjà créé des régions réseau pour une seule fonctionnalité vocale, vous n’avez pas besoin de créer de nouvelles régions réseau. d’autres fonctionnalités avancées de voix entreprise utiliseront les mêmes régions réseau. Toutefois, il est possible que vous soyez obligé de modifier la définition d’une région réseau existante pour appliquer des paramètres spécifiques à une fonctionnalité. Par exemple, si vous avez créé des régions réseau pour le service E9-1-1 (régions n’exigeant aucun site central associé), puis que vous déployez le contrôle d’admission des appels, vous devez modifier les définitions des régions réseau afin de spécifier un site central. Pour plus d’informations, voir [configurer des régions réseau pour CAC dans Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
 
@@ -47,7 +49,7 @@ Les *régions réseau* sont les concentrateurs réseau ou les dorsales utilisés
 
 </div>
 
-Pour plus d’informations sur l’utilisation des régions réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes:
+Pour plus d’informations sur l’utilisation des régions réseau, voir la documentation Lync Server Management Shell pour les applets de commande suivantes :
 
   - [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
 
@@ -67,7 +69,7 @@ Créez une région réseau qui peut être utilisée par le contrôle d’admissi
 
 ## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>Pour créer une région réseau à l’aide de Lync Server Management Shell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande New-CsNetworkRegion pour créer des régions réseau :
     
@@ -119,7 +121,7 @@ Modifiez les paramètres d’une région réseau existante afin de prendre en co
 
 ## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>Pour modifier une région réseau à l’aide de Lync Server Management Shell
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Exécutez l’applet de commande Set-CsNetworkRegion pour modifier une région réseau existante :
     

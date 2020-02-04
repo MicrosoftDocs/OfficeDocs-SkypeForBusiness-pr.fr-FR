@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: Association de sous-réseaux avec les sites réseau pour la dérivation multimédia'
+title: 'Lync Server 2013 : Association de sous-réseaux avec les sites réseau pour la dérivation multimédia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Associate subnets with network sites for media bypass
 ms:assetid: 5bc632b7-1446-470f-b332-48ea0ca4d1fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398401(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c0f2d6461264ff8b54609e280c59986e1a923c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd45daa964b51639c7fe1db3ff10e334e21641f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838910"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838910"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-12_
+_**Dernière modification de la rubrique :** 2012-09-12_
 
 <div>
 
@@ -51,7 +53,7 @@ La dérivation multimédia n’a aucune configuration particulière requise pour
 
 <div>
 
-## <a name="next-steps-create-bandwidth-policy-profiles"></a>Étapes suivantes: créer des profils de stratégie de bande passante
+## <a name="next-steps-create-bandwidth-policy-profiles"></a>Étapes suivantes : créer des profils de stratégie de bande passante
 
 Après avoir associé des sous-réseaux aux sites réseau pour le contournement du contenu multimédia, vous devez créer un ou plusieurs profils de stratégie de bande passante pour les partitionner en réseaux avec une bonne connectivité et ceux qui ne le sont pas, aux fins de contournement de média. Tous les sous-réseaux au sein d’une région réseau qui n’ont pas de contraintes de bande passante disposent d’une bonne connectivité et, par conséquent, ces sous-réseaux peuvent utiliser une dérivation multimédia.
 

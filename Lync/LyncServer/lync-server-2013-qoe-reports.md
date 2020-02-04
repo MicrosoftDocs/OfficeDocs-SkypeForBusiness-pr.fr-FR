@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapports QoE'
+title: 'Lync Server 2013 : rapports QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9eead17e9cd08267f941d80cb25460f4d456d896
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823734"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823734"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-05-01_
+_**Dernière modification de la rubrique :** 2014-05-01_
 
 <div>
 
@@ -41,7 +43,7 @@ _**Dernière modification de la rubrique:** 2014-05-01_
 
 Les rapports de synthèse/tendances QoE permettent de rechercher les heures d’utilisation du PIC et d’examiner la qualité du média pendant ces périodes pour vous assurer que les ressources réseau de votre organisation sont suffisantes. Votre organisation peut également utiliser les nombreux filtres disponibles dans le rapport pour isoler les numéros de performance de certains emplacements, types de clients et de périphériques, et de serveurs.
 
-Les rapports de synthèse/tendance sont les suivants:
+Les rapports de synthèse/tendance sont les suivants :
 
   - Rapport synthèse sur les communications UNIFIÉes/rapport de tendance
 
@@ -65,7 +67,7 @@ Rapports sur les performances de QoE fournissent des détails sur les trois rapp
 
 Le rapport sur les performances du serveur de médiation recense les métriques accomplies par une ou plusieurs médiation pendant la période spécifiée. Les métriques pour la jambe Unified Communications (UC) à médiation Server leg et la direction serveur à passerelle de médiation de chaque appel sont communiquées séparément. Utilisez ce rapport pour comparer le volume et les performances des divers serveurs de médiation de votre organisation.
 
-Pour chaque serveur de médiation (et pour chaque tronçon d’appel), le rapport affiche les éléments suivants:
+Pour chaque serveur de médiation (et pour chaque tronçon d’appel), le rapport affiche les éléments suivants :
 
   - Nombre d'appels
 
@@ -97,7 +99,7 @@ Pour chaque serveur de médiation (et pour chaque tronçon d’appel), le rappor
 
 Le rapport sur les performances du serveur de conférence A/V fournit des listes de mesures obtenues par un ou plusieurs serveurs de conférence A/V pendant la période spécifiée. Ce rapport peut être utilisé pour comparer le volume et les performances des différents serveurs de conférence A/V de votre organisation. Votre organisation peut également isoler le rapport pour afficher uniquement l’interface utilisateur de types de clients spécifiques, tels que les clients Lync ou les clients PSTN.
 
-Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivants:
+Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivants :
 
   - Nombre de conférences
 
@@ -129,7 +131,7 @@ Pour chaque serveur de conférence A/V, le rapport affiche les éléments suivan
 
 Le rapport sur les performances de géolocalisation fournit une liste d’emplacements réseau et chaque emplacement indique le nombre d’appels dans chaque gamme de qualité prédéfinie. L’objectif de ce rapport est d’offrir une vue d’ensemble de la qualité de média des appels téléphoniques de votre organisation pour différents emplacements, afin que vous puissiez identifier les emplacements médiocres et voir les différentes notes de qualité multimédia dans votre organisation. différents emplacements.
 
-Lors de l’affichage du rapport, différentes tables de métriques apparaissent: une table pour chaque métrique que votre organisation décide de signaler. Pour ce rapport, vous pouvez choisir parmi les mesures suivantes:
+Lors de l’affichage du rapport, différentes tables de métriques apparaissent : une table pour chaque métrique que votre organisation décide de signaler. Pour ce rapport, vous pouvez choisir parmi les mesures suivantes :
 
   - Note moyenne d’opinion de conversation (MOS)
 

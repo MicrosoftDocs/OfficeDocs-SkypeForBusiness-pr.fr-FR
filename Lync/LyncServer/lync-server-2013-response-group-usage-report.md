@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport d’utilisation du groupe de réponses'
+title: 'Lync Server 2013 : rapport d’utilisation du groupe de réponses'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response Group Usage Report
 ms:assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558632(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9334fea5bded88b4f2453f46a0848819743766d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 702ab291955ef7c8ec992e3607de581dff52b6a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823314"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823314"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 L’application Response Group permet à Microsoft Lync Server 2013 de répondre aux appels téléphoniques et de les acheminer en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone de votre support technique, Lync Server 2013 peut automatiquement diriger l’appel vers le premier agent de support technique disponible. Par ailleurs, Lync Server peut poser une série de questions (en appuyant sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Tapez 3 Si vous rencontrez des problèmes de réseau. puis Routez l’appel vers l’agent de support technique le plus approprié en fonction de la réponse à ces questions.
 
@@ -61,7 +63,7 @@ Le rapport d’utilisation de Response Group vous permet de filtrer sur un URI d
 
 ## <a name="accessing-the-response-group-usage-report"></a>Accéder au rapport d’utilisation de Response Group
 
-Le rapport d’utilisation de Response Group est accessible depuis la page d’accueil Rapports de surveillance. Vous pouvez descendre [dans la liste des appels de groupe de réponse dans Lync Server 2013](lync-server-2013-response-group-call-list-report.md) en cliquant sur l’une des mesures suivantes:
+Le rapport d’utilisation de Response Group est accessible depuis la page d’accueil Rapports de surveillance. Vous pouvez descendre [dans la liste des appels de groupe de réponse dans Lync Server 2013](lync-server-2013-response-group-call-list-report.md) en cliquant sur l’une des mesures suivantes :
 
   - Appels reçus
 
@@ -85,7 +87,7 @@ L’utilisation la plus intéressante de ce rapport n’est peut-être pas la pl
 
 
 > [!WARNING]  
-> Un flux de travail de groupe de réponse est essentiellement un ensemble d’instructions qui déterminent le serveur Lync qui compose le numéro de téléphone d’un utilisateur. À cette fin, chaque flux de travail est associé de manière unique à un numéro de téléphone. Lorsque quelqu’un appelle ce numéro, le flux de travail détermine le mode de gestion de l’appel. Par exemple, le flux de travail peut entraîner le routage de l’appel vers une série de questions relatives à la réponse vocale (IVR) qui invitent l’appelant à entrer des informations supplémentaires («appuyer 1 pour la prise en charge matérielle. Appuyez sur 2 pour le support logiciel. "). Par ailleurs, le flux de travail peut entraîner la mise en attente de l’appel dans une file d’attente, et l’appelant doit mettre en attente tant qu’un agent n’est pas disponible pour répondre à l’appel. La disponibilité des agents pour répondre aux appels est également dictée par le flux de travail: les flux de travail sont utilisés pour configurer les heures d’ouverture (les jours de la semaine et les heures de la journée auxquelles les agents peuvent répondre) et les jours fériés (jours si aucun agent n’est disponible pour répondre. appels). Chaque fois que vous composez un numéro de téléphone faisant partie de l’application Response Group, vous appelez essentiellement un flux de travail de groupe de réponse.
+> Un flux de travail de groupe de réponse est essentiellement un ensemble d’instructions qui déterminent le serveur Lync qui compose le numéro de téléphone d’un utilisateur. À cette fin, chaque flux de travail est associé de manière unique à un numéro de téléphone. Lorsque quelqu’un appelle ce numéro, le flux de travail détermine le mode de gestion de l’appel. Par exemple, le flux de travail peut entraîner le routage de l’appel vers une série de questions relatives à la réponse vocale (IVR) qui invitent l’appelant à entrer des informations supplémentaires («appuyer 1 pour la prise en charge matérielle. Appuyez sur 2 pour le support logiciel. "). Par ailleurs, le flux de travail peut entraîner la mise en attente de l’appel dans une file d’attente, et l’appelant doit mettre en attente tant qu’un agent n’est pas disponible pour répondre à l’appel. La disponibilité des agents pour répondre aux appels est également dictée par le flux de travail : les flux de travail sont utilisés pour configurer les heures d’ouverture (les jours de la semaine et les heures de la journée auxquelles les agents peuvent répondre) et les jours fériés (jours si aucun agent n’est disponible pour répondre. appels). Chaque fois que vous composez un numéro de téléphone faisant partie de l’application Response Group, vous appelez essentiellement un flux de travail de groupe de réponse.
 
 
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : À propos des régions réseau, des sites réseau et 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6601a0baafd1226f4e283d62a8cbdb410064ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838979"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-24_
+_**Dernière modification de la rubrique :** 2013-02-24_
 
 Les fonctionnalités avancées de voix entreprise décrites dans cette section partagent certaines exigences de configuration pour les zones réseau, les sites réseau et les sous-réseaux. Par exemple, les trois fonctionnalités avancées nécessitent que chaque sous-réseau de votre topologie soit associé à un *site réseau*spécifique et chaque site réseau doit être associé à une *région réseau*.
 
@@ -41,7 +43,7 @@ Les fonctionnalités avancées de voix entreprise décrites dans cette section p
 
 
 > [!IMPORTANT]  
-> Avant de commencer la configuration du réseau pour le contrôle d’admission des appels, E9-1-1 ou le contournement multimédia, assurez-vous d’avoir examiné les informations supplémentaires sur les paramètres réseau dans les <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">paramètres réseau pour les fonctionnalités avancées d’Enterprise voix dans Lync Server 2013</A> section de la documentation de planification. Pour plus d’informations sur la configuration du réseau essentiellement sur le contrôle d’admission des appels, voir <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">définir vos exigences de contrôle d’admission des appels dans Lync Server 2013</A> dans la documentation de planification.
+> Avant de commencer la configuration du réseau pour le contrôle d’admission des appels, E9-1-1 ou le contournement multimédia, assurez-vous d’avoir examiné les informations supplémentaires sur les paramètres réseau dans les <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">paramètres réseau pour les fonctionnalités avancées d’Enterprise voix dans Lync Server 2013</A> de la documentation de planification. Pour plus d’informations sur la configuration du réseau essentiellement sur le contrôle d’admission des appels, voir <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">définir vos exigences de contrôle d’admission des appels dans Lync Server 2013</A> dans la documentation de planification.
 
 
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: composants de connectivité PSTN'
+title: 'Lync Server 2013 : composants de connectivité PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN connectivity components
 ms:assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398504(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecda38b4164a70cd4dbb21271ff6efedb08cd498
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63b5534b817477ea42dbefd5244c974fc70881f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823573"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823573"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-04_
+_**Dernière modification de la rubrique :** 2012-10-04_
 
 Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (RTC) avec une qualité de service constante. En outre, la technologie sous-jacente doit être transparente pour les utilisateurs lorsqu’ils passent ou reçoivent des appels. Du point de vue de l’utilisateur, un appel entre l’infrastructure voix entreprise et le RTC devrait paraître une seule et même session SIP.
 
@@ -67,7 +69,7 @@ Les passerelles RTC sont des appareils tiers qui convertissent le signalement et
 
 Si vous disposez d’une infrastructure vocale existante qui utilise un système PBX (Private Branch Exchange), vous pouvez utiliser votre système PBX avec Lync Server Enterprise Voice.
 
-Les scénarios d’intégration PBX voix entreprise pris en charge sont les suivants:
+Les scénarios d’intégration PBX voix entreprise pris en charge sont les suivants :
 
   - IP-PBX prenant en charge la dérivation multimédia, avec un serveur de médiation.
 

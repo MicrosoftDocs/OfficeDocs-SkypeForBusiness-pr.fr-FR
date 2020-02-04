@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlets de réplication'
+title: 'Lync Server 2013 : cmdlets de réplication'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Replication cmdlets
 ms:assetid: e0c49601-d2a3-45a1-b05c-26c7ff820708
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415677(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46652100e421fba8935454f2832e258a9fb2203f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823146"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34823146"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-09_
+_**Dernière modification de la rubrique :** 2012-10-09_
 
-Les applets de contrôle de réplication vous permettent de surveiller et de gérer la réplication de Lync Server. Vous pouvez utiliser ces applets de applet pour configurer les paramètres de réplication. pour surveiller la progression de la réplication; pour forcer manuellement la réplication sur un serveur.
+Les applets de contrôle de réplication vous permettent de surveiller et de gérer la réplication de Lync Server. Vous pouvez utiliser ces applets de applet pour configurer les paramètres de réplication. pour surveiller la progression de la réplication ; pour forcer manuellement la réplication sur un serveur.
 
 <div>
 
 ## <a name="replication-cmdlets"></a>Cmdlets de réplication
 
-Voici une liste des applets de commande qui concernent directement la gestion de la réplication:
+Voici une liste des applets de commande qui concernent directement la gestion de la réplication :
 
 **Duplication**
 

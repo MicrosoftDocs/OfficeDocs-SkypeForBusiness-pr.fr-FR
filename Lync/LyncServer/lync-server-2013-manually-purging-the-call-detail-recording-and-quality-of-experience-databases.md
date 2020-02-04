@@ -3,6 +3,8 @@ title: Effacement manuel de la base de données de l’enregistrement des détai
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manually purging the call detail recording and Quality of Experience databases
 ms:assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204812(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 979f05441bfb62c8b79c604127e23fe7b7b4909f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 50d7de2fdb63b9152731214edeff3bf9c03aa634
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827633"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34827633"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2014-07-07_
+_**Dernière modification de la rubrique :** 2014-07-07_
 
 Les administrateurs peuvent configurer les bases de données d’enregistrement des détails des appels (CDR) et/ou de qualité de l’expérience (QoE) pour vider automatiquement la base de données des enregistrements anciens. Cette opération se produit si le vidage a été activé pour la base de données spécifiée (CDR ou QoE) et si celle-ci contient des enregistrements dont l’ancienneté dépasse la durée spécifiée. Par exemple, les administrateurs peuvent configurer le système pour que tous les jours à 1:00 les enregistrements QoE de plus de 60 jours soient supprimés de la base de données QoE.
 
-En plus de cette suppression automatique, deux nouvelles cmdlets--Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge--2013--- ces applets de applet permettent aux administrateurs de purger manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour purger manuellement tous les enregistrements de plus de 10 jours de la base de données CDR, vous pouvez utiliser une commande similaire à celle-ci:
+En plus de cette suppression automatique, deux nouvelles cmdlets--Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge--2013--- ces applets de applet permettent aux administrateurs de purger manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour purger manuellement tous les enregistrements de plus de 10 jours de la base de données CDR, vous pouvez utiliser une commande similaire à celle-ci :
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 

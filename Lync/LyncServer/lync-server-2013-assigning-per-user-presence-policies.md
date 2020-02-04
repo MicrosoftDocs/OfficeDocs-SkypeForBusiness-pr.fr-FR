@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: attribution de stratégies de présence par utilisateur'
+title: 'Lync Server 2013 : attribution de stratégies de présence par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assigning per-user presence policies
 ms:assetid: fd1097b7-248d-4b78-8c43-456b03257c18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182614(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185955
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 905065e231869b4b6075fc1894e51c91df8f0aee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ec15b826614afcca970989b6436d3ad94d7941f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838917"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838917"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-11_
+_**Dernière modification de la rubrique :** 2012-10-11_
 
 Une politique de présence est un ensemble de limites et de restrictions qui influent sur la présence. Le tableau suivant décrit les paramètres de stratégie de présence disponibles dans Lync Server 2013.
 
@@ -111,7 +113,7 @@ Par défaut, la stratégie et le **service** **par défaut** : stratégies de pr
 <td><p>200</p></td>
 </tr>
 <tr class="even">
-<td><p>Service: moyen</p></td>
+<td><p>Service : moyen</p></td>
 <td><p>Stratégie pour les applications qui requièrent davantage d’utilisateurs pour s’abonner à la présence de l’objet.</p></td>
 <td><p>1000</p></td>
 <td><p>0,4</p></td>

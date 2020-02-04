@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: rapport sur la liste des appels de groupe de réponse'
+title: 'Lync Server 2013 : rapport sur la liste des appels de groupe de réponse'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response Group Call List Report
 ms:assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615443(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf2c45167b5e5c437a3ff755115aa54d34c74a87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 94c06e2029ca1a22a0a9f73249cff3251e2fcbc2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823279"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823279"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-22_
+_**Dernière modification de la rubrique :** 2013-02-22_
 
 L’application Response Group permet à Microsoft Lync Server 2013 de répondre aux appels téléphoniques et de les acheminer en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si une personne appelle le numéro de téléphone de votre support technique, Lync Server 2013 peut automatiquement diriger l’appel vers le premier agent de support technique disponible. Par ailleurs, Lync Server peut poser une série de questions (en appuyant sur 1 si vous rencontrez des problèmes de matériel. Appuyez sur 2 pour des problèmes logiciels. Tapez 3 Si vous rencontrez des problèmes de réseau. puis Routez l’appel vers l’agent de support technique le plus approprié en fonction de la réponse à ces questions.
 
@@ -85,7 +87,7 @@ Si vous souhaitez obtenir la réponse à une question telle que « Quel est le 
 
 3.  Exécutez vos analyses à l’aide de Windows PowerShell.
 
-Par exemple, si vous avez enregistré les données dans un fichier nommé C:\\Data\\Response\_Group\_\_\_. csv, vous pouvez utiliser la commande suivante pour renvoyer le nombre total d’appels reçus pour chaque flux de travail. indiqués dans le rapport:
+Par exemple, si vous avez enregistré les données dans un fichier nommé C :\\Data\\Response\_Group\_\_\_. csv, vous pouvez utiliser la commande suivante pour renvoyer le nombre total d’appels reçus pour chaque flux de travail répertorié dans le rapport :
 
     $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
     $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending

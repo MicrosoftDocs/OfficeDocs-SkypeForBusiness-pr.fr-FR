@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering servers after migration
 ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205023(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc74d02f0d99319d2014262ff9a607d723aaa274
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 067dadbb1578aa89f2d7199c0c356ddf86884eac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233001"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36233001"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-29_
+_**Dernière modification de la rubrique :** 2012-09-29_
 
 En règle générale, vous devez utiliser l’outil d’administration qui correspond à la version du serveur que vous voulez gérer. Vous ne pouvez pas installer le serveur Lync Server 2010 et les outils d’administration de Lync Server 2013 sur le même ordinateur. Par ailleurs, le panneau de configuration de Lync Server 2013 n’est pas installé automatiquement sur chaque serveur. Pour installer le panneau de configuration de Lync Server 2013, suivez la procédure décrite dans la rubrique [installer les outils d’administration de Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) dans la documentation de déploiement.
 

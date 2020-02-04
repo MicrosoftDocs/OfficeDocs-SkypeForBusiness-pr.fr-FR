@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: affecter une stratégie de code confidentiel par utilisateur'
+title: 'Lync Server 2013 : affecter une stratégie de code confidentiel par utilisateur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user PIN policy
 ms:assetid: d8211c64-0b63-4193-a074-673da7d14287
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c60943ad13bd03de6e4474ec35f2deea1964bad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0864fdf4d2356ee04e1084c2f6b0149b2a6ebd5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34846898"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722814"
 ---
 # <a name="assign-a-per-user-pin-policy-in-lync-server-2013"></a>Affecter une stratégie de code confidentiel par utilisateur dans Lync Server 2013
 
@@ -90,7 +92,7 @@ Pour plus d’informations sur la création de stratégies de code confidentiel 
 
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Attribution d’une stratégie de code confidentiel par utilisateur à l’aide des applets de cmdlet Windows PowerShell
 
-Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsPinPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell».
+Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’aide de Windows PowerShell et de l’applet **de passe Grant-CsPinPolicy** . Vous pouvez exécuter cette applet de commande sur Lync Server 2013 Management Shell ou à partir d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Server 2010 à l’aide de Remote PowerShell ».
 
 ## <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Pour affecter une stratégie de code confidentiel par utilisateur à un seul utilisateur
 

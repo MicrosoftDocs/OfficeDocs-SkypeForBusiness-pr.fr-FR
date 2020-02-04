@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Authorize connection to Office Communications Server 2007 R2 Edge Server
 ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204702(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04bc5d92b45f65c864da046951ce7ebd42155ed2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8dbce32a12f05dff768d23a2bdccfe1b84a567cb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232925"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36232925"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-28_
+_**Dernière modification de la rubrique :** 2012-09-28_
 
 Pour chaque serveur principal Lync Server 2013 ou Standard Edition Server dans votre pool de pilotes, vous devez mettre à jour la liste des serveurs internes autorisés à se connecter au serveur Edge Office Communications Server 2007 R2. Sans ces mises à jour, les conférences audio/vidéo externes (A/V) pour les utilisateurs qui rejoignent l’utilisation du serveur Edge hérité ne fonctionneront pas.
 
@@ -52,7 +54,7 @@ Pour chaque serveur principal Lync Server 2013 ou Standard Edition Server dans v
 
 5.  Sous **Ajouter un serveur**, cliquez sur **Ajouter**.
 
-6.  Dans la boîte de dialogue **Ajouter un serveur Office Communications Server** , entrez les informations appropriées:
+6.  Dans la boîte de dialogue **Ajouter un serveur Office Communications Server** , entrez les informations appropriées :
     
       - Spécifiez le nom de domaine complet (FQDN) de chaque serveur frontal Lync Server 2013 ou Standard Edition Server et de Lync Server 2013 pool.
     

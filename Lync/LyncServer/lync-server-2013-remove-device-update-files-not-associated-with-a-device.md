@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: supprimer les fichiers de mise à jour d’appareils non associés à un appareil'
+title: 'Lync Server 2013 : supprimer les fichiers de mise à jour d’appareils non associés à un appareil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Device Update files not associated with a device
 ms:assetid: ecebbf73-b456-4990-a91d-308b84d39404
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ea26cd20826ed099e27c7287c53cc7ca79bef9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823125"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823125"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-20_
+_**Dernière modification de la rubrique :** 2013-02-20_
 
 Chaque fois que de nouvelles mises à jour de périphériques sont téléchargées sur le système, une règle de mise à jour d’appareil correspondante est créée. Par défaut, ces nouvelles règles de mise à jour de l’appareil sont affectées à l’État en attente. Cela signifie que les règles peuvent être téléchargées et installées sur les appareils de test, mais pas sur les appareils de production, ce qui vous permet de tester les mises à jour avant de les rendre accessibles aux utilisateurs. D’après les tests, vous acceptez et déployez ou rejetez et supprimez la mise à jour. Lorsque vous refusez une mise à jour, la mise à jour de l’appareil est désassociée de sa règle de mise à jour de l’appareil.
 
@@ -46,7 +48,7 @@ Les fichiers de mise à jour d’appareil qui ne sont plus associés à un appar
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -55,7 +57,7 @@ Les fichiers de mise à jour d’appareil qui ne sont plus associés à un appar
 <div>
 
 
-  - Par exemple, la commande suivante supprime toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com qui ne sont plus associées à un appareil:
+  - Par exemple, la commande suivante supprime toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com qui ne sont plus associées à un appareil :
     
         Clear-CsDeviceUpdateFile -Identity "service:WebServer:atl-cs-001.litwareinc.com"
 

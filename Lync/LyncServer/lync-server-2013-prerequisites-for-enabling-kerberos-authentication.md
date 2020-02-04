@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Conditions prérequises à l’activation de l’auth
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for enabling Kerberos authentication
 ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f405daa37007bffba1e02bd10d20d4de907e820e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: adb722f69dcd975d7f346b6e4db8f8ff140f4ac3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823678"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823678"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
-Avant d’activer l’authentification Kerberos, assurez-vous d’avoir effectué toutes les préparations de configuration et d’infrastructure prérequises:
+Avant d’activer l’authentification Kerberos, assurez-vous d’avoir effectué toutes les préparations de configuration et d’infrastructure prérequises :
 
   - Le schéma Active Directory est étendu pour Lync Server 2013.
 

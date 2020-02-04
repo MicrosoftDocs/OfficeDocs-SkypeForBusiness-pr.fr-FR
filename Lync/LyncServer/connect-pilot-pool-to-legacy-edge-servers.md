@@ -3,6 +3,8 @@ title: Connexion du pool pilote aux serveurs Edge hérités
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838840"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-29_
+_**Dernière modification de la rubrique :** 2012-09-29_
 
 Après le déploiement de Lync Server 2013, vous devez configurer un itinéraire de Fédération pour votre site. Pour pouvoir utiliser l’itinéraire fédéré utilisé par Lync Server 2010, Lync Server 2013 doit être configuré pour utiliser cet itinéraire.
 
@@ -53,7 +55,7 @@ Pour permettre au site Lync Server 2013 d’utiliser le directeur et le serveur 
 
 5.  Sous **affectation**de l’itinéraire de Fédération de site, sélectionnez **activer la Fédération SIP**, puis sélectionnez le serveur Lync Server 2010 ou le serveur Edge Lync Server 2010 si aucun réalisateur n’est répertorié.
     
-    ![Modifier les propriétés, page itinéraire de Fédération] (images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Modifier les propriétés, page itinéraire de Fédération")  
+    ![Modifier les propriétés, page itinéraire de Fédération](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Modifier les propriétés, page itinéraire de Fédération")  
 
 6.  Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 
@@ -63,7 +65,7 @@ Pour permettre au site Lync Server 2013 d’utiliser le directeur et le serveur 
 
 9.  Dans la liste, sélectionnez le serveur de bord hérité.
     
-    ![Boîte de dialogue Modifier les propriétés, sélection du bord hérité] (images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, sélection du bord hérité")  
+    ![Boîte de dialogue Modifier les propriétés, sélection du bord hérité](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Boîte de dialogue Modifier les propriétés, sélection du bord hérité")  
 
 10. Cliquez sur **OK** pour fermer la page **modifier les propriétés** .
 

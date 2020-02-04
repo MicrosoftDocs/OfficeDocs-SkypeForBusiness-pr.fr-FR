@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: restauration d’un magasin de fichiers'
+title: 'Lync Server 2013 : restauration d’un magasin de fichiers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a file store
 ms:assetid: 89916fc6-31d3-4c7f-9eaf-c02584761ef4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202180(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc9f1bae4e1a9a84815e576267a15155bec227da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c013159de83d258273e381dd54556bcceec056f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823083"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-18_
+_**Dernière modification de la rubrique :** 2013-02-18_
 
 Les magasins de fichiers pour l’édition standard sont généralement situés sur le serveur Standard Edition Server. Les magasins de fichiers pour Enterprise Edition sont généralement situés sur un serveur de fichiers ou un cluster. La procédure suivante vous explique comment restaurer un magasin de fichiers.
 

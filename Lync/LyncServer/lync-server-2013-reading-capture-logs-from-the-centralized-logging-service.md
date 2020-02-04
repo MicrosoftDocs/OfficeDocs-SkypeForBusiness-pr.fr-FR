@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: lecture de journaux de capture à partir du service de journalisation centralisé'
+title: 'Lync Server 2013 : lecture de journaux de capture à partir du service de journalisation centralisé'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823727"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2016-12-28_
+_**Dernière modification de la rubrique :** 2016-12-28_
 
-Vous pouvez bénéficier de l’avantage réel du service de journalisation centralisé après avoir exécuté la recherche et disposer d’un fichier que vous pouvez utiliser pour effectuer le suivi d’un problème signalé. Il existe plusieurs façons de lire le fichier. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad. exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil comme Snooper. exe, conçu pour lire et analyser la sortie de la journalisation à partir du service de journalisation centralisé. La fonction Snoop est incluse dans les outils de débogage de Lync Server 2013 qui sont disponibles en téléchargement séparé. Vous pouvez télécharger les outils de débogage de Lync Server [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)2013 ici:. Lorsque vous installez les outils de débogage de Lync Server 2013, des raccourcis courts et des éléments de menu ne sont pas créés. Après l’installation des outils de débogage de Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell, puis accédez au répertoire (emplacement\\par défaut\\) C: Program\\Files Microsoft Lync Server 2013 outils de débogage. Double-cliquez sur Snoop. exe ou tapez Snoop. exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Lync Server Management Shell.
+Vous pouvez bénéficier de l’avantage réel du service de journalisation centralisé après avoir exécuté la recherche et disposer d’un fichier que vous pouvez utiliser pour effectuer le suivi d’un problème signalé. Il existe plusieurs façons de lire le fichier. Le fichier de sortie est au format texte standard et vous pouvez utiliser Notepad. exe ou tout autre programme qui vous permettra d’ouvrir et de lire un fichier texte. Pour les fichiers plus volumineux et les problèmes plus complexes, vous pouvez utiliser un outil comme Snooper. exe, conçu pour lire et analyser la sortie de la journalisation à partir du service de journalisation centralisé. La fonction Snoop est incluse dans les outils de débogage de Lync Server 2013 qui sont disponibles en téléchargement séparé. Vous pouvez télécharger les outils de débogage de Lync Server [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)2013 ici :. Lorsque vous installez les outils de débogage de Lync Server 2013, des raccourcis courts et des éléments de menu ne sont pas créés. Après l’installation des outils de débogage de Lync Server 2013, ouvrez l’Explorateur Windows, une fenêtre de ligne de commande ou Lync Server Management Shell, puis accédez au répertoire (emplacement\\par défaut\\) C : Program\\Files Microsoft Lync Server 2013 outils de débogage. Double-cliquez sur Snoop. exe ou tapez Snoop. exe, puis appuyez sur entrée si vous utilisez la ligne de commande ou Lync Server Management Shell.
 
 <div>
 
@@ -49,23 +51,23 @@ Vous pouvez bénéficier de l’avantage réel du service de journalisation cent
 
 Lync Server 2013 introduit une version mise à jour de l’application Snoop qui inclut de nouvelles fonctionnalités. La capture d’écran suivante montre la version de Snoop d’Office Communications Server 2007.
 
-![Version d’Office Communications 2007 de Snoop.] (images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Version d’Office Communications 2007 de Snoop.")
+![Version d’Office Communications 2007 de Snoop.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Version d’Office Communications 2007 de Snoop.")
 
 La capture d’écran suivante montre la nouvelle version de Snoop incluse dans les outils de débogage de Lync Server 2013.
 
-![Version 2013 de Lync Server de Snoop.] (images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Version 2013 de Lync Server de Snoop.")
+![Version 2013 de Lync Server de Snoop.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Version 2013 de Lync Server de Snoop.")
 
 La capture d’écran suivante illustre la barre d’outils avec les fonctions les plus fréquemment utilisées.
 
-![Barre d’outils snoop 2013.] (images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barre d’outils snoop 2013.")
+![Barre d’outils Snoop 2013.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barre d’outils Snoop 2013.")
 
 En plus, la fonction la plus récente qui ajoute value est la vue de diagramme du diagramme de flux (flux d’appels). Sélectionnez un flux de messages dans l’onglet **message** , puis cliquez sur le bouton **flux d’appels** . Lorsque vous parcourez les messages, le diagramme de flux d’appels est mis à jour avec les nouvelles données.
 
-Le ![diagramme de flux d’appels d’snoop 2013.] Le (images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "diagramme de flux d’appels d’snoop 2013.")
+![Le diagramme de flux d’appels d’Snoop 2013.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Le diagramme de flux d’appels d’Snoop 2013.")
 
 Vous pouvez pointer sur la vue de diagramme et obtenir des informations sur les messages et le contenu des flux et des messages ainsi que les éléments du serveur. Cliquez sur une flèche de flux d’appels pour accéder au message dans l’affichage messages.
 
-![Détails du message du diagramme de flux d’appels.] (images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Détails du message du diagramme de flux d’appels.")
+![Détails du message du diagramme de flux d’appels.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Détails du message du diagramme de flux d’appels.")
 
 <div>
 

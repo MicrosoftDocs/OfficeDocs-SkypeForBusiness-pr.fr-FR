@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Acquisition d’un emplacement'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Acquiring a location
 ms:assetid: 9bf069aa-d240-4d95-be3a-e795537f8e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205110(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fb123cf2f38d935bc0cc641c67e6d0ff1d54e4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e54c7032973f75922f6c6893a0c758409ec945be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34838967"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-06-06_
+_**Dernière modification de la rubrique :** 2012-06-06_
 
 Dans un déploiement Lync Server 2013 E9-1-1, chaque client Lync connecté en interne ou Lync Phone Edition acquiert activement son emplacement. Après l’inscription SIP, le client fournit toutes les informations de connectivité réseau qu’il connaît lui-même dans une demande d’emplacement du service d’information d’emplacement, qui est un service Web stocké par une base de données SQL Server répliquée. Chacun d’eux dispose d’un service d’information d’emplacement qui utilise les informations réseau pour rechercher un emplacement correspondant dans ses enregistrements. S’il existe une correspondance, le service d’informations d’emplacement renvoie un emplacement au client. Dans le cas inverse, l’utilisateur peut être invité à entrer manuellement un emplacement (en fonction des paramètres de la stratégie d’emplacement). Les données d’emplacement sont retransmises au client dans un format XML normalisé IETF (Internet Engineering Task Force) appelé PIDF-LO (Presence Information Data Format Location Object).
 
 Le client Lync Server inclut les données PIDF-LO dans le cadre d’un appel d’urgence, et ces données sont utilisées par le prestataire de services E9-1-1 pour déterminer le PSAPI approprié et acheminer l’appel vers ce PSAPI avec le bon ESQK, ce qui permet au répartiteur PSAPI d’obtenir le emplacement de l’appelant.
 
-Le diagramme suivant montre comment un client Lync Server acquiert un emplacement (à l’exception de la méthode d’emplacement basée sur l’adresse MAC du client tiers):
+Le diagramme suivant montre comment un client Lync Server acquiert un emplacement (à l’exception de la méthode d’emplacement basée sur l’adresse MAC du client tiers) :
 
-![Acquisition d’un diagramme d’emplacement par le client] (images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "Acquisition d’un diagramme d’emplacement par le client")
+![Diagramme : comment le client acquiert un emplacement](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "Diagramme : comment le client acquiert un emplacement")
 
 Pour qu’un client acquière un emplacement, les étapes suivantes doivent se produire :
 

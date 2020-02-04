@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Conditions requises pour publier une topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements to publish a topology
 ms:assetid: 841cdf5d-d884-414d-ab50-3bb681b622ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195733(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02e90604315732d9e9bfe4c45968ff0bcf5fbd2e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f1422df35ebbe9f368dc8aa3d121caf740e7033
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823258"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823258"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-21_
+_**Dernière modification de la rubrique :** 2013-02-21_
 
 Cette rubrique décrit l’infrastructure et les configurations logicielles requises qui sont spécifiques à la publication d’une topologie, que ce soit à l’aide du générateur de topologie ou de l’interface de ligne de commande de Lync Server 2013 Management Shell. Ces exigences s’ajoutent aux exigences générales du système d’exploitation, des logiciels et des autorisations applicables à tous les outils d’administration de Lync Server 2013. Assurez-vous que vous respectez toutes les conditions d’outils d’administration avant de publier une topologie.
 

@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: infrastructure à clé publique'
+title: 'Lync Server 2013 : infrastructure à clé publique'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Public Key Infrastructure for Lync Server 2013
 ms:assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb79340b29ab4bfa6942d2b2cb62483c79b4ce9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9b205699e9efd896a157654f5c1fb200e34087fc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823741"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823741"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-11-13_
+_**Dernière modification de la rubrique :** 2013-11-13_
 
 Microsoft Lync Server 2013 repose sur des certificats pour l’authentification du serveur et établit une chaîne de confiance entre les clients et les serveurs et entre les différents rôles de serveur. Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 et Windows Server 2003 infrastructure à clé publique (PKI) fournit l’infrastructure permettant d’établir et de valider cette chaîne de confiance.
 

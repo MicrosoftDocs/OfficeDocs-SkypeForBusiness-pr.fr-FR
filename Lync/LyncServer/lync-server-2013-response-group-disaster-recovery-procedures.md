@@ -3,6 +3,8 @@ title: Procédures de récupération d’urgence des groupes Response Group dans
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response group disaster recovery procedures
 ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205186(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f28f13d1acdbdae58b1aadd6f73871af270b7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5325f84ff5bf5a0f8d9d1a856110e0ac18b37d93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823286"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34823286"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-11-01_
+_**Dernière modification de la rubrique :** 2012-11-01_
 
-Lors de la phase de reprise après incident, les groupes de réponse résident dans plusieurs pools: dans le pool principal (non disponible) et dans le pool de sauvegarde. Les groupes Response dans les deux pools ont le même nom et le même propriétaire (le pool principal), mais ils ont des parents différents. Pendant ce temps, les cmdlets de groupe de réponse fonctionnent légèrement différemment. Veillez à utiliser les paramètres comme spécifié dans la procédure suivante. Pour plus d’informations sur le fonctionnement des cmdlets lors de la phase de basculement, voir l’article de blog NextHop «Lync Server 2013: récupération de [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)Response Groups en cours de reprise après sinistre». Ce blog s’applique également à la version publiée de Lync Server 2013.
+Lors de la phase de reprise après incident, les groupes de réponse résident dans plusieurs pools : dans le pool principal (non disponible) et dans le pool de sauvegarde. Les groupes Response dans les deux pools ont le même nom et le même propriétaire (le pool principal), mais ils ont des parents différents. Pendant ce temps, les cmdlets de groupe de réponse fonctionnent légèrement différemment. Veillez à utiliser les paramètres comme spécifié dans la procédure suivante. Pour plus d’informations sur le fonctionnement des cmdlets lors de la phase de basculement, voir l’article de blog NextHop « Lync Server 2013 : récupération de [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)Response Groups en cours de reprise après sinistre ». Ce blog s’applique également à la version publiée de Lync Server 2013.
 
 Suivez les étapes décrites dans la procédure ci-dessous pour préparer et exécuter une reprise après sinistre pour le service Response Group de Lync Server.
 
@@ -43,7 +45,7 @@ Suivez les étapes décrites dans la procédure ci-dessous pour préparer et ex�
 
 ## <a name="to-fail-over-and-fail-back-response-group"></a>Pour basculer et annuler le regroupement de réponses
 
-1.  Démarrez Lync Server Management Shell: cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
+1.  Démarrez Lync Server Management Shell : cliquez sur **Démarrer**, sur **tous les programmes**, sur **Microsoft Lync Server 2013**, puis sur **Lync Server Management Shell**.
 
 2.  Effectuez régulièrement des sauvegardes. Dans la ligne de commande, tapez :
     

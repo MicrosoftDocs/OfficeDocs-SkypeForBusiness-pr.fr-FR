@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Création ou modification manuelle d’une règle de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule manually
 ms:assetid: fc0335e6-8830-4cfb-8c64-6aeb98c0a992
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e4bff312dda32aea118f91c1e5e54f2c8334698
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cf7693eb4a8bac814c81ef69b9f158edb3684f3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34831784"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34831784"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-09-22_
+_**Dernière modification de la rubrique :** 2012-09-22_
 
 Suivez les étapes ci-dessous si vous voulez créer ou modifier une règle de normalisation manuellement. Pour créer ou modifier une règle de normalisation à l’aide de l’application créer une règle de normalisation dans le panneau de configuration de Lync Server, voir [créer ou modifier une règle de normalisation à l’aide de l’application créer une règle de normalisation dans Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule.md).
 

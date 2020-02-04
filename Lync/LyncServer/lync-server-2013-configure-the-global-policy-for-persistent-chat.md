@@ -3,6 +3,8 @@ title: 'Lync Server 2013 : Configuration de la stratégie globale pour la conver
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the global policy for Persistent Chat
 ms:assetid: 6176eb5c-19de-4c07-bcc0-2e38f8965966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204951(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184323
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 236023756f8d2c917812d38f5a03da8dd4c40b5b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 49fb5f329851436e503a9e3e42e144353b70017f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838315"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34838315"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2012-10-06_
+_**Dernière modification de la rubrique :** 2012-10-06_
 
 Vous pouvez utiliser la stratégie globale par défaut pour activer les paramètres de conversation permanente de tous les utilisateurs de votre déploiement. Vous pouvez également spécifier des stratégies supplémentaires pour les sites et les utilisateurs pour contrôler si la conversation permanente est activée ou désactivée pour des utilisateurs et des sites spécifiques.
 

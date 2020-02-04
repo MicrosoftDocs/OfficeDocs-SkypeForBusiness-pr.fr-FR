@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: restaurer une règle de mise à jour d’appareil'
+title: 'Lync Server 2013 : restaurer une règle de mise à jour d’appareil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restore a Device Update rule
 ms:assetid: ac490baf-c7a0-48d9-8fd0-ba5729489341
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90eeb82e710b6ea65bc32184685497494dbef8d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0416092c7021d599ec7e516d72c19e8baa3c598
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823090"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34823090"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-02-23_
+_**Dernière modification de la rubrique :** 2013-02-23_
 
 Pour désinstaller une règle de mise à jour de l’appareil des appareils de votre déploiement, restaurez-la. La restauration d’une règle de mise à jour de l’appareil à la fois désinstalle la mise à jour et réinstalle la version précédente de cette règle.
 
@@ -49,7 +51,7 @@ Vous pouvez restaurer une règle de mise à jour de l’appareil à l’aide du 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **clients**, puis sur le bouton de navigation **mise à jour d’appareil** .
 
-4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes:
+4.  Dans la page **mise à jour** de l’appareil, effectuez l’une des opérations suivantes :
     
       - Pour restaurer une règle, sélectionnez cette règle.
     
@@ -69,7 +71,7 @@ Les règles de mises à jour de périphériques peuvent également être restaur
 
 
 > [!NOTE]  
-> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell «démarrage rapide: gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell».
+> Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Lync Server, voir l’article de blog Lync Server Windows PowerShell « démarrage rapide : gestion de Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Server 2010 à l’aide de Remote PowerShell ».
 
 
 
@@ -79,7 +81,7 @@ Les règles de mises à jour de périphériques peuvent également être restaur
 
 ## <a name="to-restore-a-single-device-update-rule-on-a-server"></a>Pour restaurer une seule règle de mise à jour d’un appareil sur un serveur
 
-  - La commande suivante restaure la règle de mise à jour d’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com:
+  - La commande suivante restaure la règle de mise à jour d’appareil d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 sur le serveur Web atl-cs-001.litwareinc.com :
     
         Restore-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -89,7 +91,7 @@ Les règles de mises à jour de périphériques peuvent également être restaur
 
 ## <a name="to-restore-all-the-device-update-rules-on-a-server"></a>Pour restaurer toutes les règles de mise à jour de l’appareil sur un serveur
 
-  - Cette commande restaure toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com:
+  - Cette commande restaure toutes les règles de mise à jour de l’appareil sur le serveur Web atl-cs-001.litwareinc.com :
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Restore-CsDeviceUpdateRule
 

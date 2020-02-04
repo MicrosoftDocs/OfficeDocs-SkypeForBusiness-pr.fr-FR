@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721881(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87564835404928a79f9c61974d9581bba68069cd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2910766dbb2147fa5d1c51235f10ab2e80826bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233133"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -34,7 +36,7 @@ ms.locfileid: "36233133"
 
 <span> </span>
 
-_**Dernière modification de la rubrique:** 2013-10-28_
+_**Dernière modification de la rubrique :** 2013-10-28_
 
 Les étapes finales de la migration de votre passerelle XMPP sont de configurer des certificats pour le serveur Edge Lync Server 2013, de déployer la passerelle Lync Server 2013 XMPP et de mettre à jour les enregistrements DNS pour la passerelle XMPP. Ces étapes doivent être effectuées en parallèle pour réduire le temps de mise en service de votre passerelle XMPP. Tous les utilisateurs doivent être déplacés vers votre déploiement de Microsoft Lync Server 2013 avant d’effectuer ces étapes.
 
@@ -52,7 +54,7 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 ## <a name="configure-xmpp-gateway-certificates-on-the-lync-server-2013-edge-server"></a>Configurer des certificats de passerelle XMPP sur le serveur Edge Lync Server 2013
 
-1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3: demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
+1.  Sur le serveur Edge, dans l’Assistant Déploiement, en regard de l' **étape 3 : demandez, installez ou attribuez des certificats**, cliquez de **nouveau sur exécuter**.
     
     <div class=" ">
     
@@ -73,7 +75,7 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 6.  Dans la page **spécifier un modèle de certificat secondaire** , pour utiliser un modèle autre que le modèle par défaut du serveur Web, activez la case à cocher utiliser un autre **modèle de certificat pour l’autorité de certification sélectionnée** .
 
-7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit:
+7.  Dans la page **paramètres de nom et de sécurité** , procédez comme suit :
     
     1.  Dans **nom convivial**, tapez un nom d’affichage pour le certificat.
     
@@ -89,7 +91,7 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 11. Dans la page Configuration du protocole **SIP sur le nom de l’objet** , activez la case à cocher Domain pour ajouter un SIP. \<entrée\> sipdomain dans la liste noms de remplacement de l’objet.
 
-12. Dans la page configurez d’autres **noms d’objet** , spécifiez d’autres noms d’objet obligatoires.
+12. Dans la page **configurez** d’autres noms d’objet, spécifiez d’autres noms d’objet obligatoires.
     
     <div class=" ">
     
@@ -108,7 +110,7 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 16. Copiez le fichier de demande et envoyez-le à votre autorité de certification publique.
 
-17. Après avoir reçu, importé et attribué le certificat public, vous devez arrêter et redémarrer les services Edge Server. Pour cela, entrez dans la console de gestion de Lync Server:
+17. Après avoir reçu, importé et attribué le certificat public, vous devez arrêter et redémarrer les services Edge Server. Pour cela, entrez dans la console de gestion de Lync Server :
     
         Stop-CsWindowsService
 
@@ -128,7 +130,7 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 3.  Pour créer une nouvelle configuration, cliquez sur **nouveau**.
 
-4.  Définissez les paramètres suivants:
+4.  Définissez les paramètres suivants :
 
 5.  **Domaine principal (**     obligatoire). Le domaine principal est le domaine de base du partenaire XMPP. Par exemple, vous devez entrer **fabrikam.com** pour le nom de domaine de partenaire XMPP. Il s’agit d’une entrée obligatoire.
 
@@ -136,9 +138,9 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 7.  **Domaines supplémentaires les**   domaines supplémentaires sont des domaines qui font partie du domaine de votre partenaire XMPP qui doivent être inclus dans le cadre de la communication XMPP autorisée. Par exemple, si le domaine principal est **fabrikam.com**, vous répertoriez tous les autres domaines sous fabrikam.com que vous communiquerez par le biais de la fonction XMPP.
 
-8.  **Type**   de partenaire **** le paramètre est obligatoire. Vous devez choisir l’une des options suivantes pour décrire et mettre en œuvre les contacts qui peuvent être ajoutés. Vous pouvez sélectionner l’une des opérations suivantes:
+8.  **Type**   de partenaire **le paramètre** est obligatoire. Vous devez choisir l’une des options suivantes pour décrire et mettre en œuvre les contacts qui peuvent être ajoutés. Vous pouvez sélectionner l’une des opérations suivantes :
     
-      - **Fédéré**   un type de partenaire **fédéré** représente un niveau élevé de confiance entre le déploiement de Lync Server et le partenaire XMPP.Ce type de partenariat est recommandé pour la Fédération avec des serveurs XMPP au sein de la même entreprise ou pour lesquels une relation professionnelle est établie.Les contacts XMPP dans les partenaires fédérés peuvent:
+      - **Fédéré**   un type de partenaire **fédéré** représente un niveau élevé de confiance entre le déploiement de Lync Server et le partenaire XMPP.Ce type de partenariat est recommandé pour la Fédération avec des serveurs XMPP au sein de la même entreprise ou pour lesquels une relation professionnelle est établie.Les contacts XMPP dans les partenaires fédérés peuvent :
         
         1.  Ajoutez des contacts Lync et consultez leur statut de présence sans autorisation expresse de l’utilisateur Lync.
         
@@ -148,9 +150,9 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
     
       - **Vérification publique le**   fournisseur **certifié public** est un fournisseur XMPP public qui est approuvé pour vérifier l’identité de ses utilisateurs.Les contacts XMPP dans les réseaux validés publics peuvent ajouter des contacts Lync et afficher leur présence et leur envoyer des messages instantanés sans autorisation expresse des utilisateurs Lync.Les contacts XMPP dans les réseaux validés publique ne voient jamais les notes d’état des utilisateurs Lync.Ce paramètre n’est pas recommandé.
     
-      - **Public**   invalidée le partenaire non vérifié d’un **public** est un fournisseur XMPP public qui n’est pas approuvé pour vérifier l’identité de ses utilisateurs.Les utilisateurs de XMPP sur des réseaux publics non vérifiés ne peuvent pas communiquer avec des utilisateurs de Lync, sauf si l’utilisateur de Lync les a expressément autorisés en les ajoutant à la liste des contacts.Les utilisateurs de XMPP sur les réseaux publics non vérifiés ne voient jamais les notes d’état des utilisateurs Lync.Ce paramètre est recommandé pour toutes les fédérations avec les fournisseurs XMPP publics tels que Google Talk.
+      - **Public invalidée**   le partenaire non vérifié d’un **public** est un fournisseur XMPP public qui n’est pas approuvé pour vérifier l’identité de ses utilisateurs.Les utilisateurs de XMPP sur des réseaux publics non vérifiés ne peuvent pas communiquer avec des utilisateurs de Lync, sauf si l’utilisateur de Lync les a expressément autorisés en les ajoutant à la liste des contacts.Les utilisateurs de XMPP sur les réseaux publics non vérifiés ne voient jamais les notes d’état des utilisateurs Lync.Ce paramètre est recommandé pour toutes les fédérations avec les fournisseurs XMPP publics tels que Google Talk.
 
-9.  **Type de connexion:** Définit les différentes règles et paramètres de dialback.
+9.  **Type de connexion :** Définit les différentes règles et paramètres de dialback.
     
       - **La négociation**   TLS définit les règles de négociation TLS. Un service XMPP peut nécessiter le protocole TLS, peut rendre TLS facultatif ou vous définissez que TLS n’est pas pris en charge. Le choix de l’option facultative quitte le service XMPP pour une décision de demande obligatoire. Pour afficher tous les paramètres et détails possibles relatifs aux négociations SASL, TLS et Dialback, y compris les configurations d’erreur non valides et connues, voir [paramètres de négociation des partenaires fédérés de XMPP dans Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
@@ -192,7 +194,7 @@ Les étapes finales de la migration de votre passerelle XMPP sont de configurer 
 
 ## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Mettre à jour les enregistrements DNS pour Lync Server 2013 passerelle XMPP
 
-1.  Pour configurer DNS pour la Fédération XMPP, ajoutez l’enregistrement SRV suivant à votre DNS externe:\_XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet d’accès du serveur Edge, avec une valeur de port de 5269.
+1.  Pour configurer DNS pour la Fédération XMPP, ajoutez l’enregistrement SRV suivant à votre DNS externe :\_XMPP-Server. \_TCP. \<nom de\> domaine l’enregistrement SRV sera résolu vers le nom de domaine complet d’accès du serveur Edge, avec une valeur de port de 5269.
 
 </div>
 
