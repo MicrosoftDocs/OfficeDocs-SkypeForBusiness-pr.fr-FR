@@ -7,39 +7,39 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de chat permanent en entrant le nom de domaine complet (FQDN) du nom de domaine complet (FQDN) de l’ordinateur. Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).
-ms.openlocfilehash: c3f014a8f0f6760a2628ca06306ed59055fc3cc4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ede256812e5edff653431e134d19f78787013f19
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305891"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697539"
 ---
-# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="a4e74-104">Définir les ordinateurs du pool de conversations permanentes</span><span class="sxs-lookup"><span data-stu-id="a4e74-104">Define Computers in Persistent Chat Pool</span></span>
+# <a name="define-computers-in-persistent-chat-pool"></a><span data-ttu-id="beead-104">Définir les ordinateurs du pool de conversations permanentes</span><span class="sxs-lookup"><span data-stu-id="beead-104">Define Computers in Persistent Chat Pool</span></span>
  
-<span data-ttu-id="a4e74-105">Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de chat permanent en entrant le nom de domaine complet (FQDN) du nom de domaine complet (FQDN) de l' **ordinateur**.</span><span class="sxs-lookup"><span data-stu-id="a4e74-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="a4e74-106">Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).</span><span class="sxs-lookup"><span data-stu-id="a4e74-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
+<span data-ttu-id="beead-105">Vous définissez les ordinateurs qui feront partie d’un pool de serveurs de chat permanent en entrant le nom de domaine complet (FQDN) du nom de domaine complet (FQDN) de l' **ordinateur**.</span><span class="sxs-lookup"><span data-stu-id="beead-105">You define the computers that will be a part of a Persistent Chat Server pool by typing the fully qualified domain name (FQDN) in **Computer FQDN**.</span></span> <span data-ttu-id="beead-106">Il doit s’agir du nom de domaine complet (FQDN) de l’ordinateur, défini dans les enregistrements d’hôte DNS (Domain Name System) (A ou AAAA).</span><span class="sxs-lookup"><span data-stu-id="beead-106">This must be the name of the computer as it is defined in the domain name system DNS host (A or AAAA) records.</span></span>
   
-<span data-ttu-id="a4e74-107">Cliquez sur **Ajouter** pour inclure le nom de domaine complet dans la liste des ordinateurs du pool.</span><span class="sxs-lookup"><span data-stu-id="a4e74-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
+<span data-ttu-id="beead-107">Cliquez sur **Ajouter** pour inclure le nom de domaine complet dans la liste des ordinateurs du pool.</span><span class="sxs-lookup"><span data-stu-id="beead-107">Click **Add** to add the FQDN to the list of computers in the pool.</span></span>
   
-<span data-ttu-id="a4e74-108">Cliquez sur **Mettre à jour** pour actualiser les entrées de la liste d’ordinateurs, sur les ordinateurs qui ont servi à constituer cette liste d’ordinateurs définis pour le pool.</span><span class="sxs-lookup"><span data-stu-id="a4e74-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
+<span data-ttu-id="beead-108">Cliquez sur **Mettre à jour** pour actualiser les entrées de la liste d’ordinateurs, sur les ordinateurs qui ont servi à constituer cette liste d’ordinateurs définis pour le pool.</span><span class="sxs-lookup"><span data-stu-id="beead-108">Click **Update** to refresh the entries in the list of computers in the computers that make up the list of computers defined for the pool.</span></span>
   
-<span data-ttu-id="a4e74-109">Cliquez sur **Supprimer** pour supprimer un ordinateur défini dans le pool.</span><span class="sxs-lookup"><span data-stu-id="a4e74-109">Click **Remove** to delete a defined computer in the pool.</span></span>
+<span data-ttu-id="beead-109">Cliquez sur **Supprimer** pour supprimer un ordinateur défini dans le pool.</span><span class="sxs-lookup"><span data-stu-id="beead-109">Click **Remove** to delete a defined computer in the pool.</span></span>
   
-<span data-ttu-id="a4e74-110">Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.</span><span class="sxs-lookup"><span data-stu-id="a4e74-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
+<span data-ttu-id="beead-110">Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.</span><span class="sxs-lookup"><span data-stu-id="beead-110">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="a4e74-111">Cliquez sur **suivant** lorsque vous avez fini d’entrer les membres de votre ordinateur pour ce pool et de continuer avec la définition du pool de serveurs de chat permanent.</span><span class="sxs-lookup"><span data-stu-id="a4e74-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
+<span data-ttu-id="beead-111">Cliquez sur **suivant** lorsque vous avez fini d’entrer les membres de votre ordinateur pour ce pool et de continuer avec la définition du pool de serveurs de chat permanent.</span><span class="sxs-lookup"><span data-stu-id="beead-111">Click **Next** after you have finished entering the computer members for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
   
-<span data-ttu-id="a4e74-112">Cliquez sur **Annuler** pour ignorer toutes les modifications et fermer l’Assistant **Définition d’un nouveau pool de conversations permanentes**.</span><span class="sxs-lookup"><span data-stu-id="a4e74-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="beead-112">Cliquez sur **Annuler** pour ignorer toutes les modifications et fermer l’Assistant **Définition d’un nouveau pool de conversations permanentes**.</span><span class="sxs-lookup"><span data-stu-id="beead-112">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
   
-<span data-ttu-id="a4e74-113">Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active.</span><span class="sxs-lookup"><span data-stu-id="a4e74-113">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="beead-113">Cliquez sur **Aide** pour accéder à une aide contextuelle, comme celle de la page active.</span><span class="sxs-lookup"><span data-stu-id="beead-113">Click **Help** to access context sensitive help, such as this page.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a4e74-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a4e74-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="beead-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="beead-114">See also</span></span>
 
-[<span data-ttu-id="a4e74-115">Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="a4e74-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="beead-115">Planifier un serveur de conversation permanente dans Skype Entreprise Server 2015</span><span class="sxs-lookup"><span data-stu-id="beead-115">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="a4e74-116">Ajouter un serveur de chat permanent à votre topologie 2015 Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="a4e74-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="beead-116">Ajouter un serveur de chat permanent à votre topologie 2015 Skype entreprise Server</span><span class="sxs-lookup"><span data-stu-id="beead-116">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
