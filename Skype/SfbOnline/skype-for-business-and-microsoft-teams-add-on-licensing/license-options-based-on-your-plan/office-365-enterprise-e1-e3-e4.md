@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573630"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692469"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
@@ -34,7 +35,7 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 |||
 |:-----|:-----|
 |**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Audioconférence** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
+|**Audioconférence,** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
 |**Numéros gratuits pour un accès rendez-vous à vos réunions et possibilité de passer des appels sortants à partir d’une réunion pour ajouter une personne en appelant n’importe quel numéro de téléphone dans le monde** <br/> |[Crédits de communication](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Système téléphonique** <br/> |1. composant additionnel du **système téléphonique Office 365** <br/> 2. Forfaits d’appels : achetez un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Messagerie vocale cloud** <br/> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |

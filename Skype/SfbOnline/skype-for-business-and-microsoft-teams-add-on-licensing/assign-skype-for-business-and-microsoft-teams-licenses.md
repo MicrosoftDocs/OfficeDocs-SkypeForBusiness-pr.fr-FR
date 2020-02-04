@@ -16,23 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
-ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
-ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
+ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34768774"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692519"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Attribuer des licences Skype Entreprise
 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> Pour plus d’informations sur les licences que vous devez acheter et sur **la manière de les acheter** , reportez-vous à la rubrique [licences de compléments Skype entreprise](skype-for-business-and-microsoft-teams-add-on-licensing.md) , en fonction de votre plan Office 365, afin que les utilisateurs obtiennent des conférences audio, des numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre entreprise.
+> Pour plus d’informations sur les licences que vous devez acheter et sur **la manière de les acheter** , reportez-vous à la rubrique [licences de compléments Skype entreprise](skype-for-business-and-microsoft-teams-add-on-licensing.md) , en fonction de votre plan Office 365, afin que les utilisateurs puissent obtenir des conférences audio, des numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre entreprise.
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>Système téléphonique et Forfaits d’appels : conseils et scripts pour l’attribution des licences
@@ -106,19 +107,19 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 |Entreprise E1  <br/> |STANDARDPACK  <br/> |
 |Plan autonome 2 de Skype Entreprise Online  <br/> |MCOSTANDARD  <br/> |
 |Système téléphonique  <br/> |MCOEV  <br/> |
-|Forfait d’appels internationaux  <br/> |MCOPSTN2  <br/> |
+|Plan d’appels internationaux  <br/> |MCOPSTN2  <br/> |
 |Forfait d’appels nationaux (3000 min US/1200 min Europe)  <br/> |MCOPSTN1  <br/> |
 |Forfait d’appels nationaux (forfait d’appels 120 min)  <br/> |MCOPSTN5  <br/> |
 |Forfait d’appels nationaux (forfait d’appels 240 min)  <br/> |MCOPSTN6  <br/> |
 |Crédits de communication  <br/> |MCOPSTNC  <br/> |
 
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconférence: conseils et scripts pour affecter des licences
+## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconférence : conseils et scripts pour affecter des licences
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Ce que vous devez savoir avant d’affecter des licences de conférence audio
 
-- Fournisseur de services d' **audioconférence tiers**: si une personne est déjà configurée pour utiliser un fournisseur de services d’audioconférence tiers, lorsque vous lui attribuez une licence d' **audioconférence** , elle est modifiée de manière à utiliser Microsoft comme audioconférence. fournisseurs. Vous pouvez le remplacer par le fournisseur tiers.
+- Fournisseur de services d' **audioconférence tiers**: si une personne est déjà configurée pour utiliser un fournisseur de services d’audioconférence tiers, lorsque vous lui attribuez une licence d' **audioconférence** , celle-ci est modifiée de manière à utiliser Microsoft comme fournisseur de services d’audioconférence. Vous pouvez le remplacer par le fournisseur tiers.
 
-- Étapes suivantes: une fois que vous avez attribué des licences de **conférence audio** , vous devez affecter un fournisseur de services d’audioconférence. Voir [Affecter Microsoft comme fournisseur d'audioconférence].
+- Étapes suivantes : une fois que vous avez attribué des licences de **conférence audio** , vous devez affecter un fournisseur de services d’audioconférence. Voir [Affecter Microsoft comme fournisseur d'audioconférence].
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Comment affecter une licence de conférence audio à un utilisateur
 
@@ -199,7 +200,7 @@ Les étapes sont les mêmes que pour affecter un licence Office 365. Consultez l
 
 Jetez un coup d’œil à l’exemple de script permettant d’affecter des licences de **conférence audio** . Mettez-le à jour avec les informations relatives à l’affectation de licences de **crédits de communication** .
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
   
 [Configurer des forfaits d'appels](/microsoftteams/set-up-calling-plans)
   

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b7bce3818de3ae2a096330b11a7bb779bb62ec10
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285073"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692819"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -37,7 +38,7 @@ Voici ce dont vous aurez besoin :
 
 - Un compte avec un fournisseur de services d'audioconférence pour Skype Entreprise Online.
 
-## <a name="what-do-you-want-to-do"></a>Que voulez-vous faire ?
+## <a name="what-do-you-want-to-do"></a>Que souhaitez-vous faire ?
 
 > [Configurer des comptes test](test-your-skype-for-business-online-installation.md#__toc328126910)
 > 
@@ -136,9 +137,9 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Présentation de diapositives PowerPoint dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Votre présentation PowerPoint est affichée sur l'ordinateur de tous les utilisateurs dans la fenêtre de partage de réunion Skype Entreprise.  <br/> |
 |[Transfert d'un fichier dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Une fois la pièce jointe téléchargée, tous les participants à la réunion peuvent l'afficher et la télécharger.  <br/> |
 
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
 

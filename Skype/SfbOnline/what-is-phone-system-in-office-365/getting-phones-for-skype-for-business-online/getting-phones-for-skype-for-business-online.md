@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Découvrez quels téléphones fonctionnent avec Skype Entreprise à partir de Polycom, HP et Mitel, ainsi que les licences requises. '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587933"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692249"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtention de numéros de téléphone pour Skype Entreprise Online
 
@@ -93,20 +94,20 @@ Pour en savoir plus sur les fonctionnalités et fonctions complètes de votre ap
 |**Fonctionnalité** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
 |Se connecter à l'aide des informations de connexion de l'utilisateur  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Se connecter via un PC (couplage), Windows uniquement  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
-|Se connecter à l'aide de (connexion Web)  <br/>  <br/> **Remarque:** Consultez la matrice de prise en charge dans le Guide de déploiement.           |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
+|Se connecter à l'aide de (connexion Web)  <br/>  <br/> **Remarque :** Consultez la matrice de prise en charge dans le Guide de déploiement.           |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Cliquez sur participer à une réunion  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
 |Cliquer pour marquer un numéro (couplage)  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
 |Contrôles de réunion  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
 |Messagerie vocale visuelle  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
 |Verrouillage du téléphone  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
-|Mise à jour de l'appareil  <br/> |Oui  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
-|Provisionnement intrabande  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Mise à jour de l'appareil  <br/> |Oui  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
+|Provisionnement intrabande  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
 |QoE  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
-|Chargement de journaux  <br/> <br/> **Remarque:** Actuellement, tous les journaux sont chargés uniquement dans l’équipe du support Microsoft; l’accès client aux journaux des téléphones n’est pas encore disponible.           |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Chargement de journaux  <br/> <br/> **Remarque :** Actuellement, tous les journaux sont chargés uniquement dans l’équipe du support Microsoft ; l’accès client aux journaux des téléphones n’est pas encore disponible.           |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
 |Authentification moderne  <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Numéros d'urgence multiples  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Intégration du calendrier Exchange*  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> <br/> **Remarque:** Nécessite une connexion de PC           |
-|Intégration de la présence  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
+|Intégration du calendrier Exchange*  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> <br/> **Remarque :** Nécessite une connexion de PC           |
+|Intégration de la présence  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |
 |Annuaire d'entreprise  <br/> |Oui   <br/> |Oui   <br/> |Oui   <br/> |Oui  <br/> |
 |Délégation  <br/> |Oui  <br/> |Oui   <br/> |Oui  <br/> |Non  <br/> |
 |Intégration de l'image des contacts  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |

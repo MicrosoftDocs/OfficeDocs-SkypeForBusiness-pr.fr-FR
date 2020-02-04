@@ -13,17 +13,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Comment soupir un compte IP Relay pour le Canada.
-ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304121"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693109"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Relais IP au Canada - inscription
 
@@ -31,18 +32,18 @@ Pour obtenir un compte IP Relay configuré pour le Canada, complétez les inform
 
 |||
 |:-----|:-----|
-|Nom & prénom:||
-|Nom de domaine du client Office 365: <br/>(Par exemple: Contoso.com)||
-|Numéro de téléphone de l’utilisateur Office 365: <br/>Exemple: + 1 XXX XXX XXXX) ||
-|Mot de passe (entre 8 et 16 caractères): ||
-|Adresse physique la plus probable <br/>au moment d’une urgence:||
-|Nom de la rue &:||
-|Appartement/suite:||
+|Prénom & nom :||
+|Nom de domaine du client Office 365 : <br/>(Par exemple : Contoso.com)||
+|Numéro de téléphone de l’utilisateur Office 365 : <br/>Exemple : + 1 XXX XXX XXXX) ||
+|Mot de passe (entre 8 et 16 caractères) : ||
+|Adresse physique la plus probable <br/>au moment d’une urgence :||
+|Nom & numéro de rue :||
+|Appartement/suite :||
 |Urbains||
-|Province/état:||
-|Code postal:||
-|Numéro de téléphone:||
-|Adresse de messagerie d’Office 365:||
+|Province/état :||
+|Code postal :||
+|Numéro de téléphone :||
+|Adresse de messagerie d’Office 365 :||
 |||
 
 > [!NOTE]

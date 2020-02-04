@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: La création et la gestion des salles de conversation permanentes sont beaucoup plus simples grâce à l’utilisation correcte des catégories. Un administrateur de chat permanent peut définir des AllowedMembers et des créateurs pour chaque catégorie, et peut également définir les paramètres et les comportements de la salle de conversation par défaut qui seront appliqués à l’ensemble des salles de conversation créées dans la catégorie. Les administrateurs de discussions permanentes peuvent créer et gérer des catégories à l’aide du panneau de configuration Skype entreprise Server ou des applets de commande Windows PowerShell.
-ms.openlocfilehash: 8407e30711042bdbb460eb653473a64584023258
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cea9d29d826b7a560c8f3ab318c33f07e6f00530
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417852"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690673"
 ---
 # <a name="select-creators"></a>Sélection des créateurs
 

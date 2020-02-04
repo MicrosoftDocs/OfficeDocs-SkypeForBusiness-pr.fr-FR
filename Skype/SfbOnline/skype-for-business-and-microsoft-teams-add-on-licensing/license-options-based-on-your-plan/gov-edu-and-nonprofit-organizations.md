@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires et les fonctionnalités des forfaits pour les organisations gouvernementales, éducatives et à but non lucratif. '
-ms.openlocfilehash: cc58055f2163372ff1385764751ba011075fd11d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea3ac1e76f16de7a5cc7d9e32f16299bc348a613
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301250"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692499"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>Organisations GOV, EDU et à but non lucratif
 
@@ -34,8 +35,8 @@ Most Skype for Business features are available to .gov, .edu, and nonprofit orga
 |**Fonctionnalité Skype Entreprise**|**Disponible pour les organisations .GOV (GCC)**|**Disponible pour les organisations .GOV (non-GCC)**|**Disponible pour les organisations .EDU**|**Disponible pour les organisations à but non lucratif**|
 |:-----|:-----|:-----|:-----|:-----|
 |Diffusion de réunion Skype  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |
-|Audioconférence pour Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Système téléphonique Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Audioconférence pour Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
+|Système téléphonique Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui   <br/> |
 |Forfait d’appels Office 365  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
    
 Reportez-vous à la publication de blog suivante : [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

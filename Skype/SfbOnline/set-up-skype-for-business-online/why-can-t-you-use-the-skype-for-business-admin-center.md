@@ -1,5 +1,5 @@
 ---
-title: Pourquoi ne puis-je pas utiliser le centre d’administration de Skype entreprise Online pour le moment?
+title: Pourquoi ne puis-je pas utiliser le centre d’administration de Skype entreprise Online pour le moment ?
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -15,29 +15,29 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
 description: 'Apprenez et ne pouvez pas utiliser le centre d’administration Skype entreprise, ainsi que d’autres fonctionnalités lorsque votre service est migré vers un autre centre de données Microsoft. '
-ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411568"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692729"
 ---
-# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Pourquoi ne puis-je pas utiliser le centre d’administration de Skype entreprise Online pour le moment?
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Pourquoi ne puis-je pas utiliser le centre d’administration de Skype entreprise Online pour le moment ?
 
 Nous savons qu’il n’est pas possible d’effectuer votre travail, donc nous expliquons ce qui se passe ici et pourquoi il est utile d’en attendre. 
   
-Pour commencer, voici l’explication technique:
+Pour commencer, voici l’explication technique :
   
 Nous effectuons la migration de votre service Skype entreprise Online (c’est-à-dire, les utilisateurs et les paramètres d’organisation) vers un autre centre de travail Microsoft qui vous rapproche. Cela permet d’améliorer votre service et de réduire la latence. 
   
 Pour plus d’informations techniques, voir [pendant et après le déplacement de vos données]( https://go.microsoft.com/fwlink/?LinkId=526418).
   
-## <a name="ok-so-what-does-that-mean"></a>Alors, qu’est-ce que cela signifie?
+## <a name="ok-so-what-does-that-mean"></a>Alors, qu’est-ce que cela signifie ?
 
 Tout d’abord, nous allons répartir quelques termes.
   
@@ -53,22 +53,22 @@ Tout cela signifie que nous sommes en train de déplacer tous vos utilisateurs e
   
 ![Migration de service dans Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## <a name="what-skype-for-business-online-features-will-still-work"></a>Quelles sont les fonctionnalités Skype entreprise Online qui continuent à fonctionner?
+## <a name="what-skype-for-business-online-features-will-still-work"></a>Quelles sont les fonctionnalités Skype entreprise Online qui continuent à fonctionner ?
 
-Même si vous ne pouvez pas accéder au centre d’administration de Skype entreprise Online, les fonctionnalités de Skype entreprise Online suivantes continuent de fonctionner pendant la migration:
+Même si vous ne pouvez pas accéder au centre d’administration de Skype entreprise Online, les fonctionnalités de Skype entreprise Online suivantes continuent de fonctionner pendant la migration :
   
 - Réunions en ligne
     
 - Informations de présence
     
-## <a name="can-i-get-other-work-done"></a>Puis-je effectuer d’autres tâches?
+## <a name="can-i-get-other-work-done"></a>Puis-je effectuer d’autres tâches ?
 
 Garantit. Lors de la migration de votre service Skype entreprise Online, vous pouvez toujours utiliser les autres centres d’administration dans Office 365 (par exemple, les centres d’administration Office 365 et Exchange). En revanche, avec le centre d’administration Skype entreprise Online, vous ne pourrez pas utiliser les applets de commande PowerShell distants de Skype entreprise Online lors de la migration. 
   
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

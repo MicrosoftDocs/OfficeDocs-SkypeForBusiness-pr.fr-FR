@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: fa4ee5fec0de0b5bde4054aa0c782592dd72633b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f163e90d138200d4ed021a5f1267e8ea791c38a4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572932"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693489"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Restrictions de numérotation gratuit au Panama
 
@@ -45,7 +46,7 @@ ms.locfileid: "37572932"
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Le client doit composer le 011 (l’indicatif international du Panama) avant le numéro gratuit.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

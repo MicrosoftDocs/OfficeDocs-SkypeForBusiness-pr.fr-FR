@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme approprié, le mettre à jour si nécessaire, affecter des licences et configurer des paramètres pour les téléphones communs.
-ms.openlocfilehash: a245db1a2033f08d50e9a3c1a32f27981a3eb702
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: bfba106c262fb558a468f8cad26b3555b81b125e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924895"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692239"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -140,7 +141,7 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 > Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé un Active Directory local vers un environnement AAD et que vous utilisez un contrôle IDP ou ADFS tiers, la mise en service de la stratégie d’approvisionnement échoue. Dans ce cas, vous ne devez utiliser qu’un compte Office 365/Azure Active Directory (par exemple, un compte avec un domaine **onmicrosoft.com** ) pour que la configuration de la fonction de mise en service de l’embout fonctionne.
 
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Rubriques connexes
 
 - En savoir plus sur les téléphones disponibles sur [Déploiement des téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 - [Obtention des téléphones pour Skype Entreprise Online](getting-phones-for-skype-for-business-online.md)

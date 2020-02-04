@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour vérifier que la réplication du catalogue global et la création des objets lors de la préparation de la forêt ont abouti, procédez comme suit:'
-ms.openlocfilehash: c7fe425dcbecf2bfba02d4862bc3a29b75e16910
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour vérifier que la réplication du catalogue global et la création des objets lors de la préparation de la forêt ont abouti, procédez comme suit :'
+ms.openlocfilehash: a89e5b1d8dff3f37def101b1cf2cccfad9d1bd5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303342"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691749"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Vérifier la réplication de la préparation de la forêt
  
-Pour vérifier que la réplication du catalogue global et la création des objets lors de la préparation de la forêt ont abouti, procédez comme suit:
+Pour vérifier que la réplication du catalogue global et la création des objets lors de la préparation de la forêt ont abouti, procédez comme suit :
   
 1. Sur un contrôleur de domaine (de préférence sur un site distant par rapport aux autres contrôleurs de domaine), dans la forêt où la préparation de la forêt a été effectuée, ouvrez **Utilisateurs et ordinateurs Active Directory**.
     
@@ -33,6 +33,6 @@ Pour vérifier que la réplication du catalogue global et la création des objet
 4. Si le ou les groupes ne sont pas encore présents, vous pouvez le faire ou patienter 15 minutes et actualiser le volet de droite. Lorsque les groupes apparaissent, la réplication est terminée.
     
 > [!TIP]
-> Si vous souhaitez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur services de domaine Active Directory (AD FS) qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans: C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> Si vous souhaitez consulter les fichiers journaux créés par l’Assistant Déploiement de Skype entreprise, vous pouvez les retrouver sur l’ordinateur sur lequel l’Assistant déploiement a été exécuté, dans l’annuaire utilisateurs de l’utilisateur services de domaine Active Directory (AD FS) qui a exécuté l’étape. Par exemple, si l’utilisateur connecté en tant qu’administrateur de domaine dans le domaine Contoso.net, les fichiers journaux se trouvent dans : C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

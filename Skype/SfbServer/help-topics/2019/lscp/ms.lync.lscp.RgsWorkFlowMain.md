@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes de réponse sont des groupes d’agents, des files d’attente et des flux de travail. Les flux de travail de groupe de réponse définissent les actions effectuées lorsque l’application de Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: dba5d07d922e652e0c80d97bf622fbb51747a00f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fa7539b3ddda583e9d8b1de7b930c8330a42f334
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292510"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690729"
 ---
 # <a name="response-groups-workflow"></a>Workflow Response Groups
 
@@ -28,7 +28,7 @@ La page de**flux de travail** **groupes** - de réponse affiche la liste de tous
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page**flux de travail** **groupes** - de réponse:
+Vous pouvez effectuer les tâches suivantes à partir de la page**flux de travail** **groupes** - de réponse :
 
 - Création ou modification d’un flux de travail de groupe de recherche
 

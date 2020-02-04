@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: Utilisez l’applet de connexion Get-CsOnlineUser dans Windows PowerShell pour obtenir des informations sur les utilisateurs de Skype entreprise Online de votre organisation.
-ms.openlocfilehash: 143f7934564caf4e2c00b5b4a40bc6f2e597950d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 370150de08493507d7b401d7907c90f343802d88
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990989"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692649"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Gérer les comptes d’utilisateurs à l’aide du connecteur en ligne
 
@@ -114,7 +115,7 @@ Get-CsOnlineUser | Get-Member
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour la gestion de Skype entreprise Online à l’aide de Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
 

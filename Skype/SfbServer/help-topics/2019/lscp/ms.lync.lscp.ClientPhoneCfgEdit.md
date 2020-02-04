@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la page nouvelle configuration de l’appareil ou modifier la configuration de l’appareil, vous pouvez créer ou modifier un ensemble de paramètres permettant de gérer Skype entreprise Phone Edition. Ces paramètres vous permettent de configurer le mode de sécurité requis, le niveau de journalisation de l’appareil, les paramètres de qualité de service des communications vocales et de savoir si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 3d089fbecfe82367edf0ca375a262dc68896cfc4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fce3ad1410dc16cc6a238823f11cdba0f4c4c391
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300342"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691479"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant
  
@@ -40,7 +40,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
 - **Nom** Vous pouvez ajouter ou modifier le nom de la configuration de l’appareil.
     
-- **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les appareils Skype entreprise Phone Edition. Vous pouvez sélectionner l’une des options suivantes:
+- **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les appareils Skype entreprise Phone Edition. Vous pouvez sélectionner l’une des options suivantes :
     
   - **Faible** Autorisez tout type d’autorisation ou de transport.
     
@@ -48,11 +48,11 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
     
   - **Elevé** NTLM ou Kerberos est requis pour l’authentification des utilisateurs et TLS est requis pour les connexions SIP.
     
-- **Niveau** de journalisation Vous pouvez activer la journalisation sur l’appareil UC. Valeurs valides: désactivé; Faiblesse PME et élevée. La valeur par défaut est désactivé.
+- **Niveau de journalisation** Vous pouvez activer la journalisation sur l’appareil UC. Valeurs valides : désactivé ; Faiblesse PME et élevée. La valeur par défaut est désactivé.
     
 - **Qualité de service (QoS) de qualité vocale** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal émis à partir d’un appareil Skype entreprise Phone Edition. Cependant, 40 n’est pas la valeur généralement utilisée pour le trafic audio. À la place, le trafic audio est presque toujours marqué avec le le code DSCP 46. Pour maintenir une cohérence sur l’ensemble de votre réseau, vous pouvez remplacer cette valeur par 46.
     
-- **Verrouillage du téléphone** Vous pouvez spécifier si les téléphones de communications unifiées se verrouillent automatiquement après une période d’inactivité spécifiée. Vous pouvez configurer les paramètres suivants:
+- **Verrouillage du téléphone** Vous pouvez spécifier si les téléphones de communications unifiées se verrouillent automatiquement après une période d’inactivité spécifiée. Vous pouvez configurer les paramètres suivants :
     
   - **Mettre** en place le verrouillage d’appareil Vous pouvez mettre en place le verrouillage de l’appareil en cochant cette case.
     

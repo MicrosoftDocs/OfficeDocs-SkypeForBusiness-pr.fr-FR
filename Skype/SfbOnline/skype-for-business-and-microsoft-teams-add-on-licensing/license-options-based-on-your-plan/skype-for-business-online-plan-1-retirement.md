@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Le plan 1 de Skype entreprise Online a été annulé. Néanmoins, si vous avez un abonnement à Skype entreprise Online plan 1, cette modification n’affectera pas le bon vous. Lorsque vous êtes prêt à passer à une nouvelle offre, que ce soit immédiatement ou au moment du renouvellement, trois options s’offrent à vous.
-ms.openlocfilehash: 6e3ede1a6c01fe48384faf92048e502c393a346a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793137"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692659"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype Entreprise Online - Déclassement de l’offre 1 
 

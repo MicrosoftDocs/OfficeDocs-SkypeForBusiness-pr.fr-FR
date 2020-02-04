@@ -14,23 +14,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: La nouvelle zone rapports du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport de pools de minutes RTC Skype entreprise pour connaître le nombre de minutes consommées lors du mois en cours au sein de votre organisation.
-ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793089"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692429"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
 >[!NOTE]
 >Ce rapport est disponible uniquement pour la version bêta des clients.
 
-La nouvelle zone **rapports** du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport de pools de **minutes RTC Skype entreprise** pour connaître le nombre de minutes consommées lors du mois en cours au sein de votre organisation.
+La nouvelle zone **rapports** du centre d’administration Skype entreprise vous permet d’afficher les appels et les activités de conférence audio au sein de votre organisation. Elle vous permet d’explorer des rapports pour vous offrir une vue plus granulaire des activités de chaque utilisateur. Par exemple, vous pouvez utiliser le rapport de **pools de minutes RTC Skype entreprise** pour connaître le nombre de minutes consommées lors du mois en cours au sein de votre organisation.
   
 Consultez la [vue d’ensemble des rapports](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) pour plus d’informations sur les rapports disponibles.
   
@@ -43,7 +44,7 @@ Ce rapport, ainsi que les autres rapports Skype entreprise, vous fournissent des
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-- Accédez au centre d’administration > **centres** > d’administration Skype entreprise-**rapports** > **** > **du centre d’administration Skype entreprise**.
+- Accédez au centre d’administration > **centres** > d’administration Skype entreprise- > **rapports** > ******du centre d’administration Skype entreprise**.
     
 > [!NOTE]
 > En fonction de l’abonnement Office 365 que vous avez, vous ne verrez peut-être pas les mêmes détails. 
@@ -60,7 +61,7 @@ Voici une illustration du rapport.
   
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau montre une répartition des regroupements de minutes par licence (fonctionnalité) et d’emplacement d’utilisation. 
-*    **Capability** est le plan de licence/service utilisé pour l’appel. Les offres de licence/service qui peuvent figurer dans ce rapport sont les suivantes:
+*    **Capability** est le plan de licence/service utilisé pour l’appel. Les offres de licence/service qui peuvent figurer dans ce rapport sont les suivantes :
      * MCOPSTN1-forfait d’appels nationaux (plans 3000-minutes d’Europe/1200 minutes
      * MCOPSTN2-national & forfait d’appels internationaux à partir duquel vous verrez un forfait local (3000-minutes pour les États-Unis et le Canada/PR, 1200-minutes) et un pool international (600 minutes). Le capuchon est atteint chaque fois que la PAC nationale ou internationale est atteinte dans le cadre du mois civil. 
      * MCOPSTN5-forfait d’appels nationaux (forfait d’appels de 120 minutes)
@@ -92,7 +93,7 @@ Voici une illustration du rapport.
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

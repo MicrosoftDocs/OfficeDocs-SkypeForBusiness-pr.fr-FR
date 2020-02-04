@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Ce service vous donne également des informations sur la façon dont vous travaillez avec le centre Microsoft FastTrack, vos services et équipes de compte Microsoft ou avec des partenaires Microsoft pour déterminer la façon dont vous pouvez respecter ces exigences.
-ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: f4721ddc7db936e0351f78ba6bfc7033b8cd10d0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344549"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693059"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimisation de votre réseau pour Skype Entreprise Online
 
@@ -51,7 +52,7 @@ Avec Skype Entreprise, vous pouvez :
 
 La qualité multimédia en temps réel (audio, vidéo et partage d'applications) sur IP est largement impactée par la qualité de la connectivité réseau de bout en bout. Pour bénéficier d'une qualité optimale pour Skype Entreprise Online, assurez-vous de la bonne qualité de la connexion entre votre réseau d'entreprise et Skype Entreprise Online. La meilleure façon d'y parvenir est de configurer la connectivité du réseau interne et du cloud en fonction de la capacité de votre réseau à s'adapter au volume du trafic maximal de Skype Entreprise Online sur l'ensemble des connexions.
   
-En travaillant avec un [partenaire Microsoft](https://partnercenter.microsoft.com/en-us/pcv/search), vous pouvez connecter une gamme d’applications Office 365, dont Skype entreprise Online dans le Cloud, à votre réseau et aux fonctionnalités de communication audio et vidéo en temps réel pour Skype entreprise nécessite un réseau. les services doivent être spécifiquement configurés pour prendre en charge ces charges de travail en temps réel dans Office 365. Cela comprend un réseau disposant de suffisamment de bande passante pour exécuter le volume de trafic nécessaire et prendre en charge la qualité de service (QoS) afin d'offrir à vos utilisateurs une expérience de qualité professionnelle.
+Si vous collaborez avec un [partenaire Microsoft](https://partnercenter.microsoft.com/en-us/pcv/search), vous pouvez connecter une gamme d’applications Office 365, dont Skype entreprise Online dans le Cloud à votre réseau et aux fonctionnalités de communication audio et vidéo en temps réel pour Skype entreprise, les services réseau doivent être spécifiquement configurés pour prendre en charge ces charges de travail en temps réel dans Office 365. Cela comprend un réseau disposant de suffisamment de bande passante pour exécuter le volume de trafic nécessaire et prendre en charge la qualité de service (QoS) afin d'offrir à vos utilisateurs une expérience de qualité professionnelle.
   
 En plus des présentes informations, d'autres ressources peuvent vous aider à planifier et à déployer les services et fonctionnalités Skype Entreprise Online de façon appropriée, et à vous assurer que vos services de réseau sont conformes aux exigences :
   
@@ -139,11 +140,11 @@ Pour plus d'informations sur les périphériques pris en charge et certifiés, r
     
 L'environnement des locaux dans lesquels les utilisateurs se rencontrent et utilisent des périphériques audio et vidéo est un autre facteur important pour la qualité audio et vidéo. Les utilisateurs qui appellent à partir d'un environnement bruyant produiront des échos et un son audio sourd et difficilement audible. Les utilisateurs dans un environnement sombre ou de luminosité faible ne seront pas en mesure de produire une qualité d'image lumineuse et nette pour la vidéo. Dans une salle de conférence, l'emplacement du microphone et du périphérique vidéo ont un impact direct sur la qualité du son et de l'image que les participants recevront.
   
-Pour obtenir une image plus claire de l’utilisation de l’audio et de la vidéo d’un utilisateur, utilisez le**périphérique audio** ou**** > le **périphérique vidéo** des **Outils** > de l’application Skype entreprise pour apporter des modifications à l’appareil utilisé et personnaliser ses paramètres. Vous pouvez également vérifier la qualité audio d’un appel en cliquant sur **Vérifier la qualité**de l’appel. If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
+Pour obtenir une image plus claire de l’utilisation de**l’audio et**de la vidéo d’un utilisateur, utilisez le > **périphérique audio** ou le **périphérique vidéo** des **Outils** > de l’application Skype entreprise pour apporter des modifications à l’appareil utilisé et personnaliser ses paramètres. Vous pouvez également vérifier la qualité audio d’un appel en cliquant sur **Vérifier la qualité**de l’appel. If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   
-## <a name="related-topics"></a>Voir aussi 
+## <a name="related-topics"></a>Rubriques connexes 
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
   

@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 7f60e95539af32bc80bc4922f61648aacb601de9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6a82c501074aeb775ea54daeabfcf8bc8d902ec1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572584"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693649"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restrictions de numérotation gratuit au Vietnam
 
@@ -45,7 +46,7 @@ ms.locfileid: "37572584"
 | Disponibilité de réseau mobile  <br/>               | Partiel. Voir les commentaires.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Commentaires, restrictions et problèmes d’accès  <br/> | Le format de numéro 120 XX XXXX fonctionne avec les réseaux fixes et mobiles Vietnam Telecom International (VTI) et VNPT. <br/> <br/> À compter du 2018 de juin, le format numérique 120 XX XXXX ne peut pas être appelé à partir du réseau mobile de Mobifone. <br/> <br/>**Remarque :** Mobifone &amp; Vinaphone font partie de VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Conformément au ministère du ministère des télécommunications pour le Viêt Nam, la durée d’appel maximale autorisée est de 2 heures. |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

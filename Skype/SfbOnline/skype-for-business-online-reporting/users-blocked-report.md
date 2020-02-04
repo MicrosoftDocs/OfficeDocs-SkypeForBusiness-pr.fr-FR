@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'Ce rapport, ainsi que d’autres rapports Skype entreprise, vous fournissent des informations sur les activités, y compris l’utilisation du service RTC au sein de votre organisation. '
-ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d5fa69d096f5dc5f2af6f8b5a3c04a3155b8cd9e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793013"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692329"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
@@ -38,7 +39,7 @@ Le nouveau tableau de bord des **rapports** Skype entreprise montre la vue d’e
 
 ![Icône illustrant le logo](../images/sfb-logo-30x30.png) Skype entreprise **dans le centre d’administration Skype entreprise**
 
-- Accédez au centre d’administration > **centres** > d’administration Skype entreprise- > **rapports** > ******du centre d’administration Skype entreprise**bloqués.
+- Accédez au centre d’administration > **centres** > d’administration Skype entreprise- > **rapports** > **du centre d’administration Skype entreprise****bloqués**.
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpréter le rapport de blocage des utilisateurs Skype entreprise
 
@@ -84,7 +85,7 @@ Cela exportera les données de tous les utilisateurs et vous permettra de trier 
 
 - [Rapport Détails de la session Skype entreprise](session-details-report.md) Vous pouvez afficher des détails sur les expériences d’appel des utilisateurs individuels.
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

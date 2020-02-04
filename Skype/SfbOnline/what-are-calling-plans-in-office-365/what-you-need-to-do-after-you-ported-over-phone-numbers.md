@@ -1,5 +1,5 @@
 ---
-title: Quelle est la procédure à suivre une fois vos numéros de téléphone transférés?
+title: Quelle est la procédure à suivre une fois vos numéros de téléphone transférés ?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,23 +16,23 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
 description: Découvrez ce que vous devez faire ensuite après avoir transféré vos numéros de téléphone vers Skype entreprise.
-ms.openlocfilehash: 52096606d6317109726a66cea66e12fef855d43c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: effddc74a74f72b4f167b793a09b8ee903fc0d2a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290697"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692289"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Quelle est la procédure à suivre une fois vos numéros de téléphone transférés?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Quelle est la procédure à suivre une fois vos numéros de téléphone transférés ?
 
 Une fois que vous avez envoyé votre demande de transfert, nous contacterons votre opérateur et nous vous enverrons les détails. Lorsque la date de fin du transfert a été définie, nous vous informons par e-mail. Néanmoins, en attendant votre opérateur d’accepter la commande, vous devez créer les adresses d’urgence requises que vous utiliserez avec ces numéros.
   
-- En savoir plus sur [les emplacements d’urgence, les adresses de secours et le routage des appels?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+- En savoir plus sur [les emplacements d’urgence, les adresses de secours et le routage des appels ?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
     
 - Le cas échéant, vous pouvez [Ajouter ou supprimer une adresse de secours pour votre organisation](add-or-remove-an-emergency-address-for-your-organization.md) .
     

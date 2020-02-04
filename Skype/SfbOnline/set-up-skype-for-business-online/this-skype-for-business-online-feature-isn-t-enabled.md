@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
 description: 'Trouvez les causes possibles et les suggestions d’action lorsque vous recevez une fonctionnalité Skype entreprise Online n’est pas activée. '
-ms.openlocfilehash: 953d14f3e1741a6617f74cf87d6acd43c849e92b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 50f34093e72765b4b3c9dc9080639e3046c4f34c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411558"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692799"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Cette fonctionnalité Skype entreprise Online n’est pas activée
 
@@ -37,10 +37,10 @@ Désolé, mais il semble que l’utilisateur ne dispose pas de licence pour cett
 |L’utilisateur se trouve à un emplacement où cette fonctionnalité n’est pas disponible.  <br/> |Dans la mesure du possible, accédez au >  **Centre d’administration Microsoft 365****utilisateurs actifs** et affectez cet utilisateur à un emplacement où la fonctionnalité est disponible. <br/> |
 |La fonctionnalité n’a pas été activée pour votre organisation.  <br/> |Accédez > au **Centre d’administration Microsoft 365****Skype entreprise** et activez la fonctionnalité pour votre organisation entière. <br/> |
    
-## <a name="related-topics"></a>Voir aussi
-[Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a>Rubriques connexes
+[Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

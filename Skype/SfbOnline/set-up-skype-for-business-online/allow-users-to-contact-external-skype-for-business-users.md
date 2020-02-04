@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,16 +26,14 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792683"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692939"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 
@@ -56,7 +57,7 @@ Pour cela, vous devez disposer des [autorisations d’administrateur](https://su
   
 1. Connectez-vous à l’aide de votre compte d’administrateur Office 365. 
     
-2. Dans le centre d’administration, accédez **** > à centre d’administration**teams**.
+2. Dans le centre d’administration, accédez **à centre d'** > administration**teams**.
     
     ![Cliquez sur l’administrateur Teams.](../images/MS-Teams-Admin.png)
   
@@ -74,7 +75,7 @@ Pour cela, vous devez disposer des [autorisations d’administrateur](https://su
     
 8. Si vous utilisez le pare-feu Windows, Skype Entreprise ouvre automatiquement les ports nécessaires.
     
-    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Cela peut impliquer l’ajout des noms de domaine complets dans la liste des éléments autorisés entrants dans la configuration de votre \*pare-feu ou de votre infrastructure de proxy: ** \*. API.Skype.com**, **. Users.Storage.live.com**et **Graph.Skype.com**. Pour obtenir des instructions sur l’ouverture de ces ports sur votre pare-feu, consultez la documentation qui l’accompagne.
+    Si votre organisation utilise un pare-feu différent pour restreindre l'accès à Internet des ordinateurs de votre réseau, assurez-vous que vos ordinateurs clients peuvent accéder aux [URL et plages d'adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) suivants. Cela peut impliquer l’ajout des noms de domaine complets dans la liste des éléments autorisés entrants dans la configuration de votre \*pare-feu ou de votre infrastructure de proxy : ** \*. API.Skype.com**, **. Users.Storage.live.com**et **Graph.Skype.com**. Pour obtenir des instructions sur l’ouverture de ces ports sur votre pare-feu, consultez la documentation qui l’accompagne.
     
     Pour obtenir la liste de tous les ports que vous devez ouvrir, voir [URL et plages d’adresses IP Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
@@ -104,16 +105,16 @@ Pour tester votre configuration, vous devez disposer d'un contact Skype Entrepri
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Comment trouver des personnes et être trouvé lors d'une connexion avec une autre entreprise.
 <a name="bk_preview"> </a>
 
-Après avoir activé les communications externes avec d’autres utilisateurs Skype entreprise, vos utilisateurs peuvent trouver des utilisateurs Skype entreprise fédérés en recherchant leur nom de connexion: par exemple, Rob@contoso.com. Ils devront ensuite ajouter la personne à leurs listes de contacts.
+Après avoir activé les communications externes avec d’autres utilisateurs Skype entreprise, vos utilisateurs peuvent trouver des utilisateurs Skype entreprise fédérés en recherchant leur nom de connexion : par exemple, Rob@contoso.com. Ils devront ensuite ajouter la personne à leurs listes de contacts.
   
 ![Pour retrouver un utilisateur dans une entreprise fédérée, vous devez rechercher son adresse e-mail (il s’agit généralement de son nom de connexion).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Conseils de configuration des communications avec des entreprises fédérées
 <a name="bk_preview"> </a>
 
-- Pour configurer la Fédération entre Skype entreprise 2015 et Skype entreprise Online, consultez cet article: [configuration de la Fédération avec Skype entreprise Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Pour configurer la Fédération entre Skype entreprise 2015 et Skype entreprise Online, consultez cet article : [configuration de la Fédération avec Skype entreprise Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Pour configurer la Fédération entre Lync et Skype entreprise Online, consultez cet article: [configuration de la prise en charge de la Fédération pour un client Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Pour configurer la Fédération entre Lync et Skype entreprise Online, consultez cet article : [configuration de la prise en charge de la Fédération pour un client Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
 - Lorsque deux utilisateurs Skype Entreprise dans Office 365 communiquent entre eux sur des domaines distincts, ils peuvent uniquement utiliser les fonctionnalités Skype Entreprise (par exemple, des conversations vidéo ou un partage de bureau) qui sont activées dans les deux organisations.
     
@@ -126,7 +127,7 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
   
 1. Connectez-vous à l’aide de votre compte d’administrateur Office 365.
     
-2. Dans le centre d’administration, accédez **** > à utilisateurs**actifs**.
+2. Dans le **Centre d’administration, accédez à** > utilisateurs**actifs**.
     
 3. Dans la liste des utilisateurs, choisissez l'utilisateur, puis sous **Paramètres supplémentaires**, cliquez sur **Modifier les propriétés de Skype Entreprise**.
     
@@ -148,12 +149,12 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 <a name="bk_preview"> </a>
 
 [Configurer Skype Entreprise Online](set-up-skype-for-business-online.md)
   
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
   
   
  

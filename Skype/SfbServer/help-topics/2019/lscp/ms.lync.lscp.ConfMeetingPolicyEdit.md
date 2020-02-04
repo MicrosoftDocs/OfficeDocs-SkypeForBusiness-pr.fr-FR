@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de conférence définit les fonctionnalités et les fonctions à la disposition des utilisateurs lors d’une conférence (également appelée « réunion »).
-ms.openlocfilehash: 137802662241c4348f65ddb33e96d59a6c42a286
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a82ba29db52affab2371d6ce880c120487396c6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300251"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691389"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une création existante
 
@@ -28,7 +28,7 @@ Une stratégie de conférence définit les fonctionnalités et les fonctions à 
 
 La liste ci-dessous décrit les champs de la page.
 
-- **Scope** Identifie l’étendue de la stratégie de conférence que vous créez ou modifiez: global, site ou utilisateur.
+- **Scope** Identifie l’étendue de la stratégie de conférence que vous créez ou modifiez : global, site ou utilisateur.
 
 - **Nom** Chaque stratégie de conférence nécessite un nom. Les stratégies de conférence globale et de site sont nommées par défaut et le nom ne peut pas être modifié. Pour les stratégies de conférences utilisateur, utilisez un nom descriptif qui identifie l’utilisateur ou le groupe d’utilisateurs.
 
@@ -41,15 +41,15 @@ La liste ci-dessous décrit les champs de la page.
 
     Cliquez sur la flèche vers le haut ou la flèche vers le bas en regard de l’étiquette pour fermer ou ouvrir la section.
 
-- **Taille maximale** de la réunion: nombre maximal d’utilisateurs autorisés à une conférence. Par défaut, la taille maximale de la réunion est de 250.
+- **Taille maximale** de la réunion : nombre maximal d’utilisateurs autorisés à une conférence. Par défaut, la taille maximale de la réunion est de 250.
 
 - **Autoriser les participants à inviter des utilisateurs anonymes** Activez cette case à cocher pour autoriser les utilisateurs à inviter des utilisateurs anonymes à des conférences. Les utilisateurs anonymes sont des utilisateurs qui ne disposent pas des informations d’identification dans les services de domaine Active Directory de votre organisation et qui, par conséquent, ne sont pas authentifiés.
 
-- **Enregistrement** en Indiquez si les participants peuvent ou non enregistrer des conférences. Les options ne **** sont pas disponibles ou autorisent l' **enregistrement**.
+- **Enregistrement** en Indiquez si les participants peuvent ou non enregistrer des conférences. Les **options ne sont** pas disponibles ou **autorisent l’enregistrement**.
 
 - **Permettre aux participants fédérés et anonymes d’enregistrer** Activez cette case à cocher pour autoriser les participants externes et non authentifiés à enregistrer des conférences.
 
-- **Audio/vidéo** Indiquez si les participants peuvent utiliser l’audio et la vidéo:
+- **Audio/vidéo** Indiquez si les participants peuvent utiliser l’audio et la vidéo :
 
   - **Aucun** Sélectionnez cette option pour éviter l’utilisation de l’audio et de la vidéo.
 
@@ -68,7 +68,7 @@ La liste ci-dessous décrit les champs de la page.
     > [!NOTE]
     > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option **Autoriser les participants à rejoindre plusieurs flux de données vidéo** détermine si les participants peuvent recevoir plusieurs flux vidéo.
 
-- **Collaboration** sur les données Indiquez si la Conférence autorise la collaboration sur les données. Les options ne sont **aucune** ou autorisent la collaboration sur les **données**.
+- **Collaboration** sur les données Indiquez si la Conférence autorise la collaboration sur les données. Les options ne sont **aucune** ou **autorisent la collaboration**sur les données.
 
     Les paramètres ci-dessous concernent la collaboration de données :
 
@@ -76,9 +76,9 @@ La liste ci-dessous décrit les champs de la page.
 
   - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration sur les données, activez cette case à cocher pour autoriser les transferts de fichiers à tous les participants d’une conférence.
 
-  - **Activer** les annotations Si vous autorisez la collaboration sur les données, activez cette case à cocher pour autoriser les participants à effectuer des annotations à l’écran sur le contenu partagé lors de la Conférence.
+  - **Activer les annotations** Si vous autorisez la collaboration sur les données, activez cette case à cocher pour autoriser les participants à effectuer des annotations à l’écran sur le contenu partagé lors de la Conférence.
 
-  - **Activer** les annotations PowerPoint Si vous autorisez les annotations, activez cette case à cocher pour autoriser les participants à faire des annotations dans les diapositives PowerPoint partagées lors de la Conférence.
+  - **Activer les annotations PowerPoint** Si vous autorisez les annotations, activez cette case à cocher pour autoriser les participants à faire des annotations dans les diapositives PowerPoint partagées lors de la Conférence.
 
   - **Activer les sondages** Si vous autorisez la collaboration sur les données, activez cette case à cocher pour autoriser les participants à organiser un sondage au cours d’une conférence.
 

@@ -15,23 +15,24 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221246"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693079"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
 Connectez-vous à Office 365 par le biais d'une connexion réseau dédiée utilisant Azure ExpressRoute pour Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau de qualité professionnelle vers Office 365 et Skype Entreprise Online dont la fiabilité et la prévisibilité des performances sont garanties par un contrat de niveau de service.
   
 > [!NOTE]
-> Une nouvelle version de l’outil de calcul de bande passante est disponible: [Skype entreprise, calculatrice de bande passante](https://go.microsoft.com/fwlink/?LinkId=715766). Toutefois, les instructions figurant dans ce document utilisent le calculateur de bande passante Lync 2010 et 2013. 
+> Une nouvelle version de l’outil de calcul de bande passante est disponible : [Skype entreprise, calculatrice de bande passante](https://go.microsoft.com/fwlink/?LinkId=715766). Toutefois, les instructions figurant dans ce document utilisent le calculateur de bande passante Lync 2010 et 2013. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype Entreprise Online et ExpressRoute
 
@@ -70,7 +71,7 @@ Dewy Law LLC est une entreprise relativement jeune, dont les avocats et les autr
 |Associés  <br/> |300  <br/> |100  <br/> |CX3-20  <br/> |0,10  <br/> |
 |Assistants juridiques  <br/> |400  <br/> |125  <br/> |trente  <br/> |0,15  <br/> |
 |Cadres administratifs  <br/> |100  <br/> |35  <br/> |6  <br/> |3  <br/> |
-|Informatique et administration générale  <br/> |100  <br/> |1,25  <br/> |3  <br/> |2  <br/> |
+|Informatique et administration générale  <br/> |100  <br/> |1,25  <br/> |3  <br/> |deuxième  <br/> |
 |Total par site  <br/> |1 070  <br/> |345  <br/> |70  <br/> |36  <br/> |
 |Total par catégorie de site  <br/> |1 070  <br/> |1 035  <br/> |1 680  <br/> |1 800  <br/> |
    
@@ -149,7 +150,7 @@ Pour Dewey Law LLC, nous avons défini trois rôles : « Cadre/Partenaire », «
   
  **Personnages et profils d'utilisation (colonnes A à P de la feuille de travail « Persona »)**
   
-|**Personnage**|**Messagerie instantanée/Présence**|**Sessions P2P audio**|**Sessions P2P vidéo**|**Conférences audio**|**Conférences vidéo**|**Partage de Bureau**|**Audioconférence**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Lync 2013 Contenu audio stéréo**|**Lync 2013 Qualité vidéo**|**Lync 2013 Fenêtre Comportement des utilisateurs pour les sessions P2P vidéo**|**Lync 2013 Utilisation des vues multiples**|
+|**Personnage**|**Messagerie instantanée/Présence**|**Sessions P2P audio**|**Sessions P2P vidéo**|**Conférences audio**|**Conférences vidéo**|**Partage de Bureau**|**Audioconférence,**|**Lync 2010 RTV_Type**|**Utilisateurs distants**|**Lync 2013 Contenu audio stéréo**|**Lync 2013 Qualité vidéo**|**Lync 2013 Fenêtre Comportement des utilisateurs pour les sessions P2P vidéo**|**Lync 2013 Utilisation des vues multiples**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Cadre/ Partenaire  <br/> |Haut  <br/> |Moyen  <br/> |Bas  <br/> |Moyenne  <br/> |Moyenne  <br/> |Aucun  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Optimal  <br/> |Classique  <br/> |Classique  <br/> |
 |Associé/ Assistant juridique  <br/> |Élevée  <br/> |Moyen  <br/> |Bas  <br/> |Moyen  <br/> |Haut  <br/> |Élevée  <br/> |Moyen  <br/> |CIF  <br/> |0%  <br/> |0 %  <br/> |Moyen  <br/> |Classique  <br/> |Classique  <br/> |
@@ -187,7 +188,7 @@ Il est très important de ne pas dépasser la bande passante dans la classe de s
 > [!TIP]
 >  Là encore, même si la classe de service EF offre la meilleure garantie de performances, si vous dépassez la bande passante définie, les paquets supplémentaires seront annulés immédiatement.
   
- **Bande passante agrégée par site et par classe de trafic QoS-(colonnes A et de ML à MR de la feuille de calcul «sites»)**
+ **Bande passante agrégée par site et par classe de trafic QoS-(colonnes A et de ML à MR de la feuille de calcul « sites »)**
   
 |**Nom du site**|**Classe Meilleur effort (DSCP 0)**|**Classe Trafic de données (DSCP personnalisé)**|**Classe Trafic en temps réel (DSCP 34, AF41)**|**Classe Trafic prioritaire (DSCP 46, EF)**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -325,7 +326,7 @@ La norme IEEE 802.1p utilise un point de code de priorité (PCP) 3 bits pour ide
 |5  <br/> |5  <br/> |VO  <br/> |Audio  <br/> |
 |4  <br/> |4  <br/> |VI  <br/> |Vidéo  <br/> |
 |3  <br/> |3  <br/> |CA  <br/> |Applications critiques  <br/> |
-|2  <br/> |2  <br/> |EE  <br/> |Excellent effort  <br/> |
+|2  <br/> |deuxième  <br/> |EE  <br/> |Excellent effort  <br/> |
 |0,4  <br/> |1  <br/> |BE  <br/> |Meilleur effort  <br/> |
 |1  <br/> |0,4  <br/> |BK  <br/> |Arrière-plan  <br/> |
    
@@ -364,7 +365,7 @@ L'association recommandée en Layer 3 aux priorités en Layer 2 est représenté
 |Valeur DSCP - 34  <br/> |
 |Signalisation d'appel  <br/> |Comportement par saut (PHB) - sélecteur de classe (CS) 3  <br/> |3  <br/> |2 (AC_VI)  <br/> |
 |Valeur DSCP - 24  <br/> |
-|Données de faible latence  <br/> |Comportement par saut (PHB) - Acheminement assuré (AF) 21  <br/> |2  <br/> |3 (AC_BE)  <br/> |
+|Données de faible latence  <br/> |Comportement par saut (PHB) - Acheminement assuré (AF) 21  <br/> |deuxième  <br/> |3 (AC_BE)  <br/> |
 |Valeur DSCP -18  <br/> |
 |Données haut débit  <br/> |Comportement par saut (PHB) - Acheminement assuré (AF) 11  <br/> |1  <br/> |3 (AC_BE)  <br/> |
 |Valeur DSCP - 10  <br/> |
@@ -397,11 +398,11 @@ Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux ut
 
 Skype Entreprise améliore la gestion des communications d'entreprise. Plutôt que d'avoir un téléphone connecté à un PBX, un système de conférences vidéo autonome, une plate-forme séparée pour le courrier électronique, un service extérieur pour les audioconférences et des fonctionnalités de messagerie instantanée et de présence, Skype Entreprise regroupe toutes ces fonctionnalités dans une interface utilisateur unique.
   
-La fourniture constante de services voix et vidéo en temps réel de qualité professionnelle nécessite une infrastructure réseau compatible avec QoS de bout en bout. Cela pourrait inclure des services LAN et WAN. Microsoft propose des outils comme l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) pour estimer la capacité du réseau dont vous aurez besoin pour les différents services. De plus, il existe des partenaires dans le programme outils professionnels de l’informatique, des [solutions Skype entreprise: outils professionnels](https://go.microsoft.com/fwlink/?LinkID=690307) de l’informatique proposant des outils permettant d’évaluer l’infrastructure du réseau et de prendre en charge l’analyse, le rapport et la résolution des problèmes. Sans une infrastructure réseau dimensionnée et configurée correctement, votre déploiement ExpressRoute Skype Entreprise risque de ne pas répondre aux attentes de votre utilisateur en termes de qualité et de cohérence.
+La fourniture constante de services voix et vidéo en temps réel de qualité professionnelle nécessite une infrastructure réseau compatible avec QoS de bout en bout. Cela pourrait inclure des services LAN et WAN. Microsoft propose des outils comme l'[outil de calcul de bande passante Lync 2010 et Lync 2013](https://go.microsoft.com/fwlink/?LinkID=690282) pour estimer la capacité du réseau dont vous aurez besoin pour les différents services. De plus, il existe des partenaires dans le programme outils professionnels de l’informatique, des [solutions Skype entreprise : outils professionnels](https://go.microsoft.com/fwlink/?LinkID=690307) de l’informatique proposant des outils permettant d’évaluer l’infrastructure du réseau et de prendre en charge l’analyse, le rapport et la résolution des problèmes. Sans une infrastructure réseau dimensionnée et configurée correctement, votre déploiement ExpressRoute Skype Entreprise risque de ne pas répondre aux attentes de votre utilisateur en termes de qualité et de cohérence.
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Documentation ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 

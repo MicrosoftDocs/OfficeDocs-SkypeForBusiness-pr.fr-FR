@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe de réponse (appelées « agents »), ainsi que les paramètres qui s’appliquent à tous les agents du groupe.
-ms.openlocfilehash: bafa1ae490da49c8a4af096129a122315a2a7809
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2fde88426c659492cff350007b7e88a53581c67d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292618"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690909"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Groupes Response Group : création d’un groupe d’agents ou modification d’un groupe d’agents existant
 
@@ -32,7 +32,7 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Description** Ce champ est facultatif. Vous pouvez l’utiliser pour fournir des informations supplémentaires sur le groupe.
 
-- **Politique de participation** Spécifiez la façon dont les agents doivent se connecter au groupe réponse:
+- **Politique de participation** Spécifiez la façon dont les agents doivent se connecter au groupe réponse :
 
   - Sélectionnez **Informel** pour spécifier que les agents du groupe n’ont pas besoin de se connecter et de se déconnecter. Les agents informels sont connectés automatiquement lorsqu’ils se connectent. Le paramètre par défaut est **Informel**.
 
@@ -40,7 +40,7 @@ La liste ci-dessous décrit les champs de la page.
 
 - **Durée de l’alerte (secondes)** Spécifiez le nombre de secondes qui doivent sonner un agent avant de proposer l’appel vers le prochain agent disponible. La valeur doit être au moins 10 secondes et inférieure à 180 secondes. La valeur par défaut est 20 secondes.
 
-- **Méthode de routage** Sélectionnez la méthode permettant de déterminer l’ordre dans lequel les agents reçoivent des appels:
+- **Méthode de routage** Sélectionnez la méthode permettant de déterminer l’ordre dans lequel les agents reçoivent des appels :
 
   - Sélectionnez **Le plus longuement inactif** pour qu’un nouvel appel soit présenté en premier à l’agent qui a été inactif (dont la présence était **Disponible** ou **Inactif(ve)**) le plus longtemps.
 
@@ -52,7 +52,7 @@ La liste ci-dessous décrit les champs de la page.
 
   - Sélectionnez **surveillant** pour vous permettre d’effectuer un nouvel appel vers tous les agents connectés et l’application de groupe de réponse en même temps, quelle que soit leur présence actuelle. Les personnes et les utilisateurs qui sont configurés en tant qu’agents peuvent voir tous les appels en attente et peuvent répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres intendants et utilisateurs ne peuvent plus voir l’appel.
 
-- **Agent** Dans l’une des manières suivantes, sélectionnez les utilisateurs qui doivent être des agents pour le groupe de réponse:
+- **Agent** Dans l’une des manières suivantes, sélectionnez les utilisateurs qui doivent être des agents pour le groupe de réponse :
 
   - Sélectionnez **utiliser une liste de distribution de courrier existante** pour utiliser une liste de distribution Exchange. Tapez l’adresse de messagerie de la liste de distribution dans **Adresse de la liste de distribution**.
 
