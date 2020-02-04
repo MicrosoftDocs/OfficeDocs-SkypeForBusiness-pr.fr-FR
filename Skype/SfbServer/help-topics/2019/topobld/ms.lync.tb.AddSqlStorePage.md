@@ -6,28 +6,28 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir un nouveau SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (par exemple, une instance par défaut ou une instance nommée), spécifiez ce qui suit.
-ms.openlocfilehash: 984989b0323d46395e9f4ba5f674719df212b451
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78d58de8aad06062bf7f105353c0ded58c8e6df7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306128"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702639"
 ---
-# <a name="add-sql-store"></a><span data-ttu-id="1a235-103">Ajouter un magasin SQL</span><span class="sxs-lookup"><span data-stu-id="1a235-103">Add SQL Store</span></span>
+# <a name="add-sql-store"></a><span data-ttu-id="16a3b-103">Ajouter un magasin SQL</span><span class="sxs-lookup"><span data-stu-id="16a3b-103">Add SQL Store</span></span>
 
-<span data-ttu-id="1a235-104">Pour définir un nouveau SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (par exemple, une instance par défaut ou une instance nommée), spécifiez ce qui suit.</span><span class="sxs-lookup"><span data-stu-id="1a235-104">To define a new SQL Store, which means that you are specifying a SQL Server-based database and an instance of SQL Server—either a default instance or a named instance—you specify the following.</span></span>
+<span data-ttu-id="16a3b-104">Pour définir un nouveau SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (par exemple, une instance par défaut ou une instance nommée), spécifiez ce qui suit.</span><span class="sxs-lookup"><span data-stu-id="16a3b-104">To define a new SQL Store, which means that you are specifying a SQL Server-based database and an instance of SQL Server—either a default instance or a named instance—you specify the following.</span></span>
 
-<span data-ttu-id="1a235-105">Spécifiez le nom de domaine complet (FQDN) de SQL Server qui héberge l’instance de base de données que vous définissez.</span><span class="sxs-lookup"><span data-stu-id="1a235-105">Specify the fully qualified domain name (FQDN) of the SQL Server that will host the database instance that you are defining.</span></span>
+<span data-ttu-id="16a3b-105">Spécifiez le nom de domaine complet (FQDN) de SQL Server qui héberge l’instance de base de données que vous définissez.</span><span class="sxs-lookup"><span data-stu-id="16a3b-105">Specify the fully qualified domain name (FQDN) of the SQL Server that will host the database instance that you are defining.</span></span>
 
-<span data-ttu-id="1a235-106">Spécifiez l’instance de SQL Server qui héberge les données.</span><span class="sxs-lookup"><span data-stu-id="1a235-106">Specify the instance of SQL Server that will host the data.</span></span> <span data-ttu-id="1a235-107">Vous pouvez spécifier l’instance par défaut ou spécifier une instance nommée.</span><span class="sxs-lookup"><span data-stu-id="1a235-107">You can specify the default instance, or you can specify a named instance.</span></span>
+<span data-ttu-id="16a3b-106">Spécifiez l’instance de SQL Server qui héberge les données.</span><span class="sxs-lookup"><span data-stu-id="16a3b-106">Specify the instance of SQL Server that will host the data.</span></span> <span data-ttu-id="16a3b-107">Vous pouvez spécifier l’instance par défaut ou spécifier une instance nommée.</span><span class="sxs-lookup"><span data-stu-id="16a3b-107">You can specify the default instance, or you can specify a named instance.</span></span>
 
-<span data-ttu-id="1a235-108">La colocalisation des bases de données dans des instances spécifiques devrait être très claire.</span><span class="sxs-lookup"><span data-stu-id="1a235-108">Collocation of databases in specific instances should be very clearly understood.</span></span> <span data-ttu-id="1a235-109">Pour plus d’informations sur la colocalisation du serveur et la colocalisation des instances de base de données, voir colocalisation [du serveur dans un déploiement de pool frontal](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) et coconnexion de [serveur dans un déploiement Standard Edition Server](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).</span><span class="sxs-lookup"><span data-stu-id="1a235-109">For details about server collocation and database instance collocation, see [Server Collocation in a Front End Pool Deployment](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) and [Server Collocation in a Standard Edition Server Deployment](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).</span></span>
+<span data-ttu-id="16a3b-108">La colocalisation des bases de données dans des instances spécifiques devrait être très claire.</span><span class="sxs-lookup"><span data-stu-id="16a3b-108">Collocation of databases in specific instances should be very clearly understood.</span></span> <span data-ttu-id="16a3b-109">Pour plus d’informations sur la colocalisation du serveur et la colocalisation des instances de base de données, voir [colocalisation du serveur dans un déploiement de pool frontal](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) et coconnexion de [serveur dans un déploiement Standard Edition Server](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).</span><span class="sxs-lookup"><span data-stu-id="16a3b-109">For details about server collocation and database instance collocation, see [Server Collocation in a Front End Pool Deployment](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) and [Server Collocation in a Standard Edition Server Deployment](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).</span></span>
 
 
