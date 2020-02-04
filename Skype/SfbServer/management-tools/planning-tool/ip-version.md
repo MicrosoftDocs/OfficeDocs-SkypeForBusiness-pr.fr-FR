@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: Trois options s’offrent à vous lorsque vous configurez les adresses IP dans Skype entreprise Server 2015. Vous pouvez configurer Skype entreprise Server 2015 de sorte qu’il prenne uniquement en charge les protocoles IP version 4 (IPv4), uniquement la version 6 d’IP ou une combinaison des deux (appelé pile double).
-ms.openlocfilehash: a454881368e86cdd47fe23ce2ea60ec8cfc7b207
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 759f26f5b8ec282e033fafd6687bc838b2a9517c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279164"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684207"
 ---
 # <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  

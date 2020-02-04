@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Découvrez comment sélectionner les langues du standard automatique d’audioconférence pour un numéro d’audioconférence dans Skype Entreprise Online.
-ms.openlocfilehash: 753efca2117363774865817d3095d8b981b4342c
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35220901"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680381"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 
@@ -71,6 +72,6 @@ Pour automatiser cette étape, vous pouvez utiliser les applets de action [Set-c
   
 Pour plus d’informations, reportez-vous à la rubrique [utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525038) .
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

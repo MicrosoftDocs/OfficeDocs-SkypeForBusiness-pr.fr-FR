@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Pour ajouter d’autres URL simples à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple.
-ms.openlocfilehash: 53d5e4a59d14e0082a4de40a55a3a05d9ac926d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9bc39e64e7628f96adb6f63a5c6145a78558f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275835"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685047"
 ---
 # <a name="add-simple-url"></a>Ajouter une URL simple
  
-Pour ajouter d’autres URL simples à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple. Le format de l’URL est _http://\<simple URL type\>.\< \> nom de domaine_ ou _\<type\>d'\>URL simple de/\<nom de domaine http://_, où le type d’URL simple est l’un des éléments suivants:
+Pour ajouter d’autres URL simples à la définition du déploiement, spécifiez l’URL de la nouvelle URL simple. Le format de l’URL est _http://\<simple URL type\>.\< \> nom de domaine_ ou _\<type\>d'\>URL simple de/\<nom de domaine http://_, où le type d’URL simple est l’un des éléments suivants :
   
 - Correspondre
     

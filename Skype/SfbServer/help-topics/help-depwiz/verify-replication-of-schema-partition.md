@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-description: 'Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt services de domaine Active Directory (AD FS), procédez comme suit:'
-ms.openlocfilehash: 9b055120f33f4bc80b2fdbf163e9ab627927dd54
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt services de domaine Active Directory (AD FS), procédez comme suit :'
+ms.openlocfilehash: 0b90f61849e66e78c49d7d00783133198bab6b54
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289469"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687317"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Vérifier la réplication de la partition du schéma
  
-Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt services de domaine Active Directory (AD FS), procédez comme suit:
+Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt services de domaine Active Directory (AD FS), procédez comme suit :
   
 1. Ouvrez une session sur un contrôleur de domaine (autre que le contrôleur de domaine qui contient le rôle de maître de schéma) dans votre forêt services de domaine Active Directory (AD DS), où les extensions de schéma étaient appliquées en tant que membre du groupe administrateurs d’entreprise.
     
-2. Ouvrez ADSI Edit: cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **modification ADSI**.
+2. Ouvrez ADSI Edit : cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **modification ADSI**.
     
     > [!TIP]
     > Vous pouvez également cliquer sur **Démarrer**, puis sur **exécuter**, taper **adsied. msc** pour démarrer ADSI Edit.

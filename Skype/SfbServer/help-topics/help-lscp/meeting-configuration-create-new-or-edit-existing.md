@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres ne concernent que les réunions planifiées. Ils ne concernent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant du client.
-ms.openlocfilehash: baf8912e90d68dc175e6cd278cc7a13eff82ae33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e98ee52ccab9dbb541d8f09e448f9ac098501ca5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293458"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686367"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une réunion ou modification d’une réunion existante
 
@@ -28,13 +28,13 @@ Les paramètres de configuration de réunion définissent la participation des u
 
 La liste ci-dessous décrit les champs de la page.
 
-- **Scope** Identifie l’étendue de la configuration de réunion que vous créez ou modifiez: global, site ou pool.
+- **Scope** Identifie l’étendue de la configuration de réunion que vous créez ou modifiez : global, site ou pool.
 
 - **Nom** Les configurations de réunion sont nommées par défaut et le nom ne peut pas être modifié.
 
 - **Appel RTC-salle d’attente** Activez cette case à cocher pour admettre automatiquement les utilisateurs qui se connectent à la Conférence par le biais d’une ligne téléphonique PSTN (réseau téléphonique commuté). Désactivez cette case à cocher pour acheminer les appelants PSTN vers la salle d’attente, où ils sont en attente jusqu’à ce qu’un présentateur de conférence leur accorde l’accès à la Conférence.
 
-- **Désigner comme présentateur** Sélectionnez la catégorie d’utilisateurs (en plus de l’organisateur de la réunion) qui sont automatiquement désignés comme présentateurs lorsqu’ils rejoignent une conférence. Quels que soient les paramètres de ce paramètre, les présentateurs peuvent être désignés explicitement comme présentateurs lorsque la Conférence est planifiée, ou être promues explicitement au présentateur lors de la Conférence. Les options disponibles sont les suivantes:
+- **Désigner comme présentateur** Sélectionnez la catégorie d’utilisateurs (en plus de l’organisateur de la réunion) qui sont automatiquement désignés comme présentateurs lorsqu’ils rejoignent une conférence. Quels que soient les paramètres de ce paramètre, les présentateurs peuvent être désignés explicitement comme présentateurs lorsque la Conférence est planifiée, ou être promues explicitement au présentateur lors de la Conférence. Les options disponibles sont les suivantes :
 
   - **Aucun** Sélectionnez cette option si personne autre que l’organisateur n’est désigné automatiquement comme présentateur.
 

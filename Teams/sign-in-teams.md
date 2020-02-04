@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563121"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678968"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Se connecter à Microsoft Teams en utilisant l’authentification moderne
 ==========================
@@ -38,6 +38,11 @@ L’authentification moderne est un processus qui permet à teams de savoir que 
 - Si les utilisateurs ne sont pas connectés à leur compte Office 365 entreprise, où qu’ils soient, ils doivent fournir une authentification à un seul facteur ou multifacteur (SFA ou MFA), en fonction de ce que votre organisation a décidé d’utiliser pour la processus à comprendre.
 
 - Si les utilisateurs sont connectés à un ordinateur appartenant à un domaine au démarrage d’Teams, ils peuvent être invités à procéder à une autre étape d’authentification, selon que votre organisation a opté pour l’authentification multifacteur ou si elle exige déjà une authentification multifacteur pour se connecter. Si son ordinateur exige déjà une authentification multifacteur, il démarre automatiquement lorsque les utilisateurs ouvrent Teams.
+
+- Si les utilisateurs sont connectés à un ordinateur appartenant à un domaine et que vous ne souhaitez pas que leur nom d’utilisateur soit prérempli sur l’écran de connexion Teams, les administrateurs peuvent configurer le Registre Windows suivant pour désactiver le pré-remplissage du nom d’utilisateur : ordinateur \ HKEY_CURRENT_USER \Software\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+
+  Remarque : le préremplissage du nom d’utilisateur qui se termine par « . local » ou « . Corp » est activé par défaut, de sorte que vous n’avez pas besoin de définir une clé de Registre pour désactiver cette fonctionnalité. 
+
 
 ### <a name="mac-users"></a>Utilisateurs de Mac 
 

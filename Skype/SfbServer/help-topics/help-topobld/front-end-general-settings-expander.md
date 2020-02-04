@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: bd4cbb507bff025f7133673c25f59beada37aeb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8533d8be1e128b34d1fd8bf9280c1704a585fd46
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284409"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684677"
 ---
 # <a name="front-end-general-settings-expander"></a>Expanseur des paramètres généraux du serveur frontal
 
@@ -48,7 +48,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence** : inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner Conférence rendez-vous (RTC). Vous spécifiez et définissez une passerelle de réseau téléphonique commuté (RTC) dans la sous-section Paramètres du serveur de médiation ci-dessous.
 
-  - **Voix entreprise**. Autorise les appels voix sur IP internes vers des combinés et des appareils et des clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez la section «serveur de médiation» plus loin dans cette rubrique.
+  - **Voix entreprise**. Autorise les appels voix sur IP internes vers des combinés et des appareils et des clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez la section « serveur de médiation » plus loin dans cette rubrique.
 
 - Dans **Associations**, modifiez ou définissez les éléments suivants :
 
@@ -145,7 +145,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence** : inclut le partage audio, vidéo et d’applications. Cette option étant sélectionnée, vous pouvez sélectionner **Conférence rendez-vous (RTC)**. Vous pouvez spécifier et définir une passerelle RTC par la suite dans les paramètres du serveur de médiation.
 
-  - **Voix entreprise**. Autorise les appels voix sur IP internes vers des combinés et des appareils et des clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez la section «serveur de médiation» plus loin dans cette rubrique.
+  - **Voix entreprise**. Autorise les appels voix sur IP internes vers des combinés et des appareils et des clients Skype entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, consultez la section « serveur de médiation » plus loin dans cette rubrique.
 
 - Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
 

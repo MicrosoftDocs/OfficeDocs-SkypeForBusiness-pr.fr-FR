@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez cliquer avec le bouton droit sur composants partagés dans l’arborescence de hiérarchie du générateur de topologie pour créer de nouveaux composants partagés ou accéder aux options de niveau topologique.
-ms.openlocfilehash: 6325eeff420b480e36fa36eb80ddc2e606b48cd5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 912d85b6dd05a583015ff6a0d67e57455be5a057
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303192"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687997"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  

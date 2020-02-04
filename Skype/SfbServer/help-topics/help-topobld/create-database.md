@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Le générateur de topologie fournit un moyen d’installer des bases de données sur un magasin SQL Server. Lorsque vous installez des bases de données à l’aide du générateur de topologie, l’application lit les informations de la topologie, puis installe les bases de données requises sur l’ordinateur SQL Server spécifié ou le cluster SQL Server. C’est le seul type d’installation de base de données disponible par le biais du générateur de topologie. Si vous avez besoin d’installer une base de données spécifique sur un ordinateur spécifique, ou si vous devez installer une base de données colocalisée, vous devez utiliser l’interface de ligne de commande Windows PowerShell et l’applet de commande Install-CsDatabase.
-ms.openlocfilehash: a4248827b7eba83534b0fdc2dc82dcaa3487e2d0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 02d754870cb2d2db16424474a68b8ea0245191f7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305961"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684847"
 ---
 # <a name="create-database"></a>Créer des bases de données
  

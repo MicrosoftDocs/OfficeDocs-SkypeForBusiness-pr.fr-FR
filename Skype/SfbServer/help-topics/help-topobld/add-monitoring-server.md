@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddMonitoringServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 description: Pour incorporer un serveur de surveillance dans votre conception topologique, vous devez spécifier le nom de domaine complet (FQDN) du serveur sur lequel vous voulez déployer le serveur de surveillance. Avant de publier une topologie incluant le serveur de surveillance et l’installation de Skype entreprise Server sur le serveur, vous devez effectuer toutes les conditions préalables pour le déploiement de la surveillance. Pour plus d’informations sur ces conditions préalables, reportez-vous à la rubrique Deploying Monitoring de la documentation de déploiement.
-ms.openlocfilehash: bd240cded900fba1e0757619f48892a3ffabe995
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8b08c5f8f004f2405eb09e7701d06887cc8750bf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275205"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685097"
 ---
 # <a name="add-monitoring-server"></a>Ajouter un serveur de surveillance
 

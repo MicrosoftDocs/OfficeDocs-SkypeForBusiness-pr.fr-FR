@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour Trinidad-et-Tobago.
-ms.openlocfilehash: 32284d83d101431192c81a4a3adf3296f199bab2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1bac3c3f105e78d11231a81d9cd69c9c061fb09c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572299"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683397"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Disponibilité à Trinité-et-Tobago
 

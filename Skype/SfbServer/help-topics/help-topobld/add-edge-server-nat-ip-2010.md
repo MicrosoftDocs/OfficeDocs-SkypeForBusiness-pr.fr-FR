@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerNatIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aacc1166-0f3b-4593-9747-85bb42ee4599
 description: Si l’adresse IP publique de ce pool Edge est traduite par une traduction d’adresses réseau (NAT), vous devez spécifier l’adresse IP publique à traduire. Il doit s’agir de l’adresse IP externe du service Edge A/V.
-ms.openlocfilehash: bd334cbf26353ab2ae753cf4624938a0281b4436
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f388a81e838b31370bff7aff88ba7dc817e95f8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293965"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685237"
 ---
 # <a name="add-edge-server-nat-ip-2010"></a>Ajouter l’adresse IP NAT 2010 du serveur Edge
  

@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: Découvrez comment attribuer ou changer l’emplacement d’un emplacement d’urgence pour les utilisateurs de votre organisation.
-ms.openlocfilehash: 4179992476faa800684e29343227e03b563d7575
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515841"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684167"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’un emplacement d’urgence pour un utilisateur
 
@@ -40,7 +41,7 @@ Pour plus d’informations sur la façon d’obtenir des forfaits d’appels dan
 
 4. Cliquez sur **Enregistrer**.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Que sont les emplacements, les lieux et le routage d’appel d’urgence ?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)

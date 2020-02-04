@@ -16,17 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
-ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
+ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34813048"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680331"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Essayez ou achetez une audioconférence dans Office 365 pour Skype entreprise Online
 
@@ -40,7 +40,7 @@ You only need to set up audio conferencing for people who plan to schedule or le
 
 Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
 
-## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1: acheter et affecter des licences de conférence audio
+## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1 : acheter et affecter des licences de conférence audio
 
 Pour effectuer ces étapes, vous devez disposer des [rôles d’administrateur Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) .
 
@@ -82,7 +82,7 @@ Lorsque vous attribuez une licence d’**audioconférence** à des personnes dan
 
 Les étapes suivantes sont **facultatives**, mais un grand nombre d’administrateurs préfèrent les effectuer :
 
-1. [Personnaliser](../set-up-skype-for-business-online/customize-meeting-invitations.md)les invitations aux réunions. Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
+1. [Personnaliser les invitations aux réunions](../set-up-skype-for-business-online/customize-meeting-invitations.md). Les numéros de connexion définis pour l'utilisateur seront ajoutés automatiquement aux invitations envoyées aux participants. Vous pouvez cependant ajouter vos propres liens d’aide et légaux, un texte et une petite image de l’entreprise.
 
 2. [Définissez les numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites.md). Il s’agit du numéro de téléphone qui s’affichera dans la réunion planifiée par un utilisateur.
 
@@ -94,7 +94,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Skype entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

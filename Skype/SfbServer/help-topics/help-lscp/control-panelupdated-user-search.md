@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs de Skype entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à partir du Panneau de configuration Lync Server ou du composant Utilisateurs et ordinateurs Active Directory.
-ms.openlocfilehash: 7b6b72275ffd5dfe8c03b41d4da2ca8ee6f40a3a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75682c6cc732ce94baf312ddae847b5bb8bf37ec
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285999"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686827"
 ---
 # <a name="control-panel---updated-user-search"></a>Panneau de configuration - Mise à jour : recherche d’un utilisateur
 
@@ -74,21 +74,21 @@ Ajoutez un texte descriptif, selon les besoins.
 
 ### <a name="search-results-menus"></a>Menus de la page Résultats de la recherche
 
-- **Permettre aux utilisateurs** Cliquez pour ouvrir la boîte de dialogue [utilisateurs: nouveau serveur Lync Server](users-new-lync-server-user.md) , dans lequel vous pouvez ajouter un nouvel utilisateur à Skype entreprise Server.
+- **Permettre aux utilisateurs** Cliquez pour ouvrir la boîte de dialogue [utilisateurs : nouveau serveur Lync Server](users-new-lync-server-user.md) , dans lequel vous pouvez ajouter un nouvel utilisateur à Skype entreprise Server.
 
     Pour ajouter un nouveau contact, cliquez sur la flèche Bas, puis sélectionnez **Activer les contacts** pour afficher la boîte de dialogue [Users: New Contact Objects](users-new-contact-objects.md).
 
 - **Modifier** Cliquez sur **modifier** , puis sur **afficher les détails** pour afficher les détails de l’utilisateur sélectionné ou cliquez sur **Sélectionner tous les résultats** de la recherche pour sélectionner tous les utilisateurs affichés dans le tableau des résultats.
 
-- **Action** Cliquez sur **action**, puis sélectionnez l’action que vous voulez effectuer pour les utilisateurs sélectionnés dans les résultats de la recherche. Les actions suivantes sont disponibles:
+- **Action** Cliquez sur **action**, puis sélectionnez l’action que vous voulez effectuer pour les utilisateurs sélectionnés dans les résultats de la recherche. Les actions suivantes sont disponibles :
 
   - **Nouvelle activation de Lync Server** Active le compte d’utilisateur sélectionné après son Désactivation temporaire.
 
   - **Désactiver temporairement pour Lync Server** Désactive le compte d’utilisateur dans Skype entreprise Server jusqu’à ce que vous le réactiviez, sans supprimer le compte d’utilisateur.
 
-  - **Attribuer des stratégies** Ouvre la boîte de dialogue [utilisateurs: affecter des stratégies](users-assign-policies.md) , dans laquelle vous pouvez configurer les stratégies attribuées à l’utilisateur.
+  - **Attribuer des stratégies** Ouvre la boîte de dialogue [utilisateurs : affecter des stratégies](users-assign-policies.md) , dans laquelle vous pouvez configurer les stratégies attribuées à l’utilisateur.
 
-  - **Afficher l’État** de la broche Ouvre la boîte de dialogue [utilisateurs: afficher l’État](users-view-pin-status.md) de la broche qui affiche les données de code confidentiel pour l’utilisateur sélectionné.
+  - **Afficher l’État** de la broche Ouvre la boîte de dialogue [utilisateurs : afficher l’État](users-view-pin-status.md) de la broche qui affiche les données de code confidentiel pour l’utilisateur sélectionné.
 
   - **Définir le code confidentiel** Ouvre la boîte de dialogue [définir le code confidentiel](set-pin.md) , dans laquelle vous pouvez définir le code confidentiel pour l’utilisateur sélectionné.
 

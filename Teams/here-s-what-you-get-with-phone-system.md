@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer le système Microsoft Phone pour votre entreprise. '
-ms.openlocfilehash: fc4d771037a9305fa5f39148ad465211e491ceb4
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: ad2feebec1a5c7745563308f0004f1839e358117
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554351"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680491"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Voici les avantages du système téléphonique dans Office 365
 
@@ -79,7 +80,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans les nuages de
 - Attente musicale
 - Liste de choix pour le numéro inverse d’Azure AD
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce que le système téléphonique dans Office 365](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

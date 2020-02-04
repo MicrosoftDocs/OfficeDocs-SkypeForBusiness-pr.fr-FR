@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: d1a709939c1a86a5c7d777351c2a0c9d15df8b88
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e120637ca003dfc0c2a4368d29e0b6c2bdf73cad
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572899"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681781"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>Restrictions de numérotation gratuit en Taiwan
 
@@ -45,7 +46,7 @@ ms.locfileid: "37572899"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |Pas d'accès par ligne filaire via KG Telecom. Accès mobile : Aucun temps d'accès n'est facturé. Pour l'accès mobile : Accès via tous les réseaux mobiles sauf KG Telecom.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

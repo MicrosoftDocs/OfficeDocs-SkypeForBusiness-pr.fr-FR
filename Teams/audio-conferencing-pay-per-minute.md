@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Outre la licence par utilisateur pour les conférences audio standard, les organisations qui utilisent le programme de licence en volume Microsoft peuvent également choisir une proposée à la minute pour activer les fonctionnalités de conférence audio de leur organisation.
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515891"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684137"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -41,7 +42,7 @@ Vous pouvez déterminer si votre [pays ou région est pris en charge](country-an
   
 ## <a name="need-some-details"></a>Vous avez besoin de quelques informations ?
 
-Alors que l’offre de licence par utilisateur de l’audioconférence inclut l’utilisation de la fonction d’appel entrant et de l’utilisation de la fonction de numérotation, les services d’audioconférence à **la minute vous permettent de payer toutes les utilisations de votre audioconférence à la minute, sans payer chaque mois. licence**. Ainsi, tous les appels entrants et sortants seront débités à la minute, par exemple :
+Même si l’offre de licence par utilisateur est utilisée par la fonction de conférence rendez-vous et par le biais de l’utilisation de la fonction de numérotation, les services d’audioconférence par minute **vous permettent de payer toutes les utilisations de votre audioconférence à la minute, sans payer pour une licence mensuelle par utilisateur**. Ainsi, tous les appels entrants et sortants seront débités à la minute, par exemple :
   
 - Les appels entrants vers les numéros de conférence rendez-vous de votre organisation.
     
@@ -80,7 +81,7 @@ Pour activer l’audioconférence pour les utilisateurs de votre organisation, v
     
 - [Tarifs de forfaits d'appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
   
 [Licences de module complémentaire Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

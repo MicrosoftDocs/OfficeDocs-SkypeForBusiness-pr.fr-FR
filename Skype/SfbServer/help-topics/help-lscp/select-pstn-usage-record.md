@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoicePolicySelUsage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: Utilisez la boîte de dialogue Sélectionner un enregistrement d’utilisation RTC pour rechercher un enregistrement d’utilisation de réseau téléphonique public commuté (RTC) existant que vous pouvez utiliser.
-ms.openlocfilehash: 387b425d6c5a7f98d80d3436c1e069a87183a120
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4aaca43db6fd0c689180e9a8e9dfdd9f99833a29
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293346"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685838"
 ---
 # <a name="select-pstn-usage-record"></a>Sélectionner un enregistrement d’utilisation PSTN
  

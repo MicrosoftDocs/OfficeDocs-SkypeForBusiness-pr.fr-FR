@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 203ee00cbe2c12f8b133b070ce3bc62944d9600c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f218dbd5c1c5593530efe266b85c8337960971e2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569870"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682391"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>Restrictions de numérotation gratuit au Mexique
 
@@ -45,7 +46,7 @@ ms.locfileid: "37569870"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |L'accès n'est pas garanti via les roamers internationaux.  <br/> Pour le format de numéro 001-800 : Pour l'accès fixe - Telmex. Pour l'accès mobile - Telcel uniquement. Le temps d'accès est facturé. Aucun frais supplémentaire si le client final est doté de Telmex comme fournisseur local et longue distance.  <br/> Pour le format de numéro 01-800 : Le temps d'accès mobile est facturé.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

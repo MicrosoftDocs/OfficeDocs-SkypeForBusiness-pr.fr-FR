@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft collecte des données de recensement, d’utilisation et d’erreur afin de comprendre la manière dont Skype entreprise est utilisé et où les utilisateurs rencontrent des problèmes. Les données sont utilisées pour planifier les améliorations du produit.
-ms.openlocfilehash: d5e4e72ac06eb0638ed25dbf48321afd22b503ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e84946fd8c61daad7e16f8f7e248f4a0e06c2ae4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571845"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680461"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Pratiques de collecte de données Skype entreprise et Microsoft teams
 
@@ -115,7 +116,7 @@ Pour configurer votre réseau, vous pouvez vous reporter à [la rubrique Configu
 
 Si vous utilisez Office 365 géré par 21Vianet en Chine, reportez-vous à [la rubrique Configuration de votre réseau pour Skype entreprise Online géré par 21ViaNet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Programme d’amélioration du produit](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Disponibilité des offres d'appels et d'audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

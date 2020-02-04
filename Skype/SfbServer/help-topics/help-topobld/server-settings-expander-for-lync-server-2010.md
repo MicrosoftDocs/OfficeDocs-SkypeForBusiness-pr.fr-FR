@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
-description: 'Pour modifier les propriétés de cet ordinateur, procédez comme suit:'
-ms.openlocfilehash: 28261b3637040acda70218f23101b4337b1f90c3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour modifier les propriétés de cet ordinateur, procédez comme suit :'
+ms.openlocfilehash: da1029b6298d85aab8a80af1c52b152e040fbd80
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297609"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684407"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres du serveur pour Lync Server 2010
  
-Pour modifier les propriétés de cet ordinateur, procédez comme suit:
+Pour modifier les propriétés de cet ordinateur, procédez comme suit :
   
 - Modifiez le **nom de domaine complet (FQDN)** de cet ordinateur. Cette entrée doit correspondre au nom de l’ordinateur tel qu’il est défini dans le système de noms de domaine (DNS), et dans les noms de remplacement de l’objet (SAN) ou le nom d’objet (SN) du certificat associé à cet ordinateur.
     
-- Vous pouvez sélectionner l’une des options suivantes:
+- Vous pouvez sélectionner l’une des options suivantes :
     
     **Utiliser toutes les adresses IP configurées**: sélectionnez cette option pour utiliser toutes les adresses IP configurées sur l’ordinateur.
     

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.VideoInteropServerPortSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires pour définir une nouvelle passerelle vidéo ou une nouvelle passerelle vidéo dans le générateur de topologie sont décrites en ligne dans créer un pool de ressources dans Skype entreprise Server.
-ms.openlocfilehash: 572be5baa563b7d3fe76fdea6e6cc64831d32672
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 37939e1f1f8cff103758651246374dda0d374897
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306964"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687897"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Expanseur des paramètres de port du serveur d’interopérabilité vidéo (VIS)
  

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrateur de chat permanent peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, un administrateur de chat permanent peut configurer des principaux (services de domaine Active Directory) qui peuvent être membres/créateurs de salles de conversation d’une catégorie spécifique. Un administrateur de chat permanent peut également ajouter des DeniedMembers à une catégorie, qui deviennent des exclusions explicites de la liste autorisée. DeniedMembers remplacer ce qui est dans AllowedMembers.
-ms.openlocfilehash: bbf54bfb05a2c3a54c9515d77ae6fb93b22a62ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8b357abe49d794283b7165d9c5decdffaece275
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294079"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685879"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 
@@ -36,7 +36,7 @@ Pour plus d’informations sur les différentes procédures que vous pouvez effe
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 
-Dans **appartenance**(membership), dans la section **membres refusés** , ajoutez ou supprimez des utilisateurs et d’autres entités Active Directory associées aux membres refusés à partir de la salle.
+Dans **appartenance (membership**), dans la section **membres refusés** , ajoutez ou supprimez des utilisateurs et d’autres entités Active Directory associées aux membres refusés à partir de la salle.
 
 
 Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur Chat permanent, voir [vue d’ensemble du serveur de chat permanent](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations serveur de chat permanent, voir [configuration du serveur de chat permanent](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) dans la documentation de déploiement et [gestion de Lync Server 2013, serveur de chat permanent](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) dans la documentation des opérations.

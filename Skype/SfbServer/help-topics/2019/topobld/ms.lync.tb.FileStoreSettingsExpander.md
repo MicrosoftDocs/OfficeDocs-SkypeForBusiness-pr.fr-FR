@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FileStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Pour modifier les propriétés des magasins de fichiers définis:'
-ms.openlocfilehash: f8b52358b46b61ad0c20254c2881e8715806f638
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour modifier les propriétés des magasins de fichiers définis :'
+ms.openlocfilehash: 47f5f1214908429df38dec0ab94c283f19210134
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292688"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688487"
 ---
 # <a name="file-store-settings-expander"></a>Développeur des paramètres du magasin de fichiers
  
-Pour modifier les propriétés des magasins de fichiers définis:
+Pour modifier les propriétés des magasins de fichiers définis :
   
 Pour le nom de partage de fichiers, vous pouvez définir le nom d’un nouveau partage. Vous devez ensuite créer le partage sur le serveur nommé dans la propriété nom de domaine complet (FQDN) du serveur de fichiers.
   

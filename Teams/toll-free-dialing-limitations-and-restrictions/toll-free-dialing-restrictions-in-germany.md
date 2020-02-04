@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Vous pourrez ainsi découvrir comment composer un numéro gratuit dans chaque pays ou région. Lorsque vous sélectionnez le pays ou la région, vous êtes dirigé vers une page qui contient des détails, restrictions et limites spécifiques pour la disponibilité du service gratuit où le service gratuit est disponible. Le ou les formats de numérotation vous montrent les codes d’accès requis au sein de chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: e9d500f0c8c69eb0a0bbf1969622dc5f2e50941d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2ca54a9e3ff749808854b02a83d79428d1d4d106
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570853"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680441"
 ---
 # <a name="toll-free-dialing-restrictions-in-germany"></a>Restrictions de numérotation gratuit en Allemagne
 
@@ -45,7 +46,7 @@ ms.locfileid: "37570853"
 |Disponibilité de réseau mobile  <br/> | Oui. Disponible à tarif surtaxé <br/> |
 |Commentaires, restrictions et problèmes d’accès  <br/> |L'accès n'est pas garanti via les roamers mobiles internationaux.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

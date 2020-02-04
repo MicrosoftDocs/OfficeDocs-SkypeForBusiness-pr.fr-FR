@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientDeviceTestMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 description: Vous pouvez ajouter un périphérique de test à la page Périphérique de test, puis l’utiliser pour vérifier les fonctionnalités des nouvelles mises à jour avant de les déployer sur des périphériques de production. Vous pouvez tester un périphérique globalement (dans tout votre environnement) ou sur un site unique. Vous identifiez un périphérique de test grâce à son adresse MAC (Media Access Control) ou son numéro de série. Lorsque vous ajoutez un appareil, celui-ci apparaît dans la liste de la page périphérique de test du panneau de configuration Skype entreprise Server.
-ms.openlocfilehash: 223efaf8a72c5ea0b7922a28b1dc26a6395e43ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f60cf047c1a6ecf902283920de9513e1a51c1acc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293199"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685757"
 ---
 # <a name="test-device"></a>Périphérique de test
 
@@ -36,13 +36,13 @@ Vous pouvez effectuer les tâches suivantes dans la page de test de l' **apparei
 
 Les listes ci-dessous décrivent les menus, les commandes, les champs et les propriétés de la page.
 
-- **Nouvelle** Vous pouvez ajouter un nouvel appareil de test avec l’étendue suivante:
+- **Nouvelle** Vous pouvez ajouter un nouvel appareil de test avec l’étendue suivante :
 
   - Globale
 
   - Site
 
-- **Modifier** Vous pouvez modifier les options d’un périphérique de test dans la liste. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options d’un périphérique de test dans la liste. Cette option vous permet d’effectuer les opérations suivantes :
 
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options pour un appareil de test.
 

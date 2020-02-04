@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Ukraine.
-ms.openlocfilehash: 28b16f46c420d8bc2e0bc221d3a76ff8d34424e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 72830b717c3cbc190d05abdd7a7acbdddb5be980
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572542"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683437"
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilité en Ukraine
 

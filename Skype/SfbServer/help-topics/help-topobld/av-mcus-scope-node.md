@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: 'Le nœud Pools de conférence A/V répertorie les pools de conférence A/V dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 99301cc1af11207cd9c371f605e07cdefe5f5116
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fe3b1a3713e6f687ff08cf0dae40f7d01537afdc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306045"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684887"
 ---
 # <a name="av-mcus-scope-node"></a>Nœud d’étendue des services MCU audio/vidéo
  

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour l’Afrique du Sud.
-ms.openlocfilehash: 182f8b97aed81930336f14e613ef9b244d85f6f0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 64f4a5c9f461f5fb1594b47736990f2f74ec1a26
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683557"
 ---
 # <a name="availability-in-south-africa"></a>Disponibilité en Afrique du Sud
 

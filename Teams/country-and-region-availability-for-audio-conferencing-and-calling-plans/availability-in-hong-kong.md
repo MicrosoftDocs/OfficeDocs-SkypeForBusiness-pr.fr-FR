@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour Hong Kong.
-ms.openlocfilehash: 44a9bca673eeacdd286e297f34fcdd72aab5cae8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: afc904a0005867099cbf881bc4640ab477f8f3ce
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570046"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683837"
 ---
 # <a name="availability-in-hong-kong"></a>Disponibilité à Hong Kong (R.A.S.)
 

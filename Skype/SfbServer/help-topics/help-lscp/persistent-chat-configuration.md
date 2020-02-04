@@ -7,25 +7,25 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: Le déploiement de votre serveur Chat permanent peut accueillir de nombreux salles de conversation permanentes concomitantes. Les salles de conversation peuvent être organisées sous forme d’ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations en fonction de leur objectif professionnel et facilite la délégation de l’administration et la simplification de la gestion.
-ms.openlocfilehash: 75665a9a3dfb25f6c70abb0c5a425d6ce69e5d62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 07c1043a67d5f1a64dbb53540fbd902341067b32
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302670"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686227"
 ---
 # <a name="persistent-chat-configuration"></a>Configuration d’une conversation permanente
  
 Le déploiement de votre serveur Chat permanent peut accueillir de nombreux salles de conversation permanentes concomitantes. Les salles de conversation peuvent être organisées sous forme d’ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une seule catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure pratique pour identifier les conversations en fonction de leur objectif professionnel et facilite la délégation de l’administration et la simplification de la gestion.
   
 > [!NOTE]
-> Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur des ordinateurs exécutant une conversation permanente pour l’utilisateur, les administrateurs de discussions permanentes (dans le rôle **cspersistentchatadministrator** ) doivent utiliser soit le panneau de configuration, soit Management Shell. cmdlets permettant de créer ou de gérer des catégories.
+> Même si de nombreuses fonctionnalités de gestion des salles de conversation sont disponibles sur des ordinateurs exécutant une conversation permanente pour l’utilisateur, les administrateurs de chat permanent (dans le rôle **cspersistentchatadministrator** ) doivent utiliser les applets de commande du panneau de configuration ou de l’interpréteur de gestion pour créer ou gérer des catégories.
   
 Les administrateurs de chat permanent utilisent le panneau de configuration Skype entreprise Server ou les applets de commande Windows PowerShell pour créer et gérer des catégories, et pour concevoir l’accès aux salles de conversation pour les utilisateurs de leur organisation.
   
@@ -124,6 +124,6 @@ Vous pouvez effectuer les tâches suivantes dans la page **configuration de chat
     
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de chat permanent, voir [planifier le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [déployer le serveur de conversation permanente dans skype entreprise Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [gérer le serveur de chat permanent. dans Skype entreprise Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de chat permanent, voir [planifier le serveur de chat permanent dans Skype entreprise server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [déployer le serveur de conversation permanente dans skype entreprise Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [gérer le serveur de conversation permanent dans Skype entreprise Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

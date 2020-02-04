@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
-description: 'Pour définir la gestion SQL Server Store, vous devez configurer les propriétés suivantes:'
-ms.openlocfilehash: bd9a55e09a87f1c560f6e31d61094ddb915ad450
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Pour définir la gestion SQL Server Store, vous devez configurer les propriétés suivantes :'
+ms.openlocfilehash: 67da608f8f20f838c980640a2b6785c0ebb25fb1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275394"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685157"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Page Ajouter un magasin d’analyse frontal
  
-Pour **définir la gestion SQL Server Store** , vous devez configurer les propriétés suivantes:
+Pour **définir la gestion SQL Server Store** , vous devez configurer les propriétés suivantes :
   
 - **Surveiller SQL Server Store**: sélectionnez un nom de domaine complet SQL Server (et éventuellement une instance) dans la liste.
     

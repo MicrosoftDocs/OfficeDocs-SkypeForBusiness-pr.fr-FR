@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Les stratégies d’archivage permettent d’activer et de désactiver l’archivage pour les utilisateurs hébergés sur Skype entreprise Server. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’un des éléments suivants ou les deux :'
-ms.openlocfilehash: b397f0519acc9f16659018eb974fe4d61e42d40c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0bd80dcbe2c140d861829ff5bd1476d070423ba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299826"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687017"
 ---
 # <a name="archiving-policy"></a>Stratégie d’archivage
  
@@ -40,13 +40,13 @@ Les stratégies d’archivage incluent la stratégie globale, ainsi, éventuelle
 > Les stratégies d’archivage s’appliquent uniquement aux utilisateurs hébergés sur Skype entreprise Server. Si vous utilisez l’intégration Exchange pour stocker les données d’archivage dans Microsoft Exchange, puis que les stratégies Exchange 2013 contrôlent l’archivage pour les utilisateurs hébergés sur Exchange 2013. Pour activer l’archivage de ces utilisateurs, la boîte aux lettres de l’utilisateur doit être placée sur une conservation inaltérable. 
   
 La page **Stratégie d’archivage** répertorie toutes les stratégies d’archivage configurées pour votre déploiement. Elle indique également le nom de stratégie, l’étendue (globale, de site ou utilisateur) et les options d’archivage activées pour chaque stratégie d’archivage. La page **Stratégie d’archivage** propose les options suivantes :
-- **Nouvelle** Vous pouvez ajouter une ou plusieurs des stratégies d’archivage facultatives suivantes:
+- **Nouvelle** Vous pouvez ajouter une ou plusieurs des stratégies d’archivage facultatives suivantes :
     
   - Stratégie de site
     
   - Stratégie utilisateur
     
-- **Modifier** Vous pouvez modifier les options de toutes les stratégies d’archivage répertoriées sur la page. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options de toutes les stratégies d’archivage répertoriées sur la page. Cette option vous permet d’effectuer les opérations suivantes :
     
   - **Afficher les détails** : cette option affiche une boîte de dialogue qui permet de modifier les options d’archivage pour une stratégie d’archivage.
     
@@ -54,7 +54,7 @@ La page **Stratégie d’archivage** répertorie toutes les stratégies d’arch
     
   - **Supprimer** : cette option supprime toutes les stratégies d’archivage sélectionnées.
     
-- **Action** Vous pouvez utiliser cette option pour activer ou désactiver rapidement l’archivage des communications internes ou externes dans n’importe quelle stratégie figurant sur la page, au lieu de modifier la stratégie. Les options disponibles sous **action** dépendent de l’option actuellement spécifiée dans la stratégie d’archivage. Toutes les options sont disponibles, à l’exception de l’option actuellement appliquée à la stratégie d’archivage. Les options disponibles sont les suivantes:
+- **Action** Vous pouvez utiliser cette option pour activer ou désactiver rapidement l’archivage des communications internes ou externes dans n’importe quelle stratégie figurant sur la page, au lieu de modifier la stratégie. Les options disponibles sous **action** dépendent de l’option actuellement spécifiée dans la stratégie d’archivage. Toutes les options sont disponibles, à l’exception de l’option actuellement appliquée à la stratégie d’archivage. Les options disponibles sont les suivantes :
     
   - **Activer l’archivage des communications internes**
     
@@ -64,7 +64,7 @@ La page **Stratégie d’archivage** répertorie toutes les stratégies d’arch
     
   - **Désactiver l’archivage des communications externes**
     
-- **Actualiser** Vous pouvez actualiser la page de **stratégie** d’archivage pour vérifier l’état des options de toutes les stratégies d’archivage.
+- **Actualiser** Vous pouvez actualiser la page de **stratégie d’archivage** pour vérifier l’état des options de toutes les stratégies d’archivage.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration d’Exchange, voir [planification de l’archivage dans Skype entreprise server 2015](../../plan-your-deployment/archiving/archiving.md), déploiement de l’archivage [pour skype entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et gestion de l' [archivage dans Skype pour Business Server 2015](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration d’Exchange, voir [planification de l’archivage dans Skype entreprise server 2015](../../plan-your-deployment/archiving/archiving.md), déploiement de l’archivage [pour skype entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et [gestion de l’archivage dans Skype entreprise Server 2015](../../manage/archiving/archiving.md).
 

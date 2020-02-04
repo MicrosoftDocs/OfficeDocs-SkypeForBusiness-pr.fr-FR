@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment trouver vos numéros de conférence rendez-vous à partir de Skype entreprise online. '
-ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792444"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680511"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Voir la liste des numéros d’audioconférence dans Skype Entreprise Online
 
@@ -41,7 +42,7 @@ When you set up Audio Conferencing for Skype for Business users, you can view th
   
 If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
   
-Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans](set-the-phone-numbers-included-on-invites.md) les invitations.
+Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous à [la rubrique définition des numéros de téléphone inclus dans les invitations](set-the-phone-numbers-included-on-invites.md) .
   
 > [!NOTE]
 > Les numéros d'accès nationaux sont réservés à votre entreprise et sont les seuls à pouvoir être définis comme numéros de téléphone par défaut. En revanche, les numéros d'accès internationaux peuvent être partagés par plusieurs entreprises. 
@@ -55,7 +56,7 @@ Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous
     
 2. Accédez au centre d’administration > **Skype entreprise**.
     
-3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à **audioconférence** > **Microsoft Bridge**, puis procédez comme suit:
+3. Dans le **Centre d’administration de Skype entreprise**, dans le volet de navigation de gauche, accédez à **audioconférence** > **Microsoft Bridge**, puis procédez comme suit :
     
    - Vous pouvez afficher les numéros de téléphone disponibles pour les conférences audio.
     
@@ -75,7 +76,7 @@ Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous
     
   - [Meilleurs moyens de gérer Office 365 avec Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell dispose de nombreux avantages de la vitesse, de la simplicité et de la productivité par le biais du centre d’administration Microsoft 365, par exemple, lorsque vous apportez des modifications à un grand nombre d’utilisateurs à la fois. Découvrez les avantages suivants dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -86,7 +87,7 @@ Pour modifier le numéro de téléphone d’un utilisateur unique, reportez-vous
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Tester ou acheter l’audioconférence dans Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

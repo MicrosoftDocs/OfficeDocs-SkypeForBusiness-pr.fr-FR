@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité des flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 49063ab0e957a0afee256fb0e5500d0f2b2a8ae6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569994"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680531"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classification des flux dans le tableau de bord de qualité des appels
 
@@ -54,7 +55,7 @@ Un flux vidéo est marqué comme _bon_ ou _médiocre_ en fonction de la valeur d
 |N° d’étape|Mesure|Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les trames récupérées à partir d’une perte du réseau.|
-|2|Video Frame Rate Avg|< 7|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
+|deuxième|Video Frame Rate Avg|< 7|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
 |3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
 |  |  |  |  |  |  |  |
 
@@ -65,7 +66,7 @@ Un flux VBSS est marqué comme _bon_ ou _médiocre_ en fonction de la valeur de 
 |N° d’étape |Mesure |Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Passez à l’étape 2|Pourcentage moyen de perte de trames vidéo tel qu'affiché pour l'utilisateur. La moyenne inclut les trames récupérées à partir d’une perte du réseau.|
-|2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
+|deuxième|Video Frame Rate Avg|< 2|_Poor_|_Good_|Passez à l’étape 3|Moyenne de fréquence d'images par seconde reçues pour un flux vidéo calculée pour toute la durée de la session.|
 |3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Taux de perte de paquets après FEC appliqué au regroupement de tous les flux vidéo et codecs.|
 | |  | | | |  ||
 

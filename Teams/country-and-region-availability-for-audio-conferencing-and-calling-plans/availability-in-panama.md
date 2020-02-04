@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Voici les services Office 365 pour Skype entreprise et Microsoft teams disponibles pour le Panama.
-ms.openlocfilehash: f8cbc14fb7a2ca98193c6f788e97fc6ac30a7a94
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b41d1f19b31733ef3fae89521d82fc6fc09d3b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570993"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683647"
 ---
 # <a name="availability-in-panama"></a>Disponibilité au Panama
 

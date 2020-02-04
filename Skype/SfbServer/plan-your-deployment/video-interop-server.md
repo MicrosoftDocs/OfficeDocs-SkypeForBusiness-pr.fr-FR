@@ -6,22 +6,22 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.VideoInterop
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
-description: 'Résumé: reportez-vous à cette rubrique pour planifier l’intégration de Skype entreprise Server à des appareils de téléconférence tiers.'
-ms.openlocfilehash: 24220a0013e12d65759baed33b8966b5c83a78f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Résumé : reportez-vous à cette rubrique pour planifier l’intégration de Skype entreprise Server à des appareils de téléconférence tiers.'
+ms.openlocfilehash: 5531fd60cc2aa28202903fcc4392fe7830bcdfa0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296769"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684187"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planifier le serveur Video Interop dans Skype entreprise Server
  
-**Résumé:** Consultez cette rubrique lors de la planification de l’intégration de Skype entreprise Server à des appareils de téléconférence tiers.
+**Résumé :** Consultez cette rubrique lors de la planification de l’intégration de Skype entreprise Server à des appareils de téléconférence tiers.
   
 Skype entreprise Server vous permet désormais de procéder à l’intégration à certaines solutions de VTC (Video Teleconferencing System) tierces. Le nouveau rôle de serveur qui permet cette interopérabilité des conférences vidéo est le serveur d’interopérabilité vidéo (qui est actuellement implémenté en tant que rôle serveur autonome disponible uniquement pour les installations locales). A fait office de intermédiaire entre un système de téléconférence tiers et un déploiement Skype entreprise Server. Pour cette version, le VIS se concentre sur l’interopérabilité avec les systèmes vidéo Cisco/Tandberg. Consultez cet article pour déterminer si vous souhaitez utiliser cette fonctionnalité dans votre installation de Skype entreprise Server.
   
@@ -99,11 +99,11 @@ Ce rôle serveur présente les limitations suivantes :
 
 Le VIS prend en charge les appels entrants d’un CUCM transitant par un tronçon SIP vidéo. Une perte de connectivité en amont ou en aval étant possible, vous devez envisager les deux possibilités suivantes pour profiter d’une résilience robuste :
   
-1. En vertu du basculement de **pool** Si le regroupement principal qui pointe vers le bas de la passerelle vidéo est arrêté, la récupération est possible si la passerelle vidéo a défini des Trunks vers deux (ou plus). Si la passerelle vidéo détermine qu’elle ne peut pas passer les appels vers le pool VIS principal, elle achemine simplement les appels vers le pool VIS secondaire.
+1. En vertu du **basculement de pool** Si le regroupement principal qui pointe vers le bas de la passerelle vidéo est arrêté, la récupération est possible si la passerelle vidéo a défini des Trunks vers deux (ou plus). Si la passerelle vidéo détermine qu’elle ne peut pas passer les appels vers le pool VIS principal, elle achemine simplement les appels vers le pool VIS secondaire.
     
      ![Schéma de basculement de pool du service d’interopérabilité vidéo (VIS)](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
-    Un pool particulier peut avoir des Trunks vers plusieurs passerelles, mais en règle générale, une passerelle particulière ne peut pas avoir de Trunks vers plusieurs réserves, de sorte qu’une astuce doit être exécutée pour prendre en charge ce basculement: définissez 2 FDQNs dans le DNS qui est résolu vers la même adresse IP d’une passerelle vidéo. Représenter chaque nom de domaine complet comme passerelle vidéo séparée dans le document topologique dans lequel chaque passerelle vidéo dispose d’un Trunk vers un pool d’objets différent et la récupération est désormais possible. (Si TLS est utilisé, les noms multiples doivent figurer dans le SAN du certificat de passerelle vidéo.)
+    Un pool particulier peut avoir des Trunks vers plusieurs passerelles, mais en règle générale, une passerelle particulière ne peut pas avoir de Trunks vers plusieurs réserves, de sorte qu’une astuce doit être exécutée pour prendre en charge ce basculement : définissez 2 FDQNs dans le DNS qui est résolu vers la même adresse IP d’une passerelle vidéo. Représenter chaque nom de domaine complet comme passerelle vidéo séparée dans le document topologique dans lequel chaque passerelle vidéo dispose d’un Trunk vers un pool d’objets différent et la récupération est désormais possible. (Si TLS est utilisé, les noms multiples doivent figurer dans le SAN du certificat de passerelle vidéo.)
     
     > [!NOTE]
     > Le VIS autorise uniquement les appels entrants provenant des passerelles configurées dans le document de topologie. 
@@ -143,7 +143,7 @@ Skype entreprise Server prend en charge l’utilisation du même homologue de pa
 ## <a name="co-existence-of-vis-in-the-skype-for-business-release-with-previous-releases-of-lync"></a>Coexistence de VIS dans Skype Entreprise avec les versions précédentes de Lync
 <a name="resiliency"> </a>
 
-Ne peut être déployée que dans le cadre du déploiement de Skype entreprise. Il peut interagir avec des conférences et clients Lync 2013 qui font partie d’un déploiement existant; dans ces cas-là, le regroupement doit faire partie d’un déploiement Skype entreprise incluant un pool d’inscriptions/FE qui est le tronçon suivant pour le pool d’utilisateurs.
+Ne peut être déployée que dans le cadre du déploiement de Skype entreprise. Il peut interagir avec des conférences et clients Lync 2013 qui font partie d’un déploiement existant ; dans ces cas-là, le regroupement doit faire partie d’un déploiement Skype entreprise incluant un pool d’inscriptions/FE qui est le tronçon suivant pour le pool d’utilisateurs.
   
 Le VIS ne prend pas en charge le transcodage entre RTV et H.264. Il n’existe pas d’interopérabilité entre les clients pré-Lync 2013 et les participants VTC dans une conférence.
   

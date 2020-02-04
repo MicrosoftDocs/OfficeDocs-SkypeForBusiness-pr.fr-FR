@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Une stratégie de version de client est composée d’un ensemble de règles de version de client. Ces règles définissent les actions qui doivent être effectuées lorsque les utilisateurs tentent de se connecter avec des clients et des versions de client spécifiques.
-ms.openlocfilehash: 6fa3ca3f59756c8a6fedb9fd8f1f457ca3f2df40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ac3174c367b4c6b23ab224a6eedf20399136302
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277929"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686937"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
@@ -67,7 +67,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
   - **Mise à jour** Spécifie le numéro qui correspond à la version mise à jour du client.
 
-- **Opération de comparaison** Vous pouvez spécifier l’opération correspondante pour la version du client spécifiée dans les étapes précédentes. Les opérations suivantes sont disponibles:
+- **Opération de comparaison** Vous pouvez spécifier l’opération correspondante pour la version du client spécifiée dans les étapes précédentes. Les opérations suivantes sont disponibles :
 
   - **Identique à**
 
@@ -81,7 +81,7 @@ Les listes ci-dessous décrivent les menus, les commandes, les champs et les pro
 
   - **Postérieur ou simultané**
 
-- **Action** Vous pouvez spécifier l’action à exécuter lorsque les critères spécifiés dans les étapes précédentes sont remplis. Les actions suivantes sont disponibles:
+- **Action** Vous pouvez spécifier l’action à exécuter lorsque les critères spécifiés dans les étapes précédentes sont remplis. Les actions suivantes sont disponibles :
 
   - **Autoriser** Permet au client de se connecter.
 

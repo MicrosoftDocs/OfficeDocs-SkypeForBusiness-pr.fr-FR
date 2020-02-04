@@ -7,25 +7,25 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Le schéma principal de haute disponibilité pour la plupart des rôles serveur dans Skype entreprise Server 2015 est basé sur la redondance du serveur via le regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: 740c12439683fcefccaef11358a8cb65a4fae65a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53b98b72c70fcb624ab59fc7bfc3fbffadbd231a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281086"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685437"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  
 Le schéma principal de haute disponibilité pour la plupart des rôles serveur dans Skype entreprise Server 2015 est basé sur la redondance du serveur via le regroupement. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
   
-Skype entreprise Server 2015 nécessite au moins deux serveurs frontaux pour garantir une haute disponibilité. L’outil de planification utilise les critères suivants pour déterminer s’il ajoute des serveurs supplémentaires afin de prendre en charge une haute disponibilité:
+Skype entreprise Server 2015 nécessite au moins deux serveurs frontaux pour garantir une haute disponibilité. L’outil de planification utilise les critères suivants pour déterminer s’il ajoute des serveurs supplémentaires afin de prendre en charge une haute disponibilité :
   
 - Si le déploiement comporte au moins deux serveurs front-end, l’outil de planification n’ajoute pas de serveur supplémentaire.
     

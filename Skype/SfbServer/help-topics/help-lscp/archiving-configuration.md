@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-description: 'Vous pouvez utiliser les configurations d’archivage pour contrôler les options d’archivage de votre déploiement de Skype entreprise Server, notamment l’activation et la désactivation des options suivantes:'
-ms.openlocfilehash: 8f3ed4289d68359cb8eb0d4cb0bfc3a303c53dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Vous pouvez utiliser les configurations d’archivage pour contrôler les options d’archivage de votre déploiement de Skype entreprise Server, notamment l’activation et la désactivation des options suivantes :'
+ms.openlocfilehash: f56b452058a8ce51ac5d5761e9b24c6595bbdd39
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299847"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687037"
 ---
 # <a name="archiving-configuration"></a>Configuration de l’archivage
  
-Vous pouvez utiliser les configurations d’archivage pour contrôler les options d’archivage de votre déploiement de Skype entreprise Server, notamment l’activation et la désactivation des options suivantes:
+Vous pouvez utiliser les configurations d’archivage pour contrôler les options d’archivage de votre déploiement de Skype entreprise Server, notamment l’activation et la désactivation des options suivantes :
   
 - Blocage des sessions de messagerie instantanée ou de conférence en cas d’échec de l’archivage
     
@@ -48,7 +48,7 @@ La page **Configuration d’archivage** répertorie toutes les stratégies d’a
     
   - Configuration du pool
     
-- **Modifier** Vous pouvez modifier les options de n’importe quelle configuration de l’archivage figurant sur la page. Cette option vous permet d’effectuer les opérations suivantes:
+- **Modifier** Vous pouvez modifier les options de n’importe quelle configuration de l’archivage figurant sur la page. Cette option vous permet d’effectuer les opérations suivantes :
     
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options d’archivage pour la configuration d’archivage sélectionnée. Vous ne pouvez afficher que les détails relatifs à une configuration d’archivage à la fois.
     
@@ -56,7 +56,7 @@ La page **Configuration d’archivage** répertorie toutes les stratégies d’a
     
   - **Supprimer** Cette option supprime toutes les configurations d’archivage sélectionnées.
     
-- **Action** Vous pouvez utiliser cette option pour activer ou désactiver rapidement l’archivage des sessions de messagerie instantanée ou des sessions de conférence Web dans n’importe quelle configuration de la page, au lieu de modifier la configuration. Les options disponibles sous **action** dépendent de l’option actuellement spécifiée dans la configuration de l’archivage. Toutes les options sont disponibles, à l’exception de l’option actuellement appliquée à la configuration de l’archivage. Les options disponibles sont les suivantes:
+- **Action** Vous pouvez utiliser cette option pour activer ou désactiver rapidement l’archivage des sessions de messagerie instantanée ou des sessions de conférence Web dans n’importe quelle configuration de la page, au lieu de modifier la configuration. Les options disponibles sous **action** dépendent de l’option actuellement spécifiée dans la configuration de l’archivage. Toutes les options sont disponibles, à l’exception de l’option actuellement appliquée à la configuration de l’archivage. Les options disponibles sont les suivantes :
     
   - **Archiver les sessions de messagerie instantanée**
     
@@ -64,7 +64,7 @@ La page **Configuration d’archivage** répertorie toutes les stratégies d’a
     
   - **Désactiver l’archivage**
     
-- **Actualiser** Vous pouvez actualiser la page **configuration** de l’archivage pour vérifier l’état des options de toutes les configurations d’archivage.
+- **Actualiser** Vous pouvez actualiser la page Configuration de l' **archivage** pour vérifier l’état des options de toutes les configurations d’archivage.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration d’Exchange, voir [planification de l’archivage dans Skype entreprise server 2015](../../plan-your-deployment/archiving/archiving.md), déploiement de l’archivage [pour skype entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et gestion de l' [archivage dans Skype pour Business Server 2015](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration d’Exchange, voir [planification de l’archivage dans Skype entreprise server 2015](../../plan-your-deployment/archiving/archiving.md), déploiement de l’archivage [pour skype entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et [gestion de l’archivage dans Skype entreprise Server 2015](../../manage/archiving/archiving.md).
 

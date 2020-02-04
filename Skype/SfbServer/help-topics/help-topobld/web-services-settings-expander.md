@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: Dans le générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour vos services Web internes et externes. De plus, et si vous déployez l’équilibrage de charge DNS (Domain Name System), vous pouvez utiliser le générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui se résout aux adresses IP physiques de tous les serveurs du pool.
-ms.openlocfilehash: 8b68a2318434c8849c180bdde188e0fe69dfd61f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3304be3e4e8442e3ce100bd57c8ea75bd8a6c7ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282062"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684267"
 ---
 # <a name="web-services-settings-expander"></a>Expanseur des paramètres des services web
  
